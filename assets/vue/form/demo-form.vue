@@ -1,11 +1,11 @@
 <script>
 
-import FormVue from "../bases/form.vue";
-import TextInput from "./fields/text-input.vue";
-import TextareaInput from "./fields/textarea-input.vue";
-import RadioInput from "./fields/radio-input.vue";
-import SwitchInput from "./fields/switch-input.vue";
-import SubmitButton from "./fields/submit-button.vue";
+import FormVue from "@wexample/symfony-design-system/vue/bases/form.vue";
+import TextInput from "@wexample/symfony-design-system/vue/form/fields/text-input.vue";
+import TextareaInput from "@wexample/symfony-design-system/vue/form/fields/textarea-input.vue";
+import RadioInput from "@wexample/symfony-design-system/vue/form/fields/radio-input.vue";
+import SwitchInput from "@wexample/symfony-design-system/vue/form/fields/switch-input.vue";
+import SubmitButton from "@wexample/symfony-design-system/vue/form/fields/submit-button.vue";
 
 export default {
   extends: FormVue,

@@ -1,6 +1,6 @@
 @use '@wexample/symfony-design-system/css/shapes/media';
 @use '@wexample/symfony-design-system/css/shapes/block';
-@use '../../../../css/partials/palette' as palette;
+@use '@wexample/symfony-design-system/css/partials/palette' as palette;
 
 .media-demo--bg-primary {
   background: palette.$colorPrimary;

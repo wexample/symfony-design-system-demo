@@ -1,5 +1,5 @@
 <script>
-import AbstractEntityTable from './abstract-entity-table.vue';
+import AbstractEntityTable from '@wexample/symfony-design-system/vue/collection/table/abstract-entity-table.vue';
 
 const DEMO_ROWS = Array.from({ length: 23 }, (value, index) => ({
   reference: `REF-${String(index + 1).padStart(3, '0')}`,
