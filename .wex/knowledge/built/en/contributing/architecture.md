@@ -1,19 +1,3 @@
-# symfony-design-system-demo
-
-Version: 1.0.1
-
-A Symfony bundle that ships the showcase pages of `wexample/symfony-design-system`: a set of Twig pages under assets/pages/design_system/generic rendering buttons, inputs, menus, tables, modals, banners, spinners and forms in their real markup, each exposed as a route by a `#[TemplateBasedRoutes]` controller so the whole catalogue is browsable in a running application. Install it in a host project and the pages mount under the design system base route, grouped by controls, layout, content, components, dialog, feedback and form. It exists for the people building or integrating the design system — to see a component rendered, compare its variants and states side by side, and exercise the interactive ones (AJAX form submission, modal behaviours) against live code rather than a screenshot.
-
-## Table of Contents
-
-- [Architecture](#architecture)
-- [Integration in the Suite](#integration-in-the-suite)
-- [Dependencies](#dependencies)
-- [Versioning & Compatibility Policy](#versioning--compatibility-policy)
-- [License](#license)
-- [About us](#about-us)
-- [Migration Notes](#migration-notes)
-
 ## Architecture
 
 The package is a Symfony bundle with no application behind it: its output is a tree of showcase pages mounted under one route prefix. Two directories carry everything — `src/`, where the PHP classes are rarely longer than twenty lines, and `assets/`, which holds the templates, styles, scripts and translations of every page.
@@ -84,6 +68,7 @@ A page is a basename repeated across extensions in the same directory. `componen
 
 The template extends its section layout and addresses its own translations through the `@page::` alias:
 
+
 ```twig
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/components/layout/layout-components.html.twig' -%}
 
@@ -91,6 +76,7 @@ The template extends its section layout and addresses its own translations throu
     <p class="lead">{{ '@page::intro' | trans }}</p>
 {%- endblock -%}
 ```
+
 
 The `.ts` default-exports a class extending the loader's `Page`, and does its work in `pageReady()`:
 
@@ -114,15 +100,19 @@ The `.scss` is usually a one-line `@use` of a shared partial (`dialog/index.scss
 
 Each section owns a layout at `<section>/layout/layout-<section>.html.twig`. It extends the bundle layout and its job is the tab bar, one `tab_item(translation_key, route_name)` per page:
 
+
 ```twig
 {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.components.layout.layout-components::tab.doc', 'wexample_design_system_generic_components_doc') }}
 ```
 
+
 All section layouts converge on assets/layouts/design_system/layout.html.twig, which is where the package stops being self-contained:
+
 
 ```twig
 {%- extends '@front/layouts/private/layout.html.twig' -%}
 ```
+
 
 `@front` is the host application's own template namespace. The demo supplies pages; the application supplies the chrome around them. The matching `layout.en.yml` inherits the same way, with `~extends: '@front.layouts.private.layout'`.
 
@@ -162,10 +152,12 @@ The same four behaviors are therefore spelled out in four places — the process
 
 `assets/vue/` holds pairs. The `.vue.twig` is the server half: it extends a base from the design system bundle, declares its dependencies, and fills blocks with translated markup.
 
+
 ```twig
 {%- extends '@WexampleSymfonyDesignSystemBundle/vue/bases/form.vue.twig' -%}
 {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/form/fields/text-input') -}}
 ```
+
 
 Some are nothing else — `demo-entity-table.vue.twig` is a single `extends` line. The `.vue` is the client half: an options object that `extends` an upstream component and binds to the rendered template by id. assets/vue/collection/table/demo-entity-table.vue overrides `refreshEntitiesCollection()` to slice a 37-row constant instead of calling an API, and points its row actions back at the dialog routes:
 
@@ -176,49 +168,3 @@ Some are nothing else — `demo-entity-table.vue.twig` is a single `extends` lin
 ### What is not here
 
 No tests, no build configuration, no entities, no migrations. `composer.json` requires only `wexample/symfony-design-system` and `wexample/symfony-forms`, yet the code imports `Wexample\SymfonyLoader`, `Wexample\SymfonyHelpers`, `Wexample\SymfonyRouting` and `@wexample/symfony-content` directly — they arrive transitively, and a version bump upstream can break this package without any declared constraint noticing.
-
-## Integration in the Suite
-
-This package is part of the Wexample Suite — a collection of high-quality, modular tools designed to work seamlessly together across multiple languages and environments.
-
-### Related Packages
-
-The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
-
-Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
-
-## Dependencies
-
-- php: >=8.2
-- wexample/symfony-design-system: >=4.0.0
-- wexample/symfony-forms: >=1.0.86
-
-## Versioning & Compatibility Policy
-
-Wexample packages follow **Semantic Versioning** (SemVer):
-
-- **MAJOR**: Breaking changes
-- **MINOR**: New features, backward compatible
-- **PATCH**: Bug fixes, backward compatible
-
-We maintain backward compatibility within major versions and provide clear migration guides for breaking changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Free to use in both personal and commercial projects.
-
-## About us
-
-[Wexample](https://wexample.com) stands as a cornerstone of the digital ecosystem — a collective of seasoned engineers, researchers, and creators driven by a relentless pursuit of technological excellence. More than a media platform, it has grown into a vibrant community where innovation meets craftsmanship, and where every line of code reflects a commitment to clarity, durability, and shared intelligence.
-
-This packages suite embodies this spirit. Trusted by professionals and enthusiasts alike, it delivers a consistent, high-quality foundation for modern development — open, elegant, and battle-tested. Its reputation is built on years of collaboration, refinement, and rigorous attention to detail, making it a natural choice for those who demand both robustness and beauty in their tools.
-
-Wexample cultivates a culture of mastery. Each package, each contribution carries the mark of a community that values precision, ethics, and innovation — a community proud to shape the future of digital craftsmanship.
-
-## Migration Notes
-
-When upgrading between major versions, refer to the migration guides in the documentation.
-
-Breaking changes are clearly documented with upgrade paths and examples.
