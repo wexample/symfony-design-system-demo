@@ -1,0 +1,20 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    _instanceof:
+        Wexample\SymfonyForms\Service\FormProcessor\AbstractFormProcessor:
+            tags: ['wexample.symfony_forms.form_processor']
+
+    Wexample\SymfonyDesignSystemDemo\Controller\:
+        resource: '../../Controller/'
+        exclude: '../../Controller/**/Abstract*.php'
+        tags: ['controller.service_arguments']
+
+    Wexample\SymfonyDesignSystemDemo\Form\:
+        resource: '../../Form/'
+
+    Wexample\SymfonyDesignSystemDemo\Service\:
+        resource: '../../Service/'

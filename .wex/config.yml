@@ -1,7 +1,9 @@
 domain: symfony-design-system-demo.wex
+git:
+  publication_strategy: main_push
 global:
   name: symfony-design-system-demo
-  type: app
+  type: php-package
   version: 1.0.0
 wex:
   migration: 1

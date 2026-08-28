@@ -33,3 +33,6 @@ coverage-*.json
 coverage*.lcov
 *.pid
 *.pid.lock
+.php-cs-fixer.cache
+.scannerwork
+/vendor

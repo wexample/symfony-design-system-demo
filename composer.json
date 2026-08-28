@@ -1,0 +1,35 @@
+{
+  "name": "wexample/symfony-design-system-demo",
+  "description": "Design system showcase pages for Symfony",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "symfony-ux"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wexample\\SymfonyDesignSystemDemo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "weeger",
+      "email": "romain.weeger@wexample.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "wexample/symfony-design-system": ">=4.0.0",
+    "wexample/symfony-forms": ">=1.0.86"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ]
+}
