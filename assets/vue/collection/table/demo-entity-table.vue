@@ -12,7 +12,7 @@ const DEMO_ROWS = Array.from({ length: 37 }, (value, index) => ({
 export default {
   extends: AbstractEntityTable,
 
-  template: "#vue-template-wexample-symfony-design-system-bundle-vue-collection-table-demo-entity-table",
+  template: "#vue-template-wexample-symfony-design-system-demo-bundle-vue-collection-table-demo-entity-table",
 
   methods: {
     getEntityClass() {

@@ -4,7 +4,7 @@ import AbstractEntityTable from '@wexample/symfony-design-system/vue/collection/
 export default {
   extends: AbstractEntityTable,
 
-  template: "#vue-template-wexample-symfony-design-system-bundle-vue-collection-table-demo-dates-table",
+  template: "#vue-template-wexample-symfony-design-system-demo-bundle-vue-collection-table-demo-dates-table",
 
   methods: {
     getEntityClass() {
