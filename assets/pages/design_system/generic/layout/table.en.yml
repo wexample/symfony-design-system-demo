@@ -8,6 +8,8 @@ section:
     title: Simple table
   actions:
     title: Table with actions
+  links:
+    title: Link and icon cells
   loading:
     title: Loading state
   empty:
@@ -30,6 +32,9 @@ column:
     name: Source
     date: Updated at
     operations: Actions
+  links:
+    source: Source
+    state: State
   alignment:
     left: Name (left)
     center: Status (center)

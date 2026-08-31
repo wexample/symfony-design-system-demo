@@ -38,6 +38,20 @@
         </section>
 
         <section>
+            <h2>{{ '@page::section.links.title' | trans }}</h2>
+            {{ table(
+                [
+                    { key: 'source', label: '@page::column.links.source' | trans, cell: 'link' },
+                    { key: 'state', label: '@page::column.links.state' | trans, cell: 'icon', align: 'center' },
+                ],
+                [
+                    { source: { label: '@page::row.action.one.title' | trans, href: '#' }, state: { icon: 'ph:bold/check-circle', href: '#' } },
+                    { source: { label: '@page::row.action.two.title' | trans }, state: { icon: 'ph:bold/clock' } },
+                ]
+            ) }}
+        </section>
+
+        <section>
             <h2>{{ '@page::section.loading.title' | trans }}</h2>
             {{ table(actions_columns, [], {
                 loading: true,
