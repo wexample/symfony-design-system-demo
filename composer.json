@@ -3,7 +3,7 @@
   "description": "Design system showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "keywords": [
     "symfony-ux"
   ],
@@ -20,7 +20,7 @@
   ],
   "require": {
     "php": ">=8.2",
-    "wexample/symfony-design-system": ">=7.0.0",
+    "wexample/symfony-design-system": ">=8.0.0",
     "wexample/symfony-forms": ">=2.0.0"
   },
   "repositories": [
