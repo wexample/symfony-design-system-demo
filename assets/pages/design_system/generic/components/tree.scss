@@ -1,0 +1,15 @@
+@use './layout/layout-components';
+@use '@wexample/symfony-design-system/css/shapes/tree';
+@use '@wexample/symfony-design-system/css/shapes/zone';
+
+// The panel is what an explorer sits in inside an IDE, so the demo gives the tree
+// one rather than letting it run the width of the page.
+.tree-demo--panel {
+  max-width: var(--size-6);
+}
+
+// A zone is 100% of its parent, and the page body has no height of its own, so
+// the demo is what says how tall the explorer stands.
+.tree-demo--workspace {
+  height: var(--size-7);
+}

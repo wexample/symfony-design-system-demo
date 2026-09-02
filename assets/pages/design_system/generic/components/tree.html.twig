@@ -1,0 +1,89 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/components/layout/layout-components.html.twig' -%}
+
+{%- set folder = 'ph:bold/folder' -%}
+{%- set file = 'ph:bold/file' -%}
+
+{%- set project = [
+    {
+        label: 'src',
+        icon: folder,
+        open: true,
+        children: [
+            {
+                label: 'Controller',
+                icon: folder,
+                open: true,
+                children: [
+                    { label: 'AppController.php', icon: file, href: '#', selected: true },
+                    { label: 'HomeController.php', icon: file, href: '#' },
+                ],
+            },
+            {
+                label: 'Model',
+                icon: folder,
+                children: [
+                    { label: 'App.php', icon: file, href: '#' },
+                ],
+            },
+            { label: 'Kernel.php', icon: file, href: '#' },
+        ],
+    },
+    {
+        label: 'front',
+        icon: folder,
+        children: [
+            { label: 'index.html.twig', icon: file, href: '#' },
+        ],
+    },
+    { label: 'composer.json', icon: file, href: '#' },
+] -%}
+
+{%- block page_body -%}
+    <h2>{{ '@page::section.default.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.default.description' | trans }}</div>
+    <div class="block block--padded tree-demo--panel">
+        {{ tree(project) }}
+    </div>
+
+    <h2>{{ '@page::section.workspace.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.workspace.description' | trans }}</div>
+    <div class="zone zone--split tree-demo--workspace">
+        <div class="zone zone--narrow zone--size-6 zone--alt zone--padded">
+            {{ '@page::workspace.menu' | trans }}
+        </div>
+        <div class="zone zone--split zone--split--vertical zone--bordered">
+            <div class="toolbar toolbar--shaded">
+                <div class="toolbar--group">
+                    {{ button('ph:bold/plus', '@page::workspace.create' | trans) }}
+                    {{ button('ph:bold/arrows-clockwise', '@page::workspace.refresh' | trans) }}
+                </div>
+            </div>
+            <div class="zone zone--split">
+                <div class="zone zone--narrow zone--size-6 zone--scrollable">
+                    {{ tree(project) }}
+                </div>
+                <div class="zone zone--bordered zone--scrollable zone--padded">
+                    <h3>AppController.php</h3>
+                    <p>{{ '@page::workspace.body' | trans }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded tree-demo--panel">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/tree', { items: project }) }}
+    </div>
+
+    <h2>{{ '@page::section.plain.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.plain.description' | trans }}</div>
+    <div class="block block--padded tree-demo--panel">
+        {{ tree([
+            { label: '@page::plain.root' | trans, open: true, children: [
+                { label: '@page::plain.child' | trans },
+                { label: '@page::plain.sibling' | trans },
+            ] },
+        ]) }}
+    </div>
+{%- endblock -%}
