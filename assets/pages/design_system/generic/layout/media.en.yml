@@ -10,3 +10,9 @@ section:
     title: Overlay
   aspect_ratio:
     title: Aspect Ratio
+  document:
+    title: Embedded document
+    description: "An iframe fills its box, so the box carries the size: a ratio modifier, or media--fill to take whatever height the parent gives."
+
+document:
+  title: Placeholder document

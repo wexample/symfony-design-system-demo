@@ -41,6 +41,28 @@
         </div>
     </div>
 
+    <h2>{{ '@page::section.document.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.document.description' | trans }}</div>
+    <div class="stack--horizontal">
+        <div class="block block--padded" style="flex: 1">
+            <div style="height: 20rem;">
+                {{ document_embed(
+                    path('wexample_design_system_fixtures_placeholder_pdf'),
+                    '@page::document.title' | trans
+                ) }}
+            </div>
+            <p>media--fill</p>
+        </div>
+        <div class="block block--padded" style="flex: 1">
+            {{ document_embed(
+                path('wexample_design_system_fixtures_placeholder_pdf'),
+                '@page::document.title' | trans,
+                { ratio: '16-9' }
+            ) }}
+            <p>16-9</p>
+        </div>
+    </div>
+
     <h2>{{ '@page::section.overlay.title' | trans }}</h2>
     <div class="stack--horizontal">
         <div class="block block--padded" style="flex: 1">
