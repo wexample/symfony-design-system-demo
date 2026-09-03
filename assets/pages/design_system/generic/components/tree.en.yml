@@ -7,9 +7,6 @@ section:
   default:
     title: File explorer
     description: "Nesting is the whole structure: an item opens when it carries open, and its depth is what indents the row while the highlight still spans the full width."
-  workspace:
-    title: Menu, toolbar and explorer
-    description: "Two nested splits, one vertical: the toolbar is not a zone, so it keeps its own height while the split under it takes everything left."
   vue:
     title: Vue
     description: "Same markup, same shape, but the folders open and close: each node owns its state from the moment it is mounted, and a click sends the item up as a select event."
@@ -17,10 +14,7 @@ section:
     title: Without icons
     description: "The shape knows nothing about files — an item with no icon and no link renders as plain text."
 
-workspace:
-  menu: Menu
-  create: New file
-  refresh: Refresh
+explorer:
   body: "The tree carries no width and no height of its own: the zone beside it is an ordinary one, and each side scrolls alone."
 
 plain:
