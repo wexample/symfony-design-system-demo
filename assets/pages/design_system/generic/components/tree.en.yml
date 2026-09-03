@@ -9,7 +9,7 @@ section:
     description: "Nesting is the whole structure: an item opens when it carries open, and its depth is what indents the row while the highlight still spans the full width."
   vue:
     title: Vue
-    description: "Same markup, same shape, but the folders open and close: each node owns its state from the moment it is mounted, and a click sends the item up as a select event."
+    description: "Same markup, same shape, but the folders open and close: the chevron is what folds a node, and a click anywhere else on the row selects the item and sends it up as a select event."
   plain:
     title: Without icons
     description: "The shape knows nothing about files — an item with no icon and no link renders as plain text."
