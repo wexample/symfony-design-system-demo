@@ -5,7 +5,6 @@ namespace Wexample\SymfonyDesignSystemDemo\Form\Demo;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
-use Symfony\Component\OptionsResolver\OptionsResolver;
 use Wexample\Helpers\Helper\PlaceholderHelper;
 use Wexample\SymfonyForms\Form\AbstractForm;
 use Wexample\SymfonyForms\Form\Type\ButtonInputType;
@@ -28,14 +27,6 @@ use Wexample\SymfonyLoader\Helper\AdaptiveRequestHelper;
 class FormSubmitBehaviorDemoForm extends AbstractForm
 {
     public static bool $ajax = false;
-
-    public function configureOptions(OptionsResolver $resolver): void
-    {
-        parent::configureOptions($resolver);
-        $resolver->setDefaults([
-            'translation_domain' => 'WexampleSymfonyDesignSystemDemoBundle.forms.demo.form_submit_behavior_demo_form',
-        ]);
-    }
 
     public function __construct(
         private readonly RequestStack $requestStack

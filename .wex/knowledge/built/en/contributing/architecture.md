@@ -124,7 +124,7 @@ For `components/doc`: the template-based route loader matched the URL because th
 
 src/Form/Demo/FormSubmitBehaviorDemoForm.php builds one field of every type `wexample/symfony-forms` offers. Every field is `mapped => false` with a hardcoded `data`, so the form displays filled without an entity behind it, and the submit buttons encode the demo's four outcomes: `submit_error`, `submit_js`, `submit_redirect`, `submit_default`. Two more appear when `AdaptiveRequestHelper::isEmbedded($request)` is true.
 
-`FormSubmitBehaviorAjaxDemoForm` subclasses it and changes two things — `public static bool $ajax = true;` and the translation domain. `FormSubmitBehaviorAjaxDemoFormProcessor` has an empty body: its name alone pairs it with that form.
+`FormSubmitBehaviorAjaxDemoForm` subclasses it and changes one thing — `public static bool $ajax = true;`. Its translation domain follows its own class name, so it declares nothing to read its own labels. `FormSubmitBehaviorAjaxDemoFormProcessor` has an empty body: its name alone pairs it with that form.
 
 The outcome is chosen in src/Service/FormProcessor/Demo/FormSubmitBehaviorDemoFormProcessor.php, from the clicked button:
 

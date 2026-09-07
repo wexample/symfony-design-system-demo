@@ -2,17 +2,13 @@
 
 namespace Wexample\SymfonyDesignSystemDemo\Form\Demo;
 
-use Symfony\Component\OptionsResolver\OptionsResolver;
-
+/**
+ * The same fields as its parent, submitted over ajax.
+ *
+ * The translation domain follows the class name, so the two forms read their
+ * own labels without either of them naming a domain.
+ */
 class FormSubmitBehaviorAjaxDemoForm extends FormSubmitBehaviorDemoForm
 {
     public static bool $ajax = true;
-
-    public function configureOptions(OptionsResolver $resolver): void
-    {
-        parent::configureOptions($resolver);
-        $resolver->setDefaults([
-            'translation_domain' => 'WexampleSymfonyDesignSystemDemoBundle.forms.demo.form_submit_behavior_ajax_demo_form',
-        ]);
-    }
 }
