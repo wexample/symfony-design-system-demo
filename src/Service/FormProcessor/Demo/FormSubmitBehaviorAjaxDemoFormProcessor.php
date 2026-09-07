@@ -2,12 +2,12 @@
 
 namespace Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo;
 
-use Wexample\SymfonyDesignSystemDemo\Form\Demo\FormSubmitBehaviorAjaxDemoForm;
-
+/**
+ * The same behaviours, submitted over ajax.
+ *
+ * Nothing to declare: the name alone pairs it with
+ * `FormSubmitBehaviorAjaxDemoForm`, and the parent handles the rest.
+ */
 class FormSubmitBehaviorAjaxDemoFormProcessor extends FormSubmitBehaviorDemoFormProcessor
 {
-    public static function getFormClass(): string
-    {
-        return FormSubmitBehaviorAjaxDemoForm::class;
-    }
 }

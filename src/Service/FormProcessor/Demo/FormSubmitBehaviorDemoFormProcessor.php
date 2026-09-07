@@ -4,17 +4,11 @@ namespace Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo;
 
 use Symfony\Component\Form\FormError;
 use Symfony\Component\Form\FormInterface;
-use Wexample\SymfonyDesignSystemDemo\Form\Demo\FormSubmitBehaviorDemoForm;
 use Wexample\SymfonyForms\Service\FormProcessor\AbstractFormProcessor;
 use Wexample\SymfonyHelpers\Helper\RoleHelper;
 
 class FormSubmitBehaviorDemoFormProcessor extends AbstractFormProcessor
 {
-    public static function getFormClass(): string
-    {
-        return FormSubmitBehaviorDemoForm::class;
-    }
-
     public function getRequiredRoles(): array
     {
         return [RoleHelper::PUBLIC_ACCESS];
