@@ -21,7 +21,7 @@
             <div class="lead">
                 {{ ('@page::section.' ~ test.key ~ '.description') | trans }}
             </div>
-            {{ button_modal('ph:bold/app-window', '@page::section.' ~ test.key ~ '.button', test.route, [], { class: test.class, modal_options: test.options }) }}
+            {{ button_target('ph:bold/app-window', '@page::section.' ~ test.key ~ '.button', path(test.route), 'modal', { class: 'button ' ~ test.class, target_options: test.options }) }}
         </div>
     {% endfor %}
 
@@ -29,7 +29,7 @@
         <div class="lead">
             {{ '@page::section.recursive.description' | trans }}
         </div>
-        {{ button_modal('ph:bold/app-window', '@page::section.recursive.button_modal', 'wexample_design_system_generic_dialog_index', [], { class: 'modal-test-recursive-modal-button', modal_options: { closeOnEscape: true, closeOnOverlayClick: true } }) }}
-        {{ button_panel('ph:bold/sidebar-simple-duotone', '@page::section.recursive.button_panel', 'wexample_design_system_generic_dialog_panel', [], { class: 'modal-test-recursive-panel-button', panel_options: { closeOnEscape: true, closeOnOverlayClick: true } }) }}
+        {{ button_target('ph:bold/app-window', '@page::section.recursive.button_modal', path('wexample_design_system_generic_dialog_index'), 'modal', { class: 'button modal-test-recursive-modal-button', target_options: { closeOnEscape: true, closeOnOverlayClick: true } }) }}
+        {{ button_target('ph:bold/sidebar-simple-duotone', '@page::section.recursive.button_panel', path('wexample_design_system_generic_dialog_panel'), 'panel', { class: 'button modal-test-recursive-panel-button', target_options: { closeOnEscape: true, closeOnOverlayClick: true } }) }}
     </div>
 {%- endblock -%}

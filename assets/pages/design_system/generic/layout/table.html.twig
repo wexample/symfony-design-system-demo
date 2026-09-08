@@ -6,9 +6,22 @@
             { key: 'date', label: '@page::column.actions.date' | trans, secondary: true },
             { key: 'operations', label: '@page::column.actions.operations' | trans, cell: 'actions', class: 'table--cell--fit' },
         ] %}
+        {#- The same two actions the Vue table below declares, so the pair can be
+            compared on one page: a target sends the page to an overlay instead of
+            replacing the current one. -#}
         {% set row_actions = [
-            { icon: 'ph:bold/eye', href: '#' },
-            { icon: 'ph:bold/pencil-simple', href: '#' },
+            {
+                icon: 'ph:bold/eye',
+                href: path('wexample_design_system_generic_dialog_modal_test_simple'),
+                target: 'modal',
+                target_options: { closeOnEscape: true, closeOnOverlayClick: true }
+            },
+            {
+                icon: 'ph:bold/pencil-simple',
+                href: path('wexample_design_system_generic_dialog_modal_test_medium'),
+                target: 'panel',
+                target_options: { closeOnEscape: true, closeOnOverlayClick: true }
+            },
         ] %}
 
         <section>

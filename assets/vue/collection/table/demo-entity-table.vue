@@ -44,14 +44,14 @@ export default {
         {
           label: false,
           align: 'center',
-          embed: 'modal',
-          embedOptions: { closeOnEscape: true, closeOnOverlayClick: true },
+          target: 'modal',
+          targetOptions: { closeOnEscape: true, closeOnOverlayClick: true },
           actions: [
             { name: 'show', route: 'wexample_design_system_generic_dialog_modal_test_simple' },
             {
               name: 'edit',
               route: 'wexample_design_system_generic_dialog_modal_test_medium',
-              embed: 'panel',
+              target: 'panel',
             },
           ],
         },
