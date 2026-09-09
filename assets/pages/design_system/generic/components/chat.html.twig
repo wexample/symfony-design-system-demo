@@ -103,7 +103,9 @@
 
         <h2>{{ '@page::vue.title' | trans }}</h2>
         <div class="lead">{{ '@page::vue.description' | trans }}</div>
-        <div class="block block--padded chat-demo--vue">
+        {#- No padding here: the thread and the composer bring their own, and the
+            two would stack. -#}
+        <div class="block chat-demo--vue">
             {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat') }}
         </div>
 {%- endblock -%}
