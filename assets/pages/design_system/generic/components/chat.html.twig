@@ -100,4 +100,10 @@
                 </div>
             </div>
         </div>
+
+        <h2>{{ '@page::vue.title' | trans }}</h2>
+        <div class="lead">{{ '@page::vue.description' | trans }}</div>
+        <div class="block block--padded chat-demo--vue">
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat') }}
+        </div>
 {%- endblock -%}

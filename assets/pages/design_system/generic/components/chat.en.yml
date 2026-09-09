@@ -6,6 +6,13 @@ page_icon: ph:bold/chats-circle
 chat:
   title: Chat example
 
+vue:
+  title: Vue
+  description: >
+    The same thread and the same composer, drawn by the entity chat component. It holds a collection of entities
+    and knows nothing of what they are: the author, the text and the date are read through projections a subclass
+    overrides, and a submitted message goes out through the repository like any other creation.
+
 description:
   body: >
     This chat playground is used to validate message rhythm, spacing, and vertical density before final UI styling.
