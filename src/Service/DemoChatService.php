@@ -6,6 +6,7 @@ use Wexample\SymfonyDesignSystemDemo\Api\Normalizer\Entity\DemoMessage\DefaultDe
 use Wexample\SymfonyDesignSystemDemo\Entity\DemoMessage;
 use Wexample\SymfonyDesignSystemDemo\Entity\DemoRoom;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
+use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
 use Wexample\SymfonyLive\Enum\LiveTopicAction;
 use Wexample\SymfonyLive\Helper\LiveTopicHelper;
 use Wexample\SymfonyLive\Service\LivePublisherService;
@@ -27,14 +28,50 @@ class DemoChatService
      */
     final public const REPLY_BODY = 'Well received. This answer was not in the response to your message: it was written once the request was over, and reached you through the hub.';
 
+    /**
+     * The kinds of line the composer cannot produce yet, written once so the page
+     * has one of each to show. Order is the order they are said in.
+     */
+    private const SHOWCASE_THREAD = [
+        [DemoMessage::TYPE_SYSTEM, 'Conversation opened with the demo model.'],
+        [DemoMessage::TYPE_USER, 'What is the weather in Paris?'],
+        [DemoMessage::TYPE_TOOL, 'weather.lookup(city: "Paris") → 18°C, overcast'],
+        [DemoMessage::TYPE_ASSISTANT, 'It is 18°C and overcast in Paris right now.'],
+        [DemoMessage::TYPE_ERROR, 'The model did not answer: the request timed out after 30 seconds.'],
+    ];
+
     /** @var DemoMessage[] */
     private array $pendingReplies = [];
 
     public function __construct(
         private readonly DemoMessageRepository $demoMessageRepository,
+        private readonly DemoRoomRepository $demoRoomRepository,
         private readonly DefaultDemoMessageNormalizer $normalizer,
         private readonly LivePublisherService $publisher,
     ) {
+    }
+
+    /**
+     * A demo has no fixtures: the room and its showcase lines are made the first
+     * time the page is opened, and found on every visit after.
+     */
+    public function findOrCreateShowcaseRoom(string $name): DemoRoom
+    {
+        $room = $this->demoRoomRepository->findOrCreateOneByName($name);
+
+        // The system line is the marker: it can only come from here, so finding one
+        // means the showcase has already been written into this room.
+        if (! $this->demoMessageRepository->findOneBy(['room' => $room, 'type' => DemoMessage::TYPE_SYSTEM])) {
+            foreach (self::SHOWCASE_THREAD as [$type, $body]) {
+                $message = new DemoMessage($room);
+                $message->setType($type);
+                $message->setBody($body);
+
+                $this->demoMessageRepository->save($message);
+            }
+        }
+
+        return $room;
     }
 
     public function postMessage(

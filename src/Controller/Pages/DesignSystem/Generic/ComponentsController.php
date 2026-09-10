@@ -5,7 +5,7 @@ namespace Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\Generic
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
-use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
+use Wexample\SymfonyDesignSystemDemo\Service\DemoChatService;
 use Wexample\SymfonyLoader\Controller\Pages\AbstractDesignSystemController;
 use Wexample\SymfonyRouting\Attribute\TemplateBasedRoutes;
 
@@ -25,10 +25,10 @@ final class ComponentsController extends AbstractDesignSystemGenericController
      * to before any message exists.
      */
     #[Route(path: 'chat', name: 'chat')]
-    public function chat(DemoRoomRepository $demoRoomRepository): Response
+    public function chat(DemoChatService $demoChatService): Response
     {
         return $this->renderPage('chat', [
-            'demo_room' => $demoRoomRepository->findOrCreateOneByName(self::DEMO_ROOM_NAME),
+            'demo_room' => $demoChatService->findOrCreateShowcaseRoom(self::DEMO_ROOM_NAME),
         ]);
     }
 }

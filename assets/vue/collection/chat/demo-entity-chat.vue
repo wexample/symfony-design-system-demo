@@ -5,6 +5,9 @@ import DemoMessage from '../../../Entity/DemoMessage';
 
 const ICON_BY_TYPE = {
   assistant: 'ph:bold/robot',
+  error: 'ph:bold/warning-circle',
+  system: 'ph:bold/info',
+  tool: 'ph:bold/wrench',
   user: 'ph:bold/user'
 };
 
@@ -68,6 +71,10 @@ export default {
 
     getMessageIcon(entity) {
       return ICON_BY_TYPE[entity.type] ?? ICON_BY_TYPE.user;
+    },
+
+    getMessageVariant(entity) {
+      return entity.type;
     },
 
     buildMessageEntity(content) {
