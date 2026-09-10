@@ -46,13 +46,23 @@ class DemoMessageController extends AbstractApiController
             return self::apiResponseError('Unknown room.');
         }
 
+        $type = $payload->getString('type', DemoMessage::TYPE_USER);
+
+        if (! in_array($type, DemoMessage::getAllowedTypes(), true)) {
+            return self::apiResponseError('Unknown message type.');
+        }
+
         $message = $demoChatService->postMessage(
             $room,
-            DemoMessage::TYPE_USER,
+            $type,
             $payload->getString('body')
         );
 
-        $demoChatService->scheduleReply($message);
+        // Only a spoken turn is answered: a tool or system line raised from the
+        // composer is there to be shown, not to be talked to.
+        if (DemoMessage::TYPE_USER === $type) {
+            $demoChatService->scheduleReply($message);
+        }
 
         return self::apiResponseSuccess(
             data: $normalizer->normalize($message)

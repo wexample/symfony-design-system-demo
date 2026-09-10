@@ -14,6 +14,11 @@ const ICON_BY_TYPE = {
 // What the server publishes on the room's topic when a message is written.
 const EVENT_MESSAGE_CREATED = 'demo-message-created';
 
+// The kinds of line the composer cannot produce by typing, each reachable as a
+// slash command of the same name. A user message needs no command: it is what
+// typing already does.
+const SLASH_COMMAND_TYPES = ['assistant', 'error', 'system', 'tool'];
+
 export default {
   extends: AbstractEntityChat,
 
@@ -85,12 +90,22 @@ export default {
       return entity.type;
     },
 
-    buildMessageEntity(content) {
+    buildMessageEntity(content, type = 'user') {
       return new DemoMessage({
         room: this.roomId,
-        type: 'user',
+        type,
         body: content
       });
+    },
+
+    getSlashCommands() {
+      return SLASH_COMMAND_TYPES.reduce((commands, type) => {
+        commands[type] = (text) => this.getEntityRepository().createEntity(
+          this.buildMessageEntity(text || this.trans(`@vue::slash.${type}`), type)
+        );
+
+        return commands;
+      }, {});
     },
 
     async subscribeToRoom() {
