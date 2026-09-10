@@ -58,7 +58,9 @@
         <div class="stack--horizontal">
             <div class="block block--fill">
                 <div class="block--title">{{ '@page::chat.title' | trans }}</div>
-                <div class="zone--scrollable">
+                {#- The same assembly the Vue component emits, so what is shown here
+                    is what a chat ships as. -#}
+                <div class="chat">
                     <div class="chat-thread">
                         {{ chat_macro.message('Assistant', '9h20', '@page::messages.assistant_1' | trans) }}
                         {{ chat_macro.message('Maya', '9h21', '@page::messages.user_1' | trans) }}
@@ -67,31 +69,31 @@
                         {{ chat_macro.message('Assistant', '9h24', '@page::messages.assistant_3' | trans) }}
                         {{ chat_macro.message('Assistant', '9h25', '@page::messages.assistant_4' | trans) }}
                     </div>
-                </div>
-                <div class="block--footer">
-                    {{
-                        chat_macro.composer(
-                            'chat-textarea',
-                            1,
-                            '@page::composer.placeholder' | trans,
-                            '@page::composer.submit_label' | trans,
-                            '@page::composer.action_plus_label' | trans,
-                            '@page::composer.action_smiley_label' | trans
-                        )
-                    }}
-                </div>
-                <div class="block--footer">
-                    {{
-                        chat_macro.composer(
-                            'chat-textarea chat-textarea--multiline',
-                            4,
-                            '@page::composer.placeholder' | trans,
-                            '@page::composer.submit_label' | trans,
-                            '@page::composer.action_plus_label' | trans,
-                            '@page::composer.action_smiley_label' | trans,
-                            '@page::composer.multiline_value' | trans
-                        )
-                    }}
+                    <div class="chat--footer">
+                        {{
+                            chat_macro.composer(
+                                'chat-textarea',
+                                1,
+                                '@page::composer.placeholder' | trans,
+                                '@page::composer.submit_label' | trans,
+                                '@page::composer.action_plus_label' | trans,
+                                '@page::composer.action_smiley_label' | trans
+                            )
+                        }}
+                    </div>
+                    <div class="chat--footer">
+                        {{
+                            chat_macro.composer(
+                                'chat-textarea chat-textarea--multiline',
+                                4,
+                                '@page::composer.placeholder' | trans,
+                                '@page::composer.submit_label' | trans,
+                                '@page::composer.action_plus_label' | trans,
+                                '@page::composer.action_smiley_label' | trans,
+                                '@page::composer.multiline_value' | trans
+                            )
+                        }}
+                    </div>
                 </div>
             </div>
             <div class="block block--padded">
@@ -103,8 +105,7 @@
 
         <h2>{{ '@page::vue.title' | trans }}</h2>
         <div class="lead">{{ '@page::vue.description' | trans }}</div>
-        {#- No padding here: the thread and the composer bring their own, and the
-            two would stack. -#}
+        {#- No padding here: the chat insets its own parts, and the two would stack. -#}
         <div class="block chat-demo--vue">
             {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat') }}
         </div>
