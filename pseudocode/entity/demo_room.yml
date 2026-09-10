@@ -1,0 +1,73 @@
+items:
+  - name: DemoRoom
+    type: class
+    description: "What the demos hold their messages in, and the thing a browser subscribes to.\nA chat watches one room and not each of its lines: the room is what outlives\nthe messages and is known before any of them exists, so it is the only name a\nsubscription can be opened on before the first arrival. Hence the sole EVENT\naction — nothing ever changes on the room itself, it only carries what happens\ninside it.\nIts identity derives from its name, so the room a page asks for is made once\nand found on every visit after."
+    properties:
+      - name: id
+        type: Symfony\Component\Uid\Uuid
+      - name: name
+        type: string
+        nullable: true
+        default: null
+    methods:
+      - type: method
+        name: buildEntityPath
+        parameters:
+          - type: string
+            name: className
+        return:
+          type: string
+      - type: method
+        name: getEntityKeyName
+        return:
+          type: string
+      - type: method
+        name: getEntityShortName
+        return:
+          type: string
+      - type: method
+        name: getId
+        return:
+          type: Symfony\Component\Uid\Uuid
+      - type: method
+        name: setId
+        parameters:
+          - type: Symfony\Component\Uid\Uuid
+            name: id
+        return:
+          type: void
+      - type: method
+        name: getTableizedName
+        return:
+          type: string
+      - type: method
+        name: getCamelName
+        return:
+          type: string
+      - type: method
+        name: getName
+        return:
+          type: string
+      - type: method
+        name: setName
+        parameters:
+          - type: string
+            name: name
+        return:
+          type: self
+      - type: method
+        name: setNameFromTitle
+        return:
+          type: self
+      - type: method
+        name: __construct
+        parameters:
+          - type: string
+            name: name
+      - type: method
+        name: idFor
+        parameters:
+          - type: string
+            name: name
+        return:
+          type: Uuid

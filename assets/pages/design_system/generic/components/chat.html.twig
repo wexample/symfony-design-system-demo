@@ -107,6 +107,6 @@
         <div class="lead">{{ '@page::vue.description' | trans }}</div>
         {#- No padding here: the chat insets its own parts, and the two would stack. -#}
         <div class="block chat-demo--vue">
-            {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat') }}
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat', { roomId: demo_room.id }) }}
         </div>
 {%- endblock -%}

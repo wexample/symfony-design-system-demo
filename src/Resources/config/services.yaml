@@ -13,8 +13,13 @@ services:
         exclude: '../../Controller/**/Abstract*.php'
         tags: ['controller.service_arguments']
 
-    Wexample\SymfonyDesignSystemDemo\Form\:
-        resource: '../../Form/'
+    Wexample\SymfonyDesignSystemDemo\:
+        resource: '../../{EventListener,Form,Repository,Security,Service}'
 
-    Wexample\SymfonyDesignSystemDemo\Service\:
-        resource: '../../Service/'
+    Wexample\SymfonyDesignSystemDemo\Api\Controller\:
+        resource: '../../Api/Controller/*'
+        tags: ['controller.service_arguments']
+
+    Wexample\SymfonyDesignSystemDemo\Api\Normalizer\:
+        resource: '../../Api/Normalizer/*'
+        tags: ['serializer.normalizer']

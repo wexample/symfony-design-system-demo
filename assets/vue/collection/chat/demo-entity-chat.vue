@@ -1,45 +1,101 @@
 <script>
 import AbstractEntityChat from '@wexample/symfony-design-system/vue/collection/chat/abstract-entity-chat.vue';
+import LiveUpdatesService from '@wexample/symfony-loader/js/Services/LiveUpdatesService';
+import DemoMessage from '../../../Entity/DemoMessage';
 
-const DEMO_MESSAGES = [
-  { id: 1, author: 'Maya', content: 'Can you summarize yesterday\'s sync?', createdAt: '2026-03-02T09:21:00' },
-  { id: 2, author: 'Assistant', content: 'Sure, here are the decisions we can execute this week.', createdAt: '2026-03-02T09:22:00' },
-  { id: 3, author: 'Maya', content: 'Keep it short, it goes into the sidebar.', createdAt: '2026-03-02T09:23:00' },
-];
+const ICON_BY_TYPE = {
+  assistant: 'ph:bold/robot',
+  user: 'ph:bold/user'
+};
+
+// What the server publishes on the room's topic when a message is written.
+const EVENT_MESSAGE_CREATED = 'demo-message-created';
 
 export default {
   extends: AbstractEntityChat,
 
   template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-collection-chat-demo-entity-chat',
 
+  props: {
+    // The room the thread is held in. The page makes it and names it, and it is
+    // also the only thing the browser can subscribe to before a message exists.
+    roomId: {
+      type: String,
+      required: true
+    }
+  },
+
+  data() {
+    return {
+      liveConnection: null
+    };
+  },
+
+  mounted() {
+    this.runWhenAppReady(() => this.subscribeToRoom());
+  },
+
+  beforeUnmount() {
+    this.liveConnection?.close();
+    this.liveConnection = null;
+  },
+
   methods: {
     getEntityClass() {
-      return null;
+      return DemoMessage;
     },
 
-    // Stands in for the API: the component still goes through createEntity(),
-    // so the composer is exercised the way a real chat would exercise it.
-    getEntityRepository() {
+    getEntitiesFetchParams() {
       return {
-        createEntity: async (entity) => {
-          DEMO_MESSAGES.push(entity);
-          return entity;
-        },
+        query: {
+          room: this.roomId
+        }
       };
     },
 
-    async refreshEntitiesCollection() {
-      this.entities = [...DEMO_MESSAGES];
+    // A message has no author of its own: who spoke is its type.
+    getMessageAuthor(entity) {
+      return this.trans(`@vue::author.${entity.type}`);
+    },
+
+    getMessageContent(entity) {
+      return entity.body ?? '';
+    },
+
+    getMessageDate(entity) {
+      return entity.dateCreated ?? null;
+    },
+
+    getMessageIcon(entity) {
+      return ICON_BY_TYPE[entity.type] ?? ICON_BY_TYPE.user;
     },
 
     buildMessageEntity(content) {
-      return {
-        id: DEMO_MESSAGES.length + 1,
-        author: 'Maya',
-        content,
-        createdAt: new Date().toISOString(),
-      };
+      return new DemoMessage({
+        room: this.roomId,
+        type: 'user',
+        body: content
+      });
     },
-  },
+
+    async subscribeToRoom() {
+      this.liveConnection = await this.app
+        .getServiceOrFail(LiveUpdatesService)
+        .connectToEntity({
+          entityName: 'demo-room',
+          id: this.roomId,
+          onMessage: (connection, payload) => this.onLiveMessage(payload)
+        });
+    },
+
+    // The thread is refetched rather than appended to: the message just
+    // published is also the one the sender already has, and asking again is
+    // shorter than telling the two apart.
+    onLiveMessage(payload) {
+      if (payload?.event === EVENT_MESSAGE_CREATED) {
+        this.refreshEntitiesCollection();
+      }
+    }
+  }
 };
 </script>

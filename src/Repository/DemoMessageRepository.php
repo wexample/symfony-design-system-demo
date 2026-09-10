@@ -2,6 +2,7 @@
 
 namespace Wexample\SymfonyDesignSystemDemo\Repository;
 
+use Doctrine\ORM\QueryBuilder;
 use Wexample\SymfonyDesignSystemDemo\Entity\DemoMessage;
 use Wexample\SymfonyDesignSystemDemo\Entity\DemoRoom;
 use Wexample\SymfonyDesignSystemDemo\Entity\Traits\Manipulator\DemoMessageEntityManipulatorTrait;
@@ -17,16 +18,11 @@ class DemoMessageRepository extends AbstractRepository
 {
     use DemoMessageEntityManipulatorTrait;
 
-    /**
-     * The thread as it was said, oldest first.
-     *
-     * @return DemoMessage[]
-     */
-    public function findByRoom(DemoRoom $room): array
+    /** The thread as it was said, oldest first, left open so it can be paginated. */
+    public function queryByRoomOldestFirst(DemoRoom $room): QueryBuilder
     {
-        return $this->findBy(
-            ['room' => $room],
-            ['dateCreated' => self::SORT_ASC]
-        );
+        return $this
+            ->queryByField('room', $room)
+            ->orderBy($this->getEntityQueryAlias() . '.dateCreated', self::SORT_ASC);
     }
 }

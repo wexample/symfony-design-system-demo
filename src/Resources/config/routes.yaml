@@ -2,6 +2,10 @@ design_system_demo_controllers:
     resource: '../../Controller/'
     type: attribute
 
+design_system_demo_api_controllers:
+    resource: '../../Api/Controller/'
+    type: attribute
+
 template_routes:
     resource: .
     type: template_based_routes

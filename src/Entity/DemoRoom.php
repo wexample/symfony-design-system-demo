@@ -9,18 +9,23 @@ use Wexample\SymfonyApi\Attribute\ApiEntity;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
 use Wexample\SymfonyHelpers\Entity\AbstractEntity;
 use Wexample\SymfonyHelpers\Entity\Traits\HasNameTrait;
+use Wexample\SymfonyLive\Attribute\LiveEntity;
+use Wexample\SymfonyLive\Enum\LiveTopicAction;
 
 /**
  * What the demos hold their messages in, and the thing a browser subscribes to.
  *
  * A chat watches one room and not each of its lines: the room is what outlives
  * the messages and is known before any of them exists, so it is the only name a
- * subscription can be opened on before the first arrival.
+ * subscription can be opened on before the first arrival. Hence the sole EVENT
+ * action — nothing ever changes on the room itself, it only carries what happens
+ * inside it.
  *
- * Its identity derives from its name, so the seed can run again and again and
- * still leave one room.
+ * Its identity derives from its name, so the room a page asks for is made once
+ * and found on every visit after.
  */
 #[ApiEntity]
+#[LiveEntity(actions: [LiveTopicAction::EVENT])]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoRoomRepository::class)]
 #[ORM\Table(name: 'demo_room')]

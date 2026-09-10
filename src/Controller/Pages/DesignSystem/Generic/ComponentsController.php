@@ -2,8 +2,10 @@
 
 namespace Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\Generic;
 
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
+use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
 use Wexample\SymfonyLoader\Controller\Pages\AbstractDesignSystemController;
 use Wexample\SymfonyRouting\Attribute\TemplateBasedRoutes;
 
@@ -14,4 +16,19 @@ use Wexample\SymfonyRouting\Attribute\TemplateBasedRoutes;
 #[TemplateBasedRoutes]
 final class ComponentsController extends AbstractDesignSystemGenericController
 {
+    /** The room the live chat of the page talks in, made on the first visit. */
+    public const DEMO_ROOM_NAME = 'chat';
+
+    /**
+     * The one page of the section that is not template-only: a live chat needs
+     * something to be live about, and that is a room the browser can subscribe
+     * to before any message exists.
+     */
+    #[Route(path: 'chat', name: 'chat')]
+    public function chat(DemoRoomRepository $demoRoomRepository): Response
+    {
+        return $this->renderPage('chat', [
+            'demo_room' => $demoRoomRepository->findOrCreateOneByName(self::DEMO_ROOM_NAME),
+        ]);
+    }
 }
