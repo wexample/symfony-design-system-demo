@@ -14,7 +14,7 @@ class DefaultDemoMessageNormalizer extends AbstractEntityNormalizer
 {
     use DemoMessageEntityManipulatorTrait;
 
-    public function normalizeEntity(
+    protected function normalizeEntity(
         DemoMessage|AbstractEntity $entity,
         ?string $format = null,
         array $context = []

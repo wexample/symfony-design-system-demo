@@ -55,7 +55,7 @@ class DemoMessageController extends AbstractApiController
         $demoChatService->scheduleReply($message);
 
         return self::apiResponseSuccess(
-            data: $normalizer->normalizeEntity($message)
+            data: $normalizer->normalize($message)
         );
     }
 

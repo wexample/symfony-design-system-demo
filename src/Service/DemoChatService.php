@@ -51,7 +51,7 @@ class DemoChatService
         $this->publisher->publishEvent(
             LiveTopicHelper::entity($room, LiveTopicAction::EVENT),
             self::EVENT_MESSAGE_CREATED,
-            $this->normalizer->normalizeEntity($message)->toArray()
+            $this->normalizer->normalize($message)
         );
 
         return $message;
