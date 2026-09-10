@@ -56,6 +56,14 @@ export default {
       };
     },
 
+    getPageLength() {
+      return 20;
+    },
+
+    startsAtLastPage() {
+      return true;
+    },
+
     // A message has no author of its own: who spoke is its type.
     getMessageAuthor(entity) {
       return this.trans(`@vue::author.${entity.type}`);
