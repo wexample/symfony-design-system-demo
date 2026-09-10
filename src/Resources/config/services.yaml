@@ -14,7 +14,8 @@ services:
         tags: ['controller.service_arguments']
 
     Wexample\SymfonyDesignSystemDemo\:
-        resource: '../../{EventListener,Form,Repository,Security,Service}'
+        resource: '../../{Chat,EventListener,Form,Repository,Security,Service}'
+        exclude: '../../Chat/**/Abstract*.php'
 
     Wexample\SymfonyDesignSystemDemo\Api\Controller\:
         resource: '../../Api/Controller/*'

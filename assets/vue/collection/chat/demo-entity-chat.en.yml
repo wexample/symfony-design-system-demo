@@ -4,8 +4,3 @@ author:
   system: System
   tool: Tool call
   user: You
-slash:
-  assistant: An answer, as the model would have written it.
-  error: The model did not answer: the request timed out.
-  system: A notice from the machine, not from anyone speaking.
-  tool: demo.run(argument: "value") → done

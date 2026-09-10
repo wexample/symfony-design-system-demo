@@ -23,6 +23,14 @@ class DemoChatService
     final public const EVENT_MESSAGE_CREATED = 'demo-message-created';
 
     /**
+     * Which commands the demo composer offers, and what a command is given of the
+     * chat it was typed in.
+     */
+    final public const SLASH_COMMAND_GROUP = 'demo-chat';
+
+    final public const SLASH_COMMAND_PARAM_ROOM = 'room';
+
+    /**
      * What the demo answers with. Generic on purpose: the point of the page is
      * that the answer arrives on its own, not what it says.
      */

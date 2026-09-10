@@ -9,6 +9,7 @@ use Wexample\SymfonyApi\Api\Attribute\QueryOption\PageQueryOption;
 use Wexample\SymfonyApi\Api\Attribute\QueryOption\StringQueryOption;
 use Wexample\SymfonyApi\Api\Class\ApiResponse;
 use Wexample\SymfonyApi\Api\Controller\AbstractApiController;
+use Wexample\SymfonyDesignSystem\Chat\SlashCommand\SlashCommandRegistry;
 use Wexample\SymfonyDesignSystemDemo\Api\Normalizer\Entity\DemoMessage\DefaultDemoMessageNormalizer;
 use Wexample\SymfonyDesignSystemDemo\Entity\DemoMessage;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
@@ -37,6 +38,7 @@ class DemoMessageController extends AbstractApiController
         DemoChatService $demoChatService,
         DemoRoomRepository $demoRoomRepository,
         DefaultDemoMessageNormalizer $normalizer,
+        SlashCommandRegistry $slashCommands,
     ): ApiResponse {
         $payload = $request->getPayload();
 
@@ -46,23 +48,26 @@ class DemoMessageController extends AbstractApiController
             return self::apiResponseError('Unknown room.');
         }
 
-        $type = $payload->getString('type', DemoMessage::TYPE_USER);
+        $body = $payload->getString('body');
 
-        if (! in_array($type, DemoMessage::getAllowedTypes(), true)) {
-            return self::apiResponseError('Unknown message type.');
+        // A command comes in as the message it was typed in, and what it writes is
+        // its own business: the composer has one way out, and the browser never
+        // says what kind of line it wants.
+        if ($slashCommands->run(
+            DemoChatService::SLASH_COMMAND_GROUP,
+            $body,
+            [DemoChatService::SLASH_COMMAND_PARAM_ROOM => $room]
+        )) {
+            return self::apiResponseSuccess();
         }
 
         $message = $demoChatService->postMessage(
             $room,
-            $type,
-            $payload->getString('body')
+            DemoMessage::TYPE_USER,
+            $body
         );
 
-        // Only a spoken turn is answered: a tool or system line raised from the
-        // composer is there to be shown, not to be talked to.
-        if (DemoMessage::TYPE_USER === $type) {
-            $demoChatService->scheduleReply($message);
-        }
+        $demoChatService->scheduleReply($message);
 
         return self::apiResponseSuccess(
             data: $normalizer->normalize($message)
