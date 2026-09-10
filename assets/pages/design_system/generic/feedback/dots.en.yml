@@ -1,0 +1,15 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Dots
+page_icon: ph:bold/dots-three
+section:
+  sizes:
+    title: Sizes
+    description: "Three sizes, as for the spinner. A spinner says a machine is busy; dots say something is about to be said."
+  inline:
+    title: Inline usage
+    description: Dots aligned with text.
+label:
+  waiting: Waiting
+inline:
+  text: The other side is writing
