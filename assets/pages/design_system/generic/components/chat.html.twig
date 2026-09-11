@@ -45,7 +45,7 @@
         <div class="chat--message">
             <div class="chat--message-meta">
                 <span class="chat--message-author">{{ author }}</span>
-                <span class="chat--message-date">{{ date }}</span>
+                {{ date_display(date, 'auto', { class: 'chat--message-date' }) }}
             </div>
             <div class="chat--message-content">
                 {{ content }}
@@ -62,12 +62,12 @@
                     is what a chat ships as. -#}
                 <div class="chat">
                     <div class="chat-thread">
-                        {{ chat_macro.message('Assistant', '9h20', '@page::messages.assistant_1' | trans) }}
-                        {{ chat_macro.message('Maya', '9h21', '@page::messages.user_1' | trans) }}
-                        {{ chat_macro.message('Assistant', '9h22', '@page::messages.assistant_2' | trans) }}
-                        {{ chat_macro.message('Maya', '9h23', '@page::messages.user_2' | trans) }}
-                        {{ chat_macro.message('Assistant', '9h24', '@page::messages.assistant_3' | trans) }}
-                        {{ chat_macro.message('Assistant', '9h25', '@page::messages.assistant_4' | trans) }}
+                        {{ chat_macro.message('Assistant', '-22 minutes', '@page::messages.assistant_1' | trans) }}
+                        {{ chat_macro.message('Maya', '-18 minutes', '@page::messages.user_1' | trans) }}
+                        {{ chat_macro.message('Assistant', '-12 minutes', '@page::messages.assistant_2' | trans) }}
+                        {{ chat_macro.message('Maya', '-9 minutes', '@page::messages.user_2' | trans) }}
+                        {{ chat_macro.message('Assistant', '-4 minutes', '@page::messages.assistant_3' | trans) }}
+                        {{ chat_macro.message('Assistant', '-40 seconds', '@page::messages.assistant_4' | trans) }}
                     </div>
                     <div class="chat--footer">
                         {{
@@ -84,7 +84,7 @@
                     <div class="chat--footer">
                         {{
                             chat_macro.composer(
-                                'chat-textarea chat-textarea--multiline',
+                                'chat-textarea',
                                 4,
                                 '@page::composer.placeholder' | trans,
                                 '@page::composer.submit_label' | trans,
