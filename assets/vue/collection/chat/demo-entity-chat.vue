@@ -1,6 +1,5 @@
 <script>
 import AbstractEntityChat from '@wexample/symfony-design-system/vue/collection/chat/abstract-entity-chat.vue';
-import LiveUpdatesService from '@wexample/symfony-loader/js/Services/LiveUpdatesService';
 import DemoMessage from '../../../Entity/DemoMessage';
 
 const ICON_BY_TYPE = {
@@ -26,21 +25,6 @@ export default {
       type: String,
       required: true
     }
-  },
-
-  data() {
-    return {
-      liveConnection: null
-    };
-  },
-
-  mounted() {
-    this.runWhenAppReady(() => this.subscribeToRoom());
-  },
-
-  beforeUnmount() {
-    this.liveConnection?.close();
-    this.liveConnection = null;
   },
 
   methods: {
@@ -92,23 +76,12 @@ export default {
       });
     },
 
-    async subscribeToRoom() {
-      this.liveConnection = await this.app
-        .getServiceOrFail(LiveUpdatesService)
-        .connectToEntity({
-          entityName: 'demo-room',
-          id: this.roomId,
-          onMessage: (connection, payload) => this.onLiveMessage(payload)
-        });
-    },
-
-    // The thread is refetched rather than appended to: the message just
-    // published is also the one the sender already has, and asking again is
-    // shorter than telling the two apart.
-    onLiveMessage(payload) {
-      if (payload?.event === EVENT_MESSAGE_CREATED) {
-        this.refreshEntitiesCollection();
-      }
+    getLiveThread() {
+      return {
+        entityName: 'demo-room',
+        id: this.roomId,
+        event: EVENT_MESSAGE_CREATED
+      };
     }
   }
 };
