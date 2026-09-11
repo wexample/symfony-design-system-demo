@@ -1,0 +1,62 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/components/layout/layout-components.html.twig' -%}
+
+{%- set sample = '2026-03-14 09:41:00' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.formats.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.formats.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ properties([
+            { key: 'time',            value: date_display(sample, 'time'),            html: true },
+            { key: 'date_short',      value: date_display(sample, 'date_short'),      html: true },
+            { key: 'date',            value: date_display(sample, 'date'),            html: true },
+            { key: 'date_long',       value: date_display(sample, 'date_long'),       html: true },
+            { key: 'date_time_short', value: date_display(sample, 'date_time_short'), html: true },
+            { key: 'date_time',       value: date_display(sample, 'date_time'),       html: true },
+            { key: 'date_time_full',  value: date_display(sample, 'date_time_full'),  html: true },
+            { key: 'month_year',      value: date_display(sample, 'month_year'),      html: true },
+        ], { bordered: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.relative.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.relative.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ properties([
+            { key: '@page::offset.now' | trans,     value: date_display('now', 'relative'),        html: true },
+            { key: '@page::offset.minutes' | trans, value: date_display('-5 minutes', 'relative'), html: true },
+            { key: '@page::offset.hours' | trans,   value: date_display('-3 hours', 'relative'),   html: true },
+            { key: '@page::offset.days' | trans,    value: date_display('-2 days', 'relative'),    html: true },
+            { key: '@page::offset.months' | trans,  value: date_display('-4 months', 'relative'),  html: true },
+            { key: '@page::offset.years' | trans,   value: date_display('-3 years', 'relative'),   html: true },
+            { key: '@page::offset.future' | trans,  value: date_display('+2 hours', 'relative'),   html: true },
+        ], { bordered: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.auto.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.auto.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ properties([
+            { key: '@page::offset.hours' | trans,  value: date_display('-3 hours'),  html: true },
+            { key: '@page::offset.days' | trans,   value: date_display('-2 days'),   html: true },
+            { key: '@page::offset.months' | trans, value: date_display('-4 months'), html: true },
+        ], { bordered: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.live.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.live.description' | trans }}</div>
+    <div class="block block--padded">
+        <p>{{ '@page::live.server' | trans }} {{ date_display('now', 'relative') }}</p>
+        <p>{{ '@page::live.vue' | trans }} {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-dates') }}</p>
+    </div>
+
+    <h2>{{ '@page::section.plain.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.plain.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ properties([
+            { key: '@page::plain.filter' | trans,  value: sample | date_format('date_long') },
+            { key: '@page::plain.pattern' | trans, value: sample | date_format("EEEE d MMMM, 'week' w") },
+        ], { bordered: true }) }}
+    </div>
+{%- endblock -%}

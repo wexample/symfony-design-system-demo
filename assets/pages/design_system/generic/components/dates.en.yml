@@ -1,0 +1,40 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Dates
+page_icon: ph:bold/clock
+
+intro: "One vocabulary of format names, understood identically by Twig, by plain JavaScript and by Vue. The server prints a <time> carrying the instant and the format it was asked for; the browser picks it up and rewrites it as it ages, so a page left open never lies about how long ago something happened."
+
+section:
+  formats:
+    title: Named formats
+    description: Absolute formats are ICU date and time styles, so the field order and the separators belong to the reader's locale rather than to the template.
+  relative:
+    title: Relative
+    description: The distance is counted in the largest unit that still says something — minutes up to an hour, hours up to a day, then days, weeks, months and years. Every wording comes from a translation key.
+  auto:
+    title: Auto
+    description: The default. Counts backwards while the date is recent, and falls back to a calendar date past a week, where "27 weeks ago" stops helping anyone.
+  live:
+    title: Kept up to date
+    description: A single timer serves every date on the page, at the cadence the displayed unit deserves — a few seconds for "just now", an hour for "3 months ago". Leave this page open and watch.
+  plain:
+    title: Text only
+    description: The filter returns a string with no markup, for a title attribute or an export. A format name it does not know is taken as a raw ICU pattern, which is the way out when the named formats do not have the shape you need.
+
+offset:
+  now: A moment ago
+  minutes: Five minutes
+  hours: Three hours
+  days: Two days
+  months: Four months
+  years: Three years
+  future: In two hours
+
+live:
+  server: Rendered by Twig, refreshed by the front service:
+  vue: Rendered by Vue:
+
+plain:
+  filter: "| date_format('date_long')"
+  pattern: "| date_format(\"EEEE d MMMM, 'week' w\")"
