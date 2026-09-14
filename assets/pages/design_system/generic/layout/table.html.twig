@@ -26,15 +26,18 @@
 
         <section>
             <h2>{{ '@page::section.default.title' | trans }}</h2>
+            {#- The third column is a date cell: the server prints the instant and
+                the browser keeps counting from it, exactly as the vue table does. -#}
             {{ table(
                 [
                     { key: 'name', label: '@page::column.default.name' | trans },
                     { key: 'date', label: '@page::column.default.date' | trans, secondary: true },
+                    { key: 'seen', label: '@page::column.default.seen' | trans, cell: 'date', secondary: true },
                 ],
                 [
-                    { name: '@page::row.one.title' | trans, date: '@page::row.one.meta' | trans },
-                    { name: '@page::row.two.title' | trans, date: '@page::row.two.meta' | trans },
-                    { name: '@page::row.three.title' | trans, date: '@page::row.three.meta' | trans },
+                    { name: '@page::row.one.title' | trans, date: '@page::row.one.meta' | trans, seen: '-40 seconds' },
+                    { name: '@page::row.two.title' | trans, date: '@page::row.two.meta' | trans, seen: '-22 minutes' },
+                    { name: '@page::row.three.title' | trans, date: '@page::row.three.meta' | trans, seen: '-3 hours' },
                 ]
             ) }}
         </section>

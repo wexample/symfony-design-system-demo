@@ -2,6 +2,17 @@ page_title: Status
 page_icon: ph:bold/seal-check
 
 section:
+  circles:
+    title: Pipeline circles
+    description: "A state told by a circle rather than by a word, for a place where states are read by the dozen — a list of runs, a row of jobs. The ring carries the colour, the glyph inside says which state it is, and both sides of the stack draw the same markup."
+  progress:
+    title: A state that is a quantity
+    description: "A run is the one state with an amount to it, so its ring is drawn as far as the run has got. Twig prints the value it is given; moving it afterwards is the browser's business."
+  sizes:
+    title: Sizes
+  vue:
+    title: Vue
+    description: "The same component, driven: switching the type or the value moves the arc instead of redrawing it. This one is what an app places when the state is going to change under the reader's eyes."
   variants:
     title: Variants
   code:

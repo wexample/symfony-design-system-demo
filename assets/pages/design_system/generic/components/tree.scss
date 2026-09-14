@@ -1,6 +1,8 @@
 @use './layout/layout-components';
 @use '@wexample/symfony-design-system/css/shapes/tree';
 @use '@wexample/symfony-design-system/css/shapes/zone';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+@use '@wexample/symfony-design-system/css/shapes/button';
 
 // The panel is what an explorer sits in inside an IDE, so the demo gives the tree
 // one rather than letting it run the width of the page.

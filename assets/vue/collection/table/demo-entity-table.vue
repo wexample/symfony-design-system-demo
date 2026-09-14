@@ -2,11 +2,14 @@
 import AbstractEntityTable from '@wexample/symfony-design-system/vue/collection/table/abstract-entity-table.vue';
 
 const STATUSES = ['Active', 'Pending', 'Inactive'];
+const NOW = Date.now();
 const DEMO_ROWS = Array.from({ length: 37 }, (value, index) => ({
   name: `Item ${String(index + 1).padStart(2, '0')}`,
   status: STATUSES[index % STATUSES.length],
   amount: `${(index + 1) * 7.5} €`,
   created: `2026-${String((index % 12) + 1).padStart(2, '0')}-15T09:45:00`,
+  // Close enough to now that the cells of the page being read redraw themselves.
+  seen: new Date(NOW - index * 37 * 1000).toISOString(),
 }));
 
 export default {
@@ -41,6 +44,9 @@ export default {
         { key: 'status',  label: 'Status', align: 'center' },
         { key: 'amount',  label: 'Amount', align: 'right' },
         { key: 'created', label: 'Created', secondary: true, format: (v) => this.cellFormatterDateOnly(v) },
+        // Live on every page: the cells are rebuilt as the pager moves, and each
+        // one keeps counting on its own afterwards.
+        { key: 'seen', label: 'Last seen', secondary: true, cell: 'date' },
         {
           label: false,
           align: 'center',

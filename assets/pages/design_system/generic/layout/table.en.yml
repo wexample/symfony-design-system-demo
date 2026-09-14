@@ -28,6 +28,7 @@ column:
   default:
     name: Name
     date: Date
+    seen: Last seen
   actions:
     name: Source
     date: Updated at

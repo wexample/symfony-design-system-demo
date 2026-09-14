@@ -10,11 +10,27 @@ section:
   vue:
     title: Vue
     description: "Same markup, same shape, but the folders open and close: the chevron is what folds a node, and a click anywhere else on the row selects the item and sends it up as a select event."
+  vue_workspace:
+    title: Vue, in a workspace
+    description: "The explorer as an app ships it: the vue tree in the scrollable zone of a split, holding more rows than the zone is tall and longer names than it is wide. The zone scrolls on both axes and the horizontal bar stays at its floor, whatever the last row is."
   plain:
     title: Without icons
     description: "The shape knows nothing about files — an item with no icon and no link renders as plain text."
 
 explorer:
+  scope:
+    project: Project
+    packages: Packages
+    scratches: Scratches
+    changed: Changed Files
+  option:
+    filters: Filters
+    sort: Sort by name
+    hidden: Show hidden files
+  action:
+    new: New file
+    locate: Select opened file
+    collapse: Collapse all
   body: "The tree carries no width and no height of its own: the zone beside it is an ordinary one, and each side scrolls alone."
 
 plain:

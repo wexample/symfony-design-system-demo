@@ -1,0 +1,65 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Bars
+page_icon: ph:bold/rows
+
+intro: "A bar names one thing in a single line: what it is, what it is called, what qualifies it, and what belongs at the far end. It is a shape, not a binding — an entity reaches it through its own template, but a search result that is a file, an app or a setting uses the very same markup."
+
+section:
+  alone:
+    title: The bar itself
+    description: Everything but the title is optional. The leading slot takes an icon, or any markup when a real avatar is needed; the trailing slot takes a date, a tag, a row of buttons. Given a link, the whole width becomes the target and the title keeps the colour of where it sits.
+  search:
+    title: A list of results
+    description: "The list brings the frame, the search field and the separators; each row brings a bar. Nothing here is an entity — that is the point: the same row serves a person, a document, an application and a preference."
+  surfaces:
+    title: One surface each
+    description: The other reading of a list — no shared background and no line, each bar standing on its own block with room around it. Nothing new to style, the bar simply takes the block classes, and given a link the whole card becomes the target.
+  divided:
+    title: A bare list
+    description: When the frame is already there, a vertical stack with dividers is enough — no shape of its own, just a line between two rows.
+
+sample:
+  minimal:
+    title: A title on its own
+  icon:
+    title: With a leading icon
+  subtitle:
+    title: Maya Lindqvist
+    subtitle: maya@example.com
+  trailing:
+    title: Quarterly reports
+    subtitle: 14 documents
+  link:
+    title: A bar that is a link
+    subtitle: The whole width is the target
+
+search:
+  placeholder: Search everything
+  value: report
+  filter: Filter
+
+result:
+  user:
+    title: Maya Lindqvist
+    subtitle: Person · Product team
+  file:
+    title: Quarterly report Q3.pdf
+    subtitle: Document · 2.4 MB
+  app:
+    title: Reporting
+    subtitle: Application · Installed
+  setting:
+    title: Report retention
+    subtitle: Setting · Storage
+
+member:
+  maya:
+    title: Maya Lindqvist
+    subtitle: Owner
+  sam:
+    title: Sam Okonkwo
+    subtitle: Editor
+  robot:
+    title: Nightly import
+    subtitle: Service account
