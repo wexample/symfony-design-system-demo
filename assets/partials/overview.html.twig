@@ -1,0 +1,14 @@
+{#- The map of a section: every page it holds, what it is for, in one list. Used
+    by each index, which is what the first tab of a section always is. -#}
+{%- macro pages(render_pass, items) -%}
+    <div class="list-expanded">
+        <div class="list-expanded--items">
+            {%- for item in items -%}
+                <a class="list-expanded--item" href="{{ path(item.route) }}" data-list-expanded-item>
+                    <strong>{{ icon(item.icon) }} {{ item.title }}</strong>
+                    <span>{{ item.description }}</span>
+                </a>
+            {%- endfor -%}
+        </div>
+    </div>
+{%- endmacro -%}

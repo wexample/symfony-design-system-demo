@@ -3,11 +3,23 @@
 page_title: Controls
 page_icon: ph:bold/cursor-click
 
-intro: "Interactive controls for triggering operations and capturing user input. Buttons, links, menus, selects, and switches cover the full spectrum of actions — from primary calls-to-action to assistive inputs that adapt to context, state, and layout."
+intro: "What a reader acts through. Each of these takes an action rather than a value — a form field takes the value, and lives in the next section."
+
+page:
+  buttons:
+    title: Buttons
+    description: "The one that does something, in its variants, its states and its densities, plus the link and the target that open elsewhere."
+  inputs:
+    title: Inputs
+    description: "Fields on their own, outside a form: text, select, switch, and the states they answer in."
+  menus:
+    title: Menus
+    description: "A button that opens a list of choices, placing itself against the edges of the window, in twig and in vue."
 
 section:
   compound:
-    title: Compound usage
+    title: Everything together
+    description: "The same set of controls in three contexts: a padded block, a toolbar, and a compact toolbar. Nothing about the controls changes between the three — the region is what tells them how much room they have."
 
 button:
   primary: Primary button

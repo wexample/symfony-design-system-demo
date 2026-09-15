@@ -1,0 +1,17 @@
+@use './layout/layout-generic';
+@use '@wexample/symfony-design-system/css/shapes/zone';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+@use '@wexample/symfony-design-system/css/shapes/button';
+
+// A zone is 100% of its parent, and a demo page has no height of its own: the
+// frame is what stands in for the screen a workspace would have had.
+.zone-demo--frame {
+  height: var(--size-7);
+  border: var(--border-region);
+  border-radius: var(--radius-1);
+  overflow: hidden;
+}
+
+.zone-demo--frame--short {
+  height: var(--size-4);
+}

@@ -1,22 +1,12 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/overview.html.twig' as overview -%}
 
 {%- block page_body -%}
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
-    <h2>{{ '@page::section.compound.title' | trans }}</h2>
-    <h3>{{ '@page::compound.heading' | trans }}</h3>
-    <p>{{ '@page::compound.body' | trans }}</p>
-    <p>{{ '@page::compound.tag_sentence' | trans }} <span class="pill tag-2">{{ '@page::compound.pill' | trans }}</span></p>
-    <div class="meta-bar">
-        <div class="meta-bar--group">
-            {{ icon('ph:bold/user') }}
-            <span>{{ '@page::compound.author' | trans }}</span>
-            {{ icon('ph:bold/dot') }}
-            {{ icon('ph:bold/calendar-blank') }}
-            <span>{{ '@page::compound.date' | trans }}</span>
-        </div>
-        <div class="meta-bar--group">
-            {{ button_link('ph:bold/share-network', '@page::compound.share' | trans, '#') }}
-        </div>
-    </div>
+    {{ overview.pages(render_pass, [
+        { route: 'wexample_design_system_generic_content_composition', icon: 'ph:bold/layout', title: '@page::page.composition.title' | trans, description: '@page::page.composition.description' | trans },
+        { route: 'wexample_design_system_generic_content_media', icon: 'ph:bold/image', title: '@page::page.media.title' | trans, description: '@page::page.media.description' | trans },
+        { route: 'wexample_design_system_generic_content_dates', icon: 'ph:bold/clock', title: '@page::page.dates.title' | trans, description: '@page::page.dates.description' | trans }
+    ]) }}
 {%- endblock -%}

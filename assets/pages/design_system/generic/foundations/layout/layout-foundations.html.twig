@@ -1,0 +1,13 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_header -%}
+    {{ parent() }}
+    <div class="tabs">
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.index', 'wexample_design_system_generic_foundations_index') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.colors', 'wexample_design_system_generic_foundations_colors') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.spacing', 'wexample_design_system_generic_foundations_spacing') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.typography', 'wexample_design_system_generic_foundations_typography') }}
+    </div>
+{%- endblock -%}

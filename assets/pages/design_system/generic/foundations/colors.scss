@@ -1,0 +1,52 @@
+@use './layout/layout-foundations';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+
+// A swatch is its colour first and its name second, so the sample is what takes
+// the room and the token sits under it.
+.swatch {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: var(--size-1);
+}
+
+.swatch--sample {
+  width: 100%;
+  height: var(--space-7);
+  border: var(--border-discreet);
+  border-radius: var(--radius-1);
+}
+
+.swatch--token {
+  font-size: var(--font-size-1);
+}
+
+.swatch--note {
+  font-size: var(--font-size-1);
+  color: var(--text-color-muted);
+}
+
+// A scale is read as one object, so its steps touch: where a level stops being
+// distinguishable from the next is exactly what the page has to show.
+.swatch-scale {
+  display: flex;
+  width: 100%;
+  border-radius: var(--radius-1);
+  overflow: hidden;
+}
+
+.swatch-scale--step {
+  flex: 1 1 0;
+  min-width: 0;
+  height: var(--space-6);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: var(--font-size-1);
+  color: var(--color-default-background);
+  mix-blend-mode: difference;
+}
+
+.border-sample {
+  padding-top: var(--space-2);
+}

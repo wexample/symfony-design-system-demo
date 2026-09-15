@@ -1,0 +1,14 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_header -%}
+    {{ parent() }}
+    <div class="tabs">
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.index', 'wexample_design_system_generic_overlays_index') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.modal', 'wexample_design_system_generic_overlays_modal') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.panel', 'wexample_design_system_generic_overlays_panel') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.confirm', 'wexample_design_system_generic_overlays_confirm') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.backdrop', 'wexample_design_system_generic_overlays_backdrop') }}
+    </div>
+{%- endblock -%}

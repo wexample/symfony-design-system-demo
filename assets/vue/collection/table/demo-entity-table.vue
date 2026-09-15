@@ -53,10 +53,10 @@ export default {
           target: 'modal',
           targetOptions: { closeOnEscape: true, closeOnOverlayClick: true },
           actions: [
-            { name: 'show', route: 'wexample_design_system_generic_dialog_modal_test_simple' },
+            { name: 'show', route: 'wexample_design_system_generic_overlays_modal_test_simple' },
             {
               name: 'edit',
-              route: 'wexample_design_system_generic_dialog_modal_test_medium',
+              route: 'wexample_design_system_generic_overlays_modal_test_medium',
               target: 'panel',
             },
           ],

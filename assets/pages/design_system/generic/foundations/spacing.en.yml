@@ -1,0 +1,27 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Spacing
+page_icon: ph:bold/ruler
+
+intro: "Three scales and one rule. A shape never writes a length: it spends a step, which is what keeps two components written a year apart from being two pixels out of rhythm."
+
+section:
+  space:
+    title: Spacing steps
+    description: "Nine steps, from a hairline to a page margin. Padding, gaps and margins all come from here — a value between two steps is a value that has not been decided."
+  size:
+    title: Sizes
+    description: "The widths and heights a region is given: a column, a panel, a reading measure. Larger than a spacing step and used for the same reason."
+  radius:
+    title: Radii
+    description: "Two corners and a pill. Anything rounder than the second step is a shape that wants to be a circle and should say so."
+  density:
+    title: Density
+    description: "Compactness belongs to a region and not to a widget. A bar declared compact makes what it holds compact too, because the tokens carrying it inherit — no component below is told where it stands."
+
+density:
+  roomy: A toolbar at its own density, and the buttons it holds
+  compact: The same toolbar declared compact — nothing was said about the buttons
+  marker: A region declared compact without being a shape of its own
+  action: Create
+  other: Refresh

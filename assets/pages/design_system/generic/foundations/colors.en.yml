@@ -1,0 +1,35 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Colours
+page_icon: ph:bold/palette
+
+intro: "No component names a colour. They name a role — a surface, a border, a state — and the theme decides what that role looks like on each of its faces. Switch the scheme from the header and watch every swatch below move without a single one being redefined."
+
+section:
+  surfaces:
+    title: Surfaces
+    description: "An elevation ladder above the page. The light face orders them by lightness, the dark face by how far each one is lifted off the background — which is why a component asks for a level and never for a grey."
+  invert:
+    title: Invert levels
+    description: "Twenty steps of the text colour laid over the background, and the source of nearly every border, muted text and hover state in the system. Level 1 is barely there, level 20 is the text itself."
+  semantic:
+    title: Semantic families
+    description: "Five families, twenty levels each. A component picks a level and not a hex, which is what lets the same message read correctly on both faces of the theme."
+  text:
+    title: Text
+    description: "Three levels of attention. What is being read, what qualifies it, and what is only there to be found when looked for."
+  borders:
+    title: Borders
+    description: "Four weights, told apart by what they separate: two things inside one region, two regions of a page, or a field from what is behind it."
+
+surface:
+  page: The page itself
+  shell: Menu, header, footer
+  one: Inputs and fields
+  two: Buttons, toolbars
+  three: Blocks, cards, modals
+
+text:
+  default: What is being read
+  muted: Labels, meta, subtitles
+  subtle: Separators and empty states

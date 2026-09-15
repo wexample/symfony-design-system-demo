@@ -1,0 +1,108 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/data/layout/layout-data.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.alone.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.alone.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        {{ bar('@page::sample.minimal.title' | trans) }}
+        {{ bar('@page::sample.icon.title' | trans, { icon: 'ph:bold/file-text' }) }}
+        {{ bar('@page::sample.subtitle.title' | trans, {
+            icon: 'ph:bold/user',
+            subtitle: '@page::sample.subtitle.subtitle' | trans
+        }) }}
+        {{ bar('@page::sample.trailing.title' | trans, {
+            icon: 'ph:bold/folder',
+            subtitle: '@page::sample.trailing.subtitle' | trans,
+            trailing: date_display('-2 hours')
+        }) }}
+        {{ bar('@page::sample.link.title' | trans, {
+            icon: 'ph:bold/link-simple',
+            subtitle: '@page::sample.link.subtitle' | trans,
+            href: '#'
+        }) }}
+    </div>
+
+    <h2>{{ '@page::section.search.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.search.description' | trans }}</div>
+    <div class="list-expanded">
+        <div class="list-expanded--header">
+            <input class="form--input list-expanded--search" type="text" placeholder="{{ '@page::search.placeholder' | trans }}" value="{{ '@page::search.value' | trans }}">
+            {{ button('ph:bold/funnel', '@page::search.filter' | trans) }}
+        </div>
+        <div class="list-expanded--items">
+            <a class="list-expanded--item" href="#" data-list-expanded-item>
+                {{ bar('@page::result.user.title' | trans, {
+                    icon: 'ph:bold/user',
+                    subtitle: '@page::result.user.subtitle' | trans
+                }) }}
+            </a>
+            <a class="list-expanded--item" href="#" data-list-expanded-item>
+                {{ bar('@page::result.file.title' | trans, {
+                    icon: 'ph:bold/file-pdf',
+                    subtitle: '@page::result.file.subtitle' | trans,
+                    trailing: date_display('-3 days')
+                }) }}
+            </a>
+            <a class="list-expanded--item" href="#" data-list-expanded-item>
+                {{ bar('@page::result.app.title' | trans, {
+                    icon: 'ph:bold/squares-four',
+                    subtitle: '@page::result.app.subtitle' | trans
+                }) }}
+            </a>
+            <a class="list-expanded--item" href="#" data-list-expanded-item>
+                {{ bar('@page::result.setting.title' | trans, {
+                    icon: 'ph:bold/sliders',
+                    subtitle: '@page::result.setting.subtitle' | trans
+                }) }}
+            </a>
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.divided.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.divided.description' | trans }}</div>
+    <div class="block block--padded">
+        <div class="stack--vertical stack--divided">
+            {{ bar('@page::member.maya.title' | trans, {
+                icon: 'ph:bold/user',
+                subtitle: '@page::member.maya.subtitle' | trans,
+                trailing: date_display('-4 minutes')
+            }) }}
+            {{ bar('@page::member.sam.title' | trans, {
+                icon: 'ph:bold/user',
+                subtitle: '@page::member.sam.subtitle' | trans,
+                trailing: date_display('-2 days')
+            }) }}
+            {{ bar('@page::member.robot.title' | trans, {
+                icon: 'ph:bold/robot',
+                subtitle: '@page::member.robot.subtitle' | trans,
+                trailing: date_display('-3 weeks')
+            }) }}
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.surfaces.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.surfaces.description' | trans }}</div>
+    <div class="stack--vertical">
+        {{ bar('@page::member.maya.title' | trans, {
+            icon: 'ph:bold/user',
+            subtitle: '@page::member.maya.subtitle' | trans,
+            trailing: date_display('-4 minutes'),
+            class: 'block block--padded'
+        }) }}
+        {{ bar('@page::member.sam.title' | trans, {
+            icon: 'ph:bold/user',
+            subtitle: '@page::member.sam.subtitle' | trans,
+            trailing: date_display('-2 days'),
+            href: '#',
+            class: 'block block--padded'
+        }) }}
+        {{ bar('@page::member.robot.title' | trans, {
+            icon: 'ph:bold/robot',
+            subtitle: '@page::member.robot.subtitle' | trans,
+            trailing: date_display('-3 weeks'),
+            class: 'block block--padded'
+        }) }}
+    </div>
+{%- endblock -%}

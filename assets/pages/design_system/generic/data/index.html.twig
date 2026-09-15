@@ -1,0 +1,15 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/data/layout/layout-data.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/overview.html.twig' as overview -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {{ overview.pages(render_pass, [
+        { route: 'wexample_design_system_generic_data_tables', icon: 'ph:bold/table', title: '@page::page.tables.title' | trans, description: '@page::page.tables.description' | trans },
+        { route: 'wexample_design_system_generic_data_lists', icon: 'ph:bold/list-dashes', title: '@page::page.lists.title' | trans, description: '@page::page.lists.description' | trans },
+        { route: 'wexample_design_system_generic_data_properties', icon: 'ph:bold/rows', title: '@page::page.properties.title' | trans, description: '@page::page.properties.description' | trans },
+        { route: 'wexample_design_system_generic_data_bars', icon: 'ph:bold/rows', title: '@page::page.bars.title' | trans, description: '@page::page.bars.description' | trans },
+        { route: 'wexample_design_system_generic_data_tree', icon: 'ph:bold/tree-structure', title: '@page::page.tree.title' | trans, description: '@page::page.tree.description' | trans },
+        { route: 'wexample_design_system_generic_data_chat', icon: 'ph:bold/chats-circle', title: '@page::page.chat.title' | trans, description: '@page::page.chat.description' | trans }
+    ]) }}
+{%- endblock -%}

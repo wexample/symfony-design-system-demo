@@ -1,0 +1,38 @@
+@use './layout/layout-foundations';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+@use '@wexample/symfony-design-system/css/shapes/button';
+
+// A step is read by its length, so the sample is a bar of exactly that length
+// and the name sits at a fixed column beside it.
+.metric {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-block: var(--space-1);
+}
+
+.metric--token {
+  flex: 0 0 var(--size-1);
+  font-size: var(--font-size-1);
+}
+
+.metric--sample {
+  height: var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--color-info-16);
+}
+
+.metric--note {
+  font-size: var(--font-size-1);
+  color: var(--text-color-muted);
+}
+
+.radius-sample {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: var(--surface-2);
+  border: var(--border-default);
+}

@@ -1,0 +1,33 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Zones
+page_icon: ph:bold/columns
+
+intro: "The two-pane workspace every explorer, editor and detail view is built on. A zone carries no width and no height of its own: the split it sits in is what sizes it, and each side scrolls alone."
+
+section:
+  split:
+    title: A split
+    description: "One column sized, the other taking what is left. The size is given by a step, and it is the zone's own — it is not inherited by anything nested inside it."
+  scrollable:
+    title: Each side scrolls alone
+    description: "A scrollable zone is what holds the overflow, not the page. Scroll one of these two and the other stays where it is, which is the whole reason for the shape."
+  vertical:
+    title: A header that does not scroll
+    description: "A split turned vertical: a narrow zone is the height of what it holds, the body takes the rest and scrolls under it. This is the arrangement of a panel with a toolbar on top."
+  wrap:
+    title: Below a floor
+    description: "Given a floor, the flexible zone claims a full line and the sized column moves above it instead of both being squeezed to nothing. Narrow the window to see it fold."
+
+split:
+  body: This side takes whatever the sized column leaves.
+
+scrollable:
+  item: Item
+  line: Line
+
+vertical:
+  action: Create
+
+wrap:
+  body: Below the floor this zone is given, it takes a line of its own.

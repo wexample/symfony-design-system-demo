@@ -1,0 +1,12 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/foundations/layout/layout-foundations.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/overview.html.twig' as overview -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {{ overview.pages(render_pass, [
+        { route: 'wexample_design_system_generic_foundations_colors', icon: 'ph:bold/palette', title: '@page::page.colors.title' | trans, description: '@page::page.colors.description' | trans },
+        { route: 'wexample_design_system_generic_foundations_spacing', icon: 'ph:bold/ruler', title: '@page::page.spacing.title' | trans, description: '@page::page.spacing.description' | trans },
+        { route: 'wexample_design_system_generic_foundations_typography', icon: 'ph:bold/text-aa', title: '@page::page.typography.title' | trans, description: '@page::page.typography.description' | trans }
+    ]) }}
+{%- endblock -%}

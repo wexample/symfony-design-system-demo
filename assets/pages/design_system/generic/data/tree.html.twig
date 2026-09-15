@@ -1,0 +1,145 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/data/layout/layout-data.html.twig' -%}
+
+{%- set folder = 'ph:bold/folder' -%}
+{%- set file = 'ph:bold/file' -%}
+
+{%- set project = [
+    {
+        label: 'src',
+        icon: folder,
+        open: true,
+        children: [
+            {
+                label: 'Controller',
+                icon: folder,
+                open: true,
+                children: [
+                    { label: 'AppController.php', icon: file, href: '#', selected: true },
+                    { label: 'HomeController.php', icon: file, href: '#' },
+                ],
+            },
+            {
+                label: 'Model',
+                icon: folder,
+                children: [
+                    { label: 'App.php', icon: file, href: '#' },
+                ],
+            },
+            { label: 'Kernel.php', icon: file, href: '#' },
+        ],
+    },
+    {
+        label: 'front',
+        icon: folder,
+        children: [
+            { label: 'index.html.twig', icon: file, href: '#' },
+        ],
+    },
+    { label: 'composer.json', icon: file, href: '#' },
+] -%}
+
+{%- set scopes = [
+    { icon: 'ph:bold/folder-open', label: '@page::explorer.scope.project' },
+    { icon: 'ph:bold/package',     label: '@page::explorer.scope.packages' },
+    { icon: 'ph:bold/note',        label: '@page::explorer.scope.scratches' },
+    { icon: 'ph:bold/git-branch',  label: '@page::explorer.scope.changed' },
+] -%}
+
+{%- set options_items = [
+    { icon: 'ph:bold/funnel',          label: '@page::explorer.option.filters' },
+    { icon: 'ph:bold/arrows-down-up',  label: '@page::explorer.option.sort' },
+    { icon: 'ph:bold/eye',             label: '@page::explorer.option.hidden' },
+] -%}
+
+{%- block page_body -%}
+    <h2>{{ '@page::section.default.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.default.description' | trans }}</div>
+    <div class="zone zone--split tree-demo--workspace">
+        <div class="zone zone--narrow zone--size-6 zone--split zone--split--vertical">
+            {#- Narrow, so the header is the height of what it holds and the tree
+                takes everything left — the header must not scroll with the files. -#}
+            <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
+                {{ button_menu(null, '@page::explorer.scope.project' | trans, scopes, { class: 'button--flat' }) }}
+                <div class="toolbar--group">
+                    <button class="toolbar--action" type="button" title="{{ '@page::explorer.action.new' | trans }}">
+                        {{ icon('ph:bold/plus') }}
+                    </button>
+                    <span class="toolbar--separator"></span>
+                    <button class="toolbar--action" type="button" title="{{ '@page::explorer.action.locate' | trans }}">
+                        {{ icon('ph:bold/crosshair-simple') }}
+                    </button>
+                    <button class="toolbar--action" type="button" title="{{ '@page::explorer.action.collapse' | trans }}">
+                        {{ icon('ph:bold/arrows-in-simple') }}
+                    </button>
+                    {{ button_menu('ph:bold/dots-three-vertical', null, options_items, {
+                        class: 'button--flat',
+                        menu_align: 'right'
+                    }) }}
+                </div>
+            </div>
+            <div class="zone zone--scrollable">
+                {{ tree(project) }}
+            </div>
+        </div>
+        <div class="zone zone--bordered zone--scrollable zone--padded">
+            <h3>AppController.php</h3>
+            <p>{{ '@page::explorer.body' | trans }}</p>
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded tree-demo--panel">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/tree', { items: project }) }}
+    </div>
+
+    {#- The case an app actually ships: the vue tree stands in a scrollable zone of a
+        split workspace, and holds more than the zone can show on either axis. The
+        zone is what scrolls, and the horizontal bar has to sit at its floor. -#}
+    <h2>{{ '@page::section.vue_workspace.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue_workspace.description' | trans }}</div>
+    {%- set deep_children = [] -%}
+    {%- for i in 1..40 -%}
+        {%- set deep_children = deep_children|merge([
+            { label: 'a-file-with-a-deliberately-long-name-' ~ i ~ '.html.twig', icon: file, href: '#' }
+        ]) -%}
+    {%- endfor -%}
+    {%- set crowded = [
+        {
+            label: 'src',
+            icon: folder,
+            open: true,
+            children: [
+                {
+                    label: 'Controller',
+                    icon: folder,
+                    open: true,
+                    children: [
+                        { label: 'Pages', icon: folder, open: true, children: deep_children },
+                    ],
+                },
+            ],
+        },
+        { label: 'composer.json', icon: file, href: '#' },
+    ] -%}
+    <div class="zone zone--split tree-demo--workspace">
+        <div class="zone zone--narrow zone--size-6">
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-explorer', { items: crowded }) }}
+        </div>
+        <div class="zone zone--bordered zone--scrollable zone--padded">
+            <h3>Pages</h3>
+            <p>{{ '@page::explorer.body' | trans }}</p>
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.plain.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.plain.description' | trans }}</div>
+    <div class="block block--padded tree-demo--panel">
+        {{ tree([
+            { label: '@page::plain.root' | trans, open: true, children: [
+                { label: '@page::plain.child' | trans },
+                { label: '@page::plain.sibling' | trans },
+            ] },
+        ]) }}
+    </div>
+{%- endblock -%}

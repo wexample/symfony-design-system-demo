@@ -1,6 +1,7 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/controls/layout/layout-controls.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/overview.html.twig' as overview -%}
 
-{%- macro render_compound(render_pass, options, menu_items) -%}
+{%- macro compound(render_pass, menu_items) -%}
     {{ button('ph:bold/plus', '@page::button.primary' | trans) }}
     <select class="form--input form--input--select form--input--inline">
         <option>{{ '@page::select.option_one' | trans }}</option>
@@ -13,25 +14,24 @@
 {%- endmacro -%}
 
 {%- block page_body -%}
-    {% import _self as macros %}
-
+    {% import _self as controls %}
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
-    {% set select_options = [
-        { value: 'one',   label: '@page::select.option_one' },
-        { value: 'two',   label: '@page::select.option_two' },
-        { value: 'three', label: '@page::select.option_three' }
-    ] %}
+    {{ overview.pages(render_pass, [
+        { route: 'wexample_design_system_generic_controls_buttons', icon: 'ph:bold/rectangle', title: '@page::page.buttons.title' | trans, description: '@page::page.buttons.description' | trans },
+        { route: 'wexample_design_system_generic_controls_inputs', icon: 'ph:bold/textbox', title: '@page::page.inputs.title' | trans, description: '@page::page.inputs.description' | trans },
+        { route: 'wexample_design_system_generic_controls_menus', icon: 'ph:bold/list', title: '@page::page.menus.title' | trans, description: '@page::page.menus.description' | trans }
+    ]) }}
 
+    <h2>{{ '@page::section.compound.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.compound.description' | trans }}</div>
     {% set menu_items = [
         { icon: 'ph:bold/clipboard-text', label: '@page::menu.item.report',   href: app_home_url() },
         { icon: 'ph:bold/gear',           label: '@page::menu.item.settings', href: app_home_url() },
         { icon: 'ph:bold/sign-out',       label: '@page::menu.item.logout',   href: app_home_url() },
         { icon: 'ph:bold/text-aa',        label: '@page::menu.item.long',     href: app_home_url() }
     ] %}
-
-    <h2>{{ '@page::section.compound.title' | trans }}</h2>
-    <div class="cluster">{{ macros.render_compound(render_pass, select_options, menu_items) }}</div>
-    <div class="cluster">{{ macros.render_compound(render_pass, select_options, menu_items) }}</div>
-    <div class="toolbar">{{ macros.render_compound(render_pass, select_options, menu_items) }}</div>
+    <div class="block block--padded cluster">{{ controls.compound(render_pass, menu_items) }}</div>
+    <div class="toolbar toolbar--shaded">{{ controls.compound(render_pass, menu_items) }}</div>
+    <div class="toolbar toolbar--shaded toolbar--compact">{{ controls.compound(render_pass, menu_items) }}</div>
 {%- endblock -%}

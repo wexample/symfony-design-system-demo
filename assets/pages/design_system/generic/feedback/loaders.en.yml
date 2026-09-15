@@ -1,0 +1,25 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Loaders
+page_icon: ph:bold/spinner-gap
+
+intro: "Something is happening and its end is not known. Both of these say that much and refuse to say more — where the end is known, the bar on the next tab says it instead."
+
+section:
+  spinner:
+    title: Spinner
+    description: "A machine is busy. Three sizes, and an inline alignment for when it stands in a line of text rather than in a box of its own."
+  dots:
+    title: Dots
+    description: "Something is about to be said. The same three sizes, and the same alignments — what changes is who the reader is waiting for."
+  vue:
+    title: Vue
+    description: "Both ship as vue partials too, taking the same options, for a page that decides while it runs whether there is anything to wait for."
+
+spinner:
+  label: Loading
+  inline: Processing data
+
+dots:
+  label: Waiting
+  inline: The other side is writing

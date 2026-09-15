@@ -1,0 +1,63 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/feedback/layout/layout-feedback.html.twig' -%}
+
+{#- The two of them side by side, because the whole question is which to reach
+    for: they take the same sizes and the same alignments, and differ only in
+    what they claim is happening. -#}
+{%- macro sizes(render_pass, component, label) -%}
+    <div class="stack--horizontal">
+        {%- for size in ['sm', null, 'lg'] -%}
+            <div class="block block--padded">
+                {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/' ~ component, {
+                    size: size,
+                    align: 'center',
+                    label: label
+                }) }}
+            </div>
+        {%- endfor -%}
+    </div>
+{%- endmacro -%}
+
+{%- macro inline(render_pass, component, label, text) -%}
+    <div class="block block--padded">
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/' ~ component, {
+            align: 'inline',
+            label: label
+        }) }}
+        <span>{{ text }}</span>
+    </div>
+{%- endmacro -%}
+
+{%- block page_body -%}
+    {% import _self as loader %}
+
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.spinner.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.spinner.description' | trans }}</div>
+    {{ loader.sizes(render_pass, 'spinner', '@page::spinner.label' | trans) }}
+    {{ loader.inline(render_pass, 'spinner', '@page::spinner.label' | trans, '@page::spinner.inline' | trans) }}
+
+    <h2>{{ '@page::section.dots.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.dots.description' | trans }}</div>
+    {{ loader.sizes(render_pass, 'dots', '@page::dots.label' | trans) }}
+    {{ loader.inline(render_pass, 'dots', '@page::dots.label' | trans, '@page::dots.inline' | trans) }}
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="stack--horizontal">
+        <div class="block block--padded">
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/spinner', {
+                size: 'lg',
+                align: 'center',
+                label: '@page::spinner.label' | trans
+            }) }}
+        </div>
+        <div class="block block--padded">
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/dots', {
+                size: 'lg',
+                align: 'center',
+                label: '@page::dots.label' | trans
+            }) }}
+        </div>
+    </div>
+{%- endblock -%}

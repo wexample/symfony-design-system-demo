@@ -1,0 +1,17 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Foundations
+page_icon: ph:bold/diamonds-four
+
+intro: "What everything else is spent from. Nothing on these pages is a component: they are the scales — colour, spacing, type — that every other section reads without ever showing them."
+
+page:
+  colors:
+    title: Colours
+    description: "The surfaces a page is stacked from, the invert levels borders and muted text are drawn with, and the five semantic families. Both faces of the theme, side by side."
+  spacing:
+    title: Spacing
+    description: "The nine spacing steps, the radii, the sizes, and the density pattern — how a region declares itself compact and what that does to everything it holds."
+  typography:
+    title: Typography
+    description: "The type scale and the weights, then the same scale at work in a page of prose."

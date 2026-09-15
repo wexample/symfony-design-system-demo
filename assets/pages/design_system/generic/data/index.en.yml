@@ -1,0 +1,26 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Data
+page_icon: ph:bold/list-bullets
+
+intro: "Shapes that take a collection and render it. What tells them apart is how much of each record the reader gets to see, and what they can do with it once they see it."
+
+page:
+  tables:
+    title: Tables
+    description: "Rows and columns, server-rendered or paginated by the browser, with typed cells — links, actions, icons and dates that keep counting."
+  lists:
+    title: Lists
+    description: "A list that is searched and filtered from its own header, for a set a reader browses rather than scans."
+  properties:
+    title: Properties
+    description: "Key and value, for one record rather than many — the detail panel of a thing already chosen."
+  bars:
+    title: Bars
+    description: "One record named in a single line: an icon, a title, what qualifies it. The row a search result, a member or a file is rendered as."
+  tree:
+    title: Tree
+    description: "A collection whose records contain each other, loaded a level at a time, in the panel an explorer ships as."
+  chat:
+    title: Chat
+    description: "A collection read backwards and added to from below, live, with a composer that grows as it is written in."

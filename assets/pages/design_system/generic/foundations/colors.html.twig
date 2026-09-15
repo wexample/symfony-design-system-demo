@@ -1,0 +1,74 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/foundations/layout/layout-foundations.html.twig' -%}
+
+{#- A swatch shows the token and what it resolves to, because the name is what a
+    stylesheet writes and the colour is what a reader sees. -#}
+{%- macro swatch(token, note) -%}
+    <div class="swatch">
+        <div class="swatch--sample" style="background: var({{ token }});"></div>
+        <code class="swatch--token">{{ token }}</code>
+        {%- if note %}<span class="swatch--note">{{ note }}</span>{% endif -%}
+    </div>
+{%- endmacro -%}
+
+{%- macro scale(prefix, count) -%}
+    <div class="swatch-scale">
+        {%- for i in 1..count -%}
+            <div class="swatch-scale--step" style="background: var(--{{ prefix }}-{{ i }});" title="--{{ prefix }}-{{ i }}">
+                <span>{{ i }}</span>
+            </div>
+        {%- endfor -%}
+    </div>
+{%- endmacro -%}
+
+{%- block page_body -%}
+    {% import _self as palette %}
+
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.surfaces.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.surfaces.description' | trans }}</div>
+    <div class="block block--padded">
+        <div class="cluster">
+            {{ palette.swatch('--surface-page', '@page::surface.page' | trans) }}
+            {{ palette.swatch('--surface-shell', '@page::surface.shell' | trans) }}
+            {{ palette.swatch('--surface-1', '@page::surface.one' | trans) }}
+            {{ palette.swatch('--surface-2', '@page::surface.two' | trans) }}
+            {{ palette.swatch('--surface-3', '@page::surface.three' | trans) }}
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.invert.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.invert.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ palette.scale('color-invert', 20) }}
+    </div>
+
+    <h2>{{ '@page::section.semantic.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.semantic.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        {%- for family in ['info', 'success', 'warning', 'error', 'assist'] -%}
+            <div>
+                <code class="swatch--token">--color-{{ family }}-*</code>
+                {{ palette.scale('color-' ~ family, 20) }}
+            </div>
+        {%- endfor -%}
+    </div>
+
+    <h2>{{ '@page::section.text.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.text.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        <p style="color: var(--text-color-default);"><code>--text-color-default</code> — {{ '@page::text.default' | trans }}</p>
+        <p style="color: var(--text-color-muted);"><code>--text-color-muted</code> — {{ '@page::text.muted' | trans }}</p>
+        <p style="color: var(--text-color-subtle);"><code>--text-color-subtle</code> — {{ '@page::text.subtle' | trans }}</p>
+    </div>
+
+    <h2>{{ '@page::section.borders.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.borders.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        {%- for border in ['discreet', 'default', 'strong', 'region'] -%}
+            <div class="border-sample" style="border-top: var(--border-{{ border }});">
+                <code class="swatch--token">--border-{{ border }}</code>
+            </div>
+        {%- endfor -%}
+    </div>
+{%- endblock -%}

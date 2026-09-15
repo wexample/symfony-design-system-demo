@@ -1,24 +1,23 @@
 ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
 page_title: Layout
-page_icon: ph:bold/squares-four
+page_icon: ph:bold/layout
 
-intro: "Structural primitives for arranging content on screen. Blocks, stacks, zones, toolbars, tabs, tables, and media layouts are the building blocks of every interface — they define how space is divided, how elements are grouped, and how information flows."
+intro: "How a page is divided. These shapes take regions rather than content: they say where things stand, and know nothing of what stands there."
 
-section:
-  compound:
-    title: Compound usage
-
-compound:
-  block:
-    title: Pipeline projection
-    status: Ready
-    description: Blocks compose with toolbars, tabs, and zones — this is the typical structure of a feature panel.
-  tab:
-    one: Overview
-    two: Activity
-    three: Settings
-  button:
-    create: Create
-    refresh: Refresh
-    export: Export
+page:
+  zones:
+    title: Zones
+    description: "The two-pane workspace: a split, a sized column, a scrollable body. What every explorer, editor and detail view in an app is built on."
+  blocks:
+    title: Blocks
+    description: "The surface a group of things sits on, padded or not, with its card and figure variants."
+  toolbar:
+    title: Toolbar
+    description: "A line of actions above or below what they act on, in its roomy and compact densities."
+  tabs:
+    title: Tabs
+    description: "One page showing one of several faces, with the panels that follow the choice."
+  doc:
+    title: Doc layout
+    description: "The two-column documentation pattern — prose on one side, code on the other — that folds to one column when there is no room."

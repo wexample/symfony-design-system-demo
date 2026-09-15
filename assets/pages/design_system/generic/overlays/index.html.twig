@@ -1,0 +1,13 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/overlays/layout/layout-overlays.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/overview.html.twig' as overview -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {{ overview.pages(render_pass, [
+        { route: 'wexample_design_system_generic_overlays_modal', icon: 'ph:bold/browser', title: '@page::page.modal.title' | trans, description: '@page::page.modal.description' | trans },
+        { route: 'wexample_design_system_generic_overlays_panel', icon: 'ph:bold/sidebar-simple', title: '@page::page.panel.title' | trans, description: '@page::page.panel.description' | trans },
+        { route: 'wexample_design_system_generic_overlays_confirm', icon: 'ph:bold/question', title: '@page::page.confirm.title' | trans, description: '@page::page.confirm.description' | trans },
+        { route: 'wexample_design_system_generic_overlays_backdrop', icon: 'ph:bold/square-half-bottom', title: '@page::page.backdrop.title' | trans, description: '@page::page.backdrop.description' | trans }
+    ]) }}
+{%- endblock -%}

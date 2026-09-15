@@ -1,8 +1,9 @@
 tab:
-  index: Toasts
+  index: Overview
+  toasts: Toasts
   banners: Banners
-  message: Messages
-  spinner: Spinner
-  dots: Dots
-  errors: Errors
+  messages: Messages
   status: Status
+  loaders: Loaders
+  progress: Progress
+  errors: Errors
