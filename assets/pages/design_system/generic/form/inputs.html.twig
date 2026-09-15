@@ -27,7 +27,10 @@
 
     <h2>{{ '@page::section.fields.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.fields.description' | trans }}</div>
-    <div class="block block--padded form assisted-gallery">
+    {#- A real form carrying the form component, so the fields register with it
+        and the agent below asks for them by name and nothing else. -#}
+    <form class="block block--padded form assisted-gallery {{ component_init_class(render_pass, '@WexampleSymfonyLoaderBundle/components/form') }}"
+          onsubmit="return false">
         {{ gallery.field(render_pass, 'text_input', { id: 'demo_text', name: 'text', label: '@page::field.text' | trans, placeholder: '@page::placeholder.text' | trans }) }}
         {{ gallery.field(render_pass, 'textarea', { id: 'demo_textarea', name: 'textarea', label: '@page::field.textarea' | trans, rows: 3, placeholder: '@page::placeholder.textarea' | trans }) }}
         {{ gallery.field(render_pass, 'email_input', { id: 'demo_email', name: 'email', label: '@page::field.email' | trans, placeholder: '@page::placeholder.email' | trans }) }}
@@ -42,7 +45,7 @@
         {{ gallery.field(render_pass, 'switch_input', { id: 'demo_switch', name: 'switch', label: '@page::field.switch' | trans }) }}
         {{ gallery.field(render_pass, 'file_input', { id: 'demo_file', name: 'file', label: '@page::field.file' | trans }) }}
         {{ gallery.field(render_pass, 'emoji_picker', { id: 'demo_emoji', name: 'emoji', label: '@page::field.emoji' | trans, value: '😀' }) }}
-    </div>
+    </form>
 
     <h2>{{ '@page::section.actions.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.actions.description' | trans }}</div>

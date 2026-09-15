@@ -1,6 +1,7 @@
 import Page from '@wexample/symfony-loader/js/Class/Page';
-import Field from '@wexample/symfony-design-system/js/Class/Field';
+import Form from '@wexample/symfony-loader/js/Class/Form';
 import { assistanceWait } from '@wexample/js-api/Helper/Assistance';
+import type { FieldControllerInterface } from '@wexample/js-api/Vue/FieldControllerInterface';
 
 // What the demo agent writes, by field name. It knows the values and nothing
 // else: how each one appears is the field's business, which is the whole point
@@ -49,10 +50,14 @@ export default class extends Page {
     });
   }
 
-  // Every field of the page that answers to the field contract, in the order
-  // they are read.
-  private get fields(): Field[] {
-    return this.components.filter((component): component is Field => component instanceof Field);
+  // The form holding the gallery. Everything below goes through it, which is
+  // the point: the agent names a field and knows nothing else about the page.
+  private get form(): Form | undefined {
+    return this.components.find((component): component is Form => component instanceof Form);
+  }
+
+  private get fields(): FieldControllerInterface[] {
+    return this.form?.getFields() ?? [];
   }
 
   private async run(): Promise<void> {
@@ -70,7 +75,9 @@ export default class extends Page {
           continue;
         }
 
-        await field.setValueAssisted(value);
+        // Asked for by name, as an agent would: the demo never reaches for a
+        // field it happens to know the shape of.
+        await this.form?.getField(field.fieldName)?.setValueAssisted(value);
         await assistanceWait(PAUSE_BETWEEN_FIELDS_MS);
       }
     } finally {
