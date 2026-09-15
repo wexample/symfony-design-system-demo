@@ -6,9 +6,16 @@ page_icon: ph:bold/list
 section:
   menu:
     title: Menu buttons
+  separators:
+    title: Separators
+    description: "A separator is an item like the others, with one key more: a bare line parts two runs of items that have nothing to do with each other, and the same line given a word becomes the heading of what follows. Both sides of the stack read the same declaration — the third menu here is the vue one."
 
 menu:
   primary: Menu button
+  grouped: Grouped items
+  grouped_vue: Grouped, in vue
+  group:
+    danger: Danger zone
   more: More actions
   invert: Invert menu
   options:
@@ -19,3 +26,6 @@ menu:
     settings: Settings
     logout: Log out
     long: With a quite, quite, quite, quite long title
+    stats: Statistics
+    profile: Profile
+    delete: Delete account

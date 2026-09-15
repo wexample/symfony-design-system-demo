@@ -19,6 +19,37 @@
         { icon: 'ph:bold/text-aa',        label: '@page::menu.item.long',     href: app_home_url() }
     ] %}
 
+    {#- The same shape the plain items take, with one key more. A bare line parts
+        two runs of items; given a word, the line names what follows it. -#}
+    {% set grouped_items = [
+        { icon: 'ph:bold/clipboard-text', label: '@page::menu.item.report',   href: app_home_url() },
+        { icon: 'ph:bold/chart-line',     label: '@page::menu.item.stats',    href: app_home_url() },
+        { separator: true },
+        { icon: 'ph:bold/gear',           label: '@page::menu.item.settings', href: app_home_url() },
+        { icon: 'ph:bold/user',           label: '@page::menu.item.profile',  href: app_home_url() },
+        { separator: true, label: '@page::menu.group.danger' },
+        { icon: 'ph:bold/trash',          label: '@page::menu.item.delete',   href: app_home_url() },
+        { icon: 'ph:bold/sign-out',       label: '@page::menu.item.logout',   href: app_home_url() }
+    ] %}
+
+    <h2>{{ '@page::section.separators.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.separators.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ button_menu('ph:bold/list', '@page::menu.grouped' | trans, grouped_items) }}
+        {{ button_menu('ph:bold/dots-three-vertical', null, grouped_items, { menu_align: 'right' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/button-menu', {
+            label: '@page::menu.grouped_vue' | trans,
+            items: [
+                { icon: 'ph:bold/clipboard-text', label: '@page::menu.item.report'   | trans, href: '#' },
+                { icon: 'ph:bold/chart-line',     label: '@page::menu.item.stats'    | trans, href: '#' },
+                { separator: true },
+                { icon: 'ph:bold/gear',           label: '@page::menu.item.settings' | trans, href: '#' },
+                { separator: true, label: '@page::menu.group.danger' | trans },
+                { icon: 'ph:bold/trash',          label: '@page::menu.item.delete'   | trans, href: '#' }
+            ]
+        }) }}
+    </div>
+
     <h2>{{ '@page::section.menu.title' | trans }}</h2>
     <div class="cluster">{{ macros.render_menus(menu_items) }}</div>
     <div class="block block--padded cluster">{{ macros.render_menus(menu_items) }}</div>
