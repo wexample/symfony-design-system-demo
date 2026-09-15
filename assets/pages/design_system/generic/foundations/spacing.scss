@@ -13,8 +13,12 @@
 }
 
 .metric--token {
-  flex: 0 0 var(--size-1);
+  // Wide enough for the longest token there is, so the column stays a column.
+  flex: 0 0 var(--size-3);
   font-size: var(--font-size-1);
+  // The column is narrow on purpose, and a token is a name: it stays on one
+  // line rather than breaking where the width runs out.
+  white-space: nowrap;
 }
 
 .metric--sample {
