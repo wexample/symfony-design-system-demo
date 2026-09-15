@@ -1,0 +1,61 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Inputs
+page_icon: ph:bold/textbox
+
+intro: "Every field the system ships, on one page. What they have in common beyond their shape is a contract: each one can be handed over to something that is not the person reading, which fills it and gives it back."
+
+section:
+  assisted:
+    title: Assistance
+    description: "A field can be taken over — by an agent, by anything that knows what to write. While it is held it says so, stops answering to the keyboard and the pointer, and the value appears the way the field decides: spelled out for a word, chosen for an option, ticked for a switch. Assistance is temporary by nature; a field left assisted is a field nobody can use."
+  fields:
+    title: Fields
+    description: "One of each, once. Press Play above and they are filled in turn, by the same calls an agent would make — which is the only way to know the contract holds for all of them."
+  actions:
+    title: Buttons in a form
+    description: "A button takes an action rather than a value, so there is nothing for an agent to write into it."
+  select:
+    title: Select, on its own
+    description: "The two custom selects outside a form group, as a toolbar or a filter bar places them."
+  switch:
+    title: Switch, on its own
+    description: "Labels on either side, glyphs inside, and the checked state."
+
+assisted:
+  hint: An agent fills the fields below, one after the other.
+  play: Play
+  reset: Reset
+
+field:
+  text: Full name
+  textarea: Address
+  email: E-mail
+  url: Website
+  password: Password
+  number: Age
+  date: Date of birth
+  time: Preferred time
+  datetime: Appointment
+  select: Country
+  radio: Contact by
+  switch: Send me the newsletter
+  file: Identity document
+  emoji: Mood
+  button: A button
+  submit: Submit
+
+placeholder:
+  text: Maya Lindqvist
+  textarea: Street, postcode, city
+  email: maya@example.com
+  url: https://example.com
+
+choice:
+  one: Sweden
+  two: Portugal
+  three: Japan
+
+switch:
+  label_right: Enable feature
+  label_left: Label on the left

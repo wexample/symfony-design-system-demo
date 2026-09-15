@@ -6,6 +6,9 @@ page_icon: ph:bold/textbox
 intro: "A set of fields, what it does when it is sent, and what it says when it comes back. The fields themselves are in Controls; what these pages add is the round trip."
 
 page:
+  inputs:
+    title: Inputs
+    description: "Every field the system ships, and the contract that lets an agent take one over, fill it and give it back."
   basic:
     title: Basic forms
     description: "The plain case: a form rendered by the server, sent by the browser, answered by a page."

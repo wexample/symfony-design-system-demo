@@ -5,6 +5,7 @@
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
     {{ overview.pages(render_pass, [
+        { route: 'wexample_design_system_generic_form_inputs', icon: 'ph:bold/textbox', title: '@page::page.inputs.title' | trans, description: '@page::page.inputs.description' | trans },
         { route: 'wexample_design_system_generic_form_basic', icon: 'ph:bold/textbox', title: '@page::page.basic.title' | trans, description: '@page::page.basic.description' | trans },
         { route: 'wexample_design_system_generic_form_rendered', icon: 'ph:bold/sliders', title: '@page::page.rendered.title' | trans, description: '@page::page.rendered.description' | trans },
         { route: 'wexample_design_system_generic_form_ajax', icon: 'ph:bold/lightning', title: '@page::page.ajax.title' | trans, description: '@page::page.ajax.description' | trans },

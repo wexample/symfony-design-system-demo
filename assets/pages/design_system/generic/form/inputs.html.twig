@@ -1,0 +1,72 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{%- macro field(render_pass, component, options) -%}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/' ~ component, {}, options) }}
+{%- endmacro -%}
+
+{%- block page_body -%}
+    {% import _self as gallery %}
+
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {% set select_options = [
+        { value: 'one',   label: '@page::choice.one' },
+        { value: 'two',   label: '@page::choice.two' },
+        { value: 'three', label: '@page::choice.three' }
+    ] %}
+
+    <h2>{{ '@page::section.assisted.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.assisted.description' | trans }}</div>
+    <div class="toolbar toolbar--shaded">
+        <span class="text-secondary">{{ '@page::assisted.hint' | trans }}</span>
+        <div class="toolbar--group">
+            {{ button('ph:bold/play', '@page::assisted.play' | trans, { class: 'button--invert assisted-play' }) }}
+            {{ button('ph:bold/arrow-counter-clockwise', '@page::assisted.reset' | trans, { class: 'assisted-reset' }) }}
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.fields.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.fields.description' | trans }}</div>
+    <div class="block block--padded form assisted-gallery">
+        {{ gallery.field(render_pass, 'text_input', { id: 'demo_text', name: 'text', label: '@page::field.text' | trans, placeholder: '@page::placeholder.text' | trans }) }}
+        {{ gallery.field(render_pass, 'textarea', { id: 'demo_textarea', name: 'textarea', label: '@page::field.textarea' | trans, rows: 3, placeholder: '@page::placeholder.textarea' | trans }) }}
+        {{ gallery.field(render_pass, 'email_input', { id: 'demo_email', name: 'email', label: '@page::field.email' | trans, placeholder: '@page::placeholder.email' | trans }) }}
+        {{ gallery.field(render_pass, 'url_input', { id: 'demo_url', name: 'url', label: '@page::field.url' | trans, placeholder: '@page::placeholder.url' | trans }) }}
+        {{ gallery.field(render_pass, 'password_input', { id: 'demo_password', name: 'password', label: '@page::field.password' | trans }) }}
+        {{ gallery.field(render_pass, 'number_input', { id: 'demo_number', name: 'number', label: '@page::field.number' | trans }) }}
+        {{ gallery.field(render_pass, 'date_input', { id: 'demo_date', name: 'date', label: '@page::field.date' | trans }) }}
+        {{ gallery.field(render_pass, 'time_input', { id: 'demo_time', name: 'time', label: '@page::field.time' | trans }) }}
+        {{ gallery.field(render_pass, 'datetime_input', { id: 'demo_datetime', name: 'datetime', label: '@page::field.datetime' | trans }) }}
+        {{ gallery.field(render_pass, 'select_input', { id: 'demo_select', name: 'select', label: '@page::field.select' | trans, choices: select_options, selected: 'one' }) }}
+        {{ gallery.field(render_pass, 'radio_input', { id: 'demo_radio', name: 'radio', label: '@page::field.radio' | trans, choices: select_options, value: 'one' }) }}
+        {{ gallery.field(render_pass, 'switch_input', { id: 'demo_switch', name: 'switch', label: '@page::field.switch' | trans }) }}
+        {{ gallery.field(render_pass, 'file_input', { id: 'demo_file', name: 'file', label: '@page::field.file' | trans }) }}
+        {{ gallery.field(render_pass, 'emoji_picker', { id: 'demo_emoji', name: 'emoji', label: '@page::field.emoji' | trans, value: '😀' }) }}
+    </div>
+
+    <h2>{{ '@page::section.actions.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.actions.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ gallery.field(render_pass, 'button_input', { id: 'demo_button', label: '@page::field.button' | trans }) }}
+        {{ gallery.field(render_pass, 'submit_input', { id: 'demo_submit', label: '@page::field.submit' | trans, primary: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.select.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.select.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/select', {}, { options: select_options, value: 'one' }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/select-search', {}, { options: select_options, value: 'one' }) }}
+    </div>
+
+    <h2>{{ '@page::section.switch.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.switch.description' | trans }}</div>
+    {% set icon_sun %}{{ icon('ph:bold/sun') }}{% endset %}
+    {% set icon_moon %}{{ icon('ph:bold/moon') }}{% endset %}
+    <div class="block block--padded cluster">
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch') }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', { label: '@page::switch.label_right' }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', { label: '@page::switch.label_left', label_position: 'left' }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', { off_inner: icon_moon, on_inner: icon_sun }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', { off_inner: 'OFF', on_inner: 'ON', label: '@page::switch.label_right', checked: true }) }}
+    </div>
+{%- endblock -%}

@@ -9,9 +9,6 @@ page:
   buttons:
     title: Buttons
     description: "The one that does something, in its variants, its states and its densities, plus the link and the target that open elsewhere."
-  inputs:
-    title: Inputs
-    description: "Fields on their own, outside a form: text, select, switch, and the states they answer in."
   menus:
     title: Menus
     description: "A button that opens a list of choices, placing itself against the edges of the window, in twig and in vue."
