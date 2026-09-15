@@ -1,0 +1,36 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Progress
+page_icon: ph:bold/gauge
+
+intro: "How far something has got, carried as a ratio between 0 and 1 in a custom property — the same way the status circle carries its arc, so both sides of the stack fill the bar with one declaration. Twig prints the value it is given; moving it afterwards is the browser's business."
+
+section:
+  default:
+    title: States
+    description: "The value is a count or a share written as a percentage, and never answers outside its bounds. The colour is the feedback one, so a bar says how its work ended in the same language as a message or a status."
+  plain:
+    title: Without a total
+    description: "A hundred is what a bar counts to when nobody says otherwise, which makes a percentage the only thing to give it. A total of its own is for work counted in things rather than in parts."
+  indeterminate:
+    title: An end that is not known
+    description: "Work under way whose size nobody knows: the bar sweeps and says no number. Claiming a share here would be a guess dressed as a measurement."
+  compact:
+    title: Compact
+    description: "Reduced to what it has to say, for a status line or a footer: a thinner track, the wording beside it rather than above, and the density passed on to whatever stands with it."
+  vue:
+    title: Vue, driven
+    description: "The same bar, with the vocabulary the cli progress already speaks — update, advance, finish, reset. A step with nothing said about it is worth one unit, which is what to call where neither the unit nor the total means anything."
+
+bar:
+  queued: Queued
+  working: Building assets
+  almost: Uploading
+  done: Deployed
+  failed: Migration failed
+  counted: Files read
+  unknown: Looking for something
+  indexing: Indexing
+
+compact:
+  app: acme-blog

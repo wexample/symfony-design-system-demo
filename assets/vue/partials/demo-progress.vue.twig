@@ -1,0 +1,27 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/vue/bases/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/progress-bar') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="demo-progress">
+        <progress-bar
+                ref="driven"
+                label="Idle"
+                :show-value="true"
+                @finish="onFinish"
+        ></progress-bar>
+
+        <div class="cluster">
+            <button type="button" class="button" @click="advance()">+1</button>
+            <button type="button" class="button" @click="advance(10)">+10</button>
+            <button type="button" class="button" @click="advance('25%')">+25%</button>
+            <button type="button" class="button" @click="finish">Finish</button>
+            <button type="button" class="button" @click="reset">Reset</button>
+            <button type="button" class="button button--invert" @click="toggle">
+                [[ isRunning ? 'Stop' : 'Run' ]]
+            </button>
+        </div>
+    </div>
+{%- endblock -%}

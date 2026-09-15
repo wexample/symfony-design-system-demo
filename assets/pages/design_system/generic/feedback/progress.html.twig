@@ -1,0 +1,49 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/feedback/layout/layout-feedback.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.default.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.default.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        {{ progress(0,     { label: '@page::bar.queued' | trans,   show_value: true }) }}
+        {{ progress(35,    { label: '@page::bar.working' | trans,  show_value: true }) }}
+        {{ progress('72%', { label: '@page::bar.almost' | trans,   show_value: true }) }}
+        {{ progress(100,   { label: '@page::bar.done' | trans,     show_value: true, type: 'success' }) }}
+        {{ progress(58,    { label: '@page::bar.failed' | trans,   show_value: true, type: 'error' }) }}
+    </div>
+
+    <h2>{{ '@page::section.plain.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.plain.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        {{ progress(42) }}
+        {{ progress(3, { total: 7, label: '@page::bar.counted' | trans, show_value: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.indeterminate.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.indeterminate.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ progress(0, { label: '@page::bar.unknown' | trans, indeterminate: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.compact.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.compact.description' | trans }}</div>
+    <div class="block block--padded">
+        {#- The footer of an app, near enough: a bar the width of a word, its
+            wording beside it rather than above. -#}
+        <div class="toolbar toolbar--shaded toolbar--compact">
+            <span class="text-secondary">{{ '@page::compact.app' | trans }}</span>
+            <div class="toolbar--group">
+                {{ progress(64, { label: '@page::bar.indexing' | trans, size: 'compact', show_value: true }) }}
+                <span class="toolbar--separator"></span>
+                <span class="text-secondary">v1.0.7</span>
+            </div>
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-progress') }}
+    </div>
+{%- endblock -%}
