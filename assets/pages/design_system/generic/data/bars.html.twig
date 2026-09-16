@@ -105,4 +105,23 @@
             class: 'block block--padded'
         }) }}
     </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list', { variant: 'divided' }) }}
+    </div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list', { variant: 'surfaces' }) }}
+    </div>
+
+    <h2>{{ '@page::section.keeping_up.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.keeping_up.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list', {
+            variant: 'divided',
+            watch: 'events',
+            showToolbar: true
+        }) }}
+    </div>
 {%- endblock -%}

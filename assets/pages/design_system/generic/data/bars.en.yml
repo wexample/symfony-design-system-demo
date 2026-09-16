@@ -18,6 +18,12 @@ section:
   divided:
     title: A bare list
     description: When the frame is already there, a vertical stack with dividers is enough — no shape of its own, just a line between two rows.
+  vue:
+    title: A list of them, in Vue
+    description: "The same rows read from an endpoint rather than written out: the list holds the page, the pagination and the empty state, and each entity says what to read on it — a title, what qualifies it, an icon, where it leads, a date at the far end. The readings above are its variants, `divided` then `surfaces`."
+  keeping_up:
+    title: And kept up to date
+    description: "A bar list is a collection like any other, so the three ways a collection hears that the world moved on are open to it: an app event, a live source, polling. This one listens to an event — ring it and watch the rows come back. See Keeping up for the three of them side by side."
 
 sample:
   minimal:

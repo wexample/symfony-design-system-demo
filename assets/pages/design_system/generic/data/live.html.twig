@@ -26,4 +26,13 @@
     <div class="block block--padded">
         {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'none' }) }}
     </div>
+
+    <h2>{{ '@page::section.shape.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.shape.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list', {
+            watch: 'polling',
+            showToolbar: true
+        }) }}
+    </div>
 {%- endblock -%}
