@@ -1,0 +1,11 @@
+@use './layout/layout-data';
+@use '@wexample/symfony-design-system/css/shapes/table';
+@use '@wexample/symfony-design-system/css/shapes/pagination';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+@use '@wexample/symfony-design-system/css/shapes/button';
+
+.demo-live {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}

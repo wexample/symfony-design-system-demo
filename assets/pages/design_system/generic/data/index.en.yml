@@ -9,6 +9,9 @@ page:
   tables:
     title: Tables
     description: "Rows and columns, server-rendered or paginated by the browser, with typed cells — links, actions, icons and dates that keep counting."
+  live:
+    title: Keeping up
+    description: "The three ways a collection hears that what it shows has changed — an app event, a live source, or polling — and what each one is for."
   lists:
     title: Lists
     description: "A list that is searched and filtered from its own header, for a set a reader browses rather than scans."

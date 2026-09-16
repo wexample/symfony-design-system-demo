@@ -1,0 +1,20 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Keeping up
+page_icon: ph:bold/broadcast
+
+intro: "A collection is read once when it appears, and then the world moves on. These are the three ways it hears about it — they are not alternatives to choose between once and for all, but what a collection's situation happens to offer. The same table takes any of them, or several, and nothing below knows which one rang."
+
+section:
+  events:
+    title: An app event
+    description: "For a change this page caused itself: a button that acted, a form that came back. Whoever rings knows nothing of the table, and the table knows nothing of who rang — they share a name and that is all. Costs nothing and needs no server."
+  live:
+    title: A live source
+    description: "Where the server has a topic to publish on, the collection listens to the entity it is the collection of — a process for its runs, a session for its messages — and never to each of its own rows. A row that does not exist yet has no topic, and the row that appears is exactly the one the reader is waiting for. The demo has no server to publish for it, so the button plays the message."
+  polling:
+    title: Polling
+    description: "Where there is no topic, or where a round trip now and then is cheaper than a subscription held open. This one reads every three seconds, and stops while the tab is in the background — a page nobody is looking at is a page nobody needs read to them."
+  none:
+    title: Nothing at all
+    description: "The default. A collection reads once and stays as it was, which is the right answer whenever what it shows does not change behind the reader's back."

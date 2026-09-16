@@ -1,0 +1,29 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/data/layout/layout-data.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.events.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.events.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'events' }) }}
+    </div>
+
+    <h2>{{ '@page::section.live.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.live.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'live' }) }}
+    </div>
+
+    <h2>{{ '@page::section.polling.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.polling.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'polling' }) }}
+    </div>
+
+    <h2>{{ '@page::section.none.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.none.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'none' }) }}
+    </div>
+{%- endblock -%}
