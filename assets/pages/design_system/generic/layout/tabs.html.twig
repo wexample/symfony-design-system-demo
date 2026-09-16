@@ -10,8 +10,8 @@
     {% endif %}
 
     <div class="{{ classes|join(' ') }}">
-        {{ tab_item_link('@page::tab.one' | trans, '#' ~ id_prefix ~ '-one', { active: true, icon: options.icons ? 'ph:bold/squares-four' : null }) }}
-        {{ tab_item_link('@page::tab.two' | trans, '#' ~ id_prefix ~ '-two', { icon: options.icons ? 'ph:bold/activity' : null }) }}
+        {{ tab_item_link('@page::tab.one' | trans, '#' ~ id_prefix ~ '-one', { active: true, icon: options.icons ? 'ph:bold/squares-four' : null, count: options.counts|default(false) ? 12 : null }) }}
+        {{ tab_item_link('@page::tab.two' | trans, '#' ~ id_prefix ~ '-two', { icon: options.icons ? 'ph:bold/activity' : null, count: options.counts|default(false) ? 3 : null }) }}
         {{ tab_item_link('@page::tab.three' | trans, '#' ~ id_prefix ~ '-three', { icon: options.icons ? 'ph:bold/gear-six' : null }) }}
     </div>
 {% endmacro %}
@@ -66,4 +66,9 @@
         <div>{{ tabs.render_tabs('tab-icons-half', { icons: true, fill: true, compact: true }) }}</div>
         <div></div>
     </div>
+
+    <h2>{{ '@page::section.counts.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.counts.description' | trans }}</div>
+    {{ tabs.render_tabs('tab-counts', { icons: true, fill: false, compact: false, counts: true }) }}
+    {{ tabs.render_tabs('tab-counts-full', { icons: false, fill: true, compact: true, counts: true }) }}
 {%- endblock -%}

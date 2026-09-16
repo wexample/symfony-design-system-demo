@@ -6,12 +6,17 @@ page_icon: ph:bold/list
 section:
   menu:
     title: Menu buttons
+  counts:
+    title: Counts
+    description: "How many of whatever the item leads to, at the far end of the line. It is a pill and nothing else — pass `count` beside the label, in a dropdown item or a vertical menu item, and the item places it. An item without the key shows nothing."
   separators:
     title: Separators
     description: "A separator is an item like the others, with one key more: a bare line parts two runs of items that have nothing to do with each other, and the same line given a word becomes the heading of what follows. Both sides of the stack read the same declaration — the third menu here is the vue one."
 
 menu:
   primary: Menu button
+  counted: With counts
+  counted_vue: With counts, in vue
   grouped: Grouped items
   grouped_vue: Grouped, in vue
   group:
@@ -23,6 +28,8 @@ menu:
     top_right: Top right
   item:
     report: Report
+    inbox: Inbox
+    alerts: Alerts
     settings: Settings
     logout: Log out
     long: With a quite, quite, quite, quite long title

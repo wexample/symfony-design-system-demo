@@ -16,6 +16,9 @@ section:
       title: Basic tabs (full width)
     half:
       title: Basic tabs (half width zone)
+  counts:
+    title: Tabs with a count
+    description: "How many of whatever the tab holds, at the end of the label. It is a pill and nothing else — pass `count` beside the label and the tab places it. An item without the key shows nothing, which is how a tab with nothing to count stays quiet."
   icons:
     normal:
       title: Tabs with icons
