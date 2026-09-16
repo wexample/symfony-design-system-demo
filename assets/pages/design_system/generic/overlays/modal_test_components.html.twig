@@ -30,6 +30,17 @@
                 }
             }) }}
         </div>
+        {#- A field that opens an overlay of its own, from inside one: the
+            backdrop must stay under the modal, or it covers the very select it
+            was opened from. -#}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/select', {}, {
+            options: [
+                { value: 'one',   label: '@page::choice.one' },
+                { value: 'two',   label: '@page::choice.two' },
+                { value: 'three', label: '@page::choice.three' }
+            ],
+            value: 'one'
+        }) }}
         {{ button('ph:bold/bell', '@page::toast_button' | trans, {
             class: 'modal-components-toast-button',
             attr: {

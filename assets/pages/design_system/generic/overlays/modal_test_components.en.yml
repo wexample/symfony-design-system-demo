@@ -7,6 +7,10 @@ menu:
     settings: Settings
     logout: Sign out
 upload_button: Upload a file
+choice:
+  one: First choice
+  two: Second choice
+  three: Third choice
 toast_button: Show toast from modal
 toast_title: Modal toast
 toast_message: Hello from inside the modal.
