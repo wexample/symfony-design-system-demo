@@ -1,0 +1,8 @@
+@use '@wexample/symfony-design-system/css/shapes/search-box';
+@use '@wexample/symfony-design-system/css/shapes/bar';
+
+// A message is quoted, not titled: the body reads as speech.
+.search-result--demo-message .bar--title-block > :first-child {
+  font-weight: 400;
+  font-style: italic;
+}
