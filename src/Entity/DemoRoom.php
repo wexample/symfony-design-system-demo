@@ -6,6 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Uid\Uuid;
 use Wexample\Pseudocode\Attribute\PseudocodeExport;
 use Wexample\SymfonyApi\Attribute\ApiEntity;
+use Wexample\SymfonySearch\Attribute\Searchable;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
 use Wexample\SymfonyHelpers\Entity\AbstractEntity;
 use Wexample\SymfonyHelpers\Entity\Traits\HasNameTrait;
@@ -25,6 +26,7 @@ use Wexample\SymfonyLive\Enum\LiveTopicAction;
  * and found on every visit after.
  */
 #[ApiEntity]
+#[Searchable(fields: ['name'])]
 #[LiveEntity(actions: [LiveTopicAction::EVENT])]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoRoomRepository::class)]

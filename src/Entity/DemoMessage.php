@@ -5,6 +5,7 @@ namespace Wexample\SymfonyDesignSystemDemo\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Wexample\Pseudocode\Attribute\PseudocodeExport;
 use Wexample\SymfonyApi\Attribute\ApiEntity;
+use Wexample\SymfonySearch\Attribute\Searchable;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
 use Wexample\SymfonyHelpers\Entity\AbstractEntity;
 use Wexample\SymfonyHelpers\Entity\Traits\HasBodyTrait;
@@ -18,6 +19,7 @@ use Wexample\SymfonyHelpers\Entity\Traits\HasTypeTrait;
  * the reader sees is a translation of that type rather than a stored label.
  */
 #[ApiEntity]
+#[Searchable(fields: ['body'], weight: .5)]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoMessageRepository::class)]
 #[ORM\Table(name: 'demo_message')]
