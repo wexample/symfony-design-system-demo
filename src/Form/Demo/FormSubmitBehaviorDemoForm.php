@@ -12,7 +12,6 @@ use Wexample\SymfonyForms\Form\Type\DateInputType;
 use Wexample\SymfonyForms\Form\Type\DatetimeInputType;
 use Wexample\SymfonyForms\Form\Type\EmailInputType;
 use Wexample\SymfonyForms\Form\Type\EmojiPickerType;
-use Wexample\SymfonySearch\Form\Type\EntitySearchInputType;
 use Wexample\SymfonyForms\Form\Type\FileInputType;
 use Wexample\SymfonyForms\Form\Type\NumberInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
@@ -24,6 +23,7 @@ use Wexample\SymfonyForms\Form\Type\TextInputType;
 use Wexample\SymfonyForms\Form\Type\TimeInputType;
 use Wexample\SymfonyForms\Form\Type\UrlInputType;
 use Wexample\SymfonyLoader\Helper\AdaptiveRequestHelper;
+use Wexample\SymfonySearch\Form\Type\EntitySearchInputType;
 
 class FormSubmitBehaviorDemoForm extends AbstractForm
 {
