@@ -11,7 +11,6 @@ use Wexample\SymfonyHelpers\Entity\Traits\HasBodyTrait;
 use Wexample\SymfonyHelpers\Entity\Traits\HasDateCreatedTrait;
 use Wexample\SymfonyHelpers\Entity\Traits\HasTypeTrait;
 use Wexample\SymfonySearch\Attribute\Searchable;
-use Wexample\SymfonySearch\Attribute\SearchText;
 
 /**
  * One line said in a room, kept only so the demos have something real to show.
@@ -20,7 +19,7 @@ use Wexample\SymfonySearch\Attribute\SearchText;
  * the reader sees is a translation of that type rather than a stored label.
  */
 #[ApiEntity]
-#[Searchable(fields: ['body' => new SearchText(points: 5)])]
+#[Searchable]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoMessageRepository::class)]
 #[ORM\Table(name: 'demo_message')]
