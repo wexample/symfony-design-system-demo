@@ -1,5 +1,5 @@
 <script>
-import SearchResult from '@wexample/symfony-design-system/vue/search/search-result.vue';
+import SearchResult from '@wexample/symfony-search/vue/search/search-result.vue';
 
 // A message found: it is said by someone, in a room, so the row says that
 // rather than repeating the word "demo_message" at its far end.

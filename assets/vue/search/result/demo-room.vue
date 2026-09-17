@@ -1,5 +1,5 @@
 <script>
-import SearchResult from '@wexample/symfony-design-system/vue/search/search-result.vue';
+import SearchResult from '@wexample/symfony-search/vue/search/search-result.vue';
 
 // A room found. It declares no route yet, so the bar stands without a link:
 // what a click on a room should open is still to be decided.

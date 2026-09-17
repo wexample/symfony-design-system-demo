@@ -1,5 +1,5 @@
 <script>
-import SearchBox from '@wexample/symfony-design-system/vue/search/search-box.vue';
+import SearchBox from '@wexample/symfony-search/vue/search/search-box.vue';
 import SearchResultDemoMessage from './result/demo-message.vue';
 import SearchResultDemoRoom from './result/demo-room.vue';
 
