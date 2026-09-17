@@ -12,7 +12,7 @@ use Wexample\SymfonyForms\Form\Type\DateInputType;
 use Wexample\SymfonyForms\Form\Type\DatetimeInputType;
 use Wexample\SymfonyForms\Form\Type\EmailInputType;
 use Wexample\SymfonyForms\Form\Type\EmojiPickerType;
-use Wexample\SymfonyForms\Form\Type\EntitySearchInputType;
+use Wexample\SymfonySearch\Form\Type\EntitySearchInputType;
 use Wexample\SymfonyForms\Form\Type\FileInputType;
 use Wexample\SymfonyForms\Form\Type\NumberInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
