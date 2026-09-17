@@ -26,7 +26,7 @@ use Wexample\SymfonySearch\Attribute\Searchable;
  * and found on every visit after.
  */
 #[ApiEntity]
-#[Searchable]
+#[Searchable(fields: ['name'])]
 #[LiveEntity(actions: [LiveTopicAction::EVENT])]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoRoomRepository::class)]
