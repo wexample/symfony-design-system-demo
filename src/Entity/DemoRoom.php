@@ -12,7 +12,7 @@ use Wexample\SymfonyHelpers\Entity\Traits\HasNameTrait;
 use Wexample\SymfonyLive\Attribute\LiveEntity;
 use Wexample\SymfonyLive\Enum\LiveTopicAction;
 use Wexample\SymfonySearch\Attribute\Searchable;
-use Wexample\SymfonySearch\Class\Field\TextField;
+use Wexample\SymfonySearch\Attribute\SearchText;
 
 /**
  * What the demos hold their messages in, and the thing a browser subscribes to.
@@ -27,7 +27,7 @@ use Wexample\SymfonySearch\Class\Field\TextField;
  * and found on every visit after.
  */
 #[ApiEntity]
-#[Searchable(fields: [new TextField('name')])]
+#[Searchable(fields: ['name' => new SearchText()])]
 #[LiveEntity(actions: [LiveTopicAction::EVENT])]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoRoomRepository::class)]
