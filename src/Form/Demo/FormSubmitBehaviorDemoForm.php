@@ -12,6 +12,7 @@ use Wexample\SymfonyForms\Form\Type\DateInputType;
 use Wexample\SymfonyForms\Form\Type\DatetimeInputType;
 use Wexample\SymfonyForms\Form\Type\EmailInputType;
 use Wexample\SymfonyForms\Form\Type\EmojiPickerType;
+use Wexample\SymfonyForms\Form\Type\EntitySearchInputType;
 use Wexample\SymfonyForms\Form\Type\FileInputType;
 use Wexample\SymfonyForms\Form\Type\NumberInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
@@ -109,6 +110,20 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     'choices' => ['option_a', 'option_b', 'option_c'],
                     'help' => true,
                     'data' => 'option_a',
+                ]
+            )
+            ->add(
+                'entity_search',
+                EntitySearchInputType::class,
+                [
+                    self::FIELD_OPTION_NAME_LABEL => true,
+                    self::FIELD_OPTION_NAME_REQUIRED => false,
+                    self::FIELD_OPTION_NAME_MAPPED => false,
+                    'help' => true,
+                    // The rooms of the chat demo, which carry `#[Searchable]`:
+                    // the field asks for one of those and never offers a page.
+                    EntitySearchInputType::OPTION_ENTITY_TYPE => 'demo_room',
+                    'placeholder' => true,
                 ]
             )
             ->add(

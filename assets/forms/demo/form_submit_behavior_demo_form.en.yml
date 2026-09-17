@@ -1,4 +1,8 @@
 field:
+  entity_search:
+    label: Room
+    placeholder: Search a room...
+    help: Picks a record by searching for it. What the form carries is its id.
   password:
     label: Password
     help: Enter your password to authenticate.
