@@ -6,13 +6,13 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Uid\Uuid;
 use Wexample\Pseudocode\Attribute\PseudocodeExport;
 use Wexample\SymfonyApi\Attribute\ApiEntity;
-use Wexample\SymfonySearch\Attribute\Searchable;
-use Wexample\SymfonySearch\Class\Field\TextField;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
 use Wexample\SymfonyHelpers\Entity\AbstractEntity;
 use Wexample\SymfonyHelpers\Entity\Traits\HasNameTrait;
 use Wexample\SymfonyLive\Attribute\LiveEntity;
 use Wexample\SymfonyLive\Enum\LiveTopicAction;
+use Wexample\SymfonySearch\Attribute\Searchable;
+use Wexample\SymfonySearch\Class\Field\TextField;
 
 /**
  * What the demos hold their messages in, and the thing a browser subscribes to.
