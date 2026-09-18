@@ -3,7 +3,7 @@
 page_title: Spacing
 page_icon: ph:bold/ruler
 
-intro: "Three scales and one rule. A shape never writes a length: it spends a step, which is what keeps two components written a year apart from being two pixels out of rhythm."
+intro: "Two scales and one rule. A shape never writes a length: it spends a step, which is what keeps two components written a year apart from being two pixels out of rhythm."
 
 section:
   space:
@@ -12,9 +12,6 @@ section:
   size:
     title: Sizes
     description: "The widths and heights a region is given: a column, a panel, a reading measure. Larger than a spacing step and used for the same reason."
-  radius:
-    title: Radii
-    description: "Two corners and a pill. Anything rounder than the second step is a shape that wants to be a circle and should say so."
   density:
     title: Density
     description: "Compactness belongs to a region and not to a widget. A bar declared compact makes what it holds compact too, because the tokens carrying it inherit — no component below is told where it stands."

@@ -1,0 +1,26 @@
+@use './layout/layout-foundations';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/zone';
+
+// A token is read on a plain square: the sample carries the property under
+// test and nothing else that could be mistaken for it.
+.skin-sample {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: var(--surface-2);
+  border: var(--border-default);
+}
+
+.skin-sample--raised {
+  border: 0;
+  background: var(--surface-3);
+}
+
+// A shadow needs room to fall into.
+.skin-cluster--airy {
+  gap: var(--space-6);
+  padding: var(--space-4);
+}

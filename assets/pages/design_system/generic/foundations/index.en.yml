@@ -3,7 +3,7 @@
 page_title: Foundations
 page_icon: ph:bold/diamonds-four
 
-intro: "What everything else is spent from. Nothing on these pages is a component: they are the scales — colour, spacing, type — that every other section reads without ever showing them."
+intro: "What everything else is spent from. Nothing on these pages is a component: they are the scales — colour, spacing, type, and the skin that draws them — that every other section reads without ever showing them."
 
 page:
   colors:
@@ -11,7 +11,10 @@ page:
     description: "The surfaces a page is stacked from, the invert levels borders and muted text are drawn with, and the five semantic families. Both faces of the theme, side by side."
   spacing:
     title: Spacing
-    description: "The nine spacing steps, the radii, the sizes, and the density pattern — how a region declares itself compact and what that does to everything it holds."
+    description: "The nine spacing steps, the sizes, and the density pattern — how a region declares itself compact and what that does to everything it holds."
   typography:
     title: Typography
     description: "The type scale and the weights, then the same scale at work in a page of prose."
+  skin:
+    title: Skin
+    description: "How things are drawn, at equal colour and density: the radii, the shadows, the borders and the separators. The one axis of the theme that has a character."

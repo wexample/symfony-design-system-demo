@@ -1,0 +1,24 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Skin
+page_icon: ph:bold/paint-brush
+
+intro: "How things are drawn, once colour and density are settled: the corners, the depth, the lines. These tokens are the `skin` axis of the theme — the default skin is what this page shows, and another skin is another file setting the same names, with nothing to change below."
+
+section:
+  radius:
+    title: Radii
+    description: "None, two corners and a pill. Anything rounder than the second step is a shape that wants to be a circle and says so itself — a circle is not a skin decision."
+  shadow:
+    title: Shadows
+    description: "Four depths, from a hairline lift to a floating panel. A skin that wants a flat world sets all four to none and every raised surface follows."
+  border:
+    title: Borders
+    description: "The line itself — its width and its style. Its colour is not here: that belongs to the colour scheme, which is what lets a skin remove a line without knowing what colour it would have had."
+  separator:
+    title: Separators and regions
+    description: "The two lines that tell things apart: between two rows of one thing, and between two regions of a page. Twenty-odd shapes read the first one, which is why it is a token and not a rule."
+
+separator:
+  row: a row among others
+  region: a region of the page, bordered as such
