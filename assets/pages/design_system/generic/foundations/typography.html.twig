@@ -1,6 +1,31 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/foundations/layout/layout-foundations.html.twig' -%}
 
 {%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.families.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.families.description' | trans }}</div>
+    <div class="block block--padded block--vertical">
+        {%- for role in ['base', 'heading', 'mono'] -%}
+            <div>
+                <code class="text-secondary">--font-family-{{ role }}</code>
+                <div style="font-family: var(--font-family-{{ role }}); font-size: var(--font-size-5);">
+                    {{ '@page::sample' | trans }}
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+
+    <h2>{{ '@page::section.weights.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.weights.description' | trans }}</div>
+    <div class="block block--padded block--vertical">
+        {%- for weight in ['normal', 'medium', 'strong', 'bold'] -%}
+            <div style="font-weight: var(--font-weight-{{ weight }});">
+                <code class="text-secondary">--font-weight-{{ weight }}</code> — {{ '@page::sample' | trans }}
+            </div>
+        {%- endfor -%}
+    </div>
+
     <h2>{{ '@page::section.typography.title' | trans }}</h2>
     <div class="content">
         {% for level in ['h1','h2','h3','h4','h5','h6'] %}

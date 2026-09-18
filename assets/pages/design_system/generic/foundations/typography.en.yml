@@ -3,7 +3,15 @@
 page_title: Typography
 page_icon: ph:bold/text-aa
 
+intro: "The scale is a density decision and the faces are a fonts one: this page shows what a shape reads, not what it is worth today. Switch the fonts axis in the debug panel and everything below is set in another face without a rule changing."
+
 section:
+  families:
+    title: Families
+    description: "Three, because that is what a page tells apart: what it is written in, what it is titled in, and what is meant to be read as typed rather than said. A set may give the same face to all three — the system one does."
+  weights:
+    title: Weights
+    description: "Named by how much they insist, never by number. A face whose 500 does not exist maps it onto what it does have, and the shapes that ask for a medium go on asking for a medium."
   typography:
     title: Type scale
 
@@ -26,3 +34,5 @@ title:
   h6:
     title: "Accessibility is a feature, not an afterthought"
     description: "The smallest heading level. Use sparingly — for footnotes, legal blocks, or auxiliary labels."
+
+sample: "The quick brown fox jumps over the lazy dog — 0123456789"
