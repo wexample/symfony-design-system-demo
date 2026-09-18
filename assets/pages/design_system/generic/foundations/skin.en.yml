@@ -9,6 +9,9 @@ section:
   radius:
     title: Radii
     description: "None, two corners and a pill. Anything rounder than the second step is a shape that wants to be a circle and says so itself — a circle is not a skin decision."
+  role:
+    title: Radius roles
+    description: "A shape never reads the scale above: it reads the role it plays, and the skin says what each role gets. This is what lets another skin square the controls and keep the surfaces soft without a line changing in any shape. A circle is a form, not a role — a shape that wants one says 50% itself."
   shadow:
     title: Shadows
     description: "Four depths, from a hairline lift to a floating panel. A skin that wants a flat world sets all four to none and every raised surface follows."
@@ -22,3 +25,9 @@ section:
 separator:
   row: a row among others
   region: a region of the page, bordered as such
+
+role:
+  control: pressed, typed in, chosen
+  surface: what content sits on
+  media: pictures and figures
+  pill: what is read as a capsule

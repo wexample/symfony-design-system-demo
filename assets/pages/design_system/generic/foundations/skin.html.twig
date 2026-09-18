@@ -15,6 +15,21 @@
         </div>
     </div>
 
+    <h2>{{ '@page::section.role.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.role.description' | trans }}</div>
+    <div class="block block--padded">
+        <div class="cluster">
+            {%- for role in ['control', 'surface', 'media', 'pill'] -%}
+                <div class="skin-sample" style="border-radius: var(--radius-{{ role }});">
+                    <div>
+                        <code>--radius-{{ role }}</code>
+                        <div class="text-secondary">{{ ('@page::role.' ~ role) | trans }}</div>
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+
     <h2>{{ '@page::section.shadow.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.shadow.description' | trans }}</div>
     <div class="block block--padded">
