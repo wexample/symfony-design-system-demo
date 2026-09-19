@@ -3,10 +3,18 @@
 {%- set page_show_title = true -%}
 
 {%- block page_body -%}
-    {#- Nothing on this page is written down: it draws what a walk of the bundle's
-        assets found, so it says what the design system holds today and not what
-        it held when someone last updated a list. -#}
-    {%- set inventory = ds_element_inventory() -%}
+    {#- Nothing on this page is written down: it draws the registry the design
+        system ships, which is generated from a walk of its assets. The page is a
+        consumer of that file like any other, so a registry nobody regenerated is
+        a page that says so rather than a page that quietly disagrees. -#}
+    {%- set inventory = ds_element_registry() -%}
+
+    {%- if inventory is null -%}
+        {{ message_error('@page::missing.title' | trans, '@page::missing.body' | trans({
+            '%path%': ds_element_registry_path(),
+            '%command%': 'design-system:generate-element-registry'
+        })) }}
+    {%- else -%}
     {%- set formats = inventory.formatValues -%}
     {%- set by_format = inventory.countByFormat -%}
     {%- set by_count = inventory.countByFormatsCount -%}
@@ -87,4 +95,9 @@
             {%- endfor -%}
         </div>
     </div>
+
+    <p class="text-secondary">
+        {{ '@page::source' | trans({ '%path%': ds_element_registry_path() }) }}
+    </p>
+    {%- endif -%}
 {%- endblock -%}
