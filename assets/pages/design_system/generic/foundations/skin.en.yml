@@ -8,7 +8,7 @@ intro: "How things are drawn, once colour and density are settled: the corners, 
 section:
   radius:
     title: Radii
-    description: "None, two corners and a pill. Anything rounder than the second step is a shape that wants to be a circle and says so itself — a circle is not a skin decision."
+    description: "None, a shaved edge, two corners and a pill. The first step is barely there on purpose: it is what a square shape wants when a true right angle reads as unfinished. Anything rounder than the last step is a shape that wants to be a circle and says so itself — a circle is not a skin decision."
   role:
     title: Radius roles
     description: "A shape never reads the scale above: it reads the role it plays, and the skin says what each role gets. Switch the skin to `soft` and watch them part ways: a button becomes a capsule, a textarea does not, because a capsule is right for something one line high and absurd for a box that grows. A circle is a form, not a role — a shape that wants one says 50% itself."
