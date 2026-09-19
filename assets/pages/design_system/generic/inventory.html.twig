@@ -1,0 +1,90 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_body -%}
+    {#- Nothing on this page is written down: it draws what a walk of the bundle's
+        assets found, so it says what the design system holds today and not what
+        it held when someone last updated a list. -#}
+    {%- set inventory = ds_element_inventory() -%}
+    {%- set formats = inventory.formatValues -%}
+    {%- set by_format = inventory.countByFormat -%}
+    {%- set by_count = inventory.countByFormatsCount -%}
+
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <div class="block block--padded">
+        {{ properties(
+            [
+                { key: '@page::summary.elements' | trans, value: inventory.countEntries },
+                { key: '@page::summary.lonely' | trans, value: by_count[1] },
+                { key: '@page::summary.complete' | trans, value: by_count[formats|length] },
+            ]|merge(
+                formats|map(format => {
+                    key: ('@page::format.' ~ format ~ '.title') | trans,
+                    value: by_format[format]
+                })
+            ),
+            { bordered: true, split: true }
+        ) }}
+    </div>
+
+    <h2>{{ '@page::section.matrix.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.matrix.description' | trans }}</div>
+
+    <table class="table inventory--table">
+        <thead>
+        <tr class="table--row">
+            <th class="table--cell" scope="col">{{ '@page::column.element' | trans }}</th>
+            {%- for format in formats -%}
+                <th class="table--cell table--cell--center" scope="col"
+                    title="{{ ('@page::format.' ~ format ~ '.description') | trans }}">
+                    {{ ('@page::format.' ~ format ~ '.title') | trans }}
+                </th>
+            {%- endfor -%}
+        </tr>
+        </thead>
+        <tbody>
+        {%- for group, entries in inventory.entriesByGroup -%}
+            {%- if group -%}
+                <tr class="table--row">
+                    <th class="table--cell inventory--group" colspan="{{ formats|length + 1 }}" scope="colgroup">
+                        <code>{{ group }}/</code>
+                    </th>
+                </tr>
+            {%- endif -%}
+            {%- for entry in entries -%}
+                {#- One format and no other is either a gap or a deliberate
+                    exception, and the row is marked so that both get looked at. -#}
+                <tr class="table--row{{ entry.countFormats == 1 ? ' inventory--row--lonely' }}">
+                    <td class="table--cell"><code>{{ entry.shortName }}</code></td>
+                    {%- for format, occurrences in entry.occurrences -%}
+                        <td class="table--cell table--cell--center{{ occurrences is empty ? ' table--cell--secondary' }}">
+                            {%- if occurrences is empty -%}
+                                <span class="inventory--absent" aria-label="{{ '@page::cell.absent' | trans }}">&ndash;</span>
+                            {%- else -%}
+                                <span class="inventory--present" title="{{ occurrences|join('&#10;')|raw }}">
+                                    {{- icon('ph:bold/check') -}}
+                                    {%- if occurrences|length > 1 -%}
+                                        <span class="pill">{{ occurrences|length }}</span>
+                                    {%- endif -%}
+                                </span>
+                            {%- endif -%}
+                        </td>
+                    {%- endfor -%}
+                </tr>
+            {%- endfor -%}
+        {%- endfor -%}
+        </tbody>
+    </table>
+
+    <h2>{{ '@page::section.coverage.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.coverage.description' | trans }}</div>
+    <div class="block block--padded">
+        <div class="cluster">
+            {%- for path in inventory.unscannedPaths -%}
+                <code class="pill">{{ path }}</code>
+            {%- endfor -%}
+        </div>
+    </div>
+{%- endblock -%}

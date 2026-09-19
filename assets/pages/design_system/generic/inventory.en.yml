@@ -1,0 +1,42 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Inventory
+page_icon: ph:bold/list-checks
+
+intro: "Every element the bundle ships, and the formats it is delivered in. The table is not a list anyone maintains: it is a walk of `assets/` and of the bundle's twig extensions, run when the page is drawn. It answers what is there — never what should be, which is a question no scan can settle and which the elements will have to declare for themselves."
+
+summary:
+  elements: Elements found
+  lonely: In a single format
+  complete: In every format
+
+column:
+  element: Element
+
+cell:
+  absent: Not found in this format
+
+format:
+  shape:
+    title: Shape
+    description: "A css class expecting markup it does not itself produce."
+  partial:
+    title: Partial
+    description: "A twig include drawing that markup, taking its variables from the caller."
+  twig_function:
+    title: Function
+    description: "A php function drawing it, with named options and defaults."
+  component:
+    title: Component
+    description: "The loader's triad — template, script, stylesheet — bound at runtime, and the only format that can carry behaviour."
+  vue:
+    title: Vue
+    description: "The client-side twin, drawn in the browser from the same options."
+
+section:
+  matrix:
+    title: Element by format
+    description: "An element is one row wherever the formats agree on its name: `partials/spinner.html.twig`, `vue/partials/spinner.vue` and `css/shapes/_spinner.scss` are the same spinner. A cell counts the files behind it — hover one to see them. A row found in a single format is dimmed, and that is the point of the page: some of those are layout primitives that want nothing else, others are elements missing everything but a stylesheet, and the two look alike until someone says which is which."
+  coverage:
+    title: What this leaves out
+    description: "Directories of `assets/` the scan does not walk, listed from disk rather than from memory. Mixins, utilities and tokens are not elements and may never be rows here; layouts and shared scripts are, and are not covered yet."

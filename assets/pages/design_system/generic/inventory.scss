@@ -1,0 +1,36 @@
+@use '@wexample/symfony-design-system/css/shapes/table';
+@use '@wexample/symfony-design-system/css/shapes/properties';
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/pill';
+
+.inventory--table {
+  // The matrix is read column by column as much as row by row: a header that
+  // scrolls away turns every tick below it into a tick of nothing.
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: var(--surface-1);
+  }
+}
+
+.inventory--group {
+  text-align: left;
+  color: var(--text-color-muted);
+}
+
+.inventory--row--lonely {
+  opacity: 0.65;
+}
+
+.inventory--present {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-success-8);
+}
+
+.inventory--absent {
+  color: var(--text-color-muted);
+}
