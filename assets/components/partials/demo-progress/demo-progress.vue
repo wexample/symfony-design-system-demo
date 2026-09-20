@@ -1,5 +1,5 @@
 <script>
-import ProgressBar from '@wexample/symfony-design-system/components/progress/progress.vue';
+import ProgressBar from '@wexample/symfony-design-system/components/progress-bar/progress-bar.vue';
 
 // What driving a bar looks like from the outside: a ref, and the same four verbs
 // the cli progress speaks. Nothing here computes a percentage — that is the

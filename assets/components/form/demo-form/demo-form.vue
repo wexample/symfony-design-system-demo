@@ -1,20 +1,20 @@
 <script>
 
-import FormVue from "@wexample/symfony-design-system/components/bases/form/form.vue";
+import Form from "@wexample/symfony-design-system/components/bases/form/form.vue";
 import TextInput from "@wexample/symfony-design-system/components/form/text-input/text-input.vue";
-import TextareaInput from "@wexample/symfony-design-system/components/form/textarea/textarea.vue";
+import TextareaInput from "@wexample/symfony-design-system/components/form/textarea-input/textarea-input.vue";
 import RadioInput from "@wexample/symfony-design-system/components/form/radio-input/radio-input.vue";
 import SwitchInput from "@wexample/symfony-design-system/components/form/switch-input/switch-input.vue";
-import SubmitButton from "@wexample/symfony-design-system/components/form/submit-input/submit-input.vue";
+import SubmitInput from "@wexample/symfony-design-system/components/form/submit-input/submit-input.vue";
 
 export default {
-  extends: FormVue,
+  extends: Form,
   components: {
     TextInput,
     TextareaInput,
     RadioInput,
     SwitchInput,
-    SubmitButton
+    SubmitInput
   },
 
   data() {
