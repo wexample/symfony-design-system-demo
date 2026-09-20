@@ -10,7 +10,7 @@ import SearchResultDemoRoom from '../result/demo-room/demo-room.vue';
 export default {
   extends: SearchBox,
 
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-search-demo-search-box',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-search-demo-search-box-demo-search-box',
 
   components: {
     SearchResultDemoMessage,

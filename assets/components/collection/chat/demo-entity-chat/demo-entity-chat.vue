@@ -16,7 +16,7 @@ const EVENT_MESSAGE_CREATED = 'demo-message-created';
 export default {
   extends: AbstractEntityChat,
 
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-collection-chat-demo-entity-chat',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-collection-chat-demo-entity-chat-demo-entity-chat',
 
   props: {
     // The room the thread is held in. The page makes it and names it, and it is

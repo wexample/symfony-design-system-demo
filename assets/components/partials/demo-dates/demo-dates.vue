@@ -1,8 +1,8 @@
 <script>
-import DateDisplay from '@wexample/symfony-design-system/components/date-display/date-display.vue';
+import DateDisplay from '@wexample/symfony-design-system/components/date/date.vue';
 
 export default {
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-partials-demo-dates',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-partials-demo-dates-demo-dates',
 
   components: {
     DateDisplay

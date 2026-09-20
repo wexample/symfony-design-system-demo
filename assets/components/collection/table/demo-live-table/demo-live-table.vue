@@ -14,7 +14,7 @@ const STARTED_AT = Date.now();
 export default {
   extends: AbstractEntityTable,
 
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-collection-table-demo-live-table',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-collection-table-demo-live-table-demo-live-table',
 
   props: {
     // Which of the three ways in this table is given. None of them is the

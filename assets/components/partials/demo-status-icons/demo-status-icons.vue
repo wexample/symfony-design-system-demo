@@ -2,7 +2,7 @@
 import StatusIcon, { STATUS_ICON_GLYPHS } from '@wexample/symfony-design-system/components/status-icon/status-icon.vue';
 
 export default {
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-partials-demo-status-icons',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-partials-demo-status-icons-demo-status-icons',
 
   components: {
     StatusIcon

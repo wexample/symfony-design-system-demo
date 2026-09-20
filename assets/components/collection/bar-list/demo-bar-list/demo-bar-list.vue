@@ -25,7 +25,7 @@ const STARTED_AT = Date.now();
 export default {
   extends: AbstractEntityBarList,
 
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-collection-bar-list-demo-bar-list',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-collection-bar-list-demo-bar-list-demo-bar-list',
 
   props: {
     // Which of the three ways in this list is given. None of them is the list's

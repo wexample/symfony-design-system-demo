@@ -5,10 +5,10 @@
 {%- block vue_require -%}
     {{ parent() }}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/text-input') -}}
-    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/textarea-input') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/textarea') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/radio-input') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/switch-input') -}}
-    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/submit-button') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/submit-input') -}}
 {%- endblock -%}
 
 {%- block form_notification -%}

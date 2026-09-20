@@ -6,7 +6,7 @@ import SearchResult from '@wexample/symfony-search/vue/search/search-result.vue'
 export default {
   extends: SearchResult,
 
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-vue-search-result-demo-message',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-search-result-demo-message-demo-message',
 
   computed: {
     icon() {
