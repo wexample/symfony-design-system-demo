@@ -11,14 +11,15 @@ missing:
 
 summary:
   elements: Elements found
-  lonely: In a single format
-  complete: In every format
+  todo: Formats left to do
+  undecided: Decisions not yet made
 
 column:
   element: Element
 
 cell:
   absent: "Not found in this format, and the declaration does not say why — a decision not yet made"
+  todo: "Wanted in this format and not there yet"
   shared: "Also held by %bundles%. Not a fault — the loader tells them apart by alias — but worth knowing whether it is one element redrawn or two that share a name."
 
 
@@ -42,7 +43,7 @@ format:
 section:
   matrix:
     title: Element by format
-    description: "An element is one row wherever the formats agree on its name: `partials/spinner.html.twig`, `vue/partials/spinner.vue` and `css/shapes/_spinner.scss` are the same spinner. A cell counts the files behind it — hover one to see them. Every declared element reads at the same level — a row found in a single format may be a gap or a primitive that wants nothing else, and sorting that out is work this table is for rather than something it already knows. A dash is a format the element's declaration says nothing about; a struck circle is one it does without on purpose — hover it for the reason. Telling the two apart is what the declarations are for."
+    description: "An element is one row wherever the formats agree on its name: `partials/spinner.html.twig`, `vue/partials/spinner.vue` and `css/shapes/_spinner.scss` are the same spinner. A cell counts the files behind it — hover one to see them. Every declared element reads at the same level — a row found in a single format may be a gap or a primitive that wants nothing else, and sorting that out is work this table is for rather than something it already knows. Four states, told apart by whose move it is next: a check, the element is there; a warning, it is wanted and missing; a struck circle, it does without on purpose; a blank, nobody has ruled yet. Hover a warning or a circle for what the declaration says."
   sources:
     title: Where these come from
     description: "A bundle is in the table because it said so — by implementing `DesignSystemElementsBundleInterface`, the way a bundle tells the loader about its front paths. Each writes `data/elements.json` inside its own assets, published with them, so the build, the node side, another language or an agent all work from the same files; this page is only their union."

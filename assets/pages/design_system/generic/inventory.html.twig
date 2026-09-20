@@ -19,7 +19,7 @@
     {%- endif -%}
     {%- set formats = inventory.formatValues -%}
     {%- set by_format = inventory.countByFormat -%}
-    {%- set by_count = inventory.countByFormatsCount -%}
+    {%- set by_stance = inventory.countByStance -%}
 
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
@@ -27,8 +27,8 @@
         {{ properties(
             [
                 { key: '@page::summary.elements' | trans, value: inventory.countEntries },
-                { key: '@page::summary.lonely' | trans, value: by_count[1] },
-                { key: '@page::summary.complete' | trans, value: by_count[formats|length] },
+                { key: '@page::summary.todo' | trans, value: by_stance.todo },
+                { key: '@page::summary.undecided' | trans, value: by_stance.undecided },
             ]|merge(
                 formats|map(format => {
                     key: ('@page::format.' ~ format ~ '.title') | trans,
@@ -74,11 +74,16 @@
             {%- endset -%}
             {%- set row = { element: element } -%}
             {%- for format, occurrences in entry.occurrences -%}
-                {%- set justification = entry.absent[format] ?? null -%}
+                {%- set stance = entry.stances[format] ?? 'undecided' -%}
+                {%- set note = entry.notes[format] ?? null -%}
                 {%- if occurrences is not empty -%}
                     {%- set cell = { type: 'success', count: occurrences|length > 1 ? occurrences|length : null, title: occurrences|join(', ') } -%}
-                {%- elseif justification -%}
-                    {%- set cell = { type: 'disabled', title: justification } -%}
+                {%- elseif stance == 'todo' -%}
+                    {#- Wanted and missing: work someone can pick up, which is
+                        the whole difference with the blank beside it. -#}
+                    {%- set cell = { type: 'warning', title: note ?? '@page::cell.todo' | trans } -%}
+                {%- elseif stance == 'waived' -%}
+                    {%- set cell = { type: 'disabled', title: note } -%}
                 {%- else -%}
                     {#- Not found and nothing said about it: a decision not yet
                         made, which no state honestly stands for. -#}
