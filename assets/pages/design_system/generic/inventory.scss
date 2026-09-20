@@ -16,8 +16,12 @@
   }
 }
 
-.inventory--group {
+.inventory--source {
   text-align: left;
+  padding-top: var(--space-4);
+}
+
+.inventory--justified {
   color: var(--text-color-muted);
 }
 

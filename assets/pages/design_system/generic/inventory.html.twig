@@ -55,30 +55,40 @@
         </tr>
         </thead>
         <tbody>
-        {%- for group, entries in inventory.entriesByGroup -%}
-            {%- if group -%}
-                <tr class="table--row">
-                    <th class="table--cell inventory--group" colspan="{{ formats|length + 1 }}" scope="colgroup">
-                        <code>{{ group }}/</code>
-                    </th>
-                </tr>
-            {%- endif -%}
-            {%- for entry in entries -%}
+        {%- set shared = inventory.findSharedKeys -%}
+        {%- for source, source_entries in inventory.entriesBySource -%}
+            <tr class="table--row">
+                <th class="table--cell inventory--source" colspan="{{ formats|length + 1 }}" scope="colgroup">
+                    <code>@{{ source }}</code>
+                </th>
+            </tr>
+            {%- for entry in source_entries -%}
                 {#- One format and no other is either a gap or a deliberate
                     exception, and the row is marked so that both get looked at. -#}
                 <tr class="table--row{{ entry.countFormats == 1 ? ' inventory--row--lonely' }}">
-                    <td class="table--cell"><code>{{ entry.shortName }}</code></td>
+                    <td class="table--cell">
+                        {%- if entry.group -%}<span class="text-secondary">{{ entry.group }}/</span>{%- endif -%}
+                        <code>{{ entry.shortName }}</code>
+                        {%- if shared[entry.key] is defined -%}
+                            {#- Not a fault: the loader tells them apart. The one
+                                thing a reader of the union would want pointed at. -#}
+                            <span class="pill" title="{{ '@page::cell.shared' | trans({ '%bundles%': shared[entry.key]|join(', ') }) }}">{{ shared[entry.key]|length }}</span>
+                        {%- endif -%}
+                    </td>
                     {%- for format, occurrences in entry.occurrences -%}
+                        {%- set justification = entry.absent[format] ?? null -%}
                         <td class="table--cell table--cell--center{{ occurrences is empty ? ' table--cell--secondary' }}">
-                            {%- if occurrences is empty -%}
-                                <span class="inventory--absent" aria-label="{{ '@page::cell.absent' | trans }}">&ndash;</span>
-                            {%- else -%}
+                            {%- if occurrences is not empty -%}
                                 <span class="inventory--present" title="{{ occurrences|join('&#10;')|raw }}">
                                     {{- icon('ph:bold/check') -}}
                                     {%- if occurrences|length > 1 -%}
                                         <span class="pill">{{ occurrences|length }}</span>
                                     {%- endif -%}
                                 </span>
+                            {%- elseif justification -%}
+                                <span class="inventory--justified" title="{{ justification }}">{{ icon('ph:bold/minus-circle') }}</span>
+                            {%- else -%}
+                                <span class="inventory--absent" aria-label="{{ '@page::cell.absent' | trans }}">&ndash;</span>
                             {%- endif -%}
                         </td>
                     {%- endfor -%}

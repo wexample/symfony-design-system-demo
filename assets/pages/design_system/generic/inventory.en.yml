@@ -18,7 +18,9 @@ column:
   element: Element
 
 cell:
-  absent: Not found in this format
+  absent: "Not found in this format, and the declaration does not say why — a decision not yet made"
+  shared: "Also held by %bundles%. Not a fault — the loader tells them apart by alias — but worth knowing whether it is one element redrawn or two that share a name."
+
 
 format:
   shape:
@@ -40,7 +42,7 @@ format:
 section:
   matrix:
     title: Element by format
-    description: "An element is one row wherever the formats agree on its name: `partials/spinner.html.twig`, `vue/partials/spinner.vue` and `css/shapes/_spinner.scss` are the same spinner. A cell counts the files behind it — hover one to see them. A row found in a single format is dimmed, and that is the point of the page: some of those are layout primitives that want nothing else, others are elements missing everything but a stylesheet, and the two look alike until someone says which is which."
+    description: "An element is one row wherever the formats agree on its name: `partials/spinner.html.twig`, `vue/partials/spinner.vue` and `css/shapes/_spinner.scss` are the same spinner. A cell counts the files behind it — hover one to see them. A row found in a single format is dimmed. A dash is a format the element's declaration says nothing about; a struck circle is one it does without on purpose — hover it for the reason. Telling the two apart is what the declarations are for."
   sources:
     title: Where these come from
     description: "A bundle is in the table because it said so — by implementing `DesignSystemElementsBundleInterface`, the way a bundle tells the loader about its front paths. Each writes `data/elements.json` inside its own assets, published with them, so the build, the node side, another language or an agent all work from the same files; this page is only their union."
