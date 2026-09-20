@@ -16,6 +16,15 @@ section:
     title: Empty state
   alignment:
     title: Column alignment
+  groups:
+    title: Group rows
+    description: "A row carrying only a group is not a row: it is the line between two runs of them, given a word. It spans the table and names what follows — the same reading as a menu separator."
+  status:
+    title: Status cells
+    description: "A state is a circle, never a colour someone picked: the cell takes a type name, or a type with a count and a title, and draws the status icon the rest of the system draws. Nothing to style in the page."
+  sticky:
+    title: Sticky header
+    description: "A long table is read column by column as much as row by row. With `sticky`, the header stays in view while the rows scroll under it; a page with something of its own pinned at the top says how far down in `--table-sticky-top`."
   vue:
     title: Vue entity table
   vue_compact:
@@ -36,6 +45,11 @@ column:
   links:
     source: Source
     state: State
+  status:
+    name: Pipeline
+    build: Build
+    tests: Tests
+    deploy: Deploy
   alignment:
     left: Name (left)
     center: Status (center)
@@ -62,3 +76,10 @@ row:
       label: Loading rows
     empty:
       label: No data available.
+
+group:
+  first: First group
+  second: Second group
+
+status:
+  flaky: Three tests are flaky

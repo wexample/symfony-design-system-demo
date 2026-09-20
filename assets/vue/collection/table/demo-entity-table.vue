@@ -2,6 +2,8 @@
 import AbstractEntityTable from '@wexample/symfony-design-system/vue/collection/table/abstract-entity-table.vue';
 
 const STATUSES = ['Active', 'Pending', 'Inactive'];
+// What each word is drawn as: a status cell takes a type, never a colour.
+const STATUS_TYPES = { Active: 'success', Pending: 'pending', Inactive: 'disabled' };
 const NOW = Date.now();
 const DEMO_ROWS = Array.from({ length: 37 }, (value, index) => ({
   name: `Item ${String(index + 1).padStart(2, '0')}`,
@@ -41,7 +43,7 @@ export default {
     getColumnsConfiguration() {
       return [
         { key: 'name',    label: 'Name' },
-        { key: 'status',  label: 'Status', align: 'center' },
+        { key: 'status',  label: 'Status', align: 'center', cell: 'status', format: (value) => ({ type: STATUS_TYPES[value], label: value }) },
         { key: 'amount',  label: 'Amount', align: 'right' },
         { key: 'created', label: 'Created', secondary: true, format: (v) => this.cellFormatterDateOnly(v) },
         // Live on every page: the cells are rebuilt as the pager moves, and each

@@ -99,6 +99,60 @@
         </section>
 
         <section>
+            <h2>{{ '@page::section.groups.title' | trans }}</h2>
+            <p>{{ '@page::section.groups.description' | trans }}</p>
+            {{ table(
+                [
+                    { key: 'name', label: '@page::column.default.name' | trans },
+                    { key: 'date', label: '@page::column.default.date' | trans, secondary: true },
+                ],
+                [
+                    { group: '@page::group.first' | trans },
+                    { name: '@page::row.one.title' | trans, date: '@page::row.one.meta' | trans },
+                    { name: '@page::row.two.title' | trans, date: '@page::row.two.meta' | trans },
+                    { group: '@page::group.second' | trans },
+                    { name: '@page::row.three.title' | trans, date: '@page::row.three.meta' | trans },
+                ]
+            ) }}
+        </section>
+
+        <section>
+            <h2>{{ '@page::section.status.title' | trans }}</h2>
+            <p>{{ '@page::section.status.description' | trans }}</p>
+            {{ table(
+                [
+                    { key: 'name', label: '@page::column.status.name' | trans },
+                    { key: 'build', label: '@page::column.status.build' | trans, cell: 'status', align: 'center' },
+                    { key: 'tests', label: '@page::column.status.tests' | trans, cell: 'status', align: 'center' },
+                    { key: 'deploy', label: '@page::column.status.deploy' | trans, cell: 'status', align: 'center' },
+                ],
+                [
+                    { name: '@page::row.one.title' | trans, build: 'success', tests: { type: 'success', count: 42 }, deploy: 'pending' },
+                    { name: '@page::row.two.title' | trans, build: 'success', tests: { type: 'warning', count: 3, title: '@page::status.flaky' | trans }, deploy: 'skipped' },
+                    { name: '@page::row.three.title' | trans, build: 'error', tests: null, deploy: 'disabled' },
+                ]
+            ) }}
+        </section>
+
+        <section>
+            <h2>{{ '@page::section.sticky.title' | trans }}</h2>
+            <p>{{ '@page::section.sticky.description' | trans }}</p>
+            {%- set long_rows = [] -%}
+            {%- for i in 1..40 -%}
+                {%- set long_rows = long_rows|merge([{ index: i, name: 'Row ' ~ i, state: i is divisible by(7) ? 'warning' : 'success' }]) -%}
+            {%- endfor -%}
+            {{ table(
+                [
+                    { key: 'index', label: '#', class: 'table--cell--fit' },
+                    { key: 'name', label: '@page::column.default.name' | trans },
+                    { key: 'state', label: '@page::column.links.state' | trans, cell: 'status', align: 'center' },
+                ],
+                long_rows,
+                { sticky: true }
+            ) }}
+        </section>
+
+        <section>
             <h2>{{ '@page::section.vue.title' | trans }}</h2>
             {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-entity-table') }}
         </section>

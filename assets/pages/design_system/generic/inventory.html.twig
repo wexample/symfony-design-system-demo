@@ -42,61 +42,56 @@
     <h2>{{ '@page::section.matrix.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.matrix.description' | trans }}</div>
 
-    <table class="table inventory--table">
-        <thead>
-        <tr class="table--row">
-            <th class="table--cell" scope="col">{{ '@page::column.element' | trans }}</th>
-            {%- for format in formats -%}
-                <th class="table--cell table--cell--center" scope="col"
-                    title="{{ ('@page::format.' ~ format ~ '.description') | trans }}">
-                    {{ ('@page::format.' ~ format ~ '.title') | trans }}
-                </th>
+    {#- The matrix is the table helper, and nothing of its own: a group row per
+        bundle, a status cell per format, a sticky header for a table this long.
+        What is read on a row is decided here, drawn nowhere. -#}
+    {%- set shared = inventory.findSharedKeys -%}
+    {%- set columns = [{ key: 'element', label: '@page::column.element' | trans, cell: 'html' }] -%}
+    {%- for format in formats -%}
+        {%- set columns = columns|merge([{
+            key: format,
+            label: ('@page::format.' ~ format ~ '.title') | trans,
+            cell: 'status',
+            align: 'center'
+        }]) -%}
+    {%- endfor -%}
+
+    {%- set rows = [] -%}
+    {%- for source, source_entries in inventory.entriesBySource -%}
+        {%- set rows = rows|merge([{ group: '@' ~ source }]) -%}
+        {%- for entry in source_entries -%}
+            {#- One format and no other is either a gap or a deliberate exception:
+                the name steps back so that both get looked at. -#}
+            {%- set element -%}
+                {%- if entry.countFormats == 1 -%}<span class="text-secondary">{%- endif -%}
+                {%- if entry.group -%}<span class="text-secondary">{{ entry.group }}/</span>{%- endif -%}
+                <code>{{ entry.shortName }}</code>
+                {%- if shared[entry.key] is defined -%}
+                    {#- Not a fault: the loader tells them apart. The one thing a
+                        reader of the union would want pointed at. -#}
+                    <span class="pill" title="{{ '@page::cell.shared' | trans({ '%bundles%': shared[entry.key]|join(', ') }) }}">{{ shared[entry.key]|length }}</span>
+                {%- endif -%}
+                {%- if entry.countFormats == 1 -%}</span>{%- endif -%}
+            {%- endset -%}
+            {%- set row = { element: element } -%}
+            {%- for format, occurrences in entry.occurrences -%}
+                {%- set justification = entry.absent[format] ?? null -%}
+                {%- if occurrences is not empty -%}
+                    {%- set cell = { type: 'success', count: occurrences|length > 1 ? occurrences|length : null, title: occurrences|join(', ') } -%}
+                {%- elseif justification -%}
+                    {%- set cell = { type: 'disabled', title: justification } -%}
+                {%- else -%}
+                    {#- Not found and nothing said about it: a decision not yet
+                        made, which no state honestly stands for. -#}
+                    {%- set cell = null -%}
+                {%- endif -%}
+                {%- set row = row|merge({ (format): cell }) -%}
             {%- endfor -%}
-        </tr>
-        </thead>
-        <tbody>
-        {%- set shared = inventory.findSharedKeys -%}
-        {%- for source, source_entries in inventory.entriesBySource -%}
-            <tr class="table--row">
-                <th class="table--cell inventory--source" colspan="{{ formats|length + 1 }}" scope="colgroup">
-                    <code>@{{ source }}</code>
-                </th>
-            </tr>
-            {%- for entry in source_entries -%}
-                {#- One format and no other is either a gap or a deliberate
-                    exception, and the row is marked so that both get looked at. -#}
-                <tr class="table--row{{ entry.countFormats == 1 ? ' inventory--row--lonely' }}">
-                    <td class="table--cell">
-                        {%- if entry.group -%}<span class="text-secondary">{{ entry.group }}/</span>{%- endif -%}
-                        <code>{{ entry.shortName }}</code>
-                        {%- if shared[entry.key] is defined -%}
-                            {#- Not a fault: the loader tells them apart. The one
-                                thing a reader of the union would want pointed at. -#}
-                            <span class="pill" title="{{ '@page::cell.shared' | trans({ '%bundles%': shared[entry.key]|join(', ') }) }}">{{ shared[entry.key]|length }}</span>
-                        {%- endif -%}
-                    </td>
-                    {%- for format, occurrences in entry.occurrences -%}
-                        {%- set justification = entry.absent[format] ?? null -%}
-                        <td class="table--cell table--cell--center{{ occurrences is empty ? ' table--cell--secondary' }}">
-                            {%- if occurrences is not empty -%}
-                                <span class="inventory--present" title="{{ occurrences|join('&#10;')|raw }}">
-                                    {{- icon('ph:bold/check') -}}
-                                    {%- if occurrences|length > 1 -%}
-                                        <span class="pill">{{ occurrences|length }}</span>
-                                    {%- endif -%}
-                                </span>
-                            {%- elseif justification -%}
-                                <span class="inventory--justified" title="{{ justification }}">{{ icon('ph:bold/minus-circle') }}</span>
-                            {%- else -%}
-                                <span class="inventory--absent" aria-label="{{ '@page::cell.absent' | trans }}">&ndash;</span>
-                            {%- endif -%}
-                        </td>
-                    {%- endfor -%}
-                </tr>
-            {%- endfor -%}
+            {%- set rows = rows|merge([row]) -%}
         {%- endfor -%}
-        </tbody>
-    </table>
+    {%- endfor -%}
+
+    {{ table(columns, rows, { sticky: true }) }}
 
     <h2>{{ '@page::section.coverage.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.coverage.description' | trans }}</div>
