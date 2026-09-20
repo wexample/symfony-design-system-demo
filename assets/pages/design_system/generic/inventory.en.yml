@@ -36,6 +36,18 @@ format:
   script:
     title: Script
     description: "The behaviour, bound to the markup once it is in the document."
+  schema:
+    title: Schema
+    description: "The contract: what the component takes, with types and defaults. Every other renderer is checkable against it."
+  ai:
+    title: AI
+    description: "What an agent is told about the component: the schema, how to use it, the tools that act on it."
+  react:
+    title: React
+    description: "The react renderer."
+  flutter:
+    title: Flutter
+    description: "The flutter renderer, written in dart against the schema. Markup does not carry over; the contract and the tokens do."
 
 section:
   matrix:
