@@ -95,7 +95,7 @@
         {%- endfor -%}
     {%- endfor -%}
 
-    {{ table(columns, rows, { sticky: true }) }}
+    {{ data_table(columns, rows, { sticky: true }) }}
 
     <h2>{{ '@page::section.coverage.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.coverage.description' | trans }}</div>
