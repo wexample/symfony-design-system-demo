@@ -29,7 +29,7 @@
   </div>
 </div>{%- endverbatim -%}
                 {%- endset -%}
-                {{ include('@WexampleSymfonyDesignSystemBundle/partials/code-block.html.twig', {lang: 'html', code: code}) }}
+                {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'html', code: code}) }}
             </div>
         </div>
 
@@ -48,7 +48,7 @@
   code: 'curl https://api.example.com/resource'
 }) }}{%- endverbatim -%}
                 {%- endset -%}
-                {{ include('@WexampleSymfonyDesignSystemBundle/partials/code-block.html.twig', {lang: 'twig', code: code}) }}
+                {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}
             </div>
         </div>
     </div>

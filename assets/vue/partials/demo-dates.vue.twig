@@ -1,9 +1,0 @@
-{%- extends '@WexampleSymfonyDesignSystemBundle/vue/bases/vue.vue.twig' -%}
-
-{%- block vue_require -%}
-    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/date-display') -}}
-{%- endblock -%}
-
-{%- block vue_body -%}
-    <date-display :value="mountedAt" format="relative"></date-display>
-{%- endblock -%}

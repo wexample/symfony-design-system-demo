@@ -6,31 +6,31 @@
     <h2>{{ '@page::section.events.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.events.description' | trans }}</div>
     <div class="block block--padded">
-        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'events' }) }}
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-live-table', { watch: 'events' }) }}
     </div>
 
     <h2>{{ '@page::section.live.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.live.description' | trans }}</div>
     <div class="block block--padded">
-        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'live' }) }}
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-live-table', { watch: 'live' }) }}
     </div>
 
     <h2>{{ '@page::section.polling.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.polling.description' | trans }}</div>
     <div class="block block--padded">
-        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'polling' }) }}
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-live-table', { watch: 'polling' }) }}
     </div>
 
     <h2>{{ '@page::section.none.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.none.description' | trans }}</div>
     <div class="block block--padded">
-        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table', { watch: 'none' }) }}
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-live-table', { watch: 'none' }) }}
     </div>
 
     <h2>{{ '@page::section.shape.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.shape.description' | trans }}</div>
     <div class="block block--padded">
-        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list', {
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/bar-list/demo-bar-list', {
             watch: 'polling',
             showToolbar: true
         }) }}

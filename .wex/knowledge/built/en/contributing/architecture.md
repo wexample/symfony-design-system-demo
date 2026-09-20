@@ -93,7 +93,7 @@ export default class extends Page {
 The `.scss` is usually a one-line `@use` of a shared partial (`dialog/index.scss` is `@use './page-dialog';`), and the `_`-prefixed files — `_page-dialog.scss`, `_layout-components.scss` — pull in the shapes the section needs from the upstream design system:
 
 ```scss
-@use '@wexample/symfony-design-system/css/shapes/tab';
+@use '@wexample/symfony-design-system/components/tab';
 ```
 
 ### Layouts, and the seam with the host application
@@ -154,8 +154,8 @@ The same four behaviors are therefore spelled out in four places — the process
 
 
 ```twig
-{%- extends '@WexampleSymfonyDesignSystemBundle/vue/bases/form.vue.twig' -%}
-{{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/form/fields/text-input') -}}
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/bases/form/form.vue.twig' -%}
+{{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/text-input') -}}
 ```
 
 

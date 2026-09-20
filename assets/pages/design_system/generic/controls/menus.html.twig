@@ -37,7 +37,7 @@
     <div class="block block--padded cluster">
         {{ button_menu('ph:bold/list', '@page::menu.grouped' | trans, grouped_items) }}
         {{ button_menu('ph:bold/dots-three-vertical', null, grouped_items, { menu_align: 'right' }) }}
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/button-menu', {
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button-menu', {
             label: '@page::menu.grouped_vue' | trans,
             items: [
                 { icon: 'ph:bold/clipboard-text', label: '@page::menu.item.report'   | trans, href: '#' },
@@ -58,7 +58,7 @@
             { icon: 'ph:bold/bell',   label: '@page::menu.item.alerts',   href: app_home_url(), count: 3 },
             { icon: 'ph:bold/gear',   label: '@page::menu.item.settings', href: app_home_url() }
         ]) }}
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/button-menu', {
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button-menu', {
             label: '@page::menu.counted_vue' | trans,
             items: [
                 { icon: 'ph:bold/tray',   label: '@page::menu.item.inbox'    | trans, href: '#', count: 12 },

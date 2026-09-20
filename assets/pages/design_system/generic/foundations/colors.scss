@@ -1,5 +1,5 @@
 @use './layout/layout-foundations';
-@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/components/cluster/cluster';
 
 // A swatch is its colour first and its name second, so the sample is what takes
 // the room and the token sits under it.

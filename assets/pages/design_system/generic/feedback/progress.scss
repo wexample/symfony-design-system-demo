@@ -1,8 +1,8 @@
 @use './layout/layout-feedback';
-@use '@wexample/symfony-design-system/css/shapes/cluster';
-@use '@wexample/symfony-design-system/css/shapes/button';
-@use '@wexample/symfony-design-system/css/shapes/toolbar';
-@use '@wexample/symfony-design-system/css/shapes/progress';
+@use '@wexample/symfony-design-system/components/cluster/cluster';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/toolbar/toolbar';
+@use '@wexample/symfony-design-system/components/progress/progress';
 
 .demo-progress {
   display: flex;

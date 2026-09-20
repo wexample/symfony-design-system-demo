@@ -107,7 +107,7 @@ export default class extends Page {
 The `.scss` is usually a one-line `@use` of a shared partial (`dialog/index.scss` is `@use './page-dialog';`), and the `_`-prefixed files — `_page-dialog.scss`, `_layout-components.scss` — pull in the shapes the section needs from the upstream design system:
 
 ```scss
-@use '@wexample/symfony-design-system/css/shapes/tab';
+@use '@wexample/symfony-design-system/components/tab';
 ```
 
 ### Layouts, and the seam with the host application
@@ -163,8 +163,8 @@ The same four behaviors are therefore spelled out in four places — the process
 `assets/vue/` holds pairs. The `.vue.twig` is the server half: it extends a base from the design system bundle, declares its dependencies, and fills blocks with translated markup.
 
 ```twig
-{%- extends '@WexampleSymfonyDesignSystemBundle/vue/bases/form.vue.twig' -%}
-{{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/form/fields/text-input') -}}
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/bases/form/form.vue.twig' -%}
+{{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/text-input') -}}
 ```
 
 Some are nothing else — `demo-entity-table.vue.twig` is a single `extends` line. The `.vue` is the client half: an options object that `extends` an upstream component and binds to the rendered template by id. assets/vue/collection/table/demo-entity-table.vue overrides `refreshEntitiesCollection()` to slice a 37-row constant instead of calling an API, and points its row actions back at the dialog routes:

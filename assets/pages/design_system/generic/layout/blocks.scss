@@ -1,6 +1,6 @@
 @use './layout/layout-generic';
-@use '@wexample/symfony-design-system/css/shapes/block';
-@use '@wexample/symfony-design-system/css/shapes/flow';
-@use '@wexample/symfony-design-system/css/shapes/zone';
-@use '@wexample/symfony-design-system/css/shapes/toolbar';
-@use '@wexample/symfony-design-system/css/shapes/tab';
+@use '@wexample/symfony-design-system/components/block/block';
+@use '@wexample/symfony-design-system/components/flow/flow';
+@use '@wexample/symfony-design-system/components/zone/zone';
+@use '@wexample/symfony-design-system/components/toolbar/toolbar';
+@use '@wexample/symfony-design-system/components/tab/tab';

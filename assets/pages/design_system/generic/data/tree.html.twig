@@ -90,7 +90,7 @@
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded tree-demo--panel">
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/tree', { items: project }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tree', { items: project }) }}
     </div>
 
     {#- The case an app actually ships: the vue tree stands in a scrollable zone of a
@@ -124,7 +124,7 @@
     ] -%}
     <div class="zone zone--split tree-demo--workspace">
         <div class="zone zone--narrow zone--size-6">
-            {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-explorer', { items: crowded }) }}
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/partials/demo-explorer', { items: crowded }) }}
         </div>
         <div class="zone zone--bordered zone--scrollable zone--padded">
             <h3>Pages</h3>

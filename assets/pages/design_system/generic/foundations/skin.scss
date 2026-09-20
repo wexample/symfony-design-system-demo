@@ -1,7 +1,7 @@
 @use './layout/layout-foundations';
-@use '@wexample/symfony-design-system/css/shapes/cluster';
-@use '@wexample/symfony-design-system/css/shapes/stack';
-@use '@wexample/symfony-design-system/css/shapes/zone';
+@use '@wexample/symfony-design-system/components/cluster/cluster';
+@use '@wexample/symfony-design-system/components/stack/stack';
+@use '@wexample/symfony-design-system/components/zone/zone';
 
 // A token is read on a plain square: the sample carries the property under
 // test and nothing else that could be mistaken for it.

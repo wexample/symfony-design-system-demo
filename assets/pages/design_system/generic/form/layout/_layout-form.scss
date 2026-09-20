@@ -1,7 +1,7 @@
-@use '@wexample/symfony-design-system/css/shapes/block';
-@use '@wexample/symfony-design-system/css/shapes/flow';
-@use '@wexample/symfony-design-system/css/shapes/lead';
-@use '@wexample/symfony-design-system/css/shapes/tab';
+@use '@wexample/symfony-design-system/components/block/block';
+@use '@wexample/symfony-design-system/components/flow/flow';
+@use '@wexample/symfony-design-system/components/lead/lead';
+@use '@wexample/symfony-design-system/components/tab/tab';
 // What every page of this section is made of, beyond the four above.
-@use '@wexample/symfony-design-system/css/shapes/form';
-@use '@wexample/symfony-design-system/css/shapes/grid';
+@use '@wexample/symfony-design-system/components/form/form';
+@use '@wexample/symfony-design-system/components/grid/grid';

@@ -1,8 +1,8 @@
 @use './layout/layout-data';
-@use '@wexample/symfony-design-system/css/shapes/table';
-@use '@wexample/symfony-design-system/css/shapes/pagination';
-@use '@wexample/symfony-design-system/css/shapes/toolbar';
-@use '@wexample/symfony-design-system/css/shapes/button';
+@use '@wexample/symfony-design-system/components/table/table';
+@use '@wexample/symfony-design-system/components/pagination/pagination';
+@use '@wexample/symfony-design-system/components/toolbar/toolbar';
+@use '@wexample/symfony-design-system/components/button/button';
 
 .demo-live {
   display: flex;

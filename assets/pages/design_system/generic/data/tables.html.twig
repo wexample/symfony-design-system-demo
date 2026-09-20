@@ -154,17 +154,17 @@
 
         <section>
             <h2>{{ '@page::section.vue.title' | trans }}</h2>
-            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-entity-table') }}
+            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-entity-table') }}
         </section>
 
         <section>
             <h2>{{ '@page::section.vue_compact.title' | trans }}</h2>
             <p>{{ '@page::section.vue_compact.description' | trans }}</p>
-            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-compact-table') }}
+            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-compact-table') }}
         </section>
 
         <section>
             <h2>{{ '@page::section.vue_dates.title' | trans }}</h2>
-            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-dates-table') }}
+            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-dates-table') }}
         </section>
 {%- endblock -%}

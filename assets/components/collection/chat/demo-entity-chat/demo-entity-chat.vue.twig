@@ -1,0 +1,7 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/collection/chat/abstract-entity-chat/abstract-entity-chat.vue.twig' -%}
+
+{%- block vue_config -%}
+    {{ parent() }}
+    {{ trans_js(render_pass, 'WexampleSymfonyDesignSystemDemoBundle.vue.collection.chat.demo-entity-chat::*') }}
+    {{ slash_commands_js(render_pass, 'demo-chat') }}
+{%- endblock -%}

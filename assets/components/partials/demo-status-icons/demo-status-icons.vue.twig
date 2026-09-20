@@ -1,0 +1,41 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/bases/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/status-icon') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="demo-status-icons">
+        <div class="demo-status-icons--stage">
+            <status-icon :type="type" :progress="progress" size="lg"></status-icon>
+            <span class="demo-status-icons--readout">[[ type ]] · [[ Math.round(progress * 100) ]]%</span>
+        </div>
+
+        <div class="cluster">
+            <button
+                    v-for="name in types"
+                    :key="name"
+                    type="button"
+                    class="button"
+                    :class="{ 'button--invert': name === type }"
+                    @click="type = name"
+            >
+                <status-icon :type="name" :progress="progress" size="sm"></status-icon>
+                <span>[[ name ]]</span>
+            </button>
+        </div>
+
+        <div class="cluster">
+            <button
+                    v-for="step in [0, 0.25, 0.5, 0.75, 1]"
+                    :key="step"
+                    type="button"
+                    class="button"
+                    @click="setProgress(step)"
+            >[[ Math.round(step * 100) ]]%</button>
+            <button type="button" class="button button--invert" @click="toggle">
+                [[ isPlaying ? 'Stop' : 'Run' ]]
+            </button>
+        </div>
+    </div>
+{%- endblock -%}

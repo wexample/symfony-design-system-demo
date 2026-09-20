@@ -1,7 +1,7 @@
 @use './layout/layout-foundations';
-@use '@wexample/symfony-design-system/css/shapes/cluster';
-@use '@wexample/symfony-design-system/css/shapes/toolbar';
-@use '@wexample/symfony-design-system/css/shapes/button';
+@use '@wexample/symfony-design-system/components/cluster/cluster';
+@use '@wexample/symfony-design-system/components/toolbar/toolbar';
+@use '@wexample/symfony-design-system/components/button/button';
 
 // A step is read by its length, so the sample is a bar of exactly that length
 // and the name sits at a fixed column beside it.

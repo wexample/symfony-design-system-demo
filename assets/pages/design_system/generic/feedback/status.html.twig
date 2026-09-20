@@ -3,22 +3,22 @@
 {%- block page_body -%}
     <h2>{{ '@page::section.variants.title' | trans }}</h2>
     <div class="stack--vertical" style="align-items: flex-start;">
-        {{ include('@WexampleSymfonyDesignSystemBundle/partials/status.html.twig', {
+        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
             type: 'success',
             icon_name: 'ph:bold/check-circle',
             label: '@page::status.success' | trans
         }) }}
-        {{ include('@WexampleSymfonyDesignSystemBundle/partials/status.html.twig', {
+        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
             type: 'error',
             icon_name: 'ph:bold/x-circle',
             label: '@page::status.error' | trans
         }) }}
-        {{ include('@WexampleSymfonyDesignSystemBundle/partials/status.html.twig', {
+        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
             type: 'warning',
             icon_name: 'ph:bold/warning',
             label: '@page::status.warning' | trans
         }) }}
-        {{ include('@WexampleSymfonyDesignSystemBundle/partials/status.html.twig', {
+        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
             type: 'info',
             icon_name: 'ph:bold/info',
             label: '@page::status.info' | trans
@@ -57,16 +57,16 @@
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded">
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-status-icons') }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/partials/demo-status-icons') }}
     </div>
 
     <h2>{{ '@page::section.code.title' | trans }}</h2>
     {%- set code -%}
-        {%- verbatim %}{{ include('@WexampleSymfonyDesignSystemBundle/partials/status.html.twig', {
+        {%- verbatim %}{{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
     type: 'success',
     icon_name: 'ph:bold/check-circle',
     label: 'Operation successful'
 }) }}{%- endverbatim -%}
     {%- endset -%}
-    {{ include('@WexampleSymfonyDesignSystemBundle/partials/code-block.html.twig', {lang: 'twig', code: code}) }}
+    {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}
 {%- endblock -%}

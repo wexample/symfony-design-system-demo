@@ -23,7 +23,7 @@
     <p>{{ '@page::section.breadcrumb.description' | trans }}</p>
 
     <h3>{{ '@page::breadcrumb.example.two_levels' | trans }}</h3>
-    {% include '@WexampleSymfonyDesignSystemBundle/partials/breadcrumb.html.twig' with {
+    {% include '@WexampleSymfonyDesignSystemBundle/components/breadcrumb/breadcrumb.html.twig' with {
         items: [
             { route: 'wexample_design_system_generic_layout_index', label: '@page::breadcrumb.item.layout' | trans },
             { label: '@page::breadcrumb.item.current' | trans }
@@ -32,7 +32,7 @@
     } %}
 
     <h3>{{ '@page::breadcrumb.example.three_levels' | trans }}</h3>
-    {% include '@WexampleSymfonyDesignSystemBundle/partials/breadcrumb.html.twig' with {
+    {% include '@WexampleSymfonyDesignSystemBundle/components/breadcrumb/breadcrumb.html.twig' with {
         items: [
             { route: 'wexample_design_system_generic_layout_index',  label: '@page::breadcrumb.item.home'    | trans },
             { route: 'wexample_design_system_generic_layout_blocks', label: '@page::breadcrumb.item.section' | trans },

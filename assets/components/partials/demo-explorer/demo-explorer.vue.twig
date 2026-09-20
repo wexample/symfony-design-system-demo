@@ -1,0 +1,47 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/bases/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button-menu') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tree') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="zone zone--split zone--split--vertical">
+        {#- Narrow, so the header is the height of what it holds and the tree
+            takes everything left. -#}
+        <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
+            <button-menu
+                    :label="scope"
+                    :items="scopes"
+                    button-class="button--flat"
+                    @select="onScopeSelect"
+            ></button-menu>
+            <div class="toolbar--group">
+                <button class="toolbar--action" type="button" title="New file" @click="onAction('new')">
+                    {{ icon('ph:bold/plus') }}
+                </button>
+                <span class="toolbar--separator"></span>
+                <button class="toolbar--action" type="button" title="Select opened file" @click="onAction('locate')">
+                    {{ icon('ph:bold/crosshair-simple') }}
+                </button>
+                <button class="toolbar--action" type="button" title="Collapse all" @click="onAction('collapse')">
+                    {{ icon('ph:bold/arrows-in-simple') }}
+                </button>
+                <button-menu
+                        icon="ph:bold/dots-three-vertical"
+                        :items="[
+                            { icon: 'ph:bold/funnel', label: 'Filters' },
+                            { icon: 'ph:bold/arrows-down-up', label: 'Sort by name' },
+                            { icon: 'ph:bold/eye', label: 'Show hidden files' }
+                        ]"
+                        button-class="button--flat"
+                        menu-align="right"
+                        @select="onAction($event.label)"
+                ></button-menu>
+            </div>
+        </div>
+        <div class="zone zone--scrollable">
+            <tree :items="items"></tree>
+        </div>
+    </div>
+{%- endblock -%}

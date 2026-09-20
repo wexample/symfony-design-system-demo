@@ -1,9 +1,9 @@
 @use './layout/layout-feedback';
-@use '@wexample/symfony-design-system/css/shapes/status';
-@use '@wexample/symfony-design-system/css/shapes/status-icon';
-@use '@wexample/symfony-design-system/css/shapes/cluster';
-@use '@wexample/symfony-design-system/css/shapes/button';
-@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/components/status/status';
+@use '@wexample/symfony-design-system/components/status-icon/status-icon';
+@use '@wexample/symfony-design-system/components/cluster/cluster';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/block/block';
 
 // Each circle stands over what it is called, so the set can be read as a legend.
 .status-demo--case {

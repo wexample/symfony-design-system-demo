@@ -1,6 +1,6 @@
 @use './layout/layout-data';
-@use '@wexample/symfony-design-system/css/shapes/table';
-@use '@wexample/symfony-design-system/css/shapes/date';
-@use '@wexample/symfony-design-system/css/shapes/pagination';
-@use '@wexample/symfony-design-system/css/shapes/status-icon';
-@use '@wexample/symfony-design-system/css/shapes/pill';
+@use '@wexample/symfony-design-system/components/table/table';
+@use '@wexample/symfony-design-system/components/date/date';
+@use '@wexample/symfony-design-system/components/pagination/pagination';
+@use '@wexample/symfony-design-system/components/status-icon/status-icon';
+@use '@wexample/symfony-design-system/components/pill/pill';

@@ -1,0 +1,7 @@
+{%- extends '@WexampleSymfonySearchBundle/vue/search/search-box.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{ parent() }}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/search/result/demo-message') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/search/result/demo-room') -}}
+{%- endblock -%}

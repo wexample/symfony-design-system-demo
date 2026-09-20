@@ -46,14 +46,14 @@
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="stack--horizontal">
         <div class="block block--padded">
-            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/spinner', {
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/spinner', {
                 size: 'lg',
                 align: 'center',
                 label: '@page::spinner.label' | trans
             }) }}
         </div>
         <div class="block block--padded">
-            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/vue/partials/dots', {
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/dots', {
                 size: 'lg',
                 align: 'center',
                 label: '@page::dots.label' | trans
