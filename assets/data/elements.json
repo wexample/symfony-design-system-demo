@@ -1,0 +1,157 @@
+{
+    "version": 1,
+    "elements": [
+        {
+            "key": "collection/bar-list/demo-bar-list",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/bar-list/demo-bar-list.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "collection/chat/demo-entity-chat",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat.en.yml",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/chat/demo-entity-chat.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "collection/table/demo-compact-table",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-compact-table.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-compact-table.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-compact-table.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "collection/table/demo-dates-table",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-dates-table.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-dates-table.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-dates-table.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "collection/table/demo-entity-table",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-entity-table.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-entity-table.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-entity-table.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "collection/table/demo-live-table",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/collection/table/demo-live-table.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "demo-dates",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-dates.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-dates.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "demo-explorer",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-explorer.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-explorer.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "demo-progress",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-progress.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-progress.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "demo-status-icons",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-status-icons.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/partials/demo-status-icons.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "form/demo-form",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/form/demo-form.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/form/demo-form.en.yml",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/form/demo-form.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "overview",
+            "formats": {
+                "partial": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/partials/overview.html.twig"
+                ]
+            }
+        },
+        {
+            "key": "search/demo-search-box",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/demo-search-box.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/demo-search-box.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/demo-search-box.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "search/result/demo-message",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/result/demo-message.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/result/demo-message.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/result/demo-message.vue.twig"
+                ]
+            }
+        },
+        {
+            "key": "search/result/demo-room",
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/result/demo-room.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/result/demo-room.scss",
+                    "@WexampleSymfonyDesignSystemDemoBundle/vue/search/result/demo-room.vue.twig"
+                ]
+            }
+        }
+    ],
+    "unscanned_paths": [
+        "@WexampleSymfonyDesignSystemDemoBundle/Common",
+        "@WexampleSymfonyDesignSystemDemoBundle/Entity",
+        "@WexampleSymfonyDesignSystemDemoBundle/Repository",
+        "@WexampleSymfonyDesignSystemDemoBundle/forms",
+        "@WexampleSymfonyDesignSystemDemoBundle/layouts",
+        "@WexampleSymfonyDesignSystemDemoBundle/pages"
+    ]
+}

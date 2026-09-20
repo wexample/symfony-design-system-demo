@@ -3,18 +3,20 @@
 {%- set page_show_title = true -%}
 
 {%- block page_body -%}
-    {#- Nothing on this page is written down: it draws the registry the design
-        system ships, which is generated from a walk of its assets. The page is a
-        consumer of that file like any other, so a registry nobody regenerated is
-        a page that says so rather than a page that quietly disagrees. -#}
+    {#- Nothing on this page is written down: it draws the registries the bundles
+        ship, each generated from a walk of its own assets. The page is a consumer
+        of those files like any other, so a registry nobody regenerated is a page
+        that says which bundle it is missing rather than a page showing fewer rows
+        than it should. -#}
     {%- set inventory = ds_element_registry() -%}
+    {%- set missing = ds_element_registry_missing() -%}
 
-    {%- if inventory is null -%}
+    {%- if missing is not empty -%}
         {{ message_error('@page::missing.title' | trans, '@page::missing.body' | trans({
-            '%path%': ds_element_registry_path(),
+            '%bundles%': missing|join(', '),
             '%command%': 'design-system:generate-element-registry'
         })) }}
-    {%- else -%}
+    {%- endif -%}
     {%- set formats = inventory.formatValues -%}
     {%- set by_format = inventory.countByFormat -%}
     {%- set by_count = inventory.countByFormatsCount -%}
@@ -96,8 +98,13 @@
         </div>
     </div>
 
-    <p class="text-secondary">
-        {{ '@page::source' | trans({ '%path%': ds_element_registry_path() }) }}
-    </p>
-    {%- endif -%}
+    <h2>{{ '@page::section.sources.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.sources.description' | trans }}</div>
+    <div class="block block--padded">
+        <div class="cluster">
+            {%- for alias in ds_element_registry_sources() -%}
+                <code class="pill">@{{ alias }}</code>
+            {%- endfor -%}
+        </div>
+    </div>
 {%- endblock -%}
