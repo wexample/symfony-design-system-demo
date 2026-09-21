@@ -10,6 +10,8 @@ missing:
   body: "%bundles% signed up as holding elements but has no registry on disk, so its rows are absent from the table below. Run `%command%` and commit the result."
 
 summary:
+  label: What is counted
+  count: How many
   elements: Elements found
   todo: Formats left to do
   undecided: Decisions not yet made

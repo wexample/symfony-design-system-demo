@@ -23,21 +23,24 @@
 
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
-    <div class="block block--padded">
-        {{ properties(
-            [
-                { key: '@page::summary.elements' | trans, value: inventory.countEntries },
-                { key: '@page::summary.todo' | trans, value: by_stance.todo },
-                { key: '@page::summary.undecided' | trans, value: by_stance.undecided },
-            ]|merge(
-                formats|map(format => {
-                    key: ('@page::format.' ~ format ~ '.title') | trans,
-                    value: by_format[format]
-                })
-            ),
-            { bordered: true, split: true }
-        ) }}
-    </div>
+    {#- The summary is the same table as the matrix below it, at another scale:
+        one row per thing counted, the number right-aligned. -#}
+    {{ data_table(
+        [
+            { key: 'label', label: '@page::summary.label' | trans },
+            { key: 'count', label: '@page::summary.count' | trans, align: 'right' }
+        ],
+        [
+            { label: '@page::summary.elements' | trans, count: inventory.countEntries },
+            { label: '@page::summary.todo' | trans, count: by_stance.todo },
+            { label: '@page::summary.undecided' | trans, count: by_stance.undecided }
+        ]|merge(
+            formats|map(format => {
+                label: ('@page::format.' ~ format ~ '.title') | trans,
+                count: by_format[format]
+            })
+        )
+    ) }}
 
     <h2>{{ '@page::section.matrix.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.matrix.description' | trans }}</div>
