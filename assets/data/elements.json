@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 3,
     "elements": [
         {
             "key": "collection/bar-list/demo-bar-list",
@@ -384,6 +384,7 @@
             }
         }
     ],
+    "shapes": [],
     "unscanned_paths": [
         "@WexampleSymfonyDesignSystemDemoBundle/Common",
         "@WexampleSymfonyDesignSystemDemoBundle/Entity",

@@ -33,7 +33,8 @@
         [
             { label: '@page::summary.elements' | trans, count: inventory.countEntries },
             { label: '@page::summary.todo' | trans, count: by_stance.todo },
-            { label: '@page::summary.undecided' | trans, count: by_stance.undecided }
+            { label: '@page::summary.undecided' | trans, count: by_stance.undecided },
+            { label: '@page::summary.shapes' | trans, count: inventory.shapes|length }
         ]|merge(
             formats|map(format => {
                 label: ('@page::format.' ~ format ~ '.title') | trans,
@@ -99,6 +100,23 @@
     {%- endfor -%}
 
     {{ data_table(columns, rows, { sticky: true }) }}
+
+    <h2>{{ '@page::section.shapes.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.shapes.description' | trans }}</div>
+
+    {#- Two columns and no third: a shape has no renderer, so a table of
+        renderers has nothing to offer it. What is worth knowing is its name and
+        what it is for, and both are read off the stylesheet itself. -#}
+    {{ data_table(
+        [
+            { key: 'shape', label: '@page::column.shape' | trans, cell: 'html' },
+            { key: 'description', label: '@page::column.description' | trans }
+        ],
+        inventory.shapes|map(shape => {
+            shape: '<code title="' ~ shape.path ~ '">' ~ shape.key ~ '</code>',
+            description: shape.description
+        })
+    ) }}
 
     <h2>{{ '@page::section.coverage.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.coverage.description' | trans }}</div>

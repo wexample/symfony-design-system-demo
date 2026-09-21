@@ -15,9 +15,12 @@ summary:
   elements: Elements found
   todo: Formats left to do
   undecided: Decisions not yet made
+  shapes: Shapes
 
 column:
   element: Element
+  shape: Shape
+  description: What it is for
 
 cell:
   absent: "Not found in this format, and the declaration does not say why — a decision not yet made"
@@ -58,6 +61,9 @@ section:
   sources:
     title: Where these come from
     description: "A bundle is in the table because it said so — by implementing `DesignSystemElementsBundleInterface`, the way a bundle tells the loader about its front paths. Each writes `data/elements.json` inside its own assets, published with them, so the build, the node side, another language or an agent all work from the same files; this page is only their union."
+  shapes:
+    title: Shapes
+    description: "A shape is a style with no renderer: you write the markup, put the class on it, and `@use` the stylesheet from your own. `.stack`, `.grid`, `.block`, `.cluster`. They are listed here and not in the table above because a table of renderers has no column to offer something that has none — and their absence from it is why its warnings all mean work rather than a question badly asked. The line is drawn by the files, not by taste: a shape is exactly one `.scss` and nothing renders it, so the day one gains a `.html.twig` it moves into `components/` and joins the matrix. That move is the only promotion there is. What each says about itself is read off the head of its own stylesheet, so there is no second place for it to drift from."
   coverage:
     title: What this leaves out
     description: "Directories of `assets/` the scan does not walk, listed from disk rather than from memory. Mixins, utilities and tokens are not elements and may never be rows here; layouts and shared scripts are, and are not covered yet."
