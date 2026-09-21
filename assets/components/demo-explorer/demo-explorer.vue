@@ -7,7 +7,7 @@ import Tree from '@wexample/symfony-design-system/components/tree/tree.vue';
 // both axes. Everything here is the design system's; what the demo adds is the
 // arrangement.
 export default {
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-partials-demo-explorer-demo-explorer',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-demo-explorer-demo-explorer',
 
   components: {
     ButtonMenu,

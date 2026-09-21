@@ -1,6 +1,6 @@
 <script>
 
-import Form from "@wexample/symfony-design-system/components/bases/form/form.vue";
+import Form from "@wexample/symfony-design-system/components/_abstract/form/form.vue";
 import TextInput from "@wexample/symfony-design-system/components/form/text-input/text-input.vue";
 import TextareaInput from "@wexample/symfony-design-system/components/form/textarea-input/textarea-input.vue";
 import RadioInput from "@wexample/symfony-design-system/components/form/radio-input/radio-input.vue";

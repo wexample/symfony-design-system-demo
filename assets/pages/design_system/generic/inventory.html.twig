@@ -34,7 +34,8 @@
             { label: '@page::summary.elements' | trans, count: inventory.countEntries },
             { label: '@page::summary.todo' | trans, count: by_stance.todo },
             { label: '@page::summary.undecided' | trans, count: by_stance.undecided },
-            { label: '@page::summary.shapes' | trans, count: inventory.shapes|length }
+            { label: '@page::summary.shapes' | trans, count: inventory.shapes|length },
+            { label: '@page::summary.abstracts' | trans, count: inventory.abstracts|length }
         ]|merge(
             formats|map(format => {
                 label: ('@page::format.' ~ format ~ '.title') | trans,
@@ -100,6 +101,31 @@
     {%- endfor -%}
 
     {{ data_table(columns, rows, { sticky: true }) }}
+
+    <h2>{{ '@page::section.abstract.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.abstract.description' | trans }}</div>
+
+    {#- The formats they do carry, and nothing about the ones they do not: what
+        someone extending a base wants to know is what it already brings. -#}
+    {{ data_table(
+        [{ key: 'element', label: '@page::column.element' | trans, cell: 'html' }]|merge(
+            formats|map(format => {
+                key: format,
+                label: ('@page::format.' ~ format ~ '.title') | trans,
+                cell: 'status',
+                align: 'center'
+            })
+        ),
+        inventory.abstracts|map(entry => {
+            element: '<code title="' ~ entry.source ~ '">' ~ entry.key ~ '</code>'
+        }|merge(
+            formats|reduce((carry, format) => carry|merge({
+                (format): entry.occurrences[format] is not empty
+                    ? { type: 'success', title: entry.occurrences[format]|join(', ') }
+                    : null
+            }), {})
+        ))
+    ) }}
 
     <h2>{{ '@page::section.shapes.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.shapes.description' | trans }}</div>

@@ -5,7 +5,7 @@ import ProgressBar from '@wexample/symfony-design-system/components/progress-bar
 // the cli progress speaks. Nothing here computes a percentage — that is the
 // component's job, and the point of it.
 export default {
-  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-partials-demo-progress-demo-progress',
+  template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-demo-progress-demo-progress',
 
   components: {
     ProgressBar
