@@ -5,6 +5,15 @@ section:
   circles:
     title: Pipeline circles
     description: "A state told by a circle rather than by a word, for a place where states are read by the dozen — a list of runs, a row of jobs. The ring carries the colour, the glyph inside says which state it is, and both sides of the stack draw the same markup."
+  tags:
+    title: A state carrying a figure
+    description: "The same nine states, drawn as one capsule holding the glyph and what qualifies it. A tick beside a neutral count reads as two objects, and a table of them reads as noise — here the colour encloses the figure, so a column is scanned in one pass."
+  tags_forms:
+    title: With a count, alone, or with a word
+    description: "What the capsule carries is free: how many of the state there are, nothing at all where the state is the whole message, or a short word. Given a title it is said out loud on hover."
+  tags_compare:
+    title: Beside what it replaces
+    description: "The two forms in the place they are actually read. The first row is the circle and a pill, the second the same information as one object."
   progress:
     title: A state that is a quantity
     description: "A run is the one state with an amount to it, so its ring is drawn as far as the run has got. Twig prints the value it is given; moving it afterwards is the browser's business."
@@ -23,3 +32,13 @@ status:
   error: An error occurred
   warning: Proceed with caution
   info: For your information
+
+tag:
+  flaky: Three tests fail now and then
+
+compare:
+  column:
+    form: Form
+  row:
+    icon: Circle and pill
+    tag: Status tag

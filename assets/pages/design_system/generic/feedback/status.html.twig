@@ -36,6 +36,60 @@
         {%- endfor -%}
     </div>
 
+    <h2>{{ '@page::section.tags.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.tags.description' | trans }}</div>
+    <div class="cluster">
+        {%- for type in ['success', 'error', 'warning', 'running', 'pending', 'paused', 'play', 'skipped', 'disabled'] -%}
+            <span class="status-demo--case">
+                {{ status_tag(type, 15) }}
+                <span class="text-secondary">{{ type }}</span>
+            </span>
+        {%- endfor -%}
+    </div>
+
+    <h2>{{ '@page::section.tags_forms.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.tags_forms.description' | trans }}</div>
+    <div class="cluster">
+        {{ status_tag('success', 15) }}
+        {{ status_tag('success') }}
+        {{ status_tag('warning', '3 flaky', { title: '@page::tag.flaky' | trans }) }}
+        {{ status_tag('info', '1.2k') }}
+    </div>
+
+    <h2>{{ '@page::section.tags_compare.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.tags_compare.description' | trans }}</div>
+    <div class="block block--padded">
+        <table class="table">
+            <thead>
+            <tr class="table--row">
+                <th class="table--cell" scope="col">{{ '@page::compare.column.form' | trans }}</th>
+                {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
+                    <th class="table--cell table--cell--center" scope="col">{{ type }}</th>
+                {%- endfor -%}
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="table--row">
+                <td class="table--cell">{{ '@page::compare.row.icon' | trans }}</td>
+                {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
+                    <td class="table--cell table--cell--center">
+                        <span class="table--status">
+                            {{- status_icon(type, { size: 'sm' }) -}}
+                            <span class="pill">15</span>
+                        </span>
+                    </td>
+                {%- endfor -%}
+            </tr>
+            <tr class="table--row">
+                <td class="table--cell">{{ '@page::compare.row.tag' | trans }}</td>
+                {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
+                    <td class="table--cell table--cell--center">{{ status_tag(type, 15) }}</td>
+                {%- endfor -%}
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
     <h2>{{ '@page::section.progress.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.progress.description' | trans }}</div>
     <div class="cluster">
