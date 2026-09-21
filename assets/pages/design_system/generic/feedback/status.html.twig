@@ -1,68 +1,46 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/feedback/layout/layout-feedback.html.twig' -%}
 
+{%- set types = ['success', 'error', 'warning', 'info', 'running', 'pending', 'paused', 'play', 'skipped', 'disabled'] -%}
+
 {%- block page_body -%}
-    <h2>{{ '@page::section.variants.title' | trans }}</h2>
-    <div class="stack--vertical" style="align-items: flex-start;">
-        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
-            type: 'success',
-            icon_name: 'ph:bold/check-circle',
-            label: '@page::status.success' | trans
-        }) }}
-        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
-            type: 'error',
-            icon_name: 'ph:bold/x-circle',
-            label: '@page::status.error' | trans
-        }) }}
-        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
-            type: 'warning',
-            icon_name: 'ph:bold/warning',
-            label: '@page::status.warning' | trans
-        }) }}
-        {{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
-            type: 'info',
-            icon_name: 'ph:bold/info',
-            label: '@page::status.info' | trans
-        }) }}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.soft.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.soft.description' | trans }}</div>
+    <div class="block block--padded stack--vertical" style="align-items: flex-start;">
+        {{ status('success', '@page::state.success' | trans) }}
+        {{ status('error', '@page::state.error' | trans) }}
+        {{ status('warning', '@page::state.warning' | trans) }}
+        {{ status('info', '@page::state.info' | trans) }}
     </div>
 
-    <h2>{{ '@page::section.circles.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.circles.description' | trans }}</div>
-    <div class="cluster">
-        {%- for type in ['success', 'error', 'warning', 'running', 'pending', 'paused', 'play', 'skipped', 'disabled'] -%}
+    <h2>{{ '@page::section.solid.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.solid.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {%- for type in types -%}
             <span class="status-demo--case">
-                {{ status_icon(type, { size: 'lg', label: type }) }}
+                {{ status(type, null, { count: 15, solid: true, compact: true }) }}
                 <span class="text-secondary">{{ type }}</span>
             </span>
         {%- endfor -%}
     </div>
 
-    <h2>{{ '@page::section.tags.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.tags.description' | trans }}</div>
-    <div class="cluster">
-        {%- for type in ['success', 'error', 'warning', 'running', 'pending', 'paused', 'play', 'skipped', 'disabled'] -%}
-            <span class="status-demo--case">
-                {{ status_tag(type, 15) }}
-                <span class="text-secondary">{{ type }}</span>
-            </span>
-        {%- endfor -%}
+    <h2>{{ '@page::section.payload.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.payload.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ status('success', '@page::state.passed' | trans) }}
+        {{ status('success', null, { count: 15 }) }}
+        {{ status('success', '@page::state.passed' | trans, { count: 15 }) }}
+        {{ status('success') }}
     </div>
 
-    <h2>{{ '@page::section.tags_forms.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.tags_forms.description' | trans }}</div>
-    <div class="cluster">
-        {{ status_tag('success', 15) }}
-        {{ status_tag('success') }}
-        {{ status_tag('warning', '3 flaky', { title: '@page::tag.flaky' | trans }) }}
-        {{ status_tag('info', '1.2k') }}
-    </div>
-
-    <h2>{{ '@page::section.tags_compare.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.tags_compare.description' | trans }}</div>
+    <h2>{{ '@page::section.weights.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.weights.description' | trans }}</div>
     <div class="block block--padded">
         <table class="table">
             <thead>
             <tr class="table--row">
-                <th class="table--cell" scope="col">{{ '@page::compare.column.form' | trans }}</th>
+                <th class="table--cell" scope="col">{{ '@page::weights.column.form' | trans }}</th>
                 {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
                     <th class="table--cell table--cell--center" scope="col">{{ type }}</th>
                 {%- endfor -%}
@@ -70,24 +48,36 @@
             </thead>
             <tbody>
             <tr class="table--row">
-                <td class="table--cell">{{ '@page::compare.row.icon' | trans }}</td>
+                <td class="table--cell">{{ '@page::weights.row.soft' | trans }}</td>
                 {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
-                    <td class="table--cell table--cell--center">
-                        <span class="table--status">
-                            {{- status_icon(type, { size: 'sm' }) -}}
-                            <span class="pill">15</span>
-                        </span>
-                    </td>
+                    <td class="table--cell table--cell--center">{{ status(type, null, { count: 15, compact: true }) }}</td>
                 {%- endfor -%}
             </tr>
             <tr class="table--row">
-                <td class="table--cell">{{ '@page::compare.row.tag' | trans }}</td>
+                <td class="table--cell">{{ '@page::weights.row.solid' | trans }}</td>
                 {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
-                    <td class="table--cell table--cell--center">{{ status_tag(type, 15) }}</td>
+                    <td class="table--cell table--cell--center">{{ status(type, null, { count: 15, solid: true, compact: true }) }}</td>
+                {%- endfor -%}
+            </tr>
+            <tr class="table--row">
+                <td class="table--cell">{{ '@page::weights.row.circle' | trans }}</td>
+                {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
+                    <td class="table--cell table--cell--center">{{ status_icon(type, { size: 'sm' }) }}</td>
                 {%- endfor -%}
             </tr>
             </tbody>
         </table>
+    </div>
+
+    <h2>{{ '@page::section.circles.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.circles.description' | trans }}</div>
+    <div class="cluster">
+        {%- for type in types -%}
+            <span class="status-demo--case">
+                {{ status_icon(type, { size: 'lg', label: type }) }}
+                <span class="text-secondary">{{ type }}</span>
+            </span>
+        {%- endfor -%}
     </div>
 
     <h2>{{ '@page::section.progress.title' | trans }}</h2>
@@ -116,11 +106,9 @@
 
     <h2>{{ '@page::section.code.title' | trans }}</h2>
     {%- set code -%}
-        {%- verbatim %}{{ include('@WexampleSymfonyDesignSystemBundle/components/status/status.html.twig', {
-    type: 'success',
-    icon_name: 'ph:bold/check-circle',
-    label: 'Operation successful'
-}) }}{%- endverbatim -%}
+        {%- verbatim %}{{ status('success', 'Operation successful') }}
+{{ status('success', null, { count: 15, solid: true, compact: true }) }}
+{{ status_icon('running', { progress: 0.4 }) }}{%- endverbatim -%}
     {%- endset -%}
     {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}
 {%- endblock -%}

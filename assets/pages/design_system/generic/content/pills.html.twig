@@ -1,0 +1,47 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.inline.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.inline.description' | trans }}</div>
+    <div class="block block--padded block--vertical">
+        <p>
+            {{ '@page::example.sentence.released' | trans }}
+            <span class="pill">{{ '@page::pill.released' | trans }}</span>
+            {{ '@page::example.sentence.deprecated' | trans }}
+            <span class="pill">{{ '@page::pill.deprecated' | trans }}</span>
+        </p>
+    </div>
+
+    <h2>{{ '@page::section.palette.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.palette.description' | trans }}</div>
+    <div class="block block--padded stack--horizontal stack--wrap">
+        <span class="pill">{{ '@page::pill.neutral' | trans }}</span>
+        {% for i in 1..6 %}
+            <span class="pill tag-{{ i }}">{{ '@page::pill.tag' | trans }} {{ i }}</span>
+        {% endfor %}
+    </div>
+
+    <h2>{{ '@page::section.counting.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.counting.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        <nav class="menu menu--vertical">
+            <ul class="menu--items">
+                {{ menu_item_link('ph:bold/tray', '@page::item.inbox' | trans, app_home_url(), { count: 12 }) }}
+                {{ menu_item_link('ph:bold/bell', '@page::item.alerts' | trans, app_home_url(), { count: 3 }) }}
+            </ul>
+        </nav>
+        <div class="tabs">
+            {{ tab_item_link('@page::item.all' | trans, '#pills-all', { active: true, count: 41 }) }}
+            {{ tab_item_link('@page::item.mine' | trans, '#pills-mine', { count: 7 }) }}
+        </div>
+    </div>
+
+    <h2>{{ '@page::section.against.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.against.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        <span class="pill">12</span>
+        {{ status('success', null, { count: 12, solid: true, compact: true }) }}
+    </div>
+{%- endblock -%}

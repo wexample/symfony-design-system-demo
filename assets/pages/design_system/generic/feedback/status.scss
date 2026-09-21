@@ -1,12 +1,11 @@
 @use './layout/layout-feedback';
 @use '@wexample/symfony-design-system/components/status/status';
 @use '@wexample/symfony-design-system/components/status-icon/status-icon';
-@use '@wexample/symfony-design-system/components/status-tag/status-tag';
 @use '@wexample/symfony-design-system/components/data-table/data-table';
-@use '@wexample/symfony-design-system/components/pill/pill';
 @use '@wexample/symfony-design-system/components/cluster/cluster';
 @use '@wexample/symfony-design-system/components/button/button';
 @use '@wexample/symfony-design-system/components/block/block';
+@use '@wexample/symfony-design-system/components/stack/stack';
 
 // Each circle stands over what it is called, so the set can be read as a legend.
 .status-demo--case {

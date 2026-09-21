@@ -16,15 +16,6 @@ section:
     title: Meta bar
     stack_note: "A second bar can stack below to group a different category of metadata — here, taxonomy and analytics."
     action_link_note: "Use action-link for interactive items that should blend into the bar — no background, no shadow, muted color."
-  pills:
-    title: Pills
-  pill_inline:
-    title: Inline labels
-    description: Pills are compact inline badges used to annotate text — statuses, tags, counts.
-  pill_palette:
-    title: Color palette
-  pill_combined:
-    title: In context
 
 image:
   intro: "The content_image() function renders an img with loading=\"lazy\" by default, and wraps it in a figure element when a caption is provided."
@@ -81,17 +72,3 @@ meta:
 
 action:
   share: Share
-
-example:
-  sentence:
-    released: "Version 2.4 is"
-    deprecated: "This API is"
-  item:
-    prefix: "This item is categorised as"
-    suffix: "in the current taxonomy."
-
-pill:
-  neutral: Neutral
-  released: Released
-  deprecated: Deprecated
-  tag: Tag

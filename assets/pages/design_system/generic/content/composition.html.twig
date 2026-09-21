@@ -112,25 +112,4 @@
             </a>
         </div>
     </div>
-
-    <h2>{{ '@page::section.pills.title' | trans }}</h2>
-
-    <h3>{{ '@page::section.pill_inline.title' | trans }}</h3>
-    <div class="block block--padded block--vertical">
-        <p>{{ '@page::section.pill_inline.description' | trans }}</p>
-        <p>
-            {{ '@page::example.sentence.released' | trans }}
-            <span class="pill">{{ '@page::pill.released' | trans }}</span>
-            {{ '@page::example.sentence.deprecated' | trans }}
-            <span class="pill">{{ '@page::pill.deprecated' | trans }}</span>
-        </p>
-    </div>
-
-    <h3>{{ '@page::section.pill_palette.title' | trans }}</h3>
-    <div class="block block--padded stack--horizontal stack--wrap">
-        <span class="pill">{{ '@page::pill.neutral' | trans }}</span>
-        {% for i in 1..6 %}
-            <span class="pill tag-{{ i }}">{{ '@page::pill.tag' | trans }} {{ i }}</span>
-        {% endfor %}
-    </div>
 {%- endblock -%}
