@@ -8,10 +8,10 @@ intro: "How things are drawn, once colour and density are settled: the corners, 
 section:
   radius:
     title: Radii
-    description: "None, a shaved edge, two corners and a pill. The first step is barely there on purpose: it is what a square shape wants when a true right angle reads as unfinished. Anything rounder than the last step is a shape that wants to be a circle and says so itself — a circle is not a skin decision."
+    description: "None, then four steps each twice the one below, then a pill. Two steps apart is the same distance wherever you stand on the scale, which is what makes it readable. The first step is barely there on purpose: it is what a flat skin wants when a true right angle reads as unfinished. Anything rounder than the last step is a shape that wants to be a circle and says so itself — a circle is not a skin decision."
   role:
     title: Radius roles
-    description: "A shape never reads the scale above: it reads the role it plays, and the skin says what each role gets. Switch the skin to `soft` and watch them part ways: a button becomes a capsule, a textarea does not, because a capsule is right for something one line high and absurd for a box that grows. A circle is a form, not a role — a shape that wants one says 50% itself."
+    description: "A shape never reads the scale above: it reads the role it plays, and the skin says which step that role gets — never what a step is worth, which would make the scale mean two things at once. What holds something is a box, whether it holds text, content or a message; what separates two regions of a page is neither, and rounds nothing. Switch the skin to `soft` and watch a control part ways with the rest: a capsule is right for something one line high and absurd for a textarea."
   shadow:
     title: Shadows
     description: "Four depths, from a hairline lift to a floating panel. A skin that wants a flat world sets all four to none and every raised surface follows."
@@ -28,7 +28,6 @@ separator:
 
 role:
   control: one line high, and pressed
-  field: holds text, and grows
-  surface: what content sits on
+  box: holds something
   media: pictures and figures
   pill: what is read as a capsule
