@@ -1,10 +1,10 @@
 @use './layout/layout-content';
-@use '@wexample/symfony-design-system/components/pill/pill';
-@use '@wexample/symfony-design-system/components/tag/tag';
+@use '@wexample/symfony-design-system/css/shapes/pill';
+@use '@wexample/symfony-design-system/css/shapes/tag';
 @use '@wexample/symfony-design-system/components/status/status';
-@use '@wexample/symfony-design-system/components/block/block';
-@use '@wexample/symfony-design-system/components/stack/stack';
-@use '@wexample/symfony-design-system/components/cluster/cluster';
-@use '@wexample/symfony-design-system/components/menu/menu';
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/menu';
 @use '@wexample/symfony-design-system/components/tab/tab';
-@use '@wexample/symfony-design-system/components/flow/flow';
+@use '@wexample/symfony-design-system/css/shapes/flow';

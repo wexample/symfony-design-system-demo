@@ -1,7 +1,7 @@
 @use './layout/layout-data';
 @use '@wexample/symfony-design-system/components/tree/tree';
-@use '@wexample/symfony-design-system/components/zone/zone';
-@use '@wexample/symfony-design-system/components/toolbar/toolbar';
+@use '@wexample/symfony-design-system/css/shapes/zone';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
 @use '@wexample/symfony-design-system/components/button/button';
 
 // The panel is what an explorer sits in inside an IDE, so the demo gives the tree
