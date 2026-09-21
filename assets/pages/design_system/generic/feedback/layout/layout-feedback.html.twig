@@ -4,7 +4,7 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    <div class="tabs">
+    {% set tabs %}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.index', 'wexample_design_system_generic_feedback_index') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.toasts', 'wexample_design_system_generic_feedback_toasts') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.banners', 'wexample_design_system_generic_feedback_banners') }}
@@ -13,5 +13,6 @@
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.loaders', 'wexample_design_system_generic_feedback_loaders') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.progress', 'wexample_design_system_generic_feedback_progress') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.errors', 'wexample_design_system_generic_feedback_errors') }}
-    </div>
+    {% endset %}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
 {%- endblock -%}

@@ -4,9 +4,10 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    <div class="tabs">
+    {% set tabs %}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.index', 'wexample_design_system_generic_controls_index') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.buttons', 'wexample_design_system_generic_controls_buttons') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.menus', 'wexample_design_system_generic_controls_menus') }}
-    </div>
+    {% endset %}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
 {%- endblock -%}

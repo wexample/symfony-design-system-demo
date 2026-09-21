@@ -87,11 +87,12 @@
                     <span class="block--title-label">{{ '@page::block.advanced.title' | trans }}</span>
                     <span class="block--title-trailing">{{ '@page::block.advanced.status' | trans }}</span>
                 </div>
-                <div class="tabs">
+                {% set block_tabs %}
                     {{ tab_item_link('@page::tab.one' | trans, '#tab-one', { active: true }) }}
                     {{ tab_item_link('@page::tab.two' | trans, '#tab-two') }}
                     {{ tab_item_link('@page::tab.three' | trans, '#tab-three') }}
-                </div>
+                {% endset %}
+                {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: block_tabs } }) }}
                 <div class="toolbar toolbar--shaded">
                     <div class="toolbar--group">
                         {{ button('ph:bold/plus', '@page::button.create' | trans) }}

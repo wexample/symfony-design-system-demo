@@ -4,12 +4,13 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    <div class="tabs">
+    {% set tabs %}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.index', 'wexample_design_system_generic_layout_index') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.zones', 'wexample_design_system_generic_layout_zones') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.blocks', 'wexample_design_system_generic_layout_blocks') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.toolbar', 'wexample_design_system_generic_layout_toolbar') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.tabs', 'wexample_design_system_generic_layout_tabs') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.doc', 'wexample_design_system_generic_layout_doc') }}
-    </div>
+    {% endset %}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
 {%- endblock -%}

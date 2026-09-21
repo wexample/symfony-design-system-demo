@@ -1,19 +1,16 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
 
-{% macro render_tabs(id_prefix, options) %}
-    {% set classes = ['tabs', 'flow'] %}
-    {% if options.fill %}
-        {% set classes = classes|merge(['tabs--fill']) %}
-    {% endif %}
-    {% if options.compact %}
-        {% set classes = classes|merge(['tabs--compact']) %}
-    {% endif %}
-
-    <div class="{{ classes|join(' ') }}">
+{% macro render_tabs(render_pass, id_prefix, options) %}
+    {% set items %}
         {{ tab_item_link('@page::tab.one' | trans, '#' ~ id_prefix ~ '-one', { active: true, icon: options.icons ? 'ph:bold/squares-four' : null, count: options.counts|default(false) ? 12 : null }) }}
         {{ tab_item_link('@page::tab.two' | trans, '#' ~ id_prefix ~ '-two', { icon: options.icons ? 'ph:bold/activity' : null, count: options.counts|default(false) ? 3 : null }) }}
         {{ tab_item_link('@page::tab.three' | trans, '#' ~ id_prefix ~ '-three', { icon: options.icons ? 'ph:bold/gear-six' : null }) }}
-    </div>
+    {% endset %}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, {
+        fill: options.fill|default(false),
+        compact: options.compact|default(false),
+        slots: { body: items }
+    }) }}
 {% endmacro %}
 
 {%- block page_body -%}
@@ -31,6 +28,17 @@
         options: { class: 'breadcrumb--page' }
     } %}
 
+    <h3>{{ '@page::breadcrumb.example.vue' | trans }}</h3>
+    <p>{{ '@page::section.breadcrumb.vue_description' | trans }}</p>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/breadcrumb', {
+        extraClass: 'breadcrumb--page',
+        items: [
+            { label: '@page::breadcrumb.item.home'    | trans, href: path('wexample_design_system_generic_layout_index') },
+            { label: '@page::breadcrumb.item.section' | trans, href: path('wexample_design_system_generic_layout_blocks') },
+            { label: '@page::breadcrumb.item.current' | trans }
+        ]
+    }) }}
+
     <h3>{{ '@page::breadcrumb.example.three_levels' | trans }}</h3>
     {% include '@WexampleSymfonyDesignSystemBundle/components/breadcrumb/breadcrumb.html.twig' with {
         items: [
@@ -44,31 +52,31 @@
     <h2>{{ '@page::section.tabs.title' | trans }}</h2>
 
     <h2>{{ '@page::section.default.normal.title' | trans }}</h2>
-    {{ tabs.render_tabs('tab-default-normal', { icons: false, fill: false, compact: false }) }}
+    {{ tabs.render_tabs(render_pass, 'tab-default-normal', { icons: false, fill: false, compact: false }) }}
 
     <h2>{{ '@page::section.default.full.title' | trans }}</h2>
-    {{ tabs.render_tabs('tab-default-full', { icons: false, fill: true, compact: false }) }}
+    {{ tabs.render_tabs(render_pass, 'tab-default-full', { icons: false, fill: true, compact: false }) }}
 
     <h2>{{ '@page::section.default.half.title' | trans }}</h2>
     <div class="stack--horizontal">
-        <div>{{ tabs.render_tabs('tab-default-half', { icons: false, fill: true, compact: true }) }}</div>
+        <div>{{ tabs.render_tabs(render_pass, 'tab-default-half', { icons: false, fill: true, compact: true }) }}</div>
         <div></div>
     </div>
 
     <h2>{{ '@page::section.icons.normal.title' | trans }}</h2>
-    {{ tabs.render_tabs('tab-icons-normal', { icons: true, fill: false, compact: false }) }}
+    {{ tabs.render_tabs(render_pass, 'tab-icons-normal', { icons: true, fill: false, compact: false }) }}
 
     <h2>{{ '@page::section.icons.full.title' | trans }}</h2>
-    {{ tabs.render_tabs('tab-icons-full', { icons: true, fill: true, compact: false }) }}
+    {{ tabs.render_tabs(render_pass, 'tab-icons-full', { icons: true, fill: true, compact: false }) }}
 
     <h2>{{ '@page::section.icons.half.title' | trans }}</h2>
     <div class="stack--horizontal">
-        <div>{{ tabs.render_tabs('tab-icons-half', { icons: true, fill: true, compact: true }) }}</div>
+        <div>{{ tabs.render_tabs(render_pass, 'tab-icons-half', { icons: true, fill: true, compact: true }) }}</div>
         <div></div>
     </div>
 
     <h2>{{ '@page::section.counts.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.counts.description' | trans }}</div>
-    {{ tabs.render_tabs('tab-counts', { icons: true, fill: false, compact: false, counts: true }) }}
-    {{ tabs.render_tabs('tab-counts-full', { icons: false, fill: true, compact: true, counts: true }) }}
+    {{ tabs.render_tabs(render_pass, 'tab-counts', { icons: true, fill: false, compact: false, counts: true }) }}
+    {{ tabs.render_tabs(render_pass, 'tab-counts-full', { icons: false, fill: true, compact: true, counts: true }) }}
 {%- endblock -%}

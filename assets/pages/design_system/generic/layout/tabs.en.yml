@@ -5,6 +5,7 @@ page_icon: ph:bold/signpost
 
 section:
   breadcrumb:
+    vue_description: "The vue twin takes its items already resolved: the server holds the route table, so it answers it, and what crosses is the answer."
     title: Breadcrumb
     description: "Shows the user's location within the hierarchy. Use the breadcrumb partial — pass items with route and label; the last item is always rendered as current."
   tabs:
@@ -29,6 +30,7 @@ section:
 
 breadcrumb:
   example:
+    vue: In vue
     two_levels: Two levels
     three_levels: Three levels
   item:

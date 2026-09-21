@@ -32,10 +32,11 @@
                 {{ menu_item_link('ph:bold/bell', '@page::item.alerts' | trans, app_home_url(), { count: 3 }) }}
             </ul>
         </nav>
-        <div class="tabs">
+        {% set pill_tabs %}
             {{ tab_item_link('@page::item.all' | trans, '#pills-all', { active: true, count: 41 }) }}
             {{ tab_item_link('@page::item.mine' | trans, '#pills-mine', { count: 7 }) }}
-        </div>
+        {% endset %}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: pill_tabs } }) }}
     </div>
 
     <h2>{{ '@page::section.against.title' | trans }}</h2>

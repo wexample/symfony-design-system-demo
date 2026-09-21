@@ -4,7 +4,7 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    <div class="tabs">
+    {% set tabs %}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.index', 'wexample_design_system_generic_data_index') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.tables', 'wexample_design_system_generic_data_tables') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.live', 'wexample_design_system_generic_data_live') }}
@@ -13,5 +13,6 @@
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.bars', 'wexample_design_system_generic_data_bars') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.tree', 'wexample_design_system_generic_data_tree') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.chat', 'wexample_design_system_generic_data_chat') }}
-    </div>
+    {% endset %}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
 {%- endblock -%}
