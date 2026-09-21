@@ -2,6 +2,6 @@
 
 {%- block vue_config -%}
     {{ parent() }}
-    {{ trans_js(render_pass, 'WexampleSymfonyDesignSystemDemoBundle.vue.collection.chat.demo-entity-chat::*') }}
+    {{ trans_js(render_pass, 'WexampleSymfonyDesignSystemDemoBundle.components.collection.chat.demo-entity-chat.demo-entity-chat::*') }}
     {{ slash_commands_js(render_pass, 'demo-chat') }}
 {%- endblock -%}
