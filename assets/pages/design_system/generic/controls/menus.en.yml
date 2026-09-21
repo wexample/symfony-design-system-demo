@@ -4,6 +4,9 @@ page_title: Menus
 page_icon: ph:bold/list
 
 section:
+  vue:
+    title: Vue
+    description: "The link row and the separator as vue partials. Unlike the rows that read a route, these two take their icon and label as options, so nothing of the server is missing."
   menu:
     title: Menu buttons
   counts:

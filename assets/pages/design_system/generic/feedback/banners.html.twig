@@ -28,4 +28,13 @@
                 }
             }) }}
         </div>
+
+        <h2>{{ '@page::section.vue.title' | trans }}</h2>
+        <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+        {% for banner in banner_types %}
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/banner', {
+                type: banner.type,
+                message: ('@page::section.banners.' ~ banner.key) | trans
+            }) }}
+        {% endfor %}
 {%- endblock -%}

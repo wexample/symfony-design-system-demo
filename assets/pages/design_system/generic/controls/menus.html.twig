@@ -84,4 +84,33 @@
     <div class="cluster">{{ macros.render_menus(menu_items) }}</div>
     <div class="block block--padded cluster">{{ macros.render_menus(menu_items) }}</div>
     <div class="toolbar">{{ macros.render_menus(menu_items) }}</div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        <nav class="menu menu--vertical">
+            <ul class="menu--items">
+                {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/menu-separator', {
+                    label: '@page::section.menu.title' | trans
+                }) }}
+                {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/menu-item-link', {
+                    icon: 'ph:bold/tray',
+                    label: '@page::menu.item.inbox' | trans,
+                    href: app_home_url(),
+                    count: 12
+                }) }}
+                {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/menu-item-link', {
+                    icon: 'ph:bold/bell',
+                    label: '@page::menu.item.alerts' | trans,
+                    href: app_home_url(),
+                    count: 3
+                }) }}
+                {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/menu-item-link', {
+                    icon: 'ph:bold/gear',
+                    label: '@page::menu.item.settings' | trans,
+                    href: app_home_url()
+                }) }}
+            </ul>
+        </nav>
+    </div>
 {%- endblock -%}

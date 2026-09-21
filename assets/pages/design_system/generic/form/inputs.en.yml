@@ -21,6 +21,9 @@ section:
   switch:
     title: Switch, on its own
     description: "Labels on either side, glyphs inside, and the checked state."
+  switch_vue:
+    title: Switch, in vue
+    description: "The same switch inside a vue tree, where the checked state is state and not a data attribute a script flips."
 
 assisted:
   hint: An agent fills the fields below, one after the other.

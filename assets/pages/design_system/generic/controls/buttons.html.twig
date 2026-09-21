@@ -37,4 +37,29 @@
     <div class="cluster">{{ macros.render_links() }}</div>
     <div class="block block--padded cluster">{{ macros.render_links() }}</div>
     <div class="toolbar">{{ macros.render_links() }}</div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button', {
+            icon: 'ph:bold/plus',
+            label: '@page::button.primary' | trans
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button', {
+            icon: 'ph:bold/plus',
+            label: '@page::button.state.loading' | trans,
+            isLoading: true
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button', {
+            icon: 'ph:bold/plus',
+            label: '@page::button.state.disabled' | trans,
+            disabled: true
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button-link', {
+            icon: 'ph:bold/arrow-right',
+            label: '@page::link.more' | trans,
+            href: '#'
+        }) }}
+    </div>
+
 {%- endblock -%}

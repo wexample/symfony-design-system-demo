@@ -74,4 +74,14 @@
             </div>
         </div>
     </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/document-embed', {
+            src: path('wexample_design_system_fixtures_placeholder_pdf'),
+            title: '@page::document.title' | trans,
+            ratio: '16-9'
+        }) }}
+    </div>
 {%- endblock -%}

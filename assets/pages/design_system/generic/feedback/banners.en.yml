@@ -4,6 +4,9 @@ page_title: Banners
 page_icon: ph:bold/notification
 
 section:
+  vue:
+    title: Vue
+    description: "The same inline banner as a vue partial, taking the same type and message; the shell the banner service fills is a different file."
   banners:
     neutral: This is a neutral banner message.
     info: This is an info banner message.

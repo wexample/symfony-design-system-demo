@@ -73,6 +73,18 @@
                 {% endfor %}
             </div>
         </div>
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {% for type in ['info', 'success', 'warning', 'error'] %}
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/toast', {
+                type: type,
+                title: ('@page::section.horizontal_toasts.' ~ type ~ '.title') | trans,
+                message: ('@page::section.horizontal_toasts.' ~ type ~ '.message') | trans
+            }) }}
+        {% endfor %}
+    </div>
+
     {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/toast-stack', {
         position: 'tl',
         toast_stack_id: 'demo-tl'

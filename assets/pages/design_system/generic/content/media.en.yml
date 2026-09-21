@@ -4,6 +4,9 @@ page_title: Media
 page_icon: ph:bold/image
 
 section:
+  vue:
+    title: Vue
+    description: "The same frame as a vue partial, for a document whose address is only known once the page runs."
   shapes:
     title: Shapes
   overlay:

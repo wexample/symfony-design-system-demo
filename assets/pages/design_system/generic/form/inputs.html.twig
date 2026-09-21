@@ -72,4 +72,21 @@
         {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', { off_inner: icon_moon, on_inner: icon_sun }) }}
         {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', { off_inner: 'OFF', on_inner: 'ON', label: '@page::switch.label_right', checked: true }) }}
     </div>
+
+    <h2>{{ '@page::section.switch_vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.switch_vue.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {
+            label: '@page::switch.label_right' | trans
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {
+            label: '@page::switch.label_left' | trans,
+            labelPosition: 'left',
+            checked: true
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {
+            offInner: icon_moon,
+            onInner: icon_sun
+        }) }}
+    </div>
 {%- endblock -%}

@@ -112,4 +112,18 @@
             </a>
         </div>
     </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/content-image', {
+            src: path('wexample_design_system_fixtures_placeholder_svg'),
+            alt: '@page::image.captioned.alt' | trans,
+            caption: '@page::image.captioned.caption' | trans
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/code-block', {
+            lang: 'twig',
+            code: '{{ content_image(src, alt, { caption: caption }) }}'
+        }) }}
+    </div>
 {%- endblock -%}

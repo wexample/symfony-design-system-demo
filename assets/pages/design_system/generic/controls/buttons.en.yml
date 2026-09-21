@@ -10,6 +10,9 @@ section:
     title: Button states
   link:
     title: Button links
+  vue:
+    title: Vue
+    description: "The same button and the same link as vue partials, taking the same icon and label, for a page that builds its controls while it runs."
 
 button:
   primary: Primary button

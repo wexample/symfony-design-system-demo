@@ -11,6 +11,9 @@ section:
     description: Unframed variant, for stating standing rules rather than reporting an event. Pass compact to the options.
   default:
     title: Message types
+  vue:
+    title: Vue
+    description: "The same four flavours as vue partials, each carrying the icon its twig function puts in for the caller."
 
 compact:
   rule:

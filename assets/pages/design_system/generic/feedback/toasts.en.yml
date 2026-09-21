@@ -4,6 +4,9 @@ page_title: Feedback
 page_icon: ph:bold/notification
 
 section:
+  vue:
+    title: Vue
+    description: "The same toast as a vue partial. Closing is emitted here rather than animated away: inside a vue tree the parent owns the list."
   simple_toast:
     description: Display a simple toast
     button: Open toast

@@ -84,4 +84,18 @@
             </div>
         </div>
     </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/properties', {
+            items: [
+                { key: '@page::field.name.key' | trans, value: '@page::field.name.value' | trans },
+                { key: '@page::field.identifier.key' | trans, value: '@page::field.identifier.value' | trans },
+                { key: '@page::field.status.key' | trans, value: '@page::field.status.value' | trans },
+            ],
+            bordered: true,
+            split: true
+        }) }}
+    </div>
 {%- endblock -%}

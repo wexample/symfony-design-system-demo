@@ -23,6 +23,9 @@ section:
     title: Stacked
     description: Key above value, for narrow columns where two columns would wrap badly.
     aside: The body keeps the remaining width while the aside column stays fixed.
+  vue:
+    title: Vue
+    description: "The same list as a vue partial, taking the modifiers as props: a record built while the page runs reads like one rendered with it."
 
 field:
   name:

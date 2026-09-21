@@ -41,4 +41,21 @@
         <div class="block block--padded">
             {{ message_macro.render_messages() | raw }}
         </div>
+
+        <h2>{{ '@page::section.vue.title' | trans }}</h2>
+        <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+        <div class="stack--vertical">
+            {% for type in ['info', 'success', 'warning', 'error'] %}
+                {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/message', {
+                    type: type,
+                    title: ('@page::message.' ~ type ~ '.title') | trans,
+                    body: ('@page::message.' ~ type ~ '.body') | trans
+                }) }}
+            {% endfor %}
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/message', {
+                type: 'info',
+                title: '@page::compact.rule.one' | trans,
+                compact: true
+            }) }}
+        </div>
 {%- endblock -%}
