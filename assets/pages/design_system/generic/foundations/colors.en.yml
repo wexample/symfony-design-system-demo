@@ -14,7 +14,7 @@ section:
     description: "Twenty steps of the text colour laid over the background, and the source of nearly every border, muted text and hover state in the system. Level 1 is barely there, level 20 is the text itself."
   semantic:
     title: Semantic families
-    description: "Five families, twenty levels each. A component picks a level and not a hex, which is what lets the same message read correctly on both faces of the theme."
+    description: "Five families, read from the page to the text through the colour: level 1 is the colour barely tinting the page, 17 is the colour whole, 32 is the colour barely tinting the text. Below the middle are grounds; above it is ink, which lightens on the dark face and deepens on the light one. A component picks a level and not a hex, which is what lets the same message read correctly on both faces."
   text:
     title: Text
     description: "Three levels of attention. What is being read, what qualifies it, and what is only there to be found when looked for."

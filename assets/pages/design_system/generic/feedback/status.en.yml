@@ -1,21 +1,21 @@
 page_title: Status
 page_icon: ph:bold/seal-check
 
-intro: "A state said in one object. The same nine states throughout: the capsule carries a word, a figure or both and comes in two weights, the circle stands where there is no room for a capsule. What none of them does is pick a colour — a state names itself, and the theme decides what that looks like."
+intro: "A state said in one object. The same nine states throughout: the capsule carries a word, a figure or both; the circle stands where there is no room for a capsule. Both are drawn with the colour whole, the same on every face of the theme — a filled marker carries its own light. What none of them does is pick a colour: a state names itself, and the theme decides what that looks like."
 
 section:
-  soft:
-    title: A state on its own
-    description: "Announced in a sentence or beside a title, where it is the message rather than a mark in a column: a tinted ground, the colour as ink, a line around it. This is the weight to reach for when there is one of them on the page."
-  solid:
+  words:
+    title: A state in words
+    description: "Announced in a sentence or beside a title, where it is the message rather than a mark in a column."
+  figures:
     title: A state read by the dozen
-    description: "In a column, a tick beside a neutral count reads as two objects and a table of them reads as noise. Filled, the colour encloses the figure and the column is scanned in one pass. A filled capsule is its own ground, which is why it carries no line and why it keeps the same intensity in light and in dark."
+    description: "In a column, a tick beside a neutral count reads as two objects and a table of them reads as noise. Here the colour encloses the figure and the column is scanned in one pass — compact, since a cell has no room to spare."
   payload:
     title: What it carries
     description: "A word for what the state is, a figure for how many of it there are, both, or neither. The figure is always drawn a step back from the rest: it qualifies the state, it is not the state."
   weights:
     title: The three forms side by side
-    description: "The same information in the place it is actually read. Soft and filled are the same capsule; the circle is the form for a cell too narrow for words, and the only one that can show a state being a quantity."
+    description: "The same information in the place it is actually read. The circle is the form for a cell too narrow for a capsule, and the only one that can show a state being a quantity — and it is drawn with the very colour the capsule fills with."
   circles:
     title: Circles
     description: "A state told by a circle rather than by a word, for a place where states are read by the dozen — a list of runs, a row of jobs. The ring carries the colour, the glyph inside says which state it is, and both sides of the stack draw the same markup."
@@ -41,6 +41,5 @@ weights:
   column:
     form: Form
   row:
-    soft: Capsule, soft
-    solid: Capsule, filled
+    capsule: Capsule
     circle: Circle

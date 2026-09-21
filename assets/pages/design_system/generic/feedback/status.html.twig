@@ -5,8 +5,8 @@
 {%- block page_body -%}
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
-    <h2>{{ '@page::section.soft.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.soft.description' | trans }}</div>
+    <h2>{{ '@page::section.words.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.words.description' | trans }}</div>
     <div class="block block--padded stack--vertical" style="align-items: flex-start;">
         {{ status('success', '@page::state.success' | trans) }}
         {{ status('error', '@page::state.error' | trans) }}
@@ -14,12 +14,12 @@
         {{ status('info', '@page::state.info' | trans) }}
     </div>
 
-    <h2>{{ '@page::section.solid.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.solid.description' | trans }}</div>
+    <h2>{{ '@page::section.figures.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.figures.description' | trans }}</div>
     <div class="block block--padded cluster">
         {%- for type in types -%}
             <span class="status-demo--case">
-                {{ status(type, null, { count: 15, solid: true, compact: true }) }}
+                {{ status(type, null, { count: 15, compact: true }) }}
                 <span class="text-secondary">{{ type }}</span>
             </span>
         {%- endfor -%}
@@ -48,15 +48,9 @@
             </thead>
             <tbody>
             <tr class="table--row">
-                <td class="table--cell">{{ '@page::weights.row.soft' | trans }}</td>
+                <td class="table--cell">{{ '@page::weights.row.capsule' | trans }}</td>
                 {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
                     <td class="table--cell table--cell--center">{{ status(type, null, { count: 15, compact: true }) }}</td>
-                {%- endfor -%}
-            </tr>
-            <tr class="table--row">
-                <td class="table--cell">{{ '@page::weights.row.solid' | trans }}</td>
-                {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
-                    <td class="table--cell table--cell--center">{{ status(type, null, { count: 15, solid: true, compact: true }) }}</td>
                 {%- endfor -%}
             </tr>
             <tr class="table--row">
@@ -107,7 +101,7 @@
     <h2>{{ '@page::section.code.title' | trans }}</h2>
     {%- set code -%}
         {%- verbatim %}{{ status('success', 'Operation successful') }}
-{{ status('success', null, { count: 15, solid: true, compact: true }) }}
+{{ status('success', null, { count: 15, compact: true }) }}
 {{ status_icon('running', { progress: 0.4 }) }}{%- endverbatim -%}
     {%- endset -%}
     {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}
