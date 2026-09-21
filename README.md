@@ -1,6 +1,6 @@
 # symfony-design-system-demo
 
-Version: 4.0.0
+Version: 6.0.0
 
 A Symfony bundle that ships the showcase pages of `wexample/symfony-design-system`: a set of Twig pages under assets/pages/design_system/generic rendering buttons, inputs, menus, tables, modals, banners, spinners and forms in their real markup, each exposed as a route by a `#[TemplateBasedRoutes]` controller so the whole catalogue is browsable in a running application. Install it in a host project and the pages mount under the design system base route, grouped by controls, layout, content, components, dialog, feedback and form. It exists for the people building or integrating the design system — to see a component rendered, compare its variants and states side by side, and exercise the interactive ones (AJAX form submission, modal behaviours) against live code rather than a screenshot.
 
@@ -107,7 +107,7 @@ export default class extends Page {
 The `.scss` is usually a one-line `@use` of a shared partial (`dialog/index.scss` is `@use './page-dialog';`), and the `_`-prefixed files — `_page-dialog.scss`, `_layout-components.scss` — pull in the shapes the section needs from the upstream design system:
 
 ```scss
-@use '@wexample/symfony-design-system/components/tab';
+@use '@wexample/symfony-design-system/css/shapes/tab';
 ```
 
 ### Layouts, and the seam with the host application
@@ -160,14 +160,14 @@ The same four behaviors are therefore spelled out in four places — the process
 
 ### Vue components
 
-`assets/vue/` holds pairs. The `.vue.twig` is the server half: it extends a base from the design system bundle, declares its dependencies, and fills blocks with translated markup.
+`assets/components/` holds one directory per component, named after it. The `.vue.twig` is the server half: it extends a base from the design system bundle, declares its dependencies, and fills blocks with translated markup.
 
 ```twig
 {%- extends '@WexampleSymfonyDesignSystemBundle/components/bases/form/form.vue.twig' -%}
 {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/text-input') -}}
 ```
 
-Some are nothing else — `demo-entity-table.vue.twig` is a single `extends` line. The `.vue` is the client half: an options object that `extends` an upstream component and binds to the rendered template by id. assets/vue/collection/table/demo-entity-table.vue overrides `refreshEntitiesCollection()` to slice a 37-row constant instead of calling an API, and points its row actions back at the dialog routes:
+Some are nothing else — `demo-entity-table.vue.twig` is a single `extends` line. The `.vue` is the client half: an options object that `extends` an upstream component and binds to the rendered template by id. assets/components/collection/table/demo-entity-table/demo-entity-table.vue overrides `refreshEntitiesCollection()` to slice a 37-row constant instead of calling an API, and points its row actions back at the dialog routes:
 
 ```js
 { name: 'show', route: 'wexample_design_system_generic_dialog_modal_test_simple' },
@@ -194,8 +194,8 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - symfony/uid: >=6.2
 - wexample/php-pseudocode: >=1.0.0
 - wexample/symfony-api: >=5.0.0
-- wexample/symfony-design-system: >=11.0.0
-- wexample/symfony-forms: >=6.0.0
+- wexample/symfony-design-system: >=13.0.0
+- wexample/symfony-forms: >=7.0.0
 - wexample/symfony-helpers: >=8.0.0
 - wexample/symfony-live: >=4.0.0
 - wexample/symfony-pseudocode: >=3.0.0
