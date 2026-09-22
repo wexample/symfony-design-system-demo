@@ -80,6 +80,44 @@
         </nav>
     </div>
 
+    <h2>{{ '@page::section.kinds.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.kinds.description' | trans }}</div>
+    {#- One menu holding the four kinds: what an item is follows from what it
+        carries, so nothing here says `type`. -#}
+    {% set mixed_items = [
+        { separator: true, label: '@page::menu.group.show' },
+        { label: '@page::menu.item.done',    checked: true,  value: 'done' },
+        { label: '@page::menu.item.running', checked: true,  value: 'running' },
+        { label: '@page::menu.item.failed',  checked: false, value: 'failed' },
+        { separator: true },
+        { icon: 'ph:bold/funnel', label: '@page::menu.item.sort', items: [
+            { icon: 'ph:bold/sort-ascending',  label: '@page::menu.item.sort_name', href: app_home_url() },
+            { icon: 'ph:bold/clock',           label: '@page::menu.item.sort_date', href: app_home_url() }
+        ] },
+        { separator: true },
+        { icon: 'ph:bold/book-open', label: '@page::menu.item.docs', href: app_home_url(), new_window: true, trailing_icon: 'ph:bold/arrow-square-out' }
+    ] %}
+    <div class="block block--padded cluster">
+        {{ button_menu('ph:bold/funnel', '@page::menu.filters' | trans, mixed_items) }}
+        {{ button_menu('ph:bold/funnel', '@page::menu.filters' | trans, mixed_items, { menu_align: 'right' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button-menu', {
+            label: '@page::menu.filters_vue' | trans,
+            items: [
+                { separator: true, label: '@page::menu.group.show' | trans },
+                { label: '@page::menu.item.done'    | trans, checked: true,  value: 'done' },
+                { label: '@page::menu.item.running' | trans, checked: true,  value: 'running' },
+                { label: '@page::menu.item.failed'  | trans, checked: false, value: 'failed' },
+                { separator: true },
+                { icon: 'ph:bold/funnel', label: '@page::menu.item.sort' | trans, items: [
+                    { icon: 'ph:bold/sort-ascending', label: '@page::menu.item.sort_name' | trans, href: '#' },
+                    { icon: 'ph:bold/clock',          label: '@page::menu.item.sort_date' | trans, href: '#' }
+                ] },
+                { separator: true },
+                { icon: 'ph:bold/book-open', label: '@page::menu.item.docs' | trans, href: '#', newWindow: true, trailingIcon: 'ph:bold/arrow-square-out' }
+            ]
+        }) }}
+    </div>
+
     <h2>{{ '@page::section.menu.title' | trans }}</h2>
     <div class="cluster">{{ macros.render_menus(menu_items) }}</div>
     <div class="block block--padded cluster">{{ macros.render_menus(menu_items) }}</div>

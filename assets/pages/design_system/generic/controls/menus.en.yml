@@ -16,14 +16,21 @@ section:
     title: Separators
     description: "A separator is an item like the others, with one key more: a bare line parts two runs of items that have nothing to do with each other, and the same line given a word becomes the heading of what follows. Both sides of the stack read the same declaration — the third menu here is the vue one."
 
+  kinds:
+    title: What an item can be
+    description: "Four kinds share one row: a word and a target is a link, a word and a state is a toggle, a word and children is a branch, and a bare line is a separator. Nothing declares its kind — it follows from what the item carries. A toggle spends its leading slot on its mark, so a column of them keeps its words aligned, and the panel stays open under it: a menu of filters is read by the handful, not one at a time."
+
 menu:
   primary: Menu button
+  filters: Filters
+  filters_vue: Filters, in vue
   counted: With counts
   counted_vue: With counts, in vue
   grouped: Grouped items
   grouped_vue: Grouped, in vue
   group:
     danger: Danger zone
+    show: Show
   more: More actions
   invert: Invert menu
   options:
@@ -39,3 +46,10 @@ menu:
     stats: Statistics
     profile: Profile
     delete: Delete account
+    done: Done
+    running: Running
+    failed: Failed
+    sort: Sort by
+    sort_name: Name
+    sort_date: Last change
+    docs: Documentation
