@@ -85,6 +85,26 @@
         </div>
     </div>
 
+    <h2>{{ '@page::section.columns.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.columns.description' | trans }}</div>
+    {#- A field nobody filled says so with a dash, and the path takes the whole
+        width rather than stretching every column to its length. -#}
+    <div class="block block--padded">
+        {{ properties(
+            [
+                { key: '@page::field.identifier.key' | trans, value: '@page::field.identifier.value' | trans },
+                { key: '@page::field.owner.key' | trans,      value: '@page::field.owner.value' | trans },
+                { key: '@page::field.created.key' | trans,    value: '@page::field.created.value' | trans },
+                { key: '@page::field.region.key' | trans,     value: '@page::field.region.value' | trans },
+                { key: '@page::field.runtime.key' | trans,    value: '@page::field.runtime.value' | trans },
+                { key: '@page::field.version.key' | trans,    value: '@page::field.version.value' | trans },
+                { key: '@page::field.reviewed.key' | trans,   value: null },
+                { key: '@page::field.path.key' | trans, value: '@page::field.path.value' | trans, full: true }
+            ],
+            { columns: true }
+        ) }}
+    </div>
+
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded">

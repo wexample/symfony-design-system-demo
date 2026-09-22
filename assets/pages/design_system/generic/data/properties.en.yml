@@ -23,6 +23,9 @@ section:
     title: Stacked
     description: Key above value, for narrow columns where two columns would wrap badly.
     aside: The body keeps the remaining width while the aside column stays fixed.
+  columns:
+    title: Columns
+    description: "A dozen short pairs read badly in one tall column: the eye crosses the width of the page between a key and its value, and the separators end up holding each pair together. Laid out in columns — as many as the width allows, down to one on a phone — a pair becomes a small block of two lines that needs no rule around it. A value no column can hold takes the whole width with `full`."
   vue:
     title: Vue
     description: "The same list as a vue partial, taking the modifiers as props: a record built while the page runs reads like one rendered with it."
@@ -55,6 +58,12 @@ field:
   version:
     key: Version
     value: 1.4.2
+  reviewed:
+    key: Reviewed on
+    value: null
+  path:
+    key: File
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
 
 amount:
   subtotal:
