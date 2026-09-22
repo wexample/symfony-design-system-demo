@@ -1,0 +1,68 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/feedback/layout/layout-feedback.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {%- set pipeline = [
+        { value: 267, label: '@page::state.done' | trans,     type: 'success' },
+        { value: 41,  label: '@page::state.running' | trans,  type: 'running' },
+        { value: 607, label: '@page::state.todo' | trans,     type: 'warning' },
+        { value: 12,  label: '@page::state.failed' | trans,   type: 'error' },
+        { value: 182, label: '@page::state.skipped' | trans,  type: 'skipped' }
+    ] -%}
+
+    <h2>{{ '@page::section.default.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.default.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ distribution(pipeline, { label: '@page::bar.pipeline' | trans, show_value: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.linked.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.linked.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ distribution([
+            { value: 267, label: '@page::state.done' | trans,    type: 'success', href: '#done' },
+            { value: 607, label: '@page::state.todo' | trans,    type: 'warning', href: '#todo' },
+            { value: 182, label: '@page::state.skipped' | trans, type: 'skipped', href: '#skipped' }
+        ], { label: '@page::bar.elements' | trans }) }}
+    </div>
+
+    <h2>{{ '@page::section.bare.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.bare.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        {{ distribution(pipeline, { legend: false }) }}
+    </div>
+
+    <h2>{{ '@page::section.rest.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.rest.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ distribution([
+            { value: 120, label: '@page::state.done' | trans,    type: 'success' },
+            { value: 30,  label: '@page::state.failed' | trans,  type: 'error' }
+        ], { total: 400, label: '@page::bar.partial' | trans, show_value: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.compact.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.compact.description' | trans }}</div>
+    <div class="block block--padded block--vertical flow">
+        {{ distribution([
+            { value: 44, label: '@page::state.done' | trans, type: 'success' },
+            { value: 7,  label: '@page::state.todo' | trans, type: 'warning' }
+        ], { label: 'symfony-design-system', show_value: true, compact: true }) }}
+        {{ distribution([
+            { value: 18, label: '@page::state.done' | trans,    type: 'success' },
+            { value: 21, label: '@page::state.todo' | trans,    type: 'warning' },
+            { value: 3,  label: '@page::state.failed' | trans,  type: 'error' }
+        ], { label: 'symfony-loader', show_value: true, compact: true }) }}
+        {{ distribution([
+            { value: 9, label: '@page::state.done' | trans,    type: 'success' },
+            { value: 1, label: '@page::state.skipped' | trans, type: 'skipped' }
+        ], { label: 'symfony-search', show_value: true, compact: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-distribution') }}
+    </div>
+{%- endblock -%}

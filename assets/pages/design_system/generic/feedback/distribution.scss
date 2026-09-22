@@ -1,0 +1,12 @@
+@use './layout/layout-feedback';
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/flow';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/distribution/distribution';
+
+.demo-distribution {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}

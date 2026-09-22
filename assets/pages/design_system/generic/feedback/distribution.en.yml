@@ -1,0 +1,38 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Distribution
+page_icon: ph:bold/chart-bar-horizontal
+
+intro: "What a total is made of, in one line. Where a progress bar says how far one value has got, this says how a whole divides: the parts hold the order they are given, so a pipeline reads from left to right like the pipeline it is. The states are named with the vocabulary the capsule and the circle already speak, so one state never takes two colours."
+
+section:
+  default:
+    title: A whole, in parts
+    description: "The parts grow in proportion to what they are worth, and the legend says them in words underneath — the same capsule a table draws a state with, so the eye moves between the two without learning anything new."
+  linked:
+    title: Parts that lead somewhere
+    description: "A part with a target is a link: the bar becomes the way into the list it summarises. Under the pointer it takes a film of light rather than another colour, which would say a different state."
+  bare:
+    title: Without the legend
+    description: "Where the parts are named just beside, or where the bar only has to say the shape of the thing, the legend is dropped and each part says what it is under the pointer."
+  rest:
+    title: A total larger than its parts
+    description: "What the total counts and no part accounts for holds its share of the row and draws nothing: the track shows through for exactly that much, instead of the parts stretching to fill a bar they do not fill."
+  compact:
+    title: Compact
+    description: "A thinner bar for a row or a card footer, with the density passed on to the capsules of its legend."
+  vue:
+    title: Vue, driven
+    description: "The same bar, its parts given as data. A part that leads nowhere answers a click with `select`, which is what to listen to for a table that filters itself beside it."
+
+bar:
+  pipeline: Pages of the catalogue
+  elements: Elements of the design system
+  partial: Files read
+
+state:
+  done: Done
+  running: Running
+  todo: To do
+  failed: Failed
+  skipped: Not started

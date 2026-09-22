@@ -16,14 +16,17 @@ page:
     title: Messages
     description: "A sentence attached to what it is about — under a field, inside a block — in the five semantic colours."
   status:
-    title: Status
-    description: "What state a thing is in: the chip that names it, and the pipeline circle that shows it where states are read by the dozen."
+    title: States and pills
+    description: "The two capsules that look alike: the pill that files or counts a thing, and the status that says what state it is in — with the circle for where states are read by the dozen."
   loaders:
     title: Loaders
     description: "Something is happening and its end is not known — the spinner for a machine, the dots for somebody about to speak."
   progress:
     title: Progress
     description: "The same, with an end that is known: a bar driven by the same words the cli progress speaks."
+  distribution:
+    title: Distribution
+    description: "What a total is made of rather than how far it has got: the parts of a whole in one line, in the order they are given."
   errors:
     title: Errors
     description: "What a page shows when what it was asked for cannot be given."

@@ -1,0 +1,25 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/distribution') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="demo-distribution">
+        <distribution
+                :segments="segments"
+                label="Tasks of the run"
+                :show-value="true"
+                @select="onSelect"
+        ></distribution>
+
+        <div class="cluster">
+            <button type="button" class="button" @click="advance">One done</button>
+            <button type="button" class="button" @click="fail">One failed</button>
+        </div>
+
+        <p v-if="selected" class="text-secondary">
+            Clicked: [[ selected.label ]] — [[ selected.value ]] ([[ selected.percent ]]%)
+        </p>
+    </div>
+{%- endblock -%}
