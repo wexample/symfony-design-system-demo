@@ -1,6 +1,6 @@
 import Form from '@wexample/symfony-loader/js/Class/Form';
 import ToastService from '@wexample/symfony-loader/js/Services/ToastService';
-import ConfirmService from '@wexample/symfony-loader/js/Services/ConfirmService';
+import ConfirmService from '@wexample/symfony-design-system/js/Services/ConfirmService';
 import { ACTION_DEFAULT, ACTION_EMBED_STAY } from '@wexample/symfony-loader/js/Constants/FormActions';
 
 export default class extends Form {

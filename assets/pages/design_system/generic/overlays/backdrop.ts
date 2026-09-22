@@ -1,5 +1,5 @@
 import Page from '@wexample/symfony-loader/js/Class/Page';
-import OverlayService from '@wexample/symfony-loader/js/Services/OverlayService';
+import OverlayService from '@wexample/symfony-design-system/js/Services/OverlayService';
 
 export default class extends Page {
   private overlayHandle: { close: () => Promise<void> } | null = null;

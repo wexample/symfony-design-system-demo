@@ -1,5 +1,5 @@
 import Page from '@wexample/symfony-loader/js/Class/Page';
-import ConfirmService from "@wexample/symfony-loader/js/Services/ConfirmService";
+import ConfirmService from "@wexample/symfony-design-system/js/Services/ConfirmService";
 import ToastService from "@wexample/symfony-loader/js/Services/ToastService";
 
 export default class extends Page {

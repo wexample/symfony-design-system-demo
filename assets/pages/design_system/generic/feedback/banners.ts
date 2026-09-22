@@ -1,5 +1,5 @@
 import Page from '@wexample/symfony-loader/js/Class/Page';
-import BannerService from "@wexample/symfony-loader/js/Services/BannerService";
+import BannerService from "@wexample/symfony-design-system/js/Services/BannerService";
 
 export default class extends Page {
   pageReady() {
