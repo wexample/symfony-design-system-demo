@@ -5,6 +5,10 @@ page_icon: ph:bold/list-checks
 
 intro: "Every element the bundle ships, and the formats it is delivered in. The table is not a list anyone maintains: it is the registry each bundle ships, compiled from its declarations and checked against a walk of its components. It answers what is there — never what should be, which is a question no scan can settle and which the elements will have to declare for themselves."
 
+problems:
+  title: A declaration and the assets disagree
+  body: "Shown here because this page is compiled from the assets while developing, so it sees what `%command%` would refuse to write. Each point below names the element; the table is drawn all the same."
+
 missing:
   title: A registry is missing
   body: "%bundles% signed up as holding elements but has no registry on disk, so its rows are absent from the table below. Run `%command%` and commit the result."

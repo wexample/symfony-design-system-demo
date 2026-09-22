@@ -4,6 +4,9 @@ page_title: Tabs
 page_icon: ph:bold/signpost
 
 section:
+  vue:
+    title: Tabs in vue
+    description: "The twig bar is a row of links and the address says which one is open. The vue bar only reports that a tab was asked for, so something around it holds the answer — here, a demo component."
   breadcrumb:
     vue_description: "The vue twin takes its items already resolved: the server holds the route table, so it answers it, and what crosses is the answer."
     title: Breadcrumb
@@ -43,3 +46,9 @@ tab:
   one: Overview
   two: Activity
   three: Settings
+
+vue:
+  panel:
+    one: The first panel. Nothing was fetched and no address changed — the bar emitted, the holder swapped.
+    two: The second panel.
+    three: The third panel.

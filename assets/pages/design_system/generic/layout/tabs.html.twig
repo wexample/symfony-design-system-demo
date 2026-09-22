@@ -79,4 +79,14 @@
     <div class="lead">{{ '@page::section.counts.description' | trans }}</div>
     {{ tabs.render_tabs(render_pass, 'tab-counts', { icons: true, fill: false, compact: false, counts: true }) }}
     {{ tabs.render_tabs(render_pass, 'tab-counts-full', { icons: false, fill: true, compact: true, counts: true }) }}
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <p>{{ '@page::section.vue.description' | trans }}</p>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-tabs', {
+        items: [
+            { key: 'one',   label: '@page::tab.one'   | trans, icon: 'ph:bold/squares-four', count: 12, panel: '@page::vue.panel.one'   | trans },
+            { key: 'two',   label: '@page::tab.two'   | trans, icon: 'ph:bold/activity',                panel: '@page::vue.panel.two'   | trans },
+            { key: 'three', label: '@page::tab.three' | trans, icon: 'ph:bold/gear-six',                panel: '@page::vue.panel.three' | trans }
+        ]
+    }) }}
 {%- endblock -%}

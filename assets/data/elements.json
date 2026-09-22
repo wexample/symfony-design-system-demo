@@ -194,6 +194,32 @@
             }
         },
         {
+            "key": "demo-distribution",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": null,
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-distribution/demo-distribution.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-distribution/demo-distribution.vue.twig"
+                ]
+            },
+            "stances": {
+                "style": "waived",
+                "template": "waived",
+                "vue": "expected",
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
+            },
+            "notes": {
+                "style": "adds no style of its own; it shows the design system's",
+                "template": "a demo of a vue component, and only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
+        },
+        {
             "key": "demo-explorer",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,
@@ -267,6 +293,34 @@
             },
             "notes": {
                 "style": "adds no style of its own; it shows the design system's",
+                "template": "a demo of a vue component, and only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
+        },
+        {
+            "key": "demo-tabs",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": "Holds which tab is open, so the controlled vue tab bar has something to report to.",
+            "formats": {
+                "style": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-tabs/demo-tabs.scss"
+                ],
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-tabs/demo-tabs.vue.twig",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-tabs/demo-tabs.vue"
+                ]
+            },
+            "stances": {
+                "style": "expected",
+                "template": "waived",
+                "vue": "expected",
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
+            },
+            "notes": {
                 "template": "a demo of a vue component, and only makes sense inside a vue tree",
                 "script": "its behaviour is the vue component's"
             }

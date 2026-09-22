@@ -1,0 +1,18 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="demo-tabs">
+        <tab
+                :items="items"
+                :active-key="activeKey"
+                @change="onChange"
+        ></tab>
+        <div class="block block--padded demo-tabs--panel">
+            [[ activePanel ]]
+        </div>
+    </div>
+{%- endblock -%}
