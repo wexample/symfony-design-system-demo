@@ -34,6 +34,22 @@
         </section>
 
         <section>
+            <h2>{{ '@page::section.markers.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.markers.description' | trans }}</div>
+            <div class="toolbar">
+                <div class="toolbar--group">
+                    <h2 class="toolbar--title">{{ '@page::title.document' | trans }}</h2>
+                    <span class="pill">DEV-P-01</span>
+                    {{ status('success', '@page::marker.state' | trans, { compact: true }) }}
+                    <span class="pill">v3.2</span>
+                </div>
+                <div class="toolbar--group">
+                    {{ button('ph:bold/file-pdf', '@page::button.export' | trans) }}
+                </div>
+            </div>
+        </section>
+
+        <section>
             <h2>{{ '@page::section.title_multi.title' | trans }}</h2>
             <div class="toolbar">
                 <h2 class="toolbar--title">{{ '@page::title.section' | trans }}</h2>

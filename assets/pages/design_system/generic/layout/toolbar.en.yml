@@ -4,6 +4,9 @@ page_title: Toolbar
 page_icon: ph:bold/rows
 
 section:
+  markers:
+    title: A heading and its markers
+    description: "What a thing is filed as, where it stands and which version: three markers read as one row, so they share a height whatever they are made of — a pill is sized in ems for the text it usually sits inside, and a bar levels it on the capsule beside it. The heading gives up its margins and keeps the name at the far left."
   default:
     title: Basic toolbar
   title:
@@ -14,6 +17,10 @@ section:
 title:
   example: Page title
   section: Section title
+  document: Design and development
+
+marker:
+  state: evergreen
 
 button:
   create: Create
