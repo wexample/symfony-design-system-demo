@@ -1,5 +1,6 @@
 @use './layout/layout-feedback';
-@use '@wexample/symfony-design-system/components/status/status';
+@use '@wexample/symfony-design-system/components/marker/marker';
+@use '@wexample/symfony-design-system/css/shapes/count';
 @use '@wexample/symfony-design-system/components/status-icon/status-icon';
 @use '@wexample/symfony-design-system/components/data-table/data-table';
 @use '@wexample/symfony-design-system/css/shapes/cluster';
@@ -8,7 +9,7 @@
 @use '@wexample/symfony-design-system/css/shapes/stack';
 
 // Each circle stands over what it is called, so the set can be read as a legend.
-.status-demo--case {
+.marker-demo--case {
   display: inline-flex;
   flex-direction: column;
   align-items: center;

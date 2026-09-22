@@ -10,12 +10,27 @@
         than it should. -#}
     {%- set inventory = ds_element_registry() -%}
     {%- set missing = ds_element_registry_missing() -%}
+    {%- set problems = ds_element_registry_problems() -%}
 
     {%- if missing is not empty -%}
         {{ message_error('@page::missing.title' | trans, '@page::missing.body' | trans({
             '%bundles%': missing|join(', '),
             '%command%': 'design-system:generate-element-registry'
         })) }}
+    {%- endif -%}
+
+    {#- Where the declarations and the assets disagree. Only while developing,
+        and shown rather than raised: the table below is still worth reading,
+        and the point that is wrong is named beside it. -#}
+    {%- if problems is not empty -%}
+        {{ message_warning('@page::problems.title' | trans, '@page::problems.body' | trans({
+            '%command%': 'design-system:generate-element-registry'
+        })) }}
+        <ul class="flow">
+            {%- for problem in problems -%}
+                <li>{{ problem }}</li>
+            {%- endfor -%}
+        </ul>
     {%- endif -%}
     {%- set formats = inventory.formatValues -%}
     {%- set by_format = inventory.countByFormat -%}
@@ -74,7 +89,7 @@
                 {%- if shared[entry.key] is defined -%}
                     {#- Not a fault: the loader tells them apart. The one thing a
                         reader of the union would want pointed at. -#}
-                    <span class="pill" title="{{ '@page::cell.shared' | trans({ '%bundles%': shared[entry.key]|join(', ') }) }}">{{ shared[entry.key]|length }}</span>
+                    <span class="count" title="{{ '@page::cell.shared' | trans({ '%bundles%': shared[entry.key]|join(', ') }) }}">{{ shared[entry.key]|length }}</span>
                 {%- endif -%}
             {%- endset -%}
             {%- set row = { element: element } -%}
@@ -149,7 +164,7 @@
     <div class="block block--padded">
         <div class="cluster">
             {%- for path in inventory.unscannedPaths -%}
-                <code class="pill">{{ path }}</code>
+                <code class="count">{{ path }}</code>
             {%- endfor -%}
         </div>
     </div>
@@ -159,7 +174,7 @@
     <div class="block block--padded">
         <div class="cluster">
             {%- for alias in ds_element_registry_sources() -%}
-                <code class="pill">@{{ alias }}</code>
+                <code class="count">@{{ alias }}</code>
             {%- endfor -%}
         </div>
     </div>

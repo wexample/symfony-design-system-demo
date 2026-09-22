@@ -39,9 +39,9 @@
             <div class="toolbar">
                 <div class="toolbar--group">
                     <h2 class="toolbar--title">{{ '@page::title.document' | trans }}</h2>
-                    <span class="pill">DEV-P-01</span>
-                    {{ status('success', '@page::marker.state' | trans, { compact: true }) }}
-                    <span class="pill">v3.2</span>
+                    {{ marker('neutral', 'DEV-P-01', { compact: true }) }}
+                    {{ marker('success', '@page::marker.state' | trans, { compact: true }) }}
+                    {{ marker('neutral', 'v3.2', { compact: true }) }}
                 </div>
                 <div class="toolbar--group">
                     {{ button('ph:bold/file-pdf', '@page::button.export' | trans) }}

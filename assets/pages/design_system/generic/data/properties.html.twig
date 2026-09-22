@@ -25,7 +25,7 @@
                 [
                     {
                         key: '@page::field.status.key' | trans,
-                        value: '<span class="pill">' ~ '@page::field.status.value' | trans ~ '</span>',
+                        value: marker('neutral', '@page::field.status.value' | trans, { compact: true }),
                         html: true,
                     },
                     { key: '@page::field.owner.key' | trans, value: '@page::field.owner.value' | trans },

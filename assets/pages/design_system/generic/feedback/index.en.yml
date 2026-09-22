@@ -15,9 +15,9 @@ page:
   messages:
     title: Messages
     description: "A sentence attached to what it is about — under a field, inside a block — in the five semantic colours."
-  status:
-    title: States and pills
-    description: "The two capsules that look alike: the pill that files or counts a thing, and the status that says what state it is in — with the circle for where states are read by the dozen."
+  markers:
+    title: Markers
+    description: "One capsule for everything said about a thing in a word — a state, a name, a version, a category — with the circle for where there is no room for it, and the counter, which is the one thing that is not one."
   loaders:
     title: Loaders
     description: "Something is happening and its end is not known — the spinner for a machine, the dots for somebody about to speak."

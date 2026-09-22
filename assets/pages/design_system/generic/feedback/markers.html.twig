@@ -5,21 +5,41 @@
 {%- block page_body -%}
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
+    <h2>{{ '@page::section.inline.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.inline.description' | trans }}</div>
+    <div class="block block--padded block--vertical">
+        <p>
+            {{ '@page::example.sentence.released' | trans }}
+            {{ marker('neutral', '@page::marker.released' | trans, { compact: true }) }}
+            {{ '@page::example.sentence.deprecated' | trans }}
+            {{ marker('neutral', '@page::marker.deprecated' | trans, { compact: true }) }}
+        </p>
+    </div>
+
+    <h2>{{ '@page::section.palette.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.palette.description' | trans }}</div>
+    <div class="block block--padded stack--horizontal stack--wrap">
+        {{ marker('neutral', '@page::marker.neutral' | trans) }}
+        {% for i in 1..6 %}
+            {{ marker('tag-' ~ i, '@page::marker.tag' | trans ~ ' ' ~ i) }}
+        {% endfor %}
+    </div>
+
     <h2>{{ '@page::section.words.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.words.description' | trans }}</div>
     <div class="block block--padded stack--vertical" style="align-items: flex-start;">
-        {{ status('success', '@page::state.success' | trans) }}
-        {{ status('error', '@page::state.error' | trans) }}
-        {{ status('warning', '@page::state.warning' | trans) }}
-        {{ status('info', '@page::state.info' | trans) }}
+        {{ marker('success', '@page::state.success' | trans) }}
+        {{ marker('error', '@page::state.error' | trans) }}
+        {{ marker('warning', '@page::state.warning' | trans) }}
+        {{ marker('info', '@page::state.info' | trans) }}
     </div>
 
     <h2>{{ '@page::section.figures.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.figures.description' | trans }}</div>
     <div class="block block--padded cluster">
         {%- for type in types -%}
-            <span class="status-demo--case">
-                {{ status(type, null, { count: 15, compact: true }) }}
+            <span class="marker-demo--case">
+                {{ marker(type, null, { count: 15, compact: true }) }}
                 <span class="text-secondary">{{ type }}</span>
             </span>
         {%- endfor -%}
@@ -28,10 +48,10 @@
     <h2>{{ '@page::section.payload.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.payload.description' | trans }}</div>
     <div class="block block--padded cluster">
-        {{ status('success', '@page::state.passed' | trans) }}
-        {{ status('success', null, { count: 15 }) }}
-        {{ status('success', '@page::state.passed' | trans, { count: 15 }) }}
-        {{ status('success') }}
+        {{ marker('success', '@page::state.passed' | trans) }}
+        {{ marker('success', null, { count: 15 }) }}
+        {{ marker('success', '@page::state.passed' | trans, { count: 15 }) }}
+        {{ marker('success') }}
     </div>
 
     <h2>{{ '@page::section.weights.title' | trans }}</h2>
@@ -50,7 +70,7 @@
             <tr class="table--row">
                 <td class="table--cell">{{ '@page::weights.row.capsule' | trans }}</td>
                 {%- for type in ['success', 'warning', 'error', 'skipped'] -%}
-                    <td class="table--cell table--cell--center">{{ status(type, null, { count: 15, compact: true }) }}</td>
+                    <td class="table--cell table--cell--center">{{ marker(type, null, { count: 15, compact: true }) }}</td>
                 {%- endfor -%}
             </tr>
             <tr class="table--row">
@@ -67,7 +87,7 @@
     <div class="lead">{{ '@page::section.circles.description' | trans }}</div>
     <div class="cluster">
         {%- for type in types -%}
-            <span class="status-demo--case">
+            <span class="marker-demo--case">
                 {{ status_icon(type, { size: 'lg', label: type }) }}
                 <span class="text-secondary">{{ type }}</span>
             </span>
@@ -78,7 +98,7 @@
     <div class="lead">{{ '@page::section.progress.description' | trans }}</div>
     <div class="cluster">
         {%- for step in [0, 0.25, 0.5, 0.75, 1] -%}
-            <span class="status-demo--case">
+            <span class="marker-demo--case">
                 {{ status_icon('running', { size: 'lg', progress: step }) }}
                 <span class="text-secondary">{{ (step * 100) | round }}%</span>
             </span>
@@ -92,6 +112,13 @@
         {{ status_icon('success', { size: 'lg' }) }}
     </div>
 
+    <h2>{{ '@page::section.against.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.against.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        <span class="count">12</span>
+        {{ marker('success', null, { count: 12, compact: true }) }}
+    </div>
+
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded">
@@ -100,8 +127,8 @@
 
     <h2>{{ '@page::section.code.title' | trans }}</h2>
     {%- set code -%}
-        {%- verbatim %}{{ status('success', 'Operation successful') }}
-{{ status('success', null, { count: 15, compact: true }) }}
+        {%- verbatim %}{{ marker('success', 'Operation successful') }}
+{{ marker('success', null, { count: 15, compact: true }) }}
 {{ status_icon('running', { progress: 0.4 }) }}{%- endverbatim -%}
     {%- endset -%}
     {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}

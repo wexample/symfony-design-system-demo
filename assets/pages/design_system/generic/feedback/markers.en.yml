@@ -1,9 +1,18 @@
-page_title: Status
+page_title: Markers
 page_icon: ph:bold/seal-check
 
-intro: "A state said in one object. The same nine states throughout: the capsule carries a word, a figure or both; the circle stands where there is no room for a capsule. Both are drawn with the colour whole, the same on every face of the theme — a filled marker carries its own light. What none of them does is pick a colour: a state names itself, and the theme decides what that looks like."
+intro: "One capsule for everything said about a thing in a word: a state, a name, a version, a category. They were two objects until the day a code and a state stood side by side in one header, a head apart, and nobody could say what the difference was meant to mean — so the shape is one and the tone is the whole of what tells them apart. What it carries is free: a word, a figure, a glyph, or two of the three. The circle stands where there is no room for a capsule, and the counter, which hangs from a row and is sized in the text it hangs from, is the one thing here that is not a marker."
 
 section:
+  inline:
+    title: In the middle of a sentence
+    description: "A word set apart as it is read: a version, a phase, a category. The neutral tone, because a marker that arrives coloured has already made a claim about what it marks — and in a sentence there is nothing to claim."
+  palette:
+    title: The six categories
+    description: "Six tones that tell things apart without ranking them. They carry no meaning — nothing says the third is better than the fifth — which is exactly what makes them usable for a taxonomy, where meaning would be a lie. Worn exactly as a state is: same capsule, same rhythm."
+  against:
+    title: A counter beside a marker
+    description: "The one distinction left, and it is not about meaning. On the left a counter: twelve of something, hanging from the row that leads to it and sized in that row's own text. On the right a marker: twelve of something that went well, standing on its own and sized in tokens. A count beside a menu item is a counter; the same figure in a pipeline column is a marker."
   words:
     title: A state in words
     description: "Announced in a sentence or beside a title, where it is the message rather than a mark in a column."
@@ -43,3 +52,14 @@ weights:
   row:
     capsule: Capsule
     circle: Circle
+
+example:
+  sentence:
+    released: "Version 2.4 is"
+    deprecated: "This API is"
+
+marker:
+  neutral: Neutral
+  released: Released
+  deprecated: Deprecated
+  tag: Tag
