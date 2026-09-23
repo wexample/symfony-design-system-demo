@@ -18,7 +18,7 @@
 
     <h2>{{ '@page::section.palette.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.palette.description' | trans }}</div>
-    <div class="block block--padded stack--horizontal stack--wrap">
+    <div class="block block--padded cluster">
         {{ marker('neutral', '@page::marker.neutral' | trans) }}
         {% for name in ['ruby', 'grapefruit', 'bittersweet', 'sunflower', 'straw', 'grass', 'mint', 'teal', 'aqua', 'blue-jeans', 'plum', 'lavender', 'pink-rose'] %}
             {{ marker('cat-' ~ name, name) }}
