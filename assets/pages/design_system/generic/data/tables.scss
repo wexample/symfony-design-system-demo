@@ -4,3 +4,9 @@
 @use '@wexample/symfony-design-system/components/pagination/pagination';
 @use '@wexample/symfony-design-system/components/status-icon/status-icon';
 
+
+// Cells that will not wrap, so twelve columns are wider than any page and the
+// frame around the table has something to scroll.
+.tables-demo--wide .table--cell {
+  white-space: nowrap;
+}

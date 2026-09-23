@@ -43,6 +43,20 @@
         </section>
 
         <section>
+            <h2>{{ '@page::section.wide.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.wide.description' | trans }}</div>
+            {#- Twelve columns of words that will not wrap: wider than the page
+                on any screen, so the frame has something to scroll. -#}
+            {%- set wide_columns = [] -%}
+            {%- set wide_row = {} -%}
+            {%- for i in 1..12 -%}
+                {%- set wide_columns = wide_columns|merge([{ key: 'c' ~ i, label: ('@page::column.wide' | trans) ~ ' ' ~ i }]) -%}
+                {%- set wide_row = wide_row|merge({ ('c' ~ i): '@page::row.wide' | trans }) -%}
+            {%- endfor -%}
+            {{ data_table(wide_columns, [wide_row, wide_row, wide_row], { class: 'tables-demo--wide' }) }}
+        </section>
+
+        <section>
             <h2>{{ '@page::section.actions.title' | trans }}</h2>
             {{ data_table(
                 actions_columns,

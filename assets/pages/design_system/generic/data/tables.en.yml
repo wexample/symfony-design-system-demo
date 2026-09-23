@@ -4,6 +4,9 @@ page_title: Tables
 page_icon: ph:bold/table
 
 section:
+  wide:
+    title: Wider than the room
+    description: "A table whose columns ask for more than the page has is drawn at the width it needs, in a frame that scrolls sideways — the page around it does not move. A sticky table gives this up: a header sticking to the page and a frame scrolling on its own cannot be had together."
   default:
     title: Simple table
   actions:
@@ -34,6 +37,7 @@ section:
     title: Vue date formatters
 
 column:
+  wide: Column
   default:
     name: Name
     date: Date
@@ -56,6 +60,7 @@ column:
     right: Amount (right)
 
 row:
+  wide: A value long enough
   one:
     title: Project Alpha
     meta: "2026-01-10"
