@@ -90,7 +90,7 @@
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded tree-demo--panel">
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tree', { items: project }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tree', { items: project, stateId: 'demo.tree' }) }}
     </div>
 
     {#- The case an app actually ships: the vue tree stands in a scrollable zone of a
