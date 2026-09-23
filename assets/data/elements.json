@@ -168,6 +168,56 @@
             }
         },
         {
+            "key": "collection/table/demo-selectable-table",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": null,
+            "formats": {
+                "style": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-selectable-table/demo-selectable-table.scss"
+                ],
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-selectable-table/demo-selectable-table.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-selectable-table/demo-selectable-table.vue.twig"
+                ]
+            },
+            "stances": {
+                "style": "expected",
+                "template": "waived",
+                "vue": "expected",
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
+            },
+            "notes": {
+                "template": "a demo of a vue component, and only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
+        },
+        {
+            "key": "demo-collapsible-column",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": null,
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-collapsible-column/demo-collapsible-column.vue.twig",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-collapsible-column/demo-collapsible-column.vue"
+                ]
+            },
+            "stances": {
+                "style": "undecided",
+                "template": "undecided",
+                "vue": "expected",
+                "script": "undecided",
+                "schema": "undecided",
+                "ai": "undecided",
+                "react": "undecided",
+                "flutter": "undecided"
+            },
+            "notes": []
+        },
+        {
             "key": "demo-dates",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,

@@ -67,6 +67,32 @@
             ) }}
         </section>
 
+        {#- Rows that can be ticked, and what can be done to them. The addresses
+            lead back here: posting reloads the page, which is all a demo can do
+            with them. -#}
+        {% set bulk_rows = [
+            { id: 'alpha', name: '@page::row.action.one.title' | trans, date: '@page::row.action.one.meta' | trans, operations: row_actions },
+            { id: 'beta', name: '@page::row.action.two.title' | trans, date: '@page::row.action.two.meta' | trans, operations: row_actions },
+            { id: 'gamma', name: '@page::row.one.title' | trans, date: '@page::row.one.meta' | trans, operations: row_actions },
+        ] %}
+        {% set bulk_actions = [
+            { label: '@page::bulk.archive' | trans, icon: 'ph:bold/archive', href: app.request.requestUri, token: csrf_token('demo_bulk') },
+            { label: '@page::bulk.export' | trans, icon: 'ph:bold/download-simple', href: app.request.requestUri, token: csrf_token('demo_bulk') },
+            { label: '@page::bulk.delete' | trans, icon: 'ph:bold/trash', href: app.request.requestUri, token: csrf_token('demo_bulk') },
+        ] %}
+
+        <section>
+            <h2>{{ '@page::section.selection.title' | trans }}</h2>
+            <p>{{ '@page::section.selection.description' | trans }}</p>
+            {{ data_table(actions_columns, bulk_rows, { selectable: true, bulk_actions: bulk_actions }) }}
+        </section>
+
+        <section>
+            <h2>{{ '@page::section.selection_select.title' | trans }}</h2>
+            <p>{{ '@page::section.selection_select.description' | trans }}</p>
+            {{ data_table(actions_columns, bulk_rows, { selectable: true, bulk_actions: bulk_actions, bulk_actions_mode: 'select' }) }}
+        </section>
+
         <section>
             <h2>{{ '@page::section.links.title' | trans }}</h2>
             {{ data_table(
@@ -184,6 +210,13 @@
         <section>
             <h2>{{ '@page::section.vue.title' | trans }}</h2>
             {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-entity-table') }}
+        </section>
+
+        <section>
+            <h2>{{ '@page::section.vue_selection.title' | trans }}</h2>
+            <p>{{ '@page::section.vue_selection.description' | trans }}</p>
+            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-selectable-table') }}
+            {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-selectable-table', { mode: 'select' }) }}
         </section>
 
         <section>

@@ -1,0 +1,23 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/data-table') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="demo-selectable-table">
+        <data-table
+                :rows="rows"
+                :columns="columns"
+                :app="app"
+                :show-header="true"
+                :row-key="getRowKey"
+                :selectable="true"
+                v-model:selected="selected"
+                :bulk-actions="bulkActions"
+                :bulk-actions-mode="mode"
+                @bulk-action="onBulkAction"
+        ></data-table>
+        <p class="text-secondary">[[ lastAction || selected.join(', ') || '—' ]]</p>
+    </div>
+{%- endblock -%}

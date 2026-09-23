@@ -31,8 +31,17 @@ section:
   sticky:
     title: Sticky header
     description: "A long table is read column by column as much as row by row. With `sticky`, the header stays in view while the rows scroll under it; a page with something of its own pinned at the top says how far down in `--table-sticky-top`."
+  selection:
+    title: Rows that can be ticked
+    description: "A box at the head of each row, one in the header for them all, and the actions above: they post the ticked rows to their own address, and stay out of reach while nothing is ticked."
+  selection_select:
+    title: Actions in a select
+    description: "The same bar when there are enough actions to crowd it: one is chosen, then applied."
   vue:
     title: Vue entity table
+  vue_selection:
+    title: Vue table with selection
+    description: "The same contract on the client: the ticked keys come back through v-model:selected, each action is emitted as bulk-action, and one with an address is posted as the server table posts it. These have none, so the line below says what would have been done."
   vue_compact:
     title: Pagination without a total
     description: When the API does not return a total, the pager falls back to previous/next.
@@ -91,3 +100,8 @@ group:
 
 status:
   flaky: Three tests are flaky
+
+bulk:
+  archive: Archive
+  export: Export
+  delete: Delete
