@@ -10,6 +10,9 @@
   border: var(--border-region);
   border-radius: var(--radius-box);
   overflow: hidden;
+  // The frame stands for a screen, so it stands on what a screen stands on: the
+  // page's ground, which the regions laid on it leave showing between them.
+  background: var(--surface-page);
 }
 
 .zone-demo--frame--short {

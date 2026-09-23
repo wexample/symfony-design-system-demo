@@ -6,9 +6,12 @@
         {{ tab_item_link('@page::tab.two' | trans, '#' ~ id_prefix ~ '-two', { icon: options.icons ? 'ph:bold/activity' : null, count: options.counts|default(false) ? 3 : null }) }}
         {{ tab_item_link('@page::tab.three' | trans, '#' ~ id_prefix ~ '-three', { icon: options.icons ? 'ph:bold/gear-six' : null }) }}
     {% endset %}
+    {#- The bar keeps no rhythm of its own, and these are samples following one
+        another down a page: the page is what asks for the room between them. -#}
     {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, {
         fill: options.fill|default(false),
         compact: options.compact|default(false),
+        class: 'flow',
         slots: { body: items }
     }) }}
 {% endmacro %}

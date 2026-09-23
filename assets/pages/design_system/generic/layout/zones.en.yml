@@ -3,7 +3,7 @@
 page_title: Zones
 page_icon: ph:bold/columns
 
-intro: "The two-pane workspace every explorer, editor and detail view is built on. A zone carries no width and no height of its own: the split it sits in is what sizes it, and each side scrolls alone."
+intro: "The two-pane workspace every explorer, editor and detail view is built on. A zone carries no width and no height of its own: the split it sits in is what sizes it, and each side scrolls alone. Two zones are two objects laid on the page, not one panel cut in half — what tells them apart is the room between them, and `zone--panel` is the ground each one stands on."
 
 section:
   split:

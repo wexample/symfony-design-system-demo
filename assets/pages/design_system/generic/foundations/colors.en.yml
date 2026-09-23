@@ -23,8 +23,9 @@ section:
     description: "Four weights, told apart by what they separate: two things inside one region, two regions of a page, or a field from what is behind it."
 
 surface:
-  page: The page itself
+  page: The page itself, and what shows between the zones
   shell: Menu, header, footer
+  zone: The ground a region of a page stands on
   one: Inputs and fields
   two: Buttons, toolbars
   three: Blocks, cards, modals

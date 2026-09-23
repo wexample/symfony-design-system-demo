@@ -14,6 +14,14 @@
   border: var(--border-default);
 }
 
+// The line between two regions of a page, shown on a sample of its own since
+// no shape draws it anymore where the room between them says it better.
+.skin-sample--region {
+  justify-content: flex-start;
+  background: none;
+  border: var(--border-region);
+}
+
 .skin-sample--raised {
   border: 0;
   background: var(--surface-3);

@@ -14,10 +14,10 @@
     <h2>{{ '@page::section.split.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.split.description' | trans }}</div>
     <div class="zone zone--split zone-demo--frame">
-        <div class="zone zone--narrow zone--size-6 zone--padded zone--alt">
+        <div class="zone zone--narrow zone--size-6 zone--padded zone--panel">
             <strong>zone--narrow zone--size-6</strong>
         </div>
-        <div class="zone zone--bordered zone--padded">
+        <div class="zone zone--padded zone--panel">
             <strong>zone</strong>
             <p>{{ '@page::split.body' | trans }}</p>
         </div>
@@ -26,10 +26,10 @@
     <h2>{{ '@page::section.scrollable.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.scrollable.description' | trans }}</div>
     <div class="zone zone--split zone-demo--frame">
-        <div class="zone zone--narrow zone--size-6 zone--scrollable zone--padded zone--alt">
+        <div class="zone zone--narrow zone--size-6 zone--scrollable zone--padded zone--panel">
             {{ demo.filler(30, '@page::scrollable.item' | trans) }}
         </div>
-        <div class="zone zone--bordered zone--scrollable zone--padded">
+        <div class="zone zone--scrollable zone--padded zone--panel">
             {{ demo.filler(30, '@page::scrollable.line' | trans) }}
         </div>
     </div>
@@ -37,7 +37,7 @@
     <h2>{{ '@page::section.vertical.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vertical.description' | trans }}</div>
     <div class="zone zone--split zone-demo--frame">
-        <div class="zone zone--split zone--split--vertical">
+        <div class="zone zone--split zone--split--vertical zone--panel">
             {#- Narrow, so the header is the height of what it holds: a header that
                 scrolls away with the body is a header nobody can reach. -#}
             <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
@@ -55,10 +55,10 @@
     <h2>{{ '@page::section.wrap.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.wrap.description' | trans }}</div>
     <div class="zone zone--split zone--split--wrap zone-demo--frame zone-demo--frame--short">
-        <div class="zone zone--narrow zone--size-6 zone--padded zone--alt">
+        <div class="zone zone--narrow zone--size-6 zone--padded zone--panel">
             <strong>zone--narrow</strong>
         </div>
-        <div class="zone zone--bordered zone--padded">
+        <div class="zone zone--padded zone--panel">
             <strong>zone</strong>
             <p>{{ '@page::wrap.body' | trans }}</p>
         </div>
