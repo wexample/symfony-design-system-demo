@@ -5,7 +5,23 @@ page_icon: ph:bold/rows
 
 intro: "A bar names one thing in a single line: what it is, what it is called, what qualifies it, and what belongs at the far end. It is a shape, not a binding — an entity reaches it through its own template, but a search result that is a file, an app or a setting uses the very same markup."
 
+finding:
+  fix: Fix
+  date: Set a date
+  error:
+    title: Missing mandatory section “Purpose”
+    subtitle: 01-PROCESSES/PR-004-document-control.md
+  warning:
+    title: Review date is in the past
+    subtitle: 01-PROCESSES/PR-004-document-control.md:4
+  info:
+    title: Owner field left empty
+    subtitle: Not blocking for a draft, required before review
+
 section:
+  findings:
+    title: Findings
+    description: "What an analysis reports, one bar each: the finding as the title, where it is as the subtitle, and what can be done about it in the trailing slot — nothing there when nothing can be done here. The severity is the block's tone, which the avatar at the head takes too."
   alone:
     title: The bar itself
     description: Everything but the title is optional. The leading slot takes an icon, or any markup when a real avatar is needed; the trailing slot takes a date, a tag, a row of buttons. Given a link, the whole width becomes the target and the title keeps the colour of where it sits.

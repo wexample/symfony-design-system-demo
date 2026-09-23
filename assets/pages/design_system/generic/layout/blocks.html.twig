@@ -227,6 +227,16 @@
                 </div>
             </div>
 
+            <h2>{{ '@page::section.tone.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.tone.description' | trans }}</div>
+            <div class="stack--vertical">
+                {%- for tone in ['info', 'success', 'warning', 'error', 'cat-lavender'] -%}
+                    <div class="block block--padded block--tone-{{ tone }}">
+                        <code>block--tone-{{ tone }}</code> — {{ '@page::tone.body' | trans }}
+                    </div>
+                {%- endfor -%}
+            </div>
+
             <h2>{{ '@page::section.stacks.title' | trans }}</h2>
 
             <h3>{{ '@page::section.stack_horizontal.title' | trans }}</h3>

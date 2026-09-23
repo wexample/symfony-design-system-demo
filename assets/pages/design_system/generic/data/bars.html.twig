@@ -106,6 +106,28 @@
         }) }}
     </div>
 
+    <h2>{{ '@page::section.findings.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.findings.description' | trans }}</div>
+    <div class="stack--vertical">
+        {{ bar('@page::finding.error.title' | trans, {
+            icon: 'ph:bold/x-circle',
+            subtitle: '@page::finding.error.subtitle' | trans,
+            trailing: button('ph:bold/magic-wand', '@page::finding.fix' | trans),
+            class: 'block block--padded block--tone-error'
+        }) }}
+        {{ bar('@page::finding.warning.title' | trans, {
+            icon: 'ph:bold/warning',
+            subtitle: '@page::finding.warning.subtitle' | trans,
+            trailing: button('ph:bold/calendar-plus', '@page::finding.date' | trans, { class: 'button--flat' }),
+            class: 'block block--padded block--tone-warning'
+        }) }}
+        {{ bar('@page::finding.info.title' | trans, {
+            icon: 'ph:bold/info',
+            subtitle: '@page::finding.info.subtitle' | trans,
+            class: 'block block--padded block--tone-info'
+        }) }}
+    </div>
+
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded">

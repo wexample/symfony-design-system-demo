@@ -3,7 +3,13 @@
 page_title: Blocks
 page_icon: ph:bold/squares-four
 
+tone:
+  body: the ground stays the block's own, only the leading edge carries the colour.
+
 section:
+  tone:
+    title: A block carrying a tone
+    description: "The colour of a state — or of a category — as a bar down the leading edge, and nothing else: the same bar a message wears, without the tinted ground, so a list of them reads as a list and not as an alarm. Any block takes it, a bar standing on a block included."
   default:
     title: Basic blocks
   advanced:
