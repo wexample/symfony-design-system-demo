@@ -20,8 +20,8 @@
     <div class="lead">{{ '@page::section.palette.description' | trans }}</div>
     <div class="block block--padded stack--horizontal stack--wrap">
         {{ marker('neutral', '@page::marker.neutral' | trans) }}
-        {% for i in 1..6 %}
-            {{ marker('tag-' ~ i, '@page::marker.tag' | trans ~ ' ' ~ i) }}
+        {% for i in 1..10 %}
+            {{ marker('cat-' ~ i, '@page::marker.tag' | trans ~ ' ' ~ i) }}
         {% endfor %}
     </div>
 

@@ -15,6 +15,9 @@ section:
   semantic:
     title: Semantic families
     description: "Five families, read from the page to the text through the colour: level 1 is the colour barely tinting the page, 17 is the colour whole, 32 is the colour barely tinting the text. Below the middle are grounds; above it is ink, which lightens on the dark face and deepens on the light one. A component picks a level and not a hex, which is what lets the same message read correctly on both faces."
+  categories:
+    title: Categorical palette
+    description: "Ten colours that mean nothing but \"not the one beside it\": the series of a chart, the segments of a distribution, the categories of a taxonomy. One lightness for all ten so none shouts over the others, and an order in which two neighbours are always far apart on the wheel. A component takes `cat-3` exactly as it takes `success`; which category is which colour is the app's choice, never the design system's."
   text:
     title: Text
     description: "Three levels of attention. What is being read, what qualifies it, and what is only there to be found when looked for."

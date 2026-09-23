@@ -55,6 +55,16 @@
         {%- endfor -%}
     </div>
 
+    <h2>{{ '@page::section.categories.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.categories.description' | trans }}</div>
+    <div class="block block--padded">
+        <div class="cluster">
+            {%- for i in 1..10 -%}
+                {{ palette.swatch('--color-cat-' ~ i ~ '-fill', 'cat-' ~ i) }}
+            {%- endfor -%}
+        </div>
+    </div>
+
     <h2>{{ '@page::section.text.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.text.description' | trans }}</div>
     <div class="block block--padded block--vertical flow">
