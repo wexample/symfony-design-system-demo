@@ -19,6 +19,9 @@ section:
     title: Empty state
   alignment:
     title: Column alignment
+  markdown:
+    title: From markdown
+    description: "A table written in markdown and passed through `markdown_ds`: the columns, their alignment and the markup of each cell are read from the document, and the table is drawn here like any other. `markdown` keeps the plain `<table>`, for whatever is not a page — a mail, a feed."
   groups:
     title: Group rows
     description: "A row carrying only a group is not a row: it is the line between two runs of them, given a word. It spans the table and names what follows — the same reading as a menu separator."

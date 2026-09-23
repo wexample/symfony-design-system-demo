@@ -113,6 +113,21 @@
         </section>
 
         <section>
+            <h2>{{ '@page::section.markdown.title' | trans }}</h2>
+            <p>{{ '@page::section.markdown.description' | trans }}</p>
+            {#- A pipe table as a document writes it: alignment in the rule under
+                the header, markup inside the cells. -#}
+            {%- set markdown_source -%}
+| **Name** | Status | Amount |
+|:---|:---:|---:|
+| [Alpha](#) | `ready` | 42.00 € |
+| Beta | ~~draft~~ | 128.50 € |
+| Gamma | pending | 7.99 € |
+            {%- endset -%}
+            {{ markdown_source | markdown_ds }}
+        </section>
+
+        <section>
             <h2>{{ '@page::section.groups.title' | trans }}</h2>
             <p>{{ '@page::section.groups.description' | trans }}</p>
             {{ data_table(
