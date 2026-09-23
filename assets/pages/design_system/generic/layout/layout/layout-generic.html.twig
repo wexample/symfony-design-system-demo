@@ -7,6 +7,15 @@
     {% set tabs %}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.index', 'wexample_design_system_generic_layout_index') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.zones', 'wexample_design_system_generic_layout_zones') }}
+        {#- Three pages under one tab: the two variants are reached from the tree
+            standing inside them, so the tab is lit for the whole family rather
+            than going out as soon as one of the others is opened. -#}
+        {%- set route = app.request.attributes.get('_route')|default('') -%}
+        {{ tab_item_link(
+            'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.workspace',
+            path('wexample_design_system_generic_layout_workspace'),
+            { active: route starts with 'wexample_design_system_generic_layout_workspace' }
+        ) }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.blocks', 'wexample_design_system_generic_layout_blocks') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.toolbar', 'wexample_design_system_generic_layout_toolbar') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.tabs', 'wexample_design_system_generic_layout_tabs') }}

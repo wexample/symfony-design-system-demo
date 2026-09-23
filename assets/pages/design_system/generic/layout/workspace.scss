@@ -1,0 +1,8 @@
+// The page is the example, so it draws nothing of its own: what it needs is the
+// shapes its regions are made of, and the components standing in them.
+@use './layout/layout-generic';
+@use '@wexample/symfony-design-system/css/shapes/zone';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+@use '@wexample/symfony-design-system/components/tree/tree';
+@use '@wexample/symfony-design-system/components/properties/properties';
+@use '@wexample/symfony-design-system/components/marker/marker';

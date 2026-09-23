@@ -1,0 +1,28 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Five columns
+page_icon: ph:bold/arrows-horizontal
+
+intro: "Five regions in a row wider than the screen, read by scrolling sideways. The navigation on the left is not one of them — it is a region of the page, and it stays where it is."
+
+section:
+  scroll:
+    title: The row scrolls, the page does not
+    description: "`zone--split--scroll` puts the overflow on the row: the columns keep the width they name and the split scrolls under them. Each one still holds its own vertical overflow, so a long column scrolls where it stands."
+  width:
+    title: Every column names its width
+    description: "Nothing takes what is left here, since there is none: the row is longer than the page on purpose. A region that names no size falls back to a column wide enough to hold something, and these name theirs — 24rem each, five of them."
+
+column:
+  first: Read me
+  second: Backlog
+  third: In progress
+  fourth: Review
+  fifth: Done
+
+card:
+  second: Ticket
+  third: Ticket
+  fourth: Ticket
+  fifth: Ticket
+  body: "What a column holds is none of the row's business: it scrolls on its own, under a bar that stays."

@@ -1,0 +1,18 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Fixed width
+page_icon: ph:bold/arrows-in-line-horizontal
+
+intro: "The same three regions, but the one you are reading is given a width instead of taking one — and the width nobody wants goes to a region with nothing in it."
+
+section:
+  sized:
+    title: A region given its width
+    description: "`zone--narrow` with a size step: the region is that wide and stays that wide, whatever room the window has. It is how a text is kept readable — a column that grows with the screen stops being one."
+  slack:
+    title: What the slack is for
+    description: "The last region holds nothing, and keeps its ground all the same: empty is not absent, and a pane waiting reads as a pane rather than as a hole. It is there to take the width the sized ones refuse."
+    more: "A split hands the leftover to whatever asks for it. With nothing asking, the sized regions would be stretched or pushed to the edges; with this, they keep their width and the page keeps the rest."
+
+work:
+  size: 32rem

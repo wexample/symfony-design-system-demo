@@ -1,0 +1,29 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Workspace
+page_icon: ph:bold/sidebar-simple
+
+intro: "This page is the example: what you are reading stands in the middle of three regions, laid side by side in the body of the page."
+
+section:
+  gap:
+    title: The gap is the separator
+    description: "Nothing is drawn between two regions. What tells them apart is the room they leave between them, through which the page shows — the same ground the menu and the header stand on. Each region carries its own, which is the ground a body always had."
+  each:
+    title: Each one on its own
+    description: "The two columns keep the width they are given and the middle takes what is left. Scroll one of the three and the other two stay where they are: a region holds its own overflow, and the page holds none."
+    more: "A region knows nothing of its neighbours. The explorer on the left is a split of its own — a bar that stays, a tree that scrolls under it — and it would be the same shape anywhere else on the page."
+
+editor:
+  state: Saved
+
+inspector:
+  title: Details
+  field:
+    path:
+      key: Path
+    size:
+      key: Size
+    changed:
+      key: Changed
+      value: 3 minutes ago

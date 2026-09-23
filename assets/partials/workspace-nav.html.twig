@@ -1,0 +1,45 @@
+{#- The region every workspace page of the section opens with: a tree used for
+    what a tree is for — moving between things — the things here being the three
+    arrangements the section demonstrates. Shared, so the three pages differ by
+    what stands beside it and by nothing else.
+
+    The render pass comes in as an argument because a macro is given no context
+    of its own, and the component a tree is cannot be rendered without it. The
+    labels are the section's own, the ones its tabs already read. -#}
+{%- macro layouts(render_pass, current) -%}
+    {%- set base = 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::' -%}
+    <div class="zone zone--narrow zone--size-6 zone--split zone--split--vertical zone--panel">
+        <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
+            <span class="toolbar--title">{{ (base ~ 'nav.title') | trans }}</span>
+        </div>
+        <div class="zone zone--scrollable">
+            {{ tree([
+                {
+                    label: (base ~ 'nav.group') | trans,
+                    icon: 'ph:bold/folder-open',
+                    open: true,
+                    children: [
+                        {
+                            label: (base ~ 'tab.workspace') | trans,
+                            icon: 'ph:bold/columns',
+                            href: path('wexample_design_system_generic_layout_workspace'),
+                            selected: current == 'workspace',
+                        },
+                        {
+                            label: (base ~ 'nav.fixed') | trans,
+                            icon: 'ph:bold/arrows-in-line-horizontal',
+                            href: path('wexample_design_system_generic_layout_workspace_fixed'),
+                            selected: current == 'fixed',
+                        },
+                        {
+                            label: (base ~ 'nav.columns') | trans,
+                            icon: 'ph:bold/arrows-horizontal',
+                            href: path('wexample_design_system_generic_layout_workspace_columns'),
+                            selected: current == 'columns',
+                        },
+                    ],
+                },
+            ]) }}
+        </div>
+    </div>
+{%- endmacro -%}

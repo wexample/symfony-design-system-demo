@@ -1,6 +1,14 @@
+# The tree standing in every workspace page, which moves between the three.
+nav:
+  title: Layouts
+  group: Workspace
+  fixed: Fixed width
+  columns: Five columns
+
 tab:
   index: Overview
   zones: Zones
+  workspace: Workspace
   blocks: Blocks
   toolbar: Toolbar
   tabs: Tabs

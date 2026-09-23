@@ -9,6 +9,9 @@ page:
   zones:
     title: Zones
     description: "The two-pane workspace: a split, a sized column, a scrollable body. What every explorer, editor and detail view in an app is built on."
+  workspace:
+    title: Workspace
+    description: "Pages made of regions laid side by side, told apart by the room between them and nothing else. Three arrangements, moved between by the tree standing in each of them."
   blocks:
     title: Blocks
     description: "The surface a group of things sits on, padded or not, with its card and figure variants."

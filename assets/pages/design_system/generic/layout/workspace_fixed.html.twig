@@ -1,0 +1,36 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/workspace-nav.html.twig' as nav -%}
+
+{%- set page_body_mode = 'wide' -%}
+
+{%- block page_body_container -%}
+    <div class="zone zone--split">
+        {{ nav.layouts(render_pass, 'fixed') }}
+        {#- The work, given a width rather than taking one: a measure is what
+            makes a text readable, and a region holding one is sized like a
+            column of text and not like a pane. -#}
+        <div class="zone zone--narrow zone--size-7 zone--split zone--split--vertical zone--panel">
+            <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
+                <h1 class="toolbar--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <div class="toolbar--group">
+                    {{ marker('neutral', '@page::work.size' | trans, { compact: true }) }}
+                </div>
+            </div>
+            <div class="zone zone--scrollable zone--padded">
+                <p class="lead">{{ '@page::intro' | trans }}</p>
+
+                <h2>{{ '@page::section.sized.title' | trans }}</h2>
+                <p>{{ '@page::section.sized.description' | trans }}</p>
+
+                <h2>{{ '@page::section.slack.title' | trans }}</h2>
+                <p>{{ '@page::section.slack.description' | trans }}</p>
+                <p>{{ '@page::section.slack.more' | trans }}</p>
+            </div>
+        </div>
+        {#- The slack: a region with nothing in it, there to take the width the
+            other two do not want. Empty is not absent — it keeps the ground
+            every region stands on, so what the eye reads is a pane waiting and
+            not a hole in the page. -#}
+        <div class="zone zone--panel"></div>
+    </div>
+{%- endblock -%}

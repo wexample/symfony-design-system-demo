@@ -1,0 +1,47 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/workspace-nav.html.twig' as nav -%}
+
+{#- The page is the demonstration: it takes the body whole, without the measure
+    and the padding a container imposes, and lays three regions in it. -#}
+{%- set page_body_mode = 'wide' -%}
+
+{#- The container the layout would have written is a text column with a title
+    above it, which is what a page holding regions is not: the block is taken
+    over rather than configured, and the title goes where the regions put it. -#}
+{%- block page_body_container -%}
+    <div class="zone zone--split">
+        {#- The explorer: sized, and a column of its own so its bar does not
+            scroll away with what it lists. -#}
+        {{ nav.layouts(render_pass, 'workspace') }}
+        {#- The work: what is left of the width, and the only part that grows. -#}
+        <div class="zone zone--split zone--split--vertical zone--panel">
+            <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
+                {#- The page's heading, where the page puts it: the layout was told
+                    the title is shown, and this bar is what shows it. -#}
+                <h1 class="toolbar--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <div class="toolbar--group">
+                    {{ marker('success', '@page::editor.state' | trans, { compact: true }) }}
+                </div>
+            </div>
+            <div class="zone zone--scrollable zone--padded">
+                <p class="lead">{{ '@page::intro' | trans }}</p>
+
+                <h2>{{ '@page::section.gap.title' | trans }}</h2>
+                <p>{{ '@page::section.gap.description' | trans }}</p>
+
+                <h2>{{ '@page::section.each.title' | trans }}</h2>
+                <p>{{ '@page::section.each.description' | trans }}</p>
+                <p>{{ '@page::section.each.more' | trans }}</p>
+            </div>
+        </div>
+        {#- The inspector: sized like the explorer, and scrolling on its own. -#}
+        <div class="zone zone--narrow zone--size-6 zone--scrollable zone--padded zone--panel">
+            <h3>{{ '@page::inspector.title' | trans }}</h3>
+            {{ properties([
+                { key: '@page::inspector.field.path.key' | trans, value: 'src/Kernel.php' },
+                { key: '@page::inspector.field.size.key' | trans, value: '1.2 kB' },
+                { key: '@page::inspector.field.changed.key' | trans, value: '@page::inspector.field.changed.value' | trans },
+            ]) }}
+        </div>
+    </div>
+{%- endblock -%}

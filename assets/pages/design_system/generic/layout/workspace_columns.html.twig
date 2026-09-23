@@ -1,0 +1,58 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/workspace-nav.html.twig' as nav -%}
+
+{%- set page_body_mode = 'wide' -%}
+
+{#- A column of the row: the same region as anywhere else, given a width and a
+    bar of its own. Written once since the page holds five of them. -#}
+{%- macro column(label, count, body) -%}
+    <div class="zone workspace-columns--column zone--split zone--split--vertical zone--panel">
+        <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
+            <span class="toolbar--title">{{ label }}</span>
+            <div class="toolbar--group">
+                <span class="count">{{ count }}</span>
+            </div>
+        </div>
+        <div class="zone zone--scrollable zone--padded">
+            {{ body|raw }}
+        </div>
+    </div>
+{%- endmacro -%}
+
+{%- block page_body_container -%}
+    {% import _self as page %}
+
+    <div class="zone zone--split">
+        {{ nav.layouts(render_pass, 'columns') }}
+        {#- The row itself: five regions wider than any screen, and the split
+            scrolling sideways rather than squeezing them. The navigation stays
+            out of it — it is a region of the page, not one of the columns. -#}
+        <div class="zone zone--split zone--split--scroll">
+            {%- set first %}
+                <h1 class="workspace-columns--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <p class="lead">{{ '@page::intro' | trans }}</p>
+
+                <h2>{{ '@page::section.scroll.title' | trans }}</h2>
+                <p>{{ '@page::section.scroll.description' | trans }}</p>
+
+                <h2>{{ '@page::section.width.title' | trans }}</h2>
+                <p>{{ '@page::section.width.description' | trans }}</p>
+            {% endset -%}
+            {{ page.column('@page::column.first' | trans, 2, first) }}
+
+            {%- for step in ['second', 'third', 'fourth', 'fifth'] -%}
+                {%- set body %}
+                    <div class="stack--vertical">
+                        {%- for i in 1..3 -%}
+                            <div class="block block--padded">
+                                <strong>{{ ('@page::card.' ~ step) | trans }} {{ i }}</strong>
+                                <p>{{ '@page::card.body' | trans }}</p>
+                            </div>
+                        {%- endfor -%}
+                    </div>
+                {% endset -%}
+                {{ page.column(('@page::column.' ~ step) | trans, 3, body) }}
+            {%- endfor -%}
+        </div>
+    </div>
+{%- endblock -%}

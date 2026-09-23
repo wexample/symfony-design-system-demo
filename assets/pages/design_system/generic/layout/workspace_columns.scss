@@ -1,0 +1,20 @@
+@use './layout/layout-generic';
+@use '@wexample/symfony-design-system/css/shapes/zone';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/count';
+@use '@wexample/symfony-design-system/components/tree/tree';
+
+// The width of a column, which the shape asks the region for rather than
+// deciding: a row that scrolls is made of regions that name their own size, and
+// this page wants five of them to be wider than the screen together.
+.workspace-columns--column {
+  --zone-size: 24rem;
+}
+
+// The page's heading stands in the first column, where the text is: it is a
+// title in a text and not a bar, so it only gives up the margin above it.
+.workspace-columns--title {
+  margin-top: 0;
+}
