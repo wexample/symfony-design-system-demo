@@ -20,8 +20,8 @@
     <div class="lead">{{ '@page::section.palette.description' | trans }}</div>
     <div class="block block--padded stack--horizontal stack--wrap">
         {{ marker('neutral', '@page::marker.neutral' | trans) }}
-        {% for i in 1..10 %}
-            {{ marker('cat-' ~ i, '@page::marker.tag' | trans ~ ' ' ~ i) }}
+        {% for name in ['ruby', 'grapefruit', 'bittersweet', 'sunflower', 'straw', 'grass', 'mint', 'teal', 'aqua', 'blue-jeans', 'plum', 'lavender', 'pink-rose'] %}
+            {{ marker('cat-' ~ name, name) }}
         {% endfor %}
     </div>
 

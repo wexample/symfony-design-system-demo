@@ -58,11 +58,13 @@
     <h2>{{ '@page::section.categories.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.categories.description' | trans }}</div>
     <div class="block block--padded">
-        <div class="cluster">
-            {%- for i in 1..10 -%}
-                {{ palette.swatch('--color-cat-' ~ i ~ '-fill', 'cat-' ~ i) }}
-            {%- endfor -%}
-        </div>
+        {%- for name in ['ruby', 'grapefruit', 'bittersweet', 'sunflower', 'straw', 'grass', 'mint', 'teal', 'aqua', 'blue-jeans', 'plum', 'lavender', 'pink-rose'] -%}
+            <div class="cluster">
+                {{ palette.swatch('--color-cat-' ~ name ~ '-light', name ~ ' light') }}
+                {{ palette.swatch('--color-cat-' ~ name ~ '-fill', name) }}
+                {{ palette.swatch('--color-cat-' ~ name ~ '-dark', name ~ ' dark') }}
+            </div>
+        {%- endfor -%}
     </div>
 
     <h2>{{ '@page::section.text.title' | trans }}</h2>
