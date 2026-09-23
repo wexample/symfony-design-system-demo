@@ -8,10 +8,16 @@
     labels are the section's own, the ones its tabs already read. -#}
 {%- macro layouts(render_pass, current) -%}
     {%- set base = 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::' -%}
-    <div class="zone zone--narrow zone--size-6 zone--split zone--split--vertical zone--panel">
+    {#- Named, so the width the visitor leaves it at comes back with the page,
+        and the same width on all three: it is the same region moving. -#}
+    <div class="zone zone--narrow zone--size-6 zone--split zone--split--vertical zone--panel"
+         {{ zone_state('demo.workspace.nav') }}>
         <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
             <span class="toolbar--title">{{ (base ~ 'nav.title') | trans }}</span>
         </div>
+        {#- The handle lies in the gap on the far edge, where the width this
+            region takes is taken from the one beside it. -#}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/zone-resizer') }}
         <div class="zone zone--scrollable">
             {{ tree([
                 {

@@ -14,6 +14,11 @@ section:
     description: "The two columns keep the width they are given and the middle takes what is left. Scroll one of the three and the other two stay where they are: a region holds its own overflow, and the page holds none."
     more: "A region knows nothing of its neighbours. The explorer on the left is a split of its own — a bar that stays, a tree that scrolls under it — and it would be the same shape anywhere else on the page."
 
+  size:
+    title: Sizing one of them
+    description: "The region on the left carries a `zone-resizer`: a handle filling the gap beside it, which draws nothing — the cursor says it moves. Drag it, or give it the focus and use the arrows; a double click gives the region back the width the page gave it."
+    more: "A handle sizes a region that has a size — one given a width rather than taking what is left — and the flexible one beside it absorbs the difference. The width is remembered under the region's name, so it comes back with the page, here on all three layouts since it is the same region moving."
+
 editor:
   state: Saved
 
