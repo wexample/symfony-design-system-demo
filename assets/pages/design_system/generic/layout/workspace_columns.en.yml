@@ -12,6 +12,10 @@ section:
   width:
     title: Every column names its width
     description: "Nothing takes what is left here, since there is none: the row is longer than the page on purpose. A region that names no size falls back to a column wide enough to hold something, and these name theirs — 24rem each, five of them."
+  fold:
+    title: Folding a region
+    description: "Every column here is a `zone-collapsible`. Folded, it does not go away: it keeps its place in the row and its ground, and its bar turns on its side — so the button that folded it is the button that opens it, and nothing outside has to know it exists."
+    more: "Named, a region is remembered: the state is written to the ui state under its name and read back when the page is served, so it arrives folded rather than folding under your eyes. The third column opens folded, and the last one is rendered by a vue — same component, same classes, same key."
 
 column:
   first: Read me

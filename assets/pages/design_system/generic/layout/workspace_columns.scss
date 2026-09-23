@@ -5,6 +5,7 @@
 @use '@wexample/symfony-design-system/css/shapes/stack';
 @use '@wexample/symfony-design-system/css/shapes/count';
 @use '@wexample/symfony-design-system/components/tree/tree';
+@use '@wexample/symfony-design-system/components/zone-collapsible/zone-collapsible';
 
 // The width of a column, which the shape asks the region for rather than
 // deciding: a row that scrolls is made of regions that name their own size, and

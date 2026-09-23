@@ -1,0 +1,22 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/zone-collapsible') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    {#- The same column as the four Twig ones beside it, rendered by a vue: what
+        it proves is that a workspace written entirely in vue folds its regions
+        with the same component and the same classes. -#}
+    <zone-collapsible :id="stateId" :title="title" :collapsed="collapsed">
+        <template #actions>
+            <span class="count">[[ items.length ]]</span>
+        </template>
+        <div class="stack--vertical">
+            <div v-for="item in items" :key="item" class="block block--padded">
+                <strong>[[ item ]]</strong>
+                <p>[[ body ]]</p>
+            </div>
+        </div>
+    </zone-collapsible>
+{%- endblock -%}
