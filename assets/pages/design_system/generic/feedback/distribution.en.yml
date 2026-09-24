@@ -18,6 +18,9 @@ section:
   rest:
     title: A total larger than its parts
     description: "What the total counts and no part accounts for holds its share of the row and draws nothing: the track shows through for exactly that much, instead of the parts stretching to fill a bar they do not fill."
+  empty:
+    title: Nothing counted yet
+    description: "No total and no part — work not started, a tally still out. The bar keeps its place, dimmed, so a row of them keeps its shape; its figure is a dash, since nothing counted is not zero."
   compact:
     title: Compact
     description: "A thinner bar for a row or a card footer, with the density passed on to the capsules of its legend."
