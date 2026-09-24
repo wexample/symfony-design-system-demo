@@ -12,6 +12,9 @@ page:
   menus:
     title: Menus
     description: "A button that opens a list of choices, placing itself against the edges of the window, in twig and in vue."
+  steppers:
+    title: Steppers
+    description: "Where a reader stands in a sequence of steps, with the ones behind to go back to."
 
 section:
   compound:

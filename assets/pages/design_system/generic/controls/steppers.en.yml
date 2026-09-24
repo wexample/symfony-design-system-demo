@@ -1,0 +1,32 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Steppers
+page_icon: ph:bold/steps
+
+intro: "Where a reader stands in a sequence — a tunnel, a form in several parts. The steps behind are drawn solid and can be gone back to when they are given an address; the one being done stands out; those ahead wait, discreet."
+
+section:
+  labelled:
+    title: Numbered and named
+    description: "The common case: a number to count by, a word to know what it asks. The two steps already walked link back."
+  numbers:
+    title: Numbers alone
+    description: "Where the steps have no names worth reading, or the width has no room for them."
+  words:
+    title: Words alone
+    description: "Without the numbers, when the order is obvious from the words."
+  ends:
+    title: First and last
+    description: "Nothing walked yet, then everything walked but the step being done."
+  toolbar:
+    title: In a toolbar
+    description: "Laid in a bar above a page, it takes the room the bar gives it."
+  vue:
+    title: In vue
+    description: "The same stepper in a vue tree. Steps without an address can be made buttons: a sequence held by the page moves on the `select` it emits rather than on a new address."
+
+step:
+  account: Account
+  address: Address
+  payment: Payment
+  confirm: Confirmation
