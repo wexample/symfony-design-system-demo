@@ -18,6 +18,9 @@ section:
   ends:
     title: First and last
     description: "Nothing walked yet, then everything walked but the step being done."
+  unknown:
+    title: Steps not decided yet
+    description: "Where paths part, what lies ahead depends on an answer not given yet. The step standing for it takes no number and moves none of the others: the last step here is the third, not the fourth."
   toolbar:
     title: In a toolbar
     description: "Laid in a bar above a page, it takes the room the bar gives it."
@@ -30,3 +33,4 @@ step:
   address: Address
   payment: Payment
   confirm: Confirmation
+  choice: Your plan

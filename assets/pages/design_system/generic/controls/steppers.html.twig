@@ -42,6 +42,17 @@
         {{ demo.stepper(render_pass, { steps: steps, current: 3 }) }}
     </div>
 
+    <h2>{{ '@page::section.unknown.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.unknown.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ demo.stepper(render_pass, { steps: [
+            { label: '@page::step.account' | trans, href: app_home_url() },
+            { label: '@page::step.choice' | trans },
+            { unknown: true },
+            { label: '@page::step.confirm' | trans }
+        ], current: 1 }) }}
+    </div>
+
     <h2>{{ '@page::section.toolbar.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.toolbar.description' | trans }}</div>
     <div class="toolbar toolbar--shaded">
