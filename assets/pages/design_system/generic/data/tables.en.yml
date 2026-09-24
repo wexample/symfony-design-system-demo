@@ -31,6 +31,8 @@ section:
   sticky:
     title: Sticky header
     description: "A long table is read column by column as much as row by row. With `sticky`, the header stays in view while the rows scroll under it; a page with something of its own pinned at the top says how far down in `--table-sticky-top`."
+  striped:
+    title: Striped rows
   selection:
     title: Rows that can be ticked
     description: "A box at the head of each row, one in the header for them all, and the actions above: they post the ticked rows to their own address, and stay out of reach while nothing is ticked."

@@ -67,6 +67,21 @@
             ) }}
         </section>
 
+        <section>
+            <h2>{{ '@page::section.striped.title' | trans }}</h2>
+            {{ data_table(
+                actions_columns,
+                [
+                    { name: '@page::row.action.one.title' | trans, date: '@page::row.action.one.meta' | trans, operations: row_actions },
+                    { name: '@page::row.action.two.title' | trans, date: '@page::row.action.two.meta' | trans, operations: row_actions },
+                    { name: '@page::row.one.title' | trans, date: '@page::row.one.meta' | trans, operations: row_actions },
+                    { name: '@page::row.two.title' | trans, date: '@page::row.two.meta' | trans, operations: row_actions },
+                    { name: '@page::row.three.title' | trans, date: '@page::row.three.meta' | trans, operations: row_actions },
+                ],
+                { striped: true }
+            ) }}
+        </section>
+
         {#- Rows that can be ticked, and what can be done to them. The addresses
             lead back here: posting reloads the page, which is all a demo can do
             with them. -#}
