@@ -184,6 +184,22 @@
                 </div>
             </div>
 
+            <h2>{{ '@page::section.link.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.link.description' | trans }}</div>
+            <div class="grid grid--3">
+                {%- for choice in [
+                    { key: 'starter', icon: 'ph:bold/feather' },
+                    { key: 'team', icon: 'ph:bold/users-three' },
+                    { key: 'company', icon: 'ph:bold/buildings' }
+                ] -%}
+                    <a class="block block--padded block--link" href="#">
+                        <span class="block--link-icon">{{ icon(choice.icon) }}</span>
+                        <span class="block--link-title">{{ ('@page::link.' ~ choice.key ~ '.title') | trans }}</span>
+                        <span class="block--link-description">{{ ('@page::link.' ~ choice.key ~ '.description') | trans }}</span>
+                    </a>
+                {%- endfor -%}
+            </div>
+
             <h2>{{ '@page::section.figure.title' | trans }}</h2>
             <div class="lead">{{ '@page::section.figure.description' | trans }}</div>
             <div class="stack--horizontal">

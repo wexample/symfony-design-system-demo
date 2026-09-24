@@ -19,6 +19,9 @@ section:
     description: A narrow column sized on the --size scale, next to a body that absorbs the remaining width.
   card:
     title: Cards
+  link:
+    title: A block that is a link
+    description: "The whole card is the link — for a choice made by picking one card among several: a plan, a branch, a template. It reads as text, not as a muted action; under the pointer its ground takes a nuance and its edge firms up, and the keyboard finds it by the focus ring every control wears."
   figure:
     title: Figures
     description: A single oversized value or icon, centered. Used for dashboard counters and status tiles — add block--square to keep the tile square whatever its width.
@@ -109,3 +112,14 @@ button:
 
 action:
   add_projection: Add projection
+
+link:
+  starter:
+    title: Starter
+    description: One person, the essentials, nothing to pay.
+  team:
+    title: Team
+    description: A few people working on the same things.
+  company:
+    title: Company
+    description: Every team, with the controls an organisation asks for.
