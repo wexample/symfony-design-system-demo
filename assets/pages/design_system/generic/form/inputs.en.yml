@@ -15,6 +15,9 @@ section:
   actions:
     title: Buttons in a form
     description: "A button takes an action rather than a value, so there is nothing for an agent to write into it."
+  code:
+    title: A code, in cells
+    description: "One real field under the cells, so the server reads one value and the browser keeps what it already does: a pasted code lands whole, a phone offers the code it received, backspace goes back. Filled, it sends its form on its own — turned off on this page, which has nowhere to send it."
   select:
     title: Select, on its own
     description: "The two custom selects outside a form group, as a toolbar or a filter bar places them."
@@ -36,6 +39,7 @@ field:
   email: E-mail
   url: Website
   password: Password
+  code: Verification code
   number: Age
   date: Date of birth
   time: Preferred time
@@ -58,6 +62,11 @@ choice:
   one: Sweden
   two: Portugal
   three: Japan
+
+code:
+  numeric: Six digits, as sent by e-mail
+  backup: A backup code, letters and digits
+  vue: Four digits, in vue
 
 switch:
   label_right: Enable feature

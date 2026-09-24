@@ -36,6 +36,7 @@
         {{ gallery.field(render_pass, 'email-input', { id: 'demo_email', name: 'email', label: '@page::field.email' | trans, placeholder: '@page::placeholder.email' | trans }) }}
         {{ gallery.field(render_pass, 'url-input', { id: 'demo_url', name: 'url', label: '@page::field.url' | trans, placeholder: '@page::placeholder.url' | trans }) }}
         {{ gallery.field(render_pass, 'password-input', { id: 'demo_password', name: 'password', label: '@page::field.password' | trans }) }}
+        {{ gallery.field(render_pass, 'otp-input', { id: 'demo_code', name: 'code', label: '@page::field.code' | trans, auto_submit: false }) }}
         {{ gallery.field(render_pass, 'number-input', { id: 'demo_number', name: 'number', label: '@page::field.number' | trans }) }}
         {{ gallery.field(render_pass, 'date-input', { id: 'demo_date', name: 'date', label: '@page::field.date' | trans }) }}
         {{ gallery.field(render_pass, 'time-input', { id: 'demo_time', name: 'time', label: '@page::field.time' | trans }) }}
@@ -52,6 +53,19 @@
     <div class="block block--padded cluster">
         {{ gallery.field(render_pass, 'button-input', { id: 'demo_button', label: '@page::field.button' | trans }) }}
         {{ gallery.field(render_pass, 'submit-input', { id: 'demo_submit', label: '@page::field.submit' | trans, primary: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.code.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.code.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {{ gallery.field(render_pass, 'otp-input', { id: 'demo_code_numeric', name: 'code_numeric', label: '@page::code.numeric' | trans, auto_submit: false }) }}
+        {{ gallery.field(render_pass, 'otp-input', { id: 'demo_code_backup', name: 'code_backup', label: '@page::code.backup' | trans, length: 8, alphanumeric: true, auto_submit: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/otp-input', {
+            name: 'code_vue',
+            label: '@page::code.vue' | trans,
+            length: 4,
+            autoSubmit: false
+        }) }}
     </div>
 
     <h2>{{ '@page::section.select.title' | trans }}</h2>

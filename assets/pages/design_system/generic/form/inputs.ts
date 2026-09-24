@@ -12,6 +12,7 @@ const VALUES: Record<string, unknown> = {
   email: 'maya@example.com',
   url: 'https://example.com',
   password: 'correct-horse-battery',
+  code: '482193',
   number: '34',
   date: '1992-04-17',
   time: '09:30',
