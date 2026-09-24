@@ -1,0 +1,39 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- One sample per grammar, each long enough to select across several lines
+        with the cursor line among them — where a field that paints its current
+        line opaque loses the selection. -#}
+    {% set samples = [
+        { language: 'json', label: 'JSON', value: '{\n  "name": "board",\n  "services": ["php", "node"],\n  "watch": true,\n  "port": 8080\n}' },
+        { language: 'yaml', label: 'YAML', value: "# The services an app runs\nname: board\nservices:\n  - php\n  - node\nwatch: true\nport: 8080" },
+        { language: 'python', label: 'Python', value: "def total(runs):\n    # Only the runs that ended count\n    return sum(run.items for run in runs if run.done)\n" },
+        { language: 'twig', label: 'Twig', value: "{% for run in runs %}\n    <li>{{ run.title }} — {{ run.items }}</li>\n{% endfor %}" },
+    ] %}
+
+    <h2>{{ '@page::section.server.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.server.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {% for sample in samples %}
+            {{ component(render_pass, '@WexampleSymfonyCodingBundle/components/code-input', {
+                name: 'code_' ~ sample.language,
+                id: 'code-' ~ sample.language,
+                label: sample.label,
+                language: sample.language,
+                value: sample.value,
+            }) }}
+        {% endfor %}
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyCodingBundle/components/code-input', {
+            label: 'JSON',
+            language: 'json',
+            modelValue: (samples|first).value,
+        }) }}
+    </div>
+{%- endblock -%}

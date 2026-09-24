@@ -1,0 +1,14 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Code
+page_icon: ph:bold/code
+
+intro: "A field that holds code, coloured by its grammar. It ships with symfony-coding and not with the design system, which it only borrows from: its frame is a field's, its colours are the scheme's code tokens, its current line and its selection the scheme's nuances — so it follows the light and the dark face like everything around it."
+
+section:
+  server:
+    title: Server field
+    description: "A real textarea, laid over by the editor once the page runs. The textarea stays the field — posted with the form, spoken to by the form stack — so the form works the same with or without it. Select across several lines, the cursor line among them: the selection stays visible."
+  vue:
+    title: Vue field
+    description: "The same editor holding a model: v-model on the way in and out, the language a prop that can change while the field is open."
