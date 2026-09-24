@@ -15,3 +15,6 @@ page:
   dates:
     title: Dates
     description: "One vocabulary of formats understood identically by Twig and by the browser, and dates that keep themselves true as the page is left open."
+  timeline:
+    title: Timeline
+    description: "Steps or events one under the other on markers joined by a line, each holding whatever it needs."

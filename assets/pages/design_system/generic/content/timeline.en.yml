@@ -1,0 +1,84 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Timeline
+page_icon: ph:bold/list-numbers
+
+intro: "Things one under the other, each on a marker, joined by a line: the steps of a procedure, the events of a history, the stages of a run. What each holds is free — a line of text, a table, a form — and the line runs down the whole of it, to the next marker."
+
+section:
+  steps:
+    title: Steps in order
+    description: "Numbered, with the three states the stepper knows: the steps behind are drawn solid, the one being done stands out, those ahead wait."
+  free:
+    title: Anything under a title
+    description: "Each item holds whatever it needs — properties, a message, buttons. An icon replaces the dot, and a tone colours the marker the way it colours a marker or a block."
+  history:
+    title: A history
+    description: "No order to follow, only events: dots, a date under each title, and a category colour where it tells something."
+  unknown:
+    title: Steps not decided yet
+    description: "As on the stepper: a step that depends on an answer not given yet takes no number and moves none of the others."
+  hand:
+    title: Written by hand
+    description: "The component is only a way of writing the shape from a list. The same classes written in the page give the same timeline, with anything in it."
+  vue:
+    title: In vue
+    description: "The same timeline in a vue tree. What the twig takes as markup is a scoped slot there, so a component can stand under an item's title."
+
+install:
+  clone:
+    title: Get the sources
+    text: Clone the repository and install its dependencies.
+  configure:
+    title: Configure
+    text: Copy the example environment and fill in the database address.
+  migrate:
+    title: Create the database
+    text: Run the migrations; this is the step in progress.
+  deploy:
+    title: Deploy
+    text: Build the assets and publish the release.
+
+order:
+  placed:
+    title: Order placed
+    meta: 14 March, 09:41
+  paid:
+    title: Payment received
+    meta: 14 March, 09:42
+  shipped:
+    title: Shipped
+    meta: 15 March, 16:05
+  next:
+    title: Delivery
+  delay:
+    title: Running late
+    text: The carrier announces one more day.
+  field:
+    reference: Reference
+    amount: Amount
+    method: Payment
+    card: Card ending 4242
+  action:
+    track: Track the parcel
+    cancel: Cancel
+
+history:
+  release:
+    title: Version 2.0 released
+    meta: 2 September
+  review:
+    title: Reviewed by the team
+    meta: 28 August
+  draft:
+    title: First draft
+    meta: 12 August
+
+branch:
+  choose: Choose a plan
+  depends: Depends on the plan
+
+hand:
+  one: A plain dot
+  two: An icon in place of the dot
+  two_text: Any markup, written in the page.

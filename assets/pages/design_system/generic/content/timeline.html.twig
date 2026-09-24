@@ -1,0 +1,104 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+
+{%- macro timeline(render_pass, options) -%}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/timeline', {}, options) }}
+{%- endmacro -%}
+
+{%- block page_body -%}
+    {% import _self as demo %}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.steps.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.steps.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ demo.timeline(render_pass, { numbered: true, items: [
+            { title: '@page::install.clone.title' | trans, text: '@page::install.clone.text' | trans, state: 'done' },
+            { title: '@page::install.configure.title' | trans, text: '@page::install.configure.text' | trans, state: 'done' },
+            { title: '@page::install.migrate.title' | trans, text: '@page::install.migrate.text' | trans, state: 'current' },
+            { title: '@page::install.deploy.title' | trans, text: '@page::install.deploy.text' | trans }
+        ] }) }}
+    </div>
+
+    <h2>{{ '@page::section.free.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.free.description' | trans }}</div>
+    {#- Anything under a title: a table of properties, a message, a row of
+        buttons. The line runs down the whole of it to the next marker. -#}
+    {%- set properties_body -%}
+        {{ properties([
+            { key: '@page::order.field.reference' | trans, value: 'ORD-2026-0142' },
+            { key: '@page::order.field.amount' | trans, value: '€ 184.00' },
+            { key: '@page::order.field.method' | trans, value: '@page::order.field.card' | trans }
+        ]) }}
+    {%- endset -%}
+    {%- set warning_body -%}
+        {{ message_warning('@page::order.delay.title' | trans, '@page::order.delay.text' | trans) }}
+    {%- endset -%}
+    {%- set actions_body -%}
+        <div class="cluster">
+            {{ button('ph:bold/truck', '@page::order.action.track' | trans) }}
+            {{ button('ph:bold/x', '@page::order.action.cancel' | trans) }}
+        </div>
+    {%- endset -%}
+    <div class="block block--padded">
+        {{ demo.timeline(render_pass, { items: [
+            { title: '@page::order.placed.title' | trans, meta: '@page::order.placed.meta' | trans, icon: 'ph:bold/shopping-cart', body: properties_body },
+            { title: '@page::order.paid.title' | trans, meta: '@page::order.paid.meta' | trans, icon: 'ph:bold/credit-card', tone: 'success' },
+            { title: '@page::order.shipped.title' | trans, meta: '@page::order.shipped.meta' | trans, icon: 'ph:bold/package', tone: 'warning', body: warning_body },
+            { title: '@page::order.next.title' | trans, icon: 'ph:bold/house', body: actions_body }
+        ] }) }}
+    </div>
+
+    <h2>{{ '@page::section.history.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.history.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ demo.timeline(render_pass, { items: [
+            { title: '@page::history.release.title' | trans, meta: '@page::history.release.meta' | trans, tone: 'cat-mint' },
+            { title: '@page::history.review.title' | trans, meta: '@page::history.review.meta' | trans, tone: 'cat-aqua' },
+            { title: '@page::history.draft.title' | trans, meta: '@page::history.draft.meta' | trans }
+        ] }) }}
+    </div>
+
+    <h2>{{ '@page::section.unknown.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.unknown.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ demo.timeline(render_pass, { numbered: true, items: [
+            { title: '@page::install.clone.title' | trans, state: 'done' },
+            { title: '@page::branch.choose' | trans, state: 'current' },
+            { title: '@page::branch.depends' | trans, state: 'unknown' },
+            { title: '@page::install.deploy.title' | trans }
+        ] }) }}
+    </div>
+
+    <h2>{{ '@page::section.hand.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.hand.description' | trans }}</div>
+    <div class="block block--padded">
+        <ol class="timeline">
+            <li class="timeline--item is-done">
+                <span class="timeline--marker"></span>
+                <div class="timeline--content">
+                    <div class="timeline--title">{{ '@page::hand.one' | trans }}</div>
+                </div>
+            </li>
+            <li class="timeline--item is-current">
+                <span class="timeline--marker">{{ icon('ph:bold/pencil-simple') }}</span>
+                <div class="timeline--content">
+                    <div class="timeline--title">{{ '@page::hand.two' | trans }}</div>
+                    <p>{{ '@page::hand.two_text' | trans }}</p>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/timeline', {
+            numbered: true,
+            items: [
+                { title: '@page::install.clone.title' | trans, state: 'done' },
+                { title: '@page::install.configure.title' | trans, state: 'current' },
+                { title: '@page::install.migrate.title' | trans }
+            ]
+        }) }}
+    </div>
+{%- endblock -%}
