@@ -16,15 +16,17 @@
                     {{ marker('neutral', '@page::work.size' | trans, { compact: true }) }}
                 </div>
             </div>
-            <div class="zone zone--scrollable zone--padded">
-                <p class="lead">{{ '@page::intro' | trans }}</p>
+            <div class="zone zone--scrollable">
+                <div class="zone--content">
+                    <p class="lead">{{ '@page::intro' | trans }}</p>
 
-                <h2>{{ '@page::section.sized.title' | trans }}</h2>
-                <p>{{ '@page::section.sized.description' | trans }}</p>
+                    <h2>{{ '@page::section.sized.title' | trans }}</h2>
+                    <p>{{ '@page::section.sized.description' | trans }}</p>
 
-                <h2>{{ '@page::section.slack.title' | trans }}</h2>
-                <p>{{ '@page::section.slack.description' | trans }}</p>
-                <p>{{ '@page::section.slack.more' | trans }}</p>
+                    <h2>{{ '@page::section.slack.title' | trans }}</h2>
+                    <p>{{ '@page::section.slack.description' | trans }}</p>
+                    <p>{{ '@page::section.slack.more' | trans }}</p>
+                </div>
             </div>
         </div>
         {#- The slack: a region with nothing in it, there to take the width the

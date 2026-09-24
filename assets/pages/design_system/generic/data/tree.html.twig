@@ -81,9 +81,11 @@
                 {{ tree(project) }}
             </div>
         </div>
-        <div class="zone zone--scrollable zone--padded zone--panel">
-            <h3>AppController.php</h3>
-            <p>{{ '@page::explorer.body' | trans }}</p>
+        <div class="zone zone--scrollable zone--panel">
+            <div class="zone--content">
+                <h3>AppController.php</h3>
+                <p>{{ '@page::explorer.body' | trans }}</p>
+            </div>
         </div>
     </div>
 
@@ -126,9 +128,11 @@
         <div class="zone zone--narrow zone--size-6 zone--panel">
             {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-explorer', { items: crowded }) }}
         </div>
-        <div class="zone zone--scrollable zone--padded zone--panel">
-            <h3>Pages</h3>
-            <p>{{ '@page::explorer.body' | trans }}</p>
+        <div class="zone zone--scrollable zone--panel">
+            <div class="zone--content">
+                <h3>Pages</h3>
+                <p>{{ '@page::explorer.body' | trans }}</p>
+            </div>
         </div>
     </div>
 

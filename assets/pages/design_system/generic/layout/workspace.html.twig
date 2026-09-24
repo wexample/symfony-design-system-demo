@@ -23,29 +23,33 @@
                     {{ marker('success', '@page::editor.state' | trans, { compact: true }) }}
                 </div>
             </div>
-            <div class="zone zone--scrollable zone--padded">
-                <p class="lead">{{ '@page::intro' | trans }}</p>
+            <div class="zone zone--scrollable">
+                <div class="zone--content">
+                    <p class="lead">{{ '@page::intro' | trans }}</p>
 
-                <h2>{{ '@page::section.gap.title' | trans }}</h2>
-                <p>{{ '@page::section.gap.description' | trans }}</p>
+                    <h2>{{ '@page::section.gap.title' | trans }}</h2>
+                    <p>{{ '@page::section.gap.description' | trans }}</p>
 
-                <h2>{{ '@page::section.each.title' | trans }}</h2>
-                <p>{{ '@page::section.each.description' | trans }}</p>
-                <p>{{ '@page::section.each.more' | trans }}</p>
+                    <h2>{{ '@page::section.each.title' | trans }}</h2>
+                    <p>{{ '@page::section.each.description' | trans }}</p>
+                    <p>{{ '@page::section.each.more' | trans }}</p>
 
-                <h2>{{ '@page::section.size.title' | trans }}</h2>
-                <p>{{ '@page::section.size.description' | trans }}</p>
-                <p>{{ '@page::section.size.more' | trans }}</p>
+                    <h2>{{ '@page::section.size.title' | trans }}</h2>
+                    <p>{{ '@page::section.size.description' | trans }}</p>
+                    <p>{{ '@page::section.size.more' | trans }}</p>
+                </div>
             </div>
         </div>
         {#- The inspector: sized like the explorer, and scrolling on its own. -#}
-        <div class="zone zone--narrow zone--size-6 zone--scrollable zone--padded zone--panel">
-            <h3>{{ '@page::inspector.title' | trans }}</h3>
-            {{ properties([
-                { key: '@page::inspector.field.path.key' | trans, value: 'src/Kernel.php' },
-                { key: '@page::inspector.field.size.key' | trans, value: '1.2 kB' },
-                { key: '@page::inspector.field.changed.key' | trans, value: '@page::inspector.field.changed.value' | trans },
-            ]) }}
+        <div class="zone zone--narrow zone--size-6 zone--scrollable zone--panel">
+            <div class="zone--content">
+                <h3>{{ '@page::inspector.title' | trans }}</h3>
+                {{ properties([
+                    { key: '@page::inspector.field.path.key' | trans, value: 'src/Kernel.php' },
+                    { key: '@page::inspector.field.size.key' | trans, value: '1.2 kB' },
+                    { key: '@page::inspector.field.changed.key' | trans, value: '@page::inspector.field.changed.value' | trans },
+                ]) }}
+            </div>
         </div>
     </div>
 {%- endblock -%}
