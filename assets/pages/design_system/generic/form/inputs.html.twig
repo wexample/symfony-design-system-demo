@@ -31,27 +31,27 @@
         and the agent below asks for them by name and nothing else. -#}
     <form class="block block--padded form assisted-gallery {{ component_init_class(render_pass, '@WexampleSymfonyLoaderBundle/components/form') }}"
           onsubmit="return false">
-        {{ gallery.field(render_pass, 'text_input', { id: 'demo_text', name: 'text', label: '@page::field.text' | trans, placeholder: '@page::placeholder.text' | trans }) }}
-        {{ gallery.field(render_pass, 'textarea', { id: 'demo_textarea', name: 'textarea', label: '@page::field.textarea' | trans, rows: 3, placeholder: '@page::placeholder.textarea' | trans }) }}
-        {{ gallery.field(render_pass, 'email_input', { id: 'demo_email', name: 'email', label: '@page::field.email' | trans, placeholder: '@page::placeholder.email' | trans }) }}
-        {{ gallery.field(render_pass, 'url_input', { id: 'demo_url', name: 'url', label: '@page::field.url' | trans, placeholder: '@page::placeholder.url' | trans }) }}
-        {{ gallery.field(render_pass, 'password_input', { id: 'demo_password', name: 'password', label: '@page::field.password' | trans }) }}
-        {{ gallery.field(render_pass, 'number_input', { id: 'demo_number', name: 'number', label: '@page::field.number' | trans }) }}
-        {{ gallery.field(render_pass, 'date_input', { id: 'demo_date', name: 'date', label: '@page::field.date' | trans }) }}
-        {{ gallery.field(render_pass, 'time_input', { id: 'demo_time', name: 'time', label: '@page::field.time' | trans }) }}
-        {{ gallery.field(render_pass, 'datetime_input', { id: 'demo_datetime', name: 'datetime', label: '@page::field.datetime' | trans }) }}
-        {{ gallery.field(render_pass, 'select_input', { id: 'demo_select', name: 'select', label: '@page::field.select' | trans, choices: select_options, selected: 'one' }) }}
-        {{ gallery.field(render_pass, 'radio_input', { id: 'demo_radio', name: 'radio', label: '@page::field.radio' | trans, choices: select_options, value: 'one' }) }}
-        {{ gallery.field(render_pass, 'switch_input', { id: 'demo_switch', name: 'switch', label: '@page::field.switch' | trans }) }}
-        {{ gallery.field(render_pass, 'file_input', { id: 'demo_file', name: 'file', label: '@page::field.file' | trans }) }}
-        {{ gallery.field(render_pass, 'emoji_picker', { id: 'demo_emoji', name: 'emoji', label: '@page::field.emoji' | trans, value: '😀' }) }}
+        {{ gallery.field(render_pass, 'text-input', { id: 'demo_text', name: 'text', label: '@page::field.text' | trans, placeholder: '@page::placeholder.text' | trans }) }}
+        {{ gallery.field(render_pass, 'textarea-input', { id: 'demo_textarea', name: 'textarea', label: '@page::field.textarea' | trans, rows: 3, placeholder: '@page::placeholder.textarea' | trans }) }}
+        {{ gallery.field(render_pass, 'email-input', { id: 'demo_email', name: 'email', label: '@page::field.email' | trans, placeholder: '@page::placeholder.email' | trans }) }}
+        {{ gallery.field(render_pass, 'url-input', { id: 'demo_url', name: 'url', label: '@page::field.url' | trans, placeholder: '@page::placeholder.url' | trans }) }}
+        {{ gallery.field(render_pass, 'password-input', { id: 'demo_password', name: 'password', label: '@page::field.password' | trans }) }}
+        {{ gallery.field(render_pass, 'number-input', { id: 'demo_number', name: 'number', label: '@page::field.number' | trans }) }}
+        {{ gallery.field(render_pass, 'date-input', { id: 'demo_date', name: 'date', label: '@page::field.date' | trans }) }}
+        {{ gallery.field(render_pass, 'time-input', { id: 'demo_time', name: 'time', label: '@page::field.time' | trans }) }}
+        {{ gallery.field(render_pass, 'datetime-input', { id: 'demo_datetime', name: 'datetime', label: '@page::field.datetime' | trans }) }}
+        {{ gallery.field(render_pass, 'select-input', { id: 'demo_select', name: 'select', label: '@page::field.select' | trans, choices: select_options, selected: 'one' }) }}
+        {{ gallery.field(render_pass, 'radio-input', { id: 'demo_radio', name: 'radio', label: '@page::field.radio' | trans, choices: select_options, value: 'one' }) }}
+        {{ gallery.field(render_pass, 'switch-input', { id: 'demo_switch', name: 'switch', label: '@page::field.switch' | trans }) }}
+        {{ gallery.field(render_pass, 'file-input', { id: 'demo_file', name: 'file', label: '@page::field.file' | trans }) }}
+        {{ gallery.field(render_pass, 'emoji-picker', { id: 'demo_emoji', name: 'emoji', label: '@page::field.emoji' | trans, value: '😀' }) }}
     </form>
 
     <h2>{{ '@page::section.actions.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.actions.description' | trans }}</div>
     <div class="block block--padded cluster">
-        {{ gallery.field(render_pass, 'button_input', { id: 'demo_button', label: '@page::field.button' | trans }) }}
-        {{ gallery.field(render_pass, 'submit_input', { id: 'demo_submit', label: '@page::field.submit' | trans, primary: true }) }}
+        {{ gallery.field(render_pass, 'button-input', { id: 'demo_button', label: '@page::field.button' | trans }) }}
+        {{ gallery.field(render_pass, 'submit-input', { id: 'demo_submit', label: '@page::field.submit' | trans, primary: true }) }}
     </div>
 
     <h2>{{ '@page::section.select.title' | trans }}</h2>
