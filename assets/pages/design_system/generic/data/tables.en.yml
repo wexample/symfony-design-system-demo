@@ -39,6 +39,9 @@ section:
   files:
     title: Files, a total, an action on every row
     description: "Paths read by their name, the folders before it cut from their start. The bar ends on how many rows there are, and an action marked `all` works with nothing ticked — it takes every row, and leads the bar when it is the one expected."
+  filters:
+    title: Filters
+    description: "A bar of filters at the head of the table, one discreet menu each, saying what it narrows to once it does. On the server they live in the page's query — each option is a link — and the controller narrows the rows from it; in vue they are a value handed to the page for its api, or applied by the table to the rows it already has."
   selection_select:
     title: Actions in a select
     description: "The same bar when there are enough actions to crowd it: one is chosen, then applied."
@@ -116,3 +119,11 @@ files:
     path: File
   fix_selected: Fix selected
   fix_all: Fix all
+
+filters:
+  owner: Owner
+  state: State
+  open: Open
+  closed: Closed
+  column:
+    name: Name

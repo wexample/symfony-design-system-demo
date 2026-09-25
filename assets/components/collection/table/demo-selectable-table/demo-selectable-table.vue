@@ -33,6 +33,19 @@ export default {
         { key: 'name', label: 'Name' },
         { key: 'owner', label: 'Owner', secondary: true }
       ],
+      // Narrowed by the table itself: the four rows are all there is.
+      filters: [
+        {
+          key: 'owner',
+          label: 'Owner',
+          multiple: true,
+          options: [
+            { value: 'Design', label: 'Design' },
+            { value: 'Platform', label: 'Platform' },
+            { value: 'Support', label: 'Support' }
+          ]
+        }
+      ],
       bulkActions: [
         { key: 'archive', label: 'Archive', icon: 'ph:bold/archive' },
         { key: 'export', label: 'Export', icon: 'ph:bold/download-simple' },

@@ -129,6 +129,42 @@
             ) }}
         </section>
 
+        {#- Filters kept in the page's query. The rows are narrowed right here,
+            from the same query, the way a controller would before handing
+            them over. -#}
+        {% set filter_definitions = [
+            { key: 'owner', label: '@page::filters.owner' | trans, multiple: true, options: [
+                { value: 'design', label: 'Design' },
+                { value: 'platform', label: 'Platform' },
+                { value: 'support', label: 'Support' },
+            ] },
+            { key: 'state', label: '@page::filters.state' | trans, options: [
+                { value: 'open', label: '@page::filters.open' | trans },
+                { value: 'closed', label: '@page::filters.closed' | trans },
+            ] },
+        ] %}
+        {% set filter_rows = [
+            { name: 'Alpha', owner: 'design', state: 'open' },
+            { name: 'Beta', owner: 'platform', state: 'closed' },
+            { name: 'Gamma', owner: 'design', state: 'closed' },
+            { name: 'Delta', owner: 'support', state: 'open' },
+        ] %}
+        {% set owners = filter_selected('owner') %}
+        {% set states = filter_selected('state') %}
+        <section>
+            <h2>{{ '@page::section.filters.title' | trans }}</h2>
+            <p>{{ '@page::section.filters.description' | trans }}</p>
+            {{ data_table(
+                [
+                    { key: 'name', label: '@page::filters.column.name' | trans },
+                    { key: 'owner', label: '@page::filters.owner' | trans, secondary: true },
+                    { key: 'state', label: '@page::filters.state' | trans, secondary: true },
+                ],
+                filter_rows|filter(row => (owners is empty or row.owner in owners) and (states is empty or row.state in states)),
+                { filters: filter_definitions, show_count: true }
+            ) }}
+        </section>
+
         <section>
             <h2>{{ '@page::section.selection_select.title' | trans }}</h2>
             <p>{{ '@page::section.selection_select.description' | trans }}</p>
