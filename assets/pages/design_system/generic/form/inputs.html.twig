@@ -87,6 +87,22 @@
         {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', { off_inner: 'OFF', on_inner: 'ON', label: '@page::switch.label_right', checked: true }) }}
     </div>
 
+    <h2>{{ '@page::section.switch_tone.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.switch_tone.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {}, { label: '@page::switch.tone.success' | trans, tone: 'success', checked: true }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {}, { label: '@page::switch.tone.mint' | trans, tone: 'cat-mint', checked: true }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {}, {
+            label: '@page::switch.tone.risky' | trans,
+            tone: 'warning',
+            confirm: {
+                title: '@page::switch.confirm.title' | trans,
+                message: '@page::switch.confirm.message' | trans,
+                accept: '@page::switch.confirm.accept' | trans,
+            },
+        }) }}
+    </div>
+
     <h2>{{ '@page::section.switch_vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.switch_vue.description' | trans }}</div>
     <div class="block block--padded cluster">

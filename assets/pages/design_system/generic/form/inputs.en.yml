@@ -24,6 +24,9 @@ section:
   switch:
     title: Switch, on its own
     description: "Labels on either side, glyphs inside, and the checked state."
+  switch_tone:
+    title: A switch with a tone, and one that asks
+    description: "Once on, a switch can take the colour of a state or of a category rather than the link's. One that switches on something with consequences takes `warning`, and asks before: refused, it stays off. Switching off is never questioned. Either way it says `switch:change` to the page."
   switch_vue:
     title: Switch, in vue
     description: "The same switch inside a vue tree, where the checked state is state and not a data attribute a script flips."
@@ -69,5 +72,13 @@ code:
   vue: Four digits, in vue
 
 switch:
+  tone:
+    success: Synced
+    mint: Tagged
+    risky: Publish on save
+  confirm:
+    title: Publish on save?
+    message: Every save will be published at once, with no review in between.
+    accept: Turn on
   label_right: Enable feature
   label_left: Label on the left
