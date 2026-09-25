@@ -11,6 +11,7 @@
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.content.layout.layout-content::tab.dates', 'wexample_design_system_generic_content_dates') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.content.layout.layout-content::tab.timeline', 'wexample_design_system_generic_content_timeline') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.content.layout.layout-content::tab.console', 'wexample_design_system_generic_content_console') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.content.layout.layout-content::tab.graph_log', 'wexample_design_system_generic_content_graph_log') }}
     {% endset %}
     {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
 {%- endblock -%}

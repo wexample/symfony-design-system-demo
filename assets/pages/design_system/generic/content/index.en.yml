@@ -15,6 +15,9 @@ page:
   dates:
     title: Dates
     description: "One vocabulary of formats understood identically by Twig and by the browser, and dates that keep themselves true as the page is left open."
+  graph_log:
+    title: Graph log
+    description: "Items on coloured lanes with their forks and merges: a git history, or anything that branches."
   console:
     title: Console
     description: "What a shell printed, read back in the page, and lines added as they come."

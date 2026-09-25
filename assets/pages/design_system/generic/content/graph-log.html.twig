@@ -1,0 +1,52 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- A history with a feature branch merged, one still open, and a tag:
+        written by hand, the way any branching list would be handed over. -#}
+    {% set history = [
+        { id: 'm2', parents: ['c5', 'f3'], title: '@page::history.merge_search' | trans, refs: [{ label: 'main', tone: 'info' }], meta: 'Maya', date: '2026-09-25 16:20', code: 'm2a91f0' },
+        { id: 'f3', parents: ['f2'], title: '@page::history.search_filters' | trans, meta: 'Jon', date: '2026-09-25 11:02', code: 'f3c1d88' },
+        { id: 'c5', parents: ['c4'], title: '@page::history.fix_header' | trans, meta: 'Maya', date: '2026-09-24 18:40', code: 'c5e0b12' },
+        { id: 'x1', parents: ['c4'], title: '@page::history.try_theme' | trans, refs: [{ label: 'theme-dark', tone: 'cat-grass' }], meta: 'Lea', date: '2026-09-24 15:12', code: 'x1f7a34' },
+        { id: 'f2', parents: ['f1'], title: '@page::history.search_index' | trans, meta: 'Jon', date: '2026-09-24 10:30', code: 'f2b9e45' },
+        { id: 'c4', parents: ['c3'], title: '@page::history.release' | trans, refs: [{ label: 'v2.1.0', tone: 'cat-sunflower' }], meta: 'Maya', date: '2026-09-23 17:00', code: 'c4d2c90' },
+        { id: 'f1', parents: ['c3'], title: '@page::history.search_start' | trans, meta: 'Jon', date: '2026-09-23 09:15', code: 'f1a0e77' },
+        { id: 'c3', parents: [], title: '@page::history.initial' | trans, meta: 'Maya', date: '2026-09-22 08:00', code: 'c3b8d01' },
+    ] %}
+
+    <h2>{{ '@page::section.history.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.history.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ graph_log(history) }}
+    </div>
+
+    <h2>{{ '@page::section.other.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.other.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ graph_log([
+            { id: 'v4', parents: ['v3', 'r1'], title: '@page::versions.v4' | trans, refs: [{ label: '@page::versions.current' | trans, tone: 'success' }], meta: 'QAL-P-01' },
+            { id: 'r1', parents: ['v2'], title: '@page::versions.review' | trans, refs: [{ label: '@page::versions.review_ref' | trans, tone: 'warning' }], meta: 'QAL-P-01' },
+            { id: 'v3', parents: ['v2'], title: '@page::versions.v3' | trans, meta: 'QAL-P-01' },
+            { id: 'v2', parents: ['v1'], title: '@page::versions.v2' | trans, meta: 'QAL-P-01' },
+            { id: 'v1', parents: [], title: '@page::versions.v1' | trans, meta: 'QAL-P-01' },
+        ]) }}
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/graph-log', { items: history }) }}
+    </div>
+
+    {#- The app's own history, when git is there to read it. -#}
+    {%- set own = git_graph_items(null, 20) -%}
+    {%- if own is not empty -%}
+        <h2>{{ '@page::section.git.title' | trans }}</h2>
+        <div class="lead">{{ '@page::section.git.description' | trans }}</div>
+        <div class="block block--padded">
+            {{ graph_log(own) }}
+        </div>
+    {%- endif -%}
+{%- endblock -%}
