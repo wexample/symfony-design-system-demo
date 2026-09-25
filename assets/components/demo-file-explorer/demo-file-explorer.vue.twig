@@ -1,0 +1,19 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/file-explorer') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="stack--vertical">
+        <div class="demo-file-explorer">
+            <file-explorer
+                    :load-children="loadChildren"
+                    state-id="demo.files"
+                    @open="onOpen"
+                    @select="onSelect"
+            ></file-explorer>
+        </div>
+        <p class="text-secondary">[[ opened ? 'Opened: ' + opened : 'Double-click a file to open it.' ]]</p>
+    </div>
+{%- endblock -%}

@@ -6,6 +6,9 @@ page_icon: ph:bold/list-bullets
 intro: "Shapes that take a collection and render it. What tells them apart is how much of each record the reader gets to see, and what they can do with it once they see it."
 
 page:
+  files:
+    title: Files
+    description: "A file explorer the width of a page, fed by a loader, and one folder drawn by the server."
   tables:
     title: Tables
     description: "Rows and columns, server-rendered or paginated by the browser, with typed cells — links, actions, icons and dates that keep counting."

@@ -318,6 +318,31 @@
             }
         },
         {
+            "key": "demo-file-explorer",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": null,
+            "formats": {
+                "style": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-file-explorer/demo-file-explorer.scss"
+                ],
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-file-explorer/demo-file-explorer.vue.twig",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-file-explorer/demo-file-explorer.vue"
+                ]
+            },
+            "stances": {
+                "style": "expected",
+                "template": "undecided",
+                "vue": "expected",
+                "script": "undecided",
+                "schema": "undecided",
+                "ai": "undecided",
+                "react": "undecided",
+                "flutter": "undecided"
+            },
+            "notes": []
+        },
+        {
             "key": "demo-progress",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,
