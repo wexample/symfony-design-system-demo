@@ -23,7 +23,7 @@
     <div class="lead">{{ '@page::section.placement.description' | trans }}</div>
     <div class="block block--padded cluster">
         {%- for placement in ['top', 'bottom', 'left', 'right'] -%}
-            {{ button(null, placement, { 'data-tooltip': ('@page::tip.placement' | trans) ~ ' ' ~ placement, 'data-tooltip-placement': placement }) }}
+            {{ button({ top: 'ph:bold/arrow-up', bottom: 'ph:bold/arrow-down', left: 'ph:bold/arrow-left', right: 'ph:bold/arrow-right' }[placement], placement, { 'data-tooltip': ('@page::tip.placement' | trans) ~ ' ' ~ placement, 'data-tooltip-placement': placement }) }}
         {%- endfor -%}
     </div>
 {%- endblock -%}
