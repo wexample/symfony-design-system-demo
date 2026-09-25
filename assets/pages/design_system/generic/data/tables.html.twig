@@ -134,12 +134,12 @@
             them over. -#}
         {% set filter_definitions = [
             { key: 'owner', label: '@page::filters.owner' | trans, multiple: true, options: [
-                { value: 'design', label: 'Design' },
-                { value: 'platform', label: 'Platform' },
-                { value: 'support', label: 'Support' },
+                { value: 'design', label: 'Design', tone: 'cat-lavender' },
+                { value: 'platform', label: 'Platform', tone: 'cat-aqua' },
+                { value: 'support', label: 'Support', tone: 'cat-sunflower' },
             ] },
             { key: 'state', label: '@page::filters.state' | trans, options: [
-                { value: 'open', label: '@page::filters.open' | trans },
+                { value: 'open', label: '@page::filters.open' | trans, tone: 'success' },
                 { value: 'closed', label: '@page::filters.closed' | trans },
             ] },
         ] %}

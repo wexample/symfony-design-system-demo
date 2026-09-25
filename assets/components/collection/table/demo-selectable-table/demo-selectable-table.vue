@@ -40,9 +40,9 @@ export default {
           label: 'Owner',
           multiple: true,
           options: [
-            { value: 'Design', label: 'Design' },
-            { value: 'Platform', label: 'Platform' },
-            { value: 'Support', label: 'Support' }
+            { value: 'Design', label: 'Design', tone: 'cat-lavender' },
+            { value: 'Platform', label: 'Platform', tone: 'cat-aqua' },
+            { value: 'Support', label: 'Support', tone: 'cat-sunflower' }
           ]
         }
       ],
