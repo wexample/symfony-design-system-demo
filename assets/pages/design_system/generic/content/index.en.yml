@@ -15,6 +15,9 @@ page:
   dates:
     title: Dates
     description: "One vocabulary of formats understood identically by Twig and by the browser, and dates that keep themselves true as the page is left open."
+  console:
+    title: Console
+    description: "What a shell printed, read back in the page, and lines added as they come."
   timeline:
     title: Timeline
     description: "Steps or events one under the other on markers joined by a line, each holding whatever it needs."

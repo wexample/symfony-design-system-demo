@@ -1,0 +1,14 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyCodingBundle/components/console') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="stack--vertical">
+        <div>
+            <button type="button" class="button" @click="play">Play the run</button>
+        </div>
+        <console ref="console" title="app::files/check" max-height="14rem"></console>
+    </div>
+{%- endblock -%}

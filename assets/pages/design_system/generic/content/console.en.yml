@@ -1,0 +1,17 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Console
+page_icon: ph:bold/terminal-window
+
+intro: "What a shell printed, read back in the page: commands after their prompt, their output under them, and the terminal's colours read as the palette's, in either scheme. It reads; it does not take commands."
+
+section:
+  session:
+    title: A session
+    description: "Lines of four kinds — command, output, error, info — or plain strings. The escape codes a program wrote for its terminal are kept as colour and weight; the rest of what a terminal is told is dropped."
+  vue:
+    title: In vue
+    description: "The same lines, drawn by the vue twin, here with a prompt of its own."
+  live:
+    title: Lines as they come
+    description: "Given a live updates topic, the vue console adds what each message carries — a string, a line, or a batch of lines — and follows the end unless the reader has scrolled up. Here a button plays the part of the topic, through the same append a message calls."

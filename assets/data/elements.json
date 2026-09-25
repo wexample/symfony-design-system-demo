@@ -218,6 +218,28 @@
             "notes": []
         },
         {
+            "key": "demo-console",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": null,
+            "formats": {
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-console/demo-console.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-console/demo-console.vue.twig"
+                ]
+            },
+            "stances": {
+                "style": "undecided",
+                "template": "undecided",
+                "vue": "expected",
+                "script": "undecided",
+                "schema": "undecided",
+                "ai": "undecided",
+                "react": "undecided",
+                "flutter": "undecided"
+            },
+            "notes": []
+        },
+        {
             "key": "demo-dates",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,

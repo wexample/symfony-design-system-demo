@@ -1,0 +1,29 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- A session as a shell printed it: the escape codes are the terminal's own,
+        read into the palette. -#}
+    {% set session = [
+        { kind: 'command', text: 'git status --short' },
+        "\x1b[31m M\x1b[39m asset/_scripts/backfill_frontmatter.py",
+        "\x1b[32m??\x1b[39m 05-INSTRUCTIONS/RES/RES-I-04-incident-handling-info.md",
+        { kind: 'command', text: 'composer install' },
+        { kind: 'info', text: 'Installing dependencies from lock file' },
+        "\x1b[1;33mWarning:\x1b[0m The lock file is not up to date with the latest changes in composer.json.",
+        { kind: 'error', text: 'Your requirements could not be resolved to an installable set of packages.' },
+    ] %}
+
+    <h2>{{ '@page::section.session.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.session.description' | trans }}</div>
+    {{ component(render_pass, '@WexampleSymfonyCodingBundle/components/console', {}, { lines: session, title: '~/apps/doc-qms' }) }}
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    {{ vue(render_pass, '@WexampleSymfonyCodingBundle/components/console', { lines: session, prompt: '❯' }) }}
+
+    <h2>{{ '@page::section.live.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.live.description' | trans }}</div>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-console') }}
+{%- endblock -%}
