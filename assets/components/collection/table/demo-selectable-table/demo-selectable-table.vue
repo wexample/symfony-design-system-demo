@@ -36,7 +36,9 @@ export default {
       bulkActions: [
         { key: 'archive', label: 'Archive', icon: 'ph:bold/archive' },
         { key: 'export', label: 'Export', icon: 'ph:bold/download-simple' },
-        { key: 'delete', label: 'Delete', icon: 'ph:bold/trash' }
+        { key: 'delete', label: 'Delete', icon: 'ph:bold/trash' },
+        // Needs nothing ticked: it takes every row, on every page.
+        { key: 'archive-all', label: 'Archive all', icon: 'ph:bold/archive', all: true, class: 'button--invert' }
       ]
     };
   },

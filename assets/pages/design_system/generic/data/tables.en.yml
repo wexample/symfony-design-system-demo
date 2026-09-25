@@ -36,6 +36,9 @@ section:
   selection:
     title: Rows that can be ticked
     description: "A box at the head of each row, one in the header for them all, and the actions above: they post the ticked rows to their own address, and stay out of reach while nothing is ticked."
+  files:
+    title: Files, a total, an action on every row
+    description: "Paths read by their name, the folders before it cut from their start. The bar ends on how many rows there are, and an action marked `all` works with nothing ticked — it takes every row, and leads the bar when it is the one expected."
   selection_select:
     title: Actions in a select
     description: "The same bar when there are enough actions to crowd it: one is chosen, then applied."
@@ -43,7 +46,7 @@ section:
     title: Vue entity table
   vue_selection:
     title: Vue table with selection
-    description: "The same contract on the client: the ticked keys come back through v-model:selected, each action is emitted as bulk-action, and one with an address is posted as the server table posts it. These have none, so the line below says what would have been done."
+    description: "The same contract on the client: the ticked keys come back through v-model:selected, each action is emitted as bulk-action, and one with an address is posted as the server table posts it. These have none, so the line below says what would have been done. Three rows a page, the total at the end of the bar, and Archive all needing nothing ticked."
   vue_compact:
     title: Pagination without a total
     description: When the API does not return a total, the pager falls back to previous/next.
@@ -107,3 +110,9 @@ bulk:
   archive: Archive
   export: Export
   delete: Delete
+
+files:
+  column:
+    path: File
+  fix_selected: Fix selected
+  fix_all: Fix all

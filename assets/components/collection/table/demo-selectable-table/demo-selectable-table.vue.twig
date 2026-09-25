@@ -16,6 +16,8 @@
                 v-model:selected="selected"
                 :bulk-actions="bulkActions"
                 :bulk-actions-mode="mode"
+                :show-count="true"
+                :page-size="3"
                 @bulk-action="onBulkAction"
         ></data-table>
         <p class="text-secondary">[[ lastAction || selected.join(', ') || '—' ]]</p>

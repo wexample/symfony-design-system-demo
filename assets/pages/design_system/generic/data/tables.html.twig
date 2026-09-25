@@ -102,6 +102,33 @@
             {{ data_table(actions_columns, bulk_rows, { selectable: true, bulk_actions: bulk_actions }) }}
         </section>
 
+        {#- A list of files at fault: each path read by its name, how many there
+            are at the end of the bar, and two fixes — the ticked ones, or every
+            one, which needs nothing ticked and leads. -#}
+        {% set file_rows = [
+            { id: '03-DOCUMENTS/QAL - Syst Document/Obsolète/QAL-D-12-identification-and-validation-of-quality-system-software-v1.md', path: '03-DOCUMENTS/QAL - Syst Document/Obsolète/QAL-D-12-identification-and-validation-of-quality-system-software-v1.md' },
+            { id: '05-INSTRUCTIONS/RES/RES-I-02-it-access-change-v2.md', path: '05-INSTRUCTIONS/RES/RES-I-02-it-access-change-v2.md' },
+            { id: 'README.md', path: 'README.md' },
+        ] %}
+        <section>
+            <h2>{{ '@page::section.files.title' | trans }}</h2>
+            <p>{{ '@page::section.files.description' | trans }}</p>
+            {{ data_table(
+                [{ key: 'path', label: '@page::files.column.path' | trans, cell: 'path' }],
+                file_rows,
+                {
+                    selectable: true,
+                    show_count: true,
+                    striped: true,
+                    hover: true,
+                    bulk_actions: [
+                        { label: '@page::files.fix_selected' | trans, icon: 'ph:bold/wrench', href: app.request.requestUri, token: csrf_token('demo_bulk') },
+                        { label: '@page::files.fix_all' | trans, icon: 'ph:bold/wrench', href: app.request.requestUri, token: csrf_token('demo_bulk'), all: true, class: 'button--invert' },
+                    ],
+                }
+            ) }}
+        </section>
+
         <section>
             <h2>{{ '@page::section.selection_select.title' | trans }}</h2>
             <p>{{ '@page::section.selection_select.description' | trans }}</p>
