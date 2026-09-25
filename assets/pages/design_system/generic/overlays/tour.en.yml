@@ -1,0 +1,38 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Tour
+page_icon: ph:bold/signpost
+
+intro: "A guided tour of a page: one step at a time, the element it is about lit in a dimmed page and a card beside it, with the way on and the way out. It starts on its own for a visitor who has neither finished nor dismissed it — what they did is kept, and it does not come back — and any element carrying data-tour-start plays it again. The arrows of the keyboard move through it, Escape leaves it."
+
+start: Play the tour
+
+status:
+  none: You have not seen this tour yet — it starts on its own.
+  completed: You went through this tour; it will not start on its own again.
+  dismissed: You closed this tour before its end; it will not start on its own again.
+
+area:
+  filters:
+    title: Filters
+    body: What the list shows.
+  list:
+    title: The list
+    body: What there is.
+  export:
+    title: Export
+    body: What leaves the page.
+
+step:
+  welcome:
+    title: Welcome
+    body: A short tour of this page. Use the arrows of the keyboard, or the buttons below.
+  filters:
+    title: Narrow it down
+    body: The filters decide what the list shows; they are kept in the address.
+  list:
+    title: What there is
+    body: Each row opens its detail beside the list.
+  export:
+    title: Take it with you
+    body: The export takes what the filters kept, nothing more.

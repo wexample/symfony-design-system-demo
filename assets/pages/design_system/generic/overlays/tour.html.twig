@@ -1,0 +1,34 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/overlays/layout/layout-overlays.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- What the visitor did last time, as the page can read it. -#}
+    {%- set status = tour_status('demo-overlays') -%}
+    <div class="block block--padded block--split">
+        <div class="lead">{{ ('@page::status.' ~ (status ?? 'none')) | trans }}</div>
+        {{ button('ph:bold/play', '@page::start' | trans, { class: 'button--invert', 'data-tour-start': 'demo-overlays' }) }}
+    </div>
+
+    <div class="grid grid--3">
+        <div class="block block--padded tour-demo--filters">
+            <strong>{{ '@page::area.filters.title' | trans }}</strong>
+            <p>{{ '@page::area.filters.body' | trans }}</p>
+        </div>
+        <div class="block block--padded tour-demo--list">
+            <strong>{{ '@page::area.list.title' | trans }}</strong>
+            <p>{{ '@page::area.list.body' | trans }}</p>
+        </div>
+        <div class="block block--padded tour-demo--export">
+            <strong>{{ '@page::area.export.title' | trans }}</strong>
+            <p>{{ '@page::area.export.body' | trans }}</p>
+        </div>
+    </div>
+
+    {{ tour('demo-overlays', [
+        { title: '@page::step.welcome.title' | trans, body: '@page::step.welcome.body' | trans },
+        { target: '.tour-demo--filters', title: '@page::step.filters.title' | trans, body: '@page::step.filters.body' | trans, placement: 'bottom' },
+        { target: '.tour-demo--list', title: '@page::step.list.title' | trans, body: '@page::step.list.body' | trans, placement: 'bottom' },
+        { target: '.tour-demo--export', title: '@page::step.export.title' | trans, body: '@page::step.export.body' | trans, placement: 'left' },
+    ]) }}
+{%- endblock -%}

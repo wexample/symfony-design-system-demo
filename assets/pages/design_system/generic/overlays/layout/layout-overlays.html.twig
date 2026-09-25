@@ -10,6 +10,8 @@
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.panel', 'wexample_design_system_generic_overlays_panel') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.confirm', 'wexample_design_system_generic_overlays_confirm') }}
         {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.backdrop', 'wexample_design_system_generic_overlays_backdrop') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.tooltip', 'wexample_design_system_generic_overlays_tooltip') }}
+        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.overlays.layout.layout-overlays::tab.tour', 'wexample_design_system_generic_overlays_tour') }}
     {% endset %}
     {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
 {%- endblock -%}

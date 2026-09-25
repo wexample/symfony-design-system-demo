@@ -18,3 +18,9 @@ page:
   backdrop:
     title: Backdrop
     description: "The layer all of these are stacked on, on its own: what opens it, what closes it, and in which order."
+  tooltip:
+    title: Tooltip
+    description: "A few words beside what the pointer or the focus is on, turned away from the window's edges."
+  tour:
+    title: Tour
+    description: "A page shown step by step, remembered once finished or dismissed."

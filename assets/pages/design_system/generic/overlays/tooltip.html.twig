@@ -1,0 +1,29 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/overlays/layout/layout-overlays.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.plain.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.plain.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ button('ph:bold/floppy-disk', '@page::button.save' | trans, { 'data-tooltip': '@page::tip.save' | trans }) }}
+        <button type="button" class="action-icon" aria-label="{{ '@page::tip.share' | trans }}" {{ tooltip('@page::tip.share' | trans) }}>{{ icon('ph:bold/share-network') }}</button>
+        <button type="button" class="action-icon" aria-label="{{ '@page::tip.delete' | trans }}" {{ tooltip('@page::tip.delete' | trans) }}>{{ icon('ph:bold/trash') }}</button>
+        {{ marker('success', '@page::marker.label' | trans, { attr: { 'data-tooltip': '@page::tip.marker' | trans } }) }}
+    </div>
+
+    <h2>{{ '@page::section.rich.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.rich.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        <span class="action-icon" tabindex="0" {{ tooltip('@page::tip.rich.text' | trans, { title: '@page::tip.rich.title' | trans }) }}>{{ icon('ph:bold/info') }}</span>
+        <span class="action-icon" tabindex="0" {{ tooltip('@page::tip.light' | trans, { variant: 'light' }) }}>{{ icon('ph:bold/sun') }}</span>
+    </div>
+
+    <h2>{{ '@page::section.placement.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.placement.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {%- for placement in ['top', 'bottom', 'left', 'right'] -%}
+            {{ button(null, placement, { 'data-tooltip': ('@page::tip.placement' | trans) ~ ' ' ~ placement, 'data-tooltip-placement': placement }) }}
+        {%- endfor -%}
+    </div>
+{%- endblock -%}

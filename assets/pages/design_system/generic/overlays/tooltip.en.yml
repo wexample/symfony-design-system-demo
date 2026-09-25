@@ -1,0 +1,34 @@
+~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+page_title: Tooltip
+page_icon: ph:bold/chat-centered-text
+
+intro: "A few words about what the pointer or the focus is on, beside it. There is one tooltip for the page, placed by the layout: any element asks for it with data-tooltip — tooltip() writes it in twig, a vue binds it — and it comes under the pointer after a moment, under the keyboard's focus at once, and never under a finger. It turns away from the edges of the window rather than leave it."
+
+section:
+  plain:
+    title: On anything
+    description: "A button, an icon on its own, a marker: the attribute is all it takes. An icon with no words is where a tooltip matters most."
+  rich:
+    title: With a title, or light
+    description: "A heading above the text for a tooltip that explains, and a light one on the page's own ground where the inverted one would be too loud."
+  placement:
+    title: Placement
+    description: "Above by default. Asked for a side, it takes it when there is room and the other side when there is not; along that side, it slides to stay in the window, its arrow still on what it points at."
+
+button:
+  save: Save
+
+marker:
+  label: Published
+
+tip:
+  save: Save the draft — Ctrl+S
+  share: Share
+  delete: Delete
+  marker: Published on 2 September, seen by 128 readers
+  light: A tooltip on the page's own ground
+  placement: Placed
+  rich:
+    title: Why is it greyed out?
+    text: The export waits for the first run to end; it opens as soon as there is something to export.
