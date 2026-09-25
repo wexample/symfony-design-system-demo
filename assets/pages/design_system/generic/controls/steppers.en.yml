@@ -21,6 +21,9 @@ section:
   unknown:
     title: Steps not decided yet
     description: "Where paths part, what lies ahead depends on an answer not given yet. The step standing for it takes no number and moves none of the others: the last step here is the third, not the fourth."
+  compact:
+    title: Compact, and dots
+    description: "For the header of a modal or a panel, where there is little room: compact keeps the numbers and names the step being done only; dots draw one dot per step and name none on screen, the names staying for whoever reads the page aloud. Right under the header of a modal or a panel, a stepper takes the place of the loading bar."
   toolbar:
     title: In a toolbar
     description: "Laid in a bar above a page, it takes the room the bar gives it."

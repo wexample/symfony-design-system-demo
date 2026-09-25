@@ -53,6 +53,13 @@
         ], current: 1 }) }}
     </div>
 
+    <h2>{{ '@page::section.compact.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.compact.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {{ demo.stepper(render_pass, { steps: steps, current: 2, variant: 'compact' }) }}
+        {{ demo.stepper(render_pass, { steps: steps, current: 2, variant: 'dots' }) }}
+    </div>
+
     <h2>{{ '@page::section.toolbar.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.toolbar.description' | trans }}</div>
     <div class="toolbar toolbar--shaded">
