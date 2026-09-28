@@ -1,4 +1,4 @@
-import AbstractApiRepository from '@wexample/js-api/Common/AbstractApiRepository';
+import AbstractApiRepository from '@wexample/js-api-entity/Common/AbstractApiRepository';
 import DemoMessage from '../Entity/DemoMessage.js';
 
 export default class DemoMessageRepository extends AbstractApiRepository<DemoMessage> {
