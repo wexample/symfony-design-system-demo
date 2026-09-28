@@ -1,6 +1,6 @@
 {#- The region every workspace page of the section opens with: a tree used for
-    what a tree is for — moving between things — the things here being the three
-    arrangements the section demonstrates. Shared, so the three pages differ by
+    what a tree is for — moving between things — the things here being the
+    arrangements the section demonstrates. Shared, so the pages differ by
     what stands beside it and by nothing else.
 
     The render pass comes in as an argument because a macro is given no context
@@ -9,7 +9,7 @@
 {%- macro layouts(render_pass, current) -%}
     {%- set base = 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::' -%}
     {#- Named, so the width the visitor leaves it at comes back with the page,
-        and the same width on all three: it is the same region moving. -#}
+        and the same width on all of them: it is the same region moving. -#}
     <div class="zone zone--narrow zone--size-6 zone--split zone--split--vertical zone--panel"
          {{ zone_state('demo.workspace.nav') }}>
         <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
@@ -42,6 +42,12 @@
                             icon: 'ph:bold/arrows-horizontal',
                             href: path('wexample_design_system_generic_layout_workspace_columns'),
                             selected: current == 'columns',
+                        },
+                        {
+                            label: (base ~ 'nav.dashboard') | trans,
+                            icon: 'ph:bold/squares-four',
+                            href: path('wexample_design_system_generic_layout_workspace_dashboard'),
+                            selected: current == 'dashboard',
                         },
                     ],
                 },

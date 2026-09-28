@@ -1,0 +1,16 @@
+@use './layout/layout-generic';
+@use '@wexample/symfony-design-system/css/shapes/zone';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/components/tree/tree';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/marker/marker';
+@use '@wexample/symfony-design-system/components/zone-resizer/zone-resizer';
+
+// The figure a tile is about, read from across the room.
+.workspace-dashboard--figure {
+  font-size: var(--font-size-7, 2rem);
+  font-weight: var(--font-weight-strong);
+  line-height: 1;
+}

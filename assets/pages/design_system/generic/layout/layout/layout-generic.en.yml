@@ -1,9 +1,10 @@
-# The tree standing in every workspace page, which moves between the three.
+# The tree standing in every workspace page, which moves between them.
 nav:
   title: Layouts
   group: Workspace
   fixed: Fixed width
   columns: Five columns
+  dashboard: Dashboard
 
 tab:
   index: Overview

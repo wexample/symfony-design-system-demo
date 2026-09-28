@@ -1,0 +1,65 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+{%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/workspace-nav.html.twig' as nav -%}
+
+{%- set page_body_mode = 'wide' -%}
+
+{#- One tile of the wall: a title, a figure, and what it says of itself. Named
+    when it is resizable, so the width it is left at comes back with the page.
+    What scrolls is inside it: a tile that scrolled itself would clip the handle
+    hanging into the seam beside it. -#}
+{%- macro tile(render_pass, key, state, resizable = false, min = 6) -%}
+    <div class="zone zone--panel zone--min-{{ min }}"
+         {%- if resizable %} {{ zone_state('demo.dashboard.' ~ key) }}{% endif %}>
+        {%- if resizable -%}
+            {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/zone-resizer') }}
+        {%- endif -%}
+        <div class="zone zone--scrollable">
+            <div class="zone--content stack--vertical">
+                <div class="cluster">
+                    <strong>{{ ('@page::tile.' ~ key ~ '.title') | trans }}</strong>
+                    {{ marker(state, ('@page::state.' ~ state) | trans, { compact: true }) }}
+                </div>
+                <span class="workspace-dashboard--figure">{{ ('@page::tile.' ~ key ~ '.figure') | trans }}</span>
+                <p class="text-secondary">{{ ('@page::tile.' ~ key ~ '.description') | trans }}</p>
+            </div>
+        </div>
+    </div>
+{%- endmacro -%}
+
+{%- block page_body_container -%}
+    {% import _self as dashboard %}
+    {#- Flush by default, the way a wall of screens is: `?gap=1` lays the same
+        wall with the room between its tiles, to compare. -#}
+    {%- set gap = app.request.query.get('gap') == '1' -%}
+    <div class="zone zone--split">
+        {{ nav.layouts(render_pass, 'dashboard') }}
+        <div class="zone zone--split zone--split--vertical zone--panel">
+            <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
+                <h1 class="toolbar--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <div class="toolbar--group">
+                    {{ button_link('ph:bold/squares-four', '@page::mode.gap' | trans, path(app.request.attributes.get('_route'), { gap: 1 }), { class: gap ? 'button--invert' : '' }) }}
+                    {{ button_link('ph:bold/grid-four', '@page::mode.flush' | trans, path(app.request.attributes.get('_route')), { class: gap ? '' : 'button--invert' }) }}
+                </div>
+            </div>
+            {#- The frame: what scrolls, both ways, when the tiles ask for more
+                room through their floors than the screen has. -#}
+            <div class="zone zone--scrollable zone--scrollable--x">
+                {#- The wall: a vertical split of rows, each row a split of its
+                    own. The top row is resizable in height, the first tile of
+                    each row in width. -#}
+                <div class="zone zone--split zone--split--vertical{{ gap ? ' zone--padded' : ' zone--split--flush' }}">
+                    <div class="zone zone--split zone--min-6" {{ zone_state('demo.dashboard.top') }}>
+                        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/zone-resizer') }}
+                        {{ dashboard.tile(render_pass, 'traffic', 'success', true, 7) }}
+                        {{ dashboard.tile(render_pass, 'latency', 'warning', false, 7) }}
+                    </div>
+                    <div class="zone zone--split zone--min-6">
+                        {{ dashboard.tile(render_pass, 'errors', 'error', true) }}
+                        {{ dashboard.tile(render_pass, 'queue', 'running') }}
+                        {{ dashboard.tile(render_pass, 'deploys', 'success', false, 7) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{%- endblock -%}
