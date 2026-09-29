@@ -1,0 +1,19 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+
+{#- One panel of the dashboard, loaded into an embed: a service, its state and
+    what it last did. Standalone it is an ordinary page. -#}
+{%- block page_body -%}
+    {%- set key = service in ['api', 'worker'] ? service : 'api' -%}
+    <div class="zone--content stack--vertical">
+        <div class="cluster">
+            <strong>{{ ('@page::service.' ~ key ~ '.title') | trans }}</strong>
+            {{ marker(key == 'api' ? 'success' : 'warning', ('@page::service.' ~ key ~ '.state') | trans, { compact: true }) }}
+        </div>
+        {{ properties([
+            { key: '@page::field.version' | trans, value: ('@page::service.' ~ key ~ '.version') | trans },
+            { key: '@page::field.instances' | trans, value: ('@page::service.' ~ key ~ '.instances') | trans },
+            { key: '@page::field.loaded' | trans, value: delay > 0 ? ('@page::loaded.late' | trans({ '%seconds%': delay })) : '@page::loaded.at_once' | trans },
+        ], { compact: true }) }}
+        <p class="text-secondary">{{ ('@page::service.' ~ key ~ '.description') | trans }}</p>
+    </div>
+{%- endblock -%}

@@ -4,6 +4,7 @@ page_title: Dashboard
 page_icon: ph:bold/squares-four
 
 mode:
+  reopen: Reopen the API panel
   gap: With gaps
   flush: Flush
 
@@ -29,8 +30,8 @@ tile:
   queue:
     title: Queue
     figure: 318 jobs
-    description: "`zone--split--flush` takes the gap away: the tiles touch and a hairline tells them apart. One class on the wall is enough, the rows inherit it."
+    description: "`zone--split--flush` narrows the gap to a pixel, the wall's ground drawing the line between tiles. One class on the wall is enough, the rows inherit it."
   deploys:
     title: Deployments
     figure: 7 today
-    description: "Without it the same wall keeps the room between its tiles, through which the ground shows — switch in the bar above."
+    description: "Without it the same wall keeps the room between its tiles, through which the page's ground shows — switch in the bar above. Scroll right for a panel loaded only once it is seen."

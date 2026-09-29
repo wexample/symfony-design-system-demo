@@ -7,6 +7,9 @@
 @use '@wexample/symfony-design-system/components/button/button';
 @use '@wexample/symfony-design-system/components/marker/marker';
 @use '@wexample/symfony-design-system/components/zone-resizer/zone-resizer';
+@use '@wexample/symfony-design-system/components/embed/embed';
+// What the panels loaded into the embeds are drawn with.
+@use '@wexample/symfony-design-system/components/properties/properties';
 
 // The figure a tile is about, read from across the room.
 .workspace-dashboard--figure {
