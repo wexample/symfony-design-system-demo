@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Ominaisuudet
+page_icon: 'ph:bold/list-dashes'
+intro: 'Avain / arvo -parit esitetään määritelmälistana. Rivit ovat listan alaverkkoja, joten avaimet pysyvät kohdistettuina yhteen sarakkeeseen, kun taas jokainen rivi on oikea laatikko, joka voi sisältää erottimen.'
+section:
+  default:
+    title: Oletusarvo
+    description: 'Avainsarake sopeutuu pisimmän tunnisteen mukaan. Yli kirjoita --properties-key-width kiinnittääksesi sen.'
+  bordered:
+    title: Reunustettu
+    description: 'Eroitin rivien välillä, tiheille tietueille lohkon sisällä.'
+    block_title: Yhteystiedot
+  split:
+    title: Jaettu
+    description: 'Arvot työnnetään oikeaan reunaan — yhteenveto, saldot, kaikki, mikä luetaan numeroiden sarjaksi.'
+  compact:
+    title: Tiivis
+    description: 'Tiiviimmät rivit, kun lista on toissijainen lohkon muuhun sisältöön verrattuna.'
+  stacked:
+    title: Pino
+    description: 'Avain arvon yläpuolella, kapeille sarakkeille, joissa kaksi saraketta kääntyisi huonosti.'
+    aside: 'Runko säilyttää jäljelle jäävän leveyden, kun taas sivusarakkeessa on kiinteä leveys.'
+  columns:
+    title: Sarakkeet
+    description: 'Kymmenen lyhyttä paria näyttää huonolta yhdessä korkeassa sarakkeessa: silmä ylittää sivun leveyden avaimen ja sen arvon välillä, ja erottimet pitävät jokaisen parin yhdessä. Asetettuna sarakkeisiin — niin monta kuin leveys sallii, jopa yksi puhelimessa — pari muuttuu pieneksi kahden rivin lohkoksi, joka ei tarvitse sääntöä ympärilleen. Arvo, jota mikään sarake ei voi pitää, vie koko leveyden `full`.'
+  vue:
+    title: Vue
+    description: 'Sama lista vue-osana, ottaen muokkaimet propseina: tietue, joka rakennetaan sivun suorittaessa, näyttää siltä kuin se olisi esitetty sen kanssa.'
+field:
+  name:
+    key: Nimi
+    value: 'Putkilohkon projekti'
+  identifier:
+    key: Tunniste
+    value: prj_8f21c4a7
+  description:
+    key: Kuvaus
+    value: 'Kokoaa saapuvat tapahtumat ja esittää ne kyselynä. projektiona.'
+  status:
+    key: Tila
+    value: Valmis
+  owner:
+    key: Omistaja
+    value: Alustatiimi
+  created:
+    key: Luotu
+    value: '14. maaliskuuta 2026'
+  region:
+    key: Alue
+    value: eu-west-1
+  runtime:
+    key: Suoritusaika
+    value: 'PHP 8.3'
+  version:
+    key: Versio
+    value: 1.4.2
+  reviewed:
+    key: Arvioitu
+    value: null
+  path:
+    key: Tiedosto
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: Välisumma
+    value: '1,240.00 €'
+  tax:
+    key: Verot
+    value: '248.00 €'
+  total:
+    key: Yhteensä
+    value: '1,488.00 €'

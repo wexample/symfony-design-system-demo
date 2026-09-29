@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 日付
+page_icon: 'ph:bold/clock'
+intro: Twig、プレーンJavaScript、Vueによって同じように理解されるフォーマット名の語彙です。サーバーは瞬時と要求されたフォーマットを含む<time>を出力し、ブラウザはそれを受け取り、時間が経つにつれて書き換えます。そのため、開いたままのページは、何かがいつ起こったかについて嘘をつくことはありません。
+section:
+  formats:
+    title: 名前付きフォーマット
+    description: 絶対フォーマットはICUの日付と時間のスタイルであり、フィールドの順序と区切りはテンプレートではなく、読者のロケールに属します。
+  relative:
+    title: 相対的
+    description: '距離は、まだ何かを示す最大の単位で計算されます — 分は1時間まで、時間は1日まで、その後は日、週、月、年です。すべての表現は翻訳キーから来ています。'
+  auto:
+    title: 自動
+    description: デフォルトです。日付が最近である限りカウントダウンし、1週間を過ぎるとカレンダーの日付にフォールバックします。「27週間前」では誰の役にも立ちません。
+  live:
+    title: 最新情報を維持
+    description: '単一のタイマーがページ上のすべての日付にサービスを提供し、表示される単位にふさわしいペースで動作します — 「今すぐ」の場合は数秒、「3ヶ月前」の場合は1時間です。このページを開いたままにして、見守ってください。'
+  plain:
+    title: テキストのみ
+    description: フィルターはマークアップのない文字列を返し、タイトル属性やエクスポートに使用します。知らないフォーマット名は、生のICUパターンとして扱われ、必要な形が名前付きフォーマットにない場合の逃げ道となります。
+offset:
+  now: 少し前
+  minutes: 5分前
+  hours: 3時間前
+  days: 2日前
+  months: 4ヶ月前
+  years: 3年前
+  future: 2時間後
+live:
+  server: Twigによってレンダリングされ、フロントサービスによって更新されます：
+  vue: Vueによってレンダリングされます：
+plain:
+  filter: "| date_format('date_long')"
+  pattern: '| date_format("EEEE d MMMM, ''week'' w")'

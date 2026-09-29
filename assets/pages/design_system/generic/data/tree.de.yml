@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Baum
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: Dateiexplorer
+    description: 'Die Verschachtelung ist die gesamte Struktur: Ein Element öffnet sich, wenn es geöffnet ist, und seine Tiefe ist es, die die Zeile einrückt, während die Hervorhebung weiterhin die gesamte Breite einnimmt.'
+  vue:
+    title: Vue
+    description: 'Gleiche Markup, gleiche Form, aber die Ordner öffnen und schließen sich: Das Chevron ist das, was einen Knoten faltet, und ein Klick irgendwo sonst in der Zeile wählt das Element aus und sendet es als Auswahlereignis nach oben.'
+  vue_workspace:
+    title: 'Vue, in einem Arbeitsbereich'
+    description: 'Der Explorer als App wird so geliefert: der vue Baum im scrollbaren Bereich eines Splits, der mehr Zeilen hält, als der Bereich hoch ist, und längere Namen als er breit ist. Der Bereich scrollt in beide Achsen und die horizontale Leiste bleibt am Boden, egal wo die letzte Zeile ist.'
+  plain:
+    title: 'Ohne Icons'
+    description: 'Die Form kennt nichts über Dateien — ein Element ohne Icon und ohne Link wird als Klartext angezeigt.'
+explorer:
+  scope:
+    project: Projekt
+    packages: Pakete
+    scratches: Notizen
+    changed: 'Geänderte Dateien'
+  option:
+    filters: Filter
+    sort: 'Nach Name sortieren'
+    hidden: 'Versteckte Dateien anzeigen'
+  action:
+    new: 'Neue Datei'
+    locate: 'Öffnete Datei auswählen'
+    collapse: 'Alle einklappen'
+  body: 'Der Baum hat keine eigene Breite und Höhe: Der Bereich neben ihm ist ein gewöhnlicher, und jede Seite scrollt für sich allein.'
+plain:
+  root: Wurzel
+  child: 'Erstes Kind'
+  sibling: 'Zweites Kind'

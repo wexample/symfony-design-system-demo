@@ -1,0 +1,20 @@
+page_title: 'آزمایش مدال - کامپوننت‌ها'
+intro: 'این مدال شامل کامپوننت‌ها و تعاملات است.'
+menu:
+  label: 'منوی اقدامات'
+  item:
+    report: 'گزارش مشکل'
+    settings: تنظیمات
+    logout: خروج
+upload_button: 'بارگذاری فایل'
+choice:
+  one: 'گزینه اول'
+  two: 'گزینه دوم'
+  three: 'گزینه سوم'
+toast_button: 'نمایش پیغام از مدال'
+toast_title: 'پیغام مدال'
+toast_message: 'سلام از داخل مدال.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'آیا مطمئن هستید که می‌خواهید این مدال را ببندید؟'

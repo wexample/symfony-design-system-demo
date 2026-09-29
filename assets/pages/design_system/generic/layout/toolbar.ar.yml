@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'شريط الأدوات'
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'عنوان وعلاماته'
+    description: 'ما يتم تصنيفه كشيء، وأين يقف، وأي إصدار: ثلاث علامات تقرأ كصف واحد، لذا تشارك ارتفاعًا مهما كانت مصنوعة منه - تكون الحبة بحجم ems للنص الذي تجلس فيه عادة، ويقوم الشريط بتسويته على الكبسولة بجانبه. العنوان يتخلى عن هوامشه ويحتفظ بالاسم في أقصى اليسار.'
+  default:
+    title: 'شريط أدوات أساسي'
+  title:
+    title: 'شريط أدوات مع عنوان'
+  title_multi:
+    title: 'عنوان القسم مع الإجراءات'
+title:
+  example: 'عنوان الصفحة'
+  section: 'عنوان القسم'
+  document: 'التصميم والتطوير'
+marker:
+  state: 'دائم الخضرة'
+button:
+  create: إنشاء
+  refresh: تحديث
+  export: تصدير
+  edit: تحرير
+  delete: حذف
+  history: التاريخ
+  share: مشاركة

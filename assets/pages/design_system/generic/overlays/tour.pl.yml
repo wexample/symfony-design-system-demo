@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Wycieczka
+page_icon: 'ph:bold/signpost'
+intro: 'Prowadzona wycieczka po stronie: krok po kroku, element, którego dotyczy, podświetlony na przyciemnionej stronie, a obok niego karta z drogą do i z niej. Rozpoczyna się automatycznie dla odwiedzającego, który ani nie zakończył, ani nie odrzucił wycieczki — to, co zrobili, jest zachowane i nie wraca — a każdy element z danymi data-tour-start uruchamia ją ponownie. Strzałki na klawiaturze poruszają się przez nią, a klawisz Escape ją zamyka.'
+start: 'Rozpocznij wycieczkę'
+status:
+  none: 'Nie widziałeś jeszcze tej wycieczki — rozpoczyna się automatycznie.'
+  completed: 'Przeszedłeś tę wycieczkę; nie rozpocznie się ponownie automatycznie.'
+  dismissed: 'Zamknąłeś tę wycieczkę przed jej zakończeniem; nie rozpocznie się ponownie automatycznie.'
+area:
+  filters:
+    title: Filtry
+    body: 'Co pokazuje lista.'
+  list:
+    title: Lista
+    body: 'Co jest dostępne.'
+  export:
+    title: Eksport
+    body: 'Co opuszcza stronę.'
+step:
+  welcome:
+    title: Witamy
+    body: 'Krótka wycieczka po tej stronie. Użyj strzałek na klawiaturze lub przycisków poniżej.'
+  filters:
+    title: 'Zawężenie wyników'
+    body: 'Filtry decydują, co pokazuje lista; są zachowywane w adresie.'
+  list:
+    title: 'Co jest dostępne'
+    body: 'Każdy wiersz otwiera szczegóły obok listy.'
+  export:
+    title: 'Zabierz to ze sobą'
+    body: 'Eksportuje to, co zachowały filtry, nic więcej.'

@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: فهرست‌ها
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: پیش‌فرض
+  empty:
+    title: 'وضعیت خالی'
+search:
+  placeholder: 'فهرست را فیلتر کنید...'
+header:
+  filter: فیلتر
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'اتصال SQL مدیریت شده برای بارهای کاری تراکنشی'
+  s3:
+    title: 'Amazon S3'
+    body: 'اتصال ذخیره‌سازی شی برای واردات و صادرات'
+  webhook:
+    title: Webhook
+    body: 'فعال‌سازی و دریافت رویدادها از سیستم‌های خارجی'
+  redis:
+    title: Redis
+    body: 'کش در حافظه و پیام‌رسانی pub/sub'
+  mongo:
+    title: MongoDB
+    body: 'ذخیره‌سازی اسناد برای بارهای کاری با ساختار انعطاف‌پذیر'

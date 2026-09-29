@@ -1,0 +1,49 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: タブ
+page_icon: 'ph:bold/signpost'
+section:
+  vue:
+    title: Vueのタブ
+    description: 'ツイッグバーはリンクの行で、アドレスはどのタブが開いているかを示しています。Vueバーはタブが要求されたことだけを報告するので、その周囲に答えを持つものがあります — ここではデモコンポーネントです。'
+  breadcrumb:
+    vue_description: Vueツインはすでに解決済みのアイテムを取ります：サーバーがルートテーブルを保持しているので、それに応じて応答し、交差するものが答えです。
+    title: パンくずリスト
+    description: 階層内のユーザーの位置を表示します。パンくずリスト部分を使用し、ルートとラベルを持つアイテムを渡してください；最後のアイテムは常に現在のものとしてレンダリングされます。
+  tabs:
+    title: タブ
+  default:
+    normal:
+      title: 基本的なタブ
+    full:
+      title: 基本的なタブ（フル幅）
+    half:
+      title: 基本的なタブ（半幅ゾーン）
+  counts:
+    title: カウント付きタブ
+    description: 'タブが保持するアイテムの数をラベルの最後に表示します。それはピルであり、それ以外の何物でもありません — ラベルの横に `count` を渡すと、タブがそれを配置します。キーがないアイテムは何も表示せず、カウントするものがないタブは静かにしています。'
+  icons:
+    normal:
+      title: アイコン付きタブ
+    full:
+      title: アイコン付きタブ（フル幅）
+    half:
+      title: アイコン付きタブ（半幅ゾーン）
+breadcrumb:
+  example:
+    vue: Vue内
+    two_levels: 二階層
+    three_levels: 三階層
+  item:
+    home: ホーム
+    layout: レイアウト
+    section: ブロック
+    current: ナビゲーション
+tab:
+  one: 概要
+  two: アクティビティ
+  three: 設定
+vue:
+  panel:
+    one: '最初のパネルです。何も取得されず、アドレスも変更されませんでした — バーが発信し、ホルダーが入れ替わりました。'
+    two: 二番目のパネルです。
+    three: 三番目のパネルです。

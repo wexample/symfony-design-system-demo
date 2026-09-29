@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: טפסים
+page_icon: 'ph:bold/textbox'
+intro: 'קבוצה של שדות, מה קורה כשהיא נשלחת, ומה היא אומרת כשזה חוזר. השדות עצמם נמצאים ב-Controls; מה שהעמודים האלה מוסיפים הוא הסיבוב המלא.'
+page:
+  inputs:
+    title: קלטים
+    description: 'כל שדה שהמערכת מספקת, וההסכם שמאפשר לסוכן לקחת אחד, למלא אותו ולהחזיר אותו.'
+  basic:
+    title: 'טפסים בסיסיים'
+    description: 'המקרה הפשוט: טופס שהוצג על ידי השרת, נשלח על ידי הדפדפן, ומגיב עם עמוד.'
+  rendered:
+    title: 'טפסים מתקדמים'
+    description: 'טפסים שנבנים על ידי רכיב הטופס, עם התנהגויות ההגשה שלהם והמצב שבו הם חוזרים.'
+  ajax:
+    title: 'טפסי Ajax'
+    description: 'טופס שמגיב מבלי לעזוב את העמוד, ומה הוא עושה עם מה שחוזר.'
+  vue:
+    title: 'טפסי Vue'
+    description: 'אותם טפסים המנוהלים על ידי רכיב, שבו השדות הם מצב ולא סימון.'

@@ -1,0 +1,41 @@
+page_title: تأكيد
+section:
+  short:
+    description: 'تأكيد مع نص قصير (تراكب).'
+    button: 'فتح التأكيد'
+    title: 'يرجى التأكيد'
+    message: 'هل ترغب في المتابعة؟'
+    result_title: 'نتيجة التأكيد'
+    result_prefix: 'النتيجة:'
+  toast_short:
+    description: 'تأكيد مع نص قصير (تنبيه).'
+    button: 'فتح التأكيد'
+    title: 'تنبيه التأكيد'
+    message: 'هل تتابع مع التنبيه؟'
+    result_title: 'نتيجة تأكيد التنبيه'
+    result_prefix: 'النتيجة:'
+  medium:
+    description: 'تأكيد مع نص متوسط (تراكب).'
+    button: 'فتح التأكيد'
+    title: 'تأكيد متوسط'
+  long:
+    description: 'تأكيد مع نص طويل (تراكب).'
+    button: 'فتح التأكيد'
+    title: 'تأكيد طويل'
+  toast_medium:
+    description: 'تأكيد مع نص متوسط (تنبيه).'
+    button: 'فتح التأكيد'
+    title: 'تنبيه التأكيد المتوسط'
+  toast_long:
+    description: 'تأكيد مع نص طويل (تنبيه).'
+    button: 'فتح التأكيد'
+    title: 'تنبيه التأكيد الطويل'
+  custom:
+    description: 'إجراءات تأكيد مخصصة (تكديس).'
+    button: 'فتح التأكيد'
+    title: 'تأكيد متراكم'
+    message: 'فتح تأكيد آخر أو إغلاق الجميع؟'
+    action:
+      new: 'تأكيد جديد'
+      close_all: 'إغلاق جميع التأكيدات'
+      cancel: إلغاء

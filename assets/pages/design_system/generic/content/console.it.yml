@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Console
+page_icon: 'ph:bold/terminal-window'
+intro: 'Ciò che una shell ha stampato, leggi di nuovo nella pagina: comandi dopo il loro prompt, il loro output sotto di essi, e i colori del terminale letti come la palette, in entrambi gli schemi. Legge; non esegue comandi.'
+section:
+  session:
+    title: 'Una sessione'
+    description: 'Righe di quattro tipi — comando, output, errore, informazione — o stringhe semplici. I codici di escape che un programma ha scritto per il suo terminale sono mantenuti come colore e peso; il resto di ciò che viene detto a un terminale viene scartato.'
+  vue:
+    title: 'In vue'
+    description: 'Le stesse righe, disegnate dal gemello vue, qui con un prompt proprio.'
+  live:
+    title: 'Righe man mano che arrivano'
+    description: "Data un argomento di aggiornamenti in tempo reale, la console vue aggiunge ciò che ogni messaggio porta — una stringa, una riga, o un lotto di righe — e segue la fine a meno che il lettore non sia scorrere verso l'alto. Qui un pulsante svolge il ruolo dell'argomento, attraverso lo stesso append che chiama un messaggio."

@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 트리
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: '파일 탐색기'
+    description: '중첩은 전체 구조입니다: 항목이 열릴 때 열림 상태를 유지하고, 깊이는 행을 들여쓰게 하며 강조 표시가 전체 너비를 가로지릅니다.'
+  vue:
+    title: Vue
+    description: '같은 마크업, 같은 형태지만, 폴더가 열리고 닫힙니다: Chevron은 노드를 접고, 행의 다른 곳을 클릭하면 항목이 선택되어 선택 이벤트로 전송됩니다.'
+  vue_workspace:
+    title: '작업 공간의 Vue'
+    description: '앱으로서의 탐색기는 이렇게 제공됩니다: 스크롤 가능한 구역에 있는 vue 트리로, 구역의 높이보다 더 많은 행과 이름이 더 긴 항목을 포함합니다. 구역은 두 축 모두에서 스크롤되며, 수평 막대는 마지막 행에 관계없이 바닥에 고정되어 있습니다.'
+  plain:
+    title: '아이콘 없이'
+    description: '형태는 파일에 대해 아무것도 알지 못합니다 — 아이콘과 링크가 없는 항목은 일반 텍스트로 표시됩니다.'
+explorer:
+  scope:
+    project: 프로젝트
+    packages: 패키지
+    scratches: 스크래치
+    changed: '변경된 파일'
+  option:
+    filters: 필터
+    sort: '이름으로 정렬'
+    hidden: '숨겨진 파일 표시'
+  action:
+    new: '새 파일'
+    locate: '열린 파일 선택'
+    collapse: '모두 접기'
+  body: '트리는 자체적인 너비와 높이를 갖지 않습니다: 그 옆의 구역은 일반적인 구역이며, 양쪽 모두 독립적으로 스크롤됩니다.'
+plain:
+  root: 루트
+  child: '첫 번째 자식'
+  sibling: '두 번째 자식'

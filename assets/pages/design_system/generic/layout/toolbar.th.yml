@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: แถบเครื่องมือ
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: หัวข้อและตัวบ่งชี้
+    description: 'สิ่งที่ถูกจัดเก็บเป็นอะไร, มันอยู่ที่ไหนและเวอร์ชันไหน: ตัวบ่งชี้สามตัวอ่านเป็นหนึ่งแถว ดังนั้นพวกมันจึงแชร์ความสูงไม่ว่าจะทำมาจากอะไร — ยาเม็ดมีขนาดตาม ems สำหรับข้อความที่มันมักจะอยู่ภายใน และแถบจะปรับระดับมันบนแคปซูลข้างๆ หัวข้อจะยอมสละขอบและเก็บชื่อไว้ทางซ้ายสุด.'
+  default:
+    title: แถบเครื่องมือพื้นฐาน
+  title:
+    title: แถบเครื่องมือพร้อมหัวข้อ
+  title_multi:
+    title: หัวข้อส่วนที่มีการกระทำ
+title:
+  example: ชื่อหน้า
+  section: ชื่อส่วน
+  document: การออกแบบและพัฒนา
+marker:
+  state: evergreen
+button:
+  create: สร้าง
+  refresh: รีเฟรช
+  export: ส่งออก
+  edit: แก้ไข
+  delete: ลบ
+  history: ประวัติ
+  share: แชร์

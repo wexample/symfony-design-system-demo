@@ -1,0 +1,15 @@
+page_title: '문서 레이아웃'
+page_icon: 'ph:bold/book-open'
+intro: '문서 레이아웃은 문서 페이지를 위한 두 개의 열 패턴으로, 왼쪽에는 설명이 있고 오른쪽에는 코드가 있으며, 모바일에서는 단일 열로 축소됩니다.'
+section:
+  structure:
+    title: 구조
+    body: '.doc를 외부 래퍼로 사용하고 각 행에 대해 .doc-section을 사용하세요. 각 섹션은 .doc-section--description과 .doc-section--code 열을 가집니다.'
+example:
+  demo_placeholder: '데모 콘텐츠'
+  one:
+    title: '기본 섹션'
+    body: '전형적인 섹션은 설명 블록과 코드 스니펫을 짝짓습니다.'
+  two:
+    title: '코드 블록 포함'
+    body: '.doc-section--code 안에 코드 블록 부분을 사용하여 구문 강조된 예제를 만드세요.'

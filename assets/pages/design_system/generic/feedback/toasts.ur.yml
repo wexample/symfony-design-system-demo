@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: فیڈبیک
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: vue
+    description: 'یہ وہی ٹوسٹ ہے جو ایک vue جزو کے طور پر ہے۔ یہاں بند کرنا خارج کیا گیا ہے نہ کہ متحرک طور پر: ایک vue درخت کے اندر والدین فہرست کی ملکیت رکھتا ہے۔'
+  simple_toast:
+    description: 'ایک سادہ ٹوسٹ دکھائیں'
+    button: 'ٹوسٹ کھولیں'
+    title: 'ٹوسٹ کا مظاہرہ'
+    message: 'ToastService + ToastStack سے سلام۔ آپ ایک پیغام کے اندر @action:demo(this one) جیسے عمل کے لنکس بھی متعین کر سکتے ہیں۔'
+  tl_toast:
+    description: 'اوپر بائیں طرف ٹوسٹ اسٹیک دکھائیں'
+    button: 'ٹوسٹ کھولیں'
+    title: 'اوپر بائیں طرف ٹوسٹ'
+    message: 'ToastService + ToastStack (TL) سے سلام۔'
+  medium_toast:
+    description: 'ایک درمیانی لمبائی کا ٹوسٹ پیغام دکھائیں'
+    button: 'ٹوسٹ کھولیں'
+    title: 'درمیانی ٹوسٹ'
+    message: 'یہ مظاہرے کے لئے ایک درمیانی لمبائی کا ٹوسٹ پیغام ہے۔'
+  long_toast:
+    description: 'ایک طویل ٹوسٹ پیغام دکھائیں'
+    button: 'ٹوسٹ کھولیں'
+    title: 'طویل ٹوسٹ'
+    message: 'یہ مظاہرے کے لئے ایک طویل ٹوسٹ پیغام ہے۔ اس میں زیادہ متن موجود ہے تاکہ آپ دیکھ سکیں کہ یہ جزو بڑے مواد کے ساتھ کیسا برتاؤ کرتا ہے۔'
+  horizontal_toasts:
+    description: 'چار ٹوسٹس کو افقی اسٹیک میں دکھائیں'
+    info:
+      title: 'معلوماتی ٹوسٹ'
+      message: 'ایک افقی ٹوسٹ کا پیش نظارہ۔'
+      button: 'ٹوسٹ دکھائیں'
+    success:
+      title: 'کامیابی کا ٹوسٹ'
+      message: 'یہاں سب کچھ ٹھیک لگتا ہے۔'
+      button: 'ٹوسٹ دکھائیں'
+    warning:
+      title: 'تنبیہی ٹوسٹ'
+      message: 'اس عمل کی دوبارہ جانچ کریں۔'
+      button: 'ٹوسٹ دکھائیں'
+    error:
+      title: 'غلطی کا ٹوسٹ'
+      message: 'یہاں کچھ غلط ہو گیا۔'
+      button: 'ٹوسٹ دکھائیں'
+title:
+  toasts: ٹوسٹس

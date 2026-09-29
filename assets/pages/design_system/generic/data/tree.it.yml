@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Albero
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: 'Esplora file'
+    description: "La nidificazione è l'intera struttura: un elemento si apre quando è aperto e la sua profondità è ciò che rientra la riga mentre l'evidenziazione si estende ancora su tutta la larghezza."
+  vue:
+    title: Vue
+    description: "Stessa marcatura, stessa forma, ma le cartelle si aprono e si chiudono: il chevron è ciò che piega un nodo, e un clic ovunque sulla riga seleziona l'elemento e lo invia come evento di selezione."
+  vue_workspace:
+    title: "Vue, in un'area di lavoro"
+    description: "L'esploratore come un'app lo spedisce: l'albero vue nella zona scorrevole di uno split, contenente più righe di quelle che la zona è alta e nomi più lunghi di quanto sia larga. La zona scorre su entrambi gli assi e la barra orizzontale rimane al suo fondo, qualunque sia l'ultima riga."
+  plain:
+    title: 'Senza icone'
+    description: 'La forma non sa nulla sui file: un elemento senza icona e senza link viene visualizzato come testo semplice.'
+explorer:
+  scope:
+    project: Progetto
+    packages: Pacchetti
+    scratches: Appunti
+    changed: 'File modificati'
+  option:
+    filters: Filtri
+    sort: 'Ordina per nome'
+    hidden: 'Mostra file nascosti'
+  action:
+    new: 'Nuovo file'
+    locate: 'Seleziona file aperto'
+    collapse: 'Riduci tutto'
+  body: "L'albero non ha larghezza e altezza proprie: la zona accanto è una zona normale e ciascun lato scorre da solo."
+plain:
+  root: Radice
+  child: 'Primo figlio'
+  sibling: 'Secondo figlio'

@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Werkzeugleiste
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'Eine Überschrift und ihre Marker'
+    description: 'Wie eine Sache abgelegt ist, wo sie steht und welche Version: drei Marker werden als eine Reihe gelesen, sodass sie eine gemeinsame Höhe haben, unabhängig davon, woraus sie bestehen – eine Pille ist in ems für den Text dimensioniert, in dem sie normalerweise sitzt, und eine Leiste nivelliert sie auf der Kapsel daneben. Die Überschrift gibt ihre Ränder auf und behält den Namen ganz links.'
+  default:
+    title: Basiswerkzeugleiste
+  title:
+    title: 'Werkzeugleiste mit Titel'
+  title_multi:
+    title: 'Abschnittsüberschrift mit Aktionen'
+title:
+  example: Seitentitel
+  section: Abschnittsüberschrift
+  document: 'Design und Entwicklung'
+marker:
+  state: evergreen
+button:
+  create: Erstellen
+  refresh: Aktualisieren
+  export: Exportieren
+  edit: Bearbeiten
+  delete: Löschen
+  history: Verlauf
+  share: Teilen

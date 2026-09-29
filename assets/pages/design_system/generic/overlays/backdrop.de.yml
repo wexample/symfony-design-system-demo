@@ -1,0 +1,9 @@
+page_title: Überlagerungen
+page_icon: 'ph:bold/square-half-bottom'
+section:
+  simple_overlay:
+    description: 'Zeige eine einfache Überlagerung für 3 Sekunden an.'
+    button: 'Überlagerung anzeigen'
+  spinner_overlay:
+    description: 'Zeige eine Überlagerung mit einem Lade-Drehkreis für 3 Sekunden an.'
+    button: 'Überlagerung anzeigen'

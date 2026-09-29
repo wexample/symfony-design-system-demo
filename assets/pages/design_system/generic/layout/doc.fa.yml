@@ -1,0 +1,15 @@
+page_title: 'طرح سند'
+page_icon: 'ph:bold/book-open'
+intro: 'طرح سند یک الگوی دو ستونه برای صفحات مستندات است — توضیح در سمت چپ، کد در سمت راست — که در تلفن همراه به یک ستون کاهش می‌یابد.'
+section:
+  structure:
+    title: ساختار
+    body: '.doc را به عنوان پوشش خارجی و .doc-section را برای هر ردیف استفاده کنید. هر بخش دارای یک ستون .doc-section--description و یک ستون .doc-section--code است.'
+example:
+  demo_placeholder: 'محتوای نمایشی'
+  one:
+    title: 'بخش پایه'
+    body: 'یک بخش معمولی یک بلوک توضیحی را با یک قطعه کد جفت می‌کند.'
+  two:
+    title: 'با یک بلوک کد'
+    body: 'از قسمت code-block در داخل .doc-section--code برای مثال‌های با های‌لایت نحوی استفاده کنید.'

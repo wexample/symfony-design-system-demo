@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Konsole
+page_icon: 'ph:bold/terminal-window'
+intro: 'Was eine Shell ausgegeben hat, wird auf der Seite zurückgelesen: Befehle nach ihrem Prompt, ihre Ausgaben darunter, und die Farben des Terminals werden wie die Palette in beiden Schemen gelesen. Es liest; es nimmt keine Befehle entgegen.'
+section:
+  session:
+    title: 'Eine Sitzung'
+    description: 'Zeilen von vier Arten — Befehl, Ausgabe, Fehler, Info — oder einfache Strings. Die Escape-Codes, die ein Programm für sein Terminal geschrieben hat, werden als Farbe und Gewicht beibehalten; der Rest dessen, was einem Terminal mitgeteilt wird, wird verworfen.'
+  vue:
+    title: 'In vue'
+    description: 'Die gleichen Zeilen, gezeichnet vom vue-Zwilling, hier mit einem eigenen Prompt.'
+  live:
+    title: 'Zeilen, wie sie kommen'
+    description: 'Für ein Thema mit Live-Updates fügt die vue-Konsole hinzu, was jede Nachricht trägt — einen String, eine Zeile oder eine Gruppe von Zeilen — und folgt dem Ende, es sei denn, der Leser hat nach oben gescrollt. Hier spielt ein Button die Rolle des Themas, durch das gleiche Anhängen, das eine Nachricht aufruft.'

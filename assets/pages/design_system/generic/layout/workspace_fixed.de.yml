@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Feste Breite'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: 'Die gleichen drei Bereiche, aber der, den du liest, hat eine feste Breite, anstatt eine einzunehmen – und die Breite, die niemand möchte, geht in einen Bereich, der nichts enthält.'
+section:
+  sized:
+    title: 'Ein Bereich mit fester Breite'
+    description: '`zone--narrow` mit einem Größenstep: der Bereich hat diese Breite und bleibt so breit, egal wie viel Platz das Fenster hat. So bleibt der Text lesbar – eine Spalte, die mit dem Bildschirm wächst, hört auf, eine zu sein.'
+  slack:
+    title: 'Wofür der Slack da ist'
+    description: 'Der letzte Bereich enthält nichts und behält dennoch seinen Platz: Leer ist nicht abwesend, und ein wartendes Fenster wird als Fenster und nicht als Loch wahrgenommen. Es ist da, um die Breite zu übernehmen, die die anderen Bereiche ablehnen.'
+    more: 'Eine Teilung gibt den Rest an alles weiter, was danach fragt. Wenn nichts danach fragt, würden die festen Bereiche gestreckt oder an die Ränder gedrängt; so behalten sie ihre Breite und die Seite behält den Rest.'
+work:
+  size: 32rem

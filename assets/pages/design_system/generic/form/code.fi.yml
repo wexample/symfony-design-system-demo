@@ -1,0 +1,11 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Koodi
+page_icon: 'ph:bold/code'
+intro: 'Kenttä, joka pitää sisällään koodia, väritettynä sen syntaksin mukaan. Se tulee symfony-koodauksesta, eikä design-järjestelmästä, jota se vain lainaa: sen kehys on kentän, sen värit ovat järjestelmän kooditokeneita, sen nykyinen rivi ja valinta ovat järjestelmän vivahteita — joten se seuraa vaaleaa ja tummaa tyyliä kuten kaikki sen ympärillä.'
+section:
+  server:
+    title: 'Palvelin kenttä'
+    description: 'Oikea tekstialue, jonka päällä on editori sivun suorittaessa. Tekstialue pysyy kenttänä — lähetetään lomakkeen mukana, keskustellaan lomakepinon kanssa — joten lomake toimii samalla tavalla sen kanssa tai ilman. Valitse useiden rivien yli, osoitinrivi niiden joukossa: valinta pysyy näkyvissä.'
+  vue:
+    title: 'Vue kenttä'
+    description: 'Sama editori, joka pitää mallia: v-model sisään ja ulos, kieli prop, joka voi muuttua kentän ollessa auki.'

@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Przyciski
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'Przyciski domyślne'
+  button_states:
+    title: 'Stany przycisków'
+  link:
+    title: 'Linki przycisków'
+  vue:
+    title: Vue
+    description: 'Ten sam przycisk i ten sam link, co części vue, z tym samym ikoną i etykietą, dla strony, która buduje swoje elementy sterujące podczas działania.'
+button:
+  primary: 'Przycisk główny'
+  success: 'Przycisk sukcesu'
+  danger: 'Przycisk niebezpieczeństwa'
+  invert: 'Przycisk odwrócony'
+  state:
+    default: Domyślny
+    loading: Ładowanie
+    disabled: Wyłączony
+    assisted: Wspomagany
+link:
+  more: 'Dowiedz się więcej'
+  external: 'Link zewnętrzny'

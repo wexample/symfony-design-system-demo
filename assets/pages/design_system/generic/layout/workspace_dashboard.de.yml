@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dashboard
+page_icon: 'ph:bold/squares-four'
+mode:
+  reopen: 'API-Panel wieder öffnen'
+  gap: 'Mit Lücken'
+  flush: Leeren
+state:
+  success: Nominal
+  warning: Degradiert
+  error: Fehlerhaft
+  running: Entleeren
+tile:
+  traffic:
+    title: Verkehr
+    figure: '12,4k Anfragen/min'
+    description: 'Splits innerhalb eines Splits: die Wand ist ein vertikaler Split von Zeilen, jede Zeile ist ein eigener Split. Ziehen Sie die Kante unter dieser Zeile, um ihr mehr Höhe zu geben, oder die neben diesem Kachel für mehr Breite.'
+  latency:
+    title: 'Latenz p95'
+    figure: '184 ms'
+    description: 'Jede Kachel bezeichnet einen Boden, `zone--min-*`: darunter wird die Kachel nicht gedrückt, der Rahmen scrollt stattdessen — seitlich sowie nach unten.'
+  errors:
+    title: Fehler
+    figure: '2.1 %'
+    description: 'Verkleinert behält eine Zone die Größe, auf der sie entlang der Achse des Splits verlassen wurde, und kommt mit ihr zurück; ein Doppelklick auf den Griff gibt sie zurück an den Split.'
+  queue:
+    title: Warteschlange
+    figure: '318 Aufgaben'
+    description: '`zone--split--flush` verengt die Lücke auf einen Pixel, die Grundlinie der Wand zieht die Linie zwischen den Kacheln. Eine Klasse an der Wand reicht aus, die Zeilen erben sie.'
+  deploys:
+    title: Bereitstellungen
+    figure: '7 heute'
+    description: 'Ohne sie hält die gleiche Wand den Raum zwischen ihren Kacheln, durch den der Boden der Seite sichtbar wird — wechseln Sie in der Leiste oben. Scrollen Sie nach rechts für ein Panel, das nur geladen wird, wenn es gesehen wird.'

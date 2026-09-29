@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: バー
+page_icon: 'ph:bold/rows'
+intro: 'バーは、1行で1つの事柄を示します：それが何であるか、何と呼ばれるか、それを定義するもの、そして端に何があるか。これは形であり、バインディングではありません — エンティティは自身のテンプレートを通じてそれに到達しますが、ファイル、アプリ、または設定の検索結果は同じマークアップを使用します。'
+finding:
+  fix: 修正
+  date: 日付を設定
+  error:
+    title: 必須セクション「目的」が欠落しています
+    subtitle: 01-PROCESSES/PR-004-document-control.md
+  warning:
+    title: レビュー日が過去です
+    subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+  info:
+    title: 所有者フィールドが空です
+    subtitle: ドラフトにはブロックされませんが、レビュー前に必要です
+section:
+  findings:
+    title: 所見
+    description: '分析が報告する内容、1つのバーごとに：所見がタイトル、どこにあるかがサブタイトル、そしてそれに対処できることが後のスロットに示されます — ここで何もできない場合は何もありません。深刻度はブロックのトーンであり、先頭のアバターもそれを受け取ります。'
+  alone:
+    title: バー自体
+    description: タイトル以外はすべてオプションです。先頭のスロットにはアイコン、または本物のアバターが必要な場合はマークアップが入ります；後のスロットには日付、タグ、ボタンの行が入ります。リンクが与えられた場合、全幅がターゲットとなり、タイトルはその位置の色を保持します。
+  search:
+    title: 結果のリスト
+    description: 'リストはフレーム、検索フィールド、区切りを提供します；各行はバーを持ちます。ここにはエンティティはありません — それが要点です：同じ行が人、文書、アプリ、そして好みにサービスします。'
+  surfaces:
+    title: それぞれのサーフェス
+    description: 'リストの別の読み方 — 共有された背景も線もなく、各バーが自分のブロックの上に立って周囲にスペースがあります。スタイルを変更する新しいものはなく、バーは単にブロッククラスを受け取ります。リンクが与えられた場合、全カードがターゲットとなります。'
+  divided:
+    title: シンプルなリスト
+    description: 'フレームがすでにある場合、区切りのある垂直スタックで十分です — 自身の形はなく、2つの行の間にただ線があります。'
+  vue:
+    title: Vueでのリスト
+    description: '同じ行がエンドポイントから読み込まれ、書き出されるのではなく：リストはページ、ページネーション、空の状態を保持し、それぞれのエンティティは何を読むべきかを示します — タイトル、それを定義するもの、アイコン、どこに導くか、端にある日付。上記の読み方はそのバリエーションであり、`divided` から `surfaces` です。'
+  keeping_up:
+    title: 最新の情報を保持
+    description: 'バーリストは他のコレクションと同様であり、世界が進んだことをコレクションが知る3つの方法が開かれています：アプリイベント、ライブソース、ポーリング。このリストはイベントを聞きます — リングして行が戻ってくるのを見てください。並んでいる3つの側面のために「最新の情報を保持」を参照してください。'
+sample:
+  minimal:
+    title: 単独のタイトル
+  icon:
+    title: 先頭にアイコン付き
+  subtitle:
+    title: マヤ・リンドクヴィスト
+    subtitle: maya@example.com
+  trailing:
+    title: 四半期報告
+    subtitle: 14件の文書
+  link:
+    title: リンクのバー
+    subtitle: 全幅がターゲット
+search:
+  placeholder: すべてを検索
+  value: 報告
+  filter: フィルター
+result:
+  user:
+    title: マヤ・リンドクヴィスト
+    subtitle: '人物 · プロダクトチーム'
+  file:
+    title: '四半期報告 Q3.pdf'
+    subtitle: '文書 · 2.4 MB'
+  app:
+    title: 報告
+    subtitle: 'アプリケーション · インストール済み'
+  setting:
+    title: 報告保持
+    subtitle: '設定 · ストレージ'
+member:
+  maya:
+    title: マヤ・リンドクヴィスト
+    subtitle: 所有者
+  sam:
+    title: サム・オコンコ
+    subtitle: 編集者
+  robot:
+    title: ナイトリーインポート
+    subtitle: サービスアカウント

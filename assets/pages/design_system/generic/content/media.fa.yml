@@ -1,0 +1,18 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: رسانه
+page_icon: 'ph:bold/image'
+section:
+  vue:
+    title: ویو
+    description: 'فریم مشابهی به عنوان یک بخش ویو، برای یک سند که آدرس آن تنها زمانی که صفحه اجرا می‌شود شناخته می‌شود.'
+  shapes:
+    title: اشکال
+  overlay:
+    title: پوشش
+  aspect_ratio:
+    title: 'نسبت ابعاد'
+  document:
+    title: 'سند جاسازی شده'
+    description: 'یک iframe فضای خود را پر می‌کند، بنابراین فضای آن اندازه را به همراه دارد: یک اصلاح کننده نسبت یا رسانه--پر برای دریافت هر ارتفاعی که والد می‌دهد.'
+document:
+  title: 'سند جایگزین'

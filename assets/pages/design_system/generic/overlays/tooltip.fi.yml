@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Työkaluvihje
+page_icon: 'ph:bold/chat-centered-text'
+intro: 'Muutama sana siitä, mitä osoitin tai keskittyminen on sen vieressä. Sivulla on yksi työkaluvihje, joka on sijoitettu asettelun mukaan: mikä tahansa elementti kysyy sitä data-tooltipilla — tooltip() kirjoittaa sen twigissä, vue sitoo sen — ja se tulee osoittimen alle hetken kuluttua, näppäimistön keskittymisen alle heti, eikä koskaan sormen alle. Se kääntyy pois ikkunan reunoista sen sijaan, että jättäisi sen.'
+section:
+  plain:
+    title: 'Mistä tahansa'
+    description: 'Nappi, ikoni yksinään, merkki: ominaisuus on kaikki, mitä tarvitaan. Ikoni ilman sanoja on se, jossa työkaluvihje on kaikkein tärkein.'
+  rich:
+    title: 'Otsikon kanssa, tai kevyt'
+    description: 'Otsikko tekstin yläpuolella työkaluvihjeelle, joka selittää, ja kevyt yksi sivun omalla maaperällä, jossa käänteinen olisi liian äänekäs.'
+  placement:
+    title: Sijoittelu
+    description: 'Yllä oletusarvoisesti. Kun puoleen pyydetään, se ottaa sen, kun tilaa on, ja toisen puolen, kun ei; sen puolen mukana se liukuu pysyäkseen ikkunassa, nuoli edelleen siinä, mihin se osoittaa.'
+button:
+  save: Tallenna
+marker:
+  label: Julkaistu
+tip:
+  save: 'Tallenna luonnos — Ctrl+S'
+  share: Jaa
+  delete: Poista
+  marker: 'Julkaistu 2. syyskuuta, nähnyt 128 lukijaa'
+  light: 'Työkaluvihje sivun omalla maaperällä'
+  placement: Sijoitettu
+  rich:
+    title: 'Miksi se on harmaana?'
+    text: 'Vienti odottaa ensimmäisen ajon päättymistä; se avautuu heti, kun vientiin on jotain.'

@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: ボタン
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: デフォルトボタン
+  button_states:
+    title: ボタンの状態
+  link:
+    title: ボタンリンク
+  vue:
+    title: Vue
+    description: 実行中にコントロールを構築するページのための、同じアイコンとラベルを持つvueパーシャルの同じボタンと同じリンク。
+button:
+  primary: プライマリーボタン
+  success: 成功ボタン
+  danger: 危険ボタン
+  invert: 反転ボタン
+  state:
+    default: デフォルト
+    loading: 読み込み中
+    disabled: 無効
+    assisted: 支援あり
+link:
+  more: 詳細を学ぶ
+  external: 外部リンク

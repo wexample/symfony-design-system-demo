@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: リスト
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: デフォルト
+  empty:
+    title: 空の状態
+search:
+  placeholder: リストをフィルターする...
+header:
+  filter: フィルター
+item:
+  postgres:
+    title: PostgreSQL
+    body: トランザクション処理ワークロードのための管理されたSQL接続
+  s3:
+    title: 'Amazon S3'
+    body: インポートおよびエクスポート用のオブジェクトストレージコネクタ
+  webhook:
+    title: Webhook
+    body: 外部システムからのイベントをトリガーおよび受信
+  redis:
+    title: Redis
+    body: インメモリキャッシュとPub/Subメッセージング
+  mongo:
+    title: MongoDB
+    body: 柔軟なスキーマワークロード用のドキュメントストア

@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: ความคิดเห็น
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'ท็อปปิ้งเดียวกันกับ vue แบบพาร์เชียล การปิดจะถูกส่งออกที่นี่แทนที่จะแอนิเมตออก: ภายในต้นไม้ vue พ่อแม่เป็นเจ้าของรายการ'
+  simple_toast:
+    description: แสดงท็อปปิ้งแบบง่าย
+    button: เปิดท็อปปิ้ง
+    title: ตัวอย่างท็อปปิ้ง
+    message: 'สวัสดีจาก ToastService + ToastStack คุณยังสามารถกำหนดลิงค์การกระทำเช่น @action:demo(ตัวนี้) ภายในข้อความได้'
+  tl_toast:
+    description: แสดงกองท็อปปิ้งที่มุมซ้ายบน
+    button: เปิดท็อปปิ้ง
+    title: ท็อปปิ้งมุมซ้ายบน
+    message: 'สวัสดีจาก ToastService + ToastStack (TL)'
+  medium_toast:
+    description: แสดงข้อความท็อปปิ้งความยาวกลาง
+    button: เปิดท็อปปิ้ง
+    title: ท็อปปิ้งกลาง
+    message: นี่คือตัวอย่างข้อความท็อปปิ้งความยาวกลางสำหรับการสาธิต
+  long_toast:
+    description: แสดงข้อความท็อปปิ้งความยาวยาว
+    button: เปิดท็อปปิ้ง
+    title: ท็อปปิ้งยาว
+    message: 'นี่คือข้อความท็อปปิ้งที่ยาวกว่าสำหรับการสาธิต มันมีข้อความมากขึ้นเพื่อให้คุณสามารถดูตัวอย่างว่าคอมโพเนนต์ทำงานอย่างไรกับเนื้อหาที่ใหญ่ขึ้น'
+  horizontal_toasts:
+    description: แสดงท็อปปิ้งสี่อันในกองแนวนอน
+    info:
+      title: ท็อปปิ้งข้อมูล
+      message: ตัวอย่างท็อปปิ้งแนวนอน
+      button: แสดงท็อปปิ้ง
+    success:
+      title: ท็อปปิ้งสำเร็จ
+      message: ทุกอย่างดูดีที่นี่
+      button: แสดงท็อปปิ้ง
+    warning:
+      title: ท็อปปิ้งเตือน
+      message: ตรวจสอบการกระทำนี้อีกครั้ง
+      button: แสดงท็อปปิ้ง
+    error:
+      title: ท็อปปิ้งผิดพลาด
+      message: มีบางอย่างผิดปกติที่นี่
+      button: แสดงท็อปปิ้ง
+title:
+  toasts: ท็อปปิ้ง

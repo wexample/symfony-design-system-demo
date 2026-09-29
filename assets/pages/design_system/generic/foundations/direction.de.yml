@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Richtung
+page_icon: 'ph:bold/arrows-left-right'
+intro: 'Die gleichen Beispiele zweimal, von links nach rechts und von rechts nach links. Nichts hier ist für die von rechts nach links geschriebene Seite verfasst: Jede Stylesheet spricht vom Anfang und Ende einer Zeile, sodass ein Block mit `dir="rtl"` – oder eine Seite auf Arabisch – sich selbst spiegelt. Pfeile zeigen in die andere Richtung, der Knopf eines Schalters bewegt sich in die andere Richtung, ein Menü öffnet sich zum Ende hin, und eine E-Mail oder ein Pfad wird von links nach rechts gelesen.'
+side:
+  ltr: 'Von links nach rechts'
+  rtl: 'Von rechts nach links'
+sample:
+  navigation: Navigation
+  controls: Steuerelemente
+  data: Daten
+  text: Text
+step:
+  account: Konto
+  address: Adresse
+  payment: Zahlung
+action:
+  previous: Vorherige
+  next: Nächste
+  menu: Menü
+menu:
+  report: Bericht
+  settings: Einstellungen
+control:
+  notifications: Benachrichtigungen
+  digest: 'Wöchentlicher Überblick'
+  upload: Hochladen
+field:
+  owner: Besitzer
+  email: E-Mail
+  site: Website
+  amount: Betrag
+text:
+  lead: 'Ein einleitender Absatz trägt seine Regel auf der Seite, von der die Zeile beginnt.'
+  mixed: 'Werte behalten ihre eigene Richtung innerhalb eines Satzes – frage layla.haddad@example.test, führe aus'
+  marker: Geliefert
+  link: Dokumentation

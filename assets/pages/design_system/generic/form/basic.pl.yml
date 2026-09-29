@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Formularze
+page_icon: 'ph:bold/rows'
+section:
+  default:
+    title: 'Podstawowy formularz'
+  block:
+    title: 'Formularze blokowe'
+  assisted:
+    title: Asystowane
+field:
+  title:
+    label: Tytuł
+    placeholder: 'Wprowadź tytuł'
+  message:
+    label: Wiadomość
+    placeholder: 'Napisz krótką wiadomość'
+  date:
+    label: Data
+  datetime:
+    label: 'Data i godzina'
+  time:
+    label: Czas
+  file:
+    label: Plik
+  email:
+    label: Email
+  number:
+    label: Numer
+  url:
+    label: URL
+action:
+  submit: Wyślij
+  secondary: 'Działanie pomocnicze'
+  raw_submit: 'Surowe wysłanie'
+  link: 'Prosty link'

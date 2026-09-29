@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Formulare
+page_icon: 'ph:bold/textbox'
+intro: 'Eine Reihe von Feldern, was passiert, wenn es gesendet wird, und was es sagt, wenn es zurückkommt. Die Felder selbst befinden sich in Steuerelementen; was diese Seiten hinzufügen, ist die Rückreise.'
+page:
+  inputs:
+    title: Eingaben
+    description: 'Jedes Feld, das das System bereitstellt, und der Vertrag, der es einem Agenten ermöglicht, es zu übernehmen, auszufüllen und zurückzugeben.'
+  basic:
+    title: 'Einfache Formulare'
+    description: 'Der einfache Fall: ein vom Server gerendertes Formular, das vom Browser gesendet und von einer Seite beantwortet wird.'
+  rendered:
+    title: 'Erweiterte Formulare'
+    description: 'Formulare, die vom Formularelement erstellt werden, mit ihren Übermittlungsverhalten und dem Zustand, in dem sie zurückkommen.'
+  ajax:
+    title: Ajax-Formulare
+    description: 'Ein Formular, das antwortet, ohne dass die Seite verlassen wird, und was damit geschieht, was zurückkommt.'
+  vue:
+    title: Vue-Formulare
+    description: 'Die gleichen Formulare, die von einem Komponent gesteuert werden, bei denen die Felder Zustand anstelle von Markup sind.'

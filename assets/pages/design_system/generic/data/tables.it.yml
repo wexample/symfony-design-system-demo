@@ -1,0 +1,120 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tabelle
+page_icon: 'ph:bold/table'
+section:
+  wide:
+    title: 'Più largo della pagina'
+    description: "Una tabella le cui colonne richiedono più spazio di quanto la pagina ne abbia viene disegnata alla larghezza necessaria, in un riquadro che scorre orizzontalmente — la pagina intorno non si muove. Una tabella adesiva rinuncia a questo: un'intestazione fissa alla pagina e un riquadro che scorre da solo non possono coesistere."
+  default:
+    title: 'Tabella semplice'
+  actions:
+    title: 'Tabella con azioni'
+  links:
+    title: 'Cellule di link e icone'
+  loading:
+    title: 'Stato di caricamento'
+  empty:
+    title: 'Stato vuoto'
+  alignment:
+    title: 'Allineamento colonne'
+  markdown:
+    title: 'Da markdown'
+    description: 'Una tabella scritta in markdown e passata attraverso `markdown_ds`: le colonne, il loro allineamento e il markup di ogni cella vengono letti dal documento, e la tabella viene disegnata qui come qualsiasi altra. `markdown` mantiene il semplice `<table>`, per tutto ciò che non è una pagina — una mail, un feed.'
+  groups:
+    title: 'Raggruppa righe'
+    description: 'Una riga che contiene solo un gruppo non è una riga: è la linea tra due gruppi di esse, data una parola. Si estende sulla tabella e nomina ciò che segue — la stessa lettura di un separatore di menu.'
+  status:
+    title: 'Cellule di stato'
+    description: "Uno stato è un cerchio, mai un colore scelto da qualcuno: la cella prende un nome di tipo, o un tipo con un conteggio e un titolo, e disegna l'icona di stato che il resto del sistema disegna. Niente da stilizzare nella pagina."
+  sticky:
+    title: 'Intestazione fissa'
+    description: "Una lunga tabella viene letta colonna per colonna tanto quanto riga per riga. Con `sticky`, l'intestazione rimane visibile mentre le righe scorrono sotto di essa; una pagina con qualcosa di suo bloccato in alto indica quanto è in basso in `--table-sticky-top`."
+  striped:
+    title: 'Righe a strisce, illuminate sotto il puntatore'
+  selection:
+    title: 'Righe che possono essere selezionate'
+    description: "Una casella all'inizio di ogni riga, una nell'intestazione per tutte, e le azioni sopra: pubblicano le righe selezionate al proprio indirizzo, e rimangono fuori portata mentre nulla è selezionato."
+  files:
+    title: "File, un totale, un'azione su ogni riga"
+    description: "Percorsi letti per nome, le cartelle prima di esso tagliate dal loro inizio. La barra termina su quante righe ci sono, e un'azione contrassegnata come `all` funziona anche senza nulla selezionato — prende ogni riga e guida la barra quando è quella attesa."
+  filters:
+    title: Filtri
+    description: 'Una barra di filtri in cima alla tabella, un menu discreto ciascuno, che indica cosa restringe una volta attivato. Sul server vivono nella query della pagina — ogni opzione è un link — e il controller restringe le righe a partire da essa; in vue sono un valore passato alla pagina per la sua api, o applicato dalla tabella alle righe che ha già. Ogni opzione è una casella — rotonda per una scelta singola — colorata dal suo tono quando ne ha uno, uno stato o una categoria.'
+  selection_select:
+    title: 'Azioni in una selezione'
+    description: 'La stessa barra quando ci sono abbastanza azioni per affollare: una viene scelta, poi applicata.'
+  vue:
+    title: 'Tabella entità Vue'
+  vue_selection:
+    title: 'Tabella Vue con selezione'
+    description: 'Lo stesso contratto sul client: le chiavi selezionate tornano attraverso v-model:selected, ogni azione è emessa come bulk-action, e una con un indirizzo è pubblicata come la tabella del server la pubblica. Queste non ne hanno, quindi la riga sottostante dice cosa sarebbe stato fatto. Tre righe per pagina, il totale alla fine della barra, e Archivia tutto senza nulla selezionato.'
+  vue_compact:
+    title: 'Paginazione senza un totale'
+    description: "Quando l'API non restituisce un totale, il paginatore torna a precedente/successivo."
+  vue_dates:
+    title: 'Formattatori di date Vue'
+column:
+  wide: Colonna
+  default:
+    name: Nome
+    date: Data
+    seen: 'Ultima vista'
+  actions:
+    name: Fonte
+    date: 'Aggiornato il'
+    operations: Azioni
+  links:
+    source: Fonte
+    state: Stato
+  status:
+    name: Pipeline
+    build: Build
+    tests: Test
+    deploy: Distribuzione
+  alignment:
+    left: 'Nome (sinistra)'
+    center: 'Stato (centro)'
+    right: 'Importo (destra)'
+row:
+  wide: 'Un valore sufficientemente lungo'
+  one:
+    title: 'Progetto Alpha'
+    meta: '2026-01-10'
+  two:
+    title: 'Progetto Beta'
+    meta: '2026-02-18'
+  three:
+    title: 'Progetto Gamma'
+    meta: '2026-03-25'
+  action:
+    one:
+      title: 'Fonte Alpha'
+      meta: '2026-01-12'
+    two:
+      title: 'Fonte Beta'
+      meta: '2026-02-20'
+    loading:
+      label: 'Caricamento righe'
+    empty:
+      label: 'Nessun dato disponibile.'
+group:
+  first: 'Primo gruppo'
+  second: 'Secondo gruppo'
+status:
+  flaky: 'Tre test sono instabili'
+bulk:
+  archive: Archivia
+  export: Esporta
+  delete: Elimina
+files:
+  column:
+    path: File
+  fix_selected: 'Correggi selezionati'
+  fix_all: 'Correggi tutto'
+filters:
+  owner: Proprietario
+  state: Stato
+  open: Aperto
+  closed: Chiuso
+  column:
+    name: Nome

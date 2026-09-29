@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: رسائل
+page_icon: 'ph:bold/notification'
+section:
+  block:
+    title: 'حظر الرسائل'
+  compact:
+    title: 'رسائل مضغوطة'
+    description: 'نسخة غير مؤطرة، لوضع قواعد ثابتة بدلاً من الإبلاغ عن حدث. قم بتمرير المضغوط إلى الخيارات.'
+  default:
+    title: 'أنواع الرسائل'
+  vue:
+    title: فيو
+    description: 'نفس النكهات الأربعة كما في أجزاء vue، كل منها يحمل الأيقونة التي تضعها وظيفة twig للمتصل.'
+compact:
+  rule:
+    one: 'يجب ربط الفاتورة الصادرة بفاتورة واردة، ما لم تكن عملية بيع.'
+    two: 'يجب أن يتم إنشاء الفواتير الصادرة بواسطة مدير.'
+    three: 'يجب تخصيص المبلغ الكامل قبل إصدار الفاتورة.'
+message:
+  info:
+    title: 'رسالة معلوماتية'
+    body: 'هذه رسالة معلوماتية قصيرة.'
+  success:
+    title: 'رسالة نجاح'
+    body: 'تمت العملية بنجاح.'
+  warning:
+    title: 'رسالة تحذير'
+    body: 'هناك شيء يحتاج إلى اهتمامك.'
+  error:
+    title: 'رسالة خطأ'
+    body: 'حدث خطأ أثناء معالجة الطلب.'

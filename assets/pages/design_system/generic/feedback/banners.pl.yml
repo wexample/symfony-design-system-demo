@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Banery
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'To sama baner inline jak część vue, przyjmująca ten sam typ i wiadomość; szkielet, który wypełnia usługa banerów, to inny plik.'
+  banners:
+    neutral: 'To jest neutralna wiadomość banera.'
+    info: 'To jest wiadomość banera informacyjnego.'
+    warning: 'To jest wiadomość banera ostrzegawczego.'
+    error: 'To jest wiadomość banera błędu.'
+    success: 'To jest wiadomość banera sukcesu.'
+  layout_banner:
+    description: 'Banery są głównie używane na poziomie układu, aby wyświetlać ważne wiadomości o aktywności w tle, takie jak status połączenia z Internetem.'
+    button: 'Pokaż baner'
+    messages:
+      info: 'Wiadomość informacyjna banera układu.'
+      success: 'Wiadomość o sukcesie banera układu.'
+      warning: 'Wiadomość ostrzegawcza banera układu.'
+      error: 'Wiadomość o błędzie banera układu.'

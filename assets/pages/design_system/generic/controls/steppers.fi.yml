@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Askelter
+page_icon: 'ph:bold/steps'
+intro: 'Missä lukija sijaitsee sekvenssissä – tunneli, useisiin osiin jaettu lomake. Takana olevat askeleet ovat näkyvissä ja niihin voidaan palata, kun niille annetaan osoite; käynnissä oleva erottuu; edessä odottavat, huomaamattomasti.'
+section:
+  labelled:
+    title: 'Numeroitu ja nimetty'
+    description: 'Yleinen tapaus: numero laskemiseen, sana tietämään mitä se kysyy. Kaksi jo käytyä askelta yhdistävät takaisin.'
+  numbers:
+    title: 'Pelkkä numerointi'
+    description: 'Missä askeleilla ei ole luettavia nimiä tai leveys ei riitä niille.'
+  words:
+    title: 'Pelkkä sanasto'
+    description: 'Ilman numeroita, kun järjestys on ilmeinen sanoista.'
+  ends:
+    title: 'Ensimmäinen ja viimeinen'
+    description: 'Ei mitään vielä kävelty, sitten kaikki kävelty paitsi käynnissä oleva askel.'
+  unknown:
+    title: 'Päätöksessä olevat askeleet'
+    description: 'Missä polut eroavat, eteenpäin meneminen riippuu vielä antamattomasta vastauksesta. Askel, joka edustaa sitä, ei saa numeroa eikä liikuta muita: viimeinen askel täällä on kolmas, ei neljäs.'
+  compact:
+    title: 'Kompakti ja pisteet'
+    description: 'Modalin tai paneelin otsikoksi, jossa on vähän tilaa: kompakti pitää numerot ja nimettävän askeleen vain; pisteet piirtävät yhden pisteen per askel eivätkä nimeä mitään näytöllä, nimet jäävät sille, joka lukee sivua ääneen. Suoraan modalin tai paneelin otsikon alapuolella, askeltyyppi ottaa latauspalkin paikan.'
+  toolbar:
+    title: Työkalupalkissa
+    description: 'Asetettu sivun ylle olevaan palkkiin, se vie tilan, jonka palkki sille antaa.'
+  vue:
+    title: 'Vue:ssa'
+    description: 'Sama askeltyyppi vue-puussa. Osoitteettomat askeleet voidaan tehdä painikkeiksi: sivu pidetty sekvenssi etenee sen `select`-toiminnon mukaan sen sijaan, että se siirtyisi uuteen osoitteeseen.'
+step:
+  account: Tili
+  address: Osoite
+  payment: Maksu
+  confirm: Vahvistus
+  choice: Suunnitelmasi

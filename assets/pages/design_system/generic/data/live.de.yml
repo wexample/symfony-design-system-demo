@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Am Puls der Zeit'
+page_icon: 'ph:bold/broadcast'
+intro: 'Eine Sammlung wird einmal gelesen, wenn sie erscheint, und dann zieht die Welt weiter. Das sind die drei Möglichkeiten, wie sie davon erfährt – sie sind keine Alternativen, aus denen man einmal für alle Zeiten wählen muss, sondern das, was die Situation einer Sammlung bietet. Der gleiche Tisch nimmt jede von ihnen oder mehrere, und nichts darunter weiß, welches Geräusch ertönte.'
+section:
+  events:
+    title: 'Ein App-Ereignis'
+    description: 'Für eine Änderung sorgte diese Seite selbst: ein Button, der agierte, ein Formular, das zurückkam. Wer auch immer anruft, weiß nichts vom Tisch, und der Tisch weiß nichts darüber, wer anruft – sie teilen sich nur einen Namen und das ist alles. Kostet nichts und benötigt keinen Server.'
+  live:
+    title: 'Eine Live-Quelle'
+    description: 'Wo der Server ein Thema zu veröffentlichen hat, hört die Sammlung auf die Entität, von der sie die Sammlung ist – ein Prozess für ihre Abläufe, eine Sitzung für ihre Nachrichten – und niemals auf jede ihrer eigenen Zeilen. Eine Zeile, die noch nicht existiert, hat kein Thema, und die Zeile, die erscheint, ist genau die, auf die der Leser wartet. Die Demo hat keinen Server, der für sie veröffentlicht, also spielt der Button die Nachricht ab.'
+  polling:
+    title: Polling
+    description: 'Wo es kein Thema gibt, oder wo eine Rundreise hin und wieder günstiger ist als ein offen gehaltenes Abonnement. Diese liest alle drei Sekunden und stoppt, während der Tab im Hintergrund ist – eine Seite, die niemand ansieht, ist eine Seite, die niemand vorgelesen bekommen muss.'
+  none:
+    title: 'Gar nichts'
+    description: 'Der Standard. Eine Sammlung wird einmal gelesen und bleibt, wie sie war, was die richtige Antwort ist, wann immer das, was sie zeigt, sich nicht hinter dem Rücken des Lesers ändert.'
+  shape:
+    title: 'Welche Form sie auch immer annimmt'
+    description: 'Nichts davon gehört zum Tisch. Die gleichen drei Möglichkeiten dienen einer Liste von Balken, einem Chatverlauf, allem, was eine Sammlung liest – was eine Sammlung wahr hält und wie sie aussieht, sind zwei separate Entscheidungen. Diese hier ist eine Balkenliste, Polling.'

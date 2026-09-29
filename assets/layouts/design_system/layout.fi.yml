@@ -1,0 +1,8 @@
+~extends: '@front.layouts.private.layout'
+menu_design_system:
+  navigation:
+    group:
+      app:
+        title: Sovelluskomponentit
+      generic:
+        title: 'Yleiset komponentit'

@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: コンテンツ
+page_icon: 'ph:bold/article'
+intro: 言葉、画像、価値、そしてそれらの間のリズム。このページに共通するのは、地域を配置したり、記録を列挙するのではなく、人が読むものをフォーマットすることです。
+page:
+  composition:
+    title: 構成
+    description: 文章があるべき形で表示されるページ：記事、周囲にテキストのある画像、ドロップキャップ、メタバー。
+  media:
+    title: メディア
+    description: 形に保たれた画像と埋め込み：アスペクト比、オーバーレイ、何も読み込まれていないときに表示されるプレースホルダー。
+  dates:
+    title: 日付
+    description: Twigとブラウザの両方で同じように理解されるフォーマットの語彙、そしてページが開かれたままのときに自らを正確に保つ日付。
+  graph_log:
+    title: グラフログ
+    description: 色付きのレーン上のアイテム、その分岐とマージ：gitの履歴、または何かが分岐するもの。
+  console:
+    title: コンソール
+    description: シェルが出力したものをページ内で読み戻し、新しい行が追加される。
+  timeline:
+    title: タイムライン
+    description: マーカーによって線でつながれた一つの下に他のステップやイベントが並び、それぞれが必要なものを保持する。

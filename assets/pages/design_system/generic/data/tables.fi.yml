@@ -1,0 +1,120 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Taulukot
+page_icon: 'ph:bold/table'
+section:
+  wide:
+    title: 'Leveämpi kuin huone'
+    description: 'Taulukko, jonka sarakkeet vaativat enemmän kuin sivu sisältää, piirretään tarvittavalla leveydellä, kehykseen, joka vierittää vaakasuunnassa — sivu ympärillä ei liiku. Sticky-taulukko luopuu tästä: otsikko, joka pysyy sivulla, ja kehys, joka vierittää itsenäisesti, eivät voi olla yhdessä.'
+  default:
+    title: 'Yksinkertainen taulukko'
+  actions:
+    title: Toimintotaulukko
+  links:
+    title: 'Linkki- ja kuvake-solut'
+  loading:
+    title: Lataustila
+  empty:
+    title: Tyhjätila
+  alignment:
+    title: 'Sarakkeiden kohdistus'
+  markdown:
+    title: Markdownista
+    description: 'Taulukko, joka on kirjoitettu markdownissa ja käsitelty `markdown_ds`:llä: sarakkeet, niiden kohdistus ja jokaisen solun merkintä luetaan asiakirjasta, ja taulukko piirretään täällä kuten mikä tahansa muu. `markdown` pitää yksinkertaisen `<table>`, kaikelle, mikä ei ole sivu — sähköposti, syöte.'
+  groups:
+    title: 'Rivien ryhmittely'
+    description: 'Rivi, joka sisältää vain ryhmän, ei ole rivi: se on viiva kahden niiden sarjan välillä, annettuna sanana. Se kattaa taulukon ja nimeää mitä seuraa — sama lukeminen kuin valikkoseparatorilla.'
+  status:
+    title: Tilasolut
+    description: 'Tila on ympyrä, ei väri, jonka joku valitsi: solu ottaa tyypin nimen tai tyypin, jossa on määrä ja otsikko, ja piirtää tilakuvakkeen kuten muu järjestelmä. Ei mitään tyyliteltävää sivulla.'
+  sticky:
+    title: Sticky-otsikko
+    description: 'Pitkä taulukko luetaan sarake sarakkeelta yhtä paljon kuin rivi riviltä. `sticky`-asetuksella otsikko pysyy näkyvissä, kun rivit vierivät sen alta; sivu, jolla on jotain omaa kiinnitettynä ylös, sanoo kuinka pitkälle alas `--table-sticky-top`.'
+  striped:
+    title: 'Raidalliset rivit, valaistu hiiren kohdalla'
+  selection:
+    title: 'Rivit, jotka voidaan valita'
+    description: 'Ruutu jokaisen rivin päässä, yksi otsikossa kaikille, ja toiminnot ylhäällä: ne lähettävät valitut rivit omaan osoitteeseensa, ja pysyvät ulottumattomissa, kun mitään ei ole valittu.'
+  files:
+    title: 'Tiedostot, yhteensä, toiminto jokaiselle riville'
+    description: 'Polut luetaan nimellään, kansiot sen edellä katkaistaan alusta. Palkki päättyy siihen, kuinka monta riviä on, ja toiminto, joka on merkitty `all`, toimii ilman valittuja — se ottaa jokaisen rivin ja johtaa palkkia, kun se on odotettu.'
+  filters:
+    title: Suodattimet
+    description: 'Suodattimien palkki taulukon päässä, yksi huomaamaton valikko kerrallaan, kertomassa mitä se kaventaa, kun se tekee niin. Palvelimella ne elävät sivun kyselyssä — jokainen vaihtoehto on linkki — ja ohjain kaventaa rivit siitä; vue:ssa ne ovat arvo, joka annetaan sivulle sen api:lle, tai sovelletaan taulukkoon jo olemassa oleviin riveihin. Jokainen vaihtoehto on laatikko — pyöreä yhdelle valinnalle — värillinen sävynsä mukaan, kun sillä on sellainen, tila tai kategoria.'
+  selection_select:
+    title: 'Toiminnot valinnassa'
+    description: 'Sama palkki, kun on tarpeeksi toimintoja sen täyttämiseksi: yksi valitaan, sitten sovelletaan.'
+  vue:
+    title: Vue-entiteettitaulukko
+  vue_selection:
+    title: 'Vue-taulukko valinnalla'
+    description: 'Sama sopimus asiakaspuolella: valitut avaimet tulevat takaisin v-model:selected:n kautta, jokainen toiminto lähetetään bulk-actionina, ja yksi, jolla on osoite, lähetetään palvelintaulukon tavoin. Näillä ei ole mitään, joten alla oleva rivi sanoo, mitä olisi tehty. Kolme riviä sivulla, yhteensä palkin lopussa, ja Arkistoi kaikki tarvitsevat mitään valittua.'
+  vue_compact:
+    title: 'Sivutus ilman yhteensä'
+    description: 'Kun API ei palauta yhteensä, sivuttaja palaa edelliseen/seuraavaan.'
+  vue_dates:
+    title: Vue-päivämäärämuotoilijat
+column:
+  wide: 'Sarakkeen leveys'
+  default:
+    name: Nimi
+    date: Päivämäärä
+    seen: 'Viimeksi nähty'
+  actions:
+    name: Lähde
+    date: Päivitetty
+    operations: Toiminnot
+  links:
+    source: Lähde
+    state: Tila
+  status:
+    name: Putki
+    build: Kokoaminen
+    tests: Testit
+    deploy: Käyttöönottaminen
+  alignment:
+    left: 'Nimi (vasen)'
+    center: 'Tila (keskellä)'
+    right: 'Määrä (oikea)'
+row:
+  wide: 'Riittävän pitkä arvo'
+  one:
+    title: 'Projekti Alpha'
+    meta: '2026-01-10'
+  two:
+    title: 'Projekti Beta'
+    meta: '2026-02-18'
+  three:
+    title: 'Projekti Gamma'
+    meta: '2026-03-25'
+  action:
+    one:
+      title: 'Lähde Alpha'
+      meta: '2026-01-12'
+    two:
+      title: 'Lähde Beta'
+      meta: '2026-02-20'
+    loading:
+      label: 'Ladataan rivejä'
+    empty:
+      label: 'Ei saatavilla olevaa dataa.'
+group:
+  first: 'Ensimmäinen ryhmä'
+  second: 'Toinen ryhmä'
+status:
+  flaky: 'Kolme testiä ovat epävakaita'
+bulk:
+  archive: Arkistoi
+  export: Vie
+  delete: Poista
+files:
+  column:
+    path: Tiedosto
+  fix_selected: 'Korjaa valitut'
+  fix_all: 'Korjaa kaikki'
+filters:
+  owner: Omistaja
+  state: Tila
+  open: Avoin
+  closed: Suljettu
+  column:
+    name: Nimi

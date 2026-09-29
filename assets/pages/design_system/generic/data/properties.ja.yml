@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: プロパティ
+page_icon: 'ph:bold/list-dashes'
+intro: キーと値のペアが定義リストとして表示されます。行はリストのサブグリッドであり、キーは単一の列に整列し、各行はセパレーターを持つ実際のボックスとして保持されます。
+section:
+  default:
+    title: デフォルト
+    description: キー列は最も長いラベルに合わせてサイズを調整します。--properties-key-widthをオーバーライドして固定できます。
+  bordered:
+    title: ボーダー付き
+    description: ブロックボディ内の密なレコードのための行間のセパレーター。
+    block_title: 接続の詳細
+  split:
+    title: 分割
+    description: '右端に押し出された値 — 合計、残高、数字の列として読み取られるもの。'
+  compact:
+    title: コンパクト
+    description: リストがブロックの他の部分に対して二次的な場合、行をタイトにします。
+  stacked:
+    title: スタック
+    description: 狭い列のために、値の上にキーを配置し、2つの列がうまくラップされないようにします。
+    aside: ボディは残りの幅を保持し、サイド列は固定されます。
+  columns:
+    title: 列
+    description: 短いペアが1つの高い列では読みづらく、目はキーとその値の間でページの幅を横切ります。セパレーターは各ペアを一緒に保持します。列にレイアウトされると、幅が許す限り、携帯電話では1つにまで、ペアは2行の小さなブロックとなり、その周りにルールは必要ありません。どの列も保持できない値は、`full`で全幅を取ります。
+  vue:
+    title: Vue
+    description: 同じリストがvueパーシャルとして、修飾子をプロップとして受け取ります。ページが実行される間に構築されたレコードは、それと一緒にレンダリングされたもののように読み取られます。
+field:
+  name:
+    key: 名前
+    value: パイプラインプロジェクション
+  identifier:
+    key: 識別子
+    value: prj_8f21c4a7
+  description:
+    key: 説明
+    value: 受信イベントを集約し、クエリ可能なプロジェクションとして公開します。
+  status:
+    key: ステータス
+    value: 準備完了
+  owner:
+    key: 所有者
+    value: プラットフォームチーム
+  created:
+    key: 作成日
+    value: 2026年3月14日
+  region:
+    key: リージョン
+    value: eu-west-1
+  runtime:
+    key: ランタイム
+    value: 'PHP 8.3'
+  version:
+    key: バージョン
+    value: 1.4.2
+  reviewed:
+    key: レビュー日
+    value: null
+  path:
+    key: ファイル
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: 小計
+    value: '1,240.00 €'
+  tax:
+    key: 税金
+    value: '248.00 €'
+  total:
+    key: 合計
+    value: '1,488.00 €'

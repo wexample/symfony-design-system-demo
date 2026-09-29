@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Schaltflächen
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: Standard-Schaltflächen
+  button_states:
+    title: Schaltflächenzustände
+  link:
+    title: Schaltflächenlinks
+  vue:
+    title: Vue
+    description: 'Die gleiche Schaltfläche und der gleiche Link wie Vue-Teile, die dasselbe Symbol und dieselbe Bezeichnung verwenden, für eine Seite, die ihre Steuerelemente während der Ausführung erstellt.'
+button:
+  primary: 'Primäre Schaltfläche'
+  success: Erfolgsschaltfläche
+  danger: Warnschaltfläche
+  invert: 'Invertierte Schaltfläche'
+  state:
+    default: Standard
+    loading: Lädt
+    disabled: Deaktiviert
+    assisted: Unterstützt
+link:
+  more: 'Erfahren Sie mehr'
+  external: 'Externer Link'

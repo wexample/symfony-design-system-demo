@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: তালিকা
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: ডিফল্ট
+  empty:
+    title: 'খালি অবস্থা'
+search:
+  placeholder: 'তালিকা ফিল্টার করুন...'
+header:
+  filter: ফিল্টার
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'লেনদেনের কাজের জন্য পরিচালিত SQL সংযোগ'
+  s3:
+    title: 'আমাজন S3'
+    body: 'আমদানি ও রপ্তানির জন্য অবজেক্ট স্টোরেজ সংযোগকারী'
+  webhook:
+    title: ওয়েবহুক
+    body: 'বাহ্যিক সিস্টেম থেকে ইভেন্ট ট্রিগার এবং গ্রহণ করুন'
+  redis:
+    title: Redis
+    body: 'মেমরি-ভিত্তিক ক্যাশে এবং পাব/সাব মেসেজিং'
+  mongo:
+    title: MongoDB
+    body: 'নমনীয় স্কিমা কাজের জন্য ডকুমেন্ট স্টোর'

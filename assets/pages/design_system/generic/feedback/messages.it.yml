@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Messaggi
+page_icon: 'ph:bold/notification'
+section:
+  block:
+    title: 'Blocca messaggi'
+  compact:
+    title: 'Messaggi compatti'
+    description: 'Versione non incorniciata, per esprimere regole generali piuttosto che riportare un evento. Passa compatto alle opzioni.'
+  default:
+    title: 'Tipi di messaggio'
+  vue:
+    title: Vue
+    description: "Le stesse quattro varianti delle porzioni vue, ognuna con l'icona che la sua funzione twig inserisce per il chiamante."
+compact:
+  rule:
+    one: 'Una fattura in uscita deve essere collegata a una in arrivo, a meno che non sia una vendita.'
+    two: 'Le fatture in uscita devono essere create da un amministratore.'
+    three: "L'importo totale deve essere allocato prima che la fattura possa essere emessa."
+message:
+  info:
+    title: 'Messaggio informativo'
+    body: 'Questo è un breve messaggio informativo.'
+  success:
+    title: 'Messaggio di successo'
+    body: "L'azione è stata completata con successo."
+  warning:
+    title: 'Messaggio di avviso'
+    body: 'Qualcosa richiede la tua attenzione.'
+  error:
+    title: 'Messaggio di errore'
+    body: "Si è verificato un errore durante l'elaborazione della richiesta."

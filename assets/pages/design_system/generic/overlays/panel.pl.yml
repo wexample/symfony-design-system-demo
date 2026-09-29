@@ -1,0 +1,28 @@
+page_title: Panel
+page_icon: 'ph:bold/sidebar-simple-duotone'
+section:
+  persist:
+    description: 'Panel z zakładkami. Otwórz go, przełączaj zakładki, naciśnij F5 — panel otworzy się na tej samej zakładce.'
+    button: 'Otwórz panel'
+  simple:
+    description: 'Pokaż prosty panel. Możesz go zamknąć klawiszem Escape lub klikając poza panelem.'
+    button: 'Otwórz panel'
+  components:
+    description: 'Pokaż panel z komponentami i wyzwalaczem powiadomienia. Escape jest wyłączony, ale nadal możesz kliknąć poza, aby go zamknąć.'
+    button: 'Otwórz panel'
+  medium:
+    description: 'Pokaż panel z tekstem średniej długości. Kliknięcie poza nim nie zamknie go.'
+    button: 'Otwórz panel'
+  long:
+    description: 'Pokaż panel z długim tekstem. Prosi o potwierdzenie przed zamknięciem.'
+    button: 'Otwórz panel'
+  form_rendered:
+    description: 'Pokaż renderowany formularz demonstracyjny w panelu. Escape i kliknięcie poza są wyłączone, a przed zamknięciem zapyta, czy formularz był modyfikowany.'
+    button: 'Otwórz panel'
+  form_ajax:
+    description: 'Pokaż renderowany formularz demonstracyjny w panelu używając AJAX. Escape i kliknięcie poza są wyłączone, a przed zamknięciem zapyta, czy formularz był modyfikowany.'
+    button: 'Otwórz panel'
+  recursive:
+    description: 'Otwórz stronę dialogową w innej dialogowej — wybierz modal lub panel.'
+    button_modal: 'Otwórz w modalnym'
+    button_panel: 'Otwórz w panelu'

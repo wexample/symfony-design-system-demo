@@ -1,0 +1,96 @@
+field:
+  password:
+    label: รหัสผ่าน
+    help: กรอกรหัสผ่านของคุณเพื่อการยืนยันตัวตน
+    error:
+      ERR_FIELD_PASSWORD_INVALID: รหัสผ่านไม่ถูกต้องสำหรับการทดสอบ
+  emoji:
+    label: อีโมจิ
+    help: เลือกอีโมจิเพื่อแทนอารมณ์ของคุณ
+    error:
+      ERR_FIELD_EMOJI_INVALID: อีโมจิไม่ถูกต้องสำหรับการทดสอบ
+  text_simple:
+    label: ข้อความ
+    help: ฟิลด์ข้อความแบบบรรทัดเดียวสำหรับเนื้อหาสั้น
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: ข้อความไม่ถูกต้องสำหรับการทดสอบ
+  text_area:
+    label: ข้อความยาว
+    placeholder: พิมพ์สิ่งที่คุณต้องการ...
+    help: ฟิลด์ข้อความหลายบรรทัดสำหรับเนื้อหายาว
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: ข้อความยาวไม่ถูกต้องสำหรับการทดสอบ
+  number:
+    label: หมายเลข
+    help: กรอกค่าตัวเลข
+    error:
+      ERR_FIELD_NUMBER_INVALID: หมายเลขไม่ถูกต้องสำหรับการทดสอบ
+  email:
+    label: อีเมล
+    placeholder: you@example.com
+    help: กรอกที่อยู่อีเมลที่ถูกต้อง
+    error:
+      ERR_FIELD_EMAIL_INVALID: อีเมลไม่ถูกต้องสำหรับการทดสอบ
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'กรอก URL แบบเต็มรวมถึงโปรโตคอล'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL ไม่ถูกต้องสำหรับการทดสอบ'
+  date:
+    label: วันที่
+    help: เลือกวันที่โดยใช้ตัวเลือกวันที่
+    error:
+      ERR_FIELD_DATE_INVALID: วันที่ไม่ถูกต้องสำหรับการทดสอบ
+  datetime:
+    label: 'วันที่ & เวลา'
+    help: เลือกวันที่และเวลารวมกัน
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'วันที่ & เวลา ไม่ถูกต้องสำหรับการทดสอบ'
+  time:
+    label: เวลา
+    help: เลือกเวลาในวัน
+    error:
+      ERR_FIELD_TIME_INVALID: เวลาไม่ถูกต้องสำหรับการทดสอบ
+  file:
+    label: ไฟล์
+    help: อัปโหลดไฟล์หนึ่งหรือหลายไฟล์จากอุปกรณ์ของคุณ
+    error:
+      ERR_FIELD_FILE_INVALID: ไฟล์ไม่ถูกต้องสำหรับการทดสอบ
+  radio_choice:
+    label: ตัวเลือกวิทยุ
+    help: เลือกตัวเลือกหนึ่งจากรายการ
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: ตัวเลือกวิทยุไม่ถูกต้องสำหรับการทดสอบ
+    choice:
+      option_a:
+        label: 'ตัวเลือก A'
+      option_b:
+        label: 'ตัวเลือก B'
+      option_c:
+        label: 'ตัวเลือก C'
+  switch:
+    label: สวิตช์
+    help: เปิดหรือปิดตัวเลือกนี้
+    error:
+      ERR_FIELD_SWITCH_INVALID: สวิตช์ไม่ถูกต้องสำหรับการทดสอบ
+form:
+  error:
+    ERR_FORM_TEST: ข้อผิดพลาดทั่วไปสำหรับการทดสอบ
+action:
+  button_demo: ไม่ทำอะไร
+  submit_default: ส่ง
+  submit_error: แสดงข้อผิดพลาด
+  submit_js: 'การดำเนินการ JS'
+  submit_redirect: เปลี่ยนเส้นทาง
+toast:
+  success:
+    title: สำเร็จ
+    message: ส่งแบบฟอร์มสำเร็จแล้ว
+  js_action:
+    title: 'การดำเนินการ JS'
+    message: 'คุณต้องการเปิดใช้งานแบบฟอร์มอีกครั้งหรือไม่?'
+    reactivate: เปิดใช้งานอีกครั้ง
+    dismiss: ปิด
+description: |
+  ใช้แบบฟอร์มนี้เพื่อทดสอบพฤติกรรมการส่ง แบบจำลองนี้อยู่ในคอมโพเนนต์ Vue.

@@ -2,6 +2,7 @@
 page_title: 'Tableau de bord'
 page_icon: 'ph:bold/squares-four'
 mode:
+  reopen: 'Rouvrir le panneau API'
   gap: 'Avec des espaces'
   flush: Flush
 state:
@@ -25,8 +26,8 @@ tile:
   queue:
     title: "File d'attente"
     figure: '318 emplois'
-    description: "`zone--split--flush` enlève l'espace : les carrelages se touchent et une ligne fine les distingue. Une classe sur le mur suffit, les lignes l'héritent."
+    description: "`zone--split--flush` réduit l'écart à un pixel, le sol du mur traçant la ligne entre les tuiles. Une classe sur le mur suffit, les rangées l'héritent."
   deploys:
     title: Déploiements
     figure: "7 aujourd'hui"
-    description: "Sans cela, le même mur garde l'espace entre ses carrelages, à travers lequel le sol apparaît — changez dans la barre ci-dessus."
+    description: "Sans cela, le même mur garde l'espace entre ses tuiles, à travers lequel le sol de la page se montre — changez dans la barre au-dessus. Faites défiler vers la droite pour un panneau chargé uniquement lorsqu'il est vu."

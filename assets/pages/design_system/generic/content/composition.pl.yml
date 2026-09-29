@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kompozycja
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: 'Obrazek i blok kodu jako części vue, przyjmujące te same opcje.'
+  prose:
+    title: 'Artykuł prozowy'
+  image:
+    title: Obrazy
+  media:
+    title: 'Media z tekstem'
+  dropcap:
+    title: 'Wysoka litera'
+  meta_bar:
+    title: 'Pasek metadanych'
+    stack_note: 'Drugi pasek może być umieszczony poniżej, aby zgrupować inną kategorię metadanych — tutaj, taksonomia i analityka.'
+    action_link_note: 'Użyj linku akcji dla interaktywnych elementów, które powinny wtopić się w pasek — bez tła, bez cienia, stonowany kolor.'
+image:
+  intro: 'Funkcja content_image() renderuje img z loading="lazy" domyślnie i owija go w element figure, gdy podano podpis.'
+  simple:
+    label: 'Bez podpisu — zwykły img, na pełną szerokość.'
+    alt: 'Obrazek zastępczy — bez podpisu'
+  captioned:
+    label: 'Z podpisem — owinięty w figure z figcaption.'
+    alt: 'Obrazek zastępczy — z podpisem'
+    caption: 'Figura z figcaption — użyj, aby podać źródła lub dodać kontekst do treści wizualnej.'
+article:
+  toc:
+    label: 'W tym artykule'
+  title: 'Zrozumienie tokenów projektowych'
+  intro: 'Tokeny projektowe są jedynym źródłem prawdy dla decyzji wizualnych w całym produkcie. Kodują kolor, odstępy, typografię i ruch w nazwane zmienne, które są używane przez komponenty.'
+  section_one:
+    title: 'Dlaczego tokeny są ważne'
+    body_one: 'Bez tokenów zmiana podstawowego koloru marki wymaga przeszukiwania setek plików. Z tokenami aktualizacja jednej zmiennej propaguje się wszędzie — od przycisków po alerty czy paski nawigacyjne.'
+    body_two: 'Tokeny łączą również lukę między narzędziami projektowymi a kodem. Projektant nadaje kolorowi <strong>surface-brand</strong> w Figma; programista używa <code>var(--surface-brand)</code> w CSS. Mówią tym samym językiem.'
+  section_two:
+    title: 'Przykłady praktyczne'
+    body: 'Rozważ komponent, który potrzebuje tła, obramowania i tekstu. Zamiast twardo kodować <code>#1a56db</code>, <code>#e1effe</code> i <code>#1e429f</code>, komponent odnosi się do <code>--color-primary</code>, <code>--surface-primary-subtle</code> i <code>--text-primary-strong</code>. Gdy marka ewoluuje, paleta się zmienia — komponent nie.'
+  list_title: 'Kategorie tokenów'
+  list:
+    - 'Kolor — palety markowe, semantyczne i neutralne'
+    - 'Odstępy — spójna skala od 2px do 64px'
+    - 'Typografia — rozmiary czcionek, grubości i wysokości linii'
+    - 'Promień — od ostrych krawędzi do całkowicie zaokrąglonych'
+    - 'Cień — poziomy podniesienia dla głębi i hierarchii'
+    - 'Ruch — krzywe łagodzenia i kroki czasu trwania'
+  quote: 'Większość cytatów znalezionych w Internecie została prawdopodobnie wygenerowana przez AI.'
+  quote_author: 'Albert Einstein'
+  cta: 'Przeczytaj pełną dokumentację tokenów'
+media:
+  alt: 'Obrazek zastępczy obok tekstu'
+  caption: 'Obraz zajmujący jedną trzecią układu.'
+  body_one: 'Użyj content--media, aby umieścić obrazek i tekst obok siebie. Obrazek zajmuje jedną trzecią szerokości, tekst dwie trzecie.'
+  body_two: 'Ten układ nadaje się do cytatów, ilustrowanych definicji lub każdego krótkiego bloku redakcyjnego, gdzie obrazek wspiera tekst bez dominacji.'
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: 'Alice Martin'
+  date: '18 lipca 2026'
+  read_time: '4 minuty czytania'
+  likes: '142 polubienia'
+  category: 'UX Design'
+  tag: 'W trakcie'
+  views: '3 847 wyświetleń'
+action:
+  share: Udostępnij

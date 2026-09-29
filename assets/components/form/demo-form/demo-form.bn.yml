@@ -1,0 +1,96 @@
+field:
+  password:
+    label: পাসওয়ার্ড
+    help: 'আপনার পাসওয়ার্ড প্রবেশ করান প্রমাণীকরণের জন্য।'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'পাসওয়ার্ডটি পরীক্ষার জন্য অবৈধ।'
+  emoji:
+    label: ইমোজি
+    help: 'আপনার মেজাজ প্রকাশ করতে একটি ইমোজি নির্বাচন করুন।'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'ইমোজিটি পরীক্ষার জন্য অবৈধ।'
+  text_simple:
+    label: টেক্সট
+    help: 'সংক্ষিপ্ত বিষয়বস্তু জন্য একটি একক-লাইন টেক্সট ইনপুট।'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'টেক্সটটি পরীক্ষার জন্য অবৈধ।'
+  text_area:
+    label: 'দীর্ঘ টেক্সট'
+    placeholder: 'আপনি যা চান লিখুন...'
+    help: 'দীর্ঘ বিষয়বস্তু জন্য একটি একাধিক-লাইন টেক্সট এলাকা।'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'দীর্ঘ টেক্সটটি পরীক্ষার জন্য অবৈধ।'
+  number:
+    label: সংখ্যা
+    help: 'একটি সংখ্যাসূচক মান প্রবেশ করান।'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'সংখ্যাটি পরীক্ষার জন্য অবৈধ।'
+  email:
+    label: ইমেইল
+    placeholder: you@example.com
+    help: 'একটি বৈধ ইমেইল ঠিকানা প্রবেশ করান।'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'ইমেইলটি পরীক্ষার জন্য অবৈধ।'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'প্রোটোকলসহ একটি পূর্ণ URL প্রবেশ করান।'
+    error:
+      ERR_FIELD_URL_INVALID: 'URLটি পরীক্ষার জন্য অবৈধ।'
+  date:
+    label: তারিখ
+    help: 'তারিখ পিকার ব্যবহার করে একটি তারিখ নির্বাচন করুন।'
+    error:
+      ERR_FIELD_DATE_INVALID: 'তারিখটি পরীক্ষার জন্য অবৈধ।'
+  datetime:
+    label: 'তারিখ ও সময়'
+    help: 'একত্রে একটি তারিখ ও সময় নির্বাচন করুন।'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'তারিখ ও সময়টি পরীক্ষার জন্য অবৈধ।'
+  time:
+    label: সময়
+    help: 'একটি সময় নির্বাচন করুন।'
+    error:
+      ERR_FIELD_TIME_INVALID: 'সময়টি পরীক্ষার জন্য অবৈধ।'
+  file:
+    label: ফাইল
+    help: 'আপনার ডিভাইস থেকে এক বা একাধিক ফাইল আপলোড করুন।'
+    error:
+      ERR_FIELD_FILE_INVALID: 'ফাইলটি পরীক্ষার জন্য অবৈধ।'
+  radio_choice:
+    label: 'রেডিও চয়েস'
+    help: 'তালিকা থেকে একটি অপশন নির্বাচন করুন।'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'রেডিও চয়েসটি পরীক্ষার জন্য অবৈধ।'
+    choice:
+      option_a:
+        label: 'অপশন A'
+      option_b:
+        label: 'অপশন B'
+      option_c:
+        label: 'অপশন C'
+  switch:
+    label: সুইচ
+    help: 'এই অপশনটি চালু বা বন্ধ করুন।'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'সুইচটি পরীক্ষার জন্য অবৈধ।'
+form:
+  error:
+    ERR_FORM_TEST: 'পরীক্ষার জন্য বৈশ্বিক ত্রুটি।'
+action:
+  button_demo: 'কিছুই করবেন না'
+  submit_default: 'জমা দিন'
+  submit_error: 'ত্রুটি দেখান'
+  submit_js: 'জেএস অ্যাকশন'
+  submit_redirect: 'পুনঃনির্দেশ করুন'
+toast:
+  success:
+    title: সফল
+    message: 'ফর্ম সফলভাবে জমা হয়েছে।'
+  js_action:
+    title: 'জেএস অ্যাকশন'
+    message: 'আপনি কি ফর্মটি আবার সক্রিয় করতে চান?'
+    reactivate: 'সক্রিয় করুন'
+    dismiss: 'বাতিল করুন'
+description: |
+  এই ফর্মটি জমা দেওয়ার আচরণ পরীক্ষা করতে ব্যবহার করুন। এই ডেমো একটি Vue উপাদানে।

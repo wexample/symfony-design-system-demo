@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Lomakkeet
+page_icon: 'ph:bold/rows'
+section:
+  default:
+    title: Peruslomake
+  block:
+    title: Blokkilomakkeet
+  assisted:
+    title: Avustettu
+field:
+  title:
+    label: Otsikko
+    placeholder: 'Syötä otsikko'
+  message:
+    label: Viesti
+    placeholder: 'Kirjoita lyhyt viesti'
+  date:
+    label: Päivämäärä
+  datetime:
+    label: 'Päivämäärä ja aika'
+  time:
+    label: Aika
+  file:
+    label: Tiedosto
+  email:
+    label: Sähköposti
+  number:
+    label: Numero
+  url:
+    label: URL-osoite
+action:
+  submit: Lähetä
+  secondary: 'Toissijainen toiminto'
+  raw_submit: Raakalähetys
+  link: 'Yksinkertainen linkki'

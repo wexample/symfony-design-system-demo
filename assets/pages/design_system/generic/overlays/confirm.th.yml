@@ -1,0 +1,41 @@
+page_title: ยืนยัน
+section:
+  short:
+    description: 'ยืนยันด้วยข้อความสั้น (overlay).'
+    button: เปิดยืนยัน
+    title: กรุณายืนยัน
+    message: 'คุณต้องการดำเนินการต่อหรือไม่?'
+    result_title: ผลการยืนยัน
+    result_prefix: 'ผลลัพธ์:'
+  toast_short:
+    description: 'ยืนยันด้วยข้อความสั้น (toast).'
+    button: เปิดยืนยัน
+    title: 'ยืนยัน toast'
+    message: 'ดำเนินการต่อด้วย toast หรือไม่?'
+    result_title: 'ผลการยืนยัน toast'
+    result_prefix: 'ผลลัพธ์:'
+  medium:
+    description: 'ยืนยันด้วยข้อความปานกลาง (overlay).'
+    button: เปิดยืนยัน
+    title: ยืนยันปานกลาง
+  long:
+    description: 'ยืนยันด้วยข้อความยาว (overlay).'
+    button: เปิดยืนยัน
+    title: ยืนยันยาว
+  toast_medium:
+    description: 'ยืนยันด้วยข้อความปานกลาง (toast).'
+    button: เปิดยืนยัน
+    title: 'ยืนยัน toast ปานกลาง'
+  toast_long:
+    description: 'ยืนยันด้วยข้อความยาว (toast).'
+    button: เปิดยืนยัน
+    title: 'ยืนยัน toast ยาว'
+  custom:
+    description: 'การกระทำยืนยันที่กำหนดเอง (stacking).'
+    button: เปิดยืนยัน
+    title: การยืนยันแบบจัดเรียง
+    message: 'เปิดยืนยันอื่นหรือปิดทั้งหมด?'
+    action:
+      new: ยืนยันใหม่
+      close_all: ปิดยืนยันทั้งหมด
+      cancel: ยกเลิก

@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: غرفة
+    placeholder: 'ابحث عن غرفة...'
+    help: 'اختر سجلًا من خلال البحث عنه. ما تحمله النموذج هو معرفه.'
+  password:
+    label: 'كلمة المرور'
+    help: 'أدخل كلمة المرور الخاصة بك للمصادقة.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'كلمة المرور غير صالحة لأغراض الاختبار.'
+  emoji:
+    label: 'رمز تعبيري'
+    help: 'اختر رمزًا تعبيريًا يمثل مزاجك.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'الرمز التعبيري غير صالح لأغراض الاختبار.'
+  text_simple:
+    label: نص
+    help: 'مدخل نصي بخط واحد لمحتوى قصير.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'النص غير صالح لأغراض الاختبار.'
+  text_area:
+    label: 'نص طويل'
+    placeholder: 'اكتب ما تريد...'
+    help: 'منطقة نص متعددة الأسطر لمحتوى أطول.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'النص الطويل غير صالح لأغراض الاختبار.'
+  behavior:
+    label: سلوك
+    help: 'اختر كيفية تفاعل النموذج بعد الإرسال.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'اختيار السلوك غير صالح لأغراض الاختبار.'
+    choice:
+      error:
+        label: 'عرض الأخطاء'
+        description: 'يغلق المدمج (أو لا يفعل شيئًا في الصفحة).'
+      js:
+        label: 'إجراء JS (تنبيه)'
+        description: 'يعيد أخطاء التحقق.'
+      redirect:
+        label: 'إعادة توجيه'
+        description: 'يثير تنبيهًا دون إرسال.'
+      default:
+        label: افتراضي
+        description: 'يتنقل في الصفحة الكاملة، أو يغلق النافذة المنبثقة.'
+      embed_stay:
+        label: 'ابقِ المدمج مفتوحًا (نافذة منبثقة / لوحة)'
+        description: 'يبقى مفتوحًا في نافذة منبثقة/لوحة.'
+      embed_redirect:
+        label: 'إعادة توجيه في المدمج (نافذة منبثقة / لوحة)'
+        description: 'يتنقل داخل النافذة المنبثقة/اللوحة.'
+  date:
+    label: تاريخ
+    help: 'اختر تاريخًا باستخدام أداة اختيار التاريخ.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'التاريخ غير صالح لأغراض الاختبار.'
+  datetime:
+    label: 'تاريخ ووقت'
+    help: 'اختر تاريخًا ووقتًا معًا.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'التاريخ والوقت غير صالحين لأغراض الاختبار.'
+  time:
+    label: وقت
+    help: 'اختر وقتًا من اليوم.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'الوقت غير صالح لأغراض الاختبار.'
+  file:
+    label: ملف
+    help: 'قم بتحميل ملف أو أكثر من جهازك.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'الملف غير صالح لأغراض الاختبار.'
+  email:
+    label: 'البريد الإلكتروني'
+    placeholder: you@example.com
+    help: 'أدخل عنوان بريد إلكتروني صالح.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'البريد الإلكتروني غير صالح لأغراض الاختبار.'
+  number:
+    label: رقم
+    help: 'أدخل قيمة عددية.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'الرقم غير صالح لأغراض الاختبار.'
+  url:
+    label: رابط
+    placeholder: 'https://'
+    help: 'أدخل رابطًا كاملاً بما في ذلك البروتوكول.'
+    error:
+      ERR_FIELD_URL_INVALID: 'الرابط غير صالح لأغراض الاختبار.'
+  switch:
+    label: تبديل
+    help: 'قم بتبديل هذا الخيار تشغيلًا أو إيقافًا.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'التبديل غير صالح لأغراض الاختبار.'
+  radio_choice:
+    label: 'اختيار إذاعي'
+    help: 'اختر خيارًا واحدًا من القائمة.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'الاختيار الإذاعي غير صالح لأغراض الاختبار.'
+    choice:
+      option_a:
+        label: 'الخيار A'
+      option_b:
+        label: 'الخيار B'
+      option_c:
+        label: 'الخيار C'
+action:
+  button_demo: 'افعل لا شيء'
+  submit_default: إرسال
+  submit_error: 'عرض الأخطاء'
+  submit_js: 'إجراء JS'
+  submit_redirect: 'إعادة توجيه'
+  submit_embed_stay: 'ابقِ المدمج مفتوحًا'
+  submit_embed_redirect: 'إعادة توجيه في المدمج'
+error:
+  ERR_FORM_TEST:
+    message: 'خطأ عالمي لأغراض الاختبار.'
+description: |
+  استخدم هذا النموذج لاختبار سلوكيات الإرسال. هذه النسخة التجريبية متاحة في سياقات الصفحة، وAjax، ونافذة منبثقة. اختر سلوكًا أدناه وقدم:
+toast:
+  success:
+    title: نجاح
+    message: 'تم تقديم النموذج بنجاح.'
+  js_action:
+    title: 'إجراء JS'
+    message: 'هل تريد إعادة تنشيط النموذج؟'
+    reactivate: 'إعادة تنشيط'
+    dismiss: تجاهل

@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: แผงควบคุม
+page_icon: 'ph:bold/square-half'
+field:
+  version: เวอร์ชัน
+  instances: อินสแตนซ์
+  loaded: โหลดแล้ว
+loaded:
+  at_once: ทันทีที่หน้าแสดงขึ้น
+  late: '%seconds% วินาที ล่าช้าโดยเจตนา'
+service:
+  api:
+    title: 'API เกตเวย์'
+    state: กำลังให้บริการ
+    version: 4.12.0
+    instances: '3 / 3'
+    description: 'หน้าที่แยกต่างหาก ถูกโหลดเข้าสู่โซนนี้โดยการฝัง ขีดกากบาทในมุมของมันปิดหน้าต่าง: โซนจะออกไปและโซนอื่น ๆ จะใช้พื้นที่ของมันร่วมกัน'
+  worker:
+    title: งานในคิว
+    state: กำลังตามทัน
+    version: 2.3.1
+    instances: '2 / 4'
+    description: 'โหลดอย่างช้า ๆ — เฉพาะเมื่อเลื่อนเข้าสู่การมองเห็น — และตอบสนองช้า เพื่อให้สปินเนอร์มีเวลาแสดงผล'

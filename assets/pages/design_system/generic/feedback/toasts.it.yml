@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Feedback
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: "La stessa notifica come un parziale vue. La chiusura viene emessa qui piuttosto che animata: all'interno di un albero vue, il genitore possiede l'elenco."
+  simple_toast:
+    description: 'Visualizza una semplice notifica'
+    button: 'Apri notifica'
+    title: 'Demo notifica'
+    message: "Ciao da ToastService + ToastStack. Puoi anche definire link di azione come @action:demo(questo) all'interno di un messaggio."
+  tl_toast:
+    description: 'Visualizza uno stack di notifiche in alto a sinistra'
+    button: 'Apri notifica'
+    title: 'Notifica in alto a sinistra'
+    message: 'Ciao da ToastService + ToastStack (TL).'
+  medium_toast:
+    description: 'Visualizza un messaggio di notifica di media lunghezza'
+    button: 'Apri notifica'
+    title: 'Notifica media'
+    message: 'Questo è un messaggio di notifica di media lunghezza per la demo.'
+  long_toast:
+    description: 'Visualizza un messaggio di notifica lungo'
+    button: 'Apri notifica'
+    title: 'Notifica lunga'
+    message: 'Questo è un messaggio di notifica più lungo per la demo. Contiene più testo così puoi vedere come si comporta il componente con contenuti più grandi.'
+  horizontal_toasts:
+    description: 'Visualizza quattro notifiche in uno stack orizzontale'
+    info:
+      title: 'Notifica informativa'
+      message: "Un'anteprima di notifica orizzontale."
+      button: 'Mostra notifica'
+    success:
+      title: 'Notifica di successo'
+      message: 'Tutto sembra a posto qui.'
+      button: 'Mostra notifica'
+    warning:
+      title: 'Notifica di avviso'
+      message: 'Controlla di nuovo questa azione.'
+      button: 'Mostra notifica'
+    error:
+      title: 'Notifica di errore'
+      message: 'Qualcosa è andato storto qui.'
+      button: 'Mostra notifica'
+title:
+  toasts: Notifiche

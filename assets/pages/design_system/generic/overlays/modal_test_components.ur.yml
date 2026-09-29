@@ -1,0 +1,20 @@
+page_title: 'موڈل ٹیسٹ - اجزاء'
+intro: 'یہ موڈل اجزاء اور تعاملات پر مشتمل ہے۔'
+menu:
+  label: 'عملیات کا مینو'
+  item:
+    report: 'مسئلہ رپورٹ کریں'
+    settings: ترتیبات
+    logout: 'لاگ آؤٹ کریں'
+upload_button: 'فائل اپ لوڈ کریں'
+choice:
+  one: 'پہلا انتخاب'
+  two: 'دوسرا انتخاب'
+  three: 'تیسرا انتخاب'
+toast_button: 'موڈل سے توست دکھائیں'
+toast_title: 'موڈل توست'
+toast_message: 'موڈل کے اندر سے سلام۔'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'کیا آپ واقعی اس موڈل کو بند کرنا چاہتے ہیں؟'

@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 내용
+page_icon: 'ph:bold/article'
+intro: '단어, 그림, 가치, 그리고 그 사이의 리듬. 이 페이지들이 공통적으로 가지고 있는 것은 개인이 읽는 내용을 포맷하는 것이지, 지역을 배열하거나 기록을 나열하는 것이 아닙니다.'
+page:
+  composition:
+    title: 구성
+    description: '읽어야 할 형태의 산문 페이지: 기사, 주위에 텍스트가 있는 이미지, 드롭 캡, 메타 바.'
+  media:
+    title: 미디어
+    description: '형태를 유지하는 이미지와 삽입물: 종횡비, 오버레이, 아무것도 로드되지 않을 때 대체하는 자리 표시자.'
+  dates:
+    title: 날짜
+    description: 'Twig와 브라우저가 동일하게 이해하는 포맷의 어휘와, 페이지가 열려 있는 동안 진실하게 유지되는 날짜.'
+  graph_log:
+    title: '그래프 로그'
+    description: '색이 있는 선 위의 항목들과 그들의 분기 및 병합: git 히스토리 또는 분기 되는 모든 것.'
+  console:
+    title: 콘솔
+    description: '쉘이 출력한 내용, 페이지에서 다시 읽히고, 도착하는 대로 추가된 줄.'
+  timeline:
+    title: 타임라인
+    description: '선으로 연결된 마커 아래에 하나씩 배치된 단계 또는 이벤트, 각 마커는 필요한 모든 것을 담고 있습니다.'

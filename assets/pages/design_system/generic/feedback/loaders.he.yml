@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: טעינה
+page_icon: 'ph:bold/spinner-gap'
+intro: 'משהו קורה וסופו אינו ידוע. שני אלה אומרים הרבה ומסרבים לומר יותר - כאשר הסוף ידוע, הסרגל בטאב הבא אומר זאת במקום.'
+section:
+  spinner:
+    title: ספינר
+    description: 'מכונה עסוקה. שלושה גדלים, ויישור שורה כאשר היא נמצאת בשורה של טקסט ולא בתוך תיבה משלה.'
+  dots:
+    title: נקודות
+    description: 'משהו עומד להיאמר. אותם שלושה גדלים, ואותם יישורים - מה שמשתנה הוא מי מחכה לקורא.'
+  vue:
+    title: Vue
+    description: 'שניהם מגיעים גם כ-partials של vue, לוקחים את אותן אפשרויות, לדף שמחליט בזמן ריצה אם יש משהו לחכות לו.'
+spinner:
+  label: טוען
+  inline: 'מעבד נתונים'
+dots:
+  label: מחכה
+  inline: 'הצד השני כותב'

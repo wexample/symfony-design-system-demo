@@ -1,0 +1,115 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Blöcke
+page_icon: 'ph:bold/squares-four'
+tone:
+  body: 'Der Boden gehört zum Block, nur die Vorderkante trägt die Farbe.'
+section:
+  tone:
+    title: 'Ein Block mit einem Ton'
+    description: 'Die Farbe eines Zustands — oder einer Kategorie — als Leiste an der Vorderkante, und nichts anderes: dieselbe Leiste, die eine Nachricht trägt, ohne den gefärbten Hintergrund, damit eine Liste von ihnen als Liste und nicht als Alarm gelesen wird. Jeder Block kann es tragen, auch eine Leiste, die auf einem Block steht.'
+  default:
+    title: Basisblöcke
+  advanced:
+    title: 'Erweiterte Blöcke'
+  aside:
+    title: 'Feststehende Seitenleiste'
+    description: 'Eine schmale Spalte, die nach der --Größenskala dimensioniert ist, neben einem Hauptinhalt, der die verbleibende Breite aufnimmt.'
+  card:
+    title: Karten
+  link:
+    title: 'Ein Block, der ein Link ist'
+    description: 'Die gesamte Karte ist der Link — für eine Auswahl, die durch das Auswählen einer Karte aus mehreren getroffen wird: ein Plan, ein Zweig, eine Vorlage. Es wird als Text gelesen, nicht als eine gedämpfte Aktion; unter dem Zeiger nimmt der Hintergrund einen Farbton an und die Kante wird fester, und die Tastatur findet es durch den Fokusring, den jede Steuerung trägt.'
+  figure:
+    title: Zahlen
+    description: 'Ein einzelner übergroßer Wert oder Icon, zentriert. Wird für Dashboard-Zähler und Statuskacheln verwendet — füge block--square hinzu, um die Kachel quadratisch zu halten, egal wie breit sie ist.'
+  stacks:
+    title: Stapel
+  stack_horizontal:
+    title: Horizontal
+    description: 'Gleiche Spalten, volle Breite, bricht bei Überlauf um.'
+  stack_vertical:
+    title: Vertikal
+    description: 'Gestapelte Reihen, volle Breite, einheitlicher Abstand.'
+  stack_split:
+    title: Geteilt
+    description: 'Erstes Kind wächst, letztes Kind bleibt fix — verwendet für führende + Aktionsreihen.'
+  stack_nested:
+    title: Verschachtelt
+    description: 'Horizontaler Stapel, der vertikale Stapel enthält — typisches Dashboard-Gitter.'
+stack:
+  item:
+    one: Eins
+    two: Zwei
+    three: Drei
+    four: Vier
+    lead: 'Beschreibe die Aktion in diesem einleitenden Text.'
+    action: Aktion
+block:
+  title: Blocktitel
+  no_padding: 'Block ohne Padding (unter Verwendung von block--body).'
+  one:
+    title: 'Primärer Block'
+    description: 'Ein Block mit einem Titel und Text.'
+  two:
+    title: 'Sekundärer Block'
+    description: 'Ein weiterer Block zur Demonstration des Abstands.'
+  three:
+    title: 'Tertiärer Block'
+    description: 'Ein dritter Block in der Reihe.'
+  four:
+    title: 'Quartärer Block'
+    description: 'Ein vierter Block für die Layout-Demo.'
+  advanced:
+    title: Pipeline-Projektion
+    status: Bereit
+    description: 'Dieser Block kombiniert Titelplätze und Inhalte in einer einzelnen wiederverwendbaren Struktur.'
+    details: 'Operatoren können hinzugefügt werden, ohne den aktuellen Kontext zu verlassen.'
+  zones:
+    main:
+      title: Hauptzone
+      description: 'Hauptinhalt kann natürlich mit standardmäßigem Abstand wachsen.'
+    aside:
+      title: Nebenzone
+      description: 'Diese Seitenzone verwendet einen hellen Hintergrund, um ergänzenden Inhalt hervorzuheben.'
+  zones_three:
+    title: Dreizonenslayout
+    status: Entwurf
+    left:
+      title: 'Linkes Panel'
+      description: 'Sekundäre Navigation oder Metadaten können hier leben.'
+    main:
+      title: Hauptinhalt
+      description: 'Primäre Informationen bleiben zentriert für bessere Lesbarkeit.'
+    right:
+      title: 'Rechtes Panel'
+      description: 'Kontextuelle Aktionen und Einblicke können auf dieser Seite gruppiert werden.'
+    footer:
+      meta: 'Vor 2 Minuten aktualisiert'
+      action: 'Details öffnen'
+figure:
+  projections: Projektionen
+  uptime: Betriebszeit
+  status: Live
+  framed:
+    title: Durchsatz
+    label: 'Ereignisse pro Sekunde'
+tab:
+  one: Übersicht
+  two: Aktivität
+  three: Einstellungen
+button:
+  create: 'Projektion erstellen'
+  refresh: 'Daten aktualisieren'
+  export: Exportieren
+action:
+  add_projection: 'Projektion hinzufügen'
+link:
+  starter:
+    title: Starter
+    description: 'Eine Person, das Wesentliche, nichts zu zahlen.'
+  team:
+    title: Team
+    description: 'Einige Personen arbeiten an denselben Dingen.'
+  company:
+    title: Unternehmen
+    description: 'Jedes Team, mit den Steuerungen, die eine Organisation verlangt.'

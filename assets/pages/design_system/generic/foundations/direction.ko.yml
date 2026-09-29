@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 방향
+page_icon: 'ph:bold/arrows-left-right'
+intro: '같은 샘플을 두 번, 왼쪽에서 오른쪽과 오른쪽에서 왼쪽으로. 여기 오른쪽에서 왼쪽으로 쓰여진 것은 없습니다: 모든 스타일시트는 줄의 시작과 끝에 대해 이야기하므로 `dir="rtl"`이 주어진 블록 — 또는 아랍어 페이지 — 는 스스로 거울처럼 반사됩니다. 화살표는 반대 방향을 가리키고, 스위치의 노브는 반대 방향으로 이동하며, 메뉴는 끝 쪽으로 열리고, 이메일이나 경로는 왼쪽에서 오른쪽으로 계속 읽힙니다.'
+side:
+  ltr: '왼쪽에서 오른쪽으로'
+  rtl: '오른쪽에서 왼쪽으로'
+sample:
+  navigation: 탐색
+  controls: 제어
+  data: 데이터
+  text: 텍스트
+step:
+  account: 계정
+  address: 주소
+  payment: 결제
+action:
+  previous: 이전
+  next: 다음
+  menu: 메뉴
+menu:
+  report: 보고서
+  settings: 설정
+control:
+  notifications: 알림
+  digest: '주간 요약'
+  upload: 업로드
+field:
+  owner: 소유자
+  email: 이메일
+  site: 사이트
+  amount: 금액
+text:
+  lead: '리드 문단은 줄이 시작되는 쪽에서 규칙을 전달합니다.'
+  mixed: '값은 문장 내에서 자신의 방향을 유지합니다 — layla.haddad@example.test에 문의하세요, 실행합니다'
+  marker: 전달됨
+  link: 문서

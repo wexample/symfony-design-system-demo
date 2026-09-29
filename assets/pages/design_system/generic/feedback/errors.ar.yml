@@ -1,0 +1,13 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: أخطاء
+page_icon: 'ph:bold/warning-circle'
+section:
+  trigger:
+    description: 'ت triggering خطأ في الواجهة الأمامية لاختبارات معالجة الأخطاء.'
+    button: 'ت triggering خطأ'
+  frontend_throw:
+    description: 'ت triggering استثناء غير مقبوض في JavaScript.'
+    button: 'إلقاء خطأ'
+  internet_probe:
+    description: 'ت triggering طلب خارجي لاختبار معالجة الاتصال بالإنترنت.'
+    button: استكشاف

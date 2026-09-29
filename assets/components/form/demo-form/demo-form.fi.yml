@@ -1,0 +1,96 @@
+field:
+  password:
+    label: Salasana
+    help: 'Syötä salasanasi vahvistaaksesi henkilöllisyytesi.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Salasana ei ole kelvollinen testitarkoituksiin.'
+  emoji:
+    label: Emojit
+    help: 'Valitse emoji edustamaan mielialaasi.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Emoji ei ole kelvollinen testitarkoituksiin.'
+  text_simple:
+    label: Teksti
+    help: 'Yhden rivin tekstikenttä lyhyelle sisällölle.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Teksti ei ole kelvollinen testitarkoituksiin.'
+  text_area:
+    label: 'Pitkä teksti'
+    placeholder: 'Kirjoita mitä tahansa...'
+    help: 'Monirivinen tekstialue pidemmälle sisällölle.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Pitkä teksti ei ole kelvollinen testitarkoituksiin.'
+  number:
+    label: Numero
+    help: 'Syötä numeerinen arvo.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Numero ei ole kelvollinen testitarkoituksiin.'
+  email:
+    label: Sähköposti
+    placeholder: you@example.com
+    help: 'Syötä kelvollinen sähköpostiosoite.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'Sähköposti ei ole kelvollinen testitarkoituksiin.'
+  url:
+    label: URL-osoite
+    placeholder: 'https://'
+    help: 'Syötä kokonainen URL-osoite, mukaan lukien protokolla.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL-osoite ei ole kelvollinen testitarkoituksiin.'
+  date:
+    label: Päivämäärä
+    help: 'Valitse päivämäärä päivämäärävalitsimella.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Päivämäärä ei ole kelvollinen testitarkoituksiin.'
+  datetime:
+    label: 'Päivämäärä ja aika'
+    help: 'Valitse yhdistetty päivämäärä ja aika.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Päivämäärä ja aika eivät ole kelvollisia testitarkoituksiin.'
+  time:
+    label: Aika
+    help: 'Valitse päivän aika.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Aika ei ole kelvollinen testitarkoituksiin.'
+  file:
+    label: Tiedosto
+    help: 'Lataa yksi tai useampi tiedosto laitteeltasi.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Tiedosto ei ole kelvollinen testitarkoituksiin.'
+  radio_choice:
+    label: Radiovalinta
+    help: 'Valitse yksi vaihtoehto listalta.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Radiovalinta ei ole kelvollinen testitarkoituksiin.'
+    choice:
+      option_a:
+        label: 'Vaihtoehto A'
+      option_b:
+        label: 'Vaihtoehto B'
+      option_c:
+        label: 'Vaihtoehto C'
+  switch:
+    label: Kytkin
+    help: 'Ota tämä vaihtoehto käyttöön tai pois käytöstä.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Kytkin ei ole kelvollinen testitarkoituksiin.'
+form:
+  error:
+    ERR_FORM_TEST: 'Yleinen virhe testitarkoituksiin.'
+action:
+  button_demo: 'Älä tee mitään'
+  submit_default: Lähetä
+  submit_error: 'Näytä virheet'
+  submit_js: JS-toiminto
+  submit_redirect: 'Ohjaa uudelleen'
+toast:
+  success:
+    title: Onnistui
+    message: 'Lomake lähetettiin onnistuneesti.'
+  js_action:
+    title: JS-toiminto
+    message: 'Haluatko aktivoida lomakkeen uudelleen?'
+    reactivate: 'Aktivoi uudelleen'
+    dismiss: Hylkää
+description: |
+  Käytä tätä lomaketta testataksesi lähetyskäyttäytymistä. Tämä demo on Vue-komponentissa.

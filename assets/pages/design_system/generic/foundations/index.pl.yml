@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Fundamenty
+page_icon: 'ph:bold/diamonds-four'
+intro: 'Z czego wszystko inne jest wydawane. Nic na tych stronach nie jest komponentem: to są skale — kolor, odstępy, typografia i skóra, która je przyciąga — które każda inna sekcja odczytuje, nigdy ich nie pokazując.'
+page:
+  colors:
+    title: Kolory
+    description: 'Powierzchnie, z których zbudowana jest strona, poziomy inwersji, granice i stonowany tekst, a także pięć rodzin semantycznych. Obie strony motywu, obok siebie.'
+  spacing:
+    title: Odstępy
+    description: 'Dziewięć kroków odstępów, rozmiary i wzór gęstości — jak obszar ogłasza się kompaktowym i co to robi z wszystkim, co zawiera.'
+  typography:
+    title: Typografia
+    description: 'Skala typograficzna i wagi, a następnie ta sama skala w pracy na stronie prozy.'
+  skin:
+    title: Skóra
+    description: 'Jak rzeczy są rysowane, w równym kolorze i gęstości: promienie, cienie, granice i separatory. Jedna oś motywu, która ma charakter.'

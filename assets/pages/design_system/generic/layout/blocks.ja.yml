@@ -1,0 +1,115 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: ブロック
+page_icon: 'ph:bold/squares-four'
+tone:
+  body: 地面はブロック自身のもので、先端のみが色を持つ。
+section:
+  tone:
+    title: トーンを持つブロック
+    description: 状態やカテゴリーの色が先端のバーとして表示され、それ以外は何もない：メッセージが持つ同じバーで、色のない地面がなく、リストとして表示されてアラームにはならない。どのブロックでもそれを持つことができ、ブロック上に立つバーも含まれる。
+  default:
+    title: 基本ブロック
+  advanced:
+    title: 高度なブロック
+  aside:
+    title: 固定サイドカラム
+    description: '--sizeスケールに基づいてサイズ調整された狭いカラムで、残りの幅を吸収するボディの隣に配置される。'
+  card:
+    title: カード
+  link:
+    title: リンクとしてのブロック
+    description: カード全体がリンクであり、いくつかのカードの中から一つを選ぶことで選択される：プラン、ブランチ、テンプレート。それはテキストとして表示され、静かなアクションとしてではない；ポインターの下でその地面がニュアンスを持ち、エッジがしっかりし、キーボードは各コントロールが持つフォーカスリングによってそれを見つける。
+  figure:
+    title: フィギュア
+    description: '中央に配置された単一のオーバーサイズの値またはアイコン。ダッシュボードのカウンターやステータスタイルに使用される — 幅に関係なくタイルを正方形に保つためにblock--squareを追加。'
+  stacks:
+    title: スタック
+  stack_horizontal:
+    title: 横型
+    description: 等しいカラム、全幅、オーバーフロー時にラップ。
+  stack_vertical:
+    title: 縦型
+    description: 積み重ねられた行、全幅、均一なギャップ。
+  stack_split:
+    title: 分割
+    description: '最初の子は成長し、最後の子は固定される — リード + アクション行に使用。'
+  stack_nested:
+    title: ネスト
+    description: '縦型スタックを含む横型スタック — 一般的なダッシュボードグリッド。'
+stack:
+  item:
+    one: '1'
+    two: '2'
+    three: '3'
+    four: '4'
+    lead: このリードテキストでアクションを説明する。
+    action: アクション
+block:
+  title: ブロックタイトル
+  no_padding: パディングなしのブロック（block--bodyを使用）。
+  one:
+    title: プライマリブロック
+    description: タイトルと本文を持つブロック。
+  two:
+    title: セカンダリブロック
+    description: スペーシングを示すための別のブロック。
+  three:
+    title: ティアリーブロック
+    description: 行の中の第三のブロック。
+  four:
+    title: クァータリーブロック
+    description: レイアウトデモ用の第四のブロック。
+  advanced:
+    title: パイプライン投影
+    status: 準備完了
+    description: このブロックはタイトルスロットとコンテンツを単一の再利用可能な構造に結合します。
+    details: オペレーターは現在のコンテキストを離れることなく追加できます。
+  zones:
+    main:
+      title: メインゾーン
+      description: メインコンテンツは標準的なスペーシングで自然に成長できます。
+    aside:
+      title: サイドゾーン
+      description: このサイドゾーンは軽い背景を使用して補完的なコンテンツを強調します。
+  zones_three:
+    title: 三ゾーンレイアウト
+    status: ドラフト
+    left:
+      title: 左パネル
+      description: セカンダリナビゲーションやメタデータがここに存在します。
+    main:
+      title: メインコンテンツ
+      description: 主要な情報は可読性のために中央に保たれます。
+    right:
+      title: 右パネル
+      description: コンテキストアクションやインサイトがこの側にグループ化できます。
+    footer:
+      meta: 2分前に更新
+      action: 詳細を開く
+figure:
+  projections: プロジェクション
+  uptime: アップタイム
+  status: ライブ
+  framed:
+    title: スループット
+    label: 秒あたりのイベント
+tab:
+  one: 概要
+  two: アクティビティ
+  three: 設定
+button:
+  create: プロジェクションを作成
+  refresh: データを更新
+  export: エクスポート
+action:
+  add_projection: プロジェクションを追加
+link:
+  starter:
+    title: スターター
+    description: 1人、必須、支払い不要。
+  team:
+    title: チーム
+    description: 同じことに取り組む数人。
+  company:
+    title: 会社
+    description: すべてのチーム、組織が求めるコントロールを持つ。

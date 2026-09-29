@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: کمرہ
+    placeholder: 'کمرہ تلاش کریں...'
+    help: 'ریکارڈ کو تلاش کرکے منتخب کریں۔ فارم میں موجود معلومات اس کا شناختی نمبر ہے۔'
+  password:
+    label: 'پاس ورڈ'
+    help: 'توثیق کے لیے اپنا پاس ورڈ درج کریں۔'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'پاس ورڈ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  emoji:
+    label: ایموجی
+    help: 'اپنے موڈ کی نمائندگی کے لیے ایک ایموجی منتخب کریں۔'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'ایموجی ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  text_simple:
+    label: متن
+    help: 'مختصر مواد کے لیے ایک لائن کا متن۔'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'متن ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  text_area:
+    label: 'طویل متن'
+    placeholder: 'جو چاہیں ٹائپ کریں...'
+    help: 'طویل مواد کے لیے ایک سے زیادہ لائنوں کا متن۔'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'طویل متن ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  behavior:
+    label: 'طرز عمل'
+    help: 'جمع کرانے کے بعد فارم کا رد عمل منتخب کریں۔'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'طرز عمل کا انتخاب ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    choice:
+      error:
+        label: 'غلطیاں دکھائیں'
+        description: 'اندرونی کو بند کرتا ہے (یا صفحے میں کچھ نہیں کرتا)۔'
+      js:
+        label: 'JS عمل (toast)'
+        description: 'توثیق کی غلطیاں واپس کرتا ہے۔'
+      redirect:
+        label: 'ری ڈائریکٹ'
+        description: 'جمع کرانے کے بغیر ایک ٹوسٹ متحرک کرتا ہے۔'
+      default:
+        label: ڈیفالٹ
+        description: 'پورے صفحے میں نیویگیٹ کرتا ہے، یا موڈل بند کرتا ہے۔'
+      embed_stay:
+        label: 'ایمبیڈ کھلا رکھیں (موڈل / پینل)'
+        description: 'موڈل/پینل میں کھلا رہتا ہے۔'
+      embed_redirect:
+        label: 'ایمبیڈ میں ری ڈائریکٹ (موڈل / پینل)'
+        description: 'موڈل/پینل کے اندر نیویگیٹ کرتا ہے۔'
+  date:
+    label: تاریخ
+    help: 'تاریخ منتخب کرنے کے لیے تاریخ چننے والے کا استعمال کریں۔'
+    error:
+      ERR_FIELD_DATE_INVALID: 'تاریخ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  datetime:
+    label: 'تاریخ اور وقت'
+    help: 'تاریخ اور وقت کا مجموعہ منتخب کریں۔'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'تاریخ اور وقت ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  time:
+    label: وقت
+    help: 'دن کے وقت کا انتخاب کریں۔'
+    error:
+      ERR_FIELD_TIME_INVALID: 'وقت ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  file:
+    label: فائل
+    help: 'اپنی ڈیوائس سے ایک یا ایک سے زیادہ فائلیں اپ لوڈ کریں۔'
+    error:
+      ERR_FIELD_FILE_INVALID: 'فائل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  email:
+    label: 'ای میل'
+    placeholder: you@example.com
+    help: 'ایک درست ای میل ایڈریس درج کریں۔'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'ای میل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  number:
+    label: عدد
+    help: 'ایک عددی قیمت درج کریں۔'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'عدد ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  url:
+    label: 'یو آر ایل'
+    placeholder: 'https://'
+    help: 'پروٹوکول سمیت مکمل یو آر ایل درج کریں۔'
+    error:
+      ERR_FIELD_URL_INVALID: 'یو آر ایل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  switch:
+    label: سوئچ
+    help: 'اس آپشن کو آن یا آف کریں۔'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'سوئچ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  radio_choice:
+    label: 'ریڈیو انتخاب'
+    help: 'فہرست سے ایک آپشن منتخب کریں۔'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'ریڈیو انتخاب ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    choice:
+      option_a:
+        label: 'آپشن A'
+      option_b:
+        label: 'آپشن B'
+      option_c:
+        label: 'آپشن C'
+action:
+  button_demo: 'کچھ نہ کریں'
+  submit_default: 'جمع کرائیں'
+  submit_error: 'غلطیاں دکھائیں'
+  submit_js: 'JS عمل'
+  submit_redirect: 'ری ڈائریکٹ'
+  submit_embed_stay: 'ایمبیڈ کھلا رکھیں'
+  submit_embed_redirect: 'ایمبیڈ میں ری ڈائریکٹ'
+error:
+  ERR_FORM_TEST:
+    message: 'ٹیسٹ کے مقصد کے لیے عالمی غلطی۔'
+description: |
+  اس فارم کا استعمال جمع کرنے کے طرز عمل کو ٹیسٹ کرنے کے لیے کریں۔ یہ ڈیمو صفحے، ایجیکس، اور موڈل سیاق و سباق میں دستیاب ہے۔ نیچے ایک طرز عمل منتخب کریں اور جمع کریں:
+toast:
+  success:
+    title: کامیابی
+    message: 'فارم کامیابی سے جمع کرایا گیا۔'
+  js_action:
+    title: 'JS عمل'
+    message: 'کیا آپ فارم کو دوبارہ فعال کرنا چاہتے ہیں؟'
+    reactivate: 'دوبارہ فعال کریں'
+    dismiss: 'ختم کریں'

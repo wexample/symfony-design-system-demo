@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Farben
+page_icon: 'ph:bold/palette'
+intro: 'Keine Komponente benennt eine Farbe. Sie benennt eine Rolle – eine Fläche, einen Rand, einen Zustand – und das Thema entscheidet, wie diese Rolle auf jeder ihrer Flächen aussieht. Wechsle das Schema im Kopfbereich und beobachte, wie jede Farbprobe darunter sich bewegt, ohne dass eine einzige neu definiert wird.'
+section:
+  surfaces:
+    title: Flächen
+    description: 'Eine Höhenleiter über der Seite. Die helle Fläche ordnet sie nach Helligkeit, die dunkle Fläche danach, wie weit jede von dem Hintergrund abgehoben ist – weshalb eine Komponente nach einem Niveau und nie nach einem Grau fragt.'
+  invert:
+    title: 'Niveaus umkehren'
+    description: 'Zwanzig Abstufungen der Textfarbe, die über den Hintergrund gelegt werden, und die Quelle fast jeder Grenze, gedämpften Textes und Hover-Zustands im System. Niveau 1 ist kaum wahrnehmbar, Niveau 20 ist der Text selbst.'
+  semantic:
+    title: 'Semantische Familien'
+    description: 'Fünf Familien, die von der Seite zum Text durch die Farbe gelesen werden: Niveau 1 ist die Farbe, die die Seite kaum färbt, 17 ist die volle Farbe, 32 ist die Farbe, die den Text kaum färbt. Unterhalb der Mitte sind Hintergründe; oberhalb ist Tinte, die auf der dunklen Fläche aufhellt und auf der hellen Fläche vertieft. Eine Komponente wählt ein Niveau und nicht einen Hex-Code, was es ermöglicht, dass dieselbe Nachricht auf beiden Flächen korrekt gelesen werden kann.'
+  categories:
+    title: 'Kategorische Palette'
+    description: 'Dreizehn Farben, die nichts anderes bedeuten als "nicht die nebenstehende": die Reihe eines Diagramms, die Segmente einer Verteilung, die Phasen eines Workflows. Benannt, nicht nummeriert – eine App wählt `cat-mint`, weil es wie Minze aussieht. Jede kommt mit einer hellen und einer dunklen Variante, fixiert auf beiden Flächen wie die Füllung; die Tinte, die auf einer Füllung geschrieben ist, wird dunkel, wo die Farbe hell ist. Welche Kategorie welche Farbe ist, ist die Wahl der App, niemals die des Designsystems.'
+  text:
+    title: Text
+    description: 'Drei Ebenen der Aufmerksamkeit. Was gelesen wird, was es qualifiziert, und was nur gefunden wird, wenn danach gesucht wird.'
+  borders:
+    title: Ränder
+    description: 'Vier Stärken, die sich durch das unterscheiden, was sie trennen: zwei Dinge innerhalb einer Region, zwei Regionen einer Seite oder ein Feld von dem, was dahinter ist.'
+surface:
+  page: 'Die Seite selbst und das, was zwischen den Zonen angezeigt wird'
+  shell: 'Menü, Kopfzeile, Fußzeile'
+  zone: 'Der Boden, auf dem eine Region einer Seite steht'
+  one: 'Eingaben und Felder'
+  two: 'Schaltflächen, Werkzeugleisten'
+  three: 'Blöcke, Karten, Modals'
+text:
+  default: 'Was gelesen wird'
+  muted: 'Labels, Metadaten, Untertitel'
+  subtle: 'Trenner und leere Zustände'

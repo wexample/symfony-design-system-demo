@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dati
+page_icon: 'ph:bold/list-bullets'
+intro: 'Forme che prendono una raccolta e la rendono visibile. Ciò che le distingue è quanto di ogni record il lettore riesce a vedere e cosa può farci una volta che lo vede.'
+page:
+  files:
+    title: File
+    description: 'Un esploratore di file largo quanto una pagina, alimentato da un loader, e una cartella generata dal server.'
+  tables:
+    title: Tabelle
+    description: 'Righe e colonne, renderizzate dal server o paginate dal browser, con celle tipizzate — link, azioni, icone e date che continuano a contare.'
+  live:
+    title: Aggiornamenti
+    description: "I tre modi in cui una raccolta percepisce che ciò che mostra è cambiato — un evento dell'app, una fonte live, o polling — e a cosa serve ciascuno di essi."
+  lists:
+    title: Liste
+    description: 'Una lista che può essere cercata e filtrata dalla sua intestazione, per un insieme che il lettore esplora piuttosto che scansiona.'
+  properties:
+    title: Proprietà
+    description: 'Chiave e valore, per un record piuttosto che molti — il pannello dei dettagli di un elemento già scelto.'
+  bars:
+    title: Barre
+    description: "Un record nominato in una sola riga: un'icona, un titolo, cosa lo qualifica. La riga in cui è renderizzato un risultato di ricerca, un membro o un file."
+  tree:
+    title: Albero
+    description: "Una raccolta i cui record contengono l'uno nell'altro, caricati un livello alla volta, nel pannello fornito da un esploratore."
+  chat:
+    title: Chat
+    description: 'Una raccolta letta al contrario e aggiunta dal basso, in tempo reale, con un compositore che cresce man mano che viene scritto.'

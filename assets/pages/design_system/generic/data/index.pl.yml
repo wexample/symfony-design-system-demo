@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dane
+page_icon: 'ph:bold/list-bullets'
+intro: 'Kształty, które przyjmują kolekcję i ją renderują. Co je różni, to ile danych z każdego rekordu widzi czytelnik i co może z nimi zrobić, gdy już je zobaczy.'
+page:
+  files:
+    title: Pliki
+    description: 'Eksplorator plików o szerokości strony, zasilany loaderem i jednym folderem rysowanym przez serwer.'
+  tables:
+    title: Tabele
+    description: 'Wiersze i kolumny, renderowane przez serwer lub paginowane przez przeglądarkę, z typowanymi komórkami — linki, akcje, ikony oraz daty, które wciąż się liczą.'
+  live:
+    title: 'Na bieżąco'
+    description: 'Trzy sposoby, w jakie kolekcja dowiaduje się, że to, co pokazuje, uległo zmianie — zdarzenie aplikacji, źródło na żywo lub polling — i do czego służy każdy z nich.'
+  lists:
+    title: Listy
+    description: 'Lista, która jest przeszukiwana i filtrowana z własnego nagłówka, dla zestawu, który czytelnik przegląda, a nie skanuje.'
+  properties:
+    title: Właściwości
+    description: 'Klucz i wartość, dla jednego rekordu, a nie wielu — panel szczegółów wybranego elementu.'
+  bars:
+    title: Belki
+    description: 'Jeden rekord nazwany w pojedynczej linii: ikona, tytuł, co go kwalifikuje. Wiersz, w którym wynik wyszukiwania, członek lub plik jest renderowany.'
+  tree:
+    title: Drzewo
+    description: 'Kolekcja, której rekordy zawierają się nawzajem, ładowana poziomami, w panelu, w którym eksplorator się znajduje.'
+  chat:
+    title: Czat
+    description: 'Kolekcja czytana od tyłu i dodawana od dołu, na żywo, z kompozytorem, który rośnie w miarę pisania.'

@@ -1,0 +1,41 @@
+page_title: אישור
+section:
+  short:
+    description: 'אישור עם טקסט קצר (שכבת עליונה).'
+    button: 'פתח אישור'
+    title: 'אנא אשר'
+    message: 'האם אתה רוצה להמשיך?'
+    result_title: 'תוצאת האישור'
+    result_prefix: 'תוצאה:'
+  toast_short:
+    description: 'אישור עם טקסט קצר (התראה).'
+    button: 'פתח אישור'
+    title: 'אישור התראה'
+    message: 'להמשיך עם ההתראה?'
+    result_title: 'תוצאת אישור ההתראה'
+    result_prefix: 'תוצאה:'
+  medium:
+    description: 'אישור עם טקסט בינוני (שכבת עליונה).'
+    button: 'פתח אישור'
+    title: 'אישור בינוני'
+  long:
+    description: 'אישור עם טקסט ארוך (שכבת עליונה).'
+    button: 'פתח אישור'
+    title: 'אישור ארוך'
+  toast_medium:
+    description: 'אישור עם טקסט בינוני (התראה).'
+    button: 'פתח אישור'
+    title: 'אישור התראה בינוני'
+  toast_long:
+    description: 'אישור עם טקסט ארוך (התראה).'
+    button: 'פתח אישור'
+    title: 'אישור התראה ארוך'
+  custom:
+    description: 'פעולות אישור מותאמות (מניחים).'
+    button: 'פתח אישור'
+    title: 'אישור עם מניחים'
+    message: 'לפתוח אישור נוסף או לסגור את כולם?'
+    action:
+      new: 'אישור חדש'
+      close_all: 'סגור את כל האישורים'
+      cancel: לבטל

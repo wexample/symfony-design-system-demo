@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: การประกอบ
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: 'รูปภาพและโค้ดบล็อกในรูปแบบ vue ที่ใช้ตัวเลือกเดียวกัน.'
+  prose:
+    title: บทความเชิงบรรยาย
+  image:
+    title: ภาพ
+  media:
+    title: สื่อพร้อมข้อความ
+  dropcap:
+    title: ตัวอักษรนำหน้า
+  meta_bar:
+    title: แถบเมต้า
+    stack_note: 'แถบที่สองสามารถซ้อนอยู่ด้านล่างเพื่อจัดกลุ่มเมตาดาต้าที่แตกต่างกัน — ที่นี่คือหมวดหมู่และการวิเคราะห์.'
+    action_link_note: 'ใช้ลิงก์การกระทำสำหรับรายการเชิงโต้ตอบที่ควรเข้ากันกับแถบ — ไม่มีพื้นหลัง ไม่มีเงา สีที่ไม่สดใส.'
+image:
+  intro: 'ฟังก์ชัน content_image() จะเรนเดอร์ img พร้อม loading="lazy" โดยค่าเริ่มต้น และห่อหุ้มในองค์ประกอบ figure เมื่อมีคำบรรยายที่ให้มา.'
+  simple:
+    label: 'ไม่มีคำบรรยาย — img ธรรมดาเต็มความกว้าง.'
+    alt: 'ภาพตัวอย่าง — ไม่มีคำบรรยาย'
+  captioned:
+    label: 'มีคำบรรยาย — ห่อหุ้มใน figure พร้อม figcaption.'
+    alt: 'ภาพตัวอย่าง — มีคำบรรยาย'
+    caption: 'ฟิกเจอร์พร้อม figcaption — ใช้เพื่อให้เครดิตแหล่งที่มาหรือเพิ่มบริบทให้กับเนื้อหาทางภาพ.'
+article:
+  toc:
+    label: ในบทความนี้
+  title: ความเข้าใจเกี่ยวกับโทเคนการออกแบบ
+  intro: 'โทเคนการออกแบบเป็นแหล่งข้อมูลเดียวที่เชื่อถือได้สำหรับการตัดสินใจทางภาพทั้งหมดในผลิตภัณฑ์ พวกเขาเข้ารหัสสี การเว้นระยะ ไทโปกราฟี และการเคลื่อนไหวในตัวแปรที่มีชื่อซึ่งองค์ประกอบต่างๆ ใช้.'
+  section_one:
+    title: ทำไมโทเคนถึงสำคัญ
+    body_one: 'หากไม่มีโทเคน การเปลี่ยนแปลงสีแบรนด์หลักจะต้องค้นหาผ่านไฟล์หลายร้อยไฟล์ แต่เมื่อมีโทเคน การอัปเดตตัวแปรครั้งเดียวจะส่งผลไปทุกที่ — ตั้งแต่ปุ่มไปจนถึงการแจ้งเตือนถึงแถบการนำทาง.'
+    body_two: 'โทเคนยังเชื่อมช่องว่างระหว่างเครื่องมือออกแบบและโค้ด นักออกแบบตั้งชื่อสี <strong>surface-brand</strong> ใน Figma; นักพัฒนาจะใช้ <code>var(--surface-brand)</code> ใน CSS พวกเขาพูดภาษาเดียวกัน.'
+  section_two:
+    title: ตัวอย่างเชิงปฏิบัติ
+    body: 'พิจารณาองค์ประกอบที่ต้องการพื้นหลัง ขอบ และข้อความ แทนที่จะเข้ารหัส <code>#1a56db</code>, <code>#e1effe</code>, และ <code>#1e429f</code> แบบตายตัว องค์ประกอบจะอ้างอิง <code>--color-primary</code>, <code>--surface-primary-subtle</code>, และ <code>--text-primary-strong</code>. เมื่อแบรนด์พัฒนาขึ้น พาเลตต์จะเปลี่ยน — องค์ประกอบจะไม่เปลี่ยน.'
+  list_title: หมวดหมู่โทเคน
+  list:
+    - 'สี — แบรนด์ สีเชิงความหมาย และสีที่เป็นกลาง'
+    - 'การเว้นระยะ — สเกลที่สม่ำเสมอจาก 2px ถึง 64px'
+    - 'ไทโปกราฟี — ขนาดตัวอักษร น้ำหนัก และความสูงของบรรทัด'
+    - 'รัศมี — จากมุมแหลมจนถึงมุมมนเต็มที่'
+    - 'เงา — ระดับการยกระดับเพื่อความลึกและลำดับชั้น'
+    - 'การเคลื่อนไหว — เส้นโค้งการผ่อนคลายและระยะเวลา'
+  quote: 'คำพูดส่วนใหญ่ที่พบในอินเทอร์เน็ตอาจถูกสร้างโดย AI.'
+  quote_author: 'อัลเบิร์ต ไอน์สไตน์'
+  cta: อ่านเอกสารอ้างอิงโทเคนทั้งหมด
+media:
+  alt: ภาพตัวอย่างข้างข้อความ
+  caption: ภาพที่ใช้พื้นที่หนึ่งในสามของเลย์เอาต์.
+  body_one: 'ใช้ content--media เพื่อวางภาพและข้อความเคียงข้างกัน ภาพจะใช้ความกว้างหนึ่งในสาม ข้อความสองในสาม.'
+  body_two: 'เลย์เอาต์นี้เหมาะสำหรับคำอ้างที่ดึงดูด คำจำกัดความที่มีภาพประกอบ หรือบล็อกบรรณาธิการสั้น ๆ ที่ภาพช่วยเสริมข้อความโดยไม่ครอบงำมัน.'
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: 'อาลิซ มาร์ติน'
+  date: '18 กรกฎาคม 2026'
+  read_time: 'อ่าน 4 นาที'
+  likes: '142 ไลค์'
+  category: 'การออกแบบ UX'
+  tag: กำลังดำเนินการ
+  views: '3,847 ครั้ง'
+action:
+  share: แชร์

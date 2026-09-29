@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: Huone
+    placeholder: 'Etsi huonetta...'
+    help: 'Valitaan tietue hakemalla sitä. Lomakkeen mukana kulkee sen id.'
+  password:
+    label: Salasana
+    help: 'Syötä salasanasi kirjautuaksesi sisään.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Salasana ei ole voimassa testitarkoituksessa.'
+  emoji:
+    label: Emoji
+    help: 'Valitse emoji, joka edustaa mielialaasi.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Emoji ei ole voimassa testitarkoituksessa.'
+  text_simple:
+    label: Teksti
+    help: 'Yhden rivin tekstikenttä lyhyelle sisällölle.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Teksti ei ole voimassa testitarkoituksessa.'
+  text_area:
+    label: 'Pitkä teksti'
+    placeholder: 'Kirjoita mitä haluat...'
+    help: 'Monirivinen tekstialue pidemmälle sisällölle.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Pitkä teksti ei ole voimassa testitarkoituksessa.'
+  behavior:
+    label: Käyttäytyminen
+    help: 'Valitse, miten lomake reagoi lähettämisen jälkeen.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'Käyttäytymisen valinta ei ole voimassa testitarkoituksessa.'
+    choice:
+      error:
+        label: 'Näytä virheet'
+        description: 'sulkee upotuksen (tai ei tee mitään sivulla).'
+      js:
+        label: 'JS-toiminto (toast)'
+        description: 'palauttaa vahvistusvirheet.'
+      redirect:
+        label: Uudelleenohjaus
+        description: 'laukaisee toastin ilman lähettämistä.'
+      default:
+        label: Oletus
+        description: 'navigoi täydellä sivulla tai sulkee modaalin.'
+      embed_stay:
+        label: 'Pidä upotus auki (modaali / paneeli)'
+        description: 'pysyy auki modaalissa/paneelissa.'
+      embed_redirect:
+        label: 'Uudelleenohjaus upotuksessa (modaali / paneeli)'
+        description: 'navigoi modaalin/paneelin sisällä.'
+  date:
+    label: Päivämäärä
+    help: 'Valitse päivämäärä kalenterivalitsimella.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Päivämäärä ei ole voimassa testitarkoituksessa.'
+  datetime:
+    label: 'Päivämäärä & aika'
+    help: 'Valitse yhdistetty päivämäärä ja aika.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Päivämäärä & aika ei ole voimassa testitarkoituksessa.'
+  time:
+    label: Aika
+    help: 'Valitse vuorokauden aika.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Aika ei ole voimassa testitarkoituksessa.'
+  file:
+    label: Tiedosto
+    help: 'Lataa yksi tai useampi tiedosto laitteeltasi.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Tiedosto ei ole voimassa testitarkoituksessa.'
+  email:
+    label: Sähköposti
+    placeholder: sinä@esimerkki.com
+    help: 'Syötä voimassa oleva sähköpostiosoite.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'Sähköposti ei ole voimassa testitarkoituksessa.'
+  number:
+    label: Numero
+    help: 'Syötä numeerinen arvo.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Numero ei ole voimassa testitarkoituksessa.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Syötä täydellinen URL, mukaan lukien protokolla.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL ei ole voimassa testitarkoituksessa.'
+  switch:
+    label: Kytkin
+    help: 'Kytke tämä vaihtoehto päälle tai pois päältä.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Kytkin ei ole voimassa testitarkoituksessa.'
+  radio_choice:
+    label: Radio-valinta
+    help: 'Valitse yksi vaihtoehto luettelosta.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Radio-valinta ei ole voimassa testitarkoituksessa.'
+    choice:
+      option_a:
+        label: 'Vaihtoehto A'
+      option_b:
+        label: 'Vaihtoehto B'
+      option_c:
+        label: 'Vaihtoehto C'
+action:
+  button_demo: 'Älä tee mitään'
+  submit_default: Lähetä
+  submit_error: 'Näytä virheet'
+  submit_js: JS-toiminto
+  submit_redirect: Uudelleenohjaus
+  submit_embed_stay: 'Pidä upotus auki'
+  submit_embed_redirect: 'Uudelleenohjaus upotuksessa'
+error:
+  ERR_FORM_TEST:
+    message: 'Yleinen virhe testitarkoituksessa.'
+description: |
+  Käytä tätä lomaketta testataksesi lähettämiskäyttäytymisiä. Tämä demo on saatavilla sivu-, ajax- ja modaalikonteksteissa. Valitse käyttäytyminen alla ja lähetä:
+toast:
+  success:
+    title: Onnistui
+    message: 'Lomake lähetettiin onnistuneesti.'
+  js_action:
+    title: JS-toiminto
+    message: 'Haluatko aktivoida lomakkeen uudelleen?'
+    reactivate: 'Aktivoi uudelleen'
+    dismiss: 'Poista näkyvistä'

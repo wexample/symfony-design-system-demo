@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Typografia
+page_icon: 'ph:bold/text-aa'
+intro: 'Skala to decyzja dotycząca gęstości, a rodzaje czcionek to decyzja dotycząca typografii: ta strona pokazuje, jak kształt się czyta, a nie co jest warte dzisiaj. Przełącz oś czcionek w panelu debugowania, a wszystko poniżej ustawione jest w innym kroju bez zmiany reguły.'
+section:
+  families:
+    title: Rodziny
+    description: 'Trzy, ponieważ to, co odróżnia stronę, to: w jakim jest napisane, w jakim jest zatytułowane i co ma być odczytywane jako pisane, a nie mówione. Zestaw może nadać ten sam krój wszystkim trzem — systemowy to robi.'
+  weights:
+    title: Grubości
+    description: 'Nazwane tym, jak bardzo się upierają, nigdy przez liczby. Krój, którego 500 nie istnieje, mapuje go na to, co ma, a kształty, które proszą o średnią, wciąż proszą o średnią.'
+  typography:
+    title: 'Skala typograficzna'
+title:
+  h1:
+    title: 'System projektowania — Elementy budujące świetne interfejsy'
+    description: 'Używane raz na stronę. Ustawia główny kontekst. Połączone z krótkim wprowadzeniem.'
+  h2:
+    title: 'Typografia ustanawia hierarchię i rytm'
+    description: 'Nagłówek na poziomie sekcji. Grupuje powiązane treści. Zwykle następuje po nim tekst główny lub podsekcje.'
+  h3:
+    title: 'Odstępy i proporcje kształtują czytelność'
+    description: 'Nagłówek podsekcji. Wprowadza skoncentrowany temat w sekcji.'
+  h4:
+    title: 'Kolor i kontrast prowadzą wzrok'
+    description: 'Używane do tytułów kart, sekcji w bocznym panelu lub mniejszych grup.'
+  h5:
+    title: 'Stany interaktywne muszą być oczywiste'
+    description: 'Etykiety, nagłówki metadanych, małe grupy. Subtelne, ale wyraźnie różniące się od tekstu głównego.'
+  h6:
+    title: 'Dostępność to cecha, a nie myśl drugoplanowa'
+    description: 'Najmniejszy poziom nagłówka. Używaj oszczędnie — do przypisów, bloków prawnych lub etykiet pomocniczych.'
+sample: 'Szybki brązowy lis skacze nad leniwym psem — 0123456789'

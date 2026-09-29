@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 파일
+page_icon: 'ph:bold/folder-open'
+intro: '페이지 너비의 파일 탐색기입니다. 파일이 어디서 오는지 전혀 알지 못합니다: 폴더의 내용을 요청하고 파일 엔티티를 가져옵니다 — 트리가 가져오는 것과 같은 로더입니다 — 따라서 디스크, 인덱스, 아카이브 또는 API 모두 동일하게 읽혀집니다.'
+root: 파일
+section:
+  vue:
+    title: 탐색기
+    description: '측면에 폴더가 있고, 폴더의 내용은 임의의 열로 정렬된 목록 또는 그리드로 표시됩니다; 뒤로, 앞으로, 위로 이동; 필터; 마우스와 함께 선택 — ctrl, shift — 및 키보드 — 화살표, Enter, Backspace, ctrl+A, Escape; 폴더가 한 페이지를 초과할 경우 더 많은 요청이 있을 수 있습니다. 더블 클릭하면 폴더로 들어가고 페이지에 파일을 전달합니다. 보기와 순서는 기억됩니다.'
+  twig:
+    title: '서버에서 그려진'
+    description: '하나의 폴더가 목록 또는 그리드 형태로 표시되며, 각 항목은 링크입니다: 동일한 페이지가 열리는 폴더 — 여기서는 ?folder= 를 통해 — 파일은 페이지가 보내는 곳으로 이동합니다.'

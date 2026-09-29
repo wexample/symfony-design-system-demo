@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Dziennik grafu'
+page_icon: 'ph:bold/git-fork'
+intro: 'Elementy w linii dziedziczenia, najnowsze na początku, rysowane na kolorowych ścieżkach: tam, gdzie linia się rozwidla, gdzie dwie się znowu spotykają. Każdy element wskazuje swoich rodziców; ścieżki podążają za nimi. Co rząd pokazuje obok grafu jest wolne — tytuł, odniesienia jako kapsuły, kto, kiedy, krótka nazwa — więc historia git jest jednym z zastosowań.'
+section:
+  history:
+    title: Historia
+    description: 'Gałąź funkcjonalna scalona z powrotem, inna pozostawiona otwarta, tag na wydanie. Każda ścieżka zachowuje swój kolor od miejsca, w którym się zaczyna, do miejsca, w którym się kończy.'
+  other:
+    title: 'Coś innego niż git'
+    description: 'Wersje dokumentu, jedna z nich przeglądana z boku przed scaleniem w następną. Komponent nic nie wie o commitach.'
+  vue:
+    title: 'W vue'
+    description: 'Ta sama historia w drzewie vue, ścieżki narysowane ponownie, gdy elementy pojawiają się na początku.'
+  git:
+    title: 'Historia tej aplikacji'
+    description: 'Odczytane z repozytorium przez git_graph_items() symfony-coding, przez wspólnego czytelnika, który nigdy nie wchodzi w drogę gitowi.'
+history:
+  merge_search: 'Scal gałąź wyszukiwania'
+  search_filters: 'Dodaj filtry do wyszukiwania'
+  fix_header: 'Napraw nagłówek na małych ekranach'
+  try_theme: 'Wypróbuj ciemniejszy motyw'
+  search_index: 'Indeksuj dokumenty'
+  release: 'Wydanie 2.1.0'
+  search_start: 'Rozpocznij wyszukiwanie'
+  initial: 'Pierwszy commit'
+versions:
+  v4: 'Wersja 4, z zastosowaną recenzją'
+  current: aktualna
+  review: 'Zmiany recenzenta'
+  review_ref: recenzja
+  v3: 'Wersja 3'
+  v2: 'Wersja 2'
+  v1: 'Wersja 1'

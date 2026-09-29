@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Paski
+page_icon: 'ph:bold/rows'
+intro: 'Pasek nazywa jedną rzecz w jednej linii: czym jest, jak się nazywa, co go kwalifikuje i co należy do jego końca. To kształt, nie powiązanie — jednostka osiąga go przez własny szablon, ale wynik wyszukiwania, który jest plikiem, aplikacją lub ustawieniem, używa tego samego oznaczenia.'
+finding:
+  fix: Napraw
+  date: 'Ustaw datę'
+  error:
+    title: 'Brak obowiązkowej sekcji „Cel”'
+    subtitle: 01-PROCESY/PR-004-dokumentacja-kontroli.md
+  warning:
+    title: 'Data przeglądu jest w przeszłości'
+    subtitle: '01-PROCESY/PR-004-dokumentacja-kontroli.md:4'
+  info:
+    title: 'Pole właściciela pozostawione puste'
+    subtitle: 'Nie blokuje dla szkicu, wymagane przed przeglądem'
+section:
+  findings:
+    title: Wyniki
+    description: 'Co raportuje analiza, jeden pasek każdy: wynik jako tytuł, gdzie jest jako podtytuł, i co można z tym zrobić w ostatnim miejscu — nic tam, gdy nic nie można zrobić. Powaga to ton bloku, który avatar na górze również przyjmuje.'
+  alone:
+    title: 'Sam pasek'
+    description: 'Wszystko poza tytułem jest opcjonalne. Wiodące miejsce zajmuje ikona lub jakiekolwiek oznaczenie, gdy potrzebny jest prawdziwy avatar; ostatnie miejsce zajmuje data, tag, rząd przycisków. Dany link, cała szerokość staje się celem, a tytuł zachowuje kolor miejsca, w którym się znajduje.'
+  search:
+    title: 'Lista wyników'
+    description: 'Lista przynosi ramkę, pole wyszukiwania i separatory; każdy wiersz przynosi pasek. Nic tutaj nie jest jednostką — to jest sens: ten sam wiersz służy osobie, dokumentowi, aplikacji i preferencji.'
+  surfaces:
+    title: 'Jedna powierzchnia dla każdego'
+    description: 'Inne odczytanie listy — brak wspólnego tła i linii, każdy pasek stojący na własnym bloku z przestrzenią wokół. Nic nowego do stylizacji, pasek po prostu przyjmuje klasy bloku, a dany link sprawia, że cała karta staje się celem.'
+  divided:
+    title: 'Pusta lista'
+    description: 'Gdy ramka już jest, pionowy stos z przegrodami wystarczy — brak własnego kształtu, tylko linia między dwoma wierszami.'
+  vue:
+    title: 'Lista ich w Vue'
+    description: 'Te same wiersze odczytane z punktu końcowego, a nie zapisane: lista zawiera stronę, paginację i stan pusty, a każda jednostka mówi, co należy na niej odczytać — tytuł, co ją kwalifikuje, ikonę, dokąd prowadzi, datę na końcu. Odczyty powyżej to jej warianty, `podzielona`, a potem `powierzchnie`.'
+  keeping_up:
+    title: 'I utrzymywana na bieżąco'
+    description: 'Lista pasków to zbiór jak każdy inny, więc trzy sposoby, w jakie zbiór słyszy, że świat się zmienił, są dla niego otwarte: zdarzenie aplikacji, źródło na żywo, polling. Ten słucha zdarzenia — zadzwoń i obserwuj, jak wiersze wracają. Zobacz Utrzymywanie aktualności dla trzech z nich obok siebie.'
+sample:
+  minimal:
+    title: 'Tytuł samodzielny'
+  icon:
+    title: 'Z wiodącą ikoną'
+  subtitle:
+    title: 'Maya Lindqvist'
+    subtitle: maya@example.com
+  trailing:
+    title: 'Raporty kwartalne'
+    subtitle: '14 dokumentów'
+  link:
+    title: 'Pasek, który jest linkiem'
+    subtitle: 'Cała szerokość jest celem'
+search:
+  placeholder: 'Szukaj wszystkiego'
+  value: raport
+  filter: Filtruj
+result:
+  user:
+    title: 'Maya Lindqvist'
+    subtitle: 'Osoba · Zespół produktowy'
+  file:
+    title: 'Raport kwartalny Q3.pdf'
+    subtitle: 'Dokument · 2.4 MB'
+  app:
+    title: Raportowanie
+    subtitle: 'Aplikacja · Zainstalowana'
+  setting:
+    title: 'Zachowanie raportu'
+    subtitle: 'Ustawienie · Przechowywanie'
+member:
+  maya:
+    title: 'Maya Lindqvist'
+    subtitle: Właściciel
+  sam:
+    title: 'Sam Okonkwo'
+    subtitle: Redaktor
+  robot:
+    title: 'Nocny import'
+    subtitle: 'Konto serwisowe'

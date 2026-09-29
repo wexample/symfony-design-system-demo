@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: ツールバー
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 見出しとそのマーカー
+    description: '物がどのように分類されているか、どこにあるか、どのバージョンか：3つのマーカーが1行として表示されるので、素材に関係なく同じ高さを持ちます — ピルは通常その中にあるテキストのためにエムサイズに設定され、横にあるカプセルのバーがそれをレベルにします。見出しは余白を放棄し、名前を最左端に保ちます。'
+  default:
+    title: 基本ツールバー
+  title:
+    title: タイトル付きツールバー
+  title_multi:
+    title: アクション付きセクションタイトル
+title:
+  example: ページタイトル
+  section: セクションタイトル
+  document: デザインと開発
+marker:
+  state: 常緑
+button:
+  create: 作成
+  refresh: 更新
+  export: エクスポート
+  edit: 編集
+  delete: 削除
+  history: 履歴
+  share: 共有

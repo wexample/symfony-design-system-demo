@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'לוח בקרה'
+page_icon: 'ph:bold/squares-four'
+mode:
+  reopen: 'פתח מחדש את לוח ה-API'
+  gap: 'עם רווחים'
+  flush: נקה
+state:
+  success: נורמלי
+  warning: מופחת
+  error: כושל
+  running: מתנקז
+tile:
+  traffic:
+    title: תעבורה
+    figure: '12.4k req/min'
+    description: 'חלוקות בתוך חלוקה: הקיר הוא חלוקה אנכית של שורות, כל שורה חלוקה בפני עצמה. גרור את הקצה מתחת לשורה זו כדי לתת לה יותר גובה, או את זה לצד האריח הזה כדי להרחיב אותה.'
+  latency:
+    title: 'ליטוי p95'
+    figure: '184 ms'
+    description: 'כל אריח שמו קומה, `zone--min-*`: מתחתיו האריח לא נדחס, המסגרת גוללת במקום זאת — מצד לצד וגם למטה.'
+  errors:
+    title: שגיאות
+    figure: '2.1 %'
+    description: 'כאשר הוא שונה גודל, אזור שומר על הגודל שבו עזבנו אותו לאורך ציר החלוקה שלו, וחוזר עם זה; קליק כפול על הידית מחזיר אותו לחלוקה.'
+  queue:
+    title: תור
+    figure: '318 עבודות'
+    description: '`zone--split--flush` מצמצם את הפער לפיקסל, הקו שעל הקיר מושך את הגבול בין האריחים. מספיק שהמחלקה על הקיר תהיה אחת, השורות ירשו אותה.'
+  deploys:
+    title: הפצות
+    figure: '7 היום'
+    description: 'ללא זה, אותו קיר שומר על החלל בין האריחים שלו, דרכו מראה הקרקע של הדף — החלף בסרגל למעלה. גלול ימינה עבור פאנל שמטען רק לאחר שנראה.'

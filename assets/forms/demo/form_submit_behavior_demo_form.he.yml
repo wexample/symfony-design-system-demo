@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: חדר
+    placeholder: 'חפש חדר...'
+    help: 'בחר רישום על ידי חיפוש שלו. מה שהטופס נושא הוא ה-id שלו.'
+  password:
+    label: סיסמה
+    help: 'הזן את הסיסמה שלך כדי לאמת.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'הסיסמה אינה תק válida לצורכי בדיקה.'
+  emoji:
+    label: "אימוג'י"
+    help: "בחר אימוג'י כדי לייצג את מצב רוחך."
+    error:
+      ERR_FIELD_EMOJI_INVALID: "האימוג'י אינו תקף לצורכי בדיקה."
+  text_simple:
+    label: טקסט
+    help: 'שדה טקסט בשורה אחת עבור תוכן קצר.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'הטקסט אינו תקף לצורכי בדיקה.'
+  text_area:
+    label: 'טקסט ארוך'
+    placeholder: 'כתוב מה שאתה רוצה...'
+    help: 'שדה טקסט מרובה שורות עבור תוכן ארוך יותר.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'הטקסט הארוך אינו תקף לצורכי בדיקה.'
+  behavior:
+    label: התנהגות
+    help: 'בחר כיצד הטופס יגיב לאחר שליחה.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'בחירת התנהגות אינה תקפה לצורכי בדיקה.'
+    choice:
+      error:
+        label: 'הצג שגיאות'
+        description: 'סוגר את ההטמעה (או לא עושה כלום בדף).'
+      js:
+        label: 'פעולה JS (toast)'
+        description: 'מחזיר שגיאות אישור.'
+      redirect:
+        label: הפניה
+        description: 'מפעיל toast מבלי לשלוח.'
+      default:
+        label: 'ברירת מחדל'
+        description: 'מנווט את הדף המלא, או סוגר את המודאל.'
+      embed_stay:
+        label: 'שמור את ההטמעה פתוחה (מודאל / פאנל)'
+        description: 'נשאר פתוח במודאל/פאנל.'
+      embed_redirect:
+        label: 'הפניה בהטמעה (מודאל / פאנל)'
+        description: 'מנווט בתוך המודאל/פאנל.'
+  date:
+    label: תאריך
+    help: 'בחר תאריך באמצעות בורר התאריך.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'התאריך אינו תקף לצורכי בדיקה.'
+  datetime:
+    label: 'תאריך ושעה'
+    help: 'בחר תאריך ושעה משולבים.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'התאריך והשעה אינם תקפים לצורכי בדיקה.'
+  time:
+    label: שעה
+    help: 'בחר שעה ביום.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'הזמן אינו תקף לצורכי בדיקה.'
+  file:
+    label: קובץ
+    help: 'העלה קובץ אחד או יותר מהמכשיר שלך.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'הקובץ אינו תקף לצורכי בדיקה.'
+  email:
+    label: 'דוא"ל'
+    placeholder: you@example.com
+    help: 'הזן כתובת דוא"ל תקפה.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'הדוא"ל אינו תקף לצורכי בדיקה.'
+  number:
+    label: מספר
+    help: 'הזן ערך מספרי.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'המספר אינו תקף לצורכי בדיקה.'
+  url:
+    label: 'כתובת URL'
+    placeholder: 'https://'
+    help: 'הזן כתובת URL מלאה כולל הפרוטוקול.'
+    error:
+      ERR_FIELD_URL_INVALID: 'כתובת ה-URL אינה תקפה לצורכי בדיקה.'
+  switch:
+    label: מתג
+    help: 'החלף אפשרות זו על או off.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'המתג אינו תקף לצורכי בדיקה.'
+  radio_choice:
+    label: 'בחירת רדיו'
+    help: 'בחר אפשרות אחת מתוך הרשימה.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'בחירת הרדיו אינה תקפה לצורכי בדיקה.'
+    choice:
+      option_a:
+        label: 'אפשרות A'
+      option_b:
+        label: 'אפשרות B'
+      option_c:
+        label: 'אפשרות C'
+action:
+  button_demo: 'אל תעשה כלום'
+  submit_default: שלח
+  submit_error: 'הצג שגיאות'
+  submit_js: 'פעולה JS'
+  submit_redirect: הפניה
+  submit_embed_stay: 'שמור את ההטמעה פתוחה'
+  submit_embed_redirect: 'הפניה בהטמעה'
+error:
+  ERR_FORM_TEST:
+    message: 'שגיאה כללית לצורכי בדיקה.'
+description: |
+  השתמש בטופס זה כדי לבדוק התנהגויות שליחה. הדגמה זו זמינה בהקשרים של דף, AJAX ומודאל. בחר התנהגות למטה ושלח:
+toast:
+  success:
+    title: הצלחה
+    message: 'הטופס נשלח בהצלחה.'
+  js_action:
+    title: 'פעולה JS'
+    message: 'האם אתה רוצה להפעיל מחדש את הטופס?'
+    reactivate: 'הפעל מחדש'
+    dismiss: סגור

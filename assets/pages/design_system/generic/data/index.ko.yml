@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 데이터
+page_icon: 'ph:bold/list-bullets'
+intro: '컬렉션을 수집하고 렌더링하는 형태입니다. 이들을 구분짓는 것은 독자가 각 기록을 얼마나 볼 수 있는지, 그리고 그것을 보고 나서 무엇을 할 수 있는지입니다.'
+page:
+  files:
+    title: 파일
+    description: '페이지 너비의 파일 탐색기로, 로더에 의해 제공되며, 서버에 의해 그려진 하나의 폴더입니다.'
+  tables:
+    title: 표
+    description: '서버에서 렌더링되거나 브라우저에 의해 페이지 매김된 행과 열, 링크, 작업, 아이콘 및 날짜가 포함된 타이핑된 셀로 구성됩니다.'
+  live:
+    title: 유지하기
+    description: '컬렉션이 보여주는 내용이 변경되었다는 것을 듣는 세 가지 방법 — 앱 이벤트, 라이브 소스 또는 폴링 — 그리고 각각의 용도입니다.'
+  lists:
+    title: 목록
+    description: '독자가 스캔하기보다는 탐색하는 세트를 위해 자체 헤더에서 검색 및 필터링되는 목록입니다.'
+  properties:
+    title: 속성
+    description: '여러 기록이 아닌 하나의 기록을 위한 키와 값 — 이미 선택된 항목의 세부 패널입니다.'
+  bars:
+    title: 바
+    description: '하나의 줄에 명명된 하나의 기록: 아이콘, 제목, 자격을 갖춘 것. 검색 결과, 구성원 또는 파일이 렌더링되는 행입니다.'
+  tree:
+    title: 트리
+    description: '각 기록이 서로 포함된 컬렉션으로, 한 번에 한 레벨씩 로드되며 탐색기가 제공하는 패널에 표시됩니다.'
+  chat:
+    title: 채팅
+    description: '거꾸로 읽고 아래에서 추가되는 컬렉션으로, 작성되면서 커지는 작곡기가 있습니다.'

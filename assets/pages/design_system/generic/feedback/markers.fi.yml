@@ -1,0 +1,59 @@
+page_title: Merkit
+page_icon: 'ph:bold/seal-check'
+intro: 'Yksi kapseli kaikkeen siihen, mitä asiasta voidaan sanoa sanassa: tila, nimi, versio, kategoria. Ne olivat kaksi objektia kunnes eräänä päivänä koodi ja tila seisoivat vierekkäin yhdessä otsikossa, pää eristyksissä, eikä kukaan voinut sanoa, mitä ero tarkoitti — joten muoto on yksi ja sävy on se, mikä erottaa ne toisistaan. Se, mitä se kantaa, on vapaa: sana, luku, glyyfi tai kaksi näistä kolmesta. Ympyrä seisoo paikassa, jossa ei ole tilaa kapselille, ja laskuri, joka roikkuu riviltä ja on koon mukaan, on se ainoa asia täällä, joka ei ole merkki.'
+section:
+  inline:
+    title: 'Lauseen keskellä'
+    description: 'Sana, joka on eristetty lukiessa: versio, vaihe, kategoria. Neutraali sävy, koska värillinen merkki on jo tehnyt väitteen siitä, mitä se merkitsee — ja lauseessa ei ole mitään väitettävää.'
+  palette:
+    title: Kategoriat
+    description: 'Sävyt, jotka erottavat asioita ilman järjestystä. Ne eivät kanna merkitystä — mikään ei sano, että kolmas on parempi kuin viides — mikä tekee niistä käyttökelpoisia taksonomiaan, jossa merkitys olisi valhe. Kulutetaan samalla tavalla kuin tila: sama kapseli, sama rytmi.'
+  against:
+    title: 'Laskuri merkin vieressä'
+    description: 'Yksi jäljellä oleva ero, eikä se liity merkitykseen. Vasemmalla laskuri: kaksitoista jotain, roikkuen riviltä, joka johtaa siihen ja koon mukaan rivin tekstissä. Oikealla merkki: kaksitoista jotain, joka meni hyvin, seisten itsenäisesti ja koon mukaan tokenien mukaan. Laskuri menu-alkion vieressä on laskuri; sama luku putkilinjan sarakkeessa on merkki.'
+  words:
+    title: 'Tila sanoissa'
+    description: 'Ilmoitettu lauseessa tai otsikon vieressä, jossa se on viesti eikä merkki sarakkeessa.'
+  figures:
+    title: 'Tila luettuna kymmenittäin'
+    description: 'Sarakkeessa, rasti neutraalin laskurin vieressä luetaan kahtena objektina ja niiden taulukko luetaan meluna. Tässä väri sulkee kuvion ja sarake skannataan yhdellä käynnillä — kompakti, koska solulla ei ole tilaa hukattavaksi.'
+  payload:
+    title: 'Mitä se kantaa'
+    description: 'Sana siitä, mikä tila on, luku siitä, kuinka monta on, molemmat tai ei mitään. Luku on aina piirretty askeleen taakse muusta: se täsmentää tilan, se ei ole tila.'
+  weights:
+    title: 'Kolme muotoa vierekkäin'
+    description: 'Sama tieto siinä paikassa, jossa se todella luetaan. Ympyrä on muoto solulle, joka on liian kapea kapselille, ja ainoa, joka voi näyttää tilan olevan määrä — ja se on piirretty juuri sillä värillä, jota kapseli täyttää.'
+  circles:
+    title: Ympyrät
+    description: 'Tila kerrottuna ympyrällä sen sijaan, että se olisi sana, paikassa, jossa tiloja luetaan kymmenittäin — luettelo juoksuista, työn rivi. Rengas kantaa väriä, glyyfi sisällä sanoo, mikä tila se on, ja molemmat puolet pinosta piirtävät saman merkinnän.'
+  progress:
+    title: 'Tila, joka on määrä'
+    description: 'Juoksu on ainoa tila, jossa on määrä, joten sen rengas on piirretty niin pitkälle kuin juoksu on edennyt. Twig tulostaa arvon, jonka se saa; sen siirtäminen jälkeenpäin on selaimen asia.'
+  sizes:
+    title: 'Ympyrän koot'
+  vue:
+    title: Vue
+    description: 'Sama komponentti, ohjattu: tyypin tai arvon vaihtaminen liikuttaa kaarta sen sijaan, että se piirrettäisiin uudelleen. Tämä on se, mitä sovellus asettaa, kun tila on muuttumassa lukijan silmien alla.'
+  code:
+    title: Käyttö
+state:
+  success: 'Toiminto onnistui'
+  error: 'Tapahtui virhe'
+  warning: 'Jatka varovaisesti'
+  info: 'Tietojasi varten'
+  passed: Hyväksytty
+weights:
+  column:
+    form: Muoto
+  row:
+    capsule: Kapseli
+    circle: Ympyrä
+example:
+  sentence:
+    released: 'Versio 2.4 on'
+    deprecated: 'Tämä API on'
+marker:
+  neutral: Neutraali
+  released: Julkaistu
+  deprecated: Vanhenemassa
+  tag: Kategoria

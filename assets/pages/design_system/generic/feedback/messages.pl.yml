@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Wiadomości
+page_icon: 'ph:bold/notification'
+section:
+  block:
+    title: 'Zablokowane wiadomości'
+  compact:
+    title: 'Kompaktowe wiadomości'
+    description: 'Niezdobyta wersja, do określania stałych zasad zamiast raportowania zdarzenia. Przekaż kompaktowe do opcji.'
+  default:
+    title: 'Rodzaje wiadomości'
+  vue:
+    title: Vue
+    description: 'Te same cztery warianty jak części vue, każda z ikoną, którą jej funkcja twig wstawia dla wywołującego.'
+compact:
+  rule:
+    one: 'Wystawiona faktura musi być powiązana z przychodzącą, chyba że jest to sprzedaż.'
+    two: 'Faktury wychodzące muszą być tworzone przez administratora.'
+    three: 'Cała kwota musi być przypisana przed wystawieniem faktury.'
+message:
+  info:
+    title: 'Wiadomość informacyjna'
+    body: 'To krótka wiadomość informacyjna.'
+  success:
+    title: 'Wiadomość o sukcesie'
+    body: 'Akcja zakończona pomyślnie.'
+  warning:
+    title: 'Wiadomość ostrzegawcza'
+    body: 'Coś wymaga Twojej uwagi.'
+  error:
+    title: 'Wiadomość o błędzie'
+    body: 'Wystąpił błąd podczas przetwarzania żądania.'

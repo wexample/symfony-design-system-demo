@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Abstände
+page_icon: 'ph:bold/ruler'
+intro: 'Zwei Skalen und eine Regel. Eine Form schreibt niemals eine Länge: Sie verbraucht einen Schritt, was verhindert, dass zwei Komponenten, die ein Jahr auseinander geschrieben sind, zwei Pixel aus dem Rhythmus geraten.'
+section:
+  space:
+    title: Abstandsschritte
+    description: 'Neun Schritte, von einer feinen Linie bis zu einem Seitenrand. Innenabstände, Lücken und Ränder stammen alle hierher – ein Wert zwischen zwei Schritten ist ein Wert, der noch nicht entschieden wurde.'
+  size:
+    title: Größen
+    description: 'Die Breiten und Höhen, die einem Bereich zugewiesen werden: eine Spalte, ein Panel, ein Lesemaß. Größer als ein Abstandsschritt und aus demselben Grund verwendet.'
+  density:
+    title: Dichte
+    description: 'Kompaktheit gehört zu einem Bereich und nicht zu einem Widget. Eine als kompakt deklarierte Leiste macht auch das, was sie enthält, kompakt, da die Tokens, die sie tragen, erben – kein darunterliegendes Element wird darüber informiert, wo es steht.'
+density:
+  roomy: 'Eine Werkzeugleiste in ihrer eigenen Dichte und die Schaltflächen, die sie enthält'
+  compact: 'Die gleiche Werkzeugleiste als kompakt deklariert – es wurde nichts über die Schaltflächen gesagt'
+  marker: 'Ein Bereich, der als kompakt deklariert ist, ohne eine eigene Form zu haben'
+  action: Erstellen
+  other: Aktualisieren

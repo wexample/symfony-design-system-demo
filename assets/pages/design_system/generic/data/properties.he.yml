@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: מאפיינים
+page_icon: 'ph:bold/list-dashes'
+intro: 'זוגות מפתח / ערך מוצגים כרשימת הגדרות. השורות הן תתי-רשימות של הרשימה, כך שהמפתחות נשארים מיושרים בעמודה אחת בזמן שכל שורה נשארת תיבה אמיתית שיכולה להכיל מפריד.'
+section:
+  default:
+    title: 'ברירת מחדל'
+    description: 'עמודת המפתח מתאימה את עצמה על פי התווית הארוכה ביותר. ניתן לעקוף את --properties-key-width כדי לקבע אותה.'
+  bordered:
+    title: 'עם גבול'
+    description: 'מפריד בין שורות, עבור רשומות צפופות בתוך גוף בלוק.'
+    block_title: 'פרטי חיבור'
+  split:
+    title: מפוצל
+    description: 'ערכים נדחפים לקצה הימני — סכומים, יתרות, כל דבר שנקרא כעמודת מספרים.'
+  compact:
+    title: קומפקטי
+    description: 'שורות צפופות יותר כאשר הרשימה משנית לשאר הבלוק.'
+  stacked:
+    title: ערום
+    description: 'מפתח מעל ערך, עבור עמודות צרות שבהן שתי עמודות ייגמרו רע.'
+    aside: 'הגוף שומר על רוחב שארית בזמן שעמודת הצד נשארת קבועה.'
+  columns:
+    title: עמודות
+    description: 'עשרה זוגות קצרים נקראים רע בעמודה אחת גבוהה: העין חוצה את רוחב הדף בין מפתח לערכו, והמפרידים בסופו של דבר מחזיקים כל זוג יחד. כאשר הם מסודרים בעמודות — כמה שרוחב מאפשר, עד לאחת בטלפון — זוג הופך לחסימת מידע קטנה של שתי שורות שאינה זקוקה לכללים סביבה. ערך שלא יכולה להחזיק עמודה לוקח את כל הרוחב עם `full`.'
+  vue:
+    title: Vue
+    description: 'אותה רשימה כחלק Vue, לוקחת את המודיפיקטורים כפרמטרים: רשומה שנבנית בזמן שהדף פועל נקראת כמו אחת שהוצגה עם זה.'
+field:
+  name:
+    key: שם
+    value: 'תחזית צינור'
+  identifier:
+    key: מזהה
+    value: prj_8f21c4a7
+  description:
+    key: תיאור
+    value: 'אוגרת אירועים נכנסים ומציגה אותם כתחזית שניתן לשאול.'
+  status:
+    key: סטטוס
+    value: מוכן
+  owner:
+    key: בעלים
+    value: 'צוות הפלטפורמה'
+  created:
+    key: נוצר
+    value: '14 במרץ, 2026'
+  region:
+    key: אזור
+    value: eu-west-1
+  runtime:
+    key: 'סביבת ריצה'
+    value: 'PHP 8.3'
+  version:
+    key: גרסה
+    value: 1.4.2
+  reviewed:
+    key: 'נבדק ב'
+    value: null
+  path:
+    key: קובץ
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: 'סכום ביניים'
+    value: '1,240.00 €'
+  tax:
+    key: מס
+    value: '248.00 €'
+  total:
+    key: 'סה"כ'
+    value: '1,488.00 €'

@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Chat
+page_icon: 'ph:bold/chats-circle'
+chat:
+  title: Chat-esimerkki
+vue:
+  title: Vue
+  description: |
+    Sama ketju ja sama kirjoittaja, joita hallitsee entiteetti chat-komponentti. Se pitää sisällään kokoelman entiteettejä eikä tiedä, mitä ne ovat: kirjoittaja, teksti ja päivämäärä luetaan projekteista, joita aliluokka ohjaa, ja lähetetty viesti menee varastoon kuten mikä tahansa muu luomus. Vastaus kirjoitetaan, kun pyyntö on ohi, joten se ei voi palata viestin vastaukseen: se saavuttaa sivun tämän ketjun kautta, joka on live-tilauksessa huoneessaan.
+description:
+  body: |
+    Tätä chat-leikkikenttää käytetään viestien rytmin, välin ja pystysuoran tiheyden vahvistamiseen ennen lopullista käyttöliittymän muotoilua. Pidä tämä lohko tahallisesti laveana, jotta asettelussa on riittävästi korkeutta simuloimaan realistista keskustelun kulkua, mukaan lukien keskikokoiset ja pitkät rivit, rivinvaihtokäyttäytyminen ja luonnolliset lukupysähdykset useiden lauseiden yli. Tavoitteena on tarjota vakaa visuaalinen perusta, jota tulevat chat-komponentit voivat seurata, jotta mittaukset pysyvät johdonmukaisina, kun tämä teksti korvataan oikeilla käyttäjän ja avustajan viesteillä.
+composer:
+  placeholder: 'Kirjoita viesti...'
+  submit_label: 'Lähetä viesti'
+  action_plus_label: 'Lisää sisältöä'
+  action_smiley_label: 'Lisää emoji'
+  multiline_value: |
+    Tämä on pidempi chat-luonnos, jota käytetään monirivisen tilan esikatseluun. Se kattaa useita rivejä, joten visuaalinen ero yhden rivin kenttään on ilmeinen.
+messages:
+  user_1: |
+    Voitko tiivistää eilisen synkronoinnin toimintakohdat ja pitää vain päätökset, joita voimme toteuttaa tällä viikolla?
+  user_2: |
+    Pidä myös tulos lyhyenä, koska tämä kopioidaan managerin sivupalkkiin.
+  assistant_1: |
+    Totta. Voin antaa tiiviin yhteenvedon prioriteeteista, vastuuhenkilöistä ja seuraavista tarkistuskohtaista.
+  assistant_2: |
+    Pidän vain vahvistetuista päätöksistä ja poistan avoimet kysymykset, jotka vielä tarvitsevat selvitystä.
+  assistant_3: |
+    Ehdotettu rakenne: 1. Välittömät toimenpiteet. 2. Riippuvuudet. 3. Seurattavat riskit.
+  assistant_4: |
+    Kun tämä on vahvistettu, tästä rakenteesta voi tulla oletusmalli chat-valikolle managerissa.

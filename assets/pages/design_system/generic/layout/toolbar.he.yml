@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'סרגל כלים'
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'כותרת ומסמניו'
+    description: 'מה שמוגדר כדבר, היכן שהוא נמצא ואיזו גרסה: שלושה מסמנים נקראים כשורה אחת, כך שהם חולקים גובה לא משנה ממה הם עשויים — כדור בגובה אמס עבור הטקסט שבו הוא נמצא בדרך כלל, ובר מסדר אותו על הקפסולה לצידו. הכותרת מוותרת על השוליים שלה ושומרת את השם בצד השמאלי הרחוק.'
+  default:
+    title: 'סרגל כלים בסיסי'
+  title:
+    title: 'סרגל כלים עם כותרת'
+  title_multi:
+    title: 'כותרת סעיף עם פעולות'
+title:
+  example: 'כותרת עמוד'
+  section: 'כותרת סעיף'
+  document: 'עיצוב ופיתוח'
+marker:
+  state: 'ירוק תמיד'
+button:
+  create: צור
+  refresh: רענן
+  export: ייצא
+  edit: ערוך
+  delete: מחק
+  history: היסטוריה
+  share: שתף

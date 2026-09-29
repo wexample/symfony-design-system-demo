@@ -1,0 +1,31 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Progresso
+page_icon: 'ph:bold/gauge'
+intro: 'Quanto lontano è arrivato qualcosa, rappresentato come un rapporto tra 0 e 1 in una proprietà personalizzata — proprio come il cerchio di stato porta il suo arco, così entrambi i lati dello stack riempiono la barra con una dichiarazione. Twig stampa il valore che gli viene dato; spostarlo dopo è compito del browser.'
+section:
+  default:
+    title: Stati
+    description: 'Il valore è un conteggio o una quota espressa come percentuale, e non risponde mai al di fuori dei suoi limiti. Il colore è quello del feedback, quindi una barra indica come è terminato il suo lavoro nello stesso linguaggio di un messaggio o di uno stato.'
+  plain:
+    title: 'Senza un totale'
+    description: "Cento è ciò a cui conta una barra quando nessuno dice diversamente, il che rende una percentuale l'unica cosa in grado di darle un senso. Un totale proprio è per lavori conteggiati in cose piuttosto che in parti."
+  indeterminate:
+    title: 'Una fine che non è nota'
+    description: "Lavoro in corso di cui nessuno conosce l'ampiezza: la barra si muove e non indica alcun numero. Rivendicare una quota qui sarebbe una stima travestita da misurazione."
+  compact:
+    title: Compatto
+    description: 'Ridotto a ciò che deve dire, per una linea di stato o un piè di pagina: una traccia più sottile, la dicitura accanto piuttosto che sopra, e la densità trasferita a qualsiasi cosa si trovi con essa.'
+  vue:
+    title: 'Vue, guidata'
+    description: "La stessa barra, con il vocabolario che il progresso della cli già parla — aggiorna, avanza, finisce, ripristina. Un passo senza nulla detto a riguardo vale un'unità, che è ciò che si chiama dove né l'unità né il totale significano qualcosa."
+bar:
+  queued: 'In coda'
+  working: 'Costruendo risorse'
+  almost: 'Caricamento in corso'
+  done: Distribuito
+  failed: 'Migrazione fallita'
+  counted: 'File letti'
+  unknown: 'In cerca di qualcosa'
+  indexing: Indicizzazione
+compact:
+  app: acme-blog

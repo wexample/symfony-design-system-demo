@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kontrolki
+page_icon: 'ph:bold/cursor-click'
+intro: 'Co robi czytelnik. Każdy z nich wykonuje akcję, a nie przyjmuje wartość — pole formularza przyjmuje wartość i znajduje się w następnej sekcji.'
+page:
+  buttons:
+    title: Przyciski
+    description: 'Ten, który coś robi, w swoich wariantach, stanach i gęstościach, plus link i cel, które otwierają się w innym miejscu.'
+  menus:
+    title: Menu
+    description: 'Przycisk, który otwiera listę wyborów, umieszczając się wzdłuż krawędzi okna, w gałęzi i w widoku.'
+  steppers:
+    title: Kroki
+    description: 'Gdzie czytelnik znajduje się w sekwencji kroków, z tymi za sobą, do których można wrócić.'
+section:
+  compound:
+    title: 'Wszystko razem'
+    description: 'Ten sam zestaw kontrolek w trzech kontekstach: wypełniony blok, pasek narzędzi i kompaktowy pasek narzędzi. Nic w kontrolkach się nie zmienia między tymi trzema — to region mówi im, ile mają miejsca.'
+button:
+  primary: 'Przycisk główny'
+select:
+  option_one: 'Opcja pierwsza'
+  option_two: 'Opcja druga'
+  option_three: 'Opcja trzecia'
+menu:
+  primary: 'Przycisk menu'
+  item:
+    report: Raport
+    settings: Ustawienia
+    logout: 'Wyloguj się'
+    long: 'Z dość, dość, dość, dość długim tytule'
+switch:
+  label_right: 'Włącz funkcję'
+link:
+  external: 'Link zewnętrzny'

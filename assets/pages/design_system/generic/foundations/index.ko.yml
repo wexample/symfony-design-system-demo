@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 기초
+page_icon: 'ph:bold/diamonds-four'
+intro: '모든 것이 여기에 기반합니다. 이 페이지의 내용은 구성 요소가 아니라 모든 다른 섹션이 보이지 않게 읽는 색상, 간격, 타이포그래피 및 이들을 끌어들이는 외관입니다.'
+page:
+  colors:
+    title: 색상
+    description: '페이지가 쌓여 있는 표면, 반전 수준의 경계와 muted 텍스트가 그려지는 방식, 그리고 다섯 가지 의미적 가족. 테마의 양면이 나란히 있습니다.'
+  spacing:
+    title: 간격
+    description: '아홉 개의 간격 단계, 크기, 그리고 밀도 패턴 — 한 영역이 스스로를 컴팩트하게 선언하는 방법과 그것이 담고 있는 모든 것에 미치는 영향입니다.'
+  typography:
+    title: 타이포그래피
+    description: '타입 스케일과 무게, 그리고 같은 스케일이 프로즈 페이지에서 작용하는 방식입니다.'
+  skin:
+    title: 외관
+    description: '사물들이 동일한 색상과 밀도로 그려지는 방식: 반지름, 그림자, 경계 및 구분선. 테마의 특성을 가진 유일한 축입니다.'

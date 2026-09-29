@@ -1,0 +1,6 @@
+page_title: 'Test modalny - długi'
+intro: 'Ten modal używa długiego tekstu.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Czy na pewno chcesz zamknąć ten modal z długim tekstem?'

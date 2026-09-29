@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 피드백
+page_icon: 'ph:bold/megaphone'
+intro: '인터페이스가 다시 말하는 내용입니다. 독자의 주목을 요구하는 정도에 따라 정렬되며, 주목받기를 기다리는 한 줄부터 무시할 수 없는 대화 상자까지 포함됩니다.'
+page:
+  toasts:
+    title: 토스트
+    description: '무언가가 발생했고 끝났습니다: 가장자리에서 나타나고 스스로 사라지는 알림입니다.'
+  banners:
+    title: 배너
+    description: '페이지 전체를 차지하며 처리될 때까지 유지되는 내용입니다.'
+  messages:
+    title: 메시지
+    description: '그것이 무엇인지에 대한 문장 — 필드 아래, 블록 안 — 다섯 가지 의미 색상으로 표현됩니다.'
+  markers:
+    title: 마커
+    description: '어떤 것에 대해 말한 모든 내용을 단어로 요약한 캡슐 — 상태, 이름, 버전, 카테고리 — 공간이 부족할 때의 원과, 하나가 아닌 유일한 것인 카운터가 포함됩니다.'
+  loaders:
+    title: 로더
+    description: '무언가가 발생하고 끝이 불확실한 상태 — 기계의 스피너, 말을 하려는 사람의 점들입니다.'
+  progress:
+    title: 진행
+    description: '끝이 알려진 상태와 동일합니다: cli 진행이 말하는 동일한 단어로 구동되는 바입니다.'
+  distribution:
+    title: 분포
+    description: '전체가 무엇으로 구성되어 있는지, 얼마나 멀리 갔는지가 아니라: 한 줄에 제공된 순서대로 전체의 일부입니다.'
+  errors:
+    title: 오류
+    description: '페이지에서 요청한 내용을 제공할 수 없을 때 나타나는 내용입니다.'

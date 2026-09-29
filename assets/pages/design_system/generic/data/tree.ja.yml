@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: ツリー
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: ファイルエクスプローラー
+    description: ネスティングは全体の構造です：アイテムが開くときは開いていて、その深さが行をインデントし、ハイライトはフル幅を保持します。
+  vue:
+    title: Vue
+    description: 同じマークアップ、同じ形状ですが、フォルダーは開閉します：シェブロンがノードを折りたたみ、行の他の場所をクリックするとアイテムが選択され、選択イベントとして上に送信されます。
+  vue_workspace:
+    title: ワークスペース内のVue
+    description: アプリとしてのエクスプローラーが提供されます：分割のスクロール可能ゾーン内のvueツリーで、ゾーンの高さよりも多くの行を保持し、名前がゾーンの幅よりも長いです。ゾーンは両方の軸でスクロールし、水平バーは最後の行が何であれ、その床に留まります。
+  plain:
+    title: アイコンなし
+    description: '形状はファイルについて何も知りません — アイコンもリンクもないアイテムはプレーンテキストとして表示されます。'
+explorer:
+  scope:
+    project: プロジェクト
+    packages: パッケージ
+    scratches: スケッチ
+    changed: 変更されたファイル
+  option:
+    filters: フィルター
+    sort: 名前でソート
+    hidden: 隠しファイルを表示
+  action:
+    new: 新しいファイル
+    locate: 開いているファイルを選択
+    collapse: すべて折りたたむ
+  body: ツリーには独自の幅や高さはありません：その隣のゾーンは通常のもので、各側は独立してスクロールします。
+plain:
+  root: ルート
+  child: 最初の子
+  sibling: 二番目の子

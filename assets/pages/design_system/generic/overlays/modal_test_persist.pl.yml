@@ -1,0 +1,15 @@
+page_title: 'Karty z zachowaniem stanu'
+tab:
+  overview: Podsumowanie
+  details: Szczegóły
+  settings: Ustawienia
+  loading: Ładowanie
+content:
+  overview: 'To jest zakładka Podsumowanie. Przełącz zakładki, a następnie naciśnij F5 — ta zakładka pozostanie aktywna, gdy nakładka zostanie ponownie otwarta.'
+  details: 'To jest zakładka Szczegóły. Aktywna zakładka jest przechowywana w hashu URL, więc przetrwa przeładowania strony.'
+  settings: 'To jest zakładka Ustawienia. Zarówno nakładka (modal/panel), jak i aktywna zakładka są przywracane z hasha URL.'
+  loading: 'Użyj przycisków poniżej, aby ręcznie wywołać animację paska ładowania. Ten pasek pojawia się na górze nakładki, gdy trwa wysyłanie formularza.'
+loading:
+  start: Rozpocznij
+  end: Zakończone
+  simulate: 'Symuluj (autouzupełnianie)'

@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kierros
+page_icon: 'ph:bold/signpost'
+intro: 'Ohjattu kierros sivusta: askel kerrallaan, asiaan liittyvä elementti valaistuna himmeällä sivulla ja kortti sen vieressä, kulku- ja poistumistie. Se alkaa itsestään vierailijalle, joka ei ole vielä päättänyt tai sulkenut sitä — mitä he tekivät säilytetään, eikä se palaudu — ja mikä tahansa elementti, jossa on data-tour-start, toistaa sen uudelleen. Näppäimistön nuolipainikkeet liikkuvat sen läpi, Escape poistuu siitä.'
+start: 'Aloita kierros'
+status:
+  none: 'Et ole vielä nähnyt tätä kierrosta — se alkaa itsestään.'
+  completed: 'Kävit tämän kierroksen läpi; se ei ala itsestään uudelleen.'
+  dismissed: 'Sulkisit tämän kierroksen ennen sen loppua; se ei ala itsestään uudelleen.'
+area:
+  filters:
+    title: Suodattimet
+    body: 'Mitä lista näyttää.'
+  list:
+    title: Lista
+    body: 'Mitä on saatavilla.'
+  export:
+    title: Vie
+    body: 'Mikä lähtee sivulta.'
+step:
+  welcome:
+    title: Tervetuloa
+    body: 'Lyhyt kierros tästä sivusta. Käytä näppäimistön nuolia tai alla olevia painikkeita.'
+  filters:
+    title: 'Rajoita valintaa'
+    body: 'Suodattimet päättävät, mitä lista näyttää; ne säilytetään osoitteessa.'
+  list:
+    title: 'Mitä on'
+    body: 'Jokainen rivi avaa yksityiskohdat listan vieressä.'
+  export:
+    title: 'Ota se mukaasi'
+    body: 'Vienti ottaa sen, mitä suodattimet säilyttivät, ei enempää.'

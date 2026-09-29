@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 構成
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: 画像とコードブロックをVueのパーシャルとして、同じオプションを使用します。
+  prose:
+    title: プローズ記事
+  image:
+    title: 画像
+  media:
+    title: テキスト付きメディア
+  dropcap:
+    title: ドロップキャップ
+  meta_bar:
+    title: メタバー
+    stack_note: '異なるカテゴリーのメタデータをグループ化するために、2つ目のバーを下にスタックできます — ここでは、分類と分析です。'
+    action_link_note: 'インタラクティブなアイテムをバーに溶け込ませるためにアクションリンクを使用します — 背景なし、影なし、 muted color。'
+image:
+  intro: 'content_image()関数は、デフォルトでloading="lazy"のimgをレンダリングし、キャプションが提供されるとfigure要素でラップします。'
+  simple:
+    label: 'キャプションなし — プレーンなimg、フル幅。'
+    alt: 'プレースホルダー画像 — キャプションなし'
+  captioned:
+    label: 'キャプションあり — figcaption付きのfigureでラップされています。'
+    alt: 'プレースホルダー画像 — キャプションあり'
+    caption: 'figcaption付きのfigure — ソースをクレジットしたり、視覚コンテンツにコンテキストを追加するために使用します。'
+article:
+  toc:
+    label: この記事の目次
+  title: デザイントークンの理解
+  intro: デザイントークンは、製品全体の視覚的な決定に対する唯一の真実の源です。これらは、色、スペーシング、タイポグラフィ、モーションを名付けられた変数にエンコードし、コンポーネントが消費します。
+  section_one:
+    title: トークンが重要な理由
+    body_one: 'トークンがないと、主要なブランドカラーの変更には、数百のファイルを探し回る必要があります。トークンがあれば、1つの変数の更新がどこにでも伝播します — ボタンからアラート、ナビゲーションバーまで。'
+    body_two: トークンは、デザインツールとコードのギャップを埋めます。デザイナーはFigmaで色を<strong>surface-brand</strong>と名付け、開発者はCSSで<code>var(--surface-brand)</code>を使用します。彼らは同じ言語を話します。
+  section_two:
+    title: 実用的な例
+    body: '背景、ボーダー、テキストが必要なコンポーネントを考えてみてください。ハードコーディングする代わりに、<code>#1a56db</code>、<code>#e1effe</code>、および<code>#1e429f</code>を使用せず、コンポーネントは<code>--color-primary</code>、<code>--surface-primary-subtle</code>、および<code>--text-primary-strong</code>を参照します。ブランドが進化する際、パレットが変わります — コンポーネントは変わりません。'
+  list_title: トークンカテゴリ
+  list:
+    - '色 — ブランド、セマンティック、およびニュートラルパレット'
+    - 'スペーシング — 2pxから64pxまでの一貫したスケール'
+    - 'タイポグラフィ — フォントサイズ、ウェイト、ライン高さ'
+    - '半径 — 鋭いコーナーから完全に丸いものまで'
+    - '影 — 深さと階層のためのエレベーションレベル'
+    - 'モーション — イージングカーブと持続時間ステップ'
+  quote: インターネット上で見つかる引用のほとんどは、おそらくAIによって生成されたものです。
+  quote_author: アルバート・アインシュタイン
+  cta: 完全なトークンリファレンスを読む
+media:
+  alt: テキストの横にあるプレースホルダー画像
+  caption: レイアウトの1/3を占める画像。
+  body_one: content--mediaを使用して画像とテキストを横に並べます。画像は幅の1/3を取り、テキストは2/3を取ります。
+  body_two: このレイアウトは、引用、イラスト付き定義、または画像がコピーを強化し、支配しない短い編集ブロックに適しています。
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: アリス・マーティン
+  date: 2026年7月18日
+  read_time: 4分で読む
+  likes: 142いいね
+  category: UXデザイン
+  tag: 進行中
+  views: '3,847ビュー'
+action:
+  share: 共有

@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Värit
+page_icon: 'ph:bold/palette'
+intro: 'Mikään komponentti ei nimeä väriä. Ne nimeävät roolin — pinnan, reunan, tilan — ja teema päättää, miltä tuo rooli näyttää jokaisella sen puolella. Vaihda teema ylhäältä ja katso, kuinka jokainen väri alla liikkuu ilman, että yhtäkään määritellään uudelleen.'
+section:
+  surfaces:
+    title: Pinnat
+    description: 'Korkeusasteikko sivun ylle. Vaalea puoli järjestää ne vaaleuden mukaan, tummempi puoli sen mukaan, kuinka korkealle kukin on nostettu taustasta — siksi komponentti kysyy tasoa eikä koskaan harmaata.'
+  invert:
+    title: 'Käännä tasot'
+    description: 'Kaksikymmentä askelta tekstiväristä taustalle, ja lähes jokaisen reunan, vaimean tekstin ja hover-tilan lähde järjestelmässä. Taso 1 on lähes näkymätön, taso 20 on itse teksti.'
+  semantic:
+    title: 'Semaattiset perheet'
+    description: 'Viisi perhettä, luettuna sivulta tekstiin värin kautta: taso 1 on väri, joka vain hieman sävyttää sivua, 17 on väri kokonaan, 32 on väri, joka vain hieman sävyttää tekstiä. Keskipisteen alapuolella ovat pohjat; yläpuolella on muste, joka vaalenee tummalla puolella ja syvenee vaalealla. Komponentti valitsee tason eikä heksakoodia, mikä mahdollistaa saman viestin lukemisen oikein molemmilla puolilla.'
+  categories:
+    title: 'Kategorinen paletti'
+    description: 'Kolmetoista väriä, jotka eivät tarkoita muuta kuin "ei se vieressä oleva": kaavion sarjat, jakautumisen segmentit, työnkulun vaiheet. Nimetty, ei numeroitu — sovellus valitsee `cat-mint` koska se näyttää mintulta. Jokaisessa on vaalea ja tumma variantti, kiinnitetty molemmille puolille kuten täyttö; muste, joka on kirjoitettu täytölle, muuttuu tummaksi, kun väri on vaalea. Minkä kategorian väri on, on sovelluksen valinta, ei koskaan designjärjestelmän.'
+  text:
+    title: Teksti
+    description: 'Kolme huomiotasoa. Mitä luetaan, mikä sen määrittelee, ja mikä on vain löydettävissä, kun sitä etsitään.'
+  borders:
+    title: Reunat
+    description: 'Neljä painoa, jotka erotetaan siitä, mitä ne erottavat: kaksi asiaa yhdessä alueessa, kaksi aluetta sivulla, tai kenttä siitä, mitä sen takana on.'
+surface:
+  page: 'Sivu itse ja se, mikä näkyy alueiden välillä'
+  shell: 'Valikko, yläosa, alaosa'
+  zone: 'Alusta, jolla alue sijaitsee'
+  one: 'Syötteet ja kentät'
+  two: 'Painikkeet, työkalupalkit'
+  three: 'Loitsut, kortit, modaalit'
+text:
+  default: 'Mitä luetaan'
+  muted: 'Otsikot, meta, alaotsikot'
+  subtle: 'Erottaijat ja tyhjät tilat'

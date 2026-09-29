@@ -1,0 +1,18 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: メディア
+page_icon: 'ph:bold/image'
+section:
+  vue:
+    title: Vue
+    description: ページが実行されるまでアドレスがわからないドキュメントのための、vue部分と同じフレームです。
+  shapes:
+    title: 図形
+  overlay:
+    title: オーバーレイ
+  aspect_ratio:
+    title: アスペクト比
+  document:
+    title: 埋め込みドキュメント
+    description: iframeは自分のボックスを満たすため、ボックスがサイズを持ちます：比率修正子、または親が与える高さを取得するためのmedia--fill。
+document:
+  title: プレースホルダードキュメント

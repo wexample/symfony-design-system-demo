@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: הודעות
+page_icon: 'ph:bold/notification'
+section:
+  block:
+    title: 'חסימת הודעות'
+  compact:
+    title: 'הודעות קומפקטיות'
+    description: 'גרסה ללא מסגרת, לצורך הצגת כללים קבועים ולא דיווח על אירוע. העבר קומפקט לאופציות.'
+  default:
+    title: 'סוגי הודעות'
+  vue:
+    title: Vue
+    description: 'אותם ארבעה סוגים כמו חלקי vue, כל אחד נושא את האייקון שהפונקציה שלו מייצרת עבור הקורא.'
+compact:
+  rule:
+    one: 'חשבונית יוצאת חייבת להיות מקושרת לחשבונית נכנסת, אלא אם מדובר במכירה.'
+    two: 'חשבוניות יוצאות חייבות להיווצר על ידי מנהל.'
+    three: 'הסכום הכולל חייב להיות מוקצה לפני שניתן להנפיק את החשבונית.'
+message:
+  info:
+    title: 'הודעת מידע'
+    body: 'זו הודעת מידע קצרה.'
+  success:
+    title: 'הודעת הצלחה'
+    body: 'הפעולה הושלמה בהצלחה.'
+  warning:
+    title: 'הודעת אזהרה'
+    body: 'משהו דורש את תשומת הלב שלך.'
+  error:
+    title: 'הודעת שגיאה'
+    body: 'אירעה שגיאה במהלך עיבוד הבקשה.'

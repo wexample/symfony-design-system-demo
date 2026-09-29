@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Списки
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: 'По умолчанию'
+  empty:
+    title: 'Пустое состояние'
+search:
+  placeholder: 'Фильтровать список...'
+header:
+  filter: Фильтр
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'Управляемое SQL-соединение для транзакционных нагрузок'
+  s3:
+    title: 'Amazon S3'
+    body: 'Коннектор объектного хранилища для импорта и экспорта'
+  webhook:
+    title: Webhook
+    body: 'Запуск и получение событий из внешних систем'
+  redis:
+    title: Redis
+    body: 'Кэш в памяти и обмен сообщениями pub/sub'
+  mongo:
+    title: MongoDB
+    body: 'Хранилище документов для гибких схем нагрузок'

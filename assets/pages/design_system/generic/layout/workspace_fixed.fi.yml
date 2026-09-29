@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Kiinteä leveys'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: 'Samat kolme aluetta, mutta tämä, jota luet, saa leveyden sen sijaan, että se ottaisi yhden — ja se leveys, jota kukaan ei halua, menee alueelle, jossa ei ole mitään.'
+section:
+  sized:
+    title: 'Alue, jolla on oma leveys'
+    description: '`zone--narrow` koon askeleella: alue on niin leveä ja pysyy niin leveänä, riippumatta siitä, kuinka paljon tilaa ikkunalla on. Näin teksti pysyy luettavana — sarake, joka kasvaa näytön mukana, lakkaa olemasta sellainen.'
+  slack:
+    title: 'Mihin ylimääräinen tila on tarkoitettu'
+    description: 'Viimeinen alue ei pidä sisällään mitään, mutta pitää silti asemansa: tyhjää ei ole poissa, ja paneeli, joka odottaa, näyttää paneelilta eikä reiältä. Se on siellä ottamassa leveyden, jota koossa olevat eivät halua.'
+    more: 'Jakautuminen antaa ylimääräisen tilan sille, joka sitä pyytää. Kun ei ole mitään, joka pyytäisi, koossa olevat alueet venyisivät tai työntyisivät reunoille; tämän avulla ne pitävät leveyden ja sivu säilyttää muun.'
+work:
+  size: 32rem

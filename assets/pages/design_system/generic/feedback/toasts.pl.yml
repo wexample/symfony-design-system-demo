@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Informacje zwrotne'
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Ten sam toast co część vue. Zamykanie jest emitowane tutaj, a nie animowane: w drzewie vue rodzic kontroluje listę.'
+  simple_toast:
+    description: 'Wyświetl prosty toast'
+    button: 'Otwórz toast'
+    title: 'Przykład toasta'
+    message: 'Witaj z ToastService + ToastStack. Możesz również definiować linki akcji, takie jak @action:demo(ten) wewnątrz wiadomości.'
+  tl_toast:
+    description: 'Wyświetl stos toastów w lewym górnym rogu'
+    button: 'Otwórz toast'
+    title: 'Toast w lewym górnym rogu'
+    message: 'Witaj z ToastService + ToastStack (TL).'
+  medium_toast:
+    description: 'Wyświetl wiadomość toasta o średniej długości'
+    button: 'Otwórz toast'
+    title: 'Średni toast'
+    message: 'To jest wiadomość toasta o średniej długości na potrzeby demonstracji.'
+  long_toast:
+    description: 'Wyświetl długą wiadomość toasta'
+    button: 'Otwórz toast'
+    title: 'Długi toast'
+    message: 'To jest dłuższa wiadomość toasta na potrzeby demonstracji. Zawiera więcej tekstu, abyś mógł zobaczyć, jak komponent działa z większą zawartością.'
+  horizontal_toasts:
+    description: 'Wyświetl cztery toasty w poziomym stosie'
+    info:
+      title: 'Toast informacyjny'
+      message: 'Podgląd poziomego toasta.'
+      button: 'Pokaż toast'
+    success:
+      title: 'Toast sukcesu'
+      message: 'Wszystko wygląda dobrze.'
+      button: 'Pokaż toast'
+    warning:
+      title: 'Toast ostrzegawczy'
+      message: 'Sprawdź tę akcję jeszcze raz.'
+      button: 'Pokaż toast'
+    error:
+      title: 'Toast błędu'
+      message: 'Coś poszło nie tak.'
+      button: 'Pokaż toast'
+title:
+  toasts: Toast

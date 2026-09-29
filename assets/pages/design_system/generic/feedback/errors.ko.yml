@@ -1,0 +1,13 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 오류
+page_icon: 'ph:bold/warning-circle'
+section:
+  trigger:
+    description: '프론트엔드 오류를 발생시켜 예외 처리 테스트를 수행합니다.'
+    button: '오류 발생'
+  frontend_throw:
+    description: 'JavaScript에서 처리되지 않은 프론트엔드 예외를 발생시킵니다.'
+    button: '예외 발생'
+  internet_probe:
+    description: '인터넷 연결 처리 테스트를 위해 외부 요청을 발생시킵니다.'
+    button: '연결 테스트'

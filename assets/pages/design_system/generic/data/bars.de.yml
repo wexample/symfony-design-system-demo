@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Balken
+page_icon: 'ph:bold/rows'
+intro: 'Ein Balken benennt eine Sache in einer einzigen Zeile: was es ist, wie es genannt wird, was es qualifiziert und was am weitesten entfernt ist. Es ist eine Form, keine Bindung – ein Element erreicht es durch seine eigene Vorlage, aber ein Suchergebnis, das eine Datei, eine App oder eine Einstellung ist, verwendet dasselbe Markup.'
+finding:
+  fix: Korrigieren
+  date: 'Ein Datum festlegen'
+  error:
+    title: 'Fehlender Pflichtabschnitt „Zweck“'
+    subtitle: 01-PROZESSE/PR-004-dokumentensteuerung.md
+  warning:
+    title: 'Überprüfungsdatum liegt in der Vergangenheit'
+    subtitle: '01-PROZESSE/PR-004-dokumentensteuerung.md:4'
+  info:
+    title: 'Eigentümerfeld leer gelassen'
+    subtitle: 'Nicht blockierend für einen Entwurf, erforderlich vor der Überprüfung'
+section:
+  findings:
+    title: Feststellungen
+    description: 'Was eine Analyse berichtet, ein Balken jeweils: die Feststellung als Titel, wo sie sich befindet als Untertitel, und was darüber getan werden kann im nachfolgenden Slot – nichts dort, wenn hier nichts getan werden kann. Die Schwere ist der Ton des Blocks, den auch das Avatar an der Spitze annimmt.'
+  alone:
+    title: 'Der Balken selbst'
+    description: 'Alles außer dem Titel ist optional. Der führende Slot nimmt ein Symbol oder jedes Markup an, wenn ein echtes Avatar benötigt wird; der nachfolgende Slot nimmt ein Datum, ein Tag, eine Reihe von Schaltflächen. Bei einem Link wird die gesamte Breite zum Ziel und der Titel behält die Farbe, wo er sitzt.'
+  search:
+    title: 'Eine Liste von Ergebnissen'
+    description: 'Die Liste bringt den Rahmen, das Suchfeld und die Trenner; jede Zeile bringt einen Balken. Nichts hier ist ein Element – das ist der Punkt: dieselbe Zeile dient einer Person, einem Dokument, einer Anwendung und einer Präferenz.'
+  surfaces:
+    title: 'Eine Oberfläche jeweils'
+    description: 'Die andere Lesart einer Liste – kein gemeinsamer Hintergrund und keine Linie, jeder Balken steht auf seinem eigenen Block mit Platz um ihn herum. Nichts Neues zu stylen, der Balken übernimmt einfach die Blockklassen, und bei einem Link wird die gesamte Karte zum Ziel.'
+  divided:
+    title: 'Eine schlichte Liste'
+    description: 'Wenn der Rahmen bereits vorhanden ist, ist ein vertikaler Stapel mit Trennlinien ausreichend – keine eigene Form, nur eine Linie zwischen zwei Zeilen.'
+  vue:
+    title: 'Eine Liste davon in Vue'
+    description: 'Die gleichen Zeilen werden von einem Endpunkt gelesen, anstatt ausgeschrieben zu werden: die Liste hält die Seite, die Seitenanzahl und den leeren Zustand, und jedes Element sagt, was darauf gelesen werden soll – ein Titel, was es qualifiziert, ein Symbol, wohin es führt, ein Datum am Ende. Die oben genannten Lesarten sind seine Varianten, `geteilt` dann `oberflächen`.'
+  keeping_up:
+    title: 'Und auf dem neuesten Stand gehalten'
+    description: 'Eine Balkenliste ist eine Sammlung wie jede andere, daher sind die drei Möglichkeiten, wie eine Sammlung hört, dass die Welt weitergezogen ist, für sie offen: ein App-Ereignis, eine Live-Quelle, Abfragen. Diese hört auf ein Ereignis – rufe es und sieh die Zeilen zurückkommen. Siehe Auf dem Laufenden für die drei nebeneinander.'
+sample:
+  minimal:
+    title: 'Ein Titel für sich'
+  icon:
+    title: 'Mit einem führenden Symbol'
+  subtitle:
+    title: 'Maya Lindqvist'
+    subtitle: maya@example.com
+  trailing:
+    title: Viertelberichte
+    subtitle: '14 Dokumente'
+  link:
+    title: 'Ein Balken, der ein Link ist'
+    subtitle: 'Die gesamte Breite ist das Ziel'
+search:
+  placeholder: 'Alles durchsuchen'
+  value: Bericht
+  filter: Filter
+result:
+  user:
+    title: 'Maya Lindqvist'
+    subtitle: 'Person · Produktteam'
+  file:
+    title: 'Viertelbericht Q3.pdf'
+    subtitle: 'Dokument · 2,4 MB'
+  app:
+    title: Berichterstattung
+    subtitle: 'Anwendung · Installiert'
+  setting:
+    title: 'Aufbewahrung von Berichten'
+    subtitle: 'Einstellung · Speicherung'
+member:
+  maya:
+    title: 'Maya Lindqvist'
+    subtitle: Eigentümer
+  sam:
+    title: 'Sam Okonkwo'
+    subtitle: Redakteur
+  robot:
+    title: Nachtsynchronisation
+    subtitle: Servicekonto

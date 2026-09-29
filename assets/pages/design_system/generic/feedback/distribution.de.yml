@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Verteilung
+page_icon: 'ph:bold/chart-bar-horizontal'
+intro: 'Woraus eine Gesamtheit besteht, in einer Zeile. Wo ein Fortschrittsbalken anzeigt, wie weit ein Wert fortgeschritten ist, zeigt dies, wie eine Gesamtheit unterteilt ist: die Teile haben die Reihenfolge, in der sie gegeben sind, sodass eine Pipeline von links nach rechts wie die Pipeline gelesen wird, die sie ist. Die Zustände sind mit dem Vokabular benannt, das die Kapsel und der Kreis bereits sprechen, sodass ein Zustand niemals zwei Farben annimmt.'
+section:
+  default:
+    title: 'Eine Gesamtheit, in Teilen'
+    description: 'Die Teile wachsen proportional zu ihrem Wert, und die Legende beschreibt sie in Worten darunter – dieselbe Kapsel, mit der ein Tisch einen Zustand darstellt, sodass das Auge zwischen den beiden wechselt, ohne etwas Neues zu lernen.'
+  linked:
+    title: 'Teile, die irgendwohin führen'
+    description: 'Ein Teil mit einem Ziel ist ein Link: der Balken wird zum Zugang zur Liste, die er zusammenfasst. Unter dem Zeiger nimmt er einen Lichtschein anstelle einer anderen Farbe an, was einen anderen Zustand anzeigen würde.'
+  bare:
+    title: 'Ohne die Legende'
+    description: 'Wo die Teile direkt daneben benannt sind oder wo der Balken nur die Form der Sache angeben muss, wird die Legende weggelassen und jedes Teil sagt, was es unter dem Zeiger ist.'
+  rest:
+    title: 'Eine Gesamtheit, die größer ist als ihre Teile'
+    description: 'Was die Gesamtheit zählt und kein Teil dafür verantwortlich ist, hat seinen Anteil an der Reihe und zeichnet nichts: die Spur zeigt sich genau für so viel, anstatt dass die Teile sich ausdehnen, um einen Balken zu füllen, den sie nicht füllen.'
+  empty:
+    title: 'Noch nichts gezählt'
+    description: 'Keine Gesamtheit und kein Teil – Arbeit nicht begonnen, ein Zähler noch aus. Der Balken behält seinen Platz als bare Spur – derselbe Boden, den eine Gesamtheit, die größer ist als ihre Teile, zeigt – sodass eine Reihe davon ihre Form behält; ihre Figur ist ein Strich, da nichts gezählt nicht null ist.'
+  compact:
+    title: Kompakt
+    description: 'Ein schmalerer Balken für eine Reihe oder einen Kartenfuß, wobei die Dichte an die Kapseln seiner Legende weitergegeben wird.'
+  vue:
+    title: 'Vue, getrieben'
+    description: 'Der gleiche Balken, seine Teile als Daten angegeben. Ein Teil, das nirgendwohin führt, reagiert auf einen Klick mit `select`, was man beachten sollte, wenn sich ein Tisch daneben selbst filtert.'
+bar:
+  pipeline: 'Seiten des Katalogs'
+  elements: 'Elemente des Designsystems'
+  partial: 'Gelesene Dateien'
+state:
+  done: Fertig
+  running: Läuft
+  todo: 'Zu erledigen'
+  failed: Fehlgeschlagen
+  skipped: 'Nicht gestartet'

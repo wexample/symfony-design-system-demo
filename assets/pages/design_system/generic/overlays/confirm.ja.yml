@@ -1,0 +1,41 @@
+page_title: 確認
+section:
+  short:
+    description: 短いテキストで確認（オーバーレイ）します。
+    button: 確認を開く
+    title: 確認してください
+    message: 続行しますか？
+    result_title: 確認結果
+    result_prefix: 結果：
+  toast_short:
+    description: 短いテキストで確認（トースト）します。
+    button: 確認を開く
+    title: トースト確認
+    message: トーストで続行しますか？
+    result_title: トースト確認結果
+    result_prefix: 結果：
+  medium:
+    description: 中程度のテキストで確認（オーバーレイ）します。
+    button: 確認を開く
+    title: 中程度の確認
+  long:
+    description: 長いテキストで確認（オーバーレイ）します。
+    button: 確認を開く
+    title: 長い確認
+  toast_medium:
+    description: 中程度のテキストで確認（トースト）します。
+    button: 確認を開く
+    title: 中程度のトースト確認
+  toast_long:
+    description: 長いテキストで確認（トースト）します。
+    button: 確認を開く
+    title: 長いトースト確認
+  custom:
+    description: カスタム確認アクション（スタッキング）。
+    button: 確認を開く
+    title: スタッキング確認
+    message: 別の確認を開くか、すべて閉じますか？
+    action:
+      new: 新しい確認
+      close_all: すべての確認を閉じる
+      cancel: キャンセル

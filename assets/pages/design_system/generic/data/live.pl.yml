@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Utrzymywanie tempa'
+page_icon: 'ph:bold/broadcast'
+intro: 'Kolekcja jest odczytywana raz, gdy się pojawia, a potem świat idzie dalej. Oto trzy sposoby, w jakie o niej słyszy — nie są to alternatywy do wyboru raz na zawsze, ale to, co sytuacja kolekcji ma do zaoferowania. Ten sam stół przyjmuje każdy z nich, lub kilka, a nic poniżej nie wie, który dzwonił.'
+section:
+  events:
+    title: 'Zdarzenie aplikacji'
+    description: 'Dla odmiany ta strona spowodowała coś sama: przycisk, który zadziałał, formularz, który wrócił. Kto dzwoni, nic nie wie o stole, a stół nic nie wie o tym, kto dzwonił — mają tylko wspólną nazwę i to wszystko. Nic nie kosztuje i nie potrzebuje serwera.'
+  live:
+    title: 'Źródło na żywo'
+    description: 'Gdy serwer ma temat do publikacji, kolekcja nasłuchuje jednostki, z której jest kolekcjonowana — proces dla jej uruchomień, sesja dla jej wiadomości — i nigdy nie na każdą z własnych wierszy. Wiersz, który jeszcze nie istnieje, nie ma tematu, a wiersz, który się pojawia, jest dokładnie tym, na co czytelnik czeka. Demo nie ma serwera, aby publikować dla niego, więc przycisk odtwarza wiadomość.'
+  polling:
+    title: Polling
+    description: 'Gdzie nie ma tematu, lub gdzie podróż w obie strony co jakiś czas jest tańsza niż subskrypcja utrzymywana otwarta. Ten odczytuje co trzy sekundy i zatrzymuje się, gdy karta jest w tle — strona, na którą nikt nie patrzy, to strona, której nikt nie potrzebuje, aby mu ją odczytywać.'
+  none:
+    title: 'Nic w ogóle'
+    description: 'Domyślnie. Kolekcja odczytuje raz i pozostaje taka, jaka była, co jest właściwą odpowiedzią, gdy to, co pokazuje, nie zmienia się za plecami czytelnika.'
+  shape:
+    title: 'Jakikolwiek kształt przybiera'
+    description: 'Żaden z tych elementów nie należy do stołu. Te same trzy sposoby służą liście barów, wątku czatu, czemukolwiek odczytującemu kolekcję — to, co utrzymuje kolekcję prawdziwą i jak wygląda, to dwie oddzielne decyzje. To jest lista barów, polling.'

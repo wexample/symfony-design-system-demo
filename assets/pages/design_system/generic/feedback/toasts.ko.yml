@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 피드백
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Vue 부분과 동일한 토스트입니다. 닫는 것은 애니메이션으로 사라지는 것이 아니라 여기서 발신됩니다: Vue 트리 내에서 부모가 목록을 소유합니다.'
+  simple_toast:
+    description: '간단한 토스트 표시'
+    button: '토스트 열기'
+    title: '토스트 데모'
+    message: 'ToastService + ToastStack에서 인사드립니다. 메시지 내에서 @action:demo(this one)와 같은 액션 링크를 정의할 수도 있습니다.'
+  tl_toast:
+    description: '상단 왼쪽에 토스트 스택 표시'
+    button: '토스트 열기'
+    title: '상단 왼쪽 토스트'
+    message: 'ToastService + ToastStack (TL)에서 인사드립니다.'
+  medium_toast:
+    description: '중간 길이의 토스트 메시지 표시'
+    button: '토스트 열기'
+    title: '중간 토스트'
+    message: '이것은 데모를 위한 중간 길이의 토스트 메시지입니다.'
+  long_toast:
+    description: '긴 토스트 메시지 표시'
+    button: '토스트 열기'
+    title: '긴 토스트'
+    message: '이것은 데모를 위한 더 긴 토스트 메시지입니다. 더 많은 텍스트가 포함되어 있어 구성 요소가 더 큰 콘텐츠로 어떻게 작동하는지 미리 볼 수 있습니다.'
+  horizontal_toasts:
+    description: '수평 스택에 네 개의 토스트 표시'
+    info:
+      title: '정보 토스트'
+      message: '수평 토스트 미리보기입니다.'
+      button: '토스트 보기'
+    success:
+      title: '성공 토스트'
+      message: '여기는 모든 것이 괜찮아 보입니다.'
+      button: '토스트 보기'
+    warning:
+      title: '경고 토스트'
+      message: '이 작업을 다시 확인하세요.'
+      button: '토스트 보기'
+    error:
+      title: '오류 토스트'
+      message: '여기에서 문제가 발생했습니다.'
+      button: '토스트 보기'
+title:
+  toasts: 토스트

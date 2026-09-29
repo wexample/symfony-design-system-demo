@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 구성
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: '이미지와 코드 블록을 vue 부분으로 사용하며, 동일한 옵션을 적용합니다.'
+  prose:
+    title: '산문 기사'
+  image:
+    title: 이미지
+  media:
+    title: '텍스트가 포함된 미디어'
+  dropcap:
+    title: 드롭캡
+  meta_bar:
+    title: '메타 바'
+    stack_note: '두 번째 바가 아래에 쌓여 다른 메타데이터 카테고리를 그룹화할 수 있습니다 — 여기서는 분류와 분석입니다.'
+    action_link_note: '배경, 그림자 없이 바에 자연스럽게 섞여야 하는 인터랙티브 항목에는 액션 링크를 사용하세요 — 음소거된 색상으로.'
+image:
+  intro: 'content_image() 함수는 기본적으로 loading="lazy"를 사용하여 이미지를 렌더링하고, 캡션이 제공되면 figure 요소로 감쌉니다.'
+  simple:
+    label: '캡션 없음 — 일반 이미지, 전체 너비.'
+    alt: '플레이스홀더 이미지 — 캡션 없음'
+  captioned:
+    label: '캡션 있음 — figcaption이 포함된 figure로 감쌈.'
+    alt: '플레이스홀더 이미지 — 캡션 있음'
+    caption: 'figcaption이 포함된 figure — 출처를 표시하거나 시각적 콘텐츠에 대한 맥락을 추가하는 데 사용합니다.'
+article:
+  toc:
+    label: '이 기사에서'
+  title: '디자인 토큰 이해하기'
+  intro: '디자인 토큰은 제품 전반의 시각적 결정에 대한 유일한 진실의 원천입니다. 색상, 간격, 타이포그래피 및 모션을 명명된 변수로 인코딩하여 구성 요소가 사용합니다.'
+  section_one:
+    title: '토큰의 중요성'
+    body_one: '토큰이 없으면 기본 브랜드 색상을 변경하려면 수백 개의 파일을 뒤져야 합니다. 토큰이 있으면 하나의 변수 업데이트가 버튼, 알림, 탐색 바 등 모든 곳에 전파됩니다.'
+    body_two: '토큰은 디자인 도구와 코드 간의 간극을 메우기도 합니다. 디자이너는 Figma에서 색상을 <strong>surface-brand</strong>로 이름 붙이고, 개발자는 CSS에서 <code>var(--surface-brand)</code>를 사용합니다. 그들은 같은 언어로 소통합니다.'
+  section_two:
+    title: '실용적인 예시'
+    body: '배경, 테두리 및 텍스트가 필요한 구성 요소를 고려해 보세요. <code>#1a56db</code>, <code>#e1effe</code>, <code>#1e429f</code>를 하드코딩하는 대신, 구성 요소는 <code>--color-primary</code>, <code>--surface-primary-subtle</code>, <code>--text-primary-strong</code>를 참조합니다. 브랜드가 발전함에 따라 팔레트가 변경되지만 구성 요소는 변하지 않습니다.'
+  list_title: '토큰 카테고리'
+  list:
+    - '색상 — 브랜드, 의미, 중립 팔레트'
+    - '간격 — 2px에서 64px까지 일관된 스케일'
+    - '타이포그래피 — 글꼴 크기, 두께 및 줄 높이'
+    - '반경 — 날카로운 모서리에서 완전히 둥근 모서리까지'
+    - '그림자 — 깊이와 계층을 위한 고도 수준'
+    - '모션 — 완화 곡선 및 지속 시간 단계'
+  quote: '인터넷에서 발견된 대부분의 인용구는 아마도 AI에 의해 생성되었을 것입니다.'
+  quote_author: '알베르트 아인슈타인'
+  cta: '전체 토큰 참조 읽기'
+media:
+  alt: '텍스트 옆의 플레이스홀더 이미지'
+  caption: '레이아웃의 1/3을 차지하는 이미지.'
+  body_one: 'content--media를 사용하여 이미지와 텍스트를 나란히 배치합니다. 이미지는 너비의 1/3을 차지하고, 텍스트는 2/3을 차지합니다.'
+  body_two: '이 레이아웃은 인용구, 그림이 있는 정의 또는 이미지가 내용을 강조하지만 지배하지 않는 짧은 편집 블록에 적합합니다.'
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: '앨리스 마틴'
+  date: '2026년 7월 18일'
+  read_time: '4분 읽기'
+  likes: '142 좋아요'
+  category: 'UX 디자인'
+  tag: '진행 중'
+  views: '3,847 조회수'
+action:
+  share: 공유

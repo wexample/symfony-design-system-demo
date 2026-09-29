@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: בקרות
+page_icon: 'ph:bold/cursor-click'
+intro: 'מה שהקורא פועל דרכו. כל אחד מאלה מבצע פעולה במקום ערך — שדה טופס מקבל את הערך, וחי בחלק הבא.'
+page:
+  buttons:
+    title: כפתורים
+    description: 'זה שעושה משהו, בגרסאותיו, במצבים ובצפיפויות שלו, בנוסף לקישור ולמטרה שנפתחים במקום אחר.'
+  menus:
+    title: תפריטים
+    description: 'כפתור שפותח רשימת בחירות, ממקם את עצמו כנגד קצות החלון, בגבעול ובתצוגה.'
+  steppers:
+    title: שלבים
+    description: 'איפה שמעמדו של הקורא ברצף של צעדים, עם הצעדים מאחור כדי לחזור אליהם.'
+section:
+  compound:
+    title: 'הכול יחד'
+    description: 'אותה קבוצת בקרות בשלושה הקשרים: בלוק מרופד, סרגל כלים, וסרגל כלים קומפקטי. שום דבר לגבי הבקרות לא משתנה בין השלושה — האזור הוא מה שאומר להם כמה מקום יש להם.'
+button:
+  primary: 'כפתור ראשי'
+select:
+  option_one: 'אפשרות אחת'
+  option_two: 'אפשרות שתיים'
+  option_three: 'אפשרות שלוש'
+menu:
+  primary: 'כפתור תפריט'
+  item:
+    report: דוח
+    settings: הגדרות
+    logout: התנתק
+    long: 'עם כותרת ארוכה מאוד מאוד מאוד מאוד'
+switch:
+  label_right: 'הפעל תכונה'
+link:
+  external: 'קישור חיצוני'

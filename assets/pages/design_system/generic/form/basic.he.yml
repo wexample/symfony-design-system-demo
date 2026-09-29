@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: טפסים
+page_icon: 'ph:bold/rows'
+section:
+  default:
+    title: 'טופס בסיסי'
+  block:
+    title: 'טפסים חסומים'
+  assisted:
+    title: מסייע
+field:
+  title:
+    label: כותרת
+    placeholder: 'הזן כותרת'
+  message:
+    label: הודעה
+    placeholder: 'כתוב הודעה קצרה'
+  date:
+    label: תאריך
+  datetime:
+    label: 'תאריך ושעה'
+  time:
+    label: שעה
+  file:
+    label: קובץ
+  email:
+    label: אימייל
+  number:
+    label: מספר
+  url:
+    label: 'כתובת URL'
+action:
+  submit: שלח
+  secondary: 'פעולה משנית'
+  raw_submit: 'שליחה גולמית'
+  link: 'לינק פשוט'

@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Rimanere aggiornati'
+page_icon: 'ph:bold/broadcast'
+intro: 'Una collezione viene letta una volta quando appare, e poi il mondo va avanti. Questi sono i tre modi in cui ne viene a conoscenza — non sono alternative tra cui scegliere una volta per tutte, ma ciò che la situazione di una collezione offre. La stessa tabella accoglie ognuno di essi, o più di uno, e nulla qui sotto sa quale sia suonata.'
+section:
+  events:
+    title: "Un evento dell'app"
+    description: 'Per un cambiamento che questa pagina ha causato da sola: un pulsante che ha agito, un modulo che è tornato indietro. Chiunque suoni non sa nulla della tabella, e la tabella non sa nulla di chi ha suonato — condividono un nome e questo è tutto. Non costa nulla e non ha bisogno di un server.'
+  live:
+    title: 'Una fonte in tempo reale'
+    description: "Dove il server ha un argomento da pubblicare, la collezione ascolta l'entità di cui è la collezione — un processo per le sue esecuzioni, una sessione per i suoi messaggi — e mai a ciascuna delle sue righe. Una riga che non esiste ancora non ha un argomento, e la riga che appare è esattamente quella che il lettore sta aspettando. La demo non ha un server per pubblicare per essa, quindi il pulsante riproduce il messaggio."
+  polling:
+    title: Polling
+    description: "Dove non c'è argomento, o dove un giro di andata e ritorno ogni tanto è più economico di un abbonamento mantenuto aperto. Questo legge ogni tre secondi e si ferma mentre la scheda è in background — una pagina che nessuno sta guardando è una pagina che non ha bisogno di essere letta per loro."
+  none:
+    title: 'Niente affatto'
+    description: "Il predefinito. Una collezione viene letta una volta e rimane com'era, che è la risposta giusta ogni volta che ciò che mostra non cambia alle spalle del lettore."
+  shape:
+    title: 'Qualsiasi forma indossi'
+    description: 'Nessuna di queste appartiene alla tabella. I stessi tre modi servono un elenco di barre, un thread di chat, qualsiasi cosa legga una collezione — ciò che mantiene una collezione vera e ciò che sembra sono due decisioni separate. Questo è un elenco di barre, polling.'

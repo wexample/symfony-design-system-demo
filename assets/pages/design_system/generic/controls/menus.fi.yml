@@ -1,0 +1,51 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Valikot
+page_icon: 'ph:bold/list'
+section:
+  vue:
+    title: Vue
+    description: 'Linkkirivi ja erotin vue-osina. Toisin kuin reitit, jotka lukevat reittiä, nämä kaksi ottavat ikonin ja etiketin vaihtoehtoina, joten serveriltä ei jää mitään puuttumaan.'
+  menu:
+    title: Valikkopainikkeet
+  counts:
+    title: Laskurit
+    description: 'Kuinka monta kohdetta elementti vie, rivin päässä. Se on pilleri eikä mitään muuta — siirrä `count` etiketin viereen, pudotusvalikkoon tai pystysuoraan valikkokohteeseen, niin se näkyy. Kohde ilman avainta ei näytä mitään.'
+  separators:
+    title: Erotin
+    description: 'Erotin on kohde kuten muutkin, yhdellä avaimella enemmän: pelkkä viiva jakaa kaksi erilaista kohderiviä, joilla ei ole mitään tekemistä keskenään, ja sama viiva sanan kanssa muuttuu sen jälkeiseksi otsikoksi. Molemmilla puolilla pinoa on sama ilmoitus — kolmas valikko täällä on vue-yksi.'
+  kinds:
+    title: 'Mitä kohde voi olla'
+    description: 'Neljä tyyppiä jakaa yhden rivin: sana ja kohde on linkki, sana ja tila on kytkin, sana ja lapset on haara, ja pelkkä viiva on erotin. Mikään ei ilmoita tyyppiään — se seuraa siitä, mitä kohde kantaa. Kytkin käyttää johtavaa paikkaansa merkillään, joten niiden sarake pitää sanat linjassa, ja paneeli pysyy auki sen alla: suodatinvalikkoa luetaan nipuittain, ei yksi kerrallaan.'
+menu:
+  primary: Valikkopainike
+  filters: Suodattimet
+  filters_vue: 'Suodattimet, vue:ssa'
+  counted: Laskurilla
+  counted_vue: 'Laskurilla, vue:ssa'
+  grouped: Ryhmät
+  grouped_vue: 'Ryhmät, vue:ssa'
+  group:
+    danger: Vaaravyöhyke
+    show: Näytä
+  more: Lisätoiminnot
+  invert: 'Käännä valikko'
+  options:
+    top_left: Ylävasen
+    top_right: Yläoikea
+  item:
+    report: Ilmoita
+    inbox: Saapuneet
+    alerts: Ilmoitukset
+    settings: Asetukset
+    logout: 'Kirjaudu ulos'
+    long: 'Melko, melko, melko, melko pitkä otsikko'
+    stats: Tilastot
+    profile: Profiili
+    delete: 'Poista tili'
+    done: Valmis
+    running: Suoritetaan
+    failed: Epäonnistui
+    sort: 'Lajittele mukaan'
+    sort_name: Nimi
+    sort_date: 'Viimeisin muutos'
+    docs: Dokumentaatio

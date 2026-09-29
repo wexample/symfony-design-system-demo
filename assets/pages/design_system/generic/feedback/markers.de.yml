@@ -1,0 +1,59 @@
+page_title: Marker
+page_icon: 'ph:bold/seal-check'
+intro: 'Eine Kapsel für alles, was über eine Sache in einem Wort gesagt wird: ein Zustand, ein Name, eine Version, eine Kategorie. Sie waren zwei Objekte, bis an dem Tag, an dem ein Code und ein Zustand nebeneinander in einer Überschrift standen, ein Kopf auseinander, und niemand sagen konnte, was der Unterschied bedeuten sollte – die Form ist also eine und der Ton ist das Ganze, was sie unterscheidet. Was sie trägt, ist frei: ein Wort, eine Zahl, ein Glyph oder zwei von drei. Der Kreis steht dort, wo kein Platz für eine Kapsel ist, und der Zähler, der von einer Reihe hängt und in dem Text, von dem er hängt, dimensioniert ist, ist das eine hier, das kein Marker ist.'
+section:
+  inline:
+    title: 'In der Mitte eines Satzes'
+    description: 'Ein Wort, das beim Lesen hervorgehoben wird: eine Version, eine Phase, eine Kategorie. Der neutrale Ton, weil ein Marker, der farbig ankommt, bereits einen Anspruch auf das erhebt, was er markiert – und in einem Satz gibt es nichts zu beanspruchen.'
+  palette:
+    title: 'Die Kategorien'
+    description: 'Töne, die Dinge unterscheiden, ohne sie zu bewerten. Sie tragen keine Bedeutung – nichts sagt, dass der dritte besser ist als der fünfte – was genau das ist, was sie für eine Taxonomie nutzbar macht, wo Bedeutung eine Lüge wäre. Trägt genau wie ein Zustand: gleiche Kapsel, gleicher Rhythmus.'
+  against:
+    title: 'Ein Zähler neben einem Marker'
+    description: 'Die eine Unterscheidung, die bleibt, und sie betrifft nicht die Bedeutung. Links ein Zähler: zwölf von etwas, das von der Reihe hängt, die zu ihm führt und in dem Text dieser Reihe dimensioniert ist. Rechts ein Marker: zwölf von etwas, das gut gelaufen ist, steht für sich und ist in Tokens dimensioniert. Eine Zählung neben einem Menüpunkt ist ein Zähler; dieselbe Zahl in einer Pipeline-Spalte ist ein Marker.'
+  words:
+    title: 'Ein Zustand in Worten'
+    description: 'Angekündigt in einem Satz oder neben einem Titel, wo es die Botschaft ist und nicht ein Zeichen in einer Spalte.'
+  figures:
+    title: 'Ein Zustand, der durch Dutzende gelesen wird'
+    description: 'In einer Spalte wird ein Häkchen neben einer neutralen Zählung als zwei Objekte gelesen, und eine Tabelle davon liest sich als Lärm. Hier umschließt die Farbe die Figur und die Spalte wird in einem Durchgang gescannt – kompakt, da eine Zelle keinen Platz zu verschenken hat.'
+  payload:
+    title: 'Was es trägt'
+    description: 'Ein Wort für den Zustand, wie viele davon vorhanden sind, beides oder keins. Die Zahl wird immer einen Schritt zurück von dem Rest gezogen: sie qualifiziert den Zustand, sie ist nicht der Zustand.'
+  weights:
+    title: 'Die drei Formen nebeneinander'
+    description: 'Die gleichen Informationen an dem Ort, an dem sie tatsächlich gelesen werden. Der Kreis ist die Form für eine Zelle, die zu schmal für eine Kapsel ist, und das einzige, das einen Zustand als Menge zeigen kann – und er wird mit genau der Farbe gezeichnet, mit der die Kapsel gefüllt ist.'
+  circles:
+    title: Kreise
+    description: 'Ein Zustand, der durch einen Kreis und nicht durch ein Wort erzählt wird, für einen Ort, an dem Zustände durch Dutzende gelesen werden – eine Liste von Abläufen, eine Reihe von Aufgaben. Der Ring trägt die Farbe, das Glyph im Inneren sagt, welcher Zustand es ist, und beide Seiten des Stacks ziehen dasselbe Markup.'
+  progress:
+    title: 'Ein Zustand, der eine Menge ist'
+    description: 'Ein Ablauf ist der eine Zustand mit einer Menge, also wird sein Ring so weit gezeichnet, wie der Ablauf gekommen ist. Twig gibt den Wert aus, den er erhält; ihn danach zu bewegen, ist Sache des Browsers.'
+  sizes:
+    title: Kreisgrößen
+  vue:
+    title: Vue
+    description: 'Dasselbe Element, betrieben: Die Art oder den Wert zu wechseln, bewegt den Bogen, anstatt ihn neu zu zeichnen. Dies ist das, was eine App platziert, wenn der Zustand sich vor den Augen des Lesers ändern wird.'
+  code:
+    title: Verwendung
+state:
+  success: 'Vorgang erfolgreich'
+  error: 'Es ist ein Fehler aufgetreten'
+  warning: 'Vorsicht geboten'
+  info: 'Zu Ihrer Information'
+  passed: Bestanden
+weights:
+  column:
+    form: Form
+  row:
+    capsule: Kapsel
+    circle: Kreis
+example:
+  sentence:
+    released: 'Version 2.4 ist'
+    deprecated: 'Diese API ist'
+marker:
+  neutral: Neutral
+  released: Veröffentlicht
+  deprecated: Veraltet
+  tag: Kategorie

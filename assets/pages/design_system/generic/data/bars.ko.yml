@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 막대
+page_icon: 'ph:bold/rows'
+intro: '막대는 한 줄에 하나의 항목을 지칭합니다: 그것이 무엇인지, 무엇이라고 불리는지, 어떤 자격이 있는지, 그리고 끝에 무엇이 있는지. 그것은 형태이지, 구속이 아닙니다 — 엔티티는 자신의 템플릿을 통해 도달하지만, 파일, 앱 또는 설정인 검색 결과는 같은 마크업을 사용합니다.'
+finding:
+  fix: 수정
+  date: '날짜 설정'
+  error:
+    title: '필수 항목 “목적”이 누락되었습니다'
+    subtitle: 01-PROCESSES/PR-004-document-control.md
+  warning:
+    title: '검토 날짜가 과거입니다'
+    subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+  info:
+    title: '소유자 필드가 비어 있습니다'
+    subtitle: '초안에 대해 차단되지 않으며, 검토 전에 필요합니다'
+section:
+  findings:
+    title: 결과
+    description: '분석이 보고하는 내용, 각 막대마다: 제목으로 결과, 부제목으로 위치, 그리고 마지막 슬롯에서 그것에 대해 할 수 있는 것 — 할 수 있는 것이 없으면 빈칸입니다. 심각도는 블록의 톤이며, 머리의 아바타도 이를 반영합니다.'
+  alone:
+    title: '막대 자체'
+    description: '제목을 제외한 모든 것은 선택 사항입니다. 선행 슬롯은 아이콘이나 실제 아바타가 필요할 때 마크업을 가집니다; 후행 슬롯은 날짜, 태그, 버튼 행을 가집니다. 링크가 주어지면 전체 너비가 대상이 되고 제목은 위치에 따라 색상을 유지합니다.'
+  search:
+    title: '결과 목록'
+    description: '목록은 프레임, 검색 필드 및 구분자를 가져옵니다; 각 행은 막대를 가져옵니다. 여기에는 어떤 것도 엔티티가 아닙니다 — 그게 요점입니다: 같은 행이 사람, 문서, 애플리케이션 및 선호도를 제공합니다.'
+  surfaces:
+    title: '각각의 표면'
+    description: '목록의 또 다른 해석 — 공유 배경이 없고 선이 없는, 각 막대가 자율 블록에 서 있습니다. 스타일을 위한 새로운 것이 없으며, 막대는 단순히 블록 클래스를 사용하고, 링크가 주어지면 전체 카드가 대상이 됩니다.'
+  divided:
+    title: '벌거벗은 목록'
+    description: '프레임이 이미 존재할 때, 구분자가 있는 수직 스택이면 충분합니다 — 자체 형태가 없고, 두 행 사이에 선만 있습니다.'
+  vue:
+    title: 'Vue에서의 목록'
+    description: '같은 행이 작성된 것이 아니라 엔드포인트에서 읽혀집니다: 목록은 페이지, 페이지네이션 및 빈 상태를 보유하며, 각 엔티티는 무엇을 읽을지 말합니다 — 제목, 자격, 아이콘, 어디로 가는지, 끝에 날짜. 위의 읽기는 이의 변형으로, `divided` 다음에 `surfaces`입니다.'
+  keeping_up:
+    title: '그리고 최신 상태로 유지'
+    description: '막대 목록은 다른 모든 컬렉션처럼 컬렉션입니다, 그래서 세 가지 방법으로 세상이 변했다는 것을 알 수 있습니다: 앱 이벤트, 실시간 소스, 폴링. 이 목록은 이벤트를 듣습니다 — 링을 울리고 행이 돌아오는 것을 지켜보세요. 그들 사이에 세 가지를 나란히 유지하는 것을 참조하세요.'
+sample:
+  minimal:
+    title: '혼자 있는 제목'
+  icon:
+    title: '앞에 아이콘이 있는'
+  subtitle:
+    title: '마야 린드퀴스트'
+    subtitle: maya@example.com
+  trailing:
+    title: '분기 보고서'
+    subtitle: '14 문서'
+  link:
+    title: '링크인 막대'
+    subtitle: '전체 너비가 대상입니다'
+search:
+  placeholder: '모두 검색'
+  value: 보고서
+  filter: 필터
+result:
+  user:
+    title: '마야 린드퀴스트'
+    subtitle: '사람 · 제품 팀'
+  file:
+    title: '분기 보고서 Q3.pdf'
+    subtitle: '문서 · 2.4 MB'
+  app:
+    title: 보고
+    subtitle: '애플리케이션 · 설치됨'
+  setting:
+    title: '보고서 보존'
+    subtitle: '설정 · 저장소'
+member:
+  maya:
+    title: '마야 린드퀴스트'
+    subtitle: 소유자
+  sam:
+    title: '샘 오콩코'
+    subtitle: 편집자
+  robot:
+    title: '야간 가져오기'
+    subtitle: '서비스 계정'

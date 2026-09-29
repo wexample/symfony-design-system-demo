@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Päivät
+page_icon: 'ph:bold/clock'
+intro: 'Sanasto formaattien nimistä, jota Twig, tavallinen JavaScript ja Vue ymmärtävät identtisesti. Palvelin tulostaa <time>, joka sisältää hetken ja pyydetyn formaattiluettelon; selain ottaa sen vastaan ja kirjoittaa sen uudelleen ajan myötä, joten avoinna oleva sivu ei valehtele siitä, kuinka kauan sitten jokin tapahtui.'
+section:
+  formats:
+    title: 'Nimitetyt formaatit'
+    description: 'Absoluuttiset formaatit ovat ICU:n päivämäärä- ja aikatyylejä, joten kenttäjärjestys ja erottimet kuuluvat lukijan paikalliseen käytäntöön, ei malliin.'
+  relative:
+    title: Suhteellinen
+    description: 'Etäisyys lasketaan suurimmassa yksikössä, joka yhä kertoo jotain — minuutteina tunnin verran, tunteina päivän verran, sitten päivinä, viikkoina, kuukausina ja vuosina. Jokainen sanamuoto tulee käännöksen avaimesta.'
+  auto:
+    title: Automaattinen
+    description: 'Oletusarvo. Laskee taaksepäin, kun päivämäärä on tuore, ja siirtyy kalenteripäivämäärään viikon kuluttua, jolloin "27 viikkoa sitten" ei enää auta ketään.'
+  live:
+    title: Ajantasainen
+    description: 'Yksi ajastin palvelee jokaista päivämäärää sivulla, niin kuin näytettävä yksikkö ansaitsee — muutama sekunti "juuri nyt", tunti "3 kuukautta sitten". Jätä tämä sivu auki ja seuraa.'
+  plain:
+    title: 'Vain teksti'
+    description: 'Suodatin palauttaa merkkijonon ilman muotoilua, esimerkiksi otsikkotietoa tai vientiä varten. Formaattinimi, jota se ei tunne, käsitellään raakana ICU-mallina, mikä on keino, kun nimitetyt formaatit eivät ole haluamassasi muodossa.'
+offset:
+  now: 'Hetki sitten'
+  minutes: 'Viisi minuuttia'
+  hours: 'Kolme tuntia'
+  days: 'Kaksi päivää'
+  months: 'Neljä kuukautta'
+  years: 'Kolme vuotta'
+  future: 'Kahden tunnin kuluttua'
+live:
+  server: 'Renderöity Twigillä, päivitetty etupalvelun toimesta:'
+  vue: 'Renderöity Vue:lla:'
+plain:
+  filter: "| date_format('date_long')"
+  pattern: '| date_format("EEEE d MMMM, ''viikko'' w")'

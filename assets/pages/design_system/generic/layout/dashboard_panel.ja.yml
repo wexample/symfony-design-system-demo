@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: ダッシュボードパネル
+page_icon: 'ph:bold/square-half'
+field:
+  version: バージョン
+  instances: インスタンス
+  loaded: 読み込み済み
+loaded:
+  at_once: ページが表示されたときにすぐに
+  late: '%seconds% 秒遅れ、意図的に'
+service:
+  api:
+    title: APIゲートウェイ
+    state: サービス中
+    version: 4.12.0
+    instances: '3 / 3'
+    description: このゾーンに埋め込まれて読み込まれる専用のページ。角にある×をクリックすると閉じます：ゾーンが外に出て、他のゾーンがそのスペースを共有します。
+  worker:
+    title: 'キュー ワーカー'
+    state: 追いついています
+    version: 2.3.1
+    instances: '2 / 4'
+    description: '遅延読み込み — ビューにスクロールされるまで読み込まれず — 遅れて応答するため、スピナーが表示される時間があります。'

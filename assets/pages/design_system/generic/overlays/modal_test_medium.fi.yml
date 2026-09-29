@@ -1,0 +1,6 @@
+page_title: 'Modaalitesti - keskikokoinen'
+intro: 'Tässä modaalissa on keskikokoinen tekstisisältö.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Oletko varma, että haluat sulkea tämän modaalin?'

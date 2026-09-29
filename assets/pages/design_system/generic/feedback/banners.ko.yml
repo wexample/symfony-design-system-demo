@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 배너
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: 뷰
+    description: '같은 유형과 메시지를 사용하는 뷰 부분으로서의 인라인 배너입니다; 배너 서비스가 채우는 쉘은 다른 파일입니다.'
+  banners:
+    neutral: '중립적인 배너 메시지입니다.'
+    info: '정보 배너 메시지입니다.'
+    warning: '경고 배너 메시지입니다.'
+    error: '오류 배너 메시지입니다.'
+    success: '성공 배너 메시지입니다.'
+  layout_banner:
+    description: '배너는 주로 레이아웃 수준에서 인터넷 연결 상태와 같은 중요한 배경 활동 메시지를 표시하는 데 사용됩니다.'
+    button: '배너 표시'
+    messages:
+      info: '레이아웃 배너 정보 메시지입니다.'
+      success: '레이아웃 배너 성공 메시지입니다.'
+      warning: '레이아웃 배너 경고 메시지입니다.'
+      error: '레이아웃 배너 오류 메시지입니다.'

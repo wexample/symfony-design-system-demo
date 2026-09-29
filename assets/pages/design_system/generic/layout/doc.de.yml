@@ -1,0 +1,15 @@
+page_title: Dokumentlayout
+page_icon: 'ph:bold/book-open'
+intro: 'Das Dokumentlayout ist ein zweispaltiges Muster für Dokumentationsseiten – Beschreibung auf der linken Seite, Code auf der rechten Seite – das auf Mobilgeräten zu einer einzelnen Spalte zusammenklappt.'
+section:
+  structure:
+    title: Struktur
+    body: 'Verwende .doc als äußeren Wrapper und .doc-section für jede Zeile. Jede Sektion hat eine .doc-section--description und eine .doc-section--code Spalte.'
+example:
+  demo_placeholder: Demo-Inhalt
+  one:
+    title: Basis-Sektion
+    body: 'Eine typische Sektion kombiniert einen Beschreibungsblock mit einem Code-Snippet.'
+  two:
+    title: 'Mit einem Codeblock'
+    body: 'Verwende den Code-Block-Teil innerhalb von .doc-section--code für syntaxhervorgehobene Beispiele.'

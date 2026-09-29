@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Luettelot
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: Oletus
+  empty:
+    title: 'Tyhjät tiedot'
+search:
+  placeholder: 'Suodata luetteloa...'
+header:
+  filter: Suodata
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'Hallittu SQL-yhteys transaktioita varten'
+  s3:
+    title: 'Amazon S3'
+    body: 'Objektitallennuksen liitin tuontia ja vientiä varten'
+  webhook:
+    title: Webhook
+    body: 'Käynnistä ja vastaanota tapahtumia ulkoisista järjestelmistä'
+  redis:
+    title: Redis
+    body: 'Muistiin perustuva välimuisti ja pub/sub-viestintä'
+  mongo:
+    title: MongoDB
+    body: 'Dokumenttivarasto joustaville skeematyypeille'

@@ -1,0 +1,13 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: ত্রুটি
+page_icon: 'ph:bold/warning-circle'
+section:
+  trigger:
+    description: 'ফ্রন্টএন্ড ত্রুটি তৈরি করুন ক্যাচ হ্যান্ডলিং পরীক্ষার জন্য।'
+    button: 'ত্রুটি তৈরি করুন'
+  frontend_throw:
+    description: 'জাভাস্ক্রিপ্টে একটি অব্যবহৃত ফ্রন্টএন্ড ব্যতিক্রম তৈরি করুন।'
+    button: 'ত্রুটি ছুঁড়ুন'
+  internet_probe:
+    description: 'ইন্টারনেট সংযোগ পরিচালনার পরীক্ষা করার জন্য একটি বাহ্যিক অনুরোধ তৈরি করুন।'
+    button: প্রোব

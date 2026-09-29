@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Layout
+page_icon: 'ph:bold/layout'
+intro: 'Wie eine Seite unterteilt ist. Diese Formen nehmen Bereiche statt Inhalte ein: sie zeigen, wo Dinge stehen, und wissen nichts darüber, was dort steht.'
+page:
+  zones:
+    title: Zonen
+    description: 'Der Arbeitsbereich mit zwei Fenstern: eine Teilung, eine formatierte Spalte, ein scrollbarer Bereich. Darauf basieren alle Explorer, Editor und Detailansichten in einer App.'
+  workspace:
+    title: Arbeitsbereich
+    description: 'Seiten, die aus nebeneinander liegenden Bereichen bestehen, die sich nur durch den Abstand zwischen ihnen unterscheiden. Drei Anordnungen, zwischen denen man durch den Baum in jedem von ihnen wechselt.'
+  blocks:
+    title: Blocks
+    description: 'Die Fläche, auf der eine Gruppe von Dingen sitzt, gepolstert oder nicht, mit ihren Karten- und Figurenvarianten.'
+  toolbar:
+    title: Werkzeugleiste
+    description: 'Eine Reihe von Aktionen über oder unter dem, was sie beeinflussen, in ihren geräumigen und kompakten Dichten.'
+  tabs:
+    title: Tabs
+    description: 'Eine Seite, die eines von mehreren Gesichtern zeigt, mit den Panels, die der Auswahl folgen.'
+  doc:
+    title: Dokumentlayout
+    description: 'Das zweispaltige Dokumentationsmuster — Prosa auf der einen Seite, Code auf der anderen — das bei Platzmangel zu einer Spalte zusammenklappt.'

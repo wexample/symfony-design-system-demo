@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Palaute
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Sama toast kuin vue-osassa. Sulkeminen tapahtuu täällä sen sijaan, että se animaatioituisi: vue-puussa vanhempi omistaa listan.'
+  simple_toast:
+    description: 'Näytä yksinkertainen toast'
+    button: 'Avaa toast'
+    title: Toast-demo
+    message: 'Hei ToastServiceltä + ToastStackilta. Voit myös määrittää toimintalinkkejä kuten @action:demo(tämä) viestin sisällä.'
+  tl_toast:
+    description: 'Näytä ylävasen toast-kasa'
+    button: 'Avaa toast'
+    title: 'Ylävasen toast'
+    message: 'Hei ToastServiceltä + ToastStackilta (TL).'
+  medium_toast:
+    description: 'Näytä keskipitkä toast-viesti'
+    button: 'Avaa toast'
+    title: 'Keskipitkä toast'
+    message: 'Tämä on keskipitkä toast-viesti demoa varten.'
+  long_toast:
+    description: 'Näytä pitkä toast-viesti'
+    button: 'Avaa toast'
+    title: 'Pitkä toast'
+    message: 'Tämä on pidempi toast-viesti demoa varten. Se sisältää enemmän tekstiä, jotta voit ennakoida, miten komponentti toimii suuremmalla sisällöllä.'
+  horizontal_toasts:
+    description: 'Näytä neljä toastia vaakasuorassa kasassa'
+    info:
+      title: Info-toast
+      message: 'Vaakasuuntainen toast-esikatselu.'
+      button: 'Näytä toast'
+    success:
+      title: 'Onnistunut toast'
+      message: 'Kaikki näyttää hyvältä täällä.'
+      button: 'Näytä toast'
+    warning:
+      title: Varoitus-toast
+      message: 'Tarkista tämä toiminto vielä kerran.'
+      button: 'Näytä toast'
+    error:
+      title: Virhe-toast
+      message: 'Jokin meni pieleen täällä.'
+      button: 'Näytä toast'
+title:
+  toasts: Toastit

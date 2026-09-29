@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Lataajat
+page_icon: 'ph:bold/spinner-gap'
+intro: 'Jotain on tapahtumassa, eikä sen loppua tiedetä. Molemmat sanovat sen verran ja kieltäytyvät sanomasta enempää — kun loppu on tiedossa, seuraavalla välilehdellä oleva palkki kertoo sen sen sijaan.'
+section:
+  spinner:
+    title: Pyörijä
+    description: 'Kone on kiireinen. Kolme kokoa ja inline-asettelu, kun se on tekstirivillä eikä omassa laatikossaan.'
+  dots:
+    title: Pisteet
+    description: 'Jotain on sanomassa. Samat kolme kokoa ja samat asettelut — se, mikä vaihtuu, on se, ketä lukija odottaa.'
+  vue:
+    title: Vue
+    description: 'Molemmat toimitetaan myös vue-osina, ottaen samat vaihtoehdot, sivulle, joka päättää ajon aikana, onko odotettavaa.'
+spinner:
+  label: Ladataan
+  inline: 'Käsitellään tietoja'
+dots:
+  label: Odotetaan
+  inline: 'Toinen puoli kirjoittaa'

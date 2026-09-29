@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Työtila
+page_icon: 'ph:bold/sidebar-simple'
+intro: 'Tämä sivu on esimerkki: mitä olet lukemassa, sijaitsee kolmen alueen keskellä, aseteltuna vierekkäin sivun rungossa.'
+section:
+  gap:
+    title: 'Väli on erotin'
+    description: 'Kahden alueen väliin ei piirretä mitään. Ne eroavat toisistaan niiden väliin jättämästä tilasta, jonka läpi sivu näkyy — sama maa, jolla valikko ja otsikko seisovat. Jokaisella alueella on oma, joka on maa, joka ruumiilla aina oli.'
+  each:
+    title: 'Jokainen omanaan'
+    description: 'Kaksi saraketta pitävät antamansa leveyden ja keskimmäinen ottaa sen, mitä jää. Vieritä yhtä kolmesta ja kaksi muuta pysyvät paikoillaan: alue pitää oman ylivuotonsa, eikä sivu pidä mitään.'
+    more: 'Alue ei tiedä mitään naapureistaan. Vasemmalla oleva tutkimus on oma jakonsa — palkki, joka pysyy, puu, joka vierittää sen alla — ja se olisi sama muoto missä tahansa muualla sivulla.'
+  size:
+    title: 'Yhden koon määrittäminen'
+    description: 'Vasemmanpuoleinen alue pitää `zone-resizer`:ia: kahva, joka täyttää sen viereisen välin, eikä piirrä mitään — osoitin kertoo sen liikkuvan. Vedä sitä, tai tuo se fokukseen ja käytä nuolia; kaksoisnapsautus palauttaa alueelle takaisin sen leveyden, jonka sivu antoi sille.'
+    more: 'Kahva määrittää koon alueelle, joka on kooltaan — yksi, jolle on annettu leveys, eikä se ota sitä, mitä jää — ja sen vieressä oleva joustava alue imee eron. Leveys muistetaan alueen nimessä, joten se palaa sivun mukana, täällä kaikissa kolmessa asettelussa, koska se on sama alue, joka liikkuu.'
+editor:
+  state: Tallennettu
+inspector:
+  title: Yksityiskohdat
+  field:
+    path:
+      key: Polku
+    size:
+      key: Koko
+    changed:
+      key: Muutettu
+      value: '3 minuuttia sitten'

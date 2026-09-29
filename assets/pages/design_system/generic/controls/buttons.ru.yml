@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Кнопки
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'Стандартные кнопки'
+  button_states:
+    title: 'Состояния кнопок'
+  link:
+    title: 'Ссылки кнопок'
+  vue:
+    title: Vue
+    description: 'Та же кнопка и та же ссылка, что и частичные представления vue, использующие тот же значок и метку, для страницы, которая строит свои элементы управления во время работы.'
+button:
+  primary: 'Основная кнопка'
+  success: 'Кнопка успеха'
+  danger: 'Кнопка опасности'
+  invert: 'Инвертировать кнопку'
+  state:
+    default: 'По умолчанию'
+    loading: Загрузка
+    disabled: Отключено
+    assisted: 'С поддержкой'
+link:
+  more: 'Узнать больше'
+  external: 'Внешняя ссылка'

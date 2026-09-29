@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kierunek
+page_icon: 'ph:bold/arrows-left-right'
+intro: 'Te same próbki dwa razy, od lewej do prawej i od prawej do lewej. Nic tutaj nie jest napisane dla strony od prawej do lewej: każdy arkusz stylów mówi o początku i końcu linii, więc blok z `dir="rtl"` — lub strona w języku arabskim — lustrzanie odbija się sam. Strzałki wskazują w drugą stronę, pokrętło przełącznika porusza się w drugą stronę, menu otwiera się w kierunku końca, a e-mail lub ścieżka są czytane od lewej do prawej.'
+side:
+  ltr: 'Od lewej do prawej'
+  rtl: 'Od prawej do lewej'
+sample:
+  navigation: Nawigacja
+  controls: Kontrole
+  data: Dane
+  text: Tekst
+step:
+  account: Konto
+  address: Adres
+  payment: Płatność
+action:
+  previous: Poprzedni
+  next: Następny
+  menu: Menu
+menu:
+  report: Raport
+  settings: Ustawienia
+control:
+  notifications: Powiadomienia
+  digest: 'Cotygodniowe podsumowanie'
+  upload: Prześlij
+field:
+  owner: Właściciel
+  email: Email
+  site: Strona
+  amount: Kwota
+text:
+  lead: 'Wiodący akapit zawiera swoją regułę po stronie, od której zaczyna się linia.'
+  mixed: 'Wartości zachowują własny kierunek w zdaniu — zapytaj layla.haddad@example.test, uruchom'
+  marker: Dostarczono
+  link: Dokumentacja

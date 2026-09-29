@@ -1,0 +1,9 @@
+page_title: Nakładki
+page_icon: 'ph:bold/square-half-bottom'
+section:
+  simple_overlay:
+    description: 'Wyświetl prostą nakładkę przez 3 sekundy.'
+    button: 'Pokaż nakładkę'
+  spinner_overlay:
+    description: 'Wyświetl nakładkę z animacją ładowania przez 3 sekundy.'
+    button: 'Pokaż nakładkę'

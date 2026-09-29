@@ -1,0 +1,9 @@
+page_title: オーバーレイ
+page_icon: 'ph:bold/square-half-bottom'
+section:
+  simple_overlay:
+    description: 3秒間、シンプルなオーバーレイを表示します。
+    button: オーバーレイを表示
+  spinner_overlay:
+    description: 3秒間、読み込みスピナー付きのオーバーレイを表示します。
+    button: オーバーレイを表示

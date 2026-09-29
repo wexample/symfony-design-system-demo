@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Ohjaimet
+page_icon: 'ph:bold/cursor-click'
+intro: 'Mitä lukija toimii. Jokainen näistä tekee toiminnon eikä arvon — lomakekenttä ottaa arvon ja elää seuraavassa osiossa.'
+page:
+  buttons:
+    title: Painikkeet
+    description: 'Se, joka tekee jotain, eri versioissaan, tiloissaan ja tiheyksissään, plus linkki ja kohde, jotka avautuvat muualla.'
+  menus:
+    title: Valikot
+    description: 'Painike, joka avaa valintalistauksen, asettuu ikkunan reunoille, oksassa ja näkymässä.'
+  steppers:
+    title: Askeleet
+    description: 'Missä lukija seisoo askeleiden järjestyksessä, taakse jääneet askeleet voi palata.'
+section:
+  compound:
+    title: 'Kaikki yhdessä'
+    description: 'Sama ohjaustyökalujen setti kolmessa kontekstissa: pehmustettu lohko, työkalupalkki ja kompakti työkalupalkki. Ohjausvälineet eivät muutu kolmen välillä — alue kertoo niille, kuinka paljon tilaa niillä on.'
+button:
+  primary: Pääpainike
+select:
+  option_one: 'Vaihtoehto yksi'
+  option_two: 'Vaihtoehto kaksi'
+  option_three: 'Vaihtoehto kolme'
+menu:
+  primary: Valikkopainike
+  item:
+    report: Raportti
+    settings: Asetukset
+    logout: 'Kirjaudu ulos'
+    long: 'Kyllä, todella, todella, todella pitkä otsikko'
+switch:
+  label_right: 'Ota ominaisuus käyttöön'
+link:
+  external: 'Ulkoinen linkki'

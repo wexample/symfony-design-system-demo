@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Perustat
+page_icon: 'ph:bold/diamonds-four'
+intro: 'Mistä kaikki muu koostuu. Mikään näistä sivuista ei ole komponentti: ne ovat mittakaavat — väri, etäisyys, tyyppi ja iho, joka yhdistää ne — joita jokainen muu osio lukee koskaan näyttämättä niitä.'
+page:
+  colors:
+    title: Värit
+    description: 'Pinnat, joista sivu on koottu, käänteiset tasot, rajat ja vaimennetut tekstit, sekä viisi semanttista perhettä. Teeman molemmat puolet, vierekkäin.'
+  spacing:
+    title: Etäisyys
+    description: 'Yhdeksän etäisyysaskelta, koot ja tiheysmalli — kuinka alue ilmoittaa itsensä kompaktiksi ja mitä se tekee kaikelle, mitä se pitää sisällään.'
+  typography:
+    title: Typografia
+    description: 'Kirjasinkoko ja painot, sitten sama skaala toiminnassa proosatekstissä.'
+  skin:
+    title: Iho
+    description: 'Kuinka asiat piirtyvät, saman värin ja tiheyden mukaan: säteet, varjot, reunat ja erotinviivat. Teeman yksi akseli, jolla on luonteenpiirteitä.'

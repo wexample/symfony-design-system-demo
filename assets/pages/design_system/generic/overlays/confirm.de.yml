@@ -1,0 +1,41 @@
+page_title: Bestätigen
+section:
+  short:
+    description: 'Bestätigen mit kurzem Text (Overlay).'
+    button: 'Bestätigung öffnen'
+    title: 'Bitte bestätigen'
+    message: 'Möchten Sie fortfahren?'
+    result_title: Bestätigungsergebnis
+    result_prefix: 'Ergebnis:'
+  toast_short:
+    description: 'Bestätigen mit kurzem Text (Toast).'
+    button: 'Bestätigung öffnen'
+    title: Toast-Bestätigung
+    message: 'Mit Toast fortfahren?'
+    result_title: Toast-Bestätigungsergebnis
+    result_prefix: 'Ergebnis:'
+  medium:
+    description: 'Bestätigen mit mittellangem Text (Overlay).'
+    button: 'Bestätigung öffnen'
+    title: 'Mittlere Bestätigung'
+  long:
+    description: 'Bestätigen mit langem Text (Overlay).'
+    button: 'Bestätigung öffnen'
+    title: 'Lange Bestätigung'
+  toast_medium:
+    description: 'Bestätigen mit mittellangem Text (Toast).'
+    button: 'Bestätigung öffnen'
+    title: 'Mittlere Toast-Bestätigung'
+  toast_long:
+    description: 'Bestätigen mit langem Text (Toast).'
+    button: 'Bestätigung öffnen'
+    title: 'Lange Toast-Bestätigung'
+  custom:
+    description: 'Benutzerdefinierte Bestätigungsaktionen (stapeln).'
+    button: 'Bestätigung öffnen'
+    title: 'Gestapelte Bestätigung'
+    message: 'Eine weitere Bestätigung öffnen oder alle schließen?'
+    action:
+      new: 'Neue Bestätigung'
+      close_all: 'Alle Bestätigungen schließen'
+      cancel: Abbrechen

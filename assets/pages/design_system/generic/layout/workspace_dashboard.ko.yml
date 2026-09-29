@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 대시보드
+page_icon: 'ph:bold/squares-four'
+mode:
+  reopen: 'API 패널 다시 열기'
+  gap: '갭 포함'
+  flush: 플러시
+state:
+  success: 정상
+  warning: 저하됨
+  error: 실패
+  running: '드레인 중'
+tile:
+  traffic:
+    title: 트래픽
+    figure: '12.4k req/min'
+    description: '스플릿 내부의 스플릿: 벽은 수직 스플릿으로 된 행이며, 각 행은 자신의 스플릿입니다. 이 행 아래의 가장자리를 드래그하여 높이를 더 높이거나, 이 타일 옆의 가장자리를 드래그하여 너비를 더 넓힐 수 있습니다.'
+  latency:
+    title: '지연 시간 p95'
+    figure: '184 ms'
+    description: '모든 타일은 층 이름을 갖습니다, `zone--min-*`: 그 아래의 타일은 눌리지 않으며, 프레임이 대신 스크롤됩니다 — 옆으로도 내려가면서.'
+  errors:
+    title: 오류
+    figure: '2.1 %'
+    description: '크기가 조정된 영역은 분할 축을 따라 남겨진 크기를 유지하며, 다시 돌아옵니다; 핸들을 더블 클릭하면 다시 분할로 돌아갑니다.'
+  queue:
+    title: 대기열
+    figure: '318 작업'
+    description: '`zone--split--flush`는 간격을 픽셀로 좁히며, 벽의 바닥이 타일 간의 경계를 그립니다. 벽에 하나의 클래스만 있으면 충분하며, 행은 이를 상속합니다.'
+  deploys:
+    title: 배포
+    figure: '오늘 7회'
+    description: '그것 없이 같은 벽은 타일 사이의 공간을 유지하며, 페이지의 바닥이 보이는 공간을 통해 나타납니다 — 위의 바에서 전환하세요. 오른쪽으로 스크롤하면 한 번만 로드된 패널이 나타납니다.'

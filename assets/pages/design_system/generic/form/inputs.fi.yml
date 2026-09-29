@@ -1,0 +1,75 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Syötteet
+page_icon: 'ph:bold/textbox'
+intro: 'Jokainen kenttä, jonka järjestelmä toimittaa, yhdellä sivulla. Yhteistä niiden muodon lisäksi on sopimus: jokainen voidaan luovuttaa jollekulle muulle kuin lukijalle, joka täyttää sen ja palauttaa sen.'
+section:
+  assisted:
+    title: Apu
+    description: 'Kenttä voidaan ottaa haltuun - agentin, tai minkä tahansa, joka tietää mitä kirjoittaa. Kun se on hallinnassa, se ilmoittaa siitä, eikä vastaa näppäimistölle tai osoittimelle, ja arvo näkyy niin kuin kenttä päättää: kirjoitettuna sanana, valittuna vaihtoehtona, tai rastitettuna kytkimenä. Apua on luonteeltaan tilapäistä; avustettu kenttä on kenttä, jota kukaan ei voi käyttää.'
+  fields:
+    title: Kentät
+    description: 'Yksi kustakin, kerran. Paina Toista ylhäällä ja ne täytetään vuorotellen, samalla tavalla kuin agentti toimisi - mikä on ainoa tapa tietää, että sopimus pitää kaikissa niissä.'
+  actions:
+    title: 'Napit lomakkeessa'
+    description: 'Nappi suorittaa toiminnon, ei arvoa, joten agentille ei ole mitään kirjoitettavaa siihen.'
+  code:
+    title: 'Koodi, soluissa'
+    description: 'Yksi todellinen kenttä solujen alla, joten palvelin lukee yhden arvon ja selain pitää sen, mitä se jo tekee: liitetty koodi saapuu kokonaisena, puhelin tarjoaa vastaanottamansa koodin, backspace palaa taaksepäin. Täytettynä se lähettää lomakkeensa itsenäisesti - pois päältä tällä sivulla, jossa ei ole minne lähettää sitä.'
+  select:
+    title: 'Valinta, omillaan'
+    description: 'Kaksi mukautettua valintaa lomakejoukon ulkopuolella, kuten työkalupalkki tai suodatinpalkki asettaa ne.'
+  switch:
+    title: 'Kytkin, omillaan'
+    description: 'Tunnisteet kummallakin puolella, symbolit sisällä, ja valittu tila.'
+  switch_tone:
+    title: 'Kytkin sävyllä, ja yksi, joka kysyy'
+    description: 'Kun kytkin on päällä, se voi ottaa tilan tai kategorian värin sen sijaan, että linkin väri olisi. Yksi, joka kytkee jotakin päälle, jolla on seurauksia, ottaa `varoituksen` ja kysyy ensin: kieltäytyminen, se pysyy pois päältä. Pois kytkemistä ei koskaan kyseenalaisteta. Joka tapauksessa se ilmoittaa `kytkin:muutos` sivulle.'
+  switch_vue:
+    title: 'Kytkin, vue:ssa'
+    description: 'Sama kytkin vue-puussa, jossa valittu tila on tila eikä datan attribuutti, jota skripti vaihtaa.'
+assisted:
+  hint: 'Agentti täyttää alla olevat kentät, yksi kerrallaan.'
+  play: Toista
+  reset: Nollaa
+field:
+  text: 'Koko nimi'
+  textarea: Osoite
+  email: Sähköposti
+  url: Verkkosivusto
+  password: Salasana
+  code: Vahvistuskoodi
+  number: Ikä
+  date: Syntymäaika
+  time: 'Suositeltu aika'
+  datetime: Tapaaminen
+  select: Maa
+  radio: 'Ota yhteyttä'
+  switch: 'Lähetä minulle uutiskirje'
+  file: Henkilöllisyystodistus
+  emoji: Tunnelma
+  button: Nappi
+  submit: Lähetä
+placeholder:
+  text: 'Maya Lindqvist'
+  textarea: 'Katu, postinumero, kaupunki'
+  email: maya@example.com
+  url: 'https://example.com'
+choice:
+  one: Ruotsi
+  two: Portugali
+  three: Japani
+code:
+  numeric: 'Kuusi numeroa, kuten lähetetty sähköpostilla'
+  backup: 'Varakoodi, kirjaimia ja numeroita'
+  vue: 'Neljä numeroa, vue:ssa'
+switch:
+  tone:
+    success: Synkronoitu
+    mint: Merkitty
+    risky: 'Julkaise tallennettaessa'
+  confirm:
+    title: 'Julkaistaanko tallennettaessa?'
+    message: 'Jokainen tallennus julkaistaan kerralla, ilman väliarviointia.'
+    accept: 'Ota käyttöön'
+  label_right: 'Ota ominaisuus käyttöön'
+  label_left: 'Tunniste vasemmalla'

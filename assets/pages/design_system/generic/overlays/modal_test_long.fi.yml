@@ -1,0 +1,6 @@
+page_title: 'Modalitest - pitkä'
+intro: 'Tässä modalissa on pitkä tekstisisältö.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Oletko varma, että haluat sulkea tämän pitkän tekstin modalin?'

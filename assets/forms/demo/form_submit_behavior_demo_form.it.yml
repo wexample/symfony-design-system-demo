@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: Stanza
+    placeholder: 'Cerca una stanza...'
+    help: 'Seleziona un record cercandolo. Ciò che il modulo trasmette è il suo id.'
+  password:
+    label: Password
+    help: 'Inserisci la tua password per autenticarti.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'La password non è valida per scopi di test.'
+  emoji:
+    label: Emoji
+    help: "Scegli un'emoji per rappresentare il tuo stato d'animo."
+    error:
+      ERR_FIELD_EMOJI_INVALID: "L'emoji non è valida per scopi di test."
+  text_simple:
+    label: Testo
+    help: 'Un campo di testo su una sola riga per contenuti brevi.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Il testo non è valido per scopi di test.'
+  text_area:
+    label: 'Testo lungo'
+    placeholder: 'Scrivi quello che vuoi...'
+    help: "Un'area di testo multi-riga per contenuti più lunghi."
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Il testo lungo non è valido per scopi di test.'
+  behavior:
+    label: Comportamento
+    help: "Scegli come il modulo reagisce dopo l'invio."
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'La selezione del comportamento non è valida per scopi di test.'
+    choice:
+      error:
+        label: 'Mostra errori'
+        description: "chiude l'incorporamento (o non fa nulla nella pagina)."
+      js:
+        label: 'Azione JS (toast)'
+        description: 'restituisce errori di validazione.'
+      redirect:
+        label: Reindirizza
+        description: 'attiva un toast senza inviare.'
+      default:
+        label: Predefinito
+        description: 'naviga nella pagina completa, o chiudi il modulo.'
+      embed_stay:
+        label: "Mantieni l'incorporamento aperto (modale / pannello)"
+        description: 'rimane aperto nel modale/pannello.'
+      embed_redirect:
+        label: "Reindirizza nell'incorporamento (modale / pannello)"
+        description: "naviga all'interno del modale/pannello."
+  date:
+    label: Data
+    help: 'Seleziona una data utilizzando il selettore di date.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'La data non è valida per scopi di test.'
+  datetime:
+    label: 'Data e ora'
+    help: "Seleziona una data e un'ora combinate."
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Data e ora non sono validi per scopi di test.'
+  time:
+    label: Ora
+    help: 'Seleziona un orario del giorno.'
+    error:
+      ERR_FIELD_TIME_INVALID: "L'ora non è valida per scopi di test."
+  file:
+    label: File
+    help: 'Carica uno o più file dal tuo dispositivo.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Il file non è valido per scopi di test.'
+  email:
+    label: Email
+    placeholder: tuo@example.com
+    help: 'Inserisci un indirizzo email valido.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: "L'email non è valida per scopi di test."
+  number:
+    label: Numero
+    help: 'Inserisci un valore numerico.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Il numero non è valido per scopi di test.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Inserisci un URL completo incluso il protocollo.'
+    error:
+      ERR_FIELD_URL_INVALID: "L'URL non è valido per scopi di test."
+  switch:
+    label: Interruttore
+    help: 'Attiva o disattiva questa opzione.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: "L'interruttore non è valido per scopi di test."
+  radio_choice:
+    label: 'Scelta radio'
+    help: "Seleziona un'opzione dall'elenco."
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'La scelta radio non è valida per scopi di test.'
+    choice:
+      option_a:
+        label: 'Opzione A'
+      option_b:
+        label: 'Opzione B'
+      option_c:
+        label: 'Opzione C'
+action:
+  button_demo: 'Non fare nulla'
+  submit_default: Invia
+  submit_error: 'Mostra errori'
+  submit_js: 'Azione JS'
+  submit_redirect: Reindirizza
+  submit_embed_stay: "Mantieni l'incorporamento aperto"
+  submit_embed_redirect: "Reindirizza nell'incorporamento"
+error:
+  ERR_FORM_TEST:
+    message: 'Errore globale per scopi di test.'
+description: |
+  Usa questo modulo per testare i comportamenti di invio. Questa demo è disponibile in contesti di pagina, ajax e modale. Scegli un comportamento qui sotto e invia:
+toast:
+  success:
+    title: Successo
+    message: 'Modulo inviato con successo.'
+  js_action:
+    title: 'Azione JS'
+    message: 'Vuoi riattivare il modulo?'
+    reactivate: Riattiva
+    dismiss: Chiudi

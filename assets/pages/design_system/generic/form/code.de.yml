@@ -1,0 +1,11 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Code
+page_icon: 'ph:bold/code'
+intro: 'Ein Feld, das Code enthält, farblich nach seiner Grammatik. Es wird mit symfony-coding geliefert und nicht mit dem Designsystem, von dem es nur borrowt: sein Rahmen ist der eines Feldes, seine Farben sind die Code-Tokens des Schemas, seine aktuelle Zeile und seine Auswahl die Nuancen des Schemas – es folgt also dem hellen und dunklen Gesicht wie alles andere um es herum.'
+section:
+  server:
+    title: Serverfeld
+    description: 'Ein echtes Textfeld, das überlagert wird vom Editor, sobald die Seite läuft. Das Textfeld bleibt das Feld – es wird mit dem Formular gesendet, vom Formular-Stack angesprochen – sodass das Formular gleich funktioniert, ob mit oder ohne es. Wählen Sie über mehrere Zeilen, die Cursorzeile darunter: die Auswahl bleibt sichtbar.'
+  vue:
+    title: Vue-Feld
+    description: 'Der gleiche Editor, der ein Modell hält: v-model beim Ein- und Ausgehen, die Sprache ist ein Prop, das sich ändern kann, während das Feld geöffnet ist.'

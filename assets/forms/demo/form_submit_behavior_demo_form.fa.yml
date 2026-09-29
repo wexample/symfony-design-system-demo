@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: اتاق
+    placeholder: 'اتاقی را جستجو کنید...'
+    help: 'سندی را با جستجو انتخاب کنید. آنچه فرم حمل می‌کند شناسه آن است.'
+  password:
+    label: گذرواژه
+    help: 'گذرواژه خود را برای احراز هویت وارد کنید.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'گذرواژه برای آزمون معتبر نیست.'
+  emoji:
+    label: ایموجی
+    help: 'یک ایموجی انتخاب کنید تا حس و حال شما را نمایش دهد.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'ایموجی برای آزمون معتبر نیست.'
+  text_simple:
+    label: متن
+    help: 'یک ورودی متن تک‌خطی برای محتواهای کوتاه.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'متن برای آزمون معتبر نیست.'
+  text_area:
+    label: 'متن طولانی'
+    placeholder: 'هر چه می‌خواهید تایپ کنید...'
+    help: 'یک ناحیه متنی چندخطی برای محتواهای طولانی‌تر.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'متن طولانی برای آزمون معتبر نیست.'
+  behavior:
+    label: رفتار
+    help: 'انتخاب کنید که فرم بعد از ارسال چگونه واکنش نشان دهد.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'انتخاب رفتار برای آزمون معتبر نیست.'
+    choice:
+      error:
+        label: 'نمایش خطاها'
+        description: 'embed را می‌بندد (یا در صفحه هیچ کاری انجام نمی‌دهد).'
+      js:
+        label: 'عمل JS (toast)'
+        description: 'خطاهای اعتبارسنجی را برمی‌گرداند.'
+      redirect:
+        label: انتقال
+        description: 'toast را بدون ارسال فعال می‌کند.'
+      default:
+        label: پیش‌فرض
+        description: 'صفحه کامل را هدایت می‌کند یا مودال را می‌بندد.'
+      embed_stay:
+        label: 'نگه‌داشتن embed باز (مودال / پنل)'
+        description: 'در مودال/پنل باز می‌ماند.'
+      embed_redirect:
+        label: 'انتقال در embed (مودال / پنل)'
+        description: 'درون مودال/پنل هدایت می‌کند.'
+  date:
+    label: تاریخ
+    help: 'تاریخ را با استفاده از انتخاب‌گر تاریخ انتخاب کنید.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'تاریخ برای آزمون معتبر نیست.'
+  datetime:
+    label: 'تاریخ و زمان'
+    help: 'تاریخ و زمان را به‌طور ترکیبی انتخاب کنید.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'تاریخ و زمان برای آزمون معتبر نیست.'
+  time:
+    label: زمان
+    help: 'زمان یک روز را انتخاب کنید.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'زمان برای آزمون معتبر نیست.'
+  file:
+    label: فایل
+    help: 'یک یا چند فایل را از دستگاه خود بارگذاری کنید.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'فایل برای آزمون معتبر نیست.'
+  email:
+    label: ایمیل
+    placeholder: you@example.com
+    help: 'یک آدرس ایمیل معتبر وارد کنید.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'ایمیل برای آزمون معتبر نیست.'
+  number:
+    label: عدد
+    help: 'یک مقدار عددی وارد کنید.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'عدد برای آزمون معتبر نیست.'
+  url:
+    label: 'آدرس وب'
+    placeholder: 'https://'
+    help: 'یک آدرس وب کامل شامل پروتکل وارد کنید.'
+    error:
+      ERR_FIELD_URL_INVALID: 'آدرس وب برای آزمون معتبر نیست.'
+  switch:
+    label: کلید
+    help: 'این گزینه را روشن یا خاموش کنید.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'کلید برای آزمون معتبر نیست.'
+  radio_choice:
+    label: 'انتخاب رادیویی'
+    help: 'یک گزینه را از لیست انتخاب کنید.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'انتخاب رادیویی برای آزمون معتبر نیست.'
+    choice:
+      option_a:
+        label: 'گزینه A'
+      option_b:
+        label: 'گزینه B'
+      option_c:
+        label: 'گزینه C'
+action:
+  button_demo: 'هیچ کاری انجام ندهید'
+  submit_default: ارسال
+  submit_error: 'نمایش خطاها'
+  submit_js: 'عمل JS'
+  submit_redirect: انتقال
+  submit_embed_stay: 'نگه‌داشتن embed باز'
+  submit_embed_redirect: 'انتقال در embed'
+error:
+  ERR_FORM_TEST:
+    message: 'خطای کلی برای آزمون.'
+description: |
+  از این فرم برای آزمایش رفتارهای ارسال استفاده کنید. این نمایش در زمینه‌های صفحه، ajax و مودال در دسترس است. یک رفتار را در زیر انتخاب کرده و ارسال کنید:
+toast:
+  success:
+    title: موفقیت
+    message: 'فرم با موفقیت ارسال شد.'
+  js_action:
+    title: 'عمل JS'
+    message: 'آیا می‌خواهید فرم را دوباره فعال کنید؟'
+    reactivate: 'دوباره فعال کردن'
+    dismiss: 'رد کردن'

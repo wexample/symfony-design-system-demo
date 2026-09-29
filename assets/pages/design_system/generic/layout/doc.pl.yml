@@ -1,0 +1,15 @@
+page_title: 'Układ dokumentu'
+page_icon: 'ph:bold/book-open'
+intro: 'Układ dokumentu to dwukolumnowy wzór dla stron dokumentacji — opis po lewej, kod po prawej — który zwija się do jednej kolumny na urządzeniach mobilnych.'
+section:
+  structure:
+    title: Struktura
+    body: 'Użyj .doc jako zewnętrznego opakowania i .doc-section dla każdego wiersza. Każda sekcja ma kolumnę .doc-section--description i .doc-section--code.'
+example:
+  demo_placeholder: 'Treść demonstracyjna'
+  one:
+    title: 'Podstawowa sekcja'
+    body: 'Typowa sekcja łączy blok opisu z fragmentem kodu.'
+  two:
+    title: 'Z blokiem kodu'
+    body: 'Użyj części code-block wewnątrz .doc-section--code dla przykładów z podświetleniem składni.'

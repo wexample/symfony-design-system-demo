@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 基本
+page_icon: 'ph:bold/diamonds-four'
+intro: 'すべての要素の基盤。これらのページにあるものはコンポーネントではなく、すべてのセクションがそれを表示することなく読み取るスケール — 色、間隔、タイプ、そしてそれらを引き寄せるスキンです。'
+page:
+  colors:
+    title: 色
+    description: 'ページが積み重なっている表面、反転レベルの境界線や muted テキストが描かれるもので、5つの意味論的ファミリーがあります。テーマの両面が並んでいます。'
+  spacing:
+    title: 間隔
+    description: '9つの間隔ステップ、サイズ、密度パターン — どのように領域がコンパクトであることを宣言し、それが保持するすべてのものに何をもたらすか。'
+  typography:
+    title: タイポグラフィ
+    description: タイポグラフィスケールとウェイト、そしてそのスケールがプローズのページでどのように機能するか。
+  skin:
+    title: スキン
+    description: 物事がどのように描かれるか、同じ色と密度で：半径、影、境界線、セパレーター。テーマの中でキャラクターを持つ唯一の軸です。

@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bannereita
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Sama inline-banneri kuin vue-osassa, ottaen vastaan saman tyypin ja viestin; banneripalvelun täyttämä kehys on eri tiedosto.'
+  banners:
+    neutral: 'Tämä on neutraali banneriviesti.'
+    info: 'Tämä on info-banneriviesti.'
+    warning: 'Tämä on varoitus-banneriviesti.'
+    error: 'Tämä on virhe-banneriviesti.'
+    success: 'Tämä on onnistumis-banneriviesti.'
+  layout_banner:
+    description: 'Bannereita käytetään pääasiassa asettelutasolla näyttämään taustatoiminnan tärkeitä viestejä kuten Internet-yhteyden tila.'
+    button: 'Näytä banneri'
+    messages:
+      info: 'Asettelubannerin info-viesti.'
+      success: 'Asettelubannerin onnistumisviesti.'
+      warning: 'Asettelubannerin varoitusviesti.'
+      error: 'Asettelubannerin virheviesti.'

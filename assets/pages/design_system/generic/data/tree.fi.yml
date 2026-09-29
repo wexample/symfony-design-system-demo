@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Puu
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: Tiedostonhallinta
+    description: 'Pesiminen on koko rakenne: kohde avautuu, kun se on auki, ja sen syvyys on se, mikä siirtää riviä vasemmalle, samalla kun korostus kattaa koko leveyden.'
+  vue:
+    title: Vue
+    description: 'Sama merkintä, sama muoto, mutta kansiot avautuvat ja sulkeutuvat: nuoli on se, joka taittaa solmua, ja napsautus mihin tahansa muuhun kohtaan rivillä valitsee kohteen ja lähettää sen valintatapahtumana.'
+  vue_workspace:
+    title: 'Vue, työtilassa'
+    description: 'Tutkija sovelluksena on sellainen: vue-puu vieritettävässä vyöhykkeessä jakautumisen sisällä, pitäen enemmän rivejä kuin vyöhyke on korkea ja pidempiä nimiä kuin se on leveä. Vyöhyke vierittää molemmissa akselissa ja vaakasuora palkki pysyy pohjassa, riippumatta siitä, mikä viimeinen rivi on.'
+  plain:
+    title: 'Ilman kuvakkeita'
+    description: 'Muoto ei tiedä mitään tiedostoista — kohde ilman kuvaketta ja linkkiä näkyy tavallisena tekstinä.'
+explorer:
+  scope:
+    project: Projektit
+    packages: Paketteja
+    scratches: Luonnokset
+    changed: 'Muutetut tiedostot'
+  option:
+    filters: Suodattimet
+    sort: 'Järjestä nimen mukaan'
+    hidden: 'Näytä piilotetut tiedostot'
+  action:
+    new: 'Uusi tiedosto'
+    locate: 'Valitse avoin tiedosto'
+    collapse: 'Kollapsoi kaikki'
+  body: 'Puu ei omaa leveyttä eikä korkeutta: sen vieressä oleva vyöhyke on tavallinen, ja kumpikin puoli vierittää itsenäisesti.'
+plain:
+  root: Juuri
+  child: 'Ensimmäinen lapsi'
+  sibling: 'Toinen lapsi'

@@ -1,0 +1,75 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 入力
+page_icon: 'ph:bold/textbox'
+intro: システムが提供するすべてのフィールドが1ページに集まっています。それらの形状を超えて共通する点は契約です：各フィールドは、読む人以外の何かに渡され、内容が入力されて戻されることができます。
+section:
+  assisted:
+    title: 支援
+    description: フィールドはエージェントや書く内容を知っている何かに引き継がれます。その間は、キーボードやポインターへの応答を停止し、フィールドが決定した形で値が表示されます：単語のために書かれ、オプションのために選ばれ、スイッチのためにチェックされます。支援は本質的に一時的です；支援されたフィールドは誰も使えないフィールドです。
+  fields:
+    title: フィールド
+    description: 'それぞれ1つずつ。上のプレイを押すと、エージェントが行うのと同じ呼び出しで順に入力されます — これがすべてのフィールドに契約が成立していることを知る唯一の方法です。'
+  actions:
+    title: フォーム内のボタン
+    description: ボタンは値ではなくアクションを取るため、エージェントが書き込むものはありません。
+  code:
+    title: セル内のコード
+    description: 'セルの下に実際のフィールドがあり、サーバーは1つの値を読み取り、ブラウザは既に行っていることを保持します：貼り付けたコードがそのまま入る、電話は受け取ったコードを提供する、バックスペースは戻る役割を果たします。フィールドが入力されると、自動的にフォームを送信します — このページではオフになっており、送信先はありません。'
+  select:
+    title: 独自の選択
+    description: フォームグループ外の2つのカスタムセレクト、ツールバーやフィルターバーがそれらを配置します。
+  switch:
+    title: 独自のスイッチ
+    description: 両側のラベル、内部のグリフ、チェックされた状態。
+  switch_tone:
+    title: トーンのあるスイッチと、尋ねるスイッチ
+    description: '一度オンになると、スイッチはリンクの色ではなく状態やカテゴリの色を取ることができます。結果を伴う何かを切り替えるスイッチは`warning`を取り、事前に尋ねます：拒否された場合、オフのままです。オフにすることは決して質問されません。いずれの場合も、`switch:change`をページに伝えます。'
+  switch_vue:
+    title: Vue内のスイッチ
+    description: チェックされた状態が状態であり、スクリプトが切り替えるデータ属性ではないVueツリー内の同じスイッチ。
+assisted:
+  hint: エージェントが以下のフィールドを1つずつ入力します。
+  play: 再生
+  reset: リセット
+field:
+  text: フルネーム
+  textarea: 住所
+  email: Eメール
+  url: ウェブサイト
+  password: パスワード
+  code: 確認コード
+  number: 年齢
+  date: 生年月日
+  time: 希望の時間
+  datetime: アポイントメント
+  select: 国
+  radio: 連絡方法
+  switch: ニュースレターを送信
+  file: 身分証明書
+  emoji: 気分
+  button: ボタン
+  submit: 送信
+placeholder:
+  text: マヤ・リンドクヴィスト
+  textarea: 通り、郵便番号、市
+  email: maya@example.com
+  url: 'https://example.com'
+choice:
+  one: スウェーデン
+  two: ポルトガル
+  three: 日本
+code:
+  numeric: メールで送信された6桁
+  backup: バックアップコード、文字と数字
+  vue: Vue内の4桁
+switch:
+  tone:
+    success: 同期完了
+    mint: タグ付け済み
+    risky: 保存時に公開
+  confirm:
+    title: 保存時に公開しますか？
+    message: すべての保存が一度に公開され、中間のレビューはありません。
+    accept: オンにする
+  label_right: 機能を有効にする
+  label_left: 左側のラベル

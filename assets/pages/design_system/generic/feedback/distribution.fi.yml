@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Jakelu
+page_icon: 'ph:bold/chart-bar-horizontal'
+intro: 'Mistä kokonaisuus koostuu, yhdellä rivillä. Kun edistymispalkki kertoo, kuinka pitkälle yksi arvo on edennyt, tämä kertoo, miten kokonaisuus jakautuu: osat ovat siinä järjestyksessä kuin ne on annettu, joten putkisto etenee vasemmalta oikealle, kuten putkisto ikään kuin on. Tilat on nimetty sanastolla, jota kapseli ja ympyrä jo käyttävät, joten yksi tila ei koskaan vie kahta väriä.'
+section:
+  default:
+    title: 'Kokonaisuus osina'
+    description: 'Osat kasvavat suhteessa siihen, mitä ne ovat arvoltaan, ja legenda kertoo ne sanoina alapuolella — sama kapseli, joka piirtää tilan taulukkoon, joten silmä liikkuu näiden kahden välillä oppimatta mitään uutta.'
+  linked:
+    title: 'Osat, jotka vievät johonkin'
+    description: 'Osa, jolla on kohde, on linkki: palkki muuttuu listaksi, jota se tiivistää. Nuolen alla se ottaa valon filmin, eikä toista väriä, mikä kertoisi eri tilasta.'
+  bare:
+    title: 'Ilman legendaa'
+    description: 'Missä osat on nimetty aivan viereen, tai missä palkin on vain annettava asian muoto, legenda jätetään pois ja jokainen osa kertoo, mitä se on nuolen alla.'
+  rest:
+    title: 'Kokonaisuus, joka on suurempi kuin sen osat'
+    description: 'Mikä kokonaisuus lasketaan ja mikään osa ei selitä, pitää osansa rivistä ja ei piirrä mitään: rata näkyy läpi juuri niin paljon, sen sijaan että osat venyisivät täyttämään palkkia, jota ne eivät täytä.'
+  empty:
+    title: 'Ei vielä mitään laskettu'
+    description: 'Ei kokonaisuutta eikä osaa — työ ei ole alkanut, laskuri on yhä ulkona. Palkki säilyttää paikkansa, kuten pelkkä rata — sama maa, joka näyttää kokonaisuuden, joka on suurempi kuin sen osat — joten niiden rivi säilyttää muotonsa; sen luku on viiva, koska mitään laskettua ei ole nolla.'
+  compact:
+    title: Tiivis
+    description: 'Ohuempi palkki riville tai kortin alatunnisteeseen, tiheys siirtyy sen legendan kapselien mukana.'
+  vue:
+    title: 'Vue, ohjattu'
+    description: 'Sama palkki, sen osat annettuina datana. Osa, joka ei vie minnekään, vastaa klikkaukseen `valitse`, mikä on kuunneltava taulukolle, joka suodattaa itseään sen vieressä.'
+bar:
+  pipeline: 'Luettelon sivut'
+  elements: 'Suunnittelujärjestelmän elementit'
+  partial: 'Luetut tiedostot'
+state:
+  done: Valmis
+  running: Käynnissä
+  todo: Tehtävä
+  failed: Epäonnistui
+  skipped: 'Ei aloitettu'

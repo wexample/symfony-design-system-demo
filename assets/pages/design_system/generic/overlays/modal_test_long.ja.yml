@@ -1,0 +1,6 @@
+page_title: 'モーダルテスト - 長文'
+intro: このモーダルは長い本文を使用しています。
+frontend:
+  embed:
+    closing_confirmation:
+      message: この長文モーダルを閉じてもよろしいですか？

@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Painikkeet
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: Oletuspainikkeet
+  button_states:
+    title: 'Painikkeen tilat'
+  link:
+    title: 'Painikkeen linkit'
+  vue:
+    title: Vue
+    description: 'Sama painike ja sama linkki kuin vue-osissa, ottaen saman ikonin ja nimen, sivulle, joka rakentaa ohjaimiaan toiminnan aikana.'
+button:
+  primary: Pääpainike
+  success: Onnistumispainike
+  danger: Vaarapainike
+  invert: 'Käänteinen painike'
+  state:
+    default: Oletus
+    loading: Ladataan
+    disabled: 'Pois käytöstä'
+    assisted: Avustettu
+link:
+  more: Lisätietoja
+  external: Ulkoilinkki

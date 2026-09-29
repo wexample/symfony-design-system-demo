@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: '대화 상자'
+page_icon: 'ph:bold/app-window'
+section:
+  persist:
+    description: '탭이 있는 모달입니다. 열고, 탭을 전환하고, F5를 누르세요 — 모달이 같은 탭에서 다시 열립니다.'
+    button: '모달 열기'
+  simple:
+    description: '간단한 모달을 표시합니다. Esc 키로 닫거나 모달 외부를 클릭하여 닫을 수 있습니다.'
+    button: '모달 열기'
+  components:
+    description: '컴포넌트와 토스트 트리거가 있는 모달을 표시합니다. Esc는 비활성화되어 있지만, 외부를 클릭하여 여전히 닫을 수 있습니다.'
+    button: '모달 열기'
+  medium:
+    description: '중간 길이의 텍스트가 있는 모달을 표시합니다. 외부 클릭으로는 닫을 수 없습니다.'
+    button: '모달 열기'
+  long:
+    description: '긴 텍스트가 있는 모달을 표시합니다. 닫기 전에 확인을 요청합니다.'
+    button: '모달 열기'
+  form_rendered:
+    description: '모달 안에 렌더링된 데모 양식을 표시합니다. Esc와 외부 클릭은 비활성화되며, 양식이 수정되었는지 확인을 요청합니다.'
+    button: '모달 열기'
+  form_ajax:
+    description: 'AJAX를 사용하여 모달 안에 렌더링된 데모 양식을 표시합니다. Esc와 외부 클릭은 비활성화되며, 양식이 수정되었는지 확인을 요청합니다.'
+    button: '모달 열기'
+  recursive:
+    description: '다른 대화 상자 안에 대화 페이지를 엽니다 — 모달 또는 패널을 선택하세요.'
+    button_modal: '모달에서 열기'
+    button_panel: '패널에서 열기'

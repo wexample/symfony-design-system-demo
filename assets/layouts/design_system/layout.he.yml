@@ -1,0 +1,8 @@
+~extends: '@front.layouts.private.layout'
+menu_design_system:
+  navigation:
+    group:
+      app:
+        title: 'רכיבי אפליקציה'
+      generic:
+        title: 'רכיבים גנריים'

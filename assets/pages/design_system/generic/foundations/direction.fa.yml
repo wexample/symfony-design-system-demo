@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: جهت
+page_icon: 'ph:bold/arrows-left-right'
+intro: 'نمونه‌های یکسان به صورت دو بار، از چپ به راست و از راست به چپ. هیچ چیزی در اینجا برای سمت راست به چپ نوشته نشده است: هر استایل‌ شیت به شروع و پایان یک خط اشاره دارد، بنابراین یک بلوک با `dir="rtl"` — یا یک صفحه به زبان عربی — به طور خودکار آینه‌ای است. پیکان‌ها به سمت دیگر اشاره می‌کنند، دسته یک سوئیچ به سمت دیگر حرکت می‌کند، منویی به سمت پایان باز می‌شود و یک ایمیل یا یک مسیر به صورت چپ به راست ادامه می‌یابد.'
+side:
+  ltr: 'چپ به راست'
+  rtl: 'راست به چپ'
+sample:
+  navigation: ناوبری
+  controls: کنترل‌ها
+  data: داده‌ها
+  text: متن
+step:
+  account: حساب
+  address: آدرس
+  payment: پرداخت
+action:
+  previous: قبلی
+  next: بعدی
+  menu: منو
+menu:
+  report: گزارش
+  settings: تنظیمات
+control:
+  notifications: اعلان‌ها
+  digest: 'خلاصه هفتگی'
+  upload: بارگذاری
+field:
+  owner: مالک
+  email: ایمیل
+  site: سایت
+  amount: مقدار
+text:
+  lead: 'یک پاراگراف اصلی قانون خود را از سمتی که خط از آن آغاز می‌شود، حمل می‌کند.'
+  mixed: 'مقادیر جهت خود را در یک جمله حفظ می‌کنند — از layla.haddad@example.test بپرسید، اجرا کنید'
+  marker: 'تحویل داده شده'
+  link: مستندات

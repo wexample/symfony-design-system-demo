@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Odstępy
+page_icon: 'ph:bold/ruler'
+intro: 'Dwie skale i jedna zasada. Kształt nigdy nie zapisuje długości: wykonuje krok, co sprawia, że dwa komponenty oddzielone rokiem nie są oddzielone o dwa piksele.'
+section:
+  space:
+    title: 'Kroki odstępu'
+    description: 'Dziewięć kroków, od cienkiej linii do marginesu strony. Wypełnienia, przerwy i marginesy pochodzą stąd — wartość między dwoma krokami to wartość, która nie została określona.'
+  size:
+    title: Rozmiary
+    description: 'Szerokości i wysokości, jakie otrzymuje obszar: kolumna, panel, miara czytania. Większe niż krok odstępu i używane w tym samym celu.'
+  density:
+    title: Gęstość
+    description: 'Kompaktowość należy do obszaru, a nie do widżetu. Pasek zadeklarowany jako kompaktowy sprawia, że to, co trzyma, jest również kompaktowe, ponieważ tokeny go noszące dziedziczą — żaden komponent poniżej nie jest informowany, gdzie stoi.'
+density:
+  roomy: 'Pasek narzędziowy o własnej gęstości i przyciski, które zawiera'
+  compact: 'Ten sam pasek narzędziowy zadeklarowany jako kompaktowy — nic nie powiedziano o przyciskach'
+  marker: 'Obszar zadeklarowany jako kompaktowy bez posiadania własnego kształtu'
+  action: Utwórz
+  other: Odśwież

@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: כפתורים
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'כפתורים ברירת מחדל'
+  button_states:
+    title: 'מצבי כפתור'
+  link:
+    title: 'קישורי כפתור'
+  vue:
+    title: Vue
+    description: 'אותו כפתור ואותו קישור כמו חלקי vue, לוקחים את אותו אייקון ותווית, עבור דף שבונה את השליטה שלו בזמן הריצה.'
+button:
+  primary: 'כפתור ראשי'
+  success: 'כפתור הצלחה'
+  danger: 'כפתור סיכון'
+  invert: 'הפוך כפתור'
+  state:
+    default: 'ברירת מחדל'
+    loading: טוען
+    disabled: מושבת
+    assisted: בעזרת
+link:
+  more: 'למידע נוסף'
+  external: 'קישור חיצוני'

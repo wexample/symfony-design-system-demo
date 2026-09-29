@@ -1,0 +1,20 @@
+page_title: 'בדיקת מודל - רכיבים'
+intro: 'מודל זה מכיל רכיבים ואינטראקציות.'
+menu:
+  label: 'תפריט פעולות'
+  item:
+    report: 'דווח על בעיה'
+    settings: הגדרות
+    logout: התנתק
+upload_button: 'העלה קובץ'
+choice:
+  one: 'בחירה ראשונה'
+  two: 'בחירה שנייה'
+  three: 'בחירה שלישית'
+toast_button: 'הצג טוסט מהמודל'
+toast_title: 'טוסט מודל'
+toast_message: 'שלום מתוך המודל.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'האם אתה בטוח שברצונך לסגור את המודל הזה?'

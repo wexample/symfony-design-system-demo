@@ -1,0 +1,67 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Varasto
+page_icon: 'ph:bold/list-checks'
+intro: 'Jokainen elementti, jonka paketti sisältää, sekä muodot, joilla se toimitetaan. Taulukko ei ole listaus, jota kukaan ylläpitää: se on rekisteri, jonka jokainen paketti sisältää, koottuna sen ilmoituksista ja tarkistettuna komponenttien läpikäynnin perusteella. Se kertoo, mitä siellä on — ei koskaan, mitä pitäisi olla, mikä on kysymys, johon mikään skannaus ei voi vastata ja jonka elementtien on ilmoitettava itse.'
+problems:
+  title: 'Ilmoitus ja varat ovat ristiriidassa'
+  body: 'Näytetään täällä, koska tämä sivu on koottu resursseista kehitysvaiheessa, joten se näkee, mitä `%command%` kieltäytyy kirjoittamasta. Jokainen alla oleva kohta nimeää elementin; taulukko on silti piirretty.'
+missing:
+  title: 'Rekisteri puuttuu'
+  body: '%bundles% on ilmoittautunut pitävänsä elementtejä, mutta sillä ei ole rekisteriä levyllä, joten sen rivit puuttuvat alla olevasta taulukosta. Suorita `%command%` ja tallenna tulos.'
+summary:
+  label: 'Mikä on laskettu'
+  count: 'Kuinka monta'
+  elements: 'Löydetyt elementit'
+  todo: 'Muodot, jotka on vielä tehtävä'
+  undecided: 'Päätökset eivät vielä tehty'
+  shapes: Muodot
+  abstracts: 'Abstraktit pohjat'
+column:
+  element: Elementti
+  shape: Muoto
+  description: 'Mihin se on tarkoitettu'
+cell:
+  absent: 'Ei löytynyt tästä formaatista, eikä ilmoitus kerro miksi — päätös ei ole vielä tehty'
+  todo: 'Haluttu tässä formaatissa, mutta ei vielä siellä'
+  shared: 'Myös %bundles%:n hallussa. Ei virhe — lataaja erottaa ne aliaksen mukaan — mutta on hyvä tietää, onko kyseessä yksi elementti piirrettynä uudelleen vai kaksi, joilla on sama nimi.'
+format:
+  style:
+    title: Tyylit
+    description: 'Tyylitiedosto, joka ladataan lataajan toimesta, kun komponentti on sivulla.'
+  template:
+    title: Mallipohja
+    description: 'Palvelimen renderöijä, joka piirtää twigillä.'
+  vue:
+    title: Vue
+    description: 'Asiakkaan kaksoiskappale, joka piirretään selaimessa samoista vaihtoehdoista.'
+  script:
+    title: Skripti
+    description: 'Käyttäytyminen, sidottu merkintään, kun se on asiakirjassa.'
+  schema:
+    title: Skeema
+    description: 'Sopimus: mitä komponentti ottaa, tyypit ja oletukset. Kaikki muut renderöijät ovat tarkistettavissa sen mukaan.'
+  ai:
+    title: AI
+    description: 'Mitä agentille kerrotaan komponentista: skeema, kuinka sitä käytetään, työkalut, jotka vaikuttavat siihen.'
+  react:
+    title: React
+    description: React-renderöijä.
+  flutter:
+    title: Flutter
+    description: 'Flutter-renderöijä, kirjoitettu dartilla skeeman mukaan. Merkintä ei siirry; sopimus ja tokenit siirtyvät.'
+section:
+  matrix:
+    title: 'Elementti muodossa'
+    description: 'Yksi rivi per komponentti, yksi sarake per renderöijä. Komponentti on hakemisto `components/`-kansiossa, joka sisältää kaikki tavat, joilla se voidaan piirtää — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — joten mitään ei tarvitse enää sovittaa neljää hakemistoa nimien mukaan. Yksi solu laskee sen takana olevat tiedostot — vie hiiri sen päälle nähdäksesi ne. Jokainen ilmoitettu elementti lukee samalla tasolla — rivi, joka löytyy yhdestä formaatista, voi olla aukko tai primitiivi, joka ei halua mitään muuta, ja sen selvittäminen on työnä, jota tämä taulukko varten tekee, eikä jotain, jonka se jo tietää. Neljä tilaa, erotettuna siitä, kenen vuoro on seuraavaksi: tarkistus, elementti on siellä; varoitus, sitä halutaan ja se puuttuu; yliviivattu ympyrä, se toimii tarkoituksella ilman; tyhjää, kukaan ei ole vielä päättänyt. Vie hiiri varoituksen tai ympyrän päälle nähdäksesi, mitä ilmoitus sanoo.'
+  sources:
+    title: 'Mistä nämä tulevat'
+    description: 'Paketti on taulukossa, koska se ilmoitti niin — toteuttamalla `DesignSystemElementsBundleInterface`, tapa, jolla paketti kertoo lataajalle etupolkuistaan. Kukin kirjoittaa `data/elements.json` omiin resursseihinsa, julkaistuna niiden mukana, jotta build, node-puoli, toinen kieli tai agentti toimivat kaikista samoista tiedostoista; tämä sivu on vain niiden yhdiste.'
+  abstract:
+    title: Abstrakti
+    description: 'Viisi pohjaa `components/_abstract/`-hakemistossa, joita ei koskaan piirretä — ne vain laajenevat. `_abstract/vue` on kolme tyhjää twig-lohkoa, joita kolmekymmentä yksi mallipohjaa täyttää; `_abstract/form-field` on se, mihin kaksitoista syötettä rakennetaan. Ne ovat pois matriisista syystä, että muodot ovat: niitä ei toimiteta kenellekään, joten kysyminen niiltä skeemaa tai react-kaksoiskappaletta on kysymys, johon niillä ei ole tapaa vastata. Alaviiva kertoo sen ennen kuin kukaan avaa hakemiston. Näytettävä on se, mitä kukin jo tuo mukanansa, kun sitä laajennetaan.'
+  shapes:
+    title: Muodot
+    description: 'Muoto on tyyli ilman renderöijää: kirjoitat merkinnän, laitat luokan siihen ja `@use` tyylitiedoston omasta. `.stack`, `.grid`, `.block`, `.cluster`. Ne on lueteltu täällä eikä yllä olevassa taulukossa, koska renderöijien taulukolla ei ole saraketta tarjota jotain, jolla ei ole — ja niiden puuttuminen siitä on syy, miksi sen varoitukset tarkoittavat työtä eikä huonosti esitettyä kysymystä. Raja vedetään tiedostojen mukaan, ei maun mukaan: muoto on tarkalleen yksi `.scss` ja mikään ei renderöi sitä, joten päivänä, jolloin se saa `.html.twig`:n, se siirtyy `components/`-hakemistoon ja liittyy matriisiin. Se siirto on ainoa ylennys, joka on olemassa. Se, mitä kukin sanoo itsestään, luetaan omasta tyylitiedostonsa päästä, joten sille ei ole toista paikkaa, josta se voisi vaeltaa.'
+  coverage:
+    title: 'Mitä tämä jättää pois'
+    description: 'Hakemistot `assets/`, joita skannaus ei kulje, lueteltuna levystä eikä muistista. Mixinit, työkalut ja tokenit eivät ole elementtejä eivätkä ehkä koskaan ole rivejä täällä; asettelut ja jaetut skriptit ovat, eikä niitä ole vielä käsitelty.'

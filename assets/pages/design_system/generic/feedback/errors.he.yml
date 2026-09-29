@@ -1,0 +1,13 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: שגיאות
+page_icon: 'ph:bold/warning-circle'
+section:
+  trigger:
+    description: 'גרום לשגיאת צד לקוח לצורך בדיקות טיפול בשגיאות.'
+    button: 'גרום לשגיאה'
+  frontend_throw:
+    description: 'גרום לשגיאה בלתי נתפסת בצד הלקוח ב-JavaScript.'
+    button: 'זרוק שגיאה'
+  internet_probe:
+    description: 'גרום לבקשה חיצונית כדי לבדוק את טיפול בחיבור לאינטרנט.'
+    button: בדוק

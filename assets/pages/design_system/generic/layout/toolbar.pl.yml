@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Pasek narzędzi'
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'Nagłówek i jego znaczniki'
+    description: 'Jak coś jest sklasyfikowane, gdzie się znajduje i która to wersja: trzy znaczniki odczytywane jako jeden wiersz, więc dzielą wysokość niezależnie od tego, z czego są zrobione — kapsułka ma rozmiar w ems dla tekstu, w którym zazwyczaj się znajduje, a belka wyrównuje ją z kapsułą obok. Nagłówek rezygnuje ze swoich marginesów i trzyma nazwę po lewej stronie.'
+  default:
+    title: 'Podstawowy pasek narzędzi'
+  title:
+    title: 'Pasek narzędzi z tytułem'
+  title_multi:
+    title: 'Tytuł sekcji z akcjami'
+title:
+  example: 'Tytuł strony'
+  section: 'Tytuł sekcji'
+  document: 'Projektowanie i rozwój'
+marker:
+  state: evergreen
+button:
+  create: Utwórz
+  refresh: Odśwież
+  export: Eksportuj
+  edit: Edytuj
+  delete: Usuń
+  history: Historia
+  share: Udostępnij

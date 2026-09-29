@@ -1,0 +1,18 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: สื่อ
+page_icon: 'ph:bold/image'
+section:
+  vue:
+    title: Vue
+    description: 'กรอบเดียวกันกับส่วน vue สำหรับเอกสารที่ที่อยู่จะถูกทราบเมื่อหน้าเว็บทำงานแล้วเท่านั้น.'
+  shapes:
+    title: รูปทรง
+  overlay:
+    title: Overlay
+  aspect_ratio:
+    title: อัตราส่วนภาพ
+  document:
+    title: เอกสารฝัง
+    description: 'iframe จะเติมเต็มกล่องของมัน ดังนั้นกล่องจึงมีขนาด: ตัวปรับอัตราส่วน หรือสื่อ--เติมเต็มเพื่อรับความสูงที่พ่อแม่กำหนดให้.'
+document:
+  title: เอกสารตัวอย่าง

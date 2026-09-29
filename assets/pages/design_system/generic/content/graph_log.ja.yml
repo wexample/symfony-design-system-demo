@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: グラフログ
+page_icon: 'ph:bold/git-fork'
+intro: '子孫のラインにあるアイテム、新しいものが最初に表示され、色のついたレーンで描かれます：ラインが分岐する場所、2つが再び出会う場所。各アイテムはその親を示し、レーンはそれに従います。グラフの横に表示される情報は自由です — タイトル、カプセルとしての参照、誰が、いつ、短い名前 — だから、gitの履歴は他の用途の一つです。'
+section:
+  history:
+    title: 履歴
+    description: フィーチャーブランチがマージされ、別のブランチがオープンのままで、リリースにタグが付けられます。各レーンは、開始地点から終了地点までの色を保持しています。
+  other:
+    title: git以外の何か
+    description: 文書のバージョン、そのうちの1つがマージされる前に横でレビューされます。コンポーネントはコミットについて何も知りません。
+  vue:
+    title: Vue内で
+    description: 同じ履歴がVueツリーに表示され、アイテムが先頭に入ってくるとレーンが再度描かれます。
+  git:
+    title: このアプリケーションの履歴
+    description: symfony-codingのgit_graph_items()によってリポジトリから読み取られ、gitの妨げにならない共有リーダーを通じて取得されます。
+history:
+  merge_search: 検索ブランチをマージ
+  search_filters: 検索にフィルターを追加
+  fix_header: 小さい画面でヘッダーを修正
+  try_theme: ダークテーマを試す
+  search_index: 文書をインデックス化
+  release: 'リリース 2.1.0'
+  search_start: 検索を開始
+  initial: 最初のコミット
+versions:
+  v4: 'レビューが適用されたバージョン 4'
+  current: 現在
+  review: レビュアーの変更
+  review_ref: レビュー
+  v3: 'バージョン 3'
+  v2: 'バージョン 2'
+  v1: 'バージョン 1'

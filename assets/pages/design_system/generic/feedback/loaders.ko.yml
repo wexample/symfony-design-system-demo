@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 로더
+page_icon: 'ph:bold/spinner-gap'
+intro: '무언가가 진행 중이며 그 끝이 알려지지 않았습니다. 이 둘은 그 정도까지만 이야기하며 더 이상 말하지 않습니다 — 끝이 알려진 경우, 다음 탭의 바가 대신 그것을 나타냅니다.'
+section:
+  spinner:
+    title: 스피너
+    description: '기계가 바쁘게 돌아가고 있습니다. 세 가지 크기와, 자신만의 상자가 아닌 텍스트 줄에 서 있을 때를 위한 인라인 정렬이 있습니다.'
+  dots:
+    title: 점
+    description: '무언가가 곧 언급될 것입니다. 동일한 세 가지 크기와 동일한 정렬 — 변화하는 것은 독자가 누구를 기다리고 있는가입니다.'
+  vue:
+    title: 뷰
+    description: '두 개 모두 vue 부분으로 제공되며, 동일한 옵션을 사용하여 실행 중에 기다릴 것이 있는지 여부를 결정하는 페이지를 위한 것입니다.'
+spinner:
+  label: '로딩 중'
+  inline: '데이터 처리 중'
+dots:
+  label: '기다리는 중'
+  inline: '상대방이 작성하고 있습니다'

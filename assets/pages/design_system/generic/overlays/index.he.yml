@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: שכבות
+page_icon: 'ph:bold/stack'
+intro: 'משטחים שנפתחים מעל הדף במקום לצידו. הם שונים בכמה מקום הם תופסים — פינה, צד, באמצע — ובמה זה עולה לקורא לעזוב אותם.'
+page:
+  modal:
+    title: מודאלי
+    description: 'אמצע המסך, והדף מאחוריו מושהה: עבור בחירה שצריך לעשות לפני הכל.'
+  panel:
+    title: פאנל
+    description: 'צד המסך, הדף עדיין קריא לצידו: עבור משהו שנעזר בו בצמוד ולא במקום.'
+  confirm:
+    title: אשר
+    description: 'השאלה האחת ששווה פעולה הרסנית, וההבטחה שלא קורה כלום עד שהיא נענית.'
+  backdrop:
+    title: רקע
+    description: 'השכבה שעליה כל אלה stacked, בפני עצמה: מה פותח אותה, מה סוגר אותה, ובאיזו סדר.'
+  tooltip:
+    title: הסבר
+    description: 'כמה מילים ליד מה שהסמן או הפוקוס נמצאים עליו, מופנים מהקצוות של החלון.'
+  tour:
+    title: סיור
+    description: 'דף שמוצג שלב אחר שלב, נזכר ברגע שסיים או נדחה.'

@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Grundlagen
+page_icon: 'ph:bold/diamonds-four'
+intro: 'Woraus alles andere besteht. Nichts auf diesen Seiten ist ein Element: Sie sind die Maßstäbe — Farbe, Abstände, Typografie und die Haut, die sie verbindet — die jede andere Sektion liest, ohne sie jemals zu zeigen.'
+page:
+  colors:
+    title: Farben
+    description: 'Die Flächen, aus denen eine Seite aufgebaut ist, die invertierten Ebenen, mit denen Ränder und gedämpfter Text gezeichnet werden, und die fünf semantischen Familien. Beide Seiten des Themas, nebeneinander.'
+  spacing:
+    title: Abstände
+    description: 'Die neun Abstandsintervalle, die Größen und das Dichte-Muster — wie sich ein Bereich kompakt erklärt und was das mit allem macht, was er enthält.'
+  typography:
+    title: Typografie
+    description: 'Die Schriftgröße und die Gewichtungen, dann die gleiche Skala in einem Prosa-Text.'
+  skin:
+    title: Haut
+    description: 'Wie Dinge gezeichnet werden, bei gleicher Farbe und Dichte: die Radien, die Schatten, die Ränder und die Trennlinien. Die eine Achse des Themas, die Charakter hat.'

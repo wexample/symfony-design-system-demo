@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Direction
+page_icon: 'ph:bold/arrows-left-right'
+intro: "Les mêmes échantillons deux fois, de gauche à droite et de droite à gauche. Rien ici n'est écrit pour le côté de droite à gauche : chaque feuille de style parle du début et de la fin d'une ligne, donc un bloc donné `dir=\"rtl\"` — ou une page en arabe — se réfléchit de lui-même. Les flèches pointent dans l'autre sens, le bouton d'un interrupteur se déplace dans l'autre sens, un menu s'ouvre vers la fin, et un e-mail ou un chemin continue de se lire de gauche à droite."
+side:
+  ltr: 'De gauche à droite'
+  rtl: 'De droite à gauche'
+sample:
+  navigation: Navigation
+  controls: Contrôles
+  data: Données
+  text: Texte
+step:
+  account: Compte
+  address: Adresse
+  payment: Paiement
+action:
+  previous: Précédent
+  next: Suivant
+  menu: Menu
+menu:
+  report: Rapport
+  settings: Paramètres
+control:
+  notifications: Notifications
+  digest: 'Récapitulatif hebdomadaire'
+  upload: Télécharger
+field:
+  owner: Propriétaire
+  email: Email
+  site: Site
+  amount: Montant
+text:
+  lead: "Un paragraphe d'introduction suit sa règle du côté où la ligne commence."
+  mixed: "Les valeurs conservent leur propre direction à l'intérieur d'une phrase — demandez layla.haddad@example.test, exécutez"
+  marker: Livré
+  link: Documentation

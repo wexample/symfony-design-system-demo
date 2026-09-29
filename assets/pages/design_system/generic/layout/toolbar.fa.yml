@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'نوار ابزار'
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'عنوان و نشانگرهای آن'
+    description: 'چیزی که به عنوان آن ثبت شده، جایگاه آن و کدام نسخه: سه نشانگر به عنوان یک ردیف خوانده می‌شوند، بنابراین ارتفاع مشترکی دارند، هرچه که ساخته شده‌اند — یک کپسول به اندازه متن در ems است که معمولاً درون آن قرار دارد و یک نوار آن را روی کپسول کناری تنظیم می‌کند. عنوان حاشیه‌های خود را رها کرده و نام را در سمت چپ قرار می‌دهد.'
+  default:
+    title: 'نوار ابزار پایه'
+  title:
+    title: 'نوار ابزاری با عنوان'
+  title_multi:
+    title: 'عنوان بخش با عملیات'
+title:
+  example: 'عنوان صفحه'
+  section: 'عنوان بخش'
+  document: 'طراحی و توسعه'
+marker:
+  state: 'همیشه سبز'
+button:
+  create: ایجاد
+  refresh: به‌روزرسانی
+  export: 'صادر کردن'
+  edit: ویرایش
+  delete: حذف
+  history: تاریخچه
+  share: 'اشتراک گذاری'

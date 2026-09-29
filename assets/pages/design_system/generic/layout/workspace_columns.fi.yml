@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Viisi saraketta'
+page_icon: 'ph:bold/arrows-horizontal'
+intro: 'Viisi aluetta rivissä leveämpänä kuin näyttö, luettavissa sivuttain vierittämällä. Vasemmalla oleva navigointi ei ole yksi niistä — se on alue sivusta, ja se pysyy paikallaan.'
+section:
+  scroll:
+    title: 'Rivi vierittää, sivu ei'
+    description: '`zone--split--scroll` asettaa ylivuodon riville: sarakkeet pitävät nimettyä leveyttään ja jakautunut vieritys tapahtuu niiden alla. Jokaisella on edelleen oma pystysuuntainen ylivuotonsa, joten pitkä sarake vierittää paikallaan.'
+  width:
+    title: 'Jokainen sarake nimeää leveyden'
+    description: 'Täällä ei ole mitään, mikä ottaisi sen, mitä on jäljellä: rivi on tarkoituksella pidempi kuin sivu. Alue, joka ei nimeä kokoa, palautuu riittävän leveään sarakkeeseen, ja nämä nimeävät omansa — 24rem kukin, viisi niistä.'
+  fold:
+    title: 'Alueen taittaminen'
+    description: 'Jokainen sarake täällä on `zone-collapsible`. Taitettuna se ei katoa: se pitää paikkansa rivissä ja maaperässään, ja sen palkki kääntyy sivulle — joten nappi, joka taittoi sen, on nappi, joka avaa sen, eikä ulkopuolisten tarvitse tietää sen olemassaolosta.'
+    more: 'Nimettynä alue muistetaan: tila kirjoitetaan käyttöliittymän tilaan sen nimen alle ja luetaan takaisin, kun sivu toimitetaan, joten se saapuu taitettuna sen sijaan, että se taittuisi silmiesi edessä. Kolmas sarake avautuu taitettuna, ja viimeinen renderöidään vue:n avulla — sama komponentti, samat luokat, sama avain.'
+column:
+  first: 'Lue minua'
+  second: Tehtävälista
+  third: Käynnissä
+  fourth: Arviointi
+  fifth: Valmis
+card:
+  second: Lippu
+  third: Lippu
+  fourth: Lippu
+  fifth: Lippu
+  body: 'Mitä sarake pitää, ei ole rivin asia: se vierittää itsenäisesti, palkin alla, joka pysyy.'

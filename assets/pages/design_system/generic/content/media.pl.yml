@@ -1,0 +1,18 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Media
+page_icon: 'ph:bold/image'
+section:
+  vue:
+    title: Widok
+    description: 'Ten sam szkielet co częściowy widok, dla dokumentu, którego adres jest znany dopiero po załadowaniu strony.'
+  shapes:
+    title: Kształty
+  overlay:
+    title: Nakładka
+  aspect_ratio:
+    title: 'Proporcje obrazu'
+  document:
+    title: 'Osadzony dokument'
+    description: 'Iframe wypełnia swoje pole, więc pole określa rozmiar: modyfikator proporcji lub media--wypełnij, aby przyjąć wysokość, którą daje rodzic.'
+document:
+  title: 'Dokument zastępczy'

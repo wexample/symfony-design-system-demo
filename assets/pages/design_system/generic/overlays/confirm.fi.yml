@@ -1,0 +1,41 @@
+page_title: Vahvista
+section:
+  short:
+    description: 'Vahvista lyhyellä tekstillä (ylipeite).'
+    button: 'Avaa vahvistus'
+    title: Vahvista
+    message: 'Haluatko jatkaa?'
+    result_title: Vahvistustulos
+    result_prefix: 'Tulos:'
+  toast_short:
+    description: 'Vahvista lyhyellä tekstillä (toast).'
+    button: 'Avaa vahvistus'
+    title: Vahvistus-toast
+    message: 'Jatketaanko toastilla?'
+    result_title: Toast-vahvistustulos
+    result_prefix: 'Tulos:'
+  medium:
+    description: 'Vahvista keskikokoisella tekstillä (ylipeite).'
+    button: 'Avaa vahvistus'
+    title: 'Keskikokoinen vahvistus'
+  long:
+    description: 'Vahvista pitkällä tekstillä (ylipeite).'
+    button: 'Avaa vahvistus'
+    title: 'Pitkä vahvistus'
+  toast_medium:
+    description: 'Vahvista keskikokoisella tekstillä (toast).'
+    button: 'Avaa vahvistus'
+    title: 'Keskikokoinen vahvistus-toast'
+  toast_long:
+    description: 'Vahvista pitkällä tekstillä (toast).'
+    button: 'Avaa vahvistus'
+    title: 'Pitkä vahvistus-toast'
+  custom:
+    description: 'Mukautetut vahvistustoimet (pinottuna).'
+    button: 'Avaa vahvistus'
+    title: 'Pinottu vahvistus'
+    message: 'Avaa toinen vahvistus tai sulje kaikki?'
+    action:
+      new: 'Uusi vahvistus'
+      close_all: 'Sulje kaikki vahvistukset'
+      cancel: Peruuta

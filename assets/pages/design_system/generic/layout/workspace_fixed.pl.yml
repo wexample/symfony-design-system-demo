@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Szerokość stała'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: 'Te same trzy obszary, ale ten, który czytasz, ma przypisaną szerokość zamiast ją zajmować — a szerokość, której nikt nie chce, trafia do obszaru, w którym nic nie ma.'
+section:
+  sized:
+    title: 'Obszar o przypisanej szerokości'
+    description: '`zone--narrow` z krokiem rozmiaru: obszar ma taką szerokość i pozostaje tak szeroki, niezależnie od dostępnej przestrzeni w oknie. To sposób, w jaki tekst pozostaje czytelny — kolumna, która rośnie wraz z ekranem, przestaje być kolumną.'
+  slack:
+    title: 'Do czego służy luz'
+    description: 'Ostatni obszar nic nie zawiera, ale mimo to utrzymuje swoje miejsce: pustość nie oznacza nieobecności, a panel czekający jest postrzegany jako panel, a nie jako dziura. Jest tam, aby zająć szerokość, której przypisane obszary odmawiają.'
+    more: 'Podział przekazuje pozostałą przestrzeń temu, kto o nią prosi. Gdy nikt nie prosi, przypisane obszary byłyby rozciągane lub popychane do krawędzi; z tym, utrzymują swoją szerokość, a strona zachowuje resztę.'
+work:
+  size: 32rem

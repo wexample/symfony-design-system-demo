@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Proprietà
+page_icon: 'ph:bold/list-dashes'
+intro: "Coppie chiave / valore visualizzate come un elenco di definizioni. Le righe sono sottogriglie dell'elenco, quindi le chiavi rimangono allineate in una singola colonna mentre ogni riga rimane una vera e propria casella che può contenere un separatore."
+section:
+  default:
+    title: Predefinito
+    description: "La colonna delle chiavi si adatta all'etichetta più lunga. Sovrascrivi --properties-key-width per fissarla."
+  bordered:
+    title: 'Con bordi'
+    description: "Un separatore tra le righe, per registrazioni dense all'interno di un corpo di blocco."
+    block_title: 'Dettagli di connessione'
+  split:
+    title: Diviso
+    description: 'Valori spinti verso il bordo destro — totali, saldi, qualsiasi cosa letta come una colonna di cifre.'
+  compact:
+    title: Compatto
+    description: "Righe più strette quando l'elenco è secondario rispetto al resto del blocco."
+  stacked:
+    title: Impilato
+    description: 'Chiave sopra valore, per colonne strette dove due colonne si avvolgerebbero male.'
+    aside: 'Il corpo mantiene la larghezza rimanente mentre la colonna a lato rimane fissa.'
+  columns:
+    title: Colonne
+    description: "Una dozzina di coppie brevi lette male in un'unica colonna alta: l'occhio attraversa la larghezza della pagina tra una chiave e il suo valore, e i separatori finiscono per tenere insieme ogni coppia. Disposte in colonne — tante quante la larghezza consente, fino a una su un telefono — una coppia diventa un piccolo blocco di due righe che non ha bisogno di una regola attorno. Un valore che nessuna colonna può contenere prende l'intera larghezza con `full`."
+  vue:
+    title: Vue
+    description: 'Lo stesso elenco come un parziale vue, prendendo i modificatori come props: un record costruito mentre la pagina è in esecuzione si legge come uno reso con essa.'
+field:
+  name:
+    key: Nome
+    value: 'Proiezione pipeline'
+  identifier:
+    key: Identificatore
+    value: prj_8f21c4a7
+  description:
+    key: Descrizione
+    value: 'Aggrega eventi in arrivo e li espone come una proiezione interrogabile.'
+  status:
+    key: Stato
+    value: Pronto
+  owner:
+    key: Proprietario
+    value: 'Team piattaforma'
+  created:
+    key: Creato
+    value: '14 marzo 2026'
+  region:
+    key: Regione
+    value: eu-west-1
+  runtime:
+    key: Runtime
+    value: 'PHP 8.3'
+  version:
+    key: Versione
+    value: 1.4.2
+  reviewed:
+    key: 'Revisionato il'
+    value: null
+  path:
+    key: File
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: Subtotale
+    value: '1,240.00 €'
+  tax:
+    key: Imposta
+    value: '248.00 €'
+  total:
+    key: Totale
+    value: '1,488.00 €'

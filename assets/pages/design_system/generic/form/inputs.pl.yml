@@ -1,0 +1,75 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Pola wejściowe'
+page_icon: 'ph:bold/textbox'
+intro: 'Każde pole, które system dostarcza, na jednej stronie. To, co je łączy oprócz kształtu, to umowa: każde z nich może być przekazane czemuś, co nie jest osobą czytającą, które je wypełnia i oddaje.'
+section:
+  assisted:
+    title: Wsparcie
+    description: 'Pole może być przejęte — przez agenta, przez cokolwiek, co wie, co wpisać. Gdy jest zajęte, informuje o tym, przestaje odpowiadać na klawiaturę i wskaźnik, a wartość pojawia się tak, jak postanowiło pole: rozpisana dla słowa, wybrana dla opcji, zaznaczona dla przełącznika. Wsparcie jest z definicji tymczasowe; pole pozostawione z wsparciem to pole, z którego nikt nie może skorzystać.'
+  fields:
+    title: Pola
+    description: 'Jedno z każdego, raz. Naciśnij Odtwórz powyżej, a będą wypełniane po kolei, przez te same wywołania, które wykonałby agent — co jest jedynym sposobem, aby upewnić się, że umowa obowiązuje dla wszystkich.'
+  actions:
+    title: 'Przyciski w formularzu'
+    description: 'Przycisk podejmuje działanie, a nie wartość, więc nie ma nic do zapisania przez agenta.'
+  code:
+    title: 'Kod, w komórkach'
+    description: 'Jedno prawdziwe pole pod komórkami, więc serwer odczytuje jedną wartość, a przeglądarka utrzymuje to, co już robi: wklejony kod ląduje w całości, telefon oferuje kod, który otrzymał, a klawisz backspace cofa. Wypełnione, wysyła swój formularz samodzielnie — wyłączone na tej stronie, która nie ma dokąd go wysłać.'
+  select:
+    title: 'Wybór, samodzielnie'
+    description: 'Dwa niestandardowe wybory poza grupą formularzy, tak jak narzędzie lub pasek filtrów je umieszcza.'
+  switch:
+    title: 'Przełącznik, samodzielnie'
+    description: 'Etykiety po obu stronach, symbole w środku i zaznaczony stan.'
+  switch_tone:
+    title: 'Przełącznik z tonem, i taki, który pyta'
+    description: 'Gdy jest włączony, przełącznik może przyjąć kolor stanu lub kategorii zamiast koloru linku. Taki, który przełącza coś z konsekwencjami, przyjmuje `ostrzeżenie` i pyta wcześniej: odrzucony, pozostaje wyłączony. Wyłączenie nigdy nie jest kwestionowane. W każdym przypadku informuje stronę o `switch:change`.'
+  switch_vue:
+    title: 'Przełącznik, w vue'
+    description: 'Ten sam przełącznik wewnątrz drzewa vue, gdzie zaznaczony stan jest stanem, a nie atrybutem danych, który skrypt przełącza.'
+assisted:
+  hint: 'Agent wypełnia pola poniżej, jedno po drugim.'
+  play: Odtwórz
+  reset: Zresetuj
+field:
+  text: 'Pełne imię i nazwisko'
+  textarea: Adres
+  email: E-mail
+  url: 'Strona internetowa'
+  password: Hasło
+  code: 'Kod weryfikacyjny'
+  number: Wiek
+  date: 'Data urodzenia'
+  time: 'Preferowana godzina'
+  datetime: Wizyta
+  select: Kraj
+  radio: 'Kontakt przez'
+  switch: 'Wyślij mi newsletter'
+  file: 'Dokument tożsamości'
+  emoji: Nastrój
+  button: Przycisk
+  submit: Wyślij
+placeholder:
+  text: 'Maya Lindqvist'
+  textarea: 'Ulica, kod pocztowy, miasto'
+  email: maya@example.com
+  url: 'https://example.com'
+choice:
+  one: Szwecja
+  two: Portugalia
+  three: Japonia
+code:
+  numeric: 'Sześć cyfr, jak wysłano mailem'
+  backup: 'Kod zapasowy, litery i cyfry'
+  vue: 'Cztery cyfry, w vue'
+switch:
+  tone:
+    success: Zsynchronizowane
+    mint: Oznaczone
+    risky: 'Opublikuj przy zapisie'
+  confirm:
+    title: 'Opublikować przy zapisie?'
+    message: 'Każde zapisanie zostanie opublikowane jednocześnie, bez przeglądu pomiędzy.'
+    accept: Włącz
+  label_right: 'Włącz funkcję'
+  label_left: 'Etykieta po lewej'

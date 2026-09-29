@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: فہرستیں
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: ڈیفالٹ
+  empty:
+    title: 'خالی حالت'
+search:
+  placeholder: 'فہرست کو فلٹر کریں...'
+header:
+  filter: 'فلٹر کریں'
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'تجارتی ورک لوڈز کے لیے منظم SQL کنکشن'
+  s3:
+    title: 'ایمیزون S3'
+    body: 'درآمدات اور برآمدات کے لیے آبجیکٹ اسٹوریج کنیکٹر'
+  webhook:
+    title: 'ویب ہک'
+    body: 'باہر کے نظام سے ایونٹس کو متحرک اور وصول کریں'
+  redis:
+    title: Redis
+    body: 'ان میموری کیش اور پب/سب میسجنگ'
+  mongo:
+    title: MongoDB
+    body: 'لچکدار اسکیمہ ورک لوڈز کے لیے دستاویز اسٹور'

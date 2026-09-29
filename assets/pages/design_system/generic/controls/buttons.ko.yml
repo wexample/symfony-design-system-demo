@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 버튼
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: '기본 버튼'
+  button_states:
+    title: '버튼 상태'
+  link:
+    title: '버튼 링크'
+  vue:
+    title: Vue
+    description: '실행되는 동안 컨트롤을 구축하는 페이지를 위한 동일한 아이콘과 레이블을 가진 Vue 부분과 동일한 버튼 및 링크입니다.'
+button:
+  primary: '기본 버튼'
+  success: '성공 버튼'
+  danger: '위험 버튼'
+  invert: '반전 버튼'
+  state:
+    default: 기본
+    loading: '로딩 중'
+    disabled: '사용 불가'
+    assisted: '도움 요청'
+link:
+  more: '더 알아보기'
+  external: '외부 링크'

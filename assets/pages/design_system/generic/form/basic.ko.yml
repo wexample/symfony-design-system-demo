@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 양식
+page_icon: 'ph:bold/rows'
+section:
+  default:
+    title: '기본 양식'
+  block:
+    title: '블록 양식'
+  assisted:
+    title: 도움받기
+field:
+  title:
+    label: 제목
+    placeholder: '제목을 입력하세요'
+  message:
+    label: 메시지
+    placeholder: '짧은 메시지를 작성하세요'
+  date:
+    label: 날짜
+  datetime:
+    label: '날짜 및 시간'
+  time:
+    label: 시간
+  file:
+    label: 파일
+  email:
+    label: 이메일
+  number:
+    label: 번호
+  url:
+    label: URL
+action:
+  submit: 제출
+  secondary: '보조 작업'
+  raw_submit: '원시 제출'
+  link: '간단한 링크'

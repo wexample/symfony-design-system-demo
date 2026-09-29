@@ -1,0 +1,18 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Медиа
+page_icon: 'ph:bold/image'
+section:
+  vue:
+    title: Vue
+    description: 'Та же рамка, что и в частичном представлении vue, для документа, адрес которого известен только во время выполнения страницы.'
+  shapes:
+    title: Фигуры
+  overlay:
+    title: Накладка
+  aspect_ratio:
+    title: 'Соотношение сторон'
+  document:
+    title: 'Встроенный документ'
+    description: 'Iframe заполняет свою область, поэтому область определяет размер: модификатор соотношения, или media--fill для того, чтобы занять любую высоту, которую дает родитель.'
+document:
+  title: Документ-заполнитель

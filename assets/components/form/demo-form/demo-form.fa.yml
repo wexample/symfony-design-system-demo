@@ -1,0 +1,96 @@
+field:
+  password:
+    label: 'رمز عبور'
+    help: 'رمز عبور خود را برای تأیید هویت وارد کنید.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'رمز عبور برای تست نامعتبر است.'
+  emoji:
+    label: ایموجی
+    help: 'یک ایموجی برای نمایش حالت خود انتخاب کنید.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'ایموجی برای تست نامعتبر است.'
+  text_simple:
+    label: متن
+    help: 'ورودی متنی یک خطه برای محتوای کوتاه.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'متن برای تست نامعتبر است.'
+  text_area:
+    label: 'متن طولانی'
+    placeholder: 'هر چیزی که می‌خواهید تایپ کنید...'
+    help: 'یک ناحیه متنی چند خطه برای محتوای طولانی‌تر.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'متن طولانی برای تست نامعتبر است.'
+  number:
+    label: عدد
+    help: 'یک مقدار عددی وارد کنید.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'عدد برای تست نامعتبر است.'
+  email:
+    label: ایمیل
+    placeholder: you@example.com
+    help: 'یک آدرس ایمیل معتبر وارد کنید.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'ایمیل برای تست نامعتبر است.'
+  url:
+    label: 'آدرس وب'
+    placeholder: 'https://'
+    help: 'یک آدرس وب کامل شامل پروتکل وارد کنید.'
+    error:
+      ERR_FIELD_URL_INVALID: 'آدرس وب برای تست نامعتبر است.'
+  date:
+    label: تاریخ
+    help: 'تاریخ را با استفاده از انتخاب‌گر تاریخ انتخاب کنید.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'تاریخ برای تست نامعتبر است.'
+  datetime:
+    label: 'تاریخ و زمان'
+    help: 'تاریخ و زمان را به صورت ترکیبی انتخاب کنید.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'تاریخ و زمان برای تست نامعتبر است.'
+  time:
+    label: زمان
+    help: 'زمانی از روز را انتخاب کنید.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'زمان برای تست نامعتبر است.'
+  file:
+    label: فایل
+    help: 'یکی یا چند فایل را از دستگاه خود بارگذاری کنید.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'فایل برای تست نامعتبر است.'
+  radio_choice:
+    label: 'انتخاب رادیویی'
+    help: 'یک گزینه را از لیست انتخاب کنید.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'انتخاب رادیویی برای تست نامعتبر است.'
+    choice:
+      option_a:
+        label: 'گزینه A'
+      option_b:
+        label: 'گزینه B'
+      option_c:
+        label: 'گزینه C'
+  switch:
+    label: 'کلید تغییر'
+    help: 'این گزینه را روشن یا خاموش کنید.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'کلید تغییر برای تست نامعتبر است.'
+form:
+  error:
+    ERR_FORM_TEST: 'خطای کلی برای تست.'
+action:
+  button_demo: 'هیچ کار نکنید'
+  submit_default: ارسال
+  submit_error: 'خطاها را نشان دهید'
+  submit_js: 'عملکرد JS'
+  submit_redirect: انتقال
+toast:
+  success:
+    title: موفقیت
+    message: 'فرم با موفقیت ارسال شد.'
+  js_action:
+    title: 'عملکرد JS'
+    message: 'آیا می‌خواهید فرم را دوباره فعال کنید؟'
+    reactivate: 'دوباره فعال‌سازی'
+    dismiss: 'رد کردن'
+description: |
+  از این فرم برای تست رفتارهای ارسال استفاده کنید. این دموی در یک کامپوننت Vue است.

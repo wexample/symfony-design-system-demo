@@ -1,0 +1,115 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Loitsut
+page_icon: 'ph:bold/squares-four'
+tone:
+  body: 'maan pinta pysyy lohkon omana, vain etureuna kantaa väriä.'
+section:
+  tone:
+    title: 'Väriä kantava lohko'
+    description: 'Valtion — tai kategorian — väri etureunassa, eikä mitään muuta: sama palkki, jonka viesti kantaa, ilman värillistä taustaa, jotta niiden lista luettaisiin listana eikä hälytyksenä. Mikä tahansa lohko ottaa sen, myös palkki, joka seisoo lohkolla.'
+  default:
+    title: Peruslohkot
+  advanced:
+    title: 'Edistyneet lohkot'
+  aside:
+    title: 'Kiinteä sivupaneeli'
+    description: 'Kapea sarake, joka on mitoitettu --size-asteikolla, vartalon viereen, joka vie jäljelle jäävän leveyden.'
+  card:
+    title: Kortit
+  link:
+    title: 'Lohko, joka on linkki'
+    description: 'Koko kortti on linkki — valinta, joka tehdään valitsemalla yksi kortti useista: suunnitelma, haara, malli. Se luetaan tekstinä, ei vaimeana toimintona; osoittimen alla sen tausta saa sävyn ja sen reuna tiivistyy, ja näppäimistö löytää sen fokussiren avulla, joka jokaisella ohjaimella on.'
+  figure:
+    title: Kuvastot
+    description: 'Yksi suurennettu arvo tai ikoni, keskitetty. Käytetään hallintapaneelin laskureissa ja tilatilanteissa — lisää block--square, jotta laatikko pysyy neliönä sen leveydestä huolimatta.'
+  stacks:
+    title: Pinoja
+  stack_horizontal:
+    title: Vaakasuora
+    description: 'Tasakokoiset sarakkeet, täysi leveys, kääntyy ylivuodossa.'
+  stack_vertical:
+    title: Pystysuora
+    description: 'Pinoamattomat rivit, täysi leveys, tasainen väli.'
+  stack_split:
+    title: Jaettu
+    description: 'Ensimmäinen lapsi kasvaa, viimeinen lapsi pysyy kiinteänä — käytetään johtaja + toiminta riveissä.'
+  stack_nested:
+    title: Sisäkkäin
+    description: 'Vaakasuora pino, joka sisältää pystysuoria pinoja — tyypillinen hallintapaneelin ruudukko.'
+stack:
+  item:
+    one: Yksi
+    two: Kaksi
+    three: Kolme
+    four: Neljä
+    lead: 'Kuvaile toimintoa tässä johdantotekstissä.'
+    action: Toiminto
+block:
+  title: 'Lohkon otsikko'
+  no_padding: 'Lohko ilman täytettä (käyttäen block--body).'
+  one:
+    title: Päälohko
+    description: 'Lohko, jossa on otsikko ja tekstisisältö.'
+  two:
+    title: 'Toissijainen lohko'
+    description: 'Toinen lohko välinäytön esittelemiseksi.'
+  three:
+    title: 'Kolmas lohko'
+    description: 'Kolmas lohko rivissä.'
+  four:
+    title: 'Neljäs lohko'
+    description: 'Neljäs lohko asetteludemonstrointia varten.'
+  advanced:
+    title: 'Putkilinjan projekti'
+    status: Valmis
+    description: 'Tämä lohko yhdistää otsikkoslotit ja sisällön yhteen uudelleen käytettävään rakenteeseen.'
+    details: 'Operaattoreita voidaan lisätä ilman, että nykyisestä kontekstista poistutaan.'
+  zones:
+    main:
+      title: Pääalue
+      description: 'Pääsisältö voi kasvaa luonnollisesti standardivälin kanssa.'
+    aside:
+      title: Sivuala
+      description: 'Tämä sivualue käyttää vaaleaa taustaa korostaakseen täydentävää sisältöä.'
+  zones_three:
+    title: 'Kolme-alueen asettelu'
+    status: Luonnos
+    left:
+      title: 'Vasen paneeli'
+      description: 'Toissijainen navigointi tai metadata voi elää täällä.'
+    main:
+      title: Pääsisältö
+      description: 'Pääinformaatio pysyy keskitettynä luettavuutta varten.'
+    right:
+      title: 'Oikea paneeli'
+      description: 'Kontekstuaalisia toimintoja ja oivalluksia voidaan ryhmitellä tälle puolelle.'
+    footer:
+      meta: 'Päivitetty 2 minuuttia sitten'
+      action: 'Avaa yksityiskohdat'
+figure:
+  projections: Projektit
+  uptime: Käyttöaika
+  status: Reaalimaailma
+  framed:
+    title: Läpäisy
+    label: 'Tapahtumat sekunnissa'
+tab:
+  one: Yhteenveto
+  two: Toiminta
+  three: Asetukset
+button:
+  create: 'Luo projekti'
+  refresh: 'Päivitä tiedot'
+  export: Vie
+action:
+  add_projection: 'Lisää projekti'
+link:
+  starter:
+    title: Aloituspaketti
+    description: 'Yksi henkilö, perusasiat, ei maksettavaa.'
+  team:
+    title: Tiimi
+    description: 'Muutama henkilö työskentelee samoissa asioissa.'
+  company:
+    title: Yritys
+    description: 'Jokainen tiimi, niillä hallintovälineillä, joita organisaatio vaatii.'

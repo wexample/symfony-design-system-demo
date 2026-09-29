@@ -1,0 +1,6 @@
+page_title: 'Modal-Test - mittel'
+intro: 'Dieses Modal verwendet einen Text mittlerer Länge.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Sind Sie sicher, dass Sie dieses Modal schließen möchten?'

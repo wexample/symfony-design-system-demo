@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Asettelu
+page_icon: 'ph:bold/layout'
+intro: 'Miten sivu jakautuu. Nämä muodot vievät alueita eivätkä sisältöä: ne sanovat, missä asiat sijaitsevat, eivätkä tiedä, mitä siellä on.'
+page:
+  zones:
+    title: Alueet
+    description: 'Kaksiosainen työtila: jakautunut, mitoitettu sarake, vieritettävä sisältö. Mikä tahansa explorer, editor ja yksityiskohtanäkymä sovelluksessa perustuu tähän.'
+  workspace:
+    title: Työtila
+    description: 'Sivut, jotka koostuvat vierekkäisistä alueista, erotettu toisistaan niiden välissä olevalla tilalla, eikä muulla. Kolme asettelua, joista siirrytään puun kautta, joka on jokaisessa niistä.'
+  blocks:
+    title: Blokit
+    description: 'Pinta, jolla joukko asioita istuu, pehmustettuna tai ilman, kortti- ja kuvamuunnelmat mukana.'
+  toolbar:
+    title: Työkalupalkki
+    description: 'Rivi toimintoja sen ylä- tai alapuolella, johon ne vaikuttavat, tilavissa ja kompakteissa tiheyksissä.'
+  tabs:
+    title: Välilehdet
+    description: 'Yksi sivu, joka näyttää yhden useista näkymistä, paneeleilla, jotka seuraavat valintaa.'
+  doc:
+    title: 'Dokumentin asettelu'
+    description: 'Kaksisarakkeinen dokumentointimalli — proosa yhdellä puolella, koodi toisella — joka taittuu yhteen sarakkeeseen, kun tilaa ei ole.'

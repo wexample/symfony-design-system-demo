@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Zusammensetzung
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: 'Das Bild und der Codeblock als Vue-Teile, die dieselben Optionen verwenden.'
+  prose:
+    title: Prosa-Artikel
+  image:
+    title: Bilder
+  media:
+    title: 'Medien mit Text'
+  dropcap:
+    title: 'Erster Buchstabe'
+  meta_bar:
+    title: Meta-Leiste
+    stack_note: 'Eine zweite Leiste kann darunter gestapelt werden, um eine andere Kategorie von Metadaten zu gruppieren — hier, Taxonomie und Analytik.'
+    action_link_note: 'Verwenden Sie action-link für interaktive Elemente, die sich in die Leiste einfügen sollen — kein Hintergrund, kein Schatten, gedämpfte Farbe.'
+image:
+  intro: 'Die Funktion content_image() rendert ein img mit loading="lazy" standardmäßig und wickelt es in ein figure-Element, wenn eine Bildunterschrift bereitgestellt wird.'
+  simple:
+    label: 'Ohne Bildunterschrift — ein einfaches img, volle Breite.'
+    alt: 'Platzhalterbild — keine Bildunterschrift'
+  captioned:
+    label: 'Mit Bildunterschrift — in einem figure mit einer figcaption eingewickelt.'
+    alt: 'Platzhalterbild — mit Bildunterschrift'
+    caption: 'Eine Figur mit einer figcaption — verwenden Sie sie zur Angabe von Quellen oder zum Hinzufügen von Kontext zu visuellen Inhalten.'
+article:
+  toc:
+    label: 'In diesem Artikel'
+  title: 'Design-Token verstehen'
+  intro: 'Design-Token sind die einzige vertrauenswürdige Quelle für visuelle Entscheidungen über ein Produkt. Sie kodieren Farbe, Abstände, Typografie und Bewegung in benannten Variablen, die von Komponenten verwendet werden.'
+  section_one:
+    title: 'Warum Tokens wichtig sind'
+    body_one: 'Ohne Tokens erfordert eine Änderung der Primärmarkenfarbe das Durchsuchen von Hunderten von Dateien. Mit Tokens propagiert ein Variablen-Update überall — von Schaltflächen über Warnmeldungen bis hin zu Navigationsleisten.'
+    body_two: 'Tokens überbrücken auch die Lücke zwischen Design-Tools und Code. Ein Designer benennt eine Farbe <strong>surface-brand</strong> in Figma; ein Entwickler verwendet <code>var(--surface-brand)</code> in CSS. Sie sprechen die gleiche Sprache.'
+  section_two:
+    title: 'Praktische Beispiele'
+    body: 'Betrachten Sie eine Komponente, die einen Hintergrund, einen Rand und Text benötigt. Anstatt <code>#1a56db</code>, <code>#e1effe</code> und <code>#1e429f</code> hart zu codieren, verweist die Komponente auf <code>--color-primary</code>, <code>--surface-primary-subtle</code> und <code>--text-primary-strong</code>. Wenn sich die Marke weiterentwickelt, ändert sich die Palette — die Komponente nicht.'
+  list_title: Token-Kategorien
+  list:
+    - 'Farbe — Marken-, semantische und neutrale Paletten'
+    - 'Abstand — eine konsistente Skala von 2px bis 64px'
+    - 'Typografie — Schriftgrößen, -gewichte und Zeilenhöhen'
+    - 'Radius — von scharfen Ecken bis vollständig abgerundet'
+    - 'Schatten — Höhenstufen für Tiefe und Hierarchie'
+    - 'Bewegung — Easing-Kurven und Zeitstufen'
+  quote: 'Die meisten Zitate, die im Internet gefunden werden, wurden wahrscheinlich von einer KI generiert.'
+  quote_author: 'Albert Einstein'
+  cta: 'Lesen Sie das vollständige Token-Referenzdokument'
+media:
+  alt: 'Platzhalterbild neben Text'
+  caption: 'Bild, das ein Drittel des Layouts einnimmt.'
+  body_one: 'Verwenden Sie content--media, um ein Bild und Text nebeneinander zu platzieren. Das Bild nimmt ein Drittel der Breite ein, der Text zwei Drittel.'
+  body_two: 'Dieses Layout eignet sich für Hervorhebungen, illustrierte Definitionen oder jeden kurzen redaktionellen Block, bei dem das Bild den Text unterstützt, ohne ihn zu dominieren.'
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: 'Alice Martin'
+  date: '18. Juli 2026'
+  read_time: '4 Minuten Lesezeit'
+  likes: '142 Likes'
+  category: 'UX Design'
+  tag: 'In Bearbeitung'
+  views: '3 847 Aufrufe'
+action:
+  share: Teilen

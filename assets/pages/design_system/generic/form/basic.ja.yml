@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: フォーム
+page_icon: 'ph:bold/rows'
+section:
+  default:
+    title: 基本フォーム
+  block:
+    title: ブロックフォーム
+  assisted:
+    title: アシスト形式
+field:
+  title:
+    label: タイトル
+    placeholder: タイトルを入力
+  message:
+    label: メッセージ
+    placeholder: 短いメッセージを書いてください
+  date:
+    label: 日付
+  datetime:
+    label: 日時
+  time:
+    label: 時間
+  file:
+    label: ファイル
+  email:
+    label: メール
+  number:
+    label: 番号
+  url:
+    label: URL
+action:
+  submit: 送信
+  secondary: セカンダリアクション
+  raw_submit: 生の送信
+  link: シンプルリンク

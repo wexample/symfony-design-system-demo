@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: دکمه‌ها
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'دکمه‌های پیش‌فرض'
+  button_states:
+    title: 'وضعیت دکمه'
+  link:
+    title: 'لینک دکمه'
+  vue:
+    title: Vue
+    description: 'همان دکمه و همان لینک به عنوان بخش‌های Vue، با همان آیکون و برچسب، برای صفحه‌ای که کنترل‌های خود را در حین اجرا می‌سازد.'
+button:
+  primary: 'دکمه اصلی'
+  success: 'دکمه موفق'
+  danger: 'دکمه خطر'
+  invert: 'دکمه معکوس'
+  state:
+    default: پیش‌فرض
+    loading: 'در حال بارگذاری'
+    disabled: غیرفعال
+    assisted: کمک‌شده
+link:
+  more: 'بیشتر بدانید'
+  external: 'لینک خارجی'

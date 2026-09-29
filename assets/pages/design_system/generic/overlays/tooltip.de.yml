@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tooltip
+page_icon: 'ph:bold/chat-centered-text'
+intro: 'Einige Worte darüber, worauf der Zeiger oder der Fokus gerichtet ist, daneben. Es gibt ein Tooltip für die Seite, das durch das Layout platziert wird: Jedes Element fordert es mit data-tooltip an — tooltip() schreibt es in Twig, ein Vue bindet es — und es erscheint nach einem Moment unter dem Zeiger, sofort unter dem Fokus der Tastatur und niemals unter einem Finger. Es weicht von den Rändern des Fensters ab, anstatt es zu verlassen.'
+section:
+  plain:
+    title: 'Über alles'
+    description: 'Ein Button, ein Icon für sich, ein Marker: das Attribut ist alles, was es braucht. Ein Icon ohne Worte ist der Ort, an dem ein Tooltip am wichtigsten ist.'
+  rich:
+    title: 'Mit einem Titel oder leicht'
+    description: 'Eine Überschrift über dem Text für ein Tooltip, das erklärt, und ein leichtes auf dem eigenen Grund der Seite, wo das umgekehrte zu laut wäre.'
+  placement:
+    title: Platzierung
+    description: 'Standardmäßig oben. Wenn nach einer Seite gefragt wird, nimmt es diese, wenn Platz ist, und die andere Seite, wenn nicht; entlang dieser Seite gleitet es, um im Fenster zu bleiben, der Pfeil bleibt auf dem, worauf es zeigt.'
+button:
+  save: Speichern
+marker:
+  label: Veröffentlicht
+tip:
+  save: 'Entwurf speichern — Strg+S'
+  share: Teilen
+  delete: Löschen
+  marker: 'Veröffentlicht am 2. September, gesehen von 128 Lesern'
+  light: 'Ein Tooltip auf dem eigenen Grund der Seite'
+  placement: Platziert
+  rich:
+    title: 'Warum ist es ausgegraut?'
+    text: 'Der Export wartet, bis der erste Lauf endet; er öffnet sich, sobald es etwas zu exportieren gibt.'

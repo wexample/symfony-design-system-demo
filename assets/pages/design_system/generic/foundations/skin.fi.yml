@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Ulkoasu
+page_icon: 'ph:bold/paint-brush'
+intro: 'Miten asiat piirtyvät, kun väri ja tiheys on asetettu: kulmat, syvyys, viivat. Nämä symbolit ovat teeman `ulkoasu`-akseli — oletusarvoinen ulkoasu on se, mitä tämä sivu näyttää, ja toinen ulkoasu on toinen tiedosto, joka asettaa samat nimet, ilman muutoksia alla.'
+section:
+  radius:
+    title: 'Säteen säteet'
+    description: 'Ei mitään, sitten neljä askelta, jokainen kaksinkertainen edelliseen verrattuna, sitten pilleri. Kaksi askelta eristyksissä on sama etäisyys, missä tahansa olet asteikolla, mikä tekee siitä luettavan. Ensimmäinen askel on tarkoituksella melkein olematon: se on mitä tasainen ulkoasu haluaa, kun todellinen suorakulma näyttää keskeneräiseltä. Mikä tahansa pyöreämpi kuin viimeinen askel on muoto, joka haluaa olla ympyrä ja sanoo sen itse — ympyrä ei ole ulkoasupäätös.'
+  role:
+    title: 'Säteen roolit'
+    description: 'Muoto ei koskaan lue ylhäällä olevaa asteikkoa: se lukee sen roolin, jota se esittää, ja ulkoasu sanoo, minkä askeleen tuo rooli saa — ei koskaan mitä askel on arvoltaan, mikä tekisi asteikosta kaksiselitteisen. Jotain pitävää on laatikko, olipa se sitten tekstiä, sisältöä tai viesti; mitä erottaa kaksi aluetta sivulla ei ole kumpikaan, eikä se pyöristä mitään. Vaihda ulkoasu `pehmeäksi` ja katso, kuinka ohjaus irtoaa muusta: kapseli on oikea yhdelle riville korkeudeltaan ja absurdein tekstialueelle.'
+  shadow:
+    title: Varjot
+    description: 'Neljä syvyyttä, hiusviivasta kelluvaan paneeliin. Ulkoasu, joka haluaa tasaisen maailman, asettaa kaikki neljä nollaksi ja jokainen kohotettu pinta seuraa tätä.'
+  border:
+    title: Reunat
+    description: 'Viiva itsessään — sen leveys ja tyyli. Sen väri ei ole täällä: se kuuluu väriteemaan, joka mahdollistaa ulkoasun poistaa viivan tietämättä, mitä väriä sillä olisi ollut.'
+  separator:
+    title: 'Erottimet ja alueet'
+    description: 'Kaksi viivaa, jotka kertovat asiat erilleen: kahden yhden asian rivin välillä ja kahden alueen välillä sivulla. Kaksikymmentä-odd muotoa lukee ensimmäisen, mikä on syy siihen, että se on symboli eikä sääntö.'
+separator:
+  row: 'rivi muiden joukossa'
+  region: 'sivun alue, rajattu sellaiseksi'
+role:
+  control: 'yksi rivi korkea ja painettu'
+  box: 'pitää jotain'
+  media: 'kuvat ja hahmot'
+  pill: 'mikä luetaan kapselina'

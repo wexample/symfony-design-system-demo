@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: Комната
+    placeholder: 'Поиск комнаты...'
+    help: 'Выбирает запись по её поиску. Что форма содержит - это её идентификатор.'
+  password:
+    label: Пароль
+    help: 'Введите свой пароль для аутентификации.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Пароль недействителен для тестирования.'
+  emoji:
+    label: Эмодзи
+    help: 'Выберите эмодзи, чтобы отобразить ваше настроение.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Эмодзи недействительно для тестирования.'
+  text_simple:
+    label: Текст
+    help: 'Однострочный ввод текста для короткого содержимого.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Текст недействителен для тестирования.'
+  text_area:
+    label: 'Длинный текст'
+    placeholder: 'Введите что угодно...'
+    help: 'Многострочная область текста для более длинного содержимого.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Длинный текст недействителен для тестирования.'
+  behavior:
+    label: Поведение
+    help: 'Выберите, как форма реагирует после отправки.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'Выбор поведения недействителен для тестирования.'
+    choice:
+      error:
+        label: 'Показать ошибки'
+        description: 'закрывает встраивание (или ничего не делает на странице).'
+      js:
+        label: 'JS действие (уведомление)'
+        description: 'возвращает ошибки валидации.'
+      redirect:
+        label: Перенаправление
+        description: 'вызывает уведомление без отправки.'
+      default:
+        label: 'По умолчанию'
+        description: 'переходит на полную страницу или закрывает модальное окно.'
+      embed_stay:
+        label: 'Сохранить встраивание открытым (модальное / панель)'
+        description: 'остается открытым в модальном окне/панели.'
+      embed_redirect:
+        label: 'Перенаправление во встраивании (модальное / панель)'
+        description: 'переходит внутри модального окна/панели.'
+  date:
+    label: Дата
+    help: 'Выберите дату с помощью выбора даты.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Дата недействительна для тестирования.'
+  datetime:
+    label: 'Дата и время'
+    help: 'Выберите дату и время вместе.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Дата и время недействительны для тестирования.'
+  time:
+    label: Время
+    help: 'Выберите время суток.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Время недействительно для тестирования.'
+  file:
+    label: Файл
+    help: 'Загрузите один или несколько файлов с вашего устройства.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Файл недействителен для тестирования.'
+  email:
+    label: 'Электронная почта'
+    placeholder: you@example.com
+    help: 'Введите действительный адрес электронной почты.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'Электронная почта недействительна для тестирования.'
+  number:
+    label: Число
+    help: 'Введите числовое значение.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Число недействительно для тестирования.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Введите полный URL, включая протокол.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL недействителен для тестирования.'
+  switch:
+    label: Переключатель
+    help: 'Включите или выключите эту опцию.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Переключатель недействителен для тестирования.'
+  radio_choice:
+    label: 'Выбор радиокнопки'
+    help: 'Выберите один вариант из списка.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Выбор радиокнопки недействителен для тестирования.'
+    choice:
+      option_a:
+        label: 'Вариант A'
+      option_b:
+        label: 'Вариант B'
+      option_c:
+        label: 'Вариант C'
+action:
+  button_demo: 'Ничего не делать'
+  submit_default: Отправить
+  submit_error: 'Показать ошибки'
+  submit_js: 'JS действие'
+  submit_redirect: Перенаправление
+  submit_embed_stay: 'Сохранить встраивание открытым'
+  submit_embed_redirect: 'Перенаправление во встраивании'
+error:
+  ERR_FORM_TEST:
+    message: 'Глобальная ошибка для тестирования.'
+description: |
+  Используйте эту форму для тестирования поведения отправки. Эта демонстрация доступна в контекстах страницы, ajax и модального окна. Выберите поведение ниже и отправьте:
+toast:
+  success:
+    title: Успех
+    message: 'Форма успешно отправлена.'
+  js_action:
+    title: 'JS действие'
+    message: 'Вы хотите реактивировать форму?'
+    reactivate: Реактивировать
+    dismiss: Закрыть

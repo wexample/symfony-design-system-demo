@@ -1,0 +1,11 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 코드
+page_icon: 'ph:bold/code'
+intro: '구문에 따라 색상이 지정된 코드를 포함하는 필드입니다. 디자인 시스템과는 별개로 symfony-coding과 함께 제공되며, 디자인 시스템에서 차용한 것에 불과합니다: 프레임은 필드의 것이고, 색상은 스킴의 코드 토큰이며, 현재 줄과 선택은 스킴의 뉘앙스입니다 — 따라서 주변의 모든 것처럼 밝은 면과 어두운 면을 따릅니다.'
+section:
+  server:
+    title: '서버 필드'
+    description: '페이지가 실행되면 편집기로 덮인 실제 텍스트 영역입니다. 텍스트 영역은 필드로 유지되며, 양식과 함께 제출되고 양식 스택에 의해 사용됩니다 — 따라서 양식은 그것이 있든 없든 동일하게 작동합니다. 여러 줄을 선택하고, 그 중 커서 줄을 선택합니다: 선택 영역은 계속 표시됩니다.'
+  vue:
+    title: 'Vue 필드'
+    description: '모델을 포함하는 동일한 편집기입니다: 데이터가 들어오고 나갈 때 v-model을 사용하며, 필드가 열려 있는 동안 변경될 수 있는 prop으로 언어를 제공합니다.'

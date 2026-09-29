@@ -1,0 +1,51 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Menu
+page_icon: 'ph:bold/list'
+section:
+  vue:
+    title: Vue
+    description: 'Wiersz linku i separator jako części vue. W przeciwieństwie do wierszy, które odczytują trasę, te dwa przyjmują ikonę i etykietę jako opcje, więc niczego z serwera nie brakuje.'
+  menu:
+    title: 'Przyciski menu'
+  counts:
+    title: Liczby
+    description: 'Ile z tego, do czego prowadzi element, na końcu linii. To jest pigułka i nic więcej — przekaż `count` obok etykiety, w elemencie rozwijanym lub elemencie menu pionowego, a element umieści go. Element bez klucza nie pokazuje nic.'
+  separators:
+    title: Separatory
+    description: 'Separator to element jak inne, z jednym kluczem więcej: goła linia oddziela dwa ciągi elementów, które nie mają ze sobą nic wspólnego, a ta sama linia, podana jako słowo, staje się nagłówkiem tego, co następuje. Obie strony stosu odczytują to samo oświadczenie — trzecie menu tutaj to vue.'
+  kinds:
+    title: 'Co może być elementem'
+    description: 'Cztery rodzaje dzielą jeden wiersz: słowo i cel to link, słowo i stan to przełącznik, słowo i dzieci to gałąź, a goła linia to separator. Nic nie deklaruje swojego rodzaju — wynika to z tego, co niesie element. Przełącznik wykorzystuje swoje wiodące miejsce na swoim znaku, więc kolumna z nimi utrzymuje swoje słowa w linii, a panel pozostaje otwarty pod nim: menu filtrów odczytuje się garściami, a nie po jednym.'
+menu:
+  primary: 'Przycisk menu'
+  filters: Filtry
+  filters_vue: 'Filtry, w vue'
+  counted: 'Z licznikami'
+  counted_vue: 'Z licznikami, w vue'
+  grouped: 'Zgrupowane elementy'
+  grouped_vue: 'Zgrupowane, w vue'
+  group:
+    danger: 'Strefa zagrożenia'
+    show: Pokaż
+  more: 'Więcej akcji'
+  invert: 'Odwróć menu'
+  options:
+    top_left: 'Góra lewo'
+    top_right: 'Góra prawo'
+  item:
+    report: Zgłoś
+    inbox: 'Skrzynka odbiorcza'
+    alerts: Powiadomienia
+    settings: Ustawienia
+    logout: 'Wyloguj się'
+    long: 'Z całkiem, całkiem, całkiem, całkiem długim tytułem'
+    stats: Statystyki
+    profile: Profil
+    delete: 'Usuń konto'
+    done: Zrobione
+    running: 'W trakcie'
+    failed: 'Nie powiodło się'
+    sort: 'Sortuj według'
+    sort_name: Nazwa
+    sort_date: 'Ostatnia zmiana'
+    docs: Dokumentacja

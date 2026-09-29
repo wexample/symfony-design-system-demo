@@ -1,0 +1,28 @@
+page_title: パネル
+page_icon: 'ph:bold/sidebar-simple-duotone'
+section:
+  persist:
+    description: タブ付きのパネル。開いてタブを切り替え、F5を押すと、同じタブでパネルが再表示されます。
+    button: パネルを開く
+  simple:
+    description: シンプルなパネルを表示します。Escapeキーを押すか、パネルの外をクリックすると閉じることができます。
+    button: パネルを開く
+  components:
+    description: コンポーネントとトーストトリガーを持つパネルを表示します。Escapeキーは無効ですが、外をクリックして閉じることはできます。
+    button: パネルを開く
+  medium:
+    description: 中程度の長さのテキストを持つパネルを表示します。外をクリックしても閉じません。
+    button: パネルを開く
+  long:
+    description: 長いテキストを持つパネルを表示します。閉じる前に確認を求めます。
+    button: パネルを開く
+  form_rendered:
+    description: パネル内にレンダリングされたデモフォームを表示します。Escapeキーと外クリックは無効で、フォームが変更されていた場合は閉じる前に確認を求めます。
+    button: パネルを開く
+  form_ajax:
+    description: AJAXを使用してパネル内にレンダリングされたデモフォームを表示します。Escapeキーと外クリックは無効で、フォームが変更されていた場合は閉じる前に確認を求めます。
+    button: パネルを開く
+  recursive:
+    description: '別のダイアログ内にダイアログページを開きます — モーダルまたはパネルを選択します。'
+    button_modal: モーダルで開く
+    button_panel: パネルで開く

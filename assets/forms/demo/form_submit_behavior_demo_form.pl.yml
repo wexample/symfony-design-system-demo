@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: Pokój
+    placeholder: 'Szukaj pokoju...'
+    help: 'Wybiera rekord poprzez jego wyszukiwanie. To, co formularz przesyła, to jego id.'
+  password:
+    label: Hasło
+    help: 'Wprowadź swoje hasło, aby się uwierzytelnić.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Hasło jest nieprawidłowe do celów testowych.'
+  emoji:
+    label: Emoji
+    help: 'Wybierz emoji, aby wyrazić swój nastrój.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Emoji jest nieprawidłowe do celów testowych.'
+  text_simple:
+    label: Tekst
+    help: 'Jednoliniowe pole tekstowe do krótkiej treści.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Tekst jest nieprawidłowy do celów testowych.'
+  text_area:
+    label: 'Długi tekst'
+    placeholder: 'Wpisz cokolwiek chcesz...'
+    help: 'Wieloliniowe pole tekstowe do dłuższej treści.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Długi tekst jest nieprawidłowy do celów testowych.'
+  behavior:
+    label: Zachowanie
+    help: 'Wybierz, jak formularz ma się zachować po wysłaniu.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'Wybór zachowania jest nieprawidłowy do celów testowych.'
+    choice:
+      error:
+        label: 'Pokaż błędy'
+        description: 'zamyka embed (lub nie robi nic na stronie).'
+      js:
+        label: 'Akcja JS (toast)'
+        description: 'zwraca błędy walidacji.'
+      redirect:
+        label: Przekierowanie
+        description: 'wyzwala toast bez wysyłania.'
+      default:
+        label: Domyślne
+        description: 'nawiguje na pełną stronę lub zamyka modal.'
+      embed_stay:
+        label: 'Zachowaj embed otwarty (modal / panel)'
+        description: 'zostaje otwarte w modal/panel.'
+      embed_redirect:
+        label: 'Przekierowanie w embed (modal / panel)'
+        description: 'nawiguje wewnątrz modal/panel.'
+  date:
+    label: Data
+    help: 'Wybierz datę za pomocą selektora daty.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Data jest nieprawidłowa do celów testowych.'
+  datetime:
+    label: 'Data i godzina'
+    help: 'Wybierz datę i godzinę razem.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Data i godzina są nieprawidłowe do celów testowych.'
+  time:
+    label: Czas
+    help: 'Wybierz porę dnia.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Czas jest nieprawidłowy do celów testowych.'
+  file:
+    label: Plik
+    help: 'Prześlij jeden lub więcej plików z urządzenia.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Plik jest nieprawidłowy do celów testowych.'
+  email:
+    label: Email
+    placeholder: ty@example.com
+    help: 'Wprowadź poprawny adres email.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'Email jest nieprawidłowy do celów testowych.'
+  number:
+    label: Liczba
+    help: 'Wprowadź wartość numeryczną.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Liczba jest nieprawidłowa do celów testowych.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Wprowadź pełny URL, w tym protokół.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL jest nieprawidłowy do celów testowych.'
+  switch:
+    label: Przełącznik
+    help: 'Włącz lub wyłącz tę opcję.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Przełącznik jest nieprawidłowy do celów testowych.'
+  radio_choice:
+    label: 'Wybór radiowy'
+    help: 'Wybierz jedną opcję z listy.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Wybór radiowy jest nieprawidłowy do celów testowych.'
+    choice:
+      option_a:
+        label: 'Opcja A'
+      option_b:
+        label: 'Opcja B'
+      option_c:
+        label: 'Opcja C'
+action:
+  button_demo: 'Nie rób nic'
+  submit_default: Wyślij
+  submit_error: 'Pokaż błędy'
+  submit_js: 'Akcja JS'
+  submit_redirect: Przekierowanie
+  submit_embed_stay: 'Zachowaj embed otwarty'
+  submit_embed_redirect: 'Przekierowanie w embed'
+error:
+  ERR_FORM_TEST:
+    message: 'Błąd globalny do celów testowych.'
+description: |
+  Użyj tego formularza, aby przetestować zachowania wysyłania. Ta demonstracja jest dostępna w kontekście strony, ajax i modal. Wybierz zachowanie poniżej i wyślij:
+toast:
+  success:
+    title: Sukces
+    message: 'Formularz został pomyślnie wysłany.'
+  js_action:
+    title: 'Akcja JS'
+    message: 'Czy chcesz ponownie aktywować formularz?'
+    reactivate: Reaktywuj
+    dismiss: Odrzuć

@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Układ
+page_icon: 'ph:bold/layout'
+intro: 'Jak strona jest podzielona. Te kształty zajmują obszary, a nie treści: wskazują, gdzie co stoi, i nic nie wiedzą o tym, co tam stoi.'
+page:
+  zones:
+    title: Strefy
+    description: 'Dwupanelowe miejsce pracy: podział, kolumna o określonym rozmiarze, przewijalne ciało. Na czym opiera się każdy eksplorator, edytor i widok szczegółowy w aplikacji.'
+  workspace:
+    title: 'Obszar roboczy'
+    description: 'Strony składające się z obszarów ułożonych obok siebie, rozróżniane przez przestrzeń między nimi i nic innego. Trzy układy, przemieszczane przez drzewo znajdujące się w każdym z nich.'
+  blocks:
+    title: Bloki
+    description: 'Powierzchnia, na której siedzi grupa rzeczy, wyściełana lub nie, z wariantami kart i figur.'
+  toolbar:
+    title: 'Pasek narzędzi'
+    description: 'Linia działań nad lub pod tym, na co działają, w swoich przestronnych i kompaktowych gęstościach.'
+  tabs:
+    title: Karty
+    description: 'Jedna strona pokazująca jedną z kilku twarzy, z panelami, które następują po wyborze.'
+  doc:
+    title: 'Układ dokumentu'
+    description: 'Wzór dokumentacji w dwóch kolumnach — tekst po jednej stronie, kod po drugiej — który zwija się do jednej kolumny, gdy brakuje miejsca.'

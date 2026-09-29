@@ -1,0 +1,6 @@
+page_title: '모달 테스트 - 긴'
+intro: '이 모달은 긴 본문 텍스트를 사용합니다.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: '이 긴 텍스트 모달을 닫으시겠습니까?'

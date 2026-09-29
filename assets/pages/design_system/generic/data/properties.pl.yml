@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Właściwości
+page_icon: 'ph:bold/list-dashes'
+intro: 'Pary klucz / wartość wyświetlane jako lista definicji. Wiersze są subsiatkami listy, więc klucze pozostają wyrównane w jednej kolumnie, a każdy wiersz to prawdziwe pole, które może zawierać separator.'
+section:
+  default:
+    title: Domyślny
+    description: 'Kolumna kluczy dostosowuje się do najdłuższej etykiety. Możesz nadpisać --properties-key-width, aby to ustawić.'
+  bordered:
+    title: 'Z ramką'
+    description: 'Separator między wierszami, dla gęstych rekordów wewnątrz bloku.'
+    block_title: 'Szczegóły połączenia'
+  split:
+    title: Podzielony
+    description: 'Wartości przesunięte do prawej krawędzi — sumy, bilanse, wszystko odczytywane jako kolumna liczb.'
+  compact:
+    title: Kompaktowy
+    description: 'Bardziej zwarte wiersze, gdy lista jest drugorzędna w stosunku do reszty bloku.'
+  stacked:
+    title: Stosowany
+    description: 'Klucz nad wartością, dla wąskich kolumn, gdzie dwie kolumny źle się zawijają.'
+    aside: 'Ciało zajmuje pozostałą szerokość, podczas gdy kolumna boczna pozostaje stała.'
+  columns:
+    title: Kolumny
+    description: 'Tuzin krótkich par źle się odczytuje w jednej wysokiej kolumnie: oko przeskakuje szerokość strony między kluczem a jego wartością, a separatory kończą się trzymając każdą parę razem. Ułożone w kolumnach — tyle, ile szerokość pozwala, aż do jednej na telefonie — para staje się małym blokiem dwóch linii, który nie potrzebuje obramowania. Wartość, której żadna kolumna nie może pomieścić, zajmuje całą szerokość z `full`.'
+  vue:
+    title: Vue
+    description: 'Ta sama lista jako części vue, przyjmująca modyfikatory jako właściwości: rekord budowany podczas działania strony odczytuje się jak jeden renderowany z nią.'
+field:
+  name:
+    key: Nazwa
+    value: 'Projekcja potoku'
+  identifier:
+    key: Identyfikator
+    value: prj_8f21c4a7
+  description:
+    key: Opis
+    value: 'Agreguje przychodzące zdarzenia i udostępnia je jako zapytanie projekcyjne.'
+  status:
+    key: Status
+    value: Gotowy
+  owner:
+    key: Właściciel
+    value: 'Zespół platformy'
+  created:
+    key: Utworzono
+    value: '14 marca 2026'
+  region:
+    key: Region
+    value: eu-west-1
+  runtime:
+    key: 'Środowisko uruchomieniowe'
+    value: 'PHP 8.3'
+  version:
+    key: Wersja
+    value: 1.4.2
+  reviewed:
+    key: 'Recenzowane w dniu'
+    value: null
+  path:
+    key: Plik
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: 'Suma częściowa'
+    value: '1,240.00 €'
+  tax:
+    key: Podatek
+    value: '248.00 €'
+  total:
+    key: Razem
+    value: '1,488.00 €'

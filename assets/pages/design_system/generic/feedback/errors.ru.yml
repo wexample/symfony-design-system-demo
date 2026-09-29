@@ -1,0 +1,13 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Ошибки
+page_icon: 'ph:bold/warning-circle'
+section:
+  trigger:
+    description: 'Сгенерировать ошибку на стороне клиента для тестирования обработки исключений.'
+    button: 'Сгенерировать ошибку'
+  frontend_throw:
+    description: 'Сгенерировать необработанное исключение на стороне клиента в JavaScript.'
+    button: 'Сгенерировать ошибку'
+  internet_probe:
+    description: 'Сделать внешний запрос для проверки обработки подключения к интернету.'
+    button: Проверить

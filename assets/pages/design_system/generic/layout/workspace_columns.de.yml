@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Fünf Spalten'
+page_icon: 'ph:bold/arrows-horizontal'
+intro: 'Fünf Bereiche in einer Reihe, die breiter als der Bildschirm sind und seitlich gescrollt werden. Die Navigation auf der linken Seite gehört nicht dazu – sie ist ein Bereich der Seite und bleibt an ihrem Platz.'
+section:
+  scroll:
+    title: 'Die Reihe scrollt, die Seite nicht'
+    description: '`zone--split--scroll` legt den Überlauf auf die Reihe: die Spalten behalten die Breite, die sie benennen, und der Split scrollt unter ihnen. Jede hat weiterhin ihren eigenen vertikalen Überlauf, sodass eine lange Spalte dort scrollt, wo sie steht.'
+  width:
+    title: 'Jede Spalte bestimmt ihre Breite'
+    description: 'Nichts nimmt, was hier übrig bleibt, da es keines gibt: die Reihe ist absichtlich länger als die Seite. Ein Bereich, der keine Größe angibt, fällt auf eine Spalte zurück, die breit genug ist, um etwas zu halten, und diese geben ihre Breite an – jeweils 24rem, fünf insgesamt.'
+  fold:
+    title: 'Einen Bereich zusammenfalten'
+    description: 'Jede Spalte hier ist ein `zone-collapsible`. Zusammengefaltet verschwindet sie nicht: Sie behält ihren Platz in der Reihe und ihren Boden, und ihre Leiste dreht sich zur Seite – sodass der Knopf, der sie zusammengefaltet hat, der Knopf ist, der sie öffnet, und nichts außerhalb muss wissen, dass sie existiert.'
+    more: 'Benannt wird ein Bereich erinnert: Der Zustand wird im UI-Zustand unter seinem Namen gespeichert und beim Laden der Seite wieder gelesen, sodass er gefaltet ankommt, anstatt vor deinen Augen gefaltet zu werden. Die dritte Spalte öffnet gefaltet, und die letzte wird von einer Vue gerendert – dasselbe Component, dieselben Klassen, derselbe Schlüssel.'
+column:
+  first: 'Lies mich'
+  second: Backlog
+  third: 'In Arbeit'
+  fourth: Überprüfung
+  fifth: Fertig
+card:
+  second: Ticket
+  third: Ticket
+  fourth: Ticket
+  fifth: Ticket
+  body: 'Was eine Spalte enthält, geht die Reihe nichts an: sie scrollt für sich allein, unter einer Leiste, die bleibt.'

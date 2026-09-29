@@ -1,0 +1,76 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Timeline
+page_icon: 'ph:bold/list-numbers'
+intro: "Cose una sotto l'altra, ciascuna su un marcatore, unite da una linea: i passaggi di una procedura, gli eventi di una storia, le fasi di un processo. Ciò che ciascuna contiene è libero: una riga di testo, una tabella, un modulo, e la linea scorre lungo tutto, fino al prossimo marcatore."
+section:
+  steps:
+    title: 'Passaggi in ordine'
+    description: 'Numerati, con i tre stati che il selettore conosce: i passaggi precedenti sono tracciati solidi, quello in corso si distingue, quelli successivi aspettano.'
+  free:
+    title: 'Qualsiasi cosa sotto un titolo'
+    description: "Ogni elemento contiene ciò di cui ha bisogno: proprietà, un messaggio, pulsanti. Un'icona sostituisce il punto, e un tono colora il marcatore come colora un marcatore o un blocco."
+  history:
+    title: 'Una storia'
+    description: 'Nessun ordine da seguire, solo eventi: punti, una data sotto ogni titolo e un colore di categoria che racconta qualcosa.'
+  unknown:
+    title: 'Passaggi non ancora decisi'
+    description: 'Come sul selettore: un passaggio che dipende da una risposta non ancora data non ha numero e non sposta nessun altro.'
+  hand:
+    title: 'Scritto a mano'
+    description: 'Il componente è solo un modo di scrivere la forma da un elenco. Le stesse classi scritte nella pagina danno la stessa timeline, con qualsiasi cosa in essa.'
+  vue:
+    title: 'In vue'
+    description: 'La stessa timeline in un albero vue. Ciò che il rametto prende come markup è uno slot scoping lì, quindi un componente può stare sotto il titolo di un elemento.'
+install:
+  clone:
+    title: 'Ottieni le sorgenti'
+    text: 'Clona il repository e installa le sue dipendenze.'
+  configure:
+    title: Configura
+    text: "Copia l'ambiente di esempio e compila l'indirizzo del database."
+  migrate:
+    title: 'Crea il database'
+    text: 'Esegui le migrazioni; questo è il passaggio in corso.'
+  deploy:
+    title: Distribuisci
+    text: 'Costruisci le risorse e pubblica il rilascio.'
+order:
+  placed:
+    title: 'Ordine effettuato'
+    meta: '14 marzo, 09:41'
+  paid:
+    title: 'Pagamento ricevuto'
+    meta: '14 marzo, 09:42'
+  shipped:
+    title: Spedito
+    meta: '15 marzo, 16:05'
+  next:
+    title: Consegna
+  delay:
+    title: 'In ritardo'
+    text: 'Il corriere annuncia un giorno in più.'
+  field:
+    reference: Riferimento
+    amount: Importo
+    method: Pagamento
+    card: 'Carta che termina con 4242'
+  action:
+    track: 'Traccia il pacco'
+    cancel: Annulla
+history:
+  release:
+    title: 'Versione 2.0 rilasciata'
+    meta: '2 settembre'
+  review:
+    title: 'Revisionato dal team'
+    meta: '28 agosto'
+  draft:
+    title: 'Prima bozza'
+    meta: '12 agosto'
+branch:
+  choose: 'Scegli un piano'
+  depends: 'Dipende dal piano'
+hand:
+  one: 'Un punto semplice'
+  two: "Un'icona al posto del punto"
+  two_text: 'Qualsiasi markup, scritto nella pagina.'

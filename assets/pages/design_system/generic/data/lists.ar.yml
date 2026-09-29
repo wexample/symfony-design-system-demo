@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: القوائم
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: افتراضي
+  empty:
+    title: 'حالة فارغة'
+search:
+  placeholder: 'تصفية القائمة...'
+header:
+  filter: تصفية
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'اتصال SQL مُدار لأعباء العمل المعاملاتية'
+  s3:
+    title: 'Amazon S3'
+    body: 'موصل تخزين الكائنات للاستيراد والتصدير'
+  webhook:
+    title: Webhook
+    body: 'تشغيل واستقبال الأحداث من الأنظمة الخارجية'
+  redis:
+    title: Redis
+    body: 'ذاكرة مؤقتة في الذاكرة ورسائل نشر/اشتراك'
+  mongo:
+    title: MongoDB
+    body: 'متجر مستندات لأعباء العمل ذات المخطط المرن'

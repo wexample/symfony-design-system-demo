@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Palkit
+page_icon: 'ph:bold/rows'
+intro: 'Palkki nimeää yhden asian yhdellä rivillä: mitä se on, mitä se kutsuu, mikä sitä määrittelee ja mikä kuuluu sen päähän. Se on muoto, ei sitoumus — entiteetti saavuttaa sen oman mallinsa kautta, mutta hakutulos, joka on tiedosto, sovellus tai asetukset, käyttää täsmälleen samaa merkintää.'
+finding:
+  fix: Korjaa
+  date: 'Aseta päivämäärä'
+  error:
+    title: 'Puuttuva pakollinen osa "Tarkoitus"'
+    subtitle: 01-PROSESSIT/PR-004-dokumenttivalvonta.md
+  warning:
+    title: 'Tarkistus päivämäärä on menneisyydessä'
+    subtitle: '01-PROSESSIT/PR-004-dokumenttivalvonta.md:4'
+  info:
+    title: 'Omistajakenttä jätetty tyhjäksi'
+    subtitle: 'Ei estä luonnosta, vaaditaan ennen tarkistusta'
+section:
+  findings:
+    title: Havainnot
+    description: 'Mitä analyysi raportoi, yksi palkki kullekin: havainto otsikkona, missä se on alaotsikkona, ja mitä sille voidaan tehdä jälkimmäisessä slotissa — ei mitään, kun täällä ei voida tehdä mitään. Vakavuus on lohkon sävy, jonka avatar päässä ottaa myös.'
+  alone:
+    title: 'Palkki itsessään'
+    description: 'Kaikki muu paitsi otsikko on valinnaista. Etuslotissa on kuvake tai mikä tahansa merkintä, kun oikeaa avataria tarvitaan; jälkimmäisessä slotissa on päivämäärä, tagi, rivi painikkeita. Antamalla linkin, koko leveys muuttuu kohteeksi ja otsikko säilyttää värinsä, missä se sijaitsee.'
+  search:
+    title: 'Tulosten lista'
+    description: 'Lista tuo kehykset, hakukentän ja erotinviivat; jokainen rivi tuo palkin. Mikään tässä ei ole entiteetti — se on koko pointti: sama rivi palvelee henkilöä, asiakirjaa, sovellusta ja asetusta.'
+  surfaces:
+    title: 'Yksi pinta kullekin'
+    description: 'Toinen tapa lukea lista — ei yhteistä taustaa eikä viivaa, jokainen palkki seisoo omassa lohkossaan ympärillä tilaa. Ei mitään uutta tyylille, palkki ottaa yksinkertaisesti lohkoluokat, ja antamalla linkin koko kortti muuttuu kohteeksi.'
+  divided:
+    title: 'Paljas lista'
+    description: 'Kun kehys on jo paikalla, pystysuora pino erottimilla riittää — ei omaa muotoa, vain viiva kahden rivin välillä.'
+  vue:
+    title: 'Lista niistä, Vue:ssa'
+    description: 'Samalla rivillä luetaan loppupisteestä sen sijaan, että se kirjoitettaisiin: lista pitää sivun, sivutuksen ja tyhjän tilan, ja jokainen entiteetti sanoo, mitä siitä luetaan — otsikon, mitä se määrittelee, kuvakkeen, minne se johtaa, päivämäärän päähän. Yllä olevat lukemat ovat sen variantteja, `jaettu` sitten `pinnat`.'
+  keeping_up:
+    title: 'Ja pidetään ajan tasalla'
+    description: 'Palkkilista on kokoelma kuten mikä tahansa muu, joten kolme tapaa, joilla kokoelma kuulee, että maailma on edennyt, ovat sille avoimia: sovellus tapahtuma, live-lähde, kysely. Tämä kuuntelee tapahtumaa — soita ja katso rivien palaavan. Katso Ajantasalla pitämistä kolmen vieressä.'
+sample:
+  minimal:
+    title: 'Otsikko itsessään'
+  icon:
+    title: Etukuvakkeella
+  subtitle:
+    title: 'Maya Lindqvist'
+    subtitle: maya@example.com
+  trailing:
+    title: 'Kvartaali raportit'
+    subtitle: '14 asiakirjaa'
+  link:
+    title: 'Palkki, joka on linkki'
+    subtitle: 'Koko leveys on kohde'
+search:
+  placeholder: 'Hae kaikkea'
+  value: raportti
+  filter: Suodata
+result:
+  user:
+    title: 'Maya Lindqvist'
+    subtitle: 'Henkilö · Tuotetiimi'
+  file:
+    title: 'Kvartaali raportti Q3.pdf'
+    subtitle: 'Asiakirja · 2.4 MB'
+  app:
+    title: Raportointi
+    subtitle: 'Sovellus · Asennettu'
+  setting:
+    title: 'Raportin säilyttäminen'
+    subtitle: 'Asetus · Tallennus'
+member:
+  maya:
+    title: 'Maya Lindqvist'
+    subtitle: Omistaja
+  sam:
+    title: 'Sam Okonkwo'
+    subtitle: Muokkaaja
+  robot:
+    title: Yötuonti
+    subtitle: Palvelutili

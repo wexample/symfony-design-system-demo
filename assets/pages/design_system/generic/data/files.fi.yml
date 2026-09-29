@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tiedostot
+page_icon: 'ph:bold/folder-open'
+intro: 'Sivun levyinen tiedostohallinta. Se ei tiedä, mistä tiedostot tulevat: se kysyy kansion sisältöä ja ottaa tiedostoyksiköt takaisin — sama lataaja, jonka puu ottaa — joten levy, indeksi, arkisto tai API luetaan kaikki samalla tavalla.'
+root: Tiedostot
+section:
+  vue:
+    title: Tutkija
+    description: 'Kansiot sivulla, kansion sisältö listana, joka on lajiteltu minkä tahansa sarakkeen mukaan tai ruudukko; taakse, eteen ja ylös; suodatin; valinta hiirellä — ctrl, shift — ja näppäimistöllä — nuoli, Enter, Backspace, ctrl+A, Escape; enemmän kysytään, kun kansio sisältää enemmän kuin yhden sivun. Kaksoisklikkaus avaa kansion ja tuo tiedoston sivulle. Näkymä ja järjestys muistetaan.'
+  twig:
+    title: 'Palvelimen piirtämä'
+    description: 'Yksi kansio, listana tai ruudukossa, jokainen kohde linkki: kansio samaan sivuun avattuna — täällä ?folder= kautta — tiedosto minne tahansa sivu sen lähettää.'

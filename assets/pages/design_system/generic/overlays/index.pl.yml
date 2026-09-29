@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Nakładki
+page_icon: 'ph:bold/stack'
+intro: 'Powierzchnie, które otwierają się na stronie zamiast obok niej. Różnią się tym, ile miejsca zajmują — róg, bok, środek — oraz tym, co kosztuje czytelnika ich opuszczenie.'
+page:
+  modal:
+    title: Modalny
+    description: 'Środek ekranu, a strona za nim wstrzymana: dla wyboru, który musi zostać podjęty przed wszystkim innym.'
+  panel:
+    title: Panel
+    description: 'Bok ekranu, strona wciąż czytelna obok: do czegoś, co jest konsultowane obok, a nie zamiast.'
+  confirm:
+    title: Potwierdź
+    description: 'Jedno pytanie, które wart jest destrukcyjnej akcji, oraz obietnica, że nic się nie wydarzy, dopóki nie zostanie odpowiedziane.'
+  backdrop:
+    title: Tło
+    description: 'Warstwa, na której wszystkie te elementy są ułożone, sama w sobie: co ją otwiera, co ją zamyka i w jakiej kolejności.'
+  tooltip:
+    title: Podpowiedź
+    description: 'Kilka słów obok tego, na czym znajduje się wskaźnik lub fokus, odwrócone od krawędzi okna.'
+  tour:
+    title: Wycieczka
+    description: 'Strona pokazywana krok po kroku, zapamiętana po zakończeniu lub odrzucona.'

@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Typografie
+page_icon: 'ph:bold/text-aa'
+intro: 'Die Skala ist eine Entscheidung über die Dichte und die Typen sind eine Entscheidung über die Schriftarten: Diese Seite zeigt, wie eine Form gelesen wird, nicht was sie heute wert ist. Wechsle die Schriftarten-Achse im Debug-Bereich und alles darunter wird in einer anderen Schriftart gesetzt, ohne dass sich eine Regel ändert.'
+section:
+  families:
+    title: Familien
+    description: 'Drei, denn das ist es, was eine Seite unterscheidet: in welcher Schrift es geschrieben ist, in welcher es betitelt ist und was als getippt und nicht als gesagt gelesen werden soll. Ein Set kann allen dreien die gleiche Schriftart geben – das System tut dies.'
+  weights:
+    title: Gewichte
+    description: 'Benannt nach dem Maß, wie sehr sie bestehen, niemals nach Zahlen. Eine Schriftart, deren 500 nicht existiert, mappt sie auf das, was sie hat, und die Formen, die nach einem Medium fragen, fragen weiterhin nach einem Medium.'
+  typography:
+    title: Schriftgröße
+title:
+  h1:
+    title: 'Design-System — Bausteine für großartige Benutzeroberflächen'
+    description: 'Einmal pro Seite verwendet. Setzt den primären Kontext. Kombiniert mit einem kurzen einleitenden Absatz.'
+  h2:
+    title: 'Typografie etabliert Hierarchie und Rhythmus'
+    description: 'Überschrift auf Abschnittsebene. Gruppiert verwandte Inhalte. Wird normalerweise von Fließtext oder Unterabschnitten gefolgt.'
+  h3:
+    title: 'Abstand und Proportionen formen die Lesbarkeit'
+    description: 'Überschrift für Unterabschnitte. Führt ein fokussiertes Thema innerhalb eines Abschnitts ein.'
+  h4:
+    title: 'Farbe und Kontrast führen das Auge'
+    description: 'Verwendet für Kartentitel, Sidebar-Abschnitte oder kleinere Gruppierungen.'
+  h5:
+    title: 'Interaktive Zustände müssen offensichtlich sein'
+    description: 'Labels, Metadatenüberschriften, kleine Gruppierungen. Subtil, aber deutlich vom Fließtext unterschieden.'
+  h6:
+    title: 'Barrierefreiheit ist ein Merkmal, kein Nachgedanke'
+    description: 'Die kleinste Überschriftsebene. Sparsam verwenden — für Fußnoten, rechtliche Blöcke oder Hilfslabels.'
+sample: 'Der schnelle braune Fuchs springt über den faulen Hund — 0123456789'

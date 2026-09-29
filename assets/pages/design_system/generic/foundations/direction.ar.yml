@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: الاتجاه
+page_icon: 'ph:bold/arrows-left-right'
+intro: 'نفس العينات مرتين، من اليسار إلى اليمين ومن اليمين إلى اليسار. لا يوجد هنا ما هو مكتوب للجانب من اليمين إلى اليسار: كل ورقة أنماط تتحدث عن بداية ونهاية السطر، لذا فإن كتلة تم إعطاؤها `dir="rtl"` — أو صفحة باللغة العربية — تعكس نفسها. الأسهم تشير في الاتجاه المعاكس، ومقبض التبديل يتحرك في الاتجاه المعاكس، وقائمة تفتح نحو النهاية، ورسالة بريد إلكتروني أو مسار يستمر في القراءة من اليسار إلى اليمين.'
+side:
+  ltr: 'من اليسار إلى اليمين'
+  rtl: 'من اليمين إلى اليسار'
+sample:
+  navigation: التنقل
+  controls: التحكم
+  data: البيانات
+  text: النص
+step:
+  account: الحساب
+  address: العنوان
+  payment: الدفع
+action:
+  previous: السابق
+  next: التالي
+  menu: القائمة
+menu:
+  report: التقرير
+  settings: الإعدادات
+control:
+  notifications: الإشعارات
+  digest: 'ملخص أسبوعي'
+  upload: رفع
+field:
+  owner: المالك
+  email: 'البريد الإلكتروني'
+  site: الموقع
+  amount: المبلغ
+text:
+  lead: 'فقرة الرصاص تحمل قاعدتها من الجانب الذي يبدأ منه السطر.'
+  mixed: 'القيم تحتفظ باتجاهها الخاص داخل الجملة — اسأل layla.haddad@example.test، شغل'
+  marker: 'تم التوصيل'
+  link: الوثائق

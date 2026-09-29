@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: メッセージ
+page_icon: 'ph:bold/notification'
+section:
+  block:
+    title: メッセージをブロック
+  compact:
+    title: コンパクトメッセージ
+    description: フレームなしのバリアントで、イベントを報告するのではなく、基本的なルールを示します。オプションにコンパクトを渡してください。
+  default:
+    title: メッセージタイプ
+  vue:
+    title: Vue
+    description: 呼び出し元のためにそのtwig関数が挿入するアイコンを持つ、vueパーシャルと同じ4つのバリエーションです。
+compact:
+  rule:
+    one: 出荷請求書は、販売でない限り、受信請求書にリンクされている必要があります。
+    two: 出荷請求書は管理者によって作成されなければなりません。
+    three: 請求書を発行する前に、全額を割り当てる必要があります。
+message:
+  info:
+    title: 情報メッセージ
+    body: これは短い情報メッセージです。
+  success:
+    title: 成功メッセージ
+    body: アクションが正常に完了しました。
+  warning:
+    title: 警告メッセージ
+    body: 何かがあなたの注意を必要としています。
+  error:
+    title: エラーメッセージ
+    body: リクエストの処理中にエラーが発生しました。

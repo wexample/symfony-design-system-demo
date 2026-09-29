@@ -1,0 +1,115 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 블록
+page_icon: 'ph:bold/squares-four'
+tone:
+  body: '바닥은 블록의 것이지만, 앞쪽 가장자리만 색상을 가집니다.'
+section:
+  tone:
+    title: '톤이 있는 블록'
+    description: '상태 또는 카테고리의 색상이 앞쪽 가장자리 아래 바 형태로 표시되며, 그 외에는 아무것도 없습니다: 메시지가 착용하는 동일한 바로, 색이 없는 바닥 없이, 그래서 목록이 경고가 아닌 목록으로 읽힙니다. 모든 블록이 이를 수용하며, 블록 위에 서 있는 바도 포함됩니다.'
+  default:
+    title: '기본 블록'
+  advanced:
+    title: '고급 블록'
+  aside:
+    title: '고정된 사이드 열'
+    description: '남은 너비를 흡수하는 본체 옆에 --size 스케일에 맞춰 조정된 좁은 열입니다.'
+  card:
+    title: 카드
+  link:
+    title: '링크인 블록'
+    description: '전체 카드가 링크입니다 — 여러 카드 중 하나를 선택하여 만든 선택을 위한 것입니다: 계획, 분기, 템플릿. 텍스트처럼 읽히며, 소음 없는 행동으로 읽히지 않습니다; 포인터 아래에서 바닥이 미세한 변화를 주고 가장자리가 단단해지며, 키보드는 모든 컨트롤이 착용하는 포커스 링으로 이를 찾습니다.'
+  figure:
+    title: 피겨
+    description: '중앙에 배치된 하나의 과도하게 큰 값이나 아이콘입니다. 대시보드 카운터와 상태 타일에 사용되며 — 블록--사각형을 추가하여 너비에 관계없이 타일이 정사각형으로 유지됩니다.'
+  stacks:
+    title: 스택
+  stack_horizontal:
+    title: 수평
+    description: '같은 너비의 열, 전체 너비, 오버플로우 시 래핑됩니다.'
+  stack_vertical:
+    title: 수직
+    description: '쌓인 행, 전체 너비, 균일한 간격.'
+  stack_split:
+    title: 분할
+    description: '첫 번째 자식이 성장하고, 마지막 자식이 고정됩니다 — 주도 + 행동 행에 사용됩니다.'
+  stack_nested:
+    title: 중첩
+    description: '수직 스택을 포함하는 수평 스택 — 전형적인 대시보드 격자입니다.'
+stack:
+  item:
+    one: 하나
+    two: 둘
+    three: 셋
+    four: 넷
+    lead: '이 리드 텍스트에서 행동을 설명하세요.'
+    action: 행동
+block:
+  title: '블록 제목'
+  no_padding: '패딩이 없는 블록 (block--body 사용).'
+  one:
+    title: '주요 블록'
+    description: '제목과 본문 텍스트가 있는 블록입니다.'
+  two:
+    title: '보조 블록'
+    description: '간격을 보여주기 위한 또 다른 블록입니다.'
+  three:
+    title: '제3 블록'
+    description: '행의 세 번째 블록입니다.'
+  four:
+    title: '제4 블록'
+    description: '레이아웃 데모를 위한 네 번째 블록입니다.'
+  advanced:
+    title: '파이프라인 프로젝션'
+    status: '준비 완료'
+    description: '이 블록은 제목 슬롯과 콘텐츠를 하나의 재사용 가능한 구조로 결합합니다.'
+    details: '현재 컨텍스트를 떠나지 않고도 연산자를 추가할 수 있습니다.'
+  zones:
+    main:
+      title: '주요 영역'
+      description: '주요 콘텐츠는 표준 간격으로 자연스럽게 성장할 수 있습니다.'
+    aside:
+      title: '사이드 영역'
+      description: '이 사이드 영역은 보조 콘텐츠를 강조하기 위해 밝은 배경을 사용합니다.'
+  zones_three:
+    title: '세 영역 레이아웃'
+    status: 초안
+    left:
+      title: '왼쪽 패널'
+      description: '보조 내비게이션 또는 메타데이터가 여기에 표시될 수 있습니다.'
+    main:
+      title: '주요 콘텐츠'
+      description: '주요 정보는 가독성을 위해 중앙에 유지됩니다.'
+    right:
+      title: '오른쪽 패널'
+      description: '맥락적 행동과 통찰력을 이쪽에 그룹화할 수 있습니다.'
+    footer:
+      meta: '2분 전에 업데이트됨'
+      action: '세부정보 열기'
+figure:
+  projections: 프로젝션
+  uptime: '가동 시간'
+  status: 실시간
+  framed:
+    title: 처리량
+    label: '초당 이벤트'
+tab:
+  one: 개요
+  two: 활동
+  three: 설정
+button:
+  create: '프로젝션 생성'
+  refresh: '데이터 새로 고침'
+  export: 내보내기
+action:
+  add_projection: '프로젝션 추가'
+link:
+  starter:
+    title: 스타터
+    description: '한 사람, 필수 요소, 지불할 필요 없음.'
+  team:
+    title: 팀
+    description: '같은 일에 함께하는 몇 명의 사람들입니다.'
+  company:
+    title: 회사
+    description: '모든 팀과 조직이 요청하는 제어 기능이 포함됩니다.'

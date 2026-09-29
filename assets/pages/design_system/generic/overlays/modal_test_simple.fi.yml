@@ -1,0 +1,6 @@
+page_title: 'Modaalin testi - yksinkertainen'
+message: 'Tämä on yksinkertainen modaalinen ikkuna.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Oletko varma, että haluat sulkea tämän modaalin?'

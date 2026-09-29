@@ -1,0 +1,18 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: মিডিয়া
+page_icon: 'ph:bold/image'
+section:
+  vue:
+    title: ভিউ
+    description: 'একটি ভিউ পার্টিয়ালের মতো একই ফ্রেম, একটি নথির জন্য যার ঠিকানা পৃষ্ঠা চলার সময়ই জানা যায়।'
+  shapes:
+    title: আকৃতি
+  overlay:
+    title: ওভারলে
+  aspect_ratio:
+    title: 'অংশের অনুপাত'
+  document:
+    title: 'এম্বেডেড নথি'
+    description: 'একটি আইফ্রেম তার বাক্স পূর্ণ করে, তাই বাক্সটি আকার বহন করে: একটি অনুপাত সংশোধক, অথবা মিডিয়া--যা কিছু উচ্চতা প্যারেন্ট দেয় তা গ্রহণ করতে।'
+document:
+  title: 'প্লেসহোল্ডার নথি'

@@ -1,0 +1,9 @@
+page_title: '고급 양식'
+message:
+  form_submit_behavior_submitted:
+    title: '제출 성공'
+    body: '제출 동작 데모 양식이 성공적으로 제출되었습니다.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: '이 사용자 정의 양식을 정말로 떠나시겠습니까?'

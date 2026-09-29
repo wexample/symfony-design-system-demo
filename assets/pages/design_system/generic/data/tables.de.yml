@@ -1,0 +1,120 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tabellen
+page_icon: 'ph:bold/table'
+section:
+  wide:
+    title: 'Breiter als der Raum'
+    description: 'Eine Tabelle, deren Spalten mehr Platz benötigen als die Seite bietet, wird in der Breite gezeichnet, die sie benötigt, in einem Rahmen, der seitlich scrollt – die Seite um sie herum bleibt stehen. Eine Sticky-Tabelle gibt dies auf: Ein Header, der an der Seite haftet, und ein Rahmen, der selbst scrollt, können nicht zusammen existieren.'
+  default:
+    title: 'Einfache Tabelle'
+  actions:
+    title: 'Tabelle mit Aktionen'
+  links:
+    title: 'Link- und Symbolzellen'
+  loading:
+    title: Ladezustand
+  empty:
+    title: 'Leerer Zustand'
+  alignment:
+    title: Spaltenausrichtung
+  markdown:
+    title: 'Aus Markdown'
+    description: 'Eine in Markdown geschriebene Tabelle, die durch `markdown_ds` verarbeitet wird: Die Spalten, ihre Ausrichtung und die Markup jedes Zelle werden aus dem Dokument gelesen, und die Tabelle wird hier wie jede andere dargestellt. `markdown` behält das einfache `<table>` für alles, was keine Seite ist – eine E-Mail, einen Feed.'
+  groups:
+    title: 'Gruppiere Zeilen'
+    description: 'Eine Zeile, die nur eine Gruppe enthält, ist keine Zeile: Sie ist die Linie zwischen zwei Durchläufen davon, die ein Wort erhält. Sie erstreckt sich über die Tabelle und benennt, was folgt – die gleiche Lesart wie ein Menüseparator.'
+  status:
+    title: Statuszellen
+    description: 'Ein Zustand ist ein Kreis, niemals eine Farbe, die jemand gewählt hat: Die Zelle nimmt einen Typnamen oder einen Typ mit einer Anzahl und einem Titel an und zeigt das Statussymbol, das der Rest des Systems anzeigt. Nichts zum Stylen auf der Seite.'
+  sticky:
+    title: Sticky-Header
+    description: 'Eine lange Tabelle wird spaltenweise gelesen, ebenso wie zeilenweise. Mit `sticky` bleibt der Header im Blick, während die Zeilen darunter scrollen; eine Seite mit etwas Eigenem oben angeheftet zeigt, wie weit unten in `--table-sticky-top`.'
+  striped:
+    title: 'Gestreifte Zeilen, beleuchtet unter dem Zeiger'
+  selection:
+    title: 'Zeilen, die angekreuzt werden können'
+    description: 'Ein Kästchen am Kopf jeder Zeile, eines im Header für alle, und die Aktionen darüber: Sie senden die angekreuzten Zeilen an ihre eigene Adresse und bleiben unerreichbar, solange nichts angekreuzt ist.'
+  files:
+    title: 'Dateien, eine Gesamtzahl, eine Aktion für jede Zeile'
+    description: 'Pfade, die nach ihrem Namen gelesen werden, die Ordner davor werden von ihrem Anfang abgeschnitten. Die Leiste endet mit der Anzahl der Zeilen, und eine Aktion, die mit `alle` gekennzeichnet ist, funktioniert auch ohne etwas angekreuzt zu haben – sie nimmt jede Zeile und führt die Leiste, wenn sie die erwartete ist.'
+  filters:
+    title: Filter
+    description: 'Eine Leiste von Filtern am Kopf der Tabelle, jeweils ein diskretes Menü, das angibt, was es eingrenzt, sobald es das tut. Auf dem Server leben sie in der Abfrage der Seite – jede Option ist ein Link – und der Controller grenzt die Zeilen von dort ein; in Vue sind sie ein Wert, der der Seite für ihre API übergeben wird oder von der Tabelle auf die bereits vorhandenen Zeilen angewandt wird. Jede Option ist ein Kästchen – rund für eine Auswahl von einem – gefärbt durch seinen Ton, wenn er einen hat, einen Status oder eine Kategorie.'
+  selection_select:
+    title: 'Aktionen in einer Auswahl'
+    description: 'Die gleiche Leiste, wenn es genug Aktionen gibt, um sie zu überfüllen: Eine wird gewählt, dann angewandt.'
+  vue:
+    title: Vue-Entity-Tabelle
+  vue_selection:
+    title: 'Vue-Tabelle mit Auswahl'
+    description: 'Der gleiche Vertrag auf dem Client: die angekreuzten Schlüssel kommen über v-model:selected zurück, jede Aktion wird als bulk-action ausgegeben, und eine mit einer Adresse wird gepostet, während die Servertabelle sie postet. Diese haben keine, also sagt die Zeile darunter, was hätte getan werden können. Drei Zeilen pro Seite, die Gesamtzahl am Ende der Leiste, und „Alle archivieren“ benötigt nichts angekreuzt.'
+  vue_compact:
+    title: 'Paginierung ohne Gesamtzahl'
+    description: 'Wenn die API keine Gesamtzahl zurückgibt, fällt der Pager auf vorher/nachher zurück.'
+  vue_dates:
+    title: Vue-Datumsformatter
+column:
+  wide: Spalte
+  default:
+    name: Name
+    date: Datum
+    seen: 'Zuletzt gesehen'
+  actions:
+    name: Quelle
+    date: 'Aktualisiert am'
+    operations: Aktionen
+  links:
+    source: Quelle
+    state: Status
+  status:
+    name: Pipeline
+    build: Bau
+    tests: Tests
+    deploy: Bereitstellung
+  alignment:
+    left: 'Name (links)'
+    center: 'Status (zentriert)'
+    right: 'Menge (rechts)'
+row:
+  wide: 'Ein Wert, der lang genug ist'
+  one:
+    title: 'Projekt Alpha'
+    meta: '2026-01-10'
+  two:
+    title: 'Projekt Beta'
+    meta: '2026-02-18'
+  three:
+    title: 'Projekt Gamma'
+    meta: '2026-03-25'
+  action:
+    one:
+      title: 'Quelle Alpha'
+      meta: '2026-01-12'
+    two:
+      title: 'Quelle Beta'
+      meta: '2026-02-20'
+    loading:
+      label: 'Lade Zeilen'
+    empty:
+      label: 'Keine Daten verfügbar.'
+group:
+  first: 'Erste Gruppe'
+  second: 'Zweite Gruppe'
+status:
+  flaky: 'Drei Tests sind fehleranfällig'
+bulk:
+  archive: Archivieren
+  export: Exportieren
+  delete: Löschen
+files:
+  column:
+    path: Datei
+  fix_selected: 'Ausgewählte reparieren'
+  fix_all: 'Alle reparieren'
+filters:
+  owner: Besitzer
+  state: Status
+  open: Offen
+  closed: Geschlossen
+  column:
+    name: Name

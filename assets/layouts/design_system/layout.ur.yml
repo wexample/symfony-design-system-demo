@@ -1,0 +1,8 @@
+~extends: '@front.layouts.private.layout'
+menu_design_system:
+  navigation:
+    group:
+      app:
+        title: 'ایپ کے اجزاء'
+      generic:
+        title: 'جنرک اجزاء'

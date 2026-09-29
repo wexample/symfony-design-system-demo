@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Daten
+page_icon: 'ph:bold/list-bullets'
+intro: 'Formen, die eine Sammlung aufnehmen und darstellen. Was sie unterscheidet, ist, wie viel von jedem Datensatz der Leser sehen kann und was er damit tun kann, sobald er es sieht.'
+page:
+  files:
+    title: Dateien
+    description: 'Ein Datei-Explorer, der die Breite einer Seite hat, gespeist von einem Loader, und einem Ordner, der vom Server bereitgestellt wird.'
+  tables:
+    title: Tabellen
+    description: 'Zeilen und Spalten, servergerendert oder vom Browser paginiert, mit typisierten Zellen – Links, Aktionen, Icons und Daten, die weitergezählt werden.'
+  live:
+    title: Aktualität
+    description: 'Die drei Möglichkeiten, wie eine Sammlung erfährt, dass sich das, was sie zeigt, geändert hat – ein App-Ereignis, eine Live-Quelle oder Polling – und wofür jede davon gedacht ist.'
+  lists:
+    title: Listen
+    description: 'Eine Liste, die aus ihrem eigenen Header heraus durchsucht und gefiltert wird, für ein Set, das ein Leser durchblättert, anstatt es zu scannen.'
+  properties:
+    title: Eigenschaften
+    description: 'Schlüssel und Wert, für einen Datensatz statt viele – das Detailfenster eines bereits gewählten Objekts.'
+  bars:
+    title: Balken
+    description: 'Ein Datensatz, der in einer einzigen Zeile benannt ist: ein Icon, ein Titel, was ihn qualifiziert. Die Zeile, in der ein Suchergebnis, ein Mitglied oder eine Datei dargestellt wird.'
+  tree:
+    title: Baum
+    description: 'Eine Sammlung, deren Datensätze einander enthalten, die jeweils auf einer Ebene geladen werden, in dem Panel, das ein Explorer mitliefert.'
+  chat:
+    title: Chat
+    description: 'Eine Sammlung, die rückwärts gelesen und von unten hinzugefügt wird, live, mit einem Composer, der wächst, während er geschrieben wird.'

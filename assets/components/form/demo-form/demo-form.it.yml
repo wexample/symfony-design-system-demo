@@ -1,0 +1,96 @@
+field:
+  password:
+    label: Password
+    help: 'Inserisci la tua password per autenticarti.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'La password non è valida per scopi di test.'
+  emoji:
+    label: Emoji
+    help: "Scegli un'emoji per rappresentare il tuo umore."
+    error:
+      ERR_FIELD_EMOJI_INVALID: "L'emoji non è valida per scopi di test."
+  text_simple:
+    label: Testo
+    help: 'Un input di testo su una sola riga per contenuti brevi.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Il testo non è valido per scopi di test.'
+  text_area:
+    label: 'Testo lungo'
+    placeholder: 'Scrivi quello che vuoi...'
+    help: "Un'area di testo multi-linea per contenuti più lunghi."
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Il testo lungo non è valido per scopi di test.'
+  number:
+    label: Numero
+    help: 'Inserisci un valore numerico.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Il numero non è valido per scopi di test.'
+  email:
+    label: Email
+    placeholder: tuo@example.com
+    help: 'Inserisci un indirizzo email valido.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: "L'email non è valida per scopi di test."
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Inserisci un URL completo incluso il protocollo.'
+    error:
+      ERR_FIELD_URL_INVALID: "L'URL non è valido per scopi di test."
+  date:
+    label: Data
+    help: 'Seleziona una data utilizzando il selettore di data.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'La data non è valida per scopi di test.'
+  datetime:
+    label: 'Data e ora'
+    help: "Seleziona una data e un'ora combinate."
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'La data e ora non sono valide per scopi di test.'
+  time:
+    label: Ora
+    help: 'Seleziona un orario della giornata.'
+    error:
+      ERR_FIELD_TIME_INVALID: "L'ora non è valida per scopi di test."
+  file:
+    label: File
+    help: 'Carica uno o più file dal tuo dispositivo.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Il file non è valido per scopi di test.'
+  radio_choice:
+    label: 'Scelta radio'
+    help: "Seleziona un'opzione dall'elenco."
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'La scelta radio non è valida per scopi di test.'
+    choice:
+      option_a:
+        label: 'Opzione A'
+      option_b:
+        label: 'Opzione B'
+      option_c:
+        label: 'Opzione C'
+  switch:
+    label: Interruttore
+    help: 'Attiva o disattiva questa opzione.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: "L'interruttore non è valido per scopi di test."
+form:
+  error:
+    ERR_FORM_TEST: 'Errore globale per scopi di test.'
+action:
+  button_demo: 'Non fare nulla'
+  submit_default: Invia
+  submit_error: 'Mostra errori'
+  submit_js: 'Azione JS'
+  submit_redirect: Reindirizza
+toast:
+  success:
+    title: Successo
+    message: 'Modulo inviato con successo.'
+  js_action:
+    title: 'Azione JS'
+    message: 'Vuoi riattivare il modulo?'
+    reactivate: Riattiva
+    dismiss: Ignora
+description: |
+  Usa questo modulo per testare i comportamenti di invio. Questa demo è in un componente Vue.

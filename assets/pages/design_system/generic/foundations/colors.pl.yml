@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kolory
+page_icon: 'ph:bold/palette'
+intro: 'Żaden komponent nie nazywa koloru. Nazwij rolę — powierzchnię, krawędź, stan — a motyw decyduje, jak ta rola wygląda na każdej z jej stron. Zmień schemat w nagłówku i obserwuj, jak każdy wzornik poniżej przesuwa się bez potrzeby redefiniowania któregokolwiek z nich.'
+section:
+  surfaces:
+    title: Powierzchnie
+    description: 'Drabina wzniesień nad stroną. Jasna strona porządkuje je według jasności, ciemna według tego, jak daleko każda z nich jest uniesiona nad tłem — dlatego komponent prosi o poziom, a nie o szarość.'
+  invert:
+    title: 'Odwróć poziomy'
+    description: 'Dwadzieścia poziomów koloru tekstu na tle, oraz źródło niemal każdej krawędzi, przygaszonego tekstu i stanu najechania w systemie. Poziom 1 ledwie istnieje, poziom 20 to sam tekst.'
+  semantic:
+    title: 'Rodziny semantyczne'
+    description: 'Pięć rodzin, odczytywanych z strony do tekstu przez kolor: poziom 1 to kolor ledwie zabarwiający stronę, 17 to kolor całkowity, 32 to kolor ledwie zabarwiający tekst. Poniżej środka są tła; powyżej jest atrament, który rozjaśnia się na ciemnej stronie i ciemnieje na jasnej. Komponent wybiera poziom, a nie hex, co pozwala na prawidłowe odczytanie tej samej wiadomości na obu stronach.'
+  categories:
+    title: 'Paleta kategoryczna'
+    description: 'Trzynaście kolorów, które nie znaczą nic poza "nie tym obok": seria wykresu, segmenty rozkładu, etapy przepływu pracy. Nazwane, a nie ponumerowane — aplikacja wybiera `cat-mint`, ponieważ przypomina miętę. Każdy ma jasną i ciemną wersję, stałą na obu stronach jak wypełnienie; atrament zapisany na wypełnieniu ciemnieje tam, gdzie kolor jest jasny. Która kategoria to który kolor to wybór aplikacji, nigdy systemu projektowego.'
+  text:
+    title: Tekst
+    description: 'Trzy poziomy uwagi. Co jest czytane, co to kwalifikuje, a co jest tylko obecne, gdy się go szuka.'
+  borders:
+    title: Krawędzie
+    description: 'Cztery grubości, rozróżniane przez to, co oddzielają: dwie rzeczy wewnątrz jednego obszaru, dwa obszary strony lub pole od tego, co jest za nim.'
+surface:
+  page: 'Strona sama w sobie i to, co pokazuje się między strefami'
+  shell: 'Menu, nagłówek, stopka'
+  zone: 'Tło, na którym stoi region strony'
+  one: 'Elementy wejściowe i pola'
+  two: 'Przyciski, paski narzędzi'
+  three: 'Bloki, karty, modale'
+text:
+  default: 'Co jest czytane'
+  muted: 'Etykiety, meta, napisy'
+  subtle: 'Separatory i puste stany'

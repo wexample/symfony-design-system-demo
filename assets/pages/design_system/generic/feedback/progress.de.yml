@@ -1,0 +1,31 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Fortschritt
+page_icon: 'ph:bold/gauge'
+intro: 'Wie weit etwas fortgeschritten ist, dargestellt als Verhältnis zwischen 0 und 1 in einer benutzerdefinierten Eigenschaft – genauso wie der Statuskreis seinen Bogen trägt, füllen beide Seiten des Stapels die Leiste mit einer Erklärung. Twig gibt den Wert aus, den es erhält; ihn danach zu bewegen, ist das Geschäft des Browsers.'
+section:
+  default:
+    title: Zustände
+    description: 'Der Wert ist eine Anzahl oder ein Anteil, der als Prozentsatz geschrieben ist, und beantwortet niemals außerhalb seiner Grenzen. Die Farbe ist die Feedbackfarbe, sodass eine Leiste anzeigt, wie ihre Arbeit in derselben Sprache wie eine Nachricht oder ein Status beendet wurde.'
+  plain:
+    title: 'Ohne Gesamt'
+    description: 'Hundert ist das, was eine Leiste zählt, wenn niemand etwas anderes sagt, was macht, dass ein Prozentsatz das einzige ist, was es gibt. Ein eigenes Total ist für Arbeit, die in Dingen und nicht in Teilen gezählt wird.'
+  indeterminate:
+    title: 'Ein Ende, das nicht bekannt ist'
+    description: 'Arbeit im Gange, deren Größe niemand kennt: die Leiste sweeped und sagt keine Zahl. Ein Anteil hier zu beanspruchen, wäre eine Vermutung, die als Messung verkleidet ist.'
+  compact:
+    title: Kompakt
+    description: 'Reduziert auf das, was es sagen muss, für eine Statuszeile oder einen Fußbereich: eine dünnere Spur, die Formulierung daneben statt darüber und die Dichte, die an das weitergegeben wird, was damit steht.'
+  vue:
+    title: 'Vue, gesteuert'
+    description: 'Die gleiche Leiste, mit dem Vokabular, das der CLI-Fortschritt bereits spricht – aktualisieren, vorankommen, beenden, zurücksetzen. Ein Schritt, über den nichts gesagt wird, zählt als eine Einheit, was zu nennen ist, wenn weder die Einheit noch das Gesamt etwas bedeuten.'
+bar:
+  queued: 'In der Warteschlange'
+  working: 'Assets werden erstellt'
+  almost: Hochladen
+  done: Bereitgestellt
+  failed: 'Migration fehlgeschlagen'
+  counted: 'Dateien gelesen'
+  unknown: 'Suche nach etwas'
+  indexing: Indizieren
+compact:
+  app: acme-blog
