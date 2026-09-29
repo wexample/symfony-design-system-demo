@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Espacio de trabajo'
+page_icon: 'ph:bold/sidebar-simple'
+intro: 'Esta página es el ejemplo: lo que estás leyendo está en el medio de tres regiones, dispuestas lado a lado en el cuerpo de la página.'
+section:
+  gap:
+    title: 'La brecha es el separador'
+    description: 'Nada se dibuja entre dos regiones. Lo que las distingue es el espacio que dejan entre ellas, a través del cual la página muestra — el mismo suelo en el que se encuentra el menú y el encabezado. Cada región tiene la suya, que es el suelo que un cuerpo siempre ha tenido.'
+  each:
+    title: 'Cada uno por su cuenta'
+    description: 'Las dos columnas mantienen el ancho que se les da y la del medio toma lo que queda. Desplaza una de las tres y las otras dos se quedan donde están: una región mantiene su propio desbordamiento, y la página no mantiene ninguno.'
+    more: 'Una región no sabe nada de sus vecinas. El explorador a la izquierda es una división propia — una barra que se queda, un árbol que se desplaza debajo de ella — y tendría la misma forma en cualquier otro lugar de la página.'
+  size:
+    title: 'Dimensionando una de ellas'
+    description: 'La región de la izquierda lleva un `zone-resizer`: un mango que llena el espacio a su lado, que no dibuja nada — el cursor indica que se mueve. Arrástralo, o dale el foco y usa las flechas; un doble clic le devuelve a la región el ancho que la página le dio.'
+    more: 'Un mango dimensiona una región que tiene un tamaño — uno que se le da un ancho en lugar de tomar lo que queda — y la flexible al lado absorbe la diferencia. El ancho se recuerda bajo el nombre de la región, por lo que vuelve con la página, aquí en los tres diseños ya que es la misma región moviéndose.'
+editor:
+  state: Guardado
+inspector:
+  title: Detalles
+  field:
+    path:
+      key: Ruta
+    size:
+      key: Tamaño
+    changed:
+      key: Cambiado
+      value: 'hace 3 minutos'

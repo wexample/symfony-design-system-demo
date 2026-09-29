@@ -1,0 +1,15 @@
+page_title: 'Pestañas con persistencia'
+tab:
+  overview: Resumen
+  details: Detalles
+  settings: Configuración
+  loading: 'Barra de carga'
+content:
+  overview: 'Esta es la pestaña de Resumen. Cambia de pestañas y luego presiona F5; esta pestaña seguirá activa cuando se vuelva a abrir la superposición.'
+  details: 'Esta es la pestaña de Detalles. La pestaña activa se almacena en el hash de la URL, por lo que sobrevive a las recargas de la página.'
+  settings: 'Esta es la pestaña de Configuración. Tanto la superposición (modal/panel) como la pestaña activa se restauran desde el hash de la URL.'
+  loading: 'Utiliza los botones a continuación para activar manualmente la animación de la barra de carga. Esta barra aparece en la parte superior de la superposición cuando se está enviando un formulario.'
+loading:
+  start: Iniciar
+  end: Completo
+  simulate: 'Simular (autocompletar)'

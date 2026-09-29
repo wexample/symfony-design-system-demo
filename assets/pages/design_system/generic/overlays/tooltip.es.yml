@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tooltip
+page_icon: 'ph:bold/chat-centered-text'
+intro: 'Unas pocas palabras sobre en qué está el puntero o el foco, junto a él. Hay un tooltip para la página, colocado por el diseño: cualquier elemento lo solicita con data-tooltip — tooltip() lo escribe en twig, un vue lo vincula — y aparece bajo el puntero después de un momento, bajo el foco del teclado de inmediato, y nunca bajo un dedo. Se aleja de los bordes de la ventana en lugar de dejarla.'
+section:
+  plain:
+    title: 'Sobre cualquier cosa'
+    description: 'Un botón, un ícono por sí solo, un marcador: el atributo es todo lo que se necesita. Un ícono sin palabras es donde un tooltip importa más.'
+  rich:
+    title: 'Con un título, o ligero'
+    description: 'Un encabezado sobre el texto para un tooltip que explica, y uno ligero en el propio terreno de la página donde el invertido sería demasiado ruidoso.'
+  placement:
+    title: Ubicación
+    description: 'Por encima por defecto. Si se pide un lado, lo toma cuando hay espacio y el otro lado cuando no; a lo largo de ese lado, se desliza para permanecer en la ventana, su flecha aún sobre lo que apunta.'
+button:
+  save: Guardar
+marker:
+  label: Publicado
+tip:
+  save: 'Guardar el borrador — Ctrl+S'
+  share: Compartir
+  delete: Eliminar
+  marker: 'Publicado el 2 de septiembre, visto por 128 lectores'
+  light: 'Un tooltip en el propio terreno de la página'
+  placement: Colocado
+  rich:
+    title: '¿Por qué está atenuado?'
+    text: 'La exportación espera a que termine la primera ejecución; se abre tan pronto como hay algo para exportar.'

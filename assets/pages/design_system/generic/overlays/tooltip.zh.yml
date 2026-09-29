@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 工具提示
+page_icon: 'ph:bold/chat-centered-text'
+intro: '关于指针或焦点旁边的几点说明。页面有一个工具提示，由布局放置：任何元素请求它时使用data-tooltip — tooltip()在twig中写入，vue绑定它 — 并在几秒钟后在指针下出现，键盘的焦点会立即显示，但永远不会在手指下。它会远离窗口的边缘，而不是离开。'
+section:
+  plain:
+    title: 任何事物上
+    description: 一个按钮，一个独立的图标，一个标记：只需一个属性即可。没有文字的图标是工具提示最重要的地方。
+  rich:
+    title: 带标题或轻量
+    description: 工具提示上方的标题，解释说明，页面自身基础上的轻量提示，在相反的情况下会显得过于喧闹。
+  placement:
+    title: 位置
+    description: 默认在上方。如果要求在侧面，有空间时就会放在那一侧，没有时则放在另一侧；沿着该侧滑动以保持在窗口内，箭头仍指向所指对象。
+button:
+  save: 保存
+marker:
+  label: 已发布
+tip:
+  save: '保存草稿 — Ctrl+S'
+  share: 分享
+  delete: 删除
+  marker: 已于9月2日发布，已有128位读者查看
+  light: 在页面自身基础上的工具提示
+  placement: 已放置
+  rich:
+    title: 为什么它是灰色的？
+    text: 导出在等待第一次运行结束；一旦有可导出的内容，它就会打开。

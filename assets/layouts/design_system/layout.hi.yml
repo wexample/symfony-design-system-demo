@@ -1,0 +1,8 @@
+~extends: '@front.layouts.private.layout'
+menu_design_system:
+  navigation:
+    group:
+      app:
+        title: 'ऐप घटक'
+      generic:
+        title: 'सामान्य घटक'

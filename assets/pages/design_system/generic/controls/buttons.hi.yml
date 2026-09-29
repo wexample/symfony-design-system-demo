@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: बटन
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'डिफ़ॉल्ट बटन'
+  button_states:
+    title: 'बटन की अवस्थाएँ'
+  link:
+    title: 'बटन लिंक'
+  vue:
+    title: व्यू
+    description: 'व्यू आंशिक के रूप में वही बटन और वही लिंक, एक ही आइकन और लेबल लेते हुए, एक पृष्ठ के लिए जो चलते समय अपने नियंत्रणों का निर्माण करता है।'
+button:
+  primary: 'प्राथमिक बटन'
+  success: 'सफलता बटन'
+  danger: 'खतरा बटन'
+  invert: 'इनवर्ट बटन'
+  state:
+    default: डिफ़ॉल्ट
+    loading: 'लोड हो रहा है'
+    disabled: अक्षम
+    assisted: 'सहायता की गई'
+link:
+  more: 'अधिक जानें'
+  external: 'बाहरी लिंक'

@@ -1,0 +1,11 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Código
+page_icon: 'ph:bold/code'
+intro: 'Un campo que contiene código, coloreado por su gramática. Se envía con symfony-coding y no con el sistema de diseño, del cual solo toma prestado: su marco es el de un campo, sus colores son los tokens de código del esquema, su línea actual y su selección son los matices del esquema — así que sigue la cara clara y la oscura como todo a su alrededor.'
+section:
+  server:
+    title: 'Campo del servidor'
+    description: 'Una verdadera área de texto, cubierta por el editor una vez que se ejecuta la página. El área de texto permanece como el campo — enviado con el formulario, atendido por la pila de formularios — así que el formulario funciona igual con o sin él. Selecciona a través de varias líneas, la línea del cursor entre ellas: la selección permanece visible.'
+  vue:
+    title: 'Campo de Vue'
+    description: 'El mismo editor que sostiene un modelo: v-model en la entrada y salida, el lenguaje es una prop que puede cambiar mientras el campo está abierto.'

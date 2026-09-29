@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Registro de gráficos'
+page_icon: 'ph:bold/git-fork'
+intro: 'Elementos en una línea de descendencia, el más nuevo primero, dibujados en carriles de colores: donde una línea se bifurca, donde dos se encuentran de nuevo. Cada elemento indica sus padres; los carriles los siguen. Lo que una fila muestra al lado del gráfico es libre: un título, referencias como cápsulas, quién, cuándo, un nombre corto; así que el historial de git es un uso entre otros.'
+section:
+  history:
+    title: 'Un historial'
+    description: 'Una rama de función fusionada de nuevo, otra dejada abierta, una etiqueta en un lanzamiento. Cada carril mantiene su color desde donde comienza hasta donde termina.'
+  other:
+    title: 'Algo más que git'
+    description: 'Las versiones de un documento, una de ellas revisada al lado antes de ser fusionada en la siguiente. El componente no sabe nada sobre los commits.'
+  vue:
+    title: 'En vue'
+    description: 'La misma historia en un árbol vue, los carriles dibujados nuevamente a medida que los elementos llegan a la cabeza.'
+  git:
+    title: 'El historial de esta aplicación'
+    description: "Leído del repositorio por symfony-coding's git_graph_items(), a través del lector compartido que nunca interfiere con git."
+history:
+  merge_search: 'Fusionar la rama de búsqueda'
+  search_filters: 'Agregar filtros a la búsqueda'
+  fix_header: 'Arreglar el encabezado en pantallas pequeñas'
+  try_theme: 'Probar un tema más oscuro'
+  search_index: 'Indexar los documentos'
+  release: 'Lanzamiento 2.1.0'
+  search_start: 'Iniciar la búsqueda'
+  initial: 'Primer commit'
+versions:
+  v4: 'Versión 4, con la revisión aplicada'
+  current: actual
+  review: 'Cambios del revisor'
+  review_ref: revisión
+  v3: 'Versión 3'
+  v2: 'Versión 2'
+  v1: 'Versión 1'

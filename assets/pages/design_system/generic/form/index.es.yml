@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Formas
+page_icon: 'ph:bold/textbox'
+intro: 'Un conjunto de campos, lo que hace cuando se envía y lo que dice cuando regresa. Los campos en sí están en Controles; lo que estas páginas añaden es el viaje de ida y vuelta.'
+page:
+  inputs:
+    title: Entradas
+    description: 'Cada campo que el sistema envía, y el contrato que permite a un agente tomar uno, llenarlo y devolverlo.'
+  basic:
+    title: 'Formas básicas'
+    description: 'El caso simple: un formulario renderizado por el servidor, enviado por el navegador, respondido por una página.'
+  rendered:
+    title: 'Formas avanzadas'
+    description: 'Formas construidas por el componente de formulario, con sus comportamientos de envío y el estado en el que regresan.'
+  ajax:
+    title: 'Formas Ajax'
+    description: 'Un formulario que responde sin que se abandone la página, y lo que hace con lo que regresa.'
+  vue:
+    title: 'Formas Vue'
+    description: 'Los mismos formularios impulsados por un componente, donde los campos son estado en lugar de marcado.'

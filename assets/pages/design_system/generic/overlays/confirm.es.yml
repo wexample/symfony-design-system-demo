@@ -1,0 +1,41 @@
+page_title: Confirmar
+section:
+  short:
+    description: 'Confirmar con texto corto (superposición).'
+    button: 'Abrir confirmar'
+    title: 'Por favor confirma'
+    message: '¿Quieres continuar?'
+    result_title: 'Resultado de la confirmación'
+    result_prefix: 'Resultado:'
+  toast_short:
+    description: 'Confirmar con texto corto (toast).'
+    button: 'Abrir confirmar'
+    title: 'Toast de confirmación'
+    message: '¿Continuar con el toast?'
+    result_title: 'Resultado de confirmación de toast'
+    result_prefix: 'Resultado:'
+  medium:
+    description: 'Confirmar con texto mediano (superposición).'
+    button: 'Abrir confirmar'
+    title: 'Confirmar mediano'
+  long:
+    description: 'Confirmar con texto largo (superposición).'
+    button: 'Abrir confirmar'
+    title: 'Confirmar largo'
+  toast_medium:
+    description: 'Confirmar con texto mediano (toast).'
+    button: 'Abrir confirmar'
+    title: 'Toast de confirmación mediano'
+  toast_long:
+    description: 'Confirmar con texto largo (toast).'
+    button: 'Abrir confirmar'
+    title: 'Toast de confirmación largo'
+  custom:
+    description: 'Acciones de confirmación personalizadas (apilamiento).'
+    button: 'Abrir confirmar'
+    title: 'Confirmación apilada'
+    message: '¿Abrir otra confirmación o cerrarlas todas?'
+    action:
+      new: 'Nueva confirmación'
+      close_all: 'Cerrar todas las confirmaciones'
+      cancel: Cancelar

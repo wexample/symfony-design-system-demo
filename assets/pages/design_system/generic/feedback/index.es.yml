@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Comentarios
+page_icon: 'ph:bold/megáfono'
+intro: 'Lo que la interfaz responde. Ordenado por cuánta atención del lector solicita cada uno, desde una línea que espera ser notada hasta un diálogo que no se ignorará.'
+page:
+  toasts:
+    title: Notificaciones
+    description: 'Algo sucedió y ya terminó: una nota que aparece al borde y se va por sí sola.'
+  banners:
+    title: Banners
+    description: 'Algo se mantiene en toda la página y permanece hasta que se resuelva.'
+  messages:
+    title: Mensajes
+    description: 'Una frase adjunta a lo que se trata — debajo de un campo, dentro de un bloque — en los cinco colores semánticos.'
+  markers:
+    title: Marcadores
+    description: 'Una cápsula para todo lo dicho sobre algo en una palabra — un estado, un nombre, una versión, una categoría — con el círculo para donde no hay espacio para ello, y el contador, que es la única cosa que no es uno.'
+  loaders:
+    title: Cargadores
+    description: 'Algo está sucediendo y su final no se conoce — el spinner para una máquina, los puntos para alguien a punto de hablar.'
+  progress:
+    title: Progreso
+    description: 'Lo mismo, con un final conocido: una barra impulsada por las mismas palabras que habla el progreso del cli.'
+  distribution:
+    title: Distribución
+    description: 'De qué se compone un total en lugar de qué tan lejos ha llegado: las partes de un todo en una línea, en el orden en que se presentan.'
+  errors:
+    title: Errores
+    description: 'Lo que una página muestra cuando no se puede proporcionar lo que se solicitó.'

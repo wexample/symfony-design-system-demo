@@ -1,0 +1,13 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: त्रुटियाँ
+page_icon: 'ph:bold/warning-circle'
+section:
+  trigger:
+    description: 'कैच हैंडलिंग परीक्षणों के लिए एक फ्रंटएंड त्रुटि उत्पन्न करें।'
+    button: 'त्रुटि उत्पन्न करें'
+  frontend_throw:
+    description: 'जावास्क्रिप्ट में एक अनकैच्ड फ्रंटएंड अपवाद उत्पन्न करें।'
+    button: 'त्रुटि फेंकें'
+  internet_probe:
+    description: 'इंटरनेट कनेक्टिविटी हैंडलिंग का परीक्षण करने के लिए एक बाहरी अनुरोध उत्पन्न करें।'
+    button: 'प्रोब करें'

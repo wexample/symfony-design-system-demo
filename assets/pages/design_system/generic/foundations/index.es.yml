@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Fundamentos
+page_icon: 'ph:bold/diamonds-four'
+intro: 'De lo que se gasta todo lo demás. Nada en estas páginas es un componente: son las escalas —color, espaciado, tipo y la piel que los atrae— que cada otra sección lee sin mostrarlas nunca.'
+page:
+  colors:
+    title: Colores
+    description: 'Las superficies de las que se apila una página, los niveles invertidos de los bordes y el texto atenuado se dibujan con, y las cinco familias semánticas. Ambas caras del tema, lado a lado.'
+  spacing:
+    title: Espaciado
+    description: 'Los nueve pasos de espaciado, los tamaños y el patrón de densidad —cómo una región se declara compacta y lo que eso hace a todo lo que contiene.'
+  typography:
+    title: Tipografía
+    description: 'La escala tipográfica y los pesos, luego la misma escala en acción en una página de prosa.'
+  skin:
+    title: Piel
+    description: 'Cómo se dibujan las cosas, con igual color y densidad: los radios, las sombras, los bordes y los separadores. El único eje del tema que tiene un carácter.'

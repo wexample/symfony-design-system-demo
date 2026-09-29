@@ -1,0 +1,96 @@
+field:
+  password:
+    label: Contraseña
+    help: 'Introduce tu contraseña para autenticarte.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'La contraseña no es válida para fines de prueba.'
+  emoji:
+    label: Emoji
+    help: 'Elige un emoji para representar tu estado de ánimo.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'El emoji no es válido para fines de prueba.'
+  text_simple:
+    label: Texto
+    help: 'Un campo de texto de una sola línea para contenido corto.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'El texto no es válido para fines de prueba.'
+  text_area:
+    label: 'Texto largo'
+    placeholder: 'Escribe lo que quieras...'
+    help: 'Un área de texto de varias líneas para contenido más largo.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'El texto largo no es válido para fines de prueba.'
+  number:
+    label: Número
+    help: 'Introduce un valor numérico.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'El número no es válido para fines de prueba.'
+  email:
+    label: 'Correo electrónico'
+    placeholder: tú@ejemplo.com
+    help: 'Introduce una dirección de correo electrónico válida.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'El correo electrónico no es válido para fines de prueba.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Introduce una URL completa incluyendo el protocolo.'
+    error:
+      ERR_FIELD_URL_INVALID: 'La URL no es válida para fines de prueba.'
+  date:
+    label: Fecha
+    help: 'Selecciona una fecha utilizando el selector de fechas.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'La fecha no es válida para fines de prueba.'
+  datetime:
+    label: 'Fecha y hora'
+    help: 'Selecciona una fecha y hora combinadas.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'La fecha y hora no son válidas para fines de prueba.'
+  time:
+    label: Hora
+    help: 'Selecciona una hora del día.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'La hora no es válida para fines de prueba.'
+  file:
+    label: Archivo
+    help: 'Sube uno o más archivos desde tu dispositivo.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'El archivo no es válido para fines de prueba.'
+  radio_choice:
+    label: 'Opción de radio'
+    help: 'Selecciona una opción de la lista.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'La opción de radio no es válida para fines de prueba.'
+    choice:
+      option_a:
+        label: 'Opción A'
+      option_b:
+        label: 'Opción B'
+      option_c:
+        label: 'Opción C'
+  switch:
+    label: Interruptor
+    help: 'Activa o desactiva esta opción.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'El interruptor no es válido para fines de prueba.'
+form:
+  error:
+    ERR_FORM_TEST: 'Error global para fines de prueba.'
+action:
+  button_demo: 'No hacer nada'
+  submit_default: Enviar
+  submit_error: 'Mostrar errores'
+  submit_js: 'Acción JS'
+  submit_redirect: Redirigir
+toast:
+  success:
+    title: Éxito
+    message: 'Formulario enviado con éxito.'
+  js_action:
+    title: 'Acción JS'
+    message: '¿Quieres reactivar el formulario?'
+    reactivate: Reactivar
+    dismiss: Descartar
+description: |
+  Usa este formulario para probar el comportamiento de envío. Esta demostración está en un componente Vue.

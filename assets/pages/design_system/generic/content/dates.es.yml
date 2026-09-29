@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Fechas
+page_icon: 'ph:bold/clock'
+intro: 'Un vocabulario de nombres de formato, entendido de manera idéntica por Twig, por JavaScript puro y por Vue. El servidor imprime un <time> que lleva el instante y el formato que se le pidió; el navegador lo recoge y lo reescribe a medida que envejece, así que una página dejada abierta nunca miente sobre cuánto tiempo ha pasado desde que ocurrió algo.'
+section:
+  formats:
+    title: 'Formatos nombrados'
+    description: 'Los formatos absolutos son estilos de fecha y hora de ICU, por lo que el orden de los campos y los separadores pertenecen a la localidad del lector en lugar de al template.'
+  relative:
+    title: Relativo
+    description: 'La distancia se cuenta en la unidad más grande que aún dice algo: minutos hasta una hora, horas hasta un día, luego días, semanas, meses y años. Cada redacción proviene de una clave de traducción.'
+  auto:
+    title: Automático
+    description: 'El predeterminado. Cuenta hacia atrás mientras la fecha es reciente y retrocede a una fecha del calendario después de una semana, donde "hace 27 semanas" deja de ayudar a alguien.'
+  live:
+    title: Actualizado
+    description: 'Un solo temporizador sirve para cada fecha en la página, a la cadencia que la unidad mostrada merece: unos pocos segundos para "justo ahora", una hora para "hace 3 meses". Deja esta página abierta y observa.'
+  plain:
+    title: 'Solo texto'
+    description: 'El filtro devuelve una cadena sin marcado, para un atributo de título o una exportación. Un nombre de formato que no conoce se toma como un patrón ICU en crudo, que es la salida cuando los formatos nombrados no tienen la forma que necesitas.'
+offset:
+  now: 'Hace un momento'
+  minutes: 'Cinco minutos'
+  hours: 'Tres horas'
+  days: 'Dos días'
+  months: 'Cuatro meses'
+  years: 'Tres años'
+  future: 'En dos horas'
+live:
+  server: 'Renderizado por Twig, actualizado por el servicio frontal:'
+  vue: 'Renderizado por Vue:'
+plain:
+  filter: "| date_format('date_long')"
+  pattern: '| date_format("EEEE d MMMM, ''semana'' w")'

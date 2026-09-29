@@ -1,0 +1,9 @@
+page_title: Superposiciones
+page_icon: 'ph:bold/square-half-bottom'
+section:
+  simple_overlay:
+    description: 'Mostrar una superposición simple durante 3 segundos.'
+    button: 'Mostrar superposición'
+  spinner_overlay:
+    description: 'Mostrar una superposición con un spinner de carga durante 3 segundos.'
+    button: 'Mostrar superposición'

@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: सूचियाँ
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: डिफ़ॉल्ट
+  empty:
+    title: 'खाली स्थिति'
+search:
+  placeholder: 'सूची को फ़िल्टर करें...'
+header:
+  filter: फ़िल्टर
+item:
+  postgres:
+    title: पोस्टग्रेएसक्यूएल
+    body: 'लेनदेन कार्यभार के लिए प्रबंधित SQL कनेक्शन'
+  s3:
+    title: 'अमेज़न S3'
+    body: 'आयात और निर्यात के लिए वस्तु भंडारण कनेक्टर'
+  webhook:
+    title: वेबहुक
+    body: 'बाहरी प्रणालियों से घटनाओं को ट्रिगर और प्राप्त करें'
+  redis:
+    title: रेडिस
+    body: 'इन-मेमोरी कैश और पब/सब संदेश भेजना'
+  mongo:
+    title: मोंगोDB
+    body: 'लचीले स्कीमा कार्यभार के लिए दस्तावेज़ भंडार'

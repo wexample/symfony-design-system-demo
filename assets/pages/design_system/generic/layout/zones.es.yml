@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Zonas
+page_icon: 'ph:bold/columns'
+intro: 'El espacio de trabajo de dos paneles en el que se basa cada explorador, editor y vista de detalles. Una zona no tiene ancho ni alto propios: el espacio dividido en el que se encuentra es lo que le da tamaño, y cada lado se desplaza por separado. Dos zonas son dos objetos dispuestos en la página, no un panel cortado por la mitad; lo que las distingue es el espacio entre ellas, y `zone--panel` es el suelo sobre el que se sostiene cada una.'
+section:
+  split:
+    title: 'Una división'
+    description: 'Una columna con tamaño, la otra tomando lo que queda. El tamaño se determina por un paso, y es propio de la zona; no es heredado de nada anidado dentro de ella.'
+  scrollable:
+    title: 'Cada lado se desplaza por separado'
+    description: 'Una zona desplazable es la que contiene el desbordamiento, no la página. Desplaza uno de estos dos y el otro se queda donde está, que es toda la razón de la forma.'
+  vertical:
+    title: 'Un encabezado que no se desplaza'
+    description: 'Una división convertida en vertical: una zona estrecha tiene la altura de lo que contiene, el cuerpo toma el resto y se desplaza por debajo. Esta es la disposición de un panel con una barra de herramientas en la parte superior.'
+  wrap:
+    title: 'Debajo de un suelo'
+    description: 'Dado un suelo, la zona flexible reclama una línea completa y la columna dimensionada se mueve por encima en lugar de ser comprimida a nada. Reduce la ventana para verlo plegarse.'
+split:
+  body: 'Este lado toma lo que la columna dimensionada deja.'
+scrollable:
+  item: Elemento
+  line: Línea
+vertical:
+  action: Crear
+wrap:
+  body: 'Debajo del suelo que se le da a esta zona, toma una línea propia.'

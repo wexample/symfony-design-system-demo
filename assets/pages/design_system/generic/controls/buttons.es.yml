@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Botones
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'Botones predeterminados'
+  button_states:
+    title: 'Estados del botón'
+  link:
+    title: 'Enlaces de botones'
+  vue:
+    title: Vue
+    description: 'El mismo botón y el mismo enlace que los parciales de vue, tomando el mismo ícono y etiqueta, para una página que construye sus controles mientras se ejecuta.'
+button:
+  primary: 'Botón primario'
+  success: 'Botón de éxito'
+  danger: 'Botón de peligro'
+  invert: 'Botón invertir'
+  state:
+    default: Predeterminado
+    loading: Cargando
+    disabled: Deshabilitado
+    assisted: Asistido
+link:
+  more: 'Aprende más'
+  external: 'Enlace externo'

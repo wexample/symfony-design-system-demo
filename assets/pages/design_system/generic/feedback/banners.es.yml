@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Banners
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'El mismo banner en línea como un parcial de vue, tomando el mismo tipo y mensaje; el contenedor que llena el servicio de banner es un archivo diferente.'
+  banners:
+    neutral: 'Este es un mensaje de banner neutral.'
+    info: 'Este es un mensaje de banner informativo.'
+    warning: 'Este es un mensaje de banner de advertencia.'
+    error: 'Este es un mensaje de banner de error.'
+    success: 'Este es un mensaje de banner de éxito.'
+  layout_banner:
+    description: 'Los banners se utilizan principalmente a nivel de diseño para mostrar mensajes importantes sobre la actividad de fondo como el estado de la conexión a Internet.'
+    button: 'Mostrar banner'
+    messages:
+      info: 'Mensaje informativo del banner de diseño.'
+      success: 'Mensaje de éxito del banner de diseño.'
+      warning: 'Mensaje de advertencia del banner de diseño.'
+      error: 'Mensaje de error del banner de diseño.'

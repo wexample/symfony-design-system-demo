@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Archivos
+page_icon: 'ph:bold/folder-open'
+intro: 'Un explorador de archivos del ancho de una página. No sabe de dónde vienen los archivos: solicita el contenido de una carpeta y recibe entidades de archivo — el mismo cargador que utiliza un árbol — por lo que un disco, un índice, un archivo o una API se leen de la misma manera.'
+root: Archivos
+section:
+  vue:
+    title: 'El explorador'
+    description: 'Carpetas a un lado, el contenido de la carpeta como una lista ordenada por cualquier columna o como una cuadrícula; atrás, adelante y arriba; un filtro; selección con el ratón — ctrl, shift — y el teclado — flechas, Enter, Retroceso, ctrl+A, Escape; se pide más cuando una carpeta tiene más de una página. Doble clic entra en una carpeta y entrega un archivo a la página. La vista y el orden se recuerdan.'
+  twig:
+    title: 'Dibujado por el servidor'
+    description: 'Una carpeta, como una lista o una cuadrícula, cada elemento un enlace: una carpeta a la misma página abierta en ella — aquí a través de ?folder= — un archivo a donde la página lo envíe.'

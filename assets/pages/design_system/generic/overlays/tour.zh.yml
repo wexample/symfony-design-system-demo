@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 导览
+page_icon: 'ph:bold/signpost'
+intro: 页面的引导式导览：一步一步，相关元素在暗淡的页面中高亮，旁边有一张卡片，展示前进和退出的方式。对于尚未完成或关闭导览的访客，它会自动开始——他们的操作会被记录，并且不会再次出现——任何携带数据-tour-start的元素会再次播放它。键盘的箭头可以在其中移动，Escape键可以退出。
+start: 开始导览
+status:
+  none: 您还没有观看过此导览——它会自动开始。
+  completed: 您已经完成了此导览；它不会再次自动开始。
+  dismissed: 您在导览结束前关闭了它；它不会再次自动开始。
+area:
+  filters:
+    title: 过滤器
+    body: 列表所显示的内容。
+  list:
+    title: 列表
+    body: 存在的内容。
+  export:
+    title: 导出
+    body: 离开页面的内容。
+step:
+  welcome:
+    title: 欢迎
+    body: 此页面的简短导览。使用键盘的箭头，或下面的按钮。
+  filters:
+    title: 缩小范围
+    body: 过滤器决定列表显示的内容；它们会保留在地址中。
+  list:
+    title: 存在的内容
+    body: 每一行在列表旁边打开其详细信息。
+  export:
+    title: 带走它
+    body: 导出包含过滤器所保留的内容，其他内容不包括。

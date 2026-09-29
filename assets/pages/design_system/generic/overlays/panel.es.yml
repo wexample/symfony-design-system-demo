@@ -1,0 +1,28 @@
+page_title: Panel
+page_icon: 'ph:bold/sidebar-simple-duotone'
+section:
+  persist:
+    description: 'Panel con pestañas. Ábrelo, cambia de pestañas, presiona F5 — el panel se reabre en la misma pestaña.'
+    button: 'Abrir panel'
+  simple:
+    description: 'Mostrar un panel simple. Puedes cerrarlo con Escape o haciendo clic fuera del panel.'
+    button: 'Abrir panel'
+  components:
+    description: 'Mostrar un panel con componentes y un disparador de toast. Escape está deshabilitado, pero aún puedes hacer clic fuera para cerrarlo.'
+    button: 'Abrir panel'
+  medium:
+    description: 'Mostrar un panel con texto de longitud media. Hacer clic fuera no lo cerrará.'
+    button: 'Abrir panel'
+  long:
+    description: 'Mostrar un panel con texto largo. Pide confirmación antes de cerrar.'
+    button: 'Abrir panel'
+  form_rendered:
+    description: 'Mostrar un formulario de demostración renderizado dentro de un panel. Escape y clic fuera están deshabilitados, y pide confirmación antes de cerrar si se ha modificado el formulario.'
+    button: 'Abrir panel'
+  form_ajax:
+    description: 'Mostrar un formulario de demostración renderizado dentro de un panel usando AJAX. Escape y clic fuera están deshabilitados, y pide confirmación antes de cerrar si se ha modificado el formulario.'
+    button: 'Abrir panel'
+  recursive:
+    description: 'Abrir una página de diálogo dentro de otro diálogo — elegir modal o panel.'
+    button_modal: 'Abrir en modal'
+    button_panel: 'Abrir en panel'

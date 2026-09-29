@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Cinco columnas'
+page_icon: 'ph:bold/arrows-horizontal'
+intro: 'Cinco regiones en fila más anchas que la pantalla, se leen desplazándose hacia los lados. La navegación a la izquierda no es una de ellas: es una región de la página y se queda donde está.'
+section:
+  scroll:
+    title: 'La fila se desplaza, la página no'
+    description: '`zone--split--scroll` pone el desbordamiento en la fila: las columnas mantienen el ancho que nombran y el desbordamiento se desplaza por debajo de ellas. Cada una todavía mantiene su propio desbordamiento vertical, por lo que una columna larga se desplaza donde se encuentra.'
+  width:
+    title: 'Cada columna nombra su ancho'
+    description: 'Nada toma lo que queda aquí, ya que no hay ninguno: la fila es más larga que la página a propósito. Una región que no nombra un tamaño vuelve a una columna lo suficientemente ancha para contener algo, y estas nombran las suyas — 24rem cada una, cinco de ellas.'
+  fold:
+    title: 'Plegando una región'
+    description: 'Cada columna aquí es un `zone-collapsible`. Plegada, no desaparece: mantiene su lugar en la fila y su base, y su barra se gira de lado — así que el botón que la plegó es el botón que la abre, y nada afuera tiene que saber que existe.'
+    more: 'Nombrada, una región se recuerda: el estado se escribe en el estado de la interfaz bajo su nombre y se lee de nuevo cuando se sirve la página, así que llega plegada en lugar de plegarse ante tus ojos. La tercera columna se abre plegada, y la última se renderiza por un vue — mismo componente, mismas clases, misma clave.'
+column:
+  first: Léeme
+  second: Pendiente
+  third: 'En progreso'
+  fourth: Revisión
+  fifth: Hecho
+card:
+  second: Ticket
+  third: Ticket
+  fourth: Ticket
+  fifth: Ticket
+  body: 'Lo que una columna contiene no es asunto de la fila: se desplaza por su cuenta, bajo una barra que permanece.'

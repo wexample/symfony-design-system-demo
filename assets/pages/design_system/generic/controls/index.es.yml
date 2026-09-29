@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Controles
+page_icon: 'ph:bold/cursor-click'
+intro: 'Lo que un lector actúa a través de. Cada uno de estos toma una acción en lugar de un valor: un campo de formulario toma el valor y vive en la siguiente sección.'
+page:
+  buttons:
+    title: Botones
+    description: 'El que hace algo, en sus variantes, sus estados y sus densidades, además del enlace y el objetivo que se abren en otro lugar.'
+  menus:
+    title: Menús
+    description: 'Un botón que abre una lista de opciones, colocándose contra los bordes de la ventana, en twig y en vue.'
+  steppers:
+    title: Pasos
+    description: 'Dónde se encuentra un lector en una secuencia de pasos, con los que están detrás para volver.'
+section:
+  compound:
+    title: 'Todo junto'
+    description: 'El mismo conjunto de controles en tres contextos: un bloque acolchado, una barra de herramientas y una barra de herramientas compacta. Nada sobre los controles cambia entre los tres: la región es lo que les dice cuánto espacio tienen.'
+button:
+  primary: 'Botón primario'
+select:
+  option_one: 'Opción uno'
+  option_two: 'Opción dos'
+  option_three: 'Opción tres'
+menu:
+  primary: 'Botón de menú'
+  item:
+    report: Informe
+    settings: Configuraciones
+    logout: 'Cerrar sesión'
+    long: 'Con un título bastante, bastante, bastante, bastante largo'
+switch:
+  label_right: 'Habilitar característica'
+link:
+  external: 'Enlace externo'

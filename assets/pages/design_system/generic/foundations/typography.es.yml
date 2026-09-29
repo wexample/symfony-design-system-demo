@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tipografía
+page_icon: 'ph:bold/text-aa'
+intro: 'La escala es una decisión de densidad y las caras son una de fuentes: esta página muestra cómo se lee una forma, no lo que vale hoy. Cambia el eje de fuentes en el panel de depuración y todo lo que está abajo se establece en otra cara sin cambiar ninguna regla.'
+section:
+  families:
+    title: Familias
+    description: 'Tres, porque eso es lo que una página distingue: en qué está escrito, en qué está titulado y qué se entiende como escrito en lugar de dicho. Un conjunto puede dar la misma cara a los tres — el sistema lo hace.'
+  weights:
+    title: Pesos
+    description: 'Nombrados por cuánto insisten, nunca por número. Una cara cuyo 500 no existe se asigna a lo que tiene, y las formas que piden un medio siguen pidiendo un medio.'
+  typography:
+    title: 'Escala tipográfica'
+title:
+  h1:
+    title: 'Sistema de Diseño — Componentes básicos para grandes interfaces'
+    description: 'Usado una vez por página. Establece el contexto principal. Emparejado con un breve párrafo introductorio.'
+  h2:
+    title: 'La tipografía establece jerarquía y ritmo'
+    description: 'Encabezado de nivel de sección. Agrupa contenido relacionado. Usualmente seguido por texto de cuerpo o subsecciones.'
+  h3:
+    title: 'El espaciado y la proporción moldean la legibilidad'
+    description: 'Encabezado de subsección. Introduce un tema enfocado dentro de una sección.'
+  h4:
+    title: 'El color y el contraste guían la vista'
+    description: 'Usado para títulos de tarjetas, secciones de barra lateral o agrupaciones menores.'
+  h5:
+    title: 'Los estados interactivos deben ser obvios'
+    description: 'Etiquetas, encabezados de metadatos, pequeñas agrupaciones. Sutil pero distinto del texto de cuerpo.'
+  h6:
+    title: 'La accesibilidad es una característica, no un pensamiento posterior'
+    description: 'El nivel de encabezado más pequeño. Usar con moderación — para notas al pie, bloques legales o etiquetas auxiliares.'
+sample: 'El rápido zorro marrón salta sobre el perro perezoso — 0123456789'

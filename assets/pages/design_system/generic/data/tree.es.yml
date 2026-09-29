@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Árbol
+page_icon: 'ph:bold/estructura-de-arbol'
+section:
+  default:
+    title: 'Explorador de archivos'
+    description: 'La anidación es toda la estructura: un ítem se abre cuando lleva abierto, y su profundidad es lo que sangra la fila mientras el resaltado aún abarca todo el ancho.'
+  vue:
+    title: Vue
+    description: 'El mismo marcado, la misma forma, pero las carpetas se abren y cierran: el chevron es lo que pliega un nodo, y un clic en cualquier otro lugar de la fila selecciona el ítem y lo envía como un evento de selección.'
+  vue_workspace:
+    title: 'Vue, en un espacio de trabajo'
+    description: 'El explorador como una app se envía así: el árbol de vue en la zona desplazable de un dividido, manteniendo más filas de las que la zona es alta y nombres más largos de lo que es ancho. La zona se desplaza en ambos ejes y la barra horizontal permanece en su suelo, sea cual sea la última fila.'
+  plain:
+    title: 'Sin íconos'
+    description: 'La forma no sabe nada sobre archivos: un ítem sin ícono y sin enlace se renderiza como texto plano.'
+explorer:
+  scope:
+    project: Proyecto
+    packages: Paquetes
+    scratches: Borradores
+    changed: 'Archivos cambiados'
+  option:
+    filters: Filtros
+    sort: 'Ordenar por nombre'
+    hidden: 'Mostrar archivos ocultos'
+  action:
+    new: 'Nuevo archivo'
+    locate: 'Seleccionar archivo abierto'
+    collapse: 'Colapsar todo'
+  body: 'El árbol no tiene ancho ni alto propio: la zona a su lado es una ordinaria, y cada lado se desplaza por separado.'
+plain:
+  root: Raíz
+  child: 'Primer hijo'
+  sibling: 'Segundo hijo'

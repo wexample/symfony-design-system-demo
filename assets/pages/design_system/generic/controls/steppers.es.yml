@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Pasos
+page_icon: 'ph:bold/steps'
+intro: 'Donde un lector está en una secuencia — un túnel, un formulario en varias partes. Los pasos detrás están dibujados de forma sólida y se puede volver a ellos cuando se les da una dirección; el que se está realizando destaca; los que están por delante esperan, discretos.'
+section:
+  labelled:
+    title: 'Numerados y nombrados'
+    description: 'El caso común: un número para contar, una palabra para saber qué pide. Los dos pasos ya caminados se enlazan de nuevo.'
+  numbers:
+    title: 'Números solos'
+    description: 'Donde los pasos no tienen nombres que valgan la pena leer, o el ancho no tiene espacio para ellos.'
+  words:
+    title: 'Palabras solas'
+    description: 'Sin los números, cuando el orden es obvio a partir de las palabras.'
+  ends:
+    title: 'Primero y último'
+    description: 'Nada caminado aún, luego todo caminado menos el paso que se está realizando.'
+  unknown:
+    title: 'Pasos no decididos aún'
+    description: 'Donde los caminos se separan, lo que está por delante depende de una respuesta no dada aún. El paso que representa eso no toma número y no mueve a los demás: el último paso aquí es el tercero, no el cuarto.'
+  compact:
+    title: 'Compacto, y puntos'
+    description: 'Para el encabezado de un modal o un panel, donde hay poco espacio: compacto mantiene los números y nombra solo el paso que se está realizando; los puntos dibujan un punto por paso y no nombran ninguno en la pantalla, los nombres quedan para quien lea la página en voz alta. Justo debajo del encabezado de un modal o un panel, un stepper ocupa el lugar de la barra de carga.'
+  toolbar:
+    title: 'En una barra de herramientas'
+    description: 'Colocado en una barra sobre una página, ocupa el espacio que la barra le da.'
+  vue:
+    title: 'En vue'
+    description: 'El mismo stepper en un árbol vue. Los pasos sin dirección pueden convertirse en botones: una secuencia mantenida por la página avanza con el `select` que emite en lugar de con una nueva dirección.'
+step:
+  account: Cuenta
+  address: Dirección
+  payment: Pago
+  confirm: Confirmación
+  choice: 'Tu plan'

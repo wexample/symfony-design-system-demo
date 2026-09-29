@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: कमरा
+    placeholder: 'एक कमरे की खोज करें...'
+    help: 'रिकॉर्ड का चयन करें। फॉर्म में जो है वह इसका आईडी है।'
+  password:
+    label: पासवर्ड
+    help: 'प्रमाणित करने के लिए अपना पासवर्ड दर्ज करें।'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'परीक्षण के उद्देश्य के लिए पासवर्ड अमान्य है।'
+  emoji:
+    label: इमोजी
+    help: 'अपने मूड का प्रतिनिधित्व करने के लिए एक इमोजी चुनें।'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'परीक्षण के उद्देश्य के लिए इमोजी अमान्य है।'
+  text_simple:
+    label: पाठ
+    help: 'संक्षिप्त सामग्री के लिए एक-लाइन पाठ इनपुट।'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'परीक्षण के उद्देश्य के लिए पाठ अमान्य है।'
+  text_area:
+    label: 'लंबा पाठ'
+    placeholder: 'आप जो चाहें टाइप करें...'
+    help: 'लंबी सामग्री के लिए एक मल्टी-लाइन टेक्स्ट क्षेत्र।'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'लंबा पाठ परीक्षण के उद्देश्य के लिए अमान्य है।'
+  behavior:
+    label: व्यवहार
+    help: 'सबमिशन के बाद फॉर्म कैसे प्रतिक्रिया करता है, चुनें।'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'व्यवहार चयन परीक्षण के लिए अमान्य है।'
+    choice:
+      error:
+        label: 'त्रुटियाँ दिखाएँ'
+        description: 'एंबेड को बंद करता है (या पृष्ठ में कुछ नहीं करता)।'
+      js:
+        label: 'JS क्रिया (टोस्ट)'
+        description: 'प्रमाणन त्रुटियाँ लौटाता है।'
+      redirect:
+        label: रीडायरेक्ट
+        description: 'सबमिट किए बिना टोस्ट को ट्रिगर करता है।'
+      default:
+        label: डिफ़ॉल्ट
+        description: 'पूर्ण पृष्ठ पर नेविगेट करता है, या मोडल को बंद करता है।'
+      embed_stay:
+        label: 'एंबेड खुला रखें (मोडल / पैनल)'
+        description: 'मोडल/पैनल में खुला रहता है।'
+      embed_redirect:
+        label: 'एंबेड में रीडायरेक्ट (मोडल / पैनल)'
+        description: 'मोडल/पैनल के अंदर नेविगेट करता है।'
+  date:
+    label: तारीख
+    help: 'तारीख पिकर का उपयोग करके एक तारीख चुनें।'
+    error:
+      ERR_FIELD_DATE_INVALID: 'तारीख परीक्षण के उद्देश्य के लिए अमान्य है।'
+  datetime:
+    label: 'तारीख और समय'
+    help: 'एक सम्मिलित तारीख और समय चुनें।'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'तारीख और समय परीक्षण के उद्देश्य के लिए अमान्य है।'
+  time:
+    label: समय
+    help: 'दिन का समय चुनें।'
+    error:
+      ERR_FIELD_TIME_INVALID: 'समय परीक्षण के उद्देश्य के लिए अमान्य है।'
+  file:
+    label: फ़ाइल
+    help: 'अपने डिवाइस से एक या अधिक फ़ाइलें अपलोड करें।'
+    error:
+      ERR_FIELD_FILE_INVALID: 'फ़ाइल परीक्षण के उद्देश्य के लिए अमान्य है।'
+  email:
+    label: ईमेल
+    placeholder: you@example.com
+    help: 'एक वैध ईमेल पता दर्ज करें।'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'ईमेल परीक्षण के उद्देश्य के लिए अमान्य है।'
+  number:
+    label: संख्या
+    help: 'एक संख्यात्मक मान दर्ज करें।'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'संख्या परीक्षण के उद्देश्य के लिए अमान्य है।'
+  url:
+    label: यूआरएल
+    placeholder: 'https://'
+    help: 'प्रोटोकॉल सहित पूरा यूआरएल दर्ज करें।'
+    error:
+      ERR_FIELD_URL_INVALID: 'यूआरएल परीक्षण के उद्देश्य के लिए अमान्य है।'
+  switch:
+    label: स्विच
+    help: 'इस विकल्प को चालू या बंद करें।'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'स्विच परीक्षण के उद्देश्य के लिए अमान्य है।'
+  radio_choice:
+    label: 'रेडियो विकल्प'
+    help: 'सूची से एक विकल्प चुनें।'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'रेडियो विकल्प परीक्षण के उद्देश्य के लिए अमान्य है।'
+    choice:
+      option_a:
+        label: 'विकल्प A'
+      option_b:
+        label: 'विकल्प B'
+      option_c:
+        label: 'विकल्प C'
+action:
+  button_demo: 'कुछ नहीं करें'
+  submit_default: 'जमा करें'
+  submit_error: 'त्रुटियाँ दिखाएँ'
+  submit_js: 'JS क्रिया'
+  submit_redirect: रीडायरेक्ट
+  submit_embed_stay: 'एंबेड खुला रखें'
+  submit_embed_redirect: 'एंबेड में रीडायरेक्ट'
+error:
+  ERR_FORM_TEST:
+    message: 'परीक्षण के उद्देश्य के लिए वैश्विक त्रुटि।'
+description: |
+  इस फॉर्म का उपयोग सबमिशन व्यवहारों का परीक्षण करने के लिए करें। यह डेमो पृष्ठ, एजेएक्स, और मोडल संदर्भों में उपलब्ध है। नीचे एक व्यवहार चुनें और सबमिट करें:
+toast:
+  success:
+    title: सफलता
+    message: 'फॉर्म सफलतापूर्वक जमा किया गया।'
+  js_action:
+    title: 'JS क्रिया'
+    message: 'क्या आप फॉर्म को फिर से सक्रिय करना चाहते हैं?'
+    reactivate: 'फिर से सक्रिय करें'
+    dismiss: 'अस्वीकृत करें'

@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bares
+page_icon: 'ph:bold/rows'
+intro: 'Un bare nombra una cosa en una sola línea: lo que es, cómo se llama, qué lo califica y lo que pertenece al final. Es una forma, no un vínculo: una entidad llega a ella a través de su propia plantilla, pero un resultado de búsqueda que es un archivo, una aplicación o una configuración utiliza la misma marca.'
+finding:
+  fix: Arreglar
+  date: 'Establecer una fecha'
+  error:
+    title: 'Sección obligatoria “Propósito” faltante'
+    subtitle: 01-PROCESOS/PR-004-control-de-documentos.md
+  warning:
+    title: 'La fecha de revisión está en el pasado'
+    subtitle: '01-PROCESOS/PR-004-control-de-documentos.md:4'
+  info:
+    title: 'Campo de propietario dejado vacío'
+    subtitle: 'No bloquea para un borrador, requerido antes de la revisión'
+section:
+  findings:
+    title: Hallazgos
+    description: 'Lo que un análisis informa, un bare cada uno: el hallazgo como título, dónde está como subtítulo, y qué se puede hacer al respecto en el espacio final — nada allí cuando no se puede hacer nada aquí. La gravedad es el tono del bloque, que el avatar en la cabeza también toma.'
+  alone:
+    title: 'El bare en sí mismo'
+    description: 'Todo menos el título es opcional. El espacio principal toma un ícono, o cualquier marca cuando se necesita un avatar real; el espacio final toma una fecha, una etiqueta, una fila de botones. Dado un enlace, todo el ancho se convierte en el objetivo y el título mantiene el color de donde se encuentra.'
+  search:
+    title: 'Una lista de resultados'
+    description: 'La lista trae el marco, el campo de búsqueda y los separadores; cada fila trae un bare. Nada aquí es una entidad — ese es el punto: la misma fila sirve a una persona, un documento, una aplicación y una preferencia.'
+  surfaces:
+    title: 'Una superficie cada una'
+    description: 'La otra lectura de una lista — sin fondo compartido y sin línea, cada bare de pie en su propio bloque con espacio alrededor. Nada nuevo para estilizar, el bare simplemente toma las clases del bloque, y dado un enlace, toda la tarjeta se convierte en el objetivo.'
+  divided:
+    title: 'Una lista desnuda'
+    description: 'Cuando el marco ya está allí, una pila vertical con divisores es suficiente — sin forma propia, solo una línea entre dos filas.'
+  vue:
+    title: 'Una lista de ellos, en Vue'
+    description: 'Las mismas filas leídas desde un punto final en lugar de escritas: la lista contiene la página, la paginación y el estado vacío, y cada entidad dice qué leer sobre ella — un título, qué la califica, un ícono, a dónde lleva, una fecha al final. Las lecturas anteriores son sus variantes, `dividida` luego `superficies`.'
+  keeping_up:
+    title: 'Y mantenida actualizada'
+    description: 'Una lista de bares es una colección como cualquier otra, así que las tres formas en que una colección escucha que el mundo ha avanzado están abiertas a ella: un evento de la aplicación, una fuente en vivo, sondeo. Esta escucha un evento — suena y observa cómo vuelven las filas. Ver Mantenerse al día para los tres juntos.'
+sample:
+  minimal:
+    title: 'Un título por sí solo'
+  icon:
+    title: 'Con un ícono principal'
+  subtitle:
+    title: 'Maya Lindqvist'
+    subtitle: maya@example.com
+  trailing:
+    title: 'Informes trimestrales'
+    subtitle: '14 documentos'
+  link:
+    title: 'Un bare que es un enlace'
+    subtitle: 'Todo el ancho es el objetivo'
+search:
+  placeholder: 'Buscar todo'
+  value: informe
+  filter: Filtrar
+result:
+  user:
+    title: 'Maya Lindqvist'
+    subtitle: 'Persona · Equipo de producto'
+  file:
+    title: 'Informe trimestral Q3.pdf'
+    subtitle: 'Documento · 2.4 MB'
+  app:
+    title: Informes
+    subtitle: 'Aplicación · Instalado'
+  setting:
+    title: 'Retención de informes'
+    subtitle: 'Configuración · Almacenamiento'
+member:
+  maya:
+    title: 'Maya Lindqvist'
+    subtitle: Propietario
+  sam:
+    title: 'Sam Okonkwo'
+    subtitle: Editor
+  robot:
+    title: 'Importación nocturna'
+    subtitle: 'Cuenta de servicio'

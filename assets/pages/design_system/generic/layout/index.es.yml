@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Diseño
+page_icon: 'ph:bold/layout'
+intro: 'Cómo se divide una página. Estas formas ocupan regiones en lugar de contenido: indican dónde están las cosas y no saben nada de lo que hay allí.'
+page:
+  zones:
+    title: Zonas
+    description: 'El espacio de trabajo de dos paneles: un dividido, una columna de tamaño definido, un cuerpo desplazable. En lo que se basa cada explorador, editor y vista de detalle en una aplicación.'
+  workspace:
+    title: 'Espacio de trabajo'
+    description: 'Páginas compuestas de regiones dispuestas lado a lado, diferenciadas por el espacio entre ellas y nada más. Tres disposiciones, entre las que se puede mover a través del árbol que se encuentra en cada una de ellas.'
+  blocks:
+    title: Bloques
+    description: 'La superficie sobre la que se asienta un grupo de cosas, acolchada o no, con sus variantes de tarjeta y figura.'
+  toolbar:
+    title: 'Barra de herramientas'
+    description: 'Una línea de acciones por encima o por debajo de lo que actúan, en sus densidades amplias y compactas.'
+  tabs:
+    title: Pestañas
+    description: 'Una página mostrando una de varias caras, con los paneles que siguen la elección.'
+  doc:
+    title: 'Diseño de documento'
+    description: 'El patrón de documentación de dos columnas —prosa de un lado, código del otro— que se pliega a una columna cuando no hay espacio.'

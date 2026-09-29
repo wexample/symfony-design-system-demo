@@ -1,0 +1,59 @@
+page_title: Marcadores
+page_icon: 'ph:bold/seal-check'
+intro: 'Una cápsula para todo lo dicho sobre algo en una palabra: un estado, un nombre, una versión, una categoría. Eran dos objetos hasta el día en que un código y un estado estuvieron uno al lado del otro en un encabezado, a un cabezal de distancia, y nadie pudo decir qué significaba la diferencia — así que la forma es una y el tono es todo lo que los distingue. Lo que lleva es libre: una palabra, una figura, un glifo, o dos de los tres. El círculo está donde no hay espacio para una cápsula, y el contador, que cuelga de una fila y se dimensiona en el texto del que cuelga, es lo único aquí que no es un marcador.'
+section:
+  inline:
+    title: 'En medio de una oración'
+    description: 'Una palabra destacada tal como se lee: una versión, una fase, una categoría. El tono neutro, porque un marcador que llega coloreado ya ha hecho una afirmación sobre lo que marca — y en una oración no hay nada que afirmar.'
+  palette:
+    title: 'Las categorías'
+    description: 'Tonos que distinguen cosas sin clasificarlas. No llevan significado — nada dice que el tercero sea mejor que el quinto — lo que es exactamente lo que los hace utilizables para una taxonomía, donde el significado sería una mentira. Usados exactamente como un estado: misma cápsula, mismo ritmo.'
+  against:
+    title: 'Un contador al lado de un marcador'
+    description: 'La única distinción que queda, y no se trata de significado. A la izquierda un contador: doce de algo, colgando de la fila que lleva a él y dimensionado en el texto de esa fila. A la derecha un marcador: doce de algo que fue bien, de pie por sí mismo y dimensionado en tokens. Un conteo al lado de un elemento de menú es un contador; la misma figura en una columna de pipeline es un marcador.'
+  words:
+    title: 'Un estado en palabras'
+    description: 'Anunciado en una oración o al lado de un título, donde es el mensaje en lugar de una marca en una columna.'
+  figures:
+    title: 'Un estado leído por docenas'
+    description: 'En una columna, una marca al lado de un conteo neutro se lee como dos objetos y una tabla de ellos se lee como ruido. Aquí el color encierra la figura y la columna se escanea en una sola pasada — compacto, ya que una celda no tiene espacio que sobrar.'
+  payload:
+    title: 'Lo que lleva'
+    description: 'Una palabra para lo que es el estado, una figura para cuántos hay, ambos, o ninguno. La figura siempre se dibuja un paso atrás del resto: califica el estado, no es el estado.'
+  weights:
+    title: 'Las tres formas lado a lado'
+    description: 'La misma información en el lugar donde realmente se lee. El círculo es la forma para una celda demasiado estrecha para una cápsula, y la única que puede mostrar un estado siendo una cantidad — y se dibuja con el mismo color que la cápsula llena.'
+  circles:
+    title: Círculos
+    description: 'Un estado contado por un círculo en lugar de por una palabra, para un lugar donde los estados se leen por docenas — una lista de ejecuciones, una fila de trabajos. El anillo lleva el color, el glifo dentro dice qué estado es, y ambos lados de la pila dibujan la misma marca.'
+  progress:
+    title: 'Un estado que es una cantidad'
+    description: 'Una ejecución es el único estado con un monto, así que su anillo se dibuja hasta donde ha llegado la ejecución. Twig imprime el valor que se le da; moverlo después es asunto del navegador.'
+  sizes:
+    title: 'Tamaños de círculo'
+  vue:
+    title: Vue
+    description: 'El mismo componente, impulsado: cambiar el tipo o el valor mueve el arco en lugar de redibujar. Este es el que una aplicación coloca cuando el estado va a cambiar ante los ojos del lector.'
+  code:
+    title: Uso
+state:
+  success: 'Operación exitosa'
+  error: 'Ocurrió un error'
+  warning: 'Proceda con precaución'
+  info: 'Para su información'
+  passed: Aprobado
+weights:
+  column:
+    form: Forma
+  row:
+    capsule: Cápsula
+    circle: Círculo
+example:
+  sentence:
+    released: 'La versión 2.4 es'
+    deprecated: 'Esta API es'
+marker:
+  neutral: Neutro
+  released: Liberado
+  deprecated: Obsoleto
+  tag: Categoría

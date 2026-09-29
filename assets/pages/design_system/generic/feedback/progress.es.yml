@@ -1,0 +1,31 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Progreso
+page_icon: 'ph:bold/gauge'
+intro: 'Qué tan lejos ha llegado algo, expresado como una proporción entre 0 y 1 en una propiedad personalizada; de la misma manera que el círculo de estado lleva su arco, así ambos lados de la pila llenan la barra con una declaración. Twig imprime el valor que se le da; moverlo después es cosa del navegador.'
+section:
+  default:
+    title: Estados
+    description: 'El valor es un conteo o una parte expresada como un porcentaje, y nunca responde fuera de sus límites. El color es el feedback, así que una barra dice cómo terminó su trabajo en el mismo lenguaje que un mensaje o un estado.'
+  plain:
+    title: 'Sin un total'
+    description: 'Cien es lo que cuenta una barra cuando nadie dice lo contrario, lo que hace que un porcentaje sea lo único que puede darle. Un total propio es para trabajos contados en cosas en lugar de en partes.'
+  indeterminate:
+    title: 'Un fin que no se conoce'
+    description: 'Trabajo en curso cuyo tamaño nadie conoce: la barra se desplaza y no dice ningún número. Reclamar una parte aquí sería una suposición disfrazada de medición.'
+  compact:
+    title: Compacto
+    description: 'Reducido a lo que tiene que decir, para una línea de estado o un pie de página: una pista más delgada, la redacción al lado en lugar de arriba, y la densidad transmitida a lo que lo acompaña.'
+  vue:
+    title: 'Vue, impulsado'
+    description: 'La misma barra, con el vocabulario que ya habla el progreso de cli — actualizar, avanzar, terminar, reiniciar. Un paso sin nada dicho al respecto vale una unidad, que es lo que se llama donde ni la unidad ni el total significan nada.'
+bar:
+  queued: 'En cola'
+  working: 'Construyendo activos'
+  almost: Subiendo
+  done: Desplegado
+  failed: 'La migración falló'
+  counted: 'Archivos leídos'
+  unknown: 'Buscando algo'
+  indexing: Indexando
+compact:
+  app: acme-blog

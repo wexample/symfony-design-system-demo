@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Ancho fijo'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: 'Las mismas tres regiones, pero la que estás leyendo tiene un ancho específico en lugar de tomar uno, y el ancho que nadie quiere va a una región vacía.'
+section:
+  sized:
+    title: 'Una región con su ancho'
+    description: '`zone--narrow` con un paso de tamaño: la región tiene ese ancho y se mantiene así, sin importar el espacio que tenga la ventana. Es cómo se mantiene el texto legible: una columna que crece con la pantalla deja de serlo.'
+  slack:
+    title: 'Para qué sirve el espacio sobrante'
+    description: 'La última región no contiene nada, pero mantiene su lugar: vacío no es lo mismo que ausente, y un panel en espera se percibe como un panel en lugar de un agujero. Está ahí para ocupar el ancho que las regiones con tamaño rechazan.'
+    more: 'Una división entrega el sobrante a lo que lo solicite. Sin nada pidiendo, las regiones con tamaño se estirarían o empujarían hacia los bordes; con esto, mantienen su ancho y la página conserva el resto.'
+work:
+  size: 32rem

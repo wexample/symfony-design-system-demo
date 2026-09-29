@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Distribución
+page_icon: 'ph:bold/chart-bar-horizontal'
+intro: 'De qué se compone un total, en una línea. Donde una barra de progreso indica hasta dónde ha llegado un valor, esto indica cómo se divide un todo: las partes mantienen el orden en que se presentan, así que un pipeline se lee de izquierda a derecha como el pipeline que es. Los estados están nombrados con el vocabulario que ya habla la cápsula y el círculo, así que un estado nunca toma dos colores.'
+section:
+  default:
+    title: 'Un todo, en partes'
+    description: 'Las partes crecen en proporción a lo que valen, y la leyenda las dice en palabras debajo — la misma cápsula que dibuja un estado en una tabla, así que el ojo se mueve entre los dos sin aprender nada nuevo.'
+  linked:
+    title: 'Partes que llevan a algún lado'
+    description: 'Una parte con un objetivo es un enlace: la barra se convierte en el camino hacia la lista que resume. Bajo el puntero toma un destello de luz en lugar de otro color, que diría un estado diferente.'
+  bare:
+    title: 'Sin la leyenda'
+    description: 'Donde las partes están nombradas justo al lado, o donde la barra solo tiene que decir la forma de la cosa, se omite la leyenda y cada parte dice lo que es bajo el puntero.'
+  rest:
+    title: 'Un total mayor que sus partes'
+    description: 'Lo que cuenta el total y ninguna parte contabiliza sostiene su parte de la fila y no dibuja nada: la pista se muestra exactamente así, en lugar de que las partes se estiren para llenar una barra que no llenan.'
+  empty:
+    title: 'Nada contado aún'
+    description: 'Sin total y sin parte — trabajo no comenzado, un recuento aún pendiente. La barra mantiene su lugar, como una pista desnuda — el mismo terreno que un total mayor que sus partes muestra a través — así que una fila de ellas mantiene su forma; su figura es un guion, ya que nada contado no es cero.'
+  compact:
+    title: Compacto
+    description: 'Una barra más delgada para una fila o un pie de tarjeta, con la densidad transmitida a las cápsulas de su leyenda.'
+  vue:
+    title: 'Vue, impulsado'
+    description: 'La misma barra, sus partes dadas como datos. Una parte que no lleva a ningún lado responde a un clic con `select`, que es lo que hay que escuchar para una tabla que se filtra a sí misma al lado.'
+bar:
+  pipeline: 'Páginas del catálogo'
+  elements: 'Elementos del sistema de diseño'
+  partial: 'Archivos leídos'
+state:
+  done: Hecho
+  running: 'En curso'
+  todo: 'Por hacer'
+  failed: Fallido
+  skipped: 'No comenzado'
