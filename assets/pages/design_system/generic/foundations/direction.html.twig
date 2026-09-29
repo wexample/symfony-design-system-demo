@@ -1,0 +1,11 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/foundations/layout/layout-foundations.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <div class="direction-demo--pair">
+        {%- for dir in ['ltr', 'rtl'] -%}
+            {% include '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/foundations/_direction-samples.html.twig' with { dir: dir } %}
+        {%- endfor -%}
+    </div>
+{%- endblock -%}

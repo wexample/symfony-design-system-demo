@@ -1,0 +1,42 @@
+@use './layout/layout-foundations';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/lead';
+@use '@wexample/symfony-design-system/components/stepper/stepper';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/switch/switch';
+@use '@wexample/symfony-design-system/components/progress-bar/progress-bar';
+@use '@wexample/symfony-design-system/components/properties/properties';
+@use '@wexample/symfony-design-system/components/data-table/data-table';
+@use '@wexample/symfony-design-system/components/marker/marker';
+@use '@wexample/symfony-design-system/components/file-path/file-path';
+
+// The two sides next to each other, each on its own ground, so a difference
+// between them is read at a glance.
+.direction-demo--pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: var(--space-4);
+}
+
+.direction-demo--side {
+  padding: var(--space-4);
+  border: var(--border-separator);
+  border-radius: var(--radius-box);
+  background: var(--surface-1);
+  min-width: 0;
+
+  h3 {
+    margin: var(--space-2) 0 0;
+    font-size: var(--font-size-3);
+    color: var(--text-color-muted);
+  }
+}
+
+.direction-demo--label {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-1);
+  color: var(--text-color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}

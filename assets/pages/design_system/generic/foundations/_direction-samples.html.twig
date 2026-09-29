@@ -1,0 +1,52 @@
+{#- One side of the direction page: the same samples, in the direction `dir`
+    gives the block. Included twice rather than printed twice, so every
+    component on each side is its own. -#}
+<div class="direction-demo--side stack--vertical" dir="{{ dir }}">
+    <div class="direction-demo--label">{{ ('@page::side.' ~ dir) | trans }}</div>
+
+    <h3>{{ '@page::sample.navigation' | trans }}</h3>
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/stepper', {}, { steps: [
+        { label: '@page::step.account' | trans },
+        { label: '@page::step.address' | trans },
+        { label: '@page::step.payment' | trans },
+    ], current: 2 }) }}
+    <div class="cluster">
+        {{ button('ph:bold/arrow-left', '@page::action.previous' | trans) }}
+        {{ button('ph:bold/arrow-right', '@page::action.next' | trans, { class: 'button--invert' }) }}
+        {{ button_menu('ph:bold/list', '@page::action.menu' | trans, [
+            { icon: 'ph:bold/clipboard-text', label: '@page::menu.report' | trans, href: '#' },
+            { icon: 'ph:bold/gear', label: '@page::menu.settings' | trans, href: '#' },
+        ]) }}
+    </div>
+
+    <h3>{{ '@page::sample.controls' | trans }}</h3>
+    <div class="cluster">
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {}, { label: '@page::control.notifications' | trans, checked: true }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {}, { label: '@page::control.digest' | trans }) }}
+    </div>
+    {{ progress(0.62, { label: '@page::control.upload' | trans }) }}
+
+    <h3>{{ '@page::sample.data' | trans }}</h3>
+    {{ properties([
+        { key: '@page::field.owner' | trans, value: 'Layla Haddad' },
+        { key: '@page::field.email' | trans, value: 'layla.haddad@example.test' },
+        { key: '@page::field.site' | trans, value: 'https://example.test/account/42' },
+        { key: '@page::field.amount' | trans, value: '1,250.00 EUR' },
+    ], { compact: true }) }}
+    {{ data_table([
+        { key: 'name', label: '@page::field.owner' | trans },
+        { key: 'email', label: '@page::field.email' | trans, secondary: true },
+        { key: 'amount', label: '@page::field.amount' | trans, align: 'right' },
+    ], [
+        { name: 'Layla Haddad', email: 'layla.haddad@example.test', amount: '1,250.00' },
+        { name: 'Omar Benali', email: 'omar.benali@example.test', amount: '84.10' },
+    ]) }}
+
+    <h3>{{ '@page::sample.text' | trans }}</h3>
+    <p class="lead">{{ '@page::text.lead' | trans }}</p>
+    <p>{{ '@page::text.mixed' | trans }} <code>git switch main</code>, {{ file_path('assets/css/shapes/_zone.scss') }}.</p>
+    <div class="cluster">
+        {{ marker('success', '@page::text.marker' | trans, { compact: true }) }}
+        {{ text_link('https://example.test', '@page::text.link' | trans, { external: true }) }}
+    </div>
+</div>
