@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 表单
+page_icon: 'ph:bold/rows'
+section:
+  default:
+    title: 基本表单
+  block:
+    title: 区块表单
+  assisted:
+    title: 辅助
+field:
+  title:
+    label: 标题
+    placeholder: 输入标题
+  message:
+    label: 信息
+    placeholder: 写一条简短信息
+  date:
+    label: 日期
+  datetime:
+    label: 日期和时间
+  time:
+    label: 时间
+  file:
+    label: 文件
+  email:
+    label: 电子邮件
+  number:
+    label: 数字
+  url:
+    label: 网址
+action:
+  submit: 提交
+  secondary: 次要操作
+  raw_submit: 原始提交
+  link: 简单链接

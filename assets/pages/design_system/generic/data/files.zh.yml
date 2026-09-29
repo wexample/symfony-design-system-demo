@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 文件
+page_icon: 'ph:bold/folder-open'
+intro: '一个宽度为页面的文件浏览器。它不知道文件来自哪里：它请求文件夹的内容并返回文件实体——与树所获取的相同，因此磁盘、索引、档案或 API 都以相同方式读取。'
+root: 文件
+section:
+  vue:
+    title: 浏览器
+    description: 侧边的文件夹，文件夹内容作为按任意列排序的列表或网格；返回、前进和向上；过滤器；使用鼠标选择——ctrl、shift——和键盘——箭头、Enter、Backspace、ctrl+A、Escape；当文件夹包含超过一页的内容时会要求更多。双击进入文件夹并将文件交给页面。视图和顺序会被记住。
+  twig:
+    title: 由服务器绘制
+    description: '一个文件夹，作为列表或网格，每个项目都是一个链接：一个文件夹链接到同一页面——通过?folder=——一个文件链接到页面发送的任何地方。'

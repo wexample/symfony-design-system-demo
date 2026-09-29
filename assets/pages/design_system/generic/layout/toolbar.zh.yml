@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 工具栏
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 一个标题及其标记
+    description: 事物的归档名、位置及版本：三个标记作为一行展示，因此无论它们由什么材料制成，它们共享高度——药丸的尺寸是根据它通常放置的文本的ems大小来定的，而条形则将其水平放置在旁边的胶囊上。标题放弃了边距，将名称保持在最左边。
+  default:
+    title: 基本工具栏
+  title:
+    title: 带标题的工具栏
+  title_multi:
+    title: 带操作的节标题
+title:
+  example: 页面标题
+  section: 节标题
+  document: 设计与开发
+marker:
+  state: 常青
+button:
+  create: 创建
+  refresh: 刷新
+  export: 导出
+  edit: 编辑
+  delete: 删除
+  history: 历史
+  share: 分享

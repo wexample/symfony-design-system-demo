@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 间距
+page_icon: 'ph:bold/ruler'
+intro: 两个刻度和一个规则。形状从不书写长度：它花费一个步骤，这就是使两个相隔一年书写的组件不至于错位两个像素的原因。
+section:
+  space:
+    title: 间距步骤
+    description: 九个步骤，从细线到页面边距。填充、间隙和边距都来源于此——在两个步骤之间的值是一个尚未决定的值。
+  size:
+    title: 尺寸
+    description: 一个区域被赋予的宽度和高度：一列、一个面板、一种阅读度。大于一个间距步骤，并出于相同的原因使用。
+  density:
+    title: 密度
+    description: 紧凑性属于一个区域而不是一个小部件。一个声明为紧凑的条形工具使其所包含的内容也变得紧凑，因为承载它的标记会继承——没有下方的组件被告知其位置。
+density:
+  roomy: 一个具有自身密度的工具栏，以及它所持有的按钮
+  compact: 同样的工具栏声明为紧凑——没有关于按钮的说明
+  marker: 一个声明为紧凑但没有自身形状的区域
+  action: 创建
+  other: 刷新

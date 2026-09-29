@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 数据
+page_icon: 'ph:bold/list-bullets'
+intro: 形状将集合呈现出来。它们的区别在于读者能看到每个记录的多少，以及一旦看到这些记录可以做什么。
+page:
+  files:
+    title: 文件
+    description: 一个宽度为一页的文件浏览器，由加载器提供数据，并由服务器绘制一个文件夹。
+  tables:
+    title: 表格
+    description: 行和列，由服务器渲染或由浏览器分页，带有类型化单元格——链接、操作、图标和不断更新的日期。
+  live:
+    title: 保持更新
+    description: 集合得知其显示内容已更改的三种方式——应用事件、实时源或轮询——以及每种方式的用途。
+  lists:
+    title: 列表
+    description: 一个从自身标题中搜索和过滤的列表，供读者浏览而非扫描的集合。
+  properties:
+    title: 属性
+    description: 键和值，针对单个记录而非多个——已选择事物的详细面板。
+  bars:
+    title: 条形
+    description: 一条记录以单行命名：一个图标、一个标题、一个资格说明。搜索结果、成员或文件呈现的行。
+  tree:
+    title: 树
+    description: 一个包含彼此记录的集合，一次加载一个级别，在探索器提供的面板中显示。
+  chat:
+    title: 聊天
+    description: 一个从下往上逆序阅读并添加的集合，实时更新，带有一个随书写而增长的作曲器。

@@ -1,0 +1,9 @@
+page_title: 覆盖
+page_icon: 'ph:bold/square-half-bottom'
+section:
+  simple_overlay:
+    description: 显示一个简单的覆盖，持续3秒。
+    button: 显示覆盖
+  spinner_overlay:
+    description: 显示一个加载旋转器的覆盖，持续3秒。
+    button: 显示覆盖

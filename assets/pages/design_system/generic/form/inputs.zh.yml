@@ -1,0 +1,75 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 输入
+page_icon: 'ph:bold/textbox'
+intro: 系统提供的每个字段，集中在一页上。它们除了形状之外的共同点是一个契约：每个字段都可以交给不阅读的人来填写并返回。
+section:
+  assisted:
+    title: 辅助
+    description: 一个字段可以被接管——由代理人或者任何知道该写什么的东西。在被接管时，它会这样显示，停止响应键盘和指针，值以字段决定的方式出现：为一个单词拼写，为一个选项选择，为一个开关勾选。辅助本质上是临时的；一个被辅助的字段是一个没人能使用的字段。
+  fields:
+    title: 字段
+    description: 每个字段各一个。点击上方的播放，它们会轮流被填充，由代理人会做的相同调用——这是唯一知道契约对所有字段都有效的方法。
+  actions:
+    title: 表单中的按钮
+    description: 按钮执行一个动作而不是一个值，因此代理人无法写入其中。
+  code:
+    title: 单元格中的代码
+    description: 单元格下方有一个真实字段，因此服务器读取一个值而浏览器保持它已有的功能：粘贴的代码完整到达，手机提供它收到的代码，退格键返回。填充后，它会自动发送其表单——在这个页面上关闭，因为没有地方可以发送。
+  select:
+    title: 自选
+    description: 两个自定义选择在表单组外，像工具栏或过滤器栏一样放置。
+  switch:
+    title: 自开关
+    description: 两侧有标签，内部有图标，以及选中状态。
+  switch_tone:
+    title: 带色调的开关，以及一个询问的开关
+    description: '一旦开启，开关可以呈现状态或类别的颜色，而不是链接的颜色。一个开关在切换某些有后果的东西时会带有`警告`，并在之前询问：拒绝后，它保持关闭。关闭从不被质疑。无论哪种方式，它都会向页面发送`switch:change`。'
+  switch_vue:
+    title: 在vue中的开关
+    description: 同样的开关在vue树中，选中状态是状态而不是脚本翻转的数据属性。
+assisted:
+  hint: 代理人依次填写下面的字段。
+  play: 播放
+  reset: 重置
+field:
+  text: 全名
+  textarea: 地址
+  email: 电子邮件
+  url: 网站
+  password: 密码
+  code: 验证码
+  number: 年龄
+  date: 出生日期
+  time: 首选时间
+  datetime: 预约
+  select: 国家
+  radio: 联系方式
+  switch: 给我发送新闻简报
+  file: 身份文件
+  emoji: 心情
+  button: 一个按钮
+  submit: 提交
+placeholder:
+  text: 玛雅·林德奎斯特
+  textarea: 街道，邮政编码，城市
+  email: maya@example.com
+  url: 'https://example.com'
+choice:
+  one: 瑞典
+  two: 葡萄牙
+  three: 日本
+code:
+  numeric: 六位数字，如电子邮件所发送的
+  backup: 备份代码，字母和数字
+  vue: 四位数字，在vue中
+switch:
+  tone:
+    success: 已同步
+    mint: 已标记
+    risky: 保存时发布
+  confirm:
+    title: 保存时发布？
+    message: 每次保存将同时发布，没有中间审核。
+    accept: 开启
+  label_right: 启用功能
+  label_left: 左侧标签

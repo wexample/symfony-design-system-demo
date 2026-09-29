@@ -1,0 +1,8 @@
+~extends: '@front.layouts.private.layout'
+menu_design_system:
+  navigation:
+    group:
+      app:
+        title: 应用组件
+      generic:
+        title: 通用组件

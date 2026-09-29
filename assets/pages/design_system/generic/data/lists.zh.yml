@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 列表
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: 默认
+  empty:
+    title: 空状态
+search:
+  placeholder: 过滤列表...
+header:
+  filter: 过滤
+item:
+  postgres:
+    title: PostgreSQL
+    body: '用于事务工作负载的托管 SQL 连接'
+  s3:
+    title: '亚马逊 S3'
+    body: 用于导入和导出的对象存储连接器
+  webhook:
+    title: Webhook
+    body: 触发和接收来自外部系统的事件
+  redis:
+    title: Redis
+    body: 内存缓存和发布/订阅消息
+  mongo:
+    title: MongoDB
+    body: 用于灵活模式工作负载的文档存储

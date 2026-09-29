@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 反馈
+page_icon: 'ph:bold/megaphone'
+intro: 界面反馈的信息。根据读者注意力的要求排序，从等待被注意的提示到无法忽视的对话。
+page:
+  toasts:
+    title: 提示
+    description: 发生了一些事情并已结束：一个出现在边缘并自行消失的通知。
+  banners:
+    title: 横幅
+    description: 某个信息在整个页面上保持，直到被处理。
+  messages:
+    title: 消息
+    description: 附加在某事上的一句话——在一个字段下，或在一个块内——以五种语义颜色呈现。
+  markers:
+    title: 标记
+    description: 用一个词概括关于某事所说的一切——状态、名称、版本、类别——用圆圈表示没有空间的地方，以及计数器，表示唯一的事物。
+  loaders:
+    title: 加载器
+    description: 某种事情正在发生，且结束未知——机器的旋转器，或者即将发言的人的点。
+  progress:
+    title: 进度
+    description: 同样的事情，结束是已知的：一个条形图由cli进度所说的相同词驱动。
+  distribution:
+    title: 分配
+    description: 总数由什么组成，而不是它走了多远：整体的部分在一行中呈现，按给定顺序排列。
+  errors:
+    title: 错误
+    description: 当请求的内容无法提供时，页面所显示的内容。

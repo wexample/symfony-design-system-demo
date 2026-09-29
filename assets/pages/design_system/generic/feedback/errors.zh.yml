@@ -1,0 +1,13 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 错误
+page_icon: 'ph:bold/warning-circle'
+section:
+  trigger:
+    description: 触发前端错误以进行捕获处理测试。
+    button: 触发错误
+  frontend_throw:
+    description: 在JavaScript中触发未捕获的前端异常。
+    button: 抛出错误
+  internet_probe:
+    description: 触发外部请求以测试互联网连接处理。
+    button: 探测

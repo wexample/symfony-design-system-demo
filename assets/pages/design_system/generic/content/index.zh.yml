@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 内容
+page_icon: 'ph:bold/article'
+intro: 文字、图片和价值观，以及它们之间的节奏。这些页面的共同点在于，它们格式化了人们阅读的内容，而不是排列区域或列出记录。
+page:
+  composition:
+    title: 构成
+    description: 一页应有的散文：文章、周围带有文本的图片、首字母大写、元条。
+  media:
+    title: 媒体
+    description: 被固定形状的图像和嵌入物：纵横比、叠加和在未加载之前占位的元素。
+  dates:
+    title: 日期
+    description: 一种格式词汇，Twig和浏览器都能同样理解，以及在页面保持打开时保持真实的日期。
+  graph_log:
+    title: 图形日志
+    description: 在有色车道上的项目及其分叉和合并：git历史，或任何分支的内容。
+  console:
+    title: 控制台
+    description: 一个shell打印的内容，在页面中重新读取，并随着输入的内容增加行。
+  timeline:
+    title: 时间线
+    description: 一个接一个的步骤或事件，标记通过线连接，每个标记持有其所需的内容。

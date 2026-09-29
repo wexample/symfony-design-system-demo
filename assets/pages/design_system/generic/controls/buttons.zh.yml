@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 按钮
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 默认按钮
+  button_states:
+    title: 按钮状态
+  link:
+    title: 按钮链接
+  vue:
+    title: Vue
+    description: '与 vue 部件相同的按钮和链接，采用相同的图标和标签，用于在运行时构建控件的页面。'
+button:
+  primary: 主要按钮
+  success: 成功按钮
+  danger: 危险按钮
+  invert: 反转按钮
+  state:
+    default: 默认
+    loading: 加载中
+    disabled: 禁用
+    assisted: 辅助
+link:
+  more: 了解更多
+  external: 外部链接

@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 仪表板
+page_icon: 'ph:bold/squares-four'
+mode:
+  reopen: 重新打开API面板
+  gap: 有间隙
+  flush: 刷新
+state:
+  success: 正常
+  warning: 降级
+  error: 失败
+  running: 排水中
+tile:
+  traffic:
+    title: 流量
+    figure: 每分钟12.4k请求
+    description: 拆分内部的拆分：墙是行的垂直拆分，每行都有自己的拆分。拖动此行下方的边缘以增加高度，或拖动此瓦片旁边的边缘以增加宽度。
+  latency:
+    title: 延迟p95
+    figure: 184毫秒
+    description: '每个瓦片命名为一个楼层，`zone--min-*`：在它下面瓦片不会被挤压，框架会滚动——横向和纵向都可以。'
+  errors:
+    title: 错误
+    figure: '2.1 %'
+    description: 调整大小后，区域保持其在拆分轴上留下的大小，并随之返回；双击手柄会将其恢复到拆分状态。
+  queue:
+    title: 队列
+    figure: 318个作业
+    description: '`zone--split--flush`将间隙缩小到一个像素，墙的底部划分了瓦片之间的界限。墙上的一个类就足够了，行会继承它。'
+  deploys:
+    title: 部署
+    figure: 今天7次
+    description: 没有它，同一面墙保持瓦片之间的空间，通过这个空间页面的底部显示——在上面的条形图中切换。向右滚动以查看仅在看到时加载的面板。

@@ -1,0 +1,95 @@
+field:
+  password:
+    label: 密码
+    help: 输入您的密码以进行身份验证。
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 密码无效，仅供测试。
+  emoji:
+    label: 表情符号
+    help: 选择一个表情符号来代表您的情绪。
+    error:
+      ERR_FIELD_EMOJI_INVALID: 表情符号无效，仅供测试。
+  text_simple:
+    label: 文本
+    help: 单行文本输入，适合简短内容。
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 文本无效，仅供测试。
+  text_area:
+    label: 长文本
+    placeholder: 随便输入...
+    help: 多行文本区域，适合较长内容。
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 长文本无效，仅供测试。
+  number:
+    label: 数字
+    help: 输入一个数字值。
+    error:
+      ERR_FIELD_NUMBER_INVALID: 数字无效，仅供测试。
+  email:
+    label: 邮箱
+    placeholder: you@example.com
+    help: 输入一个有效的邮箱地址。
+    error:
+      ERR_FIELD_EMAIL_INVALID: 邮箱无效，仅供测试。
+  url:
+    label: 网址
+    placeholder: 'https://'
+    help: 输入一个完整的网址，包括协议。
+    error:
+      ERR_FIELD_URL_INVALID: 网址无效，仅供测试。
+  date:
+    label: 日期
+    help: 使用日期选择器选择一个日期。
+    error:
+      ERR_FIELD_DATE_INVALID: 日期无效，仅供测试。
+  datetime:
+    label: 日期和时间
+    help: 选择一个结合日期和时间。
+    error:
+      ERR_FIELD_DATETIME_INVALID: 日期和时间无效，仅供测试。
+  time:
+    label: 时间
+    help: 选择一天中的时间。
+    error:
+      ERR_FIELD_TIME_INVALID: 时间无效，仅供测试。
+  file:
+    label: 文件
+    help: 从您的设备上传一个或多个文件。
+    error:
+      ERR_FIELD_FILE_INVALID: 文件无效，仅供测试。
+  radio_choice:
+    label: 单选
+    help: 从列表中选择一个选项。
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 单选无效，仅供测试。
+    choice:
+      option_a:
+        label: '选项 A'
+      option_b:
+        label: '选项 B'
+      option_c:
+        label: '选项 C'
+  switch:
+    label: 开关
+    help: 切换此选项的开或关。
+    error:
+      ERR_FIELD_SWITCH_INVALID: 开关无效，仅供测试。
+form:
+  error:
+    ERR_FORM_TEST: 全局错误，仅供测试。
+action:
+  button_demo: 无操作
+  submit_default: 提交
+  submit_error: 显示错误
+  submit_js: 'JS 操作'
+  submit_redirect: 重定向
+toast:
+  success:
+    title: 成功
+    message: 表单提交成功。
+  js_action:
+    title: 'JS 操作'
+    message: 您想重新激活表单吗？
+    reactivate: 重新激活
+    dismiss: 关闭
+description: '使用此表单测试提交行为。此演示在 Vue 组件中。'

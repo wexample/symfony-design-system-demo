@@ -1,0 +1,49 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 标签
+page_icon: 'ph:bold/signpost'
+section:
+  vue:
+    title: Vue中的标签
+    description: 标签栏是一排链接，地址显示哪个是打开的。vue栏只报告请求了哪个标签，因此它周围的东西持有答案——这里是一个演示组件。
+  breadcrumb:
+    vue_description: vue双胞胎接收已解析的项目：服务器持有路由表，因此它作出响应，而交叉的是答案。
+    title: 面包屑
+    description: 显示用户在层次结构中的位置。使用面包屑部分——传递带有路由和标签的项目；最后一个项目始终渲染为当前。
+  tabs:
+    title: 标签
+  default:
+    normal:
+      title: 基本标签
+    full:
+      title: 基本标签（全宽）
+    half:
+      title: 基本标签（半宽区域）
+  counts:
+    title: 带计数的标签
+    description: 标签所持有的内容数量，在标签末尾显示。它是一个药丸，别无其他——在标签旁边传递`count`，标签会放置它。没有键的项目不显示任何内容，这就是没有要计数的标签保持安静的方式。
+  icons:
+    normal:
+      title: 带图标的标签
+    full:
+      title: 带图标的标签（全宽）
+    half:
+      title: 带图标的标签（半宽区域）
+breadcrumb:
+  example:
+    vue: 在vue中
+    two_levels: 两个层级
+    three_levels: 三个层级
+  item:
+    home: 首页
+    layout: 布局
+    section: 区块
+    current: 导航
+tab:
+  one: 概述
+  two: 活动
+  three: 设置
+vue:
+  panel:
+    one: 第一个面板。没有获取任何内容，也没有更改地址——条形发出了，持有者交换了。
+    two: 第二个面板。
+    three: 第三个面板。

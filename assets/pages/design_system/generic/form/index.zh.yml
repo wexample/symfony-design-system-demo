@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 表单
+page_icon: 'ph:bold/textbox'
+intro: 一组字段，发送时的操作，以及返回时的内容。这些字段本身在控制中；这些页面增加的是往返过程。
+page:
+  inputs:
+    title: 输入
+    description: 系统提供的每个字段，以及允许代理接管、填写并归还的合同。
+  basic:
+    title: 基本表单
+    description: 普通情况：由服务器渲染的表单，通过浏览器发送，由页面回复。
+  rendered:
+    title: 高级表单
+    description: 由表单组件构建的表单，具有提交行为及返回状态。
+  ajax:
+    title: 'Ajax 表单'
+    description: 一个在不离开页面的情况下回答的表单，以及它处理返回内容的方法。
+  vue:
+    title: 'Vue 表单'
+    description: 通过组件驱动的相同表单，其中字段是状态而非标记。

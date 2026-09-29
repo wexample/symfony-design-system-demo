@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 布局
+page_icon: 'ph:bold/layout'
+intro: 页面是如何划分的。这些形状占据区域而不是内容：它们说明事物的位置，而对其中的内容一无所知。
+page:
+  zones:
+    title: 区域
+    description: 双窗格工作区：一个分裂、一个大小列、一个可滚动的主体。每个应用程序中的探索者、编辑器和详细视图都是基于此构建的。
+  workspace:
+    title: 工作区
+    description: 由并排放置的区域组成的页面，通过它们之间的空间区分开来，别无他法。三种布局，由站在每个区域中的树木之间移动。
+  blocks:
+    title: 块
+    description: 一组事物所处的表面，有或没有填充，包含卡片和图形变体。
+  toolbar:
+    title: 工具栏
+    description: 在其作用对象的上方或下方的一系列操作，以宽敞和紧凑的密度呈现。
+  tabs:
+    title: 标签
+    description: 一个页面显示多个面貌之一，面板根据选择而变化。
+  doc:
+    title: 文档布局
+    description: 两列文档模式——一侧是文字，另一侧是代码——在没有空间时折叠成一列。

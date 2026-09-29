@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 日期
+page_icon: 'ph:bold/clock'
+intro: 一种格式名称的词汇，由Twig、普通JavaScript和Vue以相同的方式理解。服务器打印一个<time>，携带请求的瞬间和格式；浏览器接收它并随着时间的推移重写它，因此，一个开放的页面从不撒谎关于事情发生多久。
+section:
+  formats:
+    title: 命名格式
+    description: 绝对格式是ICU日期和时间样式，因此字段顺序和分隔符属于读者的区域，而不是模板。
+  relative:
+    title: 相对
+    description: 距离以仍然有意义的最大单位计算——几分钟到一个小时，几小时到一天，然后是天、周、月和年。每种措辞都来自一个翻译键。
+  auto:
+    title: 自动
+    description: 默认。日期较新时向后计数，并在一周过去时回退到日历日期，其中“27周前”不再对任何人有帮助。
+  live:
+    title: 保持最新
+    description: 一个定时器为页面上的每个日期服务，以显示的单位应得的频率——“刚刚现在”几秒钟，“3个月前”一个小时。保持此页面打开并观察。
+  plain:
+    title: 仅文本
+    description: 过滤器返回一个没有标记的字符串，用于标题属性或导出。它不知道的格式名称被作为原始ICU模式处理，当命名格式不符合您的需求时，这是解决办法。
+offset:
+  now: 刚刚
+  minutes: 五分钟
+  hours: 三个小时
+  days: 两天
+  months: 四个月
+  years: 三年
+  future: 两小时后
+live:
+  server: 由Twig渲染，由前端服务刷新：
+  vue: 由Vue渲染：
+plain:
+  filter: "| date_format('date_long')"
+  pattern: '| date_format("EEEE d MMMM, ''week'' w")'

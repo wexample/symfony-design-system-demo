@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 属性
+page_icon: 'ph:bold/list-dashes'
+intro: 以定义列表的形式呈现键/值对。行是列表的子网格，因此键保持在单列中对齐，而每行仍然是一个可以携带分隔符的实际框。
+section:
+  default:
+    title: 默认
+    description: '键列根据最长标签自适应大小。覆盖 --properties-key-width 来固定它。'
+  bordered:
+    title: 带边框
+    description: 行之间的分隔符，用于块体内的密集记录。
+    block_title: 连接细节
+  split:
+    title: 拆分
+    description: 值推向右边缘——总计、余额、任何被视为数字列的内容。
+  compact:
+    title: 紧凑
+    description: 当列表次于块的其余部分时，更紧凑的行。
+  stacked:
+    title: 堆叠
+    description: 键在值上方，适用于两个列会导致换行不佳的窄列。
+    aside: 主体保持剩余宽度，同时旁边列保持固定。
+  columns:
+    title: 列
+    description: '一打短对在一高列中阅读体验不佳：眼睛在键和其值之间跨越页面的宽度，分隔符最终将每对组合在一起。按列布局——尽可能多的列宽允许，手机上减至一列——一对变成一个不需要规则的小块。任何无法放入列的值占用整个宽度，使用 `full`。'
+  vue:
+    title: Vue
+    description: 作为vue部分的相同列表，将修饰符作为属性：在页面运行时构建的记录看起来就像是与之一起渲染的。
+field:
+  name:
+    key: 名称
+    value: 管道投影
+  identifier:
+    key: 标识符
+    value: prj_8f21c4a7
+  description:
+    key: 描述
+    value: 聚合传入事件并将其公开为可查询的投影。
+  status:
+    key: 状态
+    value: 准备好
+  owner:
+    key: 所有者
+    value: 平台团队
+  created:
+    key: 创建时间
+    value: 2026年3月14日
+  region:
+    key: 区域
+    value: eu-west-1
+  runtime:
+    key: 运行时
+    value: 'PHP 8.3'
+  version:
+    key: 版本
+    value: 1.4.2
+  reviewed:
+    key: 已审阅
+    value: null
+  path:
+    key: 文件
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: 小计
+    value: '1,240.00 €'
+  tax:
+    key: 税
+    value: '248.00 €'
+  total:
+    key: 总计
+    value: '1,488.00 €'

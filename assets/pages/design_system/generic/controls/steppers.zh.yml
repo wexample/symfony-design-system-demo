@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 步骤
+page_icon: 'ph:bold/steps'
+intro: 读者在一个序列中的位置——一个隧道，一个多个部分的表单。后面的步骤是实心的，可以在给定地址时返回；正在进行的步骤突出显示；前面的步骤在安静地等待。
+section:
+  labelled:
+    title: 编号和命名
+    description: 常见情况：一个数字用于计数，一个词用于知道它所要求的。已经走过的两个步骤相连。
+  numbers:
+    title: 仅数字
+    description: 步骤没有值得阅读的名称，或者宽度没有空间容纳它们。
+  words:
+    title: 仅单词
+    description: 没有数字时，顺序从单词中显而易见。
+  ends:
+    title: 第一次和最后一次
+    description: 尚未走过任何步骤，然后走过的一切，但正在进行的步骤。
+  unknown:
+    title: 尚未确定的步骤
+    description: 路径分叉，前方的情况取决于尚未给出的答案。代表它的步骤没有编号，也不影响其他步骤：这里的最后一步是第三步，而不是第四步。
+  compact:
+    title: 紧凑，和点
+    description: 用于模态或面板的标题，空间有限：紧凑保持数字和正在进行的步骤名称；点每个步骤画一个点，屏幕上不显示名称，名称留给朗读页面的人。在模态或面板的标题下方，步骤条取代了加载条。
+  toolbar:
+    title: 在工具栏中
+    description: 放置在页面上方的条中，它占据条提供的空间。
+  vue:
+    title: 在vue中
+    description: 在vue树中的相同步骤条。没有地址的步骤可以变成按钮：由页面持有的序列在它发出的`select`上移动，而不是在新的地址上。
+step:
+  account: 账户
+  address: 地址
+  payment: 支付
+  confirm: 确认
+  choice: 你的计划

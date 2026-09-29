@@ -1,0 +1,15 @@
+page_title: 文档布局
+page_icon: 'ph:bold/book-open'
+intro: 文档布局是一个用于文档页面的双列模式——左侧是描述，右侧是代码——在移动设备上折叠为单列。
+section:
+  structure:
+    title: 结构
+    body: '使用 .doc 作为外部包装，.doc-section 作为每一行。每个部分都有 .doc-section--description 和 .doc-section--code 列。'
+example:
+  demo_placeholder: 演示内容
+  one:
+    title: 基本部分
+    body: 一个典型的部分将描述块与代码片段配对。
+  two:
+    title: 带有代码块
+    body: '在 .doc-section--code 内使用代码块部分以获取语法高亮示例。'
