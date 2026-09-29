@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: "Barre d'outils"
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'Un en-tête et ses marqueurs'
+    description: "Ce qu'une chose est classée comme, où elle se trouve et quelle version : trois marqueurs se lisent comme une seule ligne, donc ils partagent une hauteur quoi qu'ils soient faits — un pilulier est dimensionné en ems pour le texte dans lequel il se trouve généralement, et une barre le nivele sur la capsule à côté. L'en-tête abandonne ses marges et garde le nom à l'extrême gauche."
+  default:
+    title: "Barre d'outils de base"
+  title:
+    title: "Barre d'outils avec titre"
+  title_multi:
+    title: 'Titre de section avec actions'
+title:
+  example: 'Titre de la page'
+  section: 'Titre de section'
+  document: 'Conception et développement'
+marker:
+  state: evergreen
+button:
+  create: Créer
+  refresh: Rafraîchir
+  export: Exporter
+  edit: Modifier
+  delete: Supprimer
+  history: Historique
+  share: Partager

@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Fondations
+page_icon: 'ph:bold/diamonds-four'
+intro: "Ce dont tout le reste est dépensé. Rien sur ces pages n'est un composant : ce sont les échelles — couleur, espacement, type, et la peau qui les attire — que chaque autre section lit sans jamais les montrer."
+page:
+  colors:
+    title: Couleurs
+    description: 'Les surfaces à partir desquelles une page est empilée, les niveaux inversés des bordures et du texte atténué sont dessinés, et les cinq familles sémantiques. Les deux faces du thème, côte à côte.'
+  spacing:
+    title: Espacement
+    description: "Les neuf étapes d'espacement, les tailles, et le motif de densité — comment une région se déclare compacte et ce que cela fait à tout ce qu'elle contient."
+  typography:
+    title: Typographie
+    description: "L'échelle de type et les poids, puis la même échelle à l'œuvre dans une page de prose."
+  skin:
+    title: Peau
+    description: "Comment les choses sont dessinées, à couleur et densité égales : les rayons, les ombres, les bordures et les séparateurs. L'unique axe du thème qui a un caractère."

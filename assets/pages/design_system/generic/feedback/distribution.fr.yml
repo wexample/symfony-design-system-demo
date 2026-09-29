@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Distribution
+page_icon: 'ph:bold/chart-bar-horizontal'
+intro: "Ce que représente un total, en une ligne. Là où une barre de progression indique jusqu'où une valeur est arrivée, cela indique comment un tout se divise : les parties conservent l'ordre dans lequel elles sont données, donc un pipeline se lit de gauche à droite comme le pipeline qu'il est. Les états sont nommés avec le vocabulaire que la capsule et le cercle parlent déjà, donc un état ne prend jamais deux couleurs."
+section:
+  default:
+    title: 'Un tout, en parties'
+    description: "Les parties croissent en proportion de leur valeur, et la légende les nomme en mots en dessous — la même capsule qu'un tableau dessine un état avec, donc l'œil se déplace entre les deux sans rien apprendre de nouveau."
+  linked:
+    title: 'Parties qui mènent quelque part'
+    description: "Une partie avec un objectif est un lien : la barre devient le chemin vers la liste qu'elle résume. Sous le pointeur, elle prend un film de lumière plutôt qu'une autre couleur, ce qui indiquerait un état différent."
+  bare:
+    title: 'Sans la légende'
+    description: "Là où les parties sont nommées juste à côté, ou là où la barre doit simplement indiquer la forme de la chose, la légende est abandonnée et chaque partie indique ce qu'elle est sous le pointeur."
+  rest:
+    title: 'Un total plus grand que ses parties'
+    description: "Ce que le total compte et aucune partie ne compte pour tient sa part de la rangée et ne dessine rien : la piste montre à travers pour exactement cela, au lieu que les parties s'étirent pour remplir une barre qu'elles ne remplissent pas."
+  empty:
+    title: 'Rien compté encore'
+    description: "Pas de total et pas de partie — travail non commencé, un compte toujours en attente. La barre garde sa place, comme une piste nue — le même sol qu'un total plus grand que ses parties montre à travers — donc une rangée d'eux garde sa forme ; sa figure est un tiret, puisque rien compté n'est pas zéro."
+  compact:
+    title: Compact
+    description: 'Une barre plus fine pour une rangée ou un pied de carte, avec la densité transmise aux capsules de sa légende.'
+  vue:
+    title: 'Vue, animée'
+    description: "La même barre, ses parties données comme données. Une partie qui ne mène nulle part répond à un clic avec `select`, qui est ce qu'il faut écouter pour un tableau qui se filtre lui-même à côté."
+bar:
+  pipeline: 'Pages du catalogue'
+  elements: 'Éléments du système de design'
+  partial: 'Fichiers lus'
+state:
+  done: Fait
+  running: 'En cours'
+  todo: 'À faire'
+  failed: Échoué
+  skipped: 'Non commencé'

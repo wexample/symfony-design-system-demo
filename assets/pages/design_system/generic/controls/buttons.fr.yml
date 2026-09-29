@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Boutons
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'Boutons par défaut'
+  button_states:
+    title: 'États des boutons'
+  link:
+    title: 'Liens de boutons'
+  vue:
+    title: Vue
+    description: 'Le même bouton et le même lien que les parties vue, prenant la même icône et le même label, pour une page qui construit ses contrôles pendant son exécution.'
+button:
+  primary: 'Bouton principal'
+  success: 'Bouton de succès'
+  danger: 'Bouton de danger'
+  invert: 'Bouton inversé'
+  state:
+    default: 'Par défaut'
+    loading: Chargement
+    disabled: Désactivé
+    assisted: Assisté
+link:
+  more: 'En savoir plus'
+  external: 'Lien externe'

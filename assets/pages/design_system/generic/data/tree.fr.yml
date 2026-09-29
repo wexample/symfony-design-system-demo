@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Arbre
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: 'Explorateur de fichiers'
+    description: "L'imbrication est toute la structure : un élément s'ouvre lorsqu'il est ouvert, et sa profondeur est ce qui indent le rang tandis que le surlignage s'étend toujours sur toute la largeur."
+  vue:
+    title: Vue
+    description: "Même balisage, même forme, mais les dossiers s'ouvrent et se ferment : le chevron est ce qui plie un nœud, et un clic n'importe où sur le rang sélectionne l'élément et l'envoie comme un événement de sélection."
+  vue_workspace:
+    title: 'Vue, dans un espace de travail'
+    description: "L'explorateur en tant qu'application l'expédie : l'arbre vue dans la zone défilable d'un split, contenant plus de rangées que la zone n'est haute et des noms plus longs qu'elle n'est large. La zone défile sur les deux axes et la barre horizontale reste à son niveau, peu importe quelle est la dernière rangée."
+  plain:
+    title: 'Sans icônes'
+    description: "La forme ne connaît rien des fichiers — un élément sans icône et sans lien s'affiche comme du texte brut."
+explorer:
+  scope:
+    project: Projet
+    packages: Paquets
+    scratches: Griffonnages
+    changed: 'Fichiers modifiés'
+  option:
+    filters: Filtres
+    sort: 'Trier par nom'
+    hidden: 'Afficher les fichiers cachés'
+  action:
+    new: 'Nouveau fichier'
+    locate: 'Sélectionner le fichier ouvert'
+    collapse: 'Réduire tout'
+  body: "L'arbre ne possède ni largeur ni hauteur propres : la zone à côté est ordinaire, et chaque côté défile seul."
+plain:
+  root: Racine
+  child: 'Premier enfant'
+  sibling: 'Deuxième enfant'

@@ -1,0 +1,28 @@
+page_title: Panneau
+page_icon: 'ph:bold/sidebar-simple-duotone'
+section:
+  persist:
+    description: "Panneau avec des onglets. Ouvrez-le, changez d'onglet, appuyez sur F5 — le panneau se rouvre sur le même onglet."
+    button: 'Ouvrir le panneau'
+  simple:
+    description: 'Afficher un panneau simple. Vous pouvez le fermer avec Échap ou en cliquant en dehors du panneau.'
+    button: 'Ouvrir le panneau'
+  components:
+    description: 'Afficher un panneau avec des composants et un déclencheur de toast. Échap est désactivé, mais vous pouvez toujours cliquer en dehors pour le fermer.'
+    button: 'Ouvrir le panneau'
+  medium:
+    description: "Afficher un panneau avec un texte de longueur moyenne. Cliquer à l'extérieur ne le fermera pas."
+    button: 'Ouvrir le panneau'
+  long:
+    description: 'Afficher un panneau avec un long texte. Il demande confirmation avant de se fermer.'
+    button: 'Ouvrir le panneau'
+  form_rendered:
+    description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un panneau. Échap et le clic extérieur sont désactivés, et il demande avant de fermer si le formulaire a été modifié."
+    button: 'Ouvrir le panneau'
+  form_ajax:
+    description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un panneau utilisant AJAX. Échap et le clic extérieur sont désactivés, et il demande avant de fermer si le formulaire a été modifié."
+    button: 'Ouvrir le panneau'
+  recursive:
+    description: "Ouvrir une page de dialogue à l'intérieur d'un autre dialogue — choisissez modal ou panneau."
+    button_modal: 'Ouvrir en modal'
+    button_panel: 'Ouvrir en panneau'

@@ -1,0 +1,96 @@
+field:
+  password:
+    label: 'Mot de passe'
+    help: 'Entrez votre mot de passe pour vous authentifier.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Le mot de passe est invalide à des fins de test.'
+  emoji:
+    label: Émoji
+    help: 'Choisissez un émoji pour représenter votre humeur.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: "L'émoji est invalide à des fins de test."
+  text_simple:
+    label: Texte
+    help: 'Un champ de texte sur une seule ligne pour un contenu court.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Le texte est invalide à des fins de test.'
+  text_area:
+    label: 'Long texte'
+    placeholder: 'Tapez ce que vous voulez...'
+    help: 'Une zone de texte multi-lignes pour un contenu plus long.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Le long texte est invalide à des fins de test.'
+  number:
+    label: Nombre
+    help: 'Entrez une valeur numérique.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Le nombre est invalide à des fins de test.'
+  email:
+    label: Email
+    placeholder: vous@example.com
+    help: 'Entrez une adresse email valide.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: "L'email est invalide à des fins de test."
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Entrez une URL complète incluant le protocole.'
+    error:
+      ERR_FIELD_URL_INVALID: "L'URL est invalide à des fins de test."
+  date:
+    label: Date
+    help: "Sélectionnez une date à l'aide du sélecteur de date."
+    error:
+      ERR_FIELD_DATE_INVALID: 'La date est invalide à des fins de test.'
+  datetime:
+    label: 'Date & heure'
+    help: 'Sélectionnez une date et une heure combinées.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'La date & heure est invalide à des fins de test.'
+  time:
+    label: Heure
+    help: 'Sélectionnez une heure de la journée.'
+    error:
+      ERR_FIELD_TIME_INVALID: "L'heure est invalide à des fins de test."
+  file:
+    label: Fichier
+    help: 'Téléchargez un ou plusieurs fichiers depuis votre appareil.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Le fichier est invalide à des fins de test.'
+  radio_choice:
+    label: 'Choix radio'
+    help: 'Sélectionnez une option dans la liste.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Le choix radio est invalide à des fins de test.'
+    choice:
+      option_a:
+        label: 'Option A'
+      option_b:
+        label: 'Option B'
+      option_c:
+        label: 'Option C'
+  switch:
+    label: Interrupteur
+    help: 'Activez ou désactivez cette option.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: "L'interrupteur est invalide à des fins de test."
+form:
+  error:
+    ERR_FORM_TEST: 'Erreur globale à des fins de test.'
+action:
+  button_demo: 'Ne rien faire'
+  submit_default: Soumettre
+  submit_error: 'Afficher les erreurs'
+  submit_js: 'Action JS'
+  submit_redirect: Rediriger
+toast:
+  success:
+    title: Succès
+    message: 'Formulaire soumis avec succès.'
+  js_action:
+    title: 'Action JS'
+    message: 'Voulez-vous réactiver le formulaire ?'
+    reactivate: Réactiver
+    dismiss: Ignorer
+description: |
+  Utilisez ce formulaire pour tester les comportements de soumission. Cette démo est dans un composant Vue.

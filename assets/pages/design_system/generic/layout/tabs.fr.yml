@@ -1,0 +1,49 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Onglets
+page_icon: 'ph:bold/signpost'
+section:
+  vue:
+    title: 'Onglets en vue'
+    description: "La barre d'onglets est une rangée de liens et l'adresse indique lequel est ouvert. La barre vue ne fait que signaler qu'un onglet a été demandé, donc quelque chose autour détient la réponse — ici, un composant de démonstration."
+  breadcrumb:
+    vue_description: 'Le jumeau vue prend ses éléments déjà résolus : le serveur détient la table des routes, donc il y répond, et ce qui traverse est la réponse.'
+    title: "Fil d'Ariane"
+    description: "Montre la position de l'utilisateur dans la hiérarchie. Utilisez le modèle de fil d'Ariane — passez des éléments avec une route et une étiquette ; le dernier élément est toujours rendu comme actuel."
+  tabs:
+    title: Onglets
+  default:
+    normal:
+      title: 'Onglets de base'
+    full:
+      title: 'Onglets de base (largeur complète)'
+    half:
+      title: 'Onglets de base (zone de moitié de largeur)'
+  counts:
+    title: 'Onglets avec un compte'
+    description: "Combien de quoi que ce soit que l'onglet contient, à la fin de l'étiquette. C'est une pilule et rien d'autre — passez `count` à côté de l'étiquette et l'onglet le place. Un élément sans la clé ne montre rien, ce qui est comment un onglet sans rien à compter reste silencieux."
+  icons:
+    normal:
+      title: 'Onglets avec des icônes'
+    full:
+      title: 'Onglets avec des icônes (largeur complète)'
+    half:
+      title: 'Onglets avec des icônes (zone de moitié de largeur)'
+breadcrumb:
+  example:
+    vue: 'En vue'
+    two_levels: 'Deux niveaux'
+    three_levels: 'Trois niveaux'
+  item:
+    home: Accueil
+    layout: Disposition
+    section: Blocs
+    current: Navigation
+tab:
+  one: Aperçu
+  two: Activité
+  three: Paramètres
+vue:
+  panel:
+    one: "Le premier panneau. Rien n'a été récupéré et aucune adresse n'a changé — la barre a émis, le support a été échangé."
+    two: 'Le deuxième panneau.'
+    three: 'Le troisième panneau.'

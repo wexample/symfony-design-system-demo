@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dates
+page_icon: 'ph:bold/clock'
+intro: "Un vocabulaire de noms de formats, compris de manière identique par Twig, par JavaScript pur et par Vue. Le serveur imprime un <time> portant l'instant et le format demandé ; le navigateur le récupère et le réécrit au fur et à mesure qu'il vieillit, de sorte qu'une page laissée ouverte ne mente jamais sur le temps écoulé depuis qu'un événement s'est produit."
+section:
+  formats:
+    title: 'Formats nommés'
+    description: "Les formats absolus sont des styles de date et d'heure ICU, donc l'ordre des champs et les séparateurs appartiennent à la locale du lecteur plutôt qu'au modèle."
+  relative:
+    title: Relatif
+    description: "La distance est comptée dans la plus grande unité qui a encore un sens — minutes jusqu'à une heure, heures jusqu'à un jour, puis jours, semaines, mois et années. Chaque formulation provient d'une clé de traduction."
+  auto:
+    title: Automatique
+    description: 'La valeur par défaut. Compte à rebours tant que la date est récente, et revient à une date calendaire après une semaine, où "il y a 27 semaines" cesse d''aider qui que ce soit.'
+  live:
+    title: 'Mis à jour'
+    description: 'Un seul minuteur sert chaque date sur la page, au rythme que l''unité affichée mérite — quelques secondes pour "juste maintenant", une heure pour "il y a 3 mois". Laissez cette page ouverte et regardez.'
+  plain:
+    title: 'Texte uniquement'
+    description: "Le filtre renvoie une chaîne sans balisage, pour un attribut de titre ou une exportation. Un nom de format qu'il ne connaît pas est pris comme un motif ICU brut, ce qui est la solution lorsque les formats nommés n'ont pas la forme dont vous avez besoin."
+offset:
+  now: 'Il y a un moment'
+  minutes: 'Cinq minutes'
+  hours: 'Trois heures'
+  days: 'Deux jours'
+  months: 'Quatre mois'
+  years: 'Trois ans'
+  future: 'Dans deux heures'
+live:
+  server: 'Rendu par Twig, actualisé par le service frontal :'
+  vue: 'Rendu par Vue :'
+plain:
+  filter: "| date_format('date_long')"
+  pattern: '| date_format("EEEE d MMMM, ''semaine'' w")'

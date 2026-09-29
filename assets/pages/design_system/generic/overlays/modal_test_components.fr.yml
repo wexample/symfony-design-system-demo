@@ -1,0 +1,20 @@
+page_title: 'Test modal - composants'
+intro: 'Ce modal contient des composants et des interactions.'
+menu:
+  label: 'Menu des actions'
+  item:
+    report: 'Signaler un problème'
+    settings: Paramètres
+    logout: 'Se déconnecter'
+upload_button: 'Télécharger un fichier'
+choice:
+  one: 'Première option'
+  two: 'Deuxième option'
+  three: 'Troisième option'
+toast_button: 'Afficher le toast depuis le modal'
+toast_title: 'Toast du modal'
+toast_message: "Bonjour depuis l'intérieur du modal."
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Êtes-vous sûr de vouloir fermer ce modal ?'

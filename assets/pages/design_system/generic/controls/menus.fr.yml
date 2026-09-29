@@ -1,0 +1,51 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Menus
+page_icon: 'ph:bold/list'
+section:
+  vue:
+    title: Vue
+    description: 'La ligne de lien et le séparateur en tant que partials vue. Contrairement aux lignes qui lisent une route, ces deux prennent leur icône et leur étiquette comme options, donc rien du serveur ne manque.'
+  menu:
+    title: 'Boutons de menu'
+  counts:
+    title: Comptes
+    description: "Combien de quelque chose que l'élément mène, à l'autre extrémité de la ligne. C'est une pilule et rien d'autre — passez `count` à côté de l'étiquette, dans un élément de menu déroulant ou un élément de menu vertical, et l'élément le place. Un élément sans la clé ne montre rien."
+  separators:
+    title: Séparateurs
+    description: "Un séparateur est un élément comme les autres, avec une clé de plus : une ligne nue sépare deux séries d'éléments qui n'ont rien à voir les uns avec les autres, et la même ligne donnée un mot devient le titre de ce qui suit. Les deux côtés de la pile lisent la même déclaration — le troisième menu ici est le vue."
+  kinds:
+    title: "Ce qu'un élément peut être"
+    description: "Quatre types partagent une ligne : un mot et une cible est un lien, un mot et un état est un toggle, un mot et des enfants est une branche, et une ligne nue est un séparateur. Rien ne déclare son type — cela découle de ce que l'élément porte. Un toggle dépense son emplacement principal sur sa marque, donc une colonne d'eux garde ses mots alignés, et le panneau reste ouvert en dessous : un menu de filtres se lit par poignée, pas un à la fois."
+menu:
+  primary: 'Bouton de menu'
+  filters: Filtres
+  filters_vue: 'Filtres, en vue'
+  counted: 'Avec des comptes'
+  counted_vue: 'Avec des comptes, en vue'
+  grouped: 'Éléments groupés'
+  grouped_vue: 'Groupés, en vue'
+  group:
+    danger: 'Zone dangereuse'
+    show: Afficher
+  more: "Plus d'actions"
+  invert: 'Inverser le menu'
+  options:
+    top_left: 'En haut à gauche'
+    top_right: 'En haut à droite'
+  item:
+    report: Rapport
+    inbox: 'Boîte de réception'
+    alerts: Alertes
+    settings: Paramètres
+    logout: 'Se déconnecter'
+    long: 'Avec un titre assez, assez, assez, assez long'
+    stats: Statistiques
+    profile: Profil
+    delete: 'Supprimer le compte'
+    done: Fait
+    running: 'En cours'
+    failed: Échoué
+    sort: 'Trier par'
+    sort_name: Nom
+    sort_date: 'Dernière modification'
+    docs: Documentation

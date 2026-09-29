@@ -1,0 +1,6 @@
+page_title: 'Test de modal - moyen'
+intro: 'Ce modal utilise un texte de corps de longueur moyenne.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Êtes-vous sûr de vouloir fermer ce modal ?'

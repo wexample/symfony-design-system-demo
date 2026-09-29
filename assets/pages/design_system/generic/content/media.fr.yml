@@ -1,0 +1,18 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Média
+page_icon: 'ph:bold/image'
+section:
+  vue:
+    title: Vue
+    description: "Le même cadre qu'un fragment vue, pour un document dont l'adresse n'est connue qu'une fois la page exécutée."
+  shapes:
+    title: Formes
+  overlay:
+    title: Superposition
+  aspect_ratio:
+    title: "Ratio d'aspect"
+  document:
+    title: 'Document intégré'
+    description: 'Un iframe remplit sa boîte, donc la boîte porte la taille : un modificateur de ratio, ou media--fill pour prendre la hauteur que le parent donne.'
+document:
+  title: 'Document de remplacement'

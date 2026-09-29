@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Fichiers
+page_icon: 'ph:bold/dossier-ouvert'
+intro: "Un explorateur de fichiers de la largeur d'une page. Il ne sait rien de l'origine des fichiers : il demande le contenu d'un dossier et récupère des entités de fichiers — le même chargeur qu'un arbre utilise — donc un disque, un index, une archive ou une API se lisent tous de la même manière."
+root: Fichiers
+section:
+  vue:
+    title: "L'explorateur"
+    description: "Dossiers sur le côté, le contenu du dossier sous forme de liste triée par n'importe quelle colonne ou sous forme de grille ; retour, avant et haut ; un filtre ; sélection à la souris — ctrl, shift — et au clavier — flèches, Entrée, Retour arrière, ctrl+A, Échap ; plus demandé lorsque un dossier contient plus d'une page. Un double-clic ouvre un dossier et donne un fichier à la page. La vue et l'ordre sont mémorisés."
+  twig:
+    title: 'Dessiné par le serveur'
+    description: "Un dossier, sous forme de liste ou de grille, chaque élément est un lien : un dossier vers la même page ouverte sur celui-ci — ici via ?folder= — un fichier vers où la page l'envoie."

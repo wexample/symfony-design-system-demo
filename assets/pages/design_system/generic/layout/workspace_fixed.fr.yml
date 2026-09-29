@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Largeur fixe'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: "Les mêmes trois régions, mais celle que vous lisez a une largeur donnée au lieu d'en prendre une — et la largeur que personne ne veut va à une région qui n'a rien dedans."
+section:
+  sized:
+    title: 'Une région à largeur fixe'
+    description: "`zone--narrow` avec un pas de taille : la région a cette largeur et reste à cette largeur, quelle que soit la place disponible dans la fenêtre. C'est ainsi qu'un texte reste lisible — une colonne qui grandit avec l'écran cesse de l'être."
+  slack:
+    title: 'À quoi sert le vide'
+    description: "La dernière région ne contient rien, mais garde sa place quand même : vide n'est pas absent, et un panneau en attente se lit comme un panneau plutôt que comme un trou. Il est là pour prendre la largeur que les régions à taille fixe refusent."
+    more: 'Une séparation donne le reste à tout ce qui le demande. Sans rien demander, les régions de taille fixe seraient étendues ou poussées vers les bords ; avec cela, elles gardent leur largeur et la page conserve le reste.'
+work:
+  size: 32rem

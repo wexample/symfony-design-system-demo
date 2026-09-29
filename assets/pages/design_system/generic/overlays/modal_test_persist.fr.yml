@@ -1,0 +1,15 @@
+page_title: 'Onglets avec persistance'
+tab:
+  overview: Aperçu
+  details: Détails
+  settings: Paramètres
+  loading: 'Barre de chargement'
+content:
+  overview: "Ceci est l'onglet Aperçu. Changez d'onglet puis appuyez sur F5 — cet onglet restera actif lorsque le superposition se rouvrira."
+  details: "Ceci est l'onglet Détails. L'onglet actif est stocké dans le hachage de l'URL, donc il survit aux rechargements de page."
+  settings: "Ceci est l'onglet Paramètres. La superposition (modale/panneau) et l'onglet actif sont restaurés à partir du hachage de l'URL."
+  loading: "Utilisez les boutons ci-dessous pour déclencher manuellement l'animation de la barre de chargement. Cette barre apparaît en haut de la superposition lorsqu'une soumission de formulaire est en cours."
+loading:
+  start: Démarrer
+  end: Terminer
+  simulate: 'Simuler (auto-compléter)'

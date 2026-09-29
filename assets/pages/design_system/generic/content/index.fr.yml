@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Contenu
+page_icon: 'ph:bold/article'
+intro: "Mots, images et valeurs, et le rythme entre eux. Ce que ces pages ont en commun, c'est qu'elles formatent quelque chose qu'une personne lit, plutôt que d'organiser des régions ou de lister des enregistrements."
+page:
+  composition:
+    title: Composition
+    description: "Une page de prose telle qu'elle devrait être lue : articles, images avec du texte autour d'eux, lettrines, barres méta."
+  media:
+    title: Média
+    description: "Images et intégrations maintenues dans une forme : rapports d'aspect, superpositions et l'espace réservé qui se tient en place pendant que rien n'a été chargé."
+  dates:
+    title: Dates
+    description: 'Un vocabulaire de formats compris de manière identique par Twig et par le navigateur, et des dates qui se maintiennent vraies tant que la page reste ouverte.'
+  graph_log:
+    title: 'Journal graphique'
+    description: 'Éléments sur des voies colorées avec leurs fourchettes et fusions : un historique git, ou tout ce qui se ramifie.'
+  console:
+    title: Console
+    description: "Ce qu'un shell a imprimé, lu à nouveau dans la page, et des lignes ajoutées à mesure qu'elles arrivent."
+  timeline:
+    title: Chronologie
+    description: 'Étapes ou événements les uns sous les autres sur des marqueurs reliés par une ligne, chacun tenant ce dont il a besoin.'

@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Steppers
+page_icon: 'ph:bold/steps'
+intro: "Où un lecteur se trouve dans une séquence — un tunnel, un formulaire en plusieurs parties. Les étapes derrière sont dessinées de manière solide et peuvent être revisitées lorsqu'elles reçoivent une adresse ; celle en cours se distingue ; celles à venir attendent, discrètes."
+section:
+  labelled:
+    title: 'Numéroté et nommé'
+    description: "Le cas commun : un numéro pour compter, un mot pour savoir ce qu'il demande. Les deux étapes déjà parcourues se relient en arrière."
+  numbers:
+    title: 'Chiffres seuls'
+    description: "Où les étapes n'ont pas de noms valables à lire, ou la largeur n'a pas de place pour eux."
+  words:
+    title: 'Mots seuls'
+    description: "Sans les chiffres, lorsque l'ordre est évident à partir des mots."
+  ends:
+    title: 'Première et dernière'
+    description: "Rien n'a encore été parcouru, puis tout a été parcouru sauf l'étape en cours."
+  unknown:
+    title: 'Étapes pas encore décidées'
+    description: "Où les chemins se séparent, ce qui se trouve devant dépend d'une réponse non donnée encore. L'étape qui la représente n'a pas de numéro et n'en déplace aucune des autres : la dernière étape ici est la troisième, pas la quatrième."
+  compact:
+    title: 'Compact, et points'
+    description: "Pour l'en-tête d'une modal ou d'un panneau, où il y a peu de place : compact conserve les numéros et nomme uniquement l'étape en cours ; des points dessinent un point par étape et ne nomment aucun à l'écran, les noms restant pour quiconque lit la page à voix haute. Juste sous l'en-tête d'une modal ou d'un panneau, un steppers prend la place de la barre de chargement."
+  toolbar:
+    title: "Dans une barre d'outils"
+    description: "Posé dans une barre au-dessus d'une page, il prend la place que la barre lui donne."
+  vue:
+    title: 'Dans vue'
+    description: "Le même steppers dans un arbre vue. Les étapes sans adresse peuvent être transformées en boutons : une séquence maintenue par la page avance sur le `select` qu'elle émet plutôt que sur une nouvelle adresse."
+step:
+  account: Compte
+  address: Adresse
+  payment: Paiement
+  confirm: Confirmation
+  choice: 'Votre plan'

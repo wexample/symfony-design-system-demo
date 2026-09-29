@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Données
+page_icon: 'ph:bold/list-bullets'
+intro: "Des formes qui prennent une collection et la rendent. Ce qui les distingue, c'est la quantité de chaque enregistrement que le lecteur peut voir et ce qu'il peut en faire une fois qu'il l'a vu."
+page:
+  files:
+    title: Fichiers
+    description: "Un explorateur de fichiers de la largeur d'une page, alimenté par un chargeur, et un dossier dessiné par le serveur."
+  tables:
+    title: Tables
+    description: 'Lignes et colonnes, rendues par le serveur ou paginées par le navigateur, avec des cellules typées — liens, actions, icônes et dates qui continuent de compter.'
+  live:
+    title: Suivre
+    description: "Les trois façons dont une collection sait que ce qu'elle montre a changé — un événement d'application, une source en direct ou un sondage — et à quoi chacune d'elles sert."
+  lists:
+    title: Listes
+    description: 'Une liste qui est recherchée et filtrée depuis son propre en-tête, pour un ensemble que le lecteur parcourt plutôt que scanne.'
+  properties:
+    title: Propriétés
+    description: "Clé et valeur, pour un enregistrement plutôt que plusieurs — le panneau de détails d'une chose déjà choisie."
+  bars:
+    title: Barres
+    description: "Un enregistrement nommé en une seule ligne : une icône, un titre, ce qui le qualifie. La ligne qu'un résultat de recherche, un membre ou un fichier est rendu comme."
+  tree:
+    title: Arbre
+    description: "Une collection dont les enregistrements se contiennent les uns les autres, chargée un niveau à la fois, dans le panneau qu'un explorateur expédie comme."
+  chat:
+    title: Chat
+    description: "Une collection lue à l'envers et ajoutée par le bas, en direct, avec un compositeur qui grandit au fur et à mesure qu'il est écrit."

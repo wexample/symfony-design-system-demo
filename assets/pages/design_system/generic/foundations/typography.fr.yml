@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Typographie
+page_icon: 'ph:bold/text-aa'
+intro: "L'échelle est une décision de densité et les caractères sont une décision de police : cette page montre comment une forme se lit, pas ce qu'elle vaut aujourd'hui. Changez l'axe des polices dans le panneau de débogage et tout ce qui est en dessous est défini dans une autre police sans changement de règle."
+section:
+  families:
+    title: Familles
+    description: "Trois, parce que c'est ce qu'une page distingue : dans quoi c'est écrit, dans quoi c'est titré, et ce qui est censé être lu comme tapé plutôt que dit. Un ensemble peut donner la même police aux trois — celle du système le fait."
+  weights:
+    title: Poids
+    description: "Nommé par l'insistance, jamais par le nombre. Une police dont le 500 n'existe pas la cartographie sur ce qu'elle a, et les formes qui demandent un médium continuent de demander un médium."
+  typography:
+    title: 'Échelle typographique'
+title:
+  h1:
+    title: 'Système de Design — Éléments de base pour de superbes interfaces'
+    description: "Utilisé une fois par page. Définit le contexte principal. Associé à un court paragraphe d'introduction."
+  h2:
+    title: 'La typographie établit la hiérarchie et le rythme'
+    description: 'Titre de niveau section. Regroupe le contenu lié. Suivi généralement par du texte de corps ou des sous-sections.'
+  h3:
+    title: "L'espacement et la proportion façonnent la lisibilité"
+    description: "Titre de sous-section. Introduit un sujet ciblé au sein d'une section."
+  h4:
+    title: "La couleur et le contraste guident l'œil"
+    description: 'Utilisé pour les titres de cartes, les sections de barre latérale ou les regroupements mineurs.'
+  h5:
+    title: 'Les états interactifs doivent être évidents'
+    description: 'Étiquettes, en-têtes de métadonnées, petits regroupements. Subtil mais distinct du texte de corps.'
+  h6:
+    title: "L'accessibilité est une caractéristique, pas une réflexion après coup"
+    description: 'Le plus petit niveau de titre. Utiliser avec parcimonie — pour les notes de bas de page, les blocs juridiques ou les étiquettes auxiliaires.'
+sample: 'Le rapide renard brun saute par-dessus le chien paresseux — 0123456789'

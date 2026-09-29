@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Propriétés
+page_icon: 'ph:bold/list-dashes'
+intro: 'Paires clé / valeur rendues sous forme de liste de définitions. Les lignes sont des sous-grilles de la liste, donc les clés restent alignées dans une seule colonne tandis que chaque ligne reste une vraie boîte qui peut porter un séparateur.'
+section:
+  default:
+    title: 'Par défaut'
+    description: "La colonne des clés s'ajuste sur le label le plus long. Remplacez --properties-key-width pour le fixer."
+  bordered:
+    title: Encadré
+    description: "Un séparateur entre les lignes, pour des enregistrements denses à l'intérieur d'un corps de bloc."
+    block_title: 'Détails de connexion'
+  split:
+    title: Séparé
+    description: 'Valeurs poussées vers le bord droit — totaux, soldes, tout ce qui est lu comme une colonne de chiffres.'
+  compact:
+    title: Compact
+    description: 'Lignes plus serrées lorsque la liste est secondaire par rapport au reste du bloc.'
+  stacked:
+    title: Empilé
+    description: 'Clé au-dessus de la valeur, pour des colonnes étroites où deux colonnes se chevaucheraient mal.'
+    aside: 'Le corps conserve la largeur restante tandis que la colonne à côté reste fixe.'
+  columns:
+    title: Colonnes
+    description: "Une douzaine de paires courtes mal lues dans une colonne haute : l'œil traverse la largeur de la page entre une clé et sa valeur, et les séparateurs finissent par maintenir chaque paire ensemble. Disposées en colonnes — autant que la largeur le permet, jusqu'à une seule sur un téléphone — une paire devient un petit bloc de deux lignes qui n'a pas besoin de règle autour. Une valeur qu'aucune colonne ne peut contenir prend toute la largeur avec `full`."
+  vue:
+    title: Vue
+    description: "La même liste qu'un complément vue, prenant les modificateurs comme propriétés : un enregistrement construit pendant que la page s'exécute se lit comme celui rendu avec elle."
+field:
+  name:
+    key: Nom
+    value: 'Projection de pipeline'
+  identifier:
+    key: Identifiant
+    value: prj_8f21c4a7
+  description:
+    key: Description
+    value: 'Agrège les événements entrants et les expose comme une projection interrogeable.'
+  status:
+    key: Statut
+    value: Prêt
+  owner:
+    key: Propriétaire
+    value: 'Équipe plateforme'
+  created:
+    key: Créé
+    value: '14 mars 2026'
+  region:
+    key: Région
+    value: eu-west-1
+  runtime:
+    key: Exécution
+    value: 'PHP 8.3'
+  version:
+    key: Version
+    value: 1.4.2
+  reviewed:
+    key: 'Révisé le'
+    value: null
+  path:
+    key: Fichier
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: Sous-total
+    value: '1,240.00 €'
+  tax:
+    key: Taxe
+    value: '248.00 €'
+  total:
+    key: Total
+    value: '1,488.00 €'

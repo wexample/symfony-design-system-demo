@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Tableau de bord'
+page_icon: 'ph:bold/squares-four'
+mode:
+  gap: 'Avec des espaces'
+  flush: Flush
+state:
+  success: Nominal
+  warning: Dégradé
+  error: Échec
+  running: Vidange
+tile:
+  traffic:
+    title: Trafic
+    figure: '12,4 k req/min'
+    description: "Les divisions à l'intérieur d'une division : le mur est une division verticale de lignes, chaque ligne ayant sa propre division. Faites glisser le bord sous cette ligne pour lui donner plus de hauteur, ou celui à côté de ce carrelage pour plus de largeur."
+  latency:
+    title: 'Latence p95'
+    figure: '184 ms'
+    description: "Chaque carrelage nomme un étage, `zone--min-*` : en dessous, le carrelage n'est pas comprimé, le cadre défile à la place — latéralement ainsi que vers le bas."
+  errors:
+    title: Erreurs
+    figure: '2.1 %'
+    description: "Redimensionné, une zone conserve la taille à laquelle elle a été laissée le long de l'axe de sa division, et revient avec elle ; un double clic sur la poignée la ramène à la division."
+  queue:
+    title: "File d'attente"
+    figure: '318 emplois'
+    description: "`zone--split--flush` enlève l'espace : les carrelages se touchent et une ligne fine les distingue. Une classe sur le mur suffit, les lignes l'héritent."
+  deploys:
+    title: Déploiements
+    figure: "7 aujourd'hui"
+    description: "Sans cela, le même mur garde l'espace entre ses carrelages, à travers lequel le sol apparaît — changez dans la barre ci-dessus."

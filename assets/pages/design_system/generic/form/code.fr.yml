@@ -1,0 +1,11 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Code
+page_icon: 'ph:bold/code'
+intro: "Un champ qui contient du code, coloré par sa grammaire. Il est livré avec symfony-coding et non avec le système de design, dont il emprunte seulement : son cadre est celui d'un champ, ses couleurs sont les tokens de code du schéma, sa ligne actuelle et sa sélection sont les nuances du schéma - il suit donc le visage clair et foncé comme tout ce qui l'entoure."
+section:
+  server:
+    title: 'Champ serveur'
+    description: "Une véritable zone de texte, recouverte par l'éditeur une fois la page exécutée. La zone de texte reste le champ - envoyée avec le formulaire, communiquée par la pile de formulaires - donc le formulaire fonctionne de la même manière avec ou sans elle. Sélectionnez plusieurs lignes, la ligne du curseur parmi elles : la sélection reste visible."
+  vue:
+    title: 'Champ Vue'
+    description: "Le même éditeur tenant un modèle : v-model à l'entrée et à la sortie, la langue étant une prop qui peut changer pendant que le champ est ouvert."

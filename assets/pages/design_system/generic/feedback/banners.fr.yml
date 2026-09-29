@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bannières
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: "La même bannière en ligne qu'un partiel vue, prenant le même type et message; le shell que le service de bannière remplit est un fichier différent."
+  banners:
+    neutral: 'Ceci est un message de bannière neutre.'
+    info: "Ceci est un message de bannière d'information."
+    warning: "Ceci est un message de bannière d'avertissement."
+    error: "Ceci est un message de bannière d'erreur."
+    success: 'Ceci est un message de bannière de succès.'
+  layout_banner:
+    description: "Les bannières sont principalement utilisées au niveau de la mise en page pour afficher des messages importants sur l'activité en arrière-plan comme l'état de la connexion Internet."
+    button: 'Afficher la bannière'
+    messages:
+      info: "Message d'information de la bannière de mise en page."
+      success: 'Message de succès de la bannière de mise en page.'
+      warning: "Message d'avertissement de la bannière de mise en page."
+      error: "Message d'erreur de la bannière de mise en page."

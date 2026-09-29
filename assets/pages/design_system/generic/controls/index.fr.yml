@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Contrôles
+page_icon: 'ph:bold/cursor-click'
+intro: "Ce par quoi un lecteur agit. Chacun d'eux prend une action plutôt qu'une valeur — un champ de formulaire prend la valeur, et vit dans la section suivante."
+page:
+  buttons:
+    title: Boutons
+    description: "Celui qui fait quelque chose, dans ses variantes, ses états et ses densités, plus le lien et la cible qui s'ouvrent ailleurs."
+  menus:
+    title: Menus
+    description: 'Un bouton qui ouvre une liste de choix, se plaçant contre les bords de la fenêtre, en twig et en vue.'
+  steppers:
+    title: Étapes
+    description: "Où un lecteur se positionne dans une séquence d'étapes, avec celles derrière pour revenir en arrière."
+section:
+  compound:
+    title: 'Tout ensemble'
+    description: "Le même ensemble de contrôles dans trois contextes : un bloc rembourré, une barre d'outils et une barre d'outils compacte. Rien ne change à propos des contrôles entre les trois — la région est ce qui leur indique combien d'espace ils ont."
+button:
+  primary: 'Bouton principal'
+select:
+  option_one: 'Option un'
+  option_two: 'Option deux'
+  option_three: 'Option trois'
+menu:
+  primary: 'Bouton de menu'
+  item:
+    report: Rapporter
+    settings: Paramètres
+    logout: Déconnexion
+    long: 'Avec un titre assez, assez, assez, assez long'
+switch:
+  label_right: 'Activer la fonction'
+link:
+  external: 'Lien externe'

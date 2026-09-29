@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Chat
+page_icon: 'ph:bold/chats-circle'
+chat:
+  title: 'Exemple de chat'
+vue:
+  title: Vue
+  description: |
+    Le même fil et le même rédacteur, dessinés par le composant de chat de l'entité. Il contient une collection d'entités et ne sait rien de ce qu'elles sont : l'auteur, le texte et la date sont lus à travers des projections qu'une sous-classe remplace, et un message soumis sort par le biais du dépôt comme n'importe quelle autre création. La réponse est écrite une fois la demande terminée, donc elle ne peut pas revenir dans la réponse au message : elle atteint la page par le biais de l'abonnement en direct que ce fil maintient dans sa salle.
+description:
+  body: |
+    Ce terrain de jeu de chat est utilisé pour valider le rythme des messages, l'espacement et la densité verticale avant le style final de l'interface utilisateur. Gardez ce bloc intentionnellement verbeux afin que la mise en page ait suffisamment de hauteur pour simuler un flux de conversation réaliste, y compris des lignes de longueur moyenne et longue, un comportement de retour à la ligne, et des pauses de lecture naturelles à travers plusieurs phrases. L'objectif est de fournir une base visuelle stable que les futurs composants de chat pourront suivre, de sorte que les mesures restent cohérentes lors du remplacement de ce texte par de vrais messages d'utilisateur et d'assistant.
+composer:
+  placeholder: 'Écrivez un message...'
+  submit_label: 'Envoyer le message'
+  action_plus_label: 'Ajouter du contenu'
+  action_smiley_label: 'Insérer un emoji'
+  multiline_value: |
+    Ceci est un brouillon de chat plus long utilisé pour prévisualiser l'état multiligne. Il s'étend sur plusieurs lignes afin que la différence visuelle avec le champ sur une seule ligne soit évidente.
+messages:
+  user_1: |
+    Peux-tu résumer les points d'action de la synchronisation d'hier et ne garder que les décisions que nous pouvons exécuter cette semaine ?
+  user_2: |
+    Garde également la sortie courte car cela sera copié dans la barre latérale du manager.
+  assistant_1: |
+    Bien sûr. Je peux fournir un résumé concis avec des priorités, des responsables et des prochains points de contrôle.
+  assistant_2: |
+    Je ne garderai que les décisions validées et retirerai les questions ouvertes qui nécessitent encore une découverte.
+  assistant_3: |
+    Structure proposée : 1. Actions immédiates. 2. Dépendances. 3. Risques à surveiller.
+  assistant_4: |
+    Une fois validée, cette structure peut devenir le modèle par défaut pour le menu de chat dans le manager.

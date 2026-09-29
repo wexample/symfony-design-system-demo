@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Couleurs
+page_icon: 'ph:bold/palette'
+intro: "Aucun nom de composant ne désigne une couleur. Ils désignent un rôle — une surface, une bordure, un état — et le thème décide de l'apparence de ce rôle sur chacune de ses faces. Changez le schéma depuis l'en-tête et observez chaque échantillon ci-dessous se déplacer sans qu'aucun ne soit redéfini."
+section:
+  surfaces:
+    title: Surfaces
+    description: "Une échelle d'élévation au-dessus de la page. La face claire les classe par légèreté, la face sombre par la distance à laquelle chacune est soulevée par rapport à l'arrière-plan — c'est pourquoi un composant demande un niveau et jamais un gris."
+  invert:
+    title: 'Niveaux inversés'
+    description: "Vingt étapes de la couleur du texte posées sur l'arrière-plan, et la source de presque toutes les bordures, textes atténués et états de survol dans le système. Le niveau 1 est à peine présent, le niveau 20 est le texte lui-même."
+  semantic:
+    title: 'Familles sémantiques'
+    description: "Cinq familles, lues de la page au texte à travers la couleur : le niveau 1 est la couleur à peine teintée sur la page, 17 est la couleur entière, 32 est la couleur à peine teintée sur le texte. En dessous du milieu se trouvent les fonds ; au-dessus, l'encre, qui s'éclaircit sur la face sombre et s'assombrit sur la claire. Un composant choisit un niveau et non un hex, ce qui permet au même message d'être bien compris sur les deux faces."
+  categories:
+    title: 'Palette catégorielle'
+    description: "Treize couleurs qui ne signifient rien d'autre que \"pas celle à côté\" : la série d'un graphique, les segments d'une distribution, les étapes d'un flux de travail. Nommées, pas numérotées — une application choisit `cat-mint` parce que cela ressemble à de la menthe. Chacune vient avec une variante claire et une variante sombre, fixes sur les deux faces comme le remplissage ; l'encre écrite sur un remplissage devient sombre là où la couleur est claire. Quelle catégorie est quelle couleur est le choix de l'application, jamais celui du système de design."
+  text:
+    title: Texte
+    description: "Trois niveaux d'attention. Ce qui est lu, ce qui le qualifie, et ce qui n'est là que pour être trouvé lorsqu'on le cherche."
+  borders:
+    title: Bordures
+    description: "Quatre poids, distingués par ce qu'ils séparent : deux choses à l'intérieur d'une même région, deux régions d'une page, ou un champ de ce qui se trouve derrière lui."
+surface:
+  page: 'La page elle-même, et ce qui montre entre les zones'
+  shell: 'Menu, en-tête, pied de page'
+  zone: "Le sol sur lequel une région d'une page se tient"
+  one: 'Entrées et champs'
+  two: "Boutons, barres d'outils"
+  three: 'Blocs, cartes, modaux'
+text:
+  default: 'Ce qui est lu'
+  muted: 'Étiquettes, méta, sous-titres'
+  subtle: 'Séparateurs et états vides'

@@ -1,0 +1,6 @@
+page_title: 'Test modal - simple'
+message: 'Ceci est un modal simple.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Êtes-vous sûr de vouloir fermer ce modal ?'
