@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Moduli
+page_icon: 'ph:bold/textbox'
+intro: 'Un insieme di campi, cosa fa quando viene inviato e cosa dice quando torna. I campi stessi si trovano in Controlli; ciò che queste pagine aggiungono è il viaggio di andata e ritorno.'
+page:
+  inputs:
+    title: Ingressi
+    description: 'Ogni campo fornito dal sistema e il contratto che consente a un agente di prenderne uno, compilarlo e restituirlo.'
+  basic:
+    title: 'Moduli di base'
+    description: 'Il caso semplice: un modulo reso dal server, inviato dal browser, risposto da una pagina.'
+  rendered:
+    title: 'Moduli avanzati'
+    description: 'Moduli costruiti dal componente modulo, con i loro comportamenti di invio e lo stato in cui tornano.'
+  ajax:
+    title: 'Moduli Ajax'
+    description: 'Un modulo che risponde senza lasciare la pagina, e cosa fa con ciò che torna.'
+  vue:
+    title: 'Moduli Vue'
+    description: 'Gli stessi moduli gestiti da un componente, dove i campi sono stato piuttosto che markup.'

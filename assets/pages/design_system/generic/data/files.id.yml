@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Berkas
+page_icon: 'ph:bold/folder-open'
+intro: 'Sebuah penjelajah berkas selebar halaman. Ia tidak tahu dari mana berkas-berkas itu berasal: ia meminta isi dari sebuah folder dan mengambil entitas berkas kembali — sama seperti pemuat yang digunakan pohon — sehingga sebuah disk, indeks, arsip, atau api semuanya dibaca dengan cara yang sama.'
+root: Berkas
+section:
+  vue:
+    title: Penjelajah
+    description: 'Folder di samping, isi folder sebagai daftar yang diurutkan berdasarkan kolom manapun atau sebagai grid; kembali, maju, dan naik; sebuah filter; pemilihan dengan mouse — ctrl, shift — dan keyboard — panah, Enter, Backspace, ctrl+A, Escape; lebih banyak diminta ketika sebuah folder memuat lebih dari satu halaman. Klik dua kali masuk ke dalam sebuah folder dan memberikan berkas ke halaman. Tampilan dan urutan diingat.'
+  twig:
+    title: 'Digambar oleh server'
+    description: 'Sebuah folder, sebagai daftar atau grid, setiap item adalah tautan: sebuah folder ke halaman yang sama yang dibuka di dalamnya — di sini melalui ?folder= — sebuah berkas ke mana pun halaman mengirimnya.'

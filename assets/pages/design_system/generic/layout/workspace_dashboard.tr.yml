@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Gösterge Paneli'
+page_icon: 'ph:bold/squares-four'
+mode:
+  reopen: 'API panelini yeniden aç'
+  gap: Boşluklarla
+  flush: Boşalt
+state:
+  success: Normal
+  warning: 'Düşük performans'
+  error: Başarısız
+  running: Boşaltılıyor
+tile:
+  traffic:
+    title: Trafik
+    figure: '12.4k req/dak'
+    description: 'Bir bölünme içindeki bölünmeler: duvar, her biri kendi bölünmesi olan satırlardan oluşan dikey bir bölünmedir. Bu satırın altındaki kenarı sürükleyerek daha fazla yükseklik verin veya bu karonun yanındakini daha fazla genişlik için sürükleyin.'
+  latency:
+    title: 'Gecikme p95'
+    figure: '184 ms'
+    description: 'Her karonun bir katı temsil eder, `zone--min-*`: altında karonun sıkışmadığı, çerçevenin onun yerine kaydığı — hem yan hem de aşağıya doğru.'
+  errors:
+    title: Hatalar
+    figure: '2.1 %'
+    description: 'Boyutlandırıldığında, bir bölge, bölünme ekseni boyunca bırakıldığı boyutu korur ve ona geri döner; sapın üzerine çift tıklamak onu tekrar bölünmeye döndürür.'
+  queue:
+    title: Kuyruk
+    figure: '318 iş'
+    description: '`zone--split--flush` boşluğu bir piksele daraltır, duvarın tabanı karolar arasında çizgiyi çizer. Duvar üzerinde bir sınıf yeterlidir, satırlar bunu miras alır.'
+  deploys:
+    title: Dağıtımlar
+    figure: 'Bugün 7'
+    description: 'Bunun olmaması durumunda aynı duvar, karolar arasındaki alanı korur, sayfanın tabanı üzerinden gösterilir — yukarıdaki çubukta geçiş yapın. Yalnızca görüldüğünde yüklenen bir panel için sağa kaydırın.'

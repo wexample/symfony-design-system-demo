@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Sohbet
+page_icon: 'ph:bold/chats-circle'
+chat:
+  title: 'Sohbet örneği'
+vue:
+  title: Vue
+  description: |
+    Aynı konu ve aynı oluşturucu, varlık sohbet bileşeni tarafından çizilir. Bir dizi varlık barındırır ve bunların ne olduğunu bilmez: yazar, metin ve tarih, bir alt sınıfın geçersiz kılacağı projeksiyonlar aracılığıyla okunur ve gönderilen bir mesaj, diğer tüm oluşturma işlemleri gibi depo aracılığıyla çıkar. Cevap, istek tamamlandığında yazılır, bu nedenle mesajın yanıtında geri dönemez: bu konu, bu odada sürdürdüğü canlı abonelik aracılığıyla sayfaya ulaşır.
+description:
+  body: |
+    Bu sohbet oyun alanı, nihai UI stilinden önce mesaj ritmini, aralığını ve dikey yoğunluğunu doğrulamak için kullanılır. Bu bloğu kasıtlı olarak ayrıntılı tutun, böylece düzenin gerçekçi bir konuşma akışını simüle etmek için yeterli yüksekliğe sahip olmasını sağlar; orta ve uzun satırlar, sarma davranışı ve birden fazla cümle arasında doğal okuma durakları dahil. Amaç, gelecekteki sohbet bileşenlerinin takip edebileceği kararlı bir görsel temel sağlamaktır, böylece bu metni gerçek kullanıcı ve asistan mesajlarıyla değiştirdiğinde ölçümler tutarlı kalır.
+composer:
+  placeholder: 'Bir mesaj yazın...'
+  submit_label: 'Mesaj gönder'
+  action_plus_label: 'İçerik ekle'
+  action_smiley_label: 'Emojiyi ekle'
+  multiline_value: |
+    Bu, çok satırlı durumu önizlemek için kullanılan daha uzun bir sohbet taslağıdır. Görsel farkın tek satırlı alanla belirgin olması için birden fazla satıra sarar.
+messages:
+  user_1: 'Dün yapılan senkronizasyondan eylem maddelerini özetleyebilir misin ve bu hafta uygulayabileceğimiz kararları tut?'
+  user_2: 'Çıktıyı kısa tut, çünkü bu yöneticinin yan çubuğuna kopyalanacak.'
+  assistant_1: 'Tabii. Öncelikler, sahipler ve bir sonraki kontrol noktaları ile birlikte özlü bir özet sağlayabilirim.'
+  assistant_2: 'Sadece onaylanmış kararları tutacağım ve hala keşif gerektiren açık soruları kaldıracağım.'
+  assistant_3: 'Önerilen yapı: 1. Acil eylemler. 2. Bağımlılıklar. 3. İzlenmesi gereken riskler.'
+  assistant_4: 'Onaylandıktan sonra, bu yapı yöneticideki sohbet menüsü için varsayılan şablon haline gelebilir.'

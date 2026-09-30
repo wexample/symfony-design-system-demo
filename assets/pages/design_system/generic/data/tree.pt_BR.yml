@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Árvore
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: 'Explorador de arquivos'
+    description: 'A aninhamento é toda a estrutura: um item se abre quando está aberto, e sua profundidade é o que indenta a linha enquanto a marcação ainda se estende por toda a largura.'
+  vue:
+    title: Vue
+    description: 'Mesma marcação, mesma forma, mas as pastas abrem e fecham: o chevron é o que dobra um nó, e um clique em qualquer outro lugar da linha seleciona o item e o envia como um evento de seleção.'
+  vue_workspace:
+    title: 'Vue, em um espaço de trabalho'
+    description: 'O explorador como um aplicativo é entregue assim: a árvore vue na zona rolável de uma divisão, contendo mais linhas do que a zona é alta e nomes mais longos do que é larga. A zona rola em ambos os eixos e a barra horizontal permanece em seu piso, independentemente de qual seja a última linha.'
+  plain:
+    title: 'Sem ícones'
+    description: 'A forma não sabe nada sobre arquivos — um item sem ícone e sem link é exibido como texto simples.'
+explorer:
+  scope:
+    project: Projeto
+    packages: Pacotes
+    scratches: Rascunhos
+    changed: 'Arquivos Alterados'
+  option:
+    filters: Filtros
+    sort: 'Ordenar por nome'
+    hidden: 'Mostrar arquivos ocultos'
+  action:
+    new: 'Novo arquivo'
+    locate: 'Selecionar arquivo aberto'
+    collapse: 'Colapsar tudo'
+  body: 'A árvore não tem largura nem altura próprias: a zona ao lado é uma zona comum, e cada lado rola sozinho.'
+plain:
+  root: Raiz
+  child: 'Primeiro filho'
+  sibling: 'Segundo filho'

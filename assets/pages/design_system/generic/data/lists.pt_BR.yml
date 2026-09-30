@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Listas
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: Padrão
+  empty:
+    title: 'Estado vazio'
+search:
+  placeholder: 'Filtrar a lista...'
+header:
+  filter: Filtrar
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'Conexão SQL gerenciada para cargas de trabalho transacionais'
+  s3:
+    title: 'Amazon S3'
+    body: 'Conector de armazenamento de objetos para importações e exportações'
+  webhook:
+    title: Webhook
+    body: 'Acionar e receber eventos de sistemas externos'
+  redis:
+    title: Redis
+    body: 'Cache em memória e mensagens pub/sub'
+  mongo:
+    title: MongoDB
+    body: 'Armazenamento de documentos para cargas de trabalho com esquema flexível'

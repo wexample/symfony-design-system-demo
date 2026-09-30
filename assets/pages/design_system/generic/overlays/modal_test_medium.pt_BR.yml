@@ -1,0 +1,6 @@
+page_title: 'Teste de modal - médio'
+intro: 'Este modal usa um texto de corpo de comprimento médio.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Você tem certeza de que deseja fechar este modal?'

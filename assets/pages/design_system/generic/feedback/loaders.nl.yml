@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Laders
+page_icon: 'ph:bold/spinner-gap'
+intro: 'Er gebeurt iets en het einde is niet bekend. Beide zeggen dat veel en weigeren meer te zeggen — waar het einde bekend is, zegt de balk op het volgende tabblad het in plaats daarvan.'
+section:
+  spinner:
+    title: Spinner
+    description: 'Een machine is bezig. Drie maten, en een inline uitlijning voor wanneer het in een regel tekst staat in plaats van in een eigen vak.'
+  dots:
+    title: Punten
+    description: 'Er staat iets te gebeuren. Dezelfde drie maten, en dezelfde uitlijningen — wat verandert is voor wie de lezer wacht.'
+  vue:
+    title: Vue
+    description: 'Beide worden ook als vue-partials geleverd, met dezelfde opties, voor een pagina die tijdens het draaien besluit of er iets is om op te wachten.'
+spinner:
+  label: Laden
+  inline: 'Gegevens verwerken'
+dots:
+  label: Wachten
+  inline: 'De andere kant is aan het schrijven'

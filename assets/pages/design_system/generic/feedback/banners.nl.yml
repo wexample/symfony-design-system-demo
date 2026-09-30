@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Banners
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Dezelfde inline banner als een vue partial, met hetzelfde type en bericht; de shell die de banner service invult is een ander bestand.'
+  banners:
+    neutral: 'Dit is een neutraal bannerbericht.'
+    info: 'Dit is een informatief bannerbericht.'
+    warning: 'Dit is een waarschuwingsbannerbericht.'
+    error: 'Dit is een foutbannerbericht.'
+    success: 'Dit is een succesbannerbericht.'
+  layout_banner:
+    description: 'Banners worden voornamelijk op lay-outniveau gebruikt om belangrijke berichten over achtergrondactiviteit weer te geven, zoals de status van de internetverbinding.'
+    button: 'Toon banner'
+    messages:
+      info: 'Informatiebericht voor lay-outbanner.'
+      success: 'Succesbericht voor lay-outbanner.'
+      warning: 'Waarschuwingsbericht voor lay-outbanner.'
+      error: 'Foutbericht voor lay-outbanner.'

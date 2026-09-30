@@ -1,0 +1,15 @@
+page_title: 'Tab dengan persistensi'
+tab:
+  overview: Ikhtisar
+  details: Detail
+  settings: Pengaturan
+  loading: 'Bilah pemuatan'
+content:
+  overview: 'Ini adalah tab Ikhtisar. Beralih tab lalu tekan F5 — tab ini akan tetap aktif saat overlay dibuka kembali.'
+  details: 'Ini adalah tab Detail. Tab yang aktif disimpan dalam hash URL, sehingga tetap ada saat halaman dimuat ulang.'
+  settings: 'Ini adalah tab Pengaturan. Baik overlay (modal/panel) maupun tab yang aktif dipulihkan dari hash URL.'
+  loading: 'Gunakan tombol di bawah ini untuk memicu animasi bilah pemuatan secara manual. Bilah ini muncul di bagian atas overlay saat pengiriman formulir sedang berlangsung.'
+loading:
+  start: Mulai
+  end: Selesai
+  simulate: 'Simulasikan (isi otomatis)'

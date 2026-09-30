@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Lijsten
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: Standaard
+  empty:
+    title: 'Lege staat'
+search:
+  placeholder: 'Filter de lijst...'
+header:
+  filter: Filter
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'Beheerde SQL-verbinding voor transactionele workloads'
+  s3:
+    title: 'Amazon S3'
+    body: 'Objectopslagconnector voor import en export'
+  webhook:
+    title: Webhook
+    body: 'Trigger en ontvang gebeurtenissen van externe systemen'
+  redis:
+    title: Redis
+    body: 'In-memory cache en pub/sub messaging'
+  mongo:
+    title: MongoDB
+    body: 'Documentopslag voor flexibele schema-workloads'

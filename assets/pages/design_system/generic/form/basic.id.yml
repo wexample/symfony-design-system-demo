@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Formulir
+page_icon: 'ph:bold/rows'
+section:
+  default:
+    title: 'Formulir Dasar'
+  block:
+    title: 'Formulir Blok'
+  assisted:
+    title: Dibantu
+field:
+  title:
+    label: Judul
+    placeholder: 'Masukkan judul'
+  message:
+    label: Pesan
+    placeholder: 'Tulis pesan singkat'
+  date:
+    label: Tanggal
+  datetime:
+    label: 'Tanggal & waktu'
+  time:
+    label: Waktu
+  file:
+    label: Berkas
+  email:
+    label: Email
+  number:
+    label: Nomor
+  url:
+    label: URL
+action:
+  submit: Kirim
+  secondary: 'Tindakan sekunder'
+  raw_submit: 'Kirim mentah'
+  link: 'Tautan sederhana'

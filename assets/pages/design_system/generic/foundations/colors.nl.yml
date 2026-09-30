@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kleuren
+page_icon: 'ph:bold/palette'
+intro: 'Geen enkele component benoemt een kleur. Ze benoemen een rol — een oppervlak, een rand, een toestand — en het thema bepaalt hoe die rol eruitziet op elk van zijn vlakken. Wissel het schema vanuit de kop en kijk hoe elke kleurstaal hieronder beweegt zonder dat er ook maar één opnieuw gedefinieerd wordt.'
+section:
+  surfaces:
+    title: Oppervlakken
+    description: 'Een hoogte-ladder boven de pagina. De lichte kant rangschikt ze op lichtheid, de donkere kant op hoe ver elk is opgetild van de achtergrond — daarom vraagt een component om een niveau en nooit om een grijs.'
+  invert:
+    title: 'Niveaus omkeren'
+    description: 'Twintig stappen van de tekstkleur over de achtergrond, en de bron van bijna elke rand, gedempte tekst en hover-toestand in het systeem. Niveau 1 is nauwelijks aanwezig, niveau 20 is de tekst zelf.'
+  semantic:
+    title: 'Semantische families'
+    description: 'Vijf families, gelezen van de pagina naar de tekst door de kleur: niveau 1 is de kleur die de pagina nauwelijks tint, 17 is de kleur volledig, 32 is de kleur die de tekst nauwelijks tint. Onder het midden zijn gronden; erboven is inkt, die lichter wordt op de donkere kant en dieper op de lichte. Een component kiest een niveau en niet een hex, wat ervoor zorgt dat dezelfde boodschap correct gelezen kan worden op beide vlakken.'
+  categories:
+    title: 'Categorische palet'
+    description: 'Dertien kleuren die niets anders betekenen dan "niet de kleur ernaast": de reeks van een grafiek, de segmenten van een verdeling, de fasen van een workflow. Genoemd, niet genummerd — een app kiest `cat-munt` omdat het eruitziet als munt. Elke kleur heeft een lichte en een donkere variant, vastgezet op beide vlakken zoals de vul; de inkt die op een vul is geschreven wordt donker waar de kleur licht is. Welke categorie welke kleur is, is de keuze van de app, nooit van het ontwerp systeem.'
+  text:
+    title: Tekst
+    description: 'Drie niveaus van aandacht. Wat gelezen wordt, wat het kwalificeert, en wat alleen te vinden is als ernaar gekeken wordt.'
+  borders:
+    title: Randen
+    description: 'Vier gewichten, onderscheiden door wat ze scheiden: twee dingen binnen één gebied, twee gebieden van een pagina, of een veld van wat erachter ligt.'
+surface:
+  page: 'De pagina zelf, en wat tussen de zones zichtbaar is'
+  shell: 'Menu, kop, voettekst'
+  zone: 'De grond waarop een gebied van een pagina staat'
+  one: 'Invoervelden en velden'
+  two: 'Knoppen, werkbalken'
+  three: 'Blokken, kaarten, modals'
+text:
+  default: 'Wat gelezen wordt'
+  muted: 'Labels, meta, ondertitels'
+  subtle: 'Scheidingstekens en lege toestanden'

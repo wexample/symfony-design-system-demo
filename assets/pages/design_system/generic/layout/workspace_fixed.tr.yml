@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Sabit genişlik'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: 'Aynı üç bölge, ancak okuduğunuz bölge bir genişliğe sahip ve bu genişlik istenmeyen bir bölgeye gidiyor — içinde hiçbir şey olmayan bir bölgeye.'
+section:
+  sized:
+    title: 'Genişliği belirlenmiş bir bölge'
+    description: '`zone--narrow` ile bir boyut adımı: bölge bu kadar geniş ve pencerenin ne kadar alanı olursa olsun bu genişlikte kalıyor. Metnin okunabilir kalması böyle sağlanır — ekranla birlikte büyüyen bir sütun artık bir sütun olmaktan çıkar.'
+  slack:
+    title: 'Boş alan ne için'
+    description: 'Son bölge hiçbir şey tutmuyor ama yine de yerini koruyor: boş olmak yok demek değildir ve bekleyen bir panel, bir delik olarak değil, bir panel olarak görünür. İstenmeyen genişliği almak için vardır.'
+    more: 'Bir bölme, artan kısmı ne isterse ona verir. Hiçbir şey istemediğinde, genişliği belirlenmiş bölgeler gerilir veya kenarlara itilir; bununla, genişliklerini korur ve sayfa geri kalanını alır.'
+work:
+  size: 32rem

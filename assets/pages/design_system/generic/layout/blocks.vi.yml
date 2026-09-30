@@ -1,0 +1,115 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Khối
+page_icon: 'ph:bold/squares-four'
+tone:
+  body: 'mặt đất vẫn là của khối, chỉ có cạnh dẫn mới mang màu sắc.'
+section:
+  tone:
+    title: 'Một khối mang tông màu'
+    description: 'Màu sắc của một trạng thái — hoặc của một thể loại — như một thanh dọc theo cạnh dẫn, và không gì khác: cùng một thanh mà một thông điệp mặc, không có nền được tô màu, để danh sách của chúng được đọc như một danh sách chứ không phải như một cảnh báo. Bất kỳ khối nào cũng có thể nhận nó, bao gồm cả một thanh đứng trên một khối.'
+  default:
+    title: 'Khối cơ bản'
+  advanced:
+    title: 'Khối nâng cao'
+  aside:
+    title: 'Cột bên cố định'
+    description: 'Một cột hẹp được định cỡ theo thang --size, bên cạnh một thân hấp thụ chiều rộng còn lại.'
+  card:
+    title: Thẻ
+  link:
+    title: 'Một khối là liên kết'
+    description: 'Toàn bộ thẻ là liên kết — cho một lựa chọn được thực hiện bằng cách chọn một thẻ trong số nhiều thẻ: một kế hoạch, một nhánh, một mẫu. Nó được đọc như văn bản, không phải như một hành động mờ nhạt; dưới con trỏ, nền của nó mang một sắc thái và cạnh của nó cứng lại, và bàn phím tìm thấy nó qua vòng tiêu điểm mà mỗi điều khiển đều mang.'
+  figure:
+    title: 'Hình ảnh'
+    description: 'Một giá trị hoặc biểu tượng lớn duy nhất, được căn giữa. Sử dụng cho các bộ đếm trên bảng điều khiển và các ô trạng thái — thêm block--square để giữ ô vuông bất kể chiều rộng của nó.'
+  stacks:
+    title: Chồng
+  stack_horizontal:
+    title: Ngang
+    description: 'Các cột bằng nhau, chiều rộng đầy đủ, gói lại khi tràn.'
+  stack_vertical:
+    title: Dọc
+    description: 'Các hàng xếp chồng, chiều rộng đầy đủ, khoảng cách đồng nhất.'
+  stack_split:
+    title: 'Chia tách'
+    description: 'Con đầu tiên phát triển, con cuối cùng giữ cố định — được sử dụng cho hàng dẫn + hành động.'
+  stack_nested:
+    title: 'Lồng ghép'
+    description: 'Chồng ngang chứa các chồng dọc — lưới bảng điều khiển điển hình.'
+stack:
+  item:
+    one: Một
+    two: Hai
+    three: Ba
+    four: Bốn
+    lead: 'Mô tả hành động trong văn bản dẫn này.'
+    action: 'Hành động'
+block:
+  title: 'Tiêu đề khối'
+  no_padding: 'Khối không có đệm (sử dụng block--body).'
+  one:
+    title: 'Khối chính'
+    description: 'Một khối có tiêu đề và văn bản cơ thể.'
+  two:
+    title: 'Khối phụ'
+    description: 'Một khối khác để minh họa khoảng cách.'
+  three:
+    title: 'Khối thứ ba'
+    description: 'Một khối thứ ba trong hàng.'
+  four:
+    title: 'Khối thứ tư'
+    description: 'Một khối thứ tư cho bản demo bố cục.'
+  advanced:
+    title: 'Dự đoán quy trình'
+    status: 'Sẵn sàng'
+    description: 'Khối này kết hợp các khe tiêu đề và nội dung trong một cấu trúc có thể tái sử dụng duy nhất.'
+    details: 'Các toán tử có thể được thêm vào mà không cần rời khỏi ngữ cảnh hiện tại.'
+  zones:
+    main:
+      title: 'Khu vực chính'
+      description: 'Nội dung chính có thể phát triển tự nhiên với khoảng cách tiêu chuẩn.'
+    aside:
+      title: 'Khu vực bên'
+      description: 'Khu vực bên này sử dụng nền sáng để làm nổi bật nội dung bổ sung.'
+  zones_three:
+    title: 'Bố cục ba khu vực'
+    status: Nháp
+    left:
+      title: 'Bảng bên trái'
+      description: 'Điều hướng phụ hoặc siêu dữ liệu có thể sống ở đây.'
+    main:
+      title: 'Nội dung chính'
+      description: 'Thông tin chính được giữ ở giữa để dễ đọc.'
+    right:
+      title: 'Bảng bên phải'
+      description: 'Các hành động và thông tin ngữ cảnh có thể được nhóm ở phía bên này.'
+    footer:
+      meta: 'Cập nhật 2 phút trước'
+      action: 'Mở chi tiết'
+figure:
+  projections: 'Dự đoán'
+  uptime: 'Thời gian hoạt động'
+  status: 'Trực tiếp'
+  framed:
+    title: 'Lưu lượng'
+    label: 'Sự kiện mỗi giây'
+tab:
+  one: 'Tổng quan'
+  two: 'Hoạt động'
+  three: 'Cài đặt'
+button:
+  create: 'Tạo dự đoán'
+  refresh: 'Làm mới dữ liệu'
+  export: Xuất
+action:
+  add_projection: 'Thêm dự đoán'
+link:
+  starter:
+    title: 'Người bắt đầu'
+    description: 'Một người, những điều thiết yếu, không cần phải trả tiền.'
+  team:
+    title: Nhóm
+    description: 'Một vài người làm việc trên cùng một thứ.'
+  company:
+    title: 'Công ty'
+    description: 'Mỗi nhóm, với các điều khiển mà một tổ chức yêu cầu.'

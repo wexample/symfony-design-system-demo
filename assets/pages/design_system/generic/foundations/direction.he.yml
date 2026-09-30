@@ -1,1 +1,37 @@
 ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: כיוון
+page_icon: 'ph:bold/arrows-left-right'
+intro: 'אותם דוגמאות פעמיים, משמאל לימין ומימין לשמאל. שום דבר כאן לא נכתב עבור הצד מימין לשמאל: כל גיליון סגנון מדבר על התחלה וסוף של שורה, כך שחסימת טקסט עם `dir="rtl"` — או דף בערבית — משקפת את עצמה. חיצים מצביעים בכיוון ההפוך, ידית של מתג נעה בכיוון ההפוך, תפריט נפתח לכיוון הסוף, ודוא"ל או נתיב ממשיכים להיקרא משמאל לימין.'
+side:
+  ltr: 'משמאל לימין'
+  rtl: 'מימין לשמאל'
+sample:
+  navigation: ניווט
+  controls: בקרים
+  data: נתונים
+  text: טקסט
+step:
+  account: חשבון
+  address: כתובת
+  payment: תשלום
+action:
+  previous: קודם
+  next: הבא
+  menu: תפריט
+menu:
+  report: 'דו"ח'
+  settings: הגדרות
+control:
+  notifications: התראות
+  digest: 'סיכום שבועי'
+  upload: העלה
+field:
+  owner: בעלים
+  email: 'דוא"ל'
+  site: אתר
+  amount: סכום
+text:
+  lead: 'פסקת פתיחה נושאת את הכלל מהצד שבו השורה מתחילה.'
+  mixed: 'ערכים שומרים על הכיוון שלהם בתוך משפט — שאל את layla.haddad@example.test, הרץ'
+  marker: נמסר
+  link: תיעוד

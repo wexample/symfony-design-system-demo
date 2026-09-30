@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Không gian làm việc'
+page_icon: 'ph:bold/sidebar-simple'
+intro: 'Trang này là ví dụ: những gì bạn đang đọc nằm ở giữa ba vùng, được đặt cạnh nhau trong thân trang.'
+section:
+  gap:
+    title: 'Khoảng cách là bộ phân cách'
+    description: 'Không có gì được vẽ giữa hai vùng. Điều phân biệt chúng là khoảng trống mà chúng để lại giữa chúng, qua đó trang hiển thị — cùng mặt bằng mà menu và tiêu đề đứng trên đó. Mỗi vùng mang theo của riêng nó, đó là mặt đất mà một thân luôn có.'
+  each:
+    title: 'Mỗi cái tự nó'
+    description: 'Hai cột giữ chiều rộng mà chúng được cho và cột giữa lấy những gì còn lại. Cuộn một trong ba cái và hai cái còn lại sẽ giữ nguyên vị trí: một vùng giữ riêng phần tràn của nó, và trang sẽ không giữ gì cả.'
+    more: 'Một vùng không biết gì về hàng xóm của nó. Trình khám phá bên trái là một phần tách biệt của riêng nó — một thanh giữ nguyên, một cây cuộn bên dưới nó — và nó sẽ có hình dạng giống nhau ở bất kỳ đâu trên trang.'
+  size:
+    title: 'Kích thước một trong số đó'
+    description: 'Vùng bên trái mang theo một `zone-resizer`: một tay cầm lấp đầy khoảng trống bên cạnh, không vẽ gì — con trỏ cho biết nó có thể di chuyển. Kéo nó, hoặc cho nó được tập trung và sử dụng các mũi tên; một cú nhấp đúp trả lại chiều rộng mà trang đã cho vùng đó.'
+    more: 'Một tay cầm điều chỉnh một vùng có kích thước — một vùng được cho chiều rộng thay vì lấy những gì còn lại — và vùng linh hoạt bên cạnh hấp thụ sự khác biệt. Chiều rộng được nhớ dưới tên vùng, vì vậy nó trở lại với trang, ở đây trên cả ba bố cục vì nó là cùng một vùng di chuyển.'
+editor:
+  state: 'Đã lưu'
+inspector:
+  title: 'Chi tiết'
+  field:
+    path:
+      key: 'Đường dẫn'
+    size:
+      key: 'Kích thước'
+    changed:
+      key: 'Đã thay đổi'
+      value: '3 phút trước'

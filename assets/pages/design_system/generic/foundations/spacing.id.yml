@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Jarak
+page_icon: 'ph:bold/ruler'
+intro: 'Dua skala dan satu aturan. Sebuah bentuk tidak menuliskan panjang: ia melewati satu langkah, yang menjaga agar dua komponen yang ditulis satu tahun terpisah tidak menjadi dua piksel keluar dari ritme.'
+section:
+  space:
+    title: 'Langkah jarak'
+    description: 'Sembilan langkah, dari garis tipis hingga margin halaman. Padding, celah, dan margin semuanya berasal dari sini — sebuah nilai antara dua langkah adalah nilai yang belum ditentukan.'
+  size:
+    title: Ukuran
+    description: 'Lebar dan tinggi yang diberikan pada suatu area: sebuah kolom, panel, ukuran bacaan. Lebih besar dari langkah jarak dan digunakan untuk alasan yang sama.'
+  density:
+    title: Kepadatan
+    description: 'Kepadatan milik suatu area dan bukan widget. Sebuah bilah yang dinyatakan padat membuat apa yang dipegangnya juga padat, karena token yang membawanya mewarisi — tidak ada komponen di bawah yang diberitahu di mana posisinya.'
+density:
+  roomy: 'Toolbar pada kepadatannya sendiri, dan tombol-tombol yang dipegangnya'
+  compact: 'Toolbar yang sama dinyatakan padat — tidak ada yang dikatakan tentang tombol-tombolnya'
+  marker: 'Sebuah area dinyatakan padat tanpa menjadi bentuknya sendiri'
+  action: Buat
+  other: Segarkan

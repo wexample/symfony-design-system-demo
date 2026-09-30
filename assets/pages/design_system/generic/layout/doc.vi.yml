@@ -1,0 +1,15 @@
+page_title: 'Bố cục tài liệu'
+page_icon: 'ph:bold/book-open'
+intro: 'Bố cục tài liệu là một mẫu hai cột cho các trang tài liệu — mô tả bên trái, mã bên phải — sẽ thu gọn thành một cột trên di động.'
+section:
+  structure:
+    title: 'Cấu trúc'
+    body: 'Sử dụng .doc làm bao ngoài và .doc-section cho mỗi hàng. Mỗi phần có một cột .doc-section--description và một cột .doc-section--code.'
+example:
+  demo_placeholder: 'Nội dung demo'
+  one:
+    title: 'Phần cơ bản'
+    body: 'Một phần điển hình kết hợp một khối mô tả với một đoạn mã.'
+  two:
+    title: 'Với một khối mã'
+    body: 'Sử dụng phần code-block bên trong .doc-section--code cho các ví dụ được làm nổi bật cú pháp.'

@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Chú thích'
+page_icon: 'ph:bold/chat-centered-text'
+intro: 'Một vài từ về vị trí hoặc tiêu điểm mà nó đang nằm ở đó. Có một chú thích cho trang, được đặt bởi bố cục: bất kỳ phần tử nào cần nó với data-tooltip — tooltip() viết nó trong twig, một vue liên kết nó — và nó xuất hiện dưới con trỏ sau một lúc, dưới tiêu điểm của bàn phím ngay lập tức, và không bao giờ dưới ngón tay. Nó tránh xa các cạnh của cửa sổ thay vì rời khỏi đó.'
+section:
+  plain:
+    title: 'Trên bất kỳ thứ gì'
+    description: 'Một nút, một biểu tượng riêng lẻ, một đánh dấu: thuộc tính là tất cả những gì cần có. Một biểu tượng không có chữ là nơi mà chú thích quan trọng nhất.'
+  rich:
+    title: 'Có tiêu đề, hoặc nhẹ nhàng'
+    description: 'Một tiêu đề ở trên văn bản cho một chú thích giải thích, và một chú thích nhẹ nhàng trên nền của trang nơi mà chú thích đảo ngược sẽ quá ồn ào.'
+  placement:
+    title: 'Vị trí'
+    description: 'Mặc định ở trên. Khi được yêu cầu ở một bên, nó sẽ lấy bên đó khi có chỗ và bên kia khi không có; dọc theo bên đó, nó trượt để giữ trong cửa sổ, mũi tên của nó vẫn chỉ vào thứ mà nó hướng tới.'
+button:
+  save: Lưu
+marker:
+  label: 'Đã xuất bản'
+tip:
+  save: 'Lưu bản nháp — Ctrl+S'
+  share: 'Chia sẻ'
+  delete: Xóa
+  marker: 'Đã xuất bản vào ngày 2 tháng 9, được xem bởi 128 độc giả'
+  light: 'Một chú thích trên nền của trang'
+  placement: 'Đã đặt'
+  rich:
+    title: 'Tại sao nó bị làm xám?'
+    text: 'Việc xuất đang chờ cho lần chạy đầu tiên kết thúc; nó sẽ mở ngay khi có thứ gì đó để xuất.'

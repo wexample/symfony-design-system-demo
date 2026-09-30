@@ -1,0 +1,51 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: "Menu's"
+page_icon: 'ph:bold/list'
+section:
+  vue:
+    title: Vue
+    description: 'De linkrij en de scheider als vue-partials. In tegenstelling tot de rijen die een route lezen, nemen deze twee hun icoon en label als opties, zodat er niets van de server ontbreekt.'
+  menu:
+    title: 'Menu knoppen'
+  counts:
+    title: Tellingen
+    description: 'Hoeveel van wat het item leidt naar, aan het uiteinde van de lijn. Het is een pil en niets anders — geef `count` naast het label, in een dropdown-item of een verticaal menu-item, en het item plaatst het. Een item zonder de sleutel toont niets.'
+  separators:
+    title: Scheiders
+    description: 'Een scheider is een item zoals de anderen, met één sleutel meer: een blote lijn scheidt twee reeksen items die niets met elkaar te maken hebben, en dezelfde lijn met een woord wordt de kop van wat volgt. Beide zijden van de stapel lezen dezelfde verklaring — het derde menu hier is het vue-menu.'
+  kinds:
+    title: 'Wat een item kan zijn'
+    description: 'Vier soorten delen één rij: een woord en een doel is een link, een woord en een staat is een toggle, een woord en kinderen is een tak, en een blote lijn is een scheider. Niets verklaart zijn soort — het volgt uit wat het item draagt. Een toggle gebruikt zijn leidende slot voor zijn merk, zodat een kolom daarvan zijn woorden uitgelijnd houdt, en het paneel open blijft eronder: een menu van filters wordt met de hand gelezen, niet één voor één.'
+menu:
+  primary: 'Menu knop'
+  filters: Filters
+  filters_vue: 'Filters, in vue'
+  counted: 'Met tellingen'
+  counted_vue: 'Met tellingen, in vue'
+  grouped: 'Groep items'
+  grouped_vue: 'Groep, in vue'
+  group:
+    danger: Gevarenzone
+    show: Toon
+  more: 'Meer acties'
+  invert: 'Menu omkeren'
+  options:
+    top_left: 'Boven links'
+    top_right: 'Boven rechts'
+  item:
+    report: Rapporteer
+    inbox: Inbox
+    alerts: Alerts
+    settings: Instellingen
+    logout: Uitloggen
+    long: 'Met een behoorlijk, behoorlijk, behoorlijk, behoorlijk lange titel'
+    stats: Statistieken
+    profile: Profiel
+    delete: 'Verwijder account'
+    done: Klaar
+    running: Lopend
+    failed: Mislukt
+    sort: 'Sorteer op'
+    sort_name: Naam
+    sort_date: 'Laatste wijziging'
+    docs: Documentatie

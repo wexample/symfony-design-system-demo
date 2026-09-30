@@ -1,0 +1,15 @@
+page_title: 'Tata Letak Dokumen'
+page_icon: 'ph:bold/book-open'
+intro: 'Tata letak dokumen adalah pola dua kolom untuk halaman dokumentasi — deskripsi di kiri, kode di kanan — yang menyusut menjadi satu kolom di perangkat mobile.'
+section:
+  structure:
+    title: Struktur
+    body: 'Gunakan .doc sebagai pembungkus luar dan .doc-section untuk setiap baris. Setiap bagian memiliki kolom .doc-section--description dan .doc-section--code.'
+example:
+  demo_placeholder: 'Konten demo'
+  one:
+    title: 'Bagian Dasar'
+    body: 'Sebuah bagian yang khas menggabungkan blok deskripsi dengan cuplikan kode.'
+  two:
+    title: 'Dengan blok kode'
+    body: 'Gunakan bagian code-block di dalam .doc-section--code untuk contoh dengan penyorotan sintaks.'

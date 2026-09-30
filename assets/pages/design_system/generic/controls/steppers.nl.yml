@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Steppers
+page_icon: 'ph:bold/steps'
+intro: 'Waar een lezer zich bevindt in een reeks — een tunnel, een formulier in meerdere delen. De stappen achteraan zijn solide getekend en kunnen worden teruggegaan wanneer ze een adres krijgen; de stap die wordt gedaan springt eruit; de stappen vooruit wachten, discreet.'
+section:
+  labelled:
+    title: 'Genummerd en benoemd'
+    description: 'De gebruikelijke situatie: een nummer om op te tellen, een woord om te weten wat het vraagt. De twee stappen die al zijn gezet, linken terug.'
+  numbers:
+    title: 'Alleen nummers'
+    description: 'Waar de stappen geen namen hebben die het lezen waard zijn, of de breedte geen ruimte ervoor heeft.'
+  words:
+    title: 'Alleen woorden'
+    description: 'Zonder de nummers, wanneer de volgorde duidelijk is uit de woorden.'
+  ends:
+    title: 'Eerste en laatste'
+    description: 'Nog niets gelopen, dan alles gelopen behalve de stap die gedaan wordt.'
+  unknown:
+    title: 'Stappen nog niet bepaald'
+    description: 'Waar paden zich splitsen, wat voor je ligt hangt af van een nog niet gegeven antwoord. De stap die ervoor staat, krijgt geen nummer en beweegt geen van de anderen: de laatste stap hier is de derde, niet de vierde.'
+  compact:
+    title: 'Compact, en stippen'
+    description: 'Voor de kop van een modal of een paneel, waar weinig ruimte is: compact houdt de nummers en benoemt alleen de stap die gedaan wordt; stippen tekenen één stip per stap en benoemen geen op het scherm, de namen blijven voor wie de pagina hardop leest. Direct onder de kop van een modal of paneel, neemt een stepper de plaats in van de laadbalk.'
+  toolbar:
+    title: 'In een werkbalk'
+    description: 'Geplaatst in een balk boven een pagina, neemt het de ruimte die de balk biedt.'
+  vue:
+    title: 'In vue'
+    description: 'Dezelfde stepper in een vue-boom. Stappen zonder adres kunnen knoppen worden: een volgorde die door de pagina wordt vastgehouden, gaat verder op de `select` die het afgeeft in plaats van op een nieuw adres.'
+step:
+  account: Account
+  address: Adres
+  payment: Betaling
+  confirm: Bevestiging
+  choice: 'Jouw plan'

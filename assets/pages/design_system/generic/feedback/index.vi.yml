@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Phản hồi'
+page_icon: 'ph:bold/megaphone'
+intro: 'Những gì giao diện trả lại. Được sắp xếp theo mức độ chú ý mà mỗi cái yêu cầu từ một dòng chờ được chú ý đến một hộp thoại không thể bị bỏ qua.'
+page:
+  toasts:
+    title: 'Thông báo ngắn'
+    description: 'Có điều gì đó đã xảy ra và đã kết thúc: một ghi chú xuất hiện ở mép và tự biến mất.'
+  banners:
+    title: 'Biểu ngữ'
+    description: 'Có điều gì đó giữ lại cho toàn bộ trang và sẽ tồn tại cho đến khi được xử lý.'
+  messages:
+    title: 'Tin nhắn'
+    description: 'Một câu gắn liền với nội dung — nằm dưới một trường, bên trong một khối — trong năm màu sắc ngữ nghĩa.'
+  markers:
+    title: 'Dấu hiệu'
+    description: 'Một viên nang cho tất cả những gì đã nói về một thứ bằng một từ — một trạng thái, một tên, một phiên bản, một loại — với vòng tròn cho những nơi không có chỗ, và bộ đếm, cái mà không phải là một.'
+  loaders:
+    title: Tải
+    description: 'Có điều gì đó đang xảy ra và không biết khi nào kết thúc — vòng quay cho một máy, những chấm cho ai đó sắp nói.'
+  progress:
+    title: 'Tiến độ'
+    description: 'Cũng tương tự, với một kết thúc đã biết: một thanh được điều khiển bởi cùng những từ mà tiến độ cli nói.'
+  distribution:
+    title: 'Phân phối'
+    description: 'Tổng thể được tạo thành từ cái gì hơn là nó đã đi được bao xa: các phần của một tổng thể trong một dòng, theo thứ tự chúng được đưa ra.'
+  errors:
+    title: Lỗi
+    description: 'Những gì một trang hiển thị khi điều mà nó được yêu cầu không thể được cung cấp.'

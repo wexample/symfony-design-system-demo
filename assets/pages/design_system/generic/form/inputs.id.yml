@@ -1,0 +1,75 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Input
+page_icon: 'ph:bold/textbox'
+intro: 'Setiap field yang disediakan sistem, ada di satu halaman. Apa yang mereka miliki sebagai kesamaan di luar bentuknya adalah sebuah kontrak: masing-masing dapat diserahkan kepada sesuatu yang bukan orang yang membaca, yang mengisinya dan mengembalikannya.'
+section:
+  assisted:
+    title: Bantuan
+    description: 'Sebuah field dapat diambil alih — oleh agen, oleh apa pun yang tahu apa yang harus ditulis. Selama dipegang, field tersebut mengatakan demikian, berhenti merespons keyboard dan pointer, dan nilai muncul dengan cara yang ditentukan oleh field: dieja untuk sebuah kata, dipilih untuk sebuah opsi, dicentang untuk sebuah saklar. Bantuan bersifat sementara; sebuah field yang dibiarkan dibantu adalah field yang tidak dapat digunakan oleh siapa pun.'
+  fields:
+    title: Field
+    description: 'Satu dari masing-masing, sekali. Tekan Putar di atas dan mereka diisi secara bergiliran, dengan panggilan yang sama seperti yang dilakukan agen — yang merupakan satu-satunya cara untuk mengetahui kontrak berlaku untuk semuanya.'
+  actions:
+    title: 'Tombol dalam formulir'
+    description: 'Sebuah tombol melakukan tindakan daripada nilai, jadi tidak ada yang bisa ditulis agen ke dalamnya.'
+  code:
+    title: 'Sebuah kode, dalam sel'
+    description: 'Satu field nyata di bawah sel, sehingga server membaca satu nilai dan browser mempertahankan apa yang sudah dilakukannya: sebuah kode yang ditempelkan mendarat utuh, sebuah telepon menawarkan kode yang diterimanya, backspace kembali. Diisi, ia mengirim formulirnya sendiri — dimatikan di halaman ini, yang tidak memiliki tempat untuk mengirimnya.'
+  select:
+    title: 'Pilih, sendiri'
+    description: 'Dua pilihan kustom di luar grup formulir, seperti yang diletakkan oleh toolbar atau bilah filter.'
+  switch:
+    title: 'Saklar, sendiri'
+    description: 'Label di kedua sisi, glif di dalam, dan status dicentang.'
+  switch_tone:
+    title: 'Saklar dengan nada, dan satu yang bertanya'
+    description: 'Sekali dinyalakan, sebuah saklar dapat mengambil warna dari suatu status atau kategori daripada dari tautan. Satu yang mengaktifkan sesuatu dengan konsekuensi mengambil `peringatan`, dan bertanya sebelumnya: ditolak, ia tetap mati. Mematikan tidak pernah dipertanyakan. Dalam kedua hal itu, ia mengatakan `switch:change` kepada halaman.'
+  switch_vue:
+    title: 'Saklar, dalam vue'
+    description: 'Saklar yang sama di dalam pohon vue, di mana status dicentang adalah status dan bukan atribut data yang dibalikkan oleh skrip.'
+assisted:
+  hint: 'Seorang agen mengisi field di bawah, satu per satu.'
+  play: Putar
+  reset: Reset
+field:
+  text: 'Nama lengkap'
+  textarea: Alamat
+  email: E-mail
+  url: 'Situs web'
+  password: 'Kata sandi'
+  code: 'Kode verifikasi'
+  number: Usia
+  date: 'Tanggal lahir'
+  time: 'Waktu yang diinginkan'
+  datetime: 'Janji temu'
+  select: Negara
+  radio: 'Kontak melalui'
+  switch: 'Kirim saya buletin'
+  file: 'Dokumen identitas'
+  emoji: 'Suasana hati'
+  button: 'Sebuah tombol'
+  submit: Kirim
+placeholder:
+  text: 'Maya Lindqvist'
+  textarea: 'Jalan, kode pos, kota'
+  email: maya@example.com
+  url: 'https://example.com'
+choice:
+  one: Swedia
+  two: Portugal
+  three: Jepang
+code:
+  numeric: 'Enam digit, seperti yang dikirim melalui email'
+  backup: 'Kode cadangan, huruf dan digit'
+  vue: 'Empat digit, dalam vue'
+switch:
+  tone:
+    success: Sinkronisasi
+    mint: Ditandai
+    risky: 'Terbitkan saat disimpan'
+  confirm:
+    title: 'Terbitkan saat disimpan?'
+    message: 'Setiap penyimpanan akan diterbitkan sekaligus, tanpa tinjauan di antara.'
+    accept: Aktifkan
+  label_right: 'Aktifkan fitur'
+  label_left: 'Label di sebelah kiri'

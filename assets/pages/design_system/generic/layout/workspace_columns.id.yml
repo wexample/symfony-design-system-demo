@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Lima kolom'
+page_icon: 'ph:bold/arrows-horizontal'
+intro: 'Lima wilayah dalam satu baris yang lebih lebar dari layar, dibaca dengan menggulir ke samping. Navigasi di sebelah kiri bukanlah salah satunya — itu adalah wilayah halaman, dan tetap di tempatnya.'
+section:
+  scroll:
+    title: 'Baris menggulir, halaman tidak'
+    description: '`zone--split--scroll` menempatkan overflow pada baris: kolom menjaga lebar yang mereka sebut dan pemisahan menggulir di bawahnya. Masing-masing tetap memegang overflow vertikalnya sendiri, jadi kolom yang panjang menggulir di tempatnya.'
+  width:
+    title: 'Setiap kolom menyebut lebar yang dimilikinya'
+    description: 'Tidak ada yang mengambil sisa di sini, karena tidak ada: baris lebih panjang dari halaman dengan sengaja. Wilayah yang tidak menyebutkan ukuran akan kembali ke kolom yang cukup lebar untuk menampung sesuatu, dan kolom ini menyebutkan ukuran mereka — 24rem masing-masing, lima di antaranya.'
+  fold:
+    title: 'Melipat sebuah wilayah'
+    description: 'Setiap kolom di sini adalah `zone-collapsible`. Dilipat, itu tidak menghilang: ia menjaga tempatnya di baris dan posisinya, dan batangnya berputar ke samping — jadi tombol yang melipatnya adalah tombol yang membukanya, dan tidak ada yang di luar harus tahu bahwa itu ada.'
+    more: 'Dengan nama, sebuah wilayah diingat: keadaan ditulis ke status UI di bawah namanya dan dibaca kembali saat halaman disajikan, sehingga tiba dalam keadaan dilipat alih-alih melipat di depan mata Anda. Kolom ketiga terbuka dalam keadaan dilipat, dan yang terakhir dirender oleh vue — komponen yang sama, kelas yang sama, kunci yang sama.'
+column:
+  first: 'Baca saya'
+  second: 'Daftar tunggu'
+  third: 'Sedang berlangsung'
+  fourth: Tinjau
+  fifth: Selesai
+card:
+  second: Tiket
+  third: Tiket
+  fourth: Tiket
+  fifth: Tiket
+  body: 'Apa yang dipegang oleh kolom bukan urusan baris: itu menggulir sendiri, di bawah batang yang tetap.'

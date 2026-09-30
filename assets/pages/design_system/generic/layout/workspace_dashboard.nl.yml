@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dashboard
+page_icon: 'ph:bold/squares-four'
+mode:
+  reopen: 'Heropen het API-paneel'
+  gap: 'Met gaten'
+  flush: Flushen
+state:
+  success: Normaal
+  warning: Afgebroken
+  error: Falen
+  running: Afvoeren
+tile:
+  traffic:
+    title: Verkeer
+    figure: '12,4k req/min'
+    description: 'Splits binnen een split: de muur is een verticale split van rijen, elke rij een eigen split. Sleep de rand onder deze rij om het hoger te maken, of de rand naast deze tegel voor meer breedte.'
+  latency:
+    title: 'Latency p95'
+    figure: '184 ms'
+    description: 'Elke tegel noemt een verdieping, `zone--min-*`: daaronder wordt de tegel niet samengedrukt, het frame scrollt in plaats daarvan — zijwaarts en naar beneden.'
+  errors:
+    title: Fouten
+    figure: '2.1 %'
+    description: 'Bij het aanpassen behoudt een zone de grootte waarop deze achtergelaten is langs de as van zijn split, en komt terug met deze; een dubbele klik op de handgreep geeft het terug aan de split.'
+  queue:
+    title: Wachtrij
+    figure: '318 taken'
+    description: '`zone--split--flush` verkleint de ruimte tot een pixel, de grond van de muur trekt de lijn tussen de tegels. Eén klasse op de muur is genoeg, de rijen erven het.'
+  deploys:
+    title: Implementaties
+    figure: '7 vandaag'
+    description: 'Zonder dit houdt dezelfde muur de ruimte tussen zijn tegels, waardoor de grond van de pagina zichtbaar is — schakel in de balk hierboven. Scroll naar rechts voor een paneel dat alleen wordt geladen als het wordt gezien.'

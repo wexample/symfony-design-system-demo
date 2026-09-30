@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bijhouden
+page_icon: 'ph:bold/broadcast'
+intro: 'Een collectie wordt één keer gelezen wanneer deze verschijnt, en dan gaat de wereld verder. Dit zijn de drie manieren waarop het ervan hoort — het zijn geen alternatieven om eenmaal voor altijd tussen te kiezen, maar wat de situatie van een collectie biedt. Dezelfde tabel kan ze allemaal of meerdere tegelijk aan, en niets hieronder weet welke heeft geklonken.'
+section:
+  events:
+    title: 'Een app-evenement'
+    description: 'Voor een verandering die deze pagina zelf heeft veroorzaakt: een knop die actie ondernam, een formulier dat terugkwam. Wie ook maar belt weet niets van de tabel, en de tabel weet niets van wie heeft gebeld — ze delen een naam en dat is alles. Kost niets en heeft geen server nodig.'
+  live:
+    title: 'Een live bron'
+    description: 'Waar de server een onderwerp heeft om over te publiceren, luistert de collectie naar de entiteit waarvan het de collectie is — een proces voor zijn runs, een sessie voor zijn berichten — en nooit naar elk van zijn eigen rijen. Een rij die nog niet bestaat heeft geen onderwerp, en de rij die verschijnt is precies degene waar de lezer op wacht. De demo heeft geen server om voor te publiceren, dus de knop speelt het bericht af.'
+  polling:
+    title: Polling
+    description: 'Waar er geen onderwerp is, of waar een rondreis nu en dan goedkoper is dan een abonnement dat open blijft. Deze leest elke drie seconden en stopt terwijl het tabblad op de achtergrond is — een pagina waar niemand naar kijkt is een pagina die niemand hoeft te lezen.'
+  none:
+    title: 'Helemaal niets'
+    description: 'De standaard. Een collectie leest één keer en blijft zoals hij was, wat het juiste antwoord is wanneer wat het toont niet verandert achter de rug van de lezer.'
+  shape:
+    title: 'Welke vorm het ook aanneemt'
+    description: 'Niets hiervan behoort tot de tabel. Dezelfde drie manieren dienen een lijst van balken, een chatgesprek, alles dat een collectie leest — wat een collectie waarachtig houdt en hoe het eruitziet zijn twee afzonderlijke beslissingen. Dit is een balklijst, polling.'

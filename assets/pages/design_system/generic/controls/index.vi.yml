@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Điều khiển'
+page_icon: 'ph:bold/cursor-click'
+intro: 'Những gì một độc giả thực hiện. Mỗi mục trong số này thực hiện một hành động thay vì một giá trị — một trường nhập liệu nhận giá trị và sống trong phần tiếp theo.'
+page:
+  buttons:
+    title: Nút
+    description: 'Mục làm điều gì đó, với các biến thể, trạng thái và độ dày của nó, cộng với liên kết và mục tiêu mở ở nơi khác.'
+  menus:
+    title: Menu
+    description: 'Một nút mở ra danh sách các lựa chọn, đặt mình cạnh các cạnh của cửa sổ, trong twig và trong vue.'
+  steppers:
+    title: Bước
+    description: 'Nơi một độc giả đứng trong chuỗi các bước, với những bước phía sau để quay lại.'
+section:
+  compound:
+    title: 'Mọi thứ cùng nhau'
+    description: 'Cùng một bộ điều khiển trong ba ngữ cảnh: một khối có đệm, một thanh công cụ và một thanh công cụ gọn gàng. Không có gì về các điều khiển thay đổi giữa ba cái này — khu vực là thứ cho biết chúng có bao nhiêu chỗ.'
+button:
+  primary: 'Nút chính'
+select:
+  option_one: 'Tùy chọn một'
+  option_two: 'Tùy chọn hai'
+  option_three: 'Tùy chọn ba'
+menu:
+  primary: 'Nút menu'
+  item:
+    report: 'Báo cáo'
+    settings: 'Cài đặt'
+    logout: 'Đăng xuất'
+    long: 'Với một tiêu đề khá, khá, khá, khá dài'
+switch:
+  label_right: 'Bật tính năng'
+link:
+  external: 'Liên kết bên ngoài'

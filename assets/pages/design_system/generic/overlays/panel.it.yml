@@ -1,0 +1,28 @@
+page_title: Pannello
+page_icon: 'ph:bold/sidebar-simple-duotone'
+section:
+  persist:
+    description: 'Pannello con schede. Aprilo, cambia schede, premi F5 — il pannello si riapre sulla stessa scheda.'
+    button: 'Apri pannello'
+  simple:
+    description: "Mostra un pannello semplice. Puoi chiuderlo con Esc o cliccando all'esterno del pannello."
+    button: 'Apri pannello'
+  components:
+    description: "Mostra un pannello con componenti e un attivatore di toast. Esc è disabilitato, ma puoi comunque cliccare all'esterno per chiuderlo."
+    button: 'Apri pannello'
+  medium:
+    description: "Mostra un pannello con testo di media lunghezza. Cliccando all'esterno non si chiuderà."
+    button: 'Apri pannello'
+  long:
+    description: 'Mostra un pannello con testo lungo. Richiede conferma prima di chiudere.'
+    button: 'Apri pannello'
+  form_rendered:
+    description: "Mostra un modulo demo renderizzato all'interno di un pannello. Esc e il clic all'esterno sono disabilitati, e richiede conferma prima di chiudere se il modulo è stato modificato."
+    button: 'Apri pannello'
+  form_ajax:
+    description: "Mostra un modulo demo renderizzato all'interno di un pannello usando AJAX. Esc e il clic all'esterno sono disabilitati, e richiede conferma prima di chiudere se il modulo è stato modificato."
+    button: 'Apri pannello'
+  recursive:
+    description: "Apri una pagina di dialogo all'interno di un'altra dialogo — scegli modale o pannello."
+    button_modal: 'Apri in modale'
+    button_panel: 'Apri in pannello'

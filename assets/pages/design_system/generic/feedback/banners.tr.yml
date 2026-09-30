@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Afişler
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Aynı tür ve mesajı alan bir vue parçası olarak aynı satır içi afiş; afiş hizmetinin doldurduğu şablon farklı bir dosyadır.'
+  banners:
+    neutral: 'Bu, nötr bir afiş mesajıdır.'
+    info: 'Bu, bilgi afiş mesajıdır.'
+    warning: 'Bu, uyarı afiş mesajıdır.'
+    error: 'Bu, hata afiş mesajıdır.'
+    success: 'Bu, başarı afiş mesajıdır.'
+  layout_banner:
+    description: 'Afişler, genellikle internet bağlantı durumu gibi arka planda önemli mesajları göstermek için düzen seviyesinde kullanılır.'
+    button: 'Afişi göster'
+    messages:
+      info: 'Düzen afiş bilgi mesajı.'
+      success: 'Düzen afiş başarı mesajı.'
+      warning: 'Düzen afiş uyarı mesajı.'
+      error: 'Düzen afiş hata mesajı.'

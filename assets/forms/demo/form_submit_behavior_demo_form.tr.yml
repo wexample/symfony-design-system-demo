@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: Oda
+    placeholder: 'Oda arayın...'
+    help: 'Bir kaydı arayarak seçin. Formun taşıdığı şey onun kimliğidir.'
+  password:
+    label: Şifre
+    help: 'Kimlik doğrulamak için şifrenizi girin.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Şifre test amacıyla geçersiz.'
+  emoji:
+    label: Emojiler
+    help: 'Ruh halinizi temsil edecek bir emoji seçin.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Emoji test amacıyla geçersiz.'
+  text_simple:
+    label: Metin
+    help: 'Kısa içerikler için tek satırlık metin girişi.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Metin test amacıyla geçersiz.'
+  text_area:
+    label: 'Uzun metin'
+    placeholder: 'İstediğinizi yazın...'
+    help: 'Daha uzun içerikler için çok satırlı metin alanı.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Uzun metin test amacıyla geçersiz.'
+  behavior:
+    label: Davranış
+    help: 'Formun gönderimden sonra nasıl tepki vereceğini seçin.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'Davranış seçimi test amacıyla geçersiz.'
+    choice:
+      error:
+        label: 'Hataları göster'
+        description: 'gömmeyi kapatır (veya sayfa içinde hiçbir şey yapmaz).'
+      js:
+        label: 'JS eylemi (toast)'
+        description: 'doğrulama hatalarını döndürür.'
+      redirect:
+        label: Yönlendir
+        description: 'gönderim yapmadan bir toast tetikler.'
+      default:
+        label: Varsayılan
+        description: 'tam sayfaya yönlendirir veya modali kapatır.'
+      embed_stay:
+        label: 'Gömülü alanı açık tut (modal / panel)'
+        description: 'modal/panelde açık kalır.'
+      embed_redirect:
+        label: 'Gömülü alanda yönlendir (modal / panel)'
+        description: 'modal/panel içinde yönlendirir.'
+  date:
+    label: Tarih
+    help: 'Tarih seçici kullanarak bir tarih seçin.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Tarih test amacıyla geçersiz.'
+  datetime:
+    label: 'Tarih & saat'
+    help: 'Bir tarih ve saat seçin.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Tarih & saat test amacıyla geçersiz.'
+  time:
+    label: Saat
+    help: 'Günün saatini seçin.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Saat test amacıyla geçersiz.'
+  file:
+    label: Dosya
+    help: 'Cihazınızdan bir veya daha fazla dosya yükleyin.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Dosya test amacıyla geçersiz.'
+  email:
+    label: E-posta
+    placeholder: you@example.com
+    help: 'Geçerli bir e-posta adresi girin.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'E-posta test amacıyla geçersiz.'
+  number:
+    label: Sayı
+    help: 'Sayısal bir değer girin.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Sayı test amacıyla geçersiz.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Protokol dahil tam bir URL girin.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL test amacıyla geçersiz.'
+  switch:
+    label: Anahtar
+    help: 'Bu seçeneği açıp kapatın.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Anahtar test amacıyla geçersiz.'
+  radio_choice:
+    label: 'Radyo seçeneği'
+    help: 'Listeden bir seçenek seçin.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Radyo seçeneği test amacıyla geçersiz.'
+    choice:
+      option_a:
+        label: 'Seçenek A'
+      option_b:
+        label: 'Seçenek B'
+      option_c:
+        label: 'Seçenek C'
+action:
+  button_demo: 'Hiçbir şey yapma'
+  submit_default: Gönder
+  submit_error: 'Hataları göster'
+  submit_js: 'JS eylemi'
+  submit_redirect: Yönlendir
+  submit_embed_stay: 'Gömülü alanı açık tut'
+  submit_embed_redirect: 'Gömülü alanda yönlendir'
+error:
+  ERR_FORM_TEST:
+    message: 'Test amacıyla genel hata.'
+description: |
+  Bu formu gönderim davranışlarını test etmek için kullanın. Bu demo sayfa, ajax ve modal bağlamlarında mevcuttur. Aşağıdan bir davranış seçin ve gönderin:
+toast:
+  success:
+    title: Başarılı
+    message: 'Form başarıyla gönderildi.'
+  js_action:
+    title: 'JS eylemi'
+    message: 'Formu yeniden etkinleştirmek ister misiniz?'
+    reactivate: 'Yeniden etkinleştir'
+    dismiss: Kapat

@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Toolbar
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'Judul dan penandanya'
+    description: 'Apa yang dicatat, di mana posisinya dan versi mana: tiga penanda dibaca sebagai satu baris, jadi mereka berbagi tinggi apapun yang terbuat dari—sebuah pil diukur dalam ems untuk teks yang biasanya ada di dalamnya, dan sebuah bar menyeimbangkannya di kapsul di sampingnya. Judul melepaskan margin dan menjaga nama di sebelah kiri.'
+  default:
+    title: 'Toolbar dasar'
+  title:
+    title: 'Toolbar dengan judul'
+  title_multi:
+    title: 'Judul bagian dengan tindakan'
+title:
+  example: 'Judul halaman'
+  section: 'Judul bagian'
+  document: 'Desain dan pengembangan'
+marker:
+  state: evergreen
+button:
+  create: Buat
+  refresh: Segarkan
+  export: Ekspor
+  edit: Edit
+  delete: Hapus
+  history: Riwayat
+  share: Bagikan

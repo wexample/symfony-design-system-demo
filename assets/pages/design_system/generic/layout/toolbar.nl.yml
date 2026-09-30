@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Werkbalk
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'Een kop en zijn markeringen'
+    description: 'Hoe iets is gearchiveerd, waar het staat en welke versie: drie markeringen worden als één rij weergegeven, dus ze delen een hoogte ongeacht waaruit ze zijn gemaakt - een pil is in ems gepositioneerd voor de tekst waarin het normaal gesproken zit, en een balk zorgt ervoor dat het op de capsule ernaast is uitgelijnd. De kop geeft zijn marges op en houdt de naam helemaal links.'
+  default:
+    title: 'Basis werkbalk'
+  title:
+    title: 'Werkbalk met titel'
+  title_multi:
+    title: 'Sectietitel met acties'
+title:
+  example: Paginatitel
+  section: Sectietitel
+  document: 'Ontwerp en ontwikkeling'
+marker:
+  state: evergreen
+button:
+  create: Aanmaken
+  refresh: Vernieuwen
+  export: Exporteren
+  edit: Bewerken
+  delete: Verwijderen
+  history: Geschiedenis
+  share: Delen

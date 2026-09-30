@@ -1,0 +1,96 @@
+field:
+  password:
+    label: 'Kata Sandi'
+    help: 'Masukkan kata sandi Anda untuk otentikasi.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Kata sandi tidak valid untuk tujuan pengujian.'
+  emoji:
+    label: Emoji
+    help: 'Pilih emoji untuk mewakili suasana hati Anda.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Emoji tidak valid untuk tujuan pengujian.'
+  text_simple:
+    label: Teks
+    help: 'Input teks satu baris untuk konten singkat.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Teks tidak valid untuk tujuan pengujian.'
+  text_area:
+    label: 'Teks panjang'
+    placeholder: 'Ketik apa saja yang Anda inginkan...'
+    help: 'Area teks multi-baris untuk konten yang lebih panjang.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Teks panjang tidak valid untuk tujuan pengujian.'
+  number:
+    label: Nomor
+    help: 'Masukkan nilai numerik.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Nomor tidak valid untuk tujuan pengujian.'
+  email:
+    label: Email
+    placeholder: you@example.com
+    help: 'Masukkan alamat email yang valid.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'Email tidak valid untuk tujuan pengujian.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Masukkan URL lengkap termasuk protokol.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL tidak valid untuk tujuan pengujian.'
+  date:
+    label: Tanggal
+    help: 'Pilih tanggal menggunakan pemilih tanggal.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Tanggal tidak valid untuk tujuan pengujian.'
+  datetime:
+    label: 'Tanggal & waktu'
+    help: 'Pilih tanggal dan waktu yang digabungkan.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Tanggal & waktu tidak valid untuk tujuan pengujian.'
+  time:
+    label: Waktu
+    help: 'Pilih waktu dalam sehari.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Waktu tidak valid untuk tujuan pengujian.'
+  file:
+    label: Berkas
+    help: 'Unggah satu atau lebih berkas dari perangkat Anda.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Berkas tidak valid untuk tujuan pengujian.'
+  radio_choice:
+    label: 'Pilihan radio'
+    help: 'Pilih satu opsi dari daftar.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Pilihan radio tidak valid untuk tujuan pengujian.'
+    choice:
+      option_a:
+        label: 'Pilihan A'
+      option_b:
+        label: 'Pilihan B'
+      option_c:
+        label: 'Pilihan C'
+  switch:
+    label: Togol
+    help: 'Aktifkan atau nonaktifkan opsi ini.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Togol tidak valid untuk tujuan pengujian.'
+form:
+  error:
+    ERR_FORM_TEST: 'Kesalahan global untuk tujuan pengujian.'
+action:
+  button_demo: 'Tidak melakukan apa-apa'
+  submit_default: Kirim
+  submit_error: 'Tampilkan kesalahan'
+  submit_js: 'Aksi JS'
+  submit_redirect: Alihkan
+toast:
+  success:
+    title: Sukses
+    message: 'Formulir berhasil dikirim.'
+  js_action:
+    title: 'Aksi JS'
+    message: 'Apakah Anda ingin mengaktifkan kembali formulir?'
+    reactivate: 'Aktifkan kembali'
+    dismiss: Tutup
+description: |
+  Gunakan formulir ini untuk menguji perilaku pengiriman. Demo ini dalam komponen Vue.

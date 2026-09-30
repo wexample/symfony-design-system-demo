@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tipografia
+page_icon: 'ph:bold/text-aa'
+intro: 'A escala é uma decisão de densidade e as fontes são uma decisão de tipografia: esta página mostra como uma forma é lida, não o que vale hoje. Troque o eixo das fontes no painel de depuração e tudo abaixo estará configurado em outra fonte sem que uma regra mude.'
+section:
+  families:
+    title: Famílias
+    description: 'Três, porque é isso que uma página distingue: em que está escrito, em que está intitulado e o que deve ser lido como digitado em vez de falado. Um conjunto pode dar a mesma fonte para os três — a do sistema faz isso.'
+  weights:
+    title: Pesos
+    description: 'Nomeados pelo quanto insistem, nunca por número. Uma fonte cuja 500 não existe a mapeia para o que possui, e as formas que pedem um médio continuam pedindo um médio.'
+  typography:
+    title: 'Escala de tipos'
+title:
+  h1:
+    title: 'Sistema de Design — Blocos de construção para ótimas interfaces'
+    description: 'Usado uma vez por página. Define o contexto primário. Emparelhado com um parágrafo introdutório curto.'
+  h2:
+    title: 'A tipografia estabelece hierarquia e ritmo'
+    description: 'Título de nível de seção. Agrupa conteúdo relacionado. Geralmente seguido por texto de corpo ou subseções.'
+  h3:
+    title: 'Espaçamento e proporção moldam a legibilidade'
+    description: 'Título de subseção. Introduz um tópico focado dentro de uma seção.'
+  h4:
+    title: 'Cor e contraste guiam o olhar'
+    description: 'Usado para títulos de cartões, seções de barra lateral ou agrupamentos menores.'
+  h5:
+    title: 'Estados interativos precisam ser óbvios'
+    description: 'Rótulos, cabeçalhos de metadados, pequenos agrupamentos. Sutis, mas distintos do texto de corpo.'
+  h6:
+    title: 'Acessibilidade é um recurso, não uma consideração posterior'
+    description: 'O menor nível de título. Use com moderação — para notas de rodapé, blocos legais ou rótulos auxiliares.'
+sample: 'A rápida raposa marrom salta sobre o cachorro preguiçoso — 0123456789'

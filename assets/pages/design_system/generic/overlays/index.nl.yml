@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: "Overlay's"
+page_icon: 'ph:bold/stack'
+intro: 'Oppervlakken die over de pagina openen in plaats van ernaast. Ze verschillen in hoeveel ruimte ze innemen - een hoek, een zijkant, het midden - en wat het de lezer kost om ze te verlaten.'
+page:
+  modal:
+    title: Modaal
+    description: 'Het midden van het scherm, en de pagina daarachter gepauzeerd: voor een keuze die gemaakt moet worden voordat er iets anders gebeurt.'
+  panel:
+    title: Paneel
+    description: 'Een zijkant van het scherm, de pagina nog steeds leesbaar ernaast: voor iets dat naast elkaar wordt geraadpleegd in plaats van in plaats daarvan.'
+  confirm:
+    title: Bevestigen
+    description: 'De ene vraag die een destructieve actie waard is, en de belofte dat er niets gebeurt totdat het is beantwoord.'
+  backdrop:
+    title: Achtergrond
+    description: 'De laag waarop al deze zijn gestapeld, op zichzelf: wat het opent, wat het sluit, en in welke volgorde.'
+  tooltip:
+    title: Tooltip
+    description: 'Een paar woorden naast waar de pointer of focus zich op richt, weg van de randen van het venster.'
+  tour:
+    title: Rondleiding
+    description: 'Een pagina die stap voor stap wordt getoond, onthouden zodra deze is voltooid of afgewezen.'

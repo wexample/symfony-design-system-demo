@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Distribusi
+page_icon: 'ph:bold/chart-bar-horizontal'
+intro: 'Apa yang membentuk total, dalam satu baris. Di mana bilah kemajuan menunjukkan seberapa jauh satu nilai telah dicapai, ini menunjukkan bagaimana keseluruhan dibagi: bagian-bagian memegang urutan sesuai yang diberikan, sehingga jalur dibaca dari kiri ke kanan seperti jalur seharusnya. Status diberi nama dengan kosakata yang sudah diucapkan oleh kapsul dan lingkaran, sehingga satu status tidak pernah menggunakan dua warna.'
+section:
+  default:
+    title: 'Sebuah keseluruhan, dalam bagian'
+    description: 'Bagian-bagian tumbuh sebanding dengan nilai mereka, dan legenda menyebutkan mereka dalam kata-kata di bawahnya — kapsul yang sama menggambarkan status pada tabel, sehingga mata bergerak antara keduanya tanpa mempelajari sesuatu yang baru.'
+  linked:
+    title: 'Bagian yang mengarah ke suatu tempat'
+    description: 'Sebuah bagian dengan target adalah sebuah tautan: bilah menjadi cara menuju daftar yang diringkasnya. Di bawah penunjuk, ia mengambil film cahaya daripada warna lain, yang akan menunjukkan status yang berbeda.'
+  bare:
+    title: 'Tanpa legenda'
+    description: 'Di mana bagian-bagian diberi nama tepat di samping, atau di mana bilah hanya perlu menyebutkan bentuknya, legenda dihilangkan dan setiap bagian menyatakan apa adanya di bawah penunjuk.'
+  rest:
+    title: 'Sebuah total yang lebih besar dari bagiannya'
+    description: 'Apa yang dihitung total dan tidak ada bagian yang dihitung memegang bagiannya dalam baris dan tidak menggambar apa pun: jalur terlihat untuk tepat itu, alih-alih bagian-bagian meregang untuk mengisi bilah yang tidak mereka isi.'
+  empty:
+    title: 'Belum ada yang dihitung'
+    description: 'Tidak ada total dan tidak ada bagian — pekerjaan belum dimulai, hitungan masih dalam proses. Bilah mempertahankan tempatnya, sebagai jalur kosong — tanah yang sama yang menunjukkan total lebih besar dari bagiannya — sehingga barisan mereka menjaga bentuknya; angkanya adalah dash, karena tidak ada yang dihitung bukan nol.'
+  compact:
+    title: Kompak
+    description: 'Bilah yang lebih ramping untuk barisan atau footer kartu, dengan kepadatan yang diteruskan ke kapsul dalam legendanya.'
+  vue:
+    title: 'Vue, didorong'
+    description: 'Bilah yang sama, bagiannya diberikan sebagai data. Sebuah bagian yang tidak mengarah ke mana pun menjawab klik dengan `select`, yang merupakan apa yang perlu didengarkan untuk tabel yang menyaring dirinya sendiri di sampingnya.'
+bar:
+  pipeline: 'Halaman katalog'
+  elements: 'Elemen dari sistem desain'
+  partial: 'File dibaca'
+state:
+  done: Selesai
+  running: Berjalan
+  todo: 'Yang harus dilakukan'
+  failed: Gagal
+  skipped: 'Belum dimulai'

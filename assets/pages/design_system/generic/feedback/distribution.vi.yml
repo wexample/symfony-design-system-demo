@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Phân phối'
+page_icon: 'ph:bold/chart-bar-horizontal'
+intro: 'Một tổng thể được cấu thành từ những gì, trong một dòng. Nơi mà một thanh tiến độ cho biết một giá trị đã đạt được bao xa, điều này cho biết cách mà toàn bộ được chia: các phần giữ nguyên thứ tự mà chúng được đưa ra, vì vậy một đường ống đọc từ trái sang phải như chính nó. Các trạng thái được đặt tên bằng từ vựng mà viên nang và vòng tròn đã nói, vì vậy một trạng thái không bao giờ mang hai màu.'
+section:
+  default:
+    title: 'Một tổng thể, thành phần'
+    description: 'Các phần phát triển tương ứng với giá trị của chúng, và chú giải nói chúng bằng từ ngữ bên dưới — cùng một viên nang mà một bảng vẽ một trạng thái với, vì vậy mắt di chuyển giữa hai cái mà không học được gì mới.'
+  linked:
+    title: 'Các phần dẫn đến nơi nào đó'
+    description: 'Một phần có mục tiêu là một liên kết: thanh trở thành con đường vào danh sách mà nó tóm tắt. Dưới con trỏ, nó nhận một lớp ánh sáng thay vì một màu khác, điều này sẽ nói đến một trạng thái khác.'
+  bare:
+    title: 'Không có chú giải'
+    description: 'Nơi mà các phần được đặt tên ngay bên cạnh, hoặc nơi mà thanh chỉ cần nói đến hình dạng của vật, chú giải bị bỏ qua và mỗi phần nói rõ nó là gì dưới con trỏ.'
+  rest:
+    title: 'Một tổng thể lớn hơn các phần của nó'
+    description: 'Những gì tổng thể đếm được và không phần nào tính đến giữ phần của hàng và không vẽ gì: đường ray hiển thị cho đúng mức đó, thay vì các phần kéo dài để lấp đầy một thanh mà chúng không lấp đầy.'
+  empty:
+    title: 'Chưa có gì được đếm'
+    description: 'Không tổng thể và không phần nào — công việc chưa bắt đầu, một phép đếm vẫn chưa có. Thanh giữ vị trí của nó, như một đường ray trống — cùng một mặt đất mà một tổng thể lớn hơn các phần của nó hiển thị — vì vậy một hàng trong số đó giữ hình dạng của nó; con số của nó là một dấu gạch ngang, vì không có gì được đếm không phải là số không.'
+  compact:
+    title: 'Gọn gàng'
+    description: 'Một thanh mỏng hơn cho một hàng hoặc chân thẻ, với độ dày được truyền cho các viên nang của chú giải của nó.'
+  vue:
+    title: 'Vue, được điều khiển'
+    description: 'Cùng một thanh, các phần được đưa ra dưới dạng dữ liệu. Một phần không dẫn đến đâu trả lời một cú nhấp chuột với `select`, đó là điều cần lắng nghe cho một bảng tự lọc bên cạnh nó.'
+bar:
+  pipeline: 'Các trang của danh mục'
+  elements: 'Các phần tử của hệ thống thiết kế'
+  partial: 'Các tệp được đọc'
+state:
+  done: 'Hoàn thành'
+  running: 'Đang chạy'
+  todo: 'Cần làm'
+  failed: 'Thất bại'
+  skipped: 'Chưa bắt đầu'

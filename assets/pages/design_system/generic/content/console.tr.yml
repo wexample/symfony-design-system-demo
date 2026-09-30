@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Konsol
+page_icon: 'ph:bold/terminal-window'
+intro: "Bir shell'in yazdığı, sayfada geri okunan: komutlar istemlerinin ardından, çıktıları altında ve terminalin renkleri paletin renkleri olarak, her iki şemada da. Okur; komut almaz."
+section:
+  session:
+    title: 'Bir oturum'
+    description: 'Dört türden satır — komut, çıktı, hata, bilgi — veya düz metinler. Bir programın terminali için yazdığı kaçış kodları, renk ve ağırlık olarak korunur; terminale söylenen diğer her şey atılır.'
+  vue:
+    title: 'Vue içinde'
+    description: 'Aynı satırlar, vue ikizinin çizdiği, burada kendi istemiyle birlikte.'
+  live:
+    title: 'Gelen satırlar'
+    description: 'Canlı güncellemeler konusuyla birlikte, vue konsolu her mesajın taşıdığı şeyi — bir dize, bir satır veya bir grup satır — ekler ve okuyucu yukarı kaydırmadıkça sonunu takip eder. Burada bir buton, aynı eklemenin bir parçası olarak konuyu temsil eder.'

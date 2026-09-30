@@ -1,0 +1,76 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tijdlijn
+page_icon: 'ph:bold/list-numbers'
+intro: 'Dingen onder elkaar, elk op een marker, verbonden door een lijn: de stappen van een procedure, de gebeurtenissen van een geschiedenis, de fasen van een uitvoering. Wat elk bevat is vrij — een regel tekst, een tabel, een formulier — en de lijn loopt naar beneden tot de volgende marker.'
+section:
+  steps:
+    title: 'Stappen in volgorde'
+    description: 'Genummerd, met de drie staten die de stapper kent: de stappen achter zijn solide getekend, de stap die wordt uitgevoerd springt eruit, degenen die voor liggen wachten.'
+  free:
+    title: 'Iets onder een titel'
+    description: 'Elk item bevat wat het nodig heeft — eigenschappen, een bericht, knoppen. Een pictogram vervangt de stip, en een toon kleurt de marker zoals het een marker of een blok kleurt.'
+  history:
+    title: 'Een geschiedenis'
+    description: 'Geen volgorde om te volgen, alleen gebeurtenissen: stippen, een datum onder elke titel, en een categorie kleur waar het iets vertelt.'
+  unknown:
+    title: 'Stappen nog niet besloten'
+    description: 'Zoals op de stapper: een stap die afhankelijk is van een nog niet gegeven antwoord krijgt geen nummer en verplaatst geen van de anderen.'
+  hand:
+    title: 'Met de hand geschreven'
+    description: 'De component is slechts een manier om de vorm uit een lijst te schrijven. Dezelfde klassen geschreven op de pagina geven dezelfde tijdlijn, met alles erin.'
+  vue:
+    title: 'In vue'
+    description: 'Dezelfde tijdlijn in een vue-boom. Wat de tak als markup neemt is daar een scoped slot, zodat een component onder de titel van een item kan staan.'
+install:
+  clone:
+    title: 'Haal de bronnen op'
+    text: 'Clone de repository en installeer de afhankelijkheden.'
+  configure:
+    title: Configureren
+    text: 'Kopieer de voorbeeldomgeving en vul het databankadres in.'
+  migrate:
+    title: 'Creëer de database'
+    text: 'Voer de migraties uit; dit is de stap in uitvoering.'
+  deploy:
+    title: Implementeren
+    text: 'Bouw de assets en publiceer de release.'
+order:
+  placed:
+    title: 'Bestelling geplaatst'
+    meta: '14 maart, 09:41'
+  paid:
+    title: 'Betaling ontvangen'
+    meta: '14 maart, 09:42'
+  shipped:
+    title: Verzonden
+    meta: '15 maart, 16:05'
+  next:
+    title: Levering
+  delay:
+    title: Vertraging
+    text: 'De koerier meldt nog een dag.'
+  field:
+    reference: Referentie
+    amount: Bedrag
+    method: Betaling
+    card: 'Kaart eindigend op 4242'
+  action:
+    track: 'Volg het pakket'
+    cancel: Annuleren
+history:
+  release:
+    title: 'Versie 2.0 uitgebracht'
+    meta: '2 september'
+  review:
+    title: 'Beoordeeld door het team'
+    meta: '28 augustus'
+  draft:
+    title: 'Eerste concept'
+    meta: '12 augustus'
+branch:
+  choose: 'Kies een plan'
+  depends: 'Afhankelijk van het plan'
+hand:
+  one: 'Een simpele stip'
+  two: 'Een pictogram in plaats van de stip'
+  two_text: 'Elke markup, geschreven op de pagina.'

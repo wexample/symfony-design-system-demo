@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bölgeler
+page_icon: 'ph:bold/columns'
+intro: 'Her gezgin, editör ve detay görünümü için inşa edilmiş iki bölmeli çalışma alanı. Bir bölgenin kendi genişliği ve yüksekliği yoktur: bulunduğu bölme onu boyutlandırır ve her iki taraf da ayrı ayrı kaydırılır. İki bölge, sayfada yerleştirilmiş iki nesnedir, bir panelin ikiye kesilmesi değil — onları ayıran şey aralarındaki boşluktur ve `zone--panel` her birinin durduğu zeminidir.'
+section:
+  split:
+    title: 'Bir bölme'
+    description: 'Bir sütun boyutunda, diğeri kalan kısmı alır. Boyut bir adım ile belirlenir ve bölgenin kendisine aittir — içinde bulunan hiçbir şeyden miras alınmaz.'
+  scrollable:
+    title: 'Her taraf ayrı kaydırılır'
+    description: 'Kaydırılabilir bir bölge taşmayı tutar, sayfa değil. Bu ikisinden birini kaydırın, diğeri olduğu yerde kalır; bu, şeklin tüm nedenidir.'
+  vertical:
+    title: 'Kaydırılmayan bir başlık'
+    description: 'Dikey hale getirilmiş bir bölme: dar bir bölge, tuttuğu şeyin yüksekliğindedir, gövde geri kalanını alır ve altında kaydırılır. Bu, üstte bir araç çubuğu olan bir panelin düzenidir.'
+  wrap:
+    title: 'Bir zemin altında'
+    description: 'Bir zemin verildiğinde, esnek bölge tam bir satır alır ve boyutlandırılmış sütun onun üstünde hareket eder, ikisi de hiçbir şeye sıkıştırılmak yerine. Pencereyi daraltarak katlanışını görebilirsiniz.'
+split:
+  body: 'Bu taraf, boyutlandırılmış sütunun bıraktığı her şeyi alır.'
+scrollable:
+  item: Öğe
+  line: Satır
+vertical:
+  action: Oluştur
+wrap:
+  body: 'Bu bölgeye verilen zemin altında, kendine ait bir satır alır.'

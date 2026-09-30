@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Thanh
+page_icon: 'ph:bold/rows'
+intro: 'Một thanh chỉ định một điều trong một dòng duy nhất: nó là gì, nó được gọi là gì, điều gì làm cho nó đủ điều kiện, và điều gì thuộc về cuối cùng. Đây là một hình dạng, không phải là một ràng buộc — một thực thể đến với nó thông qua mẫu của riêng nó, nhưng một kết quả tìm kiếm là một tệp, một ứng dụng hoặc một cài đặt sử dụng cùng một đánh dấu.'
+finding:
+  fix: Sửa
+  date: 'Đặt ngày'
+  error:
+    title: 'Thiếu phần bắt buộc “Mục đích”'
+    subtitle: 01-PROCESSES/PR-004-document-control.md
+  warning:
+    title: 'Ngày xem xét đã qua'
+    subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+  info:
+    title: 'Trường chủ sở hữu để trống'
+    subtitle: 'Không chặn cho bản nháp, yêu cầu trước khi xem xét'
+section:
+  findings:
+    title: 'Kết quả'
+    description: 'Những gì một phân tích báo cáo, mỗi thanh một: kết quả là tiêu đề, nơi nó nằm là phụ đề, và điều gì có thể được thực hiện về nó trong vị trí cuối cùng — không có gì ở đó khi không thể làm gì ở đây. Mức độ nghiêm trọng là tông của khối, mà hình đại diện ở đầu cũng lấy theo.'
+  alone:
+    title: 'Thanh tự nó'
+    description: 'Mọi thứ nhưng tiêu đề là tùy chọn. Vị trí đầu tiên lấy một biểu tượng, hoặc bất kỳ đánh dấu nào khi cần một hình đại diện thực sự; vị trí cuối cùng lấy một ngày, một thẻ, một hàng nút. Nếu có một liên kết, toàn bộ chiều rộng trở thành mục tiêu và tiêu đề giữ màu sắc của nơi nó ngồi.'
+  search:
+    title: 'Danh sách kết quả'
+    description: 'Danh sách mang khung, trường tìm kiếm và các dấu phân cách; mỗi hàng mang một thanh. Không có gì ở đây là một thực thể — đó là điểm: cùng một hàng phục vụ một người, một tài liệu, một ứng dụng và một sở thích.'
+  surfaces:
+    title: 'Một bề mặt mỗi cái'
+    description: 'Đọc khác của một danh sách — không có nền chia sẻ và không có đường, mỗi thanh đứng trên khối riêng của nó với không gian xung quanh. Không có gì mới để kiểu dáng, thanh đơn giản lấy các lớp khối, và nếu có một liên kết, toàn bộ thẻ trở thành mục tiêu.'
+  divided:
+    title: 'Một danh sách trần'
+    description: 'Khi khung đã có sẵn, một chồng theo chiều dọc với các vách ngăn là đủ — không có hình dạng riêng, chỉ là một đường giữa hai hàng.'
+  vue:
+    title: 'Một danh sách chúng, trong Vue'
+    description: 'Cùng một hàng được đọc từ một điểm cuối thay vì viết ra: danh sách giữ trang, phân trang và trạng thái trống, và mỗi thực thể nói những gì cần đọc trên đó — một tiêu đề, điều gì đủ điều kiện cho nó, một biểu tượng, nơi nó dẫn tới, một ngày ở cuối cùng. Các đọc ở trên là các biến thể của nó, `divided` sau đó là `surfaces`.'
+  keeping_up:
+    title: 'Và được cập nhật'
+    description: 'Danh sách thanh là một bộ sưu tập như bất kỳ bộ sưu tập nào khác, vì vậy ba cách mà một bộ sưu tập nghe rằng thế giới đã tiến lên là mở cho nó: một sự kiện ứng dụng, một nguồn trực tiếp, polling. Cái này lắng nghe một sự kiện — gọi nó và xem các hàng quay lại. Xem Cập nhật cho ba cái đó bên cạnh nhau.'
+sample:
+  minimal:
+    title: 'Một tiêu đề riêng'
+  icon:
+    title: 'Với một biểu tượng đầu tiên'
+  subtitle:
+    title: 'Maya Lindqvist'
+    subtitle: maya@example.com
+  trailing:
+    title: 'Báo cáo hàng quý'
+    subtitle: '14 tài liệu'
+  link:
+    title: 'Một thanh là một liên kết'
+    subtitle: 'Toàn bộ chiều rộng là mục tiêu'
+search:
+  placeholder: 'Tìm kiếm mọi thứ'
+  value: 'báo cáo'
+  filter: Lọc
+result:
+  user:
+    title: 'Maya Lindqvist'
+    subtitle: 'Người · Nhóm sản phẩm'
+  file:
+    title: 'Báo cáo hàng quý Q3.pdf'
+    subtitle: 'Tài liệu · 2.4 MB'
+  app:
+    title: 'Báo cáo'
+    subtitle: 'Ứng dụng · Đã cài đặt'
+  setting:
+    title: 'Giữ báo cáo'
+    subtitle: 'Cài đặt · Lưu trữ'
+member:
+  maya:
+    title: 'Maya Lindqvist'
+    subtitle: 'Chủ sở hữu'
+  sam:
+    title: 'Sam Okonkwo'
+    subtitle: 'Biên tập viên'
+  robot:
+    title: 'Nhập khẩu hàng đêm'
+    subtitle: 'Tài khoản dịch vụ'

@@ -1,0 +1,76 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Garis Waktu'
+page_icon: 'ph:bold/list-numbers'
+intro: 'Hal-hal satu di bawah yang lain, masing-masing pada penanda, disambung dengan garis: langkah-langkah suatu prosedur, peristiwa dari sebuah sejarah, tahap dari sebuah pelarian. Apa yang dipegang masing-masing bebas — satu baris teks, sebuah tabel, sebuah formulir — dan garisnya berjalan menyusuri keseluruhannya, menuju penanda berikutnya.'
+section:
+  steps:
+    title: 'Langkah-langkah terurut'
+    description: 'Diberi nomor, dengan tiga keadaan yang diketahui oleh stepper: langkah-langkah di belakang digambar padat, yang sedang dikerjakan menonjol, yang di depan menunggu.'
+  free:
+    title: 'Apa saja di bawah judul'
+    description: 'Setiap item memegang apa pun yang diperlukan — properti, pesan, tombol. Sebuah ikon menggantikan titik, dan nada mewarnai penanda seperti mewarnai penanda atau blok.'
+  history:
+    title: 'Sebuah sejarah'
+    description: 'Tidak ada urutan yang harus diikuti, hanya peristiwa: titik-titik, sebuah tanggal di bawah setiap judul, dan warna kategori di mana ia menceritakan sesuatu.'
+  unknown:
+    title: 'Langkah yang belum diputuskan'
+    description: 'Seperti pada stepper: sebuah langkah yang bergantung pada jawaban yang belum diberikan tidak mengambil nomor dan tidak menggerakkan yang lainnya.'
+  hand:
+    title: 'Ditulis dengan tangan'
+    description: 'Komponen ini hanya merupakan cara untuk menuliskan bentuk dari sebuah daftar. Kelas yang sama ditulis di halaman memberikan garis waktu yang sama, dengan apapun di dalamnya.'
+  vue:
+    title: 'Dalam vue'
+    description: 'Garis waktu yang sama dalam pohon vue. Apa yang diambil cabang sebagai markup adalah slot terstruktur di sana, sehingga sebuah komponen dapat berdiri di bawah judul item.'
+install:
+  clone:
+    title: 'Dapatkan sumber'
+    text: 'Klon repositori dan instal dependensinya.'
+  configure:
+    title: Konfigurasi
+    text: 'Salin lingkungan contoh dan isi alamat database.'
+  migrate:
+    title: 'Buat database'
+    text: 'Jalankan migrasi; ini adalah langkah yang sedang berlangsung.'
+  deploy:
+    title: Terapkan
+    text: 'Bangun aset dan terbitkan rilis.'
+order:
+  placed:
+    title: 'Pesanan ditempatkan'
+    meta: '14 Maret, 09:41'
+  paid:
+    title: 'Pembayaran diterima'
+    meta: '14 Maret, 09:42'
+  shipped:
+    title: Dikirim
+    meta: '15 Maret, 16:05'
+  next:
+    title: Pengiriman
+  delay:
+    title: Terlambat
+    text: 'Pengangkut mengumumkan satu hari lagi.'
+  field:
+    reference: Referensi
+    amount: Jumlah
+    method: Pembayaran
+    card: 'Kartu berakhir 4242'
+  action:
+    track: 'Lacak paket'
+    cancel: Batalkan
+history:
+  release:
+    title: 'Versi 2.0 dirilis'
+    meta: '2 September'
+  review:
+    title: 'Ditinjau oleh tim'
+    meta: '28 Agustus'
+  draft:
+    title: 'Draf pertama'
+    meta: '12 Agustus'
+branch:
+  choose: 'Pilih rencana'
+  depends: 'Bergantung pada rencana'
+hand:
+  one: 'Sebuah titik biasa'
+  two: 'Sebuah ikon sebagai pengganti titik'
+  two_text: 'Markup apa pun, dituliskan di halaman.'

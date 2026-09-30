@@ -1,0 +1,21 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Spanduk
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Spanduk inline yang sama seperti bagian vue, mengambil tipe dan pesan yang sama; shell yang diisi oleh layanan spanduk adalah file yang berbeda.'
+  banners:
+    neutral: 'Ini adalah pesan spanduk netral.'
+    info: 'Ini adalah pesan spanduk informasi.'
+    warning: 'Ini adalah pesan spanduk peringatan.'
+    error: 'Ini adalah pesan spanduk kesalahan.'
+    success: 'Ini adalah pesan spanduk sukses.'
+  layout_banner:
+    description: 'Spanduk terutama digunakan di tingkat tata letak untuk menampilkan pesan penting tentang aktivitas latar belakang seperti status koneksi Internet.'
+    button: 'Tampilkan spanduk'
+    messages:
+      info: 'Pesan informasi spanduk tata letak.'
+      success: 'Pesan sukses spanduk tata letak.'
+      warning: 'Pesan peringatan spanduk tata letak.'
+      error: 'Pesan kesalahan spanduk tata letak.'

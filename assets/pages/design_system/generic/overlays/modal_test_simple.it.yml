@@ -1,0 +1,6 @@
+page_title: 'Test modale - semplice'
+message: 'Questo è un modale semplice.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Sei sicuro di voler chiudere questo modale?'

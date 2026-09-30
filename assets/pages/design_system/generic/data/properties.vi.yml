@@ -1,0 +1,72 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Thuộc tính'
+page_icon: 'ph:bold/list-dashes'
+intro: 'Cặp khóa / giá trị được hiển thị dưới dạng danh sách định nghĩa. Các hàng là các lưới con của danh sách, vì vậy các khóa luôn được căn chỉnh trong một cột duy nhất trong khi mỗi hàng vẫn là một hộp thực sự có thể mang theo một dấu phân cách.'
+section:
+  default:
+    title: 'Mặc định'
+    description: 'Cột khóa tự điều chỉnh kích thước theo nhãn dài nhất. Ghi đè --properties-key-width để cố định nó.'
+  bordered:
+    title: 'Có viền'
+    description: 'Một dấu phân cách giữa các hàng, cho các bản ghi dày trong một khối nội dung.'
+    block_title: 'Chi tiết kết nối'
+  split:
+    title: Tách
+    description: 'Các giá trị đẩy về phía cạnh bên phải — tổng số, số dư, bất cứ thứ gì được đọc như một cột số liệu.'
+  compact:
+    title: 'Gọn gàng'
+    description: 'Các hàng chặt chẽ hơn khi danh sách là thứ yếu so với phần còn lại của khối.'
+  stacked:
+    title: 'Xếp chồng'
+    description: 'Khóa nằm trên giá trị, cho các cột hẹp nơi hai cột sẽ bị quấn lại xấu.'
+    aside: 'Thân giữ chiều rộng còn lại trong khi cột bên cạnh giữ cố định.'
+  columns:
+    title: Cột
+    description: 'Một tá cặp ngắn đọc xấu trong một cột cao: mắt phải đi qua chiều rộng của trang giữa một khóa và giá trị của nó, và các dấu phân cách cuối cùng giữ mỗi cặp lại với nhau. Được bố trí thành các cột — nhiều như chiều rộng cho phép, xuống đến một trên điện thoại — một cặp trở thành một khối nhỏ gồm hai dòng không cần quy tắc xung quanh. Một giá trị không cột nào có thể chứa sẽ chiếm toàn bộ chiều rộng với `full`.'
+  vue:
+    title: Vue
+    description: 'Danh sách giống như một phần vue, nhận các biến thể như props: một bản ghi được xây dựng khi trang chạy đọc giống như một bản được hiển thị cùng với nó.'
+field:
+  name:
+    key: Tên
+    value: 'Dự đoán ống dẫn'
+  identifier:
+    key: 'Mã định danh'
+    value: prj_8f21c4a7
+  description:
+    key: 'Mô tả'
+    value: 'Tổng hợp các sự kiện đến và hiển thị chúng dưới dạng một dự đoán có thể truy vấn.'
+  status:
+    key: 'Trạng thái'
+    value: 'Sẵn sàng'
+  owner:
+    key: 'Chủ sở hữu'
+    value: 'Nhóm nền tảng'
+  created:
+    key: 'Ngày tạo'
+    value: '14 tháng 3, 2026'
+  region:
+    key: Vùng
+    value: eu-west-1
+  runtime:
+    key: 'Thời gian chạy'
+    value: 'PHP 8.3'
+  version:
+    key: 'Phiên bản'
+    value: 1.4.2
+  reviewed:
+    key: 'Đã xem vào'
+    value: null
+  path:
+    key: Tệp
+    value: config/packages/prod/deploy/eu-west-1/service.yaml
+amount:
+  subtotal:
+    key: 'Tổng phụ'
+    value: '1,240.00 €'
+  tax:
+    key: Thuế
+    value: '248.00 €'
+  total:
+    key: 'Tổng cộng'
+    value: '1,488.00 €'

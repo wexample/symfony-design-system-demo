@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kulit
+page_icon: 'ph:bold/paint-brush'
+intro: 'Bagaimana sesuatu digambar, setelah warna dan kepadatan ditentukan: sudut, kedalaman, garis. Token ini adalah sumbu `kulit` dari tema — kulit default adalah yang ditampilkan halaman ini, dan kulit lainnya adalah file lain yang mengatur nama-nama yang sama, tanpa ada yang perlu diubah di bawah.'
+section:
+  radius:
+    title: Jari-jari
+    description: 'Tidak ada, lalu empat langkah masing-masing dua kali yang di bawah, lalu sebuah pil. Dua langkah terpisah adalah jarak yang sama di mana pun Anda berdiri di skala, itulah yang membuatnya dapat dibaca. Langkah pertama hampir tidak ada dengan sengaja: itu adalah apa yang diinginkan kulit datar ketika sudut yang sejati terbaca tidak selesai. Apa pun yang lebih bulat dari langkah terakhir adalah bentuk yang ingin menjadi lingkaran dan mengatakannya sendiri — sebuah lingkaran bukanlah keputusan kulit.'
+  role:
+    title: 'Peran jari-jari'
+    description: 'Sebuah bentuk tidak pernah membaca skala di atas: ia membaca peran yang dimainkannya, dan kulit mengatakan langkah mana yang didapat peran itu — tidak pernah apa nilai sebuah langkah, yang akan membuat skala berarti dua hal sekaligus. Apa yang menahan sesuatu adalah sebuah kotak, apakah itu menahan teks, konten, atau pesan; apa yang memisahkan dua area di halaman bukanlah keduanya, dan tidak membulatkan apa pun. Ganti kulit menjadi `lembut` dan saksikan sebuah kontrol terpisah dari yang lainnya: sebuah kapsul tepat untuk sesuatu setinggi satu baris dan tidak masuk akal untuk textarea.'
+  shadow:
+    title: Bayangan
+    description: 'Empat kedalaman, dari angkat garis rambut hingga panel mengapung. Sebuah kulit yang ingin dunia datar mengatur keempatnya menjadi tidak ada dan setiap permukaan yang terangkat mengikuti.'
+  border:
+    title: Batas
+    description: 'Garis itu sendiri — lebar dan gaya. Warnanya tidak ada di sini: itu milik skema warna, yang memungkinkan sebuah kulit menghapus garis tanpa mengetahui warna apa yang seharusnya dimiliki.'
+  separator:
+    title: 'Pemisah dan area'
+    description: 'Dua garis yang membedakan hal-hal: antara dua baris satu hal, dan antara dua area di halaman. Dua puluh bentuk lebih membaca yang pertama, itulah sebabnya ini adalah token dan bukan aturan.'
+separator:
+  row: 'sebuah baris di antara yang lainnya'
+  region: 'sebuah area halaman, dibatasi sebagai demikian'
+role:
+  control: 'setinggi satu baris, dan tertekan'
+  box: 'menahan sesuatu'
+  media: 'gambar dan figura'
+  pill: 'apa yang dibaca sebagai kapsul'

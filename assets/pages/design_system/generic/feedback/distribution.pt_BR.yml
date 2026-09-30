@@ -1,0 +1,36 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Distribuição
+page_icon: 'ph:bold/chart-bar-horizontal'
+intro: 'O que um total é composto, em uma linha. Onde uma barra de progresso indica até onde um valor chegou, isso mostra como um todo se divide: as partes mantêm a ordem em que são apresentadas, então um pipeline lê da esquerda para a direita, como um pipeline deve ser. Os estados são nomeados com o vocabulário que a cápsula e o círculo já usam, então um estado nunca assume duas cores.'
+section:
+  default:
+    title: 'Um todo, em partes'
+    description: 'As partes crescem em proporção ao que representam, e a legenda as descreve em palavras abaixo — a mesma cápsula que uma tabela usa para desenhar um estado, então o olho se move entre os dois sem aprender nada novo.'
+  linked:
+    title: 'Partes que levam a algum lugar'
+    description: 'Uma parte com um alvo é um link: a barra se torna o caminho para a lista que resume. Sob o ponteiro, ela adquire um brilho de luz em vez de outra cor, que indicaria um estado diferente.'
+  bare:
+    title: 'Sem a legenda'
+    description: 'Onde as partes são nomeadas ao lado, ou onde a barra só precisa indicar a forma do objeto, a legenda é eliminada e cada parte diz o que é sob o ponteiro.'
+  rest:
+    title: 'Um total maior que suas partes'
+    description: 'O que o total conta e nenhuma parte contabiliza mantém sua parte na linha e não desenha nada: a trilha se mostra exatamente por isso, ao invés das partes se esticarem para preencher uma barra que não preenchem.'
+  empty:
+    title: 'Nada contado ainda'
+    description: 'Sem total e sem parte — trabalho não iniciado, um registro ainda em aberto. A barra mantém seu lugar, como uma trilha vazia — o mesmo espaço que um total maior que suas partes mostra — então uma linha delas mantém sua forma; sua figura é um traço, já que nada contado não é zero.'
+  compact:
+    title: Compacto
+    description: 'Uma barra mais fina para uma linha ou um rodapé de cartão, com a densidade repassada para as cápsulas de sua legenda.'
+  vue:
+    title: 'Vue, dirigido'
+    description: 'A mesma barra, suas partes apresentadas como dados. Uma parte que não leva a lugar nenhum responde a um clique com `select`, que é o que se deve ouvir para uma tabela que se filtra ao lado.'
+bar:
+  pipeline: 'Páginas do catálogo'
+  elements: 'Elementos do sistema de design'
+  partial: 'Arquivos lidos'
+state:
+  done: Concluído
+  running: 'Em andamento'
+  todo: 'A fazer'
+  failed: Falhou
+  skipped: 'Não iniciado'

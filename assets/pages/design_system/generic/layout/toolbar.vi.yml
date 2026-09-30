@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Thanh công cụ'
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'Một tiêu đề và các dấu hiệu của nó'
+    description: 'Một thứ được lưu trữ như thế nào, nó nằm ở đâu và phiên bản nào: ba dấu hiệu đọc như một hàng, vì vậy chúng chia sẻ chiều cao bất kể chúng được làm từ gì — một viên thuốc có kích thước theo em cho văn bản mà nó thường ở bên trong, và một thanh cân bằng nó trên viên nang bên cạnh. Tiêu đề từ bỏ các khoảng cách và giữ tên ở bên trái xa nhất.'
+  default:
+    title: 'Thanh công cụ cơ bản'
+  title:
+    title: 'Thanh công cụ với tiêu đề'
+  title_multi:
+    title: 'Tiêu đề phần với các hành động'
+title:
+  example: 'Tiêu đề trang'
+  section: 'Tiêu đề phần'
+  document: 'Thiết kế và phát triển'
+marker:
+  state: evergreen
+button:
+  create: Tạo
+  refresh: 'Tải lại'
+  export: Xuất
+  edit: 'Chỉnh sửa'
+  delete: Xóa
+  history: 'Lịch sử'
+  share: 'Chia sẻ'

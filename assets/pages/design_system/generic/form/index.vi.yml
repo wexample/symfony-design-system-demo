@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Biểu mẫu'
+page_icon: 'ph:bold/textbox'
+intro: 'Một tập hợp các trường, nó hoạt động như thế nào khi được gửi đi, và nó nói gì khi quay trở lại. Các trường tự nó nằm trong Controls; những trang này thêm vào là chuyến đi vòng.'
+page:
+  inputs:
+    title: 'Đầu vào'
+    description: 'Mỗi trường mà hệ thống cung cấp, và hợp đồng cho phép một đại lý tiếp quản, điền và trả lại nó.'
+  basic:
+    title: 'Biểu mẫu cơ bản'
+    description: 'Trường hợp đơn giản: một biểu mẫu được hiển thị bởi máy chủ, được gửi bởi trình duyệt, được trả lời bởi một trang.'
+  rendered:
+    title: 'Biểu mẫu nâng cao'
+    description: 'Các biểu mẫu được xây dựng bởi thành phần biểu mẫu, với hành vi gửi và trạng thái mà chúng quay trở lại.'
+  ajax:
+    title: 'Biểu mẫu Ajax'
+    description: 'Một biểu mẫu trả lời mà không cần rời khỏi trang, và nó làm gì với những gì quay lại.'
+  vue:
+    title: 'Biểu mẫu Vue'
+    description: 'Các biểu mẫu giống nhau được điều khiển từ một thành phần, nơi các trường là trạng thái thay vì đánh dấu.'

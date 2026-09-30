@@ -1,0 +1,31 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Progres
+page_icon: 'ph:bold/gauge'
+intro: 'Seberapa jauh sesuatu telah berjalan, dibawa sebagai rasio antara 0 dan 1 dalam properti kustom — seperti halnya lingkaran status membawa busurnya, sehingga kedua sisi tumpukan mengisi bilah dengan satu deklarasi. Twig mencetak nilai yang diberikan; memindahkannya setelahnya adalah urusan browser.'
+section:
+  default:
+    title: Status
+    description: 'Nilai adalah hitungan atau bagian yang dituliskan sebagai persentase, dan tidak pernah menjawab di luar batasnya. Warna adalah umpan balik, sehingga bilah menunjukkan bagaimana pekerjaannya berakhir dalam bahasa yang sama dengan pesan atau status.'
+  plain:
+    title: 'Tanpa total'
+    description: 'Seratus adalah apa yang dihitung oleh bilah ketika tidak ada yang mengatakan sebaliknya, yang menjadikan persentase satu-satunya hal yang memberikannya. Totalnya sendiri adalah untuk pekerjaan yang dihitung dalam hal-hal daripada dalam bagian.'
+  indeterminate:
+    title: 'Akhir yang tidak diketahui'
+    description: 'Pekerjaan yang sedang berlangsung yang ukurannya tidak diketahui: bilah bergerak dan tidak menunjukkan angka. Mengklaim bagian di sini akan menjadi tebakan yang berpura-pura sebagai pengukuran.'
+  compact:
+    title: Kompak
+    description: 'Dikurangi menjadi apa yang harus dikatakannya, untuk garis status atau footer: trek yang lebih tipis, kata-kata di sampingnya daripada di atas, dan kepadatan diteruskan ke apa pun yang berdiri bersamanya.'
+  vue:
+    title: 'Vue, didorong'
+    description: 'Bilah yang sama, dengan kosakata yang sudah dibicarakan oleh kemajuan cli — memperbarui, maju, selesai, reset. Satu langkah yang tidak disebutkan berarti satu unit, yang merupakan apa yang harus disebut di mana baik unit maupun total tidak berarti apa-apa.'
+bar:
+  queued: Antrian
+  working: 'Membangun aset'
+  almost: Mengunggah
+  done: Diterapkan
+  failed: 'Migrasi gagal'
+  counted: 'Berkas dibaca'
+  unknown: 'Mencari sesuatu'
+  indexing: Mengindeks
+compact:
+  app: acme-blog

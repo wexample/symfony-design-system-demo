@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Bảng điều khiển'
+page_icon: 'ph:bold/squares-four'
+mode:
+  reopen: 'Mở lại bảng API'
+  gap: 'Có khoảng trống'
+  flush: Xóa
+state:
+  success: 'Bình thường'
+  warning: 'Giảm sút'
+  error: 'Thất bại'
+  running: 'Đang xả'
+tile:
+  traffic:
+    title: 'Lưu lượng'
+    figure: '12.4k yêu cầu/phút'
+    description: 'Các phân chia bên trong một phân chia: bức tường là một phân chia dọc của các hàng, mỗi hàng là một phân chia riêng. Kéo cạnh bên dưới hàng này để tăng chiều cao, hoặc kéo cạnh bên cạnh ô này để tăng chiều rộng.'
+  latency:
+    title: 'Độ trễ p95'
+    figure: '184 ms'
+    description: 'Mỗi ô đặt tên cho một tầng, `zone--min-*`: bên dưới nó, ô không bị nén, khung cuộn thay vào đó — theo chiều ngang cũng như chiều dọc.'
+  errors:
+    title: Lỗi
+    figure: '2.1 %'
+    description: 'Được thay đổi kích thước, một khu vực giữ kích thước mà nó đã được để lại theo trục phân chia của nó, và quay trở lại với nó; một cú nhấp đúp vào tay cầm sẽ đưa nó trở lại phân chia.'
+  queue:
+    title: 'Hàng đợi'
+    figure: '318 công việc'
+    description: '`zone--split--flush` thu hẹp khoảng cách đến một pixel, mặt đất của bức tường vẽ đường giữa các ô. Một lớp trên bức tường là đủ, các hàng kế thừa nó.'
+  deploys:
+    title: 'Triển khai'
+    figure: '7 hôm nay'
+    description: 'Nếu không có nó, bức tường giống nhau giữ khoảng cách giữa các ô của nó, qua đó mặt đất của trang hiển thị — chuyển đổi trong thanh trên. Cuộn sang phải để mở một bảng chỉ được tải khi nó được nhìn thấy.'

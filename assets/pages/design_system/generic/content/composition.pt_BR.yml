@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Composição
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: 'A imagem e o bloco de código como parciais vue, utilizando as mesmas opções.'
+  prose:
+    title: 'Artigo em prosa'
+  image:
+    title: Imagens
+  media:
+    title: 'Mídia com texto'
+  dropcap:
+    title: 'Inicial em destaque'
+  meta_bar:
+    title: 'Barra de metadados'
+    stack_note: 'Uma segunda barra pode ser empilhada abaixo para agrupar uma categoria diferente de metadados — aqui, taxonomia e análises.'
+    action_link_note: 'Use action-link para itens interativos que devem se misturar à barra — sem fundo, sem sombra, cor suave.'
+image:
+  intro: 'A função content_image() renderiza uma img com loading="lazy" por padrão, e a envolve em um elemento figure quando uma legenda é fornecida.'
+  simple:
+    label: 'Sem legenda — uma img simples, em largura total.'
+    alt: 'Imagem de exemplo — sem legenda'
+  captioned:
+    label: 'Com legenda — envolvida em um figure com um figcaption.'
+    alt: 'Imagem de exemplo — com legenda'
+    caption: 'Um figure com um figcaption — use para creditar fontes ou adicionar contexto ao conteúdo visual.'
+article:
+  toc:
+    label: 'Neste artigo'
+  title: 'Entendendo os tokens de design'
+  intro: 'Os tokens de design são a única fonte de verdade para decisões visuais em um produto. Eles codificam cor, espaçamento, tipografia e movimento em variáveis nomeadas que os componentes utilizam.'
+  section_one:
+    title: 'Por que os tokens são importantes'
+    body_one: 'Sem tokens, uma mudança na cor primária da marca exige procurar em centenas de arquivos. Com tokens, uma atualização de variável se propaga em todos os lugares — de botões a alertas a barras de navegação.'
+    body_two: 'Os tokens também preenchem a lacuna entre ferramentas de design e código. Um designer nomeia uma cor <strong>surface-brand</strong> no Figma; um desenvolvedor usa <code>var(--surface-brand)</code> no CSS. Eles falam a mesma língua.'
+  section_two:
+    title: 'Exemplos práticos'
+    body: 'Considere um componente que precisa de um fundo, uma borda e texto. Em vez de codificar <code>#1a56db</code>, <code>#e1effe</code>, e <code>#1e429f</code>, o componente referencia <code>--color-primary</code>, <code>--surface-primary-subtle</code>, e <code>--text-primary-strong</code>. Quando a marca evolui, a paleta muda — o componente não.'
+  list_title: 'Categorias de tokens'
+  list:
+    - 'Cor — paletas de marca, semântica e neutra'
+    - 'Espaçamento — uma escala consistente de 2px a 64px'
+    - 'Tipografia — tamanhos de fonte, pesos e alturas de linha'
+    - 'Raio — de cantos agudos a totalmente arredondados'
+    - 'Sombra — níveis de elevação para profundidade e hierarquia'
+    - 'Movimento — curvas de suavização e etapas de duração'
+  quote: 'A maioria das citações encontradas na Internet foram provavelmente geradas por uma IA.'
+  quote_author: 'Albert Einstein'
+  cta: 'Leia a referência completa de tokens'
+media:
+  alt: 'Imagem de exemplo ao lado do texto'
+  caption: 'Imagem ocupando um terço do layout.'
+  body_one: 'Use content--media para colocar uma imagem e texto lado a lado. A imagem ocupa um terço da largura, o texto dois terços.'
+  body_two: 'Esse layout é adequado para citações em destaque, definições ilustradas ou qualquer bloco editorial curto onde a imagem reforça o texto sem dominá-lo.'
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: 'Alice Martin'
+  date: '18 de julho de 2026'
+  read_time: '4 min de leitura'
+  likes: '142 curtidas'
+  category: 'Design UX'
+  tag: 'Em andamento'
+  views: '3 847 visualizações'
+action:
+  share: Compartilhar

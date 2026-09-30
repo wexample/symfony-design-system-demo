@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Màu sắc'
+page_icon: 'ph:bold/palette'
+intro: 'Không có tên thành phần nào chỉ ra một màu sắc. Chúng chỉ ra một vai trò — một bề mặt, một đường viền, một trạng thái — và chủ đề quyết định vai trò đó trông như thế nào trên từng mặt của nó. Chuyển đổi sơ đồ từ tiêu đề và theo dõi mỗi bảng màu bên dưới di chuyển mà không có cái nào được định nghĩa lại.'
+section:
+  surfaces:
+    title: 'Bề mặt'
+    description: 'Một thang nâng trên trang. Mặt sáng sắp xếp chúng theo độ sáng, mặt tối theo mức độ mà mỗi cái được nâng lên khỏi nền — đó là lý do tại sao một thành phần yêu cầu một cấp độ và không bao giờ yêu cầu một màu xám.'
+  invert:
+    title: 'Đảo ngược cấp độ'
+    description: 'Hai mươi bước của màu sắc văn bản trên nền, và là nguồn của hầu hết mọi đường viền, văn bản nhạt và trạng thái hover trong hệ thống. Cấp độ 1 hầu như không thấy, cấp độ 20 là chính văn bản.'
+  semantic:
+    title: 'Các nhóm ngữ nghĩa'
+    description: 'Năm nhóm, đọc từ trang đến văn bản qua màu sắc: cấp độ 1 là màu sắc chỉ hơi tô lên trang, 17 là màu sắc hoàn chỉnh, 32 là màu sắc chỉ hơi tô lên văn bản. Dưới giữa là nền; trên đó là mực, sẽ sáng lên trên mặt tối và đậm lên trên mặt sáng. Một thành phần chọn một cấp độ chứ không phải một mã hex, điều này cho phép cùng một thông điệp được đọc chính xác trên cả hai mặt.'
+  categories:
+    title: 'Bảng màu phân loại'
+    description: 'Mười ba màu sắc không có nghĩa gì ngoài "không phải cái bên cạnh": chuỗi của một biểu đồ, các phân đoạn của một phân phối, các giai đoạn của một quy trình làm việc. Được đặt tên, không được đánh số — một ứng dụng chọn `cat-mint` vì nó trông giống như bạc hà. Mỗi cái đi kèm với một biến thể sáng và một biến thể tối, được cố định trên cả hai mặt như phần tô; mực viết trên một phần tô sẽ chuyển thành tối khi màu sắc là sáng. Màu nào thuộc nhóm nào là sự lựa chọn của ứng dụng, không bao giờ của hệ thống thiết kế.'
+  text:
+    title: 'Văn bản'
+    description: 'Ba cấp độ chú ý. Những gì đang được đọc, những gì xác định nó, và những gì chỉ có thể được tìm thấy khi tìm kiếm.'
+  borders:
+    title: 'Đường viền'
+    description: 'Bốn trọng số, được phân biệt bởi những gì chúng phân chia: hai thứ trong một khu vực, hai khu vực của một trang, hoặc một trường với những gì ở phía sau nó.'
+surface:
+  page: 'Trang chính nó, và những gì hiển thị giữa các vùng'
+  shell: 'Menu, tiêu đề, chân trang'
+  zone: 'Nền mà một khu vực của trang đứng trên'
+  one: 'Các trường nhập liệu'
+  two: 'Nút, thanh công cụ'
+  three: 'Khối, thẻ, hộp thoại'
+text:
+  default: 'Những gì đang được đọc'
+  muted: 'Nhãn, meta, phụ đề'
+  subtle: 'Các dấu phân cách và trạng thái trống'

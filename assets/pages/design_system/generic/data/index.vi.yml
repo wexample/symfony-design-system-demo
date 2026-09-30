@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Dữ liệu'
+page_icon: 'ph:bold/list-bullets'
+intro: 'Các hình thức thu thập và hiển thị một bộ sưu tập. Điều phân biệt chúng là lượng thông tin mà người đọc có thể thấy từ mỗi bản ghi, và những gì họ có thể làm với nó sau khi nhìn thấy.'
+page:
+  files:
+    title: Tệp
+    description: 'Một trình duyệt tệp rộng bằng một trang, được cung cấp bởi một trình tải, và một thư mục được vẽ bởi máy chủ.'
+  tables:
+    title: Bảng
+    description: 'Các hàng và cột, được máy chủ tạo ra hoặc phân trang bởi trình duyệt, với các ô có kiểu — liên kết, hành động, biểu tượng và ngày tháng liên tục đếm.'
+  live:
+    title: 'Cập nhật'
+    description: 'Ba cách mà một bộ sưu tập nhận biết rằng những gì nó hiển thị đã thay đổi — một sự kiện ứng dụng, một nguồn trực tiếp, hoặc polling — và mỗi cách này dùng để làm gì.'
+  lists:
+    title: 'Danh sách'
+    description: 'Một danh sách được tìm kiếm và lọc từ tiêu đề của nó, cho một bộ mà người đọc duyệt thay vì quét.'
+  properties:
+    title: 'Thuộc tính'
+    description: 'Khóa và giá trị, cho một bản ghi thay vì nhiều — bảng chi tiết của một thứ đã được chọn.'
+  bars:
+    title: Thanh
+    description: 'Một bản ghi được đặt tên trong một dòng: một biểu tượng, một tiêu đề, điều gì làm cho nó đủ điều kiện. Dòng mà một kết quả tìm kiếm, một thành viên hoặc một tệp được hiển thị.'
+  tree:
+    title: Cây
+    description: 'Một bộ sưu tập mà các bản ghi chứa lẫn nhau, được tải từng cấp một, trong bảng mà một trình khám phá cung cấp.'
+  chat:
+    title: 'Trò chuyện'
+    description: 'Một bộ sưu tập được đọc ngược và được thêm vào từ dưới lên, trực tiếp, với một trình soạn thảo phát triển khi nó được viết vào.'

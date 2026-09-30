@@ -1,0 +1,96 @@
+field:
+  password:
+    label: Şifre
+    help: 'Kimlik doğrulamak için şifrenizi girin.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Şifre test amaçları için geçersiz.'
+  emoji:
+    label: Emoji
+    help: 'Duygu durumunuzu temsil etmek için bir emoji seçin.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Emoji test amaçları için geçersiz.'
+  text_simple:
+    label: Metin
+    help: 'Kısa içerikler için tek satırlık metin girişi.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Metin test amaçları için geçersiz.'
+  text_area:
+    label: 'Uzun metin'
+    placeholder: 'İstediğinizi yazın...'
+    help: 'Daha uzun içerikler için çok satırlı metin alanı.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Uzun metin test amaçları için geçersiz.'
+  number:
+    label: Sayı
+    help: 'Sayısal bir değer girin.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Sayı test amaçları için geçersiz.'
+  email:
+    label: E-posta
+    placeholder: you@example.com
+    help: 'Geçerli bir e-posta adresi girin.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'E-posta test amaçları için geçersiz.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Protokol dahil tam bir URL girin.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL test amaçları için geçersiz.'
+  date:
+    label: Tarih
+    help: 'Tarih seçici ile bir tarih seçin.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Tarih test amaçları için geçersiz.'
+  datetime:
+    label: 'Tarih ve saat'
+    help: 'Birleşik tarih ve saat seçin.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Tarih ve saat test amaçları için geçersiz.'
+  time:
+    label: Saat
+    help: 'Günün saatini seçin.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Saat test amaçları için geçersiz.'
+  file:
+    label: Dosya
+    help: 'Cihazınızdan bir veya daha fazla dosya yükleyin.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Dosya test amaçları için geçersiz.'
+  radio_choice:
+    label: 'Radyo seçimi'
+    help: 'Listeden bir seçenek seçin.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Radyo seçimi test amaçları için geçersiz.'
+    choice:
+      option_a:
+        label: 'Seçenek A'
+      option_b:
+        label: 'Seçenek B'
+      option_c:
+        label: 'Seçenek C'
+  switch:
+    label: Anahtar
+    help: 'Bu seçeneği açıp kapatın.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Anahtar test amaçları için geçersiz.'
+form:
+  error:
+    ERR_FORM_TEST: 'Test amaçlı genel hata.'
+action:
+  button_demo: 'Hiçbir şey yapma'
+  submit_default: Gönder
+  submit_error: 'Hataları göster'
+  submit_js: 'JS işlemi'
+  submit_redirect: Yönlendir
+toast:
+  success:
+    title: Başarılı
+    message: 'Form başarıyla gönderildi.'
+  js_action:
+    title: 'JS işlemi'
+    message: 'Formu yeniden etkinleştirmek ister misiniz?'
+    reactivate: 'Yeniden etkinleştir'
+    dismiss: Kapat
+description: |
+  Bu formu gönderim davranışlarını test etmek için kullanın. Bu demo bir Vue bileşenindedir.

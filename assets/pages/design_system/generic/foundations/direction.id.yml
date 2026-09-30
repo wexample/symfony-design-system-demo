@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Arah
+page_icon: 'ph:bold/arrows-left-right'
+intro: 'Contoh yang sama dua kali, dari kiri ke kanan dan dari kanan ke kiri. Tidak ada yang ditulis untuk sisi kanan-ke-kiri: setiap stylesheet berbicara tentang awal dan akhir sebuah garis, jadi sebuah blok yang diberikan `dir="rtl"` — atau halaman dalam Bahasa Arab — mencerminkan sendiri. Panah mengarah ke arah yang berlawanan, tombol saklar bergerak ke arah yang berlawanan, menu terbuka menuju akhir, dan email atau jalur terus dibaca dari kiri ke kanan.'
+side:
+  ltr: 'Kiri ke kanan'
+  rtl: 'Kanan ke kiri'
+sample:
+  navigation: Navigasi
+  controls: Kontrol
+  data: Data
+  text: Teks
+step:
+  account: Akun
+  address: Alamat
+  payment: Pembayaran
+action:
+  previous: Sebelumnya
+  next: Selanjutnya
+  menu: Menu
+menu:
+  report: Laporan
+  settings: Pengaturan
+control:
+  notifications: Notifikasi
+  digest: 'Rangkuman mingguan'
+  upload: Unggah
+field:
+  owner: Pemilik
+  email: Email
+  site: Situs
+  amount: Jumlah
+text:
+  lead: 'Paragraf utama menyampaikan aturannya dari sisi tempat garis dimulai.'
+  mixed: 'Nilai mempertahankan arah masing-masing di dalam kalimat — tanyakan layla.haddad@example.test, jalankan'
+  marker: Dikirim
+  link: Dokumentasi

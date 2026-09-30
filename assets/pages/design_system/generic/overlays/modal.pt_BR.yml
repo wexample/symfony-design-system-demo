@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Diálogo
+page_icon: 'ph:bold/app-window'
+section:
+  persist:
+    description: 'Modal com abas. Abra-o, mude de abas, pressione F5 — o modal reabre na mesma aba.'
+    button: 'Abrir modal'
+  simple:
+    description: 'Mostrar um modal simples. Você pode fechá-lo com Escape ou clicando fora do modal.'
+    button: 'Abrir modal'
+  components:
+    description: 'Mostrar um modal com componentes e um acionador de toast. Escape está desativado, mas você ainda pode clicar fora para fechá-lo.'
+    button: 'Abrir modal'
+  medium:
+    description: 'Mostrar um modal com texto de comprimento médio. Clicar fora não irá fechá-lo.'
+    button: 'Abrir modal'
+  long:
+    description: 'Mostrar um modal com texto longo. Ele pede confirmação antes de fechar.'
+    button: 'Abrir modal'
+  form_rendered:
+    description: 'Mostrar um formulário de demonstração renderizado dentro de um modal. Escape e clique fora estão desativados, e ele pergunta antes de fechar se o formulário foi modificado.'
+    button: 'Abrir modal'
+  form_ajax:
+    description: 'Mostrar um formulário de demonstração renderizado dentro de um modal usando AJAX. Escape e clique fora estão desativados, e ele pergunta antes de fechar se o formulário foi modificado.'
+    button: 'Abrir modal'
+  recursive:
+    description: 'Abrir uma página de diálogo dentro de outro diálogo — escolha modal ou painel.'
+    button_modal: 'Abrir em modal'
+    button_panel: 'Abrir em painel'

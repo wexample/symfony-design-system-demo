@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Painel do Dashboard'
+page_icon: 'ph:bold/square-half'
+field:
+  version: Versão
+  instances: Instâncias
+  loaded: Carregado
+loaded:
+  at_once: 'assim que a página foi exibida'
+  late: '%seconds% s atrasado, intencionalmente'
+service:
+  api:
+    title: 'Gateway da API'
+    state: Atendendo
+    version: 4.12.0
+    instances: '3 / 3'
+    description: "Uma página própria, carregada nesta zona por um embed. O 'x' no canto fecha-a: a zona sai e as outras compartilham seu espaço."
+  worker:
+    title: 'Trabalhador de Fila'
+    state: Recuperando
+    version: 2.3.1
+    instances: '2 / 4'
+    description: 'Carregado de forma preguiçosa — apenas quando rolado para a visualização — e respondido com atraso, para que o indicador de carregamento tenha tempo de ser visto.'

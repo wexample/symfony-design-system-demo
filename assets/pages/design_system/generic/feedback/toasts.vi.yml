@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Phản hồi'
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Thông báo giống như một phần vue. Việc đóng sẽ được phát ra ở đây thay vì được hoạt hình đi: bên trong cây vue, cha sở hữu danh sách.'
+  simple_toast:
+    description: 'Hiển thị một thông báo đơn giản'
+    button: 'Mở thông báo'
+    title: 'Demo thông báo'
+    message: 'Xin chào từ ToastService + ToastStack. Bạn cũng có thể định nghĩa các liên kết hành động như @action:demo(cái này) bên trong một thông điệp.'
+  tl_toast:
+    description: 'Hiển thị một chồng thông báo ở góc trên bên trái'
+    button: 'Mở thông báo'
+    title: 'Thông báo góc trên bên trái'
+    message: 'Xin chào từ ToastService + ToastStack (TL).'
+  medium_toast:
+    description: 'Hiển thị một thông điệp thông báo có độ dài trung bình'
+    button: 'Mở thông báo'
+    title: 'Thông báo trung bình'
+    message: 'Đây là một thông điệp thông báo có độ dài trung bình cho demo.'
+  long_toast:
+    description: 'Hiển thị một thông điệp thông báo dài'
+    button: 'Mở thông báo'
+    title: 'Thông báo dài'
+    message: 'Đây là một thông điệp thông báo dài hơn cho demo. Nó chứa nhiều văn bản hơn để bạn có thể xem trước cách mà thành phần hoạt động với nội dung lớn hơn.'
+  horizontal_toasts:
+    description: 'Hiển thị bốn thông báo trong một chồng ngang'
+    info:
+      title: 'Thông báo thông tin'
+      message: 'Một bản xem trước thông báo ngang.'
+      button: 'Hiển thị thông báo'
+    success:
+      title: 'Thông báo thành công'
+      message: 'Mọi thứ trông ổn ở đây.'
+      button: 'Hiển thị thông báo'
+    warning:
+      title: 'Thông báo cảnh báo'
+      message: 'Kiểm tra lại hành động này.'
+      button: 'Hiển thị thông báo'
+    error:
+      title: 'Thông báo lỗi'
+      message: 'Có gì đó không ổn ở đây.'
+      button: 'Hiển thị thông báo'
+title:
+  toasts: 'Thông báo'

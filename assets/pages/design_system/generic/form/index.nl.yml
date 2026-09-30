@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Formulieren
+page_icon: 'ph:bold/textbox'
+intro: "Een set velden, wat er gebeurt wanneer het wordt verzonden en wat het zegt wanneer het terugkomt. De velden zelf bevinden zich in Besturingselementen; wat deze pagina's toevoegen is de heen- en terugreis."
+page:
+  inputs:
+    title: Invoervelden
+    description: 'Elk veld dat het systeem levert, en het contract dat een agent toestaat om er een over te nemen, deze in te vullen en terug te geven.'
+  basic:
+    title: Basisformulieren
+    description: 'De eenvoudige zaak: een formulier dat door de server wordt weergegeven, verzonden door de browser, beantwoord door een pagina.'
+  rendered:
+    title: 'Geavanceerde formulieren'
+    description: 'Formulieren gebouwd door de formele component, met hun indiende gedragingen en de staat waarin ze terugkomen.'
+  ajax:
+    title: Ajax-formulieren
+    description: 'Een formulier dat antwoord geeft zonder dat de pagina wordt verlaten, en wat het doet met wat terugkomt.'
+  vue:
+    title: Vue-formulieren
+    description: 'Dezelfde formulieren aangestuurd vanuit een component, waar de velden staat zijn in plaats van markup.'

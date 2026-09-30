@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Umpan Balik'
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Toast yang sama seperti bagian vue. Penutupan dipancarkan di sini daripada dianimasikan pergi: di dalam pohon vue, induk memiliki daftar.'
+  simple_toast:
+    description: 'Tampilkan toast sederhana'
+    button: 'Buka toast'
+    title: 'Demo toast'
+    message: 'Halo dari ToastService + ToastStack. Anda juga dapat mendefinisikan tautan aksi seperti @action:demo(ini) di dalam pesan.'
+  tl_toast:
+    description: 'Tampilkan tumpukan toast di kiri atas'
+    button: 'Buka toast'
+    title: 'Toast kiri atas'
+    message: 'Halo dari ToastService + ToastStack (TL).'
+  medium_toast:
+    description: 'Tampilkan pesan toast dengan panjang sedang'
+    button: 'Buka toast'
+    title: 'Toast sedang'
+    message: 'Ini adalah pesan toast dengan panjang sedang untuk demo.'
+  long_toast:
+    description: 'Tampilkan pesan toast yang panjang'
+    button: 'Buka toast'
+    title: 'Toast panjang'
+    message: 'Ini adalah pesan toast yang lebih panjang untuk demo. Ini berisi lebih banyak teks sehingga Anda dapat melihat bagaimana komponen berfungsi dengan konten yang lebih besar.'
+  horizontal_toasts:
+    description: 'Tampilkan empat toast dalam tumpukan horizontal'
+    info:
+      title: 'Toast informasi'
+      message: 'Prabaca toast horizontal.'
+      button: 'Tampilkan toast'
+    success:
+      title: 'Toast sukses'
+      message: 'Semua terlihat baik di sini.'
+      button: 'Tampilkan toast'
+    warning:
+      title: 'Toast peringatan'
+      message: 'Periksa kembali tindakan ini.'
+      button: 'Tampilkan toast'
+    error:
+      title: 'Toast kesalahan'
+      message: 'Ada yang tidak beres di sini.'
+      button: 'Tampilkan toast'
+title:
+  toasts: Toasts

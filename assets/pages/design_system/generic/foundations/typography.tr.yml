@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tipografi
+page_icon: 'ph:bold/text-aa'
+intro: 'Ölçek bir yoğunluk kararını, yüzler ise bir font kararını temsil eder: bu sayfa bir şeklin nasıl okunduğunu gösterir, bugün ne kadar değerli olduğunu değil. Hata ayıklama panelinde font eksenini değiştirin ve aşağıdaki her şey başka bir yüzle değiştirilir, kural değişmeden.'
+section:
+  families:
+    title: Aileler
+    description: 'Üç, çünkü bir sayfa bunu ayırt eder: ne ile yazıldığı, ne ile başlıklandırıldığı ve neyin yazıldığı gibi okunması gerektiği. Bir set, üçüne de aynı yüzü verebilir — sistem yüzü bunu yapar.'
+  weights:
+    title: Ağırlıklar
+    description: 'Ne kadar ısrarcı olduklarına göre adlandırılır, asla sayıya göre değil. 500’ü olmayan bir yüz, sahip olduğu üzerine yerleştirir ve ortalama isteyen şekiller ortalama istemeye devam eder.'
+  typography:
+    title: 'Yazı ölçeği'
+title:
+  h1:
+    title: 'Tasarım Sistemi — Harika arayüzler için yapı taşları'
+    description: 'Her sayfada bir kez kullanılır. Birincil bağlamı belirler. Kısa bir giriş paragrafı ile eşleştirilir.'
+  h2:
+    title: 'Tipografi hiyerarşi ve ritmi belirler'
+    description: 'Bölüm seviyesi başlığı. İlgili içeriği gruplar. Genellikle gövde metni veya alt bölümlerle takip edilir.'
+  h3:
+    title: 'Boşluk ve oran okunabilirliği şekillendirir'
+    description: 'Alt bölüm başlığı. Bir bölüm içinde odaklanmış bir konuyu tanıtır.'
+  h4:
+    title: 'Renk ve kontrast gözü yönlendirir'
+    description: 'Kart başlıkları, yan panel bölümleri veya küçük gruplar için kullanılır.'
+  h5:
+    title: 'Etkileşimli durumlar belirgin olmalı'
+    description: 'Etiketler, meta veri başlıkları, küçük gruplar. Gövde metninden ince ama belirgin bir şekilde ayrılır.'
+  h6:
+    title: 'Erişilebilirlik bir özelliktir, sonradan düşünülmemiştir'
+    description: 'En küçük başlık seviyesi. Az kullanın — dipnotlar, yasal bloklar veya yardımcı etiketler için.'
+sample: 'Hızlı kahverengi tilki tembel köpeğin üzerinden atlar — 0123456789'

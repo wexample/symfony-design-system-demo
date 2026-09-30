@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Konten
+page_icon: 'ph:bold/article'
+intro: 'Kata-kata, gambar, dan nilai, serta ritme di antara mereka. Halaman-halaman ini memiliki kesamaan dalam memformat sesuatu yang dibaca seseorang, alih-alih mengatur wilayah atau mencantumkan catatan.'
+page:
+  composition:
+    title: Komposisi
+    description: 'Sebuah halaman prosa seperti yang seharusnya dibaca: artikel, gambar dengan teks di sekelilingnya, huruf awal, meta bar.'
+  media:
+    title: Media
+    description: 'Gambar dan penyematan yang dibentuk: rasio aspek, overlay, dan tempat sementara yang muncul saat belum ada yang dimuat.'
+  dates:
+    title: Tanggal
+    description: 'Satu kosakata format yang dipahami sama oleh Twig dan oleh browser, serta tanggal yang tetap akurat saat halaman dibuka.'
+  graph_log:
+    title: 'Log grafik'
+    description: 'Item-item di jalur berwarna dengan cabang dan penggabungan: sejarah git, atau apapun yang bercabang.'
+  console:
+    title: Konsol
+    description: 'Apa yang dicetak shell, dibaca kembali di halaman, dan baris ditambahkan saat mereka muncul.'
+  timeline:
+    title: 'Garis Waktu'
+    description: 'Langkah atau peristiwa satu di bawah yang lain pada penanda yang dihubungkan oleh garis, masing-masing memuat apa pun yang dibutuhkan.'

@@ -1,0 +1,28 @@
+page_title: 'Bảng điều khiển'
+page_icon: 'ph:bold/sidebar-simple-duotone'
+section:
+  persist:
+    description: 'Bảng điều khiển với các tab. Mở nó, chuyển tab, nhấn F5 — bảng điều khiển sẽ mở lại ở cùng một tab.'
+    button: 'Mở bảng điều khiển'
+  simple:
+    description: 'Hiển thị một bảng điều khiển đơn giản. Bạn có thể đóng nó bằng phím Escape hoặc bằng cách nhấp ra ngoài bảng điều khiển.'
+    button: 'Mở bảng điều khiển'
+  components:
+    description: 'Hiển thị một bảng điều khiển với các thành phần và một nút thông báo. Phím Escape bị vô hiệu hóa, nhưng bạn vẫn có thể nhấp ra ngoài để đóng nó.'
+    button: 'Mở bảng điều khiển'
+  medium:
+    description: 'Hiển thị một bảng điều khiển với văn bản dài vừa. Nhấp ra ngoài sẽ không đóng nó.'
+    button: 'Mở bảng điều khiển'
+  long:
+    description: 'Hiển thị một bảng điều khiển với văn bản dài. Nó sẽ yêu cầu xác nhận trước khi đóng.'
+    button: 'Mở bảng điều khiển'
+  form_rendered:
+    description: 'Hiển thị một mẫu demo đã được hiển thị bên trong bảng điều khiển. Phím Escape và nhấp ra ngoài đều bị vô hiệu hóa, và nó sẽ hỏi trước khi đóng nếu mẫu đã được sửa đổi.'
+    button: 'Mở bảng điều khiển'
+  form_ajax:
+    description: 'Hiển thị một mẫu demo đã được hiển thị bên trong bảng điều khiển sử dụng AJAX. Phím Escape và nhấp ra ngoài đều bị vô hiệu hóa, và nó sẽ hỏi trước khi đóng nếu mẫu đã được sửa đổi.'
+    button: 'Mở bảng điều khiển'
+  recursive:
+    description: 'Mở một trang hộp thoại bên trong một hộp thoại khác — chọn kiểu modal hoặc bảng điều khiển.'
+    button_modal: 'Mở trong modal'
+    button_panel: 'Mở trong bảng điều khiển'

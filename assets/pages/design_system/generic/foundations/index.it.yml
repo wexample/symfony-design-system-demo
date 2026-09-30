@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Fondamenti
+page_icon: 'ph:bold/diamonds-four'
+intro: 'Da cui è speso tutto il resto. Nulla in queste pagine è un componente: sono le scale — colore, spaziatura, tipografia e la pelle che li unisce — che ogni altra sezione legge senza mai mostrarle.'
+page:
+  colors:
+    title: Colori
+    description: 'Le superfici da cui è composta una pagina, i livelli di inversione, i bordi e il testo attenuato sono tracciati, e le cinque famiglie semantiche. Entrambi i volti del tema, affiancati.'
+  spacing:
+    title: Spaziatura
+    description: 'I nove passaggi di spaziatura, le dimensioni e il modello di densità — come una regione si dichiara compatta e cosa questo comporta per tutto ciò che contiene.'
+  typography:
+    title: Tipografia
+    description: 'La scala dei caratteri e i pesi, poi la stessa scala applicata in una pagina di prosa.'
+  skin:
+    title: Pelle
+    description: "Come vengono tracciate le cose, con colore e densità uguali: i raggi, le ombre, i bordi e i separatori. L'unico asse del tema che ha un carattere."

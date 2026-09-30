@@ -1,0 +1,120 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tabelas
+page_icon: 'ph:bold/table'
+section:
+  wide:
+    title: 'Mais largo que a sala'
+    description: 'Uma tabela cujas colunas exigem mais do que a página possui é desenhada na largura que precisa, em um quadro que rola para o lado — a página ao redor não se move. Uma tabela fixa abre mão disso: um cabeçalho preso à página e um quadro rolando por conta própria não podem coexistir.'
+  default:
+    title: 'Tabela simples'
+  actions:
+    title: 'Tabela com ações'
+  links:
+    title: 'Células com link e ícone'
+  loading:
+    title: 'Estado de carregamento'
+  empty:
+    title: 'Estado vazio'
+  alignment:
+    title: 'Alinhamento das colunas'
+  markdown:
+    title: 'A partir do markdown'
+    description: 'Uma tabela escrita em markdown e passada por `markdown_ds`: as colunas, seu alinhamento e a marcação de cada célula são lidas do documento, e a tabela é desenhada aqui como qualquer outra. `markdown` mantém o simples `<table>`, para o que não for uma página — um e-mail, um feed.'
+  groups:
+    title: 'Agrupar linhas'
+    description: 'Uma linha que contém apenas um grupo não é uma linha: é a linha entre duas sequências delas, dada uma palavra. Ela se estende pela tabela e nomeia o que segue — a mesma leitura que um separador de menu.'
+  status:
+    title: 'Células de estado'
+    description: 'Um estado é um círculo, nunca uma cor escolhida por alguém: a célula assume um nome de tipo, ou um tipo com uma contagem e um título, e desenha o ícone de status que o resto do sistema desenha. Nada para estilizar na página.'
+  sticky:
+    title: 'Cabeçalho fixo'
+    description: 'Uma tabela longa é lida coluna por coluna tanto quanto linha por linha. Com `sticky`, o cabeçalho permanece visível enquanto as linhas rolam para baixo; uma página com algo fixo na parte superior indica o quão abaixo em `--table-sticky-top`.'
+  striped:
+    title: 'Linhas listradas, iluminadas sob o ponteiro'
+  selection:
+    title: 'Linhas que podem ser marcadas'
+    description: 'Uma caixa no cabeçalho de cada linha, uma no cabeçalho para todas, e as ações acima: elas enviam as linhas marcadas para seu próprio endereço, e ficam fora de alcance enquanto nada estiver marcado.'
+  files:
+    title: 'Arquivos, um total, uma ação em cada linha'
+    description: 'Caminhos lidos pelo seu nome, as pastas antes dele cortadas de seu início. A barra termina em quantas linhas há, e uma ação marcada como `all` funciona com nada marcado — ela pega todas as linhas, e lidera a barra quando é a esperada.'
+  filters:
+    title: Filtros
+    description: 'Uma barra de filtros no cabeçalho da tabela, um menu discreto cada um, dizendo o que está restringindo uma vez que faz. No servidor eles vivem na consulta da página — cada opção é um link — e o controlador restringe as linhas a partir disso; em vue, são um valor entregue à página para sua API, ou aplicado pela tabela às linhas que já possui. Cada opção é uma caixa — redonda para uma escolha única — colorida pelo seu tom quando tem um, um status ou uma categoria.'
+  selection_select:
+    title: 'Ações em um seletor'
+    description: 'A mesma barra quando há ações suficientes para preenchê-la: uma é escolhida, então aplicada.'
+  vue:
+    title: 'Tabela de entidade Vue'
+  vue_selection:
+    title: 'Tabela Vue com seleção'
+    description: 'O mesmo contrato no cliente: as chaves marcadas voltam através de v-model:selected, cada ação é emitida como bulk-action, e uma com um endereço é enviada como a tabela do servidor a envia. Esses não têm, então a linha abaixo diz o que teria sido feito. Três linhas por página, o total no final da barra, e Arquivar tudo precisando de nada marcado.'
+  vue_compact:
+    title: 'Paginação sem um total'
+    description: 'Quando a API não retorna um total, o paginador recorre ao anterior/próximo.'
+  vue_dates:
+    title: 'Formatadores de data Vue'
+column:
+  wide: Coluna
+  default:
+    name: Nome
+    date: Data
+    seen: 'Última vista'
+  actions:
+    name: Fonte
+    date: 'Atualizado em'
+    operations: Ações
+  links:
+    source: Fonte
+    state: Estado
+  status:
+    name: Pipeline
+    build: Construir
+    tests: Testes
+    deploy: Implantar
+  alignment:
+    left: 'Nome (esquerda)'
+    center: 'Status (centro)'
+    right: 'Quantidade (direita)'
+row:
+  wide: 'Um valor longo o suficiente'
+  one:
+    title: 'Projeto Alpha'
+    meta: '2026-01-10'
+  two:
+    title: 'Projeto Beta'
+    meta: '2026-02-18'
+  three:
+    title: 'Projeto Gamma'
+    meta: '2026-03-25'
+  action:
+    one:
+      title: 'Fonte Alpha'
+      meta: '2026-01-12'
+    two:
+      title: 'Fonte Beta'
+      meta: '2026-02-20'
+    loading:
+      label: 'Carregando linhas'
+    empty:
+      label: 'Nenhum dado disponível.'
+group:
+  first: 'Primeiro grupo'
+  second: 'Segundo grupo'
+status:
+  flaky: 'Três testes estão instáveis'
+bulk:
+  archive: Arquivar
+  export: Exportar
+  delete: Excluir
+files:
+  column:
+    path: Arquivo
+  fix_selected: 'Corrigir selecionados'
+  fix_all: 'Corrigir todos'
+filters:
+  owner: Proprietário
+  state: Estado
+  open: Aberto
+  closed: Fechado
+  column:
+    name: Nome

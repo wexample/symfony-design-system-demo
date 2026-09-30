@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Barras
+page_icon: 'ph:bold/rows'
+intro: 'Uma barra nomeia uma coisa em uma única linha: o que é, como se chama, o que a qualifica e o que pertence à extremidade. É uma forma, não uma ligação — uma entidade a alcança através de seu próprio modelo, mas um resultado de busca que é um arquivo, um aplicativo ou uma configuração usa a mesma marcação.'
+finding:
+  fix: Corrigir
+  date: 'Definir uma data'
+  error:
+    title: 'Seção obrigatória “Propósito” ausente'
+    subtitle: 01-PROCESSES/PR-004-document-control.md
+  warning:
+    title: 'Data de revisão está no passado'
+    subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+  info:
+    title: 'Campo do proprietário deixado em branco'
+    subtitle: 'Não bloqueia para um rascunho, necessário antes da revisão'
+section:
+  findings:
+    title: Constatações
+    description: 'O que uma análise reporta, uma barra cada: a constatação como título, onde está como subtítulo, e o que pode ser feito sobre isso no espaço final — nada ali quando nada pode ser feito aqui. A gravidade é o tom do bloco, que o avatar na parte superior também assume.'
+  alone:
+    title: 'A barra em si'
+    description: 'Tudo, exceto o título, é opcional. O espaço inicial recebe um ícone ou qualquer marcação quando um avatar real é necessário; o espaço final recebe uma data, uma etiqueta, uma linha de botões. Dado um link, toda a largura se torna o alvo e o título mantém a cor de onde está.'
+  search:
+    title: 'Uma lista de resultados'
+    description: 'A lista traz a moldura, o campo de busca e os separadores; cada linha traz uma barra. Nada aqui é uma entidade — esse é o ponto: a mesma linha serve uma pessoa, um documento, um aplicativo e uma preferência.'
+  surfaces:
+    title: 'Uma superfície cada'
+    description: 'A outra leitura de uma lista — sem fundo compartilhado e sem linha, cada barra fica em seu próprio bloco com espaço ao redor. Nada novo para estilizar, a barra simplesmente assume as classes do bloco, e dado um link, todo o cartão se torna o alvo.'
+  divided:
+    title: 'Uma lista simples'
+    description: 'Quando a moldura já está lá, uma pilha vertical com divisórias é suficiente — sem forma própria, apenas uma linha entre duas linhas.'
+  vue:
+    title: 'Uma lista delas, em Vue'
+    description: 'As mesmas linhas lidas de um endpoint em vez de escritas: a lista contém a página, a paginação e o estado vazio, e cada entidade diz o que ler nela — um título, o que a qualifica, um ícone, para onde leva, uma data na extremidade. As leituras acima são suas variantes, `dividida` então `superfícies`.'
+  keeping_up:
+    title: 'E mantida atualizada'
+    description: 'Uma lista de barras é uma coleção como qualquer outra, então as três maneiras de uma coleção ouvir que o mundo avançou estão abertas a ela: um evento de aplicativo, uma fonte ao vivo, polling. Esta escuta um evento — toque e veja as linhas voltarem. Veja Mantendo atualizado para os três lado a lado.'
+sample:
+  minimal:
+    title: 'Um título por conta própria'
+  icon:
+    title: 'Com um ícone inicial'
+  subtitle:
+    title: 'Maya Lindqvist'
+    subtitle: maya@example.com
+  trailing:
+    title: 'Relatórios trimestrais'
+    subtitle: '14 documentos'
+  link:
+    title: 'Uma barra que é um link'
+    subtitle: 'Toda a largura é o alvo'
+search:
+  placeholder: 'Pesquisar tudo'
+  value: relatório
+  filter: Filtrar
+result:
+  user:
+    title: 'Maya Lindqvist'
+    subtitle: 'Pessoa · Equipe de produto'
+  file:
+    title: 'Relatório trimestral Q3.pdf'
+    subtitle: 'Documento · 2.4 MB'
+  app:
+    title: Relatórios
+    subtitle: 'Aplicativo · Instalado'
+  setting:
+    title: 'Retenção de relatórios'
+    subtitle: 'Configuração · Armazenamento'
+member:
+  maya:
+    title: 'Maya Lindqvist'
+    subtitle: Proprietária
+  sam:
+    title: 'Sam Okonkwo'
+    subtitle: Editor
+  robot:
+    title: 'Importação noturna'
+    subtitle: 'Conta de serviço'

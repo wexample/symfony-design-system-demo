@@ -1,0 +1,79 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bars
+page_icon: 'ph:bold/rows'
+intro: 'Een bar benoemt één ding in één regel: wat het is, hoe het heet, wat het kwalificeert en wat aan de uiteinde hoort. Het is een vorm, geen binding — een entiteit bereikt het via zijn eigen sjabloon, maar een zoekresultaat dat een bestand, een app of een instelling is, gebruikt dezelfde opmaak.'
+finding:
+  fix: Herstellen
+  date: 'Stel een datum in'
+  error:
+    title: 'Vereiste sectie “Doel” ontbreekt'
+    subtitle: 01-PROCESSEN/PR-004-document-beheer.md
+  warning:
+    title: 'Beoordelingsdatum ligt in het verleden'
+    subtitle: '01-PROCESSEN/PR-004-document-beheer.md:4'
+  info:
+    title: 'Eigenaar veld is leeg gelaten'
+    subtitle: 'Niet blokkeren voor een concept, vereist voor beoordeling'
+section:
+  findings:
+    title: Vondsten
+    description: 'Wat een analyse rapporteert, één bar elk: de bevinding als titel, waar het is als subtitel, en wat eraan gedaan kan worden in de achterste slot — niets daar wanneer er hier niets kan worden gedaan. De ernst is de toon van het blok, die de avatar aan de kop ook overneemt.'
+  alone:
+    title: 'De bar zelf'
+    description: 'Alles behalve de titel is optioneel. De voorste slot neemt een icoon, of enige opmaak wanneer een echte avatar nodig is; de achterste slot neemt een datum, een tag, een rij knoppen. Gezien een link, wordt de gehele breedte het doel en behoudt de titel de kleur van waar het zich bevindt.'
+  search:
+    title: 'Een lijst van resultaten'
+    description: 'De lijst brengt het frame, het zoekveld en de scheidingen; elke rij brengt een bar. Niets hier is een entiteit — dat is het punt: dezelfde rij dient een persoon, een document, een applicatie en een voorkeur.'
+  surfaces:
+    title: 'Één oppervlakte elk'
+    description: 'De andere lezing van een lijst — geen gedeelde achtergrond en geen lijn, elke bar staat op zijn eigen blok met ruimte eromheen. Niets nieuws om te stylen, de bar neemt gewoon de blokklassen over, en gezien een link wordt de gehele kaart het doel.'
+  divided:
+    title: 'Een blote lijst'
+    description: 'Wanneer het frame er al is, is een verticale stapel met scheidingslijnen voldoende — geen vorm op zichzelf, enkel een lijn tussen twee rijen.'
+  vue:
+    title: 'Een lijst ervan, in Vue'
+    description: 'Dezelfde rijen gelezen vanaf een eindpunt in plaats van uitgeschreven: de lijst bevat de pagina, de paginering en de lege staat, en elke entiteit zegt wat erop te lezen valt — een titel, wat het kwalificeert, een icoon, waar het naartoe leidt, een datum aan de uiteinde. De bovengenoemde lezingen zijn zijn varianten, `gedeeld` dan `oppervlakken`.'
+  keeping_up:
+    title: 'En actueel gehouden'
+    description: 'Een bar lijst is een verzameling zoals elke andere, dus de drie manieren waarop een verzameling hoort dat de wereld verder is gegaan, zijn ook voor haar open: een app-evenement, een live bron, polling. Deze luistert naar een evenement — bel het en kijk de rijen terugkomen. Zie Actueel houden voor de drie van hen naast elkaar.'
+sample:
+  minimal:
+    title: 'Een titel op zichzelf'
+  icon:
+    title: 'Met een voorste icoon'
+  subtitle:
+    title: 'Maya Lindqvist'
+    subtitle: maya@example.com
+  trailing:
+    title: Kwartaalrapporten
+    subtitle: '14 documenten'
+  link:
+    title: 'Een bar die een link is'
+    subtitle: 'De gehele breedte is het doel'
+search:
+  placeholder: 'Zoek alles'
+  value: rapport
+  filter: Filteren
+result:
+  user:
+    title: 'Maya Lindqvist'
+    subtitle: 'Persoon · Productteam'
+  file:
+    title: 'Kwartaalrapport Q3.pdf'
+    subtitle: 'Document · 2,4 MB'
+  app:
+    title: Rapportage
+    subtitle: 'Applicatie · Geïnstalleerd'
+  setting:
+    title: Rapportbewaring
+    subtitle: 'Instelling · Opslag'
+member:
+  maya:
+    title: 'Maya Lindqvist'
+    subtitle: Eigenaar
+  sam:
+    title: 'Sam Okonkwo'
+    subtitle: Redacteur
+  robot:
+    title: 'Nachtelijke import'
+    subtitle: 'Service account'

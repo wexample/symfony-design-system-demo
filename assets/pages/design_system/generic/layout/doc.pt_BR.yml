@@ -1,0 +1,15 @@
+page_title: 'Layout do documento'
+page_icon: 'ph:bold/book-open'
+intro: 'O layout do documento é um padrão de duas colunas para páginas de documentação — descrição à esquerda, código à direita — que se colapsa em uma única coluna em dispositivos móveis.'
+section:
+  structure:
+    title: Estrutura
+    body: 'Use .doc como o wrapper externo e .doc-section para cada linha. Cada seção tem uma coluna .doc-section--description e uma coluna .doc-section--code.'
+example:
+  demo_placeholder: 'Conteúdo de demonstração'
+  one:
+    title: 'Seção básica'
+    body: 'Uma seção típica combina um bloco de descrição com um trecho de código.'
+  two:
+    title: 'Com um bloco de código'
+    body: 'Use a parte code-block dentro de .doc-section--code para exemplos com destaque de sintaxe.'

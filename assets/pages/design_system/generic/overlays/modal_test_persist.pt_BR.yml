@@ -1,0 +1,15 @@
+page_title: 'Guias com persistência'
+tab:
+  overview: 'Visão Geral'
+  details: Detalhes
+  settings: Configurações
+  loading: 'Barra de Carregamento'
+content:
+  overview: 'Esta é a guia Visão Geral. Troque de guia e depois pressione F5 — esta guia ainda estará ativa quando a sobreposição reabrir.'
+  details: 'Esta é a guia Detalhes. A guia ativa é armazenada no hash da URL, então ela sobrevive a recarregamentos de página.'
+  settings: 'Esta é a guia Configurações. Tanto a sobreposição (modal/painel) quanto a guia ativa são restauradas do hash da URL.'
+  loading: 'Use os botões abaixo para acionar manualmente a animação da barra de carregamento. Esta barra aparece na parte superior da sobreposição quando um envio de formulário está em andamento.'
+loading:
+  start: Iniciar
+  end: Completo
+  simulate: 'Simular (autocompletar)'

@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tarihleri
+page_icon: 'ph:bold/clock'
+intro: 'Twig, düz JavaScript ve Vue tarafından aynı şekilde anlaşılan bir format adları sözlüğü. Sunucu, anlık ve istenen formatı taşıyan bir <time> yazdırır; tarayıcı bunu alır ve yaşlandıkça yeniden yazar, böylece açık bırakılan bir sayfa, bir şeyin ne kadar önce olduğunu asla yalan söylemez.'
+section:
+  formats:
+    title: 'İsimlendirilmiş formatlar'
+    description: 'Kesin formatlar, ICU tarih ve saat stilleridir, bu nedenle alan sırası ve ayırıcılar okuyucunun yerel ayarlarına aittir, şablona değil.'
+  relative:
+    title: Göreli
+    description: 'Mesafe, hâlâ bir şey söyleyen en büyük birimde hesaplanır — dakikalar bir saate, saatler bir güne, sonra günler, haftalar, aylar ve yıllar. Her ifade bir çeviri anahtarından gelir.'
+  auto:
+    title: Otomatik
+    description: 'Varsayılan. Tarih yakınken geriye doğru sayar ve bir haftadan eski takvim tarihine geçer; "27 hafta önce" hiç kimseye yardım etmez.'
+  live:
+    title: 'Güncel tutulan'
+    description: 'Sayfadaki her tarih için tek bir zamanlayıcı, görüntülenen birimin hak ettiği ritmde hizmet eder — "şimdi" için birkaç saniye, "3 ay önce" için bir saat. Bu sayfayı açık bırakın ve izleyin.'
+  plain:
+    title: 'Sadece metin'
+    description: 'Filtre, bir başlık niteliği veya bir dışa aktarma için işaretleme içermeyen bir dize döndürür. Bilmediği bir format adı, ihtiyaç duyduğunuz biçimde olmadığında çıkış yolu olan bir ham ICU kalıbı olarak alınır.'
+offset:
+  now: 'Biraz önce'
+  minutes: 'Beş dakika'
+  hours: 'Üç saat'
+  days: 'İki gün'
+  months: 'Dört ay'
+  years: 'Üç yıl'
+  future: 'İki saat içinde'
+live:
+  server: 'Twig tarafından oluşturuldu, ön hizmet tarafından güncellendi:'
+  vue: 'Vue tarafından oluşturuldu:'
+plain:
+  filter: "| date_format('date_long')"
+  pattern: '| date_format("EEEE d MMMM, ''hafta'' w")'

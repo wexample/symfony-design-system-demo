@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bedieningen
+page_icon: 'ph:bold/cursor-click'
+intro: 'Wat een lezer kan doen. Elk van deze voert een actie uit in plaats van een waarde — een formulier veld neemt de waarde, en bevindt zich in de volgende sectie.'
+page:
+  buttons:
+    title: Knoppen
+    description: 'De knop die iets doet, in zijn varianten, zijn toestanden en zijn dichtheden, plus de link en de doel die elders openen.'
+  menus:
+    title: "Menu's"
+    description: 'Een knop die een lijst met keuzes opent, zich tegen de randen van het venster plaatst, in tak en in vue.'
+  steppers:
+    title: Stappen
+    description: 'Waar een lezer zich bevindt in een reeks stappen, met de stappen achteraan om terug te gaan.'
+section:
+  compound:
+    title: 'Alles samen'
+    description: 'Set van bedieningselementen in drie contexten: een opgevulde blok, een werkbalk en een compacte werkbalk. Niets over de bedieningselementen verandert tussen de drie — het gebied is wat hen vertelt hoeveel ruimte ze hebben.'
+button:
+  primary: 'Primaire knop'
+select:
+  option_one: 'Optie één'
+  option_two: 'Optie twee'
+  option_three: 'Optie drie'
+menu:
+  primary: 'Menu knop'
+  item:
+    report: Rapporteren
+    settings: Instellingen
+    logout: Uitloggen
+    long: 'Met een behoorlijk, behoorlijk, behoorlijk, behoorlijk lange titel'
+switch:
+  label_right: 'Functie inschakelen'
+link:
+  external: 'Externe link'

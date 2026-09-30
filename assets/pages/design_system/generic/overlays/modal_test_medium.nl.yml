@@ -1,0 +1,6 @@
+page_title: 'Modal test - medium'
+intro: 'Deze modal gebruikt een tekst van gemiddelde lengte.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Weet je zeker dat je deze modal wilt sluiten?'

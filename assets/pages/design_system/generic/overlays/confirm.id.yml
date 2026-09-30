@@ -1,0 +1,41 @@
+page_title: Konfirmasi
+section:
+  short:
+    description: 'Konfirmasi dengan teks singkat (overlay).'
+    button: 'Buka konfirmasi'
+    title: 'Silakan konfirmasi'
+    message: 'Apakah Anda ingin melanjutkan?'
+    result_title: 'Hasil konfirmasi'
+    result_prefix: 'Hasil:'
+  toast_short:
+    description: 'Konfirmasi dengan teks singkat (toast).'
+    button: 'Buka konfirmasi'
+    title: 'Konfirmasi toast'
+    message: 'Lanjutkan dengan toast?'
+    result_title: 'Hasil konfirmasi toast'
+    result_prefix: 'Hasil:'
+  medium:
+    description: 'Konfirmasi dengan teks sedang (overlay).'
+    button: 'Buka konfirmasi'
+    title: 'Konfirmasi sedang'
+  long:
+    description: 'Konfirmasi dengan teks panjang (overlay).'
+    button: 'Buka konfirmasi'
+    title: 'Konfirmasi panjang'
+  toast_medium:
+    description: 'Konfirmasi dengan teks sedang (toast).'
+    button: 'Buka konfirmasi'
+    title: 'Konfirmasi toast sedang'
+  toast_long:
+    description: 'Konfirmasi dengan teks panjang (toast).'
+    button: 'Buka konfirmasi'
+    title: 'Konfirmasi toast panjang'
+  custom:
+    description: 'Tindakan konfirmasi kustom (penumpukan).'
+    button: 'Buka konfirmasi'
+    title: 'Konfirmasi penumpukan'
+    message: 'Buka konfirmasi lain atau tutup semuanya?'
+    action:
+      new: 'Konfirmasi baru'
+      close_all: 'Tutup semua konfirmasi'
+      cancel: Batal

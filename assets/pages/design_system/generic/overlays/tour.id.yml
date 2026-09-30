@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tur
+page_icon: 'ph:bold/signpost'
+intro: 'Tur terpandu dari sebuah halaman: satu langkah demi langkah, elemen yang dimaksud akan diterangi di halaman yang redup dan sebuah kartu di sampingnya, dengan jalan masuk dan jalan keluar. Ini dimulai secara otomatis untuk pengunjung yang belum menyelesaikannya atau menolaknya — apa yang mereka lakukan disimpan, dan tidak akan kembali — dan elemen mana pun yang membawa data-tour-start akan memutarnya lagi. Tombol panah pada keyboard bergerak melaluinya, Escape keluar dari tur.'
+start: 'Mulai tur'
+status:
+  none: 'Anda belum melihat tur ini — tur dimulai secara otomatis.'
+  completed: 'Anda telah menyelesaikan tur ini; tur tidak akan dimulai secara otomatis lagi.'
+  dismissed: 'Anda menutup tur ini sebelum selesai; tur tidak akan dimulai secara otomatis lagi.'
+area:
+  filters:
+    title: Filter
+    body: 'Apa yang ditampilkan dalam daftar.'
+  list:
+    title: Daftar
+    body: 'Apa yang ada.'
+  export:
+    title: Ekspor
+    body: 'Apa yang keluar dari halaman.'
+step:
+  welcome:
+    title: 'Selamat datang'
+    body: 'Tur singkat halaman ini. Gunakan tombol panah pada keyboard, atau tombol di bawah.'
+  filters:
+    title: 'Persempit pilihan'
+    body: 'Filter menentukan apa yang ditampilkan dalam daftar; mereka disimpan dalam alamat.'
+  list:
+    title: 'Apa yang ada'
+    body: 'Setiap baris membuka detailnya di samping daftar.'
+  export:
+    title: 'Bawa bersamamu'
+    body: 'Ekspor mengambil apa yang disimpan oleh filter, tidak lebih.'

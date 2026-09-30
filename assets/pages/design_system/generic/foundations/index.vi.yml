@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Nền tảng'
+page_icon: 'ph:bold/diamonds-four'
+intro: 'Những gì mọi thứ khác được chi tiêu từ đó. Không có gì trên các trang này là một thành phần: chúng là các tỷ lệ — màu sắc, khoảng cách, kiểu chữ, và lớp mà chúng vẽ ra — mà mọi phần khác đọc mà không bao giờ hiển thị chúng.'
+page:
+  colors:
+    title: 'Màu sắc'
+    description: 'Các bề mặt mà một trang được xếp chồng lên, các mức độ đảo ngược mà các viền và văn bản mờ được vẽ, và năm gia đình ngữ nghĩa. Cả hai mặt của chủ đề, bên cạnh nhau.'
+  spacing:
+    title: 'Khoảng cách'
+    description: 'Chín bước khoảng cách, kích thước, và mẫu độ dày — cách mà một vùng tuyên bố bản thân là gọn gàng và điều đó ảnh hưởng đến mọi thứ mà nó chứa.'
+  typography:
+    title: 'Kiểu chữ'
+    description: 'Thang kiểu chữ và các trọng số, sau đó là cùng một thang đang hoạt động trong một trang văn bản.'
+  skin:
+    title: Lớp
+    description: 'Cách mà mọi thứ được vẽ, với màu sắc và độ dày bằng nhau: bán kính, bóng, viền và các dấu phân cách. Trục duy nhất của chủ đề có một đặc điểm.'

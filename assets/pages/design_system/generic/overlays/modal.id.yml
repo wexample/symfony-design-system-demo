@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dialog
+page_icon: 'ph:bold/app-window'
+section:
+  persist:
+    description: 'Modal dengan tab. Buka, ganti tab, tekan F5 — modal akan terbuka kembali di tab yang sama.'
+    button: 'Buka modal'
+  simple:
+    description: 'Tampilkan modal sederhana. Anda dapat menutupnya dengan Escape atau dengan mengklik di luar modal.'
+    button: 'Buka modal'
+  components:
+    description: 'Tampilkan modal dengan komponen dan pemicu toast. Escape dinonaktifkan, tetapi Anda masih bisa mengklik di luar untuk menutupnya.'
+    button: 'Buka modal'
+  medium:
+    description: 'Tampilkan modal dengan teks panjang sedang. Mengklik di luar tidak akan menutupnya.'
+    button: 'Buka modal'
+  long:
+    description: 'Tampilkan modal dengan teks panjang. Minta konfirmasi sebelum menutup.'
+    button: 'Buka modal'
+  form_rendered:
+    description: 'Tampilkan form demo yang sudah dirender di dalam modal. Escape dan klik di luar dinonaktifkan, dan meminta konfirmasi sebelum menutup jika form telah dimodifikasi.'
+    button: 'Buka modal'
+  form_ajax:
+    description: 'Tampilkan form demo yang sudah dirender di dalam modal menggunakan AJAX. Escape dan klik di luar dinonaktifkan, dan meminta konfirmasi sebelum menutup jika form telah dimodifikasi.'
+    button: 'Buka modal'
+  recursive:
+    description: 'Buka halaman dialog di dalam dialog lain — pilih modal atau panel.'
+    button_modal: 'Buka dalam modal'
+    button_panel: 'Buka dalam panel'

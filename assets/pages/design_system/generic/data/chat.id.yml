@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Obrolan
+page_icon: 'ph:bold/chats-circle'
+chat:
+  title: 'Contoh Obrolan'
+vue:
+  title: Vue
+  description: |
+    Thread dan penulis yang sama, ditarik oleh komponen obrolan entitas. Ini menyimpan koleksi entitas dan tidak mengetahui apa itu: penulis, teks dan tanggal dibaca melalui proyeksi yang disesuaikan oleh subclass, dan pesan yang dikirim keluar melalui repositori seperti kreasi lainnya. Jawaban ditulis setelah permintaan selesai, jadi tidak dapat kembali dalam respons terhadap pesan: ia mencapai halaman melalui langganan langsung yang dimiliki thread ini di ruangan.
+description:
+  body: |
+    Tempat bermain obrolan ini digunakan untuk memvalidasi ritme pesan, jarak, dan kerapatan vertikal sebelum penataan UI final. Jaga blok ini sengaja verbose sehingga tata letaknya memiliki cukup tinggi untuk mensimulasikan aliran percakapan yang realistis, termasuk garis sedang dan panjang, perilaku pembungkus, dan jeda membaca alami di beberapa kalimat. Tujuannya adalah untuk memberikan dasar visual yang stabil yang dapat diikuti oleh komponen obrolan di masa depan, sehingga pengukuran tetap konsisten saat mengganti teks ini dengan pesan pengguna dan asisten yang sebenarnya.
+composer:
+  placeholder: 'Ketik pesan...'
+  submit_label: 'Kirim pesan'
+  action_plus_label: 'Tambahkan konten'
+  action_smiley_label: 'Sisipkan emoji'
+  multiline_value: |
+    Ini adalah draf obrolan yang lebih panjang yang digunakan untuk menampilkan status multiline. Ini membungkus di beberapa baris sehingga perbedaan visual dengan bidang satu baris menjadi jelas.
+messages:
+  user_1: |
+    Bisakah Anda merangkum item tindakan dari sinkronisasi kemarin dan hanya menyimpan keputusan yang dapat kita eksekusi minggu ini?
+  user_2: |
+    Juga jaga output tetap singkat karena ini akan disalin ke sidebar manajer.
+  assistant_1: |
+    Tentu. Saya bisa memberikan ringkasan singkat dengan prioritas, pemilik, dan titik cek berikutnya.
+  assistant_2: |
+    Saya hanya akan menyimpan keputusan yang sudah divalidasi dan menghapus pertanyaan terbuka yang masih perlu ditemukan.
+  assistant_3: |
+    Struktur yang diusulkan: 1. Tindakan segera. 2. Ketergantungan. 3. Risiko yang perlu dipantau.
+  assistant_4: |
+    Setelah divalidasi, struktur ini dapat menjadi template default untuk menu obrolan di manajer.

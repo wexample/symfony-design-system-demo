@@ -1,0 +1,33 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Kiểu chữ'
+page_icon: 'ph:bold/text-aa'
+intro: 'Thang độ là một quyết định về mật độ và các kiểu chữ là một quyết định về phông: trang này cho thấy hình dạng được đọc như thế nào, không phải giá trị của nó hôm nay. Chuyển trục phông trong bảng gỡ lỗi và tất cả những gì bên dưới được thiết lập trong một kiểu chữ khác mà không có quy tắc nào thay đổi.'
+section:
+  families:
+    title: 'Các họ'
+    description: 'Ba, vì đó là những gì một trang phân biệt: những gì nó được viết bằng, những gì nó được đặt tiêu đề bằng, và những gì được hiểu là được đọc như đã gõ chứ không phải nói. Một bộ có thể mang cùng một kiểu cho cả ba — cái mà hệ thống sử dụng.'
+  weights:
+    title: 'Trọng số'
+    description: 'Được đặt tên theo mức độ nhấn mạnh của chúng, chứ không phải theo số. Một kiểu chữ mà 500 không tồn tại sẽ ánh xạ nó lên những gì nó có, và những hình dạng yêu cầu một mức trung bình sẽ tiếp tục yêu cầu một mức trung bình.'
+  typography:
+    title: 'Thang kiểu chữ'
+title:
+  h1:
+    title: 'Hệ thống thiết kế — Các thành phần cho giao diện tuyệt vời'
+    description: 'Sử dụng một lần cho mỗi trang. Đặt ngữ cảnh chính. Kết hợp với một đoạn văn ngắn dẫn nhập.'
+  h2:
+    title: 'Kiểu chữ thiết lập hệ thống phân cấp và nhịp điệu'
+    description: 'Tiêu đề cấp phần. Nhóm nội dung liên quan. Thường được theo sau bởi văn bản chính hoặc các phần phụ.'
+  h3:
+    title: 'Khoảng cách và tỷ lệ hình thành khả năng đọc'
+    description: 'Tiêu đề cấp phụ. Giới thiệu một chủ đề cụ thể trong một phần.'
+  h4:
+    title: 'Màu sắc và độ tương phản hướng dẫn mắt nhìn'
+    description: 'Sử dụng cho tiêu đề thẻ, các phần bên cạnh, hoặc nhóm nhỏ.'
+  h5:
+    title: 'Trạng thái tương tác cần phải rõ ràng'
+    description: 'Nhãn, tiêu đề siêu dữ liệu, nhóm nhỏ. Tinh tế nhưng khác biệt với văn bản chính.'
+  h6:
+    title: 'Khả năng tiếp cận là một tính năng, không phải là một suy nghĩ sau cùng'
+    description: 'Cấp độ tiêu đề nhỏ nhất. Sử dụng tiết kiệm — cho chú thích, khối luật pháp, hoặc nhãn phụ trợ.'
+sample: 'Con cáo nâu nhanh nhẹn nhảy qua con chó lười biếng — 0123456789'

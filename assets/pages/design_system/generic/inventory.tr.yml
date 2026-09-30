@@ -1,0 +1,67 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Envanter
+page_icon: 'ph:bold/list-checks'
+intro: 'Paketin gönderdiği her öğe ve sunulduğu formatlar. Tablo, kimsenin bakımını yapmadığı bir liste değildir: her paketin gönderdiği, beyanlarından derlenen ve bileşenlerinin yürüyüşüne göre kontrol edilen kayıttır. Orada olanı yanıtlar — asla olması gerekeni değil, bu da hiçbir taramanın çözemeyeceği bir sorudur ve öğeler kendileri beyan etmek zorundadır.'
+problems:
+  title: 'Bir beyan ve varlıklar uyuşmuyor'
+  body: 'Geliştirme sırasında varlıklardan derlendiği için burada gösteriliyor, bu yüzden `%command%` yazmayı reddeder. Aşağıdaki her madde öğeyi adlandırır; tablo yine de çizilir.'
+missing:
+  title: 'Bir kayıt eksik'
+  body: '%bundles% öğeleri tutmak için kaydoldu ama diskte kaydı yok, bu yüzden aşağıdaki tablodaki satırları yok. `%command%` çalıştırın ve sonucu taahhüt edin.'
+summary:
+  label: Sayılanlar
+  count: 'Kaç tane'
+  elements: 'Bulunan öğeler'
+  todo: 'Tamamlanması gereken formatlar'
+  undecided: 'Henüz alınmamış kararlar'
+  shapes: Şekiller
+  abstracts: 'Soyut tabanlar'
+column:
+  element: Öğe
+  shape: Şekil
+  description: 'Ne için kullanıldığı'
+cell:
+  absent: 'Bu formatta bulunamadı ve beyan nedenini söylemiyor — henüz alınmamış bir karar'
+  todo: 'Bu formatta isteniyor ve henüz yok'
+  shared: 'Ayrıca %bundles% tarafından tutuluyor. Bir hata değil — yükleyici bunları takma adla ayırt eder — ama bir öğenin yeniden çizildiğini mi yoksa aynı adı paylaşan iki öğe mi olduğunu bilmekte fayda var.'
+format:
+  style:
+    title: Stil
+    description: 'Bileşen sayfada olduğunda yükleyici tarafından yüklenen stil sayfası.'
+  template:
+    title: Şablon
+    description: 'Twig tarafından çizilen sunucu renderlayıcısı.'
+  vue:
+    title: Vue
+    description: 'Aynı seçeneklerden tarayıcıda çizilen istemci ikizi.'
+  script:
+    title: Script
+    description: 'Belgenin içinde olduğunda işlevsellik, işaretlemeye bağlıdır.'
+  schema:
+    title: Şema
+    description: 'Sözleşme: bileşenin ne alacağı, türler ve varsayılanlarla. Diğer tüm renderlayıcılar buna karşı kontrol edilebilir.'
+  ai:
+    title: AI
+    description: 'Bir ajana bileşen hakkında söylenenler: şema, nasıl kullanılacağı, üzerinde işlem yapan araçlar.'
+  react:
+    title: React
+    description: 'React renderlayıcısı.'
+  flutter:
+    title: Flutter
+    description: 'Şemaya karşı dart ile yazılmış flutter renderlayıcısı. İşaretleme taşınmaz; sözleşme ve tokenlar taşınır.'
+section:
+  matrix:
+    title: 'Format başına öğe'
+    description: 'Her bileşen için bir satır, her renderlayıcı için bir sütun. Bir bileşen, `components/` altında çizilebileceği her yolu tutan bir dizindir — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — bu nedenle burada adlarıyla dört dizini uzlaştırmak gerekmiyor. Bir hücre arkasındaki dosyaların sayısını sayar — üzerine gelerek onları görebilirsiniz. Her beyan edilen öğe aynı seviyede okunur — tek bir formatta bulunan bir satır boşluk veya başka bir şey istemeyen bir ilkel olabilir ve bunu ayırt etmek bu tablonun işidir, zaten bildiği bir şey değildir. Dört durum, kimin sıradaki hamlesi olduğuna göre ayırt edilir: bir kontrol, öğe orada; bir uyarı, isteniyor ve eksik; bir çarpı daire, bilerek olmadan yapar; boş, henüz kimsenin hüküm vermediği. Uyarı veya daireye üzerine gelerek beyanın ne söylediğini görebilirsiniz.'
+  sources:
+    title: 'Bunlar nereden geliyor'
+    description: "Bir paket tabloda çünkü öyle söyledi — `DesignSystemElementsBundleInterface`'i uygulayarak, bir paketin yükleyiciye ön yolları hakkında bilgi verdiği yol. Her biri kendi varlıkları içinde `data/elements.json` yazar, bunlarla birlikte yayınlanır, böylece yapı, node tarafı, başka bir dil veya bir ajanın hepsi aynı dosyalarla çalışır; bu sayfa yalnızca bunların birleşimidir."
+  abstract:
+    title: Soyut
+    description: '`components/_abstract/` altında bulunan beş taban, hiçbiri asla çizilmez — yalnızca genişletilir. `_abstract/vue`, otuz bir şablonu dolduran üç boş twig bloğudur; `_abstract/form-field`, on iki girişin üzerine inşa edildiği yerdir. Şemadan veya bir react ikizinden bir talep etmek, cevaplayamayacakları bir soru sormak demektir. Alt çizgi, kimse dizini açmadan önce bunun kadarını söyler. Gösterilen, her birinin uzatanlara sunduğu şeydir.'
+  shapes:
+    title: Şekiller
+    description: 'Bir şekil, renderlayıcısı olmayan bir stildir: işaretlemeyi yazarsınız, üzerine sınıf eklersiniz ve kendi stil sayfanızdan `@use` ile stil sayfasını kullanırsınız. `.stack`, `.grid`, `.block`, `.cluster`. Burada listelenir ve yukarıdaki tabloda yer almaz çünkü renderlayıcıların tablosunun sunacak bir sütunu yoktur — ve tablodan yoklukları, tüm uyarıların bir iş anlamına gelmesinin nedenidir, kötü sorulmuş bir soru değil. Çizgi dosyalar tarafından çizilir, zevkle değil: bir şekil tam olarak bir `.scss` ve hiçbiri renderlayıcı değildir, bu nedenle bir `.html.twig` kazandığında `components/` içine geçer ve matrise katılır. Bu geçiş, tek yükseltmedir. Her birinin kendisi hakkında söyledikleri, kendi stil sayfasının başından okunur, bu nedenle oradan kaymak için ikinci bir yer yoktur.'
+  coverage:
+    title: 'Bu neyi dışarıda bırakıyor'
+    description: 'Tarama işleminin yürümeyi reddettiği `assets/` dizinleri, bellek yerine diskten listelenir. Mixinler, yardımcılar ve tokenlar öğe değildir ve burada asla satır olamaz; düzenler ve paylaşılan scriptler öğedir ve henüz kapsanmamıştır.'

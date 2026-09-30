@@ -1,0 +1,31 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Tiến độ'
+page_icon: 'ph:bold/gauge'
+intro: 'Mức độ tiến triển của một cái gì đó, được biểu thị dưới dạng tỷ lệ giữa 0 và 1 trong một thuộc tính tùy chỉnh — giống như vòng tròn trạng thái mang theo cung của nó, cả hai bên của ngăn xếp lấp đầy thanh với một tuyên bố. Twig in giá trị mà nó nhận được; việc di chuyển sau đó là việc của trình duyệt.'
+section:
+  default:
+    title: 'Trạng thái'
+    description: 'Giá trị là một số đếm hoặc một phần được viết dưới dạng phần trăm, và không bao giờ phản hồi ngoài giới hạn của nó. Màu sắc là phản hồi, vì vậy một thanh cho biết công việc của nó kết thúc như thế nào bằng ngôn ngữ giống như một thông điệp hoặc một trạng thái.'
+  plain:
+    title: 'Không có tổng số'
+    description: 'Một trăm là số mà một thanh đếm đến khi không ai nói khác, điều này làm cho phần trăm trở thành thứ duy nhất để cung cấp cho nó. Một tổng số của riêng nó là cho công việc được đếm bằng thứ chứ không phải bằng phần.'
+  indeterminate:
+    title: 'Một kết thúc không biết'
+    description: 'Công việc đang diễn ra mà kích thước không ai biết: thanh quét và không đưa ra số nào. Khẳng định một phần ở đây sẽ là một dự đoán được khoác lên như một phép đo.'
+  compact:
+    title: 'Gọn gàng'
+    description: 'Giảm xuống những gì nó cần nói, cho một dòng trạng thái hoặc một chân trang: một đường ray mỏng hơn, từ ngữ bên cạnh nó thay vì bên trên, và độ dày truyền lại cho bất cứ điều gì đứng cùng nó.'
+  vue:
+    title: 'Vue, điều khiển'
+    description: 'Cùng một thanh, với từ vựng mà tiến trình cli đã nói — cập nhật, tiến lên, hoàn thành, đặt lại. Một bước với không có gì được nói về nó có giá trị một đơn vị, đó là điều để gọi nơi mà cả đơn vị và tổng số đều không có nghĩa gì.'
+bar:
+  queued: 'Đang chờ'
+  working: 'Đang xây dựng tài nguyên'
+  almost: 'Đang tải lên'
+  done: 'Đã triển khai'
+  failed: 'Di chuyển không thành công'
+  counted: 'Tệp đã đọc'
+  unknown: 'Đang tìm kiếm cái gì đó'
+  indexing: 'Đang lập chỉ mục'
+compact:
+  app: acme-blog

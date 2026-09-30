@@ -1,0 +1,67 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Voorraad
+page_icon: 'ph:bold/list-checks'
+intro: 'Elk element dat de bundel levert, en de formaten waarin het wordt afgeleverd. De tabel is geen lijst die iemand bijhoudt: het is het register dat elke bundel verzendt, samengesteld uit zijn verklaringen en gecontroleerd tegen een overzicht van zijn componenten. Het geeft antwoord op wat er is — nooit wat er zou moeten zijn, wat een vraag is die geen scan kan oplossen en die de elementen zelf moeten verklaren.'
+problems:
+  title: 'Een verklaring en de activa zijn het niet eens'
+  body: 'Hier weergegeven omdat deze pagina is samengesteld uit de activa tijdens de ontwikkeling, zodat het ziet wat `%command%` zou weigeren te schrijven. Elk punt hieronder noemt het element; de tabel is desondanks getekend.'
+missing:
+  title: 'Een register ontbreekt'
+  body: '%bundles% heeft zich aangemeld als houder van elementen maar heeft geen register op schijf, zodat de rijen ontbreken in de tabel hieronder. Voer `%command%` uit en commit het resultaat.'
+summary:
+  label: 'Wat is geteld'
+  count: Hoeveel
+  elements: 'Gevonden elementen'
+  todo: 'Formaten die nog gedaan moeten worden'
+  undecided: 'Beslissingen nog niet genomen'
+  shapes: Vormen
+  abstracts: 'Abstracte basis'
+column:
+  element: Element
+  shape: Vorm
+  description: 'Waar het voor is'
+cell:
+  absent: 'Niet gevonden in dit formaat, en de verklaring zegt niet waarom — een beslissing nog niet genomen'
+  todo: 'Gewenst in dit formaat en nog niet aanwezig'
+  shared: 'Ook gehouden door %bundles%. Geen fout — de loader maakt ze herkenbaar met een alias — maar het is goed om te weten of het één element is dat opnieuw is getekend of twee die een naam delen.'
+format:
+  style:
+    title: Stijl
+    description: 'De stylesheet, geladen door de loader wanneer de component op de pagina staat.'
+  template:
+    title: Sjabloon
+    description: 'De server-renderer, getekend door twig.'
+  vue:
+    title: Vue
+    description: 'De client-tweeling, getekend in de browser vanuit dezelfde opties.'
+  script:
+    title: Script
+    description: 'Het gedrag, gebonden aan de markup zodra deze in het document staat.'
+  schema:
+    title: Schema
+    description: 'Het contract: wat de component accepteert, met typen en standaardwaarden. Elke andere renderer kan ertegen worden gecontroleerd.'
+  ai:
+    title: AI
+    description: 'Wat een agent te horen krijgt over de component: het schema, hoe het te gebruiken, de tools die erop inwerken.'
+  react:
+    title: React
+    description: 'De react-renderer.'
+  flutter:
+    title: Flutter
+    description: 'De flutter-renderer, geschreven in dart tegen het schema. Markup wordt niet overgedragen; het contract en de tokens wel.'
+section:
+  matrix:
+    title: 'Element per formaat'
+    description: 'Één rij per component, één kolom per renderer. Een component is een map onder `components/` die elke manier bevat waarop het kan worden getekend — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — zodat hier niets meer vier mappen op naam hoeft te verzoenen. Een cel telt de bestanden erachter — hover erover om ze te zien. Elk verklaard element leest op hetzelfde niveau — een rij gevonden in één formaat kan een gat zijn of een primitief dat niets anders wil, en dat uitzoeken is waar deze tabel voor is in plaats van iets dat het al weet. Vier staten, onderscheiden door wiens beurt het de volgende is: een controle, het element is daar; een waarschuwing, het wordt gewenst en ontbreekt; een doorgestreepte cirkel, het doet het opzettelijk zonder; een blanco, niemand heeft nog beslist. Hover over een waarschuwing of een cirkel voor wat de verklaring zegt.'
+  sources:
+    title: 'Waar deze vandaan komen'
+    description: 'Een bundel staat in de tabel omdat hij dat zei — door `DesignSystemElementsBundleInterface` te implementeren, de manier waarop een bundel de loader vertelt over zijn frontpaden. Elke bundel schrijft `data/elements.json` binnen zijn eigen activa, gepubliceerd met hen, zodat de build, de node-kant, een andere taal of een agent allemaal vanuit dezelfde bestanden werken; deze pagina is alleen hun vereniging.'
+  abstract:
+    title: Abstract
+    description: 'De vijf basis onder `components/_abstract/`, die nooit worden getekend — ze worden alleen uitgebreid. `_abstract/vue` is drie lege twig-blokken die éénendertig sjablonen vullen; `_abstract/form-field` is waar twaalf invoervelden op zijn gebouwd. Ze zijn buiten de matrix om de reden dat de vormen zijn: ze worden aan niemand geleverd, dus hen vragen om een schema of een react-tweeling is vragen om een vraag die ze niet kunnen beantwoorden. De underscore zegt net zoveel voordat iemand de map opent. Wat wordt getoond is wat elk al meebrengt naar wie het ook uitbreidt.'
+  shapes:
+    title: Vormen
+    description: 'Een vorm is een stijl zonder renderer: je schrijft de markup, plaatst de klasse erop, en `@use` de stylesheet vanuit je eigen. `.stack`, `.grid`, `.block`, `.cluster`. Ze worden hier vermeld en niet in de tabel hierboven omdat een tabel van renderers geen kolom heeft om iets aan te bieden dat er geen heeft — en hun afwezigheid daarvan is waarom al zijn waarschuwingen werk betekenen in plaats van een slecht geformuleerde vraag. De lijn wordt getrokken door de bestanden, niet door smaak: een vorm is precies één `.scss` en niets rendert het, dus de dag dat iemand een `.html.twig` verwerft, verhuist het naar `components/` en voegt het zich bij de matrix. Die verhuizing is de enige promotie die er is. Wat elk over zichzelf zegt, wordt afgelezen van de kop van zijn eigen stylesheet, zodat er geen tweede plaats is waaruit het kan afdrijven.'
+  coverage:
+    title: 'Wat dit uitsluit'
+    description: 'Mappen van `assets/` die de scan niet doorloopt, vermeld vanaf schijf in plaats van uit het geheugen. Mixins, utilities en tokens zijn geen elementen en mogen hier nooit rijen zijn; lay-outs en gedeelde scripts zijn dat wel, en zijn nog niet gedekt.'

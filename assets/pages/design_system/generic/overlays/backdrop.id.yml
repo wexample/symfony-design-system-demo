@@ -1,0 +1,9 @@
+page_title: Overlay
+page_icon: 'ph:bold/square-half-bottom'
+section:
+  simple_overlay:
+    description: 'Tampilkan overlay sederhana selama 3 detik.'
+    button: 'Tampilkan overlay'
+  spinner_overlay:
+    description: 'Tampilkan overlay dengan pemutar loading selama 3 detik.'
+    button: 'Tampilkan overlay'

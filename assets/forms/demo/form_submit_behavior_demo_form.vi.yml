@@ -1,0 +1,126 @@
+field:
+  entity_search:
+    label: Phòng
+    placeholder: 'Tìm kiếm một phòng...'
+    help: 'Chọn một bản ghi bằng cách tìm kiếm nó. Những gì biểu mẫu mang theo là id của nó.'
+  password:
+    label: 'Mật khẩu'
+    help: 'Nhập mật khẩu của bạn để xác thực.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Mật khẩu không hợp lệ cho mục đích thử nghiệm.'
+  emoji:
+    label: 'Biểu tượng cảm xúc'
+    help: 'Chọn một biểu tượng cảm xúc để thể hiện tâm trạng của bạn.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Biểu tượng cảm xúc không hợp lệ cho mục đích thử nghiệm.'
+  text_simple:
+    label: 'Văn bản'
+    help: 'Một ô nhập văn bản đơn dòng cho nội dung ngắn.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Văn bản không hợp lệ cho mục đích thử nghiệm.'
+  text_area:
+    label: 'Văn bản dài'
+    placeholder: 'Gõ bất cứ điều gì bạn muốn...'
+    help: 'Một vùng văn bản nhiều dòng cho nội dung dài hơn.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Văn bản dài không hợp lệ cho mục đích thử nghiệm.'
+  behavior:
+    label: 'Hành vi'
+    help: 'Chọn cách mà biểu mẫu phản ứng sau khi gửi.'
+    error:
+      ERR_FIELD_BEHAVIOR_INVALID: 'Lựa chọn hành vi không hợp lệ cho mục đích thử nghiệm.'
+    choice:
+      error:
+        label: 'Hiển thị lỗi'
+        description: 'đóng nhúng (hoặc không làm gì trong trang).'
+      js:
+        label: 'Hành động JS (thông báo)'
+        description: 'trả về các lỗi xác thực.'
+      redirect:
+        label: 'Chuyển hướng'
+        description: 'kích hoạt một thông báo mà không gửi.'
+      default:
+        label: 'Mặc định'
+        description: 'dẫn đến toàn bộ trang, hoặc đóng hộp thoại.'
+      embed_stay:
+        label: 'Giữ nhúng mở (hộp thoại / bảng)'
+        description: 'vẫn mở trong hộp thoại/bảng.'
+      embed_redirect:
+        label: 'Chuyển hướng trong nhúng (hộp thoại / bảng)'
+        description: 'dẫn đến bên trong hộp thoại/bảng.'
+  date:
+    label: Ngày
+    help: 'Chọn một ngày sử dụng bộ chọn ngày.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Ngày không hợp lệ cho mục đích thử nghiệm.'
+  datetime:
+    label: 'Ngày & giờ'
+    help: 'Chọn một ngày và giờ kết hợp.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Ngày & giờ không hợp lệ cho mục đích thử nghiệm.'
+  time:
+    label: 'Thời gian'
+    help: 'Chọn một thời điểm trong ngày.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Thời gian không hợp lệ cho mục đích thử nghiệm.'
+  file:
+    label: Tệp
+    help: 'Tải lên một hoặc nhiều tệp từ thiết bị của bạn.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Tệp không hợp lệ cho mục đích thử nghiệm.'
+  email:
+    label: Email
+    placeholder: you@example.com
+    help: 'Nhập địa chỉ email hợp lệ.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'Email không hợp lệ cho mục đích thử nghiệm.'
+  number:
+    label: Số
+    help: 'Nhập một giá trị số.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Số không hợp lệ cho mục đích thử nghiệm.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Nhập một URL đầy đủ bao gồm giao thức.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL không hợp lệ cho mục đích thử nghiệm.'
+  switch:
+    label: 'Công tắc'
+    help: 'Bật hoặc tắt tùy chọn này.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Công tắc không hợp lệ cho mục đích thử nghiệm.'
+  radio_choice:
+    label: 'Lựa chọn radio'
+    help: 'Chọn một tùy chọn từ danh sách.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Lựa chọn radio không hợp lệ cho mục đích thử nghiệm.'
+    choice:
+      option_a:
+        label: 'Tùy chọn A'
+      option_b:
+        label: 'Tùy chọn B'
+      option_c:
+        label: 'Tùy chọn C'
+action:
+  button_demo: 'Không làm gì'
+  submit_default: Gửi
+  submit_error: 'Hiển thị lỗi'
+  submit_js: 'Hành động JS'
+  submit_redirect: 'Chuyển hướng'
+  submit_embed_stay: 'Giữ nhúng mở'
+  submit_embed_redirect: 'Chuyển hướng trong nhúng'
+error:
+  ERR_FORM_TEST:
+    message: 'Lỗi toàn cầu cho mục đích thử nghiệm.'
+description: |
+  Sử dụng biểu mẫu này để thử nghiệm các hành vi gửi. Bản demo này có sẵn trong các ngữ cảnh trang, ajax và hộp thoại. Chọn một hành vi bên dưới và gửi:
+toast:
+  success:
+    title: 'Thành công'
+    message: 'Biểu mẫu đã được gửi thành công.'
+  js_action:
+    title: 'Hành động JS'
+    message: 'Bạn có muốn kích hoạt lại biểu mẫu không?'
+    reactivate: 'Kích hoạt lại'
+    dismiss: 'Bỏ qua'

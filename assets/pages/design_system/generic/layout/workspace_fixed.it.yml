@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Larghezza fissa'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: "Le stesse tre aree, ma quella che stai leggendo ha una larghezza definita invece di adattarsi — e la larghezza che nessuno vuole va a un'area vuota."
+section:
+  sized:
+    title: "Un'area con larghezza definita"
+    description: "`zone--narrow` con un passo di dimensione: l'area è così larga e rimane così larga, qualunque sia lo spazio disponibile nella finestra. È così che un testo rimane leggibile — una colonna che cresce con lo schermo smette di essere tale."
+  slack:
+    title: 'A cosa serve lo slack'
+    description: "L'ultima area non contiene nulla, e mantiene comunque la sua posizione: vuoto non è assente, e un pannello in attesa appare come un pannello piuttosto che come un buco. Serve a prendere la larghezza che quelle definite rifiutano."
+    more: 'Una divisione restituisce il surplus a chiunque lo richieda. Con nessuno che richiede, le aree definite verrebbero allungate o spinte ai bordi; con questo, mantengono la loro larghezza e la pagina tiene il resto.'
+work:
+  size: 32rem

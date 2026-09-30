@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Tata Letak'
+page_icon: 'ph:bold/layout'
+intro: 'Bagaimana sebuah halaman dibagi. Bentuk-bentuk ini mengambil wilayah daripada konten: mereka menunjukkan posisi sesuatu, dan tidak tahu apa yang berada di sana.'
+page:
+  zones:
+    title: Zona
+    description: 'Workspace dua panel: sebuah pembagian, kolom berukuran, tubuh yang dapat digulir. Apa yang menjadi dasar setiap penjelajah, editor, dan tampilan detail dalam aplikasi.'
+  workspace:
+    title: Workspace
+    description: 'Halaman yang terdiri dari wilayah yang diletakkan berdampingan, dibedakan oleh ruang di antara mereka dan tidak ada yang lain. Tiga susunan, berpindah di antara mereka dengan pohon yang berdiri di masing-masing.'
+  blocks:
+    title: Blok
+    description: 'Permukaan tempat sekelompok benda berada, dengan atau tanpa padding, dengan variasi kartu dan figur.'
+  toolbar:
+    title: Toolbar
+    description: 'Serangkaian aksi di atas atau di bawah apa yang mereka lakukan, dalam kepadatan yang luas dan kompak.'
+  tabs:
+    title: Tab
+    description: 'Satu halaman menampilkan salah satu dari beberapa wajah, dengan panel yang mengikuti pilihan.'
+  doc:
+    title: 'Tata Letak Dokumen'
+    description: 'Pola dokumentasi dua kolom — prosa di satu sisi, kode di sisi lainnya — yang dilipat menjadi satu kolom ketika tidak ada ruang.'

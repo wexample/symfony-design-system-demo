@@ -1,0 +1,59 @@
+page_title: Markers
+page_icon: 'ph:bold/seal-check'
+intro: 'Één capsule voor alles wat over een ding in één woord is gezegd: een staat, een naam, een versie, een categorie. Het waren twee objecten tot de dag dat een code en een staat zij aan zij in één kop stonden, een hoofd apart, en niemand kon zeggen wat het verschil betekende — dus de vorm is één en de toon is het geheel van wat hen onderscheidt. Wat het draagt is vrij: een woord, een cijfer, een glyph, of twee van de drie. De cirkel staat waar er geen ruimte is voor een capsule, en de teller, die hangt aan een rij en is afgestemd op de tekst waaraan hij hangt, is het enige dat hier geen marker is.'
+section:
+  inline:
+    title: 'In het midden van een zin'
+    description: 'Een woord apart gezet terwijl het wordt gelezen: een versie, een fase, een categorie. De neutrale toon, omdat een marker die gekleurd aankomt al een claim heeft gemaakt over wat hij markeert — en in een zin is er niets te claimen.'
+  palette:
+    title: 'De categorieën'
+    description: 'Tonen die dingen onderscheiden zonder ze te rangschikken. Ze dragen geen betekenis — niets zegt dat de derde beter is dan de vijfde — wat precies is wat ze bruikbaar maakt voor een taxonomie, waar betekenis een leugen zou zijn. Draagt precies zoals een staat is: dezelfde capsule, hetzelfde ritme.'
+  against:
+    title: 'Een teller naast een marker'
+    description: 'Het enige onderscheid dat overblijft, en het gaat niet om betekenis. Aan de linkerkant een teller: twaalf van iets, hangend aan de rij die er naartoe leidt en afgestemd op de tekst van die rij. Aan de rechterkant een marker: twaalf van iets dat goed ging, staand op zichzelf en afgestemd op tokens. Een telling naast een menu-item is een teller; hetzelfde cijfer in een pijplijnkolom is een marker.'
+  words:
+    title: 'Een staat in woorden'
+    description: 'Aangekondigd in een zin of naast een titel, waar het de boodschap is in plaats van een markering in een kolom.'
+  figures:
+    title: 'Een staat gelezen per dozijn'
+    description: 'In een kolom leest een vinkje naast een neutrale telling als twee objecten en een tabel van hen leest als ruis. Hier omhult de kleur het cijfer en de kolom wordt in één keer gescand — compact, aangezien een cel geen ruimte heeft om te verspillen.'
+  payload:
+    title: 'Wat het draagt'
+    description: 'Een woord voor wat de staat is, een cijfer voor hoeveel ervan zijn, beide, of geen van beide. Het cijfer is altijd een stap teruggetrokken van de rest: het kwalificeert de staat, het is niet de staat.'
+  weights:
+    title: 'De drie vormen naast elkaar'
+    description: 'Dezelfde informatie op de plaats waar het daadwerkelijk wordt gelezen. De cirkel is de vorm voor een cel die te smal is voor een capsule, en de enige die kan laten zien dat een staat een hoeveelheid is — en het wordt getekend met de kleur die de capsule vult.'
+  circles:
+    title: Cirkels
+    description: 'Een staat verteld door een cirkel in plaats van door een woord, voor een plaats waar staten per dozijn worden gelezen — een lijst van runs, een rij van taken. De ring draagt de kleur, de glyph binnenin zegt welke staat het is, en beide zijden van de stapel tekenen dezelfde markup.'
+  progress:
+    title: 'Een staat die een hoeveelheid is'
+    description: 'Een run is de enige staat met een hoeveelheid, dus zijn ring wordt getekend tot waar de run is gekomen. Twig print de waarde die het krijgt; het daarna verplaatsen is de zaak van de browser.'
+  sizes:
+    title: Cirkelgroottes
+  vue:
+    title: Vue
+    description: 'Dezelfde component, aangestuurd: het type of de waarde wisselen verplaatst de boog in plaats van het opnieuw te tekenen. Dit is wat een app plaatst wanneer de staat onder de ogen van de lezer gaat veranderen.'
+  code:
+    title: Gebruik
+state:
+  success: 'Operatie succesvol'
+  error: 'Er is een fout opgetreden'
+  warning: 'Ga voorzichtig te werk'
+  info: 'Voor uw informatie'
+  passed: Geslaagd
+weights:
+  column:
+    form: Vorm
+  row:
+    capsule: Capsule
+    circle: Cirkel
+example:
+  sentence:
+    released: 'Versie 2.4 is'
+    deprecated: 'Deze API is'
+marker:
+  neutral: Neutraal
+  released: Vrijgegeven
+  deprecated: Verouderd
+  tag: Categorie

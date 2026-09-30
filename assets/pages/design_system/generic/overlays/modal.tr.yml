@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Diyalog
+page_icon: 'ph:bold/app-window'
+section:
+  persist:
+    description: "Sekmeli bir modal. Açın, sekmeleri değiştirin, F5'e basın — modal aynı sekmede yeniden açılır."
+    button: 'Modalı aç'
+  simple:
+    description: 'Basit bir modal göster. Bunu Escape ile veya modalın dışına tıklayarak kapatabilirsiniz.'
+    button: 'Modalı aç'
+  components:
+    description: 'Bileşenler ve bir toast tetikleyici içeren bir modal göster. Escape devre dışıdır, ancak dışarı tıklayarak kapatabilirsiniz.'
+    button: 'Modalı aç'
+  medium:
+    description: 'Orta uzunlukta metin içeren bir modal göster. Dışarı tıklamak modalı kapatmayacaktır.'
+    button: 'Modalı aç'
+  long:
+    description: 'Uzun metin içeren bir modal göster. Kapatmadan önce onay ister.'
+    button: 'Modalı aç'
+  form_rendered:
+    description: 'Bir modal içinde render edilmiş bir demo formu göster. Escape ve dışarı tıklama devre dışıdır, form değiştirilmişse kapatmadan önce sorar.'
+    button: 'Modalı aç'
+  form_ajax:
+    description: 'AJAX kullanarak bir modal içinde render edilmiş bir demo formu göster. Escape ve dışarı tıklama devre dışıdır, form değiştirilmişse kapatmadan önce sorar.'
+    button: 'Modalı aç'
+  recursive:
+    description: 'Başka bir diyalog içinde bir diyalog sayfası açın — modal veya panel seçin.'
+    button_modal: 'Modalda aç'
+    button_panel: 'Panelde aç'

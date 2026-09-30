@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Formulir
+page_icon: 'ph:bold/textbox'
+intro: 'Serangkaian kolom, apa yang dilakukan ketika dikirim, dan apa yang dikatakan ketika kembali. Kolom itu sendiri ada di Kontrol; apa yang ditambahkan halaman ini adalah perjalanan bolak-balik.'
+page:
+  inputs:
+    title: Input
+    description: 'Setiap kolom yang disediakan sistem, dan kontrak yang memungkinkan agen mengambil, mengisi, dan mengembalikannya.'
+  basic:
+    title: 'Formulir dasar'
+    description: 'Kasus biasa: formulir yang dirender oleh server, dikirim oleh browser, dijawab oleh halaman.'
+  rendered:
+    title: 'Formulir lanjutan'
+    description: 'Formulir yang dibangun oleh komponen formulir, dengan perilaku kirim dan status yang mereka kembalikan.'
+  ajax:
+    title: 'Formulir Ajax'
+    description: 'Formulir yang menjawab tanpa meninggalkan halaman, dan apa yang dilakukannya dengan apa yang kembali.'
+  vue:
+    title: 'Formulir Vue'
+    description: 'Formulir yang sama yang dikendalikan dari komponen, di mana kolom adalah status daripada markup.'

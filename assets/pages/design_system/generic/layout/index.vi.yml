@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Bố cục'
+page_icon: 'ph:bold/layout'
+intro: 'Cách một trang được chia ra. Những hình dạng này chiếm các khu vực thay vì nội dung: chúng cho biết vị trí của mọi thứ, và không biết gì về những gì đứng ở đó.'
+page:
+  zones:
+    title: 'Khu vực'
+    description: 'Không gian làm việc hai ngăn: một sự chia tách, một cột có kích thước, một thân cuộn. Những gì mà mọi trình khám phá, trình chỉnh sửa và chế độ xem chi tiết trong một ứng dụng được xây dựng trên đó.'
+  workspace:
+    title: 'Không gian làm việc'
+    description: 'Các trang được tạo thành từ các khu vực nằm cạnh nhau, được phân biệt bởi khoảng trống giữa chúng và không gì khác. Ba cách sắp xếp, di chuyển giữa chúng bằng cây đứng ở mỗi khu vực.'
+  blocks:
+    title: Khối
+    description: 'Bề mặt mà một nhóm các vật nằm trên, có thể có hoặc không có đệm, với các biến thể thẻ và hình.'
+  toolbar:
+    title: 'Thanh công cụ'
+    description: 'Một dòng hành động nằm ở trên hoặc dưới những gì mà chúng tác động đến, trong các mật độ rộng rãi và gọn gàng.'
+  tabs:
+    title: Thẻ
+    description: 'Một trang hiển thị một trong nhiều mặt, với các bảng điều khiển theo lựa chọn.'
+  doc:
+    title: 'Bố cục tài liệu'
+    description: 'Mẫu tài liệu hai cột — văn bản ở một bên, mã ở bên kia — gập lại thành một cột khi không còn không gian.'

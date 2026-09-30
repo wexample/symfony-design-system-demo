@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Formlar
+page_icon: 'ph:bold/textbox'
+intro: 'Gönderildiğinde ne yaptığı ve geri geldiğinde ne söylediği bir dizi alan. Alanlar Kontrollerde; bu sayfaların eklediği şey ise gidiş-dönüş sürecidir.'
+page:
+  inputs:
+    title: Girişler
+    description: 'Sistemin sunduğu her alan ve bir ajanın bir alanı devralmasına, doldurmasına ve geri vermesine izin veren sözleşme.'
+  basic:
+    title: 'Temel formlar'
+    description: 'Sade durum: sunucu tarafından oluşturulan, tarayıcı tarafından gönderilen ve bir sayfa tarafından yanıtlanan bir form.'
+  rendered:
+    title: 'Gelişmiş formlar'
+    description: 'Gönderim davranışları ve geri döndüklerinde bulundukları durum ile form bileşeni tarafından oluşturulan formlar.'
+  ajax:
+    title: 'Ajax formları'
+    description: 'Sayfa terk edilmeden yanıt veren bir form ve geri dönenle ne yaptığı.'
+  vue:
+    title: 'Vue formları'
+    description: 'Alanların işaretleme yerine durum olduğu bir bileşen tarafından yönlendirilen aynı formlar.'

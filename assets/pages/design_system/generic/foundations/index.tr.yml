@@ -1,0 +1,17 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Temeller
+page_icon: 'ph:bold/diamonds-four'
+intro: 'Diğer her şeyin harcandığı temel. Bu sayfalardaki hiçbir şey bir bileşen değil: her bir bölümün asla göstermeden okuduğu ölçekler - renk, boşluk, yazı tipi ve onları çizen arka plan.'
+page:
+  colors:
+    title: Renkler
+    description: 'Bir sayfanın üst üste bindiği yüzeyler, ters düzeylerdeki kenarların ve soluk metinlerin çizildiği yerler ve beş anlam ailesi. Temanın her iki yüzü, yan yana.'
+  spacing:
+    title: Boşluk
+    description: 'Dokuz boşluk adımı, boyutlar ve yoğunluk deseni - bir bölgenin kendisini nasıl sıkı bir şekilde tanıttığı ve bu durumun içinde barındırdığı her şeye etkisi.'
+  typography:
+    title: 'Yazı Tipi'
+    description: 'Yazı ölçeği ve ağırlıkları, ardından aynı ölçeğin bir düz yazı sayfasında nasıl çalıştığı.'
+  skin:
+    title: 'Arka Plan'
+    description: 'Nesnelerin nasıl çizildiği, eşit renk ve yoğunlukta: yarıçaplar, gölgeler, kenar boşlukları ve ayırıcılar. Temanın bir karaktere sahip olan tek ekseni.'

@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Daftar
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: Default
+  empty:
+    title: 'Status kosong'
+search:
+  placeholder: 'Saring daftar...'
+header:
+  filter: Saring
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'Koneksi SQL yang dikelola untuk beban kerja transaksi'
+  s3:
+    title: 'Amazon S3'
+    body: 'Konektor penyimpanan objek untuk impor dan ekspor'
+  webhook:
+    title: Webhook
+    body: 'Trigger dan terima peristiwa dari sistem eksternal'
+  redis:
+    title: Redis
+    body: 'Cache di memori dan pesan pub/sub'
+  mongo:
+    title: MongoDB
+    body: 'Penyimpanan dokumen untuk beban kerja skema yang fleksibel'

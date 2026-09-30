@@ -1,0 +1,29 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dialogo
+page_icon: 'ph:bold/app-window'
+section:
+  persist:
+    description: 'Modale con schede. Aprilo, cambia scheda, premi F5 — il modale si riapre sulla stessa scheda.'
+    button: 'Apri modale'
+  simple:
+    description: "Mostra un modale semplice. Puoi chiuderlo con Escape o cliccando all'esterno del modale."
+    button: 'Apri modale'
+  components:
+    description: "Mostra un modale con componenti e un attivatore di toast. Escape è disabilitato, ma puoi comunque cliccare all'esterno per chiuderlo."
+    button: 'Apri modale'
+  medium:
+    description: "Mostra un modale con testo di lunghezza media. Cliccare all'esterno non lo chiuderà."
+    button: 'Apri modale'
+  long:
+    description: 'Mostra un modale con testo lungo. Chiede conferma prima di chiudere.'
+    button: 'Apri modale'
+  form_rendered:
+    description: "Mostra un modulo di demo renderizzato all'interno di un modale. Escape e il clic esterno sono disabilitati, e chiede prima di chiudere se il modulo è stato modificato."
+    button: 'Apri modale'
+  form_ajax:
+    description: "Mostra un modulo di demo renderizzato all'interno di un modale utilizzando AJAX. Escape e il clic esterno sono disabilitati, e chiede prima di chiudere se il modulo è stato modificato."
+    button: 'Apri modale'
+  recursive:
+    description: "Apri una pagina di dialogo all'interno di un'altra dialogo — scegli modale o pannello."
+    button_modal: 'Apri in modale'
+    button_panel: 'Apri in pannello'

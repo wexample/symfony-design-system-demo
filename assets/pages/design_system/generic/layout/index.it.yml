@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Layout
+page_icon: 'ph:bold/layout'
+intro: "Come è divisa una pagina. Queste forme occupano spazi piuttosto che contenuti: indicano dove si trovano le cose e non sanno nulla di ciò che c'è."
+page:
+  zones:
+    title: Zone
+    description: "L'area di lavoro a due pannelli: una divisione, una colonna dimensionata, un corpo scorrevole. Su cui si basa ogni esploratore, editor e vista dettagliata in un'app."
+  workspace:
+    title: 'Area di lavoro'
+    description: "Pagine composte da regioni disposte affiancate, distinte solo dallo spazio tra di esse. Tre disposizioni, tra cui spostarsi tramite l'albero che si trova in ciascuna di esse."
+  blocks:
+    title: Blocchi
+    description: 'La superficie su cui si trova un gruppo di elementi, imbottita o meno, con le sue varianti a scheda e figura.'
+  toolbar:
+    title: 'Barra degli strumenti'
+    description: 'Una linea di azioni sopra o sotto a ciò su cui agiscono, nelle sue densità ampie e compatte.'
+  tabs:
+    title: Schede
+    description: 'Una pagina che mostra uno dei vari volti, con i pannelli che seguono la scelta.'
+  doc:
+    title: 'Layout del documento'
+    description: "Il modello di documentazione a due colonne — testo da un lato, codice dall'altro — che si piega in una colonna quando non c'è spazio."

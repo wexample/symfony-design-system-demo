@@ -1,0 +1,59 @@
+page_title: 'Các dấu hiệu'
+page_icon: 'ph:bold/seal-check'
+intro: 'Một viên nang cho mọi điều được nói về một thứ trong một từ: một trạng thái, một tên gọi, một phiên bản, một loại. Chúng là hai đối tượng cho đến ngày một mã và một trạng thái đứng bên nhau trong một tiêu đề, một khoảng cách, và không ai có thể nói sự khác biệt đó có nghĩa là gì — vì vậy hình dạng là một và tông màu là toàn bộ những gì phân biệt chúng. Những gì nó mang là miễn phí: một từ, một con số, một ký tự, hoặc hai trong ba cái đó. Hình tròn đứng ở nơi không có chỗ cho một viên nang, và bộ đếm, cái treo từ một hàng và có kích thước theo văn bản mà nó treo từ đó, là thứ duy nhất ở đây không phải là một dấu hiệu.'
+section:
+  inline:
+    title: 'Giữa một câu'
+    description: 'Một từ được tách ra khi đọc: một phiên bản, một giai đoạn, một loại. Tông màu trung tính, vì một dấu hiệu đến với màu sắc đã tuyên bố một điều gì đó về những gì nó đánh dấu — và trong một câu không có gì để tuyên bố.'
+  palette:
+    title: 'Các loại'
+    description: 'Các tông màu phân biệt mà không xếp hạng chúng. Chúng không mang ý nghĩa — không có gì nói rằng cái thứ ba tốt hơn cái thứ năm — điều này chính là lý do khiến chúng có thể sử dụng cho phân loại, nơi ý nghĩa sẽ là một lời nói dối. Được mặc giống như một trạng thái: cùng một viên nang, cùng một nhịp điệu.'
+  against:
+    title: 'Một bộ đếm bên cạnh một dấu hiệu'
+    description: 'Sự khác biệt duy nhất còn lại, và nó không liên quan đến ý nghĩa. Bên trái là một bộ đếm: mười hai cái gì đó, treo từ hàng dẫn đến nó và có kích thước theo văn bản của hàng đó. Bên phải là một dấu hiệu: mười hai cái gì đó đã diễn ra tốt đẹp, đứng độc lập và có kích thước theo các ký hiệu. Một số bên cạnh một mục menu là một bộ đếm; cùng một con số trong cột ống dẫn là một dấu hiệu.'
+  words:
+    title: 'Một trạng thái bằng từ'
+    description: 'Được thông báo trong một câu hoặc bên cạnh một tiêu đề, nơi nó là thông điệp chứ không phải một dấu hiệu trong một cột.'
+  figures:
+    title: 'Một trạng thái được đọc theo chục'
+    description: 'Trong một cột, một dấu tick bên cạnh một số trung tính đọc như hai đối tượng và một bảng của chúng đọc như tiếng ồn. Ở đây màu sắc bao bọc hình ảnh và cột được quét trong một lần — gọn gàng, vì một ô không có chỗ thừa.'
+  payload:
+    title: 'Những gì nó mang'
+    description: 'Một từ cho những gì trạng thái đó là, một con số cho biết có bao nhiêu cái, cả hai, hoặc không cái nào. Con số luôn được vẽ một bước lùi so với phần còn lại: nó bổ sung cho trạng thái, nó không phải là trạng thái.'
+  weights:
+    title: 'Ba hình thức cạnh nhau'
+    description: 'Cùng một thông tin trong vị trí mà nó thực sự được đọc. Hình tròn là hình thức cho một ô quá hẹp cho một viên nang, và là hình thức duy nhất có thể cho thấy một trạng thái là một số lượng — và nó được vẽ bằng màu sắc mà viên nang chứa đựng.'
+  circles:
+    title: 'Các hình tròn'
+    description: 'Một trạng thái được kể bằng một hình tròn chứ không phải bằng một từ, cho một nơi mà các trạng thái được đọc theo chục — một danh sách các hoạt động, một hàng công việc. Vòng tròn mang màu sắc, ký tự bên trong cho biết đó là trạng thái nào, và cả hai bên của ngăn xếp đều vẽ cùng một đánh dấu.'
+  progress:
+    title: 'Một trạng thái là một số lượng'
+    description: 'Một hoạt động là trạng thái duy nhất có một số lượng, vì vậy vòng của nó được vẽ đến mức mà hoạt động đã đạt được. Twig in giá trị mà nó được cho; việc di chuyển nó sau đó là việc của trình duyệt.'
+  sizes:
+    title: 'Kích thước hình tròn'
+  vue:
+    title: Vue
+    description: 'Cùng một thành phần, được điều khiển: chuyển đổi loại hoặc giá trị di chuyển cung thay vì vẽ lại nó. Đây là những gì một ứng dụng đặt khi trạng thái sẽ thay đổi trước mắt người đọc.'
+  code:
+    title: 'Sử dụng'
+state:
+  success: 'Hoạt động thành công'
+  error: 'Đã xảy ra lỗi'
+  warning: 'Tiếp tục thận trọng'
+  info: 'Để bạn biết'
+  passed: Đạt
+weights:
+  column:
+    form: 'Hình thức'
+  row:
+    capsule: 'Viên nang'
+    circle: 'Hình tròn'
+example:
+  sentence:
+    released: 'Phiên bản 2.4 là'
+    deprecated: 'API này đã lỗi thời'
+marker:
+  neutral: 'Trung tính'
+  released: 'Đã phát hành'
+  deprecated: 'Đã lỗi thời'
+  tag: Loại

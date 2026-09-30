@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Carregadores
+page_icon: 'ph:bold/spinner-gap'
+intro: 'Algo está acontecendo e seu fim não é conhecido. Ambos dizem isso e se recusam a dizer mais — onde o fim é conhecido, a barra na próxima aba diz isso.'
+section:
+  spinner:
+    title: Carregador
+    description: 'Uma máquina está ocupada. Três tamanhos, e um alinhamento em linha para quando está em uma linha de texto em vez de em uma caixa própria.'
+  dots:
+    title: Pontos
+    description: 'Algo está prestes a ser dito. Os mesmos três tamanhos, e os mesmos alinhamentos — o que muda é para quem o leitor está aguardando.'
+  vue:
+    title: Vue
+    description: 'Ambos também são enviados como partes vue, aceitando as mesmas opções, para uma página que decide enquanto executa se há algo para esperar.'
+spinner:
+  label: Carregando
+  inline: 'Processando dados'
+dots:
+  label: Aguardando
+  inline: 'O outro lado está escrevendo'

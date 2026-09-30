@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Danh sách'
+page_icon: 'ph:bold/list-bullets'
+section:
+  default:
+    title: 'Mặc định'
+  empty:
+    title: 'Trạng thái trống'
+search:
+  placeholder: 'Lọc danh sách...'
+header:
+  filter: Lọc
+item:
+  postgres:
+    title: PostgreSQL
+    body: 'Kết nối SQL được quản lý cho các khối lượng công việc giao dịch'
+  s3:
+    title: 'Amazon S3'
+    body: 'Kết nối lưu trữ đối tượng cho việc nhập và xuất'
+  webhook:
+    title: Webhook
+    body: 'Kích hoạt và nhận sự kiện từ các hệ thống bên ngoài'
+  redis:
+    title: Redis
+    body: 'Bộ nhớ đệm trong bộ nhớ và nhắn tin pub/sub'
+  mongo:
+    title: MongoDB
+    body: 'Kho lưu trữ tài liệu cho các khối lượng công việc có cấu trúc linh hoạt'

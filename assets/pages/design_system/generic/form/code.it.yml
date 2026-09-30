@@ -1,0 +1,11 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Codice
+page_icon: 'ph:bold/code'
+intro: 'Un campo che contiene codice, colorato in base alla sua grammatica. Viene fornito con symfony-coding e non con il sistema di design, dal quale prende solo in prestito: la sua cornice è quella di un campo, i suoi colori sono i token del codice dello schema, la sua riga corrente e la sua selezione sono le sfumature dello schema — quindi segue il lato chiaro e scuro come tutto ciò che lo circonda.'
+section:
+  server:
+    title: 'Campo server'
+    description: "Un vero textarea, sovrapposto dall'editor una volta che la pagina è in esecuzione. Il textarea rimane il campo — inviato con il modulo, comunicato dallo stack del modulo — quindi il modulo funziona allo stesso modo con o senza di esso. Seleziona su più righe, la riga del cursore tra di esse: la selezione rimane visibile."
+  vue:
+    title: 'Campo Vue'
+    description: 'Lo stesso editor che contiene un modello: v-model in entrata e in uscita, la lingua è una prop che può cambiare mentre il campo è aperto.'

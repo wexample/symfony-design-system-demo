@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Dosyalar
+page_icon: 'ph:bold/folder-open'
+intro: 'Bir sayfa genişliğinde dosya gezgini. Dosyaların nereden geldiği hakkında hiçbir şey bilmez: bir klasörün içeriğini ister ve dosya varlıklarını geri alır — bir ağacın aldığı gibi — bu nedenle bir disk, bir indeks, bir arşiv veya bir API hepsi aynı şekilde okunur.'
+root: Dosyalar
+section:
+  vue:
+    title: Gezgin
+    description: 'Yanlarda klasörler, klasörün içeriği herhangi bir sütuna göre sıralanmış bir liste veya bir ızgara olarak; geri, ileri ve yukarı; bir filtre; fare ile seçim — ctrl, shift — ve klavye ile — oklar, Enter, Backspace, ctrl+A, Escape; bir klasör bir sayfadan fazla içerik barındırdığında daha fazlası istenir. Çift tıklama bir klasöre girer ve sayfaya bir dosya verir. Görünüm ve sıra hatırlanır.'
+  twig:
+    title: 'Sunucu tarafından çizildi'
+    description: 'Bir klasör, liste veya ızgara olarak, her öğe bir bağlantı: üzerine açılan aynı sayfaya bir klasör — burada ?folder= aracılığıyla — bir dosya, sayfanın gönderdiği yere.'

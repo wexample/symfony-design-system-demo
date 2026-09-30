@@ -1,0 +1,115 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Blocchi
+page_icon: 'ph:bold/squares-four'
+tone:
+  body: 'il terreno rimane di proprietà del blocco, solo il bordo anteriore porta il colore.'
+section:
+  tone:
+    title: 'Un blocco che porta un tono'
+    description: "Il colore di uno stato — o di una categoria — come una barra lungo il bordo anteriore, e nient'altro: la stessa barra che indossa un messaggio, senza il terreno colorato, così una lista di essi appare come una lista e non come un allarme. Qualsiasi blocco lo può avere, compresa una barra che poggia su un blocco."
+  default:
+    title: 'Blocchi di base'
+  advanced:
+    title: 'Blocchi avanzati'
+  aside:
+    title: 'Colonna fissa laterale'
+    description: 'Una colonna stretta dimensionata sulla scala --size, accanto a un corpo che assorbe la larghezza rimanente.'
+  card:
+    title: Schede
+  link:
+    title: 'Un blocco che è un link'
+    description: "L'intera scheda è il link — per una scelta fatta selezionando una scheda tra diverse: un piano, un ramo, un modello. Si legge come testo, non come un'azione attutita; sotto il cursore il suo fondo assume una sfumatura e il suo bordo si indurisce, e la tastiera lo trova grazie all'anello di messa a fuoco che ogni controllo indossa."
+  figure:
+    title: Figure
+    description: 'Un singolo valore o icona sovradimensionato, centrato. Utilizzato per contatori del dashboard e riquadri di stato — aggiungi block--square per mantenere il riquadro quadrato qualunque sia la sua larghezza.'
+  stacks:
+    title: Stack
+  stack_horizontal:
+    title: Orizzontale
+    description: 'Colonne uguali, a piena larghezza, si avvolgono in caso di sovrapposizione.'
+  stack_vertical:
+    title: Verticale
+    description: 'Righe impilate, a piena larghezza, intervallo uniforme.'
+  stack_split:
+    title: Diviso
+    description: "Il primo figlio cresce, l'ultimo rimane fisso — utilizzato per righe di lead + azione."
+  stack_nested:
+    title: Annidato
+    description: 'Stack orizzontale contenente stack verticali — tipico della griglia del dashboard.'
+stack:
+  item:
+    one: Uno
+    two: Due
+    three: Tre
+    four: Quattro
+    lead: "Descrivi l'azione in questo testo di lead."
+    action: Azione
+block:
+  title: 'Titolo del blocco'
+  no_padding: 'Blocco senza padding (utilizzando block--body).'
+  one:
+    title: 'Blocco primario'
+    description: 'Un blocco con un titolo e un testo di corpo.'
+  two:
+    title: 'Blocco secondario'
+    description: 'Un altro blocco per dimostrare il distanziamento.'
+  three:
+    title: 'Blocco terziario'
+    description: 'Un terzo blocco nella riga.'
+  four:
+    title: 'Blocco quaternario'
+    description: 'Un quarto blocco per la demo del layout.'
+  advanced:
+    title: 'Proiezione della pipeline'
+    status: Pronto
+    description: 'Questo blocco combina slot di titolo e contenuto in una singola struttura riutilizzabile.'
+    details: 'Gli operatori possono essere aggiunti senza lasciare il contesto attuale.'
+  zones:
+    main:
+      title: 'Zona principale'
+      description: 'Il contenuto principale può crescere naturalmente con distanziamento standard.'
+    aside:
+      title: 'Zona laterale'
+      description: 'Questa zona laterale utilizza uno sfondo chiaro per evidenziare contenuti complementari.'
+  zones_three:
+    title: 'Layout a tre zone'
+    status: Bozza
+    left:
+      title: 'Pannello sinistro'
+      description: 'La navigazione secondaria o i metadati possono trovarsi qui.'
+    main:
+      title: 'Contenuto principale'
+      description: 'Le informazioni primarie rimangono centrate per leggibilità.'
+    right:
+      title: 'Pannello destro'
+      description: 'Azioni contestuali e approfondimenti possono essere raggruppati su questo lato.'
+    footer:
+      meta: 'Aggiornato 2 minuti fa'
+      action: 'Apri dettagli'
+figure:
+  projections: Proiezioni
+  uptime: 'Tempo di attività'
+  status: Attivo
+  framed:
+    title: Throughput
+    label: 'Eventi al secondo'
+tab:
+  one: Panoramica
+  two: Attività
+  three: Impostazioni
+button:
+  create: 'Crea proiezione'
+  refresh: 'Aggiorna dati'
+  export: Esporta
+action:
+  add_projection: 'Aggiungi proiezione'
+link:
+  starter:
+    title: Inizio
+    description: 'Una persona, le basi, nulla da pagare.'
+  team:
+    title: Team
+    description: 'Alcune persone che lavorano sulle stesse cose.'
+  company:
+    title: Azienda
+    description: "Ogni team, con i controlli richiesti da un'organizzazione."

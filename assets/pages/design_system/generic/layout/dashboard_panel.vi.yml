@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Bảng điều khiển'
+page_icon: 'ph:bold/square-half'
+field:
+  version: 'Phiên bản'
+  instances: 'Tình huống'
+  loaded: 'Đã tải'
+loaded:
+  at_once: 'ngay khi trang được hiển thị'
+  late: '%seconds% giây trễ, có chủ đích'
+service:
+  api:
+    title: 'Cổng API'
+    state: 'Đang phục vụ'
+    version: 4.12.0
+    instances: '3 / 3'
+    description: 'Một trang riêng biệt, được tải vào khu vực này qua một phần nhúng. Dấu chéo ở góc của nó sẽ đóng lại: khu vực đó sẽ thoát ra và các khu vực khác chia sẻ không gian của nó.'
+  worker:
+    title: 'Công nhân hàng đợi'
+    state: 'Đang theo kịp'
+    version: 2.3.1
+    instances: '2 / 4'
+    description: 'Được tải một cách lười biếng — chỉ khi cuộn vào tầm nhìn — và phản hồi muộn, để cho vòng quay có thời gian hiển thị.'

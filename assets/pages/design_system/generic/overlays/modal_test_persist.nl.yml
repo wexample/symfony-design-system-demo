@@ -1,0 +1,15 @@
+page_title: 'Tabs met persistentie'
+tab:
+  overview: Overzicht
+  details: Details
+  settings: Instellingen
+  loading: Laadbalk
+content:
+  overview: 'Dit is het Overzicht tabblad. Wissel van tabblad en druk op F5 — dit tabblad blijft actief wanneer de overlay opnieuw opent.'
+  details: 'Dit is het Details tabblad. Het actieve tabblad wordt opgeslagen in de URL-hash, zodat het de pagina-herlading overleeft.'
+  settings: 'Dit is het Instellingen tabblad. Zowel de overlay (modaal/paneel) als het actieve tabblad worden hersteld vanuit de URL-hash.'
+  loading: 'Gebruik de knoppen hieronder om handmatig de laadbalkanimatie te starten. Deze balk verschijnt bovenaan de overlay wanneer een formulierinvoer bezig is.'
+loading:
+  start: Start
+  end: Voltooid
+  simulate: 'Simuleren (automatisch aanvullen)'

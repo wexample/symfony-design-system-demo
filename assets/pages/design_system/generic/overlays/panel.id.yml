@@ -1,0 +1,28 @@
+page_title: Panel
+page_icon: 'ph:bold/sidebar-simple-duotone'
+section:
+  persist:
+    description: 'Panel dengan tab. Buka, ganti tab, tekan F5 — panel akan terbuka kembali pada tab yang sama.'
+    button: 'Buka panel'
+  simple:
+    description: 'Tampilkan panel sederhana. Anda dapat menutupnya dengan Escape atau dengan mengklik di luar panel.'
+    button: 'Buka panel'
+  components:
+    description: 'Tampilkan panel dengan komponen dan pemicu toast. Escape dinonaktifkan, tetapi Anda masih bisa mengklik di luar untuk menutupnya.'
+    button: 'Buka panel'
+  medium:
+    description: 'Tampilkan panel dengan teks panjang sedang. Mengklik di luar tidak akan menutupnya.'
+    button: 'Buka panel'
+  long:
+    description: 'Tampilkan panel dengan teks panjang. Panel ini meminta konfirmasi sebelum menutup.'
+    button: 'Buka panel'
+  form_rendered:
+    description: 'Tampilkan formulir demo yang dirender di dalam panel. Escape dan klik di luar dinonaktifkan, dan akan meminta konfirmasi sebelum menutup jika formulir telah dimodifikasi.'
+    button: 'Buka panel'
+  form_ajax:
+    description: 'Tampilkan formulir demo yang dirender di dalam panel menggunakan AJAX. Escape dan klik di luar dinonaktifkan, dan akan meminta konfirmasi sebelum menutup jika formulir telah dimodifikasi.'
+    button: 'Buka panel'
+  recursive:
+    description: 'Buka halaman dialog di dalam dialog lain — pilih modal atau panel.'
+    button_modal: 'Buka dalam modal'
+    button_panel: 'Buka dalam panel'

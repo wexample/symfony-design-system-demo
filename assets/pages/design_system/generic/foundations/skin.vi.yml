@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Giao diện'
+page_icon: 'ph:bold/paint-brush'
+intro: 'Cách mọi thứ được vẽ ra, khi màu sắc và độ dày đã được xác định: các góc cạnh, độ sâu, các đường nét. Những mã này là trục `giao diện` của chủ đề — giao diện mặc định là những gì trang này hiển thị, và một giao diện khác là một tệp khác thiết lập cùng tên, với không có gì thay đổi bên dưới.'
+section:
+  radius:
+    title: 'Bán kính'
+    description: 'Không có, sau đó bốn bước mỗi bước gấp đôi bước bên dưới, sau đó là một hình viên thuốc. Hai bước cách nhau là khoảng cách giống nhau bất kể bạn đứng ở đâu trên thang đo, đó là lý do làm cho nó dễ đọc. Bước đầu tiên hầu như không có một cách cố ý: đó là điều mà một giao diện phẳng muốn khi một góc vuông thực sự đọc như chưa hoàn thành. Bất kỳ hình tròn nào hơn bước cuối cùng đều là một hình dạng muốn trở thành một hình tròn và tự nói như vậy — một hình tròn không phải là quyết định của giao diện.'
+  role:
+    title: 'Vai trò bán kính'
+    description: 'Một hình dạng không bao giờ đọc thang đo ở trên: nó đọc vai trò mà nó đảm nhận, và giao diện cho biết bước nào vai trò đó nhận được — không bao giờ là giá trị của một bước, điều đó sẽ khiến thang đo có hai nghĩa cùng lúc. Điều giữ một cái gì đó lại là một hộp, cho dù nó giữ văn bản, nội dung hay một thông điệp; điều gì tách biệt hai vùng của một trang thì không phải, và không làm tròn gì cả. Chuyển giao diện sang `mềm mại` và xem một phần điều khiển tách rời khỏi phần còn lại: một viên nang là đúng cho cái gì đó cao một dòng và vô lý cho một ô văn bản.'
+  shadow:
+    title: 'Đổ bóng'
+    description: 'Bốn độ sâu, từ một đường kẻ mảnh đến một bảng nổi. Một giao diện muốn một thế giới phẳng đặt cả bốn thành không và mọi bề mặt được nâng lên đều theo đó.'
+  border:
+    title: 'Đường viền'
+    description: 'Đường kẻ chính nó — độ rộng và kiểu dáng của nó. Màu sắc của nó không có ở đây: điều đó thuộc về bảng màu, điều này cho phép một giao diện loại bỏ một đường mà không biết nó sẽ có màu gì.'
+  separator:
+    title: 'Các dấu phân cách và vùng'
+    description: 'Hai đường kẻ phân biệt mọi thứ: giữa hai hàng của một thứ, và giữa hai vùng của một trang. Hai mươi hình dạng đọc đường đầu tiên, đó là lý do tại sao nó là một mã chứ không phải một quy tắc.'
+separator:
+  row: 'một hàng trong số khác'
+  region: 'một vùng của trang, được viền như vậy'
+role:
+  control: 'cao một dòng, và được nhấn'
+  box: 'giữ một cái gì đó'
+  media: 'hình ảnh và số liệu'
+  pill: 'được đọc như một viên nang'

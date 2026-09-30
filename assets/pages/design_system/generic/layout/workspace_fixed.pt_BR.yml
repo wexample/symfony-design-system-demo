@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Largura fixa'
+page_icon: 'ph:bold/arrows-in-line-horizontal'
+intro: 'As mesmas três regiões, mas a que você está lendo tem uma largura definida em vez de assumir uma — e a largura que ninguém quer vai para uma região vazia.'
+section:
+  sized:
+    title: 'Uma região com largura definida'
+    description: '`zone--narrow` com um passo de tamanho: a região tem essa largura e mantém essa largura, não importa o espaço que a janela tenha. É assim que um texto é mantido legível — uma coluna que cresce com a tela deixa de ser uma.'
+  slack:
+    title: 'Para que serve o espaço livre'
+    description: 'A última região não contém nada, e mantém seu espaço mesmo assim: vazio não é ausente, e um painel à espera é lido como um painel em vez de um buraco. Ele está lá para ocupar a largura que as regiões definidas recusam.'
+    more: 'Uma divisão entrega o que sobrou para quem quer. Com nada pedindo, as regiões definidas seriam esticadas ou empurradas para as bordas; com isso, elas mantêm sua largura e a página fica com o restante.'
+work:
+  size: 32rem

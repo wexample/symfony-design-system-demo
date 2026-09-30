@@ -1,0 +1,51 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Menus
+page_icon: 'ph:bold/list'
+section:
+  vue:
+    title: Vue
+    description: 'A linha de link e o separador como partes do vue. Diferente das linhas que leem uma rota, esses dois utilizam seu ícone e rótulo como opções, então nada do servidor está faltando.'
+  menu:
+    title: 'Botões do menu'
+  counts:
+    title: Contagens
+    description: 'Quantos de qualquer item levam ao final da linha. É uma pílula e nada mais — passe `count` ao lado do rótulo, em um item de dropdown ou em um item de menu vertical, e o item o coloca. Um item sem a chave não mostra nada.'
+  separators:
+    title: Separadores
+    description: 'Um separador é um item como os outros, com uma chave a mais: uma linha simples separa duas sequências de itens que não têm nada a ver uma com a outra, e a mesma linha dada uma palavra se torna o cabeçalho do que segue. Ambos os lados da pilha leem a mesma declaração — o terceiro menu aqui é o do vue.'
+  kinds:
+    title: 'O que um item pode ser'
+    description: 'Quatro tipos compartilham uma linha: uma palavra e um destino é um link, uma palavra e um estado é um alternador, uma palavra e filhos é um ramo, e uma linha simples é um separador. Nada declara seu tipo — isso vem do que o item carrega. Um alternador gasta seu espaço inicial em sua marca, então uma coluna deles mantém suas palavras alinhadas, e o painel permanece aberto sob ele: um menu de filtros é lido em grupos, não um de cada vez.'
+menu:
+  primary: 'Botão do menu'
+  filters: Filtros
+  filters_vue: 'Filtros, em vue'
+  counted: 'Com contagens'
+  counted_vue: 'Com contagens, em vue'
+  grouped: 'Itens agrupados'
+  grouped_vue: 'Agrupados, em vue'
+  group:
+    danger: 'Zona de perigo'
+    show: Mostrar
+  more: 'Mais ações'
+  invert: 'Inverter menu'
+  options:
+    top_left: 'Canto superior esquerdo'
+    top_right: 'Canto superior direito'
+  item:
+    report: Relatar
+    inbox: 'Caixa de entrada'
+    alerts: Alertas
+    settings: Configurações
+    logout: Sair
+    long: 'Com um título bem, bem, bem, bem longo'
+    stats: Estatísticas
+    profile: Perfil
+    delete: 'Deletar conta'
+    done: Concluído
+    running: 'Em execução'
+    failed: Falhou
+    sort: 'Ordenar por'
+    sort_name: Nome
+    sort_date: 'Última alteração'
+    docs: Documentação

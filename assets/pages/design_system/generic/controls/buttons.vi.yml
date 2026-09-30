@@ -1,0 +1,26 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Nút
+page_icon: 'ph:bold/cursor-click'
+section:
+  buttons:
+    title: 'Nút mặc định'
+  button_states:
+    title: 'Trạng thái nút'
+  link:
+    title: 'Liên kết nút'
+  vue:
+    title: Vue
+    description: 'Nút và liên kết giống như các phần vue, lấy cùng biểu tượng và nhãn, cho một trang xây dựng các điều khiển của nó trong khi chạy.'
+button:
+  primary: 'Nút chính'
+  success: 'Nút thành công'
+  danger: 'Nút nguy hiểm'
+  invert: 'Nút đảo ngược'
+  state:
+    default: 'Mặc định'
+    loading: 'Đang tải'
+    disabled: 'Bị vô hiệu hóa'
+    assisted: 'Được hỗ trợ'
+link:
+  more: 'Tìm hiểu thêm'
+  external: 'Liên kết bên ngoài'

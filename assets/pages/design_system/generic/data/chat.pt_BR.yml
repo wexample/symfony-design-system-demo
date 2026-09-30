@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Chat
+page_icon: 'ph:bold/chats-circle'
+chat:
+  title: 'Exemplo de chat'
+vue:
+  title: Vue
+  description: |
+    O mesmo thread e o mesmo compositor, desenhados pelo componente de chat da entidade. Ele contém uma coleção de entidades e não sabe o que elas são: o autor, o texto e a data são lidos através de projeções que uma subclasse sobrescreve, e uma mensagem enviada é processada pelo repositório como qualquer outra criação. A resposta é escrita uma vez que a solicitação é concluída, portanto não pode voltar na resposta à mensagem: ela chega à página através da assinatura ao vivo que esse thread mantém na sua sala.
+description:
+  body: |
+    Este playground de chat é usado para validar o ritmo das mensagens, o espaçamento e a densidade vertical antes do estilo final da interface. Mantenha este bloco intencionalmente verboso para que o layout tenha altura suficiente para simular um fluxo de conversa realista, incluindo linhas médias e longas, comportamento de quebra e pausas naturais de leitura em várias sentenças. O objetivo é fornecer uma base visual estável que futuros componentes de chat possam seguir, para que as medições permaneçam consistentes ao substituir este texto por mensagens reais de usuário e assistente.
+composer:
+  placeholder: 'Escreva uma mensagem...'
+  submit_label: 'Enviar mensagem'
+  action_plus_label: 'Adicionar conteúdo'
+  action_smiley_label: 'Inserir emoji'
+  multiline_value: |
+    Este é um rascunho de chat mais longo usado para visualizar o estado de múltiplas linhas. Ele se estende por várias linhas, então a diferença visual com o campo de uma linha é óbvia.
+messages:
+  user_1: |
+    Você pode resumir os itens de ação da sincronização de ontem e manter apenas as decisões que podemos executar esta semana?
+  user_2: |
+    Também mantenha a resposta curta porque isso será copiado para a barra lateral do gerente.
+  assistant_1: |
+    Claro. Posso fornecer um resumo conciso com prioridades, responsáveis e próximos pontos de verificação.
+  assistant_2: |
+    Vou manter apenas as decisões validadas e remover as perguntas abertas que ainda precisam ser descobertas.
+  assistant_3: |
+    Estrutura proposta: 1. Ações imediatas. 2. Dependências. 3. Riscos a serem monitorados.
+  assistant_4: |
+    Uma vez validada, essa estrutura pode se tornar o modelo padrão para o menu de chat no gerente.

@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Loader
+page_icon: 'ph:bold/spinner-gap'
+intro: 'Sesuatu sedang terjadi dan akhir dari itu tidak diketahui. Keduanya mengatakan banyak dan menolak untuk mengatakan lebih — di mana akhir diketahui, bar di tab berikutnya mengatakannya sebagai gantinya.'
+section:
+  spinner:
+    title: Spinner
+    description: 'Sebuah mesin sedang sibuk. Tiga ukuran, dan penataan inline untuk ketika ia berdiri dalam baris teks daripada dalam kotak sendiri.'
+  dots:
+    title: Titik
+    description: 'Sesuatu akan segera diungkapkan. Tiga ukuran yang sama, dan penataan yang sama — yang berubah adalah siapa yang ditunggu oleh pembaca.'
+  vue:
+    title: Vue
+    description: 'Keduanya juga dikirim sebagai vue partials, mengambil opsi yang sama, untuk halaman yang memutuskan sementara berjalan apakah ada yang perlu ditunggu.'
+spinner:
+  label: Memuat
+  inline: 'Memproses data'
+dots:
+  label: Menunggu
+  inline: 'Sisi lain sedang menulis'

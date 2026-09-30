@@ -1,0 +1,11 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Kode
+page_icon: 'ph:bold/code'
+intro: 'Sebuah bidang yang menyimpan kode, diberi warna sesuai tata bahasanya. Ini dilengkapi dengan symfony-coding dan tidak dengan sistem desain, yang hanya dipinjam: bingkainya adalah bidang, warnanya adalah token kode skema, garis saat ini dan pilihannya adalah nuansa skema — sehingga mengikuti wajah terang dan gelap seperti segala sesuatu di sekitarnya.'
+section:
+  server:
+    title: 'Bidang Server'
+    description: 'Sebuah textarea nyata, yang ditimpa oleh editor setelah halaman dijalankan. Textarea tetap menjadi bidang — diposting dengan formulir, dibicarakan oleh tumpukan formulir — sehingga formulir bekerja sama baik dengan atau tanpa itu. Pilih di beberapa garis, garis kursor di antara mereka: pilihan tetap terlihat.'
+  vue:
+    title: 'Bidang Vue'
+    description: 'Editor yang sama yang memegang model: v-model saat masuk dan keluar, bahasa sebagai prop yang dapat berubah saat bidang terbuka.'

@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Renkler
+page_icon: 'ph:bold/palette'
+intro: 'Hiçbir bileşen bir rengi adlandırmaz. Bir rolü adlandırır - bir yüzey, bir kenar, bir durum - ve tema, bu rolün her yüzünde nasıl görüneceğine karar verir. Başlıktan şemayı değiştirin ve aşağıdaki her renk örneğinin tek bir tanım bile yapılmadan hareket ettiğini görün.'
+section:
+  surfaces:
+    title: Yüzeyler
+    description: 'Sayfanın üzerinde bir yükseklik merdiveni. Açık yüzeyler, onları açıklıklarına göre sıralar; karanlık yüzeyler, her birinin arka plandan ne kadar yukarıda olduğunu dikkate alır - bu yüzden bir bileşen seviyeyi ister ve asla gri bir ton istemez.'
+  invert:
+    title: 'Ters düzeyler'
+    description: 'Arka planın üzerine yerleştirilen metin renginin yirmi adımı ve sistemdeki neredeyse her kenarın, sönük metnin ve üzerine gelme durumunun kaynağı. Seviye 1 neredeyse yok; seviye 20 metnin kendisidir.'
+  semantic:
+    title: 'Anlamsal aileler'
+    description: 'Renk aracılığıyla sayfadan metne okunan beş aile: seviye 1 sayfayı neredeyse renklendiren renk, seviye 17 tam renk, seviye 32 metni neredeyse renklendiren renk. Ortanın altındaki tonlar zeminlerdir; üstünde ise mürekkep bulunur, bu karanlık yüzeyde açılır ve açık yüzeyde koyulaşır. Bir bileşen seviye seçer, hex seçmez; bu da aynı mesajın her iki yüzeyde doğru bir şekilde okunmasını sağlar.'
+  categories:
+    title: 'Kategorik palet'
+    description: 'Yanındaki renk dışında hiçbir anlamı olmayan on üç renk: bir grafik serisi, bir dağılımın segmentleri, bir iş akışının aşamaları. İsimlendirilen, numaralandırılmayan - bir uygulama `cat-mint` seçer çünkü nane gibi görünür. Her biri, dolgu gibi her iki yüzeyde de sabit olan açık ve koyu bir varyantla gelir; bir dolgu üzerindeki mürekkep, renk açık olduğunda koyulaşır. Hangi kategori hangi renk olduğu uygulamanın seçimi, asla tasarım sisteminin değil.'
+  text:
+    title: Metin
+    description: 'Üç dikkat düzeyi. Ne okunduğu, neyin nitelik kazandırdığı ve yalnızca bakıldığında bulunan şey.'
+  borders:
+    title: Kenarlar
+    description: 'Ayrılan şeylere göre birbirinden ayırt edilen dört ağırlık: bir bölgedeki iki şey, bir sayfanın iki bölgesi veya bir alan ile arkasındaki şey arasındaki ayrım.'
+surface:
+  page: 'Sayfanın kendisi ve bölgeler arasındaki gösterim'
+  shell: 'Menü, başlık, alt bilgi'
+  zone: 'Bir sayfa bölgesinin üzerinde durduğu zemin'
+  one: 'Girişler ve alanlar'
+  two: 'Düğmeler, araç çubukları'
+  three: 'Bloklar, kartlar, modallar'
+text:
+  default: 'Okunan metin'
+  muted: 'Etiketler, meta, alt başlıklar'
+  subtle: 'Ayrıcılar ve boş durumlar'

@@ -1,0 +1,12 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bestanden
+page_icon: 'ph:bold/folder-open'
+intro: 'Een bestandsverkenner die de breedte van een pagina heeft. Hij weet niets van waar de bestanden vandaan komen: hij vraagt om de inhoud van een map en haalt bestandsentiteiten terug — dezelfde loader als een boom gebruikt — zodat een schijf, een index, een archief of een API allemaal hetzelfde lezen.'
+root: Bestanden
+section:
+  vue:
+    title: 'De verkenner'
+    description: 'Mappen aan de zijkant, de inhoud van de map als een lijst gesorteerd op elke kolom of als een raster; terug, vooruit en omhoog; een filter; selectie met de muis — ctrl, shift — en het toetsenbord — pijlen, Enter, Backspace, ctrl+A, Escape; meer gevraagd wanneer een map meer dan een pagina bevat. Dubbelklikken opent een map en geeft een bestand aan de pagina. De weergave en de volgorde worden onthouden.'
+  twig:
+    title: 'Getekend door de server'
+    description: 'Eén map, als een lijst of een raster, elk item een link: een map naar dezelfde pagina die erop geopend is — hier via ?folder= — een bestand naar waar de pagina het naartoe stuurt.'

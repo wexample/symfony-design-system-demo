@@ -1,0 +1,35 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Cây
+page_icon: 'ph:bold/tree-structure'
+section:
+  default:
+    title: 'Trình duyệt tệp'
+    description: 'Cấu trúc tổ chức là toàn bộ: một mục mở ra khi nó đang mở, và độ sâu của nó là điều định hình hàng trong khi đánh dấu vẫn trải dài toàn bộ chiều rộng.'
+  vue:
+    title: Vue
+    description: 'Cùng một đánh dấu, cùng một hình dạng, nhưng các thư mục mở và đóng: biểu tượng mũi tên là thứ gập một nút, và một cú nhấp chuột ở bất kỳ đâu trên hàng sẽ chọn mục và gửi nó lên như một sự kiện chọn.'
+  vue_workspace:
+    title: 'Vue, trong một không gian làm việc'
+    description: 'Trình duyệt như một ứng dụng: cây vue trong khu vực cuộn của một phân vùng, chứa nhiều hàng hơn chiều cao của khu vực và tên dài hơn chiều rộng của nó. Khu vực cuộn trên cả hai trục và thanh ngang giữ ở vị trí thấp nhất, bất kể hàng cuối cùng là gì.'
+  plain:
+    title: 'Không có biểu tượng'
+    description: 'Hình dạng không biết gì về tệp — một mục không có biểu tượng và không có liên kết hiển thị dưới dạng văn bản thuần túy.'
+explorer:
+  scope:
+    project: 'Dự án'
+    packages: Gói
+    scratches: 'Ghi chú'
+    changed: 'Tệp đã thay đổi'
+  option:
+    filters: 'Bộ lọc'
+    sort: 'Sắp xếp theo tên'
+    hidden: 'Hiện tệp ẩn'
+  action:
+    new: 'Tệp mới'
+    locate: 'Chọn tệp đã mở'
+    collapse: 'Thu gọn tất cả'
+  body: 'Cây không có chiều rộng và chiều cao riêng: khu vực bên cạnh nó là một khu vực bình thường, và mỗi bên cuộn riêng lẻ.'
+plain:
+  root: Gốc
+  child: 'Con đầu tiên'
+  sibling: 'Con thứ hai'

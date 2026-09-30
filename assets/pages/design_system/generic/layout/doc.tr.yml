@@ -1,0 +1,15 @@
+page_title: 'Doküman düzeni'
+page_icon: 'ph:bold/book-open'
+intro: 'Doküman düzeni, belgeler için iki sütunlu bir düzen — solda açıklama, sağda kod — mobilde tek sütuna daralan bir yapıdır.'
+section:
+  structure:
+    title: Yapı
+    body: '.doc dış sarmalayıcı olarak ve her satır için .doc-section kullanın. Her bölümde bir .doc-section--description ve bir .doc-section--code sütunu bulunur.'
+example:
+  demo_placeholder: 'Demo içeriği'
+  one:
+    title: 'Temel bölüm'
+    body: 'Tipik bir bölüm, bir açıklama bloğunu bir kod parçası ile eşleştirir.'
+  two:
+    title: 'Kod bloğu ile'
+    body: '.doc-section--code içerisinde sözdizimi vurgulamalı örnekler için code-block kısmını kullanın.'

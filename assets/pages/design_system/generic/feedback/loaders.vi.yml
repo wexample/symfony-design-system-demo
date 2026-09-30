@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Loaders
+page_icon: 'ph:bold/spinner-gap'
+intro: 'Có điều gì đó đang diễn ra và không biết khi nào thì kết thúc. Cả hai đều nói được điều đó và từ chối nói thêm — nơi mà kết thúc đã được biết, thanh trên tab tiếp theo sẽ nói thay cho nó.'
+section:
+  spinner:
+    title: Spinner
+    description: 'Một máy đang bận rộn. Ba kích thước, và một căn chỉnh trong dòng cho khi nó đứng trong một dòng văn bản thay vì trong một hộp riêng.'
+  dots:
+    title: Dots
+    description: 'Có điều gì đó sắp được nói ra. Cả ba kích thước như nhau, và các căn chỉnh giống nhau — điều thay đổi là ai là người đọc đang chờ đợi.'
+  vue:
+    title: Vue
+    description: 'Cả hai cũng được đóng gói dưới dạng các phần vue, nhận cùng các tùy chọn, cho một trang quyết định trong khi chạy xem có điều gì để chờ đợi hay không.'
+spinner:
+  label: 'Đang tải'
+  inline: 'Đang xử lý dữ liệu'
+dots:
+  label: 'Đang chờ'
+  inline: 'Bên kia đang viết'

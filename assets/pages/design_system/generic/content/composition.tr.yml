@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bileşim
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: 'Resim ve kod bloğu vue parçaları olarak, aynı seçenekleri alır.'
+  prose:
+    title: 'Anlatı makalesi'
+  image:
+    title: Görseller
+  media:
+    title: 'Metinli medya'
+  dropcap:
+    title: 'Büyük harf'
+  meta_bar:
+    title: 'Meta çubuğu'
+    stack_note: 'Farklı bir meta veri kategorisini gruplamak için ikinci bir çubuk aşağıda yığılabilir — burada, taksonomi ve analiz.'
+    action_link_note: 'Etkileşimli öğeler için arka plana, gölgeye, soluk renge ihtiyaç duymadan çubuğa entegre olacak şekilde eylem bağlantısı kullanın.'
+image:
+  intro: 'content_image() işlevi varsayılan olarak loading="lazy" ile bir img oluşturur ve bir başlık sağlandığında bunu bir figure elemanının içine sarar.'
+  simple:
+    label: 'Başlıksız — sade bir img, tam genişlik.'
+    alt: 'Yer tutucu görsel — başlık yok'
+  captioned:
+    label: 'Başlık ile — figcaption ile sarılmış bir figure.'
+    alt: 'Yer tutucu görsel — başlık ile'
+    caption: 'Bir figcaption ile bir figure — kaynakları belirtmek veya görsel içeriğe bağlam eklemek için kullanın.'
+article:
+  toc:
+    label: 'Bu makalede'
+  title: 'Tasarım tokenlarını anlama'
+  intro: 'Tasarım tokenları, bir ürün üzerindeki görsel kararlar için tek gerçek kaynakdır. Renk, boşluk, tipografi ve hareketi adlandırılmış değişkenlere kodlayarak bileşenlerin tüketmesini sağlar.'
+  section_one:
+    title: 'Tokenlar neden önemlidir'
+    body_one: 'Tokenlar olmadan, birincil marka renginde bir değişiklik yapmak yüzlerce dosyada avlanmayı gerektirir. Tokenlar ile, bir değişken güncellemesi her yere yayılır — butonlardan uyarılara, navigasyon çubuklarına kadar.'
+    body_two: "Tokenlar ayrıca tasarım araçları ile kod arasındaki boşluğu kapatır. Bir tasarımcı Figma'da bir rengi <strong>surface-brand</strong> olarak adlandırır; bir geliştirici CSS'de <code>var(--surface-brand)</code> kullanır. Aynı dili konuşuyorlar."
+  section_two:
+    title: 'Pratik örnekler'
+    body: 'Arka plana, bir kenarlığa ve metne ihtiyaç duyan bir bileşeni düşünün. <code>#1a56db</code>, <code>#e1effe</code> ve <code>#1e429f</code> gibi sabit kodlama yerine, bileşen <code>--color-primary</code>, <code>--surface-primary-subtle</code> ve <code>--text-primary-strong</code> referansını kullanır. Marka geliştiğinde, palet değişir — bileşen değişmez.'
+  list_title: 'Token kategorileri'
+  list:
+    - 'Renk — marka, anlamsal ve nötr paletler'
+    - "Boşluk — 2px'den 64px'e kadar tutarlı bir ölçek"
+    - 'Tipografi — yazı tipi boyutları, ağırlıkları ve satır yükseklikleri'
+    - 'Kenar yarıçapı — keskin köşelerden tamamen yuvarlaklara'
+    - 'Gölge — derinlik ve hiyerarşi için yükseklik seviyeleri'
+    - 'Hareket — yumuşatma eğrileri ve süre adımları'
+  quote: 'İnternette bulunan alıntıların çoğu muhtemelen bir yapay zeka tarafından oluşturulmuştur.'
+  quote_author: 'Albert Einstein'
+  cta: 'Tam token referansını okuyun'
+media:
+  alt: 'Metinle birlikte yer tutucu görsel'
+  caption: 'Düzenin üçte birini kaplayan görsel.'
+  body_one: 'Bir resmi ve metni yan yana yerleştirmek için content--media kullanın. Görsel genişliğin üçte birini, metin ise iki üçte birini alır.'
+  body_two: 'Bu düzen, alıntılar, illüstrasyonlu tanımlar veya resmin metni domine etmeden desteklediği herhangi bir kısa editoryal blok için uygundur.'
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: 'Alice Martin'
+  date: '18 Temmuz 2026'
+  read_time: '4 dk okuma'
+  likes: '142 beğeni'
+  category: 'UX Tasarımı'
+  tag: 'Devam ediyor'
+  views: '3 847 görüntüleme'
+action:
+  share: Paylaş

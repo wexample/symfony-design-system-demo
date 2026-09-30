@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Grafieklog
+page_icon: 'ph:bold/git-fork'
+intro: 'Items in een afstamming, de nieuwste eerst, getekend op gekleurde banen: waar een lijn zich splitst, waar twee weer samenkomen. Elk item geeft zijn ouders aan; de banen volgen. Wat een rij naast de grafiek toont is vrij — een titel, refs als capsules, wie, wanneer, een korte naam — dus een git geschiedenis is een van de toepassingen onder anderen.'
+section:
+  history:
+    title: 'Een geschiedenis'
+    description: 'Een feature branch samengevoegd, een andere open gelaten, een tag op een release. Elke baan behoudt zijn kleur van waar hij begint tot waar hij eindigt.'
+  other:
+    title: 'Iets anders dan git'
+    description: 'De versies van een document, waarvan er een aan de zijkant is beoordeeld voordat deze in de volgende werd samengevoegd. De component weet niets van commits.'
+  vue:
+    title: 'In vue'
+    description: 'Dezelfde geschiedenis in een vue-boom, de banen opnieuw getekend als items binnenkomen aan de kop.'
+  git:
+    title: 'De geschiedenis van deze applicatie'
+    description: "Gelezen uit de repository door symfony-coding's git_graph_items(), via de gedeelde lezer die nooit in de weg van git komt."
+history:
+  merge_search: 'Voeg de zoekbranch samen'
+  search_filters: 'Voeg filters toe aan de zoekopdracht'
+  fix_header: 'Herstel de koptekst op kleine schermen'
+  try_theme: 'Probeer een donkerder thema'
+  search_index: 'Indexeer de documenten'
+  release: 'Release 2.1.0'
+  search_start: 'Begin de zoekopdracht'
+  initial: 'Eerste commit'
+versions:
+  v4: 'Versie 4, met de aangebrachte review'
+  current: huidige
+  review: 'Wijzigingen van de reviewer'
+  review_ref: review
+  v3: 'Versie 3'
+  v2: 'Versie 2'
+  v1: 'Versie 1'

@@ -1,0 +1,115 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bloklar
+page_icon: 'ph:bold/squares-four'
+tone:
+  body: 'Zemin bloğun kendine ait kalır, yalnızca ön kenar renk taşır.'
+section:
+  tone:
+    title: 'Bir tonu taşıyan blok'
+    description: 'Bir durumun — veya bir kategorinin — ön kenarda bir çubuk olarak rengi, ve başka bir şey değil: bir mesajın taşıdığı aynı çubuk, boyalı zemin olmadan, böylece bir listesinin bir liste olarak okunmasını sağlar ve bir alarm olarak değil. Her blok bunu alır, bir blok üzerinde duran bir çubuk da dahil.'
+  default:
+    title: 'Temel bloklar'
+  advanced:
+    title: 'Gelişmiş bloklar'
+  aside:
+    title: 'Sabit yan sütun'
+    description: 'Kalan genişliği absorbe eden bir gövdenin yanında, --boyut ölçeğine göre boyutlandırılmış dar bir sütun.'
+  card:
+    title: Kartlar
+  link:
+    title: 'Bir bağlantı olan blok'
+    description: 'Tüm kart bağlantıdır — birkaç kart arasından birini seçerek yapılan bir seçim için: bir plan, bir dal, bir şablon. Metin olarak okunur, sönük bir eylem olarak değil; imleç altında zemini bir nüans alır ve kenarı sıkılaşır, klavye her kontrolün giydiği odak halkasıyla onu bulur.'
+  figure:
+    title: Figürler
+    description: 'Ortada, tek bir büyük değer veya simge. Gösterge panelleri sayaçları ve durum kutucukları için kullanılır — genişliği ne olursa olsun kutucuğun kare kalmasını sağlamak için block--square ekleyin.'
+  stacks:
+    title: Yığınlar
+  stack_horizontal:
+    title: Yatay
+    description: 'Eşit sütunlar, tam genişlik, taşma durumunda sarılır.'
+  stack_vertical:
+    title: Dikey
+    description: 'Yığılmış satırlar, tam genişlik, eşit boşluk.'
+  stack_split:
+    title: Bölünmüş
+    description: 'İlk çocuk büyür, son çocuk sabit kalır — lider + eylem satırları için kullanılır.'
+  stack_nested:
+    title: 'İç içe'
+    description: 'Dikey yığınlar içeren yatay yığın — tipik gösterge panosu ızgarası.'
+stack:
+  item:
+    one: Bir
+    two: İki
+    three: Üç
+    four: Dört
+    lead: 'Bu lider metinde eylemi tanımlayın.'
+    action: Eylem
+block:
+  title: 'Blok başlığı'
+  no_padding: 'Kenar boşluğu olmayan blok (block--body kullanılarak).'
+  one:
+    title: 'Birincil blok'
+    description: 'Bir başlık ve gövde metni olan bir blok.'
+  two:
+    title: 'İkincil blok'
+    description: 'Boşluğu göstermek için başka bir blok.'
+  three:
+    title: 'Üçüncül blok'
+    description: 'Satırdaki üçüncü blok.'
+  four:
+    title: 'Dördüncül blok'
+    description: 'Düzen demosu için dördüncü blok.'
+  advanced:
+    title: 'Pipeline projeksiyonu'
+    status: Hazır
+    description: 'Bu blok başlık alanları ve içeriği tek bir yeniden kullanılabilir yapıda birleştirir.'
+    details: 'Operatörler mevcut bağlamı terk etmeden eklenebilir.'
+  zones:
+    main:
+      title: 'Ana alan'
+      description: 'Ana içerik standart boşlukla doğal olarak büyüyebilir.'
+    aside:
+      title: 'Yan alan'
+      description: 'Bu yan alan, tamamlayıcı içerikleri vurgulamak için açık bir arka plan kullanır.'
+  zones_three:
+    title: 'Üç alan düzeni'
+    status: Taslak
+    left:
+      title: 'Sol panel'
+      description: 'İkincil navigasyon veya meta veriler burada yer alabilir.'
+    main:
+      title: 'Ana içerik'
+      description: 'Birincil bilgi okunabilirlik için ortada kalır.'
+    right:
+      title: 'Sağ panel'
+      description: 'Bağlamsal eylemler ve içgörüler bu tarafında gruplandırılabilir.'
+    footer:
+      meta: '2 dakika önce güncellendi'
+      action: 'Ayrıntıları aç'
+figure:
+  projections: Projeksiyonlar
+  uptime: 'Çalışma süresi'
+  status: Canlı
+  framed:
+    title: Verim
+    label: 'Saniyedeki olay sayısı'
+tab:
+  one: 'Genel Bakış'
+  two: Etkinlik
+  three: Ayarlar
+button:
+  create: 'Projeksiyon oluştur'
+  refresh: 'Verileri yenile'
+  export: 'Dışa aktar'
+action:
+  add_projection: 'Projeksiyon ekle'
+link:
+  starter:
+    title: Başlangıç
+    description: 'Bir kişi, temel unsurlar, ödenecek bir şey yok.'
+  team:
+    title: Takım
+    description: 'Aynı şeyler üzerinde çalışan birkaç kişi.'
+  company:
+    title: Şirket
+    description: 'Her takım, bir organizasyonun talep ettiği kontrollerle.'

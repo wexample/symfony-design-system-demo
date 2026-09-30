@@ -1,0 +1,37 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Hướng dẫn'
+page_icon: 'ph:bold/arrows-left-right'
+intro: 'Cùng một mẫu hai lần, từ trái sang phải và từ phải sang trái. Không có gì ở đây được viết cho phía phải sang trái: mỗi bảng kiểu đều nói về đầu và cuối của một dòng, vì vậy một khối được `dir="rtl"` — hoặc một trang bằng tiếng Ả Rập — tự động phản chiếu. Mũi tên chỉ theo hướng ngược lại, núm của một công tắc di chuyển theo hướng khác, một menu mở về phía cuối, và một email hoặc một đường dẫn tiếp tục đọc từ trái sang phải.'
+side:
+  ltr: 'Từ trái sang phải'
+  rtl: 'Từ phải sang trái'
+sample:
+  navigation: 'Điều hướng'
+  controls: 'Điều khiển'
+  data: 'Dữ liệu'
+  text: 'Văn bản'
+step:
+  account: 'Tài khoản'
+  address: 'Địa chỉ'
+  payment: 'Thanh toán'
+action:
+  previous: Trước
+  next: Sau
+  menu: Menu
+menu:
+  report: 'Báo cáo'
+  settings: 'Cài đặt'
+control:
+  notifications: 'Thông báo'
+  digest: 'Tóm tắt hàng tuần'
+  upload: 'Tải lên'
+field:
+  owner: 'Chủ sở hữu'
+  email: Email
+  site: 'Trang web'
+  amount: 'Số tiền'
+text:
+  lead: 'Một đoạn mở đầu mang quy tắc của nó từ phía mà dòng bắt đầu.'
+  mixed: 'Giá trị giữ hướng của riêng chúng trong một câu — hỏi layla.haddad@example.test, chạy'
+  marker: 'Đã gửi'
+  link: 'Tài liệu hướng dẫn'

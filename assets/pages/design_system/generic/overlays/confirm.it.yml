@@ -1,0 +1,41 @@
+page_title: Conferma
+section:
+  short:
+    description: 'Conferma con testo breve (overlay).'
+    button: 'Apri conferma'
+    title: 'Si prega di confermare'
+    message: 'Vuoi continuare?'
+    result_title: 'Risultato conferma'
+    result_prefix: 'Risultato:'
+  toast_short:
+    description: 'Conferma con testo breve (toast).'
+    button: 'Apri conferma'
+    title: 'Toast di conferma'
+    message: 'Continuare con il toast?'
+    result_title: 'Risultato conferma toast'
+    result_prefix: 'Risultato:'
+  medium:
+    description: 'Conferma con testo medio (overlay).'
+    button: 'Apri conferma'
+    title: 'Conferma media'
+  long:
+    description: 'Conferma con testo lungo (overlay).'
+    button: 'Apri conferma'
+    title: 'Conferma lunga'
+  toast_medium:
+    description: 'Conferma con testo medio (toast).'
+    button: 'Apri conferma'
+    title: 'Toast di conferma media'
+  toast_long:
+    description: 'Conferma con testo lungo (toast).'
+    button: 'Apri conferma'
+    title: 'Toast di conferma lunga'
+  custom:
+    description: 'Azioni di conferma personalizzate (impilamento).'
+    button: 'Apri conferma'
+    title: 'Conferma impilata'
+    message: "Apri un'altra conferma o chiuderle tutte?"
+    action:
+      new: 'Nuova conferma'
+      close_all: 'Chiudi tutte le conferme'
+      cancel: Annulla

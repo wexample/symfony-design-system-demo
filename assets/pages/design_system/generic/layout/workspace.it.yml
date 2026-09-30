@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Spazio di lavoro'
+page_icon: 'ph:bold/sidebar-simple'
+intro: 'Questa pagina è un esempio: ciò che stai leggendo si trova al centro di tre aree, disposte affiancate nel corpo della pagina.'
+section:
+  gap:
+    title: 'Il gap è il separatore'
+    description: "Nada è disegnato tra due aree. Ciò che le distingue è lo spazio che lasciano tra di loro, attraverso il quale la pagina mostra — lo stesso terreno su cui si trovano il menu e l'intestazione. Ogni area porta il proprio, che è il terreno che un corpo ha sempre avuto."
+  each:
+    title: 'Ognuna per conto suo'
+    description: "Le due colonne mantengono la larghezza che hanno e il centro prende ciò che resta. Scorri una delle tre e le altre due rimangono dove sono: un'area gestisce il proprio overflow, e la pagina non ne gestisce nessuno."
+    more: "Un'area non sa nulla dei suoi vicini. L'esploratore a sinistra è una suddivisione a sé — una barra che rimane, un albero che scorre sotto di essa — e avrebbe la stessa forma in qualsiasi altra parte della pagina."
+  size:
+    title: 'Dimensionare una di esse'
+    description: "L'area a sinistra porta un `zone-resizer`: una maniglia che riempie il gap accanto a essa, che non disegna nulla — il cursore indica che si muove. Trascinala, oppure metti a fuoco e usa le frecce; un doppio clic restituisce all'area la larghezza che la pagina le ha dato."
+    more: "Una maniglia dimensiona un'area che ha una dimensione — una data di una larghezza piuttosto che prendere ciò che resta — e quella flessibile accanto assorbe la differenza. La larghezza viene ricordata sotto il nome dell'area, quindi torna con la pagina, qui in tutti e tre i layout poiché è la stessa area a muoversi."
+editor:
+  state: Salvato
+inspector:
+  title: Dettagli
+  field:
+    path:
+      key: Percorso
+    size:
+      key: Dimensione
+    changed:
+      key: Modificato
+      value: '3 minuti fa'

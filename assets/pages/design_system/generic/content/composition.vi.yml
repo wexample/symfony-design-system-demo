@@ -1,0 +1,69 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Thành phần'
+page_icon: 'ph:bold/layout'
+section:
+  vue:
+    title: Vue
+    description: 'Hình ảnh và khối mã như các phần vue, sử dụng cùng một tùy chọn.'
+  prose:
+    title: 'Bài viết văn xuôi'
+  image:
+    title: 'Hình ảnh'
+  media:
+    title: 'Phương tiện với văn bản'
+  dropcap:
+    title: 'Chữ cái đầu dòng'
+  meta_bar:
+    title: 'Thanh meta'
+    stack_note: 'Một thanh thứ hai có thể được xếp chồng dưới để nhóm một loại siêu dữ liệu khác — ở đây, phân loại và phân tích.'
+    action_link_note: 'Sử dụng liên kết hành động cho các mục tương tác cần hòa vào thanh — không có nền, không có bóng, màu nhạt.'
+image:
+  intro: 'Hàm content_image() hiển thị một img với loading="lazy" theo mặc định, và bao bọc nó trong một phần tử figure khi có chú thích được cung cấp.'
+  simple:
+    label: 'Không có chú thích — một img đơn giản, toàn chiều rộng.'
+    alt: 'Hình ảnh mẫu — không có chú thích'
+  captioned:
+    label: 'Có chú thích — được bao bọc trong một figure với figcaption.'
+    alt: 'Hình ảnh mẫu — có chú thích'
+    caption: 'Một figure với một figcaption — sử dụng nó để ghi công nguồn hoặc thêm ngữ cảnh cho nội dung hình ảnh.'
+article:
+  toc:
+    label: 'Trong bài viết này'
+  title: 'Hiểu biết về token thiết kế'
+  intro: 'Token thiết kế là nguồn thông tin duy nhất cho các quyết định hình ảnh trên một sản phẩm. Chúng mã hóa màu sắc, khoảng cách, kiểu chữ và chuyển động thành các biến có tên mà các thành phần sử dụng.'
+  section_one:
+    title: 'Tại sao token quan trọng'
+    body_one: 'Nếu không có token, việc thay đổi màu sắc thương hiệu chính cần phải tìm kiếm qua hàng trăm tệp. Với token, một lần cập nhật biến sẽ lan tỏa khắp nơi — từ nút bấm đến thông báo đến thanh điều hướng.'
+    body_two: 'Token cũng cầu nối khoảng cách giữa công cụ thiết kế và mã. Một nhà thiết kế đặt tên một màu là <strong>surface-brand</strong> trong Figma; một nhà phát triển sử dụng <code>var(--surface-brand)</code> trong CSS. Họ nói cùng một ngôn ngữ.'
+  section_two:
+    title: 'Ví dụ thực tế'
+    body: 'Xem xét một thành phần cần một nền, một viền, và văn bản. Thay vì mã cứng <code>#1a56db</code>, <code>#e1effe</code>, và <code>#1e429f</code>, thành phần tham chiếu <code>--color-primary</code>, <code>--surface-primary-subtle</code>, và <code>--text-primary-strong</code>. Khi thương hiệu phát triển, bảng màu thay đổi — thành phần không thay đổi.'
+  list_title: 'Danh mục token'
+  list:
+    - 'Màu sắc — bảng màu thương hiệu, ngữ nghĩa và trung tính'
+    - 'Khoảng cách — một thang đo đồng nhất từ 2px đến 64px'
+    - 'Kiểu chữ — kích thước phông, trọng số và chiều cao dòng'
+    - 'Bán kính — từ góc sắc nét đến tròn hoàn toàn'
+    - 'Bóng — mức độ nâng cho chiều sâu và phân cấp'
+    - 'Chuyển động — đường cong và bước thời gian'
+  quote: 'Hầu hết các trích dẫn tìm thấy trên Internet có lẽ được tạo ra bởi AI.'
+  quote_author: 'Albert Einstein'
+  cta: 'Đọc tài liệu tham khảo đầy đủ về token'
+media:
+  alt: 'Hình ảnh mẫu bên cạnh văn bản'
+  caption: 'Hình ảnh chiếm một phần ba bố cục.'
+  body_one: 'Sử dụng content--media để đặt một hình ảnh và văn bản bên cạnh nhau. Hình ảnh chiếm một phần ba chiều rộng, văn bản chiếm hai phần ba.'
+  body_two: 'Bố cục này phù hợp cho các trích dẫn, định nghĩa minh họa, hoặc bất kỳ khối biên tập ngắn nào mà hình ảnh củng cố nội dung mà không chiếm ưu thế.'
+dropcap:
+  paragraph_one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  paragraph_two: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+meta:
+  author: 'Alice Martin'
+  date: '18 tháng 7, 2026'
+  read_time: 'Đọc trong 4 phút'
+  likes: '142 lượt thích'
+  category: 'Thiết kế UX'
+  tag: 'Đang tiến hành'
+  views: '3 847 lượt xem'
+action:
+  share: 'Chia sẻ'

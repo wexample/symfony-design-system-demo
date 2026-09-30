@@ -1,0 +1,75 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Nhập liệu'
+page_icon: 'ph:bold/textbox'
+intro: 'Mỗi trường mà hệ thống cung cấp, trên một trang. Điều mà chúng có điểm chung ngoài hình dạng của chúng là một hợp đồng: mỗi trường có thể được giao cho một thứ không phải là người đọc, cái mà sẽ điền và trả lại nó.'
+section:
+  assisted:
+    title: 'Hỗ trợ'
+    description: 'Một trường có thể được tiếp quản — bởi một đại lý, bởi bất cứ thứ gì biết viết gì. Khi nó được giữ, nó nói như vậy, ngừng phản hồi với bàn phím và con trỏ, và giá trị xuất hiện theo cách mà trường quyết định: viết ra cho một từ, chọn cho một tùy chọn, đánh dấu cho một công tắc. Hỗ trợ là tạm thời theo bản chất; một trường được hỗ trợ là một trường không ai có thể sử dụng.'
+  fields:
+    title: 'Các trường'
+    description: 'Một trường cho mỗi loại, một lần. Nhấn Phát ở trên và chúng sẽ được điền lần lượt, bởi cùng một cuộc gọi mà một đại lý sẽ thực hiện — đó là cách duy nhất để biết hợp đồng có hiệu lực cho tất cả chúng.'
+  actions:
+    title: 'Nút trong một mẫu'
+    description: 'Một nút thực hiện một hành động thay vì một giá trị, vì vậy không có gì cho một đại lý viết vào nó.'
+  code:
+    title: 'Một mã, trong ô'
+    description: 'Một trường thực sự dưới các ô, vì vậy máy chủ đọc một giá trị và trình duyệt giữ những gì nó đã làm: một mã dán sẽ đến nguyên vẹn, một điện thoại cung cấp mã mà nó nhận được, phím xóa sẽ trở về. Đã được điền, nó tự gửi mẫu của mình — tắt trên trang này, nơi không có chỗ nào để gửi nó.'
+  select:
+    title: 'Chọn, tự nó'
+    description: 'Hai lựa chọn tùy chỉnh bên ngoài một nhóm mẫu, như một thanh công cụ hoặc một thanh lọc đặt chúng.'
+  switch:
+    title: 'Công tắc, tự nó'
+    description: 'Nhãn ở hai bên, biểu tượng bên trong, và trạng thái đã chọn.'
+  switch_tone:
+    title: 'Một công tắc có tông màu, và một cái hỏi'
+    description: 'Khi được bật, một công tắc có thể mang màu sắc của một trạng thái hoặc của một loại thay vì của liên kết. Một công tắc kích hoạt một cái gì đó có hậu quả mang `cảnh báo`, và hỏi trước: nếu bị từ chối, nó sẽ giữ tắt. Việc tắt không bao giờ bị chất vấn. Dù sao đi nữa, nó nói `switch:change` với trang.'
+  switch_vue:
+    title: 'Công tắc, trong vue'
+    description: 'Công tắc giống nhau bên trong một cây vue, nơi trạng thái đã chọn là trạng thái và không phải là một thuộc tính dữ liệu mà một kịch bản lật lại.'
+assisted:
+  hint: 'Một đại lý điền các trường bên dưới, từng cái một.'
+  play: Phát
+  reset: 'Đặt lại'
+field:
+  text: 'Họ và tên'
+  textarea: 'Địa chỉ'
+  email: E-mail
+  url: Website
+  password: 'Mật khẩu'
+  code: 'Mã xác minh'
+  number: Tuổi
+  date: 'Ngày sinh'
+  time: 'Thời gian ưa thích'
+  datetime: 'Cuộc hẹn'
+  select: 'Quốc gia'
+  radio: 'Liên hệ qua'
+  switch: 'Gửi cho tôi bản tin'
+  file: 'Giấy tờ tùy thân'
+  emoji: 'Tâm trạng'
+  button: 'Một nút'
+  submit: Gửi
+placeholder:
+  text: 'Maya Lindqvist'
+  textarea: 'Đường, mã bưu điện, thành phố'
+  email: maya@example.com
+  url: 'https://example.com'
+choice:
+  one: 'Thụy Điển'
+  two: 'Bồ Đào Nha'
+  three: 'Nhật Bản'
+code:
+  numeric: 'Sáu chữ số, như đã gửi qua e-mail'
+  backup: 'Một mã sao lưu, chữ cái và chữ số'
+  vue: 'Bốn chữ số, trong vue'
+switch:
+  tone:
+    success: 'Đã đồng bộ'
+    mint: 'Đã gán nhãn'
+    risky: 'Xuất bản khi lưu'
+  confirm:
+    title: 'Xuất bản khi lưu?'
+    message: 'Mỗi lần lưu sẽ được xuất bản ngay lập tức, không có kiểm tra nào ở giữa.'
+    accept: Bật
+  label_right: 'Kích hoạt tính năng'
+  label_left: 'Nhãn bên trái'

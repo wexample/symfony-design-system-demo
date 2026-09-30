@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Ayakta Kalmak'
+page_icon: 'ph:bold/broadcast'
+intro: 'Bir koleksiyon göründüğünde bir kez okunur ve sonra dünya devam eder. Bunun hakkında duyduğu üç yol var — bunlar bir kez ve sonsuza dek seçilecek alternatifler değil, bir koleksiyonun durumunun sunduklarıdır. Aynı tablo bunların herhangi birini veya birkaçını alır ve alttaki hiçbir şey hangi sesin geldiğini bilmez.'
+section:
+  events:
+    title: 'Bir uygulama olayı'
+    description: 'Bu sayfanın kendisinin yarattığı bir değişiklik: bir eylem gerçekleştiren bir buton, geri dönen bir form. Kim çalarsa çalsın tablodan hiçbir şey bilmez ve tablo da kimin çaldığını bilmez — sadece bir isim paylaşırlar ve bu kadar. Hiçbir maliyeti yoktur ve sunucuya ihtiyaç duymaz.'
+  live:
+    title: 'Canlı bir kaynak'
+    description: 'Sunucunun yayımlayacak bir konusu olduğunda, koleksiyon, onun koleksiyonu olduğu varlığı dinler — çalışmaları için bir süreç, mesajları için bir oturum — ve kendi satırlarından asla dinlemez. Henüz var olmayan bir satırın konusu yoktur ve görünen satır, okuyucunun beklediği tam olarak odur. Demo için yayımlayacak bir sunucu yok, bu yüzden buton mesajı oynatır.'
+  polling:
+    title: Anket
+    description: 'Bir konu yoksa veya arada sırada yapılan bir gidiş-dönüş, açık tutulan bir abonelikten daha ucuzsa. Bu her üç saniyede bir okur ve sekme arka planda iken durur — kimsenin bakmadığı bir sayfa, kimsenin okutmasına ihtiyaç duyulan bir sayfadır.'
+  none:
+    title: 'Hiçbir şey yok'
+    description: 'Varsayılan. Bir koleksiyon bir kez okur ve olduğu gibi kalır, bu da gösterdiklerinin okuyucunun arkasında değişmediği her durumda doğru cevaptır.'
+  shape:
+    title: 'Ne şekilde olursa olsun'
+    description: 'Bunların hiçbiri tabloya ait değildir. Aynı üç yol, bir çubuk listesi, bir sohbet dizisi, bir koleksiyonu okuyan her şeyi sunar — bir koleksiyonu gerçek kılan şey ile görünümünün iki ayrı kararıdır. Bu bir çubuk listesi, anket.'

@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Aparência
+page_icon: 'ph:bold/paint-brush'
+intro: 'Como as coisas são desenhadas, uma vez que a cor e a densidade estão definidas: os cantos, a profundidade, as linhas. Esses tokens são o eixo `aparência` do tema — a aparência padrão é o que esta página mostra, e outra aparência é outro arquivo configurando os mesmos nomes, sem nada a mudar abaixo.'
+section:
+  radius:
+    title: Raízes
+    description: 'Nenhuma, depois quatro etapas cada uma o dobro da anterior, depois uma cápsula. Duas etapas de distância é a mesma distância, onde quer que você esteja na escala, o que a torna legível. A primeira etapa é quase imperceptível de propósito: é o que uma aparência plana deseja quando um verdadeiro ângulo reto parece inacabado. Qualquer coisa mais arredondada que a última etapa é uma forma que quer ser um círculo e assim se manifesta — um círculo não é uma decisão de aparência.'
+  role:
+    title: 'Funções do raio'
+    description: 'Uma forma nunca lê a escala acima: ela lê a função que desempenha, e a aparência diz qual etapa essa função recebe — nunca o valor de uma etapa, o que faria a escala significar duas coisas ao mesmo tempo. O que sustenta algo é uma caixa, seja ela texto, conteúdo ou uma mensagem; o que separa duas regiões de uma página não é nada, e não arredonda nada. Mude a aparência para `suave` e veja um controle se separar do resto: uma cápsula é adequada para algo com uma linha de altura e absurda para uma área de texto.'
+  shadow:
+    title: Sombras
+    description: 'Quatro profundidades, de um leve contorno a um painel flutuante. Uma aparência que deseja um mundo plano define todas as quatro como nenhuma e cada superfície elevada segue isso.'
+  border:
+    title: Bordas
+    description: 'A linha em si — sua largura e estilo. Sua cor não está aqui: isso pertence à paleta de cores, que é o que permite que uma aparência remova uma linha sem saber qual cor ela teria.'
+  separator:
+    title: 'Separadores e regiões'
+    description: 'As duas linhas que diferenciam as coisas: entre duas linhas de uma coisa e entre duas regiões de uma página. Vinte e tantas formas leem a primeira, razão pela qual é um token e não uma regra.'
+separator:
+  row: 'uma linha entre outras'
+  region: 'uma região da página, limitada como tal'
+role:
+  control: 'uma linha de altura, e pressionada'
+  box: 'sustenta algo'
+  media: 'imagens e figuras'
+  pill: 'o que é lido como uma cápsula'

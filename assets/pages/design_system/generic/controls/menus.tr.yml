@@ -1,0 +1,51 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Menüler
+page_icon: 'ph:bold/list'
+section:
+  vue:
+    title: Vue
+    description: 'Bağlantı satırı ve ayırıcı, vue parçaları olarak. Bir rotayı okuyan satırlardan farklı olarak, bu ikisi simgesini ve etiketini seçenek olarak alır, bu nedenle sunucudan hiçbir şey eksik değildir.'
+  menu:
+    title: 'Menü butonları'
+  counts:
+    title: Sayımlar
+    description: 'Öğenin yol açtığı şeylerin sayısı, satırın en sonunda. Bu bir hap ve başka bir şey değil - etiketin yanına `count` geçin, bir açılır menü öğesinde veya dikey menü öğesinde ve öğe bunu yerleştirir. Anahtarı olmayan bir öğe hiçbir şey göstermez.'
+  separators:
+    title: Ayırıcılar
+    description: 'Bir ayırıcı, diğerleri gibi bir öğedir, bir anahtar daha ile: çıplak bir çizgi, birbirleriyle hiçbir ilgisi olmayan iki öğe grubu arasında yer alır ve aynı çizgi bir kelime verildiğinde, takip edenlerin başlığı olur. Yığının her iki tarafı da aynı beyanı okur - buradaki üçüncü menü vue menüsüdür.'
+  kinds:
+    title: 'Bir öğe ne olabilir'
+    description: 'Dört tür bir satırı paylaşır: bir kelime ve bir hedef bir bağlantıdır, bir kelime ve bir durum bir geçiştir, bir kelime ve çocuklar bir dal oluşturur ve çıplak bir çizgi bir ayırıcıdır. Hiçbir şey türünü beyan etmez - öğenin taşıdığına bağlıdır. Bir geçiş, önde gelen slotunu işaretine harcar, bu nedenle bunların bir sütunu kelimelerini hizalı tutar ve panel altında açık kalır: bir filtre menüsü avuçla okunur, birer birer değil.'
+menu:
+  primary: 'Menü butonu'
+  filters: Filtreler
+  filters_vue: "Filtreler, vue'da"
+  counted: 'Sayılara sahip'
+  counted_vue: "Sayılara sahip, vue'da"
+  grouped: 'Gruplanmış öğeler'
+  grouped_vue: "Gruplanmış, vue'da"
+  group:
+    danger: 'Tehlikeli alan'
+    show: Göster
+  more: 'Daha fazla işlem'
+  invert: 'Menüyü tersine çevir'
+  options:
+    top_left: 'Sol üst'
+    top_right: 'Sağ üst'
+  item:
+    report: 'Rapor et'
+    inbox: 'Gelen kutusu'
+    alerts: Uyarılar
+    settings: Ayarlar
+    logout: 'Çıkış yap'
+    long: 'Çok, çok, çok, çok uzun bir başlığa sahip'
+    stats: İstatistikler
+    profile: Profil
+    delete: 'Hesabı sil'
+    done: Tamamlandı
+    running: Çalışıyor
+    failed: Başarısız
+    sort: Sırala
+    sort_name: İsim
+    sort_date: 'Son değişiklik'
+    docs: Belgeler

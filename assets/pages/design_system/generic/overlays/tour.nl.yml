@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Rondleiding
+page_icon: 'ph:bold/signpost'
+intro: 'Een begeleide rondleiding door een pagina: stap voor stap, het element waar het om gaat wordt verlicht op een verduisterde pagina en een kaart ernaast, met de weg erin en de weg eruit. Het start automatisch voor een bezoeker die het nog niet heeft afgemaakt of afgewimpeld — wat ze deden wordt bewaard, en het komt niet terug — en elk element met data-tour-start speelt het opnieuw af. De pijlen van het toetsenbord navigeren erdoorheen, Escape verlaat het.'
+start: 'Speel de rondleiding'
+status:
+  none: 'Je hebt deze rondleiding nog niet gezien — het start automatisch.'
+  completed: 'Je hebt deze rondleiding doorlopen; het zal niet opnieuw automatisch starten.'
+  dismissed: 'Je hebt deze rondleiding vóór het einde gesloten; het zal niet opnieuw automatisch starten.'
+area:
+  filters:
+    title: Filters
+    body: 'Wat de lijst toont.'
+  list:
+    title: 'De lijst'
+    body: 'Wat er is.'
+  export:
+    title: Exporteren
+    body: 'Wat de pagina verlaat.'
+step:
+  welcome:
+    title: Welkom
+    body: 'Een korte rondleiding door deze pagina. Gebruik de pijlen van het toetsenbord, of de knoppen hieronder.'
+  filters:
+    title: 'Beperk het'
+    body: 'De filters bepalen wat de lijst toont; ze worden bewaard in het adres.'
+  list:
+    title: 'Wat er is'
+    body: 'Elke rij opent de details ernaast in de lijst.'
+  export:
+    title: 'Neem het mee'
+    body: 'De export neemt wat de filters hebben bewaard, niets meer.'

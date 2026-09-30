@@ -1,0 +1,20 @@
+page_title: 'Teste de modal - componentes'
+intro: 'Este modal contém componentes e interações.'
+menu:
+  label: 'Menu de ações'
+  item:
+    report: 'Reportar problema'
+    settings: Configurações
+    logout: Sair
+upload_button: 'Enviar um arquivo'
+choice:
+  one: 'Primeira opção'
+  two: 'Segunda opção'
+  three: 'Terceira opção'
+toast_button: 'Mostrar notificação do modal'
+toast_title: 'Notificação do modal'
+toast_message: 'Olá de dentro do modal.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Você tem certeza de que deseja fechar este modal?'

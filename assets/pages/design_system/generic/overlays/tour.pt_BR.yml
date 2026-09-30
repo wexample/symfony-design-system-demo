@@ -1,0 +1,32 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tour
+page_icon: 'ph:bold/signpost'
+intro: 'Um tour guiado de uma página: passo a passo, o elemento em questão é destacado em uma página atenuada e um cartão ao lado, com o caminho a seguir e a saída. Começa automaticamente para um visitante que não o finalizou ou descartou — o que ele fez é mantido, e não volta — e qualquer elemento com dados de data-tour-start o reproduz novamente. As setas do teclado navegam por ele, Escape o fecha.'
+start: 'Iniciar o tour'
+status:
+  none: 'Você ainda não viu este tour — ele começa automaticamente.'
+  completed: 'Você completou este tour; ele não começará automaticamente novamente.'
+  dismissed: 'Você fechou este tour antes do final; ele não começará automaticamente novamente.'
+area:
+  filters:
+    title: Filtros
+    body: 'O que a lista mostra.'
+  list:
+    title: 'A lista'
+    body: 'O que há.'
+  export:
+    title: Exportar
+    body: 'O que sai da página.'
+step:
+  welcome:
+    title: Bem-vindo
+    body: 'Um breve tour por esta página. Use as setas do teclado ou os botões abaixo.'
+  filters:
+    title: 'Aperte a busca'
+    body: 'Os filtros decidem o que a lista mostra; eles são mantidos no endereço.'
+  list:
+    title: 'O que há'
+    body: 'Cada linha abre seu detalhe ao lado da lista.'
+  export:
+    title: 'Leve com você'
+    body: 'A exportação leva o que os filtros mantiveram, nada mais.'

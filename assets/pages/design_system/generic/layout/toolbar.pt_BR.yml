@@ -1,0 +1,27 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Barra de ferramentas'
+page_icon: 'ph:bold/rows'
+section:
+  markers:
+    title: 'Um título e seus marcadores'
+    description: 'Como uma coisa é classificada, onde ela está e qual versão: três marcadores são lidos como uma linha, assim compartilham uma altura, independentemente do que são — um pílula é dimensionada em ems para o texto em que normalmente está inserida, e uma barra a nivela na cápsula ao lado. O título renuncia suas margens e mantém o nome à esquerda.'
+  default:
+    title: 'Barra de ferramentas básica'
+  title:
+    title: 'Barra de ferramentas com título'
+  title_multi:
+    title: 'Título da seção com ações'
+title:
+  example: 'Título da página'
+  section: 'Título da seção'
+  document: 'Design e desenvolvimento'
+marker:
+  state: evergreen
+button:
+  create: Criar
+  refresh: Atualizar
+  export: Exportar
+  edit: Editar
+  delete: Excluir
+  history: Histórico
+  share: Compartilhar

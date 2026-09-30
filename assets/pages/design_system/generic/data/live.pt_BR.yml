@@ -1,0 +1,20 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Acompanhando
+page_icon: 'ph:bold/broadcast'
+intro: 'Uma coleção é lida uma vez quando aparece, e então o mundo segue em frente. Estas são as três maneiras pelas quais ela ouve sobre isso — não são alternativas a serem escolhidas de uma vez por todas, mas o que a situação de uma coleção acaba oferecendo. A mesma tabela aceita qualquer uma delas, ou várias, e nada abaixo sabe qual delas soou.'
+section:
+  events:
+    title: 'Um evento do aplicativo'
+    description: 'Por uma mudança que esta página causou a si mesma: um botão que agiu, um formulário que voltou. Quem toca não sabe nada sobre a tabela, e a tabela não sabe nada sobre quem tocou — eles compartilham um nome e isso é tudo. Não custa nada e não precisa de servidor.'
+  live:
+    title: 'Uma fonte ao vivo'
+    description: 'Onde o servidor tem um tópico para publicar, a coleção ouve a entidade da qual é a coleção — um processo para suas execuções, uma sessão para suas mensagens — e nunca a cada uma de suas próprias linhas. Uma linha que ainda não existe não tem tópico, e a linha que aparece é exatamente a que o leitor está esperando. A demonstração não tem servidor para publicar por ela, então o botão toca a mensagem.'
+  polling:
+    title: Polling
+    description: 'Onde não há tópico, ou onde uma viagem de ida e volta de vez em quando é mais barata do que uma assinatura mantida aberta. Este lê a cada três segundos, e para enquanto a aba está em segundo plano — uma página que ninguém está olhando é uma página que ninguém precisa ler para eles.'
+  none:
+    title: 'Nada disso'
+    description: 'O padrão. Uma coleção é lida uma vez e permanece como estava, que é a resposta certa sempre que o que ela mostra não muda nas costas do leitor.'
+  shape:
+    title: 'Qualquer forma que ela tenha'
+    description: 'Nada disso pertence à tabela. As mesmas três maneiras servem uma lista de barras, um tópico de chat, qualquer coisa que leia uma coleção — o que mantém uma coleção verdadeira e como ela se parece são duas decisões separadas. Esta é uma lista de barras, polling.'

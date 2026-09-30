@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Datas
+page_icon: 'ph:bold/clock'
+intro: 'Um vocabulário de nomes de formatos, compreendido da mesma forma pelo Twig, por JavaScript puro e pelo Vue. O servidor imprime um <time> com o instante e o formato solicitado; o navegador o capta e o reescreve conforme envelhece, de modo que uma página deixada aberta nunca mente sobre quanto tempo faz que algo ocorreu.'
+section:
+  formats:
+    title: 'Formatos nomeados'
+    description: 'Formatos absolutos são estilos de data e hora do ICU, portanto, a ordem dos campos e os separadores pertencem à localidade do leitor, e não ao template.'
+  relative:
+    title: Relativo
+    description: 'A distância é contada na maior unidade que ainda diz algo — minutos até uma hora, horas até um dia, depois dias, semanas, meses e anos. Cada wording vem de uma chave de tradução.'
+  auto:
+    title: Automático
+    description: 'O padrão. Conta para trás enquanto a data é recente e volta para uma data do calendário após uma semana, onde "27 semanas atrás" deixa de ajudar alguém.'
+  live:
+    title: 'Atualizado em tempo real'
+    description: 'Um único temporizador serve para cada data na página, na cadência que a unidade exibida merece — alguns segundos para "agora mesmo", uma hora para "3 meses atrás". Deixe esta página aberta e observe.'
+  plain:
+    title: 'Apenas texto'
+    description: 'O filtro retorna uma string sem formatação, para um atributo de título ou uma exportação. Um nome de formato que ele não conhece é tratado como um padrão ICU bruto, que é a saída quando os formatos nomeados não têm a forma que você precisa.'
+offset:
+  now: 'Há pouco tempo'
+  minutes: 'Cinco minutos'
+  hours: 'Três horas'
+  days: 'Dois dias'
+  months: 'Quatro meses'
+  years: 'Três anos'
+  future: 'Daqui a duas horas'
+live:
+  server: 'Renderizado pelo Twig, atualizado pelo serviço frontal:'
+  vue: 'Renderizado pelo Vue:'
+plain:
+  filter: "| date_format('date_long')"
+  pattern: '| date_format("EEEE d MMMM, ''semana'' w")'

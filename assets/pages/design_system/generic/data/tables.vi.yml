@@ -1,0 +1,120 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Bảng
+page_icon: 'ph:bold/table'
+section:
+  wide:
+    title: 'Rộng hơn phòng'
+    description: 'Một bảng có các cột cần nhiều hơn kích thước của trang sẽ được vẽ với chiều rộng cần thiết, trong một khung cuộn ngang — trang xung quanh không di chuyển. Một bảng dính từ bỏ điều này: một tiêu đề dính vào trang và một khung cuộn tự động không thể có cùng lúc.'
+  default:
+    title: 'Bảng đơn giản'
+  actions:
+    title: 'Bảng có hành động'
+  links:
+    title: 'Ô liên kết và biểu tượng'
+  loading:
+    title: 'Trạng thái đang tải'
+  empty:
+    title: 'Trạng thái trống'
+  alignment:
+    title: 'Căn chỉnh cột'
+  markdown:
+    title: 'Từ markdown'
+    description: 'Một bảng viết bằng markdown và được truyền qua `markdown_ds`: các cột, căn chỉnh của chúng và đánh dấu của mỗi ô được đọc từ tài liệu, và bảng được vẽ ở đây giống như bất kỳ bảng nào khác. `markdown` giữ nguyên `<table>`, cho bất kỳ thứ gì không phải là trang — một email, một nguồn cấp.'
+  groups:
+    title: 'Nhóm hàng'
+    description: 'Một hàng chỉ mang một nhóm không phải là một hàng: nó là đường giữa hai nhóm, được cho một từ. Nó trải dài qua bảng và đặt tên cho những gì theo sau — cùng cách đọc như một bộ phân cách menu.'
+  status:
+    title: 'Ô trạng thái'
+    description: 'Một trạng thái là một vòng tròn, không bao giờ là một màu sắc do ai đó chọn: ô nhận một tên loại, hoặc một loại với số lượng và tiêu đề, và vẽ biểu tượng trạng thái mà phần còn lại của hệ thống vẽ. Không có gì để định dạng trong trang.'
+  sticky:
+    title: 'Tiêu đề dính'
+    description: 'Một bảng dài được đọc theo cột cũng như theo hàng. Với `sticky`, tiêu đề giữ nguyên trong tầm nhìn trong khi các hàng cuộn bên dưới; một trang có thứ gì đó được ghim ở trên cùng cho biết cách xuống trong `--table-sticky-top`.'
+  striped:
+    title: 'Hàng kẻ sọc, phát sáng dưới con trỏ'
+  selection:
+    title: 'Các hàng có thể được đánh dấu'
+    description: 'Một ô ở đầu mỗi hàng, một ở tiêu đề cho tất cả, và các hành động ở trên: chúng gửi các hàng đã được đánh dấu đến địa chỉ riêng của chúng, và không thể chạm tới khi không có gì được đánh dấu.'
+  files:
+    title: 'Tệp, tổng số, một hành động trên mỗi hàng'
+    description: 'Đường dẫn được đọc theo tên của chúng, các thư mục trước đó bị cắt từ đầu. Thanh kết thúc ở số hàng có, và một hành động được đánh dấu là `all` hoạt động với không có gì được đánh dấu — nó lấy mọi hàng, và dẫn thanh khi đó là thứ mong đợi.'
+  filters:
+    title: 'Bộ lọc'
+    description: 'Một thanh bộ lọc ở đầu bảng, một menu kín đáo cho mỗi, cho biết điều gì sẽ được thu hẹp một khi nó thực hiện. Trên máy chủ, chúng sống trong truy vấn của trang — mỗi lựa chọn là một liên kết — và bộ điều khiển thu hẹp các hàng từ đó; trong vue, chúng là một giá trị được đưa cho trang cho api của nó, hoặc được áp dụng bởi bảng cho các hàng mà nó đã có. Mỗi lựa chọn là một hộp — tròn cho một lựa chọn duy nhất — có màu sắc theo tông của nó khi nó có một, một trạng thái hoặc một danh mục.'
+  selection_select:
+    title: 'Hành động trong một lựa chọn'
+    description: 'Cùng thanh đó khi có đủ hành động để chen chúc: một được chọn, sau đó được áp dụng.'
+  vue:
+    title: 'Bảng thực thể Vue'
+  vue_selection:
+    title: 'Bảng Vue có lựa chọn'
+    description: 'Cùng hợp đồng trên phía khách hàng: các khóa đã được đánh dấu quay trở lại qua v-model:selected, mỗi hành động được phát ra như một hành động hàng loạt, và một với địa chỉ được gửi như bảng máy chủ gửi nó. Những cái này không có, vì vậy dòng bên dưới cho biết điều gì sẽ được thực hiện. Ba hàng một trang, tổng số ở cuối thanh, và Lưu trữ tất cả không cần gì được đánh dấu.'
+  vue_compact:
+    title: 'Phân trang không có tổng số'
+    description: 'Khi API không trả về tổng số, bộ phân trang quay lại trước/sau.'
+  vue_dates:
+    title: 'Bộ định dạng ngày Vue'
+column:
+  wide: Cột
+  default:
+    name: Tên
+    date: Ngày
+    seen: 'Lần cuối thấy'
+  actions:
+    name: Nguồn
+    date: 'Cập nhật lúc'
+    operations: 'Hành động'
+  links:
+    source: Nguồn
+    state: 'Trạng thái'
+  status:
+    name: Pipeline
+    build: 'Xây dựng'
+    tests: 'Kiểm tra'
+    deploy: 'Triển khai'
+  alignment:
+    left: 'Tên (trái)'
+    center: 'Trạng thái (giữa)'
+    right: 'Số lượng (phải)'
+row:
+  wide: 'Một giá trị đủ dài'
+  one:
+    title: 'Dự án Alpha'
+    meta: '2026-01-10'
+  two:
+    title: 'Dự án Beta'
+    meta: '2026-02-18'
+  three:
+    title: 'Dự án Gamma'
+    meta: '2026-03-25'
+  action:
+    one:
+      title: 'Nguồn Alpha'
+      meta: '2026-01-12'
+    two:
+      title: 'Nguồn Beta'
+      meta: '2026-02-20'
+    loading:
+      label: 'Đang tải hàng'
+    empty:
+      label: 'Không có dữ liệu nào.'
+group:
+  first: 'Nhóm đầu tiên'
+  second: 'Nhóm thứ hai'
+status:
+  flaky: 'Ba bài kiểm tra không ổn định'
+bulk:
+  archive: 'Lưu trữ'
+  export: Xuất
+  delete: Xóa
+files:
+  column:
+    path: Tệp
+  fix_selected: 'Sửa chữa đã chọn'
+  fix_all: 'Sửa chữa tất cả'
+filters:
+  owner: 'Chủ sở hữu'
+  state: 'Trạng thái'
+  open: Mở
+  closed: 'Đã đóng'
+  column:
+    name: Tên

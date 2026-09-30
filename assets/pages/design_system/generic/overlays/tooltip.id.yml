@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tooltip
+page_icon: 'ph:bold/chat-centered-text'
+intro: 'Beberapa kata tentang apa yang ditunjukkan oleh pointer atau fokus, di sampingnya. Ada satu tooltip untuk halaman, ditempatkan oleh tata letak: setiap elemen memintanya dengan data-tooltip — tooltip() menulisnya dalam twig, vue mengikatnya — dan itu muncul di bawah pointer setelah beberapa saat, di bawah fokus keyboard secara langsung, dan tidak pernah di bawah jari. Itu menjauh dari tepi jendela daripada meninggalkannya.'
+section:
+  plain:
+    title: 'Tentang apapun'
+    description: 'Sebuah tombol, ikon sendiri, penanda: atribut adalah semua yang dibutuhkan. Sebuah ikon tanpa kata-kata adalah tempat di mana tooltip sangat penting.'
+  rich:
+    title: 'Dengan judul, atau ringan'
+    description: 'Sebuah judul di atas teks untuk tooltip yang menjelaskan, dan yang ringan di dasar halaman itu sendiri di mana yang terbalik akan terlalu mencolok.'
+  placement:
+    title: Penempatan
+    description: 'Di atas secara default. Diminta untuk sisi, itu mengambilnya ketika ada ruang dan sisi lain ketika tidak; di sepanjang sisi itu, ia meluncur untuk tetap di dalam jendela, panahnya tetap pada apa yang ditunjuknya.'
+button:
+  save: Simpan
+marker:
+  label: Diterbitkan
+tip:
+  save: 'Simpan draf — Ctrl+S'
+  share: Bagikan
+  delete: Hapus
+  marker: 'Diterbitkan pada 2 September, dilihat oleh 128 pembaca'
+  light: 'Tooltip di dasar halaman itu sendiri'
+  placement: Ditempatkan
+  rich:
+    title: 'Mengapa ini diwarnai abu-abu?'
+    text: 'Ekspor menunggu proses pertama selesai; itu terbuka segera setelah ada sesuatu untuk diekspor.'

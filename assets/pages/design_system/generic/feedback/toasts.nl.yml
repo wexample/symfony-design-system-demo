@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Feedback
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Dezelfde toast als een vue partial. Sluiten wordt hier uitgezonden in plaats van geanimeerd weg: binnen een vue-boom bezit de ouder de lijst.'
+  simple_toast:
+    description: 'Toon een eenvoudige toast'
+    button: 'Open toast'
+    title: 'Toast demo'
+    message: 'Hallo van ToastService + ToastStack. Je kunt ook actie-links definiëren zoals @action:demo(deze) binnen een bericht.'
+  tl_toast:
+    description: 'Toon een toast-stapel in de bovenlinkerhoek'
+    button: 'Open toast'
+    title: 'Bovenlinkse toast'
+    message: 'Hallo van ToastService + ToastStack (TL).'
+  medium_toast:
+    description: 'Toon een toastbericht van gemiddelde lengte'
+    button: 'Open toast'
+    title: 'Gemiddelde toast'
+    message: 'Dit is een toastbericht van gemiddelde lengte voor de demo.'
+  long_toast:
+    description: 'Toon een lang toastbericht'
+    button: 'Open toast'
+    title: 'Lange toast'
+    message: 'Dit is een langer toastbericht voor de demo. Het bevat meer tekst zodat je kunt zien hoe de component zich gedraagt met grotere inhoud.'
+  horizontal_toasts:
+    description: 'Toon vier toasts in een horizontale stapel'
+    info:
+      title: Informatietoast
+      message: 'Een horizontale toast preview.'
+      button: 'Toon toast'
+    success:
+      title: Sucesstoast
+      message: 'Alles ziet er goed uit hier.'
+      button: 'Toon toast'
+    warning:
+      title: Waarschuwingstoast
+      message: 'Controleer deze actie dubbel.'
+      button: 'Toon toast'
+    error:
+      title: Fouttoast
+      message: 'Er is iets misgegaan hier.'
+      button: 'Toon toast'
+title:
+  toasts: Toasts

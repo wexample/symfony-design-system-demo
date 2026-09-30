@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Console
+page_icon: 'ph:bold/terminal-window'
+intro: "Wat een shell heeft afgedrukt, wordt teruggelezen op de pagina: commando's na hun prompt, hun uitvoer eronder, en de kleuren van de terminal gelezen als die van het palet, in beide schema's. Het leest; het neemt geen commando's aan."
+section:
+  session:
+    title: 'Een sessie'
+    description: 'Regels van vier soorten — commando, uitvoer, fout, info — of gewone strings. De escape-codes die een programma voor zijn terminal schreef, worden behouden als kleur en gewicht; de rest van wat een terminal wordt verteld, wordt genegeerd.'
+  vue:
+    title: 'In vue'
+    description: 'Dezelfde regels, getekend door de vue-tweeling, hier met een eigen prompt.'
+  live:
+    title: 'Regels zoals ze komen'
+    description: 'Gegeven een onderwerp voor live-updates, voegt de vue-console toe wat elk bericht meebrengt — een string, een regel, of een batch regels — en volgt het einde tenzij de lezer omhoog heeft gescrold. Hier speelt een knop de rol van het onderwerp, via dezelfde toevoeging die een bericht oproept.'

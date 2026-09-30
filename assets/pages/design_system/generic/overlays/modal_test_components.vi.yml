@@ -1,0 +1,20 @@
+page_title: 'Kiểm tra modal - các thành phần'
+intro: 'Modal này chứa các thành phần và tương tác.'
+menu:
+  label: 'Menu hành động'
+  item:
+    report: 'Báo cáo sự cố'
+    settings: 'Cài đặt'
+    logout: 'Đăng xuất'
+upload_button: 'Tải lên tệp'
+choice:
+  one: 'Lựa chọn đầu tiên'
+  two: 'Lựa chọn thứ hai'
+  three: 'Lựa chọn thứ ba'
+toast_button: 'Hiện thông báo từ modal'
+toast_title: 'Thông báo modal'
+toast_message: 'Xin chào từ bên trong modal.'
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Bạn có chắc chắn muốn đóng modal này không?'

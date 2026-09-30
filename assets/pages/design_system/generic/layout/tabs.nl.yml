@@ -1,0 +1,49 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tabs
+page_icon: 'ph:bold/signpost'
+section:
+  vue:
+    title: 'Tabs in vue'
+    description: 'De twigbalk is een rij van links en het adres geeft aan welke geopend is. De vuebalk meldt alleen dat er om een tab is gevraagd, dus iets eromheen bevat het antwoord — hier, een demo-component.'
+  breadcrumb:
+    vue_description: 'De vue-tweeling neemt zijn items al opgelost: de server bevat de routetabel, dus die geeft het antwoord, en wat eroverheen komt is het antwoord.'
+    title: Breadcrumb
+    description: 'Toont de locatie van de gebruiker binnen de hiërarchie. Gebruik de breadcrumb partial — geef items door met route en label; het laatste item wordt altijd weergegeven als huidig.'
+  tabs:
+    title: Tabs
+  default:
+    normal:
+      title: 'Basis tabs'
+    full:
+      title: 'Basis tabs (volledige breedte)'
+    half:
+      title: 'Basis tabs (halve breedte zone)'
+  counts:
+    title: 'Tabs met een telling'
+    description: 'Hoeveelheid van wat de tab bevat, aan het einde van het label. Het is een pil en niets anders — geef `count` naast het label door en de tab plaatst het. Een item zonder de sleutel toont niets, wat betekent dat een tab zonder iets om te tellen stil blijft.'
+  icons:
+    normal:
+      title: 'Tabs met iconen'
+    full:
+      title: 'Tabs met iconen (volledige breedte)'
+    half:
+      title: 'Tabs met iconen (halve breedte zone)'
+breadcrumb:
+  example:
+    vue: 'In vue'
+    two_levels: 'Twee niveaus'
+    three_levels: 'Drie niveaus'
+  item:
+    home: Home
+    layout: Lay-out
+    section: Blokken
+    current: Navigatie
+tab:
+  one: Overzicht
+  two: Activiteit
+  three: Instellingen
+vue:
+  panel:
+    one: 'Het eerste paneel. Er is niets opgehaald en er is geen adres veranderd — de balk heeft uitgezonden, de houder is verwisseld.'
+    two: 'Het tweede paneel.'
+    three: 'Het derde paneel.'

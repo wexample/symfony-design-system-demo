@@ -1,0 +1,28 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Tooltip
+page_icon: 'ph:bold/chat-centered-text'
+intro: "Qualche parola su cosa è il puntatore o il focus, accanto ad esso. C'è un tooltip per la pagina, posizionato dal layout: qualsiasi elemento lo richiede con data-tooltip — tooltip() lo scrive in twig, un vue lo collega — e appare sotto il puntatore dopo un momento, immediatamente sotto il focus della tastiera, e mai sotto un dito. Si allontana dai bordi della finestra piuttosto che lasciarla."
+section:
+  plain:
+    title: 'Su qualsiasi cosa'
+    description: "Un pulsante, un'icona da sola, un marcatore: l'attributo è tutto ciò che serve. Un'icona senza parole è dove un tooltip è più importante."
+  rich:
+    title: 'Con un titolo, o leggero'
+    description: "Un'intestazione sopra il testo per un tooltip che spiega, e uno leggero sul fondo della pagina dove quello invertito sarebbe troppo forte."
+  placement:
+    title: Posizionamento
+    description: "Sopra per default. Richiesto di lato, lo prende quando c'è spazio e dall'altro lato quando non c'è; lungo quel lato, scivola per rimanere nella finestra, la sua freccia ancora su ciò a cui punta."
+button:
+  save: Salva
+marker:
+  label: Pubblicato
+tip:
+  save: 'Salva la bozza — Ctrl+S'
+  share: Condividi
+  delete: Elimina
+  marker: 'Pubblicato il 2 settembre, visto da 128 lettori'
+  light: 'Un tooltip sul fondo della pagina'
+  placement: Posizionato
+  rich:
+    title: 'Perché è grigio?'
+    text: "L'esportazione attende che la prima esecuzione finisca; si apre non appena c'è qualcosa da esportare."

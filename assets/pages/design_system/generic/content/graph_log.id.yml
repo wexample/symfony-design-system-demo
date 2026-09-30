@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Log Grafik'
+page_icon: 'ph:bold/git-fork'
+intro: 'Item dalam garis keturunan, terbaru pertama, digambar di jalur berwarna: di mana garis bercabang, di mana dua bertemu kembali. Setiap item menyebutkan orang tuanya; jalur mengikuti. Apa yang ditampilkan di samping grafik adalah gratis — sebuah judul, referensi sebagai kapsul, siapa, kapan, nama singkat — jadi riwayat git adalah salah satu penggunaan di antara yang lain.'
+section:
+  history:
+    title: 'Sebuah riwayat'
+    description: 'Sebuah cabang fitur yang digabungkan kembali, yang lain dibiarkan terbuka, sebuah tag pada rilis. Setiap jalur mempertahankan warnanya dari tempat ia mulai hingga tempat ia berakhir.'
+  other:
+    title: 'Sesuatu selain git'
+    description: 'Versi dokumen, salah satunya ditinjau di samping sebelum digabungkan ke versi berikutnya. Komponen tidak tahu apa-apa tentang commit.'
+  vue:
+    title: 'Dalam vue'
+    description: 'Riwayat yang sama dalam pohon vue, jalur digambar kembali saat item masuk di bagian atas.'
+  git:
+    title: 'Riwayat aplikasi ini'
+    description: 'Dibaca dari repositori oleh git_graph_items() milik symfony-coding, melalui pembaca bersama yang tidak pernah mengganggu git.'
+history:
+  merge_search: 'Gabungkan cabang pencarian'
+  search_filters: 'Tambahkan filter ke pencarian'
+  fix_header: 'Perbaiki header di layar kecil'
+  try_theme: 'Coba tema yang lebih gelap'
+  search_index: 'Indeks dokumen'
+  release: 'Rilis 2.1.0'
+  search_start: 'Mulai pencarian'
+  initial: 'Commit pertama'
+versions:
+  v4: 'Versi 4, dengan tinjauan diterapkan'
+  current: sekarang
+  review: 'Perubahan peninjau'
+  review_ref: tinjauan
+  v3: 'Versi 3'
+  v2: 'Versi 2'
+  v1: 'Versi 1'

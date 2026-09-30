@@ -1,0 +1,75 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: Girişler
+page_icon: 'ph:bold/textbox'
+intro: 'Sistemin sunduğu her alan, tek bir sayfada. Şekilleri dışında ortak noktaları bir sözleşmedir: her biri, okuyan kişi dışında birine devredilebilir, bu kişi alanı doldurur ve geri verir.'
+section:
+  assisted:
+    title: Yardım
+    description: 'Bir alan devralınabilir — bir ajan tarafından, ne yazacağını bilen herhangi bir şey tarafından. Tutulduğunda, bunu belirtir, klavye ve imleçle yanıt vermeyi durdurur ve değer, alanın kararlaştırdığı şekilde görünür: bir kelime için yazılır, bir seçenek için seçilir, bir anahtar için işaretlenir. Yardım doğası gereği geçicidir; yardımla bırakılan bir alan, kimsenin kullanamayacağı bir alandır.'
+  fields:
+    title: Alanlar
+    description: 'Her birinden bir tane, bir kez. Yukarıdaki Oynat tuşuna basın ve sırayla doldurulur, bir ajanın yapacağı çağrılarla — bu, sözleşmenin hepsi için geçerli olduğunu bilmenin tek yoludur.'
+  actions:
+    title: 'Bir formdaki butonlar'
+    description: 'Bir buton bir değer yerine bir eylem alır, bu yüzden içinde yazılacak bir şey yoktur.'
+  code:
+    title: 'Hücrelerde bir kod'
+    description: 'Hücrelerin altında bir gerçek alan, böylece sunucu bir değeri okur ve tarayıcı zaten yaptığı şeyi sürdürür: yapıştırılmış bir kod tam olarak yerleşir, bir telefon aldığı kodu sunar, geri tuşu geri gider. Doldurulduğunda, formunu kendi başına gönderir — bu sayfada kapalıdır, gönderilecek bir yeri yoktur.'
+  select:
+    title: 'Kendiliğinden Seç'
+    description: 'Form grubunun dışında iki özel seçim, bir araç çubuğu veya bir filtre çubuğu olarak yerleştirilmiştir.'
+  switch:
+    title: 'Kendiliğinden Anahtar'
+    description: 'Her iki tarafta etiketler, içinde simgeler ve işaretli durum.'
+  switch_tone:
+    title: 'Bir ton ile anahtar ve bir soru soran'
+    description: 'Bir kez açıldığında, bir anahtar bir durumun veya kategorinin rengini alabilir, bağlantının rengini değil. Sonuçları olan bir şeyi açan bir anahtar `uyarı` alır ve öncesinde sorar: reddedilirse, kapalı kalır. Kapatma asla sorgulanmaz. Her iki durumda da sayfaya `anahtar:değiştir` der.'
+  switch_vue:
+    title: 'Vue içerisinde anahtar'
+    description: 'Aynı anahtar bir vue ağacının içinde, burada işaretli durum bir durumdur ve bir betiğin çevirdiği bir veri niteliği değildir.'
+assisted:
+  hint: 'Bir ajan aşağıdaki alanları, birer birer doldurur.'
+  play: Oynat
+  reset: Sıfırla
+field:
+  text: 'Tam ad'
+  textarea: Adres
+  email: E-posta
+  url: 'Web sitesi'
+  password: Şifre
+  code: 'Doğrulama kodu'
+  number: Yaş
+  date: 'Doğum tarihi'
+  time: 'Tercih edilen zaman'
+  datetime: Randevu
+  select: Ülke
+  radio: 'İletişim yöntemi'
+  switch: 'Bülteni al'
+  file: 'Kimlik belgesi'
+  emoji: 'Ruh hali'
+  button: 'Bir buton'
+  submit: Gönder
+placeholder:
+  text: 'Maya Lindqvist'
+  textarea: 'Sokak, posta kodu, şehir'
+  email: maya@example.com
+  url: 'https://example.com'
+choice:
+  one: İsveç
+  two: Portekiz
+  three: Japonya
+code:
+  numeric: 'Altı haneli, e-posta ile gönderildiği gibi'
+  backup: 'Bir yedek kod, harfler ve rakamlar'
+  vue: 'Dört haneli, vue içinde'
+switch:
+  tone:
+    success: 'Senkronize edildi'
+    mint: Etiketlendi
+    risky: 'Kaydettiğinde yayımlanacak'
+  confirm:
+    title: 'Kaydettiğinde yayımlansın mı?'
+    message: 'Her kaydetme, arada bir inceleme olmadan bir anda yayımlanacaktır.'
+    accept: 'Açık tut'
+  label_right: 'Özelliği etkinleştir'
+  label_left: 'Soldaki etiket'

@@ -1,0 +1,96 @@
+field:
+  password:
+    label: Senha
+    help: 'Digite sua senha para autenticação.'
+    error:
+      ERR_FIELD_PASSWORD_INVALID: 'Senha é inválida para fins de teste.'
+  emoji:
+    label: Emoji
+    help: 'Escolha um emoji para representar seu humor.'
+    error:
+      ERR_FIELD_EMOJI_INVALID: 'Emoji é inválido para fins de teste.'
+  text_simple:
+    label: Texto
+    help: 'Um campo de texto de uma linha para conteúdo curto.'
+    error:
+      ERR_FIELD_TEXT_SIMPLE_INVALID: 'Texto é inválido para fins de teste.'
+  text_area:
+    label: 'Texto longo'
+    placeholder: 'Digite o que quiser...'
+    help: 'Um campo de texto multilinha para conteúdo mais extenso.'
+    error:
+      ERR_FIELD_TEXT_AREA_INVALID: 'Texto longo é inválido para fins de teste.'
+  number:
+    label: Número
+    help: 'Digite um valor numérico.'
+    error:
+      ERR_FIELD_NUMBER_INVALID: 'Número é inválido para fins de teste.'
+  email:
+    label: Email
+    placeholder: você@exemplo.com
+    help: 'Digite um endereço de email válido.'
+    error:
+      ERR_FIELD_EMAIL_INVALID: 'Email é inválido para fins de teste.'
+  url:
+    label: URL
+    placeholder: 'https://'
+    help: 'Digite uma URL completa, incluindo o protocolo.'
+    error:
+      ERR_FIELD_URL_INVALID: 'URL é inválida para fins de teste.'
+  date:
+    label: Data
+    help: 'Selecione uma data usando o seletor de data.'
+    error:
+      ERR_FIELD_DATE_INVALID: 'Data é inválida para fins de teste.'
+  datetime:
+    label: 'Data e hora'
+    help: 'Selecione uma data e hora combinadas.'
+    error:
+      ERR_FIELD_DATETIME_INVALID: 'Data e hora são inválidas para fins de teste.'
+  time:
+    label: Hora
+    help: 'Selecione um horário do dia.'
+    error:
+      ERR_FIELD_TIME_INVALID: 'Hora é inválida para fins de teste.'
+  file:
+    label: Arquivo
+    help: 'Faça upload de um ou mais arquivos do seu dispositivo.'
+    error:
+      ERR_FIELD_FILE_INVALID: 'Arquivo é inválido para fins de teste.'
+  radio_choice:
+    label: 'Escolha de rádio'
+    help: 'Selecione uma opção da lista.'
+    error:
+      ERR_FIELD_RADIO_CHOICE_INVALID: 'Escolha de rádio é inválida para fins de teste.'
+    choice:
+      option_a:
+        label: 'Opção A'
+      option_b:
+        label: 'Opção B'
+      option_c:
+        label: 'Opção C'
+  switch:
+    label: Interruptor
+    help: 'Ative ou desative esta opção.'
+    error:
+      ERR_FIELD_SWITCH_INVALID: 'Interruptor é inválido para fins de teste.'
+form:
+  error:
+    ERR_FORM_TEST: 'Erro global para fins de teste.'
+action:
+  button_demo: 'Não fazer nada'
+  submit_default: Enviar
+  submit_error: 'Mostrar erros'
+  submit_js: 'Ação JS'
+  submit_redirect: Redirecionar
+toast:
+  success:
+    title: Sucesso
+    message: 'Formulário enviado com sucesso.'
+  js_action:
+    title: 'Ação JS'
+    message: 'Você deseja reativar o formulário?'
+    reactivate: Reativar
+    dismiss: Dispensar
+description: |
+  Use este formulário para testar comportamentos de envio. Esta demonstração está em um componente Vue.

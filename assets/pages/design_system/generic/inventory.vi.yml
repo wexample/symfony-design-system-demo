@@ -1,0 +1,67 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Hàng tồn kho'
+page_icon: 'ph:bold/list-checks'
+intro: 'Mỗi phần tử mà gói hàng gửi đi, và các định dạng mà nó được giao. Bảng này không phải là một danh sách ai đó duy trì: nó là sổ đăng ký mà mỗi gói hàng gửi đi, được biên soạn từ các khai báo của nó và được kiểm tra với các thành phần của nó. Nó trả lời những gì có — không bao giờ là những gì nên có, điều này là một câu hỏi mà không có quét nào có thể giải quyết và các phần tử sẽ phải tự khai báo cho chính mình.'
+problems:
+  title: 'Một khai báo và các tài sản không khớp'
+  body: 'Hiển thị ở đây vì trang này được biên soạn từ các tài sản trong quá trình phát triển, vì vậy nó thấy những gì `%command%` sẽ từ chối viết. Mỗi điểm bên dưới nêu tên phần tử; bảng được vẽ như nhau.'
+missing:
+  title: 'Một sổ đăng ký bị thiếu'
+  body: '%bundles% đã đăng ký là chứa các phần tử nhưng không có sổ đăng ký trên đĩa, vì vậy các hàng của nó không có trong bảng bên dưới. Chạy `%command%` và cam kết kết quả.'
+summary:
+  label: 'Những gì được đếm'
+  count: 'Số lượng'
+  elements: 'Các phần tử tìm thấy'
+  todo: 'Các định dạng còn lại cần thực hiện'
+  undecided: 'Các quyết định chưa được đưa ra'
+  shapes: 'Hình dạng'
+  abstracts: 'Cơ sở trừu tượng'
+column:
+  element: 'Phần tử'
+  shape: 'Hình dạng'
+  description: 'Chức năng của nó'
+cell:
+  absent: 'Không tìm thấy trong định dạng này, và khai báo không nói lý do — một quyết định chưa được đưa ra'
+  todo: 'Cần thiết trong định dạng này và chưa có'
+  shared: 'Cũng được giữ bởi %bundles%. Không phải là lỗi — trình tải cho chúng phân biệt bằng bí danh — nhưng đáng lưu ý liệu đó là một phần tử được vẽ lại hay hai cái chia sẻ một tên.'
+format:
+  style:
+    title: 'Phong cách'
+    description: 'Tài liệu kiểu, được tải bởi trình tải khi thành phần có mặt trên trang.'
+  template:
+    title: Mẫu
+    description: 'Trình vẽ máy chủ, được vẽ bởi twig.'
+  vue:
+    title: Vue
+    description: 'Bản sao của khách hàng, được vẽ trong trình duyệt từ cùng một tùy chọn.'
+  script:
+    title: 'Kịch bản'
+    description: 'Hành vi, gắn với markup khi nó có mặt trong tài liệu.'
+  schema:
+    title: 'Sơ đồ'
+    description: 'Hợp đồng: những gì thành phần nhận, với kiểu và giá trị mặc định. Mỗi trình vẽ khác đều có thể kiểm tra theo nó.'
+  ai:
+    title: AI
+    description: 'Những gì một đại lý được thông báo về thành phần: sơ đồ, cách sử dụng nó, các công cụ tác động lên nó.'
+  react:
+    title: React
+    description: 'Trình vẽ react.'
+  flutter:
+    title: Flutter
+    description: 'Trình vẽ flutter, được viết bằng dart theo sơ đồ. Markup không được mang theo; hợp đồng và các token thì có.'
+section:
+  matrix:
+    title: 'Phần tử theo định dạng'
+    description: 'Một hàng cho mỗi thành phần, một cột cho mỗi trình vẽ. Một thành phần là một thư mục dưới `components/` chứa mọi cách nó có thể được vẽ — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — vì vậy không có gì ở đây phải hòa giải bốn thư mục theo tên nữa. Một ô đếm các tệp phía sau nó — di chuột qua một ô để xem chúng. Mỗi phần tử đã khai báo đều đọc ở cùng một cấp độ — một hàng tìm thấy trong một định dạng duy nhất có thể là một khoảng trống hoặc một phần tử nguyên thủy không muốn gì khác, và việc phân loại điều đó là công việc mà bảng này được tạo ra chứ không phải là điều mà nó đã biết. Bốn trạng thái, được phân biệt bởi ai sẽ di chuyển tiếp theo: một kiểm tra, phần tử có ở đó; một cảnh báo, nó được cần và đang thiếu; một vòng tròn bị gạch, nó cố tình không có; một ô trống, chưa ai quyết định. Di chuột qua một cảnh báo hoặc một vòng tròn để xem khai báo nói gì.'
+  sources:
+    title: 'Những điều này đến từ đâu'
+    description: 'Một gói hàng có trong bảng vì nó đã nói như vậy — bằng cách thực hiện `DesignSystemElementsBundleInterface`, cách mà một gói hàng thông báo cho trình tải về các đường dẫn phía trước của nó. Mỗi gói viết `data/elements.json` bên trong các tài sản của nó, được công bố cùng với chúng, vì vậy việc xây dựng, phía node, một ngôn ngữ khác hoặc một đại lý đều làm việc từ cùng một tệp; trang này chỉ là sự hợp nhất của chúng.'
+  abstract:
+    title: 'Trừu tượng'
+    description: 'Năm cơ sở dưới `components/_abstract/`, mà không bao giờ được vẽ — chúng chỉ được mở rộng. `_abstract/vue` là ba khối twig trống mà ba mươi một mẫu điền vào; `_abstract/form-field` là những gì mười hai đầu vào được xây dựng trên đó. Chúng ra khỏi ma trận vì lý do hình dạng: chúng không được giao cho ai, vì vậy hỏi chúng về sơ đồ hoặc một bản sao react là hỏi một câu hỏi mà chúng không có cách nào để trả lời. Dấu gạch dưới nói lên điều đó trước khi ai đó mở thư mục. Những gì được hiển thị là những gì mỗi cái đã mang đến cho ai đó mở rộng nó.'
+  shapes:
+    title: 'Hình dạng'
+    description: 'Một hình dạng là một phong cách không có trình vẽ: bạn viết markup, đặt class lên nó, và `@use` tài liệu kiểu từ của riêng bạn. `.stack`, `.grid`, `.block`, `.cluster`. Chúng được liệt kê ở đây và không có trong bảng bên trên vì bảng của các trình vẽ không có cột để cung cấp thứ gì không có — và sự vắng mặt của chúng trong đó là lý do tại sao tất cả các cảnh báo của nó đều có nghĩa là công việc thay vì một câu hỏi được hỏi kém. Đường phân chia được xác định bởi các tệp, không phải bởi thị hiếu: một hình dạng chính xác là một `.scss` và không cái nào vẽ nó, vì vậy ngày một cái có được một `.html.twig` nó sẽ di chuyển vào `components/` và tham gia vào ma trận. Đó là sự thăng tiến duy nhất có. Những gì mỗi cái nói về chính nó được đọc từ tiêu đề của tài liệu kiểu của nó, vì vậy không có nơi thứ hai để nó drift ra.'
+  coverage:
+    title: 'Những điều này không bao gồm'
+    description: 'Các thư mục của `assets/` mà quét không đi qua, được liệt kê từ ổ đĩa thay vì từ bộ nhớ. Mixins, tiện ích và token không phải là các phần tử và có thể không bao giờ là các hàng ở đây; các bố cục và script chia sẻ thì có, và chưa được đề cập.'

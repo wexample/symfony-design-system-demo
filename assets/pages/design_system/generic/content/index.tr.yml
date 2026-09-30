@@ -1,0 +1,23 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: İçerik
+page_icon: 'ph:bold/article'
+intro: 'Kelimeler, resimler ve değerler, aralarındaki ritim. Bu sayfaların ortak noktası, bir kişinin okuduğu bir şeyi biçimlendirmek, bölgeleri düzenlemek veya kayıtları listelemek değil.'
+page:
+  composition:
+    title: Kompozisyon
+    description: 'Bir prozanın okunması gerektiği gibi: makaleler, etrafında metin bulunan resimler, büyük harfler, meta çubukları.'
+  media:
+    title: Medya
+    description: 'Bir şekle sahip olan görüntüler ve gömülü içerikler: en boy oranları, üst üste bindirmeler ve hiçbir şey yüklenmediğinde yer tutucu olarak duran.'
+  dates:
+    title: Tarihler
+    description: 'Twig ve tarayıcı tarafından aynı şekilde anlaşılan bir formatlar sözlüğü ve sayfa açık kaldıkça kendini doğru tutan tarihler.'
+  graph_log:
+    title: 'Grafik günlüğü'
+    description: 'Renkli yollar üzerindeki öğeler ve bunların dallanıp kesişmeleri: bir git geçmişi veya dallanan herhangi bir şey.'
+  console:
+    title: Konsol
+    description: 'Bir kabuğun yazdırdığı, sayfada geri okunan ve geldikçe eklenen satırlar.'
+  timeline:
+    title: 'Zaman Çizelgesi'
+    description: 'Birbiri ardına gelen adımlar veya olaylar, bir çizgiyle birleştirilmiş işaretçiler üzerinde, her biri ihtiyaç duyduğu her şeyi taşıyor.'

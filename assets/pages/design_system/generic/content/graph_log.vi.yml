@@ -1,0 +1,34 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Nhật ký đồ thị'
+page_icon: 'ph:bold/git-fork'
+intro: 'Các mục trong một dòng phả hệ, mới nhất ở phía trước, được vẽ trên các làn màu: nơi một dòng phân nhánh, nơi hai dòng gặp lại. Mỗi mục cho biết cha mẹ của nó; các làn theo sau. Những gì một hàng cho thấy bên cạnh đồ thị là miễn phí — một tiêu đề, tham chiếu dưới dạng viên nang, ai, khi nào, một tên ngắn — vì vậy lịch sử git là một trong nhiều cách sử dụng.'
+section:
+  history:
+    title: 'Lịch sử'
+    description: 'Một nhánh tính năng đã được gộp lại, một cái khác để mở, một thẻ trên một bản phát hành. Mỗi làn giữ màu sắc của nó từ nơi bắt đầu đến nơi kết thúc.'
+  other:
+    title: 'Một cái gì đó khác ngoài git'
+    description: 'Các phiên bản của một tài liệu, một trong số đó đã được xem xét ở bên trước khi được gộp vào cái tiếp theo. Thành phần không biết gì về các lần cam kết.'
+  vue:
+    title: 'Trong vue'
+    description: 'Cùng một lịch sử trong cây vue, các làn được vẽ lại khi các mục vào ở đầu.'
+  git:
+    title: 'Lịch sử của ứng dụng này'
+    description: 'Đọc từ kho lưu trữ bởi git_graph_items() của symfony-coding, thông qua trình đọc chia sẻ không bao giờ can thiệp vào git.'
+history:
+  merge_search: 'Gộp nhánh tìm kiếm'
+  search_filters: 'Thêm bộ lọc vào tìm kiếm'
+  fix_header: 'Sửa tiêu đề trên màn hình nhỏ'
+  try_theme: 'Thử một giao diện tối hơn'
+  search_index: 'Lập chỉ mục các tài liệu'
+  release: 'Phát hành 2.1.0'
+  search_start: 'Bắt đầu tìm kiếm'
+  initial: 'Lần cam kết đầu tiên'
+versions:
+  v4: 'Phiên bản 4, với các sửa đổi đã được áp dụng'
+  current: 'hiện tại'
+  review: 'Các thay đổi của người đánh giá'
+  review_ref: 'đánh giá'
+  v3: 'Phiên bản 3'
+  v2: 'Phiên bản 2'
+  v1: 'Phiên bản 1'

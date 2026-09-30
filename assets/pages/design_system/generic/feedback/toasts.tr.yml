@@ -1,0 +1,47 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Geri Bildirim'
+page_icon: 'ph:bold/notification'
+section:
+  vue:
+    title: Vue
+    description: 'Bir vue parçası gibi aynı toast. Kapatma burada animasyonla değil, yayım ile gerçekleşir: bir vue ağacında ebeveyn listeyi sahiplenir.'
+  simple_toast:
+    description: 'Basit bir toast göster'
+    button: "Toast'ı Aç"
+    title: 'Toast Demo'
+    message: "ToastService + ToastStack'den merhaba. Ayrıca bir mesaj içinde @action:demo(bu) gibi eylem bağlantıları tanımlayabilirsiniz."
+  tl_toast:
+    description: 'Üst solda bir toast yığını göster'
+    button: "Toast'ı Aç"
+    title: 'Üst Sol Toast'
+    message: "ToastService + ToastStack'den merhaba (TL)."
+  medium_toast:
+    description: 'Orta uzunlukta bir toast mesajı göster'
+    button: "Toast'ı Aç"
+    title: 'Orta Toast'
+    message: 'Bu, demo için orta uzunlukta bir toast mesajıdır.'
+  long_toast:
+    description: 'Uzun bir toast mesajı göster'
+    button: "Toast'ı Aç"
+    title: 'Uzun Toast'
+    message: 'Bu, demo için daha uzun bir toast mesajıdır. Daha fazla metin içerir, böylece bileşenin daha büyük içerik ile nasıl davrandığını önizleyebilirsiniz.'
+  horizontal_toasts:
+    description: "Dört toast'ı yatay bir yığında göster"
+    info:
+      title: "Bilgi Toast'ı"
+      message: 'Yatay toast önizlemesi.'
+      button: "Toast'ı Göster"
+    success:
+      title: "Başarı Toast'ı"
+      message: 'Her şey burada iyi görünüyor.'
+      button: "Toast'ı Göster"
+    warning:
+      title: "Uyarı Toast'ı"
+      message: 'Bu eylemi tekrar kontrol edin.'
+      button: "Toast'ı Göster"
+    error:
+      title: "Hata Toast'ı"
+      message: 'Burada bir şeyler ters gitti.'
+      button: "Toast'ı Göster"
+title:
+  toasts: "Toast'lar"

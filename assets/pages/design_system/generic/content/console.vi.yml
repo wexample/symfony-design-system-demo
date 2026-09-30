@@ -1,0 +1,14 @@
+~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+page_title: 'Bảng điều khiển'
+page_icon: 'ph:bold/terminal-window'
+intro: 'Những gì mà shell in ra, đọc lại trên trang: các lệnh sau dấu nhắc, đầu ra bên dưới chúng, và màu sắc của terminal được đọc như bảng màu, trong bất kỳ sơ đồ nào. Nó chỉ đọc; không thực hiện lệnh.'
+section:
+  session:
+    title: 'Một phiên'
+    description: 'Các dòng thuộc bốn loại — lệnh, đầu ra, lỗi, thông tin — hoặc chuỗi đơn giản. Các mã thoát mà một chương trình viết cho terminal của nó được giữ lại dưới dạng màu sắc và độ đậm; phần còn lại của những gì một terminal được thông báo sẽ bị bỏ qua.'
+  vue:
+    title: 'Trong vue'
+    description: 'Các dòng giống nhau, được vẽ bởi bản sao vue, ở đây với một dấu nhắc riêng.'
+  live:
+    title: 'Các dòng đến khi chúng xuất hiện'
+    description: 'Khi có một chủ đề cập nhật trực tiếp, bảng điều khiển vue sẽ thêm những gì mỗi thông điệp mang lại — một chuỗi, một dòng, hoặc một nhóm dòng — và theo dõi đến cuối trừ khi người đọc đã cuộn lên. Ở đây một nút đóng vai trò như chủ đề, thông qua cùng một cách thêm mà một thông điệp gọi.'

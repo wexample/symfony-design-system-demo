@@ -1,0 +1,41 @@
+page_title: Onayla
+section:
+  short:
+    description: 'Kısa metinle onayla (overlay).'
+    button: 'Onayı aç'
+    title: 'Lütfen onaylayın'
+    message: 'Devam etmek istiyor musunuz?'
+    result_title: 'Onay sonucu'
+    result_prefix: 'Sonuç:'
+  toast_short:
+    description: 'Kısa metinle onayla (toast).'
+    button: 'Onayı aç'
+    title: "Onay toast'ı"
+    message: 'Toast ile devam edelim mi?'
+    result_title: 'Toast onay sonucu'
+    result_prefix: 'Sonuç:'
+  medium:
+    description: 'Orta metinle onayla (overlay).'
+    button: 'Onayı aç'
+    title: 'Orta onay'
+  long:
+    description: 'Uzun metinle onayla (overlay).'
+    button: 'Onayı aç'
+    title: 'Uzun onay'
+  toast_medium:
+    description: 'Orta metinle onayla (toast).'
+    button: 'Onayı aç'
+    title: "Orta onay toast'ı"
+  toast_long:
+    description: 'Uzun metinle onayla (toast).'
+    button: 'Onayı aç'
+    title: "Uzun onay toast'ı"
+  custom:
+    description: 'Özel onay eylemleri (yığma).'
+    button: 'Onayı aç'
+    title: 'Yığma onay'
+    message: 'Başka bir onayı açalım mı yoksa hepsini kapatalım mı?'
+    action:
+      new: 'Yeni onay'
+      close_all: 'Tüm onayları kapat'
+      cancel: 'İptal et'

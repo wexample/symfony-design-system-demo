@@ -1,0 +1,20 @@
+page_title: 'Test modale - componenti'
+intro: 'Questo modale contiene componenti e interazioni.'
+menu:
+  label: 'Menu azioni'
+  item:
+    report: 'Segnala problema'
+    settings: Impostazioni
+    logout: Disconnettiti
+upload_button: 'Carica un file'
+choice:
+  one: 'Prima scelta'
+  two: 'Seconda scelta'
+  three: 'Terza scelta'
+toast_button: 'Mostra toast dal modale'
+toast_title: 'Toast modale'
+toast_message: "Ciao dall'interno del modale."
+frontend:
+  embed:
+    closing_confirmation:
+      message: 'Sei sicuro di voler chiudere questo modale?'
