@@ -104,11 +104,13 @@
 
         {#- A list of files at fault: each path read by its name, how many there
             are at the end of the bar, and two fixes — the ticked ones, or every
-            one, which needs nothing ticked and leads. -#}
+            one, which needs nothing ticked and leads. A path given as
+            { path, href, target } leads to its file: the last one opens in a
+            panel. -#}
         {% set file_rows = [
             { id: '03-DOCUMENTS/QAL - Syst Document/Obsolète/QAL-D-12-identification-and-validation-of-quality-system-software-v1.md', path: '03-DOCUMENTS/QAL - Syst Document/Obsolète/QAL-D-12-identification-and-validation-of-quality-system-software-v1.md' },
             { id: '05-INSTRUCTIONS/RES/RES-I-02-it-access-change-v2.md', path: '05-INSTRUCTIONS/RES/RES-I-02-it-access-change-v2.md' },
-            { id: 'README.md', path: 'README.md' },
+            { id: 'README.md', path: { path: 'README.md', href: path('wexample_design_system_generic_overlays_modal_test_simple'), target: 'panel' } },
         ] %}
         <section>
             <h2>{{ '@page::section.files.title' | trans }}</h2>
