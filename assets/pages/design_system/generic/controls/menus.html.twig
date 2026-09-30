@@ -32,6 +32,29 @@
         { icon: 'ph:bold/sign-out',       label: '@page::menu.item.logout',   href: app_home_url() }
     ] %}
 
+    {#- The body does the action, the caret alone opens the rest. -#}
+    {% set save_items = [
+        { icon: 'ph:bold/file-dashed', label: '@page::menu.item.draft', href: app_home_url() },
+        { icon: 'ph:bold/copy',        label: '@page::menu.item.copy',  href: app_home_url() },
+        { separator: true },
+        { icon: 'ph:bold/clock',       label: '@page::menu.item.schedule', href: app_home_url() }
+    ] %}
+    <h2>{{ '@page::section.split.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.split.description' | trans }}</div>
+    <div class="block block--padded cluster">
+        {{ button_menu('ph:bold/floppy-disk', '@page::menu.save' | trans, save_items, { action: { href: app_home_url() } }) }}
+        {{ button_menu('ph:bold/paper-plane-right', '@page::menu.publish' | trans, save_items, { action: { href: app_home_url() }, wrapper_class: 'button-menu--invert', menu_align: 'right' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/button-menu', {
+            icon: 'ph:bold/floppy-disk',
+            label: '@page::menu.save_vue' | trans,
+            action: { type: 'button' },
+            items: [
+                { icon: 'ph:bold/file-dashed', label: '@page::menu.item.draft' | trans, href: '#' },
+                { icon: 'ph:bold/copy',        label: '@page::menu.item.copy'  | trans, href: '#' }
+            ]
+        }) }}
+    </div>
+
     <h2>{{ '@page::section.separators.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.separators.description' | trans }}</div>
     <div class="block block--padded cluster">
