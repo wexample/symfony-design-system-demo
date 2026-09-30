@@ -1,0 +1,854 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Tree
+  page_icon: ph:bold/tree-structure
+
+  section:
+    default:
+      title: File explorer
+      description: "Nesting is the whole structure: an item opens when it carries open, and its depth is what indents the row while the highlight still spans the full width."
+    vue:
+      title: Vue
+      description: "Same markup, same shape, but the folders open and close: the chevron is what folds a node, and a click anywhere else on the row selects the item and sends it up as a select event."
+    vue_workspace:
+      title: Vue, in a workspace
+      description: "The explorer as an app ships it: the vue tree in the scrollable zone of a split, holding more rows than the zone is tall and longer names than it is wide. The zone scrolls on both axes and the horizontal bar stays at its floor, whatever the last row is."
+    plain:
+      title: Without icons
+      description: "The shape knows nothing about files — an item with no icon and no link renders as plain text."
+
+  explorer:
+    scope:
+      project: Project
+      packages: Packages
+      scratches: Scratches
+      changed: Changed Files
+    option:
+      filters: Filters
+      sort: Sort by name
+      hidden: Show hidden files
+    action:
+      new: New file
+      locate: Select opened file
+      collapse: Collapse all
+    body: "The tree carries no width and no height of its own: the zone beside it is an ordinary one, and each side scrolls alone."
+
+  plain:
+    root: Root
+    child: First child
+    sibling: Second child
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: شجرة
+  page_icon: 'ph:bold/هيكل-الشجرة'
+  section:
+    default:
+      title: 'مستعرض الملفات'
+      description: 'التعشيش هو الهيكل الكامل: عنصر يفتح عندما يحمل مفتوحًا، وعمقه هو ما يحدد مسافة السطر بينما لا يزال التمييز يمتد عبر العرض الكامل.'
+    vue:
+      title: فيو
+      description: 'نفس الشيفرة، نفس الشكل، لكن المجلدات تفتح وتغلق: السهم هو ما يطوي عقدة، ونقرة في أي مكان آخر على السطر تحدد العنصر وترسله كحدث اختيار.'
+    vue_workspace:
+      title: 'فيو، في مساحة عمل'
+      description: 'يتم شحن المستعرض كتطبيق: شجرة الفيو في المنطقة القابلة للتمرير في تقسيم، تحمل المزيد من الصفوف مما تكون عليه المنطقة ارتفاعًا وأسماء أطول مما هي عرضًا. المنطقة تمرر على كلا المحورين ويظل الشريط الأفقي عند أرضيته، بغض النظر عن آخر صف.'
+    plain:
+      title: 'بدون أيقونات'
+      description: 'الشكل لا يعرف شيئًا عن الملفات - عنصر بدون أيقونة وبدون رابط يظهر كنص عادي.'
+  explorer:
+    scope:
+      project: مشروع
+      packages: حزم
+      scratches: خربشات
+      changed: 'ملفات متغيرة'
+    option:
+      filters: مرشحات
+      sort: 'ترتيب حسب الاسم'
+      hidden: 'عرض الملفات المخفية'
+    action:
+      new: 'ملف جديد'
+      locate: 'تحديد الملف المفتوح'
+      collapse: 'طي الكل'
+    body: 'الشجرة لا تحمل عرضًا ولا ارتفاعًا خاصين بها: المنطقة بجانبها هي منطقة عادية، وكل جانب يمرر بمفرده.'
+  plain:
+    root: الجذر
+    child: 'الطفل الأول'
+    sibling: 'الطفل الثاني'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: গাছ
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'ফাইল এক্সপ্লোরার'
+      description: 'নেস্টিং পুরো কাঠামো: একটি আইটেম খোলার সময় খোলে, এবং এর গভীরতা সারিকে ইনডেন্ট করে যতক্ষণ হাইলাইট পুরো প্রস্থ জুড়ে থাকে।'
+    vue:
+      title: ভিউ
+      description: 'একই মার্কআপ, একই আকার, কিন্তু ফোল্ডারগুলো খোলে এবং বন্ধ হয়: শেভ্রন একটি নোডকে ভাঁজ করে, এবং সারির অন্য কোথাও ক্লিক করলে আইটেমটি নির্বাচন হয় এবং একটি নির্বাচন ইভেন্ট হিসেবে উপরে পাঠানো হয়।'
+    vue_workspace:
+      title: 'ভিউ, একটি কর্মক্ষেত্রে'
+      description: 'একটি অ্যাপ হিসেবে এক্সপ্লোরার এটি প্রেরণ করে: স্ক্রলযোগ্য জোনে ভিউ গাছ, যেখানে অঞ্চলের উচ্চতা থেকে বেশি সারি এবং প্রস্থ থেকে বড় নাম রয়েছে। অঞ্চলটি উভয় অক্ষে স্ক্রল করে এবং অনুভূমিক বারটি তার তলায় থাকে, শেষ সারি যাই হোক না কেন।'
+    plain:
+      title: 'আইকন ছাড়া'
+      description: 'আকারটি ফাইল সম্পর্কে কিছু জানে না — একটি আইকন এবং কোন লিঙ্ক ছাড়া একটি আইটেম সাধারণ টেক্সট হিসেবে প্রদর্শিত হয়।'
+  explorer:
+    scope:
+      project: প্রকল্প
+      packages: প্যাকেজসমূহ
+      scratches: স্ক্র্যাচ
+      changed: 'পরিবর্তিত ফাইল'
+    option:
+      filters: ফিল্টার
+      sort: 'নামের দ্বারা সাজান'
+      hidden: 'গোপন ফাইলগুলি দেখান'
+    action:
+      new: 'নতুন ফাইল'
+      locate: 'খোলা ফাইল নির্বাচন করুন'
+      collapse: 'সবগুলো সংকুচিত করুন'
+    body: 'গাছটির নিজস্ব কোন প্রস্থ এবং উচ্চতা নেই: এর পাশে অঞ্চলটি একটি সাধারণ অঞ্চল, এবং প্রতিটি পাশ এককভাবে স্ক্রল করে।'
+  plain:
+    root: মূল
+    child: 'প্রথম শিশু'
+    sibling: 'দ্বিতীয় শিশু'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Baum
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: Dateiexplorer
+      description: 'Die Verschachtelung ist die gesamte Struktur: Ein Element öffnet sich, wenn es geöffnet ist, und seine Tiefe ist es, die die Zeile einrückt, während die Hervorhebung weiterhin die gesamte Breite einnimmt.'
+    vue:
+      title: Vue
+      description: 'Gleiche Markup, gleiche Form, aber die Ordner öffnen und schließen sich: Das Chevron ist das, was einen Knoten faltet, und ein Klick irgendwo sonst in der Zeile wählt das Element aus und sendet es als Auswahlereignis nach oben.'
+    vue_workspace:
+      title: 'Vue, in einem Arbeitsbereich'
+      description: 'Der Explorer als App wird so geliefert: der vue Baum im scrollbaren Bereich eines Splits, der mehr Zeilen hält, als der Bereich hoch ist, und längere Namen als er breit ist. Der Bereich scrollt in beide Achsen und die horizontale Leiste bleibt am Boden, egal wo die letzte Zeile ist.'
+    plain:
+      title: 'Ohne Icons'
+      description: 'Die Form kennt nichts über Dateien — ein Element ohne Icon und ohne Link wird als Klartext angezeigt.'
+  explorer:
+    scope:
+      project: Projekt
+      packages: Pakete
+      scratches: Notizen
+      changed: 'Geänderte Dateien'
+    option:
+      filters: Filter
+      sort: 'Nach Name sortieren'
+      hidden: 'Versteckte Dateien anzeigen'
+    action:
+      new: 'Neue Datei'
+      locate: 'Öffnete Datei auswählen'
+      collapse: 'Alle einklappen'
+    body: 'Der Baum hat keine eigene Breite und Höhe: Der Bereich neben ihm ist ein gewöhnlicher, und jede Seite scrollt für sich allein.'
+  plain:
+    root: Wurzel
+    child: 'Erstes Kind'
+    sibling: 'Zweites Kind'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Árbol
+  page_icon: 'ph:bold/estructura-de-arbol'
+  section:
+    default:
+      title: 'Explorador de archivos'
+      description: 'La anidación es toda la estructura: un ítem se abre cuando lleva abierto, y su profundidad es lo que sangra la fila mientras el resaltado aún abarca todo el ancho.'
+    vue:
+      title: Vue
+      description: 'El mismo marcado, la misma forma, pero las carpetas se abren y cierran: el chevron es lo que pliega un nodo, y un clic en cualquier otro lugar de la fila selecciona el ítem y lo envía como un evento de selección.'
+    vue_workspace:
+      title: 'Vue, en un espacio de trabajo'
+      description: 'El explorador como una app se envía así: el árbol de vue en la zona desplazable de un dividido, manteniendo más filas de las que la zona es alta y nombres más largos de lo que es ancho. La zona se desplaza en ambos ejes y la barra horizontal permanece en su suelo, sea cual sea la última fila.'
+    plain:
+      title: 'Sin íconos'
+      description: 'La forma no sabe nada sobre archivos: un ítem sin ícono y sin enlace se renderiza como texto plano.'
+  explorer:
+    scope:
+      project: Proyecto
+      packages: Paquetes
+      scratches: Borradores
+      changed: 'Archivos cambiados'
+    option:
+      filters: Filtros
+      sort: 'Ordenar por nombre'
+      hidden: 'Mostrar archivos ocultos'
+    action:
+      new: 'Nuevo archivo'
+      locate: 'Seleccionar archivo abierto'
+      collapse: 'Colapsar todo'
+    body: 'El árbol no tiene ancho ni alto propio: la zona a su lado es una ordinaria, y cada lado se desplaza por separado.'
+  plain:
+    root: Raíz
+    child: 'Primer hijo'
+    sibling: 'Segundo hijo'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: درخت
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'مدیر فایل'
+      description: 'تودرتویی کل ساختار است: یک آیتم زمانی باز می‌شود که باز باشد و عمق آن ردیف را تو رفتگی می‌دهد در حالی که هایلایت هنوز عرض کامل را پوشش می‌دهد.'
+    vue:
+      title: Vue
+      description: 'همان نشانه‌گذاری، همان شکل، اما پوشه‌ها باز و بسته می‌شوند: فلش است که یک گره را تا می‌کند و کلیک در هر نقطه دیگری از ردیف، آیتم را انتخاب کرده و آن را به عنوان یک رویداد انتخابی ارسال می‌کند.'
+    vue_workspace:
+      title: 'Vue، در یک فضای کاری'
+      description: 'مدیر به عنوان یک اپلیکیشن ارائه می‌شود: درخت vue در منطقه قابل اسکرول یک تقسیم، که ردیف‌های بیشتری از ارتفاع منطقه دارد و نام‌های طولانی‌تری از عرض آن. این منطقه در هر دو محور اسکرول می‌شود و نوار افقی در کف خود باقی می‌ماند، هرچه آخرین ردیف باشد.'
+    plain:
+      title: 'بدون آیکون'
+      description: 'شکل هیچ اطلاعاتی درباره فایل‌ها ندارد — یک آیتم بدون آیکون و بدون لینک به عنوان متن ساده نمایش داده می‌شود.'
+  explorer:
+    scope:
+      project: پروژه
+      packages: بسته‌ها
+      scratches: یادداشت‌ها
+      changed: 'فایل‌های تغییر یافته'
+    option:
+      filters: فیلترها
+      sort: 'مرتب‌سازی بر اساس نام'
+      hidden: 'نمایش فایل‌های مخفی'
+    action:
+      new: 'فایل جدید'
+      locate: 'انتخاب فایل باز شده'
+      collapse: 'بستن همه'
+    body: 'درخت هیچ عرض و ارتفاعی به خودی خود ندارد: منطقه کناری آن یک منطقه عادی است و هر طرف به تنهایی اسکرول می‌شود.'
+  plain:
+    root: ریشه
+    child: 'فرزند اول'
+    sibling: 'فرزند دوم'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Puu
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: Tiedostonhallinta
+      description: 'Pesiminen on koko rakenne: kohde avautuu, kun se on auki, ja sen syvyys on se, mikä siirtää riviä vasemmalle, samalla kun korostus kattaa koko leveyden.'
+    vue:
+      title: Vue
+      description: 'Sama merkintä, sama muoto, mutta kansiot avautuvat ja sulkeutuvat: nuoli on se, joka taittaa solmua, ja napsautus mihin tahansa muuhun kohtaan rivillä valitsee kohteen ja lähettää sen valintatapahtumana.'
+    vue_workspace:
+      title: 'Vue, työtilassa'
+      description: 'Tutkija sovelluksena on sellainen: vue-puu vieritettävässä vyöhykkeessä jakautumisen sisällä, pitäen enemmän rivejä kuin vyöhyke on korkea ja pidempiä nimiä kuin se on leveä. Vyöhyke vierittää molemmissa akselissa ja vaakasuora palkki pysyy pohjassa, riippumatta siitä, mikä viimeinen rivi on.'
+    plain:
+      title: 'Ilman kuvakkeita'
+      description: 'Muoto ei tiedä mitään tiedostoista — kohde ilman kuvaketta ja linkkiä näkyy tavallisena tekstinä.'
+  explorer:
+    scope:
+      project: Projektit
+      packages: Paketteja
+      scratches: Luonnokset
+      changed: 'Muutetut tiedostot'
+    option:
+      filters: Suodattimet
+      sort: 'Järjestä nimen mukaan'
+      hidden: 'Näytä piilotetut tiedostot'
+    action:
+      new: 'Uusi tiedosto'
+      locate: 'Valitse avoin tiedosto'
+      collapse: 'Kollapsoi kaikki'
+    body: 'Puu ei omaa leveyttä eikä korkeutta: sen vieressä oleva vyöhyke on tavallinen, ja kumpikin puoli vierittää itsenäisesti.'
+  plain:
+    root: Juuri
+    child: 'Ensimmäinen lapsi'
+    sibling: 'Toinen lapsi'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Arbre
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Explorateur de fichiers'
+      description: "L'imbrication est toute la structure : un élément s'ouvre lorsqu'il est ouvert, et sa profondeur est ce qui indent le rang tandis que le surlignage s'étend toujours sur toute la largeur."
+    vue:
+      title: Vue
+      description: "Même balisage, même forme, mais les dossiers s'ouvrent et se ferment : le chevron est ce qui plie un nœud, et un clic n'importe où sur le rang sélectionne l'élément et l'envoie comme un événement de sélection."
+    vue_workspace:
+      title: 'Vue, dans un espace de travail'
+      description: "L'explorateur en tant qu'application l'expédie : l'arbre vue dans la zone défilable d'un split, contenant plus de rangées que la zone n'est haute et des noms plus longs qu'elle n'est large. La zone défile sur les deux axes et la barre horizontale reste à son niveau, peu importe quelle est la dernière rangée."
+    plain:
+      title: 'Sans icônes'
+      description: "La forme ne connaît rien des fichiers — un élément sans icône et sans lien s'affiche comme du texte brut."
+  explorer:
+    scope:
+      project: Projet
+      packages: Paquets
+      scratches: Griffonnages
+      changed: 'Fichiers modifiés'
+    option:
+      filters: Filtres
+      sort: 'Trier par nom'
+      hidden: 'Afficher les fichiers cachés'
+    action:
+      new: 'Nouveau fichier'
+      locate: 'Sélectionner le fichier ouvert'
+      collapse: 'Réduire tout'
+    body: "L'arbre ne possède ni largeur ni hauteur propres : la zone à côté est ordinaire, et chaque côté défile seul."
+  plain:
+    root: Racine
+    child: 'Premier enfant'
+    sibling: 'Deuxième enfant'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: עץ
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'מנהל קבצים'
+      description: 'ההשראה היא כל המבנה: פריט נפתח כשיש לו פתיחה, ועומקו הוא מה שמעבה את השורה בעוד שההדגשה עדיין נפרסת על כל רוחב.'
+    vue:
+      title: Vue
+      description: 'אותה תבנית, אותה צורה, אבל התיקיות נפתחות וסוגרות: החץ הוא מה שמקפל צומת, ולחיצה בכל מקום אחר בשורה בוחרת את הפריט ושולחת אותו כאירוע בחירה.'
+    vue_workspace:
+      title: 'Vue, בתוך חלל עבודה'
+      description: 'המנהל כאפליקציה מגיע כך: עץ הוּה בשטח הגלילה של חלון מחולק, מחזיק יותר שורות מגובה האזור ושמות ארוכים יותר מרוחבו. האזור גולל בשני הצירים והסרגל האופקי נשאר בתחתיתו, לא משנה מהי השורה האחרונה.'
+    plain:
+      title: 'ללא אייקונים'
+      description: 'הצורה אינה יודעת דבר על קבצים — פריט ללא אייקון וללא קישור מוצג כטקסט פשוט.'
+  explorer:
+    scope:
+      project: פרויקט
+      packages: חבילות
+      scratches: שרטוטים
+      changed: 'קבצים שהשתנו'
+    option:
+      filters: מסננים
+      sort: 'מיין לפי שם'
+      hidden: 'הצג קבצים מוסתרים'
+    action:
+      new: 'קובץ חדש'
+      locate: 'בחר קובץ פתוח'
+      collapse: 'מזער הכל'
+    body: 'העץ אינו נושא רוחב או גובה משלו: האזור לידו הוא אזור רגיל, וכל צד גולל בפני עצמו.'
+  plain:
+    root: שורש
+    child: 'ילד ראשון'
+    sibling: 'ילד שני'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: पेड़
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'फ़ाइल अन्वेषक'
+      description: 'नैस्टिंग पूरी संरचना है: एक आइटम तब खुलता है जब यह खुला होता है, और इसकी गहराई वह होती है जो पंक्ति को इंडेंट करती है जबकि हाइलाइट अभी भी पूरी चौड़ाई को फैला हुआ है।'
+    vue:
+      title: व्यू
+      description: 'एक समान मार्कअप, एक समान आकार, लेकिन फ़ोल्डर खुलते और बंद होते हैं: चिवर एक नोड को मोड़ता है, और पंक्ति पर कहीं और क्लिक करने से आइटम का चयन होता है और इसे चयन घटना के रूप में भेजा जाता है।'
+    vue_workspace:
+      title: 'व्यू, एक कार्यक्षेत्र में'
+      description: 'अन्वेषक एक ऐप के रूप में इसे शिप करता है: स्क्रॉल करने योग्य क्षेत्र में vue पेड़, जो क्षेत्र की ऊँचाई से अधिक पंक्तियाँ और चौड़ाई से अधिक लंबे नाम रखता है। क्षेत्र दोनों अक्षों पर स्क्रॉल करता है और क्षैतिज बार अपनी स्थिति पर रहता है, चाहे अंतिम पंक्ति कुछ भी हो।'
+    plain:
+      title: 'बिना आइकनों के'
+      description: 'आकार फ़ाइलों के बारे में कुछ नहीं जानता — कोई आइकन और कोई लिंक के बिना आइटम सामान्य पाठ के रूप में प्रदर्शित होता है।'
+  explorer:
+    scope:
+      project: परियोजना
+      packages: पैकेज
+      scratches: स्क्रैच
+      changed: 'बदले हुए फ़ाइलें'
+    option:
+      filters: फ़िल्टर
+      sort: 'नाम से क्रमबद्ध करें'
+      hidden: 'छिपी हुई फ़ाइलें दिखाएँ'
+    action:
+      new: 'नई फ़ाइल'
+      locate: 'खुली फ़ाइल का चयन करें'
+      collapse: 'सभी को संकुचित करें'
+    body: 'पेड़ की अपनी कोई चौड़ाई और ऊँचाई नहीं होती: इसके बगल का क्षेत्र एक सामान्य क्षेत्र है, और प्रत्येक तरफ स्वतंत्र रूप से स्क्रॉल होता है।'
+  plain:
+    root: जड़
+    child: 'पहला बच्चा'
+    sibling: 'दूसरा बच्चा'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Pohon
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Penjelajah berkas'
+      description: 'Penyusunan adalah keseluruhan struktur: sebuah item terbuka saat dibawa terbuka, dan kedalamannya adalah yang mengindent baris sementara sorotan tetap mencakup seluruh lebar.'
+    vue:
+      title: Vue
+      description: 'Markup yang sama, bentuk yang sama, tetapi folder terbuka dan tertutup: chevron adalah yang melipat sebuah node, dan klik di tempat lain pada baris memilih item dan mengirimnya sebagai peristiwa pemilihan.'
+    vue_workspace:
+      title: 'Vue, dalam ruang kerja'
+      description: 'Penjelajah sebagai aplikasi mengirimnya: pohon vue di zona yang dapat digulir dari pembagian, memegang lebih banyak baris daripada zona yang tinggi dan nama yang lebih panjang daripada lebar. Zona menggulir di kedua sumbu dan batang horizontal tetap di lantainya, apapun baris terakhirnya.'
+    plain:
+      title: 'Tanpa ikon'
+      description: 'Bentuk tidak mengetahui apa pun tentang berkas — sebuah item tanpa ikon dan tanpa tautan ditampilkan sebagai teks biasa.'
+  explorer:
+    scope:
+      project: Proyek
+      packages: Paket
+      scratches: Goresan
+      changed: 'Berkas yang Diubah'
+    option:
+      filters: Filter
+      sort: 'Urutkan berdasarkan nama'
+      hidden: 'Tampilkan berkas tersembunyi'
+    action:
+      new: 'Berkas baru'
+      locate: 'Pilih berkas yang dibuka'
+      collapse: 'Liput semua'
+    body: 'Pohon tidak memiliki lebar dan tinggi sendiri: zona di sampingnya adalah zona biasa, dan setiap sisi menggulir sendiri.'
+  plain:
+    root: Akar
+    child: 'Anak pertama'
+    sibling: 'Anak kedua'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Albero
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Esplora file'
+      description: "La nidificazione è l'intera struttura: un elemento si apre quando è aperto e la sua profondità è ciò che rientra la riga mentre l'evidenziazione si estende ancora su tutta la larghezza."
+    vue:
+      title: Vue
+      description: "Stessa marcatura, stessa forma, ma le cartelle si aprono e si chiudono: il chevron è ciò che piega un nodo, e un clic ovunque sulla riga seleziona l'elemento e lo invia come evento di selezione."
+    vue_workspace:
+      title: "Vue, in un'area di lavoro"
+      description: "L'esploratore come un'app lo spedisce: l'albero vue nella zona scorrevole di uno split, contenente più righe di quelle che la zona è alta e nomi più lunghi di quanto sia larga. La zona scorre su entrambi gli assi e la barra orizzontale rimane al suo fondo, qualunque sia l'ultima riga."
+    plain:
+      title: 'Senza icone'
+      description: 'La forma non sa nulla sui file: un elemento senza icona e senza link viene visualizzato come testo semplice.'
+  explorer:
+    scope:
+      project: Progetto
+      packages: Pacchetti
+      scratches: Appunti
+      changed: 'File modificati'
+    option:
+      filters: Filtri
+      sort: 'Ordina per nome'
+      hidden: 'Mostra file nascosti'
+    action:
+      new: 'Nuovo file'
+      locate: 'Seleziona file aperto'
+      collapse: 'Riduci tutto'
+    body: "L'albero non ha larghezza e altezza proprie: la zona accanto è una zona normale e ciascun lato scorre da solo."
+  plain:
+    root: Radice
+    child: 'Primo figlio'
+    sibling: 'Secondo figlio'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ツリー
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: ファイルエクスプローラー
+      description: ネスティングは全体の構造です：アイテムが開くときは開いていて、その深さが行をインデントし、ハイライトはフル幅を保持します。
+    vue:
+      title: Vue
+      description: 同じマークアップ、同じ形状ですが、フォルダーは開閉します：シェブロンがノードを折りたたみ、行の他の場所をクリックするとアイテムが選択され、選択イベントとして上に送信されます。
+    vue_workspace:
+      title: ワークスペース内のVue
+      description: アプリとしてのエクスプローラーが提供されます：分割のスクロール可能ゾーン内のvueツリーで、ゾーンの高さよりも多くの行を保持し、名前がゾーンの幅よりも長いです。ゾーンは両方の軸でスクロールし、水平バーは最後の行が何であれ、その床に留まります。
+    plain:
+      title: アイコンなし
+      description: '形状はファイルについて何も知りません — アイコンもリンクもないアイテムはプレーンテキストとして表示されます。'
+  explorer:
+    scope:
+      project: プロジェクト
+      packages: パッケージ
+      scratches: スケッチ
+      changed: 変更されたファイル
+    option:
+      filters: フィルター
+      sort: 名前でソート
+      hidden: 隠しファイルを表示
+    action:
+      new: 新しいファイル
+      locate: 開いているファイルを選択
+      collapse: すべて折りたたむ
+    body: ツリーには独自の幅や高さはありません：その隣のゾーンは通常のもので、各側は独立してスクロールします。
+  plain:
+    root: ルート
+    child: 最初の子
+    sibling: 二番目の子
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 트리
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: '파일 탐색기'
+      description: '중첩은 전체 구조입니다: 항목이 열릴 때 열림 상태를 유지하고, 깊이는 행을 들여쓰게 하며 강조 표시가 전체 너비를 가로지릅니다.'
+    vue:
+      title: Vue
+      description: '같은 마크업, 같은 형태지만, 폴더가 열리고 닫힙니다: Chevron은 노드를 접고, 행의 다른 곳을 클릭하면 항목이 선택되어 선택 이벤트로 전송됩니다.'
+    vue_workspace:
+      title: '작업 공간의 Vue'
+      description: '앱으로서의 탐색기는 이렇게 제공됩니다: 스크롤 가능한 구역에 있는 vue 트리로, 구역의 높이보다 더 많은 행과 이름이 더 긴 항목을 포함합니다. 구역은 두 축 모두에서 스크롤되며, 수평 막대는 마지막 행에 관계없이 바닥에 고정되어 있습니다.'
+    plain:
+      title: '아이콘 없이'
+      description: '형태는 파일에 대해 아무것도 알지 못합니다 — 아이콘과 링크가 없는 항목은 일반 텍스트로 표시됩니다.'
+  explorer:
+    scope:
+      project: 프로젝트
+      packages: 패키지
+      scratches: 스크래치
+      changed: '변경된 파일'
+    option:
+      filters: 필터
+      sort: '이름으로 정렬'
+      hidden: '숨겨진 파일 표시'
+    action:
+      new: '새 파일'
+      locate: '열린 파일 선택'
+      collapse: '모두 접기'
+    body: '트리는 자체적인 너비와 높이를 갖지 않습니다: 그 옆의 구역은 일반적인 구역이며, 양쪽 모두 독립적으로 스크롤됩니다.'
+  plain:
+    root: 루트
+    child: '첫 번째 자식'
+    sibling: '두 번째 자식'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Boom
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: Bestandsverkenner
+      description: 'Nesting is de hele structuur: een item opent wanneer het open is, en de diepte bepaalt hoe de rij wordt ingesprongen terwijl de markering de volledige breedte beslaat.'
+    vue:
+      title: Vue
+      description: 'Zelfde opmaak, zelfde vorm, maar de mappen openen en sluiten: de chevron vouwt een knooppunt, en een klik ergens anders op de rij selecteert het item en stuurt het als een selecteer gebeurtenis.'
+    vue_workspace:
+      title: 'Vue, in een werkruimte'
+      description: 'De verkenner als een app wordt geleverd: de vue-boom in de scrollbare zone van een splitsing, met meer rijen dan de zone hoog is en langere namen dan de zone breed is. De zone scrollt op beide assen en de horizontale balk blijft op zijn vloer, ongeacht wat de laatste rij is.'
+    plain:
+      title: 'Zonder pictogrammen'
+      description: 'De vorm weet niets van bestanden — een item zonder pictogram en zonder link wordt weergegeven als platte tekst.'
+  explorer:
+    scope:
+      project: Project
+      packages: Pakketten
+      scratches: Notities
+      changed: 'Gewijzigde bestanden'
+    option:
+      filters: Filters
+      sort: 'Sorteren op naam'
+      hidden: 'Toon verborgen bestanden'
+    action:
+      new: 'Nieuw bestand'
+      locate: 'Selecteer geopend bestand'
+      collapse: 'Alles inklappen'
+    body: 'De boom heeft geen eigen breedte en hoogte: de zone ernaast is een gewone, en elke kant scrollt apart.'
+  plain:
+    root: Root
+    child: 'Eerste kind'
+    sibling: 'Tweede kind'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Drzewo
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Eksplorator plików'
+      description: 'Zagnieżdżenie to cała struktura: element otwiera się, gdy jest otwarty, a jego głębokość to to, co wcięcie wiersza, podczas gdy podświetlenie nadal rozciąga się na całą szerokość.'
+    vue:
+      title: Vue
+      description: 'Ta sama struktura, ten sam kształt, ale foldery się otwierają i zamykają: chevron to to, co składa węzeł, a kliknięcie gdzie indziej w wierszu wybiera element i przesyła go jako zdarzenie wyboru.'
+    vue_workspace:
+      title: 'Vue w przestrzeni roboczej'
+      description: 'Eksplorator jako aplikacja dostarcza to: drzewo vue w przewijanej strefie podziału, zawierające więcej wierszy niż strefa jest wysoka i dłuższe nazwy niż jest szeroka. Strefa przewija się w obu osiach, a poziomy pasek pozostaje na swoim dnie, niezależnie od tego, jaka jest ostatnia linia.'
+    plain:
+      title: 'Bez ikon'
+      description: 'Kształt nic nie wie o plikach — element bez ikony i bez linku renderuje się jako zwykły tekst.'
+  explorer:
+    scope:
+      project: Projekt
+      packages: Pakiety
+      scratches: Notatki
+      changed: 'Zmienione pliki'
+    option:
+      filters: Filtry
+      sort: 'Sortuj według nazwy'
+      hidden: 'Pokaż ukryte pliki'
+    action:
+      new: 'Nowy plik'
+      locate: 'Wybierz otwarty plik'
+      collapse: 'Zwiń wszystko'
+    body: 'Drzewo nie ma własnej szerokości ani wysokości: strefa obok niego jest zwykła, a każda strona przewija się osobno.'
+  plain:
+    root: Root
+    child: 'Pierwsze dziecko'
+    sibling: 'Drugie dziecko'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Árvore
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Explorador de arquivos'
+      description: 'A aninhamento é toda a estrutura: um item se abre quando está aberto, e sua profundidade é o que indenta a linha enquanto a marcação ainda se estende por toda a largura.'
+    vue:
+      title: Vue
+      description: 'Mesma marcação, mesma forma, mas as pastas abrem e fecham: o chevron é o que dobra um nó, e um clique em qualquer outro lugar da linha seleciona o item e o envia como um evento de seleção.'
+    vue_workspace:
+      title: 'Vue, em um espaço de trabalho'
+      description: 'O explorador como um aplicativo é entregue assim: a árvore vue na zona rolável de uma divisão, contendo mais linhas do que a zona é alta e nomes mais longos do que é larga. A zona rola em ambos os eixos e a barra horizontal permanece em seu piso, independentemente de qual seja a última linha.'
+    plain:
+      title: 'Sem ícones'
+      description: 'A forma não sabe nada sobre arquivos — um item sem ícone e sem link é exibido como texto simples.'
+  explorer:
+    scope:
+      project: Projeto
+      packages: Pacotes
+      scratches: Rascunhos
+      changed: 'Arquivos Alterados'
+    option:
+      filters: Filtros
+      sort: 'Ordenar por nome'
+      hidden: 'Mostrar arquivos ocultos'
+    action:
+      new: 'Novo arquivo'
+      locate: 'Selecionar arquivo aberto'
+      collapse: 'Colapsar tudo'
+    body: 'A árvore não tem largura nem altura próprias: a zona ao lado é uma zona comum, e cada lado rola sozinho.'
+  plain:
+    root: Raiz
+    child: 'Primeiro filho'
+    sibling: 'Segundo filho'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Дерево
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Диспетчер файлов'
+      description: 'Вложенность — это вся структура: элемент открывается, когда он развернут, а его глубина определяет отступ строки, в то время как выделение все еще охватывает всю ширину.'
+    vue:
+      title: Vue
+      description: 'Одинаковая разметка, одинаковая форма, но папки открываются и закрываются: стрелка сворачивает узел, а клик в любом другом месте строки выбирает элемент и отправляет его как событие выбора.'
+    vue_workspace:
+      title: 'Vue в рабочей области'
+      description: 'Диспетчер как приложение доставляется с ним: дерево vue в прокручиваемой зоне сплита, удерживающее больше строк, чем зона высокая, и более длинные названия, чем она широкая. Зона прокручивается по обеим осям, а горизонтальная полоса остается на своем уровне, независимо от того, какая последняя строка.'
+    plain:
+      title: 'Без иконок'
+      description: 'Форма ничего не знает о файлах — элемент без иконки и ссылки отображается как простой текст.'
+  explorer:
+    scope:
+      project: Проект
+      packages: Пакеты
+      scratches: Черновики
+      changed: 'Измененные файлы'
+    option:
+      filters: Фильтры
+      sort: 'Сортировать по имени'
+      hidden: 'Показать скрытые файлы'
+    action:
+      new: 'Новый файл'
+      locate: 'Выбрать открытый файл'
+      collapse: 'Свернуть все'
+    body: 'Дерево не имеет собственной ширины и высоты: зона рядом с ним является обычной, и каждая сторона прокручивается отдельно.'
+  plain:
+    root: Корень
+    child: 'Первый дочерний элемент'
+    sibling: 'Второй дочерний элемент'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ต้นไม้
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: ตัวจัดการไฟล์
+      description: 'การซ้อนคือโครงสร้างทั้งหมด: รายการจะเปิดเมื่อมันมีการเปิดอยู่ และความลึกของมันคือสิ่งที่ทำให้แถวเลื่อนลง ในขณะที่การเน้นยังคงขยายเต็มความกว้าง.'
+    vue:
+      title: Vue
+      description: 'Markup เดียวกัน รูปร่างเดียวกัน แต่โฟลเดอร์เปิดและปิด: Chevron คือสิ่งที่พับโหนด และการคลิกที่ใดก็ได้ในแถวจะเลือกรายการและส่งขึ้นเป็นเหตุการณ์ที่เลือก.'
+    vue_workspace:
+      title: 'Vue ในพื้นที่ทำงาน'
+      description: 'ตัวจัดการในแอป: ต้นไม้ Vue ในโซนที่เลื่อนในแบบแบ่งหน้าจอ ซึ่งมีแถวมากกว่าสูงของโซนและชื่อที่ยาวกว่าความกว้างของโซน โซนเลื่อนในทั้งสองแกนและแถบแนวนอนจะอยู่ที่พื้น ไม่ว่าจะเป็นแถวสุดท้ายคืออะไร.'
+    plain:
+      title: ไม่มีไอคอน
+      description: 'รูปร่างไม่รู้จักไฟล์ — รายการที่ไม่มีไอคอนและไม่มีลิงก์จะแสดงเป็นข้อความธรรมดา.'
+  explorer:
+    scope:
+      project: โครงการ
+      packages: แพ็กเกจ
+      scratches: บันทึกชั่วคราว
+      changed: ไฟล์ที่เปลี่ยนแปลง
+    option:
+      filters: ตัวกรอง
+      sort: เรียงตามชื่อ
+      hidden: แสดงไฟล์ที่ซ่อนอยู่
+    action:
+      new: ไฟล์ใหม่
+      locate: เลือกไฟล์ที่เปิดอยู่
+      collapse: ยุบทั้งหมด
+    body: 'ต้นไม้ไม่มีความกว้างและความสูงของมันเอง: โซนข้างๆ เป็นโซนปกติ และแต่ละด้านเลื่อนแยกกัน.'
+  plain:
+    root: ราก
+    child: ลูกคนแรก
+    sibling: ลูกคนที่สอง
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ağaç
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Dosya Gezgini'
+      description: 'Yuva, tüm yapıdır: bir öğe açık olduğunda açılır ve derinliği, satırı girintilerken vurgulama hâlâ tam genişlikte devam eder.'
+    vue:
+      title: Vue
+      description: 'Aynı işaretleme, aynı şekil, ancak klasörler açılır ve kapanır: ok, bir düğümü katlarken, satırda başka bir yere tıklamak öğeyi seçer ve bir seçim olayı olarak yukarı gönderir.'
+    vue_workspace:
+      title: 'Vue, bir çalışma alanında'
+      description: 'Gezgini bir uygulama olarak sunar: kaydırılabilir alandaki vue ağacı, alanın yüksekliğinden daha fazla satır ve genişliğinden daha uzun isimler tutar. Alan her iki eksende kaydırılır ve yatay çubuk en altta kalır, son satır ne olursa olsun.'
+    plain:
+      title: Simgesiz
+      description: 'Şekil dosyalar hakkında hiçbir şey bilmez - simgesi ve bağlantısı olmayan bir öğe düz metin olarak görüntülenir.'
+  explorer:
+    scope:
+      project: Proje
+      packages: Paketler
+      scratches: Notlar
+      changed: 'Değiştirilen Dosyalar'
+    option:
+      filters: Filtreler
+      sort: 'İsme göre sırala'
+      hidden: 'Gizli dosyaları göster'
+    action:
+      new: 'Yeni dosya'
+      locate: 'Açık dosyayı seç'
+      collapse: 'Hepsini daralt'
+    body: 'Ağaç kendi başına genişlik ve yükseklik taşımaz: yanındaki alan sıradan bir alandır ve her taraf ayrı ayrı kaydırılır.'
+  plain:
+    root: Kök
+    child: 'İlk çocuk'
+    sibling: 'İkinci çocuk'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: درخت
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'فائل ایکسپلورر'
+      description: 'نیسٹنگ پوری ساخت ہے: ایک آئٹم اس وقت کھلتا ہے جب یہ کھلا ہوتا ہے، اور اس کی گہرائی وہی ہے جو قطار کو انڈینٹ کرتی ہے جبکہ ہائی لائٹ اب بھی پوری چوڑائی میں پھیلا ہوا ہے۔'
+    vue:
+      title: ویو
+      description: 'ایک جیسا مارک اپ، ایک جیسا شکل، لیکن فولڈرز کھلتے اور بند ہوتے ہیں: چیورون وہی ہے جو نوڈ کو فولڈ کرتا ہے، اور قطار میں کہیں بھی کلک کرنے سے آئٹم منتخب ہوتا ہے اور اسے منتخب ایونٹ کے طور پر اوپر بھیجتا ہے۔'
+    vue_workspace:
+      title: 'ویو، ورک اسپیس میں'
+      description: 'ایپ کے طور پر ایکسپلورر: ویو درخت ایک سکرول ایبل زون میں ہے، جو زون کی اونچائی سے زیادہ قطاریں رکھتا ہے اور اس کی چوڑائی سے لمبے نام ہیں۔ یہ زون دونوں محوروں پر سکرول ہوتا ہے اور افقی بار اپنی جگہ پر رہتا ہے، چاہے آخری قطار کیا ہو۔'
+    plain:
+      title: 'آئیکن کے بغیر'
+      description: 'شکل کو فائلوں کے بارے میں کچھ معلوم نہیں — ایک آئٹم بغیر آئیکن اور بغیر لنک کے خالص متن کے طور پر دکھائی دیتا ہے۔'
+  explorer:
+    scope:
+      project: پروجیکٹ
+      packages: پیکیجز
+      scratches: اسکیچز
+      changed: 'بدلے ہوئے فائلیں'
+    option:
+      filters: فلٹرز
+      sort: 'نام کے مطابق ترتیب دیں'
+      hidden: 'چھپی ہوئی فائلیں دکھائیں'
+    action:
+      new: 'نئی فائل'
+      locate: 'کھولی ہوئی فائل منتخب کریں'
+      collapse: 'سب کو بند کریں'
+    body: 'درخت کی اپنی کوئی چوڑائی اور اونچائی نہیں ہے: اس کے پاس والا زون ایک عام زون ہے، اور ہر طرف اکیلے سکرول ہوتا ہے۔'
+  plain:
+    root: روٹ
+    child: 'پہلا بچہ'
+    sibling: 'دوسرا بچہ'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Cây
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 'Trình duyệt tệp'
+      description: 'Cấu trúc tổ chức là toàn bộ: một mục mở ra khi nó đang mở, và độ sâu của nó là điều định hình hàng trong khi đánh dấu vẫn trải dài toàn bộ chiều rộng.'
+    vue:
+      title: Vue
+      description: 'Cùng một đánh dấu, cùng một hình dạng, nhưng các thư mục mở và đóng: biểu tượng mũi tên là thứ gập một nút, và một cú nhấp chuột ở bất kỳ đâu trên hàng sẽ chọn mục và gửi nó lên như một sự kiện chọn.'
+    vue_workspace:
+      title: 'Vue, trong một không gian làm việc'
+      description: 'Trình duyệt như một ứng dụng: cây vue trong khu vực cuộn của một phân vùng, chứa nhiều hàng hơn chiều cao của khu vực và tên dài hơn chiều rộng của nó. Khu vực cuộn trên cả hai trục và thanh ngang giữ ở vị trí thấp nhất, bất kể hàng cuối cùng là gì.'
+    plain:
+      title: 'Không có biểu tượng'
+      description: 'Hình dạng không biết gì về tệp — một mục không có biểu tượng và không có liên kết hiển thị dưới dạng văn bản thuần túy.'
+  explorer:
+    scope:
+      project: 'Dự án'
+      packages: Gói
+      scratches: 'Ghi chú'
+      changed: 'Tệp đã thay đổi'
+    option:
+      filters: 'Bộ lọc'
+      sort: 'Sắp xếp theo tên'
+      hidden: 'Hiện tệp ẩn'
+    action:
+      new: 'Tệp mới'
+      locate: 'Chọn tệp đã mở'
+      collapse: 'Thu gọn tất cả'
+    body: 'Cây không có chiều rộng và chiều cao riêng: khu vực bên cạnh nó là một khu vực bình thường, và mỗi bên cuộn riêng lẻ.'
+  plain:
+    root: Gốc
+    child: 'Con đầu tiên'
+    sibling: 'Con thứ hai'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 树
+  page_icon: 'ph:bold/tree-structure'
+  section:
+    default:
+      title: 文件浏览器
+      description: 嵌套是整个结构：一个项目在打开时会展开，其深度决定了行的缩进，而高亮仍然跨越整个宽度。
+    vue:
+      title: Vue
+      description: 相同的标记，相同的形状，但文件夹可以打开和关闭：箭头是折叠节点的标志，行上其他地方的点击选择该项目并作为选择事件发送。
+    vue_workspace:
+      title: 在工作区中的Vue
+      description: 浏览器作为应用程序提供：可滚动区域中的vue树，包含的行数比区域的高度多，名称比宽度长。该区域在两个轴上滚动，水平条保持在其底部，无论最后一行是什么。
+    plain:
+      title: 没有图标
+      description: 形状对文件一无所知——没有图标和链接的项目呈现为纯文本。
+  explorer:
+    scope:
+      project: 项目
+      packages: 软件包
+      scratches: 草稿
+      changed: 已更改的文件
+    option:
+      filters: 过滤器
+      sort: 按名称排序
+      hidden: 显示隐藏文件
+    action:
+      new: 新文件
+      locate: 选择已打开的文件
+      collapse: 全部折叠
+    body: 树本身没有宽度和高度：旁边的区域是普通区域，每一侧单独滚动。
+  plain:
+    root: 根
+    child: 第一个子项
+    sibling: 第二个子项

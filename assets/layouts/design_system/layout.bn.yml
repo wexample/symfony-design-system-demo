@@ -1,8 +1,0 @@
-~extends: '@front.layouts.private.layout'
-menu_design_system:
-  navigation:
-    group:
-      app:
-        title: 'অ্যাপ উপাদান'
-      generic:
-        title: 'সাধারণ উপাদান'

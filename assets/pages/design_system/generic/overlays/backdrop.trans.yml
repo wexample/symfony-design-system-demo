@@ -1,0 +1,253 @@
+en:
+  page_title: Overlays
+  page_icon: ph:bold/square-half-bottom
+
+  section:
+    simple_overlay:
+      description: Display a simple overlay during 3 seconds.
+      button: Show overlay
+    spinner_overlay:
+      description: Display an overlay with a loading spinner for 3 seconds.
+      button: Show overlay
+
+ar:
+  page_title: التراكبات
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'عرض تراكب بسيط لمدة 3 ثواني.'
+      button: 'عرض التراكب'
+    spinner_overlay:
+      description: 'عرض تراكب مع مؤشر تحميل لمدة 3 ثواني.'
+      button: 'عرض التراكب'
+
+bn:
+  page_title: ওভারলে
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: '৩ সেকেন্ডের জন্য একটি সাধারণ ওভারলে প্রদর্শন করুন।'
+      button: 'ওভারলে দেখান'
+    spinner_overlay:
+      description: '৩ সেকেন্ডের জন্য একটি লোডিং স্পিনার সহ ওভারলে প্রদর্শন করুন।'
+      button: 'ওভারলে দেখান'
+
+de:
+  page_title: Überlagerungen
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Zeige eine einfache Überlagerung für 3 Sekunden an.'
+      button: 'Überlagerung anzeigen'
+    spinner_overlay:
+      description: 'Zeige eine Überlagerung mit einem Lade-Drehkreis für 3 Sekunden an.'
+      button: 'Überlagerung anzeigen'
+
+es:
+  page_title: Superposiciones
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Mostrar una superposición simple durante 3 segundos.'
+      button: 'Mostrar superposición'
+    spinner_overlay:
+      description: 'Mostrar una superposición con un spinner de carga durante 3 segundos.'
+      button: 'Mostrar superposición'
+
+fa:
+  page_title: پوشش‌ها
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'پوشش ساده‌ای به مدت ۳ ثانیه نمایش دهید.'
+      button: 'نمایش پوشش'
+    spinner_overlay:
+      description: 'پوششی با یک چرخنده بارگذاری به مدت ۳ ثانیه نمایش دهید.'
+      button: 'نمایش پوشش'
+
+fi:
+  page_title: Ylitykset
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Näytä yksinkertainen ylittyminen 3 sekunnin ajan.'
+      button: 'Näytä ylittyminen'
+    spinner_overlay:
+      description: 'Näytä ylittyminen latauspyörällä 3 sekunnin ajan.'
+      button: 'Näytä ylittyminen'
+
+fr:
+  page_title: Superpositions
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Afficher une superposition simple pendant 3 secondes.'
+      button: 'Afficher la superposition'
+    spinner_overlay:
+      description: 'Afficher une superposition avec un spinner de chargement pendant 3 secondes.'
+      button: 'Afficher la superposition'
+
+he:
+  page_title: שכבות
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'הצג שכבה פשוטה במשך 3 שניות.'
+      button: 'הצג שכבה'
+    spinner_overlay:
+      description: 'הצג שכבה עם מעגל טעינה במשך 3 שניות.'
+      button: 'הצג שכבה'
+
+hi:
+  page_title: ओवरले
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: '3 सेकंड के लिए एक साधारण ओवरले प्रदर्शित करें।'
+      button: 'ओवरले दिखाएँ'
+    spinner_overlay:
+      description: '3 सेकंड के लिए लोडिंग स्पिनर के साथ एक ओवरले प्रदर्शित करें।'
+      button: 'ओवरले दिखाएँ'
+
+id:
+  page_title: Overlay
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Tampilkan overlay sederhana selama 3 detik.'
+      button: 'Tampilkan overlay'
+    spinner_overlay:
+      description: 'Tampilkan overlay dengan pemutar loading selama 3 detik.'
+      button: 'Tampilkan overlay'
+
+it:
+  page_title: Sovrapposizioni
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Mostra una sovrapposizione semplice per 3 secondi.'
+      button: 'Mostra sovrapposizione'
+    spinner_overlay:
+      description: 'Mostra una sovrapposizione con un caricatore per 3 secondi.'
+      button: 'Mostra sovrapposizione'
+
+ja:
+  page_title: オーバーレイ
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 3秒間、シンプルなオーバーレイを表示します。
+      button: オーバーレイを表示
+    spinner_overlay:
+      description: 3秒間、読み込みスピナー付きのオーバーレイを表示します。
+      button: オーバーレイを表示
+
+ko:
+  page_title: 오버레이
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: '3초 동안 간단한 오버레이를 표시합니다.'
+      button: '오버레이 표시'
+    spinner_overlay:
+      description: '3초 동안 로딩 스피너가 있는 오버레이를 표시합니다.'
+      button: '오버레이 표시'
+
+nl:
+  page_title: Overlays
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Toon een eenvoudige overlay gedurende 3 seconden.'
+      button: 'Toon overlay'
+    spinner_overlay:
+      description: 'Toon een overlay met een laadspinner gedurende 3 seconden.'
+      button: 'Toon overlay'
+
+pl:
+  page_title: Nakładki
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Wyświetl prostą nakładkę przez 3 sekundy.'
+      button: 'Pokaż nakładkę'
+    spinner_overlay:
+      description: 'Wyświetl nakładkę z animacją ładowania przez 3 sekundy.'
+      button: 'Pokaż nakładkę'
+
+pt_BR:
+  page_title: Sobreposições
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Exibir uma sobreposição simples por 3 segundos.'
+      button: 'Mostrar sobreposição'
+    spinner_overlay:
+      description: 'Exibir uma sobreposição com um indicador de carregamento por 3 segundos.'
+      button: 'Mostrar sobreposição'
+
+ru:
+  page_title: Накладки
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Отобразить простую накладку на 3 секунды.'
+      button: 'Показать накладку'
+    spinner_overlay:
+      description: 'Отобразить накладку с индикатором загрузки на 3 секунды.'
+      button: 'Показать накладку'
+
+th:
+  page_title: การทับซ้อน
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'แสดงการทับซ้อนแบบง่ายเป็นเวลา 3 วินาที.'
+      button: แสดงการทับซ้อน
+    spinner_overlay:
+      description: 'แสดงการทับซ้อนที่มีสปินเนอร์โหลดเป็นเวลา 3 วินาที.'
+      button: แสดงการทับซ้อน
+
+tr:
+  page_title: Kaplamalar
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: '3 saniye boyunca basit bir kaplama göster.'
+      button: 'Kaplamayı göster'
+    spinner_overlay:
+      description: '3 saniye boyunca yükleme simgesi ile bir kaplama göster.'
+      button: 'Kaplamayı göster'
+
+ur:
+  page_title: اوورلے
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: '3 سیکنڈ کے لیے ایک سادہ اوورلے دکھائیں۔'
+      button: 'اوورلے دکھائیں'
+    spinner_overlay:
+      description: '3 سیکنڈ کے لیے ایک لوڈنگ اسپنر کے ساتھ اوورلے دکھائیں۔'
+      button: 'اوورلے دکھائیں'
+
+vi:
+  page_title: 'Lớp phủ'
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 'Hiển thị một lớp phủ đơn giản trong 3 giây.'
+      button: 'Hiển thị lớp phủ'
+    spinner_overlay:
+      description: 'Hiển thị một lớp phủ với biểu tượng tải trong 3 giây.'
+      button: 'Hiển thị lớp phủ'
+
+zh:
+  page_title: 覆盖
+  page_icon: 'ph:bold/square-half-bottom'
+  section:
+    simple_overlay:
+      description: 显示一个简单的覆盖，持续3秒。
+      button: 显示覆盖
+    spinner_overlay:
+      description: 显示一个加载旋转器的覆盖，持续3秒。
+      button: 显示覆盖

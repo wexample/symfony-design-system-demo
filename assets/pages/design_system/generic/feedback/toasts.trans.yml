@@ -1,0 +1,1128 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Feedback
+  page_icon: ph:bold/notification
+
+  section:
+    vue:
+      title: Vue
+      description: "The same toast as a vue partial. Closing is emitted here rather than animated away: inside a vue tree the parent owns the list."
+    simple_toast:
+      description: Display a simple toast
+      button: Open toast
+      title: Toast demo
+      message: Hello from ToastService + ToastStack. You can also define action links like @action:demo(this one) inside a message.
+    tl_toast:
+      description: Display a top-left toast stack
+      button: Open toast
+      title: Top-left toast
+      message: Hello from ToastService + ToastStack (TL).
+    medium_toast:
+      description: Display a medium-length toast message
+      button: Open toast
+      title: Medium toast
+      message: This is a medium-length toast message for the demo.
+    long_toast:
+      description: Display a long toast message
+      button: Open toast
+      title: Long toast
+      message: This is a longer toast message for the demo. It contains more text so you can preview how the component behaves with bigger content.
+    horizontal_toasts:
+      description: Display four toasts in a horizontal stack
+      info:
+        title: Info toast
+        message: A horizontal toast preview.
+        button: Show toast
+      success:
+        title: Success toast
+        message: Everything looks good here.
+        button: Show toast
+      warning:
+        title: Warning toast
+        message: Double-check this action.
+        button: Show toast
+      error:
+        title: Error toast
+        message: Something went wrong here.
+        button: Show toast
+  title:
+    toasts: Toasts
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'تغذية راجعة'
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: فيو
+      description: 'نفس التنبيه كجزء من فيو. يتم إصدار إغلاق هنا بدلاً من أن يتم إزالته بشكل متحرك: داخل شجرة فيو، يمتلك الوالد القائمة.'
+    simple_toast:
+      description: 'عرض تنبيه بسيط'
+      button: 'فتح التنبيه'
+      title: 'عرض التنبيه'
+      message: 'مرحبا من ToastService + ToastStack. يمكنك أيضًا تعريف روابط الإجراءات مثل @action:demo(هذا واحد) داخل رسالة.'
+    tl_toast:
+      description: 'عرض مجموعة تنبيهات في الجزء العلوي الأيسر'
+      button: 'فتح التنبيه'
+      title: 'تنبيه في الجزء العلوي الأيسر'
+      message: 'مرحبا من ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'عرض رسالة تنبيه متوسطة الطول'
+      button: 'فتح التنبيه'
+      title: 'تنبيه متوسط'
+      message: 'هذه رسالة تنبيه متوسطة الطول للعرض.'
+    long_toast:
+      description: 'عرض رسالة تنبيه طويلة'
+      button: 'فتح التنبيه'
+      title: 'تنبيه طويل'
+      message: 'هذه رسالة تنبيه أطول للعرض. تحتوي على نص أكثر حتى تتمكن من معاينة كيفية تصرف المكون مع المحتوى الأكبر.'
+    horizontal_toasts:
+      description: 'عرض أربعة تنبيهات في مجموعة أفقية'
+      info:
+        title: 'تنبيه معلومات'
+        message: 'معاينة تنبيه أفقي.'
+        button: 'عرض التنبيه'
+      success:
+        title: 'تنبيه نجاح'
+        message: 'كل شيء يبدو جيدًا هنا.'
+        button: 'عرض التنبيه'
+      warning:
+        title: 'تنبيه تحذير'
+        message: 'تحقق من هذا الإجراء مرة أخرى.'
+        button: 'عرض التنبيه'
+      error:
+        title: 'تنبيه خطأ'
+        message: 'حدث شيء خاطئ هنا.'
+        button: 'عرض التنبيه'
+  title:
+    toasts: التنبيهات
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ফিডব্যাক
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: ভিউ
+      description: 'একটি ভিউ আংশিকের মতো একই টোস্ট। এখানে বন্ধ করা হয়েছে, অ্যানিমেটেড না হয়ে: একটি ভিউ গাছের মধ্যে প্যারেন্ট তালিকাটি মালিকানা নিয়ে থাকে।'
+    simple_toast:
+      description: 'একটি সাধারণ টোস্ট দেখান'
+      button: 'টোস্ট খুলুন'
+      title: 'টোস্ট ডেমো'
+      message: 'টোস্টসার্ভিস + টোস্টস্ট্যাক থেকে হ্যালো। আপনি একটি বার্তার মধ্যে @action:demo(এইটি) এর মতো অ্যাকশন লিঙ্কও সংজ্ঞায়িত করতে পারেন।'
+    tl_toast:
+      description: 'একটি উপরের-বাঁয়ে টোস্ট স্ট্যাক দেখান'
+      button: 'টোস্ট খুলুন'
+      title: 'উপরের-বাঁয়ে টোস্ট'
+      message: 'টোস্টসার্ভিস + টোস্টস্ট্যাক (TL) থেকে হ্যালো।'
+    medium_toast:
+      description: 'একটি মাঝারি দৈর্ঘ্যের টোস্ট বার্তা দেখান'
+      button: 'টোস্ট খুলুন'
+      title: 'মাঝারি টোস্ট'
+      message: 'এটি ডেমোর জন্য একটি মাঝারি দৈর্ঘ্যের টোস্ট বার্তা।'
+    long_toast:
+      description: 'একটি দীর্ঘ টোস্ট বার্তা দেখান'
+      button: 'টোস্ট খুলুন'
+      title: 'দীর্ঘ টোস্ট'
+      message: 'এটি ডেমোর জন্য একটি দীর্ঘ টোস্ট বার্তা। এতে আরও বেশি টেক্সট রয়েছে, তাই আপনি দেখতে পারেন কিভাবে উপাদানটি বড় কনটেন্টের সাথে আচরণ করে।'
+    horizontal_toasts:
+      description: 'চারটি টোস্ট একটি অনুভূমিক স্ট্যাকে দেখান'
+      info:
+        title: 'তথ্য টোস্ট'
+        message: 'একটি অনুভূমিক টোস্ট প্রিভিউ।'
+        button: 'টোস্ট দেখান'
+      success:
+        title: 'সফল টোস্ট'
+        message: 'এখানে সবকিছু ভালো মনে হচ্ছে।'
+        button: 'টোস্ট দেখান'
+      warning:
+        title: 'সতর্কতা টোস্ট'
+        message: 'এই ক্রিয়াটি দ্বিগুণ চেক করুন।'
+        button: 'টোস্ট দেখান'
+      error:
+        title: 'ত্রুটি টোস্ট'
+        message: 'এখানে কিছু সমস্যা হয়েছে।'
+        button: 'টোস্ট দেখান'
+  title:
+    toasts: টোস্ট
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Der gleiche Toast wie ein Vue-Teil. Das Schließen wird hier ausgelöst, anstatt animiert zu verschwinden: innerhalb eines Vue-Baums gehört die Liste dem Elternteil.'
+    simple_toast:
+      description: 'Einen einfachen Toast anzeigen'
+      button: 'Toast öffnen'
+      title: Toast-Demo
+      message: 'Hallo von ToastService + ToastStack. Sie können auch Aktionslinks wie @action:demo(dieser hier) innerhalb einer Nachricht definieren.'
+    tl_toast:
+      description: 'Einen Toast-Stapel oben links anzeigen'
+      button: 'Toast öffnen'
+      title: 'Toast oben links'
+      message: 'Hallo von ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Eine Toast-Nachricht mittlerer Länge anzeigen'
+      button: 'Toast öffnen'
+      title: 'Mittlerer Toast'
+      message: 'Dies ist eine Toast-Nachricht mittlerer Länge für die Demo.'
+    long_toast:
+      description: 'Eine lange Toast-Nachricht anzeigen'
+      button: 'Toast öffnen'
+      title: 'Langer Toast'
+      message: 'Dies ist eine längere Toast-Nachricht für die Demo. Sie enthält mehr Text, damit Sie sehen können, wie die Komponente mit größeren Inhalten funktioniert.'
+    horizontal_toasts:
+      description: 'Vier Toasts in einem horizontalen Stapel anzeigen'
+      info:
+        title: Info-Toast
+        message: 'Eine Vorschau des horizontalen Toasts.'
+        button: 'Toast anzeigen'
+      success:
+        title: Erfolg-Toast
+        message: 'Hier sieht alles gut aus.'
+        button: 'Toast anzeigen'
+      warning:
+        title: Warnung-Toast
+        message: 'Überprüfen Sie diese Aktion noch einmal.'
+        button: 'Toast anzeigen'
+      error:
+        title: Fehler-Toast
+        message: 'Hier ist etwas schiefgegangen.'
+        button: 'Toast anzeigen'
+  title:
+    toasts: Toasts
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Comentarios
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'El mismo toast que un parcial de vue. El cierre se emite aquí en lugar de alejarse animado: dentro de un árbol de vue, el padre tiene la propiedad de la lista.'
+    simple_toast:
+      description: 'Mostrar un toast simple'
+      button: 'Abrir toast'
+      title: 'Demostración de toast'
+      message: 'Hola desde ToastService + ToastStack. También puedes definir enlaces de acción como @action:demo(este) dentro de un mensaje.'
+    tl_toast:
+      description: 'Mostrar una pila de toast en la esquina superior izquierda'
+      button: 'Abrir toast'
+      title: 'Toast en la esquina superior izquierda'
+      message: 'Hola desde ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Mostrar un mensaje de toast de longitud media'
+      button: 'Abrir toast'
+      title: 'Toast mediano'
+      message: 'Este es un mensaje de toast de longitud media para la demostración.'
+    long_toast:
+      description: 'Mostrar un mensaje de toast largo'
+      button: 'Abrir toast'
+      title: 'Toast largo'
+      message: 'Este es un mensaje de toast más largo para la demostración. Contiene más texto para que puedas previsualizar cómo se comporta el componente con contenido más grande.'
+    horizontal_toasts:
+      description: 'Mostrar cuatro toasts en una pila horizontal'
+      info:
+        title: 'Toast de información'
+        message: 'Una vista previa de toast horizontal.'
+        button: 'Mostrar toast'
+      success:
+        title: 'Toast de éxito'
+        message: 'Todo se ve bien aquí.'
+        button: 'Mostrar toast'
+      warning:
+        title: 'Toast de advertencia'
+        message: 'Verifica esta acción.'
+        button: 'Mostrar toast'
+      error:
+        title: 'Toast de error'
+        message: 'Algo salió mal aquí.'
+        button: 'Mostrar toast'
+  title:
+    toasts: Toasts
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بازخورد
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'همان توست به عنوان یک بخش vue. بسته شدن اینجا منتشر می‌شود نه اینکه به صورت انیمیشن برود: در داخل یک درخت vue، والد لیست را در اختیار دارد.'
+    simple_toast:
+      description: 'نمایش یک توست ساده'
+      button: 'باز کردن توست'
+      title: 'دموی توست'
+      message: 'سلام از ToastService + ToastStack. شما همچنین می‌توانید لینک‌های عملیاتی مانند @action:demo(این یکی) را در داخل پیام تعریف کنید.'
+    tl_toast:
+      description: 'نمایش یک دسته توست در بالا سمت چپ'
+      button: 'باز کردن توست'
+      title: 'توست بالا سمت چپ'
+      message: 'سلام از ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'نمایش یک پیام توست با طول متوسط'
+      button: 'باز کردن توست'
+      title: 'توست متوسط'
+      message: 'این یک پیام توست با طول متوسط برای دمو است.'
+    long_toast:
+      description: 'نمایش یک پیام توست بلند'
+      button: 'باز کردن توست'
+      title: 'توست بلند'
+      message: 'این یک پیام توست بلندتر برای دمو است. این پیام شامل متن بیشتری است تا بتوانید نحوه رفتار کامپوننت را با محتوای بزرگتر پیش‌نمایش کنید.'
+    horizontal_toasts:
+      description: 'نمایش چهار توست در یک دسته افقی'
+      info:
+        title: 'توست اطلاعاتی'
+        message: 'پیش‌نمایش توست افقی.'
+        button: 'نمایش توست'
+      success:
+        title: 'توست موفقیت'
+        message: 'همه چیز در اینجا خوب به نظر می‌رسد.'
+        button: 'نمایش توست'
+      warning:
+        title: 'توست هشدار'
+        message: 'این عمل را دوباره بررسی کنید.'
+        button: 'نمایش توست'
+      error:
+        title: 'توست خطا'
+        message: 'در اینجا مشکلی پیش آمده است.'
+        button: 'نمایش توست'
+  title:
+    toasts: توست‌ها
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Palaute
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Sama toast kuin vue-osassa. Sulkeminen tapahtuu täällä sen sijaan, että se animaatioituisi: vue-puussa vanhempi omistaa listan.'
+    simple_toast:
+      description: 'Näytä yksinkertainen toast'
+      button: 'Avaa toast'
+      title: Toast-demo
+      message: 'Hei ToastServiceltä + ToastStackilta. Voit myös määrittää toimintalinkkejä kuten @action:demo(tämä) viestin sisällä.'
+    tl_toast:
+      description: 'Näytä ylävasen toast-kasa'
+      button: 'Avaa toast'
+      title: 'Ylävasen toast'
+      message: 'Hei ToastServiceltä + ToastStackilta (TL).'
+    medium_toast:
+      description: 'Näytä keskipitkä toast-viesti'
+      button: 'Avaa toast'
+      title: 'Keskipitkä toast'
+      message: 'Tämä on keskipitkä toast-viesti demoa varten.'
+    long_toast:
+      description: 'Näytä pitkä toast-viesti'
+      button: 'Avaa toast'
+      title: 'Pitkä toast'
+      message: 'Tämä on pidempi toast-viesti demoa varten. Se sisältää enemmän tekstiä, jotta voit ennakoida, miten komponentti toimii suuremmalla sisällöllä.'
+    horizontal_toasts:
+      description: 'Näytä neljä toastia vaakasuorassa kasassa'
+      info:
+        title: Info-toast
+        message: 'Vaakasuuntainen toast-esikatselu.'
+        button: 'Näytä toast'
+      success:
+        title: 'Onnistunut toast'
+        message: 'Kaikki näyttää hyvältä täällä.'
+        button: 'Näytä toast'
+      warning:
+        title: Varoitus-toast
+        message: 'Tarkista tämä toiminto vielä kerran.'
+        button: 'Näytä toast'
+      error:
+        title: Virhe-toast
+        message: 'Jokin meni pieleen täällä.'
+        button: 'Näytä toast'
+  title:
+    toasts: Toastit
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: "Retour d'information"
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: "Le même toast qu'un composant vue partiel. La fermeture est émise ici plutôt que d'être animée : à l'intérieur d'un arbre vue, le parent possède la liste."
+    simple_toast:
+      description: 'Afficher un toast simple'
+      button: 'Ouvrir le toast'
+      title: 'Démonstration de toast'
+      message: "Bonjour de ToastService + ToastStack. Vous pouvez également définir des liens d'action comme @action:demo(celui-ci) à l'intérieur d'un message."
+    tl_toast:
+      description: 'Afficher une pile de toasts en haut à gauche'
+      button: 'Ouvrir le toast'
+      title: 'Toast en haut à gauche'
+      message: 'Bonjour de ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Afficher un message de toast de longueur moyenne'
+      button: 'Ouvrir le toast'
+      title: 'Toast moyen'
+      message: 'Ceci est un message de toast de longueur moyenne pour la démonstration.'
+    long_toast:
+      description: 'Afficher un message de toast long'
+      button: 'Ouvrir le toast'
+      title: 'Toast long'
+      message: 'Ceci est un message de toast plus long pour la démonstration. Il contient plus de texte afin que vous puissiez prévisualiser comment le composant se comporte avec un contenu plus important.'
+    horizontal_toasts:
+      description: 'Afficher quatre toasts dans une pile horizontale'
+      info:
+        title: "Toast d'information"
+        message: "Aperçu d'un toast horizontal."
+        button: 'Afficher le toast'
+      success:
+        title: 'Toast de succès'
+        message: 'Tout semble bon ici.'
+        button: 'Afficher le toast'
+      warning:
+        title: "Toast d'avertissement"
+        message: 'Vérifiez à nouveau cette action.'
+        button: 'Afficher le toast'
+      error:
+        title: "Toast d'erreur"
+        message: 'Quelque chose a mal tourné ici.'
+        button: 'Afficher le toast'
+  title:
+    toasts: Toasts
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: משוב
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'אותה התראה כמו חלק Vue. סגירה משודרת כאן במקום להיעלם באנימציה: בתוך עץ Vue, ההורה מחזיק ברשימה.'
+    simple_toast:
+      description: 'הצג התראה פשוטה'
+      button: 'פתח התראה'
+      title: 'הדגמת התראה'
+      message: 'שלום מ-ToastService + ToastStack. אתה יכול גם להגדיר קישורי פעולה כמו @action:demo(זה אחד) בתוך הודעה.'
+    tl_toast:
+      description: 'הצג ערמת התראות בפינה העליונה שמאל'
+      button: 'פתח התראה'
+      title: 'התראה בפינה העליונה שמאל'
+      message: 'שלום מ-ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'הצג הודעת התראה באורך בינוני'
+      button: 'פתח התראה'
+      title: 'התראה בינונית'
+      message: 'זוהי הודעת התראה באורך בינוני להדגמה.'
+    long_toast:
+      description: 'הצג הודעת התראה ארוכה'
+      button: 'פתח התראה'
+      title: 'התראה ארוכה'
+      message: 'זוהי הודעת התראה ארוכה יותר להדגמה. היא מכילה יותר טקסט כך שתוכל לראות כיצד הרכיב מתנהג עם תוכן גדול יותר.'
+    horizontal_toasts:
+      description: 'הצג ארבע התראות בערימה אופקית'
+      info:
+        title: 'התראת מידע'
+        message: 'הדגמת התראה אופקית.'
+        button: 'הצג התראה'
+      success:
+        title: 'התראת הצלחה'
+        message: 'הכל נראה טוב כאן.'
+        button: 'הצג התראה'
+      warning:
+        title: 'התראת אזהרה'
+        message: 'בדוק פעולה זו שוב.'
+        button: 'הצג התראה'
+      error:
+        title: 'התראת שגיאה'
+        message: 'משהו השתבש כאן.'
+        button: 'הצג התראה'
+  title:
+    toasts: התראות
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: फीडबैक
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: व्यू
+      description: 'यह एक vue आंशिक के रूप में समान टोस्ट है। बंद करना यहां उत्सर्जित होता है न कि एनीमेशन के माध्यम से: एक vue ट्री के अंदर, माता-पिता सूची का मालिक होता है।'
+    simple_toast:
+      description: 'एक साधारण टोस्ट प्रदर्शित करें'
+      button: 'टोस्ट खोलें'
+      title: 'टोस्ट डेमो'
+      message: 'टोस्टसर्विस + टोस्टस्टैक से नमस्ते। आप संदेश के अंदर कार्रवाई लिंक भी परिभाषित कर सकते हैं जैसे @action:demo(यह वाला)।'
+    tl_toast:
+      description: 'ऊपर-बाएं टोस्ट स्टैक प्रदर्शित करें'
+      button: 'टोस्ट खोलें'
+      title: 'ऊपर-बाएं टोस्ट'
+      message: 'टोस्टसर्विस + टोस्टस्टैक (टीएल) से नमस्ते।'
+    medium_toast:
+      description: 'मध्यम-लंबाई का टोस्ट संदेश प्रदर्शित करें'
+      button: 'टोस्ट खोलें'
+      title: 'मध्यम टोस्ट'
+      message: 'यह डेमो के लिए एक मध्यम-लंबाई का टोस्ट संदेश है।'
+    long_toast:
+      description: 'एक लंबे टोस्ट संदेश प्रदर्शित करें'
+      button: 'टोस्ट खोलें'
+      title: 'लंबा टोस्ट'
+      message: 'यह डेमो के लिए एक लंबा टोस्ट संदेश है। इसमें अधिक पाठ है ताकि आप देख सकें कि घटक बड़े सामग्री के साथ कैसे व्यवहार करता है।'
+    horizontal_toasts:
+      description: 'चार टोस्ट को क्षैतिज स्टैक में प्रदर्शित करें'
+      info:
+        title: 'जानकारी टोस्ट'
+        message: 'एक क्षैतिज टोस्ट पूर्वावलोकन।'
+        button: 'टोस्ट दिखाएँ'
+      success:
+        title: 'सफलता टोस्ट'
+        message: 'यहां सब कुछ सही लग रहा है।'
+        button: 'टोस्ट दिखाएँ'
+      warning:
+        title: 'चेतावनी टोस्ट'
+        message: 'इस क्रिया की दोबारा जांच करें।'
+        button: 'टोस्ट दिखाएँ'
+      error:
+        title: 'त्रुटि टोस्ट'
+        message: 'यहां कुछ गलत हो गया।'
+        button: 'टोस्ट दिखाएँ'
+  title:
+    toasts: टोस्ट
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Umpan Balik'
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Toast yang sama seperti bagian vue. Penutupan dipancarkan di sini daripada dianimasikan pergi: di dalam pohon vue, induk memiliki daftar.'
+    simple_toast:
+      description: 'Tampilkan toast sederhana'
+      button: 'Buka toast'
+      title: 'Demo toast'
+      message: 'Halo dari ToastService + ToastStack. Anda juga dapat mendefinisikan tautan aksi seperti @action:demo(ini) di dalam pesan.'
+    tl_toast:
+      description: 'Tampilkan tumpukan toast di kiri atas'
+      button: 'Buka toast'
+      title: 'Toast kiri atas'
+      message: 'Halo dari ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Tampilkan pesan toast dengan panjang sedang'
+      button: 'Buka toast'
+      title: 'Toast sedang'
+      message: 'Ini adalah pesan toast dengan panjang sedang untuk demo.'
+    long_toast:
+      description: 'Tampilkan pesan toast yang panjang'
+      button: 'Buka toast'
+      title: 'Toast panjang'
+      message: 'Ini adalah pesan toast yang lebih panjang untuk demo. Ini berisi lebih banyak teks sehingga Anda dapat melihat bagaimana komponen berfungsi dengan konten yang lebih besar.'
+    horizontal_toasts:
+      description: 'Tampilkan empat toast dalam tumpukan horizontal'
+      info:
+        title: 'Toast informasi'
+        message: 'Prabaca toast horizontal.'
+        button: 'Tampilkan toast'
+      success:
+        title: 'Toast sukses'
+        message: 'Semua terlihat baik di sini.'
+        button: 'Tampilkan toast'
+      warning:
+        title: 'Toast peringatan'
+        message: 'Periksa kembali tindakan ini.'
+        button: 'Tampilkan toast'
+      error:
+        title: 'Toast kesalahan'
+        message: 'Ada yang tidak beres di sini.'
+        button: 'Tampilkan toast'
+  title:
+    toasts: Toasts
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: "La stessa notifica come un parziale vue. La chiusura viene emessa qui piuttosto che animata: all'interno di un albero vue, il genitore possiede l'elenco."
+    simple_toast:
+      description: 'Visualizza una semplice notifica'
+      button: 'Apri notifica'
+      title: 'Demo notifica'
+      message: "Ciao da ToastService + ToastStack. Puoi anche definire link di azione come @action:demo(questo) all'interno di un messaggio."
+    tl_toast:
+      description: 'Visualizza uno stack di notifiche in alto a sinistra'
+      button: 'Apri notifica'
+      title: 'Notifica in alto a sinistra'
+      message: 'Ciao da ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Visualizza un messaggio di notifica di media lunghezza'
+      button: 'Apri notifica'
+      title: 'Notifica media'
+      message: 'Questo è un messaggio di notifica di media lunghezza per la demo.'
+    long_toast:
+      description: 'Visualizza un messaggio di notifica lungo'
+      button: 'Apri notifica'
+      title: 'Notifica lunga'
+      message: 'Questo è un messaggio di notifica più lungo per la demo. Contiene più testo così puoi vedere come si comporta il componente con contenuti più grandi.'
+    horizontal_toasts:
+      description: 'Visualizza quattro notifiche in uno stack orizzontale'
+      info:
+        title: 'Notifica informativa'
+        message: "Un'anteprima di notifica orizzontale."
+        button: 'Mostra notifica'
+      success:
+        title: 'Notifica di successo'
+        message: 'Tutto sembra a posto qui.'
+        button: 'Mostra notifica'
+      warning:
+        title: 'Notifica di avviso'
+        message: 'Controlla di nuovo questa azione.'
+        button: 'Mostra notifica'
+      error:
+        title: 'Notifica di errore'
+        message: 'Qualcosa è andato storto qui.'
+        button: 'Mostra notifica'
+  title:
+    toasts: Notifiche
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: フィードバック
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: Vueパーシャルと同じトーストです。アニメーションではなく、ここで閉じることが発生します：Vueツリーの中で親がリストを所有します。
+    simple_toast:
+      description: シンプルなトーストを表示
+      button: トーストを開く
+      title: トーストデモ
+      message: 'ToastService + ToastStackからこんにちは。メッセージ内で@action:demo(this one)のようにアクションリンクを定義することもできます。'
+    tl_toast:
+      description: 左上にトーストスタックを表示
+      button: トーストを開く
+      title: 左上トースト
+      message: 'ToastService + ToastStack (TL)からこんにちは。'
+    medium_toast:
+      description: 中程度の長さのトーストメッセージを表示
+      button: トーストを開く
+      title: 中程度のトースト
+      message: これはデモ用の中程度の長さのトーストメッセージです。
+    long_toast:
+      description: 長いトーストメッセージを表示
+      button: トーストを開く
+      title: 長いトースト
+      message: これはデモ用の長いトーストメッセージです。より多くのテキストが含まれているので、コンポーネントが大きなコンテンツでどう動作するかをプレビューできます。
+    horizontal_toasts:
+      description: 横に4つのトーストを表示
+      info:
+        title: 情報トースト
+        message: 横のトーストプレビュー。
+        button: トーストを表示
+      success:
+        title: 成功トースト
+        message: すべて良好に見えます。
+        button: トーストを表示
+      warning:
+        title: 警告トースト
+        message: このアクションを再確認してください。
+        button: トーストを表示
+      error:
+        title: エラートースト
+        message: ここで何かがうまくいきませんでした。
+        button: トーストを表示
+  title:
+    toasts: トースト
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 피드백
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Vue 부분과 동일한 토스트입니다. 닫는 것은 애니메이션으로 사라지는 것이 아니라 여기서 발신됩니다: Vue 트리 내에서 부모가 목록을 소유합니다.'
+    simple_toast:
+      description: '간단한 토스트 표시'
+      button: '토스트 열기'
+      title: '토스트 데모'
+      message: 'ToastService + ToastStack에서 인사드립니다. 메시지 내에서 @action:demo(this one)와 같은 액션 링크를 정의할 수도 있습니다.'
+    tl_toast:
+      description: '상단 왼쪽에 토스트 스택 표시'
+      button: '토스트 열기'
+      title: '상단 왼쪽 토스트'
+      message: 'ToastService + ToastStack (TL)에서 인사드립니다.'
+    medium_toast:
+      description: '중간 길이의 토스트 메시지 표시'
+      button: '토스트 열기'
+      title: '중간 토스트'
+      message: '이것은 데모를 위한 중간 길이의 토스트 메시지입니다.'
+    long_toast:
+      description: '긴 토스트 메시지 표시'
+      button: '토스트 열기'
+      title: '긴 토스트'
+      message: '이것은 데모를 위한 더 긴 토스트 메시지입니다. 더 많은 텍스트가 포함되어 있어 구성 요소가 더 큰 콘텐츠로 어떻게 작동하는지 미리 볼 수 있습니다.'
+    horizontal_toasts:
+      description: '수평 스택에 네 개의 토스트 표시'
+      info:
+        title: '정보 토스트'
+        message: '수평 토스트 미리보기입니다.'
+        button: '토스트 보기'
+      success:
+        title: '성공 토스트'
+        message: '여기는 모든 것이 괜찮아 보입니다.'
+        button: '토스트 보기'
+      warning:
+        title: '경고 토스트'
+        message: '이 작업을 다시 확인하세요.'
+        button: '토스트 보기'
+      error:
+        title: '오류 토스트'
+        message: '여기에서 문제가 발생했습니다.'
+        button: '토스트 보기'
+  title:
+    toasts: 토스트
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Dezelfde toast als een vue partial. Sluiten wordt hier uitgezonden in plaats van geanimeerd weg: binnen een vue-boom bezit de ouder de lijst.'
+    simple_toast:
+      description: 'Toon een eenvoudige toast'
+      button: 'Open toast'
+      title: 'Toast demo'
+      message: 'Hallo van ToastService + ToastStack. Je kunt ook actie-links definiëren zoals @action:demo(deze) binnen een bericht.'
+    tl_toast:
+      description: 'Toon een toast-stapel in de bovenlinkerhoek'
+      button: 'Open toast'
+      title: 'Bovenlinkse toast'
+      message: 'Hallo van ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Toon een toastbericht van gemiddelde lengte'
+      button: 'Open toast'
+      title: 'Gemiddelde toast'
+      message: 'Dit is een toastbericht van gemiddelde lengte voor de demo.'
+    long_toast:
+      description: 'Toon een lang toastbericht'
+      button: 'Open toast'
+      title: 'Lange toast'
+      message: 'Dit is een langer toastbericht voor de demo. Het bevat meer tekst zodat je kunt zien hoe de component zich gedraagt met grotere inhoud.'
+    horizontal_toasts:
+      description: 'Toon vier toasts in een horizontale stapel'
+      info:
+        title: Informatietoast
+        message: 'Een horizontale toast preview.'
+        button: 'Toon toast'
+      success:
+        title: Sucesstoast
+        message: 'Alles ziet er goed uit hier.'
+        button: 'Toon toast'
+      warning:
+        title: Waarschuwingstoast
+        message: 'Controleer deze actie dubbel.'
+        button: 'Toon toast'
+      error:
+        title: Fouttoast
+        message: 'Er is iets misgegaan hier.'
+        button: 'Toon toast'
+  title:
+    toasts: Toasts
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Informacje zwrotne'
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Ten sam toast co część vue. Zamykanie jest emitowane tutaj, a nie animowane: w drzewie vue rodzic kontroluje listę.'
+    simple_toast:
+      description: 'Wyświetl prosty toast'
+      button: 'Otwórz toast'
+      title: 'Przykład toasta'
+      message: 'Witaj z ToastService + ToastStack. Możesz również definiować linki akcji, takie jak @action:demo(ten) wewnątrz wiadomości.'
+    tl_toast:
+      description: 'Wyświetl stos toastów w lewym górnym rogu'
+      button: 'Otwórz toast'
+      title: 'Toast w lewym górnym rogu'
+      message: 'Witaj z ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Wyświetl wiadomość toasta o średniej długości'
+      button: 'Otwórz toast'
+      title: 'Średni toast'
+      message: 'To jest wiadomość toasta o średniej długości na potrzeby demonstracji.'
+    long_toast:
+      description: 'Wyświetl długą wiadomość toasta'
+      button: 'Otwórz toast'
+      title: 'Długi toast'
+      message: 'To jest dłuższa wiadomość toasta na potrzeby demonstracji. Zawiera więcej tekstu, abyś mógł zobaczyć, jak komponent działa z większą zawartością.'
+    horizontal_toasts:
+      description: 'Wyświetl cztery toasty w poziomym stosie'
+      info:
+        title: 'Toast informacyjny'
+        message: 'Podgląd poziomego toasta.'
+        button: 'Pokaż toast'
+      success:
+        title: 'Toast sukcesu'
+        message: 'Wszystko wygląda dobrze.'
+        button: 'Pokaż toast'
+      warning:
+        title: 'Toast ostrzegawczy'
+        message: 'Sprawdź tę akcję jeszcze raz.'
+        button: 'Pokaż toast'
+      error:
+        title: 'Toast błędu'
+        message: 'Coś poszło nie tak.'
+        button: 'Pokaż toast'
+  title:
+    toasts: Toast
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'O mesmo toast que um parcial vue. O fechamento é emitido aqui em vez de ser animado para fora: dentro de uma árvore vue, o pai controla a lista.'
+    simple_toast:
+      description: 'Exibir um toast simples'
+      button: 'Abrir toast'
+      title: 'Demonstração de toast'
+      message: 'Olá do ToastService + ToastStack. Você também pode definir links de ação como @action:demo(este aqui) dentro de uma mensagem.'
+    tl_toast:
+      description: 'Exibir uma pilha de toast no canto superior esquerdo'
+      button: 'Abrir toast'
+      title: 'Toast no canto superior esquerdo'
+      message: 'Olá do ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Exibir uma mensagem de toast de comprimento médio'
+      button: 'Abrir toast'
+      title: 'Toast médio'
+      message: 'Esta é uma mensagem de toast de comprimento médio para a demonstração.'
+    long_toast:
+      description: 'Exibir uma mensagem de toast longa'
+      button: 'Abrir toast'
+      title: 'Toast longo'
+      message: 'Esta é uma mensagem de toast mais longa para a demonstração. Ela contém mais texto para que você possa visualizar como o componente se comporta com conteúdos maiores.'
+    horizontal_toasts:
+      description: 'Exibir quatro toasts em uma pilha horizontal'
+      info:
+        title: 'Toast de informação'
+        message: 'Uma prévia de toast horizontal.'
+        button: 'Mostrar toast'
+      success:
+        title: 'Toast de sucesso'
+        message: 'Tudo parece bom aqui.'
+        button: 'Mostrar toast'
+      warning:
+        title: 'Toast de aviso'
+        message: 'Verifique esta ação novamente.'
+        button: 'Mostrar toast'
+      error:
+        title: 'Toast de erro'
+        message: 'Algo deu errado aqui.'
+        button: 'Mostrar toast'
+  title:
+    toasts: Toasts
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Обратная связь'
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Такой же тост, как в частичном vue. Закрытие происходит здесь, а не с анимацией: внутри дерева vue родитель управляет списком.'
+    simple_toast:
+      description: 'Отобразить простой тост'
+      button: 'Открыть тост'
+      title: 'Демонстрация тоста'
+      message: 'Привет от ToastService + ToastStack. Вы также можете определить действия, такие как @action:demo(это) внутри сообщения.'
+    tl_toast:
+      description: 'Отобразить стек тостов в верхнем левом углу'
+      button: 'Открыть тост'
+      title: 'Тост в верхнем левом углу'
+      message: 'Привет от ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Отобразить сообщение среднего размера'
+      button: 'Открыть тост'
+      title: 'Средний тост'
+      message: 'Это сообщение среднего размера для демонстрации.'
+    long_toast:
+      description: 'Отобразить долгое сообщение'
+      button: 'Открыть тост'
+      title: 'Длинный тост'
+      message: 'Это более длинное сообщение для демонстрации. Оно содержит больше текста, чтобы вы могли увидеть, как компонент ведет себя с большим содержимым.'
+    horizontal_toasts:
+      description: 'Отобразить четыре тоста в горизонтальном стеке'
+      info:
+        title: 'Информационный тост'
+        message: 'Предпросмотр горизонтального тоста.'
+        button: 'Показать тост'
+      success:
+        title: 'Успешный тост'
+        message: 'Все выглядит хорошо.'
+        button: 'Показать тост'
+      warning:
+        title: 'Тост с предупреждением'
+        message: 'Проверьте это действие еще раз.'
+        button: 'Показать тост'
+      error:
+        title: 'Ошибка тоста'
+        message: 'Что-то пошло не так.'
+        button: 'Показать тост'
+  title:
+    toasts: Тосты
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ความคิดเห็น
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'ท็อปปิ้งเดียวกันกับ vue แบบพาร์เชียล การปิดจะถูกส่งออกที่นี่แทนที่จะแอนิเมตออก: ภายในต้นไม้ vue พ่อแม่เป็นเจ้าของรายการ'
+    simple_toast:
+      description: แสดงท็อปปิ้งแบบง่าย
+      button: เปิดท็อปปิ้ง
+      title: ตัวอย่างท็อปปิ้ง
+      message: 'สวัสดีจาก ToastService + ToastStack คุณยังสามารถกำหนดลิงค์การกระทำเช่น @action:demo(ตัวนี้) ภายในข้อความได้'
+    tl_toast:
+      description: แสดงกองท็อปปิ้งที่มุมซ้ายบน
+      button: เปิดท็อปปิ้ง
+      title: ท็อปปิ้งมุมซ้ายบน
+      message: 'สวัสดีจาก ToastService + ToastStack (TL)'
+    medium_toast:
+      description: แสดงข้อความท็อปปิ้งความยาวกลาง
+      button: เปิดท็อปปิ้ง
+      title: ท็อปปิ้งกลาง
+      message: นี่คือตัวอย่างข้อความท็อปปิ้งความยาวกลางสำหรับการสาธิต
+    long_toast:
+      description: แสดงข้อความท็อปปิ้งความยาวยาว
+      button: เปิดท็อปปิ้ง
+      title: ท็อปปิ้งยาว
+      message: 'นี่คือข้อความท็อปปิ้งที่ยาวกว่าสำหรับการสาธิต มันมีข้อความมากขึ้นเพื่อให้คุณสามารถดูตัวอย่างว่าคอมโพเนนต์ทำงานอย่างไรกับเนื้อหาที่ใหญ่ขึ้น'
+    horizontal_toasts:
+      description: แสดงท็อปปิ้งสี่อันในกองแนวนอน
+      info:
+        title: ท็อปปิ้งข้อมูล
+        message: ตัวอย่างท็อปปิ้งแนวนอน
+        button: แสดงท็อปปิ้ง
+      success:
+        title: ท็อปปิ้งสำเร็จ
+        message: ทุกอย่างดูดีที่นี่
+        button: แสดงท็อปปิ้ง
+      warning:
+        title: ท็อปปิ้งเตือน
+        message: ตรวจสอบการกระทำนี้อีกครั้ง
+        button: แสดงท็อปปิ้ง
+      error:
+        title: ท็อปปิ้งผิดพลาด
+        message: มีบางอย่างผิดปกติที่นี่
+        button: แสดงท็อปปิ้ง
+  title:
+    toasts: ท็อปปิ้ง
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Geri Bildirim'
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Bir vue parçası gibi aynı toast. Kapatma burada animasyonla değil, yayım ile gerçekleşir: bir vue ağacında ebeveyn listeyi sahiplenir.'
+    simple_toast:
+      description: 'Basit bir toast göster'
+      button: "Toast'ı Aç"
+      title: 'Toast Demo'
+      message: "ToastService + ToastStack'den merhaba. Ayrıca bir mesaj içinde @action:demo(bu) gibi eylem bağlantıları tanımlayabilirsiniz."
+    tl_toast:
+      description: 'Üst solda bir toast yığını göster'
+      button: "Toast'ı Aç"
+      title: 'Üst Sol Toast'
+      message: "ToastService + ToastStack'den merhaba (TL)."
+    medium_toast:
+      description: 'Orta uzunlukta bir toast mesajı göster'
+      button: "Toast'ı Aç"
+      title: 'Orta Toast'
+      message: 'Bu, demo için orta uzunlukta bir toast mesajıdır.'
+    long_toast:
+      description: 'Uzun bir toast mesajı göster'
+      button: "Toast'ı Aç"
+      title: 'Uzun Toast'
+      message: 'Bu, demo için daha uzun bir toast mesajıdır. Daha fazla metin içerir, böylece bileşenin daha büyük içerik ile nasıl davrandığını önizleyebilirsiniz.'
+    horizontal_toasts:
+      description: "Dört toast'ı yatay bir yığında göster"
+      info:
+        title: "Bilgi Toast'ı"
+        message: 'Yatay toast önizlemesi.'
+        button: "Toast'ı Göster"
+      success:
+        title: "Başarı Toast'ı"
+        message: 'Her şey burada iyi görünüyor.'
+        button: "Toast'ı Göster"
+      warning:
+        title: "Uyarı Toast'ı"
+        message: 'Bu eylemi tekrar kontrol edin.'
+        button: "Toast'ı Göster"
+      error:
+        title: "Hata Toast'ı"
+        message: 'Burada bir şeyler ters gitti.'
+        button: "Toast'ı Göster"
+  title:
+    toasts: "Toast'lar"
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فیڈبیک
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: vue
+      description: 'یہ وہی ٹوسٹ ہے جو ایک vue جزو کے طور پر ہے۔ یہاں بند کرنا خارج کیا گیا ہے نہ کہ متحرک طور پر: ایک vue درخت کے اندر والدین فہرست کی ملکیت رکھتا ہے۔'
+    simple_toast:
+      description: 'ایک سادہ ٹوسٹ دکھائیں'
+      button: 'ٹوسٹ کھولیں'
+      title: 'ٹوسٹ کا مظاہرہ'
+      message: 'ToastService + ToastStack سے سلام۔ آپ ایک پیغام کے اندر @action:demo(this one) جیسے عمل کے لنکس بھی متعین کر سکتے ہیں۔'
+    tl_toast:
+      description: 'اوپر بائیں طرف ٹوسٹ اسٹیک دکھائیں'
+      button: 'ٹوسٹ کھولیں'
+      title: 'اوپر بائیں طرف ٹوسٹ'
+      message: 'ToastService + ToastStack (TL) سے سلام۔'
+    medium_toast:
+      description: 'ایک درمیانی لمبائی کا ٹوسٹ پیغام دکھائیں'
+      button: 'ٹوسٹ کھولیں'
+      title: 'درمیانی ٹوسٹ'
+      message: 'یہ مظاہرے کے لئے ایک درمیانی لمبائی کا ٹوسٹ پیغام ہے۔'
+    long_toast:
+      description: 'ایک طویل ٹوسٹ پیغام دکھائیں'
+      button: 'ٹوسٹ کھولیں'
+      title: 'طویل ٹوسٹ'
+      message: 'یہ مظاہرے کے لئے ایک طویل ٹوسٹ پیغام ہے۔ اس میں زیادہ متن موجود ہے تاکہ آپ دیکھ سکیں کہ یہ جزو بڑے مواد کے ساتھ کیسا برتاؤ کرتا ہے۔'
+    horizontal_toasts:
+      description: 'چار ٹوسٹس کو افقی اسٹیک میں دکھائیں'
+      info:
+        title: 'معلوماتی ٹوسٹ'
+        message: 'ایک افقی ٹوسٹ کا پیش نظارہ۔'
+        button: 'ٹوسٹ دکھائیں'
+      success:
+        title: 'کامیابی کا ٹوسٹ'
+        message: 'یہاں سب کچھ ٹھیک لگتا ہے۔'
+        button: 'ٹوسٹ دکھائیں'
+      warning:
+        title: 'تنبیہی ٹوسٹ'
+        message: 'اس عمل کی دوبارہ جانچ کریں۔'
+        button: 'ٹوسٹ دکھائیں'
+      error:
+        title: 'غلطی کا ٹوسٹ'
+        message: 'یہاں کچھ غلط ہو گیا۔'
+        button: 'ٹوسٹ دکھائیں'
+  title:
+    toasts: ٹوسٹس
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Phản hồi'
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Thông báo giống như một phần vue. Việc đóng sẽ được phát ra ở đây thay vì được hoạt hình đi: bên trong cây vue, cha sở hữu danh sách.'
+    simple_toast:
+      description: 'Hiển thị một thông báo đơn giản'
+      button: 'Mở thông báo'
+      title: 'Demo thông báo'
+      message: 'Xin chào từ ToastService + ToastStack. Bạn cũng có thể định nghĩa các liên kết hành động như @action:demo(cái này) bên trong một thông điệp.'
+    tl_toast:
+      description: 'Hiển thị một chồng thông báo ở góc trên bên trái'
+      button: 'Mở thông báo'
+      title: 'Thông báo góc trên bên trái'
+      message: 'Xin chào từ ToastService + ToastStack (TL).'
+    medium_toast:
+      description: 'Hiển thị một thông điệp thông báo có độ dài trung bình'
+      button: 'Mở thông báo'
+      title: 'Thông báo trung bình'
+      message: 'Đây là một thông điệp thông báo có độ dài trung bình cho demo.'
+    long_toast:
+      description: 'Hiển thị một thông điệp thông báo dài'
+      button: 'Mở thông báo'
+      title: 'Thông báo dài'
+      message: 'Đây là một thông điệp thông báo dài hơn cho demo. Nó chứa nhiều văn bản hơn để bạn có thể xem trước cách mà thành phần hoạt động với nội dung lớn hơn.'
+    horizontal_toasts:
+      description: 'Hiển thị bốn thông báo trong một chồng ngang'
+      info:
+        title: 'Thông báo thông tin'
+        message: 'Một bản xem trước thông báo ngang.'
+        button: 'Hiển thị thông báo'
+      success:
+        title: 'Thông báo thành công'
+        message: 'Mọi thứ trông ổn ở đây.'
+        button: 'Hiển thị thông báo'
+      warning:
+        title: 'Thông báo cảnh báo'
+        message: 'Kiểm tra lại hành động này.'
+        button: 'Hiển thị thông báo'
+      error:
+        title: 'Thông báo lỗi'
+        message: 'Có gì đó không ổn ở đây.'
+        button: 'Hiển thị thông báo'
+  title:
+    toasts: 'Thông báo'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 反馈
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: '与 Vue 部件相同的吐司。关闭在这里发出，而不是动画消失：在 Vue 树内部，父级拥有列表。'
+    simple_toast:
+      description: 显示一个简单的吐司
+      button: 打开吐司
+      title: 吐司演示
+      message: '来自 ToastService + ToastStack 的问候。您还可以在消息中定义动作链接，如 @action:demo(这个) 。'
+    tl_toast:
+      description: 显示一个左上角的吐司堆栈
+      button: 打开吐司
+      title: 左上角吐司
+      message: '来自 ToastService + ToastStack (TL) 的问候。'
+    medium_toast:
+      description: 显示一个中等长度的吐司消息
+      button: 打开吐司
+      title: 中等吐司
+      message: 这是一个中等长度的吐司消息用于演示。
+    long_toast:
+      description: 显示一个长吐司消息
+      button: 打开吐司
+      title: 长吐司
+      message: 这是一个较长的吐司消息用于演示。它包含更多文本，以便您预览组件在更大内容时的表现。
+    horizontal_toasts:
+      description: 在水平堆栈中显示四个吐司
+      info:
+        title: 信息吐司
+        message: 水平吐司预览。
+        button: 显示吐司
+      success:
+        title: 成功吐司
+        message: 一切看起来不错。
+        button: 显示吐司
+      warning:
+        title: 警告吐司
+        message: 请仔细检查此操作。
+        button: 显示吐司
+      error:
+        title: 错误吐司
+        message: 这里出现了一些问题。
+        button: 显示吐司
+  title:
+    toasts: 吐司

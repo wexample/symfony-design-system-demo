@@ -1,0 +1,2255 @@
+en:
+  field:
+    password:
+      label: Password
+      help: Enter your password to authenticate.
+      error:
+        ERR_FIELD_PASSWORD_INVALID: Password is invalid for test purpose.
+    emoji:
+      label: Emoji
+      help: Pick an emoji to represent your mood.
+      error:
+        ERR_FIELD_EMOJI_INVALID: Emoji is invalid for test purpose.
+    text_simple:
+      label: Text
+      help: A single-line text input for short content.
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: Text is invalid for test purpose.
+    text_area:
+      label: Long text
+      placeholder: Type whatever you want...
+      help: A multi-line text area for longer content.
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: Long text is invalid for test purpose.
+    number:
+      label: Number
+      help: Enter a numeric value.
+      error:
+        ERR_FIELD_NUMBER_INVALID: Number is invalid for test purpose.
+    email:
+      label: Email
+      placeholder: you@example.com
+      help: Enter a valid email address.
+      error:
+        ERR_FIELD_EMAIL_INVALID: Email is invalid for test purpose.
+    url:
+      label: URL
+      placeholder: https://
+      help: Enter a full URL including the protocol.
+      error:
+        ERR_FIELD_URL_INVALID: URL is invalid for test purpose.
+    date:
+      label: Date
+      help: Select a date using the date picker.
+      error:
+        ERR_FIELD_DATE_INVALID: Date is invalid for test purpose.
+    datetime:
+      label: Date & time
+      help: Select a date and time combined.
+      error:
+        ERR_FIELD_DATETIME_INVALID: Date & time is invalid for test purpose.
+    time:
+      label: Time
+      help: Select a time of day.
+      error:
+        ERR_FIELD_TIME_INVALID: Time is invalid for test purpose.
+    file:
+      label: File
+      help: Upload one or more files from your device.
+      error:
+        ERR_FIELD_FILE_INVALID: File is invalid for test purpose.
+    radio_choice:
+      label: Radio choice
+      help: Select one option from the list.
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: Radio choice is invalid for test purpose.
+      choice:
+        option_a:
+          label: Option A
+        option_b:
+          label: Option B
+        option_c:
+          label: Option C
+    switch:
+      label: Switch
+      help: Toggle this option on or off.
+      error:
+        ERR_FIELD_SWITCH_INVALID: Switch is invalid for test purpose.
+
+  form:
+    error:
+      ERR_FORM_TEST: Global error for test purpose.
+
+  action:
+    button_demo: Do nothing
+    submit_default: Submit
+    submit_error: Show errors
+    submit_js: JS action
+    submit_redirect: Redirect
+
+  toast:
+    success:
+      title: Success
+      message: Form submitted successfully.
+    js_action:
+      title: JS action
+      message: Do you want to reactivate the form?
+      reactivate: Reactivate
+      dismiss: Dismiss
+
+  description: |
+    Use this form to test submit behaviors. This demo is in a Vue component.
+
+ar:
+  field:
+    password:
+      label: 'كلمة المرور'
+      help: 'أدخل كلمة المرور الخاصة بك للمصادقة.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'كلمة المرور غير صالحة لغرض الاختبار.'
+    emoji:
+      label: 'رمز تعبيري'
+      help: 'اختر رمزًا تعبيريًا لتمثيل مزاجك.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'الرمز التعبيري غير صالح لغرض الاختبار.'
+    text_simple:
+      label: نص
+      help: 'مدخل نصي لخط واحد للمحتوى القصير.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'النص غير صالح لغرض الاختبار.'
+    text_area:
+      label: 'نص طويل'
+      placeholder: 'اكتب ما تريد ...'
+      help: 'منطقة نص متعددة الأسطر للمحتوى الأطول.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'النص الطويل غير صالح لغرض الاختبار.'
+    number:
+      label: رقم
+      help: 'أدخل قيمة رقمية.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'الرقم غير صالح لغرض الاختبار.'
+    email:
+      label: 'البريد الإلكتروني'
+      placeholder: you@example.com
+      help: 'أدخل عنوان بريد إلكتروني صالح.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'البريد الإلكتروني غير صالح لغرض الاختبار.'
+    url:
+      label: رابط
+      placeholder: 'https://'
+      help: 'أدخل رابطًا كاملاً بما في ذلك البروتوكول.'
+      error:
+        ERR_FIELD_URL_INVALID: 'الرابط غير صالح لغرض الاختبار.'
+    date:
+      label: تاريخ
+      help: 'اختر تاريخًا باستخدام أداة اختيار التاريخ.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'التاريخ غير صالح لغرض الاختبار.'
+    datetime:
+      label: 'تاريخ ووقت'
+      help: 'اختر تاريخًا ووقتًا معًا.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'التاريخ والوقت غير صالح لغرض الاختبار.'
+    time:
+      label: وقت
+      help: 'اختر وقتًا من اليوم.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'الوقت غير صالح لغرض الاختبار.'
+    file:
+      label: ملف
+      help: 'قم بتحميل ملف واحد أو أكثر من جهازك.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'الملف غير صالح لغرض الاختبار.'
+    radio_choice:
+      label: 'اختيار إذاعي'
+      help: 'اختر خيارًا واحدًا من القائمة.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'الاختيار الإذاعي غير صالح لغرض الاختبار.'
+      choice:
+        option_a:
+          label: 'الخيار A'
+        option_b:
+          label: 'الخيار B'
+        option_c:
+          label: 'الخيار C'
+    switch:
+      label: تبديل
+      help: 'قم بتفعيل أو تعطيل هذا الخيار.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'التبديل غير صالح لغرض الاختبار.'
+  form:
+    error:
+      ERR_FORM_TEST: 'خطأ عام لغرض الاختبار.'
+  action:
+    button_demo: 'لا تفعل شيئًا'
+    submit_default: إرسال
+    submit_error: 'عرض الأخطاء'
+    submit_js: 'إجراء JS'
+    submit_redirect: 'إعادة توجيه'
+  toast:
+    success:
+      title: نجاح
+      message: 'تم إرسال النموذج بنجاح.'
+    js_action:
+      title: 'إجراء JS'
+      message: 'هل تريد إعادة تفعيل النموذج؟'
+      reactivate: 'إعادة تفعيل'
+      dismiss: رفض
+  description: |
+    استخدم هذا النموذج لاختبار سلوكيات الإرسال. هذا العرض في مكون Vue.
+
+bn:
+  field:
+    password:
+      label: পাসওয়ার্ড
+      help: 'আপনার পাসওয়ার্ড প্রবেশ করান প্রমাণীকরণের জন্য।'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'পাসওয়ার্ডটি পরীক্ষার জন্য অবৈধ।'
+    emoji:
+      label: ইমোজি
+      help: 'আপনার মেজাজ প্রকাশ করতে একটি ইমোজি নির্বাচন করুন।'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'ইমোজিটি পরীক্ষার জন্য অবৈধ।'
+    text_simple:
+      label: টেক্সট
+      help: 'সংক্ষিপ্ত বিষয়বস্তু জন্য একটি একক-লাইন টেক্সট ইনপুট।'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'টেক্সটটি পরীক্ষার জন্য অবৈধ।'
+    text_area:
+      label: 'দীর্ঘ টেক্সট'
+      placeholder: 'আপনি যা চান লিখুন...'
+      help: 'দীর্ঘ বিষয়বস্তু জন্য একটি একাধিক-লাইন টেক্সট এলাকা।'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'দীর্ঘ টেক্সটটি পরীক্ষার জন্য অবৈধ।'
+    number:
+      label: সংখ্যা
+      help: 'একটি সংখ্যাসূচক মান প্রবেশ করান।'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'সংখ্যাটি পরীক্ষার জন্য অবৈধ।'
+    email:
+      label: ইমেইল
+      placeholder: you@example.com
+      help: 'একটি বৈধ ইমেইল ঠিকানা প্রবেশ করান।'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ইমেইলটি পরীক্ষার জন্য অবৈধ।'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'প্রোটোকলসহ একটি পূর্ণ URL প্রবেশ করান।'
+      error:
+        ERR_FIELD_URL_INVALID: 'URLটি পরীক্ষার জন্য অবৈধ।'
+    date:
+      label: তারিখ
+      help: 'তারিখ পিকার ব্যবহার করে একটি তারিখ নির্বাচন করুন।'
+      error:
+        ERR_FIELD_DATE_INVALID: 'তারিখটি পরীক্ষার জন্য অবৈধ।'
+    datetime:
+      label: 'তারিখ ও সময়'
+      help: 'একত্রে একটি তারিখ ও সময় নির্বাচন করুন।'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'তারিখ ও সময়টি পরীক্ষার জন্য অবৈধ।'
+    time:
+      label: সময়
+      help: 'একটি সময় নির্বাচন করুন।'
+      error:
+        ERR_FIELD_TIME_INVALID: 'সময়টি পরীক্ষার জন্য অবৈধ।'
+    file:
+      label: ফাইল
+      help: 'আপনার ডিভাইস থেকে এক বা একাধিক ফাইল আপলোড করুন।'
+      error:
+        ERR_FIELD_FILE_INVALID: 'ফাইলটি পরীক্ষার জন্য অবৈধ।'
+    radio_choice:
+      label: 'রেডিও চয়েস'
+      help: 'তালিকা থেকে একটি অপশন নির্বাচন করুন।'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'রেডিও চয়েসটি পরীক্ষার জন্য অবৈধ।'
+      choice:
+        option_a:
+          label: 'অপশন A'
+        option_b:
+          label: 'অপশন B'
+        option_c:
+          label: 'অপশন C'
+    switch:
+      label: সুইচ
+      help: 'এই অপশনটি চালু বা বন্ধ করুন।'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'সুইচটি পরীক্ষার জন্য অবৈধ।'
+  form:
+    error:
+      ERR_FORM_TEST: 'পরীক্ষার জন্য বৈশ্বিক ত্রুটি।'
+  action:
+    button_demo: 'কিছুই করবেন না'
+    submit_default: 'জমা দিন'
+    submit_error: 'ত্রুটি দেখান'
+    submit_js: 'জেএস অ্যাকশন'
+    submit_redirect: 'পুনঃনির্দেশ করুন'
+  toast:
+    success:
+      title: সফল
+      message: 'ফর্ম সফলভাবে জমা হয়েছে।'
+    js_action:
+      title: 'জেএস অ্যাকশন'
+      message: 'আপনি কি ফর্মটি আবার সক্রিয় করতে চান?'
+      reactivate: 'সক্রিয় করুন'
+      dismiss: 'বাতিল করুন'
+  description: |
+    এই ফর্মটি জমা দেওয়ার আচরণ পরীক্ষা করতে ব্যবহার করুন। এই ডেমো একটি Vue উপাদানে।
+
+de:
+  field:
+    password:
+      label: Passwort
+      help: 'Geben Sie Ihr Passwort zur Authentifizierung ein.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Das Passwort ist zu Testzwecken ungültig.'
+    emoji:
+      label: Emoji
+      help: 'Wählen Sie ein Emoji, das Ihre Stimmung widerspiegelt.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Das Emoji ist zu Testzwecken ungültig.'
+    text_simple:
+      label: Text
+      help: 'Einzeiliges Texteingabefeld für kurze Inhalte.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Der Text ist zu Testzwecken ungültig.'
+    text_area:
+      label: 'Langer Text'
+      placeholder: 'Geben Sie ein, was Sie möchten...'
+      help: 'Ein mehrzeiliges Textfeld für längere Inhalte.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Langer Text ist zu Testzwecken ungültig.'
+    number:
+      label: Zahl
+      help: 'Geben Sie einen numerischen Wert ein.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Die Zahl ist zu Testzwecken ungültig.'
+    email:
+      label: E-Mail
+      placeholder: you@example.com
+      help: 'Geben Sie eine gültige E-Mail-Adresse ein.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Die E-Mail ist zu Testzwecken ungültig.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Geben Sie eine vollständige URL inklusive Protokoll ein.'
+      error:
+        ERR_FIELD_URL_INVALID: 'Die URL ist zu Testzwecken ungültig.'
+    date:
+      label: Datum
+      help: 'Wählen Sie ein Datum mit dem Datumswähler aus.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Das Datum ist zu Testzwecken ungültig.'
+    datetime:
+      label: 'Datum & Uhrzeit'
+      help: 'Wählen Sie ein Datum und eine Uhrzeit aus.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Datum & Uhrzeit sind zu Testzwecken ungültig.'
+    time:
+      label: Uhrzeit
+      help: 'Wählen Sie eine Tageszeit aus.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Die Uhrzeit ist zu Testzwecken ungültig.'
+    file:
+      label: Datei
+      help: 'Laden Sie eine oder mehrere Dateien von Ihrem Gerät hoch.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Die Datei ist zu Testzwecken ungültig.'
+    radio_choice:
+      label: Radioauswahl
+      help: 'Wählen Sie eine Option aus der Liste aus.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Die Radioauswahl ist zu Testzwecken ungültig.'
+      choice:
+        option_a:
+          label: 'Option A'
+        option_b:
+          label: 'Option B'
+        option_c:
+          label: 'Option C'
+    switch:
+      label: Schalter
+      help: 'Schalten Sie diese Option ein oder aus.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Der Schalter ist zu Testzwecken ungültig.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Globale Fehlermeldung zu Testzwecken.'
+  action:
+    button_demo: 'Nichts tun'
+    submit_default: Absenden
+    submit_error: 'Fehler anzeigen'
+    submit_js: JS-Aktion
+    submit_redirect: Weiterleiten
+  toast:
+    success:
+      title: Erfolg
+      message: 'Formular erfolgreich eingereicht.'
+    js_action:
+      title: JS-Aktion
+      message: 'Möchten Sie das Formular reaktivieren?'
+      reactivate: Reaktivieren
+      dismiss: Schließen
+  description: 'Verwenden Sie dieses Formular, um die Übermittlungsverhalten zu testen. Diese Demo ist in einer Vue-Komponente.'
+
+es:
+  field:
+    password:
+      label: Contraseña
+      help: 'Introduce tu contraseña para autenticarte.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'La contraseña no es válida para fines de prueba.'
+    emoji:
+      label: Emoji
+      help: 'Elige un emoji para representar tu estado de ánimo.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'El emoji no es válido para fines de prueba.'
+    text_simple:
+      label: Texto
+      help: 'Un campo de texto de una sola línea para contenido corto.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'El texto no es válido para fines de prueba.'
+    text_area:
+      label: 'Texto largo'
+      placeholder: 'Escribe lo que quieras...'
+      help: 'Un área de texto de varias líneas para contenido más largo.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'El texto largo no es válido para fines de prueba.'
+    number:
+      label: Número
+      help: 'Introduce un valor numérico.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'El número no es válido para fines de prueba.'
+    email:
+      label: 'Correo electrónico'
+      placeholder: tú@ejemplo.com
+      help: 'Introduce una dirección de correo electrónico válida.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'El correo electrónico no es válido para fines de prueba.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Introduce una URL completa incluyendo el protocolo.'
+      error:
+        ERR_FIELD_URL_INVALID: 'La URL no es válida para fines de prueba.'
+    date:
+      label: Fecha
+      help: 'Selecciona una fecha utilizando el selector de fechas.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'La fecha no es válida para fines de prueba.'
+    datetime:
+      label: 'Fecha y hora'
+      help: 'Selecciona una fecha y hora combinadas.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'La fecha y hora no son válidas para fines de prueba.'
+    time:
+      label: Hora
+      help: 'Selecciona una hora del día.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'La hora no es válida para fines de prueba.'
+    file:
+      label: Archivo
+      help: 'Sube uno o más archivos desde tu dispositivo.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'El archivo no es válido para fines de prueba.'
+    radio_choice:
+      label: 'Opción de radio'
+      help: 'Selecciona una opción de la lista.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'La opción de radio no es válida para fines de prueba.'
+      choice:
+        option_a:
+          label: 'Opción A'
+        option_b:
+          label: 'Opción B'
+        option_c:
+          label: 'Opción C'
+    switch:
+      label: Interruptor
+      help: 'Activa o desactiva esta opción.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'El interruptor no es válido para fines de prueba.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Error global para fines de prueba.'
+  action:
+    button_demo: 'No hacer nada'
+    submit_default: Enviar
+    submit_error: 'Mostrar errores'
+    submit_js: 'Acción JS'
+    submit_redirect: Redirigir
+  toast:
+    success:
+      title: Éxito
+      message: 'Formulario enviado con éxito.'
+    js_action:
+      title: 'Acción JS'
+      message: '¿Quieres reactivar el formulario?'
+      reactivate: Reactivar
+      dismiss: Descartar
+  description: |
+    Usa este formulario para probar el comportamiento de envío. Esta demostración está en un componente Vue.
+
+fa:
+  field:
+    password:
+      label: 'رمز عبور'
+      help: 'رمز عبور خود را برای تأیید هویت وارد کنید.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'رمز عبور برای تست نامعتبر است.'
+    emoji:
+      label: ایموجی
+      help: 'یک ایموجی برای نمایش حالت خود انتخاب کنید.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'ایموجی برای تست نامعتبر است.'
+    text_simple:
+      label: متن
+      help: 'ورودی متنی یک خطه برای محتوای کوتاه.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'متن برای تست نامعتبر است.'
+    text_area:
+      label: 'متن طولانی'
+      placeholder: 'هر چیزی که می‌خواهید تایپ کنید...'
+      help: 'یک ناحیه متنی چند خطه برای محتوای طولانی‌تر.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'متن طولانی برای تست نامعتبر است.'
+    number:
+      label: عدد
+      help: 'یک مقدار عددی وارد کنید.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'عدد برای تست نامعتبر است.'
+    email:
+      label: ایمیل
+      placeholder: you@example.com
+      help: 'یک آدرس ایمیل معتبر وارد کنید.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ایمیل برای تست نامعتبر است.'
+    url:
+      label: 'آدرس وب'
+      placeholder: 'https://'
+      help: 'یک آدرس وب کامل شامل پروتکل وارد کنید.'
+      error:
+        ERR_FIELD_URL_INVALID: 'آدرس وب برای تست نامعتبر است.'
+    date:
+      label: تاریخ
+      help: 'تاریخ را با استفاده از انتخاب‌گر تاریخ انتخاب کنید.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'تاریخ برای تست نامعتبر است.'
+    datetime:
+      label: 'تاریخ و زمان'
+      help: 'تاریخ و زمان را به صورت ترکیبی انتخاب کنید.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'تاریخ و زمان برای تست نامعتبر است.'
+    time:
+      label: زمان
+      help: 'زمانی از روز را انتخاب کنید.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'زمان برای تست نامعتبر است.'
+    file:
+      label: فایل
+      help: 'یکی یا چند فایل را از دستگاه خود بارگذاری کنید.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'فایل برای تست نامعتبر است.'
+    radio_choice:
+      label: 'انتخاب رادیویی'
+      help: 'یک گزینه را از لیست انتخاب کنید.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'انتخاب رادیویی برای تست نامعتبر است.'
+      choice:
+        option_a:
+          label: 'گزینه A'
+        option_b:
+          label: 'گزینه B'
+        option_c:
+          label: 'گزینه C'
+    switch:
+      label: 'کلید تغییر'
+      help: 'این گزینه را روشن یا خاموش کنید.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'کلید تغییر برای تست نامعتبر است.'
+  form:
+    error:
+      ERR_FORM_TEST: 'خطای کلی برای تست.'
+  action:
+    button_demo: 'هیچ کار نکنید'
+    submit_default: ارسال
+    submit_error: 'خطاها را نشان دهید'
+    submit_js: 'عملکرد JS'
+    submit_redirect: انتقال
+  toast:
+    success:
+      title: موفقیت
+      message: 'فرم با موفقیت ارسال شد.'
+    js_action:
+      title: 'عملکرد JS'
+      message: 'آیا می‌خواهید فرم را دوباره فعال کنید؟'
+      reactivate: 'دوباره فعال‌سازی'
+      dismiss: 'رد کردن'
+  description: |
+    از این فرم برای تست رفتارهای ارسال استفاده کنید. این دموی در یک کامپوننت Vue است.
+
+fi:
+  field:
+    password:
+      label: Salasana
+      help: 'Syötä salasanasi vahvistaaksesi henkilöllisyytesi.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Salasana ei ole kelvollinen testitarkoituksiin.'
+    emoji:
+      label: Emojit
+      help: 'Valitse emoji edustamaan mielialaasi.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji ei ole kelvollinen testitarkoituksiin.'
+    text_simple:
+      label: Teksti
+      help: 'Yhden rivin tekstikenttä lyhyelle sisällölle.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Teksti ei ole kelvollinen testitarkoituksiin.'
+    text_area:
+      label: 'Pitkä teksti'
+      placeholder: 'Kirjoita mitä tahansa...'
+      help: 'Monirivinen tekstialue pidemmälle sisällölle.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Pitkä teksti ei ole kelvollinen testitarkoituksiin.'
+    number:
+      label: Numero
+      help: 'Syötä numeerinen arvo.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Numero ei ole kelvollinen testitarkoituksiin.'
+    email:
+      label: Sähköposti
+      placeholder: you@example.com
+      help: 'Syötä kelvollinen sähköpostiosoite.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Sähköposti ei ole kelvollinen testitarkoituksiin.'
+    url:
+      label: URL-osoite
+      placeholder: 'https://'
+      help: 'Syötä kokonainen URL-osoite, mukaan lukien protokolla.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL-osoite ei ole kelvollinen testitarkoituksiin.'
+    date:
+      label: Päivämäärä
+      help: 'Valitse päivämäärä päivämäärävalitsimella.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Päivämäärä ei ole kelvollinen testitarkoituksiin.'
+    datetime:
+      label: 'Päivämäärä ja aika'
+      help: 'Valitse yhdistetty päivämäärä ja aika.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Päivämäärä ja aika eivät ole kelvollisia testitarkoituksiin.'
+    time:
+      label: Aika
+      help: 'Valitse päivän aika.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Aika ei ole kelvollinen testitarkoituksiin.'
+    file:
+      label: Tiedosto
+      help: 'Lataa yksi tai useampi tiedosto laitteeltasi.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Tiedosto ei ole kelvollinen testitarkoituksiin.'
+    radio_choice:
+      label: Radiovalinta
+      help: 'Valitse yksi vaihtoehto listalta.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Radiovalinta ei ole kelvollinen testitarkoituksiin.'
+      choice:
+        option_a:
+          label: 'Vaihtoehto A'
+        option_b:
+          label: 'Vaihtoehto B'
+        option_c:
+          label: 'Vaihtoehto C'
+    switch:
+      label: Kytkin
+      help: 'Ota tämä vaihtoehto käyttöön tai pois käytöstä.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Kytkin ei ole kelvollinen testitarkoituksiin.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Yleinen virhe testitarkoituksiin.'
+  action:
+    button_demo: 'Älä tee mitään'
+    submit_default: Lähetä
+    submit_error: 'Näytä virheet'
+    submit_js: JS-toiminto
+    submit_redirect: 'Ohjaa uudelleen'
+  toast:
+    success:
+      title: Onnistui
+      message: 'Lomake lähetettiin onnistuneesti.'
+    js_action:
+      title: JS-toiminto
+      message: 'Haluatko aktivoida lomakkeen uudelleen?'
+      reactivate: 'Aktivoi uudelleen'
+      dismiss: Hylkää
+  description: |
+    Käytä tätä lomaketta testataksesi lähetyskäyttäytymistä. Tämä demo on Vue-komponentissa.
+
+fr:
+  field:
+    password:
+      label: 'Mot de passe'
+      help: 'Entrez votre mot de passe pour vous authentifier.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Le mot de passe est invalide à des fins de test.'
+    emoji:
+      label: Émoji
+      help: 'Choisissez un émoji pour représenter votre humeur.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: "L'émoji est invalide à des fins de test."
+    text_simple:
+      label: Texte
+      help: 'Un champ de texte sur une seule ligne pour un contenu court.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Le texte est invalide à des fins de test.'
+    text_area:
+      label: 'Long texte'
+      placeholder: 'Tapez ce que vous voulez...'
+      help: 'Une zone de texte multi-lignes pour un contenu plus long.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Le long texte est invalide à des fins de test.'
+    number:
+      label: Nombre
+      help: 'Entrez une valeur numérique.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Le nombre est invalide à des fins de test.'
+    email:
+      label: Email
+      placeholder: vous@example.com
+      help: 'Entrez une adresse email valide.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: "L'email est invalide à des fins de test."
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Entrez une URL complète incluant le protocole.'
+      error:
+        ERR_FIELD_URL_INVALID: "L'URL est invalide à des fins de test."
+    date:
+      label: Date
+      help: "Sélectionnez une date à l'aide du sélecteur de date."
+      error:
+        ERR_FIELD_DATE_INVALID: 'La date est invalide à des fins de test.'
+    datetime:
+      label: 'Date & heure'
+      help: 'Sélectionnez une date et une heure combinées.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'La date & heure est invalide à des fins de test.'
+    time:
+      label: Heure
+      help: 'Sélectionnez une heure de la journée.'
+      error:
+        ERR_FIELD_TIME_INVALID: "L'heure est invalide à des fins de test."
+    file:
+      label: Fichier
+      help: 'Téléchargez un ou plusieurs fichiers depuis votre appareil.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Le fichier est invalide à des fins de test.'
+    radio_choice:
+      label: 'Choix radio'
+      help: 'Sélectionnez une option dans la liste.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Le choix radio est invalide à des fins de test.'
+      choice:
+        option_a:
+          label: 'Option A'
+        option_b:
+          label: 'Option B'
+        option_c:
+          label: 'Option C'
+    switch:
+      label: Interrupteur
+      help: 'Activez ou désactivez cette option.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: "L'interrupteur est invalide à des fins de test."
+  form:
+    error:
+      ERR_FORM_TEST: 'Erreur globale à des fins de test.'
+  action:
+    button_demo: 'Ne rien faire'
+    submit_default: Soumettre
+    submit_error: 'Afficher les erreurs'
+    submit_js: 'Action JS'
+    submit_redirect: Rediriger
+  toast:
+    success:
+      title: Succès
+      message: 'Formulaire soumis avec succès.'
+    js_action:
+      title: 'Action JS'
+      message: 'Voulez-vous réactiver le formulaire ?'
+      reactivate: Réactiver
+      dismiss: Ignorer
+  description: |
+    Utilisez ce formulaire pour tester les comportements de soumission. Cette démo est dans un composant Vue.
+
+he:
+  field:
+    password:
+      label: סיסמא
+      help: 'הזן את הסיסמא שלך לאימות.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'הסיסמא אינה תקינה למטרות בדיקה.'
+    emoji:
+      label: "אימוג'י"
+      help: "בחר אימוג'י שיבטא את מצב הרוח שלך."
+      error:
+        ERR_FIELD_EMOJI_INVALID: "האימוג'י אינו תקין למטרות בדיקה."
+    text_simple:
+      label: טקסט
+      help: 'שדה טקסט בשורה אחת לתוכן קצר.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'הטקסט אינו תקין למטרות בדיקה.'
+    text_area:
+      label: 'טקסט ארוך'
+      placeholder: 'כתוב מה שבא לך...'
+      help: 'שדה טקסט מרובה שורות לתוכן ארוך יותר.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'הטקסט הארוך אינו תקין למטרות בדיקה.'
+    number:
+      label: מספר
+      help: 'הזן ערך מספרי.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'המספר אינו תקין למטרות בדיקה.'
+    email:
+      label: אימייל
+      placeholder: you@example.com
+      help: 'הזן כתובת אימייל תקינה.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'האימייל אינו תקין למטרות בדיקה.'
+    url:
+      label: 'כתובת URL'
+      placeholder: 'https://'
+      help: 'הזן כתובת URL מלאה כולל הפרוטוקול.'
+      error:
+        ERR_FIELD_URL_INVALID: 'כתובת ה-URL אינה תקינה למטרות בדיקה.'
+    date:
+      label: תאריך
+      help: 'בחר תאריך באמצעות בורר התאריך.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'התאריך אינו תקין למטרות בדיקה.'
+    datetime:
+      label: 'תאריך ושעה'
+      help: 'בחר תאריך ושעה משולבים.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'התאריך והשעה אינם תקינים למטרות בדיקה.'
+    time:
+      label: שעה
+      help: 'בחר שעת יום.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'השעה אינה תקינה למטרות בדיקה.'
+    file:
+      label: קובץ
+      help: 'העלה קובץ אחד או יותר מהמכשיר שלך.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'הקובץ אינו תקין למטרות בדיקה.'
+    radio_choice:
+      label: 'בחירת רדיו'
+      help: 'בחר אפשרות אחת מהרשימה.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'בחירת הרדיו אינה תקינה למטרות בדיקה.'
+      choice:
+        option_a:
+          label: "אפשרות א'"
+        option_b:
+          label: "אפשרות ב'"
+        option_c:
+          label: "אפשרות ג'"
+    switch:
+      label: מתג
+      help: 'הפעל או כבה אפשרות זו.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'המתג אינו תקין למטרות בדיקה.'
+  form:
+    error:
+      ERR_FORM_TEST: 'שגיאה גלובלית למטרות בדיקה.'
+  action:
+    button_demo: 'לא לעשות כלום'
+    submit_default: שלח
+    submit_error: 'הצג שגיאות'
+    submit_js: 'פעולה JS'
+    submit_redirect: הפנה
+  toast:
+    success:
+      title: הצלחה
+      message: 'הטופס נשלח בהצלחה.'
+    js_action:
+      title: 'פעולה JS'
+      message: 'האם אתה רוצה להפעיל מחדש את הטופס?'
+      reactivate: 'הפעל מחדש'
+      dismiss: מחק
+  description: |
+    השתמש בטופס זה כדי לבדוק התנהגויות שליחה. הדמו הזה נמצא בתוך רכיב Vue.
+
+hi:
+  field:
+    password:
+      label: पासवर्ड
+      help: 'प्रामाणिकता के लिए अपना पासवर्ड दर्ज करें।'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'परीक्षण के उद्देश्य के लिए पासवर्ड अमान्य है।'
+    emoji:
+      label: इमोजी
+      help: 'अपने मूड का प्रतिनिधित्व करने के लिए एक इमोजी चुनें।'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'परीक्षण के उद्देश्य के लिए इमोजी अमान्य है।'
+    text_simple:
+      label: पाठ
+      help: 'संक्षिप्त सामग्री के लिए एकल-पंक्ति पाठ इनपुट।'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'परीक्षण के उद्देश्य के लिए पाठ अमान्य है।'
+    text_area:
+      label: 'लंबा पाठ'
+      placeholder: 'आप जो चाहें टाइप करें...'
+      help: 'लंबी सामग्री के लिए एक मल्टी-लाइन टेक्स्ट क्षेत्र।'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'लंबा पाठ परीक्षण के उद्देश्य के लिए अमान्य है।'
+    number:
+      label: संख्या
+      help: 'एक संख्यात्मक मान दर्ज करें।'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'संख्या परीक्षण के उद्देश्य के लिए अमान्य है।'
+    email:
+      label: ईमेल
+      placeholder: you@example.com
+      help: 'एक मान्य ईमेल पता दर्ज करें।'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ईमेल परीक्षण के उद्देश्य के लिए अमान्य है।'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'प्रोटोकॉल सहित पूरा URL दर्ज करें।'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL परीक्षण के उद्देश्य के लिए अमान्य है।'
+    date:
+      label: तारीख
+      help: 'तारीख चुनने के लिए तारीख चयनकर्ता का उपयोग करें।'
+      error:
+        ERR_FIELD_DATE_INVALID: 'तारीख परीक्षण के उद्देश्य के लिए अमान्य है।'
+    datetime:
+      label: 'तारीख और समय'
+      help: 'संयुक्त तारीख और समय चुनें।'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'तारीख और समय परीक्षण के उद्देश्य के लिए अमान्य है।'
+    time:
+      label: समय
+      help: 'दिन के समय का चयन करें।'
+      error:
+        ERR_FIELD_TIME_INVALID: 'समय परीक्षण के उद्देश्य के लिए अमान्य है।'
+    file:
+      label: फाइल
+      help: 'अपने डिवाइस से एक या अधिक फाइलें अपलोड करें।'
+      error:
+        ERR_FIELD_FILE_INVALID: 'फाइल परीक्षण के उद्देश्य के लिए अमान्य है।'
+    radio_choice:
+      label: 'रेडियो विकल्प'
+      help: 'सूची में से एक विकल्प चुनें।'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'रेडियो विकल्प परीक्षण के उद्देश्य के लिए अमान्य है।'
+      choice:
+        option_a:
+          label: 'विकल्प ए'
+        option_b:
+          label: 'विकल्प बी'
+        option_c:
+          label: 'विकल्प सी'
+    switch:
+      label: स्विच
+      help: 'इस विकल्प को चालू या बंद करें।'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'स्विच परीक्षण के उद्देश्य के लिए अमान्य है।'
+  form:
+    error:
+      ERR_FORM_TEST: 'परीक्षण के उद्देश्य के लिए वैश्विक त्रुटि।'
+  action:
+    button_demo: 'कुछ नहीं करें'
+    submit_default: 'सबमिट करें'
+    submit_error: 'त्रुटियाँ दिखाएँ'
+    submit_js: 'JS क्रिया'
+    submit_redirect: 'रीडायरेक्ट करें'
+  toast:
+    success:
+      title: सफलता
+      message: 'फॉर्म सफलतापूर्वक सबमिट हो गया।'
+    js_action:
+      title: 'JS क्रिया'
+      message: 'क्या आप फॉर्म को पुनः सक्रिय करना चाहते हैं?'
+      reactivate: 'पुनः सक्रिय करें'
+      dismiss: 'अस्वीकृत करें'
+  description: |
+    इस फॉर्म का उपयोग सबमिट व्यवहारों का परीक्षण करने के लिए करें। यह डेमो एक Vue घटक में है।
+
+id:
+  field:
+    password:
+      label: 'Kata Sandi'
+      help: 'Masukkan kata sandi Anda untuk otentikasi.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Kata sandi tidak valid untuk tujuan pengujian.'
+    emoji:
+      label: Emoji
+      help: 'Pilih emoji untuk mewakili suasana hati Anda.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji tidak valid untuk tujuan pengujian.'
+    text_simple:
+      label: Teks
+      help: 'Input teks satu baris untuk konten singkat.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Teks tidak valid untuk tujuan pengujian.'
+    text_area:
+      label: 'Teks panjang'
+      placeholder: 'Ketik apa saja yang Anda inginkan...'
+      help: 'Area teks multi-baris untuk konten yang lebih panjang.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Teks panjang tidak valid untuk tujuan pengujian.'
+    number:
+      label: Nomor
+      help: 'Masukkan nilai numerik.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Nomor tidak valid untuk tujuan pengujian.'
+    email:
+      label: Email
+      placeholder: you@example.com
+      help: 'Masukkan alamat email yang valid.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email tidak valid untuk tujuan pengujian.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Masukkan URL lengkap termasuk protokol.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL tidak valid untuk tujuan pengujian.'
+    date:
+      label: Tanggal
+      help: 'Pilih tanggal menggunakan pemilih tanggal.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Tanggal tidak valid untuk tujuan pengujian.'
+    datetime:
+      label: 'Tanggal & waktu'
+      help: 'Pilih tanggal dan waktu yang digabungkan.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Tanggal & waktu tidak valid untuk tujuan pengujian.'
+    time:
+      label: Waktu
+      help: 'Pilih waktu dalam sehari.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Waktu tidak valid untuk tujuan pengujian.'
+    file:
+      label: Berkas
+      help: 'Unggah satu atau lebih berkas dari perangkat Anda.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Berkas tidak valid untuk tujuan pengujian.'
+    radio_choice:
+      label: 'Pilihan radio'
+      help: 'Pilih satu opsi dari daftar.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Pilihan radio tidak valid untuk tujuan pengujian.'
+      choice:
+        option_a:
+          label: 'Pilihan A'
+        option_b:
+          label: 'Pilihan B'
+        option_c:
+          label: 'Pilihan C'
+    switch:
+      label: Togol
+      help: 'Aktifkan atau nonaktifkan opsi ini.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Togol tidak valid untuk tujuan pengujian.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Kesalahan global untuk tujuan pengujian.'
+  action:
+    button_demo: 'Tidak melakukan apa-apa'
+    submit_default: Kirim
+    submit_error: 'Tampilkan kesalahan'
+    submit_js: 'Aksi JS'
+    submit_redirect: Alihkan
+  toast:
+    success:
+      title: Sukses
+      message: 'Formulir berhasil dikirim.'
+    js_action:
+      title: 'Aksi JS'
+      message: 'Apakah Anda ingin mengaktifkan kembali formulir?'
+      reactivate: 'Aktifkan kembali'
+      dismiss: Tutup
+  description: |
+    Gunakan formulir ini untuk menguji perilaku pengiriman. Demo ini dalam komponen Vue.
+
+it:
+  field:
+    password:
+      label: Password
+      help: 'Inserisci la tua password per autenticarti.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'La password non è valida per scopi di test.'
+    emoji:
+      label: Emoji
+      help: "Scegli un'emoji per rappresentare il tuo umore."
+      error:
+        ERR_FIELD_EMOJI_INVALID: "L'emoji non è valida per scopi di test."
+    text_simple:
+      label: Testo
+      help: 'Un input di testo su una sola riga per contenuti brevi.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Il testo non è valido per scopi di test.'
+    text_area:
+      label: 'Testo lungo'
+      placeholder: 'Scrivi quello che vuoi...'
+      help: "Un'area di testo multi-linea per contenuti più lunghi."
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Il testo lungo non è valido per scopi di test.'
+    number:
+      label: Numero
+      help: 'Inserisci un valore numerico.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Il numero non è valido per scopi di test.'
+    email:
+      label: Email
+      placeholder: tuo@example.com
+      help: 'Inserisci un indirizzo email valido.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: "L'email non è valida per scopi di test."
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Inserisci un URL completo incluso il protocollo.'
+      error:
+        ERR_FIELD_URL_INVALID: "L'URL non è valido per scopi di test."
+    date:
+      label: Data
+      help: 'Seleziona una data utilizzando il selettore di data.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'La data non è valida per scopi di test.'
+    datetime:
+      label: 'Data e ora'
+      help: "Seleziona una data e un'ora combinate."
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'La data e ora non sono valide per scopi di test.'
+    time:
+      label: Ora
+      help: 'Seleziona un orario della giornata.'
+      error:
+        ERR_FIELD_TIME_INVALID: "L'ora non è valida per scopi di test."
+    file:
+      label: File
+      help: 'Carica uno o più file dal tuo dispositivo.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Il file non è valido per scopi di test.'
+    radio_choice:
+      label: 'Scelta radio'
+      help: "Seleziona un'opzione dall'elenco."
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'La scelta radio non è valida per scopi di test.'
+      choice:
+        option_a:
+          label: 'Opzione A'
+        option_b:
+          label: 'Opzione B'
+        option_c:
+          label: 'Opzione C'
+    switch:
+      label: Interruttore
+      help: 'Attiva o disattiva questa opzione.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: "L'interruttore non è valido per scopi di test."
+  form:
+    error:
+      ERR_FORM_TEST: 'Errore globale per scopi di test.'
+  action:
+    button_demo: 'Non fare nulla'
+    submit_default: Invia
+    submit_error: 'Mostra errori'
+    submit_js: 'Azione JS'
+    submit_redirect: Reindirizza
+  toast:
+    success:
+      title: Successo
+      message: 'Modulo inviato con successo.'
+    js_action:
+      title: 'Azione JS'
+      message: 'Vuoi riattivare il modulo?'
+      reactivate: Riattiva
+      dismiss: Ignora
+  description: |
+    Usa questo modulo per testare i comportamenti di invio. Questa demo è in un componente Vue.
+
+ja:
+  field:
+    password:
+      label: パスワード
+      help: 認証のためにパスワードを入力してください。
+      error:
+        ERR_FIELD_PASSWORD_INVALID: パスワードはテスト用に無効です。
+    emoji:
+      label: 絵文字
+      help: あなたの気分を表す絵文字を選んでください。
+      error:
+        ERR_FIELD_EMOJI_INVALID: 絵文字はテスト用に無効です。
+    text_simple:
+      label: テキスト
+      help: 短い内容のための1行テキスト入力。
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: テキストはテスト用に無効です。
+    text_area:
+      label: 長文
+      placeholder: 好きなことを入力してください...
+      help: 長い内容のための複数行テキストエリア。
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 長文はテスト用に無効です。
+    number:
+      label: 数値
+      help: 数値を入力してください。
+      error:
+        ERR_FIELD_NUMBER_INVALID: 数値はテスト用に無効です。
+    email:
+      label: メールアドレス
+      placeholder: you@example.com
+      help: 有効なメールアドレスを入力してください。
+      error:
+        ERR_FIELD_EMAIL_INVALID: メールアドレスはテスト用に無効です。
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: プロトコルを含む完全なURLを入力してください。
+      error:
+        ERR_FIELD_URL_INVALID: URLはテスト用に無効です。
+    date:
+      label: 日付
+      help: 日付ピッカーを使って日付を選択してください。
+      error:
+        ERR_FIELD_DATE_INVALID: 日付はテスト用に無効です。
+    datetime:
+      label: 日付と時刻
+      help: 日付と時刻を組み合わせて選択してください。
+      error:
+        ERR_FIELD_DATETIME_INVALID: 日付と時刻はテスト用に無効です。
+    time:
+      label: 時刻
+      help: 1日の時刻を選択してください。
+      error:
+        ERR_FIELD_TIME_INVALID: 時刻はテスト用に無効です。
+    file:
+      label: ファイル
+      help: デバイスから1つまたは複数のファイルをアップロードしてください。
+      error:
+        ERR_FIELD_FILE_INVALID: ファイルはテスト用に無効です。
+    radio_choice:
+      label: ラジオ選択
+      help: リストから1つのオプションを選択してください。
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: ラジオ選択はテスト用に無効です。
+      choice:
+        option_a:
+          label: オプションA
+        option_b:
+          label: オプションB
+        option_c:
+          label: オプションC
+    switch:
+      label: スイッチ
+      help: このオプションをオンまたはオフに切り替えます。
+      error:
+        ERR_FIELD_SWITCH_INVALID: スイッチはテスト用に無効です。
+  form:
+    error:
+      ERR_FORM_TEST: テスト用のグローバルエラー。
+  action:
+    button_demo: 何もしない
+    submit_default: 送信
+    submit_error: エラーを表示
+    submit_js: JSアクション
+    submit_redirect: リダイレクト
+  toast:
+    success:
+      title: 成功
+      message: フォームが正常に送信されました。
+    js_action:
+      title: JSアクション
+      message: フォームを再アクティブ化しますか？
+      reactivate: 再アクティブ化
+      dismiss: 閉じる
+  description: |
+    このフォームを使用して送信動作をテストします。このデモはVueコンポーネント内にあります。
+
+ko:
+  field:
+    password:
+      label: 비밀번호
+      help: '인증을 위해 비밀번호를 입력하세요.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: '비밀번호가 테스트 용도로 유효하지 않습니다.'
+    emoji:
+      label: 이모지
+      help: '당신의 기분을 나타낼 이모지를 선택하세요.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: '이모지가 테스트 용도로 유효하지 않습니다.'
+    text_simple:
+      label: 텍스트
+      help: '짧은 내용을 위한 한 줄 텍스트 입력입니다.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: '텍스트가 테스트 용도로 유효하지 않습니다.'
+    text_area:
+      label: '긴 텍스트'
+      placeholder: '원하는 내용을 입력하세요...'
+      help: '더 긴 내용을 위한 여러 줄 텍스트 영역입니다.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: '긴 텍스트가 테스트 용도로 유효하지 않습니다.'
+    number:
+      label: 숫자
+      help: '숫자 값을 입력하세요.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: '숫자가 테스트 용도로 유효하지 않습니다.'
+    email:
+      label: 이메일
+      placeholder: you@example.com
+      help: '유효한 이메일 주소를 입력하세요.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: '이메일이 테스트 용도로 유효하지 않습니다.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: '프로토콜을 포함한 전체 URL을 입력하세요.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL이 테스트 용도로 유효하지 않습니다.'
+    date:
+      label: 날짜
+      help: '날짜 선택기를 사용하여 날짜를 선택하세요.'
+      error:
+        ERR_FIELD_DATE_INVALID: '날짜가 테스트 용도로 유효하지 않습니다.'
+    datetime:
+      label: '날짜 및 시간'
+      help: '날짜와 시간을 결합하여 선택하세요.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: '날짜 및 시간이 테스트 용도로 유효하지 않습니다.'
+    time:
+      label: 시간
+      help: '하루 중 시간을 선택하세요.'
+      error:
+        ERR_FIELD_TIME_INVALID: '시간이 테스트 용도로 유효하지 않습니다.'
+    file:
+      label: 파일
+      help: '장치에서 하나 이상의 파일을 업로드하세요.'
+      error:
+        ERR_FIELD_FILE_INVALID: '파일이 테스트 용도로 유효하지 않습니다.'
+    radio_choice:
+      label: '라디오 선택'
+      help: '목록에서 하나의 옵션을 선택하세요.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: '라디오 선택이 테스트 용도로 유효하지 않습니다.'
+      choice:
+        option_a:
+          label: '옵션 A'
+        option_b:
+          label: '옵션 B'
+        option_c:
+          label: '옵션 C'
+    switch:
+      label: 스위치
+      help: '이 옵션을 켜거나 끄세요.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: '스위치가 테스트 용도로 유효하지 않습니다.'
+  form:
+    error:
+      ERR_FORM_TEST: '테스트 용도의 전역 오류입니다.'
+  action:
+    button_demo: '아무것도 하지 않음'
+    submit_default: 제출
+    submit_error: '오류 표시'
+    submit_js: 'JS 작업'
+    submit_redirect: 리다이렉트
+  toast:
+    success:
+      title: 성공
+      message: '폼이 성공적으로 제출되었습니다.'
+    js_action:
+      title: 'JS 작업'
+      message: '폼을 다시 활성화하시겠습니까?'
+      reactivate: '다시 활성화'
+      dismiss: 무시
+  description: |
+    이 폼을 사용하여 제출 동작을 테스트하세요. 이 데모는 Vue 컴포넌트에 있습니다.
+
+nl:
+  field:
+    password:
+      label: Wachtwoord
+      help: 'Voer uw wachtwoord in om te authentiseren.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Wachtwoord is ongeldig voor testdoeleinden.'
+    emoji:
+      label: Emoji
+      help: 'Kies een emoji om uw stemming weer te geven.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji is ongeldig voor testdoeleinden.'
+    text_simple:
+      label: Tekst
+      help: 'Een tekstinvoer voor korte inhoud.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Tekst is ongeldig voor testdoeleinden.'
+    text_area:
+      label: 'Lange tekst'
+      placeholder: 'Typ wat je wilt...'
+      help: 'Een tekstgebied voor langere inhoud.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Lange tekst is ongeldig voor testdoeleinden.'
+    number:
+      label: Nummer
+      help: 'Voer een numerieke waarde in.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Nummer is ongeldig voor testdoeleinden.'
+    email:
+      label: E-mail
+      placeholder: you@example.com
+      help: 'Voer een geldig e-mailadres in.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'E-mail is ongeldig voor testdoeleinden.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Voer een volledige URL in, inclusief het protocol.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL is ongeldig voor testdoeleinden.'
+    date:
+      label: Datum
+      help: 'Selecteer een datum met de datumkiezer.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Datum is ongeldig voor testdoeleinden.'
+    datetime:
+      label: 'Datum & tijd'
+      help: 'Selecteer een gecombineerde datum en tijd.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Datum & tijd is ongeldig voor testdoeleinden.'
+    time:
+      label: Tijd
+      help: 'Selecteer een tijd van de dag.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Tijd is ongeldig voor testdoeleinden.'
+    file:
+      label: Bestand
+      help: 'Upload een of meer bestanden vanaf uw apparaat.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Bestand is ongeldig voor testdoeleinden.'
+    radio_choice:
+      label: 'Radio keuze'
+      help: 'Selecteer één optie uit de lijst.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Radio keuze is ongeldig voor testdoeleinden.'
+      choice:
+        option_a:
+          label: 'Optie A'
+        option_b:
+          label: 'Optie B'
+        option_c:
+          label: 'Optie C'
+    switch:
+      label: Schakelaar
+      help: 'Schakel deze optie in of uit.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Schakelaar is ongeldig voor testdoeleinden.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Globale fout voor testdoeleinden.'
+  action:
+    button_demo: 'Doe niets'
+    submit_default: Verzenden
+    submit_error: 'Toon fouten'
+    submit_js: 'JS actie'
+    submit_redirect: Omleiden
+  toast:
+    success:
+      title: Succes
+      message: 'Formulier succesvol verzonden.'
+    js_action:
+      title: 'JS actie'
+      message: 'Wilt u het formulier opnieuw activeren?'
+      reactivate: Heractiveer
+      dismiss: Afwijzen
+  description: |
+    Gebruik dit formulier om indienen gedrag te testen. Deze demo is in een Vue-component.
+
+pl:
+  field:
+    password:
+      label: Hasło
+      help: 'Wprowadź swoje hasło, aby się uwierzytelnić.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Hasło jest nieprawidłowe w celach testowych.'
+    emoji:
+      label: Emoji
+      help: 'Wybierz emoji, które odzwierciedla twój nastrój.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji jest nieprawidłowe w celach testowych.'
+    text_simple:
+      label: Tekst
+      help: 'Jedna linia tekstu dla krótkiej treści.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Tekst jest nieprawidłowy w celach testowych.'
+    text_area:
+      label: 'Długi tekst'
+      placeholder: 'Wpisz, co chcesz...'
+      help: 'Wieloliniowe pole tekstowe dla dłuższej treści.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Długi tekst jest nieprawidłowy w celach testowych.'
+    number:
+      label: Liczba
+      help: 'Wprowadź wartość numeryczną.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Liczba jest nieprawidłowa w celach testowych.'
+    email:
+      label: Email
+      placeholder: you@example.com
+      help: 'Wprowadź prawidłowy adres email.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email jest nieprawidłowy w celach testowych.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Wprowadź pełny adres URL, w tym protokół.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL jest nieprawidłowy w celach testowych.'
+    date:
+      label: Data
+      help: 'Wybierz datę za pomocą selektora daty.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Data jest nieprawidłowa w celach testowych.'
+    datetime:
+      label: 'Data i czas'
+      help: 'Wybierz połączoną datę i czas.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Data i czas są nieprawidłowe w celach testowych.'
+    time:
+      label: Czas
+      help: 'Wybierz porę dnia.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Czas jest nieprawidłowy w celach testowych.'
+    file:
+      label: Plik
+      help: 'Prześlij jeden lub więcej plików z urządzenia.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Plik jest nieprawidłowy w celach testowych.'
+    radio_choice:
+      label: 'Wybór radiowy'
+      help: 'Wybierz jedną opcję z listy.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Wybór radiowy jest nieprawidłowy w celach testowych.'
+      choice:
+        option_a:
+          label: 'Opcja A'
+        option_b:
+          label: 'Opcja B'
+        option_c:
+          label: 'Opcja C'
+    switch:
+      label: Przełącznik
+      help: 'Włącz lub wyłącz tę opcję.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Przełącznik jest nieprawidłowy w celach testowych.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Błąd globalny w celach testowych.'
+  action:
+    button_demo: 'Nie rób nic'
+    submit_default: Wyślij
+    submit_error: 'Pokaż błędy'
+    submit_js: 'Akcja JS'
+    submit_redirect: Przekieruj
+  toast:
+    success:
+      title: Sukces
+      message: 'Formularz został pomyślnie wysłany.'
+    js_action:
+      title: 'Akcja JS'
+      message: 'Czy chcesz ponownie aktywować formularz?'
+      reactivate: Reaktywuj
+      dismiss: Odrzuć
+  description: |
+    Użyj tego formularza, aby przetestować zachowania przy wysyłaniu. Ten demonstracyjny przykład jest w komponencie Vue.
+
+pt_BR:
+  field:
+    password:
+      label: Senha
+      help: 'Digite sua senha para autenticação.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Senha é inválida para fins de teste.'
+    emoji:
+      label: Emoji
+      help: 'Escolha um emoji para representar seu humor.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji é inválido para fins de teste.'
+    text_simple:
+      label: Texto
+      help: 'Um campo de texto de uma linha para conteúdo curto.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Texto é inválido para fins de teste.'
+    text_area:
+      label: 'Texto longo'
+      placeholder: 'Digite o que quiser...'
+      help: 'Um campo de texto multilinha para conteúdo mais extenso.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Texto longo é inválido para fins de teste.'
+    number:
+      label: Número
+      help: 'Digite um valor numérico.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Número é inválido para fins de teste.'
+    email:
+      label: Email
+      placeholder: você@exemplo.com
+      help: 'Digite um endereço de email válido.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email é inválido para fins de teste.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Digite uma URL completa, incluindo o protocolo.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL é inválida para fins de teste.'
+    date:
+      label: Data
+      help: 'Selecione uma data usando o seletor de data.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Data é inválida para fins de teste.'
+    datetime:
+      label: 'Data e hora'
+      help: 'Selecione uma data e hora combinadas.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Data e hora são inválidas para fins de teste.'
+    time:
+      label: Hora
+      help: 'Selecione um horário do dia.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Hora é inválida para fins de teste.'
+    file:
+      label: Arquivo
+      help: 'Faça upload de um ou mais arquivos do seu dispositivo.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Arquivo é inválido para fins de teste.'
+    radio_choice:
+      label: 'Escolha de rádio'
+      help: 'Selecione uma opção da lista.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Escolha de rádio é inválida para fins de teste.'
+      choice:
+        option_a:
+          label: 'Opção A'
+        option_b:
+          label: 'Opção B'
+        option_c:
+          label: 'Opção C'
+    switch:
+      label: Interruptor
+      help: 'Ative ou desative esta opção.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Interruptor é inválido para fins de teste.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Erro global para fins de teste.'
+  action:
+    button_demo: 'Não fazer nada'
+    submit_default: Enviar
+    submit_error: 'Mostrar erros'
+    submit_js: 'Ação JS'
+    submit_redirect: Redirecionar
+  toast:
+    success:
+      title: Sucesso
+      message: 'Formulário enviado com sucesso.'
+    js_action:
+      title: 'Ação JS'
+      message: 'Você deseja reativar o formulário?'
+      reactivate: Reativar
+      dismiss: Dispensar
+  description: |
+    Use este formulário para testar comportamentos de envio. Esta demonstração está em um componente Vue.
+
+ru:
+  field:
+    password:
+      label: Пароль
+      help: 'Введите ваш пароль для аутентификации.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Пароль недействителен для теста.'
+    emoji:
+      label: Эмодзи
+      help: 'Выберите эмодзи, чтобы выразить ваше настроение.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Эмодзи недействителен для теста.'
+    text_simple:
+      label: Текст
+      help: 'Однострочное текстовое поле для короткого контента.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Текст недействителен для теста.'
+    text_area:
+      label: 'Длинный текст'
+      placeholder: 'Введите что угодно...'
+      help: 'Многострочное текстовое поле для более длинного контента.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Длинный текст недействителен для теста.'
+    number:
+      label: Число
+      help: 'Введите числовое значение.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Число недействительно для теста.'
+    email:
+      label: Email
+      placeholder: you@example.com
+      help: 'Введите действительный адрес электронной почты.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email недействителен для теста.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Введите полный URL, включая протокол.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL недействителен для теста.'
+    date:
+      label: Дата
+      help: 'Выберите дату с помощью выбора даты.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Дата недействительна для теста.'
+    datetime:
+      label: 'Дата и время'
+      help: 'Выберите дату и время вместе.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Дата и время недействительны для теста.'
+    time:
+      label: Время
+      help: 'Выберите время суток.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Время недействительно для теста.'
+    file:
+      label: Файл
+      help: 'Загрузите один или несколько файлов с вашего устройства.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Файл недействителен для теста.'
+    radio_choice:
+      label: 'Выбор радио'
+      help: 'Выберите один вариант из списка.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Выбор радио недействителен для теста.'
+      choice:
+        option_a:
+          label: 'Вариант A'
+        option_b:
+          label: 'Вариант B'
+        option_c:
+          label: 'Вариант C'
+    switch:
+      label: Переключатель
+      help: 'Включите или выключите эту опцию.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Переключатель недействителен для теста.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Глобальная ошибка для теста.'
+  action:
+    button_demo: 'Не делать ничего'
+    submit_default: Отправить
+    submit_error: 'Показать ошибки'
+    submit_js: 'JS действие'
+    submit_redirect: Перенаправить
+  toast:
+    success:
+      title: Успех
+      message: 'Форма успешно отправлена.'
+    js_action:
+      title: 'JS действие'
+      message: 'Хотите повторно активировать форму?'
+      reactivate: 'Повторно активировать'
+      dismiss: Закрыть
+  description: |
+    Используйте эту форму для тестирования поведения отправки. Этот демонстрационный пример находится в компоненте Vue.
+
+th:
+  field:
+    password:
+      label: รหัสผ่าน
+      help: กรอกรหัสผ่านของคุณเพื่อการยืนยันตัวตน
+      error:
+        ERR_FIELD_PASSWORD_INVALID: รหัสผ่านไม่ถูกต้องสำหรับการทดสอบ
+    emoji:
+      label: อีโมจิ
+      help: เลือกอีโมจิเพื่อแทนอารมณ์ของคุณ
+      error:
+        ERR_FIELD_EMOJI_INVALID: อีโมจิไม่ถูกต้องสำหรับการทดสอบ
+    text_simple:
+      label: ข้อความ
+      help: ฟิลด์ข้อความแบบบรรทัดเดียวสำหรับเนื้อหาสั้น
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: ข้อความไม่ถูกต้องสำหรับการทดสอบ
+    text_area:
+      label: ข้อความยาว
+      placeholder: พิมพ์สิ่งที่คุณต้องการ...
+      help: ฟิลด์ข้อความหลายบรรทัดสำหรับเนื้อหายาว
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: ข้อความยาวไม่ถูกต้องสำหรับการทดสอบ
+    number:
+      label: หมายเลข
+      help: กรอกค่าตัวเลข
+      error:
+        ERR_FIELD_NUMBER_INVALID: หมายเลขไม่ถูกต้องสำหรับการทดสอบ
+    email:
+      label: อีเมล
+      placeholder: you@example.com
+      help: กรอกที่อยู่อีเมลที่ถูกต้อง
+      error:
+        ERR_FIELD_EMAIL_INVALID: อีเมลไม่ถูกต้องสำหรับการทดสอบ
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'กรอก URL แบบเต็มรวมถึงโปรโตคอล'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL ไม่ถูกต้องสำหรับการทดสอบ'
+    date:
+      label: วันที่
+      help: เลือกวันที่โดยใช้ตัวเลือกวันที่
+      error:
+        ERR_FIELD_DATE_INVALID: วันที่ไม่ถูกต้องสำหรับการทดสอบ
+    datetime:
+      label: 'วันที่ & เวลา'
+      help: เลือกวันที่และเวลารวมกัน
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'วันที่ & เวลา ไม่ถูกต้องสำหรับการทดสอบ'
+    time:
+      label: เวลา
+      help: เลือกเวลาในวัน
+      error:
+        ERR_FIELD_TIME_INVALID: เวลาไม่ถูกต้องสำหรับการทดสอบ
+    file:
+      label: ไฟล์
+      help: อัปโหลดไฟล์หนึ่งหรือหลายไฟล์จากอุปกรณ์ของคุณ
+      error:
+        ERR_FIELD_FILE_INVALID: ไฟล์ไม่ถูกต้องสำหรับการทดสอบ
+    radio_choice:
+      label: ตัวเลือกวิทยุ
+      help: เลือกตัวเลือกหนึ่งจากรายการ
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: ตัวเลือกวิทยุไม่ถูกต้องสำหรับการทดสอบ
+      choice:
+        option_a:
+          label: 'ตัวเลือก A'
+        option_b:
+          label: 'ตัวเลือก B'
+        option_c:
+          label: 'ตัวเลือก C'
+    switch:
+      label: สวิตช์
+      help: เปิดหรือปิดตัวเลือกนี้
+      error:
+        ERR_FIELD_SWITCH_INVALID: สวิตช์ไม่ถูกต้องสำหรับการทดสอบ
+  form:
+    error:
+      ERR_FORM_TEST: ข้อผิดพลาดทั่วไปสำหรับการทดสอบ
+  action:
+    button_demo: ไม่ทำอะไร
+    submit_default: ส่ง
+    submit_error: แสดงข้อผิดพลาด
+    submit_js: 'การดำเนินการ JS'
+    submit_redirect: เปลี่ยนเส้นทาง
+  toast:
+    success:
+      title: สำเร็จ
+      message: ส่งแบบฟอร์มสำเร็จแล้ว
+    js_action:
+      title: 'การดำเนินการ JS'
+      message: 'คุณต้องการเปิดใช้งานแบบฟอร์มอีกครั้งหรือไม่?'
+      reactivate: เปิดใช้งานอีกครั้ง
+      dismiss: ปิด
+  description: |
+    ใช้แบบฟอร์มนี้เพื่อทดสอบพฤติกรรมการส่ง แบบจำลองนี้อยู่ในคอมโพเนนต์ Vue.
+
+tr:
+  field:
+    password:
+      label: Şifre
+      help: 'Kimlik doğrulamak için şifrenizi girin.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Şifre test amaçları için geçersiz.'
+    emoji:
+      label: Emoji
+      help: 'Duygu durumunuzu temsil etmek için bir emoji seçin.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji test amaçları için geçersiz.'
+    text_simple:
+      label: Metin
+      help: 'Kısa içerikler için tek satırlık metin girişi.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Metin test amaçları için geçersiz.'
+    text_area:
+      label: 'Uzun metin'
+      placeholder: 'İstediğinizi yazın...'
+      help: 'Daha uzun içerikler için çok satırlı metin alanı.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Uzun metin test amaçları için geçersiz.'
+    number:
+      label: Sayı
+      help: 'Sayısal bir değer girin.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Sayı test amaçları için geçersiz.'
+    email:
+      label: E-posta
+      placeholder: you@example.com
+      help: 'Geçerli bir e-posta adresi girin.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'E-posta test amaçları için geçersiz.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Protokol dahil tam bir URL girin.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL test amaçları için geçersiz.'
+    date:
+      label: Tarih
+      help: 'Tarih seçici ile bir tarih seçin.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Tarih test amaçları için geçersiz.'
+    datetime:
+      label: 'Tarih ve saat'
+      help: 'Birleşik tarih ve saat seçin.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Tarih ve saat test amaçları için geçersiz.'
+    time:
+      label: Saat
+      help: 'Günün saatini seçin.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Saat test amaçları için geçersiz.'
+    file:
+      label: Dosya
+      help: 'Cihazınızdan bir veya daha fazla dosya yükleyin.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Dosya test amaçları için geçersiz.'
+    radio_choice:
+      label: 'Radyo seçimi'
+      help: 'Listeden bir seçenek seçin.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Radyo seçimi test amaçları için geçersiz.'
+      choice:
+        option_a:
+          label: 'Seçenek A'
+        option_b:
+          label: 'Seçenek B'
+        option_c:
+          label: 'Seçenek C'
+    switch:
+      label: Anahtar
+      help: 'Bu seçeneği açıp kapatın.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Anahtar test amaçları için geçersiz.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Test amaçlı genel hata.'
+  action:
+    button_demo: 'Hiçbir şey yapma'
+    submit_default: Gönder
+    submit_error: 'Hataları göster'
+    submit_js: 'JS işlemi'
+    submit_redirect: Yönlendir
+  toast:
+    success:
+      title: Başarılı
+      message: 'Form başarıyla gönderildi.'
+    js_action:
+      title: 'JS işlemi'
+      message: 'Formu yeniden etkinleştirmek ister misiniz?'
+      reactivate: 'Yeniden etkinleştir'
+      dismiss: Kapat
+  description: |
+    Bu formu gönderim davranışlarını test etmek için kullanın. Bu demo bir Vue bileşenindedir.
+
+ur:
+  field:
+    password:
+      label: پاسورڈ
+      help: 'اپنا پاسورڈ داخل کریں تاکہ تصدیق ہو سکے۔'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'پاسورڈ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    emoji:
+      label: ایموجی
+      help: 'اپنی کیفیت کی نمائندگی کرنے کے لیے ایک ایموجی منتخب کریں۔'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'ایموجی ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    text_simple:
+      label: متن
+      help: 'مختصر مواد کے لیے ایک لائن کا متن داخل کریں۔'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'متن ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    text_area:
+      label: 'طویل متن'
+      placeholder: 'جو چاہیں ٹائپ کریں...'
+      help: 'طویل مواد کے لیے ایک متعدد لائنوں کا متن کا علاقہ۔'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'طویل متن ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    number:
+      label: نمبر
+      help: 'ایک عددی قیمت داخل کریں۔'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'نمبر ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    email:
+      label: 'ای میل'
+      placeholder: you@example.com
+      help: 'ایک درست ای میل ایڈریس داخل کریں۔'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ای میل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    url:
+      label: 'یو آر ایل'
+      placeholder: 'https://'
+      help: 'پروٹوکول سمیت مکمل یو آر ایل داخل کریں۔'
+      error:
+        ERR_FIELD_URL_INVALID: 'یو آر ایل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    date:
+      label: تاریخ
+      help: 'تاریخ منتخب کرنے کے لیے تاریخ چننے والے کا استعمال کریں۔'
+      error:
+        ERR_FIELD_DATE_INVALID: 'تاریخ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    datetime:
+      label: 'تاریخ اور وقت'
+      help: 'تاریخ اور وقت کا مجموعہ منتخب کریں۔'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'تاریخ اور وقت ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    time:
+      label: وقت
+      help: 'دن کا ایک وقت منتخب کریں۔'
+      error:
+        ERR_FIELD_TIME_INVALID: 'وقت ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    file:
+      label: فائل
+      help: 'اپنی ڈیوائس سے ایک یا زیادہ فائلیں اپ لوڈ کریں۔'
+      error:
+        ERR_FIELD_FILE_INVALID: 'فائل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    radio_choice:
+      label: 'ریڈیو انتخاب'
+      help: 'فہرست میں سے ایک آپشن منتخب کریں۔'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'ریڈیو انتخاب ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+      choice:
+        option_a:
+          label: 'آپشن A'
+        option_b:
+          label: 'آپشن B'
+        option_c:
+          label: 'آپشن C'
+    switch:
+      label: سوئچ
+      help: 'اس آپشن کو آن یا آف کریں۔'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'سوئچ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+  form:
+    error:
+      ERR_FORM_TEST: 'ٹیسٹ کے مقصد کے لیے عالمی غلطی۔'
+  action:
+    button_demo: 'کچھ نہ کریں'
+    submit_default: 'جمع کرائیں'
+    submit_error: 'غلطیاں دکھائیں'
+    submit_js: 'JS عمل'
+    submit_redirect: 'ری ڈائریکٹ کریں'
+  toast:
+    success:
+      title: کامیابی
+      message: 'فارم کامیابی سے جمع کرایا گیا۔'
+    js_action:
+      title: 'JS عمل'
+      message: 'کیا آپ فارم کو دوبارہ فعال کرنا چاہتے ہیں؟'
+      reactivate: 'دوبارہ فعال کریں'
+      dismiss: 'بند کریں'
+  description: |
+    اس فارم کا استعمال جمع کرنے کے رویوں کو جانچنے کے لیے کریں۔ یہ ڈیمو ایک Vue کمپوننٹ میں ہے۔
+
+vi:
+  field:
+    password:
+      label: 'Mật khẩu'
+      help: 'Nhập mật khẩu của bạn để xác thực.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Mật khẩu không hợp lệ cho mục đích thử nghiệm.'
+    emoji:
+      label: 'Biểu tượng cảm xúc'
+      help: 'Chọn một biểu tượng cảm xúc để thể hiện tâm trạng của bạn.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Biểu tượng cảm xúc không hợp lệ cho mục đích thử nghiệm.'
+    text_simple:
+      label: 'Văn bản'
+      help: 'Một ô nhập văn bản đơn dòng cho nội dung ngắn.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Văn bản không hợp lệ cho mục đích thử nghiệm.'
+    text_area:
+      label: 'Văn bản dài'
+      placeholder: 'Gõ bất cứ điều gì bạn muốn...'
+      help: 'Một khu vực văn bản đa dòng cho nội dung dài hơn.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Văn bản dài không hợp lệ cho mục đích thử nghiệm.'
+    number:
+      label: Số
+      help: 'Nhập một giá trị số.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Số không hợp lệ cho mục đích thử nghiệm.'
+    email:
+      label: Email
+      placeholder: you@example.com
+      help: 'Nhập địa chỉ email hợp lệ.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email không hợp lệ cho mục đích thử nghiệm.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Nhập một URL đầy đủ bao gồm giao thức.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL không hợp lệ cho mục đích thử nghiệm.'
+    date:
+      label: Ngày
+      help: 'Chọn một ngày bằng cách sử dụng công cụ chọn ngày.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Ngày không hợp lệ cho mục đích thử nghiệm.'
+    datetime:
+      label: 'Ngày & giờ'
+      help: 'Chọn một ngày và giờ kết hợp.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Ngày & giờ không hợp lệ cho mục đích thử nghiệm.'
+    time:
+      label: 'Thời gian'
+      help: 'Chọn một thời điểm trong ngày.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Thời gian không hợp lệ cho mục đích thử nghiệm.'
+    file:
+      label: Tệp
+      help: 'Tải lên một hoặc nhiều tệp từ thiết bị của bạn.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Tệp không hợp lệ cho mục đích thử nghiệm.'
+    radio_choice:
+      label: 'Lựa chọn radio'
+      help: 'Chọn một tùy chọn từ danh sách.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Lựa chọn radio không hợp lệ cho mục đích thử nghiệm.'
+      choice:
+        option_a:
+          label: 'Tùy chọn A'
+        option_b:
+          label: 'Tùy chọn B'
+        option_c:
+          label: 'Tùy chọn C'
+    switch:
+      label: 'Công tắc'
+      help: 'Bật hoặc tắt tùy chọn này.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Công tắc không hợp lệ cho mục đích thử nghiệm.'
+  form:
+    error:
+      ERR_FORM_TEST: 'Lỗi toàn cục cho mục đích thử nghiệm.'
+  action:
+    button_demo: 'Không làm gì cả'
+    submit_default: Gửi
+    submit_error: 'Hiển thị lỗi'
+    submit_js: 'Hành động JS'
+    submit_redirect: 'Chuyển hướng'
+  toast:
+    success:
+      title: 'Thành công'
+      message: 'Biểu mẫu đã được gửi thành công.'
+    js_action:
+      title: 'Hành động JS'
+      message: 'Bạn có muốn kích hoạt lại biểu mẫu không?'
+      reactivate: 'Kích hoạt lại'
+      dismiss: 'Bỏ qua'
+  description: |
+    Sử dụng biểu mẫu này để thử nghiệm hành vi gửi. Mẫu này nằm trong một thành phần Vue.
+
+zh:
+  field:
+    password:
+      label: 密码
+      help: 输入您的密码以进行身份验证。
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 密码无效，仅供测试。
+    emoji:
+      label: 表情符号
+      help: 选择一个表情符号来代表您的情绪。
+      error:
+        ERR_FIELD_EMOJI_INVALID: 表情符号无效，仅供测试。
+    text_simple:
+      label: 文本
+      help: 单行文本输入，适合简短内容。
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 文本无效，仅供测试。
+    text_area:
+      label: 长文本
+      placeholder: 随便输入...
+      help: 多行文本区域，适合较长内容。
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 长文本无效，仅供测试。
+    number:
+      label: 数字
+      help: 输入一个数字值。
+      error:
+        ERR_FIELD_NUMBER_INVALID: 数字无效，仅供测试。
+    email:
+      label: 邮箱
+      placeholder: you@example.com
+      help: 输入一个有效的邮箱地址。
+      error:
+        ERR_FIELD_EMAIL_INVALID: 邮箱无效，仅供测试。
+    url:
+      label: 网址
+      placeholder: 'https://'
+      help: 输入一个完整的网址，包括协议。
+      error:
+        ERR_FIELD_URL_INVALID: 网址无效，仅供测试。
+    date:
+      label: 日期
+      help: 使用日期选择器选择一个日期。
+      error:
+        ERR_FIELD_DATE_INVALID: 日期无效，仅供测试。
+    datetime:
+      label: 日期和时间
+      help: 选择一个结合日期和时间。
+      error:
+        ERR_FIELD_DATETIME_INVALID: 日期和时间无效，仅供测试。
+    time:
+      label: 时间
+      help: 选择一天中的时间。
+      error:
+        ERR_FIELD_TIME_INVALID: 时间无效，仅供测试。
+    file:
+      label: 文件
+      help: 从您的设备上传一个或多个文件。
+      error:
+        ERR_FIELD_FILE_INVALID: 文件无效，仅供测试。
+    radio_choice:
+      label: 单选
+      help: 从列表中选择一个选项。
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 单选无效，仅供测试。
+      choice:
+        option_a:
+          label: '选项 A'
+        option_b:
+          label: '选项 B'
+        option_c:
+          label: '选项 C'
+    switch:
+      label: 开关
+      help: 切换此选项的开或关。
+      error:
+        ERR_FIELD_SWITCH_INVALID: 开关无效，仅供测试。
+  form:
+    error:
+      ERR_FORM_TEST: 全局错误，仅供测试。
+  action:
+    button_demo: 无操作
+    submit_default: 提交
+    submit_error: 显示错误
+    submit_js: 'JS 操作'
+    submit_redirect: 重定向
+  toast:
+    success:
+      title: 成功
+      message: 表单提交成功。
+    js_action:
+      title: 'JS 操作'
+      message: 您想重新激活表单吗？
+      reactivate: 重新激活
+      dismiss: 关闭
+  description: '使用此表单测试提交行为。此演示在 Vue 组件中。'

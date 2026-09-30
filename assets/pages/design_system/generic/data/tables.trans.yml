@@ -1,0 +1,2814 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Tables
+  page_icon: ph:bold/table
+
+  section:
+    wide:
+      title: Wider than the room
+      description: "A table whose columns ask for more than the page has is drawn at the width it needs, in a frame that scrolls sideways — the page around it does not move. A sticky table gives this up: a header sticking to the page and a frame scrolling on its own cannot be had together."
+    default:
+      title: Simple table
+    actions:
+      title: Table with actions
+    links:
+      title: Link and icon cells
+    loading:
+      title: Loading state
+    empty:
+      title: Empty state
+    alignment:
+      title: Column alignment
+    markdown:
+      title: From markdown
+      description: "A table written in markdown and passed through `markdown_ds`: the columns, their alignment and the markup of each cell are read from the document, and the table is drawn here like any other. `markdown` keeps the plain `<table>`, for whatever is not a page — a mail, a feed."
+    groups:
+      title: Group rows
+      description: "A row carrying only a group is not a row: it is the line between two runs of them, given a word. It spans the table and names what follows — the same reading as a menu separator."
+    status:
+      title: Status cells
+      description: "A state is a circle, never a colour someone picked: the cell takes a type name, or a type with a count and a title, and draws the status icon the rest of the system draws. Nothing to style in the page."
+    sticky:
+      title: Sticky header
+      description: "A long table is read column by column as much as row by row. With `sticky`, the header stays in view while the rows scroll under it; a page with something of its own pinned at the top says how far down in `--table-sticky-top`."
+    striped:
+      title: Striped rows, lit under the pointer
+    selection:
+      title: Rows that can be ticked
+      description: "A box at the head of each row, one in the header for them all, and the actions above: they post the ticked rows to their own address, and stay out of reach while nothing is ticked."
+    files:
+      title: Files, a total, an action on every row
+      description: "Paths read by their name, the folders before it cut from their start. The bar ends on how many rows there are, and an action marked `all` works with nothing ticked — it takes every row, and leads the bar when it is the one expected."
+    filters:
+      title: Filters
+      description: "A bar of filters at the head of the table, one discreet menu each, saying what it narrows to once it does. On the server they live in the page's query — each option is a link — and the controller narrows the rows from it; in vue they are a value handed to the page for its api, or applied by the table to the rows it already has. Each option is a box — round for a choice of one — coloured by its tone when it has one, a status or a category."
+    selection_select:
+      title: Actions in a select
+      description: "The same bar when there are enough actions to crowd it: one is chosen, then applied."
+    vue:
+      title: Vue entity table
+    vue_selection:
+      title: Vue table with selection
+      description: "The same contract on the client: the ticked keys come back through v-model:selected, each action is emitted as bulk-action, and one with an address is posted as the server table posts it. These have none, so the line below says what would have been done. Three rows a page, the total at the end of the bar, and Archive all needing nothing ticked."
+    vue_compact:
+      title: Pagination without a total
+      description: When the API does not return a total, the pager falls back to previous/next.
+    vue_dates:
+      title: Vue date formatters
+
+  column:
+    wide: Column
+    default:
+      name: Name
+      date: Date
+      seen: Last seen
+    actions:
+      name: Source
+      date: Updated at
+      operations: Actions
+    links:
+      source: Source
+      state: State
+    status:
+      name: Pipeline
+      build: Build
+      tests: Tests
+      deploy: Deploy
+    alignment:
+      left: Name (left)
+      center: Status (center)
+      right: Amount (right)
+
+  row:
+    wide: A value long enough
+    one:
+      title: Project Alpha
+      meta: "2026-01-10"
+    two:
+      title: Project Beta
+      meta: "2026-02-18"
+    three:
+      title: Project Gamma
+      meta: "2026-03-25"
+    action:
+      one:
+        title: Source Alpha
+        meta: "2026-01-12"
+      two:
+        title: Source Beta
+        meta: "2026-02-20"
+      loading:
+        label: Loading rows
+      empty:
+        label: No data available.
+
+  group:
+    first: First group
+    second: Second group
+
+  status:
+    flaky: Three tests are flaky
+
+  bulk:
+    archive: Archive
+    export: Export
+    delete: Delete
+
+  files:
+    column:
+      path: File
+    fix_selected: Fix selected
+    fix_all: Fix all
+
+  filters:
+    owner: Owner
+    state: State
+    open: Open
+    closed: Closed
+    column:
+      name: Name
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الجداول
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'أوسع من الغرفة'
+      description: 'جدول أعمدته تطلب أكثر مما هو موجود في الصفحة يُرسم بالعرض الذي يحتاجه، في إطار يتصفح جانبياً — الصفحة حوله لا تتحرك. جدول ثابت يتخلى عن هذا: رأس ثابت على الصفحة وإطار يتصفح بمفرده لا يمكن أن يكونا معاً.'
+    default:
+      title: 'جدول بسيط'
+    actions:
+      title: 'جدول مع إجراءات'
+    links:
+      title: 'خلايا الروابط والأيقونات'
+    loading:
+      title: 'حالة التحميل'
+    empty:
+      title: 'حالة فارغة'
+    alignment:
+      title: 'محاذاة الأعمدة'
+    markdown:
+      title: 'من Markdown'
+      description: 'جدول مكتوب بلغة Markdown وممر عبر `markdown_ds`: تُقرأ الأعمدة، محاذاتها وتنسيق كل خلية من الوثيقة، ويتم رسم الجدول هنا مثل أي جدول آخر. `markdown` يحتفظ بالصيغة العادية `<table>`، لأي شيء ليس صفحة — بريد، تغذية.'
+    groups:
+      title: 'تجميع الصفوف'
+      description: 'صف يحمل مجموعة فقط ليس صفاً: إنه الخط بين اثنين من هذه الصفوف، مُعطى كلمة. يمتد عبر الجدول ويسمّي ما يتبعه — نفس قراءة فاصل القائمة.'
+    status:
+      title: 'خلايا الحالة'
+      description: 'الحالة هي دائرة، وليست لوناً اختاره أحد: تأخذ الخلية اسم نوع، أو نوعاً مع عدد وعنوان، وتظهر أيقونة الحالة مثلما تظهرها بقية النظام. لا شيء لتصميمه في الصفحة.'
+    sticky:
+      title: 'رأس ثابت'
+      description: 'يتم قراءة الجدول الطويل عمودًا بعمود كما هو الحال صفًا بصف. مع `sticky`، يبقى الرأس في العرض بينما تتصفح الصفوف تحته؛ الصفحة التي تحتوي على شيء خاص بها مثبت في الأعلى تقول مدى العمق في `--table-sticky-top`.'
+    striped:
+      title: 'صفوف مخططة، مضاءة تحت المؤشر'
+    selection:
+      title: 'صفوف يمكن تحديدها'
+      description: 'مربع في رأس كل صف، واحد في الرأس من أجلهم جميعًا، والإجراءات أعلاه: يقومون بإرسال الصفوف المحددة إلى عنوانهم الخاص، ويبقون خارج النطاق بينما لا يوجد شيء محدد.'
+    files:
+      title: 'ملفات، إجمالي، إجراء على كل صف'
+      description: 'مسارات تُقرأ حسب اسمها، المجلدات قبله مقطوعة من بدايتها. تنتهي الشريط بعدد الصفوف الموجودة، وإجراء مُعَلَّم ب`all` يعمل مع عدم تحديد أي شيء — يأخذ كل صف، ويقود الشريط عندما يكون هو المتوقع.'
+    filters:
+      title: مرشحات
+      description: 'شريط من المرشحات في رأس الجدول، قائمة خفية واحدة لكل منها، تقول ما تضيق عليه بمجرد أن تفعل ذلك. على الخادم تعيش في استعلام الصفحة — كل خيار هو رابط — ويسيطر المتحكم على تضييق الصفوف منها؛ في vue هم قيمة تُعطى للصفحة من أجل واجهتها، أو تُطبق بواسطة الجدول على الصفوف التي لديها بالفعل. كل خيار هو مربع — دائري لاختيار واحد — ملون بنغمة عندما تكون له، حالة أو فئة.'
+    selection_select:
+      title: 'إجراءات في اختيار'
+      description: 'نفس الشريط عندما تكون هناك إجراءات كافية لزيادة الزحام: يتم اختيار واحدة، ثم تطبيقها.'
+    vue:
+      title: 'جدول كيان Vue'
+    vue_selection:
+      title: 'جدول Vue مع اختيار'
+      description: 'نفس العقد على العميل: المفاتيح المحددة تعود عبر v-model:selected، كل إجراء يتم إصداره كإجراء جماعي، وواحد مع عنوان يُنشر مثلما ينشره جدول الخادم. هؤلاء ليس لديهم أي، لذا تقول السطر أدناه ما كان سيتم فعله. ثلاثة صفوف في الصفحة، الإجمالي في نهاية الشريط، وأرشفة جميعها دون حاجة لتحديد أي شيء.'
+    vue_compact:
+      title: 'التصفح بدون إجمالي'
+      description: 'عندما لا تُرجع واجهة برمجة التطبيقات إجمالي، يعود شريط الصفحات إلى السابق/التالي.'
+    vue_dates:
+      title: 'منسقات تاريخ Vue'
+  column:
+    wide: عمود
+    default:
+      name: الاسم
+      date: التاريخ
+      seen: 'آخر ظهور'
+    actions:
+      name: المصدر
+      date: 'تحديث في'
+      operations: إجراءات
+    links:
+      source: المصدر
+      state: الحالة
+    status:
+      name: 'خط الأنابيب'
+      build: البناء
+      tests: الاختبارات
+      deploy: النشر
+    alignment:
+      left: 'الاسم (يسار)'
+      center: 'الحالة (وسط)'
+      right: 'المبلغ (يمين)'
+  row:
+    wide: 'قيمة طويلة بما فيه الكفاية'
+    one:
+      title: 'المشروع ألفا'
+      meta: '2026-01-10'
+    two:
+      title: 'المشروع بيتا'
+      meta: '2026-02-18'
+    three:
+      title: 'المشروع غاما'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'المصدر ألفا'
+        meta: '2026-01-12'
+      two:
+        title: 'المصدر بيتا'
+        meta: '2026-02-20'
+      loading:
+        label: 'تحميل الصفوف'
+      empty:
+        label: 'لا توجد بيانات متاحة.'
+  group:
+    first: 'المجموعة الأولى'
+    second: 'المجموعة الثانية'
+  status:
+    flaky: 'ثلاث اختبارات غير مستقرة'
+  bulk:
+    archive: أرشفة
+    export: تصدير
+    delete: حذف
+  files:
+    column:
+      path: الملف
+    fix_selected: 'إصلاح المحدد'
+    fix_all: 'إصلاح الكل'
+  filters:
+    owner: المالك
+    state: الحالة
+    open: مفتوح
+    closed: مغلق
+    column:
+      name: الاسم
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: টেবিল
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'কামরার চেয়ে বড়'
+      description: 'একটি টেবিল যার কলামগুলো পৃষ্ঠার চেয়ে বেশি প্রয়োজন, এটি প্রয়োজনীয় প্রস্থে অঙ্কিত হয়, একটি ফ্রেমে যা পাশে স্ক্রোল করে — এর চারপাশের পৃষ্ঠা সরে যায় না। একটি স্টিকি টেবিল এটি ছেড়ে দেয়: একটি শিরোনাম যা পৃষ্ঠায় আটকে থাকে এবং একটি ফ্রেম যা নিজেই স্ক্রোল করে একসাথে থাকতে পারে না।'
+    default:
+      title: 'সাধারণ টেবিল'
+    actions:
+      title: 'ক্রিয়াকলাপ সহ টেবিল'
+    links:
+      title: 'লিংক এবং আইকন সেল'
+    loading:
+      title: 'লোডিং অবস্থায়'
+    empty:
+      title: 'খালি অবস্থায়'
+    alignment:
+      title: 'কলামের সজ্জা'
+    markdown:
+      title: 'মার্কডাউন থেকে'
+      description: 'একটি টেবিল যা মার্কডাউন এ লেখা হয়েছে এবং `markdown_ds` এর মাধ্যমে পাঠানো হয়েছে: কলামগুলো, তাদের সজ্জা এবং প্রতিটি সেলের মার্কআপ ডকুমেন্ট থেকে পড়া হয়, এবং টেবিলটি এখানে অন্য যেকোনোটির মতো অঙ্কিত হয়। `markdown` সাধারণ `<table>` রাখে, যা পৃষ্ঠা নয় — একটি মেইল, একটি ফিড।'
+    groups:
+      title: 'গ্রুপ সারি'
+      description: 'একটি সারি যা শুধুমাত্র একটি গ্রুপ বহন করে, সেটি একটি সারি নয়: এটি তাদের দুটি দৌড়ের মধ্যে একটি লাইন, একটি শব্দ দেওয়া হয়েছে। এটি টেবিলটি ছাপিয়ে যায় এবং যা পরবর্তী তা নামকরণ করে — মেনু বিভাজকের মতো একই পড়া।'
+    status:
+      title: 'স্ট্যাটাস সেল'
+      description: 'একটি অবস্থান একটি বৃত্ত, কখনোই একটি রঙ যা কেউ বেছে নিয়েছে: সেলটি একটি টাইপ নাম নেয়, অথবা একটি টাইপ যার একটি গণনা এবং একটি শিরোনাম রয়েছে, এবং স্ট্যাটাস আইকনটি আঁকে যা বাকি সিস্টেম আঁকে। পৃষ্ঠায় স্টাইল করার কিছু নেই।'
+    sticky:
+      title: 'স্টিকি শিরোনাম'
+      description: 'একটি দীর্ঘ টেবিল কলাম দ্বারা কলাম হিসাবে পড়া হয় যতটা সারি দ্বারা পড়া হয়। `স্টিকি` এর সাথে, শিরোনাম দৃশ্যমান থাকে যখন সারিগুলি এর নিচে স্ক্রোল করে; একটি পৃষ্ঠা যার কিছু উপরে পিন করা আছে তা `--table-sticky-top` এ কত নিচে তা বলে।'
+    striped:
+      title: 'স্ট্রাইপড সারি, পয়েন্টারের নিচে উজ্জ্বল'
+    selection:
+      title: 'যা টিক করতে পারে এমন সারি'
+      description: 'প্রতিটি সারির মাথায় একটি বাক্স, তাদের সকলের জন্য একটি শিরোনামে, এবং উপরে ক্রিয়াকলাপ: তারা টিক করা সারিগুলি তাদের নিজস্ব ঠিকানায় পোস্ট করে, এবং কিছু টিক না হওয়া পর্যন্ত পৌঁছানোর বাইরে থাকে।'
+    files:
+      title: 'ফাইল, মোট, প্রতিটি সারিতে একটি ক্রিয়া'
+      description: 'পথগুলো তাদের নাম দ্বারা পড়া হয়, তার আগে ফোল্ডারগুলো তাদের শুরু থেকে কাটা হয়। বারটি কতগুলি সারি রয়েছে তার উপরে শেষ হয়, এবং একটি ক্রিয়া যা `all` চিহ্নিত করা হয়েছে তা কিছু টিক না হওয়া অবস্থায় কাজ করে — এটি প্রতিটি সারি গ্রহণ করে, এবং যখন এটি প্রত্যাশিত হয় তখন বারকে পরিচালনা করে।'
+    filters:
+      title: ফিল্টার
+      description: 'টেবিলের মাথায় ফিল্টারের একটি বার, প্রতিটি একটি সূক্ষ্ম মেনু, যা এটি যখন সংকীর্ণ হয় তখন কি সংকীর্ণ হয় তা বলে। সার্ভারে তারা পৃষ্ঠার প্রশ্নে বসবাস করে — প্রতিটি অপশন একটি লিংক — এবং নিয়ন্ত্রক এটি থেকে সারিগুলি সংকীর্ণ করে; ভিউতে তারা পৃষ্ঠার জন্য এর এপিআই দ্বারা হস্তান্তরিত একটি মান, অথবা টেবিল দ্বারা ইতিমধ্যে থাকা সারিগুলিতে প্রয়োগ করা হয়। প্রতিটি অপশন একটি বাক্স — একটি একটিমাত্র পছন্দের জন্য গোল — যখন একটি রঙ থাকে, তার স্বর অনুযায়ী রঙিন, একটি স্ট্যাটাস বা একটি ক্যাটাগরি।'
+    selection_select:
+      title: 'একটি নির্বাচনে ক্রিয়াকলাপ'
+      description: 'যখন যথেষ্ট ক্রিয়াকলাপ থাকে তখন একই বার: একটি নির্বাচন করা হয়, পরে প্রয়োগ করা হয়।'
+    vue:
+      title: 'ভিউ এন্টিটি টেবিল'
+    vue_selection:
+      title: 'নির্বাচন সহ ভিউ টেবিল'
+      description: 'ক্লায়েন্টে একই চুক্তি: টিক করা কীগুলি v-model:selected এর মাধ্যমে ফিরে আসে, প্রতিটি ক্রিয়া একটি বাল্ক-অ্যাকশন হিসাবে নির্গত হয়, এবং একটি ঠিকানা সহ একটি সার্ভার টেবিল পোস্টের মতো পোস্ট করা হয়। এগুলোর কিছু নেই, তাই নিচের লাইন বলে দেয় কি করা হবে। প্রতিটি পৃষ্ঠায় তিনটি সারি, বারটির শেষে মোট, এবং আর্কাইভ করার জন্য কিছু টিকের প্রয়োজন নেই।'
+    vue_compact:
+      title: 'মোট ছাড়া পৃষ্ঠা বিভাজন'
+      description: 'যখন এপিআই মোট ফেরত দেয় না, তখন পেজার পূর্ববর্তী/পরবর্তীতে ফিরে আসে।'
+    vue_dates:
+      title: 'ভিউ তারিখ ফরম্যাটার'
+  column:
+    wide: কলাম
+    default:
+      name: নাম
+      date: তারিখ
+      seen: 'সর্বশেষ দেখা'
+    actions:
+      name: সূত্র
+      date: 'আপডেট করা হয়েছে'
+      operations: ক্রিয়াকলাপ
+    links:
+      source: সূত্র
+      state: অবস্থা
+    status:
+      name: পাইপলাইন
+      build: বিল্ড
+      tests: পরীক্ষা
+      deploy: ডিপ্লয়
+    alignment:
+      left: 'নাম (বাঁ쪽)'
+      center: 'অবস্থা (মধ্য)'
+      right: 'পরিমাণ (ডান)'
+  row:
+    wide: 'যতটা দীর্ঘ একটি মান'
+    one:
+      title: 'প্রজেক্ট আলফা'
+      meta: '2026-01-10'
+    two:
+      title: 'প্রজেক্ট বেটা'
+      meta: '2026-02-18'
+    three:
+      title: 'প্রজেক্ট গামা'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'সূত্র আলফা'
+        meta: '2026-01-12'
+      two:
+        title: 'সূত্র বেটা'
+        meta: '2026-02-20'
+      loading:
+        label: 'সারি লোড হচ্ছে'
+      empty:
+        label: 'কোন তথ্য উপলব্ধ নয়।'
+  group:
+    first: 'প্রথম গ্রুপ'
+    second: 'দ্বিতীয় গ্রুপ'
+  status:
+    flaky: 'তিনটি পরীক্ষা অস্থির'
+  bulk:
+    archive: আর্কাইভ
+    export: রফতানী
+    delete: মুছুন
+  files:
+    column:
+      path: ফাইল
+    fix_selected: 'নির্বাচিত ঠিক করুন'
+    fix_all: 'সব ঠিক করুন'
+  filters:
+    owner: মালিক
+    state: অবস্থা
+    open: খোলা
+    closed: বন্ধ
+    column:
+      name: নাম
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tabellen
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Breiter als der Raum'
+      description: 'Eine Tabelle, deren Spalten mehr Platz benötigen als die Seite bietet, wird in der Breite gezeichnet, die sie benötigt, in einem Rahmen, der seitlich scrollt – die Seite um sie herum bleibt stehen. Eine Sticky-Tabelle gibt dies auf: Ein Header, der an der Seite haftet, und ein Rahmen, der selbst scrollt, können nicht zusammen existieren.'
+    default:
+      title: 'Einfache Tabelle'
+    actions:
+      title: 'Tabelle mit Aktionen'
+    links:
+      title: 'Link- und Symbolzellen'
+    loading:
+      title: Ladezustand
+    empty:
+      title: 'Leerer Zustand'
+    alignment:
+      title: Spaltenausrichtung
+    markdown:
+      title: 'Aus Markdown'
+      description: 'Eine in Markdown geschriebene Tabelle, die durch `markdown_ds` verarbeitet wird: Die Spalten, ihre Ausrichtung und die Markup jedes Zelle werden aus dem Dokument gelesen, und die Tabelle wird hier wie jede andere dargestellt. `markdown` behält das einfache `<table>` für alles, was keine Seite ist – eine E-Mail, einen Feed.'
+    groups:
+      title: 'Gruppiere Zeilen'
+      description: 'Eine Zeile, die nur eine Gruppe enthält, ist keine Zeile: Sie ist die Linie zwischen zwei Durchläufen davon, die ein Wort erhält. Sie erstreckt sich über die Tabelle und benennt, was folgt – die gleiche Lesart wie ein Menüseparator.'
+    status:
+      title: Statuszellen
+      description: 'Ein Zustand ist ein Kreis, niemals eine Farbe, die jemand gewählt hat: Die Zelle nimmt einen Typnamen oder einen Typ mit einer Anzahl und einem Titel an und zeigt das Statussymbol, das der Rest des Systems anzeigt. Nichts zum Stylen auf der Seite.'
+    sticky:
+      title: Sticky-Header
+      description: 'Eine lange Tabelle wird spaltenweise gelesen, ebenso wie zeilenweise. Mit `sticky` bleibt der Header im Blick, während die Zeilen darunter scrollen; eine Seite mit etwas Eigenem oben angeheftet zeigt, wie weit unten in `--table-sticky-top`.'
+    striped:
+      title: 'Gestreifte Zeilen, beleuchtet unter dem Zeiger'
+    selection:
+      title: 'Zeilen, die angekreuzt werden können'
+      description: 'Ein Kästchen am Kopf jeder Zeile, eines im Header für alle, und die Aktionen darüber: Sie senden die angekreuzten Zeilen an ihre eigene Adresse und bleiben unerreichbar, solange nichts angekreuzt ist.'
+    files:
+      title: 'Dateien, eine Gesamtzahl, eine Aktion für jede Zeile'
+      description: 'Pfade, die nach ihrem Namen gelesen werden, die Ordner davor werden von ihrem Anfang abgeschnitten. Die Leiste endet mit der Anzahl der Zeilen, und eine Aktion, die mit `alle` gekennzeichnet ist, funktioniert auch ohne etwas angekreuzt zu haben – sie nimmt jede Zeile und führt die Leiste, wenn sie die erwartete ist.'
+    filters:
+      title: Filter
+      description: 'Eine Leiste von Filtern am Kopf der Tabelle, jeweils ein diskretes Menü, das angibt, was es eingrenzt, sobald es das tut. Auf dem Server leben sie in der Abfrage der Seite – jede Option ist ein Link – und der Controller grenzt die Zeilen von dort ein; in Vue sind sie ein Wert, der der Seite für ihre API übergeben wird oder von der Tabelle auf die bereits vorhandenen Zeilen angewandt wird. Jede Option ist ein Kästchen – rund für eine Auswahl von einem – gefärbt durch seinen Ton, wenn er einen hat, einen Status oder eine Kategorie.'
+    selection_select:
+      title: 'Aktionen in einer Auswahl'
+      description: 'Die gleiche Leiste, wenn es genug Aktionen gibt, um sie zu überfüllen: Eine wird gewählt, dann angewandt.'
+    vue:
+      title: Vue-Entity-Tabelle
+    vue_selection:
+      title: 'Vue-Tabelle mit Auswahl'
+      description: 'Der gleiche Vertrag auf dem Client: die angekreuzten Schlüssel kommen über v-model:selected zurück, jede Aktion wird als bulk-action ausgegeben, und eine mit einer Adresse wird gepostet, während die Servertabelle sie postet. Diese haben keine, also sagt die Zeile darunter, was hätte getan werden können. Drei Zeilen pro Seite, die Gesamtzahl am Ende der Leiste, und „Alle archivieren“ benötigt nichts angekreuzt.'
+    vue_compact:
+      title: 'Paginierung ohne Gesamtzahl'
+      description: 'Wenn die API keine Gesamtzahl zurückgibt, fällt der Pager auf vorher/nachher zurück.'
+    vue_dates:
+      title: Vue-Datumsformatter
+  column:
+    wide: Spalte
+    default:
+      name: Name
+      date: Datum
+      seen: 'Zuletzt gesehen'
+    actions:
+      name: Quelle
+      date: 'Aktualisiert am'
+      operations: Aktionen
+    links:
+      source: Quelle
+      state: Status
+    status:
+      name: Pipeline
+      build: Bau
+      tests: Tests
+      deploy: Bereitstellung
+    alignment:
+      left: 'Name (links)'
+      center: 'Status (zentriert)'
+      right: 'Menge (rechts)'
+  row:
+    wide: 'Ein Wert, der lang genug ist'
+    one:
+      title: 'Projekt Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Projekt Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Projekt Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Quelle Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Quelle Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Lade Zeilen'
+      empty:
+        label: 'Keine Daten verfügbar.'
+  group:
+    first: 'Erste Gruppe'
+    second: 'Zweite Gruppe'
+  status:
+    flaky: 'Drei Tests sind fehleranfällig'
+  bulk:
+    archive: Archivieren
+    export: Exportieren
+    delete: Löschen
+  files:
+    column:
+      path: Datei
+    fix_selected: 'Ausgewählte reparieren'
+    fix_all: 'Alle reparieren'
+  filters:
+    owner: Besitzer
+    state: Status
+    open: Offen
+    closed: Geschlossen
+    column:
+      name: Name
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tablas
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Más ancho que la habitación'
+      description: 'Una tabla cuyas columnas piden más de lo que la página tiene se dibuja con el ancho que necesita, en un marco que se desplaza horizontalmente — la página a su alrededor no se mueve. Una tabla pegajosa renuncia a esto: un encabezado que se adhiere a la página y un marco que se desplaza por sí solo no se pueden tener juntos.'
+    default:
+      title: 'Tabla simple'
+    actions:
+      title: 'Tabla con acciones'
+    links:
+      title: 'Celdas de enlace e ícono'
+    loading:
+      title: 'Estado de carga'
+    empty:
+      title: 'Estado vacío'
+    alignment:
+      title: 'Alineación de columnas'
+    markdown:
+      title: 'Desde markdown'
+      description: 'Una tabla escrita en markdown y pasada por `markdown_ds`: las columnas, su alineación y el marcado de cada celda se leen del documento, y la tabla se dibuja aquí como cualquier otra. `markdown` mantiene el simple `<table>`, para lo que no es una página — un correo, un feed.'
+    groups:
+      title: 'Agrupar filas'
+      description: 'Una fila que lleva solo un grupo no es una fila: es la línea entre dos series de ellas, dado una palabra. Se extiende por la tabla y nombra lo que sigue — la misma lectura que un separador de menú.'
+    status:
+      title: 'Celdas de estado'
+      description: 'Un estado es un círculo, nunca un color que alguien eligió: la celda toma un nombre de tipo, o un tipo con un recuento y un título, y dibuja el ícono de estado que el resto del sistema dibuja. Nada para estilizar en la página.'
+    sticky:
+      title: 'Encabezado pegajoso'
+      description: 'Una tabla larga se lee columna por columna tanto como fila por fila. Con `sticky`, el encabezado permanece a la vista mientras las filas se desplazan por debajo; una página con algo propio fijado en la parte superior indica cuán abajo en `--table-sticky-top`.'
+    striped:
+      title: 'Filas a rayas, iluminadas bajo el puntero'
+    selection:
+      title: 'Filas que pueden ser marcadas'
+      description: 'Una casilla en la cabeza de cada fila, una en el encabezado para todas, y las acciones arriba: publican las filas marcadas a su propia dirección, y se mantienen fuera de alcance mientras nada esté marcado.'
+    files:
+      title: 'Archivos, un total, una acción en cada fila'
+      description: 'Rutas leídas por su nombre, las carpetas antes se cortan desde su inicio. La barra termina en cuántas filas hay, y una acción marcada como `todo` funciona con nada marcado — toma cada fila y guía la barra cuando es la esperada.'
+    filters:
+      title: Filtros
+      description: 'Una barra de filtros en la cabeza de la tabla, un menú discreto cada uno, diciendo a qué se reduce una vez que lo hace. En el servidor viven en la consulta de la página — cada opción es un enlace — y el controlador reduce las filas a partir de ello; en vue son un valor entregado a la página para su api, o aplicados por la tabla a las filas que ya tiene. Cada opción es una caja — redonda para una elección de uno — coloreada por su tono cuando tiene uno, un estado o una categoría.'
+    selection_select:
+      title: 'Acciones en una selección'
+      description: 'La misma barra cuando hay suficientes acciones para abarrotarla: se elige una, luego se aplica.'
+    vue:
+      title: 'Tabla de entidad Vue'
+    vue_selection:
+      title: 'Tabla Vue con selección'
+      description: 'El mismo contrato en el cliente: las claves marcadas regresan a través de v-model:selected, cada acción se emite como acción masiva, y una con una dirección se publica como la tabla del servidor la publica. Estas no tienen ninguna, por lo que la línea de abajo dice lo que se habría hecho. Tres filas por página, el total al final de la barra, y Archivar todo sin necesidad de nada marcado.'
+    vue_compact:
+      title: 'Paginación sin un total'
+      description: 'Cuando la API no devuelve un total, el paginador recurre a anterior/siguiente.'
+    vue_dates:
+      title: 'Formateadores de fecha Vue'
+  column:
+    wide: Columna
+    default:
+      name: Nombre
+      date: Fecha
+      seen: 'Última vista'
+    actions:
+      name: Fuente
+      date: 'Actualizado en'
+      operations: Acciones
+    links:
+      source: Fuente
+      state: Estado
+    status:
+      name: Pipeline
+      build: Construcción
+      tests: Pruebas
+      deploy: Desplegar
+    alignment:
+      left: 'Nombre (izquierda)'
+      center: 'Estado (centro)'
+      right: 'Cantidad (derecha)'
+  row:
+    wide: 'Un valor lo suficientemente largo'
+    one:
+      title: 'Proyecto Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Proyecto Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Proyecto Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Fuente Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Fuente Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Cargando filas'
+      empty:
+        label: 'No hay datos disponibles.'
+  group:
+    first: 'Primer grupo'
+    second: 'Segundo grupo'
+  status:
+    flaky: 'Tres pruebas son inestables'
+  bulk:
+    archive: Archivar
+    export: Exportar
+    delete: Eliminar
+  files:
+    column:
+      path: Archivo
+    fix_selected: 'Reparar seleccionados'
+    fix_all: 'Reparar todo'
+  filters:
+    owner: Propietario
+    state: Estado
+    open: Abierto
+    closed: Cerrado
+    column:
+      name: Nombre
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: جدول‌ها
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'بزرگ‌تر از اتاق'
+      description: 'جدولی که ستون‌های آن بیشتر از عرض صفحه را می‌طلبند، به عرض مورد نیاز خود رسم می‌شود و در یک کادر که به سمت چپ و راست اسکرول می‌شود قرار دارد — صفحه اطراف آن حرکت نمی‌کند. یک جدول چسبنده این را رها می‌کند: یک هدر که به صفحه چسبیده و یک کادر که به طور مستقل اسکرول می‌شود نمی‌تواند با هم وجود داشته باشد.'
+    default:
+      title: 'جدول ساده'
+    actions:
+      title: 'جدول با عمل‌ها'
+    links:
+      title: 'سلول‌های لینک و آیکون'
+    loading:
+      title: 'وضعیت بارگذاری'
+    empty:
+      title: 'وضعیت خالی'
+    alignment:
+      title: 'تراز ستون‌ها'
+    markdown:
+      title: 'از Markdown'
+      description: 'جدولی که به زبان Markdown نوشته شده و از طریق `markdown_ds` پردازش شده است: ستون‌ها، تراز آن‌ها و نشانه‌گذاری هر سلول از سند خوانده می‌شود و جدول اینجا مانند هر جدول دیگری رسم می‌شود. `markdown` متن ساده `<table>` را نگه می‌دارد، برای هر آنچه که صفحه نیست — یک ایمیل، یک فید.'
+    groups:
+      title: 'گروه‌بندی ردیف‌ها'
+      description: 'یک ردیف که تنها یک گروه را حمل می‌کند، ردیف نیست: این خطی است بین دو دسته از آن‌ها، با یک کلمه. این ردیف جدول را پوشش می‌دهد و آنچه را که پس از آن می‌آید نامگذاری می‌کند — همانند خواندن یک جداکننده منو.'
+    status:
+      title: 'سلول‌های وضعیت'
+      description: 'یک وضعیت یک دایره است، هرگز رنگی که کسی انتخاب کرده باشد: سلول یک نام نوع می‌گیرد، یا یک نوع با یک شمارش و عنوان، و آیکون وضعیت را همانطور که باقی سیستم رسم می‌کند، می‌کشد. هیچ چیزی برای استایل در صفحه وجود ندارد.'
+    sticky:
+      title: 'هدر چسبنده'
+      description: 'یک جدول طولانی به اندازه‌ای که ردیف به ردیف خوانده می‌شود، به صورت ستون به ستون نیز خوانده می‌شود. با `sticky`، هدر در دید باقی می‌ماند در حالی که ردیف‌ها زیر آن اسکرول می‌شوند؛ یک صفحه با چیزی که در بالا چسبیده نشان می‌دهد که چقدر پایین در `--table-sticky-top` قرار دارد.'
+    striped:
+      title: 'ردیف‌های نوار دار، روشن زیر نشان‌گر'
+    selection:
+      title: 'ردیف‌هایی که می‌توان انتخاب کرد'
+      description: 'یک مربع در بالای هر ردیف، یکی در هدر برای همه آن‌ها، و عمل‌ها در بالا: آن‌ها ردیف‌های انتخاب شده را به آدرس خود ارسال می‌کنند و در حالی که هیچ انتخابی نشده در دسترس نیستند، دور می‌مانند.'
+    files:
+      title: 'فایل‌ها، یک مجموع، یک عمل بر روی هر ردیف'
+      description: 'مسیرها با نامشان خوانده می‌شوند، پوشه‌ها قبل از آن از ابتدا کوتاه می‌شوند. نوار به تعداد ردیف‌ها پایان می‌یابد و یک عمل با علامت `all` با هیچ چیز انتخاب شده کار می‌کند — آن هر ردیف را می‌گیرد و نوار را وقتی که یکی انتظار می‌رود پیش می‌برد.'
+    filters:
+      title: فیلترها
+      description: 'نوار فیلترها در بالای جدول، هر کدام یک منوی نامحسوس، می‌گوید که وقتی فیلتر اعمال شد به چه چیزی محدود می‌شود. در سرور آن‌ها در پرسش صفحه زندگی می‌کنند — هر گزینه یک لینک است — و کنترل‌کننده ردیف‌ها را از آن محدود می‌کند؛ در vue آن‌ها مقدارهایی هستند که به صفحه برای api آن داده می‌شوند، یا توسط جدول به ردیف‌هایی که قبلاً دارد اعمال می‌شوند. هر گزینه یک مربع است — گرد برای انتخاب یکی — با رنگی که وقتی رنگی دارد، یک وضعیت یا یک دسته را نشان می‌دهد.'
+    selection_select:
+      title: 'عمل‌ها در یک انتخاب'
+      description: 'همین نوار زمانی که عمل‌های کافی برای شلوغ کردن آن وجود دارد: یکی انتخاب می‌شود، سپس اعمال می‌شود.'
+    vue:
+      title: 'جدول موجودیت Vue'
+    vue_selection:
+      title: 'جدول Vue با انتخاب'
+      description: 'همین قرارداد در سمت کاربر: کلیدهای انتخاب شده از طریق v-model:selected برمی‌گردند، هر عمل به عنوان bulk-action منتشر می‌شود و یکی با یک آدرس به عنوان جدولی که سرور آن را ارسال می‌کند، ارسال می‌شود. این‌ها هیچ‌کدام ندارند، بنابراین خط زیر می‌گوید که چه چیزی باید انجام می‌شد. سه ردیف در هر صفحه، مجموع در انتهای نوار، و آرشیو همه نیاز به هیچ انتخابی ندارد.'
+    vue_compact:
+      title: 'صفحه‌بندی بدون مجموع'
+      description: 'زمانی که api مجموع را برنمی‌گرداند، صفحه‌بند به قبلی/بعدی بازمی‌گردد.'
+    vue_dates:
+      title: 'فرمت‌کننده‌های تاریخ Vue'
+  column:
+    wide: ستون
+    default:
+      name: نام
+      date: تاریخ
+      seen: 'آخرین مشاهده'
+    actions:
+      name: منبع
+      date: 'به‌روزرسانی در'
+      operations: عمل‌ها
+    links:
+      source: منبع
+      state: وضعیت
+    status:
+      name: 'خط لوله'
+      build: ساخت
+      tests: آزمون‌ها
+      deploy: استقرار
+    alignment:
+      left: 'نام (چپ)'
+      center: 'وضعیت (وسط)'
+      right: 'مقدار (راست)'
+  row:
+    wide: 'یک مقدار به اندازه کافی طولانی'
+    one:
+      title: 'پروژه آلفا'
+      meta: '2026-01-10'
+    two:
+      title: 'پروژه بتا'
+      meta: '2026-02-18'
+    three:
+      title: 'پروژه گاما'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'منبع آلفا'
+        meta: '2026-01-12'
+      two:
+        title: 'منبع بتا'
+        meta: '2026-02-20'
+      loading:
+        label: 'بارگذاری ردیف‌ها'
+      empty:
+        label: 'داده‌ای موجود نیست.'
+  group:
+    first: 'گروه اول'
+    second: 'گروه دوم'
+  status:
+    flaky: 'سه آزمون ناپایدار هستند'
+  bulk:
+    archive: آرشیو
+    export: 'صادر کردن'
+    delete: حذف
+  files:
+    column:
+      path: فایل
+    fix_selected: 'اصلاح انتخاب شده'
+    fix_all: 'اصلاح همه'
+  filters:
+    owner: مالک
+    state: وضعیت
+    open: باز
+    closed: بسته
+    column:
+      name: نام
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Taulukot
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Leveämpi kuin huone'
+      description: 'Taulukko, jonka sarakkeet vaativat enemmän kuin sivu sisältää, piirretään tarvittavalla leveydellä, kehykseen, joka vierittää vaakasuunnassa — sivu ympärillä ei liiku. Sticky-taulukko luopuu tästä: otsikko, joka pysyy sivulla, ja kehys, joka vierittää itsenäisesti, eivät voi olla yhdessä.'
+    default:
+      title: 'Yksinkertainen taulukko'
+    actions:
+      title: Toimintotaulukko
+    links:
+      title: 'Linkki- ja kuvake-solut'
+    loading:
+      title: Lataustila
+    empty:
+      title: Tyhjätila
+    alignment:
+      title: 'Sarakkeiden kohdistus'
+    markdown:
+      title: Markdownista
+      description: 'Taulukko, joka on kirjoitettu markdownissa ja käsitelty `markdown_ds`:llä: sarakkeet, niiden kohdistus ja jokaisen solun merkintä luetaan asiakirjasta, ja taulukko piirretään täällä kuten mikä tahansa muu. `markdown` pitää yksinkertaisen `<table>`, kaikelle, mikä ei ole sivu — sähköposti, syöte.'
+    groups:
+      title: 'Rivien ryhmittely'
+      description: 'Rivi, joka sisältää vain ryhmän, ei ole rivi: se on viiva kahden niiden sarjan välillä, annettuna sanana. Se kattaa taulukon ja nimeää mitä seuraa — sama lukeminen kuin valikkoseparatorilla.'
+    status:
+      title: Tilasolut
+      description: 'Tila on ympyrä, ei väri, jonka joku valitsi: solu ottaa tyypin nimen tai tyypin, jossa on määrä ja otsikko, ja piirtää tilakuvakkeen kuten muu järjestelmä. Ei mitään tyyliteltävää sivulla.'
+    sticky:
+      title: Sticky-otsikko
+      description: 'Pitkä taulukko luetaan sarake sarakkeelta yhtä paljon kuin rivi riviltä. `sticky`-asetuksella otsikko pysyy näkyvissä, kun rivit vierivät sen alta; sivu, jolla on jotain omaa kiinnitettynä ylös, sanoo kuinka pitkälle alas `--table-sticky-top`.'
+    striped:
+      title: 'Raidalliset rivit, valaistu hiiren kohdalla'
+    selection:
+      title: 'Rivit, jotka voidaan valita'
+      description: 'Ruutu jokaisen rivin päässä, yksi otsikossa kaikille, ja toiminnot ylhäällä: ne lähettävät valitut rivit omaan osoitteeseensa, ja pysyvät ulottumattomissa, kun mitään ei ole valittu.'
+    files:
+      title: 'Tiedostot, yhteensä, toiminto jokaiselle riville'
+      description: 'Polut luetaan nimellään, kansiot sen edellä katkaistaan alusta. Palkki päättyy siihen, kuinka monta riviä on, ja toiminto, joka on merkitty `all`, toimii ilman valittuja — se ottaa jokaisen rivin ja johtaa palkkia, kun se on odotettu.'
+    filters:
+      title: Suodattimet
+      description: 'Suodattimien palkki taulukon päässä, yksi huomaamaton valikko kerrallaan, kertomassa mitä se kaventaa, kun se tekee niin. Palvelimella ne elävät sivun kyselyssä — jokainen vaihtoehto on linkki — ja ohjain kaventaa rivit siitä; vue:ssa ne ovat arvo, joka annetaan sivulle sen api:lle, tai sovelletaan taulukkoon jo olemassa oleviin riveihin. Jokainen vaihtoehto on laatikko — pyöreä yhdelle valinnalle — värillinen sävynsä mukaan, kun sillä on sellainen, tila tai kategoria.'
+    selection_select:
+      title: 'Toiminnot valinnassa'
+      description: 'Sama palkki, kun on tarpeeksi toimintoja sen täyttämiseksi: yksi valitaan, sitten sovelletaan.'
+    vue:
+      title: Vue-entiteettitaulukko
+    vue_selection:
+      title: 'Vue-taulukko valinnalla'
+      description: 'Sama sopimus asiakaspuolella: valitut avaimet tulevat takaisin v-model:selected:n kautta, jokainen toiminto lähetetään bulk-actionina, ja yksi, jolla on osoite, lähetetään palvelintaulukon tavoin. Näillä ei ole mitään, joten alla oleva rivi sanoo, mitä olisi tehty. Kolme riviä sivulla, yhteensä palkin lopussa, ja Arkistoi kaikki tarvitsevat mitään valittua.'
+    vue_compact:
+      title: 'Sivutus ilman yhteensä'
+      description: 'Kun API ei palauta yhteensä, sivuttaja palaa edelliseen/seuraavaan.'
+    vue_dates:
+      title: Vue-päivämäärämuotoilijat
+  column:
+    wide: 'Sarakkeen leveys'
+    default:
+      name: Nimi
+      date: Päivämäärä
+      seen: 'Viimeksi nähty'
+    actions:
+      name: Lähde
+      date: Päivitetty
+      operations: Toiminnot
+    links:
+      source: Lähde
+      state: Tila
+    status:
+      name: Putki
+      build: Kokoaminen
+      tests: Testit
+      deploy: Käyttöönottaminen
+    alignment:
+      left: 'Nimi (vasen)'
+      center: 'Tila (keskellä)'
+      right: 'Määrä (oikea)'
+  row:
+    wide: 'Riittävän pitkä arvo'
+    one:
+      title: 'Projekti Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Projekti Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Projekti Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Lähde Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Lähde Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Ladataan rivejä'
+      empty:
+        label: 'Ei saatavilla olevaa dataa.'
+  group:
+    first: 'Ensimmäinen ryhmä'
+    second: 'Toinen ryhmä'
+  status:
+    flaky: 'Kolme testiä ovat epävakaita'
+  bulk:
+    archive: Arkistoi
+    export: Vie
+    delete: Poista
+  files:
+    column:
+      path: Tiedosto
+    fix_selected: 'Korjaa valitut'
+    fix_all: 'Korjaa kaikki'
+  filters:
+    owner: Omistaja
+    state: Tila
+    open: Avoin
+    closed: Suljettu
+    column:
+      name: Nimi
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tables
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Plus large que la pièce'
+      description: "Une table dont les colonnes nécessitent plus d'espace que la page n'en possède est dessinée à la largeur dont elle a besoin, dans un cadre qui défile latéralement — la page autour ne bouge pas. Une table fixe abandonne cela : un en-tête collé à la page et un cadre qui défile de lui-même ne peuvent pas être réunis."
+    default:
+      title: 'Table simple'
+    actions:
+      title: 'Table avec actions'
+    links:
+      title: 'Cellules avec lien et icône'
+    loading:
+      title: 'État de chargement'
+    empty:
+      title: 'État vide'
+    alignment:
+      title: 'Alignement des colonnes'
+    markdown:
+      title: 'Depuis markdown'
+      description: "Une table écrite en markdown et passée par `markdown_ds` : les colonnes, leur alignement et le balisage de chaque cellule sont lus à partir du document, et la table est dessinée ici comme n'importe quelle autre. `markdown` conserve le simple `<table>`, pour tout ce qui n'est pas une page — un mail, un fil."
+    groups:
+      title: 'Groupes de lignes'
+      description: "Une ligne portant uniquement un groupe n'est pas une ligne : c'est la ligne entre deux séries, donnée par un mot. Elle s'étend sur la table et nomme ce qui suit — la même lecture qu'un séparateur de menu."
+    status:
+      title: "Cellules d'état"
+      description: "Un état est un cercle, jamais une couleur choisie par quelqu'un : la cellule prend un nom de type, ou un type avec un compte et un titre, et dessine l'icône de statut que le reste du système dessine. Rien à styliser dans la page."
+    sticky:
+      title: 'En-tête fixe'
+      description: "Une longue table est lue colonne par colonne autant que ligne par ligne. Avec `sticky`, l'en-tête reste visible pendant que les lignes défilent en dessous ; une page avec quelque chose de fixé en haut indique combien de distance en `--table-sticky-top`."
+    striped:
+      title: 'Lignes rayées, éclairées sous le pointeur'
+    selection:
+      title: 'Lignes pouvant être cochées'
+      description: "Une case en tête de chaque ligne, une dans l'en-tête pour toutes, et les actions au-dessus : elles envoient les lignes cochées à leur propre adresse, et restent hors de portée tant que rien n'est coché."
+    files:
+      title: 'Fichiers, un total, une action sur chaque ligne'
+      description: "Chemins lus par leur nom, les dossiers avant étant coupés de leur début. La barre se termine sur combien de lignes il y a, et une action marquée `all` fonctionne sans rien coché — elle prend chaque ligne, et mène la barre quand c'est celle attendue."
+    filters:
+      title: Filtres
+      description: "Une barre de filtres en tête de la table, un menu discret chacun, indiquant ce qu'il réduit une fois activé. Sur le serveur, ils vivent dans la requête de la page — chaque option est un lien — et le contrôleur réduit les lignes à partir de cela ; dans vue, elles sont une valeur remise à la page pour son API, ou appliquées par la table aux lignes qu'elle a déjà. Chaque option est une case — ronde pour un choix unique — colorée par son ton lorsqu'elle en a un, un état ou une catégorie."
+    selection_select:
+      title: 'Actions dans une sélection'
+      description: "La même barre quand il y a assez d'actions pour l'encombrer : une est choisie, puis appliquée."
+    vue:
+      title: "Table d'entités Vue"
+    vue_selection:
+      title: 'Table Vue avec sélection'
+      description: "Le même contrat côté client : les clés cochées reviennent par v-model:selected, chaque action est émise comme action de masse, et une avec une adresse est postée comme la table du serveur le poste. Celles-ci n'en ont aucune, donc la ligne ci-dessous indique ce qui aurait été fait. Trois lignes par page, le total à la fin de la barre, et Archiver tout nécessitant aucune coche."
+    vue_compact:
+      title: 'Pagination sans total'
+      description: "Lorsque l'API ne renvoie pas de total, le pager revient à précédent/suivant."
+    vue_dates:
+      title: 'Formateurs de date Vue'
+  column:
+    wide: Colonne
+    default:
+      name: Nom
+      date: Date
+      seen: 'Dernière vue'
+    actions:
+      name: Source
+      date: 'Mis à jour à'
+      operations: Actions
+    links:
+      source: Source
+      state: État
+    status:
+      name: Pipeline
+      build: Construction
+      tests: Tests
+      deploy: Déploiement
+    alignment:
+      left: 'Nom (gauche)'
+      center: 'État (centre)'
+      right: 'Montant (droite)'
+  row:
+    wide: 'Une valeur suffisamment longue'
+    one:
+      title: 'Projet Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Projet Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Projet Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Source Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Source Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Chargement des lignes'
+      empty:
+        label: 'Aucune donnée disponible.'
+  group:
+    first: 'Premier groupe'
+    second: 'Deuxième groupe'
+  status:
+    flaky: 'Trois tests sont instables'
+  bulk:
+    archive: Archiver
+    export: Exporter
+    delete: Supprimer
+  files:
+    column:
+      path: Fichier
+    fix_selected: 'Corriger sélectionnés'
+    fix_all: 'Tout corriger'
+  filters:
+    owner: Propriétaire
+    state: État
+    open: Ouvert
+    closed: Fermé
+    column:
+      name: Nom
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: טבלאות
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'רחב יותר מהחדר'
+      description: 'טבלה שהעמודות שלה דורשות יותר ממה שיש בעמוד נDrawית ברוחב שהיא צריכה, במסגרת שמגללת לצדדים — העמוד סביבה לא זז. טבלה דביקה מוותרת על זה: כותרת שנדבקת לעמוד ומסגרת שמגללת בעצמה לא יכולות להיות יחד.'
+    default:
+      title: 'טבלה פשוטה'
+    actions:
+      title: 'טבלה עם פעולות'
+    links:
+      title: 'תאים עם קישור ואייקון'
+    loading:
+      title: 'מצב טוען'
+    empty:
+      title: 'מצב ריק'
+    alignment:
+      title: 'יישור עמודות'
+    markdown:
+      title: ממרקדאון
+      description: "טבלה שנכתבת במרקדאון ועוברת דרך `markdown_ds`: העמודות, היישור שלהן והסימון של כל תא נקראים מהמסמך, והטבלה מצויירת כאן כמו כל אחת אחרת. `markdown` שומר על ה'<table>' הפשוט, עבור כל מה שאינו עמוד — דוא\"ל, פיד."
+    groups:
+      title: 'קיבוץ שורות'
+      description: 'שורה שמכילה רק קבוצה היא לא שורה: זו הקו בין שתי ריצות שלהן, שניתנה מילה. היא מתפרסת על פני הטבלה ומסמנת מה בא לאחר מכן — אותה קריאה כמו מפריד בתפריט.'
+    status:
+      title: 'תאים של סטטוס'
+      description: 'מצב הוא מעגל, אף פעם לא צבע שמישהו בחר: התא לוקח שם סוג, או סוג עם מספר וכותרת, ומצייר את האייקון של הסטטוס שהשארת המערכת מציירת. אין מה לעצב בעמוד.'
+    sticky:
+      title: 'כותרת דביקה'
+      description: 'טבלה ארוכה נקראת עמודה בעמודה כמו שורה בשורה. עם `sticky`, הכותרת נשארת בתצוגה בעוד השורות גוללות מתחתיה; עמוד עם משהו משלו נעוץ בחלק העליון אומר כמה רחוק למטה ב`--table-sticky-top`.'
+    striped:
+      title: 'שורות מפוספסות, מוארות מתחת לאצבע'
+    selection:
+      title: 'שורות שניתן לסמן'
+      description: 'תיבה בראש כל שורה, אחת בכותרת עבור כולן, והפעולות למעלה: הן שולחות את השורות המסומנות לכתובת שלהן, ונשארות מחוץ להישג יד בזמן שאין שום דבר מסומן.'
+    files:
+      title: 'קבצים, סך הכול, פעולה על כל שורה'
+      description: 'שמות הקבצים נקראים לפי שמם, התיקיות לפניו נחתכות מההתחלה. השורה מסתיימת לפי כמה שורות יש, ופעולה מסומנת `all` פועלת כשאין דבר מסומן — היא לוקחת כל שורה, ומובילה את השורה כשזו הצפויה.'
+    filters:
+      title: מסננים
+      description: 'שורת מסננים בראש הטבלה, תפריט דיסקרטי לכל אחד, אומר מה היא מצמצמת כאשר היא עושה זאת. על השרת הם חיים בשאילתה של העמוד — כל אפשרות היא קישור — והמנהל מצמצם את השורות מזה; בווי הם ערך handed לעמוד עבור ה-api שלו, או מיושמים על ידי הטבלה לשורות שכבר יש לה. כל אפשרות היא תיבה — עגולה עבור בחירה אחת — צבעונית לפי גוון שלה כאשר יש לה, סטטוס או קטגוריה.'
+    selection_select:
+      title: 'פעולות בבחירה'
+      description: 'אותה שורה כאשר יש מספיק פעולות כדי לדחוס אותה: אחת נבחרת, ואז מיושמת.'
+    vue:
+      title: 'טבלת ישות Vue'
+    vue_selection:
+      title: 'טבלה של Vue עם בחירה'
+      description: 'אותה הסכם על הלקוח: המפתחות המסומנים חוזרים דרך v-model:selected, כל פעולה משודרת כפעולה מרוכזת, ואחת עם כתובת נשלחת כמו שהטבלה של השרת שולחת אותה. אלו אין להן, לכן השורה למטה אומרת מה היה נעשה. שלוש שורות בעמוד, הסך הכול בסוף השורה, וארכיון הכל זקוק לשום דבר לא מסומן.'
+    vue_compact:
+      title: 'דפים ללא סך הכול'
+      description: 'כאשר ה-API לא מחזיר סך הכול, המנחה חוזר לדף הקודם/הבא.'
+    vue_dates:
+      title: 'פורמט תאריכים של Vue'
+  column:
+    wide: עמודה
+    default:
+      name: שם
+      date: תאריך
+      seen: 'נראה לאחרונה'
+    actions:
+      name: מקור
+      date: 'עודכן ב'
+      operations: פעולות
+    links:
+      source: מקור
+      state: סטטוס
+    status:
+      name: צינור
+      build: בנייה
+      tests: בדיקות
+      deploy: הטסה
+    alignment:
+      left: 'שם (שמאל)'
+      center: 'סטטוס (מרכז)'
+      right: 'כמות (ימין)'
+  row:
+    wide: 'ערך ארוך מספיק'
+    one:
+      title: 'פרויקט אלפא'
+      meta: '2026-01-10'
+    two:
+      title: 'פרויקט בטא'
+      meta: '2026-02-18'
+    three:
+      title: 'פרויקט גמא'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'מקור אלפא'
+        meta: '2026-01-12'
+      two:
+        title: 'מקור בטא'
+        meta: '2026-02-20'
+      loading:
+        label: 'טוען שורות'
+      empty:
+        label: 'לא זמינים נתונים.'
+  group:
+    first: 'קבוצה ראשונה'
+    second: 'קבוצה שנייה'
+  status:
+    flaky: 'שלוש בדיקות לא יציבות'
+  bulk:
+    archive: ארכיון
+    export: ייצוא
+    delete: מחק
+  files:
+    column:
+      path: קובץ
+    fix_selected: 'תקן את הנבחרים'
+    fix_all: 'תקן הכל'
+  filters:
+    owner: בעלים
+    state: סטטוס
+    open: פתוח
+    closed: סגור
+    column:
+      name: שם
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: तालिकाएँ
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'कक्ष से बड़ा'
+      description: 'एक तालिका जिसकी स्तंभों को पृष्ठ से अधिक चौड़ाई की आवश्यकता है, उसे आवश्यक चौड़ाई पर खींचा जाता है, एक फ्रेम में जो साइडवेज स्क्रॉल करता है - इसके चारों ओर का पृष्ठ नहीं हिलता। एक चिपचिपी तालिका इसे छोड़ देती है: एक शीर्षक जो पृष्ठ पर चिपका रहता है और एक फ्रेम जो अपने आप स्क्रॉल करता है, एक साथ नहीं हो सकता।'
+    default:
+      title: 'सरल तालिका'
+    actions:
+      title: 'कार्रवाई के साथ तालिका'
+    links:
+      title: 'लिंक और आइकन सेल'
+    loading:
+      title: 'लोडिंग स्थिति'
+    empty:
+      title: 'खाली स्थिति'
+    alignment:
+      title: 'स्तंभ संरेखण'
+    markdown:
+      title: 'मार्कडाउन से'
+      description: 'मार्कडाउन में लिखी गई एक तालिका और `markdown_ds` से गुजरती है: स्तंभ, उनकी संरेखण और प्रत्येक सेल का मार्कअप दस्तावेज़ से पढ़ा जाता है, और तालिका को यहाँ किसी अन्य की तरह खींचा जाता है। `markdown` साधारण `<table>` को रखता है, जो कुछ भी पृष्ठ नहीं है - एक मेल, एक फीड।'
+    groups:
+      title: 'पंक्तियाँ समूहित करें'
+      description: 'एक पंक्ति जो केवल एक समूह को ले जाती है, वह एक पंक्ति नहीं है: यह उनके दो सेटों के बीच की रेखा है, एक शब्द दिया गया। यह तालिका को फैलाती है और जो इसके बाद आता है उसका नाम देती है - एक मेन्यू सेपरेटर के समान पढ़ाई।'
+    status:
+      title: 'स्थिति सेल'
+      description: 'एक स्थिति एक वृत्त है, कभी भी किसी द्वारा चुना गया रंग नहीं: सेल एक प्रकार का नाम लेता है, या एक प्रकार जिसमें एक गणना और एक शीर्षक होता है, और स्थिति आइकन को खींचता है जो सिस्टम के बाकी हिस्सों द्वारा खींचा जाता है। पृष्ठ में स्टाइल करने के लिए कुछ नहीं।'
+    sticky:
+      title: 'चिपचिपा शीर्षक'
+      description: 'एक लंबी तालिका को स्तंभ द्वारा स्तंभ और पंक्ति द्वारा पंक्ति पढ़ा जाता है। `sticky` के साथ, शीर्षक दृश्य में रहता है जबकि पंक्तियाँ इसके नीचे स्क्रॉल होती हैं; एक पृष्ठ जिसमें शीर्ष पर किसी की अपनी चीज़ चिपकी होती है, यह बताता है कि `--table-sticky-top` में कितना नीचे है।'
+    striped:
+      title: 'धारीदार पंक्तियाँ, पॉइंटर के नीचे जलती हैं'
+    selection:
+      title: 'पंक्तियाँ जिन्हें टिक किया जा सकता है'
+      description: 'प्रत्येक पंक्ति के सिर पर एक बॉक्स, सभी के लिए एक शीर्षक में, और ऊपर कार्रवाई: वे टिक की गई पंक्तियों को उनके अपने पते पर भेजते हैं, और जब कुछ नहीं टिक होता है तो पहुँच से बाहर रहते हैं।'
+    files:
+      title: 'फाइलें, एक कुल, हर पंक्ति पर एक क्रिया'
+      description: 'उनके नाम से पढ़े गए पथ, उसके पहले के फ़ोल्डर को उनकी शुरुआत से काट दिया गया। बार इस पर समाप्त होता है कि कितनी पंक्तियाँ हैं, और एक क्रिया जो `all` के रूप में चिह्नित होती है, कुछ टिक किए बिना काम करती है - यह हर पंक्ति को लेती है, और जब यह अपेक्षित होता है तो बार को आगे बढ़ाती है।'
+    filters:
+      title: फिल्टर
+      description: 'तालिका के शीर्ष पर एक फिल्टर बार, प्रत्येक के लिए एक विवेकपूर्ण मेन्यू, कहता है कि एक बार यह क्या संकीर्ण करता है। सर्वर पर वे पृष्ठ के प्रश्न में रहते हैं - प्रत्येक विकल्प एक लिंक है - और नियंत्रक पंक्तियों को उससे संकीर्ण करता है; vue में वे एक मान होते हैं जो पृष्ठ को उसके एपीआई के लिए दिया जाता है, या तालिका द्वारा पहले से ही उसकी पंक्तियों पर लागू किया जाता है। प्रत्येक विकल्प एक बॉक्स है - एक के लिए गोल - जब इसका कोई स्वर होता है, एक स्थिति या एक श्रेणी द्वारा रंगीन।'
+    selection_select:
+      title: 'चयन में क्रियाएँ'
+      description: 'जब वहाँ पर्याप्त क्रियाएँ होती हैं कि उसे भीड़ दें: एक चुनी जाती है, फिर लागू होती है।'
+    vue:
+      title: 'Vue एंटिटी तालिका'
+    vue_selection:
+      title: 'चयन के साथ Vue तालिका'
+      description: 'क्लाइंट पर वही अनुबंध: टिक की गई कुंजी v-model:selected के माध्यम से वापस आती हैं, प्रत्येक क्रिया को बल्क-एक्शन के रूप में उत्सर्जित किया जाता है, और एक पता के साथ एक को सर्वर तालिका के रूप में पोस्ट किया जाता है। इनमें से कोई नहीं है, इसलिए नीचे की पंक्ति बताती है कि क्या किया गया होता। प्रति पृष्ठ तीन पंक्तियाँ, बार के अंत में कुल, और Archive सभी को कुछ भी टिक किए बिना आवश्यकता होती है।'
+    vue_compact:
+      title: 'कुल के बिना पृष्ठांकन'
+      description: 'जब एपीआई कुल नहीं लौटाता है, तो पेजर पिछले/अगले पर वापस जाता है।'
+    vue_dates:
+      title: 'Vue तिथि स्वरूपक'
+  column:
+    wide: स्तंभ
+    default:
+      name: नाम
+      date: तारीख
+      seen: 'अंतिम बार देखा गया'
+    actions:
+      name: स्रोत
+      date: 'अद्यतन किया गया'
+      operations: क्रियाएँ
+    links:
+      source: स्रोत
+      state: स्थिति
+    status:
+      name: पाइपलाइन
+      build: निर्माण
+      tests: परीक्षण
+      deploy: तैनाती
+    alignment:
+      left: 'नाम (बाएं)'
+      center: 'स्थिति (केंद्र)'
+      right: 'राशि (दाएं)'
+  row:
+    wide: 'एक मान जो पर्याप्त लंबा है'
+    one:
+      title: 'प्रोजेक्ट अल्फा'
+      meta: '2026-01-10'
+    two:
+      title: 'प्रोजेक्ट बीटा'
+      meta: '2026-02-18'
+    three:
+      title: 'प्रोजेक्ट गामा'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'स्रोत अल्फा'
+        meta: '2026-01-12'
+      two:
+        title: 'स्रोत बीटा'
+        meta: '2026-02-20'
+      loading:
+        label: 'पंक्तियाँ लोड हो रही हैं'
+      empty:
+        label: 'कोई डेटा उपलब्ध नहीं है।'
+  group:
+    first: 'पहला समूह'
+    second: 'दूसरा समूह'
+  status:
+    flaky: 'तीन परीक्षण अस्थिर हैं'
+  bulk:
+    archive: आर्काइव
+    export: निर्यात
+    delete: हटाएँ
+  files:
+    column:
+      path: फाइल
+    fix_selected: 'चयनित को ठीक करें'
+    fix_all: 'सभी को ठीक करें'
+  filters:
+    owner: स्वामी
+    state: स्थिति
+    open: खुला
+    closed: बंद
+    column:
+      name: नाम
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tabel
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Lebih lebar dari ruangan'
+      description: 'Sebuah tabel yang kolom-kolomnya membutuhkan lebih dari yang bisa ditampilkan halaman digambar dengan lebar yang diperlukan, dalam bingkai yang menggulir ke samping — halaman di sekitarnya tidak bergerak. Tabel lengket mengorbankan ini: sebuah header yang tetap pada halaman dan bingkai yang menggulir sendiri tidak bisa ada bersamaan.'
+    default:
+      title: 'Tabel sederhana'
+    actions:
+      title: 'Tabel dengan tindakan'
+    links:
+      title: 'Sel tautan dan ikon'
+    loading:
+      title: 'Status loading'
+    empty:
+      title: 'Status kosong'
+    alignment:
+      title: 'Penyelarasan kolom'
+    markdown:
+      title: 'Dari markdown'
+      description: 'Sebuah tabel yang ditulis dalam markdown dan diproses melalui `markdown_ds`: kolom-kolom, penyelarasan mereka dan markup setiap sel dibaca dari dokumen, dan tabel digambar di sini seperti tabel lainnya. `markdown` mempertahankan `<table>` biasa, untuk apa pun yang bukan halaman — sebuah email, sebuah feed.'
+    groups:
+      title: 'Kelompok baris'
+      description: 'Sebuh baris yang hanya membawa satu grup bukanlah sebuah baris: itu adalah garis antara dua rangkaian, diberikan sebuah kata. Itu membentang di seluruh tabel dan menamai apa yang mengikuti — pembacaan yang sama seperti pemisah menu.'
+    status:
+      title: 'Sel status'
+      description: 'Sebuah status adalah sebuah lingkaran, tidak pernah sebuah warna yang dipilih seseorang: sel tersebut mengambil nama tipe, atau tipe dengan jumlah dan judul, dan menggambar ikon status seperti yang digambar oleh sisa sistem. Tidak ada yang perlu diatur dalam halaman.'
+    sticky:
+      title: 'Header lengket'
+      description: 'Sebuah tabel panjang dibaca kolom per kolom sebanyak baris per baris. Dengan `sticky`, header tetap terlihat sementara baris menggulir di bawahnya; sebuah halaman dengan sesuatu yang dipasang di atasnya mengatakan seberapa jauh ke bawah dalam `--table-sticky-top`.'
+    striped:
+      title: 'Baris bergaris, diterangi di bawah pointer'
+    selection:
+      title: 'Baris yang dapat dicentang'
+      description: 'Sebuah kotak di kepala setiap baris, satu di header untuk semuanya, dan tindakan di atas: mereka mengirim baris yang dicentang ke alamat mereka sendiri, dan tetap di luar jangkauan sementara tidak ada yang dicentang.'
+    files:
+      title: 'File, total, sebuah tindakan di setiap baris'
+      description: 'Jalur dibaca berdasarkan namanya, folder sebelum itu dipotong dari awalnya. Batang berakhir pada berapa banyak baris yang ada, dan sebuah tindakan yang ditandai `semua` bekerja tanpa ada yang dicentang — itu mengambil setiap baris, dan memimpin batang ketika itu yang diharapkan.'
+    filters:
+      title: Filter
+      description: 'Sebuah batang filter di kepala tabel, satu menu yang tersembunyi masing-masing, menyatakan apa yang dipersempit saat itu dilakukan. Di server mereka berada dalam kueri halaman — setiap opsi adalah tautan — dan pengendali mempersempit baris dari situ; dalam vue mereka adalah nilai yang diserahkan ke halaman untuk api-nya, atau diterapkan oleh tabel ke baris yang sudah dimilikinya. Setiap opsi adalah sebuah kotak — bulat untuk pilihan satu — berwarna sesuai nada ketika memiliki satu, status atau kategori.'
+    selection_select:
+      title: 'Tindakan dalam pemilihan'
+      description: 'Batang yang sama ketika ada cukup tindakan untuk mengisinya: satu dipilih, lalu diterapkan.'
+    vue:
+      title: 'Tabel entitas Vue'
+    vue_selection:
+      title: 'Tabel Vue dengan pemilihan'
+      description: 'Kontrak yang sama di klien: kunci yang dicentang kembali melalui v-model:selected, setiap tindakan dipancarkan sebagai bulk-action, dan satu dengan alamat diposting seperti tabel server mempostingnya. Ini tidak memiliki, jadi garis di bawah mengatakan apa yang seharusnya dilakukan. Tiga baris per halaman, total di akhir batang, dan Arsip semua membutuhkan tidak ada yang dicentang.'
+    vue_compact:
+      title: 'Paginasi tanpa total'
+      description: 'Ketika API tidak mengembalikan total, pager kembali ke sebelumnya/selanjutnya.'
+    vue_dates:
+      title: 'Formatter tanggal Vue'
+  column:
+    wide: Kolom
+    default:
+      name: Nama
+      date: Tanggal
+      seen: 'Terakhir terlihat'
+    actions:
+      name: Sumber
+      date: 'Diperbarui pada'
+      operations: Tindakan
+    links:
+      source: Sumber
+      state: Status
+    status:
+      name: Pipeline
+      build: Bangun
+      tests: Uji
+      deploy: Terapkan
+    alignment:
+      left: 'Nama (kiri)'
+      center: 'Status (tengah)'
+      right: 'Jumlah (kanan)'
+  row:
+    wide: 'Nilai yang cukup panjang'
+    one:
+      title: 'Proyek Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Proyek Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Proyek Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Sumber Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Sumber Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Memuat baris'
+      empty:
+        label: 'Data tidak tersedia.'
+  group:
+    first: 'Grup pertama'
+    second: 'Grup kedua'
+  status:
+    flaky: 'Tiga uji tidak stabil'
+  bulk:
+    archive: Arsip
+    export: Ekspor
+    delete: Hapus
+  files:
+    column:
+      path: File
+    fix_selected: 'Perbaiki yang dipilih'
+    fix_all: 'Perbaiki semua'
+  filters:
+    owner: Pemilik
+    state: Status
+    open: Terbuka
+    closed: Tutup
+    column:
+      name: Nama
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tabelle
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Più largo della pagina'
+      description: "Una tabella le cui colonne richiedono più spazio di quanto la pagina ne abbia viene disegnata alla larghezza necessaria, in un riquadro che scorre orizzontalmente — la pagina intorno non si muove. Una tabella adesiva rinuncia a questo: un'intestazione fissa alla pagina e un riquadro che scorre da solo non possono coesistere."
+    default:
+      title: 'Tabella semplice'
+    actions:
+      title: 'Tabella con azioni'
+    links:
+      title: 'Cellule di link e icone'
+    loading:
+      title: 'Stato di caricamento'
+    empty:
+      title: 'Stato vuoto'
+    alignment:
+      title: 'Allineamento colonne'
+    markdown:
+      title: 'Da markdown'
+      description: 'Una tabella scritta in markdown e passata attraverso `markdown_ds`: le colonne, il loro allineamento e il markup di ogni cella vengono letti dal documento, e la tabella viene disegnata qui come qualsiasi altra. `markdown` mantiene il semplice `<table>`, per tutto ciò che non è una pagina — una mail, un feed.'
+    groups:
+      title: 'Raggruppa righe'
+      description: 'Una riga che contiene solo un gruppo non è una riga: è la linea tra due gruppi di esse, data una parola. Si estende sulla tabella e nomina ciò che segue — la stessa lettura di un separatore di menu.'
+    status:
+      title: 'Cellule di stato'
+      description: "Uno stato è un cerchio, mai un colore scelto da qualcuno: la cella prende un nome di tipo, o un tipo con un conteggio e un titolo, e disegna l'icona di stato che il resto del sistema disegna. Niente da stilizzare nella pagina."
+    sticky:
+      title: 'Intestazione fissa'
+      description: "Una lunga tabella viene letta colonna per colonna tanto quanto riga per riga. Con `sticky`, l'intestazione rimane visibile mentre le righe scorrono sotto di essa; una pagina con qualcosa di suo bloccato in alto indica quanto è in basso in `--table-sticky-top`."
+    striped:
+      title: 'Righe a strisce, illuminate sotto il puntatore'
+    selection:
+      title: 'Righe che possono essere selezionate'
+      description: "Una casella all'inizio di ogni riga, una nell'intestazione per tutte, e le azioni sopra: pubblicano le righe selezionate al proprio indirizzo, e rimangono fuori portata mentre nulla è selezionato."
+    files:
+      title: "File, un totale, un'azione su ogni riga"
+      description: "Percorsi letti per nome, le cartelle prima di esso tagliate dal loro inizio. La barra termina su quante righe ci sono, e un'azione contrassegnata come `all` funziona anche senza nulla selezionato — prende ogni riga e guida la barra quando è quella attesa."
+    filters:
+      title: Filtri
+      description: 'Una barra di filtri in cima alla tabella, un menu discreto ciascuno, che indica cosa restringe una volta attivato. Sul server vivono nella query della pagina — ogni opzione è un link — e il controller restringe le righe a partire da essa; in vue sono un valore passato alla pagina per la sua api, o applicato dalla tabella alle righe che ha già. Ogni opzione è una casella — rotonda per una scelta singola — colorata dal suo tono quando ne ha uno, uno stato o una categoria.'
+    selection_select:
+      title: 'Azioni in una selezione'
+      description: 'La stessa barra quando ci sono abbastanza azioni per affollare: una viene scelta, poi applicata.'
+    vue:
+      title: 'Tabella entità Vue'
+    vue_selection:
+      title: 'Tabella Vue con selezione'
+      description: 'Lo stesso contratto sul client: le chiavi selezionate tornano attraverso v-model:selected, ogni azione è emessa come bulk-action, e una con un indirizzo è pubblicata come la tabella del server la pubblica. Queste non ne hanno, quindi la riga sottostante dice cosa sarebbe stato fatto. Tre righe per pagina, il totale alla fine della barra, e Archivia tutto senza nulla selezionato.'
+    vue_compact:
+      title: 'Paginazione senza un totale'
+      description: "Quando l'API non restituisce un totale, il paginatore torna a precedente/successivo."
+    vue_dates:
+      title: 'Formattatori di date Vue'
+  column:
+    wide: Colonna
+    default:
+      name: Nome
+      date: Data
+      seen: 'Ultima vista'
+    actions:
+      name: Fonte
+      date: 'Aggiornato il'
+      operations: Azioni
+    links:
+      source: Fonte
+      state: Stato
+    status:
+      name: Pipeline
+      build: Build
+      tests: Test
+      deploy: Distribuzione
+    alignment:
+      left: 'Nome (sinistra)'
+      center: 'Stato (centro)'
+      right: 'Importo (destra)'
+  row:
+    wide: 'Un valore sufficientemente lungo'
+    one:
+      title: 'Progetto Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Progetto Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Progetto Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Fonte Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Fonte Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Caricamento righe'
+      empty:
+        label: 'Nessun dato disponibile.'
+  group:
+    first: 'Primo gruppo'
+    second: 'Secondo gruppo'
+  status:
+    flaky: 'Tre test sono instabili'
+  bulk:
+    archive: Archivia
+    export: Esporta
+    delete: Elimina
+  files:
+    column:
+      path: File
+    fix_selected: 'Correggi selezionati'
+    fix_all: 'Correggi tutto'
+  filters:
+    owner: Proprietario
+    state: Stato
+    open: Aperto
+    closed: Chiuso
+    column:
+      name: Nome
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: テーブル
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 部屋より広い
+      description: 'ページの幅を超えるカラムを持つテーブルは、必要な幅で描画され、横にスクロールするフレーム内に表示されます — 周囲のページは動きません。スティッキーテーブルはこれを放棄します: ページに固定されたヘッダーと独自にスクロールするフレームは共存できません。'
+    default:
+      title: シンプルテーブル
+    actions:
+      title: アクション付きテーブル
+    links:
+      title: リンクとアイコンのセル
+    loading:
+      title: 読み込み中
+    empty:
+      title: 空の状態
+    alignment:
+      title: カラムの整列
+    markdown:
+      title: Markdownから
+      description: 'Markdownで書かれ、`markdown_ds`を通過したテーブル: カラム、その整列、各セルのマークアップはドキュメントから読み取られ、ここで他のテーブルと同様に描画されます。`markdown`は、ページでないもの — メール、フィードなどのために、平文の`<table>`を保持します。'
+    groups:
+      title: グループ行
+      description: 'グループのみを持つ行は行ではありません: それは二つのグループの間の線であり、単語が与えられます。それはテーブルを横断し、続くものの名前を付けます — メニューセパレーターと同じ読み方です。'
+    status:
+      title: ステータスセル
+      description: '状態は円であり、誰かが選んだ色ではありません: セルはタイプ名、またはカウントとタイトルのあるタイプを取り、システムの残りが描くステータスアイコンを描画します。ページ内にスタイルを適用することはありません。'
+    sticky:
+      title: スティッキーヘッダー
+      description: '長いテーブルは、行ごとだけでなく、カラムごとにも読まれます。`sticky`を使用すると、ヘッダーが表示されたままで、行がその下をスクロールします; 自分の何かが上部に固定されたページは、`--table-sticky-top`でどれだけ下にあるかを示します。'
+    striped:
+      title: ストライプ行、ポインタの下で照らされる
+    selection:
+      title: チェック可能な行
+      description: '各行の先頭にあるボックス、すべてのためのヘッダーに一つ、そして上にあるアクション: チェックされた行をそれぞれのアドレスに送信し、何もチェックされていない間は手の届かないところに留まります。'
+    files:
+      title: ファイル、合計、各行のアクション
+      description: '名前で読み取られるパス、先頭から切り取られたフォルダ。バーは行の数で終了し、`all`とマークされたアクションは何もチェックされていない状態で機能します — すべての行を取得し、期待されるものであればバーを先導します。'
+    filters:
+      title: フィルター
+      description: 'テーブルの先頭にあるフィルターのバー、各フィルターは控えめなメニューで、実行するとどのように絞り込むかを示します。サーバーではページのクエリに存在し — 各オプションはリンクです — コントローラーはそれから行を絞り込みます; Vueでは、APIのためにページに渡される値であるか、すでに持っている行にテーブルが適用します。各オプションはボックスです — 一つの選択肢のために丸く — トーンがあるときは色がつき、ステータスまたはカテゴリです。'
+    selection_select:
+      title: 選択時のアクション
+      description: '十分なアクションがあるときの同じバー: 一つが選ばれ、その後適用されます。'
+    vue:
+      title: Vueエンティティテーブル
+    vue_selection:
+      title: 選択付きVueテーブル
+      description: 'クライアント上の同じ契約: チェックされたキーはv-model:selectedを通じて戻り、各アクションはbulk-actionとして発行され、アドレスのあるものはサーバーテーブルがそれを投稿するように投稿されます。これらには何もないので、下の行は何が行われたかを示します。ページあたり三行、バーの最後に合計、アーカイブすべては何もチェックされていない必要があります。'
+    vue_compact:
+      title: 合計なしのページネーション
+      description: APIが合計を返さないとき、ページャーは前へ/次へに戻ります。
+    vue_dates:
+      title: Vue日付フォーマッタ
+  column:
+    wide: カラム
+    default:
+      name: 名前
+      date: 日付
+      seen: 最終確認
+    actions:
+      name: ソース
+      date: 更新日時
+      operations: アクション
+    links:
+      source: ソース
+      state: 状態
+    status:
+      name: パイプライン
+      build: ビルド
+      tests: テスト
+      deploy: デプロイ
+    alignment:
+      left: 名前（左）
+      center: ステータス（中央）
+      right: 金額（右）
+  row:
+    wide: 十分に長い値
+    one:
+      title: プロジェクトアルファ
+      meta: '2026-01-10'
+    two:
+      title: プロジェクトベータ
+      meta: '2026-02-18'
+    three:
+      title: プロジェクトガンマ
+      meta: '2026-03-25'
+    action:
+      one:
+        title: ソースアルファ
+        meta: '2026-01-12'
+      two:
+        title: ソースベータ
+        meta: '2026-02-20'
+      loading:
+        label: 行を読み込み中
+      empty:
+        label: データがありません。
+  group:
+    first: 最初のグループ
+    second: 第二のグループ
+  status:
+    flaky: 三つのテストが不安定です
+  bulk:
+    archive: アーカイブ
+    export: エクスポート
+    delete: 削除
+  files:
+    column:
+      path: ファイル
+    fix_selected: 選択したものを修正
+    fix_all: すべてを修正
+  filters:
+    owner: オーナー
+    state: 状態
+    open: オープン
+    closed: クローズド
+    column:
+      name: 名前
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 테이블
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: '방보다 넓음'
+      description: '페이지가 가진 것보다 더 많은 열을 요구하는 테이블은 필요한 너비로 그려지며, 가로로 스크롤되는 프레임 안에 위치합니다 — 주변 페이지는 움직이지 않습니다. 스티키 테이블은 이 점을 포기합니다: 페이지에 고정된 헤더와 독립적으로 스크롤되는 프레임은 함께 존재할 수 없습니다.'
+    default:
+      title: '간단한 테이블'
+    actions:
+      title: '액션이 있는 테이블'
+    links:
+      title: '링크 및 아이콘 셀'
+    loading:
+      title: '로딩 상태'
+    empty:
+      title: '비어 있는 상태'
+    alignment:
+      title: '열 정렬'
+    markdown:
+      title: 마크다운에서
+      description: '마크다운으로 작성된 테이블이 `markdown_ds`를 통해 전달됩니다: 열, 정렬 및 각 셀의 마크업은 문서에서 읽혀지며, 이곳에 다른 테이블처럼 그려집니다. `markdown`은 페이지가 아닌 것에 대해 평문 `<table>`을 유지합니다 — 메일, 피드 등.'
+    groups:
+      title: '행 그룹화'
+      description: '오직 그룹만을 담고 있는 행은 행이 아닙니다: 그것은 두 개의 행 사이에 주어진 단어의 선입니다. 테이블을 가로질러 펼쳐지며, 뒤따르는 내용을 명명합니다 — 메뉴 구분자와 같은 읽기입니다.'
+    status:
+      title: '상태 셀'
+      description: '상태는 색상이 아닌 원입니다: 셀은 타입 이름 또는 타입과 카운트 및 제목과 함께 상태 아이콘을 그립니다. 페이지에서 스타일링할 것은 없습니다.'
+    sticky:
+      title: '스티키 헤더'
+      description: '긴 테이블은 행별로 읽히는 것만큼 열별로 읽힙니다. `sticky`를 사용하면 헤더가 보이는 동안 행이 아래로 스크롤됩니다; 상단에 자체 내용이 고정된 페이지는 `--table-sticky-top`에서 얼마나 아래인지 표시합니다.'
+    striped:
+      title: '포인터 아래에서 밝힌 줄'
+    selection:
+      title: '선택할 수 있는 행'
+      description: '각 행의 머리 부분에 있는 상자, 모두를 위한 헤더에 하나, 그리고 위의 액션: 선택된 행을 자신의 주소로 전송하며, 선택된 것이 없을 때는 접근할 수 없습니다.'
+    files:
+      title: '파일, 총계, 각 행에 대한 액션'
+      description: '이름으로 읽힌 경로, 시작 부분에서 잘린 폴더. 바는 행의 수에 따라 끝나며, `all`로 표시된 액션은 선택된 것이 없어도 작동합니다 — 모든 행을 가져오며, 예상되는 바로 이끌어갑니다.'
+    filters:
+      title: 필터
+      description: '테이블 상단에 있는 필터 바, 각각의 눈에 띄지 않는 메뉴가 있으며, 필터가 작동하면 무엇을 좁히는지를 나타냅니다. 서버에서는 페이지의 쿼리에서 살아있으며 — 각 옵션이 링크입니다 — 컨트롤러는 그로부터 행을 좁힙니다; vue에서는 api를 위한 페이지에 전달된 값 또는 이미 있는 행에 적용됩니다. 각 옵션은 상자입니다 — 하나의 선택을 위한 둥글게 — 톤이 있을 때 색상이 있습니다, 상태 또는 카테고리로.'
+    selection_select:
+      title: '선택에서의 액션'
+      description: '충분한 액션이 몰려 있을 때 동일한 바: 하나가 선택되어 적용됩니다.'
+    vue:
+      title: 'Vue 엔터티 테이블'
+    vue_selection:
+      title: '선택이 있는 Vue 테이블'
+      description: '클라이언트에서 동일한 계약: 선택된 키는 v-model:selected를 통해 돌아오고, 각 액션은 bulk-action으로 방출되며, 주소가 있는 것은 서버 테이블이 이를 게시할 때처럼 게시됩니다. 이들은 없으므로 아래의 선은 수행되었을 것이라고 표시합니다. 페이지당 세 행, 바 끝에 총계, 아카이브 모두 선택이 필요 없습니다.'
+    vue_compact:
+      title: '총계 없는 페이지네이션'
+      description: 'API가 총계를 반환하지 않을 때, 페이지 네비게이터는 이전/다음으로 돌아갑니다.'
+    vue_dates:
+      title: 'Vue 날짜 포매터'
+  column:
+    wide: 열
+    default:
+      name: 이름
+      date: 날짜
+      seen: '마지막으로 본 날짜'
+    actions:
+      name: 출처
+      date: 업데이트됨
+      operations: 액션
+    links:
+      source: 출처
+      state: 상태
+    status:
+      name: 파이프라인
+      build: 빌드
+      tests: 테스트
+      deploy: 배포
+    alignment:
+      left: '이름 (왼쪽)'
+      center: '상태 (가운데)'
+      right: '금액 (오른쪽)'
+  row:
+    wide: '충분히 긴 값'
+    one:
+      title: '프로젝트 알파'
+      meta: '2026-01-10'
+    two:
+      title: '프로젝트 베타'
+      meta: '2026-02-18'
+    three:
+      title: '프로젝트 감마'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: '출처 알파'
+        meta: '2026-01-12'
+      two:
+        title: '출처 베타'
+        meta: '2026-02-20'
+      loading:
+        label: '행 로딩 중'
+      empty:
+        label: '사용 가능한 데이터가 없습니다.'
+  group:
+    first: '첫 번째 그룹'
+    second: '두 번째 그룹'
+  status:
+    flaky: '세 개의 테스트가 불안정합니다'
+  bulk:
+    archive: 아카이브
+    export: 내보내기
+    delete: 삭제
+  files:
+    column:
+      path: 파일
+    fix_selected: '선택된 항목 수정'
+    fix_all: '모두 수정'
+  filters:
+    owner: 소유자
+    state: 상태
+    open: 열림
+    closed: 닫힘
+    column:
+      name: 이름
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tabellen
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Breder dan de kamer'
+      description: 'Een tabel waarvan de kolommen meer vragen dan de pagina heeft, wordt getekend op de breedte die het nodig heeft, in een kader dat zijwaarts scrolt — de pagina eromheen beweegt niet. Een plakkerige tabel geeft dit op: een kop die aan de pagina plakt en een kader dat vanzelf scrolt kunnen niet samen bestaan.'
+    default:
+      title: 'Eenvoudige tabel'
+    actions:
+      title: 'Tabel met acties'
+    links:
+      title: 'Link- en pictogramcellen'
+    loading:
+      title: Laden
+    empty:
+      title: 'Lege staat'
+    alignment:
+      title: Kolomuitlijning
+    markdown:
+      title: 'Van markdown'
+      description: 'Een tabel geschreven in markdown en door `markdown_ds` gepasseerd: de kolommen, hun uitlijning en de opmaak van elke cel worden uit het document gelezen, en de tabel wordt hier getekend zoals elke andere. `markdown` houdt de eenvoudige `<table>`, voor wat niet een pagina is — een mail, een feed.'
+    groups:
+      title: 'Groep rijen'
+      description: 'Een rij die alleen een groep bevat, is geen rij: het is de lijn tussen twee reeksen ervan, gegeven een woord. Het beslaat de tabel en benoemt wat volgt — dezelfde lezing als een menu scheidingsteken.'
+    status:
+      title: Statuscellen
+      description: 'Een status is een cirkel, nooit een kleur die iemand heeft gekozen: de cel neemt een type naam, of een type met een aantal en een titel, en tekent het statuspictogram dat de rest van het systeem tekent. Niets om te stylen in de pagina.'
+    sticky:
+      title: 'Plakkerige kop'
+      description: 'Een lange tabel wordt kolom voor kolom gelezen net zoveel als rij voor rij. Met `sticky` blijft de kop in beeld terwijl de rijen eronder scrollen; een pagina met iets dat bovenaan is vastgezet, zegt hoe ver naar beneden in `--table-sticky-top`.'
+    striped:
+      title: 'Gestreepte rijen, verlicht onder de aanwijzer'
+    selection:
+      title: 'Rijen die aangevinkt kunnen worden'
+      description: 'Een vakje aan het begin van elke rij, één in de kop voor allemaal, en de acties erboven: ze verzenden de aangevinkte rijen naar hun eigen adres, en blijven buiten bereik terwijl er niets is aangevinkt.'
+    files:
+      title: 'Bestanden, een totaal, een actie op elke rij'
+      description: 'Paden gelezen op hun naam, de mappen ervoor worden vanaf hun start weggelaten. De balk eindigt met hoeveel rijen er zijn, en een actie gemarkeerd met `alle` werkt met niets aangevinkt — het neemt elke rij, en leidt de balk wanneer het de verwachte is.'
+    filters:
+      title: Filters
+      description: 'Een balk met filters aan het hoofd van de tabel, één discreet menu per stuk, die zegt wat het beperkt zodra het dat doet. Op de server leven ze in de query van de pagina — elke optie is een link — en de controller beperkt de rijen daarvan; in vue zijn ze een waarde die aan de pagina wordt gegeven voor zijn api, of toegepast door de tabel op de rijen die het al heeft. Elke optie is een vak — rond voor een keuze uit één — gekleurd door zijn toon wanneer het er een heeft, een status of een categorie.'
+    selection_select:
+      title: 'Acties in een select'
+      description: 'Dezelfde balk wanneer er genoeg acties zijn om het te vullen: één wordt gekozen, en vervolgens toegepast.'
+    vue:
+      title: 'Vue entiteit tabel'
+    vue_selection:
+      title: 'Vue tabel met selectie'
+      description: 'Hetzelfde contract aan de client: de aangevinkte sleutels komen terug via v-model:selected, elke actie wordt uitgezonden als bulk-actie, en een met een adres wordt gepost zoals de server tabel het plaatst. Deze hebben geen, dus de lijn hieronder zegt wat gedaan zou zijn. Drie rijen per pagina, het totaal aan het einde van de balk, en Archiveer alles zonder iets aangevinkt.'
+    vue_compact:
+      title: 'Paginering zonder een totaal'
+      description: 'Wanneer de API geen totaal retourneert, valt de pager terug op vorige/volgende.'
+    vue_dates:
+      title: 'Vue datumformatters'
+  column:
+    wide: Kolom
+    default:
+      name: Naam
+      date: Datum
+      seen: 'Laatst gezien'
+    actions:
+      name: Bron
+      date: 'Bijgewerkt op'
+      operations: Acties
+    links:
+      source: Bron
+      state: Status
+    status:
+      name: Pipeline
+      build: Bouwen
+      tests: Tests
+      deploy: Implementeren
+    alignment:
+      left: 'Naam (links)'
+      center: 'Status (midden)'
+      right: 'Aantal (rechts)'
+  row:
+    wide: 'Een waarde die lang genoeg is'
+    one:
+      title: 'Project Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Project Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Project Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Bron Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Bron Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Rijen laden'
+      empty:
+        label: 'Geen gegevens beschikbaar.'
+  group:
+    first: 'Eerste groep'
+    second: 'Tweede groep'
+  status:
+    flaky: 'Drie tests zijn onbetrouwbaar'
+  bulk:
+    archive: Archiveren
+    export: Exporteren
+    delete: Verwijderen
+  files:
+    column:
+      path: Bestand
+    fix_selected: 'Geselecteerde herstellen'
+    fix_all: 'Alles herstellen'
+  filters:
+    owner: Eigenaar
+    state: Status
+    open: Open
+    closed: Gesloten
+    column:
+      name: Naam
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tabele
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Szerszy niż pokój'
+      description: 'Tabela, której kolumny wymagają więcej miejsca niż ma strona, jest rysowana na szerokość, jakiej potrzebuje, w ramce, która przewija się w poziomie — reszta strony pozostaje w miejscu. Tabela przyklejona rezygnuje z tego: nagłówek przylegający do strony i ramka przewijająca się samodzielnie nie mogą istnieć razem.'
+    default:
+      title: 'Prosta tabela'
+    actions:
+      title: 'Tabela z akcjami'
+    links:
+      title: 'Komórki z linkami i ikonami'
+    loading:
+      title: 'Stan ładowania'
+    empty:
+      title: 'Stan pusty'
+    alignment:
+      title: 'Wyrównanie kolumn'
+    markdown:
+      title: 'Z markdown'
+      description: 'Tabela napisana w markdown i przetworzona przez `markdown_ds`: kolumny, ich wyrównanie oraz formatowanie każdej komórki są odczytywane z dokumentu, a tabela jest rysowana tutaj jak każda inna. `markdown` zachowuje prosty `<table>`, dla wszystkiego, co nie jest stroną — e-mailem, kanałem.'
+    groups:
+      title: 'Grupuj wiersze'
+      description: 'Wiersz zawierający tylko grupę nie jest wierszem: to linia między dwoma ich seriami, z nadanym słowem. Rozciąga się na całą tabelę i nazywa to, co następuje — to samo, co separator menu.'
+    status:
+      title: 'Komórki statusu'
+      description: 'Stan to okrąg, nigdy kolor wybrany przez kogoś: komórka przyjmuje nazwę typu, lub typ z liczbą i tytułem, i rysuje ikonę statusu, jaką rysuje reszta systemu. Nic do stylizacji na stronie.'
+    sticky:
+      title: 'Przyklejony nagłówek'
+      description: 'Długa tabela jest odczytywana kolumna po kolumnie tak samo jak wiersz po wierszu. Przy `sticky` nagłówek pozostaje w widoku, podczas gdy wiersze przewijają się pod nim; strona z czymś przypiętym na górze mówi, jak daleko w `--table-sticky-top`.'
+    striped:
+      title: 'Wiersze w paski, podświetlane pod wskaźnikiem'
+    selection:
+      title: 'Wiersze, które można zaznaczyć'
+      description: 'Pole przy głowie każdego wiersza, jedno w nagłówku dla wszystkich, oraz akcje powyżej: przesyłają zaznaczone wiersze do ich własnego adresu i pozostają poza zasięgiem, gdy nic nie jest zaznaczone.'
+    files:
+      title: 'Pliki, suma, akcja na każdym wierszu'
+      description: 'Ścieżki odczytywane po ich nazwach, foldery przed nimi są odcinane od początku. Pasek kończy się na liczbie wierszy, a akcja oznaczona jako `wszystko` działa bez zaznaczenia — obejmuje każdy wiersz i prowadzi pasek, gdy jest to oczekiwane.'
+    filters:
+      title: Filtry
+      description: 'Pasek filtrów na głowie tabeli, jedno dyskretne menu dla każdego, mówiące, na co się zwęża, gdy to robi. Na serwerze żyją w zapytaniu strony — każda opcja to link — a kontroler zwęża wiersze na ich podstawie; w vue są to wartości przekazywane stronie dla jej API, lub stosowane przez tabelę do już posiadanych wierszy. Każda opcja to pole — okrągłe dla wyboru jednego — kolorowane według tonu, gdy ma taki, statusu lub kategorii.'
+    selection_select:
+      title: 'Akcje w wyborze'
+      description: 'Ten sam pasek, gdy jest wystarczająco dużo akcji, by go zapełnić: jedna jest wybierana, a następnie stosowana.'
+    vue:
+      title: 'Tabela jednostek Vue'
+    vue_selection:
+      title: 'Tabela Vue z zaznaczeniem'
+      description: 'Ten sam kontrakt po stronie klienta: zaznaczone klucze wracają przez v-model:selected, każda akcja jest emitowana jako bulk-action, a jedna z adresem jest przesyłana, jak serwerowa tabela to przesyła. Te nie mają żadnej, więc linia poniżej mówi, co by zostało zrobione. Trzy wiersze na stronę, suma na końcu paska, oraz Archiwizuj wszystko nie wymagające zaznaczenia.'
+    vue_compact:
+      title: 'Paginacja bez sumy'
+      description: 'Gdy API nie zwraca sumy, pager wraca do poprzedniego/następnego.'
+    vue_dates:
+      title: 'Formatery dat Vue'
+  column:
+    wide: Kolumna
+    default:
+      name: Nazwa
+      date: Data
+      seen: 'Ostatnio widziano'
+    actions:
+      name: Źródło
+      date: Zaktualizowano
+      operations: Akcje
+    links:
+      source: Źródło
+      state: Stan
+    status:
+      name: Pipeline
+      build: Budowa
+      tests: Testy
+      deploy: Wdróż
+    alignment:
+      left: 'Nazwa (lewo)'
+      center: 'Status (środek)'
+      right: 'Kwota (prawo)'
+  row:
+    wide: 'Wartość wystarczająco długa'
+    one:
+      title: 'Projekt Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Projekt Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Projekt Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Źródło Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Źródło Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Ładowanie wierszy'
+      empty:
+        label: 'Brak dostępnych danych.'
+  group:
+    first: 'Pierwsza grupa'
+    second: 'Druga grupa'
+  status:
+    flaky: 'Trzy testy są niestabilne'
+  bulk:
+    archive: Archiwizuj
+    export: Eksportuj
+    delete: Usuń
+  files:
+    column:
+      path: Plik
+    fix_selected: 'Napraw zaznaczone'
+    fix_all: 'Napraw wszystko'
+  filters:
+    owner: Właściciel
+    state: Stan
+    open: Otwarte
+    closed: Zamknięte
+    column:
+      name: Nazwa
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tabelas
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Mais largo que a sala'
+      description: 'Uma tabela cujas colunas exigem mais do que a página possui é desenhada na largura que precisa, em um quadro que rola para o lado — a página ao redor não se move. Uma tabela fixa abre mão disso: um cabeçalho preso à página e um quadro rolando por conta própria não podem coexistir.'
+    default:
+      title: 'Tabela simples'
+    actions:
+      title: 'Tabela com ações'
+    links:
+      title: 'Células com link e ícone'
+    loading:
+      title: 'Estado de carregamento'
+    empty:
+      title: 'Estado vazio'
+    alignment:
+      title: 'Alinhamento das colunas'
+    markdown:
+      title: 'A partir do markdown'
+      description: 'Uma tabela escrita em markdown e passada por `markdown_ds`: as colunas, seu alinhamento e a marcação de cada célula são lidas do documento, e a tabela é desenhada aqui como qualquer outra. `markdown` mantém o simples `<table>`, para o que não for uma página — um e-mail, um feed.'
+    groups:
+      title: 'Agrupar linhas'
+      description: 'Uma linha que contém apenas um grupo não é uma linha: é a linha entre duas sequências delas, dada uma palavra. Ela se estende pela tabela e nomeia o que segue — a mesma leitura que um separador de menu.'
+    status:
+      title: 'Células de estado'
+      description: 'Um estado é um círculo, nunca uma cor escolhida por alguém: a célula assume um nome de tipo, ou um tipo com uma contagem e um título, e desenha o ícone de status que o resto do sistema desenha. Nada para estilizar na página.'
+    sticky:
+      title: 'Cabeçalho fixo'
+      description: 'Uma tabela longa é lida coluna por coluna tanto quanto linha por linha. Com `sticky`, o cabeçalho permanece visível enquanto as linhas rolam para baixo; uma página com algo fixo na parte superior indica o quão abaixo em `--table-sticky-top`.'
+    striped:
+      title: 'Linhas listradas, iluminadas sob o ponteiro'
+    selection:
+      title: 'Linhas que podem ser marcadas'
+      description: 'Uma caixa no cabeçalho de cada linha, uma no cabeçalho para todas, e as ações acima: elas enviam as linhas marcadas para seu próprio endereço, e ficam fora de alcance enquanto nada estiver marcado.'
+    files:
+      title: 'Arquivos, um total, uma ação em cada linha'
+      description: 'Caminhos lidos pelo seu nome, as pastas antes dele cortadas de seu início. A barra termina em quantas linhas há, e uma ação marcada como `all` funciona com nada marcado — ela pega todas as linhas, e lidera a barra quando é a esperada.'
+    filters:
+      title: Filtros
+      description: 'Uma barra de filtros no cabeçalho da tabela, um menu discreto cada um, dizendo o que está restringindo uma vez que faz. No servidor eles vivem na consulta da página — cada opção é um link — e o controlador restringe as linhas a partir disso; em vue, são um valor entregue à página para sua API, ou aplicado pela tabela às linhas que já possui. Cada opção é uma caixa — redonda para uma escolha única — colorida pelo seu tom quando tem um, um status ou uma categoria.'
+    selection_select:
+      title: 'Ações em um seletor'
+      description: 'A mesma barra quando há ações suficientes para preenchê-la: uma é escolhida, então aplicada.'
+    vue:
+      title: 'Tabela de entidade Vue'
+    vue_selection:
+      title: 'Tabela Vue com seleção'
+      description: 'O mesmo contrato no cliente: as chaves marcadas voltam através de v-model:selected, cada ação é emitida como bulk-action, e uma com um endereço é enviada como a tabela do servidor a envia. Esses não têm, então a linha abaixo diz o que teria sido feito. Três linhas por página, o total no final da barra, e Arquivar tudo precisando de nada marcado.'
+    vue_compact:
+      title: 'Paginação sem um total'
+      description: 'Quando a API não retorna um total, o paginador recorre ao anterior/próximo.'
+    vue_dates:
+      title: 'Formatadores de data Vue'
+  column:
+    wide: Coluna
+    default:
+      name: Nome
+      date: Data
+      seen: 'Última vista'
+    actions:
+      name: Fonte
+      date: 'Atualizado em'
+      operations: Ações
+    links:
+      source: Fonte
+      state: Estado
+    status:
+      name: Pipeline
+      build: Construir
+      tests: Testes
+      deploy: Implantar
+    alignment:
+      left: 'Nome (esquerda)'
+      center: 'Status (centro)'
+      right: 'Quantidade (direita)'
+  row:
+    wide: 'Um valor longo o suficiente'
+    one:
+      title: 'Projeto Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Projeto Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Projeto Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Fonte Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Fonte Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Carregando linhas'
+      empty:
+        label: 'Nenhum dado disponível.'
+  group:
+    first: 'Primeiro grupo'
+    second: 'Segundo grupo'
+  status:
+    flaky: 'Três testes estão instáveis'
+  bulk:
+    archive: Arquivar
+    export: Exportar
+    delete: Excluir
+  files:
+    column:
+      path: Arquivo
+    fix_selected: 'Corrigir selecionados'
+    fix_all: 'Corrigir todos'
+  filters:
+    owner: Proprietário
+    state: Estado
+    open: Aberto
+    closed: Fechado
+    column:
+      name: Nome
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Таблицы
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Шире, чем комната'
+      description: 'Таблица, колонки которой требуют больше места, чем есть на странице, рисуется с нужной шириной в рамке, которая прокручивается вбок — сама страница при этом не двигается. Липкая таблица от этого отказывается: заголовок, прикрепленный к странице, и рамка, прокручивающаяся самостоятельно, не могут существовать вместе.'
+    default:
+      title: 'Простая таблица'
+    actions:
+      title: 'Таблица с действиями'
+    links:
+      title: 'Ячейки со ссылками и значками'
+    loading:
+      title: 'Состояние загрузки'
+    empty:
+      title: 'Пустое состояние'
+    alignment:
+      title: 'Выравнивание колонок'
+    markdown:
+      title: 'Из Markdown'
+      description: 'Таблица, написанная в Markdown и обработанная через `markdown_ds`: колонки, их выравнивание и разметка каждой ячейки считываются из документа, и таблица отображается здесь как любая другая. `markdown` сохраняет обычный `<table>`, для всего, что не является страницей — письмом, лентой.'
+    groups:
+      title: 'Группировать строки'
+      description: 'Строка, содержащая только группу, не является строкой: это линия между двумя их сериями, данная словом. Она охватывает таблицу и называет то, что следует за ней — то же самое, что и разделитель в меню.'
+    status:
+      title: 'Ячейки состояния'
+      description: 'Состояние — это круг, никогда не цвет, который кто-то выбрал: ячейка принимает название типа или тип с количеством и заголовком и рисует значок состояния, который рисует остальная часть системы. Ничего не нужно стилизовать на странице.'
+    sticky:
+      title: 'Липкий заголовок'
+      description: 'Длинную таблицу читают по колонкам также, как и по строкам. С `sticky` заголовок остается на виду, пока строки прокручиваются под ним; страница с чем-то своим, прикрепленным вверху, показывает, насколько далеко вниз в `--table-sticky-top`.'
+    striped:
+      title: 'Полосатые строки, подсвеченные под указателем'
+    selection:
+      title: 'Строки, которые можно отметить'
+      description: 'Коробка в заголовке каждой строки, одна в заголовке для всех, и действия выше: они отправляют отмеченные строки по своему адресу и остаются вне досягаемости, пока ничего не отмечено.'
+    files:
+      title: 'Файлы, всего, действие для каждой строки'
+      description: 'Пути, читаемые по их имени, папки перед ним отрезаются от начала. Полоса заканчивается на том, сколько строк есть, и действие, помеченное `all`, работает без отмеченных — оно берет каждую строку и ведет полосу, когда это ожидается.'
+    filters:
+      title: Фильтры
+      description: 'Полоса фильтров в верхней части таблицы, по одному неприметному меню на каждую, указывающая, к чему она сужает, как только это делает. На сервере они живут в запросе страницы — каждый вариант является ссылкой — и контроллер сужает строки из него; в vue они являются значением, переданным странице для ее api, или применяются таблицей к уже имеющимся строкам. Каждый вариант — это коробка — круглая для выбора одного — окрашенная по своему оттенку, если он есть, статусу или категории.'
+    selection_select:
+      title: 'Действия в выборе'
+      description: 'Та же полоса, когда достаточно действий, чтобы она переполнилась: одно выбирается, затем применяется.'
+    vue:
+      title: 'Таблица сущностей Vue'
+    vue_selection:
+      title: 'Таблица Vue с выбором'
+      description: 'Тот же контракт на клиенте: отмеченные ключи возвращаются через v-model:selected, каждое действие выдается как bulk-action, а одно с адресом отправляется по мере того, как серверная таблица его отправляет. У них ничего нет, поэтому строка ниже говорит о том, что было бы сделано. Три строки на странице, всего в конце полосы и Архивировать все, не требуя ничего отмеченного.'
+    vue_compact:
+      title: 'Пагинация без общего количества'
+      description: 'Когда API не возвращает общего количества, пейджер откатывается к предыдущему/следующему.'
+    vue_dates:
+      title: 'Форматировщики дат Vue'
+  column:
+    wide: Колонка
+    default:
+      name: Имя
+      date: Дата
+      seen: 'Последний раз видели'
+    actions:
+      name: Источник
+      date: Обновлено
+      operations: Действия
+    links:
+      source: Источник
+      state: Состояние
+    status:
+      name: Конвейер
+      build: Сборка
+      tests: Тесты
+      deploy: Развертывание
+    alignment:
+      left: 'Имя (слева)'
+      center: 'Состояние (по центру)'
+      right: 'Количество (справа)'
+  row:
+    wide: 'Достаточно длинное значение'
+    one:
+      title: 'Проект Альфа'
+      meta: '2026-01-10'
+    two:
+      title: 'Проект Бета'
+      meta: '2026-02-18'
+    three:
+      title: 'Проект Гамма'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Источник Альфа'
+        meta: '2026-01-12'
+      two:
+        title: 'Источник Бета'
+        meta: '2026-02-20'
+      loading:
+        label: 'Загрузка строк'
+      empty:
+        label: 'Данные недоступны.'
+  group:
+    first: 'Первая группа'
+    second: 'Вторая группа'
+  status:
+    flaky: 'Три теста нестабильны'
+  bulk:
+    archive: Архивировать
+    export: Экспортировать
+    delete: Удалить
+  files:
+    column:
+      path: Файл
+    fix_selected: 'Исправить выделенные'
+    fix_all: 'Исправить все'
+  filters:
+    owner: Владелец
+    state: Состояние
+    open: Открыто
+    closed: Закрыто
+    column:
+      name: Имя
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ตาราง
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: กว้างกว่าห้อง
+      description: 'ตารางที่มีคอลัมน์มากกว่าที่หน้าสามารถรองรับได้ จะถูกวาดในความกว้างที่ต้องการในกรอบที่เลื่อนข้าง — หน้ารอบ ๆ จะไม่เคลื่อนที่ ตารางติดจะละทิ้งสิ่งนี้: หัวตารางที่ติดกับหน้าและกรอบที่เลื่อนเองไม่สามารถมีพร้อมกันได้.'
+    default:
+      title: ตารางธรรมดา
+    actions:
+      title: ตารางที่มีการกระทำ
+    links:
+      title: เซลล์ลิงก์และไอคอน
+    loading:
+      title: สถานะกำลังโหลด
+    empty:
+      title: สถานะว่างเปล่า
+    alignment:
+      title: การจัดตำแหน่งคอลัมน์
+    markdown:
+      title: 'จาก Markdown'
+      description: 'ตารางที่เขียนใน Markdown และผ่าน `markdown_ds`: คอลัมน์ การจัดตำแหน่ง และการทำเครื่องหมายของแต่ละเซลล์จะถูกอ่านจากเอกสาร และตารางจะแสดงที่นี่เหมือนกับตารางอื่น ๆ `markdown` จะเก็บ `<table>` ไว้สำหรับสิ่งที่ไม่ใช่หน้า — อีเมล ฟีด'
+    groups:
+      title: กลุ่มแถว
+      description: 'แถวที่มีเพียงกลุ่มเดียวไม่ถือว่าเป็นแถว: มันคือเส้นระหว่างการวิ่งสองชุดที่ให้คำหนึ่ง มันขยายไปทั่วตารางและระบุสิ่งที่จะตามมา — การอ่านเหมือนกับตัวแบ่งเมนู'
+    status:
+      title: เซลล์สถานะ
+      description: 'สถานะคือวงกลม ไม่เคยเป็นสีที่ใครเลือก: เซลล์จะรับชื่อประเภท หรือประเภทที่มีนับและชื่อ และวาดไอคอนสถานะที่ระบบอื่น ๆ วาด ไม่มีอะไรให้ปรับแต่งในหน้า'
+    sticky:
+      title: หัวตารางติด
+      description: 'ตารางยาวจะถูกอ่านเป็นคอลัมน์ทีละคอลัมน์และแถวทีละแถว ด้วย `sticky` หัวจะอยู่ในมุมมองขณะที่แถวเลื่อนอยู่ใต้; หน้าใด ๆ ที่มีบางอย่างของตนเองติดอยู่ที่ด้านบนจะบอกว่าลงไปไกลแค่ไหนใน `--table-sticky-top`.'
+    striped:
+      title: 'แถวที่มีลายริ้ว สว่างขึ้นเมื่อชี้ไปที่'
+    selection:
+      title: แถวที่สามารถเลือกได้
+      description: 'กล่องที่หัวของแต่ละแถว หนึ่งในหัวสำหรับทั้งหมด และการกระทำด้านบน: พวกเขาจะส่งแถวที่ถูกเลือกไปยังที่อยู่ของพวกเขาเอง และไม่สามารถเข้าถึงได้ในขณะที่ไม่มีการเลือก.'
+    files:
+      title: 'ไฟล์ จำนวน และการกระทำในแต่ละแถว'
+      description: 'เส้นทางที่อ่านจากชื่อของมัน โดยที่โฟลเดอร์ก่อนหน้าถูกตัดออกจากจุดเริ่มต้น แถบจะสิ้นสุดที่จำนวนแถวที่มี และการกระทำที่มีเครื่องหมาย `all` จะทำงานโดยไม่มีการเลือก — มันจะใช้ทุกแถว และนำทางแถบเมื่อมันเป็นสิ่งที่คาดหวัง'
+    filters:
+      title: ตัวกรอง
+      description: 'แถบตัวกรองที่หัวของตาราง เมนูที่มีความละเอียดแต่ละอัน บอกว่ามันแคบลงเมื่อมันทำ ในเซิร์ฟเวอร์พวกเขาจะอยู่ในคำถามของหน้าที่ — แต่ละตัวเลือกคือการเชื่อมโยง — และตัวควบคุมจะทำให้แถวแคบลงจากมัน; ใน vue มันเป็นค่าที่ส่งให้กับหน้าเพื่อใช้กับ api ของมัน หรือใช้โดยตารางกับแถวที่มันมีอยู่แล้ว แต่ละตัวเลือกคือกล่อง — กลมสำหรับการเลือกหนึ่ง — มีสีตามโทนเมื่อมันมีหนึ่ง สถานะหรือหมวดหมู่'
+    selection_select:
+      title: การกระทำในตัวเลือก
+      description: 'แถบเดียวกันเมื่อมีการกระทำมากพอที่จะทำให้แออัด: หนึ่งจะถูกเลือกแล้วนำไปใช้'
+    vue:
+      title: 'ตารางเอนทิตี Vue'
+    vue_selection:
+      title: 'ตาราง Vue พร้อมการเลือก'
+      description: 'ข้อตกลงเดียวกันบนคลาย: คีย์ที่ถูกเลือกจะกลับมาผ่าน v-model:selected แต่ละการกระทำจะถูกปล่อยเป็นการกระทำแบบกลุ่ม และหนึ่งที่มีที่อยู่จะถูกโพสต์เมื่อเซิร์ฟเวอร์ส่งตารางออกมา. สิ่งเหล่านี้ไม่มี ดังนั้นบรรทัดด้านล่างบอกว่าสิ่งที่ควรจะทำ สามแถวต่อหน้า จำนวนที่สิ้นสุดแถบ และเก็บทุกอย่างไม่ต้องเลือก.'
+    vue_compact:
+      title: การแบ่งหน้าโดยไม่มีจำนวนรวม
+      description: 'เมื่อ api ไม่ส่งจำนวนรวมกลับมา ตัวแบ่งหน้าจะกลับไปที่ก่อนหน้า/ถัดไป.'
+    vue_dates:
+      title: 'ตัวจัดรูปแบบวันที่ Vue'
+  column:
+    wide: คอลัมน์
+    default:
+      name: ชื่อ
+      date: วันที่
+      seen: ดูครั้งสุดท้าย
+    actions:
+      name: แหล่งที่มา
+      date: อัปเดตเมื่อ
+      operations: การกระทำ
+    links:
+      source: แหล่งที่มา
+      state: สถานะ
+    status:
+      name: สายการผลิต
+      build: การสร้าง
+      tests: การทดสอบ
+      deploy: การปรับใช้
+    alignment:
+      left: 'ชื่อ (ซ้าย)'
+      center: 'สถานะ (กลาง)'
+      right: 'จำนวน (ขวา)'
+  row:
+    wide: ค่าที่ยาวพอ
+    one:
+      title: 'โครงการ Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'โครงการ Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'โครงการ Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'แหล่งที่มา Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'แหล่งที่มา Beta'
+        meta: '2026-02-20'
+      loading:
+        label: กำลังโหลดแถว
+      empty:
+        label: ไม่มีข้อมูลให้ใช้งาน.
+  group:
+    first: กลุ่มแรก
+    second: กลุ่มที่สอง
+  status:
+    flaky: การทดสอบสามรายการมีปัญหา
+  bulk:
+    archive: เก็บถาวร
+    export: ส่งออก
+    delete: ลบ
+  files:
+    column:
+      path: ไฟล์
+    fix_selected: แก้ไขที่เลือก
+    fix_all: แก้ไขทั้งหมด
+  filters:
+    owner: เจ้าของ
+    state: สถานะ
+    open: เปิด
+    closed: ปิด
+    column:
+      name: ชื่อ
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tablolar
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Odanın genişliğinden daha geniş'
+      description: 'Sayfanın sahip olduğu genişlikten daha fazla sütun talep eden bir tablo, ihtiyaç duyduğu genişlikte çizilir ve yanlara kaydırılan bir çerçeve içinde görüntülenir — etrafındaki sayfa hareket etmez. Yapışkan bir tablo bunu bırakır: sayfaya yapışan bir başlık ve kendi kendine kaydırılan bir çerçeve bir arada olamaz.'
+    default:
+      title: 'Basit tablo'
+    actions:
+      title: 'İşlemlerle tablo'
+    links:
+      title: 'Bağlantı ve simge hücreleri'
+    loading:
+      title: 'Yükleniyor durumu'
+    empty:
+      title: 'Boş durum'
+    alignment:
+      title: 'Sütun hizalaması'
+    markdown:
+      title: "Markdown'dan"
+      description: 'Markdown ile yazılmış ve `markdown_ds` üzerinden geçirilmiş bir tablo: sütunlar, hizalamaları ve her hücrenin işaretlemesi belgeden okunur ve tablo burada diğerleri gibi çizilir. `markdown`, sayfa olmayan her şey için düz `<table>` tutar — bir mail, bir akış.'
+    groups:
+      title: 'Gruplandırılmış satırlar'
+      description: 'Sadece bir grubu taşıyan bir satır, bir satır değildir: iki grup arasında verilen bir kelime ile bir çizgidir. Tabloyu kaplar ve ardından gelenleri adlandırır — bir menü ayırıcı gibi aynı okuma.'
+    status:
+      title: 'Durum hücreleri'
+      description: 'Bir durum bir dairedir, asla birinin seçtiği bir renk değildir: hücre bir tür adı alır, ya da bir sayı ve başlık ile bir tür alır ve durumu, sistemin geri kalanının çizdiği durum simgesini çizer. Sayfada stil verilecek bir şey yok.'
+    sticky:
+      title: 'Yapışkan başlık'
+      description: 'Uzun bir tablo, hem sütun hem de satır olarak okunur. `sticky` ile başlık görünümde kalırken, satırlar altında kayar; kendi üstünde bir şey sabitlenmiş bir sayfa, ne kadar aşağıda olduğunu `--table-sticky-top` ile belirtir.'
+    striped:
+      title: 'Şeritli satırlar, imleç altında aydınlatılır'
+    selection:
+      title: 'Seçilebilecek satırlar'
+      description: 'Her satırın başında bir kutu, hepsi için bir başlıkta ve yukarıda işlemler: işaretlenmiş satırları kendi adreslerine gönderir ve hiçbiri işaretlenmediğinde erişilemez durumda kalır.'
+    files:
+      title: 'Dosyalar, toplam, her satırda bir işlem'
+      description: 'Adlarıyla okunan yollar, önündeki klasörler başlangıcından kesilir. Çubuk, kaç satır olduğunu gösterir ve `tümü` ile işaretlenmemişken çalışan bir işlem — her satırı alır ve beklenildiğinde çubuğu yönlendirir.'
+    filters:
+      title: Filtreler
+      description: "Tablonun başında bir filtre çubuğu, her biri neye daraldığını söyleyen bir menü. Sunucuda sayfanın sorgusunda yaşarlar — her seçenek bir bağlantıdır — ve denetleyici, ondan satırları daraltır; vue'da ise sayfaya api'si için verilen bir değer veya tablonun zaten sahip olduğu satırlara uygulanan bir değerdir. Her seçenek bir kutudur — bir seçim için yuvarlak — tonuna sahip olduğunda, bir durum veya kategori ile renklendirilir."
+    selection_select:
+      title: 'Seçimdeki işlemler'
+      description: 'Yeterince işlem olduğunda aynı çubuk: biri seçilir, ardından uygulanır.'
+    vue:
+      title: 'Vue varlık tablosu'
+    vue_selection:
+      title: 'Seçim ile Vue tablosu'
+      description: 'İstemcide aynı sözleşme: işaretlenmiş anahtarlar v-model:selected ile geri gelir, her işlem toplu işlem olarak iletilir ve bir adres ile olanı, sunucu tablosunun gönderdiği gibi gönderilir. Bunların hiçbiri yoktur, bu yüzden aşağıdaki satır ne yapılacağını söyler. Sayfada üç satır, çubuğun sonunda toplam ve Arşivle tümü hiçbir işaretleme gerektirmez.'
+    vue_compact:
+      title: 'Toplamsız sayfalama'
+      description: 'API toplam döndürmediğinde, sayfa dönmeye önceki/sonraya geri döner.'
+    vue_dates:
+      title: 'Vue tarih biçimlendiricileri'
+  column:
+    wide: Sütun
+    default:
+      name: Ad
+      date: Tarih
+      seen: 'Son görülen'
+    actions:
+      name: Kaynak
+      date: 'Güncellenme tarihi'
+      operations: İşlemler
+    links:
+      source: Kaynak
+      state: Durum
+    status:
+      name: Hattı
+      build: İnşa
+      tests: Testler
+      deploy: Dağıtım
+    alignment:
+      left: 'Ad (sol)'
+      center: 'Durum (orta)'
+      right: 'Miktar (sağ)'
+  row:
+    wide: 'Yeterince uzun bir değer'
+    one:
+      title: 'Proje Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Proje Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Proje Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Kaynak Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Kaynak Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Satırlar yükleniyor'
+      empty:
+        label: 'Veri mevcut değil.'
+  group:
+    first: 'Birinci grup'
+    second: 'İkinci grup'
+  status:
+    flaky: 'Üç test dalgalı'
+  bulk:
+    archive: Arşivle
+    export: 'Dışa aktar'
+    delete: Sil
+  files:
+    column:
+      path: Dosya
+    fix_selected: 'Seçilenleri düzelt'
+    fix_all: 'Hepsini düzelt'
+  filters:
+    owner: Sahip
+    state: Durum
+    open: Açık
+    closed: Kapalı
+    column:
+      name: Ad
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ٹیبلیں
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'کمرے سے وسیع'
+      description: 'ایک ٹیبل جس کے کالموں کو صفحے کی ضرورت سے زیادہ جگہ چاہیے، وہ اپنی ضرورت کے مطابق چوڑائی میں بنایا جاتا ہے، ایک ایسے فریم میں جو سائیڈوں پر سکرول ہوتا ہے — اس کے گرد صفحہ نہیں حرکت کرتا۔ ایک چپکنے والی ٹیبل اس سے الگ ہے: ایک ہیڈر جو صفحے پر چپکا رہتا ہے اور ایک فریم جو خود بخود سکرول کرتا ہے، دونوں ایک ساتھ نہیں ہو سکتے۔'
+    default:
+      title: 'سادہ ٹیبل'
+    actions:
+      title: 'عمل کے ساتھ ٹیبل'
+    links:
+      title: 'لنک اور آئیکن سیل'
+    loading:
+      title: 'لوڈ ہو رہا ہے'
+    empty:
+      title: 'خالی حالت'
+    alignment:
+      title: 'کالم کی ہم آہنگی'
+    markdown:
+      title: 'مارک ڈاون سے'
+      description: 'ایک ٹیبل جو مارک ڈاون میں لکھی گئی ہے اور `markdown_ds` کے ذریعے گزرتی ہے: کالم، ان کی ہم آہنگی اور ہر سیل کی مارک اپ دستاویز سے پڑھی جاتی ہے، اور ٹیبل یہاں دیگر ٹیبلز کی طرح بنایا جاتا ہے۔ `markdown` سادہ `<table>` کو برقرار رکھتا ہے، جو بھی صفحہ نہیں ہے — ایک میل، ایک فیڈ۔'
+    groups:
+      title: 'گروپ قطاریں'
+      description: 'ایک قطار جو صرف ایک گروپ پر مشتمل ہوتی ہے وہ ایک قطار نہیں ہے: یہ دو گروپوں کے درمیان ایک لائن ہے، جسے ایک لفظ دیا گیا ہے۔ یہ ٹیبل کی چوڑائی میں پھیلی ہوئی ہے اور اس کے بعد آنے والی چیزوں کا نام دیتی ہے — ایک مینو سیپریٹر کی طرح۔'
+    status:
+      title: 'اسٹیٹس سیل'
+      description: 'ایک حالت ایک دائرہ ہے، کبھی بھی کوئی رنگ جو کسی نے منتخب کیا: سیل ایک قسم کا نام لیتا ہے، یا ایک قسم جس کے ساتھ ایک تعداد اور ایک عنوان ہوتا ہے، اور اسٹیٹس آئیکن کو کھینچتا ہے جیسا کہ باقی سسٹم کھینچتا ہے۔ صفحے میں کچھ بھی اسٹائل کرنے کی ضرورت نہیں ہے۔'
+    sticky:
+      title: 'چپکنے والا ہیڈر'
+      description: 'ایک طویل ٹیبل کو کالم بہ کالم پڑھا جاتا ہے جتنا کہ قطار بہ قطار۔ `sticky` کے ساتھ، ہیڈر نظر میں رہتا ہے جبکہ قطاریں اس کے نیچے سکرول کرتی ہیں؛ ایک صفحہ جس میں اوپر کچھ چپکایا گیا ہے وہ `--table-sticky-top` میں نیچے کتنا آگے ہے یہ بتاتا ہے۔'
+    striped:
+      title: 'پٹی دار قطاریں، پوائنٹر کے نیچے روشن'
+    selection:
+      title: 'قطاریں جنہیں نشان زد کیا جا سکتا ہے'
+      description: 'ہر قطار کے سرے پر ایک باکس، ان سب کے لیے ایک ہیڈر میں، اور اوپر کے اعمال: یہ نشان زد قطاروں کو اپنے ایڈریس پر بھیجتے ہیں، اور جب کچھ نشان زد نہ ہو تو پہنچ سے باہر رہتے ہیں۔'
+    files:
+      title: 'فائلیں، کل، ہر قطار پر ایک عمل'
+      description: 'نام سے پڑھی جانے والی پاتھیں، اس سے پہلے کے فولڈر اس کے شروع سے کاٹے جاتے ہیں۔ بار یہ بتاتی ہے کہ کتنی قطاریں ہیں، اور ایک عمل جس پر `all` کا نشان ہے وہ بغیر کسی نشان زد کے کام کرتا ہے — یہ ہر قطار کو لیتا ہے، اور جب یہ متوقع ہوتا ہے تو بار کو آگے لے جاتا ہے۔'
+    filters:
+      title: فلٹرز
+      description: 'ٹیبل کے سرے پر فلٹرز کی ایک بار، ہر ایک ایک غیر واضح مینو، بتاتے ہوئے کہ یہ ایک بار جب یہ کرتا ہے تو کس چیز کو محدود کرتا ہے۔ سرور پر یہ صفحے کی درخواست میں رہتے ہیں — ہر آپشن ایک لنک ہے — اور کنٹرولر ان سے قطاروں کو محدود کرتا ہے؛ ویو میں یہ ایک قیمت ہے جو صفحے کو اس کی API کے لیے دی گئی ہے، یا ٹیبل کے ذریعے پہلے سے موجود قطاروں پر لگائی گئی ہے۔ ہر آپشن ایک باکس ہے — ایک کا انتخاب کرنے کے لیے گول — جب یہ ایک ہوتا ہے تو اس کے لہجے کے مطابق رنگین، ایک اسٹیٹس یا ایک زمرہ۔'
+    selection_select:
+      title: 'منتخب میں اعمال'
+      description: 'جب کافی اعمال ہوتے ہیں تو وہی بار: ایک منتخب کیا جاتا ہے، پھر لگایا جاتا ہے۔'
+    vue:
+      title: 'ویو اینٹیٹی ٹیبل'
+    vue_selection:
+      title: 'چناؤ کے ساتھ ویو ٹیبل'
+      description: 'کلائنٹ پر وہی معاہدہ: نشان زد کردہ چابیاں v-model:selected کے ذریعے واپس آتی ہیں، ہر عمل کو bulk-action کے طور پر جاری کیا جاتا ہے، اور ایک ایڈریس کے ساتھ پوسٹ کیا جاتا ہے جیسا کہ سرور ٹیبل اسے پوسٹ کرتا ہے۔ ان میں کوئی نہیں ہے، تو نیچے کی لائن یہ بتاتی ہے کہ کیا کیا جا سکتا تھا۔ ہر صفحے پر تین قطاریں، بار کے آخر میں کل، اور آرکائیو سب کو کچھ بھی نشان زد کیے بغیر درکار ہے۔'
+    vue_compact:
+      title: 'کل کے بغیر صفحات'
+      description: 'جب API کل واپس نہیں کرتی، تو پیجر پچھلے/اگلے پر واپس آ جاتا ہے۔'
+    vue_dates:
+      title: 'ویو تاریخ فارمیٹر'
+  column:
+    wide: کالم
+    default:
+      name: نام
+      date: تاریخ
+      seen: 'آخری بار دیکھا گیا'
+    actions:
+      name: ماخذ
+      date: 'اپ ڈیٹ کیا گیا'
+      operations: عمل
+    links:
+      source: ماخذ
+      state: حالت
+    status:
+      name: 'پائپ لائن'
+      build: تعمیر
+      tests: ٹیسٹ
+      deploy: ڈپلائی
+    alignment:
+      left: 'نام (بائیں)'
+      center: 'حالت (بیچ)'
+      right: 'مقدار (دائیں)'
+  row:
+    wide: 'ایک قدر جو کافی لمبی ہے'
+    one:
+      title: 'پروجیکٹ الفا'
+      meta: '2026-01-10'
+    two:
+      title: 'پروجیکٹ بیٹا'
+      meta: '2026-02-18'
+    three:
+      title: 'پروجیکٹ گاما'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'ماخذ الفا'
+        meta: '2026-01-12'
+      two:
+        title: 'ماخذ بیٹا'
+        meta: '2026-02-20'
+      loading:
+        label: 'قطاریں لوڈ ہو رہی ہیں'
+      empty:
+        label: 'کوئی ڈیٹا دستیاب نہیں۔'
+  group:
+    first: 'پہلا گروپ'
+    second: 'دوسرا گروپ'
+  status:
+    flaky: 'تین ٹیسٹ ناقابل اعتبار ہیں'
+  bulk:
+    archive: آرکائیو
+    export: برآمد
+    delete: 'حذف کریں'
+  files:
+    column:
+      path: فائل
+    fix_selected: 'منتخب کو درست کریں'
+    fix_all: 'سب کو درست کریں'
+  filters:
+    owner: مالک
+    state: حالت
+    open: کھلا
+    closed: بند
+    column:
+      name: نام
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bảng
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 'Rộng hơn phòng'
+      description: 'Một bảng có các cột cần nhiều hơn kích thước của trang sẽ được vẽ với chiều rộng cần thiết, trong một khung cuộn ngang — trang xung quanh không di chuyển. Một bảng dính từ bỏ điều này: một tiêu đề dính vào trang và một khung cuộn tự động không thể có cùng lúc.'
+    default:
+      title: 'Bảng đơn giản'
+    actions:
+      title: 'Bảng có hành động'
+    links:
+      title: 'Ô liên kết và biểu tượng'
+    loading:
+      title: 'Trạng thái đang tải'
+    empty:
+      title: 'Trạng thái trống'
+    alignment:
+      title: 'Căn chỉnh cột'
+    markdown:
+      title: 'Từ markdown'
+      description: 'Một bảng viết bằng markdown và được truyền qua `markdown_ds`: các cột, căn chỉnh của chúng và đánh dấu của mỗi ô được đọc từ tài liệu, và bảng được vẽ ở đây giống như bất kỳ bảng nào khác. `markdown` giữ nguyên `<table>`, cho bất kỳ thứ gì không phải là trang — một email, một nguồn cấp.'
+    groups:
+      title: 'Nhóm hàng'
+      description: 'Một hàng chỉ mang một nhóm không phải là một hàng: nó là đường giữa hai nhóm, được cho một từ. Nó trải dài qua bảng và đặt tên cho những gì theo sau — cùng cách đọc như một bộ phân cách menu.'
+    status:
+      title: 'Ô trạng thái'
+      description: 'Một trạng thái là một vòng tròn, không bao giờ là một màu sắc do ai đó chọn: ô nhận một tên loại, hoặc một loại với số lượng và tiêu đề, và vẽ biểu tượng trạng thái mà phần còn lại của hệ thống vẽ. Không có gì để định dạng trong trang.'
+    sticky:
+      title: 'Tiêu đề dính'
+      description: 'Một bảng dài được đọc theo cột cũng như theo hàng. Với `sticky`, tiêu đề giữ nguyên trong tầm nhìn trong khi các hàng cuộn bên dưới; một trang có thứ gì đó được ghim ở trên cùng cho biết cách xuống trong `--table-sticky-top`.'
+    striped:
+      title: 'Hàng kẻ sọc, phát sáng dưới con trỏ'
+    selection:
+      title: 'Các hàng có thể được đánh dấu'
+      description: 'Một ô ở đầu mỗi hàng, một ở tiêu đề cho tất cả, và các hành động ở trên: chúng gửi các hàng đã được đánh dấu đến địa chỉ riêng của chúng, và không thể chạm tới khi không có gì được đánh dấu.'
+    files:
+      title: 'Tệp, tổng số, một hành động trên mỗi hàng'
+      description: 'Đường dẫn được đọc theo tên của chúng, các thư mục trước đó bị cắt từ đầu. Thanh kết thúc ở số hàng có, và một hành động được đánh dấu là `all` hoạt động với không có gì được đánh dấu — nó lấy mọi hàng, và dẫn thanh khi đó là thứ mong đợi.'
+    filters:
+      title: 'Bộ lọc'
+      description: 'Một thanh bộ lọc ở đầu bảng, một menu kín đáo cho mỗi, cho biết điều gì sẽ được thu hẹp một khi nó thực hiện. Trên máy chủ, chúng sống trong truy vấn của trang — mỗi lựa chọn là một liên kết — và bộ điều khiển thu hẹp các hàng từ đó; trong vue, chúng là một giá trị được đưa cho trang cho api của nó, hoặc được áp dụng bởi bảng cho các hàng mà nó đã có. Mỗi lựa chọn là một hộp — tròn cho một lựa chọn duy nhất — có màu sắc theo tông của nó khi nó có một, một trạng thái hoặc một danh mục.'
+    selection_select:
+      title: 'Hành động trong một lựa chọn'
+      description: 'Cùng thanh đó khi có đủ hành động để chen chúc: một được chọn, sau đó được áp dụng.'
+    vue:
+      title: 'Bảng thực thể Vue'
+    vue_selection:
+      title: 'Bảng Vue có lựa chọn'
+      description: 'Cùng hợp đồng trên phía khách hàng: các khóa đã được đánh dấu quay trở lại qua v-model:selected, mỗi hành động được phát ra như một hành động hàng loạt, và một với địa chỉ được gửi như bảng máy chủ gửi nó. Những cái này không có, vì vậy dòng bên dưới cho biết điều gì sẽ được thực hiện. Ba hàng một trang, tổng số ở cuối thanh, và Lưu trữ tất cả không cần gì được đánh dấu.'
+    vue_compact:
+      title: 'Phân trang không có tổng số'
+      description: 'Khi API không trả về tổng số, bộ phân trang quay lại trước/sau.'
+    vue_dates:
+      title: 'Bộ định dạng ngày Vue'
+  column:
+    wide: Cột
+    default:
+      name: Tên
+      date: Ngày
+      seen: 'Lần cuối thấy'
+    actions:
+      name: Nguồn
+      date: 'Cập nhật lúc'
+      operations: 'Hành động'
+    links:
+      source: Nguồn
+      state: 'Trạng thái'
+    status:
+      name: Pipeline
+      build: 'Xây dựng'
+      tests: 'Kiểm tra'
+      deploy: 'Triển khai'
+    alignment:
+      left: 'Tên (trái)'
+      center: 'Trạng thái (giữa)'
+      right: 'Số lượng (phải)'
+  row:
+    wide: 'Một giá trị đủ dài'
+    one:
+      title: 'Dự án Alpha'
+      meta: '2026-01-10'
+    two:
+      title: 'Dự án Beta'
+      meta: '2026-02-18'
+    three:
+      title: 'Dự án Gamma'
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 'Nguồn Alpha'
+        meta: '2026-01-12'
+      two:
+        title: 'Nguồn Beta'
+        meta: '2026-02-20'
+      loading:
+        label: 'Đang tải hàng'
+      empty:
+        label: 'Không có dữ liệu nào.'
+  group:
+    first: 'Nhóm đầu tiên'
+    second: 'Nhóm thứ hai'
+  status:
+    flaky: 'Ba bài kiểm tra không ổn định'
+  bulk:
+    archive: 'Lưu trữ'
+    export: Xuất
+    delete: Xóa
+  files:
+    column:
+      path: Tệp
+    fix_selected: 'Sửa chữa đã chọn'
+    fix_all: 'Sửa chữa tất cả'
+  filters:
+    owner: 'Chủ sở hữu'
+    state: 'Trạng thái'
+    open: Mở
+    closed: 'Đã đóng'
+    column:
+      name: Tên
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 表格
+  page_icon: 'ph:bold/table'
+  section:
+    wide:
+      title: 比房间更宽
+      description: 一个列数超过页面的表格会绘制成所需的宽度，以一个水平滚动的框架呈现——周围的页面不会移动。一个粘性表格放弃了这一点：一个固定在页面上的头部和一个独立滚动的框架不能同时存在。
+    default:
+      title: 简单表格
+    actions:
+      title: 带操作的表格
+    links:
+      title: 链接和图标单元格
+    loading:
+      title: 加载状态
+    empty:
+      title: 空状态
+    alignment:
+      title: 列对齐
+    markdown:
+      title: 来自markdown
+      description: 通过`markdown_ds`传递的markdown编写的表格：列、对齐方式和每个单元格的标记从文档中读取，表格在这里像其他任何表格一样绘制。`markdown`保留了普通的`<table>`，用于不是页面的内容——邮件、动态消息。
+    groups:
+      title: 分组行
+      description: 仅携带一个组的行不是一行：它是两个组之间的线，给定一个词。它跨越整个表格，并命名后续内容——与菜单分隔符的阅读相同。
+    status:
+      title: 状态单元格
+      description: 状态是一个圆圈，从来不是某人选择的颜色：单元格采用类型名称，或带有计数和标题的类型，并绘制系统其余部分绘制的状态图标。页面中没有样式可设置。
+    sticky:
+      title: 粘性头部
+      description: 长表格按列和行读取。使用`sticky`，头部在视野中保持，而行在其下滚动；带有其自身固定在顶部的页面说明在`--table-sticky-top`中向下滚动了多少。
+    striped:
+      title: 条纹行，指针下高亮
+    selection:
+      title: 可选行
+      description: 每行头部的一个框，所有行的头部一个框，以及上方的操作：它们将选中的行发送到其自己的地址，并在没有选中时保持不可触及。
+    files:
+      title: 文件、总数、每行的操作
+      description: 按名称读取的路径，前面的文件夹从开头剪切。条形图显示行数，标记为`all`的操作在没有选中时有效——它取每一行，并在预期时引导条形图。
+    filters:
+      title: 过滤器
+      description: 在表格顶部的过滤器条，每个都是一个隐蔽的菜单，说明一旦过滤所缩小的内容。在服务器上，它们存在于页面的查询中——每个选项都是一个链接——控制器从中缩小行；在vue中，它们是传递给页面的值供其api使用，或由表格应用于它已经拥有的行。每个选项是一个框——选择一个时为圆形——当它有色调、状态或类别时为其色彩。
+    selection_select:
+      title: 选择中的操作
+      description: 当有足够的操作挤满它时的同一条：选择一个，然后应用。
+    vue:
+      title: Vue实体表
+    vue_selection:
+      title: 带选择的Vue表
+      description: '客户端上的相同合同：选中的键通过v-model:selected返回，每个操作作为bulk-action发出，带地址的作为服务器表发布。这些没有，因此下面的行说明了将会做的事情。每页三行，条形图末尾是总数，归档所有不需要选中。'
+    vue_compact:
+      title: 无总数的分页
+      description: 当API未返回总数时，分页器回退到上/下。
+    vue_dates:
+      title: Vue日期格式化器
+  column:
+    wide: 列
+    default:
+      name: 名称
+      date: 日期
+      seen: 最后查看
+    actions:
+      name: 来源
+      date: 更新时间
+      operations: 操作
+    links:
+      source: 来源
+      state: 状态
+    status:
+      name: 管道
+      build: 构建
+      tests: 测试
+      deploy: 部署
+    alignment:
+      left: 名称（左）
+      center: 状态（中）
+      right: 数量（右）
+  row:
+    wide: 足够长的值
+    one:
+      title: 项目阿尔法
+      meta: '2026-01-10'
+    two:
+      title: 项目贝塔
+      meta: '2026-02-18'
+    three:
+      title: 项目伽马
+      meta: '2026-03-25'
+    action:
+      one:
+        title: 来源阿尔法
+        meta: '2026-01-12'
+      two:
+        title: 来源贝塔
+        meta: '2026-02-20'
+      loading:
+        label: 加载行
+      empty:
+        label: 没有可用数据。
+  group:
+    first: 第一组
+    second: 第二组
+  status:
+    flaky: 三个测试不稳定
+  bulk:
+    archive: 归档
+    export: 导出
+    delete: 删除
+  files:
+    column:
+      path: 文件
+    fix_selected: 修复选中项
+    fix_all: 修复所有
+  filters:
+    owner: 所有者
+    state: 状态
+    open: 打开
+    closed: 关闭
+    column:
+      name: 名称

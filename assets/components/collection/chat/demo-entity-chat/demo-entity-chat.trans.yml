@@ -1,0 +1,183 @@
+en:
+  author:
+    assistant: Assistant
+    error: Failed
+    system: System
+    tool: Tool call
+    user: You
+
+ar:
+  author:
+    assistant: Assistant
+    error: Failed
+    system: System
+    tool: 'Tool call'
+    user: You
+
+bn:
+  author:
+    assistant: সহকারী
+    error: ব্যর্থ
+    system: সিস্টেম
+    tool: 'টুল কল'
+    user: আপনি
+
+de:
+  author:
+    assistant: Assistent
+    error: Fehler
+    system: System
+    tool: Werkzeugaufruf
+    user: Du
+
+es:
+  author:
+    assistant: Assistant
+    error: Failed
+    system: System
+    tool: 'Tool call'
+    user: You
+
+fa:
+  author:
+    assistant: دستیار
+    error: خطا
+    system: سیستم
+    tool: 'فراخوان ابزار'
+    user: شما
+
+fi:
+  author:
+    assistant: Avustaja
+    error: Epäonnistui
+    system: Järjestelmä
+    tool: Työkalikutsu
+    user: Sinä
+
+fr:
+  author:
+    assistant: Assistant
+    error: Failed
+    system: System
+    tool: 'Tool call'
+    user: You
+
+he:
+  author:
+    assistant: עוזר
+    error: נכשל
+    system: מערכת
+    tool: 'קריאת כלי'
+    user: אתה
+
+hi:
+  author:
+    assistant: Assistant
+    error: Failed
+    system: System
+    tool: 'Tool call'
+    user: You
+
+id:
+  author:
+    assistant: Asisten
+    error: Gagal
+    system: Sistem
+    tool: 'Panggilan alat'
+    user: Anda
+
+it:
+  author:
+    assistant: Assistente
+    error: Errore
+    system: Sistema
+    tool: 'Chiamata dello strumento'
+    user: Tu
+
+ja:
+  author:
+    assistant: アシスタント
+    error: 失敗しました
+    system: システム
+    tool: ツール呼び出し
+    user: あなた
+
+ko:
+  author:
+    assistant: 어시스턴트
+    error: 실패했습니다
+    system: 시스템
+    tool: '도구 호출'
+    user: 당신
+
+nl:
+  author:
+    assistant: Assistent
+    error: Mislukt
+    system: Systeem
+    tool: 'Hulpmiddel aanroep'
+    user: Jij
+
+pl:
+  author:
+    assistant: Asystent
+    error: Niepowodzenie
+    system: System
+    tool: 'Wywołanie narzędzia'
+    user: Ty
+
+pt_BR:
+  author:
+    assistant: Assistente
+    error: Falhou
+    system: Sistema
+    tool: 'Chamada de ferramenta'
+    user: Você
+
+ru:
+  author:
+    assistant: Ассистент
+    error: 'Не удалось'
+    system: Система
+    tool: 'Вызов инструмента'
+    user: Вы
+
+th:
+  author:
+    assistant: ผู้ช่วย
+    error: ล้มเหลว
+    system: ระบบ
+    tool: การเรียกเครื่องมือ
+    user: คุณ
+
+tr:
+  author:
+    assistant: Asistan
+    error: Başarısız
+    system: Sistem
+    tool: 'Araç çağrısı'
+    user: Siz
+
+ur:
+  author:
+    assistant: اسسٹنٹ
+    error: ناکام
+    system: سسٹم
+    tool: 'ٹول کال'
+    user: آپ
+
+vi:
+  author:
+    assistant: 'Trợ lý'
+    error: 'Không thành công'
+    system: 'Hệ thống'
+    tool: 'Gọi công cụ'
+    user: Bạn
+
+zh:
+  author:
+    assistant: Assistant
+    error: Failed
+    system: System
+    tool: 'Tool call'
+    user: You

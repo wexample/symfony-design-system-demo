@@ -1,0 +1,715 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Data
+  page_icon: ph:bold/list-bullets
+
+  intro: "Shapes that take a collection and render it. What tells them apart is how much of each record the reader gets to see, and what they can do with it once they see it."
+
+  page:
+    files:
+      title: Files
+      description: "A file explorer the width of a page, fed by a loader, and one folder drawn by the server."
+    tables:
+      title: Tables
+      description: "Rows and columns, server-rendered or paginated by the browser, with typed cells — links, actions, icons and dates that keep counting."
+    live:
+      title: Keeping up
+      description: "The three ways a collection hears that what it shows has changed — an app event, a live source, or polling — and what each one is for."
+    lists:
+      title: Lists
+      description: "A list that is searched and filtered from its own header, for a set a reader browses rather than scans."
+    properties:
+      title: Properties
+      description: "Key and value, for one record rather than many — the detail panel of a thing already chosen."
+    bars:
+      title: Bars
+      description: "One record named in a single line: an icon, a title, what qualifies it. The row a search result, a member or a file is rendered as."
+    tree:
+      title: Tree
+      description: "A collection whose records contain each other, loaded a level at a time, in the panel an explorer ships as."
+    chat:
+      title: Chat
+      description: "A collection read backwards and added to from below, live, with a composer that grows as it is written in."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بيانات
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'أشكال تأخذ مجموعة وتعرضها. ما يميزها هو مقدار كل سجل يمكن للقارئ رؤيته، وما يمكنهم فعله به بمجرد رؤيته.'
+  page:
+    files:
+      title: الملفات
+      description: 'مستكشف ملفات بعرض صفحة، يتم تغذيته بواسطة محمل، ومجلد واحد يرسمه الخادم.'
+    tables:
+      title: الجداول
+      description: 'صفوف وأعمدة، يتم عرضها بواسطة الخادم أو تقسيمها بواسطة المتصفح، مع خلايا محددة - روابط، إجراءات، أيقونات وتواريخ تستمر في العد.'
+    live:
+      title: المتابعة
+      description: 'الطرق الثلاث التي يسمع بها مجموعة أن ما تعرضه قد تغير - حدث تطبيق، مصدر مباشر، أو استعلام دوري - وما هو كل واحد منها.'
+    lists:
+      title: القوائم
+      description: 'قائمة يتم البحث فيها وتصفيةها من رأسها الخاص، لمجموعة يتصفحها القارئ بدلاً من أن يتم مسحها.'
+    properties:
+      title: الخصائص
+      description: 'مفتاح وقيمة، لسجل واحد بدلاً من العديد - لوحة التفاصيل لشيء تم اختياره بالفعل.'
+    bars:
+      title: الأشرطة
+      description: 'سجل واحد مُسمى في سطر واحد: أيقونة، عنوان، ما يميزه. الصف الذي يتم عرض نتيجة البحث، عضو أو ملف.'
+    tree:
+      title: الشجرة
+      description: 'مجموعة تحتوي سجلاتها على بعضها البعض، يتم تحميلها بمستوى واحد في كل مرة، في اللوحة التي يشحنها المستكشف.'
+    chat:
+      title: الدردشة
+      description: 'مجموعة تقرأ بشكل عكسي وتضاف من الأسفل، بشكل مباشر، مع مؤلف ينمو كلما كتبت فيه.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ডেটা
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'আকৃতিগুলি একটি সংগ্রহ গ্রহণ করে এবং এটি উপস্থাপন করে। যা তাদের আলাদা করে তা হল পাঠক কতটা রেকর্ড দেখতে পায় এবং তারা একবার দেখার পরে তার সাথে কি করতে পারে।'
+  page:
+    files:
+      title: ফাইল
+      description: 'একটি ফাইল এক্সপ্লোরার যা একটি পৃষ্ঠার প্রস্থের সমান, একটি লোডার দ্বারা পরিচালিত এবং একটি ফোল্ডার যা সার্ভার দ্বারা তৈরি করা হয়েছে।'
+    tables:
+      title: তালিকা
+      description: 'সারিবদ্ধ এবং কলাম, সার্ভার দ্বারা তৈরি বা ব্রাউজার দ্বারা পৃষ্ঠা বিভক্ত, টাইপ করা সেল সহ — লিঙ্ক, ক্রিয়া, আইকন এবং তারিখ যা গণনা করতে থাকে।'
+    live:
+      title: 'আপডেট থাকুন'
+      description: 'একটি সংগ্রহ তিনভাবে জানে যে এটি যা দেখাচ্ছে তা পরিবর্তিত হয়েছে — একটি অ্যাপ ইভেন্ট, একটি লাইভ সোর্স, বা পোলিং — এবং প্রতিটি কি জন্য।'
+    lists:
+      title: তালিকা
+      description: 'একটি তালিকা যা তার নিজস্ব শিরোনাম থেকে অনুসন্ধান এবং ফিল্টার করা হয়, একটি সেট যা একজন পাঠক ব্রাউজ করে পরিবর্তে স্ক্যান করে।'
+    properties:
+      title: গুণাবলী
+      description: 'একটি রেকর্ডের জন্য কী এবং মান — একটি ইতিমধ্যে নির্বাচিত বিষয়ের বিস্তারিত প্যানেল।'
+    bars:
+      title: বার
+      description: 'একটি একক লাইনে একটি রেকর্ডের নাম: একটি আইকন, একটি শিরোনাম, যা এটি যোগ্য করে। সার্চ ফলাফল, সদস্য বা একটি ফাইল হিসাবে একটি সারি উপস্থাপন করা হয়।'
+    tree:
+      title: গাছ
+      description: 'একটি সংগ্রহ যার রেকর্ডগুলি একে অপরকে ধারণ করে, এক পর্যায়ে লোড করা হয়, একটি প্যানেলে একটি এক্সপ্লোরার যা পাঠানো হয়।'
+    chat:
+      title: চ্যাট
+      description: 'একটি সংগ্রহ যা পেছনের দিকে পড়া হয় এবং নিচ থেকে যোগ করা হয়, লাইভ, একটি কম্পোজার যা লেখার সাথে বাড়ে।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Daten
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Formen, die eine Sammlung aufnehmen und darstellen. Was sie unterscheidet, ist, wie viel von jedem Datensatz der Leser sehen kann und was er damit tun kann, sobald er es sieht.'
+  page:
+    files:
+      title: Dateien
+      description: 'Ein Datei-Explorer, der die Breite einer Seite hat, gespeist von einem Loader, und einem Ordner, der vom Server bereitgestellt wird.'
+    tables:
+      title: Tabellen
+      description: 'Zeilen und Spalten, servergerendert oder vom Browser paginiert, mit typisierten Zellen – Links, Aktionen, Icons und Daten, die weitergezählt werden.'
+    live:
+      title: Aktualität
+      description: 'Die drei Möglichkeiten, wie eine Sammlung erfährt, dass sich das, was sie zeigt, geändert hat – ein App-Ereignis, eine Live-Quelle oder Polling – und wofür jede davon gedacht ist.'
+    lists:
+      title: Listen
+      description: 'Eine Liste, die aus ihrem eigenen Header heraus durchsucht und gefiltert wird, für ein Set, das ein Leser durchblättert, anstatt es zu scannen.'
+    properties:
+      title: Eigenschaften
+      description: 'Schlüssel und Wert, für einen Datensatz statt viele – das Detailfenster eines bereits gewählten Objekts.'
+    bars:
+      title: Balken
+      description: 'Ein Datensatz, der in einer einzigen Zeile benannt ist: ein Icon, ein Titel, was ihn qualifiziert. Die Zeile, in der ein Suchergebnis, ein Mitglied oder eine Datei dargestellt wird.'
+    tree:
+      title: Baum
+      description: 'Eine Sammlung, deren Datensätze einander enthalten, die jeweils auf einer Ebene geladen werden, in dem Panel, das ein Explorer mitliefert.'
+    chat:
+      title: Chat
+      description: 'Eine Sammlung, die rückwärts gelesen und von unten hinzugefügt wird, live, mit einem Composer, der wächst, während er geschrieben wird.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Datos
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Formas que toman una colección y la representan. Lo que las distingue es cuánto de cada registro puede ver el lector y qué puede hacer con ello una vez que lo ve.'
+  page:
+    files:
+      title: Archivos
+      description: 'Un explorador de archivos del ancho de una página, alimentado por un cargador, y una carpeta dibujada por el servidor.'
+    tables:
+      title: Tablas
+      description: 'Filas y columnas, renderizadas por el servidor o paginadas por el navegador, con celdas tipadas: enlaces, acciones, íconos y fechas que siguen contando.'
+    live:
+      title: 'Manteniéndose al día'
+      description: 'Las tres formas en que una colección escucha que lo que muestra ha cambiado: un evento de la app, una fuente en vivo o sondeo, y para qué sirve cada uno.'
+    lists:
+      title: Listas
+      description: 'Una lista que se busca y filtra desde su propio encabezado, para un conjunto que el lector navega en lugar de escanear.'
+    properties:
+      title: Propiedades
+      description: 'Clave y valor, para un registro en lugar de muchos: el panel de detalles de una cosa ya elegida.'
+    bars:
+      title: Barras
+      description: 'Un registro nombrado en una sola línea: un ícono, un título, lo que lo califica. La fila que se representa como un resultado de búsqueda, un miembro o un archivo.'
+    tree:
+      title: Árbol
+      description: 'Una colección cuyos registros contienen entre sí, cargados un nivel a la vez, en el panel que un explorador envía.'
+    chat:
+      title: Chat
+      description: 'Una colección leída al revés y añadida desde abajo, en vivo, con un compositor que crece a medida que se escribe en él.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: داده‌ها
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'شکل‌هایی که یک مجموعه را می‌گیرند و آن را نمایش می‌دهند. چیزی که آن‌ها را از هم متمایز می‌کند، میزان اطلاعاتی است که خواننده از هر رکورد می‌بیند و اینکه پس از دیدن آن، چه کاری می‌تواند با آن انجام دهد.'
+  page:
+    files:
+      title: فایل‌ها
+      description: 'یک کاوشگر فایل به عرض یک صفحه، که توسط یک بارگذار تغذیه می‌شود و یک پوشه توسط سرور کشیده شده است.'
+    tables:
+      title: جدول‌ها
+      description: 'ردیف‌ها و ستون‌ها، که توسط سرور نمایش داده می‌شوند یا توسط مرورگر صفحه‌بندی می‌شوند، با سلول‌های تایپ‌شده — لینک‌ها، اقدامات، آیکن‌ها و تاریخ‌هایی که به شمارش ادامه می‌دهند.'
+    live:
+      title: 'به‌روز نگه‌داشتن'
+      description: 'سه راهی که یک مجموعه متوجه می‌شود آنچه نمایش می‌دهد تغییر کرده است — یک رویداد اپلیکیشن، یک منبع زنده یا نظارت — و هر کدام برای چه چیزی است.'
+    lists:
+      title: لیست‌ها
+      description: 'یک لیست که از سرصفحه خود جستجو و فیلتر می‌شود، برای مجموعه‌ای که خواننده مرور می‌کند نه اینکه فقط ببیند.'
+    properties:
+      title: خصوصیات
+      description: 'کلید و مقدار، برای یک رکورد به جای چند رکورد — پنل جزئیات یک چیز که قبلاً انتخاب شده است.'
+    bars:
+      title: نوارها
+      description: 'یک رکورد که در یک خط نام‌گذاری شده است: یک آیکن، یک عنوان، و آنچه آن را واجد شرایط می‌کند. ردیف یک نتیجه جستجو، یک عضو یا یک فایل که نمایش داده می‌شود.'
+    tree:
+      title: درخت
+      description: 'مجموعه‌ای که رکوردهای آن شامل یکدیگر می‌شوند، که به صورت یک سطح در هر بار بارگذاری می‌شود، در پنلی که یک کاوشگر به همراه دارد.'
+    chat:
+      title: چت
+      description: 'مجموعه‌ای که به صورت معکوس خوانده می‌شود و از پایین اضافه می‌شود، به صورت زنده، با یک نویسنده که با نوشتن رشد می‌کند.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Data
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Muotoja, jotka ottavat kokoelman ja esittävät sen. Erottava tekijä on se, kuinka paljon jokaisesta tietueesta lukija saa nähdä ja mitä he voivat tehdä sen kanssa sen nähtyään.'
+  page:
+    files:
+      title: Tiedostot
+      description: 'Tiedostoselaaja, joka on sivun levyinen, lataajan syöttämä, ja yksi kansio, joka on piirretty palvelimelta.'
+    tables:
+      title: Taulukot
+      description: 'Rivejä ja sarakkeita, palvelimelta renderöityjä tai selaimen sivutettuja, tyypitettyjä soluja — linkkejä, toimintoja, kuvakkeita ja päivämääriä, jotka jatkuvasti laskevat.'
+    live:
+      title: 'Pysy mukana'
+      description: 'Kolme tapaa, joilla kokoelma kuulee, että sen näyttämä on muuttunut — sovellustapahtuma, live-lähde tai kysely — ja mitä kukin niistä tarkoittaa.'
+    lists:
+      title: Luettelot
+      description: 'Luettelo, jota haetaan ja suodatetaan sen omasta otsikosta, lukijalle, joka selaa sitä sen sijaan, että skannaaisi.'
+    properties:
+      title: Ominaisuudet
+      description: 'Avain ja arvo, yhdelle tietueelle sen sijaan, että usealle — valitun asian yksityiskohtapaneeli.'
+    bars:
+      title: Palkit
+      description: 'Yksi tietue, joka on nimetty yhdellä rivillä: kuvake, otsikko, mikä määrittelee sen. Rivi, jolla hakutulos, jäsen tai tiedosto esitetään.'
+    tree:
+      title: Puu
+      description: 'Kokoelma, jonka tietueet sisältävät toisiaan, ladattu yksi taso kerrallaan, paneelissa, jonka selaaja toimittaa.'
+    chat:
+      title: Keskustelu
+      description: 'Kokoelma, jota luetaan taaksepäin ja johon lisätään alhaalta, live, kirjoittamisen aikana kasvavalla säveltäjällä.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Données
+  page_icon: 'ph:bold/list-bullets'
+  intro: "Des formes qui prennent une collection et la rendent. Ce qui les distingue, c'est la quantité de chaque enregistrement que le lecteur peut voir et ce qu'il peut en faire une fois qu'il l'a vu."
+  page:
+    files:
+      title: Fichiers
+      description: "Un explorateur de fichiers de la largeur d'une page, alimenté par un chargeur, et un dossier dessiné par le serveur."
+    tables:
+      title: Tables
+      description: 'Lignes et colonnes, rendues par le serveur ou paginées par le navigateur, avec des cellules typées — liens, actions, icônes et dates qui continuent de compter.'
+    live:
+      title: Suivre
+      description: "Les trois façons dont une collection sait que ce qu'elle montre a changé — un événement d'application, une source en direct ou un sondage — et à quoi chacune d'elles sert."
+    lists:
+      title: Listes
+      description: 'Une liste qui est recherchée et filtrée depuis son propre en-tête, pour un ensemble que le lecteur parcourt plutôt que scanne.'
+    properties:
+      title: Propriétés
+      description: "Clé et valeur, pour un enregistrement plutôt que plusieurs — le panneau de détails d'une chose déjà choisie."
+    bars:
+      title: Barres
+      description: "Un enregistrement nommé en une seule ligne : une icône, un titre, ce qui le qualifie. La ligne qu'un résultat de recherche, un membre ou un fichier est rendu comme."
+    tree:
+      title: Arbre
+      description: "Une collection dont les enregistrements se contiennent les uns les autres, chargée un niveau à la fois, dans le panneau qu'un explorateur expédie comme."
+    chat:
+      title: Chat
+      description: "Une collection lue à l'envers et ajoutée par le bas, en direct, avec un compositeur qui grandit au fur et à mesure qu'il est écrit."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: נתונים
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'צורות שמקבלות אוסף ומציגות אותו. מה שמייחד אותן הוא כמה מההקלטות כל קורא יכול לראות, ומה הוא יכול לעשות עם זה ברגע שהוא רואה את זה.'
+  page:
+    files:
+      title: קבצים
+      description: 'סייר קבצים ברוחב של עמוד, מוזן על ידי טוען, עם תיקייה אחת שמצייר השרת.'
+    tables:
+      title: טבלאות
+      description: 'שורות ועמודות,Rendered על ידי השרת או מדורגות על ידי הדפדפן, עם תאים ממוספרים — קישורים, פעולות, אייקונים ותאריכים שממשיכים לספור.'
+    live:
+      title: מעקב
+      description: 'שלוש דרכים שבהן אוסף שומע שהמה שמוצג השתנה — אירוע אפליקציה, מקור חי, או פולינג — ומה כל אחד מהם משרת.'
+    lists:
+      title: רשימות
+      description: 'רשימה שנחקרת ומסוננת מהכותרת שלה, עבור סט שקורא גולש בו במקום לסרוק.'
+    properties:
+      title: מאפיינים
+      description: 'מפתח וערך, עבור הקלטה אחת ולא רבות — לוח הפרטים של דבר שכבר נבחר.'
+    bars:
+      title: שורות
+      description: 'הקלטה אחת בשם בשורה אחת: אייקון, כותרת, מה שמסווג אותה. השורה שבה תוצג תוצאת חיפוש, חבר או קובץ.'
+    tree:
+      title: עץ
+      description: 'אוסף שבו ההקלטות כוללות זו את זו, נטען רמה אחת בכל פעם, בלוח שהסייר מספק.'
+    chat:
+      title: שיחה
+      description: 'אוסף שנקרא לאחור ומתווסף מלמטה, חי, עם יוצר שגדל ככל שנכתבים בו.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: डेटा
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'आकार जो एक संग्रह को लेता है और इसे प्रस्तुत करता है। जो उन्हें अलग करता है वह यह है कि पाठक को प्रत्येक रिकॉर्ड का कितना हिस्सा देखने को मिलता है, और वे इसे देखने के बाद इसके साथ क्या कर सकते हैं।'
+  page:
+    files:
+      title: फाइलें
+      description: 'एक फाइल एक्सप्लोरर जो एक पृष्ठ की चौड़ाई का है, एक लोडर द्वारा फीड किया गया है, और एक फ़ोल्डर जिसे सर्वर द्वारा चित्रित किया गया है।'
+    tables:
+      title: तालिकाएं
+      description: 'पंक्तियाँ और कॉलम, सर्वर द्वारा प्रस्तुत या ब्राउज़र द्वारा पृष्ठबद्ध, प्रकारित सेल के साथ - लिंक, क्रियाएँ, आइकन और तारीखें जो गिनती बनाए रखती हैं।'
+    live:
+      title: 'अपडेट रहना'
+      description: 'तीन तरीके जिनसे एक संग्रह सुनता है कि जो यह दिखाता है वह बदल गया है - एक ऐप इवेंट, एक लाइव स्रोत, या पोलिंग - और प्रत्येक का क्या उपयोग है।'
+    lists:
+      title: सूचियाँ
+      description: 'एक सूची जिसे अपने स्वयं के हेडर से खोजा और फ़िल्टर किया गया है, जिसे एक सेट के लिए ब्राउज़ किया जाता है न कि स्कैन किया जाता है।'
+    properties:
+      title: गुण
+      description: 'एक रिकॉर्ड के लिए कुंजी और मान, न कि कई के लिए - पहले से चुने गए एक चीज़ का विवरण पैनल।'
+    bars:
+      title: बार्स
+      description: 'एक पंक्ति में नामित एक रिकॉर्ड: एक आइकन, एक शीर्षक, जो इसे योग्य बनाता है। खोज परिणाम, एक सदस्य या एक फ़ाइल के रूप में प्रदर्शित की गई पंक्ति।'
+    tree:
+      title: पेड़
+      description: 'एक संग्रह जिसके रिकॉर्ड एक-दूसरे को शामिल करते हैं, एक बार में एक स्तर लोड किया जाता है, उस पैनल में जिसे एक एक्सप्लोरर शिप करता है।'
+    chat:
+      title: चैट
+      description: 'एक संग्रह जिसे पीछे से पढ़ा जाता है और नीचे से जोड़ा जाता है, लाइव, एक कंपोजर के साथ जो लिखे जाने पर बढ़ता है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Data
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Bentuk-bentuk yang mengambil sebuah koleksi dan menampilkannya. Yang membedakan adalah seberapa banyak dari setiap catatan yang dapat dilihat pembaca, dan apa yang dapat mereka lakukan setelah melihatnya.'
+  page:
+    files:
+      title: Berkas
+      description: 'Sebuah penjelajah berkas selebar halaman, yang diisi oleh pemuat, dan satu folder yang ditarik oleh server.'
+    tables:
+      title: Tabel
+      description: 'Baris dan kolom, dirender oleh server atau dipaginasi oleh browser, dengan sel bertipe — tautan, tindakan, ikon, dan tanggal yang terus dihitung.'
+    live:
+      title: 'Mengikuti perkembangan'
+      description: 'Tiga cara sebuah koleksi mendengar bahwa apa yang ditampilkannya telah berubah — sebuah acara aplikasi, sumber langsung, atau polling — dan apa fungsi masing-masing.'
+    lists:
+      title: Daftar
+      description: 'Sebuah daftar yang dicari dan difilter dari header-nya sendiri, untuk sekumpulan yang dibrowse pembaca daripada dipindai.'
+    properties:
+      title: Properti
+      description: 'Kunci dan nilai, untuk satu catatan daripada banyak — panel detail dari suatu hal yang sudah dipilih.'
+    bars:
+      title: Bar
+      description: 'Satu catatan yang disebut dalam satu baris: sebuah ikon, sebuah judul, apa yang memenuhi syaratnya. Baris hasil pencarian, anggota, atau berkas yang dirender.'
+    tree:
+      title: Pohon
+      description: 'Sebuah koleksi yang catatannya saling berisi satu sama lain, dimuat satu level pada satu waktu, di panel yang disediakan oleh penjelajah.'
+    chat:
+      title: Obrolan
+      description: 'Sebuah koleksi yang dibaca dari belakang dan ditambahkan dari bawah, secara langsung, dengan pembuat yang berkembang saat ditulis.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dati
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Forme che prendono una raccolta e la rendono visibile. Ciò che le distingue è quanto di ogni record il lettore riesce a vedere e cosa può farci una volta che lo vede.'
+  page:
+    files:
+      title: File
+      description: 'Un esploratore di file largo quanto una pagina, alimentato da un loader, e una cartella generata dal server.'
+    tables:
+      title: Tabelle
+      description: 'Righe e colonne, renderizzate dal server o paginate dal browser, con celle tipizzate — link, azioni, icone e date che continuano a contare.'
+    live:
+      title: Aggiornamenti
+      description: "I tre modi in cui una raccolta percepisce che ciò che mostra è cambiato — un evento dell'app, una fonte live, o polling — e a cosa serve ciascuno di essi."
+    lists:
+      title: Liste
+      description: 'Una lista che può essere cercata e filtrata dalla sua intestazione, per un insieme che il lettore esplora piuttosto che scansiona.'
+    properties:
+      title: Proprietà
+      description: 'Chiave e valore, per un record piuttosto che molti — il pannello dei dettagli di un elemento già scelto.'
+    bars:
+      title: Barre
+      description: "Un record nominato in una sola riga: un'icona, un titolo, cosa lo qualifica. La riga in cui è renderizzato un risultato di ricerca, un membro o un file."
+    tree:
+      title: Albero
+      description: "Una raccolta i cui record contengono l'uno nell'altro, caricati un livello alla volta, nel pannello fornito da un esploratore."
+    chat:
+      title: Chat
+      description: 'Una raccolta letta al contrario e aggiunta dal basso, in tempo reale, con un compositore che cresce man mano che viene scritto.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: データ
+  page_icon: 'ph:bold/list-bullets'
+  intro: コレクションを取り込み、表示する形状。それらを区別するのは、読者が各レコードのどれだけを見ることができるか、そしてそれを見た後に何ができるかです。
+  page:
+    files:
+      title: ファイル
+      description: ページの幅を持つファイルエクスプローラーで、ローダーによって供給され、サーバーによって描画された1つのフォルダー。
+    tables:
+      title: テーブル
+      description: 行と列、サーバーで描画されたものまたはブラウザによってページ分けされたもので、リンク、アクション、アイコン、日付がカウントされ続ける型付けされたセル。
+    live:
+      title: リアルタイム更新
+      description: 'コレクションが表示している内容が変更されたことを聞く3つの方法 — アプリイベント、ライブソース、またはポーリング — それぞれの目的。'
+    lists:
+      title: リスト
+      description: 自分のヘッダーから検索およびフィルタリングされるリストで、読者がスキャンするのではなく、ブラウズするためのセット。
+    properties:
+      title: プロパティ
+      description: '1つのレコードに対するキーと値 — すでに選択されたものの詳細パネル。'
+    bars:
+      title: バー
+      description: '1行で名前が付けられた1つのレコード: アイコン、タイトル、それを特定するもの。検索結果、メンバー、またはファイルが描画される行。'
+    tree:
+      title: ツリー
+      description: レコードが互いに含まれるコレクションで、1レベルずつ読み込まれ、エクスプローラーが出荷するパネルで表示されます。
+    chat:
+      title: チャット
+      description: 逆順で読み取り、下から追加されるコレクションで、書かれていくにつれて成長する作曲者を持っています。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 데이터
+  page_icon: 'ph:bold/list-bullets'
+  intro: '컬렉션을 수집하고 렌더링하는 형태입니다. 이들을 구분짓는 것은 독자가 각 기록을 얼마나 볼 수 있는지, 그리고 그것을 보고 나서 무엇을 할 수 있는지입니다.'
+  page:
+    files:
+      title: 파일
+      description: '페이지 너비의 파일 탐색기로, 로더에 의해 제공되며, 서버에 의해 그려진 하나의 폴더입니다.'
+    tables:
+      title: 표
+      description: '서버에서 렌더링되거나 브라우저에 의해 페이지 매김된 행과 열, 링크, 작업, 아이콘 및 날짜가 포함된 타이핑된 셀로 구성됩니다.'
+    live:
+      title: 유지하기
+      description: '컬렉션이 보여주는 내용이 변경되었다는 것을 듣는 세 가지 방법 — 앱 이벤트, 라이브 소스 또는 폴링 — 그리고 각각의 용도입니다.'
+    lists:
+      title: 목록
+      description: '독자가 스캔하기보다는 탐색하는 세트를 위해 자체 헤더에서 검색 및 필터링되는 목록입니다.'
+    properties:
+      title: 속성
+      description: '여러 기록이 아닌 하나의 기록을 위한 키와 값 — 이미 선택된 항목의 세부 패널입니다.'
+    bars:
+      title: 바
+      description: '하나의 줄에 명명된 하나의 기록: 아이콘, 제목, 자격을 갖춘 것. 검색 결과, 구성원 또는 파일이 렌더링되는 행입니다.'
+    tree:
+      title: 트리
+      description: '각 기록이 서로 포함된 컬렉션으로, 한 번에 한 레벨씩 로드되며 탐색기가 제공하는 패널에 표시됩니다.'
+    chat:
+      title: 채팅
+      description: '거꾸로 읽고 아래에서 추가되는 컬렉션으로, 작성되면서 커지는 작곡기가 있습니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Gegevens
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Vormen die een verzameling nemen en deze weergeven. Wat hen onderscheidt is hoeveel van elk record de lezer te zien krijgt, en wat ze ermee kunnen doen zodra ze het zien.'
+  page:
+    files:
+      title: Bestanden
+      description: 'Een bestandsverkenner die de breedte van een pagina heeft, gevoed door een loader, en één map die door de server is getekend.'
+    tables:
+      title: Tabellen
+      description: 'Rijen en kolommen, server-gerenderd of gepagineerd door de browser, met getypte cellen — links, acties, pictogrammen en datums die blijven tellen.'
+    live:
+      title: Bijblijven
+      description: 'De drie manieren waarop een verzameling hoort dat wat het toont is veranderd — een app-event, een live bron, of polling — en wat elk daarvan doet.'
+    lists:
+      title: Lijsten
+      description: 'Een lijst die wordt doorzocht en gefilterd vanuit de eigen header, voor een set die een lezer doorbladert in plaats van scant.'
+    properties:
+      title: Eigenschappen
+      description: 'Sleutel en waarde, voor één record in plaats van veel — het detailpaneel van een al gekozen ding.'
+    bars:
+      title: Balken
+      description: 'Één record genoemd in één regel: een pictogram, een titel, wat het kwalificeert. De rij waarin een zoekresultaat, een lid of een bestand wordt weergegeven.'
+    tree:
+      title: Boom
+      description: 'Een verzameling waarvan de records elkaar bevatten, niveau voor niveau geladen, in het paneel dat een verkenner meelevert.'
+    chat:
+      title: Chat
+      description: 'Een verzameling die achteruit wordt gelezen en van onderaf wordt aangevuld, live, met een composer die groeit naarmate er in wordt geschreven.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dane
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Kształty, które przyjmują kolekcję i ją renderują. Co je różni, to ile danych z każdego rekordu widzi czytelnik i co może z nimi zrobić, gdy już je zobaczy.'
+  page:
+    files:
+      title: Pliki
+      description: 'Eksplorator plików o szerokości strony, zasilany loaderem i jednym folderem rysowanym przez serwer.'
+    tables:
+      title: Tabele
+      description: 'Wiersze i kolumny, renderowane przez serwer lub paginowane przez przeglądarkę, z typowanymi komórkami — linki, akcje, ikony oraz daty, które wciąż się liczą.'
+    live:
+      title: 'Na bieżąco'
+      description: 'Trzy sposoby, w jakie kolekcja dowiaduje się, że to, co pokazuje, uległo zmianie — zdarzenie aplikacji, źródło na żywo lub polling — i do czego służy każdy z nich.'
+    lists:
+      title: Listy
+      description: 'Lista, która jest przeszukiwana i filtrowana z własnego nagłówka, dla zestawu, który czytelnik przegląda, a nie skanuje.'
+    properties:
+      title: Właściwości
+      description: 'Klucz i wartość, dla jednego rekordu, a nie wielu — panel szczegółów wybranego elementu.'
+    bars:
+      title: Belki
+      description: 'Jeden rekord nazwany w pojedynczej linii: ikona, tytuł, co go kwalifikuje. Wiersz, w którym wynik wyszukiwania, członek lub plik jest renderowany.'
+    tree:
+      title: Drzewo
+      description: 'Kolekcja, której rekordy zawierają się nawzajem, ładowana poziomami, w panelu, w którym eksplorator się znajduje.'
+    chat:
+      title: Czat
+      description: 'Kolekcja czytana od tyłu i dodawana od dołu, na żywo, z kompozytorem, który rośnie w miarę pisania.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dados
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Formas que pegam uma coleção e a exibem. O que as diferencia é quanto de cada registro o leitor consegue ver e o que pode fazer com isso uma vez que vê.'
+  page:
+    files:
+      title: Arquivos
+      description: 'Um explorador de arquivos com a largura de uma página, alimentado por um carregador, e uma pasta desenhada pelo servidor.'
+    tables:
+      title: Tabelas
+      description: 'Linhas e colunas, renderizadas pelo servidor ou paginadas pelo navegador, com células tipadas — links, ações, ícones e datas que continuam a contar.'
+    live:
+      title: Acompanhando
+      description: 'As três maneiras que uma coleção percebe que o que exibe mudou — um evento do aplicativo, uma fonte ao vivo ou polling — e para que serve cada uma.'
+    lists:
+      title: Listas
+      description: 'Uma lista que é pesquisada e filtrada a partir de seu próprio cabeçalho, para um conjunto que o leitor navega em vez de escanear.'
+    properties:
+      title: Propriedades
+      description: 'Chave e valor, para um registro em vez de muitos — o painel de detalhes de uma coisa já escolhida.'
+    bars:
+      title: Barras
+      description: 'Um registro nomeado em uma única linha: um ícone, um título, o que o qualifica. A linha que um resultado de busca, um membro ou um arquivo é renderizado como.'
+    tree:
+      title: Árvore
+      description: 'Uma coleção cujos registros contêm uns aos outros, carregados um nível de cada vez, no painel que um explorador fornece.'
+    chat:
+      title: Chat
+      description: 'Uma coleção lida de trás para frente e adicionada de baixo para cima, ao vivo, com um compositor que cresce à medida que é escrito.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Данные
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Форматы, которые принимают коллекцию и отображают ее. Чем они отличаются, так это тем, сколько записей читатель может увидеть и что он может с ними сделать после просмотра.'
+  page:
+    files:
+      title: Файлы
+      description: 'Диспетчер файлов шириной в страницу, загружаемый с помощью загрузчика и с одной папкой, нарисованной сервером.'
+    tables:
+      title: Таблицы
+      description: 'Строки и столбцы, отрисованные сервером или разбитые на страницы браузером, с типизированными ячейками — ссылками, действиями, иконками и датами, которые продолжают отсчет.'
+    live:
+      title: 'Поддержание актуальности'
+      description: 'Три способа, которыми коллекция узнает, что ее содержимое изменилось — событие приложения, живой источник или опрос — и для чего каждый из них предназначен.'
+    lists:
+      title: Списки
+      description: 'Список, который ищется и фильтруется по своему заголовку, для набора, который читатель просматривает, а не сканирует.'
+    properties:
+      title: Свойства
+      description: 'Ключ и значение, для одной записи, а не многих — панель деталей уже выбранного объекта.'
+    bars:
+      title: Панели
+      description: 'Одна запись, представленная в одной строке: иконка, заголовок, что ее характеризует. Строка, в которой отображается результат поиска, участник или файл.'
+    tree:
+      title: Дерево
+      description: 'Коллекция, записи которой содержат друг друга, загружаемая по одному уровню за раз, в панели, которую поставляет исследователь.'
+    chat:
+      title: Чат
+      description: 'Коллекция, читаемая в обратном порядке и дополняемая снизу, в реальном времени, с композером, который растет по мере написания.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ข้อมูล
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'รูปแบบที่รวบรวมและแสดงข้อมูล สิ่งที่ทำให้แตกต่างคือจำนวนข้อมูลที่ผู้อ่านสามารถเห็นได้ และสิ่งที่พวกเขาสามารถทำได้เมื่อเห็นข้อมูลนั้น'
+  page:
+    files:
+      title: ไฟล์
+      description: 'โปรแกรมจัดการไฟล์ที่กว้างเท่าหน้า ถูกจัดทำโดยโหลดเดอร์ และโฟลเดอร์หนึ่งที่สร้างโดยเซิร์ฟเวอร์'
+    tables:
+      title: ตาราง
+      description: 'แถวและคอลัมน์ ที่สร้างโดยเซิร์ฟเวอร์หรือลงหน้าโดยเบราว์เซอร์ โดยมีเซลล์ที่มีประเภท — ลิงก์ การกระทำ ไอคอน และวันที่ที่ยังคงนับต่อไป'
+    live:
+      title: ติดตามข้อมูล
+      description: 'สามวิธีที่การรวบรวมข้อมูลทราบว่าข้อมูลที่แสดงมีการเปลี่ยนแปลง — เหตุการณ์ในแอป แหล่งข้อมูลสด หรือการตรวจสอบ — และแต่ละอย่างใช้ทำอะไร'
+    lists:
+      title: รายการ
+      description: 'รายการที่ค้นหาและกรองจากหัวข้อของตนเอง สำหรับชุดข้อมูลที่ผู้อ่านเรียกดูแทนที่จะสแกน'
+    properties:
+      title: คุณสมบัติ
+      description: 'คีย์และค่า สำหรับหนึ่งเรคคอร์ดแทนที่จะเป็นหลายๆ เรคคอร์ด — แผงรายละเอียดของสิ่งที่เลือกไว้แล้ว'
+    bars:
+      title: แถบ
+      description: 'เรคคอร์ดหนึ่งที่มีชื่อในบรรทัดเดียว: ไอคอน ชื่อ และสิ่งที่ทำให้มันมีคุณสมบัติ แถวที่แสดงผลการค้นหา สมาชิก หรือไฟล์'
+    tree:
+      title: ต้นไม้
+      description: 'การรวบรวมข้อมูลที่เรคคอร์ดมีเนื้อหาภายในกัน โหลดทีละระดับในแผงที่โปรแกรมสำรวจจัดส่งมา'
+    chat:
+      title: แชท
+      description: 'การรวบรวมข้อมูลที่อ่านย้อนกลับและเพิ่มจากด้านล่าง สด ด้วยตัวสร้างที่ขยายเมื่อเขียนเข้าไป'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Veri
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Bir koleksiyonu alan ve onu görüntüleyen şekiller. Onları ayıran şey, okuyucunun her kayıttan ne kadarını görebileceği ve gördükten sonra bununla ne yapabileceğidir.'
+  page:
+    files:
+      title: Dosyalar
+      description: 'Bir yükleyici tarafından beslenen ve sunucu tarafından oluşturulan bir klasör ile sayfa genişliğinde bir dosya gezgini.'
+    tables:
+      title: Tablolar
+      description: 'Satırlar ve sütunlar, sunucu tarafından oluşturulan veya tarayıcı tarafından sayfalara ayrılan, bağlantılar, eylemler, simgeler ve sürekli sayılan tarihler içeren yazılı hücrelerle.'
+    live:
+      title: 'Güncel kalmak'
+      description: 'Bir koleksiyonun gösterdiği şeyin değiştiğini duyduğu üç yol — bir uygulama olayı, bir canlı kaynak veya anket — ve her birinin ne için olduğu.'
+    lists:
+      title: Listeler
+      description: 'Kendi başlığından arama ve filtreleme yapılan bir liste, okuyucunun taradığı değil, göz gezdirdiği bir set için.'
+    properties:
+      title: Özellikler
+      description: 'Bir kayıt için anahtar ve değer, çoklu kayıtlar yerine — zaten seçilmiş bir şeyin detay paneli.'
+    bars:
+      title: Çubuklar
+      description: 'Tek bir satırda adlandırılan bir kayıt: bir simge, bir başlık, onu nitelendiren şey. Bir arama sonucunun, bir üyenin veya bir dosyanın oluşturulduğu satır.'
+    tree:
+      title: Ağaç
+      description: 'Kayıtlarının birbirini içerdiği bir koleksiyon, bir seferde bir seviye yüklenir, bir gezginin sunduğu panelde.'
+    chat:
+      title: Sohbet
+      description: 'Aşağıdan eklenen ve ters yönde okunan bir koleksiyon, yazıldıkça büyüyen bir bileşimci ile.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ڈیٹا
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'شکلیں جو ایک مجموعے کو لے کر اسے پیش کرتی ہیں۔ ان میں فرق یہ ہے کہ قارئین کو ہر ریکارڈ میں سے کتنا نظر آتا ہے، اور جب وہ اسے دیکھتے ہیں تو وہ اس کے ساتھ کیا کر سکتے ہیں۔'
+  page:
+    files:
+      title: فائلیں
+      description: 'ایک فائل ایکسپلورر جو صفحے کی چوڑائی میں ہے، ایک لوڈر سے چلایا جاتا ہے، اور ایک فولڈر سرور کی طرف سے بنایا گیا ہے۔'
+    tables:
+      title: ٹیبلز
+      description: 'قطاریں اور کالم، سرور کے ذریعے پیش کردہ یا براؤزر کے ذریعہ صفحات میں تقسیم، ٹائپ کردہ سیلز کے ساتھ - لنکس، کارروائیاں، آئکن اور تاریخیں جو گنتی میں رہتی ہیں۔'
+    live:
+      title: 'اپ ڈیٹ رہنا'
+      description: 'تین طریقے جن سے ایک مجموعہ جانتا ہے کہ جو وہ دکھاتا ہے وہ تبدیل ہو گیا ہے - ایک ایپ ایونٹ، ایک لائیو سورس، یا پولنگ - اور ہر ایک کا مقصد کیا ہے۔'
+    lists:
+      title: فہرستیں
+      description: 'ایک فہرست جو اپنی ہی ہیڈنگ سے تلاش کی جاتی ہے اور فلٹر کی جاتی ہے، ایک سیٹ کے لئے جسے قارئین براؤز کرتے ہیں نہ کہ اسکین کرتے ہیں۔'
+    properties:
+      title: خصوصیات
+      description: 'چابی اور قیمت، ایک ریکارڈ کے لئے نہ کہ کئی کے لئے - ایک چیز کے تفصیلات کا پینل جو پہلے ہی منتخب کی گئی ہے۔'
+    bars:
+      title: بارز
+      description: 'ایک ریکارڈ جس کا نام ایک ہی لائن میں ہے: ایک آئکن، ایک عنوان، جو اسے اہل بناتا ہے۔ جس قطار میں ایک تلاش کا نتیجہ، ایک رکن یا ایک فائل پیش کی جاتی ہے۔'
+    tree:
+      title: درخت
+      description: 'ایک مجموعہ جس کے ریکارڈ ایک دوسرے میں موجود ہوتے ہیں، ایک وقت میں ایک لیول لوڈ ہوتے ہیں، اس پینل میں جو ایک ایکسپلورر بھیجتا ہے۔'
+    chat:
+      title: چیٹ
+      description: 'ایک مجموعہ جو پیچھے کی طرف پڑھا جاتا ہے اور نیچے سے شامل کیا جاتا ہے، لائیو، ایک کمپوزر کے ساتھ جو لکھنے کے ساتھ بڑھتا ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dữ liệu'
+  page_icon: 'ph:bold/list-bullets'
+  intro: 'Các hình thức thu thập và hiển thị một bộ sưu tập. Điều phân biệt chúng là lượng thông tin mà người đọc có thể thấy từ mỗi bản ghi, và những gì họ có thể làm với nó sau khi nhìn thấy.'
+  page:
+    files:
+      title: Tệp
+      description: 'Một trình duyệt tệp rộng bằng một trang, được cung cấp bởi một trình tải, và một thư mục được vẽ bởi máy chủ.'
+    tables:
+      title: Bảng
+      description: 'Các hàng và cột, được máy chủ tạo ra hoặc phân trang bởi trình duyệt, với các ô có kiểu — liên kết, hành động, biểu tượng và ngày tháng liên tục đếm.'
+    live:
+      title: 'Cập nhật'
+      description: 'Ba cách mà một bộ sưu tập nhận biết rằng những gì nó hiển thị đã thay đổi — một sự kiện ứng dụng, một nguồn trực tiếp, hoặc polling — và mỗi cách này dùng để làm gì.'
+    lists:
+      title: 'Danh sách'
+      description: 'Một danh sách được tìm kiếm và lọc từ tiêu đề của nó, cho một bộ mà người đọc duyệt thay vì quét.'
+    properties:
+      title: 'Thuộc tính'
+      description: 'Khóa và giá trị, cho một bản ghi thay vì nhiều — bảng chi tiết của một thứ đã được chọn.'
+    bars:
+      title: Thanh
+      description: 'Một bản ghi được đặt tên trong một dòng: một biểu tượng, một tiêu đề, điều gì làm cho nó đủ điều kiện. Dòng mà một kết quả tìm kiếm, một thành viên hoặc một tệp được hiển thị.'
+    tree:
+      title: Cây
+      description: 'Một bộ sưu tập mà các bản ghi chứa lẫn nhau, được tải từng cấp một, trong bảng mà một trình khám phá cung cấp.'
+    chat:
+      title: 'Trò chuyện'
+      description: 'Một bộ sưu tập được đọc ngược và được thêm vào từ dưới lên, trực tiếp, với một trình soạn thảo phát triển khi nó được viết vào.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 数据
+  page_icon: 'ph:bold/list-bullets'
+  intro: 形状将集合呈现出来。它们的区别在于读者能看到每个记录的多少，以及一旦看到这些记录可以做什么。
+  page:
+    files:
+      title: 文件
+      description: 一个宽度为一页的文件浏览器，由加载器提供数据，并由服务器绘制一个文件夹。
+    tables:
+      title: 表格
+      description: 行和列，由服务器渲染或由浏览器分页，带有类型化单元格——链接、操作、图标和不断更新的日期。
+    live:
+      title: 保持更新
+      description: 集合得知其显示内容已更改的三种方式——应用事件、实时源或轮询——以及每种方式的用途。
+    lists:
+      title: 列表
+      description: 一个从自身标题中搜索和过滤的列表，供读者浏览而非扫描的集合。
+    properties:
+      title: 属性
+      description: 键和值，针对单个记录而非多个——已选择事物的详细面板。
+    bars:
+      title: 条形
+      description: 一条记录以单行命名：一个图标、一个标题、一个资格说明。搜索结果、成员或文件呈现的行。
+    tree:
+      title: 树
+      description: 一个包含彼此记录的集合，一次加载一个级别，在探索器提供的面板中显示。
+    chat:
+      title: 聊天
+      description: 一个从下往上逆序阅读并添加的集合，实时更新，带有一个随书写而增长的作曲器。

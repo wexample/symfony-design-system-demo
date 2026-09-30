@@ -1,6 +1,0 @@
-~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-page_title: 'نموذج Vue'
-page_icon: 'ph:bold/file-vue'
-section:
-  vue:
-    title: 'سلوك الإرسال (صفحة + نافذة منبثقة)'

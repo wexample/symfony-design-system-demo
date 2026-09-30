@@ -1,0 +1,833 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Dates
+  page_icon: ph:bold/clock
+
+  intro: "One vocabulary of format names, understood identically by Twig, by plain JavaScript and by Vue. The server prints a <time> carrying the instant and the format it was asked for; the browser picks it up and rewrites it as it ages, so a page left open never lies about how long ago something happened."
+
+  section:
+    formats:
+      title: Named formats
+      description: Absolute formats are ICU date and time styles, so the field order and the separators belong to the reader's locale rather than to the template.
+    relative:
+      title: Relative
+      description: The distance is counted in the largest unit that still says something — minutes up to an hour, hours up to a day, then days, weeks, months and years. Every wording comes from a translation key.
+    auto:
+      title: Auto
+      description: The default. Counts backwards while the date is recent, and falls back to a calendar date past a week, where "27 weeks ago" stops helping anyone.
+    live:
+      title: Kept up to date
+      description: A single timer serves every date on the page, at the cadence the displayed unit deserves — a few seconds for "just now", an hour for "3 months ago". Leave this page open and watch.
+    plain:
+      title: Text only
+      description: The filter returns a string with no markup, for a title attribute or an export. A format name it does not know is taken as a raw ICU pattern, which is the way out when the named formats do not have the shape you need.
+
+  offset:
+    now: A moment ago
+    minutes: Five minutes
+    hours: Three hours
+    days: Two days
+    months: Four months
+    years: Three years
+    future: In two hours
+
+  live:
+    server: Rendered by Twig, refreshed by the front service:
+    vue: Rendered by Vue:
+
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: "| date_format(\"EEEE d MMMM, 'week' w\")"
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التواريخ
+  page_icon: 'ph:bold/clock'
+  intro: 'مفردات لأسماء التنسيقات، مفهومة بشكل متطابق من قبل Twig وJavaScript العادية وVue. يقوم الخادم بطباعة <time> يحمل اللحظة والتنسيق المطلوب؛ يلتقطه المتصفح ويعيد كتابته مع تقدم الوقت، لذا فإن الصفحة التي تظل مفتوحة لا تكذب أبداً حول مدة حدوث شيء ما.'
+  section:
+    formats:
+      title: 'التنسيقات المسماة'
+      description: 'التنسيقات المطلقة هي أنماط التاريخ والوقت من ICU، لذا فإن ترتيب الحقول والفواصل تنتمي إلى لغة القارئ بدلاً من القالب.'
+    relative:
+      title: نسبي
+      description: 'تُحسب المسافة بأكبر وحدة لا تزال تعبر عن شيء — الدقائق حتى ساعة، الساعات حتى يوم، ثم الأيام، والأسابيع، والأشهر، والسنوات. تأتي كل عبارة من مفتاح ترجمة.'
+    auto:
+      title: تلقائي
+      description: 'الإعداد الافتراضي. يعد تنازلياً بينما يكون التاريخ حديثًا، ويتراجع إلى تاريخ تقويمي بعد أسبوع، حيث "منذ 27 أسبوعًا" لا تفيد أي شخص.'
+    live:
+      title: محدثة
+      description: 'يخدم مؤقت واحد كل تاريخ على الصفحة، بالوتيرة التي تستحقها الوحدة المعروضة — بضع ثوانٍ لـ"الآن"، وساعة لـ"منذ 3 أشهر". اترك هذه الصفحة مفتوحة وشاهد.'
+    plain:
+      title: 'نص فقط'
+      description: 'تُرجع الفلتر سلسلة نصية بلا تنسيق، لخاصية العنوان أو للتصدير. يتم أخذ اسم تنسيق لا يعرفه كنمط ICU خام، وهو طريق للخروج عندما لا تمتلك التنسيقات المسماة الشكل الذي تحتاجه.'
+  offset:
+    now: 'منذ لحظة'
+    minutes: 'خمس دقائق'
+    hours: 'ثلاث ساعات'
+    days: يومان
+    months: 'أربعة أشهر'
+    years: 'ثلاث سنوات'
+    future: 'في غضون ساعتين'
+  live:
+    server: 'مقدم بواسطة Twig، مُحدث بواسطة الخدمة الأمامية:'
+    vue: 'مقدم بواسطة Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''week'' w")'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: তারিখ
+  page_icon: 'ph:bold/clock'
+  intro: 'ফরম্যাট নামের একটি শব্দভাণ্ডার, যা Twig, সাধারণ JavaScript এবং Vue দ্বারা একইভাবে বোঝা যায়। সার্ভার একটি <time> মুদ্রণ করে যা মুহূর্ত এবং যে ফরম্যাটের জন্য এটি জিজ্ঞাসা করা হয় সেটি বহন করে; ব্রাউজার এটি গ্রহণ করে এবং এটি পুরনো হলে পুনরায় লেখে, তাই একটি পৃষ্ঠা খোলা রেখে কখনোই কিছু ঘটার সময় সম্পর্কে মিথ্যা বলে না।'
+  section:
+    formats:
+      title: 'নামকৃত ফরম্যাট'
+      description: 'অবশ্যই ফরম্যাটগুলি ICU তারিখ এবং সময় শৈলী, তাই ক্ষেত্রের অর্ডার এবং বিভাজকগুলির স্থানীয়তার উপর ভিত্তি করে, টেম্পলেটের পরিবর্তে।'
+    relative:
+      title: আপেক্ষিক
+      description: 'দূরত্ব সবচেয়ে বড় একক দ্বারা গণনা করা হয় যা এখনও কিছু বলে — মিনিট এক ঘণ্টা পর্যন্ত, ঘণ্টা এক দিন পর্যন্ত, তারপর দিন, সপ্তাহ, মাস এবং বছর। প্রতিটি শব্দ একটি অনুবাদ কী থেকে এসেছে।'
+    auto:
+      title: স্বয়ংক্রিয়
+      description: 'ডিফল্ট। তারিখটি সাম্প্রতিক থাকলে পিছনে গণনা করে, এবং এক সপ্তাহের পরে একটি ক্যালেন্ডার তারিখে ফিরে আসে, যেখানে "27 সপ্তাহ আগে" কারো জন্য সাহায্য করা বন্ধ করে।'
+    live:
+      title: 'আপডেট রাখা'
+      description: 'একটি একক টাইমার পৃষ্ঠায় প্রতিটি তারিখের জন্য কাজ করে, প্রদর্শিত এককের প্রাপ্যতার মধ্যে — "এখনই" জন্য কয়েক সেকেন্ড, "৩ মাস আগে" জন্য এক ঘণ্টা। এই পৃষ্ঠা খোলা রেখে দেখুন।'
+    plain:
+      title: 'শুধুমাত্র টেক্সট'
+      description: 'ফিল্টারটি কোন মার্কআপ ছাড়া একটি স্ট্রিং ফেরত দেয়, একটি শিরোনাম বৈশিষ্ট্য বা একটি রপ্তানির জন্য। একটি ফরম্যাট নাম এটি জানে না তা একটি কাঁচা ICU প্যাটার্ন হিসেবে গ্রহণ করা হয়, যা নামকৃত ফরম্যাটগুলি আপনার প্রয়োজনীয় আকার না হলে বেরিয়ে আসার উপায়।'
+  offset:
+    now: 'এক মিনিট আগে'
+    minutes: 'পাঁচ মিনিট'
+    hours: 'তিন ঘণ্টা'
+    days: 'দুই দিন'
+    months: 'চার মাস'
+    years: 'তিন বছর'
+    future: 'দুটি ঘণ্টা পর'
+  live:
+    server: 'Twig দ্বারা রেন্ডার করা, সামনের পরিষেবা দ্বারা রিফ্রেশ করা:'
+    vue: 'Vue দ্বারা রেন্ডার করা:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''সপ্তাহ'' w")'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Daten
+  page_icon: 'ph:bold/clock'
+  intro: 'Ein Vokabular von Formatnamen, das von Twig, von einfachem JavaScript und von Vue identisch verstanden wird. Der Server gibt ein <time> aus, das den Zeitpunkt und das angeforderte Format trägt; der Browser nimmt es auf und schreibt es um, während es älter wird, sodass eine offene Seite nie lügt, wie lange etwas her ist.'
+  section:
+    formats:
+      title: 'Benannte Formate'
+      description: 'Absolute Formate sind ICU-Daten- und Zeitstile, sodass die Feldreihenfolge und die Trennzeichen zur Sprache des Lesers gehören und nicht zur Vorlage.'
+    relative:
+      title: Relativ
+      description: 'Die Distanz wird in der größten Einheit gezählt, die noch etwas aussagt – Minuten bis zu einer Stunde, Stunden bis zu einem Tag, dann Tage, Wochen, Monate und Jahre. Jede Formulierung stammt aus einem Übersetzungsschlüssel.'
+    auto:
+      title: Automatisch
+      description: 'Der Standard. Zählt rückwärts, solange das Datum aktuell ist, und wechselt nach einer Woche zu einem Kalenderdatum, wo "vor 27 Wochen" niemandem mehr hilft.'
+    live:
+      title: 'Immer aktuell'
+      description: 'Ein einzelner Timer bedient jedes Datum auf der Seite, in dem Rhythmus, den die angezeigte Einheit verdient – ein paar Sekunden für "gerade jetzt", eine Stunde für "vor 3 Monaten". Lassen Sie diese Seite offen und beobachten Sie.'
+    plain:
+      title: 'Nur Text'
+      description: 'Der Filter gibt einen String ohne Markup zurück, für ein Titelattribut oder einen Export. Ein Formatnamen, den er nicht kennt, wird als rohes ICU-Muster genommen, was der Ausweg ist, wenn die benannten Formate nicht die Form haben, die Sie benötigen.'
+  offset:
+    now: 'Vor einem Moment'
+    minutes: 'Fünf Minuten'
+    hours: 'Drei Stunden'
+    days: 'Zwei Tage'
+    months: 'Vier Monate'
+    years: 'Drei Jahre'
+    future: 'In zwei Stunden'
+  live:
+    server: 'Gerendert von Twig, aktualisiert durch den Front-Service:'
+    vue: 'Gerendert von Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''Woche'' w")'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fechas
+  page_icon: 'ph:bold/clock'
+  intro: 'Un vocabulario de nombres de formato, entendido de manera idéntica por Twig, por JavaScript puro y por Vue. El servidor imprime un <time> que lleva el instante y el formato que se le pidió; el navegador lo recoge y lo reescribe a medida que envejece, así que una página dejada abierta nunca miente sobre cuánto tiempo ha pasado desde que ocurrió algo.'
+  section:
+    formats:
+      title: 'Formatos nombrados'
+      description: 'Los formatos absolutos son estilos de fecha y hora de ICU, por lo que el orden de los campos y los separadores pertenecen a la localidad del lector en lugar de al template.'
+    relative:
+      title: Relativo
+      description: 'La distancia se cuenta en la unidad más grande que aún dice algo: minutos hasta una hora, horas hasta un día, luego días, semanas, meses y años. Cada redacción proviene de una clave de traducción.'
+    auto:
+      title: Automático
+      description: 'El predeterminado. Cuenta hacia atrás mientras la fecha es reciente y retrocede a una fecha del calendario después de una semana, donde "hace 27 semanas" deja de ayudar a alguien.'
+    live:
+      title: Actualizado
+      description: 'Un solo temporizador sirve para cada fecha en la página, a la cadencia que la unidad mostrada merece: unos pocos segundos para "justo ahora", una hora para "hace 3 meses". Deja esta página abierta y observa.'
+    plain:
+      title: 'Solo texto'
+      description: 'El filtro devuelve una cadena sin marcado, para un atributo de título o una exportación. Un nombre de formato que no conoce se toma como un patrón ICU en crudo, que es la salida cuando los formatos nombrados no tienen la forma que necesitas.'
+  offset:
+    now: 'Hace un momento'
+    minutes: 'Cinco minutos'
+    hours: 'Tres horas'
+    days: 'Dos días'
+    months: 'Cuatro meses'
+    years: 'Tres años'
+    future: 'En dos horas'
+  live:
+    server: 'Renderizado por Twig, actualizado por el servicio frontal:'
+    vue: 'Renderizado por Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''semana'' w")'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تاریخ‌ها
+  page_icon: 'ph:bold/clock'
+  intro: 'یک واژگان از نام‌های فرمت که به طور مشابه توسط Twig، جاوا اسکریپت ساده و Vue درک می‌شود. سرور یک <time> را چاپ می‌کند که لحظه و فرمت درخواست شده را حمل می‌کند؛ مرورگر آن را دریافت کرده و با گذشت زمان بازنویسی می‌کند، بنابراین یک صفحه باز شده هرگز درباره زمان وقوع یک رویداد دروغ نمی‌گوید.'
+  section:
+    formats:
+      title: 'فرمت‌های نام‌دار'
+      description: 'فرمت‌های مطلق، سبک‌های تاریخ و زمان ICU هستند، بنابراین ترتیب فیلدها و جداکننده‌ها به محلی که خواننده در آن قرار دارد تعلق دارد نه به الگو.'
+    relative:
+      title: نسبی
+      description: 'فاصله در بزرگ‌ترین واحدی شمرده می‌شود که هنوز معنی دارد — دقیقه‌ها تا یک ساعت، ساعت‌ها تا یک روز، سپس روزها، هفته‌ها، ماه‌ها و سال‌ها. هر واژه‌ای از یک کلید ترجمه می‌آید.'
+    auto:
+      title: خودکار
+      description: 'پیش‌فرض. در حالی که تاریخ جدید است به عقب شماری می‌کند و بعد از یک هفته به یک تاریخ تقویمی باز می‌گردد، جایی که "27 هفته پیش" دیگر به کسی کمکی نمی‌کند.'
+    live:
+      title: 'به‌روز نگه‌داری شده'
+      description: 'یک تایمر واحد برای هر تاریخ در صفحه خدمت می‌کند، با ریتمی که واحد نمایش داده شده شایسته آن است — چند ثانیه برای "همین حالا"، یک ساعت برای "3 ماه پیش". این صفحه را باز بگذارید و تماشا کنید.'
+    plain:
+      title: 'فقط متن'
+      description: 'فیلتر یک رشته بدون نشانه‌گذاری برمی‌گرداند، برای یک ویژگی عنوان یا یک خروجی. نام فرمت که نمی‌شناسد به عنوان یک الگوی خام ICU گرفته می‌شود، که این راه‌حل زمانی است که فرمت‌های نام‌دار شکلی که نیاز دارید را ندارند.'
+  offset:
+    now: 'لحظه‌ای پیش'
+    minutes: 'پنج دقیقه'
+    hours: 'سه ساعت'
+    days: 'دو روز'
+    months: 'چهار ماه'
+    years: 'سه سال'
+    future: 'در دو ساعت'
+  live:
+    server: 'توسط Twig رندر شده، توسط سرویس جلو به‌روز شده:'
+    vue: 'توسط Vue رندر شده:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''week'' w")'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Päivät
+  page_icon: 'ph:bold/clock'
+  intro: 'Sanasto formaattien nimistä, jota Twig, tavallinen JavaScript ja Vue ymmärtävät identtisesti. Palvelin tulostaa <time>, joka sisältää hetken ja pyydetyn formaattiluettelon; selain ottaa sen vastaan ja kirjoittaa sen uudelleen ajan myötä, joten avoinna oleva sivu ei valehtele siitä, kuinka kauan sitten jokin tapahtui.'
+  section:
+    formats:
+      title: 'Nimitetyt formaatit'
+      description: 'Absoluuttiset formaatit ovat ICU:n päivämäärä- ja aikatyylejä, joten kenttäjärjestys ja erottimet kuuluvat lukijan paikalliseen käytäntöön, ei malliin.'
+    relative:
+      title: Suhteellinen
+      description: 'Etäisyys lasketaan suurimmassa yksikössä, joka yhä kertoo jotain — minuutteina tunnin verran, tunteina päivän verran, sitten päivinä, viikkoina, kuukausina ja vuosina. Jokainen sanamuoto tulee käännöksen avaimesta.'
+    auto:
+      title: Automaattinen
+      description: 'Oletusarvo. Laskee taaksepäin, kun päivämäärä on tuore, ja siirtyy kalenteripäivämäärään viikon kuluttua, jolloin "27 viikkoa sitten" ei enää auta ketään.'
+    live:
+      title: Ajantasainen
+      description: 'Yksi ajastin palvelee jokaista päivämäärää sivulla, niin kuin näytettävä yksikkö ansaitsee — muutama sekunti "juuri nyt", tunti "3 kuukautta sitten". Jätä tämä sivu auki ja seuraa.'
+    plain:
+      title: 'Vain teksti'
+      description: 'Suodatin palauttaa merkkijonon ilman muotoilua, esimerkiksi otsikkotietoa tai vientiä varten. Formaattinimi, jota se ei tunne, käsitellään raakana ICU-mallina, mikä on keino, kun nimitetyt formaatit eivät ole haluamassasi muodossa.'
+  offset:
+    now: 'Hetki sitten'
+    minutes: 'Viisi minuuttia'
+    hours: 'Kolme tuntia'
+    days: 'Kaksi päivää'
+    months: 'Neljä kuukautta'
+    years: 'Kolme vuotta'
+    future: 'Kahden tunnin kuluttua'
+  live:
+    server: 'Renderöity Twigillä, päivitetty etupalvelun toimesta:'
+    vue: 'Renderöity Vue:lla:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''viikko'' w")'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dates
+  page_icon: 'ph:bold/clock'
+  intro: "Un vocabulaire de noms de formats, compris de manière identique par Twig, par JavaScript pur et par Vue. Le serveur imprime un <time> portant l'instant et le format demandé ; le navigateur le récupère et le réécrit au fur et à mesure qu'il vieillit, de sorte qu'une page laissée ouverte ne mente jamais sur le temps écoulé depuis qu'un événement s'est produit."
+  section:
+    formats:
+      title: 'Formats nommés'
+      description: "Les formats absolus sont des styles de date et d'heure ICU, donc l'ordre des champs et les séparateurs appartiennent à la locale du lecteur plutôt qu'au modèle."
+    relative:
+      title: Relatif
+      description: "La distance est comptée dans la plus grande unité qui a encore un sens — minutes jusqu'à une heure, heures jusqu'à un jour, puis jours, semaines, mois et années. Chaque formulation provient d'une clé de traduction."
+    auto:
+      title: Automatique
+      description: 'La valeur par défaut. Compte à rebours tant que la date est récente, et revient à une date calendaire après une semaine, où "il y a 27 semaines" cesse d''aider qui que ce soit.'
+    live:
+      title: 'Mis à jour'
+      description: 'Un seul minuteur sert chaque date sur la page, au rythme que l''unité affichée mérite — quelques secondes pour "juste maintenant", une heure pour "il y a 3 mois". Laissez cette page ouverte et regardez.'
+    plain:
+      title: 'Texte uniquement'
+      description: "Le filtre renvoie une chaîne sans balisage, pour un attribut de titre ou une exportation. Un nom de format qu'il ne connaît pas est pris comme un motif ICU brut, ce qui est la solution lorsque les formats nommés n'ont pas la forme dont vous avez besoin."
+  offset:
+    now: 'Il y a un moment'
+    minutes: 'Cinq minutes'
+    hours: 'Trois heures'
+    days: 'Deux jours'
+    months: 'Quatre mois'
+    years: 'Trois ans'
+    future: 'Dans deux heures'
+  live:
+    server: 'Rendu par Twig, actualisé par le service frontal :'
+    vue: 'Rendu par Vue :'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''semaine'' w")'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: תאריכים
+  page_icon: 'ph:bold/clock'
+  intro: 'אוצר מילים של שמות פורמטים, המובן באופן זהה על ידי Twig, על ידי JavaScript רגיל ועל ידי Vue. השרת מדפיס <time> הנושא את הרגע ואת הפורמט שביקשו; הדפדפן תופס אותו ומחדש אותו ככל שהוא מתיישן, כך שדף שנשאר פתוח לעולם לא משקר לגבי כמה זמן עבר מאז שקרה משהו.'
+  section:
+    formats:
+      title: 'פורמטים שמיים'
+      description: 'פורמטים מוחלטים הם סגנונות תאריך ושעה של ICU, ולכן סדר השדות והמפרידים שייכים לאזור השפה של הקורא ולא לתבנית.'
+    relative:
+      title: יחסי
+      description: 'המרחק נמדד ביחידה הגדולה ביותר שא仍 אומרת משהו — דקות עד שעה, שעות עד יום, ואז ימים, שבועות, חודשים ושנים. כל ניסוח מגיע ממפתח תרגום.'
+    auto:
+      title: אוטומטי
+      description: 'הברירת מחדל. סופר אחורה בזמן שהתאריך עדכני, ונופל לתאריך לוח לאחר שבוע, שבו "לפני 27 שבועות" מפסיק לעזור לאף אחד.'
+    live:
+      title: 'מתעדכן בזמן אמת'
+      description: 'טיימר אחד משרת כל תאריך בדף, בקצב שהיחידה המוצגת ראויה לו — מספר שניות ל"עכשיו", שעה ל"לפני 3 חודשים". השאר את הדף הזה פתוח וצפה.'
+    plain:
+      title: 'רק טקסט'
+      description: 'הפילטר מחזיר מחרוזת ללא סמלים, לשימוש בתכונה של כותרת או לייצוא. שם פורמט שהוא לא מכיר נלקח כפטטר גולמי של ICU, שזה הפתרון כשפורמטים שמיים אין להם את הצורה שאתה צריך.'
+  offset:
+    now: 'רגע לפני'
+    minutes: 'חמש דקות'
+    hours: 'שלוש שעות'
+    days: יומיים
+    months: 'ארבעה חודשים'
+    years: 'שלוש שנים'
+    future: 'בעוד שעתיים'
+  live:
+    server: 'מוצג על ידי Twig, מתעדכן על ידי השירות הקדמי:'
+    vue: 'מוצג על ידי Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''שבוע'' w")'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: तारीखें
+  page_icon: 'ph:bold/घड़ी'
+  intro: 'फॉर्मेट नामों का एक शब्दावली, जिसे Twig, सामान्य JavaScript और Vue द्वारा समान रूप से समझा जाता है। सर्वर एक <time> प्रिंट करता है जो उस क्षण और फॉर्मेट को दर्शाता है जिसके लिए इसे पूछा गया था; ब्राउज़र इसे उठाता है और जैसे-जैसे यह पुराना होता है, इसे फिर से लिखता है, इसलिए एक खुला पृष्ठ कभी यह नहीं कहता कि कुछ कितनी देर पहले हुआ।'
+  section:
+    formats:
+      title: 'नामित फॉर्मेट'
+      description: 'पूर्ण फॉर्मेट ICU तिथि और समय शैलियों हैं, इसलिए फ़ील्ड का क्रम और विभाजक पाठक की स्थानीयता से संबंधित होते हैं न कि टेम्पलेट से।'
+    relative:
+      title: सापेक्ष
+      description: 'दूरी सबसे बड़ी इकाई में गिनी जाती है जो अभी भी कुछ कहती है - मिनट एक घंटे तक, घंटे एक दिन तक, फिर दिन, सप्ताह, महीने और वर्ष। हर शब्दावली एक अनुवाद कुंजी से आती है।'
+    auto:
+      title: स्वचालित
+      description: 'डिफ़ॉल्ट। जब तिथि हाल की होती है तो पीछे की ओर गिनता है, और एक सप्ताह के बाद कैलेंडर तिथि पर वापस चला जाता है, जहाँ "27 सप्ताह पहले" किसी की मदद नहीं करता।'
+    live:
+      title: 'अपडेट रखा गया'
+      description: 'एकल टाइमर पृष्ठ पर हर तिथि के लिए काम करता है, जिस गति से प्रदर्शित इकाई की आवश्यकता होती है - "अभी" के लिए कुछ सेकंड, "3 महीने पहले" के लिए एक घंटा। इस पृष्ठ को खुला छोड़ें और देखें।'
+    plain:
+      title: 'केवल पाठ'
+      description: 'फिल्टर बिना किसी मार्कअप के एक स्ट्रिंग लौटाता है, एक शीर्षक विशेषता या एक निर्यात के लिए। एक फॉर्मेट नाम जिसे वह नहीं जानता उसे एक कच्चे ICU पैटर्न के रूप में लिया जाता है, जो तब है जब नामित फॉर्मेट में वह आकार नहीं होता जो आपको चाहिए।'
+  offset:
+    now: 'कुछ समय पहले'
+    minutes: 'पाँच मिनट'
+    hours: 'तीन घंटे'
+    days: 'दो दिन'
+    months: 'चार महीने'
+    years: 'तीन वर्ष'
+    future: 'दो घंटों में'
+  live:
+    server: 'Twig द्वारा रेंडर किया गया, फ्रंट सेवा द्वारा ताज़ा किया गया:'
+    vue: 'Vue द्वारा रेंडर किया गया:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''week'' w")'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tanggal
+  page_icon: 'ph:bold/clock'
+  intro: 'Sebuah kosakata nama format, dipahami secara identik oleh Twig, oleh JavaScript biasa dan oleh Vue. Server mencetak sebuah <time> yang membawa momen dan format yang diminta; browser mengambilnya dan menulis ulang seiring bertambahnya usia, sehingga halaman yang ditinggalkan terbuka tidak pernah berbohong tentang berapa lama sesuatu terjadi.'
+  section:
+    formats:
+      title: 'Format yang dinamai'
+      description: 'Format absolut adalah gaya tanggal dan waktu ICU, jadi urutan bidang dan pemisah tergantung pada lokal pembaca daripada pada templat.'
+    relative:
+      title: Relatif
+      description: 'Jarak dihitung dalam unit terbesar yang masih bermakna — menit hingga satu jam, jam hingga satu hari, kemudian hari, minggu, bulan, dan tahun. Setiap ungkapan berasal dari kunci terjemahan.'
+    auto:
+      title: Otomatis
+      description: 'Default. Menghitung mundur saat tanggal masih baru, dan beralih ke tanggal kalender setelah seminggu, di mana "27 minggu yang lalu" tidak lagi membantu siapa pun.'
+    live:
+      title: 'Selalu terbarui'
+      description: 'Sebuah timer tunggal melayani setiap tanggal di halaman, dengan ritme yang layak untuk unit yang ditampilkan — beberapa detik untuk "baru saja sekarang", satu jam untuk "3 bulan yang lalu". Tinggalkan halaman ini terbuka dan saksikan.'
+    plain:
+      title: 'Hanya teks'
+      description: 'Filter mengembalikan string tanpa markup, untuk atribut judul atau ekspor. Nama format yang tidak dikenalnya dianggap sebagai pola ICU mentah, yang merupakan cara keluar ketika format yang dinamai tidak memiliki bentuk yang Anda butuhkan.'
+  offset:
+    now: 'Beberapa saat yang lalu'
+    minutes: 'Lima menit'
+    hours: 'Tiga jam'
+    days: 'Dua hari'
+    months: 'Empat bulan'
+    years: 'Tiga tahun'
+    future: 'Dalam dua jam'
+  live:
+    server: 'Dirender oleh Twig, diperbarui oleh layanan depan:'
+    vue: 'Dirender oleh Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''minggu'' w")'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Date
+  page_icon: 'ph:bold/clock'
+  intro: "Un vocabolario di nomi di formato, compreso in modo identico da Twig, da JavaScript semplice e da Vue. Il server stampa un <time> che riporta l'istante e il formato richiesto; il browser lo raccoglie e lo riscrive man mano che invecchia, quindi una pagina lasciata aperta non mente mai su quanto tempo fa sia accaduto qualcosa."
+  section:
+    formats:
+      title: 'Formati nominati'
+      description: "I formati assoluti sono stili di data e ora ICU, quindi l'ordine dei campi e i separatori appartengono alla localizzazione del lettore piuttosto che al template."
+    relative:
+      title: Relativo
+      description: "La distanza è calcolata nella più grande unità che ha ancora un significato — minuti fino a un'ora, ore fino a un giorno, poi giorni, settimane, mesi e anni. Ogni formulazione proviene da una chiave di traduzione."
+    auto:
+      title: Automatico
+      description: 'Il predefinito. Conta a ritroso mentre la data è recente, e torna a una data del calendario dopo una settimana, dove "27 settimane fa" smette di essere utile.'
+    live:
+      title: 'Aggiornato in tempo reale'
+      description: 'Un singolo timer serve ogni data sulla pagina, con la cadenza che l''unità mostrata merita — alcuni secondi per "appena ora", un''ora per "3 mesi fa". Lascia questa pagina aperta e osserva.'
+    plain:
+      title: 'Solo testo'
+      description: "Il filtro restituisce una stringa senza markup, per un attributo title o un'esportazione. Un nome di formato che non conosce viene trattato come un modello ICU grezzo, che è la soluzione quando i formati nominati non hanno la forma di cui hai bisogno."
+  offset:
+    now: 'Un momento fa'
+    minutes: 'Cinque minuti'
+    hours: 'Tre ore'
+    days: 'Due giorni'
+    months: 'Quattro mesi'
+    years: 'Tre anni'
+    future: 'Tra due ore'
+  live:
+    server: 'Renderizzato da Twig, aggiornato dal servizio frontale:'
+    vue: 'Renderizzato da Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''settimana'' w")'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 日付
+  page_icon: 'ph:bold/clock'
+  intro: Twig、プレーンJavaScript、Vueによって同じように理解されるフォーマット名の語彙です。サーバーは瞬時と要求されたフォーマットを含む<time>を出力し、ブラウザはそれを受け取り、時間が経つにつれて書き換えます。そのため、開いたままのページは、何かがいつ起こったかについて嘘をつくことはありません。
+  section:
+    formats:
+      title: 名前付きフォーマット
+      description: 絶対フォーマットはICUの日付と時間のスタイルであり、フィールドの順序と区切りはテンプレートではなく、読者のロケールに属します。
+    relative:
+      title: 相対的
+      description: '距離は、まだ何かを示す最大の単位で計算されます — 分は1時間まで、時間は1日まで、その後は日、週、月、年です。すべての表現は翻訳キーから来ています。'
+    auto:
+      title: 自動
+      description: デフォルトです。日付が最近である限りカウントダウンし、1週間を過ぎるとカレンダーの日付にフォールバックします。「27週間前」では誰の役にも立ちません。
+    live:
+      title: 最新情報を維持
+      description: '単一のタイマーがページ上のすべての日付にサービスを提供し、表示される単位にふさわしいペースで動作します — 「今すぐ」の場合は数秒、「3ヶ月前」の場合は1時間です。このページを開いたままにして、見守ってください。'
+    plain:
+      title: テキストのみ
+      description: フィルターはマークアップのない文字列を返し、タイトル属性やエクスポートに使用します。知らないフォーマット名は、生のICUパターンとして扱われ、必要な形が名前付きフォーマットにない場合の逃げ道となります。
+  offset:
+    now: 少し前
+    minutes: 5分前
+    hours: 3時間前
+    days: 2日前
+    months: 4ヶ月前
+    years: 3年前
+    future: 2時間後
+  live:
+    server: Twigによってレンダリングされ、フロントサービスによって更新されます：
+    vue: Vueによってレンダリングされます：
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''week'' w")'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 날짜
+  page_icon: 'ph:bold/clock'
+  intro: 'Twig, 일반 JavaScript 및 Vue에서 동일하게 이해되는 형식 이름의 어휘입니다. 서버는 요청된 즉시와 형식을 담은 <time>을 출력하고, 브라우저는 이를 수집하여 시간이 지남에 따라 다시 작성하므로, 열린 페이지는 무언가가 얼마나 오래 전에 발생했는지를 거짓으로 말하지 않습니다.'
+  section:
+    formats:
+      title: '명명된 형식'
+      description: '절대 형식은 ICU 날짜 및 시간 스타일이므로, 필드 순서와 구분 기호는 템플릿이 아닌 독자의 로케일에 속합니다.'
+    relative:
+      title: 상대적
+      description: '거리는 여전히 의미를 갖는 가장 큰 단위로 계산됩니다 — 분은 한 시간까지, 시간은 하루까지, 그 다음은 일, 주, 월, 연도입니다. 모든 문구는 번역 키에서 나옵니다.'
+    auto:
+      title: 자동
+      description: '기본값입니다. 날짜가 최근일 때는 과거로 계산하고, 일주일이 지나면 달력 날짜로 돌아가며, "27주 전"은 더 이상 도움이 되지 않습니다.'
+    live:
+      title: '실시간 업데이트'
+      description: '단일 타이머가 페이지의 모든 날짜에 서비스를 제공하며, 표시되는 단위에 맞는 주기로 작동합니다 — "방금"은 몇 초, "3개월 전"은 한 시간입니다. 이 페이지를 열어 두고 지켜보세요.'
+    plain:
+      title: 텍스트만
+      description: '필터는 제목 속성이나 내보내기를 위한 마크업 없는 문자열을 반환합니다. 알지 못하는 형식 이름은 원시 ICU 패턴으로 처리되며, 이는 명명된 형식이 필요로 하는 형태가 아닐 때의 해결책입니다.'
+  offset:
+    now: '방금 전'
+    minutes: '5분 전'
+    hours: '3시간 전'
+    days: '2일 전'
+    months: '4개월 전'
+    years: '3년 전'
+    future: '2시간 후'
+  live:
+    server: 'Twig에 의해 렌더링되고, 프론트 서비스에 의해 새로 고쳐짐:'
+    vue: 'Vue에 의해 렌더링됨:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''주'' w")'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Data
+  page_icon: 'ph:bold/clock'
+  intro: 'Een vocabulaire van formaten die identiek worden begrepen door Twig, door gewone JavaScript en door Vue. De server print een <time> met het moment en het format dat gevraagd is; de browser pakt het op en herschrijft het naarmate het veroudert, zodat een geopende pagina nooit liegt over hoe lang geleden iets gebeurde.'
+  section:
+    formats:
+      title: 'Genoemde formaten'
+      description: 'Absolute formaten zijn ICU datum- en tijdstijlen, dus de volgorde van velden en de scheidingstekens behoren tot de locale van de lezer in plaats van tot de template.'
+    relative:
+      title: Relatief
+      description: 'De afstand wordt geteld in de grootste eenheid die nog iets zegt — minuten tot een uur, uren tot een dag, daarna dagen, weken, maanden en jaren. Elke formulering komt uit een vertalingssleutel.'
+    auto:
+      title: Automatisch
+      description: 'De standaard. Telt achteruit terwijl de datum recent is, en valt terug op een kalenderdatum na een week, waar "27 weken geleden" niemand meer helpt.'
+    live:
+      title: 'Altijd up-to-date'
+      description: 'Een enkele timer dient elke datum op de pagina, met de cadans die de weergegeven eenheid verdient — een paar seconden voor "net nu", een uur voor "3 maanden geleden". Laat deze pagina open en kijk.'
+    plain:
+      title: 'Alleen tekst'
+      description: 'De filter retourneert een string zonder opmaak, voor een titelattribuut of een export. Een formatnaam die het niet kent, wordt genomen als een ruwe ICU-patroon, wat de uitweg is wanneer de genoemde formaten niet de vorm hebben die je nodig hebt.'
+  offset:
+    now: 'Een moment geleden'
+    minutes: 'Vijf minuten'
+    hours: 'Drie uur'
+    days: 'Twee dagen'
+    months: 'Vier maanden'
+    years: 'Drie jaar'
+    future: 'Over twee uur'
+  live:
+    server: 'Gerenderd door Twig, ververst door de frontservice:'
+    vue: 'Gerenderd door Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''week'' w")'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Daty
+  page_icon: 'ph:bold/clock'
+  intro: 'Jedno słownictwo nazw formatów, rozumiane identycznie przez Twig, czysty JavaScript oraz Vue. Serwer drukuje <time> zawierający moment oraz format, o który proszono; przeglądarka przechwytuje to i przekształca w miarę upływu czasu, więc strona pozostawiona otwarta nigdy nie kłamie o tym, jak dawno coś się wydarzyło.'
+  section:
+    formats:
+      title: 'Nazwane formaty'
+      description: 'Formaty absolutne to style daty i czasu ICU, więc kolejność pól i separatory należą do lokalizacji użytkownika, a nie do szablonu.'
+    relative:
+      title: Relatywne
+      description: 'Odległość jest liczona w największej jednostce, która wciąż ma znaczenie — minuty do godziny, godziny do dnia, a potem dni, tygodnie, miesiące i lata. Każde sformułowanie pochodzi z klucza tłumaczenia.'
+    auto:
+      title: Automatyczne
+      description: 'Domyślnie. Liczy wstecz, gdy data jest niedawna, i przechodzi na datę kalendarzową po tygodniu, gdzie "27 tygodni temu" przestaje być pomocne.'
+    live:
+      title: 'Na bieżąco'
+      description: 'Jeden timer obsługuje każdą datę na stronie, w rytmie, który zasługuje na wyświetlaną jednostkę — kilka sekund dla "właśnie teraz", godzinę dla "3 miesiące temu". Pozostaw tę stronę otwartą i obserwuj.'
+    plain:
+      title: 'Tylko tekst'
+      description: 'Filtr zwraca ciąg bez znaczników, do atrybutu tytułu lub eksportu. Nazwa formatu, której nie zna, traktowana jest jako surowy wzór ICU, co jest rozwiązaniem, gdy nazwanie formaty nie mają potrzebnego kształtu.'
+  offset:
+    now: 'Chwilę temu'
+    minutes: 'Pięć minut'
+    hours: 'Trzy godziny'
+    days: 'Dwa dni'
+    months: 'Cztery miesiące'
+    years: 'Trzy lata'
+    future: 'Za dwie godziny'
+  live:
+    server: 'Renderowane przez Twig, odświeżane przez usługę frontową:'
+    vue: 'Renderowane przez Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''tydzień'' w")'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Datas
+  page_icon: 'ph:bold/clock'
+  intro: 'Um vocabulário de nomes de formatos, compreendido da mesma forma pelo Twig, por JavaScript puro e pelo Vue. O servidor imprime um <time> com o instante e o formato solicitado; o navegador o capta e o reescreve conforme envelhece, de modo que uma página deixada aberta nunca mente sobre quanto tempo faz que algo ocorreu.'
+  section:
+    formats:
+      title: 'Formatos nomeados'
+      description: 'Formatos absolutos são estilos de data e hora do ICU, portanto, a ordem dos campos e os separadores pertencem à localidade do leitor, e não ao template.'
+    relative:
+      title: Relativo
+      description: 'A distância é contada na maior unidade que ainda diz algo — minutos até uma hora, horas até um dia, depois dias, semanas, meses e anos. Cada wording vem de uma chave de tradução.'
+    auto:
+      title: Automático
+      description: 'O padrão. Conta para trás enquanto a data é recente e volta para uma data do calendário após uma semana, onde "27 semanas atrás" deixa de ajudar alguém.'
+    live:
+      title: 'Atualizado em tempo real'
+      description: 'Um único temporizador serve para cada data na página, na cadência que a unidade exibida merece — alguns segundos para "agora mesmo", uma hora para "3 meses atrás". Deixe esta página aberta e observe.'
+    plain:
+      title: 'Apenas texto'
+      description: 'O filtro retorna uma string sem formatação, para um atributo de título ou uma exportação. Um nome de formato que ele não conhece é tratado como um padrão ICU bruto, que é a saída quando os formatos nomeados não têm a forma que você precisa.'
+  offset:
+    now: 'Há pouco tempo'
+    minutes: 'Cinco minutos'
+    hours: 'Três horas'
+    days: 'Dois dias'
+    months: 'Quatro meses'
+    years: 'Três anos'
+    future: 'Daqui a duas horas'
+  live:
+    server: 'Renderizado pelo Twig, atualizado pelo serviço frontal:'
+    vue: 'Renderizado pelo Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''semana'' w")'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Даты
+  page_icon: 'ph:bold/clock'
+  intro: 'Один словарь форматов названий, понятный одинаково как для Twig, так и для чистого JavaScript и Vue. Сервер выводит <time>, указывая момент времени и формат, который был запрошен; браузер подбирает его и обновляет по мере старения, так что открытая страница никогда не врет о том, сколько времени прошло с момента события.'
+  section:
+    formats:
+      title: 'Названные форматы'
+      description: 'Абсолютные форматы — это стили даты и времени ICU, поэтому порядок полей и разделители зависят от локали читателя, а не от шаблона.'
+    relative:
+      title: Относительные
+      description: 'Расстояние считается в самой крупной единице, которая все еще имеет значение — минуты до часа, часы до дня, затем дни, недели, месяцы и годы. Каждая формулировка берется из ключа перевода.'
+    auto:
+      title: Авто
+      description: 'По умолчанию. Считает назад, пока дата свежая, и переходит на календарную дату после недели, когда "27 недель назад" перестает иметь смысл.'
+    live:
+      title: Актуально
+      description: 'Один таймер обслуживает каждую дату на странице с частотой, соответствующей отображаемой единице — несколько секунд для "только что", час для "3 месяца назад". Оставьте эту страницу открытой и смотрите.'
+    plain:
+      title: 'Только текст'
+      description: 'Фильтр возвращает строку без разметки, для атрибута title или экспорта. Незнакомое название формата принимается за сырой шаблон ICU, что является выходом, когда названные форматы не имеют нужного вам вида.'
+  offset:
+    now: 'Момент назад'
+    minutes: 'Пять минут'
+    hours: 'Три часа'
+    days: 'Два дня'
+    months: 'Четыре месяца'
+    years: 'Три года'
+    future: 'Через два часа'
+  live:
+    server: 'Сгенерировано Twig, обновлено фронт-сервисом:'
+    vue: 'Сгенерировано Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''неделя'' w")'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: วันที่
+  page_icon: 'ph:bold/clock'
+  intro: 'คำศัพท์ที่เกี่ยวกับรูปแบบวันที่ ซึ่งเข้าใจได้เหมือนกันทั้งใน Twig, JavaScript ปกติ และ Vue. เซิร์ฟเวอร์พิมพ์ <time> ที่บรรจุช่วงเวลาและรูปแบบที่ถูกขอ; เว็บเบราว์เซอร์จะรับมันและเขียนใหม่เมื่อเวลาผ่านไป ดังนั้นหน้าเว็บที่เปิดอยู่จะไม่โกหกว่าเหตุการณ์เกิดขึ้นนานแค่ไหน'
+  section:
+    formats:
+      title: รูปแบบที่ตั้งชื่อ
+      description: 'รูปแบบแบบสัมบูรณ์คือรูปแบบวันที่และเวลาของ ICU ดังนั้นลำดับของฟิลด์และตัวคั่นจะขึ้นอยู่กับภูมิภาคของผู้อ่านมากกว่าที่จะเป็นของเทมเพลต'
+    relative:
+      title: สัมพันธ์
+      description: 'ระยะทางจะถูกนับในหน่วยที่ใหญ่ที่สุดที่ยังมีความหมาย — นาทีจนถึงชั่วโมง, ชั่วโมงจนถึงวัน, จากนั้นวัน, สัปดาห์, เดือน และปี. คำที่ใช้มาจากคีย์การแปล'
+    auto:
+      title: อัตโนมัติ
+      description: 'ค่าเริ่มต้น. นับย้อนหลังในขณะที่วันที่ยังใกล้เคียง และจะเปลี่ยนเป็นวันที่ตามปฏิทินหลังจากผ่านไปหนึ่งสัปดาห์ ซึ่ง "27 สัปดาห์ที่แล้ว" จะไม่ช่วยใครเลย'
+    live:
+      title: อัปเดตข้อมูล
+      description: 'นาฬิกาเพียงตัวเดียวให้บริการทุกวันที่อยู่บนหน้าเว็บ โดยมีจังหวะที่หน่วยที่แสดงสมควรได้รับ — ไม่กี่วินาทีสำหรับ "เมื่อสักครู่", หนึ่งชั่วโมงสำหรับ "3 เดือนที่แล้ว". เปิดหน้านี้และดู'
+    plain:
+      title: เฉพาะข้อความ
+      description: 'ตัวกรองจะส่งคืนสตริงที่ไม่มีการจัดรูปแบบ สำหรับแอตทริบิวต์ชื่อหรือการส่งออก. ชื่อรูปแบบที่ไม่รู้จักจะถูกนำไปใช้เป็น ICU pattern แบบดิบ ซึ่งเป็นทางออกเมื่อรูปแบบที่ตั้งชื่อไม่มีลักษณะที่คุณต้องการ'
+  offset:
+    now: เมื่อสักครู่
+    minutes: ห้านาที
+    hours: สามชั่วโมง
+    days: สองวัน
+    months: สี่เดือน
+    years: สามปี
+    future: ในอีกสองชั่วโมง
+  live:
+    server: 'เรนเดอร์โดย Twig, อัปเดตโดยบริการด้านหน้า:'
+    vue: 'เรนเดอร์โดย Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''week'' w")'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tarihleri
+  page_icon: 'ph:bold/clock'
+  intro: 'Twig, düz JavaScript ve Vue tarafından aynı şekilde anlaşılan bir format adları sözlüğü. Sunucu, anlık ve istenen formatı taşıyan bir <time> yazdırır; tarayıcı bunu alır ve yaşlandıkça yeniden yazar, böylece açık bırakılan bir sayfa, bir şeyin ne kadar önce olduğunu asla yalan söylemez.'
+  section:
+    formats:
+      title: 'İsimlendirilmiş formatlar'
+      description: 'Kesin formatlar, ICU tarih ve saat stilleridir, bu nedenle alan sırası ve ayırıcılar okuyucunun yerel ayarlarına aittir, şablona değil.'
+    relative:
+      title: Göreli
+      description: 'Mesafe, hâlâ bir şey söyleyen en büyük birimde hesaplanır — dakikalar bir saate, saatler bir güne, sonra günler, haftalar, aylar ve yıllar. Her ifade bir çeviri anahtarından gelir.'
+    auto:
+      title: Otomatik
+      description: 'Varsayılan. Tarih yakınken geriye doğru sayar ve bir haftadan eski takvim tarihine geçer; "27 hafta önce" hiç kimseye yardım etmez.'
+    live:
+      title: 'Güncel tutulan'
+      description: 'Sayfadaki her tarih için tek bir zamanlayıcı, görüntülenen birimin hak ettiği ritmde hizmet eder — "şimdi" için birkaç saniye, "3 ay önce" için bir saat. Bu sayfayı açık bırakın ve izleyin.'
+    plain:
+      title: 'Sadece metin'
+      description: 'Filtre, bir başlık niteliği veya bir dışa aktarma için işaretleme içermeyen bir dize döndürür. Bilmediği bir format adı, ihtiyaç duyduğunuz biçimde olmadığında çıkış yolu olan bir ham ICU kalıbı olarak alınır.'
+  offset:
+    now: 'Biraz önce'
+    minutes: 'Beş dakika'
+    hours: 'Üç saat'
+    days: 'İki gün'
+    months: 'Dört ay'
+    years: 'Üç yıl'
+    future: 'İki saat içinde'
+  live:
+    server: 'Twig tarafından oluşturuldu, ön hizmet tarafından güncellendi:'
+    vue: 'Vue tarafından oluşturuldu:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''hafta'' w")'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تاریخیں
+  page_icon: 'ph:bold/clock'
+  intro: 'فارمیٹ ناموں کا ایک لغت، جسے Twig، سادہ JavaScript اور Vue کے ذریعے یکساں سمجھا جاتا ہے۔ سرور ایک <time> پرنٹ کرتا ہے جو لمحہ اور وہ فارمیٹ ہے جس کی درخواست کی گئی تھی؛ براؤزر اسے اٹھاتا ہے اور جیسے جیسے وقت گزرتا ہے اسے دوبارہ لکھتا ہے، اس طرح کھلا چھوڑا گیا صفحہ کبھی یہ نہیں بتاتا کہ کچھ کب ہوا۔'
+  section:
+    formats:
+      title: 'نامی فارمیٹس'
+      description: 'مکمل فارمیٹس ICU تاریخ اور وقت کے انداز ہیں، لہذا فیلڈ کا ترتیب اور جداکار قارئین کے مقامی زبان سے متعلق ہے نہ کہ ٹیمپلیٹ سے۔'
+    relative:
+      title: مناسب
+      description: 'فاصلے کو سب سے بڑی اکائی میں شمار کیا جاتا ہے جو اب بھی کچھ بتاتی ہے — منٹ سے ایک گھنٹے تک، گھنٹے سے ایک دن تک، پھر دن، ہفتے، مہینے اور سال۔ ہر الفاظ ایک ترجمہ کی کلید سے آتا ہے۔'
+    auto:
+      title: خودکار
+      description: 'ڈیفالٹ۔ جب تاریخ حالیہ ہو تو پیچھے کی طرف شمار کرتا ہے، اور ایک ہفتے کے بعد کیلنڈر کی تاریخ پر واپس آتا ہے، جہاں "27 ہفتے پہلے" کسی کی مدد نہیں کرتا۔'
+    live:
+      title: 'تازہ ترین'
+      description: 'ایک ہی ٹائمر صفحے پر ہر تاریخ کے لیے کام کرتا ہے، جس رفتار سے دکھائی جانے والی اکائی کی ضرورت ہوتی ہے — "ابھی" کے لیے چند سیکنڈ، "3 مہینے پہلے" کے لیے ایک گھنٹہ۔ اس صفحے کو کھلا چھوڑیں اور دیکھیں۔'
+    plain:
+      title: 'صرف متن'
+      description: 'فلٹر بغیر کسی مارک اپ کے ایک سٹرنگ واپس کرتا ہے، عنوان کی خصوصیت یا برآمد کے لیے۔ ایک فارمیٹ نام جسے یہ نہیں جانتا، اسے ایک خام ICU پیٹرن کے طور پر لیا جاتا ہے، جو اس راستے کی طرف ہے جب نامی فارمیٹس آپ کی ضرورت کے مطابق شکل نہیں رکھتے۔'
+  offset:
+    now: 'کچھ لمحے پہلے'
+    minutes: 'پانچ منٹ'
+    hours: 'تین گھنٹے'
+    days: 'دو دن'
+    months: 'چار مہینے'
+    years: 'تین سال'
+    future: 'دو گھنٹوں میں'
+  live:
+    server: 'Twig کے ذریعے رینڈر کیا گیا، فرنٹ سروس کے ذریعہ تازہ دم کیا گیا:'
+    vue: 'Vue کے ذریعے رینڈر کیا گیا:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''ہفتہ'' w")'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Ngày tháng'
+  page_icon: 'ph:bold/clock'
+  intro: 'Một từ vựng về tên định dạng, được hiểu giống nhau bởi Twig, JavaScript thuần và Vue. Máy chủ in ra một <time> mang theo thời điểm và định dạng mà nó được yêu cầu; trình duyệt nhận và viết lại khi nó cũ đi, vì vậy một trang để mở sẽ không bao giờ nói dối về thời gian đã trôi qua kể từ khi một điều gì đó xảy ra.'
+  section:
+    formats:
+      title: 'Định dạng tên'
+      description: 'Các định dạng tuyệt đối là kiểu ngày và giờ ICU, vì vậy thứ tự trường và các dấu phân cách thuộc về ngôn ngữ địa phương của người đọc hơn là của mẫu.'
+    relative:
+      title: 'Tương đối'
+      description: 'Khoảng cách được tính bằng đơn vị lớn nhất vẫn có ý nghĩa — phút cho đến một giờ, giờ cho đến một ngày, sau đó là ngày, tuần, tháng và năm. Mỗi cách diễn đạt đều đến từ một khóa dịch.'
+    auto:
+      title: 'Tự động'
+      description: 'Mặc định. Đếm ngược khi ngày tháng còn gần đây, và quay lại một ngày lịch sau một tuần, nơi mà "27 tuần trước" không còn giúp ai nữa.'
+    live:
+      title: 'Cập nhật thường xuyên'
+      description: 'Một bộ đếm thời gian duy nhất phục vụ cho mọi ngày tháng trên trang, theo nhịp độ mà đơn vị được hiển thị xứng đáng — vài giây cho "vừa mới đây", một giờ cho "3 tháng trước". Hãy để trang này mở và quan sát.'
+    plain:
+      title: 'Chỉ văn bản'
+      description: 'Bộ lọc trả về một chuỗi không có định dạng, cho thuộc tính tiêu đề hoặc xuất khẩu. Một tên định dạng mà nó không biết được coi là một mẫu ICU thô, đó là cách thoát khi các định dạng tên không có hình dạng bạn cần.'
+  offset:
+    now: 'Vừa mới đây'
+    minutes: 'Năm phút'
+    hours: 'Ba giờ'
+    days: 'Hai ngày'
+    months: 'Bốn tháng'
+    years: 'Ba năm'
+    future: 'Trong hai giờ'
+  live:
+    server: 'Được tạo ra bởi Twig, làm mới bởi dịch vụ phía trước:'
+    vue: 'Được tạo ra bởi Vue:'
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''tuần'' w")'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 日期
+  page_icon: 'ph:bold/clock'
+  intro: 一种格式名称的词汇，由Twig、普通JavaScript和Vue以相同的方式理解。服务器打印一个<time>，携带请求的瞬间和格式；浏览器接收它并随着时间的推移重写它，因此，一个开放的页面从不撒谎关于事情发生多久。
+  section:
+    formats:
+      title: 命名格式
+      description: 绝对格式是ICU日期和时间样式，因此字段顺序和分隔符属于读者的区域，而不是模板。
+    relative:
+      title: 相对
+      description: 距离以仍然有意义的最大单位计算——几分钟到一个小时，几小时到一天，然后是天、周、月和年。每种措辞都来自一个翻译键。
+    auto:
+      title: 自动
+      description: 默认。日期较新时向后计数，并在一周过去时回退到日历日期，其中“27周前”不再对任何人有帮助。
+    live:
+      title: 保持最新
+      description: 一个定时器为页面上的每个日期服务，以显示的单位应得的频率——“刚刚现在”几秒钟，“3个月前”一个小时。保持此页面打开并观察。
+    plain:
+      title: 仅文本
+      description: 过滤器返回一个没有标记的字符串，用于标题属性或导出。它不知道的格式名称被作为原始ICU模式处理，当命名格式不符合您的需求时，这是解决办法。
+  offset:
+    now: 刚刚
+    minutes: 五分钟
+    hours: 三个小时
+    days: 两天
+    months: 四个月
+    years: 三年
+    future: 两小时后
+  live:
+    server: 由Twig渲染，由前端服务刷新：
+    vue: 由Vue渲染：
+  plain:
+    filter: "| date_format('date_long')"
+    pattern: '| date_format("EEEE d MMMM, ''week'' w")'

@@ -1,0 +1,1596 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Inventory
+  page_icon: ph:bold/list-checks
+
+  intro: "Every element the bundle ships, and the formats it is delivered in. The table is not a list anyone maintains: it is the registry each bundle ships, compiled from its declarations and checked against a walk of its components. It answers what is there — never what should be, which is a question no scan can settle and which the elements will have to declare for themselves."
+
+  problems:
+    title: A declaration and the assets disagree
+    body: "Shown here because this page is compiled from the assets while developing, so it sees what `%command%` would refuse to write. Each point below names the element; the table is drawn all the same."
+
+  missing:
+    title: A registry is missing
+    body: "%bundles% signed up as holding elements but has no registry on disk, so its rows are absent from the table below. Run `%command%` and commit the result."
+
+  summary:
+    label: What is counted
+    count: How many
+    elements: Elements found
+    todo: Formats left to do
+    undecided: Decisions not yet made
+    shapes: Shapes
+    abstracts: Abstract bases
+
+  column:
+    element: Element
+    shape: Shape
+    description: What it is for
+
+  cell:
+    absent: "Not found in this format, and the declaration does not say why — a decision not yet made"
+    todo: "Wanted in this format and not there yet"
+    shared: "Also held by %bundles%. Not a fault — the loader tells them apart by alias — but worth knowing whether it is one element redrawn or two that share a name."
+
+
+  format:
+    style:
+      title: Style
+      description: "The stylesheet, loaded by the loader when the component is on the page."
+    template:
+      title: Template
+      description: "The server renderer, drawn by twig."
+    vue:
+      title: Vue
+      description: "The client twin, drawn in the browser from the same options."
+    script:
+      title: Script
+      description: "The behaviour, bound to the markup once it is in the document."
+    schema:
+      title: Schema
+      description: "The contract: what the component takes, with types and defaults. Every other renderer is checkable against it."
+    ai:
+      title: AI
+      description: "What an agent is told about the component: the schema, how to use it, the tools that act on it."
+    react:
+      title: React
+      description: "The react renderer."
+    flutter:
+      title: Flutter
+      description: "The flutter renderer, written in dart against the schema. Markup does not carry over; the contract and the tokens do."
+
+  section:
+    matrix:
+      title: Element by format
+      description: "One row per component, one column per renderer. A component is a directory under `components/` holding every way it can be drawn — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — so nothing here has to reconcile four directories by name any more. A cell counts the files behind it — hover one to see them. Every declared element reads at the same level — a row found in a single format may be a gap or a primitive that wants nothing else, and sorting that out is work this table is for rather than something it already knows. Four states, told apart by whose move it is next: a check, the element is there; a warning, it is wanted and missing; a struck circle, it does without on purpose; a blank, nobody has ruled yet. Hover a warning or a circle for what the declaration says."
+    sources:
+      title: Where these come from
+      description: "A bundle is in the table because it said so — by implementing `DesignSystemElementsBundleInterface`, the way a bundle tells the loader about its front paths. Each writes `data/elements.json` inside its own assets, published with them, so the build, the node side, another language or an agent all work from the same files; this page is only their union."
+    abstract:
+      title: Abstract
+      description: "The five bases under `components/_abstract/`, which nothing ever draws — they are only extended. `_abstract/vue` is three empty twig blocks that thirty-one templates fill in; `_abstract/form-field` is what twelve inputs are built on. They are out of the matrix for the reason the shapes are: they are not delivered to anyone, so asking them for a schema or a react twin is asking a question they have no way to answer. The underscore says as much before anyone opens the directory. What is shown is what each already brings to whoever extends it."
+    shapes:
+      title: Shapes
+      description: "A shape is a style with no renderer: you write the markup, put the class on it, and `@use` the stylesheet from your own. `.stack`, `.grid`, `.block`, `.cluster`. They are listed here and not in the table above because a table of renderers has no column to offer something that has none — and their absence from it is why its warnings all mean work rather than a question badly asked. The line is drawn by the files, not by taste: a shape is exactly one `.scss` and nothing renders it, so the day one gains a `.html.twig` it moves into `components/` and joins the matrix. That move is the only promotion there is. What each says about itself is read off the head of its own stylesheet, so there is no second place for it to drift from."
+    coverage:
+      title: What this leaves out
+      description: "Directories of `assets/` the scan does not walk, listed from disk rather than from memory. Mixins, utilities and tokens are not elements and may never be rows here; layouts and shared scripts are, and are not covered yet."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الجرد
+  page_icon: 'ph:bold/list-checks'
+  intro: 'كل عنصر يتم شحنه في الحزمة، والصيغ التي يتم تسليمها بها. الجدول ليس قائمة يحتفظ بها أي شخص: إنه السجل الذي يتم شحن كل حزمة، ويجمع من إعلاناتها ويتم التحقق منه مقابل مكونات الحزمة. إنه يجيب على ما هو موجود — وليس ما يجب أن يكون، وهو سؤال لا يمكن لأي مسح أن يحله، والذي يتعين على العناصر أن تعلن عنه بنفسها.'
+  problems:
+    title: 'الإعلان والأصول غير متطابقين'
+    body: 'مُظهر هنا لأن هذه الصفحة تم تجميعها من الأصول أثناء التطوير، لذا فهي ترى ما سيرفض `%command%` كتابته. كل نقطة أدناه تسمي العنصر؛ الجدول مرسوم على أي حال.'
+  missing:
+    title: 'سجل مفقود'
+    body: '%bundles% سجل كحامل لعناصر ولكن ليس لديه سجل على القرص، لذا فإن صفوفه غائبة من الجدول أدناه. قم بتشغيل `%command%` والتزام النتيجة.'
+  summary:
+    label: 'ما هو محسوب'
+    count: 'كم عدد'
+    elements: 'العناصر الموجودة'
+    todo: 'الصيغ المتبقية للقيام بها'
+    undecided: 'قرارات لم تُتخذ بعد'
+    shapes: الأشكال
+    abstracts: 'الأسس المجردة'
+  column:
+    element: عنصر
+    shape: شكل
+    description: 'ما هو مخصص له'
+  cell:
+    absent: 'غير موجود في هذا التنسيق، والإعلان لا يوضح السبب — قرار لم يتم اتخاذه بعد'
+    todo: 'مطلوب في هذا التنسيق وليس موجودًا بعد'
+    shared: 'أيضًا موجود من قبل %bundles%. ليس خطأ — يقوم المحمل بتمييزها بواسطة الاسم المستعار — ولكن من الجيد معرفة ما إذا كان عنصرًا واحدًا مُعاد رسمه أو اثنين يتشاركان نفس الاسم.'
+  format:
+    style:
+      title: النمط
+      description: 'نموذج الأنماط، يتم تحميله بواسطة المحمل عندما يكون العنصر على الصفحة.'
+    template:
+      title: القالب
+      description: 'الرسام على الخادم، مرسوم بواسطة twig.'
+    vue:
+      title: Vue
+      description: 'التوأم على العميل، مرسوم في المتصفح من نفس الخيارات.'
+    script:
+      title: السكريبت
+      description: 'السلوك، مرتبط بالعلامات بمجرد أن تكون في الوثيقة.'
+    schema:
+      title: المخطط
+      description: 'العقد: ما يتطلبه العنصر، مع الأنواع والقيم الافتراضية. يمكن التحقق من كل رسام آخر ضدها.'
+    ai:
+      title: 'الذكاء الاصطناعي'
+      description: 'ما يتم إخبار وكيل به عن العنصر: المخطط، كيفية استخدامه، الأدوات التي تعمل عليه.'
+    react:
+      title: React
+      description: 'الرسام React.'
+    flutter:
+      title: Flutter
+      description: 'الرسام Flutter، مكتوب بلغة Dart وفقًا للمخطط. العلامات لا تنتقل؛ العقد والتوكنات تفعل.'
+  section:
+    matrix:
+      title: 'العنصر حسب التنسيق'
+      description: 'صف واحد لكل عنصر، عمود واحد لكل رسام. العنصر هو دليل تحت `components/` يحمل كل طريقة يمكن رسمها بها — `spinner/spinner.scss`، `spinner.html.twig`، `spinner.vue`، `spinner.ts` — لذا لا داعي لتسوية أربعة أدلة حسب الاسم بعد الآن. خلية تحصي الملفات خلفها — مرر فوق واحدة لرؤيتها. كل عنصر مُعلن يقرأ على نفس المستوى — قد يكون الصف الموجود في تنسيق واحد فجوة أو عنصر بدائي لا يريد شيئًا آخر، وترتيب ذلك هو العمل الذي تم تصميم هذا الجدول من أجله بدلاً من شيء يعرفه بالفعل. أربع حالات، يتم التمييز بينها حسب من ستكون حركته التالية: تحقق، العنصر موجود؛ تحذير، مطلوب ومفقود؛ دائرة مضروبة، يتصرف بدون قصد؛ فارغ، لم يقرر أحد بعد. مرر فوق تحذير أو دائرة لمعرفة ما يقوله الإعلان.'
+    sources:
+      title: 'من أين تأتي هذه'
+      description: 'الحزمة موجودة في الجدول لأنها قالت ذلك — من خلال تنفيذ `DesignSystemElementsBundleInterface`، الطريقة التي تخبر بها الحزمة المحمل عن مساراتها الأمامية. كل منها يكتب `data/elements.json` داخل أصوله الخاصة، منشورة معها، بحيث يعمل البناء، جانب العقد، لغة أخرى أو وكيل جميعها من نفس الملفات؛ هذه الصفحة هي فقط اتحادها.'
+    abstract:
+      title: مجرد
+      description: 'الأسس الخمسة تحت `components/_abstract/`، والتي لا تُرسم أبدًا — فهي ممتدة فقط. `_abstract/vue` هو ثلاثة كتل فارغة من twig تملأها واحد وثلاثون قالبًا؛ `_abstract/form-field` هو ما يُبنى عليه اثنا عشر إدخالًا. هي خارج المصفوفة للسبب الذي تقع فيه الأشكال: إنها ليست مُسلمة لأي شخص، لذا فإن طلب مخطط منها أو توأم React هو سؤال ليس لديها وسيلة للإجابة عليه. يشير الخط السفلي إلى ذلك قبل أن يفتح أي شخص الدليل. ما يتم عرضه هو ما يجلبه كل واحد بالفعل لمن يمده.'
+    shapes:
+      title: الأشكال
+      description: 'الشكل هو نمط بدون رسام: تكتب العلامات، تضع الفئة عليها، و`@use` نموذج الأنماط من نفسك. `.stack`، `.grid`، `.block`، `.cluster`. يتم سردها هنا وليس في الجدول أعلاه لأن جدول الرسامين ليس لديه عمود ليقدم شيئًا لا يمتلكه — وغيابها منه هو سبب أن تحذيراتها تعني العمل بدلاً من سؤال تم طرحه بشكل سيء. يتم رسم الخط بواسطة الملفات، وليس حسب الذوق: الشكل هو بالضبط `.scss` واحدة ولا يقوم برسمه أي شيء، لذا عندما يحصل المرء على `.html.twig` فإنه ينتقل إلى `components/` وينضم إلى المصفوفة. تلك الحركة هي الترقية الوحيدة الموجودة. ما يقوله كل واحد عن نفسه يُقرأ من رأس نموذج الأنماط الخاص به، لذا لا يوجد مكان ثانٍ ليبتعد عنه.'
+    coverage:
+      title: 'ما الذي يغفله هذا'
+      description: 'أدلة `assets/` التي لا يقوم الفحص بزيارتها، مدرجة من القرص بدلاً من الذاكرة. المكونات الإضافية، الأدوات، والرموز ليست عناصر وقد لا تكون صفوفاً هنا؛ التصميمات والسكريبتات المشتركة هي كذلك، ولم يتم تغطيتها بعد.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ইনভেন্টরি
+  page_icon: 'ph:bold/list-checks'
+  intro: 'বাণ্ডলটি যেসব উপাদান পাঠায় এবং সেগুলো যেসব ফরম্যাটে বিতরণ করা হয়। এই টেবিলটি এমন একটি তালিকা নয় যা কেউ রক্ষণাবেক্ষণ করে: এটি প্রতিটি বাণ্ডল দ্বারা পাঠানো একটি রেজিস্ট্রি, যা তার ঘোষণাগুলি থেকে সংকলিত হয় এবং এর উপাদানগুলির বিরুদ্ধে পরীক্ষা করা হয়। এটি উত্তর দেয় কি আছে — কখনোই কি থাকা উচিত, যা একটি প্রশ্ন যা কোন স্ক্যান সমাধান করতে পারে না এবং যা উপাদানগুলোকে তাদের জন্য স্ব স্বভাবে ঘোষণা করতে হবে।'
+  problems:
+    title: 'একটি ঘোষণা এবং সম্পদের মধ্যে অমিল'
+    body: 'এখানে প্রদর্শিত হয়েছে কারণ এই পৃষ্ঠা বিকাশের সময় সম্পদ থেকে সংকলিত, তাই এটি দেখে কীভাবে `%command%` লেখার জন্য অস্বীকার করবে। নিচের প্রতিটি পয়েন্ট উপাদানটির নাম উল্লেখ করে; টেবিলটি সব একইভাবে অঙ্কিত।'
+  missing:
+    title: 'একটি রেজিস্ট্রি অনুপস্থিত'
+    body: '%bundles% উপাদান ধারণ করার জন্য সাইন আপ করেছে কিন্তু ডিস্কে কোন রেজিস্ট্রি নেই, তাই এর সারি নিচের টেবিলে অনুপস্থিত। `%command%` চালান এবং ফলাফল কমিট করুন।'
+  summary:
+    label: 'কী গণনা করা হয়েছে'
+    count: কতটি
+    elements: 'উপাদানগুলি পাওয়া গেছে'
+    todo: 'করার জন্য ফরম্যাট'
+    undecided: 'এখনও সিদ্ধান্ত হয়নি'
+    shapes: আকৃতিসমূহ
+    abstracts: 'অ্যাবস্ট্রাক্ট বেস'
+  column:
+    element: উপাদান
+    shape: আকৃতি
+    description: 'এটি কী জন্য'
+  cell:
+    absent: 'এই ফরম্যাটে পাওয়া যায়নি, এবং ঘোষণা এটির কারণ বলেনি — একটি সিদ্ধান্ত এখনও হয়নি'
+    todo: 'এই ফরম্যাটে চাওয়া হয়েছে এবং এখনও সেখানে নেই'
+    shared: '%bundles% এর দ্বারাও ধারণ করা হয়েছে। এটি কোন ত্রুটি নয় — লোডার তাদের কিভাবে আলাদা করে তা বলে — কিন্তু এটা জানা গুরুত্বপূর্ণ যে এটি একটি পুনরায় অঙ্কিত উপাদান নাকি দুটি একই নাম ভাগ করে।'
+  format:
+    style:
+      title: স্টাইল
+      description: 'স্টাইলশীট, যা লোডার দ্বারা পৃষ্ঠায় উপাদানটি যখন থাকে তখন লোড হয়।'
+    template:
+      title: টেমপ্লেট
+      description: 'সার্ভার রেন্ডারার, টুইগ দ্বারা অঙ্কিত।'
+    vue:
+      title: ভিউ
+      description: 'ক্লায়েন্ট টুইন, ব্রাউজারে একই বিকল্প থেকে অঙ্কিত।'
+    script:
+      title: স্ক্রিপ্ট
+      description: 'আচরণ, যা একবার এটি নথিতে থাকলে মার্কআপের সাথে বাঁধা হয়।'
+    schema:
+      title: স্কিমা
+      description: 'চুক্তি: উপাদানটি কি গ্রহণ করে, প্রকার এবং ডিফল্ট সহ। অন্যান্য রেন্ডারারগুলি এর সাথে পরীক্ষা করা যাবে।'
+    ai:
+      title: এআই
+      description: 'একটি এজেন্টকে উপাদান সম্পর্কে যা বলা হয়: স্কিমা, এটি কিভাবে ব্যবহার করতে হয়, এর উপর কাজ করা টুলগুলি।'
+    react:
+      title: রিঅ্যাক্ট
+      description: 'রিঅ্যাক্ট রেন্ডারার।'
+    flutter:
+      title: ফ্লাটার
+      description: 'ফ্লাটার রেন্ডারার, স্কিমার বিরুদ্ধে ডার্টে লেখা। মার্কআপ স্থানান্তরিত হয় না; চুক্তি এবং টোকেনগুলি হয়।'
+  section:
+    matrix:
+      title: 'ফরম্যাট অনুযায়ী উপাদান'
+      description: 'প্রতিটি উপাদানের জন্য একটি সারি, প্রতিটি রেন্ডারারের জন্য একটি কলাম। একটি উপাদান হল `components/` এর অধীনে একটি ডিরেক্টরি যা এটি কিভাবে অঙ্কিত হতে পারে তার সব উপায় ধারণ করে — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — তাই এখানে কিছু খুঁজে বের করার জন্য চারটি ডিরেক্টরি নাম দিয়ে সমাধান করতে হবে না। একটি সেল এর পিছনে ফাইলগুলি গণনা করে — একটিতে হোভার করলে সেগুলি দেখতে পাবেন। প্রতিটি ঘোষিত উপাদান একই স্তরে পড়া হয় — একটি একক ফরম্যাটে পাওয়া একটি সারি একটি ফাঁকা হতে পারে অথবা একটি প্রাথমিক হতে পারে যা আর কিছু চায় না, এবং তা বের করা কাজ এই টেবিলের জন্য বরাদ্দ করা হয়েছে বরং এটি যা ইতিমধ্যে জানে। চারটি রাষ্ট্র, যার মধ্যে আলাদা করা হয় পরবর্তী কার পালা: একটি চেক, উপাদান সেখানে আছে; একটি সতর্কতা, এটি চাওয়া হয়েছে এবং অনুপস্থিত; একটি স্ট্রাক্কেন সার্কেল, এটি ইচ্ছাকৃতভাবে ছাড়াই আছে; একটি ফাঁকা, কেউ এখনও শাসন করেনি। একটি সতর্কতা বা একটি সার্কেলের জন্য হোভার করুন যা ঘোষণা বলে।'
+    sources:
+      title: 'এগুলি কোথা থেকে এসেছে'
+      description: 'একটি বাণ্ডল টেবিলে আছে কারণ এটি তাই বলেছে — `DesignSystemElementsBundleInterface` বাস্তবায়ন করে, যে ভাবে একটি বাণ্ডল লোডারকে এর সামনের পথ সম্পর্কে জানায়। প্রতিটি `data/elements.json` এর মধ্যে তার নিজস্ব সম্পদগুলির মধ্যে লেখে, যা তাদের সাথে প্রকাশিত হয়, তাই বিল্ড, নোড সাইড, অন্য ভাষা বা একটি এজেন্ট সব একই ফাইল থেকে কাজ করে; এই পৃষ্ঠা শুধুমাত্র তাদের সমন্বয়।'
+    abstract:
+      title: অ্যাবস্ট্রাক্ট
+      description: '`components/_abstract/` এর পাঁচটি বেস, যা কখনোই আঁকা হয় না — এগুলি শুধুমাত্র সম্প্রসারিত হয়। `_abstract/vue` তিনটি খালি টুইগ ব্লক যা একত্রে তিরিশটি টেমপ্লেট পূর্ণ করে; `_abstract/form-field` হলো যা বারোটি ইনপুটের উপর ভিত্তি করে তৈরি হয়। এগুলি ম্যাট্রিক্সের বাইরে কারণ আকৃতিগুলির জন্য যা হয়: এগুলি কারো কাছে বিতরণ করা হয় না, তাই তাদের জন্য একটি স্কিমা বা একটি রিঅ্যাক্ট টুইন চাওয়া একটি প্রশ্ন করা হচ্ছে যা তাদের উত্তর দেওয়ার কোন উপায় নেই। আন্ডারস্কোর এটি বলছে আগে যে কেউ ডিরেক্টরিটি খুলে। যা প্রদর্শিত হয় তা হল যা প্রতিটি ইতিমধ্যে যার কাছে এটি সম্প্রসারিত করে তা নিয়ে আসে।'
+    shapes:
+      title: আকৃতিসমূহ
+      description: 'একটি আকৃতি হলো একটি স্টাইল যার কোন রেন্ডারার নেই: আপনি মার্কআপটি লেখেন, এর উপরে ক্লাস রাখেন এবং আপনার নিজের থেকে স্টাইলশীট `@use` করেন। `.stack`, `.grid`, `.block`, `.cluster`। এগুলি এখানে তালিকাভুক্ত করা হয়েছে এবং উপরের টেবিলটিতে নয় কারণ রেন্ডারারের একটি টেবিলে কোন কিছু অফার করার কোন কলাম নেই যা কিছু নেই — এবং এটির অভাবই কেন এর সতর্কতাগুলি সব কাজের অর্থ দেয় বরং একটি প্রশ্নের জন্য যা খারাপভাবে জিজ্ঞাসা করা হয়েছে। রেখাটি ফাইল দ্বারা আঁকা হয়, স্বাদ দ্বারা নয়: একটি আকৃতি হল ঠিক একটি `.scss` এবং কিছুই এটি রেন্ডার করে না, তাই যখন কেউ একটি `.html.twig` পায় এটি `components/` এ চলে যায় এবং ম্যাট্রিক্সে যোগ দেয়। সেই পদক্ষেপটাই একমাত্র পদোন্নতি। যা প্রতিটি তার সম্পর্কে বলে তা তার নিজস্ব স্টাইলশীটের শীর্ষ থেকে পড়া হয়, তাই এর জন্য ভাসমান দ্বিতীয় স্থান নেই।'
+    coverage:
+      title: 'এটি কী বাদ দেয়'
+      description: '`assets/` এর ডিরেক্টরিগুলি যা স্ক্যান করে না, ডিস্ক থেকে তালিকাভুক্ত করা হয় না মেমরির পরিবর্তে। মিক্সিন, ইউটিলিটি এবং টোকেন উপাদান নয় এবং এখানে কখনো সারি হতে পারে না; লেআউট এবং শেয়ার করা স্ক্রিপ্ট হয়, এবং এখনও কভার করা হয়নি।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inventar
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Jedes Element, das das Bündel liefert, und die Formate, in denen es bereitgestellt wird. Die Tabelle ist keine Liste, die jemand verwaltet: Sie ist das Register, das jedes Bündel liefert, basierend auf seinen Erklärungen und überprüft gegen einen Überblick über seine Komponenten. Sie zeigt, was vorhanden ist – niemals, was vorhanden sein sollte, was eine Frage ist, die kein Scan beantworten kann und die die Elemente selbst erklären müssen.'
+  problems:
+    title: 'Eine Erklärung und die Ressourcen stimmen nicht überein'
+    body: 'Hier angezeigt, weil diese Seite aus den Ressourcen während der Entwicklung zusammengestellt wird, sodass sie sieht, was `%command%` sich weigern würde zu schreiben. Jeder Punkt unten nennt das Element; die Tabelle bleibt trotzdem gleich.'
+  missing:
+    title: 'Ein Register fehlt'
+    body: '%bundles% hat sich als haltend für Elemente gemeldet, hat aber kein Register auf der Festplatte, sodass seine Zeilen in der Tabelle unten fehlen. Führen Sie `%command%` aus und speichern Sie das Ergebnis.'
+  summary:
+    label: 'Was gezählt wird'
+    count: 'Wie viele'
+    elements: 'Gefundene Elemente'
+    todo: 'Formate, die noch zu erledigen sind'
+    undecided: 'Entscheidungen noch nicht getroffen'
+    shapes: Formen
+    abstracts: 'Abstrakte Basen'
+  column:
+    element: Element
+    shape: Form
+    description: 'Wofür es ist'
+  cell:
+    absent: 'In diesem Format nicht gefunden, und die Erklärung sagt nicht warum – eine Entscheidung, die noch nicht getroffen wurde'
+    todo: 'In diesem Format gewünscht und noch nicht vorhanden'
+    shared: 'Wird auch von %bundles% gehalten. Kein Fehler – der Loader unterscheidet sie anhand des Alias – aber es ist wichtig zu wissen, ob es sich um ein Element handelt, das neu gezeichnet wurde, oder um zwei, die einen Namen teilen.'
+  format:
+    style:
+      title: Stil
+      description: 'Das Stylesheet, das vom Loader geladen wird, wenn die Komponente auf der Seite ist.'
+    template:
+      title: Vorlage
+      description: 'Der Server-Renderer, dargestellt von twig.'
+    vue:
+      title: Vue
+      description: 'Der Client-Zwilling, der im Browser aus denselben Optionen gezogen wird.'
+    script:
+      title: Skript
+      description: 'Das Verhalten, das an das Markup gebunden ist, sobald es im Dokument ist.'
+    schema:
+      title: Schema
+      description: 'Der Vertrag: was die Komponente annimmt, mit Typen und Standardwerten. Jeder andere Renderer kann dagegen überprüft werden.'
+    ai:
+      title: KI
+      description: 'Was einem Agenten über die Komponente gesagt wird: das Schema, wie man es verwendet, die Werkzeuge, die darauf wirken.'
+    react:
+      title: React
+      description: 'Der React-Renderer.'
+    flutter:
+      title: Flutter
+      description: 'Der Flutter-Renderer, geschrieben in Dart gegen das Schema. Markup wird nicht übertragen; der Vertrag und die Tokens schon.'
+  section:
+    matrix:
+      title: 'Element nach Format'
+      description: 'Eine Zeile pro Komponente, eine Spalte pro Renderer. Eine Komponente ist ein Verzeichnis unter `components/`, das jede Art, wie sie dargestellt werden kann, enthält – `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` – sodass hier nichts mehr vier Verzeichnisse nach Namen abgleichen muss. Eine Zelle zählt die Dateien dahinter – fahren Sie mit der Maus über eine, um sie zu sehen. Jedes erklärte Element wird auf derselben Ebene gelesen – eine in einem einzigen Format gefundene Zeile kann eine Lücke oder ein primitives Element sein, das nichts anderes möchte, und das herauszufinden, ist die Aufgabe dieser Tabelle, nicht etwas, das sie bereits weiß. Vier Zustände, die daran zu unterscheiden sind, wessen Zug es als nächstes ist: ein Häkchen, das Element ist da; eine Warnung, es wird gewünscht und fehlt; ein durchgestrichener Kreis, es kommt absichtlich ohne aus; eine leere Zelle, niemand hat bisher entschieden. Fahren Sie mit der Maus über eine Warnung oder einen Kreis, um zu sehen, was die Erklärung sagt.'
+    sources:
+      title: 'Woher diese kommen'
+      description: 'Ein Bündel ist in der Tabelle, weil es das gesagt hat – indem es `DesignSystemElementsBundleInterface` implementiert, auf die Weise, wie ein Bündel dem Loader seine Frontpfade mitteilt. Jedes schreibt `data/elements.json` innerhalb seiner eigenen Ressourcen, die mit ihnen veröffentlicht werden, sodass der Build, die Node-Seite, eine andere Sprache oder ein Agent alle von denselben Dateien arbeiten; diese Seite ist nur ihre Vereinigung.'
+    abstract:
+      title: Abstrakt
+      description: 'Die fünf Basen unter `components/_abstract/`, die niemals gezeichnet werden – sie werden nur erweitert. `_abstract/vue` sind drei leere twig-Blöcke, die einunddreißig Vorlagen ausfüllen; `_abstract/form-field` ist das, worauf zwölf Eingaben basieren. Sie sind aus der Matrix, weil die Formen es sind: Sie werden niemandem geliefert, sodass es eine Frage ist, die sie nicht beantworten können, wenn man nach einem Schema oder einem React-Zwilling fragt. Der Unterstrich sagt so viel, bevor jemand das Verzeichnis öffnet. Was gezeigt wird, ist das, was jede bereits zu dem bringt, der sie erweitert.'
+    shapes:
+      title: Formen
+      description: 'Eine Form ist ein Stil ohne Renderer: Sie schreiben das Markup, setzen die Klasse darauf und `@use` das Stylesheet von Ihrem eigenen. `.stack`, `.grid`, `.block`, `.cluster`. Sie sind hier aufgelistet und nicht in der obigen Tabelle, weil eine Tabelle von Renderern keine Spalte anbieten kann, die etwas hat, das keinen hat – und ihre Abwesenheit davon ist der Grund, warum alle Warnungen dort Arbeit bedeuten, anstatt eine schlecht gestellte Frage. Die Grenze wird durch die Dateien gezogen, nicht durch den Geschmack: Eine Form ist genau eine `.scss` und nichts rendert sie, sodass sie am Tag, an dem sie eine `.html.twig` erwirbt, in `components/` verschoben wird und der Matrix beitritt. Dieser Umzug ist die einzige Beförderung, die es gibt. Was jede über sich selbst sagt, wird am Kopf ihres eigenen Stylesheets abgelesen, sodass es keinen zweiten Platz gibt, von dem es abdriften kann.'
+    coverage:
+      title: 'Was dies auslässt'
+      description: 'Verzeichnisse von `assets/`, die der Scan nicht durchläuft, aufgelistet von der Festplatte und nicht aus dem Speicher. Mixins, Utilities und Tokens sind keine Elemente und dürfen hier niemals Zeilen sein; Layouts und gemeinsame Skripte sind es und werden noch nicht abgedeckt.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inventario
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Cada elemento que el paquete envía y los formatos en los que se entrega. La tabla no es una lista que alguien mantenga: es el registro que cada paquete envía, compilado a partir de sus declaraciones y verificado contra un recorrido de sus componentes. Responde a lo que hay — nunca a lo que debería haber, que es una pregunta que ningún escáner puede resolver y que los elementos tendrán que declarar por sí mismos.'
+  problems:
+    title: 'Una declaración y los activos no coinciden'
+    body: 'Se muestra aquí porque esta página se compila a partir de los activos mientras se desarrolla, por lo que ve lo que `%command%` se negaría a escribir. Cada punto a continuación nombra el elemento; la tabla se dibuja de todos modos.'
+  missing:
+    title: 'Falta un registro'
+    body: '%bundles% se inscribió como poseedor de elementos pero no tiene un registro en el disco, por lo que sus filas están ausentes de la tabla a continuación. Ejecuta `%command%` y compromete el resultado.'
+  summary:
+    label: 'Lo que se cuenta'
+    count: Cuántos
+    elements: 'Elementos encontrados'
+    todo: 'Formatos pendientes'
+    undecided: 'Decisiones aún no tomadas'
+    shapes: Formas
+    abstracts: 'Bases abstractas'
+  column:
+    element: Elemento
+    shape: Forma
+    description: 'Para qué sirve'
+  cell:
+    absent: 'No encontrado en este formato, y la declaración no dice por qué — una decisión aún no tomada'
+    todo: 'Deseado en este formato y aún no está allí'
+    shared: 'También poseído por %bundles%. No es un error — el cargador los distingue por alias — pero vale la pena saber si es un elemento redibujado o dos que comparten un nombre.'
+  format:
+    style:
+      title: Estilo
+      description: 'La hoja de estilos, cargada por el cargador cuando el componente está en la página.'
+    template:
+      title: Plantilla
+      description: 'El renderizador del servidor, dibujado por twig.'
+    vue:
+      title: Vue
+      description: 'El gemelo del cliente, dibujado en el navegador desde las mismas opciones.'
+    script:
+      title: Script
+      description: 'El comportamiento, vinculado al marcado una vez que está en el documento.'
+    schema:
+      title: Esquema
+      description: 'El contrato: lo que el componente recibe, con tipos y valores por defecto. Cada otro renderizador se puede verificar contra él.'
+    ai:
+      title: IA
+      description: 'Lo que se le dice a un agente sobre el componente: el esquema, cómo usarlo, las herramientas que actúan sobre él.'
+    react:
+      title: React
+      description: 'El renderizador de react.'
+    flutter:
+      title: Flutter
+      description: 'El renderizador de flutter, escrito en dart contra el esquema. El marcado no se traslada; el contrato y los tokens sí.'
+  section:
+    matrix:
+      title: 'Elemento por formato'
+      description: 'Una fila por componente, una columna por renderizador. Un componente es un directorio bajo `components/` que contiene cada forma en la que puede ser dibujado — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — así que nada aquí tiene que reconciliar cuatro directorios por nombre ya. Una celda cuenta los archivos detrás de ella — pasa el ratón por encima de uno para verlos. Cada elemento declarado se lee al mismo nivel — una fila encontrada en un único formato puede ser un hueco o un primitivo que no quiere nada más, y resolver eso es el trabajo para lo que esta tabla es, en lugar de algo que ya sabe. Cuatro estados, diferenciados por de quién es el siguiente movimiento: un chequeo, el elemento está allí; una advertencia, se desea y está ausente; un círculo tachado, se prescinde intencionadamente; un espacio en blanco, nadie ha decidido aún. Pasa el ratón sobre una advertencia o un círculo para ver lo que dice la declaración.'
+    sources:
+      title: 'De dónde vienen estos'
+      description: 'Un paquete está en la tabla porque así lo dijo — al implementar `DesignSystemElementsBundleInterface`, la forma en que un paquete le dice al cargador sobre sus rutas frontales. Cada uno escribe `data/elements.json` dentro de sus propios activos, publicados con ellos, para que la construcción, el lado de nodo, otro idioma o un agente trabajen a partir de los mismos archivos; esta página es solo su unión.'
+    abstract:
+      title: Abstracto
+      description: 'Las cinco bases bajo `components/_abstract/`, que nunca se dibujan — solo se extienden. `_abstract/vue` son tres bloques twig vacíos que treinta y una plantillas llenan; `_abstract/form-field` es sobre lo que se construyen doce entradas. Están fuera de la matriz por la razón que tienen las formas: no se entregan a nadie, por lo que pedirles un esquema o un gemelo de react es hacer una pregunta que no tienen forma de responder. El guion bajo dice tanto antes de que alguien abra el directorio. Lo que se muestra es lo que cada uno ya aporta a quien lo extiende.'
+    shapes:
+      title: Formas
+      description: 'Una forma es un estilo sin renderizador: escribes el marcado, pones la clase en él y `@use` la hoja de estilos desde la tuya. `.stack`, `.grid`, `.block`, `.cluster`. Se enumeran aquí y no en la tabla anterior porque una tabla de renderizadores no tiene columna para ofrecer algo que no tiene — y su ausencia de ella es por eso que todas sus advertencias significan trabajo en lugar de una pregunta mal formulada. La línea la marcan los archivos, no el gusto: una forma es exactamente un `.scss` y nada lo renderiza, así que el día que uno gane un `.html.twig` se mueve a `components/` y se une a la matriz. Ese movimiento es la única promoción que hay. Lo que cada uno dice sobre sí mismo se lee en la cabecera de su propia hoja de estilos, por lo que no hay un segundo lugar del que pueda driftar.'
+    coverage:
+      title: 'Lo que esto omite'
+      description: 'Directorios de `assets/` que el escaneo no recorre, listados desde el disco en lugar de desde la memoria. Los mixins, utilidades y tokens no son elementos y pueden no ser filas aquí; los layouts y scripts compartidos sí lo son, y aún no están cubiertos.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فهرست
+  page_icon: 'ph:bold/list-checks'
+  intro: 'هر عنصری که بسته ارسال می‌کند و فرمت‌های تحویل آن. این جدول لیستی نیست که کسی نگهداری کند: این ثبت‌نامی است که هر بسته ارسال می‌کند، که از اعلامیه‌های آن جمع‌آوری شده و با اجزای آن بررسی می‌شود. این پاسخ می‌دهد که چه چیزی وجود دارد — هرگز چه چیزی باید باشد، که سؤالی است که هیچ اسکنری نمی‌تواند حل کند و اجزا باید خودشان اعلام کنند.'
+  problems:
+    title: 'اعلامیه و دارایی‌ها ناهماهنگ هستند'
+    body: 'در اینجا نشان داده شده زیرا این صفحه از دارایی‌ها در حین توسعه جمع‌آوری شده، بنابراین می‌بیند چه چیزی `%command%` در نوشتن آن امتناع می‌کند. هر نقطه زیر نام عنصر را بیان می‌کند؛ جدول به همین ترتیب ترسیم شده است.'
+  missing:
+    title: 'یک ثبت‌نام گم شده است'
+    body: '%bundles% به عنوان دارنده عناصر ثبت‌نام کرده اما هیچ ثبت‌نامی در دیسک ندارد، بنابراین ردیف‌های آن از جدول زیر غایب است. `%command%` را اجرا کنید و نتیجه را تأیید کنید.'
+  summary:
+    label: 'چه چیزی شمارش شده است'
+    count: 'چند تا'
+    elements: 'عناصر پیدا شده'
+    todo: 'فرمت‌های باقی‌مانده برای انجام'
+    undecided: 'تصمیمات هنوز اتخاذ نشده'
+    shapes: شکل‌ها
+    abstracts: 'پایه‌های انتزاعی'
+  column:
+    element: عنصر
+    shape: شکل
+    description: 'هدف آن چیست'
+  cell:
+    absent: 'در این فرمت پیدا نشد، و اعلامیه نمی‌گوید چرا — تصمیمی هنوز اتخاذ نشده است'
+    todo: 'در این فرمت خواسته شده و هنوز وجود ندارد'
+    shared: 'همچنین توسط %bundles% نگهداری می‌شود. این یک نقص نیست — بارگذار آنها را با نام مستعار متمایز می‌کند — اما دانستن اینکه آیا یک عنصر دوباره ترسیم شده یا دو عنصر که نام مشترکی دارند ارزش دارد.'
+  format:
+    style:
+      title: سبک
+      description: 'شیوه‌نامه، که توسط بارگذار هنگام نمایش مؤلفه در صفحه بارگذاری می‌شود.'
+    template:
+      title: الگو
+      description: 'رندر کننده سرور، که توسط twig ترسیم می‌شود.'
+    vue:
+      title: Vue
+      description: 'دوقلوی کلاینت، که در مرورگر از همان گزینه‌ها ترسیم می‌شود.'
+    script:
+      title: اسکریپت
+      description: 'رفتار، که به نشانه‌گذاری متصل می‌شود زمانی که در سند قرار می‌گیرد.'
+    schema:
+      title: طرح‌واره
+      description: 'قرارداد: چه چیزی مؤلفه می‌گیرد، با نوع‌ها و پیش‌فرض‌ها. هر رندر کننده دیگری قابل بررسی با آن است.'
+    ai:
+      title: 'هوش مصنوعی'
+      description: 'آنچه یک عامل درباره مؤلفه گفته می‌شود: طرح‌واره، نحوه استفاده از آن، ابزارهایی که بر روی آن عمل می‌کنند.'
+    react:
+      title: React
+      description: 'رندر کننده React.'
+    flutter:
+      title: Flutter
+      description: 'رندر کننده Flutter، نوشته شده در dart بر اساس طرح‌واره. نشانه‌گذاری منتقل نمی‌شود؛ قرارداد و توکن‌ها منتقل می‌شوند.'
+  section:
+    matrix:
+      title: 'عنصر بر اساس فرمت'
+      description: 'یک ردیف برای هر مؤلفه، یک ستون برای هر رندر کننده. یک مؤلفه دایرکتوری زیر `components/` است که هر روش ممکن برای ترسیم آن را در بر دارد — `spinner/spinner.scss`، `spinner.html.twig`، `spinner.vue`، `spinner.ts` — بنابراین هیچ چیز نیازی به تطبیق چهار دایرکتوری بر اساس نام ندارد. یک سلول تعداد فایل‌های پشت آن را شمرده — بر روی یکی بایستید تا آنها را ببینید. هر عنصر اعلام شده در همان سطح خوانده می‌شود — یک ردیف که در یک فرمت پیدا می‌شود ممکن است یک شکاف یا یک عنصر ابتدایی باشد که هیچ چیز دیگری نمی‌خواهد و حل کردن آن کار این جدول است نه چیزی که قبلاً می‌داند. چهار حالت، که با توجه به اینکه نوبت کدام است متمایز می‌شوند: یک بررسی، عنصر وجود دارد؛ یک هشدار، خواسته شده و غایب است؛ یک دایره ضربدر، عمداً بدون آن انجام می‌شود؛ یک خالی، هیچ‌کس هنوز حکمی صادر نکرده است. بر روی یک هشدار یا دایره بایستید تا ببینید اعلامیه چه می‌گوید.'
+    sources:
+      title: 'اینها از کجا آمده‌اند'
+      description: 'یک بسته در جدول است زیرا این را اعلام کرده است — با پیاده‌سازی `DesignSystemElementsBundleInterface`، روشی که یک بسته به بارگذار درباره مسیرهای جلو خود می‌گوید. هر کدام `data/elements.json` را درون دارایی‌های خود می‌نویسد، که با آنها منتشر می‌شود، بنابراین ساخت، سمت نود، یک زبان دیگر یا یک عامل همه از همان فایل‌ها کار می‌کنند؛ این صفحه فقط اتحادی از آنهاست.'
+    abstract:
+      title: انتزاعی
+      description: 'پنج پایه زیر `components/_abstract/`، که هیچ‌گاه کشیده نمی‌شوند — آنها فقط گسترش می‌یابند. `_abstract/vue` سه بلوک خالی twig است که سی و یک الگو آن را پر می‌کند؛ `_abstract/form-field` اساسی است که دوازده ورودی بر اساس آن ساخته می‌شود. آنها از ماتریس خارج هستند به دلیلی که شکل‌ها نیز خارج هستند: آنها به کسی تحویل داده نمی‌شوند، بنابراین درخواست یک طرح‌واره یا دوقلوی React از آنها سؤالی است که هیچ راهی برای پاسخ به آن ندارند. خط زیر می‌گوید قبل از اینکه کسی دایرکتوری را باز کند. آنچه نشان داده می‌شود آن چیزی است که هر یک از آنها قبلاً به هر کسی که آن را گسترش می‌دهد می‌آورد.'
+    shapes:
+      title: شکل‌ها
+      description: 'یک شکل یک سبک بدون رندر کننده است: شما نشانه‌گذاری را می‌نویسید، کلاس را بر روی آن قرار می‌دهید و شیوه‌نامه را از خودتان `@use` می‌کنید. `.stack`، `.grid`، `.block`، `.cluster`. آنها در اینجا فهرست شده‌اند و در جدول بالا نیستند زیرا جدولی از رندرکننده‌ها ستونی برای ارائه چیزی که رندر کننده‌ای ندارد ندارد — و نبود آنها در آن دلیل است که تمام هشدارهای آن به معنای کار است نه سؤالی که به بدی پرسیده شده است. خط توسط فایل‌ها کشیده می‌شود، نه بر اساس سلیقه: یک شکل دقیقاً یک `.scss` است و هیچ چیز آن را رندر نمی‌کند، بنابراین روزی که یک `.html.twig` به دست می‌آورد به `components/` منتقل می‌شود و به ماتریس ملحق می‌شود. آن حرکت تنها ارتقاء‌ای است که وجود دارد. آنچه هر یک درباره خود می‌گوید از سرآغاز شیوه‌نامه‌اش خوانده می‌شود، بنابراین هیچ مکان دومی برای دور شدن از آن وجود ندارد.'
+    coverage:
+      title: 'آنچه این جا را خالی می‌گذارد'
+      description: 'دایرکتوری‌های `assets/` که اسکن به آنها نمی‌رود، از دیسک فهرست شده‌اند نه از حافظه. میکسین‌ها، ابزارها و توکن‌ها عناصر نیستند و ممکن است هرگز ردیف‌هایی در اینجا نباشند؛ لایه‌ها و اسکریپت‌های مشترک هستند و هنوز پوشش داده نشده‌اند.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Varasto
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Jokainen elementti, jonka paketti sisältää, sekä muodot, joilla se toimitetaan. Taulukko ei ole listaus, jota kukaan ylläpitää: se on rekisteri, jonka jokainen paketti sisältää, koottuna sen ilmoituksista ja tarkistettuna komponenttien läpikäynnin perusteella. Se kertoo, mitä siellä on — ei koskaan, mitä pitäisi olla, mikä on kysymys, johon mikään skannaus ei voi vastata ja jonka elementtien on ilmoitettava itse.'
+  problems:
+    title: 'Ilmoitus ja varat ovat ristiriidassa'
+    body: 'Näytetään täällä, koska tämä sivu on koottu resursseista kehitysvaiheessa, joten se näkee, mitä `%command%` kieltäytyy kirjoittamasta. Jokainen alla oleva kohta nimeää elementin; taulukko on silti piirretty.'
+  missing:
+    title: 'Rekisteri puuttuu'
+    body: '%bundles% on ilmoittautunut pitävänsä elementtejä, mutta sillä ei ole rekisteriä levyllä, joten sen rivit puuttuvat alla olevasta taulukosta. Suorita `%command%` ja tallenna tulos.'
+  summary:
+    label: 'Mikä on laskettu'
+    count: 'Kuinka monta'
+    elements: 'Löydetyt elementit'
+    todo: 'Muodot, jotka on vielä tehtävä'
+    undecided: 'Päätökset eivät vielä tehty'
+    shapes: Muodot
+    abstracts: 'Abstraktit pohjat'
+  column:
+    element: Elementti
+    shape: Muoto
+    description: 'Mihin se on tarkoitettu'
+  cell:
+    absent: 'Ei löytynyt tästä formaatista, eikä ilmoitus kerro miksi — päätös ei ole vielä tehty'
+    todo: 'Haluttu tässä formaatissa, mutta ei vielä siellä'
+    shared: 'Myös %bundles%:n hallussa. Ei virhe — lataaja erottaa ne aliaksen mukaan — mutta on hyvä tietää, onko kyseessä yksi elementti piirrettynä uudelleen vai kaksi, joilla on sama nimi.'
+  format:
+    style:
+      title: Tyylit
+      description: 'Tyylitiedosto, joka ladataan lataajan toimesta, kun komponentti on sivulla.'
+    template:
+      title: Mallipohja
+      description: 'Palvelimen renderöijä, joka piirtää twigillä.'
+    vue:
+      title: Vue
+      description: 'Asiakkaan kaksoiskappale, joka piirretään selaimessa samoista vaihtoehdoista.'
+    script:
+      title: Skripti
+      description: 'Käyttäytyminen, sidottu merkintään, kun se on asiakirjassa.'
+    schema:
+      title: Skeema
+      description: 'Sopimus: mitä komponentti ottaa, tyypit ja oletukset. Kaikki muut renderöijät ovat tarkistettavissa sen mukaan.'
+    ai:
+      title: AI
+      description: 'Mitä agentille kerrotaan komponentista: skeema, kuinka sitä käytetään, työkalut, jotka vaikuttavat siihen.'
+    react:
+      title: React
+      description: React-renderöijä.
+    flutter:
+      title: Flutter
+      description: 'Flutter-renderöijä, kirjoitettu dartilla skeeman mukaan. Merkintä ei siirry; sopimus ja tokenit siirtyvät.'
+  section:
+    matrix:
+      title: 'Elementti muodossa'
+      description: 'Yksi rivi per komponentti, yksi sarake per renderöijä. Komponentti on hakemisto `components/`-kansiossa, joka sisältää kaikki tavat, joilla se voidaan piirtää — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — joten mitään ei tarvitse enää sovittaa neljää hakemistoa nimien mukaan. Yksi solu laskee sen takana olevat tiedostot — vie hiiri sen päälle nähdäksesi ne. Jokainen ilmoitettu elementti lukee samalla tasolla — rivi, joka löytyy yhdestä formaatista, voi olla aukko tai primitiivi, joka ei halua mitään muuta, ja sen selvittäminen on työnä, jota tämä taulukko varten tekee, eikä jotain, jonka se jo tietää. Neljä tilaa, erotettuna siitä, kenen vuoro on seuraavaksi: tarkistus, elementti on siellä; varoitus, sitä halutaan ja se puuttuu; yliviivattu ympyrä, se toimii tarkoituksella ilman; tyhjää, kukaan ei ole vielä päättänyt. Vie hiiri varoituksen tai ympyrän päälle nähdäksesi, mitä ilmoitus sanoo.'
+    sources:
+      title: 'Mistä nämä tulevat'
+      description: 'Paketti on taulukossa, koska se ilmoitti niin — toteuttamalla `DesignSystemElementsBundleInterface`, tapa, jolla paketti kertoo lataajalle etupolkuistaan. Kukin kirjoittaa `data/elements.json` omiin resursseihinsa, julkaistuna niiden mukana, jotta build, node-puoli, toinen kieli tai agentti toimivat kaikista samoista tiedostoista; tämä sivu on vain niiden yhdiste.'
+    abstract:
+      title: Abstrakti
+      description: 'Viisi pohjaa `components/_abstract/`-hakemistossa, joita ei koskaan piirretä — ne vain laajenevat. `_abstract/vue` on kolme tyhjää twig-lohkoa, joita kolmekymmentä yksi mallipohjaa täyttää; `_abstract/form-field` on se, mihin kaksitoista syötettä rakennetaan. Ne ovat pois matriisista syystä, että muodot ovat: niitä ei toimiteta kenellekään, joten kysyminen niiltä skeemaa tai react-kaksoiskappaletta on kysymys, johon niillä ei ole tapaa vastata. Alaviiva kertoo sen ennen kuin kukaan avaa hakemiston. Näytettävä on se, mitä kukin jo tuo mukanansa, kun sitä laajennetaan.'
+    shapes:
+      title: Muodot
+      description: 'Muoto on tyyli ilman renderöijää: kirjoitat merkinnän, laitat luokan siihen ja `@use` tyylitiedoston omasta. `.stack`, `.grid`, `.block`, `.cluster`. Ne on lueteltu täällä eikä yllä olevassa taulukossa, koska renderöijien taulukolla ei ole saraketta tarjota jotain, jolla ei ole — ja niiden puuttuminen siitä on syy, miksi sen varoitukset tarkoittavat työtä eikä huonosti esitettyä kysymystä. Raja vedetään tiedostojen mukaan, ei maun mukaan: muoto on tarkalleen yksi `.scss` ja mikään ei renderöi sitä, joten päivänä, jolloin se saa `.html.twig`:n, se siirtyy `components/`-hakemistoon ja liittyy matriisiin. Se siirto on ainoa ylennys, joka on olemassa. Se, mitä kukin sanoo itsestään, luetaan omasta tyylitiedostonsa päästä, joten sille ei ole toista paikkaa, josta se voisi vaeltaa.'
+    coverage:
+      title: 'Mitä tämä jättää pois'
+      description: 'Hakemistot `assets/`, joita skannaus ei kulje, lueteltuna levystä eikä muistista. Mixinit, työkalut ja tokenit eivät ole elementtejä eivätkä ehkä koskaan ole rivejä täällä; asettelut ja jaetut skriptit ovat, eikä niitä ole vielä käsitelty.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inventaire
+  page_icon: 'ph:bold/list-checks'
+  intro: "Chaque élément que le bundle expédie, et les formats dans lesquels il est livré. Le tableau n'est pas une liste que quelqu'un maintient : c'est le registre que chaque bundle expédie, compilé à partir de ses déclarations et vérifié par un examen de ses composants. Il répond à ce qui est présent — jamais à ce qui devrait être, une question qu'aucun scan ne peut régler et que les éléments devront déclarer eux-mêmes."
+  problems:
+    title: 'Une déclaration et les actifs sont en désaccord'
+    body: "Affiché ici parce que cette page est compilée à partir des actifs pendant le développement, donc elle voit ce que `%command%` refuserait d'écrire. Chaque point ci-dessous nomme l'élément ; le tableau est dessiné tout de même."
+  missing:
+    title: 'Un registre est manquant'
+    body: "%bundles% s'est inscrit comme détenteur d'éléments mais n'a aucun registre sur disque, donc ses lignes sont absentes du tableau ci-dessous. Exécutez `%command%` et engagez le résultat."
+  summary:
+    label: 'Ce qui est compté'
+    count: Combien
+    elements: 'Éléments trouvés'
+    todo: 'Formats à faire'
+    undecided: 'Décisions non encore prises'
+    shapes: Formes
+    abstracts: 'Bases abstraites'
+  column:
+    element: Élément
+    shape: Forme
+    description: 'À quoi cela sert'
+  cell:
+    absent: 'Non trouvé dans ce format, et la déclaration ne dit pas pourquoi — une décision non encore prise'
+    todo: 'Souhaité dans ce format et pas encore présent'
+    shared: "Aussi détenu par %bundles%. Ce n'est pas une faute — le chargeur les distingue par alias — mais il vaut la peine de savoir s'il s'agit d'un élément redessiné ou de deux qui partagent un nom."
+  format:
+    style:
+      title: Style
+      description: 'La feuille de style, chargée par le chargeur lorsque le composant est sur la page.'
+    template:
+      title: Modèle
+      description: 'Le rendu du serveur, dessiné par twig.'
+    vue:
+      title: Vue
+      description: 'Le jumeau client, dessiné dans le navigateur à partir des mêmes options.'
+    script:
+      title: Script
+      description: "Le comportement, lié au balisage une fois qu'il est dans le document."
+    schema:
+      title: Schéma
+      description: 'Le contrat : ce que le composant prend, avec types et valeurs par défaut. Chaque autre rendu est vérifiable par rapport à cela.'
+    ai:
+      title: IA
+      description: "Ce qu'un agent sait sur le composant : le schéma, comment l'utiliser, les outils qui agissent dessus."
+    react:
+      title: React
+      description: 'Le rendu react.'
+    flutter:
+      title: Flutter
+      description: 'Le rendu flutter, écrit en dart contre le schéma. Le balisage ne se transfère pas ; le contrat et les jetons le font.'
+  section:
+    matrix:
+      title: 'Élément par format'
+      description: "Une ligne par composant, une colonne par rendu. Un composant est un répertoire sous `components/` contenant chaque manière dont il peut être dessiné — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — donc rien ici n'a besoin de réconcilier quatre répertoires par nom à nouveau. Une cellule compte les fichiers derrière elle — survolez-en un pour les voir. Chaque élément déclaré est lu au même niveau — une ligne trouvée dans un format unique peut être un écart ou un primitif qui ne veut rien d'autre, et trier cela est le travail pour lequel ce tableau est conçu plutôt que quelque chose qu'il sait déjà. Quatre états, distingués par qui doit jouer ensuite : un contrôle, l'élément est là ; un avertissement, il est voulu et manquant ; un cercle barré, il s'en passe intentionnellement ; un blanc, personne n'a encore tranché. Survolez un avertissement ou un cercle pour voir ce que dit la déclaration."
+    sources:
+      title: "D'où viennent ces éléments"
+      description: "Un bundle est dans le tableau parce qu'il l'a dit — en implémentant `DesignSystemElementsBundleInterface`, la façon dont un bundle informe le chargeur de ses chemins frontaux. Chacun écrit `data/elements.json` à l'intérieur de ses propres actifs, publiés avec eux, afin que la construction, le côté node, une autre langue ou un agent fonctionnent tous à partir des mêmes fichiers ; cette page est seulement leur union."
+    abstract:
+      title: Abstrait
+      description: "Les cinq bases sous `components/_abstract/`, qui ne sont jamais dessinées — elles sont seulement étendues. `_abstract/vue` est trois blocs twig vides que trente et un modèles remplissent ; `_abstract/form-field` est ce sur quoi douze entrées sont construites. Elles sont hors de la matrice pour la raison pour laquelle les formes le sont : elles ne sont livrées à personne, donc leur demander un schéma ou un jumeau react est poser une question à laquelle elles n'ont aucun moyen de répondre. Le soulignement dit autant avant que quiconque n'ouvre le répertoire. Ce qui est montré est ce que chacun apporte déjà à quiconque l'étend."
+    shapes:
+      title: Formes
+      description: "Une forme est un style sans rendu : vous écrivez le balisage, mettez la classe dessus, et `@use` la feuille de style de votre propre. `.stack`, `.grid`, `.block`, `.cluster`. Elles sont listées ici et non dans le tableau ci-dessus parce qu'un tableau de rendus n'a pas de colonne pour offrir quelque chose qui n'en a pas — et leur absence en est la raison pour laquelle tous ses avertissements signifient du travail plutôt qu'une question mal posée. La ligne est tracée par les fichiers, pas par le goût : une forme est exactement un `.scss` et rien ne la rend, donc le jour où elle obtient un `.html.twig`, elle passe dans `components/` et rejoint la matrice. Ce mouvement est la seule promotion qui existe. Ce que chacun dit de lui-même est lu à partir du haut de sa propre feuille de style, donc il n'y a pas de deuxième place d'où il puisse dériver."
+    coverage:
+      title: 'Ce que cela laisse de côté'
+      description: 'Répertoires de `assets/` que le scan ne parcourt pas, listés depuis le disque plutôt que depuis la mémoire. Les mixins, utilitaires et jetons ne sont pas des éléments et ne peuvent jamais être des lignes ici ; les mises en page et scripts partagés le sont, et ne sont pas encore couverts.'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: מלאי
+  page_icon: 'ph:bold/list-checks'
+  intro: 'כל רכיב שהחבילה שולחת, והפורמטים שבהם היא נמסרת. הטבלה אינה רשימה שמישהו שומר עליה: זו הרישום שכל חבילה שולחת, שנאסף מההצהרות שלה ונבדק מול רכיביה. היא עונה על מה שיש שם — לעולם לא על מה שצריך להיות, שזו שאלה שאין סריקה שיכולה לפתור ושאותם רכיבים יצטרכו להצהיר עליה בעצמם.'
+  problems:
+    title: 'ההצהרה והנכסים לא מסכימים'
+    body: 'מופיע כאן כי הדף הזה נאסף מהנכסים במהלך הפיתוח, כך שהוא רואה מה ש`%command%` יסרב לכתוב. כל נקודה למטה מתארת את הרכיב; הטבלה נמשכת בכל מקרה.'
+  missing:
+    title: 'רישום חסר'
+    body: '%bundles% נרשם כהחזקה של רכיבים אך אין לו רישום בדיסק, כך ששורותיו חסרות מהטבלה למטה. הפעל את `%command%` ואת מחויב את התוצאה.'
+  summary:
+    label: 'מה שסופר'
+    count: כמה
+    elements: 'רכיבים שנמצאו'
+    todo: 'פורמטים שנותרו לעשות'
+    undecided: 'החלטות שעדיין לא התקבלו'
+    shapes: צורות
+    abstracts: 'בסיסים אבסטרקטיים'
+  column:
+    element: רכיב
+    shape: צורה
+    description: 'מה זה לשם'
+  cell:
+    absent: 'לא נמצא בפורמט הזה, וההצהרה לא אומרת למה — החלטה שעדיין לא התקבלה'
+    todo: 'רצוי בפורמט הזה ואינו שם עדיין'
+    shared: 'גם מוחזק על ידי %bundles%. לא תקלה — הטען מבחין ביניהם על פי כינוי — אבל כדאי לדעת אם זה אותו רכיב שנצבע מחדש או שניים שחולקים שם.'
+  format:
+    style:
+      title: סגנון
+      description: 'גיליון הסגנונות, נטען על ידי הטען כאשר הרכיב נמצא בדף.'
+    template:
+      title: תבנית
+      description: 'המנפיק בשרת, נמשך על ידי twig.'
+    vue:
+      title: Vue
+      description: 'התאום בלקוח, נמשך בדפדפן מאותן אפשרויות.'
+    script:
+      title: סקריפט
+      description: 'ההתנהגות, מחוברת למרק-up ברגע שהיא במסמך.'
+    schema:
+      title: סקימה
+      description: 'החוזה: מה שהרכיב לוקח, עם סוגים וברירות מחדל. כל מנפיק אחר ניתן לבדוק מולו.'
+    ai:
+      title: 'בינה מלאכותית'
+      description: 'מה שנאמר לסוכן על הרכיב: הסקימה, איך להשתמש בו, הכלים שפועלים עליו.'
+    react:
+      title: React
+      description: 'המנפיק של react.'
+    flutter:
+      title: Flutter
+      description: 'המנפיק של flutter, נכתב ב-dart נגד הסקימה. המרק-up לא מועבר; החוזה והטוקנים כן.'
+  section:
+    matrix:
+      title: 'רכיב לפי פורמט'
+      description: 'שורה אחת לכל רכיב, עמודה אחת לכל מנפיק. רכיב הוא תיקיה תחת `components/` המחזיקה בכל דרך שהיא יכולה להיות מצויירת — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — כך שאין צורך ליישב כאן ארבע תיקיות לפי שם יותר. תא סופר את הקבצים מאחוריו — ריחף אחד כדי לראותם. כל רכיב שהוצהר נקרא באותו רמה — שורה שנמצאת בפורמט אחד עשויה להיות רווח או פרימיטיבי שלא רוצה דבר נוסף, וסידור זה הוא העבודה שהטבלה הזו מיועדת לה ולא משהו שהיא כבר יודעת. ארבע מדינות, נבדלות לפי מי התור הבא: בדיקה, הרכיב נמצא שם; אזהרה, הוא רצוי וחסר; מעגל מוחק, הוא עושה בלי בכוונה; ריק, אף אחד לא קבע עדיין. ריחף אזהרה או מעגל כדי לראות מה אומרת ההצהרה.'
+    sources:
+      title: 'מאיפה זה מגיע'
+      description: 'חבילה נמצאת בטבלה כי היא אמרה כך — על ידי מימוש `DesignSystemElementsBundleInterface`, הדרך שבה חבילה אומרת לטעון על מסלולי הקצה שלה. כל אחת כותבת `data/elements.json` בתוך הנכסים שלה, שפורסמו עימן, כך שהבנייה, צד הנוד, שפה אחרת או סוכן כולם עובדים מאותה קבצים; דף זה הוא רק האיחוד שלהם.'
+    abstract:
+      title: אבסטרקט
+      description: 'חמש הבסיסים תחת `components/_abstract/`, שמהם אף אחד לא מצייר — הם רק מורחבים. `_abstract/vue` הוא שלושה בלוקים ריקים של twig שמלאים על ידי שלושים ואחת תבניות; `_abstract/form-field` הוא מה שעליו נבנים שנים עשר קלטים. הם מחוץ למטריצה מהסיבה שהצורות הם: הם לא נמסרים לאף אחד, כך שבקשתם לסקימה או תאום react היא שאלה שאין להם דרך לענות עליה. הקו התחתון אומר את זה לפני שמישהו פותח את התיקיה. מה שמוצג הוא מה שכל אחד כבר מביא למי שמרחיב אותו.'
+    shapes:
+      title: צורות
+      description: 'צורה היא סגנון בלי מנפיק: אתה כותב את המרק-up, שם את הכיתה עליה, ו`@use` את גיליון הסגנונות שלך. `.stack`, `.grid`, `.block`, `.cluster`. הם רשומים כאן ולא בטבלה למעלה כי טבלה של מנפיקים אין לה עמודה להציע משהו שאין לו — והיעדרם משם הוא הסיבה לכך שכל האזהרות שלה משמעותן עבודה ולא שאלה שהושאלה בצורה גרועה. הקו נמשך על ידי הקבצים, לא על ידי טעם: צורה היא בדיוק אחת `.scss` ולא שום דבר מצייר אותה, כך שביום שבו רוכשים `.html.twig` היא עוברת ל`components/` ומצטרפת למטריצה. המעבר הזה הוא היחיד שיש. מה שכל אחד אומר על עצמו נקרא מראש גיליון הסגנונות שלו, כך שאין מקום שני שבו הוא יכול לנדוד.'
+    coverage:
+      title: 'מה שזה משאיר בחוץ'
+      description: 'תיקיות של `assets/` שהסריקה לא עוברת, רשומות מהדיסק ולא מהזיכרון. מיקסינים, כלים וטוקנים אינם רכיבים ואולי לעולם לא יהיו שורות כאן; פריסות וסקריפטים משותפים הם, ועדיין לא מכוסים.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: इन्वेंटरी
+  page_icon: 'ph:bold/list-checks'
+  intro: 'हर तत्व जो बंडल भेजता है, और जिस प्रारूप में यह वितरित किया जाता है। यह तालिका कोई सूची नहीं है जिसे कोई बनाए रखता है: यह रजिस्ट्रियों की सूची है जो प्रत्येक बंडल भेजता है, इसके घोषणाओं से संकलित और इसके घटकों की जांच के खिलाफ। यह बताता है कि वहाँ क्या है — कभी क्या होना चाहिए, जो एक सवाल है जिसे कोई स्कैन हल नहीं कर सकता और जिसे तत्वों को अपने लिए घोषित करना होगा।'
+  problems:
+    title: 'एक घोषणा और संपत्तियों में असहमति'
+    body: 'यहाँ दिखाया गया है क्योंकि यह पृष्ठ विकास के दौरान संपत्तियों से संकलित होता है, इसलिए यह देखता है कि `%command%` लिखने से इनकार करेगा। नीचे प्रत्येक बिंदु तत्व का नाम देता है; तालिका वैसे ही खींची गई है।'
+  missing:
+    title: 'एक रजिस्ट्रेशन गायब है'
+    body: '%bundles% ने तत्वों को रखने के रूप में साइन अप किया लेकिन इसके पास डिस्क पर कोई रजिस्ट्रेशन नहीं है, इसलिए इसकी पंक्तियाँ नीचे की तालिका से अनुपस्थित हैं। `%command%` चलाएँ और परिणाम को कमिट करें।'
+  summary:
+    label: 'क्या गिना गया है'
+    count: कितने
+    elements: 'पाए गए तत्व'
+    todo: 'करने के लिए प्रारूप'
+    undecided: 'अभी तक निर्णय नहीं लिया गया'
+    shapes: आकृतियाँ
+    abstracts: अवधारणाएँ
+  column:
+    element: तत्व
+    shape: आकृति
+    description: 'इसके लिए क्या है'
+  cell:
+    absent: 'इस प्रारूप में नहीं मिला, और घोषणा नहीं कहती कि क्यों — एक निर्णय अभी तक नहीं लिया गया'
+    todo: 'इस प्रारूप में चाहिए और अभी वहां नहीं है'
+    shared: '%bundles% द्वारा भी रखा गया। यह एक गलती नहीं है — लोडर उन्हें उपनाम से अलग बताता है — लेकिन यह जानना अच्छा है कि क्या यह एक पुनः खींचा गया तत्व है या दो जो एक नाम साझा करते हैं।'
+  format:
+    style:
+      title: शैली
+      description: 'शैली पत्रक, लोडर द्वारा उस समय लोड किया जाता है जब घटक पृष्ठ पर होता है।'
+    template:
+      title: टेम्पलेट
+      description: 'सर्वर रेंडरर, जो ट्विग द्वारा खींचा जाता है।'
+    vue:
+      title: व्यू
+      description: 'क्लाइंट जुड़वां, जो उसी विकल्पों से ब्राउज़र में खींचा जाता है।'
+    script:
+      title: स्क्रिप्ट
+      description: 'व्यवहार, जो एक बार दस्तावेज़ में होने पर मार्कअप से बंधा होता है।'
+    schema:
+      title: स्कीमा
+      description: 'अनुबंध: जो घटक लेता है, प्रकारों और डिफ़ॉल्ट के साथ। हर अन्य रेंडरर इसके खिलाफ चेक किया जा सकता है।'
+    ai:
+      title: एआई
+      description: 'घटक के बारे में एजेंट को बताया गया: स्कीमा, इसका उपयोग कैसे करें, उस पर कार्य करने वाले उपकरण।'
+    react:
+      title: रिएक्ट
+      description: 'रिएक्ट रेंडरर।'
+    flutter:
+      title: फ्लटर
+      description: 'फ्लटर रेंडरर, स्कीमा के खिलाफ डार्ट में लिखा गया। मार्कअप नहीं ले जाता; अनुबंध और टोकन करते हैं।'
+  section:
+    matrix:
+      title: 'प्रारूप द्वारा तत्व'
+      description: 'प्रत्येक घटक के लिए एक पंक्ति, प्रत्येक रेंडरर के लिए एक कॉलम। एक घटक `components/` के तहत एक निर्देशिका है जो इसे खींचने के हर तरीके को रखता है — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — इसलिए यहाँ कुछ भी नाम द्वारा चार निर्देशिकाओं को समायोजित करने की आवश्यकता नहीं है। एक सेल इसके पीछे की फ़ाइलों की गिनती करता है — एक पर होवर करें उन्हें देखने के लिए। प्रत्येक घोषित तत्व एक ही स्तर पर पढ़ता है — एक पंक्ति जो एकल प्रारूप में पाई जाती है वह एक अंतराल हो सकती है या एक प्राथमिकता जो कुछ और नहीं चाहती, और इसे सुलझाना इस तालिका का काम है न कि कुछ ऐसा जो यह पहले से जानता है। चार राज्य, जिन्हें अगली चाल के अनुसार अलग किया जाता है: एक जांच, तत्व वहाँ है; एक चेतावनी, इसकी आवश्यकता है और गायब है; एक स्ट्राइक सर्कल, यह जानबूझकर बिना करता है; एक खाली, कोई अभी तक शासन नहीं किया है। एक चेतावनी या एक सर्कल पर होवर करें यह देखने के लिए कि घोषणा क्या कहती है।'
+    sources:
+      title: 'यहाँ से ये आते हैं'
+      description: 'एक बंडल तालिका में है क्योंकि उसने ऐसा कहा — `DesignSystemElementsBundleInterface` को लागू करके, जिस तरह से एक बंडल लोडर को अपने फ्रंट पथों के बारे में बताता है। प्रत्येक अपने स्वयं के संपत्तियों के भीतर `data/elements.json` लिखता है, जो उनके साथ प्रकाशित होते हैं, इसलिए निर्माण, नोड पक्ष, दूसरी भाषा या एजेंट सभी एक ही फ़ाइलों से काम करते हैं; यह पृष्ठ केवल उनका संघ है।'
+    abstract:
+      title: अवधारणा
+      description: '`components/_abstract/` के तहत पांच मूल बातें, जिन्हें कभी नहीं खींचा जाता — वे केवल विस्तारित होते हैं। `_abstract/vue` तीन खाली ट्विग ब्लॉक्स हैं जिन्हें इकतीस टेम्पलेट भरते हैं; `_abstract/form-field` वह है जिस पर बारह इनपुट बनाए जाते हैं। वे मैट्रिक्स से बाहर हैं क्योंकि आकृतियाँ हैं: उन्हें किसी को वितरित नहीं किया जाता, इसलिए उनसे स्कीमा या रिएक्ट जुड़वां के लिए पूछना एक ऐसा सवाल पूछ रहा है जिसका उत्तर उनके पास नहीं है। अंडरस्कोर यह बताता है कि कोई भी निर्देशिका खोलने से पहले। जो दिखाया गया है वह है जो प्रत्येक पहले से लाता है जो इसे विस्तारित करता है।'
+    shapes:
+      title: आकृतियाँ
+      description: 'एक आकृति एक शैली है जिसमें कोई रेंडरर नहीं है: आप मार्कअप लिखते हैं, उस पर वर्ग डालते हैं, और अपनी ओर से शैली पत्रक का `@use` करते हैं। `.stack`, `.grid`, `.block`, `.cluster`। उन्हें यहाँ सूचीबद्ध किया गया है और ऊपर की तालिका में नहीं क्योंकि रेंडरर्स की तालिका में कुछ ऐसा पेश करने के लिए कोई कॉलम नहीं है जिसके पास कोई नहीं है — और उनकी अनुपस्थिति से ही इसके सभी चेतावनियाँ कार्य का अर्थ रखती हैं न कि एक बुरी तरह पूछे गए सवाल का। रेखा फ़ाइलों द्वारा खींची जाती है, स्वाद द्वारा नहीं: एक आकृति ठीक एक `.scss` है और इसे कोई रेंडर नहीं करता, इसलिए जिस दिन कोई `.html.twig` प्राप्त करता है वह `components/` में चला जाता है और मैट्रिक्स में शामिल होता है। वह कदम ही एकमात्र पदोन्नति है। जो प्रत्येक अपने बारे में कहता है वह अपनी खुद की शैली पत्रक के शीर्ष से पढ़ा जाता है, इसलिए इसके लिए कहीं और drift करने के लिए कोई दूसरा स्थान नहीं है।'
+    coverage:
+      title: 'यह क्या छोड़ता है'
+      description: '`assets/` की निर्देशिकाएँ जिन्हें स्कैन नहीं किया गया, डिस्क से सूचीबद्ध किया गया न कि मेमोरी से। मिक्सिन, उपयोगिताएँ और टोकन तत्व नहीं हैं और यहाँ कभी भी पंक्तियाँ नहीं हो सकतीं; लेआउट और साझा स्क्रिप्ट हैं, और अभी तक कवर नहीं किए गए हैं।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inventaris
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Setiap elemen yang dikirimkan oleh bundel, dan format yang digunakan untuk menyampaikannya. Tabel ini bukanlah daftar yang dipelihara oleh siapa pun: ini adalah registri setiap bundel yang dikirim, disusun dari deklarasinya dan diperiksa terhadap komponen-komponennya. Ini menjawab apa yang ada — tidak pernah apa yang seharusnya ada, yang merupakan pertanyaan yang tidak dapat diselesaikan oleh pemindaian mana pun dan yang harus dinyatakan oleh elemen itu sendiri.'
+  problems:
+    title: 'Sebuah deklarasi dan aset tidak cocok'
+    body: 'Ditampilkan di sini karena halaman ini disusun dari aset saat pengembangan, sehingga melihat apa yang `%command%` akan menolak untuk ditulis. Setiap titik di bawah ini menyebutkan elemen; tabel ini digambar sama saja.'
+  missing:
+    title: 'Registri hilang'
+    body: '%bundles% terdaftar sebagai pemegang elemen tetapi tidak memiliki registri di disk, sehingga barisnya tidak ada dalam tabel di bawah. Jalankan `%command%` dan komit hasilnya.'
+  summary:
+    label: 'Apa yang dihitung'
+    count: 'Berapa banyak'
+    elements: 'Elemen ditemukan'
+    todo: 'Format yang perlu dikerjakan'
+    undecided: 'Keputusan belum dibuat'
+    shapes: Bentuk
+    abstracts: 'Basis abstrak'
+  column:
+    element: Elemen
+    shape: Bentuk
+    description: 'Apa fungsinya'
+  cell:
+    absent: 'Tidak ditemukan dalam format ini, dan deklarasi tidak menjelaskan mengapa — keputusan belum dibuat'
+    todo: 'Diharapkan dalam format ini dan belum ada di sana'
+    shared: 'Juga dimiliki oleh %bundles%. Bukan kesalahan — pemuat membedakan mereka dengan alias — tetapi penting untuk mengetahui apakah ini satu elemen yang digambar ulang atau dua yang berbagi nama.'
+  format:
+    style:
+      title: Gaya
+      description: 'Gaya yang dimuat oleh pemuat ketika komponen ada di halaman.'
+    template:
+      title: Template
+      description: 'Renderer server, digambar oleh twig.'
+    vue:
+      title: Vue
+      description: 'Kembar klien, digambar di browser dari opsi yang sama.'
+    script:
+      title: Script
+      description: 'Perilaku, terikat pada markup setelah ada di dokumen.'
+    schema:
+      title: Skema
+      description: 'Kontrak: apa yang diambil komponen, dengan tipe dan default. Setiap renderer lainnya dapat diperiksa terhadapnya.'
+    ai:
+      title: AI
+      description: 'Apa yang diberitahukan kepada agen tentang komponen: skema, cara menggunakannya, alat yang berfungsi padanya.'
+    react:
+      title: React
+      description: 'Renderer react.'
+    flutter:
+      title: Flutter
+      description: 'Renderer flutter, ditulis dalam dart berdasarkan skema. Markup tidak dibawa; kontrak dan token dibawa.'
+  section:
+    matrix:
+      title: 'Elemen berdasarkan format'
+      description: 'Satu baris per komponen, satu kolom per renderer. Sebuah komponen adalah direktori di bawah `components/` yang memuat setiap cara ia dapat digambar — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — sehingga tidak ada yang perlu mencocokkan empat direktori dengan nama lagi. Sebuah sel menghitung file di belakangnya — arahkan mouse ke salah satu untuk melihatnya. Setiap elemen yang dideklarasikan dibaca pada tingkat yang sama — sebuah baris yang ditemukan dalam satu format mungkin merupakan celah atau primitif yang tidak menginginkan yang lain, dan mengurutkan itu adalah pekerjaan yang ditujukan oleh tabel ini daripada sesuatu yang sudah diketahui. Empat status, dibedakan oleh siapa yang bergerak selanjutnya: sebuah cek, elemen ada di sana; sebuah peringatan, itu diinginkan dan hilang; sebuah lingkaran yang dicoret, itu tanpa sengaja; sebuah kosong, belum ada yang memutuskan. Arahkan mouse ke peringatan atau lingkaran untuk apa yang dikatakan deklarasi.'
+    sources:
+      title: 'Dari mana ini berasal'
+      description: 'Sebuah bundel ada di tabel karena menyatakannya — dengan mengimplementasikan `DesignSystemElementsBundleInterface`, cara bundel memberi tahu pemuat tentang jalur depannya. Setiap satu menulis `data/elements.json` di dalam asetnya sendiri, diterbitkan bersamanya, sehingga build, sisi node, bahasa lain atau agen semua bekerja dari file yang sama; halaman ini hanya merupakan persatuan mereka.'
+    abstract:
+      title: Abstrak
+      description: 'Lima basis di bawah `components/_abstract/`, yang tidak pernah digambar — mereka hanya diperluas. `_abstract/vue` adalah tiga blok twig kosong yang diisi oleh tiga puluh satu template; `_abstract/form-field` adalah apa yang dibangun oleh dua belas input. Mereka berada di luar matriks karena alasan yang sama seperti bentuk: mereka tidak dikirimkan kepada siapa pun, jadi meminta mereka untuk skema atau kembar react adalah meminta pertanyaan yang tidak dapat mereka jawab. Garis bawah mengatakan hal yang sama sebelum siapa pun membuka direktori. Apa yang ditampilkan adalah apa yang masing-masing sudah bawa kepada siapa pun yang memperluasnya.'
+    shapes:
+      title: Bentuk
+      description: 'Sebuah bentuk adalah gaya tanpa renderer: Anda menulis markup, menaruh kelas di atasnya, dan `@use` stylesheet dari milik Anda sendiri. `.stack`, `.grid`, `.block`, `.cluster`. Mereka terdaftar di sini dan tidak di tabel di atas karena tabel renderer tidak memiliki kolom untuk menawarkan sesuatu yang tidak memiliki — dan ketidakadaan mereka dari situ adalah mengapa semua peringatan berarti pekerjaan daripada pertanyaan yang diajukan dengan buruk. Garis ditarik oleh file, bukan oleh selera: sebuah bentuk adalah tepat satu `.scss` dan tidak ada yang merendernya, jadi ketika satu mendapatkan `.html.twig` itu pindah ke `components/` dan bergabung dengan matriks. Pindah itu adalah satu-satunya promosi yang ada. Apa yang masing-masing katakan tentang dirinya dibaca dari kepala stylesheet-nya sendiri, jadi tidak ada tempat kedua untuk mengalir darinya.'
+    coverage:
+      title: 'Apa yang ini tidak mencakup'
+      description: 'Direktori `assets/` yang tidak dilalui oleh pemindaian, terdaftar dari disk daripada dari memori. Mixins, utilitas, dan token bukan elemen dan mungkin tidak pernah menjadi baris di sini; tata letak dan skrip bersama adalah, dan belum dicakup.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inventario
+  page_icon: 'ph:bold/list-checks'
+  intro: "Ogni elemento che il pacchetto spedisce e i formati in cui viene consegnato. La tabella non è un elenco mantenuto da nessuno: è il registro di ogni pacchetto, compilato dalle sue dichiarazioni e verificato contro una passeggiata dei suoi componenti. Risponde a ciò che c'è — mai a ciò che dovrebbe esserci, una domanda che nessuna scansione può risolvere e che gli elementi dovranno dichiarare per se stessi."
+  problems:
+    title: 'Una dichiarazione e le risorse non concordano'
+    body: "Visualizzato qui perché questa pagina è compilata dalle risorse durante lo sviluppo, quindi vede cosa `%command%` rifiuterebbe di scrivere. Ogni punto qui sotto nomina l'elemento; la tabella è tracciata comunque."
+  missing:
+    title: 'Un registro è mancante'
+    body: '%bundles% si è registrato come detentore di elementi ma non ha un registro su disco, quindi le sue righe sono assenti dalla tabella sottostante. Esegui `%command%` e impegna il risultato.'
+  summary:
+    label: 'Cosa è contato'
+    count: Quanti
+    elements: 'Elementi trovati'
+    todo: 'Formati da completare'
+    undecided: 'Decisioni non ancora prese'
+    shapes: Forme
+    abstracts: 'Basi astratte'
+  column:
+    element: Elemento
+    shape: Forma
+    description: 'A cosa serve'
+  cell:
+    absent: 'Non trovato in questo formato, e la dichiarazione non dice perché — una decisione non ancora presa'
+    todo: 'Desiderato in questo formato e non presente'
+    shared: 'Anche posseduto da %bundles%. Non è un errore — il caricatore li distingue per alias — ma è utile sapere se si tratta di un elemento ridisegnato o di due che condividono un nome.'
+  format:
+    style:
+      title: Stile
+      description: 'Il foglio di stile, caricato dal caricatore quando il componente è sulla pagina.'
+    template:
+      title: Modello
+      description: 'Il renderer del server, disegnato da twig.'
+    vue:
+      title: Vue
+      description: 'Il gemello client, disegnato nel browser dalle stesse opzioni.'
+    script:
+      title: Script
+      description: 'Il comportamento, legato al markup una volta che è nel documento.'
+    schema:
+      title: Schema
+      description: 'Il contratto: cosa prende il componente, con tipi e valori predefiniti. Ogni altro renderer può essere verificato contro di esso.'
+    ai:
+      title: AI
+      description: 'Cosa viene detto a un agente riguardo al componente: lo schema, come usarlo, gli strumenti che agiscono su di esso.'
+    react:
+      title: React
+      description: 'Il renderer react.'
+    flutter:
+      title: Flutter
+      description: 'Il renderer flutter, scritto in dart contro lo schema. Il markup non viene trasportato; il contratto e i token sì.'
+  section:
+    matrix:
+      title: 'Elemento per formato'
+      description: "Una riga per componente, una colonna per renderer. Un componente è una directory sotto `components/` che contiene ogni modo in cui può essere disegnato — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — quindi nulla qui deve riconciliare quattro directory per nome. Una cella conta i file dietro di essa — passa sopra uno per vederli. Ogni elemento dichiarato legge allo stesso livello — una riga trovata in un unico formato può essere un gap o un primitivo che non vuole altro, e risolvere questo è il lavoro per cui questa tabella è fatta piuttosto che qualcosa che già conosce. Quattro stati, distinti da chi è il prossimo a muoversi: un controllo, l'elemento è presente; un avviso, è desiderato e mancante; un cerchio barrato, si fa senza intenzionalmente; un vuoto, nessuno ha ancora deciso. Passa sopra un avviso o un cerchio per vedere cosa dice la dichiarazione."
+    sources:
+      title: 'Da dove provengono'
+      description: "Un pacchetto è nella tabella perché lo ha detto — implementando `DesignSystemElementsBundleInterface`, il modo in cui un pacchetto informa il caricatore sui suoi percorsi frontali. Ognuno scrive `data/elements.json` all'interno dei propri asset, pubblicati con essi, così che la build, il lato nodo, un'altra lingua o un agente lavorino tutti dagli stessi file; questa pagina è solo la loro unione."
+    abstract:
+      title: Astratto
+      description: "Le cinque basi sotto `components/_abstract/`, che nulla disegna mai — vengono solo estese. `_abstract/vue` è tre blocchi twig vuoti che trentuno modelli riempiono; `_abstract/form-field` è su cui dodici input sono costruiti. Sono fuori dalla matrice per il motivo per cui le forme lo sono: non vengono consegnati a nessuno, quindi chiedere loro uno schema o un gemello react è porre una domanda alla quale non hanno modo di rispondere. L'underscore dice tanto prima che chiunque apra la directory. Ciò che viene mostrato è ciò che ciascuno porta già a chiunque lo estenda."
+    shapes:
+      title: Forme
+      description: "Una forma è uno stile senza renderer: scrivi il markup, metti la classe su di esso, e `@use` il foglio di stile dal tuo. `.stack`, `.grid`, `.block`, `.cluster`. Sono elencati qui e non nella tabella sopra perché una tabella di renderer non ha colonna per offrire qualcosa che non ne ha — e la loro assenza da essa è il motivo per cui tutti i suoi avvisi significano lavoro piuttosto che una domanda mal posta. La linea è tracciata dai file, non dal gusto: una forma è esattamente un `.scss` e nulla la rende, quindi il giorno in cui si guadagna un `.html.twig` si sposta in `components/` e si unisce alla matrice. Quella mossa è l'unica promozione che c'è. Ciò che ciascuno dice di sé viene letto dalla testa del proprio foglio di stile, quindi non c'è un secondo posto da cui poter vagare."
+    coverage:
+      title: 'Cosa esclude'
+      description: 'Directory di `assets/` che la scansione non percorre, elencate dal disco piuttosto che dalla memoria. Mixins, utility e token non sono elementi e potrebbero mai essere righe qui; layout e script condivisi lo sono, e non sono ancora coperti.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: インベントリ
+  page_icon: 'ph:bold/list-checks'
+  intro: バンドルが出荷するすべての要素と、それが配信される形式。テーブルは誰かが管理するリストではなく、各バンドルが出荷するレジストリであり、その宣言からコンポーネントのウォークで確認されます。そこに何があるかを示し、何があるべきかという質問には答えません。スキャンでは解決できず、要素が自ら宣言する必要があります。
+  problems:
+    title: 宣言と資産が一致しない
+    body: このページは、開発中に資産からコンパイルされているため、`%command%`が書くことを拒否するものが表示されています。以下の各ポイントは要素の名前を示しており、テーブルは同様に描かれています。
+  missing:
+    title: レジストリが欠けています
+    body: '%bundles%は要素を保持することにサインアップしましたが、ディスク上にレジストリがないため、その行は下のテーブルに存在しません。`%command%`を実行して、結果をコミットしてください。'
+  summary:
+    label: カウントされたもの
+    count: 数
+    elements: 見つかった要素
+    todo: 残りの形式
+    undecided: 未決定の決定
+    shapes: 形状
+    abstracts: 抽象ベース
+  column:
+    element: 要素
+    shape: 形状
+    description: 何のためのものか
+  cell:
+    absent: 'この形式では見つからず、宣言はその理由を示していません — まだ決定されていません'
+    todo: この形式で必要だがまだ存在しない
+    shared: '%bundles%によっても保持されています。誤りではありません — ローダーはエイリアスで区別します — ただし、再描画された要素なのか、名前を共有する2つの要素なのかを知っておく価値があります。'
+  format:
+    style:
+      title: スタイル
+      description: コンポーネントがページにあるとき、ローダーによって読み込まれるスタイルシート。
+    template:
+      title: テンプレート
+      description: twigによって描画されるサーバーレンダラー。
+    vue:
+      title: Vue
+      description: 同じオプションからブラウザで描画されるクライアントツイン。
+    script:
+      title: スクリプト
+      description: 文書内にマークアップが入ったときに結びつく動作。
+    schema:
+      title: スキーマ
+      description: 契約：コンポーネントが受け取るもの、タイプとデフォルト。その他すべてのレンダラーはそれに対してチェック可能です。
+    ai:
+      title: AI
+      description: エージェントがコンポーネントについて知らされていること：スキーマ、使用方法、それに作用するツール。
+    react:
+      title: React
+      description: Reactレンダラー。
+    flutter:
+      title: Flutter
+      description: スキーマに対してdartで書かれたflutterレンダラー。マークアップは持ち越されず、契約とトークンのみが持ち越されます。
+  section:
+    matrix:
+      title: 形式ごとの要素
+      description: 'コンポーネントごとに1行、レンダラーごとに1列。コンポーネントは`components/`の下にあり、描画できるすべての方法を保持しています — `spinner/spinner.scss`、`spinner.html.twig`、`spinner.vue`、`spinner.ts` — したがって、ここで名前で4つのディレクトリを調整する必要はありません。セルはその背後にあるファイルをカウントします — ホバーするとそれらを表示します。すべての宣言された要素は同じレベルで読み取られます — 単一の形式で見つかった行はギャップであるか、他に何も求めないプリミティブである可能性があり、それを解決するのがこのテーブルの役目です。4つの状態があり、次の手が誰のものかで区別されます：チェック、要素が存在する；警告、必要であり欠けている；取り消された円、意図的に欠けている；空白、誰もまだ判定していない。警告または円にホバーすると、宣言が何を言っているかがわかります。'
+    sources:
+      title: これらはどこから来ているか
+      description: バンドルは、`DesignSystemElementsBundleInterface`を実装することによってローダーにフロントパスを知らせる方法で、テーブルに存在します。それぞれは自分の資産内に`data/elements.json`を書き込み、それらとともに公開されるため、ビルド、ノードサイド、他の言語、エージェントはすべて同じファイルから作業します。このページはそれらの単一の結合に過ぎません。
+    abstract:
+      title: 抽象
+      description: '`components/_abstract/`の下にある5つのベースで、何も描画されません — 拡張されるだけです。`_abstract/vue`は三つの空のtwigブロックで、31のテンプレートが埋め込まれます；`_abstract/form-field`は12の入力が構築される基盤です。これらは形状と同様の理由でマトリックスから外れています：誰にも配信されないため、それに対してスキーマやReactツインを求めることは、彼らが答える方法を持たない質問をすることになります。アンダースコアは、誰もディレクトリを開く前にそれを示しています。表示されるのは、各自が拡張する誰にでも既に持っているものです。'
+    shapes:
+      title: 形状
+      description: '形状はレンダラーのないスタイルです：マークアップを書く、クラスを付ける、そして自分のスタイルシートからスタイルシートを`@use`します。`.stack`、`.grid`、`.block`、`.cluster`。これらはここにリストされており、上のテーブルにはありません。なぜなら、レンダラーのテーブルには何も持たないものを提供する列がないからです — そして、それがテーブルに存在しないことが、警告がすべて作業を意味する理由です。ラインはファイルによって描かれ、味によってではありません：形状はちょうど1つの`.scss`であり、それをレンダリングするものはなく、1つの`.html.twig`を獲得した日には、`components/`に移動してマトリックスに参加します。その移動が唯一の昇進です。各自が自身について言うことは、自身のスタイルシートの先頭から読み取られるため、漂流するための第二の場所はありません。'
+    coverage:
+      title: これが省いているもの
+      description: スキャンが歩かない`assets/`のディレクトリで、メモリからではなくディスクからリストされています。ミキシン、ユーティリティ、トークンは要素ではなく、ここで行として存在することはありません；レイアウトと共有スクリプトは要素であり、まだカバーされていません。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 재고
+  page_icon: 'ph:bold/list-checks'
+  intro: '번들이 제공하는 모든 요소와 제공되는 형식. 이 표는 누구나 유지하는 목록이 아니라 각 번들이 발행하는 레지스트리로, 선언에서 컴파일되고 구성 요소의 점검과 비교됩니다. 여기에는 무엇이 있는지 — 무엇이 있어야 하는지는 포함되지 않으며, 이는 어떤 스캔으로도 해결할 수 없는 질문이고, 요소들이 스스로 선언해야 하는 것입니다.'
+  problems:
+    title: '선언과 자산이 불일치합니다'
+    body: '이 페이지는 개발 중 자산에서 컴파일되었기 때문에 `%command%`이 작성하기를 거부하는 내용을 볼 수 있습니다. 아래 각 항목은 요소의 이름을 나타내며, 표는 여전히 그와 같습니다.'
+  missing:
+    title: '레지스트리가 누락되었습니다'
+    body: '%bundles%이 요소를 보유한다고 등록했지만 디스크에 레지스트리가 없어 아래 표에서 행이 없습니다. `%command%`을 실행하고 결과를 커밋하세요.'
+  summary:
+    label: '계산된 항목'
+    count: '몇 개'
+    elements: '발견된 요소'
+    todo: '해야 할 형식'
+    undecided: '아직 결정되지 않은 사항'
+    shapes: 형태
+    abstracts: '추상 기초'
+  column:
+    element: 요소
+    shape: 형태
+    description: 용도
+  cell:
+    absent: '이 형식에서 찾을 수 없으며 선언에서 이유를 밝히지 않았습니다 — 아직 결정되지 않은 사항입니다.'
+    todo: '이 형식에서 원하는 것이지만 아직 없습니다.'
+    shared: '%bundles%에 의해 또한 보유됩니다. 결함이 아닙니다 — 로더가 별칭으로 구분합니다 — 그러나 하나의 요소가 다시 그려졌는지 아니면 이름을 공유하는 두 개인지 아는 것이 중요합니다.'
+  format:
+    style:
+      title: 스타일
+      description: '구성 요소가 페이지에 있을 때 로더에 의해 로드되는 스타일 시트입니다.'
+    template:
+      title: 템플릿
+      description: 'twig에 의해 그려지는 서버 렌더러입니다.'
+    vue:
+      title: Vue
+      description: '브라우저에서 동일한 옵션으로 그려지는 클라이언트 쌍입니다.'
+    script:
+      title: 스크립트
+      description: '문서에 삽입된 후 마크업에 바인딩된 동작입니다.'
+    schema:
+      title: 스키마
+      description: '계약: 구성 요소가 수용하는 것, 유형 및 기본값. 다른 모든 렌더러는 이에 대해 확인할 수 있습니다.'
+    ai:
+      title: AI
+      description: '구성 요소에 대해 에이전트에게 전달된 내용: 스키마, 사용 방법, 이에 대해 작동하는 도구들입니다.'
+    react:
+      title: React
+      description: '리액트 렌더러입니다.'
+    flutter:
+      title: Flutter
+      description: '스키마에 대해 다트로 작성된 플러터 렌더러입니다. 마크업은 전달되지 않으며 계약과 토큰만 전달됩니다.'
+  section:
+    matrix:
+      title: '형식별 요소'
+      description: '각 구성 요소당 하나의 행, 각 렌더러당 하나의 열. 구성 요소는 `components/` 아래의 디렉토리로, 그릴 수 있는 모든 방법을 보유합니다 — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — 그래서 여기서는 네 개의 디렉토리를 이름으로 조정할 필요가 없습니다. 셀은 그 뒤에 있는 파일을 계산합니다 — 하나 위에 마우스를 올리면 파일을 볼 수 있습니다. 모든 선언된 요소는 동일한 수준에서 읽히며 — 단일 형식에서 발견된 행은 간격이거나 다른 것을 원하지 않는 원시일 수 있으며, 이를 정리하는 것이 이 표의 작업입니다. 네 가지 상태는 다음 차례가 누구인지에 따라 구분됩니다: 확인, 요소가 존재함; 경고, 필요하지만 누락됨; 취소된 원, 고의적으로 생략됨; 빈칸, 아무도 아직 결정하지 않음. 경고 또는 원에 마우스를 올리면 선언이 무엇을 말하는지 볼 수 있습니다.'
+    sources:
+      title: '이것들이 어디서 왔는지'
+      description: '번들은 그렇게 말했기 때문에 표에 있습니다 — `DesignSystemElementsBundleInterface`를 구현함으로써, 번들이 로더에게 자신의 전면 경로에 대해 알리는 방법입니다. 각 번들은 자신의 자산 내에 `data/elements.json`을 작성하며, 이를 함께 게시하여 빌드, 노드 측, 다른 언어 또는 에이전트가 동일한 파일에서 작업할 수 있도록 합니다. 이 페이지는 그들의 합집합일 뿐입니다.'
+    abstract:
+      title: 추상
+      description: '`components/_abstract/` 아래의 다섯 가지 기초로, 그 누구도 그리지 않습니다 — 단지 확장될 뿐입니다. `_abstract/vue`는 삼 개의 빈 twig 블록으로, 서른하나 개의 템플릿이 채워집니다; `_abstract/form-field`는 열두 개의 입력이 구축되는 기반입니다. 그들은 형태와 마찬가지로 매트릭스에서 제외되며, 아무에게도 제공되지 않기 때문에 스키마나 리액트 쌍에 대해 요청하는 것은 그들이 대답할 방법이 없는 질문을 하는 것입니다. 밑줄은 아무도 디렉토리를 열기 전에 그렇게 말합니다. 보여지는 것은 누구나 확장하는 각자가 이미 제공하는 것입니다.'
+    shapes:
+      title: 형태
+      description: '형태는 렌더러가 없는 스타일입니다: 마크업을 작성하고, 클래스 를 추가하고, 자신의 스타일 시트에서 스타일 시트를 `@use`합니다. `.stack`, `.grid`, `.block`, `.cluster`. 여기 나열되어 있고 위의 표에는 없는 이유는 렌더러의 표에 제공할 수 있는 열이 없기 때문입니다 — 그리고 그들의 부재가 경고가 모두 작업을 의미하게 만드는 이유입니다. 선은 파일에 의해 그려지며, 취향에 의해 그려지는 것이 아닙니다: 형태는 정확히 하나의 `.scss`이고, 아무것도 렌더링하지 않으므로, 언젠가 `.html.twig`를 갖게 되면 `components/`로 이동하여 매트릭스에 합류합니다. 그 이동이 유일한 승진입니다. 각자가 자신에 대해 말하는 것은 자신의 스타일 시트의 머리에서 읽히므로, 다른 곳에서 drift할 수 있는 두 번째 장소는 없습니다.'
+    coverage:
+      title: '이것이 빠뜨리는 것'
+      description: '스캔이 거치지 않는 `assets/`의 디렉토리, 메모리가 아닌 디스크에서 나열됩니다. 믹스인, 유틸리티 및 토큰은 요소가 아니며 여기에 행이 될 수 없습니다; 레이아웃 및 공유 스크립트는 요소이며 아직 다루어지지 않았습니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Voorraad
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Elk element dat de bundel levert, en de formaten waarin het wordt afgeleverd. De tabel is geen lijst die iemand bijhoudt: het is het register dat elke bundel verzendt, samengesteld uit zijn verklaringen en gecontroleerd tegen een overzicht van zijn componenten. Het geeft antwoord op wat er is — nooit wat er zou moeten zijn, wat een vraag is die geen scan kan oplossen en die de elementen zelf moeten verklaren.'
+  problems:
+    title: 'Een verklaring en de activa zijn het niet eens'
+    body: 'Hier weergegeven omdat deze pagina is samengesteld uit de activa tijdens de ontwikkeling, zodat het ziet wat `%command%` zou weigeren te schrijven. Elk punt hieronder noemt het element; de tabel is desondanks getekend.'
+  missing:
+    title: 'Een register ontbreekt'
+    body: '%bundles% heeft zich aangemeld als houder van elementen maar heeft geen register op schijf, zodat de rijen ontbreken in de tabel hieronder. Voer `%command%` uit en commit het resultaat.'
+  summary:
+    label: 'Wat is geteld'
+    count: Hoeveel
+    elements: 'Gevonden elementen'
+    todo: 'Formaten die nog gedaan moeten worden'
+    undecided: 'Beslissingen nog niet genomen'
+    shapes: Vormen
+    abstracts: 'Abstracte basis'
+  column:
+    element: Element
+    shape: Vorm
+    description: 'Waar het voor is'
+  cell:
+    absent: 'Niet gevonden in dit formaat, en de verklaring zegt niet waarom — een beslissing nog niet genomen'
+    todo: 'Gewenst in dit formaat en nog niet aanwezig'
+    shared: 'Ook gehouden door %bundles%. Geen fout — de loader maakt ze herkenbaar met een alias — maar het is goed om te weten of het één element is dat opnieuw is getekend of twee die een naam delen.'
+  format:
+    style:
+      title: Stijl
+      description: 'De stylesheet, geladen door de loader wanneer de component op de pagina staat.'
+    template:
+      title: Sjabloon
+      description: 'De server-renderer, getekend door twig.'
+    vue:
+      title: Vue
+      description: 'De client-tweeling, getekend in de browser vanuit dezelfde opties.'
+    script:
+      title: Script
+      description: 'Het gedrag, gebonden aan de markup zodra deze in het document staat.'
+    schema:
+      title: Schema
+      description: 'Het contract: wat de component accepteert, met typen en standaardwaarden. Elke andere renderer kan ertegen worden gecontroleerd.'
+    ai:
+      title: AI
+      description: 'Wat een agent te horen krijgt over de component: het schema, hoe het te gebruiken, de tools die erop inwerken.'
+    react:
+      title: React
+      description: 'De react-renderer.'
+    flutter:
+      title: Flutter
+      description: 'De flutter-renderer, geschreven in dart tegen het schema. Markup wordt niet overgedragen; het contract en de tokens wel.'
+  section:
+    matrix:
+      title: 'Element per formaat'
+      description: 'Één rij per component, één kolom per renderer. Een component is een map onder `components/` die elke manier bevat waarop het kan worden getekend — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — zodat hier niets meer vier mappen op naam hoeft te verzoenen. Een cel telt de bestanden erachter — hover erover om ze te zien. Elk verklaard element leest op hetzelfde niveau — een rij gevonden in één formaat kan een gat zijn of een primitief dat niets anders wil, en dat uitzoeken is waar deze tabel voor is in plaats van iets dat het al weet. Vier staten, onderscheiden door wiens beurt het de volgende is: een controle, het element is daar; een waarschuwing, het wordt gewenst en ontbreekt; een doorgestreepte cirkel, het doet het opzettelijk zonder; een blanco, niemand heeft nog beslist. Hover over een waarschuwing of een cirkel voor wat de verklaring zegt.'
+    sources:
+      title: 'Waar deze vandaan komen'
+      description: 'Een bundel staat in de tabel omdat hij dat zei — door `DesignSystemElementsBundleInterface` te implementeren, de manier waarop een bundel de loader vertelt over zijn frontpaden. Elke bundel schrijft `data/elements.json` binnen zijn eigen activa, gepubliceerd met hen, zodat de build, de node-kant, een andere taal of een agent allemaal vanuit dezelfde bestanden werken; deze pagina is alleen hun vereniging.'
+    abstract:
+      title: Abstract
+      description: 'De vijf basis onder `components/_abstract/`, die nooit worden getekend — ze worden alleen uitgebreid. `_abstract/vue` is drie lege twig-blokken die éénendertig sjablonen vullen; `_abstract/form-field` is waar twaalf invoervelden op zijn gebouwd. Ze zijn buiten de matrix om de reden dat de vormen zijn: ze worden aan niemand geleverd, dus hen vragen om een schema of een react-tweeling is vragen om een vraag die ze niet kunnen beantwoorden. De underscore zegt net zoveel voordat iemand de map opent. Wat wordt getoond is wat elk al meebrengt naar wie het ook uitbreidt.'
+    shapes:
+      title: Vormen
+      description: 'Een vorm is een stijl zonder renderer: je schrijft de markup, plaatst de klasse erop, en `@use` de stylesheet vanuit je eigen. `.stack`, `.grid`, `.block`, `.cluster`. Ze worden hier vermeld en niet in de tabel hierboven omdat een tabel van renderers geen kolom heeft om iets aan te bieden dat er geen heeft — en hun afwezigheid daarvan is waarom al zijn waarschuwingen werk betekenen in plaats van een slecht geformuleerde vraag. De lijn wordt getrokken door de bestanden, niet door smaak: een vorm is precies één `.scss` en niets rendert het, dus de dag dat iemand een `.html.twig` verwerft, verhuist het naar `components/` en voegt het zich bij de matrix. Die verhuizing is de enige promotie die er is. Wat elk over zichzelf zegt, wordt afgelezen van de kop van zijn eigen stylesheet, zodat er geen tweede plaats is waaruit het kan afdrijven.'
+    coverage:
+      title: 'Wat dit uitsluit'
+      description: 'Mappen van `assets/` die de scan niet doorloopt, vermeld vanaf schijf in plaats van uit het geheugen. Mixins, utilities en tokens zijn geen elementen en mogen hier nooit rijen zijn; lay-outs en gedeelde scripts zijn dat wel, en zijn nog niet gedekt.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inwentaryzacja
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Każdy element, który dostarcza pakiet, oraz formaty, w jakich jest dostarczany. Tabela nie jest listą, którą ktoś utrzymuje: to rejestr, który dostarcza każdy pakiet, skompilowany z jego deklaracji i sprawdzony w kontekście jego komponentów. Odpowiada na pytanie, co jest obecne — nigdy na pytanie, co powinno być, co jest pytaniem, którego żaden skan nie może rozwiązać, a które elementy muszą zadeklarować same.'
+  problems:
+    title: 'Deklaracja i zasoby się nie zgadzają'
+    body: 'Wyświetlane tutaj, ponieważ ta strona jest skompilowana z zasobów podczas rozwoju, więc widzi, co `%command%` odmówił napisania. Każdy punkt poniżej nazywa element; tabela jest tworzona pomimo tego.'
+  missing:
+    title: 'Brak rejestru'
+    body: '%bundles% zarejestrował się jako posiadający elementy, ale nie ma rejestru na dysku, więc jego wiersze są nieobecne w tabeli poniżej. Uruchom `%command%` i zatwierdź wynik.'
+  summary:
+    label: 'Co jest liczone'
+    count: Ile
+    elements: 'Znalezione elementy'
+    todo: 'Formaty do zrobienia'
+    undecided: 'Decyzje jeszcze nie podjęte'
+    shapes: Kształty
+    abstracts: 'Bazy abstrakcyjne'
+  column:
+    element: Element
+    shape: Kształt
+    description: 'Do czego służy'
+  cell:
+    absent: 'Nie znaleziono w tym formacie, a deklaracja nie mówi dlaczego — decyzja jeszcze nie podjęta'
+    todo: 'Pożądane w tym formacie, a jeszcze go tam nie ma'
+    shared: 'Również posiadany przez %bundles%. Nie jest to błąd — loader rozróżnia je po aliasie — ale warto wiedzieć, czy to jeden element przerysowany, czy dwa, które dzielą nazwę.'
+  format:
+    style:
+      title: Styl
+      description: 'Arkusz stylów, ładowany przez loadera, gdy komponent jest na stronie.'
+    template:
+      title: Szablon
+      description: 'Renderowana przez serwer, rysowana przez twig.'
+    vue:
+      title: Vue
+      description: 'Klient, renderowany w przeglądarce z tych samych opcji.'
+    script:
+      title: Skrypt
+      description: 'Zachowanie, związane z markupiem, gdy jest w dokumencie.'
+    schema:
+      title: Schemat
+      description: 'Umowa: co komponent przyjmuje, z typami i wartościami domyślnymi. Każdy inny renderer można sprawdzić w odniesieniu do niego.'
+    ai:
+      title: AI
+      description: 'Co agent wie o komponencie: schemat, jak go używać, narzędzia, które na nim działają.'
+    react:
+      title: React
+      description: 'Renderer react.'
+    flutter:
+      title: Flutter
+      description: 'Renderer flutter, napisany w dart przeciwko schematowi. Markup się nie przenosi; umowa i tokeny tak.'
+  section:
+    matrix:
+      title: 'Element według formatu'
+      description: 'Jeden wiersz na komponent, jedna kolumna na renderer. Komponent to katalog pod `components/`, który zawiera każdy sposób, w jaki można go narysować — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — więc nic tutaj nie musi już uzgadniać czterech katalogów według nazwy. Komórka zlicza pliki za nią — najedź na nią, aby je zobaczyć. Każdy zadeklarowany element odczytuje na tym samym poziomie — wiersz znaleziony w jednym formacie może być luką lub prymitywem, który nie chce nic więcej, a uporządkowanie tego jest pracą, do której ta tabela jest przeznaczona, a nie czymś, co już wie. Cztery stany, rozróżniane przez to, czyja kolej jest następna: sprawdzenie, element jest obecny; ostrzeżenie, jest pożądane i brakujące; przekreślone koło, działa celowo bez; puste, nikt jeszcze nie orzekł. Najedź na ostrzeżenie lub koło, aby zobaczyć, co mówi deklaracja.'
+    sources:
+      title: 'Skąd to pochodzi'
+      description: 'Pakiet znajduje się w tabeli, ponieważ tak powiedział — implementując `DesignSystemElementsBundleInterface`, sposób, w jaki pakiet informuje loadera o swoich ścieżkach frontowych. Każdy pisze `data/elements.json` wewnątrz swoich własnych zasobów, publikowanych z nimi, dzięki czemu budowa, strona node, inny język lub agent działają z tych samych plików; ta strona jest tylko ich unią.'
+    abstract:
+      title: Abstrakcyjny
+      description: 'Pięć baz pod `components/_abstract/`, które nigdy nie są rysowane — są tylko rozszerzane. `_abstract/vue` to trzy puste bloki twig, które wypełniają trzydzieści jeden szablonów; `_abstract/form-field` to to, na czym opiera się dwanaście inputów. Są poza matrycą z tego samego powodu, co kształty: nie są dostarczane nikomu, więc pytanie ich o schemat lub reaktora bliźniaka jest pytaniem, na które nie mają sposobu odpowiedzieć. Podkreślenie mówi to samo, zanim ktokolwiek otworzy katalog. To, co jest pokazane, to to, co każdy już przynosi do tego, kto to rozszerza.'
+    shapes:
+      title: Kształty
+      description: 'Kształt to styl bez renderera: piszesz markup, umieszczasz klasę na nim i `@use` arkusz stylów z własnego. `.stack`, `.grid`, `.block`, `.cluster`. Są wymienione tutaj, a nie w tabeli powyżej, ponieważ tabela rendererów nie ma kolumny, by oferować coś, co nie ma — a ich brak w niej jest powodem, dla którego wszystkie ostrzeżenia oznaczają pracę, a nie źle zadane pytanie. Linia jest rysowana przez pliki, a nie przez gust: kształt to dokładnie jeden `.scss` i nic go nie renderuje, więc w momencie, gdy zyskuje `.html.twig`, przenosi się do `components/` i dołącza do matrycy. To przeniesienie jest jedyną promocją, jaka istnieje. To, co każdy mówi o sobie, odczytuje się z nagłówka własnego arkusza stylów, więc nie ma drugiego miejsca, z którego mogłoby odpłynąć.'
+    coverage:
+      title: 'Czego to nie obejmuje'
+      description: 'Katalogi `assets/`, które skanowanie pomija, wymienione z dysku, a nie z pamięci. Mixiny, narzędzia i tokeny nie są elementami i nigdy nie mogą być wierszami tutaj; układy i wspólne skrypty są, i nie są jeszcze objęte.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inventário
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Cada elemento que o pacote envia e os formatos em que é entregue. A tabela não é uma lista mantida por ninguém: é o registro que cada pacote envia, compilado a partir de suas declarações e verificado em relação a um percurso de seus componentes. Ela responde ao que está presente — nunca ao que deveria estar, que é uma questão que nenhuma varredura pode resolver e que os elementos terão que declarar por si mesmos.'
+  problems:
+    title: 'Uma declaração e os ativos não concordam'
+    body: 'Mostrado aqui porque esta página é compilada a partir dos ativos durante o desenvolvimento, então vê o que `%command%` se recusaria a escrever. Cada ponto abaixo nomeia o elemento; a tabela é desenhada da mesma forma.'
+  missing:
+    title: 'Um registro está faltando'
+    body: '%bundles% se inscreveu como detentor de elementos, mas não possui um registro no disco, então suas linhas estão ausentes da tabela abaixo. Execute `%command%` e confirme o resultado.'
+  summary:
+    label: 'O que está contado'
+    count: Quantos
+    elements: 'Elementos encontrados'
+    todo: 'Formatos a serem feitos'
+    undecided: 'Decisões ainda não tomadas'
+    shapes: Formas
+    abstracts: 'Bases abstratas'
+  column:
+    element: Elemento
+    shape: Forma
+    description: 'Para que serve'
+  cell:
+    absent: 'Não encontrado neste formato, e a declaração não informa o porquê — uma decisão ainda não tomada'
+    todo: 'Desejado neste formato e ainda não está lá'
+    shared: 'Também mantido por %bundles%. Não é um erro — o carregador os diferencia pelo alias — mas vale a pena saber se é um elemento redesenhado ou dois que compartilham um nome.'
+  format:
+    style:
+      title: Estilo
+      description: 'O stylesheet, carregado pelo carregador quando o componente está na página.'
+    template:
+      title: Modelo
+      description: 'O renderizador do servidor, desenhado por twig.'
+    vue:
+      title: Vue
+      description: 'O gêmeo do cliente, desenhado no navegador a partir das mesmas opções.'
+    script:
+      title: Script
+      description: 'O comportamento, vinculado à marcação uma vez que está no documento.'
+    schema:
+      title: Esquema
+      description: 'O contrato: o que o componente aceita, com tipos e padrões. Todos os outros renderizadores podem ser verificados em relação a ele.'
+    ai:
+      title: IA
+      description: 'O que um agente é informado sobre o componente: o esquema, como usá-lo, as ferramentas que atuam sobre ele.'
+    react:
+      title: React
+      description: 'O renderizador react.'
+    flutter:
+      title: Flutter
+      description: 'O renderizador flutter, escrito em dart contra o esquema. A marcação não é transferida; o contrato e os tokens são.'
+  section:
+    matrix:
+      title: 'Elemento por formato'
+      description: 'Uma linha por componente, uma coluna por renderizador. Um componente é um diretório sob `components/` contendo todas as maneiras como pode ser desenhado — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — então nada aqui precisa reconciliar quatro diretórios pelo nome a partir de agora. Uma célula conta os arquivos por trás dela — passe o mouse sobre uma para vê-los. Cada elemento declarado é lido no mesmo nível — uma linha encontrada em um único formato pode ser uma lacuna ou um primitivo que não precisa de mais nada, e resolver isso é o trabalho para o qual esta tabela serve, em vez de algo que ela já conhece. Quatro estados, diferenciados por quem é o próximo a se mover: uma verificação, o elemento está lá; um aviso, é desejado e está ausente; um círculo riscado, ele faz isso de propósito; um em branco, ninguém ainda decidiu. Passe o mouse sobre um aviso ou um círculo para ver o que a declaração diz.'
+    sources:
+      title: 'De onde vêm estas'
+      description: 'Um pacote está na tabela porque disse assim — ao implementar `DesignSystemElementsBundleInterface`, a maneira como um pacote informa ao carregador sobre seus caminhos frontais. Cada um escreve `data/elements.json` dentro de seus próprios ativos, publicados com eles, para que a construção, o lado do nó, outro idioma ou um agente trabalhem a partir dos mesmos arquivos; esta página é apenas sua união.'
+    abstract:
+      title: Abstrato
+      description: 'As cinco bases sob `components/_abstract/`, que nunca são desenhadas — elas são apenas estendidas. `_abstract/vue` é três blocos twig vazios que trinta e um modelos preenchem; `_abstract/form-field` é do que doze entradas são construídas. Elas estão fora da matriz pela razão pela qual as formas estão: não são entregues a ninguém, então pedir-lhes um esquema ou um gêmeo react é fazer uma pergunta que elas não têm como responder. O sublinhado diz tanto antes que alguém abra o diretório. O que é mostrado é o que cada uma já traz para quem a estende.'
+    shapes:
+      title: Formas
+      description: 'Uma forma é um estilo sem renderizador: você escreve a marcação, coloca a classe nela e `@use` o stylesheet do seu próprio. `.stack`, `.grid`, `.block`, `.cluster`. Elas estão listadas aqui e não na tabela acima porque uma tabela de renderizadores não tem coluna para oferecer algo que não tem — e a ausência delas é o motivo pelo qual seus avisos significam trabalho em vez de uma pergunta mal feita. A linha é desenhada pelos arquivos, não pelo gosto: uma forma é exatamente um `.scss` e nada a renderiza, então no dia em que alguém ganha um `.html.twig`, ela se move para `components/` e se junta à matriz. Esse movimento é a única promoção que existe. O que cada uma diz sobre si mesma é lido na parte superior de seu próprio stylesheet, então não há um segundo lugar de onde possa flutuar.'
+    coverage:
+      title: 'O que isso deixa de fora'
+      description: 'Diretórios de `assets/` que a varredura não percorre, listados do disco em vez de da memória. Mixins, utilitários e tokens não são elementos e podem nunca ser linhas aqui; layouts e scripts compartilhados são, e ainda não estão cobertos.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Инвентаризация
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Каждый элемент, который поставляется в комплекте, и форматы, в которых он доставляется. Эта таблица не является списком, который кто-либо поддерживает: это реестр, который каждый комплект отправляет, составленный из его деклараций и проверенный на соответствие его компонентам. Она отвечает на вопрос, что есть — никогда на вопрос, что должно быть, который ни одно сканирование не может разрешить, и который элементы должны будут заявить сами.'
+  problems:
+    title: 'Декларация и активы не совпадают'
+    body: 'Показано здесь, потому что эта страница составлена из активов во время разработки, так что она видит, что `%command%` отказывается записать. Каждая точка ниже называет элемент; таблица составлена все равно.'
+  missing:
+    title: 'Отсутствует реестр'
+    body: '%bundles% зарегистрировался как содержащий элементы, но не имеет реестра на диске, поэтому его строки отсутствуют в таблице ниже. Запустите `%command%` и сохраните результат.'
+  summary:
+    label: 'Что подсчитывается'
+    count: Сколько
+    elements: 'Найденные элементы'
+    todo: 'Форматы, которые нужно сделать'
+    undecided: 'Решения еще не приняты'
+    shapes: Формы
+    abstracts: 'Абстрактные основы'
+  column:
+    element: Элемент
+    shape: Форма
+    description: 'Для чего это'
+  cell:
+    absent: 'Не найдено в этом формате, и декларация не указывает почему — решение еще не принято'
+    todo: 'Хотелось бы в этом формате, но пока отсутствует'
+    shared: 'Также имеется у %bundles%. Это не ошибка — загрузчик различает их по псевдониму — но стоит знать, является ли это одним переотрисованным элементом или двумя, которые разделяют имя.'
+  format:
+    style:
+      title: Стиль
+      description: 'Стилевой файл, загружаемый загрузчиком, когда компонент на странице.'
+    template:
+      title: Шаблон
+      description: 'Рендерер сервера, нарисованный с помощью twig.'
+    vue:
+      title: Vue
+      description: 'Клиентский двойник, отображаемый в браузере из тех же опций.'
+    script:
+      title: Скрипт
+      description: 'Поведение, связанное с разметкой, как только она попадает в документ.'
+    schema:
+      title: Схема
+      description: 'Контракт: что принимает компонент, с типами и значениями по умолчанию. Каждый другой рендерер можно проверить по сравнению с ним.'
+    ai:
+      title: ИИ
+      description: 'Что агенту сообщается о компоненте: схема, как его использовать, инструменты, которые действуют на него.'
+    react:
+      title: React
+      description: 'Рендерер для React.'
+    flutter:
+      title: Flutter
+      description: 'Рендерер для Flutter, написанный на dart по схеме. Разметка не переносится; контракт и токены — да.'
+  section:
+    matrix:
+      title: 'Элемент по формату'
+      description: 'Одна строка на компонент, один столбец на рендерер. Компонент — это каталог под `components/`, содержащий каждый способ его отображения — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — так что ничего здесь не нужно согласовывать по имени четырех каталогов. Ячейка подсчитывает файлы, стоящие за ней — наведите курсор на одну, чтобы увидеть их. Каждый заявленный элемент читается на одном уровне — строка, найденная в одном формате, может быть пробелом или примитивом, которому ничего больше не требуется, и разбираться с этим — работа, для которой предназначена эта таблица, а не то, что она уже знает. Четыре состояния, различаемых по тому, чей ход следующий: проверка, элемент на месте; предупреждение, его хотят и он отсутствует; зачеркнутый круг, он не нужен намеренно; пустое место, никто еще не вынес решения. Наведите курсор на предупреждение или круг, чтобы узнать, что говорит декларация.'
+    sources:
+      title: 'Откуда они берутся'
+      description: 'Комплект находится в таблице, потому что он так сказал — реализовав `DesignSystemElementsBundleInterface`, таким образом комплект сообщает загрузчику о своих фронтальных путях. Каждый записывает `data/elements.json` внутри своих активов, опубликованных с ними, так что сборка, сторона узла, другой язык или агент работают с одними и теми же файлами; эта страница — только их объединение.'
+    abstract:
+      title: Абстрактный
+      description: 'Пять основ под `components/_abstract/`, которые никогда не рисуют — они только расширяются. `_abstract/vue` — это три пустых блока twig, которые заполняют тридцать один шаблон; `_abstract/form-field` — это то, на чем построены двенадцать вводов. Они находятся вне матрицы по той же причине, что и формы: они не доставляются никому, так что спрашивать у них схему или двойник для react — это задавать вопрос, на который они не могут ответить. Нижнее подчеркивание говорит об этом еще до того, как кто-то откроет каталог. Что показано, это то, что каждый уже приносит тому, кто его расширяет.'
+    shapes:
+      title: Формы
+      description: 'Форма — это стиль без рендерера: вы пишете разметку, ставите на нее класс и `@use` стилевой файл из своего. `.stack`, `.grid`, `.block`, `.cluster`. Они перечислены здесь, а не в таблице выше, потому что таблица рендереров не имеет столбца, чтобы предложить что-то, что не имеет рендерера — и их отсутствие в ней объясняет, почему все ее предупреждения означают работу, а не плохо заданный вопрос. Линия проводится файлами, а не вкусом: форма — это точно один `.scss`, и ничто не рендерит ее, так что в день, когда она получает `.html.twig`, она переходит в `components/` и присоединяется к матрице. Этот переход — единственное продвижение, которое существует. То, что каждый говорит о себе, читается с заголовка его собственного стилевого файла, так что нет второго места, откуда ему можно было бы отклониться.'
+    coverage:
+      title: 'Что это упускает'
+      description: 'Каталоги `assets/`, которые сканирование не проходит, перечисленные с диска, а не из памяти. Миксины, утилиты и токены не являются элементами и никогда не могут быть строками здесь; макеты и общие скрипты являются таковыми и еще не охвачены.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: สินค้าคงคลัง
+  page_icon: 'ph:bold/list-checks'
+  intro: 'ทุกองค์ประกอบที่แพ็คเกจจัดส่งและรูปแบบที่จัดส่งในนั้น ตารางนี้ไม่ใช่รายการที่ใครดูแล: มันคือทะเบียนที่แต่ละแพ็คเกจจัดส่งซึ่งรวบรวมจากการประกาศและตรวจสอบกับส่วนประกอบของมัน มันตอบคำถามว่าอะไรมีอยู่ — ไม่เคยตอบว่าสิ่งใดควรจะเป็น ซึ่งเป็นคำถามที่ไม่มีการสแกนใดๆ สามารถตัดสินได้ และองค์ประกอบจะต้องประกาศด้วยตนเอง'
+  problems:
+    title: การประกาศและทรัพย์สินไม่ตรงกัน
+    body: 'แสดงที่นี่เพราะหน้านี้ถูกสร้างขึ้นจากทรัพย์สินในระหว่างการพัฒนา ดังนั้นจึงเห็นสิ่งที่ `%command%` จะปฏิเสธการเขียน ทุกจุดด้านล่างระบุชื่อองค์ประกอบ ตารางนั้นถูกสร้างขึ้นเช่นกัน'
+  missing:
+    title: ไม่มีทะเบียน
+    body: '%bundles% ลงทะเบียนเป็นเจ้าขององค์ประกอบแต่ไม่มีทะเบียนในดิสก์ ดังนั้นแถวของมันจึงไม่มีอยู่ในตารางด้านล่าง รัน `%command%` และบันทึกผลลัพธ์'
+  summary:
+    label: สิ่งที่ถูกนับ
+    count: จำนวนเท่าไหร่
+    elements: องค์ประกอบที่พบ
+    todo: รูปแบบที่ยังต้องทำ
+    undecided: การตัดสินใจที่ยังไม่ได้ทำ
+    shapes: รูปทรง
+    abstracts: ฐานนามธรรม
+  column:
+    element: องค์ประกอบ
+    shape: รูปทรง
+    description: ใช้งานเพื่ออะไร
+  cell:
+    absent: 'ไม่พบในรูปแบบนี้ และการประกาศไม่ได้บอกว่าทำไม — การตัดสินใจที่ยังไม่ได้ทำ'
+    todo: ต้องการในรูปแบบนี้และยังไม่มีอยู่
+    shared: 'ถือโดย %bundles% ด้วย ไม่ใช่ข้อผิดพลาด — ตัวโหลดบอกให้แยกแยะตามชื่อเล่น — แต่ควรรู้ว่ามันเป็นองค์ประกอบเดียวที่ถูกวาดใหม่หรือสองที่แชร์ชื่อเดียวกัน'
+  format:
+    style:
+      title: สไตล์
+      description: สไตล์ชีตที่โหลดโดยตัวโหลดเมื่อส่วนประกอบอยู่บนหน้า
+    template:
+      title: เทมเพลต
+      description: 'การเรนเดอร์จากเซิร์ฟเวอร์ที่สร้างโดย twig'
+    vue:
+      title: Vue
+      description: 'คล้ายลูกค้า ที่สร้างในเบราว์เซอร์จากตัวเลือกเดียวกัน'
+    script:
+      title: สคริปต์
+      description: พฤติกรรมที่ผูกกับมาร์กอัปเมื่ออยู่ในเอกสาร
+    schema:
+      title: สคีมา
+      description: 'สัญญา: สิ่งที่ส่วนประกอบต้องการ โดยระบุประเภทและค่าเริ่มต้น เครื่องเรนเดอร์อื่นๆ ทุกตัวสามารถตรวจสอบได้เทียบกับมัน'
+    ai:
+      title: AI
+      description: 'สิ่งที่เอเจนต์ถูกบอกเกี่ยวกับส่วนประกอบ: สคีมา วิธีการใช้งาน เครื่องมือที่ทำงานกับมัน'
+    react:
+      title: React
+      description: 'เรนเดอร์ของ React'
+    flutter:
+      title: Flutter
+      description: 'เรนเดอร์ของ Flutter เขียนใน Dart ต่อต้านสคีมา มาร์กอัปไม่ถูกส่งต่อ; สัญญาและโทเคนจะถูกส่งต่อ'
+  section:
+    matrix:
+      title: องค์ประกอบตามรูปแบบ
+      description: 'หนึ่งแถวต่อส่วนประกอบ หนึ่งคอลัมน์ต่อเรนเดอร์ ส่วนประกอบคือไดเรกทอรีภายใต้ `components/` ที่ถือทุกวิธีที่สามารถวาดได้ — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — ดังนั้นไม่มีอะไรที่นี่ต้องปรับวิธีการสี่ไดเรกทอรีโดยชื่ออีกต่อไป เซลล์นับไฟล์ที่อยู่เบื้องหลัง — ลอยเพื่อดูพวกมัน ทุกองค์ประกาศอ่านที่ระดับเดียวกัน — แถวที่พบในรูปแบบเดียวอาจเป็นช่องว่างหรือพื้นฐานที่ไม่ต้องการสิ่งอื่น และการจัดเรียงนั้นคือสิ่งที่ตารางนี้สร้างขึ้นเพื่อทำแทนที่จะเป็นสิ่งที่รู้แล้ว สี่สถานะ บอกความแตกต่างโดยว่าใครจะเคลื่อนไหวถัดไป: การตรวจสอบ องค์ประกอบอยู่ที่นั่น; คำเตือน ต้องการและหายไป; วงกลมขีดฆ่า ทำโดยเจตนา; ว่างเปล่า ไม่มีใครได้ตัดสินยังไง ลอยคำเตือนหรือตรวจสอบวงกลมเพื่อดูสิ่งที่การประกาศบอก'
+    sources:
+      title: ที่มาของสิ่งเหล่านี้
+      description: 'แพ็คเกจอยู่ในตารางเพราะมันบอกเช่นนั้น — โดยการใช้ `DesignSystemElementsBundleInterface` วิธีที่แพ็คเกจบอกตัวโหลดเกี่ยวกับเส้นทางหน้าแต่ละเส้นทาง แต่ละตัวเขียน `data/elements.json` ภายในทรัพย์สินของตนเอง ซึ่งเผยแพร่พร้อมกับพวกมัน ดังนั้นการสร้าง การทำงานในฝั่งโหนด ภาษาอื่นหรือเอเจนต์ทั้งหมดทำงานจากไฟล์เดียวกัน หน้าเว็บนี้เป็นเพียงการรวมกันของพวกเขา'
+    abstract:
+      title: นามธรรม
+      description: 'ฐานห้าประการภายใต้ `components/_abstract/` ซึ่งไม่มีอะไรดึงขึ้น — พวกเขาเพียงขยาย `_abstract/vue` เป็นบล็อก twig ว่างสามบล็อกที่เทมเพลตสามสิบเอ็ดเติมเต็ม `_abstract/form-field` คือสิ่งที่สร้างจากอินพุตสิบสองตัว พวกเขาอยู่นอกตารางเนื่องจากเหตุผลเดียวกับที่รูปทรงอยู่: พวกเขาไม่ได้ส่งให้ใคร ดังนั้นการขอให้พวกเขาเสนอสคีมาหรือคู่แฝด React คือการถามคำถามที่พวกเขาไม่มีทางตอบ เครื่องหมายขีดเส้นใต้บอกเช่นนั้นก่อนที่ใครจะเปิดไดเรกทอรี สิ่งที่แสดงคือสิ่งที่แต่ละคนมีให้กับใครก็ตามที่ขยายมัน'
+    shapes:
+      title: รูปทรง
+      description: 'รูปทรงคือสไตล์ที่ไม่มีเรนเดอร์: คุณเขียนมาร์กอัป ใส่คลาสลงไป และ `@use` สไตล์ชีตจากของคุณเอง `.stack`, `.grid`, `.block`, `.cluster` พวกมันถูกระบุที่นี่และไม่อยู่ในตารางด้านบนเพราะตารางเรนเดอร์ไม่มีคอลัมน์เพื่อเสนอสิ่งที่ไม่มี — และการไม่มีอยู่จากมันคือสาเหตุที่คำเตือนทั้งหมดหมายถึงงานแทนที่จะเป็นคำถามที่ถูกถามอย่างไม่ถูกต้อง เส้นที่วาดโดยไฟล์ ไม่ใช่ด้วยรสนิยม: รูปทรงคือหนึ่ง `.scss` และไม่มีอะไรเรนเดอร์มัน ดังนั้นวันที่หนึ่งได้ `.html.twig` มันจะย้ายเข้าไปใน `components/` และเข้าร่วมตารางนั้น การเคลื่อนไหวดังกล่าวคือการเลื่อนตำแหน่งเพียงอย่างเดียว สิ่งที่แต่ละคนพูดเกี่ยวกับตัวเองจะอ่านจากหัวของสไตล์ชีตของมันเอง ดังนั้นจึงไม่มีที่สองให้มันลอยไป'
+    coverage:
+      title: สิ่งที่นี่ขาดหายไป
+      description: 'ไดเรกทอรีของ `assets/` ที่การสแกนไม่เดินผ่าน ระบุจากดิสก์แทนที่จะจากหน่วยความจำ มิกซิน ยูทิลิตี้ และโทเคนไม่ใช่องค์ประกอบและอาจไม่เคยเป็นแถวที่นี่; เลย์เอาต์และสคริปต์ที่แชร์คือ และยังไม่ถูกครอบคลุม'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Envanter
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Paketin gönderdiği her öğe ve sunulduğu formatlar. Tablo, kimsenin bakımını yapmadığı bir liste değildir: her paketin gönderdiği, beyanlarından derlenen ve bileşenlerinin yürüyüşüne göre kontrol edilen kayıttır. Orada olanı yanıtlar — asla olması gerekeni değil, bu da hiçbir taramanın çözemeyeceği bir sorudur ve öğeler kendileri beyan etmek zorundadır.'
+  problems:
+    title: 'Bir beyan ve varlıklar uyuşmuyor'
+    body: 'Geliştirme sırasında varlıklardan derlendiği için burada gösteriliyor, bu yüzden `%command%` yazmayı reddeder. Aşağıdaki her madde öğeyi adlandırır; tablo yine de çizilir.'
+  missing:
+    title: 'Bir kayıt eksik'
+    body: '%bundles% öğeleri tutmak için kaydoldu ama diskte kaydı yok, bu yüzden aşağıdaki tablodaki satırları yok. `%command%` çalıştırın ve sonucu taahhüt edin.'
+  summary:
+    label: Sayılanlar
+    count: 'Kaç tane'
+    elements: 'Bulunan öğeler'
+    todo: 'Tamamlanması gereken formatlar'
+    undecided: 'Henüz alınmamış kararlar'
+    shapes: Şekiller
+    abstracts: 'Soyut tabanlar'
+  column:
+    element: Öğe
+    shape: Şekil
+    description: 'Ne için kullanıldığı'
+  cell:
+    absent: 'Bu formatta bulunamadı ve beyan nedenini söylemiyor — henüz alınmamış bir karar'
+    todo: 'Bu formatta isteniyor ve henüz yok'
+    shared: 'Ayrıca %bundles% tarafından tutuluyor. Bir hata değil — yükleyici bunları takma adla ayırt eder — ama bir öğenin yeniden çizildiğini mi yoksa aynı adı paylaşan iki öğe mi olduğunu bilmekte fayda var.'
+  format:
+    style:
+      title: Stil
+      description: 'Bileşen sayfada olduğunda yükleyici tarafından yüklenen stil sayfası.'
+    template:
+      title: Şablon
+      description: 'Twig tarafından çizilen sunucu renderlayıcısı.'
+    vue:
+      title: Vue
+      description: 'Aynı seçeneklerden tarayıcıda çizilen istemci ikizi.'
+    script:
+      title: Script
+      description: 'Belgenin içinde olduğunda işlevsellik, işaretlemeye bağlıdır.'
+    schema:
+      title: Şema
+      description: 'Sözleşme: bileşenin ne alacağı, türler ve varsayılanlarla. Diğer tüm renderlayıcılar buna karşı kontrol edilebilir.'
+    ai:
+      title: AI
+      description: 'Bir ajana bileşen hakkında söylenenler: şema, nasıl kullanılacağı, üzerinde işlem yapan araçlar.'
+    react:
+      title: React
+      description: 'React renderlayıcısı.'
+    flutter:
+      title: Flutter
+      description: 'Şemaya karşı dart ile yazılmış flutter renderlayıcısı. İşaretleme taşınmaz; sözleşme ve tokenlar taşınır.'
+  section:
+    matrix:
+      title: 'Format başına öğe'
+      description: 'Her bileşen için bir satır, her renderlayıcı için bir sütun. Bir bileşen, `components/` altında çizilebileceği her yolu tutan bir dizindir — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — bu nedenle burada adlarıyla dört dizini uzlaştırmak gerekmiyor. Bir hücre arkasındaki dosyaların sayısını sayar — üzerine gelerek onları görebilirsiniz. Her beyan edilen öğe aynı seviyede okunur — tek bir formatta bulunan bir satır boşluk veya başka bir şey istemeyen bir ilkel olabilir ve bunu ayırt etmek bu tablonun işidir, zaten bildiği bir şey değildir. Dört durum, kimin sıradaki hamlesi olduğuna göre ayırt edilir: bir kontrol, öğe orada; bir uyarı, isteniyor ve eksik; bir çarpı daire, bilerek olmadan yapar; boş, henüz kimsenin hüküm vermediği. Uyarı veya daireye üzerine gelerek beyanın ne söylediğini görebilirsiniz.'
+    sources:
+      title: 'Bunlar nereden geliyor'
+      description: "Bir paket tabloda çünkü öyle söyledi — `DesignSystemElementsBundleInterface`'i uygulayarak, bir paketin yükleyiciye ön yolları hakkında bilgi verdiği yol. Her biri kendi varlıkları içinde `data/elements.json` yazar, bunlarla birlikte yayınlanır, böylece yapı, node tarafı, başka bir dil veya bir ajanın hepsi aynı dosyalarla çalışır; bu sayfa yalnızca bunların birleşimidir."
+    abstract:
+      title: Soyut
+      description: '`components/_abstract/` altında bulunan beş taban, hiçbiri asla çizilmez — yalnızca genişletilir. `_abstract/vue`, otuz bir şablonu dolduran üç boş twig bloğudur; `_abstract/form-field`, on iki girişin üzerine inşa edildiği yerdir. Şemadan veya bir react ikizinden bir talep etmek, cevaplayamayacakları bir soru sormak demektir. Alt çizgi, kimse dizini açmadan önce bunun kadarını söyler. Gösterilen, her birinin uzatanlara sunduğu şeydir.'
+    shapes:
+      title: Şekiller
+      description: 'Bir şekil, renderlayıcısı olmayan bir stildir: işaretlemeyi yazarsınız, üzerine sınıf eklersiniz ve kendi stil sayfanızdan `@use` ile stil sayfasını kullanırsınız. `.stack`, `.grid`, `.block`, `.cluster`. Burada listelenir ve yukarıdaki tabloda yer almaz çünkü renderlayıcıların tablosunun sunacak bir sütunu yoktur — ve tablodan yoklukları, tüm uyarıların bir iş anlamına gelmesinin nedenidir, kötü sorulmuş bir soru değil. Çizgi dosyalar tarafından çizilir, zevkle değil: bir şekil tam olarak bir `.scss` ve hiçbiri renderlayıcı değildir, bu nedenle bir `.html.twig` kazandığında `components/` içine geçer ve matrise katılır. Bu geçiş, tek yükseltmedir. Her birinin kendisi hakkında söyledikleri, kendi stil sayfasının başından okunur, bu nedenle oradan kaymak için ikinci bir yer yoktur.'
+    coverage:
+      title: 'Bu neyi dışarıda bırakıyor'
+      description: 'Tarama işleminin yürümeyi reddettiği `assets/` dizinleri, bellek yerine diskten listelenir. Mixinler, yardımcılar ve tokenlar öğe değildir ve burada asla satır olamaz; düzenler ve paylaşılan scriptler öğedir ve henüz kapsanmamıştır.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: انفینٹری
+  page_icon: 'ph:bold/list-checks'
+  intro: 'ہر عنصر جو بنڈل بھیجتا ہے، اور یہ کس فارمیٹس میں فراہم کیا جاتا ہے۔ یہ جدول کوئی ایسی فہرست نہیں ہے جسے کوئی برقرار رکھتا ہے: یہ ہر بنڈل کا رجسٹر ہے، جو اس کے اعلانات سے مرتب کیا گیا ہے اور اس کے اجزاء کی جانچ کی گئی ہے۔ یہ بتاتا ہے کہ وہاں کیا ہے — کبھی یہ نہیں کہ کیا ہونا چاہیے، جو ایک سوال ہے جس کا کوئی اسکین حل نہیں کر سکتا اور جس کا اعلان عناصر کو خود کرنا ہوگا۔'
+  problems:
+    title: 'ایک اعلان اور اثاثے متضاد ہیں'
+    body: 'یہاں دکھایا گیا ہے کیونکہ یہ صفہ اثاثوں سے مرتب ہوا ہے جبکہ ترقی کے دوران، لہذا یہ دیکھتا ہے کہ `%command%` لکھنے سے انکار کرے گا۔ نیچے ہر نقطہ عنصر کا نام لیتا ہے؛ جدول ویسا ہی بنایا گیا ہے۔'
+  missing:
+    title: 'ایک رجسٹری غائب ہے'
+    body: '%bundles% نے عناصر کے طور پر سائن اپ کیا ہے لیکن اس کے پاس ڈسک پر کوئی رجسٹری نہیں ہے، لہذا اس کی قطاریں نیچے جدول سے غائب ہیں۔ `%command%` چلائیں اور نتیجہ کو محفوظ کریں۔'
+  summary:
+    label: 'کیا شمار کیا گیا ہے'
+    count: کتنے
+    elements: 'پائے گئے عناصر'
+    todo: 'کرنے کے لیے فارمیٹس'
+    undecided: 'فیصلے ابھی نہیں ہوئے'
+    shapes: شکلیں
+    abstracts: 'بنیادی خاکے'
+  column:
+    element: عنصر
+    shape: شکل
+    description: 'یہ کس چیز کے لیے ہے'
+  cell:
+    absent: 'اس فارمیٹ میں نہیں ملا، اور اعلان یہ نہیں بتاتا کہ کیوں — ایک فیصلہ ابھی نہیں ہوا'
+    todo: 'اس فارمیٹ میں مطلوب ہے اور ابھی وہاں نہیں ہے'
+    shared: '%bundles% کے ذریعہ بھی رکھا گیا ہے۔ یہ کوئی غلطی نہیں ہے — لوڈر انہیں ایلیاس کے ذریعہ الگ کرتا ہے — لیکن یہ جاننا اہم ہے کہ آیا یہ ایک دوبارہ بنائی گئی عنصر ہے یا دو ہیں جو ایک نام بانٹتے ہیں۔'
+  format:
+    style:
+      title: انداز
+      description: 'شیلی اسٹائل، لوڈر کے ذریعہ صفحہ پر ہونے پر لوڈ کیا جاتا ہے۔'
+    template:
+      title: سانچہ
+      description: 'سرور ریندرر، جو ٹوئگ کے ذریعہ بنایا گیا ہے۔'
+    vue:
+      title: Vue
+      description: 'کلائنٹ کا ہم شکل، جو ایک ہی اختیارات سے براؤزر میں بنایا گیا ہے۔'
+    script:
+      title: اسکرپٹ
+      description: 'رویے، جو ایک بار دستاویز میں ہونے پر مارک اپ سے بندھ جاتا ہے۔'
+    schema:
+      title: سکیمہ
+      description: 'معاہدہ: جو چیز عنصر لیتا ہے، اقسام اور ڈیفالٹس کے ساتھ۔ ہر دوسرے ریندرر کو اس کے خلاف چیک کیا جا سکتا ہے۔'
+    ai:
+      title: AI
+      description: 'ایجنٹ کو عنصر کے بارے میں کیا بتایا جاتا ہے: سکیمہ، اسے کیسے استعمال کرنا ہے، وہ اوزار جو اس پر عمل کرتے ہیں۔'
+    react:
+      title: React
+      description: 'ریئیکٹ ریندرر۔'
+    flutter:
+      title: Flutter
+      description: 'فلٹر ریندرر، سکیمہ کے خلاف ڈارٹ میں لکھا گیا۔ مارک اپ منتقل نہیں ہوتا؛ معاہدہ اور ٹوکن ہی رہتے ہیں۔'
+  section:
+    matrix:
+      title: 'فارمیٹ کے مطابق عنصر'
+      description: 'ہر کمپوننٹ کے لیے ایک قطار، ہر ریندرر کے لیے ایک کالم۔ ایک کمپوننٹ `components/` کے تحت ایک ڈائریکٹری ہے جس میں ہر طریقہ شامل ہے جس سے اسے بنایا جا سکتا ہے — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — تو یہاں کچھ بھی نام کے ذریعہ چار ڈائریکٹریوں کو ملانے کی ضرورت نہیں ہے۔ ایک سیل اس کے پیچھے کی فائلوں کی تعداد شمار کرتا ہے — ایک کو ہور کر کے انہیں دیکھیں۔ ہر اعلان کردہ عنصر اسی سطح پر پڑھتا ہے — ایک واحد فارمیٹ میں پائی گئی قطار ایک خلا یا ایک بنیادی چیز ہو سکتی ہے جو کچھ اور نہیں چاہتی، اور اس کو ترتیب دینا اس جدول کا کام ہے نہ کہ کچھ جو یہ پہلے سے جانتا ہے۔ چار حالتیں، جنہیں بتایا جاتا ہے کہ آگے کس کی باری ہے: ایک چیک، عنصر وہاں ہے؛ ایک انتباہ، یہ مطلوب ہے اور غائب ہے؛ ایک مٹا ہوا دائرہ، یہ جان بوجھ کر بغیر ہے؛ ایک خالی، ابھی تک کسی نے فیصلہ نہیں کیا۔ انتباہ یا دائرے پر ہور کریں تاکہ دیکھا جا سکے کہ اعلان کیا کہتا ہے۔'
+    sources:
+      title: 'یہ کہاں سے آتے ہیں'
+      description: 'ایک بنڈل جدول میں ہے کیونکہ اس نے ایسا کہا — `DesignSystemElementsBundleInterface` کو نافذ کر کے، جس طرح ایک بنڈل لوڈر کو اپنے سامنے کے راستوں کے بارے میں بتاتا ہے۔ ہر ایک اپنے ہی اثاثوں کے اندر `data/elements.json` لکھتا ہے، جو ان کے ساتھ شائع ہوتا ہے، تاکہ تعمیر، نوڈ سائیڈ، دوسرے زبان یا ایجنٹ سب ایک ہی فائلوں سے کام کریں؛ یہ صفحہ صرف ان کا اتحاد ہے۔'
+    abstract:
+      title: خلاصہ
+      description: 'پانچ بنیادیات `components/_abstract/` کے تحت، جنہیں کبھی نہیں بنایا جاتا — وہ صرف بڑھائے جاتے ہیں۔ `_abstract/vue` تین خالی ٹوئگ بلاک ہیں جن میں اکتیس سانچے بھرے جاتے ہیں؛ `_abstract/form-field` وہ ہے جس پر بارہ ان پٹس بنائے جاتے ہیں۔ وہ شکلوں کی طرح میٹرکس سے باہر ہیں: وہ کسی کو فراہم نہیں کیے جاتے، لہذا ان سے سکیمہ یا ریئیکٹ ہم شکل مانگنا ایک ایسا سوال ہے جس کا جواب دینے کا ان کے پاس کوئی طریقہ نہیں ہے۔ ٹائل کا نشان اس بات کا اشارہ دیتا ہے کہ کوئی بھی ڈائریکٹری کو کھولنے سے پہلے۔ جو دکھایا جاتا ہے وہ ہے جو ہر ایک پہلے سے ہی کسی کو بڑھاتے وقت لاتا ہے۔'
+    shapes:
+      title: شکلیں
+      description: 'ایک شکل ایک انداز ہے جس کا کوئی ریندرر نہیں ہے: آپ مارک اپ لکھتے ہیں، اس پر کلاس لگاتے ہیں، اور اپنی شیلی اسٹائل سے `@use` کرتے ہیں۔ `.stack`, `.grid`, `.block`, `.cluster`۔ انہیں یہاں فہرست بند کیا گیا ہے اور اوپر جدول میں نہیں کیونکہ ریندرروں کی ایک جدول کے پاس کچھ پیش کرنے کے لیے کوئی کالم نہیں ہے جس کا کوئی نہیں ہے — اور اس کی عدم موجودگی ہی وجہ ہے کہ اس کے انتباہات کا مطلب کام ہے نہ کہ ایک غلط سوال۔ لائن فائلوں کے ذریعہ کھینچی گئی ہے، ذائقہ کے ذریعہ نہیں: ایک شکل بالکل ایک `.scss` ہے اور کچھ بھی اسے نہیں بناتا، تو جب ایک `.html.twig` حاصل ہوتا ہے تو یہ `components/` میں منتقل ہو جاتی ہے اور میٹرکس میں شامل ہو جاتی ہے۔ وہ حرکت ہی واحد ترقی ہے جو ہوتی ہے۔ جو ہر ایک اپنے بارے میں کہتا ہے وہ اپنی ہی شیلی اسٹائل کے سر سے پڑھا جاتا ہے، لہذا اس کے لیے کہیں اور جانے کی جگہ نہیں ہے۔'
+    coverage:
+      title: 'یہ کیا چھوڑتا ہے'
+      description: '`assets/` کی ڈائریکٹریاں جو اسکین نہیں کرتی، ڈسک سے فہرست بند کی گئی ہیں نہ کہ یاداشت سے۔ مکسینز، یوٹیلٹیز اور ٹوکن عناصر نہیں ہیں اور یہاں کبھی بھی قطاریں نہیں ہو سکتیں؛ لے آؤٹ اور مشترکہ اسکرپٹس ہیں، اور ابھی تک احاطہ نہیں کیا گیا ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Hàng tồn kho'
+  page_icon: 'ph:bold/list-checks'
+  intro: 'Mỗi phần tử mà gói hàng gửi đi, và các định dạng mà nó được giao. Bảng này không phải là một danh sách ai đó duy trì: nó là sổ đăng ký mà mỗi gói hàng gửi đi, được biên soạn từ các khai báo của nó và được kiểm tra với các thành phần của nó. Nó trả lời những gì có — không bao giờ là những gì nên có, điều này là một câu hỏi mà không có quét nào có thể giải quyết và các phần tử sẽ phải tự khai báo cho chính mình.'
+  problems:
+    title: 'Một khai báo và các tài sản không khớp'
+    body: 'Hiển thị ở đây vì trang này được biên soạn từ các tài sản trong quá trình phát triển, vì vậy nó thấy những gì `%command%` sẽ từ chối viết. Mỗi điểm bên dưới nêu tên phần tử; bảng được vẽ như nhau.'
+  missing:
+    title: 'Một sổ đăng ký bị thiếu'
+    body: '%bundles% đã đăng ký là chứa các phần tử nhưng không có sổ đăng ký trên đĩa, vì vậy các hàng của nó không có trong bảng bên dưới. Chạy `%command%` và cam kết kết quả.'
+  summary:
+    label: 'Những gì được đếm'
+    count: 'Số lượng'
+    elements: 'Các phần tử tìm thấy'
+    todo: 'Các định dạng còn lại cần thực hiện'
+    undecided: 'Các quyết định chưa được đưa ra'
+    shapes: 'Hình dạng'
+    abstracts: 'Cơ sở trừu tượng'
+  column:
+    element: 'Phần tử'
+    shape: 'Hình dạng'
+    description: 'Chức năng của nó'
+  cell:
+    absent: 'Không tìm thấy trong định dạng này, và khai báo không nói lý do — một quyết định chưa được đưa ra'
+    todo: 'Cần thiết trong định dạng này và chưa có'
+    shared: 'Cũng được giữ bởi %bundles%. Không phải là lỗi — trình tải cho chúng phân biệt bằng bí danh — nhưng đáng lưu ý liệu đó là một phần tử được vẽ lại hay hai cái chia sẻ một tên.'
+  format:
+    style:
+      title: 'Phong cách'
+      description: 'Tài liệu kiểu, được tải bởi trình tải khi thành phần có mặt trên trang.'
+    template:
+      title: Mẫu
+      description: 'Trình vẽ máy chủ, được vẽ bởi twig.'
+    vue:
+      title: Vue
+      description: 'Bản sao của khách hàng, được vẽ trong trình duyệt từ cùng một tùy chọn.'
+    script:
+      title: 'Kịch bản'
+      description: 'Hành vi, gắn với markup khi nó có mặt trong tài liệu.'
+    schema:
+      title: 'Sơ đồ'
+      description: 'Hợp đồng: những gì thành phần nhận, với kiểu và giá trị mặc định. Mỗi trình vẽ khác đều có thể kiểm tra theo nó.'
+    ai:
+      title: AI
+      description: 'Những gì một đại lý được thông báo về thành phần: sơ đồ, cách sử dụng nó, các công cụ tác động lên nó.'
+    react:
+      title: React
+      description: 'Trình vẽ react.'
+    flutter:
+      title: Flutter
+      description: 'Trình vẽ flutter, được viết bằng dart theo sơ đồ. Markup không được mang theo; hợp đồng và các token thì có.'
+  section:
+    matrix:
+      title: 'Phần tử theo định dạng'
+      description: 'Một hàng cho mỗi thành phần, một cột cho mỗi trình vẽ. Một thành phần là một thư mục dưới `components/` chứa mọi cách nó có thể được vẽ — `spinner/spinner.scss`, `spinner.html.twig`, `spinner.vue`, `spinner.ts` — vì vậy không có gì ở đây phải hòa giải bốn thư mục theo tên nữa. Một ô đếm các tệp phía sau nó — di chuột qua một ô để xem chúng. Mỗi phần tử đã khai báo đều đọc ở cùng một cấp độ — một hàng tìm thấy trong một định dạng duy nhất có thể là một khoảng trống hoặc một phần tử nguyên thủy không muốn gì khác, và việc phân loại điều đó là công việc mà bảng này được tạo ra chứ không phải là điều mà nó đã biết. Bốn trạng thái, được phân biệt bởi ai sẽ di chuyển tiếp theo: một kiểm tra, phần tử có ở đó; một cảnh báo, nó được cần và đang thiếu; một vòng tròn bị gạch, nó cố tình không có; một ô trống, chưa ai quyết định. Di chuột qua một cảnh báo hoặc một vòng tròn để xem khai báo nói gì.'
+    sources:
+      title: 'Những điều này đến từ đâu'
+      description: 'Một gói hàng có trong bảng vì nó đã nói như vậy — bằng cách thực hiện `DesignSystemElementsBundleInterface`, cách mà một gói hàng thông báo cho trình tải về các đường dẫn phía trước của nó. Mỗi gói viết `data/elements.json` bên trong các tài sản của nó, được công bố cùng với chúng, vì vậy việc xây dựng, phía node, một ngôn ngữ khác hoặc một đại lý đều làm việc từ cùng một tệp; trang này chỉ là sự hợp nhất của chúng.'
+    abstract:
+      title: 'Trừu tượng'
+      description: 'Năm cơ sở dưới `components/_abstract/`, mà không bao giờ được vẽ — chúng chỉ được mở rộng. `_abstract/vue` là ba khối twig trống mà ba mươi một mẫu điền vào; `_abstract/form-field` là những gì mười hai đầu vào được xây dựng trên đó. Chúng ra khỏi ma trận vì lý do hình dạng: chúng không được giao cho ai, vì vậy hỏi chúng về sơ đồ hoặc một bản sao react là hỏi một câu hỏi mà chúng không có cách nào để trả lời. Dấu gạch dưới nói lên điều đó trước khi ai đó mở thư mục. Những gì được hiển thị là những gì mỗi cái đã mang đến cho ai đó mở rộng nó.'
+    shapes:
+      title: 'Hình dạng'
+      description: 'Một hình dạng là một phong cách không có trình vẽ: bạn viết markup, đặt class lên nó, và `@use` tài liệu kiểu từ của riêng bạn. `.stack`, `.grid`, `.block`, `.cluster`. Chúng được liệt kê ở đây và không có trong bảng bên trên vì bảng của các trình vẽ không có cột để cung cấp thứ gì không có — và sự vắng mặt của chúng trong đó là lý do tại sao tất cả các cảnh báo của nó đều có nghĩa là công việc thay vì một câu hỏi được hỏi kém. Đường phân chia được xác định bởi các tệp, không phải bởi thị hiếu: một hình dạng chính xác là một `.scss` và không cái nào vẽ nó, vì vậy ngày một cái có được một `.html.twig` nó sẽ di chuyển vào `components/` và tham gia vào ma trận. Đó là sự thăng tiến duy nhất có. Những gì mỗi cái nói về chính nó được đọc từ tiêu đề của tài liệu kiểu của nó, vì vậy không có nơi thứ hai để nó drift ra.'
+    coverage:
+      title: 'Những điều này không bao gồm'
+      description: 'Các thư mục của `assets/` mà quét không đi qua, được liệt kê từ ổ đĩa thay vì từ bộ nhớ. Mixins, tiện ích và token không phải là các phần tử và có thể không bao giờ là các hàng ở đây; các bố cục và script chia sẻ thì có, và chưa được đề cập.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 库存
+  page_icon: 'ph:bold/list-checks'
+  intro: '每个捆绑包所包含的元素以及它们交付的格式。这个表不是任何人维护的列表：它是每个捆绑包所发货的注册，汇编自其声明并检查其组件的走访。它回答的是有哪些 — 而不是应该有哪些，这是扫描无法解决的问题，元素必须自行声明。'
+  problems:
+    title: 声明与资产不一致
+    body: '在这里显示，因为这个页面是从资产中编译的，所以它看到了 `%command%` 会拒绝写的内容。下面的每一点都命名了元素；表格还是一样绘制。'
+  missing:
+    title: 缺少注册
+    body: '%bundles% 注册为持有元素，但在磁盘上没有注册，因此其行在下面的表中缺失。运行 `%command%` 并提交结果。'
+  summary:
+    label: 计数
+    count: 数量
+    elements: 发现的元素
+    todo: 待完成的格式
+    undecided: 尚未做出的决定
+    shapes: 形状
+    abstracts: 抽象基类
+  column:
+    element: 元素
+    shape: 形状
+    description: 用途
+  cell:
+    absent: '在该格式中未找到，声明未说明原因 — 尚未做出的决定'
+    todo: 在该格式中需要但尚未存在
+    shared: '也由 %bundles% 持有。不是故障 — 加载器通过别名区分它们 — 但值得知道这是一个重新绘制的元素还是两个共享名称的元素。'
+  format:
+    style:
+      title: 样式
+      description: 样式表，由加载器在组件在页面上时加载。
+    template:
+      title: 模板
+      description: '服务器渲染器，由 twig 绘制。'
+    vue:
+      title: Vue
+      description: 客户端双胞胎，从浏览器中根据相同的选项绘制。
+    script:
+      title: 脚本
+      description: 行为，一旦进入文档便绑定到标记。
+    schema:
+      title: 架构
+      description: 合同：组件接受的内容，包括类型和默认值。每个其他渲染器都可以与之进行检查。
+    ai:
+      title: AI
+      description: 代理被告知关于组件的内容：架构，如何使用它，作用于它的工具。
+    react:
+      title: React
+      description: 'React 渲染器。'
+    flutter:
+      title: Flutter
+      description: 'Flutter 渲染器，使用 dart 编写，针对架构。标记不会传递；合同和令牌确实会。'
+  section:
+    matrix:
+      title: 按格式的元素
+      description: '每个组件一行，每个渲染器一列。组件是 `components/` 目录下的一个目录，包含它能被绘制的所有方式 — `spinner/spinner.scss`，`spinner.html.twig`，`spinner.vue`，`spinner.ts` — 所以这里没有必要再按名称调和四个目录。每个单元格计算其背后的文件 — 将鼠标悬停在一个上以查看它们。每个已声明的元素在相同级别读取 — 在单一格式中找到的一行可能是一个间隙或希望没有其他内容的原始元素，理清这一点是这个表的工作，而不是它已经知道的事情。四种状态，通过下一步是谁的移动区分：检查，元素存在；警告，想要但缺失；划掉的圆圈，故意不使用；空白，尚未有人裁定。将鼠标悬停在警告或圆圈上以查看声明所说的内容。'
+    sources:
+      title: 这些来自哪里
+      description: '一个捆绑包在表中是因为它这样说 — 通过实现 `DesignSystemElementsBundleInterface`，捆绑包向加载器说明其前端路径的方式。每个都在自己的资产中写入 `data/elements.json`，与它们一起发布，因此构建、节点端、其他语言或代理都从相同的文件工作；这个页面只是它们的联合。'
+    abstract:
+      title: 抽象
+      description: '在 `components/_abstract/` 下的五个基类，永远不会被绘制 — 它们只是被扩展。`_abstract/vue` 是三个空的 twig 块，三十一种模板填充；`_abstract/form-field` 是构建十二个输入的基础。它们在矩阵之外是因为形状也如此：它们不交付给任何人，因此询问它们的架构或 react 双胞胎就是在问一个它们无法回答的问题。下划线在任何人打开目录之前就表明了这一点。所显示的是每个扩展它所带来的内容。'
+    shapes:
+      title: 形状
+      description: '形状是一种没有渲染器的样式：你编写标记，将类放在其上，并从自己的样式表中 `@use` 样式表。`.stack`，`.grid`，`.block`，`.cluster`。它们在这里列出，而不是在上面的表中，因为渲染器的表没有列出没有渲染器的内容 — 它们的缺失正是为什么它的警告都意味着工作而不是一个问得不好的问题。界限由文件划定，而不是由品味：一个形状恰好是一个 `.scss`，没有任何东西渲染它，因此当获得一个 `.html.twig` 时，它移动到 `components/` 并加入矩阵。这个移动是唯一的晋升。每个关于自己的声明是从其自己的样式表的头部读取的，因此没有第二个位置可以漂移。'
+    coverage:
+      title: 这遗漏了什么
+      description: '扫描未走过的 `assets/` 目录，从磁盘而不是内存列出。Mixins、实用程序和令牌不是元素，可能永远不会在这里成为行；布局和共享脚本是，并且尚未覆盖。'

@@ -1,6 +1,0 @@
-~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-page_title: 'ฟอร์ม Vue'
-page_icon: 'ph:bold/file-vue'
-section:
-  vue:
-    title: 'พฤติกรรมการส่ง (หน้า + โมดัล)'

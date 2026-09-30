@@ -1,0 +1,1408 @@
+en:
+  page_title: Markers
+  page_icon: ph:bold/seal-check
+
+  intro: "One capsule for everything said about a thing in a word: a state, a name, a version, a category. They were two objects until the day a code and a state stood side by side in one header, a head apart, and nobody could say what the difference was meant to mean — so the shape is one and the tone is the whole of what tells them apart. What it carries is free: a word, a figure, a glyph, or two of the three. The circle stands where there is no room for a capsule, and the counter, which hangs from a row and is sized in the text it hangs from, is the one thing here that is not a marker."
+
+  section:
+    inline:
+      title: In the middle of a sentence
+      description: "A word set apart as it is read: a version, a phase, a category. The neutral tone, because a marker that arrives coloured has already made a claim about what it marks — and in a sentence there is nothing to claim."
+    palette:
+      title: The categories
+      description: "Tones that tell things apart without ranking them. They carry no meaning — nothing says the third is better than the fifth — which is exactly what makes them usable for a taxonomy, where meaning would be a lie. Worn exactly as a state is: same capsule, same rhythm."
+    against:
+      title: A counter beside a marker
+      description: "The one distinction left, and it is not about meaning. On the left a counter: twelve of something, hanging from the row that leads to it and sized in that row's own text. On the right a marker: twelve of something that went well, standing on its own and sized in tokens. A count beside a menu item is a counter; the same figure in a pipeline column is a marker."
+    words:
+      title: A state in words
+      description: "Announced in a sentence or beside a title, where it is the message rather than a mark in a column."
+    figures:
+      title: A state read by the dozen
+      description: "In a column, a tick beside a neutral count reads as two objects and a table of them reads as noise. Here the colour encloses the figure and the column is scanned in one pass — compact, since a cell has no room to spare."
+    payload:
+      title: What it carries
+      description: "A word for what the state is, a figure for how many of it there are, both, or neither. The figure is always drawn a step back from the rest: it qualifies the state, it is not the state."
+    weights:
+      title: The three forms side by side
+      description: "The same information in the place it is actually read. The circle is the form for a cell too narrow for a capsule, and the only one that can show a state being a quantity — and it is drawn with the very colour the capsule fills with."
+    circles:
+      title: Circles
+      description: "A state told by a circle rather than by a word, for a place where states are read by the dozen — a list of runs, a row of jobs. The ring carries the colour, the glyph inside says which state it is, and both sides of the stack draw the same markup."
+    progress:
+      title: A state that is a quantity
+      description: "A run is the one state with an amount to it, so its ring is drawn as far as the run has got. Twig prints the value it is given; moving it afterwards is the browser's business."
+    sizes:
+      title: Circle sizes
+    vue:
+      title: Vue
+      description: "The same component, driven: switching the type or the value moves the arc instead of redrawing it. This one is what an app places when the state is going to change under the reader's eyes."
+    code:
+      title: Usage
+
+  state:
+    success: Operation successful
+    error: An error occurred
+    warning: Proceed with caution
+    info: For your information
+    passed: Passed
+
+  weights:
+    column:
+      form: Form
+    row:
+      capsule: Capsule
+      circle: Circle
+
+  example:
+    sentence:
+      released: "Version 2.4 is"
+      deprecated: "This API is"
+
+  marker:
+    neutral: Neutral
+    released: Released
+    deprecated: Deprecated
+    tag: Category
+
+ar:
+  page_title: Markers
+  page_icon: 'ph:bold/seal-check'
+  intro: 'كبسولة واحدة لكل شيء قيل عن شيء ما في كلمة: حالة، اسم، إصدار، فئة. كانا كائنين حتى اليوم الذي وقف فيه رمز وحالة بجانب بعضهما البعض في رأس واحد، برأس واحد، ولم يستطع أحد أن يقول ما تعنيه الفرق — لذا الشكل واحد والنغمة هي كل ما يميز بينهما. ما تحمله مجاني: كلمة، رقم، رمز، أو اثنان من الثلاثة. الدائرة تقف حيث لا يوجد مكان لكبسولة، والعداد، الذي يتدلى من صف ويتم حجمه بالنص الذي يتدلى منه، هو الشيء الوحيد هنا الذي ليس علامة.'
+  section:
+    inline:
+      title: 'في وسط جملة'
+      description: 'كلمة مميزة كما تُقرأ: إصدار، مرحلة، فئة. النغمة المحايدة، لأن علامة تصل ملونة قد قامت بالفعل بمطالبة حول ما تشير إليه — وفي جملة لا يوجد شيء للمطالبة به.'
+    palette:
+      title: الفئات
+      description: 'نغمات تميز الأشياء دون تصنيفها. لا تحمل أي معنى — لا شيء يقول أن الثالث أفضل من الخامس — وهذا بالضبط ما يجعلها قابلة للاستخدام في تصنيف، حيث سيكون المعنى كذبة. تُرتدي تمامًا كما هي الحالة: نفس الكبسولة، نفس الإيقاع.'
+    against:
+      title: 'عداد بجانب علامة'
+      description: 'التمييز الوحيد المتبقي، وليس له علاقة بالمعنى. على اليسار عداد: اثنا عشر من شيء، يتدلى من الصف الذي يقوده ويتم حجمه بنص ذلك الصف. على اليمين علامة: اثنا عشر من شيء سار بشكل جيد، واقفًا بمفرده وحجمه بالرموز. العد بجانب عنصر القائمة هو عداد؛ نفس الرقم في عمود خط أنابيب هو علامة.'
+    words:
+      title: 'حالة بالكلمات'
+      description: 'مُعلنة في جملة أو بجانب عنوان، حيث تكون هي الرسالة بدلاً من علامة في عمود.'
+    figures:
+      title: 'حالة تُقرأ بالعشرات'
+      description: 'في عمود، علامة بجانب عدد محايد تُقرأ ككائنين و جدول منها يُقرأ كضجيج. هنا اللون يحيط بالشكل والعمود يمسح في تمريرة واحدة — مضغوط، لأن الخلية ليس لديها مكان للتوفير.'
+    payload:
+      title: 'ما تحمله'
+      description: 'كلمة لما هي الحالة، رقم لعددها، كلاهما، أو لا شيء. الرقم دائمًا ما يُرسم خطوة إلى الوراء عن البقية: يُؤهل الحالة، وليس الحالة.'
+    weights:
+      title: 'الأشكال الثلاثة جنبًا إلى جنب'
+      description: 'نفس المعلومات في المكان الذي تُقرأ فيه فعليًا. الدائرة هي الشكل لخلية ضيقة جدًا لكبسولة، وهي الوحيدة التي يمكن أن تظهر حالة ككمية — ويتم رسمها بنفس اللون الذي تملؤه الكبسولة.'
+    circles:
+      title: دوائر
+      description: 'حالة تُروى بدائرة بدلاً من كلمة، لمكان تُقرأ فيه الحالات بالعشرات — قائمة من الجولات، صف من الوظائف. الحلقة تحمل اللون، والرمز داخلها يقول أي حالة هي، وكلا جانبي الكومة يرسمان نفس العلامة.'
+    progress:
+      title: 'حالة هي كمية'
+      description: 'الجولة هي الحالة الوحيدة التي لها مقدار، لذا يتم رسم حلقتها بقدر ما وصلت إليه الجولة. طباعة Twig القيمة المعطاة لها؛ تحريكها لاحقًا هو من مسؤولية المتصفح.'
+    sizes:
+      title: 'أحجام الدوائر'
+    vue:
+      title: Vue
+      description: 'نفس المكون، مدفوع: تغيير النوع أو القيمة يحرك القوس بدلاً من إعادة رسمه. هذا ما تضعه التطبيق عندما ستتغير الحالة أمام أعين القارئ.'
+    code:
+      title: الاستخدام
+  state:
+    success: 'تمت العملية بنجاح'
+    error: 'حدث خطأ'
+    warning: 'تابع بحذر'
+    info: 'للمعلومات الخاصة بك'
+    passed: 'تمت الموافقة'
+  weights:
+    column:
+      form: شكل
+    row:
+      capsule: كبسولة
+      circle: دائرة
+  example:
+    sentence:
+      released: 'الإصدار 2.4 هو'
+      deprecated: 'هذه واجهة برمجة التطبيقات'
+  marker:
+    neutral: محايد
+    released: 'تم الإصدار'
+    deprecated: ملغى
+    tag: فئة
+
+bn:
+  page_title: মার্কার
+  page_icon: 'ph:bold/seal-check'
+  intro: 'একটি ক্যাপসুল একটি শব্দে একটি বিষয়ে বলা সবকিছু: একটি অবস্থা, একটি নাম, একটি সংস্করণ, একটি বিভাগ। তারা দুটি বস্তু ছিল যতদিন না একটি কোড এবং একটি অবস্থা এক শিরোনামের পাশে দাঁড়াল, এক মাথার ব্যবধান দূরে, এবং কেউ বলতে পারল না যে পার্থক্য কি বোঝাতে চেয়েছিল — তাই আকৃতি এক এবং সুর হল তাদের আলাদা করার সম্পূর্ণ বিষয়। এটি যা বহন করে তা মুক্ত: একটি শব্দ, একটি চিত্র, একটি গ্লিফ, অথবা তিনটির মধ্যে দুটি। বৃত্তটি সেখানে দাঁড়ায় যেখানে একটি ক্যাপসুলের জন্য জায়গা নেই, এবং কাউন্টার, যা একটি সারি থেকে ঝুলছে এবং এটি যে টেক্সটের উপর ঝুলছে তার আকারে আকার দেওয়া হয়েছে, এটি এখানে একমাত্র বিষয় যা একটি মার্কার নয়।'
+  section:
+    inline:
+      title: 'একটি বাক্যের মাঝখানে'
+      description: 'একটি শব্দ যা পড়ার সময় আলাদা হয়ে যায়: একটি সংস্করণ, একটি পর্যায়, একটি বিভাগ। নিরপেক্ষ সুর, কারণ একটি মার্কার যা রঙিন হয়ে আসে তা ইতিমধ্যেই দাবি করেছে যে এটি কি চিহ্নিত করে — এবং একটি বাক্যে দাবির কিছুই নেই।'
+    palette:
+      title: বিভাগসমূহ
+      description: 'সুর যা জিনিসগুলিকে আলাদা করে র‌্যাংকিং ছাড়াই। এগুলি কোন অর্থ বহন করে না — কিছুই বলে না যে তৃতীয়টি পঞ্চমের চেয়ে ভাল — যা সঠিকভাবে তাদের একটি শ্রেণীবিভাগের জন্য ব্যবহারযোগ্য করে, যেখানে অর্থ একটি মিথ্যা হবে। এটি ঠিক যেমন একটি অবস্থা পরিধান করা হয়: একই ক্যাপসুল, একই তাল।'
+    against:
+      title: 'একটি মার্কারের পাশে একটি কাউন্টার'
+      description: 'একটি পার্থক্য বাকি আছে, এবং এটি অর্থ সম্পর্কে নয়। বাম দিকে একটি কাউন্টার: কিছু একটা থেকে বারো, যে সারি থেকে এটি ঝুলছে তার উপর এবং সেই সারির নিজস্ব টেক্সটে আকার দেওয়া হয়েছে। ডান দিকে একটি মার্কার: কিছু একটা থেকে বারো যা ভালভাবে গেছে, এটি নিজের উপর দাঁড়িয়ে এবং টোকেনের আকারে আকার দেওয়া হয়েছে। একটি মেনু আইটেমের পাশে একটি গণনা একটি কাউন্টার; একটি পাইপলাইন কলামে একই সংখ্যা একটি মার্কার।'
+    words:
+      title: 'শব্দে একটি অবস্থা'
+      description: 'একটি বাক্যে বা একটি শিরোনামের পাশে ঘোষণা করা হয়, যেখানে এটি একটি চিহ্নের পরিবর্তে একটি বার্তা।'
+    figures:
+      title: 'ডজন ধরে পড়া একটি অবস্থা'
+      description: 'একটি কলামে, একটি নিরপেক্ষ গণনার পাশে একটি টিক দুইটি বস্তুর মতো পড়ে এবং তাদের একটি টেবিল শব্দদূষণ হিসেবে পড়ে। এখানে রঙ চিত্রকে ঘিরে রেখেছে এবং কলামটি একবারে স্ক্যান করা হয় — সংক্ষিপ্ত, যেহেতু একটি সেলের জন্য অতিরিক্ত জায়গা নেই।'
+    payload:
+      title: 'এটি কী বহন করে'
+      description: 'যা অবস্থা, এর সংখ্যা কত, উভয়, নাকি কিছুই — তার জন্য একটি শব্দ। চিত্রটি সবসময় বাকি থেকে এক ধাপ পিছনে অঙ্কিত হয়: এটি অবস্থা যোগ্য করে, এটি অবস্থা নয়।'
+    weights:
+      title: 'তিনটি রূপ পাশাপাশি'
+      description: 'একই তথ্য যেখানে এটি আসলে পড়া হয়। বৃত্ত একটি সেলের জন্য আকৃতি যা একটি ক্যাপসুলের জন্য খুব সংকীর্ণ, এবং একমাত্র যা একটি অবস্থা একটি পরিমাণ হিসাবে দেখাতে পারে — এবং এটি সেই রঙে অঙ্কিত হয় যা ক্যাপসুল পূর্ণ করে।'
+    circles:
+      title: বৃত্ত
+      description: 'একটি বৃত্ত দ্বারা বলা একটি অবস্থা, একটি স্থানে যেখানে অবস্থা ডজন ধরে পড়া হয় — একটি রানগুলির তালিকা, একটি কাজের সারি। রিংটি রঙ বহন করে, ভেতরের গ্লিফটি বলে এটি কোন অবস্থা, এবং স্তূপের উভয় পাশ একই মার্কআপ অঙ্কন করে।'
+    progress:
+      title: 'একটি অবস্থা যা একটি পরিমাণ'
+      description: 'একটি রান হল একমাত্র অবস্থা যার একটি পরিমাণ রয়েছে, তাই এর রিংটি যতদূর পর্যন্ত রানটি গিয়েছে ততদূর অঙ্কিত হয়। টুইগ প্রদত্ত মানটি মুদ্রণ করে; পরবর্তীতে এটি স্থানান্তর করা ব্রাউজারের বিষয়।'
+    sizes:
+      title: 'বৃত্তের আকার'
+    vue:
+      title: ভিউ
+      description: 'একই উপাদান, চালিত: প্রকার বা মান পরিবর্তন করা হলে আর্কটি সরানো হয়, পুনরায় অঙ্কন করার পরিবর্তে। এটি হল যা একটি অ্যাপ্লিকেশন স্থাপন করে যখন অবস্থা পড়ার চোখের সামনে পরিবর্তিত হতে চলেছে।'
+    code:
+      title: ব্যবহার
+  state:
+    success: 'অপারেশন সফল হয়েছে'
+    error: 'একটি ত্রুটি ঘটেছে'
+    warning: 'সতর্কতার সাথে এগিয়ে যান'
+    info: 'আপনার তথ্যের জন্য'
+    passed: 'পাস হয়েছে'
+  weights:
+    column:
+      form: আকৃতি
+    row:
+      capsule: ক্যাপসুল
+      circle: বৃত্ত
+  example:
+    sentence:
+      released: 'সংস্করণ 2.4 হল'
+      deprecated: 'এই API ডিপ্রিকেটেড'
+  marker:
+    neutral: নিরপেক্ষ
+    released: মুক্ত
+    deprecated: ডিপ্রিকেটেড
+    tag: বিভাগ
+
+de:
+  page_title: Marker
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Eine Kapsel für alles, was über eine Sache in einem Wort gesagt wird: ein Zustand, ein Name, eine Version, eine Kategorie. Sie waren zwei Objekte, bis an dem Tag, an dem ein Code und ein Zustand nebeneinander in einer Überschrift standen, ein Kopf auseinander, und niemand sagen konnte, was der Unterschied bedeuten sollte – die Form ist also eine und der Ton ist das Ganze, was sie unterscheidet. Was sie trägt, ist frei: ein Wort, eine Zahl, ein Glyph oder zwei von drei. Der Kreis steht dort, wo kein Platz für eine Kapsel ist, und der Zähler, der von einer Reihe hängt und in dem Text, von dem er hängt, dimensioniert ist, ist das eine hier, das kein Marker ist.'
+  section:
+    inline:
+      title: 'In der Mitte eines Satzes'
+      description: 'Ein Wort, das beim Lesen hervorgehoben wird: eine Version, eine Phase, eine Kategorie. Der neutrale Ton, weil ein Marker, der farbig ankommt, bereits einen Anspruch auf das erhebt, was er markiert – und in einem Satz gibt es nichts zu beanspruchen.'
+    palette:
+      title: 'Die Kategorien'
+      description: 'Töne, die Dinge unterscheiden, ohne sie zu bewerten. Sie tragen keine Bedeutung – nichts sagt, dass der dritte besser ist als der fünfte – was genau das ist, was sie für eine Taxonomie nutzbar macht, wo Bedeutung eine Lüge wäre. Trägt genau wie ein Zustand: gleiche Kapsel, gleicher Rhythmus.'
+    against:
+      title: 'Ein Zähler neben einem Marker'
+      description: 'Die eine Unterscheidung, die bleibt, und sie betrifft nicht die Bedeutung. Links ein Zähler: zwölf von etwas, das von der Reihe hängt, die zu ihm führt und in dem Text dieser Reihe dimensioniert ist. Rechts ein Marker: zwölf von etwas, das gut gelaufen ist, steht für sich und ist in Tokens dimensioniert. Eine Zählung neben einem Menüpunkt ist ein Zähler; dieselbe Zahl in einer Pipeline-Spalte ist ein Marker.'
+    words:
+      title: 'Ein Zustand in Worten'
+      description: 'Angekündigt in einem Satz oder neben einem Titel, wo es die Botschaft ist und nicht ein Zeichen in einer Spalte.'
+    figures:
+      title: 'Ein Zustand, der durch Dutzende gelesen wird'
+      description: 'In einer Spalte wird ein Häkchen neben einer neutralen Zählung als zwei Objekte gelesen, und eine Tabelle davon liest sich als Lärm. Hier umschließt die Farbe die Figur und die Spalte wird in einem Durchgang gescannt – kompakt, da eine Zelle keinen Platz zu verschenken hat.'
+    payload:
+      title: 'Was es trägt'
+      description: 'Ein Wort für den Zustand, wie viele davon vorhanden sind, beides oder keins. Die Zahl wird immer einen Schritt zurück von dem Rest gezogen: sie qualifiziert den Zustand, sie ist nicht der Zustand.'
+    weights:
+      title: 'Die drei Formen nebeneinander'
+      description: 'Die gleichen Informationen an dem Ort, an dem sie tatsächlich gelesen werden. Der Kreis ist die Form für eine Zelle, die zu schmal für eine Kapsel ist, und das einzige, das einen Zustand als Menge zeigen kann – und er wird mit genau der Farbe gezeichnet, mit der die Kapsel gefüllt ist.'
+    circles:
+      title: Kreise
+      description: 'Ein Zustand, der durch einen Kreis und nicht durch ein Wort erzählt wird, für einen Ort, an dem Zustände durch Dutzende gelesen werden – eine Liste von Abläufen, eine Reihe von Aufgaben. Der Ring trägt die Farbe, das Glyph im Inneren sagt, welcher Zustand es ist, und beide Seiten des Stacks ziehen dasselbe Markup.'
+    progress:
+      title: 'Ein Zustand, der eine Menge ist'
+      description: 'Ein Ablauf ist der eine Zustand mit einer Menge, also wird sein Ring so weit gezeichnet, wie der Ablauf gekommen ist. Twig gibt den Wert aus, den er erhält; ihn danach zu bewegen, ist Sache des Browsers.'
+    sizes:
+      title: Kreisgrößen
+    vue:
+      title: Vue
+      description: 'Dasselbe Element, betrieben: Die Art oder den Wert zu wechseln, bewegt den Bogen, anstatt ihn neu zu zeichnen. Dies ist das, was eine App platziert, wenn der Zustand sich vor den Augen des Lesers ändern wird.'
+    code:
+      title: Verwendung
+  state:
+    success: 'Vorgang erfolgreich'
+    error: 'Es ist ein Fehler aufgetreten'
+    warning: 'Vorsicht geboten'
+    info: 'Zu Ihrer Information'
+    passed: Bestanden
+  weights:
+    column:
+      form: Form
+    row:
+      capsule: Kapsel
+      circle: Kreis
+  example:
+    sentence:
+      released: 'Version 2.4 ist'
+      deprecated: 'Diese API ist'
+  marker:
+    neutral: Neutral
+    released: Veröffentlicht
+    deprecated: Veraltet
+    tag: Kategorie
+
+es:
+  page_title: Marcadores
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Una cápsula para todo lo dicho sobre algo en una palabra: un estado, un nombre, una versión, una categoría. Eran dos objetos hasta el día en que un código y un estado estuvieron uno al lado del otro en un encabezado, a un cabezal de distancia, y nadie pudo decir qué significaba la diferencia — así que la forma es una y el tono es todo lo que los distingue. Lo que lleva es libre: una palabra, una figura, un glifo, o dos de los tres. El círculo está donde no hay espacio para una cápsula, y el contador, que cuelga de una fila y se dimensiona en el texto del que cuelga, es lo único aquí que no es un marcador.'
+  section:
+    inline:
+      title: 'En medio de una oración'
+      description: 'Una palabra destacada tal como se lee: una versión, una fase, una categoría. El tono neutro, porque un marcador que llega coloreado ya ha hecho una afirmación sobre lo que marca — y en una oración no hay nada que afirmar.'
+    palette:
+      title: 'Las categorías'
+      description: 'Tonos que distinguen cosas sin clasificarlas. No llevan significado — nada dice que el tercero sea mejor que el quinto — lo que es exactamente lo que los hace utilizables para una taxonomía, donde el significado sería una mentira. Usados exactamente como un estado: misma cápsula, mismo ritmo.'
+    against:
+      title: 'Un contador al lado de un marcador'
+      description: 'La única distinción que queda, y no se trata de significado. A la izquierda un contador: doce de algo, colgando de la fila que lleva a él y dimensionado en el texto de esa fila. A la derecha un marcador: doce de algo que fue bien, de pie por sí mismo y dimensionado en tokens. Un conteo al lado de un elemento de menú es un contador; la misma figura en una columna de pipeline es un marcador.'
+    words:
+      title: 'Un estado en palabras'
+      description: 'Anunciado en una oración o al lado de un título, donde es el mensaje en lugar de una marca en una columna.'
+    figures:
+      title: 'Un estado leído por docenas'
+      description: 'En una columna, una marca al lado de un conteo neutro se lee como dos objetos y una tabla de ellos se lee como ruido. Aquí el color encierra la figura y la columna se escanea en una sola pasada — compacto, ya que una celda no tiene espacio que sobrar.'
+    payload:
+      title: 'Lo que lleva'
+      description: 'Una palabra para lo que es el estado, una figura para cuántos hay, ambos, o ninguno. La figura siempre se dibuja un paso atrás del resto: califica el estado, no es el estado.'
+    weights:
+      title: 'Las tres formas lado a lado'
+      description: 'La misma información en el lugar donde realmente se lee. El círculo es la forma para una celda demasiado estrecha para una cápsula, y la única que puede mostrar un estado siendo una cantidad — y se dibuja con el mismo color que la cápsula llena.'
+    circles:
+      title: Círculos
+      description: 'Un estado contado por un círculo en lugar de por una palabra, para un lugar donde los estados se leen por docenas — una lista de ejecuciones, una fila de trabajos. El anillo lleva el color, el glifo dentro dice qué estado es, y ambos lados de la pila dibujan la misma marca.'
+    progress:
+      title: 'Un estado que es una cantidad'
+      description: 'Una ejecución es el único estado con un monto, así que su anillo se dibuja hasta donde ha llegado la ejecución. Twig imprime el valor que se le da; moverlo después es asunto del navegador.'
+    sizes:
+      title: 'Tamaños de círculo'
+    vue:
+      title: Vue
+      description: 'El mismo componente, impulsado: cambiar el tipo o el valor mueve el arco en lugar de redibujar. Este es el que una aplicación coloca cuando el estado va a cambiar ante los ojos del lector.'
+    code:
+      title: Uso
+  state:
+    success: 'Operación exitosa'
+    error: 'Ocurrió un error'
+    warning: 'Proceda con precaución'
+    info: 'Para su información'
+    passed: Aprobado
+  weights:
+    column:
+      form: Forma
+    row:
+      capsule: Cápsula
+      circle: Círculo
+  example:
+    sentence:
+      released: 'La versión 2.4 es'
+      deprecated: 'Esta API es'
+  marker:
+    neutral: Neutro
+    released: Liberado
+    deprecated: Obsoleto
+    tag: Categoría
+
+fa:
+  page_title: مارکرها
+  page_icon: 'ph:bold/seal-check'
+  intro: 'یک کپسول برای هر آنچه که درباره یک چیز در یک کلمه گفته می‌شود: یک وضعیت، یک نام، یک نسخه، یک دسته. آن‌ها دو شیء بودند تا روزی که یک کد و یک وضعیت در یک هدر کنار هم قرار گرفتند، یک سر فاصله، و هیچ‌کس نمی‌توانست بگوید تفاوت به چه معنایی است — بنابراین شکل یکی است و لحن تمام آنچه را که آن‌ها را متمایز می‌کند شامل می‌شود. آنچه را که حمل می‌کند آزاد است: یک کلمه، یک عدد، یک نشانه، یا دو تا از این سه. دایره جایی قرار دارد که جایی برای یک کپسول نیست، و شمارنده‌ای که از یک ردیف آویزان است و در متنی که از آن آویزان است اندازه‌گیری می‌شود، تنها چیزی است که در اینجا نشانگر نیست.'
+  section:
+    inline:
+      title: 'در وسط یک جمله'
+      description: 'یک کلمه که به‌طور جداگانه خوانده می‌شود: یک نسخه، یک مرحله، یک دسته. لحن خنثی، زیرا یک نشانگر که رنگی می‌رسد، قبلاً ادعایی درباره آنچه که نشان می‌دهد کرده است — و در یک جمله چیزی برای ادعا وجود ندارد.'
+    palette:
+      title: دسته‌ها
+      description: 'لحن‌هایی که چیزها را بدون رتبه‌بندی از هم متمایز می‌کنند. آن‌ها هیچ معنایی ندارند — هیچ‌چیز نمی‌گوید که سوم از پنجم بهتر است — که دقیقاً همان چیزی است که آن‌ها را برای یک طبقه‌بندی قابل استفاده می‌کند، جایی که معنا دروغ خواهد بود. درست به همان شیوه‌ای که یک وضعیت است: همان کپسول، همان ریتم.'
+    against:
+      title: 'یک شمارنده در کنار یک نشانگر'
+      description: 'تنها تمایز باقی‌مانده، و این به معنای چیزی نیست. در سمت چپ یک شمارنده: دوازده از چیزی، آویزان از ردیفی که به آن منتهی می‌شود و در متن آن ردیف اندازه‌گیری می‌شود. در سمت راست یک نشانگر: دوازده از چیزی که خوب پیش رفت، به‌تنهایی ایستاده و در توکن‌ها اندازه گرفته می‌شود. یک شمارش در کنار یک مورد منو یک شمارنده است؛ همان عدد در یک ستون خط لوله یک نشانگر است.'
+    words:
+      title: 'وضعیت به زبان'
+      description: 'در یک جمله یا در کنار یک عنوان اعلام می‌شود، جایی که این پیام است نه یک علامت در یک ستون.'
+    figures:
+      title: 'وضعیت خوانده شده به صورت دوازدهی'
+      description: 'در یک ستون، یک تیک در کنار یک شمارش خنثی به‌عنوان دو شیء خوانده می‌شود و یک جدول از آن‌ها به‌عنوان نویز خوانده می‌شود. در اینجا رنگ، عدد را احاطه می‌کند و ستون در یک عبور اسکن می‌شود — فشرده، زیرا یک سلول جایی برای اضافی ندارد.'
+    payload:
+      title: 'آنچه را که حمل می‌کند'
+      description: 'یک کلمه برای آنچه که وضعیت است، یک عدد برای تعداد آن، هر دو، یا هیچ‌کدام. عدد همیشه یک قدم عقب‌تر از بقیه ترسیم می‌شود: این وضعیت را توصیف می‌کند، اما خود وضعیت نیست.'
+    weights:
+      title: 'سه فرم در کنار هم'
+      description: 'همان اطلاعات در جایی که واقعاً خوانده می‌شود. دایره فرم یک سلول است که برای یک کپسول خیلی باریک است، و تنها فرمی که می‌تواند نشان دهد که یک وضعیت یک مقدار است — و این با همان رنگی که کپسول با آن پر می‌شود ترسیم شده است.'
+    circles:
+      title: دایره‌ها
+      description: 'وضعیتی که توسط یک دایره گفته می‌شود نه یک کلمه، برای جایی که وضعیت‌ها به صورت دوازدهی خوانده می‌شوند — یک فهرست از اجراها، یک ردیف از مشاغل. حلقه رنگ را حمل می‌کند، نشانه درون آن می‌گوید که کدام وضعیت است، و هر دو طرف توده همان نشانه‌گذاری را ترسیم می‌کنند.'
+    progress:
+      title: 'وضعیتی که مقدار است'
+      description: 'یک اجرا تنها وضعیتی است که مقدار دارد، بنابراین حلقه آن به اندازه‌ای که اجرا پیش رفته کشیده می‌شود. Twig مقدار داده شده را چاپ می‌کند؛ جابجایی آن بعد از آن به عهده مرورگر است.'
+    sizes:
+      title: 'اندازه‌های دایره'
+    vue:
+      title: ویو
+      description: 'همان مؤلفه، هدایت شده: تغییر نوع یا مقدار، قوس را حرکت می‌دهد به جای اینکه آن را دوباره ترسیم کند. این همان چیزی است که یک برنامه زمانی که وضعیت قرار است در برابر چشم خواننده تغییر کند، قرار می‌دهد.'
+    code:
+      title: استفاده
+  state:
+    success: 'عملیات با موفقیت انجام شد'
+    error: 'یک خطا رخ داد'
+    warning: 'با احتیاط پیش بروید'
+    info: 'برای اطلاعات شما'
+    passed: 'قبول شد'
+  weights:
+    column:
+      form: فرم
+    row:
+      capsule: کپسول
+      circle: دایره
+  example:
+    sentence:
+      released: 'نسخه 2.4 است'
+      deprecated: 'این API منسوخ شده است'
+  marker:
+    neutral: خنثی
+    released: 'منتشر شده'
+    deprecated: 'منسوخ شده'
+    tag: دسته
+
+fi:
+  page_title: Merkit
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Yksi kapseli kaikkeen siihen, mitä asiasta voidaan sanoa sanassa: tila, nimi, versio, kategoria. Ne olivat kaksi objektia kunnes eräänä päivänä koodi ja tila seisoivat vierekkäin yhdessä otsikossa, pää eristyksissä, eikä kukaan voinut sanoa, mitä ero tarkoitti — joten muoto on yksi ja sävy on se, mikä erottaa ne toisistaan. Se, mitä se kantaa, on vapaa: sana, luku, glyyfi tai kaksi näistä kolmesta. Ympyrä seisoo paikassa, jossa ei ole tilaa kapselille, ja laskuri, joka roikkuu riviltä ja on koon mukaan, on se ainoa asia täällä, joka ei ole merkki.'
+  section:
+    inline:
+      title: 'Lauseen keskellä'
+      description: 'Sana, joka on eristetty lukiessa: versio, vaihe, kategoria. Neutraali sävy, koska värillinen merkki on jo tehnyt väitteen siitä, mitä se merkitsee — ja lauseessa ei ole mitään väitettävää.'
+    palette:
+      title: Kategoriat
+      description: 'Sävyt, jotka erottavat asioita ilman järjestystä. Ne eivät kanna merkitystä — mikään ei sano, että kolmas on parempi kuin viides — mikä tekee niistä käyttökelpoisia taksonomiaan, jossa merkitys olisi valhe. Kulutetaan samalla tavalla kuin tila: sama kapseli, sama rytmi.'
+    against:
+      title: 'Laskuri merkin vieressä'
+      description: 'Yksi jäljellä oleva ero, eikä se liity merkitykseen. Vasemmalla laskuri: kaksitoista jotain, roikkuen riviltä, joka johtaa siihen ja koon mukaan rivin tekstissä. Oikealla merkki: kaksitoista jotain, joka meni hyvin, seisten itsenäisesti ja koon mukaan tokenien mukaan. Laskuri menu-alkion vieressä on laskuri; sama luku putkilinjan sarakkeessa on merkki.'
+    words:
+      title: 'Tila sanoissa'
+      description: 'Ilmoitettu lauseessa tai otsikon vieressä, jossa se on viesti eikä merkki sarakkeessa.'
+    figures:
+      title: 'Tila luettuna kymmenittäin'
+      description: 'Sarakkeessa, rasti neutraalin laskurin vieressä luetaan kahtena objektina ja niiden taulukko luetaan meluna. Tässä väri sulkee kuvion ja sarake skannataan yhdellä käynnillä — kompakti, koska solulla ei ole tilaa hukattavaksi.'
+    payload:
+      title: 'Mitä se kantaa'
+      description: 'Sana siitä, mikä tila on, luku siitä, kuinka monta on, molemmat tai ei mitään. Luku on aina piirretty askeleen taakse muusta: se täsmentää tilan, se ei ole tila.'
+    weights:
+      title: 'Kolme muotoa vierekkäin'
+      description: 'Sama tieto siinä paikassa, jossa se todella luetaan. Ympyrä on muoto solulle, joka on liian kapea kapselille, ja ainoa, joka voi näyttää tilan olevan määrä — ja se on piirretty juuri sillä värillä, jota kapseli täyttää.'
+    circles:
+      title: Ympyrät
+      description: 'Tila kerrottuna ympyrällä sen sijaan, että se olisi sana, paikassa, jossa tiloja luetaan kymmenittäin — luettelo juoksuista, työn rivi. Rengas kantaa väriä, glyyfi sisällä sanoo, mikä tila se on, ja molemmat puolet pinosta piirtävät saman merkinnän.'
+    progress:
+      title: 'Tila, joka on määrä'
+      description: 'Juoksu on ainoa tila, jossa on määrä, joten sen rengas on piirretty niin pitkälle kuin juoksu on edennyt. Twig tulostaa arvon, jonka se saa; sen siirtäminen jälkeenpäin on selaimen asia.'
+    sizes:
+      title: 'Ympyrän koot'
+    vue:
+      title: Vue
+      description: 'Sama komponentti, ohjattu: tyypin tai arvon vaihtaminen liikuttaa kaarta sen sijaan, että se piirrettäisiin uudelleen. Tämä on se, mitä sovellus asettaa, kun tila on muuttumassa lukijan silmien alla.'
+    code:
+      title: Käyttö
+  state:
+    success: 'Toiminto onnistui'
+    error: 'Tapahtui virhe'
+    warning: 'Jatka varovaisesti'
+    info: 'Tietojasi varten'
+    passed: Hyväksytty
+  weights:
+    column:
+      form: Muoto
+    row:
+      capsule: Kapseli
+      circle: Ympyrä
+  example:
+    sentence:
+      released: 'Versio 2.4 on'
+      deprecated: 'Tämä API on'
+  marker:
+    neutral: Neutraali
+    released: Julkaistu
+    deprecated: Vanhenemassa
+    tag: Kategoria
+
+fr:
+  page_title: Markers
+  page_icon: 'ph:bold/seal-check'
+  intro: 'One capsule for everything said about a thing in a word: a state, a name, a version, a category. They were two objects until the day a code and a state stood side by side in one header, a head apart, and nobody could say what the difference was meant to mean — so the shape is one and the tone is the whole of what tells them apart. What it carries is free: a word, a figure, a glyph, or two of the three. The circle stands where there is no room for a capsule, and the counter, which hangs from a row and is sized in the text it hangs from, is the one thing here that is not a marker.'
+  section:
+    inline:
+      title: 'In the middle of a sentence'
+      description: 'A word set apart as it is read: a version, a phase, a category. The neutral tone, because a marker that arrives coloured has already made a claim about what it marks — and in a sentence there is nothing to claim.'
+    palette:
+      title: 'The categories'
+      description: 'Tones that tell things apart without ranking them. They carry no meaning — nothing says the third is better than the fifth — which is exactly what makes them usable for a taxonomy, where meaning would be a lie. Worn exactly as a state is: same capsule, same rhythm.'
+    against:
+      title: 'A counter beside a marker'
+      description: "The one distinction left, and it is not about meaning. On the left a counter: twelve of something, hanging from the row that leads to it and sized in that row's own text. On the right a marker: twelve of something that went well, standing on its own and sized in tokens. A count beside a menu item is a counter; the same figure in a pipeline column is a marker."
+    words:
+      title: 'A state in words'
+      description: 'Announced in a sentence or beside a title, where it is the message rather than a mark in a column.'
+    figures:
+      title: 'A state read by the dozen'
+      description: 'In a column, a tick beside a neutral count reads as two objects and a table of them reads as noise. Here the colour encloses the figure and the column is scanned in one pass — compact, since a cell has no room to spare.'
+    payload:
+      title: 'What it carries'
+      description: 'A word for what the state is, a figure for how many of it there are, both, or neither. The figure is always drawn a step back from the rest: it qualifies the state, it is not the state.'
+    weights:
+      title: 'The three forms side by side'
+      description: 'The same information in the place it is actually read. The circle is the form for a cell too narrow for a capsule, and the only one that can show a state being a quantity — and it is drawn with the very colour the capsule fills with.'
+    circles:
+      title: Circles
+      description: 'A state told by a circle rather than by a word, for a place where states are read by the dozen — a list of runs, a row of jobs. The ring carries the colour, the glyph inside says which state it is, and both sides of the stack draw the same markup.'
+    progress:
+      title: 'A state that is a quantity'
+      description: "A run is the one state with an amount to it, so its ring is drawn as far as the run has got. Twig prints the value it is given; moving it afterwards is the browser's business."
+    sizes:
+      title: 'Circle sizes'
+    vue:
+      title: Vue
+      description: "The same component, driven: switching the type or the value moves the arc instead of redrawing it. This one is what an app places when the state is going to change under the reader's eyes."
+    code:
+      title: Usage
+  state:
+    success: 'Operation successful'
+    error: 'An error occurred'
+    warning: 'Proceed with caution'
+    info: 'For your information'
+    passed: Passed
+  weights:
+    column:
+      form: Form
+    row:
+      capsule: Capsule
+      circle: Circle
+  example:
+    sentence:
+      released: 'Version 2.4 is'
+      deprecated: 'This API is'
+  marker:
+    neutral: Neutral
+    released: Released
+    deprecated: Deprecated
+    tag: Category
+
+he:
+  page_title: סימנים
+  page_icon: 'ph:bold/seal-check'
+  intro: 'קפסולה אחת לכל מה שנאמר על דבר במילה: מצב, שם, גרסה, קטגוריה. הם היו שני אובייקטים עד שהיום שבו קוד ומצב עמדו זה לצד זה בכותרת אחת, ראש אחד, ואף אחד לא יכול היה לומר מה ההבדל אמור להיות - כך שהצורה היא אחת והטון הוא כל מה שמפריד ביניהם. מה שהיא נושאת הוא חופשי: מילה, דמות, גופן, או שניים מתוך השלושה. המעגל נמצא היכן שאין מקום לקפסולה, והספירה, שתלויה משורה ומוגדרת בטקסט שהיא תלויה ממנו, היא הדבר היחיד כאן שאינו סימן.'
+  section:
+    inline:
+      title: 'במרכז משפט'
+      description: 'מילה מופרדת כפי שהיא נקראת: גרסה, שלב, קטגוריה. הטון הנייטרלי, כי סימן שמגיע בצבע כבר עשה טענה לגבי מה שהוא מסמן - ובמשפט אין מה לטעון.'
+    palette:
+      title: הקטגוריות
+      description: 'טונים שמפרידים דברים מבלי לדרג אותם. הם אינם נושאים משמעות - שום דבר לא אומר שהשלישי טוב מהחמישי - וזה בדיוק מה שעושה אותם שימושיים לטקסונומיה, שם משמעות תהיה שקר. נלבש בדיוק כמו מצב: אותה קפסולה, אותו קצב.'
+    against:
+      title: 'ספירה לצד סימן'
+      description: 'ההבחנה היחידה שנותרה, והיא לא נוגעת למשמעות. משמאל ספירה: שתיים עשרה ממשהו, תלויה מהשורה שמובילה אליה ומוגדרת בטקסט של השורה הזו. מימין סימן: שתיים עשרה ממשהו שהלך טוב, עומד בפני עצמו ומוגדר בטוקנים. ספירה לצד פריט בתפריט היא ספירה; אותה דמות בעמודת צינור היא סימן.'
+    words:
+      title: 'מצב במילים'
+      description: 'מוכר במשפט או לצד כותרת, שם הוא המסר ולא סימן בעמודה.'
+    figures:
+      title: 'מצב נקרא בעשרות'
+      description: 'בעמודה, סימן ליד ספירה נייטרלית נקרא כשני אובייקטים וטבלה שלהם נקראת רעש. כאן הצבע עוטף את הדמות והעמודה נסרקת במעבר אחד - קומפקטי, מכיוון שתא אין לו מקום פנוי.'
+    payload:
+      title: 'מה שהיא נושאת'
+      description: 'מילה עבור מה שהמצב הוא, דמות עבור כמה יש ממנו, שניהם, או אף אחד. הדמות תמיד נראית צעד אחורה מהשאר: היא מאשרת את המצב, היא לא המצב.'
+    weights:
+      title: 'שלוש הצורות זו לצד זו'
+      description: 'אותה מידע במקום שבו היא נקראת בפועל. המעגל הוא הצורה עבור תא צר מדי עבור קפסולה, והיחידה שיכולה להראות מצב שהוא כמות - והוא מצויר עם הצבע בדיוק שהקפסולה ממלאה בו.'
+    circles:
+      title: מעגלים
+      description: 'מצב שנאמר על ידי מעגל ולא על ידי מילה, עבור מקום שבו מצבים נקראים בעשרות - רשימה של ריצות, שורה של עבודות. הטבעת נושאת את הצבע, הגופן בפנים אומר איזה מצב זה, ושני צדדי הערימה מציירים את אותו סימון.'
+    progress:
+      title: 'מצב שהוא כמות'
+      description: 'ריצה היא המצב היחיד עם כמות, כך שהטבעת שלה מצויירת עד היכן שהריצה הגיעה. Twig מדפיס את הערך שניתן לו; להזיז אותו אחר כך זה עניין של הדפדפן.'
+    sizes:
+      title: 'גודלי מעגלים'
+    vue:
+      title: Vue
+      description: 'אותו רכיב, מונע: החלפת סוג או ערך מזיזה את הקשת במקום לצייר אותה מחדש. זה מה שאפליקציה מניחה כאשר המצב צפוי להשתנות מול עיני הקורא.'
+    code:
+      title: שימוש
+  state:
+    success: 'הפעולה בוצעה בהצלחה'
+    error: 'אירעה שגיאה'
+    warning: 'המשך בזהירות'
+    info: לידיעתך
+    passed: עבר
+  weights:
+    column:
+      form: צורה
+    row:
+      capsule: קפסולה
+      circle: מעגל
+  example:
+    sentence:
+      released: 'גרסה 2.4 היא'
+      deprecated: 'ה-API הזה הוא'
+  marker:
+    neutral: נייטרלי
+    released: שוחרר
+    deprecated: 'מומלץ לא להשתמש'
+    tag: קטגוריה
+
+hi:
+  page_title: Markers
+  page_icon: 'ph:bold/seal-check'
+  intro: 'एक कैप्सूल में एक शब्द के बारे में कहा गया सब कुछ: एक स्थिति, एक नाम, एक संस्करण, एक श्रेणी। वे दो वस्तुएं थीं जब तक कि एक दिन एक कोड और एक स्थिति एक हेडर में एक साथ खड़े नहीं हो गए, एक सिर के apart, और कोई नहीं कह सकता था कि इसका मतलब क्या था — इसलिए आकार एक है और स्वर वही है जो उन्हें अलग करता है। जो यह ले जाता है वह स्वतंत्र है: एक शब्द, एक आकृति, एक वर्ण, या इनमें से दो। वृत्त वहां खड़ा होता है जहां कैप्सूल के लिए जगह नहीं होती, और काउंटर, जो एक पंक्ति से लटका होता है और उस पाठ में आकार में होता है, यहां एकमात्र चीज है जो एक मार्कर नहीं है।'
+  section:
+    inline:
+      title: 'एक वाक्य के बीच में'
+      description: 'एक शब्द को अलग रखा गया है जैसा कि इसे पढ़ा जाता है: एक संस्करण, एक चरण, एक श्रेणी। तटस्थ स्वर, क्योंकि एक मार्कर जो रंगीन आता है, पहले से ही यह दावा कर चुका है कि यह क्या मार्क करता है — और एक वाक्य में किसी भी चीज़ का दावा करने के लिए कुछ नहीं है।'
+    palette:
+      title: श्रेणियाँ
+      description: 'स्वरों जो चीजों को बिना रैंक किए अलग बताते हैं। वे कोई अर्थ नहीं लाते हैं — कुछ भी नहीं कहता कि तीसरा पांचवें से बेहतर है — जो उन्हें एक वर्गीकरण के लिए उपयोगी बनाता है, जहां अर्थ एक झूठ होता। ठीक उसी तरह पहना जाता है जैसे एक स्थिति होती है: वही कैप्सूल, वही लय।'
+    against:
+      title: 'एक मार्कर के बगल में एक काउंटर'
+      description: 'एकमात्र भेद बचा है, और यह अर्थ के बारे में नहीं है। बाईं ओर एक काउंटर: कुछ का बारह, उस पंक्ति से लटका हुआ जो इसे ले जाती है और उस पंक्ति के अपने पाठ में आकार में होता है। दाईं ओर एक मार्कर: कुछ का बारह जो अच्छा गया, अपने आप खड़ा और टोकन में आकार में। एक मेनू आइटम के बगल में एक गिनती एक काउंटर है; एक पाइपलाइन कॉलम में वही संख्या एक मार्कर है।'
+    words:
+      title: 'शब्दों में एक स्थिति'
+      description: 'एक वाक्य में या एक शीर्षक के बगल में घोषित किया गया, जहां यह एक संदेश है न कि एक कॉलम में एक मार्क।'
+    figures:
+      title: 'एक स्थिति जो दर्जन में पढ़ी जाती है'
+      description: 'एक कॉलम में, तटस्थ गिनती के बगल में एक टिक दो वस्तुओं के रूप में पढ़ी जाती है और उनके एक तालिका शोर के रूप में पढ़ी जाती है। यहां रंग आकृति को घेरता है और कॉलम को एक पास में स्कैन किया जाता है — कॉम्पैक्ट, चूंकि एक सेल के पास जगह नहीं होती।'
+    payload:
+      title: 'यह क्या ले जाता है'
+      description: 'एक शब्द जो स्थिति है, एक आकृति यह बताने के लिए कि इसके कितने हैं, दोनों, या न तो। आकृति हमेशा बाकी से एक कदम पीछे खींची जाती है: यह स्थिति को योग्य बनाती है, यह स्थिति नहीं है।'
+    weights:
+      title: 'तीन रूप एक साथ'
+      description: 'वही जानकारी उस स्थान पर जहां इसे वास्तव में पढ़ा जाता है। वृत्त एक सेल के लिए आकार है जो कैप्सूल के लिए बहुत संकीर्ण है, और एकमात्र जो यह दिखा सकता है कि स्थिति एक मात्रा है — और इसे उसी रंग से खींचा जाता है जिससे कैप्सूल को भरा जाता है।'
+    circles:
+      title: वृत्त
+      description: 'एक स्थिति जो एक वृत्त द्वारा बताई जाती है न कि एक शब्द द्वारा, उन स्थानों के लिए जहां स्थितियाँ दर्जनों में पढ़ी जाती हैं — एक रन की सूची, काम की एक पंक्ति। अंगूठी रंग ले जाती है, अंदर का वर्ण बताता है कि यह कौन सी स्थिति है, और ढेर के दोनों पक्ष समान मार्कअप खींचते हैं।'
+    progress:
+      title: 'एक स्थिति जो मात्रा है'
+      description: 'एक रन एकमात्र स्थिति है जिसमें मात्रा होती है, इसलिए इसका अंगूठी उस रन तक खींची जाती है। Twig इसे दिए गए मूल्य को प्रिंट करता है; इसे बाद में स्थानांतरित करना ब्राउज़र का काम है।'
+    sizes:
+      title: 'वृत्त के आकार'
+    vue:
+      title: Vue
+      description: 'वही घटक, ड्राइव किया गया: प्रकार या मूल्य बदलने से आर्क को स्थानांतरित किया जाता है बजाय इसके कि इसे फिर से खींचा जाए। यह एक है जो एक ऐप रखता है जब स्थिति पाठक की आंखों के नीचे बदलने वाली होती है।'
+    code:
+      title: उपयोग
+  state:
+    success: 'ऑपरेशन सफल'
+    error: 'एक त्रुटि हुई'
+    warning: 'सावधानी के साथ आगे बढ़ें'
+    info: 'आपकी जानकारी के लिए'
+    passed: 'पास किया गया'
+  weights:
+    column:
+      form: आकृति
+    row:
+      capsule: कैप्सूल
+      circle: वृत्त
+  example:
+    sentence:
+      released: 'संस्करण 2.4 है'
+      deprecated: 'यह API है'
+  marker:
+    neutral: तटस्थ
+    released: 'जारी किया गया'
+    deprecated: Deprecated
+    tag: श्रेणी
+
+id:
+  page_title: Penanda
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Sebuah kapsul untuk segala sesuatu yang diungkapkan tentang suatu hal dalam satu kata: sebuah status, sebuah nama, sebuah versi, sebuah kategori. Mereka adalah dua objek hingga suatu hari kode dan status berdiri berdampingan dalam satu header, terpisah satu kepala, dan tidak ada yang bisa mengatakan apa arti perbedaan itu — jadi bentuknya satu dan nada adalah keseluruhan yang membedakan mereka. Apa yang dibawanya adalah bebas: sebuah kata, sebuah angka, sebuah glif, atau dua dari tiga tersebut. Lingkaran berdiri di tempat yang tidak ada ruang untuk kapsul, dan penghitung, yang menggantung dari baris dan berukuran sesuai teks yang digantungnya, adalah satu hal di sini yang bukan penanda.'
+  section:
+    inline:
+      title: 'Di tengah kalimat'
+      description: 'Sebuah kata yang dipisahkan saat dibaca: sebuah versi, sebuah fase, sebuah kategori. Nada netral, karena penanda yang datang berwarna telah membuat klaim tentang apa yang ditandainya — dan dalam sebuah kalimat tidak ada yang dapat diklaim.'
+    palette:
+      title: Kategori-kategori
+      description: 'Nada yang membedakan tanpa memberi peringkat. Mereka tidak membawa makna — tidak ada yang mengatakan bahwa yang ketiga lebih baik dari yang kelima — yang justru membuatnya dapat digunakan untuk taksonomi, di mana makna akan menjadi kebohongan. Dipakai persis seperti sebuah status: kapsul yang sama, ritme yang sama.'
+    against:
+      title: 'Sebuah penghitung di samping penanda'
+      description: 'Satu perbedaan yang tersisa, dan itu bukan tentang makna. Di sebelah kiri sebuah penghitung: dua belas dari sesuatu, menggantung dari baris yang mengarah ke sana dan berukuran dalam teks baris itu sendiri. Di sebelah kanan sebuah penanda: dua belas dari sesuatu yang berjalan dengan baik, berdiri sendiri dan berukuran dalam token. Sebuah hitungan di samping item menu adalah sebuah penghitung; angka yang sama dalam kolom saluran adalah sebuah penanda.'
+    words:
+      title: 'Sebuah status dalam kata-kata'
+      description: 'Diumumkan dalam sebuah kalimat atau di samping judul, di mana itu adalah pesan alih-alih tanda dalam kolom.'
+    figures:
+      title: 'Sebuah status dibaca secara dozen'
+      description: 'Dalam sebuah kolom, sebuah centang di samping hitungan netral dibaca sebagai dua objek dan tabelnya dibaca sebagai kebisingan. Di sini warna mengelilingi angka dan kolom dipindai dalam satu langkah — kompak, karena sebuah sel tidak memiliki ruang untuk spare.'
+    payload:
+      title: 'Apa yang dibawanya'
+      description: 'Sebuah kata untuk apa status itu, sebuah angka untuk berapa banyak dari itu, keduanya, atau tidak ada. Angka selalu digambar satu langkah mundur dari yang lainnya: itu memenuhi syarat status, bukan status itu sendiri.'
+    weights:
+      title: 'Tiga bentuk berdampingan'
+      description: 'Informasi yang sama di tempat yang sebenarnya dibaca. Lingkaran adalah bentuk untuk sel yang terlalu sempit untuk kapsul, dan satu-satunya yang dapat menunjukkan status sebagai jumlah — dan itu digambar dengan warna yang sama yang diisi kapsul.'
+    circles:
+      title: Lingkaran
+      description: 'Sebuah status yang diceritakan oleh sebuah lingkaran alih-alih oleh sebuah kata, untuk tempat di mana status dibaca secara dozen — sebuah daftar lari, baris pekerjaan. Cincin membawa warna, glif di dalamnya menunjukkan status mana itu, dan kedua sisi tumpukan menggambar markup yang sama.'
+    progress:
+      title: 'Sebuah status yang merupakan jumlah'
+      description: 'Sebuah lari adalah satu-satunya status dengan jumlah di dalamnya, jadi cincin digambar sejauh mana lari telah mencapai. Twig mencetak nilai yang diberikan; memindahkannya setelah itu adalah urusan browser.'
+    sizes:
+      title: 'Ukuran lingkaran'
+    vue:
+      title: Vue
+      description: 'Komponen yang sama, digerakkan: mengganti jenis atau nilai menggerakkan busur alih-alih menggambar ulang. Ini adalah apa yang ditempatkan aplikasi saat status akan berubah di depan mata pembaca.'
+    code:
+      title: Penggunaan
+  state:
+    success: 'Operasi berhasil'
+    error: 'Terjadi kesalahan'
+    warning: 'Lanjutkan dengan hati-hati'
+    info: 'Untuk informasi Anda'
+    passed: Lulus
+  weights:
+    column:
+      form: Bentuk
+    row:
+      capsule: Kapsul
+      circle: Lingkaran
+  example:
+    sentence:
+      released: 'Versi 2.4 adalah'
+      deprecated: 'API ini adalah'
+  marker:
+    neutral: Netral
+    released: Dirilis
+    deprecated: Dihapus
+    tag: Kategori
+
+it:
+  page_title: Marcatori
+  page_icon: 'ph:bold/seal-check'
+  intro: "Una capsula per tutto ciò che è stato detto su una cosa in una parola: uno stato, un nome, una versione, una categoria. Erano due oggetti fino al giorno in cui un codice e uno stato si sono trovati fianco a fianco in un'unica intestazione, a un passo di distanza, e nessuno poteva dire cosa significasse la differenza — quindi la forma è unica e il tono è l'insieme di ciò che li distingue. Ciò che porta è libero: una parola, una figura, un glifo, o due dei tre. Il cerchio sta dove non c'è spazio per una capsula, e il contatore, che pende da una riga ed è dimensionato nel testo da cui pende, è l'unica cosa qui che non è un marcatore."
+  section:
+    inline:
+      title: 'Nel mezzo di una frase'
+      description: "Una parola messa in evidenza mentre viene letta: una versione, una fase, una categoria. Il tono neutro, perché un marcatore che arriva colorato ha già fatto una rivendicazione su ciò che contrassegna — e in una frase non c'è nulla da rivendicare."
+    palette:
+      title: 'Le categorie'
+      description: 'Toni che distinguono le cose senza classificarle. Non portano significato — nulla dice che il terzo sia meglio del quinto — il che è esattamente ciò che li rende utilizzabili per una tassonomia, dove il significato sarebbe una menzogna. Indossati esattamente come uno stato è: stessa capsula, stesso ritmo.'
+    against:
+      title: 'Un contatore accanto a un marcatore'
+      description: "L'unica distinzione rimasta, e non riguarda il significato. A sinistra un contatore: dodici di qualcosa, pendente dalla riga che porta a esso e dimensionato nel testo di quella riga. A destra un marcatore: dodici di qualcosa che è andato bene, in piedi da solo e dimensionato in token. Un conteggio accanto a un elemento di menu è un contatore; la stessa figura in una colonna di pipeline è un marcatore."
+    words:
+      title: 'Uno stato in parole'
+      description: 'Annunciato in una frase o accanto a un titolo, dove è il messaggio piuttosto che un segno in una colonna.'
+    figures:
+      title: 'Uno stato letto per dozzine'
+      description: 'In una colonna, un segno accanto a un conteggio neutro viene letto come due oggetti e una tabella di essi viene letta come rumore. Qui il colore racchiude la figura e la colonna è scansionata in un colpo solo — compatta, poiché una cella non ha spazio da risparmiare.'
+    payload:
+      title: 'Ciò che porta'
+      description: 'Una parola per ciò che è lo stato, una figura per quanti ce ne sono, entrambi, o nessuno. La figura è sempre disegnata un passo indietro rispetto al resto: qualifica lo stato, non è lo stato.'
+    weights:
+      title: 'Le tre forme affiancate'
+      description: "Le stesse informazioni nel luogo in cui vengono effettivamente lette. Il cerchio è la forma per una cella troppo stretta per una capsula, e l'unica che può mostrare uno stato come quantità — ed è disegnata con il colore che la capsula riempie."
+    circles:
+      title: Cerchi
+      description: "Uno stato raccontato da un cerchio piuttosto che da una parola, per un luogo in cui gli stati sono letti per dozzine — un elenco di esecuzioni, una fila di lavori. L'anello porta il colore, il glifo all'interno indica quale stato è, e entrambi i lati della pila disegnano lo stesso markup."
+    progress:
+      title: 'Uno stato che è una quantità'
+      description: "Un'esecuzione è l'unico stato con un ammontare, quindi il suo anello è disegnato fino a dove è arrivata l'esecuzione. Twig stampa il valore che riceve; spostarlo successivamente è compito del browser."
+    sizes:
+      title: 'Dimensioni dei cerchi'
+    vue:
+      title: Vue
+      description: "Lo stesso componente, pilotato: cambiare il tipo o il valore muove l'arco invece di ridisegnarlo. Questo è ciò che un'app posiziona quando lo stato sta per cambiare sotto gli occhi del lettore."
+    code:
+      title: Utilizzo
+  state:
+    success: 'Operazione riuscita'
+    error: 'Si è verificato un errore'
+    warning: 'Procedere con cautela'
+    info: 'Per tua informazione'
+    passed: Superato
+  weights:
+    column:
+      form: Forma
+    row:
+      capsule: Capsula
+      circle: Cerchio
+  example:
+    sentence:
+      released: 'La versione 2.4 è'
+      deprecated: 'Questa API è'
+  marker:
+    neutral: Neutro
+    released: Rilasciato
+    deprecated: Deprecato
+    tag: Categoria
+
+ja:
+  page_title: マーカー
+  page_icon: 'ph:bold/seal-check'
+  intro: '物事について言われたすべてを言葉で表現するためのカプセル：状態、名前、バージョン、カテゴリ。それらは二つのオブジェクトでしたが、ある日、コードと状態が一つのヘッダーの横に並び、一つの頭の距離を置いて、誰もその違いが何を意味するのかを言えなくなりました — だから形は一つで、トーンはそれらを区別するすべてのものです。持っているものは自由です：言葉、数字、グリフ、またはその三つのうちの二つ。円はカプセルを置く余地がないところに立ち、行からぶら下がり、その行のテキストに合わせてサイズを持つカウンターは、ここで唯一マーカーではないものです。'
+  section:
+    inline:
+      title: 文の中で
+      description: '読まれる際に特別に設定された言葉：バージョン、フェーズ、カテゴリ。中立的なトーン、なぜなら色がついたマーカーは、すでにそれが示すものについての主張を行っているからです — 文の中には主張するものはありません。'
+    palette:
+      title: カテゴリ
+      description: 'ランク付けせずに物事を区別するトーン。それらは意味を持たず — 第三が第五より優れているとは何も言いません — それがまさに分類法で使える理由であり、意味は嘘になります。状態と同じように着用されます：同じカプセル、同じリズム。'
+    against:
+      title: マーカーの隣にあるカウンター
+      description: 残された一つの区別であり、それは意味に関するものではありません。左にカウンター：何かの12、そこに導く行からぶら下がり、その行のテキストに合わせてサイズが決まります。右にマーカー：うまくいった何かの12、独立して立ち、トークンでサイズが決まります。メニュー項目の隣にあるカウントはカウンターです；パイプラインの列にある同じ数字はマーカーです。
+    words:
+      title: 言葉で表現された状態
+      description: 文中またはタイトルの横で発表され、それはカラムのマークではなくメッセージです。
+    figures:
+      title: 12単位で読む状態
+      description: 'カラム内で、中立的なカウントの横にあるチェックは二つのオブジェクトとして読み取られ、それらのテーブルはノイズとして読み取られます。ここでは色が数字を包み、カラムは一度にスキャンされます — コンパクトで、セルに余裕がありません。'
+    payload:
+      title: 持っているもの
+      description: 状態が何であるかを示す言葉、それがいくつあるかを示す数字、両方またはどちらでもない。数字は常に他のものから一歩引いて描かれます：それは状態を修飾し、状態そのものではありません。
+    weights:
+      title: 三つの形が並んで
+      description: '実際に読まれる場所にある同じ情報。円はカプセルに対して狭すぎるセルのための形であり、量としての状態を示す唯一のものです — そして、それはカプセルが満たす色と同じ色で描かれます。'
+    circles:
+      title: 円
+      description: '言葉ではなく円で表現された状態、12単位で状態が読み取られる場所 — 実行のリスト、仕事の行。リングは色を持ち、内部のグリフはどの状態であるかを示し、スタックの両側は同じマークアップを描きます。'
+    progress:
+      title: 量としての状態
+      description: 実行は量を持つ唯一の状態であり、そのためリングは実行が到達したところまで描かれます。Twigは与えられた値を印刷し、その後に移動するのはブラウザの仕事です。
+    sizes:
+      title: 円のサイズ
+    vue:
+      title: Vue
+      description: 同じコンポーネント、駆動：タイプまたは値を切り替えると、弧が再描画されるのではなく移動します。これは、状態が読者の目の前で変わるときにアプリが配置するものです。
+    code:
+      title: 使用法
+  state:
+    success: 操作が成功しました
+    error: エラーが発生しました
+    warning: 注意して進んでください
+    info: ご参考までに
+    passed: 合格
+  weights:
+    column:
+      form: フォーム
+    row:
+      capsule: カプセル
+      circle: 円
+  example:
+    sentence:
+      released: 'バージョン 2.4 は'
+      deprecated: 'この API は'
+  marker:
+    neutral: 中立
+    released: リリース済み
+    deprecated: 非推奨
+    tag: カテゴリ
+
+ko:
+  page_title: 마커
+  page_icon: 'ph:bold/seal-check'
+  intro: '사물에 대한 모든 것을 한 단어로 압축한 캡슐: 상태, 이름, 버전, 카테고리. 코드와 상태가 하나의 헤더에서 나란히 서기 전까지는 두 개의 객체였습니다. 그 차이가 의미하는 바를 아무도 말할 수 없었습니다 — 그래서 형태는 하나이고, 톤은 그들을 구별하는 모든 것입니다. 그것이 담고 있는 것은 자유롭습니다: 단어, 숫자, 기호, 또는 이 셋 중 두 개. 원은 캡슐을 담을 공간이 없는 곳에 서 있으며, 행에서 걸려 있고 그 행의 텍스트 크기에 맞춰진 카운터가 여기서 유일하게 마커가 아닌 것입니다.'
+  section:
+    inline:
+      title: '문장 중간에'
+      description: '읽히는 대로 분리된 단어: 버전, 단계, 카테고리. 중립적인 톤, 색이 있는 마커는 이미 그것이 표시하는 것에 대해 주장했기 때문에 — 그리고 문장에는 주장할 것이 없습니다.'
+    palette:
+      title: 카테고리들
+      description: '서로를 구별하지만 순위를 매기지 않는 톤. 의미를 담고 있지 않습니다 — 세 번째가 다섯 번째보다 낫다는 것은 없습니다 — 이는 의미가 거짓이 되는 분류법에 사용 가능하게 만듭니다. 상태와 똑같이 착용됩니다: 같은 캡슐, 같은 리듬.'
+    against:
+      title: '마커 옆의 카운터'
+      description: '남은 유일한 구별, 그리고 그것은 의미에 관한 것이 아닙니다. 왼쪽에 카운터: 무엇인가 열두 개, 그것으로 이어지는 행에서 걸려 있고 그 행의 텍스트 크기에 맞춰져 있습니다. 오른쪽에 마커: 잘 된 무언가 열두 개, 독립적으로 서 있으며 토큰 크기에 맞춰져 있습니다. 메뉴 항목 옆의 수치는 카운터입니다; 파이프라인 열의 동일한 숫자는 마커입니다.'
+    words:
+      title: '단어로 표현된 상태'
+      description: '문장이나 제목 옆에 발표되어, 열의 표시가 아닌 메시지입니다.'
+    figures:
+      title: '열두 개로 읽는 상태'
+      description: '열에서 중립적인 수치 옆의 체크는 두 개의 객체로 읽히고, 그것의 표는 잡음으로 읽힙니다. 여기서 색은 숫자를 감싸고 열은 한 번에 스캔됩니다 — 압축되어, 셀에 여유가 없습니다.'
+    payload:
+      title: '담고 있는 것'
+      description: '상태가 무엇인지에 대한 단어, 몇 개인지에 대한 숫자, 둘 다 또는 아무것도 아닙니다. 숫자는 항상 나머지보다 한 걸음 뒤로 그려집니다: 상태를 수식하며, 상태가 아닙니다.'
+    weights:
+      title: '나란히 있는 세 가지 형태'
+      description: '실제로 읽히는 자리의 동일한 정보. 원은 캡슐에 비해 너무 좁은 셀의 형태이며, 상태가 수량이라는 것을 보여줄 수 있는 유일한 것입니다 — 그리고 캡슐이 채우고 있는 색으로 그려집니다.'
+    circles:
+      title: 원
+      description: '단어가 아닌 원으로 표현된 상태, 열두 개로 읽히는 곳 — 실행 목록, 작업 행. 링은 색을 담고, 내부의 기호는 어떤 상태인지 말하며, 스택 양쪽의 마크업은 동일합니다.'
+    progress:
+      title: '수량인 상태'
+      description: '런은 수량이 있는 유일한 상태이므로, 그 링은 런이 도달한 만큼 그려집니다. Twig은 주어진 값을 인쇄합니다; 이후 이동하는 것은 브라우저의 일입니다.'
+    sizes:
+      title: '원 크기'
+    vue:
+      title: Vue
+      description: '같은 컴포넌트, 구동됨: 유형이나 값을 전환하면 아크가 다시 그려지지 않고 이동합니다. 이는 상태가 독자의 눈앞에서 바뀔 예정일 때 앱이 배치하는 것입니다.'
+    code:
+      title: 사용법
+  state:
+    success: '작업이 성공적으로 완료되었습니다'
+    error: '오류가 발생했습니다'
+    warning: '주의하여 진행하세요'
+    info: '정보 제공을 위해'
+    passed: 통과됨
+  weights:
+    column:
+      form: 형태
+    row:
+      capsule: 캡슐
+      circle: 원
+  example:
+    sentence:
+      released: '버전 2.4는'
+      deprecated: '이 API는'
+  marker:
+    neutral: 중립
+    released: 출시됨
+    deprecated: '사용 중단됨'
+    tag: 카테고리
+
+nl:
+  page_title: Markers
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Één capsule voor alles wat over een ding in één woord is gezegd: een staat, een naam, een versie, een categorie. Het waren twee objecten tot de dag dat een code en een staat zij aan zij in één kop stonden, een hoofd apart, en niemand kon zeggen wat het verschil betekende — dus de vorm is één en de toon is het geheel van wat hen onderscheidt. Wat het draagt is vrij: een woord, een cijfer, een glyph, of twee van de drie. De cirkel staat waar er geen ruimte is voor een capsule, en de teller, die hangt aan een rij en is afgestemd op de tekst waaraan hij hangt, is het enige dat hier geen marker is.'
+  section:
+    inline:
+      title: 'In het midden van een zin'
+      description: 'Een woord apart gezet terwijl het wordt gelezen: een versie, een fase, een categorie. De neutrale toon, omdat een marker die gekleurd aankomt al een claim heeft gemaakt over wat hij markeert — en in een zin is er niets te claimen.'
+    palette:
+      title: 'De categorieën'
+      description: 'Tonen die dingen onderscheiden zonder ze te rangschikken. Ze dragen geen betekenis — niets zegt dat de derde beter is dan de vijfde — wat precies is wat ze bruikbaar maakt voor een taxonomie, waar betekenis een leugen zou zijn. Draagt precies zoals een staat is: dezelfde capsule, hetzelfde ritme.'
+    against:
+      title: 'Een teller naast een marker'
+      description: 'Het enige onderscheid dat overblijft, en het gaat niet om betekenis. Aan de linkerkant een teller: twaalf van iets, hangend aan de rij die er naartoe leidt en afgestemd op de tekst van die rij. Aan de rechterkant een marker: twaalf van iets dat goed ging, staand op zichzelf en afgestemd op tokens. Een telling naast een menu-item is een teller; hetzelfde cijfer in een pijplijnkolom is een marker.'
+    words:
+      title: 'Een staat in woorden'
+      description: 'Aangekondigd in een zin of naast een titel, waar het de boodschap is in plaats van een markering in een kolom.'
+    figures:
+      title: 'Een staat gelezen per dozijn'
+      description: 'In een kolom leest een vinkje naast een neutrale telling als twee objecten en een tabel van hen leest als ruis. Hier omhult de kleur het cijfer en de kolom wordt in één keer gescand — compact, aangezien een cel geen ruimte heeft om te verspillen.'
+    payload:
+      title: 'Wat het draagt'
+      description: 'Een woord voor wat de staat is, een cijfer voor hoeveel ervan zijn, beide, of geen van beide. Het cijfer is altijd een stap teruggetrokken van de rest: het kwalificeert de staat, het is niet de staat.'
+    weights:
+      title: 'De drie vormen naast elkaar'
+      description: 'Dezelfde informatie op de plaats waar het daadwerkelijk wordt gelezen. De cirkel is de vorm voor een cel die te smal is voor een capsule, en de enige die kan laten zien dat een staat een hoeveelheid is — en het wordt getekend met de kleur die de capsule vult.'
+    circles:
+      title: Cirkels
+      description: 'Een staat verteld door een cirkel in plaats van door een woord, voor een plaats waar staten per dozijn worden gelezen — een lijst van runs, een rij van taken. De ring draagt de kleur, de glyph binnenin zegt welke staat het is, en beide zijden van de stapel tekenen dezelfde markup.'
+    progress:
+      title: 'Een staat die een hoeveelheid is'
+      description: 'Een run is de enige staat met een hoeveelheid, dus zijn ring wordt getekend tot waar de run is gekomen. Twig print de waarde die het krijgt; het daarna verplaatsen is de zaak van de browser.'
+    sizes:
+      title: Cirkelgroottes
+    vue:
+      title: Vue
+      description: 'Dezelfde component, aangestuurd: het type of de waarde wisselen verplaatst de boog in plaats van het opnieuw te tekenen. Dit is wat een app plaatst wanneer de staat onder de ogen van de lezer gaat veranderen.'
+    code:
+      title: Gebruik
+  state:
+    success: 'Operatie succesvol'
+    error: 'Er is een fout opgetreden'
+    warning: 'Ga voorzichtig te werk'
+    info: 'Voor uw informatie'
+    passed: Geslaagd
+  weights:
+    column:
+      form: Vorm
+    row:
+      capsule: Capsule
+      circle: Cirkel
+  example:
+    sentence:
+      released: 'Versie 2.4 is'
+      deprecated: 'Deze API is'
+  marker:
+    neutral: Neutraal
+    released: Vrijgegeven
+    deprecated: Verouderd
+    tag: Categorie
+
+pl:
+  page_title: Markery
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Jedna kapsuła dla wszystkiego, co można powiedzieć o rzeczy w jednym słowie: stan, nazwa, wersja, kategoria. Były dwa obiekty, aż pewnego dnia kod i stan stanęły obok siebie w jednym nagłówku, o głowę oddalone, a nikt nie potrafił powiedzieć, co miało oznaczać różnicę — zatem kształt jest jeden, a ton to całość, co je rozróżnia. To, co niesie, jest wolne: słowo, figura, glif, lub dwa z trzech. Koło stoi tam, gdzie nie ma miejsca na kapsułę, a licznik, który wisi z rzędu i ma rozmiar w zależności od tekstu, z którego wisi, jest jedyną rzeczą, która nie jest markerem.'
+  section:
+    inline:
+      title: 'W środku zdania'
+      description: 'Słowo wyróżnione podczas czytania: wersja, faza, kategoria. Neutralny ton, ponieważ marker, który przychodzi w kolorze, już złożył roszczenie co do tego, co oznacza — a w zdaniu nie ma nic do roszczenia.'
+    palette:
+      title: Kategorie
+      description: 'Tonusy, które rozróżniają rzeczy bez ich rankingowania. Nie niosą znaczenia — nic nie mówi, że trzeci jest lepszy od piątego — co dokładnie sprawia, że są użyteczne w taksonomii, gdzie znaczenie byłoby kłamstwem. Noszone dokładnie tak, jak stan: ta sama kapsuła, ten sam rytm.'
+    against:
+      title: 'Licznik obok markera'
+      description: 'Jedyna pozostała różnica, i nie chodzi o znaczenie. Po lewej stronie licznik: dwanaście czegoś, wiszące z rzędu, który do niego prowadzi, i ma rozmiar według tekstu tego rzędu. Po prawej stronie marker: dwanaście czegoś, co poszło dobrze, stojące samodzielnie i mające rozmiar w tokenach. Liczba obok elementu menu to licznik; ta sama figura w kolumnie pipeline to marker.'
+    words:
+      title: 'Stan w słowach'
+      description: 'Ogłoszony w zdaniu lub obok tytułu, gdzie jest wiadomością, a nie znakiem w kolumnie.'
+    figures:
+      title: 'Stan czytany po dziesiątce'
+      description: 'W kolumnie, zaznaczenie obok neutralnej liczby odczytywane jest jako dwa obiekty, a tabela z nich odczytywana jest jako hałas. Tutaj kolor otacza figurę, a kolumna jest skanowana za jednym razem — kompaktowo, ponieważ komórka nie ma miejsca do stracenia.'
+    payload:
+      title: 'Co niesie'
+      description: 'Słowo dla tego, czym jest stan, figura dla tego, ile ich jest, oba, lub żadne. Figura zawsze rysowana jest krok w tył od reszty: kwalifikuje stan, nie jest stanem.'
+    weights:
+      title: 'Trzy formy obok siebie'
+      description: 'Te same informacje w miejscu, w którym są faktycznie czytane. Koło jest formą dla komórki zbyt wąskiej na kapsułę, i jedyną, która może pokazać stan jako ilość — i jest rysowane tą samą barwą, którą kapsuła napełnia.'
+    circles:
+      title: Koła
+      description: 'Stan przedstawiony przez koło, a nie słowo, w miejscu, gdzie stany są czytane po dziesiątce — lista biegów, rząd zadań. Pierścień niesie kolor, glif wewnątrz mówi, jaki to stan, a obie strony stosu rysują ten sam markup.'
+    progress:
+      title: 'Stan, który jest ilością'
+      description: 'Bieg to jedyny stan z ilością, więc jego pierścień jest rysowany tak daleko, jak bieg dotarł. Twig drukuje wartość, którą otrzymuje; przeniesienie jej później to sprawa przeglądarki.'
+    sizes:
+      title: 'Rozmiary kół'
+    vue:
+      title: Vue
+      description: 'Ten sam komponent, napędzany: zmiana typu lub wartości przesuwa łuk zamiast go przerysować. To to, co aplikacja umieszcza, gdy stan ma zmienić się na oczach czytelnika.'
+    code:
+      title: Użycie
+  state:
+    success: 'Operacja zakończona sukcesem'
+    error: 'Wystąpił błąd'
+    warning: 'Postępuj ostrożnie'
+    info: 'Dla Twojej informacji'
+    passed: Zaliczono
+  weights:
+    column:
+      form: Forma
+    row:
+      capsule: Kapsuła
+      circle: Koło
+  example:
+    sentence:
+      released: 'Wersja 2.4 to'
+      deprecated: 'To API jest'
+  marker:
+    neutral: Neutralny
+    released: Wydany
+    deprecated: Przestarzały
+    tag: Kategoria
+
+pt_BR:
+  page_title: Marcadores
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Uma cápsula para tudo o que foi dito sobre algo em uma palavra: um estado, um nome, uma versão, uma categoria. Eram dois objetos até o dia em que um código e um estado ficaram lado a lado em um cabeçalho, um cabeça de distância, e ninguém pôde dizer o que a diferença significava — então a forma é uma e o tom é o todo do que os distingue. O que carrega é livre: uma palavra, uma figura, um glifo, ou dois dos três. O círculo está onde não há espaço para uma cápsula, e o contador, que pendura de uma linha e é dimensionado no texto do qual pendura, é a única coisa aqui que não é um marcador.'
+  section:
+    inline:
+      title: 'No meio de uma frase'
+      description: 'Uma palavra destacada enquanto é lida: uma versão, uma fase, uma categoria. O tom neutro, porque um marcador que chega colorido já fez uma afirmação sobre o que marca — e em uma frase não há nada a reivindicar.'
+    palette:
+      title: 'As categorias'
+      description: 'Tons que distinguem as coisas sem classificá-las. Eles não carregam significado — nada diz que o terceiro é melhor que o quinto — o que é exatamente o que os torna utilizáveis para uma taxonomia, onde o significado seria uma mentira. Usados exatamente como um estado é: mesma cápsula, mesmo ritmo.'
+    against:
+      title: 'Um contador ao lado de um marcador'
+      description: 'A única distinção restante, e não se trata de significado. À esquerda um contador: doze de algo, pendurado na linha que leva a ele e dimensionado no texto dessa linha. À direita um marcador: doze de algo que foi bem, de pé e dimensionado em tokens. Uma contagem ao lado de um item de menu é um contador; a mesma figura em uma coluna de pipeline é um marcador.'
+    words:
+      title: 'Um estado em palavras'
+      description: 'Anunciado em uma frase ou ao lado de um título, onde é a mensagem em vez de uma marca em uma coluna.'
+    figures:
+      title: 'Um estado lido em dúzias'
+      description: 'Em uma coluna, uma marca ao lado de uma contagem neutra é lida como dois objetos e uma tabela deles é lida como ruído. Aqui a cor envolve a figura e a coluna é escaneada em uma única passada — compacta, já que uma célula não tem espaço a sobrar.'
+    payload:
+      title: 'O que carrega'
+      description: 'Uma palavra para o que o estado é, uma figura para quantos existem, ambos, ou nenhum. A figura está sempre desenhada um passo atrás do resto: ela qualifica o estado, não é o estado.'
+    weights:
+      title: 'As três formas lado a lado'
+      description: 'A mesma informação no lugar onde realmente é lida. O círculo é a forma para uma célula muito estreita para uma cápsula, e a única que pode mostrar um estado sendo uma quantidade — e é desenhada com a mesma cor que a cápsula preenche.'
+    circles:
+      title: Círculos
+      description: 'Um estado contado por um círculo em vez de por uma palavra, para um lugar onde os estados são lidos em dúzias — uma lista de execuções, uma linha de trabalhos. O anel carrega a cor, o glifo dentro diz qual estado é, e ambos os lados da pilha desenham a mesma marcação.'
+    progress:
+      title: 'Um estado que é uma quantidade'
+      description: 'Uma execução é o único estado com uma quantidade a ele, então seu anel é desenhado até onde a execução chegou. Twig imprime o valor que lhe é dado; movê-lo depois é responsabilidade do navegador.'
+    sizes:
+      title: 'Tamanhos de círculos'
+    vue:
+      title: Vue
+      description: 'O mesmo componente, acionado: mudar o tipo ou o valor move o arco em vez de redesenhá-lo. Este é o que um app coloca quando o estado vai mudar diante dos olhos do leitor.'
+    code:
+      title: Uso
+  state:
+    success: 'Operação bem-sucedida'
+    error: 'Ocorreu um erro'
+    warning: 'Prossiga com cautela'
+    info: 'Para sua informação'
+    passed: Aprovado
+  weights:
+    column:
+      form: Forma
+    row:
+      capsule: Cápsula
+      circle: Círculo
+  example:
+    sentence:
+      released: 'Versão 2.4 é'
+      deprecated: 'Esta API é'
+  marker:
+    neutral: Neutro
+    released: Liberado
+    deprecated: Depreciado
+    tag: Categoria
+
+ru:
+  page_title: Маркер
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Одна капсула для всего, что сказано о вещи одним словом: состояние, имя, версия, категория. Они были двумя объектами до того дня, когда код и состояние встали бок о бок в одном заголовке, на расстоянии головы, и никто не мог сказать, что значит различие — так что форма едина, а тон составляет всё, что отличает их. То, что она несет, свободно: слово, число, символ или два из трех. Круг стоит там, где нет места для капсулы, а счетчик, который висит из ряда и имеет размер в тексте, из которого он свисает, — это единственное здесь, что не является маркером.'
+  section:
+    inline:
+      title: 'В середине предложения'
+      description: 'Слово, выделенное в процессе чтения: версия, фаза, категория. Нейтральный тон, потому что маркер, пришедший окрашенным, уже сделал заявление о том, что он маркирует — а в предложении нечего заявлять.'
+    palette:
+      title: Категории
+      description: 'Тоны, которые различают вещи без ранжирования. Они не несут смысла — ничто не говорит о том, что третья лучше пятой — что как раз и делает их пригодными для таксономии, где смысл был бы ложью. Носится так же, как состояние: та же капсула, тот же ритм.'
+    against:
+      title: 'Счетчик рядом с маркером'
+      description: 'Единственное оставшееся различие, и оно не связано со смыслом. Слева счетчик: двенадцать чего-то, висящих из ряда, который ведет к нему, и размером в текст этого ряда. Справа маркер: двенадцать чего-то, что прошло успешно, стоящий отдельно и размером в токены. Счетчик рядом с элементом меню — это счетчик; то же самое число в столбце конвейера — это маркер.'
+    words:
+      title: 'Состояние словами'
+      description: 'Объявлено в предложении или рядом с заголовком, где это сообщение, а не отметка в столбце.'
+    figures:
+      title: 'Состояние, читаемое по дюжинам'
+      description: 'В столбце галочка рядом с нейтральным счетом читается как два объекта, а таблица из них читается как шум. Здесь цвет обрамляет фигуру, и столбец сканируется за один проход — компактно, так как ячейка не имеет лишнего места.'
+    payload:
+      title: 'То, что она несет'
+      description: 'Слово для описания состояния, число для количества, оба или ни одно. Число всегда рисуется на шаг назад от остального: оно квалифицирует состояние, но не является состоянием.'
+    weights:
+      title: 'Три формы бок о бок'
+      description: 'Та же информация в месте, где она фактически читается. Круг — это форма для ячейки, слишком узкой для капсулы, и единственная, которая может показать состояние как количество — и она рисуется тем же цветом, который заполняет капсула.'
+    circles:
+      title: Круги
+      description: 'Состояние, рассказанное кругом, а не словом, для места, где состояния читаются по дюжинам — список пробежек, ряд заданий. Кольцо несет цвет, символ внутри говорит, какое это состояние, и обе стороны стека рисуют одни и те же разметки.'
+    progress:
+      title: 'Состояние, которое является количеством'
+      description: 'Пробежка — это единственное состояние с количеством, поэтому ее кольцо рисуется так далеко, как пробежка достигла. Twig печатает значение, которое ему дано; перемещение его впоследствии — это дело браузера.'
+    sizes:
+      title: 'Размеры кругов'
+    vue:
+      title: Vue
+      description: 'Тот же компонент, управляемый: переключение типа или значения перемещает дугу вместо перерисовки. Это то, что приложение помещает, когда состояние собирается измениться на глазах у читателя.'
+    code:
+      title: Использование
+  state:
+    success: 'Операция успешна'
+    error: 'Произошла ошибка'
+    warning: 'Будьте осторожны'
+    info: 'Для вашей информации'
+    passed: Пройдено
+  weights:
+    column:
+      form: Форма
+    row:
+      capsule: Капсула
+      circle: Круг
+  example:
+    sentence:
+      released: 'Версия 2.4'
+      deprecated: 'Этот API устарел'
+  marker:
+    neutral: Нейтральный
+    released: Выпущен
+    deprecated: Устаревший
+    tag: Категория
+
+th:
+  page_title: เครื่องหมาย
+  page_icon: 'ph:bold/seal-check'
+  intro: 'แคปซูลหนึ่งสำหรับทุกสิ่งที่พูดถึงเกี่ยวกับสิ่งหนึ่งในคำเดียว: สถานะ, ชื่อ, เวอร์ชัน, หมวดหมู่ พวกมันเป็นวัตถุสองชิ้นจนกระทั่งวันหนึ่งที่โค้ดและสถานะยืนอยู่ข้างกันในหัวข้อเดียว ห่างกันแค่หัวเดียว และไม่มีใครสามารถบอกได้ว่าสิ่งที่แตกต่างกันนั้นหมายถึงอะไร — ดังนั้นรูปทรงจึงเป็นหนึ่งเดียวและโทนเสียงคือทั้งหมดที่บอกความแตกต่างของพวกเขา สิ่งที่มันแบกรับนั้นฟรี: คำ, ตัวเลข, สัญลักษณ์, หรือสองในสาม สิ่งกลมยืนอยู่ในที่ที่ไม่มีที่สำหรับแคปซูล และเคาน์เตอร์ที่แขวนจากแถวและมีขนาดตามข้อความที่มันแขวนอยู่ คือตัวเดียวที่นี่ที่ไม่ใช่เครื่องหมาย'
+  section:
+    inline:
+      title: กลางประโยค
+      description: 'คำที่ถูกตั้งแยกออกเมื่ออ่าน: เวอร์ชัน, เฟส, หมวดหมู่ โทนเสียงที่เป็นกลาง เพราะเครื่องหมายที่มาพร้อมสีได้ทำการอ้างอิงเกี่ยวกับสิ่งที่มันหมายถึง — และในประโยคไม่มีอะไรที่จะอ้างอิงได้'
+    palette:
+      title: หมวดหมู่
+      description: 'โทนเสียงที่บอกความแตกต่างโดยไม่จัดอันดับ พวกมันไม่มีความหมาย — ไม่มีอะไรบอกว่าสิ่งที่สามดีกว่าสิ่งที่ห้า — ซึ่งก็คือสิ่งที่ทำให้มันใช้ได้สำหรับการจัดประเภท ที่ซึ่งความหมายจะเป็นการโกหก สวมใส่เช่นเดียวกับสถานะ: แคปซูลเดียวกัน, จังหวะเดียวกัน'
+    against:
+      title: เคาน์เตอร์ข้างเครื่องหมาย
+      description: 'ความแตกต่างเดียวที่เหลืออยู่ และมันไม่เกี่ยวกับความหมาย ทางซ้ายคือเคาน์เตอร์: สิบสองของบางสิ่ง ที่แขวนจากแถวที่นำไปสู่และมีขนาดตามข้อความของแถวนั้น ทางขวาคือเครื่องหมาย: สิบสองของบางสิ่งที่ดี ยืนอยู่ตามลำพังและมีขนาดตามตัวเลข เคาน์เตอร์ข้างรายการเมนูคือเคาน์เตอร์; ตัวเลขเดียวกันในคอลัมน์ท่อคือเครื่องหมาย'
+    words:
+      title: สถานะในคำ
+      description: 'ประกาศในประโยคหรือข้างชื่อเรื่อง ซึ่งเป็นข้อความมากกว่าการทำเครื่องหมายในคอลัมน์'
+    figures:
+      title: สถานะอ่านโดยสิบสอง
+      description: 'ในคอลัมน์ เครื่องหมายถูกต้องข้างเคาน์เตอร์ที่เป็นกลางอ่านเป็นวัตถุสองชิ้นและตารางของพวกเขาอ่านเป็นเสียงดัง ที่นี่สีจะห่อหุ้มตัวเลขและคอลัมน์ถูกสแกนในครั้งเดียว — กะทัดรัด เนื่องจากเซลล์ไม่มีที่ว่างให้เหลือ'
+    payload:
+      title: สิ่งที่มันแบกรับ
+      description: 'คำสำหรับสิ่งที่สถานะคือ ตัวเลขสำหรับจำนวนของมัน มีทั้งสองอย่างหรือไม่มีเลย ตัวเลขจะวาดห่างจากที่เหลือ: มันมีคุณสมบัติของสถานะ มันไม่ใช่สถานะ'
+    weights:
+      title: รูปแบบสามแบบข้างกัน
+      description: 'ข้อมูลเดียวกันในที่ที่มันถูกอ่านจริง ๆ วงกลมคือรูปแบบสำหรับเซลล์ที่แคบเกินไปสำหรับแคปซูล และเป็นรูปแบบเดียวที่สามารถแสดงให้เห็นว่าสถานะเป็นปริมาณ — และมันถูกวาดด้วยสีเดียวกันที่แคปซูลเติมเต็ม'
+    circles:
+      title: วงกลม
+      description: 'สถานะที่บอกโดยวงกลมแทนที่จะเป็นคำ สำหรับสถานที่ที่สถานะถูกอ่านโดยสิบสอง — รายการของการทำงาน แถวของงาน วงแหวนจะนำสีมา สัญลักษณ์ภายในบอกว่าสถานะคืออะไร และทั้งสองด้านของกองวาดเครื่องหมายเดียวกัน'
+    progress:
+      title: สถานะที่เป็นปริมาณ
+      description: 'การวิ่งคือสถานะเดียวที่มีจำนวน ดังนั้นวงแหวนของมันจึงถูกวาดตามที่การวิ่งได้ไปถึง Twig แสดงค่าที่มันได้รับ; การเคลื่อนย้ายมันหลังจากนั้นเป็นเรื่องของเบราว์เซอร์'
+    sizes:
+      title: ขนาดวงกลม
+    vue:
+      title: Vue
+      description: 'ส่วนประกอบเดียวกัน ขับเคลื่อน: การเปลี่ยนประเภทหรือค่าเคลื่อนที่บนโค้งแทนที่จะวาดใหม่ นี่คือสิ่งที่แอปวางเมื่อสถานะจะเปลี่ยนภายใต้สายตาของผู้อ่าน'
+    code:
+      title: การใช้งาน
+  state:
+    success: ดำเนินการสำเร็จ
+    error: เกิดข้อผิดพลาด
+    warning: โปรดดำเนินการด้วยความระมัดระวัง
+    info: เพื่อข้อมูลของคุณ
+    passed: ผ่าน
+  weights:
+    column:
+      form: รูปแบบ
+    row:
+      capsule: แคปซูล
+      circle: วงกลม
+  example:
+    sentence:
+      released: 'เวอร์ชัน 2.4 คือ'
+      deprecated: 'API นี้ถูกยกเลิก'
+  marker:
+    neutral: เป็นกลาง
+    released: เผยแพร่
+    deprecated: ถูกยกเลิก
+    tag: หมวดหมู่
+
+tr:
+  page_title: İşaretleyiciler
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Bir şey hakkında söylenen her şeyin tek bir kelimeyle ifade edildiği bir kapsül: bir durum, bir isim, bir versiyon, bir kategori. Bir gün bir kod ve bir durum yan yana gelene kadar iki nesne olarak kaldılar, bir başlıkta, aralarındaki farkın ne anlama geldiğini kimse bilemedi — bu yüzden şekil birdir ve ton, onları ayıran her şeyin toplamıdır. Taşıdığı şey serbesttir: bir kelime, bir rakam, bir glif veya bunlardan ikisi. Daire, bir kapsül için yer olmadığında durur ve bir sıradan asılı olan ve asıldığı metinde boyutlandırılan sayaç, burada bir işaretleyici olmayan tek şeydir.'
+  section:
+    inline:
+      title: 'Cümlenin ortasında'
+      description: 'Okunduğu gibi ayrı bırakılmış bir kelime: bir versiyon, bir aşama, bir kategori. Nötr ton, çünkü renkli gelen bir işaretleyici, işaretlediği şey hakkında zaten bir iddia ortaya koymuştur — ve bir cümlede iddia edilecek bir şey yoktur.'
+    palette:
+      title: Kategoriler
+      description: 'Sıralama yapmadan şeyleri ayıran tonlar. Hiçbir anlam taşımazlar — üçüncünün beşinciden daha iyi olduğunu söyleyen bir şey yoktur — bu da onları bir taksonomi için kullanılabilir kılan tam olarak budur, burada anlam bir yalan olur. Bir durum gibi giyilir: aynı kapsül, aynı ritim.'
+    against:
+      title: 'Bir işaretleyicinin yanındaki sayaç'
+      description: 'Kalan tek ayrım ve bu anlamla ilgili değil. Solda bir sayaç: bir şeyin on iki tanesi, ona giden sıradan asılı ve o sıranın kendi metninde boyutlandırılmış. Sağda bir işaretleyici: iyi giden bir şeyin on iki tanesi, kendine ait olarak duruyor ve tokenlerle boyutlandırılmış. Bir menü öğesinin yanındaki bir sayı bir sayacıdır; bir boru hattı sütunundaki aynı rakam bir işaretleyicidir.'
+    words:
+      title: 'Kelimelerle bir durum'
+      description: 'Bir cümlede veya bir başlığın yanında duyurulmuş, burada mesajdır, bir sütunda bir işaret değil.'
+    figures:
+      title: 'Onlarca okunan bir durum'
+      description: 'Bir sütunda, nötr bir sayımın yanındaki bir tik, iki nesne olarak okunur ve bunların bir tablosu gürültü olarak okunur. Burada renk, rakamı sarar ve sütun tek bir geçişte taranır — kompakt, çünkü bir hücrenin fazladan yeri yoktur.'
+    payload:
+      title: 'Taşıdığı şey'
+      description: 'Durumun ne olduğunu belirten bir kelime, kaç tane olduğunu belirten bir rakam, her ikisi veya hiçbiri. Rakam her zaman geri adım atarak çizilir: durumu nitelendirir, durum değildir.'
+    weights:
+      title: 'Yan yana üç form'
+      description: 'Gerçekten okunan yerindeki aynı bilgi. Daire, kapsül için çok dar bir hücre için formdur ve bir durumun miktar olduğunu gösterebilen tek formdur — ve kapsülün doldurduğu renkle çizilir.'
+    circles:
+      title: Daireler
+      description: 'Bir kelime yerine bir daireyle anlatılan bir durum, onlarla okunan bir yer için — bir koşu listesi, bir iş sırası. Halkaya renk taşır, içindeki glif hangi durum olduğunu söyler ve yığmanın her iki tarafı aynı işaretleme ile çizilir.'
+    progress:
+      title: 'Bir miktar olan durum'
+      description: 'Bir koşu, içinde bir miktar olan tek durumdur, bu yüzden halkası koşunun ne kadar ilerlediği kadar çizilir. Twig, kendisine verilen değeri yazdırır; sonrasında taşımak tarayıcının işidir.'
+    sizes:
+      title: 'Daire boyutları'
+    vue:
+      title: Vue
+      description: 'Aynı bileşen, sürücü: türü veya değeri değiştirmek, yayı yeniden çizmek yerine yay hareket ettirir. Bu, durumun okuyucunun gözleri önünde değişeceği zaman bir uygulamanın yerleştirdiği şeydir.'
+    code:
+      title: Kullanım
+  state:
+    success: 'İşlem başarılı'
+    error: 'Bir hata oluştu'
+    warning: 'Dikkatli ilerleyin'
+    info: 'Bilginiz için'
+    passed: Geçti
+  weights:
+    column:
+      form: Form
+    row:
+      capsule: Kapsül
+      circle: Daire
+  example:
+    sentence:
+      released: 'Sürüm 2.4'
+      deprecated: 'Bu API geçersizdir'
+  marker:
+    neutral: Nötr
+    released: Yayımlandı
+    deprecated: Geçersiz
+    tag: Kategori
+
+ur:
+  page_title: مارکر
+  page_icon: 'ph:bold/seal-check'
+  intro: 'ایک کیپسول ہر چیز کے بارے میں کہا گیا ایک لفظ میں: ایک حالت، ایک نام، ایک ورژن، ایک زمرہ۔ یہ دو اشیاء تھیں جب تک کہ ایک دن ایک کوڈ اور ایک حالت ایک ہی ہیڈر میں ساتھ ساتھ کھڑی نہیں ہو گئیں، ایک سر کے فاصلے پر، اور کوئی نہیں کہہ سکا کہ اس فرق کا کیا مطلب تھا — تو شکل ایک ہے اور لہجہ وہ سب کچھ ہے جو انہیں الگ کرتا ہے۔ جو وہ لے کر آتا ہے وہ آزاد ہے: ایک لفظ، ایک عدد، ایک گلیف، یا ان تینوں میں سے دو۔ دائرہ وہاں ہوتا ہے جہاں کیپسول کے لیے کوئی جگہ نہیں ہوتی، اور کاؤنٹر، جو ایک قطار سے لٹکتا ہے اور اس کے لٹکنے والے متن میں سائز میں ہوتا ہے، یہاں ایک ہی چیز ہے جو نشان نہیں ہے۔'
+  section:
+    inline:
+      title: 'ایک جملے کے درمیان'
+      description: 'ایک لفظ جو پڑھتے وقت الگ ہوتا ہے: ایک ورژن، ایک مرحلہ، ایک زمرہ۔ نیوٹرل لہجہ، کیونکہ ایک نشان جو رنگین آتا ہے پہلے ہی یہ دعویٰ کر چکا ہے کہ وہ کیا نشان زد کرتا ہے — اور ایک جملے میں کچھ بھی دعویٰ کرنے کے لیے نہیں ہوتا۔'
+    palette:
+      title: زمرے
+      description: 'لہجے جو چیزوں کو الگ کرتے ہیں بغیر انہیں رینک کیے۔ ان کا کوئی معنی نہیں ہوتا — کچھ بھی نہیں کہتا کہ تیسرا پانچویں سے بہتر ہے — جو انہیں ایک درجہ بندی کے لیے قابل استعمال بناتا ہے، جہاں معنی جھوٹ ہوتا۔ بالکل ویسے ہی پہنا جاتا ہے جیسے ایک حالت: ایک ہی کیپسول، ایک ہی ردھم۔'
+    against:
+      title: 'ایک نشان کے ساتھ ایک کاؤنٹر'
+      description: 'ایک فرق باقی ہے، اور یہ معنی کے بارے میں نہیں ہے۔ بائیں طرف ایک کاؤنٹر: کسی چیز کے بارہ، اس قطار سے لٹکتا ہوا جو اس کی طرف لے جاتی ہے اور اس قطار کے اپنے متن میں سائز میں ہوتا ہے۔ دائیں طرف ایک نشان: کسی چیز کے بارہ جو اچھا گزرا، اکیلا کھڑا ہے اور ٹوکنز میں سائز میں ہے۔ ایک مینو آئٹم کے ساتھ ایک کاؤنٹر ہوتا ہے؛ ایک پائپ لائن کالم میں وہی عدد ایک نشان ہوتا ہے۔'
+    words:
+      title: 'الفاظ میں ایک حالت'
+      description: 'ایک جملے میں یا ایک عنوان کے ساتھ اعلان کیا گیا، جہاں یہ ایک پیغام ہے نہ کہ ایک کالم میں نشان۔'
+    figures:
+      title: 'ایک حالت جو درجن میں پڑھی جاتی ہے'
+      description: 'ایک کالم میں، ایک نیوٹرل کاؤنٹ کے ساتھ ایک ٹک پڑھنے میں دو اشیاء اور ان کی میز شور کے طور پر پڑھتا ہے۔ یہاں رنگ عدد کو گھیر لیتا ہے اور کالم ایک بار میں سکین کیا جاتا ہے — کمپیکٹ، کیونکہ ایک سیل کے پاس جگہ نہیں ہے۔'
+    payload:
+      title: 'جو وہ لے کر آتا ہے'
+      description: 'ایک لفظ جو ریاست ہے، ایک عدد جو اس کی تعداد ہے، دونوں، یا کچھ بھی نہیں۔ عدد ہمیشہ باقی چیزوں سے ایک قدم پیچھے کھینچا جاتا ہے: یہ حالت کی وضاحت کرتا ہے، یہ حالت نہیں ہے۔'
+    weights:
+      title: 'تین اشکال ایک ساتھ'
+      description: 'وہی معلومات اس جگہ پر جہاں یہ واقعی پڑھا جاتا ہے۔ دائرہ اس شکل کے لیے ہے جو کیپسول کے لیے بہت تنگ ہے، اور یہ واحد ہے جو ایک حالت کو مقدار کے طور پر دکھا سکتا ہے — اور یہ اسی رنگ سے کھینچا جاتا ہے جس سے کیپسول بھرا جاتا ہے۔'
+    circles:
+      title: دایرے
+      description: 'ایک حالت جو ایک دائرے کے ذریعے بیان کی گئی ہے نہ کہ ایک لفظ کے ذریعے، ایک جگہ کے لیے جہاں ریاستیں درجنوں میں پڑھی جاتی ہیں — ایک دوڑ کی فہرست، کاموں کی ایک صف۔ رنگ دائرہ لے کر آتا ہے، اندر کا گلیف یہ کہتا ہے کہ یہ کون سی حالت ہے، اور ڈھیر کے دونوں طرف ایک ہی مارک اپ کھینچتے ہیں۔'
+    progress:
+      title: 'ایک حالت جو مقدار ہے'
+      description: 'ایک دوڑ ایک ایسی حالت ہے جس میں ایک مقدار ہوتی ہے، لہذا اس کا دائرہ اس حد تک کھینچا جاتا ہے جہاں دوڑ پہنچی ہے۔ ٹویگ وہ قیمت پرنٹ کرتا ہے جو اسے دی گئی ہے؛ اس کے بعد اسے منتقل کرنا براؤزر کا کام ہے۔'
+    sizes:
+      title: 'دایروں کے سائز'
+    vue:
+      title: Vue
+      description: 'ایک ہی جزو، چلایا گیا: قسم یا قیمت کو تبدیل کرنے سے قوس منتقل ہوتی ہے بجائے اس کے کہ اسے دوبارہ کھینچا جائے۔ یہ وہی ہے جو ایک ایپ رکھتا ہے جب حالت قارئین کی آنکھوں کے سامنے تبدیل ہونے والی ہوتی ہے۔'
+    code:
+      title: استعمال
+  state:
+    success: 'عمل کامیاب'
+    error: 'ایک غلطی ہوئی'
+    warning: 'احتیاط سے آگے بڑھیں'
+    info: 'آپ کی معلومات کے لیے'
+    passed: 'پاس کر دیا'
+  weights:
+    column:
+      form: شکل
+    row:
+      capsule: کیپسول
+      circle: دایرہ
+  example:
+    sentence:
+      released: 'ورژن 2.4 ہے'
+      deprecated: 'یہ API ہے'
+  marker:
+    neutral: نیوٹرل
+    released: 'جاری کیا گیا'
+    deprecated: 'مسترد کر دیا گیا'
+    tag: زمرہ
+
+vi:
+  page_title: 'Các dấu hiệu'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Một viên nang cho mọi điều được nói về một thứ trong một từ: một trạng thái, một tên gọi, một phiên bản, một loại. Chúng là hai đối tượng cho đến ngày một mã và một trạng thái đứng bên nhau trong một tiêu đề, một khoảng cách, và không ai có thể nói sự khác biệt đó có nghĩa là gì — vì vậy hình dạng là một và tông màu là toàn bộ những gì phân biệt chúng. Những gì nó mang là miễn phí: một từ, một con số, một ký tự, hoặc hai trong ba cái đó. Hình tròn đứng ở nơi không có chỗ cho một viên nang, và bộ đếm, cái treo từ một hàng và có kích thước theo văn bản mà nó treo từ đó, là thứ duy nhất ở đây không phải là một dấu hiệu.'
+  section:
+    inline:
+      title: 'Giữa một câu'
+      description: 'Một từ được tách ra khi đọc: một phiên bản, một giai đoạn, một loại. Tông màu trung tính, vì một dấu hiệu đến với màu sắc đã tuyên bố một điều gì đó về những gì nó đánh dấu — và trong một câu không có gì để tuyên bố.'
+    palette:
+      title: 'Các loại'
+      description: 'Các tông màu phân biệt mà không xếp hạng chúng. Chúng không mang ý nghĩa — không có gì nói rằng cái thứ ba tốt hơn cái thứ năm — điều này chính là lý do khiến chúng có thể sử dụng cho phân loại, nơi ý nghĩa sẽ là một lời nói dối. Được mặc giống như một trạng thái: cùng một viên nang, cùng một nhịp điệu.'
+    against:
+      title: 'Một bộ đếm bên cạnh một dấu hiệu'
+      description: 'Sự khác biệt duy nhất còn lại, và nó không liên quan đến ý nghĩa. Bên trái là một bộ đếm: mười hai cái gì đó, treo từ hàng dẫn đến nó và có kích thước theo văn bản của hàng đó. Bên phải là một dấu hiệu: mười hai cái gì đó đã diễn ra tốt đẹp, đứng độc lập và có kích thước theo các ký hiệu. Một số bên cạnh một mục menu là một bộ đếm; cùng một con số trong cột ống dẫn là một dấu hiệu.'
+    words:
+      title: 'Một trạng thái bằng từ'
+      description: 'Được thông báo trong một câu hoặc bên cạnh một tiêu đề, nơi nó là thông điệp chứ không phải một dấu hiệu trong một cột.'
+    figures:
+      title: 'Một trạng thái được đọc theo chục'
+      description: 'Trong một cột, một dấu tick bên cạnh một số trung tính đọc như hai đối tượng và một bảng của chúng đọc như tiếng ồn. Ở đây màu sắc bao bọc hình ảnh và cột được quét trong một lần — gọn gàng, vì một ô không có chỗ thừa.'
+    payload:
+      title: 'Những gì nó mang'
+      description: 'Một từ cho những gì trạng thái đó là, một con số cho biết có bao nhiêu cái, cả hai, hoặc không cái nào. Con số luôn được vẽ một bước lùi so với phần còn lại: nó bổ sung cho trạng thái, nó không phải là trạng thái.'
+    weights:
+      title: 'Ba hình thức cạnh nhau'
+      description: 'Cùng một thông tin trong vị trí mà nó thực sự được đọc. Hình tròn là hình thức cho một ô quá hẹp cho một viên nang, và là hình thức duy nhất có thể cho thấy một trạng thái là một số lượng — và nó được vẽ bằng màu sắc mà viên nang chứa đựng.'
+    circles:
+      title: 'Các hình tròn'
+      description: 'Một trạng thái được kể bằng một hình tròn chứ không phải bằng một từ, cho một nơi mà các trạng thái được đọc theo chục — một danh sách các hoạt động, một hàng công việc. Vòng tròn mang màu sắc, ký tự bên trong cho biết đó là trạng thái nào, và cả hai bên của ngăn xếp đều vẽ cùng một đánh dấu.'
+    progress:
+      title: 'Một trạng thái là một số lượng'
+      description: 'Một hoạt động là trạng thái duy nhất có một số lượng, vì vậy vòng của nó được vẽ đến mức mà hoạt động đã đạt được. Twig in giá trị mà nó được cho; việc di chuyển nó sau đó là việc của trình duyệt.'
+    sizes:
+      title: 'Kích thước hình tròn'
+    vue:
+      title: Vue
+      description: 'Cùng một thành phần, được điều khiển: chuyển đổi loại hoặc giá trị di chuyển cung thay vì vẽ lại nó. Đây là những gì một ứng dụng đặt khi trạng thái sẽ thay đổi trước mắt người đọc.'
+    code:
+      title: 'Sử dụng'
+  state:
+    success: 'Hoạt động thành công'
+    error: 'Đã xảy ra lỗi'
+    warning: 'Tiếp tục thận trọng'
+    info: 'Để bạn biết'
+    passed: Đạt
+  weights:
+    column:
+      form: 'Hình thức'
+    row:
+      capsule: 'Viên nang'
+      circle: 'Hình tròn'
+  example:
+    sentence:
+      released: 'Phiên bản 2.4 là'
+      deprecated: 'API này đã lỗi thời'
+  marker:
+    neutral: 'Trung tính'
+    released: 'Đã phát hành'
+    deprecated: 'Đã lỗi thời'
+    tag: Loại
+
+zh:
+  page_title: 标记
+  page_icon: 'ph:bold/seal-check'
+  intro: 一个胶囊代表关于某事的所有言论：一个状态，一个名称，一个版本，一个类别。它们曾经是两个物体，直到有一天一个代码和一个状态并排在一个标题中，头相隔，没人能说出它们的区别意味着什么——所以形状是一个，音调是区分它们的全部。它所承载的是免费的：一个词，一个数字，一个符号，或三者中的两个。圆圈出现在没有胶囊的地方，而悬挂在一行中的计数器，其大小与它悬挂的文本相同，是这里唯一不是标记的东西。
+  section:
+    inline:
+      title: 在句子中间
+      description: 一个独立的词在阅读时：一个版本，一个阶段，一个类别。中性音调，因为一个带颜色的标记已经对它所标记的内容做出了声明——而在一个句子中没有什么可以主张的。
+    palette:
+      title: 类别
+      description: 区分事物而不排名的色调。它们没有意义——没有什么表明第三个比第五个更好——这正是使它们可用于分类法的原因，其中的意义将是谎言。与状态完全相同：相同的胶囊，相同的节奏。
+    against:
+      title: 标记旁的计数器
+      description: 剩下的唯一区别，与意义无关。左边是一个计数器：十二个某物，悬挂在通往它的行中，并与该行的文本大小相同。右边是一个标记：十二个某物做得很好，独立站立并以代币为单位。菜单项旁的计数是一个计数器；管道列中的相同数字是一个标记。
+    words:
+      title: 用词表达的状态
+      description: 在句子或标题旁宣布，它是信息而不是列中的标记。
+    figures:
+      title: 以十二为单位读取的状态
+      description: 在一列中，中性计数旁的勾号被视为两个物体，而它们的表格被视为噪音。这里的颜色包围了数字，列在一次扫描中完成——紧凑，因为一个单元没有多余的空间。
+    payload:
+      title: 它所承载的内容
+      description: 表示状态的一个词，表示数量的一个数字，二者皆有，或皆无。数字总是比其他部分稍微后退：它修饰状态，而不是状态。
+    weights:
+      title: 并排的三种形式
+      description: 在实际阅读的位置中相同的信息。圆圈是对于一个过于狭窄而无法容纳胶囊的单元的形式，且是唯一能显示状态为数量的形式——它是用胶囊填充的颜色绘制的。
+    circles:
+      title: 圆圈
+      description: 用圆圈而不是词语表达的状态，适用于以十二为单位读取状态的地方——一列运行，一行工作。环带着颜色，内部的符号表示它是什么状态，堆的两侧绘制相同的标记。
+    progress:
+      title: 一种数量状态
+      description: 运行是唯一具有数量的状态，因此其环的绘制程度取决于运行的进度。Twig打印它被赋予的值；之后的移动由浏览器负责。
+    sizes:
+      title: 圆圈大小
+    vue:
+      title: Vue
+      description: 相同的组件，驱动：切换类型或值会移动弧，而不是重新绘制它。这是一个应用程序在状态将在读者眼前变化时放置的内容。
+    code:
+      title: 用法
+  state:
+    success: 操作成功
+    error: 发生错误
+    warning: 请谨慎操作
+    info: 供您参考
+    passed: 通过
+  weights:
+    column:
+      form: 形式
+    row:
+      capsule: 胶囊
+      circle: 圆圈
+  example:
+    sentence:
+      released: 版本2.4是
+      deprecated: 此API已被弃用
+  marker:
+    neutral: 中性
+    released: 已发布
+    deprecated: 已弃用
+    tag: 类别

@@ -1,0 +1,854 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Steppers
+  page_icon: ph:bold/steps
+
+  intro: "Where a reader stands in a sequence — a tunnel, a form in several parts. The steps behind are drawn solid and can be gone back to when they are given an address; the one being done stands out; those ahead wait, discreet."
+
+  section:
+    labelled:
+      title: Numbered and named
+      description: "The common case: a number to count by, a word to know what it asks. The two steps already walked link back."
+    numbers:
+      title: Numbers alone
+      description: "Where the steps have no names worth reading, or the width has no room for them."
+    words:
+      title: Words alone
+      description: "Without the numbers, when the order is obvious from the words."
+    ends:
+      title: First and last
+      description: "Nothing walked yet, then everything walked but the step being done."
+    unknown:
+      title: Steps not decided yet
+      description: "Where paths part, what lies ahead depends on an answer not given yet. The step standing for it takes no number and moves none of the others: the last step here is the third, not the fourth."
+    compact:
+      title: Compact, and dots
+      description: "For the header of a modal or a panel, where there is little room: compact keeps the numbers and names the step being done only; dots draw one dot per step and name none on screen, the names staying for whoever reads the page aloud. Right under the header of a modal or a panel, a stepper takes the place of the loading bar."
+    toolbar:
+      title: In a toolbar
+      description: "Laid in a bar above a page, it takes the room the bar gives it."
+    vue:
+      title: In vue
+      description: "The same stepper in a vue tree. Steps without an address can be made buttons: a sequence held by the page moves on the `select` it emits rather than on a new address."
+
+  step:
+    account: Account
+    address: Address
+    payment: Payment
+    confirm: Confirmation
+    choice: Your plan
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ستيبيرز
+  page_icon: 'ph:bold/steps'
+  intro: 'أين يقف القارئ في تسلسل - نفق، شكل في عدة أجزاء. الخطوات الخلفية مرسومة بشكل واضح ويمكن العودة إليها عندما يتم إعطاؤها عنوانًا؛ الخطوة التي يتم القيام بها بارزة؛ تلك التي في الأمام تنتظر، بشكل متحفظ.'
+  section:
+    labelled:
+      title: 'مرقمة ومسمّاة'
+      description: 'الحالة الشائعة: رقم للعد، كلمة لمعرفة ما تطلبه. الخطوتان اللتان تم السير بهما تربطان إلى الوراء.'
+    numbers:
+      title: 'أرقام فقط'
+      description: 'حيث لا توجد أسماء تستحق القراءة، أو العرض ليس لديه مساحة لها.'
+    words:
+      title: 'كلمات فقط'
+      description: 'بدون الأرقام، عندما يكون الترتيب واضحًا من الكلمات.'
+    ends:
+      title: 'الأولى والأخيرة'
+      description: 'لم يتم السير في شيء بعد، ثم كل شيء سار ما عدا الخطوة التي يتم القيام بها.'
+    unknown:
+      title: 'خطوات لم تتقرر بعد'
+      description: 'حيث تتفرع الطرق، ما يكمن في الأمام يعتمد على إجابة لم تُعطَ بعد. الخطوة التي تمثلها لا تأخذ رقمًا ولا تحرك أيًا من الآخرين: آخر خطوة هنا هي الثالثة، وليست الرابعة.'
+    compact:
+      title: 'مضغوط، ونقاط'
+      description: 'لعنوان نافذة أو لوحة، حيث لا توجد مساحة كبيرة: المضغوط يحتفظ بالأرقام ويسمّي الخطوة التي يتم القيام بها فقط؛ النقاط ترسم نقطة واحدة لكل خطوة ولا تسمي أيًا منها على الشاشة، الأسماء تبقى لمن يقرأ الصفحة بصوت عالٍ. مباشرة تحت عنوان نافذة أو لوحة، تأخذ الخطوات مكان شريط التحميل.'
+    toolbar:
+      title: 'في شريط أدوات'
+      description: 'موضوع في شريط فوق الصفحة، يأخذ المساحة التي يمنحها الشريط.'
+    vue:
+      title: 'في فيو'
+      description: 'نفس الخطوات في شجرة فيو. الخطوات بدون عنوان يمكن أن تكون أزرارًا: تسلسل محتفظ به من قبل الصفحة يتحرك على `select` الذي يخرجه بدلاً من عنوان جديد.'
+  step:
+    account: الحساب
+    address: العنوان
+    payment: الدفع
+    confirm: التأكيد
+    choice: خطتك
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: স্টেপার
+  page_icon: 'ph:bold/steps'
+  intro: 'একটি পাঠক একটি সিকোয়েন্সে কোথায় দাঁড়িয়ে আছে — একটি টানেল, একাধিক অংশের একটি ফর্ম। পিছনের স্টেপগুলো দৃঢ়ভাবে আঁকা হয় এবং যখন সেগুলোকে একটি ঠিকানা দেওয়া হয় তখন ফিরে যাওয়া যেতে পারে; যা করা হচ্ছে তা আলাদা; এগিয়ে থাকা সেগুলো অপেক্ষা করছে, অযথা।'
+  section:
+    labelled:
+      title: 'নম্বরযুক্ত এবং নামকৃত'
+      description: 'সাধারণ ক্ষেত্রে: গণনা করার জন্য একটি সংখ্যা, যা জানতে একটি শব্দ। ইতিমধ্যেই হাঁটা দুইটি স্টেপ পিছনে লিঙ্ক করে।'
+    numbers:
+      title: 'শুধুমাত্র সংখ্যা'
+      description: 'যেখানে স্টেপগুলোর পড়ার মতো নাম নেই, অথবা প্রস্থে তাদের জন্য কোনো জায়গা নেই।'
+    words:
+      title: 'শুধুমাত্র শব্দ'
+      description: 'সংখ্যাগুলি ছাড়া, যখন শব্দগুলির থেকে অর্ডারটি স্পষ্ট।'
+    ends:
+      title: 'প্রথম এবং শেষ'
+      description: 'এখনও কিছু হাঁটা হয়নি, তারপর সবকিছু হাঁটা হয়েছে কিন্তু যা করা হচ্ছে তা।'
+    unknown:
+      title: 'এখনও সিদ্ধান্ত নেওয়া স্টেপগুলি'
+      description: 'যেখানে পথগুলি আলাদা হয়, সামনে যা আছে তা একটি উত্তর না দেওয়ার উপর নির্ভর করে। যা এই জন্য দাঁড়িয়ে আছে তা কোনো সংখ্যা নেয় না এবং অন্যগুলোর মধ্যে কোনোটি সরায় না: এখানে সর্বশেষ স্টেপটি তৃতীয়, চতুর্থ নয়।'
+    compact:
+      title: 'সংক্ষিপ্ত, এবং বিন্দু'
+      description: 'একটি মডাল বা প্যানেলের শিরোনামের জন্য, যেখানে জায়গা কম: সংক্ষিপ্ত সংখ্যা এবং শুধু যে স্টেপটি করা হচ্ছে তা নাম রাখে; বিন্দুগুলি প্রতি স্টেপের জন্য একটি বিন্দু আঁকে এবং স্ক্রীনে কিছু নাম রাখে না, নামগুলি যে কেউ পৃষ্ঠা জোরে পড়ে তার জন্য থাকে। একটি মডাল বা প্যানেলের শিরোনামের ঠিক নিচে, একটি স্টেপার লোডিং বারের জায়গা নেয়।'
+    toolbar:
+      title: 'একটি টুলবারে'
+      description: 'একটি পৃষ্ঠার উপরে একটি বারে স্থাপন করা হয়, এটি বারের প্রদত্ত জায়গা নেয়।'
+    vue:
+      title: ভিউতে
+      description: 'একটি ভিউ গাছের মধ্যে একই স্টেপার। ঠিকানা ছাড়া স্টেপগুলো বোতাম বানানো যেতে পারে: একটি সিকোয়েন্স যা পৃষ্ঠায় ধরে রাখা হয় তা একটি `select` এর উপর চলে যা এটি নির্গত করে, নতুন ঠিকানার উপর নয়।'
+  step:
+    account: অ্যাকাউন্ট
+    address: ঠিকানা
+    payment: পেমেন্ট
+    confirm: নিশ্চিতকরণ
+    choice: 'আপনার পরিকল্পনা'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Steppers
+  page_icon: 'ph:bold/steps'
+  intro: 'Wo sich ein Leser in einer Abfolge befindet – ein Tunnel, ein mehrteiliges Formular. Die Schritte, die bereits gegangen sind, sind fest und können zurückgegangen werden, wenn sie eine Adresse erhalten; der aktuelle Schritt hebt sich ab; die kommenden warten diskret.'
+  section:
+    labelled:
+      title: 'Nummeriert und benannt'
+      description: 'Der häufigste Fall: eine Nummer zum Zählen, ein Wort, um zu wissen, was es fragt. Die beiden bereits zurückgelegten Schritte sind verbunden.'
+    numbers:
+      title: 'Nur Zahlen'
+      description: 'Wenn die Schritte keine lesenswerten Namen haben oder der Platz keinen Raum dafür bietet.'
+    words:
+      title: 'Nur Wörter'
+      description: 'Ohne die Zahlen, wenn die Reihenfolge aus den Wörtern offensichtlich ist.'
+    ends:
+      title: 'Erster und letzter'
+      description: 'Noch nichts gegangen, dann alles gegangen außer dem aktuellen Schritt.'
+    unknown:
+      title: 'Schritte noch nicht entschieden'
+      description: 'Wo sich die Wege trennen, was vor einem liegt, hängt von einer noch nicht gegebenen Antwort ab. Der Schritt, der dafür steht, hat keine Nummer und bewegt keinen der anderen: der letzte Schritt hier ist der dritte, nicht der vierte.'
+    compact:
+      title: 'Kompakt und Punkte'
+      description: 'Für die Überschrift eines Modals oder Panels, wo wenig Platz ist: kompakt behält die Zahlen und benennt nur den aktuellen Schritt; Punkte zeigen einen Punkt pro Schritt und benennen keinen auf dem Bildschirm, die Namen bleiben für diejenigen, die die Seite laut vorlesen. Direkt unter der Überschrift eines Modals oder Panels nimmt ein Stepper den Platz der Ladeleiste ein.'
+    toolbar:
+      title: 'In einer Toolbar'
+      description: 'In einer Leiste oben auf einer Seite angeordnet, nimmt es den Raum ein, den die Leiste bietet.'
+    vue:
+      title: 'In vue'
+      description: 'Der gleiche Stepper in einem vue-Baum. Schritte ohne Adresse können Buttons werden: eine Sequenz, die von der Seite gehalten wird, bewegt sich auf das `select`, das es ausgibt, anstatt auf eine neue Adresse.'
+  step:
+    account: Konto
+    address: Adresse
+    payment: Zahlung
+    confirm: Bestätigung
+    choice: 'Ihr Plan'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Pasos
+  page_icon: 'ph:bold/steps'
+  intro: 'Donde un lector está en una secuencia — un túnel, un formulario en varias partes. Los pasos detrás están dibujados de forma sólida y se puede volver a ellos cuando se les da una dirección; el que se está realizando destaca; los que están por delante esperan, discretos.'
+  section:
+    labelled:
+      title: 'Numerados y nombrados'
+      description: 'El caso común: un número para contar, una palabra para saber qué pide. Los dos pasos ya caminados se enlazan de nuevo.'
+    numbers:
+      title: 'Números solos'
+      description: 'Donde los pasos no tienen nombres que valgan la pena leer, o el ancho no tiene espacio para ellos.'
+    words:
+      title: 'Palabras solas'
+      description: 'Sin los números, cuando el orden es obvio a partir de las palabras.'
+    ends:
+      title: 'Primero y último'
+      description: 'Nada caminado aún, luego todo caminado menos el paso que se está realizando.'
+    unknown:
+      title: 'Pasos no decididos aún'
+      description: 'Donde los caminos se separan, lo que está por delante depende de una respuesta no dada aún. El paso que representa eso no toma número y no mueve a los demás: el último paso aquí es el tercero, no el cuarto.'
+    compact:
+      title: 'Compacto, y puntos'
+      description: 'Para el encabezado de un modal o un panel, donde hay poco espacio: compacto mantiene los números y nombra solo el paso que se está realizando; los puntos dibujan un punto por paso y no nombran ninguno en la pantalla, los nombres quedan para quien lea la página en voz alta. Justo debajo del encabezado de un modal o un panel, un stepper ocupa el lugar de la barra de carga.'
+    toolbar:
+      title: 'En una barra de herramientas'
+      description: 'Colocado en una barra sobre una página, ocupa el espacio que la barra le da.'
+    vue:
+      title: 'En vue'
+      description: 'El mismo stepper en un árbol vue. Los pasos sin dirección pueden convertirse en botones: una secuencia mantenida por la página avanza con el `select` que emite en lugar de con una nueva dirección.'
+  step:
+    account: Cuenta
+    address: Dirección
+    payment: Pago
+    confirm: Confirmación
+    choice: 'Tu plan'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: پله‌ها
+  page_icon: 'ph:bold/steps'
+  intro: 'مکانی که خواننده در یک توالی قرار دارد — یک تونل، یک فرم در چندین قسمت. مراحل قبلی به‌طور واضح ترسیم شده‌اند و می‌توان به آن‌ها بازگشت؛ مرحله در حال انجام مشخص است؛ مراحل پیش رو منتظرند، به‌طور نامحسوس.'
+  section:
+    labelled:
+      title: 'شماره‌گذاری و نام‌گذاری شده'
+      description: 'مورد رایج: یک شماره برای شمارش، یک کلمه برای دانستن اینکه چه چیزی خواسته می‌شود. دو مرحله‌ای که قبلاً پیموده شده‌اند به هم پیوسته‌اند.'
+    numbers:
+      title: 'فقط شماره‌ها'
+      description: 'جایی که مراحل نام‌هایی برای خواندن ندارند، یا عرض جایی برای آن‌ها ندارد.'
+    words:
+      title: 'فقط کلمات'
+      description: 'بدون شماره‌ها، زمانی که ترتیب از کلمات واضح است.'
+    ends:
+      title: 'اولین و آخرین'
+      description: 'هیچ چیزی هنوز پیموده نشده است، سپس همه چیز پیموده شده به جز مرحله در حال انجام.'
+    unknown:
+      title: 'مراحل هنوز تصمیم‌گیری نشده'
+      description: 'جایی که مسیرها جدا می‌شوند، آنچه در پیش است بستگی به پاسخی دارد که هنوز داده نشده است. مرحله‌ای که نمایندگی آن را می‌کند شماره‌ای ندارد و هیچ‌یک از دیگران را حرکت نمی‌دهد: آخرین مرحله در اینجا سومین است، نه چهارمین.'
+    compact:
+      title: 'فشرده و نقاط'
+      description: 'برای هدر یک مدال یا پنل، جایی که فضای کمی وجود دارد: فشرده شماره‌ها و نام مرحله در حال انجام را حفظ می‌کند؛ نقاط یک نقطه برای هر مرحله می‌کشد و نامی روی صفحه نمی‌گذارد، نام‌ها برای هر کسی که صفحه را بلند می‌خواند باقی می‌ماند. درست زیر هدر یک مدال یا پنل، یک پله‌بر به جای نوار بارگذاری قرار می‌گیرد.'
+    toolbar:
+      title: 'در نوار ابزار'
+      description: 'در یک نوار بالای صفحه قرار گرفته است و فضای نوار را اشغال می‌کند.'
+    vue:
+      title: 'در vue'
+      description: 'همان پله‌بر در یک درخت vue. مراحل بدون نشانی می‌توانند دکمه‌هایی شوند: یک توالی که توسط صفحه نگه‌داشته می‌شود، بر روی `select` که صادر می‌کند حرکت می‌کند نه بر روی نشانی جدید.'
+  step:
+    account: حساب
+    address: نشانی
+    payment: پرداخت
+    confirm: تأیید
+    choice: 'طرح شما'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Askelter
+  page_icon: 'ph:bold/steps'
+  intro: 'Missä lukija sijaitsee sekvenssissä – tunneli, useisiin osiin jaettu lomake. Takana olevat askeleet ovat näkyvissä ja niihin voidaan palata, kun niille annetaan osoite; käynnissä oleva erottuu; edessä odottavat, huomaamattomasti.'
+  section:
+    labelled:
+      title: 'Numeroitu ja nimetty'
+      description: 'Yleinen tapaus: numero laskemiseen, sana tietämään mitä se kysyy. Kaksi jo käytyä askelta yhdistävät takaisin.'
+    numbers:
+      title: 'Pelkkä numerointi'
+      description: 'Missä askeleilla ei ole luettavia nimiä tai leveys ei riitä niille.'
+    words:
+      title: 'Pelkkä sanasto'
+      description: 'Ilman numeroita, kun järjestys on ilmeinen sanoista.'
+    ends:
+      title: 'Ensimmäinen ja viimeinen'
+      description: 'Ei mitään vielä kävelty, sitten kaikki kävelty paitsi käynnissä oleva askel.'
+    unknown:
+      title: 'Päätöksessä olevat askeleet'
+      description: 'Missä polut eroavat, eteenpäin meneminen riippuu vielä antamattomasta vastauksesta. Askel, joka edustaa sitä, ei saa numeroa eikä liikuta muita: viimeinen askel täällä on kolmas, ei neljäs.'
+    compact:
+      title: 'Kompakti ja pisteet'
+      description: 'Modalin tai paneelin otsikoksi, jossa on vähän tilaa: kompakti pitää numerot ja nimettävän askeleen vain; pisteet piirtävät yhden pisteen per askel eivätkä nimeä mitään näytöllä, nimet jäävät sille, joka lukee sivua ääneen. Suoraan modalin tai paneelin otsikon alapuolella, askeltyyppi ottaa latauspalkin paikan.'
+    toolbar:
+      title: Työkalupalkissa
+      description: 'Asetettu sivun ylle olevaan palkkiin, se vie tilan, jonka palkki sille antaa.'
+    vue:
+      title: 'Vue:ssa'
+      description: 'Sama askeltyyppi vue-puussa. Osoitteettomat askeleet voidaan tehdä painikkeiksi: sivu pidetty sekvenssi etenee sen `select`-toiminnon mukaan sen sijaan, että se siirtyisi uuteen osoitteeseen.'
+  step:
+    account: Tili
+    address: Osoite
+    payment: Maksu
+    confirm: Vahvistus
+    choice: Suunnitelmasi
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Steppers
+  page_icon: 'ph:bold/steps'
+  intro: "Où un lecteur se trouve dans une séquence — un tunnel, un formulaire en plusieurs parties. Les étapes derrière sont dessinées de manière solide et peuvent être revisitées lorsqu'elles reçoivent une adresse ; celle en cours se distingue ; celles à venir attendent, discrètes."
+  section:
+    labelled:
+      title: 'Numéroté et nommé'
+      description: "Le cas commun : un numéro pour compter, un mot pour savoir ce qu'il demande. Les deux étapes déjà parcourues se relient en arrière."
+    numbers:
+      title: 'Chiffres seuls'
+      description: "Où les étapes n'ont pas de noms valables à lire, ou la largeur n'a pas de place pour eux."
+    words:
+      title: 'Mots seuls'
+      description: "Sans les chiffres, lorsque l'ordre est évident à partir des mots."
+    ends:
+      title: 'Première et dernière'
+      description: "Rien n'a encore été parcouru, puis tout a été parcouru sauf l'étape en cours."
+    unknown:
+      title: 'Étapes pas encore décidées'
+      description: "Où les chemins se séparent, ce qui se trouve devant dépend d'une réponse non donnée encore. L'étape qui la représente n'a pas de numéro et n'en déplace aucune des autres : la dernière étape ici est la troisième, pas la quatrième."
+    compact:
+      title: 'Compact, et points'
+      description: "Pour l'en-tête d'une modal ou d'un panneau, où il y a peu de place : compact conserve les numéros et nomme uniquement l'étape en cours ; des points dessinent un point par étape et ne nomment aucun à l'écran, les noms restant pour quiconque lit la page à voix haute. Juste sous l'en-tête d'une modal ou d'un panneau, un steppers prend la place de la barre de chargement."
+    toolbar:
+      title: "Dans une barre d'outils"
+      description: "Posé dans une barre au-dessus d'une page, il prend la place que la barre lui donne."
+    vue:
+      title: 'Dans vue'
+      description: "Le même steppers dans un arbre vue. Les étapes sans adresse peuvent être transformées en boutons : une séquence maintenue par la page avance sur le `select` qu'elle émet plutôt que sur une nouvelle adresse."
+  step:
+    account: Compte
+    address: Adresse
+    payment: Paiement
+    confirm: Confirmation
+    choice: 'Votre plan'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: שלבים
+  page_icon: 'ph:bold/steps'
+  intro: 'מקום שבו הקורא נמצא בסדרה — מנהרה, טופס בכמה חלקים. השלבים מאחור מצויירים בבירור וניתן לחזור אליהם כאשר הם מקבלים כתובת; השלב הנוכחי בולט; אלו שלפני מחכים, בדיסקרטיות.'
+  section:
+    labelled:
+      title: 'מספור ושמות'
+      description: 'המקרה הכללי: מספר לספור בו, מילה לדעת מה הוא שואל. שני השלבים שכבר נעשו מחוברים חזרה.'
+    numbers:
+      title: 'מספרים בלבד'
+      description: 'כאשר לשלבים אין שמות שראויים לקריאה, או שהרוחב אינו מאפשר להם.'
+    words:
+      title: 'מילים בלבד'
+      description: 'ללא המספרים, כאשר הסדר ברור מהמילים.'
+    ends:
+      title: 'ראשון ואחרון'
+      description: 'עדיין לא נעשה כלום, אז הכל נעשה חוץ מהשלב הנוכחי.'
+    unknown:
+      title: 'שלבים שלא הוחלטו עדיין'
+      description: 'כאשר הדרכים נפרדות, מה שממתין תלוי בתשובה שלא ניתנה עדיין. השלב המייצג אותו אינו לוקח מספר ואינו זז אף אחד מהאחרים: השלב האחרון כאן הוא השלישי, לא הרביעי.'
+    compact:
+      title: 'קומפקטי, ונקודות'
+      description: 'לכותרת של מודל או פאנל, כאשר יש מעט מקום: קומפקטי שומר על המספרים ומסביר את השלב הנוכחי בלבד; נקודות מציירות נקודה אחת לכל שלב ואינן מציינות אף שם על המסך, השמות נשארים למי שקורא את הדף בקול. ממש מתחת לכותרת של מודל או פאנל, שלב לוקח את מקום שורת הטעינה.'
+    toolbar:
+      title: 'בסרגל כלים'
+      description: 'מוצב בסרגל מעל לדף, הוא תופס את המקום שהסרגל נותן לו.'
+    vue:
+      title: ב-vue
+      description: 'אותו שלב ב-tree של vue. שלבים ללא כתובת יכולים להפוך לכפתורים: רצף שנשמר על ידי הדף ממשיך על ה`select` שהוא פולט ולא על כתובת חדשה.'
+  step:
+    account: חשבונך
+    address: כתובת
+    payment: תשלום
+    confirm: אישור
+    choice: 'התוכנית שלך'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: स्टेपर्स
+  page_icon: 'ph:bold/steps'
+  intro: 'जहाँ एक पाठक एक अनुक्रम में खड़ा होता है - एक सुरंग, कई भागों में एक रूप। पीछे के कदम ठोस रूप से खींचे जाते हैं और जब उन्हें एक पता दिया जाता है तो उन पर वापस जाया जा सकता है; जो कदम किया जा रहा है वह बाहर खड़ा होता है; आगे वाले, विवेकपूर्ण तरीके से, प्रतीक्षा करते हैं।'
+  section:
+    labelled:
+      title: 'संख्याबद्ध और नामित'
+      description: 'सामान्य मामला: गिनती करने के लिए एक संख्या, एक शब्द जो बताता है कि यह क्या पूछता है। पहले से चलाए गए दो कदम पीछे की ओर लिंक करते हैं।'
+    numbers:
+      title: 'सिर्फ संख्याएँ'
+      description: 'जहाँ कदमों के कोई नाम पढ़ने लायक नहीं हैं, या चौड़ाई में उनके लिए कोई जगह नहीं है।'
+    words:
+      title: 'सिर्फ शब्द'
+      description: 'बिना संख्याओं के, जब शब्दों से क्रम स्पष्ट होता है।'
+    ends:
+      title: 'पहला और आखिरी'
+      description: 'कुछ नहीं चला गया, फिर सब कुछ चला गया लेकिन किया जा रहा कदम।'
+    unknown:
+      title: 'कदम अभी तय नहीं हुए'
+      description: 'जहाँ रास्ते अलग होते हैं, जो आगे है वह एक उत्तर पर निर्भर करता है जो अभी नहीं दिया गया है। इसके लिए खड़ा कदम कोई संख्या नहीं लेता और अन्य में से कोई भी नहीं बढ़ाता: यहाँ अंतिम कदम तीसरा है, चौथा नहीं।'
+    compact:
+      title: 'संक्षिप्त, और बिंदु'
+      description: 'एक मोडल या पैनल के शीर्षक के लिए, जहाँ बहुत कम जगह है: संक्षिप्त कदमों की संख्याएँ और केवल किया जा रहा कदम का नाम रखता है; बिंदु प्रत्येक कदम के लिए एक बिंदु बनाते हैं और स्क्रीन पर कोई नाम नहीं रखते, नाम उन लोगों के लिए रहते हैं जो पृष्ठ को जोर से पढ़ते हैं। एक मोडल या पैनल के शीर्षक के ठीक नीचे, एक स्टेपर लोडिंग बार के स्थान पर लेता है।'
+    toolbar:
+      title: 'एक टूलबार में'
+      description: 'एक पृष्ठ के ऊपर एक बार में रखा गया, यह बार द्वारा दी गई जगह लेता है।'
+    vue:
+      title: 'व्यू में'
+      description: 'एक vue ट्री में वही स्टेपर। बिना पते के कदम बटन बनाए जा सकते हैं: एक अनुक्रम जो पृष्ठ द्वारा धारण किया जाता है, वह `select` पर आगे बढ़ता है जो यह निकालता है न कि एक नए पते पर।'
+  step:
+    account: खाता
+    address: पता
+    payment: भुगतान
+    confirm: पुष्टि
+    choice: 'आपकी योजना'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Steppers
+  page_icon: 'ph:bold/steps'
+  intro: 'Di mana pembaca berada dalam urutan — sebuah terowongan, sebuah formulir yang terdiri dari beberapa bagian. Langkah-langkah di belakang digambar dengan jelas dan dapat kembali ketika mereka diberi alamat; yang sedang dilakukan menonjol; yang di depan menunggu, dengan tenang.'
+  section:
+    labelled:
+      title: 'Diberi nomor dan nama'
+      description: 'Kasus umum: sebuah nomor untuk dihitung, sebuah kata untuk mengetahui apa yang diminta. Dua langkah yang sudah dilalui terhubung kembali.'
+    numbers:
+      title: 'Hanya angka'
+      description: 'Di mana langkah-langkah tidak memiliki nama yang layak dibaca, atau lebar tidak ada ruang untuk mereka.'
+    words:
+      title: 'Hanya kata'
+      description: 'Tanpa angka, ketika urutannya jelas dari kata-kata.'
+    ends:
+      title: 'Pertama dan terakhir'
+      description: 'Belum ada yang dilalui, kemudian semuanya sudah dilalui kecuali langkah yang sedang dilakukan.'
+    unknown:
+      title: 'Langkah yang belum ditentukan'
+      description: 'Di mana jalur bercabang, apa yang ada di depan tergantung pada jawaban yang belum diberikan. Langkah yang mewakili tidak memiliki nomor dan tidak memindahkan yang lain: langkah terakhir di sini adalah yang ketiga, bukan yang keempat.'
+    compact:
+      title: 'Kompak, dan titik'
+      description: 'Untuk header modal atau panel, di mana ada sedikit ruang: kompak mempertahankan angka dan nama langkah yang sedang dilakukan saja; titik menggambar satu titik per langkah dan tidak menampilkan nama di layar, nama tetap untuk siapa pun yang membaca halaman dengan suara keras. Tepat di bawah header modal atau panel, steppers mengambil tempat bilah pemuatan.'
+    toolbar:
+      title: 'Dalam bilah alat'
+      description: 'Ditempatkan di bilah di atas halaman, itu mengambil ruang yang diberikan oleh bilah tersebut.'
+    vue:
+      title: 'Dalam vue'
+      description: 'Stepper yang sama dalam pohon vue. Langkah tanpa alamat dapat dibuat tombol: urutan yang dipegang oleh halaman bergerak pada `select` yang dipancarkannya daripada pada alamat baru.'
+  step:
+    account: Akun
+    address: Alamat
+    payment: Pembayaran
+    confirm: Konfirmasi
+    choice: 'Rencana Anda'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Passaggi
+  page_icon: 'ph:bold/steps'
+  intro: 'Dove si trova un lettore in una sequenza — un tunnel, un modulo in più parti. I passaggi già percorsi sono evidenziati e possono essere rivisitati quando vengono forniti un indirizzo; quello attuale risalta; quelli futuri aspettano, in modo discreto.'
+  section:
+    labelled:
+      title: 'Numerati e nominati'
+      description: 'Il caso comune: un numero per contare, una parola per sapere cosa chiede. I due passaggi già percorsi si collegano indietro.'
+    numbers:
+      title: 'Solo numeri'
+      description: 'Dove i passaggi non hanno nomi degni di essere letti, o la larghezza non ha spazio per essi.'
+    words:
+      title: 'Solo parole'
+      description: "Senza i numeri, quando l'ordine è ovvio dalle parole."
+    ends:
+      title: 'Primo e ultimo'
+      description: 'Niente percorso ancora, poi tutto percorso tranne il passaggio attuale.'
+    unknown:
+      title: 'Passaggi non ancora decisi'
+      description: "Dove i sentieri si dividono, ciò che ci aspetta dipende da una risposta non ancora data. Il passaggio che lo rappresenta non ha numero e non muove gli altri: l'ultimo passaggio qui è il terzo, non il quarto."
+    compact:
+      title: 'Compatto e punti'
+      description: "Per l'intestazione di un modulo o di un pannello, dove c'è poco spazio: compatto mantiene i numeri e nomina solo il passaggio attuale; i punti disegnano un punto per passaggio e non nominano nulla sullo schermo, i nomi rimangono per chi legge la pagina ad alta voce. Proprio sotto l'intestazione di un modulo o di un pannello, un passaggio occupa il posto della barra di caricamento."
+    toolbar:
+      title: 'In una barra degli strumenti'
+      description: 'Disposta in una barra sopra una pagina, occupa lo spazio che la barra le offre.'
+    vue:
+      title: 'In vue'
+      description: 'Lo stesso passaggio in un albero vue. Passaggi senza un indirizzo possono diventare pulsanti: una sequenza mantenuta dalla pagina si muove sul `select` che emette piuttosto che su un nuovo indirizzo.'
+  step:
+    account: Account
+    address: Indirizzo
+    payment: Pagamento
+    confirm: Conferma
+    choice: 'Il tuo piano'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ステッパー
+  page_icon: 'ph:bold/steps'
+  intro: '読者がシーケンスの中でどこにいるか — トンネル、複数の部分からなるフォーム。後ろのステップはしっかりと描かれており、アドレスが与えられたときに戻ることができます；現在進行中のステップは際立っています；前方のステップは控えめに待機しています。'
+  section:
+    labelled:
+      title: 番号付きと名前付き
+      description: 一般的なケース：数を数えるための番号、何を求めているのかを知るための単語。既に歩いた2つのステップは戻ることができます。
+    numbers:
+      title: 数字のみ
+      description: ステップに読む価値のある名前がない場合、または幅にそれらを収める余地がない場合。
+    words:
+      title: 単語のみ
+      description: 数字がない場合、単語から順序が明らかなとき。
+    ends:
+      title: 最初と最後
+      description: まだ歩いていない何も、次にすべてが歩かれたが、現在進行中のステップは除外される。
+    unknown:
+      title: まだ決まっていないステップ
+      description: 道が分かれるところで、前に何があるかはまだ与えられていない答えに依存しています。それを示すステップは番号を持たず、他のステップを動かすことはありません：ここでの最後のステップは3番目であり、4番目ではありません。
+    compact:
+      title: コンパクト、そしてドット
+      description: モーダルやパネルのヘッダー用、スペースが少ない場合：コンパクトは数字を保持し、現在進行中のステップの名前のみを表示します；ドットは各ステップに1つのドットを描き、画面上に名前は表示されず、名前はページを声に出して読む人のために保持されます。モーダルやパネルのヘッダーのすぐ下に、ステッパーはローディングバーの代わりを務めます。
+    toolbar:
+      title: ツールバー内
+      description: ページの上部に配置され、バーが与えるスペースを取ります。
+    vue:
+      title: Vue内
+      description: 'Vueツリー内の同じステッパー。アドレスのないステップはボタンにすることができ、ページによって保持されるシーケンスは新しいアドレスではなく、発信される `select` によって進みます。'
+  step:
+    account: アカウント
+    address: 住所
+    payment: 支払い
+    confirm: 確認
+    choice: あなたのプラン
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 단계
+  page_icon: 'ph:bold/steps'
+  intro: '독자가 순서에서 어디에 있는지 — 터널, 여러 부분으로 나뉜 양식. 뒤의 단계는 단단히 그려져 주소가 주어지면 돌아갈 수 있다; 현재 진행 중인 단계는 두드러지며; 앞의 단계는 조용히 기다린다.'
+  section:
+    labelled:
+      title: '번호 매기기 및 이름 붙이기'
+      description: '일반적인 경우: 세는 숫자, 요구하는 내용을 아는 단어. 이미 진행된 두 단계는 연결된다.'
+    numbers:
+      title: 숫자만
+      description: '단계에 읽을 가치가 있는 이름이 없거나, 너비가 이를 수용할 공간이 없는 경우.'
+    words:
+      title: 단어만
+      description: '숫자가 없고, 단어에서 순서가 명확할 때.'
+    ends:
+      title: '첫 단계와 마지막 단계'
+      description: '아직 걷지 않은 단계, 그러고 나서 진행 중인 단계를 제외한 모든 단계가 걷혀졌다.'
+    unknown:
+      title: '아직 결정되지 않은 단계'
+      description: '길이 나뉘는 곳, 앞으로 나아갈 것이 주어지지 않은 답변에 따라 달라진다. 그 단계는 번호가 없고 다른 단계도 이동시키지 않는다: 여기서 마지막 단계는 세 번째 단계이고, 네 번째 단계가 아니다.'
+    compact:
+      title: '간결함과 점들'
+      description: '모달 또는 패널의 헤더에, 공간이 적은 경우: 간결함은 번호를 유지하고 현재 진행 중인 단계의 이름만 표시한다; 점은 각 단계에 대해 점 하나를 그리고 화면에는 이름을 표시하지 않으며, 이름은 페이지를 소리 내어 읽는 사람을 위해 남겨둔다. 모달 또는 패널의 헤더 바로 아래에, 단계 표시기가 로딩 바의 자리를 차지한다.'
+    toolbar:
+      title: 툴바에서
+      description: '페이지 위쪽의 바에 배치되어, 바가 주는 공간을 차지한다.'
+    vue:
+      title: 뷰에서
+      description: '같은 단계 표시기가 뷰 트리에 있다. 주소가 없는 단계는 버튼으로 만들 수 있다: 페이지가 발행하는 `select`를 통해 순서가 진행된다.'
+  step:
+    account: 계정
+    address: 주소
+    payment: 결제
+    confirm: 확인
+    choice: '당신의 계획'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Steppers
+  page_icon: 'ph:bold/steps'
+  intro: 'Waar een lezer zich bevindt in een reeks — een tunnel, een formulier in meerdere delen. De stappen achteraan zijn solide getekend en kunnen worden teruggegaan wanneer ze een adres krijgen; de stap die wordt gedaan springt eruit; de stappen vooruit wachten, discreet.'
+  section:
+    labelled:
+      title: 'Genummerd en benoemd'
+      description: 'De gebruikelijke situatie: een nummer om op te tellen, een woord om te weten wat het vraagt. De twee stappen die al zijn gezet, linken terug.'
+    numbers:
+      title: 'Alleen nummers'
+      description: 'Waar de stappen geen namen hebben die het lezen waard zijn, of de breedte geen ruimte ervoor heeft.'
+    words:
+      title: 'Alleen woorden'
+      description: 'Zonder de nummers, wanneer de volgorde duidelijk is uit de woorden.'
+    ends:
+      title: 'Eerste en laatste'
+      description: 'Nog niets gelopen, dan alles gelopen behalve de stap die gedaan wordt.'
+    unknown:
+      title: 'Stappen nog niet bepaald'
+      description: 'Waar paden zich splitsen, wat voor je ligt hangt af van een nog niet gegeven antwoord. De stap die ervoor staat, krijgt geen nummer en beweegt geen van de anderen: de laatste stap hier is de derde, niet de vierde.'
+    compact:
+      title: 'Compact, en stippen'
+      description: 'Voor de kop van een modal of een paneel, waar weinig ruimte is: compact houdt de nummers en benoemt alleen de stap die gedaan wordt; stippen tekenen één stip per stap en benoemen geen op het scherm, de namen blijven voor wie de pagina hardop leest. Direct onder de kop van een modal of paneel, neemt een stepper de plaats in van de laadbalk.'
+    toolbar:
+      title: 'In een werkbalk'
+      description: 'Geplaatst in een balk boven een pagina, neemt het de ruimte die de balk biedt.'
+    vue:
+      title: 'In vue'
+      description: 'Dezelfde stepper in een vue-boom. Stappen zonder adres kunnen knoppen worden: een volgorde die door de pagina wordt vastgehouden, gaat verder op de `select` die het afgeeft in plaats van op een nieuw adres.'
+  step:
+    account: Account
+    address: Adres
+    payment: Betaling
+    confirm: Bevestiging
+    choice: 'Jouw plan'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kroki
+  page_icon: 'ph:bold/steps'
+  intro: 'Gdzie czytelnik znajduje się w sekwencji — tunel, formularz w kilku częściach. Kroki za nim są rysowane solidnie i można do nich wrócić, gdy mają przypisany adres; krok, który jest w trakcie, wyróżnia się; te, które są przed, czekają, dyskretnie.'
+  section:
+    labelled:
+      title: 'Numerowane i nazwane'
+      description: 'Typowy przypadek: numer do liczenia, słowo, które mówi, o co pyta. Dwa kroki już przebyte łączą się z powrotem.'
+    numbers:
+      title: 'Numery same'
+      description: 'Gdzie kroki nie mają nazw wartowych do przeczytania, lub szerokość nie ma miejsca na nie.'
+    words:
+      title: 'Słowa same'
+      description: 'Bez numerów, gdy kolejność jest oczywista z kontekstu słów.'
+    ends:
+      title: 'Pierwszy i ostatni'
+      description: 'Nic jeszcze nie przebyte, a potem wszystko przebyte oprócz kroku, który jest w trakcie.'
+    unknown:
+      title: 'Kroki jeszcze nie podjęte'
+      description: 'Gdzie ścieżki się rozdzielają, co leży przed zależy od odpowiedzi, która jeszcze nie została podana. Krok odpowiadający temu nie ma numeru i nie przesuwa innych: ostatni krok tutaj to trzeci, a nie czwarty.'
+    compact:
+      title: 'Kompaktowe i kropki'
+      description: 'Dla nagłówka modala lub panelu, gdzie jest mało miejsca: kompaktowe zachowuje numery i nazwę tylko dla kroku, który jest w trakcie; kropki rysują jedną kropkę na krok i nie nazwają żadnego na ekranie, nazwy pozostając dla tych, którzy czytają stronę na głos. Tuż pod nagłówkiem modala lub panelu, steper zajmuje miejsce paska ładowania.'
+    toolbar:
+      title: 'W pasku narzędzi'
+      description: 'Umieszczony w pasku nad stroną, zajmuje miejsce, które mu daje pasek.'
+    vue:
+      title: 'W vue'
+      description: 'Ten sam steper w drzewie vue. Kroki bez adresu mogą stać się przyciskami: sekwencja trzymana przez stronę przechodzi na `select`, które emituje, zamiast na nowy adres.'
+  step:
+    account: Konto
+    address: Adres
+    payment: Płatność
+    confirm: Potwierdzenie
+    choice: 'Twój plan'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Passos
+  page_icon: 'ph:bold/steps'
+  intro: 'Onde o leitor se encontra em uma sequência — um túnel, um formulário em várias partes. Os passos atrás são desenhados de forma sólida e podem ser revisitados quando recebem um endereço; o que está sendo feito se destaca; os que estão à frente aguardam, discretos.'
+  section:
+    labelled:
+      title: 'Numerados e nomeados'
+      description: 'O caso comum: um número para contar, uma palavra para saber o que pede. Os dois passos já percorridos se conectam.'
+    numbers:
+      title: 'Números sozinhos'
+      description: 'Onde os passos não têm nomes que valham a pena ler, ou a largura não tem espaço para eles.'
+    words:
+      title: 'Palavras sozinhas'
+      description: 'Sem os números, quando a ordem é óbvia pelas palavras.'
+    ends:
+      title: 'Primeiro e último'
+      description: 'Nada percorrido ainda, então tudo percorrido, exceto o passo que está sendo feito.'
+    unknown:
+      title: 'Passos ainda não decididos'
+      description: 'Onde os caminhos se separam, o que está por vir depende de uma resposta ainda não dada. O passo que representa isso não recebe número e não movimenta os outros: o último passo aqui é o terceiro, não o quarto.'
+    compact:
+      title: 'Compacto, e pontos'
+      description: 'Para o cabeçalho de um modal ou de um painel, onde há pouco espaço: compacto mantém os números e nomeia apenas o passo que está sendo feito; pontos desenham um ponto por passo e não nomeiam nenhum na tela, os nomes permanecendo para quem lê a página em voz alta. Logo abaixo do cabeçalho de um modal ou de um painel, um stepper ocupa o lugar da barra de carregamento.'
+    toolbar:
+      title: 'Em uma barra de ferramentas'
+      description: 'Disposto em uma barra acima de uma página, ocupa o espaço que a barra lhe dá.'
+    vue:
+      title: 'Em vue'
+      description: 'O mesmo stepper em uma árvore vue. Passos sem um endereço podem ser transformados em botões: uma sequência mantida pela página avança com o `select` que emite em vez de em um novo endereço.'
+  step:
+    account: Conta
+    address: Endereço
+    payment: Pagamento
+    confirm: Confirmação
+    choice: 'Seu plano'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Шаги
+  page_icon: 'ph:bold/steps'
+  intro: 'Где читатель находится в последовательности — туннель, форма, состоящая из нескольких частей. Пройденные шаги отображаются четко и к ним можно вернуться, когда они имеют адрес; текущий шаг выделен; шаги впереди ждут, оставаясь невидимыми.'
+  section:
+    labelled:
+      title: 'Нумерованные и именованные'
+      description: 'Обычный случай: номер для подсчета, слово, чтобы понять, что требуется. Два уже пройденных шага связывают назад.'
+    numbers:
+      title: 'Только номера'
+      description: 'Где шаги не имеют значимых названий, или ширина не позволяет их разместить.'
+    words:
+      title: 'Только слова'
+      description: 'Без номеров, когда порядок очевиден из слов.'
+    ends:
+      title: 'Первый и последний'
+      description: 'Ничего еще не пройдено, затем все пройдено, кроме текущего шага.'
+    unknown:
+      title: 'Шаги еще не определены'
+      description: 'Где пути расходятся, что ждет впереди, зависит от ответа, который еще не дан. Шаг, представляющий его, не имеет номера и не перемещает другие: последний шаг здесь — третий, а не четвертый.'
+    compact:
+      title: 'Компактный и точки'
+      description: 'Для заголовка модального окна или панели, где мало места: компактный режим сохраняет номера и названия только текущего шага; точки рисуют одну точку за шаг и не показывают названий на экране, имена остаются для тех, кто читает страницу вслух. Прямо под заголовком модального окна или панели, шагомер занимает место загрузочной полосы.'
+    toolbar:
+      title: 'В панели инструментов'
+      description: 'Расположен в баре над страницей, занимает пространство, предоставляемое баром.'
+    vue:
+      title: 'В vue'
+      description: 'Тот же шагомер в дереве vue. Шаги без адреса могут быть кнопками: последовательность, удерживаемая страницей, движется по `select`, который она выдает, а не по новому адресу.'
+  step:
+    account: 'Учетная запись'
+    address: Адрес
+    payment: Оплата
+    confirm: Подтверждение
+    choice: 'Ваш план'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: สเต็ปเปอร์
+  page_icon: 'ph:bold/steps'
+  intro: 'สถานะของผู้อ่านในลำดับ — อุโมงค์, ฟอร์มที่แบ่งเป็นส่วน ๆ ขั้นตอนที่ผ่านมาถูกทำให้ชัดเจนและสามารถย้อนกลับไปได้เมื่อมีที่อยู่; ขั้นตอนที่กำลังทำจะเด่นออกมา; ขั้นตอนที่รออยู่ข้างหน้าจะคอยอย่างระมัดระวัง.'
+  section:
+    labelled:
+      title: มีหมายเลขและชื่อ
+      description: 'กรณีทั่วไป: หมายเลขสำหรับนับ, คำเพื่อรู้ว่ามันต้องการอะไร. สองขั้นตอนที่ผ่านมาจะเชื่อมโยงกัน.'
+    numbers:
+      title: เฉพาะหมายเลข
+      description: 'เมื่อขั้นตอนไม่มีชื่อที่คุ้มค่าที่จะอ่าน, หรือความกว้างไม่มีที่ว่างสำหรับมัน.'
+    words:
+      title: เฉพาะคำ
+      description: 'ไม่มีหมายเลข, เมื่อการจัดเรียงชัดเจนจากคำ.'
+    ends:
+      title: ขั้นตอนแรกและสุดท้าย
+      description: 'ยังไม่มีการเดิน, จากนั้นทุกอย่างถูกเดินแล้วแต่ขั้นตอนที่กำลังทำ.'
+    unknown:
+      title: ขั้นตอนที่ยังไม่ได้ตัดสินใจ
+      description: 'เมื่อเส้นทางแยกออก, สิ่งที่อยู่ข้างหน้าขึ้นอยู่กับคำตอบที่ยังไม่ได้ให้. ขั้นตอนที่แทนที่มันไม่มีหมายเลขและไม่เคลื่อนที่ขั้นตอนอื่น ๆ: ขั้นตอนสุดท้ายที่นี่คือขั้นตอนที่สาม ไม่ใช่ขั้นตอนที่สี่.'
+    compact:
+      title: 'กะทัดรัด และจุด'
+      description: 'สำหรับหัวเรื่องของโมดัลหรือแผง, เมื่อมีที่น้อย: กะทัดรัดจะรักษาหมายเลขและชื่อของขั้นตอนที่กำลังทำเท่านั้น; จุดจะวาดจุดหนึ่งต่อหนึ่งขั้นตอนและไม่แสดงชื่อบนหน้าจอ, ชื่อจะอยู่สำหรับผู้ที่อ่านหน้าดังกล่าวออกเสียง. ตรงใต้หัวเรื่องของโมดัลหรือแผง, สเต็ปเปอร์จะเข้ามาแทนที่แถบโหลด.'
+    toolbar:
+      title: ในแถบเครื่องมือ
+      description: 'วางในแถบด้านบนของหน้า, มันจะใช้พื้นที่ที่แถบให้.'
+    vue:
+      title: ในวิว
+      description: 'สเต็ปเปอร์เดียวกันในต้นไม้วิว. ขั้นตอนที่ไม่มีที่อยู่สามารถทำเป็นปุ่ม: ลำดับที่ถือโดยหน้าเคลื่อนที่ไปที่ `select` ที่มันออกแทนที่จะไปที่ที่อยู่ใหม่.'
+  step:
+    account: บัญชี
+    address: ที่อยู่
+    payment: การชำระเงิน
+    confirm: การยืนยัน
+    choice: แผนของคุณ
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Adımlar
+  page_icon: 'ph:bold/steps'
+  intro: 'Bir okuyucunun bir dizideki yeri — bir tünel, birkaç bölümden oluşan bir form. Arkadaki adımlar belirgin bir şekilde çizilmiş ve bir adres verildiğinde geri dönülebilir; yapılan adım öne çıkıyor; öndekiler ise bekliyor, dikkati dağıtmadan.'
+  section:
+    labelled:
+      title: 'Numaralandırılmış ve adlandırılmış'
+      description: 'Ortak durum: saymak için bir numara, neyi sorduğunu bilmek için bir kelime. İki adım zaten yüründü ve geri bağlanıyor.'
+    numbers:
+      title: 'Sadece sayılar'
+      description: 'Adların okunmaya değer olmadığı ya da genişliğin onlara yer açmadığı yer.'
+    words:
+      title: 'Sadece kelimeler'
+      description: 'Sayılar olmadan, sıranın kelimelerden belli olduğu durum.'
+    ends:
+      title: 'İlk ve son'
+      description: 'Henüz hiçbir adım atılmadı, sonra her şey yüründü ama yapılan adım hariç.'
+    unknown:
+      title: 'Henüz karar verilmemiş adımlar'
+      description: 'Yolların ayrıldığı yer, ileriye ne olacağı henüz verilmemiş bir cevaba bağlı. Bunun için olan adım bir numara almaz ve diğerlerini hareket ettirmez: burada son adım üçüncüdür, dördüncü değil.'
+    compact:
+      title: 'Kompakt ve noktalar'
+      description: 'Bir modal veya panelin başlığı için, az yer olduğunda: kompakt, sayıları korur ve sadece yapılan adın adını alır; noktalar her adım için bir nokta çizer ve ekranda hiçbir isim göstermez, isimler sayfayı yüksek sesle okuyan için kalır. Bir modal veya panelin başlığının hemen altında, bir adım yükleme çubuğunun yerini alır.'
+    toolbar:
+      title: 'Bir araç çubuğunda'
+      description: 'Bir sayfanın üstünde bir çubukta yer alır, çubuğun verdiği yeri alır.'
+    vue:
+      title: 'Vue içinde'
+      description: 'Bir vue ağacındaki aynı adım. Adres içermeyen adımlar buton haline getirilebilir: sayfa tarafından tutulan bir dizi, yaydığı `seç` ile ilerler, yeni bir adrese değil.'
+  step:
+    account: Hesap
+    address: Adres
+    payment: Ödeme
+    confirm: Onay
+    choice: Planınız
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: اسٹیپرز
+  page_icon: 'ph:bold/steps'
+  intro: 'جہاں ایک قاری ایک تسلسل میں کھڑا ہوتا ہے — ایک سرنگ، کئی حصوں میں ایک فارم۔ پیچھے کے مراحل ٹھوس کھینچے گئے ہیں اور جب انہیں ایک پتہ دیا جاتا ہے تو ان کی طرف واپس جا سکتے ہیں؛ جو مرحلہ جاری ہے وہ نمایاں ہے؛ آگے والے انتظار کرتے ہیں، مؤدب۔'
+  section:
+    labelled:
+      title: 'نمبرڈ اور نامزد'
+      description: 'عام صورت: گنتی کے لیے ایک نمبر، جاننے کے لیے ایک لفظ کہ یہ کیا مانگتا ہے۔ پہلے سے چلنے والے دو مراحل کو پیچھے جوڑا جاتا ہے۔'
+    numbers:
+      title: 'صرف نمبر'
+      description: 'جہاں مراحل کے نام پڑھنے کے قابل نہیں ہیں، یا چوڑائی میں ان کے لیے کوئی جگہ نہیں ہے۔'
+    words:
+      title: 'صرف الفاظ'
+      description: 'بغیر نمبروں کے، جب ترتیب الفاظ سے واضح ہو۔'
+    ends:
+      title: 'پہلا اور آخری'
+      description: 'ابھی کچھ نہیں چلایا، پھر سب کچھ چلا سوائے جاری مرحلے کے۔'
+    unknown:
+      title: 'ابھی طے نہ ہونے والے مراحل'
+      description: 'جہاں راستے الگ ہوتے ہیں، آگے کیا ہے اس کا انحصار ایک جواب پر ہے جو ابھی دیا نہیں گیا۔ جو مرحلہ اس کے لیے کھڑا ہے اس کا کوئی نمبر نہیں ہوتا اور یہ دوسرے مراحل کو نہیں ہلاتا: یہاں آخری مرحلہ تیسرا ہے، چوتھا نہیں۔'
+    compact:
+      title: 'کمپیکٹ، اور نقطے'
+      description: 'ایک موڈل یا پینل کے ہیڈر کے لیے، جہاں جگہ کم ہے: کمپیکٹ صرف جاری مرحلے کے نمبر اور نام رکھتا ہے؛ نقطے ہر مرحلے کے لیے ایک نقطہ کھینچتے ہیں اور اسکرین پر کوئی نام نہیں ہوتا، نام ان لوگوں کے لیے رہتے ہیں جو صفحے کو بلند آواز میں پڑھتے ہیں۔ موڈل یا پینل کے ہیڈر کے عین نیچے، ایک اسٹیپر لوڈنگ بار کی جگہ لیتا ہے۔'
+    toolbar:
+      title: 'ایک ٹول بار میں'
+      description: 'ایک صفحے کے اوپر ایک بار میں رکھا گیا، یہ بار کی فراہم کردہ جگہ لیتا ہے۔'
+    vue:
+      title: 'ویو میں'
+      description: 'ویو درخت میں وہی اسٹیپر۔ بغیر پتے کے مراحل کو بٹن بنایا جا سکتا ہے: ایک تسلسل جو صفحے کی طرف سے جاری رکھا جاتا ہے وہ اس پر `select` کے ذریعے منتقل ہوتا ہے جو یہ خارج کرتا ہے نہ کہ نئے پتے پر۔'
+  step:
+    account: اکاؤنٹ
+    address: پتہ
+    payment: ادائیگی
+    confirm: تصدیق
+    choice: 'آپ کا منصوبہ'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Bước đi'
+  page_icon: 'ph:bold/steps'
+  intro: 'Vị trí của người đọc trong một chuỗi - một đường hầm, một biểu mẫu có nhiều phần. Các bước phía sau được vẽ rõ ràng và có thể quay lại khi được chỉ định địa chỉ; bước đang thực hiện nổi bật; những bước phía trước chờ đợi, một cách kín đáo.'
+  section:
+    labelled:
+      title: 'Đánh số và có tên'
+      description: 'Trường hợp phổ biến: một số để đếm, một từ để biết yêu cầu. Hai bước đã đi liên kết lại với nhau.'
+    numbers:
+      title: 'Chỉ số'
+      description: 'Nơi mà các bước không có tên đáng đọc, hoặc chiều rộng không có chỗ cho chúng.'
+    words:
+      title: 'Chỉ từ'
+      description: 'Không có số, khi thứ tự rõ ràng từ các từ.'
+    ends:
+      title: 'Đầu và cuối'
+      description: 'Chưa có bước nào được thực hiện, sau đó mọi thứ đã được thực hiện trừ bước đang thực hiện.'
+    unknown:
+      title: 'Các bước chưa được quyết định'
+      description: 'Nơi các con đường phân tách, những gì nằm phía trước tùy thuộc vào một câu trả lời chưa được đưa ra. Bước đại diện cho nó không có số và không di chuyển bất kỳ bước nào khác: bước cuối cùng ở đây là bước thứ ba, không phải bước thứ tư.'
+    compact:
+      title: 'Gọn gàng và dấu chấm'
+      description: 'Dành cho tiêu đề của một modal hoặc một panel, nơi có ít không gian: gọn gàng giữ lại số và tên của bước đang thực hiện; dấu chấm vẽ một dấu chấm cho mỗi bước và không đặt tên nào trên màn hình, tên sẽ dành cho những ai đọc trang to.'
+    toolbar:
+      title: 'Trong thanh công cụ'
+      description: 'Được đặt trong một thanh ở trên cùng của trang, nó chiếm chỗ mà thanh cho phép.'
+    vue:
+      title: 'Trong vue'
+      description: 'Cùng một bước đi trong cây vue. Các bước không có địa chỉ có thể trở thành nút bấm: một chuỗi được giữ bởi trang di chuyển trên `select` mà nó phát ra thay vì trên một địa chỉ mới.'
+  step:
+    account: 'Tài khoản'
+    address: 'Địa chỉ'
+    payment: 'Thanh toán'
+    confirm: 'Xác nhận'
+    choice: 'Kế hoạch của bạn'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 步骤
+  page_icon: 'ph:bold/steps'
+  intro: 读者在一个序列中的位置——一个隧道，一个多个部分的表单。后面的步骤是实心的，可以在给定地址时返回；正在进行的步骤突出显示；前面的步骤在安静地等待。
+  section:
+    labelled:
+      title: 编号和命名
+      description: 常见情况：一个数字用于计数，一个词用于知道它所要求的。已经走过的两个步骤相连。
+    numbers:
+      title: 仅数字
+      description: 步骤没有值得阅读的名称，或者宽度没有空间容纳它们。
+    words:
+      title: 仅单词
+      description: 没有数字时，顺序从单词中显而易见。
+    ends:
+      title: 第一次和最后一次
+      description: 尚未走过任何步骤，然后走过的一切，但正在进行的步骤。
+    unknown:
+      title: 尚未确定的步骤
+      description: 路径分叉，前方的情况取决于尚未给出的答案。代表它的步骤没有编号，也不影响其他步骤：这里的最后一步是第三步，而不是第四步。
+    compact:
+      title: 紧凑，和点
+      description: 用于模态或面板的标题，空间有限：紧凑保持数字和正在进行的步骤名称；点每个步骤画一个点，屏幕上不显示名称，名称留给朗读页面的人。在模态或面板的标题下方，步骤条取代了加载条。
+    toolbar:
+      title: 在工具栏中
+      description: 放置在页面上方的条中，它占据条提供的空间。
+    vue:
+      title: 在vue中
+      description: 在vue树中的相同步骤条。没有地址的步骤可以变成按钮：由页面持有的序列在它发出的`select`上移动，而不是在新的地址上。
+  step:
+    account: 账户
+    address: 地址
+    payment: 支付
+    confirm: 确认
+    choice: 你的计划

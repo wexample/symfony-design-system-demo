@@ -1,0 +1,1801 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Timeline
+  page_icon: ph:bold/list-numbers
+
+  intro: "Things one under the other, each on a marker, joined by a line: the steps of a procedure, the events of a history, the stages of a run. What each holds is free — a line of text, a table, a form — and the line runs down the whole of it, to the next marker."
+
+  section:
+    steps:
+      title: Steps in order
+      description: "Numbered, with the three states the stepper knows: the steps behind are drawn solid, the one being done stands out, those ahead wait."
+    free:
+      title: Anything under a title
+      description: "Each item holds whatever it needs — properties, a message, buttons. An icon replaces the dot, and a tone colours the marker the way it colours a marker or a block."
+    history:
+      title: A history
+      description: "No order to follow, only events: dots, a date under each title, and a category colour where it tells something."
+    unknown:
+      title: Steps not decided yet
+      description: "As on the stepper: a step that depends on an answer not given yet takes no number and moves none of the others."
+    hand:
+      title: Written by hand
+      description: "The component is only a way of writing the shape from a list. The same classes written in the page give the same timeline, with anything in it."
+    vue:
+      title: In vue
+      description: "The same timeline in a vue tree. What the twig takes as markup is a scoped slot there, so a component can stand under an item's title."
+
+  install:
+    clone:
+      title: Get the sources
+      text: Clone the repository and install its dependencies.
+    configure:
+      title: Configure
+      text: Copy the example environment and fill in the database address.
+    migrate:
+      title: Create the database
+      text: Run the migrations; this is the step in progress.
+    deploy:
+      title: Deploy
+      text: Build the assets and publish the release.
+
+  order:
+    placed:
+      title: Order placed
+      meta: 14 March, 09:41
+    paid:
+      title: Payment received
+      meta: 14 March, 09:42
+    shipped:
+      title: Shipped
+      meta: 15 March, 16:05
+    next:
+      title: Delivery
+    delay:
+      title: Running late
+      text: The carrier announces one more day.
+    field:
+      reference: Reference
+      amount: Amount
+      method: Payment
+      card: Card ending 4242
+    action:
+      track: Track the parcel
+      cancel: Cancel
+
+  history:
+    release:
+      title: Version 2.0 released
+      meta: 2 September
+    review:
+      title: Reviewed by the team
+      meta: 28 August
+    draft:
+      title: First draft
+      meta: 12 August
+
+  branch:
+    choose: Choose a plan
+    depends: Depends on the plan
+
+  hand:
+    one: A plain dot
+    two: An icon in place of the dot
+    two_text: Any markup, written in the page.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'الجدول الزمني'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'أشياء واحدة تحت الأخرى، كل منها على علامة، مرتبطة بخط: خطوات إجراء، أحداث تاريخ، مراحل تشغيل. ما يحمله كل منها حر - سطر من النص، جدول، نموذج - والخط يمتد عبر كامل ذلك، إلى العلامة التالية.'
+  section:
+    steps:
+      title: 'خطوات مرتبة'
+      description: 'مرقمة، مع الحالات الثلاث التي يعرفها جهاز الخطوات: خطوات الخلف مرسومة بشكل صلب، والتي تُنجز تبرز، وتلك التي تنتظر.'
+    free:
+      title: 'أي شيء تحت عنوان'
+      description: 'كل عنصر يحمل ما يحتاجه - خصائص، رسالة، أزرار. أيقونة تحل محل النقطة، ونغمة تلون العلامة كما تلون علامة أو كتلة.'
+    history:
+      title: تاريخ
+      description: 'لا ترتيب للمتابعة، فقط أحداث: نقاط، تاريخ تحت كل عنوان، ولون فئة حيث يخبر بشيء.'
+    unknown:
+      title: 'خطوات لم تُحدد بعد'
+      description: 'كما في جهاز الخطوات: خطوة تعتمد على إجابة لم تُعطَ بعد لا تأخذ رقمًا ولا تحرك أيًا من الخطوات الأخرى.'
+    hand:
+      title: 'مكتوب يدويًا'
+      description: 'المكون هو فقط وسيلة لكتابة الشكل من قائمة. نفس الفئات المكتوبة في الصفحة تعطي نفس الجدول الزمني، مع أي شيء في داخله.'
+    vue:
+      title: 'في vue'
+      description: 'نفس الجدول الزمني في شجرة vue. ما تأخذه الفرع كعلامات هو فتحة مخصصة هناك، لذا يمكن أن يقف مكون تحت عنوان عنصر.'
+  install:
+    clone:
+      title: 'احصل على المصادر'
+      text: 'استنساخ المستودع وتثبيت الاعتماديات الخاصة به.'
+    configure:
+      title: تهيئة
+      text: 'انسخ البيئة النموذجية واملأ عنوان قاعدة البيانات.'
+    migrate:
+      title: 'إنشاء قاعدة البيانات'
+      text: 'قم بتشغيل الهجرات؛ هذه هي الخطوة قيد التقدم.'
+    deploy:
+      title: نشر
+      text: 'قم ببناء الأصول ونشر الإصدار.'
+  order:
+    placed:
+      title: 'تم تقديم الطلب'
+      meta: '14 مارس، 09:41'
+    paid:
+      title: 'تم استلام الدفع'
+      meta: '14 مارس، 09:42'
+    shipped:
+      title: 'تم الشحن'
+      meta: '15 مارس، 16:05'
+    next:
+      title: التسليم
+    delay:
+      title: 'تأخير في التسليم'
+      text: 'المُرسل يُعلن عن يوم آخر.'
+    field:
+      reference: المرجع
+      amount: المبلغ
+      method: 'طريقة الدفع'
+      card: 'بطاقة تنتهي بـ 4242'
+    action:
+      track: 'تتبع الطرد'
+      cancel: إلغاء
+  history:
+    release:
+      title: 'الإصدار 2.0 تم إصداره'
+      meta: '2 سبتمبر'
+    review:
+      title: 'تمت مراجعته من قبل الفريق'
+      meta: '28 أغسطس'
+    draft:
+      title: 'المسودة الأولى'
+      meta: '12 أغسطس'
+  branch:
+    choose: 'اختر خطة'
+    depends: 'تعتمد على الخطة'
+  hand:
+    one: 'نقطة عادية'
+    two: 'أيقونة بدل النقطة'
+    two_text: 'أي علامة، مكتوبة في الصفحة.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: টাইমলাইন
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'একটির নিচে একটি বস্তু, প্রতিটি একটি মার্কারে, একটি লাইনে যুক্ত: একটি প্রক্রিয়ার পদক্ষেপ, একটি ইতিহাসের ঘটনা, একটি চলার পর্যায়। প্রতিটি যা ধারণ করে তা মুক্ত — একটি টেক্সটের লাইন, একটি টেবিল, একটি ফর্ম — এবং লাইনটি পুরো জায়গা জুড়ে চলে, পরবর্তী মার্কারের দিকে।'
+  section:
+    steps:
+      title: 'ক্রমে পদক্ষেপ'
+      description: 'সংখ্যায়িত, তিনটি অবস্থায় যা স্টেপার জানে: পিছনের পদক্ষেপগুলি দৃঢ়ভাবে আঁকা হয়, চলমান পদক্ষেপটি আলাদা করে দাঁড়ায়, সামনে অপেক্ষমাণগুলি।'
+    free:
+      title: 'একটি শিরোনামের নিচে কিছুই'
+      description: 'প্রতিটি আইটেম যা প্রয়োজন তা ধারণ করে — বৈশিষ্ট্য, একটি বার্তা, বোতাম। একটি আইকন বিন্দুর জায়গা নেয়, এবং একটি সুর মার্কারকে রঙিন করে যেমন একটি মার্কার বা ব্লককে রঙিন করে।'
+    history:
+      title: 'একটি ইতিহাস'
+      description: 'অনুসরণ করার জন্য কোন ক্রম নেই, শুধুমাত্র ঘটনা: বিন্দুগুলি, প্রতিটি শিরোনামের নিচে একটি তারিখ, এবং একটি বিভাগ রঙ যেখানে এটি কিছু বলে।'
+    unknown:
+      title: 'এখনও সিদ্ধান্ত হয়নি পদক্ষেপ'
+      description: 'স্টেপারের মতো: একটি পদক্ষেপ যা এখনও দেওয়া হয়নি এমন একটি উত্তর উপর নির্ভর করে, এর কোন সংখ্যা নেই এবং অন্যদের কোন গতিশীলতা নেই।'
+    hand:
+      title: 'হাতে লেখা'
+      description: 'উপাদানটি শুধুমাত্র একটি তালিকা থেকে আকার লেখার একটি উপায়। একই ক্লাস পৃষ্ঠায় লেখা একই টাইমলাইন দেয়, এতে কিছুই থাকে।'
+    vue:
+      title: ভিউতে
+      description: 'একটি ভিউ গাছের মধ্যে একই টাইমলাইন। যা শাখা মার্কআপ হিসাবে গ্রহণ করে তা সেখানে একটি স্কোপড স্লট, তাই একটি উপাদান একটি আইটেমের শিরোনামের অধীনে দাঁড়াতে পারে।'
+  install:
+    clone:
+      title: 'সোর্স পান'
+      text: 'রিপোজিটরি ক্লোন করুন এবং এর নির্ভরতা ইনস্টল করুন।'
+    configure:
+      title: 'কনফিগার করুন'
+      text: 'উদাহরণ পরিবেশ কপি করুন এবং ডাটাবেসের ঠিকানা পূরণ করুন।'
+    migrate:
+      title: 'ডাটাবেস তৈরি করুন'
+      text: 'মাইগ্রেশন চালান; এটি হচ্ছে বর্তমান পদক্ষেপ।'
+    deploy:
+      title: 'ডেপ্লয় করুন'
+      text: 'অ্যাসেট তৈরি করুন এবং রিলিজ প্রকাশ করুন।'
+  order:
+    placed:
+      title: 'অর্ডার দেওয়া হয়েছে'
+      meta: '১৪ মার্চ, ০৯:৪১'
+    paid:
+      title: 'পেমেন্ট গ্রহণ হয়েছে'
+      meta: '১৪ মার্চ, ০৯:৪২'
+    shipped:
+      title: 'শিপ করা হয়েছে'
+      meta: '১৫ মার্চ, ১৬:০৫'
+    next:
+      title: ডেলিভারি
+    delay:
+      title: 'দেরিতে চলছে'
+      text: 'ক্যারিয়ার একটি দিন বেশি ঘোষণা করে।'
+    field:
+      reference: রেফারেন্স
+      amount: পরিমাণ
+      method: পেমেন্ট
+      card: 'কার্ড শেষ 4242'
+    action:
+      track: 'পার্সেল ট্র্যাক করুন'
+      cancel: 'বাতিল করুন'
+  history:
+    release:
+      title: 'সংস্করণ 2.0 মুক্তি পেয়েছে'
+      meta: '২ সেপ্টেম্বর'
+    review:
+      title: 'দল দ্বারা পর্যালোচনা করা হয়েছে'
+      meta: '২৮ আগস্ট'
+    draft:
+      title: 'প্রথম খসড়া'
+      meta: '১২ আগস্ট'
+  branch:
+    choose: 'একটি পরিকল্পনা নির্বাচন করুন'
+    depends: 'পরিকল্পনার উপর নির্ভর করে'
+  hand:
+    one: 'একটি সাধারণ বিন্দু'
+    two: 'বিন্দুর জায়গায় একটি আইকন'
+    two_text: 'যেকোন মার্কআপ, পৃষ্ঠায় লেখা।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zeitleiste
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Dinge, die übereinander stehen, jeweils auf einem Marker, verbunden durch eine Linie: die Schritte eines Verfahrens, die Ereignisse einer Geschichte, die Phasen eines Ablaufs. Was jeder enthält, ist frei — eine Textzeile, eine Tabelle, ein Formular — und die Linie zieht sich über das Ganze bis zum nächsten Marker.'
+  section:
+    steps:
+      title: 'Schritte in Reihenfolge'
+      description: 'Nummeriert, mit den drei Zuständen, die der Stepper kennt: die Schritte dahinter sind solid gezeichnet, der aktuelle sticht hervor, die nächsten warten.'
+    free:
+      title: 'Alles unter einem Titel'
+      description: 'Jedes Element enthält, was es braucht — Eigenschaften, eine Nachricht, Schaltflächen. Ein Icon ersetzt den Punkt, und ein Farbton färbt den Marker so, wie er einen Marker oder einen Block färbt.'
+    history:
+      title: 'Eine Geschichte'
+      description: 'Kein bestimmter Ablauf, nur Ereignisse: Punkte, ein Datum unter jedem Titel und eine Farbgebung der Kategorie, die etwas erzählt.'
+    unknown:
+      title: 'Schritte noch nicht entschieden'
+      description: 'Wie beim Stepper: ein Schritt, der von einer noch nicht gegebenen Antwort abhängt, erhält keine Nummer und bewegt keine der anderen.'
+    hand:
+      title: Handgeschrieben
+      description: 'Die Komponente ist nur eine Möglichkeit, die Form aus einer Liste zu schreiben. Die gleichen Klassen, die auf der Seite geschrieben sind, ergeben die gleiche Zeitleiste, mit allem, was darin ist.'
+    vue:
+      title: 'In Vue'
+      description: 'Die gleiche Zeitleiste in einem Vue-Baum. Was der Zweig als Markup nimmt, ist dort ein Scoped Slot, sodass eine Komponente unter dem Titel eines Elements stehen kann.'
+  install:
+    clone:
+      title: 'Quellen abrufen'
+      text: 'Klonen Sie das Repository und installieren Sie dessen Abhängigkeiten.'
+    configure:
+      title: Konfigurieren
+      text: 'Kopieren Sie die Beispielumgebung und füllen Sie die Datenbankadresse ein.'
+    migrate:
+      title: 'Datenbank erstellen'
+      text: 'Führen Sie die Migrationen aus; dies ist der Schritt, der im Gange ist.'
+    deploy:
+      title: Bereitstellen
+      text: 'Bauen Sie die Assets und veröffentlichen Sie die Version.'
+  order:
+    placed:
+      title: 'Bestellung aufgegeben'
+      meta: '14. März, 09:41'
+    paid:
+      title: 'Zahlung erhalten'
+      meta: '14. März, 09:42'
+    shipped:
+      title: Versendet
+      meta: '15. März, 16:05'
+    next:
+      title: Lieferung
+    delay:
+      title: Verspätung
+      text: 'Der Lieferdienst kündigt einen weiteren Tag an.'
+    field:
+      reference: Referenz
+      amount: Betrag
+      method: Zahlung
+      card: 'Karte endet auf 4242'
+    action:
+      track: 'Paket verfolgen'
+      cancel: Stornieren
+  history:
+    release:
+      title: 'Version 2.0 veröffentlicht'
+      meta: '2. September'
+    review:
+      title: 'Vom Team überprüft'
+      meta: '28. August'
+    draft:
+      title: 'Erster Entwurf'
+      meta: '12. August'
+  branch:
+    choose: 'Wählen Sie einen Plan'
+    depends: 'Hängt vom Plan ab'
+  hand:
+    one: 'Ein einfacher Punkt'
+    two: 'Ein Icon anstelle des Punktes'
+    two_text: 'Jedes Markup, das auf der Seite geschrieben ist.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Línea de tiempo'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Cosas una debajo de la otra, cada una en un marcador, unidas por una línea: los pasos de un procedimiento, los eventos de una historia, las etapas de una carrera. Lo que cada una contiene es libre: una línea de texto, una tabla, un formulario, y la línea corre a lo largo de toda ella, hasta el siguiente marcador.'
+  section:
+    steps:
+      title: 'Pasos en orden'
+      description: 'Numerados, con los tres estados que el escalador conoce: los pasos detrás están dibujados sólidos, el que se está realizando destaca, los que están adelante esperan.'
+    free:
+      title: 'Cualquier cosa bajo un título'
+      description: 'Cada ítem contiene lo que necesita: propiedades, un mensaje, botones. Un ícono reemplaza el punto, y un tono colorea el marcador como colorea un marcador o un bloque.'
+    history:
+      title: 'Una historia'
+      description: 'Sin orden que seguir, solo eventos: puntos, una fecha bajo cada título, y un color de categoría donde se dice algo.'
+    unknown:
+      title: 'Pasos no decididos aún'
+      description: 'Como en el escalador: un paso que depende de una respuesta no dada aún no toma número y no mueve a los demás.'
+    hand:
+      title: 'Escrito a mano'
+      description: 'El componente es solo una forma de escribir la forma de una lista. Las mismas clases escritas en la página dan la misma línea de tiempo, con cualquier cosa en ella.'
+    vue:
+      title: 'En vue'
+      description: 'La misma línea de tiempo en un árbol vue. Lo que la ramita toma como marcado es un slot con alcance allí, así que un componente puede estar bajo el título de un ítem.'
+  install:
+    clone:
+      title: 'Obtener las fuentes'
+      text: 'Clona el repositorio e instala sus dependencias.'
+    configure:
+      title: Configurar
+      text: 'Copia el entorno de ejemplo y completa la dirección de la base de datos.'
+    migrate:
+      title: 'Crear la base de datos'
+      text: 'Ejecuta las migraciones; este es el paso en progreso.'
+    deploy:
+      title: Desplegar
+      text: 'Construye los activos y publica la versión.'
+  order:
+    placed:
+      title: 'Pedido realizado'
+      meta: '14 de marzo, 09:41'
+    paid:
+      title: 'Pago recibido'
+      meta: '14 de marzo, 09:42'
+    shipped:
+      title: Enviado
+      meta: '15 de marzo, 16:05'
+    next:
+      title: Entrega
+    delay:
+      title: Retraso
+      text: 'El transportista anuncia un día más.'
+    field:
+      reference: Referencia
+      amount: Cantidad
+      method: Pago
+      card: 'Tarjeta terminando en 4242'
+    action:
+      track: 'Rastrear el paquete'
+      cancel: Cancelar
+  history:
+    release:
+      title: 'Versión 2.0 lanzada'
+      meta: '2 de septiembre'
+    review:
+      title: 'Revisado por el equipo'
+      meta: '28 de agosto'
+    draft:
+      title: 'Primer borrador'
+      meta: '12 de agosto'
+  branch:
+    choose: 'Elegir un plan'
+    depends: 'Depende del plan'
+  hand:
+    one: 'Un punto plano'
+    two: 'Un ícono en lugar del punto'
+    two_text: 'Cualquier marcado, escrito en la página.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'خط زمان'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'چیزها یکی زیر دیگری، هر کدام روی یک نشانگر، به وسیله یک خط متصل شده‌اند: مراحل یک فرآیند، رویدادهای یک تاریخ، مراحل یک اجرا. هر چیزی که در آن قرار دارد آزاد است — یک خط متن، یک جدول، یک فرم — و خط در تمام آن جاری است، به نشانگر بعدی.'
+  section:
+    steps:
+      title: 'مراحل به ترتیب'
+      description: 'شماره‌گذاری شده، با سه وضعیتی که مرحله‌نما می‌شناسد: مراحل قبلی به صورت محکم کشیده شده‌اند، مرحله در حال انجام متمایز است، و مراحل آینده منتظر هستند.'
+    free:
+      title: 'هر چیزی زیر یک عنوان'
+      description: 'هر مورد هر آنچه نیاز دارد را در خود دارد — ویژگی‌ها، یک پیام، دکمه‌ها. یک آیکون نقطه را جایگزین می‌کند، و یک لحن نشانگر را به رنگی که نشانگر یا بلوکی را رنگ‌آمیزی می‌کند، رنگ می‌دهد.'
+    history:
+      title: تاریخ
+      description: 'هیچ ترتیبی برای پیگیری وجود ندارد، فقط رویدادها: نقاط، یک تاریخ زیر هر عنوان، و رنگ یک دسته که چیزی را بیان می‌کند.'
+    unknown:
+      title: 'مراحل هنوز تصمیم‌گیری نشده'
+      description: 'همانند مرحله‌نما: مرحله‌ای که به یک پاسخ که هنوز داده نشده وابسته است شماره‌ای ندارد و هیچ یک از دیگر مراحل را حرکت نمی‌دهد.'
+    hand:
+      title: 'با دست نوشته شده'
+      description: 'این مؤلفه فقط راهی برای نوشتن شکل از یک لیست است. همان کلاس‌هایی که در صفحه نوشته شده‌اند همان خط زمان را می‌دهند، با هر چیزی در آن.'
+    vue:
+      title: 'در vue'
+      description: 'همان خط زمان در یک درخت vue. آنچه که شاخه به عنوان نشانه‌گذاری می‌گیرد یک اسلات محلی در آنجا است، بنابراین یک مؤلفه می‌تواند زیر عنوان یک مورد قرار گیرد.'
+  install:
+    clone:
+      title: 'منابع را بگیرید'
+      text: 'مخزن را کلون کنید و وابستگی‌های آن را نصب نمایید.'
+    configure:
+      title: پیکربندی
+      text: 'محیط نمونه را کپی کنید و آدرس پایگاه داده را پر کنید.'
+    migrate:
+      title: 'پایگاه داده را ایجاد کنید'
+      text: 'مهاجرت‌ها را اجرا کنید؛ این مرحله در حال پیشرفت است.'
+    deploy:
+      title: انتشار
+      text: 'دارایی‌ها را بسازید و نسخه را منتشر کنید.'
+  order:
+    placed:
+      title: 'سفارش ثبت شده'
+      meta: '۱۴ مارس، ۰۹:۴۱'
+    paid:
+      title: 'پرداخت دریافت شد'
+      meta: '۱۴ مارس، ۰۹:۴۲'
+    shipped:
+      title: 'ارسال شده'
+      meta: '۱۵ مارس، ۱۶:۰۵'
+    next:
+      title: تحویل
+    delay:
+      title: تاخیر
+      text: 'حمل‌کننده یک روز دیگر را اعلام می‌کند.'
+    field:
+      reference: مرجع
+      amount: مقدار
+      method: پرداخت
+      card: 'کارت به پایان ۴۲۴۲'
+    action:
+      track: 'ردیابی بسته'
+      cancel: لغو
+  history:
+    release:
+      title: 'نسخه ۲.۰ منتشر شد'
+      meta: '۲ سپتامبر'
+    review:
+      title: 'بررسی شده توسط تیم'
+      meta: '۲۸ اوت'
+    draft:
+      title: 'پیش‌نویس اول'
+      meta: '۱۲ اوت'
+  branch:
+    choose: 'یک طرح انتخاب کنید'
+    depends: 'وابسته به طرح'
+  hand:
+    one: 'یک نقطه ساده'
+    two: 'یک آیکون به جای نقطه'
+    two_text: 'هر نشانه‌گذاری، نوشته شده در صفحه.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Aikajana
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Asiat toistensa alla, jokainen merkkipaalu, yhdistetty viivalla: prosessin vaiheet, historian tapahtumat, juoksun vaiheet. Jokainen voi sisältää mitä tahansa — tekstirivin, taulukon, lomakkeen — ja viiva kulkee koko sen matkalta seuraavalle merkkipaulalle.'
+  section:
+    steps:
+      title: 'Vaiheet järjestyksessä'
+      description: 'Numeroitu, kolmea tilaa käyttäen, jotka stepperi tuntee: taakse jääneet vaiheet ovat vahvoja, meneillään oleva erottuu, edessä odottavat.'
+    free:
+      title: 'Mitä tahansa otsikon alla'
+      description: 'Jokainen kohde sisältää tarvitsemansa — ominaisuudet, viestin, painikkeet. Ikoni korvasi pisteen, ja sävy värittää merkkipaaluja kuten se värittää merkkipaaluja tai lohkoja.'
+    history:
+      title: Historia
+      description: 'Ei järjestystä, vain tapahtumat: pisteet, päivämäärä jokaisen otsikon alla, ja kategorian väri, joka kertoo jotain.'
+    unknown:
+      title: 'Vaiheet ei ole vielä päätetty'
+      description: 'Kuten stepparissa: vaihe, joka riippuu vielä antamattomasta vastauksesta, ei saa numeroa eikä liikuta muita.'
+    hand:
+      title: 'Käsin kirjoitettu'
+      description: 'Komponentti on vain tapa kirjoittaa muoto listasta. Samat luokat, jotka on kirjoitettu sivulle, antavat saman aikajanan, mitä tahansa siinä.'
+    vue:
+      title: 'Vue:ssa'
+      description: 'Sama aikajana vue-puussa. Se, mitä oksa ottaa merkkausmateriaalina, on siellä rajattu slot, joten komponentti voi seistä kohteen otsikon alla.'
+  install:
+    clone:
+      title: 'Hanki lähteet'
+      text: 'Kloonaa repositorio ja asenna riippuvuudet.'
+    configure:
+      title: Konfiguroi
+      text: 'Kopioi esimerkkikokoonpano ja täytä tietokannan osoite.'
+    migrate:
+      title: 'Luo tietokanta'
+      text: 'Suorita migraatiot; tämä on meneillään oleva vaihe.'
+    deploy:
+      title: Julkaise
+      text: 'Rakenna resurssit ja julkaise julkaisu.'
+  order:
+    placed:
+      title: 'Tilauksesi on vastaanotettu'
+      meta: '14. maaliskuuta, 09:41'
+    paid:
+      title: 'Maksu vastaanotettu'
+      meta: '14. maaliskuuta, 09:42'
+    shipped:
+      title: Lähetetty
+      meta: '15. maaliskuuta, 16:05'
+    next:
+      title: Toimitus
+    delay:
+      title: Viivästyy
+      text: 'Kuljetusliike ilmoittaa yhden päivän lisäyksestä.'
+    field:
+      reference: Viite
+      amount: Määrä
+      method: Maksu
+      card: 'Kortti päättyen 4242'
+    action:
+      track: 'Seuraa pakettia'
+      cancel: Peruuta
+  history:
+    release:
+      title: 'Versio 2.0 julkaistu'
+      meta: '2. syyskuuta'
+    review:
+      title: 'Tiimin arvioima'
+      meta: '28. elokuuta'
+    draft:
+      title: 'Ensimmäinen luonnos'
+      meta: '12. elokuuta'
+  branch:
+    choose: 'Valitse suunnitelma'
+    depends: 'Riippuu suunnitelmasta'
+  hand:
+    one: 'Yksi yksinkertainen piste'
+    two: 'Ikoni pisteen paikalla'
+    two_text: 'Mikä tahansa merkkaus, kirjoitettu sivulle.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chronologie
+  page_icon: 'ph:bold/list-numbers'
+  intro: "Des éléments les uns sous les autres, chacun sur un marqueur, reliés par une ligne : les étapes d'une procédure, les événements d'une histoire, les phases d'un parcours. Ce que chaque élément contient est libre — une ligne de texte, un tableau, un formulaire — et la ligne s'étend sur l'ensemble, jusqu'au prochain marqueur."
+  section:
+    steps:
+      title: "Étapes dans l'ordre"
+      description: 'Numérotées, avec les trois états que connaît le sélecteur : les étapes derrière sont dessinées en solide, celle en cours se distingue, celles à venir attendent.'
+    free:
+      title: 'Tout sous un titre'
+      description: 'Chaque élément contient ce dont il a besoin — propriétés, message, boutons. Une icône remplace le point, et une tonalité colore le marqueur comme elle colore un marqueur ou un bloc.'
+    history:
+      title: 'Une histoire'
+      description: 'Aucun ordre à suivre, seulement des événements : des points, une date sous chaque titre, et une couleur de catégorie où elle raconte quelque chose.'
+    unknown:
+      title: 'Étapes pas encore décidées'
+      description: "Comme sur le sélecteur : une étape qui dépend d'une réponse pas encore donnée ne prend aucun numéro et ne déplace aucune des autres."
+    hand:
+      title: 'Écrit à la main'
+      description: "Le composant est seulement un moyen d'écrire la forme à partir d'une liste. Les mêmes classes écrites sur la page donnent la même chronologie, avec tout ce qui s'y trouve."
+    vue:
+      title: 'Dans vue'
+      description: "La même chronologie dans un arbre vue. Ce que la branche prend comme balisage est un slot scoped là, donc un composant peut se tenir sous le titre d'un élément."
+  install:
+    clone:
+      title: 'Obtenir les sources'
+      text: 'Clonez le dépôt et installez ses dépendances.'
+    configure:
+      title: Configurer
+      text: "Copiez l'environnement exemple et remplissez l'adresse de la base de données."
+    migrate:
+      title: 'Créer la base de données'
+      text: "Exécutez les migrations ; c'est l'étape en cours."
+    deploy:
+      title: Déployer
+      text: 'Construisez les actifs et publiez la version.'
+  order:
+    placed:
+      title: 'Commande passée'
+      meta: '14 mars, 09:41'
+    paid:
+      title: 'Paiement reçu'
+      meta: '14 mars, 09:42'
+    shipped:
+      title: Expédié
+      meta: '15 mars, 16:05'
+    next:
+      title: Livraison
+    delay:
+      title: Retard
+      text: 'Le transporteur annonce un jour supplémentaire.'
+    field:
+      reference: Référence
+      amount: Montant
+      method: Paiement
+      card: 'Carte se terminant par 4242'
+    action:
+      track: 'Suivre le colis'
+      cancel: Annuler
+  history:
+    release:
+      title: 'Version 2.0 publiée'
+      meta: '2 septembre'
+    review:
+      title: "Révisé par l'équipe"
+      meta: '28 août'
+    draft:
+      title: 'Première ébauche'
+      meta: '12 août'
+  branch:
+    choose: 'Choisissez un plan'
+    depends: 'Dépend du plan'
+  hand:
+    one: 'Un point simple'
+    two: 'Une icône à la place du point'
+    two_text: 'Tout balisage, écrit sur la page.'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ציר זמן'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'דברים זה מתחת לזה, כל אחד על סמן, מחוברים בקו: שלבי הליך, אירועים בהיסטוריה, שלבי ריצה. מה שכל אחד מחזיק הוא חופשי - שורת טקסט, טבלה, טופס - והקו רץ לאורך כל זה, עד לסמן הבא.'
+  section:
+    steps:
+      title: 'שלבים בסדר'
+      description: 'מסודרים במספרים, עם שלוש המדינות שהסופר מכיר: השלבים מאחור מצוירים מוצקים, זה שנעשה בולט, אלו שלפנינו מחכים.'
+    free:
+      title: 'כל דבר תחת כותרת'
+      description: 'כל פריט מחזיק מה שהוא צריך - תכונות, הודעה, כפתורים. אייקון מחליף את הנקודה, וטון צבעוני את הסמן כמו שהוא צבעוני סמן או בלוק.'
+    history:
+      title: היסטוריה
+      description: 'אין סדר לעקוב אחריו, רק אירועים: נקודות, תאריך מתחת לכל כותרת, וצבע קטגוריה היכן שזה אומר משהו.'
+    unknown:
+      title: 'שלבים שלא נקבעו עדיין'
+      description: 'כמו על הסופר: שלב שתלוי בתשובה שלא ניתנה עדיין אין לו מספר ואינו מזיז את האחרים.'
+    hand:
+      title: 'נכתב ביד'
+      description: 'המרכיב הוא רק אמצעי לכתיבת הצורה מרשימה. אותן הקטגוריות שנכתבו בדף נותנות את אותה ציר זמן, עם כל מה שיש בו.'
+    vue:
+      title: ב-vue
+      description: 'אותו ציר זמן בעץ vue. מה שהענף לוקח כסימון הוא שקע ממוקד שם, כך שמרכיב יכול לעמוד מתחת לכותרת של פריט.'
+  install:
+    clone:
+      title: 'קבל את המקורות'
+      text: 'שכפל את הרפוזיטורי והתקן את התלויות שלו.'
+    configure:
+      title: הגדר
+      text: 'העתק את הסביבה לדוגמה ומלא את כתובת מסד הנתונים.'
+    migrate:
+      title: 'צור את מסד הנתונים'
+      text: 'הרץ את המהגרים; זהו השלב בהתקדמות.'
+    deploy:
+      title: פרסם
+      text: 'בנה את הנכסים ופרסם את השחרור.'
+  order:
+    placed:
+      title: 'הזמנה בוצעה'
+      meta: '14 במרץ, 09:41'
+    paid:
+      title: 'תשלום התקבל'
+      meta: '14 במרץ, 09:42'
+    shipped:
+      title: נשלח
+      meta: '15 במרץ, 16:05'
+    next:
+      title: משלוח
+    delay:
+      title: מאחר
+      text: 'הנושא מודיע על יום נוסף.'
+    field:
+      reference: הפניה
+      amount: סכום
+      method: תשלום
+      card: 'כרטיס שמסתיים ב-4242'
+    action:
+      track: 'עקוב אחרי החבילה'
+      cancel: בטל
+  history:
+    release:
+      title: 'גרסה 2.0 שוחררה'
+      meta: '2 בספטמבר'
+    review:
+      title: 'נבדק על ידי הצוות'
+      meta: '28 באוגוסט'
+    draft:
+      title: 'טיוטה ראשונה'
+      meta: '12 באוגוסט'
+  branch:
+    choose: 'בחר תוכנית'
+    depends: 'תלוי בתוכנית'
+  hand:
+    one: 'נקודה פשוטה'
+    two: 'אייקון במקום הנקודה'
+    two_text: 'כל סימון, נכתב בדף.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: समयरेखा
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'एक के नीचे एक चीजें, प्रत्येक एक मार्कर पर, एक रेखा द्वारा जुड़ी हुई: एक प्रक्रिया के कदम, एक इतिहास की घटनाएँ, एक दौड़ के चरण। जो कुछ भी इसमें है वह स्वतंत्र है - एक टेक्स्ट की पंक्ति, एक तालिका, एक फॉर्म - और रेखा इसके पूरे भाग में चलती है, अगले मार्कर तक।'
+  section:
+    steps:
+      title: 'क्रम में कदम'
+      description: 'संख्याबद्ध, तीन राज्यों के साथ जो स्टेपर जानता है: पीछे के कदम ठोस रूप से खींचे जाते हैं, जो कदम चल रहा है वह खड़ा होता है, आगे के कदम इंतजार करते हैं।'
+    free:
+      title: 'किसी शीर्षक के तहत कुछ भी'
+      description: 'प्रत्येक आइटम में जो भी आवश्यकता है वह होता है - गुण, एक संदेश, बटन। एक आइकन बिंदु को प्रतिस्थापित करता है, और एक टोन मार्कर को रंग देता है जैसे वह एक मार्कर या एक ब्लॉक को रंगता है।'
+    history:
+      title: 'एक इतिहास'
+      description: 'अनुसरण करने के लिए कोई क्रम नहीं, केवल घटनाएँ: बिंदु, प्रत्येक शीर्षक के तहत एक तारीख, और एक श्रेणी का रंग जहां यह कुछ बताता है।'
+    unknown:
+      title: 'अभी तय नहीं हुए कदम'
+      description: 'जैसे स्टेपर पर: एक कदम जो अभी तक दिए गए उत्तर पर निर्भर करता है, उसे कोई संख्या नहीं मिलती और वह अन्य कदमों को नहीं बढ़ाता।'
+    hand:
+      title: 'हाथ से लिखा गया'
+      description: 'यह घटक केवल एक सूची से आकार लिखने का एक तरीका है। एक ही कक्षाएँ पृष्ठ में लिखी गईं वही समयरेखा देती हैं, जिसमें कुछ भी होता है।'
+    vue:
+      title: 'व्यू में'
+      description: 'एक vue ट्री में वही समयरेखा। जो टहनी मार्कअप के रूप में लेती है, वह वहाँ एक स्कोप्ड स्लॉट है, इसलिए एक घटक किसी आइटम के शीर्षक के तहत खड़ा हो सकता है।'
+  install:
+    clone:
+      title: 'स्रोत प्राप्त करें'
+      text: 'रेपो को क्लोन करें और इसके निर्भरताएँ स्थापित करें।'
+    configure:
+      title: 'कॉन्फ़िगर करें'
+      text: 'उदाहरण वातावरण की कॉपी करें और डेटाबेस पते को भरें।'
+    migrate:
+      title: 'डेटाबेस बनाएं'
+      text: 'माइग्रेशन चलाएँ; यह प्रगति में कदम है।'
+    deploy:
+      title: 'डिप्लॉय करें'
+      text: 'संपत्ति बनाएं और रिलीज़ प्रकाशित करें।'
+  order:
+    placed:
+      title: 'आदेश दिया गया'
+      meta: '14 मार्च, 09:41'
+    paid:
+      title: 'भुगतान प्राप्त हुआ'
+      meta: '14 मार्च, 09:42'
+    shipped:
+      title: 'शिप किया गया'
+      meta: '15 मार्च, 16:05'
+    next:
+      title: डिलीवरी
+    delay:
+      title: 'देरी में'
+      text: 'वाहक एक और दिन की घोषणा करता है।'
+    field:
+      reference: संदर्भ
+      amount: राशि
+      method: भुगतान
+      card: 'कार्ड समाप्त 4242'
+    action:
+      track: 'पार्सल ट्रैक करें'
+      cancel: 'रद्द करें'
+  history:
+    release:
+      title: 'संस्करण 2.0 जारी किया गया'
+      meta: '2 सितंबर'
+    review:
+      title: 'टीम द्वारा समीक्षा की गई'
+      meta: '28 अगस्त'
+    draft:
+      title: 'पहला मसौदा'
+      meta: '12 अगस्त'
+  branch:
+    choose: 'एक योजना चुनें'
+    depends: 'योजना पर निर्भर करता है'
+  hand:
+    one: 'एक साधारण बिंदु'
+    two: 'बिंदु के स्थान पर एक आइकन'
+    two_text: 'कोई भी मार्कअप, पृष्ठ में लिखा गया।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Garis Waktu'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Hal-hal satu di bawah yang lain, masing-masing pada penanda, disambung dengan garis: langkah-langkah suatu prosedur, peristiwa dari sebuah sejarah, tahap dari sebuah pelarian. Apa yang dipegang masing-masing bebas — satu baris teks, sebuah tabel, sebuah formulir — dan garisnya berjalan menyusuri keseluruhannya, menuju penanda berikutnya.'
+  section:
+    steps:
+      title: 'Langkah-langkah terurut'
+      description: 'Diberi nomor, dengan tiga keadaan yang diketahui oleh stepper: langkah-langkah di belakang digambar padat, yang sedang dikerjakan menonjol, yang di depan menunggu.'
+    free:
+      title: 'Apa saja di bawah judul'
+      description: 'Setiap item memegang apa pun yang diperlukan — properti, pesan, tombol. Sebuah ikon menggantikan titik, dan nada mewarnai penanda seperti mewarnai penanda atau blok.'
+    history:
+      title: 'Sebuah sejarah'
+      description: 'Tidak ada urutan yang harus diikuti, hanya peristiwa: titik-titik, sebuah tanggal di bawah setiap judul, dan warna kategori di mana ia menceritakan sesuatu.'
+    unknown:
+      title: 'Langkah yang belum diputuskan'
+      description: 'Seperti pada stepper: sebuah langkah yang bergantung pada jawaban yang belum diberikan tidak mengambil nomor dan tidak menggerakkan yang lainnya.'
+    hand:
+      title: 'Ditulis dengan tangan'
+      description: 'Komponen ini hanya merupakan cara untuk menuliskan bentuk dari sebuah daftar. Kelas yang sama ditulis di halaman memberikan garis waktu yang sama, dengan apapun di dalamnya.'
+    vue:
+      title: 'Dalam vue'
+      description: 'Garis waktu yang sama dalam pohon vue. Apa yang diambil cabang sebagai markup adalah slot terstruktur di sana, sehingga sebuah komponen dapat berdiri di bawah judul item.'
+  install:
+    clone:
+      title: 'Dapatkan sumber'
+      text: 'Klon repositori dan instal dependensinya.'
+    configure:
+      title: Konfigurasi
+      text: 'Salin lingkungan contoh dan isi alamat database.'
+    migrate:
+      title: 'Buat database'
+      text: 'Jalankan migrasi; ini adalah langkah yang sedang berlangsung.'
+    deploy:
+      title: Terapkan
+      text: 'Bangun aset dan terbitkan rilis.'
+  order:
+    placed:
+      title: 'Pesanan ditempatkan'
+      meta: '14 Maret, 09:41'
+    paid:
+      title: 'Pembayaran diterima'
+      meta: '14 Maret, 09:42'
+    shipped:
+      title: Dikirim
+      meta: '15 Maret, 16:05'
+    next:
+      title: Pengiriman
+    delay:
+      title: Terlambat
+      text: 'Pengangkut mengumumkan satu hari lagi.'
+    field:
+      reference: Referensi
+      amount: Jumlah
+      method: Pembayaran
+      card: 'Kartu berakhir 4242'
+    action:
+      track: 'Lacak paket'
+      cancel: Batalkan
+  history:
+    release:
+      title: 'Versi 2.0 dirilis'
+      meta: '2 September'
+    review:
+      title: 'Ditinjau oleh tim'
+      meta: '28 Agustus'
+    draft:
+      title: 'Draf pertama'
+      meta: '12 Agustus'
+  branch:
+    choose: 'Pilih rencana'
+    depends: 'Bergantung pada rencana'
+  hand:
+    one: 'Sebuah titik biasa'
+    two: 'Sebuah ikon sebagai pengganti titik'
+    two_text: 'Markup apa pun, dituliskan di halaman.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Timeline
+  page_icon: 'ph:bold/list-numbers'
+  intro: "Cose una sotto l'altra, ciascuna su un marcatore, unite da una linea: i passaggi di una procedura, gli eventi di una storia, le fasi di un processo. Ciò che ciascuna contiene è libero: una riga di testo, una tabella, un modulo, e la linea scorre lungo tutto, fino al prossimo marcatore."
+  section:
+    steps:
+      title: 'Passaggi in ordine'
+      description: 'Numerati, con i tre stati che il selettore conosce: i passaggi precedenti sono tracciati solidi, quello in corso si distingue, quelli successivi aspettano.'
+    free:
+      title: 'Qualsiasi cosa sotto un titolo'
+      description: "Ogni elemento contiene ciò di cui ha bisogno: proprietà, un messaggio, pulsanti. Un'icona sostituisce il punto, e un tono colora il marcatore come colora un marcatore o un blocco."
+    history:
+      title: 'Una storia'
+      description: 'Nessun ordine da seguire, solo eventi: punti, una data sotto ogni titolo e un colore di categoria che racconta qualcosa.'
+    unknown:
+      title: 'Passaggi non ancora decisi'
+      description: 'Come sul selettore: un passaggio che dipende da una risposta non ancora data non ha numero e non sposta nessun altro.'
+    hand:
+      title: 'Scritto a mano'
+      description: 'Il componente è solo un modo di scrivere la forma da un elenco. Le stesse classi scritte nella pagina danno la stessa timeline, con qualsiasi cosa in essa.'
+    vue:
+      title: 'In vue'
+      description: 'La stessa timeline in un albero vue. Ciò che il rametto prende come markup è uno slot scoping lì, quindi un componente può stare sotto il titolo di un elemento.'
+  install:
+    clone:
+      title: 'Ottieni le sorgenti'
+      text: 'Clona il repository e installa le sue dipendenze.'
+    configure:
+      title: Configura
+      text: "Copia l'ambiente di esempio e compila l'indirizzo del database."
+    migrate:
+      title: 'Crea il database'
+      text: 'Esegui le migrazioni; questo è il passaggio in corso.'
+    deploy:
+      title: Distribuisci
+      text: 'Costruisci le risorse e pubblica il rilascio.'
+  order:
+    placed:
+      title: 'Ordine effettuato'
+      meta: '14 marzo, 09:41'
+    paid:
+      title: 'Pagamento ricevuto'
+      meta: '14 marzo, 09:42'
+    shipped:
+      title: Spedito
+      meta: '15 marzo, 16:05'
+    next:
+      title: Consegna
+    delay:
+      title: 'In ritardo'
+      text: 'Il corriere annuncia un giorno in più.'
+    field:
+      reference: Riferimento
+      amount: Importo
+      method: Pagamento
+      card: 'Carta che termina con 4242'
+    action:
+      track: 'Traccia il pacco'
+      cancel: Annulla
+  history:
+    release:
+      title: 'Versione 2.0 rilasciata'
+      meta: '2 settembre'
+    review:
+      title: 'Revisionato dal team'
+      meta: '28 agosto'
+    draft:
+      title: 'Prima bozza'
+      meta: '12 agosto'
+  branch:
+    choose: 'Scegli un piano'
+    depends: 'Dipende dal piano'
+  hand:
+    one: 'Un punto semplice'
+    two: "Un'icona al posto del punto"
+    two_text: 'Qualsiasi markup, scritto nella pagina.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: タイムライン
+  page_icon: 'ph:bold/list-numbers'
+  intro: '1つの下に1つ、マーカーで結ばれたもの：手順のステップ、歴史の出来事、実行の段階。それぞれが保持するものは自由 — テキストの行、表、フォーム — そしてその行はそれ全体を下に走り、次のマーカーへと繋がります。'
+  section:
+    steps:
+      title: 順番にステップ
+      description: 番号付きで、ステッパーが知っている3つの状態：後ろのステップはしっかり描かれ、現在進行中のものが目立ち、前のものは待っています。
+    free:
+      title: タイトルの下に何でも
+      description: '各アイテムは必要なものを保持します — プロパティ、メッセージ、ボタン。アイコンが点を置き換え、トーンがマーカーを色付けします。'
+    history:
+      title: 歴史
+      description: 従うべき順序はなく、ただ出来事がある：点、各タイトルの下に日付、何かを伝えるカテゴリの色。
+    unknown:
+      title: まだ決まっていないステップ
+      description: ステッパーと同様：まだ与えられていない回答に依存するステップは番号を持たず、他のものを動かしません。
+    hand:
+      title: 手書き
+      description: このコンポーネントはリストから形を描く方法に過ぎません。ページに書かれた同じクラスが同じタイムラインを作り、その中に何かを持ちます。
+    vue:
+      title: Vueで
+      description: Vueツリー内の同じタイムライン。小枝がマークアップとして取るものはスコープ付きスロットであり、コンポーネントがアイテムのタイトルの下に立つことができます。
+  install:
+    clone:
+      title: ソースを取得
+      text: リポジトリをクローンし、その依存関係をインストールします。
+    configure:
+      title: 設定
+      text: 例の環境をコピーし、データベースのアドレスを記入します。
+    migrate:
+      title: データベースを作成
+      text: マイグレーションを実行します；これが進行中のステップです。
+    deploy:
+      title: デプロイ
+      text: アセットをビルドし、リリースを公開します。
+  order:
+    placed:
+      title: 注文が確定しました
+      meta: '3月14日、09:41'
+    paid:
+      title: 支払いを受け取りました
+      meta: '3月14日、09:42'
+    shipped:
+      title: 発送済み
+      meta: '3月15日、16:05'
+    next:
+      title: 配達
+    delay:
+      title: 遅延中
+      text: 運送会社がさらに1日遅れると発表しています。
+    field:
+      reference: 参照
+      amount: 金額
+      method: 支払い方法
+      card: カード末尾4242
+    action:
+      track: 荷物を追跡
+      cancel: キャンセル
+  history:
+    release:
+      title: バージョン2.0がリリースされました
+      meta: 9月2日
+    review:
+      title: チームによるレビュー
+      meta: 8月28日
+    draft:
+      title: 初稿
+      meta: 8月12日
+  branch:
+    choose: プランを選択
+    depends: プランに依存
+  hand:
+    one: シンプルな点
+    two: 点の代わりにアイコン
+    two_text: ページに書かれた任意のマークアップ。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 타임라인
+  page_icon: 'ph:bold/list-numbers'
+  intro: '서로 아래에 있는 것들, 각기 마커에 표시되어 선으로 연결됨: 절차의 단계, 역사적 사건, 실행의 단계. 각 항목이 담고 있는 것은 자유롭습니다 — 텍스트 한 줄, 표, 양식 — 그리고 그 선은 전체를 따라 이어져 다음 마커로 갑니다.'
+  section:
+    steps:
+      title: '단계 순서'
+      description: '번호가 매겨져 있으며 스텝퍼가 아는 세 가지 상태가 있습니다: 뒤의 단계는 실선으로 그려지고, 현재 진행 중인 단계는 두드러지며, 앞의 단계는 대기합니다.'
+    free:
+      title: '제목 아래의 모든 것'
+      description: '각 항목은 필요한 것을 담고 있습니다 — 속성, 메시지, 버튼. 아이콘이 점을 대신하고, 톤이 마커의 색을 결정합니다.'
+    history:
+      title: 역사
+      description: '따를 순서가 없는 사건들: 점들, 각 제목 아래의 날짜, 그리고 어떤 내용을 전달하는 카테고리 색상.'
+    unknown:
+      title: '아직 결정되지 않은 단계'
+      description: '스텝퍼와 마찬가지로: 아직 주어지지 않은 답변에 따라 달라지는 단계는 번호가 없고 다른 단계에 영향을 미치지 않습니다.'
+    hand:
+      title: '손으로 작성됨'
+      description: '이 컴포넌트는 목록에서 형태를 작성하는 방법일 뿐입니다. 페이지에 작성된 동일한 클래스는 동일한 타임라인을 만들어내며, 그 안에 무엇이든 담을 수 있습니다.'
+    vue:
+      title: 뷰에서
+      description: '뷰 트리에서 동일한 타임라인. 가지가 마크업으로 취하는 것은 그곳에서 스코프 슬롯이 되므로, 컴포넌트는 항목의 제목 아래에 서 있을 수 있습니다.'
+  install:
+    clone:
+      title: '소스 가져오기'
+      text: '저장소를 복제하고 의존성을 설치하세요.'
+    configure:
+      title: 구성하기
+      text: '예제 환경을 복사하고 데이터베이스 주소를 입력하세요.'
+    migrate:
+      title: '데이터베이스 생성'
+      text: '마이그레이션을 실행하세요; 이것이 진행 중인 단계입니다.'
+    deploy:
+      title: 배포하기
+      text: '자산을 빌드하고 릴리스를 게시하세요.'
+  order:
+    placed:
+      title: '주문 완료'
+      meta: '3월 14일, 09:41'
+    paid:
+      title: '결제 완료'
+      meta: '3월 14일, 09:42'
+    shipped:
+      title: 배송됨
+      meta: '3월 15일, 16:05'
+    next:
+      title: 배달
+    delay:
+      title: '지연 중'
+      text: '운송업체가 하루 더 소요된다고 알립니다.'
+    field:
+      reference: 참조
+      amount: 금액
+      method: '결제 방식'
+      card: '카드 끝자리 4242'
+    action:
+      track: '소포 추적하기'
+      cancel: 취소하기
+  history:
+    release:
+      title: '버전 2.0 출시됨'
+      meta: '9월 2일'
+    review:
+      title: '팀 검토 완료'
+      meta: '8월 28일'
+    draft:
+      title: 초안
+      meta: '8월 12일'
+  branch:
+    choose: '계획 선택하기'
+    depends: '계획에 따라 다름'
+  hand:
+    one: '간단한 점'
+    two: '점 대신 아이콘'
+    two_text: '페이지에 작성된 모든 마크업.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tijdlijn
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Dingen onder elkaar, elk op een marker, verbonden door een lijn: de stappen van een procedure, de gebeurtenissen van een geschiedenis, de fasen van een uitvoering. Wat elk bevat is vrij — een regel tekst, een tabel, een formulier — en de lijn loopt naar beneden tot de volgende marker.'
+  section:
+    steps:
+      title: 'Stappen in volgorde'
+      description: 'Genummerd, met de drie staten die de stapper kent: de stappen achter zijn solide getekend, de stap die wordt uitgevoerd springt eruit, degenen die voor liggen wachten.'
+    free:
+      title: 'Iets onder een titel'
+      description: 'Elk item bevat wat het nodig heeft — eigenschappen, een bericht, knoppen. Een pictogram vervangt de stip, en een toon kleurt de marker zoals het een marker of een blok kleurt.'
+    history:
+      title: 'Een geschiedenis'
+      description: 'Geen volgorde om te volgen, alleen gebeurtenissen: stippen, een datum onder elke titel, en een categorie kleur waar het iets vertelt.'
+    unknown:
+      title: 'Stappen nog niet besloten'
+      description: 'Zoals op de stapper: een stap die afhankelijk is van een nog niet gegeven antwoord krijgt geen nummer en verplaatst geen van de anderen.'
+    hand:
+      title: 'Met de hand geschreven'
+      description: 'De component is slechts een manier om de vorm uit een lijst te schrijven. Dezelfde klassen geschreven op de pagina geven dezelfde tijdlijn, met alles erin.'
+    vue:
+      title: 'In vue'
+      description: 'Dezelfde tijdlijn in een vue-boom. Wat de tak als markup neemt is daar een scoped slot, zodat een component onder de titel van een item kan staan.'
+  install:
+    clone:
+      title: 'Haal de bronnen op'
+      text: 'Clone de repository en installeer de afhankelijkheden.'
+    configure:
+      title: Configureren
+      text: 'Kopieer de voorbeeldomgeving en vul het databankadres in.'
+    migrate:
+      title: 'Creëer de database'
+      text: 'Voer de migraties uit; dit is de stap in uitvoering.'
+    deploy:
+      title: Implementeren
+      text: 'Bouw de assets en publiceer de release.'
+  order:
+    placed:
+      title: 'Bestelling geplaatst'
+      meta: '14 maart, 09:41'
+    paid:
+      title: 'Betaling ontvangen'
+      meta: '14 maart, 09:42'
+    shipped:
+      title: Verzonden
+      meta: '15 maart, 16:05'
+    next:
+      title: Levering
+    delay:
+      title: Vertraging
+      text: 'De koerier meldt nog een dag.'
+    field:
+      reference: Referentie
+      amount: Bedrag
+      method: Betaling
+      card: 'Kaart eindigend op 4242'
+    action:
+      track: 'Volg het pakket'
+      cancel: Annuleren
+  history:
+    release:
+      title: 'Versie 2.0 uitgebracht'
+      meta: '2 september'
+    review:
+      title: 'Beoordeeld door het team'
+      meta: '28 augustus'
+    draft:
+      title: 'Eerste concept'
+      meta: '12 augustus'
+  branch:
+    choose: 'Kies een plan'
+    depends: 'Afhankelijk van het plan'
+  hand:
+    one: 'Een simpele stip'
+    two: 'Een pictogram in plaats van de stip'
+    two_text: 'Elke markup, geschreven op de pagina.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Oś czasu'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Rzeczy jedna pod drugą, każda na znaczniku, połączone linią: kroki procedury, wydarzenia historii, etapy biegu. Co każdy z nich zawiera jest dowolne — linia tekstu, tabela, formularz — a linia przebiega przez całość, do następnego znacznika.'
+  section:
+    steps:
+      title: 'Kroki w kolejności'
+      description: 'Numerowane, z trzema stanami, które zna wskaźnik: kroki z tyłu są rysowane na stałe, ten, który jest w trakcie, wyróżnia się, a te z przodu czekają.'
+    free:
+      title: 'Cokolwiek pod tytułem'
+      description: 'Każdy element zawiera to, co potrzebuje — właściwości, wiadomość, przyciski. Ikona zastępuje kropkę, a ton koloruje znacznik tak, jak koloruje znacznik lub blok.'
+    history:
+      title: Historia
+      description: 'Bez porządku do naśladowania, tylko wydarzenia: kropki, data pod każdym tytułem i kolor kategorii, gdzie coś się mówi.'
+    unknown:
+      title: 'Kroki jeszcze nie ustalone'
+      description: 'Jak na wskaźniku: krok, który zależy od odpowiedzi, która jeszcze nie została podana, nie ma numeru i nie przesuwa innych.'
+    hand:
+      title: 'Napisane ręcznie'
+      description: 'Komponent to tylko sposób na zapisanie kształtu z listy. Te same klasy zapisane na stronie dają tę samą oś czasu, z czymkolwiek w niej.'
+    vue:
+      title: 'W vue'
+      description: 'Ta sama oś czasu w drzewie vue. To, co gałązka traktuje jako znacznik, jest tam zakreślonym slotem, więc komponent może stać pod tytułem elementu.'
+  install:
+    clone:
+      title: 'Pobierz źródła'
+      text: 'Sklonuj repozytorium i zainstaluj jego zależności.'
+    configure:
+      title: Skonfiguruj
+      text: 'Skopiuj przykładowe środowisko i wypełnij adres bazy danych.'
+    migrate:
+      title: 'Utwórz bazę danych'
+      text: 'Uruchom migracje; to jest krok w toku.'
+    deploy:
+      title: Wdróż
+      text: 'Zbuduj zasoby i opublikuj wersję.'
+  order:
+    placed:
+      title: 'Zamówienie złożone'
+      meta: '14 marca, 09:41'
+    paid:
+      title: 'Płatność odebrana'
+      meta: '14 marca, 09:42'
+    shipped:
+      title: Wysłane
+      meta: '15 marca, 16:05'
+    next:
+      title: Dostawa
+    delay:
+      title: Opóźnienie
+      text: 'Przewoźnik ogłasza jeszcze jeden dzień.'
+    field:
+      reference: Referencja
+      amount: Kwota
+      method: Płatność
+      card: 'Karta kończąca się na 4242'
+    action:
+      track: 'Śledź paczkę'
+      cancel: Anuluj
+  history:
+    release:
+      title: 'Wersja 2.0 wydana'
+      meta: '2 września'
+    review:
+      title: 'Recenzowane przez zespół'
+      meta: '28 sierpnia'
+    draft:
+      title: 'Pierwszy szkic'
+      meta: '12 sierpnia'
+  branch:
+    choose: 'Wybierz plan'
+    depends: 'Zależy od planu'
+  hand:
+    one: 'Zwykła kropka'
+    two: 'Ikona zamiast kropki'
+    two_text: 'Dowolny znacznik, zapisany na stronie.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Linha do tempo'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Coisas uma embaixo da outra, cada uma em um marcador, unidas por uma linha: os passos de um procedimento, os eventos de uma história, as etapas de uma corrida. O que cada uma contém é livre — uma linha de texto, uma tabela, um formulário — e a linha desce por toda ela, até o próximo marcador.'
+  section:
+    steps:
+      title: 'Passos em ordem'
+      description: 'Numerados, com os três estados que o passo conhece: os passos atrás são desenhados sólidos, o que está sendo feito se destaca, os que estão à frente aguardam.'
+    free:
+      title: 'Qualquer coisa sob um título'
+      description: 'Cada item contém o que precisa — propriedades, uma mensagem, botões. Um ícone substitui o ponto, e um tom colore o marcador da mesma forma que colore um marcador ou um bloco.'
+    history:
+      title: 'Uma história'
+      description: 'Sem ordem a seguir, apenas eventos: pontos, uma data sob cada título, e uma cor de categoria onde se conta algo.'
+    unknown:
+      title: 'Passos ainda não decididos'
+      description: 'Como no passo: um passo que depende de uma resposta ainda não dada não recebe número e não move os outros.'
+    hand:
+      title: 'Escrito à mão'
+      description: 'O componente é apenas uma forma de escrever a estrutura a partir de uma lista. As mesmas classes escritas na página dão a mesma linha do tempo, com qualquer coisa nela.'
+    vue:
+      title: 'Em vue'
+      description: 'A mesma linha do tempo em uma árvore vue. O que o galho considera como marcação é um slot escopado lá, então um componente pode ficar sob o título de um item.'
+  install:
+    clone:
+      title: 'Obter os fontes'
+      text: 'Clone o repositório e instale suas dependências.'
+    configure:
+      title: Configurar
+      text: 'Copie o ambiente de exemplo e preencha o endereço do banco de dados.'
+    migrate:
+      title: 'Criar o banco de dados'
+      text: 'Execute as migrações; este é o passo em progresso.'
+    deploy:
+      title: Implantar
+      text: 'Construa os ativos e publique a versão.'
+  order:
+    placed:
+      title: 'Pedido realizado'
+      meta: '14 de março, 09:41'
+    paid:
+      title: 'Pagamento recebido'
+      meta: '14 de março, 09:42'
+    shipped:
+      title: Enviado
+      meta: '15 de março, 16:05'
+    next:
+      title: Entrega
+    delay:
+      title: Atrasado
+      text: 'A transportadora anuncia mais um dia.'
+    field:
+      reference: Referência
+      amount: Valor
+      method: Pagamento
+      card: 'Cartão terminando em 4242'
+    action:
+      track: 'Rastrear o pacote'
+      cancel: Cancelar
+  history:
+    release:
+      title: 'Versão 2.0 lançada'
+      meta: '2 de setembro'
+    review:
+      title: 'Revisado pela equipe'
+      meta: '28 de agosto'
+    draft:
+      title: 'Primeiro rascunho'
+      meta: '12 de agosto'
+  branch:
+    choose: 'Escolha um plano'
+    depends: 'Depende do plano'
+  hand:
+    one: 'Um ponto simples'
+    two: 'Um ícone no lugar do ponto'
+    two_text: 'Qualquer marcação, escrita na página.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Хронология
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Вещи расположены одна под другой, каждая на маркере, соединенные линией: шаги процедуры, события истории, этапы выполнения. Каждая из них может содержать что угодно — строку текста, таблицу, форму — и линия проходит по всему этому, к следующему маркеру.'
+  section:
+    steps:
+      title: 'Шаги по порядку'
+      description: 'Нумерованные, с тремя состояниями, которые знает шагомер: предыдущие шаги отображаются сплошной линией, текущий выделен, а будущие ждут.'
+    free:
+      title: 'Что угодно под заголовком'
+      description: 'Каждый элемент содержит всё, что ему нужно — свойства, сообщение, кнопки. Иконка заменяет точку, а тон окрашивает маркер так же, как он окрашивает маркер или блок.'
+    history:
+      title: История
+      description: 'Нет порядка следования, только события: точки, дата под каждым заголовком и цвет категории, который что-то говорит.'
+    unknown:
+      title: 'Шаги ещё не определены'
+      description: 'Как в шагомере: шаг, который зависит от ответа, который еще не дан, не имеет номера и не сдвигает другие.'
+    hand:
+      title: 'Написано от руки'
+      description: 'Компонент — это всего лишь способ записать форму из списка. Те же классы, написанные на странице, создают ту же хронологию, с чем угодно внутри.'
+    vue:
+      title: 'В vue'
+      description: 'Та же хронология в дереве vue. То, что ветка принимает как разметку, является областью слота, так что компонент может находиться под заголовком элемента.'
+  install:
+    clone:
+      title: 'Получить источники'
+      text: 'Клонируйте репозиторий и установите его зависимости.'
+    configure:
+      title: Настроить
+      text: 'Скопируйте пример окружения и заполните адрес базы данных.'
+    migrate:
+      title: 'Создать базу данных'
+      text: 'Запустите миграции; это шаг в процессе.'
+    deploy:
+      title: Развернуть
+      text: 'Соберите активы и опубликуйте релиз.'
+  order:
+    placed:
+      title: 'Заказ размещён'
+      meta: '14 марта, 09:41'
+    paid:
+      title: 'Платёж получен'
+      meta: '14 марта, 09:42'
+    shipped:
+      title: Отправлено
+      meta: '15 марта, 16:05'
+    next:
+      title: Доставка
+    delay:
+      title: Задержка
+      text: 'Перевозчик сообщает о задержке на один день.'
+    field:
+      reference: Ссылка
+      amount: Сумма
+      method: 'Способ оплаты'
+      card: 'Карта, заканчивающаяся на 4242'
+    action:
+      track: 'Отследить посылку'
+      cancel: Отменить
+  history:
+    release:
+      title: 'Выпущена версия 2.0'
+      meta: '2 сентября'
+    review:
+      title: 'Проверено командой'
+      meta: '28 августа'
+    draft:
+      title: 'Первый черновик'
+      meta: '12 августа'
+  branch:
+    choose: 'Выберите план'
+    depends: 'Зависит от плана'
+  hand:
+    one: 'Простая точка'
+    two: 'Иконка вместо точки'
+    two_text: 'Любая разметка, написанная на странице.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ไทม์ไลน์
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'สิ่งต่าง ๆ ที่เรียงกันอยู่ โดยแต่ละอันมีเครื่องหมายเชื่อมโยงด้วยเส้น: ขั้นตอนของกระบวนการ, เหตุการณ์ในประวัติศาสตร์, ระยะต่าง ๆ ของการดำเนินการ สิ่งที่แต่ละอันถือไว้เป็นอิสระ — แถวของข้อความ, ตาราง, ฟอร์ม — และเส้นจะวิ่งลงไปตลอดทั้งอัน จนถึงเครื่องหมายถัดไป'
+  section:
+    steps:
+      title: ขั้นตอนตามลำดับ
+      description: 'มีหมายเลข พร้อมกับสามสถานะที่ตัวขั้นตอนรู้จัก: ขั้นตอนที่ผ่านมาถูกวาดให้ชัดเจน, ขั้นตอนที่กำลังทำโดดเด่น, ขั้นตอนที่รออยู่จะรอ'
+    free:
+      title: อะไรก็ได้ใต้ชื่อเรื่อง
+      description: 'แต่ละรายการถืออะไรก็ตามที่มันต้องการ — คุณสมบัติ, ข้อความ, ปุ่ม. ไอคอนจะมาแทนที่จุด และโทนสีจะทำให้เครื่องหมายมีสีสันเหมือนกับที่มันทำกับเครื่องหมายหรือบล็อก'
+    history:
+      title: ประวัติศาสตร์
+      description: 'ไม่มีลำดับที่จะติดตาม มีแต่เหตุการณ์: จุด, วันที่อยู่ใต้ชื่อเรื่องแต่ละอัน, และสีหมวดหมู่ที่บอกอะไรบางอย่าง'
+    unknown:
+      title: ขั้นตอนที่ยังไม่ได้ตัดสินใจ
+      description: 'เหมือนกับในตัวขั้นตอน: ขั้นตอนที่ขึ้นอยู่กับคำตอบที่ยังไม่ได้ให้ จะไม่มีหมายเลขและไม่เคลื่อนย้ายขั้นตอนอื่น ๆ'
+    hand:
+      title: เขียนด้วยมือ
+      description: 'ส่วนประกอบนี้เป็นเพียงวิธีการเขียนรูปแบบจากรายการ คลาสเดียวกันที่เขียนในหน้า จะให้ไทม์ไลน์เดียวกัน โดยมีอะไรก็ตามในนั้น'
+    vue:
+      title: 'ใน Vue'
+      description: 'ไทม์ไลน์เดียวกันในต้นไม้ Vue สิ่งที่กิ่งนำมาใช้เป็น markup จะเป็น scoped slot ที่นั่น ดังนั้นส่วนประกอบสามารถอยู่ใต้ชื่อรายการได้'
+  install:
+    clone:
+      title: รับแหล่งที่มา
+      text: โคลนที่เก็บและติดตั้งความต้องการของมัน
+    configure:
+      title: ตั้งค่า
+      text: คัดลอกสภาพแวดล้อมตัวอย่างและกรอกที่อยู่ฐานข้อมูล
+    migrate:
+      title: สร้างฐานข้อมูล
+      text: 'รันการโยกย้าย; นี่คือขั้นตอนที่กำลังดำเนินอยู่'
+    deploy:
+      title: ปรับใช้
+      text: สร้างสินทรัพย์และเผยแพร่การปล่อย
+  order:
+    placed:
+      title: คำสั่งซื้อถูกวาง
+      meta: '14 มีนาคม, 09:41'
+    paid:
+      title: ชำระเงินเรียบร้อยแล้ว
+      meta: '14 มีนาคม, 09:42'
+    shipped:
+      title: จัดส่งแล้ว
+      meta: '15 มีนาคม, 16:05'
+    next:
+      title: การจัดส่ง
+    delay:
+      title: กำลังล่าช้า
+      text: ผู้ให้บริการประกาศอีกหนึ่งวัน
+    field:
+      reference: อ้างอิง
+      amount: จำนวนเงิน
+      method: การชำระเงิน
+      card: 'การ์ดลงท้าย 4242'
+    action:
+      track: ติดตามพัสดุ
+      cancel: ยกเลิก
+  history:
+    release:
+      title: 'เวอร์ชัน 2.0 ถูกปล่อย'
+      meta: '2 กันยายน'
+    review:
+      title: ตรวจสอบโดยทีมงาน
+      meta: '28 สิงหาคม'
+    draft:
+      title: ร่างแรก
+      meta: '12 สิงหาคม'
+  branch:
+    choose: เลือกแผน
+    depends: ขึ้นอยู่กับแผน
+  hand:
+    one: จุดธรรมดา
+    two: ไอคอนแทนที่จุด
+    two_text: 'Markup ใด ๆ ที่เขียนในหน้า.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Zaman Çizelgesi'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Birbirinin altında olan şeyler, her biri bir işaretçi ile, bir çizgi ile bağlanmış: bir prosedürün adımları, bir tarihin olayları, bir koşunun aşamaları. Her biri özgür — bir metin satırı, bir tablo, bir form — ve çizgi, hepsinin boyunca, bir sonraki işaretçiye kadar uzanır.'
+  section:
+    steps:
+      title: 'Sıralı Adımlar'
+      description: 'Numaralandırılmış, adımcının bildiği üç durumla: arkadaki adımlar katı çizilmiş, yapılan adım öne çıkıyor, öndeki adımlar bekliyor.'
+    free:
+      title: 'Bir başlık altında her şey'
+      description: 'Her öğe ihtiyacı olan her şeyi barındırır — özellikler, bir mesaj, düğmeler. Bir simge noktayı değiştirir ve bir ton, işaretçiyi, bir işaretçi veya bir blok gibi renklendirir.'
+    history:
+      title: 'Bir tarihçe'
+      description: 'Takip edilecek bir sıra yok, sadece olaylar: noktalar, her başlığın altında bir tarih ve bir şeyler anlatan bir kategori rengi.'
+    unknown:
+      title: 'Henüz kararlaştırılmamış adımlar'
+      description: 'Adımcıda olduğu gibi: henüz verilmemiş bir cevaba bağlı olan bir adım numara almaz ve diğerlerini hareket ettirmez.'
+    hand:
+      title: 'Elle yazılmış'
+      description: 'Bileşen, bir listeden şekli yazmanın bir yoludur. Sayfada yazılan aynı sınıflar, içinde her şeyle birlikte aynı zaman çizelgesini verir.'
+    vue:
+      title: 'Vue içinde'
+      description: "Aynı zaman çizelgesi bir vue ağacında. Dalın markup olarak aldığı şey, orada bir scoped slot'tur, böylece bir bileşen bir öğenin başlığının altında durabilir."
+  install:
+    clone:
+      title: 'Kaynakları al'
+      text: 'Depoyu kopyalayın ve bağımlılıklarını yükleyin.'
+    configure:
+      title: Yapılandır
+      text: 'Örnek ortamı kopyalayın ve veritabanı adresini doldurun.'
+    migrate:
+      title: 'Veritabanını oluştur'
+      text: 'Göçleri çalıştırın; bu, ilerlemekte olan adımdır.'
+    deploy:
+      title: Yayınla
+      text: 'Varlıkları oluşturun ve sürümü yayınlayın.'
+  order:
+    placed:
+      title: 'Sipariş verildi'
+      meta: '14 Mart, 09:41'
+    paid:
+      title: 'Ödeme alındı'
+      meta: '14 Mart, 09:42'
+    shipped:
+      title: Gönderildi
+      meta: '15 Mart, 16:05'
+    next:
+      title: Teslimat
+    delay:
+      title: 'Gecikme var'
+      text: 'Taşıyıcı bir gün daha geçikme olacağını duyurdu.'
+    field:
+      reference: Referans
+      amount: Tutar
+      method: Ödeme
+      card: 'Kart sonu 4242'
+    action:
+      track: 'Paketi takip et'
+      cancel: 'İptal et'
+  history:
+    release:
+      title: 'Versiyon 2.0 yayımlandı'
+      meta: '2 Eylül'
+    review:
+      title: 'Ekip tarafından değerlendirildi'
+      meta: '28 Ağustos'
+    draft:
+      title: 'İlk taslak'
+      meta: '12 Ağustos'
+  branch:
+    choose: 'Bir plan seç'
+    depends: 'Planına bağlı'
+  hand:
+    one: 'Sade bir nokta'
+    two: 'Noktanın yerinde bir simge'
+    two_text: 'Sayfada yazılı her türlü markup.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ٹائم لائن'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'چیزیں ایک کے نیچے ایک، ہر ایک ایک نشان پر، ایک لائن کے ذریعے جڑی ہوئی: ایک طریقہ کار کے مراحل، تاریخ کے واقعات، ایک دوڑ کے مراحل۔ ہر ایک میں جو بھی ہے وہ آزاد ہے — ایک ٹیکسٹ کی لائن، ایک جدول، ایک فارم — اور لائن اسکے پورے حصے میں چلتی ہے، اگلے نشان تک۔'
+  section:
+    steps:
+      title: 'ترتیب میں مراحل'
+      description: 'نمبر دار، تین حالتوں کے ساتھ جن سے سٹیپر واقف ہے: پیچھے کے مراحل ٹھوس طور پر کھینچے گئے ہیں، جو مرحلہ ہورہا ہے وہ نمایاں ہے، آگے والے انتظار کر رہے ہیں۔'
+    free:
+      title: 'عنوان کے نیچے کچھ بھی'
+      description: 'ہر آئٹم میں جو بھی ضرورت ہو سکتی ہے — خصوصیات، ایک پیغام، بٹن۔ ایک آئیکن نقطے کی جگہ لے لیتا ہے، اور ایک لہجہ نشان کو اسی طرح رنگین کرتا ہے جیسے وہ کسی نشان یا بلاک کو رنگین کرتا ہے۔'
+    history:
+      title: 'ایک تاریخ'
+      description: 'پیروی کرنے کے لیے کوئی ترتیب نہیں، صرف واقعات: نقطے، ہر عنوان کے نیچے ایک تاریخ، اور ایک زمرہ کا رنگ جہاں یہ کچھ بتاتا ہے۔'
+    unknown:
+      title: 'ابھی طے نہ ہونے والے مراحل'
+      description: 'جیسا کہ سٹیپر پر: ایک ایسا مرحلہ جو ابھی تک دیئے گئے جواب پر منحصر ہے، اس کا کوئی نمبر نہیں ہوتا اور باقیوں میں سے کسی کو بھی حرکت نہیں دیتا۔'
+    hand:
+      title: 'ہاتھ سے لکھا ہوا'
+      description: 'یہ جزو صرف ایک فہرست سے شکل لکھنے کا ایک طریقہ ہے۔ صفحے میں لکھی گئی وہی کلاسز اسی ٹائم لائن کو دیتی ہیں، جس میں کچھ بھی ہو سکتا ہے۔'
+    vue:
+      title: 'ویو میں'
+      description: 'ویو کے درخت میں وہی ٹائم لائن۔ جو شاخ مارک اپ کے طور پر لیتی ہے وہ وہاں ایک اسکوپڈ سلاٹ ہے، تاکہ ایک جزو کسی آئٹم کے عنوان کے نیچے کھڑا ہو سکے۔'
+  install:
+    clone:
+      title: 'ذرائع حاصل کریں'
+      text: 'ریپوزٹری کلون کریں اور اس کی انحصاریوں کو انسٹال کریں۔'
+    configure:
+      title: 'کنفیگر کریں'
+      text: 'مثالی ماحول کی کاپی کریں اور ڈیٹا بیس کا پتہ بھر دیں۔'
+    migrate:
+      title: 'ڈیٹا بیس بنائیں'
+      text: 'مائیگریشن چلائیں؛ یہ عمل میں موجود مرحلہ ہے۔'
+    deploy:
+      title: 'ڈپلائے کریں'
+      text: 'ایسیٹس بنائیں اور ریلیز شائع کریں۔'
+  order:
+    placed:
+      title: 'آرڈر دیا گیا'
+      meta: '14 مارچ، 09:41'
+    paid:
+      title: 'ادائیگی موصول ہوئی'
+      meta: '14 مارچ، 09:42'
+    shipped:
+      title: 'بھیجا گیا'
+      meta: '15 مارچ، 16:05'
+    next:
+      title: ترسیل
+    delay:
+      title: 'وقت سے پیچھے'
+      text: 'کیریئر ایک دن مزید کا اعلان کرتا ہے۔'
+    field:
+      reference: حوالہ
+      amount: رقم
+      method: ادائیگی
+      card: 'کارڈ ختم 4242'
+    action:
+      track: 'پیکج کی پیروی کریں'
+      cancel: 'کینسل کریں'
+  history:
+    release:
+      title: 'ورژن 2.0 جاری کیا گیا'
+      meta: '2 ستمبر'
+    review:
+      title: 'ٹیم کی جانب سے جائزہ لیا گیا'
+      meta: '28 اگست'
+    draft:
+      title: 'پہلا مسودہ'
+      meta: '12 اگست'
+  branch:
+    choose: 'ایک منصوبہ منتخب کریں'
+    depends: 'منصوبے پر منحصر'
+  hand:
+    one: 'ایک سادہ نقطہ'
+    two: 'نقطے کی جگہ ایک آئیکن'
+    two_text: 'کوئی مارک اپ، صفحے میں لکھا ہوا۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dòng thời gian'
+  page_icon: 'ph:bold/list-numbers'
+  intro: 'Những điều nằm dưới nhau, mỗi điều trên một dấu mốc, nối với nhau bằng một đường thẳng: các bước của một quy trình, các sự kiện trong lịch sử, các giai đoạn của một lần chạy. Nội dung của mỗi điều là tự do — một dòng văn bản, một bảng, một mẫu — và đường thẳng chạy xuống toàn bộ nó, đến dấu mốc tiếp theo.'
+  section:
+    steps:
+      title: 'Các bước theo thứ tự'
+      description: 'Được đánh số, với ba trạng thái mà bộ điều chỉnh biết: các bước phía sau được vẽ đậm, bước đang thực hiện nổi bật, những bước phía trước chờ đợi.'
+    free:
+      title: 'Bất kỳ điều gì dưới một tiêu đề'
+      description: 'Mỗi mục chứa bất cứ điều gì nó cần — thuộc tính, một thông điệp, nút bấm. Một biểu tượng thay thế cho dấu chấm, và một tông màu tô màu cho dấu mốc giống như nó tô màu cho một dấu mốc hoặc một khối.'
+    history:
+      title: 'Một lịch sử'
+      description: 'Không có thứ tự để theo dõi, chỉ có các sự kiện: các dấu chấm, một ngày dưới mỗi tiêu đề, và một màu danh mục nơi nó kể điều gì đó.'
+    unknown:
+      title: 'Các bước chưa quyết định'
+      description: 'Giống như trên bộ điều chỉnh: một bước phụ thuộc vào một câu trả lời chưa được đưa ra không có số và không làm dịch chuyển bất kỳ bước nào khác.'
+    hand:
+      title: 'Viết bằng tay'
+      description: 'Thành phần chỉ là một cách để viết hình dạng từ một danh sách. Các lớp giống nhau được viết trong trang sẽ tạo ra cùng một dòng thời gian, với bất kỳ điều gì trong đó.'
+    vue:
+      title: 'Trong vue'
+      description: 'Cùng một dòng thời gian trong một cây vue. Những gì nhánh lấy làm đánh dấu là một slot có phạm vi ở đó, vì vậy một thành phần có thể đứng dưới tiêu đề của một mục.'
+  install:
+    clone:
+      title: 'Lấy nguồn'
+      text: 'Nhân bản kho lưu trữ và cài đặt các phụ thuộc của nó.'
+    configure:
+      title: 'Cấu hình'
+      text: 'Sao chép môi trường mẫu và điền địa chỉ cơ sở dữ liệu.'
+    migrate:
+      title: 'Tạo cơ sở dữ liệu'
+      text: 'Chạy các di chuyển; đây là bước đang tiến hành.'
+    deploy:
+      title: 'Triển khai'
+      text: 'Xây dựng tài sản và công bố bản phát hành.'
+  order:
+    placed:
+      title: 'Đơn hàng đã đặt'
+      meta: '14 tháng 3, 09:41'
+    paid:
+      title: 'Thanh toán đã nhận'
+      meta: '14 tháng 3, 09:42'
+    shipped:
+      title: 'Đã gửi hàng'
+      meta: '15 tháng 3, 16:05'
+    next:
+      title: 'Giao hàng'
+    delay:
+      title: 'Đang trễ'
+      text: 'Nhà vận chuyển thông báo thêm một ngày nữa.'
+    field:
+      reference: 'Tham chiếu'
+      amount: 'Số tiền'
+      method: 'Phương thức thanh toán'
+      card: 'Thẻ kết thúc 4242'
+    action:
+      track: 'Theo dõi gói hàng'
+      cancel: 'Hủy bỏ'
+  history:
+    release:
+      title: 'Phiên bản 2.0 đã phát hành'
+      meta: '2 tháng 9'
+    review:
+      title: 'Được đánh giá bởi đội ngũ'
+      meta: '28 tháng 8'
+    draft:
+      title: 'Bản nháp đầu tiên'
+      meta: '12 tháng 8'
+  branch:
+    choose: 'Chọn một kế hoạch'
+    depends: 'Phụ thuộc vào kế hoạch'
+  hand:
+    one: 'Một dấu chấm đơn giản'
+    two: 'Một biểu tượng thay cho dấu chấm'
+    two_text: 'Bất kỳ đánh dấu nào, được viết trong trang.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 时间线
+  page_icon: 'ph:bold/list-numbers'
+  intro: 一项接一项，每个都有标记，通过一条线连接：程序的步骤，历史的事件，运行的阶段。每个项目包含的内容是自由的——一行文本，一个表格，一个表单——并且这条线贯穿其中，连接到下一个标记。
+  section:
+    steps:
+      title: 按顺序的步骤
+      description: 编号，包含步进器所知的三种状态：已经完成的步骤用实线表示，正在进行的步骤突出显示，未来的步骤在等待。
+    free:
+      title: 标题下的任何内容
+      description: 每个项目包含其所需的内容——属性、消息、按钮。一个图标替代了点，色调为标记上色，像为标记或块上色一样。
+    history:
+      title: 历史
+      description: 没有顺序可循，只有事件：点，每个标题下有一个日期，以及一个类别颜色来说明某些内容。
+    unknown:
+      title: 尚未决定的步骤
+      description: 就像在步进器上一样：一个依赖于尚未给出的答案的步骤没有编号，并且不影响其他步骤。
+    hand:
+      title: 手写
+      description: 该组件只是从列表中书写形状的一种方式。页面上书写的相同类会产生相同的时间线，包含其中的任何内容。
+    vue:
+      title: 在vue中
+      description: 在vue树中的相同时间线。枝条作为标记的内容是一个范围插槽，因此组件可以位于项目的标题下。
+  install:
+    clone:
+      title: 获取源代码
+      text: 克隆仓库并安装其依赖项。
+    configure:
+      title: 配置
+      text: 复制示例环境并填写数据库地址。
+    migrate:
+      title: 创建数据库
+      text: 运行迁移；这是正在进行的步骤。
+    deploy:
+      title: 部署
+      text: 构建资产并发布版本。
+  order:
+    placed:
+      title: 订单已下
+      meta: '3月14日，09:41'
+    paid:
+      title: 付款已收到
+      meta: '3月14日，09:42'
+    shipped:
+      title: 已发货
+      meta: '3月15日，16:05'
+    next:
+      title: 交付
+    delay:
+      title: 延迟
+      text: 承运人宣布再多一天。
+    field:
+      reference: 参考
+      amount: 金额
+      method: 支付方式
+      card: 卡号末尾4242
+    action:
+      track: 追踪包裹
+      cancel: 取消
+  history:
+    release:
+      title: 版本2.0发布
+      meta: 9月2日
+    review:
+      title: 团队审核
+      meta: 8月28日
+    draft:
+      title: 初稿
+      meta: 8月12日
+  branch:
+    choose: 选择一个计划
+    depends: 依赖于该计划
+  hand:
+    one: 一个普通的点
+    two: 一个图标代替点
+    two_text: 页面中书写的任何标记。

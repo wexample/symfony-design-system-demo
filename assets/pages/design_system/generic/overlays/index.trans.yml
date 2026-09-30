@@ -1,0 +1,577 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Overlays
+  page_icon: ph:bold/stack
+
+  intro: "Surfaces that open over the page instead of beside it. They differ by how much they take — a corner, a side, the middle — and by what it costs the reader to leave them."
+
+  page:
+    modal:
+      title: Modal
+      description: "The middle of the screen, and the page behind it put on hold: for a choice that has to be made before anything else."
+    panel:
+      title: Panel
+      description: "A side of the screen, the page still readable beside it: for something consulted alongside rather than instead."
+    confirm:
+      title: Confirm
+      description: "The one question a destructive action is worth, and the promise that nothing happens until it is answered."
+    backdrop:
+      title: Backdrop
+      description: "The layer all of these are stacked on, on its own: what opens it, what closes it, and in which order."
+    tooltip:
+      title: Tooltip
+      description: "A few words beside what the pointer or the focus is on, turned away from the window's edges."
+    tour:
+      title: Tour
+      description: "A page shown step by step, remembered once finished or dismissed."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التراكبات
+  page_icon: 'ph:bold/stack'
+  intro: 'أسطح تُفتح فوق الصفحة بدلاً من جانبها. تختلف حسب المساحة التي تأخذها - زاوية، جانب، وسط - وحسب التكلفة التي يتحملها القارئ للمغادرة.'
+  page:
+    modal:
+      title: 'نافذة مؤقتة'
+      description: 'وسط الشاشة، والصفحة خلفها متوقفة: لاختيار يجب اتخاذه قبل أي شيء آخر.'
+    panel:
+      title: لوحة
+      description: 'جانب الشاشة، والصفحة لا تزال مقروءة بجانبها: لشيء يُستشار جنباً إلى جنب بدلاً من أن يكون بديلاً.'
+    confirm:
+      title: تأكيد
+      description: 'السؤال الوحيد الذي يستحق فعلاً إجراءً مدمراً، والوعد بعدم حدوث شيء حتى يتم الرد عليه.'
+    backdrop:
+      title: خلفية
+      description: 'الطبقة التي تُركب عليها جميع هذه العناصر، بمفردها: ما يفتحها، وما يغلقها، وفي أي ترتيب.'
+    tooltip:
+      title: تلميح
+      description: 'بضع كلمات بجانب ما يشير إليه المؤشر أو ما هو في التركيز، بعيداً عن حواف النافذة.'
+    tour:
+      title: جولة
+      description: 'صفحة تُعرض خطوة بخطوة، تُذكر بمجرد الانتهاء منها أو تجاهلها.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ওভারলেস
+  page_icon: 'ph:bold/stack'
+  intro: 'যেসব পৃষ্ঠার উপরে খুলে যায়, পাশের পরিবর্তে। এগুলো কতটুকু জায়গা নেয় - একটি কোণা, একটি পাশ, মাঝখান - এবং পাঠকের জন্য সেগুলি ছেড়ে যাওয়ার খরচের দিক থেকে ভিন্ন।'
+  page:
+    modal:
+      title: মোডাল
+      description: 'স্ক্রিনের মাঝখান, এবং এর পিছনের পৃষ্ঠাটি স্থগিত: একটি সিদ্ধান্তের জন্য যা অন্য কিছু করার আগে নেওয়া উচিৎ।'
+    panel:
+      title: প্যানেল
+      description: 'স্ক্রিনের একটি পাশ, পাশের পৃষ্ঠাটি এখনও পড়া যায়: কিছু একটি সাথে পরামর্শ করার জন্য বরং পরিবর্তে।'
+    confirm:
+      title: 'নিশ্চিত করুন'
+      description: 'একটি বিধ্বংসী ক্রিয়ার জন্য একটি প্রশ্নের মূল্য, এবং যে প্রতিশ্রুতি কিছুই ঘটবে না যতক্ষণ না এটি উত্তর দেওয়া হয়।'
+    backdrop:
+      title: ব্যাকড্রপ
+      description: 'সকলের উপরে স্তর, একা: কি এটি খুলছে, কি এটি বন্ধ করছে, এবং কোন ক্রমে।'
+    tooltip:
+      title: টুলটিপ
+      description: 'যা পয়েন্টার বা ফোকাসের উপর রয়েছে তার পাশে কয়েকটি শব্দ, জানালার প্রান্ত থেকে দূরে।'
+    tour:
+      title: ট্যুর
+      description: 'একটি পৃষ্ঠা যা ধাপে ধাপে দেখানো হয়, যা শেষ হওয়ার পরে বা বাতিল করার পরে মনে রাখা হয়।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Überlagerungen
+  page_icon: 'ph:bold/stack'
+  intro: 'Flächen, die über der Seite geöffnet werden, anstatt daneben. Sie unterscheiden sich darin, wie viel Platz sie einnehmen – eine Ecke, eine Seite, die Mitte – und was es den Lesern kostet, sie zu verlassen.'
+  page:
+    modal:
+      title: Modal
+      description: 'Die Mitte des Bildschirms, und die Seite dahinter wird angehalten: für eine Entscheidung, die getroffen werden muss, bevor etwas anderes geschieht.'
+    panel:
+      title: Panel
+      description: 'Eine Seite des Bildschirms, die Seite daneben bleibt lesbar: für etwas, das nebenbei konsultiert wird, anstatt es zu ersetzen.'
+    confirm:
+      title: Bestätigen
+      description: 'Die eine Frage, die eine destruktive Aktion wert ist, und das Versprechen, dass nichts passiert, bis sie beantwortet wird.'
+    backdrop:
+      title: Hintergrund
+      description: 'Die Schicht, auf der all diese gestapelt sind, für sich allein: was sie öffnet, was sie schließt und in welcher Reihenfolge.'
+    tooltip:
+      title: Tooltip
+      description: 'Einige Worte neben dem, worauf der Zeiger oder der Fokus gerichtet ist, weg von den Rändern des Fensters.'
+    tour:
+      title: Tour
+      description: 'Eine Seite, die Schritt für Schritt angezeigt wird, die nach Abschluss oder Ablehnung im Gedächtnis bleibt.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Superposiciones
+  page_icon: 'ph:bold/stack'
+  intro: 'Superficies que se abren sobre la página en lugar de al lado. Se diferencian por cuánto espacio ocupan: una esquina, un lado, el medio; y por lo que le cuesta al lector dejarlas.'
+  page:
+    modal:
+      title: Modal
+      description: 'El medio de la pantalla, y la página detrás de él en espera: para una elección que debe hacerse antes de cualquier otra cosa.'
+    panel:
+      title: Panel
+      description: 'Un lado de la pantalla, la página aún legible a su lado: para algo que se consulta al mismo tiempo en lugar de en lugar de.'
+    confirm:
+      title: Confirmar
+      description: 'La única pregunta que vale una acción destructiva, y la promesa de que nada sucede hasta que se responda.'
+    backdrop:
+      title: Fondo
+      description: 'La capa sobre la que se apilan todas estas, por sí sola: lo que la abre, lo que la cierra, y en qué orden.'
+    tooltip:
+      title: Tooltip
+      description: 'Unas pocas palabras al lado de lo que está el puntero o el foco, alejadas de los bordes de la ventana.'
+    tour:
+      title: Tour
+      description: 'Una página mostrada paso a paso, recordada una vez finalizada o descartada.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: پوشش‌ها
+  page_icon: 'ph:bold/stack'
+  intro: 'سطوحی که بر روی صفحه باز می‌شوند به جای اینکه در کنار آن باشند. اینها بسته به اینکه چقدر فضا می‌گیرند - یک گوشه، یک طرف، وسط - و همچنین هزینه‌ای که برای خواننده دارد متفاوت هستند.'
+  page:
+    modal:
+      title: مدال
+      description: 'وسط صفحه، و صفحه پشت آن به حالت تعلیق در می‌آید: برای انتخابی که باید قبل از هر چیز دیگری انجام شود.'
+    panel:
+      title: پنل
+      description: 'یک سمت صفحه، صفحه در کنار آن هنوز قابل خواندن است: برای چیزی که در کنار آن مشاوره داده می‌شود نه به جای آن.'
+    confirm:
+      title: تأیید
+      description: 'تنها سوالی که یک عمل مخرب ارزش آن را دارد، و قول اینکه هیچ چیزی تا زمانی که پاسخ داده نشود اتفاق نمی‌افتد.'
+    backdrop:
+      title: پس‌زمینه
+      description: 'لایه‌ای که همه اینها بر روی آن قرار دارند، به تنهایی: چه چیزی آن را باز می‌کند، چه چیزی آن را می‌بندد، و به چه ترتیبی.'
+    tooltip:
+      title: 'راهنمای ابزار'
+      description: 'چند کلمه در کنار چیزی که نشانگر یا تمرکز روی آن است، دور از لبه‌های پنجره.'
+    tour:
+      title: تور
+      description: 'صفحه‌ای که مرحله به مرحله نشان داده می‌شود، پس از اتمام یا رد شدن به یاد سپرده می‌شود.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ylitykset
+  page_icon: 'ph:bold/stack'
+  intro: 'Pinnat, jotka avautuvat sivun ylle sen sijaan, että ne olisivat sen vieressä. Ne eroavat toisistaan sen mukaan, kuinka paljon ne vievät — kulma, sivu, keskikohta — ja siitä, mitä ne maksavat lukijalle, jos niistä poistuu.'
+  page:
+    modal:
+      title: Modal
+      description: 'Keskellä näyttöä, ja taustalla oleva sivu pysäytettynä: valinta, joka on tehtävä ennen mitään muuta.'
+    panel:
+      title: Paneeli
+      description: 'Näytön sivulla, ja sivu on edelleen luettavissa sen vieressä: jotain, jota konsultoidaan rinnakkain sen sijaan, että se korvaisi sen.'
+    confirm:
+      title: Vahvista
+      description: 'Yksi kysymys, jonka tuhoava toiminta ansaitsee, ja lupaus, että mitään ei tapahdu ennen kuin se on vastattu.'
+    backdrop:
+      title: Taustakuva
+      description: 'Kerros, jonka päälle kaikki nämä on pinottu, omana itsenään: mikä avaa sen, mikä sulkee sen ja missä järjestyksessä.'
+    tooltip:
+      title: Työkaluvihje
+      description: 'Muutama sana kohteen vieressä, mihin osoitin tai fokus on kohdistettu, pois ikkunan reunoista.'
+    tour:
+      title: Kierros
+      description: 'Sivu, joka näytetään askel askeleelta, muistettu kun se on valmis tai hylätty.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Superpositions
+  page_icon: 'ph:bold/stack'
+  intro: "Surfaces qui s'ouvrent sur la page au lieu de à côté. Elles diffèrent par la quantité d'espace qu'elles occupent — un coin, un côté, le milieu — et par le coût que cela représente pour le lecteur de les quitter."
+  page:
+    modal:
+      title: Modal
+      description: "Le centre de l'écran, et la page derrière elle mise en attente : pour un choix qui doit être fait avant tout autre."
+    panel:
+      title: Panneau
+      description: "Un côté de l'écran, la page restant lisible à côté : pour quelque chose consulté en parallèle plutôt qu'à la place."
+    confirm:
+      title: Confirmer
+      description: "La seule question qu'une action destructive vaut, et la promesse que rien ne se passe tant qu'elle n'est pas répondue."
+    backdrop:
+      title: Fond
+      description: "La couche sur laquelle tout cela est empilé, à part : ce qui l'ouvre, ce qui le ferme, et dans quel ordre."
+    tooltip:
+      title: Info-bulle
+      description: 'Quelques mots à côté de ce sur quoi le pointeur ou le focus est, éloignés des bords de la fenêtre.'
+    tour:
+      title: Visite
+      description: 'Une page montrée étape par étape, mémorisée une fois terminée ou rejetée.'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: שכבות
+  page_icon: 'ph:bold/stack'
+  intro: 'משטחים שנפתחים מעל הדף במקום לצידו. הם שונים בכמה מקום הם תופסים — פינה, צד, באמצע — ובמה זה עולה לקורא לעזוב אותם.'
+  page:
+    modal:
+      title: מודאלי
+      description: 'אמצע המסך, והדף מאחוריו מושהה: עבור בחירה שצריך לעשות לפני הכל.'
+    panel:
+      title: פאנל
+      description: 'צד המסך, הדף עדיין קריא לצידו: עבור משהו שנעזר בו בצמוד ולא במקום.'
+    confirm:
+      title: אשר
+      description: 'השאלה האחת ששווה פעולה הרסנית, וההבטחה שלא קורה כלום עד שהיא נענית.'
+    backdrop:
+      title: רקע
+      description: 'השכבה שעליה כל אלה stacked, בפני עצמה: מה פותח אותה, מה סוגר אותה, ובאיזו סדר.'
+    tooltip:
+      title: הסבר
+      description: 'כמה מילים ליד מה שהסמן או הפוקוס נמצאים עליו, מופנים מהקצוות של החלון.'
+    tour:
+      title: סיור
+      description: 'דף שמוצג שלב אחר שלב, נזכר ברגע שסיים או נדחה.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ओवरले
+  page_icon: 'ph:bold/stack'
+  intro: 'ऐसे सतहें जो पृष्ठ के ऊपर खुलती हैं बजाए इसके कि इसके बगल में। ये इस बात से भिन्न हैं कि ये कितना स्थान लेती हैं - एक कोना, एक किनारा, मध्य - और यह कि इन्हें छोड़ने में पाठक को क्या लागत आती है।'
+  page:
+    modal:
+      title: मोडल
+      description: 'स्क्रीन के मध्य में, और इसके पीछे का पृष्ठ रोक दिया गया: एक ऐसा विकल्प जो किसी अन्य चीज से पहले चुना जाना चाहिए।'
+    panel:
+      title: पैनल
+      description: 'स्क्रीन का एक किनारा, इसके बगल में पृष्ठ अभी भी पढ़ा जा सकता है: कुछ ऐसा जो इसके बजाय इसके साथ परामर्श किया जाता है।'
+    confirm:
+      title: 'पुष्टि करें'
+      description: 'एक विनाशकारी क्रिया का एक ही प्रश्न, और यह वादा कि कुछ भी नहीं होता जब तक इसे उत्तर नहीं दिया जाता।'
+    backdrop:
+      title: बैकड्रॉप
+      description: 'इन सभी परतों का आधार, अपने आप में: क्या इसे खोलता है, क्या इसे बंद करता है, और किस क्रम में।'
+    tooltip:
+      title: टूलटिप
+      description: 'कुछ शब्द जो उस बिंदु के बगल में होते हैं या जिस पर ध्यान केंद्रित किया गया है, खिड़की के किनारों से मुड़कर।'
+    tour:
+      title: टूर
+      description: 'एक पृष्ठ जिसे चरण-दर-चरण दिखाया जाता है, जो समाप्त होने या अस्वीकार किए जाने पर याद किया जाता है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Overlay
+  page_icon: 'ph:bold/stack'
+  intro: 'Permukaan yang muncul di atas halaman daripada di sampingnya. Mereka berbeda tergantung seberapa banyak ruang yang mereka ambil — sebuah sudut, sisi, atau tengah — dan biaya yang harus dikeluarkan pembaca untuk meninggalkannya.'
+  page:
+    modal:
+      title: Modal
+      description: 'Tengah layar, dan halaman di belakangnya ditangguhkan: untuk pilihan yang harus dibuat sebelum yang lainnya.'
+    panel:
+      title: Panel
+      description: 'Sisi layar, halaman masih dapat dibaca di sampingnya: untuk sesuatu yang dikonsultasikan bersamaan, bukan menggantikan.'
+    confirm:
+      title: Konfirmasi
+      description: 'Satu pertanyaan yang sepadan dengan tindakan yang merusak, dan janji bahwa tidak ada yang terjadi sampai pertanyaan itu dijawab.'
+    backdrop:
+      title: 'Latar Belakang'
+      description: 'Lapisan di mana semua ini ditumpuk, sendiri: apa yang membukanya, apa yang menutupnya, dan dalam urutan apa.'
+    tooltip:
+      title: Tooltip
+      description: 'Beberapa kata di samping apa yang ditunjuk atau difokuskan, menjauh dari tepi jendela.'
+    tour:
+      title: Tur
+      description: 'Halaman yang ditampilkan langkah demi langkah, diingat setelah selesai atau diabaikan.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Sovrapposizioni
+  page_icon: 'ph:bold/stack'
+  intro: 'Superfici che si aprono sopra la pagina invece di accanto ad essa. Si differenziano per quanto spazio occupano — un angolo, un lato, il centro — e per il costo che comporta per il lettore lasciarle.'
+  page:
+    modal:
+      title: Modale
+      description: 'Il centro dello schermo, con la pagina dietro messa in attesa: per una scelta che deve essere fatta prima di qualsiasi altra cosa.'
+    panel:
+      title: Pannello
+      description: 'Un lato dello schermo, con la pagina ancora leggibile accanto: per qualcosa da consultare insieme piuttosto che in sostituzione.'
+    confirm:
+      title: Conferma
+      description: "L'unica domanda che vale un'azione distruttiva, e la promessa che non succede nulla fino a quando non viene risposta."
+    backdrop:
+      title: Sfondo
+      description: 'Il livello su cui sono sovrapposti tutti questi elementi, da solo: cosa lo apre, cosa lo chiude e in quale ordine.'
+    tooltip:
+      title: Tooltip
+      description: 'Alcune parole accanto a quello su cui è puntato il cursore o il focus, distanti dai bordi della finestra.'
+    tour:
+      title: Tour
+      description: 'Una pagina mostrata passo dopo passo, ricordata una volta completata o chiusa.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: オーバーレイ
+  page_icon: 'ph:bold/stack'
+  intro: ページの隣ではなく、上に開く表面です。コーナー、サイド、中央など、どれだけスペースを取るか、また、読者がそれを離れることにかかるコストによって異なります。
+  page:
+    modal:
+      title: モーダル
+      description: 画面の中央に表示され、背後のページは保留状態にされます：他の何かの前に決定しなければならない選択のためのものです。
+    panel:
+      title: パネル
+      description: 画面の側に表示され、隣のページはまだ読める状態です：代わりではなく、並行して参照される何かのためのものです。
+    confirm:
+      title: 確認
+      description: 破壊的なアクションに対して価値のある1つの質問と、回答があるまで何も起こらないという約束です。
+    backdrop:
+      title: バックドロップ
+      description: これらすべてが重なっているレイヤーで、単独で存在します：何がそれを開き、何がそれを閉じ、どの順序で行われるか。
+    tooltip:
+      title: ツールチップ
+      description: ポインターまたはフォーカスがある場所の横にある数語で、ウィンドウの端から離れています。
+    tour:
+      title: ツアー
+      description: ステップバイステップで表示され、完了または却下された後に記憶されるページです。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 오버레이
+  page_icon: 'ph:bold/stack'
+  intro: '페이지 옆이 아닌 위에 열리는 화면입니다. 코너, 측면, 중앙 등 차지하는 위치에 따라 다르며, 독자가 이를 떠나는 데 드는 비용도 다릅니다.'
+  page:
+    modal:
+      title: 모달
+      description: '화면 중앙에 위치하고, 그 뒤의 페이지는 잠시 멈춰집니다: 다른 작업을 하기 전에 선택해야 하는 것입니다.'
+    panel:
+      title: 패널
+      description: '화면의 한 측면에 위치하며, 그 옆의 페이지는 여전히 읽을 수 있습니다: 대신하기보다는 함께 참조되는 것입니다.'
+    confirm:
+      title: 확인
+      description: '파괴적인 작업의 가치가 있는 유일한 질문과, 그것이 답변될 때까지 아무 일도 일어나지 않을 것이라는 약속입니다.'
+    backdrop:
+      title: 배경
+      description: '이 모든 것이 쌓여 있는 층으로, 그 자체로 무엇이 여는지, 무엇이 닫는지, 어떤 순서로 이루어지는지를 나타냅니다.'
+    tooltip:
+      title: 툴팁
+      description: '포인터나 포커스가 위치한 곳 옆에 있는 몇 마디로, 창의 가장자리를 피한 것입니다.'
+    tour:
+      title: 투어
+      description: '단계별로 표시되는 페이지로, 완료되거나 거부된 후 기억됩니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: "Overlay's"
+  page_icon: 'ph:bold/stack'
+  intro: 'Oppervlakken die over de pagina openen in plaats van ernaast. Ze verschillen in hoeveel ruimte ze innemen - een hoek, een zijkant, het midden - en wat het de lezer kost om ze te verlaten.'
+  page:
+    modal:
+      title: Modaal
+      description: 'Het midden van het scherm, en de pagina daarachter gepauzeerd: voor een keuze die gemaakt moet worden voordat er iets anders gebeurt.'
+    panel:
+      title: Paneel
+      description: 'Een zijkant van het scherm, de pagina nog steeds leesbaar ernaast: voor iets dat naast elkaar wordt geraadpleegd in plaats van in plaats daarvan.'
+    confirm:
+      title: Bevestigen
+      description: 'De ene vraag die een destructieve actie waard is, en de belofte dat er niets gebeurt totdat het is beantwoord.'
+    backdrop:
+      title: Achtergrond
+      description: 'De laag waarop al deze zijn gestapeld, op zichzelf: wat het opent, wat het sluit, en in welke volgorde.'
+    tooltip:
+      title: Tooltip
+      description: 'Een paar woorden naast waar de pointer of focus zich op richt, weg van de randen van het venster.'
+    tour:
+      title: Rondleiding
+      description: 'Een pagina die stap voor stap wordt getoond, onthouden zodra deze is voltooid of afgewezen.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Nakładki
+  page_icon: 'ph:bold/stack'
+  intro: 'Powierzchnie, które otwierają się na stronie zamiast obok niej. Różnią się tym, ile miejsca zajmują — róg, bok, środek — oraz tym, co kosztuje czytelnika ich opuszczenie.'
+  page:
+    modal:
+      title: Modalny
+      description: 'Środek ekranu, a strona za nim wstrzymana: dla wyboru, który musi zostać podjęty przed wszystkim innym.'
+    panel:
+      title: Panel
+      description: 'Bok ekranu, strona wciąż czytelna obok: do czegoś, co jest konsultowane obok, a nie zamiast.'
+    confirm:
+      title: Potwierdź
+      description: 'Jedno pytanie, które wart jest destrukcyjnej akcji, oraz obietnica, że nic się nie wydarzy, dopóki nie zostanie odpowiedziane.'
+    backdrop:
+      title: Tło
+      description: 'Warstwa, na której wszystkie te elementy są ułożone, sama w sobie: co ją otwiera, co ją zamyka i w jakiej kolejności.'
+    tooltip:
+      title: Podpowiedź
+      description: 'Kilka słów obok tego, na czym znajduje się wskaźnik lub fokus, odwrócone od krawędzi okna.'
+    tour:
+      title: Wycieczka
+      description: 'Strona pokazywana krok po kroku, zapamiętana po zakończeniu lub odrzucona.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Sobreposições
+  page_icon: 'ph:bold/stack'
+  intro: 'Superfícies que se abrem sobre a página em vez de ao lado dela. Elas diferem pela quantidade de espaço que ocupam — um canto, um lado, o meio — e pelo custo que representam para o leitor ao deixá-las.'
+  page:
+    modal:
+      title: Modal
+      description: 'O meio da tela, e a página atrás dele colocada em espera: para uma escolha que precisa ser feita antes de qualquer outra coisa.'
+    panel:
+      title: Painel
+      description: 'Um lado da tela, a página ainda legível ao lado: para algo que é consultado ao lado em vez de em vez de.'
+    confirm:
+      title: Confirmar
+      description: 'A única pergunta que uma ação destrutiva vale, e a promessa de que nada acontece até que seja respondida.'
+    backdrop:
+      title: Fundo
+      description: 'A camada sobre a qual todas essas estão empilhadas, por si só: o que a abre, o que a fecha, e em que ordem.'
+    tooltip:
+      title: Dica
+      description: 'Algumas palavras ao lado do que o ponteiro ou o foco está, afastadas das bordas da janela.'
+    tour:
+      title: Tour
+      description: 'Uma página mostrada passo a passo, lembrada uma vez finalizada ou descartada.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Наложения
+  page_icon: 'ph:bold/stack'
+  intro: 'Поверхности, которые открываются над страницей, а не рядом с ней. Они различаются тем, сколько места занимают — угол, сторона, середина — и тем, сколько это стоит читателю, чтобы их закрыть.'
+  page:
+    modal:
+      title: 'Модальное окно'
+      description: 'Посередине экрана, а страница за ним приостановлена: для выбора, который нужно сделать перед всем остальным.'
+    panel:
+      title: Панель
+      description: 'Сторона экрана, страница все еще читаема рядом с ней: для чего-то, что консультируется рядом, а не вместо.'
+    confirm:
+      title: Подтвердить
+      description: 'Единственный вопрос, который стоит разрушительного действия, и обещание, что ничего не произойдет, пока на него не ответят.'
+    backdrop:
+      title: 'Задний фон'
+      description: 'Слой, на котором все это накладывается, сам по себе: что его открывает, что его закрывает и в каком порядке.'
+    tooltip:
+      title: Подсказка
+      description: 'Несколько слов рядом с тем, на чем находится указатель или фокус, отведенные от краев окна.'
+    tour:
+      title: Обзор
+      description: 'Страница, показываемая шаг за шагом, запоминается после завершения или закрытия.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: การซ้อนทับ
+  page_icon: 'ph:bold/stack'
+  intro: 'พื้นผิวที่เปิดขึ้นเหนือหน้าแทนที่จะอยู่ข้างๆ มันแตกต่างกันไปตามพื้นที่ที่ใช้ — มุม, ด้านข้าง, ตรงกลาง — และตามสิ่งที่มันทำให้ผู้อ่านต้องละทิ้ง.'
+  page:
+    modal:
+      title: โมดัล
+      description: 'กลางหน้าจอ และหน้าเบื้องหลังถูกพักไว้: สำหรับการเลือกที่ต้องทำก่อนอย่างอื่น.'
+    panel:
+      title: แผง
+      description: 'ด้านข้างของหน้าจอ, หน้าอ่านได้ข้างๆ: สำหรับสิ่งที่ปรึกษาข้างเคียงแทนที่จะเป็นทางเลือก.'
+    confirm:
+      title: ยืนยัน
+      description: 'คำถามเดียวที่การกระทำที่ทำลายมีค่า, และสัญญาว่าไม่มีอะไรจะเกิดขึ้นจนกว่าจะได้รับคำตอบ.'
+    backdrop:
+      title: แบ็คดรอป
+      description: 'ชั้นที่ทั้งหมดนี้ซ้อนทับกันอยู่, ด้วยตัวมันเอง: อะไรเปิดมัน, อะไรปิดมัน, และลำดับที่เป็น.'
+    tooltip:
+      title: คำอธิบายเล็กน้อย
+      description: 'คำไม่กี่คำข้างสิ่งที่ตัวชี้หรือจุดโฟกัสอยู่, หันออกจากขอบหน้าต่าง.'
+    tour:
+      title: ทัวร์
+      description: 'หน้าที่แสดงทีละขั้นตอน, จำได้เมื่อเสร็จสิ้นหรือถูกปฏิเสธ.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Açılımlar
+  page_icon: 'ph:bold/stack'
+  intro: 'Sayfanın yanında değil, üzerinde açılan yüzeyler. Ne kadar yer kapladıkları — bir köşe, bir kenar, ortası — ve okuyucunun bunları terk etmesinin ne kadar maliyetli olduğu ile farklılık gösterir.'
+  page:
+    modal:
+      title: Modal
+      description: 'Ekranın ortasında, arkasındaki sayfa beklemeye alındı: öncelikle verilmesi gereken bir seçim için.'
+    panel:
+      title: Panel
+      description: 'Ekranın bir kenarında, yanında sayfanın hala okunabildiği: yerine değil, yanına danışılan bir şey için.'
+    confirm:
+      title: Onayla
+      description: 'Yıkıcı bir eylemin değerli olduğu tek soru ve cevap verilene kadar hiçbir şeyin gerçekleşmeyeceği vaadi.'
+    backdrop:
+      title: 'Arka Plan'
+      description: 'Bunların hepsinin üst üste yığıldığı katman, kendi başına: neyin açıldığı, neyin kapandığı ve hangi sırayla.'
+    tooltip:
+      title: 'Açıklama Baloncuğu'
+      description: 'İmlecin veya odaklanılan şeyin yanında, pencerenin kenarlarından uzaklaşmış birkaç kelime.'
+    tour:
+      title: Tur
+      description: 'Adım adım gösterilen bir sayfa, tamamlandıktan veya kapatıldıktan sonra hatırlanır.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: اوورلیز
+  page_icon: 'ph:bold/stack'
+  intro: 'سطحیں جو صفحے کے اوپر کھلتی ہیں بجائے اس کے کہ اس کے ساتھ۔ یہ اس بات سے مختلف ہیں کہ وہ کتنا جگہ لیتی ہیں — ایک کونا، ایک طرف، درمیان — اور اس بات سے کہ انہیں چھوڑنے میں قارئین کو کیا قیمت چکانی پڑتی ہے۔'
+  page:
+    modal:
+      title: موڈل
+      description: 'اسکرین کا درمیان، اور اس کے پیچھے کا صفحہ روک دیا گیا: ایک انتخاب کے لیے جو کسی چیز سے پہلے کیا جانا ضروری ہے۔'
+    panel:
+      title: پینل
+      description: 'اسکرین کی ایک طرف، اس کے ساتھ صفحہ ابھی بھی پڑھا جا رہا ہے: کسی چیز کے لیے جو ساتھ ساتھ مشاورت کی جاتی ہے نہ کہ اس کے بجائے۔'
+    confirm:
+      title: 'تصدیق کریں'
+      description: 'ایک تخریبی عمل کے لیے ایک سوال جو اہمیت رکھتا ہے، اور یہ وعدہ کہ کچھ نہیں ہوگا جب تک کہ اس کا جواب نہ دیا جائے۔'
+    backdrop:
+      title: 'بیک ڈراپ'
+      description: 'وہ پرت جس پر یہ سب رکھی گئی ہیں، اپنے آپ میں: جو اسے کھولتا ہے، جو اسے بند کرتا ہے، اور کس ترتیب میں۔'
+    tooltip:
+      title: 'ٹول ٹپ'
+      description: 'چند الفاظ جو اس چیز کے ساتھ ہیں جس پر پوائنٹر یا توجہ ہے، ونڈو کے کناروں سے دور موڑے ہوئے۔'
+    tour:
+      title: ٹور
+      description: 'ایک صفحہ جو مرحلہ وار دکھایا جاتا ہے، ختم ہونے یا مسترد ہونے پر یاد رکھا جاتا ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Overlay
+  page_icon: 'ph:bold/stack'
+  intro: 'Các bề mặt mở lên trên trang thay vì bên cạnh nó. Chúng khác nhau về diện tích chiếm dụng — một góc, một bên, giữa trang — và chi phí mà độc giả phải trả để rời khỏi chúng.'
+  page:
+    modal:
+      title: Modal
+      description: 'Giữa màn hình, và trang phía sau bị tạm dừng: cho một lựa chọn phải thực hiện trước bất cứ điều gì khác.'
+    panel:
+      title: Panel
+      description: 'Một bên của màn hình, trang vẫn có thể đọc bên cạnh: cho những thứ được tham khảo cùng lúc thay vì thay thế.'
+    confirm:
+      title: 'Xác nhận'
+      description: 'Câu hỏi duy nhất mà một hành động hủy diệt đáng giá, và lời hứa rằng không có gì xảy ra cho đến khi nó được trả lời.'
+    backdrop:
+      title: Backdrop
+      description: 'Lớp mà tất cả những thứ này được xếp chồng lên, tự nó: cái gì mở nó, cái gì đóng nó, và theo thứ tự nào.'
+    tooltip:
+      title: Tooltip
+      description: 'Một vài từ bên cạnh nơi con trỏ hoặc tiêu điểm đang hướng tới, quay ra khỏi các cạnh của cửa sổ.'
+    tour:
+      title: Tour
+      description: 'Một trang được hiển thị từng bước, được ghi nhớ khi kết thúc hoặc bỏ qua.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 覆盖层
+  page_icon: 'ph:bold/stack'
+  intro: 在页面上打开而不是旁边的表面。它们的不同之处在于占用的空间：一个角落、一个边侧或中间，以及离开它们所需的成本。
+  page:
+    modal:
+      title: 模态
+      description: 屏幕中间，后面的页面被搁置：在做出任何其他选择之前必须做出的选择。
+    panel:
+      title: 面板
+      description: 屏幕的一侧，旁边的页面仍然可读：用于同时参考而不是取代的内容。
+    confirm:
+      title: 确认
+      description: 一个破坏性操作值得问的唯一问题，以及在回答之前什么都不会发生的承诺。
+    backdrop:
+      title: 背景
+      description: 所有这些堆叠在其上的层：打开它的内容、关闭它的内容，以及顺序。
+    tooltip:
+      title: 提示
+      description: 在指针或焦点所指的内容旁边的几句话，远离窗口的边缘。
+    tour:
+      title: 导览
+      description: 逐步展示的页面，完成或关闭后被记住。

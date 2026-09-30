@@ -1,0 +1,275 @@
+en:
+  tab:
+    index: Overview
+    toasts: Toasts
+    banners: Banners
+    messages: Messages
+    markers: Markers
+    loaders: Loaders
+    progress: Progress
+    distribution: Distribution
+    errors: Errors
+
+ar:
+  tab:
+    index: 'نظرة عامة'
+    toasts: إشعارات
+    banners: لافتات
+    messages: رسائل
+    markers: علامات
+    loaders: محمّلات
+    progress: تقدم
+    distribution: توزيع
+    errors: أخطاء
+
+bn:
+  tab:
+    index: সারসংক্ষেপ
+    toasts: টোস্ট
+    banners: ব্যানার
+    messages: বার্তা
+    markers: চিহ্ন
+    loaders: লোডার
+    progress: অগ্রগতি
+    distribution: বণ্টন
+    errors: ত্রুটি
+
+de:
+  tab:
+    index: Übersicht
+    toasts: Toast-Nachrichten
+    banners: Banner
+    messages: Nachrichten
+    markers: Marker
+    loaders: Ladeanimationen
+    progress: Fortschritt
+    distribution: Verteilung
+    errors: Fehler
+
+es:
+  tab:
+    index: Resumen
+    toasts: Notificaciones
+    banners: Banners
+    messages: Mensajes
+    markers: Marcadores
+    loaders: Cargadores
+    progress: Progreso
+    distribution: Distribución
+    errors: Errores
+
+fa:
+  tab:
+    index: مروری
+    toasts: 'پاپ آپ ها'
+    banners: بنرها
+    messages: 'پیام ها'
+    markers: مارکرها
+    loaders: بارگذارها
+    progress: پیشرفت
+    distribution: توزیع
+    errors: خطاها
+
+fi:
+  tab:
+    index: Yhteenveto
+    toasts: Toastit
+    banners: Bannereita
+    messages: Viestejä
+    markers: Merkkejä
+    loaders: Lataajat
+    progress: Eteneminen
+    distribution: Jakelu
+    errors: Virheet
+
+fr:
+  tab:
+    index: Aperçu
+    toasts: Toast
+    banners: Bannières
+    messages: Messages
+    markers: Marqueurs
+    loaders: Chargeurs
+    progress: Progrès
+    distribution: Distribution
+    errors: Erreurs
+
+he:
+  tab:
+    index: סקירה
+    toasts: התראות
+    banners: באנרים
+    messages: הודעות
+    markers: סימנים
+    loaders: טוענים
+    progress: התקדמות
+    distribution: הפצה
+    errors: שגיאות
+
+hi:
+  tab:
+    index: अवलोकन
+    toasts: टोस्ट
+    banners: बैनर
+    messages: संदेश
+    markers: मार्कर
+    loaders: लोडर
+    progress: प्रगति
+    distribution: वितरण
+    errors: त्रुटियाँ
+
+id:
+  tab:
+    index: Ikhtisar
+    toasts: Toasts
+    banners: Spanduk
+    messages: Pesan
+    markers: Penanda
+    loaders: Pemuat
+    progress: Progres
+    distribution: Distribusi
+    errors: Kesalahan
+
+it:
+  tab:
+    index: Panoramica
+    toasts: Toast
+    banners: Banner
+    messages: Messaggi
+    markers: Marker
+    loaders: Loader
+    progress: Progresso
+    distribution: Distribuzione
+    errors: Errori
+
+ja:
+  tab:
+    index: 概要
+    toasts: トースト
+    banners: バナー
+    messages: メッセージ
+    markers: マーカー
+    loaders: ローダー
+    progress: 進捗
+    distribution: 配信
+    errors: エラー
+
+ko:
+  tab:
+    index: 개요
+    toasts: 토스트
+    banners: 배너
+    messages: 메시지
+    markers: 마커
+    loaders: 로더
+    progress: '진행 상황'
+    distribution: 배포
+    errors: 오류
+
+nl:
+  tab:
+    index: Overzicht
+    toasts: Toasts
+    banners: Banners
+    messages: Berichten
+    markers: Markers
+    loaders: Laadindicatoren
+    progress: Voortgang
+    distribution: Verdeling
+    errors: Fouten
+
+pl:
+  tab:
+    index: Podsumowanie
+    toasts: Toast
+    banners: Banery
+    messages: Wiadomości
+    markers: Znaczniki
+    loaders: Ładowarki
+    progress: Postęp
+    distribution: Dystrybucja
+    errors: Błędy
+
+pt_BR:
+  tab:
+    index: 'Visão Geral'
+    toasts: Notificações
+    banners: Banners
+    messages: Mensagens
+    markers: Marcadores
+    loaders: Carregadores
+    progress: Progresso
+    distribution: Distribuição
+    errors: Erros
+
+ru:
+  tab:
+    index: Обзор
+    toasts: Тосты
+    banners: Баннеры
+    messages: Сообщения
+    markers: Маркеры
+    loaders: Загрузчики
+    progress: Прогресс
+    distribution: Распределение
+    errors: Ошибки
+
+th:
+  tab:
+    index: ภาพรวม
+    toasts: การแจ้งเตือน
+    banners: แบนเนอร์
+    messages: ข้อความ
+    markers: เครื่องหมาย
+    loaders: โหลดเดอร์
+    progress: ความก้าวหน้า
+    distribution: การกระจาย
+    errors: ข้อผิดพลาด
+
+tr:
+  tab:
+    index: 'Genel Bakış'
+    toasts: 'Toast Bildirimleri'
+    banners: Afişler
+    messages: Mesajlar
+    markers: İşaretleyiciler
+    loaders: Yükleyiciler
+    progress: İlerleme
+    distribution: Dağıtım
+    errors: Hatalar
+
+ur:
+  tab:
+    index: جائزہ
+    toasts: ٹوئسٹ
+    banners: بینرز
+    messages: پیغامات
+    markers: مارکرز
+    loaders: لوڈرز
+    progress: ترقی
+    distribution: تقسیم
+    errors: غلطیاں
+
+vi:
+  tab:
+    index: 'Tổng quan'
+    toasts: 'Thông báo tạm thời'
+    banners: 'Biểu ngữ'
+    messages: 'Tin nhắn'
+    markers: 'Đánh dấu'
+    loaders: Tải
+    progress: 'Tiến trình'
+    distribution: 'Phân phối'
+    errors: Lỗi
+
+zh:
+  tab:
+    index: 概览
+    toasts: 吐司
+    banners: 横幅
+    messages: 消息
+    markers: 标记
+    loaders: 加载器
+    progress: 进度
+    distribution: 分布
+    errors: 错误

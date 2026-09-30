@@ -1,0 +1,183 @@
+en:
+  page_title: Modal test - simple
+  message: This is a simple modal.
+  frontend:
+    embed:
+      closing_confirmation:
+        message: Are you sure you want to close this modal?
+
+ar:
+  page_title: 'اختبار نافذة منبثقة - بسيطة'
+  message: 'هذه نافذة منبثقة بسيطة.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'هل أنت متأكد أنك تريد إغلاق هذه النافذة المنبثقة؟'
+
+bn:
+  page_title: 'মোডাল টেস্ট - সাধারণ'
+  message: 'এটি একটি সাধারণ মোডাল।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'আপনি কি সত্যিই এই মোডালটি বন্ধ করতে চান?'
+
+de:
+  page_title: 'Modal-Test - einfach'
+  message: 'Dies ist ein einfaches Modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sind Sie sicher, dass Sie dieses Modal schließen möchten?'
+
+es:
+  page_title: 'Prueba de modal - simple'
+  message: 'Este es un modal simple.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '¿Estás seguro de que quieres cerrar este modal?'
+
+fa:
+  page_title: 'آزمایش مدال - ساده'
+  message: 'این یک مدال ساده است.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'آیا از بستن این مدال مطمئن هستید؟'
+
+fi:
+  page_title: 'Modaalin testi - yksinkertainen'
+  message: 'Tämä on yksinkertainen modaalinen ikkuna.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Oletko varma, että haluat sulkea tämän modaalin?'
+
+fr:
+  page_title: 'Test modal - simple'
+  message: 'Ceci est un modal simple.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Êtes-vous sûr de vouloir fermer ce modal ?'
+
+he:
+  page_title: 'בדיקת מודל - פשוט'
+  message: 'זהו מודל פשוט.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'האם אתה בטוח שברצונך לסגור מודל זה?'
+
+hi:
+  page_title: 'मोडल परीक्षण - सरल'
+  message: 'यह एक सरल मोडल है।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'क्या आप सुनिश्चित हैं कि आप इस मोडल को बंद करना चाहते हैं?'
+
+id:
+  page_title: 'Modal uji - sederhana'
+  message: 'Ini adalah modal yang sederhana.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Apakah Anda yakin ingin menutup modal ini?'
+
+it:
+  page_title: 'Test modale - semplice'
+  message: 'Questo è un modale semplice.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sei sicuro di voler chiudere questo modale?'
+
+ja:
+  page_title: 'モーダルテスト - シンプル'
+  message: これはシンプルなモーダルです。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: このモーダルを閉じてよろしいですか？
+
+ko:
+  page_title: '모달 테스트 - 간단'
+  message: '이것은 간단한 모달입니다.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '정말로 이 모달을 닫으시겠습니까?'
+
+nl:
+  page_title: 'Modal test - eenvoudig'
+  message: 'Dit is een eenvoudige modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Weet je zeker dat je deze modal wilt sluiten?'
+
+pl:
+  page_title: 'Test modalny - prosty'
+  message: 'To jest prosty modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Czy na pewno chcesz zamknąć ten modal?'
+
+pt_BR:
+  page_title: 'Teste de modal - simples'
+  message: 'Este é um modal simples.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Você tem certeza de que deseja fechar este modal?'
+
+ru:
+  page_title: 'Тест модального окна - простой'
+  message: 'Это простое модальное окно.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Вы уверены, что хотите закрыть это модальное окно?'
+
+th:
+  page_title: 'การทดสอบโมดัล - ง่าย'
+  message: นี่คือโมดัลที่ง่าย
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'คุณแน่ใจหรือว่าต้องการปิดโมดัลนี้?'
+
+tr:
+  page_title: 'Modal testi - basit'
+  message: 'Bu basit bir modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bu modali kapatmak istediğinize emin misiniz?'
+
+ur:
+  page_title: 'موڈل کا ٹیسٹ - سادہ'
+  message: 'یہ ایک سادہ موڈل ہے۔'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'کیا آپ واقعی اس موڈل کو بند کرنا چاہتے ہیں؟'
+
+vi:
+  page_title: 'Kiểm tra Modal - đơn giản'
+  message: 'Đây là một modal đơn giản.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bạn có chắc chắn muốn đóng modal này không?'
+
+zh:
+  page_title: '模态测试 - 简单'
+  message: 这是一个简单的模态框。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 您确定要关闭这个模态框吗？

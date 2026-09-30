@@ -1,6 +1,0 @@
-~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-page_title: 'ভিউ ফর্মস'
-page_icon: 'ph:bold/file-vue'
-section:
-  vue:
-    title: 'জমা দেওয়ার আচরণ (পাতা + মডাল)'

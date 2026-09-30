@@ -1,0 +1,508 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Forms
+  page_icon: ph:bold/textbox
+
+  intro: "A set of fields, what it does when it is sent, and what it says when it comes back. The fields themselves are in Controls; what these pages add is the round trip."
+
+  page:
+    inputs:
+      title: Inputs
+      description: "Every field the system ships, and the contract that lets an agent take one over, fill it and give it back."
+    basic:
+      title: Basic forms
+      description: "The plain case: a form rendered by the server, sent by the browser, answered by a page."
+    rendered:
+      title: Advanced forms
+      description: "Forms built by the form component, with their submit behaviours and the state they come back in."
+    ajax:
+      title: Ajax forms
+      description: "A form that answers without the page being left, and what it does with what comes back."
+    vue:
+      title: Vue forms
+      description: "The same forms driven from a component, where the fields are state rather than markup."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: النماذج
+  page_icon: 'ph:bold/textbox'
+  intro: 'مجموعة من الحقول، ماذا تفعل عندما يتم إرسالها، وماذا تقول عندما تعود. الحقول نفسها موجودة في عناصر التحكم؛ ما تضيفه هذه الصفحات هو الرحلة الكاملة.'
+  page:
+    inputs:
+      title: المدخلات
+      description: 'كل حقل يتم شحنه من قبل النظام، والعقد الذي يسمح لوكيل بتولي واحد، ملؤه وإعادته.'
+    basic:
+      title: 'النماذج الأساسية'
+      description: 'الحالة العادية: نموذج يتم تصنيعه بواسطة الخادم، يتم إرساله بواسطة المتصفح، ويتم الرد عليه بصفحة.'
+    rendered:
+      title: 'النماذج المتقدمة'
+      description: 'نماذج مبنية بواسطة مكون النموذج، مع سلوكيات إرسالها والحالة التي تعود بها.'
+    ajax:
+      title: 'نماذج أجاكس'
+      description: 'نموذج يرد دون مغادرة الصفحة، وما يفعله بما يعود.'
+    vue:
+      title: 'نماذج فيو'
+      description: 'نفس النماذج المدفوعة من مكون، حيث تكون الحقول حالة بدلاً من تعليمات برمجية.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ফরম
+  page_icon: 'ph:bold/textbox'
+  intro: 'একটি ক্ষেত্রের সেট, এটি পাঠানো হলে কী করে এবং এটি ফিরে আসলে কী বলে। ক্ষেত্রগুলো নিয়ন্ত্রণে আছে; এই পৃষ্ঠাগুলো যা যোগ করে তা হল রাউন্ড ট্রিপ।'
+  page:
+    inputs:
+      title: ইনপুট
+      description: 'প্রতিটি ক্ষেত্র যা সিস্টেম সরবরাহ করে, এবং একটি প্রতিনিধিকে একটি গ্রহণ করতে, পূরণ করতে এবং ফিরিয়ে দিতে দেওয়া চুক্তি।'
+    basic:
+      title: 'মৌলিক ফরম'
+      description: 'সাধারণ কেস: একটি ফরম যা সার্ভার দ্বারা রেন্ডার করা হয়, ব্রাউজার দ্বারা পাঠানো হয়, একটি পৃষ্ঠার মাধ্যমে উত্তর দেওয়া হয়।'
+    rendered:
+      title: 'উন্নত ফরম'
+      description: 'ফরম কম্পোনেন্ট দ্বারা নির্মিত, যার সাবমিট আচরণ এবং এটি যে অবস্থায় ফিরে আসে।'
+    ajax:
+      title: 'এজাক্স ফরম'
+      description: 'একটি ফরম যা পৃষ্ঠা ছাড়াই উত্তর দেয়, এবং এটি ফিরে আসা নিয়ে কী করে।'
+    vue:
+      title: 'ভিউ ফরম'
+      description: 'একই ফরম একটি কম্পোনেন্ট দ্বারা চালিত, যেখানে ক্ষেত্রগুলো মার্কআপের পরিবর্তে অবস্থান।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulare
+  page_icon: 'ph:bold/textbox'
+  intro: 'Eine Reihe von Feldern, was passiert, wenn es gesendet wird, und was es sagt, wenn es zurückkommt. Die Felder selbst befinden sich in Steuerelementen; was diese Seiten hinzufügen, ist die Rückreise.'
+  page:
+    inputs:
+      title: Eingaben
+      description: 'Jedes Feld, das das System bereitstellt, und der Vertrag, der es einem Agenten ermöglicht, es zu übernehmen, auszufüllen und zurückzugeben.'
+    basic:
+      title: 'Einfache Formulare'
+      description: 'Der einfache Fall: ein vom Server gerendertes Formular, das vom Browser gesendet und von einer Seite beantwortet wird.'
+    rendered:
+      title: 'Erweiterte Formulare'
+      description: 'Formulare, die vom Formularelement erstellt werden, mit ihren Übermittlungsverhalten und dem Zustand, in dem sie zurückkommen.'
+    ajax:
+      title: Ajax-Formulare
+      description: 'Ein Formular, das antwortet, ohne dass die Seite verlassen wird, und was damit geschieht, was zurückkommt.'
+    vue:
+      title: Vue-Formulare
+      description: 'Die gleichen Formulare, die von einem Komponent gesteuert werden, bei denen die Felder Zustand anstelle von Markup sind.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formas
+  page_icon: 'ph:bold/textbox'
+  intro: 'Un conjunto de campos, lo que hace cuando se envía y lo que dice cuando regresa. Los campos en sí están en Controles; lo que estas páginas añaden es el viaje de ida y vuelta.'
+  page:
+    inputs:
+      title: Entradas
+      description: 'Cada campo que el sistema envía, y el contrato que permite a un agente tomar uno, llenarlo y devolverlo.'
+    basic:
+      title: 'Formas básicas'
+      description: 'El caso simple: un formulario renderizado por el servidor, enviado por el navegador, respondido por una página.'
+    rendered:
+      title: 'Formas avanzadas'
+      description: 'Formas construidas por el componente de formulario, con sus comportamientos de envío y el estado en el que regresan.'
+    ajax:
+      title: 'Formas Ajax'
+      description: 'Un formulario que responde sin que se abandone la página, y lo que hace con lo que regresa.'
+    vue:
+      title: 'Formas Vue'
+      description: 'Los mismos formularios impulsados por un componente, donde los campos son estado en lugar de marcado.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فرم‌ها
+  page_icon: 'ph:bold/textbox'
+  intro: 'مجموعه‌ای از فیلدها، اینکه چه کار می‌کند زمانی که ارسال می‌شود و چه می‌گوید زمانی که برمی‌گردد. خود فیلدها در کنترل‌ها هستند؛ آنچه این صفحات اضافه می‌کنند، سفر رفت و برگشت است.'
+  page:
+    inputs:
+      title: ورودی‌ها
+      description: 'هر فیلدی که سیستم ارائه می‌دهد و قراردادی که اجازه می‌دهد یک عامل یکی را بر عهده بگیرد، آن را پر کند و برگرداند.'
+    basic:
+      title: 'فرم‌های پایه'
+      description: 'مورد ساده: فرمی که توسط سرور رندر می‌شود، توسط مرورگر ارسال می‌شود و پاسخ آن صفحه‌ای است.'
+    rendered:
+      title: 'فرم‌های پیشرفته'
+      description: 'فرم‌هایی که توسط کامپوننت فرم ساخته می‌شوند، با رفتارهای ارسال و حالتی که در آن برمی‌گردند.'
+    ajax:
+      title: 'فرم‌های آژاکس'
+      description: 'فرمی که بدون ترک صفحه پاسخ می‌دهد و با آنچه برمی‌گردد چه کاری انجام می‌دهد.'
+    vue:
+      title: 'فرم‌های ویو'
+      description: 'همان فرم‌ها که از یک کامپوننت هدایت می‌شوند، جایی که فیلدها حالت هستند نه نشانه‌گذاری.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Lomakkeet
+  page_icon: 'ph:bold/textbox'
+  intro: 'Kenttäjoukko, mitä tapahtuu kun se lähetetään, ja mitä se sanoo kun se palautuu. Kentät itsessään ovat Ohjaimissa; mitä nämä sivut lisäävät, on edestakainen matka.'
+  page:
+    inputs:
+      title: Syötteet
+      description: 'Jokainen kenttä, jonka järjestelmä toimittaa, ja sopimus, joka antaa agentille mahdollisuuden ottaa yksi hallintaan, täyttää se ja palauttaa sen.'
+    basic:
+      title: Peruslomakkeet
+      description: 'Yksinkertainen tapaus: palvelimen renderöimä lomake, jonka selain lähettää, ja johon sivu vastaa.'
+    rendered:
+      title: 'Edistyneet lomakkeet'
+      description: 'Lomakkeet, jotka on rakennettu lomakekomponentilla, niiden lähetyskäyttäytyminen ja tila, jossa ne palautuvat.'
+    ajax:
+      title: Ajax-lomakkeet
+      description: 'Lomake, joka vastaa ilman, että sivua poistutaan, ja mitä se tekee sen kanssa, mikä palautuu.'
+    vue:
+      title: Vue-lomakkeet
+      description: 'Samat lomakkeet komponentin ohjaamana, jossa kentät ovat tilaa eivätkä merkintöjä.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulaires
+  page_icon: 'ph:bold/textbox'
+  intro: "Un ensemble de champs, ce qu'il fait lorsqu'il est envoyé et ce qu'il dit lorsqu'il revient. Les champs eux-mêmes se trouvent dans les Contrôles ; ce que ces pages ajoutent, c'est le trajet aller-retour."
+  page:
+    inputs:
+      title: Entrées
+      description: 'Chaque champ que le système fournit et le contrat qui permet à un agent de le prendre, de le remplir et de le rendre.'
+    basic:
+      title: 'Formulaires de base'
+      description: 'Le cas simple : un formulaire rendu par le serveur, envoyé par le navigateur, répondu par une page.'
+    rendered:
+      title: 'Formulaires avancés'
+      description: "Formulaires construits par le composant de formulaire, avec leurs comportements de soumission et l'état dans lequel ils reviennent."
+    ajax:
+      title: 'Formulaires Ajax'
+      description: "Un formulaire qui répond sans quitter la page, et ce qu'il fait avec ce qui revient."
+    vue:
+      title: 'Formulaires Vue'
+      description: 'Les mêmes formulaires pilotés par un composant, où les champs sont des états plutôt que du balisage.'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: טפסים
+  page_icon: 'ph:bold/textbox'
+  intro: 'קבוצה של שדות, מה קורה כשהיא נשלחת, ומה היא אומרת כשזה חוזר. השדות עצמם נמצאים ב-Controls; מה שהעמודים האלה מוסיפים הוא הסיבוב המלא.'
+  page:
+    inputs:
+      title: קלטים
+      description: 'כל שדה שהמערכת מספקת, וההסכם שמאפשר לסוכן לקחת אחד, למלא אותו ולהחזיר אותו.'
+    basic:
+      title: 'טפסים בסיסיים'
+      description: 'המקרה הפשוט: טופס שהוצג על ידי השרת, נשלח על ידי הדפדפן, ומגיב עם עמוד.'
+    rendered:
+      title: 'טפסים מתקדמים'
+      description: 'טפסים שנבנים על ידי רכיב הטופס, עם התנהגויות ההגשה שלהם והמצב שבו הם חוזרים.'
+    ajax:
+      title: 'טפסי Ajax'
+      description: 'טופס שמגיב מבלי לעזוב את העמוד, ומה הוא עושה עם מה שחוזר.'
+    vue:
+      title: 'טפסי Vue'
+      description: 'אותם טפסים המנוהלים על ידי רכיב, שבו השדות הם מצב ולא סימון.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: फॉर्म
+  page_icon: 'ph:bold/textbox'
+  intro: 'एक सेट फ़ील्ड का, जब इसे भेजा जाता है, तो यह क्या करता है, और जब यह वापस आता है तो यह क्या कहता है। फ़ील्ड स्वयं Controls में हैं; जो ये पृष्ठ जोड़ते हैं वह राउंड ट्रिप है।'
+  page:
+    inputs:
+      title: इनपुट
+      description: 'प्रत्येक फ़ील्ड जो सिस्टम वितरित करता है, और वह अनुबंध जो एक एजेंट को इसे लेने, भरने और वापस देने की अनुमति देता है।'
+    basic:
+      title: 'मूल फॉर्म'
+      description: 'सादा मामला: एक फॉर्म जो सर्वर द्वारा प्रस्तुत किया गया, ब्राउज़र द्वारा भेजा गया, और एक पृष्ठ द्वारा उत्तर दिया गया।'
+    rendered:
+      title: 'उन्नत फॉर्म'
+      description: 'फॉर्म घटक द्वारा बनाए गए फॉर्म, उनके सबमिट व्यवहार और जिस स्थिति में वे वापस आते हैं।'
+    ajax:
+      title: 'एजक्स फॉर्म'
+      description: 'एक फॉर्म जो बिना पृष्ठ छोड़े उत्तर देता है, और जो इसके साथ वापस आता है उसके साथ क्या करता है।'
+    vue:
+      title: 'व्यू फॉर्म'
+      description: 'वही फॉर्म जो एक घटक से संचालित होते हैं, जहाँ फ़ील्ड स्थिति होती है न कि मार्कअप।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulir
+  page_icon: 'ph:bold/textbox'
+  intro: 'Serangkaian kolom, apa yang dilakukan ketika dikirim, dan apa yang dikatakan ketika kembali. Kolom itu sendiri ada di Kontrol; apa yang ditambahkan halaman ini adalah perjalanan bolak-balik.'
+  page:
+    inputs:
+      title: Input
+      description: 'Setiap kolom yang disediakan sistem, dan kontrak yang memungkinkan agen mengambil, mengisi, dan mengembalikannya.'
+    basic:
+      title: 'Formulir dasar'
+      description: 'Kasus biasa: formulir yang dirender oleh server, dikirim oleh browser, dijawab oleh halaman.'
+    rendered:
+      title: 'Formulir lanjutan'
+      description: 'Formulir yang dibangun oleh komponen formulir, dengan perilaku kirim dan status yang mereka kembalikan.'
+    ajax:
+      title: 'Formulir Ajax'
+      description: 'Formulir yang menjawab tanpa meninggalkan halaman, dan apa yang dilakukannya dengan apa yang kembali.'
+    vue:
+      title: 'Formulir Vue'
+      description: 'Formulir yang sama yang dikendalikan dari komponen, di mana kolom adalah status daripada markup.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Moduli
+  page_icon: 'ph:bold/textbox'
+  intro: 'Un insieme di campi, cosa fa quando viene inviato e cosa dice quando torna. I campi stessi si trovano in Controlli; ciò che queste pagine aggiungono è il viaggio di andata e ritorno.'
+  page:
+    inputs:
+      title: Ingressi
+      description: 'Ogni campo fornito dal sistema e il contratto che consente a un agente di prenderne uno, compilarlo e restituirlo.'
+    basic:
+      title: 'Moduli di base'
+      description: 'Il caso semplice: un modulo reso dal server, inviato dal browser, risposto da una pagina.'
+    rendered:
+      title: 'Moduli avanzati'
+      description: 'Moduli costruiti dal componente modulo, con i loro comportamenti di invio e lo stato in cui tornano.'
+    ajax:
+      title: 'Moduli Ajax'
+      description: 'Un modulo che risponde senza lasciare la pagina, e cosa fa con ciò che torna.'
+    vue:
+      title: 'Moduli Vue'
+      description: 'Gli stessi moduli gestiti da un componente, dove i campi sono stato piuttosto che markup.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: フォーム
+  page_icon: 'ph:bold/textbox'
+  intro: 送信時の動作と、戻ってきたときに表示される内容を持つフィールドのセット。フィールド自体はコントロールにあり、これらのページが追加するのはラウンドトリップです。
+  page:
+    inputs:
+      title: 入力フィールド
+      description: システムが提供するすべてのフィールドと、エージェントがそれを引き継ぎ、入力して返すことを許可する契約。
+    basic:
+      title: 基本フォーム
+      description: シンプルなケース：サーバーによってレンダリングされ、ブラウザから送信され、ページで応答されるフォーム。
+    rendered:
+      title: 高度なフォーム
+      description: フォームコンポーネントによって構築されたフォームで、送信動作と戻ってくる際の状態を持っています。
+    ajax:
+      title: Ajaxフォーム
+      description: ページを離れずに応答するフォームと、戻ってきた内容に対する処理。
+    vue:
+      title: Vueフォーム
+      description: コンポーネントから駆動される同じフォームで、フィールドはマークアップではなく状態です。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 양식
+  page_icon: 'ph:bold/textbox'
+  intro: '전송 시의 동작과 응답 시의 내용을 포함한 여러 필드의 집합입니다. 필드 자체는 Controls에 있으며, 이 페이지들이 추가하는 것은 왕복입니다.'
+  page:
+    inputs:
+      title: '입력 필드'
+      description: '시스템에서 제공하는 모든 필드와 에이전트가 이를 인수하고, 채우고, 다시 반환할 수 있도록 하는 계약입니다.'
+    basic:
+      title: '기본 양식'
+      description: '가장 일반적인 경우: 서버에서 렌더링되고 브라우저에 의해 전송되며 페이지가 응답하는 양식입니다.'
+    rendered:
+      title: '고급 양식'
+      description: '제출 동작과 응답 시의 상태가 포함된 양식 컴포넌트로 구축된 양식입니다.'
+    ajax:
+      title: 'Ajax 양식'
+      description: '페이지를 떠나지 않고 응답하는 양식과 응답된 내용으로 수행하는 작업입니다.'
+    vue:
+      title: 'Vue 양식'
+      description: '컴포넌트에서 구동되는 동일한 양식으로, 필드는 마크업이 아닌 상태입니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulieren
+  page_icon: 'ph:bold/textbox'
+  intro: "Een set velden, wat er gebeurt wanneer het wordt verzonden en wat het zegt wanneer het terugkomt. De velden zelf bevinden zich in Besturingselementen; wat deze pagina's toevoegen is de heen- en terugreis."
+  page:
+    inputs:
+      title: Invoervelden
+      description: 'Elk veld dat het systeem levert, en het contract dat een agent toestaat om er een over te nemen, deze in te vullen en terug te geven.'
+    basic:
+      title: Basisformulieren
+      description: 'De eenvoudige zaak: een formulier dat door de server wordt weergegeven, verzonden door de browser, beantwoord door een pagina.'
+    rendered:
+      title: 'Geavanceerde formulieren'
+      description: 'Formulieren gebouwd door de formele component, met hun indiende gedragingen en de staat waarin ze terugkomen.'
+    ajax:
+      title: Ajax-formulieren
+      description: 'Een formulier dat antwoord geeft zonder dat de pagina wordt verlaten, en wat het doet met wat terugkomt.'
+    vue:
+      title: Vue-formulieren
+      description: 'Dezelfde formulieren aangestuurd vanuit een component, waar de velden staat zijn in plaats van markup.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formularze
+  page_icon: 'ph:bold/textbox'
+  intro: 'Zestaw pól, co się z nimi dzieje po wysłaniu i co mówią, gdy wracają. Same pola znajdują się w Kontrolkach; to, co dodają te strony, to okrężna podróż.'
+  page:
+    inputs:
+      title: 'Pola wejściowe'
+      description: 'Każde pole dostarczane przez system oraz umowa, która pozwala agentowi przejąć jedno, wypełnić je i oddać.'
+    basic:
+      title: 'Podstawowe formularze'
+      description: 'Prosty przypadek: formularz renderowany przez serwer, wysyłany przez przeglądarkę, na który odpowiada strona.'
+    rendered:
+      title: 'Zaawansowane formularze'
+      description: 'Formularze budowane przez komponent formularza, z ich zachowaniami przy wysyłaniu i stanem, w jakim wracają.'
+    ajax:
+      title: 'Formularze Ajax'
+      description: 'Formularz, który odpowiada bez opuszczania strony i co się dzieje z tym, co wraca.'
+    vue:
+      title: 'Formularze Vue'
+      description: 'Te same formularze prowadzone przez komponent, gdzie pola są stanem, a nie markupiem.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulários
+  page_icon: 'ph:bold/textbox'
+  intro: 'Um conjunto de campos, o que acontece quando é enviado e o que diz quando retorna. Os campos em si estão em Controles; o que essas páginas adicionam é a ida e volta.'
+  page:
+    inputs:
+      title: Entradas
+      description: 'Cada campo que o sistema fornece e o contrato que permite a um agente assumir, preenchê-lo e devolvê-lo.'
+    basic:
+      title: 'Formulários básicos'
+      description: 'O caso simples: um formulário renderizado pelo servidor, enviado pelo navegador, respondido por uma página.'
+    rendered:
+      title: 'Formulários avançados'
+      description: 'Formulários construídos pelo componente de formulário, com seus comportamentos de envio e o estado em que retornam.'
+    ajax:
+      title: 'Formulários Ajax'
+      description: 'Um formulário que responde sem que a página seja deixada, e o que faz com o que retorna.'
+    vue:
+      title: 'Formulários Vue'
+      description: 'Os mesmos formulários controlados por um componente, onde os campos são estado em vez de marcação.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Формы
+  page_icon: 'ph:bold/textbox'
+  intro: 'Набор полей, что происходит, когда они отправляются, и что они говорят, когда возвращаются. Поля сами по себе находятся в Управлениях; что добавляют эти страницы, так это полный цикл.'
+  page:
+    inputs:
+      title: 'Входные данные'
+      description: 'Каждое поле, которое поставляется с системой, и контракт, который позволяет агенту взять его, заполнить и вернуть.'
+    basic:
+      title: 'Простые формы'
+      description: 'Простой случай: форма, отображаемая сервером, отправляемая браузером, на которую отвечает страница.'
+    rendered:
+      title: 'Расширенные формы'
+      description: 'Формы, созданные компонентом формы, с их поведением при отправке и состоянием, в котором они возвращаются.'
+    ajax:
+      title: 'Ajax формы'
+      description: 'Форма, которая отвечает без покидания страницы, и что она делает с тем, что возвращается.'
+    vue:
+      title: 'Vue формы'
+      description: 'Те же формы, управляемые компонентом, где поля являются состоянием, а не разметкой.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แบบฟอร์ม
+  page_icon: 'ph:bold/textbox'
+  intro: 'ชุดของฟิลด์ ที่ทำงานอย่างไรเมื่อถูกส่ง และสิ่งที่มันบอกเมื่อกลับมา ฟิลด์เองอยู่ใน Controls; สิ่งที่หน้าเหล่านี้เพิ่มคือการเดินทางไปกลับ.'
+  page:
+    inputs:
+      title: ข้อมูลนำเข้า
+      description: 'ฟิลด์ทุกตัวที่ระบบจัดส่ง และสัญญาที่ให้ตัวแทนสามารถรับฟิลด์หนึ่ง เติมข้อมูลและส่งกลับมาได้.'
+    basic:
+      title: แบบฟอร์มพื้นฐาน
+      description: 'กรณีทั่วไป: แบบฟอร์มที่เรนเดอร์โดยเซิร์ฟเวอร์ ส่งโดยเบราว์เซอร์ ตอบกลับโดยหน้า.'
+    rendered:
+      title: แบบฟอร์มขั้นสูง
+      description: 'แบบฟอร์มที่สร้างโดยส่วนประกอบแบบฟอร์ม พร้อมพฤติกรรมการส่งและสถานะที่กลับมา.'
+    ajax:
+      title: 'แบบฟอร์ม Ajax'
+      description: 'แบบฟอร์มที่ตอบกลับโดยไม่ต้องออกจากหน้า และสิ่งที่มันทำกับข้อมูลที่กลับมา.'
+    vue:
+      title: 'แบบฟอร์ม Vue'
+      description: 'แบบฟอร์มเดียวกันที่ขับเคลื่อนจากส่วนประกอบ ที่ฟิลด์เป็นสถานะแทนที่จะเป็นมาร์กอัป.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formlar
+  page_icon: 'ph:bold/textbox'
+  intro: 'Gönderildiğinde ne yaptığı ve geri geldiğinde ne söylediği bir dizi alan. Alanlar Kontrollerde; bu sayfaların eklediği şey ise gidiş-dönüş sürecidir.'
+  page:
+    inputs:
+      title: Girişler
+      description: 'Sistemin sunduğu her alan ve bir ajanın bir alanı devralmasına, doldurmasına ve geri vermesine izin veren sözleşme.'
+    basic:
+      title: 'Temel formlar'
+      description: 'Sade durum: sunucu tarafından oluşturulan, tarayıcı tarafından gönderilen ve bir sayfa tarafından yanıtlanan bir form.'
+    rendered:
+      title: 'Gelişmiş formlar'
+      description: 'Gönderim davranışları ve geri döndüklerinde bulundukları durum ile form bileşeni tarafından oluşturulan formlar.'
+    ajax:
+      title: 'Ajax formları'
+      description: 'Sayfa terk edilmeden yanıt veren bir form ve geri dönenle ne yaptığı.'
+    vue:
+      title: 'Vue formları'
+      description: 'Alanların işaretleme yerine durum olduğu bir bileşen tarafından yönlendirilen aynı formlar.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فارمز
+  page_icon: 'ph:bold/textbox'
+  intro: 'فیلڈز کا ایک سیٹ، جب یہ بھیجا جاتا ہے تو یہ کیا کرتا ہے، اور جب یہ واپس آتا ہے تو یہ کیا کہتا ہے۔ فیلڈز خود Controls میں ہیں؛ ان صفحات کا جو اضافہ ہے وہ راؤنڈ ٹرپ ہے۔'
+  page:
+    inputs:
+      title: 'ان پٹس'
+      description: 'ہر وہ فیلڈ جو سسٹم فراہم کرتا ہے، اور وہ معاہدہ جو ایک ایجنٹ کو اسے سنبھالنے، بھرنے اور واپس کرنے کی اجازت دیتا ہے۔'
+    basic:
+      title: 'بنیادی فارم'
+      description: 'سادہ صورت: ایک فارم جو سرور کے ذریعہ پیش کیا جاتا ہے، براؤزر کے ذریعہ بھیجا جاتا ہے، اور ایک صفحے کے ذریعہ جواب دیا جاتا ہے۔'
+    rendered:
+      title: 'ایڈوانسڈ فارم'
+      description: 'فارمز جو فارم کمپوننٹ کے ذریعہ بنائے گئے ہیں، ان کی جمع کرانے کی خصوصیات اور وہ حالت جس میں یہ واپس آتے ہیں۔'
+    ajax:
+      title: 'ایجیکس فارم'
+      description: 'ایک فارم جو بغیر صفحہ چھوڑے جواب دیتا ہے، اور یہ واپس آنے والی چیز کے ساتھ کیا کرتا ہے۔'
+    vue:
+      title: 'ویو فارم'
+      description: 'وہی فارم جو ایک کمپوننٹ سے چلائے جاتے ہیں، جہاں فیلڈز حالت ہوتی ہیں نہ کہ مارک اپ۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Biểu mẫu'
+  page_icon: 'ph:bold/textbox'
+  intro: 'Một tập hợp các trường, nó hoạt động như thế nào khi được gửi đi, và nó nói gì khi quay trở lại. Các trường tự nó nằm trong Controls; những trang này thêm vào là chuyến đi vòng.'
+  page:
+    inputs:
+      title: 'Đầu vào'
+      description: 'Mỗi trường mà hệ thống cung cấp, và hợp đồng cho phép một đại lý tiếp quản, điền và trả lại nó.'
+    basic:
+      title: 'Biểu mẫu cơ bản'
+      description: 'Trường hợp đơn giản: một biểu mẫu được hiển thị bởi máy chủ, được gửi bởi trình duyệt, được trả lời bởi một trang.'
+    rendered:
+      title: 'Biểu mẫu nâng cao'
+      description: 'Các biểu mẫu được xây dựng bởi thành phần biểu mẫu, với hành vi gửi và trạng thái mà chúng quay trở lại.'
+    ajax:
+      title: 'Biểu mẫu Ajax'
+      description: 'Một biểu mẫu trả lời mà không cần rời khỏi trang, và nó làm gì với những gì quay lại.'
+    vue:
+      title: 'Biểu mẫu Vue'
+      description: 'Các biểu mẫu giống nhau được điều khiển từ một thành phần, nơi các trường là trạng thái thay vì đánh dấu.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 表单
+  page_icon: 'ph:bold/textbox'
+  intro: 一组字段，发送时的操作，以及返回时的内容。这些字段本身在控制中；这些页面增加的是往返过程。
+  page:
+    inputs:
+      title: 输入
+      description: 系统提供的每个字段，以及允许代理接管、填写并归还的合同。
+    basic:
+      title: 基本表单
+      description: 普通情况：由服务器渲染的表单，通过浏览器发送，由页面回复。
+    rendered:
+      title: 高级表单
+      description: 由表单组件构建的表单，具有提交行为及返回状态。
+    ajax:
+      title: 'Ajax 表单'
+      description: 一个在不离开页面的情况下回答的表单，以及它处理返回内容的方法。
+    vue:
+      title: 'Vue 表单'
+      description: 通过组件驱动的相同表单，其中字段是状态而非标记。

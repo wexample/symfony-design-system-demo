@@ -1,0 +1,115 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Design System
+  page_icon: ph:bold/palette
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'نظام التصميم'
+  page_icon: 'ph:bold/palette'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ডিজাইন সিস্টেম'
+  page_icon: 'ph:bold/palette'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Designsystem
+  page_icon: 'ph:bold/palette'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Design System'
+  page_icon: 'ph:bold/palette'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'سیستم طراحی'
+  page_icon: 'ph:bold/palette'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Suunnittelujärjestelmä
+  page_icon: 'ph:bold/palette'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Système de design'
+  page_icon: 'ph:bold/palette'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'מערכת עיצוב'
+  page_icon: 'ph:bold/palette'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'डिज़ाइन सिस्टम'
+  page_icon: 'ph:bold/palette'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Sistem Desain'
+  page_icon: 'ph:bold/palette'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Sistema di Design'
+  page_icon: 'ph:bold/palette'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: デザインシステム
+  page_icon: 'ph:bold/palette'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '디자인 시스템'
+  page_icon: 'ph:bold/palette'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Ontwerp Systeem'
+  page_icon: 'ph:bold/palette'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'System projektowania'
+  page_icon: 'ph:bold/palette'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Sistema de Design'
+  page_icon: 'ph:bold/palette'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Система дизайна'
+  page_icon: 'ph:bold/palette'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ระบบการออกแบบ
+  page_icon: 'ph:bold/palette'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Tasarım Sistemi'
+  page_icon: 'ph:bold/palette'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ڈیزائن سسٹم'
+  page_icon: 'ph:bold/palette'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Hệ thống thiết kế'
+  page_icon: 'ph:bold/palette'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 设计系统
+  page_icon: 'ph:bold/调色板'

@@ -1,0 +1,530 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Banners
+  page_icon: ph:bold/notification
+
+  section:
+    vue:
+      title: Vue
+      description: "The same inline banner as a vue partial, taking the same type and message; the shell the banner service fills is a different file."
+    banners:
+      neutral: This is a neutral banner message.
+      info: This is an info banner message.
+      warning: This is a warning banner message.
+      error: This is an error banner message.
+      success: This is a success banner message.
+    layout_banner:
+      description: Banners are mainly used at layout level to display background activity important messages like Internet connexion status.
+      button: Show banner
+      messages:
+        info: Layout banner info message.
+        success: Layout banner success message.
+        warning: Layout banner warning message.
+        error: Layout banner error message.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: لافتات
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: فيو
+      description: 'نفس لافتة السطر الواحد كجزء من فيو، تأخذ نفس النوع والرسالة؛ القالب الذي يملأه خدمة اللافتات هو ملف مختلف.'
+    banners:
+      neutral: 'هذه رسالة لافتة محايدة.'
+      info: 'هذه رسالة لافتة معلوماتية.'
+      warning: 'هذه رسالة لافتة تحذيرية.'
+      error: 'هذه رسالة لافتة خطأ.'
+      success: 'هذه رسالة لافتة نجاح.'
+    layout_banner:
+      description: 'تستخدم اللافتات بشكل أساسي على مستوى التخطيط لعرض الرسائل المهمة المتعلقة بالنشاط في الخلفية مثل حالة اتصال الإنترنت.'
+      button: 'عرض اللافتة'
+      messages:
+        info: 'رسالة لافتة معلوماتية للتخطيط.'
+        success: 'رسالة لافتة نجاح للتخطيط.'
+        warning: 'رسالة لافتة تحذيرية للتخطيط.'
+        error: 'رسالة لافتة خطأ للتخطيط.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: বানার
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: ভিউ
+      description: 'একটি ভিউ আংশিক হিসাবে একই ইনলাইন বানার, একই প্রকার এবং বার্তা গ্রহণ করে; বানার পরিষেবাটি যে শেলের মাধ্যমে পূরণ করা হয় তা একটি ভিন্ন ফাইল।'
+    banners:
+      neutral: 'এটি একটি নিরপেক্ষ বানার বার্তা।'
+      info: 'এটি একটি তথ্য বানার বার্তা।'
+      warning: 'এটি একটি সতর্কতা বানার বার্তা।'
+      error: 'এটি একটি ত্রুটি বানার বার্তা।'
+      success: 'এটি একটি সফল বানার বার্তা।'
+    layout_banner:
+      description: 'বানারগুলি প্রধানত লেআউট স্তরে ব্যাকগ্রাউন্ড কার্যকলাপের গুরুত্বপূর্ণ বার্তা যেমন ইন্টারনেট সংযোগের স্থিতি প্রদর্শনের জন্য ব্যবহৃত হয়।'
+      button: 'বানার দেখান'
+      messages:
+        info: 'লেআউট বানার তথ্য বার্তা।'
+        success: 'লেআউট বানার সফল বার্তা।'
+        warning: 'লেআউট বানার সতর্কতা বার্তা।'
+        error: 'লেআউট বানার ত্রুটি বার্তা।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Banner
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Das gleiche Inline-Banner wie ein Vue-Teil, das denselben Typ und dieselbe Nachricht verwendet; die Hülle, die der Banner-Dienst ausfüllt, ist eine andere Datei.'
+    banners:
+      neutral: 'Dies ist eine neutrale Banner-Nachricht.'
+      info: 'Dies ist eine Informations-Banner-Nachricht.'
+      warning: 'Dies ist eine Warn-Banner-Nachricht.'
+      error: 'Dies ist eine Fehler-Banner-Nachricht.'
+      success: 'Dies ist eine Erfolgs-Banner-Nachricht.'
+    layout_banner:
+      description: 'Banner werden hauptsächlich auf Layout-Ebene verwendet, um wichtige Hintergrundaktivitätsnachrichten wie den Status der Internetverbindung anzuzeigen.'
+      button: 'Banner anzeigen'
+      messages:
+        info: 'Layout-Banner Informationsnachricht.'
+        success: 'Layout-Banner Erfolgsnachricht.'
+        warning: 'Layout-Banner Warnnachricht.'
+        error: 'Layout-Banner Fehlermeldung.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Banners
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'El mismo banner en línea como un parcial de vue, tomando el mismo tipo y mensaje; el contenedor que llena el servicio de banner es un archivo diferente.'
+    banners:
+      neutral: 'Este es un mensaje de banner neutral.'
+      info: 'Este es un mensaje de banner informativo.'
+      warning: 'Este es un mensaje de banner de advertencia.'
+      error: 'Este es un mensaje de banner de error.'
+      success: 'Este es un mensaje de banner de éxito.'
+    layout_banner:
+      description: 'Los banners se utilizan principalmente a nivel de diseño para mostrar mensajes importantes sobre la actividad de fondo como el estado de la conexión a Internet.'
+      button: 'Mostrar banner'
+      messages:
+        info: 'Mensaje informativo del banner de diseño.'
+        success: 'Mensaje de éxito del banner de diseño.'
+        warning: 'Mensaje de advertencia del banner de diseño.'
+        error: 'Mensaje de error del banner de diseño.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بنرها
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: نما
+      description: 'این بنر درون خطی مشابه یک بخش نما است و همان نوع و پیام را می‌گیرد؛ فایلی که سرویس بنر پر می‌کند متفاوت است.'
+    banners:
+      neutral: 'این یک پیام بنر خنثی است.'
+      info: 'این یک پیام بنر اطلاعاتی است.'
+      warning: 'این یک پیام بنر هشدار است.'
+      error: 'این یک پیام بنر خطا است.'
+      success: 'این یک پیام بنر موفقیت است.'
+    layout_banner:
+      description: 'بنرها عمدتاً در سطح طراحی برای نمایش پیام‌های مهم فعالیت‌های پس‌زمینه مانند وضعیت اتصال اینترنت استفاده می‌شوند.'
+      button: 'نمایش بنر'
+      messages:
+        info: 'پیام بنر اطلاعاتی طراحی.'
+        success: 'پیام بنر موفقیت طراحی.'
+        warning: 'پیام بنر هشدار طراحی.'
+        error: 'پیام بنر خطا طراحی.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bannereita
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Sama inline-banneri kuin vue-osassa, ottaen vastaan saman tyypin ja viestin; banneripalvelun täyttämä kehys on eri tiedosto.'
+    banners:
+      neutral: 'Tämä on neutraali banneriviesti.'
+      info: 'Tämä on info-banneriviesti.'
+      warning: 'Tämä on varoitus-banneriviesti.'
+      error: 'Tämä on virhe-banneriviesti.'
+      success: 'Tämä on onnistumis-banneriviesti.'
+    layout_banner:
+      description: 'Bannereita käytetään pääasiassa asettelutasolla näyttämään taustatoiminnan tärkeitä viestejä kuten Internet-yhteyden tila.'
+      button: 'Näytä banneri'
+      messages:
+        info: 'Asettelubannerin info-viesti.'
+        success: 'Asettelubannerin onnistumisviesti.'
+        warning: 'Asettelubannerin varoitusviesti.'
+        error: 'Asettelubannerin virheviesti.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bannières
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: "La même bannière en ligne qu'un partiel vue, prenant le même type et message; le shell que le service de bannière remplit est un fichier différent."
+    banners:
+      neutral: 'Ceci est un message de bannière neutre.'
+      info: "Ceci est un message de bannière d'information."
+      warning: "Ceci est un message de bannière d'avertissement."
+      error: "Ceci est un message de bannière d'erreur."
+      success: 'Ceci est un message de bannière de succès.'
+    layout_banner:
+      description: "Les bannières sont principalement utilisées au niveau de la mise en page pour afficher des messages importants sur l'activité en arrière-plan comme l'état de la connexion Internet."
+      button: 'Afficher la bannière'
+      messages:
+        info: "Message d'information de la bannière de mise en page."
+        success: 'Message de succès de la bannière de mise en page.'
+        warning: "Message d'avertissement de la bannière de mise en page."
+        error: "Message d'erreur de la bannière de mise en page."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: באנרים
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'אותו באנר אינליין כמו חלק של vue, לוקח את אותו סוג והודעה; הקובץ שממנו שירות הבאנרים ממלא הוא קובץ שונה.'
+    banners:
+      neutral: 'זהו מסר באנר נייטרלי.'
+      info: 'זהו מסר באנר מידע.'
+      warning: 'זהו מסר באנר אזהרה.'
+      error: 'זהו מסר באנר שגיאה.'
+      success: 'זהו מסר באנר הצלחה.'
+    layout_banner:
+      description: 'באנרים משמשים בעיקר ברמת העיצוב כדי להציג הודעות חשובות על פעילות רקע כמו מצב חיבור לאינטרנט.'
+      button: 'הצג באנר'
+      messages:
+        info: 'מסר מידע באנר לעיצוב.'
+        success: 'מסר הצלחה באנר לעיצוב.'
+        warning: 'מסר אזהרה באנר לעיצוב.'
+        error: 'מסר שגיאה באנר לעיצוב.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: बैनर
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: व्यू
+      description: 'व्यू आंशिक के रूप में समान इनलाइन बैनर, समान प्रकार और संदेश लेते हुए; बैनर सेवा द्वारा भरा गया शेल एक अलग फ़ाइल है।'
+    banners:
+      neutral: 'यह एक तटस्थ बैनर संदेश है।'
+      info: 'यह एक जानकारी बैनर संदेश है।'
+      warning: 'यह एक चेतावनी बैनर संदेश है।'
+      error: 'यह एक त्रुटि बैनर संदेश है।'
+      success: 'यह एक सफलता बैनर संदेश है।'
+    layout_banner:
+      description: 'बैनर मुख्य रूप से लेआउट स्तर पर पृष्ठभूमि गतिविधि के महत्वपूर्ण संदेश जैसे इंटरनेट कनेक्शन स्थिति प्रदर्शित करने के लिए उपयोग किए जाते हैं।'
+      button: 'बैनर दिखाएं'
+      messages:
+        info: 'लेआउट बैनर जानकारी संदेश।'
+        success: 'लेआउट बैनर सफलता संदेश।'
+        warning: 'लेआउट बैनर चेतावनी संदेश।'
+        error: 'लेआउट बैनर त्रुटि संदेश।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Spanduk
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Spanduk inline yang sama seperti bagian vue, mengambil tipe dan pesan yang sama; shell yang diisi oleh layanan spanduk adalah file yang berbeda.'
+    banners:
+      neutral: 'Ini adalah pesan spanduk netral.'
+      info: 'Ini adalah pesan spanduk informasi.'
+      warning: 'Ini adalah pesan spanduk peringatan.'
+      error: 'Ini adalah pesan spanduk kesalahan.'
+      success: 'Ini adalah pesan spanduk sukses.'
+    layout_banner:
+      description: 'Spanduk terutama digunakan di tingkat tata letak untuk menampilkan pesan penting tentang aktivitas latar belakang seperti status koneksi Internet.'
+      button: 'Tampilkan spanduk'
+      messages:
+        info: 'Pesan informasi spanduk tata letak.'
+        success: 'Pesan sukses spanduk tata letak.'
+        warning: 'Pesan peringatan spanduk tata letak.'
+        error: 'Pesan kesalahan spanduk tata letak.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Banners
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Lo stesso banner inline come un parziale vue, con lo stesso tipo e messaggio; il contenitore che il servizio banner riempie è un file diverso.'
+    banners:
+      neutral: 'Questo è un messaggio banner neutro.'
+      info: 'Questo è un messaggio banner informativo.'
+      warning: 'Questo è un messaggio banner di avviso.'
+      error: 'Questo è un messaggio banner di errore.'
+      success: 'Questo è un messaggio banner di successo.'
+    layout_banner:
+      description: "I banner sono principalmente utilizzati a livello di layout per visualizzare messaggi importanti sull'attività di fondo come lo stato della connessione a Internet."
+      button: 'Mostra banner'
+      messages:
+        info: 'Messaggio informativo del banner di layout.'
+        success: 'Messaggio di successo del banner di layout.'
+        warning: 'Messaggio di avviso del banner di layout.'
+        error: 'Messaggio di errore del banner di layout.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: バナー
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: Vueのパーシャルと同じインラインバナーで、同じタイプとメッセージを使用します。バナーサービスが埋め込むシェルは異なるファイルです。
+    banners:
+      neutral: これは中立的なバナーメッセージです。
+      info: これは情報バナーメッセージです。
+      warning: これは警告バナーメッセージです。
+      error: これはエラーバナーメッセージです。
+      success: これは成功バナーメッセージです。
+    layout_banner:
+      description: バナーは主にレイアウトレベルで、インターネット接続のステータスなどの重要なメッセージを表示するために使用されます。
+      button: バナーを表示
+      messages:
+        info: レイアウトバナー情報メッセージ。
+        success: レイアウトバナー成功メッセージ。
+        warning: レイアウトバナー警告メッセージ。
+        error: レイアウトバナーエラーメッセージ。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 배너
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: 뷰
+      description: '같은 유형과 메시지를 사용하는 뷰 부분으로서의 인라인 배너입니다; 배너 서비스가 채우는 쉘은 다른 파일입니다.'
+    banners:
+      neutral: '중립적인 배너 메시지입니다.'
+      info: '정보 배너 메시지입니다.'
+      warning: '경고 배너 메시지입니다.'
+      error: '오류 배너 메시지입니다.'
+      success: '성공 배너 메시지입니다.'
+    layout_banner:
+      description: '배너는 주로 레이아웃 수준에서 인터넷 연결 상태와 같은 중요한 배경 활동 메시지를 표시하는 데 사용됩니다.'
+      button: '배너 표시'
+      messages:
+        info: '레이아웃 배너 정보 메시지입니다.'
+        success: '레이아웃 배너 성공 메시지입니다.'
+        warning: '레이아웃 배너 경고 메시지입니다.'
+        error: '레이아웃 배너 오류 메시지입니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Banners
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Dezelfde inline banner als een vue partial, met hetzelfde type en bericht; de shell die de banner service invult is een ander bestand.'
+    banners:
+      neutral: 'Dit is een neutraal bannerbericht.'
+      info: 'Dit is een informatief bannerbericht.'
+      warning: 'Dit is een waarschuwingsbannerbericht.'
+      error: 'Dit is een foutbannerbericht.'
+      success: 'Dit is een succesbannerbericht.'
+    layout_banner:
+      description: 'Banners worden voornamelijk op lay-outniveau gebruikt om belangrijke berichten over achtergrondactiviteit weer te geven, zoals de status van de internetverbinding.'
+      button: 'Toon banner'
+      messages:
+        info: 'Informatiebericht voor lay-outbanner.'
+        success: 'Succesbericht voor lay-outbanner.'
+        warning: 'Waarschuwingsbericht voor lay-outbanner.'
+        error: 'Foutbericht voor lay-outbanner.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Banery
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'To sama baner inline jak część vue, przyjmująca ten sam typ i wiadomość; szkielet, który wypełnia usługa banerów, to inny plik.'
+    banners:
+      neutral: 'To jest neutralna wiadomość banera.'
+      info: 'To jest wiadomość banera informacyjnego.'
+      warning: 'To jest wiadomość banera ostrzegawczego.'
+      error: 'To jest wiadomość banera błędu.'
+      success: 'To jest wiadomość banera sukcesu.'
+    layout_banner:
+      description: 'Banery są głównie używane na poziomie układu, aby wyświetlać ważne wiadomości o aktywności w tle, takie jak status połączenia z Internetem.'
+      button: 'Pokaż baner'
+      messages:
+        info: 'Wiadomość informacyjna banera układu.'
+        success: 'Wiadomość o sukcesie banera układu.'
+        warning: 'Wiadomość ostrzegawcza banera układu.'
+        error: 'Wiadomość o błędzie banera układu.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Banners
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'O mesmo banner inline como um partial de vue, utilizando o mesmo tipo e mensagem; o shell que o serviço de banner preenche é um arquivo diferente.'
+    banners:
+      neutral: 'Esta é uma mensagem de banner neutra.'
+      info: 'Esta é uma mensagem de banner informativa.'
+      warning: 'Esta é uma mensagem de banner de aviso.'
+      error: 'Esta é uma mensagem de banner de erro.'
+      success: 'Esta é uma mensagem de banner de sucesso.'
+    layout_banner:
+      description: 'Os banners são usados principalmente no nível de layout para exibir mensagens importantes de atividade em segundo plano, como o status da conexão com a Internet.'
+      button: 'Mostrar banner'
+      messages:
+        info: 'Mensagem informativa do banner de layout.'
+        success: 'Mensagem de sucesso do banner de layout.'
+        warning: 'Mensagem de aviso do banner de layout.'
+        error: 'Mensagem de erro do banner de layout.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Баннеры
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Тот же встроенный баннер, что и в частичном представлении vue, использует тот же тип и сообщение; оболочка, которую заполняет служба баннеров, находится в другом файле.'
+    banners:
+      neutral: 'Это нейтральное сообщение баннера.'
+      info: 'Это сообщение информационного баннера.'
+      warning: 'Это сообщение предупреждающего баннера.'
+      error: 'Это сообщение об ошибке баннера.'
+      success: 'Это сообщение успешного баннера.'
+    layout_banner:
+      description: 'Баннеры в основном используются на уровне макета для отображения важных сообщений о фоновом состоянии, таких как статус интернет-соединения.'
+      button: 'Показать баннер'
+      messages:
+        info: 'Сообщение информационного баннера макета.'
+        success: 'Сообщение успешного баннера макета.'
+        warning: 'Сообщение предупреждающего баннера макета.'
+        error: 'Сообщение об ошибке баннера макета.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แบนเนอร์
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'แบนเนอร์แบบอินไลน์เดียวกันกับส่วน Vue โดยใช้ประเภทและข้อความเดียวกัน; แต่ไฟล์ที่บริการแบนเนอร์เติมเป็นไฟล์ที่ต่างกัน.'
+    banners:
+      neutral: นี่คือข้อความแบนเนอร์ที่เป็นกลาง.
+      info: นี่คือข้อความแบนเนอร์ที่ให้ข้อมูล.
+      warning: นี่คือข้อความแบนเนอร์ที่เตือน.
+      error: นี่คือข้อความแบนเนอร์ที่แสดงข้อผิดพลาด.
+      success: นี่คือข้อความแบนเนอร์ที่ประสบความสำเร็จ.
+    layout_banner:
+      description: 'แบนเนอร์ส่วนใหญ่ใช้ที่ระดับเลย์เอาต์เพื่อแสดงข้อความสำคัญเกี่ยวกับกิจกรรมเบื้องหลัง เช่น สถานะการเชื่อมต่ออินเทอร์เน็ต.'
+      button: แสดงแบนเนอร์
+      messages:
+        info: ข้อความแบนเนอร์ข้อมูลระดับเลย์เอาต์.
+        success: ข้อความแบนเนอร์ความสำเร็จระดับเลย์เอาต์.
+        warning: ข้อความแบนเนอร์เตือนระดับเลย์เอาต์.
+        error: ข้อความแบนเนอร์ข้อผิดพลาดระดับเลย์เอาต์.
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Afişler
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Aynı tür ve mesajı alan bir vue parçası olarak aynı satır içi afiş; afiş hizmetinin doldurduğu şablon farklı bir dosyadır.'
+    banners:
+      neutral: 'Bu, nötr bir afiş mesajıdır.'
+      info: 'Bu, bilgi afiş mesajıdır.'
+      warning: 'Bu, uyarı afiş mesajıdır.'
+      error: 'Bu, hata afiş mesajıdır.'
+      success: 'Bu, başarı afiş mesajıdır.'
+    layout_banner:
+      description: 'Afişler, genellikle internet bağlantı durumu gibi arka planda önemli mesajları göstermek için düzen seviyesinde kullanılır.'
+      button: 'Afişi göster'
+      messages:
+        info: 'Düzen afiş bilgi mesajı.'
+        success: 'Düzen afiş başarı mesajı.'
+        warning: 'Düzen afiş uyarı mesajı.'
+        error: 'Düzen afiş hata mesajı.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بینرز
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: ویو
+      description: 'یہ ایک ہی لائن میں بینر ہے جو ویو پارشل کے طور پر ہے، جو اسی قسم اور پیغام کو لے جاتا ہے؛ بینر سروس کے ذریعے بھرا جانے والا شیل ایک مختلف فائل ہے۔'
+    banners:
+      neutral: 'یہ ایک نیوٹرل بینر پیغام ہے۔'
+      info: 'یہ ایک معلوماتی بینر پیغام ہے۔'
+      warning: 'یہ ایک انتباہی بینر پیغام ہے۔'
+      error: 'یہ ایک خرابی کا بینر پیغام ہے۔'
+      success: 'یہ ایک کامیابی کا بینر پیغام ہے۔'
+    layout_banner:
+      description: 'بینرز بنیادی طور پر لے آؤٹ کی سطح پر استعمال ہوتے ہیں تاکہ پس منظر کی سرگرمی کے اہم پیغام جیسے کہ انٹرنیٹ کنکشن کی حیثیت دکھائی جا سکے۔'
+      button: 'بینر دکھائیں'
+      messages:
+        info: 'لے آؤٹ بینر معلوماتی پیغام۔'
+        success: 'لے آؤٹ بینر کامیابی کا پیغام۔'
+        warning: 'لے آؤٹ بینر انتباہی پیغام۔'
+        error: 'لے آؤٹ بینر خرابی کا پیغام۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Biểu ngữ'
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: 'Biểu ngữ inline giống như một phần của vue, sử dụng cùng loại và thông điệp; shell mà dịch vụ biểu ngữ điền vào là một tệp khác.'
+    banners:
+      neutral: 'Đây là thông điệp biểu ngữ trung tính.'
+      info: 'Đây là thông điệp biểu ngữ thông tin.'
+      warning: 'Đây là thông điệp biểu ngữ cảnh báo.'
+      error: 'Đây là thông điệp biểu ngữ lỗi.'
+      success: 'Đây là thông điệp biểu ngữ thành công.'
+    layout_banner:
+      description: 'Biểu ngữ chủ yếu được sử dụng ở cấp độ bố cục để hiển thị những thông điệp quan trọng về hoạt động nền như trạng thái kết nối Internet.'
+      button: 'Hiển thị biểu ngữ'
+      messages:
+        info: 'Thông điệp thông tin biểu ngữ bố cục.'
+        success: 'Thông điệp thành công biểu ngữ bố cục.'
+        warning: 'Thông điệp cảnh báo biểu ngữ bố cục.'
+        error: 'Thông điệp lỗi biểu ngữ bố cục.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 横幅
+  page_icon: 'ph:bold/notification'
+  section:
+    vue:
+      title: Vue
+      description: '与 vue 部件相同的内联横幅，采用相同的类型和消息；横幅服务填充的外壳是一个不同的文件。'
+    banners:
+      neutral: 这是一个中立的横幅消息。
+      info: 这是一个信息横幅消息。
+      warning: 这是一个警告横幅消息。
+      error: 这是一个错误横幅消息。
+      success: 这是一个成功横幅消息。
+    layout_banner:
+      description: 横幅主要用于布局级别，以显示背景活动的重要消息，如互联网连接状态。
+      button: 显示横幅
+      messages:
+        info: 布局横幅信息消息。
+        success: 布局横幅成功消息。
+        warning: 布局横幅警告消息。
+        error: 布局横幅错误消息。

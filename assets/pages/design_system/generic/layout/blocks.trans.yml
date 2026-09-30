@@ -1,0 +1,2700 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Blocks
+  page_icon: ph:bold/squares-four
+
+  tone:
+    body: the ground stays the block's own, only the leading edge carries the colour.
+
+  section:
+    tone:
+      title: A block carrying a tone
+      description: "The colour of a state — or of a category — as a bar down the leading edge, and nothing else: the same bar a message wears, without the tinted ground, so a list of them reads as a list and not as an alarm. Any block takes it, a bar standing on a block included."
+    default:
+      title: Basic blocks
+    advanced:
+      title: Advanced blocks
+    aside:
+      title: Fixed aside column
+      description: A narrow column sized on the --size scale, next to a body that absorbs the remaining width.
+    card:
+      title: Cards
+    link:
+      title: A block that is a link
+      description: "The whole card is the link — for a choice made by picking one card among several: a plan, a branch, a template. It reads as text, not as a muted action; under the pointer its ground takes a nuance and its edge firms up, and the keyboard finds it by the focus ring every control wears."
+    figure:
+      title: Figures
+      description: A single oversized value or icon, centered. Used for dashboard counters and status tiles — add block--square to keep the tile square whatever its width.
+    stacks:
+      title: Stacks
+    stack_horizontal:
+      title: Horizontal
+      description: Equal columns, full width, wraps on overflow.
+    stack_vertical:
+      title: Vertical
+      description: Stacked rows, full width, uniform gap.
+    stack_split:
+      title: Split
+      description: First child grows, last child stays fixed — used for lead + action rows.
+    stack_nested:
+      title: Nested
+      description: Horizontal stack containing vertical stacks — typical dashboard grid.
+
+  stack:
+    item:
+      one: One
+      two: Two
+      three: Three
+      four: Four
+      lead: Describe the action in this lead text.
+      action: Action
+
+  block:
+    title: Block title
+    no_padding: Block without padding (using block--body).
+    one:
+      title: Primary block
+      description: A block with a title and body text.
+    two:
+      title: Secondary block
+      description: Another block to demonstrate spacing.
+    three:
+      title: Tertiary block
+      description: A third block in the row.
+    four:
+      title: Quaternary block
+      description: A fourth block for the layout demo.
+    advanced:
+      title: Pipeline projection
+      status: Ready
+      description: This block combines title slots and content in a single reusable structure.
+      details: Operators can be added without leaving the current context.
+    zones:
+      main:
+        title: Main zone
+        description: Main content can grow naturally with standard spacing.
+      aside:
+        title: Aside zone
+        description: This side zone uses a light background to highlight complementary content.
+    zones_three:
+      title: Three-zone layout
+      status: Draft
+      left:
+        title: Left panel
+        description: Secondary navigation or metadata can live here.
+      main:
+        title: Main content
+        description: Primary information stays centered for readability.
+      right:
+        title: Right panel
+        description: Contextual actions and insights can be grouped on this side.
+      footer:
+        meta: Updated 2 minutes ago
+        action: Open details
+
+  figure:
+    projections: Projections
+    uptime: Uptime
+    status: Live
+    framed:
+      title: Throughput
+      label: Events per second
+
+  tab:
+    one: Overview
+    two: Activity
+    three: Settings
+
+  button:
+    create: Create projection
+    refresh: Refresh data
+    export: Export
+
+  action:
+    add_projection: Add projection
+
+  link:
+    starter:
+      title: Starter
+      description: One person, the essentials, nothing to pay.
+    team:
+      title: Team
+      description: A few people working on the same things.
+    company:
+      title: Company
+      description: Every team, with the controls an organisation asks for.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: كتل
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'الأرض تبقى خاصة بالكتلة، فقط الحافة الأمامية تحمل اللون.'
+  section:
+    tone:
+      title: 'كتلة تحمل نغمة'
+      description: 'لون الحالة — أو الفئة — كخط في الحافة الأمامية، ولا شيء آخر: نفس الخط الذي ترتديه الرسالة، دون الأرض الملونة، بحيث تقرأ قائمة منها كقائمة وليس كإنذار. أي كتلة تأخذها، بما في ذلك الخط الذي يقف على كتلة.'
+    default:
+      title: 'كتل أساسية'
+    advanced:
+      title: 'كتل متقدمة'
+    aside:
+      title: 'عمود جانبي ثابت'
+      description: 'عمود ضيق مقاس على مقياس --size، بجانب جسم يمتص العرض المتبقي.'
+    card:
+      title: بطاقات
+    link:
+      title: 'كتلة هي رابط'
+      description: 'البطاقة بأكملها هي الرابط — لاختيار تم عن طريق اختيار بطاقة واحدة من عدة: خطة، فرع، نموذج. تقرأ كنص، وليس كإجراء مموه؛ تحت المؤشر تأخذ أرضيتها تدرجًا وتشتد حافتها، ويجدها لوحة المفاتيح بواسطة حلقة التركيز التي يرتديها كل تحكم.'
+    figure:
+      title: أرقام
+      description: 'قيمة أو أيقونة واحدة كبيرة، في المنتصف. تستخدم لعدادات لوحة التحكم وبلاطات الحالة — أضف block--square للحفاظ على البلاط مربعًا بغض النظر عن عرضه.'
+    stacks:
+      title: تكديس
+    stack_horizontal:
+      title: أفقي
+      description: 'أعمدة متساوية، بعرض كامل، تلتف عند تجاوز الحد.'
+    stack_vertical:
+      title: عمودي
+      description: 'صفوف مكدسة، بعرض كامل، بفجوة متساوية.'
+    stack_split:
+      title: منقسم
+      description: 'ينمو العنصر الأول، ويبقى العنصر الأخير ثابتًا — يستخدم لصفوف القيادة + الإجراءات.'
+    stack_nested:
+      title: متداخل
+      description: 'تكديس أفقي يحتوي على تكديس عمودي — شبكة لوحة التحكم النموذجية.'
+  stack:
+    item:
+      one: واحد
+      two: اثنان
+      three: ثلاثة
+      four: أربعة
+      lead: 'صف الإجراء في نص هذا العنوان.'
+      action: إجراء
+  block:
+    title: 'عنوان الكتلة'
+    no_padding: 'كتلة بدون حشوة (تستخدم block--body).'
+    one:
+      title: 'الكتلة الرئيسية'
+      description: 'كتلة بعنوان ونص جسم.'
+    two:
+      title: 'الكتلة الثانوية'
+      description: 'كتلة أخرى لتوضيح المسافة.'
+    three:
+      title: 'الكتلة الثالثة'
+      description: 'كتلة ثالثة في الصف.'
+    four:
+      title: 'الكتلة الرابعة'
+      description: 'كتلة رابعة لعرض التخطيط.'
+    advanced:
+      title: 'عرض خط الأنابيب'
+      status: جاهز
+      description: 'تجمع هذه الكتلة بين فتحات العناوين والمحتوى في هيكل قابل لإعادة الاستخدام.'
+      details: 'يمكن إضافة المشغلين دون مغادرة السياق الحالي.'
+    zones:
+      main:
+        title: 'المنطقة الرئيسية'
+        description: 'يمكن أن ينمو المحتوى الرئيسي بشكل طبيعي مع تباعد قياسي.'
+      aside:
+        title: 'منطقة جانبية'
+        description: 'تستخدم هذه المنطقة الجانبية خلفية فاتحة لتسليط الضوء على المحتوى التكميلي.'
+    zones_three:
+      title: 'تخطيط ثلاث مناطق'
+      status: مسودة
+      left:
+        title: 'اللوحة اليسرى'
+        description: 'يمكن أن تعيش هنا الملاحة الثانوية أو البيانات الوصفية.'
+      main:
+        title: 'المحتوى الرئيسي'
+        description: 'تظل المعلومات الأساسية مركزة لسهولة القراءة.'
+      right:
+        title: 'اللوحة اليمنى'
+        description: 'يمكن تجميع الإجراءات والأفكار السياقية على هذا الجانب.'
+      footer:
+        meta: 'تم التحديث منذ دقيقتين'
+        action: 'فتح التفاصيل'
+  figure:
+    projections: التوقعات
+    uptime: 'مدة التشغيل'
+    status: مباشر
+    framed:
+      title: 'معدل الإنتاجية'
+      label: 'الأحداث في الثانية'
+  tab:
+    one: 'نظرة عامة'
+    two: نشاط
+    three: الإعدادات
+  button:
+    create: 'إنشاء توقع'
+    refresh: 'تحديث البيانات'
+    export: تصدير
+  action:
+    add_projection: 'إضافة توقع'
+  link:
+    starter:
+      title: المبتدئ
+      description: 'شخص واحد، الأساسيات، لا شيء للدفع.'
+    team:
+      title: الفريق
+      description: 'بعض الأشخاص يعملون على نفس الأمور.'
+    company:
+      title: الشركة
+      description: 'كل فريق، مع الضوابط التي تطلبها المؤسسة.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ব্লক
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'মাটিটি ব্লকের নিজস্ব, শুধুমাত্র নেতৃত্বকারী প্রান্তটি রঙ ধারণ করে।'
+  section:
+    tone:
+      title: 'একটি টোন ধারণকারী ব্লক'
+      description: 'একটি অবস্থার — অথবা একটি শ্রেণীর — রঙ একটি বার হিসেবে নেতৃত্বকারী প্রান্তে, এবং কিছুই নয়: একই বার একটি বার্তা ধারণ করে, রঙহীন মাটির ছাড়া, তাই তাদের একটি তালিকা হিসেবে পড়া হয় এবং সতর্কতা হিসেবে নয়। যে কোনো ব্লক এটি গ্রহণ করে, একটি ব্লক দাঁড়িয়ে থাকা একটি বার অন্তর্ভুক্ত।'
+    default:
+      title: 'মূল ব্লক'
+    advanced:
+      title: 'উন্নত ব্লক'
+    aside:
+      title: 'স্থির পাশের কলাম'
+      description: 'একটি সংকীর্ণ কলাম --সাইজ স্কেলে মাপা, একটি দেহের পাশে যা বাকি প্রস্থ শোষণ করে।'
+    card:
+      title: কার্ড
+    link:
+      title: 'একটি ব্লক যা একটি লিঙ্ক'
+      description: 'পুরো কার্ডটি লিঙ্ক — একাধিক কার্ডের মধ্যে একটি বেছে নিয়ে একটি পছন্দের জন্য: একটি পরিকল্পনা, একটি শাখা, একটি টেমপ্লেট। এটি পাঠ্য হিসেবে পড়া হয়, একটি ম্লান ক্রিয়ার মতো নয়; পয়েন্টারের নিচে এর মাটি একটি সূক্ষ্মতা নেয় এবং এর প্রান্ত দৃঢ় হয়, এবং কীবোর্ড এটিকে ফোকাস রিং দ্বারা খুঁজে পায় যা প্রতিটি নিয়ন্ত্রণ ধারণ করে।'
+    figure:
+      title: ফিগার
+      description: 'একটি একক বড় মান বা আইকন, কেন্দ্রীভূত। ড্যাশবোর্ড কাউন্টার এবং স্ট্যাটাস টাইলের জন্য ব্যবহৃত হয় — টাইলটিকে স্কোয়ার রাখতে block--square যোগ করুন যেকোনো প্রস্থে।'
+    stacks:
+      title: স্ট্যাক
+    stack_horizontal:
+      title: অনুভূমিক
+      description: 'সমান কলাম, পূর্ণ প্রস্থ, ওভারফ্লোতে মোড়ানো।'
+    stack_vertical:
+      title: উল্লম্ব
+      description: 'স্ট্যাক করা সারি, পূর্ণ প্রস্থ, সমান ফাঁক।'
+    stack_split:
+      title: বিচ্ছেদ
+      description: 'প্রথম সন্তান বৃদ্ধি পায়, শেষ সন্তান স্থির থাকে — নেতৃত্ব + ক্রিয়ার সারির জন্য ব্যবহৃত।'
+    stack_nested:
+      title: নেস্টেড
+      description: 'অনুভূমিক স্ট্যাক যা উল্লম্ব স্ট্যাক ধারণ করে — সাধারণ ড্যাশবোর্ড গ্রিড।'
+  stack:
+    item:
+      one: একটি
+      two: দুটি
+      three: তিনটি
+      four: চারটি
+      lead: 'এই লিড টেক্সটে ক্রিয়াটি বর্ণনা করুন।'
+      action: ক্রিয়া
+  block:
+    title: 'ব্লক শিরোনাম'
+    no_padding: 'প্যাডিং ছাড়া ব্লক (block--body ব্যবহার করে)।'
+    one:
+      title: 'প্রাথমিক ব্লক'
+      description: 'একটি শিরোনাম এবং দেহের টেক্সট সহ একটি ব্লক।'
+    two:
+      title: 'দ্বিতীয় ব্লক'
+      description: 'স্পেসিং প্রদর্শনের জন্য আরেকটি ব্লক।'
+    three:
+      title: 'তৃতীয় ব্লক'
+      description: 'সারিতে একটি তৃতীয় ব্লক।'
+    four:
+      title: 'চতুর্থ ব্লক'
+      description: 'লেআউট প্রদর্শনের জন্য একটি চতুর্থ ব্লক।'
+    advanced:
+      title: 'পাইপলাইন প্রকল্প'
+      status: প্রস্তুত
+      description: 'এই ব্লকটি একটি একক পুনরায় ব্যবহারযোগ্য কাঠামোতে শিরোনাম স্লট এবং বিষয়বস্তু একত্রিত করে।'
+      details: 'অপারেটরগুলো বর্তমান প্রসঙ্গ ছাড়াই যোগ করা যেতে পারে।'
+    zones:
+      main:
+        title: 'মুখ্য অঞ্চল'
+        description: 'মুখ্য বিষয়বস্তু স্বাভাবিকভাবে মানক স্পেসিং সহ বৃদ্ধি পেতে পারে।'
+      aside:
+        title: 'পাশের অঞ্চল'
+        description: 'এই পাশের অঞ্চলটি সম্পূরক বিষয়বস্তু হাইলাইট করতে একটি হালকা পটভূমি ব্যবহার করে।'
+    zones_three:
+      title: 'তিন-জোন লেআউট'
+      status: ড্রাফট
+      left:
+        title: 'বাম প্যানেল'
+        description: 'গৌণ নেভিগেশন বা মেটাডেটা এখানে থাকতে পারে।'
+      main:
+        title: 'মুখ্য বিষয়বস্তু'
+        description: 'প্রাথমিক তথ্য পাঠযোগ্যতার জন্য কেন্দ্রীভূত থাকে।'
+      right:
+        title: 'ডান প্যানেল'
+        description: 'প্রেক্ষাপটের ক্রিয়া এবং অন্তর্দৃষ্টি এই পাশে গ্রুপ করা যেতে পারে।'
+      footer:
+        meta: '২ মিনিট আগে আপডেট হয়েছে'
+        action: 'বিস্তারিত খুলুন'
+  figure:
+    projections: প্রকল্প
+    uptime: আপটাইম
+    status: লাইভ
+    framed:
+      title: থ্রুপুট
+      label: 'প্রতি সেকেন্ডে ইভেন্ট'
+  tab:
+    one: সারসংক্ষেপ
+    two: ক্রিয়াকলাপ
+    three: সেটিংস
+  button:
+    create: 'প্রকল্প তৈরি করুন'
+    refresh: 'তথ্য রিফ্রেশ করুন'
+    export: 'রপ্তানি করুন'
+  action:
+    add_projection: 'প্রকল্প যোগ করুন'
+  link:
+    starter:
+      title: স্টার্টার
+      description: 'একজন ব্যক্তি, মৌলিক বিষয়, কোনো অর্থ প্রদান নেই।'
+    team:
+      title: দল
+      description: 'একই বিষয়গুলোর উপর কয়েকজন কাজ করছে।'
+    company:
+      title: কোম্পানি
+      description: 'প্রতিটি দল, সংগঠনের জন্য প্রয়োজনীয় নিয়ন্ত্রণ সহ।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Blöcke
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'Der Boden gehört zum Block, nur die Vorderkante trägt die Farbe.'
+  section:
+    tone:
+      title: 'Ein Block mit einem Ton'
+      description: 'Die Farbe eines Zustands — oder einer Kategorie — als Leiste an der Vorderkante, und nichts anderes: dieselbe Leiste, die eine Nachricht trägt, ohne den gefärbten Hintergrund, damit eine Liste von ihnen als Liste und nicht als Alarm gelesen wird. Jeder Block kann es tragen, auch eine Leiste, die auf einem Block steht.'
+    default:
+      title: Basisblöcke
+    advanced:
+      title: 'Erweiterte Blöcke'
+    aside:
+      title: 'Feststehende Seitenleiste'
+      description: 'Eine schmale Spalte, die nach der --Größenskala dimensioniert ist, neben einem Hauptinhalt, der die verbleibende Breite aufnimmt.'
+    card:
+      title: Karten
+    link:
+      title: 'Ein Block, der ein Link ist'
+      description: 'Die gesamte Karte ist der Link — für eine Auswahl, die durch das Auswählen einer Karte aus mehreren getroffen wird: ein Plan, ein Zweig, eine Vorlage. Es wird als Text gelesen, nicht als eine gedämpfte Aktion; unter dem Zeiger nimmt der Hintergrund einen Farbton an und die Kante wird fester, und die Tastatur findet es durch den Fokusring, den jede Steuerung trägt.'
+    figure:
+      title: Zahlen
+      description: 'Ein einzelner übergroßer Wert oder Icon, zentriert. Wird für Dashboard-Zähler und Statuskacheln verwendet — füge block--square hinzu, um die Kachel quadratisch zu halten, egal wie breit sie ist.'
+    stacks:
+      title: Stapel
+    stack_horizontal:
+      title: Horizontal
+      description: 'Gleiche Spalten, volle Breite, bricht bei Überlauf um.'
+    stack_vertical:
+      title: Vertikal
+      description: 'Gestapelte Reihen, volle Breite, einheitlicher Abstand.'
+    stack_split:
+      title: Geteilt
+      description: 'Erstes Kind wächst, letztes Kind bleibt fix — verwendet für führende + Aktionsreihen.'
+    stack_nested:
+      title: Verschachtelt
+      description: 'Horizontaler Stapel, der vertikale Stapel enthält — typisches Dashboard-Gitter.'
+  stack:
+    item:
+      one: Eins
+      two: Zwei
+      three: Drei
+      four: Vier
+      lead: 'Beschreibe die Aktion in diesem einleitenden Text.'
+      action: Aktion
+  block:
+    title: Blocktitel
+    no_padding: 'Block ohne Padding (unter Verwendung von block--body).'
+    one:
+      title: 'Primärer Block'
+      description: 'Ein Block mit einem Titel und Text.'
+    two:
+      title: 'Sekundärer Block'
+      description: 'Ein weiterer Block zur Demonstration des Abstands.'
+    three:
+      title: 'Tertiärer Block'
+      description: 'Ein dritter Block in der Reihe.'
+    four:
+      title: 'Quartärer Block'
+      description: 'Ein vierter Block für die Layout-Demo.'
+    advanced:
+      title: Pipeline-Projektion
+      status: Bereit
+      description: 'Dieser Block kombiniert Titelplätze und Inhalte in einer einzelnen wiederverwendbaren Struktur.'
+      details: 'Operatoren können hinzugefügt werden, ohne den aktuellen Kontext zu verlassen.'
+    zones:
+      main:
+        title: Hauptzone
+        description: 'Hauptinhalt kann natürlich mit standardmäßigem Abstand wachsen.'
+      aside:
+        title: Nebenzone
+        description: 'Diese Seitenzone verwendet einen hellen Hintergrund, um ergänzenden Inhalt hervorzuheben.'
+    zones_three:
+      title: Dreizonenslayout
+      status: Entwurf
+      left:
+        title: 'Linkes Panel'
+        description: 'Sekundäre Navigation oder Metadaten können hier leben.'
+      main:
+        title: Hauptinhalt
+        description: 'Primäre Informationen bleiben zentriert für bessere Lesbarkeit.'
+      right:
+        title: 'Rechtes Panel'
+        description: 'Kontextuelle Aktionen und Einblicke können auf dieser Seite gruppiert werden.'
+      footer:
+        meta: 'Vor 2 Minuten aktualisiert'
+        action: 'Details öffnen'
+  figure:
+    projections: Projektionen
+    uptime: Betriebszeit
+    status: Live
+    framed:
+      title: Durchsatz
+      label: 'Ereignisse pro Sekunde'
+  tab:
+    one: Übersicht
+    two: Aktivität
+    three: Einstellungen
+  button:
+    create: 'Projektion erstellen'
+    refresh: 'Daten aktualisieren'
+    export: Exportieren
+  action:
+    add_projection: 'Projektion hinzufügen'
+  link:
+    starter:
+      title: Starter
+      description: 'Eine Person, das Wesentliche, nichts zu zahlen.'
+    team:
+      title: Team
+      description: 'Einige Personen arbeiten an denselben Dingen.'
+    company:
+      title: Unternehmen
+      description: 'Jedes Team, mit den Steuerungen, die eine Organisation verlangt.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bloques
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'el suelo es propio del bloque, solo el borde delantero lleva el color.'
+  section:
+    tone:
+      title: 'Un bloque que lleva un tono'
+      description: 'El color de un estado — o de una categoría — como una barra en el borde delantero, y nada más: la misma barra que lleva un mensaje, sin el suelo tintado, para que una lista de ellos se lea como una lista y no como una alarma. Cualquier bloque lo acepta, incluida una barra que se sostiene en un bloque.'
+    default:
+      title: 'Bloques básicos'
+    advanced:
+      title: 'Bloques avanzados'
+    aside:
+      title: 'Columna fija al lado'
+      description: 'Una columna estrecha dimensionada en la escala --size, al lado de un cuerpo que absorbe el ancho restante.'
+    card:
+      title: Tarjetas
+    link:
+      title: 'Un bloque que es un enlace'
+      description: 'Toda la tarjeta es el enlace — para una elección hecha al seleccionar una tarjeta entre varias: un plan, una rama, una plantilla. Se lee como texto, no como una acción atenuada; bajo el puntero su suelo toma un matiz y su borde se endurece, y el teclado lo encuentra por el anillo de enfoque que cada control lleva.'
+    figure:
+      title: Figuras
+      description: 'Un único valor o ícono sobredimensionado, centrado. Usado para contadores de panel y mosaicos de estado — añade block--square para mantener el mosaico cuadrado sin importar su ancho.'
+    stacks:
+      title: Pilotes
+    stack_horizontal:
+      title: Horizontal
+      description: 'Columnas iguales, ancho completo, se envuelven al desbordarse.'
+    stack_vertical:
+      title: Vertical
+      description: 'Filas apiladas, ancho completo, separación uniforme.'
+    stack_split:
+      title: Dividido
+      description: 'El primer hijo crece, el último hijo permanece fijo — utilizado para filas de lead + acción.'
+    stack_nested:
+      title: Anidado
+      description: 'Pila horizontal que contiene pilas verticales — cuadrícula de panel típica.'
+  stack:
+    item:
+      one: Uno
+      two: Dos
+      three: Tres
+      four: Cuatro
+      lead: 'Describe la acción en este texto de lead.'
+      action: Acción
+  block:
+    title: 'Título del bloque'
+    no_padding: 'Bloque sin relleno (usando block--body).'
+    one:
+      title: 'Bloque primario'
+      description: 'Un bloque con un título y texto en el cuerpo.'
+    two:
+      title: 'Bloque secundario'
+      description: 'Otro bloque para demostrar el espaciado.'
+    three:
+      title: 'Bloque terciario'
+      description: 'Un tercer bloque en la fila.'
+    four:
+      title: 'Bloque cuaternario'
+      description: 'Un cuarto bloque para la demostración del diseño.'
+    advanced:
+      title: 'Proyección de pipeline'
+      status: Listo
+      description: 'Este bloque combina espacios de título y contenido en una única estructura reutilizable.'
+      details: 'Se pueden agregar operadores sin salir del contexto actual.'
+    zones:
+      main:
+        title: 'Zona principal'
+        description: 'El contenido principal puede crecer naturalmente con espaciado estándar.'
+      aside:
+        title: 'Zona lateral'
+        description: 'Esta zona lateral utiliza un fondo claro para resaltar contenido complementario.'
+    zones_three:
+      title: 'Diseño de tres zonas'
+      status: Borrador
+      left:
+        title: 'Panel izquierdo'
+        description: 'La navegación secundaria o los metadatos pueden vivir aquí.'
+      main:
+        title: 'Contenido principal'
+        description: 'La información primaria se mantiene centrada para facilitar la lectura.'
+      right:
+        title: 'Panel derecho'
+        description: 'Las acciones contextuales y los conocimientos pueden agruparse en este lado.'
+      footer:
+        meta: 'Actualizado hace 2 minutos'
+        action: 'Abrir detalles'
+  figure:
+    projections: Proyecciones
+    uptime: 'Tiempo de actividad'
+    status: 'En vivo'
+    framed:
+      title: Rendimiento
+      label: 'Eventos por segundo'
+  tab:
+    one: Resumen
+    two: Actividad
+    three: Configuraciones
+  button:
+    create: 'Crear proyección'
+    refresh: 'Actualizar datos'
+    export: Exportar
+  action:
+    add_projection: 'Agregar proyección'
+  link:
+    starter:
+      title: Iniciador
+      description: 'Una persona, lo esencial, nada que pagar.'
+    team:
+      title: Equipo
+      description: 'Unos pocos trabajando en las mismas cosas.'
+    company:
+      title: Empresa
+      description: 'Cada equipo, con los controles que una organización pide.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بلوک‌ها
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'زمین متعلق به بلوک است، تنها لبه پیشرو رنگ را حمل می‌کند.'
+  section:
+    tone:
+      title: 'یک بلوک با یک رنگ'
+      description: 'رنگ یک حالت — یا یک دسته — به عنوان نوار در لبه پیشرو، و هیچ چیز دیگر: همان ناری که یک پیام به دوش می‌کشد، بدون زمین رنگی، بنابراین فهرستی از آن‌ها به عنوان یک فهرست خوانده می‌شود و نه به عنوان یک هشدار. هر بلوکی این را می‌گیرد، ناری که بر روی یک بلوک ایستاده است شامل می‌شود.'
+    default:
+      title: 'بلوک‌های پایه'
+    advanced:
+      title: 'بلوک‌های پیشرفته'
+    aside:
+      title: 'ستون کناری ثابت'
+      description: 'ستون باریکی بر اساس مقیاس --size، در کنار بدنه‌ای که عرض باقی‌مانده را جذب می‌کند.'
+    card:
+      title: کارت‌ها
+    link:
+      title: 'بلوک به عنوان یک لینک'
+      description: 'کل کارت لینک است — برای انتخابی که با انتخاب یک کارت از چندین کارت انجام می‌شود: یک طرح، یک شاخه، یک الگو. این به عنوان متن خوانده می‌شود، نه به عنوان یک عمل محو؛ زیر نشانگر زمینش نوانس می‌گیرد و لبه‌اش محکم می‌شود، و کیبورد آن را با حلقه تمرکز که هر کنترل دارد پیدا می‌کند.'
+    figure:
+      title: شکل‌ها
+      description: 'یک مقدار یا آیکون بزرگ و متمرکز. برای شمارنده‌های داشبورد و کاشی‌های وضعیت — به بلوک--مربع اضافه کنید تا کاشی به هر عرضی مربع بماند.'
+    stacks:
+      title: پشته‌ها
+    stack_horizontal:
+      title: افقی
+      description: 'ستون‌های برابر، با عرض کامل، در صورت Overflow پیچیده می‌شود.'
+    stack_vertical:
+      title: عمودی
+      description: 'ردیف‌های انباشته، با عرض کامل، فاصله یکنواخت.'
+    stack_split:
+      title: 'تقسیم شده'
+      description: 'فرزند اول رشد می‌کند، فرزند آخر ثابت می‌ماند — برای ردیف‌های رهبری + عمل استفاده می‌شود.'
+    stack_nested:
+      title: تودرتو
+      description: 'پشته افقی شامل پشته‌های عمودی — شبکه معمولی داشبورد.'
+  stack:
+    item:
+      one: یک
+      two: دو
+      three: سه
+      four: چهار
+      lead: 'عمل را در این متن رهبری توصیف کنید.'
+      action: عمل
+  block:
+    title: 'عنوان بلوک'
+    no_padding: 'بلوک بدون حاشیه (با استفاده از block--body).'
+    one:
+      title: 'بلوک اصلی'
+      description: 'یک بلوک با عنوان و متن بدنه.'
+    two:
+      title: 'بلوک ثانویه'
+      description: 'بلوک دیگری برای نشان دادن فاصله.'
+    three:
+      title: 'بلوک سوم'
+      description: 'بلوک سوم در ردیف.'
+    four:
+      title: 'بلوک چهارم'
+      description: 'بلوک چهارم برای نمایش چیدمان.'
+    advanced:
+      title: 'پیش‌بینی خط لوله'
+      status: آماده
+      description: 'این بلوک اسلات‌های عنوان و محتوا را در یک ساختار قابل استفاده مجدد ترکیب می‌کند.'
+      details: 'عملگرها می‌توانند بدون ترک کردن زمینه فعلی اضافه شوند.'
+    zones:
+      main:
+        title: 'منطقه اصلی'
+        description: 'محتوای اصلی می‌تواند به طور طبیعی با فاصله استاندارد رشد کند.'
+      aside:
+        title: 'منطقه کناری'
+        description: 'این منطقه کناری از پس‌زمینه روشن برای برجسته کردن محتوای مکمل استفاده می‌کند.'
+    zones_three:
+      title: 'چیدمان سه‌منطقه‌ای'
+      status: پیش‌نویس
+      left:
+        title: 'پنل چپ'
+        description: 'ناوبری ثانویه یا متاداده می‌تواند در اینجا زندگی کند.'
+      main:
+        title: 'محتوای اصلی'
+        description: 'اطلاعات اصلی برای خوانایی در مرکز باقی می‌ماند.'
+      right:
+        title: 'پنل راست'
+        description: 'عملیات و بینش‌های مربوطه می‌توانند در این سمت گروه‌بندی شوند.'
+      footer:
+        meta: 'دو دقیقه پیش به‌روزرسانی شد'
+        action: 'جزئیات را باز کنید'
+  figure:
+    projections: پیش‌بینی‌ها
+    uptime: 'زمان فعالیت'
+    status: زنده
+    framed:
+      title: تولید
+      label: 'رویداد در ثانیه'
+  tab:
+    one: 'بررسی اجمالی'
+    two: فعالیت
+    three: تنظیمات
+  button:
+    create: 'ایجاد پیش‌بینی'
+    refresh: 'به‌روزرسانی داده‌ها'
+    export: 'صادر کردن'
+  action:
+    add_projection: 'پیش‌بینی اضافه کنید'
+  link:
+    starter:
+      title: مبتدی
+      description: 'یک نفر، ضروریات، بدون هزینه.'
+    team:
+      title: تیم
+      description: 'چند نفر که روی یک موضوع کار می‌کنند.'
+    company:
+      title: شرکت
+      description: 'هر تیم، با کنترل‌هایی که یک سازمان درخواست می‌کند.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Loitsut
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'maan pinta pysyy lohkon omana, vain etureuna kantaa väriä.'
+  section:
+    tone:
+      title: 'Väriä kantava lohko'
+      description: 'Valtion — tai kategorian — väri etureunassa, eikä mitään muuta: sama palkki, jonka viesti kantaa, ilman värillistä taustaa, jotta niiden lista luettaisiin listana eikä hälytyksenä. Mikä tahansa lohko ottaa sen, myös palkki, joka seisoo lohkolla.'
+    default:
+      title: Peruslohkot
+    advanced:
+      title: 'Edistyneet lohkot'
+    aside:
+      title: 'Kiinteä sivupaneeli'
+      description: 'Kapea sarake, joka on mitoitettu --size-asteikolla, vartalon viereen, joka vie jäljelle jäävän leveyden.'
+    card:
+      title: Kortit
+    link:
+      title: 'Lohko, joka on linkki'
+      description: 'Koko kortti on linkki — valinta, joka tehdään valitsemalla yksi kortti useista: suunnitelma, haara, malli. Se luetaan tekstinä, ei vaimeana toimintona; osoittimen alla sen tausta saa sävyn ja sen reuna tiivistyy, ja näppäimistö löytää sen fokussiren avulla, joka jokaisella ohjaimella on.'
+    figure:
+      title: Kuvastot
+      description: 'Yksi suurennettu arvo tai ikoni, keskitetty. Käytetään hallintapaneelin laskureissa ja tilatilanteissa — lisää block--square, jotta laatikko pysyy neliönä sen leveydestä huolimatta.'
+    stacks:
+      title: Pinoja
+    stack_horizontal:
+      title: Vaakasuora
+      description: 'Tasakokoiset sarakkeet, täysi leveys, kääntyy ylivuodossa.'
+    stack_vertical:
+      title: Pystysuora
+      description: 'Pinoamattomat rivit, täysi leveys, tasainen väli.'
+    stack_split:
+      title: Jaettu
+      description: 'Ensimmäinen lapsi kasvaa, viimeinen lapsi pysyy kiinteänä — käytetään johtaja + toiminta riveissä.'
+    stack_nested:
+      title: Sisäkkäin
+      description: 'Vaakasuora pino, joka sisältää pystysuoria pinoja — tyypillinen hallintapaneelin ruudukko.'
+  stack:
+    item:
+      one: Yksi
+      two: Kaksi
+      three: Kolme
+      four: Neljä
+      lead: 'Kuvaile toimintoa tässä johdantotekstissä.'
+      action: Toiminto
+  block:
+    title: 'Lohkon otsikko'
+    no_padding: 'Lohko ilman täytettä (käyttäen block--body).'
+    one:
+      title: Päälohko
+      description: 'Lohko, jossa on otsikko ja tekstisisältö.'
+    two:
+      title: 'Toissijainen lohko'
+      description: 'Toinen lohko välinäytön esittelemiseksi.'
+    three:
+      title: 'Kolmas lohko'
+      description: 'Kolmas lohko rivissä.'
+    four:
+      title: 'Neljäs lohko'
+      description: 'Neljäs lohko asetteludemonstrointia varten.'
+    advanced:
+      title: 'Putkilinjan projekti'
+      status: Valmis
+      description: 'Tämä lohko yhdistää otsikkoslotit ja sisällön yhteen uudelleen käytettävään rakenteeseen.'
+      details: 'Operaattoreita voidaan lisätä ilman, että nykyisestä kontekstista poistutaan.'
+    zones:
+      main:
+        title: Pääalue
+        description: 'Pääsisältö voi kasvaa luonnollisesti standardivälin kanssa.'
+      aside:
+        title: Sivuala
+        description: 'Tämä sivualue käyttää vaaleaa taustaa korostaakseen täydentävää sisältöä.'
+    zones_three:
+      title: 'Kolme-alueen asettelu'
+      status: Luonnos
+      left:
+        title: 'Vasen paneeli'
+        description: 'Toissijainen navigointi tai metadata voi elää täällä.'
+      main:
+        title: Pääsisältö
+        description: 'Pääinformaatio pysyy keskitettynä luettavuutta varten.'
+      right:
+        title: 'Oikea paneeli'
+        description: 'Kontekstuaalisia toimintoja ja oivalluksia voidaan ryhmitellä tälle puolelle.'
+      footer:
+        meta: 'Päivitetty 2 minuuttia sitten'
+        action: 'Avaa yksityiskohdat'
+  figure:
+    projections: Projektit
+    uptime: Käyttöaika
+    status: Reaalimaailma
+    framed:
+      title: Läpäisy
+      label: 'Tapahtumat sekunnissa'
+  tab:
+    one: Yhteenveto
+    two: Toiminta
+    three: Asetukset
+  button:
+    create: 'Luo projekti'
+    refresh: 'Päivitä tiedot'
+    export: Vie
+  action:
+    add_projection: 'Lisää projekti'
+  link:
+    starter:
+      title: Aloituspaketti
+      description: 'Yksi henkilö, perusasiat, ei maksettavaa.'
+    team:
+      title: Tiimi
+      description: 'Muutama henkilö työskentelee samoissa asioissa.'
+    company:
+      title: Yritys
+      description: 'Jokainen tiimi, niillä hallintovälineillä, joita organisaatio vaatii.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Blocs
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'le sol reste celui du bloc, seule la bordure avant porte la couleur.'
+  section:
+    tone:
+      title: 'Un bloc portant un ton'
+      description: "La couleur d'un état — ou d'une catégorie — sous forme de barre sur la bordure avant, et rien d'autre : la même barre qu'un message porte, sans le sol teinté, de sorte qu'une liste de ceux-ci se lit comme une liste et non comme une alarme. Tout bloc peut l'adopter, une barre se tenant sur un bloc inclus."
+    default:
+      title: 'Blocs de base'
+    advanced:
+      title: 'Blocs avancés'
+    aside:
+      title: 'Colonne fixe à côté'
+      description: "Une colonne étroite dimensionnée sur l'échelle --size, à côté d'un corps qui absorbe la largeur restante."
+    card:
+      title: Cartes
+    link:
+      title: 'Un bloc qui est un lien'
+      description: "Toute la carte est le lien — pour un choix fait en sélectionnant une carte parmi plusieurs : un plan, une branche, un modèle. Cela se lit comme du texte, pas comme une action atténuée ; sous le pointeur, son sol prend une nuance et son bord se renforce, et le clavier le trouve par l'anneau de focus que chaque contrôle porte."
+    figure:
+      title: Figures
+      description: 'Une seule valeur ou icône surdimensionnée, centrée. Utilisé pour les compteurs de tableau de bord et les tuiles de statut — ajoutez block--square pour garder la tuile carrée quelle que soit sa largeur.'
+    stacks:
+      title: Empilements
+    stack_horizontal:
+      title: Horizontal
+      description: 'Colonnes égales, pleine largeur, se replie en cas de débordement.'
+    stack_vertical:
+      title: Vertical
+      description: 'Lignes empilées, pleine largeur, espacement uniforme.'
+    stack_split:
+      title: Démembré
+      description: 'Le premier enfant grandit, le dernier enfant reste fixe — utilisé pour les lignes de lead + action.'
+    stack_nested:
+      title: Imbriqué
+      description: 'Empilement horizontal contenant des empilements verticaux — grille de tableau de bord typique.'
+  stack:
+    item:
+      one: Un
+      two: Deux
+      three: Trois
+      four: Quatre
+      lead: "Décrivez l'action dans ce texte de lead."
+      action: Action
+  block:
+    title: 'Titre du bloc'
+    no_padding: 'Bloc sans padding (utilisant block--body).'
+    one:
+      title: 'Bloc principal'
+      description: 'Un bloc avec un titre et un texte de corps.'
+    two:
+      title: 'Bloc secondaire'
+      description: "Un autre bloc pour démontrer l'espacement."
+    three:
+      title: 'Bloc tertiaire'
+      description: 'Un troisième bloc dans la rangée.'
+    four:
+      title: 'Bloc quaternaire'
+      description: 'Un quatrième bloc pour la démonstration de mise en page.'
+    advanced:
+      title: 'Projection de pipeline'
+      status: Prêt
+      description: 'Ce bloc combine des emplacements de titre et du contenu dans une seule structure réutilisable.'
+      details: 'Des opérateurs peuvent être ajoutés sans quitter le contexte actuel.'
+    zones:
+      main:
+        title: 'Zone principale'
+        description: 'Le contenu principal peut croître naturellement avec un espacement standard.'
+      aside:
+        title: 'Zone à côté'
+        description: 'Cette zone latérale utilise un fond clair pour mettre en valeur le contenu complémentaire.'
+    zones_three:
+      title: 'Mise en page à trois zones'
+      status: Brouillon
+      left:
+        title: 'Panneau gauche'
+        description: 'La navigation secondaire ou les métadonnées peuvent vivre ici.'
+      main:
+        title: 'Contenu principal'
+        description: 'Les informations principales restent centrées pour la lisibilité.'
+      right:
+        title: 'Panneau droit'
+        description: 'Les actions contextuelles et les aperçus peuvent être regroupés de ce côté.'
+      footer:
+        meta: 'Mis à jour il y a 2 minutes'
+        action: 'Ouvrir les détails'
+  figure:
+    projections: Projections
+    uptime: 'Temps de disponibilité'
+    status: 'En direct'
+    framed:
+      title: Débit
+      label: 'Événements par seconde'
+  tab:
+    one: Aperçu
+    two: Activité
+    three: Paramètres
+  button:
+    create: 'Créer une projection'
+    refresh: 'Rafraîchir les données'
+    export: Exporter
+  action:
+    add_projection: 'Ajouter une projection'
+  link:
+    starter:
+      title: Démarreur
+      description: 'Une personne, les essentiels, rien à payer.'
+    team:
+      title: Équipe
+      description: 'Quelques personnes travaillant sur les mêmes choses.'
+    company:
+      title: Entreprise
+      description: "Chaque équipe, avec les contrôles qu'une organisation demande."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: בלוקים
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'הקרקע נשארת של הבלוק, רק הקצה המוביל נושא את הצבע.'
+  section:
+    tone:
+      title: 'בלוק נושא גוון'
+      description: 'צבע של מצב — או של קטגוריה — כמו פס לאורך הקצה המוביל, ולא יותר: אותו פס שלובש הודעה, בלי הקרקע המגוננת, כך שרשימה מהם נקראת כרשימה ולא כאזעקה. כל בלוק לוקח את זה, פס העומד על בלוק כלול.'
+    default:
+      title: 'בלוקים בסיסיים'
+    advanced:
+      title: 'בלוקים מתקדמים'
+    aside:
+      title: 'עמודה קבועה בצד'
+      description: 'עמודה צרה בגודל על פי --גודל, ליד גוף שסופג את הרוחב הנותר.'
+    card:
+      title: כרטיסים
+    link:
+      title: 'בלוק שהוא קישור'
+      description: 'הכרטיס כולו הוא הקישור — עבור בחירה שנעשית על ידי בחירת כרטיס אחד מתוך מספר: תוכנית, ענף, תבנית. זה נקרא כטקסט, לא כפעולה מוחלשת; תחת הסמן הקרקע שלו לוקחת גוון והקצה מתייצב, והמקלדת מוצאת אותו על ידי טבעת הפוקוס שכל שליטה נושאת.'
+    figure:
+      title: דמויות
+      description: 'ערך או אייקון אחד מוגדל, ממורכז. משמש עבור מדדים בלוח מחוונים ולוחות סטטוס — הוסף block--square כדי לשמור על הלוח מרובע לא משנה מה רוחבו.'
+    stacks:
+      title: ערימות
+    stack_horizontal:
+      title: אופקי
+      description: 'עמודות שוות, ברוחב מלא, מתעטפות כאשר יש שפע.'
+    stack_vertical:
+      title: אנכי
+      description: 'שורות מוערמות, ברוחב מלא, רווח אחיד.'
+    stack_split:
+      title: מפוצל
+      description: 'הילד הראשון גדל, הילד האחרון נשאר קבוע — משמש עבור שורות מובילות + פעולות.'
+    stack_nested:
+      title: מקונן
+      description: 'ערימה אופקית המכילה ערימות אנכיות — רשת לוח מחוונים טיפוסית.'
+  stack:
+    item:
+      one: אחד
+      two: שניים
+      three: שלושה
+      four: ארבעה
+      lead: 'תאר את הפעולה בטקסט המוביל הזה.'
+      action: פעולה
+  block:
+    title: 'כותרת הבלוק'
+    no_padding: 'בלוק ללא ריפוד (באמצעות block--body).'
+    one:
+      title: 'בלוק ראשי'
+      description: 'בלוק עם כותרת וטקסט גוף.'
+    two:
+      title: 'בלוק משני'
+      description: 'בלוק נוסף להדגמת רווחים.'
+    three:
+      title: 'בלוק שלישי'
+      description: 'בלוק שלישי בשורה.'
+    four:
+      title: 'בלוק רביעי'
+      description: 'בלוק רביעי לדוגמת פריסה.'
+    advanced:
+      title: 'פרויקט צינור'
+      status: מוכן
+      description: 'בלוק זה משלב חריצי כותרת ותוכן במבנה אחד שניתן לעשות בו שימוש חוזר.'
+      details: 'אפשר להוסיף אופרטורים מבלי לעזוב את ההקשר הנוכחי.'
+    zones:
+      main:
+        title: 'אזור ראשי'
+        description: 'התוכן הראשי יכול לגדול בצורה טבעית עם רווחים סטנדרטיים.'
+      aside:
+        title: 'אזור צדדי'
+        description: 'אזור צד זה משתמש ברקע בהיר כדי להדגיש תוכן משלים.'
+    zones_three:
+      title: 'פריסת שלושה אזורים'
+      status: טיוטה
+      left:
+        title: 'פאנל שמאלי'
+        description: 'ניווט משני או מטאדאטה יכולים להתגורר כאן.'
+      main:
+        title: 'תוכן ראשי'
+        description: 'מידע ראשי נשאר ממורכז לקריאות.'
+      right:
+        title: 'פאנל ימני'
+        description: 'פעולות והבנות הקשר יכולות להיות מקובצות בצד זה.'
+      footer:
+        meta: 'עודכן לפני 2 דקות'
+        action: 'פתח פרטים'
+  figure:
+    projections: תחזיות
+    uptime: 'זמן פעילות'
+    status: חי
+    framed:
+      title: קיבולת
+      label: 'אירועים בשנייה'
+  tab:
+    one: 'סקירה כללית'
+    two: פעילות
+    three: הגדרות
+  button:
+    create: 'צור תחזית'
+    refresh: 'רענן נתונים'
+    export: ייצא
+  action:
+    add_projection: 'הוסף תחזית'
+  link:
+    starter:
+      title: מתחיל
+      description: 'אדם אחד, הדברים הבסיסיים, אין צורך לשלם.'
+    team:
+      title: צוות
+      description: 'כמה אנשים עובדים על אותם דברים.'
+    company:
+      title: חברה
+      description: 'כל צוות, עם השליטה שהארגון מבקש.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ब्लॉक
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'ज़मीन ब्लॉक की अपनी है, केवल अग्रणी किनारा रंग ले जाता है।'
+  section:
+    tone:
+      title: 'एक टोन ले जाने वाला ब्लॉक'
+      description: 'एक राज्य का रंग — या एक श्रेणी का — अग्रणी किनारे पर एक बार के रूप में, और कुछ नहीं: वही बार एक संदेश पहनता है, बिना रंगीन ज़मीन के, ताकि उनकी सूची एक सूची के रूप में पढ़ी जाए और अलार्म के रूप में नहीं। कोई भी ब्लॉक इसे ले सकता है, एक बार जो एक ब्लॉक पर खड़ा है।'
+    default:
+      title: 'बुनियादी ब्लॉक'
+    advanced:
+      title: 'उन्नत ब्लॉक'
+    aside:
+      title: 'फिक्स्ड साइड कॉलम'
+      description: 'एक संकीर्ण कॉलम जो --size स्केल पर माप लिया गया है, एक शरीर के बगल में जो शेष चौड़ाई को अवशोषित करता है।'
+    card:
+      title: कार्ड
+    link:
+      title: 'एक लिंक होने वाला ब्लॉक'
+      description: 'पूरा कार्ड लिंक है — एक विकल्प के लिए जो कई कार्ड में से एक को चुनने से बनाया गया है: एक योजना, एक शाखा, एक टेम्पलेट। यह पाठ के रूप में पढ़ता है, मौन क्रिया के रूप में नहीं; पॉइंटर के तहत इसकी ज़मीन एक बारीकी लेती है और इसका किनारा मजबूत हो जाता है, और कीबोर्ड इसे हर नियंत्रण द्वारा पहचाने जाने वाले फोकस रिंग से ढूंढता है।'
+    figure:
+      title: आकृतियाँ
+      description: 'एक एकल ओवरसाइज़्ड मान या आइकन, केंद्रित। डैशबोर्ड काउंटर और स्थिति टाइल के लिए उपयोग किया जाता है — टाइल को चौकोर रखने के लिए block--square जोड़ें चाहे इसकी चौड़ाई कोई भी हो।'
+    stacks:
+      title: स्टैक
+    stack_horizontal:
+      title: क्षैतिज
+      description: 'समान कॉलम, पूर्ण चौड़ाई, ओवरफ्लो पर लपेटता है।'
+    stack_vertical:
+      title: ऊर्ध्वाधर
+      description: 'स्टैक्ड पंक्तियाँ, पूर्ण चौड़ाई, समान गैप।'
+    stack_split:
+      title: विभाजित
+      description: 'पहला बच्चा बढ़ता है, अंतिम बच्चा स्थिर रहता है — लीड + क्रिया पंक्तियों के लिए उपयोग किया जाता है।'
+    stack_nested:
+      title: 'जुड़ा हुआ'
+      description: 'क्षैतिज स्टैक जिसमें ऊर्ध्वाधर स्टैक होते हैं — सामान्य डैशबोर्ड ग्रिड।'
+  stack:
+    item:
+      one: एक
+      two: दो
+      three: तीन
+      four: चार
+      lead: 'इस लीड टेक्स्ट में क्रिया का वर्णन करें।'
+      action: क्रिया
+  block:
+    title: 'ब्लॉक शीर्षक'
+    no_padding: 'पैडिंग के बिना ब्लॉक (block--body का उपयोग करते हुए)।'
+    one:
+      title: 'प्राथमिक ब्लॉक'
+      description: 'एक ब्लॉक जिसमें शीर्षक और शरीर का पाठ हो।'
+    two:
+      title: 'द्वितीयक ब्लॉक'
+      description: 'स्पेसिंग प्रदर्शित करने के लिए एक और ब्लॉक।'
+    three:
+      title: 'तृतीयक ब्लॉक'
+      description: 'पंक्ति में एक तीसरा ब्लॉक।'
+    four:
+      title: 'चतुर्थक ब्लॉक'
+      description: 'लेआउट डेमो के लिए एक चौथा ब्लॉक।'
+    advanced:
+      title: 'पाइपलाइन प्रक्षिप्ति'
+      status: तैयार
+      description: 'यह ब्लॉक शीर्षक स्लॉट और सामग्री को एकल पुन: प्रयोज्य संरचना में संयोजित करता है।'
+      details: 'ऑपरेटर बिना वर्तमान संदर्भ छोड़े जोड़े जा सकते हैं।'
+    zones:
+      main:
+        title: 'मुख्य क्षेत्र'
+        description: 'मुख्य सामग्री प्राकृतिक रूप से मानक स्पेसिंग के साथ बढ़ सकती है।'
+      aside:
+        title: 'साइड क्षेत्र'
+        description: 'यह साइड क्षेत्र हल्के पृष्ठभूमि का उपयोग करता है ताकि पूरक सामग्री को उजागर किया जा सके।'
+    zones_three:
+      title: 'तीन-क्षेत्र लेआउट'
+      status: ड्राफ्ट
+      left:
+        title: 'बाईं पैनल'
+        description: 'माध्यमिक नेविगेशन या मेटाडेटा यहां रह सकता है।'
+      main:
+        title: 'मुख्य सामग्री'
+        description: 'प्राथमिक जानकारी पठनीयता के लिए केंद्रित रहती है।'
+      right:
+        title: 'दाईं पैनल'
+        description: 'संदर्भ कार्य और अंतर्दृष्टियाँ इस पक्ष पर समूहित की जा सकती हैं।'
+      footer:
+        meta: '2 मिनट पहले अपडेट किया गया'
+        action: 'विवरण खोलें'
+  figure:
+    projections: प्रक्षिप्तियाँ
+    uptime: अपटाइम
+    status: सीधा
+    framed:
+      title: थ्रूपुट
+      label: 'प्रति सेकंड घटनाएँ'
+  tab:
+    one: अवलोकन
+    two: गतिविधि
+    three: सेटिंग्स
+  button:
+    create: 'प्रक्षिप्ति बनाएँ'
+    refresh: 'डेटा ताज़ा करें'
+    export: 'निर्यात करें'
+  action:
+    add_projection: 'प्रक्षिप्ति जोड़ें'
+  link:
+    starter:
+      title: स्टार्टर
+      description: 'एक व्यक्ति, आवश्यकताएँ, कुछ भी भुगतान करने की आवश्यकता नहीं।'
+    team:
+      title: टीम
+      description: 'कुछ लोग एक ही चीज़ों पर काम कर रहे हैं।'
+    company:
+      title: कंपनी
+      description: 'हर टीम, जिनके पास एक संगठन के लिए आवश्यक नियंत्रण हैं।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Blok
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'tanah tetap milik blok, hanya tepi depan yang membawa warna.'
+  section:
+    tone:
+      title: 'Sebuah blok yang membawa nada'
+      description: 'Warna dari sebuah keadaan — atau dari sebuah kategori — sebagai batang di tepi depan, dan tidak ada yang lain: batang yang sama yang dikenakan pesan, tanpa tanah yang berwarna, sehingga daftar tersebut terbaca sebagai daftar dan bukan sebagai alarm. Setiap blok bisa menggunakannya, batang yang berdiri di atas blok juga termasuk.'
+    default:
+      title: 'Blok dasar'
+    advanced:
+      title: 'Blok lanjutan'
+    aside:
+      title: 'Kolom samping tetap'
+      description: 'Sebuah kolom sempit yang disesuaikan dengan skala --size, di samping tubuh yang menyerap sisa lebar.'
+    card:
+      title: Kartu
+    link:
+      title: 'Sebuah blok yang merupakan tautan'
+      description: 'Seluruh kartu adalah tautan — untuk pilihan yang dibuat dengan memilih satu kartu di antara beberapa: sebuah rencana, sebuah cabang, sebuah template. Ini terbaca sebagai teks, bukan sebagai tindakan yang dibisukan; di bawah penunjuk, tanahnya mengambil nuansa dan tepinya menguat, dan keyboard menemukannya melalui cincin fokus yang dikenakan setiap kontrol.'
+    figure:
+      title: Angka
+      description: 'Sebuah nilai atau ikon besar, terpusat. Digunakan untuk penghitung dasbor dan ubin status — tambahkan block--square untuk menjaga ubin tetap persegi terlepas dari lebarnya.'
+    stacks:
+      title: Tumpukan
+    stack_horizontal:
+      title: Horizontal
+      description: 'Kolom yang sama, lebar penuh, membungkus saat meluap.'
+    stack_vertical:
+      title: Vertikal
+      description: 'Baris bertumpuk, lebar penuh, jarak seragam.'
+    stack_split:
+      title: Terpisah
+      description: 'Anak pertama tumbuh, anak terakhir tetap tetap — digunakan untuk baris utama + tindakan.'
+    stack_nested:
+      title: Bersemi
+      description: 'Tumpukan horizontal yang berisi tumpukan vertikal — grid dasbor yang khas.'
+  stack:
+    item:
+      one: Satu
+      two: Dua
+      three: Tiga
+      four: Empat
+      lead: 'Jelaskan tindakan dalam teks utama ini.'
+      action: Tindakan
+  block:
+    title: 'Judul blok'
+    no_padding: 'Blok tanpa padding (menggunakan block--body).'
+    one:
+      title: 'Blok utama'
+      description: 'Sebuah blok dengan judul dan teks tubuh.'
+    two:
+      title: 'Blok sekunder'
+      description: 'Blok lain untuk menunjukkan jarak.'
+    three:
+      title: 'Blok tersier'
+      description: 'Blok ketiga dalam baris.'
+    four:
+      title: 'Blok kuaterner'
+      description: 'Blok keempat untuk demo tata letak.'
+    advanced:
+      title: 'Proyeksi pipa'
+      status: Siap
+      description: 'Blok ini menggabungkan slot judul dan konten dalam satu struktur yang dapat digunakan kembali.'
+      details: 'Operator dapat ditambahkan tanpa meninggalkan konteks saat ini.'
+    zones:
+      main:
+        title: 'Zona utama'
+        description: 'Konten utama dapat tumbuh secara alami dengan jarak standar.'
+      aside:
+        title: 'Zona samping'
+        description: 'Zona samping ini menggunakan latar belakang yang ringan untuk menyoroti konten pelengkap.'
+    zones_three:
+      title: 'Tata letak tiga zona'
+      status: Draf
+      left:
+        title: 'Panel kiri'
+        description: 'Navigasi sekunder atau metadata dapat berada di sini.'
+      main:
+        title: 'Konten utama'
+        description: 'Informasi utama tetap terpusat untuk keterbacaan.'
+      right:
+        title: 'Panel kanan'
+        description: 'Tindakan kontekstual dan wawasan dapat dikelompokkan di sisi ini.'
+      footer:
+        meta: 'Diperbarui 2 menit yang lalu'
+        action: 'Buka detail'
+  figure:
+    projections: Proyeksi
+    uptime: 'Waktu aktif'
+    status: Langsung
+    framed:
+      title: Throughput
+      label: 'Peristiwa per detik'
+  tab:
+    one: Ikhtisar
+    two: Aktivitas
+    three: Pengaturan
+  button:
+    create: 'Buat proyeksi'
+    refresh: 'Segarkan data'
+    export: Ekspor
+  action:
+    add_projection: 'Tambahkan proyeksi'
+  link:
+    starter:
+      title: Pemula
+      description: 'Satu orang, yang penting, tidak ada yang perlu dibayar.'
+    team:
+      title: Tim
+      description: 'Beberapa orang yang bekerja pada hal yang sama.'
+    company:
+      title: Perusahaan
+      description: 'Setiap tim, dengan kontrol yang diminta oleh suatu organisasi.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Blocchi
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'il terreno rimane di proprietà del blocco, solo il bordo anteriore porta il colore.'
+  section:
+    tone:
+      title: 'Un blocco che porta un tono'
+      description: "Il colore di uno stato — o di una categoria — come una barra lungo il bordo anteriore, e nient'altro: la stessa barra che indossa un messaggio, senza il terreno colorato, così una lista di essi appare come una lista e non come un allarme. Qualsiasi blocco lo può avere, compresa una barra che poggia su un blocco."
+    default:
+      title: 'Blocchi di base'
+    advanced:
+      title: 'Blocchi avanzati'
+    aside:
+      title: 'Colonna fissa laterale'
+      description: 'Una colonna stretta dimensionata sulla scala --size, accanto a un corpo che assorbe la larghezza rimanente.'
+    card:
+      title: Schede
+    link:
+      title: 'Un blocco che è un link'
+      description: "L'intera scheda è il link — per una scelta fatta selezionando una scheda tra diverse: un piano, un ramo, un modello. Si legge come testo, non come un'azione attutita; sotto il cursore il suo fondo assume una sfumatura e il suo bordo si indurisce, e la tastiera lo trova grazie all'anello di messa a fuoco che ogni controllo indossa."
+    figure:
+      title: Figure
+      description: 'Un singolo valore o icona sovradimensionato, centrato. Utilizzato per contatori del dashboard e riquadri di stato — aggiungi block--square per mantenere il riquadro quadrato qualunque sia la sua larghezza.'
+    stacks:
+      title: Stack
+    stack_horizontal:
+      title: Orizzontale
+      description: 'Colonne uguali, a piena larghezza, si avvolgono in caso di sovrapposizione.'
+    stack_vertical:
+      title: Verticale
+      description: 'Righe impilate, a piena larghezza, intervallo uniforme.'
+    stack_split:
+      title: Diviso
+      description: "Il primo figlio cresce, l'ultimo rimane fisso — utilizzato per righe di lead + azione."
+    stack_nested:
+      title: Annidato
+      description: 'Stack orizzontale contenente stack verticali — tipico della griglia del dashboard.'
+  stack:
+    item:
+      one: Uno
+      two: Due
+      three: Tre
+      four: Quattro
+      lead: "Descrivi l'azione in questo testo di lead."
+      action: Azione
+  block:
+    title: 'Titolo del blocco'
+    no_padding: 'Blocco senza padding (utilizzando block--body).'
+    one:
+      title: 'Blocco primario'
+      description: 'Un blocco con un titolo e un testo di corpo.'
+    two:
+      title: 'Blocco secondario'
+      description: 'Un altro blocco per dimostrare il distanziamento.'
+    three:
+      title: 'Blocco terziario'
+      description: 'Un terzo blocco nella riga.'
+    four:
+      title: 'Blocco quaternario'
+      description: 'Un quarto blocco per la demo del layout.'
+    advanced:
+      title: 'Proiezione della pipeline'
+      status: Pronto
+      description: 'Questo blocco combina slot di titolo e contenuto in una singola struttura riutilizzabile.'
+      details: 'Gli operatori possono essere aggiunti senza lasciare il contesto attuale.'
+    zones:
+      main:
+        title: 'Zona principale'
+        description: 'Il contenuto principale può crescere naturalmente con distanziamento standard.'
+      aside:
+        title: 'Zona laterale'
+        description: 'Questa zona laterale utilizza uno sfondo chiaro per evidenziare contenuti complementari.'
+    zones_three:
+      title: 'Layout a tre zone'
+      status: Bozza
+      left:
+        title: 'Pannello sinistro'
+        description: 'La navigazione secondaria o i metadati possono trovarsi qui.'
+      main:
+        title: 'Contenuto principale'
+        description: 'Le informazioni primarie rimangono centrate per leggibilità.'
+      right:
+        title: 'Pannello destro'
+        description: 'Azioni contestuali e approfondimenti possono essere raggruppati su questo lato.'
+      footer:
+        meta: 'Aggiornato 2 minuti fa'
+        action: 'Apri dettagli'
+  figure:
+    projections: Proiezioni
+    uptime: 'Tempo di attività'
+    status: Attivo
+    framed:
+      title: Throughput
+      label: 'Eventi al secondo'
+  tab:
+    one: Panoramica
+    two: Attività
+    three: Impostazioni
+  button:
+    create: 'Crea proiezione'
+    refresh: 'Aggiorna dati'
+    export: Esporta
+  action:
+    add_projection: 'Aggiungi proiezione'
+  link:
+    starter:
+      title: Inizio
+      description: 'Una persona, le basi, nulla da pagare.'
+    team:
+      title: Team
+      description: 'Alcune persone che lavorano sulle stesse cose.'
+    company:
+      title: Azienda
+      description: "Ogni team, con i controlli richiesti da un'organizzazione."
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ブロック
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 地面はブロック自身のもので、先端のみが色を持つ。
+  section:
+    tone:
+      title: トーンを持つブロック
+      description: 状態やカテゴリーの色が先端のバーとして表示され、それ以外は何もない：メッセージが持つ同じバーで、色のない地面がなく、リストとして表示されてアラームにはならない。どのブロックでもそれを持つことができ、ブロック上に立つバーも含まれる。
+    default:
+      title: 基本ブロック
+    advanced:
+      title: 高度なブロック
+    aside:
+      title: 固定サイドカラム
+      description: '--sizeスケールに基づいてサイズ調整された狭いカラムで、残りの幅を吸収するボディの隣に配置される。'
+    card:
+      title: カード
+    link:
+      title: リンクとしてのブロック
+      description: カード全体がリンクであり、いくつかのカードの中から一つを選ぶことで選択される：プラン、ブランチ、テンプレート。それはテキストとして表示され、静かなアクションとしてではない；ポインターの下でその地面がニュアンスを持ち、エッジがしっかりし、キーボードは各コントロールが持つフォーカスリングによってそれを見つける。
+    figure:
+      title: フィギュア
+      description: '中央に配置された単一のオーバーサイズの値またはアイコン。ダッシュボードのカウンターやステータスタイルに使用される — 幅に関係なくタイルを正方形に保つためにblock--squareを追加。'
+    stacks:
+      title: スタック
+    stack_horizontal:
+      title: 横型
+      description: 等しいカラム、全幅、オーバーフロー時にラップ。
+    stack_vertical:
+      title: 縦型
+      description: 積み重ねられた行、全幅、均一なギャップ。
+    stack_split:
+      title: 分割
+      description: '最初の子は成長し、最後の子は固定される — リード + アクション行に使用。'
+    stack_nested:
+      title: ネスト
+      description: '縦型スタックを含む横型スタック — 一般的なダッシュボードグリッド。'
+  stack:
+    item:
+      one: '1'
+      two: '2'
+      three: '3'
+      four: '4'
+      lead: このリードテキストでアクションを説明する。
+      action: アクション
+  block:
+    title: ブロックタイトル
+    no_padding: パディングなしのブロック（block--bodyを使用）。
+    one:
+      title: プライマリブロック
+      description: タイトルと本文を持つブロック。
+    two:
+      title: セカンダリブロック
+      description: スペーシングを示すための別のブロック。
+    three:
+      title: ティアリーブロック
+      description: 行の中の第三のブロック。
+    four:
+      title: クァータリーブロック
+      description: レイアウトデモ用の第四のブロック。
+    advanced:
+      title: パイプライン投影
+      status: 準備完了
+      description: このブロックはタイトルスロットとコンテンツを単一の再利用可能な構造に結合します。
+      details: オペレーターは現在のコンテキストを離れることなく追加できます。
+    zones:
+      main:
+        title: メインゾーン
+        description: メインコンテンツは標準的なスペーシングで自然に成長できます。
+      aside:
+        title: サイドゾーン
+        description: このサイドゾーンは軽い背景を使用して補完的なコンテンツを強調します。
+    zones_three:
+      title: 三ゾーンレイアウト
+      status: ドラフト
+      left:
+        title: 左パネル
+        description: セカンダリナビゲーションやメタデータがここに存在します。
+      main:
+        title: メインコンテンツ
+        description: 主要な情報は可読性のために中央に保たれます。
+      right:
+        title: 右パネル
+        description: コンテキストアクションやインサイトがこの側にグループ化できます。
+      footer:
+        meta: 2分前に更新
+        action: 詳細を開く
+  figure:
+    projections: プロジェクション
+    uptime: アップタイム
+    status: ライブ
+    framed:
+      title: スループット
+      label: 秒あたりのイベント
+  tab:
+    one: 概要
+    two: アクティビティ
+    three: 設定
+  button:
+    create: プロジェクションを作成
+    refresh: データを更新
+    export: エクスポート
+  action:
+    add_projection: プロジェクションを追加
+  link:
+    starter:
+      title: スターター
+      description: 1人、必須、支払い不要。
+    team:
+      title: チーム
+      description: 同じことに取り組む数人。
+    company:
+      title: 会社
+      description: すべてのチーム、組織が求めるコントロールを持つ。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 블록
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: '바닥은 블록의 것이지만, 앞쪽 가장자리만 색상을 가집니다.'
+  section:
+    tone:
+      title: '톤이 있는 블록'
+      description: '상태 또는 카테고리의 색상이 앞쪽 가장자리 아래 바 형태로 표시되며, 그 외에는 아무것도 없습니다: 메시지가 착용하는 동일한 바로, 색이 없는 바닥 없이, 그래서 목록이 경고가 아닌 목록으로 읽힙니다. 모든 블록이 이를 수용하며, 블록 위에 서 있는 바도 포함됩니다.'
+    default:
+      title: '기본 블록'
+    advanced:
+      title: '고급 블록'
+    aside:
+      title: '고정된 사이드 열'
+      description: '남은 너비를 흡수하는 본체 옆에 --size 스케일에 맞춰 조정된 좁은 열입니다.'
+    card:
+      title: 카드
+    link:
+      title: '링크인 블록'
+      description: '전체 카드가 링크입니다 — 여러 카드 중 하나를 선택하여 만든 선택을 위한 것입니다: 계획, 분기, 템플릿. 텍스트처럼 읽히며, 소음 없는 행동으로 읽히지 않습니다; 포인터 아래에서 바닥이 미세한 변화를 주고 가장자리가 단단해지며, 키보드는 모든 컨트롤이 착용하는 포커스 링으로 이를 찾습니다.'
+    figure:
+      title: 피겨
+      description: '중앙에 배치된 하나의 과도하게 큰 값이나 아이콘입니다. 대시보드 카운터와 상태 타일에 사용되며 — 블록--사각형을 추가하여 너비에 관계없이 타일이 정사각형으로 유지됩니다.'
+    stacks:
+      title: 스택
+    stack_horizontal:
+      title: 수평
+      description: '같은 너비의 열, 전체 너비, 오버플로우 시 래핑됩니다.'
+    stack_vertical:
+      title: 수직
+      description: '쌓인 행, 전체 너비, 균일한 간격.'
+    stack_split:
+      title: 분할
+      description: '첫 번째 자식이 성장하고, 마지막 자식이 고정됩니다 — 주도 + 행동 행에 사용됩니다.'
+    stack_nested:
+      title: 중첩
+      description: '수직 스택을 포함하는 수평 스택 — 전형적인 대시보드 격자입니다.'
+  stack:
+    item:
+      one: 하나
+      two: 둘
+      three: 셋
+      four: 넷
+      lead: '이 리드 텍스트에서 행동을 설명하세요.'
+      action: 행동
+  block:
+    title: '블록 제목'
+    no_padding: '패딩이 없는 블록 (block--body 사용).'
+    one:
+      title: '주요 블록'
+      description: '제목과 본문 텍스트가 있는 블록입니다.'
+    two:
+      title: '보조 블록'
+      description: '간격을 보여주기 위한 또 다른 블록입니다.'
+    three:
+      title: '제3 블록'
+      description: '행의 세 번째 블록입니다.'
+    four:
+      title: '제4 블록'
+      description: '레이아웃 데모를 위한 네 번째 블록입니다.'
+    advanced:
+      title: '파이프라인 프로젝션'
+      status: '준비 완료'
+      description: '이 블록은 제목 슬롯과 콘텐츠를 하나의 재사용 가능한 구조로 결합합니다.'
+      details: '현재 컨텍스트를 떠나지 않고도 연산자를 추가할 수 있습니다.'
+    zones:
+      main:
+        title: '주요 영역'
+        description: '주요 콘텐츠는 표준 간격으로 자연스럽게 성장할 수 있습니다.'
+      aside:
+        title: '사이드 영역'
+        description: '이 사이드 영역은 보조 콘텐츠를 강조하기 위해 밝은 배경을 사용합니다.'
+    zones_three:
+      title: '세 영역 레이아웃'
+      status: 초안
+      left:
+        title: '왼쪽 패널'
+        description: '보조 내비게이션 또는 메타데이터가 여기에 표시될 수 있습니다.'
+      main:
+        title: '주요 콘텐츠'
+        description: '주요 정보는 가독성을 위해 중앙에 유지됩니다.'
+      right:
+        title: '오른쪽 패널'
+        description: '맥락적 행동과 통찰력을 이쪽에 그룹화할 수 있습니다.'
+      footer:
+        meta: '2분 전에 업데이트됨'
+        action: '세부정보 열기'
+  figure:
+    projections: 프로젝션
+    uptime: '가동 시간'
+    status: 실시간
+    framed:
+      title: 처리량
+      label: '초당 이벤트'
+  tab:
+    one: 개요
+    two: 활동
+    three: 설정
+  button:
+    create: '프로젝션 생성'
+    refresh: '데이터 새로 고침'
+    export: 내보내기
+  action:
+    add_projection: '프로젝션 추가'
+  link:
+    starter:
+      title: 스타터
+      description: '한 사람, 필수 요소, 지불할 필요 없음.'
+    team:
+      title: 팀
+      description: '같은 일에 함께하는 몇 명의 사람들입니다.'
+    company:
+      title: 회사
+      description: '모든 팀과 조직이 요청하는 제어 기능이 포함됩니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Blokken
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'de grond blijft van het blok zelf, alleen de voorrand draagt de kleur.'
+  section:
+    tone:
+      title: 'Een blok met een toon'
+      description: 'De kleur van een staat — of van een categorie — als een balk aan de voorrand, en verder niets: dezelfde balk die een bericht draagt, zonder de gekleurde achtergrond, zodat een lijst van hen als een lijst leest en niet als een alarm. Elk blok kan het dragen, inclusief een balk die op een blok staat.'
+    default:
+      title: Basisblokken
+    advanced:
+      title: 'Geavanceerde blokken'
+    aside:
+      title: 'Vaste zijkolom'
+      description: 'Een smalle kolom van de --grootte schaal, naast een lichaam dat de resterende breedte opneemt.'
+    card:
+      title: Kaarten
+    link:
+      title: 'Een blok dat een link is'
+      description: 'De hele kaart is de link — voor een keuze gemaakt door één kaart uit meerdere te kiezen: een plan, een tak, een sjabloon. Het leest als tekst, niet als een gedempte actie; onder de aanwijzer krijgt de achtergrond een nuance en verstevigt de rand, en het toetsenbord vindt het door de focusring die elke controle heeft.'
+    figure:
+      title: Cijfers
+      description: 'Een enkele vergrote waarde of icoon, gecentreerd. Gebruikt voor dashboard tellers en status tegels — voeg block--square toe om de tegel vierkant te houden, ongeacht de breedte.'
+    stacks:
+      title: Stapels
+    stack_horizontal:
+      title: Horizontaal
+      description: 'Gelijke kolommen, volledige breedte, wikkelt bij overloop.'
+    stack_vertical:
+      title: Verticaal
+      description: 'Gestapelde rijen, volledige breedte, uniforme ruimte.'
+    stack_split:
+      title: Gesplitst
+      description: 'Eerste kind groeit, laatste kind blijft vast — gebruikt voor lead + actie rijen.'
+    stack_nested:
+      title: Genest
+      description: 'Horizontale stapel met verticale stapels — typische dashboard raster.'
+  stack:
+    item:
+      one: Een
+      two: Twee
+      three: Drie
+      four: Vier
+      lead: 'Beschrijf de actie in deze leadtekst.'
+      action: Actie
+  block:
+    title: Bloktitel
+    no_padding: 'Blok zonder opvulling (gebruik block--body).'
+    one:
+      title: 'Primair blok'
+      description: 'Een blok met een titel en lichaamstekst.'
+    two:
+      title: 'Secundair blok'
+      description: 'Een ander blok om spatiëring te demonstreren.'
+    three:
+      title: 'Tertiar blok'
+      description: 'Een derde blok in de rij.'
+    four:
+      title: 'Quaternair blok'
+      description: 'Een vierde blok voor de lay-out demo.'
+    advanced:
+      title: Pipelineprojectie
+      status: Klaar
+      description: 'Dit blok combineert titelvakken en inhoud in een enkele herbruikbare structuur.'
+      details: 'Operators kunnen worden toegevoegd zonder de huidige context te verlaten.'
+    zones:
+      main:
+        title: Hoofdzones
+        description: 'Hoofdinformatie kan natuurlijk groeien met standaard spatiëring.'
+      aside:
+        title: Zijzone
+        description: 'Deze zijzone gebruikt een lichte achtergrond om aanvullende inhoud te benadrukken.'
+    zones_three:
+      title: 'Drie-zone lay-out'
+      status: Concept
+      left:
+        title: Linkerpaneel
+        description: 'Secundaire navigatie of metadata kan hier worden weergegeven.'
+      main:
+        title: Hoofdinformatie
+        description: 'Primaire informatie blijft gecentreerd voor leesbaarheid.'
+      right:
+        title: Rechterpaneel
+        description: 'Contextuele acties en inzichten kunnen aan deze kant worden gegroepeerd.'
+      footer:
+        meta: 'Bijgewerkt 2 minuten geleden'
+        action: 'Details openen'
+  figure:
+    projections: Projecties
+    uptime: Uptime
+    status: Live
+    framed:
+      title: Doorvoer
+      label: 'Evenementen per seconde'
+  tab:
+    one: Overzicht
+    two: Activiteit
+    three: Instellingen
+  button:
+    create: 'Projectie maken'
+    refresh: 'Gegevens verversen'
+    export: Exporteren
+  action:
+    add_projection: 'Projectie toevoegen'
+  link:
+    starter:
+      title: Starter
+      description: 'Één persoon, de basis, niets te betalen.'
+    team:
+      title: Team
+      description: 'Een paar mensen werken aan dezelfde dingen.'
+    company:
+      title: Bedrijf
+      description: 'Elk team, met de controles die een organisatie vraagt.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bloki
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'grunt jest własnością bloku, tylko krawędź prowadząca nosi kolor.'
+  section:
+    tone:
+      title: 'Blok z tonem'
+      description: 'Kolor stanu — lub kategorii — jako pasek wzdłuż krawędzi prowadzącej, i nic więcej: ten sam pasek, który nosi wiadomość, bez zabarwionego tła, dzięki czemu lista wygląda jak lista, a nie jak alarm. Każdy blok to przyjmuje, w tym pasek stojący na bloku.'
+    default:
+      title: 'Podstawowe bloki'
+    advanced:
+      title: 'Zaawansowane bloki'
+    aside:
+      title: 'Stała kolumna boczna'
+      description: 'Wąska kolumna o rozmiarze zgodnym z skalą --size, obok treści, która wchłania pozostałą szerokość.'
+    card:
+      title: Karty
+    link:
+      title: 'Blok, który jest linkiem'
+      description: 'Cała karta jest linkiem — dla wyboru dokonanego przez wybranie jednej karty spośród kilku: plan, gałąź, szablon. Wygląda jak tekst, a nie jak stłumiona akcja; pod wskaźnikiem jej tło zyskuje odcień, a krawędź się utwardza, a klawiatura znajduje ją przez pierścień skupienia, który nosi każda kontrolka.'
+    figure:
+      title: Figury
+      description: 'Pojedyncza, dużych rozmiarów wartość lub ikona, wyśrodkowana. Używana do liczników na pulpicie i kafelków statusu — dodaj block--square, aby kafelek pozostał kwadratowy, niezależnie od jego szerokości.'
+    stacks:
+      title: Stosy
+    stack_horizontal:
+      title: Poziomy
+      description: 'Równe kolumny, pełna szerokość, zawija przy przepełnieniu.'
+    stack_vertical:
+      title: Pionowy
+      description: 'Ułożone wiersze, pełna szerokość, jednolita przerwa.'
+    stack_split:
+      title: Podzielony
+      description: 'Pierwsze dziecko rośnie, ostatnie dziecko pozostaje stałe — używane do wierszy prowadzących + akcji.'
+    stack_nested:
+      title: Zagnieżdżony
+      description: 'Poziomy stos zawierający pionowe stosy — typowa siatka pulpitu.'
+  stack:
+    item:
+      one: Jeden
+      two: Dwa
+      three: Trzy
+      four: Cztery
+      lead: 'Opisz akcję w tym wiodącym tekście.'
+      action: Akcja
+  block:
+    title: 'Tytuł bloku'
+    no_padding: 'Blok bez paddingu (używając block--body).'
+    one:
+      title: 'Blok podstawowy'
+      description: 'Blok z tytułem i tekstem treści.'
+    two:
+      title: 'Blok podrzędny'
+      description: 'Inny blok do pokazania odstępu.'
+    three:
+      title: 'Blok trzeciorzędny'
+      description: 'Trzeci blok w wierszu.'
+    four:
+      title: 'Blok czwartorzędny'
+      description: 'Czwarty blok do demonstracji układu.'
+    advanced:
+      title: 'Projekcja potoku'
+      status: Gotowe
+      description: 'Ten blok łączy sloty tytułowe i treść w jedną wielokrotnego użytku strukturę.'
+      details: 'Operatorzy mogą być dodawani bez opuszczania bieżącego kontekstu.'
+    zones:
+      main:
+        title: 'Główna strefa'
+        description: 'Główna treść może naturalnie rosnąć z standardowym odstępem.'
+      aside:
+        title: 'Strefa boczna'
+        description: 'Ta boczna strefa używa jasnego tła, aby wyróżnić treści uzupełniające.'
+    zones_three:
+      title: 'Układ trzech stref'
+      status: Szkic
+      left:
+        title: 'Lewy panel'
+        description: 'Tutaj może znajdować się nawigacja podrzędna lub metadane.'
+      main:
+        title: 'Główna treść'
+        description: 'Podstawowe informacje pozostają wyśrodkowane dla czytelności.'
+      right:
+        title: 'Prawy panel'
+        description: 'Kontekstowe działania i spostrzeżenia mogą być grupowane po tej stronie.'
+      footer:
+        meta: 'Zaktualizowano 2 minuty temu'
+        action: 'Otwórz szczegóły'
+  figure:
+    projections: Projekcje
+    uptime: 'Czas pracy'
+    status: 'Na żywo'
+    framed:
+      title: Przepustowość
+      label: 'Wydarzenia na sekundę'
+  tab:
+    one: Przegląd
+    two: Aktywność
+    three: Ustawienia
+  button:
+    create: 'Utwórz projekcję'
+    refresh: 'Odśwież dane'
+    export: Eksportuj
+  action:
+    add_projection: 'Dodaj projekcję'
+  link:
+    starter:
+      title: Starter
+      description: 'Jedna osoba, podstawowe rzeczy, brak opłat.'
+    team:
+      title: Zespół
+      description: 'Kilka osób pracujących nad tymi samymi rzeczami.'
+    company:
+      title: Firma
+      description: 'Każdy zespół, z kontrolami, których wymaga organizacja.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Blocos
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'o chão permanece pertencente ao bloco, apenas a borda da frente carrega a cor.'
+  section:
+    tone:
+      title: 'Um bloco que carrega um tom'
+      description: 'A cor de um estado — ou de uma categoria — como uma barra ao longo da borda da frente, e nada mais: a mesma barra que uma mensagem usa, sem o fundo colorido, para que uma lista delas seja lida como uma lista e não como um alerta. Qualquer bloco pode usá-la, uma barra em cima de um bloco incluído.'
+    default:
+      title: 'Blocos básicos'
+    advanced:
+      title: 'Blocos avançados'
+    aside:
+      title: 'Coluna fixa ao lado'
+      description: 'Uma coluna estreita dimensionada na escala --size, ao lado de um corpo que absorve a largura restante.'
+    card:
+      title: Cartões
+    link:
+      title: 'Um bloco que é um link'
+      description: 'Todo o cartão é o link — para uma escolha feita ao selecionar um cartão entre vários: um plano, um ramo, um modelo. Ele é lido como texto, não como uma ação sutil; sob o ponteiro, seu fundo ganha uma nuance e sua borda se torna firme, e o teclado o encontra pelo anel de foco que todo controle possui.'
+    figure:
+      title: Figuras
+      description: 'Um único valor ou ícone grande, centralizado. Usado para contadores de painel e azulejos de status — adicione block--square para manter o azulejo quadrado, independentemente de sua largura.'
+    stacks:
+      title: Pilhas
+    stack_horizontal:
+      title: Horizontal
+      description: 'Colunas iguais, largura total, se ajusta em caso de transbordo.'
+    stack_vertical:
+      title: Vertical
+      description: 'Linhas empilhadas, largura total, espaçamento uniforme.'
+    stack_split:
+      title: Dividido
+      description: 'O primeiro filho cresce, o último filho permanece fixo — usado para linhas de lead + ação.'
+    stack_nested:
+      title: Aninhado
+      description: 'Pilhas horizontais contendo pilhas verticais — grade típica de painel.'
+  stack:
+    item:
+      one: Um
+      two: Dois
+      three: Três
+      four: Quatro
+      lead: 'Descreva a ação neste texto de lead.'
+      action: Ação
+  block:
+    title: 'Título do bloco'
+    no_padding: 'Bloco sem preenchimento (usando block--body).'
+    one:
+      title: 'Bloco primário'
+      description: 'Um bloco com um título e texto de corpo.'
+    two:
+      title: 'Bloco secundário'
+      description: 'Outro bloco para demonstrar espaçamento.'
+    three:
+      title: 'Bloco terciário'
+      description: 'Um terceiro bloco na linha.'
+    four:
+      title: 'Bloco quaternário'
+      description: 'Um quarto bloco para a demonstração de layout.'
+    advanced:
+      title: 'Projeção de pipeline'
+      status: Pronto
+      description: 'Este bloco combina slots de título e conteúdo em uma única estrutura reutilizável.'
+      details: 'Operadores podem ser adicionados sem sair do contexto atual.'
+    zones:
+      main:
+        title: 'Zona principal'
+        description: 'O conteúdo principal pode crescer naturalmente com espaçamento padrão.'
+      aside:
+        title: 'Zona ao lado'
+        description: 'Esta zona lateral usa um fundo claro para destacar conteúdo complementar.'
+    zones_three:
+      title: 'Layout de três zonas'
+      status: Rascunho
+      left:
+        title: 'Painel esquerdo'
+        description: 'Navegação secundária ou metadados podem viver aqui.'
+      main:
+        title: 'Conteúdo principal'
+        description: 'Informações primárias permanecem centralizadas para legibilidade.'
+      right:
+        title: 'Painel direito'
+        description: 'Ações e insights contextuais podem ser agrupados deste lado.'
+      footer:
+        meta: 'Atualizado há 2 minutos'
+        action: 'Abrir detalhes'
+  figure:
+    projections: Projeções
+    uptime: 'Tempo de atividade'
+    status: 'Ao vivo'
+    framed:
+      title: 'Taxa de transferência'
+      label: 'Eventos por segundo'
+  tab:
+    one: 'Visão geral'
+    two: Atividade
+    three: Configurações
+  button:
+    create: 'Criar projeção'
+    refresh: 'Atualizar dados'
+    export: Exportar
+  action:
+    add_projection: 'Adicionar projeção'
+  link:
+    starter:
+      title: Iniciante
+      description: 'Uma pessoa, o essencial, nada a pagar.'
+    team:
+      title: Equipe
+      description: 'Algumas pessoas trabalhando nas mesmas coisas.'
+    company:
+      title: Empresa
+      description: 'Toda equipe, com os controles que uma organização pede.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Блоки
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'земля остается за блоком, только передний край несет цвет.'
+  section:
+    tone:
+      title: 'Блок с оттенком'
+      description: 'Цвет состояния — или категории — в виде полосы на переднем крае, и ничего больше: та же полоса, что носит сообщение, без окрашенной земли, так что список воспринимается как список, а не как сигнал тревоги. Любой блок принимает это, включая полосу, стоящую на блоке.'
+    default:
+      title: 'Основные блоки'
+    advanced:
+      title: 'Расширенные блоки'
+    aside:
+      title: 'Фиксированная боковая колонка'
+      description: 'Узкая колонка, размер которой соответствует шкале --size, рядом с основным контентом, который занимает оставшуюся ширину.'
+    card:
+      title: Карты
+    link:
+      title: Блок-ссылка
+      description: 'Вся карта является ссылкой — для выбора, сделанного путем выбора одной карты из нескольких: план, ветка, шаблон. Она воспринимается как текст, а не как приглушенное действие; под указателем ее земля принимает нюанс, а край усиливается, и клавиатура находит ее по кольцу фокуса, которое носит каждый элемент управления.'
+    figure:
+      title: Фигуры
+      description: 'Единственное увеличенное значение или иконка, по центру. Используется для счетчиков на панели инструментов и плиток состояния — добавьте block--square, чтобы плитка оставалась квадратной, независимо от ширины.'
+    stacks:
+      title: Стеки
+    stack_horizontal:
+      title: Горизонтально
+      description: 'Равные колонки, полная ширина, оборачиваются при переполнении.'
+    stack_vertical:
+      title: Вертикально
+      description: 'Сложенные ряды, полная ширина, равный промежуток.'
+    stack_split:
+      title: Разделенный
+      description: 'Первый элемент растет, последний элемент остается фиксированным — используется для рядов ведущий + действие.'
+    stack_nested:
+      title: Вложенный
+      description: 'Горизонтальный стек, содержащий вертикальные стеки — типичная сетка панели инструментов.'
+  stack:
+    item:
+      one: Один
+      two: Два
+      three: Три
+      four: Четыре
+      lead: 'Опишите действие в этом ведующем тексте.'
+      action: Действие
+  block:
+    title: 'Название блока'
+    no_padding: 'Блок без отступов (используя block--body).'
+    one:
+      title: 'Первичный блок'
+      description: 'Блок с заголовком и телом текста.'
+    two:
+      title: 'Вторичный блок'
+      description: 'Другой блок для демонстрации отступов.'
+    three:
+      title: 'Третичный блок'
+      description: 'Третий блок в ряду.'
+    four:
+      title: 'Четвертичный блок'
+      description: 'Четвертый блок для демонстрации макета.'
+    advanced:
+      title: 'Проекция пайплайна'
+      status: Готово
+      description: 'Этот блок объединяет слоты заголовков и контент в одной многоразовой структуре.'
+      details: 'Операторы могут добавляться, не выходя из текущего контекста.'
+    zones:
+      main:
+        title: 'Основная зона'
+        description: 'Основной контент может естественно расти с обычными отступами.'
+      aside:
+        title: 'Боковая зона'
+        description: 'Эта боковая зона использует светлый фон, чтобы выделить дополнительный контент.'
+    zones_three:
+      title: 'Макет с тремя зонами'
+      status: Черновик
+      left:
+        title: 'Левая панель'
+        description: 'Вторичная навигация или метаданные могут находиться здесь.'
+      main:
+        title: 'Основной контент'
+        description: 'Основная информация остается по центру для удобства чтения.'
+      right:
+        title: 'Правая панель'
+        description: 'Контекстные действия и идеи могут быть сгруппированы с этой стороны.'
+      footer:
+        meta: 'Обновлено 2 минуты назад'
+        action: 'Открыть детали'
+  figure:
+    projections: Проекции
+    uptime: 'Время безотказной работы'
+    status: 'В прямом эфире'
+    framed:
+      title: 'Пропускная способность'
+      label: 'События в секунду'
+  tab:
+    one: Обзор
+    two: Активность
+    three: Настройки
+  button:
+    create: 'Создать проекцию'
+    refresh: 'Обновить данные'
+    export: Экспортировать
+  action:
+    add_projection: 'Добавить проекцию'
+  link:
+    starter:
+      title: Стартовый
+      description: 'Один человек, основные вещи, ничего не нужно платить.'
+    team:
+      title: Команда
+      description: 'Несколько человек работают над одними и теми же задачами.'
+    company:
+      title: Компания
+      description: 'Каждая команда с контролем, который запрашивает организация.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: บล็อก
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'พื้นดินยังคงเป็นของบล็อก อยู่แค่ขอบด้านหน้าเท่านั้นที่มีสีสัน'
+  section:
+    tone:
+      title: บล็อกที่มีโทนสี
+      description: 'สีของสถานะ — หรือของหมวดหมู่ — จะอยู่ในแถบที่ขอบด้านหน้า และไม่มีอะไรอื่น: แถบเดียวกันที่ข้อความสวมใส่ โดยไม่มีพื้นสีที่มีสีอ่อน ดังนั้นรายการนี้จึงอ่านได้เป็นรายการ ไม่ใช่เป็นการเตือนภัย บล็อกใด ๆ ก็สามารถใช้ได้ รวมถึงแถบที่ตั้งอยู่บนบล็อกด้วย'
+    default:
+      title: บล็อกพื้นฐาน
+    advanced:
+      title: บล็อกขั้นสูง
+    aside:
+      title: คอลัมน์ข้างที่ตายตัว
+      description: 'คอลัมน์แคบที่มีขนาดตามมาตรฐาน --size ข้าง ๆ เนื้อหาที่ดูดซับความกว้างที่เหลืออยู่'
+    card:
+      title: การ์ด
+    link:
+      title: บล็อกที่เป็นลิงก์
+      description: 'การ์ดทั้งหมดคือการเชื่อมโยง — สำหรับการเลือกที่ทำโดยการเลือกการ์ดหนึ่งใบจากหลายใบ: แผน, สาขา, แม่แบบ อ่านได้เหมือนข้อความ ไม่ใช่การกระทำที่เงียบสงบ; ใต้ตัวชี้ พื้นของมันจะมีเฉดสี และขอบก็จะแข็งขึ้น และแป้นพิมพ์จะค้นหามันโดยวงแหวนโฟกัสที่ควบคุมทุกตัวใส่'
+    figure:
+      title: รูปภาพ
+      description: 'ค่าหรือไอคอนขนาดใหญ่เพียงค่าเดียว อยู่กลาง ใช้สำหรับตัวนับในแดชบอร์ดและแผ่นสถานะ — เพิ่ม block--square เพื่อให้แผ่นมีรูปสี่เหลี่ยมจัตุรัสไม่ว่าจะมีความกว้างเท่าใด'
+    stacks:
+      title: สแต็ค
+    stack_horizontal:
+      title: แนวนอน
+      description: 'คอลัมน์ที่เท่ากัน กว้างเต็มที่ ห่อหุ้มเมื่อเกิน'
+    stack_vertical:
+      title: แนวตั้ง
+      description: 'แถวที่ซ้อนกัน กว้างเต็มที่ ช่องว่างสม่ำเสมอ'
+    stack_split:
+      title: แบ่ง
+      description: 'เด็กคนแรกเติบโต เด็กคนสุดท้ายคงที่ — ใช้สำหรับแถวหัวหน้า + การกระทำ'
+    stack_nested:
+      title: ซ้อนกัน
+      description: 'สแต็คแนวนอนที่มีสแต็คแนวตั้ง — ตะแกรงแดชบอร์ดทั่วไป'
+  stack:
+    item:
+      one: หนึ่ง
+      two: สอง
+      three: สาม
+      four: สี่
+      lead: อธิบายการกระทำในข้อความหัวข้อนี้
+      action: การกระทำ
+  block:
+    title: ชื่อบล็อก
+    no_padding: 'บล็อกที่ไม่มีการเว้นระยะ (ใช้ block--body)'
+    one:
+      title: บล็อกหลัก
+      description: บล็อกที่มีชื่อและข้อความเนื้อหา
+    two:
+      title: บล็อกรอง
+      description: บล็อกอีกหนึ่งเพื่อแสดงให้เห็นถึงการจัดระยะ
+    three:
+      title: บล็อกที่สาม
+      description: บล็อกที่สามในแถว
+    four:
+      title: บล็อกที่สี่
+      description: บล็อกที่สี่สำหรับการสาธิตการจัดรูปแบบ
+    advanced:
+      title: การคาดการณ์ทางท่อ
+      status: พร้อมใช้งาน
+      description: บล็อกนี้รวมช่องชื่อและเนื้อหาในโครงสร้างที่สามารถนำกลับมาใช้ใหม่ได้ในที่เดียว
+      details: ผู้ปฏิบัติงานสามารถเพิ่มได้โดยไม่ต้องออกจากบริบทปัจจุบัน
+    zones:
+      main:
+        title: โซนหลัก
+        description: เนื้อหาหลักสามารถเติบโตตามธรรมชาติด้วยการจัดระยะมาตรฐาน
+      aside:
+        title: โซนข้าง
+        description: โซนข้างนี้ใช้พื้นหลังสีอ่อนเพื่อเน้นเนื้อหาที่เสริม
+    zones_three:
+      title: รูปแบบสามโซน
+      status: ร่าง
+      left:
+        title: แผงด้านซ้าย
+        description: การนำทางรองหรือข้อมูลเมตาอาจอยู่ที่นี่
+      main:
+        title: เนื้อหาหลัก
+        description: ข้อมูลหลักจะอยู่กลางเพื่อความอ่านง่าย
+      right:
+        title: แผงด้านขวา
+        description: การกระทำและข้อมูลเชิงบริบทสามารถจัดกลุ่มในด้านนี้ได้
+      footer:
+        meta: 'อัปเดตเมื่อ 2 นาทีที่แล้ว'
+        action: เปิดรายละเอียด
+  figure:
+    projections: การคาดการณ์
+    uptime: เวลาทำงาน
+    status: สด
+    framed:
+      title: การส่งผ่าน
+      label: เหตุการณ์ต่อวินาที
+  tab:
+    one: ภาพรวม
+    two: กิจกรรม
+    three: การตั้งค่า
+  button:
+    create: สร้างการคาดการณ์
+    refresh: รีเฟรชข้อมูล
+    export: ส่งออก
+  action:
+    add_projection: เพิ่มการคาดการณ์
+  link:
+    starter:
+      title: เริ่มต้น
+      description: 'หนึ่งคน, สิ่งจำเป็น, ไม่มีค่าใช้จ่าย'
+    team:
+      title: ทีม
+      description: คนไม่กี่คนทำงานในสิ่งเดียวกัน
+    company:
+      title: บริษัท
+      description: 'ทุกทีม พร้อมด้วยการควบคุมที่องค์กรต้องการ'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bloklar
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'Zemin bloğun kendine ait kalır, yalnızca ön kenar renk taşır.'
+  section:
+    tone:
+      title: 'Bir tonu taşıyan blok'
+      description: 'Bir durumun — veya bir kategorinin — ön kenarda bir çubuk olarak rengi, ve başka bir şey değil: bir mesajın taşıdığı aynı çubuk, boyalı zemin olmadan, böylece bir listesinin bir liste olarak okunmasını sağlar ve bir alarm olarak değil. Her blok bunu alır, bir blok üzerinde duran bir çubuk da dahil.'
+    default:
+      title: 'Temel bloklar'
+    advanced:
+      title: 'Gelişmiş bloklar'
+    aside:
+      title: 'Sabit yan sütun'
+      description: 'Kalan genişliği absorbe eden bir gövdenin yanında, --boyut ölçeğine göre boyutlandırılmış dar bir sütun.'
+    card:
+      title: Kartlar
+    link:
+      title: 'Bir bağlantı olan blok'
+      description: 'Tüm kart bağlantıdır — birkaç kart arasından birini seçerek yapılan bir seçim için: bir plan, bir dal, bir şablon. Metin olarak okunur, sönük bir eylem olarak değil; imleç altında zemini bir nüans alır ve kenarı sıkılaşır, klavye her kontrolün giydiği odak halkasıyla onu bulur.'
+    figure:
+      title: Figürler
+      description: 'Ortada, tek bir büyük değer veya simge. Gösterge panelleri sayaçları ve durum kutucukları için kullanılır — genişliği ne olursa olsun kutucuğun kare kalmasını sağlamak için block--square ekleyin.'
+    stacks:
+      title: Yığınlar
+    stack_horizontal:
+      title: Yatay
+      description: 'Eşit sütunlar, tam genişlik, taşma durumunda sarılır.'
+    stack_vertical:
+      title: Dikey
+      description: 'Yığılmış satırlar, tam genişlik, eşit boşluk.'
+    stack_split:
+      title: Bölünmüş
+      description: 'İlk çocuk büyür, son çocuk sabit kalır — lider + eylem satırları için kullanılır.'
+    stack_nested:
+      title: 'İç içe'
+      description: 'Dikey yığınlar içeren yatay yığın — tipik gösterge panosu ızgarası.'
+  stack:
+    item:
+      one: Bir
+      two: İki
+      three: Üç
+      four: Dört
+      lead: 'Bu lider metinde eylemi tanımlayın.'
+      action: Eylem
+  block:
+    title: 'Blok başlığı'
+    no_padding: 'Kenar boşluğu olmayan blok (block--body kullanılarak).'
+    one:
+      title: 'Birincil blok'
+      description: 'Bir başlık ve gövde metni olan bir blok.'
+    two:
+      title: 'İkincil blok'
+      description: 'Boşluğu göstermek için başka bir blok.'
+    three:
+      title: 'Üçüncül blok'
+      description: 'Satırdaki üçüncü blok.'
+    four:
+      title: 'Dördüncül blok'
+      description: 'Düzen demosu için dördüncü blok.'
+    advanced:
+      title: 'Pipeline projeksiyonu'
+      status: Hazır
+      description: 'Bu blok başlık alanları ve içeriği tek bir yeniden kullanılabilir yapıda birleştirir.'
+      details: 'Operatörler mevcut bağlamı terk etmeden eklenebilir.'
+    zones:
+      main:
+        title: 'Ana alan'
+        description: 'Ana içerik standart boşlukla doğal olarak büyüyebilir.'
+      aside:
+        title: 'Yan alan'
+        description: 'Bu yan alan, tamamlayıcı içerikleri vurgulamak için açık bir arka plan kullanır.'
+    zones_three:
+      title: 'Üç alan düzeni'
+      status: Taslak
+      left:
+        title: 'Sol panel'
+        description: 'İkincil navigasyon veya meta veriler burada yer alabilir.'
+      main:
+        title: 'Ana içerik'
+        description: 'Birincil bilgi okunabilirlik için ortada kalır.'
+      right:
+        title: 'Sağ panel'
+        description: 'Bağlamsal eylemler ve içgörüler bu tarafında gruplandırılabilir.'
+      footer:
+        meta: '2 dakika önce güncellendi'
+        action: 'Ayrıntıları aç'
+  figure:
+    projections: Projeksiyonlar
+    uptime: 'Çalışma süresi'
+    status: Canlı
+    framed:
+      title: Verim
+      label: 'Saniyedeki olay sayısı'
+  tab:
+    one: 'Genel Bakış'
+    two: Etkinlik
+    three: Ayarlar
+  button:
+    create: 'Projeksiyon oluştur'
+    refresh: 'Verileri yenile'
+    export: 'Dışa aktar'
+  action:
+    add_projection: 'Projeksiyon ekle'
+  link:
+    starter:
+      title: Başlangıç
+      description: 'Bir kişi, temel unsurlar, ödenecek bir şey yok.'
+    team:
+      title: Takım
+      description: 'Aynı şeyler üzerinde çalışan birkaç kişi.'
+    company:
+      title: Şirket
+      description: 'Her takım, bir organizasyonun talep ettiği kontrollerle.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بلوک
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'زمین بلاک کی اپنی ہوتی ہے، صرف آگے کی کنارہ رنگ لے کر چلتا ہے۔'
+  section:
+    tone:
+      title: 'ایک ٹون والا بلاک'
+      description: 'ایک ریاست کا رنگ — یا ایک زمرہ — جو آگے کی کنارہ پر ایک بار کے طور پر ہوتا ہے، اور کچھ نہیں: وہی بار جسے ایک پیغام پہنتا ہے، بغیر رنگین زمین کے، تاکہ ان کی فہرست ایک فہرست کی طرح پڑھی جائے نہ کہ ایک الارم کی طرح۔ کوئی بھی بلاک اسے لیتا ہے، ایک بار جو کہ ایک بلاک پر کھڑا ہوتا ہے۔'
+    default:
+      title: 'بنیادی بلاک'
+    advanced:
+      title: 'ایڈوانس بلاک'
+    aside:
+      title: 'فکسڈ سائیڈ کالم'
+      description: 'ایک تنگ کالم جو --size سکیل پر سائز کیا گیا ہے، ایک جسم کے ساتھ جو باقی چوڑائی کو جذب کرتا ہے۔'
+    card:
+      title: کارڈ
+    link:
+      title: 'ایک بلاک جو لنک ہے'
+      description: 'پورا کارڈ لنک ہے — ایک انتخاب کے لیے جو کئی کارڈز میں سے ایک کارڈ منتخب کرنے سے ہوتا ہے: ایک منصوبہ، ایک شاخ، ایک ٹیمپلیٹ۔ یہ متن کی طرح پڑھتا ہے، نہ کہ ایک مدھم عمل کی طرح؛ پوائنٹر کے نیچے اس کی زمین ایک نکتہ لے لیتی ہے اور اس کا کنارہ مضبوط ہو جاتا ہے، اور کی بورڈ ہر کنٹرول پر موجود توجہ کی انگوٹی سے اسے تلاش کرتا ہے۔'
+    figure:
+      title: شکلیں
+      description: 'ایک واحد بڑا قیمت یا آئیکن، درمیان میں۔ ڈیش بورڈ کاؤنٹرز اور اسٹیٹس ٹائلز کے لیے استعمال ہوتا ہے — بلاک--سکوائر شامل کریں تاکہ ٹائل سکوائر رہے چاہے اس کی چوڑائی کچھ بھی ہو۔'
+    stacks:
+      title: اسٹیکس
+    stack_horizontal:
+      title: افقی
+      description: 'برابر کالم، مکمل چوڑائی، اوور فلو پر لپیٹتا ہے۔'
+    stack_vertical:
+      title: عمودی
+      description: 'اسٹیکڈ قطاریں، مکمل چوڑائی، یکساں خلا۔'
+    stack_split:
+      title: تقسیم
+      description: 'پہلا بچہ بڑھتا ہے، آخری بچہ مقرر رہتا ہے — لیڈ + عمل کی قطاروں کے لیے استعمال ہوتا ہے۔'
+    stack_nested:
+      title: گھوںسلا
+      description: 'افقی اسٹیک جو عمودی اسٹیکوں پر مشتمل ہے — عام ڈیش بورڈ گرڈ۔'
+  stack:
+    item:
+      one: ایک
+      two: دو
+      three: تین
+      four: چار
+      lead: 'اس لیڈ متن میں عمل کی وضاحت کریں۔'
+      action: عمل
+  block:
+    title: 'بلاک کا عنوان'
+    no_padding: 'بغیر پیڈنگ کا بلاک (block--body کا استعمال کرتے ہوئے)۔'
+    one:
+      title: 'پرائمری بلاک'
+      description: 'ایک بلاک جس میں عنوان اور جسم کا متن ہے۔'
+    two:
+      title: 'سیکنڈری بلاک'
+      description: 'ایک اور بلاک جو جگہ کی نمائش کے لیے ہے۔'
+    three:
+      title: 'ٹیئرٹری بلاک'
+      description: 'قطار میں تیسرا بلاک۔'
+    four:
+      title: 'کواٹرنیری بلاک'
+      description: 'لے آؤٹ ڈیمو کے لیے چوتھا بلاک۔'
+    advanced:
+      title: 'پائپ لائن پروجیکشن'
+      status: تیار
+      description: 'یہ بلاک عنوان کے سلاٹس اور مواد کو ایک ہی دوبارہ استعمال کے قابل ڈھانچے میں ملا دیتا ہے۔'
+      details: 'آپریٹرز کو موجودہ سیاق و سباق چھوڑے بغیر شامل کیا جا سکتا ہے۔'
+    zones:
+      main:
+        title: 'اہم زون'
+        description: 'اہم مواد قدرتی طور پر معیاری اسپیسنگ کے ساتھ بڑھ سکتا ہے۔'
+      aside:
+        title: 'سائیڈ زون'
+        description: 'یہ سائیڈ زون ہلکے پس منظر کا استعمال کرتا ہے تاکہ معاون مواد کو اجاگر کیا جا سکے۔'
+    zones_three:
+      title: 'تین زون لے آؤٹ'
+      status: خاکہ
+      left:
+        title: 'بائیں پینل'
+        description: 'ثانوی نیویگیشن یا میٹا ڈیٹا یہاں رہ سکتا ہے۔'
+      main:
+        title: 'اہم مواد'
+        description: 'پرائمری معلومات پڑھنے کے لیے مرکز میں رہتی ہے۔'
+      right:
+        title: 'دائیں پینل'
+        description: 'سیاقی عمل اور بصیرتیں اس طرف گروپ کی جا سکتی ہیں۔'
+      footer:
+        meta: '2 منٹ پہلے اپ ڈیٹ ہوا'
+        action: 'تفصیلات کھولیں'
+  figure:
+    projections: پروجیکشنز
+    uptime: 'اپ ٹائم'
+    status: لائیو
+    framed:
+      title: 'تھرو پٹ'
+      label: 'واقعات فی سیکنڈ'
+  tab:
+    one: جائزہ
+    two: سرگرمی
+    three: ترتیبات
+  button:
+    create: 'پروجیکشن بنائیں'
+    refresh: 'ڈیٹا تازہ کریں'
+    export: 'برآمد کریں'
+  action:
+    add_projection: 'پروجیکشن شامل کریں'
+  link:
+    starter:
+      title: اسٹارٹر
+      description: 'ایک شخص، ضروریات، کچھ بھی ادا کرنے کی ضرورت نہیں۔'
+    team:
+      title: ٹیم
+      description: 'کچھ لوگ ایک ہی چیزوں پر کام کر رہے ہیں۔'
+    company:
+      title: کمپنی
+      description: 'ہر ٹیم، کنٹرول کے ساتھ جو ایک تنظیم مانگتی ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Khối
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 'mặt đất vẫn là của khối, chỉ có cạnh dẫn mới mang màu sắc.'
+  section:
+    tone:
+      title: 'Một khối mang tông màu'
+      description: 'Màu sắc của một trạng thái — hoặc của một thể loại — như một thanh dọc theo cạnh dẫn, và không gì khác: cùng một thanh mà một thông điệp mặc, không có nền được tô màu, để danh sách của chúng được đọc như một danh sách chứ không phải như một cảnh báo. Bất kỳ khối nào cũng có thể nhận nó, bao gồm cả một thanh đứng trên một khối.'
+    default:
+      title: 'Khối cơ bản'
+    advanced:
+      title: 'Khối nâng cao'
+    aside:
+      title: 'Cột bên cố định'
+      description: 'Một cột hẹp được định cỡ theo thang --size, bên cạnh một thân hấp thụ chiều rộng còn lại.'
+    card:
+      title: Thẻ
+    link:
+      title: 'Một khối là liên kết'
+      description: 'Toàn bộ thẻ là liên kết — cho một lựa chọn được thực hiện bằng cách chọn một thẻ trong số nhiều thẻ: một kế hoạch, một nhánh, một mẫu. Nó được đọc như văn bản, không phải như một hành động mờ nhạt; dưới con trỏ, nền của nó mang một sắc thái và cạnh của nó cứng lại, và bàn phím tìm thấy nó qua vòng tiêu điểm mà mỗi điều khiển đều mang.'
+    figure:
+      title: 'Hình ảnh'
+      description: 'Một giá trị hoặc biểu tượng lớn duy nhất, được căn giữa. Sử dụng cho các bộ đếm trên bảng điều khiển và các ô trạng thái — thêm block--square để giữ ô vuông bất kể chiều rộng của nó.'
+    stacks:
+      title: Chồng
+    stack_horizontal:
+      title: Ngang
+      description: 'Các cột bằng nhau, chiều rộng đầy đủ, gói lại khi tràn.'
+    stack_vertical:
+      title: Dọc
+      description: 'Các hàng xếp chồng, chiều rộng đầy đủ, khoảng cách đồng nhất.'
+    stack_split:
+      title: 'Chia tách'
+      description: 'Con đầu tiên phát triển, con cuối cùng giữ cố định — được sử dụng cho hàng dẫn + hành động.'
+    stack_nested:
+      title: 'Lồng ghép'
+      description: 'Chồng ngang chứa các chồng dọc — lưới bảng điều khiển điển hình.'
+  stack:
+    item:
+      one: Một
+      two: Hai
+      three: Ba
+      four: Bốn
+      lead: 'Mô tả hành động trong văn bản dẫn này.'
+      action: 'Hành động'
+  block:
+    title: 'Tiêu đề khối'
+    no_padding: 'Khối không có đệm (sử dụng block--body).'
+    one:
+      title: 'Khối chính'
+      description: 'Một khối có tiêu đề và văn bản cơ thể.'
+    two:
+      title: 'Khối phụ'
+      description: 'Một khối khác để minh họa khoảng cách.'
+    three:
+      title: 'Khối thứ ba'
+      description: 'Một khối thứ ba trong hàng.'
+    four:
+      title: 'Khối thứ tư'
+      description: 'Một khối thứ tư cho bản demo bố cục.'
+    advanced:
+      title: 'Dự đoán quy trình'
+      status: 'Sẵn sàng'
+      description: 'Khối này kết hợp các khe tiêu đề và nội dung trong một cấu trúc có thể tái sử dụng duy nhất.'
+      details: 'Các toán tử có thể được thêm vào mà không cần rời khỏi ngữ cảnh hiện tại.'
+    zones:
+      main:
+        title: 'Khu vực chính'
+        description: 'Nội dung chính có thể phát triển tự nhiên với khoảng cách tiêu chuẩn.'
+      aside:
+        title: 'Khu vực bên'
+        description: 'Khu vực bên này sử dụng nền sáng để làm nổi bật nội dung bổ sung.'
+    zones_three:
+      title: 'Bố cục ba khu vực'
+      status: Nháp
+      left:
+        title: 'Bảng bên trái'
+        description: 'Điều hướng phụ hoặc siêu dữ liệu có thể sống ở đây.'
+      main:
+        title: 'Nội dung chính'
+        description: 'Thông tin chính được giữ ở giữa để dễ đọc.'
+      right:
+        title: 'Bảng bên phải'
+        description: 'Các hành động và thông tin ngữ cảnh có thể được nhóm ở phía bên này.'
+      footer:
+        meta: 'Cập nhật 2 phút trước'
+        action: 'Mở chi tiết'
+  figure:
+    projections: 'Dự đoán'
+    uptime: 'Thời gian hoạt động'
+    status: 'Trực tiếp'
+    framed:
+      title: 'Lưu lượng'
+      label: 'Sự kiện mỗi giây'
+  tab:
+    one: 'Tổng quan'
+    two: 'Hoạt động'
+    three: 'Cài đặt'
+  button:
+    create: 'Tạo dự đoán'
+    refresh: 'Làm mới dữ liệu'
+    export: Xuất
+  action:
+    add_projection: 'Thêm dự đoán'
+  link:
+    starter:
+      title: 'Người bắt đầu'
+      description: 'Một người, những điều thiết yếu, không cần phải trả tiền.'
+    team:
+      title: Nhóm
+      description: 'Một vài người làm việc trên cùng một thứ.'
+    company:
+      title: 'Công ty'
+      description: 'Mỗi nhóm, với các điều khiển mà một tổ chức yêu cầu.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 区块
+  page_icon: 'ph:bold/squares-four'
+  tone:
+    body: 地面保持区块自身，只有前缘带有颜色。
+  section:
+    tone:
+      title: 带有色调的区块
+      description: 一种状态或类别的颜色——作为前缘下的条形，除此之外没有其他：这个条形与信息所携带的相同，没有着色的地面，因此它们的列表看起来像一个列表而不是警报。任何区块都可以采用它，包括一个站在区块上的条形。
+    default:
+      title: 基础区块
+    advanced:
+      title: 高级区块
+    aside:
+      title: 固定旁边列
+      description: 一个根据--size比例尺大小的窄列，旁边是吸收剩余宽度的主体。
+    card:
+      title: 卡片
+    link:
+      title: 作为链接的区块
+      description: 整个卡片都是链接——通过从多个卡片中选择一张卡片进行选择：一个计划，一个分支，一个模板。它看起来像文本，而不是静音的动作；在指针下，它的地面带有细微的色调，边缘变得坚固，键盘通过每个控件佩戴的焦点环找到它。
+    figure:
+      title: 数字
+      description: 一个居中的超大值或图标。用于仪表板计数器和状态图块——添加block--square以在宽度变化时保持图块为正方形。
+    stacks:
+      title: 堆叠
+    stack_horizontal:
+      title: 水平
+      description: 相等的列，满宽度，溢出时换行。
+    stack_vertical:
+      title: 垂直
+      description: 堆叠的行，满宽度，均匀间隙。
+    stack_split:
+      title: 拆分
+      description: 第一个子项增长，最后一个子项保持固定——用于引导+动作行。
+    stack_nested:
+      title: 嵌套
+      description: 包含垂直堆叠的水平堆叠——典型的仪表板网格。
+  stack:
+    item:
+      one: 一
+      two: 二
+      three: 三
+      four: 四
+      lead: 在此引导文本中描述操作。
+      action: 操作
+  block:
+    title: 区块标题
+    no_padding: 无填充的区块（使用block--body）。
+    one:
+      title: 主要区块
+      description: 一个带有标题和主体文本的区块。
+    two:
+      title: 次要区块
+      description: 另一个区块以展示间距。
+    three:
+      title: 第三区块
+      description: 行中的第三个区块。
+    four:
+      title: 第四区块
+      description: 用于布局演示的第四个区块。
+    advanced:
+      title: 管道投影
+      status: 准备就绪
+      description: 此区块将标题插槽和内容结合在一个可重用的结构中。
+      details: 可以在不离开当前上下文的情况下添加操作符。
+    zones:
+      main:
+        title: 主区域
+        description: 主内容可以自然地随着标准间距增长。
+      aside:
+        title: 旁边区域
+        description: 此侧区域使用浅色背景突出补充内容。
+    zones_three:
+      title: 三区域布局
+      status: 草稿
+      left:
+        title: 左侧面板
+        description: 次要导航或元数据可以在此显示。
+      main:
+        title: 主内容
+        description: 主要信息保持居中以便于阅读。
+      right:
+        title: 右侧面板
+        description: 上下文操作和见解可以在此侧进行分组。
+      footer:
+        meta: 更新于2分钟前
+        action: 打开详细信息
+  figure:
+    projections: 投影
+    uptime: 正常运行时间
+    status: 在线
+    framed:
+      title: 吞吐量
+      label: 每秒事件
+  tab:
+    one: 概览
+    two: 活动
+    three: 设置
+  button:
+    create: 创建投影
+    refresh: 刷新数据
+    export: 导出
+  action:
+    add_projection: 添加投影
+  link:
+    starter:
+      title: 入门
+      description: 一个人，基本要素，无需支付。
+    team:
+      title: 团队
+      description: 几个人在同一事项上工作。
+    company:
+      title: 公司
+      description: 每个团队，拥有组织所需的控件。

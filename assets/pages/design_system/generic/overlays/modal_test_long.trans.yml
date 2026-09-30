@@ -1,0 +1,183 @@
+en:
+  page_title: Modal test - long
+  intro: This modal uses a long body text.
+  frontend:
+    embed:
+      closing_confirmation:
+        message: Are you sure you want to close this long text modal?
+
+ar:
+  page_title: 'اختبار مودال - طويل'
+  intro: 'هذا المودال يستخدم نصًا طويلًا.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'هل أنت متأكد أنك تريد إغلاق هذا المودال ذو النص الطويل؟'
+
+bn:
+  page_title: 'মোডাল পরীক্ষা - দীর্ঘ'
+  intro: 'এই মোডাল একটি দীর্ঘ বডি টেক্সট ব্যবহার করে।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'আপনি কি নিশ্চিত যে আপনি এই দীর্ঘ টেক্সট মোডালটি বন্ধ করতে চান?'
+
+de:
+  page_title: 'Modal-Test - lang'
+  intro: 'Dieses Modal verwendet einen langen Text.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sind Sie sicher, dass Sie dieses lange Textmodal schließen möchten?'
+
+es:
+  page_title: 'Prueba de modal - largo'
+  intro: 'Este modal utiliza un texto largo.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '¿Estás seguro de que quieres cerrar este modal de texto largo?'
+
+fa:
+  page_title: 'آزمایش مدال - طولانی'
+  intro: 'این مدال از متنی طولانی استفاده می‌کند.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'آیا مطمئن هستید که می‌خواهید این مدال با متن طولانی را ببندید؟'
+
+fi:
+  page_title: 'Modalitest - pitkä'
+  intro: 'Tässä modalissa on pitkä tekstisisältö.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Oletko varma, että haluat sulkea tämän pitkän tekstin modalin?'
+
+fr:
+  page_title: 'Test modal - long'
+  intro: 'Ce modal utilise un long texte.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Êtes-vous sûr de vouloir fermer ce modal avec un long texte ?'
+
+he:
+  page_title: 'מבחן מודל - ארוך'
+  intro: 'מודל זה משתמש בטקסט גוף ארוך.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'האם אתה בטוח שברצונך לסגור את המודל עם הטקסט הארוך?'
+
+hi:
+  page_title: 'मॉडल परीक्षण - लंबा'
+  intro: 'यह मॉडल एक लंबे शरीर के पाठ का उपयोग करता है।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'क्या आप सुनिश्चित हैं कि आप इस लंबे पाठ के मॉडल को बंद करना चाहते हैं?'
+
+id:
+  page_title: 'Modal uji - panjang'
+  intro: 'Modal ini menggunakan teks tubuh yang panjang.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Apakah Anda yakin ingin menutup modal teks panjang ini?'
+
+it:
+  page_title: 'Test Modale - lungo'
+  intro: 'Questo modale utilizza un testo lungo.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sei sicuro di voler chiudere questo modale con testo lungo?'
+
+ja:
+  page_title: 'モーダルテスト - 長文'
+  intro: このモーダルは長い本文を使用しています。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: この長文モーダルを閉じてもよろしいですか？
+
+ko:
+  page_title: '모달 테스트 - 긴'
+  intro: '이 모달은 긴 본문 텍스트를 사용합니다.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '이 긴 텍스트 모달을 닫으시겠습니까?'
+
+nl:
+  page_title: 'Modal test - lang'
+  intro: 'Deze modal gebruikt een lange tekst.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Weet je zeker dat je deze lange tekstmodal wilt sluiten?'
+
+pl:
+  page_title: 'Test modalny - długi'
+  intro: 'Ten modal używa długiego tekstu.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Czy na pewno chcesz zamknąć ten modal z długim tekstem?'
+
+pt_BR:
+  page_title: 'Teste de modal - longo'
+  intro: 'Este modal utiliza um texto longo.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Você tem certeza de que deseja fechar este modal de texto longo?'
+
+ru:
+  page_title: 'Тест модального окна - длинный'
+  intro: 'Это модальное окно содержит длинный текст.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Вы уверены, что хотите закрыть это модальное окно с длинным текстом?'
+
+th:
+  page_title: 'การทดสอบโมดัล - ยาว'
+  intro: โมดัลนี้ใช้ข้อความยาวเป็นหลัก.
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'คุณแน่ใจหรือว่าต้องการปิดโมดัลข้อความยาวนี้?'
+
+tr:
+  page_title: 'Modal testi - uzun'
+  intro: 'Bu modal uzun bir metin kullanıyor.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bu uzun metin modalini kapatmak istediğinize emin misiniz?'
+
+ur:
+  page_title: 'موڈل ٹیسٹ - طویل'
+  intro: 'یہ موڈل ایک طویل مواد کا متن استعمال کرتا ہے۔'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'کیا آپ واقعی اس طویل متن کے موڈل کو بند کرنا چاہتے ہیں؟'
+
+vi:
+  page_title: 'Kiểm tra Modal - dài'
+  intro: 'Modal này sử dụng một đoạn văn bản dài.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bạn có chắc chắn muốn đóng modal văn bản dài này không?'
+
+zh:
+  page_title: '模态测试 - 长文本'
+  intro: 这个模态使用了长文本。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 您确定要关闭这个长文本模态吗？

@@ -1,0 +1,832 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Graph log
+  page_icon: ph:bold/git-fork
+
+  intro: "Items in a line of descent, newest first, drawn on coloured lanes: where a line forks, where two meet again. Each item says its parents; the lanes follow. What a row shows beside the graph is free — a title, refs as capsules, who, when, a short name — so a git history is one use among others."
+
+  section:
+    history:
+      title: A history
+      description: "A feature branch merged back, another left open, a tag on a release. Each lane keeps its colour from where it starts to where it ends."
+    other:
+      title: Something else than git
+      description: "The versions of a document, one of them reviewed on the side before being merged into the next. The component knows nothing about commits."
+    vue:
+      title: In vue
+      description: "The same history in a vue tree, the lanes drawn again as items come in at the head."
+    git:
+      title: This application's history
+      description: "Read from the repository by symfony-coding's git_graph_items(), through the shared reader that never gets in git's way."
+
+  history:
+    merge_search: Merge the search branch
+    search_filters: Add filters to the search
+    fix_header: Fix the header on small screens
+    try_theme: Try a darker theme
+    search_index: Index the documents
+    release: Release 2.1.0
+    search_start: Start the search
+    initial: First commit
+
+  versions:
+    v4: Version 4, with the review applied
+    current: current
+    review: Reviewer's changes
+    review_ref: review
+    v3: Version 3
+    v2: Version 2
+    v1: Version 1
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'سجل الرسم البياني'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'عناصر في خط النسب، الأحدث أولاً، مرسومة على مسارات ملونة: حيث يتفرع خط، حيث يلتقي اثنان مرة أخرى. كل عنصر يذكر والديه؛ المسارات تتبع. ما يظهر بجانب الرسم البياني مجاني - عنوان، مراجع ككبسولات، من، متى، اسم قصير - لذا فhistoria git هي واحدة من الاستخدامات بين أخرى.'
+  section:
+    history:
+      title: تاريخ
+      description: 'فرع مميز تم دمجه مرة أخرى، وآخر ترك مفتوحًا، علامة على إصدار. كل مسار يحتفظ بلونه من حيث يبدأ إلى حيث ينتهي.'
+    other:
+      title: 'شيء آخر غير git'
+      description: 'إصدارات مستند، تم مراجعة أحدها على الجانب قبل دمجه في التالي. المكون لا يعرف شيئًا عن الالتزامات.'
+    vue:
+      title: 'في vue'
+      description: 'نفس التاريخ في شجرة vue، المسارات مرسومة مرة أخرى مع دخول العناصر في المقدمة.'
+    git:
+      title: 'تاريخ هذا التطبيق'
+      description: "يُقرأ من المستودع بواسطة symfony-coding's git_graph_items()، من خلال القارئ المشترك الذي لا يتداخل مع git."
+  history:
+    merge_search: 'دمج فرع البحث'
+    search_filters: 'إضافة فلاتر إلى البحث'
+    fix_header: 'إصلاح الرأس على الشاشات الصغيرة'
+    try_theme: 'جرب سمة أغمق'
+    search_index: 'فهرسة المستندات'
+    release: 'إصدار 2.1.0'
+    search_start: 'بدء البحث'
+    initial: 'أول التزام'
+  versions:
+    v4: 'الإصدار 4، مع المراجعة المطبقة'
+    current: الحالي
+    review: 'تغييرات المراجع'
+    review_ref: مراجعة
+    v3: 'الإصدار 3'
+    v2: 'الإصدار 2'
+    v1: 'الإصدار 1'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'গ্রাফ লগ'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'একটি বংশগতি লাইনে আইটেম, নতুন থেকে পুরোনো, রঙিন লেনে অঙ্কিত: যেখানে একটি রেখা বিভক্ত হয়, যেখানে দুটি আবার মিলিত হয়। প্রতিটি আইটেম তার পিতামাতা বলে; লেনগুলি অনুসরণ করে। গ্রাফের পাশে একটি সারি যা দেখায় তা মুক্ত — একটি শিরোনাম, ক্যাপসুলের মতো রেফারেন্স, কে, কখন, একটি সংক্ষিপ্ত নাম — তাই একটি গিট ইতিহাস অন্যান্য ব্যবহারের মধ্যে একটি।'
+  section:
+    history:
+      title: 'একটি ইতিহাস'
+      description: 'একটি ফিচার শাখা পুনরায় মিশ্রিত হয়েছে, আরেকটি খোলা রাখা হয়েছে, একটি রিলিজে একটি ট্যাগ। প্রতিটি লেন তার শুরু থেকে শেষ পর্যন্ত রঙ ধরে রাখে।'
+    other:
+      title: 'গিটের বাইরে কিছু'
+      description: 'একটি ডকুমেন্টের সংস্করণ, তাদের মধ্যে একটি পাশের দিকে পর্যালোচনা করা হয়েছে এর পরবর্তী সংস্করণে মিশ্রিত হওয়ার আগে। উপাদান কমিট সম্পর্কে কিছু জানে না।'
+    vue:
+      title: ভিউতে
+      description: 'একটি ভিউ গাছের মধ্যে একই ইতিহাস, যখন আইটেমগুলি মাথায় আসে তখন লেনগুলি আবার অঙ্কিত হয়।'
+    git:
+      title: 'এই অ্যাপ্লিকেশনের ইতিহাস'
+      description: 'সংশ্লিষ্ট পাঠক দ্বারা পড়া হয়েছে যা গিটের পথে কখনো বাধা দেয় না, symfony-coding এর git_graph_items() মাধ্যমে।'
+  history:
+    merge_search: 'সার্চ শাখা মার্জ করুন'
+    search_filters: 'সার্চে ফিল্টার যোগ করুন'
+    fix_header: 'ছোট স্ক্রীনে হেডার ঠিক করুন'
+    try_theme: 'গা darker ় থিম চেষ্টা করুন'
+    search_index: 'ডকুমেন্টগুলি সূচী করুন'
+    release: 'রিলিজ ২.১.০'
+    search_start: 'সার্চ শুরু করুন'
+    initial: 'প্রথম কমিট'
+  versions:
+    v4: 'সংস্করণ ৪, পর্যালোচনা প্রয়োগ করা হয়েছে'
+    current: বর্তমান
+    review: 'পর্যালোচকের পরিবর্তন'
+    review_ref: পর্যালোচনা
+    v3: 'সংস্করণ ৩'
+    v2: 'সংস্করণ ২'
+    v1: 'সংস্করণ ১'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Graph-Protokoll
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Elemente in einer Abfolge, neueste zuerst, dargestellt auf farbigen Bahnen: wo eine Linie sich teilt, wo zwei wieder zusammenkommen. Jedes Element zeigt seine Eltern; die Bahnen folgen. Was eine Zeile neben dem Graphen zeigt, ist frei – ein Titel, Referenzen als Kapseln, wer, wann, ein kurzer Name – so ist eine Git-Historie eine von vielen möglichen Anwendungen.'
+  section:
+    history:
+      title: 'Eine Historie'
+      description: 'Ein Feature-Branch, der zurückgeführt wurde, ein anderer offen gelassen, ein Tag auf einem Release. Jede Bahn behält ihre Farbe von ihrem Anfang bis zu ihrem Ende.'
+    other:
+      title: 'Etwas anderes als Git'
+      description: 'Die Versionen eines Dokuments, eine davon zuvor seitlich überprüft, bevor sie in die nächste eingefügt wird. Die Komponente weiß nichts über Commits.'
+    vue:
+      title: 'In Vue'
+      description: 'Die gleiche Historie in einem Vue-Baum, die Bahnen erneut dargestellt, wenn die Elemente am Kopf eintreffen.'
+    git:
+      title: 'Die Historie dieser Anwendung'
+      description: "Aus dem Repository gelesen durch symfony-coding's git_graph_items(), über den gemeinsamen Leser, der Git nie im Weg steht."
+  history:
+    merge_search: 'Such-Branch zusammenführen'
+    search_filters: 'Filter zur Suche hinzufügen'
+    fix_header: 'Header auf kleinen Bildschirmen fixieren'
+    try_theme: 'Dunkleres Thema ausprobieren'
+    search_index: 'Die Dokumente indizieren'
+    release: 'Version 2.1.0 veröffentlichen'
+    search_start: 'Die Suche starten'
+    initial: 'Erster Commit'
+  versions:
+    v4: 'Version 4, mit angewendeter Überprüfung'
+    current: aktuell
+    review: 'Änderungen des Prüfers'
+    review_ref: Überprüfung
+    v3: 'Version 3'
+    v2: 'Version 2'
+    v1: 'Version 1'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Registro de gráficos'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Elementos en una línea de descendencia, el más nuevo primero, dibujados en carriles de colores: donde una línea se bifurca, donde dos se encuentran de nuevo. Cada elemento indica sus padres; los carriles los siguen. Lo que una fila muestra al lado del gráfico es libre: un título, referencias como cápsulas, quién, cuándo, un nombre corto; así que el historial de git es un uso entre otros.'
+  section:
+    history:
+      title: 'Un historial'
+      description: 'Una rama de función fusionada de nuevo, otra dejada abierta, una etiqueta en un lanzamiento. Cada carril mantiene su color desde donde comienza hasta donde termina.'
+    other:
+      title: 'Algo más que git'
+      description: 'Las versiones de un documento, una de ellas revisada al lado antes de ser fusionada en la siguiente. El componente no sabe nada sobre los commits.'
+    vue:
+      title: 'En vue'
+      description: 'La misma historia en un árbol vue, los carriles dibujados nuevamente a medida que los elementos llegan a la cabeza.'
+    git:
+      title: 'El historial de esta aplicación'
+      description: "Leído del repositorio por symfony-coding's git_graph_items(), a través del lector compartido que nunca interfiere con git."
+  history:
+    merge_search: 'Fusionar la rama de búsqueda'
+    search_filters: 'Agregar filtros a la búsqueda'
+    fix_header: 'Arreglar el encabezado en pantallas pequeñas'
+    try_theme: 'Probar un tema más oscuro'
+    search_index: 'Indexar los documentos'
+    release: 'Lanzamiento 2.1.0'
+    search_start: 'Iniciar la búsqueda'
+    initial: 'Primer commit'
+  versions:
+    v4: 'Versión 4, con la revisión aplicada'
+    current: actual
+    review: 'Cambios del revisor'
+    review_ref: revisión
+    v3: 'Versión 3'
+    v2: 'Versión 2'
+    v1: 'Versión 1'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'گراف لاگ'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'مواردی در یک خط نسل، جدیدترین اول، بر روی لاین‌های رنگی ترسیم شده‌اند: جایی که یک خط تقسیم می‌شود، جایی که دو خط دوباره به هم می‌رسند. هر مورد والدین خود را نشان می‌دهد؛ لاین‌ها از آن پیروی می‌کنند. آنچه در کنار گراف نشان داده می‌شود رایگان است — یک عنوان، مراجع به‌صورت کپسول، چه کسی، کی، یک نام کوتاه — بنابراین تاریخچه گیت یکی از استفاده‌ها در بین دیگران است.'
+  section:
+    history:
+      title: تاریخچه
+      description: 'یک شاخه ویژگی که به عقب ادغام شده، دیگری که باز مانده، یک برچسب بر روی یک انتشار. هر لاین رنگ خود را از جایی که شروع می‌شود تا جایی که تمام می‌شود حفظ می‌کند.'
+    other:
+      title: 'چیزی غیر از گیت'
+      description: 'نسخه‌های یک سند، یکی از آن‌ها در کنار قبل از ادغام به بعد بررسی شده است. مؤلفه هیچ اطلاعی از کامیت‌ها ندارد.'
+    vue:
+      title: 'در vue'
+      description: 'همان تاریخچه در یک درخت vue، لاین‌ها دوباره به عنوان مواردی که در سر وارد می‌شوند ترسیم شده‌اند.'
+    git:
+      title: 'تاریخچه این برنامه'
+      description: 'از مخزن توسط git_graph_items() symfony-coding خوانده شده، از طریق خواننده مشترکی که هرگز در کار گیت دخالت نمی‌کند.'
+  history:
+    merge_search: 'ادغام شاخه جستجو'
+    search_filters: 'فیلترهایی به جستجو اضافه کنید'
+    fix_header: 'سرصفحه را در صفحه‌های کوچک اصلاح کنید'
+    try_theme: 'یک تم تیره‌تر را امتحان کنید'
+    search_index: 'اسناد را ایندکس کنید'
+    release: 'انتشار ۲.۱.۰'
+    search_start: 'جستجو را آغاز کنید'
+    initial: 'اولین کامیت'
+  versions:
+    v4: 'نسخه ۴، با بررسی اعمال شده'
+    current: جاری
+    review: 'تغییرات بازبین'
+    review_ref: بررسی
+    v3: 'نسخه ۳'
+    v2: 'نسخه ۲'
+    v1: 'نسخه ۱'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kaaviopäiväkirja
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Alasuhteessa olevat kohteet, uusimmat ensin, piirretty värillisille kaistoille: missä viiva haarautuu, missä kaksi tapaavat jälleen. Jokainen kohde kertoo vanhemmistaan; kaistat seuraavat. Rivin vieressä kaavion kanssa on vapaata — otsikko, viitteet kapseleina, kuka, milloin, lyhyt nimi — joten git-historia on yksi käyttötapa muiden joukossa.'
+  section:
+    history:
+      title: Historia
+      description: 'Ominaisuushaara yhdistetty takaisin, toinen jätetty auki, tagi julkaisulle. Jokainen kaista säilyttää värinsä alusta loppuun.'
+    other:
+      title: 'Jotakin muuta kuin git'
+      description: 'Dokumentin versiot, yksi niistä tarkastettu sivussa ennen yhdistämistä seuraavaan. Komponentti ei tiedä commit-eista.'
+    vue:
+      title: 'Vue:ssa'
+      description: 'Sama historia vue-puussa, kaistat piirretty jälleen, kun kohteet tulevat päähän.'
+    git:
+      title: 'Tämän sovelluksen historia'
+      description: 'Luetaan repositoriosta symfony-codingin git_graph_items():n kautta, yhteisen lukijan avulla, joka ei koskaan häiritse git:iä.'
+  history:
+    merge_search: 'Yhdistä hakuhaaran'
+    search_filters: 'Lisää suodattimia hakuun'
+    fix_header: 'Korjaa otsikko pienillä näytöillä'
+    try_theme: 'Kokeile tummempaa teemaa'
+    search_index: 'Indeksoi asiakirjat'
+    release: 'Julkaisu 2.1.0'
+    search_start: 'Aloita haku'
+    initial: 'Ensimmäinen commit'
+  versions:
+    v4: 'Versio 4, tarkastus sovellettu'
+    current: nykyinen
+    review: 'Tarkastajan muutokset'
+    review_ref: tarkastus
+    v3: 'Versio 3'
+    v2: 'Versio 2'
+    v1: 'Versio 1'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Journal de graphes'
+  page_icon: 'ph:bold/git-fork'
+  intro: "Éléments dans une lignée de descente, les plus récents d'abord, dessinés sur des voies colorées : où une ligne se divise, où deux se rejoignent à nouveau. Chaque élément indique ses parents ; les voies suivent. Ce qu'une rangée montre à côté du graphique est libre — un titre, des références sous forme de capsules, qui, quand, un nom court — ainsi, un historique git est une utilisation parmi d'autres."
+  section:
+    history:
+      title: 'Un historique'
+      description: 'Une branche fonctionnelle fusionnée, une autre laissée ouverte, une étiquette sur une version. Chaque voie conserve sa couleur de là où elle commence à là où elle finit.'
+    other:
+      title: "Quelque chose d'autre que git"
+      description: "Les versions d'un document, l'une d'elles examinée sur le côté avant d'être fusionnée dans la suivante. Le composant ne sait rien des commits."
+    vue:
+      title: 'Dans vue'
+      description: 'Le même historique dans un arbre vue, les voies redessinées à mesure que les éléments arrivent en tête.'
+    git:
+      title: "L'historique de cette application"
+      description: "Lu depuis le dépôt par symfony-coding's git_graph_items(), à travers le lecteur partagé qui n'entrave jamais git."
+  history:
+    merge_search: 'Fusionner la branche de recherche'
+    search_filters: 'Ajouter des filtres à la recherche'
+    fix_header: "Fixer l'en-tête sur les petits écrans"
+    try_theme: 'Essayer un thème plus sombre'
+    search_index: 'Indexer les documents'
+    release: 'Version 2.1.0'
+    search_start: 'Commencer la recherche'
+    initial: 'Premier commit'
+  versions:
+    v4: 'Version 4, avec la révision appliquée'
+    current: actuel
+    review: 'Changements du réviseur'
+    review_ref: révision
+    v3: 'Version 3'
+    v2: 'Version 2'
+    v1: 'Version 1'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'יומן גרפים'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'פריטים בשורת ירושה, החדש ביותר ראשון, מצוירים על מסלולים צבעוניים: היכן שקו מתפצל, היכן ששניים נפגשים שוב. כל פריט מציין את ההורים שלו; המסלולים עוקבים. מה ש-row מציג לצד הגרף הוא חופשי — כותרת, הפניות כמו קפסולות, מי, מתי, שם קצר — כך שהיסטוריית git היא אחת השימושים בין אחרים.'
+  section:
+    history:
+      title: היסטוריה
+      description: 'ענף תכונה שהתמזג חזרה, אחר שנשאר פתוח, תווית על שחרור. כל מסלול שומר על הצבע שלו מהיכן שהוא מתחיל ועד היכן שהוא נגמר.'
+    other:
+      title: 'משהו אחר מאשר git'
+      description: 'הגרסאות של מסמך, אחת מהן נבדקה בצד לפני שהתמזגה ל следующая. הרכיב לא יודע דבר על מחויבויות.'
+    vue:
+      title: ב-vue
+      description: 'אותה היסטוריה בעץ vue, המסלולים מצוירים שוב כאשר פריטים נכנסים בראש.'
+    git:
+      title: 'ההיסטוריה של האפליקציה הזו'
+      description: "נקרא מהמאגר על ידי symfony-coding's git_graph_items(), דרך הקורא המשותף שמעולם לא מפריע ל-git."
+  history:
+    merge_search: 'מזג את ענף החיפוש'
+    search_filters: 'הוסף מסננים לחיפוש'
+    fix_header: 'תיקון הכותרת במסכים קטנים'
+    try_theme: 'נסה נושא כהה יותר'
+    search_index: 'אינדקס את המסמכים'
+    release: 'שחרור 2.1.0'
+    search_start: 'התחל את החיפוש'
+    initial: 'מחויבות ראשונה'
+  versions:
+    v4: 'גרסה 4, עם הביקורת שהוחלה'
+    current: נוכחי
+    review: 'שינויים של הבודק'
+    review_ref: ביקורת
+    v3: 'גרסה 3'
+    v2: 'גרסה 2'
+    v1: 'גרסה 1'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ग्राफ लॉग'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'विरासत की एक पंक्ति में आइटम, नवीनतम पहले, रंगीन लेनों पर खींचे गए: जहां एक रेखा विभाजित होती है, जहां दो फिर से मिलते हैं। प्रत्येक आइटम अपने माता-पिता को बताता है; लेनें उनका पालन करती हैं। ग्राफ के बगल में जो एक पंक्ति दिखाती है, वह मुक्त है - एक शीर्षक, कैप्सूल के रूप में संदर्भ, कौन, कब, एक छोटा नाम - इसलिए एक गिट इतिहास अन्य उपयोगों में से एक है।'
+  section:
+    history:
+      title: 'एक इतिहास'
+      description: 'एक फीचर ब्रांच जो वापस मर्ज की गई, एक अन्य खुली छोड़ दी गई, एक रिलीज पर एक टैग। प्रत्येक लेन अपनी शुरुआत से लेकर अंत तक अपने रंग को बनाए रखती है।'
+    other:
+      title: 'गिट के अलावा कुछ और'
+      description: 'एक दस्तावेज़ के संस्करण, उनमें से एक को अगले में मर्ज किए जाने से पहले किनारे पर समीक्षा की गई। घटक कमिट्स के बारे में कुछ नहीं जानता।'
+    vue:
+      title: 'व्यू में'
+      description: 'व्यू ट्री में वही इतिहास, लेनें फिर से खींची जाती हैं जैसे-जैसे आइटम सिर में आते हैं।'
+    git:
+      title: 'इस एप्लिकेशन का इतिहास'
+      description: 'symfony-coding के git_graph_items() द्वारा रिपॉजिटरी से पढ़ा गया, साझा पाठक के माध्यम से जो गिट के रास्ते में कभी नहीं आता।'
+  history:
+    merge_search: 'सर्च ब्रांच को मर्ज करें'
+    search_filters: 'खोज में फ़िल्टर जोड़ें'
+    fix_header: 'छोटे स्क्रीन पर हेडर ठीक करें'
+    try_theme: 'एक गहरे थीम का प्रयास करें'
+    search_index: 'दस्तावेज़ों को अनुक्रमित करें'
+    release: 'रिलीज 2.1.0'
+    search_start: 'खोज शुरू करें'
+    initial: 'पहली कमिट'
+  versions:
+    v4: 'संस्करण 4, समीक्षा लागू की गई'
+    current: वर्तमान
+    review: 'समीक्षक के परिवर्तन'
+    review_ref: समीक्षा
+    v3: 'संस्करण 3'
+    v2: 'संस्करण 2'
+    v1: 'संस्करण 1'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Log Grafik'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Item dalam garis keturunan, terbaru pertama, digambar di jalur berwarna: di mana garis bercabang, di mana dua bertemu kembali. Setiap item menyebutkan orang tuanya; jalur mengikuti. Apa yang ditampilkan di samping grafik adalah gratis — sebuah judul, referensi sebagai kapsul, siapa, kapan, nama singkat — jadi riwayat git adalah salah satu penggunaan di antara yang lain.'
+  section:
+    history:
+      title: 'Sebuah riwayat'
+      description: 'Sebuah cabang fitur yang digabungkan kembali, yang lain dibiarkan terbuka, sebuah tag pada rilis. Setiap jalur mempertahankan warnanya dari tempat ia mulai hingga tempat ia berakhir.'
+    other:
+      title: 'Sesuatu selain git'
+      description: 'Versi dokumen, salah satunya ditinjau di samping sebelum digabungkan ke versi berikutnya. Komponen tidak tahu apa-apa tentang commit.'
+    vue:
+      title: 'Dalam vue'
+      description: 'Riwayat yang sama dalam pohon vue, jalur digambar kembali saat item masuk di bagian atas.'
+    git:
+      title: 'Riwayat aplikasi ini'
+      description: 'Dibaca dari repositori oleh git_graph_items() milik symfony-coding, melalui pembaca bersama yang tidak pernah mengganggu git.'
+  history:
+    merge_search: 'Gabungkan cabang pencarian'
+    search_filters: 'Tambahkan filter ke pencarian'
+    fix_header: 'Perbaiki header di layar kecil'
+    try_theme: 'Coba tema yang lebih gelap'
+    search_index: 'Indeks dokumen'
+    release: 'Rilis 2.1.0'
+    search_start: 'Mulai pencarian'
+    initial: 'Commit pertama'
+  versions:
+    v4: 'Versi 4, dengan tinjauan diterapkan'
+    current: sekarang
+    review: 'Perubahan peninjau'
+    review_ref: tinjauan
+    v3: 'Versi 3'
+    v2: 'Versi 2'
+    v1: 'Versi 1'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Registro grafico'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Elementi in una linea di discendenza, i più recenti per primi, disegnati su corsie colorate: dove una linea si biforca, dove due si incontrano di nuovo. Ogni elemento indica i suoi genitori; le corsie seguono. Ciò che una riga mostra accanto al grafico è libero — un titolo, riferimenti come capsule, chi, quando, un nome breve — quindi una cronologia git è un utilizzo tra gli altri.'
+  section:
+    history:
+      title: 'Una storia'
+      description: 'Un ramo feature fuso indietro, un altro lasciato aperto, un tag su un rilascio. Ogni corsia mantiene il suo colore da dove inizia a dove finisce.'
+    other:
+      title: "Qualcos'altro oltre git"
+      description: 'Le versioni di un documento, una di esse esaminata di lato prima di essere fusa nella successiva. Il componente non sa nulla sui commit.'
+    vue:
+      title: 'In vue'
+      description: "La stessa storia in un albero vue, le corsie disegnate di nuovo man mano che gli elementi arrivano all'inizio."
+    git:
+      title: 'La cronologia di questa applicazione'
+      description: 'Lettura dal repository tramite git_graph_items() di symfony-coding, attraverso il lettore condiviso che non interferisce mai con git.'
+  history:
+    merge_search: 'Unisci il ramo di ricerca'
+    search_filters: 'Aggiungi filtri alla ricerca'
+    fix_header: "Correggi l'intestazione sugli schermi piccoli"
+    try_theme: 'Prova un tema più scuro'
+    search_index: 'Indicizza i documenti'
+    release: 'Rilascio 2.1.0'
+    search_start: 'Inizia la ricerca'
+    initial: 'Primo commit'
+  versions:
+    v4: 'Versione 4, con la revisione applicata'
+    current: corrente
+    review: 'Modifiche del revisore'
+    review_ref: revisione
+    v3: 'Versione 3'
+    v2: 'Versione 2'
+    v1: 'Versione 1'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: グラフログ
+  page_icon: 'ph:bold/git-fork'
+  intro: '子孫のラインにあるアイテム、新しいものが最初に表示され、色のついたレーンで描かれます：ラインが分岐する場所、2つが再び出会う場所。各アイテムはその親を示し、レーンはそれに従います。グラフの横に表示される情報は自由です — タイトル、カプセルとしての参照、誰が、いつ、短い名前 — だから、gitの履歴は他の用途の一つです。'
+  section:
+    history:
+      title: 履歴
+      description: フィーチャーブランチがマージされ、別のブランチがオープンのままで、リリースにタグが付けられます。各レーンは、開始地点から終了地点までの色を保持しています。
+    other:
+      title: git以外の何か
+      description: 文書のバージョン、そのうちの1つがマージされる前に横でレビューされます。コンポーネントはコミットについて何も知りません。
+    vue:
+      title: Vue内で
+      description: 同じ履歴がVueツリーに表示され、アイテムが先頭に入ってくるとレーンが再度描かれます。
+    git:
+      title: このアプリケーションの履歴
+      description: symfony-codingのgit_graph_items()によってリポジトリから読み取られ、gitの妨げにならない共有リーダーを通じて取得されます。
+  history:
+    merge_search: 検索ブランチをマージ
+    search_filters: 検索にフィルターを追加
+    fix_header: 小さい画面でヘッダーを修正
+    try_theme: ダークテーマを試す
+    search_index: 文書をインデックス化
+    release: 'リリース 2.1.0'
+    search_start: 検索を開始
+    initial: 最初のコミット
+  versions:
+    v4: 'レビューが適用されたバージョン 4'
+    current: 現在
+    review: レビュアーの変更
+    review_ref: レビュー
+    v3: 'バージョン 3'
+    v2: 'バージョン 2'
+    v1: 'バージョン 1'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '그래프 로그'
+  page_icon: 'ph:bold/git-fork'
+  intro: '각 항목은 조상의 정보를 제공하며, 색깔 있는 선 위에 그려집니다: 선이 갈라지는 지점, 다시 만나는 지점. 그래프 옆에 표시되는 내용은 자유롭게 설정할 수 있습니다 — 제목, 캡슐 형태의 참조, 누가, 언제, 짧은 이름 — 그래서 git 기록은 그 외에도 여러 용도로 사용됩니다.'
+  section:
+    history:
+      title: 기록
+      description: '기능 브랜치가 병합되고, 또 다른 브랜치는 열려 있으며, 릴리스에 태그가 붙습니다. 각 선은 시작 지점부터 끝 지점까지의 색상을 유지합니다.'
+    other:
+      title: 'git 외의 다른 것'
+      description: '문서의 버전, 그 중 하나는 다음 버전으로 병합되기 전에 측면에서 검토됩니다. 구성 요소는 커밋에 대해 아무것도 알지 못합니다.'
+    vue:
+      title: Vue에서
+      description: 'Vue 트리에서 동일한 기록, 항목이 헤드에 들어올 때 다시 그려진 선들.'
+    git:
+      title: '이 애플리케이션의 기록'
+      description: 'symfony-coding의 git_graph_items()를 통해 저장소에서 읽어들입니다. 공유 리더는 git의 방해가 되지 않습니다.'
+  history:
+    merge_search: '검색 브랜치 병합'
+    search_filters: '검색에 필터 추가'
+    fix_header: '작은 화면에서 헤더 고정'
+    try_theme: '더 어두운 테마 사용해보기'
+    search_index: '문서 색인화'
+    release: '릴리스 2.1.0'
+    search_start: '검색 시작'
+    initial: '첫 번째 커밋'
+  versions:
+    v4: '검토가 적용된 버전 4'
+    current: 현재
+    review: '검토자의 변경 사항'
+    review_ref: 검토
+    v3: '버전 3'
+    v2: '버전 2'
+    v1: '버전 1'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Grafieklog
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Items in een afstamming, de nieuwste eerst, getekend op gekleurde banen: waar een lijn zich splitst, waar twee weer samenkomen. Elk item geeft zijn ouders aan; de banen volgen. Wat een rij naast de grafiek toont is vrij — een titel, refs als capsules, wie, wanneer, een korte naam — dus een git geschiedenis is een van de toepassingen onder anderen.'
+  section:
+    history:
+      title: 'Een geschiedenis'
+      description: 'Een feature branch samengevoegd, een andere open gelaten, een tag op een release. Elke baan behoudt zijn kleur van waar hij begint tot waar hij eindigt.'
+    other:
+      title: 'Iets anders dan git'
+      description: 'De versies van een document, waarvan er een aan de zijkant is beoordeeld voordat deze in de volgende werd samengevoegd. De component weet niets van commits.'
+    vue:
+      title: 'In vue'
+      description: 'Dezelfde geschiedenis in een vue-boom, de banen opnieuw getekend als items binnenkomen aan de kop.'
+    git:
+      title: 'De geschiedenis van deze applicatie'
+      description: "Gelezen uit de repository door symfony-coding's git_graph_items(), via de gedeelde lezer die nooit in de weg van git komt."
+  history:
+    merge_search: 'Voeg de zoekbranch samen'
+    search_filters: 'Voeg filters toe aan de zoekopdracht'
+    fix_header: 'Herstel de koptekst op kleine schermen'
+    try_theme: 'Probeer een donkerder thema'
+    search_index: 'Indexeer de documenten'
+    release: 'Release 2.1.0'
+    search_start: 'Begin de zoekopdracht'
+    initial: 'Eerste commit'
+  versions:
+    v4: 'Versie 4, met de aangebrachte review'
+    current: huidige
+    review: 'Wijzigingen van de reviewer'
+    review_ref: review
+    v3: 'Versie 3'
+    v2: 'Versie 2'
+    v1: 'Versie 1'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dziennik grafu'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Elementy w linii dziedziczenia, najnowsze na początku, rysowane na kolorowych ścieżkach: tam, gdzie linia się rozwidla, gdzie dwie się znowu spotykają. Każdy element wskazuje swoich rodziców; ścieżki podążają za nimi. Co rząd pokazuje obok grafu jest wolne — tytuł, odniesienia jako kapsuły, kto, kiedy, krótka nazwa — więc historia git jest jednym z zastosowań.'
+  section:
+    history:
+      title: Historia
+      description: 'Gałąź funkcjonalna scalona z powrotem, inna pozostawiona otwarta, tag na wydanie. Każda ścieżka zachowuje swój kolor od miejsca, w którym się zaczyna, do miejsca, w którym się kończy.'
+    other:
+      title: 'Coś innego niż git'
+      description: 'Wersje dokumentu, jedna z nich przeglądana z boku przed scaleniem w następną. Komponent nic nie wie o commitach.'
+    vue:
+      title: 'W vue'
+      description: 'Ta sama historia w drzewie vue, ścieżki narysowane ponownie, gdy elementy pojawiają się na początku.'
+    git:
+      title: 'Historia tej aplikacji'
+      description: 'Odczytane z repozytorium przez git_graph_items() symfony-coding, przez wspólnego czytelnika, który nigdy nie wchodzi w drogę gitowi.'
+  history:
+    merge_search: 'Scal gałąź wyszukiwania'
+    search_filters: 'Dodaj filtry do wyszukiwania'
+    fix_header: 'Napraw nagłówek na małych ekranach'
+    try_theme: 'Wypróbuj ciemniejszy motyw'
+    search_index: 'Indeksuj dokumenty'
+    release: 'Wydanie 2.1.0'
+    search_start: 'Rozpocznij wyszukiwanie'
+    initial: 'Pierwszy commit'
+  versions:
+    v4: 'Wersja 4, z zastosowaną recenzją'
+    current: aktualna
+    review: 'Zmiany recenzenta'
+    review_ref: recenzja
+    v3: 'Wersja 3'
+    v2: 'Wersja 2'
+    v1: 'Wersja 1'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Registro de gráfico'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Itens em uma linha de descendência, mais recentes primeiro, desenhados em faixas coloridas: onde uma linha se divide, onde duas se encontram novamente. Cada item indica seus pais; as faixas seguem. O que uma linha mostra ao lado do gráfico é livre — um título, referências como cápsulas, quem, quando, um nome curto — assim, um histórico git é um uso entre outros.'
+  section:
+    history:
+      title: 'Um histórico'
+      description: 'Uma branch de recurso mesclada de volta, outra deixada aberta, uma tag em um lançamento. Cada faixa mantém sua cor do ponto onde começa até onde termina.'
+    other:
+      title: 'Algo além do git'
+      description: 'As versões de um documento, uma delas revisada ao lado antes de ser mesclada na próxima. O componente não sabe nada sobre commits.'
+    vue:
+      title: 'Em vue'
+      description: 'O mesmo histórico em uma árvore vue, as faixas desenhadas novamente conforme os itens entram na cabeça.'
+    git:
+      title: 'O histórico deste aplicativo'
+      description: 'Lido do repositório pela função git_graph_items() do symfony-coding, através do leitor compartilhado que nunca interfere no git.'
+  history:
+    merge_search: 'Mesclar a branch de busca'
+    search_filters: 'Adicionar filtros à busca'
+    fix_header: 'Corrigir o cabeçalho em telas pequenas'
+    try_theme: 'Experimente um tema mais escuro'
+    search_index: 'Indexar os documentos'
+    release: 'Lançamento 2.1.0'
+    search_start: 'Iniciar a busca'
+    initial: 'Primeiro commit'
+  versions:
+    v4: 'Versão 4, com a revisão aplicada'
+    current: atual
+    review: 'Alterações do revisor'
+    review_ref: revisão
+    v3: 'Versão 3'
+    v2: 'Versão 2'
+    v1: 'Versão 1'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Журнал графа'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Элементы в линии наследования, начиная с новейших, отображаются на цветных дорожках: где линия разветвляется, где две снова встречаются. Каждый элемент указывает своих родителей; дорожки следуют за ними. То, что показывает ряд рядом с графом, свободно — заголовок, ссылки в виде капсул, кто, когда, короткое имя — так что история git является одним из способов использования.'
+  section:
+    history:
+      title: История
+      description: 'Функциональная ветка, объединенная обратно, другая оставлена открытой, тег на релизе. Каждая дорожка сохраняет свой цвет от начала до конца.'
+    other:
+      title: 'Что-то кроме git'
+      description: 'Версии документа, одна из которых была рассмотрена сбоку перед объединением в следующую. Компонент ничего не знает о коммитах.'
+    vue:
+      title: 'В vue'
+      description: 'Та же история в дереве vue, дорожки снова отображаются по мере поступления элементов в начало.'
+    git:
+      title: 'История этого приложения'
+      description: 'Читается из репозитория с помощью git_graph_items() от symfony-coding, через общий ридер, который никогда не мешает git.'
+  history:
+    merge_search: 'Объединить ветку поиска'
+    search_filters: 'Добавить фильтры к поиску'
+    fix_header: 'Закрепить заголовок на малых экранах'
+    try_theme: 'Попробовать темную тему'
+    search_index: 'Индексировать документы'
+    release: 'Выпуск 2.1.0'
+    search_start: 'Начать поиск'
+    initial: 'Первый коммит'
+  versions:
+    v4: 'Версия 4, с примененными изменениями'
+    current: текущая
+    review: 'Изменения рецензента'
+    review_ref: рецензия
+    v3: 'Версия 3'
+    v2: 'Версия 2'
+    v1: 'Версия 1'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: บันทึกกราฟ
+  page_icon: 'ph:bold/git-fork'
+  intro: 'รายการในสายการสืบทอด เริ่มจากรายการใหม่สุด วาดบนเลนสี: ที่ไหนที่สายแยก, ที่ไหนที่สองสายมาบรรจบกันอีกครั้ง แต่ละรายการบอกถึงพ่อแม่ของมัน; เลนก็ตามไป. สิ่งที่แสดงข้างกราฟเป็นอิสระ — หัวข้อ, อ้างอิงเป็นแคปซูล, ใคร, เมื่อไหร่, ชื่อสั้น — ดังนั้นประวัติ git จึงเป็นการใช้งานหนึ่งในหลายๆ อย่าง.'
+  section:
+    history:
+      title: ประวัติ
+      description: 'ฟีเจอร์แบรนช์ที่รวมกลับ, อีกอันที่เปิดอยู่, แท็กบนการปล่อย. แต่ละเลนจะรักษาสีจากจุดเริ่มต้นจนถึงจุดสิ้นสุด.'
+    other:
+      title: 'สิ่งอื่นที่ไม่ใช่ git'
+      description: 'เวอร์ชันของเอกสาร, หนึ่งในนั้นได้รับการตรวจสอบด้านข้างก่อนที่จะรวมเข้าสู่เวอร์ชันถัดไป. ส่วนประกอบไม่รู้เรื่องการคอมมิต.'
+    vue:
+      title: 'ใน vue'
+      description: 'ประวัติเดียวกันในต้นไม้ vue, เลนถูกวาดอีกครั้งเมื่อรายการเข้ามาที่หัว.'
+    git:
+      title: ประวัติของแอปพลิเคชันนี้
+      description: 'อ่านจากที่เก็บโดยฟังก์ชัน git_graph_items() ของ symfony-coding, ผ่านผู้อ่านที่แชร์ซึ่งไม่รบกวน git.'
+  history:
+    merge_search: รวมสาขาการค้นหา
+    search_filters: เพิ่มตัวกรองในการค้นหา
+    fix_header: แก้ไขหัวข้อในหน้าจอขนาดเล็ก
+    try_theme: ลองธีมที่มืดกว่า
+    search_index: ทำดัชนีเอกสาร
+    release: 'ปล่อย 2.1.0'
+    search_start: เริ่มการค้นหา
+    initial: คอมมิตแรก
+  versions:
+    v4: 'เวอร์ชัน 4 พร้อมการตรวจสอบที่นำไปใช้'
+    current: ปัจจุบัน
+    review: การเปลี่ยนแปลงของผู้ตรวจสอบ
+    review_ref: การตรวจสอบ
+    v3: 'เวอร์ชัน 3'
+    v2: 'เวอร์ชัน 2'
+    v1: 'เวอร์ชัน 1'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Grafik günlüğü'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Bir soy hattındaki öğeler, en yenisi önce, renkli yollar üzerinde çizilmiş: bir hattın ayrıldığı yer, iki hattın tekrar birleştiği yer. Her öğe ebeveynlerini belirtir; yollar onları takip eder. Grafiğin yanındaki bir satır boş — bir başlık, kapsüller olarak referanslar, kim, ne zaman, kısa bir isim — böylece bir git geçmişi diğer kullanımlar arasında bir kullanım olarak vardır.'
+  section:
+    history:
+      title: 'Bir geçmiş'
+      description: 'Bir özellik dalı geri birleştirildi, diğeri açık bırakıldı, bir sürüm üzerinde etiket. Her yol, başladığı yerden sona kadar rengini korur.'
+    other:
+      title: "Git'ten başka bir şey"
+      description: "Bir belgenin versiyonları, bunlardan biri birleştirilmeden önce kenarda incelenmiştir. Bileşen, commit'ler hakkında hiçbir şey bilmez."
+    vue:
+      title: "Vue'da"
+      description: 'Aynı geçmişin bir vue ağacında, yollar yeniden çizilmiş olarak öğeler başa geldiğinde.'
+    git:
+      title: 'Bu uygulamanın geçmişi'
+      description: "Symfony-coding'in git_graph_items() fonksiyonu aracılığıyla depodan okunur, git'in yoluna asla girmeyen paylaşılan okuyucu üzerinden."
+  history:
+    merge_search: 'Arama dalını birleştir'
+    search_filters: 'Aramaya filtre ekle'
+    fix_header: 'Küçük ekranlarda başlığı düzelt'
+    try_theme: 'Daha koyu bir tema dene'
+    search_index: 'Belgeleri indeksle'
+    release: 'Sürüm 2.1.0'
+    search_start: 'Aramayı başlat'
+    initial: 'İlk commit'
+  versions:
+    v4: 'Uygulanan inceleme ile birlikte 4. versiyon'
+    current: geçerli
+    review: 'İnceleyenin değişiklikleri'
+    review_ref: inceleme
+    v3: 'Versiyon 3'
+    v2: 'Versiyon 2'
+    v1: 'Versiyon 1'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'گراف لاگ'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'نسخے کی ایک لائن میں، جدید ترین پہلے، رنگین راستوں پر کھینچے گئے: جہاں ایک لائن تقسیم ہوتی ہے، جہاں دو دوبارہ ملتے ہیں۔ ہر نسخہ اپنے والدین کو بتاتا ہے؛ راستے ان کی پیروی کرتے ہیں۔ گراف کے ساتھ ایک قطار میں جو دکھایا جاتا ہے وہ آزاد ہے — ایک عنوان، حوالہ جات کیپسول کے طور پر، کون، کب، ایک مختصر نام — لہذا ایک گٹ تاریخ ایک استعمال ہے دیگر کے درمیان۔'
+  section:
+    history:
+      title: تاریخ
+      description: 'ایک فیچر برانچ کو دوبارہ ضم کیا گیا، دوسرا کھلا چھوڑا گیا، ایک ریلیز پر ٹیگ۔ ہر راستہ اپنے رنگ کو وہاں سے رکھتا ہے جہاں سے وہ شروع ہوتا ہے جہاں تک وہ ختم ہوتا ہے۔'
+    other:
+      title: 'گٹ سے کچھ اور'
+      description: 'ایک دستاویز کے ورژنز، ان میں سے ایک کو اگلے میں ضم ہونے سے پہلے ایک طرف جانچا گیا۔ کمپوننٹ کمٹ کے بارے میں کچھ نہیں جانتا۔'
+    vue:
+      title: 'ویو میں'
+      description: 'ویو کے درخت میں وہی تاریخ، راستے دوبارہ کھینچے گئے جیسے ہی اشیاء سر میں آتی ہیں۔'
+    git:
+      title: 'اس ایپلیکیشن کی تاریخ'
+      description: 'ریپوزٹری سے symfony-coding کے git_graph_items() کے ذریعے پڑھا جاتا ہے، اس مشترکہ قاری کے ذریعے جو کبھی بھی گٹ کے راستے میں نہیں آتا۔'
+  history:
+    merge_search: 'تلاش کی برانچ کو ضم کریں'
+    search_filters: 'تلاش میں فلٹرز شامل کریں'
+    fix_header: 'چھوٹے اسکرینوں پر ہیڈر کو درست کریں'
+    try_theme: 'ایک گہرا تھیم آزمائیں'
+    search_index: 'دستاویزات کو انڈیکس کریں'
+    release: 'ریلیز 2.1.0'
+    search_start: 'تلاش شروع کریں'
+    initial: 'پہلا کمٹ'
+  versions:
+    v4: 'ورژن 4، نظرثانی شدہ تبدیلیوں کے ساتھ'
+    current: موجودہ
+    review: 'نظرثانی کنندہ کی تبدیلیاں'
+    review_ref: نظرثانی
+    v3: 'ورژن 3'
+    v2: 'ورژن 2'
+    v1: 'ورژن 1'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Nhật ký đồ thị'
+  page_icon: 'ph:bold/git-fork'
+  intro: 'Các mục trong một dòng phả hệ, mới nhất ở phía trước, được vẽ trên các làn màu: nơi một dòng phân nhánh, nơi hai dòng gặp lại. Mỗi mục cho biết cha mẹ của nó; các làn theo sau. Những gì một hàng cho thấy bên cạnh đồ thị là miễn phí — một tiêu đề, tham chiếu dưới dạng viên nang, ai, khi nào, một tên ngắn — vì vậy lịch sử git là một trong nhiều cách sử dụng.'
+  section:
+    history:
+      title: 'Lịch sử'
+      description: 'Một nhánh tính năng đã được gộp lại, một cái khác để mở, một thẻ trên một bản phát hành. Mỗi làn giữ màu sắc của nó từ nơi bắt đầu đến nơi kết thúc.'
+    other:
+      title: 'Một cái gì đó khác ngoài git'
+      description: 'Các phiên bản của một tài liệu, một trong số đó đã được xem xét ở bên trước khi được gộp vào cái tiếp theo. Thành phần không biết gì về các lần cam kết.'
+    vue:
+      title: 'Trong vue'
+      description: 'Cùng một lịch sử trong cây vue, các làn được vẽ lại khi các mục vào ở đầu.'
+    git:
+      title: 'Lịch sử của ứng dụng này'
+      description: 'Đọc từ kho lưu trữ bởi git_graph_items() của symfony-coding, thông qua trình đọc chia sẻ không bao giờ can thiệp vào git.'
+  history:
+    merge_search: 'Gộp nhánh tìm kiếm'
+    search_filters: 'Thêm bộ lọc vào tìm kiếm'
+    fix_header: 'Sửa tiêu đề trên màn hình nhỏ'
+    try_theme: 'Thử một giao diện tối hơn'
+    search_index: 'Lập chỉ mục các tài liệu'
+    release: 'Phát hành 2.1.0'
+    search_start: 'Bắt đầu tìm kiếm'
+    initial: 'Lần cam kết đầu tiên'
+  versions:
+    v4: 'Phiên bản 4, với các sửa đổi đã được áp dụng'
+    current: 'hiện tại'
+    review: 'Các thay đổi của người đánh giá'
+    review_ref: 'đánh giá'
+    v3: 'Phiên bản 3'
+    v2: 'Phiên bản 2'
+    v1: 'Phiên bản 1'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 图形日志
+  page_icon: 'ph:bold/git-fork'
+  intro: '后代的一系列项目，最新的在前，以彩色通道绘制：分叉的地方，再次相遇的地方。每个项目都显示其父级；通道随之而动。图表旁边显示的内容是免费的——一个标题，像胶囊一样的引用，谁，何时，一个简短的名称——因此，git 历史是在其他用途中之一。'
+  section:
+    history:
+      title: 历史
+      description: 一个功能分支合并回去，另一个保持开放，一个发布的标签。每条通道保持其从开始到结束的颜色。
+    other:
+      title: '除了 git 以外的其他'
+      description: 文档的版本，其中一个在合并到下一个之前在旁边进行审查。组件对提交一无所知。
+    vue:
+      title: '在 vue 中'
+      description: '在 vue 树中的相同历史，通道在项目进入顶部时再次绘制。'
+    git:
+      title: 该应用程序的历史
+      description: '通过 symfony-coding 的 git_graph_items() 从仓库读取，通过不会干扰 git 的共享读取器。'
+  history:
+    merge_search: 合并搜索分支
+    search_filters: 向搜索添加过滤器
+    fix_header: 在小屏幕上修复标题
+    try_theme: 尝试更暗的主题
+    search_index: 索引文档
+    release: '发布 2.1.0'
+    search_start: 开始搜索
+    initial: 第一次提交
+  versions:
+    v4: '版本 4，已应用审查'
+    current: 当前
+    review: 审查者的更改
+    review_ref: 审查
+    v3: '版本 3'
+    v2: '版本 2'
+    v1: '版本 1'

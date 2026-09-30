@@ -1,0 +1,792 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Chat
+  page_icon: ph:bold/chats-circle
+
+  chat:
+    title: Chat example
+
+  vue:
+    title: Vue
+    description: >
+      The same thread and the same composer, drawn by the entity chat component. It holds a collection of entities
+      and knows nothing of what they are: the author, the text and the date are read through projections a subclass
+      overrides, and a submitted message goes out through the repository like any other creation. The answer is
+      written once the request is over, so it cannot come back in the response to the message: it reaches the page
+      through the live subscription this thread holds on its room.
+
+  description:
+    body: >
+      This chat playground is used to validate message rhythm, spacing, and vertical density before final UI styling.
+      Keep this block intentionally verbose so the layout has enough height to simulate realistic conversation flow,
+      including medium and long lines, wrapping behavior, and natural reading pauses across multiple sentences.
+      The goal is to provide a stable visual baseline that future chat components can follow, so measurements remain
+      consistent when replacing this text with real user and assistant messages.
+
+  composer:
+    placeholder: Write a message...
+    submit_label: Send message
+    action_plus_label: Add content
+    action_smiley_label: Insert emoji
+    multiline_value: >
+      This is a longer chat draft used to preview the multiline state.
+      It wraps across multiple lines so the visual difference with the one-line field is obvious.
+
+  messages:
+    user_1: >
+      Can you summarize the action items from yesterday's sync and keep only decisions we can execute this week?
+    user_2: >
+      Also keep the output short because this will be copied into the manager sidebar.
+    assistant_1: >
+      Sure. I can provide a concise summary with priorities, owners, and next checkpoints.
+    assistant_2: >
+      I will only keep validated decisions and remove open questions that still need discovery.
+    assistant_3: >
+      Proposed structure:
+      1. Immediate actions.
+      2. Dependencies.
+      3. Risks to monitor.
+    assistant_4: >
+      Once validated, this structure can become the default template for the chat menu in manager.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: دردشة
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'مثال دردشة'
+  vue:
+    title: فيو
+    description: |
+      نفس السلسلة ونفس المؤلف، مستمدة من مكون دردشة الكيان. يحتفظ بمجموعة من الكيانات ولا يعرف شيئًا عن ماهيتها: المؤلف، النص والتاريخ تُقرأ من خلال الإسقاطات التي تعيد كتابتها فئة فرعية، والرسالة المقدمة تخرج من خلال المستودع مثل أي إنشاء آخر. يتم كتابة الإجابة بمجرد انتهاء الطلب، لذا لا يمكن أن تعود في الرد على الرسالة: تصل إلى الصفحة من خلال الاشتراك المباشر الذي تحتفظ به هذه السلسلة في غرفتها.
+  description:
+    body: |
+      تستخدم ساحة الدردشة هذه للتحقق من إيقاع الرسائل، والتباعد، والكثافة الرأسية قبل تنسيق واجهة المستخدم النهائي. حافظ على هذا المقطع طويلاً عن قصد حتى يكون للتصميم ارتفاع كافٍ لمحاكاة تدفق المحادثة الواقعية، بما في ذلك الأسطر المتوسطة والطويلة، وسلوك التفاف النص، ووقفات القراءة الطبيعية عبر جمل متعددة. الهدف هو توفير قاعدة مرئية ثابتة يمكن أن تتبعها مكونات الدردشة المستقبلية، بحيث تظل القياسات متسقة عند استبدال هذا النص برسائل المستخدمين والمساعدين الحقيقية.
+  composer:
+    placeholder: 'اكتب رسالة...'
+    submit_label: 'أرسل رسالة'
+    action_plus_label: 'أضف محتوى'
+    action_smiley_label: 'أدخل رمز تعبيري'
+    multiline_value: |
+      هذا مسودة دردشة أطول تُستخدم لمعاينة حالة الأسطر المتعددة. تتداخل عبر أسطر متعددة لذا فإن الفرق المرئي مع حقل السطر الواحد واضح.
+  messages:
+    user_1: |
+      هل يمكنك تلخيص العناصر الإجرائية من اجتماع الأمس والاحتفاظ فقط بالقرارات التي يمكننا تنفيذها هذا الأسبوع؟
+    user_2: |
+      احتفظ أيضًا بالمخرجات قصيرة لأن هذا سيتم نسخه إلى شريط الجانبي للمدير.
+    assistant_1: |
+      بالتأكيد. يمكنني تقديم ملخص موجز مع الأولويات، والمالكين، ونقاط التحقق التالية.
+    assistant_2: |
+      سأحتفظ فقط بالقرارات المصدقة وأزيل الأسئلة المفتوحة التي لا تزال بحاجة إلى اكتشاف.
+    assistant_3: |
+      الهيكل المقترح: 1. الإجراءات الفورية. 2. الاعتمادات. 3. المخاطر التي يجب مراقبتها.
+    assistant_4: |
+      بمجرد التحقق منه، يمكن أن يصبح هذا الهيكل القالب الافتراضي لقائمة الدردشة في المدير.
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: চ্যাট
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'চ্যাট উদাহরণ'
+  vue:
+    title: ভিউ
+    description: |
+      একই থ্রেড এবং একই রচয়িতা, যা চ্যাট উপাদান দ্বারা তৈরি। এটি একটি সংকলন ধারণ করে এবং তারা কী তা নিয়ে কিছু জানে না: লেখক, লেখা এবং তারিখ প্রক্ষেপণের মাধ্যমে পড়া হয় যা একটি সাবক্লাস ওভাররাইড করে, এবং একটি জমা দেওয়া বার্তা রিপোজিটরির মাধ্যমে অন্য যেকোনো সৃষ্টির মতো বাইরে যায়। উত্তরটি সেই সময়ে লেখা হয় যখন অনুরোধটি শেষ হয়, তাই এটি বার্তার প্রতিক্রিয়ায় ফিরে আসতে পারে না: এটি এই থ্রেডটির লাইভ সাবস্ক্রিপশনটি যে ঘরে ধারণ করে সেখানে পৃষ্ঠায় পৌঁছে।
+  description:
+    body: |
+      এই চ্যাট খেলার মাঠটি বার্তার ছন্দ, ফাঁক এবং উল্লম্ব ঘনত্ব যাচাই করতে ব্যবহৃত হয় চূড়ান্ত UI স্টাইলিংয়ের আগে। এই ব্লকটি ইচ্ছাকৃতভাবে বিস্তারিত রাখুন যাতে লেআউটের যথেষ্ট উচ্চতা থাকে বাস্তবসম্মত কথোপকথনের প্রবাহ সিমুলেট করার জন্য, মাঝারি এবং দীর্ঘ লাইনের পাশাপাশি, মোড়ানো আচরণ এবং একাধিক বাক্যের মধ্যে প্রাকৃতিক পড়ার বিরতি অন্তর্ভুক্ত করে। লক্ষ্য হল একটি স্থিতিশীল ভিজ্যুয়াল বেসলাইন প্রদান করা যা ভবিষ্যতের চ্যাট উপাদানগুলি অনুসরণ করতে পারে, তাই পরিমাপগুলি যখন এই পাঠ্যকে বাস্তব ব্যবহারকারী এবং সহায়ক বার্তাগুলির সাথে প্রতিস্থাপন করা হয় তখন সঙ্গতিপূর্ণ থাকে।
+  composer:
+    placeholder: 'একটি বার্তা লিখুন...'
+    submit_label: 'বার্তা পাঠান'
+    action_plus_label: 'বিষয়বস্তু যোগ করুন'
+    action_smiley_label: 'ইমোজি встав করুন'
+    multiline_value: |
+      এটি একটি দীর্ঘ চ্যাট খসড়া যা একাধিক লাইনের অবস্থার প্রিভিউ করতে ব্যবহৃত হয়। এটি একাধিক লাইনের মধ্যে মোড়ানো হয় যাতে এক লাইনের ক্ষেত্রের সাথে ভিজ্যুয়াল পার্থক্য স্পষ্ট হয়।
+  messages:
+    user_1: |
+      আপনি কি গতকালের সিঙ্কের কার্যকলাপগুলোর সারাংশ দিতে পারেন এবং কেবল সেই সিদ্ধান্তগুলো রাখুন যা আমরা এই সপ্তাহে কার্যকর করতে পারি?
+    user_2: |
+      এছাড়াও আউটপুটটি সংক্ষিপ্ত রাখুন কারণ এটি ম্যানেজার সাইডবারে কপি করা হবে।
+    assistant_1: |
+      অবশ্যই। আমি অগ্রাধিকারের সাথে একটি সংক্ষিপ্ত সারাংশ প্রদান করতে পারি, মালিক এবং পরবর্তী চেকপয়েন্টগুলি।
+    assistant_2: |
+      আমি কেবল বৈধ সিদ্ধান্তগুলো রাখবো এবং খোলা প্রশ্নগুলো সরিয়ে ফেলবো যা এখনও আবিষ্কারের প্রয়োজন।
+    assistant_3: |
+      প্রস্তাবিত কাঠামো: ১. তাত্ক্ষণিক ক্রিয়াকলাপ। ২. নির্ভরতা। ৩. নজরদারি করার জন্য ঝুঁকি।
+    assistant_4: |
+      একবার বৈধ হলে, এই কাঠামোটি ম্যানেজারের চ্যাট মেনুর জন্য ডিফল্ট টেম্পলেট হতে পারে।
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: Chat-Beispiel
+  vue:
+    title: Vue
+    description: |
+      Der gleiche Thread und der gleiche Composer, erstellt durch die Entity-Chat-Komponente. Es enthält eine Sammlung von Entitäten und weiß nicht, was sie sind: der Autor, der Text und das Datum werden durch Projektionen gelesen, die eine Unterklasse überschreibt, und eine gesendete Nachricht wird wie jede andere Erstellung über das Repository versendet. Die Antwort wird geschrieben, sobald die Anfrage beendet ist, sodass sie nicht in der Antwort auf die Nachricht zurückkommen kann: sie erreicht die Seite über das Live-Abonnement, das dieser Thread in seinem Raum hält.
+  description:
+    body: |
+      Dieser Chat-Spielplatz wird verwendet, um den Nachrichtenrhythmus, den Abstand und die vertikale Dichte vor der endgültigen UI- Gestaltung zu validieren. Halten Sie diesen Block absichtlich ausführlich, damit das Layout genug Höhe hat, um den realistischen Gesprächsfluss zu simulieren, einschließlich mittellanger und langer Zeilen, Umbruchverhalten und natürlicher Lesepausen über mehrere Sätze. Das Ziel ist es, eine stabile visuelle Basis zu bieten, der zukünftige Chat-Komponenten folgen können, sodass die Messungen konsistent bleiben, wenn dieser Text durch echte Benutzer- und Assistentennachrichten ersetzt wird.
+  composer:
+    placeholder: 'Nachricht schreiben...'
+    submit_label: 'Nachricht senden'
+    action_plus_label: 'Inhalt hinzufügen'
+    action_smiley_label: 'Emoji einfügen'
+    multiline_value: |
+      Dies ist ein längerer Chat-Entwurf, der verwendet wird, um den mehrzeiligen Zustand vorzuschauen. Er erstreckt sich über mehrere Zeilen, sodass der visuelle Unterschied zum einzeiligen Feld deutlich wird.
+  messages:
+    user_1: |
+      Kannst du die Aktionspunkte aus dem Sync von gestern zusammenfassen und nur die Entscheidungen behalten, die wir diese Woche umsetzen können?
+    user_2: |
+      Halte die Ausgabe auch kurz, da dies in die Sidebar des Managers kopiert wird.
+    assistant_1: |
+      Klar. Ich kann eine prägnante Zusammenfassung mit Prioritäten, Verantwortlichen und nächsten Punkten bereitstellen.
+    assistant_2: |
+      Ich werde nur validierte Entscheidungen behalten und offene Fragen entfernen, die noch geklärt werden müssen.
+    assistant_3: |
+      Vorgeschlagene Struktur: 1. Sofortige Maßnahmen. 2. Abhängigkeiten. 3. Risiken, die überwacht werden müssen.
+    assistant_4: |
+      Sobald validiert, kann diese Struktur zur Standardvorlage für das Chat-Menü im Manager werden.
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Ejemplo de chat'
+  vue:
+    title: Vue
+    description: |
+      El mismo hilo y el mismo compositor, dibujado por el componente de chat de la entidad. Contiene una colección de entidades y no sabe nada de lo que son: el autor, el texto y la fecha se leen a través de proyecciones que una subclase sobreescribe, y un mensaje enviado sale a través del repositorio como cualquier otra creación. La respuesta se escribe una vez que la solicitud ha terminado, por lo que no puede volver en la respuesta al mensaje: llega a la página a través de la suscripción en vivo que este hilo mantiene en su sala.
+  description:
+    body: |
+      Este espacio de chat se utiliza para validar el ritmo de los mensajes, el espaciado y la densidad vertical antes del estilo final de la interfaz de usuario. Mantén este bloque intencionalmente prolijo para que el diseño tenga suficiente altura para simular el flujo de conversación realista, incluyendo líneas medianas y largas, comportamiento de ajuste y pausas naturales de lectura a través de múltiples oraciones. El objetivo es proporcionar una base visual estable que los futuros componentes de chat puedan seguir, de modo que las medidas se mantengan consistentes al reemplazar este texto con mensajes reales de usuarios y asistentes.
+  composer:
+    placeholder: 'Escribe un mensaje...'
+    submit_label: 'Enviar mensaje'
+    action_plus_label: 'Agregar contenido'
+    action_smiley_label: 'Insertar emoji'
+    multiline_value: |
+      Este es un borrador de chat más largo utilizado para previsualizar el estado de múltiples líneas. Se ajusta a través de múltiples líneas para que la diferencia visual con el campo de una línea sea obvia.
+  messages:
+    user_1: |
+      ¿Puedes resumir los elementos de acción de la sincronización de ayer y mantener solo las decisiones que podemos ejecutar esta semana?
+    user_2: |
+      También manten la salida corta porque esto se copiará en la barra lateral del gerente.
+    assistant_1: |
+      Claro. Puedo proporcionar un resumen conciso con prioridades, propietarios y próximos puntos de control.
+    assistant_2: |
+      Solo mantendré decisiones validadas y eliminaré preguntas abiertas que aún necesitan descubrimiento.
+    assistant_3: |
+      Estructura propuesta: 1. Acciones inmediatas. 2. Dependencias. 3. Riesgos a monitorear.
+    assistant_4: |
+      Una vez validada, esta estructura puede convertirse en la plantilla predeterminada para el menú de chat en el gerente.
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: چت
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'نمونه چت'
+  vue:
+    title: ویو
+    description: |
+      این کامپوننت چت، همان رشته و همان سازنده را ترسیم می‌کند. این کامپوننت مجموعه‌ای از موجودیت‌ها را در خود دارد و از آنچه هستند هیچ نمی‌داند: نویسنده، متن و تاریخ از طریق پروجکشن‌ها که یک زیرکلاس آن را نادیده می‌گیرد خوانده می‌شوند و پیامی که ارسال می‌شود مانند هر ایجاد دیگری از طریق مخزن خارج می‌شود. پاسخ پس از اتمام درخواست نوشته می‌شود، بنابراین نمی‌تواند در پاسخ به پیام برگردد: این پاسخ از طریق اشتراک زنده‌ای که این رشته در اتاق خود دارد به صفحه می‌رسد.
+  description:
+    body: |
+      این زمین بازی چت برای اعتبارسنجی ریتم پیام‌ها، فاصله‌گذاری و چگالی عمودی قبل از طراحی نهایی رابط کاربری استفاده می‌شود. این بخش را عمداً پرحرف نگه دارید تا طرح اندازه کافی ارتفاع داشته باشد تا جریان مکالمه واقعی را شبیه‌سازی کند، از جمله خطوط متوسط و بلند، رفتار پیچیده و مکث‌های طبیعی در خواندن میان چندین جمله. هدف این است که یک پایه بصری پایدار ارائه شود که اجزای چت آینده بتوانند از آن پیروی کنند، بنابراین اندازه‌گیری‌ها هنگام جایگزینی این متن با پیام‌های واقعی کاربر و دستیار ثابت باقی می‌مانند.
+  composer:
+    placeholder: 'پیام خود را بنویسید...'
+    submit_label: 'ارسال پیام'
+    action_plus_label: 'افزودن محتوا'
+    action_smiley_label: 'وارد کردن ایموجی'
+    multiline_value: |
+      این یک پیش‌نویس چت طولانی‌تر است که برای پیش‌نمایش حالت چندخطی استفاده می‌شود. این متن در چندین خط پیچیده می‌شود تا تفاوت بصری با فیلد یک‌خطی واضح باشد.
+  messages:
+    user_1: |
+      می‌توانید موارد اقدام را از همگام‌سازی دیروز خلاصه کنید و فقط تصمیماتی که می‌توانیم این هفته اجرا کنیم را نگه دارید؟
+    user_2: |
+      همچنین خروجی را کوتاه نگه دارید زیرا این متن در نوار کناری مدیر کپی خواهد شد.
+    assistant_1: |
+      البته. می‌توانم یک خلاصه مختصر با اولویت‌ها، صاحبان و نقاط عطف بعدی ارائه دهم.
+    assistant_2: |
+      فقط تصمیمات تایید شده را نگه می‌دارم و سوالات باز که هنوز نیاز به کشف دارند را حذف می‌کنم.
+    assistant_3: |
+      ساختار پیشنهادی: 1. اقدامات فوری. 2. وابستگی‌ها. 3. ریسک‌هایی که باید نظارت شوند.
+    assistant_4: |
+      پس از تایید، این ساختار می‌تواند به عنوان الگوی پیش‌فرض برای منوی چت در مدیر تبدیل شود.
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: Chat-esimerkki
+  vue:
+    title: Vue
+    description: |
+      Sama ketju ja sama kirjoittaja, joita hallitsee entiteetti chat-komponentti. Se pitää sisällään kokoelman entiteettejä eikä tiedä, mitä ne ovat: kirjoittaja, teksti ja päivämäärä luetaan projekteista, joita aliluokka ohjaa, ja lähetetty viesti menee varastoon kuten mikä tahansa muu luomus. Vastaus kirjoitetaan, kun pyyntö on ohi, joten se ei voi palata viestin vastaukseen: se saavuttaa sivun tämän ketjun kautta, joka on live-tilauksessa huoneessaan.
+  description:
+    body: |
+      Tätä chat-leikkikenttää käytetään viestien rytmin, välin ja pystysuoran tiheyden vahvistamiseen ennen lopullista käyttöliittymän muotoilua. Pidä tämä lohko tahallisesti laveana, jotta asettelussa on riittävästi korkeutta simuloimaan realistista keskustelun kulkua, mukaan lukien keskikokoiset ja pitkät rivit, rivinvaihtokäyttäytyminen ja luonnolliset lukupysähdykset useiden lauseiden yli. Tavoitteena on tarjota vakaa visuaalinen perusta, jota tulevat chat-komponentit voivat seurata, jotta mittaukset pysyvät johdonmukaisina, kun tämä teksti korvataan oikeilla käyttäjän ja avustajan viesteillä.
+  composer:
+    placeholder: 'Kirjoita viesti...'
+    submit_label: 'Lähetä viesti'
+    action_plus_label: 'Lisää sisältöä'
+    action_smiley_label: 'Lisää emoji'
+    multiline_value: |
+      Tämä on pidempi chat-luonnos, jota käytetään monirivisen tilan esikatseluun. Se kattaa useita rivejä, joten visuaalinen ero yhden rivin kenttään on ilmeinen.
+  messages:
+    user_1: |
+      Voitko tiivistää eilisen synkronoinnin toimintakohdat ja pitää vain päätökset, joita voimme toteuttaa tällä viikolla?
+    user_2: |
+      Pidä myös tulos lyhyenä, koska tämä kopioidaan managerin sivupalkkiin.
+    assistant_1: |
+      Totta. Voin antaa tiiviin yhteenvedon prioriteeteista, vastuuhenkilöistä ja seuraavista tarkistuskohtaista.
+    assistant_2: |
+      Pidän vain vahvistetuista päätöksistä ja poistan avoimet kysymykset, jotka vielä tarvitsevat selvitystä.
+    assistant_3: |
+      Ehdotettu rakenne: 1. Välittömät toimenpiteet. 2. Riippuvuudet. 3. Seurattavat riskit.
+    assistant_4: |
+      Kun tämä on vahvistettu, tästä rakenteesta voi tulla oletusmalli chat-valikolle managerissa.
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Exemple de chat'
+  vue:
+    title: Vue
+    description: |
+      Le même fil et le même rédacteur, dessinés par le composant de chat de l'entité. Il contient une collection d'entités et ne sait rien de ce qu'elles sont : l'auteur, le texte et la date sont lus à travers des projections qu'une sous-classe remplace, et un message soumis sort par le biais du dépôt comme n'importe quelle autre création. La réponse est écrite une fois la demande terminée, donc elle ne peut pas revenir dans la réponse au message : elle atteint la page par le biais de l'abonnement en direct que ce fil maintient dans sa salle.
+  description:
+    body: |
+      Ce terrain de jeu de chat est utilisé pour valider le rythme des messages, l'espacement et la densité verticale avant le style final de l'interface utilisateur. Gardez ce bloc intentionnellement verbeux afin que la mise en page ait suffisamment de hauteur pour simuler un flux de conversation réaliste, y compris des lignes de longueur moyenne et longue, un comportement de retour à la ligne, et des pauses de lecture naturelles à travers plusieurs phrases. L'objectif est de fournir une base visuelle stable que les futurs composants de chat pourront suivre, de sorte que les mesures restent cohérentes lors du remplacement de ce texte par de vrais messages d'utilisateur et d'assistant.
+  composer:
+    placeholder: 'Écrivez un message...'
+    submit_label: 'Envoyer le message'
+    action_plus_label: 'Ajouter du contenu'
+    action_smiley_label: 'Insérer un emoji'
+    multiline_value: |
+      Ceci est un brouillon de chat plus long utilisé pour prévisualiser l'état multiligne. Il s'étend sur plusieurs lignes afin que la différence visuelle avec le champ sur une seule ligne soit évidente.
+  messages:
+    user_1: |
+      Peux-tu résumer les points d'action de la synchronisation d'hier et ne garder que les décisions que nous pouvons exécuter cette semaine ?
+    user_2: |
+      Garde également la sortie courte car cela sera copié dans la barre latérale du manager.
+    assistant_1: |
+      Bien sûr. Je peux fournir un résumé concis avec des priorités, des responsables et des prochains points de contrôle.
+    assistant_2: |
+      Je ne garderai que les décisions validées et retirerai les questions ouvertes qui nécessitent encore une découverte.
+    assistant_3: |
+      Structure proposée : 1. Actions immédiates. 2. Dépendances. 3. Risques à surveiller.
+    assistant_4: |
+      Une fois validée, cette structure peut devenir le modèle par défaut pour le menu de chat dans le manager.
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: שיחה
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'דוגמת שיחה'
+  vue:
+    title: Vue
+    description: |
+      אותו חוט ואותו יוצר, נDraw על ידי רכיב השיחה של הישות. הוא מחזיק אוסף של ישויות ואינו יודע מה הן: המחבר, הטקסט והתאריך נקראים דרך projections שאחת התתי-מחלקות מחליפה, והודעה שהוגשה יוצאת דרך המאגר כמו כל יצירה אחרת. התשובה נכתבת ברגע שהבקשה מסתיימת, כך שהיא לא יכולה לחזור בתגובה להודעה: היא מגיעה לדף דרך המנוי החי שהחוט הזה מחזיק בחדר שלו.
+  description:
+    body: |
+      גן המשחקים של השיחה הזה משמש לאימות קצב ההודעות, רווחים וצפיפות אנכית לפני עיצוב הממשק הסופי. שמור על בלוק זה מכוון להיות מפורט בכוונה כך שהפריסה תהיה בגובה מספיק כדי לדמות זרימת שיחה ריאליסטית, כולל שורות בינוניות וארוכות, התנהגות עטיפה ופסקי קריאה טבעיים על פני מספר משפטים. המטרה היא לספק בסיס חזותי יציב שהרכיבי שיחה העתידיים יכולים לעקוב אחריו, כך שהמדידות יישארו עקביות כאשר מחליפים טקסט זה עם הודעות אמיתיות של משתמש ועוזר.
+  composer:
+    placeholder: 'כתוב הודעה...'
+    submit_label: 'שלח הודעה'
+    action_plus_label: 'הוסף תוכן'
+    action_smiley_label: "הכנס אימוג'י"
+    multiline_value: |
+      זהו טיוטת שיחה ארוכה יותר המשמשת להציג את מצב השורות המרובות. היא עטופה על פני מספר שורות כך שההבדל החזותי עם השדה של שורה אחת ברור.
+  messages:
+    user_1: |
+      האם תוכל לסכם את הפריטים לפעולה מהסינכרון של אתמול ולשמור רק את ההחלטות שאנחנו יכולים לבצע השבוע?
+    user_2: |
+      שמור גם על התוצאה קצרה כי זה יועתק לסרגל הצד של המנהל.
+    assistant_1: |
+      בטח. אני יכול לספק סיכום תמציתי עם עדיפויות, בעלי תפקידים ונקודות ציון הבאות.
+    assistant_2: |
+      אני אשמור רק על החלטות מאומתות ואסיר שאלות פתוחות שעדיין צריכות גילוי.
+    assistant_3: |
+      מבנה מוצע: 1. פעולות מיידיות. 2. תלותים. 3. סיכונים שיש לעקוב אחריהם.
+    assistant_4: |
+      ברגע שהמבנה מאושר, הוא יכול להפוך לתבנית ברירת המחדל עבור תפריט השיחה במנהל.
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: चैट
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'चैट उदाहरण'
+  vue:
+    title: व्यू
+    description: |
+      एक ही धागा और एक ही लेखक, एंटिटी चैट घटक द्वारा चित्रित। यह एंटिटीज़ का एक संग्रह रखता है और नहीं जानता कि वे क्या हैं: लेखक, पाठ और तिथि को प्रक्षिप्तियों के माध्यम से पढ़ा जाता है जो एक उपवर्ग ओवरराइड करता है, और एक प्रस्तुत संदेश किसी अन्य निर्माण की तरह रिपॉजिटरी के माध्यम से बाहर जाता है। उत्तर तब लिखा जाता है जब अनुरोध समाप्त हो जाता है, इसलिए यह संदेश के उत्तर में वापस नहीं आ सकता: यह इस धागे के कमरे में लाइव सब्सक्रिप्शन के माध्यम से पृष्ठ तक पहुँचता है।
+  description:
+    body: |
+      यह चैट प्लेग्राउंड संदेश की ताल, रिक्ति और ऊर्ध्वाधर घनत्व को अंतिम UI स्टाइलिंग से पहले मान्य करने के लिए उपयोग किया जाता है। इस ब्लॉक को जानबूझकर विस्तृत रखें ताकि लेआउट में पर्याप्त ऊंचाई हो ताकि वास्तविक बातचीत के प्रवाह का अनुकरण किया जा सके, जिसमें मध्यम और लंबे पंक्तियाँ, लपेटने का व्यवहार, और कई वाक्यों के बीच प्राकृतिक पढ़ने के ठहराव शामिल हैं। लक्ष्य यह है कि भविष्य के चैट घटक एक स्थिर दृश्य आधार रेखा का पालन कर सकें, ताकि वास्तविक उपयोगकर्ता और सहायक संदेशों के साथ इस पाठ को बदलते समय माप समान रहें।
+  composer:
+    placeholder: 'एक संदेश लिखें...'
+    submit_label: 'संदेश भेजें'
+    action_plus_label: 'सामग्री जोड़ें'
+    action_smiley_label: 'इमोजी डालें'
+    multiline_value: |
+      यह एक लंबा चैट ड्राफ्ट है जिसका उपयोग मल्टीलाइन स्थिति का पूर्वावलोकन करने के लिए किया जाता है। यह कई पंक्तियों में लपेटता है ताकि एक-पंक्ति क्षेत्र के साथ दृश्य अंतर स्पष्ट हो।
+  messages:
+    user_1: |
+      क्या आप कल की समन्वय बैठक के कार्यों का सारांश दे सकते हैं और केवल उन निर्णयों को रखें जिन्हें हम इस सप्ताह लागू कर सकते हैं?
+    user_2: |
+      आउटपुट को भी संक्षिप्त रखें क्योंकि इसे प्रबंधक साइडबार में कॉपी किया जाएगा।
+    assistant_1: |
+      बिलकुल। मैं प्राथमिकताओं, मालिकों और अगले चेकपॉइंट्स के साथ एक संक्षिप्त सारांश प्रदान कर सकता हूँ।
+    assistant_2: |
+      मैं केवल मान्य निर्णयों को रखूंगा और खुली प्रश्नों को हटा दूंगा जिन्हें अभी खोजने की आवश्यकता है।
+    assistant_3: |
+      प्रस्तावित संरचना: 1. तात्कालिक कार्य। 2. निर्भरताएँ। 3. निगरानी करने के लिए जोखिम।
+    assistant_4: |
+      एक बार मान्य होने के बाद, यह संरचना प्रबंधक में चैट मेनू के लिए डिफ़ॉल्ट टेम्पलेट बन सकती है।
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Obrolan
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Contoh Obrolan'
+  vue:
+    title: Vue
+    description: |
+      Thread dan penulis yang sama, ditarik oleh komponen obrolan entitas. Ini menyimpan koleksi entitas dan tidak mengetahui apa itu: penulis, teks dan tanggal dibaca melalui proyeksi yang disesuaikan oleh subclass, dan pesan yang dikirim keluar melalui repositori seperti kreasi lainnya. Jawaban ditulis setelah permintaan selesai, jadi tidak dapat kembali dalam respons terhadap pesan: ia mencapai halaman melalui langganan langsung yang dimiliki thread ini di ruangan.
+  description:
+    body: |
+      Tempat bermain obrolan ini digunakan untuk memvalidasi ritme pesan, jarak, dan kerapatan vertikal sebelum penataan UI final. Jaga blok ini sengaja verbose sehingga tata letaknya memiliki cukup tinggi untuk mensimulasikan aliran percakapan yang realistis, termasuk garis sedang dan panjang, perilaku pembungkus, dan jeda membaca alami di beberapa kalimat. Tujuannya adalah untuk memberikan dasar visual yang stabil yang dapat diikuti oleh komponen obrolan di masa depan, sehingga pengukuran tetap konsisten saat mengganti teks ini dengan pesan pengguna dan asisten yang sebenarnya.
+  composer:
+    placeholder: 'Ketik pesan...'
+    submit_label: 'Kirim pesan'
+    action_plus_label: 'Tambahkan konten'
+    action_smiley_label: 'Sisipkan emoji'
+    multiline_value: |
+      Ini adalah draf obrolan yang lebih panjang yang digunakan untuk menampilkan status multiline. Ini membungkus di beberapa baris sehingga perbedaan visual dengan bidang satu baris menjadi jelas.
+  messages:
+    user_1: |
+      Bisakah Anda merangkum item tindakan dari sinkronisasi kemarin dan hanya menyimpan keputusan yang dapat kita eksekusi minggu ini?
+    user_2: |
+      Juga jaga output tetap singkat karena ini akan disalin ke sidebar manajer.
+    assistant_1: |
+      Tentu. Saya bisa memberikan ringkasan singkat dengan prioritas, pemilik, dan titik cek berikutnya.
+    assistant_2: |
+      Saya hanya akan menyimpan keputusan yang sudah divalidasi dan menghapus pertanyaan terbuka yang masih perlu ditemukan.
+    assistant_3: |
+      Struktur yang diusulkan: 1. Tindakan segera. 2. Ketergantungan. 3. Risiko yang perlu dipantau.
+    assistant_4: |
+      Setelah divalidasi, struktur ini dapat menjadi template default untuk menu obrolan di manajer.
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Esempio di chat'
+  vue:
+    title: Vue
+    description: |
+      Lo stesso thread e lo stesso compositore, disegnati dal componente chat dell'entità. Contiene una raccolta di entità e non sa nulla di cosa siano: l'autore, il testo e la data vengono letti attraverso proiezioni che una sottoclasse sovrascrive, e un messaggio inviato esce attraverso il repository come qualsiasi altra creazione. La risposta viene scritta una volta che la richiesta è completata, quindi non può tornare nella risposta al messaggio: arriva alla pagina attraverso l'abbonamento live che questo thread mantiene nella sua stanza.
+  description:
+    body: |
+      Questo playground per chat è utilizzato per convalidare il ritmo dei messaggi, il loro spazio e la densità verticale prima della stilizzazione finale dell'interfaccia. Mantieni questo blocco intenzionalmente verboso in modo che il layout abbia abbastanza altezza per simulare un flusso di conversazione realistico, includendo righe di media e lunga lunghezza, comportamento di avvolgimento e pause di lettura naturali attraverso più frasi. L'obiettivo è fornire una base visiva stabile che i futuri componenti della chat possano seguire, affinché le misurazioni rimangano coerenti quando si sostituisce questo testo con messaggi reali degli utenti e degli assistenti.
+  composer:
+    placeholder: 'Scrivi un messaggio...'
+    submit_label: 'Invia messaggio'
+    action_plus_label: 'Aggiungi contenuto'
+    action_smiley_label: 'Inserisci emoji'
+    multiline_value: |
+      Questo è un bozza di chat più lunga utilizzata per visualizzare lo stato multiriga. Si estende su più righe in modo che la differenza visiva con il campo su una sola riga sia evidente.
+  messages:
+    user_1: |
+      Puoi riassumere gli elementi d'azione dal sync di ieri e mantenere solo le decisioni che possiamo eseguire questa settimana?
+    user_2: |
+      Inoltre, mantieni l'output breve perché questo sarà copiato nella barra laterale del manager.
+    assistant_1: |
+      Certo. Posso fornire un riassunto conciso con priorità, responsabili e prossimi checkpoint.
+    assistant_2: |
+      Terrò solo le decisioni validate e rimuoverò le domande aperte che necessitano ancora di scoperta.
+    assistant_3: |
+      Struttura proposta: 1. Azioni immediate. 2. Dipendenze. 3. Rischi da monitorare.
+    assistant_4: |
+      Una volta convalidata, questa struttura può diventare il template predefinito per il menu della chat nel manager.
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: チャット
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: チャットの例
+  vue:
+    title: Vue
+    description: |
+      同じスレッドと同じ作成者が、エンティティチャットコンポーネントによって描画されます。エンティティのコレクションを保持し、それらが何であるかは何も知りません：著者、テキスト、日付は、サブクラスがオーバーライドするプロジェクションを通じて読み取られ、送信されたメッセージは他の作成物と同様にリポジトリを介して送信されます。リクエストが終了すると回答が書き込まれるため、メッセージへの応答として戻ることはできません：このスレッドが部屋で保持しているライブサブスクリプションを通じてページに到達します。
+  description:
+    body: |
+      このチャットプレイグラウンドは、最終的なUIスタイリングの前にメッセージのリズム、間隔、および縦の密度を検証するために使用されます。レイアウトが現実的な会話の流れをシミュレートするのに十分な高さを持つように、このブロックを意図的に冗長にしてください。中程度や長い行、折り返し動作、複数の文にわたる自然な読みのポーズを含めることが重要です。目標は、将来のチャットコンポーネントが従うことができる安定したビジュアルベースラインを提供することであり、このテキストを実際のユーザーおよびアシスタントのメッセージと置き換えたときに測定が一貫していることを確保することです。
+  composer:
+    placeholder: メッセージを入力...
+    submit_label: メッセージを送信
+    action_plus_label: コンテンツを追加
+    action_smiley_label: 絵文字を挿入
+    multiline_value: |
+      これはマルチライン状態をプレビューするために使用される長めのチャットドラフトです。複数行にわたって折り返されるため、1行フィールドとの視覚的な違いが明らかになります。
+  messages:
+    user_1: |
+      昨日の同期からのアクションアイテムを要約して、今週実行可能な決定だけを残してもらえますか？
+    user_2: |
+      また、出力は短く保ってください。これはマネージャーのサイドバーにコピーされます。
+    assistant_1: |
+      もちろんです。優先順位、責任者、次のチェックポイントを含む簡潔な要約を提供できます。
+    assistant_2: |
+      検証済みの決定のみを保持し、まだ発見が必要な未解決の質問は削除します。
+    assistant_3: |
+      提案された構造：1. 即時アクション。2. 依存関係。3. 監視するリスク。
+    assistant_4: |
+      検証が完了したら、この構造はマネージャーのチャットメニューのデフォルトテンプレートとして使用できます。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 채팅
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: '채팅 예시'
+  vue:
+    title: Vue
+    description: |
+      같은 스레드와 같은 작성자를 가진 엔터티 채팅 컴포넌트로 그려집니다. 이는 엔터티 컬렉션을 보유하며 그들이 무엇인지에 대해 아무것도 알지 못합니다: 작성자, 텍스트 및 날짜는 서브클래스가 오버라이드한 프로젝션을 통해 읽혀지며, 제출된 메시지는 다른 생성물처럼 레포지토리를 통해 나갑니다. 응답은 요청이 끝난 후 작성되므로 메시지에 대한 응답으로 돌아올 수 없습니다: 이 스레드는 방에서 유지되는 실시간 구독을 통해 페이지에 도달합니다.
+  description:
+    body: |
+      이 채팅 놀이터는 최종 UI 스타일링 전에 메시지 리듬, 간격 및 수직 밀도를 검증하는 데 사용됩니다. 이 블록은 의도적으로 장황하게 유지하여 레이아웃이 현실적인 대화 흐름을 시뮬레이션할 수 있는 충분한 높이를 가지도록 합니다. 중간 및 긴 문장, 줄 바꿈 동작, 여러 문장 간의 자연스러운 읽기 일시 중지를 포함합니다. 목표는 향후 채팅 컴포넌트가 따를 수 있는 안정적인 시각적 기준선을 제공하는 것이므로, 이 텍스트를 실제 사용자 및 어시스턴트 메시지로 교체할 때 측정값이 일관되게 유지됩니다.
+  composer:
+    placeholder: '메시지를 작성하세요...'
+    submit_label: '메시지 전송'
+    action_plus_label: '내용 추가'
+    action_smiley_label: '이모지 삽입'
+    multiline_value: |
+      이것은 멀티라인 상태를 미리보기 위해 사용되는 긴 채팅 초안입니다. 여러 줄에 걸쳐 감싸여 있어 한 줄 필드와의 시각적 차이가 뚜렷합니다.
+  messages:
+    user_1: |
+      어제 동기화에서 실행할 수 있는 결정만 남기고 실행 항목을 요약해줄 수 있나요?
+    user_2: |
+      매니저 사이드바에 복사될 것이므로 출력은 짧게 유지해주세요.
+    assistant_1: |
+      물론입니다. 우선순위, 소유자 및 다음 체크포인트를 포함한 간결한 요약을 제공할 수 있습니다.
+    assistant_2: |
+      검증된 결정만 유지하고 여전히 발견이 필요한 열린 질문은 제거하겠습니다.
+    assistant_3: |
+      제안된 구조: 1. 즉각적인 행동. 2. 의존성. 3. 모니터링할 위험.
+    assistant_4: |
+      검증된 후, 이 구조는 매니저의 채팅 메뉴에 대한 기본 템플릿이 될 수 있습니다.
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Chat voorbeeld'
+  vue:
+    title: Vue
+    description: |
+      Dezelfde thread en dezelfde composer, getekend door de entity chat component. Het bevat een verzameling van entiteiten en weet niets van wat ze zijn: de auteur, de tekst en de datum worden gelezen via projecties die een subklasse overschrijft, en een ingediende boodschap wordt verzonden via de repository zoals elke andere creatie. Het antwoord wordt geschreven zodra de aanvraag is voltooid, dus het kan niet terugkomen in de reactie op het bericht: het bereikt de pagina via de live abonnement die deze thread in zijn kamer heeft.
+  description:
+    body: |
+      Dit chat speelveld wordt gebruikt om het ritme van berichten, de ruimte en de verticale dichtheid te valideren voordat de uiteindelijke UI-styling wordt toegepast. Houd dit blok opzettelijk uitvoerig zodat de lay-out genoeg hoogte heeft om een realistische conversatiestroom te simuleren, inclusief middelgrote en lange regels, regelafbreking, en natuurlijke leespauzes over meerdere zinnen. Het doel is om een stabiele visuele basislijn te bieden die toekomstige chatcomponenten kunnen volgen, zodat metingen consistent blijven wanneer deze tekst wordt vervangen door echte gebruikers- en assistentberichten.
+  composer:
+    placeholder: 'Schrijf een bericht...'
+    submit_label: 'Bericht verzenden'
+    action_plus_label: 'Inhoud toevoegen'
+    action_smiley_label: 'Emoji invoegen'
+    multiline_value: |
+      Dit is een langere chatconcept dat wordt gebruikt om de multiline staat te previewen. Het breidt zich uit over meerdere regels zodat het visuele verschil met het één-regelveld duidelijk is.
+  messages:
+    user_1: |
+      Kun je de actiepunten van de sync van gisteren samenvatten en alleen beslissingen behouden die we deze week kunnen uitvoeren?
+    user_2: |
+      Houd de output ook kort omdat dit in de manager sidebar zal worden gekopieerd.
+    assistant_1: |
+      Zeker. Ik kan een beknopte samenvatting geven met prioriteiten, eigenaren en volgende controlepunten.
+    assistant_2: |
+      Ik zal alleen gevalideerde beslissingen behouden en open vragen die nog ontdekt moeten worden verwijderen.
+    assistant_3: |
+      Voorgestelde structuur: 1. Onmiddellijke acties. 2. Afhankelijkheden. 3. Risico's om te monitoren.
+    assistant_4: |
+      Zodra gevalideerd, kan deze structuur het standaard sjabloon worden voor het chatmenu in de manager.
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Czat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Przykład czatu'
+  vue:
+    title: Widok
+    description: |
+      Ten sam wątek i ten sam edytor, zbudowane przez komponent czatu. Przechowuje zbiór encji i nic nie wie o tym, czym one są: autor, tekst i data są odczytywane przez projekcje, które nadpisuje podklasa, a przesłana wiadomość wychodzi przez repozytorium jak każda inna kreacja. Odpowiedź jest zapisywana, gdy prośba się kończy, więc nie może wrócić w odpowiedzi na wiadomość: dociera na stronę przez na żywo subskrypcję, którą ten wątek ma w swoim pomieszczeniu.
+  description:
+    body: |
+      Ten plac zabaw czatu jest używany do walidacji rytmu wiadomości, odstępów i gęstości pionowej przed finalnym stylowaniem interfejsu użytkownika. Zachowaj ten blok celowo obszerny, aby układ miał wystarczającą wysokość do symulacji realistycznego przepływu rozmowy, w tym średnich i długich linii, zachowań zawijania i naturalnych przerw w czytaniu w wielu zdaniach. Celem jest zapewnienie stabilnej podstawy wizualnej, którą przyszłe komponenty czatu mogą naśladować, aby pomiary pozostały spójne podczas zastępowania tego tekstu rzeczywistymi wiadomościami użytkownika i asystenta.
+  composer:
+    placeholder: 'Napisz wiadomość...'
+    submit_label: 'Wyślij wiadomość'
+    action_plus_label: 'Dodaj treść'
+    action_smiley_label: 'Wstaw emoji'
+    multiline_value: |
+      To jest dłuższy szkic czatu używany do podglądu stanu wieloliniowego. Zawija się w wielu liniach, więc wizualna różnica z polem jednoliniowym jest oczywista.
+  messages:
+    user_1: |
+      Czy możesz podsumować punkty do działania z wczorajszego spotkania i zachować tylko decyzje, które możemy zrealizować w tym tygodniu?
+    user_2: |
+      Zachowaj również krótki wynik, ponieważ to zostanie skopiowane do panelu menedżera.
+    assistant_1: |
+      Pewnie. Mogę dostarczyć zwięzłe podsumowanie z priorytetami, właścicielami i następnych punktami kontrolnymi.
+    assistant_2: |
+      Zachowam tylko zatwierdzone decyzje i usunę otwarte pytania, które wciąż wymagają odkrycia.
+    assistant_3: |
+      Proponowana struktura: 1. Działania natychmiastowe. 2. Zależności. 3. Ryzyka do monitorowania.
+    assistant_4: |
+      Po zatwierdzeniu, ta struktura może stać się domyślnym szablonem dla menu czatu w menedżerze.
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chat
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Exemplo de chat'
+  vue:
+    title: Vue
+    description: |
+      O mesmo thread e o mesmo compositor, desenhados pelo componente de chat da entidade. Ele contém uma coleção de entidades e não sabe o que elas são: o autor, o texto e a data são lidos através de projeções que uma subclasse sobrescreve, e uma mensagem enviada é processada pelo repositório como qualquer outra criação. A resposta é escrita uma vez que a solicitação é concluída, portanto não pode voltar na resposta à mensagem: ela chega à página através da assinatura ao vivo que esse thread mantém na sua sala.
+  description:
+    body: |
+      Este playground de chat é usado para validar o ritmo das mensagens, o espaçamento e a densidade vertical antes do estilo final da interface. Mantenha este bloco intencionalmente verboso para que o layout tenha altura suficiente para simular um fluxo de conversa realista, incluindo linhas médias e longas, comportamento de quebra e pausas naturais de leitura em várias sentenças. O objetivo é fornecer uma base visual estável que futuros componentes de chat possam seguir, para que as medições permaneçam consistentes ao substituir este texto por mensagens reais de usuário e assistente.
+  composer:
+    placeholder: 'Escreva uma mensagem...'
+    submit_label: 'Enviar mensagem'
+    action_plus_label: 'Adicionar conteúdo'
+    action_smiley_label: 'Inserir emoji'
+    multiline_value: |
+      Este é um rascunho de chat mais longo usado para visualizar o estado de múltiplas linhas. Ele se estende por várias linhas, então a diferença visual com o campo de uma linha é óbvia.
+  messages:
+    user_1: |
+      Você pode resumir os itens de ação da sincronização de ontem e manter apenas as decisões que podemos executar esta semana?
+    user_2: |
+      Também mantenha a resposta curta porque isso será copiado para a barra lateral do gerente.
+    assistant_1: |
+      Claro. Posso fornecer um resumo conciso com prioridades, responsáveis e próximos pontos de verificação.
+    assistant_2: |
+      Vou manter apenas as decisões validadas e remover as perguntas abertas que ainda precisam ser descobertas.
+    assistant_3: |
+      Estrutura proposta: 1. Ações imediatas. 2. Dependências. 3. Riscos a serem monitorados.
+    assistant_4: |
+      Uma vez validada, essa estrutura pode se tornar o modelo padrão para o menu de chat no gerente.
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Чат
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Пример чата'
+  vue:
+    title: Vue
+    description: |
+      Та же нить и тот же композитор, созданные компонентом чата. Он содержит коллекцию сущностей и ничего не знает о том, что они собой представляют: автор, текст и дата считываются через проекции, которые переопределяет подкласс, а отправленное сообщение передается через репозиторий, как любое другое создание. Ответ записывается, как только запрос завершен, поэтому он не может вернуться в ответ на сообщение: он достигает страницы через живую подписку, которую эта нить имеет в своей комнате.
+  description:
+    body: |
+      Эта площадка для чата используется для проверки ритма сообщений, интервалов и вертикальной плотности перед окончательным стилизацией интерфейса. Держите этот блок намеренно многословным, чтобы макет имел достаточную высоту для имитации реалистичного потока разговора, включая средние и длинные строки, поведение переноса и естественные паузы при чтении нескольких предложений. Цель состоит в том, чтобы предоставить стабильную визуальную основу, которой могут следовать будущие компоненты чата, чтобы измерения оставались последовательными при замене этого текста реальными сообщениями пользователей и помощников.
+  composer:
+    placeholder: 'Напишите сообщение...'
+    submit_label: 'Отправить сообщение'
+    action_plus_label: 'Добавить контент'
+    action_smiley_label: 'Вставить эмодзи'
+    multiline_value: |
+      Это более длинный черновик чата, используемый для предварительного просмотра многострочного состояния. Он переносится на несколько строк, так что визуальная разница с полем на одну строку очевидна.
+  messages:
+    user_1: |
+      Можешь подвести итоги по задачам с синхронизации вчера и оставить только решения, которые мы можем выполнить на этой неделе?
+    user_2: |
+      Также сделай вывод коротким, потому что это будет скопировано в боковую панель менеджера.
+    assistant_1: |
+      Конечно. Я могу предоставить краткий обзор с приоритетами, ответственными и следующими контрольными точками.
+    assistant_2: |
+      Я оставлю только подтвержденные решения и уберу нерешенные вопросы, которые еще требуют изучения.
+    assistant_3: |
+      Предложенная структура: 1. Непосредственные действия. 2. Зависимости. 3. Риски, которые нужно отслеживать.
+    assistant_4: |
+      После подтверждения эта структура может стать шаблоном по умолчанию для меню чата в менеджере.
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แชท
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: ตัวอย่างแชท
+  vue:
+    title: วิว
+    description: |
+      เธรดเดียวกันและคอมโพเนนต์เดียวกัน ถูกสร้างโดยคอมโพเนนต์แชทของเอนทิตี มันเก็บคอลเลกชันของเอนทิตีและไม่รู้ว่าเป็นอะไร: ผู้เขียน, ข้อความ และวันที่ถูกอ่านผ่านการฉายที่ซับคลาสทำการเขียนทับ และข้อความที่ส่งไปจะถูกส่งออกผ่านที่เก็บเหมือนกับการสร้างอื่น ๆ คำตอบถูกเขียนเมื่อคำขอเสร็จสิ้น ดังนั้นมันจึงไม่สามารถกลับมาในคำตอบของข้อความ: มันจะไปถึงหน้าเพจผ่านการสมัครสมาชิกสดที่เธรดนี้ถืออยู่ในห้องของมัน.
+  description:
+    body: |
+      สแปนนี้ใช้เพื่อทดสอบจังหวะการส่งข้อความ, การเว้นระยะ และความหนาแน่นแนวตั้งก่อนการจัดแต่ง UI สุดท้าย ให้บล็อกนี้มีความยาวมากตั้งใจเพื่อให้เลย์เอาต์มีความสูงพอที่จะจำลองการสนทนาที่เหมือนจริง รวมถึงบรรทัดที่กลางและยาว, พฤติกรรมการห่อ และการหยุดอ่านตามธรรมชาติในหลายประโยค เป้าหมายคือการให้พื้นฐานภาพที่เสถียรซึ่งคอมโพเนนต์แชทในอนาคตสามารถติดตามได้ ดังนั้นการวัดจึงยังคงสอดคล้องเมื่อแทนที่ข้อความนี้ด้วยข้อความจริงจากผู้ใช้และผู้ช่วย.
+  composer:
+    placeholder: เขียนข้อความ...
+    submit_label: ส่งข้อความ
+    action_plus_label: เพิ่มเนื้อหา
+    action_smiley_label: แทรกอิโมจิ
+    multiline_value: |
+      นี่คือร่างแชทยาวที่ใช้เพื่อดูตัวอย่างสถานะหลายบรรทัด มันห่อไปหลายบรรทัดเพื่อให้ความแตกต่างทางภาพกับฟิลด์บรรทัดเดียวชัดเจน.
+  messages:
+    user_1: |
+      ช่วยสรุปประเด็นการดำเนินการจากการประชุมเมื่อวานนี้และเก็บเฉพาะการตัดสินใจที่เราสามารถดำเนินการในสัปดาห์นี้ได้ไหม?
+    user_2: |
+      ยังให้ผลลัพธ์สั้นเพราะสิ่งนี้จะถูกคัดลอกไปยังแถบด้านข้างของผู้จัดการ.
+    assistant_1: |
+      แน่นอน ฉันสามารถให้สรุปอย่างกระชับพร้อมลำดับความสำคัญ, เจ้าของ, และจุดตรวจถัดไป.
+    assistant_2: |
+      ฉันจะเก็บเฉพาะการตัดสินใจที่ได้รับการตรวจสอบและลบคำถามที่ยังต้องการการค้นพบ.
+    assistant_3: |
+      โครงสร้างที่เสนอ: 1. การดำเนินการทันที. 2. การพึ่งพา. 3. ความเสี่ยงที่ต้องตรวจสอบ.
+    assistant_4: 'เมื่อได้รับการตรวจสอบแล้ว โครงสร้างนี้สามารถกลายเป็นเทมเพลตเริ่มต้นสำหรับเมนูแชทในผู้จัดการได้.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Sohbet
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Sohbet örneği'
+  vue:
+    title: Vue
+    description: |
+      Aynı konu ve aynı oluşturucu, varlık sohbet bileşeni tarafından çizilir. Bir dizi varlık barındırır ve bunların ne olduğunu bilmez: yazar, metin ve tarih, bir alt sınıfın geçersiz kılacağı projeksiyonlar aracılığıyla okunur ve gönderilen bir mesaj, diğer tüm oluşturma işlemleri gibi depo aracılığıyla çıkar. Cevap, istek tamamlandığında yazılır, bu nedenle mesajın yanıtında geri dönemez: bu konu, bu odada sürdürdüğü canlı abonelik aracılığıyla sayfaya ulaşır.
+  description:
+    body: |
+      Bu sohbet oyun alanı, nihai UI stilinden önce mesaj ritmini, aralığını ve dikey yoğunluğunu doğrulamak için kullanılır. Bu bloğu kasıtlı olarak ayrıntılı tutun, böylece düzenin gerçekçi bir konuşma akışını simüle etmek için yeterli yüksekliğe sahip olmasını sağlar; orta ve uzun satırlar, sarma davranışı ve birden fazla cümle arasında doğal okuma durakları dahil. Amaç, gelecekteki sohbet bileşenlerinin takip edebileceği kararlı bir görsel temel sağlamaktır, böylece bu metni gerçek kullanıcı ve asistan mesajlarıyla değiştirdiğinde ölçümler tutarlı kalır.
+  composer:
+    placeholder: 'Bir mesaj yazın...'
+    submit_label: 'Mesaj gönder'
+    action_plus_label: 'İçerik ekle'
+    action_smiley_label: 'Emojiyi ekle'
+    multiline_value: |
+      Bu, çok satırlı durumu önizlemek için kullanılan daha uzun bir sohbet taslağıdır. Görsel farkın tek satırlı alanla belirgin olması için birden fazla satıra sarar.
+  messages:
+    user_1: 'Dün yapılan senkronizasyondan eylem maddelerini özetleyebilir misin ve bu hafta uygulayabileceğimiz kararları tut?'
+    user_2: 'Çıktıyı kısa tut, çünkü bu yöneticinin yan çubuğuna kopyalanacak.'
+    assistant_1: 'Tabii. Öncelikler, sahipler ve bir sonraki kontrol noktaları ile birlikte özlü bir özet sağlayabilirim.'
+    assistant_2: 'Sadece onaylanmış kararları tutacağım ve hala keşif gerektiren açık soruları kaldıracağım.'
+    assistant_3: 'Önerilen yapı: 1. Acil eylemler. 2. Bağımlılıklar. 3. İzlenmesi gereken riskler.'
+    assistant_4: 'Onaylandıktan sonra, bu yapı yöneticideki sohbet menüsü için varsayılan şablon haline gelebilir.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: چیٹ
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'چیٹ کی مثال'
+  vue:
+    title: ویو
+    description: |
+      یہی دھاگہ اور یہی تخلیق کار، جو کہ ادارے کے چیٹ کمپوننٹ کے ذریعہ تیار کیا گیا ہے۔ یہ عناصر کے مجموعے کو رکھتا ہے اور یہ نہیں جانتا کہ وہ کیا ہیں: مصنف، متن اور تاریخ کو پروجیکشنز کے ذریعے پڑھا جاتا ہے جو ایک ذیلی کلاس کو اوور رائیڈ کرتی ہے، اور ایک جمع کردہ پیغام کسی دوسرے تخلیق کی طرح ریپوزٹری کے ذریعے باہر جاتا ہے۔ جواب ایک بار لکھا جاتا ہے جب درخواست ختم ہو جاتی ہے، اس لئے یہ پیغام کے جواب میں واپس نہیں آ سکتا: یہ اس کمرے میں اس دھاگے کے ذریعے لائیو سبسکرپشن کے ذریعے صفحے تک پہنچتا ہے۔
+  description:
+    body: |
+      یہ چیٹ پلے گراونڈ پیغام کے دھارے، فاصلے، اور عمودی کثافت کی توثیق کے لئے استعمال ہوتا ہے اس سے پہلے کہ حتمی UI اسٹائلنگ کی جائے۔ اس بلاک کو جان بوجھ کر تفصیلی رکھیں تاکہ لے آؤٹ میں اتنی اونچائی ہو کہ حقیقت پسندانہ گفتگو کے دھارے کی نقل کی جا سکے، بشمول درمیانے اور طویل لکیریں، لپیٹنے کا رویہ، اور متعدد جملوں میں قدرتی پڑھنے کے وقفے۔ مقصد یہ ہے کہ ایک مستحکم بصری بیس لائن فراہم کی جائے جس کی پیروی مستقبل کے چیٹ کمپوننٹس کر سکیں، تاکہ اس متن کو حقیقی صارف اور معاون پیغامات سے تبدیل کرتے وقت پیمائشیں مستقل رہیں۔
+  composer:
+    placeholder: 'ایک پیغام لکھیں...'
+    submit_label: 'پیغام بھیجیں'
+    action_plus_label: 'مواد شامل کریں'
+    action_smiley_label: 'ایموجی داخل کریں'
+    multiline_value: |
+      یہ ایک طویل چیٹ ڈرافٹ ہے جو ملٹی لائن حالت کا پیش نظارہ کرنے کے لئے استعمال ہوتا ہے۔ یہ متعدد لکیروں میں لپیٹتا ہے تاکہ ایک لائن والے میدان کے ساتھ بصری فرق واضح ہو۔
+  messages:
+    user_1: |
+      کیا آپ کل کی ہم آہنگی سے عملی اقدامات کا خلاصہ بنا سکتے ہیں اور صرف ان فیصلوں کو رکھ سکتے ہیں جن پر ہم اس ہفتے عملدرآمد کر سکتے ہیں؟
+    user_2: |
+      خلاصہ کو بھی مختصر رکھیں کیونکہ یہ مینیجر سائیڈبار میں کاپی کیا جائے گا۔
+    assistant_1: |
+      بالکل۔ میں ترجیحات، مالکان، اور اگلے چیک پوائنٹس کے ساتھ ایک مختصر خلاصہ فراہم کر سکتا ہوں۔
+    assistant_2: |
+      میں صرف تصدیق شدہ فیصلے رکھوں گا اور کھلے سوالات کو ہٹا دوں گا جن کی اب بھی دریافت کی ضرورت ہے۔
+    assistant_3: |
+      تجویز کردہ ساخت: 1. فوری اقدامات۔ 2. انحصار۔ 3. نگرانی کے لئے خطرات۔
+    assistant_4: |
+      ایک بار تصدیق ہونے کے بعد، یہ ساخت مینیجر میں چیٹ مینو کے لئے ڈیفالٹ ٹیمپلیٹ بن سکتی ہے۔
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Trò chuyện'
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 'Ví dụ trò chuyện'
+  vue:
+    title: Vue
+    description: |
+      Luồng và trình soạn thảo giống nhau, được tạo ra bởi thành phần trò chuyện của thực thể. Nó giữ một tập hợp các thực thể và không biết chúng là gì: tác giả, văn bản và ngày được đọc thông qua các phép chiếu mà một lớp con ghi đè, và một tin nhắn đã gửi sẽ được gửi qua kho như bất kỳ sự tạo nào khác. Câu trả lời được viết khi yêu cầu kết thúc, vì vậy nó không thể quay lại trong phản hồi cho tin nhắn: nó đến trang thông qua việc đăng ký trực tiếp mà luồng này giữ trong phòng của nó.
+  description:
+    body: |
+      Khu vực trò chuyện này được sử dụng để xác thực nhịp độ tin nhắn, khoảng cách và độ dày theo chiều dọc trước khi định dạng giao diện người dùng cuối cùng. Giữ cho khối này cố ý dài dòng để bố cục có đủ chiều cao để mô phỏng dòng chảy cuộc trò chuyện thực tế, bao gồm các dòng trung bình và dài, hành vi gói và các khoảng dừng đọc tự nhiên qua nhiều câu. Mục tiêu là cung cấp một cơ sở hình ảnh ổn định mà các thành phần trò chuyện trong tương lai có thể theo dõi, để các phép đo vẫn nhất quán khi thay thế văn bản này bằng tin nhắn của người dùng và trợ lý thực tế.
+  composer:
+    placeholder: 'Viết một tin nhắn...'
+    submit_label: 'Gửi tin nhắn'
+    action_plus_label: 'Thêm nội dung'
+    action_smiley_label: 'Chèn emoji'
+    multiline_value: |
+      Đây là một bản nháp trò chuyện dài hơn được sử dụng để xem trước trạng thái nhiều dòng. Nó bọc qua nhiều dòng để sự khác biệt về hình ảnh với trường một dòng trở nên rõ ràng.
+  messages:
+    user_1: |
+      Bạn có thể tóm tắt các mục hành động từ cuộc họp đồng bộ ngày hôm qua và chỉ giữ lại những quyết định mà chúng ta có thể thực hiện trong tuần này không?
+    user_2: |
+      Cũng giữ cho đầu ra ngắn gọn vì điều này sẽ được sao chép vào thanh bên của quản lý.
+    assistant_1: |
+      Chắc chắn rồi. Tôi có thể cung cấp một tóm tắt ngắn gọn với các ưu tiên, chủ sở hữu và các điểm kiểm tra tiếp theo.
+    assistant_2: |
+      Tôi sẽ chỉ giữ lại các quyết định đã được xác thực và loại bỏ các câu hỏi mở vẫn cần khám phá.
+    assistant_3: |
+      Cấu trúc đề xuất: 1. Hành động ngay lập tức. 2. Phụ thuộc. 3. Rủi ro cần theo dõi.
+    assistant_4: |
+      Khi đã được xác thực, cấu trúc này có thể trở thành mẫu mặc định cho menu trò chuyện trong quản lý.
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 聊天
+  page_icon: 'ph:bold/chats-circle'
+  chat:
+    title: 聊天示例
+  vue:
+    title: Vue
+    description: |
+      相同的线程和相同的创作，都是由实体聊天组件绘制的。它持有一个实体集合，并不知道它们是什么：作者、文本和日期通过子类覆盖的投影读取，提交的消息通过存储库像其他任何创建一样发送。答案在请求结束后写出，因此不能在消息的响应中返回：它通过这个线程在其房间中持有的实时订阅到达页面。
+  description:
+    body: |
+      这个聊天游乐场用于验证消息节奏、间距和垂直密度，以便在最终的UI样式之前进行测试。故意让这个块冗长，以便布局有足够的高度来模拟真实的对话流，包括中长句、换行行为和自然的阅读暂停。目标是提供一个稳定的视觉基线，未来的聊天组件可以遵循，因此在用真实用户和助手消息替换此文本时，测量保持一致。
+  composer:
+    placeholder: 写消息...
+    submit_label: 发送消息
+    action_plus_label: 添加内容
+    action_smiley_label: 插入表情符号
+    multiline_value: |
+      这是一个较长的聊天草稿，用于预览多行状态。它跨越多行，以便与单行字段的视觉差异显而易见。
+  messages:
+    user_1: |
+      你能总结一下昨天同步会议的行动项目，并只保留我们本周可以执行的决策吗？
+    user_2: |
+      另外，保持输出简短，因为这将被复制到经理侧边栏中。
+    assistant_1: |
+      当然。我可以提供一个简明的摘要，包括优先级、负责人和下一个检查点。
+    assistant_2: |
+      我只会保留已验证的决策，并删除仍需发现的开放问题。
+    assistant_3: |
+      建议的结构：1. 立即行动。2. 依赖关系。3. 需要监控的风险。
+    assistant_4: |
+      一旦验证，这个结构可以成为经理聊天菜单的默认模板。

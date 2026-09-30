@@ -1,0 +1,988 @@
+en:
+  page_title: Confirm
+  section:
+    short:
+      description: Confirm with short text (overlay).
+      button: Open confirm
+      title: Please confirm
+      message: Do you want to continue?
+      result_title: Confirm result
+      result_prefix: Result:
+    toast_short:
+      description: Confirm with short text (toast).
+      button: Open confirm
+      title: Confirm toast
+      message: Continue with toast?
+      result_title: Toast confirm result
+      result_prefix: Result:
+    medium:
+      description: Confirm with medium text (overlay).
+      button: Open confirm
+      title: Medium confirm
+    long:
+      description: Confirm with long text (overlay).
+      button: Open confirm
+      title: Long confirm
+    toast_medium:
+      description: Confirm with medium text (toast).
+      button: Open confirm
+      title: Medium confirm toast
+    toast_long:
+      description: Confirm with long text (toast).
+      button: Open confirm
+      title: Long confirm toast
+    custom:
+      description: Custom confirm actions (stacking).
+      button: Open confirm
+      title: Stacking confirm
+      message: Open another confirm or close them all?
+      action:
+        new: New confirm
+        close_all: Close all confirm
+        cancel: Cancel
+
+ar:
+  page_title: تأكيد
+  section:
+    short:
+      description: 'تأكيد مع نص قصير (تراكب).'
+      button: 'فتح التأكيد'
+      title: 'يرجى التأكيد'
+      message: 'هل ترغب في المتابعة؟'
+      result_title: 'نتيجة التأكيد'
+      result_prefix: 'النتيجة:'
+    toast_short:
+      description: 'تأكيد مع نص قصير (تنبيه).'
+      button: 'فتح التأكيد'
+      title: 'تنبيه التأكيد'
+      message: 'هل تتابع مع التنبيه؟'
+      result_title: 'نتيجة تأكيد التنبيه'
+      result_prefix: 'النتيجة:'
+    medium:
+      description: 'تأكيد مع نص متوسط (تراكب).'
+      button: 'فتح التأكيد'
+      title: 'تأكيد متوسط'
+    long:
+      description: 'تأكيد مع نص طويل (تراكب).'
+      button: 'فتح التأكيد'
+      title: 'تأكيد طويل'
+    toast_medium:
+      description: 'تأكيد مع نص متوسط (تنبيه).'
+      button: 'فتح التأكيد'
+      title: 'تنبيه التأكيد المتوسط'
+    toast_long:
+      description: 'تأكيد مع نص طويل (تنبيه).'
+      button: 'فتح التأكيد'
+      title: 'تنبيه التأكيد الطويل'
+    custom:
+      description: 'إجراءات تأكيد مخصصة (تكديس).'
+      button: 'فتح التأكيد'
+      title: 'تأكيد متراكم'
+      message: 'فتح تأكيد آخر أو إغلاق الجميع؟'
+      action:
+        new: 'تأكيد جديد'
+        close_all: 'إغلاق جميع التأكيدات'
+        cancel: إلغاء
+
+bn:
+  page_title: 'নিশ্চিত করুন'
+  section:
+    short:
+      description: 'সংক্ষিপ্ত টেক্সট সহ নিশ্চিত করুন (ওভারলে)।'
+      button: 'নিশ্চিত করতে খুলুন'
+      title: 'দয়া করে নিশ্চিত করুন'
+      message: 'আপনি কি চালিয়ে যেতে চান?'
+      result_title: 'নিশ্চিতকরণের ফলাফল'
+      result_prefix: 'ফলাফল:'
+    toast_short:
+      description: 'সংক্ষিপ্ত টেক্সট সহ নিশ্চিত করুন (টোস্ট)।'
+      button: 'নিশ্চিত করতে খুলুন'
+      title: 'নিশ্চিতকরণের টোস্ট'
+      message: 'টোস্টের সাথে চালিয়ে যেতে চান?'
+      result_title: 'টোস্ট নিশ্চিতকরণের ফলাফল'
+      result_prefix: 'ফলাফল:'
+    medium:
+      description: 'মাঝারি টেক্সট সহ নিশ্চিত করুন (ওভারলে)।'
+      button: 'নিশ্চিত করতে খুলুন'
+      title: 'মাঝারি নিশ্চিতকরণ'
+    long:
+      description: 'দীর্ঘ টেক্সট সহ নিশ্চিত করুন (ওভারলে)।'
+      button: 'নিশ্চিত করতে খুলুন'
+      title: 'দীর্ঘ নিশ্চিতকরণ'
+    toast_medium:
+      description: 'মাঝারি টেক্সট সহ নিশ্চিত করুন (টোস্ট)।'
+      button: 'নিশ্চিত করতে খুলুন'
+      title: 'মাঝারি নিশ্চিতকরণের টোস্ট'
+    toast_long:
+      description: 'দীর্ঘ টেক্সট সহ নিশ্চিত করুন (টোস্ট)।'
+      button: 'নিশ্চিত করতে খুলুন'
+      title: 'দীর্ঘ নিশ্চিতকরণের টোস্ট'
+    custom:
+      description: 'কাস্টম নিশ্চিতকরণ কার্যক্রম (স্ট্যাকিং)।'
+      button: 'নিশ্চিত করতে খুলুন'
+      title: 'স্ট্যাকিং নিশ্চিতকরণ'
+      message: 'অন্য একটি নিশ্চিতকরণ খুলুন বা সবগুলো বন্ধ করুন?'
+      action:
+        new: 'নতুন নিশ্চিতকরণ'
+        close_all: 'সব নিশ্চিতকরণ বন্ধ করুন'
+        cancel: 'বাতিল করুন'
+
+de:
+  page_title: Bestätigen
+  section:
+    short:
+      description: 'Bestätigen mit kurzem Text (Overlay).'
+      button: 'Bestätigung öffnen'
+      title: 'Bitte bestätigen'
+      message: 'Möchten Sie fortfahren?'
+      result_title: Bestätigungsergebnis
+      result_prefix: 'Ergebnis:'
+    toast_short:
+      description: 'Bestätigen mit kurzem Text (Toast).'
+      button: 'Bestätigung öffnen'
+      title: Toast-Bestätigung
+      message: 'Mit Toast fortfahren?'
+      result_title: Toast-Bestätigungsergebnis
+      result_prefix: 'Ergebnis:'
+    medium:
+      description: 'Bestätigen mit mittellangem Text (Overlay).'
+      button: 'Bestätigung öffnen'
+      title: 'Mittlere Bestätigung'
+    long:
+      description: 'Bestätigen mit langem Text (Overlay).'
+      button: 'Bestätigung öffnen'
+      title: 'Lange Bestätigung'
+    toast_medium:
+      description: 'Bestätigen mit mittellangem Text (Toast).'
+      button: 'Bestätigung öffnen'
+      title: 'Mittlere Toast-Bestätigung'
+    toast_long:
+      description: 'Bestätigen mit langem Text (Toast).'
+      button: 'Bestätigung öffnen'
+      title: 'Lange Toast-Bestätigung'
+    custom:
+      description: 'Benutzerdefinierte Bestätigungsaktionen (stapeln).'
+      button: 'Bestätigung öffnen'
+      title: 'Gestapelte Bestätigung'
+      message: 'Eine weitere Bestätigung öffnen oder alle schließen?'
+      action:
+        new: 'Neue Bestätigung'
+        close_all: 'Alle Bestätigungen schließen'
+        cancel: Abbrechen
+
+es:
+  page_title: Confirmar
+  section:
+    short:
+      description: 'Confirmar con texto corto (superposición).'
+      button: 'Abrir confirmar'
+      title: 'Por favor confirma'
+      message: '¿Quieres continuar?'
+      result_title: 'Resultado de la confirmación'
+      result_prefix: 'Resultado:'
+    toast_short:
+      description: 'Confirmar con texto corto (toast).'
+      button: 'Abrir confirmar'
+      title: 'Toast de confirmación'
+      message: '¿Continuar con el toast?'
+      result_title: 'Resultado de confirmación de toast'
+      result_prefix: 'Resultado:'
+    medium:
+      description: 'Confirmar con texto mediano (superposición).'
+      button: 'Abrir confirmar'
+      title: 'Confirmar mediano'
+    long:
+      description: 'Confirmar con texto largo (superposición).'
+      button: 'Abrir confirmar'
+      title: 'Confirmar largo'
+    toast_medium:
+      description: 'Confirmar con texto mediano (toast).'
+      button: 'Abrir confirmar'
+      title: 'Toast de confirmación mediano'
+    toast_long:
+      description: 'Confirmar con texto largo (toast).'
+      button: 'Abrir confirmar'
+      title: 'Toast de confirmación largo'
+    custom:
+      description: 'Acciones de confirmación personalizadas (apilamiento).'
+      button: 'Abrir confirmar'
+      title: 'Confirmación apilada'
+      message: '¿Abrir otra confirmación o cerrarlas todas?'
+      action:
+        new: 'Nueva confirmación'
+        close_all: 'Cerrar todas las confirmaciones'
+        cancel: Cancelar
+
+fa:
+  page_title: تأیید
+  section:
+    short:
+      description: 'تأیید با متن کوتاه (پوشش).'
+      button: 'تأیید را باز کن'
+      title: 'لطفاً تأیید کنید'
+      message: 'آیا می‌خواهید ادامه دهید؟'
+      result_title: 'نتیجه تأیید'
+      result_prefix: 'نتیجه:'
+    toast_short:
+      description: 'تأیید با متن کوتاه (پاپ‌آپ).'
+      button: 'تأیید را باز کن'
+      title: 'تأیید پاپ‌آپ'
+      message: 'آیا با پاپ‌آپ ادامه دهیم؟'
+      result_title: 'نتیجه تأیید پاپ‌آپ'
+      result_prefix: 'نتیجه:'
+    medium:
+      description: 'تأیید با متن متوسط (پوشش).'
+      button: 'تأیید را باز کن'
+      title: 'تأیید متوسط'
+    long:
+      description: 'تأیید با متن طولانی (پوشش).'
+      button: 'تأیید را باز کن'
+      title: 'تأیید طولانی'
+    toast_medium:
+      description: 'تأیید با متن متوسط (پاپ‌آپ).'
+      button: 'تأیید را باز کن'
+      title: 'تأیید پاپ‌آپ متوسط'
+    toast_long:
+      description: 'تأیید با متن طولانی (پاپ‌آپ).'
+      button: 'تأیید را باز کن'
+      title: 'تأیید پاپ‌آپ طولانی'
+    custom:
+      description: 'عملیات تأیید سفارشی (پشته‌ای).'
+      button: 'تأیید را باز کن'
+      title: 'تأیید پشته‌ای'
+      message: 'آیا تأیید دیگری باز کنم یا همه را ببندم؟'
+      action:
+        new: 'تأیید جدید'
+        close_all: 'بستن همه تأییدها'
+        cancel: لغو
+
+fi:
+  page_title: Vahvista
+  section:
+    short:
+      description: 'Vahvista lyhyellä tekstillä (ylipeite).'
+      button: 'Avaa vahvistus'
+      title: Vahvista
+      message: 'Haluatko jatkaa?'
+      result_title: Vahvistustulos
+      result_prefix: 'Tulos:'
+    toast_short:
+      description: 'Vahvista lyhyellä tekstillä (toast).'
+      button: 'Avaa vahvistus'
+      title: Vahvistus-toast
+      message: 'Jatketaanko toastilla?'
+      result_title: Toast-vahvistustulos
+      result_prefix: 'Tulos:'
+    medium:
+      description: 'Vahvista keskikokoisella tekstillä (ylipeite).'
+      button: 'Avaa vahvistus'
+      title: 'Keskikokoinen vahvistus'
+    long:
+      description: 'Vahvista pitkällä tekstillä (ylipeite).'
+      button: 'Avaa vahvistus'
+      title: 'Pitkä vahvistus'
+    toast_medium:
+      description: 'Vahvista keskikokoisella tekstillä (toast).'
+      button: 'Avaa vahvistus'
+      title: 'Keskikokoinen vahvistus-toast'
+    toast_long:
+      description: 'Vahvista pitkällä tekstillä (toast).'
+      button: 'Avaa vahvistus'
+      title: 'Pitkä vahvistus-toast'
+    custom:
+      description: 'Mukautetut vahvistustoimet (pinottuna).'
+      button: 'Avaa vahvistus'
+      title: 'Pinottu vahvistus'
+      message: 'Avaa toinen vahvistus tai sulje kaikki?'
+      action:
+        new: 'Uusi vahvistus'
+        close_all: 'Sulje kaikki vahvistukset'
+        cancel: Peruuta
+
+fr:
+  page_title: Confirmer
+  section:
+    short:
+      description: 'Confirmer avec un texte court (superposition).'
+      button: 'Ouvrir confirmer'
+      title: 'Veuillez confirmer'
+      message: 'Voulez-vous continuer ?'
+      result_title: 'Résultat de la confirmation'
+      result_prefix: 'Résultat :'
+    toast_short:
+      description: 'Confirmer avec un texte court (toast).'
+      button: 'Ouvrir confirmer'
+      title: 'Toast de confirmation'
+      message: 'Continuer avec le toast ?'
+      result_title: 'Résultat de confirmation du toast'
+      result_prefix: 'Résultat :'
+    medium:
+      description: 'Confirmer avec un texte moyen (superposition).'
+      button: 'Ouvrir confirmer'
+      title: 'Confirmation moyenne'
+    long:
+      description: 'Confirmer avec un texte long (superposition).'
+      button: 'Ouvrir confirmer'
+      title: 'Confirmation longue'
+    toast_medium:
+      description: 'Confirmer avec un texte moyen (toast).'
+      button: 'Ouvrir confirmer'
+      title: 'Toast de confirmation moyen'
+    toast_long:
+      description: 'Confirmer avec un texte long (toast).'
+      button: 'Ouvrir confirmer'
+      title: 'Toast de confirmation longue'
+    custom:
+      description: 'Actions de confirmation personnalisées (empilage).'
+      button: 'Ouvrir confirmer'
+      title: 'Confirmation empilée'
+      message: 'Ouvrir une autre confirmation ou les fermer toutes ?'
+      action:
+        new: 'Nouvelle confirmation'
+        close_all: 'Fermer toutes les confirmations'
+        cancel: Annuler
+
+he:
+  page_title: אישור
+  section:
+    short:
+      description: 'אישור עם טקסט קצר (שכבת עליונה).'
+      button: 'פתח אישור'
+      title: 'אנא אשר'
+      message: 'האם אתה רוצה להמשיך?'
+      result_title: 'תוצאת האישור'
+      result_prefix: 'תוצאה:'
+    toast_short:
+      description: 'אישור עם טקסט קצר (התראה).'
+      button: 'פתח אישור'
+      title: 'אישור התראה'
+      message: 'להמשיך עם ההתראה?'
+      result_title: 'תוצאת אישור ההתראה'
+      result_prefix: 'תוצאה:'
+    medium:
+      description: 'אישור עם טקסט בינוני (שכבת עליונה).'
+      button: 'פתח אישור'
+      title: 'אישור בינוני'
+    long:
+      description: 'אישור עם טקסט ארוך (שכבת עליונה).'
+      button: 'פתח אישור'
+      title: 'אישור ארוך'
+    toast_medium:
+      description: 'אישור עם טקסט בינוני (התראה).'
+      button: 'פתח אישור'
+      title: 'אישור התראה בינוני'
+    toast_long:
+      description: 'אישור עם טקסט ארוך (התראה).'
+      button: 'פתח אישור'
+      title: 'אישור התראה ארוך'
+    custom:
+      description: 'פעולות אישור מותאמות (מניחים).'
+      button: 'פתח אישור'
+      title: 'אישור עם מניחים'
+      message: 'לפתוח אישור נוסף או לסגור את כולם?'
+      action:
+        new: 'אישור חדש'
+        close_all: 'סגור את כל האישורים'
+        cancel: לבטל
+
+hi:
+  page_title: 'पुष्टि करें'
+  section:
+    short:
+      description: 'संक्षिप्त पाठ के साथ पुष्टि करें (ओवरले)।'
+      button: 'पुष्टि खोलें'
+      title: 'कृपया पुष्टि करें'
+      message: 'क्या आप जारी रखना चाहते हैं?'
+      result_title: 'पुष्टि परिणाम'
+      result_prefix: 'परिणाम:'
+    toast_short:
+      description: 'संक्षिप्त पाठ के साथ पुष्टि करें (टोस्ट)।'
+      button: 'पुष्टि खोलें'
+      title: 'पुष्टि टोस्ट'
+      message: 'टोस्ट के साथ जारी रखें?'
+      result_title: 'टोस्ट पुष्टि परिणाम'
+      result_prefix: 'परिणाम:'
+    medium:
+      description: 'मध्यम पाठ के साथ पुष्टि करें (ओवरले)।'
+      button: 'पुष्टि खोलें'
+      title: 'मध्यम पुष्टि'
+    long:
+      description: 'लंबे पाठ के साथ पुष्टि करें (ओवरले)।'
+      button: 'पुष्टि खोलें'
+      title: 'लंबी पुष्टि'
+    toast_medium:
+      description: 'मध्यम पाठ के साथ पुष्टि करें (टोस्ट)।'
+      button: 'पुष्टि खोलें'
+      title: 'मध्यम पुष्टि टोस्ट'
+    toast_long:
+      description: 'लंबे पाठ के साथ पुष्टि करें (टोस्ट)।'
+      button: 'पुष्टि खोलें'
+      title: 'लंबी पुष्टि टोस्ट'
+    custom:
+      description: 'कस्टम पुष्टि क्रियाएँ (स्टैकिंग)।'
+      button: 'पुष्टि खोलें'
+      title: 'स्टैकिंग पुष्टि'
+      message: 'एक और पुष्टि खोलें या सभी बंद करें?'
+      action:
+        new: 'नई पुष्टि'
+        close_all: 'सभी पुष्टि बंद करें'
+        cancel: 'रद्द करें'
+
+id:
+  page_title: Konfirmasi
+  section:
+    short:
+      description: 'Konfirmasi dengan teks singkat (overlay).'
+      button: 'Buka konfirmasi'
+      title: 'Silakan konfirmasi'
+      message: 'Apakah Anda ingin melanjutkan?'
+      result_title: 'Hasil konfirmasi'
+      result_prefix: 'Hasil:'
+    toast_short:
+      description: 'Konfirmasi dengan teks singkat (toast).'
+      button: 'Buka konfirmasi'
+      title: 'Konfirmasi toast'
+      message: 'Lanjutkan dengan toast?'
+      result_title: 'Hasil konfirmasi toast'
+      result_prefix: 'Hasil:'
+    medium:
+      description: 'Konfirmasi dengan teks sedang (overlay).'
+      button: 'Buka konfirmasi'
+      title: 'Konfirmasi sedang'
+    long:
+      description: 'Konfirmasi dengan teks panjang (overlay).'
+      button: 'Buka konfirmasi'
+      title: 'Konfirmasi panjang'
+    toast_medium:
+      description: 'Konfirmasi dengan teks sedang (toast).'
+      button: 'Buka konfirmasi'
+      title: 'Konfirmasi toast sedang'
+    toast_long:
+      description: 'Konfirmasi dengan teks panjang (toast).'
+      button: 'Buka konfirmasi'
+      title: 'Konfirmasi toast panjang'
+    custom:
+      description: 'Tindakan konfirmasi kustom (penumpukan).'
+      button: 'Buka konfirmasi'
+      title: 'Konfirmasi penumpukan'
+      message: 'Buka konfirmasi lain atau tutup semuanya?'
+      action:
+        new: 'Konfirmasi baru'
+        close_all: 'Tutup semua konfirmasi'
+        cancel: Batal
+
+it:
+  page_title: Conferma
+  section:
+    short:
+      description: 'Conferma con testo breve (overlay).'
+      button: 'Apri conferma'
+      title: 'Si prega di confermare'
+      message: 'Vuoi continuare?'
+      result_title: 'Risultato conferma'
+      result_prefix: 'Risultato:'
+    toast_short:
+      description: 'Conferma con testo breve (toast).'
+      button: 'Apri conferma'
+      title: 'Toast di conferma'
+      message: 'Continuare con il toast?'
+      result_title: 'Risultato conferma toast'
+      result_prefix: 'Risultato:'
+    medium:
+      description: 'Conferma con testo medio (overlay).'
+      button: 'Apri conferma'
+      title: 'Conferma media'
+    long:
+      description: 'Conferma con testo lungo (overlay).'
+      button: 'Apri conferma'
+      title: 'Conferma lunga'
+    toast_medium:
+      description: 'Conferma con testo medio (toast).'
+      button: 'Apri conferma'
+      title: 'Toast di conferma media'
+    toast_long:
+      description: 'Conferma con testo lungo (toast).'
+      button: 'Apri conferma'
+      title: 'Toast di conferma lunga'
+    custom:
+      description: 'Azioni di conferma personalizzate (impilamento).'
+      button: 'Apri conferma'
+      title: 'Conferma impilata'
+      message: "Apri un'altra conferma o chiuderle tutte?"
+      action:
+        new: 'Nuova conferma'
+        close_all: 'Chiudi tutte le conferme'
+        cancel: Annulla
+
+ja:
+  page_title: 確認
+  section:
+    short:
+      description: 短いテキストで確認（オーバーレイ）します。
+      button: 確認を開く
+      title: 確認してください
+      message: 続行しますか？
+      result_title: 確認結果
+      result_prefix: 結果：
+    toast_short:
+      description: 短いテキストで確認（トースト）します。
+      button: 確認を開く
+      title: トースト確認
+      message: トーストで続行しますか？
+      result_title: トースト確認結果
+      result_prefix: 結果：
+    medium:
+      description: 中程度のテキストで確認（オーバーレイ）します。
+      button: 確認を開く
+      title: 中程度の確認
+    long:
+      description: 長いテキストで確認（オーバーレイ）します。
+      button: 確認を開く
+      title: 長い確認
+    toast_medium:
+      description: 中程度のテキストで確認（トースト）します。
+      button: 確認を開く
+      title: 中程度のトースト確認
+    toast_long:
+      description: 長いテキストで確認（トースト）します。
+      button: 確認を開く
+      title: 長いトースト確認
+    custom:
+      description: カスタム確認アクション（スタッキング）。
+      button: 確認を開く
+      title: スタッキング確認
+      message: 別の確認を開くか、すべて閉じますか？
+      action:
+        new: 新しい確認
+        close_all: すべての確認を閉じる
+        cancel: キャンセル
+
+ko:
+  page_title: 확인
+  section:
+    short:
+      description: '짧은 텍스트로 확인하기 (오버레이).'
+      button: '확인 열기'
+      title: '확인해 주세요'
+      message: '계속하시겠습니까?'
+      result_title: '확인 결과'
+      result_prefix: '결과:'
+    toast_short:
+      description: '짧은 텍스트로 확인하기 (토스트).'
+      button: '확인 열기'
+      title: '확인 토스트'
+      message: '토스트로 계속하시겠습니까?'
+      result_title: '토스트 확인 결과'
+      result_prefix: '결과:'
+    medium:
+      description: '중간 텍스트로 확인하기 (오버레이).'
+      button: '확인 열기'
+      title: '중간 확인'
+    long:
+      description: '긴 텍스트로 확인하기 (오버레이).'
+      button: '확인 열기'
+      title: '긴 확인'
+    toast_medium:
+      description: '중간 텍스트로 확인하기 (토스트).'
+      button: '확인 열기'
+      title: '중간 확인 토스트'
+    toast_long:
+      description: '긴 텍스트로 확인하기 (토스트).'
+      button: '확인 열기'
+      title: '긴 확인 토스트'
+    custom:
+      description: '사용자 정의 확인 작업 (스택).'
+      button: '확인 열기'
+      title: '스택 확인'
+      message: '또 다른 확인을 열거나 모두 닫으시겠습니까?'
+      action:
+        new: '새 확인'
+        close_all: '모든 확인 닫기'
+        cancel: 취소
+
+nl:
+  page_title: Bevestigen
+  section:
+    short:
+      description: 'Bevestigen met korte tekst (overlay).'
+      button: 'Bevestigen openen'
+      title: 'Bevestig alstublieft'
+      message: 'Wilt u doorgaan?'
+      result_title: Bevestigingsresultaat
+      result_prefix: 'Resultaat:'
+    toast_short:
+      description: 'Bevestigen met korte tekst (toast).'
+      button: 'Bevestigen openen'
+      title: Bevestigings-toast
+      message: 'Doorgaan met toast?'
+      result_title: 'Toast bevestigingsresultaat'
+      result_prefix: 'Resultaat:'
+    medium:
+      description: 'Bevestigen met gemiddelde tekst (overlay).'
+      button: 'Bevestigen openen'
+      title: 'Gemiddelde bevestiging'
+    long:
+      description: 'Bevestigen met lange tekst (overlay).'
+      button: 'Bevestigen openen'
+      title: 'Lange bevestiging'
+    toast_medium:
+      description: 'Bevestigen met gemiddelde tekst (toast).'
+      button: 'Bevestigen openen'
+      title: 'Gemiddelde bevestigings-toast'
+    toast_long:
+      description: 'Bevestigen met lange tekst (toast).'
+      button: 'Bevestigen openen'
+      title: 'Lange bevestigings-toast'
+    custom:
+      description: 'Aangepaste bevestigingsacties (stapelen).'
+      button: 'Bevestigen openen'
+      title: 'Gestapelde bevestiging'
+      message: 'Een andere bevestiging openen of ze allemaal sluiten?'
+      action:
+        new: 'Nieuwe bevestiging'
+        close_all: 'Sluit alle bevestigingen'
+        cancel: Annuleren
+
+pl:
+  page_title: Potwierdź
+  section:
+    short:
+      description: 'Potwierdź krótkim tekstem (nakładka).'
+      button: 'Otwórz potwierdzenie'
+      title: 'Proszę potwierdzić'
+      message: 'Czy chcesz kontynuować?'
+      result_title: 'Wynik potwierdzenia'
+      result_prefix: 'Wynik:'
+    toast_short:
+      description: 'Potwierdź krótkim tekstem (toast).'
+      button: 'Otwórz potwierdzenie'
+      title: 'Potwierdzenie toastu'
+      message: 'Kontynuować z toastem?'
+      result_title: 'Wynik potwierdzenia toastu'
+      result_prefix: 'Wynik:'
+    medium:
+      description: 'Potwierdź średnim tekstem (nakładka).'
+      button: 'Otwórz potwierdzenie'
+      title: 'Średnie potwierdzenie'
+    long:
+      description: 'Potwierdź długim tekstem (nakładka).'
+      button: 'Otwórz potwierdzenie'
+      title: 'Długie potwierdzenie'
+    toast_medium:
+      description: 'Potwierdź średnim tekstem (toast).'
+      button: 'Otwórz potwierdzenie'
+      title: 'Średnie potwierdzenie toastu'
+    toast_long:
+      description: 'Potwierdź długim tekstem (toast).'
+      button: 'Otwórz potwierdzenie'
+      title: 'Długie potwierdzenie toastu'
+    custom:
+      description: 'Niestandardowe działania potwierdzające (stakowanie).'
+      button: 'Otwórz potwierdzenie'
+      title: 'Stakowanie potwierdzeń'
+      message: 'Otworzyć kolejne potwierdzenie czy zamknąć wszystkie?'
+      action:
+        new: 'Nowe potwierdzenie'
+        close_all: 'Zamknij wszystkie potwierdzenia'
+        cancel: Anuluj
+
+pt_BR:
+  page_title: Confirmar
+  section:
+    short:
+      description: 'Confirme com texto curto (sobreposição).'
+      button: 'Abrir confirmação'
+      title: 'Por favor, confirme'
+      message: 'Você deseja continuar?'
+      result_title: 'Resultado da confirmação'
+      result_prefix: 'Resultado:'
+    toast_short:
+      description: 'Confirme com texto curto (toast).'
+      button: 'Abrir confirmação'
+      title: 'Toast de confirmação'
+      message: 'Continuar com o toast?'
+      result_title: 'Resultado da confirmação do toast'
+      result_prefix: 'Resultado:'
+    medium:
+      description: 'Confirme com texto médio (sobreposição).'
+      button: 'Abrir confirmação'
+      title: 'Confirmação média'
+    long:
+      description: 'Confirme com texto longo (sobreposição).'
+      button: 'Abrir confirmação'
+      title: 'Confirmação longa'
+    toast_medium:
+      description: 'Confirme com texto médio (toast).'
+      button: 'Abrir confirmação'
+      title: 'Toast de confirmação média'
+    toast_long:
+      description: 'Confirme com texto longo (toast).'
+      button: 'Abrir confirmação'
+      title: 'Toast de confirmação longa'
+    custom:
+      description: 'Ações de confirmação personalizadas (empilhamento).'
+      button: 'Abrir confirmação'
+      title: 'Confirmação empilhada'
+      message: 'Abrir outra confirmação ou fechar todas?'
+      action:
+        new: 'Nova confirmação'
+        close_all: 'Fechar todas as confirmações'
+        cancel: Cancelar
+
+ru:
+  page_title: Подтверждение
+  section:
+    short:
+      description: 'Подтверждение с коротким текстом (оверлей).'
+      button: 'Открыть подтверждение'
+      title: 'Пожалуйста, подтвердите'
+      message: 'Вы хотите продолжить?'
+      result_title: 'Результат подтверждения'
+      result_prefix: 'Результат:'
+    toast_short:
+      description: 'Подтверждение с коротким текстом (тост).'
+      button: 'Открыть подтверждение'
+      title: 'Тост подтверждения'
+      message: 'Продолжить с тостом?'
+      result_title: 'Результат тоста подтверждения'
+      result_prefix: 'Результат:'
+    medium:
+      description: 'Подтверждение со средним текстом (оверлей).'
+      button: 'Открыть подтверждение'
+      title: 'Среднее подтверждение'
+    long:
+      description: 'Подтверждение с длинным текстом (оверлей).'
+      button: 'Открыть подтверждение'
+      title: 'Долгое подтверждение'
+    toast_medium:
+      description: 'Подтверждение со средним текстом (тост).'
+      button: 'Открыть подтверждение'
+      title: 'Средний тост подтверждения'
+    toast_long:
+      description: 'Подтверждение с длинным текстом (тост).'
+      button: 'Открыть подтверждение'
+      title: 'Долгий тост подтверждения'
+    custom:
+      description: 'Пользовательские действия подтверждения (стек).'
+      button: 'Открыть подтверждение'
+      title: 'Стековое подтверждение'
+      message: 'Открыть другое подтверждение или закрыть все?'
+      action:
+        new: 'Новое подтверждение'
+        close_all: 'Закрыть все подтверждения'
+        cancel: Отмена
+
+th:
+  page_title: ยืนยัน
+  section:
+    short:
+      description: 'ยืนยันด้วยข้อความสั้น (overlay).'
+      button: เปิดยืนยัน
+      title: กรุณายืนยัน
+      message: 'คุณต้องการดำเนินการต่อหรือไม่?'
+      result_title: ผลการยืนยัน
+      result_prefix: 'ผลลัพธ์:'
+    toast_short:
+      description: 'ยืนยันด้วยข้อความสั้น (toast).'
+      button: เปิดยืนยัน
+      title: 'ยืนยัน toast'
+      message: 'ดำเนินการต่อด้วย toast หรือไม่?'
+      result_title: 'ผลการยืนยัน toast'
+      result_prefix: 'ผลลัพธ์:'
+    medium:
+      description: 'ยืนยันด้วยข้อความปานกลาง (overlay).'
+      button: เปิดยืนยัน
+      title: ยืนยันปานกลาง
+    long:
+      description: 'ยืนยันด้วยข้อความยาว (overlay).'
+      button: เปิดยืนยัน
+      title: ยืนยันยาว
+    toast_medium:
+      description: 'ยืนยันด้วยข้อความปานกลาง (toast).'
+      button: เปิดยืนยัน
+      title: 'ยืนยัน toast ปานกลาง'
+    toast_long:
+      description: 'ยืนยันด้วยข้อความยาว (toast).'
+      button: เปิดยืนยัน
+      title: 'ยืนยัน toast ยาว'
+    custom:
+      description: 'การกระทำยืนยันที่กำหนดเอง (stacking).'
+      button: เปิดยืนยัน
+      title: การยืนยันแบบจัดเรียง
+      message: 'เปิดยืนยันอื่นหรือปิดทั้งหมด?'
+      action:
+        new: ยืนยันใหม่
+        close_all: ปิดยืนยันทั้งหมด
+        cancel: ยกเลิก
+
+tr:
+  page_title: Onayla
+  section:
+    short:
+      description: 'Kısa metinle onayla (overlay).'
+      button: 'Onayı aç'
+      title: 'Lütfen onaylayın'
+      message: 'Devam etmek istiyor musunuz?'
+      result_title: 'Onay sonucu'
+      result_prefix: 'Sonuç:'
+    toast_short:
+      description: 'Kısa metinle onayla (toast).'
+      button: 'Onayı aç'
+      title: "Onay toast'ı"
+      message: 'Toast ile devam edelim mi?'
+      result_title: 'Toast onay sonucu'
+      result_prefix: 'Sonuç:'
+    medium:
+      description: 'Orta metinle onayla (overlay).'
+      button: 'Onayı aç'
+      title: 'Orta onay'
+    long:
+      description: 'Uzun metinle onayla (overlay).'
+      button: 'Onayı aç'
+      title: 'Uzun onay'
+    toast_medium:
+      description: 'Orta metinle onayla (toast).'
+      button: 'Onayı aç'
+      title: "Orta onay toast'ı"
+    toast_long:
+      description: 'Uzun metinle onayla (toast).'
+      button: 'Onayı aç'
+      title: "Uzun onay toast'ı"
+    custom:
+      description: 'Özel onay eylemleri (yığma).'
+      button: 'Onayı aç'
+      title: 'Yığma onay'
+      message: 'Başka bir onayı açalım mı yoksa hepsini kapatalım mı?'
+      action:
+        new: 'Yeni onay'
+        close_all: 'Tüm onayları kapat'
+        cancel: 'İptal et'
+
+ur:
+  page_title: 'تصدیق کریں'
+  section:
+    short:
+      description: 'مختصر متن کے ساتھ تصدیق کریں (اوورلے)۔'
+      button: 'تصدیق کھولیں'
+      title: 'براہ کرم تصدیق کریں'
+      message: 'کیا آپ جاری رکھنا چاہتے ہیں؟'
+      result_title: 'تصدیق کا نتیجہ'
+      result_prefix: 'نتیجہ:'
+    toast_short:
+      description: 'مختصر متن کے ساتھ تصدیق کریں (توست)۔'
+      button: 'تصدیق کھولیں'
+      title: 'تصدیق توست'
+      message: 'توست کے ساتھ جاری رکھیں؟'
+      result_title: 'توست تصدیق کا نتیجہ'
+      result_prefix: 'نتیجہ:'
+    medium:
+      description: 'درمیانی متن کے ساتھ تصدیق کریں (اوورلے)۔'
+      button: 'تصدیق کھولیں'
+      title: 'درمیانی تصدیق'
+    long:
+      description: 'طویل متن کے ساتھ تصدیق کریں (اوورلے)۔'
+      button: 'تصدیق کھولیں'
+      title: 'طویل تصدیق'
+    toast_medium:
+      description: 'درمیانی متن کے ساتھ تصدیق کریں (توست)۔'
+      button: 'تصدیق کھولیں'
+      title: 'درمیانی تصدیق توست'
+    toast_long:
+      description: 'طویل متن کے ساتھ تصدیق کریں (توست)۔'
+      button: 'تصدیق کھولیں'
+      title: 'طویل تصدیق توست'
+    custom:
+      description: 'حسب ضرورت تصدیق کی کارروائیاں (اسٹیکنگ)۔'
+      button: 'تصدیق کھولیں'
+      title: 'اسٹیکنگ تصدیق'
+      message: 'ایک اور تصدیق کھولیں یا سب بند کریں؟'
+      action:
+        new: 'نئی تصدیق'
+        close_all: 'تمام تصدیق بند کریں'
+        cancel: 'کینسل کریں'
+
+vi:
+  page_title: 'Xác nhận'
+  section:
+    short:
+      description: 'Xác nhận với văn bản ngắn (overlay).'
+      button: 'Mở xác nhận'
+      title: 'Vui lòng xác nhận'
+      message: 'Bạn có muốn tiếp tục không?'
+      result_title: 'Kết quả xác nhận'
+      result_prefix: 'Kết quả:'
+    toast_short:
+      description: 'Xác nhận với văn bản ngắn (toast).'
+      button: 'Mở xác nhận'
+      title: 'Xác nhận toast'
+      message: 'Tiếp tục với toast?'
+      result_title: 'Kết quả xác nhận toast'
+      result_prefix: 'Kết quả:'
+    medium:
+      description: 'Xác nhận với văn bản vừa (overlay).'
+      button: 'Mở xác nhận'
+      title: 'Xác nhận vừa'
+    long:
+      description: 'Xác nhận với văn bản dài (overlay).'
+      button: 'Mở xác nhận'
+      title: 'Xác nhận dài'
+    toast_medium:
+      description: 'Xác nhận với văn bản vừa (toast).'
+      button: 'Mở xác nhận'
+      title: 'Xác nhận toast vừa'
+    toast_long:
+      description: 'Xác nhận với văn bản dài (toast).'
+      button: 'Mở xác nhận'
+      title: 'Xác nhận toast dài'
+    custom:
+      description: 'Hành động xác nhận tùy chỉnh (xếp chồng).'
+      button: 'Mở xác nhận'
+      title: 'Xác nhận xếp chồng'
+      message: 'Mở xác nhận khác hay đóng tất cả?'
+      action:
+        new: 'Xác nhận mới'
+        close_all: 'Đóng tất cả xác nhận'
+        cancel: 'Hủy bỏ'
+
+zh:
+  page_title: 确认
+  section:
+    short:
+      description: 用简短文本确认（覆盖）。
+      button: 打开确认
+      title: 请确认
+      message: 您想继续吗？
+      result_title: 确认结果
+      result_prefix: 结果：
+    toast_short:
+      description: 用简短文本确认（吐司）。
+      button: 打开确认
+      title: 确认吐司
+      message: 继续吐司吗？
+      result_title: 吐司确认结果
+      result_prefix: 结果：
+    medium:
+      description: 用中等文本确认（覆盖）。
+      button: 打开确认
+      title: 中等确认
+    long:
+      description: 用长文本确认（覆盖）。
+      button: 打开确认
+      title: 长确认
+    toast_medium:
+      description: 用中等文本确认（吐司）。
+      button: 打开确认
+      title: 中等确认吐司
+    toast_long:
+      description: 用长文本确认（吐司）。
+      button: 打开确认
+      title: 长确认吐司
+    custom:
+      description: 自定义确认操作（堆叠）。
+      button: 打开确认
+      title: 堆叠确认
+      message: 打开另一个确认还是关闭所有？
+      action:
+        new: 新确认
+        close_all: 关闭所有确认
+        cancel: 取消

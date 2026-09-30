@@ -1,0 +1,906 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Direction
+  page_icon: ph:bold/arrows-left-right
+
+  intro: "The same samples twice, left to right and right to left. Nothing here is written for the right-to-left side: every stylesheet speaks of the start and the end of a line, so a block given `dir=\"rtl\"` — or a page in Arabic — mirrors on its own. Arrows point the other way, the knob of a switch travels the other way, a menu opens toward the end, and an email or a path keeps reading left to right."
+
+  side:
+    ltr: Left to right
+    rtl: Right to left
+
+  sample:
+    navigation: Navigation
+    controls: Controls
+    data: Data
+    text: Text
+
+  step:
+    account: Account
+    address: Address
+    payment: Payment
+
+  action:
+    previous: Previous
+    next: Next
+    menu: Menu
+
+  menu:
+    report: Report
+    settings: Settings
+
+  control:
+    notifications: Notifications
+    digest: Weekly digest
+    upload: Upload
+
+  field:
+    owner: Owner
+    email: Email
+    site: Site
+    amount: Amount
+
+  text:
+    lead: A lead paragraph carries its rule on the side the line starts from.
+    mixed: "Values keep their own direction inside a sentence — ask layla.haddad@example.test, run"
+    marker: Delivered
+    link: Documentation
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الاتجاه
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'نفس العينات مرتين، من اليسار إلى اليمين ومن اليمين إلى اليسار. لا يوجد هنا ما هو مكتوب للجانب من اليمين إلى اليسار: كل ورقة أنماط تتحدث عن بداية ونهاية السطر، لذا فإن كتلة تم إعطاؤها `dir="rtl"` — أو صفحة باللغة العربية — تعكس نفسها. الأسهم تشير في الاتجاه المعاكس، ومقبض التبديل يتحرك في الاتجاه المعاكس، وقائمة تفتح نحو النهاية، ورسالة بريد إلكتروني أو مسار يستمر في القراءة من اليسار إلى اليمين.'
+  side:
+    ltr: 'من اليسار إلى اليمين'
+    rtl: 'من اليمين إلى اليسار'
+  sample:
+    navigation: التنقل
+    controls: التحكم
+    data: البيانات
+    text: النص
+  step:
+    account: الحساب
+    address: العنوان
+    payment: الدفع
+  action:
+    previous: السابق
+    next: التالي
+    menu: القائمة
+  menu:
+    report: التقرير
+    settings: الإعدادات
+  control:
+    notifications: الإشعارات
+    digest: 'ملخص أسبوعي'
+    upload: رفع
+  field:
+    owner: المالك
+    email: 'البريد الإلكتروني'
+    site: الموقع
+    amount: المبلغ
+  text:
+    lead: 'فقرة الرصاص تحمل قاعدتها من الجانب الذي يبدأ منه السطر.'
+    mixed: 'القيم تحتفظ باتجاهها الخاص داخل الجملة — اسأل layla.haddad@example.test، شغل'
+    marker: 'تم التوصيل'
+    link: الوثائق
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: নির্দেশনা
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'একই নমুনা দুটি, বাম থেকে ডানে এবং ডান থেকে বামে। এখানে ডান থেকে বাম দিকের জন্য কিছুই লেখা হয়নি: প্রতিটি স্টাইলশীট একটি লাইনের শুরু এবং শেষ সম্পর্কে কথা বলে, তাই একটি ব্লককে `dir="rtl"` দেওয়া হলে - বা আরবিতে একটি পৃষ্ঠা - এটি স্বতন্ত্রভাবে প্রতিফলিত হয়। তীরগুলো বিপরীত দিকে নির্দেশ করে, একটি সুইচের নব্বরটি অন্যদিকে চলে, একটি মেনু শেষের দিকে খুলে, এবং একটি ইমেল বা একটি পথ বাম থেকে ডানে পড়তে থাকে।'
+  side:
+    ltr: 'বাম থেকে ডানে'
+    rtl: 'ডান থেকে বামে'
+  sample:
+    navigation: নেভিগেশন
+    controls: নিয়ন্ত্রণ
+    data: ডেটা
+    text: টেক্সট
+  step:
+    account: অ্যাকাউন্ট
+    address: ঠিকানা
+    payment: পেমেন্ট
+  action:
+    previous: পূর্ববর্তী
+    next: পরবর্তী
+    menu: মেনু
+  menu:
+    report: রিপোর্ট
+    settings: সেটিংস
+  control:
+    notifications: বিজ্ঞপ্তি
+    digest: 'সাপ্তাহিক সারসংক্ষেপ'
+    upload: আপলোড
+  field:
+    owner: মালিক
+    email: ইমেল
+    site: সাইট
+    amount: পরিমাণ
+  text:
+    lead: 'একটি লিড প্যারাগ্রাফ তার নিয়মটি লাইনের শুরু থেকে বহন করে।'
+    mixed: 'মানগুলো একটি বাক্যের ভিতরে তাদের নিজস্ব দিক ধারণ করে - ask layla.haddad@example.test, run'
+    marker: প্রদত্ত
+    link: ডকুমেন্টেশন
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Richtung
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Die gleichen Beispiele zweimal, von links nach rechts und von rechts nach links. Nichts hier ist für die von rechts nach links geschriebene Seite verfasst: Jede Stylesheet spricht vom Anfang und Ende einer Zeile, sodass ein Block mit `dir="rtl"` – oder eine Seite auf Arabisch – sich selbst spiegelt. Pfeile zeigen in die andere Richtung, der Knopf eines Schalters bewegt sich in die andere Richtung, ein Menü öffnet sich zum Ende hin, und eine E-Mail oder ein Pfad wird von links nach rechts gelesen.'
+  side:
+    ltr: 'Von links nach rechts'
+    rtl: 'Von rechts nach links'
+  sample:
+    navigation: Navigation
+    controls: Steuerelemente
+    data: Daten
+    text: Text
+  step:
+    account: Konto
+    address: Adresse
+    payment: Zahlung
+  action:
+    previous: Vorherige
+    next: Nächste
+    menu: Menü
+  menu:
+    report: Bericht
+    settings: Einstellungen
+  control:
+    notifications: Benachrichtigungen
+    digest: 'Wöchentlicher Überblick'
+    upload: Hochladen
+  field:
+    owner: Besitzer
+    email: E-Mail
+    site: Website
+    amount: Betrag
+  text:
+    lead: 'Ein einleitender Absatz trägt seine Regel auf der Seite, von der die Zeile beginnt.'
+    mixed: 'Werte behalten ihre eigene Richtung innerhalb eines Satzes – frage layla.haddad@example.test, führe aus'
+    marker: Geliefert
+    link: Dokumentation
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dirección
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Las mismas muestras dos veces, de izquierda a derecha y de derecha a izquierda. Nada aquí está escrito para el lado de derecha a izquierda: cada hoja de estilo habla del inicio y del final de una línea, así que un bloque dado `dir="rtl"` — o una página en árabe — se refleja por sí mismo. Las flechas apuntan en la otra dirección, el control de un interruptor se mueve en la otra dirección, un menú se abre hacia el final, y un correo electrónico o un camino sigue leyendo de izquierda a derecha.'
+  side:
+    ltr: 'De izquierda a derecha'
+    rtl: 'De derecha a izquierda'
+  sample:
+    navigation: Navegación
+    controls: Controles
+    data: Datos
+    text: Texto
+  step:
+    account: Cuenta
+    address: Dirección
+    payment: Pago
+  action:
+    previous: Anterior
+    next: Siguiente
+    menu: Menú
+  menu:
+    report: Informe
+    settings: Configuraciones
+  control:
+    notifications: Notificaciones
+    digest: 'Resumen semanal'
+    upload: Subir
+  field:
+    owner: Propietario
+    email: 'Correo electrónico'
+    site: Sitio
+    amount: Cantidad
+  text:
+    lead: 'Un párrafo de introducción lleva su regla del lado desde donde comienza la línea.'
+    mixed: 'Los valores mantienen su propia dirección dentro de una oración — pregunta a layla.haddad@example.test, ejecuta'
+    marker: Entregado
+    link: Documentación
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: جهت
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'نمونه‌های یکسان به صورت دو بار، از چپ به راست و از راست به چپ. هیچ چیزی در اینجا برای سمت راست به چپ نوشته نشده است: هر استایل‌ شیت به شروع و پایان یک خط اشاره دارد، بنابراین یک بلوک با `dir="rtl"` — یا یک صفحه به زبان عربی — به طور خودکار آینه‌ای است. پیکان‌ها به سمت دیگر اشاره می‌کنند، دسته یک سوئیچ به سمت دیگر حرکت می‌کند، منویی به سمت پایان باز می‌شود و یک ایمیل یا یک مسیر به صورت چپ به راست ادامه می‌یابد.'
+  side:
+    ltr: 'چپ به راست'
+    rtl: 'راست به چپ'
+  sample:
+    navigation: ناوبری
+    controls: کنترل‌ها
+    data: داده‌ها
+    text: متن
+  step:
+    account: حساب
+    address: آدرس
+    payment: پرداخت
+  action:
+    previous: قبلی
+    next: بعدی
+    menu: منو
+  menu:
+    report: گزارش
+    settings: تنظیمات
+  control:
+    notifications: اعلان‌ها
+    digest: 'خلاصه هفتگی'
+    upload: بارگذاری
+  field:
+    owner: مالک
+    email: ایمیل
+    site: سایت
+    amount: مقدار
+  text:
+    lead: 'یک پاراگراف اصلی قانون خود را از سمتی که خط از آن آغاز می‌شود، حمل می‌کند.'
+    mixed: 'مقادیر جهت خود را در یک جمله حفظ می‌کنند — از layla.haddad@example.test بپرسید، اجرا کنید'
+    marker: 'تحویل داده شده'
+    link: مستندات
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Suunnat
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Samat näytteet kahdesti, vasemmalta oikealle ja oikealta vasemmalle. Täällä ei ole mitään kirjoitettuna oikealta vasemmalle puolelle: jokainen tyylitiedosto puhuu rivin alusta ja lopusta, joten lohko, jolle on annettu `dir="rtl"` — tai sivu arabialaisena — peilaa itsensä. Nuolien suunta on toinen, kytkimen nappula liikkuu toiseen suuntaan, valikko avautuu loppua kohti ja sähköposti tai polku lukee vasemmalta oikealle.'
+  side:
+    ltr: 'Vasemmalta oikealle'
+    rtl: 'Oikealta vasemmalle'
+  sample:
+    navigation: Navigointi
+    controls: Ohjaimet
+    data: Tieto
+    text: Teksti
+  step:
+    account: Tili
+    address: Osoite
+    payment: Maksu
+  action:
+    previous: Edellinen
+    next: Seuraava
+    menu: Valikko
+  menu:
+    report: Raportti
+    settings: Asetukset
+  control:
+    notifications: Ilmoitukset
+    digest: 'Viikoittainen yhteenveto'
+    upload: Lähetä
+  field:
+    owner: Omistaja
+    email: Sähköposti
+    site: Sivusto
+    amount: Määrä
+  text:
+    lead: 'Aloituskuvaus seuraa sääntöään sen puolella, jolta rivi alkaa.'
+    mixed: 'Arvot säilyttävät oman suuntansa lauseen sisällä — kysy layla.haddad@example.test, suorita'
+    marker: Toimitettu
+    link: Dokumentaatio
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Direction
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: "Les mêmes échantillons deux fois, de gauche à droite et de droite à gauche. Rien ici n'est écrit pour le côté de droite à gauche : chaque feuille de style parle du début et de la fin d'une ligne, donc un bloc donné `dir=\"rtl\"` — ou une page en arabe — se réfléchit de lui-même. Les flèches pointent dans l'autre sens, le bouton d'un interrupteur se déplace dans l'autre sens, un menu s'ouvre vers la fin, et un e-mail ou un chemin continue de se lire de gauche à droite."
+  side:
+    ltr: 'De gauche à droite'
+    rtl: 'De droite à gauche'
+  sample:
+    navigation: Navigation
+    controls: Contrôles
+    data: Données
+    text: Texte
+  step:
+    account: Compte
+    address: Adresse
+    payment: Paiement
+  action:
+    previous: Précédent
+    next: Suivant
+    menu: Menu
+  menu:
+    report: Rapport
+    settings: Paramètres
+  control:
+    notifications: Notifications
+    digest: 'Récapitulatif hebdomadaire'
+    upload: Télécharger
+  field:
+    owner: Propriétaire
+    email: Email
+    site: Site
+    amount: Montant
+  text:
+    lead: "Un paragraphe d'introduction suit sa règle du côté où la ligne commence."
+    mixed: "Les valeurs conservent leur propre direction à l'intérieur d'une phrase — demandez layla.haddad@example.test, exécutez"
+    marker: Livré
+    link: Documentation
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: כיוון
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'אותם דוגמאות פעמיים, משמאל לימין ומימין לשמאל. שום דבר כאן לא נכתב עבור הצד מימין לשמאל: כל גיליון סגנון מדבר על התחלה וסוף של שורה, כך שחסימת טקסט עם `dir="rtl"` — או דף בערבית — משקפת את עצמה. חיצים מצביעים בכיוון ההפוך, ידית של מתג נעה בכיוון ההפוך, תפריט נפתח לכיוון הסוף, ודוא"ל או נתיב ממשיכים להיקרא משמאל לימין.'
+  side:
+    ltr: 'משמאל לימין'
+    rtl: 'מימין לשמאל'
+  sample:
+    navigation: ניווט
+    controls: בקרים
+    data: נתונים
+    text: טקסט
+  step:
+    account: חשבון
+    address: כתובת
+    payment: תשלום
+  action:
+    previous: קודם
+    next: הבא
+    menu: תפריט
+  menu:
+    report: 'דו"ח'
+    settings: הגדרות
+  control:
+    notifications: התראות
+    digest: 'סיכום שבועי'
+    upload: העלה
+  field:
+    owner: בעלים
+    email: 'דוא"ל'
+    site: אתר
+    amount: סכום
+  text:
+    lead: 'פסקת פתיחה נושאת את הכלל מהצד שבו השורה מתחילה.'
+    mixed: 'ערכים שומרים על הכיוון שלהם בתוך משפט — שאל את layla.haddad@example.test, הרץ'
+    marker: נמסר
+    link: תיעוד
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: दिशा
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'एक ही नमूने दो बार, बाएं से दाएं और दाएं से बाएं। यहां दाएं से बाएं दिशा के लिए कुछ भी नहीं लिखा गया है: हर स्टाइलशीट एक पंक्ति के शुरू और अंत की बात करती है, इसलिए एक ब्लॉक जिसे `dir="rtl"` दिया गया है - या एक अरबी पृष्ठ - अपने आप में परिलक्षित होता है। तीर दूसरी दिशा में इशारा करते हैं, एक स्विच का नॉब दूसरी दिशा में चलता है, एक मेनू अंत की ओर खुलता है, और एक ईमेल या एक पथ बाएं से दाएं पढ़ता रहता है।'
+  side:
+    ltr: 'बाएं से दाएं'
+    rtl: 'दाएं से बाएं'
+  sample:
+    navigation: नेविगेशन
+    controls: नियंत्रण
+    data: डेटा
+    text: पाठ
+  step:
+    account: खाता
+    address: पता
+    payment: भुगतान
+  action:
+    previous: पिछला
+    next: अगला
+    menu: मेनू
+  menu:
+    report: रिपोर्ट
+    settings: सेटिंग्स
+  control:
+    notifications: सूचनाएं
+    digest: 'साप्ताहिक संक्षेप'
+    upload: अपलोड
+  field:
+    owner: स्वामी
+    email: ईमेल
+    site: साइट
+    amount: राशि
+  text:
+    lead: 'एक लीड पैराग्राफ अपनी नियम को उस तरफ ले जाता है जहां से पंक्ति शुरू होती है।'
+    mixed: 'मान अपने-अपने दिशा को वाक्य के अंदर बनाए रखते हैं - पूछें layla.haddad@example.test, चलाएं'
+    marker: 'प्रस्तुत किया गया'
+    link: दस्तावेज़ीकरण
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Arah
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Contoh yang sama dua kali, dari kiri ke kanan dan dari kanan ke kiri. Tidak ada yang ditulis untuk sisi kanan-ke-kiri: setiap stylesheet berbicara tentang awal dan akhir sebuah garis, jadi sebuah blok yang diberikan `dir="rtl"` — atau halaman dalam Bahasa Arab — mencerminkan sendiri. Panah mengarah ke arah yang berlawanan, tombol saklar bergerak ke arah yang berlawanan, menu terbuka menuju akhir, dan email atau jalur terus dibaca dari kiri ke kanan.'
+  side:
+    ltr: 'Kiri ke kanan'
+    rtl: 'Kanan ke kiri'
+  sample:
+    navigation: Navigasi
+    controls: Kontrol
+    data: Data
+    text: Teks
+  step:
+    account: Akun
+    address: Alamat
+    payment: Pembayaran
+  action:
+    previous: Sebelumnya
+    next: Selanjutnya
+    menu: Menu
+  menu:
+    report: Laporan
+    settings: Pengaturan
+  control:
+    notifications: Notifikasi
+    digest: 'Rangkuman mingguan'
+    upload: Unggah
+  field:
+    owner: Pemilik
+    email: Email
+    site: Situs
+    amount: Jumlah
+  text:
+    lead: 'Paragraf utama menyampaikan aturannya dari sisi tempat garis dimulai.'
+    mixed: 'Nilai mempertahankan arah masing-masing di dalam kalimat — tanyakan layla.haddad@example.test, jalankan'
+    marker: Dikirim
+    link: Dokumentasi
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Direzione
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: "Gli stessi campioni due volte, da sinistra a destra e da destra a sinistra. Nulla qui è scritto per il lato da destra a sinistra: ogni foglio di stile parla dell'inizio e della fine di una riga, quindi un blocco dato `dir=\"rtl\"` — o una pagina in arabo — si riflette da solo. Le frecce puntano dall'altra parte, la manopola di un interruttore si muove dall'altra parte, un menu si apre verso la fine, e un'email o un percorso continua a leggere da sinistra a destra."
+  side:
+    ltr: 'Da sinistra a destra'
+    rtl: 'Da destra a sinistra'
+  sample:
+    navigation: Navigazione
+    controls: Controlli
+    data: Dati
+    text: Testo
+  step:
+    account: Account
+    address: Indirizzo
+    payment: Pagamento
+  action:
+    previous: Precedente
+    next: Successivo
+    menu: Menu
+  menu:
+    report: Report
+    settings: Impostazioni
+  control:
+    notifications: Notifiche
+    digest: 'Riepilogo settimanale'
+    upload: Carica
+  field:
+    owner: Proprietario
+    email: Email
+    site: Sito
+    amount: Importo
+  text:
+    lead: 'Un paragrafo introduttivo porta la sua regola dal lato da cui inizia la riga.'
+    mixed: "I valori mantengono la loro direzione all'interno di una frase — chiedi a layla.haddad@example.test, esegui"
+    marker: Consegnato
+    link: Documentazione
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 方向
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: '同じサンプルが2回、左から右、右から左に表示されます。右から左の側に書かれたものは何もありません：すべてのスタイルシートは行の始まりと終わりについて語っているので、`dir="rtl"`が指定されたブロック — またはアラビア語のページ — は自動的に反転します。矢印は逆向きに指し、スイッチのノブは逆に移動し、メニューは終わりの方に開き、メールやパスは左から右に読み続けます。'
+  side:
+    ltr: 左から右
+    rtl: 右から左
+  sample:
+    navigation: ナビゲーション
+    controls: コントロール
+    data: データ
+    text: テキスト
+  step:
+    account: アカウント
+    address: 住所
+    payment: 支払い
+  action:
+    previous: 前へ
+    next: 次へ
+    menu: メニュー
+  menu:
+    report: レポート
+    settings: 設定
+  control:
+    notifications: 通知
+    digest: 週間ダイジェスト
+    upload: アップロード
+  field:
+    owner: オーナー
+    email: メール
+    site: サイト
+    amount: 金額
+  text:
+    lead: リード段落は行の始まりからのルールを持ちます。
+    mixed: '値は文の中でそれぞれの方向を保ちます — ask layla.haddad@example.test, run'
+    marker: 配信済み
+    link: ドキュメンテーション
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 방향
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: '같은 샘플을 두 번, 왼쪽에서 오른쪽과 오른쪽에서 왼쪽으로. 여기 오른쪽에서 왼쪽으로 쓰여진 것은 없습니다: 모든 스타일시트는 줄의 시작과 끝에 대해 이야기하므로 `dir="rtl"`이 주어진 블록 — 또는 아랍어 페이지 — 는 스스로 거울처럼 반사됩니다. 화살표는 반대 방향을 가리키고, 스위치의 노브는 반대 방향으로 이동하며, 메뉴는 끝 쪽으로 열리고, 이메일이나 경로는 왼쪽에서 오른쪽으로 계속 읽힙니다.'
+  side:
+    ltr: '왼쪽에서 오른쪽으로'
+    rtl: '오른쪽에서 왼쪽으로'
+  sample:
+    navigation: 탐색
+    controls: 제어
+    data: 데이터
+    text: 텍스트
+  step:
+    account: 계정
+    address: 주소
+    payment: 결제
+  action:
+    previous: 이전
+    next: 다음
+    menu: 메뉴
+  menu:
+    report: 보고서
+    settings: 설정
+  control:
+    notifications: 알림
+    digest: '주간 요약'
+    upload: 업로드
+  field:
+    owner: 소유자
+    email: 이메일
+    site: 사이트
+    amount: 금액
+  text:
+    lead: '리드 문단은 줄이 시작되는 쪽에서 규칙을 전달합니다.'
+    mixed: '값은 문장 내에서 자신의 방향을 유지합니다 — layla.haddad@example.test에 문의하세요, 실행합니다'
+    marker: 전달됨
+    link: 문서
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Richting
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Dezelfde monsters twee keer, van links naar rechts en van rechts naar links. Niets hier is geschreven voor de rechts-naar-links kant: elke stylesheet spreekt van het begin en het einde van een regel, dus een blok met `dir="rtl"` — of een pagina in het Arabisch — weerspiegelt zichzelf. Pijlen wijzen de andere kant op, de knop van een schakelaar beweegt de andere kant op, een menu opent naar het einde, en een e-mail of een pad blijft lezen van links naar rechts.'
+  side:
+    ltr: 'Van links naar rechts'
+    rtl: 'Van rechts naar links'
+  sample:
+    navigation: Navigatie
+    controls: Bedieningselementen
+    data: Gegevens
+    text: Tekst
+  step:
+    account: Account
+    address: Adres
+    payment: Betaling
+  action:
+    previous: Vorige
+    next: Volgende
+    menu: Menu
+  menu:
+    report: Rapport
+    settings: Instellingen
+  control:
+    notifications: Meldingen
+    digest: 'Wekelijks overzicht'
+    upload: Uploaden
+  field:
+    owner: Eigenaar
+    email: E-mail
+    site: Site
+    amount: Bedrag
+  text:
+    lead: 'Een inleidende alinea draagt zijn regel aan de kant waar de regel begint.'
+    mixed: 'Waarden behouden hun eigen richting binnen een zin — vraag layla.haddad@example.test, run'
+    marker: Afgeleverd
+    link: Documentatie
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kierunek
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Te same próbki dwa razy, od lewej do prawej i od prawej do lewej. Nic tutaj nie jest napisane dla strony od prawej do lewej: każdy arkusz stylów mówi o początku i końcu linii, więc blok z `dir="rtl"` — lub strona w języku arabskim — lustrzanie odbija się sam. Strzałki wskazują w drugą stronę, pokrętło przełącznika porusza się w drugą stronę, menu otwiera się w kierunku końca, a e-mail lub ścieżka są czytane od lewej do prawej.'
+  side:
+    ltr: 'Od lewej do prawej'
+    rtl: 'Od prawej do lewej'
+  sample:
+    navigation: Nawigacja
+    controls: Kontrole
+    data: Dane
+    text: Tekst
+  step:
+    account: Konto
+    address: Adres
+    payment: Płatność
+  action:
+    previous: Poprzedni
+    next: Następny
+    menu: Menu
+  menu:
+    report: Raport
+    settings: Ustawienia
+  control:
+    notifications: Powiadomienia
+    digest: 'Cotygodniowe podsumowanie'
+    upload: Prześlij
+  field:
+    owner: Właściciel
+    email: Email
+    site: Strona
+    amount: Kwota
+  text:
+    lead: 'Wiodący akapit zawiera swoją regułę po stronie, od której zaczyna się linia.'
+    mixed: 'Wartości zachowują własny kierunek w zdaniu — zapytaj layla.haddad@example.test, uruchom'
+    marker: Dostarczono
+    link: Dokumentacja
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Direção
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Os mesmos exemplos duas vezes, da esquerda para a direita e da direita para a esquerda. Nada aqui está escrito para o lado direito para o esquerdo: cada folha de estilo fala do início e do fim de uma linha, então um bloco dado `dir="rtl"` — ou uma página em árabe — se espelha por conta própria. As setas apontam para o outro lado, o botão de um interruptor se move na outra direção, um menu se abre em direção ao fim, e um e-mail ou um caminho continua lendo da esquerda para a direita.'
+  side:
+    ltr: 'Da esquerda para a direita'
+    rtl: 'Da direita para a esquerda'
+  sample:
+    navigation: Navegação
+    controls: Controles
+    data: Dados
+    text: Texto
+  step:
+    account: Conta
+    address: Endereço
+    payment: Pagamento
+  action:
+    previous: Anterior
+    next: Próximo
+    menu: Menu
+  menu:
+    report: Relatório
+    settings: Configurações
+  control:
+    notifications: Notificações
+    digest: 'Resumo semanal'
+    upload: 'Fazer upload'
+  field:
+    owner: Proprietário
+    email: Email
+    site: Site
+    amount: Valor
+  text:
+    lead: 'Um parágrafo introdutório carrega sua regra do lado de onde a linha começa.'
+    mixed: 'Os valores mantêm sua própria direção dentro de uma frase — pergunte para layla.haddad@example.test, execute'
+    marker: Entregue
+    link: Documentação
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Направление
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Одни и те же примеры дважды, слева направо и справа налево. Ничего не написано для стороны справа налево: каждая таблица стилей говорит о начале и конце строки, поэтому блок с `dir="rtl"` — или страница на арабском — зеркалит сама себя. Стрелки указывают в другую сторону, ручка переключателя движется в другую сторону, меню открывается к концу, а электронное письмо или путь продолжают читаться слева направо.'
+  side:
+    ltr: 'Слева направо'
+    rtl: 'Справа налево'
+  sample:
+    navigation: Навигация
+    controls: 'Элементы управления'
+    data: Данные
+    text: Текст
+  step:
+    account: 'Учетная запись'
+    address: Адрес
+    payment: Оплата
+  action:
+    previous: Предыдущий
+    next: Следующий
+    menu: Меню
+  menu:
+    report: Отчет
+    settings: Настройки
+  control:
+    notifications: Уведомления
+    digest: 'Еженедельная рассылка'
+    upload: Загрузить
+  field:
+    owner: Владелец
+    email: 'Электронная почта'
+    site: Сайт
+    amount: Сумма
+  text:
+    lead: 'Вводный абзац несет свое правило со стороны, с которой начинается строка.'
+    mixed: 'Значения сохраняют свое направление внутри предложения — спросите layla.haddad@example.test, запустите'
+    marker: Доставлено
+    link: Документация
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ทิศทาง
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'ตัวอย่างเดียวกันสองครั้ง จากซ้ายไปขวาและจากขวาไปซ้าย ไม่มีอะไรที่เขียนสำหรับด้านขวาไปซ้าย: ทุกสไตล์ชีตพูดถึงจุดเริ่มต้นและจุดสิ้นสุดของบรรทัด ดังนั้นบล็อกที่กำหนด `dir="rtl"` — หรือหน้าในภาษาอาหรับ — จะสะท้อนกลับเอง ลูกศรชี้ไปทางอื่น ปุ่มของสวิตช์เคลื่อนที่ไปทางอื่น เมนูเปิดไปยังจุดสิ้นสุด และอีเมลหรือเส้นทางอ่านจากซ้ายไปขวา'
+  side:
+    ltr: จากซ้ายไปขวา
+    rtl: จากขวาไปซ้าย
+  sample:
+    navigation: การนำทาง
+    controls: การควบคุม
+    data: ข้อมูล
+    text: ข้อความ
+  step:
+    account: บัญชี
+    address: ที่อยู่
+    payment: การชำระเงิน
+  action:
+    previous: ก่อนหน้า
+    next: ถัดไป
+    menu: เมนู
+  menu:
+    report: รายงาน
+    settings: การตั้งค่า
+  control:
+    notifications: การแจ้งเตือน
+    digest: ข่าวสารประจำสัปดาห์
+    upload: อัปโหลด
+  field:
+    owner: เจ้าของ
+    email: อีเมล
+    site: เว็บไซต์
+    amount: จำนวนเงิน
+  text:
+    lead: ย่อหน้าหลักจะมีหลักการของมันอยู่ด้านที่บรรทัดเริ่มต้น
+    mixed: 'ค่าแต่ละค่าจะรักษาทิศทางของตนเองภายในประโยค — ถาม layla.haddad@example.test, รัน'
+    marker: ส่งแล้ว
+    link: เอกสาร
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Yön
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Aynı örnekler iki kez, soldan sağa ve sağdan sola. Burada sağdan sola kısım için hiçbir şey yazılmadı: her stil dosyası bir satırın başlangıcından ve sonundan bahseder, bu yüzden `dir="rtl"` verilen bir blok — ya da Arapça bir sayfa — kendi kendine yansır. Oklar ters yöne işaret eder, bir anahtarın düğmesi ters yöne hareket eder, bir menü sona doğru açılır ve bir e-posta ya da bir yol soldan sağa doğru okunmaya devam eder.'
+  side:
+    ltr: 'Soldan sağa'
+    rtl: 'Sağdan sola'
+  sample:
+    navigation: Navigasyon
+    controls: Kontroller
+    data: Veri
+    text: Metin
+  step:
+    account: Hesap
+    address: Adres
+    payment: Ödeme
+  action:
+    previous: Önceki
+    next: Sonraki
+    menu: Menü
+  menu:
+    report: Rapor
+    settings: Ayarlar
+  control:
+    notifications: Bildirimler
+    digest: 'Haftalık özet'
+    upload: Yükle
+  field:
+    owner: Sahibi
+    email: E-posta
+    site: Site
+    amount: Tutar
+  text:
+    lead: 'Bir öncü paragraf, satırın başladığı tarafta kuralını taşır.'
+    mixed: "Değerler bir cümle içinde kendi yönlerini korur — layla.haddad@example.test'i sor, çalıştır"
+    marker: 'Teslim edildi'
+    link: Dokümantasyon
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ہدایات
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'ایک ہی نمونے دو بار، بائیں سے دائیں اور دائیں سے بائیں۔ یہاں کچھ بھی دائیں سے بائیں جانب نہیں لکھا گیا: ہر اسٹائل شیٹ لائن کے شروع اور آخر کی بات کرتی ہے، لہذا ایک بلاک جو `dir="rtl"` دیا گیا ہے — یا عربی میں ایک صفحہ — خود ہی عکس بند ہوتا ہے۔ تیروں کا رخ دوسری طرف ہوتا ہے، سوئچ کا نوب دوسری طرف چلتا ہے، ایک مینو آخر کی جانب کھلتا ہے، اور ایک ای میل یا ایک راستہ بائیں سے دائیں پڑھتا رہتا ہے۔'
+  side:
+    ltr: 'بائیں سے دائیں'
+    rtl: 'دائیں سے بائیں'
+  sample:
+    navigation: نیویگیشن
+    controls: کنٹرولز
+    data: ڈیٹا
+    text: متن
+  step:
+    account: اکاؤنٹ
+    address: پتہ
+    payment: ادائیگی
+  action:
+    previous: پچھلا
+    next: اگلا
+    menu: مینو
+  menu:
+    report: رپورٹ
+    settings: سیٹنگز
+  control:
+    notifications: اطلاعات
+    digest: 'ہفتہ وار خلاصہ'
+    upload: 'اپ لوڈ کریں'
+  field:
+    owner: مالک
+    email: 'ای میل'
+    site: سائٹ
+    amount: رقم
+  text:
+    lead: 'ایک ابتدائی پیراگراف اپنی قاعدہ اس جانب لے جاتا ہے جہاں سے لائن شروع ہوتی ہے۔'
+    mixed: 'قدریں ایک جملے کے اندر اپنی سمت برقرار رکھتی ہیں — ask layla.haddad@example.test, run'
+    marker: 'پہنچایا گیا'
+    link: دستاویزات
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Hướng dẫn'
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: 'Cùng một mẫu hai lần, từ trái sang phải và từ phải sang trái. Không có gì ở đây được viết cho phía phải sang trái: mỗi bảng kiểu đều nói về đầu và cuối của một dòng, vì vậy một khối được `dir="rtl"` — hoặc một trang bằng tiếng Ả Rập — tự động phản chiếu. Mũi tên chỉ theo hướng ngược lại, núm của một công tắc di chuyển theo hướng khác, một menu mở về phía cuối, và một email hoặc một đường dẫn tiếp tục đọc từ trái sang phải.'
+  side:
+    ltr: 'Từ trái sang phải'
+    rtl: 'Từ phải sang trái'
+  sample:
+    navigation: 'Điều hướng'
+    controls: 'Điều khiển'
+    data: 'Dữ liệu'
+    text: 'Văn bản'
+  step:
+    account: 'Tài khoản'
+    address: 'Địa chỉ'
+    payment: 'Thanh toán'
+  action:
+    previous: Trước
+    next: Sau
+    menu: Menu
+  menu:
+    report: 'Báo cáo'
+    settings: 'Cài đặt'
+  control:
+    notifications: 'Thông báo'
+    digest: 'Tóm tắt hàng tuần'
+    upload: 'Tải lên'
+  field:
+    owner: 'Chủ sở hữu'
+    email: Email
+    site: 'Trang web'
+    amount: 'Số tiền'
+  text:
+    lead: 'Một đoạn mở đầu mang quy tắc của nó từ phía mà dòng bắt đầu.'
+    mixed: 'Giá trị giữ hướng của riêng chúng trong một câu — hỏi layla.haddad@example.test, chạy'
+    marker: 'Đã gửi'
+    link: 'Tài liệu hướng dẫn'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 方向
+  page_icon: 'ph:bold/arrows-left-right'
+  intro: '样本相同，两次展示，左到右和右到左。这里没有为从右到左的方向而写的内容：每个样式表都在讲述一行的开始和结束，因此给定 `dir="rtl"` 的块——或阿拉伯语的页面——会自行镜像。箭头指向另一个方向，开关的旋钮朝另一个方向移动，菜单朝结束处打开，电子邮件或路径继续从左到右阅读。'
+  side:
+    ltr: 从左到右
+    rtl: 从右到左
+  sample:
+    navigation: 导航
+    controls: 控制
+    data: 数据
+    text: 文本
+  step:
+    account: 账户
+    address: 地址
+    payment: 支付
+  action:
+    previous: 上一个
+    next: 下一个
+    menu: 菜单
+  menu:
+    report: 报告
+    settings: 设置
+  control:
+    notifications: 通知
+    digest: 每周摘要
+    upload: 上传
+  field:
+    owner: 所有者
+    email: 电子邮件
+    site: 网站
+    amount: 金额
+  text:
+    lead: 引言段落从行的起始位置携带其规则。
+    mixed: '值在句子内部保持自己的方向——询问 layla.haddad@example.test，运行'
+    marker: 已交付
+    link: 文档

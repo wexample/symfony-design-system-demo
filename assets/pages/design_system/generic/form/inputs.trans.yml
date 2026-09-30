@@ -1,0 +1,1779 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Inputs
+  page_icon: ph:bold/textbox
+
+  intro: "Every field the system ships, on one page. What they have in common beyond their shape is a contract: each one can be handed over to something that is not the person reading, which fills it and gives it back."
+
+  section:
+    assisted:
+      title: Assistance
+      description: "A field can be taken over — by an agent, by anything that knows what to write. While it is held it says so, stops answering to the keyboard and the pointer, and the value appears the way the field decides: spelled out for a word, chosen for an option, ticked for a switch. Assistance is temporary by nature; a field left assisted is a field nobody can use."
+    fields:
+      title: Fields
+      description: "One of each, once. Press Play above and they are filled in turn, by the same calls an agent would make — which is the only way to know the contract holds for all of them."
+    actions:
+      title: Buttons in a form
+      description: "A button takes an action rather than a value, so there is nothing for an agent to write into it."
+    code:
+      title: A code, in cells
+      description: "One real field under the cells, so the server reads one value and the browser keeps what it already does: a pasted code lands whole, a phone offers the code it received, backspace goes back. Filled, it sends its form on its own — turned off on this page, which has nowhere to send it."
+    select:
+      title: Select, on its own
+      description: "The two custom selects outside a form group, as a toolbar or a filter bar places them."
+    switch:
+      title: Switch, on its own
+      description: "Labels on either side, glyphs inside, and the checked state."
+    switch_tone:
+      title: A switch with a tone, and one that asks
+      description: "Once on, a switch can take the colour of a state or of a category rather than the link's. One that switches on something with consequences takes `warning`, and asks before: refused, it stays off. Switching off is never questioned. Either way it says `switch:change` to the page."
+    switch_vue:
+      title: Switch, in vue
+      description: "The same switch inside a vue tree, where the checked state is state and not a data attribute a script flips."
+
+  assisted:
+    hint: An agent fills the fields below, one after the other.
+    play: Play
+    reset: Reset
+
+  field:
+    text: Full name
+    textarea: Address
+    email: E-mail
+    url: Website
+    password: Password
+    code: Verification code
+    number: Age
+    date: Date of birth
+    time: Preferred time
+    datetime: Appointment
+    select: Country
+    radio: Contact by
+    switch: Send me the newsletter
+    file: Identity document
+    emoji: Mood
+    button: A button
+    submit: Submit
+
+  placeholder:
+    text: Maya Lindqvist
+    textarea: Street, postcode, city
+    email: maya@example.com
+    url: https://example.com
+
+  choice:
+    one: Sweden
+    two: Portugal
+    three: Japan
+
+  code:
+    numeric: Six digits, as sent by e-mail
+    backup: A backup code, letters and digits
+    vue: Four digits, in vue
+
+  switch:
+    tone:
+      success: Synced
+      mint: Tagged
+      risky: Publish on save
+    confirm:
+      title: Publish on save?
+      message: Every save will be published at once, with no review in between.
+      accept: Turn on
+    label_right: Enable feature
+    label_left: Label on the left
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الإدخالات
+  page_icon: 'ph:bold/textbox'
+  intro: 'كل حقل يقدمه النظام، في صفحة واحدة. ما يشتركون فيه بخلاف شكلهم هو عقد: يمكن تسليم كل واحد منهم لشيء ليس الشخص الذي يقرأ، والذي يملأه ويعيده.'
+  section:
+    assisted:
+      title: المساعدة
+      description: 'يمكن أن يتم الاستيلاء على حقل - بواسطة وكيل، أو بواسطة أي شيء يعرف ماذا يكتب. بينما يتم الاحتفاظ به، فإنه يقول ذلك، ويتوقف عن الرد على لوحة المفاتيح والفأرة، وتظهر القيمة بالطريقة التي يقررها الحقل: مكتوبة لكلمة، مختارة لخيار، محددة لتبديل. المساعدة مؤقتة بطبيعتها؛ الحقل المتروك للمساعدة هو حقل لا يمكن لأحد استخدامه.'
+    fields:
+      title: الحقول
+      description: 'واحد من كل، مرة واحدة. اضغط على تشغيل أعلاه وسيتم ملؤها بالتناوب، بواسطة نفس المكالمات التي سيقوم بها وكيل - وهي الطريقة الوحيدة لمعرفة أن العقد قائم لجميعها.'
+    actions:
+      title: 'الأزرار في نموذج'
+      description: 'زر يتخذ إجراءً بدلاً من قيمة، لذا لا يوجد شيء لوكيل ليكتبه فيه.'
+    code:
+      title: 'رمز، في خلايا'
+      description: 'حقل حقيقي واحد تحت الخلايا، بحيث يقرأ الخادم قيمة واحدة ويحتفظ المتصفح بما يفعله بالفعل: يتم لصق الرمز بالكامل، ويقدم الهاتف الرمز الذي تلقاه، والعودة تعود إلى الوراء. عند ملئه، يرسل نموذجها بمفردها - معطلة في هذه الصفحة، التي ليس لديها مكان لإرسالها.'
+    select:
+      title: 'اختيار، بمفرده'
+      description: 'الاختيارين المخصصين خارج مجموعة نموذج، كما تضعها شريط أدوات أو شريط فلتر.'
+    switch:
+      title: 'تبديل، بمفرده'
+      description: 'تسميات على كلا الجانبين، رموز داخلية، وحالة محددة.'
+    switch_tone:
+      title: 'تبديل بنغمة، وآخر يسأل'
+      description: 'بمجرد تشغيله، يمكن أن يأخذ التبديل لون حالة أو فئة بدلاً من رابط. واحد يقوم بالتبديل على شيء له عواقب يأخذ `تحذير`، ويسأل قبل ذلك: إذا تم الرفض، فإنه يبقى متوقفًا. لا يتم تساؤل عن التبديل إلى وضع الإيقاف. في كلتا الحالتين، يقول `تبديل: تغيير` للصفحة.'
+    switch_vue:
+      title: 'تبديل، في vue'
+      description: 'نفس التبديل داخل شجرة vue، حيث تكون الحالة المحددة هي الحالة وليست خاصية بيانات يقوم البرنامج بتبديلها.'
+  assisted:
+    hint: 'وكيل يملأ الحقول أدناه، واحدًا تلو الآخر.'
+    play: تشغيل
+    reset: 'إعادة تعيين'
+  field:
+    text: 'الاسم الكامل'
+    textarea: العنوان
+    email: 'البريد الإلكتروني'
+    url: 'الموقع الإلكتروني'
+    password: 'كلمة المرور'
+    code: 'رمز التحقق'
+    number: العمر
+    date: 'تاريخ الميلاد'
+    time: 'الوقت المفضل'
+    datetime: الموعد
+    select: الدولة
+    radio: 'التواصل عبر'
+    switch: 'أرسل لي النشرة الإخبارية'
+    file: 'وثيقة الهوية'
+    emoji: المزاج
+    button: زر
+    submit: إرسال
+  placeholder:
+    text: 'مايا ليندكفيست'
+    textarea: 'الشارع، الرمز البريدي، المدينة'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: السويد
+    two: البرتغال
+    three: اليابان
+  code:
+    numeric: 'ستة أرقام، كما تم إرسالها عبر البريد الإلكتروني'
+    backup: 'رمز احتياطي، حروف وأرقام'
+    vue: 'أربعة أرقام، في vue'
+  switch:
+    tone:
+      success: 'تم المزامنة'
+      mint: 'تم وضع علامة'
+      risky: 'نشر عند الحفظ'
+    confirm:
+      title: 'نشر عند الحفظ؟'
+      message: 'سيتم نشر كل حفظ دفعة واحدة، دون مراجعة بينهما.'
+      accept: تشغيل
+    label_right: 'تمكين الميزة'
+    label_left: 'التسمية على اليسار'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ইনপুটস
+  page_icon: 'ph:bold/textbox'
+  intro: 'সিস্টেমের প্রতিটি ক্ষেত্র এক পৃষ্ঠায়। তাদের আকারের বাইরে যা সাধারণ তা হল একটি চুক্তি: প্রতিটি এমন কিছুতে হস্তান্তর করা যেতে পারে যা পাঠক নয়, যা এটি পূর্ণ করে এবং ফেরত দেয়।'
+  section:
+    assisted:
+      title: সহায়তা
+      description: 'একটি ক্ষেত্র দখল করা যেতে পারে - একটি এজেন্ট দ্বারা, এমন কিছু দ্বারা যা জানে কী লিখতে হবে। যখন এটি ধরা হয় তখন এটি তাই বলে, কীবোর্ড এবং পয়েন্টারের প্রতি উত্তর দেওয়া বন্ধ করে, এবং মানটি ক্ষেত্রটি যেভাবে সিদ্ধান্ত নেয় সেভাবে প্রদর্শিত হয়: একটি শব্দের জন্য বানানে, একটি বিকল্পের জন্য নির্বাচিত, একটি টগলে জন্য টিক দেওয়া। সহায়তা প্রকৃতিতে অস্থায়ী; একটি সহায়ক অবস্থায় রাখা ক্ষেত্র হল একটি ক্ষেত্র যা কেউ ব্যবহার করতে পারে না।'
+    fields:
+      title: ক্ষেত্র
+      description: 'প্রত্যেকটি, একবার। উপরে প্লে চাপুন এবং তারা পালাক্রমে পূর্ণ হয়, একই কলগুলির দ্বারা যা একটি এজেন্ট করবে - যা তাদের সকলের জন্য চুক্তি বজায় রাখার একমাত্র উপায়।'
+    actions:
+      title: 'ফর্মে বোতাম'
+      description: 'একটি বোতাম একটি মানের পরিবর্তে একটি কর্ম নেয়, তাই এটি লিখতে কোনও কিছু নেই।'
+    code:
+      title: 'একটি কোড, সেলগুলির মধ্যে'
+      description: 'সেলগুলির নিচে একটি বাস্তব ক্ষেত্র, তাই সার্ভার একটি মান পড়ে এবং ব্রাউজার যা ইতিমধ্যেই করে তা ধরে রাখে: একটি পেস্ট করা কোড পুরোপুরি পড়ে, একটি ফোন কোডটি প্রদান করে যা এটি পেয়েছে, ব্যাকস্পেস ফেরত যায়। পূর্ণ হলে, এটি নিজেই তার ফর্ম পাঠায় - এই পৃষ্ঠায় বন্ধ, যার কোনও জায়গা নেই এটি পাঠানোর।'
+    select:
+      title: 'নির্বাচন, একা'
+      description: 'একটি ফর্ম গ্রুপের বাইরের দুটি কাস্টম নির্বাচন, যেমন একটি টুলবার বা একটি ফিল্টার বার তাদের স্থাপন করে।'
+    switch:
+      title: 'টগল, একা'
+      description: 'দুই পাশে লেবেল, ভিতরে প্রতীক, এবং চেকড অবস্থা।'
+    switch_tone:
+      title: 'একটি টোন সহ টগল, এবং একটি যা জিজ্ঞাসা করে'
+      description: 'একবার চালু হলে, একটি টগল একটি অবস্থার বা একটি ক্যাটাগরির রঙ নিতে পারে লিঙ্কের পরিবর্তে। একটি টগল যা কিছু নিয়ে পরিবর্তন করে যার পরিণতি রয়েছে তা `warning` নেয়, এবং আগে জিজ্ঞাসা করে: প্রত্যাখ্যাত হলে, এটি বন্ধ থাকে। বন্ধ করা কখনও প্রশ্ন করা হয় না। যে কোনওভাবে এটি পৃষ্ঠায় `switch:change` বলে।'
+    switch_vue:
+      title: 'টগল, ভিউতে'
+      description: 'একটি ভিউ গাছের ভিতরে একই টগল, যেখানে চেকড অবস্থা রাষ্ট্র এবং নয় একটি ডেটা অ্যাট্রিবিউট যা একটি স্ক্রিপ্ট পরিবর্তন করে।'
+  assisted:
+    hint: 'একজন এজেন্ট নীচের ক্ষেত্রগুলিকে পূরণ করে, একটির পর এক।'
+    play: প্লে
+    reset: রিসেট
+  field:
+    text: 'পূর্ণ নাম'
+    textarea: ঠিকানা
+    email: ই-মেইল
+    url: ওয়েবসাইট
+    password: পাসওয়ার্ড
+    code: 'যাচাইকরণ কোড'
+    number: বয়স
+    date: 'জন্ম তারিখ'
+    time: 'পছন্দের সময়'
+    datetime: 'নিয়মিত সময়'
+    select: দেশ
+    radio: 'যোগাযোগের দ্বারা'
+    switch: 'আমাকে নিউজলেটার পাঠান'
+    file: পরিচয়পত্র
+    emoji: মুড
+    button: 'একটি বোতাম'
+    submit: 'জমা দিন'
+  placeholder:
+    text: 'মায়া লিন্ডকভিস্ট'
+    textarea: 'রাস্তা, ডাক কোড, শহর'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: সুইডেন
+    two: পর্তুগাল
+    three: জাপান
+  code:
+    numeric: 'ছয়টি সংখ্যা, ই-মেইলে পাঠানো হয়েছে'
+    backup: 'একটি ব্যাকআপ কোড, অক্ষর এবং সংখ্যা'
+    vue: 'চারটি সংখ্যা, ভিউতে'
+  switch:
+    tone:
+      success: 'সিঙ্ক করা হয়েছে'
+      mint: 'ট্যাগ করা হয়েছে'
+      risky: 'সংরক্ষণে প্রকাশ করুন'
+    confirm:
+      title: 'সংরক্ষণে প্রকাশ করতে চান?'
+      message: 'প্রত্যেকটি সংরক্ষণ একবারে প্রকাশিত হবে, মধ্যবর্তী পর্যালোচনা ছাড়াই।'
+      accept: 'চালু করুন'
+    label_right: 'ফিচার সক্ষম করুন'
+    label_left: 'বামে লেবেল'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Eingaben
+  page_icon: 'ph:bold/textbox'
+  intro: 'Jedes Feld, das das System bereitstellt, auf einer Seite. Was sie über ihre Form hinaus gemeinsam haben, ist ein Vertrag: Jedes kann einem anderen übergeben werden, der nicht die Person ist, die liest, der es ausfüllt und zurückgibt.'
+  section:
+    assisted:
+      title: Unterstützung
+      description: 'Ein Feld kann übernommen werden — von einem Agenten, von allem, was weiß, was es schreiben soll. Während es gehalten wird, zeigt es das an, hört auf, auf die Tastatur und den Zeiger zu reagieren, und der Wert erscheint so, wie das Feld entscheidet: ausgeschrieben für ein Wort, gewählt für eine Option, angekreuzt für einen Schalter. Unterstützung ist von Natur aus vorübergehend; ein unterstütztes Feld ist ein Feld, das niemand nutzen kann.'
+    fields:
+      title: Felder
+      description: 'Eines von jedem, einmal. Drücke oben auf Wiedergabe, und sie werden nacheinander ausgefüllt, durch die gleichen Aufrufe, die ein Agent machen würde — was der einzige Weg ist, um zu wissen, dass der Vertrag für alle gilt.'
+    actions:
+      title: 'Tasten in einem Formular'
+      description: 'Eine Taste führt eine Aktion aus, anstatt einen Wert, sodass es nichts gibt, was ein Agent hineinschreiben könnte.'
+    code:
+      title: 'Ein Code, in Zellen'
+      description: 'Ein echtes Feld unter den Zellen, sodass der Server einen Wert liest und der Browser das behält, was er bereits tut: ein eingefügter Code landet vollständig, ein Telefon bietet den empfangenen Code an, die Rücktaste geht zurück. Ausgefüllt sendet es sein Formular von selbst — auf dieser Seite deaktiviert, die keinen Ort hat, um es zu senden.'
+    select:
+      title: 'Auswahl, für sich allein'
+      description: 'Die beiden benutzerdefinierten Auswahlen außerhalb einer Formulargruppe, wie eine Symbolleiste oder eine Filterleiste sie platziert.'
+    switch:
+      title: 'Schalter, für sich allein'
+      description: 'Beschriftungen auf beiden Seiten, Glyphen innen und der aktivierte Zustand.'
+    switch_tone:
+      title: 'Ein Schalter mit einem Ton und einer, die fragt'
+      description: 'Einmal aktiviert, kann ein Schalter die Farbe eines Zustands oder einer Kategorie annehmen, anstatt die des Links. Einer, der etwas mit Konsequenzen aktiviert, nimmt `warnung` und fragt vorher: abgelehnt, bleibt er aus. Das Ausschalten wird nie in Frage gestellt. In jedem Fall sagt es `switch:change` zur Seite.'
+    switch_vue:
+      title: 'Schalter, in Vue'
+      description: 'Der gleiche Schalter innerhalb eines Vue-Baums, wo der aktivierte Zustand ein Zustand und kein Datenattribut ist, das ein Skript umschaltet.'
+  assisted:
+    hint: 'Ein Agent füllt die Felder unten, eins nach dem anderen, aus.'
+    play: Wiedergabe
+    reset: Zurücksetzen
+  field:
+    text: 'Vollständiger Name'
+    textarea: Adresse
+    email: E-Mail
+    url: Website
+    password: Passwort
+    code: Bestätigungscode
+    number: Alter
+    date: Geburtsdatum
+    time: 'Bevorzugte Zeit'
+    datetime: Termin
+    select: Land
+    radio: 'Kontakt über'
+    switch: 'Senden Sie mir den Newsletter'
+    file: Identitätsdokument
+    emoji: Stimmung
+    button: 'Eine Taste'
+    submit: Absenden
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Straße, Postleitzahl, Stadt'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Schweden
+    two: Portugal
+    three: Japan
+  code:
+    numeric: 'Sechs Ziffern, wie per E-Mail gesendet'
+    backup: 'Ein Backup-Code, Buchstaben und Ziffern'
+    vue: 'Vier Ziffern, in Vue'
+  switch:
+    tone:
+      success: Synchronisiert
+      mint: Getaggt
+      risky: 'Veröffentlichen beim Speichern'
+    confirm:
+      title: 'Beim Speichern veröffentlichen?'
+      message: 'Jede Speicherung wird sofort veröffentlicht, ohne Überprüfung dazwischen.'
+      accept: Aktivieren
+    label_right: 'Funktion aktivieren'
+    label_left: 'Beschriftung auf der linken Seite'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Entradas
+  page_icon: 'ph:bold/textbox'
+  intro: 'Cada campo que el sistema envía, en una página. Lo que tienen en común más allá de su forma es un contrato: cada uno puede ser entregado a algo que no es la persona que lee, que lo llena y lo devuelve.'
+  section:
+    assisted:
+      title: Asistencia
+      description: 'Un campo puede ser tomado — por un agente, por cualquier cosa que sepa qué escribir. Mientras esté ocupado, lo dice, deja de responder al teclado y al puntero, y el valor aparece como el campo decide: escrito para una palabra, elegido para una opción, marcado para un interruptor. La asistencia es temporal por naturaleza; un campo dejado asistido es un campo que nadie puede usar.'
+    fields:
+      title: Campos
+      description: 'Uno de cada uno, una vez. Presiona Reproducir arriba y se llenan uno tras otro, por las mismas llamadas que haría un agente — que es la única forma de saber que el contrato se mantiene para todos ellos.'
+    actions:
+      title: 'Botones en un formulario'
+      description: 'Un botón toma una acción en lugar de un valor, así que no hay nada que un agente pueda escribir en él.'
+    code:
+      title: 'Un código, en celdas'
+      description: 'Un campo real bajo las celdas, así el servidor lee un valor y el navegador mantiene lo que ya hace: un código pegado aterriza completo, un teléfono ofrece el código que recibió, retroceder regresa. Lleno, envía su formulario por sí mismo — desactivado en esta página, que no tiene a dónde enviarlo.'
+    select:
+      title: 'Seleccionar, por sí solo'
+      description: 'Los dos selects personalizados fuera de un grupo de formulario, como una barra de herramientas o una barra de filtro los coloca.'
+    switch:
+      title: 'Interruptor, por sí solo'
+      description: 'Etiquetas a cada lado, glifos dentro, y el estado marcado.'
+    switch_tone:
+      title: 'Un interruptor con un tono, y uno que pregunta'
+      description: 'Una vez activado, un interruptor puede tomar el color de un estado o de una categoría en lugar del del enlace. Uno que activa algo con consecuencias toma `advertencia`, y pregunta antes: si se rechaza, permanece apagado. Apagar nunca se cuestiona. De cualquier manera, dice `switch:change` a la página.'
+    switch_vue:
+      title: 'Interruptor, en vue'
+      description: 'El mismo interruptor dentro de un árbol vue, donde el estado marcado es estado y no un atributo de datos que un script cambia.'
+  assisted:
+    hint: 'Un agente llena los campos a continuación, uno tras otro.'
+    play: Reproducir
+    reset: Restablecer
+  field:
+    text: 'Nombre completo'
+    textarea: Dirección
+    email: 'Correo electrónico'
+    url: 'Sitio web'
+    password: Contraseña
+    code: 'Código de verificación'
+    number: Edad
+    date: 'Fecha de nacimiento'
+    time: 'Hora preferida'
+    datetime: Cita
+    select: País
+    radio: 'Contacto por'
+    switch: 'Envíame el boletín'
+    file: 'Documento de identidad'
+    emoji: 'Estado de ánimo'
+    button: 'Un botón'
+    submit: Enviar
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Calle, código postal, ciudad'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Suecia
+    two: Portugal
+    three: Japón
+  code:
+    numeric: 'Seis dígitos, como se envió por correo electrónico'
+    backup: 'Un código de respaldo, letras y dígitos'
+    vue: 'Cuatro dígitos, en vue'
+  switch:
+    tone:
+      success: Sincronizado
+      mint: Etiquetado
+      risky: 'Publicar al guardar'
+    confirm:
+      title: '¿Publicar al guardar?'
+      message: 'Cada guardado se publicará de una vez, sin revisión intermedia.'
+      accept: Activar
+    label_right: 'Habilitar función'
+    label_left: 'Etiqueta a la izquierda'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ورودها
+  page_icon: 'ph:bold/textbox'
+  intro: 'هر فیلدی که سیستم ارائه می‌دهد، در یک صفحه. آنچه که آنها را فراتر از شکلشان به هم مرتبط می‌کند، یک قرارداد است: هر کدام می‌تواند به چیزی غیر از شخص خواننده واگذار شود که آن را پر کرده و دوباره برمی‌گرداند.'
+  section:
+    assisted:
+      title: کمک
+      description: 'یک فیلد می‌تواند توسط یک عامل، یا هر چیزی که می‌داند چه چیزی بنویسد، تصرف شود. در حالی که در دست است، این موضوع را می‌گوید، به کیبورد و نشانگر پاسخ نمی‌دهد و مقدار به شکلی که فیلد تعیین می‌کند نمایش داده می‌شود: برای یک کلمه نوشته شده، برای یک گزینه انتخاب شده، برای یک سوئیچ علامت‌گذاری شده. کمک به طور طبیعی موقتی است؛ فیلدی که به کمک گذاشته شده، فیلدی است که هیچ‌کس نمی‌تواند از آن استفاده کند.'
+    fields:
+      title: فیلدها
+      description: 'یکی از هرکدام، یکبار. دکمه پخش را در بالا فشار دهید و آنها نوبت به نوبت پر می‌شوند، با همان فراخوان‌هایی که یک عامل انجام می‌دهد — که تنها راه برای دانستن این است که قرارداد برای همه آنها برقرار است.'
+    actions:
+      title: 'دکمه‌ها در یک فرم'
+      description: 'یک دکمه یک عمل را انجام می‌دهد نه یک مقدار، بنابراین چیزی برای نوشتن یک عامل در آن وجود ندارد.'
+    code:
+      title: 'یک کد، در سلول‌ها'
+      description: 'یک فیلد واقعی زیر سلول‌ها، بنابراین سرور یک مقدار را می‌خواند و مرورگر آنچه را که قبلاً انجام می‌دهد حفظ می‌کند: یک کد چسبیده به طور کامل می‌نشیند، یک تلفن کدی را که دریافت کرده است ارائه می‌دهد، کلید backspace به عقب می‌رود. وقتی پر شد، فرم خود را به تنهایی ارسال می‌کند — که در این صفحه خاموش است و جایی برای ارسال آن ندارد.'
+    select:
+      title: 'انتخاب، به تنهایی'
+      description: 'دو انتخاب سفارشی خارج از گروه فرم، همانطور که یک نوار ابزار یا نوار فیلتر آنها را قرار می‌دهد.'
+    switch:
+      title: 'سوئیچ، به تنهایی'
+      description: 'برچسب‌هایی در دو طرف، نمادهایی درون، و وضعیت تیک‌خورده.'
+    switch_tone:
+      title: 'یک سوئیچ با حالت، و یکی که سؤال می‌کند'
+      description: 'یک بار که روشن شد، یک سوئیچ می‌تواند رنگ یک وضعیت یا یک دسته‌بندی را به جای لینک بگیرد. یکی که چیزی با عواقب را روشن می‌کند، `warning` می‌گیرد و قبل از آن سؤال می‌کند: در صورت رد شدن، خاموش می‌ماند. خاموش کردن هرگز سؤال نمی‌شود. در هر صورت، به صفحه می‌گوید `switch:change`.'
+    switch_vue:
+      title: 'سوئیچ، در vue'
+      description: 'همان سوئیچ در درخت vue، جایی که وضعیت تیک‌خورده وضعیت است و نه یک ویژگی داده‌ای که یک اسکریپت آن را تغییر می‌دهد.'
+  assisted:
+    hint: 'یک عامل فیلدهای زیر را یکی پس از دیگری پر می‌کند.'
+    play: پخش
+    reset: بازنشانی
+  field:
+    text: 'نام کامل'
+    textarea: آدرس
+    email: ایمیل
+    url: وب‌سایت
+    password: 'رمز عبور'
+    code: 'کد تأیید'
+    number: سن
+    date: 'تاریخ تولد'
+    time: 'زمان مورد نظر'
+    datetime: 'قرار ملاقات'
+    select: کشور
+    radio: 'تماس از طریق'
+    switch: 'خبرنامه را برای من ارسال کن'
+    file: 'مدرک شناسایی'
+    emoji: حالت
+    button: 'یک دکمه'
+    submit: ارسال
+  placeholder:
+    text: 'مایا لیندکویست'
+    textarea: 'خیابان، کد پستی، شهر'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: سوئد
+    two: پرتغال
+    three: ژاپن
+  code:
+    numeric: 'شش رقم، همانطور که از طریق ایمیل ارسال شده است'
+    backup: 'یک کد پشتیبان، حروف و ارقام'
+    vue: 'چهار رقم، در vue'
+  switch:
+    tone:
+      success: 'همگام‌سازی شده'
+      mint: 'برچسب‌گذاری شده'
+      risky: 'انتشار در ذخیره'
+    confirm:
+      title: 'آیا می‌خواهید منتشر کنید؟'
+      message: 'هر ذخیره به طور همزمان منتشر خواهد شد، بدون بازنگری در بین آنها.'
+      accept: 'روشن کردن'
+    label_right: 'فعال کردن ویژگی'
+    label_left: 'برچسب در سمت چپ'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Syötteet
+  page_icon: 'ph:bold/textbox'
+  intro: 'Jokainen kenttä, jonka järjestelmä toimittaa, yhdellä sivulla. Yhteistä niiden muodon lisäksi on sopimus: jokainen voidaan luovuttaa jollekulle muulle kuin lukijalle, joka täyttää sen ja palauttaa sen.'
+  section:
+    assisted:
+      title: Apu
+      description: 'Kenttä voidaan ottaa haltuun - agentin, tai minkä tahansa, joka tietää mitä kirjoittaa. Kun se on hallinnassa, se ilmoittaa siitä, eikä vastaa näppäimistölle tai osoittimelle, ja arvo näkyy niin kuin kenttä päättää: kirjoitettuna sanana, valittuna vaihtoehtona, tai rastitettuna kytkimenä. Apua on luonteeltaan tilapäistä; avustettu kenttä on kenttä, jota kukaan ei voi käyttää.'
+    fields:
+      title: Kentät
+      description: 'Yksi kustakin, kerran. Paina Toista ylhäällä ja ne täytetään vuorotellen, samalla tavalla kuin agentti toimisi - mikä on ainoa tapa tietää, että sopimus pitää kaikissa niissä.'
+    actions:
+      title: 'Napit lomakkeessa'
+      description: 'Nappi suorittaa toiminnon, ei arvoa, joten agentille ei ole mitään kirjoitettavaa siihen.'
+    code:
+      title: 'Koodi, soluissa'
+      description: 'Yksi todellinen kenttä solujen alla, joten palvelin lukee yhden arvon ja selain pitää sen, mitä se jo tekee: liitetty koodi saapuu kokonaisena, puhelin tarjoaa vastaanottamansa koodin, backspace palaa taaksepäin. Täytettynä se lähettää lomakkeensa itsenäisesti - pois päältä tällä sivulla, jossa ei ole minne lähettää sitä.'
+    select:
+      title: 'Valinta, omillaan'
+      description: 'Kaksi mukautettua valintaa lomakejoukon ulkopuolella, kuten työkalupalkki tai suodatinpalkki asettaa ne.'
+    switch:
+      title: 'Kytkin, omillaan'
+      description: 'Tunnisteet kummallakin puolella, symbolit sisällä, ja valittu tila.'
+    switch_tone:
+      title: 'Kytkin sävyllä, ja yksi, joka kysyy'
+      description: 'Kun kytkin on päällä, se voi ottaa tilan tai kategorian värin sen sijaan, että linkin väri olisi. Yksi, joka kytkee jotakin päälle, jolla on seurauksia, ottaa `varoituksen` ja kysyy ensin: kieltäytyminen, se pysyy pois päältä. Pois kytkemistä ei koskaan kyseenalaisteta. Joka tapauksessa se ilmoittaa `kytkin:muutos` sivulle.'
+    switch_vue:
+      title: 'Kytkin, vue:ssa'
+      description: 'Sama kytkin vue-puussa, jossa valittu tila on tila eikä datan attribuutti, jota skripti vaihtaa.'
+  assisted:
+    hint: 'Agentti täyttää alla olevat kentät, yksi kerrallaan.'
+    play: Toista
+    reset: Nollaa
+  field:
+    text: 'Koko nimi'
+    textarea: Osoite
+    email: Sähköposti
+    url: Verkkosivusto
+    password: Salasana
+    code: Vahvistuskoodi
+    number: Ikä
+    date: Syntymäaika
+    time: 'Suositeltu aika'
+    datetime: Tapaaminen
+    select: Maa
+    radio: 'Ota yhteyttä'
+    switch: 'Lähetä minulle uutiskirje'
+    file: Henkilöllisyystodistus
+    emoji: Tunnelma
+    button: Nappi
+    submit: Lähetä
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Katu, postinumero, kaupunki'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Ruotsi
+    two: Portugali
+    three: Japani
+  code:
+    numeric: 'Kuusi numeroa, kuten lähetetty sähköpostilla'
+    backup: 'Varakoodi, kirjaimia ja numeroita'
+    vue: 'Neljä numeroa, vue:ssa'
+  switch:
+    tone:
+      success: Synkronoitu
+      mint: Merkitty
+      risky: 'Julkaise tallennettaessa'
+    confirm:
+      title: 'Julkaistaanko tallennettaessa?'
+      message: 'Jokainen tallennus julkaistaan kerralla, ilman väliarviointia.'
+      accept: 'Ota käyttöön'
+    label_right: 'Ota ominaisuus käyttöön'
+    label_left: 'Tunniste vasemmalla'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Entrées
+  page_icon: 'ph:bold/textbox'
+  intro: "Chaque champ que le système expédie, sur une page. Ce qu'ils ont en commun au-delà de leur forme est un contrat : chacun peut être remis à quelque chose qui n'est pas la personne qui lit, qui le remplit et le rend."
+  section:
+    assisted:
+      title: Assistance
+      description: "Un champ peut être pris en charge — par un agent, par tout ce qui sait quoi écrire. Pendant qu'il est tenu, il le dit, cesse de répondre au clavier et au pointeur, et la valeur apparaît comme le champ le décide : épelée pour un mot, choisie pour une option, cochée pour un interrupteur. L'assistance est temporaire par nature ; un champ laissé assisté est un champ que personne ne peut utiliser."
+    fields:
+      title: Champs
+      description: "Un de chaque, une fois. Appuyez sur Play ci-dessus et ils sont remplis à tour de rôle, par les mêmes appels qu'un agent ferait — ce qui est le seul moyen de savoir que le contrat tient pour tous."
+    actions:
+      title: 'Boutons dans un formulaire'
+      description: "Un bouton prend une action plutôt qu'une valeur, donc il n'y a rien à écrire pour un agent."
+    code:
+      title: 'Un code, dans des cellules'
+      description: "Un vrai champ sous les cellules, donc le serveur lit une valeur et le navigateur garde ce qu'il fait déjà : un code collé atterrit entier, un téléphone offre le code qu'il a reçu, la touche de retour supprime. Rempli, il envoie son formulaire tout seul — désactivé sur cette page, qui n'a nulle part où l'envoyer."
+    select:
+      title: 'Sélectionner, par lui-même'
+      description: "Les deux sélections personnalisées en dehors d'un groupe de formulaires, comme une barre d'outils ou une barre de filtre les place."
+    switch:
+      title: 'Interrupteur, par lui-même'
+      description: "Étiquettes de chaque côté, glyphes à l'intérieur, et l'état coché."
+    switch_tone:
+      title: 'Un interrupteur avec un ton, et un qui demande'
+      description: "Une fois activé, un interrupteur peut prendre la couleur d'un état ou d'une catégorie plutôt que celle du lien. Un qui active quelque chose avec des conséquences prend `warning`, et demande avant : refusé, il reste désactivé. Éteindre n'est jamais questionné. Dans tous les cas, il dit `switch:change` à la page."
+    switch_vue:
+      title: 'Interrupteur, dans vue'
+      description: "Le même interrupteur à l'intérieur d'un arbre vue, où l'état coché est l'état et non un attribut de données qu'un script inverse."
+  assisted:
+    hint: "Un agent remplit les champs ci-dessous, un après l'autre."
+    play: Jouer
+    reset: Réinitialiser
+  field:
+    text: 'Nom complet'
+    textarea: Adresse
+    email: E-mail
+    url: 'Site web'
+    password: 'Mot de passe'
+    code: 'Code de vérification'
+    number: Âge
+    date: 'Date de naissance'
+    time: 'Heure préférée'
+    datetime: Rendez-vous
+    select: Pays
+    radio: 'Contact par'
+    switch: 'Envoyez-moi la newsletter'
+    file: "Document d'identité"
+    emoji: Humeur
+    button: 'Un bouton'
+    submit: Soumettre
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Rue, code postal, ville'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Suède
+    two: Portugal
+    three: Japon
+  code:
+    numeric: 'Six chiffres, comme envoyé par e-mail'
+    backup: 'Un code de secours, lettres et chiffres'
+    vue: 'Quatre chiffres, dans vue'
+  switch:
+    tone:
+      success: Synchronisé
+      mint: Étiqueté
+      risky: 'Publier à la sauvegarde'
+    confirm:
+      title: 'Publier à la sauvegarde ?'
+      message: "Chaque sauvegarde sera publiée d'un coup, sans révision entre."
+      accept: Activer
+    label_right: 'Activer la fonctionnalité'
+    label_left: 'Étiquette à gauche'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'שדות קלט'
+  page_icon: 'ph:bold/textbox'
+  intro: 'כל שדה שהמערכת מספקת, בדף אחד. מה שיש להם במשותף מעבר לצורתם הוא הסכם: כל אחד מהם יכול להיות מועבר למשהו שאינו האדם הקורא, שממלא אותו ומחזיר אותו.'
+  section:
+    assisted:
+      title: עזרה
+      description: 'שדה יכול להיות נתפס — על ידי סוכן, על ידי כל דבר שיודע מה לכתוב. בזמן שהוא מוחזק הוא אומר כך, מפסיק להגיב למקלדת ולסמן, והערך מופיע כפי שהשדה מחליט: מאויית למילה, נבחר לאופציה, מסומן למתג. עזרה היא זמנית מטבעה; שדה שנותר בעזרה הוא שדה שאף אחד לא יכול להשתמש בו.'
+    fields:
+      title: שדות
+      description: 'אחד מכל סוג, פעם אחת. לחץ על נגן למעלה והם יתמלאו בתור, על ידי אותן קריאות שסוכן היה עושה — שזהו הדרך היחידה לדעת שההסכם מחזיק עבור כולם.'
+    actions:
+      title: 'כפתורים בטופס'
+      description: 'כפתור לוקח פעולה ולא ערך, כך שאין מה שכתוב בו על ידי סוכן.'
+    code:
+      title: 'קוד, בתאים'
+      description: 'שדה ממשי מתחת לתאים, כך שהשרת קורא ערך אחד והדפדפן שומר מה שהוא כבר עושה: קוד שמודבק נוחת שלם, טלפון מציע את הקוד שהוא קיבל, מקש חזרה חוזר אחורה. ממולא, הוא שולח את הטופס שלו בעצמו — כבוי בדף הזה, שאין לו לאן לשלוח אותו.'
+    select:
+      title: 'בחר, בעצמו'
+      description: 'שני בחירות מותאמות מחוץ לקבוצת טופס, כפי שטור Toolbar או טור מסנן מציבים אותם.'
+    switch:
+      title: 'מתג, בעצמו'
+      description: 'תיוגים משני הצדדים, סמלים בפנים, ומצב מסומן.'
+    switch_tone:
+      title: 'מתג עם גוון, ואחד ששואל'
+      description: 'ברגע שהוא מופעל, מתג יכול לקחת את צבעו של מצב או של קטגוריה ולא של הקישור. מתג שמדליק משהו עם השלכות לוקח `אזהרה`, ושואל קודם: אם מסרבים, הוא נשאר כבוי. כיבוי לא נשאל אף פעם. כך או כך הוא אומר `switch:change` לדף.'
+    switch_vue:
+      title: 'מתג, ב-vue'
+      description: 'אותו מתג בתוך עץ vue, שבו מצב המסומן הוא מצב ולא מאפיין נתונים שסקריפט משנה.'
+  assisted:
+    hint: 'סוכן ממלא את השדות למטה, אחד אחרי השני.'
+    play: נגן
+    reset: איפוס
+  field:
+    text: 'שם מלא'
+    textarea: כתובת
+    email: 'דואר אלקטרוני'
+    url: 'אתר אינטרנט'
+    password: סיסמה
+    code: 'קוד אימות'
+    number: גיל
+    date: 'תאריך לידה'
+    time: 'זמן מועדף'
+    datetime: פגישה
+    select: מדינה
+    radio: 'צור קשר באמצעות'
+    switch: 'שלח לי את הניוזלטר'
+    file: 'תעודת זהות'
+    emoji: 'מצב רוח'
+    button: כפתור
+    submit: שלח
+  placeholder:
+    text: 'מאיה לינדרקוויסט'
+    textarea: 'רחוב, מיקוד, עיר'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: שבדיה
+    two: פורטוגל
+    three: יפן
+  code:
+    numeric: 'שישה ספרות, כפי שנשלחו בדואר אלקטרוני'
+    backup: 'קוד גיבוי, אותיות וספרות'
+    vue: 'ארבע ספרות, ב-vue'
+  switch:
+    tone:
+      success: סנכרן
+      mint: מסומן
+      risky: 'פרסם בשמירה'
+    confirm:
+      title: 'לפרסם בשמירה?'
+      message: 'כל שמירה תפורסם מיד, ללא סקירה בין לבין.'
+      accept: הפעל
+    label_right: 'אפעיל תכונה'
+    label_left: 'תיוג משמאל'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: इनपुट्स
+  page_icon: 'ph:bold/textbox'
+  intro: 'प्रणाली द्वारा भेजे गए प्रत्येक क्षेत्र को एक पृष्ठ पर। उनके आकार के अलावा जो सामान्य है, वह एक अनुबंध है: प्रत्येक को किसी ऐसी चीज़ में सौंपा जा सकता है जो पढ़ने वाला व्यक्ति नहीं है, जो इसे भरता है और इसे वापस देता है।'
+  section:
+    assisted:
+      title: सहायता
+      description: 'एक क्षेत्र पर कब्जा किया जा सकता है - एक एजेंट द्वारा, किसी भी चीज़ द्वारा जो जानती है कि क्या लिखना है। जब इसे पकड़ा जाता है तो यह ऐसा बताता है, कीबोर्ड और पॉइंटर का जवाब देना बंद कर देता है, और मूल्य उस तरीके से दिखता है जिसे क्षेत्र तय करता है: एक शब्द के लिए लिखा हुआ, एक विकल्प के लिए चुना हुआ, एक स्विच के लिए टिक किया हुआ। सहायता स्वाभाविक रूप से अस्थायी है; एक क्षेत्र जो सहायक है, वह एक ऐसा क्षेत्र है जिसका कोई उपयोग नहीं कर सकता।'
+    fields:
+      title: क्षेत्र
+      description: 'एक में से एक, एक बार। ऊपर प्ले दबाएं और इन्हें बारी-बारी से भरा जाएगा, उसी कॉल द्वारा जो एक एजेंट करेगा - जो यह जानने का एकमात्र तरीका है कि अनुबंध सभी के लिए लागू है।'
+    actions:
+      title: 'फॉर्म में बटन'
+      description: 'एक बटन एक क्रिया लेता है न कि एक मूल्य, इसलिए इसमें लिखने के लिए एजेंट के लिए कुछ नहीं है।'
+    code:
+      title: 'एक कोड, कोशिकाओं में'
+      description: 'कोशिकाओं के नीचे एक असली क्षेत्र, ताकि सर्वर एक मूल्य पढ़ सके और ब्राउज़र वही रख सके जो वह पहले से करता है: एक चिपकाया गया कोड पूरा आता है, एक फोन वह कोड प्रदान करता है जो उसे मिला, बैकस्पेस वापस जाता है। भरा हुआ, यह अपने आप अपना फॉर्म भेजता है - इस पृष्ठ पर बंद किया गया, जिसका कहीं भेजने के लिए नहीं है।'
+    select:
+      title: 'स्वचालित चयन'
+      description: 'फॉर्म समूह के बाहर दो कस्टम चयन, जैसे एक टूलबार या एक फ़िल्टर बार उन्हें रखता है।'
+    switch:
+      title: 'स्विच, अपने आप'
+      description: 'दोनों ओर लेबल, अंदर चित्र, और चेक किया गया स्थिति।'
+    switch_tone:
+      title: 'एक टोन के साथ स्विच, और एक जो पूछता है'
+      description: 'एक बार चालू होने पर, एक स्विच एक स्थिति या श्रेणी के रंग को ले सकता है न कि लिंक के। एक जो कुछ ऐसे स्विच करता है जिसके परिणाम होते हैं वह `चेतावनी` लेता है और पहले पूछता है: अस्वीकृत होने पर, यह बंद रहता है। बंद करना कभी नहीं पूछा जाता। किसी भी तरह यह पृष्ठ को `स्विच: परिवर्तन` कहता है।'
+    switch_vue:
+      title: 'स्विच, व्यू में'
+      description: 'व्यू ट्री के अंदर वही स्विच, जहाँ चेक की गई स्थिति राज्य है और न कि एक डेटा एट्रिब्यूट जिसे एक स्क्रिप्ट पलटती है।'
+  assisted:
+    hint: 'एक एजेंट नीचे दिए गए क्षेत्रों को एक के बाद एक भरता है।'
+    play: प्ले
+    reset: रीसेट
+  field:
+    text: 'पूरा नाम'
+    textarea: पता
+    email: ई-मेल
+    url: वेबसाइट
+    password: पासवर्ड
+    code: 'पुष्टिकरण कोड'
+    number: उम्र
+    date: 'जन्म तिथि'
+    time: 'पसंदीदा समय'
+    datetime: अपॉइंटमेंट
+    select: देश
+    radio: 'संपर्क द्वारा'
+    switch: 'मुझे न्यूज़लेटर भेजें'
+    file: 'पहचान पत्र'
+    emoji: मूड
+    button: 'एक बटन'
+    submit: सबमिट
+  placeholder:
+    text: 'माया लिंडक्विस्ट'
+    textarea: 'गली, पोस्टकोड, शहर'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: स्वीडन
+    two: पुर्तगाल
+    three: जापान
+  code:
+    numeric: 'छह अंक, ई-मेल द्वारा भेजे गए'
+    backup: 'एक बैकअप कोड, अक्षर और अंक'
+    vue: 'चार अंक, व्यू में'
+  switch:
+    tone:
+      success: 'सिंक किया गया'
+      mint: 'टैग किया गया'
+      risky: 'सहेजने पर प्रकाशित करें'
+    confirm:
+      title: 'सहेजने पर प्रकाशित करें?'
+      message: 'हर सहेजना एक साथ प्रकाशित होगा, बीच में कोई समीक्षा नहीं।'
+      accept: 'चालू करें'
+    label_right: 'विशेषता सक्षम करें'
+    label_left: 'लेबल बाईं ओर'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Input
+  page_icon: 'ph:bold/textbox'
+  intro: 'Setiap field yang disediakan sistem, ada di satu halaman. Apa yang mereka miliki sebagai kesamaan di luar bentuknya adalah sebuah kontrak: masing-masing dapat diserahkan kepada sesuatu yang bukan orang yang membaca, yang mengisinya dan mengembalikannya.'
+  section:
+    assisted:
+      title: Bantuan
+      description: 'Sebuah field dapat diambil alih — oleh agen, oleh apa pun yang tahu apa yang harus ditulis. Selama dipegang, field tersebut mengatakan demikian, berhenti merespons keyboard dan pointer, dan nilai muncul dengan cara yang ditentukan oleh field: dieja untuk sebuah kata, dipilih untuk sebuah opsi, dicentang untuk sebuah saklar. Bantuan bersifat sementara; sebuah field yang dibiarkan dibantu adalah field yang tidak dapat digunakan oleh siapa pun.'
+    fields:
+      title: Field
+      description: 'Satu dari masing-masing, sekali. Tekan Putar di atas dan mereka diisi secara bergiliran, dengan panggilan yang sama seperti yang dilakukan agen — yang merupakan satu-satunya cara untuk mengetahui kontrak berlaku untuk semuanya.'
+    actions:
+      title: 'Tombol dalam formulir'
+      description: 'Sebuah tombol melakukan tindakan daripada nilai, jadi tidak ada yang bisa ditulis agen ke dalamnya.'
+    code:
+      title: 'Sebuah kode, dalam sel'
+      description: 'Satu field nyata di bawah sel, sehingga server membaca satu nilai dan browser mempertahankan apa yang sudah dilakukannya: sebuah kode yang ditempelkan mendarat utuh, sebuah telepon menawarkan kode yang diterimanya, backspace kembali. Diisi, ia mengirim formulirnya sendiri — dimatikan di halaman ini, yang tidak memiliki tempat untuk mengirimnya.'
+    select:
+      title: 'Pilih, sendiri'
+      description: 'Dua pilihan kustom di luar grup formulir, seperti yang diletakkan oleh toolbar atau bilah filter.'
+    switch:
+      title: 'Saklar, sendiri'
+      description: 'Label di kedua sisi, glif di dalam, dan status dicentang.'
+    switch_tone:
+      title: 'Saklar dengan nada, dan satu yang bertanya'
+      description: 'Sekali dinyalakan, sebuah saklar dapat mengambil warna dari suatu status atau kategori daripada dari tautan. Satu yang mengaktifkan sesuatu dengan konsekuensi mengambil `peringatan`, dan bertanya sebelumnya: ditolak, ia tetap mati. Mematikan tidak pernah dipertanyakan. Dalam kedua hal itu, ia mengatakan `switch:change` kepada halaman.'
+    switch_vue:
+      title: 'Saklar, dalam vue'
+      description: 'Saklar yang sama di dalam pohon vue, di mana status dicentang adalah status dan bukan atribut data yang dibalikkan oleh skrip.'
+  assisted:
+    hint: 'Seorang agen mengisi field di bawah, satu per satu.'
+    play: Putar
+    reset: Reset
+  field:
+    text: 'Nama lengkap'
+    textarea: Alamat
+    email: E-mail
+    url: 'Situs web'
+    password: 'Kata sandi'
+    code: 'Kode verifikasi'
+    number: Usia
+    date: 'Tanggal lahir'
+    time: 'Waktu yang diinginkan'
+    datetime: 'Janji temu'
+    select: Negara
+    radio: 'Kontak melalui'
+    switch: 'Kirim saya buletin'
+    file: 'Dokumen identitas'
+    emoji: 'Suasana hati'
+    button: 'Sebuah tombol'
+    submit: Kirim
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Jalan, kode pos, kota'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Swedia
+    two: Portugal
+    three: Jepang
+  code:
+    numeric: 'Enam digit, seperti yang dikirim melalui email'
+    backup: 'Kode cadangan, huruf dan digit'
+    vue: 'Empat digit, dalam vue'
+  switch:
+    tone:
+      success: Sinkronisasi
+      mint: Ditandai
+      risky: 'Terbitkan saat disimpan'
+    confirm:
+      title: 'Terbitkan saat disimpan?'
+      message: 'Setiap penyimpanan akan diterbitkan sekaligus, tanpa tinjauan di antara.'
+      accept: Aktifkan
+    label_right: 'Aktifkan fitur'
+    label_left: 'Label di sebelah kiri'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Input
+  page_icon: 'ph:bold/textbox'
+  intro: "Ogni campo fornito dal sistema, su un'unica pagina. Ciò che hanno in comune oltre alla loro forma è un contratto: ciascuno può essere gestito da qualcosa che non è la persona che legge, che lo compila e lo restituisce."
+  section:
+    assisted:
+      title: Assistenza
+      description: "Un campo può essere preso in carico — da un agente, da qualsiasi cosa sappia cosa scrivere. Mentre è in carico, lo indica, smette di rispondere alla tastiera e al puntatore, e il valore appare come decide il campo: scritto per una parola, scelto per un'opzione, selezionato per un interruttore. L'assistenza è temporanea per natura; un campo assistito è un campo che nessuno può usare."
+    fields:
+      title: Campi
+      description: "Uno di ciascuno, una sola volta. Premi Play sopra e verranno compilati a turno, con le stesse chiamate che farebbe un agente — che è l'unico modo per sapere che il contratto è valido per tutti."
+    actions:
+      title: 'Pulsanti in un modulo'
+      description: "Un pulsante esegue un'azione piuttosto che un valore, quindi non c'è nulla da scrivere al suo interno da parte di un agente."
+    code:
+      title: 'Un codice, nelle celle'
+      description: 'Un vero campo sotto le celle, così il server legge un valore e il browser mantiene ciò che già fa: un codice incollato arriva intero, un telefono offre il codice ricevuto, il tasto backspace torna indietro. Compilato, invia il suo modulo autonomamente — disattivato in questa pagina, che non ha dove inviarlo.'
+    select:
+      title: 'Seleziona, da solo'
+      description: 'I due selettori personalizzati al di fuori di un gruppo di moduli, come una barra degli strumenti o una barra dei filtri li colloca.'
+    switch:
+      title: 'Interruttore, da solo'
+      description: "Etichette su entrambi i lati, glifi all'interno, e lo stato selezionato."
+    switch_tone:
+      title: 'Un interruttore con un tono, e uno che chiede'
+      description: 'Una volta attivato, un interruttore può assumere il colore di uno stato o di una categoria piuttosto che quello del link. Uno che attiva qualcosa con conseguenze prende `warning`, e chiede prima: rifiutato, rimane spento. Disattivare non viene mai messo in discussione. In entrambi i casi dice `switch:change` alla pagina.'
+    switch_vue:
+      title: 'Interruttore, in vue'
+      description: "Lo stesso interruttore all'interno di un albero vue, dove lo stato selezionato è stato e non un attributo dati che uno script cambia."
+  assisted:
+    hint: "Un agente compila i campi qui sotto, uno dopo l'altro."
+    play: Riproduci
+    reset: Ripristina
+  field:
+    text: 'Nome completo'
+    textarea: Indirizzo
+    email: E-mail
+    url: 'Sito web'
+    password: Password
+    code: 'Codice di verifica'
+    number: Età
+    date: 'Data di nascita'
+    time: 'Orario preferito'
+    datetime: Appuntamento
+    select: Paese
+    radio: 'Contatto tramite'
+    switch: 'Inviami la newsletter'
+    file: "Documento d'identità"
+    emoji: Umore
+    button: 'Un pulsante'
+    submit: Invia
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Via, codice postale, città'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Svezia
+    two: Portogallo
+    three: Giappone
+  code:
+    numeric: 'Sei cifre, come inviato via e-mail'
+    backup: 'Un codice di backup, lettere e cifre'
+    vue: 'Quattro cifre, in vue'
+  switch:
+    tone:
+      success: Sincronizzato
+      mint: Contrassegnato
+      risky: 'Pubblica al salvataggio'
+    confirm:
+      title: 'Pubblicare al salvataggio?'
+      message: 'Ogni salvataggio sarà pubblicato tutto in una volta, senza revisione intermedia.'
+      accept: Attiva
+    label_right: 'Abilita funzione'
+    label_left: 'Etichetta a sinistra'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 入力
+  page_icon: 'ph:bold/textbox'
+  intro: システムが提供するすべてのフィールドが1ページに集まっています。それらの形状を超えて共通する点は契約です：各フィールドは、読む人以外の何かに渡され、内容が入力されて戻されることができます。
+  section:
+    assisted:
+      title: 支援
+      description: フィールドはエージェントや書く内容を知っている何かに引き継がれます。その間は、キーボードやポインターへの応答を停止し、フィールドが決定した形で値が表示されます：単語のために書かれ、オプションのために選ばれ、スイッチのためにチェックされます。支援は本質的に一時的です；支援されたフィールドは誰も使えないフィールドです。
+    fields:
+      title: フィールド
+      description: 'それぞれ1つずつ。上のプレイを押すと、エージェントが行うのと同じ呼び出しで順に入力されます — これがすべてのフィールドに契約が成立していることを知る唯一の方法です。'
+    actions:
+      title: フォーム内のボタン
+      description: ボタンは値ではなくアクションを取るため、エージェントが書き込むものはありません。
+    code:
+      title: セル内のコード
+      description: 'セルの下に実際のフィールドがあり、サーバーは1つの値を読み取り、ブラウザは既に行っていることを保持します：貼り付けたコードがそのまま入る、電話は受け取ったコードを提供する、バックスペースは戻る役割を果たします。フィールドが入力されると、自動的にフォームを送信します — このページではオフになっており、送信先はありません。'
+    select:
+      title: 独自の選択
+      description: フォームグループ外の2つのカスタムセレクト、ツールバーやフィルターバーがそれらを配置します。
+    switch:
+      title: 独自のスイッチ
+      description: 両側のラベル、内部のグリフ、チェックされた状態。
+    switch_tone:
+      title: トーンのあるスイッチと、尋ねるスイッチ
+      description: '一度オンになると、スイッチはリンクの色ではなく状態やカテゴリの色を取ることができます。結果を伴う何かを切り替えるスイッチは`warning`を取り、事前に尋ねます：拒否された場合、オフのままです。オフにすることは決して質問されません。いずれの場合も、`switch:change`をページに伝えます。'
+    switch_vue:
+      title: Vue内のスイッチ
+      description: チェックされた状態が状態であり、スクリプトが切り替えるデータ属性ではないVueツリー内の同じスイッチ。
+  assisted:
+    hint: エージェントが以下のフィールドを1つずつ入力します。
+    play: 再生
+    reset: リセット
+  field:
+    text: フルネーム
+    textarea: 住所
+    email: Eメール
+    url: ウェブサイト
+    password: パスワード
+    code: 確認コード
+    number: 年齢
+    date: 生年月日
+    time: 希望の時間
+    datetime: アポイントメント
+    select: 国
+    radio: 連絡方法
+    switch: ニュースレターを送信
+    file: 身分証明書
+    emoji: 気分
+    button: ボタン
+    submit: 送信
+  placeholder:
+    text: マヤ・リンドクヴィスト
+    textarea: 通り、郵便番号、市
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: スウェーデン
+    two: ポルトガル
+    three: 日本
+  code:
+    numeric: メールで送信された6桁
+    backup: バックアップコード、文字と数字
+    vue: Vue内の4桁
+  switch:
+    tone:
+      success: 同期完了
+      mint: タグ付け済み
+      risky: 保存時に公開
+    confirm:
+      title: 保存時に公開しますか？
+      message: すべての保存が一度に公開され、中間のレビューはありません。
+      accept: オンにする
+    label_right: 機能を有効にする
+    label_left: 左側のラベル
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 입력
+  page_icon: 'ph:bold/textbox'
+  intro: '시스템에서 제공하는 모든 필드를 한 페이지에 모았습니다. 형태를 넘어 그들의 공통점은 계약입니다: 각 필드는 읽고 있는 사람이 아닌 다른 것에 넘겨줄 수 있으며, 그것이 채워지고 다시 반환됩니다.'
+  section:
+    assisted:
+      title: 지원
+      description: '필드는 에이전트나 작성할 내용을 아는 어떤 것에 의해 인수될 수 있습니다. 인수되고 있는 동안에는 그렇게 표시되며, 키보드와 포인터에 대한 응답을 중단하고, 필드가 결정한 대로 값이 표시됩니다: 단어의 경우 철자, 옵션의 경우 선택, 스위치의 경우 체크 표시. 지원은 본질적으로 일시적입니다; 지원이 남아 있는 필드는 아무도 사용할 수 없는 필드입니다.'
+    fields:
+      title: 필드
+      description: '각각 하나씩, 한 번. 위의 재생 버튼을 눌러주시면 에이전트가 호출할 때와 같은 방식으로 차례로 채워집니다 — 이는 모든 필드에 대해 계약이 유지되는지 확인하는 유일한 방법입니다.'
+    actions:
+      title: '양식의 버튼'
+      description: '버튼은 값을 입력하기보다는 행동을 취하므로, 에이전트가 이를 작성할 내용이 없습니다.'
+    code:
+      title: '셀 안의 코드'
+      description: '셀 아래에 실제 필드 하나가 있어 서버는 하나의 값을 읽고 브라우저는 이미 하던 대로 유지합니다: 붙여넣기된 코드는 그대로 들어오고, 전화기는 받은 코드를 제공합니다, 백스페이스는 뒤로 갑니다. 채워지면 스스로 양식을 보냅니다 — 이 페이지에서는 꺼져 있어 전송할 곳이 없습니다.'
+    select:
+      title: '자체 선택'
+      description: '양식 그룹 외부에 있는 두 개의 사용자 정의 선택으로, 도구 모음이나 필터 바에 배치됩니다.'
+    switch:
+      title: '자체 스위치'
+      description: '양쪽에 레이블, 내부에 아이콘, 체크된 상태입니다.'
+    switch_tone:
+      title: '톤이 있는 스위치와 요청하는 스위치'
+      description: "한 번 켜지면, 스위치는 링크의 색상 대신 상태나 카테고리의 색상을 가질 수 있습니다. 결과가 있는 무언가를 전환하는 것은 '경고'를 사용하며, 전에 요청합니다: 거부되면 꺼진 상태를 유지합니다. 꺼지는 것은 결코 질문받지 않습니다. 어느 쪽이든 페이지에 '스위치:변경'이라고 표시됩니다."
+    switch_vue:
+      title: '뷰 내의 스위치'
+      description: '체크된 상태가 상태이고 스크립트가 전환하는 데이터 속성이 아닌 뷰 트리 내의 동일한 스위치입니다.'
+  assisted:
+    hint: '에이전트가 아래 필드를 하나씩 채웁니다.'
+    play: 재생
+    reset: 초기화
+  field:
+    text: 성명
+    textarea: 주소
+    email: 이메일
+    url: 웹사이트
+    password: 비밀번호
+    code: '인증 코드'
+    number: 나이
+    date: 생일
+    time: '선호 시간'
+    datetime: 약속
+    select: 국가
+    radio: '연락 방법'
+    switch: '뉴스레터 받기'
+    file: '신원 문서'
+    emoji: 기분
+    button: 버튼
+    submit: 제출
+  placeholder:
+    text: '마야 린드퀴스트'
+    textarea: '거리, 우편번호, 도시'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: 스웨덴
+    two: 포르투갈
+    three: 일본
+  code:
+    numeric: '이메일로 전송된 6자리 숫자'
+    backup: '백업 코드, 문자 및 숫자'
+    vue: '뷰에서의 4자리 숫자'
+  switch:
+    tone:
+      success: 동기화됨
+      mint: 태그됨
+      risky: '저장 시 게시'
+    confirm:
+      title: '저장 시 게시하시겠습니까?'
+      message: '모든 저장은 한 번에 게시되며, 그 사이에 검토가 없습니다.'
+      accept: 켜기
+    label_right: '기능 활성화'
+    label_left: '왼쪽 레이블'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Invoeren
+  page_icon: 'ph:bold/textbox'
+  intro: 'Elk veld dat het systeem levert, op één pagina. Wat ze gemeen hebben, naast hun vorm, is een contract: elk kan worden overgedragen aan iets dat niet de persoon is die leest, dat het invult en het teruggeeft.'
+  section:
+    assisted:
+      title: Hulp
+      description: 'Een veld kan worden overgenomen — door een agent, door alles wat weet wat in te vullen. Terwijl het vastgehouden wordt, geeft het dat aan, stopt met reageren op het toetsenbord en de muis, en de waarde verschijnt zoals het veld beslist: voluit geschreven voor een woord, gekozen voor een optie, aangevinkt voor een schakelaar. Hulp is van tijdelijke aard; een veld dat assistentie heeft, is een veld dat niemand kan gebruiken.'
+    fields:
+      title: Velden
+      description: 'Één van elk, eenmaal. Druk boven op Afspelen en ze worden om de beurt ingevuld, door dezelfde oproepen die een agent zou doen — wat de enige manier is om te weten dat het contract voor hen allemaal geldt.'
+    actions:
+      title: 'Knoppen in een formulier'
+      description: 'Een knop voert een actie uit in plaats van een waarde, dus er is niets voor een agent om in te vullen.'
+    code:
+      title: 'Een code, in cellen'
+      description: 'Één echt veld onder de cellen, zodat de server één waarde leest en de browser doet wat het al doet: een geplakte code landt als geheel, een telefoon biedt de code die hij heeft ontvangen, backspace gaat terug. Wanneer gevuld, verstuurt het zelf zijn formulier — uitgeschakeld op deze pagina, die nergens naartoe kan sturen.'
+    select:
+      title: 'Selecteren, op zichzelf'
+      description: 'De twee aangepaste selecties buiten een formuliergroep, zoals een werkbalk of een filterbalk ze plaatst.'
+    switch:
+      title: 'Schakelaar, op zichzelf'
+      description: 'Labels aan beide zijden, symbolen binnenin, en de aangevinkte staat.'
+    switch_tone:
+      title: 'Een schakelaar met een toon, en een die vraagt'
+      description: 'Eenmaal ingeschakeld kan een schakelaar de kleur van een staat of van een categorie aannemen in plaats van die van de link. Een die iets met gevolgen inschakelt, krijgt `waarschuwing`, en vraagt vooraf: geweigerd, blijft het uit. Uitzetten wordt nooit in twijfel getrokken. Hoe dan ook zegt het `schakelaar:wissel` naar de pagina.'
+    switch_vue:
+      title: 'Schakelaar, in vue'
+      description: 'Dezelfde schakelaar binnen een vue-boom, waar de aangevinkte staat staat is en niet een gegevensattribuut dat een script omdraait.'
+  assisted:
+    hint: 'Een agent vult de velden hieronder, één voor één.'
+    play: Afspelen
+    reset: Resetten
+  field:
+    text: 'Volledige naam'
+    textarea: Adres
+    email: E-mailadres
+    url: Website
+    password: Wachtwoord
+    code: Verificatiecode
+    number: Leeftijd
+    date: Geboortedatum
+    time: 'Voorkeurs tijd'
+    datetime: Afspraak
+    select: Land
+    radio: 'Contact via'
+    switch: 'Stuur me de nieuwsbrief'
+    file: Identiteitsdocument
+    emoji: Sfeer
+    button: 'Een knop'
+    submit: Verzenden
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Straat, postcode, stad'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Zweden
+    two: Portugal
+    three: Japan
+  code:
+    numeric: 'Zes cijfers, zoals verzonden per e-mail'
+    backup: 'Een back-upcode, letters en cijfers'
+    vue: 'Vier cijfers, in vue'
+  switch:
+    tone:
+      success: Gesynchroniseerd
+      mint: Getagd
+      risky: 'Publiceer bij opslaan'
+    confirm:
+      title: 'Publiceren bij opslaan?'
+      message: 'Elke opslaan zal tegelijk worden gepubliceerd, zonder tussentijdse beoordeling.'
+      accept: Inschakelen
+    label_right: 'Functie inschakelen'
+    label_left: 'Label aan de linkerkant'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Pola wejściowe'
+  page_icon: 'ph:bold/textbox'
+  intro: 'Każde pole, które system dostarcza, na jednej stronie. To, co je łączy oprócz kształtu, to umowa: każde z nich może być przekazane czemuś, co nie jest osobą czytającą, które je wypełnia i oddaje.'
+  section:
+    assisted:
+      title: Wsparcie
+      description: 'Pole może być przejęte — przez agenta, przez cokolwiek, co wie, co wpisać. Gdy jest zajęte, informuje o tym, przestaje odpowiadać na klawiaturę i wskaźnik, a wartość pojawia się tak, jak postanowiło pole: rozpisana dla słowa, wybrana dla opcji, zaznaczona dla przełącznika. Wsparcie jest z definicji tymczasowe; pole pozostawione z wsparciem to pole, z którego nikt nie może skorzystać.'
+    fields:
+      title: Pola
+      description: 'Jedno z każdego, raz. Naciśnij Odtwórz powyżej, a będą wypełniane po kolei, przez te same wywołania, które wykonałby agent — co jest jedynym sposobem, aby upewnić się, że umowa obowiązuje dla wszystkich.'
+    actions:
+      title: 'Przyciski w formularzu'
+      description: 'Przycisk podejmuje działanie, a nie wartość, więc nie ma nic do zapisania przez agenta.'
+    code:
+      title: 'Kod, w komórkach'
+      description: 'Jedno prawdziwe pole pod komórkami, więc serwer odczytuje jedną wartość, a przeglądarka utrzymuje to, co już robi: wklejony kod ląduje w całości, telefon oferuje kod, który otrzymał, a klawisz backspace cofa. Wypełnione, wysyła swój formularz samodzielnie — wyłączone na tej stronie, która nie ma dokąd go wysłać.'
+    select:
+      title: 'Wybór, samodzielnie'
+      description: 'Dwa niestandardowe wybory poza grupą formularzy, tak jak narzędzie lub pasek filtrów je umieszcza.'
+    switch:
+      title: 'Przełącznik, samodzielnie'
+      description: 'Etykiety po obu stronach, symbole w środku i zaznaczony stan.'
+    switch_tone:
+      title: 'Przełącznik z tonem, i taki, który pyta'
+      description: 'Gdy jest włączony, przełącznik może przyjąć kolor stanu lub kategorii zamiast koloru linku. Taki, który przełącza coś z konsekwencjami, przyjmuje `ostrzeżenie` i pyta wcześniej: odrzucony, pozostaje wyłączony. Wyłączenie nigdy nie jest kwestionowane. W każdym przypadku informuje stronę o `switch:change`.'
+    switch_vue:
+      title: 'Przełącznik, w vue'
+      description: 'Ten sam przełącznik wewnątrz drzewa vue, gdzie zaznaczony stan jest stanem, a nie atrybutem danych, który skrypt przełącza.'
+  assisted:
+    hint: 'Agent wypełnia pola poniżej, jedno po drugim.'
+    play: Odtwórz
+    reset: Zresetuj
+  field:
+    text: 'Pełne imię i nazwisko'
+    textarea: Adres
+    email: E-mail
+    url: 'Strona internetowa'
+    password: Hasło
+    code: 'Kod weryfikacyjny'
+    number: Wiek
+    date: 'Data urodzenia'
+    time: 'Preferowana godzina'
+    datetime: Wizyta
+    select: Kraj
+    radio: 'Kontakt przez'
+    switch: 'Wyślij mi newsletter'
+    file: 'Dokument tożsamości'
+    emoji: Nastrój
+    button: Przycisk
+    submit: Wyślij
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Ulica, kod pocztowy, miasto'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Szwecja
+    two: Portugalia
+    three: Japonia
+  code:
+    numeric: 'Sześć cyfr, jak wysłano mailem'
+    backup: 'Kod zapasowy, litery i cyfry'
+    vue: 'Cztery cyfry, w vue'
+  switch:
+    tone:
+      success: Zsynchronizowane
+      mint: Oznaczone
+      risky: 'Opublikuj przy zapisie'
+    confirm:
+      title: 'Opublikować przy zapisie?'
+      message: 'Każde zapisanie zostanie opublikowane jednocześnie, bez przeglądu pomiędzy.'
+      accept: Włącz
+    label_right: 'Włącz funkcję'
+    label_left: 'Etykieta po lewej'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Entradas
+  page_icon: 'ph:bold/textbox'
+  intro: 'Todos os campos que o sistema oferece, em uma página. O que eles têm em comum além da forma é um contrato: cada um pode ser entregue a algo que não é a pessoa que lê, que o preenche e o devolve.'
+  section:
+    assisted:
+      title: Assistência
+      description: 'Um campo pode ser tomado — por um agente, por qualquer coisa que saiba o que escrever. Enquanto estiver ocupado, ele avisa, para de responder ao teclado e ao ponteiro, e o valor aparece da forma que o campo decidir: escrito por uma palavra, escolhido por uma opção, marcado por uma chave. A assistência é temporária por natureza; um campo assistido é um campo que ninguém pode usar.'
+    fields:
+      title: Campos
+      description: 'Um de cada, uma vez. Pressione Play acima e eles serão preenchidos por turno, pelas mesmas chamadas que um agente faria — que é a única maneira de saber que o contrato se aplica a todos eles.'
+    actions:
+      title: 'Botões em um formulário'
+      description: 'Um botão executa uma ação em vez de um valor, então não há nada para um agente escrever nele.'
+    code:
+      title: 'Um código, em células'
+      description: 'Um campo real sob as células, para que o servidor leia um valor e o navegador mantenha o que já faz: um código colado chega inteiro, um telefone oferece o código que recebeu, backspace volta. Preenchido, ele envia seu formulário por conta própria — desligado nesta página, que não tem para onde enviá-lo.'
+    select:
+      title: 'Selecionar, por conta própria'
+      description: 'Os dois selects personalizados fora de um grupo de formulário, como uma barra de ferramentas ou uma barra de filtro os coloca.'
+    switch:
+      title: 'Alternar, por conta própria'
+      description: 'Rótulos de cada lado, ícones dentro, e o estado marcado.'
+    switch_tone:
+      title: 'Um switch com um tom, e um que pergunta'
+      description: 'Uma vez ligado, um switch pode assumir a cor de um estado ou de uma categoria em vez da cor do link. Um que ativa algo com consequências usa `warning`, e pergunta antes: se recusado, ele permanece desligado. Desligar nunca é questionado. De qualquer forma, ele diz `switch:change` para a página.'
+    switch_vue:
+      title: 'Switch, em vue'
+      description: 'O mesmo switch dentro de uma árvore vue, onde o estado marcado é estado e não um atributo de dado que um script altera.'
+  assisted:
+    hint: 'Um agente preenche os campos abaixo, um após o outro.'
+    play: Reproduzir
+    reset: Redefinir
+  field:
+    text: 'Nome completo'
+    textarea: Endereço
+    email: E-mail
+    url: Site
+    password: Senha
+    code: 'Código de verificação'
+    number: Idade
+    date: 'Data de nascimento'
+    time: 'Hora preferida'
+    datetime: Compromisso
+    select: País
+    radio: 'Contato por'
+    switch: 'Envie-me a newsletter'
+    file: 'Documento de identidade'
+    emoji: Humor
+    button: 'Um botão'
+    submit: Enviar
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Rua, código postal, cidade'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Suécia
+    two: Portugal
+    three: Japão
+  code:
+    numeric: 'Seis dígitos, conforme enviado por e-mail'
+    backup: 'Um código de backup, letras e dígitos'
+    vue: 'Quatro dígitos, em vue'
+  switch:
+    tone:
+      success: Sincronizado
+      mint: Marcado
+      risky: 'Publicar ao salvar'
+    confirm:
+      title: 'Publicar ao salvar?'
+      message: 'Cada salvamento será publicado de uma vez, sem revisão entre eles.'
+      accept: Ativar
+    label_right: 'Habilitar recurso'
+    label_left: 'Rótulo à esquerda'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Вводы
+  page_icon: 'ph:bold/textbox'
+  intro: 'Каждое поле, которое предоставляет система, на одной странице. Общее между ними, помимо формы, это контракт: каждое из них может быть передано чему-то, что не является читающим, что заполняет его и возвращает.'
+  section:
+    assisted:
+      title: Помощь
+      description: 'Поле может быть занято — агентом, чем угодно, что знает, что писать. Пока оно занято, оно об этом сообщает, перестает реагировать на клавиатуру и указатель, а значение отображается так, как решает поле: написано для слова, выбрано для опции, отмечено для переключателя. Помощь по своей природе временная; поле, оставленное под контролем, — это поле, которым никто не может пользоваться.'
+    fields:
+      title: Поля
+      description: 'Одно из каждого, один раз. Нажмите «Играть» выше, и они будут заполняться по очереди, теми же вызовами, которые сделал бы агент — это единственный способ узнать, что контракт соблюдается для всех из них.'
+    actions:
+      title: 'Кнопки в форме'
+      description: 'Кнопка выполняет действие, а не принимает значение, поэтому агенту нечего в неё вписывать.'
+    code:
+      title: 'Код в ячейках'
+      description: 'Одно реальное поле под ячейками, так что сервер считывает одно значение, а браузер сохраняет то, что он уже делает: вставленный код попадает целиком, телефон предлагает код, который он получил, клавиша Backspace возвращает назад. Заполненное, оно отправляет свою форму само — отключено на этой странице, у которой нет места, куда его отправить.'
+    select:
+      title: 'Выбор, самостоятельно'
+      description: 'Два пользовательских выбора вне группы формы, как панель инструментов или фильтр.'
+    switch:
+      title: 'Переключатель, самостоятельно'
+      description: 'Метки по обе стороны, значки внутри и состояние выбора.'
+    switch_tone:
+      title: 'Переключатель с тоном и тот, что спрашивает'
+      description: 'Включенный переключатель может принимать цвет состояния или категории, а не цвет ссылки. Тот, что включает что-то с последствиями, принимает `warning` и спрашивает перед этим: отказано — остаётся выключенным. Выключение никогда не ставится под вопрос. В любом случае он сообщает `switch:change` на страницу.'
+    switch_vue:
+      title: 'Переключатель, во vue'
+      description: 'Тот же переключатель внутри дерева vue, где состояние выбора является состоянием, а не атрибутом данных, который меняет скрипт.'
+  assisted:
+    hint: 'Агент заполняет поля ниже, одно за другим.'
+    play: Играть
+    reset: Сбросить
+  field:
+    text: 'Полное имя'
+    textarea: Адрес
+    email: 'Электронная почта'
+    url: Веб-сайт
+    password: Пароль
+    code: 'Код подтверждения'
+    number: Возраст
+    date: 'Дата рождения'
+    time: 'Предпочитаемое время'
+    datetime: Запись
+    select: Страна
+    radio: 'Контакт по'
+    switch: 'Подписать на рассылку'
+    file: 'Документ удостоверяющий личность'
+    emoji: Настроение
+    button: Кнопка
+    submit: Отправить
+  placeholder:
+    text: 'Мая Линдквист'
+    textarea: 'Улица, индекс, город'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: Швеция
+    two: Португалия
+    three: Япония
+  code:
+    numeric: 'Шесть цифр, как отправлено по электронной почте'
+    backup: 'Резервный код, буквы и цифры'
+    vue: 'Четыре цифры, во vue'
+  switch:
+    tone:
+      success: Синхронизировано
+      mint: Помечено
+      risky: 'Опубликовать при сохранении'
+    confirm:
+      title: 'Опубликовать при сохранении?'
+      message: 'Каждое сохранение будет опубликовано сразу, без промежуточного просмотра.'
+      accept: Включить
+    label_right: 'Включить функцию'
+    label_left: 'Метка слева'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ข้อมูลนำเข้า
+  page_icon: 'ph:bold/textbox'
+  intro: 'ทุกฟิลด์ที่ระบบจัดส่งมา อยู่ในหน้าเดียว สิ่งที่พวกเขามีร่วมกันนอกเหนือจากรูปร่างคือสัญญา: แต่ละฟิลด์สามารถถูกส่งให้กับสิ่งที่ไม่ใช่คนอ่าน ซึ่งจะกรอกข้อมูลและส่งกลับมา'
+  section:
+    assisted:
+      title: ความช่วยเหลือ
+      description: 'ฟิลด์สามารถถูกควบคุม — โดยตัวแทน หรือโดยสิ่งใดก็ตามที่รู้ว่าจะเขียนอะไร ขณะที่มันถูกควบคุม มันจะบอกเช่นนั้น หยุดตอบสนองต่อคีย์บอร์ดและตัวชี้ และค่าจะแสดงตามที่ฟิลด์กำหนด: เขียนออกมาสำหรับคำ ตัวเลือกที่เลือก หรือทำเครื่องหมายสำหรับการสลับ ความช่วยเหลือเป็นสิ่งชั่วคราวตามธรรมชาติ; ฟิลด์ที่ถูกช่วยเหลือจะเป็นฟิลด์ที่ไม่มีใครใช้ได้'
+    fields:
+      title: ฟิลด์
+      description: 'หนึ่งรายการต่อหนึ่งครั้ง กดเล่นด้านบนและพวกมันจะถูกกรอกทีละรายการ โดยการเรียกเดียวกันที่ตัวแทนจะทำ — ซึ่งเป็นวิธีเดียวที่จะรู้ว่าสัญญายังคงอยู่สำหรับทุกฟิลด์'
+    actions:
+      title: ปุ่มในแบบฟอร์ม
+      description: 'ปุ่มทำการกระทำมากกว่าค่าหนึ่ง ดังนั้นจึงไม่มีอะไรให้ตัวแทนเขียนเข้าไป'
+    code:
+      title: รหัสในเซลล์
+      description: 'ฟิลด์จริงหนึ่งฟิลด์อยู่ใต้เซลล์ ดังนั้นเซิร์ฟเวอร์อ่านค่าหนึ่งค่าและเบราว์เซอร์เก็บสิ่งที่มันทำอยู่แล้ว: รหัสที่วางจะลงไปทั้งหมด โทรศัพท์เสนอรหัสที่มันได้รับ แป้นกลับจะกลับไป ฟิลด์ที่กรอกแล้วจะส่งแบบฟอร์มด้วยตัวเอง — ปิดใช้งานในหน้านี้ ซึ่งไม่มีที่ส่งไป'
+    select:
+      title: 'เลือก, ด้วยตัวเอง'
+      description: 'สองตัวเลือกที่กำหนดเองนอกกลุ่มแบบฟอร์ม เหมือนแถบเครื่องมือหรือแถบกรองวางพวกมัน'
+    switch:
+      title: 'สลับ, ด้วยตัวเอง'
+      description: 'ป้ายกำกับที่อยู่ทั้งสองด้าน สัญลักษณ์ข้างใน และสถานะที่ถูกเลือก'
+    switch_tone:
+      title: 'สลับพร้อมโทนเสียง และหนึ่งที่ถาม'
+      description: 'เมื่อเปิดแล้ว สลับสามารถมีสีของสถานะหรือหมวดหมู่แทนที่จะเป็นของลิงก์ หนึ่งที่สลับในสิ่งที่มีผลกระทบจะใช้ `warning` และถามก่อน: หากปฏิเสธ มันจะยังคงปิด สลับปิดไม่เคยถูกตั้งคำถาม ไม่ว่าจะด้วยวิธีใดมันจะบอก `switch:change` ไปยังหน้า'
+    switch_vue:
+      title: 'สลับ, ใน vue'
+      description: 'สลับเดียวกันภายในต้นไม้ vue ซึ่งสถานะที่ถูกเลือกเป็นสถานะและไม่ใช่คุณสมบัติข้อมูลที่สคริปต์พลิก'
+  assisted:
+    hint: 'ตัวแทนกรอกฟิลด์ด้านล่าง ทีละฟิลด์'
+    play: เล่น
+    reset: รีเซ็ต
+  field:
+    text: ชื่อเต็ม
+    textarea: ที่อยู่
+    email: อีเมล
+    url: เว็บไซต์
+    password: รหัสผ่าน
+    code: รหัสตรวจสอบ
+    number: อายุ
+    date: วันเกิด
+    time: เวลาที่ต้องการ
+    datetime: นัดหมาย
+    select: ประเทศ
+    radio: ติดต่อโดย
+    switch: ส่งข่าวสารให้ฉัน
+    file: เอกสารประจำตัว
+    emoji: อารมณ์
+    button: ปุ่ม
+    submit: ส่ง
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'ถนน, รหัสไปรษณีย์, เมือง'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: สวีเดน
+    two: โปรตุเกส
+    three: ญี่ปุ่น
+  code:
+    numeric: 'หกหลัก ตามที่ส่งโดยอีเมล'
+    backup: 'รหัสสำรอง ตัวอักษรและตัวเลข'
+    vue: 'สี่หลัก ใน vue'
+  switch:
+    tone:
+      success: ซิงค์เรียบร้อย
+      mint: ติดแท็ก
+      risky: เผยแพร่เมื่อบันทึก
+    confirm:
+      title: 'เผยแพร่เมื่อบันทึก?'
+      message: ทุกการบันทึกจะถูกเผยแพร่ในทันทีโดยไม่มีการตรวจสอบระหว่าง
+      accept: เปิดใช้งาน
+    label_right: เปิดฟีเจอร์
+    label_left: ป้ายกำกับด้านซ้าย
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Girişler
+  page_icon: 'ph:bold/textbox'
+  intro: 'Sistemin sunduğu her alan, tek bir sayfada. Şekilleri dışında ortak noktaları bir sözleşmedir: her biri, okuyan kişi dışında birine devredilebilir, bu kişi alanı doldurur ve geri verir.'
+  section:
+    assisted:
+      title: Yardım
+      description: 'Bir alan devralınabilir — bir ajan tarafından, ne yazacağını bilen herhangi bir şey tarafından. Tutulduğunda, bunu belirtir, klavye ve imleçle yanıt vermeyi durdurur ve değer, alanın kararlaştırdığı şekilde görünür: bir kelime için yazılır, bir seçenek için seçilir, bir anahtar için işaretlenir. Yardım doğası gereği geçicidir; yardımla bırakılan bir alan, kimsenin kullanamayacağı bir alandır.'
+    fields:
+      title: Alanlar
+      description: 'Her birinden bir tane, bir kez. Yukarıdaki Oynat tuşuna basın ve sırayla doldurulur, bir ajanın yapacağı çağrılarla — bu, sözleşmenin hepsi için geçerli olduğunu bilmenin tek yoludur.'
+    actions:
+      title: 'Bir formdaki butonlar'
+      description: 'Bir buton bir değer yerine bir eylem alır, bu yüzden içinde yazılacak bir şey yoktur.'
+    code:
+      title: 'Hücrelerde bir kod'
+      description: 'Hücrelerin altında bir gerçek alan, böylece sunucu bir değeri okur ve tarayıcı zaten yaptığı şeyi sürdürür: yapıştırılmış bir kod tam olarak yerleşir, bir telefon aldığı kodu sunar, geri tuşu geri gider. Doldurulduğunda, formunu kendi başına gönderir — bu sayfada kapalıdır, gönderilecek bir yeri yoktur.'
+    select:
+      title: 'Kendiliğinden Seç'
+      description: 'Form grubunun dışında iki özel seçim, bir araç çubuğu veya bir filtre çubuğu olarak yerleştirilmiştir.'
+    switch:
+      title: 'Kendiliğinden Anahtar'
+      description: 'Her iki tarafta etiketler, içinde simgeler ve işaretli durum.'
+    switch_tone:
+      title: 'Bir ton ile anahtar ve bir soru soran'
+      description: 'Bir kez açıldığında, bir anahtar bir durumun veya kategorinin rengini alabilir, bağlantının rengini değil. Sonuçları olan bir şeyi açan bir anahtar `uyarı` alır ve öncesinde sorar: reddedilirse, kapalı kalır. Kapatma asla sorgulanmaz. Her iki durumda da sayfaya `anahtar:değiştir` der.'
+    switch_vue:
+      title: 'Vue içerisinde anahtar'
+      description: 'Aynı anahtar bir vue ağacının içinde, burada işaretli durum bir durumdur ve bir betiğin çevirdiği bir veri niteliği değildir.'
+  assisted:
+    hint: 'Bir ajan aşağıdaki alanları, birer birer doldurur.'
+    play: Oynat
+    reset: Sıfırla
+  field:
+    text: 'Tam ad'
+    textarea: Adres
+    email: E-posta
+    url: 'Web sitesi'
+    password: Şifre
+    code: 'Doğrulama kodu'
+    number: Yaş
+    date: 'Doğum tarihi'
+    time: 'Tercih edilen zaman'
+    datetime: Randevu
+    select: Ülke
+    radio: 'İletişim yöntemi'
+    switch: 'Bülteni al'
+    file: 'Kimlik belgesi'
+    emoji: 'Ruh hali'
+    button: 'Bir buton'
+    submit: Gönder
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Sokak, posta kodu, şehir'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: İsveç
+    two: Portekiz
+    three: Japonya
+  code:
+    numeric: 'Altı haneli, e-posta ile gönderildiği gibi'
+    backup: 'Bir yedek kod, harfler ve rakamlar'
+    vue: 'Dört haneli, vue içinde'
+  switch:
+    tone:
+      success: 'Senkronize edildi'
+      mint: Etiketlendi
+      risky: 'Kaydettiğinde yayımlanacak'
+    confirm:
+      title: 'Kaydettiğinde yayımlansın mı?'
+      message: 'Her kaydetme, arada bir inceleme olmadan bir anda yayımlanacaktır.'
+      accept: 'Açık tut'
+    label_right: 'Özelliği etkinleştir'
+    label_left: 'Soldaki etiket'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ان پٹ'
+  page_icon: 'ph:bold/textbox'
+  intro: 'ہر وہ فیلڈ جو سسٹم کے ساتھ آتا ہے، ایک صفحے پر۔ ان کی شکل کے علاوہ ایک معاہدہ ہے: ہر ایک کو کسی اور کے حوالے کیا جا سکتا ہے جو اسے بھرے گا اور واپس دے گا۔'
+  section:
+    assisted:
+      title: مدد
+      description: 'ایک فیلڈ کو ایک ایجنٹ یا کسی بھی چیز کے ذریعے لیا جا سکتا ہے جو جانتا ہے کہ کیا لکھنا ہے۔ جب یہ تھامے ہوئے ہے تو یہ ایسا کہتا ہے، کی بورڈ اور پوائنٹر کا جواب دینا بند کر دیتا ہے، اور اس کی قیمت اس طرح ظاہر ہوتی ہے جس طرح فیلڈ فیصلہ کرتا ہے: ایک لفظ کے لئے واضح، ایک آپشن کے لئے منتخب، ایک سوئچ کے لئے ٹک کیا ہوا۔ مدد کی نوعیت عارضی ہے؛ ایک مدد کی گئی فیلڈ وہ ہوتی ہے جسے کوئی استعمال نہیں کر سکتا۔'
+    fields:
+      title: فیلڈز
+      description: 'ہر ایک کا ایک، ایک بار۔ اوپر پلے دبائیں اور انہیں باری باری بھرا جائے گا، اسی کالز کے ذریعے جو ایک ایجنٹ کرے گا — جو یہ جاننے کا واحد طریقہ ہے کہ معاہدہ ان سب کے لئے برقرار ہے۔'
+    actions:
+      title: 'فارم میں بٹن'
+      description: 'ایک بٹن ایک عمل انجام دیتا ہے نہ کہ ایک قیمت، لہذا اس میں لکھنے کے لیے کچھ نہیں ہے۔'
+    code:
+      title: 'سیلز میں ایک کوڈ'
+      description: 'سیلز کے نیچے ایک حقیقی فیلڈ، تاکہ سرور ایک قیمت پڑھے اور براؤزر وہی رکھے جو وہ پہلے سے کرتا ہے: ایک پیسٹ کیا ہوا کوڈ مکمل طور پر آتا ہے، ایک فون اسے موصول کردہ کوڈ پیش کرتا ہے، بیک اسپیس واپس جاتا ہے۔ بھرنے پر، یہ اپنے آپ اپنا فارم بھیجتا ہے — اس صفحے پر بند کر دیا گیا، جسے بھیجنے کی کوئی جگہ نہیں ہے۔'
+    select:
+      title: 'خود ہی منتخب کریں'
+      description: 'دو حسب ضرورت منتخب کریں جو ایک فارم گروپ کے باہر ہیں، جیسے کہ ایک ٹول بار یا فلٹر بار انہیں رکھتا ہے۔'
+    switch:
+      title: 'خود ہی سوئچ کریں'
+      description: 'دونوں طرف لیبل، اندر گلیف، اور چیک شدہ حالت۔'
+    switch_tone:
+      title: 'ایک لہجے کے ساتھ سوئچ، اور ایک جو پوچھتا ہے'
+      description: "ایک بار آن ہونے پر، ایک سوئچ کسی حالت یا زمرے کا رنگ لے سکتا ہے نہ کہ لنک کا۔ ایک جو کسی چیز پر سوئچ کرتا ہے جس کے نتائج ہوتے ہیں 'خبردار' لیتا ہے، اور پہلے پوچھتا ہے: انکار پر، یہ بند رہتا ہے۔ بند کرنا کبھی بھی سوال نہیں ہوتا۔ کسی بھی طرح یہ 'سوئچ:تبدیل' کو صفحے پر کہتا ہے۔"
+    switch_vue:
+      title: 'ویو میں سوئچ'
+      description: 'ویو درخت کے اندر وہی سوئچ، جہاں چیک شدہ حالت ریاست ہے اور یہ کوئی ڈیٹا ایٹریبیوٹ نہیں ہے جو اسکرپٹ پلٹتا ہے۔'
+  assisted:
+    hint: 'ایک ایجنٹ نیچے کے فیلڈز کو ایک کے بعد ایک بھرے گا۔'
+    play: چلائیں
+    reset: 'ری سیٹ کریں'
+  field:
+    text: 'مکمل نام'
+    textarea: پتہ
+    email: 'ای میل'
+    url: 'ویب سائٹ'
+    password: 'پاس ورڈ'
+    code: 'تصدیقی کوڈ'
+    number: عمر
+    date: 'پیدائش کی تاریخ'
+    time: 'پسندیدہ وقت'
+    datetime: ملاقات
+    select: ملک
+    radio: 'رابطہ کریں'
+    switch: 'مجھے نیوز لیٹر بھیجیں'
+    file: 'شناختی دستاویز'
+    emoji: موڈ
+    button: 'ایک بٹن'
+    submit: 'جمع کرائیں'
+  placeholder:
+    text: 'ما یا لنڈکوئسٹ'
+    textarea: 'گلی، پوسٹ کوڈ، شہر'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: سویڈن
+    two: پرتگال
+    three: جاپان
+  code:
+    numeric: 'چھ عدد، جیسا کہ ای میل کے ذریعے بھیجا گیا'
+    backup: 'ایک بیک اپ کوڈ، حروف اور عدد'
+    vue: 'چار عدد، ویو میں'
+  switch:
+    tone:
+      success: 'ہم وقت ساز'
+      mint: 'ٹیگ کیا ہوا'
+      risky: 'محفوظ کرنے پر شائع کریں'
+    confirm:
+      title: 'محفوظ کرنے پر شائع کریں؟'
+      message: 'ہر محفوظ کرنا ایک ساتھ شائع ہوگا، درمیان میں کوئی جائزہ نہیں۔'
+      accept: 'آن کریں'
+    label_right: 'خصوصیت فعال کریں'
+    label_left: 'بائیں طرف لیبل'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Nhập liệu'
+  page_icon: 'ph:bold/textbox'
+  intro: 'Mỗi trường mà hệ thống cung cấp, trên một trang. Điều mà chúng có điểm chung ngoài hình dạng của chúng là một hợp đồng: mỗi trường có thể được giao cho một thứ không phải là người đọc, cái mà sẽ điền và trả lại nó.'
+  section:
+    assisted:
+      title: 'Hỗ trợ'
+      description: 'Một trường có thể được tiếp quản — bởi một đại lý, bởi bất cứ thứ gì biết viết gì. Khi nó được giữ, nó nói như vậy, ngừng phản hồi với bàn phím và con trỏ, và giá trị xuất hiện theo cách mà trường quyết định: viết ra cho một từ, chọn cho một tùy chọn, đánh dấu cho một công tắc. Hỗ trợ là tạm thời theo bản chất; một trường được hỗ trợ là một trường không ai có thể sử dụng.'
+    fields:
+      title: 'Các trường'
+      description: 'Một trường cho mỗi loại, một lần. Nhấn Phát ở trên và chúng sẽ được điền lần lượt, bởi cùng một cuộc gọi mà một đại lý sẽ thực hiện — đó là cách duy nhất để biết hợp đồng có hiệu lực cho tất cả chúng.'
+    actions:
+      title: 'Nút trong một mẫu'
+      description: 'Một nút thực hiện một hành động thay vì một giá trị, vì vậy không có gì cho một đại lý viết vào nó.'
+    code:
+      title: 'Một mã, trong ô'
+      description: 'Một trường thực sự dưới các ô, vì vậy máy chủ đọc một giá trị và trình duyệt giữ những gì nó đã làm: một mã dán sẽ đến nguyên vẹn, một điện thoại cung cấp mã mà nó nhận được, phím xóa sẽ trở về. Đã được điền, nó tự gửi mẫu của mình — tắt trên trang này, nơi không có chỗ nào để gửi nó.'
+    select:
+      title: 'Chọn, tự nó'
+      description: 'Hai lựa chọn tùy chỉnh bên ngoài một nhóm mẫu, như một thanh công cụ hoặc một thanh lọc đặt chúng.'
+    switch:
+      title: 'Công tắc, tự nó'
+      description: 'Nhãn ở hai bên, biểu tượng bên trong, và trạng thái đã chọn.'
+    switch_tone:
+      title: 'Một công tắc có tông màu, và một cái hỏi'
+      description: 'Khi được bật, một công tắc có thể mang màu sắc của một trạng thái hoặc của một loại thay vì của liên kết. Một công tắc kích hoạt một cái gì đó có hậu quả mang `cảnh báo`, và hỏi trước: nếu bị từ chối, nó sẽ giữ tắt. Việc tắt không bao giờ bị chất vấn. Dù sao đi nữa, nó nói `switch:change` với trang.'
+    switch_vue:
+      title: 'Công tắc, trong vue'
+      description: 'Công tắc giống nhau bên trong một cây vue, nơi trạng thái đã chọn là trạng thái và không phải là một thuộc tính dữ liệu mà một kịch bản lật lại.'
+  assisted:
+    hint: 'Một đại lý điền các trường bên dưới, từng cái một.'
+    play: Phát
+    reset: 'Đặt lại'
+  field:
+    text: 'Họ và tên'
+    textarea: 'Địa chỉ'
+    email: E-mail
+    url: Website
+    password: 'Mật khẩu'
+    code: 'Mã xác minh'
+    number: Tuổi
+    date: 'Ngày sinh'
+    time: 'Thời gian ưa thích'
+    datetime: 'Cuộc hẹn'
+    select: 'Quốc gia'
+    radio: 'Liên hệ qua'
+    switch: 'Gửi cho tôi bản tin'
+    file: 'Giấy tờ tùy thân'
+    emoji: 'Tâm trạng'
+    button: 'Một nút'
+    submit: Gửi
+  placeholder:
+    text: 'Maya Lindqvist'
+    textarea: 'Đường, mã bưu điện, thành phố'
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: 'Thụy Điển'
+    two: 'Bồ Đào Nha'
+    three: 'Nhật Bản'
+  code:
+    numeric: 'Sáu chữ số, như đã gửi qua e-mail'
+    backup: 'Một mã sao lưu, chữ cái và chữ số'
+    vue: 'Bốn chữ số, trong vue'
+  switch:
+    tone:
+      success: 'Đã đồng bộ'
+      mint: 'Đã gán nhãn'
+      risky: 'Xuất bản khi lưu'
+    confirm:
+      title: 'Xuất bản khi lưu?'
+      message: 'Mỗi lần lưu sẽ được xuất bản ngay lập tức, không có kiểm tra nào ở giữa.'
+      accept: Bật
+    label_right: 'Kích hoạt tính năng'
+    label_left: 'Nhãn bên trái'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 输入
+  page_icon: 'ph:bold/textbox'
+  intro: 系统提供的每个字段，集中在一页上。它们除了形状之外的共同点是一个契约：每个字段都可以交给不阅读的人来填写并返回。
+  section:
+    assisted:
+      title: 辅助
+      description: 一个字段可以被接管——由代理人或者任何知道该写什么的东西。在被接管时，它会这样显示，停止响应键盘和指针，值以字段决定的方式出现：为一个单词拼写，为一个选项选择，为一个开关勾选。辅助本质上是临时的；一个被辅助的字段是一个没人能使用的字段。
+    fields:
+      title: 字段
+      description: 每个字段各一个。点击上方的播放，它们会轮流被填充，由代理人会做的相同调用——这是唯一知道契约对所有字段都有效的方法。
+    actions:
+      title: 表单中的按钮
+      description: 按钮执行一个动作而不是一个值，因此代理人无法写入其中。
+    code:
+      title: 单元格中的代码
+      description: 单元格下方有一个真实字段，因此服务器读取一个值而浏览器保持它已有的功能：粘贴的代码完整到达，手机提供它收到的代码，退格键返回。填充后，它会自动发送其表单——在这个页面上关闭，因为没有地方可以发送。
+    select:
+      title: 自选
+      description: 两个自定义选择在表单组外，像工具栏或过滤器栏一样放置。
+    switch:
+      title: 自开关
+      description: 两侧有标签，内部有图标，以及选中状态。
+    switch_tone:
+      title: 带色调的开关，以及一个询问的开关
+      description: '一旦开启，开关可以呈现状态或类别的颜色，而不是链接的颜色。一个开关在切换某些有后果的东西时会带有`警告`，并在之前询问：拒绝后，它保持关闭。关闭从不被质疑。无论哪种方式，它都会向页面发送`switch:change`。'
+    switch_vue:
+      title: 在vue中的开关
+      description: 同样的开关在vue树中，选中状态是状态而不是脚本翻转的数据属性。
+  assisted:
+    hint: 代理人依次填写下面的字段。
+    play: 播放
+    reset: 重置
+  field:
+    text: 全名
+    textarea: 地址
+    email: 电子邮件
+    url: 网站
+    password: 密码
+    code: 验证码
+    number: 年龄
+    date: 出生日期
+    time: 首选时间
+    datetime: 预约
+    select: 国家
+    radio: 联系方式
+    switch: 给我发送新闻简报
+    file: 身份文件
+    emoji: 心情
+    button: 一个按钮
+    submit: 提交
+  placeholder:
+    text: 玛雅·林德奎斯特
+    textarea: 街道，邮政编码，城市
+    email: maya@example.com
+    url: 'https://example.com'
+  choice:
+    one: 瑞典
+    two: 葡萄牙
+    three: 日本
+  code:
+    numeric: 六位数字，如电子邮件所发送的
+    backup: 备份代码，字母和数字
+    vue: 四位数字，在vue中
+  switch:
+    tone:
+      success: 已同步
+      mint: 已标记
+      risky: 保存时发布
+    confirm:
+      title: 保存时发布？
+      message: 每次保存将同时发布，没有中间审核。
+      accept: 开启
+    label_right: 启用功能
+    label_left: 左侧标签

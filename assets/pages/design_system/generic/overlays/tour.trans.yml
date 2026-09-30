@@ -1,0 +1,787 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Tour
+  page_icon: ph:bold/signpost
+
+  intro: "A guided tour of a page: one step at a time, the element it is about lit in a dimmed page and a card beside it, with the way on and the way out. It starts on its own for a visitor who has neither finished nor dismissed it — what they did is kept, and it does not come back — and any element carrying data-tour-start plays it again. The arrows of the keyboard move through it, Escape leaves it."
+
+  start: Play the tour
+
+  status:
+    none: You have not seen this tour yet — it starts on its own.
+    completed: You went through this tour; it will not start on its own again.
+    dismissed: You closed this tour before its end; it will not start on its own again.
+
+  area:
+    filters:
+      title: Filters
+      body: What the list shows.
+    list:
+      title: The list
+      body: What there is.
+    export:
+      title: Export
+      body: What leaves the page.
+
+  step:
+    welcome:
+      title: Welcome
+      body: A short tour of this page. Use the arrows of the keyboard, or the buttons below.
+    filters:
+      title: Narrow it down
+      body: The filters decide what the list shows; they are kept in the address.
+    list:
+      title: What there is
+      body: Each row opens its detail beside the list.
+    export:
+      title: Take it with you
+      body: The export takes what the filters kept, nothing more.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: جولة
+  page_icon: 'ph:bold/signpost'
+  intro: 'جولة موجهة في الصفحة: خطوة بخطوة، العنصر المعني مضاء في صفحة مظللة وبطاقة بجانبه، مع الاتجاه للدخول والخروج. تبدأ تلقائياً للزائر الذي لم ينتهِ منها أو يغلقها - ما فعله مُحتفظ به، ولا تعود مرة أخرى - وأي عنصر يحمل data-tour-start يعيد تشغيلها. تتحرك الأسهم بواسطة لوحة المفاتيح من خلالها، والزر Escape يخرج منها.'
+  start: 'ابدأ الجولة'
+  status:
+    none: 'لم تشاهد هذه الجولة بعد - تبدأ تلقائياً.'
+    completed: 'لقد مررت بهذه الجولة؛ لن تبدأ تلقائياً مرة أخرى.'
+    dismissed: 'لقد أغلقت هذه الجولة قبل انتهائها؛ لن تبدأ تلقائياً مرة أخرى.'
+  area:
+    filters:
+      title: الفلاتر
+      body: 'ما تظهره القائمة.'
+    list:
+      title: القائمة
+      body: 'ما هو موجود.'
+    export:
+      title: تصدير
+      body: 'ما يغادر الصفحة.'
+  step:
+    welcome:
+      title: 'مرحبا بك'
+      body: 'جولة قصيرة في هذه الصفحة. استخدم أسهم لوحة المفاتيح، أو الأزرار أدناه.'
+    filters:
+      title: 'تضييق المجال'
+      body: 'تحدد الفلاتر ما تظهره القائمة؛ تُحتفظ في العنوان.'
+    list:
+      title: 'ما هو موجود'
+      body: 'يفتح كل صف تفاصيله بجانب القائمة.'
+    export:
+      title: 'خذها معك'
+      body: 'التصدير يأخذ ما احتفظت به الفلاتر، لا شيء أكثر.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ভ্রমণ
+  page_icon: 'ph:bold/signpost'
+  intro: 'একটি পৃষ্ঠার গাইডেড ট্যুর: এক সময়ে একটি পদক্ষেপ, এটি সম্পর্কে যে উপাদানটি রয়েছে তা একটি ম্লান পৃষ্ঠায় আলোকিত এবং তার পাশে একটি কার্ড, সঙ্গে পথে এবং বের হওয়ার পথে। এটি নিজের থেকেই শুরু হয় একটি দর্শকের জন্য যিনি এটি শেষ করেননি বা বাতিল করেননি — তাদের করা কাজ রাখা হয়, এবং এটি আবার ফিরে আসে না — এবং যে কোনও উপাদান যার মধ্যে data-tour-start রয়েছে তা আবার চালায়। কীবোর্ডের তীরগুলি এর মধ্য দিয়ে চলে, Escape এটি বন্ধ করে।'
+  start: 'ভ্রমণ শুরু করুন'
+  status:
+    none: 'আপনি এখনও এই ভ্রমণটি দেখেননি — এটি নিজের থেকেই শুরু হয়।'
+    completed: 'আপনি এই ভ্রমণটি সম্পন্ন করেছেন; এটি আবার নিজের থেকেই শুরু হবে না।'
+    dismissed: 'আপনি এই ভ্রমণটি শেষ হওয়ার আগে বন্ধ করেছেন; এটি আবার নিজের থেকেই শুরু হবে না।'
+  area:
+    filters:
+      title: ফিল্টার
+      body: 'তালিকাটি কী দেখায়।'
+    list:
+      title: তালিকা
+      body: 'এখানে কী আছে।'
+    export:
+      title: রপ্তানি
+      body: 'পৃষ্ঠাটি থেকে কী বের হয়।'
+  step:
+    welcome:
+      title: স্বাগতম
+      body: 'এই পৃষ্ঠার একটি সংক্ষিপ্ত ট্যুর। কীবোর্ডের তীরগুলি ব্যবহার করুন, অথবা নিচের বোতামগুলি।'
+    filters:
+      title: 'এটি সংকীর্ণ করুন'
+      body: 'ফিল্টারগুলি নির্ধারণ করে তালিকাটি কী দেখাবে; এগুলি ঠিকানায় রাখা হয়।'
+    list:
+      title: 'এখানে কী আছে'
+      body: 'প্রতিটি সারি তার পাশে তালিকার বিশদ খুলে।'
+    export:
+      title: 'এটি আপনার সঙ্গে নিন'
+      body: 'রপ্তানি ফিল্টার দ্বারা রাখা তথ্য নিয়ে আসে, আর কিছু নয়।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tour
+  page_icon: 'ph:bold/signpost'
+  intro: 'Eine geführte Tour über eine Seite: Schritt für Schritt wird das jeweilige Element auf einer abgedunkelten Seite hervorgehoben, daneben befindet sich eine Karte mit dem Weg hinein und hinaus. Sie beginnt automatisch für einen Besucher, der sie weder abgeschlossen noch abgebrochen hat – das, was er getan hat, wird gespeichert, und sie kommt nicht zurück – und jedes Element mit dem Datenattribut data-tour-start spielt sie erneut ab. Die Pfeiltasten der Tastatur navigieren durch die Tour, Escape verlässt sie.'
+  start: 'Tour starten'
+  status:
+    none: 'Du hast diese Tour noch nicht gesehen – sie beginnt automatisch.'
+    completed: 'Du hast diese Tour abgeschlossen; sie wird nicht automatisch erneut gestartet.'
+    dismissed: 'Du hast diese Tour vor dem Ende geschlossen; sie wird nicht automatisch erneut gestartet.'
+  area:
+    filters:
+      title: Filter
+      body: 'Was die Liste anzeigt.'
+    list:
+      title: 'Die Liste'
+      body: 'Was vorhanden ist.'
+    export:
+      title: Exportieren
+      body: 'Was die Seite verlässt.'
+  step:
+    welcome:
+      title: Willkommen
+      body: 'Eine kurze Tour über diese Seite. Nutze die Pfeiltasten auf der Tastatur oder die Schaltflächen unten.'
+    filters:
+      title: Eingrenzen
+      body: 'Die Filter entscheiden, was die Liste anzeigt; sie werden in der Adresse gespeichert.'
+    list:
+      title: 'Was vorhanden ist'
+      body: 'Jede Zeile öffnet ihre Details neben der Liste.'
+    export:
+      title: 'Nimm es mit'
+      body: 'Der Export nimmt das, was die Filter behalten haben, nichts weiter.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tour
+  page_icon: 'ph:bold/signpost'
+  intro: 'Una visita guiada de una página: paso a paso, el elemento del que se trata iluminado en una página atenuada y una tarjeta al lado, con el camino de entrada y el de salida. Comienza por sí solo para un visitante que no lo ha terminado ni lo ha desestimado: lo que hicieron se mantiene, y no regresa; y cualquier elemento que lleve data-tour-start lo reproduce nuevamente. Las flechas del teclado permiten navegar por él, Escape lo cierra.'
+  start: 'Reproducir el tour'
+  status:
+    none: 'No has visto este tour aún — comienza por sí solo.'
+    completed: 'Has recorrido este tour; no comenzará por sí solo nuevamente.'
+    dismissed: 'Cerraste este tour antes de que terminara; no comenzará por sí solo nuevamente.'
+  area:
+    filters:
+      title: Filtros
+      body: 'Lo que muestra la lista.'
+    list:
+      title: 'La lista'
+      body: 'Lo que hay.'
+    export:
+      title: Exportar
+      body: 'Lo que sale de la página.'
+  step:
+    welcome:
+      title: Bienvenido
+      body: 'Una breve visita a esta página. Usa las flechas del teclado, o los botones de abajo.'
+    filters:
+      title: Redúcelo
+      body: 'Los filtros deciden lo que muestra la lista; se mantienen en la dirección.'
+    list:
+      title: 'Lo que hay'
+      body: 'Cada fila abre su detalle al lado de la lista.'
+    export:
+      title: 'Llévatelo contigo'
+      body: 'La exportación toma lo que los filtros mantienen, nada más.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تور
+  page_icon: 'ph:bold/signpost'
+  intro: 'یک تور راهنما از یک صفحه: قدم به قدم، عنصری که درباره‌اش صحبت می‌شود در صفحه‌ای کمرنگ روشن می‌شود و یک کارت در کنار آن، با راه ورودی و خروجی. این تور به‌طور خودکار برای بازدیدکننده‌ای که نه آن را به پایان رسانده و نه رد کرده است شروع می‌شود — آنچه انجام داده‌اند حفظ می‌شود و دوباره برنمی‌گردد — و هر عنصر دارای داده‌های data-tour-start دوباره آن را پخش می‌کند. کلیدهای جهت‌نما در آن حرکت می‌کنند، Escape آن را ترک می‌کند.'
+  start: 'شروع تور'
+  status:
+    none: 'شما هنوز این تور را ندیده‌اید — به‌طور خودکار شروع می‌شود.'
+    completed: 'شما از این تور عبور کردید؛ دوباره به‌طور خودکار شروع نخواهد شد.'
+    dismissed: 'شما این تور را قبل از پایان آن بستید؛ دوباره به‌طور خودکار شروع نخواهد شد.'
+  area:
+    filters:
+      title: فیلترها
+      body: 'آنچه در لیست نمایش داده می‌شود.'
+    list:
+      title: لیست
+      body: 'آنچه وجود دارد.'
+    export:
+      title: صادرات
+      body: 'آنچه از صفحه خارج می‌شود.'
+  step:
+    welcome:
+      title: 'خوش آمدید'
+      body: 'یک تور کوتاه از این صفحه. از کلیدهای جهت‌نما استفاده کنید، یا دکمه‌های زیر.'
+    filters:
+      title: 'محدود کردن'
+      body: 'فیلترها تصمیم می‌گیرند که لیست چه چیزی را نشان می‌دهد؛ آنها در آدرس حفظ می‌شوند.'
+    list:
+      title: 'آنچه وجود دارد'
+      body: 'هر ردیف جزئیات خود را در کنار لیست باز می‌کند.'
+    export:
+      title: 'با خود ببرید'
+      body: 'صادرات آنچه را که فیلترها حفظ کرده‌اند می‌گیرد، و بس.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kierros
+  page_icon: 'ph:bold/signpost'
+  intro: 'Ohjattu kierros sivusta: askel kerrallaan, asiaan liittyvä elementti valaistuna himmeällä sivulla ja kortti sen vieressä, kulku- ja poistumistie. Se alkaa itsestään vierailijalle, joka ei ole vielä päättänyt tai sulkenut sitä — mitä he tekivät säilytetään, eikä se palaudu — ja mikä tahansa elementti, jossa on data-tour-start, toistaa sen uudelleen. Näppäimistön nuolipainikkeet liikkuvat sen läpi, Escape poistuu siitä.'
+  start: 'Aloita kierros'
+  status:
+    none: 'Et ole vielä nähnyt tätä kierrosta — se alkaa itsestään.'
+    completed: 'Kävit tämän kierroksen läpi; se ei ala itsestään uudelleen.'
+    dismissed: 'Sulkisit tämän kierroksen ennen sen loppua; se ei ala itsestään uudelleen.'
+  area:
+    filters:
+      title: Suodattimet
+      body: 'Mitä lista näyttää.'
+    list:
+      title: Lista
+      body: 'Mitä on saatavilla.'
+    export:
+      title: Vie
+      body: 'Mikä lähtee sivulta.'
+  step:
+    welcome:
+      title: Tervetuloa
+      body: 'Lyhyt kierros tästä sivusta. Käytä näppäimistön nuolia tai alla olevia painikkeita.'
+    filters:
+      title: 'Rajoita valintaa'
+      body: 'Suodattimet päättävät, mitä lista näyttää; ne säilytetään osoitteessa.'
+    list:
+      title: 'Mitä on'
+      body: 'Jokainen rivi avaa yksityiskohdat listan vieressä.'
+    export:
+      title: 'Ota se mukaasi'
+      body: 'Vienti ottaa sen, mitä suodattimet säilyttivät, ei enempää.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Visite
+  page_icon: 'ph:bold/panneau'
+  intro: "Une visite guidée d'une page : étape par étape, l'élément concerné est éclairé sur une page assombrie et une carte à côté, avec le chemin d'entrée et de sortie. Elle commence d'elle-même pour un visiteur qui ne l'a ni terminée ni rejetée — ce qu'il a fait est conservé et elle ne revient pas — et tout élément portant des données-tour-start la relance. Les flèches du clavier naviguent à travers, Échap le quitte."
+  start: 'Jouer la visite'
+  status:
+    none: "Vous n'avez pas encore vu cette visite — elle commence d'elle-même."
+    completed: "Vous avez terminé cette visite ; elle ne recommencera pas d'elle-même."
+    dismissed: "Vous avez fermé cette visite avant sa fin ; elle ne recommencera pas d'elle-même."
+  area:
+    filters:
+      title: Filtres
+      body: 'Ce que la liste montre.'
+    list:
+      title: 'La liste'
+      body: "Ce qu'il y a."
+    export:
+      title: Exporter
+      body: 'Ce qui quitte la page.'
+  step:
+    welcome:
+      title: Bienvenue
+      body: 'Une courte visite de cette page. Utilisez les flèches du clavier ou les boutons ci-dessous.'
+    filters:
+      title: Affinez
+      body: "Les filtres décident de ce que la liste montre ; ils sont conservés dans l'adresse."
+    list:
+      title: "Ce qu'il y a"
+      body: 'Chaque ligne ouvre son détail à côté de la liste.'
+    export:
+      title: 'Emportez-le avec vous'
+      body: "L'exportation prend ce que les filtres ont conservé, rien de plus."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: סיור
+  page_icon: 'ph:bold/signpost'
+  intro: 'סיור מודרך של העמוד: שלב אחרי שלב, האלמנט המדובר מואר בעמוד מעומעם וכרטיס לידו, עם הדרך פנימה והדרך החוצה. הוא מתחיל מעצמו עבור מבקר שלא סיים או דחה אותו — מה שהם עשו נשמר, והוא לא יחזור — וכל אלמנט שמכיל data-tour-start מפעיל אותו שוב. חיצי המקלדת נעים דרכו, Escape יוצא ממנו.'
+  start: 'שחק את הסיור'
+  status:
+    none: 'לא ראית את הסיור הזה עדיין — הוא מתחיל מעצמו.'
+    completed: 'עברתי את הסיור הזה; הוא לא יתחיל מעצמו שוב.'
+    dismissed: 'סגרת את הסיור הזה לפני סופו; הוא לא יתחיל מעצמו שוב.'
+  area:
+    filters:
+      title: מסננים
+      body: 'מה שהרשימה מראה.'
+    list:
+      title: הרשימה
+      body: 'מה שיש.'
+    export:
+      title: ייצוא
+      body: 'מה שיוצא מהעמוד.'
+  step:
+    welcome:
+      title: 'ברוך הבא'
+      body: 'סיור קצר בעמוד הזה. השתמש בחיצי המקלדת, או בכפתורים למטה.'
+    filters:
+      title: 'צמצם את זה'
+      body: 'המסננים קובעים מה הרשימה מראה; הם נשמרים בכתובת.'
+    list:
+      title: 'מה שיש'
+      body: 'כל שורה פותחת את פרטיה לצד הרשימה.'
+    export:
+      title: 'קח את זה איתך'
+      body: 'הייצוא לוקח את מה שהמסננים שמרו, שום דבר יותר.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: टूर
+  page_icon: 'ph:bold/signpost'
+  intro: 'एक पृष्ठ का मार्गदर्शित टूर: एक बार में एक कदम, जिस तत्व के बारे में है वह मंद पृष्ठ में रोशन होता है और इसके बगल में एक कार्ड होता है, जिसमें जाने का रास्ता और बाहर जाने का रास्ता होता है। यह अपने आप एक आगंतुक के लिए शुरू होता है जिसने न तो इसे खत्म किया है और न ही इसे खारिज किया है - जो उन्होंने किया है वह रखा गया है, और यह वापस नहीं आता है - और कोई भी तत्व जो डेटा-tour-start ले जाता है, इसे फिर से चलाता है। कीबोर्ड के तीर इसके माध्यम से चलते हैं, Escape इसे छोड़ देता है।'
+  start: 'टूर खेलें'
+  status:
+    none: 'आपने अभी तक यह टूर नहीं देखा - यह अपने आप शुरू होता है।'
+    completed: 'आपने इस टूर को पूरा किया; यह फिर से अपने आप शुरू नहीं होगा।'
+    dismissed: 'आपने इस टूर को इसके अंत से पहले बंद कर दिया; यह फिर से अपने आप शुरू नहीं होगा।'
+  area:
+    filters:
+      title: फिल्टर
+      body: 'सूची क्या दिखाती है।'
+    list:
+      title: सूची
+      body: 'यहाँ क्या है।'
+    export:
+      title: निर्यात
+      body: 'जो पृष्ठ को छोड़ता है।'
+  step:
+    welcome:
+      title: 'स्वागत है'
+      body: 'इस पृष्ठ का एक संक्षिप्त टूर। कीबोर्ड के तीरों का उपयोग करें, या नीचे दिए गए बटन।'
+    filters:
+      title: 'संकीर्ण करें'
+      body: 'फिल्टर तय करते हैं कि सूची क्या दिखाती है; उन्हें पते में रखा जाता है।'
+    list:
+      title: 'यहाँ क्या है'
+      body: 'प्रत्येक पंक्ति अपनी विस्तार को सूची के बगल में खोलती है।'
+    export:
+      title: 'इसे अपने साथ ले जाएं'
+      body: 'निर्यात वही ले जाता है जो फिल्टर ने रखा है, और कुछ नहीं।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tur
+  page_icon: 'ph:bold/signpost'
+  intro: 'Tur terpandu dari sebuah halaman: satu langkah demi langkah, elemen yang dimaksud akan diterangi di halaman yang redup dan sebuah kartu di sampingnya, dengan jalan masuk dan jalan keluar. Ini dimulai secara otomatis untuk pengunjung yang belum menyelesaikannya atau menolaknya — apa yang mereka lakukan disimpan, dan tidak akan kembali — dan elemen mana pun yang membawa data-tour-start akan memutarnya lagi. Tombol panah pada keyboard bergerak melaluinya, Escape keluar dari tur.'
+  start: 'Mulai tur'
+  status:
+    none: 'Anda belum melihat tur ini — tur dimulai secara otomatis.'
+    completed: 'Anda telah menyelesaikan tur ini; tur tidak akan dimulai secara otomatis lagi.'
+    dismissed: 'Anda menutup tur ini sebelum selesai; tur tidak akan dimulai secara otomatis lagi.'
+  area:
+    filters:
+      title: Filter
+      body: 'Apa yang ditampilkan dalam daftar.'
+    list:
+      title: Daftar
+      body: 'Apa yang ada.'
+    export:
+      title: Ekspor
+      body: 'Apa yang keluar dari halaman.'
+  step:
+    welcome:
+      title: 'Selamat datang'
+      body: 'Tur singkat halaman ini. Gunakan tombol panah pada keyboard, atau tombol di bawah.'
+    filters:
+      title: 'Persempit pilihan'
+      body: 'Filter menentukan apa yang ditampilkan dalam daftar; mereka disimpan dalam alamat.'
+    list:
+      title: 'Apa yang ada'
+      body: 'Setiap baris membuka detailnya di samping daftar.'
+    export:
+      title: 'Bawa bersamamu'
+      body: 'Ekspor mengambil apa yang disimpan oleh filter, tidak lebih.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tour
+  page_icon: 'ph:bold/signpost'
+  intro: "Un tour guidato di una pagina: un passo alla volta, l'elemento di cui si tratta è evidenziato in una pagina attenuata e una scheda accanto ad esso, con la strada da seguire e quella da cui uscire. Inizia automaticamente per un visitatore che non l'ha né completato né chiuso — ciò che hanno fatto è conservato, e non ritorna — e qualsiasi elemento con data-tour-start lo riproduce di nuovo. Le frecce della tastiera navigano attraverso di esso, Escape lo chiude."
+  start: 'Inizia il tour'
+  status:
+    none: 'Non hai ancora visto questo tour — inizia automaticamente.'
+    completed: 'Hai completato questo tour; non inizierà automaticamente di nuovo.'
+    dismissed: 'Hai chiuso questo tour prima della fine; non inizierà automaticamente di nuovo.'
+  area:
+    filters:
+      title: Filtri
+      body: "Cosa mostra l'elenco."
+    list:
+      title: "L'elenco"
+      body: "Cosa c'è."
+    export:
+      title: Esporta
+      body: 'Cosa esce dalla pagina.'
+  step:
+    welcome:
+      title: Benvenuto
+      body: 'Un breve tour di questa pagina. Usa le frecce della tastiera, o i pulsanti qui sotto.'
+    filters:
+      title: 'Affina i risultati'
+      body: "I filtri decidono cosa mostra l'elenco; vengono mantenuti nell'indirizzo."
+    list:
+      title: "Cosa c'è"
+      body: "Ogni riga apre il suo dettaglio accanto all'elenco."
+    export:
+      title: 'Portalo con te'
+      body: "L'esportazione prende ciò che i filtri hanno mantenuto, nient'altro."
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ツアー
+  page_icon: 'ph:bold/signpost'
+  intro: 'ページのガイドツアー：一歩ずつ、その要素が薄暗いページで照らされ、その横にカードが表示され、進む道と出口が示されます。訪問者が終了やキャンセルをしていない場合は自動的に開始されます — 彼らが行ったことは保持され、再度表示されることはありません — データツアースタートを持つ要素がそれを再生します。キーボードの矢印で移動し、Escキーで終了します。'
+  start: ツアーを開始
+  status:
+    none: 'このツアーはまだ見ていません — 自動的に開始されます。'
+    completed: このツアーを終えました；再度自動的に開始することはありません。
+    dismissed: ツアーを終了前に閉じました；再度自動的に開始することはありません。
+  area:
+    filters:
+      title: フィルター
+      body: リストが表示する内容。
+    list:
+      title: リスト
+      body: 存在するもの。
+    export:
+      title: エクスポート
+      body: ページから出ていくもの。
+  step:
+    welcome:
+      title: ようこそ
+      body: このページの簡単なツアーです。キーボードの矢印、または下のボタンを使用してください。
+    filters:
+      title: 絞り込み
+      body: フィルターはリストが表示する内容を決定します；アドレスに保持されます。
+    list:
+      title: 存在するもの
+      body: 各行はリストの横に詳細を表示します。
+    export:
+      title: 持って行く
+      body: エクスポートはフィルターが保持した内容を取り出します、それ以上はありません。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 투어
+  page_icon: 'ph:bold/signpost'
+  intro: '페이지에 대한 가이드 투어: 한 걸음씩 진행되며, 해당 요소는 어두운 페이지에서 강조되고 옆에 카드가 표시됩니다. 진행 경로와 종료 경로가 함께 제공됩니다. 사용자가 완료하지 않았거나 투어를 거부하지 않은 경우 자동으로 시작됩니다 — 사용자가 한 작업은 유지되며 다시 나타나지 않습니다 — 데이터 투어 시작을 가진 모든 요소는 다시 재생됩니다. 키보드의 화살표로 이동하며, Escape 키를 누르면 종료됩니다.'
+  start: '투어 시작'
+  status:
+    none: '이 투어를 아직 보지 않았습니다 — 자동으로 시작됩니다.'
+    completed: '이 투어를 완료했습니다; 다시 자동으로 시작되지 않습니다.'
+    dismissed: '투어를 끝내기 전에 닫았습니다; 다시 자동으로 시작되지 않습니다.'
+  area:
+    filters:
+      title: 필터
+      body: '목록에서 보여주는 내용입니다.'
+    list:
+      title: 목록
+      body: '존재하는 내용입니다.'
+    export:
+      title: 내보내기
+      body: '페이지에서 나가는 내용입니다.'
+  step:
+    welcome:
+      title: 환영합니다
+      body: '이 페이지에 대한 짧은 투어입니다. 키보드의 화살표 또는 아래 버튼을 사용하세요.'
+    filters:
+      title: '범위를 좁히세요'
+      body: '필터는 목록에서 보여주는 내용을 결정하며, 주소에 유지됩니다.'
+    list:
+      title: '존재하는 내용'
+      body: '각 행은 목록 옆에 세부 정보를 엽니다.'
+    export:
+      title: 가져가세요
+      body: '내보내기는 필터가 유지한 내용을 가져가며, 그 이상은 없습니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Rondleiding
+  page_icon: 'ph:bold/signpost'
+  intro: 'Een begeleide rondleiding door een pagina: stap voor stap, het element waar het om gaat wordt verlicht op een verduisterde pagina en een kaart ernaast, met de weg erin en de weg eruit. Het start automatisch voor een bezoeker die het nog niet heeft afgemaakt of afgewimpeld — wat ze deden wordt bewaard, en het komt niet terug — en elk element met data-tour-start speelt het opnieuw af. De pijlen van het toetsenbord navigeren erdoorheen, Escape verlaat het.'
+  start: 'Speel de rondleiding'
+  status:
+    none: 'Je hebt deze rondleiding nog niet gezien — het start automatisch.'
+    completed: 'Je hebt deze rondleiding doorlopen; het zal niet opnieuw automatisch starten.'
+    dismissed: 'Je hebt deze rondleiding vóór het einde gesloten; het zal niet opnieuw automatisch starten.'
+  area:
+    filters:
+      title: Filters
+      body: 'Wat de lijst toont.'
+    list:
+      title: 'De lijst'
+      body: 'Wat er is.'
+    export:
+      title: Exporteren
+      body: 'Wat de pagina verlaat.'
+  step:
+    welcome:
+      title: Welkom
+      body: 'Een korte rondleiding door deze pagina. Gebruik de pijlen van het toetsenbord, of de knoppen hieronder.'
+    filters:
+      title: 'Beperk het'
+      body: 'De filters bepalen wat de lijst toont; ze worden bewaard in het adres.'
+    list:
+      title: 'Wat er is'
+      body: 'Elke rij opent de details ernaast in de lijst.'
+    export:
+      title: 'Neem het mee'
+      body: 'De export neemt wat de filters hebben bewaard, niets meer.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Wycieczka
+  page_icon: 'ph:bold/signpost'
+  intro: 'Prowadzona wycieczka po stronie: krok po kroku, element, którego dotyczy, podświetlony na przyciemnionej stronie, a obok niego karta z drogą do i z niej. Rozpoczyna się automatycznie dla odwiedzającego, który ani nie zakończył, ani nie odrzucił wycieczki — to, co zrobili, jest zachowane i nie wraca — a każdy element z danymi data-tour-start uruchamia ją ponownie. Strzałki na klawiaturze poruszają się przez nią, a klawisz Escape ją zamyka.'
+  start: 'Rozpocznij wycieczkę'
+  status:
+    none: 'Nie widziałeś jeszcze tej wycieczki — rozpoczyna się automatycznie.'
+    completed: 'Przeszedłeś tę wycieczkę; nie rozpocznie się ponownie automatycznie.'
+    dismissed: 'Zamknąłeś tę wycieczkę przed jej zakończeniem; nie rozpocznie się ponownie automatycznie.'
+  area:
+    filters:
+      title: Filtry
+      body: 'Co pokazuje lista.'
+    list:
+      title: Lista
+      body: 'Co jest dostępne.'
+    export:
+      title: Eksport
+      body: 'Co opuszcza stronę.'
+  step:
+    welcome:
+      title: Witamy
+      body: 'Krótka wycieczka po tej stronie. Użyj strzałek na klawiaturze lub przycisków poniżej.'
+    filters:
+      title: 'Zawężenie wyników'
+      body: 'Filtry decydują, co pokazuje lista; są zachowywane w adresie.'
+    list:
+      title: 'Co jest dostępne'
+      body: 'Każdy wiersz otwiera szczegóły obok listy.'
+    export:
+      title: 'Zabierz to ze sobą'
+      body: 'Eksportuje to, co zachowały filtry, nic więcej.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tour
+  page_icon: 'ph:bold/signpost'
+  intro: 'Um tour guiado de uma página: passo a passo, o elemento em questão é destacado em uma página atenuada e um cartão ao lado, com o caminho a seguir e a saída. Começa automaticamente para um visitante que não o finalizou ou descartou — o que ele fez é mantido, e não volta — e qualquer elemento com dados de data-tour-start o reproduz novamente. As setas do teclado navegam por ele, Escape o fecha.'
+  start: 'Iniciar o tour'
+  status:
+    none: 'Você ainda não viu este tour — ele começa automaticamente.'
+    completed: 'Você completou este tour; ele não começará automaticamente novamente.'
+    dismissed: 'Você fechou este tour antes do final; ele não começará automaticamente novamente.'
+  area:
+    filters:
+      title: Filtros
+      body: 'O que a lista mostra.'
+    list:
+      title: 'A lista'
+      body: 'O que há.'
+    export:
+      title: Exportar
+      body: 'O que sai da página.'
+  step:
+    welcome:
+      title: Bem-vindo
+      body: 'Um breve tour por esta página. Use as setas do teclado ou os botões abaixo.'
+    filters:
+      title: 'Aperte a busca'
+      body: 'Os filtros decidem o que a lista mostra; eles são mantidos no endereço.'
+    list:
+      title: 'O que há'
+      body: 'Cada linha abre seu detalhe ao lado da lista.'
+    export:
+      title: 'Leve com você'
+      body: 'A exportação leva o que os filtros mantiveram, nada mais.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Экскурсия
+  page_icon: 'ph:bold/signpost'
+  intro: 'Пошаговая экскурсия по странице: один шаг за раз, элемент, о котором идет речь, подсвечен на затемненной странице, и рядом с ним карточка с указанием пути вперед и назад. Она начинается автоматически для посетителя, который не завершил и не закрыл её — то, что он сделал, сохраняется, и она не повторяется — и любой элемент с данными data-tour-start запускает её снова. Стрелки на клавиатуре перемещаются по ней, клавиша Escape закрывает её.'
+  start: 'Начать экскурсию'
+  status:
+    none: 'Вы еще не видели эту экскурсию — она начинает автоматически.'
+    completed: 'Вы прошли эту экскурсию; она больше не начнется автоматически.'
+    dismissed: 'Вы закрыли эту экскурсию до её завершения; она больше не начнется автоматически.'
+  area:
+    filters:
+      title: Фильтры
+      body: 'Что отображает список.'
+    list:
+      title: Список
+      body: 'Что есть.'
+    export:
+      title: Экспорт
+      body: 'Что покидает страницу.'
+  step:
+    welcome:
+      title: 'Добро пожаловать'
+      body: 'Краткая экскурсия по этой странице. Используйте стрелки на клавиатуре или кнопки ниже.'
+    filters:
+      title: Уточните
+      body: 'Фильтры определяют, что отображает список; они сохраняются в адресе.'
+    list:
+      title: 'Что есть'
+      body: 'Каждая строка открывает свои детали рядом со списком.'
+    export:
+      title: 'Возьмите с собой'
+      body: 'Экспорт берет то, что сохранили фильтры, ничего больше.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ทัวร์
+  page_icon: 'ph:bold/signpost'
+  intro: 'ทัวร์แนะนำของหน้า: ทีละขั้นตอน, องค์ประกอบที่เกี่ยวข้องจะถูกทำให้สว่างในหน้าเบลอและมีการ์ดอยู่ข้างๆ, พร้อมเส้นทางเข้าและออก. มันเริ่มต้นเองสำหรับผู้เข้าชมที่ยังไม่ได้เสร็จสิ้นหรือปฏิเสธมัน — สิ่งที่พวกเขาทำจะถูกเก็บไว้, และมันจะไม่กลับมา — และองค์ประกอบใดๆ ที่มีข้อมูล data-tour-start จะเล่นอีกครั้ง. ลูกศรของแป้นพิมพ์จะเคลื่อนที่ผ่านมัน, Escape ออกไป.'
+  start: เริ่มทัวร์
+  status:
+    none: 'คุณยังไม่เคยเห็นทัวร์นี้ — มันเริ่มต้นเอง.'
+    completed: 'คุณได้ผ่านทัวร์นี้แล้ว; มันจะไม่เริ่มต้นเองอีกครั้ง.'
+    dismissed: 'คุณปิดทัวร์นี้ก่อนที่จะจบ; มันจะไม่เริ่มต้นเองอีกครั้ง.'
+  area:
+    filters:
+      title: ตัวกรอง
+      body: สิ่งที่รายการแสดง.
+    list:
+      title: รายการ
+      body: สิ่งที่มีอยู่.
+    export:
+      title: ส่งออก
+      body: สิ่งที่ออกจากหน้า.
+  step:
+    welcome:
+      title: ยินดีต้อนรับ
+      body: 'ทัวร์สั้นๆ ของหน้านี้. ใช้ลูกศรของแป้นพิมพ์, หรือปุ่มด้านล่าง.'
+    filters:
+      title: จำกัดให้แคบลง
+      body: 'ตัวกรองตัดสินใจว่าสิ่งที่รายการจะแสดง; จะถูกเก็บในที่อยู่.'
+    list:
+      title: สิ่งที่มีอยู่
+      body: แต่ละแถวจะแสดงรายละเอียดข้างรายการ.
+    export:
+      title: นำมันติดตัวไปด้วย
+      body: 'การส่งออกจะนำสิ่งที่ตัวกรองเก็บไว้, ไม่มีอะไรเพิ่มเติม.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tur
+  page_icon: 'ph:bold/signpost'
+  intro: 'Bir sayfanın rehberli turu: bir adımda, ilgili öğe karartılmış sayfada aydınlatılıyor ve yanında bir kart ile birlikte, yol gösteriliyor. Ziyaretçi bu turu tamamlamadıysa veya kapatmadıysa, otomatik olarak başlar - yaptıkları kaydedilir ve tekrar gelmez - ve veri-tur-başlat içeren herhangi bir öğe tekrar başlatır. Klavyenin ok tuşları ile geçiş yapılır, Escape ile çıkılır.'
+  start: 'Turu başlat'
+  status:
+    none: 'Bu turu henüz görmediniz - otomatik olarak başlıyor.'
+    completed: 'Bu turu tamamladınız; otomatik olarak tekrar başlamayacak.'
+    dismissed: 'Bu turu bitirmeden kapattınız; otomatik olarak tekrar başlamayacak.'
+  area:
+    filters:
+      title: Filtreler
+      body: 'Liste neyi gösteriyor.'
+    list:
+      title: Liste
+      body: 'Neler var.'
+    export:
+      title: 'Dışa aktar'
+      body: 'Sayfadan çıkanlar.'
+  step:
+    welcome:
+      title: 'Hoş geldiniz'
+      body: 'Bu sayfanın kısa turu. Klavyenin ok tuşlarını veya aşağıdaki butonları kullanın.'
+    filters:
+      title: Daralt
+      body: 'Filtreler, listenin neyi göstereceğini belirler; adres içinde saklanır.'
+    list:
+      title: 'Neler var'
+      body: 'Her satır, listenin yanında detaylarını açar.'
+    export:
+      title: 'Yanınızda götürün'
+      body: 'Dışa aktarma, filtrelerin sakladıklarını alır, başka bir şey değil.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ٹور
+  page_icon: 'ph:bold/signpost'
+  intro: 'ایک صفحے کا گائیڈڈ ٹور: ایک وقت میں ایک قدم، جس عنصر کے بارے میں ہے وہ مدھم صفحے میں روشن ہوتا ہے اور اس کے ساتھ ایک کارڈ ہوتا ہے، جس میں داخلہ اور خروج کی راہ ہوتی ہے۔ یہ خود ہی شروع ہوتا ہے کسی زائر کے لئے جس نے نہ تو اسے ختم کیا ہے اور نہ ہی مسترد کیا ہے — جو انہوں نے کیا ہے وہ محفوظ رہتا ہے، اور یہ دوبارہ نہیں آتا — اور کوئی بھی عنصر جو data-tour-start رکھتا ہے اسے دوبارہ چلاتا ہے۔ کی بورڈ کے تیر اس کے ذریعے حرکت کرتے ہیں، Escape اسے چھوڑ دیتا ہے۔'
+  start: 'ٹور شروع کریں'
+  status:
+    none: 'آپ نے ابھی تک یہ ٹور نہیں دیکھا — یہ خود بخود شروع ہوتا ہے۔'
+    completed: 'آپ نے اس ٹور کا دورہ کیا؛ یہ دوبارہ خود بخود شروع نہیں ہوگا۔'
+    dismissed: 'آپ نے اس ٹور کو اس کے اختتام سے پہلے بند کر دیا؛ یہ دوبارہ خود بخود شروع نہیں ہوگا۔'
+  area:
+    filters:
+      title: فلٹرز
+      body: 'فہرست میں کیا دکھایا جاتا ہے۔'
+    list:
+      title: فہرست
+      body: 'کیا موجود ہے۔'
+    export:
+      title: 'برآمد کریں'
+      body: 'کیا صفحے سے نکلتا ہے۔'
+  step:
+    welcome:
+      title: 'خوش آمدید'
+      body: 'اس صفحے کا ایک مختصر ٹور۔ کی بورڈ کے تیر استعمال کریں، یا نیچے دیے گئے بٹن۔'
+    filters:
+      title: 'اسے محدود کریں'
+      body: 'فلٹرز فیصلہ کرتے ہیں کہ فہرست میں کیا دکھایا جائے؛ یہ ایڈریس میں محفوظ رہتے ہیں۔'
+    list:
+      title: 'کیا موجود ہے'
+      body: 'ہر صف کا تفصیل فہرست کے ساتھ کھلتا ہے۔'
+    export:
+      title: 'اپنے ساتھ لے جائیں'
+      body: 'برآمد وہی لیتا ہے جو فلٹرز نے محفوظ کیا، کچھ زیادہ نہیں۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Chuyến tham quan'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Một chuyến tham quan hướng dẫn về một trang: từng bước một, phần tử liên quan được chiếu sáng trên trang mờ và một thẻ bên cạnh nó, với lối vào và lối ra. Nó tự động bắt đầu cho một khách truy cập chưa hoàn thành hoặc từ chối nó — những gì họ đã làm được ghi lại, và nó sẽ không quay lại — và bất kỳ phần tử nào mang dữ liệu-tour-start sẽ phát lại. Các phím mũi tên trên bàn phím di chuyển qua nó, phím Escape sẽ thoát khỏi nó.'
+  start: 'Bắt đầu chuyến tham quan'
+  status:
+    none: 'Bạn chưa xem chuyến tham quan này — nó sẽ tự động bắt đầu.'
+    completed: 'Bạn đã hoàn thành chuyến tham quan này; nó sẽ không tự động bắt đầu lại.'
+    dismissed: 'Bạn đã đóng chuyến tham quan này trước khi kết thúc; nó sẽ không tự động bắt đầu lại.'
+  area:
+    filters:
+      title: 'Bộ lọc'
+      body: 'Danh sách hiển thị gì.'
+    list:
+      title: 'Danh sách'
+      body: 'Có gì ở đây.'
+    export:
+      title: Xuất
+      body: 'Những gì rời khỏi trang.'
+  step:
+    welcome:
+      title: 'Chào mừng'
+      body: 'Một chuyến tham quan ngắn về trang này. Sử dụng các phím mũi tên trên bàn phím, hoặc các nút bên dưới.'
+    filters:
+      title: 'Thu hẹp lại'
+      body: 'Các bộ lọc quyết định danh sách hiển thị gì; chúng được giữ trong địa chỉ.'
+    list:
+      title: 'Có gì ở đây'
+      body: 'Mỗi hàng mở chi tiết bên cạnh danh sách.'
+    export:
+      title: 'Mang theo bạn'
+      body: 'Xuất sẽ lấy những gì mà các bộ lọc đã giữ lại, không hơn.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 导览
+  page_icon: 'ph:bold/signpost'
+  intro: 页面的引导式导览：一步一步，相关元素在暗淡的页面中高亮，旁边有一张卡片，展示前进和退出的方式。对于尚未完成或关闭导览的访客，它会自动开始——他们的操作会被记录，并且不会再次出现——任何携带数据-tour-start的元素会再次播放它。键盘的箭头可以在其中移动，Escape键可以退出。
+  start: 开始导览
+  status:
+    none: 您还没有观看过此导览——它会自动开始。
+    completed: 您已经完成了此导览；它不会再次自动开始。
+    dismissed: 您在导览结束前关闭了它；它不会再次自动开始。
+  area:
+    filters:
+      title: 过滤器
+      body: 列表所显示的内容。
+    list:
+      title: 列表
+      body: 存在的内容。
+    export:
+      title: 导出
+      body: 离开页面的内容。
+  step:
+    welcome:
+      title: 欢迎
+      body: 此页面的简短导览。使用键盘的箭头，或下面的按钮。
+    filters:
+      title: 缩小范围
+      body: 过滤器决定列表显示的内容；它们会保留在地址中。
+    list:
+      title: 存在的内容
+      body: 每一行在列表旁边打开其详细信息。
+    export:
+      title: 带走它
+      body: 导出包含过滤器所保留的内容，其他内容不包括。

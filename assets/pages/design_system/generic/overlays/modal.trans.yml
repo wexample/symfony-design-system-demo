@@ -1,0 +1,714 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Dialog
+  page_icon: ph:bold/app-window
+
+  section:
+    persist:
+      description: "Modal with tabs. Open it, switch tabs, press F5 — the modal reopens on the same tab."
+      button: Open modal
+    simple:
+      description: Show a simple modal. You can close it with Escape or by clicking outside the modal.
+      button: Open modal
+    components:
+      description: Show a modal with components and a toast trigger. Escape is disabled, but you can still click outside to close it.
+      button: Open modal
+    medium:
+      description: Show a modal with medium-length text. Clicking outside will not close it.
+      button: Open modal
+    long:
+      description: Show a modal with long text. It asks for confirmation before closing.
+      button: Open modal
+    form_rendered:
+      description: Show a rendered demo form inside a modal. Escape and outside click are disabled, and it asks before closing if the form was modified.
+      button: Open modal
+    form_ajax:
+      description: Show a rendered demo form inside a modal using AJAX. Escape and outside click are disabled, and it asks before closing if the form was modified.
+      button: Open modal
+    recursive:
+      description: Open a dialog page inside another dialog — choose modal or panel.
+      button_modal: Open in modal
+      button_panel: Open in panel
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: حوار
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'نافذة منبثقة مع علامات تبويب. افتحها، انتقل بين علامات التبويب، اضغط F5 — ستعاد فتح النافذة المنبثقة على نفس العلامة.'
+      button: 'فتح النافذة المنبثقة'
+    simple:
+      description: 'عرض نافذة منبثقة بسيطة. يمكنك إغلاقها باستخدام مفتاح Escape أو بالنقر خارج النافذة المنبثقة.'
+      button: 'فتح النافذة المنبثقة'
+    components:
+      description: 'عرض نافذة منبثقة مع مكونات وزر إشعار. تم تعطيل مفتاح Escape، ولكن يمكنك النقر خارج النافذة لإغلاقها.'
+      button: 'فتح النافذة المنبثقة'
+    medium:
+      description: 'عرض نافذة منبثقة بنص متوسط الطول. النقر خارجها لن يغلقها.'
+      button: 'فتح النافذة المنبثقة'
+    long:
+      description: 'عرض نافذة منبثقة بنص طويل. يطلب تأكيد قبل الإغلاق.'
+      button: 'فتح النافذة المنبثقة'
+    form_rendered:
+      description: 'عرض نموذج تجريبي داخل نافذة منبثقة. يتم تعطيل مفتاح Escape والنقر الخارجي، ويطلب التأكيد قبل الإغلاق إذا تم تعديل النموذج.'
+      button: 'فتح النافذة المنبثقة'
+    form_ajax:
+      description: 'عرض نموذج تجريبي داخل نافذة منبثقة باستخدام AJAX. يتم تعطيل مفتاح Escape والنقر الخارجي، ويطلب التأكيد قبل الإغلاق إذا تم تعديل النموذج.'
+      button: 'فتح النافذة المنبثقة'
+    recursive:
+      description: 'فتح صفحة حوار داخل حوار آخر — اختر نافذة منبثقة أو لوحة.'
+      button_modal: 'فتح في نافذة منبثقة'
+      button_panel: 'فتح في لوحة'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ডায়ালগ
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'ট্যাব সহ মডাল। এটি খুলুন, ট্যাব পরিবর্তন করুন, F5 চাপুন — মডাল একই ট্যাবে আবার খোলে।'
+      button: 'মডাল খুলুন'
+    simple:
+      description: 'একটি সাধারণ মডাল দেখান। আপনি এটি Escape চেপে অথবা মডালের বাইরের দিকে ক্লিক করে বন্ধ করতে পারেন।'
+      button: 'মডাল খুলুন'
+    components:
+      description: 'উপাদান এবং একটি টোস্ট ট্রিগার সহ একটি মডাল দেখান। Escape অক্ষম, তবে আপনি এখনও বন্ধ করতে বাইরের দিকে ক্লিক করতে পারেন।'
+      button: 'মডাল খুলুন'
+    medium:
+      description: 'মাঝারি দৈর্ঘ্যের টেক্সট সহ একটি মডাল দেখান। বাইরের দিকে ক্লিক করলে এটি বন্ধ হবে না।'
+      button: 'মডাল খুলুন'
+    long:
+      description: 'দীর্ঘ টেক্সট সহ একটি মডাল দেখান। এটি বন্ধ করার আগে নিশ্চিতকরণ চায়।'
+      button: 'মডাল খুলুন'
+    form_rendered:
+      description: 'একটি মডালের ভিতরে একটি রেন্ডার করা ডেমো ফর্ম দেখান। Escape এবং বাইরের ক্লিক অক্ষম, এবং যদি ফর্মটি পরিবর্তিত হয় তবে এটি বন্ধ করার আগে জিজ্ঞাসা করে।'
+      button: 'মডাল খুলুন'
+    form_ajax:
+      description: 'AJAX ব্যবহার করে একটি মডালের ভিতরে একটি রেন্ডার করা ডেমো ফর্ম দেখান। Escape এবং বাইরের ক্লিক অক্ষম, এবং যদি ফর্মটি পরিবর্তিত হয় তবে এটি বন্ধ করার আগে জিজ্ঞাসা করে।'
+      button: 'মডাল খুলুন'
+    recursive:
+      description: 'একটি ডায়ালগ পৃষ্ঠাকে অন্য একটি ডায়ালগের ভিতরে খুলুন — মডাল বা প্যানেল চয়ন করুন।'
+      button_modal: 'মডালে খুলুন'
+      button_panel: 'প্যানেলে খুলুন'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dialog
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modal mit Tabs. Öffnen Sie es, wechseln Sie die Tabs, drücken Sie F5 — das Modal öffnet sich wieder im selben Tab.'
+      button: 'Modal öffnen'
+    simple:
+      description: 'Ein einfaches Modal anzeigen. Sie können es mit Escape oder durch Klicken außerhalb des Modals schließen.'
+      button: 'Modal öffnen'
+    components:
+      description: 'Ein Modal mit Komponenten und einem Toast-Trigger anzeigen. Escape ist deaktiviert, aber Sie können trotzdem außerhalb klicken, um es zu schließen.'
+      button: 'Modal öffnen'
+    medium:
+      description: 'Ein Modal mit Text mittlerer Länge anzeigen. Ein Klick außerhalb schließt es nicht.'
+      button: 'Modal öffnen'
+    long:
+      description: 'Ein Modal mit langem Text anzeigen. Es fragt nach Bestätigung, bevor es geschlossen wird.'
+      button: 'Modal öffnen'
+    form_rendered:
+      description: 'Ein gerendertes Demofeld innerhalb eines Modals anzeigen. Escape und das Klicken außerhalb sind deaktiviert, und es fragt vor dem Schließen, ob das Feld geändert wurde.'
+      button: 'Modal öffnen'
+    form_ajax:
+      description: 'Ein gerendertes Demofeld innerhalb eines Modals mit AJAX anzeigen. Escape und das Klicken außerhalb sind deaktiviert, und es fragt vor dem Schließen, ob das Feld geändert wurde.'
+      button: 'Modal öffnen'
+    recursive:
+      description: 'Eine Dialogseite innerhalb eines anderen Dialogs öffnen — Modal oder Panel wählen.'
+      button_modal: 'In Modal öffnen'
+      button_panel: 'In Panel öffnen'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Diálogo
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modal con pestañas. Ábrelo, cambia de pestañas, presiona F5: el modal se reabre en la misma pestaña.'
+      button: 'Abrir modal'
+    simple:
+      description: 'Mostrar un modal simple. Puedes cerrarlo con Escape o haciendo clic fuera del modal.'
+      button: 'Abrir modal'
+    components:
+      description: 'Mostrar un modal con componentes y un disparador de toast. Escape está deshabilitado, pero aún puedes hacer clic fuera para cerrarlo.'
+      button: 'Abrir modal'
+    medium:
+      description: 'Mostrar un modal con texto de longitud media. Hacer clic fuera no lo cerrará.'
+      button: 'Abrir modal'
+    long:
+      description: 'Mostrar un modal con texto largo. Pide confirmación antes de cerrar.'
+      button: 'Abrir modal'
+    form_rendered:
+      description: 'Mostrar un formulario de demostración renderizado dentro de un modal. Escape y el clic fuera están deshabilitados, y pide confirmación antes de cerrar si el formulario fue modificado.'
+      button: 'Abrir modal'
+    form_ajax:
+      description: 'Mostrar un formulario de demostración renderizado dentro de un modal usando AJAX. Escape y el clic fuera están deshabilitados, y pide confirmación antes de cerrar si el formulario fue modificado.'
+      button: 'Abrir modal'
+    recursive:
+      description: 'Abrir una página de diálogo dentro de otro diálogo: elige modal o panel.'
+      button_modal: 'Abrir en modal'
+      button_panel: 'Abrir en panel'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: دیالوگ
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'مدالی با تب‌ها. آن را باز کنید، تب‌ها را عوض کنید، کلید F5 را فشار دهید — مدال دوباره روی همان تب باز می‌شود.'
+      button: 'باز کردن مدال'
+    simple:
+      description: 'یک مدال ساده نمایش دهید. می‌توانید با کلید Escape یا کلیک کردن خارج از مدال آن را ببندید.'
+      button: 'باز کردن مدال'
+    components:
+      description: 'یک مدال با کامپوننت‌ها و یک تحریک توست نمایش دهید. کلید Escape غیرفعال است، اما می‌توانید همچنان با کلیک خارج، آن را ببندید.'
+      button: 'باز کردن مدال'
+    medium:
+      description: 'یک مدال با متن متوسط نمایش دهید. کلیک کردن خارج آن را نمی‌بندد.'
+      button: 'باز کردن مدال'
+    long:
+      description: 'یک مدال با متن طولانی نمایش دهید. قبل از بستن از شما تأیید می‌خواهد.'
+      button: 'باز کردن مدال'
+    form_rendered:
+      description: 'یک فرم دمو رندر شده را درون یک مدال نمایش دهید. کلید Escape و کلیک خارج غیرفعال هستند و اگر فرم تغییر کرده باشد، قبل از بستن از شما سؤال می‌کند.'
+      button: 'باز کردن مدال'
+    form_ajax:
+      description: 'یک فرم دمو رندر شده را درون یک مدال با استفاده از AJAX نمایش دهید. کلید Escape و کلیک خارج غیرفعال هستند و اگر فرم تغییر کرده باشد، قبل از بستن از شما سؤال می‌کند.'
+      button: 'باز کردن مدال'
+    recursive:
+      description: 'یک صفحه دیالوگ را درون یک دیالوگ دیگر باز کنید — مدال یا پنل را انتخاب کنید.'
+      button_modal: 'باز کردن در مدال'
+      button_panel: 'باز کردن در پنل'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dialogi
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modal, jossa on välilehtiä. Avaa se, vaihda välilehtiä, paina F5 — modal avautuu uudelleen samalla välilehdellä.'
+      button: 'Avaa modal'
+    simple:
+      description: 'Näytä yksinkertainen modal. Voit sulkea sen Escape-näppäimellä tai klikkaamalla modalin ulkopuolella.'
+      button: 'Avaa modal'
+    components:
+      description: 'Näytä modal, jossa on komponentteja ja toast-laite. Escape on pois käytöstä, mutta voit silti klikata ulkopuolelle sulkeaksesi sen.'
+      button: 'Avaa modal'
+    medium:
+      description: 'Näytä modal, jossa on keskipitkä teksti. Klikkaaminen ulkopuolelle ei sulje sitä.'
+      button: 'Avaa modal'
+    long:
+      description: 'Näytä modal, jossa on pitkä teksti. Se kysyy vahvistuksen ennen sulkemista.'
+      button: 'Avaa modal'
+    form_rendered:
+      description: 'Näytä renderöity demon muodossa modalin sisällä. Escape ja ulkopuolinen klikkaus on pois käytöstä, ja se kysyy ennen sulkemista, jos lomaketta on muokattu.'
+      button: 'Avaa modal'
+    form_ajax:
+      description: 'Näytä renderöity demon muodossa modalin sisällä käyttäen AJAX:ia. Escape ja ulkopuolinen klikkaus on pois käytöstä, ja se kysyy ennen sulkemista, jos lomaketta on muokattu.'
+      button: 'Avaa modal'
+    recursive:
+      description: 'Avaa dialogisivu toisen dialogin sisällä — valitse modal tai paneeli.'
+      button_modal: 'Avaa modaalina'
+      button_panel: 'Avaa paneelina'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dialogue
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: "Modal avec onglets. Ouvrez-le, changez d'onglet, appuyez sur F5 — le modal se rouvre sur le même onglet."
+      button: 'Ouvrir le modal'
+    simple:
+      description: 'Afficher un modal simple. Vous pouvez le fermer avec Échap ou en cliquant en dehors du modal.'
+      button: 'Ouvrir le modal'
+    components:
+      description: 'Afficher un modal avec des composants et un déclencheur de toast. Échap est désactivé, mais vous pouvez toujours cliquer en dehors pour le fermer.'
+      button: 'Ouvrir le modal'
+    medium:
+      description: 'Afficher un modal avec un texte de longueur moyenne. Cliquer en dehors ne le fermera pas.'
+      button: 'Ouvrir le modal'
+    long:
+      description: 'Afficher un modal avec un long texte. Il demande une confirmation avant de se fermer.'
+      button: 'Ouvrir le modal'
+    form_rendered:
+      description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un modal. Échap et le clic extérieur sont désactivés, et il demande avant de se fermer si le formulaire a été modifié."
+      button: 'Ouvrir le modal'
+    form_ajax:
+      description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un modal utilisant AJAX. Échap et le clic extérieur sont désactivés, et il demande avant de se fermer si le formulaire a été modifié."
+      button: 'Ouvrir le modal'
+    recursive:
+      description: "Ouvrir une page de dialogue à l'intérieur d'un autre dialogue — choisir modal ou panneau."
+      button_modal: 'Ouvrir en modal'
+      button_panel: 'Ouvrir en panneau'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: דיאלוג
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'מודל עם טאבים. פתח אותו, החלף טאבים, לחץ F5 — המודל ייפתח שוב באותו טאב.'
+      button: 'פתח מודל'
+    simple:
+      description: 'הצג מודל פשוט. ניתן לסגור אותו עם Escape או על ידי לחיצה מחוץ למודל.'
+      button: 'פתח מודל'
+    components:
+      description: 'הצג מודל עם רכיבים וטריגר טוסט. Escape מושבת, אבל עדיין אפשר ללחוץ מחוץ כדי לסגור אותו.'
+      button: 'פתח מודל'
+    medium:
+      description: 'הצג מודל עם טקסט באורך בינוני. לחיצה מחוץ לא תסגור אותו.'
+      button: 'פתח מודל'
+    long:
+      description: 'הצג מודל עם טקסט ארוך. הוא מבקש אישור לפני סגירה.'
+      button: 'פתח מודל'
+    form_rendered:
+      description: 'הצג טופס לדוגמה בתוך מודל. Escape ולחיצה מחוץ מושבתים, והוא שואל לפני סגירה אם הטופס שונה.'
+      button: 'פתח מודל'
+    form_ajax:
+      description: 'הצג טופס לדוגמה בתוך מודל באמצעות AJAX. Escape ולחיצה מחוץ מושבתים, והוא שואל לפני סגירה אם הטופס שונה.'
+      button: 'פתח מודל'
+    recursive:
+      description: 'פתח דף דיאלוג בתוך דיאלוג אחר — בחר מודל או פאנל.'
+      button_modal: 'פתח במודל'
+      button_panel: 'פתח בפאנל'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: संवाद
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'टैब के साथ मोडल। इसे खोलें, टैब बदलें, F5 दबाएं — मोडल उसी टैब पर फिर से खुलता है।'
+      button: 'मोडल खोलें'
+    simple:
+      description: 'एक साधारण मोडल दिखाएं। आप इसे Escape दबाकर या मोडल के बाहर क्लिक करके बंद कर सकते हैं।'
+      button: 'मोडल खोलें'
+    components:
+      description: 'घटक और एक टोस्ट ट्रिगर के साथ एक मोडल दिखाएं। Escape अक्षम है, लेकिन आप इसे बंद करने के लिए अभी भी बाहर क्लिक कर सकते हैं।'
+      button: 'मोडल खोलें'
+    medium:
+      description: 'मध्यम लंबाई के पाठ के साथ एक मोडल दिखाएं। बाहर क्लिक करने से यह बंद नहीं होगा।'
+      button: 'मोडल खोलें'
+    long:
+      description: 'लंबे पाठ के साथ एक मोडल दिखाएं। यह बंद करने से पहले पुष्टि मांगता है।'
+      button: 'मोडल खोलें'
+    form_rendered:
+      description: 'मोडल के अंदर एक प्रदर्शित डेमो फॉर्म दिखाएं। Escape और बाहर क्लिक अक्षम हैं, और यदि फॉर्म में बदलाव किया गया है तो यह बंद करने से पहले पूछता है।'
+      button: 'मोडल खोलें'
+    form_ajax:
+      description: 'AJAX का उपयोग करके मोडल के अंदर एक प्रदर्शित डेमो फॉर्म दिखाएं। Escape और बाहर क्लिक अक्षम हैं, और यदि फॉर्म में बदलाव किया गया है तो यह बंद करने से पहले पूछता है।'
+      button: 'मोडल खोलें'
+    recursive:
+      description: 'एक संवाद पृष्ठ को दूसरे संवाद के अंदर खोलें — मोडल या पैनल चुनें।'
+      button_modal: 'मोडल में खोलें'
+      button_panel: 'पैनल में खोलें'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dialog
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modal dengan tab. Buka, ganti tab, tekan F5 — modal akan terbuka kembali di tab yang sama.'
+      button: 'Buka modal'
+    simple:
+      description: 'Tampilkan modal sederhana. Anda dapat menutupnya dengan Escape atau dengan mengklik di luar modal.'
+      button: 'Buka modal'
+    components:
+      description: 'Tampilkan modal dengan komponen dan pemicu toast. Escape dinonaktifkan, tetapi Anda masih bisa mengklik di luar untuk menutupnya.'
+      button: 'Buka modal'
+    medium:
+      description: 'Tampilkan modal dengan teks panjang sedang. Mengklik di luar tidak akan menutupnya.'
+      button: 'Buka modal'
+    long:
+      description: 'Tampilkan modal dengan teks panjang. Minta konfirmasi sebelum menutup.'
+      button: 'Buka modal'
+    form_rendered:
+      description: 'Tampilkan form demo yang sudah dirender di dalam modal. Escape dan klik di luar dinonaktifkan, dan meminta konfirmasi sebelum menutup jika form telah dimodifikasi.'
+      button: 'Buka modal'
+    form_ajax:
+      description: 'Tampilkan form demo yang sudah dirender di dalam modal menggunakan AJAX. Escape dan klik di luar dinonaktifkan, dan meminta konfirmasi sebelum menutup jika form telah dimodifikasi.'
+      button: 'Buka modal'
+    recursive:
+      description: 'Buka halaman dialog di dalam dialog lain — pilih modal atau panel.'
+      button_modal: 'Buka dalam modal'
+      button_panel: 'Buka dalam panel'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dialogo
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modale con schede. Aprilo, cambia scheda, premi F5 — il modale si riapre sulla stessa scheda.'
+      button: 'Apri modale'
+    simple:
+      description: "Mostra un modale semplice. Puoi chiuderlo con Escape o cliccando all'esterno del modale."
+      button: 'Apri modale'
+    components:
+      description: "Mostra un modale con componenti e un attivatore di toast. Escape è disabilitato, ma puoi comunque cliccare all'esterno per chiuderlo."
+      button: 'Apri modale'
+    medium:
+      description: "Mostra un modale con testo di lunghezza media. Cliccare all'esterno non lo chiuderà."
+      button: 'Apri modale'
+    long:
+      description: 'Mostra un modale con testo lungo. Chiede conferma prima di chiudere.'
+      button: 'Apri modale'
+    form_rendered:
+      description: "Mostra un modulo di demo renderizzato all'interno di un modale. Escape e il clic esterno sono disabilitati, e chiede prima di chiudere se il modulo è stato modificato."
+      button: 'Apri modale'
+    form_ajax:
+      description: "Mostra un modulo di demo renderizzato all'interno di un modale utilizzando AJAX. Escape e il clic esterno sono disabilitati, e chiede prima di chiudere se il modulo è stato modificato."
+      button: 'Apri modale'
+    recursive:
+      description: "Apri una pagina di dialogo all'interno di un'altra dialogo — scegli modale o pannello."
+      button_modal: 'Apri in modale'
+      button_panel: 'Apri in pannello'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ダイアログ
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: タブ付きのモーダル。開いてタブを切り替え、F5を押すと、同じタブでモーダルが再オープンします。
+      button: モーダルを開く
+    simple:
+      description: シンプルなモーダルを表示します。Escapeキーまたはモーダルの外側をクリックすることで閉じることができます。
+      button: モーダルを開く
+    components:
+      description: コンポーネントとトーストトリガーを持つモーダルを表示します。Escapeは無効ですが、外側をクリックして閉じることはできます。
+      button: モーダルを開く
+    medium:
+      description: 中程度の長さのテキストを持つモーダルを表示します。外側をクリックしても閉じません。
+      button: モーダルを開く
+    long:
+      description: 長いテキストを持つモーダルを表示します。閉じる前に確認を求めます。
+      button: モーダルを開く
+    form_rendered:
+      description: モーダル内にレンダリングされたデモフォームを表示します。Escapeキーと外側のクリックは無効で、フォームが変更されていた場合は閉じる前に確認を求めます。
+      button: モーダルを開く
+    form_ajax:
+      description: AJAXを使用してモーダル内にレンダリングされたデモフォームを表示します。Escapeキーと外側のクリックは無効で、フォームが変更されていた場合は閉じる前に確認を求めます。
+      button: モーダルを開く
+    recursive:
+      description: '別のダイアログ内にダイアログページを開きます — モーダルまたはパネルを選択してください。'
+      button_modal: モーダルで開く
+      button_panel: パネルで開く
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '대화 상자'
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: '탭이 있는 모달입니다. 열고, 탭을 전환하고, F5를 누르세요 — 모달이 같은 탭에서 다시 열립니다.'
+      button: '모달 열기'
+    simple:
+      description: '간단한 모달을 표시합니다. Esc 키로 닫거나 모달 외부를 클릭하여 닫을 수 있습니다.'
+      button: '모달 열기'
+    components:
+      description: '컴포넌트와 토스트 트리거가 있는 모달을 표시합니다. Esc는 비활성화되어 있지만, 외부를 클릭하여 여전히 닫을 수 있습니다.'
+      button: '모달 열기'
+    medium:
+      description: '중간 길이의 텍스트가 있는 모달을 표시합니다. 외부 클릭으로는 닫을 수 없습니다.'
+      button: '모달 열기'
+    long:
+      description: '긴 텍스트가 있는 모달을 표시합니다. 닫기 전에 확인을 요청합니다.'
+      button: '모달 열기'
+    form_rendered:
+      description: '모달 안에 렌더링된 데모 양식을 표시합니다. Esc와 외부 클릭은 비활성화되며, 양식이 수정되었는지 확인을 요청합니다.'
+      button: '모달 열기'
+    form_ajax:
+      description: 'AJAX를 사용하여 모달 안에 렌더링된 데모 양식을 표시합니다. Esc와 외부 클릭은 비활성화되며, 양식이 수정되었는지 확인을 요청합니다.'
+      button: '모달 열기'
+    recursive:
+      description: '다른 대화 상자 안에 대화 페이지를 엽니다 — 모달 또는 패널을 선택하세요.'
+      button_modal: '모달에서 열기'
+      button_panel: '패널에서 열기'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dialoog
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modaal met tabbladen. Open het, wissel van tab, druk op F5 — het modaal opent opnieuw op dezelfde tab.'
+      button: 'Open modaal'
+    simple:
+      description: 'Toon een eenvoudig modaal. Je kunt het sluiten met Escape of door buiten het modaal te klikken.'
+      button: 'Open modaal'
+    components:
+      description: 'Toon een modaal met componenten en een toast-trigger. Escape is uitgeschakeld, maar je kunt nog steeds buiten klikken om het te sluiten.'
+      button: 'Open modaal'
+    medium:
+      description: 'Toon een modaal met tekst van gemiddelde lengte. Buiten klikken sluit het niet.'
+      button: 'Open modaal'
+    long:
+      description: 'Toon een modaal met lange tekst. Het vraagt om bevestiging voordat het sluit.'
+      button: 'Open modaal'
+    form_rendered:
+      description: 'Toon een weergegeven demoformulier binnen een modaal. Escape en buiten klikken zijn uitgeschakeld, en het vraagt voordat het sluit of het formulier is gewijzigd.'
+      button: 'Open modaal'
+    form_ajax:
+      description: 'Toon een weergegeven demoformulier binnen een modaal met behulp van AJAX. Escape en buiten klikken zijn uitgeschakeld, en het vraagt voordat het sluit of het formulier is gewijzigd.'
+      button: 'Open modaal'
+    recursive:
+      description: 'Open een dialoogpagina binnen een andere dialoog — kies modaal of paneel.'
+      button_modal: 'Open in modaal'
+      button_panel: 'Open in paneel'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dialog
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modal z zakładkami. Otwórz go, przełącz zakładki, naciśnij F5 — modal otworzy się ponownie na tej samej zakładce.'
+      button: 'Otwórz modal'
+    simple:
+      description: 'Pokaż prosty modal. Możesz go zamknąć klawiszem Escape lub klikając poza modalem.'
+      button: 'Otwórz modal'
+    components:
+      description: 'Pokaż modal z komponentami i wyzwalaczem powiadomienia. Escape jest wyłączony, ale nadal możesz kliknąć poza, aby go zamknąć.'
+      button: 'Otwórz modal'
+    medium:
+      description: 'Pokaż modal z tekstem średniej długości. Kliknięcie poza nie zamknie go.'
+      button: 'Otwórz modal'
+    long:
+      description: 'Pokaż modal z długim tekstem. Prosi o potwierdzenie przed zamknięciem.'
+      button: 'Otwórz modal'
+    form_rendered:
+      description: 'Pokaż renderowany formularz demo w modal. Escape i kliknięcie poza są wyłączone, a przed zamknięciem prosi o potwierdzenie, jeśli formularz został zmodyfikowany.'
+      button: 'Otwórz modal'
+    form_ajax:
+      description: 'Pokaż renderowany formularz demo w modal z użyciem AJAX. Escape i kliknięcie poza są wyłączone, a przed zamknięciem prosi o potwierdzenie, jeśli formularz został zmodyfikowany.'
+      button: 'Otwórz modal'
+    recursive:
+      description: 'Otwórz stronę dialogu w innym dialogu — wybierz modal lub panel.'
+      button_modal: 'Otwórz w modal'
+      button_panel: 'Otwórz w panelu'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Diálogo
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Modal com abas. Abra-o, mude de abas, pressione F5 — o modal reabre na mesma aba.'
+      button: 'Abrir modal'
+    simple:
+      description: 'Mostrar um modal simples. Você pode fechá-lo com Escape ou clicando fora do modal.'
+      button: 'Abrir modal'
+    components:
+      description: 'Mostrar um modal com componentes e um acionador de toast. Escape está desativado, mas você ainda pode clicar fora para fechá-lo.'
+      button: 'Abrir modal'
+    medium:
+      description: 'Mostrar um modal com texto de comprimento médio. Clicar fora não irá fechá-lo.'
+      button: 'Abrir modal'
+    long:
+      description: 'Mostrar um modal com texto longo. Ele pede confirmação antes de fechar.'
+      button: 'Abrir modal'
+    form_rendered:
+      description: 'Mostrar um formulário de demonstração renderizado dentro de um modal. Escape e clique fora estão desativados, e ele pergunta antes de fechar se o formulário foi modificado.'
+      button: 'Abrir modal'
+    form_ajax:
+      description: 'Mostrar um formulário de demonstração renderizado dentro de um modal usando AJAX. Escape e clique fora estão desativados, e ele pergunta antes de fechar se o formulário foi modificado.'
+      button: 'Abrir modal'
+    recursive:
+      description: 'Abrir uma página de diálogo dentro de outro diálogo — escolha modal ou painel.'
+      button_modal: 'Abrir em modal'
+      button_panel: 'Abrir em painel'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Диалог
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Модальное окно с вкладками. Откройте его, переключите вкладки, нажмите F5 — модальное окно откроется снова на той же вкладке.'
+      button: 'Открыть модальное окно'
+    simple:
+      description: 'Показать простое модальное окно. Вы можете закрыть его клавишей Escape или щелчком вне модального окна.'
+      button: 'Открыть модальное окно'
+    components:
+      description: 'Показать модальное окно с компонентами и триггером уведомления. Escape отключен, но вы все равно можете щелкнуть вне, чтобы закрыть его.'
+      button: 'Открыть модальное окно'
+    medium:
+      description: 'Показать модальное окно со средним текстом. Щелчок вне не закроет его.'
+      button: 'Открыть модальное окно'
+    long:
+      description: 'Показать модальное окно с длинным текстом. Оно запрашивает подтверждение перед закрытием.'
+      button: 'Открыть модальное окно'
+    form_rendered:
+      description: 'Показать отрендеренную демонстрационную форму внутри модального окна. Escape и щелчок вне отключены, и оно запрашивает подтверждение перед закрытием, если форма была изменена.'
+      button: 'Открыть модальное окно'
+    form_ajax:
+      description: 'Показать отрендеренную демонстрационную форму внутри модального окна с использованием AJAX. Escape и щелчок вне отключены, и оно запрашивает подтверждение перед закрытием, если форма была изменена.'
+      button: 'Открыть модальное окно'
+    recursive:
+      description: 'Открыть страницу диалога внутри другого диалога — выберите модальное окно или панель.'
+      button_modal: 'Открыть в модальном окне'
+      button_panel: 'Открыть в панели'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: กล่องสนทนา
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'โมดัลที่มีแท็บ เปิดมัน สลับแท็บ กด F5 — โมดัลจะเปิดขึ้นมาในแท็บเดิมอีกครั้ง'
+      button: เปิดโมดัล
+    simple:
+      description: 'แสดงโมดัลแบบง่าย คุณสามารถปิดมันได้ด้วยการกด Escape หรือโดยการคลิกนอกโมดัล'
+      button: เปิดโมดัล
+    components:
+      description: 'แสดงโมดัลที่มีคอมโพเนนต์และทริกเกอร์ทอสต์ Escape ถูกปิดใช้งาน แต่คุณยังสามารถคลิกนอกเพื่อปิดมันได้'
+      button: เปิดโมดัล
+    medium:
+      description: 'แสดงโมดัลที่มีข้อความยาวปานกลาง การคลิกนอกจะไม่ปิดมัน'
+      button: เปิดโมดัล
+    long:
+      description: 'แสดงโมดัลที่มีข้อความยาว มันจะขอการยืนยันก่อนที่จะปิด'
+      button: เปิดโมดัล
+    form_rendered:
+      description: 'แสดงแบบฟอร์มเดโมที่แสดงผลในโมดัล Escape และการคลิกนอกถูกปิดใช้งาน และมันจะขอการยืนยันก่อนที่จะปิดหากแบบฟอร์มถูกแก้ไข'
+      button: เปิดโมดัล
+    form_ajax:
+      description: 'แสดงแบบฟอร์มเดโมที่แสดงผลในโมดัลโดยใช้ AJAX Escape และการคลิกนอกถูกปิดใช้งาน และมันจะขอการยืนยันก่อนที่จะปิดหากแบบฟอร์มถูกแก้ไข'
+      button: เปิดโมดัล
+    recursive:
+      description: 'เปิดหน้าไดอะล็อกภายในไดอะล็อกอื่น — เลือกโมดัลหรือแผง'
+      button_modal: เปิดในโมดัล
+      button_panel: เปิดในแผง
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Diyalog
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: "Sekmeli bir modal. Açın, sekmeleri değiştirin, F5'e basın — modal aynı sekmede yeniden açılır."
+      button: 'Modalı aç'
+    simple:
+      description: 'Basit bir modal göster. Bunu Escape ile veya modalın dışına tıklayarak kapatabilirsiniz.'
+      button: 'Modalı aç'
+    components:
+      description: 'Bileşenler ve bir toast tetikleyici içeren bir modal göster. Escape devre dışıdır, ancak dışarı tıklayarak kapatabilirsiniz.'
+      button: 'Modalı aç'
+    medium:
+      description: 'Orta uzunlukta metin içeren bir modal göster. Dışarı tıklamak modalı kapatmayacaktır.'
+      button: 'Modalı aç'
+    long:
+      description: 'Uzun metin içeren bir modal göster. Kapatmadan önce onay ister.'
+      button: 'Modalı aç'
+    form_rendered:
+      description: 'Bir modal içinde render edilmiş bir demo formu göster. Escape ve dışarı tıklama devre dışıdır, form değiştirilmişse kapatmadan önce sorar.'
+      button: 'Modalı aç'
+    form_ajax:
+      description: 'AJAX kullanarak bir modal içinde render edilmiş bir demo formu göster. Escape ve dışarı tıklama devre dışıdır, form değiştirilmişse kapatmadan önce sorar.'
+      button: 'Modalı aç'
+    recursive:
+      description: 'Başka bir diyalog içinde bir diyalog sayfası açın — modal veya panel seçin.'
+      button_modal: 'Modalda aç'
+      button_panel: 'Panelde aç'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ڈائیلاگ
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'ٹیب کے ساتھ موڈل۔ اسے کھولیں، ٹیب تبدیل کریں، F5 دبائیں — موڈل اسی ٹیب پر دوبارہ کھل جائے گا۔'
+      button: 'موڈل کھولیں'
+    simple:
+      description: 'ایک سادہ موڈل دکھائیں۔ آپ اسے Escape سے بند کر سکتے ہیں یا موڈل کے باہر کلک کرکے۔'
+      button: 'موڈل کھولیں'
+    components:
+      description: 'اجزاء اور ٹوسٹ ٹریگر کے ساتھ موڈل دکھائیں۔ Escape غیر فعال ہے، لیکن آپ اب بھی باہر کلک کرکے اسے بند کر سکتے ہیں۔'
+      button: 'موڈل کھولیں'
+    medium:
+      description: 'درمیانے لمبائی کے متن کے ساتھ موڈل دکھائیں۔ باہر کلک کرنا اسے بند نہیں کرے گا۔'
+      button: 'موڈل کھولیں'
+    long:
+      description: 'طویل متن کے ساتھ موڈل دکھائیں۔ یہ بند کرنے سے پہلے تصدیق چاہتا ہے۔'
+      button: 'موڈل کھولیں'
+    form_rendered:
+      description: 'موڈل کے اندر ایک تیار کردہ ڈیمو فارم دکھائیں۔ Escape اور باہر کلک کرنا غیر فعال ہے، اور اگر فارم میں تبدیلی کی گئی تو یہ بند ہونے سے پہلے پوچھے گا۔'
+      button: 'موڈل کھولیں'
+    form_ajax:
+      description: 'AJAX کا استعمال کرتے ہوئے موڈل کے اندر ایک تیار کردہ ڈیمو فارم دکھائیں۔ Escape اور باہر کلک کرنا غیر فعال ہے، اور اگر فارم میں تبدیلی کی گئی تو یہ بند ہونے سے پہلے پوچھے گا۔'
+      button: 'موڈل کھولیں'
+    recursive:
+      description: 'ایک ڈائیلاگ کے اندر دوسرے ڈائیلاگ کا صفحہ کھولیں — موڈل یا پینل کا انتخاب کریں۔'
+      button_modal: 'موڈل میں کھولیں'
+      button_panel: 'پینل میں کھولیں'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Hộp thoại'
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 'Hộp thoại có các tab. Mở nó, chuyển tab, nhấn F5 — hộp thoại sẽ mở lại ở tab giống như trước.'
+      button: 'Mở hộp thoại'
+    simple:
+      description: 'Hiển thị một hộp thoại đơn giản. Bạn có thể đóng nó bằng phím Escape hoặc bằng cách nhấp bên ngoài hộp thoại.'
+      button: 'Mở hộp thoại'
+    components:
+      description: 'Hiển thị một hộp thoại với các thành phần và một nút thông báo. Phím Escape bị vô hiệu hóa, nhưng bạn vẫn có thể nhấp bên ngoài để đóng nó.'
+      button: 'Mở hộp thoại'
+    medium:
+      description: 'Hiển thị một hộp thoại với văn bản dài vừa. Nhấp bên ngoài sẽ không đóng nó.'
+      button: 'Mở hộp thoại'
+    long:
+      description: 'Hiển thị một hộp thoại với văn bản dài. Nó yêu cầu xác nhận trước khi đóng.'
+      button: 'Mở hộp thoại'
+    form_rendered:
+      description: 'Hiển thị một mẫu demo đã được render bên trong hộp thoại. Phím Escape và nhấp bên ngoài đều bị vô hiệu hóa, và nó yêu cầu xác nhận trước khi đóng nếu mẫu đã được chỉnh sửa.'
+      button: 'Mở hộp thoại'
+    form_ajax:
+      description: 'Hiển thị một mẫu demo đã được render bên trong hộp thoại bằng AJAX. Phím Escape và nhấp bên ngoài đều bị vô hiệu hóa, và nó yêu cầu xác nhận trước khi đóng nếu mẫu đã được chỉnh sửa.'
+      button: 'Mở hộp thoại'
+    recursive:
+      description: 'Mở một trang hộp thoại bên trong một hộp thoại khác — chọn modal hoặc panel.'
+      button_modal: 'Mở trong modal'
+      button_panel: 'Mở trong panel'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 对话框
+  page_icon: 'ph:bold/app-window'
+  section:
+    persist:
+      description: 带标签的模态框。打开它，切换标签，按F5——模态框将在同一标签上重新打开。
+      button: 打开模态框
+    simple:
+      description: 显示一个简单的模态框。你可以按Escape键或点击模态框外部来关闭它。
+      button: 打开模态框
+    components:
+      description: 显示一个包含组件和吐司触发器的模态框。Escape键被禁用，但你仍然可以点击外部来关闭它。
+      button: 打开模态框
+    medium:
+      description: 显示一个中等长度文本的模态框。点击外部不会关闭它。
+      button: 打开模态框
+    long:
+      description: 显示一个长文本的模态框。在关闭之前会要求确认。
+      button: 打开模态框
+    form_rendered:
+      description: 在模态框内显示一个已渲染的演示表单。Escape键和外部点击被禁用，如果表单被修改，它会在关闭前询问。
+      button: 打开模态框
+    form_ajax:
+      description: 在模态框内使用AJAX显示一个已渲染的演示表单。Escape键和外部点击被禁用，如果表单被修改，它会在关闭前询问。
+      button: 打开模态框
+    recursive:
+      description: 在另一个对话框内打开一个对话框页面——选择模态框或面板。
+      button_modal: 在模态框中打开
+      button_panel: 在面板中打开

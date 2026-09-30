@@ -1,0 +1,785 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Messages
+  page_icon: ph:bold/notification
+
+  section:
+    block:
+      title: Block messages
+    compact:
+      title: Compact messages
+      description: Unframed variant, for stating standing rules rather than reporting an event. Pass compact to the options.
+    default:
+      title: Message types
+    vue:
+      title: Vue
+      description: "The same four flavours as vue partials, each carrying the icon its twig function puts in for the caller."
+
+  compact:
+    rule:
+      one: An outgoing invoice must be linked to an incoming one, unless it is a sale.
+      two: Outgoing invoices must be created by an administrator.
+      three: The whole amount has to be allocated before the invoice can be issued.
+
+  message:
+    info:
+      title: Info message
+      body: This is a short informational message.
+    success:
+      title: Success message
+      body: The action completed successfully.
+    warning:
+      title: Warning message
+      body: Something needs your attention.
+    error:
+      title: Error message
+      body: An error occurred while processing the request.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: رسائل
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'حظر الرسائل'
+    compact:
+      title: 'رسائل مضغوطة'
+      description: 'نسخة غير مؤطرة، لوضع قواعد ثابتة بدلاً من الإبلاغ عن حدث. قم بتمرير المضغوط إلى الخيارات.'
+    default:
+      title: 'أنواع الرسائل'
+    vue:
+      title: فيو
+      description: 'نفس النكهات الأربعة كما في أجزاء vue، كل منها يحمل الأيقونة التي تضعها وظيفة twig للمتصل.'
+  compact:
+    rule:
+      one: 'يجب ربط الفاتورة الصادرة بفاتورة واردة، ما لم تكن عملية بيع.'
+      two: 'يجب أن يتم إنشاء الفواتير الصادرة بواسطة مدير.'
+      three: 'يجب تخصيص المبلغ الكامل قبل إصدار الفاتورة.'
+  message:
+    info:
+      title: 'رسالة معلوماتية'
+      body: 'هذه رسالة معلوماتية قصيرة.'
+    success:
+      title: 'رسالة نجاح'
+      body: 'تمت العملية بنجاح.'
+    warning:
+      title: 'رسالة تحذير'
+      body: 'هناك شيء يحتاج إلى اهتمامك.'
+    error:
+      title: 'رسالة خطأ'
+      body: 'حدث خطأ أثناء معالجة الطلب.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: বার্তা
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'বার্তা ব্লক করুন'
+    compact:
+      title: 'সংক্ষিপ্ত বার্তা'
+      description: 'এটি একটি অ-framed ভ্যারিয়েন্ট, যা একটি স্থায়ী নিয়ম বলার জন্য ব্যবহৃত হয়, ঘটনা রিপোর্ট করার জন্য নয়। বিকল্পগুলিতে সংক্ষিপ্ত পাস করুন।'
+    default:
+      title: 'বার্তার প্রকার'
+    vue:
+      title: ভিউ
+      description: 'ভিউ পার্সিয়াল-এর চারটি স্বাদ, প্রতিটি তার টুইগ ফাংশনের জন্য কলার-এ আইকন বহন করে।'
+  compact:
+    rule:
+      one: 'একটি আউটগোয়িং ইনভয়েসকে একটি ইনকামিংয়ের সাথে সংযুক্ত হতে হবে, এটি একটি বিক্রয় না হলে।'
+      two: 'আউটগোয়িং ইনভয়েসগুলি একটি প্রশাসক দ্বারা তৈরি করতে হবে।'
+      three: 'প্রথমে পুরো পরিমাণ বরাদ্দ করতে হবে, তারপর ইনভয়েসটি জারি করা যাবে।'
+  message:
+    info:
+      title: 'তথ্য বার্তা'
+      body: 'এটি একটি সংক্ষিপ্ত তথ্য বার্তা।'
+    success:
+      title: 'সফল বার্তা'
+      body: 'কার্যটি সফলভাবে সম্পন্ন হয়েছে।'
+    warning:
+      title: 'সতর্কতা বার্তা'
+      body: 'কিছু আপনার মনোযোগের প্রয়োজন।'
+    error:
+      title: 'ত্রুটি বার্তা'
+      body: 'অনুরোধ প্রক্রিয়া করার সময় একটি ত্রুটি ঘটেছে।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Nachrichten
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Nachrichten blockieren'
+    compact:
+      title: 'Komprimierte Nachrichten'
+      description: 'Unrahmte Variante, um feste Regeln anzugeben, anstatt ein Ereignis zu melden. Übergeben Sie kompakt an die Optionen.'
+    default:
+      title: Nachrichtentypen
+    vue:
+      title: Vue
+      description: 'Die gleichen vier Varianten wie vue-Teile, jede mit dem Symbol, das die Twig-Funktion für den Aufrufer einfügt.'
+  compact:
+    rule:
+      one: 'Eine ausgehende Rechnung muss mit einer eingehenden verknüpft sein, es sei denn, es handelt sich um einen Verkauf.'
+      two: 'Ausgehende Rechnungen müssen von einem Administrator erstellt werden.'
+      three: 'Der gesamte Betrag muss zugewiesen werden, bevor die Rechnung ausgestellt werden kann.'
+  message:
+    info:
+      title: Informationsnachricht
+      body: 'Dies ist eine kurze Informationsnachricht.'
+    success:
+      title: Erfolgsnachricht
+      body: 'Die Aktion wurde erfolgreich abgeschlossen.'
+    warning:
+      title: Warnmeldung
+      body: 'Etwas benötigt Ihre Aufmerksamkeit.'
+    error:
+      title: Fehlermeldung
+      body: 'Bei der Verarbeitung der Anfrage ist ein Fehler aufgetreten.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Mensajes
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Bloquear mensajes'
+    compact:
+      title: 'Mensajes compactos'
+      description: 'Variante sin marco, para establecer reglas permanentes en lugar de informar un evento. Pasa a compacto a las opciones.'
+    default:
+      title: 'Tipos de mensajes'
+    vue:
+      title: Vue
+      description: 'Los mismos cuatro tipos que las partes de vue, cada uno con el ícono que su función twig pone para el llamador.'
+  compact:
+    rule:
+      one: 'Una factura de salida debe estar vinculada a una de entrada, a menos que sea una venta.'
+      two: 'Las facturas de salida deben ser creadas por un administrador.'
+      three: 'La cantidad total debe ser asignada antes de que se pueda emitir la factura.'
+  message:
+    info:
+      title: 'Mensaje de información'
+      body: 'Este es un mensaje informativo breve.'
+    success:
+      title: 'Mensaje de éxito'
+      body: 'La acción se completó con éxito.'
+    warning:
+      title: 'Mensaje de advertencia'
+      body: 'Algo necesita tu atención.'
+    error:
+      title: 'Mensaje de error'
+      body: 'Ocurrió un error mientras se procesaba la solicitud.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: پیام‌ها
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'مسائل مسدود شده'
+    compact:
+      title: 'پیام‌های فشرده'
+      description: 'نوع بدون قاب، برای بیان قوانین دائمی به جای گزارش یک رویداد. گزینه فشرده را به گزینه‌ها بدهید.'
+    default:
+      title: 'انواع پیام‌ها'
+    vue:
+      title: ویو
+      description: 'همان چهار نوع مانند ویو جزئی، هر کدام با آیکونی که تابع twig برای فراخوانی قرار می‌دهد.'
+  compact:
+    rule:
+      one: 'یک فاکتور خروجی باید به یک فاکتور ورودی مرتبط باشد، مگر اینکه فروش باشد.'
+      two: 'فاکتورهای خروجی باید توسط یک مدیر ایجاد شوند.'
+      three: 'مبلغ کل باید تخصیص داده شود تا فاکتور صادر شود.'
+  message:
+    info:
+      title: 'پیام اطلاعاتی'
+      body: 'این یک پیام اطلاعاتی کوتاه است.'
+    success:
+      title: 'پیام موفقیت'
+      body: 'عملیات با موفقیت انجام شد.'
+    warning:
+      title: 'پیام هشدار'
+      body: 'چیزی نیاز به توجه شما دارد.'
+    error:
+      title: 'پیام خطا'
+      body: 'در حین پردازش درخواست خطایی رخ داد.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Viestit
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Estä viestit'
+    compact:
+      title: 'Tiivistetyt viestit'
+      description: 'Rajaamaton versio, joka ilmoittaa perussäännöistä sen sijaan, että raportoisi tapahtumasta. Anna tiivistetty vaihtoehtoihin.'
+    default:
+      title: Viestityypit
+    vue:
+      title: Vue
+      description: 'Samat neljä tyyppiä kuin vue osittaisissa, jokainen sisältää sen kuvakkeen, jonka sen twig-toiminto asettaa kutsujalle.'
+  compact:
+    rule:
+      one: 'Lähtevän laskun on oltava yhteydessä saapuvaan laskuun, ellei se ole myynti.'
+      two: 'Lähtevät laskut on luotava ylläpitäjän toimesta.'
+      three: 'Koko summa on kohdennettava ennen kuin lasku voidaan laskea.'
+  message:
+    info:
+      title: Tiedotusviesti
+      body: 'Tämä on lyhyt tiedotusviesti.'
+    success:
+      title: Onnistumisviesti
+      body: 'Toimenpide suoritettu onnistuneesti.'
+    warning:
+      title: Varoitusviesti
+      body: 'Jokin vaatii huomiotasi.'
+    error:
+      title: Virheviesti
+      body: 'Käsittelyssä tapahtui virhe.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Messages
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Bloquer les messages'
+    compact:
+      title: 'Messages compacts'
+      description: 'Variante sans cadre, pour énoncer des règles permanentes plutôt que de rapporter un événement. Passez compact aux options.'
+    default:
+      title: 'Types de message'
+    vue:
+      title: Vue
+      description: "Les mêmes quatre saveurs que les parties vue, chacune portant l'icône que sa fonction twig met pour l'appelant."
+  compact:
+    rule:
+      one: "Une facture sortante doit être liée à une facture entrante, sauf s'il s'agit d'une vente."
+      two: 'Les factures sortantes doivent être créées par un administrateur.'
+      three: 'Le montant total doit être alloué avant que la facture puisse être émise.'
+  message:
+    info:
+      title: "Message d'information"
+      body: "Ceci est un court message d'information."
+    success:
+      title: 'Message de réussite'
+      body: "L'action a été complétée avec succès."
+    warning:
+      title: "Message d'avertissement"
+      body: 'Quelque chose nécessite votre attention.'
+    error:
+      title: "Message d'erreur"
+      body: "Une erreur s'est produite lors du traitement de la demande."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: הודעות
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'חסימת הודעות'
+    compact:
+      title: 'הודעות קומפקטיות'
+      description: 'גרסה ללא מסגרת, לצורך הצגת כללים קבועים ולא דיווח על אירוע. העבר קומפקט לאופציות.'
+    default:
+      title: 'סוגי הודעות'
+    vue:
+      title: Vue
+      description: 'אותם ארבעה סוגים כמו חלקי vue, כל אחד נושא את האייקון שהפונקציה שלו מייצרת עבור הקורא.'
+  compact:
+    rule:
+      one: 'חשבונית יוצאת חייבת להיות מקושרת לחשבונית נכנסת, אלא אם מדובר במכירה.'
+      two: 'חשבוניות יוצאות חייבות להיווצר על ידי מנהל.'
+      three: 'הסכום הכולל חייב להיות מוקצה לפני שניתן להנפיק את החשבונית.'
+  message:
+    info:
+      title: 'הודעת מידע'
+      body: 'זו הודעת מידע קצרה.'
+    success:
+      title: 'הודעת הצלחה'
+      body: 'הפעולה הושלמה בהצלחה.'
+    warning:
+      title: 'הודעת אזהרה'
+      body: 'משהו דורש את תשומת הלב שלך.'
+    error:
+      title: 'הודעת שגיאה'
+      body: 'אירעה שגיאה במהלך עיבוד הבקשה.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: संदेश
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'संदेश ब्लॉक करें'
+    compact:
+      title: 'संक्षिप्त संदेश'
+      description: 'बिना फ्रेम का रूप, जो स्थायी नियमों को बताने के लिए है, न कि किसी घटना की रिपोर्ट करने के लिए। विकल्पों के लिए संक्षिप्त पास करें।'
+    default:
+      title: 'संदेश प्रकार'
+    vue:
+      title: व्यू
+      description: 'व्यू आंशिक के समान चार स्वाद, प्रत्येक अपने कॉलर के लिए उसके टुइग फ़ंक्शन द्वारा डाले गए आइकन को ले जाता है।'
+  compact:
+    rule:
+      one: 'एक outgoing इनवॉइस को एक incoming इनवॉइस से जोड़ा जाना चाहिए, जब तक कि यह एक बिक्री न हो।'
+      two: 'Outgoing इनवॉइस को एक प्रशासक द्वारा बनाया जाना चाहिए।'
+      three: 'इनवॉइस जारी करने से पहले पूरे राशि का आवंटन होना चाहिए।'
+  message:
+    info:
+      title: 'सूचना संदेश'
+      body: 'यह एक संक्षिप्त जानकारी संदेश है।'
+    success:
+      title: 'सफलता संदेश'
+      body: 'क्रिया सफलतापूर्वक पूरी हुई।'
+    warning:
+      title: 'चेतावनी संदेश'
+      body: 'कुछ आपकी ध्यान की आवश्यकता है।'
+    error:
+      title: 'त्रुटि संदेश'
+      body: 'अनुरोध को संसाधित करते समय एक त्रुटि हुई।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Pesan
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Blokir pesan'
+    compact:
+      title: 'Pesan ringkas'
+      description: 'Variasi tanpa bingkai, untuk menyatakan aturan tetap daripada melaporkan suatu kejadian. Berikan opsi ringkas.'
+    default:
+      title: 'Tipe pesan'
+    vue:
+      title: Vue
+      description: 'Empat variasi yang sama seperti partial vue, masing-masing membawa ikon yang ditetapkan oleh fungsi twig untuk pemanggil.'
+  compact:
+    rule:
+      one: 'Faktur keluar harus terhubung dengan faktur masuk, kecuali itu adalah penjualan.'
+      two: 'Faktur keluar harus dibuat oleh seorang administrator.'
+      three: 'Jumlah keseluruhan harus dialokasikan sebelum faktur dapat diterbitkan.'
+  message:
+    info:
+      title: 'Pesan informasi'
+      body: 'Ini adalah pesan informasi singkat.'
+    success:
+      title: 'Pesan sukses'
+      body: 'Tindakan berhasil diselesaikan.'
+    warning:
+      title: 'Pesan peringatan'
+      body: 'Sesuatu perlu perhatian Anda.'
+    error:
+      title: 'Pesan kesalahan'
+      body: 'Terjadi kesalahan saat memproses permintaan.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Messaggi
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Blocca messaggi'
+    compact:
+      title: 'Messaggi compatti'
+      description: 'Versione non incorniciata, per esprimere regole generali piuttosto che riportare un evento. Passa compatto alle opzioni.'
+    default:
+      title: 'Tipi di messaggio'
+    vue:
+      title: Vue
+      description: "Le stesse quattro varianti delle porzioni vue, ognuna con l'icona che la sua funzione twig inserisce per il chiamante."
+  compact:
+    rule:
+      one: 'Una fattura in uscita deve essere collegata a una in arrivo, a meno che non sia una vendita.'
+      two: 'Le fatture in uscita devono essere create da un amministratore.'
+      three: "L'importo totale deve essere allocato prima che la fattura possa essere emessa."
+  message:
+    info:
+      title: 'Messaggio informativo'
+      body: 'Questo è un breve messaggio informativo.'
+    success:
+      title: 'Messaggio di successo'
+      body: "L'azione è stata completata con successo."
+    warning:
+      title: 'Messaggio di avviso'
+      body: 'Qualcosa richiede la tua attenzione.'
+    error:
+      title: 'Messaggio di errore'
+      body: "Si è verificato un errore durante l'elaborazione della richiesta."
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: メッセージ
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: メッセージをブロック
+    compact:
+      title: コンパクトメッセージ
+      description: フレームなしのバリアントで、イベントを報告するのではなく、基本的なルールを示します。オプションにコンパクトを渡してください。
+    default:
+      title: メッセージタイプ
+    vue:
+      title: Vue
+      description: 呼び出し元のためにそのtwig関数が挿入するアイコンを持つ、vueパーシャルと同じ4つのバリエーションです。
+  compact:
+    rule:
+      one: 出荷請求書は、販売でない限り、受信請求書にリンクされている必要があります。
+      two: 出荷請求書は管理者によって作成されなければなりません。
+      three: 請求書を発行する前に、全額を割り当てる必要があります。
+  message:
+    info:
+      title: 情報メッセージ
+      body: これは短い情報メッセージです。
+    success:
+      title: 成功メッセージ
+      body: アクションが正常に完了しました。
+    warning:
+      title: 警告メッセージ
+      body: 何かがあなたの注意を必要としています。
+    error:
+      title: エラーメッセージ
+      body: リクエストの処理中にエラーが発生しました。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 메시지
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: '메시지 차단'
+    compact:
+      title: '간략 메시지'
+      description: '이벤트를 보고하기보다는 고정 규칙을 명시하는 비프레임 변형입니다. 옵션에 간략을 전달하세요.'
+    default:
+      title: '메시지 유형'
+    vue:
+      title: Vue
+      description: '각 호출자에 대해 해당하는 아이콘을 가지고 있는 Vue 부분의 동일한 네 가지 변형입니다.'
+  compact:
+    rule:
+      one: '발송된 송장은 수신된 송장과 연결되어야 하며, 판매가 아닌 경우를 제외합니다.'
+      two: '발송된 송장은 관리자에 의해 생성되어야 합니다.'
+      three: '송장을 발행하기 전에 전체 금액이 할당되어야 합니다.'
+  message:
+    info:
+      title: '정보 메시지'
+      body: '짧은 정보 메시지입니다.'
+    success:
+      title: '성공 메시지'
+      body: '작업이 성공적으로 완료되었습니다.'
+    warning:
+      title: '경고 메시지'
+      body: '주의가 필요한 사항이 있습니다.'
+    error:
+      title: '오류 메시지'
+      body: '요청 처리 중 오류가 발생했습니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Berichten
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Berichten blokkeren'
+    compact:
+      title: 'Compacte berichten'
+      description: 'Ongehulde variant, voor het aangeven van vaste regels in plaats van het rapporteren van een gebeurtenis. Geef compact door aan de opties.'
+    default:
+      title: Berichttypes
+    vue:
+      title: Vue
+      description: 'Dezelfde vier varianten als vue-partials, elk met het pictogram dat zijn twig-functie voor de aanroeper plaatst.'
+  compact:
+    rule:
+      one: 'Een uitgaande factuur moet gekoppeld zijn aan een binnenkomende factuur, tenzij het een verkoop is.'
+      two: 'Uitgaande facturen moeten door een administrator worden aangemaakt.'
+      three: 'Het volledige bedrag moet worden toegewezen voordat de factuur kan worden uitgegeven.'
+  message:
+    info:
+      title: Informatiebericht
+      body: 'Dit is een kort informatief bericht.'
+    success:
+      title: Succesbericht
+      body: 'De actie is succesvol voltooid.'
+    warning:
+      title: Waarschuwingsbericht
+      body: 'Er is iets dat uw aandacht nodig heeft.'
+    error:
+      title: Foutbericht
+      body: 'Er is een fout opgetreden tijdens het verwerken van de aanvraag.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Wiadomości
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Zablokowane wiadomości'
+    compact:
+      title: 'Kompaktowe wiadomości'
+      description: 'Niezdobyta wersja, do określania stałych zasad zamiast raportowania zdarzenia. Przekaż kompaktowe do opcji.'
+    default:
+      title: 'Rodzaje wiadomości'
+    vue:
+      title: Vue
+      description: 'Te same cztery warianty jak części vue, każda z ikoną, którą jej funkcja twig wstawia dla wywołującego.'
+  compact:
+    rule:
+      one: 'Wystawiona faktura musi być powiązana z przychodzącą, chyba że jest to sprzedaż.'
+      two: 'Faktury wychodzące muszą być tworzone przez administratora.'
+      three: 'Cała kwota musi być przypisana przed wystawieniem faktury.'
+  message:
+    info:
+      title: 'Wiadomość informacyjna'
+      body: 'To krótka wiadomość informacyjna.'
+    success:
+      title: 'Wiadomość o sukcesie'
+      body: 'Akcja zakończona pomyślnie.'
+    warning:
+      title: 'Wiadomość ostrzegawcza'
+      body: 'Coś wymaga Twojej uwagi.'
+    error:
+      title: 'Wiadomość o błędzie'
+      body: 'Wystąpił błąd podczas przetwarzania żądania.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Mensagens
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Bloquear mensagens'
+    compact:
+      title: 'Mensagens compactas'
+      description: 'Variante sem moldura, para estabelecer regras permanentes em vez de relatar um evento. Passe compact para as opções.'
+    default:
+      title: 'Tipos de mensagem'
+    vue:
+      title: Vue
+      description: 'Os mesmos quatro tipos que os parciais vue, cada um carregando o ícone que sua função twig coloca para o chamador.'
+  compact:
+    rule:
+      one: 'Uma fatura de saída deve estar vinculada a uma fatura de entrada, a menos que seja uma venda.'
+      two: 'Faturas de saída devem ser criadas por um administrador.'
+      three: 'O valor total deve ser alocado antes que a fatura possa ser emitida.'
+  message:
+    info:
+      title: 'Mensagem de informação'
+      body: 'Esta é uma mensagem informativa curta.'
+    success:
+      title: 'Mensagem de sucesso'
+      body: 'A ação foi concluída com sucesso.'
+    warning:
+      title: 'Mensagem de alerta'
+      body: 'Algo precisa da sua atenção.'
+    error:
+      title: 'Mensagem de erro'
+      body: 'Ocorreu um erro ao processar a solicitação.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Сообщения
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Блокировать сообщения'
+    compact:
+      title: 'Компактные сообщения'
+      description: 'Несформатированный вариант, для указания постоянных правил, а не для сообщения о событии. Передайте compact в параметры.'
+    default:
+      title: 'Типы сообщений'
+    vue:
+      title: Vue
+      description: 'Те же четыре варианта, что и vue partials, каждый с иконкой, которую его twig функция вставляет для вызывающего.'
+  compact:
+    rule:
+      one: 'Исходящий счет-фактура должен быть связан с входящим, если это не продажа.'
+      two: 'Исходящие счета-фактуры должны создаваться администратором.'
+      three: 'Вся сумма должна быть распределена, прежде чем счет-фактура может быть выписан.'
+  message:
+    info:
+      title: 'Информационное сообщение'
+      body: 'Это короткое информационное сообщение.'
+    success:
+      title: 'Сообщение об успешном выполнении'
+      body: 'Действие было успешно выполнено.'
+    warning:
+      title: 'Предупреждающее сообщение'
+      body: 'Что-то требует вашего внимания.'
+    error:
+      title: 'Сообщение об ошибке'
+      body: 'Произошла ошибка при обработке запроса.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ข้อความ
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: บล็อกข้อความ
+    compact:
+      title: ข้อความแบบกระชับ
+      description: 'รูปแบบที่ไม่มีกรอบ สำหรับการระบุหลักการถาวรแทนที่จะรายงานเหตุการณ์ ส่งแบบกระชับไปยังตัวเลือก'
+    default:
+      title: ประเภทข้อความ
+    vue:
+      title: Vue
+      description: 'รสชาติทั้งสี่แบบเดียวกับ vue partials แต่ละแบบมีไอคอนที่ฟังก์ชัน twig ใส่ให้กับผู้เรียก'
+  compact:
+    rule:
+      one: 'ใบแจ้งหนี้ที่ออกต้องเชื่อมโยงกับใบแจ้งหนี้ที่เข้า ยกเว้นในกรณีที่เป็นการขาย'
+      two: ใบแจ้งหนี้ที่ออกต้องสร้างโดยผู้ดูแลระบบ
+      three: จำนวนทั้งหมดต้องถูกจัดสรรก่อนที่จะออกใบแจ้งหนี้ได้
+  message:
+    info:
+      title: ข้อความข้อมูล
+      body: นี่คือข้อความข้อมูลสั้นๆ
+    success:
+      title: ข้อความสำเร็จ
+      body: การดำเนินการเสร็จสมบูรณ์เรียบร้อยแล้ว
+    warning:
+      title: ข้อความเตือน
+      body: มีบางอย่างที่ต้องให้ความสนใจของคุณ
+    error:
+      title: ข้อความผิดพลาด
+      body: เกิดข้อผิดพลาดขณะประมวลผลคำขอ
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Mesajlar
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Mesajları Engelle'
+    compact:
+      title: 'Kısa Mesajlar'
+      description: 'Olay bildirmek yerine durumsal kuralları belirtmek için çerçevesiz bir varyant. Seçeneklere compact ekleyin.'
+    default:
+      title: 'Mesaj Türleri'
+    vue:
+      title: Vue
+      description: 'Her biri çağrıcı için twig işlevinin koyduğu simgeyi taşıyan vue parçaları ile aynı dört çeşitten oluşur.'
+  compact:
+    rule:
+      one: 'Giden bir fatura, gelen bir faturaya bağlı olmalıdır, aksi takdirde bu bir satıştır.'
+      two: 'Giden faturalar bir yönetici tarafından oluşturulmalıdır.'
+      three: 'Fatura düzenlenmeden önce toplam miktar tahsis edilmelidir.'
+  message:
+    info:
+      title: 'Bilgi Mesajı'
+      body: 'Bu kısa bir bilgilendirme mesajıdır.'
+    success:
+      title: 'Başarı Mesajı'
+      body: 'İşlem başarıyla tamamlandı.'
+    warning:
+      title: 'Uyarı Mesajı'
+      body: 'Dikkatinizi gerektiren bir şey var.'
+    error:
+      title: 'Hata Mesajı'
+      body: 'Talep işlenirken bir hata oluştu.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: پیغامات
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'پیغامات بلاک کریں'
+    compact:
+      title: 'کمپیکٹ پیغامات'
+      description: 'غیر فریمڈ قسم، جو کہ کھڑے قواعد بیان کرنے کے لیے ہے نہ کہ کسی واقعے کی رپورٹنگ کے لیے۔ اختیارات میں کمپیکٹ شامل کریں۔'
+    default:
+      title: 'پیغام کی اقسام'
+    vue:
+      title: ویو
+      description: 'ویو پارشلز کے چار مختلف ذائقے، ہر ایک اپنے کالر کے لیے اس کی ٹوئگ فنکشن کے ذریعے آئکن لے کر آتا ہے۔'
+  compact:
+    rule:
+      one: 'ایک باہر جانے والا انوائس ایک اندر آنے والے انوائس سے منسلک ہونا ضروری ہے، جب تک کہ یہ ایک فروخت نہ ہو۔'
+      two: 'باہر جانے والے انوائس ایک ایڈمنسٹریٹر کے ذریعہ بنائے جانے چاہئیں۔'
+      three: 'انوائس جاری کرنے سے پہلے پورا رقم مختص کرنا ہوگا۔'
+  message:
+    info:
+      title: 'معلوماتی پیغام'
+      body: 'یہ ایک مختصر معلوماتی پیغام ہے۔'
+    success:
+      title: 'کامیابی کا پیغام'
+      body: 'عمل کامیابی سے مکمل ہو گیا۔'
+    warning:
+      title: 'خبردار کرنے والا پیغام'
+      body: 'کچھ چیزیں آپ کی توجہ کی ضرورت ہے۔'
+    error:
+      title: 'غلطی کا پیغام'
+      body: 'درخواست کی پروسیسنگ کے دوران ایک غلطی پیش آئی۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Tin nhắn'
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 'Chặn tin nhắn'
+    compact:
+      title: 'Tin nhắn gọn'
+      description: 'Biến thể không khung, để nêu rõ các quy tắc chứ không phải báo cáo một sự kiện. Chuyển sang gọn trong các tùy chọn.'
+    default:
+      title: 'Loại tin nhắn'
+    vue:
+      title: Vue
+      description: 'Bốn loại như các phần vue, mỗi loại mang biểu tượng mà hàm twig của nó đưa vào cho người gọi.'
+  compact:
+    rule:
+      one: 'Một hóa đơn xuất phải liên kết với một hóa đơn nhập, trừ khi đó là một giao dịch bán hàng.'
+      two: 'Hóa đơn xuất phải được tạo bởi một quản trị viên.'
+      three: 'Toàn bộ số tiền phải được phân bổ trước khi hóa đơn có thể được phát hành.'
+  message:
+    info:
+      title: 'Tin nhắn thông tin'
+      body: 'Đây là một tin nhắn thông tin ngắn.'
+    success:
+      title: 'Tin nhắn thành công'
+      body: 'Hành động đã hoàn thành thành công.'
+    warning:
+      title: 'Tin nhắn cảnh báo'
+      body: 'Có điều gì đó cần bạn chú ý.'
+    error:
+      title: 'Tin nhắn lỗi'
+      body: 'Đã xảy ra lỗi trong quá trình xử lý yêu cầu.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 消息
+  page_icon: 'ph:bold/notification'
+  section:
+    block:
+      title: 阻止消息
+    compact:
+      title: 紧凑消息
+      description: 无框变体，用于陈述固定规则而不是报告事件。将紧凑传递给选项。
+    default:
+      title: 消息类型
+    vue:
+      title: Vue
+      description: 与vue部分相同的四种类型，每种都携带其twig函数为调用者放入的图标。
+  compact:
+    rule:
+      one: 外发发票必须与内发发票相关联，除非它是销售。
+      two: 外发发票必须由管理员创建。
+      three: 在发票可以开具之前，必须分配全部金额。
+  message:
+    info:
+      title: 信息消息
+      body: 这是一条简短的信息消息。
+    success:
+      title: 成功消息
+      body: 操作成功完成。
+    warning:
+      title: 警告消息
+      body: 有些事情需要你的注意。
+    error:
+      title: 错误消息
+      body: 处理请求时发生错误。

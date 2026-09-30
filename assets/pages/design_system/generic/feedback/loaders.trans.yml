@@ -1,0 +1,510 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Loaders
+  page_icon: ph:bold/spinner-gap
+
+  intro: "Something is happening and its end is not known. Both of these say that much and refuse to say more — where the end is known, the bar on the next tab says it instead."
+
+  section:
+    spinner:
+      title: Spinner
+      description: "A machine is busy. Three sizes, and an inline alignment for when it stands in a line of text rather than in a box of its own."
+    dots:
+      title: Dots
+      description: "Something is about to be said. The same three sizes, and the same alignments — what changes is who the reader is waiting for."
+    vue:
+      title: Vue
+      description: "Both ship as vue partials too, taking the same options, for a page that decides while it runs whether there is anything to wait for."
+
+  spinner:
+    label: Loading
+    inline: Processing data
+
+  dots:
+    label: Waiting
+    inline: The other side is writing
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: محملات
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'هناك شيء يحدث ونهايته غير معروفة. كلاهما يقول الكثير ويرفض قول المزيد - حيث تُعرف النهاية، يقول الشريط في علامة التبويب التالية ذلك بدلاً من ذلك.'
+  section:
+    spinner:
+      title: دوار
+      description: 'آلة مشغولة. ثلاثة أحجام، ومحاذاة داخلية عندما تكون في سطر نص بدلاً من أن تكون في صندوق خاص بها.'
+    dots:
+      title: نقاط
+      description: 'شيء على وشك أن يُقال. نفس الأحجام الثلاثة، ونفس المحاذاة - ما يتغير هو من ينتظر القارئ.'
+    vue:
+      title: فيو
+      description: 'كلاهما يأتي كأجزاء vue أيضًا، مع نفس الخيارات، لصفحة تقرر أثناء تشغيلها ما إذا كان هناك أي شيء يجب الانتظار من أجله.'
+  spinner:
+    label: 'جارٍ التحميل'
+    inline: 'معالجة البيانات'
+  dots:
+    label: 'في الانتظار'
+    inline: 'الجانب الآخر يكتب'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: লোডার
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'কিছু হচ্ছে এবং এর শেষ জানানো হয়নি। উভয়ই এটাই বলছে এবং আরও কিছু বলতে অস্বীকৃতি জানাচ্ছে — যেখানে শেষ জানা যায়, পরবর্তী ট্যাবে বারটি তা জানাচ্ছে।'
+  section:
+    spinner:
+      title: স্পিনার
+      description: 'একটি মেশিন ব্যস্ত। তিনটি আকার, এবং যখন এটি একটি লেখার লাইনে দাঁড়িয়ে থাকে তখন একটি ইনলাইন অ্যালাইনমেন্ট।'
+    dots:
+      title: ডটস
+      description: 'কিছু বলার প্রস্তুতি চলছে। একই তিনটি আকার, এবং একই অ্যালাইনমেন্ট — পরিবর্তন হচ্ছে পড়ার জন্য অপেক্ষা করা কারা।'
+    vue:
+      title: ভিউ
+      description: 'দুটোই ভিউ পার্শিয়াল হিসেবেও পাঠানো হচ্ছে, একই অপশন নিয়ে, একটি পৃষ্ঠার জন্য যা চলাকালীন সিদ্ধান্ত নেয় যে কিছু অপেক্ষা করার আছে কিনা।'
+  spinner:
+    label: 'লোড হচ্ছে'
+    inline: 'ডেটা প্রক্রিয়াকরণ হচ্ছে'
+  dots:
+    label: 'অপেক্ষা করছে'
+    inline: 'অন্যপক্ষ লিখছে'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ladeanzeigen
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Es passiert etwas, und das Ende ist nicht bekannt. Beides sagt das aus und weigert sich, mehr zu verraten — wo das Ende bekannt ist, zeigt die Leiste im nächsten Tab es stattdessen an.'
+  section:
+    spinner:
+      title: Spinner
+      description: 'Eine Maschine ist beschäftigt. Drei Größen und eine Inline-Ausrichtung für den Fall, dass sie in einer Textzeile steht, anstatt in einem eigenen Kästchen.'
+    dots:
+      title: Punkte
+      description: 'Es steht etwas bevor. Die gleichen drei Größen und die gleichen Ausrichtungen — was sich ändert, ist, auf wen der Leser wartet.'
+    vue:
+      title: Vue
+      description: 'Beide werden auch als Vue-Teile geliefert, die die gleichen Optionen übernehmen, für eine Seite, die während des Betriebs entscheidet, ob es etwas gibt, auf das sie warten muss.'
+  spinner:
+    label: Laden
+    inline: 'Daten werden verarbeitet'
+  dots:
+    label: Warten
+    inline: 'Die andere Seite schreibt'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Cargadores
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Algo está sucediendo y su final no se conoce. Ambos dicen eso y se niegan a decir más — donde se conoce el final, la barra en la siguiente pestaña lo dice en su lugar.'
+  section:
+    spinner:
+      title: Girador
+      description: 'Una máquina está ocupada. Tres tamaños, y una alineación en línea para cuando se coloca en una línea de texto en lugar de en una caja propia.'
+    dots:
+      title: Puntos
+      description: 'Algo está a punto de ser dicho. Los mismos tres tamaños, y las mismas alineaciones — lo que cambia es a quién está esperando el lector.'
+    vue:
+      title: Vue
+      description: 'Ambos se envían como partes de vue también, tomando las mismas opciones, para una página que decide mientras se ejecuta si hay algo por lo que esperar.'
+  spinner:
+    label: Cargando
+    inline: 'Procesando datos'
+  dots:
+    label: Esperando
+    inline: 'El otro lado está escribiendo'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بارگذارها
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'چیزی در حال وقوع است و پایان آن مشخص نیست. هر دو اینها همین را می‌گویند و بیشتر از آن نمی‌گویند — جایی که پایان مشخص است، نوار در زبانه بعدی این را می‌گوید.'
+  section:
+    spinner:
+      title: چرخاننده
+      description: 'یک دستگاه مشغول است. سه اندازه و یک تراز درون‌خطی برای زمانی که در یک خط متن قرار دارد به جای اینکه در یک جعبه جداگانه باشد.'
+    dots:
+      title: نقاط
+      description: 'چیزی قرار است گفته شود. همان سه اندازه و همان ترازها — آنچه تغییر می‌کند این است که خواننده برای چه کسی منتظر است.'
+    vue:
+      title: Vue
+      description: 'هر دو به عنوان بخش‌های vue نیز عرضه می‌شوند، با همان گزینه‌ها، برای صفحه‌ای که در حین اجرا تصمیم می‌گیرد آیا چیزی برای انتظار وجود دارد یا خیر.'
+  spinner:
+    label: 'در حال بارگذاری'
+    inline: 'در حال پردازش داده‌ها'
+  dots:
+    label: منتظر
+    inline: 'طرف دیگر در حال نوشتن است'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Lataajat
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Jotain on tapahtumassa, eikä sen loppua tiedetä. Molemmat sanovat sen verran ja kieltäytyvät sanomasta enempää — kun loppu on tiedossa, seuraavalla välilehdellä oleva palkki kertoo sen sen sijaan.'
+  section:
+    spinner:
+      title: Pyörijä
+      description: 'Kone on kiireinen. Kolme kokoa ja inline-asettelu, kun se on tekstirivillä eikä omassa laatikossaan.'
+    dots:
+      title: Pisteet
+      description: 'Jotain on sanomassa. Samat kolme kokoa ja samat asettelut — se, mikä vaihtuu, on se, ketä lukija odottaa.'
+    vue:
+      title: Vue
+      description: 'Molemmat toimitetaan myös vue-osina, ottaen samat vaihtoehdot, sivulle, joka päättää ajon aikana, onko odotettavaa.'
+  spinner:
+    label: Ladataan
+    inline: 'Käsitellään tietoja'
+  dots:
+    label: Odotetaan
+    inline: 'Toinen puoli kirjoittaa'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Chargeurs
+  page_icon: 'ph:bold/spinner-gap'
+  intro: "Quelque chose se passe et la fin n'est pas connue. Les deux disent cela et refusent d'en dire plus - là où la fin est connue, la barre sur l'onglet suivant le dit à la place."
+  section:
+    spinner:
+      title: Spinners
+      description: 'Une machine est occupée. Trois tailles, et un alignement en ligne pour quand il se trouve dans une ligne de texte plutôt que dans une boîte à part.'
+    dots:
+      title: Points
+      description: "Quelque chose est sur le point d'être dit. Les mêmes trois tailles, et les mêmes alignements - ce qui change, c'est qui le lecteur attend."
+    vue:
+      title: Vue
+      description: "Les deux sont également expédiés en tant que parties vue, prenant les mêmes options, pour une page qui décide en cours d'exécution s'il y a quelque chose à attendre."
+  spinner:
+    label: Chargement
+    inline: 'Traitement des données'
+  dots:
+    label: 'En attente'
+    inline: "L'autre côté est en train d'écrire"
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: טעינה
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'משהו קורה וסופו אינו ידוע. שני אלה אומרים הרבה ומסרבים לומר יותר - כאשר הסוף ידוע, הסרגל בטאב הבא אומר זאת במקום.'
+  section:
+    spinner:
+      title: ספינר
+      description: 'מכונה עסוקה. שלושה גדלים, ויישור שורה כאשר היא נמצאת בשורה של טקסט ולא בתוך תיבה משלה.'
+    dots:
+      title: נקודות
+      description: 'משהו עומד להיאמר. אותם שלושה גדלים, ואותם יישורים - מה שמשתנה הוא מי מחכה לקורא.'
+    vue:
+      title: Vue
+      description: 'שניהם מגיעים גם כ-partials של vue, לוקחים את אותן אפשרויות, לדף שמחליט בזמן ריצה אם יש משהו לחכות לו.'
+  spinner:
+    label: טוען
+    inline: 'מעבד נתונים'
+  dots:
+    label: מחכה
+    inline: 'הצד השני כותב'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: लोडर्स
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'कुछ हो रहा है और इसका अंत ज्ञात नहीं है। दोनों ही इसका संकेत देते हैं और इससे अधिक नहीं बताते — जहां अंत ज्ञात है, वहां अगले टैब पर बार इसका संकेत देता है।'
+  section:
+    spinner:
+      title: स्पिनर
+      description: 'एक मशीन व्यस्त है। तीन आकार, और जब यह टेक्स्ट की एक पंक्ति में खड़ी होती है तो इसके लिए एक इनलाइन संरेखण।'
+    dots:
+      title: डॉट्स
+      description: 'कुछ कहा जाने वाला है। वही तीन आकार, और वही संरेखण — जो बदलता है वह यह है कि पाठक किसका इंतजार कर रहा है।'
+    vue:
+      title: व्यू
+      description: 'दोनों vue भागों के रूप में भी आते हैं, वही विकल्प लेते हैं, एक पृष्ठ के लिए जो यह तय करता है कि क्या कुछ इंतजार करने के लिए है।'
+  spinner:
+    label: 'लोड हो रहा है'
+    inline: 'डेटा संसाधित कर रहा है'
+  dots:
+    label: 'इंतज़ार कर रहा है'
+    inline: 'दूसरी तरफ लिख रहा है'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Loader
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Sesuatu sedang terjadi dan akhir dari itu tidak diketahui. Keduanya mengatakan banyak dan menolak untuk mengatakan lebih — di mana akhir diketahui, bar di tab berikutnya mengatakannya sebagai gantinya.'
+  section:
+    spinner:
+      title: Spinner
+      description: 'Sebuah mesin sedang sibuk. Tiga ukuran, dan penataan inline untuk ketika ia berdiri dalam baris teks daripada dalam kotak sendiri.'
+    dots:
+      title: Titik
+      description: 'Sesuatu akan segera diungkapkan. Tiga ukuran yang sama, dan penataan yang sama — yang berubah adalah siapa yang ditunggu oleh pembaca.'
+    vue:
+      title: Vue
+      description: 'Keduanya juga dikirim sebagai vue partials, mengambil opsi yang sama, untuk halaman yang memutuskan sementara berjalan apakah ada yang perlu ditunggu.'
+  spinner:
+    label: Memuat
+    inline: 'Memproses data'
+  dots:
+    label: Menunggu
+    inline: 'Sisi lain sedang menulis'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Caricamenti
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Qualcosa sta accadendo e non si conosce la sua fine. Entrambi dicono questo e rifiutano di dire di più — dove la fine è conosciuta, la barra nella scheda successiva lo indica invece.'
+  section:
+    spinner:
+      title: Spinner
+      description: 'Una macchina è occupata. Tre dimensioni e un allineamento inline per quando si trova in una riga di testo piuttosto che in una propria casella.'
+    dots:
+      title: Punti
+      description: 'Qualcosa sta per essere detto. Le stesse tre dimensioni e gli stessi allineamenti — ciò che cambia è chi il lettore sta aspettando.'
+    vue:
+      title: Vue
+      description: "Entrambi vengono forniti anche come partials vue, prendendo le stesse opzioni, per una pagina che decide mentre viene eseguita se c'è qualcosa da aspettare."
+  spinner:
+    label: Caricamento
+    inline: 'Elaborazione dati'
+  dots:
+    label: Attesa
+    inline: "L'altro lato sta scrivendo"
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ローダー
+  page_icon: 'ph:bold/spinner-gap'
+  intro: '何かが起こっていますが、その終わりは不明です。これらはそのことを示し、それ以上は言いません — 終わりがわかっている場合は、次のタブのバーがそれを示します。'
+  section:
+    spinner:
+      title: スピナー
+      description: 機械が忙しくしています。3つのサイズがあり、テキストの行の中に立っているとき用のインライン配置もあります。
+    dots:
+      title: ドット
+      description: '何かが言われようとしています。同じ3つのサイズと同じ配置 — 変わるのは、読者が誰を待っているかです。'
+    vue:
+      title: Vue
+      description: どちらもvueパーシャルとしても提供され、同じオプションを取り入れ、実行中に待つべきものがあるかどうかを決めるページのためのものです。
+  spinner:
+    label: 読み込み中
+    inline: データを処理しています
+  dots:
+    label: 待機中
+    inline: 相手が書いています
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 로더
+  page_icon: 'ph:bold/spinner-gap'
+  intro: '무언가가 진행 중이며 그 끝이 알려지지 않았습니다. 이 둘은 그 정도까지만 이야기하며 더 이상 말하지 않습니다 — 끝이 알려진 경우, 다음 탭의 바가 대신 그것을 나타냅니다.'
+  section:
+    spinner:
+      title: 스피너
+      description: '기계가 바쁘게 돌아가고 있습니다. 세 가지 크기와, 자신만의 상자가 아닌 텍스트 줄에 서 있을 때를 위한 인라인 정렬이 있습니다.'
+    dots:
+      title: 점
+      description: '무언가가 곧 언급될 것입니다. 동일한 세 가지 크기와 동일한 정렬 — 변화하는 것은 독자가 누구를 기다리고 있는가입니다.'
+    vue:
+      title: 뷰
+      description: '두 개 모두 vue 부분으로 제공되며, 동일한 옵션을 사용하여 실행 중에 기다릴 것이 있는지 여부를 결정하는 페이지를 위한 것입니다.'
+  spinner:
+    label: '로딩 중'
+    inline: '데이터 처리 중'
+  dots:
+    label: '기다리는 중'
+    inline: '상대방이 작성하고 있습니다'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Laders
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Er gebeurt iets en het einde is niet bekend. Beide zeggen dat veel en weigeren meer te zeggen — waar het einde bekend is, zegt de balk op het volgende tabblad het in plaats daarvan.'
+  section:
+    spinner:
+      title: Spinner
+      description: 'Een machine is bezig. Drie maten, en een inline uitlijning voor wanneer het in een regel tekst staat in plaats van in een eigen vak.'
+    dots:
+      title: Punten
+      description: 'Er staat iets te gebeuren. Dezelfde drie maten, en dezelfde uitlijningen — wat verandert is voor wie de lezer wacht.'
+    vue:
+      title: Vue
+      description: 'Beide worden ook als vue-partials geleverd, met dezelfde opties, voor een pagina die tijdens het draaien besluit of er iets is om op te wachten.'
+  spinner:
+    label: Laden
+    inline: 'Gegevens verwerken'
+  dots:
+    label: Wachten
+    inline: 'De andere kant is aan het schrijven'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ładowarki
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Coś się dzieje, a jego koniec nie jest znany. Oba te przypadki mówią o tym, ale odmawiają dalszego wyjaśnienia — tam, gdzie koniec jest znany, pasek na następnej karcie mówi to zamiast nich.'
+  section:
+    spinner:
+      title: Spinner
+      description: 'Maszyna jest zajęta. Trzy rozmiary i wyrównanie inline, gdy stoi w linii tekstu, a nie w swoim własnym oknie.'
+    dots:
+      title: Kropki
+      description: 'Coś ma być powiedziane. Te same trzy rozmiary i te same wyrównania — to, co się zmienia, to kto czeka na czytelnika.'
+    vue:
+      title: Vue
+      description: 'Oba również działają jako części vue, przyjmując te same opcje, na stronie, która decyduje podczas działania, czy jest cokolwiek do czekania.'
+  spinner:
+    label: Ładowanie
+    inline: 'Przetwarzanie danych'
+  dots:
+    label: Czekanie
+    inline: 'Druga strona pisze'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Carregadores
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Algo está acontecendo e seu fim não é conhecido. Ambos dizem isso e se recusam a dizer mais — onde o fim é conhecido, a barra na próxima aba diz isso.'
+  section:
+    spinner:
+      title: Carregador
+      description: 'Uma máquina está ocupada. Três tamanhos, e um alinhamento em linha para quando está em uma linha de texto em vez de em uma caixa própria.'
+    dots:
+      title: Pontos
+      description: 'Algo está prestes a ser dito. Os mesmos três tamanhos, e os mesmos alinhamentos — o que muda é para quem o leitor está aguardando.'
+    vue:
+      title: Vue
+      description: 'Ambos também são enviados como partes vue, aceitando as mesmas opções, para uma página que decide enquanto executa se há algo para esperar.'
+  spinner:
+    label: Carregando
+    inline: 'Processando dados'
+  dots:
+    label: Aguardando
+    inline: 'O outro lado está escrevendo'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Загрузчики
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Что-то происходит, и его конец неизвестен. Оба этих элемента говорят именно это и отказываются говорить больше — когда конец известен, полоса на следующей вкладке сообщает об этом вместо них.'
+  section:
+    spinner:
+      title: Спиннер
+      description: 'Машина занята. Три размера и встроенное выравнивание для случаев, когда она стоит в строке текста, а не в отдельном блоке.'
+    dots:
+      title: Точки
+      description: 'Скоро что-то будет сказано. Те же три размера и те же выравнивания — меняется только то, кого читатель ждет.'
+    vue:
+      title: Vue
+      description: 'Они также поставляются как частичные шаблоны Vue, принимая те же параметры, для страницы, которая решает во время выполнения, есть ли что-то, чего стоит ждать.'
+  spinner:
+    label: Загрузка
+    inline: 'Обработка данных'
+  dots:
+    label: Ожидание
+    inline: 'Другая сторона пишет'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: โหลด
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'กำลังเกิดบางอย่างขึ้นและไม่ทราบจุดสิ้นสุด ทั้งคู่บอกเพียงเท่านี้และไม่บอกอะไรเพิ่มเติม — เมื่อตอนจบทราบแล้ว แถบในแท็บถัดไปจะแสดงแทน.'
+  section:
+    spinner:
+      title: สปินเนอร์
+      description: 'เครื่องจักรกำลังทำงาน มีสามขนาด และการจัดเรียงในบรรทัดสำหรับเมื่อมันอยู่ในบรรทัดข้อความแทนที่จะอยู่ในกล่องของมันเอง.'
+    dots:
+      title: จุด
+      description: 'กำลังจะมีบางอย่างที่จะพูด เช่นเดียวกับสามขนาด และการจัดเรียงเดียวกัน — สิ่งที่เปลี่ยนคือผู้อ่านกำลังรอใคร.'
+    vue:
+      title: Vue
+      description: 'ทั้งคู่ยังถูกส่งเป็น vue partials ด้วย โดยใช้ตัวเลือกเดียวกัน สำหรับหน้าที่ตัดสินใจในขณะที่ทำงานว่ามีอะไรให้รอหรือไม่.'
+  spinner:
+    label: กำลังโหลด
+    inline: กำลังประมวลผลข้อมูล
+  dots:
+    label: รอ
+    inline: อีกฝ่ายกำลังเขียน
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Yükleyiciler
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Bir şeyler oluyor ve sonu bilinmiyor. Her ikisi de bunu söylüyor ve daha fazlasını söylemeyi reddediyor - sonun bilindiği yerde, bir sonraki sekmedeki çubuk bunu söylüyor.'
+  section:
+    spinner:
+      title: Dönme
+      description: 'Bir makine meşgul. Üç boyut ve kendi kutusu yerine bir metin satırında durduğunda satır içi hizalama.'
+    dots:
+      title: Noktalar
+      description: 'Bir şey söylenmek üzere. Aynı üç boyut ve aynı hizalamalar - değişen, okuyucunun kimin gelmesini beklediğidir.'
+    vue:
+      title: Vue
+      description: 'Her ikisi de vue parçaları olarak da gönderilir, aynı seçenekleri alır ve çalışırken bekleyecek bir şey olup olmadığını belirleyen bir sayfa için.'
+  spinner:
+    label: Yükleniyor
+    inline: 'Veri işleniyor'
+  dots:
+    label: Bekleniyor
+    inline: 'Diğer taraf yazıyor'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: لوڈرز
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'کچھ ہو رہا ہے اور اس کا اختتام معلوم نہیں ہے۔ دونوں یہ بہت کچھ کہتے ہیں اور مزید کچھ کہنے سے انکار کرتے ہیں — جہاں اختتام معلوم ہے، وہاں اگلے ٹیب پر بار یہ کہتا ہے۔'
+  section:
+    spinner:
+      title: اسپنر
+      description: 'ایک مشین مصروف ہے۔ تین سائز، اور ایک ان لائن ترتیب جب یہ متن کی ایک لائن میں کھڑا ہو بجائے اس کے کہ اپنے الگ باکس میں۔'
+    dots:
+      title: ڈاٹس
+      description: 'کچھ کہا جانے والا ہے۔ وہی تین سائز، اور وہی ترتیبیں — جو چیز بدلتی ہے وہ یہ ہے کہ قاری کس کا انتظار کر رہا ہے۔'
+    vue:
+      title: ویو
+      description: 'دونوں ویو پارشلز کے طور پر بھی بھیجے جا رہے ہیں، وہی اختیارات لیتے ہیں، ایک صفحے کے لیے جو یہ طے کرتا ہے کہ کیا کچھ انتظار کرنے کے لیے ہے یا نہیں۔'
+  spinner:
+    label: 'لوڈ ہو رہا ہے'
+    inline: 'ڈیٹا پر عملدرآمد ہو رہا ہے'
+  dots:
+    label: 'انتظار کر رہا ہے'
+    inline: 'دوسری طرف لکھ رہی ہے'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Loaders
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 'Có điều gì đó đang diễn ra và không biết khi nào thì kết thúc. Cả hai đều nói được điều đó và từ chối nói thêm — nơi mà kết thúc đã được biết, thanh trên tab tiếp theo sẽ nói thay cho nó.'
+  section:
+    spinner:
+      title: Spinner
+      description: 'Một máy đang bận rộn. Ba kích thước, và một căn chỉnh trong dòng cho khi nó đứng trong một dòng văn bản thay vì trong một hộp riêng.'
+    dots:
+      title: Dots
+      description: 'Có điều gì đó sắp được nói ra. Cả ba kích thước như nhau, và các căn chỉnh giống nhau — điều thay đổi là ai là người đọc đang chờ đợi.'
+    vue:
+      title: Vue
+      description: 'Cả hai cũng được đóng gói dưới dạng các phần vue, nhận cùng các tùy chọn, cho một trang quyết định trong khi chạy xem có điều gì để chờ đợi hay không.'
+  spinner:
+    label: 'Đang tải'
+    inline: 'Đang xử lý dữ liệu'
+  dots:
+    label: 'Đang chờ'
+    inline: 'Bên kia đang viết'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 加载器
+  page_icon: 'ph:bold/spinner-gap'
+  intro: 某些事情正在发生，结束未知。这两者都表明了这一点，但拒绝多说——当结束已知时，下一个标签上的条形图会代替它说明。
+  section:
+    spinner:
+      title: 旋转器
+      description: 一台机器正在忙碌。三种尺寸，以及当它在文本行中排列而不是独立在框中时的内联对齐。
+    dots:
+      title: 点
+      description: 即将要说些什么。相同的三种尺寸，以及相同的对齐方式——变化的是读者在等待谁。
+    vue:
+      title: Vue
+      description: 这两者也作为vue组件一起提供，接受相同的选项，用于在运行时决定是否有任何内容要等待的页面。
+  spinner:
+    label: 加载中
+    inline: 处理数据
+  dots:
+    label: 等待中
+    inline: 另一方正在写

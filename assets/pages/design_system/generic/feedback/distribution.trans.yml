@@ -1,0 +1,878 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Distribution
+  page_icon: ph:bold/chart-bar-horizontal
+
+  intro: "What a total is made of, in one line. Where a progress bar says how far one value has got, this says how a whole divides: the parts hold the order they are given, so a pipeline reads from left to right like the pipeline it is. The states are named with the vocabulary the capsule and the circle already speak, so one state never takes two colours."
+
+  section:
+    default:
+      title: A whole, in parts
+      description: "The parts grow in proportion to what they are worth, and the legend says them in words underneath — the same capsule a table draws a state with, so the eye moves between the two without learning anything new."
+    linked:
+      title: Parts that lead somewhere
+      description: "A part with a target is a link: the bar becomes the way into the list it summarises. Under the pointer it takes a film of light rather than another colour, which would say a different state."
+    bare:
+      title: Without the legend
+      description: "Where the parts are named just beside, or where the bar only has to say the shape of the thing, the legend is dropped and each part says what it is under the pointer."
+    rest:
+      title: A total larger than its parts
+      description: "What the total counts and no part accounts for holds its share of the row and draws nothing: the track shows through for exactly that much, instead of the parts stretching to fill a bar they do not fill."
+    empty:
+      title: Nothing counted yet
+      description: "No total and no part — work not started, a tally still out. The bar keeps its place, as a bare track — the same ground a total larger than its parts shows through — so a row of them keeps its shape; its figure is a dash, since nothing counted is not zero."
+    compact:
+      title: Compact
+      description: "A thinner bar for a row or a card footer, with the density passed on to the capsules of its legend."
+    vue:
+      title: Vue, driven
+      description: "The same bar, its parts given as data. A part that leads nowhere answers a click with `select`, which is what to listen to for a table that filters itself beside it."
+
+  bar:
+    pipeline: Pages of the catalogue
+    elements: Elements of the design system
+    partial: Files read
+
+  state:
+    done: Done
+    running: Running
+    todo: To do
+    failed: Failed
+    skipped: Not started
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التوزيع
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'مما يتكون الإجمالي، في سطر واحد. حيث يقول شريط التقدم مدى تقدم قيمة واحدة، يقول هذا كيف ينقسم الكل: الأجزاء تحتفظ بالترتيب الذي تم إعطاؤه، لذا يقرأ خط الأنابيب من اليسار إلى اليمين مثلما هو. تُسمى الحالات بالمفردات التي تتحدث بها الكبسولة والدائرة بالفعل، لذا لا تأخذ حالة واحدة لونين.'
+  section:
+    default:
+      title: 'الكل، بأجزائه'
+      description: 'تنمو الأجزاء بما يتناسب مع قيمتها، وتقول الأسطورة عنها بكلمات أسفلها — نفس الكبسولة التي ترسم بها الجدول حالة، لذا تتحرك العين بين الاثنين دون تعلم أي شيء جديد.'
+    linked:
+      title: 'أجزاء تؤدي إلى مكان ما'
+      description: 'جزء له هدف هو رابط: يصبح الشريط الطريق إلى القائمة التي يلخصها. تحت المؤشر يأخذ فيلمًا من الضوء بدلاً من لون آخر، مما قد يشير إلى حالة مختلفة.'
+    bare:
+      title: 'بدون الأسطورة'
+      description: 'حيث تُسمى الأجزاء بجوارها فقط، أو حيث يجب على الشريط أن يقول شكل الشيء فقط، يتم إسقاط الأسطورة ويقول كل جزء ما هو تحت المؤشر.'
+    rest:
+      title: 'إجمالي أكبر من أجزائه'
+      description: 'ما يحسبه الإجمالي ولا تحسبه أي جزء يحمل نصيبه من الصف ويرسم لا شيء: يظهر المسار من خلال ذلك بالضبط، بدلاً من أن تمتد الأجزاء لملء شريط لا يمتلكونه.'
+    empty:
+      title: 'لا شيء محسوب بعد'
+      description: 'لا إجمالي ولا جزء — العمل لم يبدأ بعد، لا تزال الحسبة خارجًا. يحتفظ الشريط بمكانه، كمسار عاري — نفس الأرض التي يظهر من خلالها إجمالي أكبر من أجزائه — لذا يحتفظ صف منها بشكله؛ شكلها هو شرطة، نظرًا لأن لا شيء محسوب ليس صفرًا.'
+    compact:
+      title: مضغوط
+      description: 'شريط أنحف لصف أو تذييل بطاقة، مع الكثافة المنقولة إلى كبسولات أسطورتها.'
+    vue:
+      title: 'عرض، مدفوع'
+      description: 'نفس الشريط، أجزائه مُعطاة كبيانات. جزء لا يؤدي إلى أي مكان يستجيب لنقرة بـ `select`، وهو ما يجب الاستماع إليه لجدول يقوم بتصفية نفسه بجانبه.'
+  bar:
+    pipeline: 'صفحات الكتالوج'
+    elements: 'عناصر نظام التصميم'
+    partial: 'الملفات المقروءة'
+  state:
+    done: منجز
+    running: يعمل
+    todo: لعمله
+    failed: فشل
+    skipped: 'لم يبدأ'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: বিতরণ
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'একটি মোট কিসের তৈরি, এক লাইনে। যেখানে একটি অগ্রগতির বার বলে কিভাবে একটি মান পৌঁছেছে, এটি বলে কিভাবে একটি সম্পূর্ণ ভাগ হয়: অংশগুলি তাদের দেওয়া ক্রমে থাকে, তাই একটি পাইপলাইন বাম থেকে ডানে পড়ে যেমন এটি একটি পাইপলাইন। রাজ্যগুলি সেই শব্দভান্ডার দিয়ে নামকরণ করা হয় যা ক্যাপসুল এবং সার্কেল ইতিমধ্যেই বলছে, তাই একটি রাজ্য কখনও দুইটি রঙ নেয় না।'
+  section:
+    default:
+      title: 'একটি সম্পূর্ণ, অংশে'
+      description: 'অংশগুলি তাদের মূল্য অনুযায়ী বাড়ে, এবং লিজেন্ড তাদের নিচে শব্দে বলে — একই ক্যাপসুল একটি টেবিলের সাথে একটি রাজ্য আঁকে, তাই চোখ দুটি মধ্যে চলে যায় কিছু নতুন শেখার ছাড়াই।'
+    linked:
+      title: 'কোথাও নিয়ে যাওয়া অংশ'
+      description: 'একটি লক্ষ্যযুক্ত অংশ একটি লিঙ্ক: বারটি যে তালিকায় এটি সারাংশ দেয় সেখানে প্রবেশের পথ হয়ে ওঠে। পয়েন্টারের নিচে এটি একটি আলোর ফিল্ম নেয় অন্য রঙের পরিবর্তে, যা একটি ভিন্ন রাষ্ট্র বলবে।'
+    bare:
+      title: 'লিজেন্ড ছাড়া'
+      description: 'যেখানে অংশগুলি পাশে নামকরণ করা হয়েছে, অথবা যেখানে বারটি কেবল বিষয়টির আকার বলার জন্য, সেখানে লিজেন্ডটি বাদ দেওয়া হয় এবং প্রতিটি অংশ পয়েন্টারের নিচে বলে এটি কি।'
+    rest:
+      title: 'এর অংশের চেয়ে বড় একটি মোট'
+      description: 'যা মোট গণনা করে এবং কোন অংশ হিসাব করে না তা তার সারিতে অংশ ধারণ করে এবং কিছু আঁকে না: ট্র্যাকটি ঠিক সেই পরিমাণের জন্য দেখায়, অংশগুলি একটি বার পূর্ণ করতে প্রসারিত হওয়ার পরিবর্তে যা তারা পূর্ণ করে না।'
+    empty:
+      title: 'এখনও কিছু গোনা হয়নি'
+      description: 'কোন মোট এবং কোন অংশ — কাজ শুরু হয়নি, একটি হিসাব এখনও বাইরে। বারটি তার স্থান ধরে রাখে, একটি নগ্ন ট্র্যাক হিসাবে — একই মাটির একটি মোট যা এর অংশের চেয়ে বড় দেখায় — তাই তাদের একটি সারি তার আকার রক্ষা করে; এর সংখ্যা একটি ড্যাশ, যেহেতু কিছু গোনা হয়নি তা শূন্য নয়।'
+    compact:
+      title: সংক্ষিপ্ত
+      description: 'একটি সারি বা একটি কার্ড ফুটারের জন্য একটি পাতলা বার, যার ঘনত্ব তার লিজেন্ডের ক্যাপসুলগুলিতে প্রেরিত হয়।'
+    vue:
+      title: 'ভিউ, চালিত'
+      description: 'একই বার, এর অংশগুলি ডেটা হিসাবে দেওয়া হয়েছে। একটি অংশ যা কোথাও নিয়ে যায় না একটি ক্লিকের সাথে `select` এর উত্তর দেয়, যা একটি টেবিলের জন্য শোনা উচিত যা পাশে নিজেই ফিল্টার করে।'
+  bar:
+    pipeline: 'ক্যাটালগের পৃষ্ঠা'
+    elements: 'ডিজাইন সিস্টেমের উপাদানগুলি'
+    partial: 'পড়া ফাইল'
+  state:
+    done: সম্পন্ন
+    running: চলছে
+    todo: 'করতে হবে'
+    failed: ব্যর্থ
+    skipped: 'শুরু হয়নি'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Verteilung
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'Woraus eine Gesamtheit besteht, in einer Zeile. Wo ein Fortschrittsbalken anzeigt, wie weit ein Wert fortgeschritten ist, zeigt dies, wie eine Gesamtheit unterteilt ist: die Teile haben die Reihenfolge, in der sie gegeben sind, sodass eine Pipeline von links nach rechts wie die Pipeline gelesen wird, die sie ist. Die Zustände sind mit dem Vokabular benannt, das die Kapsel und der Kreis bereits sprechen, sodass ein Zustand niemals zwei Farben annimmt.'
+  section:
+    default:
+      title: 'Eine Gesamtheit, in Teilen'
+      description: 'Die Teile wachsen proportional zu ihrem Wert, und die Legende beschreibt sie in Worten darunter – dieselbe Kapsel, mit der ein Tisch einen Zustand darstellt, sodass das Auge zwischen den beiden wechselt, ohne etwas Neues zu lernen.'
+    linked:
+      title: 'Teile, die irgendwohin führen'
+      description: 'Ein Teil mit einem Ziel ist ein Link: der Balken wird zum Zugang zur Liste, die er zusammenfasst. Unter dem Zeiger nimmt er einen Lichtschein anstelle einer anderen Farbe an, was einen anderen Zustand anzeigen würde.'
+    bare:
+      title: 'Ohne die Legende'
+      description: 'Wo die Teile direkt daneben benannt sind oder wo der Balken nur die Form der Sache angeben muss, wird die Legende weggelassen und jedes Teil sagt, was es unter dem Zeiger ist.'
+    rest:
+      title: 'Eine Gesamtheit, die größer ist als ihre Teile'
+      description: 'Was die Gesamtheit zählt und kein Teil dafür verantwortlich ist, hat seinen Anteil an der Reihe und zeichnet nichts: die Spur zeigt sich genau für so viel, anstatt dass die Teile sich ausdehnen, um einen Balken zu füllen, den sie nicht füllen.'
+    empty:
+      title: 'Noch nichts gezählt'
+      description: 'Keine Gesamtheit und kein Teil – Arbeit nicht begonnen, ein Zähler noch aus. Der Balken behält seinen Platz als bare Spur – derselbe Boden, den eine Gesamtheit, die größer ist als ihre Teile, zeigt – sodass eine Reihe davon ihre Form behält; ihre Figur ist ein Strich, da nichts gezählt nicht null ist.'
+    compact:
+      title: Kompakt
+      description: 'Ein schmalerer Balken für eine Reihe oder einen Kartenfuß, wobei die Dichte an die Kapseln seiner Legende weitergegeben wird.'
+    vue:
+      title: 'Vue, getrieben'
+      description: 'Der gleiche Balken, seine Teile als Daten angegeben. Ein Teil, das nirgendwohin führt, reagiert auf einen Klick mit `select`, was man beachten sollte, wenn sich ein Tisch daneben selbst filtert.'
+  bar:
+    pipeline: 'Seiten des Katalogs'
+    elements: 'Elemente des Designsystems'
+    partial: 'Gelesene Dateien'
+  state:
+    done: Fertig
+    running: Läuft
+    todo: 'Zu erledigen'
+    failed: Fehlgeschlagen
+    skipped: 'Nicht gestartet'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Distribución
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'De qué se compone un total, en una línea. Donde una barra de progreso indica hasta dónde ha llegado un valor, esto indica cómo se divide un todo: las partes mantienen el orden en que se presentan, así que un pipeline se lee de izquierda a derecha como el pipeline que es. Los estados están nombrados con el vocabulario que ya habla la cápsula y el círculo, así que un estado nunca toma dos colores.'
+  section:
+    default:
+      title: 'Un todo, en partes'
+      description: 'Las partes crecen en proporción a lo que valen, y la leyenda las dice en palabras debajo — la misma cápsula que dibuja un estado en una tabla, así que el ojo se mueve entre los dos sin aprender nada nuevo.'
+    linked:
+      title: 'Partes que llevan a algún lado'
+      description: 'Una parte con un objetivo es un enlace: la barra se convierte en el camino hacia la lista que resume. Bajo el puntero toma un destello de luz en lugar de otro color, que diría un estado diferente.'
+    bare:
+      title: 'Sin la leyenda'
+      description: 'Donde las partes están nombradas justo al lado, o donde la barra solo tiene que decir la forma de la cosa, se omite la leyenda y cada parte dice lo que es bajo el puntero.'
+    rest:
+      title: 'Un total mayor que sus partes'
+      description: 'Lo que cuenta el total y ninguna parte contabiliza sostiene su parte de la fila y no dibuja nada: la pista se muestra exactamente así, en lugar de que las partes se estiren para llenar una barra que no llenan.'
+    empty:
+      title: 'Nada contado aún'
+      description: 'Sin total y sin parte — trabajo no comenzado, un recuento aún pendiente. La barra mantiene su lugar, como una pista desnuda — el mismo terreno que un total mayor que sus partes muestra a través — así que una fila de ellas mantiene su forma; su figura es un guion, ya que nada contado no es cero.'
+    compact:
+      title: Compacto
+      description: 'Una barra más delgada para una fila o un pie de tarjeta, con la densidad transmitida a las cápsulas de su leyenda.'
+    vue:
+      title: 'Vue, impulsado'
+      description: 'La misma barra, sus partes dadas como datos. Una parte que no lleva a ningún lado responde a un clic con `select`, que es lo que hay que escuchar para una tabla que se filtra a sí misma al lado.'
+  bar:
+    pipeline: 'Páginas del catálogo'
+    elements: 'Elementos del sistema de diseño'
+    partial: 'Archivos leídos'
+  state:
+    done: Hecho
+    running: 'En curso'
+    todo: 'Por hacer'
+    failed: Fallido
+    skipped: 'No comenzado'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: توزیع
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'مجموعی که از چه چیزهایی تشکیل شده است، در یک خط. جایی که نوار پیشرفت نشان می‌دهد که یک مقدار چقدر پیش رفته، اینجا نشان می‌دهد که یک کل چگونه تقسیم می‌شود: اجزا به ترتیبی که داده شده‌اند نگهداری می‌شوند، بنابراین یک لوله‌کشی از چپ به راست خوانده می‌شود مانند لوله‌کشی که هست. وضعیت‌ها با واژگانی که کپسول و دایره قبلاً صحبت کرده‌اند نامگذاری شده‌اند، بنابراین یک وضعیت هرگز دو رنگ نمی‌گیرد.'
+  section:
+    default:
+      title: 'یک کل، به اجزا'
+      description: 'اجزا به نسبت ارزشی که دارند رشد می‌کنند و افسانه آنها را به کلمات زیر می‌گوید — همان کپسولی که یک جدول با آن وضعیت را ترسیم می‌کند، بنابراین چشم بین این دو حرکت می‌کند بدون اینکه چیز جدیدی یاد بگیرد.'
+    linked:
+      title: 'اجزا که به جایی می‌روند'
+      description: 'یک جز با هدف یک لینک است: نوار به راهی به لیستی که خلاصه می‌کند تبدیل می‌شود. زیر نشانگر، یک فیلم نور می‌گیرد به جای رنگ دیگری که وضعیت متفاوتی را بیان کند.'
+    bare:
+      title: 'بدون افسانه'
+      description: 'جایی که اجزا درست کنار هم نامگذاری شده‌اند، یا جایی که نوار فقط باید شکل چیز را بگوید، افسانه حذف می‌شود و هر جز زیر نشانگر می‌گوید که چیست.'
+    rest:
+      title: 'مجموعی بزرگتر از اجزای آن'
+      description: 'آنچه مجموع حساب می‌کند و هیچ جزئی برای آن حساب نمی‌شود سهم خود را از ردیف نگه می‌دارد و چیزی ترسیم نمی‌کند: مسیر دقیقاً به همین مقدار نمایان می‌شود، به جای اینکه اجزا برای پر کردن نوار که پر نمی‌کنند بکشند.'
+    empty:
+      title: 'هیچ چیزی هنوز شمرده نشده'
+      description: 'نه مجموع و نه جز — کار شروع نشده، یک شمارش هنوز در حال انجام است. نوار جای خود را نگه می‌دارد، مانند یک مسیر خالی — همان زمینی که مجموع بزرگتر از اجزای آن از آن نمایان می‌شود — بنابراین یک ردیف از آنها شکل خود را حفظ می‌کند؛ شکل آن یک خط است، چون هیچ چیزی که شمرده شده است صفر نیست.'
+    compact:
+      title: فشرده
+      description: 'یک نوار نازک‌تر برای یک ردیف یا فوتر کارت، با چگالی منتقل شده به کپسول‌های افسانه‌اش.'
+    vue:
+      title: 'Vue، هدایت شده'
+      description: 'همان نوار، اجزا به عنوان داده داده شده‌اند. یک جز که به جایی نمی‌رود به کلیک با `select` پاسخ می‌دهد، که چیزی است که باید برای جدولی که خود را کنار آن فیلتر می‌کند گوش داد.'
+  bar:
+    pipeline: 'صفحات کاتالوگ'
+    elements: 'اجزای سیستم طراحی'
+    partial: 'فایل‌های خوانده شده'
+  state:
+    done: 'انجام شده'
+    running: 'در حال اجرا'
+    todo: 'برای انجام'
+    failed: ناموفق
+    skipped: 'شروع نشده'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Jakelu
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'Mistä kokonaisuus koostuu, yhdellä rivillä. Kun edistymispalkki kertoo, kuinka pitkälle yksi arvo on edennyt, tämä kertoo, miten kokonaisuus jakautuu: osat ovat siinä järjestyksessä kuin ne on annettu, joten putkisto etenee vasemmalta oikealle, kuten putkisto ikään kuin on. Tilat on nimetty sanastolla, jota kapseli ja ympyrä jo käyttävät, joten yksi tila ei koskaan vie kahta väriä.'
+  section:
+    default:
+      title: 'Kokonaisuus osina'
+      description: 'Osat kasvavat suhteessa siihen, mitä ne ovat arvoltaan, ja legenda kertoo ne sanoina alapuolella — sama kapseli, joka piirtää tilan taulukkoon, joten silmä liikkuu näiden kahden välillä oppimatta mitään uutta.'
+    linked:
+      title: 'Osat, jotka vievät johonkin'
+      description: 'Osa, jolla on kohde, on linkki: palkki muuttuu listaksi, jota se tiivistää. Nuolen alla se ottaa valon filmin, eikä toista väriä, mikä kertoisi eri tilasta.'
+    bare:
+      title: 'Ilman legendaa'
+      description: 'Missä osat on nimetty aivan viereen, tai missä palkin on vain annettava asian muoto, legenda jätetään pois ja jokainen osa kertoo, mitä se on nuolen alla.'
+    rest:
+      title: 'Kokonaisuus, joka on suurempi kuin sen osat'
+      description: 'Mikä kokonaisuus lasketaan ja mikään osa ei selitä, pitää osansa rivistä ja ei piirrä mitään: rata näkyy läpi juuri niin paljon, sen sijaan että osat venyisivät täyttämään palkkia, jota ne eivät täytä.'
+    empty:
+      title: 'Ei vielä mitään laskettu'
+      description: 'Ei kokonaisuutta eikä osaa — työ ei ole alkanut, laskuri on yhä ulkona. Palkki säilyttää paikkansa, kuten pelkkä rata — sama maa, joka näyttää kokonaisuuden, joka on suurempi kuin sen osat — joten niiden rivi säilyttää muotonsa; sen luku on viiva, koska mitään laskettua ei ole nolla.'
+    compact:
+      title: Tiivis
+      description: 'Ohuempi palkki riville tai kortin alatunnisteeseen, tiheys siirtyy sen legendan kapselien mukana.'
+    vue:
+      title: 'Vue, ohjattu'
+      description: 'Sama palkki, sen osat annettuina datana. Osa, joka ei vie minnekään, vastaa klikkaukseen `valitse`, mikä on kuunneltava taulukolle, joka suodattaa itseään sen vieressä.'
+  bar:
+    pipeline: 'Luettelon sivut'
+    elements: 'Suunnittelujärjestelmän elementit'
+    partial: 'Luetut tiedostot'
+  state:
+    done: Valmis
+    running: Käynnissä
+    todo: Tehtävä
+    failed: Epäonnistui
+    skipped: 'Ei aloitettu'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Distribution
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: "Ce que représente un total, en une ligne. Là où une barre de progression indique jusqu'où une valeur est arrivée, cela indique comment un tout se divise : les parties conservent l'ordre dans lequel elles sont données, donc un pipeline se lit de gauche à droite comme le pipeline qu'il est. Les états sont nommés avec le vocabulaire que la capsule et le cercle parlent déjà, donc un état ne prend jamais deux couleurs."
+  section:
+    default:
+      title: 'Un tout, en parties'
+      description: "Les parties croissent en proportion de leur valeur, et la légende les nomme en mots en dessous — la même capsule qu'un tableau dessine un état avec, donc l'œil se déplace entre les deux sans rien apprendre de nouveau."
+    linked:
+      title: 'Parties qui mènent quelque part'
+      description: "Une partie avec un objectif est un lien : la barre devient le chemin vers la liste qu'elle résume. Sous le pointeur, elle prend un film de lumière plutôt qu'une autre couleur, ce qui indiquerait un état différent."
+    bare:
+      title: 'Sans la légende'
+      description: "Là où les parties sont nommées juste à côté, ou là où la barre doit simplement indiquer la forme de la chose, la légende est abandonnée et chaque partie indique ce qu'elle est sous le pointeur."
+    rest:
+      title: 'Un total plus grand que ses parties'
+      description: "Ce que le total compte et aucune partie ne compte pour tient sa part de la rangée et ne dessine rien : la piste montre à travers pour exactement cela, au lieu que les parties s'étirent pour remplir une barre qu'elles ne remplissent pas."
+    empty:
+      title: 'Rien compté encore'
+      description: "Pas de total et pas de partie — travail non commencé, un compte toujours en attente. La barre garde sa place, comme une piste nue — le même sol qu'un total plus grand que ses parties montre à travers — donc une rangée d'eux garde sa forme ; sa figure est un tiret, puisque rien compté n'est pas zéro."
+    compact:
+      title: Compact
+      description: 'Une barre plus fine pour une rangée ou un pied de carte, avec la densité transmise aux capsules de sa légende.'
+    vue:
+      title: 'Vue, animée'
+      description: "La même barre, ses parties données comme données. Une partie qui ne mène nulle part répond à un clic avec `select`, qui est ce qu'il faut écouter pour un tableau qui se filtre lui-même à côté."
+  bar:
+    pipeline: 'Pages du catalogue'
+    elements: 'Éléments du système de design'
+    partial: 'Fichiers lus'
+  state:
+    done: Fait
+    running: 'En cours'
+    todo: 'À faire'
+    failed: Échoué
+    skipped: 'Non commencé'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: הפצה
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'מה כולל סך הכול, בשורה אחת. בעוד שפס ההתקדמות מראה עד כמה ערך אחד התקדם, זה מראה כיצד הכול מתחלק: החלקים שומרים על הסדר שבו הם נתנים, כך שפייפליין נקרא משמאל לימין כמו הפייפליין שהוא. המדינות נקראות עם המונחים שהקפסולה והמעגל כבר מדברים, כך שמדינה אחת אף פעם לא לוקחת שני צבעים.'
+  section:
+    default:
+      title: 'שלם, בחלקים'
+      description: 'החלקים גדלים בהתאם למה שהם שווים, והאגדה אומרת אותם במילים מתחת — אותה קפסולה שבה טבלה מציירת מצב, כך שהעין נעה בין השניים מבלי ללמוד משהו חדש.'
+    linked:
+      title: 'חלקים שמובילים לאנשהו'
+      description: 'חלק עם יעד הוא קישור: הפס הופך לדרך לרשימה שהוא מסכם. מתחת למצב, הוא מקבל סרט של אור במקום צבע אחר, שהיה אומר מצב שונה.'
+    bare:
+      title: 'בלי האגדה'
+      description: 'כאשר החלקים נקראים מיד ליד, או כאשר הפס רק צריך לומר את הצורה של הדבר, האגדה נזרקת וכל חלק אומר מה הוא מתחת למצב.'
+    rest:
+      title: 'סך הכול גדול יותר מחלקיו'
+      description: 'מה שסך הכול סופר ולא חלק מתחשב בו מחזיק את חלקו בשורה ומצייר כלום: המסילה מראה בדיוק על כך, במקום שהחלקים יתמשכו למלא פס שהם לא ממלאים.'
+    empty:
+      title: 'עדיין לא נרשם כלום'
+      description: 'לא סך הכול ולא חלק — עבודה לא התחילה, ספירה עדיין לא קיימת. הפס שומר על מקומו, כמו מסילה חשופה — אותו קרקע שסך הכול גדול יותר מחלקיו מראה דרכו — כך ששורה מהם שומרת על צורתה; הדמות שלה היא מקף, מכיוון שאין שום דבר שנחשב שהוא לא אפס.'
+    compact:
+      title: קומפקטי
+      description: 'פס דק יותר עבור שורה או תפריט כרטיס, עם הצפיפות מועברת לקפסולות של האגדה שלו.'
+    vue:
+      title: 'Vue, מונע'
+      description: 'אותו פס, חלקיו ניתנים כנתונים. חלק שמוביל לשום מקום מגיב ללחיצה עם `select`, שזה מה שיש להקשיב לו עבור טבלה שמסננת את עצמה לצידה.'
+  bar:
+    pipeline: 'עמודים בקטלוג'
+    elements: 'אלמנטים של מערכת העיצוב'
+    partial: 'קבצים נקראים'
+  state:
+    done: בוצע
+    running: רץ
+    todo: לעשות
+    failed: נכשל
+    skipped: 'לא התחיל'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: वितरण
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'किसी कुल का एक पंक्ति में निर्माण। जहां एक प्रगति पट्टी बताती है कि एक मान कितना आगे बढ़ा है, यह बताता है कि एक संपूर्ण कैसे विभाजित होता है: भागों का क्रम वही होता है जो उन्हें दिया गया है, इसलिए एक पाइपलाइन बाईं से दाईं ओर पढ़ती है जैसे कि यह एक पाइपलाइन है। राज्यों के नाम उस शब्दावली से हैं जो कैप्सूल और वृत्त पहले से ही बोलते हैं, इसलिए एक राज्य कभी दो रंग नहीं लेता।'
+  section:
+    default:
+      title: 'एक संपूर्ण, भागों में'
+      description: 'भाग अपने मूल्य के अनुपात में बढ़ते हैं, और उनके नीचे शब्दों में किंवदंती कहती है — वही कैप्सूल जो एक टेबल में एक राज्य को चित्रित करता है, इसलिए आंख दोनों के बीच जाती है बिना कुछ नया सीखे।'
+    linked:
+      title: 'भाग जो कहीं ले जाते हैं'
+      description: 'एक भाग जिसका लक्ष्य है एक लिंक है: पट्टी उस सूची में जाने का रास्ता बन जाती है जिसे यह संक्षेपित करती है। पॉइंटर के नीचे यह एक रोशनी की फिल्म लेती है न कि एक अन्य रंग, जो एक अलग राज्य कहता।'
+    bare:
+      title: 'किंवदंती के बिना'
+      description: 'जहां भागों के नाम बस बगल में हैं, या जहां पट्टी को केवल चीज़ के आकार को बताना है, वहां किंवदंती छोड़ दी जाती है और प्रत्येक भाग बताता है कि यह पॉइंटर के नीचे क्या है।'
+    rest:
+      title: 'कुल जो अपने भागों से बड़ा है'
+      description: 'जो कुल गिनता है और कोई भाग नहीं गिनता है वह अपनी पंक्ति का हिस्सा रखता है और कुछ नहीं खींचता: ट्रैक ठीक उसी के लिए दिखता है, इसके बजाय भागों का फैलना एक पट्टी को भरने के लिए जो वे नहीं भरते।'
+    empty:
+      title: 'अभी तक कुछ नहीं गिना गया'
+      description: 'कोई कुल नहीं और कोई भाग नहीं — कार्य शुरू नहीं हुआ, एक गणना अभी बाकी है। पट्टी अपनी जगह बनाए रखती है, एक नंगे ट्रैक के रूप में — वही जमीन जो एक कुल जो अपने भागों से बड़ा है दिखाता है — इसलिए उनकी एक पंक्ति अपनी आकृति बनाए रखती है; इसका आंकड़ा एक डैश है, क्योंकि कुछ भी गिना गया शून्य नहीं है।'
+    compact:
+      title: संक्षिप्त
+      description: 'एक पंक्ति या कार्ड फुटर के लिए एक पतली पट्टी, जिसमें घनत्व इसके किंवदंती के कैप्सूल पर पारित किया गया है।'
+    vue:
+      title: 'व्यू, संचालित'
+      description: 'वही पट्टी, इसके भाग डेटा के रूप में दिए गए। एक भाग जो कहीं नहीं जाता है एक क्लिक पर `select` के साथ प्रतिक्रिया करता है, जो एक टेबल के लिए सुनने के लिए है जो इसके बगल में अपने आप को फ़िल्टर करता है।'
+  bar:
+    pipeline: 'कैटलॉग के पृष्ठ'
+    elements: 'डिज़ाइन प्रणाली के तत्व'
+    partial: 'फाइलें पढ़ी गईं'
+  state:
+    done: पूर्ण
+    running: 'चल रहा है'
+    todo: 'करना है'
+    failed: विफल
+    skipped: 'शुरू नहीं हुआ'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Distribusi
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'Apa yang membentuk total, dalam satu baris. Di mana bilah kemajuan menunjukkan seberapa jauh satu nilai telah dicapai, ini menunjukkan bagaimana keseluruhan dibagi: bagian-bagian memegang urutan sesuai yang diberikan, sehingga jalur dibaca dari kiri ke kanan seperti jalur seharusnya. Status diberi nama dengan kosakata yang sudah diucapkan oleh kapsul dan lingkaran, sehingga satu status tidak pernah menggunakan dua warna.'
+  section:
+    default:
+      title: 'Sebuah keseluruhan, dalam bagian'
+      description: 'Bagian-bagian tumbuh sebanding dengan nilai mereka, dan legenda menyebutkan mereka dalam kata-kata di bawahnya — kapsul yang sama menggambarkan status pada tabel, sehingga mata bergerak antara keduanya tanpa mempelajari sesuatu yang baru.'
+    linked:
+      title: 'Bagian yang mengarah ke suatu tempat'
+      description: 'Sebuah bagian dengan target adalah sebuah tautan: bilah menjadi cara menuju daftar yang diringkasnya. Di bawah penunjuk, ia mengambil film cahaya daripada warna lain, yang akan menunjukkan status yang berbeda.'
+    bare:
+      title: 'Tanpa legenda'
+      description: 'Di mana bagian-bagian diberi nama tepat di samping, atau di mana bilah hanya perlu menyebutkan bentuknya, legenda dihilangkan dan setiap bagian menyatakan apa adanya di bawah penunjuk.'
+    rest:
+      title: 'Sebuah total yang lebih besar dari bagiannya'
+      description: 'Apa yang dihitung total dan tidak ada bagian yang dihitung memegang bagiannya dalam baris dan tidak menggambar apa pun: jalur terlihat untuk tepat itu, alih-alih bagian-bagian meregang untuk mengisi bilah yang tidak mereka isi.'
+    empty:
+      title: 'Belum ada yang dihitung'
+      description: 'Tidak ada total dan tidak ada bagian — pekerjaan belum dimulai, hitungan masih dalam proses. Bilah mempertahankan tempatnya, sebagai jalur kosong — tanah yang sama yang menunjukkan total lebih besar dari bagiannya — sehingga barisan mereka menjaga bentuknya; angkanya adalah dash, karena tidak ada yang dihitung bukan nol.'
+    compact:
+      title: Kompak
+      description: 'Bilah yang lebih ramping untuk barisan atau footer kartu, dengan kepadatan yang diteruskan ke kapsul dalam legendanya.'
+    vue:
+      title: 'Vue, didorong'
+      description: 'Bilah yang sama, bagiannya diberikan sebagai data. Sebuah bagian yang tidak mengarah ke mana pun menjawab klik dengan `select`, yang merupakan apa yang perlu didengarkan untuk tabel yang menyaring dirinya sendiri di sampingnya.'
+  bar:
+    pipeline: 'Halaman katalog'
+    elements: 'Elemen dari sistem desain'
+    partial: 'File dibaca'
+  state:
+    done: Selesai
+    running: Berjalan
+    todo: 'Yang harus dilakukan'
+    failed: Gagal
+    skipped: 'Belum dimulai'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Distribuzione
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: "Di cosa è composto un totale, in un'unica riga. Dove una barra di progresso indica quanto un valore è stato raggiunto, questo indica come un intero si divide: le parti mantengono l'ordine in cui sono date, quindi un pipeline si legge da sinistra a destra come un pipeline. Gli stati sono nominati con il vocabolario che già parla la capsula e il cerchio, quindi uno stato non assume mai due colori."
+  section:
+    default:
+      title: 'Un intero, in parti'
+      description: "Le parti crescono in proporzione al loro valore, e la legenda le descrive a parole sottostanti — la stessa capsula con cui una tabella disegna uno stato, così l'occhio si muove tra i due senza apprendere nulla di nuovo."
+    linked:
+      title: 'Parti che conducono da qualche parte'
+      description: 'Una parte con un obiettivo è un link: la barra diventa il modo per accedere alla lista che riassume. Sotto il puntatore prende un film di luce piuttosto che un altro colore, che indicherebbe un diverso stato.'
+    bare:
+      title: 'Senza la legenda'
+      description: 'Dove le parti sono nominate proprio accanto, o dove la barra deve solo indicare la forma della cosa, la legenda viene rimossa e ogni parte indica cosa è sotto il puntatore.'
+    rest:
+      title: 'Un totale più grande delle sue parti'
+      description: 'Ciò che il totale conta e nessuna parte rappresenta mantiene la sua quota della riga e non disegna nulla: il tracciato mostra attraverso esattamente tanto, invece delle parti che si allungano per riempire una barra che non riempiono.'
+    empty:
+      title: 'Niente conteggiato ancora'
+      description: 'Nessun totale e nessuna parte — lavoro non iniziato, un conteggio ancora aperto. La barra mantiene il suo posto, come un tracciato nudo — lo stesso terreno che un totale più grande delle sue parti mostra attraverso — quindi una riga di essi mantiene la sua forma; la sua figura è un trattino, poiché nulla conteggiato non è zero.'
+    compact:
+      title: Compatto
+      description: 'Una barra più sottile per una riga o un piè di pagina di una scheda, con la densità trasferita alle capsule della sua legenda.'
+    vue:
+      title: 'Vue, guidato'
+      description: 'La stessa barra, le cui parti sono fornite come dati. Una parte che non conduce da nessuna parte risponde a un clic con `select`, che è ciò a cui prestare attenzione per una tabella che si filtra accanto ad essa.'
+  bar:
+    pipeline: 'Pagine del catalogo'
+    elements: 'Elementi del sistema di design'
+    partial: 'File letti'
+  state:
+    done: Fatto
+    running: 'In esecuzione'
+    todo: 'Da fare'
+    failed: Fallito
+    skipped: 'Non iniziato'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 配分
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 合計が何で構成されているのかを一行で示します。プログレスバーがどれだけ進んでいるかを示すのに対し、これは全体がどのように分割されているかを示します：部分は与えられた順序を保持し、パイプラインはそれに従って左から右に読み取られます。状態はカプセルとサークルが既に使っている語彙で名付けられているため、1つの状態が2つの色を持つことはありません。
+  section:
+    default:
+      title: 全体を部分に分ける
+      description: '部分はそれぞれの価値に比例して成長し、伝説はその下に言葉で示します — 表が状態を描くのと同じカプセルなので、目は新しいことを学ぶことなく両者の間を移動します。'
+    linked:
+      title: どこかに繋がる部分
+      description: ターゲットを持つ部分はリンクです：バーは要約するリストへの道になります。ポインターの下では、別の色ではなく光のフィルムを取ります。別の状態を示すことになるからです。
+    bare:
+      title: 伝説なしで
+      description: 部分がすぐ隣に名付けられている場合、またはバーが物の形を示すだけの場合、伝説は省かれ、各部分はポインターの下で自分が何であるかを示します。
+    rest:
+      title: 部分よりも大きな合計
+      description: 合計がカウントし、どの部分もカウントしないものは、その行のシェアを保持し、何も描きません：トラックはちょうどその分だけ見えるようにし、部分が満たしていないバーに合わせて伸びることはありません。
+    empty:
+      title: まだカウントされていない
+      description: '合計も部分もない — 作業は始まっておらず、未集計の状態です。バーはその場所を保持し、裸のトラックとして存在します — 部分よりも大きな合計が見える同じ地面で — それでそれらの行はその形を保ちます；その形はダッシュであり、カウントされていないものはゼロではありません。'
+    compact:
+      title: コンパクト
+      description: 行やカードのフッター用の細いバーで、密度はその伝説のカプセルに引き継がれます。
+    vue:
+      title: Vue、駆動
+      description: 同じバーで、その部分はデータとして与えられます。どこにも繋がらない部分は、隣にあるテーブルが自己フィルタリングする際に、クリックに対して`select`で応答します。
+  bar:
+    pipeline: カタログのページ
+    elements: デザインシステムの要素
+    partial: 読み込まれたファイル
+  state:
+    done: 完了
+    running: 実行中
+    todo: 未着手
+    failed: 失敗
+    skipped: 未開始
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 분배
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: '총계가 무엇으로 구성되어 있는지를 한 줄로 나타냅니다. 진행률 표시줄이 하나의 값이 얼마나 진행되었는지를 보여주는 반면, 이 표시줄은 전체가 어떻게 나누어지는지를 나타냅니다: 각 부분은 주어진 순서를 유지하므로 파이프라인은 파이프라인처럼 왼쪽에서 오른쪽으로 읽습니다. 상태는 캡슐과 원이 이미 사용하는 용어로 명명되므로 한 상태가 두 가지 색상을 가질 수 없습니다.'
+  section:
+    default:
+      title: '부분으로 나눈 전체'
+      description: '각 부분은 그 가치에 비례하여 성장하고, 전설은 그 아래에 단어로 설명합니다 — 테이블이 상태를 그리는 같은 캡슐이므로, 시선은 두 가지 사이를 이동하지만 새로운 것을 배우지는 않습니다.'
+    linked:
+      title: '어딘가로 연결되는 부분들'
+      description: '목표가 있는 부분은 링크입니다: 바는 요약하는 목록으로 들어가는 길이 됩니다. 포인터 아래에서는 다른 색상이 아닌 빛의 필름을 취하여 다른 상태를 나타내지 않습니다.'
+    bare:
+      title: '전설 없이'
+      description: '부분이 바로 옆에 이름이 붙어 있거나 바가 단지 사물의 형태만을 말해야 할 때, 전설은 생략되고 각 부분은 포인터 아래에서 자신이 무엇인지 말합니다.'
+    rest:
+      title: '부분보다 큰 총계'
+      description: '총계가 세는 것과 어떤 부분도 설명하지 않는 것은 그 행의 몫을 차지하고 아무것도 그리지 않습니다: 트랙은 정확히 그만큼 보여지며, 부분이 채우지 않는 바를 채우기 위해 늘어나는 것이 아닙니다.'
+    empty:
+      title: '아직 집계되지 않음'
+      description: '총계도 없고 부분도 없음 — 작업이 시작되지 않았고, 집계가 아직 남아 있습니다. 바는 그 자리를 유지하며, 벌거벗은 트랙처럼 — 부분보다 큰 총계가 보이는 같은 땅 — 그래서 그들의 행은 모양을 유지합니다; 집계된 것이 없으므로 그 수치는 대시입니다.'
+    compact:
+      title: 간결하게
+      description: '행이나 카드 바닥글을 위해 더 얇은 바, 밀도가 전설의 캡슐로 전달됩니다.'
+    vue:
+      title: '구동되는 Vue'
+      description: '같은 바, 그 부분이 데이터로 제공됩니다. 어딘가로 연결되지 않는 부분은 클릭에 `select`로 응답하며, 이는 그 옆에서 스스로 필터링하는 테이블에서 들어야 할 것입니다.'
+  bar:
+    pipeline: '카탈로그의 페이지들'
+    elements: '디자인 시스템의 요소들'
+    partial: '읽은 파일들'
+  state:
+    done: 완료
+    running: '실행 중'
+    todo: '할 일'
+    failed: 실패
+    skipped: '시작되지 않음'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Verdeling
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'Waaruit een totaal bestaat, in één regel. Waar een voortgangsbalk aangeeft hoe ver een waarde is, geeft dit aan hoe een geheel is verdeeld: de delen houden de volgorde aan zoals ze gegeven zijn, zodat een pijplijn van links naar rechts leest zoals de pijplijn die het is. De statussen zijn benoemd met de woordenschat die de capsule en de cirkel al gebruiken, zodat één status nooit twee kleuren heeft.'
+  section:
+    default:
+      title: 'Een geheel, in delen'
+      description: 'De delen groeien in verhouding tot hun waarde, en de legenda zegt ze in woorden eronder — dezelfde capsule die een tabel een status geeft, zodat het oog tussen de twee beweegt zonder iets nieuws te leren.'
+    linked:
+      title: 'Delen die ergens naartoe leiden'
+      description: 'Een deel met een doel is een link: de balk wordt de weg naar de lijst die het samenvat. Onder de aanwijzer neemt het een film van licht in plaats van een andere kleur, wat een andere status zou aangeven.'
+    bare:
+      title: 'Zonder de legenda'
+      description: 'Waar de delen net daarnaast zijn benoemd, of waar de balk alleen de vorm van het ding hoeft aan te geven, wordt de legenda weggelaten en zegt elk deel wat het is onder de aanwijzer.'
+    rest:
+      title: 'Een totaal groter dan zijn delen'
+      description: 'Wat het totaal telt en waar geen deel voor opkomt, houdt zijn aandeel van de rij en trekt niets: het pad toont precies dat, in plaats van dat de delen zich uitstrekken om een balk te vullen die ze niet vullen.'
+    empty:
+      title: 'Nog niets geteld'
+      description: 'Geen totaal en geen deel — werk nog niet begonnen, een telling nog uit. De balk behoudt zijn plaats, als een kaal pad — dezelfde grond die een totaal groter dan zijn delen toont — zodat een rij ervan zijn vorm behoudt; zijn figuur is een streep, aangezien niets geteld niet nul is.'
+    compact:
+      title: Compact
+      description: 'Een dunnere balk voor een rij of een kaartvoettekst, met de dichtheid doorgegeven aan de capsules van zijn legenda.'
+    vue:
+      title: 'Vue, aangedreven'
+      description: 'Dezelfde balk, zijn delen gegeven als gegevens. Een deel dat nergens naartoe leidt, reageert op een klik met `select`, wat is waarnaar te luisteren voor een tabel die zichzelf filtert ernaast.'
+  bar:
+    pipeline: "Pagina's van de catalogus"
+    elements: 'Elementen van het ontwerpsysteem'
+    partial: 'Gelezen bestanden'
+  state:
+    done: Voltooid
+    running: Bezig
+    todo: 'Te doen'
+    failed: Mislukt
+    skipped: 'Niet begonnen'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dystrybucja
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: "Z czego składa się całość, w jednym zdaniu. Gdzie pasek postępu wskazuje, jak daleko zaszedł jeden z wartości, to pokazuje, jak całość się dzieli: części mają porządek, w jakim są podane, więc pipeline czyta z lewej do prawej, jak to jest w przypadku pipeline'u. Stany nazywane są słownictwem, którym już posługuje się kapsuła i okrąg, więc jeden stan nigdy nie przyjmuje dwóch kolorów."
+  section:
+    default:
+      title: 'Całość, w częściach'
+      description: 'Części rosną proporcjonalnie do swojej wartości, a legenda opisuje je słowami poniżej — ta sama kapsuła, którą tabela przedstawia stan, więc oko porusza się między nimi, nie ucząc się niczego nowego.'
+    linked:
+      title: 'Części, które prowadzą gdzieś'
+      description: 'Część z celem to link: pasek staje się drogą do listy, którą podsumowuje. Pod wskaźnikiem przyjmuje obrazek światła zamiast innego koloru, co sugerowałoby inny stan.'
+    bare:
+      title: 'Bez legendy'
+      description: 'Gdzie części są nazywane tuż obok, lub gdzie pasek ma tylko mówić o kształcie rzeczy, legenda jest pomijana, a każda część mówi, czym jest pod wskaźnikiem.'
+    rest:
+      title: 'Całość większa niż jej części'
+      description: 'To, co całkowita liczba liczy, a żadna część tego nie ujmuje, zajmuje swoją część rzędu i nic nie rysuje: tor pokazuje się na dokładnie tyle, zamiast części rozciągających się, aby wypełnić pasek, którego nie wypełniają.'
+    empty:
+      title: 'Nic jeszcze nie policzone'
+      description: 'Brak całości i brak części — praca nie rozpoczęta, rachunek wciąż otwarty. Pasek zajmuje swoje miejsce, jako nagi tor — ta sama ziemia, przez którą pokazuje się całość większa niż jej części — więc rząd z nich zachowuje swój kształt; jego figura to kreska, ponieważ nic policzone nie jest zerem.'
+    compact:
+      title: Kompaktowy
+      description: 'Cieńszy pasek dla rzędu lub stopki karty, z gęstością przekazywaną do kapsuł w jego legendzie.'
+    vue:
+      title: 'Vue, napędzany'
+      description: 'Ten sam pasek, jego części podane jako dane. Część, która nie prowadzi nigdzie, odpowiada na kliknięcie `select`, co jest tym, na co należy zwracać uwagę w tabeli, która filtruje się obok.'
+  bar:
+    pipeline: 'Strony katalogu'
+    elements: 'Elementy systemu projektowania'
+    partial: 'Przeczytane pliki'
+  state:
+    done: Zrobione
+    running: 'W trakcie'
+    todo: 'Do zrobienia'
+    failed: Niepowodzenie
+    skipped: 'Nie rozpoczęte'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Distribuição
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'O que um total é composto, em uma linha. Onde uma barra de progresso indica até onde um valor chegou, isso mostra como um todo se divide: as partes mantêm a ordem em que são apresentadas, então um pipeline lê da esquerda para a direita, como um pipeline deve ser. Os estados são nomeados com o vocabulário que a cápsula e o círculo já usam, então um estado nunca assume duas cores.'
+  section:
+    default:
+      title: 'Um todo, em partes'
+      description: 'As partes crescem em proporção ao que representam, e a legenda as descreve em palavras abaixo — a mesma cápsula que uma tabela usa para desenhar um estado, então o olho se move entre os dois sem aprender nada novo.'
+    linked:
+      title: 'Partes que levam a algum lugar'
+      description: 'Uma parte com um alvo é um link: a barra se torna o caminho para a lista que resume. Sob o ponteiro, ela adquire um brilho de luz em vez de outra cor, que indicaria um estado diferente.'
+    bare:
+      title: 'Sem a legenda'
+      description: 'Onde as partes são nomeadas ao lado, ou onde a barra só precisa indicar a forma do objeto, a legenda é eliminada e cada parte diz o que é sob o ponteiro.'
+    rest:
+      title: 'Um total maior que suas partes'
+      description: 'O que o total conta e nenhuma parte contabiliza mantém sua parte na linha e não desenha nada: a trilha se mostra exatamente por isso, ao invés das partes se esticarem para preencher uma barra que não preenchem.'
+    empty:
+      title: 'Nada contado ainda'
+      description: 'Sem total e sem parte — trabalho não iniciado, um registro ainda em aberto. A barra mantém seu lugar, como uma trilha vazia — o mesmo espaço que um total maior que suas partes mostra — então uma linha delas mantém sua forma; sua figura é um traço, já que nada contado não é zero.'
+    compact:
+      title: Compacto
+      description: 'Uma barra mais fina para uma linha ou um rodapé de cartão, com a densidade repassada para as cápsulas de sua legenda.'
+    vue:
+      title: 'Vue, dirigido'
+      description: 'A mesma barra, suas partes apresentadas como dados. Uma parte que não leva a lugar nenhum responde a um clique com `select`, que é o que se deve ouvir para uma tabela que se filtra ao lado.'
+  bar:
+    pipeline: 'Páginas do catálogo'
+    elements: 'Elementos do sistema de design'
+    partial: 'Arquivos lidos'
+  state:
+    done: Concluído
+    running: 'Em andamento'
+    todo: 'A fazer'
+    failed: Falhou
+    skipped: 'Não iniciado'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Распределение
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'Что составляет общую сумму, в одной строке. Где индикатор прогресса показывает, насколько далеко продвинулось одно значение, это показывает, как целое делится: части идут в том порядке, в котором они даны, так что конвейер читается слева направо, как и положено. Состояния названы терминологией, которую уже используют капсула и круг, так что одно состояние никогда не принимает два цвета.'
+  section:
+    default:
+      title: 'Целое, в частях'
+      description: 'Части растут пропорционально своей ценности, а легенда обозначает их словами снизу — это такая же капсула, как и та, что рисует состояние в таблице, так что глаз перемещается между двумя, не узнавая ничего нового.'
+    linked:
+      title: 'Части, ведущие куда-то'
+      description: 'Часть с целью — это ссылка: полоса становится путем в список, который она обобщает. Под указателем она принимает пленку света вместо другого цвета, что означало бы другое состояние.'
+    bare:
+      title: 'Без легенды'
+      description: 'Где части названы прямо рядом, или где полоса должна лишь обозначить форму вещи, легенда опускается, и каждая часть говорит, что она под указателем.'
+    rest:
+      title: 'Общая сумма больше своих частей'
+      description: 'Что учитывает общая сумма и ни одна часть не учитывает, занимает свою долю в ряду и ничего не рисует: трек виден ровно на столько, вместо того чтобы части растягивались, заполняя полосу, которую они не заполняют.'
+    empty:
+      title: 'Пока ничего не учтено'
+      description: 'Нет общей суммы и нет частей — работа не начата, подсчет еще не произведен. Полоса сохраняет свое место, как голый трек — та же поверхность, через которую видно, что общая сумма больше своих частей — так что ряд из них сохраняет свою форму; его фигура — тире, так как ничего не учтено, это не равно нулю.'
+    compact:
+      title: Компактный
+      description: 'Узкая полоса для ряда или нижнего колонтитула карточки, с плотностью, переданной капсулам его легенды.'
+    vue:
+      title: 'Vue, управляемый'
+      description: 'Та же полоса, ее части представлены как данные. Часть, которая никуда не ведет, отвечает на клик `select`, что и есть то, что нужно слушать для таблицы, которая фильтрует себя рядом.'
+  bar:
+    pipeline: 'Страницы каталога'
+    elements: 'Элементы системы дизайна'
+    partial: 'Читаемые файлы'
+  state:
+    done: Готово
+    running: 'В процессе'
+    todo: Сделать
+    failed: 'Не удалось'
+    skipped: 'Не начато'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: การแจกจ่าย
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'สิ่งที่รวมกันเป็นทั้งหมดในบรรทัดเดียว โดยที่แถบความก้าวหน้าบอกว่าค่าหนึ่งไปได้ไกลแค่ไหน ขณะที่สิ่งนี้บอกว่าทั้งหมดแบ่งออกเป็นอย่างไร: ส่วนต่างๆ จะมีลำดับตามที่กำหนด ดังนั้นท่อจึงอ่านจากซ้ายไปขวาเหมือนกับที่มันเป็น ท่อต่างๆ จะถูกตั้งชื่อด้วยศัพท์ที่แคปซูลและวงกลมพูดถึงอยู่แล้ว ดังนั้นสถานะหนึ่งจึงไม่สามารถใช้สีได้สองสี'
+  section:
+    default:
+      title: ทั้งหมดในส่วน
+      description: 'ส่วนต่างๆ เติบโตตามสัดส่วนกับค่าของมัน และคำอธิบายบอกชื่อเหล่านั้นในคำใต้ — แคปซูลเดียวกับที่ตารางวาดสถานะให้ ดังนั้นตาจึงเคลื่อนที่ระหว่างทั้งสองโดยไม่เรียนรู้สิ่งใหม่'
+    linked:
+      title: ส่วนที่นำไปสู่ที่ไหนสักแห่ง
+      description: 'ส่วนที่มีเป้าหมายคือการเชื่อมโยง: แถบกลายเป็นวิธีเข้าสู่รายการที่มันสรุปไว้ ใต้ตัวชี้มันจะมีแสงที่แสดงแทนสีอื่น ซึ่งจะบอกสถานะที่แตกต่างออกไป'
+    bare:
+      title: โดยไม่มีคำอธิบาย
+      description: 'ที่ซึ่งส่วนต่างๆ ถูกตั้งชื่ออยู่ข้างๆ หรือที่แถบต้องแค่บอกรูปร่างของสิ่งนั้น คำอธิบายจะถูกละทิ้งและแต่ละส่วนบอกว่ามันคืออะไรใต้ตัวชี้'
+    rest:
+      title: รวมที่ใหญ่กว่าส่วนของมัน
+      description: 'สิ่งที่รวมคำนวณและไม่มีส่วนใดที่คิดถึงถือว่ามีส่วนแบ่งในแถวและวาดอะไรไม่ได้: เส้นทางแสดงให้เห็นสำหรับจำนวนเท่านั้น แทนที่จะให้ส่วนต่างๆ ยืดเพื่อเติมเต็มแถบที่พวกเขาไม่เติมเต็ม'
+    empty:
+      title: ยังไม่มีการนับ
+      description: 'ไม่มีทั้งหมดและไม่มีส่วน — งานยังไม่เริ่มต้น ยอดยังออกอยู่ แถบยังคงอยู่ที่ตำแหน่งของมัน เหมือนเส้นทางเปล่า — พื้นเดียวกับที่รวมที่ใหญ่กว่าส่วนของมันแสดงให้เห็น — ดังนั้นแถวของมันจึงรักษารูปทรง; รูปร่างของมันเป็นขีดกลาง เนื่องจากไม่มีการนับคือไม่ใช่ศูนย์'
+    compact:
+      title: กระชับ
+      description: 'แถบที่บางลงสำหรับแถวหรือฟุตเตอร์การ์ด โดยมีความหนาแบ่งให้กับแคปซูลในคำอธิบายของมัน'
+    vue:
+      title: 'Vue, ขับเคลื่อน'
+      description: 'แถบเดียวกัน โดยที่ส่วนต่างๆ ถูกให้เป็นข้อมูล ส่วนที่นำไปไหนไม่ได้จะตอบสนองต่อการคลิกด้วย `select` ซึ่งคือสิ่งที่ต้องฟังสำหรับตารางที่กรองตัวเองข้างๆ'
+  bar:
+    pipeline: หน้าของแคตตาล็อก
+    elements: องค์ประกอบของระบบการออกแบบ
+    partial: ไฟล์ที่อ่าน
+  state:
+    done: เสร็จเรียบร้อย
+    running: กำลังดำเนินการ
+    todo: ต้องทำ
+    failed: ล้มเหลว
+    skipped: ยังไม่ได้เริ่ม
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dağıtım
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'Bir toplamın neye dayandığını, tek bir satırda gösterir. Bir ilerleme çubuğu bir değerin ne kadar ilerlediğini gösterirken, bu bir bütünün nasıl bölündüğünü belirtir: parçalar verildiği sırayı korur, bu nedenle bir boru hattı soldan sağa doğru okunur, olduğu gibi. Durumlar, kapsül ve dairenin zaten konuştuğu kelimelerle adlandırılmıştır, bu yüzden bir durum asla iki renge sahip olamaz.'
+  section:
+    default:
+      title: 'Bir bütün, parçalara ayrılmış'
+      description: 'Parçalar, değerlerine orantılı olarak büyür ve açıklama altında kelimelerle belirtilir — bir tablo bir durumu çizerken kullanılan aynı kapsül, böylece göz iki arasında hareket ederken yeni bir şey öğrenmez.'
+    linked:
+      title: 'Bir yere giden parçalar'
+      description: 'Bir hedefi olan parça bir bağlantıdır: çubuk, özetlediği listeye giden yol haline gelir. İmlecin altında başka bir renk yerine bir ışık filmi alır, bu farklı bir durumu belirtir.'
+    bare:
+      title: 'Açıklama olmadan'
+      description: 'Parçaların hemen yanına adlandırıldığı yerlerde, ya da çubuğun sadece şeyin şekli hakkında konuşması gerektiğinde, açıklama kaldırılır ve her parça imlecin altında ne olduğunu belirtir.'
+    rest:
+      title: 'Parçalarından daha büyük bir toplam'
+      description: 'Toplamın saydığı ve hiçbir parçanın karşılamadığı, satırda payını tutar ve hiçbir şey çizmez: bu kadarına tam olarak gösterir, parçaların doldurmadığı bir çubuğu doldurmak için uzandığı yerine.'
+    empty:
+      title: 'Henüz hiçbir şey sayılmadı'
+      description: 'Ne toplam ne de parça — iş başlamadı, hala bir sayım yok. Çubuk yerini korur, çıplak bir iz olarak — parçalarından daha büyük bir toplamın gösterdiği aynı zemin — bu yüzden onların bir sırası şeklini korur; sayısı bir tire, çünkü sayılmamış hiçbir şey sıfır değildir.'
+    compact:
+      title: Kompakt
+      description: 'Bir sıra veya kart altlığı için daha ince bir çubuk, yoğunluk açıklamasının kapsüllerine aktarılır.'
+    vue:
+      title: 'Vue, yönlendirilmiş'
+      description: 'Aynı çubuk, parçaları veri olarak verilmiştir. Hiçbir yere götürmeyen bir parça, yanında kendini filtreleyen bir tablo için dinlemeniz gereken şey olan `seç` ile bir tıklamaya yanıt verir.'
+  bar:
+    pipeline: 'Katalog sayfaları'
+    elements: 'Tasarım sisteminin elemanları'
+    partial: 'Okunan dosyalar'
+  state:
+    done: Tamamlandı
+    running: 'Devam ediyor'
+    todo: Yapılacak
+    failed: Başarısız
+    skipped: Başlanmadı
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تقسیم
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'کسی مجموعے کی تشکیل ایک لائن میں۔ جہاں ایک ترقی کی بار یہ بتاتی ہے کہ ایک قیمت کتنی دور پہنچ چکی ہے، یہ بتاتی ہے کہ ایک مکمل چیز کیسے تقسیم ہوتی ہے: حصے وہی ترتیب رکھتے ہیں جو انہیں دی گئی ہے، اس لئے پائپ لائن بائیں سے دائیں کی طرح پڑھتا ہے جیسا کہ یہ پائپ لائن ہے۔ ریاستوں کے نام وہی ہیں جو کیپسول اور دائرے پہلے ہی بولتے ہیں، اس لئے ایک ریاست کبھی بھی دو رنگ نہیں لیتی۔'
+  section:
+    default:
+      title: 'ایک مکمل چیز، حصوں میں'
+      description: 'حصے اس مقدار کے تناسب سے بڑھتے ہیں جس کی وہ قیمت رکھتے ہیں، اور وضاحت نیچے الفاظ میں انہیں بتاتی ہے — وہی کیپسول جس کے ساتھ ایک جدول ایک ریاست کو کھینچتا ہے، اس لئے آنکھ دونوں کے درمیان بغیر کچھ نیا سیکھے حرکت کرتی ہے۔'
+    linked:
+      title: 'حصے جو کہیں لے جاتے ہیں'
+      description: 'ایک حصہ جس کا ہدف ہے ایک لنک ہے: بار اس فہرست میں جانے کا راستہ بن جاتا ہے جس کا یہ خلاصہ کرتا ہے۔ اشارے کے نیچے یہ روشنی کی ایک فلم لیتا ہے بجائے کسی اور رنگ کے، جو ایک مختلف ریاست بتاتا۔'
+    bare:
+      title: 'وضاحت کے بغیر'
+      description: 'جہاں حصے بس کے قریب نامزد ہیں، یا جہاں بار کو صرف چیز کی شکل بتانی ہوتی ہے، وضاحت ہٹا دی جاتی ہے اور ہر حصہ اشارے کے نیچے یہ بتاتا ہے کہ وہ کیا ہے۔'
+    rest:
+      title: 'ایک مجموعہ جو اپنے حصوں سے بڑا ہے'
+      description: 'جو مجموعہ شمار کرتا ہے اور کوئی حصہ اس کا حساب نہیں رکھتا وہ اپنی قطار کا حصہ رکھتا ہے اور کچھ نہیں کھینچتا: ٹریک بالکل اتنا دکھاتا ہے، بجائے اس کے کہ حصے ایک بار کو بھریں جو وہ نہیں بھرتے۔'
+    empty:
+      title: 'ابھی کچھ نہیں شمار کیا گیا'
+      description: 'نہ کوئی مجموعہ اور نہ کوئی حصہ — کام شروع نہیں ہوا، ایک حساب ابھی باقی ہے۔ بار اپنی جگہ برقرار رکھتا ہے، جیسے ایک خالی ٹریک — وہی زمین جس پر ایک مجموعہ جو اپنے حصوں سے بڑا ہے دکھائی دیتا ہے — اس لئے ان کا ایک صف اپنی شکل برقرار رکھتا ہے؛ اس کی شکل ایک ڈیش ہے، کیونکہ کچھ شمار نہیں کیا گیا ہے جو صفر نہیں ہے۔'
+    compact:
+      title: کمپیکٹ
+      description: 'ایک پتلی بار ایک صف یا کارڈ کے فوٹر کے لئے، جس کی کثافت اس کی وضاحت کے کیپسولز میں منتقل کی گئی ہے۔'
+    vue:
+      title: 'ویو، چلائی گئی'
+      description: 'اسی بار، اس کے حصے ڈیٹا کے طور پر دیے گئے ہیں۔ ایک حصہ جو کہیں نہیں لے جاتا، ایک کلک کے جواب میں `select` کے ساتھ جواب دیتا ہے، جو اس جدول کے لئے سننا ہے جو اس کے پہلو میں خود کو فلٹر کرتا ہے۔'
+  bar:
+    pipeline: 'کتالوگ کے صفحات'
+    elements: 'ڈیزائن سسٹم کے عناصر'
+    partial: 'فائلیں پڑھیں'
+  state:
+    done: مکمل
+    running: 'چل رہا ہے'
+    todo: 'کرنا ہے'
+    failed: ناکام
+    skipped: 'شروع نہیں کیا'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Phân phối'
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 'Một tổng thể được cấu thành từ những gì, trong một dòng. Nơi mà một thanh tiến độ cho biết một giá trị đã đạt được bao xa, điều này cho biết cách mà toàn bộ được chia: các phần giữ nguyên thứ tự mà chúng được đưa ra, vì vậy một đường ống đọc từ trái sang phải như chính nó. Các trạng thái được đặt tên bằng từ vựng mà viên nang và vòng tròn đã nói, vì vậy một trạng thái không bao giờ mang hai màu.'
+  section:
+    default:
+      title: 'Một tổng thể, thành phần'
+      description: 'Các phần phát triển tương ứng với giá trị của chúng, và chú giải nói chúng bằng từ ngữ bên dưới — cùng một viên nang mà một bảng vẽ một trạng thái với, vì vậy mắt di chuyển giữa hai cái mà không học được gì mới.'
+    linked:
+      title: 'Các phần dẫn đến nơi nào đó'
+      description: 'Một phần có mục tiêu là một liên kết: thanh trở thành con đường vào danh sách mà nó tóm tắt. Dưới con trỏ, nó nhận một lớp ánh sáng thay vì một màu khác, điều này sẽ nói đến một trạng thái khác.'
+    bare:
+      title: 'Không có chú giải'
+      description: 'Nơi mà các phần được đặt tên ngay bên cạnh, hoặc nơi mà thanh chỉ cần nói đến hình dạng của vật, chú giải bị bỏ qua và mỗi phần nói rõ nó là gì dưới con trỏ.'
+    rest:
+      title: 'Một tổng thể lớn hơn các phần của nó'
+      description: 'Những gì tổng thể đếm được và không phần nào tính đến giữ phần của hàng và không vẽ gì: đường ray hiển thị cho đúng mức đó, thay vì các phần kéo dài để lấp đầy một thanh mà chúng không lấp đầy.'
+    empty:
+      title: 'Chưa có gì được đếm'
+      description: 'Không tổng thể và không phần nào — công việc chưa bắt đầu, một phép đếm vẫn chưa có. Thanh giữ vị trí của nó, như một đường ray trống — cùng một mặt đất mà một tổng thể lớn hơn các phần của nó hiển thị — vì vậy một hàng trong số đó giữ hình dạng của nó; con số của nó là một dấu gạch ngang, vì không có gì được đếm không phải là số không.'
+    compact:
+      title: 'Gọn gàng'
+      description: 'Một thanh mỏng hơn cho một hàng hoặc chân thẻ, với độ dày được truyền cho các viên nang của chú giải của nó.'
+    vue:
+      title: 'Vue, được điều khiển'
+      description: 'Cùng một thanh, các phần được đưa ra dưới dạng dữ liệu. Một phần không dẫn đến đâu trả lời một cú nhấp chuột với `select`, đó là điều cần lắng nghe cho một bảng tự lọc bên cạnh nó.'
+  bar:
+    pipeline: 'Các trang của danh mục'
+    elements: 'Các phần tử của hệ thống thiết kế'
+    partial: 'Các tệp được đọc'
+  state:
+    done: 'Hoàn thành'
+    running: 'Đang chạy'
+    todo: 'Cần làm'
+    failed: 'Thất bại'
+    skipped: 'Chưa bắt đầu'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 分布
+  page_icon: 'ph:bold/chart-bar-horizontal'
+  intro: 总量的组成，简洁明了。进度条展示了一个值的进度，而这一部分则说明了整体如何划分：部分按照给定的顺序排列，因此管道从左到右读取，正如其本质。状态使用胶囊和圆圈已经使用的词汇命名，因此一个状态永远不会使用两种颜色。
+  section:
+    default:
+      title: 整体，部分
+      description: 部分根据其价值成比例增长，图例在下面用文字表达它们——与表格描绘状态的胶囊相同，因此眼睛在两者之间移动时不会学到任何新东西。
+    linked:
+      title: 通向某处的部分
+      description: 具有目标的部分是一个链接：条形图成为其总结的列表的入口。在指针下，它呈现出光的效果，而不是另一种颜色，这将表明不同的状态。
+    bare:
+      title: 没有图例
+      description: 当部分仅在旁边命名，或者条形图只需说明事物的形状时，图例被省略，每个部分在指针下说明其身份。
+    rest:
+      title: 总量大于其部分
+      description: 总量计数而没有部分计入的内容在行中占据其份额而不绘制任何内容：轨迹恰好显示出如此，而不是部分拉伸填满一个它们并没有填满的条形图。
+    empty:
+      title: 尚未计数
+      description: 没有总量和部分——工作尚未开始，计数仍未进行。条形图保持其位置，作为一个裸露的轨迹——总量大于其部分的相同基础透过——因此一排保持其形状；其数字为短横线，因为未计数的东西并不是零。
+    compact:
+      title: 紧凑
+      description: 用于一排或卡片底部的更细条形图，密度传递给其图例的胶囊。
+    vue:
+      title: Vue，驱动
+      description: 相同的条形图，其部分作为数据给出。一个没有去处的部分在点击时以`select`响应，这就是需要在旁边自我过滤的表格中监听的内容。
+  bar:
+    pipeline: 目录页面
+    elements: 设计系统的元素
+    partial: 读取的文件
+  state:
+    done: 完成
+    running: 运行中
+    todo: 待办
+    failed: 失败
+    skipped: 未开始

@@ -1,0 +1,509 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Spacing
+  page_icon: ph:bold/ruler
+
+  intro: "Two scales and one rule. A shape never writes a length: it spends a step, which is what keeps two components written a year apart from being two pixels out of rhythm."
+
+  section:
+    space:
+      title: Spacing steps
+      description: "Nine steps, from a hairline to a page margin. Padding, gaps and margins all come from here — a value between two steps is a value that has not been decided."
+    size:
+      title: Sizes
+      description: "The widths and heights a region is given: a column, a panel, a reading measure. Larger than a spacing step and used for the same reason."
+    density:
+      title: Density
+      description: "Compactness belongs to a region and not to a widget. A bar declared compact makes what it holds compact too, because the tokens carrying it inherit — no component below is told where it stands."
+
+  density:
+    roomy: A toolbar at its own density, and the buttons it holds
+    compact: The same toolbar declared compact — nothing was said about the buttons
+    marker: A region declared compact without being a shape of its own
+    action: Create
+    other: Refresh
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التباعد
+  page_icon: 'ph:bold/ruler'
+  intro: 'مقياسين وقاعدة واحدة. الشكل لا يكتب طولًا: إنه يقضي خطوة، وهذا ما يمنع عنصرين مكتوبين على بعد عام من أن يكونا خارج النغمة بمقدار بكسل.'
+  section:
+    space:
+      title: 'خطوات التباعد'
+      description: 'تسع خطوات، من خط رفيع إلى هامش الصفحة. يأتي التباعد، الفجوات والهامش من هنا — القيمة بين خطوتين هي قيمة لم يتم تحديدها بعد.'
+    size:
+      title: الأحجام
+      description: 'العرض والارتفاع المخصصان لمنطقة: عمود، لوحة، مقياس قراءة. أكبر من خطوة التباعد وتستخدم لنفس السبب.'
+    density:
+      title: الكثافة
+      description: 'الانضغاط ينتمي إلى منطقة وليس إلى أداة. شريط مُعلن عنه على أنه مدمج يجعل ما يحتويه مضغوطًا أيضًا، لأن الرموز التي تحملها ترث - لا يُقال لأي عنصر أدنى مكانه.'
+  density:
+    roomy: 'شريط أدوات بكثافته الخاصة، والأزرار التي يحتويها'
+    compact: 'نفس شريط الأدوات مُعلنًا عنه كمضغوط - لم يُقال شيء عن الأزرار'
+    marker: 'منطقة مُعلن عنها كمضغوطة دون أن تكون شكلًا خاصًا بها'
+    action: إنشاء
+    other: تحديث
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: স্পেসিং
+  page_icon: 'ph:bold/ruler'
+  intro: 'দুটি স্কেল এবং একটি নিয়ম। একটি আকার কখনো একটি দৈর্ঘ্য লেখে না: এটি একটি পদক্ষেপ ব্যয় করে, যা দুটি উপাদানকে একটি বছরের ব্যবধানে লিখিত থাকার জন্য দুই পিক্সেলের রিদম থেকে দূরে রাখে।'
+  section:
+    space:
+      title: 'স্পেসিং পদক্ষেপ'
+      description: 'নয়টি পদক্ষেপ, একটি চুলের রেখা থেকে একটি পৃষ্ঠা মার্জিন। প্যাডিং, ফাঁক এবং মার্জিন সব এখান থেকে আসে — দুটি পদক্ষেপের মধ্যে একটি মান একটি সিদ্ধান্ত নেওয়া হয়নি।'
+    size:
+      title: আকার
+      description: 'যে প্রস্থ এবং উচ্চতা একটি অঞ্চলের জন্য নির্ধারিত: একটি কলাম, একটি প্যানেল, একটি পড়ার মাপ। একটি স্পেসিং পদক্ষেপের চেয়ে বড় এবং একই কারণে ব্যবহৃত।'
+    density:
+      title: ঘনত্ব
+      description: 'সংকীর্ণতা একটি অঞ্চলের এবং একটি উইজেটের নয়। একটি বার সংকীর্ণ হিসাবে ঘোষণা করা হলে, এটি যা ধারণ করে তা সংকীর্ণ করে, কারণ এটি ধারণকারী টোকেনগুলি উত্তরাধিকারী হয় — নিচের কোনও উপাদানকে বলা হয় না এটি কোথায় অবস্থান করছে।'
+  density:
+    roomy: 'একটি টুলবার এর নিজস্ব ঘনত্বে, এবং এটি ধারণ করা বোতামগুলি'
+    compact: 'একই টুলবার সংকীর্ণ হিসাবে ঘোষণা করা হয়েছে — বোতামগুলির সম্পর্কে কিছু বলা হয়নি'
+    marker: 'একটি অঞ্চল সংকীর্ণ হিসাবে ঘোষণা করা হয়েছে কিন্তু এটি নিজস্ব আকার নয়'
+    action: 'তৈরি করুন'
+    other: রিফ্রেশ
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Abstände
+  page_icon: 'ph:bold/ruler'
+  intro: 'Zwei Skalen und eine Regel. Eine Form schreibt niemals eine Länge: Sie verbraucht einen Schritt, was verhindert, dass zwei Komponenten, die ein Jahr auseinander geschrieben sind, zwei Pixel aus dem Rhythmus geraten.'
+  section:
+    space:
+      title: Abstandsschritte
+      description: 'Neun Schritte, von einer feinen Linie bis zu einem Seitenrand. Innenabstände, Lücken und Ränder stammen alle hierher – ein Wert zwischen zwei Schritten ist ein Wert, der noch nicht entschieden wurde.'
+    size:
+      title: Größen
+      description: 'Die Breiten und Höhen, die einem Bereich zugewiesen werden: eine Spalte, ein Panel, ein Lesemaß. Größer als ein Abstandsschritt und aus demselben Grund verwendet.'
+    density:
+      title: Dichte
+      description: 'Kompaktheit gehört zu einem Bereich und nicht zu einem Widget. Eine als kompakt deklarierte Leiste macht auch das, was sie enthält, kompakt, da die Tokens, die sie tragen, erben – kein darunterliegendes Element wird darüber informiert, wo es steht.'
+  density:
+    roomy: 'Eine Werkzeugleiste in ihrer eigenen Dichte und die Schaltflächen, die sie enthält'
+    compact: 'Die gleiche Werkzeugleiste als kompakt deklariert – es wurde nichts über die Schaltflächen gesagt'
+    marker: 'Ein Bereich, der als kompakt deklariert ist, ohne eine eigene Form zu haben'
+    action: Erstellen
+    other: Aktualisieren
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Espaciado
+  page_icon: 'ph:bold/ruler'
+  intro: 'Dos escalas y una regla. Una forma nunca escribe una longitud: da un paso, que es lo que evita que dos componentes escritos a un año de distancia estén a dos píxeles de desincronización.'
+  section:
+    space:
+      title: 'Pasos de espaciado'
+      description: 'Nueve pasos, desde una línea delgada hasta un margen de página. El relleno, los espacios y los márgenes provienen de aquí: un valor entre dos pasos es un valor que no ha sido decidido.'
+    size:
+      title: Tamaños
+      description: 'Los anchos y alturas que se le dan a una región: una columna, un panel, una medida de lectura. Más grandes que un paso de espaciado y utilizados por la misma razón.'
+    density:
+      title: Densidad
+      description: 'La compacidad pertenece a una región y no a un widget. Una barra declarada compacta hace que lo que sostiene también sea compacto, porque los tokens que la transportan heredan: ningún componente debajo se le dice dónde se encuentra.'
+  density:
+    roomy: 'Una barra de herramientas en su propia densidad, y los botones que sostiene'
+    compact: 'La misma barra de herramientas declarada compacta — no se dijo nada sobre los botones'
+    marker: 'Una región declarada compacta sin ser una forma propia'
+    action: Crear
+    other: Actualizar
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فاصله
+  page_icon: 'ph:bold/ruler'
+  intro: 'دو مقیاس و یک قاعده. یک شکل هرگز یک طول را نمی‌نویسد: بلکه یک گام را طی می‌کند، که باعث می‌شود دو مؤلفه‌ای که یک سال فاصله دارند، دو پیکسل از ریتم خارج نشوند.'
+  section:
+    space:
+      title: 'گام‌های فاصله'
+      description: 'نه گام، از یک خط باریک تا حاشیه صفحه. فضای خالی، فاصله‌ها و حاشیه‌ها همه از اینجا می‌آیند — یک مقدار بین دو گام، مقداری است که هنوز تصمیم‌گیری نشده است.'
+    size:
+      title: اندازه‌ها
+      description: 'عرض‌ها و ارتفاع‌هایی که به یک منطقه داده می‌شود: یک ستون، یک پنل، یک اندازه‌گیری خواندن. بزرگتر از یک گام فاصله و برای همان دلیل استفاده می‌شود.'
+    density:
+      title: چگالی
+      description: 'فشردگی متعلق به یک منطقه است و نه به یک ویجت. یک نوار که فشرده اعلام شده، آنچه را که در خود دارد نیز فشرده می‌کند، زیرا توکن‌هایی که آن را حمل می‌کنند، ارث می‌برند — هیچ مؤلفه‌ای در زیر گفته نمی‌شود که کجا قرار دارد.'
+  density:
+    roomy: 'یک نوار ابزار با چگالی خود و دکمه‌هایی که در آن دارد'
+    compact: 'همان نوار ابزار که فشرده اعلام شده — هیچ چیزی درباره دکمه‌ها گفته نشده است'
+    marker: 'یک منطقه که فشرده اعلام شده بدون اینکه شکل خود را داشته باشد'
+    action: ایجاد
+    other: به‌روزرسانی
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Väli
+  page_icon: 'ph:bold/ruler'
+  intro: 'Kaksi skaalaa ja yksi sääntö. Muoto ei koskaan kirjoita pituutta: se vie askeleen, mikä pitää kaksi komponenttia, jotka on kirjoitettu vuoden välein, kahden pikselin rytmissä.'
+  section:
+    space:
+      title: Väliaskelmat
+      description: 'Yhdeksän askelta, hiusviivasta sivun marginaaliin. Tyhjät tilat, väli ja marginaalit kaikki tulevat täältä — arvo kahden askeleen välillä on arvo, jota ei ole päätetty.'
+    size:
+      title: Koot
+      description: 'Leveydet ja korkeudet, jotka alueelle annetaan: sarakkeet, paneelit, lukemismitat. Suurempi kuin väliaskelma ja käytetään samaan tarkoitukseen.'
+    density:
+      title: Tiheys
+      description: 'Tiiviyden kuuluu alueelle, ei widgetille. Tiiviiksi julistettu palkki tekee siitä pitämänsä tiiviin myös, koska sen kantavat tokenit perivät — mikään alempi komponentti ei saa tietoa siitä, missä se seisoo.'
+  density:
+    roomy: 'Työkalupalkki omassa tiheydessään ja sen pitämät painikkeet'
+    compact: 'Sama työkalupalkki julistettuna tiiviiksi — mitään ei sanottu painikkeista'
+    marker: 'Alue julistettuna tiiviiksi ilman omaa muotoaan'
+    action: Luo
+    other: Päivitä
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Espacement
+  page_icon: 'ph:bold/règle'
+  intro: "Deux échelles et une règle. Une forme n'écrit jamais une longueur : elle dépense un pas, ce qui empêche deux composants écrits à un an d'intervalle d'être décalés de deux pixels."
+  section:
+    space:
+      title: "Étapes d'espacement"
+      description: "Neuf étapes, d'une ligne fine à une marge de page. Les espacements, les interstices et les marges proviennent tous d'ici — une valeur entre deux étapes est une valeur qui n'a pas été décidée."
+    size:
+      title: Tailles
+      description: "Les largeurs et hauteurs qu'une région reçoit : une colonne, un panneau, une mesure de lecture. Plus grande qu'une étape d'espacement et utilisée pour la même raison."
+    density:
+      title: Densité
+      description: "La compacité appartient à une région et non à un widget. Une barre déclarée compacte rend ce qu'elle contient compact aussi, car les éléments qui la portent héritent — aucun composant en dessous n'est informé de sa position."
+  density:
+    roomy: "Une barre d'outils à sa propre densité, et les boutons qu'elle contient"
+    compact: "La même barre d'outils déclarée compacte — rien n'a été dit sur les boutons"
+    marker: 'Une région déclarée compacte sans être une forme à part entière'
+    action: Créer
+    other: Rafraîchir
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ריווח
+  page_icon: 'ph:bold/ruler'
+  intro: 'שתי סקאלות וכלל אחד. צורה אף פעם לא כותבת אורך: היא משקיעה צעד, שהוא מה ששומר על כך ששני רכיבים כתובים שנה אחת זה מזה לא יהיו שני פיקסלים מחוץ לקצב.'
+  section:
+    space:
+      title: 'צעדי ריווח'
+      description: 'תשעה צעדים, מקו דק ועד שולי עמוד. ריפוד, רווחים ושולים כולם מגיעים מכאן — ערך בין שני צעדים הוא ערך שלא הוחלט עליו.'
+    size:
+      title: גדלים
+      description: 'הרחבים והגובה שניתן לאזור: עמודה, פאנל, מדידת קריאה. גדול יותר מצעד ריווח ונעשה בו שימוש מאותה סיבה.'
+    density:
+      title: צפיפות
+      description: 'קומפקטיות שייכת לאזור ולא לרכיב. סרגל המוצהר כקומפקטי עושה את מה שהוא מחזיק קומפקטי גם כן, כי הטוקנים שנושאים אותו יורשים — אף רכיב מתחת לא אומר לו היכן הוא נמצא.'
+  density:
+    roomy: 'סרגל כלים בצפיפות שלו, והכפתורים שהוא מחזיק'
+    compact: 'אותו סרגל כלים המוצהר כקומפקטי — לא נאמר דבר על הכפתורים'
+    marker: 'אזור המוצהר כקומפקטי מבלי להיות צורה משלו'
+    action: צור
+    other: רענן
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: स्पेसिंग
+  page_icon: 'ph:bold/ruler'
+  intro: 'दो पैमाने और एक नियम। एक आकृति कभी भी लंबाई नहीं लिखती: यह एक कदम बिताती है, जो दो घटकों को एक वर्ष के अंतर से लिखे जाने से दो पिक्सल के लय से बाहर रखने का काम करती है।'
+  section:
+    space:
+      title: 'स्पेसिंग स्टेप्स'
+      description: 'नौ कदम, एक बाल रेखा से लेकर एक पृष्ठ मार्जिन तक। पैडिंग, गैप और मार्जिन सभी यहां से आते हैं - दो कदमों के बीच का मान एक ऐसा मान है जो तय नहीं किया गया है।'
+    size:
+      title: आकार
+      description: 'एक क्षेत्र को दिए गए चौड़ाई और ऊंचाई: एक कॉलम, एक पैनल, एक पढ़ने का माप। स्पेसिंग स्टेप से बड़ा और उसी कारण से उपयोग किया जाता है।'
+    density:
+      title: घनत्व
+      description: 'संक्षिप्तता एक क्षेत्र से संबंधित है और किसी विजेट से नहीं। एक बार जो संक्षिप्त घोषित किया गया है, वह जो इसे पकड़े हुए है उसे भी संक्षिप्त बनाता है, क्योंकि इसे ले जाने वाले टोकन विरासत में मिलते हैं - नीचे कोई घटक नहीं बताया गया है कि यह कहां खड़ा है।'
+  density:
+    roomy: 'एक टूलबार अपनी ही घनत्व पर, और जो बटन इसे पकड़ते हैं'
+    compact: 'वही टूलबार संक्षिप्त घोषित किया गया - बटन के बारे में कुछ नहीं कहा गया'
+    marker: 'एक क्षेत्र जिसे संक्षिप्त घोषित किया गया है बिना अपनी आकृति के'
+    action: बनाएं
+    other: रीफ्रेश
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Jarak
+  page_icon: 'ph:bold/ruler'
+  intro: 'Dua skala dan satu aturan. Sebuah bentuk tidak menuliskan panjang: ia melewati satu langkah, yang menjaga agar dua komponen yang ditulis satu tahun terpisah tidak menjadi dua piksel keluar dari ritme.'
+  section:
+    space:
+      title: 'Langkah jarak'
+      description: 'Sembilan langkah, dari garis tipis hingga margin halaman. Padding, celah, dan margin semuanya berasal dari sini — sebuah nilai antara dua langkah adalah nilai yang belum ditentukan.'
+    size:
+      title: Ukuran
+      description: 'Lebar dan tinggi yang diberikan pada suatu area: sebuah kolom, panel, ukuran bacaan. Lebih besar dari langkah jarak dan digunakan untuk alasan yang sama.'
+    density:
+      title: Kepadatan
+      description: 'Kepadatan milik suatu area dan bukan widget. Sebuah bilah yang dinyatakan padat membuat apa yang dipegangnya juga padat, karena token yang membawanya mewarisi — tidak ada komponen di bawah yang diberitahu di mana posisinya.'
+  density:
+    roomy: 'Toolbar pada kepadatannya sendiri, dan tombol-tombol yang dipegangnya'
+    compact: 'Toolbar yang sama dinyatakan padat — tidak ada yang dikatakan tentang tombol-tombolnya'
+    marker: 'Sebuah area dinyatakan padat tanpa menjadi bentuknya sendiri'
+    action: Buat
+    other: Segarkan
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Spaziatura
+  page_icon: 'ph:bold/ruler'
+  intro: 'Due scale e una regola. Una forma non scrive mai una lunghezza: consuma un passo, che è ciò che impedisce a due componenti scritti a un anno di distanza di essere due pixel fuori ritmo.'
+  section:
+    space:
+      title: 'Passi di spaziatura'
+      description: 'Nove passi, da una linea sottile a un margine di pagina. Padding, spazi e margini derivano tutti da qui: un valore tra due passi è un valore che non è stato deciso.'
+    size:
+      title: Dimensioni
+      description: 'Le larghezze e le altezze assegnate a una regione: una colonna, un pannello, una misura di lettura. Più grande di un passo di spaziatura e usato per lo stesso motivo.'
+    density:
+      title: Densità
+      description: "La compattezza appartiene a una regione e non a un widget. Una barra dichiarata compatta rende ciò che contiene compatto anch'esso, perché i token che la trasportano ereditano — nessun componente sottostante viene informato su dove si trova."
+  density:
+    roomy: 'Una barra degli strumenti alla propria densità, e i pulsanti che contiene'
+    compact: 'La stessa barra degli strumenti dichiarata compatta — non si è detto nulla sui pulsanti'
+    marker: 'Una regione dichiarata compatta senza essere una forma di per sé'
+    action: Crea
+    other: Aggiorna
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 間隔
+  page_icon: 'ph:bold/ruler'
+  intro: 二つのスケールと一つのルール。形は長さを書かず、ステップを費やします。これにより、二つのコンポーネントが一年離れていても、二ピクセルのリズムのずれが生じることはありません。
+  section:
+    space:
+      title: 間隔のステップ
+      description: 'ヘアラインからページのマージンまでの九つのステップ。パディング、ギャップ、マージンはすべてここから生まれます — 二つのステップの間の値は、未決定の値です。'
+    size:
+      title: サイズ
+      description: 地域に与えられる幅と高さ：カラム、パネル、読み取りの基準。間隔のステップより大きく、同じ理由で使用されます。
+    density:
+      title: 密度
+      description: 'コンパクトさは地域に属し、ウィジェットには属しません。コンパクトと宣言されたバーは、その中に持つものもコンパクトにします。なぜなら、それを持つトークンが継承するからです — 下のコンポーネントには、その位置が指示されません。'
+  density:
+    roomy: 自分の密度を持つツールバーと、その中にあるボタン
+    compact: 'コンパクトと宣言された同じツールバー — ボタンについては何も言われていません'
+    marker: 自身の形を持たずにコンパクトと宣言された地域
+    action: 作成
+    other: 更新
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 간격
+  page_icon: 'ph:bold/ruler'
+  intro: '두 개의 척도와 하나의 규칙. 형태는 길이를 기록하지 않으며, 두 구성 요소가 1년 간격으로 기록될 때 두 픽셀이 리듬을 벗어나지 않도록 한 단계가 필요합니다.'
+  section:
+    space:
+      title: '간격 단계'
+      description: '헤어라인부터 페이지 여백까지 아홉 단계. 패딩, 간격 및 여백 모두 여기에서 비롯됩니다 — 두 단계 사이의 값은 결정되지 않은 값입니다.'
+    size:
+      title: 크기
+      description: '영역에 주어진 너비와 높이: 열, 패널, 읽기 기준. 간격 단계보다 크며 동일한 이유로 사용됩니다.'
+    density:
+      title: 밀도
+      description: '콤팩트함은 위젯이 아닌 영역에 속합니다. 콤팩트하게 선언된 바는 그 안에 있는 것도 콤팩트하게 만드는데, 그를 지탱하는 토큰이 상속되기 때문입니다 — 아래의 어떤 구성 요소도 자신의 위치를 알지 못합니다.'
+  density:
+    roomy: '자신의 밀도를 가진 툴바와 그 안에 있는 버튼들'
+    compact: '콤팩트하게 선언된 동일한 툴바 — 버튼에 대해선 언급되지 않았습니다'
+    marker: '자신의 형태 없이 콤팩트하게 선언된 영역'
+    action: 생성
+    other: '새로 고침'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Spatiëring
+  page_icon: 'ph:bold/ruler'
+  intro: 'Twee schalen en één regel. Een vorm schrijft nooit een lengte: het neemt een stap, wat ervoor zorgt dat twee componenten die een jaar uit elkaar staan, niet twee pixels uit de maat zijn.'
+  section:
+    space:
+      title: Ruimtestappen
+      description: 'Negen stappen, van een haarlijn tot een paginamarge. Opvulling, openingen en marges komen hier vandaan — een waarde tussen twee stappen is een waarde die nog niet is vastgesteld.'
+    size:
+      title: Maten
+      description: 'De breedtes en hoogtes die aan een gebied zijn gegeven: een kolom, een paneel, een leesmaat. Groter dan een ruimtestap en gebruikt om dezelfde reden.'
+    density:
+      title: Dichtheid
+      description: 'Compactheid behoort tot een gebied en niet tot een widget. Een balk die als compact is verklaard, maakt wat het bevat ook compact, omdat de tokens die het dragen, erven — geen component eronder wordt verteld waar het staat.'
+  density:
+    roomy: 'Een toolbar op zijn eigen dichtheid, en de knoppen die het bevat'
+    compact: 'Dezelfde toolbar als compact verklaard — er is niets gezegd over de knoppen'
+    marker: 'Een gebied dat als compact is verklaard zonder een eigen vorm te zijn'
+    action: Aanmaken
+    other: Vernieuwen
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Odstępy
+  page_icon: 'ph:bold/ruler'
+  intro: 'Dwie skale i jedna zasada. Kształt nigdy nie zapisuje długości: wykonuje krok, co sprawia, że dwa komponenty oddzielone rokiem nie są oddzielone o dwa piksele.'
+  section:
+    space:
+      title: 'Kroki odstępu'
+      description: 'Dziewięć kroków, od cienkiej linii do marginesu strony. Wypełnienia, przerwy i marginesy pochodzą stąd — wartość między dwoma krokami to wartość, która nie została określona.'
+    size:
+      title: Rozmiary
+      description: 'Szerokości i wysokości, jakie otrzymuje obszar: kolumna, panel, miara czytania. Większe niż krok odstępu i używane w tym samym celu.'
+    density:
+      title: Gęstość
+      description: 'Kompaktowość należy do obszaru, a nie do widżetu. Pasek zadeklarowany jako kompaktowy sprawia, że to, co trzyma, jest również kompaktowe, ponieważ tokeny go noszące dziedziczą — żaden komponent poniżej nie jest informowany, gdzie stoi.'
+  density:
+    roomy: 'Pasek narzędziowy o własnej gęstości i przyciski, które zawiera'
+    compact: 'Ten sam pasek narzędziowy zadeklarowany jako kompaktowy — nic nie powiedziano o przyciskach'
+    marker: 'Obszar zadeklarowany jako kompaktowy bez posiadania własnego kształtu'
+    action: Utwórz
+    other: Odśwież
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Espaçamento
+  page_icon: 'ph:bold/ruler'
+  intro: 'Duas escalas e uma regra. Uma forma nunca escreve um comprimento: ela ocupa um espaço, que é o que mantém dois componentes escritos a um ano de distância de estarem dois pixels fora de ritmo.'
+  section:
+    space:
+      title: 'Passos de espaçamento'
+      description: 'Nove passos, de uma linha fina a uma margem de página. Espaçamento, lacunas e margens vêm de aqui — um valor entre dois passos é um valor que não foi decidido.'
+    size:
+      title: Tamanhos
+      description: 'As larguras e alturas que uma região recebe: uma coluna, um painel, uma medida de leitura. Maior que um passo de espaçamento e usado pela mesma razão.'
+    density:
+      title: Densidade
+      description: 'A compactação pertence a uma região e não a um widget. Uma barra declarada compacta torna o que ela contém compacto também, porque os tokens que a transportam herdam — nenhum componente abaixo é informado sobre sua posição.'
+  density:
+    roomy: 'Uma barra de ferramentas em sua própria densidade, e os botões que ela contém'
+    compact: 'A mesma barra de ferramentas declarada compacta — nada foi dito sobre os botões'
+    marker: 'Uma região declarada compacta sem ser uma forma própria'
+    action: Criar
+    other: Atualizar
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Пространство
+  page_icon: 'ph:bold/ruler'
+  intro: 'Две шкалы и одно правило. Форма никогда не указывает длину: она проходит шаг, что и позволяет двум компонентам, написанным с разницей в год, не расходиться на два пикселя.'
+  section:
+    space:
+      title: 'Шаги расстояния'
+      description: 'Девять шагов, от тонкой линии до поля страницы. Отступы, промежутки и поля все происходят отсюда — значение между двумя шагами это значение, которое еще не было определено.'
+    size:
+      title: Размеры
+      description: 'Ширины и высоты, задаваемые региону: колонка, панель, размер чтения. Больше, чем шаг расстояния и используется по той же причине.'
+    density:
+      title: Плотность
+      description: 'Компактность принадлежит региону, а не виджету. Панель, объявленная компактной, делает то, что она содержит, компактным тоже, потому что токены, которые ее несут, наследуют — ни одному компоненту ниже не сообщается, где он находится.'
+  density:
+    roomy: 'Панель инструментов с собственной плотностью и кнопками, которые она содержит'
+    compact: 'Та же панель инструментов, объявленная компактной — ничего не было сказано о кнопках'
+    marker: 'Регион, объявленный компактным, не будучи формой сам по себе'
+    action: Создать
+    other: Обновить
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ระยะห่าง
+  page_icon: 'ph:bold/ruler'
+  intro: 'สองมาตราส่วนและกฎหนึ่งข้อ รูปร่างไม่เคยกำหนดความยาว: มันใช้ช่วงหนึ่ง ซึ่งเป็นสิ่งที่ทำให้สองส่วนที่เขียนห่างกันหนึ่งปีไม่ออกจากจังหวะกันสองพิกเซล'
+  section:
+    space:
+      title: ขั้นตอนการเว้นระยะ
+      description: 'เก้าขั้นตอน ตั้งแต่เส้นผมจนถึงขอบหน้ากระดาษ การเว้นระยะ, ช่องว่าง และขอบทั้งหมดมาจากที่นี่ — ค่าระหว่างสองขั้นตอนคือค่าที่ยังไม่ได้ตัดสินใจ'
+    size:
+      title: ขนาด
+      description: 'ความกว้างและความสูงที่กำหนดให้กับพื้นที่: คอลัมน์, แผง, ขนาดการอ่าน ขนาดใหญ่กว่าขั้นตอนการเว้นระยะและใช้เพื่อเหตุผลเดียวกัน'
+    density:
+      title: ความหนาแน่น
+      description: 'ความกระชับเป็นของพื้นที่และไม่ใช่ของวิดเจ็ต แถบที่ประกาศว่ากระชับทำให้สิ่งที่มันถืออยู่มีความกระชับด้วยเช่นกัน เนื่องจากโทเค็นที่ถือมันสืบทอดมา — ไม่มีส่วนประกอบใดที่อยู่ด้านล่างบอกว่ามันอยู่ที่ไหน'
+  density:
+    roomy: 'แถบเครื่องมือที่มีความหนาแน่นของตัวเอง และปุ่มที่มันถืออยู่'
+    compact: 'แถบเครื่องมือเดียวกันที่ประกาศว่ากระชับ — ไม่มีการพูดถึงปุ่ม'
+    marker: พื้นที่ที่ประกาศว่ากระชับโดยไม่มีรูปร่างของตัวเอง
+    action: สร้าง
+    other: รีเฟรช
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Boşluk
+  page_icon: 'ph:bold/ruler'
+  intro: 'İki ölçek ve bir kural. Bir şekil uzunluk yazmaz: bir adım harcar, bu da iki bileşeni bir yıl arayla yazılı tutan şeydir, iki piksel ritim dışı olmasını engeller.'
+  section:
+    space:
+      title: 'Boşluk adımları'
+      description: 'Bir saç telinden bir sayfa kenarına kadar dokuz adım. Dolgu, boşluklar ve kenar boşlukları buradan gelir — iki adım arasındaki değer, henüz belirlenmemiş bir değerdir.'
+    size:
+      title: Boyutlar
+      description: 'Bir alana verilen genişlikler ve yükseklikler: bir sütun, bir panel, bir okuma ölçüsü. Bir boşluk adımından daha büyük ve aynı nedenle kullanılır.'
+    density:
+      title: Yoğunluk
+      description: "Sıkılık bir alana aittir, bir bileşene değil. Sıkı olarak belirtilen bir çubuk, içindekileri de sıkı hale getirir, çünkü onu taşıyan token'lar miras alır — aşağıdaki hiçbir bileşene nerede durduğu söylenmez."
+  density:
+    roomy: 'Kendi yoğunluğundaki bir araç çubuğu ve içindeki düğmeler'
+    compact: 'Sıkı olarak belirtilen aynı araç çubuğu — düğmeler hakkında hiçbir şey söylenmedi'
+    marker: 'Kendi şekli olmadan sıkı olarak belirtilen bir alan'
+    action: Oluştur
+    other: Yenile
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فاصلہ
+  page_icon: 'ph:bold/ruler'
+  intro: 'دو پیمانے اور ایک قاعدہ۔ ایک شکل کبھی بھی لمبائی نہیں لکھتی: یہ ایک قدم صرف کرتی ہے، جو دو اجزاء کو ایک سال کے فاصلے پر لکھے جانے سے بچاتا ہے اور انہیں دو پکسلز کے تال سے باہر نہیں ہونے دیتا۔'
+  section:
+    space:
+      title: 'فاصلہ کے مراحل'
+      description: 'نو مراحل، ایک بال کی طرح سے لے کر صفحے کے کنارے تک۔ پیڈنگ، خلا اور مارجن سب یہاں سے آتے ہیں — دو مراحل کے درمیان کی قیمت ایک قیمت ہے جو طے نہیں کی گئی۔'
+    size:
+      title: سائز
+      description: 'ایک علاقے کو دی جانے والی چوڑائیاں اور اونچائیاں: ایک کالم، ایک پینل، ایک پڑھنے کا پیمانہ۔ ایک فاصلہ کے مرحلے سے بڑی اور اسی وجہ سے استعمال کی جاتی ہے۔'
+    density:
+      title: کثافت
+      description: 'کمپیکٹنس ایک علاقے سے تعلق رکھتی ہے اور کسی ویجیٹ سے نہیں۔ ایک بار جو کمپیکٹ قرار دی گئی ہے وہ اس میں موجود چیزوں کو بھی کمپیکٹ بناتی ہے، کیونکہ اسے لے جانے والے ٹوکن وراثت میں ملتے ہیں — نیچے کوئی بھی جزو یہ نہیں بتایا جاتا کہ وہ کہاں کھڑا ہے۔'
+  density:
+    roomy: 'ایک ٹول بار اپنی کثافت پر، اور اس میں موجود بٹن'
+    compact: 'اسی ٹول بار کو کمپیکٹ قرار دیا گیا — بٹنوں کے بارے میں کچھ نہیں کہا گیا'
+    marker: 'ایک علاقہ جو کمپیکٹ قرار دیا گیا بغیر اپنی شکل کے ہونے کے'
+    action: بنائیں
+    other: 'تازہ کریں'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Khoảng cách'
+  page_icon: 'ph:bold/ruler'
+  intro: 'Hai thang đo và một quy tắc. Một hình dạng không bao giờ viết ra độ dài: nó trải qua một bước, điều này giữ cho hai thành phần viết cách nhau một năm không bị lệch khỏi nhịp điệu hai pixel.'
+  section:
+    space:
+      title: 'Các bước khoảng cách'
+      description: 'Chín bước, từ một đường mảnh đến lề trang. Đệm, khoảng trống và lề đều bắt nguồn từ đây — một giá trị giữa hai bước là một giá trị chưa được quyết định.'
+    size:
+      title: 'Kích thước'
+      description: 'Độ rộng và chiều cao mà một khu vực được chỉ định: một cột, một bảng, một phép đo đọc. Lớn hơn một bước khoảng cách và được sử dụng vì cùng lý do.'
+    density:
+      title: 'Mật độ'
+      description: 'Sự chặt chẽ thuộc về một khu vực chứ không phải một widget. Một thanh công cụ được tuyên bố là chặt chẽ sẽ làm cho những gì nó giữ cũng trở nên chặt chẽ, bởi vì các token mang nó thừa kế — không có thành phần nào bên dưới được cho biết vị trí của nó.'
+  density:
+    roomy: 'Một thanh công cụ với mật độ riêng của nó, và các nút mà nó giữ'
+    compact: 'Cùng một thanh công cụ được tuyên bố là chặt chẽ — không có gì được nói về các nút'
+    marker: 'Một khu vực được tuyên bố là chặt chẽ mà không trở thành một hình dạng riêng của nó'
+    action: Tạo
+    other: 'Làm mới'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 间距
+  page_icon: 'ph:bold/ruler'
+  intro: 两个刻度和一个规则。形状从不书写长度：它花费一个步骤，这就是使两个相隔一年书写的组件不至于错位两个像素的原因。
+  section:
+    space:
+      title: 间距步骤
+      description: 九个步骤，从细线到页面边距。填充、间隙和边距都来源于此——在两个步骤之间的值是一个尚未决定的值。
+    size:
+      title: 尺寸
+      description: 一个区域被赋予的宽度和高度：一列、一个面板、一种阅读度。大于一个间距步骤，并出于相同的原因使用。
+    density:
+      title: 密度
+      description: 紧凑性属于一个区域而不是一个小部件。一个声明为紧凑的条形工具使其所包含的内容也变得紧凑，因为承载它的标记会继承——没有下方的组件被告知其位置。
+  density:
+    roomy: 一个具有自身密度的工具栏，以及它所持有的按钮
+    compact: 同样的工具栏声明为紧凑——没有关于按钮的说明
+    marker: 一个声明为紧凑但没有自身形状的区域
+    action: 创建
+    other: 刷新

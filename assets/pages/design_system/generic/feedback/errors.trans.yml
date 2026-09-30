@@ -1,0 +1,346 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Errors
+  page_icon: ph:bold/warning-circle
+
+  section:
+    trigger:
+      description: Trigger a frontend error for catch handling tests.
+      button: Trigger error
+    frontend_throw:
+      description: Trigger an uncaught frontend exception in JavaScript.
+      button: Throw error
+    internet_probe:
+      description: Trigger an external request to test internet connectivity handling.
+      button: Probe
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: أخطاء
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'ت triggering خطأ في الواجهة الأمامية لاختبارات معالجة الأخطاء.'
+      button: 'ت triggering خطأ'
+    frontend_throw:
+      description: 'ت triggering استثناء غير مقبوض في JavaScript.'
+      button: 'إلقاء خطأ'
+    internet_probe:
+      description: 'ت triggering طلب خارجي لاختبار معالجة الاتصال بالإنترنت.'
+      button: استكشاف
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ত্রুটি
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'ফ্রন্টএন্ড ত্রুটি তৈরি করুন ক্যাচ হ্যান্ডলিং পরীক্ষার জন্য।'
+      button: 'ত্রুটি তৈরি করুন'
+    frontend_throw:
+      description: 'জাভাস্ক্রিপ্টে একটি অব্যবহৃত ফ্রন্টএন্ড ব্যতিক্রম তৈরি করুন।'
+      button: 'ত্রুটি ছুঁড়ুন'
+    internet_probe:
+      description: 'ইন্টারনেট সংযোগ পরিচালনার পরীক্ষা করার জন্য একটি বাহ্যিক অনুরোধ তৈরি করুন।'
+      button: প্রোব
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fehler
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Ein Frontend-Fehler zur Testung des Catch-Handling auslösen.'
+      button: 'Fehler auslösen'
+    frontend_throw:
+      description: 'Eine nicht gefangene Frontend-Ausnahme in JavaScript auslösen.'
+      button: 'Fehler auslösen'
+    internet_probe:
+      description: 'Eine externe Anfrage auslösen, um die Handhabung der Internetverbindung zu testen.'
+      button: Testen
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Errores
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Provocar un error en el frontend para pruebas de manejo de excepciones.'
+      button: 'Provocar error'
+    frontend_throw:
+      description: 'Provocar una excepción no capturada en el frontend en JavaScript.'
+      button: 'Lanzar error'
+    internet_probe:
+      description: 'Provocar una solicitud externa para probar el manejo de conectividad a Internet.'
+      button: Probar
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: خطاها
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'یک خطای فرانت‌اند برای تست‌های مدیریت خطا ایجاد کنید.'
+      button: 'ایجاد خطا'
+    frontend_throw:
+      description: 'یک استثنای فرانت‌اند بدون گیرنده در جاوااسکریپت ایجاد کنید.'
+      button: 'پرتاب خطا'
+    internet_probe:
+      description: 'یک درخواست خارجی برای تست مدیریت اتصال به اینترنت ایجاد کنید.'
+      button: پروب
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Virheet
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Luo etupään virhe käsittelytestejä varten.'
+      button: 'Luo virhe'
+    frontend_throw:
+      description: 'Luo käsittelemätön etupään poikkeus JavaScriptissä.'
+      button: 'Heitä virhe'
+    internet_probe:
+      description: 'Luo ulkoinen pyyntö testataksesi internet-yhteyden käsittelyä.'
+      button: Koe
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Erreurs
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Déclencher une erreur frontend pour les tests de gestion des exceptions.'
+      button: "Déclencher l'erreur"
+    frontend_throw:
+      description: 'Déclencher une exception frontend non interceptée en JavaScript.'
+      button: "Lancer l'erreur"
+    internet_probe:
+      description: 'Déclencher une requête externe pour tester la gestion de la connectivité Internet.'
+      button: Tester
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: שגיאות
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'גרום לשגיאת צד לקוח לצורך בדיקות טיפול בשגיאות.'
+      button: 'גרום לשגיאה'
+    frontend_throw:
+      description: 'גרום לשגיאה בלתי נתפסת בצד הלקוח ב-JavaScript.'
+      button: 'זרוק שגיאה'
+    internet_probe:
+      description: 'גרום לבקשה חיצונית כדי לבדוק את טיפול בחיבור לאינטרנט.'
+      button: בדוק
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: त्रुटियाँ
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'कैच हैंडलिंग परीक्षणों के लिए एक फ्रंटएंड त्रुटि उत्पन्न करें।'
+      button: 'त्रुटि उत्पन्न करें'
+    frontend_throw:
+      description: 'जावास्क्रिप्ट में एक अनकैच्ड फ्रंटएंड अपवाद उत्पन्न करें।'
+      button: 'त्रुटि फेंकें'
+    internet_probe:
+      description: 'इंटरनेट कनेक्टिविटी हैंडलिंग का परीक्षण करने के लिए एक बाहरी अनुरोध उत्पन्न करें।'
+      button: 'प्रोब करें'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kesalahan
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Memicu kesalahan frontend untuk pengujian penanganan tangkapan.'
+      button: 'Picu kesalahan'
+    frontend_throw:
+      description: 'Memicu pengecualian frontend yang tidak tertangkap di JavaScript.'
+      button: 'Lempar kesalahan'
+    internet_probe:
+      description: 'Memicu permintaan eksternal untuk menguji penanganan konektivitas internet.'
+      button: 'Uji koneksi'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Errori
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Attiva un errore frontend per i test di gestione delle eccezioni.'
+      button: 'Attiva errore'
+    frontend_throw:
+      description: "Genera un'eccezione frontend non gestita in JavaScript."
+      button: 'Genera errore'
+    internet_probe:
+      description: 'Attiva una richiesta esterna per testare la gestione della connettività internet.'
+      button: Prova
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: エラー
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: フロントエンドエラーをトリガーして、キャッチハンドリングテストを行います。
+      button: エラーをトリガー
+    frontend_throw:
+      description: JavaScriptで未捕捉のフロントエンド例外をトリガーします。
+      button: エラーを投げる
+    internet_probe:
+      description: インターネット接続ハンドリングをテストするために外部リクエストをトリガーします。
+      button: プローブ
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 오류
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: '프론트엔드 오류를 발생시켜 예외 처리 테스트를 수행합니다.'
+      button: '오류 발생'
+    frontend_throw:
+      description: 'JavaScript에서 처리되지 않은 프론트엔드 예외를 발생시킵니다.'
+      button: '예외 발생'
+    internet_probe:
+      description: '인터넷 연결 처리 테스트를 위해 외부 요청을 발생시킵니다.'
+      button: '연결 테스트'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fouten
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Verzoek een frontendfout voor test van foutafhandeling.'
+      button: 'Fout triggeren'
+    frontend_throw:
+      description: 'Verzoek een niet-afgevangen frontend uitzondering in JavaScript.'
+      button: 'Gooi fout'
+    internet_probe:
+      description: 'Verzoek een externe aanvraag om de internetverbinding te testen.'
+      button: Probe
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Błędy
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Wywołaj błąd frontendowy do testów obsługi wyjątków.'
+      button: 'Wywołaj błąd'
+    frontend_throw:
+      description: 'Wywołaj nieobsługiwany wyjątek frontendowy w JavaScript.'
+      button: 'Rzuć błąd'
+    internet_probe:
+      description: 'Wywołaj zewnętrzne żądanie, aby przetestować obsługę łączności internetowej.'
+      button: Przetestuj
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Erros
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Disparar um erro de frontend para testes de tratamento de exceções.'
+      button: 'Disparar erro'
+    frontend_throw:
+      description: 'Disparar uma exceção de frontend não capturada em JavaScript.'
+      button: 'Lançar erro'
+    internet_probe:
+      description: 'Disparar uma solicitação externa para testar o manuseio de conectividade com a internet.'
+      button: Testar
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ошибки
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Сгенерировать ошибку на стороне клиента для тестирования обработки исключений.'
+      button: 'Сгенерировать ошибку'
+    frontend_throw:
+      description: 'Сгенерировать необработанное исключение на стороне клиента в JavaScript.'
+      button: 'Сгенерировать ошибку'
+    internet_probe:
+      description: 'Сделать внешний запрос для проверки обработки подключения к интернету.'
+      button: Проверить
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ข้อผิดพลาด
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: กระตุ้นข้อผิดพลาดที่ฝั่งหน้าเพื่อตรวจสอบการจัดการการทดสอบ.
+      button: กระตุ้นข้อผิดพลาด
+    frontend_throw:
+      description: 'กระตุ้นข้อยกเว้นที่ไม่ถูกจับในฝั่งหน้าใน JavaScript.'
+      button: โยนข้อผิดพลาด
+    internet_probe:
+      description: กระตุ้นคำขอภายนอกเพื่อตรวจสอบการเชื่อมต่ออินเทอร์เน็ต.
+      button: ตรวจสอบ
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Hatalar
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Hata yakalama testleri için bir ön uç hatası tetikle.'
+      button: 'Hata tetikle'
+    frontend_throw:
+      description: "JavaScript'te yakalanmamış bir ön uç istisnası tetikle."
+      button: 'Hata fırlat'
+    internet_probe:
+      description: 'İnternet bağlantısı yönetimini test etmek için harici bir isteği tetikle.'
+      button: Probe
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: غلطیاں
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'کیچ ہینڈلنگ ٹیسٹ کے لئے فرنٹ اینڈ کی غلطی کو متحرک کریں۔'
+      button: 'غلطی متحرک کریں'
+    frontend_throw:
+      description: 'جاوا اسکرپٹ میں ایک ان پکڑی گئی فرنٹ اینڈ استثنا کو متحرک کریں۔'
+      button: 'غلطی پھینکیں'
+    internet_probe:
+      description: 'انٹرنیٹ کنیکٹیویٹی ہینڈلنگ کو ٹیسٹ کرنے کے لئے ایک خارجی درخواست متحرک کریں۔'
+      button: پروب
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Lỗi
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 'Kích hoạt lỗi frontend để kiểm tra xử lý lỗi.'
+      button: 'Kích hoạt lỗi'
+    frontend_throw:
+      description: 'Kích hoạt một ngoại lệ frontend không được bắt trong JavaScript.'
+      button: 'Ném lỗi'
+    internet_probe:
+      description: 'Kích hoạt một yêu cầu bên ngoài để kiểm tra xử lý kết nối internet.'
+      button: 'Kiểm tra'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 错误
+  page_icon: 'ph:bold/warning-circle'
+  section:
+    trigger:
+      description: 触发前端错误以进行捕获处理测试。
+      button: 触发错误
+    frontend_throw:
+      description: 在JavaScript中触发未捕获的前端异常。
+      button: 抛出错误
+    internet_probe:
+      description: 触发外部请求以测试互联网连接处理。
+      button: 探测

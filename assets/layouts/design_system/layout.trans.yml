@@ -1,0 +1,230 @@
+en:
+  ~extends: '@front.layouts.private.layout'
+
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: App components
+        generic:
+          title: Generic components
+
+ar:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'مكونات التطبيق'
+        generic:
+          title: 'مكونات عامة'
+
+bn:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'অ্যাপ উপাদান'
+        generic:
+          title: 'সাধারণ উপাদান'
+
+de:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: App-Komponenten
+        generic:
+          title: 'Generische Komponenten'
+
+es:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'Componentes de la aplicación'
+        generic:
+          title: 'Componentes genéricos'
+
+fa:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'اجزای اپلیکیشن'
+        generic:
+          title: 'اجزای عمومی'
+
+fi:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: Sovelluskomponentit
+        generic:
+          title: 'Yleiset komponentit'
+
+fr:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: "Composants d'application"
+        generic:
+          title: 'Composants génériques'
+
+he:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'רכיבי אפליקציה'
+        generic:
+          title: 'רכיבים גנריים'
+
+hi:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'ऐप घटक'
+        generic:
+          title: 'सामान्य घटक'
+
+id:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'Komponen Aplikasi'
+        generic:
+          title: 'Komponen Umum'
+
+it:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: "Componenti dell'app"
+        generic:
+          title: 'Componenti generici'
+
+ja:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: アプリコンポーネント
+        generic:
+          title: 汎用コンポーネント
+
+ko:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: '앱 구성요소'
+        generic:
+          title: '일반 구성요소'
+
+nl:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: App-componenten
+        generic:
+          title: 'Generieke componenten'
+
+pl:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'Komponenty aplikacji'
+        generic:
+          title: 'Komponenty ogólne'
+
+pt_BR:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'Componentes do app'
+        generic:
+          title: 'Componentes genéricos'
+
+ru:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'Компоненты приложения'
+        generic:
+          title: 'Общие компоненты'
+
+th:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: ส่วนประกอบแอป
+        generic:
+          title: ส่วนประกอบทั่วไป
+
+tr:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'Uygulama bileşenleri'
+        generic:
+          title: 'Genel bileşenler'
+
+ur:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'ایپ کے اجزاء'
+        generic:
+          title: 'جنرک اجزاء'
+
+vi:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 'Thành phần ứng dụng'
+        generic:
+          title: 'Thành phần chung'
+
+zh:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        app:
+          title: 应用组件
+        generic:
+          title: 通用组件

@@ -1,0 +1,325 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Files
+  page_icon: ph:bold/folder-open
+
+  intro: "A file explorer the width of a page. It knows nothing of where the files come from: it asks for a folder's content and takes file entities back — the same loader a tree takes — so a disk, an index, an archive or an api all read alike."
+
+  root: Files
+
+  section:
+    vue:
+      title: The explorer
+      description: "Folders on the side, the folder's content as a list sorted by any column or as a grid; back, forward and up; a filter; selection with the mouse — ctrl, shift — and the keyboard — arrows, Enter, Backspace, ctrl+A, Escape; more asked for when a folder holds more than a page. Double-click walks into a folder and hands a file to the page. The view and the order are remembered."
+    twig:
+      title: Drawn by the server
+      description: "One folder, as a list or a grid, each item a link: a folder to the same page opened on it — here through ?folder= — a file to wherever the page sends it."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ملفات
+  page_icon: 'ph:bold/folder-open'
+  intro: 'مستكشف ملفات بعرض الصفحة. لا يعرف من أين تأتي الملفات: يطلب محتوى مجلد ويأخذ كائنات الملفات مرة أخرى — نفس ما يأخذه الشجرة — لذا يقرا القرص، الفهرس، الأرشيف أو واجهة برمجة التطبيقات بشكل مماثل.'
+  root: ملفات
+  section:
+    vue:
+      title: المستكشف
+      description: 'مجلدات على الجانب، محتوى المجلد كقائمة مرتبة حسب أي عمود أو كشبكة؛ العودة، الأمام، والأعلى؛ فلتر؛ اختيار باستخدام الماوس — ctrl، shift — ولوحة المفاتيح — الأسهم، Enter، Backspace، ctrl+A، Escape؛ المزيد يطلب عندما يحتوي المجلد على أكثر من صفحة. النقر المزدوج يدخل إلى مجلد ويسلم ملفًا إلى الصفحة. يتم تذكر العرض والترتيب.'
+    twig:
+      title: 'مرسوم بواسطة الخادم'
+      description: 'مجلد واحد، كقائمة أو شبكة، كل عنصر رابط: مجلد إلى نفس الصفحة المفتوحة عليه — هنا من خلال ?folder= — ملف إلى حيث ترسل الصفحة.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ফাইল
+  page_icon: 'ph:bold/folder-open'
+  intro: 'এটি একটি পৃষ্ঠার প্রস্থের ফাইল এক্সপ্লোরার। এটি জানে না ফাইলগুলি কোথা থেকে এসেছে: এটি একটি ফোল্ডারের বিষয়বস্তু জানতে চায় এবং ফাইল সত্তাগুলি ফিরিয়ে আনে — একটি গাছের মতো একই লোডার — তাই একটি ডিস্ক, একটি সূচী, একটি আর্কাইভ বা একটি এপিআই সকলেই একরকম পড়ে।'
+  root: ফাইল
+  section:
+    vue:
+      title: এক্সপ্লোরার
+      description: 'পাশে ফোল্ডার, ফোল্ডারের বিষয়বস্তু একটি তালিকা হিসেবে যেকোনো কলাম অনুসারে সাজানো অথবা একটি গ্রিড হিসেবে; পিছনে, সামনে এবং উপরে; একটি ফিল্টার; মাউস ব্যবহার করে নির্বাচন — ctrl, shift — এবং কীবোর্ড ব্যবহার করে — তীর, এন্টার, ব্যাকস্পেস, ctrl+A, এস্কেপ; যখন একটি ফোল্ডারে একটি পৃষ্ঠার চেয়ে বেশি থাকে তখন আরও কিছু চাওয়া হয়। ডাবল-ক্লিক একটি ফোল্ডারে প্রবেশ করে এবং পৃষ্ঠাকে একটি ফাইল দেয়। দৃশ্য এবং অর্ডার মনে রাখা হয়।'
+    twig:
+      title: 'সার্ভার দ্বারা অঙ্কিত'
+      description: 'একটি ফোল্ডার, একটি তালিকা বা একটি গ্রিড হিসেবে, প্রতিটি আইটেম একটি লিঙ্ক: একটি ফোল্ডার একই পৃষ্ঠায় খোলা — এখানে ?folder= মাধ্যমে — একটি ফাইল যেখানে পৃষ্ঠা এটি পাঠায়।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dateien
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Ein Dateiexplorer in der Breite einer Seite. Er weiß nichts darüber, woher die Dateien kommen: Er fragt nach dem Inhalt eines Ordners und nimmt Dateiobjekte zurück - genau wie ein Baum - sodass eine Festplatte, ein Index, ein Archiv oder eine API alle gleich gelesen werden.'
+  root: Dateien
+  section:
+    vue:
+      title: 'Der Explorer'
+      description: 'Ordner an der Seite, der Inhalt des Ordners als Liste, sortiert nach einer beliebigen Spalte oder als Raster; zurück, vorwärts und nach oben; ein Filter; Auswahl mit der Maus — ctrl, shift — und der Tastatur — Pfeile, Enter, Rücktaste, ctrl+A, Escape; mehr wird angefordert, wenn ein Ordner mehr als eine Seite enthält. Doppelklick öffnet einen Ordner und übergibt eine Datei an die Seite. Die Ansicht und die Reihenfolge werden gespeichert.'
+    twig:
+      title: 'Vom Server erstellt'
+      description: 'Ein Ordner, als Liste oder Raster, jedes Element ein Link: ein Ordner zur gleichen Seite, die darauf geöffnet wird — hier über ?folder= — eine Datei wohin auch immer die Seite sie sendet.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Archivos
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Un explorador de archivos del ancho de una página. No sabe de dónde vienen los archivos: solicita el contenido de una carpeta y recibe entidades de archivo — el mismo cargador que utiliza un árbol — por lo que un disco, un índice, un archivo o una API se leen de la misma manera.'
+  root: Archivos
+  section:
+    vue:
+      title: 'El explorador'
+      description: 'Carpetas a un lado, el contenido de la carpeta como una lista ordenada por cualquier columna o como una cuadrícula; atrás, adelante y arriba; un filtro; selección con el ratón — ctrl, shift — y el teclado — flechas, Enter, Retroceso, ctrl+A, Escape; se pide más cuando una carpeta tiene más de una página. Doble clic entra en una carpeta y entrega un archivo a la página. La vista y el orden se recuerdan.'
+    twig:
+      title: 'Dibujado por el servidor'
+      description: 'Una carpeta, como una lista o una cuadrícula, cada elemento un enlace: una carpeta a la misma página abierta en ella — aquí a través de ?folder= — un archivo a donde la página lo envíe.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فایل‌ها
+  page_icon: 'ph:bold/folder-open'
+  intro: 'یک کاوشگر فایل به عرض یک صفحه. این برنامه هیچ چیزی از منبع فایل‌ها نمی‌داند: فقط محتوای یک پوشه را درخواست می‌کند و موجودیت‌های فایل را برمی‌گرداند — مشابه بارگذاری که یک درخت انجام می‌دهد — بنابراین یک دیسک، یک نمایه، یک آرشیو یا یک API همه به یک شکل خوانده می‌شوند.'
+  root: فایل‌ها
+  section:
+    vue:
+      title: کاوشگر
+      description: 'پوشه‌ها در کنار، محتوای پوشه به صورت یک لیست مرتب شده بر اساس هر ستونی یا به صورت یک شبکه؛ عقب، جلو و بالا؛ یک فیلتر؛ انتخاب با ماوس — ctrl، shift — و صفحه‌کلید — فلش‌ها، Enter، Backspace، ctrl+A، Escape؛ بیشتر درخواست می‌شود وقتی که یک پوشه بیشتر از یک صفحه محتوا داشته باشد. دوبار کلیک کردن وارد یک پوشه می‌شود و یک فایل را به صفحه می‌دهد. نمایه و ترتیب به یاد سپرده می‌شوند.'
+    twig:
+      title: 'توسط سرور ترسیم شده'
+      description: 'یک پوشه، به صورت یک لیست یا یک شبکه، هر مورد یک لینک: یک پوشه به همان صفحه‌ای که در آن باز شده — اینجا از طریق ?folder= — یک فایل به هر جا که صفحه آن را ارسال کند.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tiedostot
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Sivun levyinen tiedostohallinta. Se ei tiedä, mistä tiedostot tulevat: se kysyy kansion sisältöä ja ottaa tiedostoyksiköt takaisin — sama lataaja, jonka puu ottaa — joten levy, indeksi, arkisto tai API luetaan kaikki samalla tavalla.'
+  root: Tiedostot
+  section:
+    vue:
+      title: Tutkija
+      description: 'Kansiot sivulla, kansion sisältö listana, joka on lajiteltu minkä tahansa sarakkeen mukaan tai ruudukko; taakse, eteen ja ylös; suodatin; valinta hiirellä — ctrl, shift — ja näppäimistöllä — nuoli, Enter, Backspace, ctrl+A, Escape; enemmän kysytään, kun kansio sisältää enemmän kuin yhden sivun. Kaksoisklikkaus avaa kansion ja tuo tiedoston sivulle. Näkymä ja järjestys muistetaan.'
+    twig:
+      title: 'Palvelimen piirtämä'
+      description: 'Yksi kansio, listana tai ruudukossa, jokainen kohde linkki: kansio samaan sivuun avattuna — täällä ?folder= kautta — tiedosto minne tahansa sivu sen lähettää.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fichiers
+  page_icon: 'ph:bold/dossier-ouvert'
+  intro: "Un explorateur de fichiers de la largeur d'une page. Il ne sait rien de l'origine des fichiers : il demande le contenu d'un dossier et récupère des entités de fichiers — le même chargeur qu'un arbre utilise — donc un disque, un index, une archive ou une API se lisent tous de la même manière."
+  root: Fichiers
+  section:
+    vue:
+      title: "L'explorateur"
+      description: "Dossiers sur le côté, le contenu du dossier sous forme de liste triée par n'importe quelle colonne ou sous forme de grille ; retour, avant et haut ; un filtre ; sélection à la souris — ctrl, shift — et au clavier — flèches, Entrée, Retour arrière, ctrl+A, Échap ; plus demandé lorsque un dossier contient plus d'une page. Un double-clic ouvre un dossier et donne un fichier à la page. La vue et l'ordre sont mémorisés."
+    twig:
+      title: 'Dessiné par le serveur'
+      description: "Un dossier, sous forme de liste ou de grille, chaque élément est un lien : un dossier vers la même page ouverte sur celui-ci — ici via ?folder= — un fichier vers où la page l'envoie."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: קבצים
+  page_icon: 'ph:bold/folder-open'
+  intro: 'חוקר קבצים ברוחב של עמוד. הוא לא יודע מאיפה מגיעים הקבצים: הוא מבקש את תוכן התיקייה ומחזיר ישויות קובץ — אותו לودر כמו עץ — כך שדיסק, אינדקס, ארכיון או API קוראים באותו אופן.'
+  root: קבצים
+  section:
+    vue:
+      title: החוקר
+      description: 'תיקיות בצד, תוכן התיקייה כרשימה מסודרת לפי כל עמודה או כרשת; חזור, קדימה ועלה; מסנן; בחירה עם העכבר — ctrl, shift — ועם המקלדת — חצים, Enter, Backspace, ctrl+A, Escape; יותר מתבקש כשיש בתיקייה יותר מעמוד אחד. לחיצה כפולה נכנסת לתיקייה ומעבירה קובץ לעמוד. התצוגה והסדר נזכרים.'
+    twig:
+      title: 'נוצר על ידי השרת'
+      description: 'תיקייה אחת, כרשימה או כרשת, כל פריט קישור: תיקייה לאותו עמוד שנפתח עליו — כאן דרך ?folder= — קובץ לכל מקום שהעמוד שולח אותו.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: फाइलें
+  page_icon: 'ph:bold/folder-open'
+  intro: 'एक फाइल एक्सप्लोरर जो एक पृष्ठ की चौड़ाई का होता है। यह नहीं जानता कि फाइलें कहां से आती हैं: यह एक फ़ोल्डर की सामग्री के लिए पूछता है और फ़ाइल एंटिटीज़ वापस लेता है - वही लोडर जो एक पेड़ लेता है - इसलिए एक डिस्क, एक अनुक्रमणिका, एक संग्रह या एक एपीआई सभी एक समान पढ़ते हैं।'
+  root: फाइलें
+  section:
+    vue:
+      title: एक्सप्लोरर
+      description: 'साइड में फ़ोल्डर्स, फ़ोल्डर की सामग्री किसी भी कॉलम द्वारा क्रमबद्ध सूची या ग्रिड के रूप में; पीछे, आगे और ऊपर; एक फ़िल्टर; माउस के साथ चयन - ctrl, shift - और कीबोर्ड - तीर, Enter, Backspace, ctrl+A, Escape; जब एक फ़ोल्डर में एक पृष्ठ से अधिक हो तो और अधिक की मांग की जाती है। डबल-क्लिक एक फ़ोल्डर में जाता है और फ़ाइल को पृष्ठ पर सौंपता है। दृश्य और क्रम याद रखा जाता है।'
+    twig:
+      title: 'सर्वर द्वारा खींचा गया'
+      description: 'एक फ़ोल्डर, एक सूची या ग्रिड के रूप में, प्रत्येक आइटम एक लिंक: एक फ़ोल्डर उसी पृष्ठ पर खोला गया - यहां ?folder= के माध्यम से - एक फ़ाइल जहां भी पृष्ठ इसे भेजता है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Berkas
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Sebuah penjelajah berkas selebar halaman. Ia tidak tahu dari mana berkas-berkas itu berasal: ia meminta isi dari sebuah folder dan mengambil entitas berkas kembali — sama seperti pemuat yang digunakan pohon — sehingga sebuah disk, indeks, arsip, atau api semuanya dibaca dengan cara yang sama.'
+  root: Berkas
+  section:
+    vue:
+      title: Penjelajah
+      description: 'Folder di samping, isi folder sebagai daftar yang diurutkan berdasarkan kolom manapun atau sebagai grid; kembali, maju, dan naik; sebuah filter; pemilihan dengan mouse — ctrl, shift — dan keyboard — panah, Enter, Backspace, ctrl+A, Escape; lebih banyak diminta ketika sebuah folder memuat lebih dari satu halaman. Klik dua kali masuk ke dalam sebuah folder dan memberikan berkas ke halaman. Tampilan dan urutan diingat.'
+    twig:
+      title: 'Digambar oleh server'
+      description: 'Sebuah folder, sebagai daftar atau grid, setiap item adalah tautan: sebuah folder ke halaman yang sama yang dibuka di dalamnya — di sini melalui ?folder= — sebuah berkas ke mana pun halaman mengirimnya.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: File
+  page_icon: 'ph:bold/folder-open'
+  intro: "Un esploratore di file largo come una pagina. Non sa da dove provengano i file: chiede il contenuto di una cartella e restituisce le entità file — lo stesso caricatore di un albero — quindi un disco, un indice, un archivio o un'api vengono letti allo stesso modo."
+  root: File
+  section:
+    vue:
+      title: "L'esploratore"
+      description: "Cartelle a lato, il contenuto della cartella come un elenco ordinato per qualsiasi colonna o come una griglia; indietro, avanti e su; un filtro; selezione con il mouse — ctrl, shift — e la tastiera — frecce, Invio, Backspace, ctrl+A, Escape; ulteriori richieste quando una cartella contiene più di una pagina. Un doppio clic apre una cartella e consegna un file alla pagina. La visualizzazione e l'ordine vengono ricordati."
+    twig:
+      title: 'Disegnato dal server'
+      description: 'Una cartella, come un elenco o una griglia, ogni elemento è un link: una cartella alla stessa pagina aperta su di essa — qui tramite ?folder= — un file ovunque la pagina lo invii.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ファイル
+  page_icon: 'ph:bold/folder-open'
+  intro: 'ページ幅のファイルエクスプローラーです。ファイルの出所については何も知りません：フォルダーの内容を要求し、ファイルエンティティを取得します — ツリーが受け取るのと同じローダーです — したがって、ディスク、インデックス、アーカイブ、またはAPIはすべて同様に読み取ります。'
+  root: ファイル
+  section:
+    vue:
+      title: エクスプローラー
+      description: 'サイドにフォルダー、フォルダーの内容は任意の列でソートされたリストまたはグリッドとして表示されます；戻る、進む、上へ；フィルター；マウスによる選択 — ctrl、shift — とキーボード — 矢印、Enter、Backspace、ctrl+A、Escape；フォルダーがページを超える場合にはさらに要求されます。ダブルクリックでフォルダーに入り、ファイルをページに渡します。ビューと順序は記憶されます。'
+    twig:
+      title: サーバーによって描画された
+      description: '1つのフォルダーがリストまたはグリッドとして表示され、各アイテムはリンクです：同じページに開かれたフォルダー — ここでは ?folder= を通じて — ファイルはページが送信する場所です。'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 파일
+  page_icon: 'ph:bold/folder-open'
+  intro: '페이지 너비의 파일 탐색기입니다. 파일이 어디서 오는지 전혀 알지 못합니다: 폴더의 내용을 요청하고 파일 엔티티를 가져옵니다 — 트리가 가져오는 것과 같은 로더입니다 — 따라서 디스크, 인덱스, 아카이브 또는 API 모두 동일하게 읽혀집니다.'
+  root: 파일
+  section:
+    vue:
+      title: 탐색기
+      description: '측면에 폴더가 있고, 폴더의 내용은 임의의 열로 정렬된 목록 또는 그리드로 표시됩니다; 뒤로, 앞으로, 위로 이동; 필터; 마우스와 함께 선택 — ctrl, shift — 및 키보드 — 화살표, Enter, Backspace, ctrl+A, Escape; 폴더가 한 페이지를 초과할 경우 더 많은 요청이 있을 수 있습니다. 더블 클릭하면 폴더로 들어가고 페이지에 파일을 전달합니다. 보기와 순서는 기억됩니다.'
+    twig:
+      title: '서버에서 그려진'
+      description: '하나의 폴더가 목록 또는 그리드 형태로 표시되며, 각 항목은 링크입니다: 동일한 페이지가 열리는 폴더 — 여기서는 ?folder= 를 통해 — 파일은 페이지가 보내는 곳으로 이동합니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bestanden
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Een bestandsverkenner die de breedte van een pagina heeft. Hij weet niets van waar de bestanden vandaan komen: hij vraagt om de inhoud van een map en haalt bestandsentiteiten terug — dezelfde loader als een boom gebruikt — zodat een schijf, een index, een archief of een API allemaal hetzelfde lezen.'
+  root: Bestanden
+  section:
+    vue:
+      title: 'De verkenner'
+      description: 'Mappen aan de zijkant, de inhoud van de map als een lijst gesorteerd op elke kolom of als een raster; terug, vooruit en omhoog; een filter; selectie met de muis — ctrl, shift — en het toetsenbord — pijlen, Enter, Backspace, ctrl+A, Escape; meer gevraagd wanneer een map meer dan een pagina bevat. Dubbelklikken opent een map en geeft een bestand aan de pagina. De weergave en de volgorde worden onthouden.'
+    twig:
+      title: 'Getekend door de server'
+      description: 'Eén map, als een lijst of een raster, elk item een link: een map naar dezelfde pagina die erop geopend is — hier via ?folder= — een bestand naar waar de pagina het naartoe stuurt.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Pliki
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Eksplorator plików o szerokości strony. Nie wie, skąd pochodzą pliki: prosi o zawartość folderu i pobiera jednostki plików — tak samo, jak drzewo — więc dysk, indeks, archiwum czy API są traktowane jednakowo.'
+  root: Pliki
+  section:
+    vue:
+      title: Eksplorator
+      description: 'Foldery po bokach, zawartość folderu jako lista posortowana według dowolnej kolumny lub w formie siatki; wstecz, naprzód i w górę; filtr; zaznaczanie myszą — ctrl, shift — i klawiaturą — strzałki, Enter, Backspace, ctrl+A, Escape; więcej opcji, gdy folder zawiera więcej niż jedną stronę. Podwójne kliknięcie wchodzi do folderu i przekazuje plik na stronę. Widok i kolejność są zapamiętywane.'
+    twig:
+      title: 'Rysowane przez serwer'
+      description: 'Jeden folder, w formie listy lub siatki, każdy element to link: folder do tej samej strony otwartej na nim — tutaj przez ?folder= — plik do miejsca, do którego strona go wyśle.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Arquivos
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Um explorador de arquivos com a largura de uma página. Ele não sabe de onde os arquivos vêm: solicita o conteúdo de uma pasta e retorna entidades de arquivos — o mesmo carregador que uma árvore utiliza — então um disco, um índice, um arquivo ou uma API são lidos da mesma forma.'
+  root: Arquivos
+  section:
+    vue:
+      title: 'O explorador'
+      description: 'Pastas ao lado, o conteúdo da pasta como uma lista ordenada por qualquer coluna ou como uma grade; voltar, avançar e subir; um filtro; seleção com o mouse — ctrl, shift — e o teclado — setas, Enter, Backspace, ctrl+A, Escape; mais solicitado quando uma pasta contém mais de uma página. Um clique duplo entra em uma pasta e traz um arquivo para a página. A visualização e a ordem são lembradas.'
+    twig:
+      title: 'Desenhado pelo servidor'
+      description: 'Uma pasta, como uma lista ou uma grade, cada item é um link: uma pasta para a mesma página aberta nela — aqui através de ?folder= — um arquivo para onde quer que a página o envie.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Файлы
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Файловый менеджер на ширину страницы. Он не знает, откуда берутся файлы: он запрашивает содержимое папки и возвращает сущности файлов — так же, как загрузчик дерева — так что диск, индекс, архив или API читаются одинаково.'
+  root: Файлы
+  section:
+    vue:
+      title: Обозреватель
+      description: 'Папки сбоку, содержимое папки в виде списка, отсортированного по любому столбцу, или в виде сетки; назад, вперед и вверх; фильтр; выделение мышью — ctrl, shift — и клавиатурой — стрелки, Enter, Backspace, ctrl+A, Escape; больше запрашивается, когда папка содержит больше, чем одна страница. Двойной клик открывает папку и передает файл на страницу. Вид и порядок запоминаются.'
+    twig:
+      title: 'Сгенерировано сервером'
+      description: 'Одна папка, в виде списка или сетки, каждый элемент — ссылка: папка на ту же страницу, открывающуюся на ней — здесь через ?folder= — файл куда угодно, куда отправляет страница.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ไฟล์
+  page_icon: 'ph:bold/folder-open'
+  intro: 'โปรแกรมจัดการไฟล์ที่มีความกว้างของหน้า มันไม่รู้ว่ารูปแบบไฟล์มาจากไหน: มันขอเนื้อหาของโฟลเดอร์และนำเอนทิตีไฟล์กลับ — โหลดเดิมที่ต้นไม้ใช้ — ดังนั้นดิสก์, ดัชนี, สถิติ หรือ API ทั้งหมดจึงอ่านได้เหมือนกัน'
+  root: ไฟล์
+  section:
+    vue:
+      title: โปรแกรมสำรวจ
+      description: 'โฟลเดอร์อยู่ข้างๆ, เนื้อหาของโฟลเดอร์เรียงเป็นรายการตามคอลัมน์ใดๆ หรือในรูปแบบกริด; ถอยหลัง, ข้างหน้าและขึ้น; ตัวกรอง; การเลือกด้วยเมาส์ — ctrl, shift — และแป้นพิมพ์ — ลูกศร, Enter, Backspace, ctrl+A, Escape; ขอเพิ่มเติมเมื่อโฟลเดอร์มีมากกว่าหนึ่งหน้า การดับเบิลคลิกเข้าไปในโฟลเดอร์และส่งไฟล์ไปยังหน้า การมองเห็นและลำดับจะถูกจดจำ'
+    twig:
+      title: วาดโดยเซิร์ฟเวอร์
+      description: 'โฟลเดอร์หนึ่งโฟลเดอร์, ในรูปแบบรายการหรือกริด, แต่ละรายการเป็นลิงค์: โฟลเดอร์ไปยังหน้าเดียวกันที่เปิดอยู่ — ที่นี่ผ่าน ?folder= — ไฟล์ไปยังที่ที่หน้าส่งมันไป.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dosyalar
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Bir sayfa genişliğinde dosya gezgini. Dosyaların nereden geldiği hakkında hiçbir şey bilmez: bir klasörün içeriğini ister ve dosya varlıklarını geri alır — bir ağacın aldığı gibi — bu nedenle bir disk, bir indeks, bir arşiv veya bir API hepsi aynı şekilde okunur.'
+  root: Dosyalar
+  section:
+    vue:
+      title: Gezgin
+      description: 'Yanlarda klasörler, klasörün içeriği herhangi bir sütuna göre sıralanmış bir liste veya bir ızgara olarak; geri, ileri ve yukarı; bir filtre; fare ile seçim — ctrl, shift — ve klavye ile — oklar, Enter, Backspace, ctrl+A, Escape; bir klasör bir sayfadan fazla içerik barındırdığında daha fazlası istenir. Çift tıklama bir klasöre girer ve sayfaya bir dosya verir. Görünüm ve sıra hatırlanır.'
+    twig:
+      title: 'Sunucu tarafından çizildi'
+      description: 'Bir klasör, liste veya ızgara olarak, her öğe bir bağlantı: üzerine açılan aynı sayfaya bir klasör — burada ?folder= aracılığıyla — bir dosya, sayfanın gönderdiği yere.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فائلیں
+  page_icon: 'ph:bold/folder-open'
+  intro: 'ایک فائل ایکسپلورر جو صفحے کی چوڑائی میں ہے۔ یہ نہیں جانتا کہ فائلیں کہاں سے آتی ہیں: یہ کسی فولڈر کے مواد کے لیے پوچھتا ہے اور فائل کی اشیاء واپس لے آتا ہے — وہی لوڈر جو ایک درخت استعمال کرتا ہے — لہذا ایک ڈسک، ایک انڈیکس، ایک آرکائیو یا ایک api سب ایک ہی طرح پڑھتے ہیں۔'
+  root: فائلیں
+  section:
+    vue:
+      title: ایکسپلورر
+      description: 'سائیڈ پر فولڈرز، فولڈر کا مواد کسی بھی کالم کے لحاظ سے ترتیب دی گئی فہرست یا گرڈ کی شکل میں؛ پیچھے، آگے اور اوپر؛ ایک فلٹر؛ ماؤس کے ساتھ انتخاب — ctrl، shift — اور کی بورڈ کے ساتھ — تیر، Enter، Backspace، ctrl+A، Escape؛ جب ایک فولڈر میں ایک صفحے سے زیادہ ہو تو مزید مطالبہ کیا جاتا ہے۔ ڈبل کلک ایک فولڈر میں داخل ہوتا ہے اور ایک فائل کو صفحے پر منتقل کرتا ہے۔ منظر اور ترتیب یاد رکھی جاتی ہے۔'
+    twig:
+      title: 'سرور کی طرف سے بنایا گیا'
+      description: 'ایک فولڈر، فہرست یا گرڈ کی شکل میں، ہر آئٹم ایک لنک: ایک فولڈر اسی صفحے پر کھلتا ہے — یہاں ?folder= کے ذریعے — ایک فائل جہاں بھی صفحہ بھیجتا ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tệp
+  page_icon: 'ph:bold/folder-open'
+  intro: 'Một trình duyệt tệp rộng bằng một trang. Nó không biết các tệp đến từ đâu: nó yêu cầu nội dung của một thư mục và lấy lại các thực thể tệp — giống như một cây — vì vậy một đĩa, một chỉ mục, một kho lưu trữ hoặc một api đều được đọc giống nhau.'
+  root: Tệp
+  section:
+    vue:
+      title: 'Trình duyệt'
+      description: 'Thư mục ở bên, nội dung của thư mục dưới dạng danh sách sắp xếp theo bất kỳ cột nào hoặc dưới dạng lưới; quay lại, tiến về phía trước và lên trên; một bộ lọc; chọn bằng chuột — ctrl, shift — và bàn phím — phím mũi tên, Enter, Backspace, ctrl+A, Escape; yêu cầu thêm khi một thư mục chứa nhiều hơn một trang. Nhấp đúp vào thư mục sẽ đưa vào thư mục và chuyển một tệp vào trang. Cách nhìn và thứ tự được ghi nhớ.'
+    twig:
+      title: 'Được vẽ bởi máy chủ'
+      description: 'Một thư mục, dưới dạng danh sách hoặc lưới, mỗi mục là một liên kết: một thư mục tới cùng một trang đã mở trên nó — ở đây qua ?folder= — một tệp tới bất kỳ đâu mà trang gửi nó.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 文件
+  page_icon: 'ph:bold/folder-open'
+  intro: '一个宽度为页面的文件浏览器。它不知道文件来自哪里：它请求文件夹的内容并返回文件实体——与树所获取的相同，因此磁盘、索引、档案或 API 都以相同方式读取。'
+  root: 文件
+  section:
+    vue:
+      title: 浏览器
+      description: 侧边的文件夹，文件夹内容作为按任意列排序的列表或网格；返回、前进和向上；过滤器；使用鼠标选择——ctrl、shift——和键盘——箭头、Enter、Backspace、ctrl+A、Escape；当文件夹包含超过一页的内容时会要求更多。双击进入文件夹并将文件交给页面。视图和顺序会被记住。
+    twig:
+      title: 由服务器绘制
+      description: '一个文件夹，作为列表或网格，每个项目都是一个链接：一个文件夹链接到同一页面——通过?folder=——一个文件链接到页面发送的任何地方。'

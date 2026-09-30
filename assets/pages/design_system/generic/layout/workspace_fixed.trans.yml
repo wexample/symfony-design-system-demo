@@ -1,0 +1,371 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Fixed width
+  page_icon: ph:bold/arrows-in-line-horizontal
+
+  intro: "The same three regions, but the one you are reading is given a width instead of taking one — and the width nobody wants goes to a region with nothing in it."
+
+  section:
+    sized:
+      title: A region given its width
+      description: "`zone--narrow` with a size step: the region is that wide and stays that wide, whatever room the window has. It is how a text is kept readable — a column that grows with the screen stops being one."
+    slack:
+      title: What the slack is for
+      description: "The last region holds nothing, and keeps its ground all the same: empty is not absent, and a pane waiting reads as a pane rather than as a hole. It is there to take the width the sized ones refuse."
+      more: "A split hands the leftover to whatever asks for it. With nothing asking, the sized regions would be stretched or pushed to the edges; with this, they keep their width and the page keeps the rest."
+
+  work:
+    size: 32rem
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'عرض ثابت'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'نفس المناطق الثلاث، ولكن المنطقة التي تقرأها لها عرض بدلاً من أن تأخذ واحدًا — والعرض الذي لا يريده أحد يذهب إلى منطقة لا تحتوي على شيء.'
+  section:
+    sized:
+      title: 'منطقة محددة بعرضها'
+      description: '`zone--narrow` بخطوة حجم: المنطقة بهذا العرض وتبقى بهذا العرض، بغض النظر عن المساحة المتاحة في النافذة. هكذا يتم الحفاظ على قابلية قراءة النص — عمود ينمو مع الشاشة يتوقف عن كونه كذلك.'
+    slack:
+      title: 'الغرض من المساحة الفارغة'
+      description: 'تحتوي المنطقة الأخيرة على لا شيء، لكنها تحافظ على مكانها على أي حال: الفارغ ليس غائبًا، وواجهة الانتظار تُقرأ كواجهة بدلاً من أن تكون ثقبًا. إنها موجودة لتأخذ العرض الذي ترفضه المناطق المحددة.'
+      more: 'التقسيم يمنح الفائض لأي شيء يطلبه. مع عدم وجود أي طلب، ستتمدد المناطق المحددة أو تندفع إلى الحواف؛ مع هذا، يحتفظون بعرضهم وتحتفظ الصفحة بالباقي.'
+  work:
+    size: 32rem
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'স্থির প্রস্থ'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'একই তিনটি অঞ্চল, কিন্তু আপনি যে অঞ্চলে আছেন সেটির একটি প্রস্থ নির্ধারণ করা হয়েছে, পরিবর্তে এটি একটি গ্রহণ করছে — এবং যেই প্রস্থ কেউ চায় না তা একটি খালি অঞ্চলে চলে যায়।'
+  section:
+    sized:
+      title: 'একটি অঞ্চলের প্রস্থ নির্ধারণ'
+      description: '`zone--narrow` সাইজের ধাপ সহ: অঞ্চলটি ওই প্রস্থের এবং সেটি ওই প্রস্থে থাকে, জানালার যে কোনো জায়গা থাকা সত্ত্বেও। এটি কীভাবে একটি লেখাকে পাঠযোগ্য রাখা হয় — একটি কলাম যা স্ক্রীনের সাথে বেড়ে যায় সেটি আর একটি কলাম থাকে না।'
+    slack:
+      title: 'ফাঁকার উদ্দেশ্য কি'
+      description: 'শেষ অঞ্চলটি কিছু ধারণ করে না, এবং তবুও সেটি তার স্থান ধরে রাখে: খালি মানে অনুপস্থিত নয়, এবং একটি অপেক্ষমাণ প্যান একটি প্যানের মতো পড়ে, একটি গর্তের মতো নয়। এটি তাদের প্রস্থটি নেয় যা সাইজযুক্তগুলি প্রত্যাখ্যান করে।'
+      more: 'একটি বিভাজন অবশিষ্ট অংশটি যাদের প্রয়োজন তাদের কাছে দেয়। কিছু না চাওয়ার কারণে, সাইজযুক্ত অঞ্চলগুলি প্রসারিত বা প্রান্তে ঠেলানো হত; এর মাধ্যমে, তারা তাদের প্রস্থ বজায় রাখে এবং পৃষ্ঠা বাকি রাখে।'
+  work:
+    size: 32rem
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Feste Breite'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Die gleichen drei Bereiche, aber der, den du liest, hat eine feste Breite, anstatt eine einzunehmen – und die Breite, die niemand möchte, geht in einen Bereich, der nichts enthält.'
+  section:
+    sized:
+      title: 'Ein Bereich mit fester Breite'
+      description: '`zone--narrow` mit einem Größenstep: der Bereich hat diese Breite und bleibt so breit, egal wie viel Platz das Fenster hat. So bleibt der Text lesbar – eine Spalte, die mit dem Bildschirm wächst, hört auf, eine zu sein.'
+    slack:
+      title: 'Wofür der Slack da ist'
+      description: 'Der letzte Bereich enthält nichts und behält dennoch seinen Platz: Leer ist nicht abwesend, und ein wartendes Fenster wird als Fenster und nicht als Loch wahrgenommen. Es ist da, um die Breite zu übernehmen, die die anderen Bereiche ablehnen.'
+      more: 'Eine Teilung gibt den Rest an alles weiter, was danach fragt. Wenn nichts danach fragt, würden die festen Bereiche gestreckt oder an die Ränder gedrängt; so behalten sie ihre Breite und die Seite behält den Rest.'
+  work:
+    size: 32rem
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Ancho fijo'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Las mismas tres regiones, pero la que estás leyendo tiene un ancho específico en lugar de tomar uno, y el ancho que nadie quiere va a una región vacía.'
+  section:
+    sized:
+      title: 'Una región con su ancho'
+      description: '`zone--narrow` con un paso de tamaño: la región tiene ese ancho y se mantiene así, sin importar el espacio que tenga la ventana. Es cómo se mantiene el texto legible: una columna que crece con la pantalla deja de serlo.'
+    slack:
+      title: 'Para qué sirve el espacio sobrante'
+      description: 'La última región no contiene nada, pero mantiene su lugar: vacío no es lo mismo que ausente, y un panel en espera se percibe como un panel en lugar de un agujero. Está ahí para ocupar el ancho que las regiones con tamaño rechazan.'
+      more: 'Una división entrega el sobrante a lo que lo solicite. Sin nada pidiendo, las regiones con tamaño se estirarían o empujarían hacia los bordes; con esto, mantienen su ancho y la página conserva el resto.'
+  work:
+    size: 32rem
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'عرض ثابت'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'سه منطقه مشابه وجود دارد، اما منطقه‌ای که شما در حال خواندن هستید به جای اینکه عرضی بگیرد، عرضی به آن داده شده است — و عرضی که هیچ‌کس نمی‌خواهد به منطقه‌ای با هیچ محتوایی می‌رود.'
+  section:
+    sized:
+      title: 'منطقه‌ای با عرض مشخص'
+      description: '`zone--narrow` با مرحله اندازه‌گیری: این منطقه به همین اندازه است و هرگز تغییر نمی‌کند، هرچقدر هم که فضای پنجره باشد. اینگونه است که متن قابل خواندن باقی می‌ماند — ستونی که با صفحه بزرگ می‌شود دیگر نمی‌تواند یک ستون باشد.'
+    slack:
+      title: 'هدف از فضای خالی چیست'
+      description: 'آخرین منطقه هیچ محتوایی ندارد، اما همچنان فضای خود را حفظ می‌کند: خالی بودن به معنای عدم وجود نیست، و یک پنجره منتظر به عنوان یک پنجره خوانده می‌شود نه به عنوان یک سوراخ. اینجا است تا عرضی را که مناطق با اندازه مشخص نمی‌پذیرند، بگیرد.'
+      more: 'یک تقسیم باقی‌مانده را به هر چیزی که درخواست کند می‌دهد. با عدم درخواست هیچ چیز، مناطق با اندازه مشخص کشیده یا به لبه‌ها فشار داده می‌شوند؛ با این، آنها عرض خود را حفظ می‌کنند و صفحه باقی‌مانده را نگه می‌دارد.'
+  work:
+    size: 32rem
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Kiinteä leveys'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Samat kolme aluetta, mutta tämä, jota luet, saa leveyden sen sijaan, että se ottaisi yhden — ja se leveys, jota kukaan ei halua, menee alueelle, jossa ei ole mitään.'
+  section:
+    sized:
+      title: 'Alue, jolla on oma leveys'
+      description: '`zone--narrow` koon askeleella: alue on niin leveä ja pysyy niin leveänä, riippumatta siitä, kuinka paljon tilaa ikkunalla on. Näin teksti pysyy luettavana — sarake, joka kasvaa näytön mukana, lakkaa olemasta sellainen.'
+    slack:
+      title: 'Mihin ylimääräinen tila on tarkoitettu'
+      description: 'Viimeinen alue ei pidä sisällään mitään, mutta pitää silti asemansa: tyhjää ei ole poissa, ja paneeli, joka odottaa, näyttää paneelilta eikä reiältä. Se on siellä ottamassa leveyden, jota koossa olevat eivät halua.'
+      more: 'Jakautuminen antaa ylimääräisen tilan sille, joka sitä pyytää. Kun ei ole mitään, joka pyytäisi, koossa olevat alueet venyisivät tai työntyisivät reunoille; tämän avulla ne pitävät leveyden ja sivu säilyttää muun.'
+  work:
+    size: 32rem
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Largeur fixe'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: "Les mêmes trois régions, mais celle que vous lisez a une largeur donnée au lieu d'en prendre une — et la largeur que personne ne veut va à une région qui n'a rien dedans."
+  section:
+    sized:
+      title: 'Une région à largeur fixe'
+      description: "`zone--narrow` avec un pas de taille : la région a cette largeur et reste à cette largeur, quelle que soit la place disponible dans la fenêtre. C'est ainsi qu'un texte reste lisible — une colonne qui grandit avec l'écran cesse de l'être."
+    slack:
+      title: 'À quoi sert le vide'
+      description: "La dernière région ne contient rien, mais garde sa place quand même : vide n'est pas absent, et un panneau en attente se lit comme un panneau plutôt que comme un trou. Il est là pour prendre la largeur que les régions à taille fixe refusent."
+      more: 'Une séparation donne le reste à tout ce qui le demande. Sans rien demander, les régions de taille fixe seraient étendues ou poussées vers les bords ; avec cela, elles gardent leur largeur et la page conserve le reste.'
+  work:
+    size: 32rem
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'רוחב קבוע'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'שלוש האזורים הם אותם שלושה, אבל זה שאתה קורא הוא בעל רוחב במקום לקחת אחד — והרוחב שאף אחד לא רוצה הולך לאזור שאין בו כלום.'
+  section:
+    sized:
+      title: 'אזור עם רוחב קבוע'
+      description: '`zone--narrow` עם שלב גודל: האזור ברוחב הזה ונשאר ברוחב הזה, לא משנה כמה מקום יש לחלון. כך טקסט נשאר קריא — עמודה שגדלה עם המסך מפסיקה להיות אחת.'
+    slack:
+      title: 'למה יש את הריווח'
+      description: 'האזור האחרון לא מחזיק כלום, ועדיין שומר על מקומו: ריק אינו נעדר, ופאנל שממתין נקרא פאנל ולא חור. הוא שם כדי לקחת את הרוחב שהאזורים עם הרוחב מסרבים לו.'
+      more: 'חלקה נותנת את השאריות לכל מה שמבקש אותן. כשאין דבר שמבקש, האזורים עם הרוחב היו נמתחים או נדחפים לקצוות; עם זה, הם שומרים על רוחבם והדף שומר על השאר.'
+  work:
+    size: 32rem
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'फिक्स्ड चौड़ाई'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'यही तीन क्षेत्र हैं, लेकिन जिस क्षेत्र को आप पढ़ रहे हैं उसे एक चौड़ाई दी गई है बजाय इसके कि वह खुद एक ले। और जिसे कोई नहीं चाहता, वह एक क्षेत्र को जाता है जिसमें कुछ नहीं है।'
+  section:
+    sized:
+      title: 'एक क्षेत्र को इसकी चौड़ाई दी गई'
+      description: '`zone--narrow` एक आकार कदम के साथ: क्षेत्र इतनी चौड़ी है और इतनी चौड़ी रहती है, चाहे खिड़की में कितना भी स्थान हो। यह इस तरह से है कि एक पाठ पढ़ने योग्य बना रहता है - एक कॉलम जो स्क्रीन के साथ बढ़ता है, वह एक नहीं रह जाता।'
+    slack:
+      title: 'स्लैक का क्या काम है'
+      description: 'अंतिम क्षेत्र में कुछ नहीं है, और फिर भी यह अपनी जगह बनाए रखता है: खाली होना अनुपस्थित नहीं है, और एक पैन जो इंतज़ार कर रहा है, वह एक पैन के रूप में दिखता है न कि एक छिद्र के रूप में। यह उस चौड़ाई को लेने के लिए है जिसे आकार वाले अस्वीकार करते हैं।'
+      more: 'एक विभाजन बचा हुआ हिस्सा उस किसी को देता है जो इसके लिए पूछता है। जब कुछ नहीं मांगता, तो आकार वाले क्षेत्र खींचे या किनारों तक धकेले जाते; इसके साथ, वे अपनी चौड़ाई बनाए रखते हैं और पृष्ठ बाकी रखता है।'
+  work:
+    size: 32rem
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Lebar tetap'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Tiga wilayah yang sama, tetapi yang kamu baca diberikan lebar daripada mengambil satu — dan lebar yang tidak diinginkan pergi ke wilayah yang tidak ada isinya.'
+  section:
+    sized:
+      title: 'Sebuah wilayah yang diberikan lebar'
+      description: '`zone--narrow` dengan langkah ukuran: wilayah ini selebar itu dan tetap selebar itu, apapun ruang yang dimiliki jendela. Ini adalah cara agar teks tetap dapat dibaca — kolom yang tumbuh dengan layar berhenti menjadi satu.'
+    slack:
+      title: 'Untuk apa slack itu'
+      description: 'Wilayah terakhir tidak memuat apa-apa, dan tetap mempertahankan posisinya: kosong bukan berarti tidak ada, dan panel yang menunggu terbaca sebagai panel daripada sebagai lubang. Ini ada untuk mengambil lebar yang ditolak oleh yang berukuran.'
+      more: 'Sebuah pemisahan menyerahkan sisa kepada apapun yang memintanya. Dengan tidak ada yang meminta, wilayah yang berukuran akan diregangkan atau didorong ke tepi; dengan ini, mereka tetap mempertahankan lebar mereka dan halaman menyimpan sisanya.'
+  work:
+    size: 32rem
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Larghezza fissa'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: "Le stesse tre aree, ma quella che stai leggendo ha una larghezza definita invece di adattarsi — e la larghezza che nessuno vuole va a un'area vuota."
+  section:
+    sized:
+      title: "Un'area con larghezza definita"
+      description: "`zone--narrow` con un passo di dimensione: l'area è così larga e rimane così larga, qualunque sia lo spazio disponibile nella finestra. È così che un testo rimane leggibile — una colonna che cresce con lo schermo smette di essere tale."
+    slack:
+      title: 'A cosa serve lo slack'
+      description: "L'ultima area non contiene nulla, e mantiene comunque la sua posizione: vuoto non è assente, e un pannello in attesa appare come un pannello piuttosto che come un buco. Serve a prendere la larghezza che quelle definite rifiutano."
+      more: 'Una divisione restituisce il surplus a chiunque lo richieda. Con nessuno che richiede, le aree definite verrebbero allungate o spinte ai bordi; con questo, mantengono la loro larghezza e la pagina tiene il resto.'
+  work:
+    size: 32rem
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 固定幅
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 同じ3つの領域ですが、あなたが読んでいるものは幅が与えられ、幅を取るのではありません。そして、誰も望まない幅は何もない領域に与えられます。
+  section:
+    sized:
+      title: 幅が与えられた領域
+      description: '`zone--narrow` のサイズステップ: この領域はその幅を持ち、ウィンドウにどれだけのスペースがあってもその幅を保ちます。これは、テキストが読みやすく保たれる方法です — スクリーンに合わせて成長する列は、もはや列ではありません。'
+    slack:
+      title: スラックの目的
+      description: '最後の領域は何も保持していませんが、同様にその位置を保ちます: 空であることは存在しないことではなく、待っているペインは穴ではなくペインとして認識されます。これは、サイズのある領域が拒否する幅を取るためのものです。'
+      more: 'スプリットは残りを要求するものに渡します。何も要求しない場合、サイズのある領域は伸びたり、端に押しやられたりします; これにより、幅を保ち、ページは残りを保持します。'
+  work:
+    size: 32rem
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '고정 너비'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: '세 개의 동일한 영역이 있지만, 당신이 읽고 있는 영역은 너비가 주어지고 아무것도 없는 영역에는 아무도 원하지 않는 너비가 할당됩니다.'
+  section:
+    sized:
+      title: '너비가 주어진 영역'
+      description: '`zone--narrow` 크기 단계: 이 영역은 그 너비를 가지며 창의 공간에 관계없이 그 너비를 유지합니다. 이는 텍스트를 읽기 쉽게 유지하는 방법입니다 — 화면과 함께 커지는 열은 더 이상 열이 아닙니다.'
+    slack:
+      title: '슬랙의 용도'
+      description: '마지막 영역은 아무것도 없지만 여전히 자리를 차지합니다: 비어 있음은 부재가 아니며, 대기 중인 패널은 구멍이 아닌 패널로 읽힙니다. 이는 크기가 정해진 영역이 거부하는 너비를 차지하기 위해 존재합니다.'
+      more: '분할은 남은 공간을 요청하는 모든 것에 전달합니다. 요청하는 것이 없으면 크기가 정해진 영역은 늘어나거나 가장자리로 밀려날 것입니다; 그러나 이를 통해 그들은 너비를 유지하고 페이지는 나머지를 유지합니다.'
+  work:
+    size: 32rem
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Vaste breedte'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Dezelfde drie gebieden, maar de regio die je leest heeft een breedte gekregen in plaats van deze te nemen — en de breedte die niemand wil gaat naar een gebied zonder inhoud.'
+  section:
+    sized:
+      title: 'Een regio met een vaste breedte'
+      description: '`zone--narrow` met een grootte stap: de regio is zo breed en blijft zo breed, ongeacht de ruimte die het venster heeft. Dit zorgt ervoor dat een tekst leesbaar blijft — een kolom die meegroeit met het scherm, stopt ermee een kolom te zijn.'
+    slack:
+      title: 'Waar de slack voor is'
+      description: "De laatste regio bevat niets, en behoudt toch zijn ruimte: leeg is niet afwezig, en een paneel dat wacht, wordt gezien als een paneel in plaats van als een gat. Het is er om de breedte in te nemen die de vaste regio's weigeren."
+      more: "Een splitsing geeft de rest aan wat erom vraagt. Met niets dat vraagt, zouden de vaste regio's uitgerekt of naar de randen geduwd worden; met dit, behouden ze hun breedte en blijft de pagina de rest behouden."
+  work:
+    size: 32rem
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Szerokość stała'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Te same trzy obszary, ale ten, który czytasz, ma przypisaną szerokość zamiast ją zajmować — a szerokość, której nikt nie chce, trafia do obszaru, w którym nic nie ma.'
+  section:
+    sized:
+      title: 'Obszar o przypisanej szerokości'
+      description: '`zone--narrow` z krokiem rozmiaru: obszar ma taką szerokość i pozostaje tak szeroki, niezależnie od dostępnej przestrzeni w oknie. To sposób, w jaki tekst pozostaje czytelny — kolumna, która rośnie wraz z ekranem, przestaje być kolumną.'
+    slack:
+      title: 'Do czego służy luz'
+      description: 'Ostatni obszar nic nie zawiera, ale mimo to utrzymuje swoje miejsce: pustość nie oznacza nieobecności, a panel czekający jest postrzegany jako panel, a nie jako dziura. Jest tam, aby zająć szerokość, której przypisane obszary odmawiają.'
+      more: 'Podział przekazuje pozostałą przestrzeń temu, kto o nią prosi. Gdy nikt nie prosi, przypisane obszary byłyby rozciągane lub popychane do krawędzi; z tym, utrzymują swoją szerokość, a strona zachowuje resztę.'
+  work:
+    size: 32rem
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Largura fixa'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'As mesmas três regiões, mas a que você está lendo tem uma largura definida em vez de assumir uma — e a largura que ninguém quer vai para uma região vazia.'
+  section:
+    sized:
+      title: 'Uma região com largura definida'
+      description: '`zone--narrow` com um passo de tamanho: a região tem essa largura e mantém essa largura, não importa o espaço que a janela tenha. É assim que um texto é mantido legível — uma coluna que cresce com a tela deixa de ser uma.'
+    slack:
+      title: 'Para que serve o espaço livre'
+      description: 'A última região não contém nada, e mantém seu espaço mesmo assim: vazio não é ausente, e um painel à espera é lido como um painel em vez de um buraco. Ele está lá para ocupar a largura que as regiões definidas recusam.'
+      more: 'Uma divisão entrega o que sobrou para quem quer. Com nada pedindo, as regiões definidas seriam esticadas ou empurradas para as bordas; com isso, elas mantêm sua largura e a página fica com o restante.'
+  work:
+    size: 32rem
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Фиксированная ширина'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Те же три области, но та, которую вы читаете, имеет заданную ширину вместо того, чтобы принимать ее — а ширина, которую никто не хочет, уходит в область с пустотой.'
+  section:
+    sized:
+      title: 'Область с заданной шириной'
+      description: '`zone--narrow` с размерным шагом: область имеет такую ширину и остается такой ширины, независимо от пространства окна. Это помогает тексту оставаться читаемым — колонка, которая растет вместе с экраном, перестает быть колонкой.'
+    slack:
+      title: 'Для чего нужна свободная область'
+      description: 'Последняя область ничего не содержит, но занимает свое место: пустота не равна отсутствию, и панель, ожидающая заполнения, воспринимается как панель, а не как дыра. Она предназначена для того, чтобы занять ширину, которую отказываются занимать заданные области.'
+      more: 'Разделение передает оставшееся пространство тому, кто его попросит. При отсутствии запросов заданные области растянулись бы или были бы сдвинуты к краям; с этим они сохраняют свою ширину, а страница сохраняет остальное.'
+  work:
+    size: 32rem
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ความกว้างคงที่
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'สามพื้นที่เหมือนเดิม แต่พื้นที่ที่คุณกำลังอ่านมีความกว้างที่กำหนดแทนที่จะรับความกว้าง — และความกว้างที่ไม่มีใครต้องการจะไปอยู่ในพื้นที่ที่ไม่มีอะไรอยู่เลย'
+  section:
+    sized:
+      title: พื้นที่ที่กำหนดความกว้าง
+      description: '`zone--narrow` ที่มีขนาดขั้น: พื้นที่นี้มีความกว้างเท่านี้และยังคงความกว้างนี้ไม่ว่าในหน้าต่างจะมีพื้นที่เหลือเท่าไหร่ นี่คือวิธีที่ทำให้ข้อความอ่านได้ — คอลัมน์ที่ขยายตามหน้าจอจะไม่ถือว่าเป็นคอลัมน์อีกต่อไป'
+    slack:
+      title: พื้นที่ว่างมีไว้ทำอะไร
+      description: 'พื้นที่สุดท้ายไม่มีอะไรอยู่ และยังคงยืนอยู่ได้: ว่างเปล่าไม่ได้หมายความว่าไม่มี และแผงที่รออยู่จะถูกมองว่าเป็นแผงมากกว่าที่จะเป็นหลุม มันมีไว้เพื่อรับความกว้างที่พื้นที่ที่มีขนาดไม่ต้องการ'
+      more: 'การแบ่งจะส่งมอบส่วนที่เหลือให้กับสิ่งที่ขอ มันไม่มีอะไรขอ, พื้นที่ที่มีขนาดจะถูกยืดหรือดันไปจนถึงขอบ; แต่ด้วยสิ่งนี้ พวกมันจะรักษาความกว้างของตัวเองและหน้าเว็บจะเก็บส่วนที่เหลือไว้'
+  work:
+    size: 32rem
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Sabit genişlik'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Aynı üç bölge, ancak okuduğunuz bölge bir genişliğe sahip ve bu genişlik istenmeyen bir bölgeye gidiyor — içinde hiçbir şey olmayan bir bölgeye.'
+  section:
+    sized:
+      title: 'Genişliği belirlenmiş bir bölge'
+      description: '`zone--narrow` ile bir boyut adımı: bölge bu kadar geniş ve pencerenin ne kadar alanı olursa olsun bu genişlikte kalıyor. Metnin okunabilir kalması böyle sağlanır — ekranla birlikte büyüyen bir sütun artık bir sütun olmaktan çıkar.'
+    slack:
+      title: 'Boş alan ne için'
+      description: 'Son bölge hiçbir şey tutmuyor ama yine de yerini koruyor: boş olmak yok demek değildir ve bekleyen bir panel, bir delik olarak değil, bir panel olarak görünür. İstenmeyen genişliği almak için vardır.'
+      more: 'Bir bölme, artan kısmı ne isterse ona verir. Hiçbir şey istemediğinde, genişliği belirlenmiş bölgeler gerilir veya kenarlara itilir; bununla, genişliklerini korur ve sayfa geri kalanını alır.'
+  work:
+    size: 32rem
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'مقررہ چوڑائی'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'وہی تین علاقے، لیکن جسے آپ پڑھ رہے ہیں اسے ایک چوڑائی دی گئی ہے بجائے اس کے کہ وہ کوئی لے — اور وہ چوڑائی جسے کوئی نہیں چاہتا ایک ایسے علاقے کو ملتی ہے جس میں کچھ نہیں ہے۔'
+  section:
+    sized:
+      title: 'ایک علاقے کو دی گئی چوڑائی'
+      description: '`zone--narrow` کے ساتھ ایک سائز کا قدم: یہ علاقہ اتنی چوڑائی رکھتا ہے اور ہمیشہ اتنی چوڑائی رکھتا ہے، چاہے کھڑکی میں کتنا ہی کمرہ ہو۔ یہ اس طرح ہے کہ متن کو پڑھنے کے قابل رکھا جاتا ہے — ایک کالم جو اسکرین کے ساتھ بڑھتا ہے وہ ایک کالم نہیں رہتا۔'
+    slack:
+      title: 'سکڑاؤ کس لئے ہے'
+      description: 'آخری علاقہ کچھ نہیں رکھتا، اور پھر بھی اپنی جگہ برقرار رکھتا ہے: خالی ہونا غیر موجود نہیں ہے، اور ایک پین جو منتظر ہے وہ ایک پین کی طرح پڑھتا ہے نہ کہ ایک خلا کی طرح۔ یہ وہاں اس چوڑائی کو لینے کے لئے ہے جسے سائز والے انکار کرتے ہیں۔'
+      more: 'ایک تقسیم باقی کو اس کی طلب کرنے والے کو دے دیتی ہے۔ کچھ طلب نہ ہونے کی صورت میں، سائز والے علاقے بڑھائے یا کناروں تک دھکیلے جاتے؛ اس کے ساتھ، وہ اپنی چوڑائی برقرار رکھتے ہیں اور صفحہ باقی رکھتا ہے۔'
+  work:
+    size: 32rem
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Chiều rộng cố định'
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 'Ba vùng giống nhau, nhưng vùng bạn đang đọc được cho một chiều rộng thay vì phải chiếm lấy — và chiều rộng không ai muốn sẽ được dành cho một vùng trống.'
+  section:
+    sized:
+      title: 'Một vùng có chiều rộng riêng'
+      description: '`zone--narrow` với một bước kích thước: vùng này có chiều rộng đó và giữ nguyên chiều rộng đó, bất kể không gian mà cửa sổ có. Đây là cách giữ cho văn bản dễ đọc — một cột phát triển cùng với màn hình thì không còn là một cột nữa.'
+    slack:
+      title: 'Mục đích của vùng trống'
+      description: 'Vùng cuối cùng không chứa gì, nhưng vẫn giữ vị trí của nó: trống không có nghĩa là vắng mặt, và một khung chờ đợi được coi là một khung chứ không phải là một lỗ trống. Nó ở đó để chiếm chiều rộng mà các vùng có kích thước từ chối.'
+      more: 'Một sự phân chia sẽ bàn giao phần còn lại cho bất kỳ ai yêu cầu. Với việc không có gì yêu cầu, các vùng có kích thước sẽ bị kéo dài hoặc đẩy về các cạnh; với điều này, chúng giữ nguyên chiều rộng và trang giữ lại phần còn lại.'
+  work:
+    size: 32rem
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 固定宽度
+  page_icon: 'ph:bold/arrows-in-line-horizontal'
+  intro: 三个区域，但你正在阅读的区域是有宽度的，而不是随意取宽度——而没有人想要的宽度则被分配给一个空的区域。
+  section:
+    sized:
+      title: 指定宽度的区域
+      description: '`zone--narrow` 具有大小步骤：该区域宽度固定，无论窗口有多大，它都保持这个宽度。这是保持文本可读性的方式——一个随着屏幕增长的列不再是一个列。'
+    slack:
+      title: 松弛的作用
+      description: 最后一个区域是空的，但仍然占据空间：空并不等于缺失，等待的窗格看起来像一个窗格，而不是一个洞。它的存在是为了占据指定区域拒绝的宽度。
+      more: 一个分隔将剩余的空间分配给任何需要它的地方。没有任何需求时，指定区域会被拉伸或推向边缘；有了这个，它们保持自己的宽度，页面保留其余部分。
+  work:
+    size: 32rem

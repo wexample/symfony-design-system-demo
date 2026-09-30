@@ -1,0 +1,763 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Progress
+  page_icon: ph:bold/gauge
+
+  intro: "How far something has got, carried as a ratio between 0 and 1 in a custom property — the same way the status circle carries its arc, so both sides of the stack fill the bar with one declaration. Twig prints the value it is given; moving it afterwards is the browser's business."
+
+  section:
+    default:
+      title: States
+      description: "The value is a count or a share written as a percentage, and never answers outside its bounds. The colour is the feedback one, so a bar says how its work ended in the same language as a message or a status."
+    plain:
+      title: Without a total
+      description: "A hundred is what a bar counts to when nobody says otherwise, which makes a percentage the only thing to give it. A total of its own is for work counted in things rather than in parts."
+    indeterminate:
+      title: An end that is not known
+      description: "Work under way whose size nobody knows: the bar sweeps and says no number. Claiming a share here would be a guess dressed as a measurement."
+    compact:
+      title: Compact
+      description: "Reduced to what it has to say, for a status line or a footer: a thinner track, the wording beside it rather than above, and the density passed on to whatever stands with it."
+    vue:
+      title: Vue, driven
+      description: "The same bar, with the vocabulary the cli progress already speaks — update, advance, finish, reset. A step with nothing said about it is worth one unit, which is what to call where neither the unit nor the total means anything."
+
+  bar:
+    queued: Queued
+    working: Building assets
+    almost: Uploading
+    done: Deployed
+    failed: Migration failed
+    counted: Files read
+    unknown: Looking for something
+    indexing: Indexing
+
+  compact:
+    app: acme-blog
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التقدم
+  page_icon: 'ph:bold/gauge'
+  intro: 'مدى تقدم شيء ما، محمول كنسبة بين 0 و 1 في خاصية مخصصة - بنفس الطريقة التي يحمل بها دائرة الحالة قوسها، بحيث تملأ الجهتان من المكدس الشريط بإعلان واحد. تطبع Twig القيمة المعطاة لها؛ وتحريكها بعد ذلك هو من شأن المتصفح.'
+  section:
+    default:
+      title: الحالات
+      description: 'القيمة هي عدد أو حصة مكتوبة كنسبة مئوية، ولا تجيب أبداً خارج حدودها. اللون هو لون التغذية الراجعة، لذا فإن الشريط يوضح كيف انتهى عمله بنفس لغة رسالة أو حالة.'
+    plain:
+      title: 'بدون إجمالي'
+      description: 'مئة هي ما يعده الشريط عندما لا يقول أحد خلاف ذلك، مما يجعل النسبة المئوية هي الشيء الوحيد الذي يمنحه. مجموع خاص به هو للعمل الذي يتم عدّه في الأشياء بدلاً من الأجزاء.'
+    indeterminate:
+      title: 'نهاية غير معروفة'
+      description: 'عمل جارٍ لا يعرف أحد حجمه: يشير الشريط ولا يقول عددًا. المطالبة بحصة هنا ستكون تخمينًا مُتَزَيِّنًا كقياس.'
+    compact:
+      title: مضغوط
+      description: 'مُختَصَر لما يجب أن يقوله، لخط حالة أو تذييل: مسار أرفع، النص بجانبه بدلاً من فوقه، والكثافة تُنقل إلى ما يقف معه.'
+    vue:
+      title: 'Vue، مدفوع'
+      description: 'نفس الشريط، مع المفردات التي تتحدث بها تقدم cli بالفعل - تحديث، تقدم، إنهاء، إعادة تعيين. خطوة لم يُقال عنها شيء تستحق وحدة واحدة، وهي ما يسمى حيث لا تعني الوحدة ولا الإجمالي شيئًا.'
+  bar:
+    queued: 'في الانتظار'
+    working: 'بناء الأصول'
+    almost: 'يتم التحميل'
+    done: 'تم النشر'
+    failed: 'فشل النقل'
+    counted: 'الملفات المقروءة'
+    unknown: 'البحث عن شيء ما'
+    indexing: 'يتم الفهرسة'
+  compact:
+    app: acme-blog
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: অগ্রগতি
+  page_icon: 'ph:bold/gauge'
+  intro: 'কিছু একটি কতদূর এগিয়েছে তা 0 এবং 1 এর মধ্যে একটি অনুপাত হিসেবে প্রকাশিত হয় — যেভাবে স্টেটাস সার্কেল তার আর্ক বহন করে, সেভাবেই স্ট্যাকের দুই পাশে বারটি একটি ঘোষণার মাধ্যমে পূর্ণ হয়। Twig যে মানটি পায় তা মুদ্রণ করে; পরে এটি স্থানান্তর করা ব্রাউজারের কাজ।'
+  section:
+    default:
+      title: অবস্থা
+      description: 'মানটি একটি গণনা বা শেয়ার যা শতাংশ হিসেবে লেখা হয়, এবং কখনো তার সীমার বাইরে উত্তর দেয় না। রঙটি প্রতিক্রিয়ার রঙ, তাই একটি বার তার কাজ কিভাবে শেষ হয়েছে তা একটি বার্তা বা স্ট্যাটাসের একই ভাষায় বলে।'
+    plain:
+      title: 'মোট ছাড়া'
+      description: 'একশো হল একটি বার কতদূর গণনা করে যখন কেউ অন্যথায় কিছু বলে না, যা একটি শতাংশকে একমাত্র বিষয় করে তোলে। এর নিজস্ব মোট হচ্ছে সেই কাজ যা বিষয় হিসাবে গণনা করা হয় অংশ হিসাবে নয়।'
+    indeterminate:
+      title: 'একটি শেষ যা জানা নেই'
+      description: 'চলমান কাজ যার আকার কেউ জানে না: বারটি সাফ করে এবং কোনো সংখ্যা বলে না। এখানে একটি শেয়ার দাবি করা একটি পরিমাপ হিসাবে সাজানো একটি অনুমান।'
+    compact:
+      title: কম্প্যাক্ট
+      description: 'যা বলার প্রয়োজন তা কমিয়ে আনা, একটি স্ট্যাটাস লাইন বা ফুটারে: একটি পাতলা ট্র্যাক, এর পাশে লেখাটি উপরে না থেকে, এবং ঘনত্ব যা কিছু তার সাথে দাঁড়িয়ে আছে তা স্থানান্তরিত হয়।'
+    vue:
+      title: 'ভিউ, চালিত'
+      description: 'একই বার, cli প্রগ্রেস ইতিমধ্যেই যে শব্দভান্ডার কথা বলে — আপডেট, অগ্রসর, সম্পন্ন, রিসেট। একটি পদ যা সম্পর্কে কিছু বলা হয়নি তা একক হিসাবে মূল্যবান, যা হল যেখানে না ইউনিট এবং মোটের কিছু মান নেই।'
+  bar:
+    queued: কিউতে
+    working: 'সম্পদ তৈরি করছে'
+    almost: 'আপলোড হচ্ছে'
+    done: 'মোতায়েন করা হয়েছে'
+    failed: 'মাইগ্রেশন ব্যর্থ'
+    counted: 'ফাইল পড়া হয়েছে'
+    unknown: 'কিছু খুঁজছি'
+    indexing: ইন্ডেক্সিং
+  compact:
+    app: acme-blog
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fortschritt
+  page_icon: 'ph:bold/gauge'
+  intro: 'Wie weit etwas fortgeschritten ist, dargestellt als Verhältnis zwischen 0 und 1 in einer benutzerdefinierten Eigenschaft – genauso wie der Statuskreis seinen Bogen trägt, füllen beide Seiten des Stapels die Leiste mit einer Erklärung. Twig gibt den Wert aus, den es erhält; ihn danach zu bewegen, ist das Geschäft des Browsers.'
+  section:
+    default:
+      title: Zustände
+      description: 'Der Wert ist eine Anzahl oder ein Anteil, der als Prozentsatz geschrieben ist, und beantwortet niemals außerhalb seiner Grenzen. Die Farbe ist die Feedbackfarbe, sodass eine Leiste anzeigt, wie ihre Arbeit in derselben Sprache wie eine Nachricht oder ein Status beendet wurde.'
+    plain:
+      title: 'Ohne Gesamt'
+      description: 'Hundert ist das, was eine Leiste zählt, wenn niemand etwas anderes sagt, was macht, dass ein Prozentsatz das einzige ist, was es gibt. Ein eigenes Total ist für Arbeit, die in Dingen und nicht in Teilen gezählt wird.'
+    indeterminate:
+      title: 'Ein Ende, das nicht bekannt ist'
+      description: 'Arbeit im Gange, deren Größe niemand kennt: die Leiste sweeped und sagt keine Zahl. Ein Anteil hier zu beanspruchen, wäre eine Vermutung, die als Messung verkleidet ist.'
+    compact:
+      title: Kompakt
+      description: 'Reduziert auf das, was es sagen muss, für eine Statuszeile oder einen Fußbereich: eine dünnere Spur, die Formulierung daneben statt darüber und die Dichte, die an das weitergegeben wird, was damit steht.'
+    vue:
+      title: 'Vue, gesteuert'
+      description: 'Die gleiche Leiste, mit dem Vokabular, das der CLI-Fortschritt bereits spricht – aktualisieren, vorankommen, beenden, zurücksetzen. Ein Schritt, über den nichts gesagt wird, zählt als eine Einheit, was zu nennen ist, wenn weder die Einheit noch das Gesamt etwas bedeuten.'
+  bar:
+    queued: 'In der Warteschlange'
+    working: 'Assets werden erstellt'
+    almost: Hochladen
+    done: Bereitgestellt
+    failed: 'Migration fehlgeschlagen'
+    counted: 'Dateien gelesen'
+    unknown: 'Suche nach etwas'
+    indexing: Indizieren
+  compact:
+    app: acme-blog
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Progreso
+  page_icon: 'ph:bold/gauge'
+  intro: 'Qué tan lejos ha llegado algo, expresado como una proporción entre 0 y 1 en una propiedad personalizada; de la misma manera que el círculo de estado lleva su arco, así ambos lados de la pila llenan la barra con una declaración. Twig imprime el valor que se le da; moverlo después es cosa del navegador.'
+  section:
+    default:
+      title: Estados
+      description: 'El valor es un conteo o una parte expresada como un porcentaje, y nunca responde fuera de sus límites. El color es el feedback, así que una barra dice cómo terminó su trabajo en el mismo lenguaje que un mensaje o un estado.'
+    plain:
+      title: 'Sin un total'
+      description: 'Cien es lo que cuenta una barra cuando nadie dice lo contrario, lo que hace que un porcentaje sea lo único que puede darle. Un total propio es para trabajos contados en cosas en lugar de en partes.'
+    indeterminate:
+      title: 'Un fin que no se conoce'
+      description: 'Trabajo en curso cuyo tamaño nadie conoce: la barra se desplaza y no dice ningún número. Reclamar una parte aquí sería una suposición disfrazada de medición.'
+    compact:
+      title: Compacto
+      description: 'Reducido a lo que tiene que decir, para una línea de estado o un pie de página: una pista más delgada, la redacción al lado en lugar de arriba, y la densidad transmitida a lo que lo acompaña.'
+    vue:
+      title: 'Vue, impulsado'
+      description: 'La misma barra, con el vocabulario que ya habla el progreso de cli — actualizar, avanzar, terminar, reiniciar. Un paso sin nada dicho al respecto vale una unidad, que es lo que se llama donde ni la unidad ni el total significan nada.'
+  bar:
+    queued: 'En cola'
+    working: 'Construyendo activos'
+    almost: Subiendo
+    done: Desplegado
+    failed: 'La migración falló'
+    counted: 'Archivos leídos'
+    unknown: 'Buscando algo'
+    indexing: Indexando
+  compact:
+    app: acme-blog
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: پیشرفت
+  page_icon: 'ph:bold/gauge'
+  intro: 'نشان‌دهنده میزان پیشرفت یک کار است که به صورت نسبتی بین ۰ و ۱ در یک ویژگی سفارشی نمایش داده می‌شود — به همان شیوه‌ای که دایره وضعیت قوس خود را نمایش می‌دهد، بنابراین هر دو سمت استک نوار را با یک اعلام پر می‌کنند. Twig مقداری را که به آن داده شده چاپ می‌کند؛ جابجایی آن بعداً مربوط به مرورگر است.'
+  section:
+    default:
+      title: وضعیت‌ها
+      description: 'مقدار یک شمارش یا سهم است که به صورت درصد نوشته شده و هرگز خارج از حدود خود پاسخ نمی‌دهد. رنگ آن رنگ بازخورد است، بنابراین یک نوار می‌گوید کارش چگونه به پایان رسید به همان زبانی که یک پیام یا وضعیت.'
+    plain:
+      title: 'بدون مجموع'
+      description: 'صد است که یک نوار به آن می‌رسد تا زمانی که کسی چیز دیگری نگفته باشد، که باعث می‌شود درصد تنها چیزی باشد که می‌تواند به آن بدهد. مجموع خود به‌خودی برای کارهایی است که به صورت چیزها شمارش می‌شوند نه به صورت قطعات.'
+    indeterminate:
+      title: 'پایانی که مشخص نیست'
+      description: 'کار در حال انجام که هیچ‌کس اندازه آن را نمی‌داند: نوار جابجا می‌شود و هیچ عددی نمی‌گوید. ادعای سهم در اینجا فقط یک حدس است که به عنوان یک اندازه‌گیری پوشانده شده است.'
+    compact:
+      title: 'جمع و جور'
+      description: 'کاهش یافته به آنچه که باید بگوید، برای یک خط وضعیت یا یک پاورقی: نوار باریک‌تر، نوشته در کنار آن به جای بالای آن، و چگالی منتقل شده به هر چیزی که در کنار آن قرار دارد.'
+    vue:
+      title: 'Vue، هدایت شده'
+      description: 'همان نوار، با واژگانی که پیشرفت cli قبلاً صحبت می‌کند — به‌روزرسانی، پیشرفت، اتمام، بازنشانی. یک قدم که هیچ چیزی درباره آن گفته نشده است، معادل یک واحد است، که باید نامید جایی که نه واحد و نه مجموع معنایی ندارد.'
+  bar:
+    queued: 'در صف'
+    working: 'ساخت دارایی‌ها'
+    almost: 'در حال بارگذاری'
+    done: 'پیاده‌سازی شده'
+    failed: 'مهاجرت ناموفق'
+    counted: 'فایل‌ها خوانده شده'
+    unknown: 'در حال جستجوی چیزی'
+    indexing: نمایه‌سازی
+  compact:
+    app: acme-blog
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Edistyminen
+  page_icon: 'ph:bold/gauge'
+  intro: 'Kuinka pitkälle jokin on edennyt, ilmaistuna suhteena 0 ja 1 mukautetussa ominaisuudessa — samalla tavalla kuin tilapiiri kantaa kaarensa, niin myös pinon molemmat puolet täyttävät palkin yhdellä ilmoituksella. Twig tulostaa sille annetun arvon; sen siirtäminen jälkeenpäin on selaimen asia.'
+  section:
+    default:
+      title: Tilat
+      description: 'Arvo on lukumäärä tai osuus prosentteina, eikä koskaan ylitä rajojaan. Väri on palautteen väri, joten palkki kertoo, kuinka sen työ päättyi samalla kielellä kuin viesti tai tila.'
+    plain:
+      title: 'Ilman kokonaissummaa'
+      description: 'Sata on se, mihin palkki laskee, ellei toisin sanota, mikä tekee prosentista ainoan asian, joka sen voi antaa. Omaa kokonaissummaa tarvitaan työlle, joka lasketaan asioina eikä osina.'
+    indeterminate:
+      title: 'Loppua ei tiedetä'
+      description: 'Käynnissä oleva työ, jonka kokoa kukaan ei tiedä: palkki liikkuu ja ei ilmoita mitään numeroa. Osuuden vaatiminen tässä olisi arvio, joka on pukeutunut mittaukseen.'
+    compact:
+      title: Kompakti
+      description: 'Vähennetty siihen, mitä sen on sanottava, tilariville tai alatunnisteeseen: ohuempi rata, sanamuoto sen vieressä sen sijaan, että se olisi ylhäällä, ja tiheys siirtyy siihen, mikä seisoo sen kanssa.'
+    vue:
+      title: 'Vue, ohjattu'
+      description: 'Sama palkki, sanastolla, jota cli edistyminen jo puhuu — päivitä, etene, valmiina, nollaa. Askel, josta ei sanota mitään, on arvoltaan yksi yksikkö, mikä on se, mitä kutsua, kun sekä yksikkö että kokonaisuus eivät merkitse mitään.'
+  bar:
+    queued: Jonossa
+    working: 'Rakennetaan resursseja'
+    almost: Lähetetään
+    done: Odotettu
+    failed: 'Siirto epäonnistui'
+    counted: 'Tiedostoja luettu'
+    unknown: 'Etsitään jotakin'
+    indexing: Indeksoidaan
+  compact:
+    app: acme-blog
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Progrès
+  page_icon: 'ph:bold/gauge'
+  intro: 'À quel point quelque chose a progressé, exprimé comme un ratio entre 0 et 1 dans une propriété personnalisée — de la même manière que le cercle de statut porte son arc, les deux côtés de la pile remplissent la barre avec une déclaration. Twig imprime la valeur qui lui est donnée ; la déplacer par la suite relève de la responsabilité du navigateur.'
+  section:
+    default:
+      title: États
+      description: "La valeur est un compte ou une part écrite sous forme de pourcentage, et ne répond jamais en dehors de ses limites. La couleur est celle du retour d'information, donc une barre indique comment son travail s'est terminé dans le même langage qu'un message ou un statut."
+    plain:
+      title: 'Sans total'
+      description: "Une centaine est ce que compte une barre quand personne ne dit le contraire, ce qui rend un pourcentage la seule chose à lui donner. Un total propre est pour un travail compté en choses plutôt qu'en parties."
+    indeterminate:
+      title: "Une fin qui n'est pas connue"
+      description: 'Travail en cours dont la taille est inconnue : la barre balaye et ne dit aucun nombre. Revendiquer une part ici serait une estimation déguisée en mesure.'
+    compact:
+      title: Compact
+      description: "Réduit à ce qu'il a à dire, pour une ligne de statut ou un pied de page : une piste plus fine, la formulation à côté plutôt qu'au-dessus, et la densité transmise à tout ce qui se tient avec elle."
+    vue:
+      title: 'Vue, pilotée'
+      description: "La même barre, avec le vocabulaire que le progrès cli parle déjà — mise à jour, avancée, finition, réinitialisation. Un pas sans rien à dire vaut une unité, ce qui est à appeler là où ni l'unité ni le total ne signifient quoi que ce soit."
+  bar:
+    queued: 'En attente'
+    working: 'Construction des ressources'
+    almost: Téléchargement
+    done: Déployé
+    failed: 'Échec de la migration'
+    counted: 'Fichiers lus'
+    unknown: 'Recherche de quelque chose'
+    indexing: Indexation
+  compact:
+    app: acme-blog
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: התקדמות
+  page_icon: 'ph:bold/gauge'
+  intro: 'כמה רחוק משהו הגיע, נישא יחסית בין 0 ל-1 בנכס מותאם אישית — באותה צורה שסircle הסטטוס נושאת את הקשת שלה, כך ששני הצדדים של הערימה ממלאים את הסרגל עם הצהרה אחת. Twig מדפיסה את הערך שניתן לה; להזיז אותו לאחר מכן זה עניין של הדפדפן.'
+  section:
+    default:
+      title: מצבים
+      description: 'הערך הוא ספירה או נתח שנכתבים כאחוז, ולא עונה אף פעם מחוץ לגבולותיו. הצבע הוא צבע המשוב, כך שסְרָג אומר איך העבודה שלו הסתיימה באותה שפה כמו הודעה או מצב.'
+    plain:
+      title: 'בלי סך הכל'
+      description: 'מאה זה מה שסְרָג סופר כאשר אף אחד לא אומר אחרת, מה שהופך את האחוז לדבר היחיד שיכול לתת לו. סך הכל משלו הוא עבור עבודה שנמדדת בדברים ולא בחלקים.'
+    indeterminate:
+      title: 'סוף שאינו ידוע'
+      description: 'עבודה בעיצומה שמידותיה אינן ידועות: הסְרָג סוקר ואומר שאין מספר. לטעון נתח כאן יהיה ניחוש המלביש את עצמו כמדידה.'
+    compact:
+      title: קומפקטי
+      description: 'מצומצם למה שיש לו לומר, עבור שורת מצב או כותרת תחתונה: מסלול דק יותר, המילים לצידו במקום מעל, והצפיפות מועברת לכל מה שעומד לצידו.'
+    vue:
+      title: 'Vue, מונע'
+      description: 'אותו סְרָג, עם הלקסיקון שההתקדמות של CLI כבר מדברת — עדכון, התקדמות, סיום, אפס. שלב שללא דבר שנאמר עליו שווה יחידה אחת, שזה מה שכדאי לקרוא היכן לא היחידה ולא הסך הכל משמעותיים.'
+  bar:
+    queued: בתור
+    working: 'בונה נכסים'
+    almost: מעלה
+    done: פרוס
+    failed: 'העברת נתונים נכשלה'
+    counted: 'קבצים נקראו'
+    unknown: 'מחפש משהו'
+    indexing: ממיין
+  compact:
+    app: acme-blog
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: प्रगति
+  page_icon: 'ph:bold/gauge'
+  intro: 'कुछ कितनी दूर पहुंचा है, इसे एक कस्टम प्रॉपर्टी में 0 और 1 के बीच के अनुपात के रूप में दर्शाया गया है - जैसे स्थिति वृत्त अपने आर्क को ले जाता है, वैसे ही स्टैक के दोनों पक्ष एक घोषणा के साथ बार को भरते हैं। Twig उसे दिया गया मान प्रिंट करता है; इसके बाद इसे हिलाना ब्राउज़र का काम है।'
+  section:
+    default:
+      title: स्थितियाँ
+      description: 'मान एक गणना या शेयर है जिसे प्रतिशत के रूप में लिखा जाता है, और कभी भी इसके सीमाओं के बाहर उत्तर नहीं देता। रंग प्रतिक्रिया वाला है, इसलिए एक बार बताता है कि इसका कार्य उसी भाषा में कैसे समाप्त हुआ है जैसे एक संदेश या स्थिति।'
+    plain:
+      title: 'कुल के बिना'
+      description: 'एक सौ उस संख्या तक है जिसे एक बार गिनता है जब कोई और कुछ नहीं कहता, जो इसे देने के लिए एकमात्र चीज बनाता है। इसका अपना एक कुल उन कार्यों के लिए है जो चीजों में गिनती होती हैं न कि भागों में।'
+    indeterminate:
+      title: 'एक अंत जो ज्ञात नहीं है'
+      description: 'कार्य प्रगति पर है जिसका आकार कोई नहीं जानता: बार सफाई करता है और कोई संख्या नहीं बताता। यहां एक शेयर का दावा करना एक माप के रूप में एक अनुमान होगा।'
+    compact:
+      title: संक्षिप्त
+      description: 'जो कहना है उसमें संकुचित, एक स्थिति पंक्ति या फुटर के लिए: एक पतली पट्टी, उसके पास शब्दों का होना बजाय ऊपर, और घनत्व को उस किसी के साथ पास करना जो इसके साथ खड़ा है।'
+    vue:
+      title: 'Vue, संचालित'
+      description: 'उसी बार, जिस शब्दावली के साथ cli प्रगति पहले से ही बोलता है - अपडेट, प्रगति, समाप्त, रीसेट। एक कदम जिसका कुछ नहीं कहा गया है वह एक इकाई के लायक है, जिसे तब माना जाता है जहां न तो इकाई और न ही कुल का कोई अर्थ है।'
+  bar:
+    queued: 'क्यू में'
+    working: 'संपत्ति बना रहा है'
+    almost: 'अपलोड कर रहा है'
+    done: 'तैनात किया गया'
+    failed: 'माइग्रेशन विफल'
+    counted: 'फाइलें पढ़ी गईं'
+    unknown: 'कुछ खोज रहा है'
+    indexing: 'क्रमबद्ध कर रहा है'
+  compact:
+    app: acme-ब्लॉग
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Progres
+  page_icon: 'ph:bold/gauge'
+  intro: 'Seberapa jauh sesuatu telah berjalan, dibawa sebagai rasio antara 0 dan 1 dalam properti kustom — seperti halnya lingkaran status membawa busurnya, sehingga kedua sisi tumpukan mengisi bilah dengan satu deklarasi. Twig mencetak nilai yang diberikan; memindahkannya setelahnya adalah urusan browser.'
+  section:
+    default:
+      title: Status
+      description: 'Nilai adalah hitungan atau bagian yang dituliskan sebagai persentase, dan tidak pernah menjawab di luar batasnya. Warna adalah umpan balik, sehingga bilah menunjukkan bagaimana pekerjaannya berakhir dalam bahasa yang sama dengan pesan atau status.'
+    plain:
+      title: 'Tanpa total'
+      description: 'Seratus adalah apa yang dihitung oleh bilah ketika tidak ada yang mengatakan sebaliknya, yang menjadikan persentase satu-satunya hal yang memberikannya. Totalnya sendiri adalah untuk pekerjaan yang dihitung dalam hal-hal daripada dalam bagian.'
+    indeterminate:
+      title: 'Akhir yang tidak diketahui'
+      description: 'Pekerjaan yang sedang berlangsung yang ukurannya tidak diketahui: bilah bergerak dan tidak menunjukkan angka. Mengklaim bagian di sini akan menjadi tebakan yang berpura-pura sebagai pengukuran.'
+    compact:
+      title: Kompak
+      description: 'Dikurangi menjadi apa yang harus dikatakannya, untuk garis status atau footer: trek yang lebih tipis, kata-kata di sampingnya daripada di atas, dan kepadatan diteruskan ke apa pun yang berdiri bersamanya.'
+    vue:
+      title: 'Vue, didorong'
+      description: 'Bilah yang sama, dengan kosakata yang sudah dibicarakan oleh kemajuan cli — memperbarui, maju, selesai, reset. Satu langkah yang tidak disebutkan berarti satu unit, yang merupakan apa yang harus disebut di mana baik unit maupun total tidak berarti apa-apa.'
+  bar:
+    queued: Antrian
+    working: 'Membangun aset'
+    almost: Mengunggah
+    done: Diterapkan
+    failed: 'Migrasi gagal'
+    counted: 'Berkas dibaca'
+    unknown: 'Mencari sesuatu'
+    indexing: Mengindeks
+  compact:
+    app: acme-blog
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Progresso
+  page_icon: 'ph:bold/gauge'
+  intro: 'Quanto lontano è arrivato qualcosa, rappresentato come un rapporto tra 0 e 1 in una proprietà personalizzata — proprio come il cerchio di stato porta il suo arco, così entrambi i lati dello stack riempiono la barra con una dichiarazione. Twig stampa il valore che gli viene dato; spostarlo dopo è compito del browser.'
+  section:
+    default:
+      title: Stati
+      description: 'Il valore è un conteggio o una quota espressa come percentuale, e non risponde mai al di fuori dei suoi limiti. Il colore è quello del feedback, quindi una barra indica come è terminato il suo lavoro nello stesso linguaggio di un messaggio o di uno stato.'
+    plain:
+      title: 'Senza un totale'
+      description: "Cento è ciò a cui conta una barra quando nessuno dice diversamente, il che rende una percentuale l'unica cosa in grado di darle un senso. Un totale proprio è per lavori conteggiati in cose piuttosto che in parti."
+    indeterminate:
+      title: 'Una fine che non è nota'
+      description: "Lavoro in corso di cui nessuno conosce l'ampiezza: la barra si muove e non indica alcun numero. Rivendicare una quota qui sarebbe una stima travestita da misurazione."
+    compact:
+      title: Compatto
+      description: 'Ridotto a ciò che deve dire, per una linea di stato o un piè di pagina: una traccia più sottile, la dicitura accanto piuttosto che sopra, e la densità trasferita a qualsiasi cosa si trovi con essa.'
+    vue:
+      title: 'Vue, guidata'
+      description: "La stessa barra, con il vocabolario che il progresso della cli già parla — aggiorna, avanza, finisce, ripristina. Un passo senza nulla detto a riguardo vale un'unità, che è ciò che si chiama dove né l'unità né il totale significano qualcosa."
+  bar:
+    queued: 'In coda'
+    working: 'Costruendo risorse'
+    almost: 'Caricamento in corso'
+    done: Distribuito
+    failed: 'Migrazione fallita'
+    counted: 'File letti'
+    unknown: 'In cerca di qualcosa'
+    indexing: Indicizzazione
+  compact:
+    app: acme-blog
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 進捗
+  page_icon: 'ph:bold/gauge'
+  intro: 何かがどれくらい進んだかを0から1の比率で示すカスタムプロパティとして表現されます。ステータスサークルがその弧を持つのと同様に、スタックの両側は1つの宣言でバーを満たします。Twigは渡された値を表示し、その後の移動はブラウザの仕事です。
+  section:
+    default:
+      title: 状態
+      description: その値はカウントまたはシェアで、パーセンテージとして書かれ、境界外で回答することはありません。色はフィードバックのもので、バーは作業の結果をメッセージやステータスと同じ言語で示します。
+    plain:
+      title: 合計なし
+      description: 誰も異なることを言わない限り、バーは100までカウントし、パーセンテージだけがそれを与えるものです。自身の合計は、部分ではなく物のカウントに対しての作業に対してのものです。
+    indeterminate:
+      title: 終わりがわからない
+      description: サイズが誰にもわからない進行中の作業：バーはスイープし、数字を示しません。ここでのシェアを主張することは、測定として装った推測に過ぎません。
+    compact:
+      title: コンパクト
+      description: 伝えるべきことに絞り、ステータスラインやフッター用：トラックを細くし、その横に文言を置き、密度をそれに寄り添うものへと引き継ぎます。
+    vue:
+      title: Vue、駆動
+      description: '同じバーで、cliの進捗が既に話す語彙 — 更新、進行、完了、リセット。何も言われていないステップは1ユニットの価値があり、ユニットも合計も意味を持たない場所を指します。'
+  bar:
+    queued: キューに入っている
+    working: アセットを構築中
+    almost: アップロード中
+    done: デプロイ済み
+    failed: マイグレーション失敗
+    counted: 読み取ったファイル
+    unknown: 何かを探しています
+    indexing: インデックス作成中
+  compact:
+    app: acme-blog
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '진행 상황'
+  page_icon: 'ph:bold/gauge'
+  intro: '어떤 것이 0과 1 사이의 비율로 진행된 정도 — 상태 원이 호를 나타내는 방식과 마찬가지로, 두 쪽의 스택이 하나의 선언으로 막대를 채웁니다. Twig는 주어진 값을 출력하며, 이후 이동은 브라우저의 몫입니다.'
+  section:
+    default:
+      title: 상태
+      description: '값은 백분율로 작성된 카운트 또는 비율이며, 그 한계를 벗어난 대답은 하지 않습니다. 색상은 피드백 색상으로, 막대는 메시지나 상태와 같은 언어로 작업의 결과를 나타냅니다.'
+    plain:
+      title: '총계 없이'
+      description: '누군가 다르게 말하지 않는다면 막대는 백을 세며, 백분율이 유일한 기준이 됩니다. 고유한 총계는 부분이 아닌 개수로 세는 작업을 위해 존재합니다.'
+    indeterminate:
+      title: '알려지지 않은 끝'
+      description: '크기가 알려지지 않은 진행 중인 작업: 막대는 스윕하고 숫자를 표시하지 않습니다. 여기서 비율을 주장하는 것은 측정으로 가장한 추측입니다.'
+    compact:
+      title: 간결하게
+      description: '상태 라인이나 바닥글을 위해 필요한 내용으로 축소됨: 더 얇은 트랙, 그 옆에 있는 문구, 그리고 밀도는 함께 있는 것에 전달됩니다.'
+    vue:
+      title: 'Vue, 주도'
+      description: 'CLI 진행에서 이미 사용되는 어휘를 가진 동일한 막대 — 업데이트, 진행, 완료, 재설정. 아무것도 언급되지 않은 단계는 하나의 단위의 가치가 있으며, 그 단위나 총계가 의미가 없을 때를 지칭합니다.'
+  bar:
+    queued: '대기 중'
+    working: '자산 빌드 중'
+    almost: '업로드 중'
+    done: '배포 완료'
+    failed: '마이그레이션 실패'
+    counted: '파일 읽음'
+    unknown: '무언가를 찾는 중'
+    indexing: '인덱싱 중'
+  compact:
+    app: acme-blog
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Voortgang
+  page_icon: 'ph:bold/gauge'
+  intro: 'Hoe ver iets gevorderd is, weergegeven als een verhouding tussen 0 en 1 in een aangepaste eigenschap — op dezelfde manier als de statuscirkel zijn boog draagt, vullen beide kanten van de stapel de balk met één verklaring. Twig print de waarde die het krijgt; het verplaatsen ervan is de zorg van de browser.'
+  section:
+    default:
+      title: Statussen
+      description: 'De waarde is een aantal of een aandeel geschreven als een percentage, en geeft nooit antwoorden buiten zijn grenzen. De kleur is de feedbackkleur, dus een balk zegt hoe zijn werk eindigde in dezelfde taal als een bericht of een status.'
+    plain:
+      title: 'Zonder totaal'
+      description: 'Honderd is wat een balk telt wanneer niemand anders iets zegt, wat een percentage de enige manier maakt om het te geven. Een eigen totaal is voor werk dat in dingen wordt geteld in plaats van in delen.'
+    indeterminate:
+      title: 'Een eind dat niet bekend is'
+      description: 'Werk in uitvoering waarvan niemand de omvang weet: de balk veegt en zegt geen nummer. Een aandeel hier claimen zou een gok zijn vermomd als een meting.'
+    compact:
+      title: Compact
+      description: 'Verminderd tot wat het moet zeggen, voor een statusregel of een footer: een dunnere baan, de tekst ernaast in plaats van erboven, en de dichtheid doorgegeven aan wat er ook mee staat.'
+    vue:
+      title: 'Vue, gedreven'
+      description: 'Dezelfde balk, met de woordenschat die de cli voortgang al spreekt — bijwerken, vooruitgang, afronden, resetten. Een stap waar niets over gezegd wordt is één eenheid waard, wat is wat te noemen waar noch de eenheid noch het totaal iets betekent.'
+  bar:
+    queued: 'In de wachtrij'
+    working: 'Middelen aan het bouwen'
+    almost: 'Aan het uploaden'
+    done: Geïmplementeerd
+    failed: 'Migratie mislukt'
+    counted: 'Bestanden gelezen'
+    unknown: 'Zoekt iets'
+    indexing: Indexeren
+  compact:
+    app: acme-blog
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Postęp
+  page_icon: 'ph:bold/gauge'
+  intro: 'Jak daleko coś zaszło, przedstawione jako stosunek między 0 a 1 w niestandardowej właściwości — w ten sam sposób, w jaki okrąg statusu przedstawia swój łuk, tak obie strony stosu wypełniają pasek jedną deklaracją. Twig drukuje wartość, którą otrzymuje; jej późniejsze przesunięcie to już sprawa przeglądarki.'
+  section:
+    default:
+      title: Stany
+      description: 'Wartość to liczba lub udział zapisany jako procent, i nigdy nie odpowiada poza swoimi granicami. Kolor to kolor feedbacku, więc pasek oznajmia, jak zakończyła się jego praca w tym samym języku, co komunikat lub status.'
+    plain:
+      title: 'Bez całkowitej wartości'
+      description: 'Sto to to, do czego pasek liczy, gdy nikt nie mówi inaczej, co sprawia, że procent to jedyna rzecz, która to określa. Własna całkowita wartość jest dla pracy liczonej w rzeczach, a nie w częściach.'
+    indeterminate:
+      title: 'Koniec, którego nie znamy'
+      description: 'Praca w toku, której rozmiaru nikt nie zna: pasek przesuwa się i nie podaje liczby. Twierdzenie o udziale tutaj byłoby zgadnięciem przebranym za pomiar.'
+    compact:
+      title: Kompaktowy
+      description: 'Skrócony do tego, co ma do powiedzenia, dla linii statusu lub stopki: cieńszy tor, sformułowanie obok niego, a nie nad nim, oraz gęstość przekazywana do czegokolwiek, co stoi obok.'
+    vue:
+      title: 'Vue, napędzany'
+      description: 'Ten sam pasek, z słownictwem, które już mówi postęp cli — aktualizacja, postęp, zakończenie, reset. Krok, o którym nic nie powiedziano, wart jest jednej jednostki, co oznacza, że ani jednostka, ani całkowita wartość nic nie znaczą.'
+  bar:
+    queued: 'W kolejce'
+    working: 'Budowanie zasobów'
+    almost: Przesyłanie
+    done: Wdrożono
+    failed: 'Migracja nie powiodła się'
+    counted: 'Przeczytane pliki'
+    unknown: 'Szukam czegoś'
+    indexing: Indeksowanie
+  compact:
+    app: acme-blog
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Progresso
+  page_icon: 'ph:bold/gauge'
+  intro: 'O quão longe algo chegou, representado como uma razão entre 0 e 1 em uma propriedade personalizada — da mesma forma que o círculo de status carrega seu arco, ambos os lados da pilha preenchem a barra com uma declaração. Twig imprime o valor que recebe; movê-lo depois é responsabilidade do navegador.'
+  section:
+    default:
+      title: Estados
+      description: 'O valor é uma contagem ou uma participação escrita como uma porcentagem, e nunca responde fora de seus limites. A cor é a do feedback, então uma barra diz como seu trabalho terminou na mesma linguagem que uma mensagem ou um status.'
+    plain:
+      title: 'Sem um total'
+      description: 'Cem é o que uma barra conta quando ninguém diz o contrário, o que faz da porcentagem a única coisa que pode dar a ela. Um total próprio é para trabalho contado em coisas em vez de em partes.'
+    indeterminate:
+      title: 'Um fim que não é conhecido'
+      description: 'Trabalho em andamento cujo tamanho ninguém conhece: a barra varre e não diz um número. Reivindicar uma participação aqui seria um palpite disfarçado de medição.'
+    compact:
+      title: Compacto
+      description: 'Reduzido ao que precisa dizer, para uma linha de status ou um rodapé: uma trilha mais fina, a redação ao lado em vez de acima, e a densidade passada para o que estiver ao seu lado.'
+    vue:
+      title: 'Vue, dirigido'
+      description: 'A mesma barra, com o vocabulário que o progresso do cli já fala — atualizar, avançar, finalizar, redefinir. Um passo sobre o qual nada é dito vale uma unidade, que é o que se deve chamar onde nem a unidade nem o total significam algo.'
+  bar:
+    queued: 'Na fila'
+    working: 'Construindo recursos'
+    almost: 'Fazendo upload'
+    done: Implantado
+    failed: 'Migração falhou'
+    counted: 'Arquivos lidos'
+    unknown: 'Procurando algo'
+    indexing: Indexando
+  compact:
+    app: acme-blog
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Прогресс
+  page_icon: 'ph:bold/gauge'
+  intro: 'Насколько далеко продвинулось что-то, выраженное в виде отношения между 0 и 1 в пользовательском свойстве — так же, как статусный круг отображает свой сектор, обе стороны стека заполняют полосу одним утверждением. Twig выводит значение, которое ему дано; перемещение его впоследствии — это дело браузера.'
+  section:
+    default:
+      title: Состояния
+      description: 'Значение — это количество или доля, выраженная в процентах, и оно никогда не выходит за свои пределы. Цвет — это цвет обратной связи, поэтому полоса показывает, как закончилась ее работа на том же языке, что и сообщение или статус.'
+    plain:
+      title: 'Без итога'
+      description: 'Сотня — это то, к чему стремится полоса, если никто не говорит иначе, что делает процент единственным показателем. Собственный итог нужен для работы, подсчитываемой в вещах, а не в частях.'
+    indeterminate:
+      title: 'Конец, который неизвестен'
+      description: 'Работа в процессе, размер которой никто не знает: полоса движется и не показывает числа. Утверждать долю здесь было бы предположением, замаскированным под измерение.'
+    compact:
+      title: Компактный
+      description: 'Сокращено до необходимого, для строки состояния или подвала: более тонкая дорожка, текст рядом с ней, а не над ней, и плотность передана тому, что стоит рядом.'
+    vue:
+      title: 'Vue, управляемый'
+      description: 'Та же полоса, с лексикой, которую уже использует cli progress — обновление, продвижение, завершение, сброс. Шаг, о котором ничего не сказано, стоит одну единицу, что и означает, когда ни единица, ни итог ничего не значат.'
+  bar:
+    queued: 'В очереди'
+    working: 'Создание ресурсов'
+    almost: Загрузка
+    done: Развернуто
+    failed: 'Ошибка миграции'
+    counted: 'Файлы прочитаны'
+    unknown: 'Ищем что-то'
+    indexing: Индексация
+  compact:
+    app: acme-блог
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ความก้าวหน้า
+  page_icon: 'ph:bold/gauge'
+  intro: 'ระยะทางที่บางสิ่งได้รับการดำเนินการ โดยแสดงเป็นอัตราส่วนระหว่าง 0 ถึง 1 ในคุณสมบัติที่กำหนดเอง — เช่นเดียวกับที่วงกลมสถานะแสดงอาร์คของมัน ดังนั้นทั้งสองด้านของสแต็กจึงเติมบาร์ด้วยการประกาศเดียว Twig จะแสดงค่าที่ได้รับ; การเคลื่อนที่หลังจากนั้นเป็นเรื่องของเบราว์เซอร์.'
+  section:
+    default:
+      title: สถานะ
+      description: 'ค่าคือจำนวนหรือตัวแบ่งที่เขียนเป็นเปอร์เซ็นต์ และไม่เคยตอบนอกเหนือจากขอบเขตของมัน สีคือการตอบกลับ ดังนั้นบาร์จึงบอกถึงวิธีที่งานของมันสิ้นสุดในภาษาเดียวกับข้อความหรือสถานะ.'
+    plain:
+      title: ไม่มีรวมทั้งหมด
+      description: 'หนึ่งร้อยคือจำนวนที่บาร์นับเมื่อไม่มีใครบอกเป็นอย่างอื่น ซึ่งทำให้เปอร์เซ็นต์เป็นสิ่งเดียวที่ให้มัน รวมทั้งหมดของมันเองคือการนับในสิ่งต่าง ๆ แทนที่จะเป็นในส่วน.'
+    indeterminate:
+      title: จบที่ไม่รู้
+      description: 'งานที่กำลังดำเนินการซึ่งขนาดไม่มีใครรู้: บาร์จะเคลื่อนที่และบอกว่าไม่มีหมายเลข การเรียกร้องส่วนที่นี่จะเป็นการเดาที่แต่งตัวเป็นการวัดผล.'
+    compact:
+      title: กะทัดรัด
+      description: 'ลดลงเป็นสิ่งที่ต้องพูด สำหรับบรรทัดสถานะหรือฟุตเตอร์: เส้นทางที่บางลง คำพูดอยู่ข้างๆ แทนที่จะอยู่ด้านบน และความหนาแน่นที่ส่งต่อไปยังสิ่งที่ยืนอยู่กับมัน.'
+    vue:
+      title: 'Vue, ขับเคลื่อน'
+      description: 'บาร์เดียวกันกับคำศัพท์ที่ cli progress พูดอยู่แล้ว — อัปเดต, ก้าวหน้า, เสร็จสิ้น, รีเซ็ต ขั้นตอนที่ไม่มีการพูดถึงมีค่าเท่ากับหนึ่งหน่วย ซึ่งคือสิ่งที่เรียกว่าที่ซึ่งทั้งหน่วยและรวมทั้งหมดไม่มีความหมาย.'
+  bar:
+    queued: อยู่ในคิว
+    working: กำลังสร้างสินทรัพย์
+    almost: กำลังอัปโหลด
+    done: ถูกนำไปใช้งาน
+    failed: การโยกย้ายล้มเหลว
+    counted: ไฟล์ที่อ่านแล้ว
+    unknown: กำลังค้นหาบางสิ่ง
+    indexing: กำลังสร้างดัชนี
+  compact:
+    app: acme-blog
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: İlerleme
+  page_icon: 'ph:bold/gauge'
+  intro: 'Bir şeyin ne kadar ilerlediği, özel bir özellikte 0 ile 1 arasında bir oran olarak taşınır - durum çemberinin kavisini taşıdığı şekilde, yığının her iki tarafı da çubuğu tek bir beyan ile doldurur. Twig, verilen değeri yazdırır; sonrasında hareket ettirmek tarayıcının işidir.'
+  section:
+    default:
+      title: Durumlar
+      description: 'Değer, bir sayı veya yüzde olarak yazılmış bir paydır ve asla sınırlarının dışına cevap vermez. Renk, geri bildirim rengidir, bu yüzden bir çubuk çalışmasının sona erdiğini bir mesaj veya durumla aynı dilde ifade eder.'
+    plain:
+      title: 'Toplam olmadan'
+      description: 'Kimse başka bir şey söylemediğinde bir çubuk yüz sayısına kadar sayar, bu da yüzdeyi onun için tek şey yapar. Kendi toplamı, parçalar yerine şeyler olarak sayılan işler içindir.'
+    indeterminate:
+      title: 'Bilinmeyen bir son'
+      description: 'Kimsenin bilmediği büyüklükte bir çalışmanın devam ettiği: çubuk süzüldü ve hiçbir sayı söylemiyor. Burada bir pay talep etmek, bir ölçüm olarak giydirilmiş bir tahmin olur.'
+    compact:
+      title: Kompakt
+      description: 'Söylemesi gerekenlerin kısaltılmış hali, bir durum satırı veya bir alt bilgi için: daha ince bir iz, kelimelerin yanında olması, yukarısında değil, ve yoğunluğun yanında durana iletilmesi.'
+    vue:
+      title: 'Vue, sürülmüş'
+      description: 'Aynı çubuk, cli ilerlemenin zaten konuştuğu kelime dağarcığı ile — güncelle, ilerle, bitir, sıfırla. Üzerinde hiçbir şey söylenmeyen bir adım bir birim değerindedir; bu da ne birimin ne de toplamın bir şey ifade etmediği yerdir.'
+  bar:
+    queued: Beklemede
+    working: 'Varlıkları oluşturuyor'
+    almost: Yükleniyor
+    done: Yayımlandı
+    failed: 'Göç başarısız'
+    counted: 'Dosyalar okundu'
+    unknown: 'Bir şey aranıyor'
+    indexing: İndeksleniyor
+  compact:
+    app: acme-blog
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ترقی
+  page_icon: 'ph:bold/gauge'
+  intro: 'کسی چیز کی ترقی کی سطح، جو ایک مخصوص خاصیت میں 0 اور 1 کے درمیان تناسب کے طور پر دکھائی جاتی ہے — جیسے حیثیت کا دائرہ اپنی قوس کو ظاہر کرتا ہے، اسی طرح دونوں طرف کے اسٹیک اس بار کو ایک اعلان کے ساتھ بھر دیتے ہیں۔ ٹوئگ وہ قیمت پرنٹ کرتا ہے جو اسے دی گئی ہے؛ بعد میں اسے منتقل کرنا براؤزر کا کام ہے۔'
+  section:
+    default:
+      title: حالتیں
+      description: 'یہ قیمت ایک تعداد یا ایک حصہ ہے جو فیصد کے طور پر لکھی گئی ہے، اور کبھی بھی اپنے حدود سے باہر جواب نہیں دیتی۔ رنگ فیڈبیک کا ہوتا ہے، لہٰذا ایک بار یہ بتاتی ہے کہ اس کا کام کس طرح ختم ہوا اسی زبان میں جیسے ایک پیغام یا حیثیت۔'
+    plain:
+      title: 'بغیر مجموعی'
+      description: 'سو وہ تعداد ہے جس تک ایک بار پہنچتا ہے جب کوئی اور کچھ نہیں کہتا، جو اسے دینے کے لیے صرف فیصد بناتا ہے۔ اپنا مجموعہ چیزوں میں شمار شدہ کام کے لیے ہے نہ کہ حصوں میں۔'
+    indeterminate:
+      title: 'ایک اختتام جو معلوم نہیں'
+      description: 'کام جاری ہے جس کا سائز کوئی نہیں جانتا: بار جھاڑتا ہے اور کوئی نمبر نہیں بتاتا۔ یہاں کسی حصہ کا دعویٰ کرنا ایک اندازہ ہوگا جو ایک پیمائش کی شکل میں ہے۔'
+    compact:
+      title: کمپیکٹ
+      description: 'اسے صرف وہی کہنا ہے جو اسے کہنا ہے، ایک حیثیت لائن یا فٹر کے لیے: ایک پتلا راستہ، اس کے ساتھ الفاظ اوپر نہیں بلکہ اس کے ساتھ، اور کثافت جو کچھ بھی اس کے ساتھ ہو اس پر منتقل کر دی گئی ہے۔'
+    vue:
+      title: 'ویو، چلایا گیا'
+      description: 'وہی بار، cli ترقی کی زبان کے ساتھ — اپ ڈیٹ، ترقی، ختم، ری سیٹ۔ ایک قدم جس کے بارے میں کچھ نہیں کہا گیا ایک یونٹ کے قابل ہے، جو یہ ہے کہ جہاں نہ تو یونٹ اور نہ ہی مجموعہ کا کوئی مطلب ہے۔'
+  bar:
+    queued: 'قطار میں'
+    working: 'اثاثے بنائے جا رہے ہیں'
+    almost: 'اپ لوڈ ہو رہا ہے'
+    done: 'پہنچایا گیا'
+    failed: 'ہجرت ناکام'
+    counted: 'فائلیں پڑھی گئیں'
+    unknown: 'کچھ تلاش کیا جا رہا ہے'
+    indexing: انڈیکسنگ
+  compact:
+    app: acme-blog
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Tiến độ'
+  page_icon: 'ph:bold/gauge'
+  intro: 'Mức độ tiến triển của một cái gì đó, được biểu thị dưới dạng tỷ lệ giữa 0 và 1 trong một thuộc tính tùy chỉnh — giống như vòng tròn trạng thái mang theo cung của nó, cả hai bên của ngăn xếp lấp đầy thanh với một tuyên bố. Twig in giá trị mà nó nhận được; việc di chuyển sau đó là việc của trình duyệt.'
+  section:
+    default:
+      title: 'Trạng thái'
+      description: 'Giá trị là một số đếm hoặc một phần được viết dưới dạng phần trăm, và không bao giờ phản hồi ngoài giới hạn của nó. Màu sắc là phản hồi, vì vậy một thanh cho biết công việc của nó kết thúc như thế nào bằng ngôn ngữ giống như một thông điệp hoặc một trạng thái.'
+    plain:
+      title: 'Không có tổng số'
+      description: 'Một trăm là số mà một thanh đếm đến khi không ai nói khác, điều này làm cho phần trăm trở thành thứ duy nhất để cung cấp cho nó. Một tổng số của riêng nó là cho công việc được đếm bằng thứ chứ không phải bằng phần.'
+    indeterminate:
+      title: 'Một kết thúc không biết'
+      description: 'Công việc đang diễn ra mà kích thước không ai biết: thanh quét và không đưa ra số nào. Khẳng định một phần ở đây sẽ là một dự đoán được khoác lên như một phép đo.'
+    compact:
+      title: 'Gọn gàng'
+      description: 'Giảm xuống những gì nó cần nói, cho một dòng trạng thái hoặc một chân trang: một đường ray mỏng hơn, từ ngữ bên cạnh nó thay vì bên trên, và độ dày truyền lại cho bất cứ điều gì đứng cùng nó.'
+    vue:
+      title: 'Vue, điều khiển'
+      description: 'Cùng một thanh, với từ vựng mà tiến trình cli đã nói — cập nhật, tiến lên, hoàn thành, đặt lại. Một bước với không có gì được nói về nó có giá trị một đơn vị, đó là điều để gọi nơi mà cả đơn vị và tổng số đều không có nghĩa gì.'
+  bar:
+    queued: 'Đang chờ'
+    working: 'Đang xây dựng tài nguyên'
+    almost: 'Đang tải lên'
+    done: 'Đã triển khai'
+    failed: 'Di chuyển không thành công'
+    counted: 'Tệp đã đọc'
+    unknown: 'Đang tìm kiếm cái gì đó'
+    indexing: 'Đang lập chỉ mục'
+  compact:
+    app: acme-blog
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 进度
+  page_icon: 'ph:bold/gauge'
+  intro: '某物进展的程度，以 0 和 1 之间的比率在自定义属性中表示——就像状态圆圈承载其弧线一样，因此堆栈的两侧用一个声明填充条。Twig 打印它所给的值；之后移动它是浏览器的事。'
+  section:
+    default:
+      title: 状态
+      description: 该值是以百分比形式写出的计数或份额，并且永远不会超出其范围。颜色是反馈色，因此条形图用与消息或状态相同的语言说明其工作结束的情况。
+    plain:
+      title: 没有总数
+      description: 当没有其他说明时，条形图计数到一百，这使得百分比成为唯一的指标。它自己的总数适用于以物品而不是部分计数的工作。
+    indeterminate:
+      title: 未知的结束
+      description: 正在进行的工作，其大小无人知晓：条形图扫过并不显示数字。在这里声称份额将是伪装成测量的猜测。
+    compact:
+      title: 紧凑
+      description: 缩减至必须传达的内容，适用于状态行或页脚：更细的轨迹，文字旁边而不是上方，密度传递给与之并存的内容。
+    vue:
+      title: Vue，驱动
+      description: '相同的条形图，使用 cli 进度已经使用的词汇——更新、前进、完成、重置。没有说明的步骤值为一个单位，这就是称之为当单位和总数都没有意义的地方。'
+  bar:
+    queued: 排队中
+    working: 构建资产
+    almost: 上传中
+    done: 已部署
+    failed: 迁移失败
+    counted: 已读取文件
+    unknown: 正在寻找某物
+    indexing: 索引中
+  compact:
+    app: acme-blog

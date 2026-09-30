@@ -1,0 +1,1706 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Properties
+  page_icon: ph:bold/list-dashes
+
+  intro: "Key / value pairs rendered as a definition list. Rows are subgrids of the list, so keys stay aligned in a single column while each row remains a real box that can carry a separator."
+
+  section:
+    default:
+      title: Default
+      description: The key column sizes itself on the longest label. Override --properties-key-width to pin it.
+    bordered:
+      title: Bordered
+      description: A separator between rows, for dense records inside a block body.
+      block_title: Connection details
+    split:
+      title: Split
+      description: Values pushed to the right edge — totals, balances, anything read as a column of figures.
+    compact:
+      title: Compact
+      description: Tighter rows when the list is secondary to the rest of the block.
+    stacked:
+      title: Stacked
+      description: Key above value, for narrow columns where two columns would wrap badly.
+      aside: The body keeps the remaining width while the aside column stays fixed.
+    columns:
+      title: Columns
+      description: "A dozen short pairs read badly in one tall column: the eye crosses the width of the page between a key and its value, and the separators end up holding each pair together. Laid out in columns — as many as the width allows, down to one on a phone — a pair becomes a small block of two lines that needs no rule around it. A value no column can hold takes the whole width with `full`."
+    vue:
+      title: Vue
+      description: "The same list as a vue partial, taking the modifiers as props: a record built while the page runs reads like one rendered with it."
+
+  field:
+    name:
+      key: Name
+      value: Pipeline projection
+    identifier:
+      key: Identifier
+      value: prj_8f21c4a7
+    description:
+      key: Description
+      value: Aggregates incoming events and exposes them as a queryable projection.
+    status:
+      key: Status
+      value: Ready
+    owner:
+      key: Owner
+      value: Platform team
+    created:
+      key: Created
+      value: March 14, 2026
+    region:
+      key: Region
+      value: eu-west-1
+    runtime:
+      key: Runtime
+      value: PHP 8.3
+    version:
+      key: Version
+      value: 1.4.2
+    reviewed:
+      key: Reviewed on
+      value: null
+    path:
+      key: File
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+
+  amount:
+    subtotal:
+      key: Subtotal
+      value: 1,240.00 €
+    tax:
+      key: Tax
+      value: 248.00 €
+    total:
+      key: Total
+      value: 1,488.00 €
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الخصائص
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'أزواج المفتاح / القيمة تم عرضها كقائمة تعريف. الصفوف هي شبكات فرعية للقائمة، لذا تبقى المفاتيح متراصة في عمود واحد بينما يظل كل صف صندوقًا حقيقيًا يمكن أن يحمل فاصلًا.'
+  section:
+    default:
+      title: افتراضي
+      description: 'يحدد عمود المفتاح حجمه بناءً على أطول تسمية. تجاوز --properties-key-width لتثبيته.'
+    bordered:
+      title: محدد
+      description: 'فاصل بين الصفوف، من أجل سجلات كثيفة داخل جسم كتلة.'
+      block_title: 'تفاصيل الاتصال'
+    split:
+      title: مقسم
+      description: 'القيم تدفع إلى الحافة اليمنى — الإجماليات، الأرصدة، أي شيء يُقرأ كعمود من الأرقام.'
+    compact:
+      title: مضغوط
+      description: 'صفوف أكثر تماسكًا عندما تكون القائمة ثانوية لبقية الكتلة.'
+    stacked:
+      title: مكدس
+      description: 'المفتاح فوق القيمة، لعمود ضيق حيث سيلتف عمودين بشكل سيئ.'
+      aside: 'يحافظ الجسم على العرض المتبقي بينما يبقى عمود الجانب ثابتًا.'
+    columns:
+      title: أعمدة
+      description: 'عشرات الأزواج القصيرة تُقرأ بشكل سيئ في عمود طويل واحد: العين تعبر عرض الصفحة بين مفتاح وقيمته، وينتهي الأمر بالفواصل بحمل كل زوج معًا. عند توزيعها في أعمدة — بقدر ما يسمح العرض، وصولاً إلى واحد على الهاتف — يصبح الزوج كتلة صغيرة من سطرين لا تحتاج إلى قاعدة حولها. قيمة لا يمكن لأي عمود استيعابها تأخذ العرض الكامل مع `full`.'
+    vue:
+      title: فيو
+      description: 'نفس القائمة كجزء vue، تأخذ المعدلات كخصائص: سجل تم بناؤه أثناء تشغيل الصفحة يقرأ كواحد تم عرضه معها.'
+  field:
+    name:
+      key: الاسم
+      value: 'توقع خط الأنابيب'
+    identifier:
+      key: المعرف
+      value: prj_8f21c4a7
+    description:
+      key: الوصف
+      value: 'يجمع الأحداث الواردة ويعرضها كتمثيل يمكن الاستعلام عنه.'
+    status:
+      key: الحالة
+      value: جاهز
+    owner:
+      key: المالك
+      value: 'فريق المنصة'
+    created:
+      key: أنشئ
+      value: '14 مارس 2026'
+    region:
+      key: المنطقة
+      value: eu-west-1
+    runtime:
+      key: 'وقت التشغيل'
+      value: 'PHP 8.3'
+    version:
+      key: الإصدار
+      value: 1.4.2
+    reviewed:
+      key: 'تم مراجعته في'
+      value: null
+    path:
+      key: الملف
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'المجموع الفرعي'
+      value: '1,240.00 €'
+    tax:
+      key: الضريبة
+      value: '248.00 €'
+    total:
+      key: الإجمالي
+      value: '1,488.00 €'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: সম্পত্তি
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'কী / মান জোড়া একটি সংজ্ঞা তালিকা হিসাবে প্রদর্শিত হয়। সারিগুলি তালিকার উপ-গ্রিড, তাই কী একটি কলামে সজ্জিত থাকে এবং প্রতিটি সারি একটি বাস্তব বাক্স থাকে যা একটি বিভাজক ধারণ করতে পারে।'
+  section:
+    default:
+      title: ডিফল্ট
+      description: 'কী কলামটি সবচেয়ে দীর্ঘ লেবেলের উপর ভিত্তি করে আকারে নিজেকে তৈরি করে। এটিকে নির্দিষ্ট করতে --properties-key-width অতিক্রম করুন।'
+    bordered:
+      title: সীমানাযুক্ত
+      description: 'একটি ব্লক বডির মধ্যে ঘন রেকর্ডের জন্য সারির মধ্যে একটি বিভাজক।'
+      block_title: 'সংযোগের বিস্তারিত'
+    split:
+      title: বিভক্ত
+      description: 'দাঁড়িয়ে থাকা মানগুলি ডান প্রান্তে — মোট, ভারসাম্য, যা কিছু সংখ্যার একটি কলাম হিসাবে পড়া হয়।'
+    compact:
+      title: সংকুচিত
+      description: 'যখন তালিকা ব্লকের বাকি অংশের তুলনায় দ্বিতীয়ক, তখন ঘন সারি।'
+    stacked:
+      title: গাদা
+      description: 'মূল্যর উপরে কী, সংকীর্ণ কলামের জন্য যেখানে দুটি কলাম খারাপভাবে মোড়ানো হবে।'
+      aside: 'শরীর অবশিষ্ট প্রস্থ ধরে রাখে যখন পাশের কলাম স্থির থাকে।'
+    columns:
+      title: কলাম
+      description: "একটি লম্বা কলামে একটি ডজন সংক্ষিপ্ত জোড়া পড়া খারাপ: চোখটি কী এবং তার মানের মধ্যে পৃষ্ঠার প্রস্থ অতিক্রম করে এবং বিভাজকগুলি প্রতিটি জোড়াকে একসাথে ধরে রাখে। কলামগুলিতে সাজানো — যতটা প্রস্থ অনুমতি দেয়, একটি ফোনে একটিতে — একটি জোড়া দু'লাইনের একটি ছোট ব্লকে পরিণত হয় যার চারপাশে কোনও নিয়মের প্রয়োজন হয় না। কোনও কলাম ধারণ করতে না পারা একটি মান `full` দিয়ে পুরো প্রস্থ নেয়।"
+    vue:
+      title: ভিউ
+      description: 'একটি ভিউ অংশ হিসাবে একই তালিকা, প্রপস হিসাবে মডিফায়ারগুলি নিয়ে: পৃষ্ঠা চলাকালীন নির্মিত একটি রেকর্ড এটি সহ তৈরি হওয়ার মতো পড়ে।'
+  field:
+    name:
+      key: নাম
+      value: 'পাইপলাইন প্রক্ষেপণ'
+    identifier:
+      key: চিহ্নিতকারী
+      value: prj_8f21c4a7
+    description:
+      key: বর্ণনা
+      value: 'আসন্ন ইভেন্টগুলিকে একত্রিত করে এবং সেগুলি একটি অনুসন্ধানযোগ্য প্রক্ষেপণ হিসাবে প্রকাশ করে।'
+    status:
+      key: অবস্থা
+      value: প্রস্তুত
+    owner:
+      key: মালিক
+      value: 'প্ল্যাটফর্ম টিম'
+    created:
+      key: 'সৃষ্টি হয়েছে'
+      value: 'মার্চ ১৪, ২০২৬'
+    region:
+      key: অঞ্চল
+      value: eu-west-1
+    runtime:
+      key: রানটাইম
+      value: 'PHP 8.3'
+    version:
+      key: সংস্করণ
+      value: 1.4.2
+    reviewed:
+      key: 'পর্যালোচনা করা হয়েছে'
+      value: null
+    path:
+      key: ফাইল
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: উপমোট
+      value: '1,240.00 €'
+    tax:
+      key: কর
+      value: '248.00 €'
+    total:
+      key: মোট
+      value: '1,488.00 €'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Eigenschaften
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Schlüssel-/Wert-Paare, die als Definitionsliste dargestellt werden. Zeilen sind Untergitter der Liste, sodass die Schlüssel in einer einzelnen Spalte ausgerichtet bleiben, während jede Zeile ein echtes Feld bleibt, das einen Separator tragen kann.'
+  section:
+    default:
+      title: Standard
+      description: 'Die Schlüsselspalte passt sich an das längste Label an. Überschreiben Sie --properties-key-width, um es festzulegen.'
+    bordered:
+      title: 'Mit Rand'
+      description: 'Ein Separator zwischen den Zeilen für kompakte Datensätze innerhalb eines Blockkörpers.'
+      block_title: Verbindungsdetails
+    split:
+      title: Geteilt
+      description: 'Werte werden an den rechten Rand geschoben — Summen, Salden, alles, was als Spalte von Zahlen gelesen wird.'
+    compact:
+      title: Kompakt
+      description: 'Engere Zeilen, wenn die Liste sekundär zum Rest des Blocks ist.'
+    stacked:
+      title: Gestapelt
+      description: 'Schlüssel über Wert, für schmale Spalten, in denen zwei Spalten schlecht umbrechen würden.'
+      aside: 'Der Körper behält die verbleibende Breite, während die Seitenleiste fix bleibt.'
+    columns:
+      title: Spalten
+      description: 'Dutzende kurze Paare lesen sich schlecht in einer hohen Spalte: das Auge überquert die Breite der Seite zwischen einem Schlüssel und seinem Wert, und die Separatoren halten jedes Paar zusammen. In Spalten angeordnet — so viele wie die Breite zulässt, bis zu einer auf einem Telefon — wird ein Paar zu einem kleinen Block aus zwei Zeilen, der keinen Rahmen benötigt. Ein Wert, den keine Spalte halten kann, nimmt die gesamte Breite mit `full` ein.'
+    vue:
+      title: Vue
+      description: 'Die gleiche Liste als Vue-Teil, der die Modifikatoren als Props übernimmt: ein Eintrag, der erstellt wird, während die Seite läuft, liest sich wie einer, der mit ihr gerendert wird.'
+  field:
+    name:
+      key: Name
+      value: Pipeline-Projektion
+    identifier:
+      key: Identifikator
+      value: prj_8f21c4a7
+    description:
+      key: Beschreibung
+      value: 'Aggregiert eingehende Ereignisse und stellt sie als abfragbare Projektion zur Verfügung.'
+    status:
+      key: Status
+      value: Bereit
+    owner:
+      key: Besitzer
+      value: Plattform-Team
+    created:
+      key: Erstellt
+      value: '14. März 2026'
+    region:
+      key: Region
+      value: eu-west-1
+    runtime:
+      key: Laufzeit
+      value: 'PHP 8.3'
+    version:
+      key: Version
+      value: 1.4.2
+    reviewed:
+      key: 'Überprüft am'
+      value: null
+    path:
+      key: Datei
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Zwischensumme
+      value: '1,240.00 €'
+    tax:
+      key: Steuer
+      value: '248.00 €'
+    total:
+      key: Gesamt
+      value: '1,488.00 €'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Propiedades
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Pares clave / valor renderizados como una lista de definiciones. Las filas son subgrillas de la lista, por lo que las claves permanecen alineadas en una sola columna mientras que cada fila sigue siendo una caja real que puede llevar un separador.'
+  section:
+    default:
+      title: Predeterminado
+      description: 'La columna de clave se ajusta al label más largo. Sobrescribe --properties-key-width para fijarlo.'
+    bordered:
+      title: 'Con borde'
+      description: 'Un separador entre filas, para registros densos dentro de un cuerpo de bloque.'
+      block_title: 'Detalles de conexión'
+    split:
+      title: Dividido
+      description: 'Valores empujados al borde derecho — totales, balances, cualquier cosa leída como una columna de cifras.'
+    compact:
+      title: Compacto
+      description: 'Filas más ajustadas cuando la lista es secundaria al resto del bloque.'
+    stacked:
+      title: Apilado
+      description: 'Clave encima del valor, para columnas estrechas donde dos columnas se envolverían mal.'
+      aside: 'El cuerpo mantiene el ancho restante mientras que la columna lateral permanece fija.'
+    columns:
+      title: Columnas
+      description: 'Una docena de pares cortos se leen mal en una columna alta: el ojo cruza el ancho de la página entre una clave y su valor, y los separadores terminan manteniendo cada par unido. Dispuestos en columnas — tantas como lo permite el ancho, hasta una en un teléfono — un par se convierte en un pequeño bloque de dos líneas que no necesita regla a su alrededor. Un valor que ninguna columna puede contener toma todo el ancho con `full`.'
+    vue:
+      title: Vue
+      description: 'La misma lista como un parcial de vue, tomando los modificadores como props: un registro construido mientras se ejecuta la página se lee como uno renderizado con ella.'
+  field:
+    name:
+      key: Nombre
+      value: 'Proyección de tubería'
+    identifier:
+      key: Identificador
+      value: prj_8f21c4a7
+    description:
+      key: Descripción
+      value: 'Agrega eventos entrantes y los expone como una proyección consultable.'
+    status:
+      key: Estado
+      value: Listo
+    owner:
+      key: Propietario
+      value: 'Equipo de plataforma'
+    created:
+      key: Creado
+      value: '14 de marzo de 2026'
+    region:
+      key: Región
+      value: eu-west-1
+    runtime:
+      key: 'Tiempo de ejecución'
+      value: 'PHP 8.3'
+    version:
+      key: Versión
+      value: 1.4.2
+    reviewed:
+      key: 'Revisado el'
+      value: null
+    path:
+      key: Archivo
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Subtotal
+      value: '1,240.00 €'
+    tax:
+      key: Impuesto
+      value: '248.00 €'
+    total:
+      key: Total
+      value: '1,488.00 €'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: خصوصیات
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'جفت‌های کلید/مقدار به صورت یک لیست تعریفی نمایش داده می‌شوند. ردیف‌ها زیرمجموعه‌های لیست هستند، بنابراین کلیدها در یک ستون منظم باقی می‌مانند در حالی که هر ردیف یک جعبه واقعی است که می‌تواند جداکننده‌ای را حمل کند.'
+  section:
+    default:
+      title: پیش‌فرض
+      description: 'ستون کلید به طولانی‌ترین برچسب خود را تنظیم می‌کند. می‌توانید --properties-key-width را برای ثابت نگه‌داشتن آن تغییر دهید.'
+    bordered:
+      title: 'با حاشیه'
+      description: 'یک جداکننده بین ردیف‌ها، برای رکوردهای متراکم در داخل یک بدنه بلوک.'
+      block_title: 'جزئیات اتصال'
+    split:
+      title: 'تقسیم شده'
+      description: 'مقادیر به لبه راست فشار داده می‌شوند — مجموع‌ها، ترازها، هر چیزی که به عنوان یک ستون اعداد خوانده می‌شود.'
+    compact:
+      title: فشرده
+      description: 'ردیف‌های فشرده‌تر وقتی که لیست در اولویت کمتری نسبت به بقیه بلوک قرار دارد.'
+    stacked:
+      title: 'چیده شده'
+      description: 'کلید بالای مقدار، برای ستون‌های باریک که در آن دو ستون به‌خوبی پیچیده نمی‌شوند.'
+      aside: 'بدنه عرض باقی‌مانده را حفظ می‌کند در حالی که ستون کنار ثابت می‌ماند.'
+    columns:
+      title: ستون‌ها
+      description: 'یک دوجین جفت کوتاه در یک ستون بلند به‌خوبی خوانده نمی‌شود: چشم عرض صفحه را بین یک کلید و مقدارش طی می‌کند و جداکننده‌ها در نهایت هر جفت را کنار هم نگه می‌دارند. در ستون‌ها چیده شده - به تعداد عرض اجازه می‌دهد، تا یک در یک تلفن - یک جفت به یک بلوک کوچک دو خطی تبدیل می‌شود که به هیچ قاعده‌ای در اطرافش نیاز ندارد. یک مقداری که هیچ ستونی نمی‌تواند آن را نگه دارد، با `full` تمام عرض را می‌گیرد.'
+    vue:
+      title: Vue
+      description: 'همان لیست به عنوان یک بخش vue، که تغییرات را به عنوان props می‌گیرد: یک رکورد که در حین اجرای صفحه ساخته می‌شود، مانند یکی است که با آن رندر می‌شود.'
+  field:
+    name:
+      key: نام
+      value: 'پیش‌بینی خط لوله'
+    identifier:
+      key: شناسه
+      value: prj_8f21c4a7
+    description:
+      key: توضیحات
+      value: 'رویدادهای ورودی را تجمیع می‌کند و آنها را به عنوان یک پیش‌بینی قابل پرسش ارائه می‌دهد.'
+    status:
+      key: وضعیت
+      value: آماده
+    owner:
+      key: مالک
+      value: 'تیم پلتفرم'
+    created:
+      key: 'ایجاد شده'
+      value: '14 مارس 2026'
+    region:
+      key: منطقه
+      value: eu-west-1
+    runtime:
+      key: 'زمان اجرا'
+      value: 'PHP 8.3'
+    version:
+      key: نسخه
+      value: 1.4.2
+    reviewed:
+      key: 'بررسی شده در'
+      value: null
+    path:
+      key: فایل
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'جمع جزئی'
+      value: '1,240.00 €'
+    tax:
+      key: مالیات
+      value: '248.00 €'
+    total:
+      key: 'جمع کل'
+      value: '1,488.00 €'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ominaisuudet
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Avain / arvo -parit esitetään määritelmälistana. Rivit ovat listan alaverkkoja, joten avaimet pysyvät kohdistettuina yhteen sarakkeeseen, kun taas jokainen rivi on oikea laatikko, joka voi sisältää erottimen.'
+  section:
+    default:
+      title: Oletusarvo
+      description: 'Avainsarake sopeutuu pisimmän tunnisteen mukaan. Yli kirjoita --properties-key-width kiinnittääksesi sen.'
+    bordered:
+      title: Reunustettu
+      description: 'Eroitin rivien välillä, tiheille tietueille lohkon sisällä.'
+      block_title: Yhteystiedot
+    split:
+      title: Jaettu
+      description: 'Arvot työnnetään oikeaan reunaan — yhteenveto, saldot, kaikki, mikä luetaan numeroiden sarjaksi.'
+    compact:
+      title: Tiivis
+      description: 'Tiiviimmät rivit, kun lista on toissijainen lohkon muuhun sisältöön verrattuna.'
+    stacked:
+      title: Pino
+      description: 'Avain arvon yläpuolella, kapeille sarakkeille, joissa kaksi saraketta kääntyisi huonosti.'
+      aside: 'Runko säilyttää jäljelle jäävän leveyden, kun taas sivusarakkeessa on kiinteä leveys.'
+    columns:
+      title: Sarakkeet
+      description: 'Kymmenen lyhyttä paria näyttää huonolta yhdessä korkeassa sarakkeessa: silmä ylittää sivun leveyden avaimen ja sen arvon välillä, ja erottimet pitävät jokaisen parin yhdessä. Asetettuna sarakkeisiin — niin monta kuin leveys sallii, jopa yksi puhelimessa — pari muuttuu pieneksi kahden rivin lohkoksi, joka ei tarvitse sääntöä ympärilleen. Arvo, jota mikään sarake ei voi pitää, vie koko leveyden `full`.'
+    vue:
+      title: Vue
+      description: 'Sama lista vue-osana, ottaen muokkaimet propseina: tietue, joka rakennetaan sivun suorittaessa, näyttää siltä kuin se olisi esitetty sen kanssa.'
+  field:
+    name:
+      key: Nimi
+      value: 'Putkilohkon projekti'
+    identifier:
+      key: Tunniste
+      value: prj_8f21c4a7
+    description:
+      key: Kuvaus
+      value: 'Kokoaa saapuvat tapahtumat ja esittää ne kyselynä. projektiona.'
+    status:
+      key: Tila
+      value: Valmis
+    owner:
+      key: Omistaja
+      value: Alustatiimi
+    created:
+      key: Luotu
+      value: '14. maaliskuuta 2026'
+    region:
+      key: Alue
+      value: eu-west-1
+    runtime:
+      key: Suoritusaika
+      value: 'PHP 8.3'
+    version:
+      key: Versio
+      value: 1.4.2
+    reviewed:
+      key: Arvioitu
+      value: null
+    path:
+      key: Tiedosto
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Välisumma
+      value: '1,240.00 €'
+    tax:
+      key: Verot
+      value: '248.00 €'
+    total:
+      key: Yhteensä
+      value: '1,488.00 €'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Propriétés
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Paires clé / valeur rendues sous forme de liste de définitions. Les lignes sont des sous-grilles de la liste, donc les clés restent alignées dans une seule colonne tandis que chaque ligne reste une vraie boîte qui peut porter un séparateur.'
+  section:
+    default:
+      title: 'Par défaut'
+      description: "La colonne des clés s'ajuste sur le label le plus long. Remplacez --properties-key-width pour le fixer."
+    bordered:
+      title: Encadré
+      description: "Un séparateur entre les lignes, pour des enregistrements denses à l'intérieur d'un corps de bloc."
+      block_title: 'Détails de connexion'
+    split:
+      title: Séparé
+      description: 'Valeurs poussées vers le bord droit — totaux, soldes, tout ce qui est lu comme une colonne de chiffres.'
+    compact:
+      title: Compact
+      description: 'Lignes plus serrées lorsque la liste est secondaire par rapport au reste du bloc.'
+    stacked:
+      title: Empilé
+      description: 'Clé au-dessus de la valeur, pour des colonnes étroites où deux colonnes se chevaucheraient mal.'
+      aside: 'Le corps conserve la largeur restante tandis que la colonne à côté reste fixe.'
+    columns:
+      title: Colonnes
+      description: "Une douzaine de paires courtes mal lues dans une colonne haute : l'œil traverse la largeur de la page entre une clé et sa valeur, et les séparateurs finissent par maintenir chaque paire ensemble. Disposées en colonnes — autant que la largeur le permet, jusqu'à une seule sur un téléphone — une paire devient un petit bloc de deux lignes qui n'a pas besoin de règle autour. Une valeur qu'aucune colonne ne peut contenir prend toute la largeur avec `full`."
+    vue:
+      title: Vue
+      description: "La même liste qu'un complément vue, prenant les modificateurs comme propriétés : un enregistrement construit pendant que la page s'exécute se lit comme celui rendu avec elle."
+  field:
+    name:
+      key: Nom
+      value: 'Projection de pipeline'
+    identifier:
+      key: Identifiant
+      value: prj_8f21c4a7
+    description:
+      key: Description
+      value: 'Agrège les événements entrants et les expose comme une projection interrogeable.'
+    status:
+      key: Statut
+      value: Prêt
+    owner:
+      key: Propriétaire
+      value: 'Équipe plateforme'
+    created:
+      key: Créé
+      value: '14 mars 2026'
+    region:
+      key: Région
+      value: eu-west-1
+    runtime:
+      key: Exécution
+      value: 'PHP 8.3'
+    version:
+      key: Version
+      value: 1.4.2
+    reviewed:
+      key: 'Révisé le'
+      value: null
+    path:
+      key: Fichier
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Sous-total
+      value: '1,240.00 €'
+    tax:
+      key: Taxe
+      value: '248.00 €'
+    total:
+      key: Total
+      value: '1,488.00 €'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: מאפיינים
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'זוגות מפתח / ערך מוצגים כרשימת הגדרות. השורות הן תתי-רשימות של הרשימה, כך שהמפתחות נשארים מיושרים בעמודה אחת בזמן שכל שורה נשארת תיבה אמיתית שיכולה להכיל מפריד.'
+  section:
+    default:
+      title: 'ברירת מחדל'
+      description: 'עמודת המפתח מתאימה את עצמה על פי התווית הארוכה ביותר. ניתן לעקוף את --properties-key-width כדי לקבע אותה.'
+    bordered:
+      title: 'עם גבול'
+      description: 'מפריד בין שורות, עבור רשומות צפופות בתוך גוף בלוק.'
+      block_title: 'פרטי חיבור'
+    split:
+      title: מפוצל
+      description: 'ערכים נדחפים לקצה הימני — סכומים, יתרות, כל דבר שנקרא כעמודת מספרים.'
+    compact:
+      title: קומפקטי
+      description: 'שורות צפופות יותר כאשר הרשימה משנית לשאר הבלוק.'
+    stacked:
+      title: ערום
+      description: 'מפתח מעל ערך, עבור עמודות צרות שבהן שתי עמודות ייגמרו רע.'
+      aside: 'הגוף שומר על רוחב שארית בזמן שעמודת הצד נשארת קבועה.'
+    columns:
+      title: עמודות
+      description: 'עשרה זוגות קצרים נקראים רע בעמודה אחת גבוהה: העין חוצה את רוחב הדף בין מפתח לערכו, והמפרידים בסופו של דבר מחזיקים כל זוג יחד. כאשר הם מסודרים בעמודות — כמה שרוחב מאפשר, עד לאחת בטלפון — זוג הופך לחסימת מידע קטנה של שתי שורות שאינה זקוקה לכללים סביבה. ערך שלא יכולה להחזיק עמודה לוקח את כל הרוחב עם `full`.'
+    vue:
+      title: Vue
+      description: 'אותה רשימה כחלק Vue, לוקחת את המודיפיקטורים כפרמטרים: רשומה שנבנית בזמן שהדף פועל נקראת כמו אחת שהוצגה עם זה.'
+  field:
+    name:
+      key: שם
+      value: 'תחזית צינור'
+    identifier:
+      key: מזהה
+      value: prj_8f21c4a7
+    description:
+      key: תיאור
+      value: 'אוגרת אירועים נכנסים ומציגה אותם כתחזית שניתן לשאול.'
+    status:
+      key: סטטוס
+      value: מוכן
+    owner:
+      key: בעלים
+      value: 'צוות הפלטפורמה'
+    created:
+      key: נוצר
+      value: '14 במרץ, 2026'
+    region:
+      key: אזור
+      value: eu-west-1
+    runtime:
+      key: 'סביבת ריצה'
+      value: 'PHP 8.3'
+    version:
+      key: גרסה
+      value: 1.4.2
+    reviewed:
+      key: 'נבדק ב'
+      value: null
+    path:
+      key: קובץ
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'סכום ביניים'
+      value: '1,240.00 €'
+    tax:
+      key: מס
+      value: '248.00 €'
+    total:
+      key: 'סה"כ'
+      value: '1,488.00 €'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: गुण
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'कुंजी / मान जो परिभाषा सूची के रूप में प्रदर्शित होते हैं। पंक्तियाँ सूची के उपग्रिड हैं, इसलिए कुंजियाँ एकल स्तंभ में संरेखित रहती हैं जबकि प्रत्येक पंक्ति एक वास्तविक बॉक्स बनी रहती है जो एक separator ले जा सकती है।'
+  section:
+    default:
+      title: डिफ़ॉल्ट
+      description: 'कुंजी स्तंभ अपने सबसे लंबे लेबल के अनुसार आकार लेता है। इसे स्थिर करने के लिए --properties-key-width को ओवरराइड करें।'
+    bordered:
+      title: सीमाबद्ध
+      description: 'एक ब्लॉक बॉडी के अंदर घनी रिकॉर्ड के लिए पंक्तियों के बीच एक separator।'
+      block_title: 'संयोग विवरण'
+    split:
+      title: विभाजित
+      description: 'मान दाहिनी ओर धकेले जाते हैं - कुल, संतुलन, कोई भी जो आंकड़ों के स्तंभ के रूप में पढ़ा जाता है।'
+    compact:
+      title: संक्षिप्त
+      description: 'जब सूची बाकी ब्लॉक के लिए द्वितीयक होती है, तो पंक्तियाँ तंग होती हैं।'
+    stacked:
+      title: स्टैक्ड
+      description: 'कुंजी मान के ऊपर, संकीर्ण स्तंभों के लिए जहाँ दो स्तंभ बुरी तरह लपेटेंगे।'
+      aside: 'शरीर शेष चौड़ाई बनाए रखता है जबकि साइड स्तंभ स्थिर रहता है।'
+    columns:
+      title: स्तंभ
+      description: 'एक लंबा स्तंभ में बुरी तरह पढ़ी गई दर्जन भर छोटे जोड़े: आँख एक कुंजी और उसके मान के बीच पृष्ठ की चौड़ाई को पार करती है, और separators अंततः प्रत्येक जोड़े को एक साथ पकड़ लेते हैं। स्तंभों में बिछाए गए - जितने चौड़ाई अनुमति देती है, एक फोन पर एक तक - एक जोड़ा दो लाइनों का एक छोटा ब्लॉक बन जाता है जिसे इसके चारों ओर किसी नियम की आवश्यकता नहीं होती। कोई मान जो कोई स्तंभ नहीं पकड़ सकता है, `full` के साथ पूरी चौड़ाई ले लेता है।'
+    vue:
+      title: Vue
+      description: 'उसी सूची को एक vue भाग के रूप में, जो modifiers को props के रूप में लेता है: एक रिकॉर्ड जो पृष्ठ चलते समय बनाया जाता है, ऐसा पढ़ता है जैसे इसे इसके साथ प्रस्तुत किया गया था।'
+  field:
+    name:
+      key: नाम
+      value: 'पाइपलाइन प्रक्षिप्ति'
+    identifier:
+      key: पहचानकर्ता
+      value: prj_8f21c4a7
+    description:
+      key: विवरण
+      value: 'आने वाली घटनाओं को संचित करता है और उन्हें एक क्वेरी योग्य प्रक्षिप्ति के रूप में उजागर करता है।'
+    status:
+      key: स्थिति
+      value: तैयार
+    owner:
+      key: स्वामी
+      value: 'प्लेटफ़ॉर्म टीम'
+    created:
+      key: 'बनाया गया'
+      value: '14 मार्च, 2026'
+    region:
+      key: क्षेत्र
+      value: eu-west-1
+    runtime:
+      key: रनटाइम
+      value: 'PHP 8.3'
+    version:
+      key: संस्करण
+      value: 1.4.2
+    reviewed:
+      key: 'समीक्षा की गई'
+      value: null
+    path:
+      key: फाइल
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: उपकुल
+      value: '1,240.00 €'
+    tax:
+      key: कर
+      value: '248.00 €'
+    total:
+      key: कुल
+      value: '1,488.00 €'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Properti
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Pasangan kunci / nilai ditampilkan sebagai daftar definisi. Baris adalah subgrid dari daftar, sehingga kunci tetap teratur dalam satu kolom sementara setiap baris tetap sebagai kotak nyata yang dapat membawa pemisah.'
+  section:
+    default:
+      title: Standar
+      description: 'Kolom kunci menyesuaikan diri pada label terpanjang. Ganti --properties-key-width untuk menetapkannya.'
+    bordered:
+      title: Bersisi
+      description: 'Sebuah pemisah antara baris, untuk catatan padat di dalam tubuh blok.'
+      block_title: 'Detail koneksi'
+    split:
+      title: Terpisah
+      description: 'Nilai yang dipindahkan ke tepi kanan — total, saldo, apa pun yang dibaca sebagai kolom angka.'
+    compact:
+      title: Kompak
+      description: 'Baris lebih rapat ketika daftar menjadi sekunder terhadap sisa blok.'
+    stacked:
+      title: Tumpuk
+      description: 'Kunci di atas nilai, untuk kolom sempit di mana dua kolom akan terlipat dengan buruk.'
+      aside: 'Badan mempertahankan lebar yang tersisa sementara kolom samping tetap tetap.'
+    columns:
+      title: Kolom
+      description: 'Seperempat pasangan pendek dibaca dengan buruk dalam satu kolom tinggi: mata melintasi lebar halaman antara kunci dan nilainya, dan pemisah akhirnya mengikat setiap pasangan bersama. Disusun dalam kolom — sebanyak yang diizinkan lebar, hingga satu di ponsel — pasangan menjadi blok kecil yang terdiri dari dua baris yang tidak memerlukan aturan di sekitarnya. Nilai yang tidak bisa ditampung kolom mana pun mengambil seluruh lebar dengan `full`.'
+    vue:
+      title: Vue
+      description: 'Daftar yang sama sebagai bagian vue, mengambil modifikasi sebagai props: catatan yang dibangun saat halaman berjalan terbaca seperti yang dirender dengannya.'
+  field:
+    name:
+      key: Nama
+      value: 'Proyeksi saluran'
+    identifier:
+      key: Identifikasi
+      value: prj_8f21c4a7
+    description:
+      key: Deskripsi
+      value: 'Mengagregasi peristiwa yang masuk dan mengeksposnya sebagai proyeksi yang dapat ditanyakan.'
+    status:
+      key: Status
+      value: Siap
+    owner:
+      key: Pemilik
+      value: 'Tim platform'
+    created:
+      key: Dibuat
+      value: '14 Maret 2026'
+    region:
+      key: Wilayah
+      value: eu-west-1
+    runtime:
+      key: Runtime
+      value: 'PHP 8.3'
+    version:
+      key: Versi
+      value: 1.4.2
+    reviewed:
+      key: 'Ditinjau pada'
+      value: null
+    path:
+      key: File
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Subtotal
+      value: '1,240.00 €'
+    tax:
+      key: Pajak
+      value: '248.00 €'
+    total:
+      key: Total
+      value: '1,488.00 €'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Proprietà
+  page_icon: 'ph:bold/list-dashes'
+  intro: "Coppie chiave / valore visualizzate come un elenco di definizioni. Le righe sono sottogriglie dell'elenco, quindi le chiavi rimangono allineate in una singola colonna mentre ogni riga rimane una vera e propria casella che può contenere un separatore."
+  section:
+    default:
+      title: Predefinito
+      description: "La colonna delle chiavi si adatta all'etichetta più lunga. Sovrascrivi --properties-key-width per fissarla."
+    bordered:
+      title: 'Con bordi'
+      description: "Un separatore tra le righe, per registrazioni dense all'interno di un corpo di blocco."
+      block_title: 'Dettagli di connessione'
+    split:
+      title: Diviso
+      description: 'Valori spinti verso il bordo destro — totali, saldi, qualsiasi cosa letta come una colonna di cifre.'
+    compact:
+      title: Compatto
+      description: "Righe più strette quando l'elenco è secondario rispetto al resto del blocco."
+    stacked:
+      title: Impilato
+      description: 'Chiave sopra valore, per colonne strette dove due colonne si avvolgerebbero male.'
+      aside: 'Il corpo mantiene la larghezza rimanente mentre la colonna a lato rimane fissa.'
+    columns:
+      title: Colonne
+      description: "Una dozzina di coppie brevi lette male in un'unica colonna alta: l'occhio attraversa la larghezza della pagina tra una chiave e il suo valore, e i separatori finiscono per tenere insieme ogni coppia. Disposte in colonne — tante quante la larghezza consente, fino a una su un telefono — una coppia diventa un piccolo blocco di due righe che non ha bisogno di una regola attorno. Un valore che nessuna colonna può contenere prende l'intera larghezza con `full`."
+    vue:
+      title: Vue
+      description: 'Lo stesso elenco come un parziale vue, prendendo i modificatori come props: un record costruito mentre la pagina è in esecuzione si legge come uno reso con essa.'
+  field:
+    name:
+      key: Nome
+      value: 'Proiezione pipeline'
+    identifier:
+      key: Identificatore
+      value: prj_8f21c4a7
+    description:
+      key: Descrizione
+      value: 'Aggrega eventi in arrivo e li espone come una proiezione interrogabile.'
+    status:
+      key: Stato
+      value: Pronto
+    owner:
+      key: Proprietario
+      value: 'Team piattaforma'
+    created:
+      key: Creato
+      value: '14 marzo 2026'
+    region:
+      key: Regione
+      value: eu-west-1
+    runtime:
+      key: Runtime
+      value: 'PHP 8.3'
+    version:
+      key: Versione
+      value: 1.4.2
+    reviewed:
+      key: 'Revisionato il'
+      value: null
+    path:
+      key: File
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Subtotale
+      value: '1,240.00 €'
+    tax:
+      key: Imposta
+      value: '248.00 €'
+    total:
+      key: Totale
+      value: '1,488.00 €'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: プロパティ
+  page_icon: 'ph:bold/list-dashes'
+  intro: キーと値のペアが定義リストとして表示されます。行はリストのサブグリッドであり、キーは単一の列に整列し、各行はセパレーターを持つ実際のボックスとして保持されます。
+  section:
+    default:
+      title: デフォルト
+      description: キー列は最も長いラベルに合わせてサイズを調整します。--properties-key-widthをオーバーライドして固定できます。
+    bordered:
+      title: ボーダー付き
+      description: ブロックボディ内の密なレコードのための行間のセパレーター。
+      block_title: 接続の詳細
+    split:
+      title: 分割
+      description: '右端に押し出された値 — 合計、残高、数字の列として読み取られるもの。'
+    compact:
+      title: コンパクト
+      description: リストがブロックの他の部分に対して二次的な場合、行をタイトにします。
+    stacked:
+      title: スタック
+      description: 狭い列のために、値の上にキーを配置し、2つの列がうまくラップされないようにします。
+      aside: ボディは残りの幅を保持し、サイド列は固定されます。
+    columns:
+      title: 列
+      description: 短いペアが1つの高い列では読みづらく、目はキーとその値の間でページの幅を横切ります。セパレーターは各ペアを一緒に保持します。列にレイアウトされると、幅が許す限り、携帯電話では1つにまで、ペアは2行の小さなブロックとなり、その周りにルールは必要ありません。どの列も保持できない値は、`full`で全幅を取ります。
+    vue:
+      title: Vue
+      description: 同じリストがvueパーシャルとして、修飾子をプロップとして受け取ります。ページが実行される間に構築されたレコードは、それと一緒にレンダリングされたもののように読み取られます。
+  field:
+    name:
+      key: 名前
+      value: パイプラインプロジェクション
+    identifier:
+      key: 識別子
+      value: prj_8f21c4a7
+    description:
+      key: 説明
+      value: 受信イベントを集約し、クエリ可能なプロジェクションとして公開します。
+    status:
+      key: ステータス
+      value: 準備完了
+    owner:
+      key: 所有者
+      value: プラットフォームチーム
+    created:
+      key: 作成日
+      value: 2026年3月14日
+    region:
+      key: リージョン
+      value: eu-west-1
+    runtime:
+      key: ランタイム
+      value: 'PHP 8.3'
+    version:
+      key: バージョン
+      value: 1.4.2
+    reviewed:
+      key: レビュー日
+      value: null
+    path:
+      key: ファイル
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 小計
+      value: '1,240.00 €'
+    tax:
+      key: 税金
+      value: '248.00 €'
+    total:
+      key: 合計
+      value: '1,488.00 €'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 속성
+  page_icon: 'ph:bold/list-dashes'
+  intro: '키/값 쌍이 정의 목록으로 렌더링됩니다. 행은 목록의 하위 그리드로, 키는 한 열에 정렬되고 각 행은 구분자를 가질 수 있는 실제 박스가 됩니다.'
+  section:
+    default:
+      title: 기본값
+      description: '키 열은 가장 긴 레이블에 맞춰 크기가 조정됩니다. --properties-key-width를 재정의하여 고정할 수 있습니다.'
+    bordered:
+      title: 테두리
+      description: '블록 본문 내에서 밀집된 레코드를 위한 행 사이의 구분자입니다.'
+      block_title: '연결 세부정보'
+    split:
+      title: 분할
+      description: '오른쪽 가장자리로 밀려나는 값 - 합계, 잔액, 숫자 열로 읽히는 모든 것.'
+    compact:
+      title: 간결한
+      description: '목록이 블록의 나머지 부분에 비해 보조적일 때 더 조밀한 행입니다.'
+    stacked:
+      title: '겹쳐 쌓기'
+      description: '좁은 열에서 두 열이 잘못 감싸지 않도록 키가 값 위에 위치합니다.'
+      aside: '본문은 남은 너비를 유지하는 반면, 옆 열은 고정됩니다.'
+    columns:
+      title: 열
+      description: '한 긴 열에서 읽기 어려운 열 짧은 쌍이 12개 있습니다: 눈은 키와 값 사이의 페이지 너비를 가로지르며, 구분자가 각 쌍을 함께 유지합니다. 열로 배치하면 - 너비가 허용하는 만큼, 휴대폰에서는 하나까지 - 쌍은 주변에 규칙이 필요 없는 두 줄의 작은 블록이 됩니다. 어떤 열도 수용할 수 없는 값은 `full`로 전체 너비를 차지합니다.'
+    vue:
+      title: Vue
+      description: '수정자를 props로 받아들이는 vue 부분으로 동일한 목록: 페이지가 실행되는 동안 생성된 레코드는 그것과 함께 렌더링된 것처럼 읽힙니다.'
+  field:
+    name:
+      key: 이름
+      value: '파이프라인 프로젝션'
+    identifier:
+      key: 식별자
+      value: prj_8f21c4a7
+    description:
+      key: 설명
+      value: '들어오는 이벤트를 집계하고 이를 쿼리 가능한 프로젝션으로 노출합니다.'
+    status:
+      key: 상태
+      value: '준비 완료'
+    owner:
+      key: 소유자
+      value: '플랫폼 팀'
+    created:
+      key: 생성일
+      value: '2026년 3월 14일'
+    region:
+      key: 지역
+      value: eu-west-1
+    runtime:
+      key: 런타임
+      value: 'PHP 8.3'
+    version:
+      key: 버전
+      value: 1.4.2
+    reviewed:
+      key: 검토일
+      value: null
+    path:
+      key: 파일
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 소계
+      value: '1,240.00 €'
+    tax:
+      key: 세금
+      value: '248.00 €'
+    total:
+      key: 총합
+      value: '1,488.00 €'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Eigenschappen
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Sleutel / waarde-paren weergegeven als een definitielijst. Rijen zijn subraster van de lijst, zodat sleutels in één kolom uitgelijnd blijven terwijl elke rij een echte box blijft die een scheiding kan bevatten.'
+  section:
+    default:
+      title: Standaard
+      description: 'De sleutelkolom past zich aan de langste label aan. Overschrijf --properties-key-width om deze vast te pinnen.'
+    bordered:
+      title: 'Met rand'
+      description: 'Een scheiding tussen rijen, voor dichte records binnen een bloklichaam.'
+      block_title: Verbindingsdetails
+    split:
+      title: Gesplitst
+      description: 'Waarden naar de rechterrand gedrukt — totalen, saldi, alles wat als een kolom met cijfers wordt gelezen.'
+    compact:
+      title: Compact
+      description: 'Strakkere rijen wanneer de lijst secundair is aan de rest van het blok.'
+    stacked:
+      title: Gestapeld
+      description: 'Sleutel boven waarde, voor smalle kolommen waar twee kolommen slecht zouden omwikkelen.'
+      aside: 'De hoofdinhoud behoudt de resterende breedte terwijl de zijkolom vast blijft.'
+    columns:
+      title: Kolommen
+      description: 'Een dozijn korte paren leest slecht in één hoge kolom: het oog kruist de breedte van de pagina tussen een sleutel en zijn waarde, en de scheidingen houden elk paar samen. Uitgelegd in kolommen — zoveel als de breedte toelaat, tot één op een telefoon — wordt een paar een klein blok van twee regels dat geen regel eromheen nodig heeft. Een waarde die geen kolom kan bevatten neemt de hele breedte met `full`.'
+    vue:
+      title: Vue
+      description: 'Dezelfde lijst als een vue-deel, die de modifiers als props neemt: een record dat wordt opgebouwd terwijl de pagina draait leest als een dat ermee is weergegeven.'
+  field:
+    name:
+      key: Naam
+      value: Pipelineprojectie
+    identifier:
+      key: Identifier
+      value: prj_8f21c4a7
+    description:
+      key: Beschrijving
+      value: 'Aggregeert binnenkomende gebeurtenissen en stelt ze bloot als een doorzoekbare projectie.'
+    status:
+      key: Status
+      value: Klaar
+    owner:
+      key: Eigenaar
+      value: Platformteam
+    created:
+      key: Aangemaakt
+      value: '14 maart 2026'
+    region:
+      key: Regio
+      value: eu-west-1
+    runtime:
+      key: Runtime
+      value: 'PHP 8.3'
+    version:
+      key: Versie
+      value: 1.4.2
+    reviewed:
+      key: 'Gereviewd op'
+      value: null
+    path:
+      key: Bestand
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Subtotaal
+      value: '1,240.00 €'
+    tax:
+      key: Belasting
+      value: '248.00 €'
+    total:
+      key: Totaal
+      value: '1,488.00 €'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Właściwości
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Pary klucz / wartość wyświetlane jako lista definicji. Wiersze są subsiatkami listy, więc klucze pozostają wyrównane w jednej kolumnie, a każdy wiersz to prawdziwe pole, które może zawierać separator.'
+  section:
+    default:
+      title: Domyślny
+      description: 'Kolumna kluczy dostosowuje się do najdłuższej etykiety. Możesz nadpisać --properties-key-width, aby to ustawić.'
+    bordered:
+      title: 'Z ramką'
+      description: 'Separator między wierszami, dla gęstych rekordów wewnątrz bloku.'
+      block_title: 'Szczegóły połączenia'
+    split:
+      title: Podzielony
+      description: 'Wartości przesunięte do prawej krawędzi — sumy, bilanse, wszystko odczytywane jako kolumna liczb.'
+    compact:
+      title: Kompaktowy
+      description: 'Bardziej zwarte wiersze, gdy lista jest drugorzędna w stosunku do reszty bloku.'
+    stacked:
+      title: Stosowany
+      description: 'Klucz nad wartością, dla wąskich kolumn, gdzie dwie kolumny źle się zawijają.'
+      aside: 'Ciało zajmuje pozostałą szerokość, podczas gdy kolumna boczna pozostaje stała.'
+    columns:
+      title: Kolumny
+      description: 'Tuzin krótkich par źle się odczytuje w jednej wysokiej kolumnie: oko przeskakuje szerokość strony między kluczem a jego wartością, a separatory kończą się trzymając każdą parę razem. Ułożone w kolumnach — tyle, ile szerokość pozwala, aż do jednej na telefonie — para staje się małym blokiem dwóch linii, który nie potrzebuje obramowania. Wartość, której żadna kolumna nie może pomieścić, zajmuje całą szerokość z `full`.'
+    vue:
+      title: Vue
+      description: 'Ta sama lista jako części vue, przyjmująca modyfikatory jako właściwości: rekord budowany podczas działania strony odczytuje się jak jeden renderowany z nią.'
+  field:
+    name:
+      key: Nazwa
+      value: 'Projekcja potoku'
+    identifier:
+      key: Identyfikator
+      value: prj_8f21c4a7
+    description:
+      key: Opis
+      value: 'Agreguje przychodzące zdarzenia i udostępnia je jako zapytanie projekcyjne.'
+    status:
+      key: Status
+      value: Gotowy
+    owner:
+      key: Właściciel
+      value: 'Zespół platformy'
+    created:
+      key: Utworzono
+      value: '14 marca 2026'
+    region:
+      key: Region
+      value: eu-west-1
+    runtime:
+      key: 'Środowisko uruchomieniowe'
+      value: 'PHP 8.3'
+    version:
+      key: Wersja
+      value: 1.4.2
+    reviewed:
+      key: 'Recenzowane w dniu'
+      value: null
+    path:
+      key: Plik
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'Suma częściowa'
+      value: '1,240.00 €'
+    tax:
+      key: Podatek
+      value: '248.00 €'
+    total:
+      key: Razem
+      value: '1,488.00 €'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Propriedades
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Pares de chave / valor apresentados como uma lista de definições. As linhas são subgrids da lista, assim as chaves permanecem alinhadas em uma única coluna enquanto cada linha continua sendo uma caixa real que pode ter um separador.'
+  section:
+    default:
+      title: Padrão
+      description: 'A coluna de chaves se dimensiona com base no rótulo mais longo. Substitua --properties-key-width para fixá-la.'
+    bordered:
+      title: Borda
+      description: 'Um separador entre as linhas, para registros densos dentro de um corpo de bloco.'
+      block_title: 'Detalhes da conexão'
+    split:
+      title: Dividido
+      description: 'Valores empurrados para a borda direita — totais, saldos, qualquer coisa lida como uma coluna de números.'
+    compact:
+      title: Compacto
+      description: 'Linhas mais apertadas quando a lista é secundária ao restante do bloco.'
+    stacked:
+      title: Empilhado
+      description: 'Chave acima do valor, para colunas estreitas onde duas colunas ficariam mal distribuídas.'
+      aside: 'O corpo mantém a largura restante enquanto a coluna ao lado permanece fixa.'
+    columns:
+      title: Colunas
+      description: 'Uma dúzia de pares curtos lidos mal em uma coluna alta: o olho cruza a largura da página entre uma chave e seu valor, e os separadores acabam unindo cada par. Dispostos em colunas — quantas a largura permitir, até uma em um celular — um par se torna um pequeno bloco de duas linhas que não precisa de uma regra ao seu redor. Um valor que nenhuma coluna pode conter ocupa toda a largura com `full`.'
+    vue:
+      title: Vue
+      description: 'A mesma lista como um partial vue, recebendo os modificadores como props: um registro construído enquanto a página é executada é lido como um renderizado com ela.'
+  field:
+    name:
+      key: Nome
+      value: 'Projeção de pipeline'
+    identifier:
+      key: Identificador
+      value: prj_8f21c4a7
+    description:
+      key: Descrição
+      value: 'Agrega eventos recebidos e os expõe como uma projeção consultável.'
+    status:
+      key: Status
+      value: Pronto
+    owner:
+      key: Proprietário
+      value: 'Equipe de plataforma'
+    created:
+      key: Criado
+      value: '14 de março de 2026'
+    region:
+      key: Região
+      value: eu-west-1
+    runtime:
+      key: 'Tempo de execução'
+      value: 'PHP 8.3'
+    version:
+      key: Versão
+      value: 1.4.2
+    reviewed:
+      key: 'Revisado em'
+      value: null
+    path:
+      key: Arquivo
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: Subtotal
+      value: '1,240.00 €'
+    tax:
+      key: Imposto
+      value: '248.00 €'
+    total:
+      key: Total
+      value: '1,488.00 €'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Свойства
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Пары ключ/значение отображаются в виде списка определений. Строки являются подсетками списка, поэтому ключи остаются выровненными в одном столбце, в то время как каждая строка остается реальным блоком, который может содержать разделитель.'
+  section:
+    default:
+      title: 'По умолчанию'
+      description: 'Столбец ключей подстраивается под самый длинный ярлык. Переопределите --properties-key-width, чтобы зафиксировать его.'
+    bordered:
+      title: 'С рамкой'
+      description: 'Разделитель между строками для плотных записей внутри блока.'
+      block_title: 'Детали соединения'
+    split:
+      title: Разделённый
+      description: 'Значения сдвинуты к правому краю — итоги, остатки, все, что читается как столбец чисел.'
+    compact:
+      title: Компактный
+      description: 'Плотные строки, когда список вторичен по отношению к остальной части блока.'
+    stacked:
+      title: 'В стопку'
+      description: 'Ключ выше значения, для узких столбцов, где два столбца плохо обернутся.'
+      aside: 'Тело сохраняет оставшуюся ширину, в то время как боковой столбец остается фиксированным.'
+    columns:
+      title: Столбцы
+      description: 'Дюжина коротких пар плохо читается в одном высоком столбце: глаз пересекает ширину страницы между ключом и его значением, и разделители в итоге удерживают каждую пару вместе. Расположенные в столбцах — столько, сколько позволяет ширина, вплоть до одного на телефоне — пара становится небольшим блоком из двух строк, которому не требуется рамка вокруг. Значение, которое не может удержать ни один столбец, занимает всю ширину с `full`.'
+    vue:
+      title: Vue
+      description: 'Тот же список как частичный vue, принимающий модификаторы в качестве свойств: запись, созданная во время работы страницы, читается как одна, отрисованная с ней.'
+  field:
+    name:
+      key: Имя
+      value: 'Проекция конвейера'
+    identifier:
+      key: Идентификатор
+      value: prj_8f21c4a7
+    description:
+      key: Описание
+      value: 'Агрегирует входящие события и предоставляет их в виде запрашиваемой проекции.'
+    status:
+      key: Статус
+      value: Готов
+    owner:
+      key: Владелец
+      value: 'Команда платформы'
+    created:
+      key: Создано
+      value: '14 марта 2026'
+    region:
+      key: Регион
+      value: eu-west-1
+    runtime:
+      key: 'Среда выполнения'
+      value: 'PHP 8.3'
+    version:
+      key: Версия
+      value: 1.4.2
+    reviewed:
+      key: Просмотрено
+      value: null
+    path:
+      key: Файл
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'Промежуточный итог'
+      value: '1,240.00 €'
+    tax:
+      key: Налог
+      value: '248.00 €'
+    total:
+      key: Итого
+      value: '1,488.00 €'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: คุณสมบัติ
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'คู่คีย์/ค่า ที่แสดงเป็นรายการคำจำกัดความ แถวเป็นซับกริดของรายการ ดังนั้นคีย์จึงเรียงอยู่ในคอลัมน์เดียว ขณะที่แต่ละแถวยังคงเป็นกล่องจริงที่สามารถมีตัวคั่นได้'
+  section:
+    default:
+      title: ค่าเริ่มต้น
+      description: 'คอลัมน์คีย์ปรับขนาดตามป้ายชื่อที่ยาวที่สุด สามารถเขียนทับ --properties-key-width เพื่อกำหนดขนาดได้'
+    bordered:
+      title: มีขอบ
+      description: 'ตัวคั่นระหว่างแถว สำหรับบันทึกที่หนาแน่นภายในบล็อก'
+      block_title: รายละเอียดการเชื่อมต่อ
+    split:
+      title: แยก
+      description: 'ค่าที่ถูกผลักไปยังขอบขวา — ยอดรวม, ยอดคงเหลือ, ทุกอย่างที่อ่านเป็นคอลัมน์ของตัวเลข'
+    compact:
+      title: กระชับ
+      description: แถวที่แน่นขึ้นเมื่อรายการเป็นสิ่งรองจากบล็อกอื่น
+    stacked:
+      title: ซ้อนกัน
+      description: คีย์อยู่ด้านบนค่าหมายถึงคอลัมน์แคบที่สองคอลัมน์จะซ้อนกันได้ไม่ดี
+      aside: เนื้อหายังคงความกว้างที่เหลืออยู่ในขณะที่คอลัมน์ข้างเคียงยังคงอยู่ในตำแหน่งที่แน่นอน
+    columns:
+      title: คอลัมน์
+      description: 'คู่สั้นสิบคู่จะอ่านได้ไม่ดีในคอลัมน์สูงหนึ่งคอลัมน์: ตาจะข้ามความกว้างของหน้าไประหว่างคีย์และค่าของมัน และตัวคั่นจะทำให้แต่ละคู่ยึดติดกัน เมื่อจัดเรียงในคอลัมน์ — จำนวนเท่าที่กว้างอนุญาต ตั้งแต่หนึ่งบนโทรศัพท์ — คู่จะกลายเป็นบล็อกเล็กๆ ของสองบรรทัดที่ไม่ต้องการกฎรอบมัน ค่าที่ไม่มีคอลัมน์ใดสามารถถือไว้จะใช้ความกว้างทั้งหมดด้วย `full`'
+    vue:
+      title: Vue
+      description: 'รายการเดียวกันในรูปแบบ vue ที่ใช้ตัวแก้ไขเป็น props: บันทึกที่สร้างขึ้นขณะหน้าเว็บทำงานจะอ่านได้เหมือนหนึ่งที่แสดงด้วยมัน'
+  field:
+    name:
+      key: ชื่อ
+      value: 'การคาดการณ์ของ Pipeline'
+    identifier:
+      key: รหัสประจำตัว
+      value: prj_8f21c4a7
+    description:
+      key: คำอธิบาย
+      value: รวมเหตุการณ์ที่เข้ามาและแสดงเป็นการคาดการณ์ที่ค้นหาได้
+    status:
+      key: สถานะ
+      value: พร้อม
+    owner:
+      key: เจ้าของ
+      value: ทีมแพลตฟอร์ม
+    created:
+      key: สร้างเมื่อ
+      value: '14 มีนาคม 2026'
+    region:
+      key: ภูมิภาค
+      value: eu-west-1
+    runtime:
+      key: เวลาทำงาน
+      value: 'PHP 8.3'
+    version:
+      key: เวอร์ชัน
+      value: 1.4.2
+    reviewed:
+      key: ตรวจสอบเมื่อ
+      value: null
+    path:
+      key: ไฟล์
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: ยอดรวมระหว่าง
+      value: '1,240.00 €'
+    tax:
+      key: ภาษี
+      value: '248.00 €'
+    total:
+      key: ยอดรวม
+      value: '1,488.00 €'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Özellikler
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Anahtar / değer çiftleri tanım listesi olarak görüntülenir. Satırlar listenin alt ızgaralarıdır, bu nedenle anahtarlar tek bir sütunda hizalanırken her satır gerçek bir kutu olarak kalır ve bir ayırıcı taşıyabilir.'
+  section:
+    default:
+      title: Varsayılan
+      description: "Anahtar sütunu en uzun etikete göre boyutlandırılır. Bunu sabitlemek için --properties-key-width'i geçersiz kılın."
+    bordered:
+      title: Kenarlıklı
+      description: 'Bir blok gövdesi içinde yoğun kayıtlar için satırlar arasında bir ayırıcı.'
+      block_title: 'Bağlantı detayları'
+    split:
+      title: Böl
+      description: 'Değerler sağ kenara itilmiştir — toplamlar, bakiyeler, sayılar sütunu olarak okunan her şey.'
+    compact:
+      title: Kompakt
+      description: 'Liste, bloğun geri kalanına göre ikincil olduğunda daha sıkı satırlar.'
+    stacked:
+      title: 'Üst Üste'
+      description: 'Anahtar değerin üstünde, iki sütunun kötü saracağı dar sütunlar için.'
+      aside: 'Gövde kalan genişliği korurken yan sütun sabit kalır.'
+    columns:
+      title: Sütunlar
+      description: 'Bir uzun sütunda kötü okunan bir düzine kısa çift: göz, bir anahtar ile değeri arasında sayfanın genişliğini geçer ve ayırıcılar her çifti bir arada tutar. Sütunlar halinde yerleştirildiğinde — genişliğin izin verdiği kadar, telefonda bir tane kadar — bir çift, etrafında herhangi bir kural olmadan iki satırlık küçük bir blok haline gelir. Hiçbir sütunun tutamayacağı bir değer, `full` ile tüm genişliği kaplar.'
+    vue:
+      title: Vue
+      description: 'Modifikatörleri prop olarak alan bir vue parçası olarak aynı liste: sayfa çalışırken oluşturulan bir kayıt, onunla render edilmiş gibi görünür.'
+  field:
+    name:
+      key: Ad
+      value: 'Pipeline projeksiyonu'
+    identifier:
+      key: Tanımlayıcı
+      value: prj_8f21c4a7
+    description:
+      key: Açıklama
+      value: 'Gelen olayları toplar ve bunları sorgulanabilir bir projeksiyon olarak sunar.'
+    status:
+      key: Durum
+      value: Hazır
+    owner:
+      key: Sahibi
+      value: 'Platform ekibi'
+    created:
+      key: 'Oluşturulma Tarihi'
+      value: '14 Mart 2026'
+    region:
+      key: Bölge
+      value: eu-west-1
+    runtime:
+      key: 'Çalışma Zamanı'
+      value: 'PHP 8.3'
+    version:
+      key: Sürüm
+      value: 1.4.2
+    reviewed:
+      key: 'Gözden Geçirildiği Tarih'
+      value: null
+    path:
+      key: Dosya
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'Ara Toplam'
+      value: '1,240.00 €'
+    tax:
+      key: Vergi
+      value: '248.00 €'
+    total:
+      key: Toplam
+      value: '1,488.00 €'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: خصوصیات
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'کی-ویلیو جوڑے کو ایک تعریف کی فہرست کے طور پر پیش کیا جاتا ہے۔ قطاریں فہرست کے ذیلی گرڈز ہیں، لہذا چابیاں ایک ہی کالم میں سیدھی رہتی ہیں جبکہ ہر قطار ایک حقیقی باکس رہتی ہے جو ایک جداکار کو لے جا سکتی ہے۔'
+  section:
+    default:
+      title: ڈیفالٹ
+      description: 'چابی کا کالم سب سے طویل لیبل کے مطابق اپنی جگہ بناتا ہے۔ --properties-key-width کو اووررائیڈ کریں تاکہ اسے مقرر کیا جا سکے۔'
+    bordered:
+      title: 'بارڈرز کے ساتھ'
+      description: 'قطاروں کے درمیان ایک جداکار، بلاک باڈی کے اندر کثیف ریکارڈز کے لیے۔'
+      block_title: 'کنکشن کی تفصیلات'
+    split:
+      title: تقسیم
+      description: 'دائیں کنارے کی طرف دھکیلے گئے اقدار — کل، بیلنس، کچھ بھی جو اعداد کے کالم کے طور پر پڑھا جائے۔'
+    compact:
+      title: کمپیکٹ
+      description: 'جب فہرست بلاک کے باقی حصے کے مقابلے میں ثانوی ہو تو زیادہ قریب کی قطاریں۔'
+    stacked:
+      title: ڈھیر
+      description: 'چابی قیمت سے اوپر، تنگ کالمز کے لیے جہاں دو کالم خراب طریقے سے لپٹے ہوں گے۔'
+      aside: 'باڈی باقی چوڑائی کو برقرار رکھتا ہے جبکہ سائیڈ کالم مقرر رہتا ہے۔'
+    columns:
+      title: کالم
+      description: 'ایک لمبے کالم میں بارہ چھوٹے جوڑے پڑھنا مشکل ہے: آنکھ چابی اور اس کی قیمت کے درمیان صفحے کی چوڑائی کو عبور کرتی ہے، اور جداکار ہر جوڑے کو اکٹھا رکھنے کا کام کرتے ہیں۔ کالمز میں ترتیب دیے گئے — جتنے چوڑائی کی اجازت ہو، فون پر ایک تک — ایک جوڑا دو لائنوں کا ایک چھوٹا بلاک بن جاتا ہے جس کے ارد گرد کوئی قاعدہ کی ضرورت نہیں۔ ایک قیمت جو کوئی کالم نہیں رکھ سکتا پوری چوڑائی `full` کے ساتھ لے لیتی ہے۔'
+    vue:
+      title: ویو
+      description: 'اسی فہرست کو ایک ویو جزو کے طور پر پیش کیا جاتا ہے، جو موڈیفائرز کو پروپس کے طور پر لیتا ہے: ایک ریکارڈ جو صفحے کے چلنے کے دوران بنایا گیا ہے وہ ایسا لگتا ہے جیسے اس کے ساتھ پیش کیا گیا ہو۔'
+  field:
+    name:
+      key: نام
+      value: 'پائپ لائن پروجیکشن'
+    identifier:
+      key: شناخت
+      value: prj_8f21c4a7
+    description:
+      key: تفصیل
+      value: 'ان آنے والے واقعات کو جمع کرتا ہے اور انہیں ایک قابل سوال پروجیکشن کے طور پر ظاہر کرتا ہے۔'
+    status:
+      key: حیثیت
+      value: تیار
+    owner:
+      key: مالک
+      value: 'پلیٹ فارم ٹیم'
+    created:
+      key: 'تاریخ تخلیق'
+      value: '14 مارچ 2026'
+    region:
+      key: علاقہ
+      value: eu-west-1
+    runtime:
+      key: دورانیہ
+      value: 'PHP 8.3'
+    version:
+      key: ورژن
+      value: 1.4.2
+    reviewed:
+      key: 'جائزہ لیا گیا'
+      value: null
+    path:
+      key: فائل
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'ذیلی کل'
+      value: '1,240.00 €'
+    tax:
+      key: ٹیکس
+      value: '248.00 €'
+    total:
+      key: کل
+      value: '1,488.00 €'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Thuộc tính'
+  page_icon: 'ph:bold/list-dashes'
+  intro: 'Cặp khóa / giá trị được hiển thị dưới dạng danh sách định nghĩa. Các hàng là các lưới con của danh sách, vì vậy các khóa luôn được căn chỉnh trong một cột duy nhất trong khi mỗi hàng vẫn là một hộp thực sự có thể mang theo một dấu phân cách.'
+  section:
+    default:
+      title: 'Mặc định'
+      description: 'Cột khóa tự điều chỉnh kích thước theo nhãn dài nhất. Ghi đè --properties-key-width để cố định nó.'
+    bordered:
+      title: 'Có viền'
+      description: 'Một dấu phân cách giữa các hàng, cho các bản ghi dày trong một khối nội dung.'
+      block_title: 'Chi tiết kết nối'
+    split:
+      title: Tách
+      description: 'Các giá trị đẩy về phía cạnh bên phải — tổng số, số dư, bất cứ thứ gì được đọc như một cột số liệu.'
+    compact:
+      title: 'Gọn gàng'
+      description: 'Các hàng chặt chẽ hơn khi danh sách là thứ yếu so với phần còn lại của khối.'
+    stacked:
+      title: 'Xếp chồng'
+      description: 'Khóa nằm trên giá trị, cho các cột hẹp nơi hai cột sẽ bị quấn lại xấu.'
+      aside: 'Thân giữ chiều rộng còn lại trong khi cột bên cạnh giữ cố định.'
+    columns:
+      title: Cột
+      description: 'Một tá cặp ngắn đọc xấu trong một cột cao: mắt phải đi qua chiều rộng của trang giữa một khóa và giá trị của nó, và các dấu phân cách cuối cùng giữ mỗi cặp lại với nhau. Được bố trí thành các cột — nhiều như chiều rộng cho phép, xuống đến một trên điện thoại — một cặp trở thành một khối nhỏ gồm hai dòng không cần quy tắc xung quanh. Một giá trị không cột nào có thể chứa sẽ chiếm toàn bộ chiều rộng với `full`.'
+    vue:
+      title: Vue
+      description: 'Danh sách giống như một phần vue, nhận các biến thể như props: một bản ghi được xây dựng khi trang chạy đọc giống như một bản được hiển thị cùng với nó.'
+  field:
+    name:
+      key: Tên
+      value: 'Dự đoán ống dẫn'
+    identifier:
+      key: 'Mã định danh'
+      value: prj_8f21c4a7
+    description:
+      key: 'Mô tả'
+      value: 'Tổng hợp các sự kiện đến và hiển thị chúng dưới dạng một dự đoán có thể truy vấn.'
+    status:
+      key: 'Trạng thái'
+      value: 'Sẵn sàng'
+    owner:
+      key: 'Chủ sở hữu'
+      value: 'Nhóm nền tảng'
+    created:
+      key: 'Ngày tạo'
+      value: '14 tháng 3, 2026'
+    region:
+      key: Vùng
+      value: eu-west-1
+    runtime:
+      key: 'Thời gian chạy'
+      value: 'PHP 8.3'
+    version:
+      key: 'Phiên bản'
+      value: 1.4.2
+    reviewed:
+      key: 'Đã xem vào'
+      value: null
+    path:
+      key: Tệp
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 'Tổng phụ'
+      value: '1,240.00 €'
+    tax:
+      key: Thuế
+      value: '248.00 €'
+    total:
+      key: 'Tổng cộng'
+      value: '1,488.00 €'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 属性
+  page_icon: 'ph:bold/list-dashes'
+  intro: 以定义列表的形式呈现键/值对。行是列表的子网格，因此键保持在单列中对齐，而每行仍然是一个可以携带分隔符的实际框。
+  section:
+    default:
+      title: 默认
+      description: '键列根据最长标签自适应大小。覆盖 --properties-key-width 来固定它。'
+    bordered:
+      title: 带边框
+      description: 行之间的分隔符，用于块体内的密集记录。
+      block_title: 连接细节
+    split:
+      title: 拆分
+      description: 值推向右边缘——总计、余额、任何被视为数字列的内容。
+    compact:
+      title: 紧凑
+      description: 当列表次于块的其余部分时，更紧凑的行。
+    stacked:
+      title: 堆叠
+      description: 键在值上方，适用于两个列会导致换行不佳的窄列。
+      aside: 主体保持剩余宽度，同时旁边列保持固定。
+    columns:
+      title: 列
+      description: '一打短对在一高列中阅读体验不佳：眼睛在键和其值之间跨越页面的宽度，分隔符最终将每对组合在一起。按列布局——尽可能多的列宽允许，手机上减至一列——一对变成一个不需要规则的小块。任何无法放入列的值占用整个宽度，使用 `full`。'
+    vue:
+      title: Vue
+      description: 作为vue部分的相同列表，将修饰符作为属性：在页面运行时构建的记录看起来就像是与之一起渲染的。
+  field:
+    name:
+      key: 名称
+      value: 管道投影
+    identifier:
+      key: 标识符
+      value: prj_8f21c4a7
+    description:
+      key: 描述
+      value: 聚合传入事件并将其公开为可查询的投影。
+    status:
+      key: 状态
+      value: 准备好
+    owner:
+      key: 所有者
+      value: 平台团队
+    created:
+      key: 创建时间
+      value: 2026年3月14日
+    region:
+      key: 区域
+      value: eu-west-1
+    runtime:
+      key: 运行时
+      value: 'PHP 8.3'
+    version:
+      key: 版本
+      value: 1.4.2
+    reviewed:
+      key: 已审阅
+      value: null
+    path:
+      key: 文件
+      value: config/packages/prod/deploy/eu-west-1/service.yaml
+  amount:
+    subtotal:
+      key: 小计
+      value: '1,240.00 €'
+    tax:
+      key: 税
+      value: '248.00 €'
+    total:
+      key: 总计
+      value: '1,488.00 €'

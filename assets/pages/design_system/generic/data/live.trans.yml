@@ -1,0 +1,508 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Keeping up
+  page_icon: ph:bold/broadcast
+
+  intro: "A collection is read once when it appears, and then the world moves on. These are the three ways it hears about it — they are not alternatives to choose between once and for all, but what a collection's situation happens to offer. The same table takes any of them, or several, and nothing below knows which one rang."
+
+  section:
+    events:
+      title: An app event
+      description: "For a change this page caused itself: a button that acted, a form that came back. Whoever rings knows nothing of the table, and the table knows nothing of who rang — they share a name and that is all. Costs nothing and needs no server."
+    live:
+      title: A live source
+      description: "Where the server has a topic to publish on, the collection listens to the entity it is the collection of — a process for its runs, a session for its messages — and never to each of its own rows. A row that does not exist yet has no topic, and the row that appears is exactly the one the reader is waiting for. The demo has no server to publish for it, so the button plays the message."
+    polling:
+      title: Polling
+      description: "Where there is no topic, or where a round trip now and then is cheaper than a subscription held open. This one reads every three seconds, and stops while the tab is in the background — a page nobody is looking at is a page nobody needs read to them."
+    none:
+      title: Nothing at all
+      description: "The default. A collection reads once and stays as it was, which is the right answer whenever what it shows does not change behind the reader's back."
+    shape:
+      title: Whatever shape it wears
+      description: "None of this belongs to the table. The same three ways serve a list of bars, a chat thread, anything reading a collection — what keeps a collection true and what it looks like are two separate decisions. This one is a bar list, polling."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: متابعة
+  page_icon: 'ph:bold/broadcast'
+  intro: 'تُقرأ المجموعة مرة واحدة عند ظهورها، ثم ينتقل العالم. هذه هي الطرق الثلاث التي تسمع بها عنها — ليست بدائل للاختيار بينها مرة واحدة وإلى الأبد، ولكن ما تقدمه وضعية المجموعة. نفس الجدول يستقبل أيًا منها، أو عدة منها، ولا يعرف شيء أدناه أي واحدة رنّت.'
+  section:
+    events:
+      title: 'حدث تطبيق'
+      description: 'للتغيير، تسبب هذه الصفحة في حدوث شيء لنفسها: زر تصرف، نموذج عاد. من يرن لا يعرف شيئًا عن الجدول، والجدول لا يعرف شيئًا عن من رن — إنهم يتشاركون في اسم وهذا كل شيء. لا يكلف شيئًا ولا يحتاج إلى خادم.'
+    live:
+      title: 'مصدر مباشر'
+      description: 'حيث يمتلك الخادم موضوعًا للنشر، تستمع المجموعة للكيان الذي هي مجموعة منه — عملية لجرياتها، جلسة لرسائلها — ولا تستمع أبدًا لكل صفوفها الخاصة. الصف الذي لا يوجد بعد ليس له موضوع، والصف الذي يظهر هو بالضبط ما ينتظره القارئ. العرض التجريبي ليس لديه خادم لينشر من أجله، لذا يلعب الزر الرسالة.'
+    polling:
+      title: الاستطلاع
+      description: 'حيث لا يوجد موضوع، أو حيث تكون الرحلة الدائرية بين الحين والآخر أرخص من اشتراك مفتوح. هذا يقرأ كل ثلاث ثوان، ويتوقف بينما تكون علامة التبويب في الخلفية — صفحة لا ينظر إليها أحد هي صفحة لا يحتاج أحد لقراءتها لهم.'
+    none:
+      title: 'لا شيء على الإطلاق'
+      description: 'الافتراضي. تقرأ المجموعة مرة واحدة وتبقى كما كانت، وهو الجواب الصحيح كلما لم يتغير ما تعرضه خلف ظهر القارئ.'
+    shape:
+      title: 'أي شكل ترتديه'
+      description: 'لا شيء من هذا ينتمي إلى الجدول. الطرق الثلاثة نفسها تخدم قائمة بالبارات، خيط دردشة، أي شيء يقرأ مجموعة — ما يبقي المجموعة صحيحة وما تبدو عليه هما قراران منفصلان. هذه واحدة هي قائمة بار، استقصاء.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'রাখার উপায়'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'একটি সংগ্রহ একবার পড়া হয় যখন এটি প্রকাশ পায়, এবং তারপর বিশ্ব এগিয়ে চলে। এটি সম্পর্কে জানার তিনটি উপায় রয়েছে — এগুলি চিরকালের জন্য বেছে নেওয়ার বিকল্প নয়, বরং একটি সংগ্রহের পরিস্থিতি যা অফার করে। একই টেবিল এগুলোর যেকোনোটি, বা একাধিকটি গ্রহণ করে, এবং নিচে কিছুই জানে না কোনটি বাজলো।'
+  section:
+    events:
+      title: 'একটি অ্যাপ ইভেন্ট'
+      description: 'একটি পরিবর্তনের জন্য এই পৃষ্ঠা নিজেই সৃষ্টি করেছে: একটি বোতাম যা কাজ করেছে, একটি ফর্ম যা ফিরেছে। যে কেউ বাজায় সে টেবিল সম্পর্কে কিছু জানে না, এবং টেবিল জানে না কে বাজিয়েছে — তারা একটি নাম শেয়ার করে এবং তা-ই। এতে কোনও খরচ হয় না এবং কোনও সার্ভারের প্রয়োজন হয় না।'
+    live:
+      title: 'একটি সরাসরি উৎস'
+      description: 'যেখানে সার্ভারের প্রকাশ করার জন্য একটি বিষয় আছে, সংগ্রহটি সেই সত্তাকে শোনে যার এটি সংগ্রহ — এর রানগুলির জন্য একটি প্রক্রিয়া, এর বার্তার জন্য একটি সেশন — এবং এর নিজস্ব সারি সম্পর্কে কখনোই নয়। একটি সারি যা এখনও অস্তিত্ব নেই তার কোনও বিষয় নেই, এবং যে সারিটি প্রকাশ পায় সেটি ঠিক সেই সারি যা পাঠক অপেক্ষা করছে। ডেমোটির জন্য প্রকাশ করার জন্য কোনও সার্ভার নেই, তাই বোতামটি বার্তাটি চালায়।'
+    polling:
+      title: পোলিং
+      description: 'যেখানে কোনও বিষয় নেই, বা যেখানে মাঝে মাঝে একটি রাউন্ড ট্রিপ একটি খোলাকৃত সাবস্ক্রিপশন থেকে সস্তা। এটি প্রতি তিন সেকেন্ডে পড়ে, এবং যখন ট্যাব পটভূমিতে থাকে তখন থেমে যায় — একটি পৃষ্ঠা যা কেউ দেখছে না তা হল একটি পৃষ্ঠা যা কারো জন্য পড়ার প্রয়োজন নেই।'
+    none:
+      title: 'কিছুই নয়'
+      description: 'ডিফল্ট। একটি সংগ্রহ একবার পড়ে এবং যেমন ছিল তেমনই থাকে, যা সঠিক উত্তর যখন এটি যা দেখায় তা পাঠকের পেছনে পরিবর্তিত হয় না।'
+    shape:
+      title: 'যে কোনও আকার এটি ধারণ করে'
+      description: 'এগুলোর মধ্যে কিছুই টেবিলের অন্তর্ভুক্ত নয়। একই তিনটি উপায় একটি বারগুলির তালিকা, একটি চ্যাট থ্রেড, যেকোনো কিছু যা একটি সংগ্রহ পড়ে — একটি সংগ্রহকে সত্য রাখার এবং এটি কেমন দেখায় তা দুটি পৃথক সিদ্ধান্ত। এটি একটি বার তালিকা, পোলিং।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Am Puls der Zeit'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Eine Sammlung wird einmal gelesen, wenn sie erscheint, und dann zieht die Welt weiter. Das sind die drei Möglichkeiten, wie sie davon erfährt – sie sind keine Alternativen, aus denen man einmal für alle Zeiten wählen muss, sondern das, was die Situation einer Sammlung bietet. Der gleiche Tisch nimmt jede von ihnen oder mehrere, und nichts darunter weiß, welches Geräusch ertönte.'
+  section:
+    events:
+      title: 'Ein App-Ereignis'
+      description: 'Für eine Änderung sorgte diese Seite selbst: ein Button, der agierte, ein Formular, das zurückkam. Wer auch immer anruft, weiß nichts vom Tisch, und der Tisch weiß nichts darüber, wer anruft – sie teilen sich nur einen Namen und das ist alles. Kostet nichts und benötigt keinen Server.'
+    live:
+      title: 'Eine Live-Quelle'
+      description: 'Wo der Server ein Thema zu veröffentlichen hat, hört die Sammlung auf die Entität, von der sie die Sammlung ist – ein Prozess für ihre Abläufe, eine Sitzung für ihre Nachrichten – und niemals auf jede ihrer eigenen Zeilen. Eine Zeile, die noch nicht existiert, hat kein Thema, und die Zeile, die erscheint, ist genau die, auf die der Leser wartet. Die Demo hat keinen Server, der für sie veröffentlicht, also spielt der Button die Nachricht ab.'
+    polling:
+      title: Polling
+      description: 'Wo es kein Thema gibt, oder wo eine Rundreise hin und wieder günstiger ist als ein offen gehaltenes Abonnement. Diese liest alle drei Sekunden und stoppt, während der Tab im Hintergrund ist – eine Seite, die niemand ansieht, ist eine Seite, die niemand vorgelesen bekommen muss.'
+    none:
+      title: 'Gar nichts'
+      description: 'Der Standard. Eine Sammlung wird einmal gelesen und bleibt, wie sie war, was die richtige Antwort ist, wann immer das, was sie zeigt, sich nicht hinter dem Rücken des Lesers ändert.'
+    shape:
+      title: 'Welche Form sie auch immer annimmt'
+      description: 'Nichts davon gehört zum Tisch. Die gleichen drei Möglichkeiten dienen einer Liste von Balken, einem Chatverlauf, allem, was eine Sammlung liest – was eine Sammlung wahr hält und wie sie aussieht, sind zwei separate Entscheidungen. Diese hier ist eine Balkenliste, Polling.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Manteniéndose al día'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Una colección se lee una vez cuando aparece, y luego el mundo sigue adelante. Estas son las tres formas en que se entera de ello: no son alternativas entre las que elegir de una vez por todas, sino lo que la situación de una colección ofrece. La misma tabla acepta cualquiera de ellas, o varias, y nada por debajo sabe cuál sonó.'
+  section:
+    events:
+      title: 'Un evento de la aplicación'
+      description: 'Para un cambio, esta página se causó a sí misma: un botón que actuó, un formulario que regresó. Quien suena no sabe nada de la tabla, y la tabla no sabe nada de quién sonó: comparten un nombre y eso es todo. No cuesta nada y no necesita servidor.'
+    live:
+      title: 'Una fuente en vivo'
+      description: 'Donde el servidor tiene un tema para publicar, la colección escucha a la entidad de la que es colección: un proceso para sus ejecuciones, una sesión para sus mensajes, y nunca a cada una de sus propias filas. Una fila que aún no existe no tiene tema, y la fila que aparece es exactamente la que el lector está esperando. La demostración no tiene servidor que publique para ella, así que el botón reproduce el mensaje.'
+    polling:
+      title: Polling
+      description: 'Donde no hay tema, o donde un viaje de ida y vuelta de vez en cuando es más barato que una suscripción mantenida abierta. Este lee cada tres segundos y se detiene mientras la pestaña está en segundo plano: una página que nadie está mirando es una página que nadie necesita leerles.'
+    none:
+      title: 'Nada en absoluto'
+      description: 'El predeterminado. Una colección se lee una vez y se queda como estaba, que es la respuesta correcta siempre que lo que muestra no cambie a espaldas del lector.'
+    shape:
+      title: 'Cualquier forma que lleve'
+      description: 'Nada de esto pertenece a la tabla. Las mismas tres formas sirven para una lista de barras, un hilo de chat, cualquier cosa que lea una colección: lo que mantiene una colección verdadera y cómo se ve son dos decisiones separadas. Esta es una lista de barras, polling.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'به روز بودن'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'یک مجموعه یک بار خوانده می‌شود زمانی که ظاهر می‌شود و سپس دنیا به راه خود ادامه می‌دهد. این سه راهی هستند که درباره آن می‌شنود — این‌ها گزینه‌هایی نیستند که یک بار برای همیشه انتخاب شوند، بلکه آنچه که وضعیت یک مجموعه ارائه می‌دهد. همان جدول می‌تواند هر یک از آن‌ها یا چند مورد را بپذیرد و هیچ‌کدام از زیر نمی‌داند کدام یک زنگ زده است.'
+  section:
+    events:
+      title: 'یک رویداد برنامه'
+      description: 'برای تغییری که این صفحه خود ایجاد کرد: یک دکمه که عمل کرد، یک فرم که بازگشت. هر کسی که زنگ می‌زند چیزی از جدول نمی‌داند و جدول چیزی از کسی که زنگ زده نمی‌داند — آن‌ها یک نام مشترک دارند و همین کافی است. هیچ هزینه‌ای ندارد و به سرور نیازی ندارد.'
+    live:
+      title: 'یک منبع زنده'
+      description: 'جایی که سرور موضوعی برای انتشار دارد، مجموعه به موجودیتی که مجموعه آن است گوش می‌دهد — یک فرآیند برای اجراهایش، یک نشست برای پیام‌هایش — و هرگز به هر یک از ردیف‌های خود گوش نمی‌دهد. ردیفی که هنوز وجود ندارد موضوعی ندارد و ردیفی که ظاهر می‌شود دقیقاً همان چیزی است که خواننده منتظر آن است. دمو هیچ سروری برای انتشار ندارد، بنابراین دکمه پیام را پخش می‌کند.'
+    polling:
+      title: پولینگ
+      description: 'جایی که موضوعی وجود ندارد، یا جایی که یک دور سفر گهگاهی ارزان‌تر از یک اشتراک باز است. این یکی هر سه ثانیه خوانده می‌شود و در حالی که تب در پس‌زمینه است متوقف می‌شود — صفحه‌ای که هیچ‌کس به آن نگاه نمی‌کند، صفحه‌ای است که هیچ‌کس نیازی به خواندن آن ندارد.'
+    none:
+      title: 'هیچ چیز'
+      description: 'پیش‌فرض. یک مجموعه یک بار خوانده می‌شود و به همان شکلی که بود باقی می‌ماند، که پاسخ درستی است هر زمان که آنچه نشان می‌دهد پشت سر خواننده تغییر نکند.'
+    shape:
+      title: 'هر شکلی که به خود می‌گیرد'
+      description: 'هیچ یک از این‌ها متعلق به جدول نیست. همان سه راه لیستی از نوارها، یک موضوع چت، هر چیزی که یک مجموعه را می‌خواند را خدمت می‌کند — آنچه یک مجموعه را واقعی نگه می‌دارد و آنچه به نظر می‌رسد دو تصمیم جداگانه هستند. این یکی یک لیست نوار است، پولینگ.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Pysyä perässä'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Kokoelma luetaan kerran sen ilmestyessä, ja sitten maailma siirtyy eteenpäin. Nämä ovat kolme tapaa, joilla se kuulee siitä — ne eivät ole vaihtoehtoja, joista valita kerralla, vaan mitä kokoelman tilanne sattuu tarjoamaan. Sama taulukko ottaa minkä tahansa niistä tai useita, eikä mikään alla tiedä, mikä niistä soi.'
+  section:
+    events:
+      title: Sovellustapahtuma
+      description: 'Vaihtelun vuoksi tämä sivu aiheutti itselleen: painike, joka toimi, lomake, joka palautui. Kuka tahansa, joka soittaa, ei tiedä mitään taulukosta, ja taulukko ei tiedä mitään siitä, kuka soitti — he jakavat nimen, ja se on kaikki. Ei maksa mitään eikä tarvitse palvelinta.'
+    live:
+      title: Live-lähde
+      description: 'Missä palvelimella on julkaistava aihe, kokoelma kuuntelee sitä entiteettiä, jota se on — prosessi sen suorituksille, istunto sen viesteille — eikä koskaan omia rivejään. Rivi, jota ei vielä ole, ei ole aihetta, ja rivi, joka ilmestyy, on juuri se, jota lukija odottaa. Demo ei ole saanut palvelinta, joka julkaisee sen puolesta, joten painike toistaa viestin.'
+    polling:
+      title: Polling
+      description: 'Missä ei ole aihetta, tai missä pyöräretki silloin tällöin on halvempaa kuin avoinna pidettävä tilaus. Tämä lukee kolmen sekunnin välein, ja pysähtyy, kun välilehti on taustalla — sivu, jota kukaan ei katso, on sivu, jota kukaan ei tarvitse luettavaksi.'
+    none:
+      title: 'Ei mitään'
+      description: 'Oletus. Kokoelma luetaan kerran ja pysyy sellaisena kuin se oli, mikä on oikea vastaus aina, kun se, mitä se näyttää, ei muutu lukijan selän takana.'
+    shape:
+      title: 'Mikä tahansa muoto se on'
+      description: 'Mikään näistä ei kuulu taulukkoon. Samat kolme tapaa palvelevat baarilistaa, keskusteluketjua, mitä tahansa kokoelmaa lukemassa — se, mikä pitää kokoelman totena ja miltä se näyttää, ovat kaksi erillistä päätöstä. Tämä on baarilista, polling.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Rester à jour'
+  page_icon: 'ph:bold/broadcast'
+  intro: "Une collection est lue une fois lorsqu'elle apparaît, puis le monde passe à autre chose. Voici les trois façons dont elle en entend parler — elles ne sont pas des alternatives à choisir une fois pour toutes, mais ce que la situation d'une collection a à offrir. La même table accepte n'importe laquelle d'entre elles, ou plusieurs, et rien en dessous ne sait laquelle a sonné."
+  section:
+    events:
+      title: "Un événement d'application"
+      description: "Pour une fois, cette page s'est causée elle-même : un bouton qui a agi, un formulaire qui est revenu. Quiconque sonne ne sait rien de la table, et la table ne sait rien de qui a sonné — ils partagent un nom et c'est tout. Ne coûte rien et n'a pas besoin de serveur."
+    live:
+      title: 'Une source en direct'
+      description: "Lorsque le serveur a un sujet à publier, la collection écoute l'entité dont elle est la collection — un processus pour ses exécutions, une session pour ses messages — et jamais à chacune de ses propres lignes. Une ligne qui n'existe pas encore n'a pas de sujet, et la ligne qui apparaît est exactement celle que le lecteur attend. La démo n'a pas de serveur pour publier pour elle, donc le bouton joue le message."
+    polling:
+      title: Interrogation
+      description: "Là où il n'y a pas de sujet, ou là où un aller-retour de temps en temps est moins cher qu'un abonnement maintenu ouvert. Celui-ci lit toutes les trois secondes et s'arrête pendant que l'onglet est en arrière-plan — une page que personne ne regarde est une page dont personne n'a besoin qu'on lui lise."
+    none:
+      title: 'Rien du tout'
+      description: "Le défaut. Une collection est lue une fois et reste telle qu'elle était, ce qui est la bonne réponse chaque fois que ce qu'elle montre ne change pas dans le dos du lecteur."
+    shape:
+      title: "Quelle que soit la forme qu'elle prend"
+      description: "Rien de tout cela n'appartient à la table. Les mêmes trois façons servent une liste de bars, un fil de discussion, tout ce qui lit une collection — ce qui maintient une collection vraie et ce à quoi elle ressemble sont deux décisions séparées. Celui-ci est une liste de bars, en interrogation."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: להתעדכן
+  page_icon: 'ph:bold/broadcast'
+  intro: 'אוסף נקרא פעם אחת כשהוא מופיע, ואז העולם ממשיך. אלו שלוש הדרכים שבהן הוא שומע על כך — הן לא חלופות לבחור ביניהן פעם ולתמיד, אלא מה שהסיטואציה של האוסף מציעה. אותה טבלה מקבלת כל אחת מהן, או כמה, ואין דבר שמתחת יודע איזו מהן צלצלה.'
+  section:
+    events:
+      title: 'אירוע של אפליקציה'
+      description: 'לשינוי שהדף הזה גרם לעצמו: כפתור שפעל, טופס שחזר. מי שמצלצל לא יודע דבר על הטבלה, והטבלה לא יודעת דבר על מי שצלצל — הם חולקים שם וזה הכל. לא עולה דבר ולא צריך שרת.'
+    live:
+      title: 'מקור חי'
+      description: 'כאשר לשרת יש נושא לפרסם עליו, האוסף מקשיב לישות שהוא האוסף שלה — תהליך עבור הריצות שלו, מפגש עבור ההודעות שלו — ולא לכל שורה משלו. שורה שלא קיימת עדיין אין לה נושא, והשורה שמופיעה היא בדיוק זו שהקורא מחכה לה. הדמו אין לו שרת לפרסם בשבילו, כך שהכפתור משמיע את ההודעה.'
+    polling:
+      title: שאילתות
+      description: 'כאשר אין נושא, או כאשר טיול הלוך ושוב מדי פעם זול יותר משירות מנוי פתוח. זה קורא כל שלושה שניות, ועוצר בזמן שהטאב ברקע — דף שאף אחד לא מסתכל עליו הוא דף שאף אחד לא צריך לקרוא לו.'
+    none:
+      title: 'שום דבר בכלל'
+      description: 'הברירת מחדל. אוסף נקרא פעם אחת ונשאר כפי שהיה, שהיא התשובה הנכונה בכל פעם מה שהוא מציג לא משתנה מאחורי הגב של הקורא.'
+    shape:
+      title: 'כל צורה שהיא לובשת'
+      description: "אף אחד מזה לא שייך לטבלה. שלוש הדרכים האלו משמשות רשימה של ברים, שיחת צ'אט, כל דבר שקורא אוסף — מה שומר על אוסף אמיתי ומה שהוא נראה הם שתי החלטות נפרדות. זהו רשימת ברים, שאילתה."
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: रखना
+  page_icon: 'ph:bold/broadcast'
+  intro: 'एक संग्रह एक बार पढ़ा जाता है जब यह प्रकट होता है, और फिर दुनिया आगे बढ़ जाती है। ये तीन तरीके हैं जिनसे यह इसके बारे में सुनता है — ये एक बार और हमेशा के लिए चुनने के लिए विकल्प नहीं हैं, बल्कि यह है कि एक संग्रह की स्थिति क्या पेश करती है। वही तालिका इनमें से किसी को भी लेती है, या कई को, और नीचे कुछ भी नहीं जानता कि कौन सा बजा।'
+  section:
+    events:
+      title: 'एक ऐप इवेंट'
+      description: 'इस पृष्ठ ने खुद को बदलने के लिए: एक बटन जो कार्य करता है, एक फॉर्म जो वापस आता है। जो कोई भी बजाता है, उसे तालिका के बारे में कुछ नहीं पता, और तालिका को नहीं पता कि कौन बजाया — वे एक नाम साझा करते हैं और बस इतना ही। इसका कोई खर्च नहीं है और किसी सर्वर की आवश्यकता नहीं है।'
+    live:
+      title: 'एक लाइव स्रोत'
+      description: 'जहां सर्वर के पास प्रकाशित करने के लिए एक विषय है, संग्रह उस इकाई को सुनता है जिसका यह संग्रह है — इसके रनों के लिए एक प्रक्रिया, इसके संदेशों के लिए एक सत्र — और कभी भी अपनी खुद की पंक्तियों में नहीं। एक पंक्ति जो अभी तक मौजूद नहीं है, उसका कोई विषय नहीं है, और जो पंक्ति प्रकट होती है वही है जिसकी पाठक को प्रतीक्षा है। डेमो के लिए प्रकाशित करने के लिए कोई सर्वर नहीं है, इसलिए बटन संदेश को खेलता है।'
+    polling:
+      title: पोलिंग
+      description: 'जहां कोई विषय नहीं है, या जहां एक चक्कर लगाना कभी-कभी एक खुली सदस्यता से सस्ता है। यह हर तीन सेकंड में पढ़ता है, और तब रुक जाता है जब टैब पृष्ठभूमि में होता है — एक पृष्ठ जिस पर कोई नहीं देख रहा है, वह एक पृष्ठ है जिसे किसी को पढ़ने की आवश्यकता नहीं है।'
+    none:
+      title: 'बिल्कुल कुछ नहीं'
+      description: 'डिफ़ॉल्ट। एक संग्रह एक बार पढ़ता है और उसी तरह रहता है, जो सही उत्तर है जब यह जो दिखाता है वह पाठक की पीठ के पीछे नहीं बदलता।'
+    shape:
+      title: 'जो भी आकार वह पहनता है'
+      description: 'इनमें से कोई भी तालिका से संबंधित नहीं है। वही तीन तरीके एक बार की सूची, एक चैट थ्रेड, किसी भी संग्रह को पढ़ने के लिए सेवा करते हैं — जो एक संग्रह को सत्य रखता है और जो यह दिखता है वे दो अलग-अलग निर्णय हैं। यह एक बार सूची है, पोलिंग।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Menjaga keterkinian'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Sebuah koleksi dibaca sekali ketika muncul, dan kemudian dunia bergerak maju. Ini adalah tiga cara untuk mengetahuinya — mereka bukan alternatif untuk dipilih sekali dan untuk selamanya, tetapi apa yang ditawarkan oleh situasi sebuah koleksi. Tabel yang sama dapat mengambil salah satunya, atau beberapa, dan tidak ada yang di bawah yang tahu mana yang berbunyi.'
+  section:
+    events:
+      title: 'Sebuah peristiwa aplikasi'
+      description: 'Untuk perubahan yang disebabkan oleh halaman ini sendiri: sebuah tombol yang bertindak, sebuah formulir yang kembali. Siapa pun yang berbunyi tidak tahu apa-apa tentang tabel, dan tabel tidak tahu siapa yang berbunyi — mereka berbagi nama dan itu saja. Tidak memerlukan biaya dan tidak memerlukan server.'
+    live:
+      title: 'Sumber langsung'
+      description: 'Di mana server memiliki topik untuk dipublikasikan, koleksi mendengarkan entitas yang merupakan koleksinya — sebuah proses untuk jalannya, sebuah sesi untuk pesannya — dan tidak pernah ke setiap barisnya sendiri. Sebuah baris yang belum ada tidak memiliki topik, dan baris yang muncul adalah tepat yang ditunggu oleh pembaca. Demo ini tidak memiliki server untuk menerbitkannya, jadi tombol memainkan pesan.'
+    polling:
+      title: Polling
+      description: 'Di mana tidak ada topik, atau di mana perjalanan pulang pergi sekarang dan kemudian lebih murah daripada langganan yang dibuka. Yang ini membaca setiap tiga detik, dan berhenti saat tab berada di latar belakang — halaman yang tidak dilihat siapa pun adalah halaman yang tidak perlu dibaca untuk mereka.'
+    none:
+      title: 'Tidak ada sama sekali'
+      description: 'Default. Sebuah koleksi dibaca sekali dan tetap seperti semula, yang merupakan jawaban yang tepat setiap kali apa yang ditunjukkannya tidak berubah di belakang pembaca.'
+    shape:
+      title: 'Bentuk apapun yang dikenakannya'
+      description: 'Tidak ada dari ini yang milik tabel. Tiga cara yang sama melayani daftar bilah, utas obrolan, apa pun yang membaca sebuah koleksi — apa yang menjaga sebuah koleksi tetap benar dan bagaimana tampilannya adalah dua keputusan yang terpisah. Yang ini adalah daftar bilah, polling.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Rimanere aggiornati'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Una collezione viene letta una volta quando appare, e poi il mondo va avanti. Questi sono i tre modi in cui ne viene a conoscenza — non sono alternative tra cui scegliere una volta per tutte, ma ciò che la situazione di una collezione offre. La stessa tabella accoglie ognuno di essi, o più di uno, e nulla qui sotto sa quale sia suonata.'
+  section:
+    events:
+      title: "Un evento dell'app"
+      description: 'Per un cambiamento che questa pagina ha causato da sola: un pulsante che ha agito, un modulo che è tornato indietro. Chiunque suoni non sa nulla della tabella, e la tabella non sa nulla di chi ha suonato — condividono un nome e questo è tutto. Non costa nulla e non ha bisogno di un server.'
+    live:
+      title: 'Una fonte in tempo reale'
+      description: "Dove il server ha un argomento da pubblicare, la collezione ascolta l'entità di cui è la collezione — un processo per le sue esecuzioni, una sessione per i suoi messaggi — e mai a ciascuna delle sue righe. Una riga che non esiste ancora non ha un argomento, e la riga che appare è esattamente quella che il lettore sta aspettando. La demo non ha un server per pubblicare per essa, quindi il pulsante riproduce il messaggio."
+    polling:
+      title: Polling
+      description: "Dove non c'è argomento, o dove un giro di andata e ritorno ogni tanto è più economico di un abbonamento mantenuto aperto. Questo legge ogni tre secondi e si ferma mentre la scheda è in background — una pagina che nessuno sta guardando è una pagina che non ha bisogno di essere letta per loro."
+    none:
+      title: 'Niente affatto'
+      description: "Il predefinito. Una collezione viene letta una volta e rimane com'era, che è la risposta giusta ogni volta che ciò che mostra non cambia alle spalle del lettore."
+    shape:
+      title: 'Qualsiasi forma indossi'
+      description: 'Nessuna di queste appartiene alla tabella. I stessi tre modi servono un elenco di barre, un thread di chat, qualsiasi cosa legga una collezione — ciò che mantiene una collezione vera e ciò che sembra sono due decisioni separate. Questo è un elenco di barre, polling.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 進行中
+  page_icon: 'ph:bold/broadcast'
+  intro: 'コレクションは表示されたときに一度読まれ、その後は世界が進んでいきます。これがコレクションがそれについて聞く三つの方法です — これは選択肢ではなく、コレクションの状況が提供するものです。同じテーブルはそれらのいずれか、または複数を受け入れ、下のどれもどの方法が鳴ったかを知りません。'
+  section:
+    events:
+      title: アプリイベント
+      description: 'このページが自ら引き起こした変化: 行動したボタン、戻ってきたフォーム。鳴らした者はテーブルのことを何も知らず、テーブルは誰が鳴らしたかを知りません — 彼らは名前を共有しているだけです。コストはかからず、サーバーも必要ありません。'
+    live:
+      title: ライブソース
+      description: 'サーバーに公開するトピックがある場合、コレクションはそのコレクションのエンティティを聴きます — ランのためのプロセス、メッセージのためのセッション — そして自分自身の行には決して耳を傾けません。まだ存在しない行にはトピックがなく、表示される行は正に読者が待っているものです。デモにはそれを公開するサーバーがないため、ボタンがメッセージを再生します。'
+    polling:
+      title: ポーリング
+      description: 'トピックがない場合、または時々往復する方がオープンなサブスクリプションを保持するよりも安価な場合。このポーリングは3秒ごとに読み取り、タブがバックグラウンドにある間は停止します — 誰も見ていないページは、誰も読む必要のないページです。'
+    none:
+      title: 全く何もない
+      description: デフォルト。コレクションは一度読み取り、そのままの状態を保ちます。これは、表示される内容が読者の背後で変わらない場合の正しい答えです。
+    shape:
+      title: どんな形でも
+      description: 'これらはテーブルに属しません。同じ三つの方法がバーのリスト、チャットスレッド、コレクションを読む何でもに役立ちます — コレクションが真実であることとその見た目は二つの別々の決定です。これはバーリストで、ポーリングです。'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 유지하기
+  page_icon: 'ph:bold/broadcast'
+  intro: '컬렉션은 나타날 때 한 번 읽혀지고, 그 후로 세상은 계속 흘러간다. 이것이 그것에 대해 듣는 세 가지 방법이다 — 이들은 영원히 선택할 수 있는 대안이 아니라, 컬렉션의 상황이 제공하는 것이다. 같은 테이블은 이 중 어떤 것이든, 또는 여러 개를 수용할 수 있으며, 아래의 어떤 것도 어떤 것이 울렸는지 알지 못한다.'
+  section:
+    events:
+      title: '앱 이벤트'
+      description: '이 페이지가 스스로 일으킨 변화: 작동하는 버튼, 돌아오는 폼. 울리는 사람은 테이블에 대한 아무것도 모르고, 테이블은 누가 울렸는지에 대해 아무것도 모른다 — 그들은 이름을 공유할 뿐이다. 비용이 들지 않으며 서버가 필요 없다.'
+    live:
+      title: '실시간 소스'
+      description: '서버가 게시할 주제가 있을 때, 컬렉션은 그것이 컬렉션인 엔티티를 듣는다 — 그것의 실행을 위한 프로세스, 메시지를 위한 세션 — 그리고 자신의 각 행에는 결코 듣지 않는다. 아직 존재하지 않는 행은 주제가 없으며, 나타나는 행은 독자가 기다리고 있는 정확한 행이다. 데모는 게시할 서버가 없기 때문에, 버튼이 메시지를 재생한다.'
+    polling:
+      title: 폴링
+      description: '주제가 없거나, 간헐적으로 왕복하는 것이 열려 있는 구독보다 저렴한 경우. 이 방법은 매 3초마다 읽으며, 탭이 백그라운드에 있을 때는 멈춘다 — 아무도 보고 있지 않은 페이지는 아무도 읽어줄 필요가 없는 페이지이다.'
+    none:
+      title: '아무것도 없음'
+      description: '기본값. 컬렉션은 한 번 읽히고, 독자의 뒤에서 보여주는 것이 변하지 않을 때는 그대로 유지된다. 이것이 올바른 답이다.'
+    shape:
+      title: '어떤 형태를 취하든지'
+      description: '이 중 어느 것도 테이블에 속하지 않는다. 같은 세 가지 방법은 바 리스트, 채팅 스레드, 컬렉션을 읽는 모든 것에 사용된다 — 컬렉션을 진정하게 유지하는 것과 그것이 어떻게 보이는지는 두 가지 별개의 결정이다. 이것은 바 리스트로, 폴링을 사용한다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bijhouden
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Een collectie wordt één keer gelezen wanneer deze verschijnt, en dan gaat de wereld verder. Dit zijn de drie manieren waarop het ervan hoort — het zijn geen alternatieven om eenmaal voor altijd tussen te kiezen, maar wat de situatie van een collectie biedt. Dezelfde tabel kan ze allemaal of meerdere tegelijk aan, en niets hieronder weet welke heeft geklonken.'
+  section:
+    events:
+      title: 'Een app-evenement'
+      description: 'Voor een verandering die deze pagina zelf heeft veroorzaakt: een knop die actie ondernam, een formulier dat terugkwam. Wie ook maar belt weet niets van de tabel, en de tabel weet niets van wie heeft gebeld — ze delen een naam en dat is alles. Kost niets en heeft geen server nodig.'
+    live:
+      title: 'Een live bron'
+      description: 'Waar de server een onderwerp heeft om over te publiceren, luistert de collectie naar de entiteit waarvan het de collectie is — een proces voor zijn runs, een sessie voor zijn berichten — en nooit naar elk van zijn eigen rijen. Een rij die nog niet bestaat heeft geen onderwerp, en de rij die verschijnt is precies degene waar de lezer op wacht. De demo heeft geen server om voor te publiceren, dus de knop speelt het bericht af.'
+    polling:
+      title: Polling
+      description: 'Waar er geen onderwerp is, of waar een rondreis nu en dan goedkoper is dan een abonnement dat open blijft. Deze leest elke drie seconden en stopt terwijl het tabblad op de achtergrond is — een pagina waar niemand naar kijkt is een pagina die niemand hoeft te lezen.'
+    none:
+      title: 'Helemaal niets'
+      description: 'De standaard. Een collectie leest één keer en blijft zoals hij was, wat het juiste antwoord is wanneer wat het toont niet verandert achter de rug van de lezer.'
+    shape:
+      title: 'Welke vorm het ook aanneemt'
+      description: 'Niets hiervan behoort tot de tabel. Dezelfde drie manieren dienen een lijst van balken, een chatgesprek, alles dat een collectie leest — wat een collectie waarachtig houdt en hoe het eruitziet zijn twee afzonderlijke beslissingen. Dit is een balklijst, polling.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Utrzymywanie tempa'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Kolekcja jest odczytywana raz, gdy się pojawia, a potem świat idzie dalej. Oto trzy sposoby, w jakie o niej słyszy — nie są to alternatywy do wyboru raz na zawsze, ale to, co sytuacja kolekcji ma do zaoferowania. Ten sam stół przyjmuje każdy z nich, lub kilka, a nic poniżej nie wie, który dzwonił.'
+  section:
+    events:
+      title: 'Zdarzenie aplikacji'
+      description: 'Dla odmiany ta strona spowodowała coś sama: przycisk, który zadziałał, formularz, który wrócił. Kto dzwoni, nic nie wie o stole, a stół nic nie wie o tym, kto dzwonił — mają tylko wspólną nazwę i to wszystko. Nic nie kosztuje i nie potrzebuje serwera.'
+    live:
+      title: 'Źródło na żywo'
+      description: 'Gdy serwer ma temat do publikacji, kolekcja nasłuchuje jednostki, z której jest kolekcjonowana — proces dla jej uruchomień, sesja dla jej wiadomości — i nigdy nie na każdą z własnych wierszy. Wiersz, który jeszcze nie istnieje, nie ma tematu, a wiersz, który się pojawia, jest dokładnie tym, na co czytelnik czeka. Demo nie ma serwera, aby publikować dla niego, więc przycisk odtwarza wiadomość.'
+    polling:
+      title: Polling
+      description: 'Gdzie nie ma tematu, lub gdzie podróż w obie strony co jakiś czas jest tańsza niż subskrypcja utrzymywana otwarta. Ten odczytuje co trzy sekundy i zatrzymuje się, gdy karta jest w tle — strona, na którą nikt nie patrzy, to strona, której nikt nie potrzebuje, aby mu ją odczytywać.'
+    none:
+      title: 'Nic w ogóle'
+      description: 'Domyślnie. Kolekcja odczytuje raz i pozostaje taka, jaka była, co jest właściwą odpowiedzią, gdy to, co pokazuje, nie zmienia się za plecami czytelnika.'
+    shape:
+      title: 'Jakikolwiek kształt przybiera'
+      description: 'Żaden z tych elementów nie należy do stołu. Te same trzy sposoby służą liście barów, wątku czatu, czemukolwiek odczytującemu kolekcję — to, co utrzymuje kolekcję prawdziwą i jak wygląda, to dwie oddzielne decyzje. To jest lista barów, polling.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Acompanhando
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Uma coleção é lida uma vez quando aparece, e então o mundo segue em frente. Estas são as três maneiras pelas quais ela ouve sobre isso — não são alternativas a serem escolhidas de uma vez por todas, mas o que a situação de uma coleção acaba oferecendo. A mesma tabela aceita qualquer uma delas, ou várias, e nada abaixo sabe qual delas soou.'
+  section:
+    events:
+      title: 'Um evento do aplicativo'
+      description: 'Por uma mudança que esta página causou a si mesma: um botão que agiu, um formulário que voltou. Quem toca não sabe nada sobre a tabela, e a tabela não sabe nada sobre quem tocou — eles compartilham um nome e isso é tudo. Não custa nada e não precisa de servidor.'
+    live:
+      title: 'Uma fonte ao vivo'
+      description: 'Onde o servidor tem um tópico para publicar, a coleção ouve a entidade da qual é a coleção — um processo para suas execuções, uma sessão para suas mensagens — e nunca a cada uma de suas próprias linhas. Uma linha que ainda não existe não tem tópico, e a linha que aparece é exatamente a que o leitor está esperando. A demonstração não tem servidor para publicar por ela, então o botão toca a mensagem.'
+    polling:
+      title: Polling
+      description: 'Onde não há tópico, ou onde uma viagem de ida e volta de vez em quando é mais barata do que uma assinatura mantida aberta. Este lê a cada três segundos, e para enquanto a aba está em segundo plano — uma página que ninguém está olhando é uma página que ninguém precisa ler para eles.'
+    none:
+      title: 'Nada disso'
+      description: 'O padrão. Uma coleção é lida uma vez e permanece como estava, que é a resposta certa sempre que o que ela mostra não muda nas costas do leitor.'
+    shape:
+      title: 'Qualquer forma que ela tenha'
+      description: 'Nada disso pertence à tabela. As mesmas três maneiras servem uma lista de barras, um tópico de chat, qualquer coisa que leia uma coleção — o que mantém uma coleção verdadeira e como ela se parece são duas decisões separadas. Esta é uma lista de barras, polling.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Поддержание
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Коллекция считывается один раз, когда она появляется, а затем мир движется дальше. Это три способа, как она об этом узнает — это не альтернативы, между которыми нужно выбирать раз и навсегда, а то, что ситуация коллекции предлагает. Один и тот же стол принимает любой из них или несколько, и ничто ниже не знает, какой из них прозвучал.'
+  section:
+    events:
+      title: 'Событие приложения'
+      description: 'Изменение, вызванное этой страницей: кнопка, которая сработала, форма, которая вернулась. Тот, кто звонит, ничего не знает о столе, и стол ничего не знает о том, кто звонил — у них одно имя, и это всё. Ничего не стоит и не требует сервер.'
+    live:
+      title: 'Живой источник'
+      description: 'Где сервер имеет тему для публикации, коллекция слушает сущность, которой она является — процесс для её запусков, сессия для её сообщений — и никогда не слушает каждую из своих строк. Строка, которой ещё не существует, не имеет темы, а строка, которая появляется, именно та, на которую читатель ждет. Демонстрация не имеет сервера для публикации, поэтому кнопка отправляет сообщение.'
+    polling:
+      title: Опрос
+      description: 'Где нет темы, или где круговой запрос время от времени дешевле, чем подписка, удерживаемая открытой. Этот считывает каждые три секунды и останавливается, пока вкладка в фоновом режиме — страница, на которую никто не смотрит, это страница, которую никому не нужно читать.'
+    none:
+      title: 'Ничего вообще'
+      description: 'По умолчанию. Коллекция считывается один раз и остается такой, какой была, что является правильным ответом, когда то, что она показывает, не меняется за спиной читателя.'
+    shape:
+      title: 'Какой бы формы она ни была'
+      description: 'Ничто из этого не принадлежит столу. Те же три способа служат списку баров, чату, любому чтению коллекции — что делает коллекцию истинной и как она выглядит, это два отдельных решения. Этот — список баров, опрос.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: การติดตาม
+  page_icon: 'ph:bold/broadcast'
+  intro: 'การรวบรวมจะถูกอ่านเพียงครั้งเดียวเมื่อปรากฏขึ้น จากนั้นโลกก็เดินหน้าต่อไป นี่คือสามวิธีที่มันได้ยินเกี่ยวกับมัน — พวกเขาไม่ใช่ทางเลือกที่จะเลือกครั้งเดียวสำหรับทุกอย่าง แต่เป็นสิ่งที่สถานการณ์ของการรวบรวมนั้นเสนอ ตารางเดียวกันสามารถรับวิธีใดวิธีหนึ่งหรือหลายวิธี และไม่มีสิ่งใดข้างล่างที่รู้ว่ามีเสียงเรียกไหนดังขึ้น'
+  section:
+    events:
+      title: เหตุการณ์แอปพลิเคชัน
+      description: 'สำหรับการเปลี่ยนแปลงที่หน้านี้ทำให้เกิดขึ้น: ปุ่มที่ทำงาน, แบบฟอร์มที่กลับมา ใครก็ตามที่โทรรู้เพียงชื่อ ไม่มีใครรู้เกี่ยวกับตาราง และตารางก็ไม่รู้ว่าใครโทร — พวกเขาแชร์ชื่อกันเท่านั้น ไม่มีค่าใช้จ่ายและไม่ต้องการเซิร์ฟเวอร์'
+    live:
+      title: แหล่งข้อมูลสด
+      description: 'เมื่อเซิร์ฟเวอร์มีหัวข้อที่จะเผยแพร่ การรวบรวมจะฟังเอนทิตีที่มันเป็นการรวบรวม — กระบวนการสำหรับการรัน, เซสชันสำหรับข้อความ — และไม่เคยฟังแต่ละแถวของมันเอง แถวที่ยังไม่มีอยู่จะไม่มีหัวข้อ และแถวที่ปรากฏคือแถวที่ผู้อ่านรอคอยอยู่ เดโมไม่มีเซิร์ฟเวอร์เพื่อเผยแพร่ให้กับมัน ดังนั้นปุ่มจึงเล่นข้อความ'
+    polling:
+      title: การสำรวจข้อมูล
+      description: 'เมื่อไม่มีหัวข้อ หรือเมื่อการเดินทางไป-กลับในบางครั้งถูกกว่าการสมัครสมาชิกที่เปิดอยู่ วิธีนี้อ่านทุกสามวินาทีและหยุดเมื่อแท็บอยู่ในพื้นหลัง — หน้าที่ไม่มีใครมองคือหน้าที่ไม่มีใครต้องการอ่านให้ฟัง'
+    none:
+      title: ไม่มีอะไรเลย
+      description: 'ค่าเริ่มต้น การรวบรวมอ่านเพียงครั้งเดียวและคงอยู่ในสภาพเดิม ซึ่งเป็นคำตอบที่ถูกต้องเมื่อสิ่งที่มันแสดงไม่เปลี่ยนแปลงเบื้องหลังของผู้อ่าน'
+    shape:
+      title: 'รูปร่างใดๆ ที่มันสวมใส่'
+      description: 'ไม่มีสิ่งใดในนี้เป็นของตาราง วิธีทั้งสามนี้ใช้สำหรับรายการบาร์, กระทู้แชท, สิ่งใดก็ตามที่อ่านการรวบรวม — สิ่งที่ทำให้การรวบรวมเป็นจริงและสิ่งที่มันดูเหมือนเป็นการตัดสินใจที่แยกจากกัน ส่วนนี่เป็นรายการบาร์ การสำรวจข้อมูล.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Ayakta Kalmak'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Bir koleksiyon göründüğünde bir kez okunur ve sonra dünya devam eder. Bunun hakkında duyduğu üç yol var — bunlar bir kez ve sonsuza dek seçilecek alternatifler değil, bir koleksiyonun durumunun sunduklarıdır. Aynı tablo bunların herhangi birini veya birkaçını alır ve alttaki hiçbir şey hangi sesin geldiğini bilmez.'
+  section:
+    events:
+      title: 'Bir uygulama olayı'
+      description: 'Bu sayfanın kendisinin yarattığı bir değişiklik: bir eylem gerçekleştiren bir buton, geri dönen bir form. Kim çalarsa çalsın tablodan hiçbir şey bilmez ve tablo da kimin çaldığını bilmez — sadece bir isim paylaşırlar ve bu kadar. Hiçbir maliyeti yoktur ve sunucuya ihtiyaç duymaz.'
+    live:
+      title: 'Canlı bir kaynak'
+      description: 'Sunucunun yayımlayacak bir konusu olduğunda, koleksiyon, onun koleksiyonu olduğu varlığı dinler — çalışmaları için bir süreç, mesajları için bir oturum — ve kendi satırlarından asla dinlemez. Henüz var olmayan bir satırın konusu yoktur ve görünen satır, okuyucunun beklediği tam olarak odur. Demo için yayımlayacak bir sunucu yok, bu yüzden buton mesajı oynatır.'
+    polling:
+      title: Anket
+      description: 'Bir konu yoksa veya arada sırada yapılan bir gidiş-dönüş, açık tutulan bir abonelikten daha ucuzsa. Bu her üç saniyede bir okur ve sekme arka planda iken durur — kimsenin bakmadığı bir sayfa, kimsenin okutmasına ihtiyaç duyulan bir sayfadır.'
+    none:
+      title: 'Hiçbir şey yok'
+      description: 'Varsayılan. Bir koleksiyon bir kez okur ve olduğu gibi kalır, bu da gösterdiklerinin okuyucunun arkasında değişmediği her durumda doğru cevaptır.'
+    shape:
+      title: 'Ne şekilde olursa olsun'
+      description: 'Bunların hiçbiri tabloya ait değildir. Aynı üç yol, bir çubuk listesi, bir sohbet dizisi, bir koleksiyonu okuyan her şeyi sunar — bir koleksiyonu gerçek kılan şey ile görünümünün iki ayrı kararıdır. Bu bir çubuk listesi, anket.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'اپ ڈیٹ رکھنا'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'ایک مجموعہ ایک بار پڑھا جاتا ہے جب یہ ظاہر ہوتا ہے، اور پھر دنیا آگے بڑھ جاتی ہے۔ یہ تین طریقے ہیں جن سے یہ اس بارے میں سنتا ہے — یہ مستقل طور پر انتخاب کرنے کے متبادل نہیں ہیں، بلکہ یہ وہ چیزیں ہیں جو کسی مجموعے کی حالت پیش کرتی ہیں۔ ایک ہی جدول ان میں سے کسی کو بھی، یا کئی کو لے سکتا ہے، اور نیچے کچھ بھی نہیں جانتا کہ کون سا بجا۔'
+  section:
+    events:
+      title: 'ایپ کا واقعہ'
+      description: 'ایک تبدیلی جس کا باعث یہ صفحہ خود بنا: ایک بٹن جو عمل کرتا ہے، ایک فارم جو واپس آتا ہے۔ جو کوئی بھی بجتا ہے وہ جدول کے بارے میں کچھ نہیں جانتا، اور جدول کو یہ نہیں معلوم کہ کون بجا — ان کا ایک ہی نام ہے اور یہی سب کچھ ہے۔ اس کی کوئی قیمت نہیں اور اسے کسی سرور کی ضرورت نہیں۔'
+    live:
+      title: 'ایک لائیو ماخذ'
+      description: 'جہاں سرور کے پاس شائع کرنے کے لیے ایک موضوع ہے، وہاں مجموعہ اس وجود کو سنتا ہے جس کا یہ مجموعہ ہے — اس کے چلنے کے لیے ایک عمل، اس کے پیغامات کے لیے ایک سیشن — اور کبھی بھی اپنے اپنے قطاروں میں سے ہر ایک کو نہیں۔ ایک قطار جو ابھی تک موجود نہیں ہے اس کا کوئی موضوع نہیں ہے، اور وہ قطار جو ظاہر ہوتی ہے بالکل وہی ہے جس کا قارئین انتظار کر رہا ہے۔ ڈیمو کے لیے شائع کرنے کے لیے کوئی سرور نہیں ہے، لہذا بٹن پیغام کو چلا رہا ہے۔'
+    polling:
+      title: پولنگ
+      description: 'جہاں کوئی موضوع نہیں ہے، یا جہاں کبھی کبھار کا دورہ ایک کھلی سبسکرپشن سے سستا ہے۔ یہ ہر تین سیکنڈ میں پڑھتا ہے، اور جب ٹیب پس منظر میں ہوتا ہے تو رک جاتا ہے — ایک صفحہ جسے کوئی نہیں دیکھ رہا وہ ایک صفحہ ہے جسے کسی کو پڑھنے کی ضرورت نہیں۔'
+    none:
+      title: 'بالکل کچھ بھی نہیں'
+      description: 'ڈیفالٹ۔ ایک مجموعہ ایک بار پڑھتا ہے اور جیسا تھا ویسا ہی رہتا ہے، جو صحیح جواب ہے جب وہ جو دکھاتا ہے قارئین کی پیٹھ کے پیچھے نہیں بدلتا۔'
+    shape:
+      title: 'جو بھی شکل یہ رکھتا ہے'
+      description: 'ان میں سے کوئی بھی چیز جدول کی نہیں ہے۔ وہی تین طریقے بارز کی فہرست، ایک چیٹ دھاگہ، کسی بھی چیز کو پڑھنے کے لیے کام آتے ہیں — جو ایک مجموعے کو حقیقی رکھتا ہے اور یہ کیسا لگتا ہے یہ دو الگ الگ فیصلے ہیں۔ یہ ایک بار کی فہرست ہے، پولنگ۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Theo kịp'
+  page_icon: 'ph:bold/broadcast'
+  intro: 'Một bộ sưu tập được đọc một lần khi nó xuất hiện, và sau đó thế giới tiếp tục. Đây là ba cách để nó nghe về điều đó — chúng không phải là các lựa chọn thay thế để chọn giữa một lần duy nhất, mà là những gì tình huống của một bộ sưu tập mang lại. Cùng một bảng có thể lấy bất kỳ cách nào trong số đó, hoặc vài cách, và không có gì bên dưới biết cách nào đã vang lên.'
+  section:
+    events:
+      title: 'Một sự kiện ứng dụng'
+      description: 'Đối với một sự thay đổi mà trang này tự gây ra: một nút đã hoạt động, một biểu mẫu đã trở về. Ai vang lên cũng không biết gì về bảng, và bảng cũng không biết ai đã vang lên — họ chỉ chia sẻ một cái tên và đó là tất cả. Không tốn chi phí và không cần máy chủ.'
+    live:
+      title: 'Một nguồn trực tiếp'
+      description: 'Khi máy chủ có một chủ đề để công bố, bộ sưu tập lắng nghe thực thể mà nó là bộ sưu tập của — một quy trình cho các lần chạy của nó, một phiên cho các tin nhắn của nó — và không bao giờ đến từng hàng của chính nó. Một hàng chưa tồn tại thì không có chủ đề, và hàng xuất hiện chính xác là hàng mà người đọc đang chờ đợi. Bản demo không có máy chủ để công bố cho nó, vì vậy nút phát tin nhắn.'
+    polling:
+      title: 'Khảo sát'
+      description: 'Nơi không có chủ đề, hoặc nơi một vòng đi vòng lại thì rẻ hơn là giữ một đăng ký mở. Cái này đọc mỗi ba giây, và dừng lại khi tab ở nền — một trang không ai nhìn vào là một trang không ai cần phải đọc cho họ.'
+    none:
+      title: 'Không có gì cả'
+      description: 'Mặc định. Một bộ sưu tập đọc một lần và giữ nguyên như nó đã có, đó là câu trả lời đúng bất cứ khi nào những gì nó hiển thị không thay đổi sau lưng người đọc.'
+    shape:
+      title: 'Dạng nào cũng được'
+      description: 'Không cái nào trong số này thuộc về bảng. Cùng ba cách này phục vụ một danh sách thanh, một chuỗi trò chuyện, bất kỳ thứ gì đọc một bộ sưu tập — những gì giữ cho một bộ sưu tập đúng và những gì nó trông như thế nào là hai quyết định riêng biệt. Cái này là một danh sách thanh, khảo sát.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 保持同步
+  page_icon: 'ph:bold/broadcast'
+  intro: 一个集合在出现时被读一次，然后世界继续前进。这是它听到的三种方式——它们不是一次性选择的替代品，而是集合的情况所提供的。这张桌子可以接受其中任何一个，或几个，而下面的内容不知道是哪一个响了。
+  section:
+    events:
+      title: 应用事件
+      description: 这页自己引发的变化：一个有作用的按钮，一个返回的表单。无论是谁响了都不知道桌子，而桌子也不知道是谁响了——它们共享一个名字，仅此而已。没有成本，也不需要服务器。
+    live:
+      title: 实时来源
+      description: 当服务器有一个主题要发布时，集合监听它所包含的实体——一个用于其运行的过程，一个用于其消息的会话——而不是每一行。一个尚不存在的行没有主题，而出现的行正是读者所等待的。演示没有服务器来发布，因此按钮播放消息。
+    polling:
+      title: 轮询
+      description: 当没有主题，或者偶尔的往返旅行比保持开放的订阅便宜时。这种方式每三秒读取一次，并在标签页处于后台时停止——没有人查看的页面是不需要被读给他们的页面。
+    none:
+      title: 完全没有
+      description: 默认情况。集合读取一次并保持原样，这是在其显示的内容在读者面前没有变化时的正确答案。
+    shape:
+      title: 无论它穿着什么形状
+      description: 这些都不属于桌子。相同的三种方式可以用于一系列条形，聊天线程，任何读取集合的内容——保持集合真实和它的外观是两个独立的决定。这是一个条形列表，使用轮询。

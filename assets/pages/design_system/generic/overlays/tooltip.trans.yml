@@ -1,0 +1,695 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Tooltip
+  page_icon: ph:bold/chat-centered-text
+
+  intro: "A few words about what the pointer or the focus is on, beside it. There is one tooltip for the page, placed by the layout: any element asks for it with data-tooltip — tooltip() writes it in twig, a vue binds it — and it comes under the pointer after a moment, under the keyboard's focus at once, and never under a finger. It turns away from the edges of the window rather than leave it."
+
+  section:
+    plain:
+      title: On anything
+      description: "A button, an icon on its own, a marker: the attribute is all it takes. An icon with no words is where a tooltip matters most."
+    rich:
+      title: With a title, or light
+      description: "A heading above the text for a tooltip that explains, and a light one on the page's own ground where the inverted one would be too loud."
+    placement:
+      title: Placement
+      description: "Above by default. Asked for a side, it takes it when there is room and the other side when there is not; along that side, it slides to stay in the window, its arrow still on what it points at."
+
+  button:
+    save: Save
+
+  marker:
+    label: Published
+
+  tip:
+    save: Save the draft — Ctrl+S
+    share: Share
+    delete: Delete
+    marker: Published on 2 September, seen by 128 readers
+    light: A tooltip on the page's own ground
+    placement: Placed
+    rich:
+      title: Why is it greyed out?
+      text: The export waits for the first run to end; it opens as soon as there is something to export.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تلميح
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'بضع كلمات حول ما يشير إليه المؤشر أو التركيز بجانبه. يوجد تلميح واحد للصفحة، موضوع بواسطة التصميم: أي عنصر يطلبه مع data-tooltip — tooltip() يكتبه في twig، ويربطه vue — ويظهر تحت المؤشر بعد لحظة، تحت تركيز لوحة المفاتيح في الحال، وليس تحت إصبع. يبتعد عن حواف النافذة بدلاً من مغادرتها.'
+  section:
+    plain:
+      title: 'على أي شيء'
+      description: 'زر، أيقونة بمفردها، علامة: السمة هي كل ما يتطلبه الأمر. الأيقونة بدون كلمات هي المكان الذي يكون فيه التلميح مهمًا أكثر.'
+    rich:
+      title: 'مع عنوان، أو خفيف'
+      description: 'عنوان فوق النص لتلميح يشرح، وخفيف على أرض الصفحة حيث سيكون العنوان المعكوس مرتفع الصوت جدًا.'
+    placement:
+      title: الموضع
+      description: 'أعلى بشكل افتراضي. إذا طلبت جانبًا، فإنه يأخذه عندما يكون هناك مجال والجانب الآخر عندما لا يوجد؛ على طول ذلك الجانب، ينزلق ليبقى في النافذة، وسهمه لا يزال على ما يشير إليه.'
+  button:
+    save: حفظ
+  marker:
+    label: 'تم النشر'
+  tip:
+    save: 'حفظ المسودة — Ctrl+S'
+    share: مشاركة
+    delete: حذف
+    marker: 'تم النشر في 2 سبتمبر، شاهده 128 قارئ'
+    light: 'تلميح على أرض الصفحة الخاصة'
+    placement: موضوع
+    rich:
+      title: 'لماذا هو رمادي؟'
+      text: 'التصدير ينتظر انتهاء التشغيل الأول؛ يفتح بمجرد وجود شيء للتصدير.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: টুলটিপ
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'যা কিছুতে পয়েন্টার বা ফোকাস রয়েছে তার সম্পর্কে কিছু কথা, তার পাশে। পৃষ্ঠার জন্য একটি টুলটিপ রয়েছে, যা লেআউট দ্বারা স্থাপন করা হয়েছে: যে কোনও উপাদান এটি data-tooltip দিয়ে চায় — tooltip() এটি টুইগে লেখে, একটি ভিউ এটি বেঁধে দেয় — এবং এটি একটি মুহূর্ত পরে পয়েন্টারের নিচে আসে, কী-বোর্ডের ফোকাসের নিচে একবারে, এবং কখনো একটি আঙুলের নিচে নয়। এটি জানালার প্রান্ত থেকে ফিরে যায় বরং এটিকে ছেড়ে দেয়।'
+  section:
+    plain:
+      title: 'যে কোন কিছুতে'
+      description: 'একটি বোতাম, একক আইকন, একটি মার্কার: এট্রিবিউট হল যা প্রয়োজন। একটি শব্দবিহীন আইকন হল যেখানে টুলটিপ সবচেয়ে গুরুত্বপূর্ণ।'
+    rich:
+      title: 'একটি শিরোনাম সহ, বা লাইট'
+      description: 'একটি টুলটিপের জন্য পাঠ্যের উপরে একটি শিরোনাম যা ব্যাখ্যা করে, এবং একটি হালকা একটি পৃষ্ঠার নিজস্ব ভিত্তিতে যেখানে বিপরীতটি অত্যধিক উচ্চ হবে।'
+    placement:
+      title: স্থাপন
+      description: 'ডিফল্টভাবে উপরে। একটি পাশে চাওয়া হলে, এটি স্থান থাকলে তা গ্রহণ করে এবং না থাকলে অন্য পাশে চলে যায়; সেই পাশে, এটি জানালায় থাকতে স্লাইড করে, এর তীর এখনও যা নির্দেশ করছে তার উপর।'
+  button:
+    save: 'সংরক্ষণ করুন'
+  marker:
+    label: প্রকাশিত
+  tip:
+    save: 'ড্রাফট সংরক্ষণ করুন — Ctrl+S'
+    share: 'শেয়ার করুন'
+    delete: মুছুন
+    marker: '২ সেপ্টেম্বর প্রকাশিত, ১২৮ পাঠক দ্বারা দেখা হয়েছে'
+    light: 'পৃষ্ঠার নিজস্ব ভিত্তিতে একটি টুলটিপ'
+    placement: 'স্থাপন করা হয়েছে'
+    rich:
+      title: 'এটি কেন ধূসর?'
+      text: 'এক্সপোর্ট প্রথম রান শেষ হওয়ার জন্য অপেক্ষা করছে; এটি যত দ্রুত সম্ভব কিছু এক্সপোর্ট করার জন্য খুলবে।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tooltip
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Einige Worte darüber, worauf der Zeiger oder der Fokus gerichtet ist, daneben. Es gibt ein Tooltip für die Seite, das durch das Layout platziert wird: Jedes Element fordert es mit data-tooltip an — tooltip() schreibt es in Twig, ein Vue bindet es — und es erscheint nach einem Moment unter dem Zeiger, sofort unter dem Fokus der Tastatur und niemals unter einem Finger. Es weicht von den Rändern des Fensters ab, anstatt es zu verlassen.'
+  section:
+    plain:
+      title: 'Über alles'
+      description: 'Ein Button, ein Icon für sich, ein Marker: das Attribut ist alles, was es braucht. Ein Icon ohne Worte ist der Ort, an dem ein Tooltip am wichtigsten ist.'
+    rich:
+      title: 'Mit einem Titel oder leicht'
+      description: 'Eine Überschrift über dem Text für ein Tooltip, das erklärt, und ein leichtes auf dem eigenen Grund der Seite, wo das umgekehrte zu laut wäre.'
+    placement:
+      title: Platzierung
+      description: 'Standardmäßig oben. Wenn nach einer Seite gefragt wird, nimmt es diese, wenn Platz ist, und die andere Seite, wenn nicht; entlang dieser Seite gleitet es, um im Fenster zu bleiben, der Pfeil bleibt auf dem, worauf es zeigt.'
+  button:
+    save: Speichern
+  marker:
+    label: Veröffentlicht
+  tip:
+    save: 'Entwurf speichern — Strg+S'
+    share: Teilen
+    delete: Löschen
+    marker: 'Veröffentlicht am 2. September, gesehen von 128 Lesern'
+    light: 'Ein Tooltip auf dem eigenen Grund der Seite'
+    placement: Platziert
+    rich:
+      title: 'Warum ist es ausgegraut?'
+      text: 'Der Export wartet, bis der erste Lauf endet; er öffnet sich, sobald es etwas zu exportieren gibt.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tooltip
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Unas pocas palabras sobre en qué está el puntero o el foco, junto a él. Hay un tooltip para la página, colocado por el diseño: cualquier elemento lo solicita con data-tooltip — tooltip() lo escribe en twig, un vue lo vincula — y aparece bajo el puntero después de un momento, bajo el foco del teclado de inmediato, y nunca bajo un dedo. Se aleja de los bordes de la ventana en lugar de dejarla.'
+  section:
+    plain:
+      title: 'Sobre cualquier cosa'
+      description: 'Un botón, un ícono por sí solo, un marcador: el atributo es todo lo que se necesita. Un ícono sin palabras es donde un tooltip importa más.'
+    rich:
+      title: 'Con un título, o ligero'
+      description: 'Un encabezado sobre el texto para un tooltip que explica, y uno ligero en el propio terreno de la página donde el invertido sería demasiado ruidoso.'
+    placement:
+      title: Ubicación
+      description: 'Por encima por defecto. Si se pide un lado, lo toma cuando hay espacio y el otro lado cuando no; a lo largo de ese lado, se desliza para permanecer en la ventana, su flecha aún sobre lo que apunta.'
+  button:
+    save: Guardar
+  marker:
+    label: Publicado
+  tip:
+    save: 'Guardar el borrador — Ctrl+S'
+    share: Compartir
+    delete: Eliminar
+    marker: 'Publicado el 2 de septiembre, visto por 128 lectores'
+    light: 'Un tooltip en el propio terreno de la página'
+    placement: Colocado
+    rich:
+      title: '¿Por qué está atenuado?'
+      text: 'La exportación espera a que termine la primera ejecución; se abre tan pronto como hay algo para exportar.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: راهنما
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'چند کلمه در مورد اینکه نشانگر یا فوکوس بر روی چه چیزی است، در کنار آن. یک راهنما برای صفحه وجود دارد که توسط طرح‌بندی قرار داده شده است: هر عنصر با داده-tooltip درخواست آن را می‌کند — tooltip() آن را در twig می‌نویسد، یک vue آن را متصل می‌کند — و بعد از مدتی زیر نشانگر ظاهر می‌شود، بلافاصله زیر فوکوس کیبورد، و هرگز زیر انگشت. از لبه‌های پنجره دور می‌شود تا اینکه آن را ترک کند.'
+  section:
+    plain:
+      title: 'بر روی هر چیزی'
+      description: 'یک دکمه، یک آیکون به تنهایی، یک نشانگر: ویژگی تنها چیزی است که لازم است. یک آیکون بدون کلمات جایی است که راهنما اهمیت بیشتری دارد.'
+    rich:
+      title: 'با عنوان، یا سبک'
+      description: 'عنوانی بالای متن برای یک راهنما که توضیح می‌دهد، و یک راهنمای سبک در زمین خود صفحه که برای معکوس کردن آن خیلی بلند خواهد بود.'
+    placement:
+      title: مکان‌یابی
+      description: 'به طور پیش‌فرض در بالا. اگر از یک طرف درخواست شود، آن را می‌گیرد وقتی که جا وجود دارد و از طرف دیگر وقتی که جا نیست؛ در امتداد آن طرف، به سمت داخل پنجره حرکت می‌کند، پیکان آن هنوز بر روی چیزی که به آن اشاره می‌کند باقی می‌ماند.'
+  button:
+    save: ذخیره
+  marker:
+    label: 'منتشر شده'
+  tip:
+    save: 'پیش‌نویس را ذخیره کنید — Ctrl+S'
+    share: اشتراک‌گذاری
+    delete: حذف
+    marker: 'در ۲ سپتامبر منتشر شده، توسط ۱۲۸ خواننده دیده شده'
+    light: 'یک راهنما در زمین خود صفحه'
+    placement: 'قرار داده شده'
+    rich:
+      title: 'چرا خاکستری شده است؟'
+      text: 'خروجی منتظر است تا اولین اجرا به پایان برسد؛ به محض اینکه چیزی برای خروجی وجود داشته باشد، باز می‌شود.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Työkaluvihje
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Muutama sana siitä, mitä osoitin tai keskittyminen on sen vieressä. Sivulla on yksi työkaluvihje, joka on sijoitettu asettelun mukaan: mikä tahansa elementti kysyy sitä data-tooltipilla — tooltip() kirjoittaa sen twigissä, vue sitoo sen — ja se tulee osoittimen alle hetken kuluttua, näppäimistön keskittymisen alle heti, eikä koskaan sormen alle. Se kääntyy pois ikkunan reunoista sen sijaan, että jättäisi sen.'
+  section:
+    plain:
+      title: 'Mistä tahansa'
+      description: 'Nappi, ikoni yksinään, merkki: ominaisuus on kaikki, mitä tarvitaan. Ikoni ilman sanoja on se, jossa työkaluvihje on kaikkein tärkein.'
+    rich:
+      title: 'Otsikon kanssa, tai kevyt'
+      description: 'Otsikko tekstin yläpuolella työkaluvihjeelle, joka selittää, ja kevyt yksi sivun omalla maaperällä, jossa käänteinen olisi liian äänekäs.'
+    placement:
+      title: Sijoittelu
+      description: 'Yllä oletusarvoisesti. Kun puoleen pyydetään, se ottaa sen, kun tilaa on, ja toisen puolen, kun ei; sen puolen mukana se liukuu pysyäkseen ikkunassa, nuoli edelleen siinä, mihin se osoittaa.'
+  button:
+    save: Tallenna
+  marker:
+    label: Julkaistu
+  tip:
+    save: 'Tallenna luonnos — Ctrl+S'
+    share: Jaa
+    delete: Poista
+    marker: 'Julkaistu 2. syyskuuta, nähnyt 128 lukijaa'
+    light: 'Työkaluvihje sivun omalla maaperällä'
+    placement: Sijoitettu
+    rich:
+      title: 'Miksi se on harmaana?'
+      text: 'Vienti odottaa ensimmäisen ajon päättymistä; se avautuu heti, kun vientiin on jotain.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Info-bulle
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: "Quelques mots sur ce que le pointeur ou le focus est sur, à côté de lui. Il y a une info-bulle pour la page, placée par la mise en page : tout élément en demande une avec data-tooltip — tooltip() l'écrit en twig, un vue l'associe — et elle apparaît sous le pointeur après un moment, sous le focus du clavier immédiatement, et jamais sous un doigt. Elle s'éloigne des bords de la fenêtre plutôt que de la quitter."
+  section:
+    plain:
+      title: "Sur n'importe quoi"
+      description: "Un bouton, une icône à elle seule, un marqueur : l'attribut suffit. Une icône sans mots est là où une info-bulle est le plus nécessaire."
+    rich:
+      title: 'Avec un titre, ou léger'
+      description: "Un en-tête au-dessus du texte pour une info-bulle qui explique, et une légère sur le propre terrain de la page où l'inversée serait trop bruyante."
+    placement:
+      title: Placement
+      description: "Au-dessus par défaut. Demandé sur un côté, elle le prend quand il y a de la place et l'autre côté quand il n'y en a pas ; le long de ce côté, elle glisse pour rester dans la fenêtre, sa flèche pointant toujours vers ce qu'elle indique."
+  button:
+    save: Enregistrer
+  marker:
+    label: Publié
+  tip:
+    save: 'Enregistrer le brouillon — Ctrl+S'
+    share: Partager
+    delete: Supprimer
+    marker: 'Publié le 2 septembre, vu par 128 lecteurs'
+    light: 'Une info-bulle sur le propre terrain de la page'
+    placement: Placée
+    rich:
+      title: 'Pourquoi est-ce grisé ?'
+      text: "L'export attend la fin de la première exécution ; il s'ouvre dès qu'il y a quelque chose à exporter."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: טוליפ
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'כמה מילים על מה שהסמן או הפוקוס נמצאים עליו, לידו. יש טוליפ אחד עבור הדף, שממוקם על ידי העיצוב: כל אלמנט מבקש אותו עם data-tooltip — tooltip() כותב את זה ב-twig, vue קושר את זה — והוא מופיע מתחת לסמן לאחר רגע, מתחת לפוקוס של המקלדת מיד, ולא מתחת לאצבע. הוא מתרחק מהקצוות של החלון ולא עוזב אותו.'
+  section:
+    plain:
+      title: 'על כל דבר'
+      description: 'כפתור, אייקון בפני עצמו, סימן: התכונה היא כל מה שצריך. אייקון בלי מילים הוא המקום שבו הטוליפ הכי חשוב.'
+    rich:
+      title: 'עם כותרת, או קל'
+      description: 'כותרת מעל הטקסט עבור טוליפ שמסביר, ואחד קל על הקרקע של הדף שבה הכותרת ההפוכה תהיה רועשת מדי.'
+    placement:
+      title: מיקום
+      description: 'מעל כברירת מחדל. אם מבקשים צד, הוא לוקח אותו כאשר יש מקום והצד השני כאשר אין; לאורך הצד הזה, הוא מחליק כדי להישאר בחלון, החץ שלו עדיין על מה שהוא מצביע עליו.'
+  button:
+    save: שמור
+  marker:
+    label: פורסם
+  tip:
+    save: 'שמור את הטיוטה — Ctrl+S'
+    share: שתף
+    delete: מחק
+    marker: 'פורסם ב-2 בספטמבר, נצפה על ידי 128 קוראים'
+    light: 'טוליפ על הקרקע של הדף'
+    placement: ממוקם
+    rich:
+      title: 'למה זה כהה?'
+      text: 'הייצוא מחכה לסיום הריצה הראשונה; הוא נפתח ברגע שיש משהו לייצא.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: टूलटिप
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'जिस पर पॉइंटर या फोकस है, उसके बारे में कुछ शब्द। पृष्ठ के लिए एक टूलटिप है, जो लेआउट द्वारा रखा गया है: कोई भी तत्व इसके लिए data-tooltip मांगता है - tooltip() इसे twig में लिखता है, एक vue इसे बांधता है - और यह कुछ समय बाद पॉइंटर के नीचे आता है, कीबोर्ड के फोकस के तहत तुरंत, और कभी भी अंगुली के नीचे नहीं। यह खिड़की के किनारों से दूर मुड़ता है बजाय इसके कि इसे छोड़ दे।'
+  section:
+    plain:
+      title: 'किसी भी चीज़ पर'
+      description: 'एक बटन, एक आइकन अकेले, एक मार्कर: एट्रिब्यूट ही सब कुछ है। शब्दों के बिना एक आइकन वह जगह है जहाँ टूलटिप सबसे महत्वपूर्ण है।'
+    rich:
+      title: 'एक शीर्षक के साथ, या हल्का'
+      description: 'एक टेक्स्ट के ऊपर एक शीर्षक जो टूलटिप को स्पष्ट करता है, और एक हल्का एक पृष्ठ के अपने आधार पर जहाँ उलटा बहुत तेज़ होगा।'
+    placement:
+      title: प्लेसमेंट
+      description: 'डिफ़ॉल्ट रूप से ऊपर। अगर साइड के लिए पूछा गया, तो यह इसे लेता है जब वहाँ जगह होती है और दूसरी तरफ जब नहीं होती; उस साइड के साथ, यह खिड़की में रहने के लिए स्लाइड करता है, इसका तीर अभी भी जिस पर यह इंगित करता है।'
+  button:
+    save: सहेजें
+  marker:
+    label: प्रकाशित
+  tip:
+    save: 'ड्राफ्ट सहेजें — Ctrl+S'
+    share: 'शेयर करें'
+    delete: हटाएँ
+    marker: '2 सितंबर को प्रकाशित, 128 पाठकों द्वारा देखा गया'
+    light: 'पृष्ठ के अपने आधार पर एक टूलटिप'
+    placement: स्थापित
+    rich:
+      title: 'यह ग्रे क्यों है?'
+      text: 'निर्यात पहले रन के समाप्त होने की प्रतीक्षा कर रहा है; यह जैसे ही निर्यात करने के लिए कुछ होता है, खुलता है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tooltip
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Beberapa kata tentang apa yang ditunjukkan oleh pointer atau fokus, di sampingnya. Ada satu tooltip untuk halaman, ditempatkan oleh tata letak: setiap elemen memintanya dengan data-tooltip — tooltip() menulisnya dalam twig, vue mengikatnya — dan itu muncul di bawah pointer setelah beberapa saat, di bawah fokus keyboard secara langsung, dan tidak pernah di bawah jari. Itu menjauh dari tepi jendela daripada meninggalkannya.'
+  section:
+    plain:
+      title: 'Tentang apapun'
+      description: 'Sebuah tombol, ikon sendiri, penanda: atribut adalah semua yang dibutuhkan. Sebuah ikon tanpa kata-kata adalah tempat di mana tooltip sangat penting.'
+    rich:
+      title: 'Dengan judul, atau ringan'
+      description: 'Sebuah judul di atas teks untuk tooltip yang menjelaskan, dan yang ringan di dasar halaman itu sendiri di mana yang terbalik akan terlalu mencolok.'
+    placement:
+      title: Penempatan
+      description: 'Di atas secara default. Diminta untuk sisi, itu mengambilnya ketika ada ruang dan sisi lain ketika tidak; di sepanjang sisi itu, ia meluncur untuk tetap di dalam jendela, panahnya tetap pada apa yang ditunjuknya.'
+  button:
+    save: Simpan
+  marker:
+    label: Diterbitkan
+  tip:
+    save: 'Simpan draf — Ctrl+S'
+    share: Bagikan
+    delete: Hapus
+    marker: 'Diterbitkan pada 2 September, dilihat oleh 128 pembaca'
+    light: 'Tooltip di dasar halaman itu sendiri'
+    placement: Ditempatkan
+    rich:
+      title: 'Mengapa ini diwarnai abu-abu?'
+      text: 'Ekspor menunggu proses pertama selesai; itu terbuka segera setelah ada sesuatu untuk diekspor.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tooltip
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: "Qualche parola su cosa è il puntatore o il focus, accanto ad esso. C'è un tooltip per la pagina, posizionato dal layout: qualsiasi elemento lo richiede con data-tooltip — tooltip() lo scrive in twig, un vue lo collega — e appare sotto il puntatore dopo un momento, immediatamente sotto il focus della tastiera, e mai sotto un dito. Si allontana dai bordi della finestra piuttosto che lasciarla."
+  section:
+    plain:
+      title: 'Su qualsiasi cosa'
+      description: "Un pulsante, un'icona da sola, un marcatore: l'attributo è tutto ciò che serve. Un'icona senza parole è dove un tooltip è più importante."
+    rich:
+      title: 'Con un titolo, o leggero'
+      description: "Un'intestazione sopra il testo per un tooltip che spiega, e uno leggero sul fondo della pagina dove quello invertito sarebbe troppo forte."
+    placement:
+      title: Posizionamento
+      description: "Sopra per default. Richiesto di lato, lo prende quando c'è spazio e dall'altro lato quando non c'è; lungo quel lato, scivola per rimanere nella finestra, la sua freccia ancora su ciò a cui punta."
+  button:
+    save: Salva
+  marker:
+    label: Pubblicato
+  tip:
+    save: 'Salva la bozza — Ctrl+S'
+    share: Condividi
+    delete: Elimina
+    marker: 'Pubblicato il 2 settembre, visto da 128 lettori'
+    light: 'Un tooltip sul fondo della pagina'
+    placement: Posizionato
+    rich:
+      title: 'Perché è grigio?'
+      text: "L'esportazione attende che la prima esecuzione finisca; si apre non appena c'è qualcosa da esportare."
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ツールチップ
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: ポインタやフォーカスが何にあるのかを説明する言葉が少しあります。ページには1つのツールチップがあり、レイアウトによって配置されています。どの要素もdata-tooltipで要求し、tooltip()がtwigに書き込み、vueがバインドします。それはしばらくしてポインタの下に現れ、キーボードのフォーカスの下にはすぐに現れ、指の下には決して現れません。ウィンドウの端から離れるように向きを変えます。
+  section:
+    plain:
+      title: 何にでも
+      description: ボタン、アイコン単体、マーカー：属性さえあれば十分です。言葉のないアイコンこそ、ツールチップが最も重要です。
+    rich:
+      title: タイトルや軽い内容で
+      description: テキストを説明するためのツールチップの上にある見出しと、反転したものがうるさすぎる場合にページ自体の地面にある軽いもの。
+    placement:
+      title: 配置
+      description: デフォルトでは上に配置されます。横から要求された場合、スペースがあればその側に配置され、なければ反対側に配置されます。その側に沿って、ウィンドウ内に留まるようにスライドし、矢印は指しているものに向けられたままです。
+  button:
+    save: 保存
+  marker:
+    label: 公開済み
+  tip:
+    save: 'ドラフトを保存 — Ctrl+S'
+    share: 共有
+    delete: 削除
+    marker: 9月2日に公開、128人の読者に見られました
+    light: ページ自体の地面にあるツールチップ
+    placement: 配置済み
+    rich:
+      title: なぜグレーアウトしているのですか？
+      text: エクスポートは最初の実行が終わるのを待っています；エクスポートするものがあるとすぐに開きます。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 툴팁
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: '포인터나 포커스가 무엇인지에 대한 간단한 설명입니다. 페이지에는 레이아웃에 의해 배치된 하나의 툴팁이 있습니다: 데이터-tooltip로 요청된 모든 요소는 툴팁()을 사용하여 트윅에 작성되고, Vue가 바인딩하며, 잠시 후 포인터 아래에 나타나고, 키보드의 포커스 아래에 즉시 나타나며, 손가락 아래에는 절대 나타나지 않습니다. 창의 가장자리에서 멀어지도록 회전합니다.'
+  section:
+    plain:
+      title: '어떤 것이든'
+      description: '버튼, 독립 아이콘, 마커: 속성 하나면 충분합니다. 단어가 없는 아이콘에서 툴팁이 가장 중요합니다.'
+    rich:
+      title: '제목 또는 라이트와 함께'
+      description: '툴팁을 설명하는 텍스트 위의 제목, 그리고 반전된 것이 너무 크고 시끄러울 페이지의 고유한 배경에서의 라이트한 것.'
+    placement:
+      title: 위치
+      description: '기본적으로 위에 위치합니다. 측면을 요청하면 공간이 있을 때 그쪽으로, 공간이 없을 때는 다른 쪽으로 이동합니다; 그 측면을 따라 창 안에 머물기 위해 슬라이드하며, 여전히 가리키는 것에 화살표가 위치합니다.'
+  button:
+    save: 저장
+  marker:
+    label: 발행됨
+  tip:
+    save: '초안 저장 — Ctrl+S'
+    share: 공유
+    delete: 삭제
+    marker: '2023년 9월 2일에 발행, 128명이 읽음'
+    light: '페이지의 고유한 배경에 있는 툴팁'
+    placement: 배치됨
+    rich:
+      title: '왜 회색으로 표시되었나요?'
+      text: '내보내기가 첫 실행이 끝나기를 기다리고 있습니다; 내보낼 것이 생기면 즉시 열립니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tooltip
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Een paar woorden over waar de aanwijzer of de focus op is, ernaast. Er is één tooltip voor de pagina, geplaatst door de lay-out: elk element vraagt erom met data-tooltip — tooltip() schrijft het in twig, een vue bindt het — en het verschijnt onder de aanwijzer na een moment, onder de focus van het toetsenbord meteen, en nooit onder een vinger. Het wijkt af van de randen van het venster in plaats van het te verlaten.'
+  section:
+    plain:
+      title: 'Over alles'
+      description: 'Een knop, een icoon op zichzelf, een marker: de attribuut is alles wat nodig is. Een icoon zonder woorden is waar een tooltip het belangrijkst is.'
+    rich:
+      title: 'Met een titel, of licht'
+      description: 'Een kop boven de tekst voor een tooltip die uitlegt, en een lichte op de eigen grond van de pagina waar de omgekeerde te luid zou zijn.'
+    placement:
+      title: Plaatsing
+      description: 'Bovenaan standaard. Wanneer gevraagd om een zijkant, neemt het die als er ruimte is en de andere kant als dat niet het geval is; langs die zijde schuift het om in het venster te blijven, de pijl nog steeds op wat het aanwijst.'
+  button:
+    save: Opslaan
+  marker:
+    label: Gepubliceerd
+  tip:
+    save: 'Sla het concept op — Ctrl+S'
+    share: Delen
+    delete: Verwijderen
+    marker: 'Gepubliceerd op 2 september, gezien door 128 lezers'
+    light: 'Een tooltip op de eigen grond van de pagina'
+    placement: Geplaatst
+    rich:
+      title: 'Waarom is het grijs gemaakt?'
+      text: 'De export wacht tot de eerste run is afgelopen; het opent zodra er iets te exporteren is.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Podpowiedź
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Kilka słów o tym, na czym skupia się wskaźnik lub fokus. Jest jedna podpowiedź dla strony, umieszczona przez układ: każdy element prosi o nią z atrybutem data-tooltip — tooltip() zapisuje to w twig, vue to łączy — i pojawia się pod wskaźnikiem po chwili, pod fokusem klawiatury od razu, a nigdy pod palcem. Odchyla się od krawędzi okna, zamiast je opuszczać.'
+  section:
+    plain:
+      title: 'Na cokolwiek'
+      description: 'Przycisk, ikona samodzielna, znacznik: atrybut to wszystko, co potrzeba. Ikona bez słów to miejsce, gdzie podpowiedź ma największe znaczenie.'
+    rich:
+      title: 'Z tytułem lub lekką informacją'
+      description: 'Nagłówek nad tekstem dla podpowiedzi, która wyjaśnia, a lekka informacja na własnym tle strony, gdzie odwrócona byłaby zbyt głośna.'
+    placement:
+      title: Umiejscowienie
+      description: 'Domyślnie powyżej. Jeśli poprosisz o bok, zajmuje go, gdy jest miejsce, a z drugiej strony, gdy nie ma; wzdłuż tego boku przesuwa się, aby pozostać w oknie, a jego strzałka nadal wskazuje to, na co wskazuje.'
+  button:
+    save: Zapisz
+  marker:
+    label: Opublikowane
+  tip:
+    save: 'Zapisz szkic — Ctrl+S'
+    share: Udostępnij
+    delete: Usuń
+    marker: 'Opublikowane 2 września, widziane przez 128 czytelników'
+    light: 'Podpowiedź na własnym tle strony'
+    placement: Umieszczono
+    rich:
+      title: 'Dlaczego jest wyszarzone?'
+      text: 'Eksport czeka na zakończenie pierwszego uruchomienia; otworzy się, gdy tylko będzie coś do eksportu.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dica
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Algumas palavras sobre o que o ponteiro ou o foco está indicando ao lado. Há uma dica para a página, posicionada pelo layout: qualquer elemento a solicita com data-tooltip — tooltip() a escreve em twig, um vue a vincula — e ela aparece sob o ponteiro após um momento, sob o foco do teclado de imediato, e nunca sob um dedo. Ela se afasta das bordas da janela em vez de deixá-la.'
+  section:
+    plain:
+      title: 'Sobre qualquer coisa'
+      description: 'Um botão, um ícone isolado, um marcador: o atributo é tudo o que é necessário. Um ícone sem palavras é onde uma dica é mais importante.'
+    rich:
+      title: 'Com um título, ou leve'
+      description: 'Um cabeçalho acima do texto para uma dica que explica, e uma leve no próprio fundo da página onde a invertida seria barulhenta demais.'
+    placement:
+      title: Posicionamento
+      description: 'Acima por padrão. Se solicitado para um lado, ela ocupa esse lado quando há espaço e o outro lado quando não há; ao longo desse lado, ela desliza para permanecer na janela, sua seta ainda apontando para o que ela indica.'
+  button:
+    save: Salvar
+  marker:
+    label: Publicado
+  tip:
+    save: 'Salvar o rascunho — Ctrl+S'
+    share: Compartilhar
+    delete: Excluir
+    marker: 'Publicado em 2 de setembro, visto por 128 leitores'
+    light: 'Uma dica no próprio fundo da página'
+    placement: Posicionado
+    rich:
+      title: 'Por que está cinza?'
+      text: 'A exportação aguarda o término da primeira execução; ela abre assim que há algo para exportar.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Подсказка
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Несколько слов о том, на чем находится указатель или фокус, рядом с ним. Для страницы есть одна подсказка, размещенная в макете: любой элемент запрашивает её с помощью data-tooltip — tooltip() записывает её в twig, vue связывает её — и она появляется под указателем через мгновение, под фокусом клавиатуры сразу же, и никогда под пальцем. Она отодвигается от краев окна, а не выходит за его пределы.'
+  section:
+    plain:
+      title: 'На чем угодно'
+      description: 'Кнопка, иконка сама по себе, маркер: атрибута достаточно. Иконка без слов — это именно тот случай, когда подсказка имеет наибольшее значение.'
+    rich:
+      title: 'С заголовком или легкая'
+      description: 'Заголовок над текстом для подсказки, которая объясняет, и легкая подсказка на основе страницы, где инвертированная была бы слишком громкой.'
+    placement:
+      title: Размещение
+      description: 'Сверху по умолчанию. Если запрашивают сбоку, она занимает его, когда есть место, и с другой стороны, когда нет; вдоль этой стороны она сдвигается, чтобы оставаться в окне, её стрелка все еще указывает на то, на что она указывает.'
+  button:
+    save: Сохранить
+  marker:
+    label: Опубликовано
+  tip:
+    save: 'Сохранить черновик — Ctrl+S'
+    share: Поделиться
+    delete: Удалить
+    marker: 'Опубликовано 2 сентября, прочитано 128 читателями'
+    light: 'Подсказка на основе страницы'
+    placement: Размещено
+    rich:
+      title: 'Почему это серое?'
+      text: 'Экспорт ждет завершения первого запуска; он откроется, как только появится что-то для экспорта.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: คำอธิบายขนาดเล็ก
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'คำพูดเล็กๆ น้อยๆ เกี่ยวกับสิ่งที่ตัวชี้หรือโฟกัสอยู่ข้างๆ มีคำอธิบายขนาดเล็กสำหรับหน้า วางโดยรูปแบบ: องค์ประกอบใดๆ ขอคำอธิบายนี้ด้วย data-tooltip — tooltip() เขียนใน twig, vue ผูกมันไว้ — และมันจะปรากฏใต้ตัวชี้หลังจากนั้นไม่นาน, ใต้โฟกัสของคีย์บอร์ดทันที, และไม่เคยอยู่ใต้ปลายนิ้ว มันหันออกจากขอบหน้าต่างแทนที่จะออกไป'
+  section:
+    plain:
+      title: เกี่ยวกับสิ่งใดๆ
+      description: 'ปุ่ม, ไอคอนที่แสดงเดี่ยว, เครื่องหมาย: คุณสมบัตินั้นคือทุกสิ่งที่ต้องการ ไอคอนที่ไม่มีคำคือที่ที่คำอธิบายขนาดเล็กสำคัญที่สุด'
+    rich:
+      title: พร้อมหัวข้อหรือน้อย
+      description: 'หัวข้อด้านบนข้อความสำหรับคำอธิบายขนาดเล็กที่อธิบาย และคำอธิบายแบบเบาบางบนหน้าที่มีพื้นฐานที่มันจะดังเกินไปหากเป็นแบบย้อนกลับ'
+    placement:
+      title: การวางตำแหน่ง
+      description: 'อยู่ด้านบนตามค่าเริ่มต้น ถ้าเรียกร้องด้านข้าง, มันจะอยู่ที่นั่นเมื่อมีที่ว่าง และอีกด้านเมื่อไม่มี; ตามด้านนั้น, มันจะเลื่อนไปเพื่ออยู่ในหน้าต่าง, ลูกศรของมันยังอยู่ที่สิ่งที่มันชี้ไป'
+  button:
+    save: บันทึก
+  marker:
+    label: เผยแพร่แล้ว
+  tip:
+    save: 'บันทึกแบบร่าง — Ctrl+S'
+    share: แชร์
+    delete: ลบ
+    marker: 'เผยแพร่เมื่อ 2 กันยายน, ได้รับการอ่านโดย 128 คน'
+    light: คำอธิบายขนาดเล็กบนพื้นของหน้า
+    placement: วางตำแหน่งแล้ว
+    rich:
+      title: 'ทำไมมันถึงเป็นสีเทา?'
+      text: 'การส่งออกต้องรอให้การทำงานครั้งแรกสิ้นสุด; มันจะเปิดขึ้นทันทีที่มีบางอย่างที่จะส่งออก.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Açıklama Balonu'
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'İmlecin veya odaklanmanın üzerinde olduğu şey hakkında birkaç kelime. Sayfa için yerleşim tarafından konulmuş bir açıklama balonu vardır: herhangi bir öğe bunun için data-tooltip ile talep eder — tooltip() bunu twig içinde yazar, bir vue bağlar — ve bir süre sonra imlecin altına gelir, klavyenin odaklandığı yere hemen gelir ve asla bir parmağın altına gelmez. Pencerenin kenarlarından uzak durarak, onu terk etmez.'
+  section:
+    plain:
+      title: 'Herhangi bir şeyde'
+      description: 'Bir buton, tek başına bir simge, bir işaretleyici: gerekli olan sadece bir niteliktir. Kelime içermeyen bir simge, açıklama balonunun en önemli olduğu yerdir.'
+    rich:
+      title: 'Başlıkla veya hafif'
+      description: 'Bir açıklama balonu için metnin üzerinde bir başlık ve tersinin çok gürültülü olacağı sayfanın kendi zemininde hafif bir tane.'
+    placement:
+      title: Yerleşim
+      description: 'Varsayılan olarak yukarıda. Yan taraf istendiğinde, varsa o tarafı alır, yoksa diğer tarafı; o tarafta kayarak pencerede kalmak için kayar, oku hala işaret ettiği şeyin üzerinde kalır.'
+  button:
+    save: Kaydet
+  marker:
+    label: Yayınlandı
+  tip:
+    save: 'Taslağı kaydet — Ctrl+S'
+    share: Paylaş
+    delete: Sil
+    marker: "2 Eylül'de yayımlandı, 128 okur tarafından görüldü"
+    light: 'Sayfanın kendi zemininde bir açıklama balonu'
+    placement: Yerleştirildi
+    rich:
+      title: 'Neden gri renkte?'
+      text: 'Dışa aktarma, ilk çalışmanın sona ermesini bekliyor; dışa aktarılacak bir şey olduğunda hemen açılır.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ٹول ٹپ'
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'اشارے یا توجہ کس چیز پر ہے، اس کے بارے میں چند الفاظ۔ صفحے کے لیے ایک ٹول ٹپ ہے، جو لے آؤٹ کے ذریعہ رکھا گیا ہے: کوئی بھی عنصر اس کے لئے data-tooltip کے ساتھ پوچھتا ہے — tooltip() اسے ٹوئگ میں لکھتا ہے، ایک ویو اسے باندھتا ہے — اور یہ ایک لمحے کے بعد اشارے کے نیچے آتا ہے، کی بورڈ کی توجہ کے نیچے فوراً، اور کبھی بھی انگلی کے نیچے نہیں۔ یہ کھڑکی کے کناروں سے دور ہو جاتا ہے بجائے اس کے کہ اسے چھوڑ دے۔'
+  section:
+    plain:
+      title: 'کسی بھی چیز پر'
+      description: 'ایک بٹن، ایک آئیکن خود، ایک نشان: یہ خصوصیت سب کچھ ہے جو درکار ہے۔ ایک آئیکن جس میں الفاظ نہیں ہیں وہیں ٹول ٹپ کا سب سے زیادہ معنی ہے۔'
+    rich:
+      title: 'ایک عنوان کے ساتھ، یا ہلکا'
+      description: 'ایک ٹول ٹپ کے لیے متن کے اوپر ایک عنوان جو وضاحت کرتا ہے، اور صفحے کی اپنی زمین پر ایک ہلکا جہاں الٹنا بہت اونچا ہوگا۔'
+    placement:
+      title: مقام
+      description: 'ڈیفالٹ کے طور پر اوپر۔ اگر ایک طرف کے لیے طلب کیا جائے تو یہ اسے لیتا ہے جب وہاں جگہ ہو اور دوسری طرف جب جگہ نہ ہو؛ اس طرف کے ساتھ، یہ کھڑکی میں رہنے کے لیے پھسلتا ہے، اس کا تیر ابھی بھی اس پر ہے جس کی طرف یہ اشارہ کرتا ہے۔'
+  button:
+    save: 'محفوظ کریں'
+  marker:
+    label: 'شائع شدہ'
+  tip:
+    save: 'مسودہ محفوظ کریں — Ctrl+S'
+    share: 'شیئر کریں'
+    delete: 'حذف کریں'
+    marker: '2 ستمبر کو شائع ہوا، 128 قارئین نے دیکھا'
+    light: 'صفحات کی اپنی زمین پر ایک ٹول ٹپ'
+    placement: 'رکھا گیا'
+    rich:
+      title: 'یہ کیوں سرمئی ہے؟'
+      text: 'برآمد پہلے رن کے ختم ہونے کا انتظار کر رہا ہے؛ یہ اس وقت کھلتا ہے جب کچھ برآمد کرنے کے لیے ہو۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Chú thích'
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: 'Một vài từ về vị trí hoặc tiêu điểm mà nó đang nằm ở đó. Có một chú thích cho trang, được đặt bởi bố cục: bất kỳ phần tử nào cần nó với data-tooltip — tooltip() viết nó trong twig, một vue liên kết nó — và nó xuất hiện dưới con trỏ sau một lúc, dưới tiêu điểm của bàn phím ngay lập tức, và không bao giờ dưới ngón tay. Nó tránh xa các cạnh của cửa sổ thay vì rời khỏi đó.'
+  section:
+    plain:
+      title: 'Trên bất kỳ thứ gì'
+      description: 'Một nút, một biểu tượng riêng lẻ, một đánh dấu: thuộc tính là tất cả những gì cần có. Một biểu tượng không có chữ là nơi mà chú thích quan trọng nhất.'
+    rich:
+      title: 'Có tiêu đề, hoặc nhẹ nhàng'
+      description: 'Một tiêu đề ở trên văn bản cho một chú thích giải thích, và một chú thích nhẹ nhàng trên nền của trang nơi mà chú thích đảo ngược sẽ quá ồn ào.'
+    placement:
+      title: 'Vị trí'
+      description: 'Mặc định ở trên. Khi được yêu cầu ở một bên, nó sẽ lấy bên đó khi có chỗ và bên kia khi không có; dọc theo bên đó, nó trượt để giữ trong cửa sổ, mũi tên của nó vẫn chỉ vào thứ mà nó hướng tới.'
+  button:
+    save: Lưu
+  marker:
+    label: 'Đã xuất bản'
+  tip:
+    save: 'Lưu bản nháp — Ctrl+S'
+    share: 'Chia sẻ'
+    delete: Xóa
+    marker: 'Đã xuất bản vào ngày 2 tháng 9, được xem bởi 128 độc giả'
+    light: 'Một chú thích trên nền của trang'
+    placement: 'Đã đặt'
+    rich:
+      title: 'Tại sao nó bị làm xám?'
+      text: 'Việc xuất đang chờ cho lần chạy đầu tiên kết thúc; nó sẽ mở ngay khi có thứ gì đó để xuất.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 工具提示
+  page_icon: 'ph:bold/chat-centered-text'
+  intro: '关于指针或焦点旁边的几点说明。页面有一个工具提示，由布局放置：任何元素请求它时使用data-tooltip — tooltip()在twig中写入，vue绑定它 — 并在几秒钟后在指针下出现，键盘的焦点会立即显示，但永远不会在手指下。它会远离窗口的边缘，而不是离开。'
+  section:
+    plain:
+      title: 任何事物上
+      description: 一个按钮，一个独立的图标，一个标记：只需一个属性即可。没有文字的图标是工具提示最重要的地方。
+    rich:
+      title: 带标题或轻量
+      description: 工具提示上方的标题，解释说明，页面自身基础上的轻量提示，在相反的情况下会显得过于喧闹。
+    placement:
+      title: 位置
+      description: 默认在上方。如果要求在侧面，有空间时就会放在那一侧，没有时则放在另一侧；沿着该侧滑动以保持在窗口内，箭头仍指向所指对象。
+  button:
+    save: 保存
+  marker:
+    label: 已发布
+  tip:
+    save: '保存草稿 — Ctrl+S'
+    share: 分享
+    delete: 删除
+    marker: 已于9月2日发布，已有128位读者查看
+    light: 在页面自身基础上的工具提示
+    placement: 已放置
+    rich:
+      title: 为什么它是灰色的？
+      text: 导出在等待第一次运行结束；一旦有可导出的内容，它就会打开。

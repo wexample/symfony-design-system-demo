@@ -1,0 +1,183 @@
+en:
+  page_title: Modal test - medium
+  intro: This modal uses a medium-length body text.
+  frontend:
+    embed:
+      closing_confirmation:
+        message: Are you sure you want to close this modal?
+
+ar:
+  page_title: 'اختبار النافذة المنبثقة - متوسطة'
+  intro: 'تستخدم هذه النافذة المنبثقة نصًا متوسط الطول.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'هل أنت متأكد أنك تريد إغلاق هذه النافذة المنبثقة؟'
+
+bn:
+  page_title: 'মোডাল পরীক্ষণ - মধ্যম'
+  intro: 'এই মোডালে একটি মধ্যম দৈর্ঘ্যের টেক্সট ব্যবহার করা হয়েছে।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'আপনি কি সত্যিই এই মোডালটি বন্ধ করতে চান?'
+
+de:
+  page_title: 'Modal-Test - mittel'
+  intro: 'Dieses Modal verwendet einen Text mittlerer Länge.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sind Sie sicher, dass Sie dieses Modal schließen möchten?'
+
+es:
+  page_title: 'Prueba de modal - mediano'
+  intro: 'Este modal utiliza un texto de cuerpo de longitud media.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '¿Estás seguro de que deseas cerrar este modal?'
+
+fa:
+  page_title: 'آزمون مدال - متوسط'
+  intro: 'این مدال از متنی با طول متوسط استفاده می‌کند.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'آیا مطمئن هستید که می‌خواهید این مدال را ببندید؟'
+
+fi:
+  page_title: 'Modaalitesti - keskikokoinen'
+  intro: 'Tässä modaalissa on keskikokoinen tekstisisältö.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Oletko varma, että haluat sulkea tämän modaalin?'
+
+fr:
+  page_title: 'Test de modal - moyen'
+  intro: 'Ce modal utilise un texte de corps de longueur moyenne.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Êtes-vous sûr de vouloir fermer ce modal ?'
+
+he:
+  page_title: 'בדיקת מודל - בינוני'
+  intro: 'מודל זה משתמש בטקסט גוף באורך בינוני.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'האם אתה בטוח שברצונך לסגור את המודל הזה?'
+
+hi:
+  page_title: 'मोडल परीक्षण - मध्यम'
+  intro: 'यह मोडल मध्यम लंबाई के शरीर के पाठ का उपयोग करता है।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'क्या आप वास्तव में इस मोडल को बंद करना चाहते हैं?'
+
+id:
+  page_title: 'Uji Modal - sedang'
+  intro: 'Modal ini menggunakan teks tubuh dengan panjang sedang.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Apakah Anda yakin ingin menutup modal ini?'
+
+it:
+  page_title: 'Test modale - medio'
+  intro: 'Questo modale utilizza un testo di corpo di media lunghezza.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sei sicuro di voler chiudere questo modale?'
+
+ja:
+  page_title: 'モーダルテスト - 中'
+  intro: このモーダルは、中程度の長さの本文を使用しています。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: このモーダルを閉じてもよろしいですか？
+
+ko:
+  page_title: '모달 테스트 - 중간'
+  intro: '이 모달은 중간 길이의 본문 텍스트를 사용합니다.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '정말로 이 모달을 닫으시겠습니까?'
+
+nl:
+  page_title: 'Modal test - medium'
+  intro: 'Deze modal gebruikt een tekst van gemiddelde lengte.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Weet je zeker dat je deze modal wilt sluiten?'
+
+pl:
+  page_title: 'Test modalny - średni'
+  intro: 'Ten modal używa średniej długości tekstu.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Czy na pewno chcesz zamknąć ten modal?'
+
+pt_BR:
+  page_title: 'Teste de modal - médio'
+  intro: 'Este modal usa um texto de corpo de comprimento médio.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Você tem certeza de que deseja fechar este modal?'
+
+ru:
+  page_title: 'Модальное окно - средний'
+  intro: 'Это модальное окно использует текст средней длины.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Вы уверены, что хотите закрыть это модальное окно?'
+
+th:
+  page_title: 'การทดสอบโมดัล - ขนาดกลาง'
+  intro: โมดัลนี้มีข้อความหลักความยาวปานกลาง.
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'คุณแน่ใจใช่ไหมว่าต้องการปิดโมดัลนี้?'
+
+tr:
+  page_title: 'Modal testi - orta'
+  intro: 'Bu modal, orta uzunlukta bir metin kullanıyor.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bu modali kapatmak istediğinizden emin misiniz?'
+
+ur:
+  page_title: 'موڈل ٹیسٹ - درمیانہ'
+  intro: 'یہ موڈل درمیانی لمبائی کے جسمانی متن کا استعمال کرتا ہے۔'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'کیا آپ واقعی اس موڈل کو بند کرنا چاہتے ہیں؟'
+
+vi:
+  page_title: 'Kiểm tra Modal - trung bình'
+  intro: 'Modal này sử dụng văn bản có độ dài trung bình.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bạn có chắc chắn muốn đóng modal này không?'
+
+zh:
+  page_title: '模态测试 - 中等'
+  intro: 此模态使用中等长度的正文文本。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 您确定要关闭此模态吗？

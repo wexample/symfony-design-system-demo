@@ -1,8 +1,0 @@
-~extends: '@front.layouts.private.layout'
-menu_design_system:
-  navigation:
-    group:
-      app:
-        title: App-Komponenten
-      generic:
-        title: 'Generische Komponenten'

@@ -1,0 +1,577 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Content
+  page_icon: ph:bold/article
+
+  intro: "Words, pictures and values, and the rhythm between them. What these pages have in common is that they format something a person reads, rather than arranging regions or listing records."
+
+  page:
+    composition:
+      title: Composition
+      description: "A page of prose as it should read: articles, images with text around them, drop caps, meta bars."
+    media:
+      title: Media
+      description: "Images and embeds held to a shape: aspect ratios, overlays, and the placeholder that stands in while nothing has loaded."
+    dates:
+      title: Dates
+      description: "One vocabulary of formats understood identically by Twig and by the browser, and dates that keep themselves true as the page is left open."
+    graph_log:
+      title: Graph log
+      description: "Items on coloured lanes with their forks and merges: a git history, or anything that branches."
+    console:
+      title: Console
+      description: "What a shell printed, read back in the page, and lines added as they come."
+    timeline:
+      title: Timeline
+      description: "Steps or events one under the other on markers joined by a line, each holding whatever it needs."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: المحتوى
+  page_icon: 'ph:bold/article'
+  intro: 'كلمات وصور وقيم، والإيقاع بينها. ما تشترك فيه هذه الصفحات هو أنها تنظم شيئًا يقرأه الشخص، بدلاً من ترتيب المناطق أو سرد السجلات.'
+  page:
+    composition:
+      title: التكوين
+      description: 'صفحة من النثر كما ينبغي أن تُقرأ: مقالات، صور مع نص حولها، أحرف بارزة، أشرطة ميتا.'
+    media:
+      title: الوسائط
+      description: 'صور ومواد مضمنة محجوزة لشكل معين: نسب العرض إلى الارتفاع، تراكبات، والعنصر النائب الذي يظهر أثناء تحميل المحتوى.'
+    dates:
+      title: التواريخ
+      description: 'مفردات من التنسيقات المفهومة بشكل متطابق من قبل Twig والمتصفح، وتواريخ تبقي نفسها صحيحة طالما أن الصفحة مفتوحة.'
+    graph_log:
+      title: 'سجل الرسم البياني'
+      description: 'عناصر على مسارات ملونة مع تفرعاتها واندماجاتها: تاريخ git، أو أي شيء يتفرع.'
+    console:
+      title: 'وحدة التحكم'
+      description: 'ما طبعته وحدة التحكم، يُقرأ مرة أخرى في الصفحة، والأسطر المضافة مع ظهورها.'
+    timeline:
+      title: 'الجدول الزمني'
+      description: 'خطوات أو أحداث واحدة تحت الأخرى على علامات مرتبطة بخط، كل منها يحمل ما يحتاجه.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: বিষয়বস্তু
+  page_icon: 'ph:bold/article'
+  intro: 'শব্দ, ছবি এবং মান, এবং তাদের মধ্যে ছন্দ। এই পৃষ্ঠাগুলোর মধ্যে সাধারণ বিষয় হল, এগুলো এমন কিছু ফরম্যাট করে যা একজন মানুষ পড়ে, অঞ্চল সাজানোর বা রেকর্ডের তালিকা তৈরির পরিবর্তে।'
+  page:
+    composition:
+      title: রচনা
+      description: 'একটি প্রবন্ধের পৃষ্ঠা যেভাবে পড়া উচিত: নিবন্ধ, তাদের চারপাশে টেক্সট সহ ছবি, ড্রপ ক্যাপ, মেটা বার।'
+    media:
+      title: মিডিয়া
+      description: 'ছবি এবং এমবেড যা একটি আকারে ধারণ করা হয়: আংশিক অনুপাতে, ওভারলে এবং সেই প্লেসহোল্ডার যা কিছু লোড না হওয়া পর্যন্ত দাঁড়িয়ে থাকে।'
+    dates:
+      title: তারিখ
+      description: 'একটি শব্দভাণ্ডার যা Twig এবং ব্রাউজার উভয়ই একভাবে বোঝে, এবং তারিখ যা খোলা অবস্থায় সত্য থাকে।'
+    graph_log:
+      title: 'গ্রাফ লগ'
+      description: 'রঙিন লেনে আইটেমগুলি তাদের ফর্ক এবং মার্জ সহ: একটি git ইতিহাস, বা কিছু যা শাখায় বিভক্ত হয়।'
+    console:
+      title: কনসোল
+      description: 'একটি শেলের দ্বারা মুদ্রিত যা পৃষ্ঠায় পড়া হয়, এবং লাইনগুলি যখন আসে তখন যোগ করা হয়।'
+    timeline:
+      title: টাইমলাইন
+      description: 'একটি লাইন দ্বারা যুক্ত চিহ্নগুলির অধীনে একের পর এক পদক্ষেপ বা ঘটনা, প্রতিটি যা যা প্রয়োজন তা ধারণ করে।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inhalt
+  page_icon: 'ph:bold/article'
+  intro: 'Wörter, Bilder und Werte sowie der Rhythmus zwischen ihnen. Was diese Seiten gemeinsam haben, ist, dass sie etwas formatieren, das eine Person liest, anstatt Regionen anzuordnen oder Datensätze aufzulisten.'
+  page:
+    composition:
+      title: Komposition
+      description: 'Eine Seite Prosa, wie sie gelesen werden sollte: Artikel, Bilder mit umgebendem Text, Initialen, Metaleisten.'
+    media:
+      title: Medien
+      description: 'Bilder und eingebettete Inhalte in eine Form gebracht: Seitenverhältnisse, Überlagerungen und der Platzhalter, der steht, während nichts geladen wird.'
+    dates:
+      title: Datumsangaben
+      description: 'Ein Vokabular von Formaten, die sowohl von Twig als auch vom Browser identisch verstanden werden, und Daten, die sich selbst treu bleiben, solange die Seite geöffnet bleibt.'
+    graph_log:
+      title: Graph-Log
+      description: 'Elemente auf farbigen Bahnen mit ihren Verzweigungen und Zusammenführungen: eine Git-Historie oder alles, was sich verzweigt.'
+    console:
+      title: Konsole
+      description: 'Was eine Shell ausgegeben hat, im Seitenkontext zurückgelesen, und Zeilen, die hinzugefügt werden, wenn sie eintreffen.'
+    timeline:
+      title: Zeitachse
+      description: 'Schritte oder Ereignisse untereinander auf Markierungen, die durch eine Linie verbunden sind, wobei jede das enthält, was sie benötigt.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Contenido
+  page_icon: 'ph:bold/article'
+  intro: 'Palabras, imágenes y valores, y el ritmo entre ellos. Lo que estas páginas tienen en común es que formatean algo que una persona lee, en lugar de organizar regiones o listar registros.'
+  page:
+    composition:
+      title: Composición
+      description: 'Una página de prosa como debería leerse: artículos, imágenes con texto alrededor, letras capitulares, barras meta.'
+    media:
+      title: Medios
+      description: 'Imágenes y elementos embebidos mantenidos en una forma: proporciones, superposiciones y el marcador que aparece mientras nada se ha cargado.'
+    dates:
+      title: Fechas
+      description: 'Un vocabulario de formatos entendidos de manera idéntica por Twig y por el navegador, y fechas que se mantienen verdaderas mientras la página permanece abierta.'
+    graph_log:
+      title: 'Registro gráfico'
+      description: 'Elementos en carriles de colores con sus bifurcaciones y fusiones: un historial de git, o cualquier cosa que se ramifique.'
+    console:
+      title: Consola
+      description: 'Lo que un shell imprimió, leído de nuevo en la página, y líneas añadidas a medida que aparecen.'
+    timeline:
+      title: 'Línea de tiempo'
+      description: 'Pasos o eventos uno debajo del otro en marcadores unidos por una línea, cada uno sosteniendo lo que necesita.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: محتوا
+  page_icon: 'ph:bold/article'
+  intro: 'کلمات، تصاویر و ارزش‌ها، و ریتم بین آن‌ها. چیزی که این صفحات مشترک دارند این است که چیزی را که یک فرد می‌خواند قالب‌بندی می‌کنند، نه اینکه مناطق را مرتب کنند یا رکوردها را لیست کنند.'
+  page:
+    composition:
+      title: ترکیب
+      description: 'صفحه‌ای از نثر که باید به این شکل خوانده شود: مقالات، تصاویری با متن در اطراف آن‌ها، حروف بزرگ ابتدایی، نوارهای متا.'
+    media:
+      title: رسانه
+      description: 'تصاویر و محتوای گنجانده شده که به شکل خاصی نگه‌داشته شده‌اند: نسبت‌های ابعاد، پوشش‌ها و جایگزینی که در حین بارگذاری نشدن چیزی وجود دارد.'
+    dates:
+      title: تاریخ‌ها
+      description: 'یک واژگان از فرمت‌ها که به طور یکسان توسط Twig و مرورگر درک می‌شود و تاریخ‌هایی که خود را درست نگه می‌دارند در حالی که صفحه باز است.'
+    graph_log:
+      title: 'گزارش گراف'
+      description: 'مواردی در خطوط رنگی با انشعاب‌ها و ادغام‌هایشان: تاریخچه git، یا هر چیزی که شاخه می‌شود.'
+    console:
+      title: کنسول
+      description: 'آنچه یک شل چاپ کرده، در صفحه خوانده می‌شود و خطوطی که به محض ورود اضافه می‌شوند.'
+    timeline:
+      title: 'خط زمانی'
+      description: 'مراحل یا رویدادها یکی زیر دیگری بر روی نشانگرهایی که با یک خط متصل شده‌اند، هر کدام چیزی را که نیاز دارد در خود نگه می‌دارد.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Sisältö
+  page_icon: 'ph:bold/article'
+  intro: 'Sanoja, kuvia ja arvoja sekä rytmi niiden välillä. Näillä sivuilla on yhteistä se, että ne muotoilevat jotain, mitä henkilö lukee, sen sijaan että järjestäisivät alueita tai luettelisivat tietueita.'
+  page:
+    composition:
+      title: Koostumus
+      description: 'Proosalehti, joka luetaan kuten sen pitäisi: artikkeleita, kuvia tekstin ympärillä, alkukirjaimia, metabareja.'
+    media:
+      title: Media
+      description: 'Kuvia ja upotuksia muotoon sidottuna: kuvasuhteet, päällekkäisyydet ja paikkamerkki, joka näkyy, kun mitään ei ole ladattu.'
+    dates:
+      title: Päivät
+      description: 'Yksi sanasto muotoja, joita Twig ja selain ymmärtävät identtisesti, sekä päivämäärät, jotka pysyvät todenmukaisina, kun sivu on auki.'
+    graph_log:
+      title: 'Graafinen loki'
+      description: 'Kohteita värillisillä kaistoilla niiden haaroittumisineen ja yhdistymisineen: git-historia tai mikä tahansa, joka haarautuu.'
+    console:
+      title: Konsoli
+      description: 'Mitä shell tulosti, luettiin takaisin sivulla, ja rivejä lisätään niiden saapuessa.'
+    timeline:
+      title: Aikajana
+      description: 'Askeleet tai tapahtumat toistensa alla merkeillä, joita yhdistää viiva, jokainen sisältää kaiken tarvitseman.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Contenu
+  page_icon: 'ph:bold/article'
+  intro: "Mots, images et valeurs, et le rythme entre eux. Ce que ces pages ont en commun, c'est qu'elles formatent quelque chose qu'une personne lit, plutôt que d'organiser des régions ou de lister des enregistrements."
+  page:
+    composition:
+      title: Composition
+      description: "Une page de prose telle qu'elle devrait être lue : articles, images avec du texte autour d'eux, lettrines, barres méta."
+    media:
+      title: Média
+      description: "Images et intégrations maintenues dans une forme : rapports d'aspect, superpositions et l'espace réservé qui se tient en place pendant que rien n'a été chargé."
+    dates:
+      title: Dates
+      description: 'Un vocabulaire de formats compris de manière identique par Twig et par le navigateur, et des dates qui se maintiennent vraies tant que la page reste ouverte.'
+    graph_log:
+      title: 'Journal graphique'
+      description: 'Éléments sur des voies colorées avec leurs fourchettes et fusions : un historique git, ou tout ce qui se ramifie.'
+    console:
+      title: Console
+      description: "Ce qu'un shell a imprimé, lu à nouveau dans la page, et des lignes ajoutées à mesure qu'elles arrivent."
+    timeline:
+      title: Chronologie
+      description: 'Étapes ou événements les uns sous les autres sur des marqueurs reliés par une ligne, chacun tenant ce dont il a besoin.'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: תוכן
+  page_icon: 'ph:bold/article'
+  intro: 'מילים, תמונות וערכים, והקצב ביניהם. מה שדפים אלה имеют במשותף הוא שהם מעצבים משהו שאדם קורא, במקום לסדר אזורים או לרשום רשומות.'
+  page:
+    composition:
+      title: קומפוזיציה
+      description: 'דף פרוזה כפי שהוא צריך להיקרא: מאמרים, תמונות עם טקסט מסביבן, אותיות גדולות, שורות מטה.'
+    media:
+      title: מדיה
+      description: 'תמונות ואימונים המוחזקים בצורה: יחס תמונה, שכבות, ותמונה הממתינה בזמן שהכל לא טען.'
+    dates:
+      title: תאריכים
+      description: 'אוצר מילים של פורמטים המובנים באופן זהה על ידי Twig ועל ידי הדפדפן, ותאריכים ששומרים על עצמם נכונים ככל שהדף נשאר פתוח.'
+    graph_log:
+      title: 'יומן גרפים'
+      description: 'פריטים על נתיבים צבעוניים עם פיצולים ומיזוגים: היסטוריית git, או כל דבר שמתפצל.'
+    console:
+      title: קונסולה
+      description: 'מה שהדף הדפיס, נקרא חזרה בדף, ושורות נוספות נוספות ככל שהן מגיעות.'
+    timeline:
+      title: 'ציר זמן'
+      description: 'שלבים או אירועים אחד מתחת לשני על סמנים מחוברים בקו, כל אחד מחזיק את מה שהוא צריך.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: सामग्री
+  page_icon: 'ph:bold/article'
+  intro: 'शब्द, चित्र और मूल्य, और उनके बीच का ताल। इन पृष्ठों में जो समानता है, वह यह है कि ये उस चीज़ को स्वरूपित करते हैं जिसे एक व्यक्ति पढ़ता है, बजाय इसके कि क्षेत्रों को व्यवस्थित करें या रिकॉर्ड को सूचीबद्ध करें।'
+  page:
+    composition:
+      title: संरचना
+      description: 'एक गद्य का पृष्ठ जैसा कि इसे पढ़ा जाना चाहिए: लेख, उनके चारों ओर पाठ के साथ चित्र, ड्रॉप कैप, मेटा बार।'
+    media:
+      title: मीडिया
+      description: 'आकृतियों में रखे गए चित्र और एम्बेड: पहलू अनुपात, ओवरले, और वह प्लेसहोल्डर जो तब खड़ा होता है जब कुछ लोड नहीं हुआ है।'
+    dates:
+      title: तारीखें
+      description: 'फॉर्मेट्स की एक शब्दावली जिसे Twig और ब्राउज़र दोनों द्वारा समान रूप से समझा जाता है, और तारीखें जो खुद को सच्चा रखती हैं जब पृष्ठ खुला रहता है।'
+    graph_log:
+      title: 'ग्राफ लॉग'
+      description: 'रंगीन लेन पर आइटम उनके फोर्क्स और मर्जेस के साथ: एक गिट इतिहास, या कुछ भी जो शाखा बनाता है।'
+    console:
+      title: कंसोल
+      description: 'जो एक शेल ने प्रिंट किया, वह पृष्ठ में वापस पढ़ा गया, और जब भी लाइनें आती हैं तो जोड़ी जाती हैं।'
+    timeline:
+      title: कालक्रम
+      description: 'चरण या घटनाएँ एक के नीचे एक मार्करों पर एक लाइन से जुड़ी हुई, प्रत्येक अपने लिए आवश्यक चीज़ धारण करती है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Konten
+  page_icon: 'ph:bold/article'
+  intro: 'Kata-kata, gambar, dan nilai, serta ritme di antara mereka. Halaman-halaman ini memiliki kesamaan dalam memformat sesuatu yang dibaca seseorang, alih-alih mengatur wilayah atau mencantumkan catatan.'
+  page:
+    composition:
+      title: Komposisi
+      description: 'Sebuah halaman prosa seperti yang seharusnya dibaca: artikel, gambar dengan teks di sekelilingnya, huruf awal, meta bar.'
+    media:
+      title: Media
+      description: 'Gambar dan penyematan yang dibentuk: rasio aspek, overlay, dan tempat sementara yang muncul saat belum ada yang dimuat.'
+    dates:
+      title: Tanggal
+      description: 'Satu kosakata format yang dipahami sama oleh Twig dan oleh browser, serta tanggal yang tetap akurat saat halaman dibuka.'
+    graph_log:
+      title: 'Log grafik'
+      description: 'Item-item di jalur berwarna dengan cabang dan penggabungan: sejarah git, atau apapun yang bercabang.'
+    console:
+      title: Konsol
+      description: 'Apa yang dicetak shell, dibaca kembali di halaman, dan baris ditambahkan saat mereka muncul.'
+    timeline:
+      title: 'Garis Waktu'
+      description: 'Langkah atau peristiwa satu di bawah yang lain pada penanda yang dihubungkan oleh garis, masing-masing memuat apa pun yang dibutuhkan.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Contenuto
+  page_icon: 'ph:bold/article'
+  intro: 'Parole, immagini e valori, e il ritmo tra di essi. Ciò che queste pagine hanno in comune è che formattano qualcosa che una persona legge, piuttosto che disporre regioni o elencare record.'
+  page:
+    composition:
+      title: Composizione
+      description: 'Una pagina di prosa come dovrebbe essere letta: articoli, immagini con testo intorno, iniziali in grande, barre meta.'
+    media:
+      title: Media
+      description: 'Immagini e contenuti incorporati mantenuti a una forma: rapporti di aspetto, sovrapposizioni e il segnaposto che appare mentre nulla è stato caricato.'
+    dates:
+      title: Date
+      description: 'Un vocabolario di formati compresi allo stesso modo da Twig e dal browser, e date che si mantengono vere mentre la pagina rimane aperta.'
+    graph_log:
+      title: 'Log grafico'
+      description: 'Elementi su corsie colorate con le loro diramazioni e fusioni: una cronologia git, o qualsiasi cosa che si ramifica.'
+    console:
+      title: Console
+      description: 'Cosa ha stampato una shell, letto di nuovo nella pagina, e righe aggiunte man mano che arrivano.'
+    timeline:
+      title: Cronologia
+      description: "Passi o eventi uno sotto l'altro su indicatori uniti da una linea, ognuno con ciò di cui ha bisogno."
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: コンテンツ
+  page_icon: 'ph:bold/article'
+  intro: 言葉、画像、価値、そしてそれらの間のリズム。このページに共通するのは、地域を配置したり、記録を列挙するのではなく、人が読むものをフォーマットすることです。
+  page:
+    composition:
+      title: 構成
+      description: 文章があるべき形で表示されるページ：記事、周囲にテキストのある画像、ドロップキャップ、メタバー。
+    media:
+      title: メディア
+      description: 形に保たれた画像と埋め込み：アスペクト比、オーバーレイ、何も読み込まれていないときに表示されるプレースホルダー。
+    dates:
+      title: 日付
+      description: Twigとブラウザの両方で同じように理解されるフォーマットの語彙、そしてページが開かれたままのときに自らを正確に保つ日付。
+    graph_log:
+      title: グラフログ
+      description: 色付きのレーン上のアイテム、その分岐とマージ：gitの履歴、または何かが分岐するもの。
+    console:
+      title: コンソール
+      description: シェルが出力したものをページ内で読み戻し、新しい行が追加される。
+    timeline:
+      title: タイムライン
+      description: マーカーによって線でつながれた一つの下に他のステップやイベントが並び、それぞれが必要なものを保持する。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 내용
+  page_icon: 'ph:bold/article'
+  intro: '단어, 그림, 가치, 그리고 그 사이의 리듬. 이 페이지들이 공통적으로 가지고 있는 것은 개인이 읽는 내용을 포맷하는 것이지, 지역을 배열하거나 기록을 나열하는 것이 아닙니다.'
+  page:
+    composition:
+      title: 구성
+      description: '읽어야 할 형태의 산문 페이지: 기사, 주위에 텍스트가 있는 이미지, 드롭 캡, 메타 바.'
+    media:
+      title: 미디어
+      description: '형태를 유지하는 이미지와 삽입물: 종횡비, 오버레이, 아무것도 로드되지 않을 때 대체하는 자리 표시자.'
+    dates:
+      title: 날짜
+      description: 'Twig와 브라우저가 동일하게 이해하는 포맷의 어휘와, 페이지가 열려 있는 동안 진실하게 유지되는 날짜.'
+    graph_log:
+      title: '그래프 로그'
+      description: '색이 있는 선 위의 항목들과 그들의 분기 및 병합: git 히스토리 또는 분기 되는 모든 것.'
+    console:
+      title: 콘솔
+      description: '쉘이 출력한 내용, 페이지에서 다시 읽히고, 도착하는 대로 추가된 줄.'
+    timeline:
+      title: 타임라인
+      description: '선으로 연결된 마커 아래에 하나씩 배치된 단계 또는 이벤트, 각 마커는 필요한 모든 것을 담고 있습니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Inhoud
+  page_icon: 'ph:bold/article'
+  intro: "Woorden, afbeeldingen en waarden, en de ritme daartussen. Wat deze pagina's gemeen hebben is dat ze iets formatteren wat een persoon leest, in plaats van gebieden te ordenen of records op te sommen."
+  page:
+    composition:
+      title: Samenstelling
+      description: 'Een pagina met proza zoals het hoort te lezen: artikelen, afbeeldingen met tekst eromheen, initiaalletters, metabarre.'
+    media:
+      title: Media
+      description: 'Afbeeldingen en embeds in een bepaalde vorm: beeldverhoudingen, overlays en de tijdelijke aanduiding die verschijnt terwijl er nog niets is geladen.'
+    dates:
+      title: Data
+      description: 'Één vocabulaire van formaten die identiek worden begrepen door Twig en door de browser, en data die zichzelf trouw blijven terwijl de pagina open blijft.'
+    graph_log:
+      title: Grafieklogboek
+      description: 'Items op gekleurde banen met hun splitsingen en samenvoegingen: een git-geschiedenis, of iets dat vertakt.'
+    console:
+      title: Console
+      description: 'Wat een shell heeft afgedrukt, teruggelezen op de pagina, en regels toegevoegd naarmate ze binnenkomen.'
+    timeline:
+      title: Tijdlijn
+      description: 'Stappen of gebeurtenissen onder elkaar op markeringen verbonden door een lijn, elk met wat het nodig heeft.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Treść
+  page_icon: 'ph:bold/article'
+  intro: 'Słowa, obrazy i wartości oraz rytm między nimi. To, co łączy te strony, to formatowanie czegoś, co czyta człowiek, zamiast układania obszarów czy wypisywania rekordów.'
+  page:
+    composition:
+      title: Kompozycja
+      description: 'Strona prozy, jak powinna brzmieć: artykuły, obrazy z tekstem wokół, inicjały, paski metadanych.'
+    media:
+      title: Media
+      description: 'Obrazy i osadzenia utrzymane w kształcie: proporcje, nakładki i placeholder, który stoi, gdy nic nie zostało załadowane.'
+    dates:
+      title: Daty
+      description: 'Jedno słownictwo formatów rozumiane identycznie przez Twig i przeglądarkę oraz daty, które pozostają prawdziwe, gdy strona jest otwarta.'
+    graph_log:
+      title: 'Dziennik grafu'
+      description: 'Elementy na kolorowych ścieżkach z ich rozwidleniami i scaleniami: historia gita lub cokolwiek, co się rozwidla.'
+    console:
+      title: Konsola
+      description: 'To, co wydrukowała powłoka, odczytane z powrotem na stronie, a linie dodawane w miarę ich pojawiania się.'
+    timeline:
+      title: 'Oś czasu'
+      description: 'Kroki lub wydarzenia jeden pod drugim na znacznikach połączonych linią, każdy trzymający to, czego potrzebuje.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Conteúdo
+  page_icon: 'ph:bold/article'
+  intro: 'Palavras, imagens e valores, e o ritmo entre eles. O que essas páginas têm em comum é que elas formatam algo que uma pessoa lê, em vez de organizar regiões ou listar registros.'
+  page:
+    composition:
+      title: Composição
+      description: 'Uma página de prosa como deve ser lida: artigos, imagens com texto ao redor, letras capitulares, barras meta.'
+    media:
+      title: Mídia
+      description: 'Imagens e inserções mantidas em uma forma: proporções, sobreposições e o espaço reservado que aparece enquanto nada foi carregado.'
+    dates:
+      title: Datas
+      description: 'Um vocabulário de formatos compreendidos da mesma forma pelo Twig e pelo navegador, e datas que se mantêm verdadeiras enquanto a página fica aberta.'
+    graph_log:
+      title: 'Registro gráfico'
+      description: 'Itens em faixas coloridas com suas divisões e fusões: um histórico do git, ou qualquer coisa que ramifique.'
+    console:
+      title: Console
+      description: 'O que um shell imprimiu, lido de volta na página, e linhas adicionadas à medida que aparecem.'
+    timeline:
+      title: 'Linha do tempo'
+      description: 'Passos ou eventos um abaixo do outro em marcadores conectados por uma linha, cada um contendo o que precisa.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Содержимое
+  page_icon: 'ph:bold/article'
+  intro: 'Слова, картинки и значения, а также ритм между ними. Общее для этих страниц в том, что они форматируют то, что читает человек, а не организуют области или перечисляют записи.'
+  page:
+    composition:
+      title: Композиция
+      description: 'Страница прозы, как она должна читаться: статьи, изображения с текстом вокруг, крупные заглавные буквы, мета-бары.'
+    media:
+      title: Медиа
+      description: 'Изображения и внедрения, оформленные в определенной форме: соотношения сторон, наложения и заполнитель, который появляется, пока ничего не загружено.'
+    dates:
+      title: Даты
+      description: 'Одна лексика форматов, одинаково понимаемая Twig и браузером, и даты, которые остаются верными, пока страница открыта.'
+    graph_log:
+      title: 'Журнал графа'
+      description: 'Элементы на цветных дорожках с их разветвлениями и слияниями: история git или что-то, что разветвляется.'
+    console:
+      title: Консоль
+      description: 'Что напечатал shell, прочитанное на странице, и строки, добавляемые по мере поступления.'
+    timeline:
+      title: Хронология
+      description: 'Этапы или события один под другим на маркерах, соединенных линией, каждый из которых содержит всё, что ему нужно.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: เนื้อหา
+  page_icon: 'ph:bold/article'
+  intro: 'คำ, รูปภาพ และค่า รวมถึงจังหวะระหว่างพวกมัน หน้าที่เหล่านี้มีสิ่งที่เหมือนกันคือการจัดรูปแบบสิ่งที่บุคคลอ่าน แทนที่จะจัดเรียงพื้นที่หรือรายการบันทึก.'
+  page:
+    composition:
+      title: การเรียบเรียง
+      description: 'หน้าเรียงความที่ควรอ่าน: บทความ, รูปภาพที่มีข้อความล้อมรอบ, ตัวอักษรเริ่มต้น, แถบเมตา.'
+    media:
+      title: สื่อ
+      description: 'รูปภาพและการฝังที่ถูกจัดให้อยู่ในรูปแบบ: อัตราส่วนภาพ, การทับซ้อน, และที่ว่างที่ยืนอยู่ในขณะที่ยังไม่มีการโหลด.'
+    dates:
+      title: วันที่
+      description: 'คำศัพท์หนึ่งชุดของรูปแบบที่เข้าใจในลักษณะเดียวกันโดย Twig และเบราว์เซอร์ และวันที่ที่ยังคงความถูกต้องเมื่อหน้าเปิดอยู่.'
+    graph_log:
+      title: บันทึกกราฟ
+      description: 'รายการบนเลนสีที่มีการแยกและรวม: ประวัติ git หรือสิ่งใดก็ตามที่แตกแขนง.'
+    console:
+      title: คอนโซล
+      description: 'สิ่งที่เชลล์พิมพ์ออกมา อ่านกลับในหน้า และบรรทัดที่เพิ่มเข้ามาเมื่อมันออกมา.'
+    timeline:
+      title: ไทม์ไลน์
+      description: ขั้นตอนหรือเหตุการณ์หนึ่งใต้กันบนเครื่องหมายที่เชื่อมต่อด้วยเส้นแต่ละอันถือสิ่งที่มันต้องการ.
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: İçerik
+  page_icon: 'ph:bold/article'
+  intro: 'Kelimeler, resimler ve değerler, aralarındaki ritim. Bu sayfaların ortak noktası, bir kişinin okuduğu bir şeyi biçimlendirmek, bölgeleri düzenlemek veya kayıtları listelemek değil.'
+  page:
+    composition:
+      title: Kompozisyon
+      description: 'Bir prozanın okunması gerektiği gibi: makaleler, etrafında metin bulunan resimler, büyük harfler, meta çubukları.'
+    media:
+      title: Medya
+      description: 'Bir şekle sahip olan görüntüler ve gömülü içerikler: en boy oranları, üst üste bindirmeler ve hiçbir şey yüklenmediğinde yer tutucu olarak duran.'
+    dates:
+      title: Tarihler
+      description: 'Twig ve tarayıcı tarafından aynı şekilde anlaşılan bir formatlar sözlüğü ve sayfa açık kaldıkça kendini doğru tutan tarihler.'
+    graph_log:
+      title: 'Grafik günlüğü'
+      description: 'Renkli yollar üzerindeki öğeler ve bunların dallanıp kesişmeleri: bir git geçmişi veya dallanan herhangi bir şey.'
+    console:
+      title: Konsol
+      description: 'Bir kabuğun yazdırdığı, sayfada geri okunan ve geldikçe eklenen satırlar.'
+    timeline:
+      title: 'Zaman Çizelgesi'
+      description: 'Birbiri ardına gelen adımlar veya olaylar, bir çizgiyle birleştirilmiş işaretçiler üzerinde, her biri ihtiyaç duyduğu her şeyi taşıyor.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: مواد
+  page_icon: 'ph:bold/article'
+  intro: 'الفاظ، تصاویر اور اقدار، اور ان کے درمیان کا تال۔ ان صفحات کی مشترک خصوصیت یہ ہے کہ یہ کسی شخص کی پڑھائی کے لیے کچھ ترتیب دیتے ہیں، نہ کہ علاقوں کو ترتیب دیتے ہیں یا ریکارڈ کی فہرست بناتے ہیں۔'
+  page:
+    composition:
+      title: ترکیب
+      description: 'نثر کا ایک صفحہ جیسا کہ اسے پڑھنا چاہیے: مضامین، ان کے ارد گرد متن کے ساتھ تصاویر، ڈراپ کیپس، میٹا بارز۔'
+    media:
+      title: میڈیا
+      description: 'تصاویر اور ایمبیڈز کو ایک شکل میں رکھا گیا: پہلو کے تناسب، اوورلے، اور وہ جگہ دار جو اس وقت کھڑی ہوتی ہے جب کچھ لوڈ نہ ہو۔'
+    dates:
+      title: تاریخیں
+      description: 'ایک ایسا الفاظ کا ذخیرہ جو ٹوئگ اور براؤزر دونوں کے ذریعہ ایک جیسا سمجھا جاتا ہے، اور تاریخیں جو خود کو سچ رکھتی ہیں جب صفحہ کھلا رہتا ہے۔'
+    graph_log:
+      title: 'گراف لاگ'
+      description: 'رنگین راستوں پر اشیاء ان کی شاخوں اور ملنے کے ساتھ: ایک git تاریخ، یا کچھ بھی جو شاخ بناتا ہے۔'
+    console:
+      title: کنسول
+      description: 'جو کچھ ایک شیل نے پرنٹ کیا، صفحے میں دوبارہ پڑھا گیا، اور لائنیں جیسے ہی آتی ہیں شامل کی جاتی ہیں۔'
+    timeline:
+      title: 'ٹائم لائن'
+      description: 'ایک کے نیچے ایک قدم یا واقعات نشانوں پر ایک لائن کے ساتھ جڑے ہوئے، ہر ایک اپنی ضرورت کے مطابق جو بھی رکھتا ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Nội dung'
+  page_icon: 'ph:bold/article'
+  intro: 'Những từ ngữ, hình ảnh và giá trị, cùng nhịp điệu giữa chúng. Những trang này có điểm chung là định dạng những gì người đọc, thay vì sắp xếp các khu vực hoặc liệt kê các bản ghi.'
+  page:
+    composition:
+      title: 'Bố cục'
+      description: 'Một trang văn xuôi như nó nên đọc: bài viết, hình ảnh với văn bản xung quanh, chữ cái đầu dòng, thanh meta.'
+    media:
+      title: 'Phương tiện'
+      description: 'Hình ảnh và nhúng được giữ theo hình dạng: tỷ lệ khung hình, lớp phủ, và dấu chấm đứng trong khi chưa có gì được tải.'
+    dates:
+      title: 'Ngày tháng'
+      description: 'Một từ vựng các định dạng được hiểu giống nhau bởi Twig và trình duyệt, và những ngày tháng giữ đúng khi trang còn mở.'
+    graph_log:
+      title: 'Nhật ký đồ thị'
+      description: 'Các mục trên các làn đường màu với các nhánh và hợp nhất của chúng: một lịch sử git, hoặc bất cứ điều gì có nhánh.'
+    console:
+      title: 'Bảng điều khiển'
+      description: 'Những gì một shell đã in ra, được đọc lại trong trang, và các dòng được thêm vào khi chúng xuất hiện.'
+    timeline:
+      title: 'Dòng thời gian'
+      description: 'Các bước hoặc sự kiện xếp chồng lên nhau trên các dấu hiệu được nối bởi một đường, mỗi dấu hiệu giữ bất cứ thứ gì nó cần.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 内容
+  page_icon: 'ph:bold/article'
+  intro: 文字、图片和价值观，以及它们之间的节奏。这些页面的共同点在于，它们格式化了人们阅读的内容，而不是排列区域或列出记录。
+  page:
+    composition:
+      title: 构成
+      description: 一页应有的散文：文章、周围带有文本的图片、首字母大写、元条。
+    media:
+      title: 媒体
+      description: 被固定形状的图像和嵌入物：纵横比、叠加和在未加载之前占位的元素。
+    dates:
+      title: 日期
+      description: 一种格式词汇，Twig和浏览器都能同样理解，以及在页面保持打开时保持真实的日期。
+    graph_log:
+      title: 图形日志
+      description: 在有色车道上的项目及其分叉和合并：git历史，或任何分支的内容。
+    console:
+      title: 控制台
+      description: 一个shell打印的内容，在页面中重新读取，并随着输入的内容增加行。
+    timeline:
+      title: 时间线
+      description: 一个接一个的步骤或事件，标记通过线连接，每个标记持有其所需的内容。

@@ -1,0 +1,369 @@
+en:
+  # The tree standing in every workspace page, which moves between them.
+  nav:
+    title: Layouts
+    group: Workspace
+    fixed: Fixed width
+    columns: Five columns
+    dashboard: Dashboard
+
+  tab:
+    index: Overview
+    zones: Zones
+    workspace: Workspace
+    blocks: Blocks
+    toolbar: Toolbar
+    tabs: Tabs
+    doc: Doc layout
+
+ar:
+  nav:
+    title: التخطيطات
+    group: 'مساحة العمل'
+    fixed: 'عرض ثابت'
+    columns: 'خمسة أعمدة'
+    dashboard: 'لوحة المعلومات'
+  tab:
+    index: 'نظرة عامة'
+    zones: المناطق
+    workspace: 'مساحة العمل'
+    blocks: الكتل
+    toolbar: 'شريط الأدوات'
+    tabs: 'علامات التبويب'
+    doc: 'تخطيط الوثيقة'
+
+bn:
+  nav:
+    title: লেআউট
+    group: কর্মস্থল
+    fixed: 'স্থির প্রস্থ'
+    columns: 'পাঁচটি কলাম'
+    dashboard: ড্যাশবোর্ড
+  tab:
+    index: সারসংক্ষেপ
+    zones: জোন
+    workspace: কর্মস্থল
+    blocks: ব্লক
+    toolbar: টুলবার
+    tabs: ট্যাব
+    doc: 'ডক লেআউট'
+
+de:
+  nav:
+    title: Layouts
+    group: Arbeitsbereich
+    fixed: 'Feste Breite'
+    columns: 'Fünf Spalten'
+    dashboard: Dashboard
+  tab:
+    index: Übersicht
+    zones: Zonen
+    workspace: Arbeitsbereich
+    blocks: Blöcke
+    toolbar: Werkzeugleiste
+    tabs: Registerkarten
+    doc: Dokumentlayout
+
+es:
+  nav:
+    title: Diseños
+    group: 'Espacio de trabajo'
+    fixed: 'Ancho fijo'
+    columns: 'Cinco columnas'
+    dashboard: Tablero
+  tab:
+    index: Resumen
+    zones: Zonas
+    workspace: 'Espacio de trabajo'
+    blocks: Bloques
+    toolbar: 'Barra de herramientas'
+    tabs: Pestañas
+    doc: 'Diseño del documento'
+
+fa:
+  nav:
+    title: 'چیدمان ها'
+    group: 'فضای کار'
+    fixed: 'عرض ثابت'
+    columns: 'پنج ستون'
+    dashboard: داشبورد
+  tab:
+    index: 'بررسی کلی'
+    zones: 'منطقه ها'
+    workspace: 'فضای کار'
+    blocks: 'بلوک ها'
+    toolbar: 'نوار ابزار'
+    tabs: 'زبان ها'
+    doc: 'چیدمان سند'
+
+fi:
+  nav:
+    title: Asettelut
+    group: Työtila
+    fixed: 'Kiinteä leveys'
+    columns: 'Viisi saraketta'
+    dashboard: Ohjaamo
+  tab:
+    index: Yleiskatsaus
+    zones: Alueet
+    workspace: Työtila
+    blocks: Loitsut
+    toolbar: Työkalupalkki
+    tabs: Välilehdet
+    doc: 'Dokumentin asettelu'
+
+fr:
+  nav:
+    title: 'Mises en page'
+    group: 'Espace de travail'
+    fixed: 'Largeur fixe'
+    columns: 'Cinq colonnes'
+    dashboard: 'Tableau de bord'
+  tab:
+    index: Aperçu
+    zones: Zones
+    workspace: 'Espace de travail'
+    blocks: Blocs
+    toolbar: "Barre d'outils"
+    tabs: Onglets
+    doc: 'Mise en page du document'
+
+he:
+  nav:
+    title: פריסות
+    group: 'מרחב עבודה'
+    fixed: 'רוחב קבוע'
+    columns: 'חמישה עמודים'
+    dashboard: 'לוח מחוונים'
+  tab:
+    index: 'סקירה כללית'
+    zones: אזורים
+    workspace: 'מרחב עבודה'
+    blocks: בלוקים
+    toolbar: 'סרגל כלים'
+    tabs: כרטיסיות
+    doc: 'פריסת מסמך'
+
+hi:
+  nav:
+    title: लेआउट्स
+    group: कार्यक्षेत्र
+    fixed: 'स्थिर चौड़ाई'
+    columns: 'पांच कॉलम'
+    dashboard: डैशबोर्ड
+  tab:
+    index: अवलोकन
+    zones: क्षेत्र
+    workspace: कार्यक्षेत्र
+    blocks: ब्लॉक्स
+    toolbar: टूलबार
+    tabs: टैब
+    doc: 'दस्तावेज़ लेआउट'
+
+id:
+  nav:
+    title: 'Tata Letak'
+    group: 'Ruang Kerja'
+    fixed: 'Lebar tetap'
+    columns: 'Lima kolom'
+    dashboard: Dasbor
+  tab:
+    index: Ikhtisar
+    zones: Zona
+    workspace: 'Ruang Kerja'
+    blocks: Blok
+    toolbar: Toolbar
+    tabs: Tab
+    doc: 'Tata letak dokumen'
+
+it:
+  nav:
+    title: Layout
+    group: 'Spazio di lavoro'
+    fixed: 'Larghezza fissa'
+    columns: 'Cinque colonne'
+    dashboard: Cruscotto
+  tab:
+    index: Panoramica
+    zones: Zone
+    workspace: 'Spazio di lavoro'
+    blocks: Blocchi
+    toolbar: 'Barra degli strumenti'
+    tabs: Schede
+    doc: 'Layout documento'
+
+ja:
+  nav:
+    title: レイアウト
+    group: ワークスペース
+    fixed: 固定幅
+    columns: 5カラム
+    dashboard: ダッシュボード
+  tab:
+    index: 概要
+    zones: ゾーン
+    workspace: ワークスペース
+    blocks: ブロック
+    toolbar: ツールバー
+    tabs: タブ
+    doc: ドキュメントレイアウト
+
+ko:
+  nav:
+    title: 레이아웃
+    group: '작업 공간'
+    fixed: '고정 너비'
+    columns: '다섯 개 열'
+    dashboard: 대시보드
+  tab:
+    index: 개요
+    zones: 존
+    workspace: '작업 공간'
+    blocks: 블록
+    toolbar: '도구 모음'
+    tabs: 탭
+    doc: '문서 레이아웃'
+
+nl:
+  nav:
+    title: Indelingen
+    group: Werkruimte
+    fixed: 'Vaste breedte'
+    columns: 'Vijf kolommen'
+    dashboard: Dashboard
+  tab:
+    index: Overzicht
+    zones: Zones
+    workspace: Werkruimte
+    blocks: Blokken
+    toolbar: Werkbalk
+    tabs: Tabs
+    doc: Documentindeling
+
+pl:
+  nav:
+    title: Układy
+    group: 'Obszar roboczy'
+    fixed: 'Stała szerokość'
+    columns: 'Pięć kolumn'
+    dashboard: 'Panel sterowania'
+  tab:
+    index: Przegląd
+    zones: Strefy
+    workspace: 'Obszar roboczy'
+    blocks: Bloki
+    toolbar: 'Pasek narzędzi'
+    tabs: Zakładki
+    doc: 'Układ dokumentu'
+
+pt_BR:
+  nav:
+    title: Layouts
+    group: 'Espaço de trabalho'
+    fixed: 'Largura fixa'
+    columns: 'Cinco colunas'
+    dashboard: Painel
+  tab:
+    index: 'Visão geral'
+    zones: Zonas
+    workspace: 'Espaço de trabalho'
+    blocks: Blocos
+    toolbar: 'Barra de ferramentas'
+    tabs: Abas
+    doc: 'Layout do documento'
+
+ru:
+  nav:
+    title: Макеты
+    group: 'Рабочая область'
+    fixed: 'Фиксированная ширина'
+    columns: 'Пять колонок'
+    dashboard: 'Панель управления'
+  tab:
+    index: Обзор
+    zones: Зоны
+    workspace: 'Рабочая область'
+    blocks: Блоки
+    toolbar: 'Панель инструментов'
+    tabs: Вкладки
+    doc: 'Макет документа'
+
+th:
+  nav:
+    title: เลย์เอาต์
+    group: พื้นที่ทำงาน
+    fixed: ความกว้างคงที่
+    columns: ห้าคอลัมน์
+    dashboard: แดชบอร์ด
+  tab:
+    index: ภาพรวม
+    zones: โซน
+    workspace: พื้นที่ทำงาน
+    blocks: บล็อก
+    toolbar: แถบเครื่องมือ
+    tabs: แท็บ
+    doc: รูปแบบเอกสาร
+
+tr:
+  nav:
+    title: Düzenler
+    group: 'Çalışma Alanı'
+    fixed: 'Sabit genişlik'
+    columns: 'Beş sütun'
+    dashboard: 'Gösterge Paneli'
+  tab:
+    index: 'Genel Bakış'
+    zones: Bölgeler
+    workspace: 'Çalışma Alanı'
+    blocks: Bloklar
+    toolbar: 'Araç Çubuğu'
+    tabs: Sekmeler
+    doc: 'Doküman düzeni'
+
+ur:
+  nav:
+    title: 'لے آؤٹ'
+    group: 'ورک اسپیس'
+    fixed: 'مستحکم چوڑائی'
+    columns: 'پانچ کالم'
+    dashboard: 'ڈیش بورڈ'
+  tab:
+    index: جائزہ
+    zones: زونز
+    workspace: 'ورک اسپیس'
+    blocks: بلاکس
+    toolbar: 'ٹول بار'
+    tabs: ٹیب
+    doc: 'دستاویز لے آؤٹ'
+
+vi:
+  nav:
+    title: 'Bố cục'
+    group: 'Không gian làm việc'
+    fixed: 'Chiều rộng cố định'
+    columns: 'Năm cột'
+    dashboard: 'Bảng điều khiển'
+  tab:
+    index: 'Tổng quan'
+    zones: 'Khu vực'
+    workspace: 'Không gian làm việc'
+    blocks: Khối
+    toolbar: 'Thanh công cụ'
+    tabs: Thẻ
+    doc: 'Bố cục tài liệu'
+
+zh:
+  nav:
+    title: 布局
+    group: 工作区
+    fixed: 固定宽度
+    columns: 五列
+    dashboard: 仪表板
+  tab:
+    index: 概览
+    zones: 区域
+    workspace: 工作区
+    blocks: 模块
+    toolbar: 工具栏
+    tabs: 选项卡
+    doc: 文档布局

@@ -1,0 +1,832 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Colours
+  page_icon: ph:bold/palette
+
+  intro: "No component names a colour. They name a role — a surface, a border, a state — and the theme decides what that role looks like on each of its faces. Switch the scheme from the header and watch every swatch below move without a single one being redefined."
+
+  section:
+    surfaces:
+      title: Surfaces
+      description: "An elevation ladder above the page. The light face orders them by lightness, the dark face by how far each one is lifted off the background — which is why a component asks for a level and never for a grey."
+    invert:
+      title: Invert levels
+      description: "Twenty steps of the text colour laid over the background, and the source of nearly every border, muted text and hover state in the system. Level 1 is barely there, level 20 is the text itself."
+    semantic:
+      title: Semantic families
+      description: "Five families, read from the page to the text through the colour: level 1 is the colour barely tinting the page, 17 is the colour whole, 32 is the colour barely tinting the text. Below the middle are grounds; above it is ink, which lightens on the dark face and deepens on the light one. A component picks a level and not a hex, which is what lets the same message read correctly on both faces."
+    categories:
+      title: Categorical palette
+      description: "Thirteen colours that mean nothing but \"not the one beside it\": the series of a chart, the segments of a distribution, the stages of a workflow. Named, not numbered — an app picks `cat-mint` because it looks like mint. Each comes with a light and a dark variant, fixed on both faces like the fill; the ink written on a fill turns dark where the colour is light. Which category is which colour is the app's choice, never the design system's."
+    text:
+      title: Text
+      description: "Three levels of attention. What is being read, what qualifies it, and what is only there to be found when looked for."
+    borders:
+      title: Borders
+      description: "Four weights, told apart by what they separate: two things inside one region, two regions of a page, or a field from what is behind it."
+
+  surface:
+    page: The page itself, and what shows between the zones
+    shell: Menu, header, footer
+    zone: The ground a region of a page stands on
+    one: Inputs and fields
+    two: Buttons, toolbars
+    three: Blocks, cards, modals
+
+  text:
+    default: What is being read
+    muted: Labels, meta, subtitles
+    subtle: Separators and empty states
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الألوان
+  page_icon: 'ph:bold/palette'
+  intro: 'لا تسمي أسماء المكونات لونًا. إنما تسمي دورًا - سطحًا، حدودًا، حالة - ويحدد الموضوع كيف يبدو هذا الدور على كل من وجوهه. قم بتغيير المخطط من الرأس وشاهد كل عينة أدناه تتحرك دون إعادة تعريف أي منها.'
+  section:
+    surfaces:
+      title: الأسطح
+      description: 'سلم ارتفاع فوق الصفحة. الوجه الفاتح يرتبها حسب الفتحة، والوجه الداكن حسب مدى ارتفاع كل منها عن الخلفية - ولهذا السبب تطلب المكونات مستوى وليس رماديًا.'
+    invert:
+      title: 'عكس المستويات'
+      description: 'عشرون خطوة من لون النص موضوعة فوق الخلفية، ومصدر تقريبًا كل حد، نص مُخفف وحالة تمرير في النظام. المستوى 1 بالكاد موجود، المستوى 20 هو النص نفسه.'
+    semantic:
+      title: 'العائلات الدلالية'
+      description: 'خمسة عائلات، تُقرأ من الصفحة إلى النص من خلال اللون: المستوى 1 هو اللون الذي بالكاد يلون الصفحة، 17 هو اللون الكامل، 32 هو اللون الذي بالكاد يلون النص. تحت المنتصف هي الأرضيات؛ وفوقها هو الحبر، الذي يضيء على الوجه الداكن ويغمق على الفاتح. تختار المكونات مستوى وليس رمز سداسي عشري، مما يسمح لنفس الرسالة بالقراءة بشكل صحيح على كلا الوجهين.'
+    categories:
+      title: 'لوحة الألوان التصنيفية'
+      description: 'ثلاثة عشر لونًا لا تعني شيئًا سوى "ليس الذي بجانبه": سلسلة من مخطط، أجزاء من توزيع، مراحل من سير عمل. مسماة، وليس مرقمة - يختار التطبيق `cat-mint` لأنه يبدو مثل النعناع. يأتي كل منها مع متغير فاتح وآخر داكن، ثابت على كلا الوجهين مثل التعبئة؛ الحبر المكتوب على التعبئة يصبح داكنًا حيث يكون اللون فاتحًا. أي فئة هي أي لون هو اختيار التطبيق، وليس نظام التصميم.'
+    text:
+      title: النص
+      description: 'ثلاث مستويات من الانتباه. ما يُقرأ، ما يؤهله، وما هو موجود فقط ليتم العثور عليه عند البحث.'
+    borders:
+      title: الحدود
+      description: 'أربعة أوزان، تُميز حسب ما تفصل بينه: شيئين داخل منطقة واحدة، منطقتين من صفحة، أو حقل مما هو خلفه.'
+  surface:
+    page: 'الصفحة نفسها، وما يظهر بين المناطق'
+    shell: 'القائمة، الرأس، التذييل'
+    zone: 'الأرض التي تقف عليها منطقة من الصفحة'
+    one: 'المدخلات والحقول'
+    two: 'الأزرار، أشرطة الأدوات'
+    three: 'الكتل، البطاقات، النوافذ المنبثقة'
+  text:
+    default: 'ما يُقرأ'
+    muted: 'التسميات، الميتا، العناوين الفرعية'
+    subtle: 'الفواصل والحالات الفارغة'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: রঙ
+  page_icon: 'ph:bold/palette'
+  intro: 'কোনও উপাদান একটি রঙের নাম দেয় না। তারা একটি ভূমিকা নাম দেয় — একটি পৃষ্ঠ, একটি সীমানা, একটি অবস্থান — এবং থিম নির্ধারণ করে যে সেই ভূমিকা প্রতিটি মুখে কেমন দেখাবে। হেডার থেকে স্কিম পরিবর্তন করুন এবং নীচের প্রতিটি সোয়াচকে দেখুন, একটিও নতুনভাবে সংজ্ঞায়িত না হয়।'
+  section:
+    surfaces:
+      title: পৃষ্ঠ
+      description: 'পৃষ্ঠের উপরে একটি উঁচু সিঁড়ি। হালকা মুখগুলি তাদের হালকাতা দ্বারা সাজায়, অন্ধকার মুখটি পটভূমি থেকে প্রতিটি একটির কতটা উঁচুতে রাখা হয়েছে তার দ্বারা সাজায় — এর কারণ হল একটি উপাদান একটি স্তরের জন্য এবং কখনও একটি ধূসর জন্য জিজ্ঞাসা করে না।'
+    invert:
+      title: 'স্তর বিপরীত করুন'
+      description: 'পটভূমির উপরে পড়ার রঙের কুড়িটি স্তর, এবং সিস্টেমে প্রায় প্রতিটি সীমানা, নিস্তেজ টেক্সট এবং হভার অবস্থার উৎস। স্তর ১ প্রায় নেই, স্তর ২০ হল টেক্সট নিজেই।'
+    semantic:
+      title: 'সেমান্টিক পরিবার'
+      description: 'পাঁচটি পরিবার, পৃষ্ঠ থেকে টেক্সটে রঙের মাধ্যমে পড়া: স্তর ১ হল পৃষ্ঠে সামান্য রঙ, ১৭ হল পুরো রঙ, ৩২ হল টেক্সটে সামান্য রঙ। মধ্যের নিচে হল ভূমি; তার উপরে হল কালি, যা অন্ধকার মুখে হালকা হয় এবং হালকা মুখে গভীর হয়। একটি উপাদান একটি স্তর চয়ন করে এবং একটি হেক্স নয়, যা একই বার্তাকে উভয় মুখে সঠিকভাবে পড়তে দেয়।'
+    categories:
+      title: 'বৈশিষ্ট্যগত প্যালেট'
+      description: 'তেরোটি রঙ যা কেবল "এর পাশেরটির নয়" অর্থ প্রকাশ করে: একটি চার্টের সিরিজ, একটি বিতরণের সেগমেন্ট, একটি ওয়ার্কফ্লোর পর্যায়। নামকরণ করা, সংখ্যা নয় — একটি অ্যাপ `cat-mint` বেছে নেয় কারণ এটি পুদিনার মতো দেখায়। প্রতিটি হালকা এবং অন্ধকার ভেরিয়েন্টের সাথে আসে, উভয় মুখে ফিক্স করা থাকে যেমন পূর্ণতা; একটি পূর্ণতার উপর লেখা কালি সেখানে অন্ধকার হয় যেখানে রঙটি হালকা। কোন বিভাগটি কোন রঙ তা অ্যাপের পছন্দ, কখনও ডিজাইন সিস্টেমের নয়।'
+    text:
+      title: টেক্সট
+      description: 'মনোযোগের তিনটি স্তর। কি পড়া হচ্ছে, তা কী যোগ্যতা দেয়, এবং যা শুধুমাত্র খোঁজার সময় পাওয়া যায়।'
+    borders:
+      title: সীমানা
+      description: 'চারটি ওজন, যা তারা কী আলাদা করে তার দ্বারা পৃথক করা হয়: একটি অঞ্চলের মধ্যে দুটি জিনিস, একটি পৃষ্ঠের দুটি অঞ্চল, বা একটি ক্ষেত্রের পিছনের জিনিস থেকে।'
+  surface:
+    page: 'পৃষ্ঠ নিজেই, এবং যা অঞ্চলগুলির মধ্যে দেখায়'
+    shell: 'মেনু, হেডার, ফুটার'
+    zone: 'একটি পৃষ্ঠের অঞ্চলের উপর যে ভূমি'
+    one: 'ইনপুট এবং ক্ষেত্র'
+    two: 'বাটন, টুলবার'
+    three: 'ব্লক, কার্ড, মডাল'
+  text:
+    default: 'কি পড়া হচ্ছে'
+    muted: 'লেবেল, মেটা, সাবটাইটেল'
+    subtle: 'সেপারেটর এবং খালি অবস্থাগুলি'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Farben
+  page_icon: 'ph:bold/palette'
+  intro: 'Keine Komponente benennt eine Farbe. Sie benennt eine Rolle – eine Fläche, einen Rand, einen Zustand – und das Thema entscheidet, wie diese Rolle auf jeder ihrer Flächen aussieht. Wechsle das Schema im Kopfbereich und beobachte, wie jede Farbprobe darunter sich bewegt, ohne dass eine einzige neu definiert wird.'
+  section:
+    surfaces:
+      title: Flächen
+      description: 'Eine Höhenleiter über der Seite. Die helle Fläche ordnet sie nach Helligkeit, die dunkle Fläche danach, wie weit jede von dem Hintergrund abgehoben ist – weshalb eine Komponente nach einem Niveau und nie nach einem Grau fragt.'
+    invert:
+      title: 'Niveaus umkehren'
+      description: 'Zwanzig Abstufungen der Textfarbe, die über den Hintergrund gelegt werden, und die Quelle fast jeder Grenze, gedämpften Textes und Hover-Zustands im System. Niveau 1 ist kaum wahrnehmbar, Niveau 20 ist der Text selbst.'
+    semantic:
+      title: 'Semantische Familien'
+      description: 'Fünf Familien, die von der Seite zum Text durch die Farbe gelesen werden: Niveau 1 ist die Farbe, die die Seite kaum färbt, 17 ist die volle Farbe, 32 ist die Farbe, die den Text kaum färbt. Unterhalb der Mitte sind Hintergründe; oberhalb ist Tinte, die auf der dunklen Fläche aufhellt und auf der hellen Fläche vertieft. Eine Komponente wählt ein Niveau und nicht einen Hex-Code, was es ermöglicht, dass dieselbe Nachricht auf beiden Flächen korrekt gelesen werden kann.'
+    categories:
+      title: 'Kategorische Palette'
+      description: 'Dreizehn Farben, die nichts anderes bedeuten als "nicht die nebenstehende": die Reihe eines Diagramms, die Segmente einer Verteilung, die Phasen eines Workflows. Benannt, nicht nummeriert – eine App wählt `cat-mint`, weil es wie Minze aussieht. Jede kommt mit einer hellen und einer dunklen Variante, fixiert auf beiden Flächen wie die Füllung; die Tinte, die auf einer Füllung geschrieben ist, wird dunkel, wo die Farbe hell ist. Welche Kategorie welche Farbe ist, ist die Wahl der App, niemals die des Designsystems.'
+    text:
+      title: Text
+      description: 'Drei Ebenen der Aufmerksamkeit. Was gelesen wird, was es qualifiziert, und was nur gefunden wird, wenn danach gesucht wird.'
+    borders:
+      title: Ränder
+      description: 'Vier Stärken, die sich durch das unterscheiden, was sie trennen: zwei Dinge innerhalb einer Region, zwei Regionen einer Seite oder ein Feld von dem, was dahinter ist.'
+  surface:
+    page: 'Die Seite selbst und das, was zwischen den Zonen angezeigt wird'
+    shell: 'Menü, Kopfzeile, Fußzeile'
+    zone: 'Der Boden, auf dem eine Region einer Seite steht'
+    one: 'Eingaben und Felder'
+    two: 'Schaltflächen, Werkzeugleisten'
+    three: 'Blöcke, Karten, Modals'
+  text:
+    default: 'Was gelesen wird'
+    muted: 'Labels, Metadaten, Untertitel'
+    subtle: 'Trenner und leere Zustände'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Colores
+  page_icon: 'ph:bold/palette'
+  intro: 'Ningún componente nombra un color. Nombran un rol: una superficie, un borde, un estado, y el tema decide cómo luce ese rol en cada una de sus caras. Cambia el esquema desde el encabezado y observa cómo cada muestra a continuación se mueve sin que ninguna se redefina.'
+  section:
+    surfaces:
+      title: Superficies
+      description: 'Una escalera de elevación sobre la página. La cara clara las ordena por claridad, la cara oscura por cuán lejos se eleva cada una del fondo — por eso un componente pide un nivel y nunca un gris.'
+    invert:
+      title: 'Invertir niveles'
+      description: 'Veinte pasos del color del texto sobre el fondo, y la fuente de casi todos los bordes, texto atenuado y estado de hover en el sistema. El nivel 1 apenas está presente, el nivel 20 es el texto mismo.'
+    semantic:
+      title: 'Familias semánticas'
+      description: 'Cinco familias, leídas de la página al texto a través del color: el nivel 1 es el color que apenas tiñe la página, el 17 es el color completo, el 32 es el color que apenas tiñe el texto. Debajo de la mitad están los terrenos; por encima está la tinta, que se aclara en la cara oscura y se profundiza en la clara. Un componente elige un nivel y no un hex, lo que permite que el mismo mensaje se lea correctamente en ambas caras.'
+    categories:
+      title: 'Paleta categórica'
+      description: 'Trece colores que no significan nada más que "no el que está al lado": la serie de un gráfico, los segmentos de una distribución, las etapas de un flujo de trabajo. Nombrados, no numerados: una app elige `cat-mint` porque se parece a la menta. Cada uno viene con una variante clara y una oscura, fijas en ambas caras como el relleno; la tinta escrita sobre un relleno se oscurece donde el color es claro. Qué categoría es qué color es elección de la app, nunca del sistema de diseño.'
+    text:
+      title: Texto
+      description: 'Tres niveles de atención. Lo que se está leyendo, lo que lo califica, y lo que solo está allí para ser encontrado cuando se busca.'
+    borders:
+      title: Bordes
+      description: 'Cuatro pesos, diferenciados por lo que separan: dos cosas dentro de una región, dos regiones de una página, o un campo de lo que está detrás de él.'
+  surface:
+    page: 'La página misma, y lo que muestra entre las zonas'
+    shell: 'Menú, encabezado, pie de página'
+    zone: 'El terreno sobre el cual se sostiene una región de la página'
+    one: 'Entradas y campos'
+    two: 'Botones, barras de herramientas'
+    three: 'Bloques, tarjetas, modales'
+  text:
+    default: 'Lo que se está leyendo'
+    muted: 'Etiquetas, meta, subtítulos'
+    subtle: 'Separadores y estados vacíos'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: رنگ‌ها
+  page_icon: 'ph:bold/palette'
+  intro: 'هیچ نام کامپوننتی رنگ نیست. آن‌ها یک نقش را نامگذاری می‌کنند — یک سطح، یک حاشیه، یک حالت — و تم تصمیم می‌گیرد که آن نقش چگونه در هر یک از جنبه‌های خود به نظر برسد. طرح را از هدر تغییر دهید و ببینید که هر رنگ در پایین بدون اینکه هیچ‌کدام دوباره تعریف شوند، حرکت می‌کند.'
+  section:
+    surfaces:
+      title: سطوح
+      description: 'یک نردبان ارتفاع بالای صفحه. چهره روشن آن‌ها را بر اساس روشنی مرتب می‌کند، چهره تاریک بر اساس فاصله هر کدام از پس‌زمینه — به همین دلیل یک کامپوننت از سطح خواسته و هرگز از خاکستری.'
+    invert:
+      title: 'معکوس کردن سطوح'
+      description: 'بیست مرحله از رنگ متن که بر روی پس‌زمینه قرار دارد و منبع تقریباً هر حاشیه، متن کمرنگ و حالت هاور در سیستم است. سطح ۱ به‌سختی وجود دارد، سطح ۲۰ خود متن است.'
+    semantic:
+      title: 'خانواده‌های معنایی'
+      description: 'پنج خانواده، که از صفحه به متن از طریق رنگ خوانده می‌شوند: سطح ۱ رنگی است که به‌سختی صفحه را رنگ می‌کند، ۱۷ رنگی کامل است، ۳۲ رنگی است که به‌سختی متن را رنگ می‌کند. زیر وسط زمین‌ها هستند؛ بالای آن جوهر است که در چهره تاریک روشن‌تر و در چهره روشن تیره‌تر می‌شود. یک کامپوننت یک سطح را انتخاب می‌کند و نه یک هگز، که به همین دلیل همان پیام به‌درستی در هر دو چهره خوانده می‌شود.'
+    categories:
+      title: 'پالت دسته‌ای'
+      description: 'سیزده رنگ که هیچ معنایی جز "غیر از رنگ کناری‌اش" ندارند: سری یک نمودار، بخش‌های توزیع، مراحل یک جریان کاری. نامگذاری شده، نه شماره‌گذاری شده — یک برنامه `cat-mint` را انتخاب می‌کند زیرا شبیه نعناع است. هر کدام با یک نوع روشن و یک نوع تاریک ارائه می‌شوند، که بر روی هر دو چهره همانند پر کردن ثابت است؛ جوهر نوشته شده بر روی پر کردن در جایی که رنگ روشن است تیره می‌شود. کدام دسته کدام رنگ است انتخاب برنامه است، نه سیستم طراحی.'
+    text:
+      title: متن
+      description: 'سه سطح توجه. چه چیزی خوانده می‌شود، چه چیزی آن را واجد شرایط می‌کند و چه چیزی فقط برای یافتن وجود دارد.'
+    borders:
+      title: حاشیه‌ها
+      description: 'چهار وزن، که بر اساس آنچه جدا می‌کنند متمایز می‌شوند: دو چیز درون یک منطقه، دو منطقه از یک صفحه، یا یک فیلد از آنچه در پشت آن است.'
+  surface:
+    page: 'صفحه خود و آنچه بین مناطق نمایش داده می‌شود'
+    shell: 'منو، هدر، فوتر'
+    zone: 'زمینی که یک منطقه از صفحه بر روی آن قرار دارد'
+    one: 'ورودی‌ها و فیلدها'
+    two: 'دکمه‌ها، نوار ابزارها'
+    three: 'بلوک‌ها، کارت‌ها، مدال‌ها'
+  text:
+    default: 'آنچه که خوانده می‌شود'
+    muted: 'برچسب‌ها، متا، زیرنویس‌ها'
+    subtle: 'جداکننده‌ها و حالت‌های خالی'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Värit
+  page_icon: 'ph:bold/palette'
+  intro: 'Mikään komponentti ei nimeä väriä. Ne nimeävät roolin — pinnan, reunan, tilan — ja teema päättää, miltä tuo rooli näyttää jokaisella sen puolella. Vaihda teema ylhäältä ja katso, kuinka jokainen väri alla liikkuu ilman, että yhtäkään määritellään uudelleen.'
+  section:
+    surfaces:
+      title: Pinnat
+      description: 'Korkeusasteikko sivun ylle. Vaalea puoli järjestää ne vaaleuden mukaan, tummempi puoli sen mukaan, kuinka korkealle kukin on nostettu taustasta — siksi komponentti kysyy tasoa eikä koskaan harmaata.'
+    invert:
+      title: 'Käännä tasot'
+      description: 'Kaksikymmentä askelta tekstiväristä taustalle, ja lähes jokaisen reunan, vaimean tekstin ja hover-tilan lähde järjestelmässä. Taso 1 on lähes näkymätön, taso 20 on itse teksti.'
+    semantic:
+      title: 'Semaattiset perheet'
+      description: 'Viisi perhettä, luettuna sivulta tekstiin värin kautta: taso 1 on väri, joka vain hieman sävyttää sivua, 17 on väri kokonaan, 32 on väri, joka vain hieman sävyttää tekstiä. Keskipisteen alapuolella ovat pohjat; yläpuolella on muste, joka vaalenee tummalla puolella ja syvenee vaalealla. Komponentti valitsee tason eikä heksakoodia, mikä mahdollistaa saman viestin lukemisen oikein molemmilla puolilla.'
+    categories:
+      title: 'Kategorinen paletti'
+      description: 'Kolmetoista väriä, jotka eivät tarkoita muuta kuin "ei se vieressä oleva": kaavion sarjat, jakautumisen segmentit, työnkulun vaiheet. Nimetty, ei numeroitu — sovellus valitsee `cat-mint` koska se näyttää mintulta. Jokaisessa on vaalea ja tumma variantti, kiinnitetty molemmille puolille kuten täyttö; muste, joka on kirjoitettu täytölle, muuttuu tummaksi, kun väri on vaalea. Minkä kategorian väri on, on sovelluksen valinta, ei koskaan designjärjestelmän.'
+    text:
+      title: Teksti
+      description: 'Kolme huomiotasoa. Mitä luetaan, mikä sen määrittelee, ja mikä on vain löydettävissä, kun sitä etsitään.'
+    borders:
+      title: Reunat
+      description: 'Neljä painoa, jotka erotetaan siitä, mitä ne erottavat: kaksi asiaa yhdessä alueessa, kaksi aluetta sivulla, tai kenttä siitä, mitä sen takana on.'
+  surface:
+    page: 'Sivu itse ja se, mikä näkyy alueiden välillä'
+    shell: 'Valikko, yläosa, alaosa'
+    zone: 'Alusta, jolla alue sijaitsee'
+    one: 'Syötteet ja kentät'
+    two: 'Painikkeet, työkalupalkit'
+    three: 'Loitsut, kortit, modaalit'
+  text:
+    default: 'Mitä luetaan'
+    muted: 'Otsikot, meta, alaotsikot'
+    subtle: 'Erottaijat ja tyhjät tilat'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Couleurs
+  page_icon: 'ph:bold/palette'
+  intro: "Aucun nom de composant ne désigne une couleur. Ils désignent un rôle — une surface, une bordure, un état — et le thème décide de l'apparence de ce rôle sur chacune de ses faces. Changez le schéma depuis l'en-tête et observez chaque échantillon ci-dessous se déplacer sans qu'aucun ne soit redéfini."
+  section:
+    surfaces:
+      title: Surfaces
+      description: "Une échelle d'élévation au-dessus de la page. La face claire les classe par légèreté, la face sombre par la distance à laquelle chacune est soulevée par rapport à l'arrière-plan — c'est pourquoi un composant demande un niveau et jamais un gris."
+    invert:
+      title: 'Niveaux inversés'
+      description: "Vingt étapes de la couleur du texte posées sur l'arrière-plan, et la source de presque toutes les bordures, textes atténués et états de survol dans le système. Le niveau 1 est à peine présent, le niveau 20 est le texte lui-même."
+    semantic:
+      title: 'Familles sémantiques'
+      description: "Cinq familles, lues de la page au texte à travers la couleur : le niveau 1 est la couleur à peine teintée sur la page, 17 est la couleur entière, 32 est la couleur à peine teintée sur le texte. En dessous du milieu se trouvent les fonds ; au-dessus, l'encre, qui s'éclaircit sur la face sombre et s'assombrit sur la claire. Un composant choisit un niveau et non un hex, ce qui permet au même message d'être bien compris sur les deux faces."
+    categories:
+      title: 'Palette catégorielle'
+      description: "Treize couleurs qui ne signifient rien d'autre que \"pas celle à côté\" : la série d'un graphique, les segments d'une distribution, les étapes d'un flux de travail. Nommées, pas numérotées — une application choisit `cat-mint` parce que cela ressemble à de la menthe. Chacune vient avec une variante claire et une variante sombre, fixes sur les deux faces comme le remplissage ; l'encre écrite sur un remplissage devient sombre là où la couleur est claire. Quelle catégorie est quelle couleur est le choix de l'application, jamais celui du système de design."
+    text:
+      title: Texte
+      description: "Trois niveaux d'attention. Ce qui est lu, ce qui le qualifie, et ce qui n'est là que pour être trouvé lorsqu'on le cherche."
+    borders:
+      title: Bordures
+      description: "Quatre poids, distingués par ce qu'ils séparent : deux choses à l'intérieur d'une même région, deux régions d'une page, ou un champ de ce qui se trouve derrière lui."
+  surface:
+    page: 'La page elle-même, et ce qui montre entre les zones'
+    shell: 'Menu, en-tête, pied de page'
+    zone: "Le sol sur lequel une région d'une page se tient"
+    one: 'Entrées et champs'
+    two: "Boutons, barres d'outils"
+    three: 'Blocs, cartes, modaux'
+  text:
+    default: 'Ce qui est lu'
+    muted: 'Étiquettes, méta, sous-titres'
+    subtle: 'Séparateurs et états vides'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: צבעים
+  page_icon: 'ph:bold/palette'
+  intro: 'שום רכיב לא נותן שם לצבע. הם נותנים שם לתפקיד — משטח, גבול, מצב — והנושא קובע איך התפקיד הזה נראה בכל אחד מהפנים שלו. החלף את התוכנית מהכותרת וצפה בכל דוגמית למטה זזה מבלי שאף אחת תוגדר מחדש.'
+  section:
+    surfaces:
+      title: משטחים
+      description: 'סולם גובה מעל הדף. הפנים הבהירים מסדרים אותם לפי בהירות, הפנים הכהים לפי כמה כל אחד מהם מורם מהרקע — ולכן רכיב מבקש רמה ולא אפור.'
+    invert:
+      title: 'הפוך רמות'
+      description: 'עשרים שלבים של צבע הטקסט מונחים על הרקע, ומקור כמעט כל גבול, טקסט מעומעם ומצב ריחוף במערכת. רמה 1 כמעט ולא קיימת, רמה 20 היא הטקסט עצמו.'
+    semantic:
+      title: 'משפחות סמנטיות'
+      description: 'חמש משפחות, נקראות מהדף לטקסט דרך הצבע: רמה 1 היא הצבע שמעט צובע את הדף, 17 הוא הצבע השלם, 32 הוא הצבע שמעט צובע את הטקסט. מתחת לאמצע יש קרקע; מעליו יש דיו, שמאירים על הפנים הכהות ומעמיקים על הבהירות. רכיב בוחר רמה ולא הקסה, מה שמאפשר לאותה הודעה להיקרא נכון על שתי הפנים.'
+    categories:
+      title: 'פלטת קטגוריות'
+      description: 'שלושה עשר צבעים שאינם אומרים דבר מלבד "לא זה שלידו": הסדרה של תרשים, הקטעים של הפצה, השלבים של זרימת עבודה. נקראים, לא ממוספרים — אפליקציה בוחרת `cat-mint` כי זה נראה כמו מנטה. כל אחד מגיע עם גרסה בהירה וגרסה כהה, קבועות על שתי הפנים כמו המילוי; הדיו שנכתב על מילוי מתכהה היכן שהצבע בהיר. איזו קטגוריה היא איזה צבע היא בחירת האפליקציה, ולא של מערכת העיצוב.'
+    text:
+      title: טקסט
+      description: 'שלושה רמות תשומת לב. מה נקרא, מה מqualifies את זה, ומה רק נמצא שם כדי להימצא כאשר מחפשים.'
+    borders:
+      title: גבולות
+      description: 'ארבע משקלים, נבדלים על פי מה שהם מפרידים: שתי דברים בתוך אזור אחד, שני אזורים של דף, או שדה ממה שמאחוריו.'
+  surface:
+    page: 'הדף עצמו, ומה שמופיע בין האזורים'
+    shell: 'תפריט, כותרת, כותרת תחתונה'
+    zone: 'הקרקע שעליה עומד אזור של דף'
+    one: 'קלטים ושדות'
+    two: 'כפתורים, סרגלי כלים'
+    three: 'בלוקים, כרטיסים, מודלים'
+  text:
+    default: 'מה שנקרא'
+    muted: 'תוויות, מטא, כותרות משנה'
+    subtle: 'מפרידים ומצבים ריקים'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: रंग
+  page_icon: 'ph:bold/palette'
+  intro: 'कोई भी घटक एक रंग का नाम नहीं रखता। वे एक भूमिका का नाम रखते हैं - एक सतह, एक सीमा, एक स्थिति - और थीम यह तय करती है कि प्रत्येक चेहरे पर वह भूमिका कैसी दिखती है। हेडर से स्कीम बदलें और नीचे हर स्वैच को बिना किसी पुनर्परिभाषा के चलते हुए देखें।'
+  section:
+    surfaces:
+      title: सतहें
+      description: 'पृष्ठ के ऊपर एक ऊंचाई सीढ़ी। हल्का चेहरा उन्हें हल्कापन के अनुसार क्रम में रखता है, गहरा चेहरा इसलिये कि प्रत्येक कितना बैकग्राउंड से उठाया गया है - यही कारण है कि एक घटक एक स्तर के लिए पूछता है और कभी भी ग्रे नहीं।'
+    invert:
+      title: 'स्तरों को उलटें'
+      description: 'पृष्ठभूमि पर रखे गए टेक्स्ट रंग के बीस स्तर, और सिस्टम में लगभग हर सीमा, म्यूटेड टेक्स्ट और होवर स्थिति का स्रोत। स्तर 1 बस मौजूद है, स्तर 20 स्वयं टेक्स्ट है।'
+    semantic:
+      title: 'सामाजिक परिवार'
+      description: 'पांच परिवार, रंग के माध्यम से पृष्ठ से टेक्स्ट तक पढ़े जाते हैं: स्तर 1 वह रंग है जो पृष्ठ को मुश्किल से रंग देता है, 17 वह रंग है जो पूरा है, 32 वह रंग है जो टेक्स्ट को मुश्किल से रंग देता है। मध्य के नीचे ग्राउंड हैं; इसके ऊपर स्याही है, जो गहरे चेहरे पर हल्की और हल्के चेहरे पर गहरी होती है। एक घटक एक स्तर चुनता है और न कि एक हेक्स, जो यही सुनिश्चित करता है कि एक ही संदेश दोनों चेहरों पर सही तरीके से पढ़ा जाए।'
+    categories:
+      title: 'श्रेणीबद्ध पैलेट'
+      description: 'तेरह रंग जो "बगल वाले के अलावा" का अर्थ नहीं रखते हैं: एक चार्ट की श्रृंखला, वितरण के खंड, एक कार्यप्रवाह के चरण। नामित, संख्या नहीं - एक ऐप `cat-mint` चुनता है क्योंकि यह पुदीना की तरह दिखता है। प्रत्येक के पास एक हल्का और एक गहरा रूपांतर होता है, जो दोनों चेहरों पर भरा होता है; एक भरे हुए पर लिखी गई स्याही उस जगह गहरी होती है जहां रंग हल्का होता है। कौन सा श्रेणी कौन सा रंग है यह ऐप का चुनाव है, कभी भी डिज़ाइन सिस्टम का नहीं।'
+    text:
+      title: पाठ
+      description: 'ध्यान के तीन स्तर। क्या पढ़ा जा रहा है, इसे क्या योग्य बनाता है, और क्या केवल तब पाया जाता है जब खोजा जाए।'
+    borders:
+      title: सीमाएं
+      description: 'चार वजन, जो यह बताते हैं कि वे क्या अलग करते हैं: एक क्षेत्र के भीतर दो चीजें, पृष्ठ के दो क्षेत्र, या एक क्षेत्र को उसके पीछे से।'
+  surface:
+    page: 'पृष्ठ स्वयं, और जो क्षेत्रों के बीच दिखाई देता है'
+    shell: 'मेनू, हेडर, फूटर'
+    zone: 'एक पृष्ठ के क्षेत्र पर खड़ा आधार'
+    one: 'इनपुट और क्षेत्र'
+    two: 'बटन, टूलबार'
+    three: 'ब्लॉक, कार्ड, मोडल'
+  text:
+    default: 'क्या पढ़ा जा रहा है'
+    muted: 'लेबल, मेटा, उपशीर्षक'
+    subtle: 'separator और खाली स्थितियाँ'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Warna
+  page_icon: 'ph:bold/palette'
+  intro: 'Tidak ada nama komponen yang menyebutkan warna. Mereka menyebutkan peran — sebuah permukaan, batas, keadaan — dan tema yang menentukan bagaimana peran itu terlihat di setiap wajahnya. Ganti skema dari header dan saksikan setiap swatch di bawah bergerak tanpa satu pun yang didefinisikan ulang.'
+  section:
+    surfaces:
+      title: Permukaan
+      description: 'Sebuah tangga elevasi di atas halaman. Wajah terang mengurutkan mereka berdasarkan kecerahan, wajah gelap berdasarkan seberapa jauh masing-masing diangkat dari latar belakang — itulah mengapa sebuah komponen meminta tingkat dan bukan abu-abu.'
+    invert:
+      title: 'Balik tingkat'
+      description: 'Dua puluh langkah dari warna teks yang diletakkan di atas latar belakang, dan sumber hampir setiap batas, teks redup dan status hover dalam sistem. Tingkat 1 hampir tidak terlihat, tingkat 20 adalah teks itu sendiri.'
+    semantic:
+      title: 'Keluarga semantik'
+      description: 'Lima keluarga, dibaca dari halaman ke teks melalui warna: tingkat 1 adalah warna yang hampir tidak mewarnai halaman, 17 adalah warna yang utuh, 32 adalah warna yang hampir tidak mewarnai teks. Di bawah tengah adalah latar; di atasnya adalah tinta, yang terang pada wajah gelap dan dalam pada wajah terang. Sebuah komponen memilih tingkat dan bukan hex, yang memungkinkan pesan yang sama terbaca dengan benar di kedua wajah.'
+    categories:
+      title: 'Palet kategorikal'
+      description: 'Tiga belas warna yang tidak berarti apa-apa kecuali "bukan yang di sampingnya": seri grafik, segmen distribusi, tahap alur kerja. Dinamai, bukan dinomori — sebuah aplikasi memilih `cat-mint` karena terlihat seperti mint. Masing-masing dilengkapi dengan varian terang dan gelap, tetap pada kedua wajah seperti pengisian; tinta yang ditulis pada pengisian menjadi gelap di mana warnanya terang. Kategori mana yang warna mana adalah pilihan aplikasi, bukan sistem desain.'
+    text:
+      title: Teks
+      description: 'Tiga tingkat perhatian. Apa yang sedang dibaca, apa yang memenuhi syarat, dan apa yang hanya ada untuk ditemukan ketika dicari.'
+    borders:
+      title: Batas
+      description: 'Empat bobot, dibedakan oleh apa yang mereka pisahkan: dua hal di dalam satu wilayah, dua wilayah pada halaman, atau sebuah bidang dari apa yang ada di belakangnya.'
+  surface:
+    page: 'Halaman itu sendiri, dan apa yang muncul di antara zona-zona'
+    shell: 'Menu, header, footer'
+    zone: 'Latar tempat sebuah wilayah halaman berdiri'
+    one: 'Input dan bidang'
+    two: 'Tombol, toolbar'
+    three: 'Blok, kartu, modal'
+  text:
+    default: 'Apa yang sedang dibaca'
+    muted: 'Label, meta, subtitle'
+    subtle: 'Pemisah dan keadaan kosong'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Colori
+  page_icon: 'ph:bold/palette'
+  intro: "Nessun nome di componente definisce un colore. Definiscono un ruolo — una superficie, un bordo, uno stato — ed è il tema a decidere come appare quel ruolo su ciascuna delle sue facce. Cambia lo schema dall'intestazione e osserva ogni campione qui sotto muoversi senza che nessuno venga ridefinito."
+  section:
+    surfaces:
+      title: Superfici
+      description: 'Una scala di elevazione sopra la pagina. La faccia chiara le ordina per luminosità, la faccia scura per quanto ciascuna è sollevata dallo sfondo — ed è per questo che un componente richiede un livello e mai un grigio.'
+    invert:
+      title: 'Inverti livelli'
+      description: 'Venti passaggi del colore del testo sovrapposti allo sfondo, e la fonte di quasi ogni bordo, testo attenuato e stato hover nel sistema. Il livello 1 è appena presente, il livello 20 è il testo stesso.'
+    semantic:
+      title: 'Famiglie semantiche'
+      description: "Cinque famiglie, lette dalla pagina al testo attraverso il colore: il livello 1 è il colore che tinge appena la pagina, il 17 è il colore intero, il 32 è il colore che tinge appena il testo. Sotto la metà ci sono fondi; sopra di essa c'è l'inchiostro, che si schiarisce sulla faccia scura e si intensifica su quella chiara. Un componente sceglie un livello e non un esadecimale, ed è questo che consente allo stesso messaggio di essere letto correttamente su entrambe le facce."
+    categories:
+      title: 'Palette categoriale'
+      description: "Tredici colori che non significano nulla se non \"non quello accanto\": la serie di un grafico, i segmenti di una distribuzione, le fasi di un flusso di lavoro. Nominati, non numerati — un'app sceglie `cat-mint` perché assomiglia alla menta. Ognuno ha una variante chiara e una scura, fisse su entrambe le facce come il riempimento; l'inchiostro scritto su un riempimento diventa scuro dove il colore è chiaro. Quale categoria corrisponde a quale colore è una scelta dell'app, mai del sistema di design."
+    text:
+      title: Testo
+      description: 'Tre livelli di attenzione. Ciò che viene letto, ciò che lo qualifica e ciò che è presente solo per essere trovato quando si cerca.'
+    borders:
+      title: Bordi
+      description: "Quattro pesi, distinti da ciò che separano: due cose all'interno di una regione, due regioni di una pagina, o un campo da ciò che c'è dietro di esso."
+  surface:
+    page: 'La pagina stessa e ciò che si mostra tra le zone'
+    shell: 'Menu, intestazione, piè di pagina'
+    zone: 'Il terreno su cui si trova una regione di una pagina'
+    one: 'Input e campi'
+    two: 'Pulsanti, barre degli strumenti'
+    three: 'Blocchi, schede, modali'
+  text:
+    default: 'Ciò che viene letto'
+    muted: 'Etichette, meta, sottotitoli'
+    subtle: 'Separatori e stati vuoti'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: カラー
+  page_icon: 'ph:bold/palette'
+  intro: 'コンポーネントは色を名付けるのではなく、役割を名付けます — サーフェス、ボーダー、状態 — そしてテーマがそれぞれの面でその役割がどのように見えるかを決定します。ヘッダーからスキームを切り替えると、再定義されることなく、下のスウォッチがすべて動くのを観察できます。'
+  section:
+    surfaces:
+      title: サーフェス
+      description: 'ページの上にある高低差のはしご。明るい面は明るさで、暗い面は背景からどれだけ持ち上げられているかで順番を付けます — これがコンポーネントがレベルを要求し、グレーを要求しない理由です。'
+    invert:
+      title: レベルを反転
+      description: 背景の上に重ねられたテキストカラーの20段階、そしてシステム内のほぼすべてのボーダー、ミュートテキスト、ホバー状態の源。レベル1はほとんど存在せず、レベル20はテキストそのものです。
+    semantic:
+      title: セマンティックファミリー
+      description: 五つのファミリーがあり、ページからテキストへの色を通じて読み取ります：レベル1はページをかすかに色付けする色、17は完全な色、32はテキストをかすかに色付けする色です。中間より下はグラウンド、上はインクで、暗い面で明るく、明るい面で深くなります。コンポーネントはレベルを選び、16進数を選びません。これが同じメッセージが両方の面で正しく読まれる理由です。
+    categories:
+      title: 'カテゴリー パレット'
+      description: '隣の色以外の意味を持たない13色：チャートの系列、分布のセグメント、ワークフローの段階。番号ではなく名前が付けられています — アプリは見た目がミントのために `cat-mint` を選びます。それぞれは明るいバリアントと暗いバリアントがあり、フィルと同様に両面に固定されています；フィルに書かれたインクは、色が明るいところで暗くなります。どのカテゴリーがどの色かはアプリの選択であり、デザインシステムの選択ではありません。'
+    text:
+      title: テキスト
+      description: 注意の三段階。何が読まれているのか、それを定義するもの、そして探さなければ見つからないもの。
+    borders:
+      title: ボーダー
+      description: 何を区切るかによって区別される四つの重み：一つの領域内の二つのもの、ページの二つの領域、またはフィールドとその背後にあるもの。
+  surface:
+    page: ページ自体とゾーン間に表示されるもの
+    shell: メニュー、ヘッダー、フッター
+    zone: ページの領域が立つ地面
+    one: 入力とフィールド
+    two: ボタン、ツールバー
+    three: ブロック、カード、モーダル
+  text:
+    default: 読まれているもの
+    muted: ラベル、メタ、サブタイトル
+    subtle: 区切り線と空の状態
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 색상
+  page_icon: 'ph:bold/palette'
+  intro: '구성 요소는 색상을 지정하지 않습니다. 역할을 지정합니다 — 표면, 테두리, 상태 — 그리고 테마는 각 역할이 그 얼굴에서 어떻게 보이는지를 결정합니다. 헤더에서 색 구성표를 전환하고 아래의 모든 색상이 재정의되지 않고 이동하는 것을 지켜보세요.'
+  section:
+    surfaces:
+      title: 표면
+      description: '페이지 위의 고도 사다리. 밝은 면은 밝기 순으로 정렬하고, 어두운 면은 각각 얼마나 배경에서 들어올려졌는지를 기준으로 정렬합니다 — 이것이 구성 요소가 수준을 요구하고 결코 회색을 요구하지 않는 이유입니다.'
+    invert:
+      title: '수준 반전'
+      description: '배경 위에 놓인 텍스트 색상의 20단계와 시스템 내 거의 모든 테두리, 흐릿한 텍스트 및 호버 상태의 출처. 레벨 1은 거의 보이지 않으며, 레벨 20은 텍스트 자체입니다.'
+    semantic:
+      title: '의미적 계층'
+      description: '색상을 통해 페이지에서 텍스트로 읽히는 다섯 개의 가족: 레벨 1은 페이지를 약간 물들이는 색상, 17은 전체 색상, 32는 텍스트를 약간 물들이는 색상입니다. 중간 아래는 배경; 중간 위는 잉크, 어두운 면에서는 밝아지고 밝은 면에서는 깊어집니다. 구성 요소는 헥스가 아닌 수준을 선택하는데, 이는 동일한 메시지가 두 얼굴에서 올바르게 읽힐 수 있게 해줍니다.'
+    categories:
+      title: '범주형 팔레트'
+      description: '서로 옆에 있는 것 외에는 아무것도 의미하지 않는 13가지 색상: 차트의 시리즈, 분포의 세그먼트, 작업 흐름의 단계. 번호가 아닌 이름으로 지정됨 — 앱은 민트처럼 보이기 때문에 `cat-mint`를 선택합니다. 각각은 밝은 변형과 어두운 변형이 함께 제공되며, 채우기처럼 두 얼굴 모두에 고정되어 있습니다; 채우기에서 작성된 잉크는 색상이 밝을 때 어두워집니다. 어떤 카테고리가 어떤 색상인지는 앱의 선택이며, 디자인 시스템의 선택이 아닙니다.'
+    text:
+      title: 텍스트
+      description: '세 가지 주의 수준. 무엇을 읽고 있는지, 그것을 어떤 것으로 정의하는지, 그리고 찾을 때만 발견되는 것.'
+    borders:
+      title: 테두리
+      description: '네 가지 두께, 무엇을 구분하는지에 따라 구별됩니다: 한 영역 내의 두 개의 것, 페이지의 두 개의 영역, 또는 필드와 그 뒤에 있는 것.'
+  surface:
+    page: '페이지 자체와 구역 사이에 표시되는 것'
+    shell: '메뉴, 헤더, 바닥글'
+    zone: '페이지의 한 지역이 위치한 바닥'
+    one: '입력 및 필드'
+    two: '버튼, 도구 모음'
+    three: '블록, 카드, 모달'
+  text:
+    default: '읽고 있는 내용'
+    muted: '레이블, 메타, 자막'
+    subtle: '구분선과 빈 상태'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kleuren
+  page_icon: 'ph:bold/palette'
+  intro: 'Geen enkele component benoemt een kleur. Ze benoemen een rol — een oppervlak, een rand, een toestand — en het thema bepaalt hoe die rol eruitziet op elk van zijn vlakken. Wissel het schema vanuit de kop en kijk hoe elke kleurstaal hieronder beweegt zonder dat er ook maar één opnieuw gedefinieerd wordt.'
+  section:
+    surfaces:
+      title: Oppervlakken
+      description: 'Een hoogte-ladder boven de pagina. De lichte kant rangschikt ze op lichtheid, de donkere kant op hoe ver elk is opgetild van de achtergrond — daarom vraagt een component om een niveau en nooit om een grijs.'
+    invert:
+      title: 'Niveaus omkeren'
+      description: 'Twintig stappen van de tekstkleur over de achtergrond, en de bron van bijna elke rand, gedempte tekst en hover-toestand in het systeem. Niveau 1 is nauwelijks aanwezig, niveau 20 is de tekst zelf.'
+    semantic:
+      title: 'Semantische families'
+      description: 'Vijf families, gelezen van de pagina naar de tekst door de kleur: niveau 1 is de kleur die de pagina nauwelijks tint, 17 is de kleur volledig, 32 is de kleur die de tekst nauwelijks tint. Onder het midden zijn gronden; erboven is inkt, die lichter wordt op de donkere kant en dieper op de lichte. Een component kiest een niveau en niet een hex, wat ervoor zorgt dat dezelfde boodschap correct gelezen kan worden op beide vlakken.'
+    categories:
+      title: 'Categorische palet'
+      description: 'Dertien kleuren die niets anders betekenen dan "niet de kleur ernaast": de reeks van een grafiek, de segmenten van een verdeling, de fasen van een workflow. Genoemd, niet genummerd — een app kiest `cat-munt` omdat het eruitziet als munt. Elke kleur heeft een lichte en een donkere variant, vastgezet op beide vlakken zoals de vul; de inkt die op een vul is geschreven wordt donker waar de kleur licht is. Welke categorie welke kleur is, is de keuze van de app, nooit van het ontwerp systeem.'
+    text:
+      title: Tekst
+      description: 'Drie niveaus van aandacht. Wat gelezen wordt, wat het kwalificeert, en wat alleen te vinden is als ernaar gekeken wordt.'
+    borders:
+      title: Randen
+      description: 'Vier gewichten, onderscheiden door wat ze scheiden: twee dingen binnen één gebied, twee gebieden van een pagina, of een veld van wat erachter ligt.'
+  surface:
+    page: 'De pagina zelf, en wat tussen de zones zichtbaar is'
+    shell: 'Menu, kop, voettekst'
+    zone: 'De grond waarop een gebied van een pagina staat'
+    one: 'Invoervelden en velden'
+    two: 'Knoppen, werkbalken'
+    three: 'Blokken, kaarten, modals'
+  text:
+    default: 'Wat gelezen wordt'
+    muted: 'Labels, meta, ondertitels'
+    subtle: 'Scheidingstekens en lege toestanden'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kolory
+  page_icon: 'ph:bold/palette'
+  intro: 'Żaden komponent nie nazywa koloru. Nazwij rolę — powierzchnię, krawędź, stan — a motyw decyduje, jak ta rola wygląda na każdej z jej stron. Zmień schemat w nagłówku i obserwuj, jak każdy wzornik poniżej przesuwa się bez potrzeby redefiniowania któregokolwiek z nich.'
+  section:
+    surfaces:
+      title: Powierzchnie
+      description: 'Drabina wzniesień nad stroną. Jasna strona porządkuje je według jasności, ciemna według tego, jak daleko każda z nich jest uniesiona nad tłem — dlatego komponent prosi o poziom, a nie o szarość.'
+    invert:
+      title: 'Odwróć poziomy'
+      description: 'Dwadzieścia poziomów koloru tekstu na tle, oraz źródło niemal każdej krawędzi, przygaszonego tekstu i stanu najechania w systemie. Poziom 1 ledwie istnieje, poziom 20 to sam tekst.'
+    semantic:
+      title: 'Rodziny semantyczne'
+      description: 'Pięć rodzin, odczytywanych z strony do tekstu przez kolor: poziom 1 to kolor ledwie zabarwiający stronę, 17 to kolor całkowity, 32 to kolor ledwie zabarwiający tekst. Poniżej środka są tła; powyżej jest atrament, który rozjaśnia się na ciemnej stronie i ciemnieje na jasnej. Komponent wybiera poziom, a nie hex, co pozwala na prawidłowe odczytanie tej samej wiadomości na obu stronach.'
+    categories:
+      title: 'Paleta kategoryczna'
+      description: 'Trzynaście kolorów, które nie znaczą nic poza "nie tym obok": seria wykresu, segmenty rozkładu, etapy przepływu pracy. Nazwane, a nie ponumerowane — aplikacja wybiera `cat-mint`, ponieważ przypomina miętę. Każdy ma jasną i ciemną wersję, stałą na obu stronach jak wypełnienie; atrament zapisany na wypełnieniu ciemnieje tam, gdzie kolor jest jasny. Która kategoria to który kolor to wybór aplikacji, nigdy systemu projektowego.'
+    text:
+      title: Tekst
+      description: 'Trzy poziomy uwagi. Co jest czytane, co to kwalifikuje, a co jest tylko obecne, gdy się go szuka.'
+    borders:
+      title: Krawędzie
+      description: 'Cztery grubości, rozróżniane przez to, co oddzielają: dwie rzeczy wewnątrz jednego obszaru, dwa obszary strony lub pole od tego, co jest za nim.'
+  surface:
+    page: 'Strona sama w sobie i to, co pokazuje się między strefami'
+    shell: 'Menu, nagłówek, stopka'
+    zone: 'Tło, na którym stoi region strony'
+    one: 'Elementy wejściowe i pola'
+    two: 'Przyciski, paski narzędzi'
+    three: 'Bloki, karty, modale'
+  text:
+    default: 'Co jest czytane'
+    muted: 'Etykiety, meta, napisy'
+    subtle: 'Separatory i puste stany'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Cores
+  page_icon: 'ph:bold/palette'
+  intro: 'Nenhum componente nomeia uma cor. Eles nomeiam um papel — uma superfície, uma borda, um estado — e o tema decide como esse papel se parece em cada uma de suas faces. Mude o esquema a partir do cabeçalho e veja cada amostra abaixo se mover sem que nenhuma delas seja redefinida.'
+  section:
+    surfaces:
+      title: Superfícies
+      description: 'Uma escada de elevação acima da página. A face clara as ordena pela claridade, a face escura pela altura que cada uma está em relação ao fundo — é por isso que um componente pede um nível e nunca um cinza.'
+    invert:
+      title: 'Inverter níveis'
+      description: 'Vinte níveis da cor do texto sobre o fundo, e a origem de quase toda borda, texto atenuado e estado de hover no sistema. O nível 1 está praticamente invisível, o nível 20 é o próprio texto.'
+    semantic:
+      title: 'Famílias semânticas'
+      description: 'Cinco famílias, lidas da página para o texto através da cor: o nível 1 é a cor que mal tinge a página, 17 é a cor inteira, 32 é a cor que mal tinge o texto. Abaixo do meio estão os fundos; acima dele está a tinta, que clareia na face escura e escurece na face clara. Um componente escolhe um nível e não um hex, o que permite que a mesma mensagem seja lida corretamente em ambas as faces.'
+    categories:
+      title: 'Paleta categórica'
+      description: 'Treze cores que não significam nada além de "não a que está ao lado": a série de um gráfico, os segmentos de uma distribuição, as etapas de um fluxo de trabalho. Nomeadas, não numeradas — um aplicativo escolhe `cat-mint` porque parece menta. Cada uma vem com uma variante clara e uma escura, fixas em ambas as faces como o preenchimento; a tinta escrita em um preenchimento escurece onde a cor é clara. Qual categoria é qual cor é escolha do aplicativo, nunca do sistema de design.'
+    text:
+      title: Texto
+      description: 'Três níveis de atenção. O que está sendo lido, o que o qualifica, e o que só está lá para ser encontrado quando procurado.'
+    borders:
+      title: Bordas
+      description: 'Quatro espessuras, diferenciadas pelo que elas separam: duas coisas dentro de uma região, duas regiões de uma página, ou um campo do que está atrás dele.'
+  surface:
+    page: 'A própria página, e o que aparece entre as zonas'
+    shell: 'Menu, cabeçalho, rodapé'
+    zone: 'O fundo em que uma região de uma página se apoia'
+    one: 'Entradas e campos'
+    two: 'Botões, barras de ferramentas'
+    three: 'Blocos, cartões, modais'
+  text:
+    default: 'O que está sendo lido'
+    muted: 'Rótulos, meta, subtítulos'
+    subtle: 'Separadores e estados vazios'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Цвета
+  page_icon: 'ph:bold/palette'
+  intro: 'Ни один компонент не называет цвет. Они обозначают роль — поверхность, границу, состояние — а тема определяет, как эта роль выглядит на каждой из своих сторон. Переключите схему в заголовке и наблюдайте, как каждый образец ниже изменяется, не будучи переопределённым.'
+  section:
+    surfaces:
+      title: Поверхности
+      description: 'Лестница высоты над страницей. Светлая сторона сортирует их по светлоте, тёмная — по тому, насколько далеко каждая из них поднята над фоном — поэтому компонент запрашивает уровень, а не серый цвет.'
+    invert:
+      title: 'Инвертировать уровни'
+      description: 'Двадцать шагов цвет текста, наложенные на фон, и источник почти каждой границы, приглушённого текста и состояния наведения в системе. Уровень 1 едва заметен, уровень 20 — это сам текст.'
+    semantic:
+      title: 'Семантические категории'
+      description: 'Пять категорий, читаемых от страницы к тексту через цвет: уровень 1 — это цвет, еле окрашивающий страницу, 17 — это целый цвет, 32 — это цвет, едва окрашивающий текст. Ниже середины находятся земли; выше — чернила, которые светлеют на тёмной стороне и темнеют на светлой. Компонент выбирает уровень, а не хекс, что позволяет одному и тому же сообщению правильно читаться на обеих сторонах.'
+    categories:
+      title: 'Категориальная палитра'
+      description: 'Тринадцать цветов, которые ничего не значат, кроме "не тот, что рядом": серия графика, сегменты распределения, стадии рабочего процесса. Названы, а не пронумерованы — приложение выбирает `cat-mint`, потому что он выглядит как мята. Каждый цвет имеет светлый и тёмный вариант, фиксированный на обеих сторонах, как заливка; чернила, написанные на заливке, становятся тёмными, где цвет светлый. Какой цвет к какой категории относится — это выбор приложения, а не дизайн-системы.'
+    text:
+      title: Текст
+      description: 'Три уровня внимания. Что читается, что это квалифицирует и что существует только для поиска.'
+    borders:
+      title: Границы
+      description: 'Четыре веса, различаемые по тому, что они разделяют: две вещи внутри одной области, две области страницы или поле от того, что находится за ним.'
+  surface:
+    page: 'Сама страница и то, что находится между зонами'
+    shell: 'Меню, заголовок, нижний колонтитул'
+    zone: 'Земля, на которой стоит область страницы'
+    one: 'Вводы и поля'
+    two: 'Кнопки, панели инструментов'
+    three: 'Блоки, карточки, модальные окна'
+  text:
+    default: 'Что читается'
+    muted: 'Ярлыки, метаданные, подзаголовки'
+    subtle: 'Разделители и пустые состояния'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: สี
+  page_icon: 'ph:bold/palette'
+  intro: 'ไม่มีชื่อของส่วนประกอบใดที่เป็นสี มันมีชื่อเรียกบทบาท — พื้นผิว, ขอบ, สถานะ — และธีมเป็นผู้กำหนดว่าสิ่งนั้นจะมีลักษณะอย่างไรในแต่ละด้าน เปลี่ยนแผนจากส่วนหัวและดูทุกตัวอย่างด้านล่างเคลื่อนที่โดยที่ไม่มีอันใดถูกกำหนดใหม่เลย'
+  section:
+    surfaces:
+      title: พื้นผิว
+      description: 'บันไดยกระดับเหนือหน้าเพจ ด้านที่มีแสงจะจัดเรียงตามความสว่าง ด้านที่มืดจะจัดเรียงตามระดับที่ยกขึ้นจากพื้นหลัง — นั่นคือเหตุผลที่ว่าทำไมส่วนประกอบจึงถามถึงระดับและไม่เคยถามถึงสีเทา'
+    invert:
+      title: กลับระดับ
+      description: 'ยี่สิบระดับของสีข้อความที่วางทับพื้นหลัง และเป็นแหล่งที่มาของเกือบทุกขอบ, ข้อความที่ลดเสียงและสถานะเมื่อชี้ไปที่ในระบบ ระดับ 1 แทบไม่เห็นเลย ระดับ 20 คือข้อความเอง'
+    semantic:
+      title: ครอบครัวเชิงความหมาย
+      description: 'ห้าครอบครัว อ่านจากหน้าเพจไปยังข้อความผ่านสี: ระดับ 1 คือสีที่แทบไม่ทำให้หน้าเพจมีสี, ระดับ 17 คือสีที่เต็มรูปแบบ, ระดับ 32 คือสีที่แทบไม่ทำให้ข้อความมีสี ด้านล่างกลางคือพื้นฐาน; ด้านบนคือหมึกซึ่งจะสว่างขึ้นในด้านที่มืดและเข้มขึ้นในด้านที่สว่าง ส่วนประกอบเลือกระดับและไม่ใช่ค่าเฮกซ์ ซึ่งทำให้ข้อความเดียวกันอ่านได้อย่างถูกต้องในทั้งสองด้าน'
+    categories:
+      title: พาเลตสีประเภท
+      description: 'สิบสามสีที่ไม่มีความหมายใดนอกจาก "ไม่ใช่สีที่อยู่ข้างๆ": ชุดของแผนภูมิ, ส่วนของการกระจาย, ระยะของ workflow ตั้งชื่อ ไม่ใช่หมายเลข — แอปเลือก `cat-mint` เพราะมันดูเหมือนมินต์ แต่ละตัวมาพร้อมกับตัวแปรที่สว่างและมืด ซึ่งถูกตั้งอยู่ในทั้งสองด้านเหมือนกับการเติม; หมึกที่เขียนบนการเติมจะมืดลงในที่ที่สีสว่าง ซึ่งหมวดหมู่คือสีไหนเป็นการเลือกของแอป ไม่ใช่ระบบการออกแบบ'
+    text:
+      title: ข้อความ
+      description: 'สามระดับของความสนใจ สิ่งที่กำลังอ่าน, สิ่งที่ทำให้มันมีคุณสมบัติ และสิ่งที่มีอยู่เพียงเมื่อค้นหา'
+    borders:
+      title: ขอบ
+      description: 'สี่น้ำหนัก แยกออกจากกันโดยสิ่งที่มันแยก: สองสิ่งภายในภูมิภาคหนึ่ง, สองภูมิภาคของหน้าเพจ, หรือฟิลด์จากสิ่งที่อยู่เบื้องหลัง'
+  surface:
+    page: 'หน้าเพจเอง และสิ่งที่แสดงระหว่างโซน'
+    shell: 'เมนู, ส่วนหัว, ส่วนท้าย'
+    zone: พื้นดินที่ภูมิภาคของหน้าเพจตั้งอยู่
+    one: ข้อมูลนำเข้าและฟิลด์
+    two: 'ปุ่ม, แถบเครื่องมือ'
+    three: 'บล็อก, การ์ด, โมดัล'
+  text:
+    default: สิ่งที่กำลังอ่าน
+    muted: 'ป้ายชื่อ, ข้อมูลเมตา, ซับไตเติล'
+    subtle: ตัวแยกและสถานะว่าง
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Renkler
+  page_icon: 'ph:bold/palette'
+  intro: 'Hiçbir bileşen bir rengi adlandırmaz. Bir rolü adlandırır - bir yüzey, bir kenar, bir durum - ve tema, bu rolün her yüzünde nasıl görüneceğine karar verir. Başlıktan şemayı değiştirin ve aşağıdaki her renk örneğinin tek bir tanım bile yapılmadan hareket ettiğini görün.'
+  section:
+    surfaces:
+      title: Yüzeyler
+      description: 'Sayfanın üzerinde bir yükseklik merdiveni. Açık yüzeyler, onları açıklıklarına göre sıralar; karanlık yüzeyler, her birinin arka plandan ne kadar yukarıda olduğunu dikkate alır - bu yüzden bir bileşen seviyeyi ister ve asla gri bir ton istemez.'
+    invert:
+      title: 'Ters düzeyler'
+      description: 'Arka planın üzerine yerleştirilen metin renginin yirmi adımı ve sistemdeki neredeyse her kenarın, sönük metnin ve üzerine gelme durumunun kaynağı. Seviye 1 neredeyse yok; seviye 20 metnin kendisidir.'
+    semantic:
+      title: 'Anlamsal aileler'
+      description: 'Renk aracılığıyla sayfadan metne okunan beş aile: seviye 1 sayfayı neredeyse renklendiren renk, seviye 17 tam renk, seviye 32 metni neredeyse renklendiren renk. Ortanın altındaki tonlar zeminlerdir; üstünde ise mürekkep bulunur, bu karanlık yüzeyde açılır ve açık yüzeyde koyulaşır. Bir bileşen seviye seçer, hex seçmez; bu da aynı mesajın her iki yüzeyde doğru bir şekilde okunmasını sağlar.'
+    categories:
+      title: 'Kategorik palet'
+      description: 'Yanındaki renk dışında hiçbir anlamı olmayan on üç renk: bir grafik serisi, bir dağılımın segmentleri, bir iş akışının aşamaları. İsimlendirilen, numaralandırılmayan - bir uygulama `cat-mint` seçer çünkü nane gibi görünür. Her biri, dolgu gibi her iki yüzeyde de sabit olan açık ve koyu bir varyantla gelir; bir dolgu üzerindeki mürekkep, renk açık olduğunda koyulaşır. Hangi kategori hangi renk olduğu uygulamanın seçimi, asla tasarım sisteminin değil.'
+    text:
+      title: Metin
+      description: 'Üç dikkat düzeyi. Ne okunduğu, neyin nitelik kazandırdığı ve yalnızca bakıldığında bulunan şey.'
+    borders:
+      title: Kenarlar
+      description: 'Ayrılan şeylere göre birbirinden ayırt edilen dört ağırlık: bir bölgedeki iki şey, bir sayfanın iki bölgesi veya bir alan ile arkasındaki şey arasındaki ayrım.'
+  surface:
+    page: 'Sayfanın kendisi ve bölgeler arasındaki gösterim'
+    shell: 'Menü, başlık, alt bilgi'
+    zone: 'Bir sayfa bölgesinin üzerinde durduğu zemin'
+    one: 'Girişler ve alanlar'
+    two: 'Düğmeler, araç çubukları'
+    three: 'Bloklar, kartlar, modallar'
+  text:
+    default: 'Okunan metin'
+    muted: 'Etiketler, meta, alt başlıklar'
+    subtle: 'Ayrıcılar ve boş durumlar'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: رنگ
+  page_icon: 'ph:bold/palette'
+  intro: 'کوئی بھی جزو رنگ کا نام نہیں دیتا۔ وہ ایک کردار کا نام دیتے ہیں — ایک سطح، ایک سرحد، ایک حالت — اور تھیم یہ طے کرتی ہے کہ ہر چہرے پر وہ کردار کیسا نظر آتا ہے۔ ہیڈر سے اسکیم سوئچ کریں اور نیچے ہر رنگ کا نمونہ حرکت کرتے دیکھیں بغیر کسی ایک کی تعریف دوبارہ کیے بغیر۔'
+  section:
+    surfaces:
+      title: سطوح
+      description: 'صفحے کے اوپر ایک بلندائی کا سیڑھی۔ ہلکا چہرہ انہیں ہلکی ہونے کے لحاظ سے ترتیب دیتا ہے، تاریک چہرہ ہر ایک کو پس منظر سے کتنی دور اٹھایا گیا ہے اس کے حساب سے — یہی وجہ ہے کہ ایک جزو ایک سطح کا مطالبہ کرتا ہے اور کبھی بھی سرمئی کا نہیں۔'
+    invert:
+      title: 'سطحوں کو الٹائیں'
+      description: 'بیک گراؤنڈ پر لگے ہوئے متن کے رنگ کے بیس قدم، اور نظام میں قریب قریب ہر سرحد، مدھم متن اور ہوور حالت کا ماخذ۔ سطح 1 بمشکل نظر آتی ہے، سطح 20 خود متن ہے۔'
+    semantic:
+      title: 'سیمانٹک خاندان'
+      description: 'پانچ خاندان، رنگ کے ذریعے صفحے سے متن تک پڑھی جاتی ہیں: سطح 1 وہ رنگ ہے جو صفحے پر بمشکل رنگ بھرتا ہے، 17 وہ رنگ ہے جو مکمل ہے، 32 وہ رنگ ہے جو متن پر بمشکل رنگ بھرتا ہے۔ درمیان کے نیچے زمینیں ہیں؛ اس کے اوپر سیاہی ہے، جو تاریک چہرے پر ہلکی ہو جاتی ہے اور ہلکے چہرے پر گہری ہو جاتی ہے۔ ایک جزو ایک سطح منتخب کرتا ہے اور ہیکس نہیں، جو یہ اجازت دیتا ہے کہ ایک ہی پیغام دونوں چہروں پر صحیح طور پر پڑھا جائے۔'
+    categories:
+      title: 'زمرہ جاتی پیلیٹ'
+      description: 'تیرہ رنگ جو صرف "اس کے ساتھ نہ ہونے" کا مطلب رکھتے ہیں: ایک چارٹ کی سیریز، تقسیم کے حصے، ورک فلو کے مراحل۔ نامزد، نمبر نہیں — ایک ایپ `cat-mint` کا انتخاب کرتی ہے کیونکہ یہ پودینے کی طرح نظر آتا ہے۔ ہر ایک کے پاس ہلکا اور گہرا متغیر ہوتا ہے، دونوں چہروں پر بھرنے کی طرح مقرر کیا جاتا ہے؛ جہاں رنگ ہلکا ہوتا ہے، وہاں بھرنے پر لکھی گئی سیاہی تاریک ہو جاتی ہے۔ کون سا زمرہ کون سا رنگ ہے، یہ ایپ کا انتخاب ہے، کبھی بھی ڈیزائن کے نظام کا نہیں۔'
+    text:
+      title: متن
+      description: 'توجہ کے تین درجے۔ کیا پڑھا جا رہا ہے، کیا اس کی وضاحت کرتا ہے، اور کیا صرف تلاش کرنے پر ہی ملتا ہے۔'
+    borders:
+      title: سرحدیں
+      description: 'چار وزنی، ان کے درمیان کی تفریق سے بتائی جاتی ہیں: ایک علاقے کے اندر دو چیزیں، صفحے کے دو علاقے، یا ایک میدان اس کے پیچھے سے۔'
+  surface:
+    page: 'صفحہ خود، اور جو زونز کے درمیان نظر آتا ہے'
+    shell: 'مینیو، ہیڈر، فوٹر'
+    zone: 'ایک صفحے کے علاقے کا زمین'
+    one: 'ان پٹ اور فیلڈز'
+    two: 'بٹن، ٹول بار'
+    three: 'بلاک، کارڈز، موڈلز'
+  text:
+    default: 'کیا پڑھا جا رہا ہے'
+    muted: 'لیبل، میٹا، ذیلی عنوانات'
+    subtle: 'فاصلہ دار اور خالی حالتیں'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Màu sắc'
+  page_icon: 'ph:bold/palette'
+  intro: 'Không có tên thành phần nào chỉ ra một màu sắc. Chúng chỉ ra một vai trò — một bề mặt, một đường viền, một trạng thái — và chủ đề quyết định vai trò đó trông như thế nào trên từng mặt của nó. Chuyển đổi sơ đồ từ tiêu đề và theo dõi mỗi bảng màu bên dưới di chuyển mà không có cái nào được định nghĩa lại.'
+  section:
+    surfaces:
+      title: 'Bề mặt'
+      description: 'Một thang nâng trên trang. Mặt sáng sắp xếp chúng theo độ sáng, mặt tối theo mức độ mà mỗi cái được nâng lên khỏi nền — đó là lý do tại sao một thành phần yêu cầu một cấp độ và không bao giờ yêu cầu một màu xám.'
+    invert:
+      title: 'Đảo ngược cấp độ'
+      description: 'Hai mươi bước của màu sắc văn bản trên nền, và là nguồn của hầu hết mọi đường viền, văn bản nhạt và trạng thái hover trong hệ thống. Cấp độ 1 hầu như không thấy, cấp độ 20 là chính văn bản.'
+    semantic:
+      title: 'Các nhóm ngữ nghĩa'
+      description: 'Năm nhóm, đọc từ trang đến văn bản qua màu sắc: cấp độ 1 là màu sắc chỉ hơi tô lên trang, 17 là màu sắc hoàn chỉnh, 32 là màu sắc chỉ hơi tô lên văn bản. Dưới giữa là nền; trên đó là mực, sẽ sáng lên trên mặt tối và đậm lên trên mặt sáng. Một thành phần chọn một cấp độ chứ không phải một mã hex, điều này cho phép cùng một thông điệp được đọc chính xác trên cả hai mặt.'
+    categories:
+      title: 'Bảng màu phân loại'
+      description: 'Mười ba màu sắc không có nghĩa gì ngoài "không phải cái bên cạnh": chuỗi của một biểu đồ, các phân đoạn của một phân phối, các giai đoạn của một quy trình làm việc. Được đặt tên, không được đánh số — một ứng dụng chọn `cat-mint` vì nó trông giống như bạc hà. Mỗi cái đi kèm với một biến thể sáng và một biến thể tối, được cố định trên cả hai mặt như phần tô; mực viết trên một phần tô sẽ chuyển thành tối khi màu sắc là sáng. Màu nào thuộc nhóm nào là sự lựa chọn của ứng dụng, không bao giờ của hệ thống thiết kế.'
+    text:
+      title: 'Văn bản'
+      description: 'Ba cấp độ chú ý. Những gì đang được đọc, những gì xác định nó, và những gì chỉ có thể được tìm thấy khi tìm kiếm.'
+    borders:
+      title: 'Đường viền'
+      description: 'Bốn trọng số, được phân biệt bởi những gì chúng phân chia: hai thứ trong một khu vực, hai khu vực của một trang, hoặc một trường với những gì ở phía sau nó.'
+  surface:
+    page: 'Trang chính nó, và những gì hiển thị giữa các vùng'
+    shell: 'Menu, tiêu đề, chân trang'
+    zone: 'Nền mà một khu vực của trang đứng trên'
+    one: 'Các trường nhập liệu'
+    two: 'Nút, thanh công cụ'
+    three: 'Khối, thẻ, hộp thoại'
+  text:
+    default: 'Những gì đang được đọc'
+    muted: 'Nhãn, meta, phụ đề'
+    subtle: 'Các dấu phân cách và trạng thái trống'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 颜色
+  page_icon: 'ph:bold/palette'
+  intro: 没有组件名字是颜色。它们命名的是一种角色——一个表面、一个边框、一个状态——主题决定了每个角色在其各个面上的外观。从标题切换方案，观察下面的每个色板移动，而没有一个被重新定义。
+  section:
+    surfaces:
+      title: 表面
+      description: 页面上方的一个提升梯子。浅色面按照亮度排序，深色面则根据每个面离背景的高度排序——这就是为什么组件要求一个级别而不是灰色。
+    invert:
+      title: 反转级别
+      description: 二十个文本颜色叠加在背景上，是系统中几乎所有边框、静态文本和悬停状态的来源。级别1几乎不可见，级别20是文本本身。
+    semantic:
+      title: 语义家族
+      description: 五个家族，通过颜色从页面到文本阅读：级别1是几乎不染色页面的颜色，级别17是整体颜色，级别32是几乎不染色文本的颜色。中间以下是背景；以上是墨水，在深色面上变浅，在浅色面上变深。组件选择级别而不是十六进制，这让相同的信息在两个面上都能正确读取。
+    categories:
+      title: 分类调色板
+      description: 十三种颜色只意味着“不是旁边的那种”：图表的系列、分布的段、工作流的阶段。命名，而不是编号——应用选择`cat-mint`因为它看起来像薄荷。每种颜色都有一个浅色和一个深色变体，固定在两个面上，就像填充一样；在填充上书写的墨水在颜色浅的地方变深。哪个类别是哪个颜色是应用的选择，而不是设计系统的选择。
+    text:
+      title: 文本
+      description: 三种关注级别。正在阅读的内容，什么使其合格，以及什么只有在寻找时才能找到。
+    borders:
+      title: 边框
+      description: 四种重量，通过它们分隔的内容区分：一个区域内的两个事物，页面的两个区域，或一个字段与其后面的内容。
+  surface:
+    page: 页面本身，以及区域之间显示的内容
+    shell: 菜单、标题、页脚
+    zone: 页面区域所站立的基础
+    one: 输入和字段
+    two: 按钮、工具栏
+    three: 区块、卡片、模态
+  text:
+    default: 正在阅读的内容
+    muted: 标签、元数据、副标题
+    subtle: 分隔符和空状态

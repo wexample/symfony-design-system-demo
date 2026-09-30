@@ -1,0 +1,690 @@
+en:
+  page_title: Panel
+  page_icon: ph:bold/sidebar-simple-duotone
+
+  section:
+    persist:
+      description: "Panel with tabs. Open it, switch tabs, press F5 — the panel reopens on the same tab."
+      button: Open panel
+    simple:
+      description: Show a simple panel. You can close it with Escape or by clicking outside the panel.
+      button: Open panel
+    components:
+      description: Show a panel with components and a toast trigger. Escape is disabled, but you can still click outside to close it.
+      button: Open panel
+    medium:
+      description: Show a panel with medium-length text. Clicking outside will not close it.
+      button: Open panel
+    long:
+      description: Show a panel with long text. It asks for confirmation before closing.
+      button: Open panel
+    form_rendered:
+      description: Show a rendered demo form inside a panel. Escape and outside click are disabled, and it asks before closing if the form was modified.
+      button: Open panel
+    form_ajax:
+      description: Show a rendered demo form inside a panel using AJAX. Escape and outside click are disabled, and it asks before closing if the form was modified.
+      button: Open panel
+    recursive:
+      description: Open a dialog page inside another dialog — choose modal or panel.
+      button_modal: Open in modal
+      button_panel: Open in panel
+
+ar:
+  page_title: لوحة
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'لوحة مع علامات تبويب. افتحها، قم بالتبديل بين علامات التبويب، اضغط F5 — ستفتح اللوحة مرة أخرى على نفس علامة التبويب.'
+      button: 'افتح اللوحة'
+    simple:
+      description: 'عرض لوحة بسيطة. يمكنك إغلاقها باستخدام مفتاح الهروب أو بالنقر خارج اللوحة.'
+      button: 'افتح اللوحة'
+    components:
+      description: 'عرض لوحة مع مكونات وزر إشعار. مفتاح الهروب معطل، لكن يمكنك النقر خارج اللوحة لإغلاقها.'
+      button: 'افتح اللوحة'
+    medium:
+      description: 'عرض لوحة بنص متوسط الطول. النقر خارجها لن يغلقها.'
+      button: 'افتح اللوحة'
+    long:
+      description: 'عرض لوحة بنص طويل. يطلب تأكيدًا قبل الإغلاق.'
+      button: 'افتح اللوحة'
+    form_rendered:
+      description: 'عرض نموذج عرض داخل لوحة. مفتاح الهروب والنقر الخارجي معطلان، ويطلب تأكيدًا قبل الإغلاق إذا تم تعديل النموذج.'
+      button: 'افتح اللوحة'
+    form_ajax:
+      description: 'عرض نموذج عرض داخل لوحة باستخدام AJAX. مفتاح الهروب والنقر الخارجي معطلان، ويطلب تأكيدًا قبل الإغلاق إذا تم تعديل النموذج.'
+      button: 'افتح اللوحة'
+    recursive:
+      description: 'افتح صفحة حوار داخل حوار آخر — اختر الوضع أو اللوحة.'
+      button_modal: 'افتح في نافذة منبثقة'
+      button_panel: 'افتح في لوحة'
+
+bn:
+  page_title: প্যানেল
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'ট্যাব সহ প্যানেল। এটি খুলুন, ট্যাব পরিবর্তন করুন, F5 চাপুন — প্যানেল একই ট্যাবে পুনরায় খোলে।'
+      button: 'প্যানেল খুলুন'
+    simple:
+      description: 'একটি সাধারণ প্যানেল দেখান। আপনি এটি Escape চাপিয়ে বা প্যানেলের বাইরে ক্লিক করে বন্ধ করতে পারেন।'
+      button: 'প্যানেল খুলুন'
+    components:
+      description: 'কম্পোনেন্ট এবং একটি টোস্ট ট্রিগার সহ একটি প্যানেল দেখান। Escape নিষ্ক্রিয়, তবে আপনি এখনও বাইরে ক্লিক করে এটি বন্ধ করতে পারেন।'
+      button: 'প্যানেল খুলুন'
+    medium:
+      description: 'মাঝারি দৈর্ঘ্যের টেক্সট সহ একটি প্যানেল দেখান। বাইরে ক্লিক করলে এটি বন্ধ হবে না।'
+      button: 'প্যানেল খুলুন'
+    long:
+      description: 'দীর্ঘ টেক্সট সহ একটি প্যানেল দেখান। এটি বন্ধ করার আগে নিশ্চিতকরণ চায়।'
+      button: 'প্যানেল খুলুন'
+    form_rendered:
+      description: 'একটি প্যানেলের মধ্যে একটি রেন্ডার করা ডেমো ফর্ম দেখান। Escape এবং বাইরের ক্লিক নিষ্ক্রিয়, এবং ফর্ম পরিবর্তিত হলে এটি বন্ধ করার আগে জিজ্ঞাসা করে।'
+      button: 'প্যানেল খুলুন'
+    form_ajax:
+      description: 'AJAX ব্যবহার করে একটি প্যানেলের মধ্যে একটি রেন্ডার করা ডেমো ফর্ম দেখান। Escape এবং বাইরের ক্লিক নিষ্ক্রিয়, এবং ফর্ম পরিবর্তিত হলে এটি বন্ধ করার আগে জিজ্ঞাসা করে।'
+      button: 'প্যানেল খুলুন'
+    recursive:
+      description: 'একটি ডায়ালগ পৃষ্ঠাকে অন্য ডায়ালগের মধ্যে খুলুন — মডাল বা প্যানেল চয়ন করুন।'
+      button_modal: 'মডালে খুলুন'
+      button_panel: 'প্যানেলে খুলুন'
+
+de:
+  page_title: Panel
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Panel mit Tabs. Öffne es, wechsle die Tabs, drücke F5 — das Panel öffnet sich wieder im selben Tab.'
+      button: 'Panel öffnen'
+    simple:
+      description: 'Ein einfaches Panel anzeigen. Du kannst es mit Escape oder durch Klicken außerhalb des Panels schließen.'
+      button: 'Panel öffnen'
+    components:
+      description: 'Ein Panel mit Komponenten und einem Toast-Trigger anzeigen. Escape ist deaktiviert, aber du kannst trotzdem außerhalb klicken, um es zu schließen.'
+      button: 'Panel öffnen'
+    medium:
+      description: 'Ein Panel mit Text mittlerer Länge anzeigen. Ein Klick außerhalb schließt es nicht.'
+      button: 'Panel öffnen'
+    long:
+      description: 'Ein Panel mit langem Text anzeigen. Es fragt nach Bestätigung, bevor es geschlossen wird.'
+      button: 'Panel öffnen'
+    form_rendered:
+      description: 'Ein gerendertes Demofeld innerhalb eines Panels anzeigen. Escape und Klicks außerhalb sind deaktiviert, und es fragt vor dem Schließen, ob das Feld geändert wurde.'
+      button: 'Panel öffnen'
+    form_ajax:
+      description: 'Ein gerendertes Demofeld innerhalb eines Panels mit AJAX anzeigen. Escape und Klicks außerhalb sind deaktiviert, und es fragt vor dem Schließen, ob das Feld geändert wurde.'
+      button: 'Panel öffnen'
+    recursive:
+      description: 'Eine Dialogseite innerhalb eines anderen Dialogs öffnen — wähle modal oder Panel.'
+      button_modal: 'Modales Fenster öffnen'
+      button_panel: 'Panel öffnen'
+
+es:
+  page_title: Panel
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Panel con pestañas. Ábrelo, cambia de pestañas, presiona F5 — el panel se reabre en la misma pestaña.'
+      button: 'Abrir panel'
+    simple:
+      description: 'Mostrar un panel simple. Puedes cerrarlo con Escape o haciendo clic fuera del panel.'
+      button: 'Abrir panel'
+    components:
+      description: 'Mostrar un panel con componentes y un disparador de toast. Escape está deshabilitado, pero aún puedes hacer clic fuera para cerrarlo.'
+      button: 'Abrir panel'
+    medium:
+      description: 'Mostrar un panel con texto de longitud media. Hacer clic fuera no lo cerrará.'
+      button: 'Abrir panel'
+    long:
+      description: 'Mostrar un panel con texto largo. Pide confirmación antes de cerrar.'
+      button: 'Abrir panel'
+    form_rendered:
+      description: 'Mostrar un formulario de demostración renderizado dentro de un panel. Escape y clic fuera están deshabilitados, y pide confirmación antes de cerrar si se ha modificado el formulario.'
+      button: 'Abrir panel'
+    form_ajax:
+      description: 'Mostrar un formulario de demostración renderizado dentro de un panel usando AJAX. Escape y clic fuera están deshabilitados, y pide confirmación antes de cerrar si se ha modificado el formulario.'
+      button: 'Abrir panel'
+    recursive:
+      description: 'Abrir una página de diálogo dentro de otro diálogo — elegir modal o panel.'
+      button_modal: 'Abrir en modal'
+      button_panel: 'Abrir en panel'
+
+fa:
+  page_title: پنل
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'پنل با زبانه‌ها. آن را باز کنید، زبانه‌ها را عوض کنید، کلید F5 را فشار دهید — پنل دوباره روی همان زبانه باز می‌شود.'
+      button: 'پنل را باز کن'
+    simple:
+      description: 'یک پنل ساده را نمایش دهید. می‌توانید با فشار دادن کلید Escape یا کلیک کردن در خارج از پنل آن را ببندید.'
+      button: 'پنل را باز کن'
+    components:
+      description: 'پنلی با کامپوننت‌ها و یک تریگر نوتیفیکیشن نشان دهید. کلید Escape غیر فعال است، اما می‌توانید با کلیک در خارج از پنل آن را ببندید.'
+      button: 'پنل را باز کن'
+    medium:
+      description: 'پنلی با متن متوسط را نمایش دهید. کلیک در خارج پنل آن را نخواهد بست.'
+      button: 'پنل را باز کن'
+    long:
+      description: 'پنلی با متن طولانی نشان دهید. قبل از بستن از شما تأیید می‌خواهد.'
+      button: 'پنل را باز کن'
+    form_rendered:
+      description: 'یک فرم دمو که در داخل پنل رندر شده را نشان دهید. کلید Escape و کلیک خارج غیر فعال است، و قبل از بستن اگر فرم تغییر یافته باشد از شما تأیید می‌خواهد.'
+      button: 'پنل را باز کن'
+    form_ajax:
+      description: 'یک فرم دمو که در داخل پنل با استفاده از AJAX رندر شده را نشان دهید. کلید Escape و کلیک خارج غیر فعال است، و قبل از بستن اگر فرم تغییر یافته باشد از شما تأیید می‌خواهد.'
+      button: 'پنل را باز کن'
+    recursive:
+      description: 'یک صفحه دیالوگ را در داخل دیالوگ دیگری باز کنید — حالت یا پنل را انتخاب کنید.'
+      button_modal: 'باز کردن در حالت مدال'
+      button_panel: 'باز کردن در پنل'
+
+fi:
+  page_title: Paneeli
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Paneeli, jossa on välilehdet. Avaa se, vaihda välilehtiä, paina F5 — paneeli avautuu uudelleen samalle välilehdelle.'
+      button: 'Avaa paneeli'
+    simple:
+      description: 'Näytä yksinkertainen paneeli. Voit sulkea sen Escape-näppäimellä tai klikkaamalla paneelin ulkopuolella.'
+      button: 'Avaa paneeli'
+    components:
+      description: 'Näytä paneeli komponenteilla ja toast-triggerillä. Escape on pois käytöstä, mutta voit silti klikata ulkopuolella sulkeaksesi sen.'
+      button: 'Avaa paneeli'
+    medium:
+      description: 'Näytä paneeli keskikokoisella tekstillä. Klikkaaminen ulkopuolella ei sulje sitä.'
+      button: 'Avaa paneeli'
+    long:
+      description: 'Näytä paneeli pitkällä tekstillä. Se kysyy vahvistusta ennen sulkemista.'
+      button: 'Avaa paneeli'
+    form_rendered:
+      description: 'Näytä renderoitu demo-lomake paneelin sisällä. Escape ja ulkopuolinen klikkaus ovat pois käytöstä, ja se kysyy ennen sulkemista, jos lomaketta on muokattu.'
+      button: 'Avaa paneeli'
+    form_ajax:
+      description: 'Näytä renderoitu demo-lomake paneelin sisällä AJAX:n avulla. Escape ja ulkopuolinen klikkaus ovat pois käytöstä, ja se kysyy ennen sulkemista, jos lomaketta on muokattu.'
+      button: 'Avaa paneeli'
+    recursive:
+      description: 'Avaa dialogisivu toisen dialogin sisällä — valitse modaalinen tai paneeli.'
+      button_modal: 'Avaa modaalina'
+      button_panel: 'Avaa paneelina'
+
+fr:
+  page_title: Panneau
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: "Panneau avec des onglets. Ouvrez-le, changez d'onglet, appuyez sur F5 — le panneau se rouvre sur le même onglet."
+      button: 'Ouvrir le panneau'
+    simple:
+      description: 'Afficher un panneau simple. Vous pouvez le fermer avec Échap ou en cliquant en dehors du panneau.'
+      button: 'Ouvrir le panneau'
+    components:
+      description: 'Afficher un panneau avec des composants et un déclencheur de toast. Échap est désactivé, mais vous pouvez toujours cliquer en dehors pour le fermer.'
+      button: 'Ouvrir le panneau'
+    medium:
+      description: "Afficher un panneau avec un texte de longueur moyenne. Cliquer à l'extérieur ne le fermera pas."
+      button: 'Ouvrir le panneau'
+    long:
+      description: 'Afficher un panneau avec un long texte. Il demande confirmation avant de se fermer.'
+      button: 'Ouvrir le panneau'
+    form_rendered:
+      description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un panneau. Échap et le clic extérieur sont désactivés, et il demande avant de fermer si le formulaire a été modifié."
+      button: 'Ouvrir le panneau'
+    form_ajax:
+      description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un panneau utilisant AJAX. Échap et le clic extérieur sont désactivés, et il demande avant de fermer si le formulaire a été modifié."
+      button: 'Ouvrir le panneau'
+    recursive:
+      description: "Ouvrir une page de dialogue à l'intérieur d'un autre dialogue — choisissez modal ou panneau."
+      button_modal: 'Ouvrir en modal'
+      button_panel: 'Ouvrir en panneau'
+
+he:
+  page_title: פאנל
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'פאנל עם טאבים. פתח אותו, החלף טאבים, לחץ על F5 — הפאנל ייפתח שוב על אותו טאב.'
+      button: 'פתח פאנל'
+    simple:
+      description: 'הצג פאנל פשוט. אפשר לסגור אותו עם Escape או על ידי לחיצה מחוץ לפאנל.'
+      button: 'פתח פאנל'
+    components:
+      description: 'הצג פאנל עם רכיבים וטריגר להודעת toast. Escape מושבת, אבל אפשר עדיין ללחוץ מחוץ כדי לסגור אותו.'
+      button: 'פתח פאנל'
+    medium:
+      description: 'הצג פאנל עם טקסט באורך בינוני. לחיצה מחוץ לא תסגור אותו.'
+      button: 'פתח פאנל'
+    long:
+      description: 'הצג פאנל עם טקסט ארוך. הוא מבקש אישור לפני סגירה.'
+      button: 'פתח פאנל'
+    form_rendered:
+      description: 'הצג טופס דמו מוכן בתוך פאנל. Escape ולחיצה מחוץ מושבתות, והוא מבקש אישור לפני סגירה אם הטופס שונה.'
+      button: 'פתח פאנל'
+    form_ajax:
+      description: 'הצג טופס דמו מוכן בתוך פאנל באמצעות AJAX. Escape ולחיצה מחוץ מושבתות, והוא מבקש אישור לפני סגירה אם הטופס שונה.'
+      button: 'פתח פאנל'
+    recursive:
+      description: 'פתח דף דיאלוג בתוך דיאלוג אחר — בחר מודאלי או פאנל.'
+      button_modal: 'פתח במודאלי'
+      button_panel: 'פתח בפאנל'
+
+hi:
+  page_title: पैनल
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'टैब्स वाला पैनल। इसे खोलें, टैब्स स्विच करें, F5 दबाएँ — पैनल उसी टैब पर फिर से खुलता है।'
+      button: 'पैनल खोलें'
+    simple:
+      description: 'एक साधारण पैनल दिखाएँ। आप इसे Escape दबाकर या पैनल के बाहर क्लिक करके बंद कर सकते हैं।'
+      button: 'पैनल खोलें'
+    components:
+      description: 'घटक और टोस्ट ट्रिगर वाला पैनल दिखाएँ। Escape बंद नहीं है, लेकिन आप अभी भी बाहर क्लिक करके इसे बंद कर सकते हैं।'
+      button: 'पैनल खोलें'
+    medium:
+      description: 'मध्यम लंबाई के पाठ वाला पैनल दिखाएँ। बाहर क्लिक करने से यह बंद नहीं होगा।'
+      button: 'पैनल खोलें'
+    long:
+      description: 'लंबे पाठ वाला पैनल दिखाएँ। बंद करने से पहले यह पुष्टि मांगता है।'
+      button: 'पैनल खोलें'
+    form_rendered:
+      description: 'पैनल के अंदर एक प्रस्तुत डेमो फॉर्म दिखाएँ। Escape और बाहर क्लिक अक्षम हैं, और यदि फॉर्म को संशोधित किया गया है तो यह बंद करने से पहले पुष्टि मांगता है।'
+      button: 'पैनल खोलें'
+    form_ajax:
+      description: 'AJAX का उपयोग करके एक प्रस्तुत डेमो फॉर्म पैनल के अंदर दिखाएँ। Escape और बाहर क्लिक अक्षम हैं, और यदि फॉर्म को संशोधित किया गया है तो यह बंद करने से पहले पुष्टि मांगता है।'
+      button: 'पैनल खोलें'
+    recursive:
+      description: 'एक संवाद पृष्ठ को दूसरे संवाद के अंदर खोलें — मॉडल या पैनल चुनें।'
+      button_modal: 'मॉडल में खोलें'
+      button_panel: 'पैनल में खोलें'
+
+id:
+  page_title: Panel
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Panel dengan tab. Buka, ganti tab, tekan F5 — panel akan terbuka kembali pada tab yang sama.'
+      button: 'Buka panel'
+    simple:
+      description: 'Tampilkan panel sederhana. Anda dapat menutupnya dengan Escape atau dengan mengklik di luar panel.'
+      button: 'Buka panel'
+    components:
+      description: 'Tampilkan panel dengan komponen dan pemicu toast. Escape dinonaktifkan, tetapi Anda masih bisa mengklik di luar untuk menutupnya.'
+      button: 'Buka panel'
+    medium:
+      description: 'Tampilkan panel dengan teks panjang sedang. Mengklik di luar tidak akan menutupnya.'
+      button: 'Buka panel'
+    long:
+      description: 'Tampilkan panel dengan teks panjang. Panel ini meminta konfirmasi sebelum menutup.'
+      button: 'Buka panel'
+    form_rendered:
+      description: 'Tampilkan formulir demo yang dirender di dalam panel. Escape dan klik di luar dinonaktifkan, dan akan meminta konfirmasi sebelum menutup jika formulir telah dimodifikasi.'
+      button: 'Buka panel'
+    form_ajax:
+      description: 'Tampilkan formulir demo yang dirender di dalam panel menggunakan AJAX. Escape dan klik di luar dinonaktifkan, dan akan meminta konfirmasi sebelum menutup jika formulir telah dimodifikasi.'
+      button: 'Buka panel'
+    recursive:
+      description: 'Buka halaman dialog di dalam dialog lain — pilih modal atau panel.'
+      button_modal: 'Buka dalam modal'
+      button_panel: 'Buka dalam panel'
+
+it:
+  page_title: Pannello
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Pannello con schede. Aprilo, cambia schede, premi F5 — il pannello si riapre sulla stessa scheda.'
+      button: 'Apri pannello'
+    simple:
+      description: "Mostra un pannello semplice. Puoi chiuderlo con Esc o cliccando all'esterno del pannello."
+      button: 'Apri pannello'
+    components:
+      description: "Mostra un pannello con componenti e un attivatore di toast. Esc è disabilitato, ma puoi comunque cliccare all'esterno per chiuderlo."
+      button: 'Apri pannello'
+    medium:
+      description: "Mostra un pannello con testo di media lunghezza. Cliccando all'esterno non si chiuderà."
+      button: 'Apri pannello'
+    long:
+      description: 'Mostra un pannello con testo lungo. Richiede conferma prima di chiudere.'
+      button: 'Apri pannello'
+    form_rendered:
+      description: "Mostra un modulo demo renderizzato all'interno di un pannello. Esc e il clic all'esterno sono disabilitati, e richiede conferma prima di chiudere se il modulo è stato modificato."
+      button: 'Apri pannello'
+    form_ajax:
+      description: "Mostra un modulo demo renderizzato all'interno di un pannello usando AJAX. Esc e il clic all'esterno sono disabilitati, e richiede conferma prima di chiudere se il modulo è stato modificato."
+      button: 'Apri pannello'
+    recursive:
+      description: "Apri una pagina di dialogo all'interno di un'altra dialogo — scegli modale o pannello."
+      button_modal: 'Apri in modale'
+      button_panel: 'Apri in pannello'
+
+ja:
+  page_title: パネル
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: タブ付きのパネル。開いてタブを切り替え、F5を押すと、同じタブでパネルが再表示されます。
+      button: パネルを開く
+    simple:
+      description: シンプルなパネルを表示します。Escapeキーを押すか、パネルの外をクリックすると閉じることができます。
+      button: パネルを開く
+    components:
+      description: コンポーネントとトーストトリガーを持つパネルを表示します。Escapeキーは無効ですが、外をクリックして閉じることはできます。
+      button: パネルを開く
+    medium:
+      description: 中程度の長さのテキストを持つパネルを表示します。外をクリックしても閉じません。
+      button: パネルを開く
+    long:
+      description: 長いテキストを持つパネルを表示します。閉じる前に確認を求めます。
+      button: パネルを開く
+    form_rendered:
+      description: パネル内にレンダリングされたデモフォームを表示します。Escapeキーと外クリックは無効で、フォームが変更されていた場合は閉じる前に確認を求めます。
+      button: パネルを開く
+    form_ajax:
+      description: AJAXを使用してパネル内にレンダリングされたデモフォームを表示します。Escapeキーと外クリックは無効で、フォームが変更されていた場合は閉じる前に確認を求めます。
+      button: パネルを開く
+    recursive:
+      description: '別のダイアログ内にダイアログページを開きます — モーダルまたはパネルを選択します。'
+      button_modal: モーダルで開く
+      button_panel: パネルで開く
+
+ko:
+  page_title: 패널
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: '탭이 있는 패널입니다. 패널을 열고, 탭을 전환한 후 F5를 누르면 같은 탭에서 패널이 다시 열립니다.'
+      button: '패널 열기'
+    simple:
+      description: '간단한 패널을 표시합니다. Escape 키를 누르거나 패널 외부를 클릭하여 닫을 수 있습니다.'
+      button: '패널 열기'
+    components:
+      description: '컴포넌트와 토스트 트리거가 있는 패널을 표시합니다. Escape는 비활성화되어 있지만, 여전히 외부를 클릭하여 닫을 수 있습니다.'
+      button: '패널 열기'
+    medium:
+      description: '중간 길이의 텍스트가 있는 패널을 표시합니다. 외부 클릭으로는 닫히지 않습니다.'
+      button: '패널 열기'
+    long:
+      description: '긴 텍스트가 있는 패널을 표시합니다. 닫기 전에 확인을 요청합니다.'
+      button: '패널 열기'
+    form_rendered:
+      description: '패널 내에 렌더링된 데모 양식을 표시합니다. Escape와 외부 클릭은 비활성화되어 있으며, 양식이 수정된 경우 닫기 전에 확인을 요청합니다.'
+      button: '패널 열기'
+    form_ajax:
+      description: 'AJAX를 사용하여 패널 내에 렌더링된 데모 양식을 표시합니다. Escape와 외부 클릭은 비활성화되어 있으며, 양식이 수정된 경우 닫기 전에 확인을 요청합니다.'
+      button: '패널 열기'
+    recursive:
+      description: '다른 대화 상자 내에서 대화 상자 페이지를 엽니다 — 모달 또는 패널을 선택하세요.'
+      button_modal: '모달로 열기'
+      button_panel: '패널로 열기'
+
+nl:
+  page_title: Paneel
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Paneel met tabbladen. Open het, wissel van tabblad, druk op F5 — het paneel opent opnieuw op hetzelfde tabblad.'
+      button: 'Paneel openen'
+    simple:
+      description: 'Toon een eenvoudig paneel. Je kunt het sluiten met Escape of door buiten het paneel te klikken.'
+      button: 'Paneel openen'
+    components:
+      description: 'Toon een paneel met componenten en een toast-trigger. Escape is uitgeschakeld, maar je kunt nog steeds buiten klikken om het te sluiten.'
+      button: 'Paneel openen'
+    medium:
+      description: 'Toon een paneel met tekst van gemiddelde lengte. Klikken buiten zal het niet sluiten.'
+      button: 'Paneel openen'
+    long:
+      description: 'Toon een paneel met lange tekst. Het vraagt om bevestiging voordat het sluit.'
+      button: 'Paneel openen'
+    form_rendered:
+      description: 'Toon een weergegeven demoformulier binnen een paneel. Escape en buiten klikken zijn uitgeschakeld, en het vraagt voordat het sluit of het formulier is gewijzigd.'
+      button: 'Paneel openen'
+    form_ajax:
+      description: 'Toon een weergegeven demoformulier binnen een paneel met AJAX. Escape en buiten klikken zijn uitgeschakeld, en het vraagt voordat het sluit of het formulier is gewijzigd.'
+      button: 'Paneel openen'
+    recursive:
+      description: 'Open een dialoogpagina binnen een andere dialoog — kies modaal of paneel.'
+      button_modal: 'Open in modaal'
+      button_panel: 'Open in paneel'
+
+pl:
+  page_title: Panel
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Panel z zakładkami. Otwórz go, przełączaj zakładki, naciśnij F5 — panel otworzy się na tej samej zakładce.'
+      button: 'Otwórz panel'
+    simple:
+      description: 'Pokaż prosty panel. Możesz go zamknąć klawiszem Escape lub klikając poza panelem.'
+      button: 'Otwórz panel'
+    components:
+      description: 'Pokaż panel z komponentami i wyzwalaczem powiadomienia. Escape jest wyłączony, ale nadal możesz kliknąć poza, aby go zamknąć.'
+      button: 'Otwórz panel'
+    medium:
+      description: 'Pokaż panel z tekstem średniej długości. Kliknięcie poza nim nie zamknie go.'
+      button: 'Otwórz panel'
+    long:
+      description: 'Pokaż panel z długim tekstem. Prosi o potwierdzenie przed zamknięciem.'
+      button: 'Otwórz panel'
+    form_rendered:
+      description: 'Pokaż renderowany formularz demonstracyjny w panelu. Escape i kliknięcie poza są wyłączone, a przed zamknięciem zapyta, czy formularz był modyfikowany.'
+      button: 'Otwórz panel'
+    form_ajax:
+      description: 'Pokaż renderowany formularz demonstracyjny w panelu używając AJAX. Escape i kliknięcie poza są wyłączone, a przed zamknięciem zapyta, czy formularz był modyfikowany.'
+      button: 'Otwórz panel'
+    recursive:
+      description: 'Otwórz stronę dialogową w innej dialogowej — wybierz modal lub panel.'
+      button_modal: 'Otwórz w modalnym'
+      button_panel: 'Otwórz w panelu'
+
+pt_BR:
+  page_title: Painel
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Painel com abas. Abra-o, troque de abas, pressione F5 — o painel reabre na mesma aba.'
+      button: 'Abrir painel'
+    simple:
+      description: 'Mostrar um painel simples. Você pode fechá-lo com Escape ou clicando fora do painel.'
+      button: 'Abrir painel'
+    components:
+      description: 'Mostrar um painel com componentes e um gatilho de toast. Escape está desativado, mas você ainda pode clicar fora para fechá-lo.'
+      button: 'Abrir painel'
+    medium:
+      description: 'Mostrar um painel com texto de comprimento médio. Clicar fora não o fechará.'
+      button: 'Abrir painel'
+    long:
+      description: 'Mostrar um painel com texto longo. Ele pede confirmação antes de fechar.'
+      button: 'Abrir painel'
+    form_rendered:
+      description: 'Mostrar um formulário de demonstração renderizado dentro de um painel. Escape e clique fora estão desativados, e ele pergunta antes de fechar se o formulário foi modificado.'
+      button: 'Abrir painel'
+    form_ajax:
+      description: 'Mostrar um formulário de demonstração renderizado dentro de um painel usando AJAX. Escape e clique fora estão desativados, e ele pergunta antes de fechar se o formulário foi modificado.'
+      button: 'Abrir painel'
+    recursive:
+      description: 'Abrir uma página de diálogo dentro de outro diálogo — escolha modal ou painel.'
+      button_modal: 'Abrir em modal'
+      button_panel: 'Abrir em painel'
+
+ru:
+  page_title: Панель
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Панель с вкладками. Откройте её, переключите вкладки, нажмите F5 — панель откроется на той же вкладке.'
+      button: 'Открыть панель'
+    simple:
+      description: 'Показать простую панель. Вы можете закрыть её с помощью Esc или щелчка вне панели.'
+      button: 'Открыть панель'
+    components:
+      description: 'Показать панель с компонентами и триггером тоста. Esc отключен, но вы все равно можете щелкнуть вне панели, чтобы закрыть её.'
+      button: 'Открыть панель'
+    medium:
+      description: 'Показать панель со средним текстом. Щелчок вне не закроет её.'
+      button: 'Открыть панель'
+    long:
+      description: 'Показать панель с длинным текстом. Запрашивает подтверждение перед закрытием.'
+      button: 'Открыть панель'
+    form_rendered:
+      description: 'Показать отрендеренную демо-форму внутри панели. Esc и щелчок вне отключены, и она спрашивает перед закрытием, если форма была изменена.'
+      button: 'Открыть панель'
+    form_ajax:
+      description: 'Показать отрендеренную демо-форму внутри панели с использованием AJAX. Esc и щелчок вне отключены, и она спрашивает перед закрытием, если форма была изменена.'
+      button: 'Открыть панель'
+    recursive:
+      description: 'Открыть диалоговую страницу внутри другого диалога — выберите модальное окно или панель.'
+      button_modal: 'Открыть в модальном окне'
+      button_panel: 'Открыть в панели'
+
+th:
+  page_title: แผงควบคุม
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'แผงควบคุมมีแท็บ เปิดมัน เปลี่ยนแท็บ กด F5 — แผงควบคุมจะเปิดขึ้นที่แท็บเดิม'
+      button: เปิดแผงควบคุม
+    simple:
+      description: 'แสดงแผงควบคุมแบบง่าย คุณสามารถปิดมันได้ด้วย Escape หรือการคลิกนอกแผงควบคุม'
+      button: เปิดแผงควบคุม
+    components:
+      description: 'แสดงแผงควบคุมที่มีส่วนประกอบและตัวกระตุ้นการแจ้งเตือน Escape ถูกปิดใช้งาน แต่คุณยังสามารถคลิกนอกเพื่อปิดมันได้'
+      button: เปิดแผงควบคุม
+    medium:
+      description: 'แสดงแผงควบคุมที่มีข้อความยาวปานกลาง การคลิกนอกจะไม่ปิดมัน'
+      button: เปิดแผงควบคุม
+    long:
+      description: 'แสดงแผงควบคุมที่มีข้อความยาว มันจะขอการยืนยันก่อนที่จะปิด'
+      button: เปิดแผงควบคุม
+    form_rendered:
+      description: 'แสดงแบบฟอร์มตัวอย่างที่เรนเดอร์แล้วภายในแผงควบคุม Escape และการคลิกนอกถูกปิดใช้งาน และมันจะขอการยืนยันก่อนปิดถ้าแบบฟอร์มถูกแก้ไข'
+      button: เปิดแผงควบคุม
+    form_ajax:
+      description: 'แสดงแบบฟอร์มตัวอย่างที่เรนเดอร์แล้วภายในแผงควบคุมโดยใช้ AJAX Escape และการคลิกนอกถูกปิดใช้งาน และมันจะขอการยืนยันก่อนปิดถ้าแบบฟอร์มถูกแก้ไข'
+      button: เปิดแผงควบคุม
+    recursive:
+      description: 'เปิดหน้าต่างสนทนาในหน้าต่างสนทนาอื่น — เลือกโมดัลหรือแผงควบคุม'
+      button_modal: เปิดในโมดัล
+      button_panel: เปิดในแผงควบคุม
+
+tr:
+  page_title: Panel
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Sekmeli panel. Açın, sekmeleri değiştirin, F5 tuşuna basın — panel aynı sekmede yeniden açılır.'
+      button: 'Paneli aç'
+    simple:
+      description: 'Basit bir panel göster. Escape tuşuyla veya panelin dışına tıklayarak kapatabilirsin.'
+      button: 'Paneli aç'
+    components:
+      description: 'Bileşenler ve bir toast tetikleyici içeren bir panel göster. Escape devre dışı, ancak yine de kapatmak için dışarıya tıklayabilirsin.'
+      button: 'Paneli aç'
+    medium:
+      description: 'Orta uzunlukta metin içeren bir panel göster. Dışarıya tıklamak paneli kapatmaz.'
+      button: 'Paneli aç'
+    long:
+      description: 'Uzun metin içeren bir panel göster. Kapatmadan önce onay ister.'
+      button: 'Paneli aç'
+    form_rendered:
+      description: 'Bir panel içinde işlenmiş bir demo formu göster. Escape ve dışarıya tıklama devre dışı, form değiştirilmişse kapatmadan önce onay ister.'
+      button: 'Paneli aç'
+    form_ajax:
+      description: 'AJAX kullanarak bir panel içinde işlenmiş bir demo formu göster. Escape ve dışarıya tıklama devre dışı, form değiştirilmişse kapatmadan önce onay ister.'
+      button: 'Paneli aç'
+    recursive:
+      description: 'Bir diyalog penceresi içinde başka bir diyalog sayfası aç — modal veya panel seç.'
+      button_modal: 'Modalda aç'
+      button_panel: 'Panelde aç'
+
+ur:
+  page_title: پینل
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'ٹیب کے ساتھ پینل۔ اسے کھولیں، ٹیب بدلیں، F5 دبائیں — پینل اسی ٹیب پر دوبارہ کھلتا ہے۔'
+      button: 'پینل کھولیں'
+    simple:
+      description: 'ایک سادہ پینل دکھائیں۔ آپ اسے Escape دباکر یا پینل کے باہر کلک کرکے بند کر سکتے ہیں۔'
+      button: 'پینل کھولیں'
+    components:
+      description: 'اجزاء اور ایک ٹوسٹ ٹریگر کے ساتھ پینل دکھائیں۔ Escape غیر فعال ہے، لیکن آپ باہر کلک کرکے ابھی بھی اسے بند کر سکتے ہیں۔'
+      button: 'پینل کھولیں'
+    medium:
+      description: 'درمیانی لمبائی کا متن دکھانے والا پینل۔ باہر کلک کرنے سے یہ بند نہیں ہوگا۔'
+      button: 'پینل کھولیں'
+    long:
+      description: 'طویل متن دکھانے والا پینل۔ بند کرنے سے پہلے تصدیق مانگتا ہے۔'
+      button: 'پینل کھولیں'
+    form_rendered:
+      description: 'پینل کے اندر ایک ڈیمو فارم دکھائیں۔ Escape اور باہر کلک غیر فعال ہیں، اور اگر فارم میں تبدیلی کی گئی تو بند کرنے سے پہلے تصدیق مانگتا ہے۔'
+      button: 'پینل کھولیں'
+    form_ajax:
+      description: 'AJAX کا استعمال کرتے ہوئے پینل کے اندر ایک ڈیمو فارم دکھائیں۔ Escape اور باہر کلک غیر فعال ہیں، اور اگر فارم میں تبدیلی کی گئی تو بند کرنے سے پہلے تصدیق مانگتا ہے۔'
+      button: 'پینل کھولیں'
+    recursive:
+      description: 'ایک ڈائیلاگ کے اندر دوسرے ڈائیلاگ کا صفحہ کھولیں — موڈل یا پینل کا انتخاب کریں۔'
+      button_modal: 'موڈل میں کھولیں'
+      button_panel: 'پینل میں کھولیں'
+
+vi:
+  page_title: 'Bảng điều khiển'
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: 'Bảng điều khiển với các tab. Mở nó, chuyển tab, nhấn F5 — bảng điều khiển sẽ mở lại ở cùng một tab.'
+      button: 'Mở bảng điều khiển'
+    simple:
+      description: 'Hiển thị một bảng điều khiển đơn giản. Bạn có thể đóng nó bằng phím Escape hoặc bằng cách nhấp ra ngoài bảng điều khiển.'
+      button: 'Mở bảng điều khiển'
+    components:
+      description: 'Hiển thị một bảng điều khiển với các thành phần và một nút thông báo. Phím Escape bị vô hiệu hóa, nhưng bạn vẫn có thể nhấp ra ngoài để đóng nó.'
+      button: 'Mở bảng điều khiển'
+    medium:
+      description: 'Hiển thị một bảng điều khiển với văn bản dài vừa. Nhấp ra ngoài sẽ không đóng nó.'
+      button: 'Mở bảng điều khiển'
+    long:
+      description: 'Hiển thị một bảng điều khiển với văn bản dài. Nó sẽ yêu cầu xác nhận trước khi đóng.'
+      button: 'Mở bảng điều khiển'
+    form_rendered:
+      description: 'Hiển thị một mẫu demo đã được hiển thị bên trong bảng điều khiển. Phím Escape và nhấp ra ngoài đều bị vô hiệu hóa, và nó sẽ hỏi trước khi đóng nếu mẫu đã được sửa đổi.'
+      button: 'Mở bảng điều khiển'
+    form_ajax:
+      description: 'Hiển thị một mẫu demo đã được hiển thị bên trong bảng điều khiển sử dụng AJAX. Phím Escape và nhấp ra ngoài đều bị vô hiệu hóa, và nó sẽ hỏi trước khi đóng nếu mẫu đã được sửa đổi.'
+      button: 'Mở bảng điều khiển'
+    recursive:
+      description: 'Mở một trang hộp thoại bên trong một hộp thoại khác — chọn kiểu modal hoặc bảng điều khiển.'
+      button_modal: 'Mở trong modal'
+      button_panel: 'Mở trong bảng điều khiển'
+
+zh:
+  page_title: 面板
+  page_icon: 'ph:bold/sidebar-simple-duotone'
+  section:
+    persist:
+      description: '带标签的面板。打开它，切换标签，按F5 — 面板将在同一标签上重新打开。'
+      button: 打开面板
+    simple:
+      description: 显示一个简单的面板。您可以按Escape键或单击面板外部来关闭它。
+      button: 打开面板
+    components:
+      description: 显示一个带有组件和吐司触发器的面板。Escape键被禁用，但您仍然可以单击外部来关闭它。
+      button: 打开面板
+    medium:
+      description: 显示一个包含中等长度文本的面板。单击外部不会关闭它。
+      button: 打开面板
+    long:
+      description: 显示一个包含长文本的面板。在关闭之前会要求确认。
+      button: 打开面板
+    form_rendered:
+      description: 在面板内显示一个渲染的演示表单。Escape和外部单击被禁用，如果表单被修改，关闭时会询问。
+      button: 打开面板
+    form_ajax:
+      description: 在面板内使用AJAX显示一个渲染的演示表单。Escape和外部单击被禁用，如果表单被修改，关闭时会询问。
+      button: 打开面板
+    recursive:
+      description: '在另一个对话框内打开一个对话框页面 — 选择模态或面板。'
+      button_modal: 在模态中打开
+      button_panel: 在面板中打开

@@ -1,0 +1,2948 @@
+en:
+  field:
+    entity_search:
+      label: Room
+      placeholder: Search a room...
+      help: Picks a record by searching for it. What the form carries is its id.
+    password:
+      label: Password
+      help: Enter your password to authenticate.
+      error:
+        ERR_FIELD_PASSWORD_INVALID: Password is invalid for test purpose.
+    emoji:
+      label: Emoji
+      help: Pick an emoji to represent your mood.
+      error:
+        ERR_FIELD_EMOJI_INVALID: Emoji is invalid for test purpose.
+    text_simple:
+      label: Text
+      help: A single-line text input for short content.
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: Text is invalid for test purpose.
+    text_area:
+      label: Long text
+      placeholder: Type whatever you want...
+      help: A multi-line text area for longer content.
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: Long text is invalid for test purpose.
+    behavior:
+      label: Behavior
+      help: Choose how the form reacts after submission.
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: Behavior selection is invalid for test purpose.
+      choice:
+        error:
+          label: Show errors
+          description: closes the embed (or does nothing in-page).
+        js:
+          label: JS action (toast)
+          description: returns validation errors.
+        redirect:
+          label: Redirect
+          description: triggers a toast without submitting.
+        default:
+          label: Default
+          description: navigates the full page, or close the modal.
+        embed_stay:
+          label: Keep embed open (modal / panel)
+          description: stays open in modal/panel.
+        embed_redirect:
+          label: Redirect in embed (modal / panel)
+          description: navigates inside the modal/panel.
+
+    date:
+      label: Date
+      help: Select a date using the date picker.
+      error:
+        ERR_FIELD_DATE_INVALID: Date is invalid for test purpose.
+    datetime:
+      label: Date & time
+      help: Select a date and time combined.
+      error:
+        ERR_FIELD_DATETIME_INVALID: Date & time is invalid for test purpose.
+    time:
+      label: Time
+      help: Select a time of day.
+      error:
+        ERR_FIELD_TIME_INVALID: Time is invalid for test purpose.
+    file:
+      label: File
+      help: Upload one or more files from your device.
+      error:
+        ERR_FIELD_FILE_INVALID: File is invalid for test purpose.
+    email:
+      label: Email
+      placeholder: you@example.com
+      help: Enter a valid email address.
+      error:
+        ERR_FIELD_EMAIL_INVALID: Email is invalid for test purpose.
+    number:
+      label: Number
+      help: Enter a numeric value.
+      error:
+        ERR_FIELD_NUMBER_INVALID: Number is invalid for test purpose.
+    url:
+      label: URL
+      placeholder: https://
+      help: Enter a full URL including the protocol.
+      error:
+        ERR_FIELD_URL_INVALID: URL is invalid for test purpose.
+    switch:
+      label: Switch
+      help: Toggle this option on or off.
+      error:
+        ERR_FIELD_SWITCH_INVALID: Switch is invalid for test purpose.
+    radio_choice:
+      label: Radio choice
+      help: Select one option from the list.
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: Radio choice is invalid for test purpose.
+      choice:
+        option_a:
+          label: Option A
+        option_b:
+          label: Option B
+        option_c:
+          label: Option C
+
+  action:
+    button_demo: Do nothing
+    submit_default: Submit
+    submit_error: Show errors
+    submit_js: JS action
+    submit_redirect: Redirect
+    submit_embed_stay: Keep embed open
+    submit_embed_redirect: Redirect in embed
+
+  error:
+    ERR_FORM_TEST:
+      message: Global error for test purpose.
+
+  description: |
+    Use this form to test submit behaviors. This demo is available in page, ajax, and modal contexts. Pick a behavior below and submit:
+
+  toast:
+    success:
+      title: Success
+      message: Form submitted successfully.
+    js_action:
+      title: JS action
+      message: Do you want to reactivate the form?
+      reactivate: Reactivate
+      dismiss: Dismiss
+
+ar:
+  field:
+    entity_search:
+      label: غرفة
+      placeholder: 'ابحث عن غرفة...'
+      help: 'اختر سجلًا من خلال البحث عنه. ما تحمله النموذج هو معرفه.'
+    password:
+      label: 'كلمة المرور'
+      help: 'أدخل كلمة المرور الخاصة بك للمصادقة.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'كلمة المرور غير صالحة لأغراض الاختبار.'
+    emoji:
+      label: 'رمز تعبيري'
+      help: 'اختر رمزًا تعبيريًا يمثل مزاجك.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'الرمز التعبيري غير صالح لأغراض الاختبار.'
+    text_simple:
+      label: نص
+      help: 'مدخل نصي بخط واحد لمحتوى قصير.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'النص غير صالح لأغراض الاختبار.'
+    text_area:
+      label: 'نص طويل'
+      placeholder: 'اكتب ما تريد...'
+      help: 'منطقة نص متعددة الأسطر لمحتوى أطول.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'النص الطويل غير صالح لأغراض الاختبار.'
+    behavior:
+      label: سلوك
+      help: 'اختر كيفية تفاعل النموذج بعد الإرسال.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'اختيار السلوك غير صالح لأغراض الاختبار.'
+      choice:
+        error:
+          label: 'عرض الأخطاء'
+          description: 'يغلق المدمج (أو لا يفعل شيئًا في الصفحة).'
+        js:
+          label: 'إجراء JS (تنبيه)'
+          description: 'يعيد أخطاء التحقق.'
+        redirect:
+          label: 'إعادة توجيه'
+          description: 'يثير تنبيهًا دون إرسال.'
+        default:
+          label: افتراضي
+          description: 'يتنقل في الصفحة الكاملة، أو يغلق النافذة المنبثقة.'
+        embed_stay:
+          label: 'ابقِ المدمج مفتوحًا (نافذة منبثقة / لوحة)'
+          description: 'يبقى مفتوحًا في نافذة منبثقة/لوحة.'
+        embed_redirect:
+          label: 'إعادة توجيه في المدمج (نافذة منبثقة / لوحة)'
+          description: 'يتنقل داخل النافذة المنبثقة/اللوحة.'
+    date:
+      label: تاريخ
+      help: 'اختر تاريخًا باستخدام أداة اختيار التاريخ.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'التاريخ غير صالح لأغراض الاختبار.'
+    datetime:
+      label: 'تاريخ ووقت'
+      help: 'اختر تاريخًا ووقتًا معًا.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'التاريخ والوقت غير صالحين لأغراض الاختبار.'
+    time:
+      label: وقت
+      help: 'اختر وقتًا من اليوم.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'الوقت غير صالح لأغراض الاختبار.'
+    file:
+      label: ملف
+      help: 'قم بتحميل ملف أو أكثر من جهازك.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'الملف غير صالح لأغراض الاختبار.'
+    email:
+      label: 'البريد الإلكتروني'
+      placeholder: you@example.com
+      help: 'أدخل عنوان بريد إلكتروني صالح.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'البريد الإلكتروني غير صالح لأغراض الاختبار.'
+    number:
+      label: رقم
+      help: 'أدخل قيمة عددية.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'الرقم غير صالح لأغراض الاختبار.'
+    url:
+      label: رابط
+      placeholder: 'https://'
+      help: 'أدخل رابطًا كاملاً بما في ذلك البروتوكول.'
+      error:
+        ERR_FIELD_URL_INVALID: 'الرابط غير صالح لأغراض الاختبار.'
+    switch:
+      label: تبديل
+      help: 'قم بتبديل هذا الخيار تشغيلًا أو إيقافًا.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'التبديل غير صالح لأغراض الاختبار.'
+    radio_choice:
+      label: 'اختيار إذاعي'
+      help: 'اختر خيارًا واحدًا من القائمة.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'الاختيار الإذاعي غير صالح لأغراض الاختبار.'
+      choice:
+        option_a:
+          label: 'الخيار A'
+        option_b:
+          label: 'الخيار B'
+        option_c:
+          label: 'الخيار C'
+  action:
+    button_demo: 'افعل لا شيء'
+    submit_default: إرسال
+    submit_error: 'عرض الأخطاء'
+    submit_js: 'إجراء JS'
+    submit_redirect: 'إعادة توجيه'
+    submit_embed_stay: 'ابقِ المدمج مفتوحًا'
+    submit_embed_redirect: 'إعادة توجيه في المدمج'
+  error:
+    ERR_FORM_TEST:
+      message: 'خطأ عالمي لأغراض الاختبار.'
+  description: |
+    استخدم هذا النموذج لاختبار سلوكيات الإرسال. هذه النسخة التجريبية متاحة في سياقات الصفحة، وAjax، ونافذة منبثقة. اختر سلوكًا أدناه وقدم:
+  toast:
+    success:
+      title: نجاح
+      message: 'تم تقديم النموذج بنجاح.'
+    js_action:
+      title: 'إجراء JS'
+      message: 'هل تريد إعادة تنشيط النموذج؟'
+      reactivate: 'إعادة تنشيط'
+      dismiss: تجاهل
+
+bn:
+  field:
+    entity_search:
+      label: ঘর
+      placeholder: 'একটি ঘর খুঁজুন...'
+      help: 'একটি রেকর্ড খুঁজে বের করে নির্বাচন করুন। ফর্মে যা আছে তা হল এর আইডি।'
+    password:
+      label: পাসওয়ার্ড
+      help: 'প্রমাণীকরণের জন্য আপনার পাসওয়ার্ড প্রবেশ করুন।'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'পাসওয়ার্ড পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    emoji:
+      label: ইমোজি
+      help: 'আপনার মেজাজ প্রকাশ করতে একটি ইমোজি বেছে নিন।'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'ইমোজি পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    text_simple:
+      label: টেক্সট
+      help: 'ছোট বিষয়বস্তুর জন্য একটি একক লাইনের টেক্সট ইনপুট।'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'টেক্সট পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    text_area:
+      label: 'দীর্ঘ টেক্সট'
+      placeholder: 'আপনি যা চান লিখুন...'
+      help: 'দীর্ঘ বিষয়বস্তুর জন্য একটি বহু-লাইন টেক্সট এরিয়া।'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'দীর্ঘ টেক্সট পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    behavior:
+      label: আচরণ
+      help: 'জমা দেওয়ার পর ফর্মটি কিভাবে প্রতিক্রিয়া জানাবে তা নির্বাচন করুন।'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'আচরণ নির্বাচন পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+      choice:
+        error:
+          label: 'ত্রুটি দেখান'
+          description: 'অন্তর্ভুক্তি বন্ধ করে (অথবা পৃষ্ঠায় কিছুই করে না)।'
+        js:
+          label: 'JS অ্যাকশন (টোস্ট)'
+          description: 'প্রমাণীকরণ ত্রুটিগুলি ফেরত দেয়।'
+        redirect:
+          label: 'পুনঃনির্দেশিত করুন'
+          description: 'জমা না দিয়ে একটি টোস্ট চালু করে।'
+        default:
+          label: ডিফল্ট
+          description: 'সম্পূর্ণ পৃষ্ঠায় নেভিগেট করে, অথবা মডাল বন্ধ করে।'
+        embed_stay:
+          label: 'অন্তর্ভুক্তি খোলা রাখুন (মডাল / প্যানেল)'
+          description: 'মডাল/প্যানেলে খোলা থাকে।'
+        embed_redirect:
+          label: 'অন্তর্ভুক্তিতে পুনঃনির্দেশিত করুন (মডাল / প্যানেল)'
+          description: 'মডাল/প্যানেলের ভিতরে নেভিগেট করে।'
+    date:
+      label: তারিখ
+      help: 'তারিখ পিকার ব্যবহার করে একটি তারিখ নির্বাচন করুন।'
+      error:
+        ERR_FIELD_DATE_INVALID: 'তারিখ পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    datetime:
+      label: 'তারিখ ও সময়'
+      help: 'একত্রিত তারিখ এবং সময় নির্বাচন করুন।'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'তারিখ ও সময় পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    time:
+      label: সময়
+      help: 'একদিনের সময় নির্বাচন করুন।'
+      error:
+        ERR_FIELD_TIME_INVALID: 'সময় পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    file:
+      label: ফাইল
+      help: 'আপনার ডিভাইস থেকে এক বা একাধিক ফাইল আপলোড করুন।'
+      error:
+        ERR_FIELD_FILE_INVALID: 'ফাইল পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    email:
+      label: ইমেইল
+      placeholder: you@example.com
+      help: 'একটি বৈধ ইমেইল ঠিকানা প্রবেশ করুন।'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ইমেইল পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    number:
+      label: সংখ্যা
+      help: 'একটি সংখ্যামূলক মান প্রবেশ করুন।'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'সংখ্যা পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'প্রোটোকলসহ সম্পূর্ণ URL প্রবেশ করুন।'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    switch:
+      label: সুইচ
+      help: 'এই বিকল্পটি চালু বা বন্ধ করুন।'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'সুইচ পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    radio_choice:
+      label: 'রেডিও নির্বাচন'
+      help: 'তালিকা থেকে একটি বিকল্প নির্বাচন করুন।'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'রেডিও নির্বাচন পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+      choice:
+        option_a:
+          label: 'অপশন A'
+        option_b:
+          label: 'অপশন B'
+        option_c:
+          label: 'অপশন C'
+  action:
+    button_demo: 'কিছুই করবেন না'
+    submit_default: 'জমা দিন'
+    submit_error: 'ত্রুটি দেখান'
+    submit_js: 'JS অ্যাকশন'
+    submit_redirect: 'পুনঃনির্দেশিত করুন'
+    submit_embed_stay: 'অন্তর্ভুক্তি খোলা রাখুন'
+    submit_embed_redirect: 'অন্তর্ভুক্তিতে পুনঃনির্দেশিত করুন'
+  error:
+    ERR_FORM_TEST:
+      message: 'পরীক্ষার উদ্দেশ্যে গ্লোবাল ত্রুটি।'
+  description: |
+    জমা দেওয়ার আচরণ পরীক্ষার জন্য এই ফর্মটি ব্যবহার করুন। এই ডেমো পৃষ্ঠায়, AJAX, এবং মডাল প্রসঙ্গে উপলব্ধ। নীচে একটি আচরণ বেছে নিন এবং জমা দিন:
+  toast:
+    success:
+      title: সাফল্য
+      message: 'ফর্ম সফলভাবে জমা দেওয়া হয়েছে।'
+    js_action:
+      title: 'JS অ্যাকশন'
+      message: 'আপনি কি ফর্মটি পুনরায় সক্রিয় করতে চান?'
+      reactivate: 'পুনরায় সক্রিয় করুন'
+      dismiss: 'অগ্রাহ্য করুন'
+
+de:
+  field:
+    entity_search:
+      label: Raum
+      placeholder: 'Raum suchen...'
+      help: 'Wählt einen Datensatz durch Suche aus. Was das Formular überträgt, ist seine ID.'
+    password:
+      label: Passwort
+      help: 'Geben Sie Ihr Passwort zur Authentifizierung ein.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Passwort ist zu Testzwecken ungültig.'
+    emoji:
+      label: Emoji
+      help: 'Wählen Sie ein Emoji, um Ihre Stimmung darzustellen.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji ist zu Testzwecken ungültig.'
+    text_simple:
+      label: Text
+      help: 'Einzeiliges Texteingabefeld für kurze Inhalte.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Text ist zu Testzwecken ungültig.'
+    text_area:
+      label: 'Langer Text'
+      placeholder: 'Geben Sie ein, was Sie möchten...'
+      help: 'Ein mehrzeiliges Texteingabefeld für längere Inhalte.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Langer Text ist zu Testzwecken ungültig.'
+    behavior:
+      label: Verhalten
+      help: 'Wählen Sie aus, wie das Formular nach der Einsendung reagiert.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Verhaltensauswahl ist zu Testzwecken ungültig.'
+      choice:
+        error:
+          label: 'Fehler anzeigen'
+          description: 'schließt die Einbettung (oder tut nichts auf der Seite).'
+        js:
+          label: 'JS-Aktion (Toast)'
+          description: 'gibt Validierungsfehler zurück.'
+        redirect:
+          label: Weiterleitung
+          description: 'löst einen Toast aus, ohne zu übermitteln.'
+        default:
+          label: Standard
+          description: 'navigiert zur vollständigen Seite oder schließt das Modal.'
+        embed_stay:
+          label: 'Einbettung offen halten (Modal / Panel)'
+          description: 'bleibt im Modal/Panel offen.'
+        embed_redirect:
+          label: 'Weiterleitung in Einbettung (Modal / Panel)'
+          description: 'navigiert innerhalb des Modals/Panels.'
+    date:
+      label: Datum
+      help: 'Wählen Sie ein Datum mit dem Datumsauswähler aus.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Datum ist zu Testzwecken ungültig.'
+    datetime:
+      label: 'Datum & Uhrzeit'
+      help: 'Wählen Sie ein Datum und eine Uhrzeit kombiniert aus.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Datum & Uhrzeit sind zu Testzwecken ungültig.'
+    time:
+      label: Uhrzeit
+      help: 'Wählen Sie eine Tageszeit aus.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Uhrzeit ist zu Testzwecken ungültig.'
+    file:
+      label: Datei
+      help: 'Laden Sie eine oder mehrere Dateien von Ihrem Gerät hoch.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Datei ist zu Testzwecken ungültig.'
+    email:
+      label: E-Mail
+      placeholder: you@example.com
+      help: 'Geben Sie eine gültige E-Mail-Adresse ein.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'E-Mail ist zu Testzwecken ungültig.'
+    number:
+      label: Nummer
+      help: 'Geben Sie einen numerischen Wert ein.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Nummer ist zu Testzwecken ungültig.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Geben Sie eine vollständige URL einschließlich des Protokolls ein.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL ist zu Testzwecken ungültig.'
+    switch:
+      label: Schalter
+      help: 'Schalten Sie diese Option ein oder aus.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Schalter ist zu Testzwecken ungültig.'
+    radio_choice:
+      label: Radioauswahl
+      help: 'Wählen Sie eine Option aus der Liste.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Radioauswahl ist zu Testzwecken ungültig.'
+      choice:
+        option_a:
+          label: 'Option A'
+        option_b:
+          label: 'Option B'
+        option_c:
+          label: 'Option C'
+  action:
+    button_demo: 'Nichts tun'
+    submit_default: Einreichen
+    submit_error: 'Fehler anzeigen'
+    submit_js: JS-Aktion
+    submit_redirect: Weiterleiten
+    submit_embed_stay: 'Einbettung offen halten'
+    submit_embed_redirect: 'Weiterleitung in Einbettung'
+  error:
+    ERR_FORM_TEST:
+      message: 'Globale Fehlermeldung zu Testzwecken.'
+  description: |
+    Verwenden Sie dieses Formular, um Einsendeverhalten zu testen. Diese Demo ist in Seiten-, Ajax- und Modal-Kontexten verfügbar. Wählen Sie ein Verhalten unten aus und senden Sie es ab:
+  toast:
+    success:
+      title: Erfolg
+      message: 'Formular erfolgreich eingereicht.'
+    js_action:
+      title: JS-Aktion
+      message: 'Möchten Sie das Formular reaktivieren?'
+      reactivate: Reaktivieren
+      dismiss: Schließen
+
+es:
+  field:
+    entity_search:
+      label: Habitación
+      placeholder: 'Buscar una habitación...'
+      help: 'Selecciona un registro buscándolo. Lo que lleva el formulario es su id.'
+    password:
+      label: Contraseña
+      help: 'Introduce tu contraseña para autenticarte.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'La contraseña no es válida para fines de prueba.'
+    emoji:
+      label: Emoji
+      help: 'Selecciona un emoji para representar tu estado de ánimo.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'El emoji no es válido para fines de prueba.'
+    text_simple:
+      label: Texto
+      help: 'Un campo de texto de una línea para contenido corto.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'El texto no es válido para fines de prueba.'
+    text_area:
+      label: 'Texto largo'
+      placeholder: 'Escribe lo que quieras...'
+      help: 'Un área de texto de varias líneas para contenido más largo.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'El texto largo no es válido para fines de prueba.'
+    behavior:
+      label: Comportamiento
+      help: 'Elige cómo reacciona el formulario después de enviar.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'La selección de comportamiento no es válida para fines de prueba.'
+      choice:
+        error:
+          label: 'Mostrar errores'
+          description: 'cierra el embebido (o no hace nada en la página).'
+        js:
+          label: 'Acción JS (toast)'
+          description: 'devuelve errores de validación.'
+        redirect:
+          label: Redirigir
+          description: 'genera un toast sin enviar.'
+        default:
+          label: 'Por defecto'
+          description: 'navega a la página completa, o cierra el modal.'
+        embed_stay:
+          label: 'Mantener el embebido abierto (modal / panel)'
+          description: 'se queda abierto en el modal/panel.'
+        embed_redirect:
+          label: 'Redirigir en embebido (modal / panel)'
+          description: 'navega dentro del modal/panel.'
+    date:
+      label: Fecha
+      help: 'Selecciona una fecha usando el selector de fecha.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'La fecha no es válida para fines de prueba.'
+    datetime:
+      label: 'Fecha y hora'
+      help: 'Selecciona una fecha y hora combinadas.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'La fecha y hora no son válidas para fines de prueba.'
+    time:
+      label: Hora
+      help: 'Selecciona una hora del día.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'La hora no es válida para fines de prueba.'
+    file:
+      label: Archivo
+      help: 'Sube uno o más archivos desde tu dispositivo.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'El archivo no es válido para fines de prueba.'
+    email:
+      label: 'Correo electrónico'
+      placeholder: tú@ejemplo.com
+      help: 'Introduce una dirección de correo electrónico válida.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'El correo electrónico no es válido para fines de prueba.'
+    number:
+      label: Número
+      help: 'Introduce un valor numérico.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'El número no es válido para fines de prueba.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Introduce una URL completa incluyendo el protocolo.'
+      error:
+        ERR_FIELD_URL_INVALID: 'La URL no es válida para fines de prueba.'
+    switch:
+      label: Interruptor
+      help: 'Activa o desactiva esta opción.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'El interruptor no es válido para fines de prueba.'
+    radio_choice:
+      label: 'Opción de radio'
+      help: 'Selecciona una opción de la lista.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'La opción de radio no es válida para fines de prueba.'
+      choice:
+        option_a:
+          label: 'Opción A'
+        option_b:
+          label: 'Opción B'
+        option_c:
+          label: 'Opción C'
+  action:
+    button_demo: 'No hacer nada'
+    submit_default: Enviar
+    submit_error: 'Mostrar errores'
+    submit_js: 'Acción JS'
+    submit_redirect: Redirigir
+    submit_embed_stay: 'Mantener el embebido abierto'
+    submit_embed_redirect: 'Redirigir en embebido'
+  error:
+    ERR_FORM_TEST:
+      message: 'Error global para fines de prueba.'
+  description: |
+    Usa este formulario para probar comportamientos de envío. Esta demo está disponible en contextos de página, ajax y modal. Elige un comportamiento a continuación y envía:
+  toast:
+    success:
+      title: Éxito
+      message: 'Formulario enviado con éxito.'
+    js_action:
+      title: 'Acción JS'
+      message: '¿Quieres reactivar el formulario?'
+      reactivate: Reactivar
+      dismiss: Descartar
+
+fa:
+  field:
+    entity_search:
+      label: اتاق
+      placeholder: 'اتاقی را جستجو کنید...'
+      help: 'سندی را با جستجو انتخاب کنید. آنچه فرم حمل می‌کند شناسه آن است.'
+    password:
+      label: گذرواژه
+      help: 'گذرواژه خود را برای احراز هویت وارد کنید.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'گذرواژه برای آزمون معتبر نیست.'
+    emoji:
+      label: ایموجی
+      help: 'یک ایموجی انتخاب کنید تا حس و حال شما را نمایش دهد.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'ایموجی برای آزمون معتبر نیست.'
+    text_simple:
+      label: متن
+      help: 'یک ورودی متن تک‌خطی برای محتواهای کوتاه.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'متن برای آزمون معتبر نیست.'
+    text_area:
+      label: 'متن طولانی'
+      placeholder: 'هر چه می‌خواهید تایپ کنید...'
+      help: 'یک ناحیه متنی چندخطی برای محتواهای طولانی‌تر.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'متن طولانی برای آزمون معتبر نیست.'
+    behavior:
+      label: رفتار
+      help: 'انتخاب کنید که فرم بعد از ارسال چگونه واکنش نشان دهد.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'انتخاب رفتار برای آزمون معتبر نیست.'
+      choice:
+        error:
+          label: 'نمایش خطاها'
+          description: 'embed را می‌بندد (یا در صفحه هیچ کاری انجام نمی‌دهد).'
+        js:
+          label: 'عمل JS (toast)'
+          description: 'خطاهای اعتبارسنجی را برمی‌گرداند.'
+        redirect:
+          label: انتقال
+          description: 'toast را بدون ارسال فعال می‌کند.'
+        default:
+          label: پیش‌فرض
+          description: 'صفحه کامل را هدایت می‌کند یا مودال را می‌بندد.'
+        embed_stay:
+          label: 'نگه‌داشتن embed باز (مودال / پنل)'
+          description: 'در مودال/پنل باز می‌ماند.'
+        embed_redirect:
+          label: 'انتقال در embed (مودال / پنل)'
+          description: 'درون مودال/پنل هدایت می‌کند.'
+    date:
+      label: تاریخ
+      help: 'تاریخ را با استفاده از انتخاب‌گر تاریخ انتخاب کنید.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'تاریخ برای آزمون معتبر نیست.'
+    datetime:
+      label: 'تاریخ و زمان'
+      help: 'تاریخ و زمان را به‌طور ترکیبی انتخاب کنید.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'تاریخ و زمان برای آزمون معتبر نیست.'
+    time:
+      label: زمان
+      help: 'زمان یک روز را انتخاب کنید.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'زمان برای آزمون معتبر نیست.'
+    file:
+      label: فایل
+      help: 'یک یا چند فایل را از دستگاه خود بارگذاری کنید.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'فایل برای آزمون معتبر نیست.'
+    email:
+      label: ایمیل
+      placeholder: you@example.com
+      help: 'یک آدرس ایمیل معتبر وارد کنید.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ایمیل برای آزمون معتبر نیست.'
+    number:
+      label: عدد
+      help: 'یک مقدار عددی وارد کنید.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'عدد برای آزمون معتبر نیست.'
+    url:
+      label: 'آدرس وب'
+      placeholder: 'https://'
+      help: 'یک آدرس وب کامل شامل پروتکل وارد کنید.'
+      error:
+        ERR_FIELD_URL_INVALID: 'آدرس وب برای آزمون معتبر نیست.'
+    switch:
+      label: کلید
+      help: 'این گزینه را روشن یا خاموش کنید.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'کلید برای آزمون معتبر نیست.'
+    radio_choice:
+      label: 'انتخاب رادیویی'
+      help: 'یک گزینه را از لیست انتخاب کنید.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'انتخاب رادیویی برای آزمون معتبر نیست.'
+      choice:
+        option_a:
+          label: 'گزینه A'
+        option_b:
+          label: 'گزینه B'
+        option_c:
+          label: 'گزینه C'
+  action:
+    button_demo: 'هیچ کاری انجام ندهید'
+    submit_default: ارسال
+    submit_error: 'نمایش خطاها'
+    submit_js: 'عمل JS'
+    submit_redirect: انتقال
+    submit_embed_stay: 'نگه‌داشتن embed باز'
+    submit_embed_redirect: 'انتقال در embed'
+  error:
+    ERR_FORM_TEST:
+      message: 'خطای کلی برای آزمون.'
+  description: |
+    از این فرم برای آزمایش رفتارهای ارسال استفاده کنید. این نمایش در زمینه‌های صفحه، ajax و مودال در دسترس است. یک رفتار را در زیر انتخاب کرده و ارسال کنید:
+  toast:
+    success:
+      title: موفقیت
+      message: 'فرم با موفقیت ارسال شد.'
+    js_action:
+      title: 'عمل JS'
+      message: 'آیا می‌خواهید فرم را دوباره فعال کنید؟'
+      reactivate: 'دوباره فعال کردن'
+      dismiss: 'رد کردن'
+
+fi:
+  field:
+    entity_search:
+      label: Huone
+      placeholder: 'Etsi huonetta...'
+      help: 'Valitaan tietue hakemalla sitä. Lomakkeen mukana kulkee sen id.'
+    password:
+      label: Salasana
+      help: 'Syötä salasanasi kirjautuaksesi sisään.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Salasana ei ole voimassa testitarkoituksessa.'
+    emoji:
+      label: Emoji
+      help: 'Valitse emoji, joka edustaa mielialaasi.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji ei ole voimassa testitarkoituksessa.'
+    text_simple:
+      label: Teksti
+      help: 'Yhden rivin tekstikenttä lyhyelle sisällölle.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Teksti ei ole voimassa testitarkoituksessa.'
+    text_area:
+      label: 'Pitkä teksti'
+      placeholder: 'Kirjoita mitä haluat...'
+      help: 'Monirivinen tekstialue pidemmälle sisällölle.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Pitkä teksti ei ole voimassa testitarkoituksessa.'
+    behavior:
+      label: Käyttäytyminen
+      help: 'Valitse, miten lomake reagoi lähettämisen jälkeen.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Käyttäytymisen valinta ei ole voimassa testitarkoituksessa.'
+      choice:
+        error:
+          label: 'Näytä virheet'
+          description: 'sulkee upotuksen (tai ei tee mitään sivulla).'
+        js:
+          label: 'JS-toiminto (toast)'
+          description: 'palauttaa vahvistusvirheet.'
+        redirect:
+          label: Uudelleenohjaus
+          description: 'laukaisee toastin ilman lähettämistä.'
+        default:
+          label: Oletus
+          description: 'navigoi täydellä sivulla tai sulkee modaalin.'
+        embed_stay:
+          label: 'Pidä upotus auki (modaali / paneeli)'
+          description: 'pysyy auki modaalissa/paneelissa.'
+        embed_redirect:
+          label: 'Uudelleenohjaus upotuksessa (modaali / paneeli)'
+          description: 'navigoi modaalin/paneelin sisällä.'
+    date:
+      label: Päivämäärä
+      help: 'Valitse päivämäärä kalenterivalitsimella.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Päivämäärä ei ole voimassa testitarkoituksessa.'
+    datetime:
+      label: 'Päivämäärä & aika'
+      help: 'Valitse yhdistetty päivämäärä ja aika.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Päivämäärä & aika ei ole voimassa testitarkoituksessa.'
+    time:
+      label: Aika
+      help: 'Valitse vuorokauden aika.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Aika ei ole voimassa testitarkoituksessa.'
+    file:
+      label: Tiedosto
+      help: 'Lataa yksi tai useampi tiedosto laitteeltasi.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Tiedosto ei ole voimassa testitarkoituksessa.'
+    email:
+      label: Sähköposti
+      placeholder: sinä@esimerkki.com
+      help: 'Syötä voimassa oleva sähköpostiosoite.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Sähköposti ei ole voimassa testitarkoituksessa.'
+    number:
+      label: Numero
+      help: 'Syötä numeerinen arvo.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Numero ei ole voimassa testitarkoituksessa.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Syötä täydellinen URL, mukaan lukien protokolla.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL ei ole voimassa testitarkoituksessa.'
+    switch:
+      label: Kytkin
+      help: 'Kytke tämä vaihtoehto päälle tai pois päältä.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Kytkin ei ole voimassa testitarkoituksessa.'
+    radio_choice:
+      label: Radio-valinta
+      help: 'Valitse yksi vaihtoehto luettelosta.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Radio-valinta ei ole voimassa testitarkoituksessa.'
+      choice:
+        option_a:
+          label: 'Vaihtoehto A'
+        option_b:
+          label: 'Vaihtoehto B'
+        option_c:
+          label: 'Vaihtoehto C'
+  action:
+    button_demo: 'Älä tee mitään'
+    submit_default: Lähetä
+    submit_error: 'Näytä virheet'
+    submit_js: JS-toiminto
+    submit_redirect: Uudelleenohjaus
+    submit_embed_stay: 'Pidä upotus auki'
+    submit_embed_redirect: 'Uudelleenohjaus upotuksessa'
+  error:
+    ERR_FORM_TEST:
+      message: 'Yleinen virhe testitarkoituksessa.'
+  description: |
+    Käytä tätä lomaketta testataksesi lähettämiskäyttäytymisiä. Tämä demo on saatavilla sivu-, ajax- ja modaalikonteksteissa. Valitse käyttäytyminen alla ja lähetä:
+  toast:
+    success:
+      title: Onnistui
+      message: 'Lomake lähetettiin onnistuneesti.'
+    js_action:
+      title: JS-toiminto
+      message: 'Haluatko aktivoida lomakkeen uudelleen?'
+      reactivate: 'Aktivoi uudelleen'
+      dismiss: 'Poista näkyvistä'
+
+fr:
+  field:
+    entity_search:
+      label: Chambre
+      placeholder: 'Rechercher une chambre...'
+      help: 'Sélectionne un enregistrement en le recherchant. Ce que le formulaire porte est son identifiant.'
+    password:
+      label: 'Mot de passe'
+      help: 'Entrez votre mot de passe pour vous authentifier.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Le mot de passe est invalide à des fins de test.'
+    emoji:
+      label: Émoji
+      help: 'Choisissez un émoji pour représenter votre humeur.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: "L'émoji est invalide à des fins de test."
+    text_simple:
+      label: Texte
+      help: 'Un champ de texte sur une seule ligne pour un contenu court.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Le texte est invalide à des fins de test.'
+    text_area:
+      label: 'Texte long'
+      placeholder: 'Tapez ce que vous voulez...'
+      help: 'Une zone de texte multi-lignes pour un contenu plus long.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Le texte long est invalide à des fins de test.'
+    behavior:
+      label: Comportement
+      help: "Choisissez comment le formulaire réagit après l'envoi."
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'La sélection du comportement est invalide à des fins de test.'
+      choice:
+        error:
+          label: 'Afficher les erreurs'
+          description: "ferme l'intégration (ou ne fait rien dans la page)."
+        js:
+          label: 'Action JS (toast)'
+          description: 'retourne les erreurs de validation.'
+        redirect:
+          label: Rediriger
+          description: 'déclenche un toast sans soumettre.'
+        default:
+          label: 'Par défaut'
+          description: 'navigue sur la page complète, ou ferme la modal.'
+        embed_stay:
+          label: "Garder l'intégration ouverte (modal / panneau)"
+          description: 'reste ouvert dans la modal/panneau.'
+        embed_redirect:
+          label: "Rediriger dans l'intégration (modal / panneau)"
+          description: "navigue à l'intérieur de la modal/panneau."
+    date:
+      label: Date
+      help: "Sélectionnez une date à l'aide du sélecteur de date."
+      error:
+        ERR_FIELD_DATE_INVALID: 'La date est invalide à des fins de test.'
+    datetime:
+      label: 'Date & heure'
+      help: 'Sélectionnez une date et une heure combinées.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'La date & heure est invalide à des fins de test.'
+    time:
+      label: Heure
+      help: 'Sélectionnez une heure de la journée.'
+      error:
+        ERR_FIELD_TIME_INVALID: "L'heure est invalide à des fins de test."
+    file:
+      label: Fichier
+      help: 'Téléchargez un ou plusieurs fichiers depuis votre appareil.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Le fichier est invalide à des fins de test.'
+    email:
+      label: Email
+      placeholder: vous@exemple.com
+      help: 'Entrez une adresse email valide.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: "L'email est invalide à des fins de test."
+    number:
+      label: Nombre
+      help: 'Entrez une valeur numérique.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Le nombre est invalide à des fins de test.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Entrez une URL complète incluant le protocole.'
+      error:
+        ERR_FIELD_URL_INVALID: "L'URL est invalide à des fins de test."
+    switch:
+      label: Interrupteur
+      help: 'Activez ou désactivez cette option.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: "L'interrupteur est invalide à des fins de test."
+    radio_choice:
+      label: 'Choix radio'
+      help: 'Sélectionnez une option dans la liste.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Le choix radio est invalide à des fins de test.'
+      choice:
+        option_a:
+          label: 'Option A'
+        option_b:
+          label: 'Option B'
+        option_c:
+          label: 'Option C'
+  action:
+    button_demo: 'Ne rien faire'
+    submit_default: Soumettre
+    submit_error: 'Afficher les erreurs'
+    submit_js: 'Action JS'
+    submit_redirect: Rediriger
+    submit_embed_stay: "Garder l'intégration ouverte"
+    submit_embed_redirect: "Rediriger dans l'intégration"
+  error:
+    ERR_FORM_TEST:
+      message: 'Erreur globale à des fins de test.'
+  description: |
+    Utilisez ce formulaire pour tester les comportements d'envoi. Cette démo est disponible dans des contextes de page, ajax et modal. Choisissez un comportement ci-dessous et soumettez :
+  toast:
+    success:
+      title: Succès
+      message: 'Formulaire soumis avec succès.'
+    js_action:
+      title: 'Action JS'
+      message: 'Voulez-vous réactiver le formulaire ?'
+      reactivate: Réactiver
+      dismiss: Ignorer
+
+he:
+  field:
+    entity_search:
+      label: חדר
+      placeholder: 'חפש חדר...'
+      help: 'בחר רישום על ידי חיפוש שלו. מה שהטופס נושא הוא ה-id שלו.'
+    password:
+      label: סיסמה
+      help: 'הזן את הסיסמה שלך כדי לאמת.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'הסיסמה אינה תק válida לצורכי בדיקה.'
+    emoji:
+      label: "אימוג'י"
+      help: "בחר אימוג'י כדי לייצג את מצב רוחך."
+      error:
+        ERR_FIELD_EMOJI_INVALID: "האימוג'י אינו תקף לצורכי בדיקה."
+    text_simple:
+      label: טקסט
+      help: 'שדה טקסט בשורה אחת עבור תוכן קצר.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'הטקסט אינו תקף לצורכי בדיקה.'
+    text_area:
+      label: 'טקסט ארוך'
+      placeholder: 'כתוב מה שאתה רוצה...'
+      help: 'שדה טקסט מרובה שורות עבור תוכן ארוך יותר.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'הטקסט הארוך אינו תקף לצורכי בדיקה.'
+    behavior:
+      label: התנהגות
+      help: 'בחר כיצד הטופס יגיב לאחר שליחה.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'בחירת התנהגות אינה תקפה לצורכי בדיקה.'
+      choice:
+        error:
+          label: 'הצג שגיאות'
+          description: 'סוגר את ההטמעה (או לא עושה כלום בדף).'
+        js:
+          label: 'פעולה JS (toast)'
+          description: 'מחזיר שגיאות אישור.'
+        redirect:
+          label: הפניה
+          description: 'מפעיל toast מבלי לשלוח.'
+        default:
+          label: 'ברירת מחדל'
+          description: 'מנווט את הדף המלא, או סוגר את המודאל.'
+        embed_stay:
+          label: 'שמור את ההטמעה פתוחה (מודאל / פאנל)'
+          description: 'נשאר פתוח במודאל/פאנל.'
+        embed_redirect:
+          label: 'הפניה בהטמעה (מודאל / פאנל)'
+          description: 'מנווט בתוך המודאל/פאנל.'
+    date:
+      label: תאריך
+      help: 'בחר תאריך באמצעות בורר התאריך.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'התאריך אינו תקף לצורכי בדיקה.'
+    datetime:
+      label: 'תאריך ושעה'
+      help: 'בחר תאריך ושעה משולבים.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'התאריך והשעה אינם תקפים לצורכי בדיקה.'
+    time:
+      label: שעה
+      help: 'בחר שעה ביום.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'הזמן אינו תקף לצורכי בדיקה.'
+    file:
+      label: קובץ
+      help: 'העלה קובץ אחד או יותר מהמכשיר שלך.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'הקובץ אינו תקף לצורכי בדיקה.'
+    email:
+      label: 'דוא"ל'
+      placeholder: you@example.com
+      help: 'הזן כתובת דוא"ל תקפה.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'הדוא"ל אינו תקף לצורכי בדיקה.'
+    number:
+      label: מספר
+      help: 'הזן ערך מספרי.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'המספר אינו תקף לצורכי בדיקה.'
+    url:
+      label: 'כתובת URL'
+      placeholder: 'https://'
+      help: 'הזן כתובת URL מלאה כולל הפרוטוקול.'
+      error:
+        ERR_FIELD_URL_INVALID: 'כתובת ה-URL אינה תקפה לצורכי בדיקה.'
+    switch:
+      label: מתג
+      help: 'החלף אפשרות זו על או off.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'המתג אינו תקף לצורכי בדיקה.'
+    radio_choice:
+      label: 'בחירת רדיו'
+      help: 'בחר אפשרות אחת מתוך הרשימה.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'בחירת הרדיו אינה תקפה לצורכי בדיקה.'
+      choice:
+        option_a:
+          label: 'אפשרות A'
+        option_b:
+          label: 'אפשרות B'
+        option_c:
+          label: 'אפשרות C'
+  action:
+    button_demo: 'אל תעשה כלום'
+    submit_default: שלח
+    submit_error: 'הצג שגיאות'
+    submit_js: 'פעולה JS'
+    submit_redirect: הפניה
+    submit_embed_stay: 'שמור את ההטמעה פתוחה'
+    submit_embed_redirect: 'הפניה בהטמעה'
+  error:
+    ERR_FORM_TEST:
+      message: 'שגיאה כללית לצורכי בדיקה.'
+  description: |
+    השתמש בטופס זה כדי לבדוק התנהגויות שליחה. הדגמה זו זמינה בהקשרים של דף, AJAX ומודאל. בחר התנהגות למטה ושלח:
+  toast:
+    success:
+      title: הצלחה
+      message: 'הטופס נשלח בהצלחה.'
+    js_action:
+      title: 'פעולה JS'
+      message: 'האם אתה רוצה להפעיל מחדש את הטופס?'
+      reactivate: 'הפעל מחדש'
+      dismiss: סגור
+
+hi:
+  field:
+    entity_search:
+      label: कमरा
+      placeholder: 'एक कमरे की खोज करें...'
+      help: 'रिकॉर्ड का चयन करें। फॉर्म में जो है वह इसका आईडी है।'
+    password:
+      label: पासवर्ड
+      help: 'प्रमाणित करने के लिए अपना पासवर्ड दर्ज करें।'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'परीक्षण के उद्देश्य के लिए पासवर्ड अमान्य है।'
+    emoji:
+      label: इमोजी
+      help: 'अपने मूड का प्रतिनिधित्व करने के लिए एक इमोजी चुनें।'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'परीक्षण के उद्देश्य के लिए इमोजी अमान्य है।'
+    text_simple:
+      label: पाठ
+      help: 'संक्षिप्त सामग्री के लिए एक-लाइन पाठ इनपुट।'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'परीक्षण के उद्देश्य के लिए पाठ अमान्य है।'
+    text_area:
+      label: 'लंबा पाठ'
+      placeholder: 'आप जो चाहें टाइप करें...'
+      help: 'लंबी सामग्री के लिए एक मल्टी-लाइन टेक्स्ट क्षेत्र।'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'लंबा पाठ परीक्षण के उद्देश्य के लिए अमान्य है।'
+    behavior:
+      label: व्यवहार
+      help: 'सबमिशन के बाद फॉर्म कैसे प्रतिक्रिया करता है, चुनें।'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'व्यवहार चयन परीक्षण के लिए अमान्य है।'
+      choice:
+        error:
+          label: 'त्रुटियाँ दिखाएँ'
+          description: 'एंबेड को बंद करता है (या पृष्ठ में कुछ नहीं करता)।'
+        js:
+          label: 'JS क्रिया (टोस्ट)'
+          description: 'प्रमाणन त्रुटियाँ लौटाता है।'
+        redirect:
+          label: रीडायरेक्ट
+          description: 'सबमिट किए बिना टोस्ट को ट्रिगर करता है।'
+        default:
+          label: डिफ़ॉल्ट
+          description: 'पूर्ण पृष्ठ पर नेविगेट करता है, या मोडल को बंद करता है।'
+        embed_stay:
+          label: 'एंबेड खुला रखें (मोडल / पैनल)'
+          description: 'मोडल/पैनल में खुला रहता है।'
+        embed_redirect:
+          label: 'एंबेड में रीडायरेक्ट (मोडल / पैनल)'
+          description: 'मोडल/पैनल के अंदर नेविगेट करता है।'
+    date:
+      label: तारीख
+      help: 'तारीख पिकर का उपयोग करके एक तारीख चुनें।'
+      error:
+        ERR_FIELD_DATE_INVALID: 'तारीख परीक्षण के उद्देश्य के लिए अमान्य है।'
+    datetime:
+      label: 'तारीख और समय'
+      help: 'एक सम्मिलित तारीख और समय चुनें।'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'तारीख और समय परीक्षण के उद्देश्य के लिए अमान्य है।'
+    time:
+      label: समय
+      help: 'दिन का समय चुनें।'
+      error:
+        ERR_FIELD_TIME_INVALID: 'समय परीक्षण के उद्देश्य के लिए अमान्य है।'
+    file:
+      label: फ़ाइल
+      help: 'अपने डिवाइस से एक या अधिक फ़ाइलें अपलोड करें।'
+      error:
+        ERR_FIELD_FILE_INVALID: 'फ़ाइल परीक्षण के उद्देश्य के लिए अमान्य है।'
+    email:
+      label: ईमेल
+      placeholder: you@example.com
+      help: 'एक वैध ईमेल पता दर्ज करें।'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ईमेल परीक्षण के उद्देश्य के लिए अमान्य है।'
+    number:
+      label: संख्या
+      help: 'एक संख्यात्मक मान दर्ज करें।'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'संख्या परीक्षण के उद्देश्य के लिए अमान्य है।'
+    url:
+      label: यूआरएल
+      placeholder: 'https://'
+      help: 'प्रोटोकॉल सहित पूरा यूआरएल दर्ज करें।'
+      error:
+        ERR_FIELD_URL_INVALID: 'यूआरएल परीक्षण के उद्देश्य के लिए अमान्य है।'
+    switch:
+      label: स्विच
+      help: 'इस विकल्प को चालू या बंद करें।'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'स्विच परीक्षण के उद्देश्य के लिए अमान्य है।'
+    radio_choice:
+      label: 'रेडियो विकल्प'
+      help: 'सूची से एक विकल्प चुनें।'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'रेडियो विकल्प परीक्षण के उद्देश्य के लिए अमान्य है।'
+      choice:
+        option_a:
+          label: 'विकल्प A'
+        option_b:
+          label: 'विकल्प B'
+        option_c:
+          label: 'विकल्प C'
+  action:
+    button_demo: 'कुछ नहीं करें'
+    submit_default: 'जमा करें'
+    submit_error: 'त्रुटियाँ दिखाएँ'
+    submit_js: 'JS क्रिया'
+    submit_redirect: रीडायरेक्ट
+    submit_embed_stay: 'एंबेड खुला रखें'
+    submit_embed_redirect: 'एंबेड में रीडायरेक्ट'
+  error:
+    ERR_FORM_TEST:
+      message: 'परीक्षण के उद्देश्य के लिए वैश्विक त्रुटि।'
+  description: |
+    इस फॉर्म का उपयोग सबमिशन व्यवहारों का परीक्षण करने के लिए करें। यह डेमो पृष्ठ, एजेएक्स, और मोडल संदर्भों में उपलब्ध है। नीचे एक व्यवहार चुनें और सबमिट करें:
+  toast:
+    success:
+      title: सफलता
+      message: 'फॉर्म सफलतापूर्वक जमा किया गया।'
+    js_action:
+      title: 'JS क्रिया'
+      message: 'क्या आप फॉर्म को फिर से सक्रिय करना चाहते हैं?'
+      reactivate: 'फिर से सक्रिय करें'
+      dismiss: 'अस्वीकृत करें'
+
+id:
+  field:
+    entity_search:
+      label: Ruang
+      placeholder: 'Cari sebuah ruang...'
+      help: 'Pilih sebuah catatan dengan mencarinya. Yang dibawa formulir adalah id-nya.'
+    password:
+      label: 'Kata Sandi'
+      help: 'Masukkan kata sandi Anda untuk autentikasi.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Kata sandi tidak valid untuk tujuan percobaan.'
+    emoji:
+      label: Emoji
+      help: 'Pilih emoji untuk mewakili suasana hati Anda.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji tidak valid untuk tujuan percobaan.'
+    text_simple:
+      label: Teks
+      help: 'Input teks satu baris untuk konten singkat.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Teks tidak valid untuk tujuan percobaan.'
+    text_area:
+      label: 'Teks panjang'
+      placeholder: 'Ketik apa saja yang Anda mau...'
+      help: 'Area teks multi-baris untuk konten yang lebih panjang.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Teks panjang tidak valid untuk tujuan percobaan.'
+    behavior:
+      label: Perilaku
+      help: 'Pilih bagaimana formulir bereaksi setelah pengiriman.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Pemilihan perilaku tidak valid untuk tujuan percobaan.'
+      choice:
+        error:
+          label: 'Tampilkan kesalahan'
+          description: 'menutup embed (atau tidak melakukan apa-apa di halaman).'
+        js:
+          label: 'Aksi JS (toast)'
+          description: 'mengembalikan kesalahan validasi.'
+        redirect:
+          label: Pengalihan
+          description: 'memicu toast tanpa mengirim.'
+        default:
+          label: Bawaan
+          description: 'navigasi ke halaman penuh, atau menutup modal.'
+        embed_stay:
+          label: 'Tetap buka embed (modal / panel)'
+          description: 'tetap terbuka di modal/panel.'
+        embed_redirect:
+          label: 'Pengalihan di embed (modal / panel)'
+          description: 'navigasi di dalam modal/panel.'
+    date:
+      label: Tanggal
+      help: 'Pilih tanggal menggunakan pemilih tanggal.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Tanggal tidak valid untuk tujuan percobaan.'
+    datetime:
+      label: 'Tanggal & waktu'
+      help: 'Pilih tanggal dan waktu gabungan.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Tanggal & waktu tidak valid untuk tujuan percobaan.'
+    time:
+      label: Waktu
+      help: 'Pilih waktu dalam sehari.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Waktu tidak valid untuk tujuan percobaan.'
+    file:
+      label: Berkas
+      help: 'Unggah satu atau lebih berkas dari perangkat Anda.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Berkas tidak valid untuk tujuan percobaan.'
+    email:
+      label: Email
+      placeholder: anda@contoh.com
+      help: 'Masukkan alamat email yang valid.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email tidak valid untuk tujuan percobaan.'
+    number:
+      label: Nomor
+      help: 'Masukkan nilai numerik.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Nomor tidak valid untuk tujuan percobaan.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Masukkan URL lengkap termasuk protokol.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL tidak valid untuk tujuan percobaan.'
+    switch:
+      label: 'Tombol Ganti'
+      help: 'Aktifkan atau nonaktifkan opsi ini.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Tombol ganti tidak valid untuk tujuan percobaan.'
+    radio_choice:
+      label: 'Pilihan Radio'
+      help: 'Pilih satu opsi dari daftar.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Pilihan radio tidak valid untuk tujuan percobaan.'
+      choice:
+        option_a:
+          label: 'Opsi A'
+        option_b:
+          label: 'Opsi B'
+        option_c:
+          label: 'Opsi C'
+  action:
+    button_demo: 'Tidak melakukan apa-apa'
+    submit_default: Kirim
+    submit_error: 'Tampilkan kesalahan'
+    submit_js: 'Aksi JS'
+    submit_redirect: Pengalihan
+    submit_embed_stay: 'Tetap buka embed'
+    submit_embed_redirect: 'Pengalihan di embed'
+  error:
+    ERR_FORM_TEST:
+      message: 'Kesalahan global untuk tujuan percobaan.'
+  description: |
+    Gunakan formulir ini untuk menguji perilaku pengiriman. Demo ini tersedia dalam konteks halaman, ajax, dan modal. Pilih perilaku di bawah ini dan kirim:
+  toast:
+    success:
+      title: Sukses
+      message: 'Formulir berhasil disubmit.'
+    js_action:
+      title: 'Aksi JS'
+      message: 'Apakah Anda ingin mengaktifkan kembali formulir?'
+      reactivate: 'Aktifkan kembali'
+      dismiss: Tutup
+
+it:
+  field:
+    entity_search:
+      label: Stanza
+      placeholder: 'Cerca una stanza...'
+      help: 'Seleziona un record cercandolo. Ciò che il modulo trasmette è il suo id.'
+    password:
+      label: Password
+      help: 'Inserisci la tua password per autenticarti.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'La password non è valida per scopi di test.'
+    emoji:
+      label: Emoji
+      help: "Scegli un'emoji per rappresentare il tuo stato d'animo."
+      error:
+        ERR_FIELD_EMOJI_INVALID: "L'emoji non è valida per scopi di test."
+    text_simple:
+      label: Testo
+      help: 'Un campo di testo su una sola riga per contenuti brevi.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Il testo non è valido per scopi di test.'
+    text_area:
+      label: 'Testo lungo'
+      placeholder: 'Scrivi quello che vuoi...'
+      help: "Un'area di testo multi-riga per contenuti più lunghi."
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Il testo lungo non è valido per scopi di test.'
+    behavior:
+      label: Comportamento
+      help: "Scegli come il modulo reagisce dopo l'invio."
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'La selezione del comportamento non è valida per scopi di test.'
+      choice:
+        error:
+          label: 'Mostra errori'
+          description: "chiude l'incorporamento (o non fa nulla nella pagina)."
+        js:
+          label: 'Azione JS (toast)'
+          description: 'restituisce errori di validazione.'
+        redirect:
+          label: Reindirizza
+          description: 'attiva un toast senza inviare.'
+        default:
+          label: Predefinito
+          description: 'naviga nella pagina completa, o chiudi il modulo.'
+        embed_stay:
+          label: "Mantieni l'incorporamento aperto (modale / pannello)"
+          description: 'rimane aperto nel modale/pannello.'
+        embed_redirect:
+          label: "Reindirizza nell'incorporamento (modale / pannello)"
+          description: "naviga all'interno del modale/pannello."
+    date:
+      label: Data
+      help: 'Seleziona una data utilizzando il selettore di date.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'La data non è valida per scopi di test.'
+    datetime:
+      label: 'Data e ora'
+      help: "Seleziona una data e un'ora combinate."
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Data e ora non sono validi per scopi di test.'
+    time:
+      label: Ora
+      help: 'Seleziona un orario del giorno.'
+      error:
+        ERR_FIELD_TIME_INVALID: "L'ora non è valida per scopi di test."
+    file:
+      label: File
+      help: 'Carica uno o più file dal tuo dispositivo.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Il file non è valido per scopi di test.'
+    email:
+      label: Email
+      placeholder: tuo@example.com
+      help: 'Inserisci un indirizzo email valido.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: "L'email non è valida per scopi di test."
+    number:
+      label: Numero
+      help: 'Inserisci un valore numerico.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Il numero non è valido per scopi di test.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Inserisci un URL completo incluso il protocollo.'
+      error:
+        ERR_FIELD_URL_INVALID: "L'URL non è valido per scopi di test."
+    switch:
+      label: Interruttore
+      help: 'Attiva o disattiva questa opzione.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: "L'interruttore non è valido per scopi di test."
+    radio_choice:
+      label: 'Scelta radio'
+      help: "Seleziona un'opzione dall'elenco."
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'La scelta radio non è valida per scopi di test.'
+      choice:
+        option_a:
+          label: 'Opzione A'
+        option_b:
+          label: 'Opzione B'
+        option_c:
+          label: 'Opzione C'
+  action:
+    button_demo: 'Non fare nulla'
+    submit_default: Invia
+    submit_error: 'Mostra errori'
+    submit_js: 'Azione JS'
+    submit_redirect: Reindirizza
+    submit_embed_stay: "Mantieni l'incorporamento aperto"
+    submit_embed_redirect: "Reindirizza nell'incorporamento"
+  error:
+    ERR_FORM_TEST:
+      message: 'Errore globale per scopi di test.'
+  description: |
+    Usa questo modulo per testare i comportamenti di invio. Questa demo è disponibile in contesti di pagina, ajax e modale. Scegli un comportamento qui sotto e invia:
+  toast:
+    success:
+      title: Successo
+      message: 'Modulo inviato con successo.'
+    js_action:
+      title: 'Azione JS'
+      message: 'Vuoi riattivare il modulo?'
+      reactivate: Riattiva
+      dismiss: Chiudi
+
+ja:
+  field:
+    entity_search:
+      label: 部屋
+      placeholder: 部屋を検索...
+      help: 検索してレコードを選択します。フォームが持つのはそのIDです。
+    password:
+      label: パスワード
+      help: 認証するためにパスワードを入力してください。
+      error:
+        ERR_FIELD_PASSWORD_INVALID: テスト目的のため、パスワードが無効です。
+    emoji:
+      label: 絵文字
+      help: 気分を表す絵文字を選んでください。
+      error:
+        ERR_FIELD_EMOJI_INVALID: テスト目的のため、絵文字が無効です。
+    text_simple:
+      label: テキスト
+      help: 短い内容のための1行テキスト入力です。
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: テスト目的のため、テキストが無効です。
+    text_area:
+      label: 長文
+      placeholder: 好きなことを入力してください...
+      help: 長い内容のための複数行テキストエリアです。
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: テスト目的のため、長文が無効です。
+    behavior:
+      label: 動作
+      help: 送信後のフォームの反応を選択してください。
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 動作の選択が無効です。
+      choice:
+        error:
+          label: エラーを表示
+          description: 埋め込みを閉じる（またはページ内で何もしない）。
+        js:
+          label: JSアクション（トースト）
+          description: 検証エラーを返します。
+        redirect:
+          label: リダイレクト
+          description: 送信せずにトーストを表示します。
+        default:
+          label: デフォルト
+          description: フルページに移動するか、モーダルを閉じます。
+        embed_stay:
+          label: 埋め込みを維持（モーダル／パネル）
+          description: モーダル／パネルで開いたままにします。
+        embed_redirect:
+          label: 埋め込みでリダイレクト（モーダル／パネル）
+          description: モーダル／パネル内を移動します。
+    date:
+      label: 日付
+      help: 日付ピッカーを使って日付を選択します。
+      error:
+        ERR_FIELD_DATE_INVALID: テスト目的のため、日付が無効です。
+    datetime:
+      label: 日付と時刻
+      help: 日付と時刻を組み合わせて選択します。
+      error:
+        ERR_FIELD_DATETIME_INVALID: テスト目的のため、日付と時刻が無効です。
+    time:
+      label: 時間
+      help: 1日の時間を選択します。
+      error:
+        ERR_FIELD_TIME_INVALID: テスト目的のため、時間が無効です。
+    file:
+      label: ファイル
+      help: デバイスから1つ以上のファイルをアップロードします。
+      error:
+        ERR_FIELD_FILE_INVALID: テスト目的のため、ファイルが無効です。
+    email:
+      label: メール
+      placeholder: you@example.com
+      help: 有効なメールアドレスを入力してください。
+      error:
+        ERR_FIELD_EMAIL_INVALID: テスト目的のため、メールが無効です。
+    number:
+      label: 数値
+      help: 数値を入力してください。
+      error:
+        ERR_FIELD_NUMBER_INVALID: テスト目的のため、数値が無効です。
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: プロトコルを含む完全なURLを入力してください。
+      error:
+        ERR_FIELD_URL_INVALID: テスト目的のため、URLが無効です。
+    switch:
+      label: スイッチ
+      help: このオプションをオンまたはオフに切り替えます。
+      error:
+        ERR_FIELD_SWITCH_INVALID: テスト目的のため、スイッチが無効です。
+    radio_choice:
+      label: ラジオ選択
+      help: リストから1つのオプションを選択します。
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: テスト目的のため、ラジオ選択が無効です。
+      choice:
+        option_a:
+          label: オプションA
+        option_b:
+          label: オプションB
+        option_c:
+          label: オプションC
+  action:
+    button_demo: 何もしない
+    submit_default: 送信
+    submit_error: エラーを表示
+    submit_js: JSアクション
+    submit_redirect: リダイレクト
+    submit_embed_stay: 埋め込みを維持
+    submit_embed_redirect: 埋め込みでリダイレクト
+  error:
+    ERR_FORM_TEST:
+      message: テスト目的のためのグローバルエラー。
+  description: |
+    このフォームを使って送信動作をテストします。このデモはページ、ajax、およびモーダルコンテキストで利用可能です。以下の動作を選択して送信してください：
+  toast:
+    success:
+      title: 成功
+      message: フォームが正常に送信されました。
+    js_action:
+      title: JSアクション
+      message: フォームを再度アクティブにしますか？
+      reactivate: 再アクティブ化
+      dismiss: 閉じる
+
+ko:
+  field:
+    entity_search:
+      label: 방
+      placeholder: '방 검색...'
+      help: '레코드를 검색하여 선택합니다. 폼이 가지고 있는 것은 ID입니다.'
+    password:
+      label: 비밀번호
+      help: '인증을 위해 비밀번호를 입력하세요.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: '테스트 용도로 비밀번호가 유효하지 않습니다.'
+    emoji:
+      label: 이모지
+      help: '당신의 기분을 나타낼 이모지를 선택하세요.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: '테스트 용도로 이모지가 유효하지 않습니다.'
+    text_simple:
+      label: 텍스트
+      help: '짧은 내용을 위한 한 줄 텍스트 입력입니다.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: '테스트 용도로 텍스트가 유효하지 않습니다.'
+    text_area:
+      label: '긴 텍스트'
+      placeholder: '원하는 내용을 입력하세요...'
+      help: '긴 내용을 위한 여러 줄 텍스트 영역입니다.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: '테스트 용도로 긴 텍스트가 유효하지 않습니다.'
+    behavior:
+      label: 동작
+      help: '제출 후 폼이 어떻게 반응할지 선택하세요.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: '동작 선택이 테스트 용도로 유효하지 않습니다.'
+      choice:
+        error:
+          label: '오류 표시'
+          description: '임베드를 닫거나 페이지 내에서 아무 것도 하지 않습니다.'
+        js:
+          label: 'JS 동작 (토스트)'
+          description: '유효성 검사 오류를 반환합니다.'
+        redirect:
+          label: 리다이렉트
+          description: '제출 없이 토스트를 발동합니다.'
+        default:
+          label: 기본
+          description: '전체 페이지로 이동하거나 모달을 닫습니다.'
+        embed_stay:
+          label: '임베드 열기 유지 (모달 / 패널)'
+          description: '모달/패널에서 열려 있습니다.'
+        embed_redirect:
+          label: '임베드에서 리다이렉트 (모달 / 패널)'
+          description: '모달/패널 내부로 이동합니다.'
+    date:
+      label: 날짜
+      help: '날짜 선택기를 사용하여 날짜를 선택하세요.'
+      error:
+        ERR_FIELD_DATE_INVALID: '테스트 용도로 날짜가 유효하지 않습니다.'
+    datetime:
+      label: '날짜 및 시간'
+      help: '날짜와 시간을 함께 선택하세요.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: '테스트 용도로 날짜 및 시간이 유효하지 않습니다.'
+    time:
+      label: 시간
+      help: '하루의 시간을 선택하세요.'
+      error:
+        ERR_FIELD_TIME_INVALID: '테스트 용도로 시간이 유효하지 않습니다.'
+    file:
+      label: 파일
+      help: '장치에서 하나 이상의 파일을 업로드하세요.'
+      error:
+        ERR_FIELD_FILE_INVALID: '테스트 용도로 파일이 유효하지 않습니다.'
+    email:
+      label: 이메일
+      placeholder: you@example.com
+      help: '유효한 이메일 주소를 입력하세요.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: '테스트 용도로 이메일이 유효하지 않습니다.'
+    number:
+      label: 숫자
+      help: '숫자 값을 입력하세요.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: '테스트 용도로 숫자가 유효하지 않습니다.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: '프로토콜을 포함하여 전체 URL을 입력하세요.'
+      error:
+        ERR_FIELD_URL_INVALID: '테스트 용도로 URL이 유효하지 않습니다.'
+    switch:
+      label: 스위치
+      help: '이 옵션을 켜거나 끕니다.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: '테스트 용도로 스위치가 유효하지 않습니다.'
+    radio_choice:
+      label: '라디오 선택'
+      help: '목록에서 한 가지 옵션을 선택하세요.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: '테스트 용도로 라디오 선택이 유효하지 않습니다.'
+      choice:
+        option_a:
+          label: '옵션 A'
+        option_b:
+          label: '옵션 B'
+        option_c:
+          label: '옵션 C'
+  action:
+    button_demo: '아무것도 하지 않음'
+    submit_default: 제출
+    submit_error: '오류 표시'
+    submit_js: 'JS 동작'
+    submit_redirect: 리다이렉트
+    submit_embed_stay: '임베드 열기 유지'
+    submit_embed_redirect: '임베드에서 리다이렉트'
+  error:
+    ERR_FORM_TEST:
+      message: '테스트 용도로 전역 오류입니다.'
+  description: |
+    이 폼을 사용하여 제출 동작을 테스트하세요. 이 데모는 페이지, AJAX 및 모달 컨텍스트에서 사용할 수 있습니다. 아래에서 동작을 선택하고 제출하세요:
+  toast:
+    success:
+      title: 성공
+      message: '폼이 성공적으로 제출되었습니다.'
+    js_action:
+      title: 'JS 동작'
+      message: '폼을 재활성화하시겠습니까?'
+      reactivate: 재활성화
+      dismiss: 닫기
+
+nl:
+  field:
+    entity_search:
+      label: Kamer
+      placeholder: 'Zoek een kamer...'
+      help: 'Kies een record door erin te zoeken. Wat het formulier meedraagt, is de id.'
+    password:
+      label: Wachtwoord
+      help: 'Voer uw wachtwoord in om te authenticeren.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Wachtwoord is ongeldig voor testdoeleinden.'
+    emoji:
+      label: Emoji
+      help: 'Kies een emoji om uw stemming weer te geven.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji is ongeldig voor testdoeleinden.'
+    text_simple:
+      label: Tekst
+      help: 'Een tekstinvoer op één regel voor korte inhoud.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Tekst is ongeldig voor testdoeleinden.'
+    text_area:
+      label: 'Langere tekst'
+      placeholder: 'Typ wat je wilt...'
+      help: 'Een tekstgebied met meerdere regels voor langere inhoud.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Langere tekst is ongeldig voor testdoeleinden.'
+    behavior:
+      label: Gedrag
+      help: 'Kies hoe het formulier reageert na indiening.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Selectie van gedrag is ongeldig voor testdoeleinden.'
+      choice:
+        error:
+          label: 'Toon fouten'
+          description: 'sluit de embed (of doet niets in de pagina).'
+        js:
+          label: 'JS actie (toast)'
+          description: 'geeft validatiefouten terug.'
+        redirect:
+          label: Doorsturen
+          description: 'veroorzaakt een toast zonder in te dienen.'
+        default:
+          label: Standaard
+          description: 'navigeert naar de volledige pagina, of sluit de modal.'
+        embed_stay:
+          label: 'Houd embed geopend (modal / paneel)'
+          description: 'blijft open in modal/paneel.'
+        embed_redirect:
+          label: 'Doorsturen in embed (modal / paneel)'
+          description: 'navigeert binnen de modal/paneel.'
+    date:
+      label: Datum
+      help: 'Selecteer een datum met de datumkiezer.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Datum is ongeldig voor testdoeleinden.'
+    datetime:
+      label: 'Datum & tijd'
+      help: 'Selecteer een gecombineerde datum en tijd.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Datum & tijd is ongeldig voor testdoeleinden.'
+    time:
+      label: Tijd
+      help: 'Selecteer een tijd van de dag.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Tijd is ongeldig voor testdoeleinden.'
+    file:
+      label: Bestand
+      help: 'Upload een of meer bestanden van uw apparaat.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Bestand is ongeldig voor testdoeleinden.'
+    email:
+      label: E-mail
+      placeholder: jij@example.com
+      help: 'Voer een geldig e-mailadres in.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'E-mail is ongeldig voor testdoeleinden.'
+    number:
+      label: Nummer
+      help: 'Voer een numerieke waarde in.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Nummer is ongeldig voor testdoeleinden.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Voer een volledige URL in, inclusief het protocol.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL is ongeldig voor testdoeleinden.'
+    switch:
+      label: Schakelaar
+      help: 'Schakel deze optie aan of uit.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Schakelaar is ongeldig voor testdoeleinden.'
+    radio_choice:
+      label: 'Radio keuze'
+      help: 'Selecteer één optie uit de lijst.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Radio keuze is ongeldig voor testdoeleinden.'
+      choice:
+        option_a:
+          label: 'Optie A'
+        option_b:
+          label: 'Optie B'
+        option_c:
+          label: 'Optie C'
+  action:
+    button_demo: 'Doe niets'
+    submit_default: Indienen
+    submit_error: 'Toon fouten'
+    submit_js: 'JS actie'
+    submit_redirect: Doorsturen
+    submit_embed_stay: 'Houd embed geopend'
+    submit_embed_redirect: 'Doorsturen in embed'
+  error:
+    ERR_FORM_TEST:
+      message: 'Globale fout voor testdoeleinden.'
+  description: |
+    Gebruik dit formulier om indieningsgedragingen te testen. Deze demo is beschikbaar in pagina-, ajax- en modalcontexten. Kies hieronder een gedrag en dien in:
+  toast:
+    success:
+      title: Succes
+      message: 'Formulier succesvol ingediend.'
+    js_action:
+      title: 'JS actie'
+      message: 'Wilt u het formulier opnieuw activeren?'
+      reactivate: Heractiveren
+      dismiss: Afwijzen
+
+pl:
+  field:
+    entity_search:
+      label: Pokój
+      placeholder: 'Szukaj pokoju...'
+      help: 'Wybiera rekord poprzez jego wyszukiwanie. To, co formularz przesyła, to jego id.'
+    password:
+      label: Hasło
+      help: 'Wprowadź swoje hasło, aby się uwierzytelnić.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Hasło jest nieprawidłowe do celów testowych.'
+    emoji:
+      label: Emoji
+      help: 'Wybierz emoji, aby wyrazić swój nastrój.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji jest nieprawidłowe do celów testowych.'
+    text_simple:
+      label: Tekst
+      help: 'Jednoliniowe pole tekstowe do krótkiej treści.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Tekst jest nieprawidłowy do celów testowych.'
+    text_area:
+      label: 'Długi tekst'
+      placeholder: 'Wpisz cokolwiek chcesz...'
+      help: 'Wieloliniowe pole tekstowe do dłuższej treści.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Długi tekst jest nieprawidłowy do celów testowych.'
+    behavior:
+      label: Zachowanie
+      help: 'Wybierz, jak formularz ma się zachować po wysłaniu.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Wybór zachowania jest nieprawidłowy do celów testowych.'
+      choice:
+        error:
+          label: 'Pokaż błędy'
+          description: 'zamyka embed (lub nie robi nic na stronie).'
+        js:
+          label: 'Akcja JS (toast)'
+          description: 'zwraca błędy walidacji.'
+        redirect:
+          label: Przekierowanie
+          description: 'wyzwala toast bez wysyłania.'
+        default:
+          label: Domyślne
+          description: 'nawiguje na pełną stronę lub zamyka modal.'
+        embed_stay:
+          label: 'Zachowaj embed otwarty (modal / panel)'
+          description: 'zostaje otwarte w modal/panel.'
+        embed_redirect:
+          label: 'Przekierowanie w embed (modal / panel)'
+          description: 'nawiguje wewnątrz modal/panel.'
+    date:
+      label: Data
+      help: 'Wybierz datę za pomocą selektora daty.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Data jest nieprawidłowa do celów testowych.'
+    datetime:
+      label: 'Data i godzina'
+      help: 'Wybierz datę i godzinę razem.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Data i godzina są nieprawidłowe do celów testowych.'
+    time:
+      label: Czas
+      help: 'Wybierz porę dnia.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Czas jest nieprawidłowy do celów testowych.'
+    file:
+      label: Plik
+      help: 'Prześlij jeden lub więcej plików z urządzenia.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Plik jest nieprawidłowy do celów testowych.'
+    email:
+      label: Email
+      placeholder: ty@example.com
+      help: 'Wprowadź poprawny adres email.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email jest nieprawidłowy do celów testowych.'
+    number:
+      label: Liczba
+      help: 'Wprowadź wartość numeryczną.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Liczba jest nieprawidłowa do celów testowych.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Wprowadź pełny URL, w tym protokół.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL jest nieprawidłowy do celów testowych.'
+    switch:
+      label: Przełącznik
+      help: 'Włącz lub wyłącz tę opcję.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Przełącznik jest nieprawidłowy do celów testowych.'
+    radio_choice:
+      label: 'Wybór radiowy'
+      help: 'Wybierz jedną opcję z listy.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Wybór radiowy jest nieprawidłowy do celów testowych.'
+      choice:
+        option_a:
+          label: 'Opcja A'
+        option_b:
+          label: 'Opcja B'
+        option_c:
+          label: 'Opcja C'
+  action:
+    button_demo: 'Nie rób nic'
+    submit_default: Wyślij
+    submit_error: 'Pokaż błędy'
+    submit_js: 'Akcja JS'
+    submit_redirect: Przekierowanie
+    submit_embed_stay: 'Zachowaj embed otwarty'
+    submit_embed_redirect: 'Przekierowanie w embed'
+  error:
+    ERR_FORM_TEST:
+      message: 'Błąd globalny do celów testowych.'
+  description: |
+    Użyj tego formularza, aby przetestować zachowania wysyłania. Ta demonstracja jest dostępna w kontekście strony, ajax i modal. Wybierz zachowanie poniżej i wyślij:
+  toast:
+    success:
+      title: Sukces
+      message: 'Formularz został pomyślnie wysłany.'
+    js_action:
+      title: 'Akcja JS'
+      message: 'Czy chcesz ponownie aktywować formularz?'
+      reactivate: Reaktywuj
+      dismiss: Odrzuć
+
+pt_BR:
+  field:
+    entity_search:
+      label: Sala
+      placeholder: 'Pesquise uma sala...'
+      help: 'Seleciona um registro pesquisando por ele. O que o formulário carrega é seu id.'
+    password:
+      label: Senha
+      help: 'Digite sua senha para autenticação.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Senha inválida para fins de teste.'
+    emoji:
+      label: Emoji
+      help: 'Escolha um emoji para representar seu humor.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji inválido para fins de teste.'
+    text_simple:
+      label: Texto
+      help: 'Um campo de texto de uma linha para conteúdo curto.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Texto inválido para fins de teste.'
+    text_area:
+      label: 'Texto longo'
+      placeholder: 'Digite o que você quiser...'
+      help: 'Uma área de texto multi-linha para conteúdo mais longo.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Texto longo inválido para fins de teste.'
+    behavior:
+      label: Comportamento
+      help: 'Escolha como o formulário reage após a submissão.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Seleção de comportamento inválida para fins de teste.'
+      choice:
+        error:
+          label: 'Mostrar erros'
+          description: 'fecha o embed (ou não faz nada na página).'
+        js:
+          label: 'Ação JS (toast)'
+          description: 'retorna erros de validação.'
+        redirect:
+          label: Redirecionar
+          description: 'dispara um toast sem submeter.'
+        default:
+          label: Padrão
+          description: 'navega pela página completa ou fecha o modal.'
+        embed_stay:
+          label: 'Manter embed aberto (modal / painel)'
+          description: 'permanece aberto no modal/painel.'
+        embed_redirect:
+          label: 'Redirecionar no embed (modal / painel)'
+          description: 'navega dentro do modal/painel.'
+    date:
+      label: Data
+      help: 'Selecione uma data usando o seletor de data.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Data inválida para fins de teste.'
+    datetime:
+      label: 'Data e hora'
+      help: 'Selecione uma data e hora combinadas.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Data e hora inválidas para fins de teste.'
+    time:
+      label: Hora
+      help: 'Selecione um horário do dia.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Hora inválida para fins de teste.'
+    file:
+      label: Arquivo
+      help: 'Envie um ou mais arquivos do seu dispositivo.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Arquivo inválido para fins de teste.'
+    email:
+      label: Email
+      placeholder: você@exemplo.com
+      help: 'Digite um endereço de email válido.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email inválido para fins de teste.'
+    number:
+      label: Número
+      help: 'Digite um valor numérico.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Número inválido para fins de teste.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Digite uma URL completa incluindo o protocolo.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL inválida para fins de teste.'
+    switch:
+      label: Interruptor
+      help: 'Ative ou desative esta opção.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Interruptor inválido para fins de teste.'
+    radio_choice:
+      label: 'Escolha de rádio'
+      help: 'Selecione uma opção da lista.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Escolha de rádio inválida para fins de teste.'
+      choice:
+        option_a:
+          label: 'Opção A'
+        option_b:
+          label: 'Opção B'
+        option_c:
+          label: 'Opção C'
+  action:
+    button_demo: 'Não fazer nada'
+    submit_default: Enviar
+    submit_error: 'Mostrar erros'
+    submit_js: 'Ação JS'
+    submit_redirect: Redirecionar
+    submit_embed_stay: 'Manter embed aberto'
+    submit_embed_redirect: 'Redirecionar no embed'
+  error:
+    ERR_FORM_TEST:
+      message: 'Erro global para fins de teste.'
+  description: |
+    Use este formulário para testar comportamentos de submissão. Esta demonstração está disponível em contexto de página, ajax e modal. Escolha um comportamento abaixo e envie:
+  toast:
+    success:
+      title: Sucesso
+      message: 'Formulário enviado com sucesso.'
+    js_action:
+      title: 'Ação JS'
+      message: 'Você deseja reativar o formulário?'
+      reactivate: Reativar
+      dismiss: Dispensar
+
+ru:
+  field:
+    entity_search:
+      label: Комната
+      placeholder: 'Поиск комнаты...'
+      help: 'Выбирает запись по её поиску. Что форма содержит - это её идентификатор.'
+    password:
+      label: Пароль
+      help: 'Введите свой пароль для аутентификации.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Пароль недействителен для тестирования.'
+    emoji:
+      label: Эмодзи
+      help: 'Выберите эмодзи, чтобы отобразить ваше настроение.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Эмодзи недействительно для тестирования.'
+    text_simple:
+      label: Текст
+      help: 'Однострочный ввод текста для короткого содержимого.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Текст недействителен для тестирования.'
+    text_area:
+      label: 'Длинный текст'
+      placeholder: 'Введите что угодно...'
+      help: 'Многострочная область текста для более длинного содержимого.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Длинный текст недействителен для тестирования.'
+    behavior:
+      label: Поведение
+      help: 'Выберите, как форма реагирует после отправки.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Выбор поведения недействителен для тестирования.'
+      choice:
+        error:
+          label: 'Показать ошибки'
+          description: 'закрывает встраивание (или ничего не делает на странице).'
+        js:
+          label: 'JS действие (уведомление)'
+          description: 'возвращает ошибки валидации.'
+        redirect:
+          label: Перенаправление
+          description: 'вызывает уведомление без отправки.'
+        default:
+          label: 'По умолчанию'
+          description: 'переходит на полную страницу или закрывает модальное окно.'
+        embed_stay:
+          label: 'Сохранить встраивание открытым (модальное / панель)'
+          description: 'остается открытым в модальном окне/панели.'
+        embed_redirect:
+          label: 'Перенаправление во встраивании (модальное / панель)'
+          description: 'переходит внутри модального окна/панели.'
+    date:
+      label: Дата
+      help: 'Выберите дату с помощью выбора даты.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Дата недействительна для тестирования.'
+    datetime:
+      label: 'Дата и время'
+      help: 'Выберите дату и время вместе.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Дата и время недействительны для тестирования.'
+    time:
+      label: Время
+      help: 'Выберите время суток.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Время недействительно для тестирования.'
+    file:
+      label: Файл
+      help: 'Загрузите один или несколько файлов с вашего устройства.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Файл недействителен для тестирования.'
+    email:
+      label: 'Электронная почта'
+      placeholder: you@example.com
+      help: 'Введите действительный адрес электронной почты.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Электронная почта недействительна для тестирования.'
+    number:
+      label: Число
+      help: 'Введите числовое значение.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Число недействительно для тестирования.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Введите полный URL, включая протокол.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL недействителен для тестирования.'
+    switch:
+      label: Переключатель
+      help: 'Включите или выключите эту опцию.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Переключатель недействителен для тестирования.'
+    radio_choice:
+      label: 'Выбор радиокнопки'
+      help: 'Выберите один вариант из списка.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Выбор радиокнопки недействителен для тестирования.'
+      choice:
+        option_a:
+          label: 'Вариант A'
+        option_b:
+          label: 'Вариант B'
+        option_c:
+          label: 'Вариант C'
+  action:
+    button_demo: 'Ничего не делать'
+    submit_default: Отправить
+    submit_error: 'Показать ошибки'
+    submit_js: 'JS действие'
+    submit_redirect: Перенаправление
+    submit_embed_stay: 'Сохранить встраивание открытым'
+    submit_embed_redirect: 'Перенаправление во встраивании'
+  error:
+    ERR_FORM_TEST:
+      message: 'Глобальная ошибка для тестирования.'
+  description: |
+    Используйте эту форму для тестирования поведения отправки. Эта демонстрация доступна в контекстах страницы, ajax и модального окна. Выберите поведение ниже и отправьте:
+  toast:
+    success:
+      title: Успех
+      message: 'Форма успешно отправлена.'
+    js_action:
+      title: 'JS действие'
+      message: 'Вы хотите реактивировать форму?'
+      reactivate: Реактивировать
+      dismiss: Закрыть
+
+th:
+  field:
+    entity_search:
+      label: ห้อง
+      placeholder: ค้นหาห้อง...
+      help: 'เลือกบันทึกโดยการค้นหา สิ่งที่ฟอร์มเก็บคือรหัสของมัน'
+    password:
+      label: รหัสผ่าน
+      help: กรอกรหัสผ่านของคุณเพื่อยืนยันตัวตน
+      error:
+        ERR_FIELD_PASSWORD_INVALID: รหัสผ่านไม่ถูกต้องสำหรับการทดสอบ
+    emoji:
+      label: อีโมจิ
+      help: เลือกอีโมจิเพื่อแสดงอารมณ์ของคุณ
+      error:
+        ERR_FIELD_EMOJI_INVALID: อีโมจิไม่ถูกต้องสำหรับการทดสอบ
+    text_simple:
+      label: ข้อความ
+      help: ช่องกรอกข้อความแบบบรรทัดเดียวสำหรับเนื้อหาสั้น
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: ข้อความไม่ถูกต้องสำหรับการทดสอบ
+    text_area:
+      label: ข้อความยาว
+      placeholder: พิมพ์สิ่งที่คุณต้องการ...
+      help: พื้นที่ข้อความแบบหลายบรรทัดสำหรับเนื้อหายาว
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: ข้อความยาวไม่ถูกต้องสำหรับการทดสอบ
+    behavior:
+      label: พฤติกรรม
+      help: เลือกวิธีที่ฟอร์มตอบสนองหลังการส่ง
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: การเลือกพฤติกรรมไม่ถูกต้องสำหรับการทดสอบ
+      choice:
+        error:
+          label: แสดงข้อผิดพลาด
+          description: 'ปิดการฝัง (หรือไม่ทำอะไรในหน้า)'
+        js:
+          label: 'การกระทำ JS (toast)'
+          description: ส่งคืนข้อผิดพลาดการตรวจสอบ
+        redirect:
+          label: เปลี่ยนเส้นทาง
+          description: 'กระตุ้น toast โดยไม่ต้องส่งข้อมูล'
+        default:
+          label: ค่าเริ่มต้น
+          description: 'นำทางไปยังหน้าเต็ม หรือปิดโมดัล'
+        embed_stay:
+          label: 'คงการฝังไว้ (โมดัล / แผง)'
+          description: คงไว้ในโมดัล/แผง
+        embed_redirect:
+          label: 'เปลี่ยนเส้นทางในฝัง (โมดัล / แผง)'
+          description: นำทางภายในโมดัล/แผง
+    date:
+      label: วันที่
+      help: เลือกวันที่โดยใช้ตัวเลือกวันที่
+      error:
+        ERR_FIELD_DATE_INVALID: วันที่ไม่ถูกต้องสำหรับการทดสอบ
+    datetime:
+      label: 'วันที่ & เวลา'
+      help: เลือกวันที่และเวลารวมกัน
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'วันที่ & เวลาไม่ถูกต้องสำหรับการทดสอบ'
+    time:
+      label: เวลา
+      help: เลือกเวลาของวัน
+      error:
+        ERR_FIELD_TIME_INVALID: เวลาไม่ถูกต้องสำหรับการทดสอบ
+    file:
+      label: ไฟล์
+      help: อัปโหลดไฟล์หนึ่งหรือหลายไฟล์จากอุปกรณ์ของคุณ
+      error:
+        ERR_FIELD_FILE_INVALID: ไฟล์ไม่ถูกต้องสำหรับการทดสอบ
+    email:
+      label: อีเมล
+      placeholder: you@example.com
+      help: กรอกที่อยู่อีเมลที่ถูกต้อง
+      error:
+        ERR_FIELD_EMAIL_INVALID: อีเมลไม่ถูกต้องสำหรับการทดสอบ
+    number:
+      label: หมายเลข
+      help: กรอกค่าตัวเลข
+      error:
+        ERR_FIELD_NUMBER_INVALID: หมายเลขไม่ถูกต้องสำหรับการทดสอบ
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'กรอก URL เต็มรูปแบบรวมถึงโปรโตคอล'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL ไม่ถูกต้องสำหรับการทดสอบ'
+    switch:
+      label: สวิตช์
+      help: เปิดหรือปิดตัวเลือกนี้
+      error:
+        ERR_FIELD_SWITCH_INVALID: สวิตช์ไม่ถูกต้องสำหรับการทดสอบ
+    radio_choice:
+      label: ตัวเลือกวิทยุ
+      help: เลือกหนึ่งตัวเลือกจากรายการ
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: ตัวเลือกวิทยุไม่ถูกต้องสำหรับการทดสอบ
+      choice:
+        option_a:
+          label: 'ตัวเลือก A'
+        option_b:
+          label: 'ตัวเลือก B'
+        option_c:
+          label: 'ตัวเลือก C'
+  action:
+    button_demo: ไม่ทำอะไร
+    submit_default: ส่ง
+    submit_error: แสดงข้อผิดพลาด
+    submit_js: 'การกระทำ JS'
+    submit_redirect: เปลี่ยนเส้นทาง
+    submit_embed_stay: คงการฝังไว้
+    submit_embed_redirect: เปลี่ยนเส้นทางในฝัง
+  error:
+    ERR_FORM_TEST:
+      message: ข้อผิดพลาดทั่วไปสำหรับการทดสอบ
+  description: |
+    ใช้ฟอร์มนี้เพื่อลองพฤติกรรมการส่ง ฟอร์มนี้มีให้ในหน้า, ajax, และบริบทโมดัล เลือกพฤติกรรมด้านล่างและส่ง:
+  toast:
+    success:
+      title: สำเร็จ
+      message: ส่งฟอร์มสำเร็จแล้ว
+    js_action:
+      title: 'การกระทำ JS'
+      message: 'คุณต้องการเปิดใช้งานฟอร์มอีกครั้งหรือไม่?'
+      reactivate: เปิดใช้งานอีกครั้ง
+      dismiss: ปิด
+
+tr:
+  field:
+    entity_search:
+      label: Oda
+      placeholder: 'Oda arayın...'
+      help: 'Bir kaydı arayarak seçin. Formun taşıdığı şey onun kimliğidir.'
+    password:
+      label: Şifre
+      help: 'Kimlik doğrulamak için şifrenizi girin.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Şifre test amacıyla geçersiz.'
+    emoji:
+      label: Emojiler
+      help: 'Ruh halinizi temsil edecek bir emoji seçin.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Emoji test amacıyla geçersiz.'
+    text_simple:
+      label: Metin
+      help: 'Kısa içerikler için tek satırlık metin girişi.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Metin test amacıyla geçersiz.'
+    text_area:
+      label: 'Uzun metin'
+      placeholder: 'İstediğinizi yazın...'
+      help: 'Daha uzun içerikler için çok satırlı metin alanı.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Uzun metin test amacıyla geçersiz.'
+    behavior:
+      label: Davranış
+      help: 'Formun gönderimden sonra nasıl tepki vereceğini seçin.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Davranış seçimi test amacıyla geçersiz.'
+      choice:
+        error:
+          label: 'Hataları göster'
+          description: 'gömmeyi kapatır (veya sayfa içinde hiçbir şey yapmaz).'
+        js:
+          label: 'JS eylemi (toast)'
+          description: 'doğrulama hatalarını döndürür.'
+        redirect:
+          label: Yönlendir
+          description: 'gönderim yapmadan bir toast tetikler.'
+        default:
+          label: Varsayılan
+          description: 'tam sayfaya yönlendirir veya modali kapatır.'
+        embed_stay:
+          label: 'Gömülü alanı açık tut (modal / panel)'
+          description: 'modal/panelde açık kalır.'
+        embed_redirect:
+          label: 'Gömülü alanda yönlendir (modal / panel)'
+          description: 'modal/panel içinde yönlendirir.'
+    date:
+      label: Tarih
+      help: 'Tarih seçici kullanarak bir tarih seçin.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Tarih test amacıyla geçersiz.'
+    datetime:
+      label: 'Tarih & saat'
+      help: 'Bir tarih ve saat seçin.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Tarih & saat test amacıyla geçersiz.'
+    time:
+      label: Saat
+      help: 'Günün saatini seçin.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Saat test amacıyla geçersiz.'
+    file:
+      label: Dosya
+      help: 'Cihazınızdan bir veya daha fazla dosya yükleyin.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Dosya test amacıyla geçersiz.'
+    email:
+      label: E-posta
+      placeholder: you@example.com
+      help: 'Geçerli bir e-posta adresi girin.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'E-posta test amacıyla geçersiz.'
+    number:
+      label: Sayı
+      help: 'Sayısal bir değer girin.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Sayı test amacıyla geçersiz.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Protokol dahil tam bir URL girin.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL test amacıyla geçersiz.'
+    switch:
+      label: Anahtar
+      help: 'Bu seçeneği açıp kapatın.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Anahtar test amacıyla geçersiz.'
+    radio_choice:
+      label: 'Radyo seçeneği'
+      help: 'Listeden bir seçenek seçin.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Radyo seçeneği test amacıyla geçersiz.'
+      choice:
+        option_a:
+          label: 'Seçenek A'
+        option_b:
+          label: 'Seçenek B'
+        option_c:
+          label: 'Seçenek C'
+  action:
+    button_demo: 'Hiçbir şey yapma'
+    submit_default: Gönder
+    submit_error: 'Hataları göster'
+    submit_js: 'JS eylemi'
+    submit_redirect: Yönlendir
+    submit_embed_stay: 'Gömülü alanı açık tut'
+    submit_embed_redirect: 'Gömülü alanda yönlendir'
+  error:
+    ERR_FORM_TEST:
+      message: 'Test amacıyla genel hata.'
+  description: |
+    Bu formu gönderim davranışlarını test etmek için kullanın. Bu demo sayfa, ajax ve modal bağlamlarında mevcuttur. Aşağıdan bir davranış seçin ve gönderin:
+  toast:
+    success:
+      title: Başarılı
+      message: 'Form başarıyla gönderildi.'
+    js_action:
+      title: 'JS eylemi'
+      message: 'Formu yeniden etkinleştirmek ister misiniz?'
+      reactivate: 'Yeniden etkinleştir'
+      dismiss: Kapat
+
+ur:
+  field:
+    entity_search:
+      label: کمرہ
+      placeholder: 'کمرہ تلاش کریں...'
+      help: 'ریکارڈ کو تلاش کرکے منتخب کریں۔ فارم میں موجود معلومات اس کا شناختی نمبر ہے۔'
+    password:
+      label: 'پاس ورڈ'
+      help: 'توثیق کے لیے اپنا پاس ورڈ درج کریں۔'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'پاس ورڈ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    emoji:
+      label: ایموجی
+      help: 'اپنے موڈ کی نمائندگی کے لیے ایک ایموجی منتخب کریں۔'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'ایموجی ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    text_simple:
+      label: متن
+      help: 'مختصر مواد کے لیے ایک لائن کا متن۔'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'متن ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    text_area:
+      label: 'طویل متن'
+      placeholder: 'جو چاہیں ٹائپ کریں...'
+      help: 'طویل مواد کے لیے ایک سے زیادہ لائنوں کا متن۔'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'طویل متن ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    behavior:
+      label: 'طرز عمل'
+      help: 'جمع کرانے کے بعد فارم کا رد عمل منتخب کریں۔'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'طرز عمل کا انتخاب ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+      choice:
+        error:
+          label: 'غلطیاں دکھائیں'
+          description: 'اندرونی کو بند کرتا ہے (یا صفحے میں کچھ نہیں کرتا)۔'
+        js:
+          label: 'JS عمل (toast)'
+          description: 'توثیق کی غلطیاں واپس کرتا ہے۔'
+        redirect:
+          label: 'ری ڈائریکٹ'
+          description: 'جمع کرانے کے بغیر ایک ٹوسٹ متحرک کرتا ہے۔'
+        default:
+          label: ڈیفالٹ
+          description: 'پورے صفحے میں نیویگیٹ کرتا ہے، یا موڈل بند کرتا ہے۔'
+        embed_stay:
+          label: 'ایمبیڈ کھلا رکھیں (موڈل / پینل)'
+          description: 'موڈل/پینل میں کھلا رہتا ہے۔'
+        embed_redirect:
+          label: 'ایمبیڈ میں ری ڈائریکٹ (موڈل / پینل)'
+          description: 'موڈل/پینل کے اندر نیویگیٹ کرتا ہے۔'
+    date:
+      label: تاریخ
+      help: 'تاریخ منتخب کرنے کے لیے تاریخ چننے والے کا استعمال کریں۔'
+      error:
+        ERR_FIELD_DATE_INVALID: 'تاریخ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    datetime:
+      label: 'تاریخ اور وقت'
+      help: 'تاریخ اور وقت کا مجموعہ منتخب کریں۔'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'تاریخ اور وقت ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    time:
+      label: وقت
+      help: 'دن کے وقت کا انتخاب کریں۔'
+      error:
+        ERR_FIELD_TIME_INVALID: 'وقت ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    file:
+      label: فائل
+      help: 'اپنی ڈیوائس سے ایک یا ایک سے زیادہ فائلیں اپ لوڈ کریں۔'
+      error:
+        ERR_FIELD_FILE_INVALID: 'فائل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    email:
+      label: 'ای میل'
+      placeholder: you@example.com
+      help: 'ایک درست ای میل ایڈریس درج کریں۔'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'ای میل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    number:
+      label: عدد
+      help: 'ایک عددی قیمت درج کریں۔'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'عدد ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    url:
+      label: 'یو آر ایل'
+      placeholder: 'https://'
+      help: 'پروٹوکول سمیت مکمل یو آر ایل درج کریں۔'
+      error:
+        ERR_FIELD_URL_INVALID: 'یو آر ایل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    switch:
+      label: سوئچ
+      help: 'اس آپشن کو آن یا آف کریں۔'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'سوئچ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    radio_choice:
+      label: 'ریڈیو انتخاب'
+      help: 'فہرست سے ایک آپشن منتخب کریں۔'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'ریڈیو انتخاب ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+      choice:
+        option_a:
+          label: 'آپشن A'
+        option_b:
+          label: 'آپشن B'
+        option_c:
+          label: 'آپشن C'
+  action:
+    button_demo: 'کچھ نہ کریں'
+    submit_default: 'جمع کرائیں'
+    submit_error: 'غلطیاں دکھائیں'
+    submit_js: 'JS عمل'
+    submit_redirect: 'ری ڈائریکٹ'
+    submit_embed_stay: 'ایمبیڈ کھلا رکھیں'
+    submit_embed_redirect: 'ایمبیڈ میں ری ڈائریکٹ'
+  error:
+    ERR_FORM_TEST:
+      message: 'ٹیسٹ کے مقصد کے لیے عالمی غلطی۔'
+  description: |
+    اس فارم کا استعمال جمع کرنے کے طرز عمل کو ٹیسٹ کرنے کے لیے کریں۔ یہ ڈیمو صفحے، ایجیکس، اور موڈل سیاق و سباق میں دستیاب ہے۔ نیچے ایک طرز عمل منتخب کریں اور جمع کریں:
+  toast:
+    success:
+      title: کامیابی
+      message: 'فارم کامیابی سے جمع کرایا گیا۔'
+    js_action:
+      title: 'JS عمل'
+      message: 'کیا آپ فارم کو دوبارہ فعال کرنا چاہتے ہیں؟'
+      reactivate: 'دوبارہ فعال کریں'
+      dismiss: 'ختم کریں'
+
+vi:
+  field:
+    entity_search:
+      label: Phòng
+      placeholder: 'Tìm kiếm một phòng...'
+      help: 'Chọn một bản ghi bằng cách tìm kiếm nó. Những gì biểu mẫu mang theo là id của nó.'
+    password:
+      label: 'Mật khẩu'
+      help: 'Nhập mật khẩu của bạn để xác thực.'
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 'Mật khẩu không hợp lệ cho mục đích thử nghiệm.'
+    emoji:
+      label: 'Biểu tượng cảm xúc'
+      help: 'Chọn một biểu tượng cảm xúc để thể hiện tâm trạng của bạn.'
+      error:
+        ERR_FIELD_EMOJI_INVALID: 'Biểu tượng cảm xúc không hợp lệ cho mục đích thử nghiệm.'
+    text_simple:
+      label: 'Văn bản'
+      help: 'Một ô nhập văn bản đơn dòng cho nội dung ngắn.'
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 'Văn bản không hợp lệ cho mục đích thử nghiệm.'
+    text_area:
+      label: 'Văn bản dài'
+      placeholder: 'Gõ bất cứ điều gì bạn muốn...'
+      help: 'Một vùng văn bản nhiều dòng cho nội dung dài hơn.'
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 'Văn bản dài không hợp lệ cho mục đích thử nghiệm.'
+    behavior:
+      label: 'Hành vi'
+      help: 'Chọn cách mà biểu mẫu phản ứng sau khi gửi.'
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 'Lựa chọn hành vi không hợp lệ cho mục đích thử nghiệm.'
+      choice:
+        error:
+          label: 'Hiển thị lỗi'
+          description: 'đóng nhúng (hoặc không làm gì trong trang).'
+        js:
+          label: 'Hành động JS (thông báo)'
+          description: 'trả về các lỗi xác thực.'
+        redirect:
+          label: 'Chuyển hướng'
+          description: 'kích hoạt một thông báo mà không gửi.'
+        default:
+          label: 'Mặc định'
+          description: 'dẫn đến toàn bộ trang, hoặc đóng hộp thoại.'
+        embed_stay:
+          label: 'Giữ nhúng mở (hộp thoại / bảng)'
+          description: 'vẫn mở trong hộp thoại/bảng.'
+        embed_redirect:
+          label: 'Chuyển hướng trong nhúng (hộp thoại / bảng)'
+          description: 'dẫn đến bên trong hộp thoại/bảng.'
+    date:
+      label: Ngày
+      help: 'Chọn một ngày sử dụng bộ chọn ngày.'
+      error:
+        ERR_FIELD_DATE_INVALID: 'Ngày không hợp lệ cho mục đích thử nghiệm.'
+    datetime:
+      label: 'Ngày & giờ'
+      help: 'Chọn một ngày và giờ kết hợp.'
+      error:
+        ERR_FIELD_DATETIME_INVALID: 'Ngày & giờ không hợp lệ cho mục đích thử nghiệm.'
+    time:
+      label: 'Thời gian'
+      help: 'Chọn một thời điểm trong ngày.'
+      error:
+        ERR_FIELD_TIME_INVALID: 'Thời gian không hợp lệ cho mục đích thử nghiệm.'
+    file:
+      label: Tệp
+      help: 'Tải lên một hoặc nhiều tệp từ thiết bị của bạn.'
+      error:
+        ERR_FIELD_FILE_INVALID: 'Tệp không hợp lệ cho mục đích thử nghiệm.'
+    email:
+      label: Email
+      placeholder: you@example.com
+      help: 'Nhập địa chỉ email hợp lệ.'
+      error:
+        ERR_FIELD_EMAIL_INVALID: 'Email không hợp lệ cho mục đích thử nghiệm.'
+    number:
+      label: Số
+      help: 'Nhập một giá trị số.'
+      error:
+        ERR_FIELD_NUMBER_INVALID: 'Số không hợp lệ cho mục đích thử nghiệm.'
+    url:
+      label: URL
+      placeholder: 'https://'
+      help: 'Nhập một URL đầy đủ bao gồm giao thức.'
+      error:
+        ERR_FIELD_URL_INVALID: 'URL không hợp lệ cho mục đích thử nghiệm.'
+    switch:
+      label: 'Công tắc'
+      help: 'Bật hoặc tắt tùy chọn này.'
+      error:
+        ERR_FIELD_SWITCH_INVALID: 'Công tắc không hợp lệ cho mục đích thử nghiệm.'
+    radio_choice:
+      label: 'Lựa chọn radio'
+      help: 'Chọn một tùy chọn từ danh sách.'
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 'Lựa chọn radio không hợp lệ cho mục đích thử nghiệm.'
+      choice:
+        option_a:
+          label: 'Tùy chọn A'
+        option_b:
+          label: 'Tùy chọn B'
+        option_c:
+          label: 'Tùy chọn C'
+  action:
+    button_demo: 'Không làm gì'
+    submit_default: Gửi
+    submit_error: 'Hiển thị lỗi'
+    submit_js: 'Hành động JS'
+    submit_redirect: 'Chuyển hướng'
+    submit_embed_stay: 'Giữ nhúng mở'
+    submit_embed_redirect: 'Chuyển hướng trong nhúng'
+  error:
+    ERR_FORM_TEST:
+      message: 'Lỗi toàn cầu cho mục đích thử nghiệm.'
+  description: |
+    Sử dụng biểu mẫu này để thử nghiệm các hành vi gửi. Bản demo này có sẵn trong các ngữ cảnh trang, ajax và hộp thoại. Chọn một hành vi bên dưới và gửi:
+  toast:
+    success:
+      title: 'Thành công'
+      message: 'Biểu mẫu đã được gửi thành công.'
+    js_action:
+      title: 'Hành động JS'
+      message: 'Bạn có muốn kích hoạt lại biểu mẫu không?'
+      reactivate: 'Kích hoạt lại'
+      dismiss: 'Bỏ qua'
+
+zh:
+  field:
+    entity_search:
+      label: 房间
+      placeholder: 搜索房间...
+      help: 通过搜索记录来选择一条记录。表单携带的是其ID。
+    password:
+      label: 密码
+      help: 输入您的密码以进行身份验证。
+      error:
+        ERR_FIELD_PASSWORD_INVALID: 密码无效，仅用于测试。
+    emoji:
+      label: 表情符号
+      help: 选择一个表情符号来表示您的心情。
+      error:
+        ERR_FIELD_EMOJI_INVALID: 表情符号无效，仅用于测试。
+    text_simple:
+      label: 文本
+      help: 单行文本输入，用于短内容。
+      error:
+        ERR_FIELD_TEXT_SIMPLE_INVALID: 文本无效，仅用于测试。
+    text_area:
+      label: 长文本
+      placeholder: 输入您想要的内容...
+      help: 用于更长内容的多行文本区域。
+      error:
+        ERR_FIELD_TEXT_AREA_INVALID: 长文本无效，仅用于测试。
+    behavior:
+      label: 行为
+      help: 选择表单提交后的反应方式。
+      error:
+        ERR_FIELD_BEHAVIOR_INVALID: 行为选择无效，仅用于测试。
+      choice:
+        error:
+          label: 显示错误
+          description: 关闭嵌入（或在页面内不执行任何操作）。
+        js:
+          label: JS操作（吐司）
+          description: 返回验证错误。
+        redirect:
+          label: 重定向
+          description: 触发吐司而不提交。
+        default:
+          label: 默认
+          description: 导航到完整页面，或关闭模态框。
+        embed_stay:
+          label: 保持嵌入打开（模态框/面板）
+          description: 在模态框/面板中保持打开。
+        embed_redirect:
+          label: 在嵌入中重定向（模态框/面板）
+          description: 在模态框/面板内导航。
+    date:
+      label: 日期
+      help: 使用日期选择器选择日期。
+      error:
+        ERR_FIELD_DATE_INVALID: 日期无效，仅用于测试。
+    datetime:
+      label: 日期和时间
+      help: 选择一个结合的日期和时间。
+      error:
+        ERR_FIELD_DATETIME_INVALID: 日期和时间无效，仅用于测试。
+    time:
+      label: 时间
+      help: 选择一天中的时间。
+      error:
+        ERR_FIELD_TIME_INVALID: 时间无效，仅用于测试。
+    file:
+      label: 文件
+      help: 从您的设备上传一个或多个文件。
+      error:
+        ERR_FIELD_FILE_INVALID: 文件无效，仅用于测试。
+    email:
+      label: 电子邮件
+      placeholder: you@example.com
+      help: 输入有效的电子邮件地址。
+      error:
+        ERR_FIELD_EMAIL_INVALID: 电子邮件无效，仅用于测试。
+    number:
+      label: 数字
+      help: 输入数值。
+      error:
+        ERR_FIELD_NUMBER_INVALID: 数字无效，仅用于测试。
+    url:
+      label: 网址
+      placeholder: 'https://'
+      help: 输入包括协议的完整网址。
+      error:
+        ERR_FIELD_URL_INVALID: 网址无效，仅用于测试。
+    switch:
+      label: 开关
+      help: 切换此选项开或关。
+      error:
+        ERR_FIELD_SWITCH_INVALID: 开关无效，仅用于测试。
+    radio_choice:
+      label: 单选
+      help: 从列表中选择一个选项。
+      error:
+        ERR_FIELD_RADIO_CHOICE_INVALID: 单选无效，仅用于测试。
+      choice:
+        option_a:
+          label: 选项A
+        option_b:
+          label: 选项B
+        option_c:
+          label: 选项C
+  action:
+    button_demo: 什么也不做
+    submit_default: 提交
+    submit_error: 显示错误
+    submit_js: JS操作
+    submit_redirect: 重定向
+    submit_embed_stay: 保持嵌入打开
+    submit_embed_redirect: 在嵌入中重定向
+  error:
+    ERR_FORM_TEST:
+      message: 用于测试的全局错误。
+  description: |
+    使用此表单测试提交行为。此演示可在页面、ajax和模态上下文中使用。选择下面的行为并提交：
+  toast:
+    success:
+      title: 成功
+      message: 表单提交成功。
+    js_action:
+      title: JS操作
+      message: 您想重新激活表单吗？
+      reactivate: 重新激活
+      dismiss: 关闭

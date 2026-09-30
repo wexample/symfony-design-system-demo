@@ -1,6 +1,0 @@
-~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-page_title: 'Moduli Vue'
-page_icon: 'ph:bold/file-vue'
-section:
-  vue:
-    title: 'Comportamento di invio (pagina + modale)'

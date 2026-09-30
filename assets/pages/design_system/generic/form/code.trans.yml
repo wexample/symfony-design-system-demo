@@ -1,0 +1,301 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Code
+  page_icon: ph:bold/code
+
+  intro: "A field that holds code, coloured by its grammar. It ships with symfony-coding and not with the design system, which it only borrows from: its frame is a field's, its colours are the scheme's code tokens, its current line and its selection the scheme's nuances — so it follows the light and the dark face like everything around it."
+
+  section:
+    server:
+      title: Server field
+      description: "A real textarea, laid over by the editor once the page runs. The textarea stays the field — posted with the form, spoken to by the form stack — so the form works the same with or without it. Select across several lines, the cursor line among them: the selection stays visible."
+    vue:
+      title: Vue field
+      description: "The same editor holding a model: v-model on the way in and out, the language a prop that can change while the field is open."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: كود
+  page_icon: 'ph:bold/code'
+  intro: 'مجال يحتوي على كود، ملون حسب قواعده. يأتي مع symfony-coding وليس مع نظام التصميم، الذي يقتبس منه فقط: إطاره هو إطار المجال، وألوانه هي رموز الكود في المخطط، وسطره الحالي واختياره هما تدرجات المخطط - لذا يتبع الضوء والوجه الداكن مثل كل شيء من حوله.'
+  section:
+    server:
+      title: 'حقل الخادم'
+      description: 'منطقة نص حقيقية، تُغطى بواسطة المحرر بمجرد تشغيل الصفحة. تبقى منطقة النص هي الحقل - تُرسل مع النموذج، ويتم التحدث إليها بواسطة كومة النموذج - لذا يعمل النموذج بنفس الطريقة سواء كانت موجودة أم لا. اختر عبر عدة خطوط، وسطر المؤشر من بينها: تبقى الاختيارات مرئية.'
+    vue:
+      title: 'حقل Vue'
+      description: 'نفس المحرر الذي يحمل نموذجًا: v-model في الطريق الداخل والخارج، واللغة خاصية يمكن أن تتغير أثناء فتح الحقل.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: কোড
+  page_icon: 'ph:bold/code'
+  intro: 'একটি ক্ষেত্র যা কোড ধারণ করে, এর ব্যাকরণ দ্বারা রঙিন। এটি ডিজাইন সিস্টেমের সাথে আসে না, বরং এটি থেকে ধারকৃত: এর কাঠামো একটি ক্ষেত্রের, এর রং স্কিমের কোড টোকেন, এর বর্তমান লাইন এবং এর নির্বাচনের স্কিমের সূক্ষ্মতা — তাই এটি চারপাশের সবকিছুর মতোই উজ্জ্বল ও অন্ধকার দিক অনুসরণ করে।'
+  section:
+    server:
+      title: 'সার্ভার ক্ষেত্র'
+      description: 'একটি প্রকৃত টেক্সট এরিয়া, পেজ চালানোর পর সম্পাদক দ্বারা লেআউট করা হয়। টেক্সট এরিয়া ক্ষেত্রেই থাকে — ফর্মের সাথে পোস্ট করা হয়, ফর্ম স্ট্যাক দ্বারা কথোপকথন হয় — তাই ফর্ম এটি নিয়ে বা ছাড়া একইভাবে কাজ করে। একাধিক লাইনে নির্বাচন করুন, তাদের মধ্যে কার্সর লাইন: নির্বাচন দৃশ্যমান থাকে।'
+    vue:
+      title: 'ভিউ ক্ষেত্র'
+      description: 'একই সম্পাদক একটি মডেল ধারণ করছে: ভি-মডেল ভিতরে এবং বাইরে, ভাষা একটি প্রপ যা ক্ষেত্র খোলা থাকা অবস্থায় পরিবর্তিত হতে পারে।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Code
+  page_icon: 'ph:bold/code'
+  intro: 'Ein Feld, das Code enthält, farblich nach seiner Grammatik. Es wird mit symfony-coding geliefert und nicht mit dem Designsystem, von dem es nur borrowt: sein Rahmen ist der eines Feldes, seine Farben sind die Code-Tokens des Schemas, seine aktuelle Zeile und seine Auswahl die Nuancen des Schemas – es folgt also dem hellen und dunklen Gesicht wie alles andere um es herum.'
+  section:
+    server:
+      title: Serverfeld
+      description: 'Ein echtes Textfeld, das überlagert wird vom Editor, sobald die Seite läuft. Das Textfeld bleibt das Feld – es wird mit dem Formular gesendet, vom Formular-Stack angesprochen – sodass das Formular gleich funktioniert, ob mit oder ohne es. Wählen Sie über mehrere Zeilen, die Cursorzeile darunter: die Auswahl bleibt sichtbar.'
+    vue:
+      title: Vue-Feld
+      description: 'Der gleiche Editor, der ein Modell hält: v-model beim Ein- und Ausgehen, die Sprache ist ein Prop, das sich ändern kann, während das Feld geöffnet ist.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Código
+  page_icon: 'ph:bold/code'
+  intro: 'Un campo que contiene código, coloreado por su gramática. Se envía con symfony-coding y no con el sistema de diseño, del cual solo toma prestado: su marco es el de un campo, sus colores son los tokens de código del esquema, su línea actual y su selección son los matices del esquema — así que sigue la cara clara y la oscura como todo a su alrededor.'
+  section:
+    server:
+      title: 'Campo del servidor'
+      description: 'Una verdadera área de texto, cubierta por el editor una vez que se ejecuta la página. El área de texto permanece como el campo — enviado con el formulario, atendido por la pila de formularios — así que el formulario funciona igual con o sin él. Selecciona a través de varias líneas, la línea del cursor entre ellas: la selección permanece visible.'
+    vue:
+      title: 'Campo de Vue'
+      description: 'El mismo editor que sostiene un modelo: v-model en la entrada y salida, el lenguaje es una prop que puede cambiar mientras el campo está abierto.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: کد
+  page_icon: 'ph:bold/code'
+  intro: 'یک فیلد که کد را نگه می‌دارد و بر اساس دستور زبانش رنگ‌آمیزی شده است. این فیلد با symfony-coding عرضه می‌شود و فقط از سیستم طراحی قرض گرفته است: قاب آن متعلق به فیلد است، رنگ‌هایش توکن‌های کد طرح‌اند، خط جاری و انتخاب آن جزئیات طرح هستند — بنابراین مانند همه چیزهای اطرافش به چهره روشن و تاریک پیروی می‌کند.'
+  section:
+    server:
+      title: 'فیلد سرور'
+      description: 'یک تکست‌اریا واقعی که بعد از اجرای صفحه توسط ویرایشگر روی آن قرار می‌گیرد. تکست‌اریا همان فیلد باقی می‌ماند — با فرم ارسال می‌شود و توسط استک فرم صحبت می‌شود — بنابراین فرم بدون آن و یا با آن به یکسان کار می‌کند. انتخاب در چندین خط، خط نشان‌گر در میان آن‌ها: انتخاب قابل مشاهده باقی می‌ماند.'
+    vue:
+      title: 'فیلد Vue'
+      description: 'همان ویرایشگری که یک مدل را نگه می‌دارد: v-model در راه ورود و خروج، زبان یک پروپ که می‌تواند در حین باز بودن فیلد تغییر کند.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Koodi
+  page_icon: 'ph:bold/code'
+  intro: 'Kenttä, joka pitää sisällään koodia, väritettynä sen syntaksin mukaan. Se tulee symfony-koodauksesta, eikä design-järjestelmästä, jota se vain lainaa: sen kehys on kentän, sen värit ovat järjestelmän kooditokeneita, sen nykyinen rivi ja valinta ovat järjestelmän vivahteita — joten se seuraa vaaleaa ja tummaa tyyliä kuten kaikki sen ympärillä.'
+  section:
+    server:
+      title: 'Palvelin kenttä'
+      description: 'Oikea tekstialue, jonka päällä on editori sivun suorittaessa. Tekstialue pysyy kenttänä — lähetetään lomakkeen mukana, keskustellaan lomakepinon kanssa — joten lomake toimii samalla tavalla sen kanssa tai ilman. Valitse useiden rivien yli, osoitinrivi niiden joukossa: valinta pysyy näkyvissä.'
+    vue:
+      title: 'Vue kenttä'
+      description: 'Sama editori, joka pitää mallia: v-model sisään ja ulos, kieli prop, joka voi muuttua kentän ollessa auki.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Code
+  page_icon: 'ph:bold/code'
+  intro: "Un champ qui contient du code, coloré par sa grammaire. Il est livré avec symfony-coding et non avec le système de design, dont il emprunte seulement : son cadre est celui d'un champ, ses couleurs sont les tokens de code du schéma, sa ligne actuelle et sa sélection sont les nuances du schéma - il suit donc le visage clair et foncé comme tout ce qui l'entoure."
+  section:
+    server:
+      title: 'Champ serveur'
+      description: "Une véritable zone de texte, recouverte par l'éditeur une fois la page exécutée. La zone de texte reste le champ - envoyée avec le formulaire, communiquée par la pile de formulaires - donc le formulaire fonctionne de la même manière avec ou sans elle. Sélectionnez plusieurs lignes, la ligne du curseur parmi elles : la sélection reste visible."
+    vue:
+      title: 'Champ Vue'
+      description: "Le même éditeur tenant un modèle : v-model à l'entrée et à la sortie, la langue étant une prop qui peut changer pendant que le champ est ouvert."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: קוד
+  page_icon: 'ph:bold/code'
+  intro: 'שדה שמחזיק קוד, בצבעים המיועדים לחוקי התחביר שלו. הוא מגיע עם symfony-coding ואינו חלק ממערכת העיצוב, אלא שואל ממנה: המסגרת שלו היא של שדה, הצבעים הם טוקנים של קוד, השורה הנוכחית והבחירה הן הגוונים של הסכמה — כך שהוא עוקב אחרי הפנים הבהירות והכהות כמו הכל מסביב.'
+  section:
+    server:
+      title: 'שדה שרת'
+      description: 'שטח טקסט אמיתי, שמעליו נמצא העורך ברגע שהעמוד רץ. שטח הטקסט נשאר השדה — נשלח עם הטופס, מדובר עם מחסנית הטופס — כך שהטופס עובד אותו דבר עם או בלי זה. בחר על פני מספר שורות, שורת הסמן ביניהם: הבחירה נשארת גלויה.'
+    vue:
+      title: 'שדה Vue'
+      description: 'אותו עורך שמחזיק מודל: v-model בדרך פנימה והחוצה, השפה פרופ שיכול להשתנות בזמן שהשדה פתוח.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: कोड
+  page_icon: 'ph:bold/code'
+  intro: 'एक ऐसा क्षेत्र जो कोड रखता है, जिसे इसकी व्याकरण से रंगा गया है। यह symfony-coding के साथ आता है और डिज़ाइन सिस्टम के साथ नहीं, जिससे यह केवल उधार लेता है: इसका फ्रेम एक क्षेत्र का है, इसके रंग योजना के कोड टोकन हैं, इसकी वर्तमान पंक्ति और इसकी चयन योजना के सूक्ष्मताएँ हैं - इसलिए यह चारों ओर की चीज़ों की तरह हल्के और गहरे चेहरे का पालन करता है।'
+  section:
+    server:
+      title: 'सर्वर क्षेत्र'
+      description: 'एक वास्तविक टेक्स्टएरिया, जिसे पृष्ठ चलने पर संपादक द्वारा रखा गया है। टेक्स्टएरिया क्षेत्र बना रहता है - फॉर्म के साथ पोस्ट किया गया, फॉर्म स्टैक द्वारा बोला गया - इसलिए फॉर्म इसके साथ या बिना समान रूप से काम करता है। कई पंक्तियों में चयन करें, उनमें से कर्सर पंक्ति: चयन दृश्यमान बना रहता है।'
+    vue:
+      title: 'Vue क्षेत्र'
+      description: 'वही संपादक जो एक मॉडल रखता है: अंदर और बाहर आते समय v-model, भाषा एक प्रॉप है जो क्षेत्र खुला होने पर बदल सकती है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kode
+  page_icon: 'ph:bold/code'
+  intro: 'Sebuah bidang yang menyimpan kode, diberi warna sesuai tata bahasanya. Ini dilengkapi dengan symfony-coding dan tidak dengan sistem desain, yang hanya dipinjam: bingkainya adalah bidang, warnanya adalah token kode skema, garis saat ini dan pilihannya adalah nuansa skema — sehingga mengikuti wajah terang dan gelap seperti segala sesuatu di sekitarnya.'
+  section:
+    server:
+      title: 'Bidang Server'
+      description: 'Sebuah textarea nyata, yang ditimpa oleh editor setelah halaman dijalankan. Textarea tetap menjadi bidang — diposting dengan formulir, dibicarakan oleh tumpukan formulir — sehingga formulir bekerja sama baik dengan atau tanpa itu. Pilih di beberapa garis, garis kursor di antara mereka: pilihan tetap terlihat.'
+    vue:
+      title: 'Bidang Vue'
+      description: 'Editor yang sama yang memegang model: v-model saat masuk dan keluar, bahasa sebagai prop yang dapat berubah saat bidang terbuka.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Codice
+  page_icon: 'ph:bold/code'
+  intro: 'Un campo che contiene codice, colorato in base alla sua grammatica. Viene fornito con symfony-coding e non con il sistema di design, dal quale prende solo in prestito: la sua cornice è quella di un campo, i suoi colori sono i token del codice dello schema, la sua riga corrente e la sua selezione sono le sfumature dello schema — quindi segue il lato chiaro e scuro come tutto ciò che lo circonda.'
+  section:
+    server:
+      title: 'Campo server'
+      description: "Un vero textarea, sovrapposto dall'editor una volta che la pagina è in esecuzione. Il textarea rimane il campo — inviato con il modulo, comunicato dallo stack del modulo — quindi il modulo funziona allo stesso modo con o senza di esso. Seleziona su più righe, la riga del cursore tra di esse: la selezione rimane visibile."
+    vue:
+      title: 'Campo Vue'
+      description: 'Lo stesso editor che contiene un modello: v-model in entrata e in uscita, la lingua è una prop che può cambiare mentre il campo è aperto.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: コード
+  page_icon: 'ph:bold/code'
+  intro: '文法によって色付けされたコードを保持するフィールドです。これはsymfony-codingと共に提供され、デザインシステムからは借用されているだけです：その枠はフィールドのもので、色はスキームのコードトークン、現在の行と選択はスキームのニュアンスを示します — そのため、周囲のすべてと同様に明るい面と暗い面に従います。'
+  section:
+    server:
+      title: サーバーフィールド
+      description: 'ページが実行されるとエディターによって重ねられる本物のテキストエリアです。テキストエリアはフィールドのままであり、フォームと共に送信され、フォームスタックからも話しかけられます — そのため、フォームはそれがあってもなくても同じように機能します。複数の行を選択し、その中のカーソル行を選びます：選択は可視のままです。'
+    vue:
+      title: Vueフィールド
+      description: モデルを保持する同じエディター：出入りする際のv-model、フィールドが開いている間に変更可能なプロップとしての言語です。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 코드
+  page_icon: 'ph:bold/code'
+  intro: '구문에 따라 색상이 지정된 코드를 포함하는 필드입니다. 디자인 시스템과는 별개로 symfony-coding과 함께 제공되며, 디자인 시스템에서 차용한 것에 불과합니다: 프레임은 필드의 것이고, 색상은 스킴의 코드 토큰이며, 현재 줄과 선택은 스킴의 뉘앙스입니다 — 따라서 주변의 모든 것처럼 밝은 면과 어두운 면을 따릅니다.'
+  section:
+    server:
+      title: '서버 필드'
+      description: '페이지가 실행되면 편집기로 덮인 실제 텍스트 영역입니다. 텍스트 영역은 필드로 유지되며, 양식과 함께 제출되고 양식 스택에 의해 사용됩니다 — 따라서 양식은 그것이 있든 없든 동일하게 작동합니다. 여러 줄을 선택하고, 그 중 커서 줄을 선택합니다: 선택 영역은 계속 표시됩니다.'
+    vue:
+      title: 'Vue 필드'
+      description: '모델을 포함하는 동일한 편집기입니다: 데이터가 들어오고 나갈 때 v-model을 사용하며, 필드가 열려 있는 동안 변경될 수 있는 prop으로 언어를 제공합니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Code
+  page_icon: 'ph:bold/code'
+  intro: 'Een veld dat code bevat, gekleurd volgens de grammatica. Het maakt gebruik van symfony-coding en niet van het ontwerp systeem, waarvan het alleen leent: het frame is dat van een veld, de kleuren zijn de code tokens van het schema, de huidige regel en de selectie zijn de nuances van het schema — dus volgt het de lichte en donkere weergave zoals alles om het heen.'
+  section:
+    server:
+      title: 'Server veld'
+      description: 'Een echte textarea, die wordt overschreven door de editor zodra de pagina draait. De textarea blijft het veld — verzonden met het formulier, aangesproken door de formulierstapel — zodat het formulier hetzelfde werkt met of zonder het. Selecteer over meerdere regels, de cursorregel daaronder: de selectie blijft zichtbaar.'
+    vue:
+      title: 'Vue veld'
+      description: 'Dezelfde editor die een model vasthoudt: v-model bij het binnenkomen en verlaten, de taal een prop die kan veranderen terwijl het veld open is.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kod
+  page_icon: 'ph:bold/code'
+  intro: 'Pole, które zawiera kod, pokolorowane zgodnie z jego składnią. Jest dostarczane z symfony-coding, a nie z systemu projektowania, z którego tylko pożycza: jego ramka to ramka pola, jego kolory to tokeny kodu schematu, aktualna linia i zaznaczenie to niuanse schematu — więc podąża za jasną i ciemną wersją, jak wszystko wokół.'
+  section:
+    server:
+      title: 'Pole serwera'
+      description: 'Prawdziwe pole tekstowe, na które nakłada się edytor, gdy strona jest uruchomiona. Pole tekstowe pozostaje polem — przesyłane z formularzem, komunikujące się z stosu formularzy — więc formularz działa tak samo z nim, jak i bez niego. Zaznacz w kilku liniach, a linia kursora wśród nich: zaznaczenie pozostaje widoczne.'
+    vue:
+      title: 'Pole Vue'
+      description: 'Ten sam edytor, który trzyma model: v-model w drodze do i z, język jako właściwość, która może się zmieniać, gdy pole jest otwarte.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Código
+  page_icon: 'ph:bold/code'
+  intro: 'Um campo que contém código, colorido de acordo com sua gramática. Ele vem com o symfony-coding e não com o sistema de design, do qual apenas empresta: sua estrutura é a de um campo, suas cores são os tokens de código do esquema, sua linha atual e sua seleção são as nuances do esquema — assim, ele segue o modo claro e o escuro como tudo ao seu redor.'
+  section:
+    server:
+      title: 'Campo do servidor'
+      description: 'Uma textarea real, sobreposta pelo editor assim que a página é executada. A textarea permanece sendo o campo — enviada com o formulário, comunicada pela pilha de formulários — então o formulário funciona da mesma forma com ou sem ela. Selecione várias linhas, com a linha do cursor entre elas: a seleção permanece visível.'
+    vue:
+      title: 'Campo Vue'
+      description: 'O mesmo editor segurando um modelo: v-model na entrada e na saída, a linguagem uma propriedade que pode mudar enquanto o campo está aberto.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Код
+  page_icon: 'ph:bold/code'
+  intro: 'Поле для кода, раскрашенное в соответствии с его грамматикой. Оно идет в комплекте с symfony-coding и не связано с дизайн-системой, из которой лишь заимствует: его рамка соответствует полю, его цвета — это токены кода схемы, текущая строка и выделение — это нюансы схемы, — поэтому оно следует за светлой и темной темой, как все вокруг.'
+  section:
+    server:
+      title: 'Поле сервера'
+      description: 'Настоящее текстовое поле, поверх которого накладывается редактор, как только страница загружается. Текстовое поле остается полем — отправляется с формой, с ним взаимодействует стек форм — так что форма работает одинаково с ним или без него. Выделяйте несколько строк, курсорная строка среди них: выделение остается видимым.'
+    vue:
+      title: 'Поле Vue'
+      description: 'Тот же редактор, который держит модель: v-model на входе и выходе, язык — это пропс, который может изменяться, пока поле открыто.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: โค้ด
+  page_icon: 'ph:bold/code'
+  intro: 'ฟิลด์ที่เก็บโค้ดซึ่งมีสีตามไวยากรณ์ มันถูกจัดส่งพร้อมกับ symfony-coding และไม่ใช่กับระบบการออกแบบ ซึ่งมันยืมมาจาก: กรอบมันคือฟิลด์ สีของมันคือโทเค็นโค้ดของสคีม์ บรรทัดปัจจุบันและการเลือกของมันคือความแตกต่างของสคีม์ — ดังนั้นมันจึงตามแสงและความมืดเช่นเดียวกับทุกสิ่งรอบข้าง.'
+  section:
+    server:
+      title: ฟิลด์เซิร์ฟเวอร์
+      description: 'พื้นที่ข้อความจริง ที่ถูกวางทับโดยตัวแก้ไขเมื่อหน้าเว็บทำงาน พื้นที่ข้อความยังคงเป็นฟิลด์ — ถูกโพสต์พร้อมกับฟอร์ม สื่อสารกับสแตกฟอร์ม — ดังนั้นฟอร์มจึงทำงานได้เหมือนกันไม่ว่าจะมีหรือไม่มีมัน เลือกข้ามหลายบรรทัด โดยมีเส้นที่เคอร์เซอร์อยู่ในนั้น: การเลือกยังคงมองเห็นได้.'
+    vue:
+      title: 'ฟิลด์ Vue'
+      description: 'ตัวแก้ไขเดียวกันที่ถือโมเดล: v-model ในระหว่างการเข้าและออก ภาษาเป็น prop ที่สามารถเปลี่ยนแปลงได้ในขณะที่ฟิลด์เปิดอยู่.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kod
+  page_icon: 'ph:bold/code'
+  intro: "Kod tutan bir alan, gramerine göre renklendirilmiştir. Symfony-coding ile birlikte gelir ve tasarım sisteminden yalnızca ödünç alınmıştır: çerçevesi bir alanın, renkleri şemanın kod token'ları, mevcut satırı ve seçimi şemanın nüanslarıdır — bu yüzden etrafındaki her şey gibi aydınlık ve karanlık yüzü takip eder."
+  section:
+    server:
+      title: 'Sunucu alanı'
+      description: 'Sayfa çalıştığında editörle kaplanan gerçek bir metin alanı. Metin alanı alan olarak kalır — form ile gönderilir, form yığını tarafından iletişim kurulur — bu yüzden form bununla ya da onsuz aynı şekilde çalışır. Birden fazla satır arasında seçim yapın, imleç satırı bunlardan biri: seçim görünür kalır.'
+    vue:
+      title: 'Vue alanı'
+      description: 'Bir modeli tutan aynı editör: içeri ve dışarı çıkarken v-model, alan açıkken değişebilen bir prop olarak dil.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: کوڈ
+  page_icon: 'ph:bold/code'
+  intro: 'ایک ایسا میدان جو کوڈ رکھتا ہے، جس کا رنگ اس کی گرامر کے مطابق ہے۔ یہ symfony-coding کے ساتھ آتا ہے اور ڈیزائن سسٹم کے ساتھ نہیں، جس سے یہ صرف ادھار لیتا ہے: اس کا فریم ایک میدان کا ہے، اس کے رنگ سکیم کے کوڈ ٹوکن ہیں، اس کی موجودہ لائن اور اس کا انتخاب سکیم کی باریکیوں ہیں — اس لیے یہ ہر چیز کی طرح روشنی اور تاریکی کے چہرے کی پیروی کرتا ہے۔'
+  section:
+    server:
+      title: 'سرور کا میدان'
+      description: 'ایک حقیقی ٹیکسٹ ایریا، جس پر پیج چلنے کے بعد ایڈیٹر بچھتا ہے۔ ٹیکسٹ ایریا میدان رہتا ہے — فارم کے ساتھ پوسٹ کیا جاتا ہے، فارم اسٹیک کے ذریعے اس سے بات کی جاتی ہے — لہذا فارم اس کے ساتھ یا اس کے بغیر ایک جیسا کام کرتا ہے۔ کئی لائنوں میں منتخب کریں، ان میں کرسر لائن: انتخاب نظر آتا رہتا ہے۔'
+    vue:
+      title: 'ویو کا میدان'
+      description: 'اسی ایڈیٹر میں ماڈل ہے: اندر اور باہر جانے کے لیے v-model، زبان ایک پراپ ہے جو میدان کھلا ہونے کے دوران تبدیل ہو سکتی ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Mã
+  page_icon: 'ph:bold/code'
+  intro: 'Một trường chứa mã, được tô màu theo ngữ pháp của nó. Nó đi kèm với symfony-coding và không phải với hệ thống thiết kế, mà chỉ mượn từ đó: khung của nó là của một trường, màu sắc của nó là các mã token của bảng màu, dòng hiện tại và lựa chọn của nó là những sắc thái của bảng màu - vì vậy nó theo ánh sáng và bóng tối như mọi thứ xung quanh nó.'
+  section:
+    server:
+      title: 'Trường máy chủ'
+      description: 'Một textarea thực sự, được phủ lên bởi trình soạn thảo khi trang được chạy. Textarea vẫn là trường - được gửi cùng với biểu mẫu, được nói chuyện bởi ngăn xếp biểu mẫu - vì vậy biểu mẫu hoạt động giống nhau với hoặc không có nó. Chọn qua nhiều dòng, dòng con trỏ nằm trong số đó: lựa chọn vẫn có thể nhìn thấy.'
+    vue:
+      title: 'Trường Vue'
+      description: 'Cùng một trình soạn thảo giữ một mô hình: v-model khi vào và ra, ngôn ngữ là một thuộc tính có thể thay đổi trong khi trường đang mở.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 代码
+  page_icon: 'ph:bold/code'
+  intro: 一个包含代码的领域，按其语法上色。它与symfony-coding一起提供，而不是与设计系统一起提供，它只是借用了设计系统：它的框架是一个字段的，颜色是方案的代码标记，当前行和选择是方案的细微差别——因此它像周围的一切一样，跟随明暗的面貌。
+  section:
+    server:
+      title: 服务器字段
+      description: 一个真实的文本区域，页面运行时由编辑器覆盖。文本区域保持为字段——通过表单提交，由表单堆栈进行交流——因此表单在有或没有它的情况下工作相同。可以选择多行，其中光标行在其中：选择保持可见。
+    vue:
+      title: 'Vue 字段'
+      description: 同样的编辑器持有一个模型：进出时的v-model，语言是一个可以在字段打开时变化的属性。

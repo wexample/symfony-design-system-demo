@@ -1,0 +1,715 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Feedback
+  page_icon: ph:bold/megaphone
+
+  intro: "What the interface says back. Ordered by how much of the reader's attention each one asks for, from a line that waits to be noticed to a dialog that will not be ignored."
+
+  page:
+    toasts:
+      title: Toasts
+      description: "Something happened and it is over: a note that appears at the edge and leaves on its own."
+    banners:
+      title: Banners
+      description: "Something holds for the whole page and stays until it is dealt with."
+    messages:
+      title: Messages
+      description: "A sentence attached to what it is about — under a field, inside a block — in the five semantic colours."
+    markers:
+      title: Markers
+      description: "One capsule for everything said about a thing in a word — a state, a name, a version, a category — with the circle for where there is no room for it, and the counter, which is the one thing that is not one."
+    loaders:
+      title: Loaders
+      description: "Something is happening and its end is not known — the spinner for a machine, the dots for somebody about to speak."
+    progress:
+      title: Progress
+      description: "The same, with an end that is known: a bar driven by the same words the cli progress speaks."
+    distribution:
+      title: Distribution
+      description: "What a total is made of rather than how far it has got: the parts of a whole in one line, in the order they are given."
+    errors:
+      title: Errors
+      description: "What a page shows when what it was asked for cannot be given."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ملاحظات
+  page_icon: 'ph:bold/megaphone'
+  intro: 'ما تقوله الواجهة. مرتبة حسب مدى جاذبية كل منها لاهتمام القارئ، من سطر ينتظر أن يتم ملاحظته إلى حوار لا يمكن تجاهله.'
+  page:
+    toasts:
+      title: إشعارات
+      description: 'حدث شيء وانتهى: ملاحظة تظهر في الحافة وتختفي من تلقاء نفسها.'
+    banners:
+      title: لافتات
+      description: 'شيء يستمر طوال الصفحة ويبقى حتى يتم التعامل معه.'
+    messages:
+      title: رسائل
+      description: 'جملة مرتبطة بما يتعلق به — تحت حقل، داخل كتلة — بالألوان الدلالية الخمسة.'
+    markers:
+      title: علامات
+      description: 'كبسولة واحدة لكل ما قيل عن شيء ما بكلمة واحدة — حالة، اسم، إصدار، فئة — مع الدائرة حيث لا يوجد مكان لها، والعداد، الذي هو الشيء الوحيد الذي ليس واحداً.'
+    loaders:
+      title: محملات
+      description: 'يحدث شيء ما ونهايته غير معروفة — الدائرة لآلة، والنقاط لشخص على وشك التحدث.'
+    progress:
+      title: تقدم
+      description: 'نفس الشيء، مع نهاية معروفة: شريط يقوده نفس الكلمات التي يتحدث عنها تقدم سطر الأوامر.'
+    distribution:
+      title: توزيع
+      description: 'ما يتكون منه المجموع بدلاً من مدى تقدمه: أجزاء من كل في سطر واحد، بالترتيب الذي تم إعطاؤها به.'
+    errors:
+      title: أخطاء
+      description: 'ما تعرضه الصفحة عندما لا يمكن تلبية ما طُلب منها.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: প্রতিক্রিয়া
+  page_icon: 'ph:bold/megaphone'
+  intro: 'ইন্টারফেসটি কীভাবে প্রতিক্রিয়া জানায়। পাঠকের মনোযোগ আকর্ষণের জন্য অর্ডার করা হয়েছে, একটি লাইনের সাথে যা লক্ষ্য করার জন্য অপেক্ষা করছে থেকে একটি ডায়লগ যা উপেক্ষা করা যাবে না।'
+  page:
+    toasts:
+      title: টোস্ট
+      description: 'কিছু ঘটেছে এবং এটি শেষ হয়েছে: একটি নোট যা প্রান্তে প্রদর্শিত হয় এবং স্বতঃস্ফূর্তভাবে চলে যায়।'
+    banners:
+      title: ব্যানার
+      description: 'কিছু পুরো পৃষ্ঠায় ধরে রাখে এবং এটি সমাধান না হওয়া পর্যন্ত থাকে।'
+    messages:
+      title: বার্তা
+      description: 'যার সাথে এটি সম্পর্কিত একটি বাক্য — একটি ক্ষেত্রের নিচে, একটি ব্লকের ভিতরে — পাঁচটি অর্থবোধক রঙে।'
+    markers:
+      title: মার্কার
+      description: 'একটি শব্দে একটি বিষয়ে বলা সবকিছুর জন্য একটি ক্যাপসুল — একটি অবস্থা, একটি নাম, একটি সংস্করণ, একটি বিভাগ — যেখানে এটি রাখার জন্য স্থান নেই তার জন্য বৃত্ত এবং কাউন্টার, যা একমাত্র জিনিস যা এক নয়।'
+    loaders:
+      title: লোডার
+      description: 'কিছু ঘটছে এবং এর শেষ জানা নেই — একটি মেশিনের জন্য স্পিনার, কাউকে কথা বলতে প্রস্তুত থাকাDots।'
+    progress:
+      title: অগ্রগতি
+      description: 'একই, একটি শেষ জানিয়ে: একটি বার যা cli অগ্রগতির দ্বারা বলা একই শব্দগুলি দ্বারা চালিত।'
+    distribution:
+      title: বণ্টন
+      description: 'একটি মোট কী দ্বারা গঠিত তার চেয়ে এটি কতদূর গিয়েছে: একটি লাইনে একটি পুরো অংশ, যেভাবে তারা দেওয়া হয়েছে।'
+    errors:
+      title: ত্রুটি
+      description: 'একটি পৃষ্ঠা যখন যা চাওয়া হয় তা দেওয়া যায় না তখন এটি কী দেখায়।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Was die Benutzeroberfläche zurückmeldet. Geordnet nach der Aufmerksamkeit, die jeder dieser Rückmeldungen erfordert, von einer Zeile, die darauf wartet, bemerkt zu werden, bis zu einem Dialog, der nicht ignoriert werden kann.'
+  page:
+    toasts:
+      title: Toasts
+      description: 'Etwas ist passiert und es ist vorbei: eine Notiz, die am Rand erscheint und von selbst verschwindet.'
+    banners:
+      title: Banners
+      description: 'Etwas gilt für die gesamte Seite und bleibt, bis es bearbeitet wird.'
+    messages:
+      title: Nachrichten
+      description: 'Ein Satz, der angibt, worum es geht — unter einem Feld, innerhalb eines Blocks — in den fünf semantischen Farben.'
+    markers:
+      title: Marker
+      description: 'Eine Kapsel für alles, was über eine Sache gesagt wird — ein Zustand, ein Name, eine Version, eine Kategorie — mit dem Kreis, wo kein Platz dafür ist, und dem Zähler, der das eine ist, was nicht eins ist.'
+    loaders:
+      title: Ladeanzeigen
+      description: 'Etwas geschieht und das Ende ist unbekannt — der Spinner für eine Maschine, die Punkte für jemanden, der gleich sprechen wird.'
+    progress:
+      title: Fortschritt
+      description: 'Das Gleiche, mit einem bekannten Ende: ein Balken, der von denselben Worten gesteuert wird, die der CLI-Fortschritt spricht.'
+    distribution:
+      title: Verteilung
+      description: 'Woraus ein Gesamtwert besteht, anstatt wie weit es gekommen ist: die Teile eines Ganzen in einer Zeile, in der Reihenfolge, in der sie gegeben werden.'
+    errors:
+      title: Fehler
+      description: 'Was eine Seite zeigt, wenn das, was verlangt wurde, nicht bereitgestellt werden kann.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Comentarios
+  page_icon: 'ph:bold/megáfono'
+  intro: 'Lo que la interfaz responde. Ordenado por cuánta atención del lector solicita cada uno, desde una línea que espera ser notada hasta un diálogo que no se ignorará.'
+  page:
+    toasts:
+      title: Notificaciones
+      description: 'Algo sucedió y ya terminó: una nota que aparece al borde y se va por sí sola.'
+    banners:
+      title: Banners
+      description: 'Algo se mantiene en toda la página y permanece hasta que se resuelva.'
+    messages:
+      title: Mensajes
+      description: 'Una frase adjunta a lo que se trata — debajo de un campo, dentro de un bloque — en los cinco colores semánticos.'
+    markers:
+      title: Marcadores
+      description: 'Una cápsula para todo lo dicho sobre algo en una palabra — un estado, un nombre, una versión, una categoría — con el círculo para donde no hay espacio para ello, y el contador, que es la única cosa que no es uno.'
+    loaders:
+      title: Cargadores
+      description: 'Algo está sucediendo y su final no se conoce — el spinner para una máquina, los puntos para alguien a punto de hablar.'
+    progress:
+      title: Progreso
+      description: 'Lo mismo, con un final conocido: una barra impulsada por las mismas palabras que habla el progreso del cli.'
+    distribution:
+      title: Distribución
+      description: 'De qué se compone un total en lugar de qué tan lejos ha llegado: las partes de un todo en una línea, en el orden en que se presentan.'
+    errors:
+      title: Errores
+      description: 'Lo que una página muestra cuando no se puede proporcionar lo que se solicitó.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بازخورد
+  page_icon: 'ph:bold/megaphone'
+  intro: 'آنچه که رابط کاربری پاسخ می‌دهد. بر اساس میزان توجهی که هر کدام از خواننده می‌طلبند، از یک خط که منتظر جلب توجه است تا یک دیالوگ که نمی‌توان نادیده‌اش گرفت، مرتب شده‌اند.'
+  page:
+    toasts:
+      title: 'پیام‌های موقت'
+      description: 'چیزی رخ داده و تمام شده: یادداشتی که در لبه ظاهر می‌شود و به‌تنهایی ناپدید می‌شود.'
+    banners:
+      title: بنرها
+      description: 'چیزی که برای کل صفحه است و تا زمانی که با آن برخورد نشود باقی می‌ماند.'
+    messages:
+      title: پیام‌ها
+      description: 'جملهای وابسته به آنچه که مربوط است — زیر یک فیلد، درون یک بلوک — با پنج رنگ معنایی.'
+    markers:
+      title: نشانگرها
+      description: 'یک کپسول برای هر چیزی که درباره یک چیز در یک کلمه گفته شده است — یک وضعیت، یک نام، یک نسخه، یک دسته — با دایره‌ای برای جایی که جایی برای آن وجود ندارد و شمارنده، که تنها چیزی است که یک نیست.'
+    loaders:
+      title: بارگذارها
+      description: 'چیزی در حال وقوع است و پایان آن مشخص نیست — چرخان برای یک ماشین، نقطه‌ها برای کسی که در حال صحبت است.'
+    progress:
+      title: پیشرفت
+      description: 'همان، با پایانی که مشخص است: یک نوار که توسط همان کلماتی که پیشرفت cli می‌گوید، هدایت می‌شود.'
+    distribution:
+      title: توزیع
+      description: 'آنچه که یک کل را تشکیل می‌دهد به جای اینکه چقدر پیش رفته است: اجزای یک کل در یک خط، به ترتیبی که داده شده‌اند.'
+    errors:
+      title: خطاها
+      description: 'آنچه که یک صفحه نشان می‌دهد زمانی که آنچه از آن خواسته شده نمی‌تواند ارائه شود.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Palaute
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Mitä käyttöliittymä vastaa. Järjestetty lukijan huomion vaatimuksen mukaan, rivistä, joka odottaa huomiota, dialogiin, jota ei voi ohittaa.'
+  page:
+    toasts:
+      title: Toastit
+      description: 'Jotain tapahtui ja se on ohi: ilmoitus, joka ilmestyy reunoille ja poistuu itsestään.'
+    banners:
+      title: Bannerit
+      description: 'Jotain, joka on koko sivun ajan ja pysyy, kunnes se on käsitelty.'
+    messages:
+      title: Viestit
+      description: 'Lause, joka liittyy siihen, mistä on kyse — kentän alapuolella, lohkossa — viidessä semanttisessa väri-ssä.'
+    markers:
+      title: Merkinnät
+      description: 'Yksi kapseli kaikesta, mitä asiasta on sanottu yhdellä sanalla — tila, nimi, versio, kategoria — ympyrä, kun sille ei ole tilaa, ja laskuri, joka on se yksi asia, joka ei ole yksi.'
+    loaders:
+      title: Lataajat
+      description: 'Jotain on tapahtumassa ja sen loppua ei tiedetä — pyörijä koneelle, pisteet, kun joku on puhumassa.'
+    progress:
+      title: Edistyminen
+      description: 'Sama, tunnetulla loppupisteellä: palkki, jota ohjaa samat sanat, joita cli edistyminen puhuu.'
+    distribution:
+      title: Jakelu
+      description: 'Mistä kokonaisuus koostuu sen sijaan, että kuinka pitkälle se on päässyt: osat kokonaisuudesta yhdellä rivillä, siinä järjestyksessä kuin ne annetaan.'
+    errors:
+      title: Virheet
+      description: 'Mitä sivu näyttää, kun sitä, mitä siltä pyydettiin, ei voida antaa.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: "Retour d'information"
+  page_icon: 'ph:bold/megaphone'
+  intro: "Ce que l'interface renvoie. Ordonné par la quantité d'attention que chaque élément demande du lecteur, d'une ligne qui attend d'être remarquée à un dialogue qui ne sera pas ignoré."
+  page:
+    toasts:
+      title: Notifications
+      description: "Quelque chose s'est produit et c'est fini : une note qui apparaît sur le côté et disparaît d'elle-même."
+    banners:
+      title: Bannières
+      description: "Quelque chose qui reste sur toute la page et demeure jusqu'à ce que cela soit traité."
+    messages:
+      title: Messages
+      description: "Une phrase liée à ce dont il s'agit — sous un champ, dans un bloc — dans les cinq couleurs sémantiques."
+    markers:
+      title: Marqueurs
+      description: "Une capsule pour tout ce qui a été dit à propos d'une chose en un mot — un état, un nom, une version, une catégorie — avec le cercle pour là où il n'y a pas de place, et le compteur, qui est la seule chose qui n'est pas une."
+    loaders:
+      title: Chargeurs
+      description: "Quelque chose se passe et sa fin n'est pas connue — le spinner pour une machine, les points pour quelqu'un sur le point de parler."
+    progress:
+      title: Progrès
+      description: 'La même chose, avec une fin qui est connue : une barre animée par les mêmes mots que ceux utilisés pour le progrès cli.'
+    distribution:
+      title: Distribution
+      description: "De quoi est fait un total plutôt que jusqu'où il est arrivé : les parties d'un tout en une ligne, dans l'ordre dans lequel elles sont données."
+    errors:
+      title: Erreurs
+      description: "Ce qu'une page montre lorsque ce qui a été demandé ne peut pas être fourni."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: משוב
+  page_icon: 'ph:bold/megaphone'
+  intro: 'מה שהממשק אומר חזרה. מסודר לפי כמה תשומת לב של הקורא כל אחד מהם דורש, משורה שממתינה להתגלות לדיאלוג שלא ניתן להתעלם ממנו.'
+  page:
+    toasts:
+      title: התראות
+      description: 'משהו קרה וזה נגמר: הודעה שמופיעה בשולי המסך ועוזבת מעצמה.'
+    banners:
+      title: באנרים
+      description: 'משהו מחזיק בכל העמוד ונשאר עד שיטופל.'
+    messages:
+      title: הודעות
+      description: 'משפט שמצורף למה שמדובר — מתחת לשדה, בתוך בלוק — בחמישה צבעים סמנטיים.'
+    markers:
+      title: סימנים
+      description: 'קפסולה אחת לכל מה שנאמר על דבר במילה — מצב, שם, גרסה, קטגוריה — עם המעגל לאן שאין מקום לזה, ועם הסופר, שזה הדבר שלא אחד.'
+    loaders:
+      title: טוענים
+      description: 'משהו קורה וסופו אינו ידוע — הסיבוב למכונה, הנקודות למישהו שעומד לדבר.'
+    progress:
+      title: התקדמות
+      description: 'אותו דבר, עם סוף ידוע: שורת התקדמות המנוהלת על ידי אותם מילים שהתקדמות ה-cli אומר.'
+    distribution:
+      title: הפצה
+      description: 'ממה עשוי סך הכל ולא כמה רחוק הוא הגיע: חלקים של כלל בשורה אחת, בסדר שבו הם ניתנים.'
+    errors:
+      title: שגיאות
+      description: 'מה שעמוד מראה כאשר מה שביקשו ממנו אינו יכול להתממש.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: प्रतिक्रिया
+  page_icon: 'ph:bold/megaphone'
+  intro: 'इंटरफेस जो वापस कहता है। इसे उस तरीके से क्रमबद्ध किया गया है जिसमें प्रत्येक एक पाठक का ध्यान आकर्षित करता है, एक पंक्ति से जो ध्यान देने की प्रतीक्षा करती है, से लेकर एक संवाद तक जिसे नजरअंदाज नहीं किया जा सकता।'
+  page:
+    toasts:
+      title: टोस्ट्स
+      description: 'कुछ हुआ और यह खत्म हो गया: एक नोट जो किनारे पर प्रकट होता है और अपने आप चला जाता है।'
+    banners:
+      title: बैनर्स
+      description: 'कुछ पूरे पृष्ठ के लिए है और तब तक रहता है जब तक इसे निपटाया नहीं जाता।'
+    messages:
+      title: संदेश
+      description: 'एक वाक्य जो इसके बारे में है - एक क्षेत्र के नीचे, एक ब्लॉक के अंदर - पांच मौलिक रंगों में।'
+    markers:
+      title: मार्कर्स
+      description: 'एक शब्द में एक चीज़ के बारे में कहा गया सब कुछ का एक कैप्सूल - एक स्थिति, एक नाम, एक संस्करण, एक श्रेणी - जहां इसके लिए कोई जगह नहीं है उसके लिए वृत्त और काउंटर, जो एक चीज़ है जो एक नहीं है।'
+    loaders:
+      title: लोडर्स
+      description: 'कुछ हो रहा है और इसका अंत ज्ञात नहीं है - एक मशीन के लिए स्पिनर, किसी के बोलने के लिए बिंदु।'
+    progress:
+      title: प्रगति
+      description: 'यही, एक अंत के साथ जो ज्ञात है: एक बार जो वही शब्दों द्वारा संचालित है जो सीएलआई प्रगति बोलता है।'
+    distribution:
+      title: वितरण
+      description: 'किसी कुल का निर्माण किससे हुआ है न कि यह कितनी दूर तक पहुंचा है: एक पंक्ति में एक पूरे के भाग, उसी क्रम में जैसे उन्हें दिया गया है।'
+    errors:
+      title: त्रुटियाँ
+      description: 'एक पृष्ठ जो दिखाता है जब उसे जो माँगा गया था वह नहीं दिया जा सकता।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Umpan Balik'
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Apa yang dikatakan antarmuka kembali. Diurutkan berdasarkan seberapa banyak perhatian yang diminta oleh masing-masing, dari baris yang menunggu untuk diperhatikan hingga dialog yang tidak dapat diabaikan.'
+  page:
+    toasts:
+      title: Toast
+      description: 'Sesuatu telah terjadi dan sudah selesai: sebuah catatan yang muncul di tepi dan menghilang dengan sendirinya.'
+    banners:
+      title: Spanduk
+      description: 'Sesuatu bertahan untuk seluruh halaman dan tetap ada sampai ditangani.'
+    messages:
+      title: Pesan
+      description: 'Sebuah kalimat yang terlampir pada apa yang dibicarakan — di bawah sebuah field, di dalam sebuah blok — dalam lima warna semantik.'
+    markers:
+      title: Pena
+      description: 'Sebuah kapsul untuk segala sesuatu yang dikatakan tentang suatu hal dalam satu kata — sebuah status, nama, versi, kategori — dengan lingkaran untuk tempat yang tidak ada ruang untuk itu, dan penghitung, yang merupakan satu hal yang bukan satu.'
+    loaders:
+      title: Pengunduh
+      description: 'Sesuatu sedang terjadi dan akhir dari itu tidak diketahui — pemutar untuk sebuah mesin, titik-titik untuk seseorang yang akan berbicara.'
+    progress:
+      title: Progres
+      description: 'Sama, dengan akhir yang diketahui: sebuah bar yang didorong oleh kata-kata yang sama yang diucapkan oleh progres cli.'
+    distribution:
+      title: Distribusi
+      description: 'Apa yang membentuk total daripada seberapa jauh itu telah sampai: bagian-bagian dari keseluruhan dalam satu garis, dalam urutan yang diberikan.'
+    errors:
+      title: Kesalahan
+      description: 'Apa yang ditunjukkan halaman ketika apa yang diminta tidak dapat diberikan.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/megaphone'
+  intro: "Cosa dice l'interfaccia in risposta. Ordinato in base a quanto richiedono l'attenzione del lettore, da una linea che aspetta di essere notata a un dialogo che non può essere ignorato."
+  page:
+    toasts:
+      title: Notifiche
+      description: 'È successo qualcosa ed è finito: una nota che appare ai margini e scompare da sola.'
+    banners:
+      title: Banner
+      description: "Qualcosa che occupa l'intera pagina e rimane finché non viene gestito."
+    messages:
+      title: Messaggi
+      description: "Una frase collegata a ciò di cui si parla — sotto un campo, all'interno di un blocco — nei cinque colori semantici."
+    markers:
+      title: Indicatori
+      description: "Una capsula per tutto ciò che è stato detto su una cosa in una parola — uno stato, un nome, una versione, una categoria — con il cerchio per dove non c'è spazio, e il contatore, che è l'unica cosa che non è una."
+    loaders:
+      title: Caricatori
+      description: 'Qualcosa sta accadendo e la sua conclusione non è nota — il caricatore per una macchina, i puntini per qualcuno che sta per parlare.'
+    progress:
+      title: Progresso
+      description: 'La stessa cosa, con una conclusione nota: una barra guidata dalle stesse parole che parla del progresso del cli.'
+    distribution:
+      title: Distribuzione
+      description: "Di cosa è composto un totale piuttosto che quanto lontano è arrivato: le parti di un tutto in una riga, nell'ordine in cui sono date."
+    errors:
+      title: Errori
+      description: 'Cosa mostra una pagina quando ciò che è stato richiesto non può essere fornito.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: フィードバック
+  page_icon: 'ph:bold/megaphone'
+  intro: インターフェースが返すメッセージ。読者の注意をどれだけ引くかに基づいて順番に並べられています。気づかれるのを待つ行から、無視できないダイアログまで。
+  page:
+    toasts:
+      title: トースト
+      description: 何かが起こり、終わったことを示す：画面の端に現れ、自動的に消えるメッセージ。
+    banners:
+      title: バナー
+      description: ページ全体に表示され、対処されるまで残る何か。
+    messages:
+      title: メッセージ
+      description: 'それに関する内容に付随する文 — フィールドの下やブロック内 — 五つの意味的な色で。'
+    markers:
+      title: マーカー
+      description: '事柄について述べられたすべてを一言で表すカプセル — 状態、名前、バージョン、カテゴリ — 置き場所がない場合の円と、唯一のものであるカウンター。'
+    loaders:
+      title: ローダー
+      description: '何かが進行中で、その終わりが不明な状態 — 機械のスピナー、話そうとしている誰かのためのドット。'
+    progress:
+      title: 進捗
+      description: 同じく、終わりが明確な状態：CLIの進捗が語る同じ言葉によって駆動されるバー。
+    distribution:
+      title: 分配
+      description: 合計が何で構成されているかを示すものであり、どれだけ進んでいるかではない：与えられた順序で、全体の部分を一行で。
+    errors:
+      title: エラー
+      description: ページが要求された内容を提供できないときに表示されるもの。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 피드백
+  page_icon: 'ph:bold/megaphone'
+  intro: '인터페이스가 다시 말하는 내용입니다. 독자의 주목을 요구하는 정도에 따라 정렬되며, 주목받기를 기다리는 한 줄부터 무시할 수 없는 대화 상자까지 포함됩니다.'
+  page:
+    toasts:
+      title: 토스트
+      description: '무언가가 발생했고 끝났습니다: 가장자리에서 나타나고 스스로 사라지는 알림입니다.'
+    banners:
+      title: 배너
+      description: '페이지 전체를 차지하며 처리될 때까지 유지되는 내용입니다.'
+    messages:
+      title: 메시지
+      description: '그것이 무엇인지에 대한 문장 — 필드 아래, 블록 안 — 다섯 가지 의미 색상으로 표현됩니다.'
+    markers:
+      title: 마커
+      description: '어떤 것에 대해 말한 모든 내용을 단어로 요약한 캡슐 — 상태, 이름, 버전, 카테고리 — 공간이 부족할 때의 원과, 하나가 아닌 유일한 것인 카운터가 포함됩니다.'
+    loaders:
+      title: 로더
+      description: '무언가가 발생하고 끝이 불확실한 상태 — 기계의 스피너, 말을 하려는 사람의 점들입니다.'
+    progress:
+      title: 진행
+      description: '끝이 알려진 상태와 동일합니다: cli 진행이 말하는 동일한 단어로 구동되는 바입니다.'
+    distribution:
+      title: 분포
+      description: '전체가 무엇으로 구성되어 있는지, 얼마나 멀리 갔는지가 아니라: 한 줄에 제공된 순서대로 전체의 일부입니다.'
+    errors:
+      title: 오류
+      description: '페이지에서 요청한 내용을 제공할 수 없을 때 나타나는 내용입니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Wat de interface terugzegt. Geordend op basis van hoeveel aandacht elke melding vraagt, van een regel die wacht om opgemerkt te worden tot een dialoog die niet genegeerd kan worden.'
+  page:
+    toasts:
+      title: Toasts
+      description: 'Er is iets gebeurd en het is voorbij: een melding die aan de rand verschijnt en vanzelf verdwijnt.'
+    banners:
+      title: Banners
+      description: 'Iets dat de hele pagina vasthoudt en blijft staan totdat het is afgehandeld.'
+    messages:
+      title: Berichten
+      description: 'Een zin die verbonden is met waar het over gaat — onder een veld, binnen een blok — in de vijf semantische kleuren.'
+    markers:
+      title: Markers
+      description: 'Een capsule voor alles wat over een ding is gezegd in één woord — een staat, een naam, een versie, een categorie — met de cirkel voor waar er geen ruimte voor is, en de teller, dat is het ene dat niet één is.'
+    loaders:
+      title: Loaders
+      description: 'Er gebeurt iets en het einde is niet bekend — de spinner voor een machine, de stippen voor iemand die op het punt staat te spreken.'
+    progress:
+      title: Voortgang
+      description: 'Hetzelfde, met een einde dat bekend is: een balk aangedreven door dezelfde woorden die de cli-voortgang spreekt.'
+    distribution:
+      title: Verdeling
+      description: 'Waaruit een totaal bestaat in plaats van hoe ver het is gekomen: de delen van een geheel in één regel, in de volgorde waarin ze worden gegeven.'
+    errors:
+      title: Fouten
+      description: 'Wat een pagina toont wanneer wat er gevraagd werd niet kan worden gegeven.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Opinie
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Co mówi interfejs w odpowiedzi. Ułożone według tego, ile uwagi czytelnika każde z nich wymaga, od linii czekającej na zauważenie po dialog, który nie zostanie zignorowany.'
+  page:
+    toasts:
+      title: Powiadomienia
+      description: 'Coś się wydarzyło i już się skończyło: notatka, która pojawia się na krawędzi i znika sama.'
+    banners:
+      title: Banery
+      description: 'Coś, co trwa przez całą stronę i pozostaje, aż zostanie załatwione.'
+    messages:
+      title: Wiadomości
+      description: 'Zdanie przypisane do tego, o co chodzi — pod polem, w bloku — w pięciu kolorach semantycznych.'
+    markers:
+      title: Markery
+      description: 'Jedna kapsuła dla wszystkiego, co powiedziano o danej rzeczy w jednym słowie — stan, nazwa, wersja, kategoria — z okręgiem tam, gdzie nie ma na to miejsca, i licznikiem, który jest jedyną rzeczą, która nie jest jednością.'
+    loaders:
+      title: Ładowarki
+      description: 'Coś się dzieje i nie wiadomo, kiedy się skończy — wskaźnik obrotowy dla maszyny, kropki dla kogoś, kto ma coś do powiedzenia.'
+    progress:
+      title: Postęp
+      description: 'To samo, z końcem, który jest znany: pasek napędzany tymi samymi słowami, które mówi postęp w cli.'
+    distribution:
+      title: Dystrybucja
+      description: 'Z czego składa się całkowita suma, a nie jak daleko się dotarło: części całości w jednej linii, w kolejności, w jakiej zostały podane.'
+    errors:
+      title: Błędy
+      description: 'Co strona pokazuje, gdy to, o co poproszono, nie może zostać dostarczone.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Feedback
+  page_icon: 'ph:bold/megaphone'
+  intro: 'O que a interface responde. Ordenado por quanto da atenção do leitor cada um exige, desde uma linha que espera ser notada até um diálogo que não pode ser ignorado.'
+  page:
+    toasts:
+      title: Notificações
+      description: 'Algo aconteceu e acabou: uma nota que aparece na borda e sai sozinha.'
+    banners:
+      title: Banners
+      description: 'Algo que ocupa toda a página e permanece até ser tratado.'
+    messages:
+      title: Mensagens
+      description: 'Uma frase ligada ao que se trata — abaixo de um campo, dentro de um bloco — nas cinco cores semânticas.'
+    markers:
+      title: Marcadores
+      description: 'Uma cápsula para tudo que foi dito sobre algo em uma palavra — um estado, um nome, uma versão, uma categoria — com o círculo para onde não há espaço para isso, e o contador, que é a única coisa que não é uma.'
+    loaders:
+      title: Carregadores
+      description: 'Algo está acontecendo e seu fim não é conhecido — o spinner para uma máquina, os pontos para alguém prestes a falar.'
+    progress:
+      title: Progresso
+      description: 'O mesmo, com um fim que é conhecido: uma barra guiada pelas mesmas palavras que o progresso do cli fala.'
+    distribution:
+      title: Distribuição
+      description: 'Do que um total é feito em vez de quão longe ele chegou: as partes de um todo em uma linha, na ordem em que são apresentadas.'
+    errors:
+      title: Erros
+      description: 'O que uma página mostra quando o que foi solicitado não pode ser fornecido.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Обратная связь'
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Что говорит интерфейс в ответ. Упорядочено по тому, насколько сильно оно требует внимания читателя, от строки, которая ждет, чтобы её заметили, до диалога, который нельзя игнорировать.'
+  page:
+    toasts:
+      title: Уведомления
+      description: 'Что-то произошло и закончилось: заметка, которая появляется на краю и уходит сама по себе.'
+    banners:
+      title: Баннеры
+      description: 'Что-то, что держится на всей странице и остается, пока с этим не разберутся.'
+    messages:
+      title: Сообщения
+      description: 'Предложение, прикрепленное к тому, о чем идет речь — под полем, внутри блока — в пяти семантических цветах.'
+    markers:
+      title: Маркеры
+      description: 'Одна капсула для всего, что сказано о чем-то одним словом — состояние, название, версия, категория — с кругом там, где нет места для этого, и счетчиком, который является единственным, что не одно.'
+    loaders:
+      title: Загрузчики
+      description: 'Что-то происходит, и его конец неизвестен — спиннер для машины, точки для кого-то, кто собирается заговорить.'
+    progress:
+      title: Прогресс
+      description: 'То же самое, с известным концом: полоса, управляемая теми же словами, что и прогресс cli.'
+    distribution:
+      title: Распределение
+      description: 'Из чего состоит итог, а не насколько далеко он продвинулся: части целого в одной строке, в порядке, в котором они даны.'
+    errors:
+      title: Ошибки
+      description: 'Что страница показывает, когда то, что от нее запрашивали, не может быть предоставлено.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ข้อเสนอแนะแบบฟีดแบ็ค
+  page_icon: 'ph:bold/megaphone'
+  intro: 'สิ่งที่ส่วนติดต่อผู้ใช้ตอบกลับมา โดยเรียงลำดับตามความสนใจที่แต่ละอย่างต้องการจากผู้อ่าน ตั้งแต่บรรทัดที่รอให้สังเกตไปจนถึงกล่องสนทนาที่ไม่สามารถมองข้ามได้.'
+  page:
+    toasts:
+      title: การแจ้งเตือนชั่วคราว
+      description: 'บางสิ่งเกิดขึ้นและสิ้นสุดแล้ว: หมายเหตุที่ปรากฏที่ขอบและหายไปเอง.'
+    banners:
+      title: แบนเนอร์
+      description: บางสิ่งที่ปรากฏอยู่ตลอดทั้งหน้าและจะอยู่จนกว่าจะถูกจัดการ.
+    messages:
+      title: ข้อความ
+      description: 'ประโยคที่แนบมากับสิ่งที่กล่าวถึง — ใต้ฟิลด์ ภายในบล็อก — ในห้าสีที่มีความหมาย.'
+    markers:
+      title: ตัวบ่งชี้
+      description: 'แคปซูลหนึ่งสำหรับทุกสิ่งที่ถูกกล่าวถึงในคำเดียว — สถานะ ชื่อ เวอร์ชัน หมวดหมู่ — พร้อมวงกลมเมื่อไม่มีที่ว่างสำหรับมัน และตัวนับซึ่งเป็นสิ่งที่ไม่ใช่หนึ่งเดียว.'
+    loaders:
+      title: ตัวโหลด
+      description: 'บางสิ่งกำลังเกิดขึ้นและไม่ทราบว่าจะสิ้นสุดเมื่อใด — ตัวหมุนสำหรับเครื่องจักร จุดที่มีคนกำลังจะพูด.'
+    progress:
+      title: ความก้าวหน้า
+      description: 'เช่นเดียวกัน แต่ทราบจุดสิ้นสุด: แถบที่ขับเคลื่อนด้วยคำเดียวกับที่คำสั่ง cli แสดงความก้าวหน้า.'
+    distribution:
+      title: การกระจาย
+      description: 'สิ่งที่รวมทั้งหมดเป็น แทนที่จะเป็นระยะทางที่มันได้ไป: ส่วนของทั้งหมดในบรรทัดเดียว ตามลำดับที่กำหนด.'
+    errors:
+      title: ข้อผิดพลาด
+      description: สิ่งที่แสดงบนหน้าเมื่อสิ่งที่ถูกขอไม่สามารถให้ได้.
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Geri Bildirim'
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Arayüzün geri bildirimleri. Okuyucunun dikkatini ne kadar çektiğine göre sıralanmış, göz önüne çıkmayı bekleyen bir cümleden, yok sayılmayacak bir diyaloga kadar.'
+  page:
+    toasts:
+      title: "Toast'lar"
+      description: 'Bir şey oldu ve bitti: kenarda beliren ve kendi kendine kaybolan bir not.'
+    banners:
+      title: "Banner'lar"
+      description: 'Tüm sayfayı kapsayan ve çözülene kadar kalan bir şey.'
+    messages:
+      title: Mesajlar
+      description: 'Bir şeyle ilgili olarak eklenmiş bir cümle — bir alanın altında, bir blok içinde — beş anlamsal renkte.'
+    markers:
+      title: İşaretleyiciler
+      description: 'Bir şey hakkında söylenen her şey için bir kapsül — bir durum, bir isim, bir versiyon, bir kategori — yer yoksa daire, ve tek bir şey olmayan sayıcı ile.'
+    loaders:
+      title: Yükleyiciler
+      description: 'Bir şey oluyor ve ne zaman biteceği bilinmiyor — bir makine için döner simge, birinin konuşmak üzere olduğu için noktalar.'
+    progress:
+      title: İlerleme
+      description: 'Aynı, bilinen bir son ile: cli ilerlemesinin söylediği kelimelerle yönlendirilen bir çubuk.'
+    distribution:
+      title: Dağılım
+      description: 'Bir toplamın neyle yapıldığı, ne kadar ilerlediği yerine: bir bütünün parçaları tek bir satırda, verildiği sırayla.'
+    errors:
+      title: Hatalar
+      description: 'Bir sayfanın, istenilen şeyin verilemediğinde gösterdiği.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تجاویز
+  page_icon: 'ph:bold/megaphone'
+  intro: 'جو کچھ انٹرفیس واپس کہتا ہے۔ یہ اس بات کے مطابق ترتیب دیا گیا ہے کہ ہر ایک کتنی توجہ طلب کرتا ہے، ایک لائن سے جو نوٹس کا انتظار کرتی ہے سے لے کر ایک ڈائیلاگ تک جو نظرانداز نہیں کیا جا سکتا۔'
+  page:
+    toasts:
+      title: ٹوئٹس
+      description: 'کچھ ہوا اور یہ ختم ہو گیا: ایک نوٹ جو کنارے پر ظاہر ہوتا ہے اور خود ہی چلا جاتا ہے۔'
+    banners:
+      title: بینرز
+      description: 'کچھ پورے صفحے کے لیے ہے اور جب تک یہ نمٹا نہ جائے تب تک رہتا ہے۔'
+    messages:
+      title: پیغامات
+      description: 'ایک جملہ جو اس بارے میں منسلک ہوتا ہے — ایک میدان کے نیچے، ایک بلاک کے اندر — پانچ معنوی رنگوں میں۔'
+    markers:
+      title: مارکرز
+      description: 'ایک کیپسول جو ایک لفظ میں کسی چیز کے بارے میں کہی گئی تمام باتوں کے لیے ہے — ایک حالت، ایک نام، ایک ورژن، ایک زمرہ — جہاں جگہ نہیں ہے وہاں دائرہ اور گنتی، جو ایک ایسی چیز ہے جو ایک نہیں ہے۔'
+    loaders:
+      title: لوڈرز
+      description: 'کچھ ہو رہا ہے اور اس کے ختم ہونے کا علم نہیں ہے — مشین کے لیے اسپنر، کسی کے بولنے کے لیے نقطے۔'
+    progress:
+      title: ترقی
+      description: 'یہی، ایک ایسے اختتام کے ساتھ جو معلوم ہے: ایک بار جو اسی الفاظ سے چلتا ہے جو cli کی ترقی بولتا ہے۔'
+    distribution:
+      title: تقسیم
+      description: 'کیا ایک کل بنایا گیا ہے اس کے بجائے کہ یہ کتنا آگے بڑھا ہے: ایک لائن میں ایک پورے کے حصے، ان کے دیے جانے کے ترتیب میں۔'
+    errors:
+      title: غلطیاں
+      description: 'جو کچھ ایک صفحہ دکھاتا ہے جب وہ چیز فراہم نہیں کی جا سکتی جس کی اسے درخواست کی گئی تھی۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Phản hồi'
+  page_icon: 'ph:bold/megaphone'
+  intro: 'Những gì giao diện trả lại. Được sắp xếp theo mức độ chú ý mà mỗi cái yêu cầu từ một dòng chờ được chú ý đến một hộp thoại không thể bị bỏ qua.'
+  page:
+    toasts:
+      title: 'Thông báo ngắn'
+      description: 'Có điều gì đó đã xảy ra và đã kết thúc: một ghi chú xuất hiện ở mép và tự biến mất.'
+    banners:
+      title: 'Biểu ngữ'
+      description: 'Có điều gì đó giữ lại cho toàn bộ trang và sẽ tồn tại cho đến khi được xử lý.'
+    messages:
+      title: 'Tin nhắn'
+      description: 'Một câu gắn liền với nội dung — nằm dưới một trường, bên trong một khối — trong năm màu sắc ngữ nghĩa.'
+    markers:
+      title: 'Dấu hiệu'
+      description: 'Một viên nang cho tất cả những gì đã nói về một thứ bằng một từ — một trạng thái, một tên, một phiên bản, một loại — với vòng tròn cho những nơi không có chỗ, và bộ đếm, cái mà không phải là một.'
+    loaders:
+      title: Tải
+      description: 'Có điều gì đó đang xảy ra và không biết khi nào kết thúc — vòng quay cho một máy, những chấm cho ai đó sắp nói.'
+    progress:
+      title: 'Tiến độ'
+      description: 'Cũng tương tự, với một kết thúc đã biết: một thanh được điều khiển bởi cùng những từ mà tiến độ cli nói.'
+    distribution:
+      title: 'Phân phối'
+      description: 'Tổng thể được tạo thành từ cái gì hơn là nó đã đi được bao xa: các phần của một tổng thể trong một dòng, theo thứ tự chúng được đưa ra.'
+    errors:
+      title: Lỗi
+      description: 'Những gì một trang hiển thị khi điều mà nó được yêu cầu không thể được cung cấp.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 反馈
+  page_icon: 'ph:bold/megaphone'
+  intro: 界面反馈的信息。根据读者注意力的要求排序，从等待被注意的提示到无法忽视的对话。
+  page:
+    toasts:
+      title: 提示
+      description: 发生了一些事情并已结束：一个出现在边缘并自行消失的通知。
+    banners:
+      title: 横幅
+      description: 某个信息在整个页面上保持，直到被处理。
+    messages:
+      title: 消息
+      description: 附加在某事上的一句话——在一个字段下，或在一个块内——以五种语义颜色呈现。
+    markers:
+      title: 标记
+      description: 用一个词概括关于某事所说的一切——状态、名称、版本、类别——用圆圈表示没有空间的地方，以及计数器，表示唯一的事物。
+    loaders:
+      title: 加载器
+      description: 某种事情正在发生，且结束未知——机器的旋转器，或者即将发言的人的点。
+    progress:
+      title: 进度
+      description: 同样的事情，结束是已知的：一个条形图由cli进度所说的相同词驱动。
+    distribution:
+      title: 分配
+      description: 总数由什么组成，而不是它走了多远：整体的部分在一行中呈现，按给定顺序排列。
+    errors:
+      title: 错误
+      description: 当请求的内容无法提供时，页面所显示的内容。

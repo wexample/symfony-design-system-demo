@@ -1,0 +1,439 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Foundations
+  page_icon: ph:bold/diamonds-four
+
+  intro: "What everything else is spent from. Nothing on these pages is a component: they are the scales — colour, spacing, type, and the skin that draws them — that every other section reads without ever showing them."
+
+  page:
+    colors:
+      title: Colours
+      description: "The surfaces a page is stacked from, the invert levels borders and muted text are drawn with, and the five semantic families. Both faces of the theme, side by side."
+    spacing:
+      title: Spacing
+      description: "The nine spacing steps, the sizes, and the density pattern — how a region declares itself compact and what that does to everything it holds."
+    typography:
+      title: Typography
+      description: "The type scale and the weights, then the same scale at work in a page of prose."
+    skin:
+      title: Skin
+      description: "How things are drawn, at equal colour and density: the radii, the shadows, the borders and the separators. The one axis of the theme that has a character."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الأساسيات
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'ما تُصرف منه كل الأشياء الأخرى. لا يوجد شيء في هذه الصفحات هو مكون: إنهم الموازين — اللون، والمسافات، والنوع، والجلد الذي يجذبهم — الذي تقرأه كل قسم آخر دون أن تظهرهم أبدا.'
+  page:
+    colors:
+      title: الألوان
+      description: 'الأسطح التي تتكون منها الصفحة، مستويات العكس التي تُرسم بها الحدود والنصوص المخففة، والخمس عائلات الدلالية. كلا جانبي السمة، جنبًا إلى جنب.'
+    spacing:
+      title: المسافات
+      description: 'خطوات المسافة التسع، الأحجام، ونمط الكثافة — كيف تعلن منطقة ما عن نفسها بشكل مضغوط وما يفعله ذلك بكل ما تحتويه.'
+    typography:
+      title: الطباعة
+      description: 'مقياس النوع والأوزان، ثم نفس المقياس في العمل في صفحة من النثر.'
+    skin:
+      title: الجلد
+      description: 'كيف تُرسم الأشياء، بلون وكثافة متساويين: الأنصاف، الظلال، الحدود والفواصل. المحور الوحيد للسمة الذي له شخصية.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ভিত্তি
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'যা সবকিছুর খরচ থেকে আসে। এই পৃষ্ঠাগুলোর মধ্যে কিছুই একটি উপাদান নয়: তারা হল স্কেল — রঙ, ফাঁকা স্থান, টাইপ, এবং ত্বক যা তাদের আকর্ষণ করে — যা প্রতিটি অন্যান্য বিভাগ পড়ে কিন্তু কখনো দেখায় না।'
+  page:
+    colors:
+      title: রঙ
+      description: 'যা থেকে একটি পৃষ্ঠা স্তূপাকার হয়, বিপরীত স্তরের সীমানা এবং মিউটেড টেক্সট আঁকা হয়, এবং পাঁচটি অর্থনৈতিক পরিবার। থিমের উভয় দিক, পাশাপাশি।'
+    spacing:
+      title: 'ফাঁকা স্থান'
+      description: 'নয়টি ফাঁকা স্থান পদক্ষেপ, আকার এবং ঘনত্বের প্যাটার্ন — কিভাবে একটি এলাকা নিজেকে সংকীর্ণ ঘোষণা করে এবং এটি যা কিছু ধারণ করে তার ওপর কী প্রভাব ফেলে।'
+    typography:
+      title: টাইপোগ্রাফি
+      description: 'টাইপ স্কেল এবং ওজন, তারপর একই স্কেল একটি প্রবন্ধের পাতায় কাজ করে।'
+    skin:
+      title: ত্বক
+      description: 'কিভাবে বিষয়গুলো আঁকা হয়, সমান রঙ এবং ঘনত্বে: রেডিয়াস, ছায়া, সীমানা এবং আলাদা করার উপাদান। থিমের একমাত্র অক্ষ যেটির একটি চরিত্র আছে।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Grundlagen
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Woraus alles andere besteht. Nichts auf diesen Seiten ist ein Element: Sie sind die Maßstäbe — Farbe, Abstände, Typografie und die Haut, die sie verbindet — die jede andere Sektion liest, ohne sie jemals zu zeigen.'
+  page:
+    colors:
+      title: Farben
+      description: 'Die Flächen, aus denen eine Seite aufgebaut ist, die invertierten Ebenen, mit denen Ränder und gedämpfter Text gezeichnet werden, und die fünf semantischen Familien. Beide Seiten des Themas, nebeneinander.'
+    spacing:
+      title: Abstände
+      description: 'Die neun Abstandsintervalle, die Größen und das Dichte-Muster — wie sich ein Bereich kompakt erklärt und was das mit allem macht, was er enthält.'
+    typography:
+      title: Typografie
+      description: 'Die Schriftgröße und die Gewichtungen, dann die gleiche Skala in einem Prosa-Text.'
+    skin:
+      title: Haut
+      description: 'Wie Dinge gezeichnet werden, bei gleicher Farbe und Dichte: die Radien, die Schatten, die Ränder und die Trennlinien. Die eine Achse des Themas, die Charakter hat.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fundamentos
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'De lo que se gasta todo lo demás. Nada en estas páginas es un componente: son las escalas —color, espaciado, tipo y la piel que los atrae— que cada otra sección lee sin mostrarlas nunca.'
+  page:
+    colors:
+      title: Colores
+      description: 'Las superficies de las que se apila una página, los niveles invertidos de los bordes y el texto atenuado se dibujan con, y las cinco familias semánticas. Ambas caras del tema, lado a lado.'
+    spacing:
+      title: Espaciado
+      description: 'Los nueve pasos de espaciado, los tamaños y el patrón de densidad —cómo una región se declara compacta y lo que eso hace a todo lo que contiene.'
+    typography:
+      title: Tipografía
+      description: 'La escala tipográfica y los pesos, luego la misma escala en acción en una página de prosa.'
+    skin:
+      title: Piel
+      description: 'Cómo se dibujan las cosas, con igual color y densidad: los radios, las sombras, los bordes y los separadores. El único eje del tema que tiene un carácter.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بنیادها
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'چیزی که بقیه از آن خرج می‌شود. هیچ‌یک از این صفحات یک جزء نیستند: آن‌ها مقیاس‌ها هستند — رنگ، فاصله، نوع و پوستی که آن‌ها را جذب می‌کند — که هر بخش دیگری بدون اینکه هرگز آن‌ها را نشان دهد، می‌خواند.'
+  page:
+    colors:
+      title: رنگ‌ها
+      description: 'سطوحی که یک صفحه از آن‌ها انباشته می‌شود، سطوح معکوس که مرزها و متن‌های کمرنگ با آن‌ها کشیده می‌شوند، و پنج خانواده معنایی. هر دو وجه تم، در کنار هم.'
+    spacing:
+      title: فاصله
+      description: 'نه مرحله فاصله، اندازه‌ها، و الگوی چگالی — اینکه یک منطقه چگونه خود را فشرده اعلام می‌کند و این چه تاثیری بر روی هر چیزی که در آن نگه داشته می‌شود دارد.'
+    typography:
+      title: تایپوگرافی
+      description: 'مقیاس نوع و وزن‌ها، سپس همان مقیاس در کار در یک صفحه نثر.'
+    skin:
+      title: پوست
+      description: 'چگونه چیزها با رنگ و چگالی یکسان کشیده می‌شوند: شعاع‌ها، سایه‌ها، مرزها و جداکننده‌ها. محور واحد تم که یک شخصیت دارد.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Perustat
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Mistä kaikki muu koostuu. Mikään näistä sivuista ei ole komponentti: ne ovat mittakaavat — väri, etäisyys, tyyppi ja iho, joka yhdistää ne — joita jokainen muu osio lukee koskaan näyttämättä niitä.'
+  page:
+    colors:
+      title: Värit
+      description: 'Pinnat, joista sivu on koottu, käänteiset tasot, rajat ja vaimennetut tekstit, sekä viisi semanttista perhettä. Teeman molemmat puolet, vierekkäin.'
+    spacing:
+      title: Etäisyys
+      description: 'Yhdeksän etäisyysaskelta, koot ja tiheysmalli — kuinka alue ilmoittaa itsensä kompaktiksi ja mitä se tekee kaikelle, mitä se pitää sisällään.'
+    typography:
+      title: Typografia
+      description: 'Kirjasinkoko ja painot, sitten sama skaala toiminnassa proosatekstissä.'
+    skin:
+      title: Iho
+      description: 'Kuinka asiat piirtyvät, saman värin ja tiheyden mukaan: säteet, varjot, reunat ja erotinviivat. Teeman yksi akseli, jolla on luonteenpiirteitä.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fondations
+  page_icon: 'ph:bold/diamonds-four'
+  intro: "Ce dont tout le reste est dépensé. Rien sur ces pages n'est un composant : ce sont les échelles — couleur, espacement, type, et la peau qui les attire — que chaque autre section lit sans jamais les montrer."
+  page:
+    colors:
+      title: Couleurs
+      description: 'Les surfaces à partir desquelles une page est empilée, les niveaux inversés des bordures et du texte atténué sont dessinés, et les cinq familles sémantiques. Les deux faces du thème, côte à côte.'
+    spacing:
+      title: Espacement
+      description: "Les neuf étapes d'espacement, les tailles, et le motif de densité — comment une région se déclare compacte et ce que cela fait à tout ce qu'elle contient."
+    typography:
+      title: Typographie
+      description: "L'échelle de type et les poids, puis la même échelle à l'œuvre dans une page de prose."
+    skin:
+      title: Peau
+      description: "Comment les choses sont dessinées, à couleur et densité égales : les rayons, les ombres, les bordures et les séparateurs. L'unique axe du thème qui a un caractère."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: יסודות
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'מה שממנו נבלות כל השאר. שום דבר בדפים האלה אינו רכיב: הם הסקאלה — צבע, רווח, סוג, והעור שמושך אותם — שכל חלק אחר קורא בלי להציג אותם.'
+  page:
+    colors:
+      title: צבעים
+      description: 'המשטחים שעליהם דף stacked, רמות ההיפוך שמסמנים גבולות וטקסט מעומעם, וחמש המשפחות הסמנטיות. שני הצדדים של התמה, זה לצד זה.'
+    spacing:
+      title: רווחים
+      description: 'תשעת שלבי הרווח, הגדלים, ודפוס הצפיפות — כיצד אזור מצהיר על עצמו כקומפקטי ומה זה עושה לכל מה שהוא מחזיק.'
+    typography:
+      title: טיפוגרפיה
+      description: 'סקאלת הסוגים והמשקלים, אז אותה סקאלה פועלת בדף של פרוזה.'
+    skin:
+      title: עור
+      description: 'כיצד הדברים מצויירים, בצבע ובצפיפות שווים: הרדיוסים, הצללים, הגבולות והמפרידים. הציר היחיד של התמה שיש לו אופי.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: फाउंडेशन्स
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'यह वह सब कुछ है जिससे बाकी सब खर्च होता है। इन पन्नों पर कुछ भी एक घटक नहीं है: ये वे पैमाने हैं - रंग, स्थान, प्रकार, और वह त्वचा जो उन्हें आकर्षित करती है - जो हर दूसरे सेक्शन बिना दिखाए पढ़ता है।'
+  page:
+    colors:
+      title: रंग
+      description: 'सतहें जिनसे एक पृष्ठ बना होता है, उलट स्तर की सीमाएँ और म्यूटेड टेक्स्ट के साथ बनाए जाते हैं, और पांच अर्थपूर्ण परिवार। थीम के दोनों चेहरे, एक साथ।'
+    spacing:
+      title: स्पेसिंग
+      description: 'नौ स्पेसिंग स्टेप्स, आकार, और घनत्व पैटर्न - कैसे एक क्षेत्र अपने आप को कॉम्पैक्ट घोषित करता है और यह उसके भीतर जो कुछ भी है उसे क्या करता है।'
+    typography:
+      title: टाइपोग्राफी
+      description: 'टाइप स्केल और वजन, फिर उसी स्केल का काम एक प्रोज़ पृष्ठ में।'
+    skin:
+      title: त्वचा
+      description: 'कैसे चीजें खींची जाती हैं, समान रंग और घनत्व पर: रेडियाई, छायाएँ, सीमाएँ और विभाजक। थीम का वह एक अक्ष जो एक चरित्र रखता है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fondasi
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Apa yang menjadi dasar semua lainnya. Tidak ada yang ada di halaman ini merupakan komponen: mereka adalah skala — warna, jarak, tipe, dan kulit yang menggambarkannya — yang dibaca oleh setiap bagian lain tanpa pernah menampilkannya.'
+  page:
+    colors:
+      title: Warna
+      description: 'Permukaan dari mana halaman disusun, tingkat invers, batas dan teks yang redup digambar, serta lima keluarga semantik. Kedua sisi tema, berdampingan.'
+    spacing:
+      title: Jarak
+      description: 'Sembilan langkah jarak, ukuran, dan pola kepadatan — bagaimana suatu area menyatakan dirinya kompak dan apa dampaknya terhadap segala yang dipegangnya.'
+    typography:
+      title: Tipografi
+      description: 'Skala tipe dan bobot, lalu skala yang sama bekerja dalam halaman prosa.'
+    skin:
+      title: Kulit
+      description: 'Bagaimana hal-hal digambar, dengan warna dan kepadatan yang sama: jari-jari, bayangan, batas, dan pemisah. Satu sumbu tema yang memiliki karakter.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fondamenti
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Da cui è speso tutto il resto. Nulla in queste pagine è un componente: sono le scale — colore, spaziatura, tipografia e la pelle che li unisce — che ogni altra sezione legge senza mai mostrarle.'
+  page:
+    colors:
+      title: Colori
+      description: 'Le superfici da cui è composta una pagina, i livelli di inversione, i bordi e il testo attenuato sono tracciati, e le cinque famiglie semantiche. Entrambi i volti del tema, affiancati.'
+    spacing:
+      title: Spaziatura
+      description: 'I nove passaggi di spaziatura, le dimensioni e il modello di densità — come una regione si dichiara compatta e cosa questo comporta per tutto ciò che contiene.'
+    typography:
+      title: Tipografia
+      description: 'La scala dei caratteri e i pesi, poi la stessa scala applicata in una pagina di prosa.'
+    skin:
+      title: Pelle
+      description: "Come vengono tracciate le cose, con colore e densità uguali: i raggi, le ombre, i bordi e i separatori. L'unico asse del tema che ha un carattere."
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 基本
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'すべての要素の基盤。これらのページにあるものはコンポーネントではなく、すべてのセクションがそれを表示することなく読み取るスケール — 色、間隔、タイプ、そしてそれらを引き寄せるスキンです。'
+  page:
+    colors:
+      title: 色
+      description: 'ページが積み重なっている表面、反転レベルの境界線や muted テキストが描かれるもので、5つの意味論的ファミリーがあります。テーマの両面が並んでいます。'
+    spacing:
+      title: 間隔
+      description: '9つの間隔ステップ、サイズ、密度パターン — どのように領域がコンパクトであることを宣言し、それが保持するすべてのものに何をもたらすか。'
+    typography:
+      title: タイポグラフィ
+      description: タイポグラフィスケールとウェイト、そしてそのスケールがプローズのページでどのように機能するか。
+    skin:
+      title: スキン
+      description: 物事がどのように描かれるか、同じ色と密度で：半径、影、境界線、セパレーター。テーマの中でキャラクターを持つ唯一の軸です。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 기초
+  page_icon: 'ph:bold/diamonds-four'
+  intro: '모든 것이 여기에 기반합니다. 이 페이지의 내용은 구성 요소가 아니라 모든 다른 섹션이 보이지 않게 읽는 색상, 간격, 타이포그래피 및 이들을 끌어들이는 외관입니다.'
+  page:
+    colors:
+      title: 색상
+      description: '페이지가 쌓여 있는 표면, 반전 수준의 경계와 muted 텍스트가 그려지는 방식, 그리고 다섯 가지 의미적 가족. 테마의 양면이 나란히 있습니다.'
+    spacing:
+      title: 간격
+      description: '아홉 개의 간격 단계, 크기, 그리고 밀도 패턴 — 한 영역이 스스로를 컴팩트하게 선언하는 방법과 그것이 담고 있는 모든 것에 미치는 영향입니다.'
+    typography:
+      title: 타이포그래피
+      description: '타입 스케일과 무게, 그리고 같은 스케일이 프로즈 페이지에서 작용하는 방식입니다.'
+    skin:
+      title: 외관
+      description: '사물들이 동일한 색상과 밀도로 그려지는 방식: 반지름, 그림자, 경계 및 구분선. 테마의 특성을 가진 유일한 축입니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Basisprincipes
+  page_icon: 'ph:bold/diamonds-four'
+  intro: "Waar alles wat anders is, op gebaseerd is. Niets op deze pagina's is een component: het zijn de schalen — kleur, spatiëring, type en de huid die ze verbindt — die elke andere sectie leest zonder ze ooit te tonen."
+  page:
+    colors:
+      title: Kleuren
+      description: 'De oppervlakken waaruit een pagina is opgebouwd, de omgekeerde niveaus waarlangs randen en gedempte tekst worden getekend, en de vijf semantische families. Beide gezichten van het thema, naast elkaar.'
+    spacing:
+      title: Spatiëring
+      description: 'De negen spatiëringsstappen, de maten en het dichtheidspatroon — hoe een gebied zichzelf compact verklaart en wat dat doet met alles wat het vasthoudt.'
+    typography:
+      title: Typografie
+      description: 'De lettertype-schaal en de gewichten, en vervolgens dezelfde schaal die werkt in een pagina met proza.'
+    skin:
+      title: Huid
+      description: 'Hoe dingen worden getekend, met gelijke kleur en dichtheid: de stralen, de schaduwen, de randen en de scheiders. De enige as van het thema die een karakter heeft.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fundamenty
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Z czego wszystko inne jest wydawane. Nic na tych stronach nie jest komponentem: to są skale — kolor, odstępy, typografia i skóra, która je przyciąga — które każda inna sekcja odczytuje, nigdy ich nie pokazując.'
+  page:
+    colors:
+      title: Kolory
+      description: 'Powierzchnie, z których zbudowana jest strona, poziomy inwersji, granice i stonowany tekst, a także pięć rodzin semantycznych. Obie strony motywu, obok siebie.'
+    spacing:
+      title: Odstępy
+      description: 'Dziewięć kroków odstępów, rozmiary i wzór gęstości — jak obszar ogłasza się kompaktowym i co to robi z wszystkim, co zawiera.'
+    typography:
+      title: Typografia
+      description: 'Skala typograficzna i wagi, a następnie ta sama skala w pracy na stronie prozy.'
+    skin:
+      title: Skóra
+      description: 'Jak rzeczy są rysowane, w równym kolorze i gęstości: promienie, cienie, granice i separatory. Jedna oś motywu, która ma charakter.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fundamentos
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'O que tudo mais é gasto. Nada nestas páginas é um componente: elas são as escalas — cor, espaçamento, tipografia e a aparência que as conecta — que cada outra seção lê sem nunca mostrá-las.'
+  page:
+    colors:
+      title: Cores
+      description: 'As superfícies de que uma página é composta, os níveis de inversão, as bordas e o texto suavizado são desenhados, e as cinco famílias semânticas. Ambos os lados do tema, lado a lado.'
+    spacing:
+      title: Espaçamento
+      description: 'Os nove passos de espaçamento, os tamanhos e o padrão de densidade — como uma região se declara compacta e o que isso faz com tudo que abriga.'
+    typography:
+      title: Tipografia
+      description: 'A escala de tipografia e os pesos, depois a mesma escala em ação em uma página de prosa.'
+    skin:
+      title: Aparência
+      description: 'Como as coisas são desenhadas, com igual cor e densidade: os raios, as sombras, as bordas e os separadores. O único eixo do tema que tem um caráter.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Основы
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Из чего всё остальное строится. Ничто на этих страницах не является компонентом: это шкалы — цвет, интервал, шрифт и оболочка, которая их соединяет — которые считываются каждым другим разделом, не показывая себя.'
+  page:
+    colors:
+      title: Цвета
+      description: 'Поверхности, из которых состоит страница, уровни инверсии, с помощью которых рисуются границы и приглушённый текст, а также пять семантических семейств. Обе стороны темы, рядом друг с другом.'
+    spacing:
+      title: Интервалы
+      description: 'Девять шагов интервалов, размеры и плотностный шаблон — как область заявляет о своей компактности и что это делает со всем, что она содержит.'
+    typography:
+      title: Типографика
+      description: 'Шкала шрифтов и их веса, а затем та же шкала в работе на странице с прозой.'
+    skin:
+      title: Оболочка
+      description: 'Как вещи рисуются, с одинаковым цветом и плотностью: радиусы, тени, границы и разделители. Ось темы, которая имеет характер.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: พื้นฐาน
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'สิ่งที่ทุกอย่างอื่นใช้จ่ายจาก ที่นี่ไม่มีอะไรเป็นส่วนประกอบ: มันคือมาตราส่วน — สี, การเว้นระยะ, ตัวอักษร, และพื้นผิวที่ดึงดูดพวกเขา — ที่แต่ละส่วนอื่นอ่านโดยไม่เคยแสดงพวกเขา'
+  page:
+    colors:
+      title: สี
+      description: 'พื้นผิวที่หน้าหนึ่งสร้างจาก ระดับการกลับด้านที่ขอบและข้อความที่จางลงถูกสร้างขึ้น และห้าครอบครัวเชิงความหมาย ทั้งสองด้านของธีมอยู่เคียงข้างกัน'
+    spacing:
+      title: การเว้นระยะ
+      description: 'เก้าอันดับการเว้นระยะ ขนาด และรูปแบบความหนา — ว่าพื้นที่หนึ่งประกาศตัวเองให้แน่นและสิ่งนั้นมีผลต่อทุกอย่างที่มันถืออยู่'
+    typography:
+      title: การพิมพ์
+      description: 'มาตราส่วนตัวอักษรและน้ำหนัก จากนั้นมาตราส่วนเดียวกันที่ทำงานในหน้าของข้อความ'
+    skin:
+      title: พื้นผิว
+      description: 'วิธีที่สิ่งต่างๆ ถูกวาดด้วยสีและความหนาเท่ากัน: รัศมี, เงา, ขอบ และตัวแบ่ง มิติเดียวของธีมที่มีเอกลักษณ์'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Temeller
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Diğer her şeyin harcandığı temel. Bu sayfalardaki hiçbir şey bir bileşen değil: her bir bölümün asla göstermeden okuduğu ölçekler - renk, boşluk, yazı tipi ve onları çizen arka plan.'
+  page:
+    colors:
+      title: Renkler
+      description: 'Bir sayfanın üst üste bindiği yüzeyler, ters düzeylerdeki kenarların ve soluk metinlerin çizildiği yerler ve beş anlam ailesi. Temanın her iki yüzü, yan yana.'
+    spacing:
+      title: Boşluk
+      description: 'Dokuz boşluk adımı, boyutlar ve yoğunluk deseni - bir bölgenin kendisini nasıl sıkı bir şekilde tanıttığı ve bu durumun içinde barındırdığı her şeye etkisi.'
+    typography:
+      title: 'Yazı Tipi'
+      description: 'Yazı ölçeği ve ağırlıkları, ardından aynı ölçeğin bir düz yazı sayfasında nasıl çalıştığı.'
+    skin:
+      title: 'Arka Plan'
+      description: 'Nesnelerin nasıl çizildiği, eşit renk ve yoğunlukta: yarıçaplar, gölgeler, kenar boşlukları ve ayırıcılar. Temanın bir karaktere sahip olan tek ekseni.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بنیاد
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'یہ وہ چیز ہے جس سے باقی سب کچھ خرچ ہوتا ہے۔ ان صفحات پر کچھ بھی ایک جزو نہیں ہے: یہ تراز ہیں — رنگ، جگہ، نوع، اور وہ جلد جو انہیں کھینچتی ہے — کہ ہر دوسرا سیکشن انہیں بغیر دکھائے پڑھتا ہے۔'
+  page:
+    colors:
+      title: رنگ
+      description: 'وہ سطحیں جن پر ایک صف stacked ہوتی ہے، الٹ سطحوں کی سرحدیں اور مدھم متن کے ساتھ کھینچی جاتی ہیں، اور پانچ معنوی خاندان۔ تھیم کے دونوں پہلو، پہلو بہ پہلو۔'
+    spacing:
+      title: جگہ
+      description: 'نو جگہ کے مراحل، سائز، اور کثافت کا پیٹرن — یہ کہ ایک علاقہ خود کو کس طرح کمپیکٹ قرار دیتا ہے اور اس کے اندر موجود ہر چیز پر اس کا کیا اثر ہوتا ہے۔'
+    typography:
+      title: 'نوع ٹائپ'
+      description: 'قسم کی پیمائش اور وزن، پھر وہی پیمائش ایک نثر کے صفحے میں کام کرتی ہے۔'
+    skin:
+      title: جلد
+      description: 'چیزیں کس طرح کھینچی جاتی ہیں، برابر رنگ اور کثافت پر: شعاعیں، سائے، سرحدیں اور علیحدگی کرنے والے۔ تھیم کا وہ ایک محور جو ایک کردار رکھتا ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Nền tảng'
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 'Những gì mọi thứ khác được chi tiêu từ đó. Không có gì trên các trang này là một thành phần: chúng là các tỷ lệ — màu sắc, khoảng cách, kiểu chữ, và lớp mà chúng vẽ ra — mà mọi phần khác đọc mà không bao giờ hiển thị chúng.'
+  page:
+    colors:
+      title: 'Màu sắc'
+      description: 'Các bề mặt mà một trang được xếp chồng lên, các mức độ đảo ngược mà các viền và văn bản mờ được vẽ, và năm gia đình ngữ nghĩa. Cả hai mặt của chủ đề, bên cạnh nhau.'
+    spacing:
+      title: 'Khoảng cách'
+      description: 'Chín bước khoảng cách, kích thước, và mẫu độ dày — cách mà một vùng tuyên bố bản thân là gọn gàng và điều đó ảnh hưởng đến mọi thứ mà nó chứa.'
+    typography:
+      title: 'Kiểu chữ'
+      description: 'Thang kiểu chữ và các trọng số, sau đó là cùng một thang đang hoạt động trong một trang văn bản.'
+    skin:
+      title: Lớp
+      description: 'Cách mà mọi thứ được vẽ, với màu sắc và độ dày bằng nhau: bán kính, bóng, viền và các dấu phân cách. Trục duy nhất của chủ đề có một đặc điểm.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 基础
+  page_icon: 'ph:bold/diamonds-four'
+  intro: 一切其他的支出来源。这里的页面没有组件：它们是每个部分所阅读的比例——颜色、间距、字体，以及将它们连接在一起的外观——而这些部分从未展示它们。
+  page:
+    colors:
+      title: 颜色
+      description: 页面堆叠的表面，反转水平边框和柔和文本的绘制，以及五个语义家族。主题的两个面，肩并肩。
+    spacing:
+      title: 间距
+      description: 九个间距步骤，大小和密度模式——一个区域如何声明自己紧凑，以及这对它所包含的所有内容的影响。
+    typography:
+      title: 排版
+      description: 字体比例和字重，以及同样的比例在一段散文中的运用。
+    skin:
+      title: 外观
+      description: 事物的绘制方式，以相同的颜色和密度：半径、阴影、边框和分隔符。主题中具有个性的唯一轴线。

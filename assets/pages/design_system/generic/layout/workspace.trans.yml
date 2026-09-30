@@ -1,0 +1,695 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Workspace
+  page_icon: ph:bold/sidebar-simple
+
+  intro: "This page is the example: what you are reading stands in the middle of three regions, laid side by side in the body of the page."
+
+  section:
+    gap:
+      title: The gap is the separator
+      description: "Nothing is drawn between two regions. What tells them apart is the room they leave between them, through which the page shows — the same ground the menu and the header stand on. Each region carries its own, which is the ground a body always had."
+    each:
+      title: Each one on its own
+      description: "The two columns keep the width they are given and the middle takes what is left. Scroll one of the three and the other two stay where they are: a region holds its own overflow, and the page holds none."
+      more: "A region knows nothing of its neighbours. The explorer on the left is a split of its own — a bar that stays, a tree that scrolls under it — and it would be the same shape anywhere else on the page."
+
+    size:
+      title: Sizing one of them
+      description: "The region on the left carries a `zone-resizer`: a handle filling the gap beside it, which draws nothing — the cursor says it moves. Drag it, or give it the focus and use the arrows; a double click gives the region back the width the page gave it."
+      more: "A handle sizes a region that has a size — one given a width rather than taking what is left — and the flexible one beside it absorbs the difference. The width is remembered under the region's name, so it comes back with the page, here on all three layouts since it is the same region moving."
+
+  editor:
+    state: Saved
+
+  inspector:
+    title: Details
+    field:
+      path:
+        key: Path
+      size:
+        key: Size
+      changed:
+        key: Changed
+        value: 3 minutes ago
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'مساحة العمل'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'هذه الصفحة هي المثال: ما تقرأه يقع في وسط ثلاث مناطق، موضوعة جنبًا إلى جنب في جسم الصفحة.'
+  section:
+    gap:
+      title: 'الفجوة هي الفاصل'
+      description: 'لا يوجد شيء مرسوم بين منطقتين. ما يميز بينهما هو المساحة التي تتركها بينهما، والتي من خلالها تظهر الصفحة — نفس الأرض التي يقف عليها القائمة والرأس. كل منطقة تحمل خاصيتها، وهي الأرض التي كانت دائمًا موجودة في الجسم.'
+    each:
+      title: 'كل واحدة بمفردها'
+      description: 'تحافظ العمودان على العرض الذي تم إعطاؤه لهما ويأخذ الوسط ما تبقى. قم بالتمرير في واحدة من الثلاثة وستبقى الاثنتين الأخريين في مكانهما: تحتفظ المنطقة بتجاوزها الخاص، والصفحة لا تحتفظ بأي.'
+      more: 'لا تعرف المنطقة شيئًا عن جيرانها. المستكشف على اليسار هو قسم خاص بها — شريط يبقى، شجرة تتمرر تحتها — وسيكون بنفس الشكل في أي مكان آخر في الصفحة.'
+    size:
+      title: 'تغيير حجم أحدها'
+      description: 'تحمل المنطقة على اليسار `موسع المنطقة`: مقبض يملأ الفجوة بجانبها، والذي لا يرسم شيئًا — المؤشر يقول إنه يتحرك. اسحبه، أو امنحه التركيز واستخدم الأسهم؛ نقرة مزدوجة تعيد للمنطقة العرض الذي منحته إياها الصفحة.'
+      more: 'يغير المقبض حجم منطقة لها حجم — واحدة تم إعطاؤها عرضًا بدلاً من أخذ ما تبقى — ويمتص المرن بجانبها الفرق. يتم تذكر العرض تحت اسم المنطقة، لذا يعود مع الصفحة، هنا في جميع التخطيطات الثلاثة لأنه نفس المنطقة التي تتحرك.'
+  editor:
+    state: 'تم الحفظ'
+  inspector:
+    title: التفاصيل
+    field:
+      path:
+        key: المسار
+      size:
+        key: الحجم
+      changed:
+        key: 'تم التغيير'
+        value: 'منذ ٣ دقائق'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: কর্মক্ষেত্র
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'এই পৃষ্ঠাটি একটি উদাহরণ: আপনি যা পড়ছেন তা তিনটি অঞ্চলের মাঝখানে অবস্থিত, যা পৃষ্ঠার দেহে পাশাপাশি রাখা হয়েছে।'
+  section:
+    gap:
+      title: 'ফাঁক হল বিভাজক'
+      description: 'দুই অঞ্চলের মধ্যে কিছুই আঁকা হয়নি। তাদের আলাদা করে যা রয়েছে তা হল তাদের মধ্যে ফাঁকা স্থান, যার মাধ্যমে পৃষ্ঠাটি দেখায় — একই মাটিতে যা মেনু এবং হেডার দাঁড়িয়ে আছে। প্রতিটি অঞ্চল নিজস্ব ধারণ করে, যা হল একটি দেহের সবসময় থাকা মাটি।'
+    each:
+      title: 'প্রতিটি নিজের মতো'
+      description: 'দুইটি কলাম তাদের প্রদত্ত প্রস্থ ধরে রাখে এবং মাঝেরটি যা অবশিষ্ট থাকে তা নেয়। তিনটির মধ্যে একটি স্ক্রোল করুন এবং অন্য দুটি যেখানে আছে সেখানে থাকে: একটি অঞ্চল তার নিজের অতিরিক্ত ধারণ করে, এবং পৃষ্ঠা কোন অতিরিক্ত ধারণ করে না।'
+      more: 'একটি অঞ্চল তার প্রতিবেশীদের সম্পর্কে কিছুই জানে না। বামপাশের এক্সপ্লোরার হল তার নিজস্ব একটি বিভাজন — একটি বার যা থাকে, একটি গাছ যা এর নীচে স্ক্রোল করে — এবং এটি পৃষ্ঠার অন্য কোথাও একই আকারের হবে।'
+    size:
+      title: 'একটিকে আকার দেওয়া'
+      description: 'বামপাশের অঞ্চল একটি `zone-resizer` ধারণ করে: একটি হ্যান্ডেল যা এর পাশে ফাঁকা স্থান পূরণ করে, যা কিছুই আঁকে না — কার্সর বলে এটি সরানো যায়। এটি টেনে এনে, বা একে ফোকাস দিয়ে তীরচিহ্ন ব্যবহার করুন; একটি ডাবল ক্লিক অঞ্চলটিকে সেই প্রস্থ ফিরিয়ে দেয় যা পৃষ্ঠা এটিকে দিয়েছে।'
+      more: 'একটি হ্যান্ডেল একটি অঞ্চলের আকার দেয় যা একটি আকার ধারণ করে — একটি প্রস্থ দেওয়া হয়েছে বরং যা অবশিষ্ট তা নেওয়া — এবং পাশের নমনীয়টি পার্থক্য শোষণ করে। প্রস্থটি অঞ্চলের নামে মনে রাখা হয়, তাই এটি পৃষ্ঠার সঙ্গে ফিরে আসে, এখানে তিনটি বিন্যাসের মধ্যে যেহেতু এটি একই অঞ্চল চলছে।'
+  editor:
+    state: সংরক্ষিত
+  inspector:
+    title: বিস্তারিত
+    field:
+      path:
+        key: পথ
+      size:
+        key: আকার
+      changed:
+        key: পরিবর্তিত
+        value: '৩ মিনিট আগে'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Arbeitsbereich
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Diese Seite ist das Beispiel: Was Sie lesen, steht in der Mitte von drei Bereichen, die nebeneinander im Seiteninhalt angeordnet sind.'
+  section:
+    gap:
+      title: 'Die Lücke ist der Separator'
+      description: 'Nichts wird zwischen zwei Bereichen gezeichnet. Was sie unterscheidet, ist der Platz, den sie zwischen sich lassen, durch den die Seite zeigt — der gleiche Boden, auf dem das Menü und der Header stehen. Jeder Bereich hat seinen eigenen, der der Boden ist, den ein Körper immer hatte.'
+    each:
+      title: 'Jeder für sich'
+      description: 'Die beiden Spalten behalten die Breite, die ihnen gegeben wird, und die Mitte nimmt, was übrig bleibt. Scrollen Sie einen der drei, bleiben die anderen zwei an ihrem Platz: Ein Bereich hat seinen eigenen Überlauf, und die Seite hat keinen.'
+      more: 'Ein Bereich weiß nichts von seinen Nachbarn. Der Explorer auf der linken Seite ist eine eigene Teilung — eine Leiste, die bleibt, ein Baum, der darunter scrollt — und er hätte überall auf der Seite die gleiche Form.'
+    size:
+      title: 'Größe eines von ihnen ändern'
+      description: 'Der Bereich auf der linken Seite hat einen `zone-resizer`: einen Griff, der die Lücke neben ihm ausfüllt und nichts zeichnet — der Cursor zeigt an, dass er bewegt wird. Ziehen Sie ihn, oder setzen Sie den Fokus darauf und verwenden Sie die Pfeile; ein Doppelklick gibt dem Bereich die Breite zurück, die die Seite ihm gegeben hat.'
+      more: 'Ein Griff ändert die Größe eines Bereichs, der eine Größe hat — einer, der eine Breite zugewiesen bekommt, anstatt das zu nehmen, was übrig bleibt — und der flexible daneben absorbiert den Unterschied. Die Breite wird unter dem Namen des Bereichs gespeichert, sodass sie mit der Seite zurückkommt, hier in allen drei Layouts, da es derselbe Bereich ist, der sich bewegt.'
+  editor:
+    state: Gespeichert
+  inspector:
+    title: Details
+    field:
+      path:
+        key: Pfad
+      size:
+        key: Größe
+      changed:
+        key: Geändert
+        value: 'Vor 3 Minuten'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Espacio de trabajo'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Esta página es el ejemplo: lo que estás leyendo está en el medio de tres regiones, dispuestas lado a lado en el cuerpo de la página.'
+  section:
+    gap:
+      title: 'La brecha es el separador'
+      description: 'Nada se dibuja entre dos regiones. Lo que las distingue es el espacio que dejan entre ellas, a través del cual la página muestra — el mismo suelo en el que se encuentra el menú y el encabezado. Cada región tiene la suya, que es el suelo que un cuerpo siempre ha tenido.'
+    each:
+      title: 'Cada uno por su cuenta'
+      description: 'Las dos columnas mantienen el ancho que se les da y la del medio toma lo que queda. Desplaza una de las tres y las otras dos se quedan donde están: una región mantiene su propio desbordamiento, y la página no mantiene ninguno.'
+      more: 'Una región no sabe nada de sus vecinas. El explorador a la izquierda es una división propia — una barra que se queda, un árbol que se desplaza debajo de ella — y tendría la misma forma en cualquier otro lugar de la página.'
+    size:
+      title: 'Dimensionando una de ellas'
+      description: 'La región de la izquierda lleva un `zone-resizer`: un mango que llena el espacio a su lado, que no dibuja nada — el cursor indica que se mueve. Arrástralo, o dale el foco y usa las flechas; un doble clic le devuelve a la región el ancho que la página le dio.'
+      more: 'Un mango dimensiona una región que tiene un tamaño — uno que se le da un ancho en lugar de tomar lo que queda — y la flexible al lado absorbe la diferencia. El ancho se recuerda bajo el nombre de la región, por lo que vuelve con la página, aquí en los tres diseños ya que es la misma región moviéndose.'
+  editor:
+    state: Guardado
+  inspector:
+    title: Detalles
+    field:
+      path:
+        key: Ruta
+      size:
+        key: Tamaño
+      changed:
+        key: Cambiado
+        value: 'hace 3 minutos'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'فضای کاری'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'این صفحه یک مثال است: آنچه شما می‌خوانید در وسط سه منطقه قرار دارد که در کنار هم در بدنه صفحه چیده شده‌اند.'
+  section:
+    gap:
+      title: 'فاصله جداکننده است'
+      description: 'هیچ چیزی بین دو منطقه کشیده نشده است. چیزی که آنها را از هم متمایز می‌کند، فضایی است که بین آنها باقی می‌ماند، فضایی که صفحه نشان می‌دهد — همان زمینی که منو و سرصفحه روی آن قرار دارند. هر منطقه زمین خود را دارد، که همان زمینی است که یک بدنه همیشه داشته است.'
+    each:
+      title: 'هر کدام به تنهایی'
+      description: 'دو ستون عرضی را که به آنها داده شده حفظ می‌کنند و میانه آنچه باقی مانده را می‌گیرد. یکی از این سه را پیمایش کنید و دو تای دیگر در جایی که هستند باقی می‌مانند: یک منطقه Overflow خود را نگه می‌دارد و صفحه هیچ‌کدام را نگه نمی‌دارد.'
+      more: 'یک منطقه از همسایگان خود چیزی نمی‌داند. اکتشاف‌گر در سمت چپ یک تقسیم از خود است — یک نوار که باقی می‌ماند، یک درخت که زیر آن پیمایش می‌کند — و این شکل در هر جای دیگر صفحه یکسان خواهد بود.'
+    size:
+      title: 'تنظیم اندازه یکی از آنها'
+      description: 'منطقه سمت چپ یک `zone-resizer` دارد: یک دسته که فضای کناری آن را پر می‌کند و چیزی نمی‌کشد — نشانگر می‌گوید که حرکت می‌کند. آن را بکشید، یا بر روی آن تمرکز کنید و از کلیدها استفاده کنید؛ یک کلیک دوگانه اندازه منطقه را به عرضی که صفحه به آن داد برمی‌گرداند.'
+      more: 'یک دسته اندازه یک منطقه را که اندازه‌ای دارد تنظیم می‌کند — یکی که عرضی به آن داده شده به جای اینکه آنچه باقی مانده را بگیرد — و انعطاف‌پذیر کناری آن تفاوت را جذب می‌کند. عرض تحت نام منطقه به یاد می‌ماند، پس با صفحه برمی‌گردد، اینجا در هر سه چیدمان چون همان منطقه در حال حرکت است.'
+  editor:
+    state: 'ذخیره شده'
+  inspector:
+    title: جزئیات
+    field:
+      path:
+        key: مسیر
+      size:
+        key: اندازه
+      changed:
+        key: 'تغییر یافته'
+        value: '3 دقیقه پیش'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Työtila
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Tämä sivu on esimerkki: mitä olet lukemassa, sijaitsee kolmen alueen keskellä, aseteltuna vierekkäin sivun rungossa.'
+  section:
+    gap:
+      title: 'Väli on erotin'
+      description: 'Kahden alueen väliin ei piirretä mitään. Ne eroavat toisistaan niiden väliin jättämästä tilasta, jonka läpi sivu näkyy — sama maa, jolla valikko ja otsikko seisovat. Jokaisella alueella on oma, joka on maa, joka ruumiilla aina oli.'
+    each:
+      title: 'Jokainen omanaan'
+      description: 'Kaksi saraketta pitävät antamansa leveyden ja keskimmäinen ottaa sen, mitä jää. Vieritä yhtä kolmesta ja kaksi muuta pysyvät paikoillaan: alue pitää oman ylivuotonsa, eikä sivu pidä mitään.'
+      more: 'Alue ei tiedä mitään naapureistaan. Vasemmalla oleva tutkimus on oma jakonsa — palkki, joka pysyy, puu, joka vierittää sen alla — ja se olisi sama muoto missä tahansa muualla sivulla.'
+    size:
+      title: 'Yhden koon määrittäminen'
+      description: 'Vasemmanpuoleinen alue pitää `zone-resizer`:ia: kahva, joka täyttää sen viereisen välin, eikä piirrä mitään — osoitin kertoo sen liikkuvan. Vedä sitä, tai tuo se fokukseen ja käytä nuolia; kaksoisnapsautus palauttaa alueelle takaisin sen leveyden, jonka sivu antoi sille.'
+      more: 'Kahva määrittää koon alueelle, joka on kooltaan — yksi, jolle on annettu leveys, eikä se ota sitä, mitä jää — ja sen vieressä oleva joustava alue imee eron. Leveys muistetaan alueen nimessä, joten se palaa sivun mukana, täällä kaikissa kolmessa asettelussa, koska se on sama alue, joka liikkuu.'
+  editor:
+    state: Tallennettu
+  inspector:
+    title: Yksityiskohdat
+    field:
+      path:
+        key: Polku
+      size:
+        key: Koko
+      changed:
+        key: Muutettu
+        value: '3 minuuttia sitten'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Espace de travail'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: "Cette page est l'exemple : ce que vous lisez se trouve au milieu de trois régions, disposées côte à côte dans le corps de la page."
+  section:
+    gap:
+      title: "L'écart est le séparateur"
+      description: "Rien n'est dessiné entre deux régions. Ce qui les distingue, c'est l'espace qu'elles laissent entre elles, à travers lequel la page se montre — le même sol sur lequel se tiennent le menu et l'en-tête. Chaque région a la sienne, qui est le sol que possède toujours un corps."
+    each:
+      title: 'Chacune à part'
+      description: "Les deux colonnes conservent la largeur qui leur est donnée et le milieu prend ce qui reste. Faites défiler l'une des trois et les deux autres restent là où elles sont : une région gère son propre débordement, et la page n'en gère aucun."
+      more: "Une région ne sait rien de ses voisines. L'explorateur à gauche est une séparation à part — une barre qui reste, un arbre qui défile en dessous — et il aurait la même forme n'importe où ailleurs sur la page."
+    size:
+      title: "Dimensionner l'une d'elles"
+      description: "La région à gauche a un `zone-resizer` : une poignée qui remplit l'écart à côté d'elle, qui ne dessine rien — le curseur indique qu'elle se déplace. Faites-la glisser, ou donnez-lui le focus et utilisez les flèches ; un double clic redonne à la région la largeur que la page lui a donnée."
+      more: "Une poignée dimensionne une région qui a une taille — une à laquelle on donne une largeur plutôt que de prendre ce qui reste — et celle à côté, flexible, absorbe la différence. La largeur est mémorisée sous le nom de la région, donc elle revient avec la page, ici sur les trois mises en page puisque c'est la même région qui se déplace."
+  editor:
+    state: Enregistré
+  inspector:
+    title: Détails
+    field:
+      path:
+        key: Chemin
+      size:
+        key: Taille
+      changed:
+        key: Modifié
+        value: 'Il y a 3 minutes'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'מרחב עבודה'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'דף זה הוא הדוגמה: מה שאתה קורא נמצא באמצע שלושה אזורים, מונחים זה לצד זה בגוף הדף.'
+  section:
+    gap:
+      title: 'המרווח הוא המפריד'
+      description: 'אין דבר שנמשך בין שני אזורים. מה שמפריד ביניהם הוא המקום שהם משאירים ביניהם, דרכו הדף מציג — אותה קרקע שעליה עומדים התפריט והכותרת. כל אזור נושא את שלו, שהיא הקרקע שתמיד הייתה לגוף.'
+    each:
+      title: 'כל אחד בפני עצמו'
+      description: 'שתי העמודות שומרות על הרוחב שניתן להן והאמצעי לוקח את מה שנשאר. גלול אחד משלושה והאחרים נשארים במקום: אזור מחזיק את ההצפה שלו, והדף לא מחזיק אף אחת.'
+      more: 'אזור אינו יודע כלום על שכניו. החוקר בצד שמאל הוא חלוקה משלו — סרגל שנשאר, עץ שגולל מתחתיו — וזה יהיה אותו צורה בכל מקום אחר בדף.'
+    size:
+      title: 'גודל אחד מהם'
+      description: 'האזור בצד שמאל נושא `zone-resizer`: ידית שממלאת את המרווח לצידה, שאינה מושכת דבר — הסמן אומר שזה זז. גרור אותו, או תן לו את הפוקוס והשתמש בחצים; לחיצה כפולה מחזירה לאזור את הרוחב שהדף נתן לו.'
+      more: 'ידית מסדרת אזור שיש לו גודל — אחד שניתן רוחב במקום לקחת את מה שנשאר — והגמיש לצידו סופג את ההבדל. הרוחב נזכר תחת שם האזור, כך שהוא חוזר עם הדף, כאן בכל שלושת העיצובים מכיוון שזה אותו אזור זז.'
+  editor:
+    state: שמור
+  inspector:
+    title: פרטים
+    field:
+      path:
+        key: נתיב
+      size:
+        key: גודל
+      changed:
+        key: שונה
+        value: 'לפני 3 דקות'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: कार्यक्षेत्र
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'यह पृष्ठ उदाहरण है: जो आप पढ़ रहे हैं वह तीन क्षेत्रों के बीच में है, जो पृष्ठ के शरीर में बगल में रखे गए हैं।'
+  section:
+    gap:
+      title: 'अंतर separator है'
+      description: 'दो क्षेत्रों के बीच कुछ नहीं खींचा गया है। उन्हें अलग करने वाली चीज़ वह जगह है जो वे बीच में छोड़ते हैं, जिसके माध्यम से पृष्ठ दिखता है - वही आधार जिस पर मेनू और शीर्षक खड़े हैं। प्रत्येक क्षेत्र में अपना होता है, जो हमेशा एक शरीर का आधार होता है।'
+    each:
+      title: 'प्रत्येक अपने आप में'
+      description: 'दो कॉलम अपनी दी गई चौड़ाई बनाए रखते हैं और बीच वाला बची हुई जगह लेता है। तीन में से एक को स्क्रॉल करें और अन्य दो अपनी जगह पर बने रहते हैं: एक क्षेत्र अपनी ओवरफ्लो को रखता है, और पृष्ठ कोई नहीं रखता।'
+      more: 'एक क्षेत्र अपने पड़ोसियों के बारे में कुछ नहीं जानता। बाईं ओर का अन्वेषक अपना खुद का विभाजन है - एक बार जो रहता है, एक पेड़ जो इसके नीचे स्क्रॉल करता है - और यह पृष्ठ पर कहीं और उसी आकार का होगा।'
+    size:
+      title: 'उनमें से एक का आकार'
+      description: 'बाईं ओर का क्षेत्र एक `zone-resizer` ले जाता है: एक हैंडल जो इसके बगल में खाई भरता है, जो कुछ नहीं खींचता - कर्सर कहता है कि यह चलता है। इसे खींचें, या इसे ध्यान में लाएं और तीर का उपयोग करें; एक डबल क्लिक क्षेत्र को वह चौड़ाई वापस देता है जो पृष्ठ ने इसे दी थी।'
+      more: 'एक हैंडल एक क्षेत्र का आकार देता है जो एक आकार रखता है - एक जो चौड़ाई दी जाती है बजाय इसके कि जो बचा है उसे ले। और इसके बगल वाला लचीला क्षेत्र अंतर को अवशोषित करता है। चौड़ाई क्षेत्र के नाम के तहत याद रखी जाती है, इसलिए यह पृष्ठ के साथ वापस आती है, यहां तीनों लेआउट में क्योंकि यह वही क्षेत्र है जो चल रहा है।'
+  editor:
+    state: 'सहेजा गया'
+  inspector:
+    title: विवरण
+    field:
+      path:
+        key: पाथ
+      size:
+        key: आकार
+      changed:
+        key: 'बदला हुआ'
+        value: '3 मिनट पहले'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Ruang Kerja'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Halaman ini adalah contoh: apa yang Anda baca berada di tengah tiga wilayah, yang diletakkan berdampingan di badan halaman.'
+  section:
+    gap:
+      title: 'Celah adalah pemisah'
+      description: 'Tidak ada yang digambar di antara dua wilayah. Yang membedakan mereka adalah ruang yang mereka tinggalkan di antara keduanya, melalui mana halaman menunjukkan — tanah yang sama tempat menu dan header berada. Setiap wilayah membawa miliknya sendiri, yang merupakan tanah yang selalu dimiliki suatu tubuh.'
+    each:
+      title: 'Masing-masing berdiri sendiri'
+      description: 'Dua kolom mempertahankan lebar yang diberikan dan yang tengah mengambil sisa. Gulir salah satu dari ketiga dan dua lainnya tetap di tempatnya: sebuah wilayah menahan kelebihannya sendiri, dan halaman tidak menahan apa pun.'
+      more: 'Sebuah wilayah tidak tahu apa-apa tentang tetangganya. Penjelajah di sebelah kiri adalah pembagian miliknya sendiri — sebuah bilah yang tetap, sebuah pohon yang menggulir di bawahnya — dan itu akan memiliki bentuk yang sama di tempat lain di halaman.'
+    size:
+      title: 'Mengubah ukuran salah satunya'
+      description: 'Wilayah di sebelah kiri membawa `zone-resizer`: sebuah pegangan yang mengisi celah di sampingnya, yang tidak menggambar apa pun — kursor mengatakan itu bergerak. Seret itu, atau beri fokus dan gunakan panah; klik dua kali memberikan wilayah kembali lebar yang diberikan halaman.'
+      more: 'Sebuah pegangan mengubah ukuran sebuah wilayah yang memiliki ukuran — yang diberikan lebar daripada mengambil sisa — dan yang fleksibel di sampingnya menyerap perbedaannya. Lebar diingat di bawah nama wilayah, jadi ia kembali dengan halaman, di sini pada ketiga tata letak karena itu adalah wilayah yang sama yang bergerak.'
+  editor:
+    state: Tersimpan
+  inspector:
+    title: Detail
+    field:
+      path:
+        key: Jalur
+      size:
+        key: Ukuran
+      changed:
+        key: Diubah
+        value: '3 menit yang lalu'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Spazio di lavoro'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Questa pagina è un esempio: ciò che stai leggendo si trova al centro di tre aree, disposte affiancate nel corpo della pagina.'
+  section:
+    gap:
+      title: 'Il gap è il separatore'
+      description: "Nada è disegnato tra due aree. Ciò che le distingue è lo spazio che lasciano tra di loro, attraverso il quale la pagina mostra — lo stesso terreno su cui si trovano il menu e l'intestazione. Ogni area porta il proprio, che è il terreno che un corpo ha sempre avuto."
+    each:
+      title: 'Ognuna per conto suo'
+      description: "Le due colonne mantengono la larghezza che hanno e il centro prende ciò che resta. Scorri una delle tre e le altre due rimangono dove sono: un'area gestisce il proprio overflow, e la pagina non ne gestisce nessuno."
+      more: "Un'area non sa nulla dei suoi vicini. L'esploratore a sinistra è una suddivisione a sé — una barra che rimane, un albero che scorre sotto di essa — e avrebbe la stessa forma in qualsiasi altra parte della pagina."
+    size:
+      title: 'Dimensionare una di esse'
+      description: "L'area a sinistra porta un `zone-resizer`: una maniglia che riempie il gap accanto a essa, che non disegna nulla — il cursore indica che si muove. Trascinala, oppure metti a fuoco e usa le frecce; un doppio clic restituisce all'area la larghezza che la pagina le ha dato."
+      more: "Una maniglia dimensiona un'area che ha una dimensione — una data di una larghezza piuttosto che prendere ciò che resta — e quella flessibile accanto assorbe la differenza. La larghezza viene ricordata sotto il nome dell'area, quindi torna con la pagina, qui in tutti e tre i layout poiché è la stessa area a muoversi."
+  editor:
+    state: Salvato
+  inspector:
+    title: Dettagli
+    field:
+      path:
+        key: Percorso
+      size:
+        key: Dimensione
+      changed:
+        key: Modificato
+        value: '3 minuti fa'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ワークスペース
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: このページは例です：あなたが読んでいる内容は、ページの本文の中で横に並んでいる三つの領域の真ん中に位置しています。
+  section:
+    gap:
+      title: 隙間は区切りです
+      description: '二つの領域の間には何も描かれていません。それらを区別するのは、二つの間に残されたスペースであり、ページはそのスペースを通して示します — メニューとヘッダーが存在する同じ地面です。各領域は自分自身を持ち、体が常に持っていた地面です。'
+    each:
+      title: それぞれ独自に
+      description: 二つの列は与えられた幅を保ち、真ん中は残りのスペースを取ります。三つのうちの一つをスクロールすると、他の二つはそのままの位置に留まります：領域は自分自身のオーバーフローを保持し、ページは何も保持しません。
+      more: '領域は隣のことを何も知りません。左側のエクスプローラーは自分自身の分割です — 留まるバーとその下でスクロールするツリー — そしてそれはページの他のどこでも同じ形をしています。'
+    size:
+      title: 一つのサイズ調整
+      description: '左側の領域には `zone-resizer` があり：隙間を埋めるハンドルで、何も描きません — カーソルが動くことを示します。ドラッグするか、フォーカスを当てて矢印を使ってください；ダブルクリックすると、その領域はページが与えた幅を取り戻します。'
+      more: 'ハンドルはサイズを持つ領域のサイズを調整します — 幅を与えられたものであり、残りを取るのではなく — そして隣の柔軟なものがその差を吸収します。幅は領域の名前の下に記憶されるので、ページと共に戻り、ここでは三つのレイアウトすべてで同じ領域が移動します。'
+  editor:
+    state: 保存済み
+  inspector:
+    title: 詳細
+    field:
+      path:
+        key: パス
+      size:
+        key: サイズ
+      changed:
+        key: 変更
+        value: '3 分前'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '작업 공간'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: '이 페이지는 예시입니다: 당신이 읽고 있는 내용은 페이지의 본문에 나란히 배치된 세 개의 영역의 중앙에 위치하고 있습니다.'
+  section:
+    gap:
+      title: '간격은 구분선입니다'
+      description: '두 영역 사이에 아무것도 그려지지 않습니다. 그들을 구분짓는 것은 그들 사이에 남기는 여백입니다. 이 여백을 통해 페이지는 메뉴와 헤더가 위치한 동일한 바닥을 보여줍니다. 각 영역은 항상 있었던 그 바닥을 가지고 있습니다.'
+    each:
+      title: '각각 독립적으로'
+      description: '두 개의 열은 주어진 너비를 유지하고 가운데 열은 남은 공간을 차지합니다. 세 개 중 하나를 스크롤하면 나머지 두 개는 제자리에서 유지됩니다: 각 영역은 자체 오버플로우를 가지고 있으며 페이지는 어떤 것도 가지지 않습니다.'
+      more: '하나의 영역은 이웃에 대해 아무것도 알지 못합니다. 왼쪽의 탐색기는 그 자체의 분할입니다 — 고정된 바와 그 아래로 스크롤되는 트리 — 그리고 페이지의 다른 곳에서도 같은 형태일 것입니다.'
+    size:
+      title: '하나의 크기 조정하기'
+      description: '왼쪽 영역은 `zone-resizer`를 가지고 있습니다: 옆의 간격을 채우는 핸들이며, 아무것도 그리지 않습니다 — 커서는 움직인다고 말합니다. 드래그하거나 포커스를 주고 화살표를 사용하세요; 더블 클릭하면 페이지가 준 너비를 다시 영역에 돌려줍니다.'
+      more: '핸들은 크기가 있는 영역을 크기 조정합니다 — 주어진 너비를 가지며 남은 것을 가져가는 것이 아닙니다 — 옆의 유연한 영역은 차이를 흡수합니다. 너비는 영역의 이름 아래에 기억되므로 페이지와 함께 돌아오며, 세 가지 레이아웃 모두에서 동일한 영역이 이동하기 때문에 여기에서 돌아옵니다.'
+  editor:
+    state: 저장됨
+  inspector:
+    title: 세부정보
+    field:
+      path:
+        key: 경로
+      size:
+        key: 크기
+      changed:
+        key: 변경됨
+        value: '3분 전'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Werkruimte
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: "Deze pagina is het voorbeeld: wat je leest staat in het midden van drie regio's, naast elkaar in de body van de pagina."
+  section:
+    gap:
+      title: 'De kloof is de scheiding'
+      description: "Er is niets getekend tussen twee regio's. Wat ze van elkaar onderscheidt is de ruimte die ze tussen zich laten, waardoor de pagina laat zien — dezelfde grond waarop het menu en de header staan. Elke regio heeft zijn eigen, dat is de grond die een body altijd had."
+    each:
+      title: 'Iedereen op zijn eigen'
+      description: 'De twee kolommen behouden de breedte die ze hebben gekregen en het midden neemt wat overblijft. Scroll één van de drie en de andere twee blijven staan waar ze zijn: een regio houdt zijn eigen overflow, en de pagina houdt er geen.'
+      more: 'Een regio weet niets van zijn buren. De verkenner aan de linkerkant is een splitsing op zich — een balk die blijft, een boom die eronder scrollt — en het zou dezelfde vorm hebben waar dan ook op de pagina.'
+    size:
+      title: 'Een van hen vergroten'
+      description: 'De regio aan de linkerkant heeft een `zone-resizer`: een handvat dat de ruimte ernaast opvult, wat niets tekent — de cursor zegt dat het beweegt. Sleep het, of geef het de focus en gebruik de pijlen; een dubbelklik geeft de regio de breedte terug die de pagina gaf.'
+      more: 'Een handvat vergroot een regio die een grootte heeft — eentje die een breedte heeft gekregen in plaats van wat overblijft te nemen — en de flexibele ernaast absorbeert het verschil. De breedte wordt onthouden onder de naam van de regio, zodat het terugkomt met de pagina, hier op alle drie de indelingen aangezien het dezelfde regio is die beweegt.'
+  editor:
+    state: Opgeslagen
+  inspector:
+    title: Details
+    field:
+      path:
+        key: Pad
+      size:
+        key: Grootte
+      changed:
+        key: Gewijzigd
+        value: '3 minuten geleden'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Obszar roboczy'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Ta strona jest przykładem: to, co czytasz, znajduje się w środku trzech obszarów, ułożonych obok siebie w treści strony.'
+  section:
+    gap:
+      title: 'Przerwa jest separatorem'
+      description: 'Nic nie jest rysowane między dwoma obszarami. To, co je oddziela, to przestrzeń, którą pozostawiają między sobą, przez którą strona się ukazuje — ta sama podstawa, na której stoi menu i nagłówek. Każdy obszar ma swoją własną, która jest podstawą, którą ciało zawsze miało.'
+    each:
+      title: 'Każdy z osobna'
+      description: 'Dwie kolumny zachowują przypisaną im szerokość, a środkowy zajmuje to, co zostało. Przewiń jeden z trzech, a pozostałe dwa pozostaną na swoich miejscach: obszar ma własny nadmiar, a strona nie ma żadnego.'
+      more: 'Obszar nie ma pojęcia o swoich sąsiadach. Eksplorator po lewej stronie jest podziałem samym w sobie — pasek, który pozostaje, drzewo, które przewija się pod nim — i w innej części strony miałby ten sam kształt.'
+    size:
+      title: 'Rozmiar jednego z nich'
+      description: 'Obszar po lewej stronie ma `zone-resizer`: uchwyt wypełniający przerwę obok niego, który nic nie rysuje — kursor mówi, że można go przesuwać. Przeciągnij go, lub nadaj mu fokus i użyj strzałek; podwójne kliknięcie przywraca obszarowi szerokość, jaką nadała mu strona.'
+      more: 'Uchwyt zmienia rozmiar obszaru, który ma rozmiar — taki, któremu nadano szerokość, zamiast brać to, co zostało — a elastyczny obok niego absorbuje różnicę. Szerokość jest zapamiętywana pod nazwą obszaru, więc wraca z stroną, tutaj we wszystkich trzech układach, ponieważ to ten sam obszar się porusza.'
+  editor:
+    state: Zapisano
+  inspector:
+    title: Szczegóły
+    field:
+      path:
+        key: Ścieżka
+      size:
+        key: Rozmiar
+      changed:
+        key: Zmieniono
+        value: '3 minuty temu'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Espaço de Trabalho'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Esta página é o exemplo: o que você está lendo está no meio de três regiões, dispostas lado a lado no corpo da página.'
+  section:
+    gap:
+      title: 'A lacuna é o separador'
+      description: 'Nada é desenhado entre duas regiões. O que as diferencia é o espaço que deixam entre si, pelo qual a página mostra — o mesmo terreno em que o menu e o cabeçalho estão. Cada região carrega o seu próprio, que é o terreno que um corpo sempre teve.'
+    each:
+      title: 'Cada um por si'
+      description: 'As duas colunas mantêm a largura que lhes é dada e o meio ocupa o que sobra. Role uma das três e as outras duas permanecem onde estão: uma região mantém seu próprio overflow, e a página não mantém nenhum.'
+      more: 'Uma região não sabe nada sobre suas vizinhas. O explorador à esquerda é uma divisão própria — uma barra que permanece, uma árvore que rola sob ela — e teria a mesma forma em qualquer outro lugar da página.'
+    size:
+      title: 'Dimensionando uma delas'
+      description: 'A região à esquerda possui um `zone-resizer`: uma alça que preenche a lacuna ao lado, que não desenha nada — o cursor indica que se move. Arraste-a, ou dê foco e use as setas; um clique duplo devolve à região a largura que a página lhe deu.'
+      more: 'Uma alça dimensiona uma região que tem um tamanho — uma que recebe uma largura em vez de ocupar o que sobra — e a flexível ao lado absorve a diferença. A largura é lembrada sob o nome da região, então volta com a página, aqui em todos os três layouts, já que é a mesma região se movendo.'
+  editor:
+    state: Salvo
+  inspector:
+    title: Detalhes
+    field:
+      path:
+        key: Caminho
+      size:
+        key: Tamanho
+      changed:
+        key: Alterado
+        value: 'há 3 minutos'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Рабочее пространство'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Эта страница является примером: то, что вы читаете, находится в центре трех областей, расположенных рядом в теле страницы.'
+  section:
+    gap:
+      title: 'Промежуток — это разделитель'
+      description: 'Между двумя областями ничего не нарисовано. То, что отличает их, — это пространство, которое они оставляют между собой, через которое страница показывает — тот же фон, на котором стоят меню и заголовок. Каждая область имеет свой собственный фон, который всегда был у тела.'
+    each:
+      title: 'Каждая по отдельности'
+      description: 'Две колонки сохраняют заданную ширину, а средняя занимает оставшееся пространство. Прокручивайте одну из трех, и остальные две остаются на месте: область удерживает свой собственный переполнение, а страница не удерживает никакого.'
+      more: 'Область ничего не знает о своих соседях. Исследователь слева — это собственное деление — панель, которая остается, дерево, которое прокручивается под ней — и оно будет иметь такую же форму в любом другом месте на странице.'
+    size:
+      title: 'Изменение размера одной из них'
+      description: 'Область слева имеет `zone-resizer`: ручку, заполняющую промежуток рядом с ней, которая ничего не рисует — курсор говорит, что она двигается. Перетащите её или наведите на неё фокус и используйте стрелки; двойной щелчок возвращает области ширину, которую ей дала страница.'
+      more: 'Ручка изменяет размер области, которая имеет размер — ту, которой задана ширина, а не ту, которая занимает оставшееся пространство — и гибкая рядом с ней поглощает разницу. Ширина запоминается под именем области, поэтому она возвращается вместе со страницей, здесь на всех трех макетах, так как это одна и та же область, перемещающаяся.'
+  editor:
+    state: Сохранено
+  inspector:
+    title: Детали
+    field:
+      path:
+        key: Путь
+      size:
+        key: Размер
+      changed:
+        key: Изменено
+        value: '3 минуты назад'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: พื้นที่ทำงาน
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'หน้านี้เป็นตัวอย่าง: สิ่งที่คุณกำลังอ่านอยู่ตรงกลางของสามพื้นที่ ที่อยู่ข้างกันในเนื้อหาของหน้า.'
+  section:
+    gap:
+      title: ช่องว่างคือการแบ่งแยก
+      description: 'ไม่มีอะไรถูกวาดระหว่างสองพื้นที่ สิ่งที่บอกความแตกต่างคือพื้นที่ที่พวกเขาทิ้งไว้ระหว่างกัน ซึ่งหน้าจะแสดง — พื้นที่เดียวกันที่เมนูและส่วนหัวอยู่บนพื้นนั้น ทุกพื้นที่มีพื้นของมันเอง ซึ่งเป็นพื้นที่ร่างกายเคยมีเสมอ.'
+    each:
+      title: แต่ละอันแยกกัน
+      description: 'สองคอลัมน์จะรักษาความกว้างที่กำหนดไว้และกลางจะรับสิ่งที่เหลือ เลื่อนหนึ่งในสามและอีกสองจะอยู่ที่เดิม: พื้นที่จะถือการโอเวอร์โฟลว์ของมันเอง และหน้าไม่ถืออะไรเลย.'
+      more: 'พื้นที่ไม่รู้จักเพื่อนบ้านของมัน นักสำรวจทางซ้ายคือการแบ่งแยกของมันเอง — แถบที่คงอยู่, ต้นไม้ที่เลื่อนอยู่ใต้ — และจะมีรูปร่างเดียวกันที่ส่วนอื่นของหน้า.'
+    size:
+      title: ปรับขนาดหนึ่งในนั้น
+      description: 'พื้นที่ทางซ้ายมี `zone-resizer`: ที่จับที่เติมช่องว่างข้างๆ ซึ่งไม่วาดอะไร — ตัวชี้จะบอกว่ามันเคลื่อนไหว ลากมัน หรือให้โฟกัสและใช้ลูกศร; คลิกสองครั้งจะทำให้พื้นที่กลับมามีความกว้างที่หน้ามอบให้.'
+      more: 'ที่จับปรับขนาดพื้นที่ที่มีขนาด — ขนาดที่กำหนดไว้แทนการรับสิ่งที่เหลือ — และข้างๆ ที่ปรับได้จะดูดซับความแตกต่าง ความกว้างจะถูกจดจำภายใต้ชื่อของพื้นที่ ดังนั้นมันจะกลับมาพร้อมกับหน้า, ที่นี่ในรูปแบบทั้งสามเพราะมันคือพื้นที่เดียวกันที่เคลื่อนที่.'
+  editor:
+    state: บันทึกแล้ว
+  inspector:
+    title: รายละเอียด
+    field:
+      path:
+        key: เส้นทาง
+      size:
+        key: ขนาด
+      changed:
+        key: เปลี่ยนแปลง
+        value: '3 นาทีที่แล้ว'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Çalışma Alanı'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Bu sayfa örnektir: okuduğunuz içerik, sayfanın ortasında yan yana yer alan üç bölgeden birindedir.'
+  section:
+    gap:
+      title: 'Boşluk ayırıcıdır'
+      description: 'İki bölge arasında hiçbir şey çizilmez. Onları ayıran, aralarındaki boşluktur; sayfa bu boşluğun üzerinden gösterir - menünün ve başlığın durduğu aynı zemin. Her bölge kendi zeminine sahiptir, bu da her zaman bir gövdenin sahip olduğu zemindir.'
+    each:
+      title: 'Her biri kendi başına'
+      description: 'İki sütun kendilerine verilen genişliği korur ve ortadaki kalan alanı alır. Üçünden birini kaydırdığınızda, diğer ikisi yerinde kalır: bir bölge kendi taşmasını tutar, sayfa hiçbirini tutmaz.'
+      more: 'Bir bölge komşularından habersizdir. Soldaki gezgin, kendi içinde bir bölümdür - kalan bir çubuk, altında kaydırılan bir ağaç - ve sayfanın başka bir yerinde aynı şekle sahip olur.'
+    size:
+      title: 'Birini boyutlandırma'
+      description: 'Soldaki bölge bir `zone-resizer` taşır: yanında boşluğu dolduran bir tutamak, hiçbir şey çizmez - imleç hareket ettiğini söyler. Sürükleyin, veya ona odaklanıp ok tuşlarını kullanın; çift tıklama, bölgeye sayfanın verdiği genişliği geri kazandırır.'
+      more: 'Bir tutamak, bir boyutu olan bir bölgeyi boyutlandırır - genişlik verilen, kalan alanı almayan - ve yanındaki esnek olan farkı emmektedir. Genişlik, bölgenin adı altında hatırlanır, bu yüzden sayfa ile birlikte geri döner, burada üç düzenin hepsinde çünkü aynı bölge hareket etmektedir.'
+  editor:
+    state: Kaydedildi
+  inspector:
+    title: Ayrıntılar
+    field:
+      path:
+        key: Yol
+      size:
+        key: Boyut
+      changed:
+        key: Değiştirildi
+        value: '3 dakika önce'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ورک اسپیس'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'یہ صفحہ ایک مثال ہے: جو آپ پڑھ رہے ہیں وہ تین علاقوں کے درمیان میں ہے، جو صفحے کے جسم میں ایک ساتھ رکھے گئے ہیں۔'
+  section:
+    gap:
+      title: 'فاصلہ علیحدگی کرنے والا ہے'
+      description: 'دو علاقوں کے درمیان کچھ نہیں کھینچا گیا ہے۔ انہیں علیحدہ کرنے والی چیز وہ جگہ ہے جو وہ اپنے درمیان چھوڑتے ہیں، جس کے ذریعے صفحہ دکھاتا ہے — وہی سرزمین جس پر مینو اور ہیڈر کھڑے ہیں۔ ہر علاقہ اپنی خاص چیز رکھتا ہے، جو ایک جسم ہمیشہ رکھتا ہے۔'
+    each:
+      title: 'ہر ایک اپنے طور پر'
+      description: 'دو کالم وہ چوڑائی رکھتے ہیں جو انہیں دی گئی ہے اور درمیان وہی لیتا ہے جو باقی بچتا ہے۔ ان تینوں میں سے کسی ایک کو اسکرول کریں اور باقی دو اپنی جگہ پر رہتے ہیں: ایک علاقہ اپنی اضافی جگہ کو سنبھالتا ہے، اور صفحہ کچھ نہیں سنبھالتا۔'
+      more: 'ایک علاقہ اپنے ہمسائے کے بارے میں کچھ نہیں جانتا۔ بائیں جانب کا ایکسپلورر اس کا اپنا ایک تقسیم ہے — ایک بار جو رہتا ہے، ایک درخت جو اس کے نیچے اسکرول ہوتا ہے — اور یہ صفحے پر کہیں اور بھی اسی شکل میں ہوگا۔'
+    size:
+      title: 'ان میں سے ایک کا سائز'
+      description: 'بائیں جانب کا علاقہ ایک `zone-resizer` رکھتا ہے: ایک ہینڈل جو اس کے ساتھ والے فاصلہ کو بھرتا ہے، جو کچھ نہیں کھینچتا — کرسر کہتا ہے کہ یہ حرکت کرتا ہے۔ اسے کھینچیں، یا اسے توجہ دیں اور تیروں کا استعمال کریں؛ ڈبل کلک کرنے سے علاقہ وہ چوڑائی واپس لے لیتا ہے جو صفحے نے اسے دی تھی۔'
+      more: 'ایک ہینڈل ایک ایسے علاقے کا سائز بناتا ہے جس کا سائز ہوتا ہے — ایک ایسا جو چوڑائی دی گئی ہو بجائے اس کے کہ جو باقی بچتا ہے لے لے — اور اس کے ساتھ والا لچکدار فرق کو جذب کرتا ہے۔ چوڑائی علاقہ کے نام کے نیچے یاد رکھی جاتی ہے، لہذا یہ صفحے کے ساتھ واپس آتا ہے، یہاں تینوں لے آؤٹ میں چونکہ یہ ایک ہی علاقہ ہے جو حرکت کر رہا ہے۔'
+  editor:
+    state: محفوظ
+  inspector:
+    title: تفصیلات
+    field:
+      path:
+        key: راستہ
+      size:
+        key: سائز
+      changed:
+        key: 'تبدیل شدہ'
+        value: '3 منٹ پہلے'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Không gian làm việc'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Trang này là ví dụ: những gì bạn đang đọc nằm ở giữa ba vùng, được đặt cạnh nhau trong thân trang.'
+  section:
+    gap:
+      title: 'Khoảng cách là bộ phân cách'
+      description: 'Không có gì được vẽ giữa hai vùng. Điều phân biệt chúng là khoảng trống mà chúng để lại giữa chúng, qua đó trang hiển thị — cùng mặt bằng mà menu và tiêu đề đứng trên đó. Mỗi vùng mang theo của riêng nó, đó là mặt đất mà một thân luôn có.'
+    each:
+      title: 'Mỗi cái tự nó'
+      description: 'Hai cột giữ chiều rộng mà chúng được cho và cột giữa lấy những gì còn lại. Cuộn một trong ba cái và hai cái còn lại sẽ giữ nguyên vị trí: một vùng giữ riêng phần tràn của nó, và trang sẽ không giữ gì cả.'
+      more: 'Một vùng không biết gì về hàng xóm của nó. Trình khám phá bên trái là một phần tách biệt của riêng nó — một thanh giữ nguyên, một cây cuộn bên dưới nó — và nó sẽ có hình dạng giống nhau ở bất kỳ đâu trên trang.'
+    size:
+      title: 'Kích thước một trong số đó'
+      description: 'Vùng bên trái mang theo một `zone-resizer`: một tay cầm lấp đầy khoảng trống bên cạnh, không vẽ gì — con trỏ cho biết nó có thể di chuyển. Kéo nó, hoặc cho nó được tập trung và sử dụng các mũi tên; một cú nhấp đúp trả lại chiều rộng mà trang đã cho vùng đó.'
+      more: 'Một tay cầm điều chỉnh một vùng có kích thước — một vùng được cho chiều rộng thay vì lấy những gì còn lại — và vùng linh hoạt bên cạnh hấp thụ sự khác biệt. Chiều rộng được nhớ dưới tên vùng, vì vậy nó trở lại với trang, ở đây trên cả ba bố cục vì nó là cùng một vùng di chuyển.'
+  editor:
+    state: 'Đã lưu'
+  inspector:
+    title: 'Chi tiết'
+    field:
+      path:
+        key: 'Đường dẫn'
+      size:
+        key: 'Kích thước'
+      changed:
+        key: 'Đã thay đổi'
+        value: '3 phút trước'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 工作区
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 此页面是示例：您正在阅读的内容位于三个区域的中间，这些区域并排放置在页面主体中。
+  section:
+    gap:
+      title: 间隙是分隔符
+      description: 两个区域之间没有任何内容。区分它们的是它们之间留出的空间，通过这个空间页面展示——与菜单和标题所站立的地方相同。每个区域都有自己的空间，这就是一个主体始终拥有的基础。
+    each:
+      title: 各自独立
+      description: 这两列保持它们被赋予的宽度，中间列占用剩余空间。滚动其中一个，其他两个保持不动：一个区域保持自己的溢出，页面则不保持。
+      more: 一个区域对其邻居一无所知。左侧的探索器是它自己的分割——一个保持不变的栏，一个在其下方滚动的树——在页面的其他地方也是相同的形状。
+    size:
+      title: 调整其中一个的大小
+      description: '左侧区域带有一个 `zone-resizer`：一个填充其旁边间隙的手柄，不绘制任何内容——光标指示它可以移动。拖动它，或者聚焦并使用箭头；双击将区域的宽度恢复到页面给予的宽度。'
+      more: 一个手柄调整一个有尺寸的区域——一个被赋予宽度而不是占用剩余空间的区域——而旁边的灵活区域吸收差异。宽度在区域名称下被记住，因此与页面一起返回，在所有三种布局中都相同，因为是同一区域在移动。
+  editor:
+    state: 已保存
+  inspector:
+    title: 详情
+    field:
+      path:
+        key: 路径
+      size:
+        key: 大小
+      changed:
+        key: 已更改
+        value: 3分钟前

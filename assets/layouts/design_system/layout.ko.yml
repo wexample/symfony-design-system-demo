@@ -1,8 +1,0 @@
-~extends: '@front.layouts.private.layout'
-menu_design_system:
-  navigation:
-    group:
-      app:
-        title: '앱 구성요소'
-      generic:
-        title: '일반 구성요소'

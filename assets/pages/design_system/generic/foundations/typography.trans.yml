@@ -1,0 +1,809 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Typography
+  page_icon: ph:bold/text-aa
+
+  intro: "The scale is a density decision and the faces are a fonts one: this page shows what a shape reads, not what it is worth today. Switch the fonts axis in the debug panel and everything below is set in another face without a rule changing."
+
+  section:
+    families:
+      title: Families
+      description: "Three, because that is what a page tells apart: what it is written in, what it is titled in, and what is meant to be read as typed rather than said. A set may give the same face to all three — the system one does."
+    weights:
+      title: Weights
+      description: "Named by how much they insist, never by number. A face whose 500 does not exist maps it onto what it does have, and the shapes that ask for a medium go on asking for a medium."
+    typography:
+      title: Type scale
+
+  title:
+    h1:
+      title: "Design System — Building blocks for great interfaces"
+      description: "Used once per page. Sets the primary context. Paired with a short lead paragraph."
+    h2:
+      title: "Typography establishes hierarchy and rhythm"
+      description: "Section-level heading. Groups related content. Usually followed by body text or sub-sections."
+    h3:
+      title: "Spacing and proportion shape readability"
+      description: "Sub-section heading. Introduces a focused topic within a section."
+    h4:
+      title: "Color and contrast guide the eye"
+      description: "Used for card titles, sidebar sections, or minor groupings."
+    h5:
+      title: "Interactive states need to be obvious"
+      description: "Labels, metadata headers, small groupings. Subtle but distinct from body text."
+    h6:
+      title: "Accessibility is a feature, not an afterthought"
+      description: "The smallest heading level. Use sparingly — for footnotes, legal blocks, or auxiliary labels."
+
+  sample: "The quick brown fox jumps over the lazy dog — 0123456789"
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الطباعة
+  page_icon: 'ph:bold/text-aa'
+  intro: 'المقياس هو قرار كثافة، والأشكال هي قرار خطوط: هذه الصفحة تظهر كيف يقرأ الشكل، وليس ما يستحقه اليوم. قم بتبديل محور الخطوط في لوحة التصحيح وكل ما هو أدناه مضبوط في شكل آخر دون تغيير قاعدة.'
+  section:
+    families:
+      title: العائلات
+      description: 'ثلاثة، لأن هذا ما تميزه الصفحة: ما هو مكتوب فيه، وما هو معنون به، وما يُقصد قراءته كما هو مكتوب بدلاً من أن يُقال. قد تعطي مجموعة نفس الشكل للجميع — النظام يفعل ذلك.'
+    weights:
+      title: الأوزان
+      description: 'مسمّاة بمدى إلحاحها، وليس برقم. شكل لا يوجد له 500 يوزعها على ما لديه، والأشكال التي تطلب المتوسط تستمر في طلب المتوسط.'
+    typography:
+      title: 'مقياس الخط'
+  title:
+    h1:
+      title: 'نظام التصميم — العناصر الأساسية لواجهات رائعة'
+      description: 'يستخدم مرة واحدة لكل صفحة. يحدد السياق الأساسي. يتزامن مع فقرة تمهيدية قصيرة.'
+    h2:
+      title: 'تحدد الطباعة التسلسل الهرمي والإيقاع'
+      description: 'عنوان مستوى القسم. يجمع المحتوى ذي الصلة. يتبعه عادة نص الجسم أو الأقسام الفرعية.'
+    h3:
+      title: 'تشكيل المسافات والنسب قابلية القراءة'
+      description: 'عنوان فرعي. يقدم موضوعًا مركزًا داخل قسم.'
+    h4:
+      title: 'يوجه اللون والتباين العين'
+      description: 'يستخدم لعناوين البطاقات، أو أقسام الشريط الجانبي، أو التجميعات الصغيرة.'
+    h5:
+      title: 'حالات التفاعل يجب أن تكون واضحة'
+      description: 'تسميات، رؤوس بيانات التعريف، تجميعات صغيرة. دقيقة ولكن مميزة عن نص الجسم.'
+    h6:
+      title: 'إمكانية الوصول ميزة، وليست فكرة متأخرة'
+      description: 'أصغر مستوى عنوان. استخدمه بحذر — للملاحظات، الكتل القانونية، أو الملصقات المساعدة.'
+  sample: 'الثعلب البني السريع يقفز فوق الكلب الكسول — 0123456789'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: টাইপোগ্রাফি
+  page_icon: 'ph:bold/text-aa'
+  intro: 'স্কেল একটি ঘনত্ব সিদ্ধান্ত এবং ফেইসগুলো একটি ফন্ট সিদ্ধান্ত: এই পৃষ্ঠা দেখায় যে একটি আকার কীভাবে পড়া হয়, আজ এটি কীভাবে মূল্যায়িত হয় তা নয়। ডিবাগ প্যানেলে ফন্ট অক্ষটি পরিবর্তন করুন এবং নিচের সবকিছু অন্য একটি ফেইসে সেট করা হয়েছে, কোন নিয়ম পরিবর্তন না করে।'
+  section:
+    families:
+      title: পরিবার
+      description: 'তিনটি, কারণ একটি পৃষ্ঠা যা আলাদা করে: এটি কীভাবে লেখা হয়েছে, এটি কীভাবে শিরোনাম দেওয়া হয়েছে, এবং যা টাইপ করা হয়েছে তা পড়া হবে তা বোঝানো। একটি সেট তিনটির জন্য একই ফেইস দিতে পারে - সিস্টেমটি তাই করে।'
+    weights:
+      title: ওজন
+      description: 'এগুলি কতটা জোরালোভাবে বোঝানো হয়েছে তার নাম, কখনও সংখ্যা দ্বারা নয়। একটি ফেইস যার 500 নেই, এটি যা আছে তার উপর মানচিত্র তৈরি করে, এবং আকারগুলি যা মধ্যমের জন্য অনুরোধ করে তা মধ্যমের জন্য অনুরোধ করতে থাকে।'
+    typography:
+      title: 'টাইপ স্কেল'
+  title:
+    h1:
+      title: 'ডিজাইন সিস্টেম — দুর্দান্ত ইন্টারফেসের জন্য নির্মাণ ব্লক'
+      description: 'প্রতি পৃষ্ঠায় একবার ব্যবহার করা হয়। প্রাথমিক প্রসঙ্গ সেট করে। একটি সংক্ষিপ্ত নেতৃত্ব প্যারাগ্রাফের সাথে যুক্ত।'
+    h2:
+      title: 'টাইপোগ্রাফি শ্রেণীবিভাগ এবং ছন্দ প্রতিষ্ঠা করে'
+      description: 'সেকশন-স্তরের শিরোনাম। সম্পর্কিত কন্টেন্ট গ্রুপ করে। সাধারণত শরীরের পাঠ্য বা উপ-সেকশনের পরে আসে।'
+    h3:
+      title: 'স্থান এবং অনুপাত পাঠযোগ্যতা তৈরি করে'
+      description: 'উপ-সেকশন শিরোনাম। একটি সেকশনের মধ্যে একটি কেন্দ্রীয় বিষয় পরিচয় করিয়ে দেয়।'
+    h4:
+      title: 'রঙ এবং বৈসাদৃশ্য চোখকে গাইড করে'
+      description: 'কার্ড শিরোনাম, সাইডবার সেকশন, অথবা ছোট গ্রুপিংয়ের জন্য ব্যবহৃত হয়।'
+    h5:
+      title: 'ইন্টারঅ্যাকটিভ অবস্থাগুলি স্পষ্ট হতে হবে'
+      description: 'লেবেল, মেটাডেটা হেডার, ছোট গ্রুপিং। সূক্ষ্ম কিন্তু শরীরের পাঠ্য থেকে আলাদা।'
+    h6:
+      title: 'প্রবেশযোগ্যতা একটি বৈশিষ্ট্য, পরবর্তী চিন্তা নয়'
+      description: 'সর্বনিম্ন শিরোনাম স্তর। সংরক্ষণশীলভাবে ব্যবহার করুন - ফুটনোট, আইনগত ব্লক, অথবা সহায়ক লেবেলের জন্য।'
+  sample: 'দ্রুত বাদামী শিয়াল অলস কুকুরের উপর ঝাঁপ দেয় — 0123456789'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Typografie
+  page_icon: 'ph:bold/text-aa'
+  intro: 'Die Skala ist eine Entscheidung über die Dichte und die Typen sind eine Entscheidung über die Schriftarten: Diese Seite zeigt, wie eine Form gelesen wird, nicht was sie heute wert ist. Wechsle die Schriftarten-Achse im Debug-Bereich und alles darunter wird in einer anderen Schriftart gesetzt, ohne dass sich eine Regel ändert.'
+  section:
+    families:
+      title: Familien
+      description: 'Drei, denn das ist es, was eine Seite unterscheidet: in welcher Schrift es geschrieben ist, in welcher es betitelt ist und was als getippt und nicht als gesagt gelesen werden soll. Ein Set kann allen dreien die gleiche Schriftart geben – das System tut dies.'
+    weights:
+      title: Gewichte
+      description: 'Benannt nach dem Maß, wie sehr sie bestehen, niemals nach Zahlen. Eine Schriftart, deren 500 nicht existiert, mappt sie auf das, was sie hat, und die Formen, die nach einem Medium fragen, fragen weiterhin nach einem Medium.'
+    typography:
+      title: Schriftgröße
+  title:
+    h1:
+      title: 'Design-System — Bausteine für großartige Benutzeroberflächen'
+      description: 'Einmal pro Seite verwendet. Setzt den primären Kontext. Kombiniert mit einem kurzen einleitenden Absatz.'
+    h2:
+      title: 'Typografie etabliert Hierarchie und Rhythmus'
+      description: 'Überschrift auf Abschnittsebene. Gruppiert verwandte Inhalte. Wird normalerweise von Fließtext oder Unterabschnitten gefolgt.'
+    h3:
+      title: 'Abstand und Proportionen formen die Lesbarkeit'
+      description: 'Überschrift für Unterabschnitte. Führt ein fokussiertes Thema innerhalb eines Abschnitts ein.'
+    h4:
+      title: 'Farbe und Kontrast führen das Auge'
+      description: 'Verwendet für Kartentitel, Sidebar-Abschnitte oder kleinere Gruppierungen.'
+    h5:
+      title: 'Interaktive Zustände müssen offensichtlich sein'
+      description: 'Labels, Metadatenüberschriften, kleine Gruppierungen. Subtil, aber deutlich vom Fließtext unterschieden.'
+    h6:
+      title: 'Barrierefreiheit ist ein Merkmal, kein Nachgedanke'
+      description: 'Die kleinste Überschriftsebene. Sparsam verwenden — für Fußnoten, rechtliche Blöcke oder Hilfslabels.'
+  sample: 'Der schnelle braune Fuchs springt über den faulen Hund — 0123456789'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tipografía
+  page_icon: 'ph:bold/text-aa'
+  intro: 'La escala es una decisión de densidad y las caras son una de fuentes: esta página muestra cómo se lee una forma, no lo que vale hoy. Cambia el eje de fuentes en el panel de depuración y todo lo que está abajo se establece en otra cara sin cambiar ninguna regla.'
+  section:
+    families:
+      title: Familias
+      description: 'Tres, porque eso es lo que una página distingue: en qué está escrito, en qué está titulado y qué se entiende como escrito en lugar de dicho. Un conjunto puede dar la misma cara a los tres — el sistema lo hace.'
+    weights:
+      title: Pesos
+      description: 'Nombrados por cuánto insisten, nunca por número. Una cara cuyo 500 no existe se asigna a lo que tiene, y las formas que piden un medio siguen pidiendo un medio.'
+    typography:
+      title: 'Escala tipográfica'
+  title:
+    h1:
+      title: 'Sistema de Diseño — Componentes básicos para grandes interfaces'
+      description: 'Usado una vez por página. Establece el contexto principal. Emparejado con un breve párrafo introductorio.'
+    h2:
+      title: 'La tipografía establece jerarquía y ritmo'
+      description: 'Encabezado de nivel de sección. Agrupa contenido relacionado. Usualmente seguido por texto de cuerpo o subsecciones.'
+    h3:
+      title: 'El espaciado y la proporción moldean la legibilidad'
+      description: 'Encabezado de subsección. Introduce un tema enfocado dentro de una sección.'
+    h4:
+      title: 'El color y el contraste guían la vista'
+      description: 'Usado para títulos de tarjetas, secciones de barra lateral o agrupaciones menores.'
+    h5:
+      title: 'Los estados interactivos deben ser obvios'
+      description: 'Etiquetas, encabezados de metadatos, pequeñas agrupaciones. Sutil pero distinto del texto de cuerpo.'
+    h6:
+      title: 'La accesibilidad es una característica, no un pensamiento posterior'
+      description: 'El nivel de encabezado más pequeño. Usar con moderación — para notas al pie, bloques legales o etiquetas auxiliares.'
+  sample: 'El rápido zorro marrón salta sobre el perro perezoso — 0123456789'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تایپوگرافی
+  page_icon: 'ph:bold/text-aa'
+  intro: 'مقیاس یک تصمیم در مورد چگالی است و چهره‌ها یک تصمیم در مورد فونت‌ها: این صفحه نشان می‌دهد که یک شکل چگونه خوانده می‌شود، نه اینکه امروز چه ارزشی دارد. محور فونت‌ها را در پنل اشکال‌زدایی تغییر دهید و همه چیز زیر آن با چهره دیگری بدون تغییر قوانین تنظیم شده است.'
+  section:
+    families:
+      title: خانواده‌ها
+      description: 'سه تا، زیرا این چیزی است که یک صفحه از هم متمایز می‌کند: آنچه نوشته شده، آنچه عنوان شده و آنچه به عنوان تایپ شده خوانده می‌شود نه گفته شده. یک مجموعه ممکن است به هر سه چهره یکسانی بدهد — سیستم این کار را انجام می‌دهد.'
+    weights:
+      title: وزن‌ها
+      description: 'با توجه به اینکه چقدر بر آن تأکید می‌کنند نام‌گذاری شده‌اند، هرگز با عدد. یک چهره که 500 وجود ندارد، آن را به آنچه دارد نگاشت می‌کند و اشکالی که به یک میانه نیاز دارند همچنان به دنبال یک میانه هستند.'
+    typography:
+      title: 'مقیاس نوع'
+  title:
+    h1:
+      title: 'سیستم طراحی — بلوک‌های سازنده برای رابط‌های عالی'
+      description: 'یک بار در هر صفحه استفاده می‌شود. زمینه اصلی را تنظیم می‌کند. با یک پاراگراف کوتاه همراه است.'
+    h2:
+      title: 'تایپوگرافی سلسله‌مراتب و ریتم را تعیین می‌کند'
+      description: 'عنوان سطح بخش. محتویات مرتبط را گروه‌بندی می‌کند. معمولاً با متن بدنه یا زیر بخش‌ها دنبال می‌شود.'
+    h3:
+      title: 'فاصله و نسبت شکل‌دهنده خوانایی هستند'
+      description: 'عنوان زیر بخش. موضوعی متمرکز را در یک بخش معرفی می‌کند.'
+    h4:
+      title: 'رنگ و کنتراست چشم را راهنمایی می‌کنند'
+      description: 'برای عنوان‌های کارت، بخش‌های نوار کناری یا گروه‌بندی‌های کوچک استفاده می‌شود.'
+    h5:
+      title: 'وضعیت‌های تعاملی باید واضح باشند'
+      description: 'برچسب‌ها، هدرهای متاداده، گروه‌های کوچک. ظریف اما متمایز از متن بدنه.'
+    h6:
+      title: 'دسترس‌پذیری یک ویژگی است، نه یک فکر بعدی'
+      description: 'کوچکترین سطح عنوان. به ندرت استفاده شود — برای یادداشت‌های پایینی، بلوک‌های قانونی یا برچسب‌های کمکی.'
+  sample: 'روباه قهوه‌ای سریع بر روی سگ تنبل می‌پرد — 0123456789'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Typografia
+  page_icon: 'ph:bold/text-aa'
+  intro: 'Skaala on tiheyspäätös ja fontit ovat fonttipäätöksiä: tämä sivu näyttää, mitä muoto lukee, ei mitä se arvo on tänään. Vaihda fonttiakseli virheenkorjauspaneelissa ja kaikki alla on asetettu toiseen fonttiin ilman sääntöjen muutosta.'
+  section:
+    families:
+      title: Perheet
+      description: 'Kolme, koska se on se, mitä sivu erottaa: mihin se on kirjoitettu, mihin se on otsikoitu ja mitä tarkoitetaan luettavaksi kirjoitettuna eikä sanottuna. Yksi setti voi antaa saman fontin kaikille kolmelle — järjestelmä tekee niin.'
+    weights:
+      title: Painot
+      description: 'Nimetään sen mukaan, kuinka paljon ne vaativat, ei koskaan numeron mukaan. Fontti, jonka 500 ei ole olemassa, kartoittaa sen siihen, mitä sillä on, ja muodot, jotka vaativat keskipainoa, jatkavat keskipainon kysymistä.'
+    typography:
+      title: Typografiaskaala
+  title:
+    h1:
+      title: 'Suunnittelujärjestelmä — Rakennuspalikat loistaville käyttöliittymille'
+      description: 'Käytetään kerran sivua kohden. Asettaa ensisijaisen kontekstin. Yhdistettynä lyhyeen johdantokappaleeseen.'
+    h2:
+      title: 'Typografia luo hierarkiaa ja rytmiä'
+      description: 'Osastotason otsikko. Ryhmittelee liittyvää sisältöä. Yleensä seuraa runkoteksti tai aliosastot.'
+    h3:
+      title: 'Väli ja suhteet muokkaavat luettavuutta'
+      description: 'Aliosastotason otsikko. Esittelee keskittyneen aiheen osiossa.'
+    h4:
+      title: 'Väri ja kontrasti ohjaavat silmää'
+      description: 'Käytetään korttiotsikoissa, sivupalkin osioissa tai pienissä ryhmissä.'
+    h5:
+      title: 'Vuorovaikutustilat on oltava ilmeisiä'
+      description: 'Tunnisteet, metatietojen otsikot, pienet ryhmät. Huomaamaton mutta erottuva runkotekstistä.'
+    h6:
+      title: 'Esteettömyys on ominaisuus, ei jälkikäteen harkittu asia'
+      description: 'Pienin otsikkotaso. Käytä säästeliäästi — alaviitteille, lakiteksteille tai apuotsikoille.'
+  sample: 'Nopea ruskea kettu hyppää laiskan koiran yli — 0123456789'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Typographie
+  page_icon: 'ph:bold/text-aa'
+  intro: "L'échelle est une décision de densité et les caractères sont une décision de police : cette page montre comment une forme se lit, pas ce qu'elle vaut aujourd'hui. Changez l'axe des polices dans le panneau de débogage et tout ce qui est en dessous est défini dans une autre police sans changement de règle."
+  section:
+    families:
+      title: Familles
+      description: "Trois, parce que c'est ce qu'une page distingue : dans quoi c'est écrit, dans quoi c'est titré, et ce qui est censé être lu comme tapé plutôt que dit. Un ensemble peut donner la même police aux trois — celle du système le fait."
+    weights:
+      title: Poids
+      description: "Nommé par l'insistance, jamais par le nombre. Une police dont le 500 n'existe pas la cartographie sur ce qu'elle a, et les formes qui demandent un médium continuent de demander un médium."
+    typography:
+      title: 'Échelle typographique'
+  title:
+    h1:
+      title: 'Système de Design — Éléments de base pour de superbes interfaces'
+      description: "Utilisé une fois par page. Définit le contexte principal. Associé à un court paragraphe d'introduction."
+    h2:
+      title: 'La typographie établit la hiérarchie et le rythme'
+      description: 'Titre de niveau section. Regroupe le contenu lié. Suivi généralement par du texte de corps ou des sous-sections.'
+    h3:
+      title: "L'espacement et la proportion façonnent la lisibilité"
+      description: "Titre de sous-section. Introduit un sujet ciblé au sein d'une section."
+    h4:
+      title: "La couleur et le contraste guident l'œil"
+      description: 'Utilisé pour les titres de cartes, les sections de barre latérale ou les regroupements mineurs.'
+    h5:
+      title: 'Les états interactifs doivent être évidents'
+      description: 'Étiquettes, en-têtes de métadonnées, petits regroupements. Subtil mais distinct du texte de corps.'
+    h6:
+      title: "L'accessibilité est une caractéristique, pas une réflexion après coup"
+      description: 'Le plus petit niveau de titre. Utiliser avec parcimonie — pour les notes de bas de page, les blocs juridiques ou les étiquettes auxiliaires.'
+  sample: 'Le rapide renard brun saute par-dessus le chien paresseux — 0123456789'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: טיפוגרפיה
+  page_icon: 'ph:bold/text-aa'
+  intro: 'הסקלה היא החלטת צפיפות והפנים הן החלטת גופנים: דף זה מראה כיצד צורה נקראת, לא מה ערכה היום. החלף את ציר הגופנים בלוח הביקורת וכל מה שמתחת מוגדר בפנים אחרות ללא שינוי כלל.'
+  section:
+    families:
+      title: משפחות
+      description: 'שלוש, כי זה מה שדף מבדל: במה כתוב, במה מתואר, ומה מתכוון להיות נקרא כמו שנכתב ולא כמו שנאמר. סט יכול לתת את אותה פנים לשלושתם — זה שעושה זאת במערכת.'
+    weights:
+      title: משקלים
+      description: 'נקראים לפי כמה הם מתעקשים, לא לפי מספר. פנים ש-500 שלה לא קיים ממפה את זה למה שיש לה, והצורות שמבקשות בינוני ממשיכות לבקש בינוני.'
+    typography:
+      title: 'סקאלת סוגים'
+  title:
+    h1:
+      title: 'מערכת עיצוב — בלוקים לבניית ממשקים מעולים'
+      description: 'משמש פעם אחת לכל דף. קובע את ההקשר הראשי. משולב עם פסקה קצרה כמובילה.'
+    h2:
+      title: 'טיפוגרפיה קובעת היררכיה וקצב'
+      description: 'כותרת ברמת פרק. קבוצות תוכן קשור. בדרך כלל לאחריה טקסט גוף או תתי פרקים.'
+    h3:
+      title: 'ריווח ופרופורציה מעצבים קריאות'
+      description: 'כותרת תת-פרק. מציגה נושא ממוקד בתוך פרק.'
+    h4:
+      title: 'צבע וניגודיות מדריכים את העין'
+      description: 'משמשת לכותרות כרטיסים, חלקי צד או קבוצות קטנות.'
+    h5:
+      title: 'מצבים אינטראקטיביים צריכים להיות ברורים'
+      description: 'תיוגים, כותרות מטא-נתונים, קבוצות קטנות. עדין אך נבדל מטקסט גוף.'
+    h6:
+      title: 'נגישות היא תכונה, לא מחשבה מאוחרת'
+      description: 'רמת הכותרת הקטנה ביותר. השתמש בזהירות — להערות שוליים, בלוקים משפטיים, או תוויות עזר.'
+  sample: 'השועל החום המהיר קופץ מעל הכלב העצלן — 0123456789'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: टाइपोग्राफी
+  page_icon: 'ph:bold/text-aa'
+  intro: 'स्केल एक घनत्व निर्णय है और फोंट एक फेस निर्णय है: यह पृष्ठ दिखाता है कि एक आकार कैसे पढ़ा जाता है, न कि इसका आज का मूल्य क्या है। डिबग पैनल में फोंट एक्सिस को स्विच करें और नीचे सब कुछ एक अन्य फेस में सेट किया गया है बिना किसी नियम को बदले।'
+  section:
+    families:
+      title: परिवार
+      description: 'तीन, क्योंकि यही एक पृष्ठ में अलग बताता है: इसमें क्या लिखा गया है, इसमें क्या शीर्षक दिया गया है, और जो टाइप किया गया है उसे पढ़ने के रूप में समझा जाता है न कि कहा गया है। एक सेट सभी तीनों को समान फेस दे सकता है — सिस्टम का एक ऐसा करता है।'
+    weights:
+      title: वजन
+      description: 'जिन्हें उनकी जोर देने की मात्रा से नामित किया गया है, कभी संख्या से नहीं। एक फेस जिसका 500 नहीं होता, उसे वह मैप करता है जो उसके पास है, और आकार जो एक माध्यम की मांग करते हैं, वे एक माध्यम की मांग करते रहेंगे।'
+    typography:
+      title: 'टाइप स्केल'
+  title:
+    h1:
+      title: 'डिज़ाइन सिस्टम — बेहतरीन इंटरफेस के लिए निर्माण खंड'
+      description: 'प्रत्येक पृष्ठ पर एक बार उपयोग किया जाता है। प्राथमिक संदर्भ सेट करता है। एक छोटे लीड पैराग्राफ के साथ जोड़ा जाता है।'
+    h2:
+      title: 'टाइपोग्राफी पदानुक्रम और ताल स्थापित करती है'
+      description: 'सेक्शन-स्तरीय शीर्षक। संबंधित सामग्री को समूहित करता है। आमतौर पर शरीर के पाठ या उप-सेक्शनों के बाद आता है।'
+    h3:
+      title: 'स्पेसिंग और अनुपात पठनीयता को आकार देते हैं'
+      description: 'उप-सेक्शन शीर्षक। एक सेक्शन के भीतर एक केंद्रित विषय को पेश करता है।'
+    h4:
+      title: 'रंग और विपरीत आंख को मार्गदर्शित करते हैं'
+      description: 'कार्ड शीर्षकों, साइडबार सेक्शनों, या छोटे समूहों के लिए उपयोग किया जाता है।'
+    h5:
+      title: 'इंटरएक्टिव राज्य स्पष्ट होना चाहिए'
+      description: 'लेबल, मेटाडेटा हेडर, छोटे समूह। शरीर के पाठ से सूक्ष्म लेकिन स्पष्ट।'
+    h6:
+      title: 'सुलभता एक विशेषता है, कोई बाद का विचार नहीं'
+      description: 'सबसे छोटा शीर्षक स्तर। विवेक से उपयोग करें — फुटनोट्स, कानूनी ब्लॉक्स, या सहायक लेबल के लिए।'
+  sample: 'तेज भूरा लोमड़ी सुस्त कुत्ते के ऊपर कूदती है — 0123456789'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tipografi
+  page_icon: 'ph:bold/text-aa'
+  intro: 'Skala adalah keputusan densitas dan jenis huruf adalah keputusan font: halaman ini menunjukkan apa yang dibaca bentuk, bukan apa nilainya hari ini. Alihkan sumbu font di panel debug dan semuanya di bawah diatur dalam jenis huruf lain tanpa mengubah aturan.'
+  section:
+    families:
+      title: Keluarga
+      description: 'Tiga, karena itulah yang dibedakan oleh sebuah halaman: apa yang ditulis, apa yang diberi judul, dan apa yang dimaksudkan untuk dibaca sebagai yang diketik daripada yang diucapkan. Sebuah set dapat memberikan jenis huruf yang sama untuk ketiganya — yang dilakukan oleh sistem.'
+    weights:
+      title: Berat
+      description: 'Dinamai berdasarkan seberapa banyak mereka menekankan, tidak pernah berdasarkan angka. Sebuah jenis huruf yang 500 tidak ada memetakan ke apa yang dimilikinya, dan bentuk yang meminta medium terus meminta medium.'
+    typography:
+      title: 'Skala jenis'
+  title:
+    h1:
+      title: 'Sistem Desain — Blok bangunan untuk antarmuka yang hebat'
+      description: 'Digunakan sekali per halaman. Menetapkan konteks utama. Dipasangkan dengan paragraf pembuka yang singkat.'
+    h2:
+      title: 'Tipografi menetapkan hierarki dan ritme'
+      description: 'Judul level bagian. Mengelompokkan konten terkait. Biasanya diikuti oleh teks utama atau sub-bagian.'
+    h3:
+      title: 'Jarak dan proporsi membentuk keterbacaan'
+      description: 'Judul sub-bagian. Memperkenalkan topik yang terfokus dalam sebuah bagian.'
+    h4:
+      title: 'Warna dan kontras membimbing mata'
+      description: 'Digunakan untuk judul kartu, bagian sidebar, atau pengelompokan kecil.'
+    h5:
+      title: 'Status interaktif perlu jelas'
+      description: 'Label, header metadata, pengelompokan kecil. Halus tetapi berbeda dari teks utama.'
+    h6:
+      title: 'Aksesibilitas adalah fitur, bukan pemikiran setelahnya'
+      description: 'Tingkat judul terkecil. Gunakan dengan hemat — untuk catatan kaki, blok hukum, atau label tambahan.'
+  sample: 'Rubah coklat cepat melompati anjing malas — 0123456789'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tipografia
+  page_icon: 'ph:bold/text-aa'
+  intro: "La scala è una decisione di densità e i caratteri sono una decisione di font: questa pagina mostra come appare una forma, non quanto valga oggi. Cambia l'asse dei font nel pannello di debug e tutto ciò che segue è impostato in un altro carattere senza che cambi una regola."
+  section:
+    families:
+      title: Famiglie
+      description: 'Tre, perché è ciò che una pagina distingue: in cosa è scritto, come è intitolato e cosa deve essere letto come digitato piuttosto che detto. Un set può dare lo stesso carattere a tutti e tre — quello di sistema lo fa.'
+    weights:
+      title: Pesi
+      description: 'Denominati in base a quanto insistono, mai per numero. Un carattere il cui 500 non esiste lo mappa su ciò che ha, e le forme che chiedono un medio continuano a chiedere un medio.'
+    typography:
+      title: 'Scala dei caratteri'
+  title:
+    h1:
+      title: 'Design System — Blocchi fondamentali per ottime interfacce'
+      description: 'Usato una sola volta per pagina. Imposta il contesto principale. Abbinato a un breve paragrafo introduttivo.'
+    h2:
+      title: 'La tipografia stabilisce gerarchia e ritmo'
+      description: 'Intestazione di livello sezione. Raggruppa contenuti correlati. Di solito seguito da testo principale o sotto-sezioni.'
+    h3:
+      title: 'Spaziatura e proporzione plasmano la leggibilità'
+      description: "Intestazione di sotto-sezione. Introduce un argomento focalizzato all'interno di una sezione."
+    h4:
+      title: "Colore e contrasto guidano l'occhio"
+      description: 'Usato per titoli di schede, sezioni laterali o raggruppamenti minori.'
+    h5:
+      title: 'Stati interattivi devono essere evidenti'
+      description: 'Etichette, intestazioni dei metadati, piccoli raggruppamenti. Sottili ma distinti dal testo principale.'
+    h6:
+      title: "L'accessibilità è una funzionalità, non un ripensamento"
+      description: 'Il livello di intestazione più piccolo. Usare con parsimonia — per note a piè di pagina, blocchi legali o etichette ausiliarie.'
+  sample: 'Il veloce volpe marrone salta sopra il cane pigro — 0123456789'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: タイポグラフィ
+  page_icon: 'ph:bold/text-aa'
+  intro: スケールは密度の決定であり、フォントはフォントの選択です。このページは、形がどのように読まれるかを示しており、今日の価値を示しているわけではありません。デバッグパネルでフォント軸を切り替えると、以下のすべてが別のフォントで設定され、ルールが変更されることはありません。
+  section:
+    families:
+      title: ファミリー
+      description: '3つ。ページが区別するものは、何が書かれているか、何がタイトルになっているか、そして口頭で述べられるのではなく、タイプされたものとして読まれるべきものです。1つのセットが3つすべてに同じフォントを与えることがあります — システムのものはそうです。'
+    weights:
+      title: ウェイト
+      description: どれだけ主張するかによって名付けられ、数字ではありません。500が存在しないフォントは、実際に持っているものにマッピングされ、中程度を求める形は引き続き中程度を求めます。
+    typography:
+      title: タイプスケール
+  title:
+    h1:
+      title: 'デザインシステム — 優れたインターフェースのための基本要素'
+      description: ページごとに1回使用します。主要なコンテキストを設定します。短いリード段落とペアになります。
+    h2:
+      title: タイポグラフィが階層とリズムを確立する
+      description: セクションレベルの見出し。関連するコンテンツをグループ化します。通常は本文やサブセクションに続きます。
+    h3:
+      title: 間隔と比率が可読性を形作る
+      description: サブセクションの見出し。セクション内の焦点を絞ったトピックを紹介します。
+    h4:
+      title: 色とコントラストが視線を導く
+      description: カードタイトル、サイドバーセクション、または小さなグループ化に使用されます。
+    h5:
+      title: インタラクティブな状態は明確である必要がある
+      description: ラベル、メタデータヘッダー、小さなグループ化。微妙ですが、本文とは異なります。
+    h6:
+      title: アクセシビリティは機能であり、後回しではない
+      description: '最小の見出しレベル。控えめに使用 — 脚注、法的ブロック、または補助ラベルに。'
+  sample: '速い茶色の狐が怠け者の犬の上を飛び越える — 0123456789'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 타이포그래피
+  page_icon: 'ph:bold/text-aa'
+  intro: '스케일은 밀도에 대한 결정이며, 얼굴은 글꼴에 관한 것입니다: 이 페이지는 형태가 어떻게 읽히는지를 보여주며, 오늘날의 가치는 보여주지 않습니다. 디버그 패널에서 글꼴 축을 전환하면 아래의 모든 것이 규칙이 변경되지 않고 다른 얼굴로 설정됩니다.'
+  section:
+    families:
+      title: 패밀리
+      description: '세 가지, 왜냐하면 페이지가 구별하는 것은 무엇이 쓰여지고, 무엇이 제목이 붙여지며, 무엇이 말해지는 것보다 타이핑된 것으로 읽혀져야 하는지를 보여주기 때문입니다. 하나의 세트가 세 가지 모두에 같은 얼굴을 줄 수 있습니다 — 시스템 하나가 그렇습니다.'
+    weights:
+      title: 두께
+      description: '얼마나 강조되는지에 따라 이름이 붙여지며, 숫자로는 표현되지 않습니다. 500이 존재하지 않는 얼굴은 그것이 가지고 있는 것에 맞추어 매핑되고, 중간을 요청하는 형태는 계속해서 중간을 요청합니다.'
+    typography:
+      title: '글꼴 크기'
+  title:
+    h1:
+      title: '디자인 시스템 — 훌륭한 인터페이스를 위한 구성 요소'
+      description: '페이지당 한 번 사용됩니다. 기본 맥락을 설정합니다. 짧은 리드 문단과 함께 쌍을 이룹니다.'
+    h2:
+      title: '타이포그래피는 위계와 리듬을 설정합니다'
+      description: '섹션 수준 제목. 관련 콘텐츠를 그룹화합니다. 일반적으로 본문 텍스트나 하위 섹션이 뒤따릅니다.'
+    h3:
+      title: '간격과 비율이 가독성을 형성합니다'
+      description: '하위 섹션 제목. 섹션 내에서 집중된 주제를 소개합니다.'
+    h4:
+      title: '색상과 대비가 시선을 안내합니다'
+      description: '카드 제목, 사이드바 섹션 또는 소규모 그룹화에 사용됩니다.'
+    h5:
+      title: '상호작용 상태는 명확해야 합니다'
+      description: '레이블, 메타데이터 헤더, 소규모 그룹화. 미세하지만 본문 텍스트와 구별됩니다.'
+    h6:
+      title: '접근성은 기능이지 후속 작업이 아닙니다'
+      description: '가장 작은 제목 수준. 발췌, 법률 블록 또는 보조 레이블에 사용합니다.'
+  sample: '빠른 갈색 여우가 게으른 개를 뛰어넘습니다 — 0123456789'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Typografie
+  page_icon: 'ph:bold/text-aa'
+  intro: 'De schaal is een beslissing over dichtheid en de lettertypen zijn een beslissing over lettertypes: deze pagina toont wat een vorm leest, niet wat het vandaag waard is. Wissel de lettertypen-as in het debugpaneel en alles hieronder is ingesteld in een ander type zonder dat er een regel verandert.'
+  section:
+    families:
+      title: Families
+      description: 'Drie, omdat dat is wat een pagina onderscheidt: waar het in is geschreven, waar het in is getiteld, en wat bedoeld is om gelezen te worden als getypt in plaats van gezegd. Een set kan aan alle drie hetzelfde type geven — het systeem doet dat.'
+    weights:
+      title: Gewichten
+      description: 'Genummerd naar hoe sterk ze zijn, nooit door nummer. Een type waarvan 500 niet bestaat, past het aan op wat het wel heeft, en de vormen die om een medium vragen, blijven om een medium vragen.'
+    typography:
+      title: 'Typografische schaal'
+  title:
+    h1:
+      title: 'Ontwerp Systeem — Bouwstenen voor geweldige interfaces'
+      description: 'Eens per pagina gebruikt. Stelt de primaire context in. Gecombineerd met een korte inleidende alinea.'
+    h2:
+      title: 'Typografie stelt hiërarchie en ritme vast'
+      description: 'Sectie-niveau kop. Groepeert gerelateerde inhoud. Meestal gevolgd door bodytekst of subsecties.'
+    h3:
+      title: 'Ruimte en proportie bepalen leesbaarheid'
+      description: 'Subsectie kop. Introduceert een gericht onderwerp binnen een sectie.'
+    h4:
+      title: 'Kleur en contrast leiden het oog'
+      description: 'Gebruikt voor kaarttitels, zijbalksecties of kleinere groeperingen.'
+    h5:
+      title: 'Interactieve staten moeten duidelijk zijn'
+      description: 'Labels, metadata koppen, kleine groeperingen. Subtiel maar duidelijk verschillend van bodytekst.'
+    h6:
+      title: 'Toegankelijkheid is een functie, geen bijzaak'
+      description: 'Het kleinste kopniveau. Sparzaam gebruiken — voor voetnoten, juridische blokken, of aanvullende labels.'
+  sample: 'De snelle bruine vos springt over de luie hond — 0123456789'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Typografia
+  page_icon: 'ph:bold/text-aa'
+  intro: 'Skala to decyzja dotycząca gęstości, a rodzaje czcionek to decyzja dotycząca typografii: ta strona pokazuje, jak kształt się czyta, a nie co jest warte dzisiaj. Przełącz oś czcionek w panelu debugowania, a wszystko poniżej ustawione jest w innym kroju bez zmiany reguły.'
+  section:
+    families:
+      title: Rodziny
+      description: 'Trzy, ponieważ to, co odróżnia stronę, to: w jakim jest napisane, w jakim jest zatytułowane i co ma być odczytywane jako pisane, a nie mówione. Zestaw może nadać ten sam krój wszystkim trzem — systemowy to robi.'
+    weights:
+      title: Grubości
+      description: 'Nazwane tym, jak bardzo się upierają, nigdy przez liczby. Krój, którego 500 nie istnieje, mapuje go na to, co ma, a kształty, które proszą o średnią, wciąż proszą o średnią.'
+    typography:
+      title: 'Skala typograficzna'
+  title:
+    h1:
+      title: 'System projektowania — Elementy budujące świetne interfejsy'
+      description: 'Używane raz na stronę. Ustawia główny kontekst. Połączone z krótkim wprowadzeniem.'
+    h2:
+      title: 'Typografia ustanawia hierarchię i rytm'
+      description: 'Nagłówek na poziomie sekcji. Grupuje powiązane treści. Zwykle następuje po nim tekst główny lub podsekcje.'
+    h3:
+      title: 'Odstępy i proporcje kształtują czytelność'
+      description: 'Nagłówek podsekcji. Wprowadza skoncentrowany temat w sekcji.'
+    h4:
+      title: 'Kolor i kontrast prowadzą wzrok'
+      description: 'Używane do tytułów kart, sekcji w bocznym panelu lub mniejszych grup.'
+    h5:
+      title: 'Stany interaktywne muszą być oczywiste'
+      description: 'Etykiety, nagłówki metadanych, małe grupy. Subtelne, ale wyraźnie różniące się od tekstu głównego.'
+    h6:
+      title: 'Dostępność to cecha, a nie myśl drugoplanowa'
+      description: 'Najmniejszy poziom nagłówka. Używaj oszczędnie — do przypisów, bloków prawnych lub etykiet pomocniczych.'
+  sample: 'Szybki brązowy lis skacze nad leniwym psem — 0123456789'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tipografia
+  page_icon: 'ph:bold/text-aa'
+  intro: 'A escala é uma decisão de densidade e as fontes são uma decisão de tipografia: esta página mostra como uma forma é lida, não o que vale hoje. Troque o eixo das fontes no painel de depuração e tudo abaixo estará configurado em outra fonte sem que uma regra mude.'
+  section:
+    families:
+      title: Famílias
+      description: 'Três, porque é isso que uma página distingue: em que está escrito, em que está intitulado e o que deve ser lido como digitado em vez de falado. Um conjunto pode dar a mesma fonte para os três — a do sistema faz isso.'
+    weights:
+      title: Pesos
+      description: 'Nomeados pelo quanto insistem, nunca por número. Uma fonte cuja 500 não existe a mapeia para o que possui, e as formas que pedem um médio continuam pedindo um médio.'
+    typography:
+      title: 'Escala de tipos'
+  title:
+    h1:
+      title: 'Sistema de Design — Blocos de construção para ótimas interfaces'
+      description: 'Usado uma vez por página. Define o contexto primário. Emparelhado com um parágrafo introdutório curto.'
+    h2:
+      title: 'A tipografia estabelece hierarquia e ritmo'
+      description: 'Título de nível de seção. Agrupa conteúdo relacionado. Geralmente seguido por texto de corpo ou subseções.'
+    h3:
+      title: 'Espaçamento e proporção moldam a legibilidade'
+      description: 'Título de subseção. Introduz um tópico focado dentro de uma seção.'
+    h4:
+      title: 'Cor e contraste guiam o olhar'
+      description: 'Usado para títulos de cartões, seções de barra lateral ou agrupamentos menores.'
+    h5:
+      title: 'Estados interativos precisam ser óbvios'
+      description: 'Rótulos, cabeçalhos de metadados, pequenos agrupamentos. Sutis, mas distintos do texto de corpo.'
+    h6:
+      title: 'Acessibilidade é um recurso, não uma consideração posterior'
+      description: 'O menor nível de título. Use com moderação — para notas de rodapé, blocos legais ou rótulos auxiliares.'
+  sample: 'A rápida raposa marrom salta sobre o cachorro preguiçoso — 0123456789'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Типография
+  page_icon: 'ph:bold/text-aa'
+  intro: 'Масштаб — это решение о плотности, а шрифты — это выбор шрифтов: эта страница показывает, как форма воспринимается, а не ее ценность сегодня. Переключите ось шрифтов в панели отладки, и все ниже будет установлено в другой шрифт без изменения правил.'
+  section:
+    families:
+      title: Семейства
+      description: 'Три, потому что именно это отличает страницу: на чем написано, как называется, и что должно читаться как напечатанное, а не сказанное. Набор может дать одинаковый шрифт для всех трех — системный шрифт делает именно это.'
+    weights:
+      title: Вес
+      description: 'Названы по тому, насколько они настойчивы, никогда по числу. Шрифт, у которого 500 не существует, отображает его на том, что у него есть, и формы, которые требуют среднего, продолжают требовать среднего.'
+    typography:
+      title: 'Масштаб шрифта'
+  title:
+    h1:
+      title: 'Дизайн-система — строительные блоки для отличных интерфейсов'
+      description: 'Используется один раз на странице. Устанавливает основной контекст. Сочетается с коротким вводным абзацем.'
+    h2:
+      title: 'Типография устанавливает иерархию и ритм'
+      description: 'Заголовок уровня секции. Группирует связанные материалы. Обычно за ним следует основной текст или подсекции.'
+    h3:
+      title: 'Пространство и пропорции формируют читаемость'
+      description: 'Заголовок подсекции. Вводит сосредоточенную тему в рамках секции.'
+    h4:
+      title: 'Цвет и контраст направляют взгляд'
+      description: 'Используется для заголовков карточек, секций боковой панели или мелких группировок.'
+    h5:
+      title: 'Интерактивные состояния должны быть очевидны'
+      description: 'Ярлыки, заголовки метаданных, небольшие группировки. Ненавязчиво, но отличается от основного текста.'
+    h6:
+      title: 'Доступность — это функция, а не после мысли'
+      description: 'Самый мелкий уровень заголовка. Используйте умеренно — для сносок, юридических блоков или вспомогательных ярлыков.'
+  sample: 'Быстрая коричневая лиса перепрыгивает через ленивую собаку — 0123456789'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แบบอักษร
+  page_icon: 'ph:bold/text-aa'
+  intro: 'การปรับขนาดเป็นการตัดสินใจด้านความหนาแน่น และรูปแบบเป็นการตัดสินใจด้านฟอนต์: หน้านี้แสดงถึงสิ่งที่รูปร่างอ่านได้ ไม่ใช่ค่าในวันนี้ เปลี่ยนแกนฟอนต์ในแผงดีบัก และทุกอย่างด้านล่างจะถูกตั้งค่าในรูปแบบอื่นโดยไม่มีการเปลี่ยนแปลงกฎ'
+  section:
+    families:
+      title: กลุ่ม
+      description: 'สามกลุ่ม เพราะนั่นคือสิ่งที่หน้าบอกแยกแยะ: สิ่งที่เขียนไว้, สิ่งที่ตั้งชื่อไว้, และสิ่งที่หมายถึงการอ่านแบบพิมพ์มากกว่าที่จะพูด กลุ่มหนึ่งอาจให้รูปแบบเดียวกันกับทั้งสาม — ระบบนั้นทำได้'
+    weights:
+      title: น้ำหนัก
+      description: 'ตั้งชื่อจากความหนักแน่นที่เน้นย้ำ ไม่ใช่จากหมายเลข รูปแบบที่มี 500 ไม่ได้มีอยู่จะถูกแมพไปยังสิ่งที่มี และรูปร่างที่ขอให้มีระดับกลางก็จะยังคงขอให้มีระดับกลาง'
+    typography:
+      title: สเกลตัวอักษร
+  title:
+    h1:
+      title: 'ระบบการออกแบบ — ส่วนประกอบสำหรับอินเตอร์เฟสที่ยอดเยี่ยม'
+      description: 'ใช้หนึ่งครั้งต่อหน้า ตั้งค่าบริบทหลัก คู่กับย่อหน้าที่นำเสนอสั้นๆ'
+    h2:
+      title: การจัดรูปแบบตัวอักษรกำหนดลำดับและจังหวะ
+      description: 'หัวข้อในระดับส่วน กลุ่มเนื้อหาที่เกี่ยวข้อง มักจะตามด้วยเนื้อหาหลักหรือหมวดหมู่ย่อย'
+    h3:
+      title: การเว้นระยะและสัดส่วนกำหนดความสามารถในการอ่าน
+      description: 'หัวข้อในระดับย่อย แนะนำหัวข้อที่มุ่งเน้นภายในส่วน'
+    h4:
+      title: สีและความแตกต่างช่วยนำสายตา
+      description: 'ใช้สำหรับชื่อการ์ด, หมวดหมู่ข้างเคียง, หรือการจัดกลุ่มเล็กน้อย'
+    h5:
+      title: สถานะเชิงโต้ตอบต้องชัดเจน
+      description: 'ป้ายชื่อ, หัวข้อเมตาดาต้า, การจัดกลุ่มเล็กๆ ชัดเจนแต่แตกต่างจากเนื้อหาหลัก'
+    h6:
+      title: 'การเข้าถึงเป็นฟีเจอร์ ไม่ใช่ความคิดภายหลัง'
+      description: 'ระดับหัวข้อที่เล็กที่สุด ใช้อย่างประหยัด — สำหรับเชิงอรรถ, บล็อกกฎหมาย, หรือป้ายชื่อเสริม'
+  sample: 'สุนัขจิ้งจอกสีน้ำตาลรวดเร็วกระโดดข้ามสุนัขขี้เกียจ — 0123456789'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tipografi
+  page_icon: 'ph:bold/text-aa'
+  intro: 'Ölçek bir yoğunluk kararını, yüzler ise bir font kararını temsil eder: bu sayfa bir şeklin nasıl okunduğunu gösterir, bugün ne kadar değerli olduğunu değil. Hata ayıklama panelinde font eksenini değiştirin ve aşağıdaki her şey başka bir yüzle değiştirilir, kural değişmeden.'
+  section:
+    families:
+      title: Aileler
+      description: 'Üç, çünkü bir sayfa bunu ayırt eder: ne ile yazıldığı, ne ile başlıklandırıldığı ve neyin yazıldığı gibi okunması gerektiği. Bir set, üçüne de aynı yüzü verebilir — sistem yüzü bunu yapar.'
+    weights:
+      title: Ağırlıklar
+      description: 'Ne kadar ısrarcı olduklarına göre adlandırılır, asla sayıya göre değil. 500’ü olmayan bir yüz, sahip olduğu üzerine yerleştirir ve ortalama isteyen şekiller ortalama istemeye devam eder.'
+    typography:
+      title: 'Yazı ölçeği'
+  title:
+    h1:
+      title: 'Tasarım Sistemi — Harika arayüzler için yapı taşları'
+      description: 'Her sayfada bir kez kullanılır. Birincil bağlamı belirler. Kısa bir giriş paragrafı ile eşleştirilir.'
+    h2:
+      title: 'Tipografi hiyerarşi ve ritmi belirler'
+      description: 'Bölüm seviyesi başlığı. İlgili içeriği gruplar. Genellikle gövde metni veya alt bölümlerle takip edilir.'
+    h3:
+      title: 'Boşluk ve oran okunabilirliği şekillendirir'
+      description: 'Alt bölüm başlığı. Bir bölüm içinde odaklanmış bir konuyu tanıtır.'
+    h4:
+      title: 'Renk ve kontrast gözü yönlendirir'
+      description: 'Kart başlıkları, yan panel bölümleri veya küçük gruplar için kullanılır.'
+    h5:
+      title: 'Etkileşimli durumlar belirgin olmalı'
+      description: 'Etiketler, meta veri başlıkları, küçük gruplar. Gövde metninden ince ama belirgin bir şekilde ayrılır.'
+    h6:
+      title: 'Erişilebilirlik bir özelliktir, sonradan düşünülmemiştir'
+      description: 'En küçük başlık seviyesi. Az kullanın — dipnotlar, yasal bloklar veya yardımcı etiketler için.'
+  sample: 'Hızlı kahverengi tilki tembel köpeğin üzerinden atlar — 0123456789'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'طراحی حروف'
+  page_icon: 'ph:bold/text-aa'
+  intro: 'اسکیل ایک کثافت کا فیصلہ ہے اور چہرے ایک فونٹ کا: یہ صفحہ دکھاتا ہے کہ شکل کیسے پڑھی جاتی ہے، نہ کہ اس کی آج کی قیمت کیا ہے۔ ڈیبگ پینل میں فونٹس محور تبدیل کریں اور نیچے سب کچھ دوسرے چہرے میں مقرر کیا گیا ہے بغیر کسی اصول کی تبدیلی کے۔'
+  section:
+    families:
+      title: خاندان
+      description: 'تین، کیونکہ یہی ایک صفحہ کی تفریق ہے: یہ کس میں لکھا گیا ہے، یہ کس میں عنوان دیا گیا ہے، اور یہ کیا ہے کہ پڑھنے کا مطلب ہے نہ کہ کہا جائے۔ ایک مجموعہ تینوں کو ایک ہی چہرہ دے سکتا ہے — نظام والا ایسا ہی کرتا ہے۔'
+    weights:
+      title: وزن
+      description: 'جس قدر وہ اصرار کرتے ہیں اس سے نامزد، کبھی نمبر سے نہیں۔ ایک چہرہ جس کا 500 موجود نہیں ہے، اسے اس پر نقش کرتا ہے جو اس کے پاس ہے، اور وہ شکلیں جو ایک درمیانی کی درخواست کرتی ہیں وہ درمیانی کی درخواست کرتی رہتی ہیں۔'
+    typography:
+      title: 'حروف کی پیمائش'
+  title:
+    h1:
+      title: 'ڈیزائن سسٹم — عظیم انٹرفیس کے لئے بنیادی عناصر'
+      description: 'ہر صفحہ پر ایک بار استعمال ہوتا ہے۔ بنیادی سیاق و سباق مرتب کرتا ہے۔ ایک مختصر ابتدائی پیراگراف کے ساتھ مل کر۔'
+    h2:
+      title: 'طراحی حروف ہیرارکی اور تال قائم کرتی ہے'
+      description: 'سیکشن کی سطح کا عنوان۔ متعلقہ مواد کو گروپ کرتا ہے۔ عموماً جسمانی متن یا ذیلی سیکشنز کے بعد ہوتا ہے۔'
+    h3:
+      title: 'خالی جگہ اور تناسب پڑھنے کی قابلیت کو شکل دیتے ہیں'
+      description: 'ذیلی سیکشن کا عنوان۔ ایک سیکشن کے اندر ایک مرکوز موضوع متعارف کرتا ہے۔'
+    h4:
+      title: 'رنگ اور تضاد آنکھ کی رہنمائی کرتے ہیں'
+      description: 'کارڈ کے عنوانات، سائیڈبار کے سیکشنز، یا چھوٹے گروپنگز کے لئے استعمال ہوتا ہے۔'
+    h5:
+      title: 'انٹرایکٹو حالتیں واضح ہونی چاہئیں'
+      description: 'لیبلز، میٹا ڈیٹا ہیڈرز، چھوٹے گروپنگز۔ جسمانی متن سے ہلکے لیکن ممتاز۔'
+    h6:
+      title: 'رسائی ایک خصوصیت ہے، بعد میں آنے والا خیال نہیں'
+      description: 'سب سے چھوٹا عنوانی سطح۔ احتیاط سے استعمال کریں — حاشیہ، قانونی بلاکس، یا ضمنی لیبلز کے لئے۔'
+  sample: 'چست بھورا لومڑی سست کتے پر چھلانگ لگاتی ہے — 0123456789'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Kiểu chữ'
+  page_icon: 'ph:bold/text-aa'
+  intro: 'Thang độ là một quyết định về mật độ và các kiểu chữ là một quyết định về phông: trang này cho thấy hình dạng được đọc như thế nào, không phải giá trị của nó hôm nay. Chuyển trục phông trong bảng gỡ lỗi và tất cả những gì bên dưới được thiết lập trong một kiểu chữ khác mà không có quy tắc nào thay đổi.'
+  section:
+    families:
+      title: 'Các họ'
+      description: 'Ba, vì đó là những gì một trang phân biệt: những gì nó được viết bằng, những gì nó được đặt tiêu đề bằng, và những gì được hiểu là được đọc như đã gõ chứ không phải nói. Một bộ có thể mang cùng một kiểu cho cả ba — cái mà hệ thống sử dụng.'
+    weights:
+      title: 'Trọng số'
+      description: 'Được đặt tên theo mức độ nhấn mạnh của chúng, chứ không phải theo số. Một kiểu chữ mà 500 không tồn tại sẽ ánh xạ nó lên những gì nó có, và những hình dạng yêu cầu một mức trung bình sẽ tiếp tục yêu cầu một mức trung bình.'
+    typography:
+      title: 'Thang kiểu chữ'
+  title:
+    h1:
+      title: 'Hệ thống thiết kế — Các thành phần cho giao diện tuyệt vời'
+      description: 'Sử dụng một lần cho mỗi trang. Đặt ngữ cảnh chính. Kết hợp với một đoạn văn ngắn dẫn nhập.'
+    h2:
+      title: 'Kiểu chữ thiết lập hệ thống phân cấp và nhịp điệu'
+      description: 'Tiêu đề cấp phần. Nhóm nội dung liên quan. Thường được theo sau bởi văn bản chính hoặc các phần phụ.'
+    h3:
+      title: 'Khoảng cách và tỷ lệ hình thành khả năng đọc'
+      description: 'Tiêu đề cấp phụ. Giới thiệu một chủ đề cụ thể trong một phần.'
+    h4:
+      title: 'Màu sắc và độ tương phản hướng dẫn mắt nhìn'
+      description: 'Sử dụng cho tiêu đề thẻ, các phần bên cạnh, hoặc nhóm nhỏ.'
+    h5:
+      title: 'Trạng thái tương tác cần phải rõ ràng'
+      description: 'Nhãn, tiêu đề siêu dữ liệu, nhóm nhỏ. Tinh tế nhưng khác biệt với văn bản chính.'
+    h6:
+      title: 'Khả năng tiếp cận là một tính năng, không phải là một suy nghĩ sau cùng'
+      description: 'Cấp độ tiêu đề nhỏ nhất. Sử dụng tiết kiệm — cho chú thích, khối luật pháp, hoặc nhãn phụ trợ.'
+  sample: 'Con cáo nâu nhanh nhẹn nhảy qua con chó lười biếng — 0123456789'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 排版
+  page_icon: 'ph:bold/text-aa'
+  intro: 比例是密度的决策，字体是字体的选择：本页展示的是形状的阅读，而不是今天的价值。切换调试面板中的字体轴，下面所有内容将以另一种字体呈现，而无需更改规则。
+  section:
+    families:
+      title: 字体家族
+      description: 三种，因为这就是页面所区分的：书写的内容，标题的内容，以及作为打字而非口述的内容。一个集合可以为三者提供相同的字体——系统字体就是这样。
+    weights:
+      title: 字重
+      description: 以强调程度命名，而不是数字。一个不存在500字重的字体将其映射到现有的字重上，而要求中等字重的形状将继续要求中等字重。
+    typography:
+      title: 字体比例
+  title:
+    h1:
+      title: '设计系统 — 优秀界面的构建模块'
+      description: 每页使用一次。设定主要上下文。与简短的引导段落配对。
+    h2:
+      title: 排版建立层次和节奏
+      description: 章节级别标题。分组相关内容。通常后面跟着正文或子章节。
+    h3:
+      title: 间距和比例影响可读性
+      description: 子章节标题。引入章节内的一个集中主题。
+    h4:
+      title: 颜色和对比引导视线
+      description: 用于卡片标题、侧边栏部分或小型分组。
+    h5:
+      title: 交互状态需要明显
+      description: 标签、元数据标题、小型分组。细微但与正文有明显区别。
+    h6:
+      title: 可访问性是一个特性，而非事后考虑
+      description: 最小的标题级别。应谨慎使用——用于脚注、法律条款或辅助标签。
+  sample: '敏捷的棕色狐狸跳过懒狗 — 0123456789'

@@ -1,0 +1,808 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Dashboard
+  page_icon: ph:bold/squares-four
+
+  mode:
+    reopen: Reopen the API panel
+    gap: With gaps
+    flush: Flush
+
+  state:
+    success: Nominal
+    warning: Degraded
+    error: Failing
+    running: Draining
+
+  tile:
+    traffic:
+      title: Traffic
+      figure: 12.4k req/min
+      description: "Splits inside a split: the wall is a vertical split of rows, each row a split of its own. Drag the edge under this row to give it more height, or the one beside this tile for more width."
+    latency:
+      title: Latency p95
+      figure: 184 ms
+      description: "Every tile names a floor, `zone--min-*`: below it the tile is not squeezed, the frame scrolls instead — sideways as well as down."
+    errors:
+      title: Errors
+      figure: 2.1 %
+      description: "Resized, a zone keeps the size it was left at along its split's axis, and comes back with it; a double click on the handle gives it back to the split."
+    queue:
+      title: Queue
+      figure: 318 jobs
+      description: "`zone--split--flush` narrows the gap to a pixel, the wall's ground drawing the line between tiles. One class on the wall is enough, the rows inherit it."
+    deploys:
+      title: Deployments
+      figure: 7 today
+      description: "Without it the same wall keeps the room between its tiles, through which the page's ground shows — switch in the bar above. Scroll right for a panel loaded only once it is seen."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'لوحة التحكم'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'إعادة فتح لوحة واجهة برمجة التطبيقات'
+    gap: 'مع فراغات'
+    flush: تفريغ
+  state:
+    success: طبيعي
+    warning: متدهور
+    error: فاشل
+    running: تفريغ
+  tile:
+    traffic:
+      title: 'حركة المرور'
+      figure: '12.4 ألف طلب/دقيقة'
+      description: 'ت splits داخل split: الحائط هو split عمودي من الصفوف، كل صف هو split خاص به. اسحب الحافة أسفل هذا الصف لمنحه مزيدًا من الارتفاع، أو تلك بجانب هذه البلاطة لمزيد من العرض.'
+    latency:
+      title: 'الكمون p95'
+      figure: '184 مللي ثانية'
+      description: 'كل بلاطة تسمي طابقًا، `zone--min-*`: أسفلها لا تضغط البلاطة، الإطار يتدحرج بدلاً من ذلك - جانبيًا وكذلك للأسفل.'
+    errors:
+      title: الأخطاء
+      figure: '2.1 %'
+      description: 'عند تغيير الحجم، يحتفظ المنطقة بالحجم الذي تركت عنده على محور تقسيمها، وتعود معه؛ نقرة مزدوجة على المقبض تعيدها إلى التقسيم.'
+    queue:
+      title: 'قائمة الانتظار'
+      figure: '318 وظيفة'
+      description: '`zone--split--flush` يضيق الفجوة إلى بكسل، الرسم الأرضي للحائط يرسم الخط بين البلاطات. فئة واحدة على الحائط تكفي، الصفوف ترثها.'
+    deploys:
+      title: نشر
+      figure: '7 اليوم'
+      description: 'بدونها، يحتفظ نفس الحائط بالغرفة بين بلاطاته، من خلالها يظهر الرسم الأرضي للصفحة - التبديل في الشريط أعلاه. قم بالتمرير لليمين لفتح لوحة محملة فقط عندما تُرى.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ড্যাশবোর্ড
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'এপিআই প্যানেল পুনরায় খুলুন'
+    gap: 'ফাঁক সহ'
+    flush: ফ্লাশ
+  state:
+    success: স্বাভাবিক
+    warning: অবনমিত
+    error: বিফলিত
+    running: ড্রেইনিং
+  tile:
+    traffic:
+      title: ট্রাফিক
+      figure: '১২.৪ক req/মিনিট'
+      description: 'একটি বিভাজনের মধ্যে বিভাজন: প্রাচীরটি সারির একটি উল্লম্ব বিভাজন, প্রতিটি সারি নিজস্ব একটি বিভাজন। এই সারির নিচের প্রান্ত টেনে তার উচ্চতা বাড়ান, অথবা এই টাইলের পাশে আরও প্রস্থের জন্য।'
+    latency:
+      title: 'লেটেন্সি p95'
+      figure: '১৮৪ ms'
+      description: 'প্রতিটি টাইল একটি ফ্লোরের নাম দেয়, `zone--min-*`: এর নিচে টাইলটি সংকুচিত নয়, ফ্রেমটি পরিবর্তে স্ক্রোল হয় — পাশের পাশাপাশি নিচে।'
+    errors:
+      title: ত্রুটি
+      figure: '2.1 %'
+      description: 'আকার পরিবর্তন করলে, একটি জোন তার বিভাজনের অক্ষ বরাবর যে আকারে ছিল সেটি ধরে রাখে এবং সাথে ফিরে আসে; হ্যান্ডেলের উপর ডাবল ক্লিক করলে এটি বিভাজনে ফিরে আসে।'
+    queue:
+      title: কিউ
+      figure: '৩১৮ চাকরি'
+      description: '`zone--split--flush` ফাঁককে একটি পিক্সেলে সংকীর্ণ করে, প্রাচীরের নিচের অংশ টাইলের মধ্যে রেখা আঁকে। প্রাচীরের উপর একটি ক্লাস যথেষ্ট, সারিগুলি এটি উত্তরাধিকারী করে।'
+    deploys:
+      title: ডিপ্লয়মেন্ট
+      figure: 'আজ ৭'
+      description: 'এর ছাড়া একই প্রাচীর তার টাইলের মধ্যে ঘর ধরে রাখে, যার মাধ্যমে পৃষ্ঠার নিচের অংশ প্রদর্শিত হয় — উপরের বারটিতে স্যুইচ করুন। একটি প্যানেল শুধুমাত্র দেখা হলে একবার লোড হয়, ডান দিকে স্ক্রোল করুন।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dashboard
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'API-Panel wieder öffnen'
+    gap: 'Mit Lücken'
+    flush: Leeren
+  state:
+    success: Nominal
+    warning: Degradiert
+    error: Fehlerhaft
+    running: Entleeren
+  tile:
+    traffic:
+      title: Verkehr
+      figure: '12,4k Anfragen/min'
+      description: 'Splits innerhalb eines Splits: die Wand ist ein vertikaler Split von Zeilen, jede Zeile ist ein eigener Split. Ziehen Sie die Kante unter dieser Zeile, um ihr mehr Höhe zu geben, oder die neben diesem Kachel für mehr Breite.'
+    latency:
+      title: 'Latenz p95'
+      figure: '184 ms'
+      description: 'Jede Kachel bezeichnet einen Boden, `zone--min-*`: darunter wird die Kachel nicht gedrückt, der Rahmen scrollt stattdessen — seitlich sowie nach unten.'
+    errors:
+      title: Fehler
+      figure: '2.1 %'
+      description: 'Verkleinert behält eine Zone die Größe, auf der sie entlang der Achse des Splits verlassen wurde, und kommt mit ihr zurück; ein Doppelklick auf den Griff gibt sie zurück an den Split.'
+    queue:
+      title: Warteschlange
+      figure: '318 Aufgaben'
+      description: '`zone--split--flush` verengt die Lücke auf einen Pixel, die Grundlinie der Wand zieht die Linie zwischen den Kacheln. Eine Klasse an der Wand reicht aus, die Zeilen erben sie.'
+    deploys:
+      title: Bereitstellungen
+      figure: '7 heute'
+      description: 'Ohne sie hält die gleiche Wand den Raum zwischen ihren Kacheln, durch den der Boden der Seite sichtbar wird — wechseln Sie in der Leiste oben. Scrollen Sie nach rechts für ein Panel, das nur geladen wird, wenn es gesehen wird.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tablero
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Reabrir el panel API'
+    gap: 'Con espacios'
+    flush: Desaguar
+  state:
+    success: Nominal
+    warning: Degradado
+    error: Fallando
+    running: Drenando
+  tile:
+    traffic:
+      title: Tráfico
+      figure: '12.4k req/min'
+      description: 'Divisiones dentro de una división: la pared es una división vertical de filas, cada fila es una división propia. Arrastra el borde debajo de esta fila para darle más altura, o el de al lado de este azulejo para más ancho.'
+    latency:
+      title: 'Latencia p95'
+      figure: '184 ms'
+      description: 'Cada azulejo nombra un piso, `zone--min-*`: por debajo no se comprime, el marco se desplaza en su lugar — lateralmente así como hacia abajo.'
+    errors:
+      title: Errores
+      figure: '2.1 %'
+      description: 'Redimensionado, una zona mantiene el tamaño que se le dejó a lo largo de su eje de división, y regresa con él; un doble clic en el mango lo devuelve a la división.'
+    queue:
+      title: Cola
+      figure: '318 trabajos'
+      description: '`zone--split--flush` reduce el espacio a un píxel, la base de la pared dibuja la línea entre los azulejos. Una clase en la pared es suficiente, las filas la heredan.'
+    deploys:
+      title: Despliegues
+      figure: '7 hoy'
+      description: 'Sin esto, la misma pared mantiene el espacio entre sus azulejos, a través del cual se muestra el fondo de la página — cambia en la barra de arriba. Desplázate a la derecha para un panel cargado solo una vez que se vea.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: داشبورد
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'پنل API را دوباره باز کنید'
+    gap: 'با شکاف‌ها'
+    flush: 'خالی کردن'
+  state:
+    success: نرمال
+    warning: 'کاهش عملکرد'
+    error: 'در حال شکست'
+    running: 'در حال تخلیه'
+  tile:
+    traffic:
+      title: ترافیک
+      figure: '۱۲.۴k درخواست/دقیقه'
+      description: 'شکاف‌ها درون یک شکاف: دیوار یک شکاف عمودی از ردیف‌ها است، هر ردیف شکاف خود را دارد. لبه زیر این ردیف را بکشید تا ارتفاع بیشتری بگیرد، یا لبه کنار این کاشی را برای عرض بیشتر.'
+    latency:
+      title: 'تاخیر p95'
+      figure: '۱۸۴ میلی‌ثانیه'
+      description: 'هر کاشی یک طبقه را نامگذاری می‌کند، `zone--min-*`: در زیر آن کاشی فشرده نمی‌شود، به جای آن فریم به طرفین و پایین حرکت می‌کند.'
+    errors:
+      title: خطاها
+      figure: '2.1 %'
+      description: 'با تغییر اندازه، یک ناحیه اندازه‌ای را که در محور شکاف خود رها شده حفظ می‌کند و با آن باز می‌گردد؛ دو بار کلیک بر روی دستگیره آن را به شکاف برمی‌گرداند.'
+    queue:
+      title: صف
+      figure: '۳۱۸ کار'
+      description: '`zone--split--flush` فاصله را به یک پیکسل تنگ می‌کند، زمین دیوار خطی را بین کاشی‌ها ترسیم می‌کند. یک کلاس روی دیوار کافی است، ردیف‌ها آن را به ارث می‌برند.'
+    deploys:
+      title: استقرارها
+      figure: '۷ امروز'
+      description: 'بدون آن، همان دیوار فضای بین کاشی‌های خود را حفظ می‌کند، که از طریق آن زمین صفحه نمایش داده می‌شود — در نوار بالایی سوئیچ کنید. به سمت راست اسکرول کنید تا پنلی بارگذاری شود که تنها زمانی دیده می‌شود.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ohjauspaneeli
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Avaa API-paneeli uudelleen'
+    gap: 'Väliin jääviä'
+    flush: Tyhjennä
+  state:
+    success: Normaali
+    warning: Heikentynyt
+    error: Epäonnistunut
+    running: Tyhjennetään
+  tile:
+    traffic:
+      title: Liikenne
+      figure: '12.4k req/min'
+      description: 'Jakautuu jakoon: seinä on pystysuora jakso riveistä, jokainen rivi on oma jakonsa. Vedä tämän rivin alapuolella olevaa reunaa lisäämään korkeutta, tai viereistä reunaa lisäämään leveyttä.'
+    latency:
+      title: 'Viive p95'
+      figure: '184 ms'
+      description: 'Jokainen laatikko nimetään kerrokseksi, `zone--min-*`: sen alapuolella laatikkoa ei puristeta, kehys vierittää sen sijaan - sivuttain sekä alas.'
+    errors:
+      title: Virheet
+      figure: '2.1 %'
+      description: 'Koon muuttuessa vyöhyke säilyttää koon, johon se jäi jakson akselinsa mukaan, ja palaa siihen; kaksoisklikkaus kahvasta palauttaa sen jakoon.'
+    queue:
+      title: Jonot
+      figure: '318 työtehtävää'
+      description: '`zone--split--flush` kaventaa välin pikseliksi, seinän pohja piirtää viivan laatikoiden väliin. Yksi luokka seinällä riittää, rivit perivät sen.'
+    deploys:
+      title: Käyttöönottot
+      figure: '7 tänään'
+      description: 'Ilman sitä sama seinä pitää tilan laatikoiden välissä, jonka läpi sivun pohja näkyy - vaihda ylhäällä olevasta palkista. Vieritä oikealle saadaksesi paneelin, joka latautuu vain kun se näkyy.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Tableau de bord'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Rouvrir le panneau API'
+    gap: 'Avec des espaces'
+    flush: Flush
+  state:
+    success: Nominal
+    warning: Dégradé
+    error: Échec
+    running: Vidange
+  tile:
+    traffic:
+      title: Trafic
+      figure: '12,4 k req/min'
+      description: "Les divisions à l'intérieur d'une division : le mur est une division verticale de lignes, chaque ligne ayant sa propre division. Faites glisser le bord sous cette ligne pour lui donner plus de hauteur, ou celui à côté de ce carrelage pour plus de largeur."
+    latency:
+      title: 'Latence p95'
+      figure: '184 ms'
+      description: "Chaque carrelage nomme un étage, `zone--min-*` : en dessous, le carrelage n'est pas comprimé, le cadre défile à la place — latéralement ainsi que vers le bas."
+    errors:
+      title: Erreurs
+      figure: '2.1 %'
+      description: "Redimensionné, une zone conserve la taille à laquelle elle a été laissée le long de l'axe de sa division, et revient avec elle ; un double clic sur la poignée la ramène à la division."
+    queue:
+      title: "File d'attente"
+      figure: '318 emplois'
+      description: "`zone--split--flush` réduit l'écart à un pixel, le sol du mur traçant la ligne entre les tuiles. Une classe sur le mur suffit, les rangées l'héritent."
+    deploys:
+      title: Déploiements
+      figure: "7 aujourd'hui"
+      description: "Sans cela, le même mur garde l'espace entre ses tuiles, à travers lequel le sol de la page se montre — changez dans la barre au-dessus. Faites défiler vers la droite pour un panneau chargé uniquement lorsqu'il est vu."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'לוח בקרה'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'פתח מחדש את לוח ה-API'
+    gap: 'עם רווחים'
+    flush: נקה
+  state:
+    success: נורמלי
+    warning: מופחת
+    error: כושל
+    running: מתנקז
+  tile:
+    traffic:
+      title: תעבורה
+      figure: '12.4k req/min'
+      description: 'חלוקות בתוך חלוקה: הקיר הוא חלוקה אנכית של שורות, כל שורה חלוקה בפני עצמה. גרור את הקצה מתחת לשורה זו כדי לתת לה יותר גובה, או את זה לצד האריח הזה כדי להרחיב אותה.'
+    latency:
+      title: 'ליטוי p95'
+      figure: '184 ms'
+      description: 'כל אריח שמו קומה, `zone--min-*`: מתחתיו האריח לא נדחס, המסגרת גוללת במקום זאת — מצד לצד וגם למטה.'
+    errors:
+      title: שגיאות
+      figure: '2.1 %'
+      description: 'כאשר הוא שונה גודל, אזור שומר על הגודל שבו עזבנו אותו לאורך ציר החלוקה שלו, וחוזר עם זה; קליק כפול על הידית מחזיר אותו לחלוקה.'
+    queue:
+      title: תור
+      figure: '318 עבודות'
+      description: '`zone--split--flush` מצמצם את הפער לפיקסל, הקו שעל הקיר מושך את הגבול בין האריחים. מספיק שהמחלקה על הקיר תהיה אחת, השורות ירשו אותה.'
+    deploys:
+      title: הפצות
+      figure: '7 היום'
+      description: 'ללא זה, אותו קיר שומר על החלל בין האריחים שלו, דרכו מראה הקרקע של הדף — החלף בסרגל למעלה. גלול ימינה עבור פאנל שמטען רק לאחר שנראה.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: डैशबोर्ड
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'API पैनल फिर से खोलें'
+    gap: 'गैप के साथ'
+    flush: फ्लश
+  state:
+    success: सामान्य
+    warning: कमजोर
+    error: फेल
+    running: ड्रेनिंग
+  tile:
+    traffic:
+      title: ट्रैफिक
+      figure: '12.4k req/min'
+      description: 'एक स्प्लिट के अंदर स्प्लिट: दीवार पंक्तियों का एक ऊर्ध्वाधर स्प्लिट है, प्रत्येक पंक्ति का अपना स्प्लिट होता है। इस पंक्ति के नीचे के किनारे को खींचें ताकि इसे अधिक ऊँचाई मिले, या इस टाइल के बगल वाले को अधिक चौड़ाई के लिए।'
+    latency:
+      title: 'लेटेंसी p95'
+      figure: '184 ms'
+      description: 'हर टाइल एक मंजिल का नाम देती है, `zone--min-*`: इसके नीचे टाइल को निचोड़ नहीं किया जाता है, फ्रेम इसके बजाय स्क्रॉल करता है - साइडवेज और नीचे दोनों।'
+    errors:
+      title: गलतियाँ
+      figure: '2.1 %'
+      description: 'पुनः आकार में, एक ज़ोन अपनी स्प्लिट के अक्ष के साथ जिस आकार पर छोड़ा गया था, उसे बनाए रखता है, और इसके साथ वापस आता है; हैंडल पर डबल क्लिक इसे स्प्लिट पर वापस ले आता है।'
+    queue:
+      title: क्यू
+      figure: '318 नौकरियां'
+      description: '`zone--split--flush` गैप को एक पिक्सेल तक संकीर्ण करता है, दीवार की ज़मीन टाइलों के बीच की रेखा खींचती है। दीवार पर एक वर्ग पर्याप्त है, पंक्तियाँ इसे विरासत में लेती हैं।'
+    deploys:
+      title: डिप्लॉयमेंट्स
+      figure: 'आज 7'
+      description: 'इसके बिना वही दीवार अपने टाइलों के बीच का स्थान बनाए रखती है, जिसके माध्यम से पृष्ठ की ज़मीन दिखती है - ऊपर की बार में स्विच करें। एक पैनल के लिए दाएं स्क्रॉल करें जो केवल तभी लोड होता है जब इसे देखा जाता है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dasbor
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Buka kembali panel API'
+    gap: 'Dengan celah'
+    flush: Flush
+  state:
+    success: Nominal
+    warning: Degradasi
+    error: Gagal
+    running: 'Sedang mengalir'
+  tile:
+    traffic:
+      title: 'Lalu lintas'
+      figure: '12.4k req/menit'
+      description: 'Pemisahan di dalam pemisahan: dinding adalah pemisahan vertikal dari baris, setiap baris adalah pemisahan tersendiri. Seret tepi di bawah baris ini untuk memberinya tinggi lebih, atau yang di samping ubin ini untuk lebar lebih.'
+    latency:
+      title: 'Latensi p95'
+      figure: '184 ms'
+      description: 'Setiap ubin menamai lantai, `zone--min-*`: di bawahnya ubin tidak diperas, bingkai menggulir sebagai gantinya — ke samping serta ke bawah.'
+    errors:
+      title: Kesalahan
+      figure: '2.1 %'
+      description: 'Setelah diubah ukuran, suatu zona mempertahankan ukuran yang ditinggalkan di sepanjang sumbu pemisahnya, dan kembali dengan ukuran itu; klik ganda pada pegangan mengembalikannya ke pemisahan.'
+    queue:
+      title: Antrian
+      figure: '318 pekerjaan'
+      description: '`zone--split--flush` mempersempit celah menjadi satu piksel, tanah dinding menggambar garis antara ubin. Satu kelas di dinding sudah cukup, baris mewarisinya.'
+    deploys:
+      title: Penerapan
+      figure: '7 hari ini'
+      description: 'Tanpa itu dinding yang sama mempertahankan ruang antara ubin-ubin, melalui mana tanah halaman ditampilkan — beralih di bilah di atas. Gulir ke kanan untuk panel yang dimuat hanya setelah terlihat.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Cruscotto
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Riapri il pannello API'
+    gap: 'Con gap'
+    flush: Flush
+  state:
+    success: Nominale
+    warning: Degradato
+    error: 'In errore'
+    running: Scarico
+  tile:
+    traffic:
+      title: Traffico
+      figure: '12.4k req/min'
+      description: "Divisioni all'interno di una divisione: il muro è una divisione verticale di righe, ogni riga è una divisione a sé stante. Trascina il bordo sotto questa riga per aumentare l'altezza, o quello accanto a questo riquadro per aumentare la larghezza."
+    latency:
+      title: 'Latenza p95'
+      figure: '184 ms'
+      description: 'Ogni riquadro rappresenta un piano, `zone--min-*`: al di sotto di esso il riquadro non viene compresso, il frame scorre invece — lateralmente così come in basso.'
+    errors:
+      title: Errori
+      figure: '2.1 %'
+      description: "Ridimensionato, una zona mantiene la dimensione a cui è stata lasciata lungo l'asse della sua divisione e vi torna; un doppio clic sulla maniglia la riporta alla divisione."
+    queue:
+      title: Coda
+      figure: '318 lavori'
+      description: '`zone--split--flush` riduce il gap a un pixel, il disegno del muro traccia la linea tra i riquadri. Una classe sul muro è sufficiente, le righe la ereditano.'
+    deploys:
+      title: Deploy
+      figure: '7 oggi'
+      description: 'Senza di essa lo stesso muro mantiene lo spazio tra i suoi riquadri, attraverso il quale mostra il fondo della pagina — cambia nella barra sopra. Scorri a destra per un pannello caricato solo una volta che è visibile.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ダッシュボード
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: APIパネルを再オープン
+    gap: 隙間あり
+    flush: フラッシュ
+  state:
+    success: 正常
+    warning: 劣化
+    error: 失敗
+    running: 排出中
+  tile:
+    traffic:
+      title: トラフィック
+      figure: '12.4k req/min'
+      description: スプリット内のスプリット：壁は行の垂直スプリットで、それぞれの行は独自のスプリットです。この行の下の端をドラッグして高さを増やすか、このタイルの隣の端をドラッグして幅を広げてください。
+    latency:
+      title: 'レイテンシ p95'
+      figure: '184 ms'
+      description: '各タイルはフロアに名前を付けます、`zone--min-*`：その下ではタイルは圧縮されず、フレームが代わりにスクロールします — 横にも縦にも。'
+    errors:
+      title: エラー
+      figure: '2.1 %'
+      description: サイズ変更されたゾーンは、スプリットの軸に沿って残されたサイズを保持し、元に戻ります；ハンドルをダブルクリックすると、元のスプリットに戻ります。
+    queue:
+      title: キュー
+      figure: '318 ジョブ'
+      description: '`zone--split--flush`は隙間を1ピクセルに狭め、壁の基盤がタイル間の境界線を引きます。壁には1つのクラスで十分で、行はそれを継承します。'
+    deploys:
+      title: デプロイメント
+      figure: 今日は7件
+      description: 'それがなければ、同じ壁がタイル間のスペースを保持し、ページの基盤が表示されます — 上のバーで切り替えます。右にスクロールすると、一度見た後にのみロードされるパネルがあります。'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 대시보드
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'API 패널 다시 열기'
+    gap: '갭 포함'
+    flush: 플러시
+  state:
+    success: 정상
+    warning: 저하됨
+    error: 실패
+    running: '드레인 중'
+  tile:
+    traffic:
+      title: 트래픽
+      figure: '12.4k req/min'
+      description: '스플릿 내부의 스플릿: 벽은 수직 스플릿으로 된 행이며, 각 행은 자신의 스플릿입니다. 이 행 아래의 가장자리를 드래그하여 높이를 더 높이거나, 이 타일 옆의 가장자리를 드래그하여 너비를 더 넓힐 수 있습니다.'
+    latency:
+      title: '지연 시간 p95'
+      figure: '184 ms'
+      description: '모든 타일은 층 이름을 갖습니다, `zone--min-*`: 그 아래의 타일은 눌리지 않으며, 프레임이 대신 스크롤됩니다 — 옆으로도 내려가면서.'
+    errors:
+      title: 오류
+      figure: '2.1 %'
+      description: '크기가 조정된 영역은 분할 축을 따라 남겨진 크기를 유지하며, 다시 돌아옵니다; 핸들을 더블 클릭하면 다시 분할로 돌아갑니다.'
+    queue:
+      title: 대기열
+      figure: '318 작업'
+      description: '`zone--split--flush`는 간격을 픽셀로 좁히며, 벽의 바닥이 타일 간의 경계를 그립니다. 벽에 하나의 클래스만 있으면 충분하며, 행은 이를 상속합니다.'
+    deploys:
+      title: 배포
+      figure: '오늘 7회'
+      description: '그것 없이 같은 벽은 타일 사이의 공간을 유지하며, 페이지의 바닥이 보이는 공간을 통해 나타납니다 — 위의 바에서 전환하세요. 오른쪽으로 스크롤하면 한 번만 로드된 패널이 나타납니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dashboard
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Heropen het API-paneel'
+    gap: 'Met gaten'
+    flush: Flushen
+  state:
+    success: Normaal
+    warning: Afgebroken
+    error: Falen
+    running: Afvoeren
+  tile:
+    traffic:
+      title: Verkeer
+      figure: '12,4k req/min'
+      description: 'Splits binnen een split: de muur is een verticale split van rijen, elke rij een eigen split. Sleep de rand onder deze rij om het hoger te maken, of de rand naast deze tegel voor meer breedte.'
+    latency:
+      title: 'Latency p95'
+      figure: '184 ms'
+      description: 'Elke tegel noemt een verdieping, `zone--min-*`: daaronder wordt de tegel niet samengedrukt, het frame scrollt in plaats daarvan — zijwaarts en naar beneden.'
+    errors:
+      title: Fouten
+      figure: '2.1 %'
+      description: 'Bij het aanpassen behoudt een zone de grootte waarop deze achtergelaten is langs de as van zijn split, en komt terug met deze; een dubbele klik op de handgreep geeft het terug aan de split.'
+    queue:
+      title: Wachtrij
+      figure: '318 taken'
+      description: '`zone--split--flush` verkleint de ruimte tot een pixel, de grond van de muur trekt de lijn tussen de tegels. Eén klasse op de muur is genoeg, de rijen erven het.'
+    deploys:
+      title: Implementaties
+      figure: '7 vandaag'
+      description: 'Zonder dit houdt dezelfde muur de ruimte tussen zijn tegels, waardoor de grond van de pagina zichtbaar is — schakel in de balk hierboven. Scroll naar rechts voor een paneel dat alleen wordt geladen als het wordt gezien.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Panel sterowania'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Otwórz ponownie panel API'
+    gap: 'Z lukami'
+    flush: Opróżnij
+  state:
+    success: Nominalny
+    warning: Degradacja
+    error: Błąd
+    running: Opróżnianie
+  tile:
+    traffic:
+      title: Ruch
+      figure: '12.4k req/min'
+      description: 'Podziały wewnątrz podziału: ściana to pionowy podział wierszy, każdy wiersz to osobny podział. Przeciągnij krawędź pod tym wierszem, aby zwiększyć jego wysokość, lub tę obok tego kafla, aby zwiększyć szerokość.'
+    latency:
+      title: 'Opóźnienie p95'
+      figure: '184 ms'
+      description: 'Każdy kafel oznacza piętro, `zone--min-*`: poniżej niego kafel nie jest ściśnięty, zamiast tego ramka przewija się — zarówno na boki, jak i w dół.'
+    errors:
+      title: Błędy
+      figure: '2.1 %'
+      description: 'Po zmianie rozmiaru strefa zachowuje rozmiar, na którym została pozostawiona wzdłuż osi swojego podziału, a następnie wraca do niego; podwójne kliknięcie na uchwycie przywraca ją do podziału.'
+    queue:
+      title: Kolejka
+      figure: '318 zadań'
+      description: '`zone--split--flush` zwęża lukę do piksela, ziemia ściany rysuje linię między kaflami. Jedna klasa na ścianie jest wystarczająca, wiersze dziedziczą ją.'
+    deploys:
+      title: Wdrożenia
+      figure: '7 dzisiaj'
+      description: 'Bez tego sama ściana utrzymuje przestrzeń między swoimi kaflami, przez którą widoczna jest ziemia strony — przełącz w pasku powyżej. Przewiń w prawo, aby zobaczyć panel załadowany tylko po jego zobaczeniu.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Painel
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Reabrir o painel da API'
+    gap: 'Com lacunas'
+    flush: Esvaziar
+  state:
+    success: Normal
+    warning: Degradado
+    error: Falhando
+    running: Descarregando
+  tile:
+    traffic:
+      title: Tráfego
+      figure: '12,4k req/min'
+      description: 'Divisões dentro de uma divisão: a parede é uma divisão vertical de linhas, cada linha é uma divisão própria. Arraste a borda abaixo desta linha para aumentar sua altura, ou a ao lado deste painel para mais largura.'
+    latency:
+      title: 'Latência p95'
+      figure: '184 ms'
+      description: 'Cada painel nomeia um andar, `zone--min-*`: abaixo dele o painel não é comprimido, a moldura rola em vez disso — para os lados e para baixo.'
+    errors:
+      title: Erros
+      figure: '2.1 %'
+      description: 'Redimensionado, uma zona mantém o tamanho em que foi deixada ao longo do eixo de sua divisão, e retorna com ele; um duplo clique na alça devolve ao estado original da divisão.'
+    queue:
+      title: Fila
+      figure: '318 trabalhos'
+      description: '`zone--split--flush` reduz a lacuna a um pixel, a base da parede traçando a linha entre os painéis. Uma classe na parede é suficiente, as linhas herdam isso.'
+    deploys:
+      title: Implantações
+      figure: '7 hoje'
+      description: 'Sem isso, a mesma parede mantém o espaço entre seus painéis, através do qual o fundo da página aparece — mude na barra acima. Role para a direita para um painel carregado apenas quando é visto.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Панель управления'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Повторно открыть панель API'
+    gap: 'С промежутками'
+    flush: Сбросить
+  state:
+    success: Нормальный
+    warning: Пониженный
+    error: Сбой
+    running: Сливается
+  tile:
+    traffic:
+      title: Трафик
+      figure: '12.4k req/мин'
+      description: 'Разделы внутри раздела: стена — это вертикальный раздел строк, каждая строка — это отдельный раздел. Перетащите край под этой строкой, чтобы увеличить ее высоту, или рядом с этой плиткой для увеличения ширины.'
+    latency:
+      title: 'Задержка p95'
+      figure: '184 мс'
+      description: 'Каждая плитка обозначает этаж, `zone--min-*`: ниже нее плитка не сжимается, вместо этого прокручивается рамка — как в сторону, так и вниз.'
+    errors:
+      title: Ошибки
+      figure: '2.1 %'
+      description: 'При изменении размера зона сохраняет размер, на котором она осталась вдоль оси своего раздела, и возвращается к нему; двойной щелчок по ручке возвращает его к разделу.'
+    queue:
+      title: Очередь
+      figure: '318 задач'
+      description: '`zone--split--flush` сужает промежуток до пикселя, основание стены проводит линию между плитками. Одного класса на стене достаточно, строки наследуют его.'
+    deploys:
+      title: Развертывания
+      figure: '7 сегодня'
+      description: 'Без этого та же стена сохраняет пространство между своими плитками, через которое отображается основание страницы — переключитесь в верхней панели. Прокрутите вправо для панели, загружаемой только после того, как она будет видна.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แดชบอร์ด
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'เปิดแผง API อีกครั้ง'
+    gap: มีช่องว่าง
+    flush: ล้างข้อมูล
+  state:
+    success: ปกติ
+    warning: ลดระดับ
+    error: ล้มเหลว
+    running: กำลังระบาย
+  tile:
+    traffic:
+      title: การจราจร
+      figure: '12.4k req/min'
+      description: 'การแบ่งภายในการแบ่ง: กำแพงเป็นการแบ่งแนวตั้งของแถว โดยแต่ละแถวเป็นการแบ่งของตัวเอง ลากขอบใต้แถวนี้เพื่อเพิ่มความสูง หรือข้างๆ กระเบื้องนี้เพื่อเพิ่มความกว้าง'
+    latency:
+      title: 'ความล่าช้า p95'
+      figure: '184 ms'
+      description: 'ทุกกระเบื้องตั้งชื่อชั้น `zone--min-*`: ด้านล่างมันจะไม่ถูกบีบ กระดานจะเลื่อนแทน — ไปด้านข้างรวมทั้งลงด้านล่าง'
+    errors:
+      title: ข้อผิดพลาด
+      figure: '2.1 %'
+      description: 'เมื่อปรับขนาดแล้ว โซนจะรักษาขนาดที่ถูกทิ้งไว้ตามแกนของการแบ่ง และกลับมาพร้อมกับมัน; การดับเบิลคลิกที่ด้ามจะทำให้มันกลับไปที่การแบ่ง'
+    queue:
+      title: คิว
+      figure: '318 งาน'
+      description: '`zone--split--flush` ทำให้ช่องว่างแคบลงเป็นพิกเซล กำแพงจะวาดเส้นแบ่งระหว่างกระเบื้อง หนึ่งคลาสบนกำแพงก็เพียงพอ แถวจะสืบทอดมัน'
+    deploys:
+      title: การปรับใช้
+      figure: '7 วันนี้'
+      description: 'หากไม่มีมัน กำแพงเดียวกันจะรักษาห้องระหว่างกระเบื้องของมัน ซึ่งพื้นของหน้าจะแสดง — สลับในแถบด้านบน เลื่อนขวาสำหรับแผงที่โหลดเพียงครั้งเดียวเมื่อมันถูกเห็น'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Gösterge Paneli'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'API panelini yeniden aç'
+    gap: Boşluklarla
+    flush: Boşalt
+  state:
+    success: Normal
+    warning: 'Düşük performans'
+    error: Başarısız
+    running: Boşaltılıyor
+  tile:
+    traffic:
+      title: Trafik
+      figure: '12.4k req/dak'
+      description: 'Bir bölünme içindeki bölünmeler: duvar, her biri kendi bölünmesi olan satırlardan oluşan dikey bir bölünmedir. Bu satırın altındaki kenarı sürükleyerek daha fazla yükseklik verin veya bu karonun yanındakini daha fazla genişlik için sürükleyin.'
+    latency:
+      title: 'Gecikme p95'
+      figure: '184 ms'
+      description: 'Her karonun bir katı temsil eder, `zone--min-*`: altında karonun sıkışmadığı, çerçevenin onun yerine kaydığı — hem yan hem de aşağıya doğru.'
+    errors:
+      title: Hatalar
+      figure: '2.1 %'
+      description: 'Boyutlandırıldığında, bir bölge, bölünme ekseni boyunca bırakıldığı boyutu korur ve ona geri döner; sapın üzerine çift tıklamak onu tekrar bölünmeye döndürür.'
+    queue:
+      title: Kuyruk
+      figure: '318 iş'
+      description: '`zone--split--flush` boşluğu bir piksele daraltır, duvarın tabanı karolar arasında çizgiyi çizer. Duvar üzerinde bir sınıf yeterlidir, satırlar bunu miras alır.'
+    deploys:
+      title: Dağıtımlar
+      figure: 'Bugün 7'
+      description: 'Bunun olmaması durumunda aynı duvar, karolar arasındaki alanı korur, sayfanın tabanı üzerinden gösterilir — yukarıdaki çubukta geçiş yapın. Yalnızca görüldüğünde yüklenen bir panel için sağa kaydırın.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ڈیش بورڈ'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'API پینل دوبارہ کھولیں'
+    gap: 'خالی جگہوں کے ساتھ'
+    flush: 'فلش کریں'
+  state:
+    success: معیاری
+    warning: کمزور
+    error: ناکام
+    running: دھونا
+  tile:
+    traffic:
+      title: ٹریفک
+      figure: '12.4k req/min'
+      description: 'ایک تقسیم کے اندر تقسیم: دیوار ایک عمودی تقسیم ہے جس میں قطاریں ہیں، ہر قطار اپنی علیحدہ تقسیم ہے۔ اس قطار کے نیچے کنارے کو کھینچیں تاکہ اسے زیادہ اونچائی حاصل ہو، یا اس ٹائل کے پہلو میں زیادہ چوڑائی کے لیے۔'
+    latency:
+      title: 'لیٹنسی p95'
+      figure: '184 ms'
+      description: 'ہر ٹائل ایک منزل کا نام رکھتا ہے، `zone--min-*`: اس کے نیچے ٹائل کو سکیڑا نہیں جاتا، فریم اس کے بجائے سکرول کرتا ہے — افقی اور عمودی دونوں۔'
+    errors:
+      title: غلطیاں
+      figure: '2.1 %'
+      description: 'پیمائش کی گئی، ایک زون اپنی تقسیم کی محور کے ساتھ چھوڑے گئے سائز کو برقرار رکھتا ہے، اور اسی کے ساتھ واپس آتا ہے؛ ہینڈل پر دو بار کلک کرنے سے یہ دوبارہ تقسیم میں واپس آ جاتا ہے۔'
+    queue:
+      title: قطار
+      figure: '318 ملازمتیں'
+      description: '`zone--split--flush` خلا کو ایک پکسل تک تنگ کرتا ہے، دیوار کا زمین ٹائلز کے درمیان لائن کھینچتا ہے۔ دیوار پر ایک کلاس کافی ہے، قطاریں اسے وراثت میں لیتی ہیں۔'
+    deploys:
+      title: تعیناتیں
+      figure: 'آج 7'
+      description: 'اس کے بغیر وہی دیوار اپنے ٹائلز کے درمیان جگہ کو برقرار رکھتی ہے، جس کے ذریعے صفحے کا زمین ظاہر ہوتا ہے — اوپر کی بار میں سوئچ کریں۔ صرف ایک بار نظر آنے پر لوڈ ہونے والے پینل کے لیے دائیں سکرول کریں۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Bảng điều khiển'
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 'Mở lại bảng API'
+    gap: 'Có khoảng trống'
+    flush: Xóa
+  state:
+    success: 'Bình thường'
+    warning: 'Giảm sút'
+    error: 'Thất bại'
+    running: 'Đang xả'
+  tile:
+    traffic:
+      title: 'Lưu lượng'
+      figure: '12.4k yêu cầu/phút'
+      description: 'Các phân chia bên trong một phân chia: bức tường là một phân chia dọc của các hàng, mỗi hàng là một phân chia riêng. Kéo cạnh bên dưới hàng này để tăng chiều cao, hoặc kéo cạnh bên cạnh ô này để tăng chiều rộng.'
+    latency:
+      title: 'Độ trễ p95'
+      figure: '184 ms'
+      description: 'Mỗi ô đặt tên cho một tầng, `zone--min-*`: bên dưới nó, ô không bị nén, khung cuộn thay vào đó — theo chiều ngang cũng như chiều dọc.'
+    errors:
+      title: Lỗi
+      figure: '2.1 %'
+      description: 'Được thay đổi kích thước, một khu vực giữ kích thước mà nó đã được để lại theo trục phân chia của nó, và quay trở lại với nó; một cú nhấp đúp vào tay cầm sẽ đưa nó trở lại phân chia.'
+    queue:
+      title: 'Hàng đợi'
+      figure: '318 công việc'
+      description: '`zone--split--flush` thu hẹp khoảng cách đến một pixel, mặt đất của bức tường vẽ đường giữa các ô. Một lớp trên bức tường là đủ, các hàng kế thừa nó.'
+    deploys:
+      title: 'Triển khai'
+      figure: '7 hôm nay'
+      description: 'Nếu không có nó, bức tường giống nhau giữ khoảng cách giữa các ô của nó, qua đó mặt đất của trang hiển thị — chuyển đổi trong thanh trên. Cuộn sang phải để mở một bảng chỉ được tải khi nó được nhìn thấy.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 仪表板
+  page_icon: 'ph:bold/squares-four'
+  mode:
+    reopen: 重新打开API面板
+    gap: 有间隙
+    flush: 刷新
+  state:
+    success: 正常
+    warning: 降级
+    error: 失败
+    running: 排水中
+  tile:
+    traffic:
+      title: 流量
+      figure: 每分钟12.4k请求
+      description: 拆分内部的拆分：墙是行的垂直拆分，每行都有自己的拆分。拖动此行下方的边缘以增加高度，或拖动此瓦片旁边的边缘以增加宽度。
+    latency:
+      title: 延迟p95
+      figure: 184毫秒
+      description: '每个瓦片命名为一个楼层，`zone--min-*`：在它下面瓦片不会被挤压，框架会滚动——横向和纵向都可以。'
+    errors:
+      title: 错误
+      figure: '2.1 %'
+      description: 调整大小后，区域保持其在拆分轴上留下的大小，并随之返回；双击手柄会将其恢复到拆分状态。
+    queue:
+      title: 队列
+      figure: 318个作业
+      description: '`zone--split--flush`将间隙缩小到一个像素，墙的底部划分了瓦片之间的界限。墙上的一个类就足够了，行会继承它。'
+    deploys:
+      title: 部署
+      figure: 今天7次
+      description: 没有它，同一面墙保持瓦片之间的空间，通过这个空间页面的底部显示——在上面的条形图中切换。向右滚动以查看仅在看到时加载的面板。

@@ -1,0 +1,393 @@
+en:
+  page_title: Doc layout
+  page_icon: ph:bold/book-open
+
+  intro: The doc layout is a two-column pattern for documentation pages — description on the left, code on the right — that collapses to a single column on mobile.
+
+  section:
+    structure:
+      title: Structure
+      body: Use .doc as the outer wrapper and .doc-section for each row. Each section has a .doc-section--description and a .doc-section--code column.
+
+  example:
+    demo_placeholder: Demo content
+    one:
+      title: Basic section
+      body: A typical section pairs a description block with a code snippet.
+    two:
+      title: With a code block
+      body: Use the code-block partial inside .doc-section--code for syntax-highlighted examples.
+
+ar:
+  page_title: 'تصميم المستند'
+  page_icon: 'ph:bold/book-open'
+  intro: 'تصميم المستند هو نمط ذو عمودين لصفحات الوثائق - الوصف على اليسار، والشفرة على اليمين - ويتقلص إلى عمود واحد على الهواتف المحمولة.'
+  section:
+    structure:
+      title: البنية
+      body: 'استخدم .doc كحاوية خارجية و.doc-section لكل صف. يحتوي كل قسم على عمود .doc-section--description وعمود .doc-section--code.'
+  example:
+    demo_placeholder: 'محتوى تجريبي'
+    one:
+      title: 'قسم أساسي'
+      body: 'قسم نموذجي يربط بين كتلة وصف وشفرة برمجية.'
+    two:
+      title: 'مع كتلة شفرة'
+      body: 'استخدم الجزء code-block داخل .doc-section--code للأمثلة المميزة بالنحو.'
+
+bn:
+  page_title: 'ডক লেআউট'
+  page_icon: 'ph:bold/book-open'
+  intro: 'ডক লেআউট হল ডকুমেন্টেশন পৃষ্ঠাগুলোর জন্য একটি দুটি কলামের প্যাটার্ন — বর্ণনা ডান দিকে, কোড বাম দিকে — যা মোবাইলে একটি একক কলামে সংকুচিত হয়।'
+  section:
+    structure:
+      title: গঠন
+      body: '.doc কে বাইরের র্যাপার হিসেবে এবং প্রতিটি সারির জন্য .doc-section ব্যবহার করুন। প্রতিটি সেকশনের একটি .doc-section--description এবং একটি .doc-section--code কলাম রয়েছে।'
+  example:
+    demo_placeholder: 'ডেমো কনটেন্ট'
+    one:
+      title: 'মৌলিক সেকশন'
+      body: 'একটি সাধারণ সেকশন একটি বর্ণনা ব্লককে একটি কোড স্নিপেটের সাথে যুক্ত করে।'
+    two:
+      title: 'একটি কোড ব্লকের সাথে'
+      body: 'সিনট্যাক্স-হাইলাইটেড উদাহরণের জন্য .doc-section--code এর ভিতরে কোড-ব্লক পারশিয়াল ব্যবহার করুন।'
+
+de:
+  page_title: Dokumentlayout
+  page_icon: 'ph:bold/book-open'
+  intro: 'Das Dokumentlayout ist ein zweispaltiges Muster für Dokumentationsseiten – Beschreibung auf der linken Seite, Code auf der rechten Seite – das auf Mobilgeräten zu einer einzelnen Spalte zusammenklappt.'
+  section:
+    structure:
+      title: Struktur
+      body: 'Verwende .doc als äußeren Wrapper und .doc-section für jede Zeile. Jede Sektion hat eine .doc-section--description und eine .doc-section--code Spalte.'
+  example:
+    demo_placeholder: Demo-Inhalt
+    one:
+      title: Basis-Sektion
+      body: 'Eine typische Sektion kombiniert einen Beschreibungsblock mit einem Code-Snippet.'
+    two:
+      title: 'Mit einem Codeblock'
+      body: 'Verwende den Code-Block-Teil innerhalb von .doc-section--code für syntaxhervorgehobene Beispiele.'
+
+es:
+  page_title: 'Diseño del documento'
+  page_icon: 'ph:bold/book-open'
+  intro: 'El diseño del documento es un patrón de dos columnas para páginas de documentación: descripción a la izquierda, código a la derecha, que se colapsa a una sola columna en dispositivos móviles.'
+  section:
+    structure:
+      title: Estructura
+      body: 'Usa .doc como el contenedor exterior y .doc-section para cada fila. Cada sección tiene una columna .doc-section--description y una columna .doc-section--code.'
+  example:
+    demo_placeholder: 'Contenido de demostración'
+    one:
+      title: 'Sección básica'
+      body: 'Una sección típica empareja un bloque de descripción con un fragmento de código.'
+    two:
+      title: 'Con un bloque de código'
+      body: 'Usa el fragmento de código dentro de .doc-section--code para ejemplos con resaltado de sintaxis.'
+
+fa:
+  page_title: 'طرح سند'
+  page_icon: 'ph:bold/book-open'
+  intro: 'طرح سند یک الگوی دو ستونه برای صفحات مستندات است — توضیح در سمت چپ، کد در سمت راست — که در تلفن همراه به یک ستون کاهش می‌یابد.'
+  section:
+    structure:
+      title: ساختار
+      body: '.doc را به عنوان پوشش خارجی و .doc-section را برای هر ردیف استفاده کنید. هر بخش دارای یک ستون .doc-section--description و یک ستون .doc-section--code است.'
+  example:
+    demo_placeholder: 'محتوای نمایشی'
+    one:
+      title: 'بخش پایه'
+      body: 'یک بخش معمولی یک بلوک توضیحی را با یک قطعه کد جفت می‌کند.'
+    two:
+      title: 'با یک بلوک کد'
+      body: 'از قسمت code-block در داخل .doc-section--code برای مثال‌های با های‌لایت نحوی استفاده کنید.'
+
+fi:
+  page_title: 'Asiakirjan asettelu'
+  page_icon: 'ph:bold/book-open'
+  intro: 'Asiakirjan asettelu on kaksikolumnainen malli dokumentaatiosivuille — kuvaus vasemmalla, koodi oikealla — joka kutistuu yhdelle kolumnalle mobiilissa.'
+  section:
+    structure:
+      title: Rakenne
+      body: '.doc toimii ulkoisena kehikkona ja .doc-section jokaiselle riville. Jokaisella osalla on .doc-section--description ja .doc-section--code sarake.'
+  example:
+    demo_placeholder: 'Demon sisältö'
+    one:
+      title: Perusosa
+      body: 'Tyypillinen osa yhdistää kuvauksen ja koodin pätkän.'
+    two:
+      title: Koodilohkolla
+      body: 'Käytä code-block-osaa .doc-section--code sisällä syntaksin korostetuille esimerkeille.'
+
+fr:
+  page_title: 'Mise en page du doc'
+  page_icon: 'ph:bold/book-open'
+  intro: 'La mise en page du doc est un modèle à deux colonnes pour les pages de documentation — description à gauche, code à droite — qui se réduit à une seule colonne sur mobile.'
+  section:
+    structure:
+      title: Structure
+      body: 'Utilisez .doc comme conteneur extérieur et .doc-section pour chaque ligne. Chaque section a une colonne .doc-section--description et une colonne .doc-section--code.'
+  example:
+    demo_placeholder: 'Contenu de démonstration'
+    one:
+      title: 'Section de base'
+      body: 'Une section typique associe un bloc de description à un extrait de code.'
+    two:
+      title: 'Avec un bloc de code'
+      body: "Utilisez le partiel code-block à l'intérieur de .doc-section--code pour des exemples avec mise en surbrillance de la syntaxe."
+
+he:
+  page_title: 'מבנה מסמך'
+  page_icon: 'ph:bold/book-open'
+  intro: 'מבנה המסמך הוא תבנית של שני טורים לדפי תיעוד — תיאור בצד שמאל, קוד בצד ימין — שמתמזגת לטור אחד במובייל.'
+  section:
+    structure:
+      title: מבנה
+      body: 'השתמש ב-.doc כעטיפה החיצונית וב-.doc-section לכל שורה. כל חלק כולל טור .doc-section--description וטור .doc-section--code.'
+  example:
+    demo_placeholder: 'תוכן לדוגמה'
+    one:
+      title: 'חלק בסיסי'
+      body: 'חלק טיפוסי משלב בלוק תיאור עם קטע קוד.'
+    two:
+      title: 'עם בלוק קוד'
+      body: 'השתמש בחלק code-block בתוך .doc-section--code לדוגמאות עם הדגשת תחביר.'
+
+hi:
+  page_title: 'डॉक लेआउट'
+  page_icon: 'ph:bold/book-open'
+  intro: 'डॉक लेआउट दस्तावेज़ पृष्ठों के लिए एक दो कॉलम पैटर्न है - बाईं ओर विवरण, दाईं ओर कोड - जो मोबाइल पर एकल कॉलम में संकुचित हो जाता है।'
+  section:
+    structure:
+      title: संरचना
+      body: '.doc को बाहरी लपेटन के रूप में उपयोग करें और प्रत्येक पंक्ति के लिए .doc-section का उपयोग करें। प्रत्येक अनुभाग में .doc-section--description और .doc-section--code कॉलम होता है।'
+  example:
+    demo_placeholder: 'डेमो सामग्री'
+    one:
+      title: 'बुनियादी अनुभाग'
+      body: 'एक सामान्य अनुभाग एक विवरण ब्लॉक को एक कोड स्निपेट के साथ जोड़ता है।'
+    two:
+      title: 'कोड ब्लॉक के साथ'
+      body: '.doc-section--code के अंदर कोड-ब्लॉक आंशिक का उपयोग करें ताकि सिंटैक्स-हाइलाइटेड उदाहरण मिल सके।'
+
+id:
+  page_title: 'Tata Letak Dokumen'
+  page_icon: 'ph:bold/book-open'
+  intro: 'Tata letak dokumen adalah pola dua kolom untuk halaman dokumentasi — deskripsi di kiri, kode di kanan — yang menyusut menjadi satu kolom di perangkat mobile.'
+  section:
+    structure:
+      title: Struktur
+      body: 'Gunakan .doc sebagai pembungkus luar dan .doc-section untuk setiap baris. Setiap bagian memiliki kolom .doc-section--description dan .doc-section--code.'
+  example:
+    demo_placeholder: 'Konten demo'
+    one:
+      title: 'Bagian Dasar'
+      body: 'Sebuah bagian yang khas menggabungkan blok deskripsi dengan cuplikan kode.'
+    two:
+      title: 'Dengan blok kode'
+      body: 'Gunakan bagian code-block di dalam .doc-section--code untuk contoh dengan penyorotan sintaks.'
+
+it:
+  page_title: 'Layout del documento'
+  page_icon: 'ph:bold/book-open'
+  intro: 'Il layout del documento è un modello a due colonne per le pagine di documentazione — descrizione a sinistra, codice a destra — che si riduce a una sola colonna su mobile.'
+  section:
+    structure:
+      title: Struttura
+      body: 'Usa .doc come wrapper esterno e .doc-section per ogni riga. Ogni sezione ha una colonna .doc-section--description e una colonna .doc-section--code.'
+  example:
+    demo_placeholder: 'Contenuto demo'
+    one:
+      title: 'Sezione base'
+      body: 'Una sezione tipica abbina un blocco di descrizione a un frammento di codice.'
+    two:
+      title: 'Con un blocco di codice'
+      body: "Usa il parziale code-block all'interno di .doc-section--code per esempi con evidenziazione della sintassi."
+
+ja:
+  page_title: ドキュメントレイアウト
+  page_icon: 'ph:bold/book-open'
+  intro: ドキュメントレイアウトは、左に説明、右にコードの2カラムパターンで、モバイルでは1カラムに縮小します。
+  section:
+    structure:
+      title: 構造
+      body: .docを外側のラッパーとして、各行に.doc-sectionを使用します。各セクションには.doc-section--descriptionと.doc-section--codeのカラムがあります。
+  example:
+    demo_placeholder: デモコンテンツ
+    one:
+      title: 基本セクション
+      body: 典型的なセクションは、説明ブロックとコードスニペットを組み合わせます。
+    two:
+      title: コードブロック付き
+      body: .doc-section--code内にコードブロックのパーシャルを使用して、構文強調表示された例を作成します。
+
+ko:
+  page_title: '문서 레이아웃'
+  page_icon: 'ph:bold/book-open'
+  intro: '문서 레이아웃은 문서 페이지를 위한 두 개의 열 패턴으로, 왼쪽에는 설명이 있고 오른쪽에는 코드가 있으며, 모바일에서는 단일 열로 축소됩니다.'
+  section:
+    structure:
+      title: 구조
+      body: '.doc를 외부 래퍼로 사용하고 각 행에 대해 .doc-section을 사용하세요. 각 섹션은 .doc-section--description과 .doc-section--code 열을 가집니다.'
+  example:
+    demo_placeholder: '데모 콘텐츠'
+    one:
+      title: '기본 섹션'
+      body: '전형적인 섹션은 설명 블록과 코드 스니펫을 짝짓습니다.'
+    two:
+      title: '코드 블록 포함'
+      body: '.doc-section--code 안에 코드 블록 부분을 사용하여 구문 강조된 예제를 만드세요.'
+
+nl:
+  page_title: Documentindeling
+  page_icon: 'ph:bold/book-open'
+  intro: "De documentindeling is een tweekolomsindeling voor documentatiepagina's — beschrijving links, code rechts — die op mobiel samenvalt tot één kolom."
+  section:
+    structure:
+      title: Structuur
+      body: 'Gebruik .doc als de buitenste wrapper en .doc-section voor elke rij. Elke sectie heeft een .doc-section--description en een .doc-section--code kolom.'
+  example:
+    demo_placeholder: Demoinhoud
+    one:
+      title: Basissectie
+      body: 'Een typische sectie koppelt een beschrijvingsblok aan een codefragment.'
+    two:
+      title: 'Met een codeblok'
+      body: 'Gebruik de code-block partial binnen .doc-section--code voor syntaxis-gehighlightte voorbeelden.'
+
+pl:
+  page_title: 'Układ dokumentu'
+  page_icon: 'ph:bold/book-open'
+  intro: 'Układ dokumentu to dwukolumnowy wzór dla stron dokumentacji — opis po lewej, kod po prawej — który zwija się do jednej kolumny na urządzeniach mobilnych.'
+  section:
+    structure:
+      title: Struktura
+      body: 'Użyj .doc jako zewnętrznego opakowania i .doc-section dla każdego wiersza. Każda sekcja ma kolumnę .doc-section--description i .doc-section--code.'
+  example:
+    demo_placeholder: 'Treść demonstracyjna'
+    one:
+      title: 'Podstawowa sekcja'
+      body: 'Typowa sekcja łączy blok opisu z fragmentem kodu.'
+    two:
+      title: 'Z blokiem kodu'
+      body: 'Użyj części code-block wewnątrz .doc-section--code dla przykładów z podświetleniem składni.'
+
+pt_BR:
+  page_title: 'Layout do documento'
+  page_icon: 'ph:bold/book-open'
+  intro: 'O layout do documento é um padrão de duas colunas para páginas de documentação — descrição à esquerda, código à direita — que se colapsa em uma única coluna em dispositivos móveis.'
+  section:
+    structure:
+      title: Estrutura
+      body: 'Use .doc como o wrapper externo e .doc-section para cada linha. Cada seção tem uma coluna .doc-section--description e uma coluna .doc-section--code.'
+  example:
+    demo_placeholder: 'Conteúdo de demonstração'
+    one:
+      title: 'Seção básica'
+      body: 'Uma seção típica combina um bloco de descrição com um trecho de código.'
+    two:
+      title: 'Com um bloco de código'
+      body: 'Use a parte code-block dentro de .doc-section--code para exemplos com destaque de sintaxe.'
+
+ru:
+  page_title: 'Макет документа'
+  page_icon: 'ph:bold/book-open'
+  intro: 'Макет документа — это двухколоночный шаблон для страниц документации: описание слева, код справа. На мобильных устройствах он сворачивается в одну колонку.'
+  section:
+    structure:
+      title: Структура
+      body: 'Используйте .doc в качестве внешнего контейнера и .doc-section для каждой строки. Каждая секция имеет колонку .doc-section--description и .doc-section--code.'
+  example:
+    demo_placeholder: 'Демонстрационный контент'
+    one:
+      title: 'Основная секция'
+      body: 'Типичная секция сочетает блок описания с фрагментом кода.'
+    two:
+      title: 'С блоком кода'
+      body: 'Используйте частичное представление code-block внутри .doc-section--code для примеров с подсветкой синтаксиса.'
+
+th:
+  page_title: รูปแบบเอกสาร
+  page_icon: 'ph:bold/book-open'
+  intro: 'รูปแบบเอกสารเป็นแบบอย่างสองคอลัมน์สำหรับหน้าสารบัญ — คำอธิบายอยู่ทางซ้าย โค้ดอยู่ทางขวา — ที่จะยุบเป็นคอลัมน์เดียวบนมือถือ.'
+  section:
+    structure:
+      title: โครงสร้าง
+      body: 'ใช้ .doc เป็น wrapper ภายนอกและ .doc-section สำหรับแต่ละแถว ทุกส่วนมี .doc-section--description และ .doc-section--code คอลัมน์.'
+  example:
+    demo_placeholder: เนื้อหาตัวอย่าง
+    one:
+      title: ส่วนพื้นฐาน
+      body: 'ส่วนทั่วไปจะจับคู่บล็อคคำอธิบายกับโค้ดสั้น ๆ.'
+    two:
+      title: พร้อมบล็อคโค้ด
+      body: 'ใช้ส่วนโค้ดบล็อคภายใน .doc-section--code สำหรับตัวอย่างที่มีการเน้นไวยากรณ์.'
+
+tr:
+  page_title: 'Doküman düzeni'
+  page_icon: 'ph:bold/book-open'
+  intro: 'Doküman düzeni, belgeler için iki sütunlu bir düzen — solda açıklama, sağda kod — mobilde tek sütuna daralan bir yapıdır.'
+  section:
+    structure:
+      title: Yapı
+      body: '.doc dış sarmalayıcı olarak ve her satır için .doc-section kullanın. Her bölümde bir .doc-section--description ve bir .doc-section--code sütunu bulunur.'
+  example:
+    demo_placeholder: 'Demo içeriği'
+    one:
+      title: 'Temel bölüm'
+      body: 'Tipik bir bölüm, bir açıklama bloğunu bir kod parçası ile eşleştirir.'
+    two:
+      title: 'Kod bloğu ile'
+      body: '.doc-section--code içerisinde sözdizimi vurgulamalı örnekler için code-block kısmını kullanın.'
+
+ur:
+  page_title: 'دستاویز کا لے آؤٹ'
+  page_icon: 'ph:bold/book-open'
+  intro: 'دستاویز کا لے آؤٹ ایک دو کالمی پیٹرن ہے جو دستاویزات کے صفحات کے لیے ہے — بائیں طرف وضاحت، دائیں طرف کوڈ — جو موبائل پر ایک کالم میں سمٹ جاتا ہے۔'
+  section:
+    structure:
+      title: ساخت
+      body: '.doc کو بیرونی ریپر کے طور پر استعمال کریں اور ہر قطار کے لیے .doc-section استعمال کریں۔ ہر سیکشن میں .doc-section--description اور .doc-section--code کا کالم ہوتا ہے۔'
+  example:
+    demo_placeholder: 'ڈیمو مواد'
+    one:
+      title: 'بنیادی سیکشن'
+      body: 'ایک عام سیکشن وضاحت بلاک کو کوڈ کے ٹکڑے کے ساتھ جوڑتا ہے۔'
+    two:
+      title: 'ایک کوڈ بلاک کے ساتھ'
+      body: 'سینٹیکس ہائی لائٹ شدہ مثالوں کے لیے .doc-section--code کے اندر کوڈ بلاک جزو استعمال کریں۔'
+
+vi:
+  page_title: 'Bố cục tài liệu'
+  page_icon: 'ph:bold/book-open'
+  intro: 'Bố cục tài liệu là một mẫu hai cột cho các trang tài liệu — mô tả bên trái, mã bên phải — sẽ thu gọn thành một cột trên di động.'
+  section:
+    structure:
+      title: 'Cấu trúc'
+      body: 'Sử dụng .doc làm bao ngoài và .doc-section cho mỗi hàng. Mỗi phần có một cột .doc-section--description và một cột .doc-section--code.'
+  example:
+    demo_placeholder: 'Nội dung demo'
+    one:
+      title: 'Phần cơ bản'
+      body: 'Một phần điển hình kết hợp một khối mô tả với một đoạn mã.'
+    two:
+      title: 'Với một khối mã'
+      body: 'Sử dụng phần code-block bên trong .doc-section--code cho các ví dụ được làm nổi bật cú pháp.'
+
+zh:
+  page_title: 文档布局
+  page_icon: 'ph:bold/book-open'
+  intro: 文档布局是一个用于文档页面的双列模式——左侧是描述，右侧是代码——在移动设备上折叠为单列。
+  section:
+    structure:
+      title: 结构
+      body: '使用 .doc 作为外部包装，.doc-section 作为每一行。每个部分都有 .doc-section--description 和 .doc-section--code 列。'
+  example:
+    demo_placeholder: 演示内容
+    one:
+      title: 基本部分
+      body: 一个典型的部分将描述块与代码片段配对。
+    two:
+      title: 带有代码块
+      body: '在 .doc-section--code 内使用代码块部分以获取语法高亮示例。'

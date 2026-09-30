@@ -1,0 +1,505 @@
+en:
+  page_title: Modal test - components
+  intro: This modal contains components and interactions.
+  menu:
+    label: Actions menu
+    item:
+      report: Report issue
+      settings: Settings
+      logout: Sign out
+  upload_button: Upload a file
+  choice:
+    one: First choice
+    two: Second choice
+    three: Third choice
+  toast_button: Show toast from modal
+  toast_title: Modal toast
+  toast_message: Hello from inside the modal.
+  frontend:
+    embed:
+      closing_confirmation:
+        message: Are you sure you want to close this modal?
+
+ar:
+  page_title: 'اختبار النافذة المنبثقة - المكونات'
+  intro: 'تحتوي هذه النافذة المنبثقة على مكونات وتفاعلات.'
+  menu:
+    label: 'قائمة الإجراءات'
+    item:
+      report: 'الإبلاغ عن مشكلة'
+      settings: الإعدادات
+      logout: 'تسجيل الخروج'
+  upload_button: 'تحميل ملف'
+  choice:
+    one: 'الخيار الأول'
+    two: 'الخيار الثاني'
+    three: 'الخيار الثالث'
+  toast_button: 'عرض إشعار من النافذة المنبثقة'
+  toast_title: 'إشعار النافذة المنبثقة'
+  toast_message: 'مرحبًا من داخل النافذة المنبثقة.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'هل أنت متأكد أنك تريد غلق هذه النافذة المنبثقة؟'
+
+bn:
+  page_title: 'মোডাল টেস্ট - উপাদানসমূহ'
+  intro: 'এই মোডালে উপাদান এবং ইন্টারঅ্যাকশন আছে।'
+  menu:
+    label: 'অ্যাকশন মেনু'
+    item:
+      report: 'সমস্যা রিপোর্ট করুন'
+      settings: সেটিংস
+      logout: 'সাইন আউট'
+  upload_button: 'একটি ফাইল আপলোড করুন'
+  choice:
+    one: 'প্রথম পছন্দ'
+    two: 'দ্বিতীয় পছন্দ'
+    three: 'তৃতীয় পছন্দ'
+  toast_button: 'মোডাল থেকে টোস্ট দেখান'
+  toast_title: 'মোডাল টোস্ট'
+  toast_message: 'মোডালের ভিতর থেকে হ্যালো।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'আপনি কি নিশ্চিত যে আপনি এই মোডালটি বন্ধ করতে চান?'
+
+de:
+  page_title: 'Modal-Test - Komponenten'
+  intro: 'Dieses Modal enthält Komponenten und Interaktionen.'
+  menu:
+    label: Aktionsmenü
+    item:
+      report: 'Problem melden'
+      settings: Einstellungen
+      logout: Abmelden
+  upload_button: 'Eine Datei hochladen'
+  choice:
+    one: 'Erste Wahl'
+    two: 'Zweite Wahl'
+    three: 'Dritte Wahl'
+  toast_button: 'Toast aus dem Modal anzeigen'
+  toast_title: Modal-Toast
+  toast_message: 'Hallo aus dem Modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sind Sie sicher, dass Sie dieses Modal schließen möchten?'
+
+es:
+  page_title: 'Prueba de modal - componentes'
+  intro: 'Este modal contiene componentes e interacciones.'
+  menu:
+    label: 'Menú de acciones'
+    item:
+      report: 'Reportar problema'
+      settings: Configuraciones
+      logout: 'Cerrar sesión'
+  upload_button: 'Subir un archivo'
+  choice:
+    one: 'Primera opción'
+    two: 'Segunda opción'
+    three: 'Tercera opción'
+  toast_button: 'Mostrar toast desde el modal'
+  toast_title: 'Toast del modal'
+  toast_message: 'Hola desde dentro del modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '¿Estás seguro de que quieres cerrar este modal?'
+
+fa:
+  page_title: 'آزمایش مدال - کامپوننت‌ها'
+  intro: 'این مدال شامل کامپوننت‌ها و تعاملات است.'
+  menu:
+    label: 'منوی اقدامات'
+    item:
+      report: 'گزارش مشکل'
+      settings: تنظیمات
+      logout: خروج
+  upload_button: 'بارگذاری فایل'
+  choice:
+    one: 'گزینه اول'
+    two: 'گزینه دوم'
+    three: 'گزینه سوم'
+  toast_button: 'نمایش پیغام از مدال'
+  toast_title: 'پیغام مدال'
+  toast_message: 'سلام از داخل مدال.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'آیا مطمئن هستید که می‌خواهید این مدال را ببندید؟'
+
+fi:
+  page_title: 'Modaalitestit - komponentit'
+  intro: 'Tämä modaalinen ikkuna sisältää komponentteja ja vuorovaikutuksia.'
+  menu:
+    label: Toimintovalikko
+    item:
+      report: 'Ilmoita ongelmasta'
+      settings: Asetukset
+      logout: 'Kirjaudu ulos'
+  upload_button: 'Lähetä tiedosto'
+  choice:
+    one: 'Ensimmäinen valinta'
+    two: 'Toinen valinta'
+    three: 'Kolmas valinta'
+  toast_button: 'Näytä toast modaalista'
+  toast_title: 'Modal toast'
+  toast_message: 'Hei modaalin sisältä.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Oletko varma, että haluat sulkea tämän modaalin?'
+
+fr:
+  page_title: 'Test modal - composants'
+  intro: 'Ce modal contient des composants et des interactions.'
+  menu:
+    label: 'Menu des actions'
+    item:
+      report: 'Signaler un problème'
+      settings: Paramètres
+      logout: 'Se déconnecter'
+  upload_button: 'Télécharger un fichier'
+  choice:
+    one: 'Première option'
+    two: 'Deuxième option'
+    three: 'Troisième option'
+  toast_button: 'Afficher le toast depuis le modal'
+  toast_title: 'Toast du modal'
+  toast_message: "Bonjour depuis l'intérieur du modal."
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Êtes-vous sûr de vouloir fermer ce modal ?'
+
+he:
+  page_title: 'בדיקת מודל - רכיבים'
+  intro: 'מודל זה מכיל רכיבים ואינטראקציות.'
+  menu:
+    label: 'תפריט פעולות'
+    item:
+      report: 'דווח על בעיה'
+      settings: הגדרות
+      logout: התנתק
+  upload_button: 'העלה קובץ'
+  choice:
+    one: 'בחירה ראשונה'
+    two: 'בחירה שנייה'
+    three: 'בחירה שלישית'
+  toast_button: 'הצג טוסט מהמודל'
+  toast_title: 'טוסט מודל'
+  toast_message: 'שלום מתוך המודל.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'האם אתה בטוח שברצונך לסגור את המודל הזה?'
+
+hi:
+  page_title: 'मॉडल परीक्षण - घटक'
+  intro: 'यह मॉडल घटकों और इंटरैक्शन को शामिल करता है।'
+  menu:
+    label: 'क्रियाएँ मेनू'
+    item:
+      report: 'समस्या रिपोर्ट करें'
+      settings: सेटिंग्स
+      logout: 'साइन आउट करें'
+  upload_button: 'एक फ़ाइल अपलोड करें'
+  choice:
+    one: 'पहला विकल्प'
+    two: 'दूसरा विकल्प'
+    three: 'तीसरा विकल्प'
+  toast_button: 'मॉडल से टोस्ट दिखाएँ'
+  toast_title: 'मॉडल टोस्ट'
+  toast_message: 'मॉडल के अंदर से नमस्ते।'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'क्या आप वाकई इस मॉडल को बंद करना चाहते हैं?'
+
+id:
+  page_title: 'Uji Modal - komponen'
+  intro: 'Modal ini berisi komponen dan interaksi.'
+  menu:
+    label: 'Menu tindakan'
+    item:
+      report: 'Laporkan masalah'
+      settings: Pengaturan
+      logout: Keluar
+  upload_button: 'Unggah berkas'
+  choice:
+    one: 'Pilihan pertama'
+    two: 'Pilihan kedua'
+    three: 'Pilihan ketiga'
+  toast_button: 'Tampilkan toast dari modal'
+  toast_title: 'Toast modal'
+  toast_message: 'Halo dari dalam modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Apakah Anda yakin ingin menutup modal ini?'
+
+it:
+  page_title: 'Test modale - componenti'
+  intro: 'Questo modale contiene componenti e interazioni.'
+  menu:
+    label: 'Menu azioni'
+    item:
+      report: 'Segnala problema'
+      settings: Impostazioni
+      logout: Disconnettiti
+  upload_button: 'Carica un file'
+  choice:
+    one: 'Prima scelta'
+    two: 'Seconda scelta'
+    three: 'Terza scelta'
+  toast_button: 'Mostra toast dal modale'
+  toast_title: 'Toast modale'
+  toast_message: "Ciao dall'interno del modale."
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Sei sicuro di voler chiudere questo modale?'
+
+ja:
+  page_title: 'モーダルテスト - コンポーネント'
+  intro: このモーダルにはコンポーネントとインタラクションが含まれています。
+  menu:
+    label: アクションメニュー
+    item:
+      report: 問題を報告
+      settings: 設定
+      logout: サインアウト
+  upload_button: ファイルをアップロード
+  choice:
+    one: 最初の選択肢
+    two: 2番目の選択肢
+    three: 3番目の選択肢
+  toast_button: モーダルからトーストを表示
+  toast_title: モーダルトースト
+  toast_message: モーダル内からこんにちは。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: このモーダルを閉じてもよろしいですか？
+
+ko:
+  page_title: '모달 테스트 - 컴포넌트'
+  intro: '이 모달은 컴포넌트와 상호작용을 포함합니다.'
+  menu:
+    label: '작업 메뉴'
+    item:
+      report: '문제 신고'
+      settings: 설정
+      logout: 로그아웃
+  upload_button: '파일 업로드'
+  choice:
+    one: '첫 번째 선택'
+    two: '두 번째 선택'
+    three: '세 번째 선택'
+  toast_button: '모달에서 토스트 표시'
+  toast_title: '모달 토스트'
+  toast_message: '모달 내부에서 인사드립니다.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: '이 모달을 닫으시겠습니까?'
+
+nl:
+  page_title: 'Modal test - componenten'
+  intro: 'Deze modal bevat componenten en interacties.'
+  menu:
+    label: Actiemenu
+    item:
+      report: 'Probleem rapporteren'
+      settings: Instellingen
+      logout: Afmelden
+  upload_button: 'Bestand uploaden'
+  choice:
+    one: 'Eerste keuze'
+    two: 'Tweede keuze'
+    three: 'Derde keuze'
+  toast_button: 'Toon toast vanuit modal'
+  toast_title: 'Modal toast'
+  toast_message: 'Hallo van binnen de modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Weet je zeker dat je deze modal wilt sluiten?'
+
+pl:
+  page_title: 'Test modalny - komponenty'
+  intro: 'Ten modal zawiera komponenty i interakcje.'
+  menu:
+    label: 'Menu akcji'
+    item:
+      report: 'Zgłoś problem'
+      settings: Ustawienia
+      logout: 'Wyloguj się'
+  upload_button: 'Prześlij plik'
+  choice:
+    one: 'Pierwszy wybór'
+    two: 'Drugi wybór'
+    three: 'Trzeci wybór'
+  toast_button: 'Pokaż powiadomienie z modala'
+  toast_title: 'Powiadomienie modalne'
+  toast_message: 'Witaj z wnętrza modala.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Czy na pewno chcesz zamknąć ten modal?'
+
+pt_BR:
+  page_title: 'Teste de modal - componentes'
+  intro: 'Este modal contém componentes e interações.'
+  menu:
+    label: 'Menu de ações'
+    item:
+      report: 'Reportar problema'
+      settings: Configurações
+      logout: Sair
+  upload_button: 'Enviar um arquivo'
+  choice:
+    one: 'Primeira opção'
+    two: 'Segunda opção'
+    three: 'Terceira opção'
+  toast_button: 'Mostrar notificação do modal'
+  toast_title: 'Notificação do modal'
+  toast_message: 'Olá de dentro do modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Você tem certeza de que deseja fechar este modal?'
+
+ru:
+  page_title: 'Тест модального окна - компоненты'
+  intro: 'Это модальное окно содержит компоненты и взаимодействия.'
+  menu:
+    label: 'Меню действий'
+    item:
+      report: 'Сообщить о проблеме'
+      settings: Настройки
+      logout: Выйти
+  upload_button: 'Загрузить файл'
+  choice:
+    one: 'Первый вариант'
+    two: 'Второй вариант'
+    three: 'Третий вариант'
+  toast_button: 'Показать уведомление из модального окна'
+  toast_title: 'Уведомление модального окна'
+  toast_message: 'Привет из модального окна.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Вы уверены, что хотите закрыть это модальное окно?'
+
+th:
+  page_title: 'การทดสอบโมดอล - ส่วนประกอบ'
+  intro: โมดอลนี้ประกอบด้วยส่วนประกอบและการโต้ตอบต่างๆ
+  menu:
+    label: เมนูการกระทำ
+    item:
+      report: รายงานปัญหา
+      settings: การตั้งค่า
+      logout: ออกจากระบบ
+  upload_button: อัปโหลดไฟล์
+  choice:
+    one: ตัวเลือกแรก
+    two: ตัวเลือกที่สอง
+    three: ตัวเลือกที่สาม
+  toast_button: แสดงข้อความจากโมดอล
+  toast_title: ข้อความโมดอล
+  toast_message: สวัสดีจากภายในโมดอล
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'คุณแน่ใจหรือว่าต้องการปิดโมดอลนี้?'
+
+tr:
+  page_title: 'Modal testi - bileşenler'
+  intro: 'Bu modal, bileşenler ve etkileşimler içerir.'
+  menu:
+    label: 'Eylemler menüsü'
+    item:
+      report: 'Sorunu bildirin'
+      settings: Ayarlar
+      logout: 'Çıkış yap'
+  upload_button: 'Bir dosya yükle'
+  choice:
+    one: 'Birinci seçenek'
+    two: 'İkinci seçenek'
+    three: 'Üçüncü seçenek'
+  toast_button: 'Modaldan bildirim göster'
+  toast_title: 'Modal bildirimi'
+  toast_message: 'Modalın içinden merhaba.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bu modali kapatmak istediğinize emin misiniz?'
+
+ur:
+  page_title: 'موڈل ٹیسٹ - اجزاء'
+  intro: 'یہ موڈل اجزاء اور تعاملات پر مشتمل ہے۔'
+  menu:
+    label: 'عملیات کا مینو'
+    item:
+      report: 'مسئلہ رپورٹ کریں'
+      settings: ترتیبات
+      logout: 'لاگ آؤٹ کریں'
+  upload_button: 'فائل اپ لوڈ کریں'
+  choice:
+    one: 'پہلا انتخاب'
+    two: 'دوسرا انتخاب'
+    three: 'تیسرا انتخاب'
+  toast_button: 'موڈل سے توست دکھائیں'
+  toast_title: 'موڈل توست'
+  toast_message: 'موڈل کے اندر سے سلام۔'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'کیا آپ واقعی اس موڈل کو بند کرنا چاہتے ہیں؟'
+
+vi:
+  page_title: 'Kiểm tra modal - các thành phần'
+  intro: 'Modal này chứa các thành phần và tương tác.'
+  menu:
+    label: 'Menu hành động'
+    item:
+      report: 'Báo cáo sự cố'
+      settings: 'Cài đặt'
+      logout: 'Đăng xuất'
+  upload_button: 'Tải lên tệp'
+  choice:
+    one: 'Lựa chọn đầu tiên'
+    two: 'Lựa chọn thứ hai'
+    three: 'Lựa chọn thứ ba'
+  toast_button: 'Hiện thông báo từ modal'
+  toast_title: 'Thông báo modal'
+  toast_message: 'Xin chào từ bên trong modal.'
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 'Bạn có chắc chắn muốn đóng modal này không?'
+
+zh:
+  page_title: '模态测试 - 组件'
+  intro: 此模态包含组件和交互。
+  menu:
+    label: 操作菜单
+    item:
+      report: 报告问题
+      settings: 设置
+      logout: 登出
+  upload_button: 上传文件
+  choice:
+    one: 第一个选择
+    two: 第二个选择
+    three: 第三个选择
+  toast_button: 从模态显示通知
+  toast_title: 模态通知
+  toast_message: 来自模态内部的问候。
+  frontend:
+    embed:
+      closing_confirmation:
+        message: 您确定要关闭此模态吗？

@@ -1,0 +1,1870 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Bars
+  page_icon: ph:bold/rows
+
+  intro: "A bar names one thing in a single line: what it is, what it is called, what qualifies it, and what belongs at the far end. It is a shape, not a binding — an entity reaches it through its own template, but a search result that is a file, an app or a setting uses the very same markup."
+
+  finding:
+    fix: Fix
+    date: Set a date
+    error:
+      title: Missing mandatory section “Purpose”
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: Review date is in the past
+      subtitle: 01-PROCESSES/PR-004-document-control.md:4
+    info:
+      title: Owner field left empty
+      subtitle: Not blocking for a draft, required before review
+
+  section:
+    findings:
+      title: Findings
+      description: "What an analysis reports, one bar each: the finding as the title, where it is as the subtitle, and what can be done about it in the trailing slot — nothing there when nothing can be done here. The severity is the block's tone, which the avatar at the head takes too."
+    alone:
+      title: The bar itself
+      description: Everything but the title is optional. The leading slot takes an icon, or any markup when a real avatar is needed; the trailing slot takes a date, a tag, a row of buttons. Given a link, the whole width becomes the target and the title keeps the colour of where it sits.
+    search:
+      title: A list of results
+      description: "The list brings the frame, the search field and the separators; each row brings a bar. Nothing here is an entity — that is the point: the same row serves a person, a document, an application and a preference."
+    surfaces:
+      title: One surface each
+      description: The other reading of a list — no shared background and no line, each bar standing on its own block with room around it. Nothing new to style, the bar simply takes the block classes, and given a link the whole card becomes the target.
+    divided:
+      title: A bare list
+      description: When the frame is already there, a vertical stack with dividers is enough — no shape of its own, just a line between two rows.
+    vue:
+      title: A list of them, in Vue
+      description: "The same rows read from an endpoint rather than written out: the list holds the page, the pagination and the empty state, and each entity says what to read on it — a title, what qualifies it, an icon, where it leads, a date at the far end. The readings above are its variants, `divided` then `surfaces`."
+    keeping_up:
+      title: And kept up to date
+      description: "A bar list is a collection like any other, so the three ways a collection hears that the world moved on are open to it: an app event, a live source, polling. This one listens to an event — ring it and watch the rows come back. See Keeping up for the three of them side by side."
+
+  sample:
+    minimal:
+      title: A title on its own
+    icon:
+      title: With a leading icon
+    subtitle:
+      title: Maya Lindqvist
+      subtitle: maya@example.com
+    trailing:
+      title: Quarterly reports
+      subtitle: 14 documents
+    link:
+      title: A bar that is a link
+      subtitle: The whole width is the target
+
+  search:
+    placeholder: Search everything
+    value: report
+    filter: Filter
+
+  result:
+    user:
+      title: Maya Lindqvist
+      subtitle: Person · Product team
+    file:
+      title: Quarterly report Q3.pdf
+      subtitle: Document · 2.4 MB
+    app:
+      title: Reporting
+      subtitle: Application · Installed
+    setting:
+      title: Report retention
+      subtitle: Setting · Storage
+
+  member:
+    maya:
+      title: Maya Lindqvist
+      subtitle: Owner
+    sam:
+      title: Sam Okonkwo
+      subtitle: Editor
+    robot:
+      title: Nightly import
+      subtitle: Service account
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: الحانات
+  page_icon: 'ph:bold/rows'
+  intro: 'الحانة تسمي شيئًا واحدًا في سطر واحد: ما هو، ما يسمى، ما يؤهله، وما ينتمي إلى الطرف البعيد. إنها شكل، وليست ارتباطًا - كيان يصل إليها من خلال قالب خاص به، لكن نتيجة البحث التي هي ملف أو تطبيق أو إعداد تستخدم نفس العلامة.'
+  finding:
+    fix: إصلاح
+    date: 'حدد تاريخًا'
+    error:
+      title: 'قسم إلزامي مفقود "الهدف"'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'تاريخ المراجعة في الماضي'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'حقل المالك ترك فارغًا'
+      subtitle: 'لا يمنع من المسودة، مطلوب قبل المراجعة'
+  section:
+    findings:
+      title: النتائج
+      description: 'ما تقاريره التحليل، حانة واحدة لكل منها: النتيجة كعنوان، مكانها كعنوان فرعي، وما يمكن القيام به حيال ذلك في الخانة النهائية - لا شيء هنا عندما لا يمكن القيام بشيء هنا. الخطورة هي نغمة الكتلة، التي يأخذها avatar في الرأس أيضًا.'
+    alone:
+      title: 'الحانة نفسها'
+      description: 'كل شيء عدا العنوان اختياري. تأخذ الخانة الرائدة أيقونة، أو أي علامة عندما تكون الصورة الرمزية الحقيقية مطلوبة؛ تأخذ الخانة النهائية تاريخًا، أو علامة، أو صف من الأزرار. عند إعطاء رابط، يصبح العرض الكامل الهدف ويحتفظ العنوان بلون المكان الذي يجلس فيه.'
+    search:
+      title: 'قائمة النتائج'
+      description: 'تجلب القائمة الإطار، حقل البحث والفواصل؛ كل صف يجلب حانة. لا شيء هنا هو كيان - هذه هي النقطة: نفس الصف يخدم شخصًا، مستندًا، تطبيقًا وتفضيلًا.'
+    surfaces:
+      title: 'سطح واحد لكل'
+      description: 'القراءة الأخرى لقائمة - لا خلفية مشتركة ولا خط، كل حانة تقف على كتلتها الخاصة مع مساحة حولها. لا شيء جديد لتصميمه، تأخذ الحانة ببساطة فئات الكتلة، وعند إعطاء رابط، تصبح البطاقة بأكملها الهدف.'
+    divided:
+      title: 'قائمة بسيطة'
+      description: 'عندما يكون الإطار موجودًا بالفعل، فإن كومة رأسية مع فواصل تكفي - لا شكل خاص بها، مجرد خط بين صفين.'
+    vue:
+      title: 'قائمة منها، في Vue'
+      description: 'نفس الصفوف تقرأ من نقطة نهاية بدلاً من كتابتها: تحتفظ القائمة بالصفحة، والترقيم، والحالة الفارغة، وكل كيان يقول ماذا يقرأ عليه - عنوان، ما يؤهله، أيقونة، إلى أين يقود، تاريخ في الطرف البعيد. القراءات أعلاه هي متغيراتها، "مقسمة" ثم "أسطح".'
+    keeping_up:
+      title: 'وتم تحديثه'
+      description: 'قائمة الحانات هي مجموعة مثل أي مجموعة أخرى، لذا فإن الطرق الثلاثة التي تسمع بها مجموعة أن العالم قد تقدم مفتوحة لها: حدث تطبيق، مصدر مباشر، استقصاء. هذه تستمع إلى حدث - رنها وراقب الصفوف تعود. انظر "مواكبة" للثلاثة منهم جنبًا إلى جنب.'
+  sample:
+    minimal:
+      title: 'عنوان بمفرده'
+    icon:
+      title: 'مع أيقونة رائدة'
+    subtitle:
+      title: 'مايا ليندكفست'
+      subtitle: maya@example.com
+    trailing:
+      title: 'تقارير ربع سنوية'
+      subtitle: '14 مستندًا'
+    link:
+      title: 'حانة هي رابط'
+      subtitle: 'العرض الكامل هو الهدف'
+  search:
+    placeholder: 'ابحث عن كل شيء'
+    value: تقرير
+    filter: تصفية
+  result:
+    user:
+      title: 'مايا ليندكفست'
+      subtitle: 'شخص · فريق المنتج'
+    file:
+      title: 'تقرير ربع سنوي Q3.pdf'
+      subtitle: 'مستند · 2.4 ميجابايت'
+    app:
+      title: الإبلاغ
+      subtitle: 'تطبيق · مثبت'
+    setting:
+      title: 'الاحتفاظ بالتقارير'
+      subtitle: 'إعداد · تخزين'
+  member:
+    maya:
+      title: 'مايا ليندكفست'
+      subtitle: مالك
+    sam:
+      title: 'سام أوكونكوا'
+      subtitle: محرر
+    robot:
+      title: 'استيراد ليلي'
+      subtitle: 'حساب خدمة'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: বার
+  page_icon: 'ph:bold/rows'
+  intro: 'একটি বার এক লাইনে একটি জিনিসের নাম দেয়: এটি কী, এটি কী নামে ডাকা হয়, এটি কীভাবে যোগ্য হয় এবং এটি কোথায় শেষ হয়। এটি একটি আকার, একটি বাঁধন নয় — একটি সত্তা এটি তার নিজস্ব টেমপ্লেটের মাধ্যমে পৌঁছে, তবে একটি অনুসন্ধান ফলাফল যা একটি ফাইল, একটি অ্যাপ বা একটি সেটিং তা একই মার্কআপ ব্যবহার করে।'
+  finding:
+    fix: 'সংশোধন করুন'
+    date: 'একটি তারিখ নির্ধারণ করুন'
+    error:
+      title: 'অবশ্যই প্রয়োজনীয় বিভাগ “উদ্দেশ্য” অনুপস্থিত'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'পর্যালোচনা তারিখ অতীতে'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'মালিক ক্ষেত্র খালি রেখে দেওয়া হয়েছে'
+      subtitle: 'ড্রাফ্টের জন্য বাধা নয়, পর্যালোচনার আগে প্রয়োজন'
+  section:
+    findings:
+      title: অনুসন্ধান
+      description: 'একটি বিশ্লেষণের রিপোর্ট যা একটি বার প্রতিটি: খুঁজে পাওয়া শিরোনাম হিসেবে, এটি কোথায় আছে সাবশিরোনাম হিসেবে, এবং এটি সম্পর্কে কি করা যেতে পারে শেষ স্থানে — এখানে কিছুই না যখন এখানে কিছু করা যায় না। গুরুত্ব ব্লকের সুর, যা মাথায় অবতারও নেয়।'
+    alone:
+      title: 'বারটি নিজেই'
+      description: 'শিরোনাম ছাড়া সবকিছু ঐচ্ছিক। শীর্ষস্থান একটি আইকন নেয়, অথবা যখন একটি বাস্তব অবতার প্রয়োজন হয় তখন কোনো মার্কআপ; শেষ স্থানে একটি তারিখ, একটি ট্যাগ, একটি বোতামের সারি থাকে। একটি লিঙ্ক দেওয়া হলে, পুরো প্রস্থ লক্ষ্য হয়ে যায় এবং শিরোনাম যেখানে বসে তার রঙ ধরে রাখে।'
+    search:
+      title: 'ফলাফলের একটি তালিকা'
+      description: 'তালিকাটি ফ্রেম, অনুসন্ধান ক্ষেত্র এবং বিভাজক নিয়ে আসে; প্রতিটি সারি একটি বার নিয়ে আসে। এখানে কিছুই একটি সত্তা নয় — সেটাই মূল বিষয়: একই সারি একটি ব্যক্তি, একটি দলিল, একটি অ্যাপ এবং একটি পছন্দের জন্য কাজ করে।'
+    surfaces:
+      title: 'প্রতিটি একটি পৃষ্ঠ'
+      description: 'একটি তালিকার অন্য একটি পাঠ — কোন শেয়ার করা পটভূমি এবং কোন লাইন নেই, প্রতিটি বার নিজ নিজ ব্লকে দাঁড়িয়ে আছে তার চারপাশে কিছু জায়গা নিয়ে। স্টাইল করার জন্য কিছু নতুন নেই, বারটি কেবল ব্লক ক্লাস গ্রহণ করে, এবং একটি লিঙ্ক দেওয়া হলে পুরো কার্ড লক্ষ্য হয়ে যায়।'
+    divided:
+      title: 'একটি খালি তালিকা'
+      description: 'যখন ফ্রেম ইতিমধ্যেই সেখানে থাকে, একটি বিভাজকসহ উল্লম্ব স্তূপ যথেষ্ট — এটি নিজস্ব কোনো আকার নয়, কেবল দুটি সারির মধ্যে একটি লাইন।'
+    vue:
+      title: 'একটি তালিকা, Vue-তে'
+      description: 'একই সারিগুলি একটি এন্ডপয়েন্ট থেকে পড়া হয় বরং লেখা হয়: তালিকাটি পৃষ্ঠা, পৃষ্ঠা পরিবর্তন এবং খালি অবস্থান ধারণ করে, এবং প্রতিটি সত্তা বলে যে এতে কি পড়তে হবে — একটি শিরোনাম, এটি কীভাবে যোগ্য, একটি আইকন, এটি কোথায় নিয়ে যায়, একটি তারিখ শেষ প্রান্তে। উপরের পাঠ্যগুলি এর ভেরিয়েন্ট, `divided` তারপর `surfaces`।'
+    keeping_up:
+      title: 'এবং আপ টু ডেট রাখা'
+      description: 'একটি বার তালিকা অন্যান্য যেকোনো সংগ্রহের মতো একটি সংগ্রহ, তাই পৃথিবী এগিয়ে যাওয়ার তিনটি উপায় এটি শুনতে পারে: একটি অ্যাপ ইভেন্ট, একটি লাইভ সোর্স, পোলিং। এটি একটি ইভেন্ট শুনছে — এটি রিং করুন এবং সারিগুলি ফিরে আসতে দেখুন। তাদের তিনটি পাশে একটি সাথে দেখুন Keeping up।'
+  sample:
+    minimal:
+      title: 'একটি শিরোনাম একা'
+    icon:
+      title: 'একটি শীর্ষ আইকন সহ'
+    subtitle:
+      title: 'মায়া লিন্ডকভিস্ট'
+      subtitle: maya@example.com
+    trailing:
+      title: 'ত্রৈমাসিক রিপোর্ট'
+      subtitle: '১৪টি ডকুমেন্ট'
+    link:
+      title: 'একটি লিঙ্ক হিসাবে একটি বার'
+      subtitle: 'পুরো প্রস্থ লক্ষ্য'
+  search:
+    placeholder: 'সবকিছু অনুসন্ধান করুন'
+    value: রিপোর্ট
+    filter: ফিল্টার
+  result:
+    user:
+      title: 'মায়া লিন্ডকভিস্ট'
+      subtitle: 'ব্যক্তি · পণ্য দল'
+    file:
+      title: 'ত্রৈমাসিক রিপোর্ট Q3.pdf'
+      subtitle: 'ডকুমেন্ট · ২.৪ এমবি'
+    app:
+      title: রিপোর্টিং
+      subtitle: 'অ্যাপ্লিকেশন · ইনস্টল করা'
+    setting:
+      title: 'রিপোর্ট সংরক্ষণ'
+      subtitle: 'সেটিং · স্টোরেজ'
+  member:
+    maya:
+      title: 'মায়া লিন্ডকভিস্ট'
+      subtitle: মালিক
+    sam:
+      title: 'স্যাম ওকনকও'
+      subtitle: সম্পাদক
+    robot:
+      title: 'নাইটলি ইম্পোর্ট'
+      subtitle: 'সার্ভিস অ্যাকাউন্ট'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Balken
+  page_icon: 'ph:bold/rows'
+  intro: 'Ein Balken benennt eine Sache in einer einzigen Zeile: was es ist, wie es genannt wird, was es qualifiziert und was am weitesten entfernt ist. Es ist eine Form, keine Bindung – ein Element erreicht es durch seine eigene Vorlage, aber ein Suchergebnis, das eine Datei, eine App oder eine Einstellung ist, verwendet dasselbe Markup.'
+  finding:
+    fix: Korrigieren
+    date: 'Ein Datum festlegen'
+    error:
+      title: 'Fehlender Pflichtabschnitt „Zweck“'
+      subtitle: 01-PROZESSE/PR-004-dokumentensteuerung.md
+    warning:
+      title: 'Überprüfungsdatum liegt in der Vergangenheit'
+      subtitle: '01-PROZESSE/PR-004-dokumentensteuerung.md:4'
+    info:
+      title: 'Eigentümerfeld leer gelassen'
+      subtitle: 'Nicht blockierend für einen Entwurf, erforderlich vor der Überprüfung'
+  section:
+    findings:
+      title: Feststellungen
+      description: 'Was eine Analyse berichtet, ein Balken jeweils: die Feststellung als Titel, wo sie sich befindet als Untertitel, und was darüber getan werden kann im nachfolgenden Slot – nichts dort, wenn hier nichts getan werden kann. Die Schwere ist der Ton des Blocks, den auch das Avatar an der Spitze annimmt.'
+    alone:
+      title: 'Der Balken selbst'
+      description: 'Alles außer dem Titel ist optional. Der führende Slot nimmt ein Symbol oder jedes Markup an, wenn ein echtes Avatar benötigt wird; der nachfolgende Slot nimmt ein Datum, ein Tag, eine Reihe von Schaltflächen. Bei einem Link wird die gesamte Breite zum Ziel und der Titel behält die Farbe, wo er sitzt.'
+    search:
+      title: 'Eine Liste von Ergebnissen'
+      description: 'Die Liste bringt den Rahmen, das Suchfeld und die Trenner; jede Zeile bringt einen Balken. Nichts hier ist ein Element – das ist der Punkt: dieselbe Zeile dient einer Person, einem Dokument, einer Anwendung und einer Präferenz.'
+    surfaces:
+      title: 'Eine Oberfläche jeweils'
+      description: 'Die andere Lesart einer Liste – kein gemeinsamer Hintergrund und keine Linie, jeder Balken steht auf seinem eigenen Block mit Platz um ihn herum. Nichts Neues zu stylen, der Balken übernimmt einfach die Blockklassen, und bei einem Link wird die gesamte Karte zum Ziel.'
+    divided:
+      title: 'Eine schlichte Liste'
+      description: 'Wenn der Rahmen bereits vorhanden ist, ist ein vertikaler Stapel mit Trennlinien ausreichend – keine eigene Form, nur eine Linie zwischen zwei Zeilen.'
+    vue:
+      title: 'Eine Liste davon in Vue'
+      description: 'Die gleichen Zeilen werden von einem Endpunkt gelesen, anstatt ausgeschrieben zu werden: die Liste hält die Seite, die Seitenanzahl und den leeren Zustand, und jedes Element sagt, was darauf gelesen werden soll – ein Titel, was es qualifiziert, ein Symbol, wohin es führt, ein Datum am Ende. Die oben genannten Lesarten sind seine Varianten, `geteilt` dann `oberflächen`.'
+    keeping_up:
+      title: 'Und auf dem neuesten Stand gehalten'
+      description: 'Eine Balkenliste ist eine Sammlung wie jede andere, daher sind die drei Möglichkeiten, wie eine Sammlung hört, dass die Welt weitergezogen ist, für sie offen: ein App-Ereignis, eine Live-Quelle, Abfragen. Diese hört auf ein Ereignis – rufe es und sieh die Zeilen zurückkommen. Siehe Auf dem Laufenden für die drei nebeneinander.'
+  sample:
+    minimal:
+      title: 'Ein Titel für sich'
+    icon:
+      title: 'Mit einem führenden Symbol'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: Viertelberichte
+      subtitle: '14 Dokumente'
+    link:
+      title: 'Ein Balken, der ein Link ist'
+      subtitle: 'Die gesamte Breite ist das Ziel'
+  search:
+    placeholder: 'Alles durchsuchen'
+    value: Bericht
+    filter: Filter
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Person · Produktteam'
+    file:
+      title: 'Viertelbericht Q3.pdf'
+      subtitle: 'Dokument · 2,4 MB'
+    app:
+      title: Berichterstattung
+      subtitle: 'Anwendung · Installiert'
+    setting:
+      title: 'Aufbewahrung von Berichten'
+      subtitle: 'Einstellung · Speicherung'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Eigentümer
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Redakteur
+    robot:
+      title: Nachtsynchronisation
+      subtitle: Servicekonto
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bares
+  page_icon: 'ph:bold/rows'
+  intro: 'Un bare nombra una cosa en una sola línea: lo que es, cómo se llama, qué lo califica y lo que pertenece al final. Es una forma, no un vínculo: una entidad llega a ella a través de su propia plantilla, pero un resultado de búsqueda que es un archivo, una aplicación o una configuración utiliza la misma marca.'
+  finding:
+    fix: Arreglar
+    date: 'Establecer una fecha'
+    error:
+      title: 'Sección obligatoria “Propósito” faltante'
+      subtitle: 01-PROCESOS/PR-004-control-de-documentos.md
+    warning:
+      title: 'La fecha de revisión está en el pasado'
+      subtitle: '01-PROCESOS/PR-004-control-de-documentos.md:4'
+    info:
+      title: 'Campo de propietario dejado vacío'
+      subtitle: 'No bloquea para un borrador, requerido antes de la revisión'
+  section:
+    findings:
+      title: Hallazgos
+      description: 'Lo que un análisis informa, un bare cada uno: el hallazgo como título, dónde está como subtítulo, y qué se puede hacer al respecto en el espacio final — nada allí cuando no se puede hacer nada aquí. La gravedad es el tono del bloque, que el avatar en la cabeza también toma.'
+    alone:
+      title: 'El bare en sí mismo'
+      description: 'Todo menos el título es opcional. El espacio principal toma un ícono, o cualquier marca cuando se necesita un avatar real; el espacio final toma una fecha, una etiqueta, una fila de botones. Dado un enlace, todo el ancho se convierte en el objetivo y el título mantiene el color de donde se encuentra.'
+    search:
+      title: 'Una lista de resultados'
+      description: 'La lista trae el marco, el campo de búsqueda y los separadores; cada fila trae un bare. Nada aquí es una entidad — ese es el punto: la misma fila sirve a una persona, un documento, una aplicación y una preferencia.'
+    surfaces:
+      title: 'Una superficie cada una'
+      description: 'La otra lectura de una lista — sin fondo compartido y sin línea, cada bare de pie en su propio bloque con espacio alrededor. Nada nuevo para estilizar, el bare simplemente toma las clases del bloque, y dado un enlace, toda la tarjeta se convierte en el objetivo.'
+    divided:
+      title: 'Una lista desnuda'
+      description: 'Cuando el marco ya está allí, una pila vertical con divisores es suficiente — sin forma propia, solo una línea entre dos filas.'
+    vue:
+      title: 'Una lista de ellos, en Vue'
+      description: 'Las mismas filas leídas desde un punto final en lugar de escritas: la lista contiene la página, la paginación y el estado vacío, y cada entidad dice qué leer sobre ella — un título, qué la califica, un ícono, a dónde lleva, una fecha al final. Las lecturas anteriores son sus variantes, `dividida` luego `superficies`.'
+    keeping_up:
+      title: 'Y mantenida actualizada'
+      description: 'Una lista de bares es una colección como cualquier otra, así que las tres formas en que una colección escucha que el mundo ha avanzado están abiertas a ella: un evento de la aplicación, una fuente en vivo, sondeo. Esta escucha un evento — suena y observa cómo vuelven las filas. Ver Mantenerse al día para los tres juntos.'
+  sample:
+    minimal:
+      title: 'Un título por sí solo'
+    icon:
+      title: 'Con un ícono principal'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Informes trimestrales'
+      subtitle: '14 documentos'
+    link:
+      title: 'Un bare que es un enlace'
+      subtitle: 'Todo el ancho es el objetivo'
+  search:
+    placeholder: 'Buscar todo'
+    value: informe
+    filter: Filtrar
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Persona · Equipo de producto'
+    file:
+      title: 'Informe trimestral Q3.pdf'
+      subtitle: 'Documento · 2.4 MB'
+    app:
+      title: Informes
+      subtitle: 'Aplicación · Instalado'
+    setting:
+      title: 'Retención de informes'
+      subtitle: 'Configuración · Almacenamiento'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Propietario
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Editor
+    robot:
+      title: 'Importación nocturna'
+      subtitle: 'Cuenta de servicio'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: نوارها
+  page_icon: 'ph:bold/rows'
+  intro: 'یک نوار یک چیز را در یک خط واحد نام می‌برد: اینکه چیست، چه نام دارد، چه چیزی آن را واجد شرایط می‌کند و چه چیزی در انتهای دور قرار دارد. این یک شکل است، نه یک پیوند — یک موجودیت از طریق الگوی خود به آن می‌رسد، اما یک نتیجه جستجو که یک فایل، یک برنامه یا یک تنظیم است از همان نشانه‌گذاری استفاده می‌کند.'
+  finding:
+    fix: اصلاح
+    date: 'تاریخ را تنظیم کنید'
+    error:
+      title: 'بخش الزامی "هدف" مفقود است'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'تاریخ بازنگری در گذشته است'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'فیلد مالک خالی مانده است'
+      subtitle: 'این برای پیش‌نویس مسدود کننده نیست، قبل از بازنگری الزامی است'
+  section:
+    findings:
+      title: یافته‌ها
+      description: 'آنچه یک تجزیه و تحلیل گزارش می‌دهد، یک نوار برای هر مورد: یافته به عنوان عنوان، مکان آن به عنوان زیرعنوان، و اقداماتی که می‌توان در مورد آن انجام داد در بخش پایانی — اگر چیزی در اینجا وجود نداشته باشد، هیچ کاری نمی‌توان انجام داد. شدت، لحن بلوک است که آواتار در سر نیز آن را می‌گیرد.'
+    alone:
+      title: 'خود نوار'
+      description: 'همه چیز به جز عنوان اختیاری است. بخش پیشرو یک آیکون یا هر نشانه‌گذاری دیگری را می‌گیرد زمانی که یک آواتار واقعی لازم است؛ بخش پایانی یک تاریخ، یک برچسب، یک ردیف از دکمه‌ها را می‌گیرد. اگر یک لینک وجود داشته باشد، کل عرض هدف می‌شود و عنوان رنگ جایی که قرار دارد را حفظ می‌کند.'
+    search:
+      title: 'فهرستی از نتایج'
+      description: 'فهرست قاب، فیلد جستجو و جداکننده‌ها را به ارمغان می‌آورد؛ هر ردیف یک نوار می‌آورد. هیچ‌یک از اینجا یک موجودیت نیست — این نکته است: همان ردیف به یک شخص، یک سند، یک برنامه و یک ترجیح خدمت می‌کند.'
+    surfaces:
+      title: 'هر کدام یک سطح'
+      description: 'خواندن دیگر یک فهرست — بدون پس‌زمینه مشترک و بدون خط، هر نوار روی بلوک خود ایستاده با فضا دور آن. هیچ چیز جدیدی برای استایل وجود ندارد، نوار به سادگی کلاس‌های بلوک را می‌گیرد و اگر یک لینک وجود داشته باشد، کل کارت هدف می‌شود.'
+    divided:
+      title: 'یک فهرست خالی'
+      description: 'وقتی قاب قبلاً وجود دارد، یک پشته عمودی با جداکننده‌ها کافی است — هیچ شکلی از خود ندارد، فقط یک خط بین دو ردیف.'
+    vue:
+      title: 'فهرستی از آن‌ها، در Vue'
+      description: 'همان ردیف‌ها از یک نقطه پایانی خوانده می‌شوند نه اینکه نوشته شوند: فهرست صفحه، صفحه‌بندی و حالت خالی را نگه می‌دارد، و هر موجودیتی می‌گوید چه چیزی باید روی آن خوانده شود — یک عنوان، چه چیزی آن را واجد شرایط می‌کند، یک آیکون، کجا می‌رود، یک تاریخ در انتهای دور. خوانش‌های بالا وارون‌های آن هستند، `divided` سپس `surfaces`.'
+    keeping_up:
+      title: 'و به روز نگه داشته شده است'
+      description: 'یک فهرست نوار یک مجموعه مانند هر مجموعه دیگری است، بنابراین سه راهی که یک مجموعه می‌فهمد که دنیا پیش رفته است برای آن باز است: یک رویداد برنامه، یک منبع زنده، نظارت. این یکی به یک رویداد گوش می‌دهد — آن را صدا بزنید و ببینید ردیف‌ها برمی‌گردند. به Keeping up برای سه مورد آن‌ها در کنار هم مراجعه کنید.'
+  sample:
+    minimal:
+      title: 'یک عنوان به تنهایی'
+    icon:
+      title: 'با یک آیکون پیشرو'
+    subtitle:
+      title: 'مایا لیندکویست'
+      subtitle: maya@example.com
+    trailing:
+      title: 'گزارش‌های سه‌ماهه'
+      subtitle: '14 سند'
+    link:
+      title: 'یک نوار که یک لینک است'
+      subtitle: 'کل عرض هدف است'
+  search:
+    placeholder: 'همه چیز را جستجو کنید'
+    value: گزارش
+    filter: فیلتر
+  result:
+    user:
+      title: 'مایا لیندکویست'
+      subtitle: 'شخص · تیم محصول'
+    file:
+      title: 'گزارش سه‌ماهه Q3.pdf'
+      subtitle: 'سند · 2.4 مگابایت'
+    app:
+      title: گزارش‌دهی
+      subtitle: 'برنامه · نصب شده'
+    setting:
+      title: 'نگهداری گزارش'
+      subtitle: 'تنظیم · ذخیره‌سازی'
+  member:
+    maya:
+      title: 'مایا لیندکویست'
+      subtitle: مالک
+    sam:
+      title: 'سم اوکونکو'
+      subtitle: ویرایشگر
+    robot:
+      title: 'واردات شبانه'
+      subtitle: 'حساب خدمات'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Palkit
+  page_icon: 'ph:bold/rows'
+  intro: 'Palkki nimeää yhden asian yhdellä rivillä: mitä se on, mitä se kutsuu, mikä sitä määrittelee ja mikä kuuluu sen päähän. Se on muoto, ei sitoumus — entiteetti saavuttaa sen oman mallinsa kautta, mutta hakutulos, joka on tiedosto, sovellus tai asetukset, käyttää täsmälleen samaa merkintää.'
+  finding:
+    fix: Korjaa
+    date: 'Aseta päivämäärä'
+    error:
+      title: 'Puuttuva pakollinen osa "Tarkoitus"'
+      subtitle: 01-PROSESSIT/PR-004-dokumenttivalvonta.md
+    warning:
+      title: 'Tarkistus päivämäärä on menneisyydessä'
+      subtitle: '01-PROSESSIT/PR-004-dokumenttivalvonta.md:4'
+    info:
+      title: 'Omistajakenttä jätetty tyhjäksi'
+      subtitle: 'Ei estä luonnosta, vaaditaan ennen tarkistusta'
+  section:
+    findings:
+      title: Havainnot
+      description: 'Mitä analyysi raportoi, yksi palkki kullekin: havainto otsikkona, missä se on alaotsikkona, ja mitä sille voidaan tehdä jälkimmäisessä slotissa — ei mitään, kun täällä ei voida tehdä mitään. Vakavuus on lohkon sävy, jonka avatar päässä ottaa myös.'
+    alone:
+      title: 'Palkki itsessään'
+      description: 'Kaikki muu paitsi otsikko on valinnaista. Etuslotissa on kuvake tai mikä tahansa merkintä, kun oikeaa avataria tarvitaan; jälkimmäisessä slotissa on päivämäärä, tagi, rivi painikkeita. Antamalla linkin, koko leveys muuttuu kohteeksi ja otsikko säilyttää värinsä, missä se sijaitsee.'
+    search:
+      title: 'Tulosten lista'
+      description: 'Lista tuo kehykset, hakukentän ja erotinviivat; jokainen rivi tuo palkin. Mikään tässä ei ole entiteetti — se on koko pointti: sama rivi palvelee henkilöä, asiakirjaa, sovellusta ja asetusta.'
+    surfaces:
+      title: 'Yksi pinta kullekin'
+      description: 'Toinen tapa lukea lista — ei yhteistä taustaa eikä viivaa, jokainen palkki seisoo omassa lohkossaan ympärillä tilaa. Ei mitään uutta tyylille, palkki ottaa yksinkertaisesti lohkoluokat, ja antamalla linkin koko kortti muuttuu kohteeksi.'
+    divided:
+      title: 'Paljas lista'
+      description: 'Kun kehys on jo paikalla, pystysuora pino erottimilla riittää — ei omaa muotoa, vain viiva kahden rivin välillä.'
+    vue:
+      title: 'Lista niistä, Vue:ssa'
+      description: 'Samalla rivillä luetaan loppupisteestä sen sijaan, että se kirjoitettaisiin: lista pitää sivun, sivutuksen ja tyhjän tilan, ja jokainen entiteetti sanoo, mitä siitä luetaan — otsikon, mitä se määrittelee, kuvakkeen, minne se johtaa, päivämäärän päähän. Yllä olevat lukemat ovat sen variantteja, `jaettu` sitten `pinnat`.'
+    keeping_up:
+      title: 'Ja pidetään ajan tasalla'
+      description: 'Palkkilista on kokoelma kuten mikä tahansa muu, joten kolme tapaa, joilla kokoelma kuulee, että maailma on edennyt, ovat sille avoimia: sovellus tapahtuma, live-lähde, kysely. Tämä kuuntelee tapahtumaa — soita ja katso rivien palaavan. Katso Ajantasalla pitämistä kolmen vieressä.'
+  sample:
+    minimal:
+      title: 'Otsikko itsessään'
+    icon:
+      title: Etukuvakkeella
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Kvartaali raportit'
+      subtitle: '14 asiakirjaa'
+    link:
+      title: 'Palkki, joka on linkki'
+      subtitle: 'Koko leveys on kohde'
+  search:
+    placeholder: 'Hae kaikkea'
+    value: raportti
+    filter: Suodata
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Henkilö · Tuotetiimi'
+    file:
+      title: 'Kvartaali raportti Q3.pdf'
+      subtitle: 'Asiakirja · 2.4 MB'
+    app:
+      title: Raportointi
+      subtitle: 'Sovellus · Asennettu'
+    setting:
+      title: 'Raportin säilyttäminen'
+      subtitle: 'Asetus · Tallennus'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Omistaja
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Muokkaaja
+    robot:
+      title: Yötuonti
+      subtitle: Palvelutili
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bars
+  page_icon: 'ph:bold/rows'
+  intro: "Une barre nomme une chose en une seule ligne : ce que c'est, comment cela s'appelle, ce qui la qualifie, et ce qui appartient à l'extrémité. C'est une forme, pas un lien — une entité y arrive par son propre modèle, mais un résultat de recherche qui est un fichier, une application ou un paramètre utilise le même balisage."
+  finding:
+    fix: Corriger
+    date: 'Fixer une date'
+    error:
+      title: 'Section obligatoire manquante “Objet”'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'La date de révision est dans le passé'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'Champ propriétaire laissé vide'
+      subtitle: 'Pas bloquant pour un brouillon, requis avant la révision'
+  section:
+    findings:
+      title: Constats
+      description: "Ce qu'un rapport d'analyse indique, une barre chacun : le constat comme titre, où il se trouve comme sous-titre, et ce qui peut y être fait dans l'emplacement de fin — rien là quand rien ne peut être fait ici. La gravité est le ton du bloc, que l'avatar en tête prend aussi."
+    alone:
+      title: 'La barre elle-même'
+      description: "Tout sauf le titre est optionnel. L'emplacement principal prend une icône, ou tout balisage lorsque un véritable avatar est nécessaire ; l'emplacement de fin prend une date, une étiquette, une rangée de boutons. Donné un lien, toute la largeur devient la cible et le titre conserve la couleur de l'endroit où il se trouve."
+    search:
+      title: 'Une liste de résultats'
+      description: "La liste apporte le cadre, le champ de recherche et les séparateurs ; chaque ligne apporte une barre. Rien ici n'est une entité — c'est le but : la même ligne sert une personne, un document, une application et une préférence."
+    surfaces:
+      title: 'Une surface chacune'
+      description: "L'autre lecture d'une liste — pas de fond partagé et pas de ligne, chaque barre se tenant sur son propre bloc avec de la place autour. Rien de nouveau à styliser, la barre prend simplement les classes de bloc, et donné un lien, toute la carte devient la cible."
+    divided:
+      title: 'Une liste simple'
+      description: 'Lorsque le cadre est déjà là, une pile verticale avec des diviseurs suffit — pas de forme propre, juste une ligne entre deux lignes.'
+    vue:
+      title: "Une liste d'eux, en Vue"
+      description: "Les mêmes lignes lues d'un point de terminaison plutôt que écrites : la liste contient la page, la pagination et l'état vide, et chaque entité indique quoi lire dessus — un titre, ce qui la qualifie, une icône, où elle mène, une date à l'extrémité. Les lectures ci-dessus sont ses variantes, `divided` puis `surfaces`."
+    keeping_up:
+      title: 'Et mise à jour'
+      description: "Une liste de barres est une collection comme une autre, donc les trois manières dont une collection entend que le monde a avancé lui sont ouvertes : un événement d'application, une source en direct, un sondage. Celle-ci écoute un événement — sonnez-le et regardez les lignes revenir. Voir Mise à jour pour les trois d'entre eux côte à côte."
+  sample:
+    minimal:
+      title: 'Un titre à lui seul'
+    icon:
+      title: 'Avec une icône de tête'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Rapports trimestriels'
+      subtitle: '14 documents'
+    link:
+      title: 'Une barre qui est un lien'
+      subtitle: 'Toute la largeur est la cible'
+  search:
+    placeholder: 'Rechercher tout'
+    value: rapport
+    filter: Filtrer
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Personne · Équipe produit'
+    file:
+      title: 'Rapport trimestriel Q3.pdf'
+      subtitle: 'Document · 2,4 Mo'
+    app:
+      title: Reporting
+      subtitle: 'Application · Installée'
+    setting:
+      title: 'Conservation des rapports'
+      subtitle: 'Paramètre · Stockage'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Propriétaire
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Éditeur
+    robot:
+      title: 'Importation nocturne'
+      subtitle: 'Compte de service'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ברים
+  page_icon: 'ph:bold/rows'
+  intro: 'בר מפרט דבר אחד בשורה אחת: מהו, מה שמו, מה מגדיר אותו ומה שייך בקצה הרחוק. זו צורה, ולא חיבור — ישות מגיעה אליו דרך התבנית שלה, אך תוצאת חיפוש שהיא קובץ, אפליקציה או הגדרה משתמשת באותו סימון בדיוק.'
+  finding:
+    fix: תיקון
+    date: 'לציין תאריך'
+    error:
+      title: 'חסר סעיף חובה “מטרה”'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'תאריך הסקירה עבר'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'שדה בעלים הושאר ריק'
+      subtitle: 'לא חוסם טיוטה, נדרש לפני סקירה'
+  section:
+    findings:
+      title: ממצאים
+      description: 'מה שדוח ניתוח מדווח, בר אחד לכל: הממצא בכותרת, היכן הוא בכותרת המשנה, ומה ניתן לעשות עליו בסלוט הסופי — כלום שם כאשר אין מה לעשות כאן. החומרה היא הטון של הבלוק, אשר גם הדמות בראש לוקחת.'
+    alone:
+      title: 'הבר עצמו'
+      description: 'הכול מלבד הכותרת הוא אופציונלי. הסלוט הראשי לוקח אייקון, או כל סימון כאשר דמות אמיתית נדרשת; הסלוט הסופי לוקח תאריך, תג, שורת כפתורים. כאשר יש קישור, כל הרוחב הופך ליעד והכותרת שומרת על הצבע של המקום בו היא נמצאת.'
+    search:
+      title: 'רשימת תוצאות'
+      description: 'הרשימה מביאה את המסגרת, את שדה החיפוש ואת המפרידים; כל שורה מביאה בר. שום דבר כאן אינו ישות — זו הנקודה: אותה שורה משרתת אדם, מסמך, אפליקציה והעדפה.'
+    surfaces:
+      title: 'משטח אחד לכל'
+      description: 'הקריאה האחרת של רשימה — ללא רקע משותף וללא קו, כל בר עומד על הבלוק שלו עם מקום סביבו. שום דבר חדש לעצב, הבר פשוט לוקח את מחלקות הבלוק, ואם יש קישור כל הכרטיס הופך ליעד.'
+    divided:
+      title: 'רשימה פשוטה'
+      description: 'כאשר המסגרת כבר שם, ערימה אנכית עם מחיצות מספיקה — אין צורה משלה, רק קו בין שתי שורות.'
+    vue:
+      title: 'רשימה של כאלה, ב-Vue'
+      description: 'אותן שורות נקראות מנקודת קצה ולא נכתבות: הרשימה מחזיקה את העמוד, את ההדר ודState ריק, וכל ישות אומרת מה לקרוא עליה — כותרת, מה מגדיר אותה, אייקון, לאן היא מובילה, תאריך בקצה הרחוק. הקריאות למעלה הן הגרסאות שלה, `divided` ואז `surfaces`.'
+    keeping_up:
+      title: 'ושומרת על עדכניות'
+      description: 'רשימת ברים היא אוסף כמו כל אוסף אחר, כך שהשלוש דרכים שבהן אוסף שומע שהעולם התקדם פתוחות בפניו: אירוע אפליקציה, מקור חי, חיפוש. זה שומע לאירוע — התקשר וצפה בשורות חוזרות. ראה שמירה על עדכניות לשלושתם זה לצד זה.'
+  sample:
+    minimal:
+      title: 'כותרת לבד'
+    icon:
+      title: 'עם אייקון מוביל'
+    subtitle:
+      title: 'מאיה לינדקוויסט'
+      subtitle: maya@example.com
+    trailing:
+      title: 'דוחות רבעוניים'
+      subtitle: '14 מסמכים'
+    link:
+      title: 'בר שהוא קישור'
+      subtitle: 'כל הרוחב הוא היעד'
+  search:
+    placeholder: 'חפש הכל'
+    value: דוח
+    filter: סנן
+  result:
+    user:
+      title: 'מאיה לינדקוויסט'
+      subtitle: 'אדם · צוות מוצר'
+    file:
+      title: 'דוח רבעוני Q3.pdf'
+      subtitle: 'מסמך · 2.4 MB'
+    app:
+      title: דיווח
+      subtitle: 'אפליקציה · מותקנת'
+    setting:
+      title: 'שימור דוחות'
+      subtitle: 'הגדרה · אחסון'
+  member:
+    maya:
+      title: 'מאיה לינדקוויסט'
+      subtitle: בעלים
+    sam:
+      title: 'סם אוקונקווא'
+      subtitle: עורך
+    robot:
+      title: 'ייבוא לילי'
+      subtitle: 'חשבון שירות'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: बार्स
+  page_icon: 'ph:bold/rows'
+  intro: 'एक बार एक ही पंक्ति में एक चीज़ का नाम लेता है: यह क्या है, इसे क्या कहा जाता है, क्या इसे योग्य बनाता है, और क्या सबसे दूर है। यह एक आकार है, बंधन नहीं — एक इकाई इसे अपने स्वयं के टेम्पलेट के माध्यम से पहुँचती है, लेकिन एक खोज परिणाम जो एक फ़ाइल, एक ऐप या एक सेटिंग है, वही मार्कअप का उपयोग करता है।'
+  finding:
+    fix: 'ठीक करें'
+    date: 'एक तारीख सेट करें'
+    error:
+      title: 'अनिवार्य सेक्शन "उद्देश्य" गायब है'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'समीक्षा की तारीख अतीत में है'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'स्वामी फ़ील्ड खाली छोड़ दिया गया'
+      subtitle: 'एक ड्राफ्ट के लिए अवरोध नहीं, समीक्षा से पहले आवश्यक'
+  section:
+    findings:
+      title: खोजें
+      description: 'एक विश्लेषण जो रिपोर्ट करता है, एक बार प्रत्येक: खोज शीर्षक के रूप में, यह कहां है उपशीर्षक के रूप में, और इसके बारे में क्या किया जा सकता है पीछे के स्लॉट में — जब यहां कुछ नहीं किया जा सकता है तो कुछ नहीं है। गंभीरता ब्लॉक का स्वर है, जिसे शीर्ष पर अवतार भी लेता है।'
+    alone:
+      title: 'बार स्वयं'
+      description: 'शीर्षक के अलावा सब कुछ वैकल्पिक है। अग्रणी स्लॉट एक आइकन लेता है, या किसी वास्तविक अवतार की आवश्यकता होने पर कोई मार्कअप; पीछे के स्लॉट में एक तारीख, एक टैग, बटन की एक पंक्ति होती है। एक लिंक दिए जाने पर, पूरी चौड़ाई लक्ष्य बन जाती है और शीर्षक उस रंग को बनाए रखता है जहां यह बैठता है।'
+    search:
+      title: 'परिणामों की सूची'
+      description: 'सूची ढांचे, खोज फ़ील्ड और विभाजकों को लाती है; प्रत्येक पंक्ति एक बार लाती है। यहाँ कुछ भी एक इकाई नहीं है — यही बात है: वही पंक्ति एक व्यक्ति, एक दस्तावेज़, एक आवेदन और एक प्राथमिकता के लिए काम करती है।'
+    surfaces:
+      title: 'एक सतह प्रत्येक'
+      description: 'एक सूची का दूसरा पढ़ना — कोई साझा पृष्ठभूमि नहीं और कोई रेखा नहीं, प्रत्येक बार अपने स्वयं के ब्लॉक पर खड़ा है और इसके चारों ओर जगह है। स्टाइल करने के लिए कुछ नया नहीं है, बार बस ब्लॉक वर्ग लेता है, और एक लिंक दिए जाने पर पूरा कार्ड लक्ष्य बन जाता है।'
+    divided:
+      title: 'एक नंग सूची'
+      description: 'जब ढांचा पहले से ही मौजूद है, तो डिवाइडर्स के साथ एक लंबवत स्टैक काफी है — इसका अपना कोई आकार नहीं, बस दो पंक्तियों के बीच एक रेखा।'
+    vue:
+      title: 'उनकी एक सूची, Vue में'
+      description: 'वही पंक्तियाँ एक एंडपॉइंट से पढ़ी जाती हैं न कि लिखी जाती हैं: सूची पृष्ठ, पृष्ठकरण और खाली स्थिति को बनाए रखती है, और प्रत्येक इकाई यह बताती है कि इसे उस पर क्या पढ़ना है — एक शीर्षक, इसे योग्य बनाने वाला, एक आइकन, यह कहाँ ले जाता है, एक तारीख सबसे दूर है। ऊपर की पढ़ाई इसके रूपांतरण हैं, `divided` फिर `surfaces`।'
+    keeping_up:
+      title: 'और अद्यतित रखा गया'
+      description: 'एक बार सूची एक संग्रह है जैसे कोई अन्य, इसलिए तीन तरीके जिनसे एक संग्रह सुनता है कि दुनिया आगे बढ़ गई है, उसके लिए खुले हैं: एक ऐप इवेंट, एक लाइव स्रोत, पॉलिंग। यह एक इवेंट को सुनता है — इसे बजाएं और पंक्तियाँ वापस आती हैं। देखिए Keeping up तीनों को एक साथ।'
+  sample:
+    minimal:
+      title: 'एक शीर्षक अपने आप में'
+    icon:
+      title: 'एक अग्रणी आइकन के साथ'
+    subtitle:
+      title: 'माया लिंडक्विस्ट'
+      subtitle: maya@example.com
+    trailing:
+      title: 'त्रैमासिक रिपोर्ट'
+      subtitle: '14 दस्तावेज़'
+    link:
+      title: 'एक लिंक वाली बार'
+      subtitle: 'पूरी चौड़ाई लक्ष्य है'
+  search:
+    placeholder: 'सब कुछ खोजें'
+    value: रिपोर्ट
+    filter: फिल्टर
+  result:
+    user:
+      title: 'माया लिंडक्विस्ट'
+      subtitle: 'व्यक्ति · उत्पाद टीम'
+    file:
+      title: 'त्रैमासिक रिपोर्ट Q3.pdf'
+      subtitle: 'दस्तावेज़ · 2.4 MB'
+    app:
+      title: रिपोर्टिंग
+      subtitle: 'एप्लिकेशन · स्थापित'
+    setting:
+      title: 'रिपोर्ट संरक्षण'
+      subtitle: 'सेटिंग · संग्रहण'
+  member:
+    maya:
+      title: 'माया लिंडक्विस्ट'
+      subtitle: स्वामी
+    sam:
+      title: 'सैम ओकोंको'
+      subtitle: संपादक
+    robot:
+      title: 'नाइटली आयात'
+      subtitle: 'सेवा खाता'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bilah
+  page_icon: 'ph:bold/rows'
+  intro: 'Sebuah bilah menyebutkan satu hal dalam satu baris: apa itu, apa namanya, apa yang memenuhi syaratnya, dan apa yang berada di ujung jauh. Ini adalah bentuk, bukan ikatan — sebuah entitas mencapainya melalui templatenya sendiri, tetapi hasil pencarian yang merupakan file, aplikasi, atau pengaturan menggunakan markup yang sama.'
+  finding:
+    fix: Perbaiki
+    date: 'Tentukan tanggal'
+    error:
+      title: 'Bagian wajib “Tujuan” hilang'
+      subtitle: 01-PROSES/PR-004-kontrol-dokumen.md
+    warning:
+      title: 'Tanggal tinjauan sudah lewat'
+      subtitle: '01-PROSES/PR-004-kontrol-dokumen.md:4'
+    info:
+      title: 'Kolom pemilik dibiarkan kosong'
+      subtitle: 'Tidak menghalangi untuk draf, diperlukan sebelum tinjauan'
+  section:
+    findings:
+      title: Temuan
+      description: 'Apa yang dilaporkan oleh analisis, satu bilah masing-masing: temuan sebagai judul, di mana itu sebagai subtitle, dan apa yang dapat dilakukan tentangnya di slot akhir — tidak ada di sana ketika tidak ada yang dapat dilakukan di sini. Tingkat keparahan adalah nada blok, yang juga diambil oleh avatar di bagian atas.'
+    alone:
+      title: 'Bilah itu sendiri'
+      description: 'Semuanya kecuali judul adalah opsional. Slot utama mengambil ikon, atau markup apa pun ketika avatar nyata diperlukan; slot akhir mengambil tanggal, tag, atau baris tombol. Diberikan sebuah tautan, seluruh lebar menjadi target dan judul mempertahankan warna tempat ia berada.'
+    search:
+      title: 'Daftar hasil'
+      description: 'Daftar membawa bingkai, kolom pencarian dan pemisah; setiap baris membawa sebuah bilah. Tidak ada di sini yang merupakan entitas — itu adalah intinya: baris yang sama melayani orang, dokumen, aplikasi, dan preferensi.'
+    surfaces:
+      title: 'Satu permukaan masing-masing'
+      description: 'Pembacaan lain dari daftar — tidak ada latar belakang yang dibagikan dan tidak ada garis, setiap bilah berdiri di bloknya sendiri dengan ruang di sekelilingnya. Tidak ada yang baru untuk ditata, bilah hanya mengambil kelas blok, dan diberikan sebuah tautan seluruh kartu menjadi target.'
+    divided:
+      title: 'Daftar kosong'
+      description: 'Ketika bingkai sudah ada, tumpukan vertikal dengan pemisah sudah cukup — tidak ada bentuknya sendiri, hanya garis antara dua baris.'
+    vue:
+      title: 'Daftar mereka, dalam Vue'
+      description: 'Baris yang sama dibaca dari titik akhir daripada ditulis: daftar memuat halaman, pagination, dan keadaan kosong, dan setiap entitas mengatakan apa yang harus dibaca di dalamnya — sebuah judul, apa yang memenuhi syaratnya, sebuah ikon, ke mana ia mengarah, sebuah tanggal di ujung jauh. Pembacaan di atas adalah variannya, `dibagi` lalu `permukaan`.'
+    keeping_up:
+      title: 'Dan tetap diperbarui'
+      description: 'Daftar bilah adalah koleksi seperti lainnya, jadi tiga cara sebuah koleksi mendengar bahwa dunia telah bergerak maju terbuka untuknya: acara aplikasi, sumber langsung, polling. Yang ini mendengarkan sebuah acara — bunyikan dan lihat baris kembali. Lihat Menjaga agar tetap diperbarui untuk ketiganya berdampingan.'
+  sample:
+    minimal:
+      title: 'Judul sendiri'
+    icon:
+      title: 'Dengan ikon utama'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Laporan triwulanan'
+      subtitle: '14 dokumen'
+    link:
+      title: 'Sebuah bilah yang merupakan tautan'
+      subtitle: 'Seluruh lebar adalah target'
+  search:
+    placeholder: 'Cari semuanya'
+    value: laporan
+    filter: Saring
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Orang · Tim produk'
+    file:
+      title: 'Laporan triwulanan Q3.pdf'
+      subtitle: 'Dokumen · 2,4 MB'
+    app:
+      title: Pelaporan
+      subtitle: 'Aplikasi · Terinstal'
+    setting:
+      title: 'Retensi laporan'
+      subtitle: 'Pengaturan · Penyimpanan'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Pemilik
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Editor
+    robot:
+      title: 'Impor malam'
+      subtitle: 'Akun layanan'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Barre
+  page_icon: 'ph:bold/rows'
+  intro: "Una barra nomina una cosa in un'unica riga: cos'è, come si chiama, cosa la qualifica e cosa appartiene all'estremità opposta. È una forma, non un vincolo — un'entità la raggiunge attraverso il proprio modello, ma un risultato di ricerca che è un file, un'app o un'impostazione utilizza esattamente lo stesso markup."
+  finding:
+    fix: Correggi
+    date: 'Imposta una data'
+    error:
+      title: 'Sezione obbligatoria “Scopo” mancante'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'La data di revisione è nel passato'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'Campo proprietario lasciato vuoto'
+      subtitle: 'Non blocca per una bozza, richiesto prima della revisione'
+  section:
+    findings:
+      title: Osservazioni
+      description: "Ciò che riporta un'analisi, una barra ciascuna: l'osservazione come titolo, dove si trova come sottotitolo e cosa si può fare al riguardo nello slot finale — nulla qui quando non si può fare nulla. La gravità è il tono del blocco, che l'avatar in testa prende anch'esso."
+    alone:
+      title: 'La barra stessa'
+      description: "Tutto tranne il titolo è facoltativo. Lo slot principale prende un'icona, o qualsiasi markup quando è necessario un vero avatar; lo slot finale prende una data, un tag, una fila di pulsanti. Dato un link, l'intera larghezza diventa il target e il titolo mantiene il colore del posto in cui si trova."
+    search:
+      title: 'Un elenco di risultati'
+      description: "L'elenco porta il telaio, il campo di ricerca e i separatori; ogni riga porta una barra. Nulla qui è un'entità — questo è il punto: la stessa riga serve una persona, un documento, un'applicazione e una preferenza."
+    surfaces:
+      title: 'Una superficie ciascuna'
+      description: "L'altra lettura di un elenco — nessuno sfondo condiviso e nessuna linea, ogni barra sta sul proprio blocco con spazio attorno. Nulla di nuovo da stilizzare, la barra prende semplicemente le classi del blocco, e dato un link l'intera scheda diventa il target."
+    divided:
+      title: 'Un elenco semplice'
+      description: 'Quando il telaio è già presente, una pila verticale con divisori è sufficiente — nessuna forma propria, solo una linea tra due righe.'
+    vue:
+      title: 'Un elenco di essi, in Vue'
+      description: "Le stesse righe lette da un endpoint piuttosto che scritte: l'elenco contiene la pagina, la paginazione e lo stato vuoto, e ogni entità dice cosa leggere su di essa — un titolo, cosa la qualifica, un'icona, dove porta, una data all'estremità opposta. Le letture sopra sono le sue varianti, `divided` poi `surfaces`."
+    keeping_up:
+      title: 'E mantenuto aggiornato'
+      description: "Un elenco di barre è una collezione come qualsiasi altra, quindi i tre modi in cui una collezione percepisce che il mondo è andato avanti sono aperti a essa: un evento dell'app, una fonte live, polling. Questo ascolta un evento — chiamalo e guarda le righe tornare. Vedi Mantenere aggiornato per i tre affiancati."
+  sample:
+    minimal:
+      title: 'Un titolo a sé'
+    icon:
+      title: "Con un'icona iniziale"
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Report trimestrali'
+      subtitle: '14 documenti'
+    link:
+      title: 'Una barra che è un link'
+      subtitle: "L'intera larghezza è il target"
+  search:
+    placeholder: 'Cerca tutto'
+    value: report
+    filter: Filtra
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Persona · Team prodotto'
+    file:
+      title: 'Report trimestrale Q3.pdf'
+      subtitle: 'Documento · 2.4 MB'
+    app:
+      title: Reporting
+      subtitle: 'Applicazione · Installata'
+    setting:
+      title: 'Conservazione dei report'
+      subtitle: 'Impostazione · Archiviazione'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Proprietario
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Editore
+    robot:
+      title: 'Importazione notturna'
+      subtitle: 'Account di servizio'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: バー
+  page_icon: 'ph:bold/rows'
+  intro: 'バーは、1行で1つの事柄を示します：それが何であるか、何と呼ばれるか、それを定義するもの、そして端に何があるか。これは形であり、バインディングではありません — エンティティは自身のテンプレートを通じてそれに到達しますが、ファイル、アプリ、または設定の検索結果は同じマークアップを使用します。'
+  finding:
+    fix: 修正
+    date: 日付を設定
+    error:
+      title: 必須セクション「目的」が欠落しています
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: レビュー日が過去です
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 所有者フィールドが空です
+      subtitle: ドラフトにはブロックされませんが、レビュー前に必要です
+  section:
+    findings:
+      title: 所見
+      description: '分析が報告する内容、1つのバーごとに：所見がタイトル、どこにあるかがサブタイトル、そしてそれに対処できることが後のスロットに示されます — ここで何もできない場合は何もありません。深刻度はブロックのトーンであり、先頭のアバターもそれを受け取ります。'
+    alone:
+      title: バー自体
+      description: タイトル以外はすべてオプションです。先頭のスロットにはアイコン、または本物のアバターが必要な場合はマークアップが入ります；後のスロットには日付、タグ、ボタンの行が入ります。リンクが与えられた場合、全幅がターゲットとなり、タイトルはその位置の色を保持します。
+    search:
+      title: 結果のリスト
+      description: 'リストはフレーム、検索フィールド、区切りを提供します；各行はバーを持ちます。ここにはエンティティはありません — それが要点です：同じ行が人、文書、アプリ、そして好みにサービスします。'
+    surfaces:
+      title: それぞれのサーフェス
+      description: 'リストの別の読み方 — 共有された背景も線もなく、各バーが自分のブロックの上に立って周囲にスペースがあります。スタイルを変更する新しいものはなく、バーは単にブロッククラスを受け取ります。リンクが与えられた場合、全カードがターゲットとなります。'
+    divided:
+      title: シンプルなリスト
+      description: 'フレームがすでにある場合、区切りのある垂直スタックで十分です — 自身の形はなく、2つの行の間にただ線があります。'
+    vue:
+      title: Vueでのリスト
+      description: '同じ行がエンドポイントから読み込まれ、書き出されるのではなく：リストはページ、ページネーション、空の状態を保持し、それぞれのエンティティは何を読むべきかを示します — タイトル、それを定義するもの、アイコン、どこに導くか、端にある日付。上記の読み方はそのバリエーションであり、`divided` から `surfaces` です。'
+    keeping_up:
+      title: 最新の情報を保持
+      description: 'バーリストは他のコレクションと同様であり、世界が進んだことをコレクションが知る3つの方法が開かれています：アプリイベント、ライブソース、ポーリング。このリストはイベントを聞きます — リングして行が戻ってくるのを見てください。並んでいる3つの側面のために「最新の情報を保持」を参照してください。'
+  sample:
+    minimal:
+      title: 単独のタイトル
+    icon:
+      title: 先頭にアイコン付き
+    subtitle:
+      title: マヤ・リンドクヴィスト
+      subtitle: maya@example.com
+    trailing:
+      title: 四半期報告
+      subtitle: 14件の文書
+    link:
+      title: リンクのバー
+      subtitle: 全幅がターゲット
+  search:
+    placeholder: すべてを検索
+    value: 報告
+    filter: フィルター
+  result:
+    user:
+      title: マヤ・リンドクヴィスト
+      subtitle: '人物 · プロダクトチーム'
+    file:
+      title: '四半期報告 Q3.pdf'
+      subtitle: '文書 · 2.4 MB'
+    app:
+      title: 報告
+      subtitle: 'アプリケーション · インストール済み'
+    setting:
+      title: 報告保持
+      subtitle: '設定 · ストレージ'
+  member:
+    maya:
+      title: マヤ・リンドクヴィスト
+      subtitle: 所有者
+    sam:
+      title: サム・オコンコ
+      subtitle: 編集者
+    robot:
+      title: ナイトリーインポート
+      subtitle: サービスアカウント
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 막대
+  page_icon: 'ph:bold/rows'
+  intro: '막대는 한 줄에 하나의 항목을 지칭합니다: 그것이 무엇인지, 무엇이라고 불리는지, 어떤 자격이 있는지, 그리고 끝에 무엇이 있는지. 그것은 형태이지, 구속이 아닙니다 — 엔티티는 자신의 템플릿을 통해 도달하지만, 파일, 앱 또는 설정인 검색 결과는 같은 마크업을 사용합니다.'
+  finding:
+    fix: 수정
+    date: '날짜 설정'
+    error:
+      title: '필수 항목 “목적”이 누락되었습니다'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: '검토 날짜가 과거입니다'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: '소유자 필드가 비어 있습니다'
+      subtitle: '초안에 대해 차단되지 않으며, 검토 전에 필요합니다'
+  section:
+    findings:
+      title: 결과
+      description: '분석이 보고하는 내용, 각 막대마다: 제목으로 결과, 부제목으로 위치, 그리고 마지막 슬롯에서 그것에 대해 할 수 있는 것 — 할 수 있는 것이 없으면 빈칸입니다. 심각도는 블록의 톤이며, 머리의 아바타도 이를 반영합니다.'
+    alone:
+      title: '막대 자체'
+      description: '제목을 제외한 모든 것은 선택 사항입니다. 선행 슬롯은 아이콘이나 실제 아바타가 필요할 때 마크업을 가집니다; 후행 슬롯은 날짜, 태그, 버튼 행을 가집니다. 링크가 주어지면 전체 너비가 대상이 되고 제목은 위치에 따라 색상을 유지합니다.'
+    search:
+      title: '결과 목록'
+      description: '목록은 프레임, 검색 필드 및 구분자를 가져옵니다; 각 행은 막대를 가져옵니다. 여기에는 어떤 것도 엔티티가 아닙니다 — 그게 요점입니다: 같은 행이 사람, 문서, 애플리케이션 및 선호도를 제공합니다.'
+    surfaces:
+      title: '각각의 표면'
+      description: '목록의 또 다른 해석 — 공유 배경이 없고 선이 없는, 각 막대가 자율 블록에 서 있습니다. 스타일을 위한 새로운 것이 없으며, 막대는 단순히 블록 클래스를 사용하고, 링크가 주어지면 전체 카드가 대상이 됩니다.'
+    divided:
+      title: '벌거벗은 목록'
+      description: '프레임이 이미 존재할 때, 구분자가 있는 수직 스택이면 충분합니다 — 자체 형태가 없고, 두 행 사이에 선만 있습니다.'
+    vue:
+      title: 'Vue에서의 목록'
+      description: '같은 행이 작성된 것이 아니라 엔드포인트에서 읽혀집니다: 목록은 페이지, 페이지네이션 및 빈 상태를 보유하며, 각 엔티티는 무엇을 읽을지 말합니다 — 제목, 자격, 아이콘, 어디로 가는지, 끝에 날짜. 위의 읽기는 이의 변형으로, `divided` 다음에 `surfaces`입니다.'
+    keeping_up:
+      title: '그리고 최신 상태로 유지'
+      description: '막대 목록은 다른 모든 컬렉션처럼 컬렉션입니다, 그래서 세 가지 방법으로 세상이 변했다는 것을 알 수 있습니다: 앱 이벤트, 실시간 소스, 폴링. 이 목록은 이벤트를 듣습니다 — 링을 울리고 행이 돌아오는 것을 지켜보세요. 그들 사이에 세 가지를 나란히 유지하는 것을 참조하세요.'
+  sample:
+    minimal:
+      title: '혼자 있는 제목'
+    icon:
+      title: '앞에 아이콘이 있는'
+    subtitle:
+      title: '마야 린드퀴스트'
+      subtitle: maya@example.com
+    trailing:
+      title: '분기 보고서'
+      subtitle: '14 문서'
+    link:
+      title: '링크인 막대'
+      subtitle: '전체 너비가 대상입니다'
+  search:
+    placeholder: '모두 검색'
+    value: 보고서
+    filter: 필터
+  result:
+    user:
+      title: '마야 린드퀴스트'
+      subtitle: '사람 · 제품 팀'
+    file:
+      title: '분기 보고서 Q3.pdf'
+      subtitle: '문서 · 2.4 MB'
+    app:
+      title: 보고
+      subtitle: '애플리케이션 · 설치됨'
+    setting:
+      title: '보고서 보존'
+      subtitle: '설정 · 저장소'
+  member:
+    maya:
+      title: '마야 린드퀴스트'
+      subtitle: 소유자
+    sam:
+      title: '샘 오콩코'
+      subtitle: 편집자
+    robot:
+      title: '야간 가져오기'
+      subtitle: '서비스 계정'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bars
+  page_icon: 'ph:bold/rows'
+  intro: 'Een bar benoemt één ding in één regel: wat het is, hoe het heet, wat het kwalificeert en wat aan de uiteinde hoort. Het is een vorm, geen binding — een entiteit bereikt het via zijn eigen sjabloon, maar een zoekresultaat dat een bestand, een app of een instelling is, gebruikt dezelfde opmaak.'
+  finding:
+    fix: Herstellen
+    date: 'Stel een datum in'
+    error:
+      title: 'Vereiste sectie “Doel” ontbreekt'
+      subtitle: 01-PROCESSEN/PR-004-document-beheer.md
+    warning:
+      title: 'Beoordelingsdatum ligt in het verleden'
+      subtitle: '01-PROCESSEN/PR-004-document-beheer.md:4'
+    info:
+      title: 'Eigenaar veld is leeg gelaten'
+      subtitle: 'Niet blokkeren voor een concept, vereist voor beoordeling'
+  section:
+    findings:
+      title: Vondsten
+      description: 'Wat een analyse rapporteert, één bar elk: de bevinding als titel, waar het is als subtitel, en wat eraan gedaan kan worden in de achterste slot — niets daar wanneer er hier niets kan worden gedaan. De ernst is de toon van het blok, die de avatar aan de kop ook overneemt.'
+    alone:
+      title: 'De bar zelf'
+      description: 'Alles behalve de titel is optioneel. De voorste slot neemt een icoon, of enige opmaak wanneer een echte avatar nodig is; de achterste slot neemt een datum, een tag, een rij knoppen. Gezien een link, wordt de gehele breedte het doel en behoudt de titel de kleur van waar het zich bevindt.'
+    search:
+      title: 'Een lijst van resultaten'
+      description: 'De lijst brengt het frame, het zoekveld en de scheidingen; elke rij brengt een bar. Niets hier is een entiteit — dat is het punt: dezelfde rij dient een persoon, een document, een applicatie en een voorkeur.'
+    surfaces:
+      title: 'Één oppervlakte elk'
+      description: 'De andere lezing van een lijst — geen gedeelde achtergrond en geen lijn, elke bar staat op zijn eigen blok met ruimte eromheen. Niets nieuws om te stylen, de bar neemt gewoon de blokklassen over, en gezien een link wordt de gehele kaart het doel.'
+    divided:
+      title: 'Een blote lijst'
+      description: 'Wanneer het frame er al is, is een verticale stapel met scheidingslijnen voldoende — geen vorm op zichzelf, enkel een lijn tussen twee rijen.'
+    vue:
+      title: 'Een lijst ervan, in Vue'
+      description: 'Dezelfde rijen gelezen vanaf een eindpunt in plaats van uitgeschreven: de lijst bevat de pagina, de paginering en de lege staat, en elke entiteit zegt wat erop te lezen valt — een titel, wat het kwalificeert, een icoon, waar het naartoe leidt, een datum aan de uiteinde. De bovengenoemde lezingen zijn zijn varianten, `gedeeld` dan `oppervlakken`.'
+    keeping_up:
+      title: 'En actueel gehouden'
+      description: 'Een bar lijst is een verzameling zoals elke andere, dus de drie manieren waarop een verzameling hoort dat de wereld verder is gegaan, zijn ook voor haar open: een app-evenement, een live bron, polling. Deze luistert naar een evenement — bel het en kijk de rijen terugkomen. Zie Actueel houden voor de drie van hen naast elkaar.'
+  sample:
+    minimal:
+      title: 'Een titel op zichzelf'
+    icon:
+      title: 'Met een voorste icoon'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: Kwartaalrapporten
+      subtitle: '14 documenten'
+    link:
+      title: 'Een bar die een link is'
+      subtitle: 'De gehele breedte is het doel'
+  search:
+    placeholder: 'Zoek alles'
+    value: rapport
+    filter: Filteren
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Persoon · Productteam'
+    file:
+      title: 'Kwartaalrapport Q3.pdf'
+      subtitle: 'Document · 2,4 MB'
+    app:
+      title: Rapportage
+      subtitle: 'Applicatie · Geïnstalleerd'
+    setting:
+      title: Rapportbewaring
+      subtitle: 'Instelling · Opslag'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Eigenaar
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Redacteur
+    robot:
+      title: 'Nachtelijke import'
+      subtitle: 'Service account'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Paski
+  page_icon: 'ph:bold/rows'
+  intro: 'Pasek nazywa jedną rzecz w jednej linii: czym jest, jak się nazywa, co go kwalifikuje i co należy do jego końca. To kształt, nie powiązanie — jednostka osiąga go przez własny szablon, ale wynik wyszukiwania, który jest plikiem, aplikacją lub ustawieniem, używa tego samego oznaczenia.'
+  finding:
+    fix: Napraw
+    date: 'Ustaw datę'
+    error:
+      title: 'Brak obowiązkowej sekcji „Cel”'
+      subtitle: 01-PROCESY/PR-004-dokumentacja-kontroli.md
+    warning:
+      title: 'Data przeglądu jest w przeszłości'
+      subtitle: '01-PROCESY/PR-004-dokumentacja-kontroli.md:4'
+    info:
+      title: 'Pole właściciela pozostawione puste'
+      subtitle: 'Nie blokuje dla szkicu, wymagane przed przeglądem'
+  section:
+    findings:
+      title: Wyniki
+      description: 'Co raportuje analiza, jeden pasek każdy: wynik jako tytuł, gdzie jest jako podtytuł, i co można z tym zrobić w ostatnim miejscu — nic tam, gdy nic nie można zrobić. Powaga to ton bloku, który avatar na górze również przyjmuje.'
+    alone:
+      title: 'Sam pasek'
+      description: 'Wszystko poza tytułem jest opcjonalne. Wiodące miejsce zajmuje ikona lub jakiekolwiek oznaczenie, gdy potrzebny jest prawdziwy avatar; ostatnie miejsce zajmuje data, tag, rząd przycisków. Dany link, cała szerokość staje się celem, a tytuł zachowuje kolor miejsca, w którym się znajduje.'
+    search:
+      title: 'Lista wyników'
+      description: 'Lista przynosi ramkę, pole wyszukiwania i separatory; każdy wiersz przynosi pasek. Nic tutaj nie jest jednostką — to jest sens: ten sam wiersz służy osobie, dokumentowi, aplikacji i preferencji.'
+    surfaces:
+      title: 'Jedna powierzchnia dla każdego'
+      description: 'Inne odczytanie listy — brak wspólnego tła i linii, każdy pasek stojący na własnym bloku z przestrzenią wokół. Nic nowego do stylizacji, pasek po prostu przyjmuje klasy bloku, a dany link sprawia, że cała karta staje się celem.'
+    divided:
+      title: 'Pusta lista'
+      description: 'Gdy ramka już jest, pionowy stos z przegrodami wystarczy — brak własnego kształtu, tylko linia między dwoma wierszami.'
+    vue:
+      title: 'Lista ich w Vue'
+      description: 'Te same wiersze odczytane z punktu końcowego, a nie zapisane: lista zawiera stronę, paginację i stan pusty, a każda jednostka mówi, co należy na niej odczytać — tytuł, co ją kwalifikuje, ikonę, dokąd prowadzi, datę na końcu. Odczyty powyżej to jej warianty, `podzielona`, a potem `powierzchnie`.'
+    keeping_up:
+      title: 'I utrzymywana na bieżąco'
+      description: 'Lista pasków to zbiór jak każdy inny, więc trzy sposoby, w jakie zbiór słyszy, że świat się zmienił, są dla niego otwarte: zdarzenie aplikacji, źródło na żywo, polling. Ten słucha zdarzenia — zadzwoń i obserwuj, jak wiersze wracają. Zobacz Utrzymywanie aktualności dla trzech z nich obok siebie.'
+  sample:
+    minimal:
+      title: 'Tytuł samodzielny'
+    icon:
+      title: 'Z wiodącą ikoną'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Raporty kwartalne'
+      subtitle: '14 dokumentów'
+    link:
+      title: 'Pasek, który jest linkiem'
+      subtitle: 'Cała szerokość jest celem'
+  search:
+    placeholder: 'Szukaj wszystkiego'
+    value: raport
+    filter: Filtruj
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Osoba · Zespół produktowy'
+    file:
+      title: 'Raport kwartalny Q3.pdf'
+      subtitle: 'Dokument · 2.4 MB'
+    app:
+      title: Raportowanie
+      subtitle: 'Aplikacja · Zainstalowana'
+    setting:
+      title: 'Zachowanie raportu'
+      subtitle: 'Ustawienie · Przechowywanie'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Właściciel
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Redaktor
+    robot:
+      title: 'Nocny import'
+      subtitle: 'Konto serwisowe'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Barras
+  page_icon: 'ph:bold/rows'
+  intro: 'Uma barra nomeia uma coisa em uma única linha: o que é, como se chama, o que a qualifica e o que pertence à extremidade. É uma forma, não uma ligação — uma entidade a alcança através de seu próprio modelo, mas um resultado de busca que é um arquivo, um aplicativo ou uma configuração usa a mesma marcação.'
+  finding:
+    fix: Corrigir
+    date: 'Definir uma data'
+    error:
+      title: 'Seção obrigatória “Propósito” ausente'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'Data de revisão está no passado'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'Campo do proprietário deixado em branco'
+      subtitle: 'Não bloqueia para um rascunho, necessário antes da revisão'
+  section:
+    findings:
+      title: Constatações
+      description: 'O que uma análise reporta, uma barra cada: a constatação como título, onde está como subtítulo, e o que pode ser feito sobre isso no espaço final — nada ali quando nada pode ser feito aqui. A gravidade é o tom do bloco, que o avatar na parte superior também assume.'
+    alone:
+      title: 'A barra em si'
+      description: 'Tudo, exceto o título, é opcional. O espaço inicial recebe um ícone ou qualquer marcação quando um avatar real é necessário; o espaço final recebe uma data, uma etiqueta, uma linha de botões. Dado um link, toda a largura se torna o alvo e o título mantém a cor de onde está.'
+    search:
+      title: 'Uma lista de resultados'
+      description: 'A lista traz a moldura, o campo de busca e os separadores; cada linha traz uma barra. Nada aqui é uma entidade — esse é o ponto: a mesma linha serve uma pessoa, um documento, um aplicativo e uma preferência.'
+    surfaces:
+      title: 'Uma superfície cada'
+      description: 'A outra leitura de uma lista — sem fundo compartilhado e sem linha, cada barra fica em seu próprio bloco com espaço ao redor. Nada novo para estilizar, a barra simplesmente assume as classes do bloco, e dado um link, todo o cartão se torna o alvo.'
+    divided:
+      title: 'Uma lista simples'
+      description: 'Quando a moldura já está lá, uma pilha vertical com divisórias é suficiente — sem forma própria, apenas uma linha entre duas linhas.'
+    vue:
+      title: 'Uma lista delas, em Vue'
+      description: 'As mesmas linhas lidas de um endpoint em vez de escritas: a lista contém a página, a paginação e o estado vazio, e cada entidade diz o que ler nela — um título, o que a qualifica, um ícone, para onde leva, uma data na extremidade. As leituras acima são suas variantes, `dividida` então `superfícies`.'
+    keeping_up:
+      title: 'E mantida atualizada'
+      description: 'Uma lista de barras é uma coleção como qualquer outra, então as três maneiras de uma coleção ouvir que o mundo avançou estão abertas a ela: um evento de aplicativo, uma fonte ao vivo, polling. Esta escuta um evento — toque e veja as linhas voltarem. Veja Mantendo atualizado para os três lado a lado.'
+  sample:
+    minimal:
+      title: 'Um título por conta própria'
+    icon:
+      title: 'Com um ícone inicial'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Relatórios trimestrais'
+      subtitle: '14 documentos'
+    link:
+      title: 'Uma barra que é um link'
+      subtitle: 'Toda a largura é o alvo'
+  search:
+    placeholder: 'Pesquisar tudo'
+    value: relatório
+    filter: Filtrar
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Pessoa · Equipe de produto'
+    file:
+      title: 'Relatório trimestral Q3.pdf'
+      subtitle: 'Documento · 2.4 MB'
+    app:
+      title: Relatórios
+      subtitle: 'Aplicativo · Instalado'
+    setting:
+      title: 'Retenção de relatórios'
+      subtitle: 'Configuração · Armazenamento'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Proprietária
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Editor
+    robot:
+      title: 'Importação noturna'
+      subtitle: 'Conta de serviço'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Панели
+  page_icon: 'ph:bold/rows'
+  intro: 'Панель обозначает одну вещь в одной строке: что это, как это называется, что его квалифицирует и что находится на дальнем конце. Это форма, а не привязка — сущность достигает ее через свой собственный шаблон, но результат поиска, который является файлом, приложением или настройкой, использует ту же разметку.'
+  finding:
+    fix: Исправить
+    date: 'Установить дату'
+    error:
+      title: 'Отсутствует обязательный раздел «Цель»'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'Дата проверки в прошлом'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'Поле владельца оставлено пустым'
+      subtitle: 'Не блокирует черновик, требуется перед проверкой'
+  section:
+    findings:
+      title: Выводы
+      description: 'Что сообщает анализ, по одной панели: вывод в качестве заголовка, его местоположение в качестве подзаголовка и что можно с этим сделать в завершающем слоте — ничего нет, когда ничего нельзя сделать. Степень серьезности — это тон блока, который также принимает аватар в начале.'
+    alone:
+      title: 'Сама панель'
+      description: 'Все, кроме заголовка, является необязательным. Ведущий слот принимает значок или любую разметку, когда нужен реальный аватар; завершающий слот принимает дату, тег, ряд кнопок. Учитывая ссылку, вся ширина становится целью, а заголовок сохраняет цвет, в котором он находится.'
+    search:
+      title: 'Список результатов'
+      description: 'Список приносит рамку, поле поиска и разделители; каждая строка представляет собой панель. Ничто здесь не является сущностью — в этом и дело: одна и та же строка обслуживает человека, документ, приложение и предпочтение.'
+    surfaces:
+      title: 'По одной поверхности'
+      description: 'Другой взгляд на список — без общего фона и без линии, каждая панель стоит на своем блоке с пространством вокруг. Ничего нового в оформлении, панель просто принимает классы блока, и учитывая ссылку, вся карточка становится целью.'
+    divided:
+      title: 'Простой список'
+      description: 'Когда рамка уже есть, вертикальный стек с разделителями достаточно — без формы, просто линия между двумя строками.'
+    vue:
+      title: 'Список из них, в Vue'
+      description: 'Те же строки читаются из конечной точки, а не записываются: список содержит страницу, пагинацию и пустое состояние, и каждая сущность говорит, что читать на ней — заголовок, что квалифицирует ее, значок, куда она ведет, дата на дальнем конце. Чтения выше — это ее варианты, `разделенный`, затем `поверхности`.'
+    keeping_up:
+      title: 'И поддерживается в актуальном состоянии'
+      description: 'Список панелей — это коллекция, как и любая другая, поэтому три способа, которыми коллекция слышит о том, что мир продолжает движение, открыты для нее: событие приложения, живой источник, опрос. Этот слушает событие — позвоните и смотрите, как строки возвращаются. См. Актуальное состояние для трех из них бок о бок.'
+  sample:
+    minimal:
+      title: 'Заголовок сам по себе'
+    icon:
+      title: 'С ведущим значком'
+    subtitle:
+      title: 'Мая Линдквист'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Квартальные отчеты'
+      subtitle: '14 документов'
+    link:
+      title: 'Панель, которая является ссылкой'
+      subtitle: 'Вся ширина — это цель'
+  search:
+    placeholder: 'Искать всё'
+    value: отчет
+    filter: Фильтр
+  result:
+    user:
+      title: 'Мая Линдквист'
+      subtitle: 'Человек · Команда продукта'
+    file:
+      title: 'Квартальный отчет Q3.pdf'
+      subtitle: 'Документ · 2.4 МБ'
+    app:
+      title: Отчетность
+      subtitle: 'Приложение · Установлено'
+    setting:
+      title: 'Хранение отчетов'
+      subtitle: 'Настройка · Хранилище'
+  member:
+    maya:
+      title: 'Мая Линдквист'
+      subtitle: Владелец
+    sam:
+      title: 'Сэм Оконкво'
+      subtitle: Редактор
+    robot:
+      title: 'Ночной импорт'
+      subtitle: 'Сервисный аккаунт'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แถบ
+  page_icon: 'ph:bold/rows'
+  intro: 'แถบชื่อสิ่งหนึ่งในบรรทัดเดียว: มันคืออะไร, มันเรียกว่าอะไร, อะไรที่ทำให้มันเป็นไปได้, และอะไรที่อยู่ที่ปลายสุด มันเป็นรูปทรง ไม่ใช่การผูกพัน — หน่วยงานเข้าถึงมันผ่านแม่แบบของตนเอง แต่ผลการค้นหาที่เป็นไฟล์, แอปพลิเคชันหรือการตั้งค่าก็ใช้การจัดรูปแบบเดียวกัน'
+  finding:
+    fix: แก้ไข
+    date: กำหนดวันที่
+    error:
+      title: 'ส่วนที่จำเป็น “วัตถุประสงค์” หายไป'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: วันที่ตรวจสอบอยู่ในอดีต
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: ช่องเจ้าของถูกเว้นว่าง
+      subtitle: 'ไม่เป็นอุปสรรคสำหรับร่าง, จำเป็นก่อนการตรวจสอบ'
+  section:
+    findings:
+      title: ผลการค้นหา
+      description: 'สิ่งที่การวิเคราะห์รายงาน, แถบแต่ละอัน: ผลการค้นหาเป็นชื่อ, ที่มันอยู่เป็นคำบรรยาย, และสิ่งที่สามารถทำได้เกี่ยวกับมันในช่องท้าย — ไม่มีที่นั่นเมื่อไม่สามารถทำอะไรได้ที่นี่ ความรุนแรงคือโทนของบล็อก, ซึ่งอวตารที่หัวก็รับไปด้วย'
+    alone:
+      title: แถบเอง
+      description: 'ทุกอย่างนอกจากชื่อเป็นทางเลือก ช่องนำจะรับไอคอน, หรือการจัดรูปแบบใดๆ เมื่อต้องการอวตารจริง; ช่องท้ายจะรับวันที่, แท็ก, แถวของปุ่ม ให้ลิงก์, ความกว้างทั้งหมดจะกลายเป็นเป้าหมายและชื่อจะรักษาสีของที่มันนั่งอยู่'
+    search:
+      title: รายการผลลัพธ์
+      description: 'รายการนำกรอบ, ช่องค้นหาและตัวแบ่ง; แถวแต่ละแถวจะนำแถบ ไม่มีที่นี่เป็นหน่วยงาน — นั่นคือจุดประสงค์: แถวเดียวกันให้บริการคน, เอกสาร, แอปพลิเคชันและความชอบ'
+    surfaces:
+      title: พื้นผิวแต่ละอัน
+      description: 'การอ่านอีกอย่างของรายการ — ไม่มีพื้นหลังที่แชร์และไม่มีเส้น, แถบแต่ละอันยืนอยู่บนบล็อกของตัวเองพร้อมที่ว่างรอบๆ ไม่มีอะไรใหม่ให้สไตล์, แถบเพียงแค่รับคลาสบล็อก, และให้ลิงก์การ์ดทั้งหมดจะกลายเป็นเป้าหมาย'
+    divided:
+      title: รายการเปลือย
+      description: 'เมื่อกรอบมีอยู่แล้ว, การจัดเรียงแนวตั้งพร้อมตัวแบ่งก็เพียงพอ — ไม่มีรูปทรงของตัวเอง, แค่เส้นระหว่างสองแถว'
+    vue:
+      title: 'รายการของพวกเขา, ใน Vue'
+      description: 'แถวเดียวกันอ่านจากจุดสิ้นสุดแทนที่จะเขียนออก: รายการถือหน้าที่, การแบ่งหน้าและสถานะว่าง, และแต่ละหน่วยงานบอกว่าต้องอ่านอะไรเกี่ยวกับมัน — ชื่อ, อะไรที่ทำให้มันเป็นไปได้, ไอคอน, ที่มันนำไป, วันที่ที่ปลายสุด การอ่านด้านบนคือรูปแบบของมัน, `divided` จากนั้น `surfaces`.'
+    keeping_up:
+      title: และรักษาให้ทันสมัย
+      description: 'รายการแถบเป็นการรวบรวมเช่นเดียวกับอื่นๆ, ดังนั้นสามวิธีที่การรวบรวมได้ยินว่าทางโลกก้าวไปข้างหน้าเปิดให้มัน: เหตุการณ์แอป, แหล่งสด, การตรวจสอบซ้ำ นี่ฟังเหตุการณ์ — โทรและดูแถวกลับมา ดูการรักษาให้ทันสมัยสำหรับสามรายการข้างเคียง'
+  sample:
+    minimal:
+      title: ชื่อเพียงอย่างเดียว
+    icon:
+      title: พร้อมไอคอนนำ
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: รายงานประจำไตรมาส
+      subtitle: 'เอกสาร 14 ฉบับ'
+    link:
+      title: แถบที่เป็นลิงก์
+      subtitle: ความกว้างทั้งหมดเป็นเป้าหมาย
+  search:
+    placeholder: ค้นหาทุกอย่าง
+    value: รายงาน
+    filter: กรอง
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'บุคคล · ทีมผลิตภัณฑ์'
+    file:
+      title: 'รายงานประจำไตรมาส Q3.pdf'
+      subtitle: 'เอกสาร · 2.4 MB'
+    app:
+      title: การรายงาน
+      subtitle: 'แอปพลิเคชัน · ติดตั้งแล้ว'
+    setting:
+      title: การเก็บรักษารายงาน
+      subtitle: 'การตั้งค่า · การจัดเก็บ'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: เจ้าของ
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: บรรณาธิการ
+    robot:
+      title: การนำเข้าในตอนกลางคืน
+      subtitle: บัญชีบริการ
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Çubuklar
+  page_icon: 'ph:bold/rows'
+  intro: 'Bir çubuk, bir şeyi tek bir satırda adlandırır: ne olduğunu, nasıl adlandırıldığını, neyin nitelik kazandırdığını ve en uçta neyin yer aldığını. Bu bir biçimdir, bir bağlayıcı değil — bir varlık kendi şablonuyla ona ulaşır, ancak bir dosya, uygulama veya ayar olan bir arama sonucu aynı işaretlemeyi kullanır.'
+  finding:
+    fix: Düzelt
+    date: 'Bir tarih belirle'
+    error:
+      title: 'Zorunlu bölüm “Amaç” eksik'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'Gözden geçirme tarihi geçmişte'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'Sahip alanı boş bırakılmış'
+      subtitle: 'Taslak için engelleyici değil, inceleme öncesi gerekli'
+  section:
+    findings:
+      title: Bulgular
+      description: 'Bir analizin raporladıkları, her bir çubukta: bulgu başlık olarak, nerede olduğu alt başlık olarak ve buraya yapılabilecekler son slotta — burada hiçbir şey yapılamıyorsa orada da bir şey yok. Ciddiyet, bloğun tonu olup, baştaki avatar bunu da alır.'
+    alone:
+      title: 'Çubuğun kendisi'
+      description: 'Başlık dışındaki her şey isteğe bağlıdır. Önde bir simge veya gerçek bir avatar gerektiğinde herhangi bir işaretleme alır; arkada bir tarih, bir etiket, butonlar dizisi alır. Bir bağlantı verilirse, tüm genişlik hedef olur ve başlık, bulunduğu yerin rengini korur.'
+    search:
+      title: 'Sonuçlar listesi'
+      description: 'Liste çerçeveyi, arama alanını ve ayırıcıları getirir; her satır bir çubuk getirir. Burada hiçbir şey bir varlık değildir — mesele budur: aynı satır bir kişiye, bir belgeye, bir uygulamaya ve bir tercihe hizmet eder.'
+    surfaces:
+      title: 'Her biri bir yüzey'
+      description: 'Bir listenin diğer okunması — ortak bir arka plana ve çizgiye sahip olmadan, her çubuk kendi bloğunda durur ve etrafında boşluk vardır. Stil için yeni bir şey yok, çubuk basitçe blok sınıflarını alır ve bir bağlantı verilirse, tüm kart hedef haline gelir.'
+    divided:
+      title: 'Sade bir liste'
+      description: 'Çerçeve zaten varsa, bölücülerle dikey bir yığın yeterlidir — kendi şekli yoktur, sadece iki satır arasında bir çizgi vardır.'
+    vue:
+      title: "Vue'de bir listesi"
+      description: 'Aynı satırlar bir uç noktadan okunur, dışarı yazılmak yerine: liste sayfayı, sayfalama ve boş durumu tutar, her varlık üzerinde ne okunacağını belirtir — bir başlık, neyin nitelik kazandırdığı, bir simge, nereye gideceği, en uçta bir tarih. Yukarıdaki okumalar bunun varyantlarıdır, `bölünmüş` ardından `yüzeyler` gelir.'
+    keeping_up:
+      title: 'Ve güncel tutulur'
+      description: "Bir çubuk listesi, diğerleri gibi bir koleksiyondur, bu yüzden bir koleksiyonun dünyanın ilerlediğini duyabileceği üç yol ona da açıktır: bir uygulama olayı, bir canlı kaynak, anket. Bu, bir olayı dinler — çal ve satırların geri geldiğini izle. Yan yana üçü için Güncel Tutma'ya bak."
+  sample:
+    minimal:
+      title: 'Kendine ait bir başlık'
+    icon:
+      title: 'Önde bir simge ile'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Üç aylık raporlar'
+      subtitle: '14 belge'
+    link:
+      title: 'Bağlantı olan bir çubuk'
+      subtitle: 'Tüm genişlik hedef'
+  search:
+    placeholder: 'Her şeyi ara'
+    value: rapor
+    filter: Filtrele
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Kişi · Ürün takımı'
+    file:
+      title: 'Üç aylık rapor Q3.pdf'
+      subtitle: 'Belge · 2.4 MB'
+    app:
+      title: Raporlama
+      subtitle: 'Uygulama · Yüklü'
+    setting:
+      title: 'Rapor saklama'
+      subtitle: 'Ayar · Depolama'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Sahip
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Editör
+    robot:
+      title: 'Gecelik ithalat'
+      subtitle: 'Hizmet hesabı'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بارز
+  page_icon: 'ph:bold/rows'
+  intro: 'ایک بار ایک چیز کا نام ایک سطر میں رکھتا ہے: یہ کیا ہے، اسے کیا کہا جاتا ہے، یہ کیا چیز کی اہلیت رکھتا ہے، اور اس کے دور کے سرے پر کیا ہے۔ یہ ایک شکل ہے، نہ کہ ایک پابندی — ایک وجود اپنی خود کی ٹیمپلیٹ کے ذریعے اس تک پہنچتا ہے، لیکن ایک تلاش کا نتیجہ جو کہ ایک فائل، ایک ایپ یا ایک سیٹنگ ہے وہ اسی مارک اپ کو استعمال کرتا ہے۔'
+  finding:
+    fix: 'درست کریں'
+    date: 'تاریخ مقرر کریں'
+    error:
+      title: 'لازمی سیکشن "مقصد" غائب ہے'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'جائزہ کی تاریخ ماضی میں ہے'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'مالک کا میدان خالی چھوڑ دیا گیا'
+      subtitle: 'مسودے کے لیے رکاوٹ نہیں، جائزے سے پہلے درکار ہے'
+  section:
+    findings:
+      title: نتائج
+      description: 'ایک تجزیے کی رپورٹ، ایک بار ہر ایک: نتیجہ عنوان کے طور پر، یہ کہاں ہے ذیلی عنوان کے طور پر، اور اس کے بارے میں کیا کیا جا سکتا ہے پچھلے حصے میں — جب کچھ نہیں کیا جا سکتا تو وہاں کچھ نہیں۔ شدت بلاک کا لہجہ ہے، جو سر کی اوپر موجود اوتار بھی لیتا ہے۔'
+    alone:
+      title: 'بار خود'
+      description: 'عنوان کے علاوہ سب کچھ اختیاری ہے۔ ابتدائی جگہ ایک آئیکن لے سکتی ہے، یا جب ایک حقیقی اوتار کی ضرورت ہو تو کوئی بھی مارک اپ؛ پچھلا حصہ ایک تاریخ، ایک ٹیگ، بٹنوں کی ایک صف لے سکتا ہے۔ دی گئی لنک کے ساتھ، پوری چوڑائی ہدف بن جاتی ہے اور عنوان وہاں بیٹھنے کے رنگ کو برقرار رکھتا ہے۔'
+    search:
+      title: 'نتائج کی فہرست'
+      description: 'فہرست فریم، تلاش کا میدان اور علیحدگی لاتی ہے؛ ہر صف ایک بار لاتی ہے۔ یہاں کچھ بھی ایک وجود نہیں ہے — یہی نقطہ ہے: وہی صف ایک شخص، ایک دستاویز، ایک ایپ اور ایک پسند کے لیے کام کرتی ہے۔'
+    surfaces:
+      title: 'ہر ایک کے لیے ایک سطح'
+      description: 'فہرست کی ایک اور پڑھائی — کوئی مشترکہ پس منظر اور کوئی لائن نہیں، ہر بار اپنے بلاک پر کھڑی ہوتی ہے جس کے ارد گرد جگہ ہوتی ہے۔ کچھ نیا اسٹائل کرنے کی ضرورت نہیں، بار صرف بلاک کلاسز لیتی ہے، اور دی گئی لنک کے ساتھ پوری کارڈ ہدف بن جاتی ہے۔'
+    divided:
+      title: 'ایک خالی فہرست'
+      description: 'جب فریم پہلے سے موجود ہو، ایک عمودی اسٹیک ڈیوائیڈرز کے ساتھ کافی ہے — اپنی شکل نہیں، صرف دو صفوں کے درمیان ایک لائن۔'
+    vue:
+      title: 'ان کی فہرست، Vue میں'
+      description: 'وہی صفیں ایک اینڈپوائنٹ سے پڑھی جاتی ہیں نہ کہ لکھیں: فہرست صفحہ، صفحہ بندی اور خالی حالت رکھتی ہے، اور ہر وجود کہتا ہے کہ اس پر کیا پڑھا جائے — ایک عنوان، جو اسے اہلیت دیتا ہے، ایک آئیکن، کہاں لے جاتا ہے، ایک تاریخ دور کے سرے پر۔ اوپر کی پڑھائیاں اس کے متغیرات ہیں، `divided` پھر `surfaces`۔'
+    keeping_up:
+      title: 'اور تازہ ترین رکھا گیا'
+      description: 'ایک بار کی فہرست کسی اور کی طرح ایک مجموعہ ہے، تو اس دنیا کے آگے بڑھنے کی تین طریقے اس کے لیے کھلے ہیں: ایک ایپ ایونٹ، ایک زندہ ماخذ، پولنگ۔ یہ ایک ایونٹ کو سنتا ہے — اسے بجائیں اور صفیں واپس آتی ہیں۔ تینوں کو ایک ساتھ دیکھنے کے لیے Keeping up دیکھیں۔'
+  sample:
+    minimal:
+      title: 'صرف ایک عنوان'
+    icon:
+      title: 'ایک ابتدائی آئیکن کے ساتھ'
+    subtitle:
+      title: 'میا لنڈکویسٹ'
+      subtitle: maya@example.com
+    trailing:
+      title: 'تہوار کی رپورٹس'
+      subtitle: '14 دستاویزات'
+    link:
+      title: 'ایک بار جو کہ لنک ہے'
+      subtitle: 'پوری چوڑائی ہدف ہے'
+  search:
+    placeholder: 'سب کچھ تلاش کریں'
+    value: رپورٹ
+    filter: 'فلٹر کریں'
+  result:
+    user:
+      title: 'میا لنڈکویسٹ'
+      subtitle: 'شخص · پروڈکٹ ٹیم'
+    file:
+      title: 'تہوار کی رپورٹ Q3.pdf'
+      subtitle: 'دستاویز · 2.4 MB'
+    app:
+      title: رپورٹنگ
+      subtitle: 'ایپلیکیشن · انسٹال کیا گیا'
+    setting:
+      title: 'رپورٹ برقرار رکھنے'
+      subtitle: 'سیٹنگ · اسٹوریج'
+  member:
+    maya:
+      title: 'میا لنڈکویسٹ'
+      subtitle: مالک
+    sam:
+      title: 'سیم اوکانکوالو'
+      subtitle: ایڈیٹر
+    robot:
+      title: 'رات کا درآمد'
+      subtitle: 'سروس اکاؤنٹ'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Thanh
+  page_icon: 'ph:bold/rows'
+  intro: 'Một thanh chỉ định một điều trong một dòng duy nhất: nó là gì, nó được gọi là gì, điều gì làm cho nó đủ điều kiện, và điều gì thuộc về cuối cùng. Đây là một hình dạng, không phải là một ràng buộc — một thực thể đến với nó thông qua mẫu của riêng nó, nhưng một kết quả tìm kiếm là một tệp, một ứng dụng hoặc một cài đặt sử dụng cùng một đánh dấu.'
+  finding:
+    fix: Sửa
+    date: 'Đặt ngày'
+    error:
+      title: 'Thiếu phần bắt buộc “Mục đích”'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'Ngày xem xét đã qua'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'Trường chủ sở hữu để trống'
+      subtitle: 'Không chặn cho bản nháp, yêu cầu trước khi xem xét'
+  section:
+    findings:
+      title: 'Kết quả'
+      description: 'Những gì một phân tích báo cáo, mỗi thanh một: kết quả là tiêu đề, nơi nó nằm là phụ đề, và điều gì có thể được thực hiện về nó trong vị trí cuối cùng — không có gì ở đó khi không thể làm gì ở đây. Mức độ nghiêm trọng là tông của khối, mà hình đại diện ở đầu cũng lấy theo.'
+    alone:
+      title: 'Thanh tự nó'
+      description: 'Mọi thứ nhưng tiêu đề là tùy chọn. Vị trí đầu tiên lấy một biểu tượng, hoặc bất kỳ đánh dấu nào khi cần một hình đại diện thực sự; vị trí cuối cùng lấy một ngày, một thẻ, một hàng nút. Nếu có một liên kết, toàn bộ chiều rộng trở thành mục tiêu và tiêu đề giữ màu sắc của nơi nó ngồi.'
+    search:
+      title: 'Danh sách kết quả'
+      description: 'Danh sách mang khung, trường tìm kiếm và các dấu phân cách; mỗi hàng mang một thanh. Không có gì ở đây là một thực thể — đó là điểm: cùng một hàng phục vụ một người, một tài liệu, một ứng dụng và một sở thích.'
+    surfaces:
+      title: 'Một bề mặt mỗi cái'
+      description: 'Đọc khác của một danh sách — không có nền chia sẻ và không có đường, mỗi thanh đứng trên khối riêng của nó với không gian xung quanh. Không có gì mới để kiểu dáng, thanh đơn giản lấy các lớp khối, và nếu có một liên kết, toàn bộ thẻ trở thành mục tiêu.'
+    divided:
+      title: 'Một danh sách trần'
+      description: 'Khi khung đã có sẵn, một chồng theo chiều dọc với các vách ngăn là đủ — không có hình dạng riêng, chỉ là một đường giữa hai hàng.'
+    vue:
+      title: 'Một danh sách chúng, trong Vue'
+      description: 'Cùng một hàng được đọc từ một điểm cuối thay vì viết ra: danh sách giữ trang, phân trang và trạng thái trống, và mỗi thực thể nói những gì cần đọc trên đó — một tiêu đề, điều gì đủ điều kiện cho nó, một biểu tượng, nơi nó dẫn tới, một ngày ở cuối cùng. Các đọc ở trên là các biến thể của nó, `divided` sau đó là `surfaces`.'
+    keeping_up:
+      title: 'Và được cập nhật'
+      description: 'Danh sách thanh là một bộ sưu tập như bất kỳ bộ sưu tập nào khác, vì vậy ba cách mà một bộ sưu tập nghe rằng thế giới đã tiến lên là mở cho nó: một sự kiện ứng dụng, một nguồn trực tiếp, polling. Cái này lắng nghe một sự kiện — gọi nó và xem các hàng quay lại. Xem Cập nhật cho ba cái đó bên cạnh nhau.'
+  sample:
+    minimal:
+      title: 'Một tiêu đề riêng'
+    icon:
+      title: 'Với một biểu tượng đầu tiên'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Báo cáo hàng quý'
+      subtitle: '14 tài liệu'
+    link:
+      title: 'Một thanh là một liên kết'
+      subtitle: 'Toàn bộ chiều rộng là mục tiêu'
+  search:
+    placeholder: 'Tìm kiếm mọi thứ'
+    value: 'báo cáo'
+    filter: Lọc
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Người · Nhóm sản phẩm'
+    file:
+      title: 'Báo cáo hàng quý Q3.pdf'
+      subtitle: 'Tài liệu · 2.4 MB'
+    app:
+      title: 'Báo cáo'
+      subtitle: 'Ứng dụng · Đã cài đặt'
+    setting:
+      title: 'Giữ báo cáo'
+      subtitle: 'Cài đặt · Lưu trữ'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: 'Chủ sở hữu'
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: 'Biên tập viên'
+    robot:
+      title: 'Nhập khẩu hàng đêm'
+      subtitle: 'Tài khoản dịch vụ'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bars
+  page_icon: 'ph:bold/rows'
+  intro: 'A bar names one thing in a single line: what it is, what it is called, what qualifies it, and what belongs at the far end. It is a shape, not a binding — an entity reaches it through its own template, but a search result that is a file, an app or a setting uses the very same markup.'
+  finding:
+    fix: Fix
+    date: 'Set a date'
+    error:
+      title: 'Missing mandatory section “Purpose”'
+      subtitle: 01-PROCESSES/PR-004-document-control.md
+    warning:
+      title: 'Review date is in the past'
+      subtitle: '01-PROCESSES/PR-004-document-control.md:4'
+    info:
+      title: 'Owner field left empty'
+      subtitle: 'Not blocking for a draft, required before review'
+  section:
+    findings:
+      title: Findings
+      description: "What an analysis reports, one bar each: the finding as the title, where it is as the subtitle, and what can be done about it in the trailing slot — nothing there when nothing can be done here. The severity is the block's tone, which the avatar at the head takes too."
+    alone:
+      title: 'The bar itself'
+      description: 'Everything but the title is optional. The leading slot takes an icon, or any markup when a real avatar is needed; the trailing slot takes a date, a tag, a row of buttons. Given a link, the whole width becomes the target and the title keeps the colour of where it sits.'
+    search:
+      title: 'A list of results'
+      description: 'The list brings the frame, the search field and the separators; each row brings a bar. Nothing here is an entity — that is the point: the same row serves a person, a document, an application and a preference.'
+    surfaces:
+      title: 'One surface each'
+      description: 'The other reading of a list — no shared background and no line, each bar standing on its own block with room around it. Nothing new to style, the bar simply takes the block classes, and given a link the whole card becomes the target.'
+    divided:
+      title: 'A bare list'
+      description: 'When the frame is already there, a vertical stack with dividers is enough — no shape of its own, just a line between two rows.'
+    vue:
+      title: 'A list of them, in Vue'
+      description: 'The same rows read from an endpoint rather than written out: the list holds the page, the pagination and the empty state, and each entity says what to read on it — a title, what qualifies it, an icon, where it leads, a date at the far end. The readings above are its variants, `divided` then `surfaces`.'
+    keeping_up:
+      title: 'And kept up to date'
+      description: 'A bar list is a collection like any other, so the three ways a collection hears that the world moved on are open to it: an app event, a live source, polling. This one listens to an event — ring it and watch the rows come back. See Keeping up for the three of them side by side.'
+  sample:
+    minimal:
+      title: 'A title on its own'
+    icon:
+      title: 'With a leading icon'
+    subtitle:
+      title: 'Maya Lindqvist'
+      subtitle: maya@example.com
+    trailing:
+      title: 'Quarterly reports'
+      subtitle: '14 documents'
+    link:
+      title: 'A bar that is a link'
+      subtitle: 'The whole width is the target'
+  search:
+    placeholder: 'Search everything'
+    value: report
+    filter: Filter
+  result:
+    user:
+      title: 'Maya Lindqvist'
+      subtitle: 'Person · Product team'
+    file:
+      title: 'Quarterly report Q3.pdf'
+      subtitle: 'Document · 2.4 MB'
+    app:
+      title: Reporting
+      subtitle: 'Application · Installed'
+    setting:
+      title: 'Report retention'
+      subtitle: 'Setting · Storage'
+  member:
+    maya:
+      title: 'Maya Lindqvist'
+      subtitle: Owner
+    sam:
+      title: 'Sam Okonkwo'
+      subtitle: Editor
+    robot:
+      title: 'Nightly import'
+      subtitle: 'Service account'

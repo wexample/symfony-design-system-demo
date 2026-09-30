@@ -1,0 +1,1231 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Menus
+  page_icon: ph:bold/list
+
+  section:
+    split:
+      title: Split buttons
+      description: "A button that does one thing and offers the others: its body does the action, the caret stuck to its end — and only the caret — opens the menu. `button_menu` given an `action` — `{ href }`, or `{ type: 'submit' }` in a form; the vue one emits `action`."
+    vue:
+      title: Vue
+      description: "The link row and the separator as vue partials. Unlike the rows that read a route, these two take their icon and label as options, so nothing of the server is missing."
+    menu:
+      title: Menu buttons
+    counts:
+      title: Counts
+      description: "How many of whatever the item leads to, at the far end of the line. It is a pill and nothing else — pass `count` beside the label, in a dropdown item or a vertical menu item, and the item places it. An item without the key shows nothing."
+    separators:
+      title: Separators
+      description: "A separator is an item like the others, with one key more: a bare line parts two runs of items that have nothing to do with each other, and the same line given a word becomes the heading of what follows. Both sides of the stack read the same declaration — the third menu here is the vue one."
+
+    kinds:
+      title: What an item can be
+      description: "Four kinds share one row: a word and a target is a link, a word and a state is a toggle, a word and children is a branch, and a bare line is a separator. Nothing declares its kind — it follows from what the item carries. A toggle spends its leading slot on its mark, so a column of them keeps its words aligned, and the panel stays open under it: a menu of filters is read by the handful, not one at a time."
+
+  menu:
+    primary: Menu button
+    save: Save
+    save_vue: Save, in vue
+    publish: Publish
+    filters: Filters
+    filters_vue: Filters, in vue
+    counted: With counts
+    counted_vue: With counts, in vue
+    grouped: Grouped items
+    grouped_vue: Grouped, in vue
+    group:
+      danger: Danger zone
+      show: Show
+    more: More actions
+    invert: Invert menu
+    options:
+      top_left: Top left
+      top_right: Top right
+    item:
+      report: Report
+      draft: Save as draft
+      copy: Save a copy
+      schedule: Schedule
+      inbox: Inbox
+      alerts: Alerts
+      settings: Settings
+      logout: Log out
+      long: With a quite, quite, quite, quite long title
+      stats: Statistics
+      profile: Profile
+      delete: Delete account
+      done: Done
+      running: Running
+      failed: Failed
+      sort: Sort by
+      sort_name: Name
+      sort_date: Last change
+      docs: Documentation
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: القوائم
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: فيو
+      description: 'صف الارتباط والفاصل كأجزاء فيو. على عكس الصفوف التي تقرأ مسارًا، تأخذ هذان الخياران أيقونتهما ووسمها كخيارات، لذا لا ينقص شيء من الخادم.'
+    menu:
+      title: 'أزرار القائمة'
+    counts:
+      title: العدادات
+      description: 'كم عدد ما يقود إليه العنصر، في أقصى نهاية الخط. إنها حبة وليس شيء آخر - مرر `count` بجانب الوسم، في عنصر منسدلة أو عنصر قائمة عمودية، ويضع العنصر ذلك. العنصر بدون المفتاح لا يظهر شيئًا.'
+    separators:
+      title: الفواصل
+      description: 'الفاصل هو عنصر مثل الآخرين، مع مفتاح واحد إضافي: خط عار يفصل بين مجموعتين من العناصر التي لا علاقة لها ببعضها البعض، ويصبح نفس الخط مع إعطاء كلمة عنوان ما يلي. تقرأ كلا جانبي المكدس نفس البيان - القائمة الثالثة هنا هي قائمة فيو.'
+    kinds:
+      title: 'ما يمكن أن يكون عليه العنصر'
+      description: 'أربعة أنواع تتشارك في صف واحد: كلمة وهدف هي رابط، كلمة وحالة هي تبديل، كلمة وأطفال هي فرع، وخط عار هو فاصل. لا يعلن أي شيء عن نوعه - يتبع مما يحمله العنصر. ينفق التبديل مكانه الرائد على علامته، لذا يبقى عمود منها كلماتها متراصة، وتظل اللوحة مفتوحة تحتها: تقرأ قائمة الفلاتر باليد، وليس واحدة في كل مرة.'
+  menu:
+    primary: 'زر القائمة'
+    filters: الفلاتر
+    filters_vue: 'الفلاتر، في فيو'
+    counted: 'مع العدادات'
+    counted_vue: 'مع العدادات، في فيو'
+    grouped: 'عناصر مجمعة'
+    grouped_vue: 'مجموعة، في فيو'
+    group:
+      danger: 'منطقة الخطر'
+      show: عرض
+    more: 'المزيد من الإجراءات'
+    invert: 'عكس القائمة'
+    options:
+      top_left: 'أعلى اليسار'
+      top_right: 'أعلى اليمين'
+    item:
+      report: إبلاغ
+      inbox: 'صندوق الوارد'
+      alerts: تنبيهات
+      settings: الإعدادات
+      logout: 'تسجيل الخروج'
+      long: 'بعنوان طويل جدًا جدًا جدًا جدًا'
+      stats: الإحصائيات
+      profile: 'الملف الشخصي'
+      delete: 'حذف الحساب'
+      done: تم
+      running: جاري
+      failed: فشل
+      sort: 'ترتيب حسب'
+      sort_name: الاسم
+      sort_date: 'آخر تغيير'
+      docs: التوثيق
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: মেনু
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: ভিউ
+      description: 'লিঙ্ক রো এবং সেপারেটর ভিউ পার্সিয়াল হিসেবে। যেভাবে রো গুলো একটি রুট পড়ে, এই দুটি তাদের আইকন এবং লেবেল অপশন হিসেবে নেয়, তাই সার্ভারের কিছুই মিস হয় না।'
+    menu:
+      title: 'মেনু বোতাম'
+    counts:
+      title: গণনা
+      description: 'যা কিছু আইটেমের দিকে নিয়ে যায় তার সংখ্যা, লাইনের শেষ প্রান্তে। এটি একটি পিল এবং কিছুই নয় — লেবেলের পাশে `count` পাস করুন, একটি ড্রপডাউন আইটেম বা একটি উল্লম্ব মেনু আইটেমে, এবং আইটেমটি এটি স্থাপন করে। কী ছাড়া একটি আইটেম কিছুই দেখায় না।'
+    separators:
+      title: সেপারেটর
+      description: 'একটি সেপারেটর অন্যদের মতো একটি আইটেম, এক কীগুলির সাথে: একটি খালি লাইন দুটি আইটেমের চালনা আলাদা করে যাদের মধ্যে কিছু নেই, এবং একই লাইন একটি শব্দ দিলে পরবর্তী বিষয়ের শিরোনাম হয়ে যায়। স্ট্যাকের উভয় পাশে একই ঘোষণাটি পড়ে — এখানে তৃতীয় মেনুটি ভিউ মেনু।'
+    kinds:
+      title: 'একটি আইটেম কি হতে পারে'
+      description: 'চার ধরনের একটি সারিতে ভাগ করা হয়: একটি শব্দ এবং একটি লক্ষ্য একটি লিঙ্ক, একটি শব্দ এবং একটি রাষ্ট্র একটি টগল, একটি শব্দ এবং সন্তান একটি শাখা, এবং একটি খালি লাইন একটি সেপারেটর। কিছুই তার ধরনের ঘোষণা করে না — এটি আইটেমের বহন করা থেকে অনুসরণ করে। একটি টগল তার মার্কের জন্য তার লিডিং স্লট ব্যয় করে, তাই তাদের একটি কলাম তাদের শব্দগুলোকে সমান্তরাল রাখে, এবং প্যানেলটি তার নিচে খোলা থাকে: একটি ফিল্টার মেনু হাতের বোতল দ্বারা পড়া হয়, একসাথে নয়।'
+  menu:
+    primary: 'মেনু বোতাম'
+    filters: ফিল্টার
+    filters_vue: 'ফিল্টার, ভিউতে'
+    counted: 'গণনার সঙ্গে'
+    counted_vue: 'গণনার সঙ্গে, ভিউতে'
+    grouped: 'গুচ্ছবদ্ধ আইটেম'
+    grouped_vue: 'গুচ্ছবদ্ধ, ভিউতে'
+    group:
+      danger: 'ঝুঁকিপূর্ণ এলাকা'
+      show: দেখান
+    more: 'আরও কার্যক্রম'
+    invert: 'মেনুকে বিপরীত করুন'
+    options:
+      top_left: 'শীর্ষ বাম'
+      top_right: 'শীর্ষ ডান'
+    item:
+      report: রিপোর্ট
+      inbox: ইনবক্স
+      alerts: অ্যালার্ট
+      settings: সেটিংস
+      logout: 'লগ আউট'
+      long: 'একটি যথেষ্ট, যথেষ্ট, যথেষ্ট, যথেষ্ট দীর্ঘ শিরোনাম সহ'
+      stats: পরিসংখ্যান
+      profile: প্রোফাইল
+      delete: 'অ্যাকাউন্ট মোছা'
+      done: সম্পন্ন
+      running: চলমান
+      failed: ব্যর্থ
+      sort: 'দ্বারা সাজান'
+      sort_name: নাম
+      sort_date: 'শেষ পরিবর্তন'
+      docs: ডকুমেন্টেশন
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menüs
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'Die Linkzeile und der Separator als Vue-Teile. Im Gegensatz zu den Zeilen, die eine Route lesen, nehmen diese beiden ihr Icon und Label als Optionen, sodass nichts vom Server fehlt.'
+    menu:
+      title: Menüschaltflächen
+    counts:
+      title: Zählungen
+      description: 'Wie viele von dem, worauf das Element führt, am anderen Ende der Zeile. Es ist eine Pillenanzeige und sonst nichts – übergebe `count` neben dem Label, in einem Dropdown-Element oder einem vertikalen Menüelement, und das Element platziert es. Ein Element ohne den Schlüssel zeigt nichts an.'
+    separators:
+      title: Separatoren
+      description: 'Ein Separator ist ein Element wie die anderen, mit einem Schlüssel mehr: Eine einfache Linie trennt zwei Gruppen von Elementen, die nichts miteinander zu tun haben, und die gleiche Linie, die ein Wort erhält, wird zur Überschrift des Folgenden. Beide Seiten des Stapels lesen dieselbe Erklärung – das dritte Menü hier ist das Vue-Menü.'
+    kinds:
+      title: 'Was ein Element sein kann'
+      description: 'Vier Arten teilen sich eine Zeile: Ein Wort und ein Ziel ist ein Link, ein Wort und ein Zustand ist ein Umschalter, ein Wort und Kinder ist ein Zweig, und eine einfache Linie ist ein Separator. Nichts erklärt seine Art – es folgt aus dem, was das Element trägt. Ein Umschalter verwendet seinen führenden Slot für sein Zeichen, sodass eine Spalte davon ihre Wörter ausgerichtet hält und das Panel darunter offen bleibt: Ein Menü von Filtern wird in der Menge gelesen, nicht eins nach dem anderen.'
+  menu:
+    primary: Menüschaltfläche
+    filters: Filter
+    filters_vue: 'Filter, in Vue'
+    counted: 'Mit Zählungen'
+    counted_vue: 'Mit Zählungen, in Vue'
+    grouped: 'Gruppierte Elemente'
+    grouped_vue: 'Gruppiert, in Vue'
+    group:
+      danger: Gefahrenzone
+      show: Anzeigen
+    more: 'Weitere Aktionen'
+    invert: 'Menü umkehren'
+    options:
+      top_left: 'Oben links'
+      top_right: 'Oben rechts'
+    item:
+      report: Berichten
+      inbox: Posteingang
+      alerts: Benachrichtigungen
+      settings: Einstellungen
+      logout: Abmelden
+      long: 'Mit einem ganz, ganz, ganz, ganz langen Titel'
+      stats: Statistiken
+      profile: Profil
+      delete: 'Konto löschen'
+      done: Fertig
+      running: Läuft
+      failed: Fehlgeschlagen
+      sort: 'Sortieren nach'
+      sort_name: Name
+      sort_date: 'Letzte Änderung'
+      docs: Dokumentation
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menús
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'La fila de enlaces y el separador como parciales de vue. A diferencia de las filas que leen una ruta, estos dos toman su ícono y etiqueta como opciones, por lo que no falta nada del servidor.'
+    menu:
+      title: 'Botones de menú'
+    counts:
+      title: Contadores
+      description: 'Cuántos de lo que sea que el elemento conduce, al final de la línea. Es una pastilla y nada más: pasa `count` junto a la etiqueta, en un elemento desplegable o un elemento de menú vertical, y el elemento lo coloca. Un elemento sin la clave no muestra nada.'
+    separators:
+      title: Separadores
+      description: 'Un separador es un elemento como los demás, con una clave más: una línea simple separa dos grupos de elementos que no tienen nada que ver entre sí, y la misma línea dada una palabra se convierte en el encabezado de lo que sigue. Ambos lados de la pila leen la misma declaración: el tercer menú aquí es el de vue.'
+    kinds:
+      title: 'Lo que un elemento puede ser'
+      description: 'Cuatro tipos comparten una fila: una palabra y un destino es un enlace, una palabra y un estado es un interruptor, una palabra y niños es una rama, y una línea simple es un separador. Nada declara su tipo: se deduce de lo que lleva el elemento. Un interruptor gasta su espacio principal en su marca, por lo que una columna de ellos mantiene sus palabras alineadas, y el panel permanece abierto debajo de él: un menú de filtros se lee por la cantidad, no uno a la vez.'
+  menu:
+    primary: 'Botón de menú'
+    filters: Filtros
+    filters_vue: 'Filtros, en vue'
+    counted: 'Con contadores'
+    counted_vue: 'Con contadores, en vue'
+    grouped: 'Elementos agrupados'
+    grouped_vue: 'Agrupados, en vue'
+    group:
+      danger: 'Zona de peligro'
+      show: Mostrar
+    more: 'Más acciones'
+    invert: 'Invertir menú'
+    options:
+      top_left: 'Arriba a la izquierda'
+      top_right: 'Arriba a la derecha'
+    item:
+      report: Reportar
+      inbox: 'Bandeja de entrada'
+      alerts: Alertas
+      settings: Configuraciones
+      logout: 'Cerrar sesión'
+      long: 'Con un título bastante, bastante, bastante, bastante largo'
+      stats: Estadísticas
+      profile: Perfil
+      delete: 'Eliminar cuenta'
+      done: Hecho
+      running: 'En ejecución'
+      failed: Fallido
+      sort: 'Ordenar por'
+      sort_name: Nombre
+      sort_date: 'Último cambio'
+      docs: Documentación
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: منوها
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: ویو
+      description: 'ردیف لینک و جداکننده به عنوان بخش‌های ویو. بر خلاف ردیف‌هایی که یک مسیر را می‌خوانند، این دو گزینه‌های آیکون و برچسب خود را به عنوان گزینه می‌گیرند، بنابراین هیچ چیزی از سرور کم نمی‌شود.'
+    menu:
+      title: 'دکمه‌های منو'
+    counts:
+      title: شمارش‌ها
+      description: 'چند تا از هر چیزی که مورد مورد نظر در انتهای خط می‌رود. این یک قسمت است و چیز دیگری نیست — `count` را در کنار برچسب، در یک مورد کشویی یا مورد عمودی منو قرار دهید و مورد آن را قرار می‌دهد. یک مورد بدون کلید هیچ چیزی نشان نمی‌دهد.'
+    separators:
+      title: جداکننده‌ها
+      description: 'یک جداکننده یک مورد مانند بقیه است، با یک کلید بیشتر: یک خط خالی دو دسته از موارد را که ارتباطی با هم ندارند جدا می‌کند و همان خط اگر یک کلمه داشته باشد، عنوان آنچه که دنبال می‌آید می‌شود. هر دو طرف این دسته همان اعلام را می‌خوانند — منوی سوم اینجا، منوی ویو است.'
+    kinds:
+      title: 'یک مورد چه نوعی می‌تواند باشد'
+      description: 'چهار نوع یک ردیف را به اشتراک می‌گذارند: یک کلمه و یک هدف یک لینک است، یک کلمه و یک وضعیت یک تغییر حالت است، یک کلمه و فرزندان یک شاخه است، و یک خط خالی یک جداکننده است. هیچ‌کس نوع خود را اعلام نمی‌کند — این از آنچه که مورد حمل می‌کند تبعیت می‌کند. یک تغییر حالت جایگاه پیشرو خود را بر روی علامت خود صرف می‌کند، بنابراین یک ستون از آن‌ها کلماتش را هم‌راستا نگه می‌دارد و پنل زیر آن باز می‌ماند: یک منوی فیلترها به صورت دسته‌ای خوانده می‌شود، نه یکی یکی.'
+  menu:
+    primary: 'دکمه منو'
+    filters: فیلترها
+    filters_vue: 'فیلترها، در ویو'
+    counted: 'با شمارش‌ها'
+    counted_vue: 'با شمارش‌ها، در ویو'
+    grouped: 'موارد گروه‌بندی شده'
+    grouped_vue: 'گروه‌بندی شده، در ویو'
+    group:
+      danger: 'منطقه خطر'
+      show: نمایش
+    more: 'عملیات بیشتر'
+    invert: 'معکوس کردن منو'
+    options:
+      top_left: 'بالا سمت چپ'
+      top_right: 'بالا سمت راست'
+    item:
+      report: گزارش
+      inbox: 'صندوق ورودی'
+      alerts: هشدارها
+      settings: تنظیمات
+      logout: خروج
+      long: 'با یک عنوان خیلی، خیلی، خیلی، خیلی طولانی'
+      stats: آمار
+      profile: پروفایل
+      delete: 'حذف حساب'
+      done: 'انجام شد'
+      running: 'در حال اجرا'
+      failed: ناموفق
+      sort: 'مرتب‌سازی بر اساس'
+      sort_name: نام
+      sort_date: 'آخرین تغییر'
+      docs: مستندات
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Valikot
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'Linkkirivi ja erotin vue-osina. Toisin kuin reitit, jotka lukevat reittiä, nämä kaksi ottavat ikonin ja etiketin vaihtoehtoina, joten serveriltä ei jää mitään puuttumaan.'
+    menu:
+      title: Valikkopainikkeet
+    counts:
+      title: Laskurit
+      description: 'Kuinka monta kohdetta elementti vie, rivin päässä. Se on pilleri eikä mitään muuta — siirrä `count` etiketin viereen, pudotusvalikkoon tai pystysuoraan valikkokohteeseen, niin se näkyy. Kohde ilman avainta ei näytä mitään.'
+    separators:
+      title: Erotin
+      description: 'Erotin on kohde kuten muutkin, yhdellä avaimella enemmän: pelkkä viiva jakaa kaksi erilaista kohderiviä, joilla ei ole mitään tekemistä keskenään, ja sama viiva sanan kanssa muuttuu sen jälkeiseksi otsikoksi. Molemmilla puolilla pinoa on sama ilmoitus — kolmas valikko täällä on vue-yksi.'
+    kinds:
+      title: 'Mitä kohde voi olla'
+      description: 'Neljä tyyppiä jakaa yhden rivin: sana ja kohde on linkki, sana ja tila on kytkin, sana ja lapset on haara, ja pelkkä viiva on erotin. Mikään ei ilmoita tyyppiään — se seuraa siitä, mitä kohde kantaa. Kytkin käyttää johtavaa paikkaansa merkillään, joten niiden sarake pitää sanat linjassa, ja paneeli pysyy auki sen alla: suodatinvalikkoa luetaan nipuittain, ei yksi kerrallaan.'
+  menu:
+    primary: Valikkopainike
+    filters: Suodattimet
+    filters_vue: 'Suodattimet, vue:ssa'
+    counted: Laskurilla
+    counted_vue: 'Laskurilla, vue:ssa'
+    grouped: Ryhmät
+    grouped_vue: 'Ryhmät, vue:ssa'
+    group:
+      danger: Vaaravyöhyke
+      show: Näytä
+    more: Lisätoiminnot
+    invert: 'Käännä valikko'
+    options:
+      top_left: Ylävasen
+      top_right: Yläoikea
+    item:
+      report: Ilmoita
+      inbox: Saapuneet
+      alerts: Ilmoitukset
+      settings: Asetukset
+      logout: 'Kirjaudu ulos'
+      long: 'Melko, melko, melko, melko pitkä otsikko'
+      stats: Tilastot
+      profile: Profiili
+      delete: 'Poista tili'
+      done: Valmis
+      running: Suoritetaan
+      failed: Epäonnistui
+      sort: 'Lajittele mukaan'
+      sort_name: Nimi
+      sort_date: 'Viimeisin muutos'
+      docs: Dokumentaatio
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menus
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'La ligne de lien et le séparateur en tant que partials vue. Contrairement aux lignes qui lisent une route, ces deux prennent leur icône et leur étiquette comme options, donc rien du serveur ne manque.'
+    menu:
+      title: 'Boutons de menu'
+    counts:
+      title: Comptes
+      description: "Combien de quelque chose que l'élément mène, à l'autre extrémité de la ligne. C'est une pilule et rien d'autre — passez `count` à côté de l'étiquette, dans un élément de menu déroulant ou un élément de menu vertical, et l'élément le place. Un élément sans la clé ne montre rien."
+    separators:
+      title: Séparateurs
+      description: "Un séparateur est un élément comme les autres, avec une clé de plus : une ligne nue sépare deux séries d'éléments qui n'ont rien à voir les uns avec les autres, et la même ligne donnée un mot devient le titre de ce qui suit. Les deux côtés de la pile lisent la même déclaration — le troisième menu ici est le vue."
+    kinds:
+      title: "Ce qu'un élément peut être"
+      description: "Quatre types partagent une ligne : un mot et une cible est un lien, un mot et un état est un toggle, un mot et des enfants est une branche, et une ligne nue est un séparateur. Rien ne déclare son type — cela découle de ce que l'élément porte. Un toggle dépense son emplacement principal sur sa marque, donc une colonne d'eux garde ses mots alignés, et le panneau reste ouvert en dessous : un menu de filtres se lit par poignée, pas un à la fois."
+  menu:
+    primary: 'Bouton de menu'
+    filters: Filtres
+    filters_vue: 'Filtres, en vue'
+    counted: 'Avec des comptes'
+    counted_vue: 'Avec des comptes, en vue'
+    grouped: 'Éléments groupés'
+    grouped_vue: 'Groupés, en vue'
+    group:
+      danger: 'Zone dangereuse'
+      show: Afficher
+    more: "Plus d'actions"
+    invert: 'Inverser le menu'
+    options:
+      top_left: 'En haut à gauche'
+      top_right: 'En haut à droite'
+    item:
+      report: Rapport
+      inbox: 'Boîte de réception'
+      alerts: Alertes
+      settings: Paramètres
+      logout: 'Se déconnecter'
+      long: 'Avec un titre assez, assez, assez, assez long'
+      stats: Statistiques
+      profile: Profil
+      delete: 'Supprimer le compte'
+      done: Fait
+      running: 'En cours'
+      failed: Échoué
+      sort: 'Trier par'
+      sort_name: Nom
+      sort_date: 'Dernière modification'
+      docs: Documentation
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: תפריטים
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'שורת הקישור והמפריד כחלקים של Vue. בניגוד לשורות שקוראות נתיב, השתיים הללו לוקחות את האיקון ואת התווית כאופציות, כך שאין שום דבר מהשרת חסר.'
+    menu:
+      title: 'כפתורי תפריט'
+    counts:
+      title: ספירות
+      description: 'כמה מהפריט מוביל אליו, בקצה השורה. זהו פינה ולא יותר — העבר `count` לצד התווית, בפריט בתפריט נפתח או בפריט בתפריט אנכי, והפריט מציב אותו. פריט ללא המפתח לא מציג כלום.'
+    separators:
+      title: מפרידים
+      description: 'מפריד הוא פריט כמו אחרים, עם מפתח אחד נוסף: קו ריק מפריד בין שתי רצפות של פריטים שאין להם קשר זה לזה, והקו הזה עם מילה הופך לכותרת של מה שבא אחריו. שני הצדדים של הערימה קוראים את אותה הצהרה — התפריט השלישי כאן הוא זה של Vue.'
+    kinds:
+      title: 'מה פריט יכול להיות'
+      description: 'ארבעה סוגים משתפים שורה אחת: מילה ומטרה זה קישור, מילה ומצב זה מתג, מילה וילדים זו ענף, וקו ריק הוא מפריד. שום דבר לא מכריז על סוגו — זה נובע ממה שהפריט נושא. מתג מוציא את המקום המוביל שלו על הסימן שלו, כך שעמודה שלהם שומרת על המילים מיושרות, ולוח הבקרה נשאר פתוח מתחתיו: תפריט של מסננים נקרא בקבוצה, לא אחד אחד.'
+  menu:
+    primary: 'כפתור תפריט'
+    filters: מסננים
+    filters_vue: 'מסננים, ב-Vue'
+    counted: 'עם ספירות'
+    counted_vue: 'עם ספירות, ב-Vue'
+    grouped: 'פריטים מקובצים'
+    grouped_vue: 'מקובצים, ב-Vue'
+    group:
+      danger: 'אזור סכנה'
+      show: הצג
+    more: 'עוד פעולות'
+    invert: 'הפוך תפריט'
+    options:
+      top_left: 'למעלה משמאל'
+      top_right: 'למעלה מימין'
+    item:
+      report: דווח
+      inbox: 'תיבת נכנסות'
+      alerts: התראות
+      settings: הגדרות
+      logout: התנתק
+      long: 'עם כותרת די, די, די, די ארוכה'
+      stats: סטטיסטיקות
+      profile: פרופיל
+      delete: 'מחק חשבון'
+      done: בוצע
+      running: פועל
+      failed: נכשל
+      sort: 'מיין לפי'
+      sort_name: שם
+      sort_date: 'שינוי אחרון'
+      docs: תיעוד
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: मेनू
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: व्यू
+      description: 'लिंक पंक्ति और विभाजक vue आंशिकों के रूप में। उन पंक्तियों के विपरीत जो एक मार्ग पढ़ती हैं, ये दोनों अपने आइकन और लेबल को विकल्प के रूप में लेती हैं, इसलिए सर्वर की कोई चीज़ गायब नहीं है।'
+    menu:
+      title: 'मेनू बटन'
+    counts:
+      title: गणनाएँ
+      description: 'जो भी आइटम के अंत में जाता है, उसकी संख्या। यह एक गोली है और कुछ नहीं — लेबल के पास `गणना` डालें, एक ड्रॉपडाउन आइटम या एक वर्टिकल मेनू आइटम में, और आइटम इसे रखता है। एक कुंजी के बिना आइटम कुछ नहीं दिखाता।'
+    separators:
+      title: विभाजक
+      description: 'एक विभाजक अन्य आइटम की तरह एक आइटम है, इसके पास एक और कुंजी है: एक नग्न रेखा दो आइटमों के समूहों को अलग करती है जो एक-दूसरे से संबंधित नहीं होते, और वही रेखा एक शब्द देने पर आगे जो कुछ है उसका शीर्षक बन जाती है। स्टैक के दोनों किनारे एक ही घोषणा पढ़ते हैं — यहाँ तीसरा मेनू vue है।'
+    kinds:
+      title: 'एक आइटम क्या हो सकता है'
+      description: 'चार प्रकार एक पंक्ति साझा करते हैं: एक शब्द और एक लक्ष्य एक लिंक है, एक शब्द और एक स्थिति एक टॉगल है, एक शब्द और बच्चे एक शाखा है, और एक नग्न रेखा एक विभाजक है। कुछ भी अपने प्रकार की घोषणा नहीं करता — यह आइटम में जो होता है उससे निकलता है। एक टॉगल अपने मार्क पर अपने अग्रणी स्लॉट को खर्च करता है, इसलिए उनमें से एक कॉलम अपने शब्दों को संरेखित रखता है, और पैनल इसके नीचे खुला रहता है: फ़िल्टर का एक मेनू मुट्ठी भर में पढ़ा जाता है, एक बार में नहीं।'
+  menu:
+    primary: 'मेनू बटन'
+    filters: फ़िल्टर
+    filters_vue: 'फ़िल्टर, vue में'
+    counted: 'गणनाओं के साथ'
+    counted_vue: 'गणनाओं के साथ, vue में'
+    grouped: 'समूहित आइटम'
+    grouped_vue: 'समूहित, vue में'
+    group:
+      danger: 'खतरे का क्षेत्र'
+      show: दिखाएँ
+    more: 'अधिक क्रियाएँ'
+    invert: 'मेनू को उलटें'
+    options:
+      top_left: 'ऊपर बाईं ओर'
+      top_right: 'ऊपर दाईं ओर'
+    item:
+      report: 'रिपोर्ट करें'
+      inbox: इनबॉक्स
+      alerts: अलर्ट्स
+      settings: सेटिंग्स
+      logout: 'लॉग आउट'
+      long: 'एक बहुत, बहुत, बहुत, बहुत लंबे शीर्षक के साथ'
+      stats: आंकड़े
+      profile: प्रोफ़ाइल
+      delete: 'खाता हटाएँ'
+      done: पूरा
+      running: चालू
+      failed: विफल
+      sort: 'क्रमबद्ध करें'
+      sort_name: नाम
+      sort_date: 'अंतिम परिवर्तन'
+      docs: दस्तावेज़ीकरण
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menu
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'Baris tautan dan pemisah sebagai bagian vue. Berbeda dengan baris yang membaca rute, kedua ini mengambil ikon dan label sebagai opsi, jadi tidak ada yang hilang dari server.'
+    menu:
+      title: 'Tombol menu'
+    counts:
+      title: Jumlah
+      description: 'Berapa banyak item yang dituju, di ujung garis. Ini adalah pil dan tidak lebih — lewati `count` di samping label, dalam item dropdown atau item menu vertikal, dan item tersebut akan menempatkannya. Item tanpa kunci tidak menunjukkan apa-apa.'
+    separators:
+      title: Pemisah
+      description: 'Sebuah pemisah adalah item seperti yang lain, dengan satu kunci tambahan: sebuah garis kosong memisahkan dua rangkaian item yang tidak ada hubungannya, dan garis yang sama jika diberi kata menjadi judul dari apa yang mengikuti. Kedua sisi tumpukan membaca deklarasi yang sama — menu ketiga di sini adalah yang vue.'
+    kinds:
+      title: 'Apa itu item'
+      description: 'Empat jenis berbagi satu baris: sebuah kata dan target adalah tautan, sebuah kata dan status adalah toggle, sebuah kata dan anak adalah cabang, dan garis kosong adalah pemisah. Tidak ada yang mendeklarasikan jenisnya — itu mengikuti dari apa yang dibawa item. Sebuah toggle menghabiskan slot utama untuk tanda-nya, jadi kolom dari mereka menjaga kata-katanya tetap sejajar, dan panel tetap terbuka di bawahnya: menu filter dibaca dalam jumlah banyak, bukan satu per satu.'
+  menu:
+    primary: 'Tombol menu'
+    filters: Filter
+    filters_vue: 'Filter, dalam vue'
+    counted: 'Dengan jumlah'
+    counted_vue: 'Dengan jumlah, dalam vue'
+    grouped: 'Item yang dikelompokkan'
+    grouped_vue: 'Dikelompokkan, dalam vue'
+    group:
+      danger: 'Zona bahaya'
+      show: Tampilkan
+    more: 'Lebih banyak tindakan'
+    invert: 'Balik menu'
+    options:
+      top_left: 'Atas kiri'
+      top_right: 'Atas kanan'
+    item:
+      report: Laporkan
+      inbox: 'Kotak masuk'
+      alerts: Pemberitahuan
+      settings: Pengaturan
+      logout: Keluar
+      long: 'Dengan judul yang cukup, cukup, cukup, cukup panjang'
+      stats: Statistik
+      profile: Profil
+      delete: 'Hapus akun'
+      done: Selesai
+      running: 'Sedang berjalan'
+      failed: Gagal
+      sort: 'Urutkan berdasarkan'
+      sort_name: Nama
+      sort_date: 'Perubahan terakhir'
+      docs: Dokumentasi
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menu
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: "La riga dei link e il separatore come partials vue. A differenza delle righe che leggono una rotta, questi due prendono la loro icona e l'etichetta come opzioni, quindi nulla del server è mancante."
+    menu:
+      title: 'Pulsanti del menu'
+    counts:
+      title: Conteggi
+      description: "Quanti di qualsiasi cosa porta l'elemento, all'estremità della riga. È una pillola e null'altro — passa `count` accanto all'etichetta, in un elemento a discesa o in un elemento del menu verticale, e l'elemento lo colloca. Un elemento senza la chiave non mostra nulla."
+    separators:
+      title: Separatori
+      description: "Un separatore è un elemento come gli altri, con una chiave in più: una linea semplice separa due gruppi di elementi che non hanno nulla a che fare l'uno con l'altro, e la stessa linea data una parola diventa il titolo di ciò che segue. Entrambi i lati dello stack leggono la stessa dichiarazione — il terzo menu qui è quello vue."
+    kinds:
+      title: 'Cosa può essere un elemento'
+      description: "Quattro tipi condividono una riga: una parola e un obiettivo è un link, una parola e uno stato è un toggle, una parola e figli è un ramo, e una linea semplice è un separatore. Niente dichiara il suo tipo — deriva da ciò che l'elemento porta. Un toggle spende il suo slot principale sul suo marchio, quindi una colonna di essi mantiene le sue parole allineate, e il pannello rimane aperto sotto di esso: un menu di filtri è letto a manciate, non uno alla volta."
+  menu:
+    primary: 'Pulsante menu'
+    filters: Filtri
+    filters_vue: 'Filtri, in vue'
+    counted: 'Con conteggi'
+    counted_vue: 'Con conteggi, in vue'
+    grouped: 'Elementi raggruppati'
+    grouped_vue: 'Raggruppato, in vue'
+    group:
+      danger: 'Zona pericolosa'
+      show: Mostra
+    more: 'Altre azioni'
+    invert: 'Inverti menu'
+    options:
+      top_left: 'In alto a sinistra'
+      top_right: 'In alto a destra'
+    item:
+      report: Segnala
+      inbox: 'Posta in arrivo'
+      alerts: Avvisi
+      settings: Impostazioni
+      logout: Disconnetti
+      long: 'Con un titolo piuttosto, piuttosto, piuttosto, piuttosto lungo'
+      stats: Statistiche
+      profile: Profilo
+      delete: 'Elimina account'
+      done: Fatto
+      running: 'In esecuzione'
+      failed: Fallito
+      sort: 'Ordina per'
+      sort_name: Nome
+      sort_date: 'Ultima modifica'
+      docs: Documentazione
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: メニュー
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: リンク行とセパレーターはvueのパーシャルです。ルートを読み込む行とは異なり、これらの2つはアイコンとラベルをオプションとして取得するため、サーバーの情報は失われません。
+    menu:
+      title: メニューボタン
+    counts:
+      title: カウント
+      description: 'アイテムが導く先の数です。行の端に表示されます。それはピルであり、それ以外の何物でもありません — ラベルの横に`count`を渡すと、ドロップダウンアイテムまたは縦メニューアイテムでアイテムが配置されます。キーのないアイテムは何も表示しません。'
+    separators:
+      title: セパレーター
+      description: 'セパレーターは他のアイテムと同様のアイテムで、1つのキーが追加されています：単純なラインは、互いに関係のない2つのアイテムのグループを分けますが、同じラインに単語を与えると、次に続くものの見出しになります。スタックの両側は同じ宣言を読みます — ここにある3番目のメニューはvueのものです。'
+    kinds:
+      title: アイテムの種類
+      description: '4つの種類が1行を共有します：単語とターゲットはリンク、単語と状態はトグル、単語と子要素はブランチ、裸のラインはセパレーターです。何もその種類を明示することはありません — それはアイテムが持つものから導かれます。トグルはその印にリーディングスロットを使うため、それらの列は単語を揃えたままにし、パネルはその下で開いたままになります：フィルターのメニューは一度に一つではなく、一握りで読むことができます。'
+  menu:
+    primary: メニューボタン
+    filters: フィルター
+    filters_vue: フィルター（vue）
+    counted: カウント付き
+    counted_vue: カウント付き（vue）
+    grouped: グループ化されたアイテム
+    grouped_vue: グループ化された（vue）
+    group:
+      danger: 危険ゾーン
+      show: 表示
+    more: その他のアクション
+    invert: メニューを反転
+    options:
+      top_left: 左上
+      top_right: 右上
+    item:
+      report: レポート
+      inbox: 受信箱
+      alerts: アラート
+      settings: 設定
+      logout: ログアウト
+      long: かなり、かなり、かなり、かなり長いタイトルのアイテム
+      stats: 統計
+      profile: プロフィール
+      delete: アカウント削除
+      done: 完了
+      running: 実行中
+      failed: 失敗
+      sort: 並び替え
+      sort_name: 名前
+      sort_date: 最終変更
+      docs: ドキュメント
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 메뉴
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: '링크 행과 구분선은 vue 부분입니다. 경로를 읽는 행과는 달리, 이 두 개는 아이콘과 레이블을 옵션으로 받으므로 서버의 어떤 것도 누락되지 않습니다.'
+    menu:
+      title: '메뉴 버튼'
+    counts:
+      title: 카운트
+      description: '항목이 연결되는 수치, 줄 끝에 위치합니다. 이것은 알약과 같으며 그 외에는 아무것도 아닙니다 — 드롭다운 항목이나 수직 메뉴 항목에서 레이블 옆에 `count`를 전달하면, 항목이 그것을 배치합니다. 키가 없는 항목은 아무것도 표시하지 않습니다.'
+    separators:
+      title: 구분선
+      description: '구분선은 다른 항목들과 마찬가지로 하나의 키가 더 있는 항목입니다: 빈 줄은 서로 관계 없는 두 항목 그룹을 나누며, 같은 줄에 단어가 주어지면 그 뒤의 내용의 제목이 됩니다. 스택 양쪽은 같은 선언을 읽습니다 — 여기의 세 번째 메뉴는 vue 것입니다.'
+    kinds:
+      title: '항목의 종류'
+      description: '네 가지 종류가 하나의 행을 공유합니다: 단어와 대상은 링크, 단어와 상태는 토글, 단어와 자식은 분기, 그리고 빈 줄은 구분선입니다. 자신의 종류를 선언하는 것은 없습니다 — 그것은 항목이 담고 있는 것에서 유래합니다. 토글은 그 표시를 위한 선행 슬롯을 사용하므로, 그들의 열은 단어가 정렬되어 있으며, 패널은 그 아래에 열려 있습니다: 필터 메뉴는 한 번에 하나가 아니라 한 줌으로 읽힙니다.'
+  menu:
+    primary: '메뉴 버튼'
+    filters: 필터
+    filters_vue: 'vue에서의 필터'
+    counted: '카운트가 있는'
+    counted_vue: 'vue에서의 카운트가 있는'
+    grouped: '그룹화된 항목'
+    grouped_vue: 'vue에서 그룹화된'
+    group:
+      danger: '위험 구역'
+      show: 보기
+    more: '추가 작업'
+    invert: '메뉴 반전'
+    options:
+      top_left: '왼쪽 상단'
+      top_right: '오른쪽 상단'
+    item:
+      report: 보고서
+      inbox: '받은 편지함'
+      alerts: 알림
+      settings: 설정
+      logout: '로그 아웃'
+      long: '매우, 매우, 매우, 매우 긴 제목이 있는'
+      stats: 통계
+      profile: 프로필
+      delete: '계정 삭제'
+      done: 완료
+      running: '실행 중'
+      failed: 실패
+      sort: '정렬 기준'
+      sort_name: 이름
+      sort_date: '마지막 변경'
+      docs: 문서
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: "Menu's"
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'De linkrij en de scheider als vue-partials. In tegenstelling tot de rijen die een route lezen, nemen deze twee hun icoon en label als opties, zodat er niets van de server ontbreekt.'
+    menu:
+      title: 'Menu knoppen'
+    counts:
+      title: Tellingen
+      description: 'Hoeveel van wat het item leidt naar, aan het uiteinde van de lijn. Het is een pil en niets anders — geef `count` naast het label, in een dropdown-item of een verticaal menu-item, en het item plaatst het. Een item zonder de sleutel toont niets.'
+    separators:
+      title: Scheiders
+      description: 'Een scheider is een item zoals de anderen, met één sleutel meer: een blote lijn scheidt twee reeksen items die niets met elkaar te maken hebben, en dezelfde lijn met een woord wordt de kop van wat volgt. Beide zijden van de stapel lezen dezelfde verklaring — het derde menu hier is het vue-menu.'
+    kinds:
+      title: 'Wat een item kan zijn'
+      description: 'Vier soorten delen één rij: een woord en een doel is een link, een woord en een staat is een toggle, een woord en kinderen is een tak, en een blote lijn is een scheider. Niets verklaart zijn soort — het volgt uit wat het item draagt. Een toggle gebruikt zijn leidende slot voor zijn merk, zodat een kolom daarvan zijn woorden uitgelijnd houdt, en het paneel open blijft eronder: een menu van filters wordt met de hand gelezen, niet één voor één.'
+  menu:
+    primary: 'Menu knop'
+    filters: Filters
+    filters_vue: 'Filters, in vue'
+    counted: 'Met tellingen'
+    counted_vue: 'Met tellingen, in vue'
+    grouped: 'Groep items'
+    grouped_vue: 'Groep, in vue'
+    group:
+      danger: Gevarenzone
+      show: Toon
+    more: 'Meer acties'
+    invert: 'Menu omkeren'
+    options:
+      top_left: 'Boven links'
+      top_right: 'Boven rechts'
+    item:
+      report: Rapporteer
+      inbox: Inbox
+      alerts: Alerts
+      settings: Instellingen
+      logout: Uitloggen
+      long: 'Met een behoorlijk, behoorlijk, behoorlijk, behoorlijk lange titel'
+      stats: Statistieken
+      profile: Profiel
+      delete: 'Verwijder account'
+      done: Klaar
+      running: Lopend
+      failed: Mislukt
+      sort: 'Sorteer op'
+      sort_name: Naam
+      sort_date: 'Laatste wijziging'
+      docs: Documentatie
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menu
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'Wiersz linku i separator jako części vue. W przeciwieństwie do wierszy, które odczytują trasę, te dwa przyjmują ikonę i etykietę jako opcje, więc niczego z serwera nie brakuje.'
+    menu:
+      title: 'Przyciski menu'
+    counts:
+      title: Liczby
+      description: 'Ile z tego, do czego prowadzi element, na końcu linii. To jest pigułka i nic więcej — przekaż `count` obok etykiety, w elemencie rozwijanym lub elemencie menu pionowego, a element umieści go. Element bez klucza nie pokazuje nic.'
+    separators:
+      title: Separatory
+      description: 'Separator to element jak inne, z jednym kluczem więcej: goła linia oddziela dwa ciągi elementów, które nie mają ze sobą nic wspólnego, a ta sama linia, podana jako słowo, staje się nagłówkiem tego, co następuje. Obie strony stosu odczytują to samo oświadczenie — trzecie menu tutaj to vue.'
+    kinds:
+      title: 'Co może być elementem'
+      description: 'Cztery rodzaje dzielą jeden wiersz: słowo i cel to link, słowo i stan to przełącznik, słowo i dzieci to gałąź, a goła linia to separator. Nic nie deklaruje swojego rodzaju — wynika to z tego, co niesie element. Przełącznik wykorzystuje swoje wiodące miejsce na swoim znaku, więc kolumna z nimi utrzymuje swoje słowa w linii, a panel pozostaje otwarty pod nim: menu filtrów odczytuje się garściami, a nie po jednym.'
+  menu:
+    primary: 'Przycisk menu'
+    filters: Filtry
+    filters_vue: 'Filtry, w vue'
+    counted: 'Z licznikami'
+    counted_vue: 'Z licznikami, w vue'
+    grouped: 'Zgrupowane elementy'
+    grouped_vue: 'Zgrupowane, w vue'
+    group:
+      danger: 'Strefa zagrożenia'
+      show: Pokaż
+    more: 'Więcej akcji'
+    invert: 'Odwróć menu'
+    options:
+      top_left: 'Góra lewo'
+      top_right: 'Góra prawo'
+    item:
+      report: Zgłoś
+      inbox: 'Skrzynka odbiorcza'
+      alerts: Powiadomienia
+      settings: Ustawienia
+      logout: 'Wyloguj się'
+      long: 'Z całkiem, całkiem, całkiem, całkiem długim tytułem'
+      stats: Statystyki
+      profile: Profil
+      delete: 'Usuń konto'
+      done: Zrobione
+      running: 'W trakcie'
+      failed: 'Nie powiodło się'
+      sort: 'Sortuj według'
+      sort_name: Nazwa
+      sort_date: 'Ostatnia zmiana'
+      docs: Dokumentacja
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menus
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'A linha de link e o separador como partes do vue. Diferente das linhas que leem uma rota, esses dois utilizam seu ícone e rótulo como opções, então nada do servidor está faltando.'
+    menu:
+      title: 'Botões do menu'
+    counts:
+      title: Contagens
+      description: 'Quantos de qualquer item levam ao final da linha. É uma pílula e nada mais — passe `count` ao lado do rótulo, em um item de dropdown ou em um item de menu vertical, e o item o coloca. Um item sem a chave não mostra nada.'
+    separators:
+      title: Separadores
+      description: 'Um separador é um item como os outros, com uma chave a mais: uma linha simples separa duas sequências de itens que não têm nada a ver uma com a outra, e a mesma linha dada uma palavra se torna o cabeçalho do que segue. Ambos os lados da pilha leem a mesma declaração — o terceiro menu aqui é o do vue.'
+    kinds:
+      title: 'O que um item pode ser'
+      description: 'Quatro tipos compartilham uma linha: uma palavra e um destino é um link, uma palavra e um estado é um alternador, uma palavra e filhos é um ramo, e uma linha simples é um separador. Nada declara seu tipo — isso vem do que o item carrega. Um alternador gasta seu espaço inicial em sua marca, então uma coluna deles mantém suas palavras alinhadas, e o painel permanece aberto sob ele: um menu de filtros é lido em grupos, não um de cada vez.'
+  menu:
+    primary: 'Botão do menu'
+    filters: Filtros
+    filters_vue: 'Filtros, em vue'
+    counted: 'Com contagens'
+    counted_vue: 'Com contagens, em vue'
+    grouped: 'Itens agrupados'
+    grouped_vue: 'Agrupados, em vue'
+    group:
+      danger: 'Zona de perigo'
+      show: Mostrar
+    more: 'Mais ações'
+    invert: 'Inverter menu'
+    options:
+      top_left: 'Canto superior esquerdo'
+      top_right: 'Canto superior direito'
+    item:
+      report: Relatar
+      inbox: 'Caixa de entrada'
+      alerts: Alertas
+      settings: Configurações
+      logout: Sair
+      long: 'Com um título bem, bem, bem, bem longo'
+      stats: Estatísticas
+      profile: Perfil
+      delete: 'Deletar conta'
+      done: Concluído
+      running: 'Em execução'
+      failed: Falhou
+      sort: 'Ordenar por'
+      sort_name: Nome
+      sort_date: 'Última alteração'
+      docs: Documentação
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Меню
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'Строка ссылок и разделитель как части vue. В отличие от строк, которые читают маршрут, эти две принимают свои иконки и метки в качестве опций, так что ничего с сервера не пропущено.'
+    menu:
+      title: 'Кнопки меню'
+    counts:
+      title: Количество
+      description: 'Сколько чего-либо ведет к элементу, в самом конце строки. Это просто счетчик — передайте `count` рядом с меткой, в элементе выпадающего списка или вертикальном элементе меню, и элемент разместит его. Элемент без ключа ничего не показывает.'
+    separators:
+      title: Разделители
+      description: 'Разделитель — это элемент, как и остальные, с одним дополнительным ключом: простая линия разделяет два ряда элементов, которые не имеют ничего общего, и если той же линии дать слово, она станет заголовком того, что следует. Оба конца стека читают одно и то же объявление — третье меню здесь является vue.'
+    kinds:
+      title: 'Что может быть элементом'
+      description: 'Четыре вида делят один ряд: слово и цель — это ссылка, слово и состояние — это переключатель, слово и дочерние элементы — это ветка, а простая линия — это разделитель. Ничто не объявляет своего рода — это следует из того, что несет элемент. Переключатель тратит свое ведущее место на свой знак, так что колонка из них сохраняет свои слова выровненными, и панель остается открытой под ней: меню фильтров читается по нескольку, а не по одному за раз.'
+  menu:
+    primary: 'Кнопка меню'
+    filters: Фильтры
+    filters_vue: 'Фильтры, в vue'
+    counted: 'С количеством'
+    counted_vue: 'С количеством, в vue'
+    grouped: 'Группированные элементы'
+    grouped_vue: 'Группированные, в vue'
+    group:
+      danger: 'Опасная зона'
+      show: Показать
+    more: 'Больше действий'
+    invert: 'Инвертировать меню'
+    options:
+      top_left: 'Слева сверху'
+      top_right: 'Справа сверху'
+    item:
+      report: Сообщить
+      inbox: Входящие
+      alerts: Уведомления
+      settings: Настройки
+      logout: Выйти
+      long: 'С довольно, довольно, довольно, довольно длинным заголовком'
+      stats: Статистика
+      profile: Профиль
+      delete: 'Удалить аккаунт'
+      done: Готово
+      running: Выполняется
+      failed: 'Не удалось'
+      sort: 'Сортировать по'
+      sort_name: Имя
+      sort_date: 'Последнее изменение'
+      docs: Документация
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: เมนู
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'แถวลิงก์และตัวแบ่งในรูปแบบ Vue โดยไม่เหมือนกับแถวที่อ่านเส้นทาง สองตัวนี้จะใช้ไอคอนและป้ายกำกับเป็นตัวเลือก ดังนั้นไม่มีอะไรที่ขาดหายไปจากเซิร์ฟเวอร์'
+    menu:
+      title: ปุ่มเมนู
+    counts:
+      title: จำนวน
+      description: 'จำนวนของสิ่งที่ไอเท็มชี้ไปที่ปลายสุดของแถว เป็นเพียงยาที่ไม่มีอย่างอื่น — ส่ง `count` ข้างป้ายกำกับ ในรายการดรอปดาวน์หรือในรายการเมนูแนวตั้ง และไอเท็มจะวางมัน ไอเท็มที่ไม่มีคีย์จะไม่แสดงอะไรเลย'
+    separators:
+      title: ตัวแบ่ง
+      description: 'ตัวแบ่งคือไอเท็มที่เหมือนกับไอเท็มอื่นๆ โดยมีคีย์เพิ่มเติม: แถวเปล่าจะแยกสองกลุ่มของไอเท็มที่ไม่มีความเกี่ยวข้องกัน และแถวเดียวกันถ้าให้คำจะกลายเป็นหัวข้อของสิ่งที่ตามมา ทั้งสองด้านของสแต็คอ่านคำประกาศเดียวกัน — เมนูที่สามที่นี่คือเมนู Vue'
+    kinds:
+      title: ประเภทของไอเท็ม
+      description: 'สี่ประเภทแบ่งปันแถวเดียว: คำและเป้าหมายคือลิงก์ คำและสถานะคือการสลับ คำและเด็กคือสาขา และแถวเปล่าคือตัวแบ่ง ไม่มีอะไรประกาศประเภทของมัน — มันตามมาจากสิ่งที่ไอเท็มมีอยู่ การสลับใช้ช่องนำของมันกับเครื่องหมายของมัน ดังนั้นคอลัมน์ของมันจึงรักษาคำให้ตรงกัน และแผงจะเปิดอยู่ใต้: เมนูฟิลเตอร์จะอ่านเป็นกลุ่ม ไม่ใช่ทีละรายการ'
+  menu:
+    primary: ปุ่มเมนู
+    filters: ฟิลเตอร์
+    filters_vue: 'ฟิลเตอร์ในรูปแบบ Vue'
+    counted: มีจำนวน
+    counted_vue: 'มีจำนวนในรูปแบบ Vue'
+    grouped: รายการที่จัดกลุ่ม
+    grouped_vue: 'จัดกลุ่มในรูปแบบ Vue'
+    group:
+      danger: โซนอันตราย
+      show: แสดง
+    more: ดำเนินการเพิ่มเติม
+    invert: กลับเมนู
+    options:
+      top_left: มุมซ้ายบน
+      top_right: มุมขวาบน
+    item:
+      report: รายงาน
+      inbox: กล่องขาเข้า
+      alerts: การแจ้งเตือน
+      settings: การตั้งค่า
+      logout: ออกจากระบบ
+      long: 'มีชื่อที่ยาวมาก, ยาวมาก, ยาวมาก, ยาวมาก'
+      stats: สถิติ
+      profile: โปรไฟล์
+      delete: ลบบัญชี
+      done: เสร็จสิ้น
+      running: กำลังดำเนินการ
+      failed: ล้มเหลว
+      sort: เรียงตาม
+      sort_name: ชื่อ
+      sort_date: การเปลี่ยนแปลงล่าสุด
+      docs: เอกสาร
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menüler
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'Bağlantı satırı ve ayırıcı, vue parçaları olarak. Bir rotayı okuyan satırlardan farklı olarak, bu ikisi simgesini ve etiketini seçenek olarak alır, bu nedenle sunucudan hiçbir şey eksik değildir.'
+    menu:
+      title: 'Menü butonları'
+    counts:
+      title: Sayımlar
+      description: 'Öğenin yol açtığı şeylerin sayısı, satırın en sonunda. Bu bir hap ve başka bir şey değil - etiketin yanına `count` geçin, bir açılır menü öğesinde veya dikey menü öğesinde ve öğe bunu yerleştirir. Anahtarı olmayan bir öğe hiçbir şey göstermez.'
+    separators:
+      title: Ayırıcılar
+      description: 'Bir ayırıcı, diğerleri gibi bir öğedir, bir anahtar daha ile: çıplak bir çizgi, birbirleriyle hiçbir ilgisi olmayan iki öğe grubu arasında yer alır ve aynı çizgi bir kelime verildiğinde, takip edenlerin başlığı olur. Yığının her iki tarafı da aynı beyanı okur - buradaki üçüncü menü vue menüsüdür.'
+    kinds:
+      title: 'Bir öğe ne olabilir'
+      description: 'Dört tür bir satırı paylaşır: bir kelime ve bir hedef bir bağlantıdır, bir kelime ve bir durum bir geçiştir, bir kelime ve çocuklar bir dal oluşturur ve çıplak bir çizgi bir ayırıcıdır. Hiçbir şey türünü beyan etmez - öğenin taşıdığına bağlıdır. Bir geçiş, önde gelen slotunu işaretine harcar, bu nedenle bunların bir sütunu kelimelerini hizalı tutar ve panel altında açık kalır: bir filtre menüsü avuçla okunur, birer birer değil.'
+  menu:
+    primary: 'Menü butonu'
+    filters: Filtreler
+    filters_vue: "Filtreler, vue'da"
+    counted: 'Sayılara sahip'
+    counted_vue: "Sayılara sahip, vue'da"
+    grouped: 'Gruplanmış öğeler'
+    grouped_vue: "Gruplanmış, vue'da"
+    group:
+      danger: 'Tehlikeli alan'
+      show: Göster
+    more: 'Daha fazla işlem'
+    invert: 'Menüyü tersine çevir'
+    options:
+      top_left: 'Sol üst'
+      top_right: 'Sağ üst'
+    item:
+      report: 'Rapor et'
+      inbox: 'Gelen kutusu'
+      alerts: Uyarılar
+      settings: Ayarlar
+      logout: 'Çıkış yap'
+      long: 'Çok, çok, çok, çok uzun bir başlığa sahip'
+      stats: İstatistikler
+      profile: Profil
+      delete: 'Hesabı sil'
+      done: Tamamlandı
+      running: Çalışıyor
+      failed: Başarısız
+      sort: Sırala
+      sort_name: İsim
+      sort_date: 'Son değişiklik'
+      docs: Belgeler
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: مینوز
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: ویو
+      description: 'لنک رو اور سیپریٹر ویو کے جزو کے طور پر۔ ان رووں کے برعکس جو راستے کو پڑھتے ہیں، یہ دونوں اپنے آئیکن اور لیبل کو آپشن کے طور پر لیتے ہیں، اس لیے سرور کا کچھ بھی غائب نہیں ہوتا۔'
+    menu:
+      title: 'مینو بٹن'
+    counts:
+      title: گنتی
+      description: 'یہاں تک کہ اشیاء کی تعداد جو لائن کے آخری سرے پر جاتی ہیں۔ یہ ایک گولی ہے اور کچھ نہیں — لیبل کے ساتھ `count` پاس کریں، ایک ڈراپ ڈاؤن آئٹم یا عمودی مینو آئٹم میں، اور آئٹم اسے رکھ دیتا ہے۔ ایک آئٹم بغیر کلید کے کچھ نہیں دکھاتا۔'
+    separators:
+      title: سیپریٹر
+      description: 'ایک سیپریٹر دوسرے آئٹمز کی طرح ایک آئٹم ہے، ایک کلید زیادہ کے ساتھ: ایک خالی لائن دو ایسے آئٹمز کو جدا کرتی ہے جن کا آپس میں کوئی تعلق نہیں ہے، اور اگر اسی لائن کو ایک لفظ دیا جائے تو یہ اس کے بعد آنے والی چیز کا عنوان بن جاتا ہے۔ اسٹیک کے دونوں طرف ایک ہی اعلان پڑھا جاتا ہے — یہاں تیسرا مینو ویو والا ہے۔'
+    kinds:
+      title: 'ایک آئٹم کیا ہو سکتا ہے'
+      description: 'چار اقسام ایک صف میں شریک ہیں: ایک لفظ اور ایک ٹارگٹ ایک لنک ہے، ایک لفظ اور ایک حالت ایک ٹوگل ہے، ایک لفظ اور بچے ایک شاخ ہے، اور ایک خالی لائن ایک سیپریٹر ہے۔ کچھ بھی اپنی قسم کا اعلان نہیں کرتا — یہ اس چیز سے ظاہر ہوتا ہے جو آئٹم کے پاس ہے۔ ایک ٹوگل اپنے نشان پر اپنا ابتدائی سلاٹ خرچ کرتا ہے، لہذا ان کا ایک کالم اپنے الفاظ کو متوازن رکھتا ہے، اور اس کے نیچے پینل کھلا رہتا ہے: فلٹرز کا ایک مینو ہاتھوں سے پڑھا جاتا ہے، ایک وقت میں نہیں۔'
+  menu:
+    primary: 'مینو بٹن'
+    filters: فلٹرز
+    filters_vue: 'فلٹرز، ویو میں'
+    counted: 'گنتیوں کے ساتھ'
+    counted_vue: 'گنتیوں کے ساتھ، ویو میں'
+    grouped: 'گروپ کی گئی اشیاء'
+    grouped_vue: 'گروپ کی گئی، ویو میں'
+    group:
+      danger: 'خطرے کا علاقہ'
+      show: دکھائیں
+    more: 'مزید کارروائیاں'
+    invert: 'مینو کو الٹیں'
+    options:
+      top_left: 'اوپر بائیں'
+      top_right: 'اوپر دائیں'
+    item:
+      report: 'رپورٹ کریں'
+      inbox: 'ان باکس'
+      alerts: الرٹس
+      settings: ترتیبات
+      logout: 'لاگ آؤٹ کریں'
+      long: 'ایک کافی، کافی، کافی، کافی لمبے عنوان کے ساتھ'
+      stats: 'اعداد و شمار'
+      profile: پروفائل
+      delete: 'اکاؤنٹ حذف کریں'
+      done: 'ہو گیا'
+      running: 'چل رہا ہے'
+      failed: ناکام
+      sort: 'ترتیب دیں'
+      sort_name: نام
+      sort_date: 'آخری تبدیلی'
+      docs: دستاویزات
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Menus
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: 'Dòng liên kết và dấu phân cách như các phần của vue. Khác với các dòng đọc một tuyến đường, hai cái này nhận biểu tượng và nhãn là tùy chọn, vì vậy không có gì từ máy chủ bị thiếu.'
+    menu:
+      title: 'Nút menu'
+    counts:
+      title: 'Số lượng'
+      description: 'Bao nhiêu thứ mà mục dẫn đến, ở cuối dòng. Nó là một viên thuốc và không gì khác — truyền `count` bên cạnh nhãn, trong một mục dropdown hoặc một mục menu dọc, và mục đó sẽ đặt nó. Một mục không có khóa sẽ không hiển thị gì.'
+    separators:
+      title: 'Dấu phân cách'
+      description: 'Một dấu phân cách là một mục giống như những mục khác, với một khóa thêm: một dòng trần chia hai chuỗi mục không liên quan đến nhau, và cùng một dòng được đặt một từ trở thành tiêu đề của những gì theo sau. Cả hai bên của ngăn xếp đều đọc cùng một tuyên bố — menu thứ ba ở đây là của vue.'
+    kinds:
+      title: 'Một mục có thể là gì'
+      description: 'Bốn loại chia sẻ một dòng: một từ và một mục tiêu là một liên kết, một từ và một trạng thái là một công tắc, một từ và các mục con là một nhánh, và một dòng trần là một dấu phân cách. Không có gì tuyên bố loại của nó — nó theo từ những gì mục mang. Một công tắc dành vị trí dẫn đầu của nó cho dấu hiệu của nó, vì vậy một cột của chúng giữ các từ của nó thẳng hàng, và bảng điều khiển vẫn mở ở dưới: một menu lọc được đọc theo nhóm, không phải từng cái một.'
+  menu:
+    primary: 'Nút menu'
+    filters: Lọc
+    filters_vue: 'Lọc, trong vue'
+    counted: 'Có số lượng'
+    counted_vue: 'Có số lượng, trong vue'
+    grouped: 'Các mục nhóm'
+    grouped_vue: 'Nhóm, trong vue'
+    group:
+      danger: 'Khu vực nguy hiểm'
+      show: Hiện
+    more: 'Thêm hành động'
+    invert: 'Đảo ngược menu'
+    options:
+      top_left: 'Trên cùng bên trái'
+      top_right: 'Trên cùng bên phải'
+    item:
+      report: 'Báo cáo'
+      inbox: 'Hộp thư đến'
+      alerts: 'Thông báo'
+      settings: 'Cài đặt'
+      logout: 'Đăng xuất'
+      long: 'Với một tiêu đề khá, khá, khá, khá dài'
+      stats: 'Thống kê'
+      profile: 'Hồ sơ'
+      delete: 'Xóa tài khoản'
+      done: 'Hoàn thành'
+      running: 'Đang chạy'
+      failed: 'Thất bại'
+      sort: 'Sắp xếp theo'
+      sort_name: Tên
+      sort_date: 'Thay đổi cuối cùng'
+      docs: 'Tài liệu'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 菜单
+  page_icon: 'ph:bold/list'
+  section:
+    vue:
+      title: Vue
+      description: '链接行和分隔符作为 vue 部件。与读取路线的行不同，这两个将其图标和标签作为选项，因此服务器的内容不会缺失。'
+    menu:
+      title: 菜单按钮
+    counts:
+      title: 计数
+      description: '项所指向的内容数量，在行的另一端。它是一个药丸，别无其他 - 在下拉项或垂直菜单项中在标签旁边传递 `count`，该项将其放置。没有键的项不显示任何内容。'
+    separators:
+      title: 分隔符
+      description: '分隔符是像其他项一样的项，多了一个关键：一条光秃秃的线分隔两个没有任何联系的项目系列，而同一条线加上一个词就变成了后续内容的标题。堆栈两侧都读取相同的声明 - 这里的第三个菜单是 vue 的。'
+    kinds:
+      title: 项的类型
+      description: '四种类型共享一行：一个词和一个目标是链接，一个词和一个状态是切换，一个词和子项是分支，而一条光秃秃的线是分隔符。没有任何事物声明其类型 - 它从项所承载的内容中推断出来。切换花费其前导位置在其标记上，因此它们的列保持其词对齐，面板在其下方保持打开：过滤器菜单是以一把为单位读取的，而不是一次一个。'
+  menu:
+    primary: 菜单按钮
+    filters: 过滤器
+    filters_vue: '过滤器，使用 vue'
+    counted: 带计数
+    counted_vue: '带计数，使用 vue'
+    grouped: 分组项
+    grouped_vue: '分组，使用 vue'
+    group:
+      danger: 危险区域
+      show: 显示
+    more: 更多操作
+    invert: 反转菜单
+    options:
+      top_left: 左上角
+      top_right: 右上角
+    item:
+      report: 报告
+      inbox: 收件箱
+      alerts: 警报
+      settings: 设置
+      logout: 注销
+      long: 标题相当、相当、相当、相当长
+      stats: 统计
+      profile: 个人资料
+      delete: 删除账户
+      done: 完成
+      running: 运行中
+      failed: 失败
+      sort: 排序方式
+      sort_name: 名称
+      sort_date: 最后更改
+      docs: 文档

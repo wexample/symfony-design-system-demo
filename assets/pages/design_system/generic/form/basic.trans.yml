@@ -1,0 +1,877 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Forms
+  page_icon: ph:bold/rows
+
+  section:
+    default:
+      title: Basic form
+    block:
+      title: Block forms
+    assisted:
+      title: Assisted
+
+  field:
+    title:
+      label: Title
+      placeholder: Enter a title
+    message:
+      label: Message
+      placeholder: Write a short message
+    date:
+      label: Date
+    datetime:
+      label: Date & time
+    time:
+      label: Time
+    file:
+      label: File
+    email:
+      label: Email
+    number:
+      label: Number
+    url:
+      label: URL
+
+  action:
+    submit: Submit
+    secondary: Secondary action
+    raw_submit: Raw submit
+    link: Simple link
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: النماذج
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'نموذج أساسي'
+    block:
+      title: 'نماذج مجمعة'
+    assisted:
+      title: مساعد
+  field:
+    title:
+      label: العنوان
+      placeholder: 'أدخل عنواناً'
+    message:
+      label: الرسالة
+      placeholder: 'اكتب رسالة قصيرة'
+    date:
+      label: التاريخ
+    datetime:
+      label: 'التاريخ والوقت'
+    time:
+      label: الوقت
+    file:
+      label: ملف
+    email:
+      label: 'البريد الإلكتروني'
+    number:
+      label: رقم
+    url:
+      label: رابط
+  action:
+    submit: إرسال
+    secondary: 'إجراء ثانوي'
+    raw_submit: 'إرسال مباشر'
+    link: 'رابط بسيط'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ফর্ম
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'বেসিক ফর্ম'
+    block:
+      title: 'ব্লক ফর্ম'
+    assisted:
+      title: সহায়ক
+  field:
+    title:
+      label: শিরোনাম
+      placeholder: 'একটি শিরোনাম লিখুন'
+    message:
+      label: বার্তা
+      placeholder: 'একটি সংক্ষিপ্ত বার্তা লিখুন'
+    date:
+      label: তারিখ
+    datetime:
+      label: 'তারিখ এবং সময়'
+    time:
+      label: সময়
+    file:
+      label: ফাইল
+    email:
+      label: ইমেইল
+    number:
+      label: নম্বর
+    url:
+      label: ইউআরএল
+  action:
+    submit: 'জমা দিন'
+    secondary: 'সেকেন্ডারি অ্যাকশন'
+    raw_submit: 'রাও জমা দিন'
+    link: 'সাধারণ লিঙ্ক'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulare
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: Basisformular
+    block:
+      title: Blockformulare
+    assisted:
+      title: Unterstützt
+  field:
+    title:
+      label: Titel
+      placeholder: 'Titel eingeben'
+    message:
+      label: Nachricht
+      placeholder: 'Kurze Nachricht schreiben'
+    date:
+      label: Datum
+    datetime:
+      label: 'Datum & Uhrzeit'
+    time:
+      label: Uhrzeit
+    file:
+      label: Datei
+    email:
+      label: E-Mail
+    number:
+      label: Nummer
+    url:
+      label: URL
+  action:
+    submit: Absenden
+    secondary: 'Sekundäre Aktion'
+    raw_submit: 'Rohe Übermittlung'
+    link: 'Einfacher Link'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formas
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Formulario básico'
+    block:
+      title: 'Formularios en bloque'
+    assisted:
+      title: Asistido
+  field:
+    title:
+      label: Título
+      placeholder: 'Introduce un título'
+    message:
+      label: Mensaje
+      placeholder: 'Escribe un mensaje corto'
+    date:
+      label: Fecha
+    datetime:
+      label: 'Fecha y hora'
+    time:
+      label: Hora
+    file:
+      label: Archivo
+    email:
+      label: 'Correo electrónico'
+    number:
+      label: Número
+    url:
+      label: URL
+  action:
+    submit: Enviar
+    secondary: 'Acción secundaria'
+    raw_submit: 'Enviar raw'
+    link: 'Enlace simple'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فرم‌ها
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'فرم پایه'
+    block:
+      title: 'فرم‌های بلوکی'
+    assisted:
+      title: کمک‌دار
+  field:
+    title:
+      label: عنوان
+      placeholder: 'عنوانی وارد کنید'
+    message:
+      label: پیام
+      placeholder: 'پیامی کوتاه بنویسید'
+    date:
+      label: تاریخ
+    datetime:
+      label: 'تاریخ و زمان'
+    time:
+      label: زمان
+    file:
+      label: فایل
+    email:
+      label: ایمیل
+    number:
+      label: شماره
+    url:
+      label: 'آدرس وب'
+  action:
+    submit: ارسال
+    secondary: 'عملیات ثانویه'
+    raw_submit: 'ارسال خام'
+    link: 'لینک ساده'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Lomakkeet
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: Peruslomake
+    block:
+      title: Blokkilomakkeet
+    assisted:
+      title: Avustettu
+  field:
+    title:
+      label: Otsikko
+      placeholder: 'Syötä otsikko'
+    message:
+      label: Viesti
+      placeholder: 'Kirjoita lyhyt viesti'
+    date:
+      label: Päivämäärä
+    datetime:
+      label: 'Päivämäärä ja aika'
+    time:
+      label: Aika
+    file:
+      label: Tiedosto
+    email:
+      label: Sähköposti
+    number:
+      label: Numero
+    url:
+      label: URL-osoite
+  action:
+    submit: Lähetä
+    secondary: 'Toissijainen toiminto'
+    raw_submit: Raakalähetys
+    link: 'Yksinkertainen linkki'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulaires
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Formulaire de base'
+    block:
+      title: 'Formulaires en bloc'
+    assisted:
+      title: Assisté
+  field:
+    title:
+      label: Titre
+      placeholder: 'Entrez un titre'
+    message:
+      label: Message
+      placeholder: 'Écrivez un message court'
+    date:
+      label: Date
+    datetime:
+      label: 'Date et heure'
+    time:
+      label: Heure
+    file:
+      label: Fichier
+    email:
+      label: Email
+    number:
+      label: Numéro
+    url:
+      label: URL
+  action:
+    submit: Soumettre
+    secondary: 'Action secondaire'
+    raw_submit: 'Soumission brute'
+    link: 'Lien simple'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: טפסים
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'טופס בסיסי'
+    block:
+      title: 'טפסים חסומים'
+    assisted:
+      title: מסייע
+  field:
+    title:
+      label: כותרת
+      placeholder: 'הזן כותרת'
+    message:
+      label: הודעה
+      placeholder: 'כתוב הודעה קצרה'
+    date:
+      label: תאריך
+    datetime:
+      label: 'תאריך ושעה'
+    time:
+      label: שעה
+    file:
+      label: קובץ
+    email:
+      label: אימייל
+    number:
+      label: מספר
+    url:
+      label: 'כתובת URL'
+  action:
+    submit: שלח
+    secondary: 'פעולה משנית'
+    raw_submit: 'שליחה גולמית'
+    link: 'לינק פשוט'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: फॉर्म
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'बुनियादी फॉर्म'
+    block:
+      title: 'ब्लॉक फॉर्म'
+    assisted:
+      title: 'सहायता प्राप्त'
+  field:
+    title:
+      label: शीर्षक
+      placeholder: 'एक शीर्षक दर्ज करें'
+    message:
+      label: संदेश
+      placeholder: 'एक संक्षिप्त संदेश लिखें'
+    date:
+      label: तारीख
+    datetime:
+      label: 'तारीख और समय'
+    time:
+      label: समय
+    file:
+      label: फाइल
+    email:
+      label: ईमेल
+    number:
+      label: संख्या
+    url:
+      label: यूआरएल
+  action:
+    submit: 'जमा करें'
+    secondary: 'माध्यमिक क्रिया'
+    raw_submit: 'कच्चा सबमिट'
+    link: 'सरल लिंक'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulir
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Formulir Dasar'
+    block:
+      title: 'Formulir Blok'
+    assisted:
+      title: Dibantu
+  field:
+    title:
+      label: Judul
+      placeholder: 'Masukkan judul'
+    message:
+      label: Pesan
+      placeholder: 'Tulis pesan singkat'
+    date:
+      label: Tanggal
+    datetime:
+      label: 'Tanggal & waktu'
+    time:
+      label: Waktu
+    file:
+      label: Berkas
+    email:
+      label: Email
+    number:
+      label: Nomor
+    url:
+      label: URL
+  action:
+    submit: Kirim
+    secondary: 'Tindakan sekunder'
+    raw_submit: 'Kirim mentah'
+    link: 'Tautan sederhana'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Moduli
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Modulo base'
+    block:
+      title: 'Moduli a blocchi'
+    assisted:
+      title: Assistito
+  field:
+    title:
+      label: Titolo
+      placeholder: 'Inserisci un titolo'
+    message:
+      label: Messaggio
+      placeholder: 'Scrivi un breve messaggio'
+    date:
+      label: Data
+    datetime:
+      label: 'Data e ora'
+    time:
+      label: Ora
+    file:
+      label: File
+    email:
+      label: Email
+    number:
+      label: Numero
+    url:
+      label: URL
+  action:
+    submit: Invia
+    secondary: 'Azione secondaria'
+    raw_submit: 'Invio raw'
+    link: 'Collegamento semplice'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: フォーム
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 基本フォーム
+    block:
+      title: ブロックフォーム
+    assisted:
+      title: アシスト形式
+  field:
+    title:
+      label: タイトル
+      placeholder: タイトルを入力
+    message:
+      label: メッセージ
+      placeholder: 短いメッセージを書いてください
+    date:
+      label: 日付
+    datetime:
+      label: 日時
+    time:
+      label: 時間
+    file:
+      label: ファイル
+    email:
+      label: メール
+    number:
+      label: 番号
+    url:
+      label: URL
+  action:
+    submit: 送信
+    secondary: セカンダリアクション
+    raw_submit: 生の送信
+    link: シンプルリンク
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 양식
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: '기본 양식'
+    block:
+      title: '블록 양식'
+    assisted:
+      title: 도움받기
+  field:
+    title:
+      label: 제목
+      placeholder: '제목을 입력하세요'
+    message:
+      label: 메시지
+      placeholder: '짧은 메시지를 작성하세요'
+    date:
+      label: 날짜
+    datetime:
+      label: '날짜 및 시간'
+    time:
+      label: 시간
+    file:
+      label: 파일
+    email:
+      label: 이메일
+    number:
+      label: 번호
+    url:
+      label: URL
+  action:
+    submit: 제출
+    secondary: '보조 작업'
+    raw_submit: '원시 제출'
+    link: '간단한 링크'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulieren
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: Basisformulier
+    block:
+      title: Blokformulieren
+    assisted:
+      title: Assisted
+  field:
+    title:
+      label: Titel
+      placeholder: 'Voer een titel in'
+    message:
+      label: Bericht
+      placeholder: 'Schrijf een kort bericht'
+    date:
+      label: Datum
+    datetime:
+      label: 'Datum & tijd'
+    time:
+      label: Tijd
+    file:
+      label: Bestand
+    email:
+      label: E-mail
+    number:
+      label: Nummer
+    url:
+      label: URL
+  action:
+    submit: Indienen
+    secondary: 'Secundaire actie'
+    raw_submit: 'Ruwe indiening'
+    link: 'Eenvoudige link'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formularze
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Podstawowy formularz'
+    block:
+      title: 'Formularze blokowe'
+    assisted:
+      title: Asystowane
+  field:
+    title:
+      label: Tytuł
+      placeholder: 'Wprowadź tytuł'
+    message:
+      label: Wiadomość
+      placeholder: 'Napisz krótką wiadomość'
+    date:
+      label: Data
+    datetime:
+      label: 'Data i godzina'
+    time:
+      label: Czas
+    file:
+      label: Plik
+    email:
+      label: Email
+    number:
+      label: Numer
+    url:
+      label: URL
+  action:
+    submit: Wyślij
+    secondary: 'Działanie pomocnicze'
+    raw_submit: 'Surowe wysłanie'
+    link: 'Prosty link'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formulários
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Formulário básico'
+    block:
+      title: 'Formulários em bloco'
+    assisted:
+      title: Assistido
+  field:
+    title:
+      label: Título
+      placeholder: 'Digite um título'
+    message:
+      label: Mensagem
+      placeholder: 'Escreva uma mensagem curta'
+    date:
+      label: Data
+    datetime:
+      label: 'Data e hora'
+    time:
+      label: Hora
+    file:
+      label: Arquivo
+    email:
+      label: Email
+    number:
+      label: Número
+    url:
+      label: URL
+  action:
+    submit: Enviar
+    secondary: 'Ação secundária'
+    raw_submit: 'Envio bruto'
+    link: 'Link simples'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Формы
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Основная форма'
+    block:
+      title: 'Блоковые формы'
+    assisted:
+      title: 'С поддержкой'
+  field:
+    title:
+      label: Заголовок
+      placeholder: 'Введите заголовок'
+    message:
+      label: Сообщение
+      placeholder: 'Напишите короткое сообщение'
+    date:
+      label: Дата
+    datetime:
+      label: 'Дата и время'
+    time:
+      label: Время
+    file:
+      label: Файл
+    email:
+      label: 'Электронная почта'
+    number:
+      label: Номер
+    url:
+      label: URL
+  action:
+    submit: Отправить
+    secondary: 'Вторичное действие'
+    raw_submit: 'Простая отправка'
+    link: 'Простая ссылка'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ฟอร์ม
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: ฟอร์มพื้นฐาน
+    block:
+      title: ฟอร์มบล็อค
+    assisted:
+      title: ฟอร์มช่วยเหลือ
+  field:
+    title:
+      label: หัวข้อ
+      placeholder: กรอกหัวข้อ
+    message:
+      label: ข้อความ
+      placeholder: เขียนข้อความสั้นๆ
+    date:
+      label: วันที่
+    datetime:
+      label: วันที่และเวลา
+    time:
+      label: เวลา
+    file:
+      label: ไฟล์
+    email:
+      label: อีเมล
+    number:
+      label: หมายเลข
+    url:
+      label: URL
+  action:
+    submit: ส่ง
+    secondary: การกระทำรอง
+    raw_submit: ส่งแบบดิบ
+    link: ลิงก์ธรรมดา
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Formlar
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Temel form'
+    block:
+      title: 'Blok formlar'
+    assisted:
+      title: Yardımlı
+  field:
+    title:
+      label: Başlık
+      placeholder: 'Bir başlık girin'
+    message:
+      label: Mesaj
+      placeholder: 'Kısa bir mesaj yazın'
+    date:
+      label: Tarih
+    datetime:
+      label: 'Tarih & saat'
+    time:
+      label: Saat
+    file:
+      label: Dosya
+    email:
+      label: E-posta
+    number:
+      label: Numara
+    url:
+      label: URL
+  action:
+    submit: Gönder
+    secondary: 'İkincil işlem'
+    raw_submit: 'Ham gönder'
+    link: 'Basit bağlantı'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: فارمز
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'بنیادی فارم'
+    block:
+      title: 'بلک فارمز'
+    assisted:
+      title: مددگار
+  field:
+    title:
+      label: عنوان
+      placeholder: 'عنوان درج کریں'
+    message:
+      label: پیغام
+      placeholder: 'ایک مختصر پیغام لکھیں'
+    date:
+      label: تاریخ
+    datetime:
+      label: 'تاریخ اور وقت'
+    time:
+      label: وقت
+    file:
+      label: فائل
+    email:
+      label: 'ای میل'
+    number:
+      label: نمبر
+    url:
+      label: 'یو آر ایل'
+  action:
+    submit: 'جمع کریں'
+    secondary: 'ثانوی عمل'
+    raw_submit: 'خام جمع'
+    link: 'سادہ لنک'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Biểu mẫu'
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 'Biểu mẫu cơ bản'
+    block:
+      title: 'Biểu mẫu khối'
+    assisted:
+      title: 'Hỗ trợ'
+  field:
+    title:
+      label: 'Tiêu đề'
+      placeholder: 'Nhập tiêu đề'
+    message:
+      label: 'Tin nhắn'
+      placeholder: 'Viết một tin nhắn ngắn'
+    date:
+      label: Ngày
+    datetime:
+      label: 'Ngày & giờ'
+    time:
+      label: 'Thời gian'
+    file:
+      label: 'Tập tin'
+    email:
+      label: Email
+    number:
+      label: Số
+    url:
+      label: URL
+  action:
+    submit: Gửi
+    secondary: 'Hành động phụ'
+    raw_submit: 'Gửi thô'
+    link: 'Liên kết đơn giản'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 表单
+  page_icon: 'ph:bold/rows'
+  section:
+    default:
+      title: 基本表单
+    block:
+      title: 区块表单
+    assisted:
+      title: 辅助
+  field:
+    title:
+      label: 标题
+      placeholder: 输入标题
+    message:
+      label: 信息
+      placeholder: 写一条简短信息
+    date:
+      label: 日期
+    datetime:
+      label: 日期和时间
+    time:
+      label: 时间
+    file:
+      label: 文件
+    email:
+      label: 电子邮件
+    number:
+      label: 数字
+    url:
+      label: 网址
+  action:
+    submit: 提交
+    secondary: 次要操作
+    raw_submit: 原始提交
+    link: 简单链接

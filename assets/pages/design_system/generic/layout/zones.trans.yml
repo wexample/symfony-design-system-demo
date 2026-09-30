@@ -1,0 +1,650 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Zones
+  page_icon: ph:bold/columns
+
+  intro: "The two-pane workspace every explorer, editor and detail view is built on. A zone carries no width and no height of its own: the split it sits in is what sizes it, and each side scrolls alone. Two zones are two objects laid on the page, not one panel cut in half — what tells them apart is the room between them, and `zone--panel` is the ground each one stands on."
+
+  section:
+    split:
+      title: A split
+      description: "One column sized, the other taking what is left. The size is given by a step, and it is the zone's own — it is not inherited by anything nested inside it."
+    scrollable:
+      title: Each side scrolls alone
+      description: "A scrollable zone is what holds the overflow, not the page. Scroll one of these two and the other stays where it is, which is the whole reason for the shape."
+    vertical:
+      title: A header that does not scroll
+      description: "A split turned vertical: a narrow zone is the height of what it holds, the body takes the rest and scrolls under it. This is the arrangement of a panel with a toolbar on top."
+    wrap:
+      title: Below a floor
+      description: "Given a floor, the flexible zone claims a full line and the sized column moves above it instead of both being squeezed to nothing. Narrow the window to see it fold."
+
+  split:
+    body: This side takes whatever the sized column leaves.
+
+  scrollable:
+    item: Item
+    line: Line
+
+  vertical:
+    action: Create
+
+  wrap:
+    body: Below the floor this zone is given, it takes a line of its own.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: المناطق
+  page_icon: 'ph:bold/columns'
+  intro: 'مساحة العمل ذات اللوحين التي يعتمد عليها كل مستكشف ومحرر وعرض تفاصيل. المنطقة ليس لها عرض أو ارتفاع خاص بها: الانقسام الذي تجلس فيه هو ما يحدد حجمها، وكل جانب يتمرر بمفرده. منطقتان هما كائنان موضوعة على الصفحة، وليست لوحة واحدة مقسومة إلى نصفين - ما يميزها هو المسافة بينهما، و`zone--panel` هو الأساس الذي تقف عليه كل واحدة منها.'
+  section:
+    split:
+      title: انقسام
+      description: 'عمود واحد بالحجم، والآخر يأخذ ما تبقى. الحجم محدد بخطوة، وهو خاص بالمنطقة - لا يتم وراثته من أي شيء داخلها.'
+    scrollable:
+      title: 'كل جانب يتمرر بمفرده'
+      description: 'المنطقة القابلة للتمرير هي ما يحمل الفائض، وليس الصفحة. قم بالتمرير في أحد هذين الجانبين وسيبقى الآخر في مكانه، وهو السبب الكامل لشكلها.'
+    vertical:
+      title: 'رأس لا يتمرر'
+      description: 'انقسام تحول إلى رأسي: منطقة ضيقة بارتفاع ما تحتويه، والجسم يأخذ الباقي ويتم تمريره تحتها. هذا هو ترتيب لوحة مع شريط أدوات في الأعلى.'
+    wrap:
+      title: 'أسفل الأرضية'
+      description: 'عند وجود أرضية، تأخذ المنطقة المرنة خطًا كاملًا وينتقل العمود المحدد فوقها بدلاً من أن يتم ضغط كلاهما إلى لا شيء. قم بتضييق النافذة لترى كيف تنطوي.'
+  split:
+    body: 'هذا الجانب يأخذ ما تتركه العمود المحدد.'
+  scrollable:
+    item: عنصر
+    line: خط
+  vertical:
+    action: إنشاء
+  wrap:
+    body: 'أسفل الأرضية التي تعطى لهذه المنطقة، تأخذ خطًا خاصًا بها.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: জোনস
+  page_icon: 'ph:bold/columns'
+  intro: 'প্রতিটি অনুসন্ধানকারী, সম্পাদক এবং বিস্তারিত দৃশ্যের জন্য নির্মিত দুটি প্যানের কাজের স্থান। একটি জোনের নিজস্ব প্রস্থ এবং উচ্চতা নেই: এটি যে বিভাজনে বসে থাকে সেটিই এটি আকার দেয়, এবং প্রতিটি দিক স্বাধীনভাবে স্ক্রল হয়। দুটি জোন হল পৃষ্ঠায় রাখা দুটি অবজেক্ট, একটি প্যানেল অর্ধেক কাটা নয় — তাদের আলাদা করে যা, তা হল তাদের মধ্যে স্থান, এবং `zone--panel` হল প্রত্যেকটির ভিত্তি।'
+  section:
+    split:
+      title: 'একটি বিভাজন'
+      description: 'একটি কলাম আকারে, অন্যটি বাকি যা নেয়। আকার একটি ধাপে দেওয়া হয়, এবং এটি জোনের নিজস্ব — এটি এর মধ্যে কিছু নেস্টেড দ্বারা উত্তরাধিকার সূত্রে পাওয়া যায় না।'
+    scrollable:
+      title: 'প্রতিটি দিক স্বাধীনভাবে স্ক্রল হয়'
+      description: 'একটি স্ক্রলযোগ্য জোন হল যা ওভারফ্লো ধারণ করে, পৃষ্ঠা নয়। এই দুইটিতে একটি স্ক্রল করুন এবং অন্যটি যেখানে আছে সেখানে থাকে, যা আকৃতির পুরো কারণ।'
+    vertical:
+      title: 'একটি হেডার যা স্ক্রল হয় না'
+      description: 'একটি বিভাজন উল্লম্বে: একটি সংকীর্ণ জোন যা এটি ধারণ করে তার উচ্চতা, দেহ বাকি অংশ নেয় এবং এর নিচে স্ক্রল করে। এটি একটি টুলবারের উপরে একটি প্যানেলের ব্যবস্থা।'
+    wrap:
+      title: 'একটি মেঝের নিচে'
+      description: 'একটি মেঝে দেওয়া হলে, নমনীয় জোন একটি পূর্ণ লাইন দাবি করে এবং আকার দেওয়া কলামটি এর উপরে চলে যায় পরিবর্তে উভয়কে কিছু না করে চাপা দেওয়া। জানালাটি সংকীর্ণ করুন এটি ভাঁজ দেখতে।'
+  split:
+    body: 'এটি সেই দিক যা আকার দেওয়া কলামটি ছেড়ে দেয়।'
+  scrollable:
+    item: আইটেম
+    line: লাইন
+  vertical:
+    action: 'তৈরি করুন'
+  wrap:
+    body: 'মেঝের নিচে এই জোনটি দেওয়া হয়েছে, এটি একটি নিজের লাইন নেয়।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zonen
+  page_icon: 'ph:bold/columns'
+  intro: 'Der Arbeitsbereich mit zwei Fenstern, auf dem jeder Explorer, Editor und Detailansicht basiert. Eine Zone hat keine eigene Breite und Höhe: Die Teilung, in der sie sich befindet, bestimmt ihre Größe, und jede Seite scrollt für sich allein. Zwei Zonen sind zwei Objekte, die auf der Seite liegen, nicht ein Panel, das in zwei Hälften geschnitten ist — was sie unterscheidet, ist der Raum zwischen ihnen, und `zone--panel` ist der Grund, auf dem jede steht.'
+  section:
+    split:
+      title: 'Eine Teilung'
+      description: 'Eine Spalte hat eine feste Größe, die andere nimmt den Rest ein. Die Größe wird durch einen Schritt festgelegt und ist die eigene der Zone — sie wird von nichts, was darin verschachtelt ist, geerbt.'
+    scrollable:
+      title: 'Jede Seite scrollt für sich allein'
+      description: 'Eine scrollbare Zone hält den Überlauf, nicht die Seite. Wenn eine von diesen beiden gescrollt wird, bleibt die andere an ihrem Platz, was der ganze Grund für die Form ist.'
+    vertical:
+      title: 'Ein Kopfbereich, der nicht scrollt'
+      description: 'Eine vertikal geteilte Ansicht: Eine schmale Zone hat die Höhe dessen, was sie hält, der Körper nimmt den Rest ein und scrollt darunter. Dies ist die Anordnung eines Panels mit einer Werkzeugleiste oben.'
+    wrap:
+      title: 'Unter einem Fußboden'
+      description: 'Bei einem Fußboden beansprucht die flexible Zone eine volle Zeile und die feste Spalte bewegt sich darüber, anstatt beide auf nichts zusammengedrückt zu werden. Verkleinern Sie das Fenster, um zu sehen, wie es sich zusammenfaltet.'
+  split:
+    body: 'Diese Seite nimmt alles auf, was die feste Spalte übrig lässt.'
+  scrollable:
+    item: Element
+    line: Zeile
+  vertical:
+    action: Erstellen
+  wrap:
+    body: 'Unter dem Fußboden, der dieser Zone gegeben ist, nimmt sie eine eigene Zeile ein.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zonas
+  page_icon: 'ph:bold/columns'
+  intro: 'El espacio de trabajo de dos paneles en el que se basa cada explorador, editor y vista de detalles. Una zona no tiene ancho ni alto propios: el espacio dividido en el que se encuentra es lo que le da tamaño, y cada lado se desplaza por separado. Dos zonas son dos objetos dispuestos en la página, no un panel cortado por la mitad; lo que las distingue es el espacio entre ellas, y `zone--panel` es el suelo sobre el que se sostiene cada una.'
+  section:
+    split:
+      title: 'Una división'
+      description: 'Una columna con tamaño, la otra tomando lo que queda. El tamaño se determina por un paso, y es propio de la zona; no es heredado de nada anidado dentro de ella.'
+    scrollable:
+      title: 'Cada lado se desplaza por separado'
+      description: 'Una zona desplazable es la que contiene el desbordamiento, no la página. Desplaza uno de estos dos y el otro se queda donde está, que es toda la razón de la forma.'
+    vertical:
+      title: 'Un encabezado que no se desplaza'
+      description: 'Una división convertida en vertical: una zona estrecha tiene la altura de lo que contiene, el cuerpo toma el resto y se desplaza por debajo. Esta es la disposición de un panel con una barra de herramientas en la parte superior.'
+    wrap:
+      title: 'Debajo de un suelo'
+      description: 'Dado un suelo, la zona flexible reclama una línea completa y la columna dimensionada se mueve por encima en lugar de ser comprimida a nada. Reduce la ventana para verlo plegarse.'
+  split:
+    body: 'Este lado toma lo que la columna dimensionada deja.'
+  scrollable:
+    item: Elemento
+    line: Línea
+  vertical:
+    action: Crear
+  wrap:
+    body: 'Debajo del suelo que se le da a esta zona, toma una línea propia.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: زون‌ها
+  page_icon: 'ph:bold/columns'
+  intro: 'فضای کاری دو صفحه‌ای که هر اکتشاف‌گر، ویرایش‌گر و نمای جزئیات بر اساس آن ساخته شده است. یک زون هیچ عرض و ارتفاعی به خودی خود ندارد: شکاف موجود در آن است که اندازه‌اش را تعیین می‌کند و هر طرف به‌طور مستقل اسکرول می‌شود. دو زون دو شیء هستند که روی صفحه قرار دارند، نه یک پنل که به دو نیم تقسیم شده — چیزی که آن‌ها را از هم متمایز می‌کند، فضایی است که بین آن‌ها وجود دارد و `zone--panel` زمینی است که هر یک بر روی آن ایستاده است.'
+  section:
+    split:
+      title: 'یک تقسیم'
+      description: 'یک ستون اندازه‌گیری شده، دیگری آنچه را که باقی مانده است می‌گیرد. اندازه با یک مرحله داده می‌شود و این اندازه خود زون است — از هیچ چیزی که درون آن باشد، به ارث نمی‌رسد.'
+    scrollable:
+      title: 'هر طرف به‌طور مستقل اسکرول می‌شود'
+      description: 'یک زون قابل اسکرول چیزی است که Overflow را نگه می‌دارد، نه صفحه. یکی از این دو را اسکرول کنید و دیگری در جایی که است باقی می‌ماند، که دلیل اصلی شکل آن است.'
+    vertical:
+      title: 'یک هدر که اسکرول نمی‌شود'
+      description: 'یک تقسیم عمودی: یک زون باریک به ارتفاع آنچه که نگه می‌دارد، و بدنه باقی‌مانده را می‌گیرد و زیر آن اسکرول می‌شود. این ترتیب یک پنل با یک نوار ابزار در بالای آن است.'
+    wrap:
+      title: 'زیر یک کف'
+      description: 'با توجه به یک کف، زون انعطاف‌پذیر یک خط کامل را تصاحب می‌کند و ستون اندازه‌گیری شده به جای اینکه هر دو به هیچ تبدیل شوند، بالای آن حرکت می‌کند. پنجره را باریک کنید تا ببینید که چگونه جمع می‌شود.'
+  split:
+    body: 'این طرف هر آنچه را که ستون اندازه‌گیری شده باقی می‌گذارد، می‌گیرد.'
+  scrollable:
+    item: آیتم
+    line: خط
+  vertical:
+    action: ایجاد
+  wrap:
+    body: 'زیر کف این زون، خطی از خود را می‌گیرد.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Vyöhykkeet
+  page_icon: 'ph:bold/columns'
+  intro: 'Kaksipaneelinen työtila, johon jokainen tutkimus-, muokkaus- ja yksityiskohtanäkymä perustuu. Vyöhykkeellä ei ole omaa leveyttä eikä korkeutta: se, missä jakautumisessa se sijaitsee, määrittää sen koon, ja jokainen puoli vierittää itsenäisesti. Kaksi vyöhykettä ovat kaksi objektia sivulla, ei yksi paneeli, joka on leikattu kahtia — niiden erottava tekijä on niiden väli, ja `zone--panel` on se maapinta, jolla jokainen seisoo.'
+  section:
+    split:
+      title: Jakautuminen
+      description: 'Yksi sarake on kooltaan, toinen ottaa sen, mitä jää. Koko määritellään askeleena, ja se on vyöhykkeen oma — sitä ei peritä sen sisällä olevilta.'
+    scrollable:
+      title: 'Jokainen puoli vierittää itsenäisesti'
+      description: 'Vieritettävä vyöhyke on se, joka pitää ylivuodon, ei sivu. Vieritä näistä kahdesta yksi ja toinen pysyy paikallaan, mikä on koko muodon syy.'
+    vertical:
+      title: 'Otsikko, joka ei vieri'
+      description: 'Jakautuminen käännettynä pystysuoraan: kapea vyöhyke on se korkeus, mitä se pitää, runko ottaa loput ja vierii sen alapuolella. Tämä on paneelin asettelu, jossa on työkalupalkki päällä.'
+    wrap:
+      title: 'Lattian alapuolella'
+      description: 'Kun on lattia, joustava vyöhyke vie koko rivin ja kooltaan määritelty sarake liikkuu sen ylle sen sijaan, että molemmat puristuisivat olemattomiin. Supista ikkunaa nähdäksesi sen taittuvan.'
+  split:
+    body: 'Tämä puoli ottaa mitä tahansa kooltaan määritetty sarake jättää.'
+  scrollable:
+    item: Kohde
+    line: Rivi
+  vertical:
+    action: Luo
+  wrap:
+    body: 'Lattian alapuolella, jolle tämä vyöhyke on annettu, se vie oman rivinsä.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zones
+  page_icon: 'ph:bold/columns'
+  intro: "L'espace de travail à deux volets sur lequel chaque explorateur, éditeur et vue détaillée est construit. Une zone n'a pas de largeur ni de hauteur propre : c'est la division dans laquelle elle se trouve qui la dimensionne, et chaque côté défile indépendamment. Deux zones sont deux objets posés sur la page, pas un panneau coupé en deux — ce qui les distingue, c'est l'espace entre elles, et `zone--panel` est le sol sur lequel chacune se tient."
+  section:
+    split:
+      title: 'Une division'
+      description: "Une colonne de taille, l'autre prenant ce qui reste. La taille est donnée par un pas, et c'est celle de la zone — elle n'est pas héritée de quoi que ce soit de nesté à l'intérieur."
+    scrollable:
+      title: 'Chaque côté défile indépendamment'
+      description: "Une zone défilante est ce qui contient le débordement, pas la page. Défilez l'une de ces deux zones et l'autre reste là où elle est, ce qui est toute la raison de cette forme."
+    vertical:
+      title: 'Un en-tête qui ne défile pas'
+      description: "Une division tournée verticalement : une zone étroite est de la hauteur de ce qu'elle contient, le corps prend le reste et défile en dessous. C'est l'arrangement d'un panneau avec une barre d'outils en haut."
+    wrap:
+      title: 'Sous un sol'
+      description: "Étant donné un sol, la zone flexible s'approprie une ligne complète et la colonne dimensionnée se déplace au-dessus au lieu d'être toutes deux compressées à rien. Réduisez la fenêtre pour voir comment cela se replie."
+  split:
+    body: 'Ce côté prend tout ce que laisse la colonne dimensionnée.'
+  scrollable:
+    item: Élément
+    line: Ligne
+  vertical:
+    action: Créer
+  wrap:
+    body: 'Sous le sol qui est donné à cette zone, elle prend une ligne qui lui est propre.'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: אזורים
+  page_icon: 'ph:bold/columns'
+  intro: 'המרחב העבודה עם שני הפאנלים שעליו כל חוקר, עורך ותצוגת פרטים מבוססים. אזור לא נושא רוחב או גובה משלו: הפיצול שבו הוא זה שמגדיר את גודלו, וכל צד גולל בנפרד. שני אזורים הם שני אובייקטים המניחים על הדף, לא פאנל אחד שחצוי - מה שמפריד ביניהם הוא החלל ביניהם, ו`zone--panel` הוא הקרקע שעליה כל אחד מהם עומד.'
+  section:
+    split:
+      title: פיצול
+      description: 'עמודה אחת בגודל קבוע, והשנייה תופסת את מה שנותר. הגודל נקבע על ידי שלב, והוא של האזור עצמו - הוא לא מועבר על ידי שום דבר שמסודר בתוכו.'
+    scrollable:
+      title: 'כל צד גולל בנפרד'
+      description: 'אזור גולל הוא זה שמחזיק את התוכן העודף, לא הדף. גולל אחד משני אלה והשני נשאר במקום שלו, וזה כל הסיבה לצורתו.'
+    vertical:
+      title: 'כותרת שלא גוללת'
+      description: 'פיצול שהפך לקטן: אזור צר הוא בגובה מה שהוא מחזיק, הגוף תופס את השאר וגולל מתחתיו. זהו הסידור של פאנל עם סרגל כלים למעלה.'
+    wrap:
+      title: 'מתחת לרצפה'
+      description: 'בהינתן רצפה, האזור הגמיש תופס שורה מלאה והעמודה בגודל קבוע זזה מעליו במקום ששניהם יידחקו לאפס. הקטין את החלון כדי לראות את זה מתקפל.'
+  split:
+    body: 'צד זה לוקח מה שהעמודה בגודל קבוע משאירה.'
+  scrollable:
+    item: פריט
+    line: שורה
+  vertical:
+    action: צור
+  wrap:
+    body: 'מתחת לרצפה שניתנה לאזור הזה, הוא לוקח שורה משלו.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: क्षेत्र
+  page_icon: 'ph:bold/columns'
+  intro: 'दो-पैन वाला कार्यक्षेत्र जिस पर हर अन्वेषक, संपादक और विवरण दृश्य बनाया गया है। एक क्षेत्र की अपनी कोई चौड़ाई और ऊँचाई नहीं होती: जिस विभाजन में यह बैठता है वही इसे आकार देता है, और प्रत्येक पक्ष अकेले स्क्रॉल करता है। दो क्षेत्र दो वस्तुएँ हैं जो पृष्ठ पर रखी गई हैं, न कि एक पैनल जो आधा कट गया है — जो उन्हें अलग करता है वह उनके बीच का स्थान है, और `zone--panel` वह आधार है जिस पर प्रत्येक खड़ा है।'
+  section:
+    split:
+      title: 'एक विभाजन'
+      description: 'एक स्तंभ आकार का, दूसरा जो कुछ बचता है उसे लेता है। आकार एक कदम द्वारा दिया जाता है, और यह क्षेत्र का अपना है — यह इसके भीतर किसी भी निहित चीज़ द्वारा विरासत में नहीं लिया जाता।'
+    scrollable:
+      title: 'प्रत्येक पक्ष अकेले स्क्रॉल करता है'
+      description: 'एक स्क्रॉल करने योग्य क्षेत्र वह है जो ओवरफ्लो को धारण करता है, न कि पृष्ठ। इनमें से एक को स्क्रॉल करें और दूसरा वहीं रहता है, जो आकार का पूरा कारण है।'
+    vertical:
+      title: 'एक शीर्षक जो स्क्रॉल नहीं करता'
+      description: 'एक विभाजन जो ऊर्ध्वाधर हो गया है: एक संकीर्ण क्षेत्र उस ऊँचाई का होता है जो इसे धारण करता है, शरीर बाकी लेता है और इसके नीचे स्क्रॉल करता है। यह एक पैनल की व्यवस्था है जिसमें ऊपर एक टूलबार होता है।'
+    wrap:
+      title: 'एक फर्श के नीचे'
+      description: 'एक फर्श दिए जाने पर, लचीला क्षेत्र एक पूर्ण रेखा का दावा करता है और आकारित स्तंभ इसके ऊपर चलता है बजाय इसके कि दोनों को कुछ भी नहीं होने के लिए निचोड़ दिया जाए। इसे मोड़ते हुए देखने के लिए विंडो को संकीर्ण करें।'
+  split:
+    body: 'यह पक्ष उस आकारित स्तंभ द्वारा छोड़ी गई किसी भी चीज़ को लेता है।'
+  scrollable:
+    item: आइटम
+    line: लाइन
+  vertical:
+    action: बनाएँ
+  wrap:
+    body: 'फर्श के नीचे दिए गए इस क्षेत्र के लिए, यह अपनी एक रेखा लेता है।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zona
+  page_icon: 'ph:bold/columns'
+  intro: 'Workspace dua panel yang menjadi dasar setiap penjelajah, editor, dan tampilan detail. Sebuah zona tidak memiliki lebar dan tinggi sendiri: pemisahan tempatnya berada yang menentukan ukurannya, dan setiap sisi dapat menggulir secara terpisah. Dua zona adalah dua objek yang diletakkan di halaman, bukan satu panel yang dibagi dua — yang membedakannya adalah ruang di antara keduanya, dan `zone--panel` adalah dasar tempat masing-masing berdiri.'
+  section:
+    split:
+      title: 'Sebuah pemisahan'
+      description: 'Satu kolom berukuran, yang lainnya mengambil sisa ruang. Ukurannya ditentukan oleh langkah, dan itu adalah milik zona itu sendiri — tidak diwariskan oleh apa pun yang ada di dalamnya.'
+    scrollable:
+      title: 'Setiap sisi menggulir secara terpisah'
+      description: 'Zona yang dapat digulir adalah yang menampung overflow, bukan halaman. Gulir salah satu dari dua ini dan yang lainnya tetap di tempatnya, yang merupakan alasan utama bentuknya.'
+    vertical:
+      title: 'Sebuah header yang tidak menggulir'
+      description: 'Sebuah pemisahan yang berubah vertikal: zona sempit adalah tinggi dari apa yang dipegangnya, tubuh mengambil sisa dan menggulir di bawahnya. Ini adalah pengaturan panel dengan toolbar di atas.'
+    wrap:
+      title: 'Di bawah lantai'
+      description: 'Diberikan sebuah lantai, zona fleksibel mengklaim satu baris penuh dan kolom yang berukuran bergerak di atasnya daripada keduanya dipaksa menjadi tidak ada. Persempit jendela untuk melihatnya melipat.'
+  split:
+    body: 'Sisi ini mengambil apa pun yang ditinggalkan kolom berukuran.'
+  scrollable:
+    item: Item
+    line: Baris
+  vertical:
+    action: Buat
+  wrap:
+    body: 'Di bawah lantai yang diberikan kepada zona ini, ia mengambil satu baris sendiri.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zone
+  page_icon: 'ph:bold/columns'
+  intro: 'Lo spazio di lavoro a due pannelli su cui è costruito ogni esploratore, editor e vista dettagliata. Una zona non ha larghezza né altezza proprie: è la suddivisione in cui si trova a determinarne le dimensioni, e ciascun lato scorre in modo indipendente. Due zone sono due oggetti posati sulla pagina, non un pannello diviso in due — ciò che le distingue è lo spazio tra di esse, e `zone--panel` è il terreno su cui ognuna si poggia.'
+  section:
+    split:
+      title: 'Una suddivisione'
+      description: "Una colonna di dimensioni fisse, l'altra prende ciò che resta. La dimensione è data da un passaggio, ed è propria della zona — non viene ereditata da nulla di annidato al suo interno."
+    scrollable:
+      title: 'Ciascun lato scorre in modo indipendente'
+      description: "Una zona scrollabile è ciò che contiene l'overflow, non la pagina. Scorri uno di questi due e l'altro rimane fermo, ed è proprio questa la ragione della forma."
+    vertical:
+      title: "Un'intestazione che non scorre"
+      description: "Una suddivisione verticale: una zona stretta è l'altezza di ciò che contiene, il corpo prende il resto e scorre sotto di essa. Questo è l'assetto di un pannello con una barra degli strumenti in cima."
+    wrap:
+      title: 'Sotto un pavimento'
+      description: "Data una base, la zona flessibile occupa un'intera riga e la colonna di dimensioni fisse si sposta sopra di essa invece di essere entrambe costrette a nulla. Riduci la finestra per vedere come si piega."
+  split:
+    body: 'Questo lato prende ciò che la colonna di dimensioni fisse lascia.'
+  scrollable:
+    item: Elemento
+    line: Linea
+  vertical:
+    action: Crea
+  wrap:
+    body: 'Sotto il pavimento che questa zona riceve, occupa una propria riga.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ゾーン
+  page_icon: 'ph:bold/columns'
+  intro: 'すべてのエクスプローラー、エディター、詳細ビューが構築される二分割の作業スペースです。ゾーン自体には幅も高さもありません：それが置かれている分割によってサイズが決まり、各側面は独自にスクロールします。二つのゾーンはページ上に置かれた二つのオブジェクトであり、一つのパネルを半分に切ったものではありません — それらを区別するのは、その間のスペースであり、`zone--panel` はそれぞれが立つ基盤です。'
+  section:
+    split:
+      title: 分割
+      description: '一方はサイズが設定され、もう一方は残りのスペースを占有します。サイズはステップによって決まり、それはゾーン自身のものです — 内部にネストされたものからは継承されません。'
+    scrollable:
+      title: 各側面は独自にスクロールします
+      description: スクロール可能なゾーンは、オーバーフローを保持するものであり、ページではありません。これらの二つのうちの一つをスクロールすると、もう一方はそのままの位置に留まります。これが形状の全ての理由です。
+    vertical:
+      title: スクロールしないヘッダー
+      description: 垂直に分割された状態：狭いゾーンは保持するものの高さに等しく、ボディは残りを占有し、その下でスクロールします。これはツールバーが上にあるパネルの配置です。
+    wrap:
+      title: 床の下
+      description: 床が与えられると、柔軟なゾーンは完全な行を主張し、サイズが設定されたカラムは両方が押しつぶされるのではなく、その上に移動します。ウィンドウを狭くすると折りたたむ様子が見えます。
+  split:
+    body: この側はサイズが設定されたカラムが残したものを取ります。
+  scrollable:
+    item: アイテム
+    line: 行
+  vertical:
+    action: 作成
+  wrap:
+    body: 与えられた床の下で、このゾーンは自分自身の行を占有します。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 영역
+  page_icon: 'ph:bold/columns'
+  intro: '모든 탐색기, 편집기 및 세부 정보 뷰가 구축된 두 개의 창으로 이루어진 작업 공간입니다. 영역은 자체적인 너비와 높이를 가지지 않으며, 그 위치한 분할이 크기를 결정하고 각 측면은 독립적으로 스크롤됩니다. 두 개의 영역은 페이지에 놓인 두 개의 객체이며, 반으로 나누어진 하나의 패널이 아닙니다. 그들을 구별하는 것은 그들 사이의 공간이며, `zone--panel`은 각자가 서 있는 기반입니다.'
+  section:
+    split:
+      title: 분할
+      description: '하나는 크기가 정해진 열이고, 다른 하나는 남은 공간을 차지합니다. 크기는 단계에 의해 정해지며, 이는 영역 자체의 것입니다 — 내부에 중첩된 어떤 것도 이를 상속받지 않습니다.'
+    scrollable:
+      title: '각 측면은 독립적으로 스크롤됩니다'
+      description: '스크롤 가능한 영역은 넘침을 보유하는 것이며, 페이지가 아닙니다. 이 두 개 중 하나를 스크롤하면 다른 하나는 있는 자리에 그대로 있으며, 이것이 형태의 전부 이유입니다.'
+    vertical:
+      title: '스크롤되지 않는 헤더'
+      description: '수직으로 변환된 분할: 좁은 영역은 그 안에 담고 있는 것의 높이이며, 본체는 나머지를 차지하고 그 아래에서 스크롤됩니다. 이는 상단에 도구 모음이 있는 패널의 배열입니다.'
+    wrap:
+      title: '바닥 아래'
+      description: '바닥이 주어지면, 유연한 영역은 전체 줄을 차지하고 크기가 정해진 열은 두 개가 압축되어 사라지지 않고 그 위로 이동합니다. 창을 좁혀서 접히는 모습을 확인하세요.'
+  split:
+    body: '이 측면은 크기가 정해진 열이 남긴 것을 차지합니다.'
+  scrollable:
+    item: 항목
+    line: 줄
+  vertical:
+    action: 생성
+  wrap:
+    body: '이 영역에 주어진 바닥 아래에서, 자신의 줄을 차지합니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zones
+  page_icon: 'ph:bold/columns'
+  intro: 'De werkruimte met twee panelen waarop elke verkenner, editor en detailweergave is gebouwd. Een zone heeft geen eigen breedte en hoogte: de split waarin het zich bevindt bepaalt de grootte, en elke kant scrollt afzonderlijk. Twee zones zijn twee objecten op de pagina, geen paneel dat in tweeën is gesneden — wat ze onderscheidt is de ruimte ertussen, en `zone--panel` is de grond waarop elk staat.'
+  section:
+    split:
+      title: 'Een split'
+      description: 'De ene kolom is van een bepaalde grootte, de andere neemt de rest in. De grootte wordt gegeven door een stap, en het is de eigen grootte van de zone — het wordt niet geërfd door iets wat erin genest is.'
+    scrollable:
+      title: 'Elke kant scrollt afzonderlijk'
+      description: 'Een scrollbare zone houdt de overflow vast, niet de pagina. Scroll één van deze twee en de andere blijft staan waar hij is, wat de hele reden is voor de vorm.'
+    vertical:
+      title: 'Een koptekst die niet scrollt'
+      description: 'Een split die verticaal is: een smalle zone heeft de hoogte van wat hij bevat, het lichaam neemt de rest en scrollt eronder. Dit is de opstelling van een paneel met een werkbalk bovenaan.'
+    wrap:
+      title: 'Onder een vloer'
+      description: 'Gegeven een vloer, neemt de flexibele zone een volle regel in beslag en beweegt de gekleurde kolom erboven in plaats van dat beide worden samengedrukt tot niets. Vernauw het venster om het in te zien vouwen.'
+  split:
+    body: 'Deze kant neemt wat de gekleurde kolom laat liggen.'
+  scrollable:
+    item: Item
+    line: Lijn
+  vertical:
+    action: Aanmaken
+  wrap:
+    body: 'Onder de vloer die deze zone heeft, neemt het een eigen regel in.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Strefy
+  page_icon: 'ph:bold/columns'
+  intro: 'Dwupanelowe środowisko, na którym opiera się każdy widok eksploratora, edytora i szczegółów. Strefa nie ma własnej szerokości ani wysokości: to podział, w którym się znajduje, nadaje jej rozmiar, a każda strona przewija się osobno. Dwie strefy to dwa obiekty ułożone na stronie, a nie jeden panel przecięty na pół — tym, co je odróżnia, jest przestrzeń między nimi, a `zone--panel` to podstawa, na której każda z nich stoi.'
+  section:
+    split:
+      title: Podział
+      description: 'Jedna kolumna o danym rozmiarze, druga zajmująca to, co zostało. Rozmiar jest określony przez krok i jest to rozmiar samej strefy — nie jest dziedziczony przez nic, co jest w niej zagnieżdżone.'
+    scrollable:
+      title: 'Każda strona przewija się osobno'
+      description: 'Przewijalna strefa to ta, która przechowuje nadmiar, a nie strona. Przewiń jedną z tych dwóch, a druga zostaje na swoim miejscu, co jest głównym powodem tego kształtu.'
+    vertical:
+      title: 'Nagłówek, który się nie przewija'
+      description: 'Podział w orientacji pionowej: wąska strefa ma wysokość tego, co zawiera, a ciało zajmuje resztę i przewija się pod nią. To układ panelu z paskiem narzędzi na górze.'
+    wrap:
+      title: 'Poniżej podłogi'
+      description: 'Majac podłogę, elastyczna strefa zajmuje pełną linię, a kolumna o danym rozmiarze przesuwa się nad nią, zamiast obie być ściśnięte do zera. Zmniejsz okno, aby zobaczyć, jak się składa.'
+  split:
+    body: 'Ta strona bierze to, co zostawia kolumna o danym rozmiarze.'
+  scrollable:
+    item: Element
+    line: Linia
+  vertical:
+    action: Utwórz
+  wrap:
+    body: 'Poniżej podłogi, którą ma ta strefa, zajmuje własną linię.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Zonas
+  page_icon: 'ph:bold/columns'
+  intro: 'O espaço de trabalho em duas painéis em que cada explorador, editor e visualização de detalhes é construído. Uma zona não tem largura e altura próprias: o espaço em que está determina seu tamanho, e cada lado rola de forma independente. Duas zonas são dois objetos dispostos na página, não um painel cortado ao meio — o que as diferencia é o espaço entre elas, e `zone--panel` é o chão em que cada uma se apoia.'
+  section:
+    split:
+      title: 'Uma divisão'
+      description: 'Uma coluna dimensionada, a outra ocupando o que resta. O tamanho é dado por um passo, e é próprio da zona — não é herdado por nada que esteja aninhado dentro dela.'
+    scrollable:
+      title: 'Cada lado rola de forma independente'
+      description: 'Uma zona rolável é o que mantém o transbordo, não a página. Role uma dessas duas e a outra permanece onde está, que é a razão principal para a forma.'
+    vertical:
+      title: 'Um cabeçalho que não rola'
+      description: 'Uma divisão transformada em vertical: uma zona estreita tem a altura do que abriga, o corpo ocupa o restante e rola abaixo dela. Esta é a disposição de um painel com uma barra de ferramentas na parte superior.'
+    wrap:
+      title: 'Abaixo de um chão'
+      description: 'Dado um chão, a zona flexível ocupa uma linha completa e a coluna dimensionada se move acima dela em vez de ambas serem espremidas a nada. Reduza a janela para vê-la se dobrar.'
+  split:
+    body: 'Este lado ocupa o que a coluna dimensionada deixa.'
+  scrollable:
+    item: Item
+    line: Linha
+  vertical:
+    action: Criar
+  wrap:
+    body: 'Abaixo do chão que esta zona recebe, ela ocupa uma linha própria.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Зоны
+  page_icon: 'ph:bold/columns'
+  intro: 'Рабочее пространство с двумя панелями, на основе которого построены все обозреватели, редакторы и детализированные представления. Зона не имеет собственной ширины и высоты: размер определяется разделением, в котором она находится, и каждая сторона прокручивается отдельно. Две зоны — это два объекта, расположенные на странице, а не одна панель, разрезанная пополам — отличает их пространство между собой, а `zone--panel` — это основание, на котором стоит каждая из них.'
+  section:
+    split:
+      title: Разделение
+      description: 'Одна колонка с заданным размером, другая занимает оставшееся пространство. Размер определяется шагом, и он принадлежит зоне — не наследуется от чего-либо вложенного внутри.'
+    scrollable:
+      title: 'Каждая сторона прокручивается отдельно'
+      description: 'Прокручиваемая зона удерживает переполнение, а не страница. Прокрутите одну из этих двух, и другая останется на месте, что и является основной причиной этой формы.'
+    vertical:
+      title: 'Заголовок, который не прокручивается'
+      description: 'Разделение, перевернутое вертикально: узкая зона имеет высоту того, что она содержит, тело занимает остальное и прокручивается под ним. Это расположение панели с панелью инструментов сверху.'
+    wrap:
+      title: 'Под полом'
+      description: 'Имея пол, гибкая зона занимает полную строку, а колонка с заданным размером перемещается над ней, вместо того чтобы обе сжимались до нуля. Уменьшите окно, чтобы увидеть, как это складывается.'
+  split:
+    body: 'Эта сторона принимает всё, что оставляет колонка с заданным размером.'
+  scrollable:
+    item: Элемент
+    line: Строка
+  vertical:
+    action: Создать
+  wrap:
+    body: 'Под полом, который задан этой зоной, она занимает свою строку.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: โซน
+  page_icon: 'ph:bold/columns'
+  intro: 'พื้นที่ทำงานที่มีสองพาเนลซึ่งทุกการสำรวจ การแก้ไข และมุมมองรายละเอียดถูกสร้างขึ้น โซนไม่มีความกว้างและความสูงของตัวเอง: การแบ่งที่มันนั่งอยู่คือสิ่งที่กำหนดขนาดของมัน และแต่ละด้านเลื่อนแยกกัน สองโซนคือวัตถุสองชิ้นที่วางอยู่บนหน้า ไม่ใช่แผงที่ถูกตัดครึ่ง — สิ่งที่บอกความแตกต่างของพวกมันคือพื้นที่ระหว่างกัน และ `zone--panel` คือพื้นฐานที่แต่ละอันยืนอยู่'
+  section:
+    split:
+      title: การแบ่ง
+      description: 'หนึ่งคอลัมน์มีขนาดและอีกคอลัมน์หนึ่งจะใช้สิ่งที่เหลือ ขนาดจะถูกกำหนดโดยขั้นตอน และมันคือขนาดของโซนเอง — มันไม่ได้สืบทอดจากสิ่งที่อยู่ภายในมัน'
+    scrollable:
+      title: แต่ละด้านเลื่อนแยกกัน
+      description: 'โซนที่เลื่อนเลื่อนได้คือสิ่งที่ถือการล้น ไม่ใช่หน้า เลื่อนหนึ่งในสองนี้และอีกด้านจะอยู่ที่เดิม ซึ่งเป็นเหตุผลทั้งหมดของรูปทรงนี้'
+    vertical:
+      title: หัวข้อที่ไม่เลื่อน
+      description: 'การแบ่งที่ถูกเปลี่ยนเป็นแนวตั้ง: โซนแคบคือความสูงของสิ่งที่มันถือ ร่างกายจะใช้ที่เหลือและเลื่อนอยู่ใต้โซนนี้ นี่คือการจัดเรียงของแผงที่มีแถบเครื่องมืออยู่ด้านบน'
+    wrap:
+      title: ด้านล่างพื้น
+      description: 'เมื่อมีพื้น โซนที่ยืดหยุ่นจะใช้เส้นเต็มและคอลัมน์ที่มีขนาดจะเคลื่อนที่อยู่เหนือมันแทนที่จะถูกบีบให้เล็กจนไม่มีอะไร ให้ลดขนาดหน้าต่างเพื่อดูมันพับ'
+  split:
+    body: ด้านนี้รับสิ่งที่คอลัมน์ที่มีขนาดทิ้งไว้
+  scrollable:
+    item: รายการ
+    line: บรรทัด
+  vertical:
+    action: สร้าง
+  wrap:
+    body: 'ด้านล่างพื้นที่โซนนี้ได้รับ มันจะใช้เส้นของตัวเอง'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bölgeler
+  page_icon: 'ph:bold/columns'
+  intro: 'Her gezgin, editör ve detay görünümü için inşa edilmiş iki bölmeli çalışma alanı. Bir bölgenin kendi genişliği ve yüksekliği yoktur: bulunduğu bölme onu boyutlandırır ve her iki taraf da ayrı ayrı kaydırılır. İki bölge, sayfada yerleştirilmiş iki nesnedir, bir panelin ikiye kesilmesi değil — onları ayıran şey aralarındaki boşluktur ve `zone--panel` her birinin durduğu zeminidir.'
+  section:
+    split:
+      title: 'Bir bölme'
+      description: 'Bir sütun boyutunda, diğeri kalan kısmı alır. Boyut bir adım ile belirlenir ve bölgenin kendisine aittir — içinde bulunan hiçbir şeyden miras alınmaz.'
+    scrollable:
+      title: 'Her taraf ayrı kaydırılır'
+      description: 'Kaydırılabilir bir bölge taşmayı tutar, sayfa değil. Bu ikisinden birini kaydırın, diğeri olduğu yerde kalır; bu, şeklin tüm nedenidir.'
+    vertical:
+      title: 'Kaydırılmayan bir başlık'
+      description: 'Dikey hale getirilmiş bir bölme: dar bir bölge, tuttuğu şeyin yüksekliğindedir, gövde geri kalanını alır ve altında kaydırılır. Bu, üstte bir araç çubuğu olan bir panelin düzenidir.'
+    wrap:
+      title: 'Bir zemin altında'
+      description: 'Bir zemin verildiğinde, esnek bölge tam bir satır alır ve boyutlandırılmış sütun onun üstünde hareket eder, ikisi de hiçbir şeye sıkıştırılmak yerine. Pencereyi daraltarak katlanışını görebilirsiniz.'
+  split:
+    body: 'Bu taraf, boyutlandırılmış sütunun bıraktığı her şeyi alır.'
+  scrollable:
+    item: Öğe
+    line: Satır
+  vertical:
+    action: Oluştur
+  wrap:
+    body: 'Bu bölgeye verilen zemin altında, kendine ait bir satır alır.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: زونز
+  page_icon: 'ph:bold/columns'
+  intro: 'دو پین والا ورک اسپیس جس پر ہر ایک ایکسپلورر، ایڈیٹر اور تفصیل کا منظر بنایا گیا ہے۔ ایک زون کی اپنی کوئی چوڑائی اور اونچائی نہیں ہوتی: یہ جس تقسیم میں واقع ہے، وہی اس کا سائز طے کرتی ہے، اور ہر طرف اکیلا ہی سکرول ہوتا ہے۔ دو زونز دو اشیاء ہیں جو صفحے پر رکھی گئی ہیں، نہ کہ ایک پینل جو آدھا کٹا ہو — ان کو الگ کرنے والی چیز ان کے درمیان کا خلا ہے، اور `zone--panel` وہ زمین ہے جس پر ہر ایک کھڑا ہے۔'
+  section:
+    split:
+      title: 'ایک تقسیم'
+      description: 'ایک کالم کا سائز، دوسرا باقی چیز لے رہا ہے۔ سائز ایک قدم سے دیا گیا ہے، اور یہ زون کا اپنا ہے — یہ اس کے اندر موجود کسی بھی چیز سے وراثت میں نہیں ملتا۔'
+    scrollable:
+      title: 'ہر طرف اکیلا سکرول ہوتا ہے'
+      description: 'ایک سکرول ایبل زون وہ ہے جو اوور فلو کو سنبھالتا ہے، نہ کہ صفحہ۔ ان دونوں میں سے ایک کو سکرول کریں اور دوسرا اپنی جگہ پر رہے گا، جو کہ شکل کی پوری وجہ ہے۔'
+    vertical:
+      title: 'ایک ہیڈر جو سکرول نہیں ہوتا'
+      description: 'ایک عمودی تقسیم: ایک پتلا زون وہ اونچائی ہے جو وہ رکھتا ہے، جسم باقی لیتا ہے اور اس کے نیچے سکرول ہوتا ہے۔ یہ ایک پینل کا انتظام ہے جس پر اوپر ایک ٹول بار ہوتا ہے۔'
+    wrap:
+      title: 'ایک فرش کے نیچے'
+      description: 'ایک فرش دی گئی ہو تو، لچکدار زون ایک مکمل لائن کا دعوی کرتا ہے اور سائز والا کالم اس کے اوپر منتقل ہوتا ہے بجائے اس کے کہ دونوں کو کچھ بھی نہیں چھوڑا جائے۔ ونڈو کو تنگ کریں تاکہ یہ فولڈ ہوتا ہوا دیکھ سکیں۔'
+  split:
+    body: 'یہ طرف وہ کچھ لیتی ہے جو سائز والا کالم چھوڑتا ہے۔'
+  scrollable:
+    item: آئٹم
+    line: لائن
+  vertical:
+    action: 'تخلیق کریں'
+  wrap:
+    body: 'فرش کے نیچے اس زون کو دی گئی، یہ اپنی ایک لائن لیتا ہے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Khu vực'
+  page_icon: 'ph:bold/columns'
+  intro: 'Không gian làm việc hai ngăn mà mọi trình duyệt, trình chỉnh sửa và chế độ xem chi tiết đều dựa vào. Một khu vực không có chiều rộng và chiều cao riêng: sự phân chia mà nó nằm trong đó sẽ xác định kích thước của nó, và mỗi bên cuộn độc lập. Hai khu vực là hai đối tượng đặt trên trang, không phải một bảng bị cắt đôi — điều phân biệt chúng là khoảng trống giữa chúng, và `zone--panel` là nền tảng mà mỗi cái đứng trên đó.'
+  section:
+    split:
+      title: 'Một sự phân chia'
+      description: 'Một cột đã được định kích thước, cột kia chiếm lấy phần còn lại. Kích thước được xác định bởi một bước, và đó là của riêng khu vực — nó không được kế thừa từ bất kỳ thứ gì nằm bên trong nó.'
+    scrollable:
+      title: 'Mỗi bên cuộn độc lập'
+      description: 'Một khu vực có thể cuộn là cái chứa phần tràn, không phải trang. Cuộn một trong hai cái này và cái kia vẫn ở nguyên vị trí, đó là lý do chính cho hình dạng này.'
+    vertical:
+      title: 'Một tiêu đề không cuộn'
+      description: 'Một sự phân chia chuyển thành dọc: một khu vực hẹp có chiều cao bằng những gì nó chứa, thân sẽ chiếm phần còn lại và cuộn bên dưới nó. Đây là cách sắp xếp của một bảng với thanh công cụ ở trên.'
+    wrap:
+      title: 'Dưới một sàn'
+      description: 'Khi có một sàn, khu vực linh hoạt chiếm một dòng đầy đủ và cột đã được định kích thước di chuyển ở trên thay vì cả hai bị ép lại thành không gì cả. Thu hẹp cửa sổ để thấy nó gập lại.'
+  split:
+    body: 'Bên này lấy bất cứ thứ gì cột đã định kích thước để lại.'
+  scrollable:
+    item: Mục
+    line: Dòng
+  vertical:
+    action: Tạo
+  wrap:
+    body: 'Dưới sàn mà khu vực này được cung cấp, nó chiếm một dòng riêng.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 区域
+  page_icon: 'ph:bold/columns'
+  intro: 每个探索者、编辑器和详细视图构建的双窗格工作区。一个区域没有自己的宽度和高度：它所处的分割决定了它的大小，每一侧独立滚动。两个区域是页面上放置的两个对象，而不是一个被切成两半的面板——区分它们的是它们之间的空间，而`zone--panel`是它们各自立足的基础。
+  section:
+    split:
+      title: 分割
+      description: 一列大小，另一列占据剩余部分。大小由一个步骤决定，这是区域自己的——它不继承任何嵌套在其中的东西。
+    scrollable:
+      title: 每一侧独立滚动
+      description: 可滚动区域是承载溢出的部分，而不是页面。滚动这两个中的一个，另一个保持原位，这就是这种形状的全部原因。
+    vertical:
+      title: 一个不滚动的头部
+      description: 垂直分割：狭窄区域的高度是它所承载内容的高度，主体占用其余部分并在其下滚动。这是一个顶部有工具栏的面板的排列。
+    wrap:
+      title: 在地板下
+      description: 给定一个地板，灵活区域占据整行，大小列则在其上方移动，而不是被挤压到无。缩小窗口以查看它的折叠。
+  split:
+    body: 这一侧接受大小列留下的任何内容。
+  scrollable:
+    item: 项目
+    line: 行
+  vertical:
+    action: 创建
+  wrap:
+    body: 在这个区域给定的地板下，它占据自己的一行。

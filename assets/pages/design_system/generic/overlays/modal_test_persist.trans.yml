@@ -1,0 +1,393 @@
+en:
+  page_title: Tabs with persistence
+
+  tab:
+    overview: Overview
+    details: Details
+    settings: Settings
+    loading: Loading bar
+
+  content:
+    overview: "This is the Overview tab. Switch tabs then press F5 — this tab will still be active when the overlay reopens."
+    details: "This is the Details tab. The active tab is stored in the URL hash, so it survives page reloads."
+    settings: "This is the Settings tab. Both the overlay (modal/panel) and the active tab are restored from the URL hash."
+    loading: "Use the buttons below to manually trigger the loading bar animation. This bar appears at the top of the overlay when a form submission is in progress."
+
+  loading:
+    start: Start
+    end: Complete
+    simulate: Simulate (auto-complete)
+
+ar:
+  page_title: 'علامات التبويب مع الاستمرارية'
+  tab:
+    overview: 'نظرة عامة'
+    details: تفاصيل
+    settings: الإعدادات
+    loading: 'شريط التحميل'
+  content:
+    overview: 'هذه هي علامة التبويب نظرة عامة. قم بالتبديل بين علامات التبويب ثم اضغط F5 — ستظل هذه العلامة نشطة عندما يعاد فتح التراكب.'
+    details: 'هذه هي علامة التبويب تفاصيل. يتم تخزين العلامة النشطة في تجزئة عنوان URL، لذا فهي تبقى قائمة عند إعادة تحميل الصفحة.'
+    settings: 'هذه هي علامة التبويب إعدادات. يتم استعادة كل من التراكب (النموذج/اللوحة) والعلامة النشطة من تجزئة عنوان URL.'
+    loading: 'استخدم الأزرار أدناه لتفعيل رسوم متحركة شريط التحميل يدويًا. يظهر هذا الشريط في أعلى التراكب عندما تكون عملية إرسال النموذج جارية.'
+  loading:
+    start: ابدأ
+    end: اكتمل
+    simulate: 'محاكاة (إكمال تلقائي)'
+
+bn:
+  page_title: 'ট্যাবস উইথ পারসিস্টেন্স'
+  tab:
+    overview: সারসংক্ষেপ
+    details: বিস্তারিত
+    settings: সেটিংস
+    loading: 'লোডিং বার'
+  content:
+    overview: 'এটি সারসংক্ষেপ ট্যাব। ট্যাব পরিবর্তন করুন তারপর F5 প্রেস করুন — ওভারলে পুনরায় খুললে এই ট্যাবটি সক্রিয় থাকবে।'
+    details: 'এটি বিস্তারিত ট্যাব। সক্রিয় ট্যাবটি URL হ্যাশে সংরক্ষিত হয়, তাই এটি পৃষ্ঠা রিলোডের সময় টিকে থাকে।'
+    settings: 'এটি সেটিংস ট্যাব। উভয় ওভারলে (মোডাল/প্যানেল) এবং সক্রিয় ট্যাবটি URL হ্যাশ থেকে পুনরুদ্ধার করা হয়।'
+    loading: 'নীচের বোতামগুলি ব্যবহার করে ম্যানুয়ালি লোডিং বার অ্যানিমেশন শুরু করুন। একটি ফর্ম জমা দেওয়ার সময় এই বারটি ওভারলের উপরে প্রদর্শিত হয়।'
+  loading:
+    start: 'শুরু করুন'
+    end: সম্পন্ন
+    simulate: 'সিমুলেট (অটো-কমপ্লিট)'
+
+de:
+  page_title: 'Tabs mit Persistenz'
+  tab:
+    overview: Übersicht
+    details: Details
+    settings: Einstellungen
+    loading: Ladebalken
+  content:
+    overview: 'Dies ist der Übersichts-Tab. Wechseln Sie die Tabs und drücken Sie F5 — dieser Tab bleibt aktiv, wenn das Overlay erneut geöffnet wird.'
+    details: 'Dies ist der Details-Tab. Der aktive Tab wird im URL-Hash gespeichert, damit er die Seitenaktualisierung übersteht.'
+    settings: 'Dies ist der Einstellungen-Tab. Sowohl das Overlay (Modal/Panels) als auch der aktive Tab werden aus dem URL-Hash wiederhergestellt.'
+    loading: 'Verwenden Sie die Schaltflächen unten, um die Ladebalkenanimation manuell auszulösen. Dieser Balken erscheint oben im Overlay, wenn eine Formularübermittlung im Gange ist.'
+  loading:
+    start: Starten
+    end: Abgeschlossen
+    simulate: 'Simulieren (Auto-Vervollständigung)'
+
+es:
+  page_title: 'Pestañas con persistencia'
+  tab:
+    overview: Resumen
+    details: Detalles
+    settings: Configuración
+    loading: 'Barra de carga'
+  content:
+    overview: 'Esta es la pestaña de Resumen. Cambia de pestañas y luego presiona F5; esta pestaña seguirá activa cuando se vuelva a abrir la superposición.'
+    details: 'Esta es la pestaña de Detalles. La pestaña activa se almacena en el hash de la URL, por lo que sobrevive a las recargas de la página.'
+    settings: 'Esta es la pestaña de Configuración. Tanto la superposición (modal/panel) como la pestaña activa se restauran desde el hash de la URL.'
+    loading: 'Utiliza los botones a continuación para activar manualmente la animación de la barra de carga. Esta barra aparece en la parte superior de la superposición cuando se está enviando un formulario.'
+  loading:
+    start: Iniciar
+    end: Completo
+    simulate: 'Simular (autocompletar)'
+
+fa:
+  page_title: 'زبان‌ها با پایداری'
+  tab:
+    overview: مرور
+    details: جزئیات
+    settings: تنظیمات
+    loading: 'نوار بارگذاری'
+  content:
+    overview: 'این زبانه مرور است. زبانه‌ها را عوض کنید و سپس F5 را فشار دهید — این زبانه هنوز فعال خواهد بود وقتی که پوشش دوباره باز می‌شود.'
+    details: 'این زبانه جزئیات است. زبانه فعال در هش URL ذخیره می‌شود، بنابراین در هنگام بارگذاری مجدد صفحه باقی می‌ماند.'
+    settings: 'این زبانه تنظیمات است. هم پوشش (مدال/پنل) و هم زبانه فعال از هش URL بازیابی می‌شوند.'
+    loading: 'از دکمه‌های زیر برای فعال‌سازی دستی انیمیشن نوار بارگذاری استفاده کنید. این نوار در بالای پوشش زمانی که یک ارسال فرم در حال انجام است، ظاهر می‌شود.'
+  loading:
+    start: شروع
+    end: کامل
+    simulate: 'شبیه‌سازی (تکمیل خودکار)'
+
+fi:
+  page_title: 'Välilehdet, joissa on pysyvyys'
+  tab:
+    overview: Yhteenveto
+    details: Tiedot
+    settings: Asetukset
+    loading: Latausnauha
+  content:
+    overview: 'Tämä on Yhteenveto-välilehti. Vaihda välilehtiä ja paina F5 — tämä välilehti pysyy aktiivisena, kun ylikerros avautuu uudelleen.'
+    details: 'Tämä on Tiedot-välilehti. Aktiivinen välilehti tallennetaan URL-osoitteen hash-arvoon, joten se säilyy sivun uudelleenlatauksissa.'
+    settings: 'Tämä on Asetukset-välilehti. Sekä ylikerros (modaali/paneeli) että aktiivinen välilehti palautetaan URL-osoitteen hash-arvosta.'
+    loading: 'Käytä alla olevia painikkeita ladataksesi latausnauha-animaation manuaalisesti. Tämä nauha näkyy ylikerroksen yläosassa, kun lomakkeen lähetys on käynnissä.'
+  loading:
+    start: Aloita
+    end: Valmis
+    simulate: 'Simuloi (automaattinen täyttö)'
+
+fr:
+  page_title: 'Onglets avec persistance'
+  tab:
+    overview: Aperçu
+    details: Détails
+    settings: Paramètres
+    loading: 'Barre de chargement'
+  content:
+    overview: "Ceci est l'onglet Aperçu. Changez d'onglet puis appuyez sur F5 — cet onglet restera actif lorsque le superposition se rouvrira."
+    details: "Ceci est l'onglet Détails. L'onglet actif est stocké dans le hachage de l'URL, donc il survit aux rechargements de page."
+    settings: "Ceci est l'onglet Paramètres. La superposition (modale/panneau) et l'onglet actif sont restaurés à partir du hachage de l'URL."
+    loading: "Utilisez les boutons ci-dessous pour déclencher manuellement l'animation de la barre de chargement. Cette barre apparaît en haut de la superposition lorsqu'une soumission de formulaire est en cours."
+  loading:
+    start: Démarrer
+    end: Terminer
+    simulate: 'Simuler (auto-compléter)'
+
+he:
+  page_title: 'כרטיסיות עם שמירה'
+  tab:
+    overview: 'סקירה כללית'
+    details: פרטים
+    settings: הגדרות
+    loading: 'סרגל טעינה'
+  content:
+    overview: 'זהו כרטיסיית הסקירה הכללית. החלף כרטיסיות ואז לחץ על F5 — כרטיסיה זו תישאר פעילה כאשר השכבת עליונה תיפתח שוב.'
+    details: 'זהו כרטיסיית הפרטים. הכרטיסיה הפעילה נשמרת בהאשט של ה-URL, כך שהיא שורדת את רענון הדף.'
+    settings: 'זהו כרטיסיית ההגדרות. גם השכבת עליונה (מודאל/פאנל) וגם הכרטיסיה הפעילה משוחזרות מההאשט של ה-URL.'
+    loading: 'השתמש בלחצנים למטה כדי להפעיל ידנית את אנימציית סרגל הטעינה. סרגל זה מופיע בחלק העליון של השכבת עליונה כאשר שליחת טופס מתבצעת.'
+  loading:
+    start: התחל
+    end: הושלם
+    simulate: 'סימולציה (השלמה אוטומטית)'
+
+hi:
+  page_title: 'Tabs with persistence'
+  tab:
+    overview: अवलोकन
+    details: विवरण
+    settings: सेटिंग्स
+    loading: 'लोडिंग बार'
+  content:
+    overview: 'यह अवलोकन टैब है। टैब स्विच करें फिर F5 दबाएं — जब ओवरले फिर से खुलता है, तब भी यह टैब सक्रिय रहेगा।'
+    details: 'यह विवरण टैब है। सक्रिय टैब URL हैश में संग्रहीत होता है, इसलिए यह पृष्ठ के पुनः लोड होने पर भी बना रहता है।'
+    settings: 'यह सेटिंग्स टैब है। ओवरले (मोडल/पैनल) और सक्रिय टैब दोनों URL हैश से पुनर्स्थापित होते हैं।'
+    loading: 'नीचे दिए गए बटनों का उपयोग करके लोडिंग बार एनीमेशन को मैन्युअल रूप से ट्रिगर करें। यह बार ओवरले के शीर्ष पर तब दिखाई देता है जब एक फ़ॉर्म सबमिशन प्रगति में होता है।'
+  loading:
+    start: 'शुरू करें'
+    end: पूर्ण
+    simulate: 'अनुकरण करें (स्वतः पूर्ण करें)'
+
+id:
+  page_title: 'Tab dengan persistensi'
+  tab:
+    overview: Ikhtisar
+    details: Detail
+    settings: Pengaturan
+    loading: 'Bilah pemuatan'
+  content:
+    overview: 'Ini adalah tab Ikhtisar. Beralih tab lalu tekan F5 — tab ini akan tetap aktif saat overlay dibuka kembali.'
+    details: 'Ini adalah tab Detail. Tab yang aktif disimpan dalam hash URL, sehingga tetap ada saat halaman dimuat ulang.'
+    settings: 'Ini adalah tab Pengaturan. Baik overlay (modal/panel) maupun tab yang aktif dipulihkan dari hash URL.'
+    loading: 'Gunakan tombol di bawah ini untuk memicu animasi bilah pemuatan secara manual. Bilah ini muncul di bagian atas overlay saat pengiriman formulir sedang berlangsung.'
+  loading:
+    start: Mulai
+    end: Selesai
+    simulate: 'Simulasikan (isi otomatis)'
+
+it:
+  page_title: 'Schede con persistenza'
+  tab:
+    overview: Panoramica
+    details: Dettagli
+    settings: Impostazioni
+    loading: 'Barra di caricamento'
+  content:
+    overview: 'Questa è la scheda Panoramica. Cambia schede e poi premi F5 — questa scheda rimarrà attiva quando il sovrapposto si riapre.'
+    details: "Questa è la scheda Dettagli. La scheda attiva è memorizzata nell'hash dell'URL, quindi sopravvive ai ricaricamenti della pagina."
+    settings: "Questa è la scheda Impostazioni. Sia il sovrapposto (modale/pannello) che la scheda attiva vengono ripristinati dall'hash dell'URL."
+    loading: "Usa i pulsanti qui sotto per attivare manualmente l'animazione della barra di caricamento. Questa barra appare in cima al sovrapposto quando è in corso l'invio di un modulo."
+  loading:
+    start: Inizia
+    end: Completato
+    simulate: 'Simula (completamento automatico)'
+
+ja:
+  page_title: タブの永続性
+  tab:
+    overview: 概要
+    details: 詳細
+    settings: 設定
+    loading: 読み込みバー
+  content:
+    overview: 'これは概要タブです。タブを切り替えてからF5を押してください — オーバーレイが再オープンするとき、このタブはまだアクティブのままです。'
+    details: これは詳細タブです。アクティブなタブはURLのハッシュに保存されているため、ページのリロード時にも維持されます。
+    settings: これは設定タブです。オーバーレイ（モーダル／パネル）とアクティブなタブは、URLのハッシュから復元されます。
+    loading: 以下のボタンを使用して、手動で読み込みバーのアニメーションをトリガーします。このバーは、フォーム送信が進行中のときにオーバーレイの上部に表示されます。
+  loading:
+    start: 開始
+    end: 完了
+    simulate: シミュレート（自動補完）
+
+ko:
+  page_title: '지속성이 있는 탭'
+  tab:
+    overview: 개요
+    details: 세부정보
+    settings: 설정
+    loading: '로딩 바'
+  content:
+    overview: '이곳은 개요 탭입니다. 탭을 전환한 후 F5를 눌러도 이 탭은 오버레이가 다시 열릴 때 여전히 활성 상태로 유지됩니다.'
+    details: '이곳은 세부정보 탭입니다. 활성 탭은 URL 해시에 저장되므로 페이지 새로 고침 시에도 유지됩니다.'
+    settings: '이곳은 설정 탭입니다. 오버레이(모달/패널)와 활성 탭 모두 URL 해시에서 복원됩니다.'
+    loading: '아래 버튼을 사용하여 로딩 바 애니메이션을 수동으로 트리거하세요. 이 바는 양식 제출이 진행 중일 때 오버레이 상단에 나타납니다.'
+  loading:
+    start: 시작
+    end: 완료
+    simulate: '시뮬레이션(자동 완성)'
+
+nl:
+  page_title: 'Tabs met persistentie'
+  tab:
+    overview: Overzicht
+    details: Details
+    settings: Instellingen
+    loading: Laadbalk
+  content:
+    overview: 'Dit is het Overzicht tabblad. Wissel van tabblad en druk op F5 — dit tabblad blijft actief wanneer de overlay opnieuw opent.'
+    details: 'Dit is het Details tabblad. Het actieve tabblad wordt opgeslagen in de URL-hash, zodat het de pagina-herlading overleeft.'
+    settings: 'Dit is het Instellingen tabblad. Zowel de overlay (modaal/paneel) als het actieve tabblad worden hersteld vanuit de URL-hash.'
+    loading: 'Gebruik de knoppen hieronder om handmatig de laadbalkanimatie te starten. Deze balk verschijnt bovenaan de overlay wanneer een formulierinvoer bezig is.'
+  loading:
+    start: Start
+    end: Voltooid
+    simulate: 'Simuleren (automatisch aanvullen)'
+
+pl:
+  page_title: 'Karty z zachowaniem stanu'
+  tab:
+    overview: Podsumowanie
+    details: Szczegóły
+    settings: Ustawienia
+    loading: Ładowanie
+  content:
+    overview: 'To jest zakładka Podsumowanie. Przełącz zakładki, a następnie naciśnij F5 — ta zakładka pozostanie aktywna, gdy nakładka zostanie ponownie otwarta.'
+    details: 'To jest zakładka Szczegóły. Aktywna zakładka jest przechowywana w hashu URL, więc przetrwa przeładowania strony.'
+    settings: 'To jest zakładka Ustawienia. Zarówno nakładka (modal/panel), jak i aktywna zakładka są przywracane z hasha URL.'
+    loading: 'Użyj przycisków poniżej, aby ręcznie wywołać animację paska ładowania. Ten pasek pojawia się na górze nakładki, gdy trwa wysyłanie formularza.'
+  loading:
+    start: Rozpocznij
+    end: Zakończone
+    simulate: 'Symuluj (autouzupełnianie)'
+
+pt_BR:
+  page_title: 'Guias com persistência'
+  tab:
+    overview: 'Visão Geral'
+    details: Detalhes
+    settings: Configurações
+    loading: 'Barra de Carregamento'
+  content:
+    overview: 'Esta é a guia Visão Geral. Troque de guia e depois pressione F5 — esta guia ainda estará ativa quando a sobreposição reabrir.'
+    details: 'Esta é a guia Detalhes. A guia ativa é armazenada no hash da URL, então ela sobrevive a recarregamentos de página.'
+    settings: 'Esta é a guia Configurações. Tanto a sobreposição (modal/painel) quanto a guia ativa são restauradas do hash da URL.'
+    loading: 'Use os botões abaixo para acionar manualmente a animação da barra de carregamento. Esta barra aparece na parte superior da sobreposição quando um envio de formulário está em andamento.'
+  loading:
+    start: Iniciar
+    end: Completo
+    simulate: 'Simular (autocompletar)'
+
+ru:
+  page_title: 'Вкладки с сохранением состояния'
+  tab:
+    overview: Обзор
+    details: Детали
+    settings: Настройки
+    loading: Загрузка
+  content:
+    overview: 'Это вкладка Обзор. Переключитесь между вкладками, затем нажмите F5 — эта вкладка останется активной, когда оверлей откроется снова.'
+    details: 'Это вкладка Детали. Активная вкладка сохраняется в хеше URL, поэтому она сохраняется при перезагрузке страницы.'
+    settings: 'Это вкладка Настройки. Оба элемента (оверлей (модальное окно/панель) и активная вкладка) восстанавливаются из хеша URL.'
+    loading: 'Используйте кнопки ниже, чтобы вручную запустить анимацию загрузки. Эта строка появляется в верхней части оверлея, когда идет отправка формы.'
+  loading:
+    start: Начать
+    end: Завершено
+    simulate: 'Симулировать (автозаполнение)'
+
+th:
+  page_title: แท็บที่มีการเก็บรักษา
+  tab:
+    overview: ภาพรวม
+    details: รายละเอียด
+    settings: การตั้งค่า
+    loading: กำลังโหลด
+  content:
+    overview: 'นี่คือแท็บภาพรวม เปลี่ยนแท็บแล้วกด F5 — แท็บนี้จะยังคงเปิดอยู่เมื่อหน้าต่าง overlay กลับมาอีกครั้ง.'
+    details: 'นี่คือแท็บรายละเอียด แท็บที่เปิดอยู่จะถูกเก็บใน URL hash ดังนั้นมันจะอยู่เมื่อรีโหลดหน้า.'
+    settings: 'นี่คือแท็บการตั้งค่า ทั้ง overlay (โมดัล/พาแนล) และแท็บที่เปิดอยู่จะถูกกู้คืนจาก URL hash.'
+    loading: 'ใช้ปุ่มด้านล่างเพื่อเรียกการเคลื่อนไหวของแถบการโหลดด้วยตนเอง แถบนี้จะแสดงที่ด้านบนของ overlay เมื่อมีการส่งแบบฟอร์มอยู่.'
+  loading:
+    start: เริ่มต้น
+    end: เสร็จสิ้น
+    simulate: 'จำลอง (กรอกอัตโนมัติ)'
+
+tr:
+  page_title: 'Kalıcı Sekmeler'
+  tab:
+    overview: 'Genel Bakış'
+    details: Ayrıntılar
+    settings: Ayarlar
+    loading: 'Yükleniyor çubuğu'
+  content:
+    overview: 'Bu Genel Bakış sekmesidir. Sekmeler arasında geçiş yapın, ardından F5 tuşuna basın — bu sekme, örtü yeniden açıldığında hala aktif olacaktır.'
+    details: "Bu Ayrıntılar sekmesidir. Aktif sekme URL hash'inde saklanır, böylece sayfa yenilemelerinde hayatta kalır."
+    settings: "Bu Ayarlar sekmesidir. Hem örtü (modal/panel) hem de aktif sekme URL hash'inden geri yüklenir."
+    loading: 'Aşağıdaki butonları kullanarak yükleme çubuğu animasyonunu manuel olarak tetikleyin. Bu çubuk, bir form gönderimi işlemi devam ederken örtünün üstünde görünür.'
+  loading:
+    start: Başla
+    end: Tamamlandı
+    simulate: 'Simüle et (otomatik tamamlama)'
+
+ur:
+  page_title: 'ٹیب کے ساتھ مستقل مزاجی'
+  tab:
+    overview: جائزہ
+    details: تفصیلات
+    settings: ترتیبات
+    loading: 'لوڈنگ بار'
+  content:
+    overview: 'یہ جائزہ ٹیب ہے۔ ٹیب تبدیل کریں پھر F5 دبائیں — یہ ٹیب اوورلے دوبارہ کھلنے پر بھی فعال رہے گا۔'
+    details: 'یہ تفصیلات ٹیب ہے۔ فعال ٹیب URL ہیش میں محفوظ ہوتا ہے، اس لیے یہ صفحے کے دوبارہ لوڈ ہونے پر بھی برقرار رہتا ہے۔'
+    settings: 'یہ ترتیبات ٹیب ہے۔ اوورلے (موڈل/پینل) اور فعال ٹیب دونوں URL ہیش سے بحال ہوتے ہیں۔'
+    loading: 'نیچے دیے گئے بٹنوں کا استعمال کریں تاکہ دستی طور پر لوڈنگ بار کی حرکت کو متحرک کریں۔ یہ بار اوورلے کے اوپر اس وقت ظاہر ہوتی ہے جب فارم کی جمع کروانے کا عمل جاری ہو۔'
+  loading:
+    start: 'شروع کریں'
+    end: مکمل
+    simulate: 'سیمولیٹ کریں (خودکار تکمیل)'
+
+vi:
+  page_title: 'Các tab có khả năng lưu'
+  tab:
+    overview: 'Tổng quan'
+    details: 'Chi tiết'
+    settings: 'Cài đặt'
+    loading: 'Thanh tải'
+  content:
+    overview: 'Đây là tab Tổng quan. Chuyển đổi giữa các tab rồi nhấn F5 — tab này sẽ vẫn được giữ khi lớp phủ mở lại.'
+    details: 'Đây là tab Chi tiết. Tab đang hoạt động được lưu trong hash URL, vì vậy nó vẫn tồn tại khi tải lại trang.'
+    settings: 'Đây là tab Cài đặt. Cả lớp phủ (modal/panel) và tab đang hoạt động đều được phục hồi từ hash URL.'
+    loading: 'Sử dụng các nút bên dưới để kích hoạt thủ công hoạt ảnh thanh tải. Thanh này xuất hiện ở đầu lớp phủ khi một thao tác gửi biểu mẫu đang diễn ra.'
+  loading:
+    start: 'Bắt đầu'
+    end: 'Hoàn thành'
+    simulate: 'Mô phỏng (tự động hoàn tất)'
+
+zh:
+  page_title: 具有持久性的选项卡
+  tab:
+    overview: 概述
+    details: 详情
+    settings: 设置
+    loading: 加载条
+  content:
+    overview: '这是概述选项卡。切换选项卡后按F5 - 当覆盖层重新打开时，此选项卡仍然处于活动状态。'
+    details: 这是详情选项卡。活动选项卡存储在URL哈希中，因此在页面重新加载时仍然有效。
+    settings: 这是设置选项卡。覆盖层（模态/面板）和活动选项卡都从URL哈希中恢复。
+    loading: 使用下面的按钮手动触发加载条动画。当表单提交正在进行时，此条在覆盖层顶部出现。
+  loading:
+    start: 开始
+    end: 完成
+    simulate: 模拟（自动完成）

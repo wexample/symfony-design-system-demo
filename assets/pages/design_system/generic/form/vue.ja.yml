@@ -1,6 +1,0 @@
-~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-page_title: Vueフォーム
-page_icon: 'ph:bold/file-vue'
-section:
-  vue:
-    title: '送信動作（ページ + モーダル）'

@@ -1,0 +1,578 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Dashboard panel
+  page_icon: ph:bold/square-half
+
+  field:
+    version: Version
+    instances: Instances
+    loaded: Loaded
+
+  loaded:
+    at_once: as soon as the page was shown
+    late: "%seconds% s late, on purpose"
+
+  service:
+    api:
+      title: API gateway
+      state: Serving
+      version: 4.12.0
+      instances: 3 / 3
+      description: "A page of its own, loaded into this zone by an embed. The cross in its corner closes it: the zone steps out and the others share its room."
+    worker:
+      title: Queue worker
+      state: Catching up
+      version: 2.3.1
+      instances: 2 / 4
+      description: "Loaded lazily — only once scrolled into view — and answered late, so the spinner has time to be seen."
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'لوحة التحكم'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: الإصدار
+    instances: الحالات
+    loaded: 'تم التحميل'
+  loaded:
+    at_once: 'بمجرد عرض الصفحة'
+    late: '%seconds% ثانية متأخر، عن قصد'
+  service:
+    api:
+      title: 'بوابة API'
+      state: يعمل
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'صفحة خاصة بها، تم تحميلها في هذه المنطقة بواسطة تضمين. الصليب في زاويتها يغلقها: المنطقة تخرج والآخرون يشاركون غرفتها.'
+    worker:
+      title: 'عامل قائمة الانتظار'
+      state: يتقدم
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'تم تحميله بشكل كسول — فقط عند التمرير إلى العرض — وتم الرد عليه متأخرًا، لذا كان هناك وقت لرؤية الدوّار.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ড্যাশবোর্ড প্যানেল'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: সংস্করণ
+    instances: ইনস্ট্যান্স
+    loaded: 'লোড হয়েছে'
+  loaded:
+    at_once: 'যখন পৃষ্ঠা প্রদর্শিত হয়েছে তখনই'
+    late: '%seconds% সেকেন্ড দেরিতে, ইচ্ছাকৃতভাবে'
+  service:
+    api:
+      title: 'এপিআই গেটওয়ে'
+      state: সার্ভিং
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'এটির জন্য একটি পৃষ্ঠা, যা এই অঞ্চলে একটি এমবেড দ্বারা লোড করা হয়েছে। কোণের ক্রসটি এটি বন্ধ করে: অঞ্চলটি বেরিয়ে আসে এবং অন্যরা এর কক্ষ শেয়ার করে।'
+    worker:
+      title: 'কিউ কর্মী'
+      state: 'পিছিয়ে পড়া'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'আলস্যে লোড হয়েছে - শুধুমাত্র একবার দৃশ্যে স্ক্রোল করা হলে - এবং দেরিতে উত্তর দেওয়া হয়েছে, তাই স্পিনারটি দেখা যাওয়ার জন্য সময় পায়।'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dashboard-Panel
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Version
+    instances: Instanzen
+    loaded: Geladen
+  loaded:
+    at_once: 'sobald die Seite angezeigt wurde'
+    late: '%seconds% s verspätet, absichtlich'
+  service:
+    api:
+      title: API-Gateway
+      state: 'Wird bereitgestellt'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Eine eigene Seite, die durch ein Embed in diesen Bereich geladen wird. Das Kreuz in der Ecke schließt sie: der Bereich tritt heraus und die anderen teilen sich den Raum.'
+    worker:
+      title: Warteschlangenarbeiter
+      state: Aufholen
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Faul geladen — nur einmal in den sichtbaren Bereich gescrollt — und verspätet beantwortet, damit der Spinner Zeit hat, gesehen zu werden.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Panel de control'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Versión
+    instances: Instancias
+    loaded: Cargado
+  loaded:
+    at_once: 'tan pronto como se mostró la página'
+    late: '%seconds% s tarde, a propósito'
+  service:
+    api:
+      title: 'Puerta de enlace API'
+      state: Atendiendo
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Una página propia, cargada en esta zona por un incrustado. La cruz en su esquina la cierra: la zona se retira y las otras comparten su espacio.'
+    worker:
+      title: 'Trabajador de cola'
+      state: Recuperando
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Cargado de forma perezosa — solo una vez desplazado a la vista — y respondido tarde, así que el spinner tiene tiempo para ser visto.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'پنل داشبورد'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: نسخه
+    instances: نمونه‌ها
+    loaded: 'بارگذاری شده'
+  loaded:
+    at_once: 'به محض نمایش صفحه'
+    late: '%seconds% ثانیه دیرتر، عمدی'
+  service:
+    api:
+      title: 'دروازه API'
+      state: 'در حال خدمت'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'صفحه‌ای مستقل که در این ناحیه با یک جاسازی بارگذاری شده است. علامت ضربدر در گوشه آن، آن را می‌بندد: ناحیه خارج می‌شود و سایرین اتاق آن را به اشتراک می‌گذارند.'
+    worker:
+      title: 'کارگر صف'
+      state: 'در حال جبران'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'به‌طور تنبل بارگذاری شده — تنها وقتی که به نمایان در می‌آید — و دیر جواب داده شده، بنابراین زمان کافی برای مشاهده چرخش وجود دارد.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ohjauspaneeli
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Versio
+    instances: Instanssit
+    loaded: Ladattu
+  loaded:
+    at_once: 'niin pian kuin sivu näytetään'
+    late: '%seconds% sekuntia myöhässä, tarkoituksella'
+  service:
+    api:
+      title: API-yhdyskäytävä
+      state: Palvelussa
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Oma sivu, ladattu tähän alueeseen upotuksena. Kulmassa oleva risti sulkee sen: alue poistuu ja muut jakavat sen tilan.'
+    worker:
+      title: Jonotyöntekijä
+      state: 'Kahdessa mukana'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Ladattu hitaasti — vain kun se on vieritetty näkyviin — ja vastattu myöhään, jotta latauspyörä näkyisi.'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Panneau de tableau de bord'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Version
+    instances: Instances
+    loaded: Chargé
+  loaded:
+    at_once: 'dès que la page a été affichée'
+    late: '%seconds% s en retard, intentionnellement'
+  service:
+    api:
+      title: 'Passerelle API'
+      state: 'En service'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Une page à part, chargée dans cette zone par un embed. La croix dans son coin la ferme : la zone sort et les autres partagent son espace.'
+    worker:
+      title: "Travailleur de file d'attente"
+      state: 'En retard'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: "Chargé paresseusement — seulement lorsqu'il est défilé dans la vue — et répondu tardivement, donc le spinner a le temps d'être vu."
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'לוח מחוונים'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: גרסה
+    instances: מקרים
+    loaded: טען
+  loaded:
+    at_once: 'ברגע שהדף הוצג'
+    late: '%seconds% שניות באיחור, בכוונה'
+  service:
+    api:
+      title: 'שער API'
+      state: משרת
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'דף משלו, נטען לאזור זה על ידי הטמעה. החץ בפינה שלו סוגר אותו: האזור יוצא החוצה ואחרים משתפים את החדר שלו.'
+    worker:
+      title: 'עובד תור'
+      state: מתעדכן
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'נטען באיטיות — רק לאחר שגוללים לתוך התצוגה — וענה באיחור, כך שספינר יכול להיות נראה.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'डैशबोर्ड पैनल'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: संस्करण
+    instances: उदाहरण
+    loaded: 'लोड किया गया'
+  loaded:
+    at_once: 'जैसे ही पृष्ठ दिखाया गया'
+    late: '%seconds% सेकंड देर से, जानबूझकर'
+  service:
+    api:
+      title: 'एपीआई गेटवे'
+      state: 'सेवा दे रहा है'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'इस क्षेत्र में एम्बेड द्वारा लोड किया गया एक अलग पृष्ठ। इसके कोने में क्रॉस इसे बंद करता है: क्षेत्र बाहर निकलता है और अन्य इसका कमरा साझा करते हैं।'
+    worker:
+      title: 'क्यू कार्यकर्ता'
+      state: पछाड़ना
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'आलसी तरीके से लोड किया गया — केवल एक बार दृश्य में स्क्रॉल होने पर — और देर से उत्तर दिया गया, ताकि स्पिनर को देखा जा सके।'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Panel dasbor'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Versi
+    instances: Instansi
+    loaded: Dimuat
+  loaded:
+    at_once: 'segera setelah halaman ditampilkan'
+    late: '%seconds% detik terlambat, dengan sengaja'
+  service:
+    api:
+      title: 'Gerbang API'
+      state: Melayani
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Halaman tersendiri, dimuat ke dalam zona ini melalui penyematan. Silang di sudutnya menutupnya: zona keluar dan yang lain berbagi ruangnya.'
+    worker:
+      title: 'Pekerja antrean'
+      state: 'Menangkap kembali'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Dimuat secara malas — hanya saat digulir ke tampilan — dan dijawab terlambat, sehingga pemutar waktu memiliki waktu untuk terlihat.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Pannello di controllo'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Versione
+    instances: Istanze
+    loaded: Caricato
+  loaded:
+    at_once: 'non appena la pagina è stata mostrata'
+    late: '%seconds% s in ritardo, di proposito'
+  service:
+    api:
+      title: 'Gateway API'
+      state: 'In servizio'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: "Una pagina a sé, caricata in questa zona tramite un embed. La croce nell'angolo la chiude: la zona si ritira e le altre condividono il suo spazio."
+    worker:
+      title: 'Lavoratore in coda'
+      state: Recupero
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Caricato in modo pigro — solo una volta scorrendo in vista — e risposto in ritardo, così il caricamento ha tempo di essere visto.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ダッシュボードパネル
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: バージョン
+    instances: インスタンス
+    loaded: 読み込み済み
+  loaded:
+    at_once: ページが表示されたときにすぐに
+    late: '%seconds% 秒遅れ、意図的に'
+  service:
+    api:
+      title: APIゲートウェイ
+      state: サービス中
+      version: 4.12.0
+      instances: '3 / 3'
+      description: このゾーンに埋め込まれて読み込まれる専用のページ。角にある×をクリックすると閉じます：ゾーンが外に出て、他のゾーンがそのスペースを共有します。
+    worker:
+      title: 'キュー ワーカー'
+      state: 追いついています
+      version: 2.3.1
+      instances: '2 / 4'
+      description: '遅延読み込み — ビューにスクロールされるまで読み込まれず — 遅れて応答するため、スピナーが表示される時間があります。'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '대시보드 패널'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: 버전
+    instances: 인스턴스
+    loaded: 로드됨
+  loaded:
+    at_once: '페이지가 표시되자마자'
+    late: '%seconds% 초 지연됨, 의도적으로'
+  service:
+    api:
+      title: 'API 게이트웨이'
+      state: '서비스 중'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: '임베드로 이 구역에 로드된 독립적인 페이지입니다. 모서리에 있는 X를 클릭하면 닫히며, 구역이 빠져나가고 다른 구역이 그 공간을 공유합니다.'
+    worker:
+      title: '큐 워커'
+      state: '추적 중'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: '느리게 로드됨 — 오직 화면에 표시될 때만 — 그리고 늦게 응답하므로 스피너가 보일 시간을 가집니다.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Dashboardpaneel
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Versie
+    instances: Instanties
+    loaded: Gelaafd
+  loaded:
+    at_once: 'zodra de pagina werd weergegeven'
+    late: '%seconds% s te laat, opzettelijk'
+  service:
+    api:
+      title: API-gateway
+      state: 'In gebruik'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Een eigen pagina, geladen in deze zone via een embed. De kruis in de hoek sluit het: de zone stapt eruit en de anderen delen de ruimte.'
+    worker:
+      title: Wachtrijwerker
+      state: Inhalen
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Lui geladen — alleen wanneer het in beeld wordt gescrold — en laat beantwoord, zodat de spinner de tijd heeft om gezien te worden.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Panel nawigacyjny'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Wersja
+    instances: Instancje
+    loaded: Załadowano
+  loaded:
+    at_once: 'jak tylko strona została wyświetlona'
+    late: '%seconds% s spóźnione, celowo'
+  service:
+    api:
+      title: 'Brama API'
+      state: Działa
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Strona na własny użytek, załadowana w tej strefie przez osadzenie. Krzyżyk w rogu zamyka ją: strefa wychodzi, a pozostałe dzielą jej przestrzeń.'
+    worker:
+      title: 'Pracownik kolejki'
+      state: 'Nadrabianie zaległości'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Ładowana leniwie — tylko po przewinięciu do widoku — i odpowiadająca z opóźnieniem, aby spinner miał czas na wyświetlenie.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Painel do Dashboard'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Versão
+    instances: Instâncias
+    loaded: Carregado
+  loaded:
+    at_once: 'assim que a página foi exibida'
+    late: '%seconds% s atrasado, intencionalmente'
+  service:
+    api:
+      title: 'Gateway da API'
+      state: Atendendo
+      version: 4.12.0
+      instances: '3 / 3'
+      description: "Uma página própria, carregada nesta zona por um embed. O 'x' no canto fecha-a: a zona sai e as outras compartilham seu espaço."
+    worker:
+      title: 'Trabalhador de Fila'
+      state: Recuperando
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Carregado de forma preguiçosa — apenas quando rolado para a visualização — e respondido com atraso, para que o indicador de carregamento tenha tempo de ser visto.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Панель инструментов'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Версия
+    instances: Экземпляры
+    loaded: Загружено
+  loaded:
+    at_once: 'как только страница была показана'
+    late: '%seconds% с задержкой, намеренно'
+  service:
+    api:
+      title: 'API шлюз'
+      state: Работает
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Отдельная страница, загруженная в эту зону через встраивание. Крестик в углу закрывает её: зона выходит, а остальные делят её пространство.'
+    worker:
+      title: 'Рабочий процесс очереди'
+      state: Навысыпаемся
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Загружается лениво — только после прокрутки в поле зрения — и отвечает с задержкой, чтобы спиннер успел отобразиться.'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แผงควบคุม
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: เวอร์ชัน
+    instances: อินสแตนซ์
+    loaded: โหลดแล้ว
+  loaded:
+    at_once: ทันทีที่หน้าแสดงขึ้น
+    late: '%seconds% วินาที ล่าช้าโดยเจตนา'
+  service:
+    api:
+      title: 'API เกตเวย์'
+      state: กำลังให้บริการ
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'หน้าที่แยกต่างหาก ถูกโหลดเข้าสู่โซนนี้โดยการฝัง ขีดกากบาทในมุมของมันปิดหน้าต่าง: โซนจะออกไปและโซนอื่น ๆ จะใช้พื้นที่ของมันร่วมกัน'
+    worker:
+      title: งานในคิว
+      state: กำลังตามทัน
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'โหลดอย่างช้า ๆ — เฉพาะเมื่อเลื่อนเข้าสู่การมองเห็น — และตอบสนองช้า เพื่อให้สปินเนอร์มีเวลาแสดงผล'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Gösterge paneli'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: Sürüm
+    instances: Örnekler
+    loaded: Yüklendi
+  loaded:
+    at_once: 'sayfa gösterildiği anda'
+    late: '%seconds% s geç, bilerek'
+  service:
+    api:
+      title: 'API geçidi'
+      state: Hizmette
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Bu alana yerleştirilmiş kendi sayfası. Köşesindeki çarpı, onu kapatır: alan çıkar ve diğerleri onun odasını paylaşır.'
+    worker:
+      title: 'Kuyruk işçi'
+      state: Yetişiyor
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Tembel bir şekilde yüklendi — yalnızca görünür hale geldiğinde — ve geç cevap verildi, böylece dönen simgenin görülmesi için zaman oluyor.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ڈیش بورڈ پینل'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: ورژن
+    instances: انسٹنسز
+    loaded: 'لوڈ ہوا'
+  loaded:
+    at_once: 'جیسے ہی صفحہ دکھایا گیا'
+    late: '%seconds% سیکنڈ کی تاخیر، جان بوجھ کر'
+  service:
+    api:
+      title: 'API گیٹ وے'
+      state: 'سروس فراہم کر رہا ہے'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'اس علاقے میں شامل کرکے لوڈ ہونے والا اپنا صفحہ۔ اس کے کونے میں کراس اسے بند کرتا ہے: یہ علاقہ باہر نکلتا ہے اور دوسرے اس کا کمرہ بانٹتے ہیں۔'
+    worker:
+      title: 'قطار کا کارکن'
+      state: 'پچھلے کام کو مکمل کر رہا ہے'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'آہستہ آہستہ لوڈ ہوا — صرف ایک بار دیکھنے کے لیے اسکرول کرنے پر — اور دیر سے جواب دیا، تاکہ اسپنر نظر آنے کا وقت ملے۔'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Bảng điều khiển'
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: 'Phiên bản'
+    instances: 'Tình huống'
+    loaded: 'Đã tải'
+  loaded:
+    at_once: 'ngay khi trang được hiển thị'
+    late: '%seconds% giây trễ, có chủ đích'
+  service:
+    api:
+      title: 'Cổng API'
+      state: 'Đang phục vụ'
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 'Một trang riêng biệt, được tải vào khu vực này qua một phần nhúng. Dấu chéo ở góc của nó sẽ đóng lại: khu vực đó sẽ thoát ra và các khu vực khác chia sẻ không gian của nó.'
+    worker:
+      title: 'Công nhân hàng đợi'
+      state: 'Đang theo kịp'
+      version: 2.3.1
+      instances: '2 / 4'
+      description: 'Được tải một cách lười biếng — chỉ khi cuộn vào tầm nhìn — và phản hồi muộn, để cho vòng quay có thời gian hiển thị.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 仪表板面板
+  page_icon: 'ph:bold/square-half'
+  field:
+    version: 版本
+    instances: 实例
+    loaded: 已加载
+  loaded:
+    at_once: 一出现页面就加载
+    late: '%seconds% 秒晚，故意的'
+  service:
+    api:
+      title: 'API 网关'
+      state: 服务中
+      version: 4.12.0
+      instances: '3 / 3'
+      description: 一个独立的页面，通过嵌入加载到这个区域。角落的叉号关闭它：区域退出，其他区域共享它的空间。
+    worker:
+      title: 队列工作者
+      state: 赶上进度
+      version: 2.3.1
+      instances: '2 / 4'
+      description: '懒加载 — 仅在滚动到视图中时加载 — 并且回复较晚，因此加载指示器有时间显示。'

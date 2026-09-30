@@ -1,0 +1,859 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Controls
+  page_icon: ph:bold/cursor-click
+
+  intro: "What a reader acts through. Each of these takes an action rather than a value — a form field takes the value, and lives in the next section."
+
+  page:
+    buttons:
+      title: Buttons
+      description: "The one that does something, in its variants, its states and its densities, plus the link and the target that open elsewhere."
+    menus:
+      title: Menus
+      description: "A button that opens a list of choices, placing itself against the edges of the window, in twig and in vue."
+    steppers:
+      title: Steppers
+      description: "Where a reader stands in a sequence of steps, with the ones behind to go back to."
+
+  section:
+    compound:
+      title: Everything together
+      description: "The same set of controls in three contexts: a padded block, a toolbar, and a compact toolbar. Nothing about the controls changes between the three — the region is what tells them how much room they have."
+
+  button:
+    primary: Primary button
+
+  select:
+    option_one: Option one
+    option_two: Option two
+    option_three: Option three
+
+  menu:
+    primary: Menu button
+    item:
+      report: Report
+      settings: Settings
+      logout: Log out
+      long: With a quite, quite, quite, quite long title
+
+  switch:
+    label_right: Enable feature
+
+  link:
+    external: External link
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التحكمات
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'ما يقوم به القارئ من خلاله. كل واحد من هذه العناصر يقوم بإجراء بدلاً من قيمة - حقل النموذج يأخذ القيمة، ويعيش في القسم التالي.'
+  page:
+    buttons:
+      title: الأزرار
+      description: 'الذي يقوم بشيء ما، في أشكاله المختلفة، وحالاته وكثافته، بالإضافة إلى الرابط والهدف الذي يفتح في مكان آخر.'
+    menus:
+      title: القوائم
+      description: 'زر يفتح قائمة من الخيارات، يضع نفسه ضد حواف النافذة، في twig و vue.'
+    steppers:
+      title: خطوات
+      description: 'أين يقف القارئ في تسلسل من الخطوات، مع الخيارات السابقة للعودة.'
+  section:
+    compound:
+      title: 'كل شيء معاً'
+      description: 'نفس مجموعة التحكمات في ثلاثة سياقات: كتلة مبطنة، شريط أدوات، وشريط أدوات مدمج. لا شيء عن التحكمات يتغير بين الثلاثة - المنطقة هي ما تخبرهم بمدى المساحة المتاحة لهم.'
+  button:
+    primary: 'زر رئيسي'
+  select:
+    option_one: 'الخيار الأول'
+    option_two: 'الخيار الثاني'
+    option_three: 'الخيار الثالث'
+  menu:
+    primary: 'زر القائمة'
+    item:
+      report: تقرير
+      settings: الإعدادات
+      logout: 'تسجيل الخروج'
+      long: 'بعنوان طويل، طويل، طويل، طويل جداً'
+  switch:
+    label_right: 'تفعيل الميزة'
+  link:
+    external: 'رابط خارجي'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: নিয়ন্ত্রণ
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'যা একজন পাঠক দ্বারা কার্যকর হয়। এগুলোর প্রতিটির একটি কার্যকলাপ আছে, মান নয় — একটি ফর্ম ফিল্ড মান গ্রহণ করে এবং পরবর্তী বিভাগে অবস্থান করে।'
+  page:
+    buttons:
+      title: বোতামগুলি
+      description: 'যেটি কিছু করে, এর ভেরিয়েন্ট, অবস্থান এবং ঘনত্ব সহ, পাশাপাশি লিঙ্ক এবং লক্ষ্য যা অন্যত্র খোলে।'
+    menus:
+      title: মেনু
+      description: 'একটি বোতাম যা একটি পছন্দের তালিকা খুলে, জানালার প্রান্তের বিরুদ্ধে অবস্থান করে, টুইগ এবং ভিউতে।'
+    steppers:
+      title: স্টেপারস
+      description: 'যেখানে একজন পাঠক পদক্ষেপের একটি সিকোয়েন্সে অবস্থান করছে, পিছনের পদক্ষেপে ফিরে যাওয়ার জন্য।'
+  section:
+    compound:
+      title: 'সবকিছু একত্রে'
+      description: 'তিনটি প্রসঙ্গে একই সেটের নিয়ন্ত্রণ: একটি প্যাডেড ব্লক, একটি টুলবার, এবং একটি সংক্ষিপ্ত টুলবার। তিনটির মধ্যে নিয়ন্ত্রণগুলোর কিছুই পরিবর্তিত হয় না — অঞ্চলই তাদের কতটা স্থান আছে তা জানায়।'
+  button:
+    primary: 'প্রাথমিক বোতাম'
+  select:
+    option_one: 'অপশন এক'
+    option_two: 'অপশন দুই'
+    option_three: 'অপশন তিন'
+  menu:
+    primary: 'মেনু বোতাম'
+    item:
+      report: রিপোর্ট
+      settings: সেটিংস
+      logout: 'লগ আউট'
+      long: 'একটি বেশ, বেশ, বেশ, বেশ দীর্ঘ শিরোনাম সহ'
+  switch:
+    label_right: 'ফিচার সক্ষম করুন'
+  link:
+    external: 'বাহ্যিক লিঙ্ক'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Steuerelemente
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Was ein Leser durchführt. Jedes dieser Elemente führt eine Aktion aus, anstatt einen Wert zu haben — ein Formularfeld nimmt den Wert auf und befindet sich im nächsten Abschnitt.'
+  page:
+    buttons:
+      title: Schaltflächen
+      description: 'Diejenige, die etwas bewirkt, in ihren Varianten, Zuständen und Dichten, plus der Link und das Ziel, die woanders geöffnet werden.'
+    menus:
+      title: Menüs
+      description: 'Eine Schaltfläche, die eine Liste von Auswahlmöglichkeiten öffnet und sich an den Rändern des Fensters positioniert, sowohl in Twig als auch in Vue.'
+    steppers:
+      title: Schritte
+      description: 'Wo ein Leser sich in einer Abfolge von Schritten befindet, mit den vorherigen, zu denen man zurückkehren kann.'
+  section:
+    compound:
+      title: 'Alles zusammen'
+      description: 'Das gleiche Set von Steuerelementen in drei Kontexten: einem gepolsterten Block, einer Werkzeugleiste und einer kompakten Werkzeugleiste. Nichts an den Steuerelementen ändert sich zwischen den drei — die Region sagt ihnen, wie viel Platz sie haben.'
+  button:
+    primary: 'Primäre Schaltfläche'
+  select:
+    option_one: 'Option eins'
+    option_two: 'Option zwei'
+    option_three: 'Option drei'
+  menu:
+    primary: Menüschaltfläche
+    item:
+      report: Bericht
+      settings: Einstellungen
+      logout: Abmelden
+      long: 'Mit einem ziemlich, ziemlich, ziemlich, ziemlich langen Titel'
+  switch:
+    label_right: 'Funktion aktivieren'
+  link:
+    external: 'Externer Link'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Controles
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Lo que un lector actúa a través de. Cada uno de estos toma una acción en lugar de un valor: un campo de formulario toma el valor y vive en la siguiente sección.'
+  page:
+    buttons:
+      title: Botones
+      description: 'El que hace algo, en sus variantes, sus estados y sus densidades, además del enlace y el objetivo que se abren en otro lugar.'
+    menus:
+      title: Menús
+      description: 'Un botón que abre una lista de opciones, colocándose contra los bordes de la ventana, en twig y en vue.'
+    steppers:
+      title: Pasos
+      description: 'Dónde se encuentra un lector en una secuencia de pasos, con los que están detrás para volver.'
+  section:
+    compound:
+      title: 'Todo junto'
+      description: 'El mismo conjunto de controles en tres contextos: un bloque acolchado, una barra de herramientas y una barra de herramientas compacta. Nada sobre los controles cambia entre los tres: la región es lo que les dice cuánto espacio tienen.'
+  button:
+    primary: 'Botón primario'
+  select:
+    option_one: 'Opción uno'
+    option_two: 'Opción dos'
+    option_three: 'Opción tres'
+  menu:
+    primary: 'Botón de menú'
+    item:
+      report: Informe
+      settings: Configuraciones
+      logout: 'Cerrar sesión'
+      long: 'Con un título bastante, bastante, bastante, bastante largo'
+  switch:
+    label_right: 'Habilitar característica'
+  link:
+    external: 'Enlace externo'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: کنترل‌ها
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'عملی که یک خواننده از طریق آن انجام می‌دهد. هر یک از اینها عملی را انجام می‌دهد نه یک مقدار — یک فیلد فرم مقدار را می‌گیرد و در بخش بعدی زندگی می‌کند.'
+  page:
+    buttons:
+      title: دکمه‌ها
+      description: 'آن چیزی که عملی را انجام می‌دهد، در انواع، حالت‌ها و چگالی‌هایش، به علاوه پیوند و مقصدی که در جای دیگر باز می‌شود.'
+    menus:
+      title: منوها
+      description: 'یک دکمه که فهرستی از گزینه‌ها را باز می‌کند، خود را در برابر لبه‌های پنجره قرار می‌دهد، در شاخه و در نما.'
+    steppers:
+      title: پله‌ها
+      description: 'جایی که یک خواننده در یک توالی از مراحل قرار دارد، با گزینه‌هایی برای بازگشت به مراحل قبلی.'
+  section:
+    compound:
+      title: 'همه چیز با هم'
+      description: 'مجموعه یکسانی از کنترل‌ها در سه زمینه: یک بلوک با حاشیه، یک نوار ابزار و یک نوار ابزار فشرده. هیچ چیزی در مورد کنترل‌ها بین این سه تغییر نمی‌کند — منطقه است که به آنها می‌گوید چقدر فضا دارند.'
+  button:
+    primary: 'دکمه اصلی'
+  select:
+    option_one: 'گزینه اول'
+    option_two: 'گزینه دوم'
+    option_three: 'گزینه سوم'
+  menu:
+    primary: 'دکمه منو'
+    item:
+      report: گزارش
+      settings: تنظیمات
+      logout: خروج
+      long: 'با عنوانی بسیار، بسیار، بسیار، بسیار طولانی'
+  switch:
+    label_right: 'فعال‌سازی ویژگی'
+  link:
+    external: 'پیوند خارجی'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Ohjaimet
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Mitä lukija toimii. Jokainen näistä tekee toiminnon eikä arvon — lomakekenttä ottaa arvon ja elää seuraavassa osiossa.'
+  page:
+    buttons:
+      title: Painikkeet
+      description: 'Se, joka tekee jotain, eri versioissaan, tiloissaan ja tiheyksissään, plus linkki ja kohde, jotka avautuvat muualla.'
+    menus:
+      title: Valikot
+      description: 'Painike, joka avaa valintalistauksen, asettuu ikkunan reunoille, oksassa ja näkymässä.'
+    steppers:
+      title: Askeleet
+      description: 'Missä lukija seisoo askeleiden järjestyksessä, taakse jääneet askeleet voi palata.'
+  section:
+    compound:
+      title: 'Kaikki yhdessä'
+      description: 'Sama ohjaustyökalujen setti kolmessa kontekstissa: pehmustettu lohko, työkalupalkki ja kompakti työkalupalkki. Ohjausvälineet eivät muutu kolmen välillä — alue kertoo niille, kuinka paljon tilaa niillä on.'
+  button:
+    primary: Pääpainike
+  select:
+    option_one: 'Vaihtoehto yksi'
+    option_two: 'Vaihtoehto kaksi'
+    option_three: 'Vaihtoehto kolme'
+  menu:
+    primary: Valikkopainike
+    item:
+      report: Raportti
+      settings: Asetukset
+      logout: 'Kirjaudu ulos'
+      long: 'Kyllä, todella, todella, todella pitkä otsikko'
+  switch:
+    label_right: 'Ota ominaisuus käyttöön'
+  link:
+    external: 'Ulkoinen linkki'
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Contrôles
+  page_icon: 'ph:bold/cursor-click'
+  intro: "Ce par quoi un lecteur agit. Chacun d'eux prend une action plutôt qu'une valeur — un champ de formulaire prend la valeur, et vit dans la section suivante."
+  page:
+    buttons:
+      title: Boutons
+      description: "Celui qui fait quelque chose, dans ses variantes, ses états et ses densités, plus le lien et la cible qui s'ouvrent ailleurs."
+    menus:
+      title: Menus
+      description: 'Un bouton qui ouvre une liste de choix, se plaçant contre les bords de la fenêtre, en twig et en vue.'
+    steppers:
+      title: Étapes
+      description: "Où un lecteur se positionne dans une séquence d'étapes, avec celles derrière pour revenir en arrière."
+  section:
+    compound:
+      title: 'Tout ensemble'
+      description: "Le même ensemble de contrôles dans trois contextes : un bloc rembourré, une barre d'outils et une barre d'outils compacte. Rien ne change à propos des contrôles entre les trois — la région est ce qui leur indique combien d'espace ils ont."
+  button:
+    primary: 'Bouton principal'
+  select:
+    option_one: 'Option un'
+    option_two: 'Option deux'
+    option_three: 'Option trois'
+  menu:
+    primary: 'Bouton de menu'
+    item:
+      report: Rapporter
+      settings: Paramètres
+      logout: Déconnexion
+      long: 'Avec un titre assez, assez, assez, assez long'
+  switch:
+    label_right: 'Activer la fonction'
+  link:
+    external: 'Lien externe'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: בקרות
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'מה שהקורא פועל דרכו. כל אחד מאלה מבצע פעולה במקום ערך — שדה טופס מקבל את הערך, וחי בחלק הבא.'
+  page:
+    buttons:
+      title: כפתורים
+      description: 'זה שעושה משהו, בגרסאותיו, במצבים ובצפיפויות שלו, בנוסף לקישור ולמטרה שנפתחים במקום אחר.'
+    menus:
+      title: תפריטים
+      description: 'כפתור שפותח רשימת בחירות, ממקם את עצמו כנגד קצות החלון, בגבעול ובתצוגה.'
+    steppers:
+      title: שלבים
+      description: 'איפה שמעמדו של הקורא ברצף של צעדים, עם הצעדים מאחור כדי לחזור אליהם.'
+  section:
+    compound:
+      title: 'הכול יחד'
+      description: 'אותה קבוצת בקרות בשלושה הקשרים: בלוק מרופד, סרגל כלים, וסרגל כלים קומפקטי. שום דבר לגבי הבקרות לא משתנה בין השלושה — האזור הוא מה שאומר להם כמה מקום יש להם.'
+  button:
+    primary: 'כפתור ראשי'
+  select:
+    option_one: 'אפשרות אחת'
+    option_two: 'אפשרות שתיים'
+    option_three: 'אפשרות שלוש'
+  menu:
+    primary: 'כפתור תפריט'
+    item:
+      report: דוח
+      settings: הגדרות
+      logout: התנתק
+      long: 'עם כותרת ארוכה מאוד מאוד מאוד מאוד'
+  switch:
+    label_right: 'הפעל תכונה'
+  link:
+    external: 'קישור חיצוני'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: नियंत्रण
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'जो पाठक के माध्यम से कार्य करता है। इनमें से प्रत्येक एक क्रिया करता है न कि एक मान — एक फ़ॉर्म फ़ील्ड मान लेता है, और अगले अनुभाग में रहता है।'
+  page:
+    buttons:
+      title: बटन
+      description: 'वह जो कुछ करता है, इसके विभिन्न रूपों, इसकी अवस्थाओं और इसकी घनत्वों में, साथ ही लिंक और लक्ष्य जो कहीं और खुलते हैं।'
+    menus:
+      title: मेन्यू
+      description: 'एक बटन जो विकल्पों की सूची खोलता है, खिड़की के किनारों के खिलाफ खुद को रखता है, टहनी और दृश्य में।'
+    steppers:
+      title: स्टेपर
+      description: 'जहां पाठक कदमों के अनुक्रम में खड़ा होता है, पीछे वाले को वापस जाने के लिए।'
+  section:
+    compound:
+      title: 'सब कुछ एक साथ'
+      description: 'तीन संदर्भों में नियंत्रणों का वही सेट: एक पैडेड ब्लॉक, एक टूलबार, और एक कॉम्पैक्ट टूलबार। तीनों के बीच नियंत्रणों के बारे में कुछ भी नहीं बदलता है — क्षेत्र ही उन्हें बताता है कि उनके पास कितना स्थान है।'
+  button:
+    primary: 'प्राथमिक बटन'
+  select:
+    option_one: 'विकल्प एक'
+    option_two: 'विकल्प दो'
+    option_three: 'विकल्प तीन'
+  menu:
+    primary: 'मेन्यू बटन'
+    item:
+      report: रिपोर्ट
+      settings: सेटिंग्स
+      logout: 'लॉग आउट'
+      long: 'काफी, काफी, काफी, काफी लंबे शीर्षक के साथ'
+  switch:
+    label_right: 'विशेषता सक्षम करें'
+  link:
+    external: 'बाहरी लिंक'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kontrol
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Apa yang dilakukan pembaca. Masing-masing melakukan tindakan daripada nilai — sebuah field formulir mengambil nilai, dan hidup di bagian berikutnya.'
+  page:
+    buttons:
+      title: Tombol
+      description: 'Yang melakukan sesuatu, dalam variasi, status dan kepadatannya, ditambah tautan dan target yang membuka di tempat lain.'
+    menus:
+      title: Menu
+      description: 'Sebuah tombol yang membuka daftar pilihan, menempatkan dirinya di tepi jendela, dalam twig dan vue.'
+    steppers:
+      title: Langkah
+      description: 'Di mana pembaca berada dalam urutan langkah, dengan yang di belakang untuk kembali.'
+  section:
+    compound:
+      title: 'Semua bersama'
+      description: 'Set kontrol yang sama dalam tiga konteks: blok berlapis, toolbar, dan toolbar kompak. Tidak ada yang berubah tentang kontrol antara ketiganya — wilayah yang memberi tahu mereka seberapa banyak ruang yang mereka miliki.'
+  button:
+    primary: 'Tombol utama'
+  select:
+    option_one: 'Pilihan satu'
+    option_two: 'Pilihan dua'
+    option_three: 'Pilihan tiga'
+  menu:
+    primary: 'Tombol menu'
+    item:
+      report: Laporan
+      settings: Pengaturan
+      logout: Keluar
+      long: 'Dengan judul yang cukup, cukup, cukup, cukup panjang'
+  switch:
+    label_right: 'Aktifkan fitur'
+  link:
+    external: 'Tautan eksternal'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Controlli
+  page_icon: 'ph:bold/cursor-click'
+  intro: "Ciò che un lettore aziona. Ognuno di questi esegue un'azione piuttosto che un valore — un campo del modulo prende il valore e si trova nella sezione successiva."
+  page:
+    buttons:
+      title: Pulsanti
+      description: 'Quello che fa qualcosa, nelle sue varianti, stati e densità, oltre al link e al target che si aprono altrove.'
+    menus:
+      title: Menu
+      description: 'Un pulsante che apre un elenco di scelte, posizionandosi contro i bordi della finestra, in twig e in vue.'
+    steppers:
+      title: Stepper
+      description: 'Dove si trova un lettore in una sequenza di passi, con quelli dietro per tornare indietro.'
+  section:
+    compound:
+      title: 'Tutto insieme'
+      description: 'Lo stesso insieme di controlli in tre contesti: un blocco imbottito, una barra degli strumenti e una barra degli strumenti compatta. Nulla riguardo ai controlli cambia tra i tre — è la regione che indica quanto spazio hanno.'
+  button:
+    primary: 'Pulsante primario'
+  select:
+    option_one: 'Opzione uno'
+    option_two: 'Opzione due'
+    option_three: 'Opzione tre'
+  menu:
+    primary: 'Pulsante del menu'
+    item:
+      report: Segnala
+      settings: Impostazioni
+      logout: Disconnetti
+      long: 'Con un titolo piuttosto, piuttosto, piuttosto, piuttosto lungo'
+  switch:
+    label_right: 'Abilita funzione'
+  link:
+    external: 'Link esterno'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: コントロール
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'リーダーが行動するためのものです。これらの各コントロールは値ではなくアクションを実行します — フォームフィールドは値を受け取り、次のセクションに存在します。'
+  page:
+    buttons:
+      title: ボタン
+      description: 何かを実行するためのもので、さまざまなバリエーション、状態、密度を持ち、他の場所で開くリンクとターゲットがあります。
+    menus:
+      title: メニュー
+      description: 選択肢のリストを開くボタンで、ウィンドウの端に配置され、twigとvueに対応しています。
+    steppers:
+      title: ステッパー
+      description: リーダーがステップのシーケンスの中でどこにいるかを示し、後ろに戻るためのステップがあります。
+  section:
+    compound:
+      title: すべてを一緒に
+      description: 3つのコンテキストでの同じコントロールのセット：パディング付きのブロック、ツールバー、およびコンパクトツールバー。3つの間でコントロールに関することは変わらず、領域がどれだけのスペースを持っているかを示します。
+  button:
+    primary: プライマリボタン
+  select:
+    option_one: オプション1
+    option_two: オプション2
+    option_three: オプション3
+  menu:
+    primary: メニューボタン
+    item:
+      report: レポート
+      settings: 設定
+      logout: ログアウト
+      long: かなり、かなり、かなり、かなり長いタイトルのもの
+  switch:
+    label_right: 機能を有効にする
+  link:
+    external: 外部リンク
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 컨트롤
+  page_icon: 'ph:bold/cursor-click'
+  intro: '독자가 수행하는 행동입니다. 이들은 값이 아닌 동작을 취합니다 — 양식 필드는 값을 취하고 다음 섹션에 존재합니다.'
+  page:
+    buttons:
+      title: 버튼
+      description: '무언가를 수행하는 버튼, 그 변형, 상태 및 밀도, 그리고 다른 곳에서 열리는 링크와 타겟이 포함됩니다.'
+    menus:
+      title: 메뉴
+      description: '선택 목록을 여는 버튼, 창의 가장자리에 위치하며, twig 및 vue에서 사용됩니다.'
+    steppers:
+      title: 스텝퍼
+      description: '독자가 단계의 순서에서 어디에 위치하는지, 뒤로 돌아갈 수 있는 단계와 함께 표시됩니다.'
+  section:
+    compound:
+      title: '모든 것을 함께'
+      description: '세 가지 맥락에서 동일한 컨트롤 세트: 패딩 블록, 툴바 및 컴팩트 툴바. 세 가지 사이에서 컨트롤에 대한 내용은 변하지 않으며, 지역이 그들이 얼마나 많은 공간을 가질 수 있는지를 알려줍니다.'
+  button:
+    primary: '기본 버튼'
+  select:
+    option_one: '옵션 1'
+    option_two: '옵션 2'
+    option_three: '옵션 3'
+  menu:
+    primary: '메뉴 버튼'
+    item:
+      report: 보고서
+      settings: 설정
+      logout: '로그 아웃'
+      long: '상당히, 상당히, 상당히, 상당히 긴 제목이 있는 항목'
+  switch:
+    label_right: '기능 활성화'
+  link:
+    external: '외부 링크'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bedieningen
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Wat een lezer kan doen. Elk van deze voert een actie uit in plaats van een waarde — een formulier veld neemt de waarde, en bevindt zich in de volgende sectie.'
+  page:
+    buttons:
+      title: Knoppen
+      description: 'De knop die iets doet, in zijn varianten, zijn toestanden en zijn dichtheden, plus de link en de doel die elders openen.'
+    menus:
+      title: "Menu's"
+      description: 'Een knop die een lijst met keuzes opent, zich tegen de randen van het venster plaatst, in tak en in vue.'
+    steppers:
+      title: Stappen
+      description: 'Waar een lezer zich bevindt in een reeks stappen, met de stappen achteraan om terug te gaan.'
+  section:
+    compound:
+      title: 'Alles samen'
+      description: 'Set van bedieningselementen in drie contexten: een opgevulde blok, een werkbalk en een compacte werkbalk. Niets over de bedieningselementen verandert tussen de drie — het gebied is wat hen vertelt hoeveel ruimte ze hebben.'
+  button:
+    primary: 'Primaire knop'
+  select:
+    option_one: 'Optie één'
+    option_two: 'Optie twee'
+    option_three: 'Optie drie'
+  menu:
+    primary: 'Menu knop'
+    item:
+      report: Rapporteren
+      settings: Instellingen
+      logout: Uitloggen
+      long: 'Met een behoorlijk, behoorlijk, behoorlijk, behoorlijk lange titel'
+  switch:
+    label_right: 'Functie inschakelen'
+  link:
+    external: 'Externe link'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kontrolki
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Co robi czytelnik. Każdy z nich wykonuje akcję, a nie przyjmuje wartość — pole formularza przyjmuje wartość i znajduje się w następnej sekcji.'
+  page:
+    buttons:
+      title: Przyciski
+      description: 'Ten, który coś robi, w swoich wariantach, stanach i gęstościach, plus link i cel, które otwierają się w innym miejscu.'
+    menus:
+      title: Menu
+      description: 'Przycisk, który otwiera listę wyborów, umieszczając się wzdłuż krawędzi okna, w gałęzi i w widoku.'
+    steppers:
+      title: Kroki
+      description: 'Gdzie czytelnik znajduje się w sekwencji kroków, z tymi za sobą, do których można wrócić.'
+  section:
+    compound:
+      title: 'Wszystko razem'
+      description: 'Ten sam zestaw kontrolek w trzech kontekstach: wypełniony blok, pasek narzędzi i kompaktowy pasek narzędzi. Nic w kontrolkach się nie zmienia między tymi trzema — to region mówi im, ile mają miejsca.'
+  button:
+    primary: 'Przycisk główny'
+  select:
+    option_one: 'Opcja pierwsza'
+    option_two: 'Opcja druga'
+    option_three: 'Opcja trzecia'
+  menu:
+    primary: 'Przycisk menu'
+    item:
+      report: Raport
+      settings: Ustawienia
+      logout: 'Wyloguj się'
+      long: 'Z dość, dość, dość, dość długim tytule'
+  switch:
+    label_right: 'Włącz funkcję'
+  link:
+    external: 'Link zewnętrzny'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Controles
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'O que um leitor age através. Cada um desses realiza uma ação em vez de um valor — um campo de formulário recebe o valor e vive na próxima seção.'
+  page:
+    buttons:
+      title: Botões
+      description: 'Aquele que faz algo, em suas variantes, estados e densidades, além do link e do destino que abrem em outro lugar.'
+    menus:
+      title: Menus
+      description: 'Um botão que abre uma lista de escolhas, posicionando-se contra as bordas da janela, em twig e em vue.'
+    steppers:
+      title: 'Passo a passo'
+      description: 'Onde um leitor está em uma sequência de etapas, com os que estão atrás para voltar.'
+  section:
+    compound:
+      title: 'Tudo junto'
+      description: 'O mesmo conjunto de controles em três contextos: um bloco acolchoado, uma barra de ferramentas e uma barra de ferramentas compacta. Nada sobre os controles muda entre os três — a região é o que diz a eles quanto espaço têm.'
+  button:
+    primary: 'Botão principal'
+  select:
+    option_one: 'Opção um'
+    option_two: 'Opção dois'
+    option_three: 'Opção três'
+  menu:
+    primary: 'Botão do menu'
+    item:
+      report: Relatório
+      settings: Configurações
+      logout: Sair
+      long: 'Com um título bem, bem, bem, bem longo'
+  switch:
+    label_right: 'Ativar recurso'
+  link:
+    external: 'Link externo'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Элементы управления'
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'То, через что взаимодействует читатель. Каждый из этих элементов выполняет действие, а не принимает значение — поле формы принимает значение и находится в следующем разделе.'
+  page:
+    buttons:
+      title: Кнопки
+      description: 'Та, которая что-то делает, в своих вариантах, состояниях и плотностях, плюс ссылка и цель, которые открываются в другом месте.'
+    menus:
+      title: Меню
+      description: 'Кнопка, которая открывает список вариантов, располагаясь по краям окна, в twig и в vue.'
+    steppers:
+      title: 'Пошаговые элементы'
+      description: 'Где читатель находится в последовательности шагов, с предыдущими шагами, к которым можно вернуться.'
+  section:
+    compound:
+      title: 'Все вместе'
+      description: 'Один и тот же набор элементов управления в трех контекстах: с отступом, в панели инструментов и в компактной панели инструментов. Ничего в элементах управления не меняется между тремя — регион показывает, сколько у них места.'
+  button:
+    primary: 'Основная кнопка'
+  select:
+    option_one: 'Вариант один'
+    option_two: 'Вариант два'
+    option_three: 'Вариант три'
+  menu:
+    primary: 'Кнопка меню'
+    item:
+      report: Отчет
+      settings: Настройки
+      logout: Выйти
+      long: 'С довольно, довольно, довольно, довольно длинным заголовком'
+  switch:
+    label_right: 'Включить функцию'
+  link:
+    external: 'Внешняя ссылка'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: การควบคุม
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'สิ่งที่ผู้อ่านทำผ่านการกระทำแต่ละอย่าง ซึ่งแต่ละอย่างจะทำการกระทำแทนที่จะเป็นค่า — ฟิลด์แบบฟอร์มจะมีค่าอยู่ และอยู่ในส่วนถัดไป.'
+  page:
+    buttons:
+      title: ปุ่ม
+      description: 'ปุ่มที่ทำบางสิ่ง โดยมีหลายรูปแบบ สถานะ และความหนา รวมถึงลิงก์และเป้าหมายที่เปิดในที่อื่น.'
+    menus:
+      title: เมนู
+      description: 'ปุ่มที่เปิดรายการตัวเลือก โดยวางตัวอยู่ตามขอบของหน้าต่าง ในรูปแบบและมุมมองต่างๆ.'
+    steppers:
+      title: สเต็ปเปอร์
+      description: 'ตำแหน่งของผู้อ่านในลำดับขั้นตอน โดยมีขั้นตอนที่ถอยหลังได้.'
+  section:
+    compound:
+      title: ทุกอย่างรวมกัน
+      description: 'ชุดควบคุมเดียวกันในสามบริบท: บล็อกที่มีขอบนุ่ม, แถบเครื่องมือ, และแถบเครื่องมือขนาดกะทัดรัด ไม่มีอะไรเกี่ยวกับการควบคุมที่เปลี่ยนแปลงระหว่างทั้งสาม — พื้นที่คือสิ่งบอกว่ามีพื้นที่มากน้อยเพียงใด.'
+  button:
+    primary: ปุ่มหลัก
+  select:
+    option_one: ตัวเลือกหนึ่ง
+    option_two: ตัวเลือกสอง
+    option_three: ตัวเลือกสาม
+  menu:
+    primary: ปุ่มเมนู
+    item:
+      report: รายงาน
+      settings: การตั้งค่า
+      logout: ออกจากระบบ
+      long: ด้วยชื่อที่ยาวมากๆ
+  switch:
+    label_right: เปิดใช้งานฟีเจอร์
+  link:
+    external: ลิงก์ภายนอก
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kontroller
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Bir okuyucunun eylemde bulunduğu şey. Bunların her biri bir değer yerine bir eylem gerçekleştirir - bir form alanı değeri alır ve bir sonraki bölümde yer alır.'
+  page:
+    buttons:
+      title: Düğmeler
+      description: 'Bir şey yapan, varyantları, durumları ve yoğunlukları olan, ayrıca başka yerlerde açılan bağlantı ve hedefi içeren düğme.'
+    menus:
+      title: Menüler
+      description: 'Bir seçim listesi açan düğme, pencerenin kenarlarına doğru yerleşir, dal ve görünüm içinde.'
+    steppers:
+      title: 'Adım Göstergeleri'
+      description: 'Bir okuyucunun bir dizi adım içindeki konumu, geri dönmek için arkadaki adımlarla birlikte.'
+  section:
+    compound:
+      title: 'Her şey bir arada'
+      description: 'Üç bağlamda aynı kontrol seti: yastıklı bir blok, bir araç çubuğu ve sıkıştırılmış bir araç çubuğu. Kontroller arasında üçü arasında hiçbir şey değişmez - bölge, ne kadar alanları olduğunu onlara bildirir.'
+  button:
+    primary: 'Birincil düğme'
+  select:
+    option_one: 'Seçenek bir'
+    option_two: 'Seçenek iki'
+    option_three: 'Seçenek üç'
+  menu:
+    primary: 'Menü düğmesi'
+    item:
+      report: Rapor
+      settings: Ayarlar
+      logout: 'Çıkış yap'
+      long: 'Oldukça, oldukça, oldukça, oldukça uzun bir başlıkla'
+  switch:
+    label_right: 'Özelliği etkinleştir'
+  link:
+    external: 'Harici bağlantı'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: کنٹرول
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'وہ سب کچھ جو ایک قاری عمل میں لاتا ہے۔ ان میں سے ہر ایک ایک عمل انجام دیتا ہے نہ کہ ایک قیمت — ایک فارم فیلڈ قیمت لیتا ہے، اور اگلے حصے میں رہتا ہے۔'
+  page:
+    buttons:
+      title: بٹن
+      description: 'وہ جو کچھ کرتا ہے، اس کی مختلف حالتیں، اس کے حالات اور اس کی کثافتیں، ساتھ ہی وہ لنک اور ہدف جو کہیں اور کھلتا ہے۔'
+    menus:
+      title: میونوز
+      description: 'ایک بٹن جو انتخاب کی فہرست کھولتا ہے، کھڑکی کے کناروں کے خلاف خود کو رکھتا ہے، شاخ اور نمائش میں۔'
+    steppers:
+      title: اسٹیپرز
+      description: 'جہاں ایک قاری مراحل کی ترتیب میں کھڑا ہوتا ہے، پیچھے جانے کے لیے پچھلے مراحل کے ساتھ۔'
+  section:
+    compound:
+      title: 'سب کچھ ملا کر'
+      description: 'تین سیاق و سباق میں کنٹرولز کا ایک ہی سیٹ: ایک پیڈڈ بلاک، ایک ٹول بار، اور ایک کمپیکٹ ٹول بار۔ تینوں کے درمیان کنٹرولز کے بارے میں کچھ بھی تبدیل نہیں ہوتا — علاقہ ہی انہیں یہ بتاتا ہے کہ ان کے پاس کتنا کمرہ ہے۔'
+  button:
+    primary: 'پرائمری بٹن'
+  select:
+    option_one: 'آپشن ایک'
+    option_two: 'آپشن دو'
+    option_three: 'آپشن تین'
+  menu:
+    primary: 'میو بٹن'
+    item:
+      report: رپورٹ
+      settings: سیٹنگز
+      logout: 'لاگ آؤٹ'
+      long: 'ایک کافی، کافی، کافی، کافی طویل عنوان کے ساتھ'
+  switch:
+    label_right: 'خصوصیت فعال کریں'
+  link:
+    external: 'باہر کا لنک'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Điều khiển'
+  page_icon: 'ph:bold/cursor-click'
+  intro: 'Những gì một độc giả thực hiện. Mỗi mục trong số này thực hiện một hành động thay vì một giá trị — một trường nhập liệu nhận giá trị và sống trong phần tiếp theo.'
+  page:
+    buttons:
+      title: Nút
+      description: 'Mục làm điều gì đó, với các biến thể, trạng thái và độ dày của nó, cộng với liên kết và mục tiêu mở ở nơi khác.'
+    menus:
+      title: Menu
+      description: 'Một nút mở ra danh sách các lựa chọn, đặt mình cạnh các cạnh của cửa sổ, trong twig và trong vue.'
+    steppers:
+      title: Bước
+      description: 'Nơi một độc giả đứng trong chuỗi các bước, với những bước phía sau để quay lại.'
+  section:
+    compound:
+      title: 'Mọi thứ cùng nhau'
+      description: 'Cùng một bộ điều khiển trong ba ngữ cảnh: một khối có đệm, một thanh công cụ và một thanh công cụ gọn gàng. Không có gì về các điều khiển thay đổi giữa ba cái này — khu vực là thứ cho biết chúng có bao nhiêu chỗ.'
+  button:
+    primary: 'Nút chính'
+  select:
+    option_one: 'Tùy chọn một'
+    option_two: 'Tùy chọn hai'
+    option_three: 'Tùy chọn ba'
+  menu:
+    primary: 'Nút menu'
+    item:
+      report: 'Báo cáo'
+      settings: 'Cài đặt'
+      logout: 'Đăng xuất'
+      long: 'Với một tiêu đề khá, khá, khá, khá dài'
+  switch:
+    label_right: 'Bật tính năng'
+  link:
+    external: 'Liên kết bên ngoài'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 控制
+  page_icon: 'ph:bold/cursor-click'
+  intro: 读者通过什么行动。每个动作都采取行动而不是值——表单字段取值，并位于下一个部分。
+  page:
+    buttons:
+      title: 按钮
+      description: 执行某个操作的按钮，包括其变体、状态和密度，以及打开其他地方的链接和目标。
+    menus:
+      title: 菜单
+      description: 一个打开选择列表的按钮，放置在窗口的边缘，处于twig和vue中。
+    steppers:
+      title: 步骤指示器
+      description: 读者在步骤序列中的位置，后面的步骤可以返回。
+  section:
+    compound:
+      title: 综合
+      description: 在三种上下文中提供相同的控制集：一个带衬垫的块，一个工具栏和一个紧凑的工具栏。三者之间控制的内容没有变化——区域决定了它们有多少空间。
+  button:
+    primary: 主要按钮
+  select:
+    option_one: 选项一
+    option_two: 选项二
+    option_three: 选项三
+  menu:
+    primary: 菜单按钮
+    item:
+      report: 报告
+      settings: 设置
+      logout: 登出
+      long: 标题非常非常非常非常长
+  switch:
+    label_right: 启用功能
+  link:
+    external: 外部链接
