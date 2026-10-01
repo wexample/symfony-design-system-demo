@@ -7,6 +7,11 @@ en:
   section:
     default:
       title: Basic form
+    columns:
+      title: Columns and zones
+      description: "`form--columns` on a section lays its fields side by side: as many columns as the room holds, three at most (`form--columns-2` for two), one on a phone. `form--span` on a field gives it the whole line. `form--zones` on the form turns its sections into regions of their own, side by side when the room allows."
+      identity: Identity
+      settings: Settings
     block:
       title: Block forms
     assisted:

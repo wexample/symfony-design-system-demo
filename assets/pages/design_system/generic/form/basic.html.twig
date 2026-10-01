@@ -47,6 +47,71 @@
                 {{ form_submit('ph:bold/paper-plane-tilt', '@page::action.submit' | trans) }}
             </div>
         </form>
+        {#- Fields side by side, as many columns as the room holds and three at
+            most; a field among them may take the whole line. Two sections as
+            regions of their own, side by side when the room allows. -#}
+        <h2>{{ '@page::section.columns.title' | trans }}</h2>
+        <p>{{ '@page::section.columns.description' | trans }}</p>
+        <form class="form">
+            <fieldset class="form--section form--columns">
+                <legend>{{ '@page::section.columns.identity' | trans }}</legend>
+                <div class="form--group">
+                    <label class="form--label" for="columns-title">{{ '@page::field.title.label' | trans }}</label>
+                    <input class="form--input" id="columns-title" type="text">
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="columns-email">{{ '@page::field.email.label' | trans }}</label>
+                    <input class="form--input" id="columns-email" type="email">
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="columns-date">{{ '@page::field.date.label' | trans }}</label>
+                    <input class="form--input" id="columns-date" type="date">
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="columns-number">{{ '@page::field.number.label' | trans }}</label>
+                    <input class="form--input" id="columns-number" type="number">
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="columns-url">{{ '@page::field.url.label' | trans }}</label>
+                    <input class="form--input" id="columns-url" type="url">
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="columns-time">{{ '@page::field.time.label' | trans }}</label>
+                    <input class="form--input" id="columns-time" type="time">
+                </div>
+                <div class="form--group form--span">
+                    <label class="form--label" for="columns-message">{{ '@page::field.message.label' | trans }}</label>
+                    <textarea class="form--textarea" id="columns-message" rows="3"></textarea>
+                </div>
+            </fieldset>
+        </form>
+        <form class="form form--zones">
+            <fieldset class="form--section form--columns form--columns-2">
+                <legend>{{ '@page::section.columns.identity' | trans }}</legend>
+                <div class="form--group">
+                    <label class="form--label" for="zones-title">{{ '@page::field.title.label' | trans }}</label>
+                    <input class="form--input" id="zones-title" type="text">
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="zones-email">{{ '@page::field.email.label' | trans }}</label>
+                    <input class="form--input" id="zones-email" type="email">
+                </div>
+            </fieldset>
+            <fieldset class="form--section form--columns form--columns-2">
+                <legend>{{ '@page::section.columns.settings' | trans }}</legend>
+                <div class="form--group">
+                    <label class="form--label" for="zones-date">{{ '@page::field.date.label' | trans }}</label>
+                    <input class="form--input" id="zones-date" type="date">
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="zones-number">{{ '@page::field.number.label' | trans }}</label>
+                    <input class="form--input" id="zones-number" type="number">
+                </div>
+            </fieldset>
+            <div class="form--actions">
+                {{ form_submit('ph:bold/paper-plane-tilt', '@page::action.submit' | trans) }}
+            </div>
+        </form>
         <h2>{{ '@page::section.block.title' | trans }}</h2>
         <div class="block block--padded">
             <form class="form">
