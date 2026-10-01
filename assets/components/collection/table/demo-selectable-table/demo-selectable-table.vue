@@ -73,11 +73,6 @@ export default {
       this.lastAction = `${action.label}: ${keys.join(', ')}`;
     },
 
-    // What a page would open in a modal: here, only said.
-    onRowActivate({ row }) {
-      this.lastAction = `Open: ${row.name}`;
-    },
-
     failRead() {
       this.error = 'The list could not be read.';
     },
