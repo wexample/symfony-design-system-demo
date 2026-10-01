@@ -331,6 +331,16 @@
             {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-compact-table') }}
         </section>
 
+        {#- The server's pager: links that keep this page's query and change
+            only `page` — open one and the address says where you are. -#}
+        <section>
+            <h2>{{ '@page::section.pagination.title' | trans }}</h2>
+            <p>{{ '@page::section.pagination.description' | trans }}</p>
+            {%- set demo_page = app.request.query.getInt('page', 1) -%}
+            {{ pagination(demo_page, 20) }}
+            {{ pagination(demo_page, 20, { compact: true }) }}
+        </section>
+
         <section>
             <h2>{{ '@page::section.vue_dates.title' | trans }}</h2>
             {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-dates-table') }}
