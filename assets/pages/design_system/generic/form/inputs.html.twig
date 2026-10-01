@@ -48,6 +48,38 @@
         {{ gallery.field(render_pass, 'emoji-picker', { id: 'demo_emoji', name: 'emoji', label: '@page::field.emoji' | trans, value: '😀' }) }}
     </form>
 
+    {#- Frozen fields beside an editable one, so the difference reads at a
+        glance: the forms package renders a field frozen by Symfony's `disabled`
+        exactly this way, and a display value with the markup below. -#}
+    <h2>{{ '@page::section.frozen.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.frozen.description' | trans }}</div>
+    <div class="block block--padded form frozen-gallery">
+        {{ gallery.field(render_pass, 'text-input', { id: 'frozen_editable', label: '@page::frozen.editable' | trans, value: 'Maya Lindqvist' }) }}
+        {{ gallery.field(render_pass, 'text-input', { id: 'frozen_text', label: '@page::field.text' | trans, value: 'Maya Lindqvist', input_attr: 'readonly aria-readonly="true"' }) }}
+        {{ gallery.field(render_pass, 'date-input', { id: 'frozen_date', label: '@page::field.date' | trans, value: '1990-04-12', input_attr: 'readonly aria-readonly="true"' }) }}
+        {{ gallery.field(render_pass, 'number-input', { id: 'frozen_number', label: '@page::field.number' | trans, value: '36', input_attr: 'readonly aria-readonly="true"' }) }}
+        {{ gallery.field(render_pass, 'textarea-input', { id: 'frozen_textarea', label: '@page::field.textarea' | trans, rows: 2, value: 'Storgatan 12, 114 51 Stockholm', input_attr: 'readonly aria-readonly="true"' }) }}
+        <div class="form--group form--group--display">
+            <span class="form--label">{{ '@page::frozen.created' | trans }}</span>
+            <span class="form--display-value">12 April 2026</span>
+        </div>
+        <div class="form--group form--group--display">
+            <span class="form--label">{{ '@page::frozen.reviewer' | trans }}</span>
+            <span class="form--display-value form--display-value--empty">&mdash;</span>
+        </div>
+    </div>
+    {%- set vue_options = select_options|map(option => option|merge({ label: option.label|trans })) -%}
+    <div class="block block--padded form frozen-gallery">
+        <p class="text-secondary">{{ '@page::frozen.vue' | trans }}</p>
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/text-input', { id: 'frozen_vue_text', name: 'vue_text', label: '@page::field.text' | trans, modelValue: 'Maya Lindqvist', required: true, readonly: true, translate: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/select-input', { id: 'frozen_vue_select', name: 'vue_select', label: '@page::field.select' | trans, options: vue_options, modelValue: 'two', readonly: true, translate: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/radio-input', { id: 'frozen_vue_radio', name: 'vue_radio', label: '@page::field.radio' | trans, options: vue_options, modelValue: 'three', readonly: true, translate: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/switch-input', { id: 'frozen_vue_switch', name: 'vue_switch', label: '@page::field.switch' | trans, modelValue: true, checkedLabel: '@page::frozen.switch_on' | trans, uncheckedLabel: '@page::frozen.switch_off' | trans, readonly: true, translate: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/file-input', { id: 'frozen_vue_file', name: 'vue_file', label: '@page::field.file' | trans, modelValue: 'passport-maya.pdf', readonly: true, translate: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/otp-input', { id: 'frozen_vue_code', name: 'vue_code', label: '@page::field.code' | trans, modelValue: '482915', autoSubmit: false, readonly: true, translate: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/emoji-picker', { id: 'frozen_vue_emoji', name: 'vue_emoji', label: '@page::field.emoji' | trans, modelValue: '😀', readonly: true, translate: false }) }}
+    </div>
+
     <h2>{{ '@page::section.actions.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.actions.description' | trans }}</div>
     <div class="block block--padded cluster">

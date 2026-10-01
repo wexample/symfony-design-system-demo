@@ -13,6 +13,9 @@ en:
     fields:
       title: Fields
       description: "One of each, once. Press Play above and they are filled in turn, by the same calls an agent would make — which is the only way to know the contract holds for all of them."
+    frozen:
+      title: Frozen, and shown
+      description: "A frozen field holds a value someone may read and not change: settled, not unavailable. It keeps the contrast of an editable field and stays focusable and selectable — only what invites writing goes: a dashed frame over no ground of its own, no text cursor, no picker. A display value is not a field at all: a label and what the record says, on the line of a field so the two read as one block, a dash when there is nothing. The vue fields take `readonly` the same way; a select, radios, a switch, a file, a code or an emoji, which HTML cannot make readonly, show their value in a readonly field that holds no name."
     actions:
       title: Buttons in a form
       description: "A button takes an action rather than a value, so there is nothing for an agent to write into it."
@@ -31,6 +34,14 @@ en:
     switch_vue:
       title: Switch, in vue
       description: "The same switch inside a vue tree, where the checked state is state and not a data attribute a script flips."
+
+  frozen:
+    editable: Full name, editable
+    created: Created on
+    reviewer: Reviewed by
+    switch_on: Active
+    switch_off: Deactivated
+    vue: In vue
 
   assisted:
     hint: An agent fills the fields below, one after the other.
