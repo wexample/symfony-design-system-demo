@@ -1,6 +1,14 @@
 en:
   page_title: Confirm
   section:
+    destructive:
+      description: "An answer that cannot be undone: drawn as a danger, and neither the focus nor Enter starts on it — Escape and Enter both back out."
+      button: Deactivate an account
+      title: Deactivate this account?
+      message: "Julien Gautier will no longer be able to sign in."
+      action:
+        confirm: Deactivate
+        cancel: Cancel
     short:
       description: Confirm with short text (overlay).
       button: Open confirm

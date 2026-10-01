@@ -43,6 +43,23 @@ export default class extends Page {
     attachConfirmDemo('.confirm-demo-toast-medium-button', 'ok_cancel', 'confirmToast');
     attachConfirmDemo('.confirm-demo-toast-long-button', 'ok_cancel', 'confirmToast');
 
+    const destructiveButton = this.el?.querySelector('.confirm-demo-destructive-button') as HTMLElement;
+    destructiveButton?.addEventListener('click', async () => {
+      const result = await confirmService.confirm({
+        title: destructiveButton.getAttribute('data-confirm-title') || '',
+        message: destructiveButton.getAttribute('data-confirm-message') || '',
+        actions: [
+          { key: 'y', value: 'deactivate', label: destructiveButton.getAttribute('data-action-confirm') || '', role: 'destructive' },
+          { key: 'n', value: 'cancel', label: destructiveButton.getAttribute('data-action-cancel') || '', role: 'secondary' },
+        ],
+      });
+      toastService.show({
+        type: result === 'deactivate' ? 'success' : 'info',
+        message: `${destructiveButton.getAttribute('data-result-prefix') || ''} ${result}`,
+        timeout: 3000,
+      });
+    });
+
     const confirmCustomButton = this.el?.querySelector('.confirm-demo-custom-button') as HTMLElement;
     if (confirmCustomButton) {
       const openCustomConfirm = async () => {

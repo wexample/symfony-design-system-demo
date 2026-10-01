@@ -1,6 +1,23 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/overlays/layout/layout-overlays.html.twig' -%}
 
 {%- block page_body -%}
+        {#- An irreversible answer offered: the focus and Enter start on the one
+            that backs out, the other drawn as a danger. -#}
+        <div class="block block--padded block--split">
+            <div class="lead">
+                {{ '@page::section.destructive.description' | trans }}
+            </div>
+            {{ button('ph:bold/user-minus', '@page::section.destructive.button' | trans, {
+                class: 'confirm-demo-destructive-button',
+                attr: {
+                    'data-confirm-title': '@page::section.destructive.title' | trans,
+                    'data-confirm-message': '@page::section.destructive.message' | trans,
+                    'data-action-confirm': '@page::section.destructive.action.confirm' | trans,
+                    'data-action-cancel': '@page::section.destructive.action.cancel' | trans,
+                    'data-result-prefix': '@page::section.short.result_prefix' | trans
+                }
+            }) }}
+        </div>
         <div class="block block--padded block--split">
             <div class="lead">
                 {{ '@page::section.short.description' | trans }}
