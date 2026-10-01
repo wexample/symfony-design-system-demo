@@ -10,7 +10,7 @@ en:
       description: "`pagination(page, pages_count)` draws the pages of a list as links: each keeps the route and the query of the page it is on — a search, a sort — and changes only `page`, counted from 1. The numbers shown are the vue pager's: the first, the last, the current one and its neighbours. `compact` keeps previous and next around the page number; `route` and `params` page through another address."
     wide:
       title: Wider than the room
-      description: "A table whose columns ask for more than the page has is drawn at the width it needs, in a frame that scrolls sideways — the page around it does not move. A sticky table gives this up: a header sticking to the page and a frame scrolling on its own cannot be had together."
+      description: "A table whose columns ask for more than the page has is drawn at the width it needs and overflows to whatever scrolls around it — the zone, the page —, never with a scrollbar of its own. Asked for (`scroll: true`), as here, it scrolls sideways in its own frame and the page around it stays put: for a table among other things in a container that does not scroll. A sticky table gives this up: a header sticking to the page and a frame scrolling on its own cannot be had together."
     default:
       title: Simple table
     actions:

@@ -54,7 +54,7 @@
                 {%- set wide_columns = wide_columns|merge([{ key: 'c' ~ i, label: ('@page::column.wide' | trans) ~ ' ' ~ i }]) -%}
                 {%- set wide_row = wide_row|merge({ ('c' ~ i): '@page::row.wide' | trans }) -%}
             {%- endfor -%}
-            {{ data_table(wide_columns, [wide_row, wide_row, wide_row], { class: 'tables-demo--wide' }) }}
+            {{ data_table(wide_columns, [wide_row, wide_row, wide_row], { class: 'tables-demo--wide', scroll: true }) }}
         </section>
 
         <section>
