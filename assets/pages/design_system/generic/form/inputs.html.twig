@@ -48,6 +48,17 @@
         {{ gallery.field(render_pass, 'emoji-picker', { id: 'demo_emoji', name: 'emoji', label: '@page::field.emoji' | trans, value: '😀' }) }}
     </form>
 
+    {#- A unit or a currency beside the value: in the field's frame, read
+        with it, never part of what is submitted. -#}
+    <h2>{{ '@page::section.addon.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.addon.description' | trans }}</div>
+    <form class="block block--padded form addon-gallery" onsubmit="return false">
+        {{ gallery.field(render_pass, 'number-input', { id: 'addon_weight', name: 'weight', label: '@page::addon.weight' | trans, value: '72.5', suffix: 'kg' }) }}
+        {{ gallery.field(render_pass, 'text-input', { id: 'addon_price', name: 'price', label: '@page::addon.price' | trans, value: '42.00', prefix: '€' }) }}
+        {{ gallery.field(render_pass, 'number-input', { id: 'addon_height', name: 'height', label: '@page::addon.height' | trans, value: '178', suffix: 'cm', input_attr: 'readonly aria-readonly="true"' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/number-input', { id: 'addon_vue_duration', name: 'duration', label: '@page::addon.duration' | trans, modelValue: '45', suffix: 'min', translate: false }) }}
+    </form>
+
     {#- Frozen fields beside an editable one, so the difference reads at a
         glance: the forms package renders a field frozen by Symfony's `disabled`
         exactly this way, and a display value with the markup below. -#}
