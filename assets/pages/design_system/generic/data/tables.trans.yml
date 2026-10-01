@@ -49,6 +49,9 @@ en:
     sorting:
       title: Sorting
       description: "A header that sorts is a link on the server and a button in vue: ascending, descending, then back to the order the page declared, which the list opens on and which its arrow shows from the start. Empty dates go last both ways, and names compare the way the language orders them. Here the table sorts the rows it was given itself; a controller paging its list reads the same query instead."
+    sorting_vue:
+      title: Sorting in the browser, from twig
+      description: "`vue: true` hands the same columns and rows to the vue twin: it sorts and searches the whole list in the browser, with no page load. For a list the page holds whole — a short one, or one no api serves."
     selection_select:
       title: Actions in a select
       description: "The same bar when there are enough actions to crowd it: one is chosen, then applied."
