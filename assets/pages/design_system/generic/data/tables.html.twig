@@ -167,6 +167,30 @@
             ) }}
         </section>
 
+        {#- The whole list handed over, so the table orders it itself from the
+            query; the names show "First Last" and sort on the last. Two rows
+            have no date and stay at the bottom whichever way. -#}
+        <section>
+            <h2>{{ '@page::section.sorting.title' | trans }}</h2>
+            <p>{{ '@page::section.sorting.description' | trans }}</p>
+            {{ data_table(
+                [
+                    { key: 'name', label: '@page::sorting.name' | trans, sortable: true, sort_key: 'last' },
+                    { key: 'city', label: '@page::sorting.city' | trans, sortable: true, secondary: true },
+                    { key: 'measured', label: '@page::sorting.measured' | trans, cell: 'date', sortable: true, secondary: true },
+                    { key: 'operations', label: '@page::sorting.actions' | trans, cell: 'actions', class: 'table--cell--fit' },
+                ],
+                [
+                    { name: 'Zoé Martin', last: 'Martin', city: 'Zürich', measured: '2026-09-01T08:00:00+00:00', operations: row_actions },
+                    { name: 'Élodie Durand', last: 'Durand', city: 'Évry', measured: null, operations: row_actions },
+                    { name: 'Adam Petit', last: 'Petit', city: 'Angers', measured: '2026-09-30T17:30:00+00:00', operations: row_actions },
+                    { name: 'Eric Bernard', last: 'Bernard', city: 'Lyon', measured: '2026-01-15T09:00:00+00:00', operations: row_actions },
+                    { name: 'Basile Leroy', last: 'Leroy', city: 'Écully', measured: '', operations: row_actions },
+                ],
+                { default_sort: { key: 'measured', direction: 'desc' }, sort_rows: true, show_count: true }
+            ) }}
+        </section>
+
         <section>
             <h2>{{ '@page::section.selection_select.title' | trans }}</h2>
             <p>{{ '@page::section.selection_select.description' | trans }}</p>

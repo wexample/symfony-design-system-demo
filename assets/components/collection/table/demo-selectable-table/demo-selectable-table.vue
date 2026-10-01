@@ -2,8 +2,9 @@
 import DataTable from '@wexample/symfony-design-system/components/data-table/data-table.vue';
 
 // Rows that can be ticked, and what the table tells its parent: the ticked keys
-// held here through `v-model:selected`, and each action as it is pressed. The
-// actions have no address, so nothing is posted — what would have been is shown.
+// held here through `v-model:selected`, the order through `v-model:sort`, and
+// each action as it is pressed. The actions have no address, so nothing is
+// posted — what would have been is shown.
 export default {
   template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-collection-table-demo-selectable-table-demo-selectable-table',
 
@@ -22,18 +23,23 @@ export default {
   data() {
     return {
       selected: [],
+      // Sorted by the table itself, the rows being all there is: the
+      // order comes back here only to be shown.
+      sort: null,
+      defaultSort: { key: 'name', direction: 'asc' },
       lastAction: null,
       rows: [
         { id: 'alpha', name: 'Alpha', owner: 'Design' },
         { id: 'beta', name: 'Beta', owner: 'Platform' },
         { id: 'gamma', name: 'Gamma', owner: 'Design' },
-        { id: 'delta', name: 'Delta', owner: 'Support' }
+        { id: 'delta', name: 'Delta', owner: 'Support' },
+        { id: 'epsilon', name: 'Épsilon', owner: 'Platform' }
       ],
       columns: [
-        { key: 'name', label: 'Name' },
-        { key: 'owner', label: 'Owner', secondary: true }
+        { key: 'name', label: 'Name', sortable: true },
+        { key: 'owner', label: 'Owner', secondary: true, sortable: true }
       ],
-      // Narrowed by the table itself: the four rows are all there is.
+      // Narrowed by the table itself: the rows are all there is.
       filters: [
         {
           key: 'owner',

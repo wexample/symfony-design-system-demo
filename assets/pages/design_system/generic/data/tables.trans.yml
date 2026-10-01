@@ -43,6 +43,9 @@ en:
     filters:
       title: Filters
       description: "A bar of filters at the head of the table, one discreet menu each, saying what it narrows to once it does. On the server they live in the page's query — each option is a link — and the controller narrows the rows from it; in vue they are a value handed to the page for its api, or applied by the table to the rows it already has. Each option is a box — round for a choice of one — coloured by its tone when it has one, a status or a category."
+    sorting:
+      title: Sorting
+      description: "A header that sorts is a link on the server and a button in vue: ascending, descending, then back to the order the page declared, which the list opens on and which its arrow shows from the start. Empty dates go last both ways, and names compare the way the language orders them. Here the table sorts the rows it was given itself; a controller paging its list reads the same query instead."
     selection_select:
       title: Actions in a select
       description: "The same bar when there are enough actions to crowd it: one is chosen, then applied."
@@ -128,6 +131,11 @@ en:
     closed: Closed
     column:
       name: Name
+  sorting:
+    name: Name
+    city: City
+    measured: Last measurement
+    actions: Actions
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
