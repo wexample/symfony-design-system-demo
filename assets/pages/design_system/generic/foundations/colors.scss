@@ -1,5 +1,6 @@
 @use './layout/layout-foundations';
 @use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/stack';
 
 // A swatch is its colour first and its name second, so the sample is what takes
 // the room and the token sits under it.
@@ -26,7 +27,15 @@
   color: var(--text-color-muted);
 }
 
-// A scale is read as one object, so its steps touch: where a level stops being
+// A scale under its name.
+.swatch-scale--row {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+// A scale is read as one object, so its steps touch: where a tone stops being
 // distinguishable from the next is exactly what the page has to show.
 .swatch-scale {
   display: flex;
@@ -43,8 +52,25 @@
   align-items: flex-end;
   justify-content: center;
   font-size: var(--font-size-1);
-  color: var(--color-default-background);
+  color: var(--surface-zone);
   mix-blend-mode: difference;
+}
+
+// What each place on a scale is for, in two columns.
+.swatch-steps {
+  columns: 2 18rem;
+  gap: var(--space-5);
+  margin: var(--space-3) 0 0;
+  padding-inline-start: 0;
+  list-style: none;
+  font-size: var(--font-size-2);
+  color: var(--text-color-muted);
+
+  strong {
+    display: inline-block;
+    min-width: 2ch;
+    color: var(--text-color-default);
+  }
 }
 
 .border-sample {

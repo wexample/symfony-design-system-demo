@@ -10,13 +10,18 @@
     </div>
 {%- endmacro -%}
 
-{%- macro scale(prefix, count) -%}
-    <div class="swatch-scale">
-        {%- for i in 1..count -%}
-            <div class="swatch-scale--step" style="background: var(--{{ prefix }}-{{ i }});" title="--{{ prefix }}-{{ i }}">
-                <span>{{ i }}</span>
-            </div>
-        {%- endfor -%}
+{#- A scale, its twelve tones touching: where one stops being told from the
+    next is exactly what the page has to show. -#}
+{%- macro scale(name) -%}
+    <div class="swatch-scale--row">
+        <code class="swatch--token">--{{ name }}-*</code>
+        <div class="swatch-scale">
+            {%- for step in 1..12 -%}
+                <div class="swatch-scale--step" style="background: var(--{{ name }}-{{ step }});" title="--{{ name }}-{{ step }}">
+                    <span>{{ step }}</span>
+                </div>
+            {%- endfor -%}
+        </div>
     </div>
 {%- endmacro -%}
 
@@ -25,46 +30,31 @@
 
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
+    <h2>{{ '@page::section.scales.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.scales.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {%- for name in ['neutral', 'accent', 'info', 'success', 'warning', 'error'] -%}
+            {{ palette.scale(name) }}
+        {%- endfor -%}
+    </div>
+    <ol class="swatch-steps">
+        {%- for step in 1..12 -%}
+            <li><strong>{{ step }}</strong> {{ ('@page::step.' ~ step) | trans }}</li>
+        {%- endfor -%}
+    </ol>
+
     <h2>{{ '@page::section.surfaces.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.surfaces.description' | trans }}</div>
     <div class="block block--padded">
         <div class="cluster">
+            {{ palette.swatch('--surface-zone', '@page::surface.zone' | trans) }}
             {{ palette.swatch('--surface-page', '@page::surface.page' | trans) }}
             {{ palette.swatch('--surface-shell', '@page::surface.shell' | trans) }}
-            {{ palette.swatch('--surface-zone', '@page::surface.zone' | trans) }}
             {{ palette.swatch('--surface-1', '@page::surface.one' | trans) }}
             {{ palette.swatch('--surface-2', '@page::surface.two' | trans) }}
             {{ palette.swatch('--surface-3', '@page::surface.three' | trans) }}
+            {{ palette.swatch('--surface-invert', '@page::surface.invert' | trans) }}
         </div>
-    </div>
-
-    <h2>{{ '@page::section.invert.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.invert.description' | trans }}</div>
-    <div class="block block--padded">
-        {{ palette.scale('color-invert', 20) }}
-    </div>
-
-    <h2>{{ '@page::section.semantic.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.semantic.description' | trans }}</div>
-    <div class="block block--padded block--vertical flow">
-        {%- for family in ['info', 'success', 'warning', 'error', 'assist'] -%}
-            <div>
-                <code class="swatch--token">--color-{{ family }}-*</code>
-                {{ palette.scale('color-' ~ family, 32) }}
-            </div>
-        {%- endfor -%}
-    </div>
-
-    <h2>{{ '@page::section.categories.title' | trans }}</h2>
-    <div class="lead">{{ '@page::section.categories.description' | trans }}</div>
-    <div class="block block--padded">
-        {%- for name in ['ruby', 'grapefruit', 'bittersweet', 'sunflower', 'straw', 'grass', 'mint', 'teal', 'aqua', 'blue-jeans', 'plum', 'lavender', 'pink-rose'] -%}
-            <div class="cluster">
-                {{ palette.swatch('--color-cat-' ~ name ~ '-light', name ~ ' light') }}
-                {{ palette.swatch('--color-cat-' ~ name ~ '-fill', name) }}
-                {{ palette.swatch('--color-cat-' ~ name ~ '-dark', name ~ ' dark') }}
-            </div>
-        {%- endfor -%}
     </div>
 
     <h2>{{ '@page::section.text.title' | trans }}</h2>
@@ -78,10 +68,18 @@
     <h2>{{ '@page::section.borders.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.borders.description' | trans }}</div>
     <div class="block block--padded block--vertical flow">
-        {%- for border in ['discreet', 'default', 'strong', 'region'] -%}
-            <div class="border-sample" style="border-top: var(--border-{{ border }});">
-                <code class="swatch--token">--border-{{ border }}</code>
+        {%- for border in ['discreet', 'default', 'region', 'strong'] -%}
+            <div class="border-sample" style="border-top: 1px solid var(--border-color-{{ border }});">
+                <code class="swatch--token">--border-color-{{ border }}</code>
             </div>
+        {%- endfor -%}
+    </div>
+
+    <h2>{{ '@page::section.categories.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.categories.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {%- for name in ['ruby', 'grapefruit', 'bittersweet', 'sunflower', 'straw', 'grass', 'mint', 'teal', 'aqua', 'blue-jeans', 'plum', 'lavender', 'pink-rose'] -%}
+            {{ palette.scale('cat-' ~ name) }}
         {%- endfor -%}
     </div>
 {%- endblock -%}

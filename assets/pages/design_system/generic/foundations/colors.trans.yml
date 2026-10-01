@@ -4,35 +4,47 @@ en:
   page_title: Colours
   page_icon: ph:bold/palette
 
-  intro: "No component names a colour. They name a role — a surface, a border, a state — and the theme decides what that role looks like on each of its faces. Switch the scheme from the header and watch every swatch below move without a single one being redefined."
+  intro: "No component names a colour. Colour lives in the palette, as scales of twelve tones given for the light face and the dark one; the colour scheme picks which face the page reads; a component reads a role — a surface, a border, a text — which is one place on a scale. The skin never says a colour. Switch the scheme from the header and every swatch below moves without a single one being redefined."
 
   section:
+    scales:
+      title: Scales
+      description: "A palette is a neutral, an accent — the brand — and the four states, each a scale of twelve tones, laid out the way Radix Themes and Material 3 lay a colour out. A place on a scale means the same on every scale and on both faces: what the numbers below are for. An application brings its palette by giving its accent; every scale follows."
     surfaces:
       title: Surfaces
-      description: "An elevation ladder above the page. The light face orders them by lightness, the dark face by how far each one is lifted off the background — which is why a component asks for a level and never for a grey."
-    invert:
-      title: Invert levels
-      description: "Twenty steps of the text colour laid over the background, and the source of nearly every border, muted text and hover state in the system. Level 1 is barely there, level 20 is the text itself."
-    semantic:
-      title: Semantic families
-      description: "Five families, read from the page to the text through the colour: level 1 is the colour barely tinting the page, 17 is the colour whole, 32 is the colour barely tinting the text. Below the middle are grounds; above it is ink, which lightens on the dark face and deepens on the light one. A component picks a level and not a hex, which is what lets the same message read correctly on both faces."
-    categories:
-      title: Categorical palette
-      description: "Thirteen colours that mean nothing but \"not the one beside it\": the series of a chart, the segments of a distribution, the stages of a workflow. Named, not numbered — an app picks `cat-mint` because it looks like mint. Each comes with a light and a dark variant, fixed on both faces like the fill; the ink written on a fill turns dark where the colour is light. Which category is which colour is the app's choice, never the design system's."
+      description: "The grounds, from the region outward — each one a place on the neutral scale. The light face of the dashboard orders them by lightness up to white, the dark face by how far each one is lifted off the ground."
     text:
       title: Text
-      description: "Three levels of attention. What is being read, what qualifies it, and what is only there to be found when looked for."
+      description: "Three levels of attention — neutral 12, 11 and 9: what is being read, what qualifies it, and what is only there to be found when looked for."
     borders:
       title: Borders
-      description: "Four weights, told apart by what they separate: two things inside one region, two regions of a page, or a field from what is behind it."
+      description: "Four weights, told apart by what they separate — neutral 5 to 8: two things inside one region, a field from what is behind it, two regions of a page, and the ring of what has the focus."
+    categories:
+      title: Categories
+      description: "Thirteen colours that mean nothing but \"not the one beside it\": the series of a chart, the segments of a distribution, the stages of a workflow. Named, not numbered — an app picks `cat-mint` because it looks like mint — and each a scale like the others, so a category is worn the way a state is: its ground at 3, its ink at 11, filled at 9."
+
+  step:
+    1: the ground of a work region
+    2: the ground of the page, around and between regions
+    3: a field's ground; the faint ground a state sits on
+    4: a raised control; a hovered ground
+    5: a card, a block — and its discreet border
+    6: a border
+    7: a border between two regions
+    8: a strong border, a focus ring
+    9: the colour whole, filling what it marks
+    10: the same, hovered
+    11: the colour as ink, readable on the grounds
+    12: strong ink — for the neutral, the text itself
 
   surface:
+    zone: The ground a region of a page stands on
     page: The page itself, and what shows between the zones
     shell: Menu, header, footer
-    zone: The ground a region of a page stands on
     one: Inputs and fields
     two: Buttons, toolbars
     three: Blocks, cards, modals
+    invert: A control standing out by taking the text's colour
 
   text:
     default: What is being read
