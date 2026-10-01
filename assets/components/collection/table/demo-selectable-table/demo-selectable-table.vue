@@ -28,6 +28,8 @@ export default {
       sort: null,
       defaultSort: { key: 'name', direction: 'asc' },
       lastAction: null,
+      // A read that failed, stood in for the rows with a way to try again.
+      error: '',
       rows: [
         { id: 'alpha', name: 'Alpha', owner: 'Design' },
         { id: 'beta', name: 'Beta', owner: 'Platform' },
@@ -69,6 +71,19 @@ export default {
 
     onBulkAction({ action, keys }) {
       this.lastAction = `${action.label}: ${keys.join(', ')}`;
+    },
+
+    // What a page would open in a modal: here, only said.
+    onRowActivate({ row }) {
+      this.lastAction = `Open: ${row.name}`;
+    },
+
+    failRead() {
+      this.error = 'The list could not be read.';
+    },
+
+    retry() {
+      this.error = '';
     }
   }
 };

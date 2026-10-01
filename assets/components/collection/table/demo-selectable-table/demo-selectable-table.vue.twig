@@ -24,7 +24,12 @@
                 :sort-rows="true"
                 :page-size="3"
                 @bulk-action="onBulkAction"
+                :activatable="true"
+                @row-activate="onRowActivate"
+                :error="error"
+                @retry="retry"
         ></data-table>
+        <button v-if="!error" class="button button--flat button--compact demo-selectable-table--fail" type="button" @click="failRead">Simulate a failed read</button>
         <p class="text-secondary">[[ lastAction || selected.join(', ') || '—' ]] · [[ (sort || defaultSort).key ]] [[ (sort || defaultSort).direction ]]</p>
     </div>
 {%- endblock -%}
