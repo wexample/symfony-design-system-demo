@@ -169,7 +169,8 @@
 
         {#- The whole list handed over, so the table orders it itself from the
             query; the names show "First Last" and sort on the last. Two rows
-            have no date and stay at the bottom whichever way. -#}
+            have no date and stay at the bottom whichever way. Its order lives
+            under `people` in the query, so the filters above keep theirs. -#}
         <section>
             <h2>{{ '@page::section.sorting.title' | trans }}</h2>
             <p>{{ '@page::section.sorting.description' | trans }}</p>
@@ -187,7 +188,7 @@
                     { name: 'Eric Bernard', last: 'Bernard', city: 'Lyon', measured: '2026-01-15T09:00:00+00:00', operations: row_actions },
                     { name: 'Basile Leroy', last: 'Leroy', city: 'Écully', measured: '', operations: row_actions },
                 ],
-                { default_sort: { key: 'measured', direction: 'desc' }, sort_rows: true, show_count: true }
+                { default_sort: { key: 'measured', direction: 'desc' }, sort_rows: true, show_count: true, query_key: 'people' }
             ) }}
         </section>
 
