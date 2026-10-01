@@ -1,6 +1,12 @@
 en:
   page_title: Confirm
   section:
+    form:
+      description: "A form asking before it is sent, with no script of its own: data-confirm-message on the form, or on the button sending it. Answered yes, it is sent as it would have been."
+      button: Archive the record
+      title: Archive this record?
+      message: It leaves the lists; everything it holds is kept.
+      accept: Archive
     destructive:
       description: "An answer that cannot be undone: drawn as a danger, and neither the focus nor Enter starts on it — Escape and Enter both back out."
       button: Deactivate an account

@@ -122,4 +122,18 @@
                 }
             }) }}
         </div>
+
+        {#- No script of the page's own: a form, or the button sending it,
+            carrying data-confirm-message asks before it goes (ConfirmService). -#}
+        <div class="block block--padded block--split">
+            <div class="lead">
+                {{ '@page::section.form.description' | trans }}
+            </div>
+            <form method="get" action="#"
+                  data-confirm-title="{{ '@page::section.form.title' | trans }}"
+                  data-confirm-message="{{ '@page::section.form.message' | trans }}"
+                  data-confirm-accept="{{ '@page::section.form.accept' | trans }}">
+                {{ button('ph:bold/archive', '@page::section.form.button' | trans, { type: 'submit' }) }}
+            </form>
+        </div>
 {%- endblock -%}
