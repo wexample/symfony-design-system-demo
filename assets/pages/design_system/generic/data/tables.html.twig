@@ -9,13 +9,10 @@
         {#- The same two actions the Vue table below declares, so the pair can be
             compared on one page: a target sends the page to an overlay instead of
             replacing the current one. -#}
-        {#- The eye is marked `open`: a double-click or Enter on a row presses it,
-            and the arrows walk from row to row. -#}
         {% set row_actions = [
             {
                 icon: 'ph:bold/eye',
                 label: '@page::action.open' | trans,
-                open: true,
                 href: path('wexample_design_system_generic_overlays_modal_test_simple'),
                 target: 'modal',
                 target_options: { closeOnEscape: true, closeOnOverlayClick: true }
