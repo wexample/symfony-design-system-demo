@@ -9,7 +9,7 @@ en:
       title: Basic form
     columns:
       title: Columns and zones
-      description: "`form--columns` on a section lays its fields side by side: as many columns as the room holds, three at most (`form--columns-2` for two), one on a phone. `form--span` on a field gives it the whole line. `form--zones` on the form turns its sections into regions of their own, side by side when the room allows."
+      description: "`form--columns` on a section lays its fields side by side: as many columns as the room holds, three at most (`form--columns-2` for two), one on a phone. `form--span` on a field gives it the whole line. `form--zones` on the form sets its sections side by side when the room allows, parted by space alone; `form--zones--framed` gives each a ground and an edge, for a form standing on the page rather than in a card."
       identity: Identity
       settings: Settings
     block:
