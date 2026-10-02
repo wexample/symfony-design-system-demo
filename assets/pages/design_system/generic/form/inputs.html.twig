@@ -29,7 +29,7 @@
     <div class="lead">{{ '@page::section.fields.description' | trans }}</div>
     {#- A real form carrying the form component, so the fields register with it
         and the agent below asks for them by name and nothing else. -#}
-    <form class="block block--padded form assisted-gallery {{ component_init_class(render_pass, '@WexampleSymfonyLoaderBundle/components/form') }}"
+    <form class="block block--padded form form--columns {{ component_init_class(render_pass, '@WexampleSymfonyLoaderBundle/components/form') }}"
           onsubmit="return false">
         {{ gallery.field(render_pass, 'text-input', { id: 'demo_text', name: 'text', label: '@page::field.text' | trans, placeholder: '@page::placeholder.text' | trans }) }}
         {{ gallery.field(render_pass, 'textarea-input', { id: 'demo_textarea', name: 'textarea', label: '@page::field.textarea' | trans, rows: 3, placeholder: '@page::placeholder.textarea' | trans }) }}
@@ -52,7 +52,7 @@
         with it, never part of what is submitted. -#}
     <h2>{{ '@page::section.addon.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.addon.description' | trans }}</div>
-    <form class="block block--padded form addon-gallery" onsubmit="return false">
+    <form class="block block--padded form form--columns" onsubmit="return false">
         {{ gallery.field(render_pass, 'number-input', { id: 'addon_weight', name: 'weight', label: '@page::addon.weight' | trans, value: '72.5', suffix: 'kg' }) }}
         {{ gallery.field(render_pass, 'text-input', { id: 'addon_price', name: 'price', label: '@page::addon.price' | trans, value: '42.00', prefix: '€' }) }}
         {{ gallery.field(render_pass, 'number-input', { id: 'addon_height', name: 'height', label: '@page::addon.height' | trans, value: '178', suffix: 'cm', input_attr: 'readonly aria-readonly="true"' }) }}
@@ -64,7 +64,7 @@
         exactly this way, and a display value with the markup below. -#}
     <h2>{{ '@page::section.frozen.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.frozen.description' | trans }}</div>
-    <div class="block block--padded form frozen-gallery">
+    <div class="block block--padded form form--columns">
         {{ gallery.field(render_pass, 'text-input', { id: 'frozen_editable', label: '@page::frozen.editable' | trans, value: 'Maya Lindqvist' }) }}
         {{ gallery.field(render_pass, 'text-input', { id: 'frozen_text', label: '@page::field.text' | trans, value: 'Maya Lindqvist', input_attr: 'readonly aria-readonly="true"' }) }}
         {{ gallery.field(render_pass, 'date-input', { id: 'frozen_date', label: '@page::field.date' | trans, value: '1990-04-12', input_attr: 'readonly aria-readonly="true"' }) }}
@@ -80,8 +80,8 @@
         </div>
     </div>
     {%- set vue_options = select_options|map(option => option|merge({ label: option.label|trans })) -%}
-    <div class="block block--padded form frozen-gallery">
-        <p class="text-secondary">{{ '@page::frozen.vue' | trans }}</p>
+    <div class="block block--padded form form--columns">
+        <p class="text-secondary form--span">{{ '@page::frozen.vue' | trans }}</p>
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/text-input', { id: 'frozen_vue_text', name: 'vue_text', label: '@page::field.text' | trans, modelValue: 'Maya Lindqvist', required: true, readonly: true, translate: false }) }}
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/select-input', { id: 'frozen_vue_select', name: 'vue_select', label: '@page::field.select' | trans, options: vue_options, modelValue: 'two', readonly: true, translate: false }) }}
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/radio-input', { id: 'frozen_vue_radio', name: 'vue_radio', label: '@page::field.radio' | trans, options: vue_options, modelValue: 'three', readonly: true, translate: false }) }}

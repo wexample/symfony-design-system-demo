@@ -4,10 +4,3 @@
 @use '@wexample/symfony-design-system/components/button/button';
 @use '@wexample/symfony-design-system/components/select/select';
 @use '@wexample/symfony-design-system/components/switch/switch';
-
-// The gallery reads as a form, which is where these fields normally stand, but
-// two columns so the page does not become a scroll.
-.assisted-gallery {
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  align-items: start;
-}
