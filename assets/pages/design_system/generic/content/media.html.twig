@@ -48,10 +48,11 @@
             <div style="height: 20rem;">
                 {{ document_embed(
                     path('wexample_design_system_fixtures_placeholder_pdf'),
-                    '@page::document.title' | trans
+                    '@page::document.title' | trans,
+                    { open: true, download: true }
                 ) }}
             </div>
-            <p>media--fill</p>
+            <p>media--fill · open · download</p>
         </div>
         <div class="block block--padded" style="flex: 1">
             {{ document_embed(

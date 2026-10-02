@@ -95,4 +95,23 @@
             </div>
         </div>
     </div>
+
+    {#- A region holding a page beside a text: never narrower than a portrait
+        page as tall as the row. Widen the text and the row scrolls sideways
+        instead of squeezing the page. -#}
+    <h2>{{ '@page::section.portrait.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.portrait.description' | trans }}</div>
+    <div class="zone zone--split zone--split--floor zone-demo--frame zone-demo--frame--scroll-x">
+        <div class="zone zone--panel zone--measure" style="--zone-size: 48rem">
+            <div class="zone zone--scrollable">
+                <div class="zone--content">
+                    <strong>zone--measure</strong> (--zone-size: 48rem)
+                    {{ demo.filler(12, '@page::scrollable.item' | trans) }}
+                </div>
+            </div>
+        </div>
+        <div class="zone zone--panel zone--portrait">
+            {{ document_embed(path('wexample_design_system_fixtures_placeholder_pdf'), '@page::section.portrait.title' | trans, { open: true, download: true }) }}
+        </div>
+    </div>
 {%- endblock -%}

@@ -3,6 +3,7 @@
 @use '@wexample/symfony-design-system/css/shapes/toolbar';
 @use '@wexample/symfony-design-system/components/button/button';
 @use '@wexample/symfony-design-system/components/data-table/data-table';
+@use '@wexample/symfony-design-system/components/document-embed/document-embed';
 
 // A zone is 100% of its parent, and a demo page has no height of its own: the
 // frame is what stands in for the screen a workspace would have had.

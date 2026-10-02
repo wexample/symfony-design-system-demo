@@ -24,6 +24,9 @@ en:
     wrap:
       title: Below a floor
       description: "Given a floor, the flexible zone claims a full line and the sized column moves above it instead of both being squeezed to nothing. Narrow the window to see it fold."
+    portrait:
+      title: "Beside a page"
+      description: "`zone--portrait`: never narrower than a portrait page (3:4) as tall as the row. Widened by hand, the text keeps its width and the row scrolls sideways instead of squeezing the page."
 
   split:
     body: This side takes whatever the sized column leaves.
@@ -56,6 +59,9 @@ ar:
     wrap:
       title: 'أسفل الأرضية'
       description: 'عند وجود أرضية، تأخذ المنطقة المرنة خطًا كاملًا وينتقل العمود المحدد فوقها بدلاً من أن يتم ضغط كلاهما إلى لا شيء. قم بتضييق النافذة لترى كيف تنطوي.'
+    portrait:
+      title: "بجانب صفحة"
+      description: "`zone--portrait`: لا تضيق أبدًا عن صفحة عمودية (3:4) بارتفاع الصف. إذا وُسِّع النص يدويًا احتفظ بعرضه وتمرّر الصف أفقيًا بدل ضغط الصفحة."
   split:
     body: 'هذا الجانب يأخذ ما تتركه العمود المحدد.'
   scrollable:
@@ -84,6 +90,9 @@ bn:
     wrap:
       title: 'একটি মেঝের নিচে'
       description: 'একটি মেঝে দেওয়া হলে, নমনীয় জোন একটি পূর্ণ লাইন দাবি করে এবং আকার দেওয়া কলামটি এর উপরে চলে যায় পরিবর্তে উভয়কে কিছু না করে চাপা দেওয়া। জানালাটি সংকীর্ণ করুন এটি ভাঁজ দেখতে।'
+    portrait:
+      title: "একটি পৃষ্ঠার পাশে"
+      description: "`zone--portrait`: সারির সমান উঁচু একটি খাড়া পৃষ্ঠার (3:4) চেয়ে কখনও সরু নয়। হাতে চওড়া করা লেখা তার প্রস্থ রাখে এবং সারিটি পৃষ্ঠা চেপে না দিয়ে পাশে স্ক্রল করে।"
   split:
     body: 'এটি সেই দিক যা আকার দেওয়া কলামটি ছেড়ে দেয়।'
   scrollable:
@@ -112,6 +121,9 @@ de:
     wrap:
       title: 'Unter einem Fußboden'
       description: 'Bei einem Fußboden beansprucht die flexible Zone eine volle Zeile und die feste Spalte bewegt sich darüber, anstatt beide auf nichts zusammengedrückt zu werden. Verkleinern Sie das Fenster, um zu sehen, wie es sich zusammenfaltet.'
+    portrait:
+      title: "Neben einer Seite"
+      description: "`zone--portrait`: nie schmaler als eine Hochformatseite (3:4) in der Höhe der Zeile. Von Hand verbreitert, behält der Text seine Breite und die Zeile scrollt seitlich, statt die Seite zu quetschen."
   split:
     body: 'Diese Seite nimmt alles auf, was die feste Spalte übrig lässt.'
   scrollable:
@@ -140,6 +152,9 @@ es:
     wrap:
       title: 'Debajo de un suelo'
       description: 'Dado un suelo, la zona flexible reclama una línea completa y la columna dimensionada se mueve por encima en lugar de ser comprimida a nada. Reduce la ventana para verlo plegarse.'
+    portrait:
+      title: "Junto a una página"
+      description: "`zone--portrait`: nunca más estrecha que una página vertical (3:4) tan alta como la fila. Ensanchado a mano, el texto conserva su anchura y la fila se desplaza de lado en lugar de aplastar la página."
   split:
     body: 'Este lado toma lo que la columna dimensionada deja.'
   scrollable:
@@ -168,6 +183,9 @@ fa:
     wrap:
       title: 'زیر یک کف'
       description: 'با توجه به یک کف، زون انعطاف‌پذیر یک خط کامل را تصاحب می‌کند و ستون اندازه‌گیری شده به جای اینکه هر دو به هیچ تبدیل شوند، بالای آن حرکت می‌کند. پنجره را باریک کنید تا ببینید که چگونه جمع می‌شود.'
+    portrait:
+      title: "کنار یک صفحه"
+      description: "`zone--portrait`: هرگز باریک‌تر از یک صفحهٔ عمودی (3:4) به بلندی ردیف نیست. متنی که با دست پهن شود پهنایش را نگه می‌دارد و ردیف به‌جای فشردن صفحه، افقی پیمایش می‌شود."
   split:
     body: 'این طرف هر آنچه را که ستون اندازه‌گیری شده باقی می‌گذارد، می‌گیرد.'
   scrollable:
@@ -196,6 +214,9 @@ fi:
     wrap:
       title: 'Lattian alapuolella'
       description: 'Kun on lattia, joustava vyöhyke vie koko rivin ja kooltaan määritelty sarake liikkuu sen ylle sen sijaan, että molemmat puristuisivat olemattomiin. Supista ikkunaa nähdäksesi sen taittuvan.'
+    portrait:
+      title: "Sivun vieressä"
+      description: "`zone--portrait`: ei koskaan kapeampi kuin rivin korkuinen pystysivu (3:4). Käsin levennetty teksti pitää leveytensä ja rivi vierii sivuttain sivun puristamisen sijaan."
   split:
     body: 'Tämä puoli ottaa mitä tahansa kooltaan määritetty sarake jättää.'
   scrollable:
@@ -224,6 +245,9 @@ fr:
     wrap:
       title: 'Sous un sol'
       description: "Étant donné un sol, la zone flexible s'approprie une ligne complète et la colonne dimensionnée se déplace au-dessus au lieu d'être toutes deux compressées à rien. Réduisez la fenêtre pour voir comment cela se replie."
+    portrait:
+      title: "À côté d’une page"
+      description: "`zone--portrait` : jamais plus étroite qu’une page portrait (3:4) aussi haute que la rangée. Élargi à la main, le texte garde sa largeur et la rangée défile de côté au lieu d’écraser la page."
   split:
     body: 'Ce côté prend tout ce que laisse la colonne dimensionnée.'
   scrollable:
@@ -252,6 +276,9 @@ he:
     wrap:
       title: 'מתחת לרצפה'
       description: 'בהינתן רצפה, האזור הגמיש תופס שורה מלאה והעמודה בגודל קבוע זזה מעליו במקום ששניהם יידחקו לאפס. הקטין את החלון כדי לראות את זה מתקפל.'
+    portrait:
+      title: "לצד עמוד"
+      description: "`zone--portrait`: לעולם אינה צרה מעמוד לאורך (3:4) בגובה השורה. טקסט שהורחב ידנית שומר על רוחבו והשורה נגללת הצידה במקום לדחוס את העמוד."
   split:
     body: 'צד זה לוקח מה שהעמודה בגודל קבוע משאירה.'
   scrollable:
@@ -280,6 +307,9 @@ hi:
     wrap:
       title: 'एक फर्श के नीचे'
       description: 'एक फर्श दिए जाने पर, लचीला क्षेत्र एक पूर्ण रेखा का दावा करता है और आकारित स्तंभ इसके ऊपर चलता है बजाय इसके कि दोनों को कुछ भी नहीं होने के लिए निचोड़ दिया जाए। इसे मोड़ते हुए देखने के लिए विंडो को संकीर्ण करें।'
+    portrait:
+      title: "एक पृष्ठ के बगल में"
+      description: "`zone--portrait`: पंक्ति जितने ऊँचे खड़े पृष्ठ (3:4) से कभी संकरा नहीं। हाथ से चौड़ा किया गया पाठ अपनी चौड़ाई रखता है और पंक्ति पृष्ठ को दबाने के बजाय बगल में स्क्रॉल होती है।"
   split:
     body: 'यह पक्ष उस आकारित स्तंभ द्वारा छोड़ी गई किसी भी चीज़ को लेता है।'
   scrollable:
@@ -308,6 +338,9 @@ id:
     wrap:
       title: 'Di bawah lantai'
       description: 'Diberikan sebuah lantai, zona fleksibel mengklaim satu baris penuh dan kolom yang berukuran bergerak di atasnya daripada keduanya dipaksa menjadi tidak ada. Persempit jendela untuk melihatnya melipat.'
+    portrait:
+      title: "Di samping halaman"
+      description: "`zone--portrait`: tidak pernah lebih sempit dari halaman potret (3:4) setinggi baris. Jika dilebarkan manual, teks mempertahankan lebarnya dan baris bergulir ke samping alih-alih memeras halaman."
   split:
     body: 'Sisi ini mengambil apa pun yang ditinggalkan kolom berukuran.'
   scrollable:
@@ -336,6 +369,9 @@ it:
     wrap:
       title: 'Sotto un pavimento'
       description: "Data una base, la zona flessibile occupa un'intera riga e la colonna di dimensioni fisse si sposta sopra di essa invece di essere entrambe costrette a nulla. Riduci la finestra per vedere come si piega."
+    portrait:
+      title: "Accanto a una pagina"
+      description: "`zone--portrait`: mai più stretta di una pagina verticale (3:4) alta quanto la riga. Allargato a mano, il testo mantiene la sua larghezza e la riga scorre di lato invece di schiacciare la pagina."
   split:
     body: 'Questo lato prende ciò che la colonna di dimensioni fisse lascia.'
   scrollable:
@@ -364,6 +400,9 @@ ja:
     wrap:
       title: 床の下
       description: 床が与えられると、柔軟なゾーンは完全な行を主張し、サイズが設定されたカラムは両方が押しつぶされるのではなく、その上に移動します。ウィンドウを狭くすると折りたたむ様子が見えます。
+    portrait:
+      title: "ページの横に"
+      description: "`zone--portrait`：行と同じ高さの縦向きページ（3:4）より狭くなりません。手で広げたテキストは幅を保ち、ページを押しつぶす代わりに行が横にスクロールします。"
   split:
     body: この側はサイズが設定されたカラムが残したものを取ります。
   scrollable:
@@ -392,6 +431,9 @@ ko:
     wrap:
       title: '바닥 아래'
       description: '바닥이 주어지면, 유연한 영역은 전체 줄을 차지하고 크기가 정해진 열은 두 개가 압축되어 사라지지 않고 그 위로 이동합니다. 창을 좁혀서 접히는 모습을 확인하세요.'
+    portrait:
+      title: "페이지 옆에"
+      description: "`zone--portrait`: 행 높이의 세로 페이지(3:4)보다 좁아지지 않습니다. 손으로 넓힌 텍스트는 너비를 유지하고, 행은 페이지를 누르는 대신 옆으로 스크롤됩니다."
   split:
     body: '이 측면은 크기가 정해진 열이 남긴 것을 차지합니다.'
   scrollable:
@@ -420,6 +462,9 @@ nl:
     wrap:
       title: 'Onder een vloer'
       description: 'Gegeven een vloer, neemt de flexibele zone een volle regel in beslag en beweegt de gekleurde kolom erboven in plaats van dat beide worden samengedrukt tot niets. Vernauw het venster om het in te zien vouwen.'
+    portrait:
+      title: "Naast een pagina"
+      description: "`zone--portrait`: nooit smaller dan een staande pagina (3:4) zo hoog als de rij. Met de hand verbreed houdt de tekst zijn breedte en scrolt de rij zijwaarts in plaats van de pagina te pletten."
   split:
     body: 'Deze kant neemt wat de gekleurde kolom laat liggen.'
   scrollable:
@@ -448,6 +493,9 @@ pl:
     wrap:
       title: 'Poniżej podłogi'
       description: 'Majac podłogę, elastyczna strefa zajmuje pełną linię, a kolumna o danym rozmiarze przesuwa się nad nią, zamiast obie być ściśnięte do zera. Zmniejsz okno, aby zobaczyć, jak się składa.'
+    portrait:
+      title: "Obok strony"
+      description: "`zone--portrait`: nigdy węższa niż strona pionowa (3:4) o wysokości wiersza. Poszerzony ręcznie tekst zachowuje szerokość, a wiersz przewija się w bok zamiast ściskać stronę."
   split:
     body: 'Ta strona bierze to, co zostawia kolumna o danym rozmiarze.'
   scrollable:
@@ -476,6 +524,9 @@ pt_BR:
     wrap:
       title: 'Abaixo de um chão'
       description: 'Dado um chão, a zona flexível ocupa uma linha completa e a coluna dimensionada se move acima dela em vez de ambas serem espremidas a nada. Reduza a janela para vê-la se dobrar.'
+    portrait:
+      title: "Ao lado de uma página"
+      description: "`zone--portrait`: nunca mais estreita que uma página em retrato (3:4) da altura da linha. Alargado à mão, o texto mantém a largura e a linha rola para o lado em vez de espremer a página."
   split:
     body: 'Este lado ocupa o que a coluna dimensionada deixa.'
   scrollable:
@@ -504,6 +555,9 @@ ru:
     wrap:
       title: 'Под полом'
       description: 'Имея пол, гибкая зона занимает полную строку, а колонка с заданным размером перемещается над ней, вместо того чтобы обе сжимались до нуля. Уменьшите окно, чтобы увидеть, как это складывается.'
+    portrait:
+      title: "Рядом со страницей"
+      description: "`zone--portrait`: никогда не уже книжной страницы (3:4) высотой в ряд. Расширенный вручную текст сохраняет ширину, а ряд прокручивается вбок, не сжимая страницу."
   split:
     body: 'Эта сторона принимает всё, что оставляет колонка с заданным размером.'
   scrollable:
@@ -532,6 +586,9 @@ th:
     wrap:
       title: ด้านล่างพื้น
       description: 'เมื่อมีพื้น โซนที่ยืดหยุ่นจะใช้เส้นเต็มและคอลัมน์ที่มีขนาดจะเคลื่อนที่อยู่เหนือมันแทนที่จะถูกบีบให้เล็กจนไม่มีอะไร ให้ลดขนาดหน้าต่างเพื่อดูมันพับ'
+    portrait:
+      title: "ข้างหน้ากระดาษ"
+      description: "`zone--portrait`: ไม่แคบกว่าหน้ากระดาษแนวตั้ง (3:4) ที่สูงเท่าแถว เมื่อขยายข้อความด้วยมือ ข้อความจะคงความกว้างไว้และแถวจะเลื่อนด้านข้างแทนการบีบหน้ากระดาษ"
   split:
     body: ด้านนี้รับสิ่งที่คอลัมน์ที่มีขนาดทิ้งไว้
   scrollable:
@@ -560,6 +617,9 @@ tr:
     wrap:
       title: 'Bir zemin altında'
       description: 'Bir zemin verildiğinde, esnek bölge tam bir satır alır ve boyutlandırılmış sütun onun üstünde hareket eder, ikisi de hiçbir şeye sıkıştırılmak yerine. Pencereyi daraltarak katlanışını görebilirsiniz.'
+    portrait:
+      title: "Bir sayfanın yanında"
+      description: "`zone--portrait`: satır yüksekliğindeki dikey bir sayfadan (3:4) asla daha dar değildir. Elle genişletilen metin genişliğini korur ve satır sayfayı sıkıştırmak yerine yana kayar."
   split:
     body: 'Bu taraf, boyutlandırılmış sütunun bıraktığı her şeyi alır.'
   scrollable:
@@ -588,6 +648,9 @@ ur:
     wrap:
       title: 'ایک فرش کے نیچے'
       description: 'ایک فرش دی گئی ہو تو، لچکدار زون ایک مکمل لائن کا دعوی کرتا ہے اور سائز والا کالم اس کے اوپر منتقل ہوتا ہے بجائے اس کے کہ دونوں کو کچھ بھی نہیں چھوڑا جائے۔ ونڈو کو تنگ کریں تاکہ یہ فولڈ ہوتا ہوا دیکھ سکیں۔'
+    portrait:
+      title: "ایک صفحے کے ساتھ"
+      description: "`zone--portrait`: قطار جتنے اونچے عمودی صفحے (3:4) سے کبھی تنگ نہیں۔ ہاتھ سے چوڑا کیا گیا متن اپنی چوڑائی رکھتا ہے اور قطار صفحے کو دبانے کے بجائے افقی طور پر اسکرول ہوتی ہے۔"
   split:
     body: 'یہ طرف وہ کچھ لیتی ہے جو سائز والا کالم چھوڑتا ہے۔'
   scrollable:
@@ -616,6 +679,9 @@ vi:
     wrap:
       title: 'Dưới một sàn'
       description: 'Khi có một sàn, khu vực linh hoạt chiếm một dòng đầy đủ và cột đã được định kích thước di chuyển ở trên thay vì cả hai bị ép lại thành không gì cả. Thu hẹp cửa sổ để thấy nó gập lại.'
+    portrait:
+      title: "Bên cạnh một trang"
+      description: "`zone--portrait`: không bao giờ hẹp hơn một trang dọc (3:4) cao bằng hàng. Khi được kéo rộng bằng tay, văn bản giữ độ rộng và hàng cuộn ngang thay vì ép trang lại."
   split:
     body: 'Bên này lấy bất cứ thứ gì cột đã định kích thước để lại.'
   scrollable:
@@ -644,6 +710,9 @@ zh:
     wrap:
       title: 在地板下
       description: 给定一个地板，灵活区域占据整行，大小列则在其上方移动，而不是被挤压到无。缩小窗口以查看它的折叠。
+    portrait:
+      title: "页面旁边"
+      description: "`zone--portrait`：绝不窄于与行同高的纵向页面（3:4）。手动加宽后，文本保持宽度，行横向滚动，而不是挤压页面。"
   split:
     body: 这一侧接受大小列留下的任何内容。
   scrollable:

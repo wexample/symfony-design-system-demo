@@ -17,11 +17,11 @@
 
     <h2>{{ '@page::section.session.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.session.description' | trans }}</div>
-    {{ component(render_pass, '@WexampleSymfonyCodingBundle/components/console', {}, { lines: session, title: '~/apps/doc-qms' }) }}
+    {{ component(render_pass, '@WexampleSymfonyCodingBundle/components/console', {}, { lines: session, title: '~/apps/doc-qms', copy: true }) }}
 
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
-    {{ vue(render_pass, '@WexampleSymfonyCodingBundle/components/console', { lines: session, prompt: '❯' }) }}
+    {{ vue(render_pass, '@WexampleSymfonyCodingBundle/components/console', { lines: session, prompt: '❯', copy: true }) }}
 
     <h2>{{ '@page::section.live.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.live.description' | trans }}</div>
