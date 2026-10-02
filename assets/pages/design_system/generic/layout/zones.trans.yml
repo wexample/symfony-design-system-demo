@@ -6,6 +6,8 @@ en:
 
   intro: "The two-pane workspace every explorer, editor and detail view is built on. A zone carries no width and no height of its own: the split it sits in is what sizes it, and each side scrolls alone. Two zones are two objects laid on the page, not one panel cut in half — what tells them apart is the room between them, and `zone--panel` is the ground each one stands on."
 
+  fit:
+    column: Column
   section:
     split:
       title: A split
@@ -16,6 +18,9 @@ en:
     vertical:
       title: A header that does not scroll
       description: "A split turned vertical: a narrow zone is the height of what it holds, the body takes the rest and scrolls under it. This is the arrangement of a panel with a toolbar on top."
+    fit:
+      title: As wide as its content
+      description: "`zone--fit-content`: the region takes the width of what it holds — a table of many columns — rather than what is left to it. The row overflows and scrolls sideways as one, its scrollbar at the foot of the frame, not under the table alone; each region still scrolls down on its own."
     wrap:
       title: Below a floor
       description: "Given a floor, the flexible zone claims a full line and the sized column moves above it instead of both being squeezed to nothing. Narrow the window to see it fold."

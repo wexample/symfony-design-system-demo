@@ -69,4 +69,30 @@
             <p>{{ '@page::wrap.body' | trans }}</p>
         </div>
     </div>
+
+    {#- A region as wide as its table: the row overflows the frame and scrolls
+        sideways as one, each region still scrolling down on its own. -#}
+    <h2>{{ '@page::section.fit.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.fit.description' | trans }}</div>
+    {%- set fit_columns = [] -%}
+    {%- set fit_row = {} -%}
+    {%- for i in 1..10 -%}
+        {%- set fit_columns = fit_columns|merge([{ key: 'c' ~ i, label: ('@page::fit.column' | trans) ~ ' ' ~ i, align: 'right' }]) -%}
+        {%- set fit_row = fit_row|merge({ ('c' ~ i): (i * 12.5) ~ ' kg' }) -%}
+    {%- endfor -%}
+    <div class="zone zone--split zone-demo--frame zone-demo--frame--scroll-x">
+        <div class="zone zone--narrow zone--size-6 zone--scrollable zone--panel">
+            <div class="zone--content">
+                {{ demo.filler(30, '@page::scrollable.item' | trans) }}
+            </div>
+        </div>
+        <div class="zone zone--fit-content zone--panel">
+            <div class="zone zone--scrollable">
+                <div class="zone--content">
+                    <strong>zone--fit-content</strong>
+                    {{ data_table(fit_columns, [fit_row, fit_row, fit_row, fit_row, fit_row, fit_row, fit_row, fit_row, fit_row, fit_row, fit_row, fit_row]) }}
+                </div>
+            </div>
+        </div>
+    </div>
 {%- endblock -%}

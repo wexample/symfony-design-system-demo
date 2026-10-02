@@ -2,6 +2,7 @@
 @use '@wexample/symfony-design-system/css/shapes/zone';
 @use '@wexample/symfony-design-system/css/shapes/toolbar';
 @use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/data-table/data-table';
 
 // A zone is 100% of its parent, and a demo page has no height of its own: the
 // frame is what stands in for the screen a workspace would have had.
@@ -17,4 +18,10 @@
 
 .zone-demo--frame--short {
   height: var(--size-4);
+}
+
+// A frame whose row is meant to overflow: it scrolls sideways, as the body of a
+// page does once it holds a region as wide as its content.
+.zone-demo--frame--scroll-x {
+  overflow-x: auto;
 }
