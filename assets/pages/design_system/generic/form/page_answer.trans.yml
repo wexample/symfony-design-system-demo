@@ -1,0 +1,13 @@
+en:
+  page_title: Answered by a page
+  help: "Issues a code shown once, by the page answering the submission. Opened in a modal, the answer stays in the modal; on its own page, it is that page."
+  issued:
+    title: Code issued
+    body: Shown this once — no payload, redirect or session carried it.
+
+fr:
+  page_title: Réponse en page
+  help: "Émet un code affiché une seule fois, par la page qui répond à l'envoi. Ouverte dans une modale, la réponse reste dans la modale ; seule, c'est cette page."
+  issued:
+    title: Code émis
+    body: Affiché cette seule fois — ni réponse JSON, ni redirection, ni session ne l'a transporté.

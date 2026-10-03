@@ -8,6 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
+use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormPageAnswerDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormSubmitBehaviorAjaxDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormSubmitBehaviorDemoFormProcessor;
 use Wexample\SymfonyForms\Attribute\FormProcessor;
@@ -93,6 +94,26 @@ final class FormController extends AbstractDesignSystemGenericController
         return $this->renderPage('ajax', [
             'form_submit_behavior_demo' => $form_submit_behavior_demo->createView(),
             'form_submit_behavior_submitted' => $form_submit_behavior_demo->isSubmitted() && $form_submit_behavior_demo->isValid(),
+        ]);
+    }
+
+    /**
+     * A form answered by its page, in a modal as on its own: what it issued
+     * is shown by the page answering the submission, once.
+     */
+    #[Route(name: 'page_answer', path: 'page-answer')]
+    #[FormProcessor(
+        processorClass: FormPageAnswerDemoFormProcessor::class,
+        formArgumentName: 'form_page_answer_demo'
+    )]
+    public function pageAnswer(
+        Request $request,
+        FormInterface $form_page_answer_demo
+    ): Response {
+        return $this->renderPage('page_answer', [
+            'form_page_answer_demo' => $form_page_answer_demo->createView(),
+            'issued_code' => $request->attributes->get(FormPageAnswerDemoFormProcessor::ATTRIBUTE_CODE),
+            'issued_label' => $form_page_answer_demo->isSubmitted() ? $form_page_answer_demo->get('label')->getData() : null,
         ]);
     }
 }

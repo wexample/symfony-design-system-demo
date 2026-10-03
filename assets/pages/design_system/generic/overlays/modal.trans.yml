@@ -26,6 +26,9 @@ en:
     form_ajax:
       description: Show a rendered demo form inside a modal using AJAX. Escape and outside click are disabled, and it asks before closing if the form was modified.
       button: Open modal
+    form_page_answer:
+      description: "A form answered by its page: the code it issues comes back in the modal, shown once."
+      button: Open modal
     recursive:
       description: Open a dialog page inside another dialog — choose modal or panel.
       button_modal: Open in modal
@@ -243,6 +246,9 @@ fr:
     form_ajax:
       description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un modal utilisant AJAX. Échap et le clic extérieur sont désactivés, et il demande avant de se fermer si le formulaire a été modifié."
       button: 'Ouvrir le modal'
+    form_page_answer:
+      description: "Un formulaire dont la réponse est une page : le code émis revient dans la modale, affiché une seule fois."
+      button: Ouvrir la modale
     recursive:
       description: "Ouvrir une page de dialogue à l'intérieur d'un autre dialogue — choisir modal ou panneau."
       button_modal: 'Ouvrir en modal'

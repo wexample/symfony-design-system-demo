@@ -1,0 +1,17 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{#- A form whose answer is this page: in a modal, the page comes back in the
+    modal — it keeps its navigation (`data-page-navigation="contained"`) and
+    its processor answers with the page rather than a payload. -#}
+{%- block page_body -%}
+    <div class="block block--padded block--vertical" data-page-navigation="contained">
+        {%- if issued_code -%}
+            {{ message_success('@page::issued.title', '@page::issued.body') }}
+            <p>{{ issued_label }}</p>
+            <pre class="code-block"><code>{{ issued_code }}</code></pre>
+        {%- else -%}
+            <p class="lead">{{ '@page::help' | trans }}</p>
+            {{ form_load(render_pass, form_page_answer_demo, '@WexampleSymfonyDesignSystemDemoBundle/forms/demo/form_page_answer_demo_form.html.twig') }}
+        {%- endif -%}
+    </div>
+{%- endblock -%}
