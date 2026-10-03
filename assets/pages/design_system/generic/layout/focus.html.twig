@@ -1,0 +1,18 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+
+{#- One thing to do and nothing around it (`page_focus`): the window is one
+    region, the header and the footer stand on its ground, and the card sits in
+    the middle of it — signing in, a code, terms, a tunnel's step. -#}
+{%- set page_focus = true -%}
+
+{%- block page_body -%}
+    <section class="block block--card">
+        <div class="block--title"><span class="block--title-label">{{ '@page::card.title' | trans }}</span></div>
+        <div class="block--body stack--vertical">
+            <p>{{ '@page::card.body' | trans }}</p>
+        </div>
+        <div class="block--footer">
+            {{ button_link('ph:bold/arrow-left', '@page::card.back' | trans, path('wexample_design_system_generic_layout_index'), { class: 'button--flat' }) }}
+        </div>
+    </section>
+{%- endblock -%}
