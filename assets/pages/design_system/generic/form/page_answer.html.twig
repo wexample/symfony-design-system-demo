@@ -4,14 +4,27 @@
     modal — it keeps its navigation (`data-page-navigation="contained"`) and
     its processor answers with the page rather than a payload. -#}
 {%- block page_body -%}
-    <div class="block block--padded block--vertical" data-page-navigation="contained">
-        {%- if issued_code -%}
-            {{ message_success('@page::issued.title', '@page::issued.body') }}
-            <p>{{ issued_label }}</p>
-            <pre class="code-block"><code>{{ issued_code }}</code></pre>
-        {%- else -%}
-            <p class="lead">{{ '@page::help' | trans }}</p>
-            {{ form_load(render_pass, form_page_answer_demo, '@WexampleSymfonyDesignSystemDemoBundle/forms/demo/form_page_answer_demo_form.html.twig') }}
+    <section class="block block--card" data-page-navigation="contained">
+        <div class="block--body stack--vertical">
+            {%- if issued_code -%}
+                {{ message_success('@page::issued.title', '@page::issued.body') }}
+                <p>{{ issued_label }}</p>
+                <pre class="code-block"><code>{{ issued_code }}</code></pre>
+            {%- else -%}
+                <p class="lead">{{ '@page::help' | trans }}</p>
+                {#- Loaded without its actions: the card's foot holds them. -#}
+                {{ form_load(render_pass, form_page_answer_demo, '@WexampleSymfonyDesignSystemDemoBundle/forms/demo/form_page_answer_demo_form.html.twig', { actions: false }) }}
+            {%- endif -%}
+        </div>
+        {%- if not issued_code -%}
+            {#- The form's actions in the card's foot: a way out at one end, the
+                button sending the form at the other, outside the form tag. -#}
+            <div class="block--footer">
+                {{ form_actions(form_page_answer_demo, {
+                    outside: true,
+                    secondary: [{ icon: 'ph:bold/arrow-left', label: '@page::back' | trans, href: path('wexample_design_system_generic_form_index') }],
+                }) }}
+            </div>
         {%- endif -%}
-    </div>
+    </section>
 {%- endblock -%}
