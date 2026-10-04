@@ -1,0 +1,43 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/controls/layout/layout-controls.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- Each case says what to try with the pointer and with the keyboard:
+        the page is a bench to check them by hand. -#}
+    <h2>{{ '@page::section.value.title' | trans }}</h2>
+    <p>{{ '@page::section.value.description' | trans }}</p>
+    <div class="block block--padded cluster">
+        <code>a3f1c9e2-7b48-4d16-9c5a-2e8f0b6d4371</code>
+        {{ copy_button({ value: 'a3f1c9e2-7b48-4d16-9c5a-2e8f0b6d4371' }) }}
+        {{ copy_button({ value: 'a3f1c9e2-7b48-4d16-9c5a-2e8f0b6d4371', label: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.target.title' | trans }}</h2>
+    <p>{{ '@page::section.target.description' | trans }}</p>
+    <div class="block block--padded cluster">
+        <span id="interactions-address">https://example.com/invite/7f3a9c</span>
+        {{ copy_button({ target: 'interactions-address', label: true }) }}
+    </div>
+
+    <h2>{{ '@page::section.code.title' | trans }}</h2>
+    <p>{{ '@page::section.code.description' | trans }}</p>
+    {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {
+        lang: 'text',
+        code: "9483a-8b194\n28811-eb8b3\nb44d2-eb15a\n9d935-03932",
+        copy: true,
+    }) }}
+
+    <h2>{{ '@page::section.fallback.title' | trans }}</h2>
+    <p>{{ '@page::section.fallback.description' | trans }}</p>
+    <div class="block block--padded">
+        {{ fallback('@page::fallback.question', 'JBSWY3DPEHPK3PXPJBSWY3DPEHPK3PXP') }}
+    </div>
+
+    <h2>{{ '@page::section.check.title' | trans }}</h2>
+    <ul>
+        {%- for item in '@page::section.check.items' | trans -%}
+            <li>{{ item }}</li>
+        {%- endfor -%}
+    </ul>
+{%- endblock -%}

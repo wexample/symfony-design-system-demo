@@ -16,6 +16,9 @@ en:
     steppers:
       title: Steppers
       description: "Where a reader stands in a sequence of steps, with the ones behind to go back to."
+    interactions:
+      title: Interactions
+      description: "What a click, a key or a hover does beyond a button: copying a value, a block of code, a fallback."
 
   section:
     compound:
@@ -281,6 +284,9 @@ fr:
     steppers:
       title: Étapes
       description: "Où un lecteur se positionne dans une séquence d'étapes, avec celles derrière pour revenir en arrière."
+    interactions:
+      title: Interactions
+      description: "Ce que fait un clic, une touche ou un survol au-delà d'un bouton : copier une valeur, un bloc de code, une solution de secours."
   section:
     compound:
       title: 'Tout ensemble'

@@ -1,0 +1,63 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Interactions
+  page_icon: ph:bold/hand-pointing
+
+  intro: "What a click, a key or a hover does beyond pressing a button. Each case is a bench: try it with the pointer, then with the keyboard alone."
+
+  section:
+    value:
+      title: Copying a value
+      description: "copy_button({ value }): the icon alone where the button sits beside what it copies, or with its word. A check for two seconds once copied, a cross when the clipboard refused — never a claim that did not happen."
+    target:
+      title: Copying what the page shows
+      description: "copy_button({ target }): the text of an element, read as it is at the moment of the click."
+    code:
+      title: A block of code
+      description: "code-block with copy: true — the button shows in the corner while the block is pointed at or reached with Tab, and stays shown on a screen without a pointer."
+    fallback:
+      title: In a fallback
+      description: "The value of a fallback comes with its copy button."
+    check:
+      title: What to check
+      items:
+        - "Tab reaches every button; Enter and Space copy."
+        - "Over plain http (a development host) the copy still works, the older way."
+        - "Pasted elsewhere, the text is exactly the value: no space, no line added."
+        - "A screen reader says « Copied » after the click."
+
+  fallback:
+    question: "Cannot scan? Type this key in the app:"
+
+fr:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Interactions
+  page_icon: ph:bold/hand-pointing
+
+  intro: "Ce que fait un clic, une touche ou un survol au-delà d'un bouton qu'on presse. Chaque cas est un banc d'essai : à tester à la souris, puis au clavier seul."
+
+  section:
+    value:
+      title: Copier une valeur
+      description: "copy_button({ value }) : l'icône seule quand le bouton est à côté de ce qu'il copie, ou avec son mot. Une coche pendant deux secondes une fois copié, une croix si le presse-papier a refusé — jamais l'annonce d'une copie qui n'a pas eu lieu."
+    target:
+      title: Copier ce que la page affiche
+      description: "copy_button({ target }) : le texte d'un élément, lu tel qu'il est au moment du clic."
+    code:
+      title: Un bloc de code
+      description: "code-block avec copy: true — le bouton apparaît dans le coin quand on survole le bloc ou qu'on l'atteint avec Tab, et reste affiché sur un écran sans pointeur."
+    fallback:
+      title: Dans une solution de secours
+      description: "La valeur d'une solution de secours vient avec son bouton de copie."
+    check:
+      title: À vérifier
+      items:
+        - "Tab atteint chaque bouton ; Entrée et Espace copient."
+        - "En http simple (un hôte de développement), la copie marche quand même, à l'ancienne."
+        - "Collé ailleurs, le texte est exactement la valeur : ni espace ni ligne en plus."
+        - "Un lecteur d'écran annonce « Copié » après le clic."
+
+  fallback:
+    question: "Impossible de scanner ? Saisissez cette clé dans l'application :"
