@@ -4,7 +4,17 @@ en:
   page_title: Composition
   page_icon: ph:bold/layout
 
+  fallback:
+    key:
+      question: "Cannot scan? Type this key in the app:"
+    link:
+      question: "The button does not open?"
+      value: Open the page from here
+
   section:
+    fallback:
+      title: Fallback
+      description: "The other way, when the first one fails: the question, then a value copied in one click, or a link. Right under what it stands in for, aligned with it."
     vue:
       title: Vue
       description: "The picture and the code block as vue partials, taking the same options."
@@ -507,7 +517,17 @@ fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Composition
   page_icon: 'ph:bold/layout'
+
+  fallback:
+    key:
+      question: "Impossible de scanner ? Saisissez cette clé dans l'application :"
+    link:
+      question: "Le bouton ne s'ouvre pas ?"
+      value: Ouvrir la page d'ici
   section:
+    fallback:
+      title: Solution de secours
+      description: "L'autre voie, quand la première échoue : la question, puis une valeur copiée en un clic, ou un lien. Juste sous ce qu'elle remplace, alignée sur lui."
     vue:
       title: Vue
       description: "L'image et le bloc de code en tant que parties de vue, prenant les mêmes options."

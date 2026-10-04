@@ -113,6 +113,14 @@
         </div>
     </div>
 
+    <h2>{{ '@page::section.fallback.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.fallback.description' | trans }}</div>
+    <div class="block block--padded stack--vertical">
+        {{ fallback('@page::fallback.key.question', 'JBSWY3DPEHPK3PXPJBSWY3DPEHPK3PXP') }}
+        {{ fallback('@page::fallback.link.question', '@page::fallback.link.value', { href: '#' }) }}
+        {{ fallback('@page::fallback.key.question', 'JBSWY3DPEHPK3PXP', { center: true }) }}
+    </div>
+
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded stack--vertical">
