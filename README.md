@@ -1,6 +1,6 @@
 # symfony-design-system-demo
 
-Version: 10.0.2
+Version: 10.0.3
 
 A Symfony bundle that ships the showcase pages of `wexample/symfony-design-system`: a set of Twig pages under assets/pages/design_system/generic rendering buttons, inputs, menus, tables, modals, banners, spinners and forms in their real markup, each exposed as a route by a `#[TemplateBasedRoutes]` controller so the whole catalogue is browsable in a running application. Install it in a host project and the pages mount under the design system base route, grouped by controls, layout, content, components, dialog, feedback and form. It exists for the people building or integrating the design system — to see a component rendered, compare its variants and states side by side, and exercise the interactive ones (AJAX form submission, modal behaviours) against live code rather than a screenshot.
 
@@ -193,7 +193,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - doctrine/orm: ^3.0
 - symfony/uid: >=6.2
 - wexample/php-pseudocode: >=2.2.0
-- wexample/symfony-api: >=9.0.0
+- wexample/symfony-api: >=10.0.0
 - wexample/symfony-coding: >=4.0.0
 - wexample/symfony-design-system: >=29.0.0
 - wexample/symfony-forms: >=10.0.0
