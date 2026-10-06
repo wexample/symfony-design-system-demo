@@ -278,6 +278,23 @@
                 {{ button('ph:bold/arrow-right', '@page::stack.item.action' | trans) }}
             </div>
 
+            {#- Icon actions in a frame's corner, as the copy button of a code
+                block: shown while the frame is pointed at. -#}
+            <h3>{{ '@page::section.corner_actions.title' | trans }}</h3>
+            <div class="lead">{{ '@page::section.corner_actions.description' | trans }}</div>
+            <div class="lead has-corner-actions">
+                {#- The text alone is copied, not the button beside it. -#}
+                <span id="blocks-demo-lead">{{ '@page::corner_actions.lead' | trans }}</span>
+                <div class="corner-actions">{{ copy_button({ target: 'blocks-demo-lead' }) }}</div>
+            </div>
+            <div class="block block--padded has-corner-actions">
+                {{ '@page::corner_actions.block' | trans }}
+                <div class="corner-actions">
+                    <a class="action-icon" href="#" aria-label="{{ '@page::corner_actions.edit' | trans }}" data-tooltip="{{ '@page::corner_actions.edit' | trans }}">{{ icon('ph:bold/pencil-simple') }}</a>
+                    <a class="action-icon" href="#" aria-label="{{ '@page::corner_actions.open' | trans }}" data-tooltip="{{ '@page::corner_actions.open' | trans }}">{{ icon('ph:bold/arrow-square-out') }}</a>
+                </div>
+            </div>
+
             <h3>{{ '@page::section.stack_nested.title' | trans }}</h3>
             <div class="lead">{{ '@page::section.stack_nested.description' | trans }}</div>
             <div class="stack--horizontal">

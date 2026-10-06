@@ -8,6 +8,9 @@ en:
     body: the ground stays the block's own, only the leading edge carries the colour.
 
   section:
+    corner_actions:
+      title: Actions in a corner
+      description: "`has-corner-actions` on a frame — a lead, a block, a code block, a message — and its icon actions in a `corner-actions` inside it: in the top corner at its end, shown while the frame is pointed at or holds the keyboard, always on a screen without a pointer (`corner-actions--always` to show them for good). A frame holding running text keeps a column free for them."
     tone:
       title: A block carrying a tone
       description: "The colour of a state — or of a category — as a bar down the leading edge, and nothing else: the same bar a message wears, without the tinted ground, so a list of them reads as a list and not as an alarm. Any block takes it, a bar standing on a block included."
@@ -124,6 +127,12 @@ en:
     company:
       title: Company
       description: Every team, with the controls an organisation asks for.
+
+  corner_actions:
+    lead: This lead can be copied with the button in its corner.
+    block: A block with two actions in its corner, out of the way until it is pointed at.
+    edit: Edit
+    open: Open whole
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
