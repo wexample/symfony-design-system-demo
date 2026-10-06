@@ -33,14 +33,20 @@ export default {
       radioChoice: '',
       switchValue: false,
       behavior: 'default',
-      radioChoiceOptions: [
-        { value: 'option_a', label: '@vue::field.radio_choice.choice.option_a.label' },
-        { value: 'option_b', label: '@vue::field.radio_choice.choice.option_b.label' },
-        { value: 'option_c', label: '@vue::field.radio_choice.choice.option_c.label' },
-      ],
       submitEndpoint: 'test',
       formSubmitted: false,
     };
+  },
+
+  computed: {
+    // Said in words here: `@vue` names the domain of whoever translates, and
+    // the radio would read its own rather than this form's.
+    radioChoiceOptions() {
+      return ['option_a', 'option_b', 'option_c'].map((value) => ({
+        value,
+        label: this.trans(`@vue::field.radio_choice.choice.${value}.label`),
+      }));
+    },
   },
 
   methods: {

@@ -7,6 +7,9 @@ en:
   intro: "How a page is divided. These shapes take regions rather than content: they say where things stand, and know nothing of what stands there."
 
   page:
+    focus:
+      title: Focus
+      description: "One thing to do and nothing around it: the window as one region, a card in its middle."
     zones:
       title: Zones
       description: "The two-pane workspace: a split, a sized column, a scrollable body. What every explorer, editor and detail view in an app is built on."
@@ -32,9 +35,6 @@ ar:
   page_icon: 'ph:bold/layout'
   intro: 'كيف يتم تقسيم الصفحة. هذه الأشكال تأخذ مناطق بدلاً من المحتوى: تحدد أين تقع الأشياء، ولا تعرف شيئًا عما يوجد هناك.'
   page:
-    focus:
-      title: Focus
-      description: "One thing to do and nothing around it: the window as one region, a card in its middle."
     zones:
       title: المناطق
       description: 'مساحة العمل ذات اللوحين: عمود مقسوم، عمود بحجم محدد، جسم قابل للتمرير. ما يُبنى عليه كل مستكشف، ومحرر، وعرض تفاصيل في التطبيق.'
@@ -185,6 +185,9 @@ fr:
   page_icon: 'ph:bold/layout'
   intro: "Comment une page est divisée. Ces formes prennent des régions plutôt que du contenu : elles indiquent où se trouvent les choses, et ne savent rien de ce qui s'y trouve."
   page:
+    focus:
+      title: Focus
+      description: "Une seule chose à faire, rien autour : la fenêtre en une région, une carte au milieu."
     zones:
       title: Zones
       description: "L'espace de travail à deux volets : une division, une colonne de taille, un corps défilable. Sur quoi chaque explorateur, éditeur et vue détaillée dans une application est construit."
@@ -210,9 +213,6 @@ he:
   page_icon: 'ph:bold/layout'
   intro: 'איך דף מחולק. הצורות הללו תופסות אזורים ולא תוכן: הן מציינות היכן הדברים נמצאים, ואינן יודעות מה נמצא שם.'
   page:
-    focus:
-      title: Focus
-      description: "Une seule chose à faire, rien autour : la fenêtre en une région, une carte au milieu."
     zones:
       title: אזורים
       description: 'סביבת עבודה עם שני פאנלים: עמודה מחולקת, עמודה ממדי, גוף ניתן לגלילה. על מה שכל חוקר, עורך ותצוגת פרטים באפליקציה בנויה.'
