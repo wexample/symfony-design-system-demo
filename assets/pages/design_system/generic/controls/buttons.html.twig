@@ -38,6 +38,17 @@
     <div class="block block--padded cluster">{{ macros.render_links() }}</div>
     <div class="toolbar">{{ macros.render_links() }}</div>
 
+    <h2>{{ '@page::section.bare.title' | trans }}</h2>
+    <p>{{ '@page::section.bare.description' | trans }}</p>
+    <div class="cluster">
+        {%- set bare_marker = marker('dev', 'dev', { glyph: 'ph:bold/code' }) -%}
+        {{ button_menu(null, null, [
+            { icon: 'ph:bold/envelope-simple', label: '@page::bare.item_one' | trans, href: '#' },
+            { icon: 'ph:bold/gear', label: '@page::bare.item_two' | trans, href: '#' },
+        ], { trigger: bare_marker, class: 'button--bare' }) }}
+        {{ button('', '@page::bare.label' | trans, { class: 'button--bare' }) }}
+    </div>
+
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded cluster">
