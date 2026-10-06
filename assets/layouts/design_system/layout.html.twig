@@ -1,5 +1,10 @@
 {%- extends '@front/layouts/private/layout.html.twig' -%}
 
+{#- The navigation column widened by its edge against the page — the example of
+    `menu_left_resizable`: an invisible handle, the cursor saying it moves, the
+    width kept as the column being open is. -#}
+{%- set menu_left_resizable = true -%}
+
 {%- block layout_config -%}
     {{- render_pass.layoutRenderNode.setDefaultView(_self) -}}
     {{- parent() -}}
