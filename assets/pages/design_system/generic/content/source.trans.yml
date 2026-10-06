@@ -1,0 +1,18 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Source
+  page_icon: ph:bold/code
+
+  intro: "A text read as its source, what a rule found in it marked on it: each place tinted in its severity, a mark in the gutter on its line, the message and the rule under the pointer. Only ever on the source — a rendered preview shows none of it: one reads on one side and corrects on the other."
+
+  section:
+    source:
+      title: An annotated source
+      description: "`source-view`: a text, its language, and annotations `{ line, column, end_line, end_column, severity, message, code }` — 1-based, the end exclusive, as filestate's verdicts give them. The editor of `code-input`, read only."
+    sided:
+      title: Source and findings side by side
+      description: "`source-findings`: a finding clicked brings its place to the middle of the source, a place pointed at in the source lights its finding. One column under the other where the room is narrow."
+
+  finding:
+    message: "« basically » says nothing: the sentence reads the same without it."

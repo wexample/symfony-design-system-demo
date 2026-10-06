@@ -1,0 +1,34 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- A markdown file a rule found a word it forbids in, three times: each
+        place is a range, 1-based, its end exclusive, as filestate gives it. -#}
+    {%- set text = "# Release notes\n\nThis release is basically ready.\nMost fixes are basically small, and the\nupgrade path is basically unchanged.\n\n## Known issues\n\nNone." -%}
+    {%- set annotations = [3, 4, 5]|map(line => {
+        line: line,
+        column: line == 4 ? 16 : 17,
+        end_line: line,
+        end_column: line == 4 ? 25 : 26,
+        severity: 'warning',
+        message: '@page::finding.message' | trans,
+        code: 'banned_words.found',
+    }) -%}
+
+    <h2>{{ '@page::section.source.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.source.description' | trans }}</div>
+    {{ vue(render_pass, '@WexampleSymfonyCodingBundle/components/source-view', {
+        text: text,
+        language: 'md',
+        annotations: annotations,
+    }) }}
+
+    <h2>{{ '@page::section.sided.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.sided.description' | trans }}</div>
+    {{ vue(render_pass, '@WexampleSymfonyCodingBundle/components/source-findings', {
+        text: text,
+        language: 'md',
+        annotations: annotations,
+    }) }}
+{%- endblock -%}
