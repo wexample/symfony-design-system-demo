@@ -94,6 +94,21 @@
         {%- endfor -%}
     </div>
 
+    <h2>{{ '@page::section.leds.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.leds.description' | trans }}</div>
+    <div class="cluster">
+        {%- for tone in ['success', 'info', 'running', 'warning', 'error', 'dev', 'off', 'cat-mint'] -%}
+            {{ led(tone, tone) }}
+        {%- endfor -%}
+    </div>
+    {#- A summary, as a queue of jobs shows it: a count at zero is unlit. -#}
+    <div class="block block--padded cluster">
+        {%- for entry in [{ tone: 'success', count: 34, label: 'ok' }, { tone: 'running', count: 2, label: 'running' }, { tone: 'error', count: 0, label: 'errors' }, { tone: 'info', count: 0, label: 'queued' }] -%}
+            {{ led(entry.count > 0 ? entry.tone : 'off', entry.count ~ ' ' ~ ('@page::leds.' ~ entry.label) | trans) }}
+        {%- endfor -%}
+        {{ led('success', null, { title: '@page::leds.alone' | trans }) }}
+    </div>
+
     <h2>{{ '@page::section.progress.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.progress.description' | trans }}</div>
     <div class="cluster">

@@ -1,10 +1,19 @@
 en:
   page_title: Markers
   page_icon: ph:bold/seal-check
+  leds:
+    ok: ok
+    running: running
+    errors: errors
+    queued: queued
+    alone: A dot alone, named by its title
 
   intro: "One capsule for everything said about a thing in a word: a state, a name, a version, a category. They were two objects until the day a code and a state stood side by side in one header, a head apart, and nobody could say what the difference was meant to mean — so the shape is one and the tone is the whole of what tells them apart. What it carries is free: a word, a figure, a glyph, or two of the three. The circle stands where there is no room for a capsule, and the counter, which hangs from a row and is sized in the text it hangs from, is the one thing here that is not a marker."
 
   section:
+    leds:
+      title: LEDs
+      description: "A lit dot and its words: a state read at a glance in a line, by the dozen in a summary or a list of services. Smaller than a marker, quieter than a circle. off is the dot unlit — a count at zero —, running breathes."
     inline:
       title: In the middle of a sentence
       description: "A word set apart as it is read: a version, a phase, a category. The neutral tone, because a marker that arrives coloured has already made a claim about what it marks — and in a sentence there is nothing to claim."
@@ -434,8 +443,17 @@ fi:
 fr:
   page_title: Markers
   page_icon: 'ph:bold/seal-check'
+  leds:
+    ok: ok
+    running: en cours
+    errors: erreurs
+    queued: en file
+    alone: Un point seul, nommé par son titre
   intro: 'One capsule for everything said about a thing in a word: a state, a name, a version, a category. They were two objects until the day a code and a state stood side by side in one header, a head apart, and nobody could say what the difference was meant to mean — so the shape is one and the tone is the whole of what tells them apart. What it carries is free: a word, a figure, a glyph, or two of the three. The circle stands where there is no room for a capsule, and the counter, which hangs from a row and is sized in the text it hangs from, is the one thing here that is not a marker.'
   section:
+    leds:
+      title: LED
+      description: "Un point allumé et ses mots : un état lu d'un coup d'œil dans une ligne, par dizaines dans un résumé ou une liste de services. Plus petit qu'un marqueur, plus discret qu'un cercle. off est le point éteint — un compteur à zéro —, running respire."
     inline:
       title: 'In the middle of a sentence'
       description: 'A word set apart as it is read: a version, a phase, a category. The neutral tone, because a marker that arrives coloured has already made a claim about what it marks — and in a sentence there is nothing to claim.'
