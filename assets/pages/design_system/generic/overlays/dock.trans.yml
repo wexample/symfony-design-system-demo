@@ -1,0 +1,18 @@
+en:
+  page_title: Dock
+  page_icon: ph:bold/rows
+
+  intro: "A window docked at the foot of the screen, beside the page and not over it: nothing dims, nothing waits, the page stays usable. Its header folds it to its title and back. It takes a page the server renders — `target: 'dock'` — or what a script shows there, like a modal and a panel."
+  section:
+    page:
+      description: "A page loaded in a dock (`button_target(…, 'dock')`). Open both: they stand side by side."
+      button: Open a page
+      button_long: Open a long page
+    content:
+      description: "What a script shows itself — `showInTarget(app, target, { title, body, actions })` — in a modal, a panel or a dock: the same shell as a page's, drawn in the browser."
+      modal: In a modal
+      panel: In a panel
+      dock: In a dock
+  content:
+    title: Shown by a script
+    body: No page was asked of the server for this window; the script that opened it wrote what it holds.

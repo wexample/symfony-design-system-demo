@@ -1,0 +1,22 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.zone.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.zone.description' | trans }}</div>
+    {{ upload_dropzone(upload_dir, { name: 'demo' }) }}
+
+    <h2>{{ '@page::section.compact.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.compact.description' | trans }}</div>
+    {{ upload_dropzone(upload_dir, { name: 'demo', compact: true }) }}
+
+    <h2>{{ '@page::section.received.title' | trans }}</h2>
+    {%- if uploaded is empty -%}
+        <p class="text-empty">{{ '@page::section.received.empty' | trans }}</p>
+    {%- else -%}
+        <ul>
+            {%- for name in uploaded -%}<li>{{ file_path(name) }}</li>{%- endfor -%}
+        </ul>
+    {%- endif -%}
+{%- endblock -%}

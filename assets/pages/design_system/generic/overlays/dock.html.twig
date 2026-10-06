@@ -1,0 +1,24 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/overlays/layout/layout-overlays.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- A page the server renders, loaded in a docked window: two of them stand
+        side by side, the page still usable around them. -#}
+    <div class="block block--padded block--split">
+        <div class="lead">{{ '@page::section.page.description' | trans }}</div>
+        {{ button_target('ph:bold/app-window', '@page::section.page.button', path('wexample_design_system_generic_overlays_modal_test_simple'), 'dock') }}
+        {{ button_target('ph:bold/app-window', '@page::section.page.button_long', path('wexample_design_system_generic_overlays_modal_test_long'), 'dock') }}
+    </div>
+
+    {#- What a script shows itself, in any of the three windows: the same shell
+        as a page's, drawn in the browser. -#}
+    <div class="block block--padded block--split dock-demo"
+         data-title="{{ '@page::content.title' | trans }}"
+         data-body="{{ '@page::content.body' | trans }}">
+        <div class="lead">{{ '@page::section.content.description' | trans }}</div>
+        {{ button('ph:bold/app-window', '@page::section.content.modal', { class: 'dock-demo--show', attr: { 'data-target': 'modal' } }) }}
+        {{ button('ph:bold/sidebar-simple', '@page::section.content.panel', { class: 'dock-demo--show', attr: { 'data-target': 'panel' } }) }}
+        {{ button('ph:bold/rows', '@page::section.content.dock', { class: 'dock-demo--show', attr: { 'data-target': 'dock' } }) }}
+    </div>
+{%- endblock -%}

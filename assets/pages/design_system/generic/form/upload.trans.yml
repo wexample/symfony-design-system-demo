@@ -1,0 +1,17 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Upload
+  page_icon: ph:bold/upload-simple
+
+  intro: "Files dropped on a zone or picked with its button are sent in pieces to the directory the page signed for — any kind, any size —, and followed in the uploads window docked at the foot of the screen, which can be folded or closed while they go."
+  section:
+    zone:
+      title: A drop zone
+      description: "`upload_dropzone(directory)`: drop files here, or pick them. The address is signed for this one directory; the browser cannot send anything elsewhere."
+    compact:
+      title: On one line
+      description: "`compact: true`, where a page has little room: the words, then the button."
+    received:
+      title: Received
+      empty: Nothing yet. Reload the page once a file is sent.

@@ -24,6 +24,19 @@ final class FormController extends AbstractDesignSystemGenericController
 {
     // Template-based routes for index and vue are auto-generated.
 
+    // Files dropped or picked, sent in pieces to a directory of the demo's
+    // own, under the app's var: the page signs the address for it.
+    #[Route(name: 'upload', path: 'upload')]
+    public function upload(
+        #[\Symfony\Component\DependencyInjection\Attribute\Autowire('%kernel.project_dir%/var/design-system-uploads')]
+        string $uploadDir,
+    ): Response {
+        return $this->renderPage('upload', [
+            'upload_dir' => $uploadDir,
+            'uploaded' => is_dir($uploadDir) ? array_values(array_diff(scandir($uploadDir) ?: [], ['.', '..'])) : [],
+        ]);
+    }
+
     #[Route(name: 'rendered', path: 'rendered')]
     #[FormProcessor(
         processorClass: FormSubmitBehaviorDemoFormProcessor::class,
