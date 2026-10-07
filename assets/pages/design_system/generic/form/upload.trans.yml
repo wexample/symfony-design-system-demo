@@ -12,6 +12,10 @@ en:
     compact:
       title: On one line
       description: "`compact: true`, where a page has little room: the words, then the button."
+    restricted:
+      title: Kinds and size
+      description: "`accept` — extensions or MIME types, as the HTML attribute reads them — and `max_size`, in bytes, are signed into the address with the directory. The picker shows only the kinds accepted; the server refuses the rest, a file too large on its first piece, a kind told by its content once whole, and the uploads window says why. Here: spreadsheets and images, 2 MB at most."
+      hint: Spreadsheets or images, 2 MB at most
     received:
       title: Received
       empty: Nothing yet. Reload the page once a file is sent.

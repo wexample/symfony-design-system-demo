@@ -11,6 +11,10 @@
     <div class="lead">{{ '@page::section.compact.description' | trans }}</div>
     {{ upload_dropzone(upload_dir, { name: 'demo', compact: true }) }}
 
+    <h2>{{ '@page::section.restricted.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.restricted.description' | trans }}</div>
+    {{ upload_dropzone(upload_dir, { name: 'demo', compact: true, accept: ['.xlsx', '.csv', 'image/*'], max_size: 2 * 1024 * 1024, hint: '@page::section.restricted.hint' }) }}
+
     <h2>{{ '@page::section.received.title' | trans }}</h2>
     {%- if uploaded is empty -%}
         <p class="text-empty">{{ '@page::section.received.empty' | trans }}</p>
