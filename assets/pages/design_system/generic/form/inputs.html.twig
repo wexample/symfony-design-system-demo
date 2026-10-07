@@ -59,6 +59,24 @@
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/number-input', { id: 'addon_vue_duration', name: 'duration', label: '@page::addon.duration' | trans, modelValue: '45', suffix: 'min', translate: false }) }}
     </form>
 
+    {#- What a simulation bar holds: one choice among a few as segments, and
+        values taken along a scale, said as they move. The same fields twice,
+        drawn by twig then by vue. -#}
+    {% set window_options = [
+        { value: '3', label: '@page::scale.window_3' },
+        { value: '6', label: '@page::scale.window_6' },
+        { value: '12', label: '@page::scale.window_12' }
+    ] %}
+    <h2>{{ '@page::section.scale.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.scale.description' | trans }}</div>
+    <form class="block block--padded form form--columns" onsubmit="return false">
+        {{ gallery.field(render_pass, 'radio-input', { id: 'scale_window', name: 'window', label: '@page::scale.window' | trans, choices: window_options, value: '6', segmented: true }) }}
+        {{ gallery.field(render_pass, 'range-input', { id: 'scale_coverage', name: 'coverage', label: '@page::scale.coverage' | trans, min: 0.5, max: 2, step: 0.05, value: 1.2 }) }}
+        {{ gallery.field(render_pass, 'range-input', { id: 'scale_buffer', name: 'buffer', label: '@page::scale.buffer' | trans, min: 0, max: 8, step: 1, value: 2, suffix: '@page::scale.weeks' | trans }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/radio-input', { id: 'scale_vue_window', name: 'vue_window', label: '@page::scale.window' | trans, options: window_options|map(option => option|merge({ label: option.label|trans })), modelValue: '3', segmented: true, translate: false }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/range-input', { id: 'scale_vue_buffer', name: 'vue_buffer', label: '@page::scale.buffer' | trans, min: 0, max: 8, step: 1, modelValue: 4, suffix: '@page::scale.weeks' | trans, translate: false }) }}
+    </form>
+
     {#- Frozen fields beside an editable one, so the difference reads at a
         glance: the forms package renders a field frozen by Symfony's `disabled`
         exactly this way, and a display value with the markup below. -#}

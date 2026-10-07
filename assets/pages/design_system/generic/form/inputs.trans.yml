@@ -13,6 +13,9 @@ en:
     fields:
       title: Fields
       description: "One of each, once. Press Play above and they are filled in turn, by the same calls an agent would make — which is the only way to know the contract holds for all of them."
+    scale:
+      title: Segments and scales
+      description: "`segmented: true` draws a radio group as a strip of segments, for one choice among a few short ones: the same radios, moved along by the arrows, sending the same value. `range-input` takes a value along a scale — `min`, `max`, `step` — and says it beside its label as it moves, in the page's locale and with the decimals its step asks for; `suffix` is a word after it, never submitted. The vue twin emits on every step, so a page can recompute as the thumb goes."
     addon:
       title: A unit beside the value
       description: "A fixed word — a unit, a currency — drawn in the field's frame, before or after the value. Screen readers read it with the field; it is not part of the value, cannot be focused, and nothing of it is submitted. The frozen look holds with it."
@@ -38,6 +41,14 @@ en:
       title: Switch, in vue
       description: "The same switch inside a vue tree, where the checked state is state and not a data attribute a script flips."
 
+  scale:
+    window: Window
+    window_3: 3 months
+    window_6: 6 months
+    window_12: 12 months
+    coverage: Coverage coefficient
+    buffer: Buffer
+    weeks: weeks
   addon:
     weight: Weight
     price: Price
