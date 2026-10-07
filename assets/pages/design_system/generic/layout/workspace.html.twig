@@ -18,7 +18,7 @@
             <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
                 {#- The page's heading, where the page puts it: the layout was told
                     the title is shown, and this bar is what shows it. -#}
-                <h1 class="toolbar--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <h1 class="toolbar--title">{{ page_title|default(null) ?: '@page::page_title'|trans }}</h1>
                 <div class="toolbar--group">
                     {{ marker('success', '@page::editor.state' | trans, { compact: true }) }}
                 </div>

@@ -47,7 +47,7 @@
             which shows between the tiles when they are spaced. -#}
         <div class="zone zone--split zone--split--vertical">
             <div class="zone zone--narrow zone--panel toolbar toolbar--shaded toolbar--compact">
-                <h1 class="toolbar--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <h1 class="toolbar--title">{{ page_title|default(null) ?: '@page::page_title'|trans }}</h1>
                 <div class="toolbar--group">
                     {#- A closed embed comes back with the next page loaded into it. -#}
                     {{ button_target('ph:bold/arrow-counter-clockwise', '@page::mode.reopen' | trans, path(panel, { service: 'api' }), 'dashboard-api') }}

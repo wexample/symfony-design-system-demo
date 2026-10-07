@@ -11,7 +11,7 @@
             out of it — it is a region of the page, not one of the columns. -#}
         <div class="zone zone--split zone--split--scroll">
             {%- set first %}
-                <h1 class="workspace-columns--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <h1 class="workspace-columns--title">{{ page_title|default(null) ?: '@page::page_title'|trans }}</h1>
                 <p class="lead">{{ '@page::intro' | trans }}</p>
 
                 <h2>{{ '@page::section.scroll.title' | trans }}</h2>

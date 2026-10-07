@@ -11,7 +11,7 @@
             column of text and not like a pane. -#}
         <div class="zone zone--narrow zone--size-7 zone--split zone--split--vertical zone--panel">
             <div class="zone zone--narrow toolbar toolbar--shaded toolbar--compact">
-                <h1 class="toolbar--title">{{ page_title | default('@page::page_title' | trans) }}</h1>
+                <h1 class="toolbar--title">{{ page_title|default(null) ?: '@page::page_title'|trans }}</h1>
                 <div class="toolbar--group">
                     {{ marker('neutral', '@page::work.size' | trans, { compact: true }) }}
                 </div>
