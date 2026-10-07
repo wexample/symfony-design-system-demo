@@ -29,6 +29,9 @@ en:
     figure:
       title: Figures
       description: A single oversized value or icon, centered. Used for dashboard counters and status tiles — add block--square to keep the tile square whatever its width.
+    key_figures:
+      title: Key figures
+      description: "The figure read as a dashboard's key figure: `block--figure--start` lays it from the line's start, the label above, the value with its unit set back (`block--figure-unit`), and a line under it saying what it is made of (`block--figure-sub`). `block--tone-cat-<name>` draws the category's bar down the edge; an `a.block--link` opens the figure's view. In a `grid`, the row goes to several lines as the room narrows."
     stacks:
       title: Stacks
     stack_horizontal:
@@ -103,6 +106,19 @@ en:
     framed:
       title: Throughput
       label: Events per second
+  key_figure:
+    relaunch:
+      label: To relaunch
+      sub: 123 pieces · 4 groups
+    load:
+      label: Load
+      sub: 3 groups above 85 %
+    woven:
+      label: Woven this week
+      sub: 41 orders
+    late:
+      label: Late orders
+      sub: 2 at risk next week
 
   tab:
     one: Overview

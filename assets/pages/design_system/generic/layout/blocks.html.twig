@@ -243,6 +243,31 @@
                 </div>
             </div>
 
+            {#- Key figures in a row: the label above, the value and its unit,
+                the line under it; a category's bar down the edge, and a card
+                that opens its view is the card as a link. -#}
+            <h2>{{ '@page::section.key_figures.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.key_figures.description' | trans }}</div>
+            <div class="grid">
+                {%- for kpi in [
+                    { key: 'relaunch', value: '7', unit: null, tone: 'ruby', href: '#' },
+                    { key: 'load', value: '92', unit: '%', tone: 'sunflower', href: '#' },
+                    { key: 'woven', value: '1,284', unit: 'm²', tone: 'mint', href: null },
+                    { key: 'late', value: '3', unit: null, tone: 'blue-jeans', href: '#' },
+                ] -%}
+                    {%- set tag = kpi.href ? 'a' : 'div' -%}
+                    <{{ tag }} class="block block--card block--tone-cat-{{ kpi.tone }}{{ kpi.href ? ' block--link' }}"{% if kpi.href %} href="{{ kpi.href }}"{% endif %}>
+                        <div class="block--figure block--figure--start">
+                            <span class="block--figure-label">{{ ('@page::key_figure.' ~ kpi.key ~ '.label') | trans }}</span>
+                            <span class="block--figure-value">{{ kpi.value }}
+                                {%- if kpi.unit %}<span class="block--figure-unit">{{ kpi.unit }}</span>{% endif -%}
+                            </span>
+                            <span class="block--figure-sub">{{ ('@page::key_figure.' ~ kpi.key ~ '.sub') | trans }}</span>
+                        </div>
+                    </{{ tag }}>
+                {%- endfor -%}
+            </div>
+
             <h2>{{ '@page::section.tone.title' | trans }}</h2>
             <div class="lead">{{ '@page::section.tone.description' | trans }}</div>
             <div class="stack--vertical">
