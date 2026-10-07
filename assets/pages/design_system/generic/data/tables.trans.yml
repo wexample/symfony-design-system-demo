@@ -49,6 +49,9 @@ en:
     sorting:
       title: Sorting
       description: "A header that sorts is a link on the server and a button in vue: ascending, descending, then back to the order the page declared, which the list opens on and which its arrow shows from the start. Empty dates go last both ways, and names compare the way the language orders them. Here the table sorts the rows it was given itself; a controller paging its list reads the same query instead."
+    figures:
+      title: Codes, figures and totals
+      description: "`cell: 'code'` sets an identifier in the mono face; `cell: 'number'`, or a `unit`, writes a figure in the page's locale. `negative: true` draws a figure below zero in the error tone, its minus sign saying it too. `totals` is a row the page hands over, drawn under the others — the table adds nothing up, holding one page or a filtered list. Drawn by the server, then by vue."
     sorting_vue:
       title: Sorting in the browser, from twig
       description: "`vue: true` hands the same columns and rows to the vue twin: it sorts and searches the whole list in the browser, with no page load. For a list the page holds whole — a short one, or one no api serves."
@@ -144,6 +147,12 @@ en:
     city: City
     measured: Last measurement
     actions: Actions
+  figures:
+    code: Code
+    item: Item
+    net: Net supply
+    area: Area
+    total: Total
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'

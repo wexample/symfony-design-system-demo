@@ -267,6 +267,29 @@
             ) }}
         </section>
 
+        {#- Figures as a planning sheet holds them: codes in the mono face, a
+            shortfall below zero in the error tone, the totals handed over under
+            the rows. The same list twice: drawn by the server, then by vue. -#}
+        {%- set figures_columns = [
+            { key: 'code', label: '@page::figures.code' | trans, cell: 'code' },
+            { key: 'item', label: '@page::figures.item' | trans },
+            { key: 'net', label: '@page::figures.net' | trans, cell: 'number', align: 'right', negative: true },
+            { key: 'area', label: '@page::figures.area' | trans, unit: 'm²', digits: 1, align: 'right' },
+        ] -%}
+        {%- set figures_rows = [
+            { code: 'VS-2041', item: 'Atlas', net: 12, area: 18.5 },
+            { code: 'LO-0007', item: 'Boréal', net: -4, area: 9 },
+            { code: 'VS-1180', item: 'Cyprès', net: 0, area: 6.5 },
+            { code: 'LO-0315', item: 'Dune', net: -11, area: 22.5 },
+        ] -%}
+        {%- set figures_totals = { item: '@page::figures.total' | trans, net: -3, area: 56.5 } -%}
+        <section>
+            <h2>{{ '@page::section.figures.title' | trans }}</h2>
+            <p>{{ '@page::section.figures.description' | trans }}</p>
+            {{ data_table(figures_columns, figures_rows, { totals: figures_totals }) }}
+            {{ data_table(figures_columns, figures_rows, { totals: figures_totals, vue: true }) }}
+        </section>
+
         <section>
             <h2>{{ '@page::section.markdown.title' | trans }}</h2>
             <p>{{ '@page::section.markdown.description' | trans }}</p>
@@ -322,8 +345,8 @@
             <h2>{{ '@page::section.sticky.title' | trans }}</h2>
             <p>{{ '@page::section.sticky.description' | trans }}</p>
             {%- set long_rows = [] -%}
-            {%- for i in 1..40 -%}
-                {%- set long_rows = long_rows|merge([{ index: i, name: 'Row ' ~ i, state: i is divisible by(7) ? 'warning' : 'success' }]) -%}
+            {%- for i in 1..12 -%}
+                {%- set long_rows = long_rows|merge([{ index: i, name: 'Row ' ~ i, state: i is divisible by(4) ? 'warning' : 'success' }]) -%}
             {%- endfor -%}
             {{ data_table(
                 [
