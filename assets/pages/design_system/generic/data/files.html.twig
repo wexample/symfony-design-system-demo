@@ -31,7 +31,7 @@
     <h2>{{ '@page::section.twig.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.twig.description' | trans }}</div>
     <div class="cluster">
-        {{ file_explorer(listing, crumbs) }}
-        {{ file_explorer(listing, crumbs, { view: 'grid' }) }}
+        {{ file_explorer(listing, crumbs, { title: '@page::root' | trans }) }}
+        {{ file_explorer(listing, crumbs, { view: 'grid', title: '@page::root' | trans }) }}
     </div>
 {%- endblock -%}
