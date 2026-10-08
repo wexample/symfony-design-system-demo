@@ -1,5 +1,6 @@
 <script>
 import ImageCrop from '@wexample/symfony-design-system/components/image-crop/image-crop.vue';
+import FileInput from '@wexample/symfony-design-system/components/form/file-input/file-input.vue';
 
 // Two cuts a page asks for: a portrait, square and shown round, and a
 // signature, free, on a transparent ground. The images are drawn here rather
@@ -60,7 +61,8 @@ export default {
   template: '#vue-template-wexample-symfony-design-system-demo-bundle-components-demo-image-crop-demo-image-crop',
 
   components: {
-    ImageCrop
+    ImageCrop,
+    FileInput
   },
 
   data() {
@@ -90,8 +92,8 @@ export default {
       item.preview = blob ? URL.createObjectURL(blob) : null;
     },
 
-    pick(item, event) {
-      const file = event.target.files?.[0];
+    pick(item, files) {
+      const file = files?.[0];
 
       if (file) {
         item.src = URL.createObjectURL(file);

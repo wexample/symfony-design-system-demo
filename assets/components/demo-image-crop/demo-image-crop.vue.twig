@@ -2,6 +2,7 @@
 
 {%- block vue_require -%}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/image-crop') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/file-input') -}}
 {%- endblock -%}
 
 {%- block vue_body -%}
@@ -19,10 +20,11 @@
                 <img v-if="item.preview" :src="item.preview" alt="" class="demo-image-crop--preview" :class="{ 'demo-image-crop--preview--round': item.round }">
                 <code v-if="item.area">x [[ item.area.x ]] · y [[ item.area.y ]] · [[ item.area.width ]] × [[ item.area.height ]]</code>
             </div>
-            <label class="text-secondary">
-                Try an image of yours:
-                <input type="file" accept="image/*" @change="pick(item, $event)">
-            </label>
+            <file-input
+                    label="Try an image of yours"
+                    accept="image/*"
+                    @update:model-value="(files) => pick(item, files)"
+            ></file-input>
         </div>
     </div>
 {%- endblock -%}
