@@ -85,4 +85,8 @@
             ratio: '16-9'
         }) }}
     </div>
+
+    <h2>{{ '@page::section.crop.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.crop.description' | trans }}</div>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-image-crop') }}
 {%- endblock -%}

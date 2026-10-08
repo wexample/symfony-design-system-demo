@@ -1,0 +1,28 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/image-crop') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="grid demo-image-crop">
+        <div v-for="(item, index) in cases" :key="item.key" class="block block--padded stack--vertical">
+            <h3>[[ item.key === 'portrait' ? 'Portrait — 1:1, shown round' : 'Signature — free' ]]</h3>
+            <image-crop
+                    :ref="'crop-' + index"
+                    :src="item.src"
+                    :aspect="item.aspect"
+                    :round="item.round"
+                    @update:model-value="(area) => onChange(item, area, index)"
+            ></image-crop>
+            <div class="cluster demo-image-crop--result">
+                <img v-if="item.preview" :src="item.preview" alt="" class="demo-image-crop--preview" :class="{ 'demo-image-crop--preview--round': item.round }">
+                <code v-if="item.area">x [[ item.area.x ]] · y [[ item.area.y ]] · [[ item.area.width ]] × [[ item.area.height ]]</code>
+            </div>
+            <label class="text-secondary">
+                Try an image of yours:
+                <input type="file" accept="image/*" @change="pick(item, $event)">
+            </label>
+        </div>
+    </div>
+{%- endblock -%}

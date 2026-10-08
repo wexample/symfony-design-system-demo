@@ -1,0 +1,14 @@
+@use '@wexample/symfony-design-system/components/image-crop/image-crop';
+@use '@wexample/symfony-design-system/css/shapes/grid';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+
+// The cut, as it would be sent: small, beside where it was cut from.
+.demo-image-crop--preview {
+  max-width: 8rem;
+  max-height: 6rem;
+  border-radius: var(--radius-media, var(--radius-box));
+}
+
+.demo-image-crop--preview--round {
+  border-radius: 50%;
+}

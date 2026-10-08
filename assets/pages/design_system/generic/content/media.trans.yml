@@ -17,6 +17,9 @@ en:
     document:
       title: Embedded document
       description: "An iframe fills its box, so the box carries the size: a ratio modifier, or media--fill to take whatever height the parent gives."
+    crop:
+      title: Crop
+      description: "What part of an image to keep, chosen over the image: the area moves, a corner sizes it, the arrows move it and with Shift size it. It is said in the image's own pixels — what a server crops by — and crop() cuts it here when the cut is sent instead. A ratio holds it (1 for a portrait, shown round), or it is free, as a signature needs."
 
   document:
     title: Placeholder document
@@ -158,6 +161,9 @@ fr:
     document:
       title: 'Document intégré'
       description: 'Un iframe remplit sa boîte, donc la boîte porte la taille : un modificateur de ratio, ou media--fill pour prendre la hauteur que le parent donne.'
+    crop:
+      title: Recadrage
+      description: "Quelle partie d'une image garder, choisie sur l'image : la zone se déplace, un coin la redimensionne, les flèches la déplacent et avec Maj la redimensionnent. Elle est donnée en pixels de l'image — ce par quoi un serveur recadre — et crop() la découpe ici quand c'est la découpe qui est envoyée. Un ratio la tient (1 pour un portrait, affiché rond), ou elle est libre, comme pour une signature."
   document:
     title: 'Document de remplacement'
 
