@@ -343,6 +343,31 @@
             "notes": []
         },
         {
+            "key": "demo-image-crop",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": null,
+            "formats": {
+                "style": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-image-crop/demo-image-crop.scss"
+                ],
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-image-crop/demo-image-crop.vue.twig",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-image-crop/demo-image-crop.vue"
+                ]
+            },
+            "stances": {
+                "style": "expected",
+                "template": "undecided",
+                "vue": "expected",
+                "script": "undecided",
+                "schema": "undecided",
+                "ai": "undecided",
+                "react": "undecided",
+                "flutter": "undecided"
+            },
+            "notes": []
+        },
+        {
             "key": "demo-progress",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,
