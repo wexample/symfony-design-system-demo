@@ -36,8 +36,11 @@
 
     <h2>{{ '@page::section.check.title' | trans }}</h2>
     <ul>
-        {%- for item in '@page::section.check.items' | trans -%}
-            <li>{{ item }}</li>
+        {#- A yml list is read item by item: `section.check.items.0`, `.1`… -#}
+        {%- for index in 0..19 -%}
+            {%- if trans_exists('@page::section.check.items.' ~ index) -%}
+                <li>{{ ('@page::section.check.items.' ~ index) | trans }}</li>
+            {%- endif -%}
         {%- endfor -%}
     </ul>
 {%- endblock -%}

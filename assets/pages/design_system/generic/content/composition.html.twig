@@ -23,8 +23,11 @@
 
         <h4>{{ '@page::article.list_title' | trans }}</h4>
         <ul>
-            {% for item in '@page::article.list' | trans %}
-                <li>{{ item }}</li>
+            {#- A yml list is read item by item: `article.list.0`, `.1`… -#}
+            {% for index in 0..19 %}
+                {% if trans_exists('@page::article.list.' ~ index) %}
+                    <li>{{ ('@page::article.list.' ~ index) | trans }}</li>
+                {% endif %}
             {% endfor %}
         </ul>
 
