@@ -1,0 +1,12 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/period-nav') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="stack--vertical">
+        <period-nav hash-key="period" :min="min" @change="period = $event"></period-nav>
+        <code v-if="period">[[ period.key ]] — from [[ period.from ]] to [[ period.to ]]</code>
+    </div>
+{%- endblock -%}

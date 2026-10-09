@@ -39,4 +39,8 @@
         </div>
         <div class="empty">{{ 'No items available.' }}</div>
     </div>
+
+    <h2>{{ '@page::section.period.title' | trans }}</h2>
+    <p>{{ '@page::section.period.body' | trans }}</p>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-period') }}
 {%- endblock -%}

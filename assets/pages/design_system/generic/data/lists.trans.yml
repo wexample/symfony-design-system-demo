@@ -9,6 +9,9 @@ en:
       title: Default
     empty:
       title: Empty state
+    period:
+      title: By period
+      body: "A year or a month at a time: the one before, the one after, today. Kept in the address — reload, the period stays —, and stopped two years back here. What it tells is what a list or a chart asks the server for."
 
   search:
     placeholder: Filter the list...
@@ -222,6 +225,9 @@ fr:
       title: 'Par défaut'
     empty:
       title: 'État vide'
+    period:
+      title: Par période
+      body: "Une année ou un mois à la fois : le précédent, le suivant, aujourd'hui. Gardée dans l'adresse — rechargez, la période reste —, et arrêtée ici deux ans en arrière. Ce qu'elle annonce est ce qu'une liste ou un graphique demande au serveur."
   search:
     placeholder: 'Filtrer la liste...'
   header:
