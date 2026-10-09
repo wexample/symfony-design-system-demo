@@ -23,6 +23,9 @@ en:
       description: A narrow column sized on the --size scale, next to a body that absorbs the remaining width.
     card:
       title: Cards
+    mark:
+      title: A mark in the corner
+      description: "`block--mark` lays a small icon in the top corner at the start of a block: what it is — the type of a card laid in a diagram, the kind of a document —, beside what it says, not a title."
     link:
       title: A block that is a link
       description: "The whole card is the link — for a choice made by picking one card among several: a plan, a branch, a template. It reads as text, not as a muted action; under the pointer its ground takes a nuance and its edge firms up, and the keyboard finds it by the focus ring every control wears."
@@ -871,6 +874,9 @@ fr:
       description: "Une colonne étroite dimensionnée sur l'échelle --size, à côté d'un corps qui absorbe la largeur restante."
     card:
       title: Cartes
+    mark:
+      title: Une marque dans le coin
+      description: "`block--mark` pose une petite icône dans le coin supérieur du début d'un bloc : ce qu'il est — le type d'une carte posée dans un schéma, la nature d'un document —, à côté de ce qu'il dit, pas un titre."
     link:
       title: 'Un bloc qui est un lien'
       description: "Toute la carte est le lien — pour un choix fait en sélectionnant une carte parmi plusieurs : un plan, une branche, un modèle. Cela se lit comme du texte, pas comme une action atténuée ; sous le pointeur, son sol prend une nuance et son bord se renforce, et le clavier le trouve par l'anneau de focus que chaque contrôle porte."

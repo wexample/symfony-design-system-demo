@@ -184,6 +184,18 @@
                 </div>
             </div>
 
+            <h2>{{ '@page::section.mark.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.mark.description' | trans }}</div>
+            <div class="stack--horizontal">
+                {%- for mark in ['ph:bold/user', 'ph:bold/gear', 'ph:bold/file-text'] -%}
+                    <div class="block block--card block--padded">
+                        <span class="block--mark" aria-hidden="true">{{ icon(mark) }}</span>
+                        <h3>{{ '@page::block.one.title' | trans }}</h3>
+                        <p>{{ '@page::block.one.description' | trans }}</p>
+                    </div>
+                {%- endfor -%}
+            </div>
+
             <h2>{{ '@page::section.link.title' | trans }}</h2>
             <div class="lead">{{ '@page::section.link.description' | trans }}</div>
             <div class="grid grid--3">
