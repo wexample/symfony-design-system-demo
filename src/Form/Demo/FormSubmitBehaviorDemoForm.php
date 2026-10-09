@@ -5,6 +5,7 @@ namespace Wexample\SymfonyDesignSystemDemo\Form\Demo;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
+use Symfony\Component\Validator\Constraints\Length;
 use Wexample\Helpers\Helper\PlaceholderHelper;
 use Wexample\SymfonyForms\Form\AbstractForm;
 use Wexample\SymfonyForms\Form\Type\ButtonInputType;
@@ -95,6 +96,8 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     'auto_resize' => true,
                     'help' => true,
                     'data' => 'Demo long text for the textarea field.',
+                    // A limit, for the field to count what is left of it.
+                    'constraints' => [new Length(max: 140)],
                     'attr' => [
                         'placeholder' => true,
                     ],
