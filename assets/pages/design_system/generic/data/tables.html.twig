@@ -360,6 +360,30 @@
         </section>
 
         <section>
+            <h2>{{ '@page::section.zone.title' | trans }}</h2>
+            <p>{{ '@page::section.zone.description' | trans }}</p>
+            {#- Two zones of a fixed height: three rows written by the server,
+                the table's ground running under them to the bottom; a vue
+                collection with its search above and its pages below. -#}
+            <div class="zone zone--split tables-demo--zones">
+                <div class="zone zone--panel zone--table">
+                    {{ data_table(
+                        [
+                            { key: 'index', label: '#', class: 'table--cell--fit' },
+                            { key: 'name', label: '@page::column.default.name' | trans },
+                            { key: 'state', label: '@page::column.links.state' | trans, cell: 'status', align: 'center' },
+                        ],
+                        long_rows|slice(0, 3),
+                        { fill: true }
+                    ) }}
+                </div>
+                <div class="zone zone--panel zone--table">
+                    {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-entity-table') }}
+                </div>
+            </div>
+        </section>
+
+        <section>
             <h2>{{ '@page::section.vue.title' | trans }}</h2>
             {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/table/demo-entity-table') }}
         </section>

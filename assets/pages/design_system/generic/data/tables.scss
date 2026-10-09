@@ -10,3 +10,11 @@
 .tables-demo--wide .table--cell {
   white-space: nowrap;
 }
+
+// Zones of a fixed height, for the table given one to show its ground running
+// to the bottom.
+// Two classes: a zone is as tall as what holds it, and the system's sheet may
+// land after this one.
+.zone.tables-demo--zones {
+  height: 22rem;
+}
