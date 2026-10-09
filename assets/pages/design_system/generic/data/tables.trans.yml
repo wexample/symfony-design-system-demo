@@ -37,7 +37,7 @@ en:
       description: "A long table is read column by column as much as row by row. With `sticky`, the header stays in view while the rows scroll under it; a page with something of its own pinned at the top says how far down in `--table-sticky-top`."
     zone:
       title: A table in a zone of its own
-      description: "A `zone--table` zone is given to the table whole: what drives it at the top, its pages at the foot, out of what scrolls, and between them the table's ground down to the bottom of the zone, even for three rows. Any table goes in it, written by the server or by a vue."
+      description: "A `zone--table` zone is given to the table whole: what drives it at the top, its pages at the foot, out of what scrolls, and between them the table's ground down to the bottom of the zone, even for three rows. Any table goes in it, written by the server or by a vue. With `natural`, as the one on the left, the table keeps the width of its columns, neither stretched nor squeezed."
     striped:
       title: Striped rows, lit under the pointer
     selection:
@@ -923,7 +923,7 @@ fr:
       description: "Une longue table est lue colonne par colonne autant que ligne par ligne. Avec `sticky`, l'en-tête reste visible pendant que les lignes défilent en dessous ; une page avec quelque chose de fixé en haut indique combien de distance en `--table-sticky-top`."
     zone:
       title: Un tableau dans sa zone
-      description: "Une zone `zone--table` est donnée au tableau tout entier : ce qui le pilote en haut, ses pages en bas, hors de ce qui défile, et entre les deux le fond du tableau jusqu'en bas de la zone, même pour trois lignes. Tout tableau y va, écrit par le serveur ou par une vue."
+      description: "Une zone `zone--table` est donnée au tableau tout entier : ce qui le pilote en haut, ses pages en bas, hors de ce qui défile, et entre les deux le fond du tableau jusqu'en bas de la zone, même pour trois lignes. Tout tableau y va, écrit par le serveur ou par une vue. Avec `natural`, comme celui de gauche, le tableau garde la largeur de ses colonnes, ni étiré ni serré."
     striped:
       title: 'Lignes rayées, éclairées sous le pointeur'
     selection:
