@@ -28,7 +28,7 @@
     <div class="lead">{{ '@page::section.search.description' | trans }}</div>
     <div class="list-expanded">
         <div class="list-expanded--header">
-            <input class="form--input list-expanded--search" type="text" placeholder="{{ '@page::search.placeholder' | trans }}" value="{{ '@page::search.value' | trans }}">
+            <div class="form--input-group form--filter list-expanded--search"><span class="form--input-addon" aria-hidden="true">{{ icon('ph:bold/magnifying-glass') }}</span><input class="form--input" type="search" placeholder="{{ '@page::search.placeholder' | trans }}" value="{{ '@page::search.value' | trans }}"></div>
             {{ button('ph:bold/funnel', '@page::search.filter' | trans) }}
         </div>
         <div class="list-expanded--items">
