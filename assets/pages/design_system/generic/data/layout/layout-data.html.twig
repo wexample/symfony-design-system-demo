@@ -4,16 +4,16 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    {% set tabs %}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.index', 'wexample_design_system_generic_data_index') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.tables', 'wexample_design_system_generic_data_tables') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.live', 'wexample_design_system_generic_data_live') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.lists', 'wexample_design_system_generic_data_lists') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.properties', 'wexample_design_system_generic_data_properties') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.bars', 'wexample_design_system_generic_data_bars') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.tree', 'wexample_design_system_generic_data_tree') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.chat', 'wexample_design_system_generic_data_chat') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.files', 'wexample_design_system_generic_data_files') }}
-    {% endset %}
-    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
+    {#- The section's pages, folding when the bar runs short (page_tabs). -#}
+    {{ page_tabs([
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.index', route: 'wexample_design_system_generic_data_index' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.tables', route: 'wexample_design_system_generic_data_tables' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.live', route: 'wexample_design_system_generic_data_live' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.lists', route: 'wexample_design_system_generic_data_lists' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.properties', route: 'wexample_design_system_generic_data_properties' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.bars', route: 'wexample_design_system_generic_data_bars' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.tree', route: 'wexample_design_system_generic_data_tree' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.chat', route: 'wexample_design_system_generic_data_chat' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.data.layout.layout-data::tab.files', route: 'wexample_design_system_generic_data_files' },
+    ], { back: false }) }}
 {%- endblock -%}

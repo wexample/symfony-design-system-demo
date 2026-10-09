@@ -4,12 +4,12 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    {% set tabs %}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.index', 'wexample_design_system_generic_foundations_index') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.colors', 'wexample_design_system_generic_foundations_colors') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.spacing', 'wexample_design_system_generic_foundations_spacing') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.typography', 'wexample_design_system_generic_foundations_typography') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.direction', 'wexample_design_system_generic_foundations_direction') }}
-    {% endset %}
-    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
+    {#- The section's pages, folding when the bar runs short (page_tabs). -#}
+    {{ page_tabs([
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.index', route: 'wexample_design_system_generic_foundations_index' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.colors', route: 'wexample_design_system_generic_foundations_colors' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.spacing', route: 'wexample_design_system_generic_foundations_spacing' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.typography', route: 'wexample_design_system_generic_foundations_typography' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.foundations.layout.layout-foundations::tab.direction', route: 'wexample_design_system_generic_foundations_direction' },
+    ], { back: false }) }}
 {%- endblock -%}

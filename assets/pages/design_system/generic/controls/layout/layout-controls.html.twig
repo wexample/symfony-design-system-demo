@@ -4,12 +4,12 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    {% set tabs %}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.index', 'wexample_design_system_generic_controls_index') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.buttons', 'wexample_design_system_generic_controls_buttons') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.menus', 'wexample_design_system_generic_controls_menus') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.steppers', 'wexample_design_system_generic_controls_steppers') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.interactions', 'wexample_design_system_generic_controls_interactions') }}
-    {% endset %}
-    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
+    {#- The section's pages, folding when the bar runs short (page_tabs). -#}
+    {{ page_tabs([
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.index', route: 'wexample_design_system_generic_controls_index' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.buttons', route: 'wexample_design_system_generic_controls_buttons' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.menus', route: 'wexample_design_system_generic_controls_menus' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.steppers', route: 'wexample_design_system_generic_controls_steppers' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.controls.layout.layout-controls::tab.interactions', route: 'wexample_design_system_generic_controls_interactions' },
+    ], { back: false }) }}
 {%- endblock -%}

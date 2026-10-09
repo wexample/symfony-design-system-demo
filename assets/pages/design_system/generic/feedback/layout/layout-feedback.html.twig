@@ -4,16 +4,16 @@
 
 {%- block page_header -%}
     {{ parent() }}
-    {% set tabs %}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.index', 'wexample_design_system_generic_feedback_index') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.toasts', 'wexample_design_system_generic_feedback_toasts') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.banners', 'wexample_design_system_generic_feedback_banners') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.messages', 'wexample_design_system_generic_feedback_messages') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.markers', 'wexample_design_system_generic_feedback_markers') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.loaders', 'wexample_design_system_generic_feedback_loaders') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.progress', 'wexample_design_system_generic_feedback_progress') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.distribution', 'wexample_design_system_generic_feedback_distribution') }}
-        {{ tab_item('WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.errors', 'wexample_design_system_generic_feedback_errors') }}
-    {% endset %}
-    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/tab', {}, { slots: { body: tabs } }) }}
+    {#- The section's pages, folding when the bar runs short (page_tabs). -#}
+    {{ page_tabs([
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.index', route: 'wexample_design_system_generic_feedback_index' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.toasts', route: 'wexample_design_system_generic_feedback_toasts' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.banners', route: 'wexample_design_system_generic_feedback_banners' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.messages', route: 'wexample_design_system_generic_feedback_messages' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.markers', route: 'wexample_design_system_generic_feedback_markers' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.loaders', route: 'wexample_design_system_generic_feedback_loaders' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.progress', route: 'wexample_design_system_generic_feedback_progress' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.distribution', route: 'wexample_design_system_generic_feedback_distribution' },
+        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.feedback.layout.layout-feedback::tab.errors', route: 'wexample_design_system_generic_feedback_errors' },
+    ], { back: false }) }}
 {%- endblock -%}
