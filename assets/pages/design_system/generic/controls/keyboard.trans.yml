@@ -1,0 +1,21 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Keyboard
+  page_icon: ph:bold/keyboard
+
+  intro: "What the keyboard and the clipboard tell the page, as they tell it: the key, the modifiers held, the shortcuts the design system recognises, what is copied and pasted. Press anything, anywhere on the page — the keyboard below lights the keys by where they sit, and learns what they write on your layout."
+  code:
+    title: Writing a shortcut
+    body: "A shortcut is written once with Mod, which is ⌘ on a Mac and Ctrl elsewhere. The keyboard service matches it on either, and on the physical key for a letter: ⌥ on a Mac, or a Cyrillic layout, still gives Mod+S."
+
+fr:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Clavier
+  page_icon: ph:bold/keyboard
+
+  intro: "Ce que le clavier et le presse-papier disent à la page, tels qu'ils le disent : la touche, les modificateurs tenus, les raccourcis que le design system reconnaît, ce qui est copié et collé. Appuyez sur n'importe quoi, n'importe où — le clavier ci-dessous allume les touches selon leur place, et apprend ce qu'elles écrivent sur votre disposition."
+  code:
+    title: Écrire un raccourci
+    body: "Un raccourci s'écrit une fois avec Mod, qui vaut ⌘ sur Mac et Ctrl ailleurs. Le service clavier le reconnaît sur l'un comme l'autre, et sur la touche physique pour une lettre : ⌥ sur Mac, ou une disposition cyrillique, donnent encore Mod+S."

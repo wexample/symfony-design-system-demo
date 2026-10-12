@@ -1,0 +1,82 @@
+// The bench of the keyboard page: the figure blinking on each key, the
+// shortcuts lit when recognised, the keyboard drawn by rows of caps, the
+// log in a fixed font.
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/grid';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/count';
+@use '@wexample/symfony-design-system/css/shapes/form';
+@use '@wexample/symfony-design-system/components/led/led';
+@use '@wexample/symfony-design-system/components/fallback/fallback';
+
+.demo-keyboard--figure {
+  transition: background-color 150ms ease;
+
+  &.is-fresh {
+    background: var(--state-hover);
+  }
+
+  .block--figure-value {
+    font-family: var(--font-family-mono);
+  }
+}
+
+.demo-keyboard--shortcut {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1);
+  border-radius: var(--radius-control);
+  transition: background-color 200ms ease;
+
+  &.is-fired {
+    background: var(--state-hover);
+    color: var(--color-link);
+  }
+}
+
+.demo-keyboard--keys {
+  display: inline-flex;
+  gap: 2px;
+  min-width: 6.5rem;
+}
+
+.demo-keyboard--clip {
+  overflow-wrap: anywhere;
+}
+
+.demo-keyboard--board {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  overflow-x: auto;
+}
+
+.demo-keyboard--row {
+  display: flex;
+  gap: var(--space-1);
+  min-width: 44rem;
+
+  kbd {
+    flex: 1 1 0;
+    min-width: 0;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 60ms ease, background-color 60ms ease;
+  }
+}
+
+.demo-keyboard--log {
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--font-size-2);
+  max-height: 18rem;
+  overflow-y: auto;
+
+  code {
+    white-space: pre;
+  }
+}

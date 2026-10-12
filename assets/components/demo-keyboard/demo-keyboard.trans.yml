@@ -1,0 +1,57 @@
+en:
+  waiting: Press a key — anywhere on the page.
+  modifiers: Modifiers held
+  caps_lock: Caps Lock
+  platform_mac: "A Mac: Mod is ⌘ Command."
+  platform_other: "Not a Mac: Mod is Ctrl."
+  shortcuts: Shortcuts recognised
+  action_copy: Copy
+  action_cut: Cut
+  action_paste: Paste
+  action_undo: Undo
+  action_redo: Redo
+  action_save: Save (kept from the browser)
+  action_search: Search (kept from the browser)
+  action_move_up: Move up
+  try: Write, copy, paste here
+  try_placeholder: "Try ⌘C / Ctrl+C, an accent on a dead key (^ then e), a figure like 72,5…"
+  clipboard: Clipboard
+  clipboard_empty: Nothing copied or pasted yet.
+  as_number: "Read as a number:"
+  board: The keyboard, by the place of its keys
+  log: Events, the latest first
+  flag_repeat: held down
+  flag_dead: dead key — waits for the next one
+  flag_composing: composing
+  flag_location_1: left one
+  flag_location_2: right one
+  flag_location_3: numeric keypad
+
+fr:
+  waiting: Appuyez sur une touche — n'importe où sur la page.
+  modifiers: Modificateurs tenus
+  caps_lock: Verr. Maj
+  platform_mac: "Un Mac : Mod est ⌘ Commande."
+  platform_other: "Pas un Mac : Mod est Ctrl."
+  shortcuts: Raccourcis reconnus
+  action_copy: Copier
+  action_cut: Couper
+  action_paste: Coller
+  action_undo: Annuler
+  action_redo: Rétablir
+  action_save: Enregistrer (retenu au navigateur)
+  action_search: Rechercher (retenu au navigateur)
+  action_move_up: Monter
+  try: Écrivez, copiez, collez ici
+  try_placeholder: "Essayez ⌘C / Ctrl+C, un accent sur touche morte (^ puis e), un nombre comme 72,5…"
+  clipboard: Presse-papier
+  clipboard_empty: Rien de copié ni de collé pour l'instant.
+  as_number: "Lu comme un nombre :"
+  board: Le clavier, par la place de ses touches
+  log: Événements, le dernier en premier
+  flag_repeat: maintenue
+  flag_dead: touche morte — attend la suivante
+  flag_composing: composition
+  flag_location_1: celle de gauche
+  flag_location_2: celle de droite
+  flag_location_3: pavé numérique

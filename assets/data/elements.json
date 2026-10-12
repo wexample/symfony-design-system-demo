@@ -368,6 +368,31 @@
             "notes": []
         },
         {
+            "key": "demo-keyboard",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": null,
+            "formats": {
+                "style": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-keyboard/demo-keyboard.scss"
+                ],
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-keyboard/demo-keyboard.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-keyboard/demo-keyboard.vue.twig"
+                ]
+            },
+            "stances": {
+                "style": "expected",
+                "template": "undecided",
+                "vue": "expected",
+                "script": "undecided",
+                "schema": "undecided",
+                "ai": "undecided",
+                "react": "undecided",
+                "flutter": "undecided"
+            },
+            "notes": []
+        },
+        {
             "key": "demo-period",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,

@@ -1,0 +1,77 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_config -%}
+    {{ parent() }}
+    {{ trans_js(render_pass, 'WexampleSymfonyDesignSystemDemoBundle.components.demo-keyboard.demo-keyboard::*') }}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="demo-keyboard stack--vertical">
+        <div class="grid grid--3">
+            {#- The last key, as big as a figure: what it wrote, and where it is. -#}
+            <div class="block block--square demo-keyboard--figure" :class="{ 'is-fresh': fresh }">
+                <div class="block--figure">
+                    <span class="block--figure-value">[[ figure ]]</span>
+                    <span class="block--figure-label">[[ last ? `key « ${last.key} » · code ${last.code}` : t('waiting') ]]</span>
+                    <span class="block--figure-sub">[[ lastFlags ]]</span>
+                </div>
+            </div>
+
+            {#- The modifiers held, lit while they are. -#}
+            <div class="block block--padded stack--vertical">
+                <strong>[[ t('modifiers') ]]</strong>
+                <span v-for="modifier in modifiers" :key="modifier.name" class="led" :class="modifier.on ? 'led--success' : 'led--off'">
+                    <span class="led--dot" aria-hidden="true"></span>
+                    <span class="led--label"><kbd>[[ modifier.symbol ]]</kbd> [[ modifier.label ]]</span>
+                </span>
+                <span class="text-secondary">[[ isMac ? t('platform_mac') : t('platform_other') ]]</span>
+            </div>
+
+            {#- The shortcuts the page registered with the keyboard service:
+                written once with Mod, shown as this platform writes them. -#}
+            <div class="block block--padded stack--vertical">
+                <strong>[[ t('shortcuts') ]]</strong>
+                <div v-for="shortcut in shortcuts" :key="shortcut.combo" class="demo-keyboard--shortcut" :class="{ 'is-fired': shortcut.fired }">
+                    <span class="demo-keyboard--keys"><kbd v-for="part in shortcut.keys" :key="part">[[ part ]]</kbd></span>
+                    <span>[[ t(`action_${shortcut.action}`) ]]</span>
+                    <span class="count" v-if="shortcut.count">[[ shortcut.count ]]</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid--2">
+            <div class="block block--padded stack--vertical">
+                <label class="form--label" :for="`${uid}-try`">[[ t('try') ]]</label>
+                <textarea class="form--input" :id="`${uid}-try`" rows="4" :placeholder="t('try_placeholder')"></textarea>
+            </div>
+
+            {#- What went through the clipboard, as the page received it. -#}
+            <div class="block block--padded stack--vertical">
+                <strong>[[ t('clipboard') ]]</strong>
+                <p v-if="!clipboard" class="fallback">[[ t('clipboard_empty') ]]</p>
+                <template v-else>
+                    <span><kbd>[[ clipboard.type ]]</kbd> [[ clipboard.formats ]]</span>
+                    <code class="demo-keyboard--clip">[[ clipboard.text || '—' ]]</code>
+                    <span v-if="clipboard.number !== null" class="text-secondary">[[ t('as_number') ]] [[ clipboard.number ]]</span>
+                </template>
+            </div>
+        </div>
+
+        {#- The keyboard, by the position of its keys: lit while held, each
+            showing what it last wrote on this layout. -#}
+        <div class="block block--padded demo-keyboard--board" :aria-label="t('board')">
+            <div v-for="(row, index) in board" :key="index" class="demo-keyboard--row">
+                <kbd v-for="cap in row" :key="cap.code" :class="{ 'is-pressed': pressed[cap.code] }"
+                     :style="{ flexGrow: cap.width }" :title="cap.code">[[ capLabel(cap) ]]</kbd>
+            </div>
+        </div>
+
+        {#- Everything, as it came. -#}
+        <div class="block block--padded">
+            <strong>[[ t('log') ]]</strong>
+            <ol class="demo-keyboard--log">
+                <li v-for="entry in log" :key="entry.id"><code>[[ entry.text ]]</code></li>
+            </ol>
+        </div>
+    </div>
+{%- endblock -%}

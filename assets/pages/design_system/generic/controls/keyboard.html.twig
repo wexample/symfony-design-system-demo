@@ -1,0 +1,18 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/controls/layout/layout-controls.html.twig' -%}
+
+{%- set page_measure = false -%}
+
+{#- What the keyboard and the clipboard tell the page, live: a bench for
+    what differs between platforms — ⌘ and Ctrl —, layouts and browsers. -#}
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-keyboard') }}
+
+    <h2>{{ '@page::code.title' | trans }}</h2>
+    <p>{{ '@page::code.body' | trans }}</p>
+    {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {
+        lang: 'javascript',
+        code: "// ⌘S on a Mac, Ctrl+S elsewhere.\nthis.app.services.keyboard.registerShortcut(this, 'Mod+S', () => this.save(), { preventDefault: true });\n\n// Its label, as this platform writes it: « ⌘S » or « Ctrl+S ».\nkeyboardShortcutLabel('Mod+S');",
+        copy: true,
+    }) }}
+{%- endblock -%}
