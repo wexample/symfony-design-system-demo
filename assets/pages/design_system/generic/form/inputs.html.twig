@@ -45,6 +45,7 @@
         {{ gallery.field(render_pass, 'radio-input', { id: 'demo_radio', name: 'radio', label: '@page::field.radio' | trans, choices: select_options, value: 'one' }) }}
         {{ gallery.field(render_pass, 'switch-input', { id: 'demo_switch', name: 'switch', label: '@page::field.switch' | trans }) }}
         {{ gallery.field(render_pass, 'file-input', { id: 'demo_file', name: 'file', label: '@page::field.file' | trans }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/file-input', { id: 'demo_vue_file', name: 'vue_files', label: '@page::field.file' | trans, multiple: true, translate: false }) }}
         {{ gallery.field(render_pass, 'emoji-picker', { id: 'demo_emoji', name: 'emoji', label: '@page::field.emoji' | trans, value: '😀' }) }}
     </form>
 
@@ -65,6 +66,7 @@
     <form class="block block--padded form form--columns" onsubmit="return false">
         {{ gallery.field(render_pass, 'number-input', { id: 'stepper_quantity', name: 'quantity', label: '@page::stepper.quantity' | trans, value: '1', stepper: true, input_attr: 'min="1" max="5"' }) }}
         {{ gallery.field(render_pass, 'number-input', { id: 'stepper_guests', name: 'guests', label: '@page::stepper.guests' | trans, value: '2', stepper: true, suffix: '@page::stepper.people' | trans, input_attr: 'min="0" max="12"' }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/number-input', { id: 'stepper_vue_nights', name: 'vue_nights', label: '@page::stepper.nights' | trans, modelValue: '3', stepper: true, min: 1, max: 14, translate: false }) }}
     </form>
 
     {#- What a simulation bar holds: one choice among a few as segments, and
