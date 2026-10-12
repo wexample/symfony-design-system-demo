@@ -118,4 +118,14 @@
             split: true
         }) }}
     </div>
+
+    {#- A record's properties as they were and as they are: what changed. -#}
+    <h2>{{ '@page::section.diff.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.diff.description' | trans }}</div>
+    {{ diff([
+        { field: '@page::diff.email' | trans, before: 'maya@old.example', after: 'maya@example.com' },
+        { field: '@page::diff.role' | trans, before: '@page::diff.member' | trans, after: '@page::diff.admin' | trans },
+        { field: '@page::diff.phone' | trans, before: null, after: '+46 70 123 45 67' },
+        { field: '@page::diff.team' | trans, before: 'Design', after: null },
+    ], { before_label: '@page::diff.before' | trans, after_label: '@page::diff.after' | trans }) }}
 {%- endblock -%}

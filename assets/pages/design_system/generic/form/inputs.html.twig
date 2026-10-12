@@ -59,6 +59,14 @@
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/number-input', { id: 'addon_vue_duration', name: 'duration', label: '@page::addon.duration' | trans, modelValue: '45', suffix: 'min', translate: false }) }}
     </form>
 
+    {#- A quantity, one step at a time, held within its bounds. -#}
+    <h2>{{ '@page::section.stepper.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.stepper.description' | trans }}</div>
+    <form class="block block--padded form form--columns" onsubmit="return false">
+        {{ gallery.field(render_pass, 'number-input', { id: 'stepper_quantity', name: 'quantity', label: '@page::stepper.quantity' | trans, value: '1', stepper: true, input_attr: 'min="1" max="5"' }) }}
+        {{ gallery.field(render_pass, 'number-input', { id: 'stepper_guests', name: 'guests', label: '@page::stepper.guests' | trans, value: '2', stepper: true, suffix: '@page::stepper.people' | trans, input_attr: 'min="0" max="12"' }) }}
+    </form>
+
     {#- What a simulation bar holds: one choice among a few as segments, and
         values taken along a scale, said as they move. The same fields twice,
         drawn by twig then by vue. -#}

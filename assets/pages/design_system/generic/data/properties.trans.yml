@@ -6,7 +6,19 @@ en:
 
   intro: "Key / value pairs rendered as a definition list. Rows are subgrids of the list, so keys stay aligned in a single column while each row remains a real box that can carry a separator."
 
+  diff:
+    before: Before
+    after: Now
+    email: Email
+    role: Role
+    member: Member
+    admin: Administrator
+    phone: Phone
+    team: Team
   section:
+    diff:
+      title: What changed
+      description: "diff(): field by field, what it was and what it is — the value that went struck, the one that stays in full, an empty side said as such. A record's history, a change to confirm, a sync under review."
     default:
       title: Default
       description: The key column sizes itself on the longest label. Override --properties-key-width to pin it.
@@ -526,7 +538,19 @@ fr:
   page_title: Propriétés
   page_icon: 'ph:bold/list-dashes'
   intro: 'Paires clé / valeur rendues sous forme de liste de définitions. Les lignes sont des sous-grilles de la liste, donc les clés restent alignées dans une seule colonne tandis que chaque ligne reste une vraie boîte qui peut porter un séparateur.'
+  diff:
+    before: Avant
+    after: Maintenant
+    email: Email
+    role: Rôle
+    member: Membre
+    admin: Administrateur
+    phone: Téléphone
+    team: Équipe
   section:
+    diff:
+      title: Ce qui a changé
+      description: "diff() : champ par champ, ce que c'était et ce que c'est — la valeur partie barrée, celle qui reste en entier, un côté vide dit comme tel. L'historique d'une fiche, une modification à confirmer, une synchronisation à revoir."
     default:
       title: 'Par défaut'
       description: "La colonne des clés s'ajuste sur le label le plus long. Remplacez --properties-key-width pour le fixer."

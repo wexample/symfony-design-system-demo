@@ -16,6 +16,9 @@ en:
     scale:
       title: Segments and scales
       description: "`segmented: true` draws a radio group as a strip of segments, for one choice among a few short ones: the same radios, moved along by the arrows, sending the same value. `range-input` takes a value along a scale — `min`, `max`, `step` — and says it beside its label as it moves, in the page's locale and with the decimals its step asks for; `suffix` is a word after it, never submitted. The vue twin emits on every step, so a page can recompute as the thumb goes."
+    stepper:
+      title: One step at a time
+      description: "stepper: true, a button on each side of a number — a quantity. It steps by the field's step and stops at its min and max, its button resting there; from symfony-forms, the bounds come from the field's Range constraint."
     addon:
       title: A unit beside the value
       description: "A fixed word — a unit, a currency — drawn in the field's frame, before or after the value. Screen readers read it with the field; it is not part of the value, cannot be focused, and nothing of it is submitted. The frozen look holds with it."
@@ -49,6 +52,10 @@ en:
     coverage: Coverage coefficient
     buffer: Buffer
     weeks: weeks
+  stepper:
+    quantity: Quantity
+    guests: Guests
+    people: people
   addon:
     weight: Weight
     price: Price
