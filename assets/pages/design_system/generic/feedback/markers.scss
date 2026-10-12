@@ -28,3 +28,16 @@
   align-items: center;
   gap: var(--space-3);
 }
+
+// Icons the size of a header's, for their counts to sit on as they would there.
+.cluster.marker-demo--counts {
+  // Room to the right of each icon, where its count grows.
+  gap: var(--space-5) 3rem;
+  padding-block-start: var(--space-2);
+  align-items: center;
+}
+
+.marker-demo--icon {
+  display: inline-flex;
+  font-size: 1.5rem;
+}

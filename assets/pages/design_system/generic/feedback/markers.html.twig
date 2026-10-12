@@ -109,6 +109,28 @@
         {{ led('success', null, { title: '@page::leds.alone' | trans }) }}
     </div>
 
+    <h2>{{ '@page::section.counts.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.counts.description' | trans }}</div>
+    {#- On the corner of what they count: red unless said, 99+ past 99, a
+        word or a dot where the figure does not matter. -#}
+    <div class="cluster marker-demo--counts">
+        <span class="has-count marker-demo--icon" title="3">{{ icon('ph:bold/bell') }}{{ count_badge(3, { corner: true }) }}</span>
+        <span class="has-count marker-demo--icon">{{ icon('ph:bold/shopping-cart') }}{{ count_badge(128, { corner: true }) }}</span>
+        <span class="has-count marker-demo--icon">{{ icon('ph:bold/chat-circle') }}{{ count_badge(1, { corner: true, dot: true, title: '@page::counts.unread' | trans }) }}</span>
+        <span class="has-count marker-demo--icon">{{ icon('ph:bold/check-square') }}{{ count_badge(12, { corner: true, tone: 'accent' }) }}</span>
+        <span class="has-count marker-demo--icon">{{ icon('ph:bold/tray') }}{{ count_badge(0, { corner: true }) }}</span>
+        <span class="has-count">{{ button('ph:bold/funnel', '@page::counts.filters' | trans) }}{{ count_badge(2, { corner: true, tone: 'info' }) }}</span>
+        <span class="has-count marker-demo--icon">{{ icon('ph:bold/envelope-simple') }}{{ count_badge(1, { corner: true, label: '@page::counts.new' | trans }) }}</span>
+    </div>
+    {#- In the run of a line: the row's own tone, or a colour. -#}
+    <div class="block block--padded cluster">
+        <span>{{ '@page::counts.inbox' | trans }} {{ count_badge(4) }}</span>
+        {%- for tone in ['error', 'warning', 'success', 'info', 'accent'] -%}
+            <span>{{ tone }} {{ count_badge(loop.index * 7, { tone: tone }) }}</span>
+        {%- endfor -%}
+        <span>{{ '@page::counts.zero' | trans }} {{ count_badge(0, { show_zero: true }) }}</span>
+    </div>
+
     <h2>{{ '@page::section.progress.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.progress.description' | trans }}</div>
     <div class="cluster">
