@@ -111,7 +111,9 @@
             </div>
         </div>
         <div class="zone zone--panel zone--portrait">
-            {{ document_embed(path('wexample_design_system_fixtures_placeholder_pdf'), '@page::section.portrait.title' | trans, { open: true, download: true }) }}
+            {{ document_embed(path('wexample_design_system_fixtures_placeholder_pdf'), '@page::section.portrait.title' | trans, { actions: [
+                { icon: 'ph:bold/arrow-square-out', label: 'WexampleSymfonyDesignSystemBundle.common.system::frontend.document.open', href: path('wexample_design_system_fixtures_placeholder_pdf'), new_window: true },
+            ] }) }}
         </div>
     </div>
 {%- endblock -%}

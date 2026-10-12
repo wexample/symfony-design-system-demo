@@ -49,10 +49,13 @@
                 {{ document_embed(
                     path('wexample_design_system_fixtures_placeholder_pdf'),
                     '@page::document.title' | trans,
-                    { open: true, download: true }
+                    { actions: [
+                        { icon: 'ph:bold/arrow-square-out', label: 'WexampleSymfonyDesignSystemBundle.common.system::frontend.document.open', href: path('wexample_design_system_fixtures_placeholder_pdf'), new_window: true },
+                        { icon: 'ph:bold/download-simple', label: 'WexampleSymfonyDesignSystemBundle.common.system::frontend.document.download', href: path('wexample_design_system_fixtures_placeholder_pdf'), download: true },
+                    ] }
                 ) }}
             </div>
-            <p>media--fill · open · download</p>
+            <p>media--fill · actions</p>
         </div>
         <div class="block block--padded" style="flex: 1">
             {{ document_embed(
