@@ -22,6 +22,11 @@ en:
         success: Layout banner success message.
         warning: Layout banner warning message.
         error: Layout banner error message.
+    compact:
+      title: 'Bubble'
+      description: 'With compact, the banner shrinks to a bubble the width of its message, held off the edge of the screen. Floating, it sits at the top or at the bottom.'
+      top: 'Bubble at the top'
+      bottom: 'Bubble at the bottom'
     pending_writes:
       title: 'Saving in the background'
       description: 'A page that saves without a submit button hands each write to the pending writes service: a banner says it is saving, then that everything is saved, and keeps a retry link up when a write failed. Leaving the page meanwhile asks for confirmation. Click several times to stack writes.'
@@ -50,6 +55,11 @@ ar:
         success: 'رسالة لافتة نجاح للتخطيط.'
         warning: 'رسالة لافتة تحذيرية للتخطيط.'
         error: 'رسالة لافتة خطأ للتخطيط.'
+    compact:
+      title: 'فقاعة'
+      description: 'مع الخيار compact، تتقلّص اللافتة إلى فقاعة بعرض رسالتها، مبتعدة عن حافة الشاشة. وعندما تكون عائمة، تظهر في الأعلى أو في الأسفل.'
+      top: 'فقاعة في الأعلى'
+      bottom: 'فقاعة في الأسفل'
     pending_writes:
       title: 'الحفظ في الخلفية'
       description: 'الصفحة التي تحفظ دون زر إرسال تسلّم كل عملية كتابة إلى خدمة الكتابات المعلّقة: تعلن لافتة أن الحفظ جارٍ، ثم أن كل شيء قد حُفظ، وتُبقي رابط إعادة المحاولة ظاهرًا عند فشل عملية كتابة. ومغادرة الصفحة خلال ذلك تطلب التأكيد. انقر عدة مرات لتكديس عمليات الكتابة.'
@@ -78,6 +88,11 @@ bn:
         success: 'লেআউট বানার সফল বার্তা।'
         warning: 'লেআউট বানার সতর্কতা বার্তা।'
         error: 'লেআউট বানার ত্রুটি বার্তা।'
+    compact:
+      title: 'বুদবুদ'
+      description: 'compact দিলে বানারটি তার বার্তার প্রস্থের একটি বুদবুদে ছোট হয়ে যায়, পর্দার কিনারা থেকে একটু দূরে। ভাসমান অবস্থায় এটি উপরে বা নিচে থাকে।'
+      top: 'উপরে বুদবুদ'
+      bottom: 'নিচে বুদবুদ'
     pending_writes:
       title: 'পটভূমিতে সংরক্ষণ'
       description: 'জমা দেওয়ার বোতাম ছাড়া সংরক্ষণ করা একটি পৃষ্ঠা প্রতিটি লেখা অপেক্ষমাণ লেখা পরিষেবার হাতে দেয়: একটি বানার জানায় যে সংরক্ষণ চলছে, তারপর সব সংরক্ষিত হয়েছে, এবং কোনো লেখা ব্যর্থ হলে আবার চেষ্টার লিংক রেখে দেয়। এর মধ্যে পৃষ্ঠা ছাড়লে নিশ্চিতকরণ চাওয়া হয়। লেখা জমাতে কয়েকবার ক্লিক করুন।'
@@ -106,6 +121,11 @@ de:
         success: 'Layout-Banner Erfolgsnachricht.'
         warning: 'Layout-Banner Warnnachricht.'
         error: 'Layout-Banner Fehlermeldung.'
+    compact:
+      title: 'Blase'
+      description: 'Mit compact schrumpft das Banner zu einer Blase in der Breite seiner Nachricht, mit Abstand zum Bildschirmrand. Schwebend sitzt es oben oder unten.'
+      top: 'Blase oben'
+      bottom: 'Blase unten'
     pending_writes:
       title: 'Speichern im Hintergrund'
       description: 'Eine Seite, die ohne Absenden-Schaltfläche speichert, übergibt jeden Schreibvorgang dem Dienst für ausstehende Schreibvorgänge: Ein Banner zeigt, dass gespeichert wird, dann, dass alles gespeichert ist, und behält einen Link zum erneuten Versuch, wenn ein Schreibvorgang fehlschlug. Wer die Seite währenddessen verlässt, wird um Bestätigung gebeten. Mehrmals klicken, um Schreibvorgänge zu stapeln.'
@@ -134,6 +154,11 @@ es:
         success: 'Mensaje de éxito del banner de diseño.'
         warning: 'Mensaje de advertencia del banner de diseño.'
         error: 'Mensaje de error del banner de diseño.'
+    compact:
+      title: 'Burbuja'
+      description: 'Con compact, el banner se reduce a una burbuja del ancho de su mensaje, separada del borde de la pantalla. Flotante, se sitúa arriba o abajo.'
+      top: 'Burbuja arriba'
+      bottom: 'Burbuja abajo'
     pending_writes:
       title: 'Guardar en segundo plano'
       description: 'Una página que guarda sin botón de envío entrega cada escritura al servicio de escrituras pendientes: un banner indica que se está guardando, luego que todo está guardado, y mantiene un enlace para reintentar cuando una escritura falló. Salir de la página mientras tanto pide confirmación. Haz clic varias veces para acumular escrituras.'
@@ -162,6 +187,11 @@ fa:
         success: 'پیام بنر موفقیت طراحی.'
         warning: 'پیام بنر هشدار طراحی.'
         error: 'پیام بنر خطا طراحی.'
+    compact:
+      title: 'حباب'
+      description: 'با گزینهٔ compact، بنر به حبابی به پهنای پیامش کوچک می‌شود و از لبهٔ صفحه فاصله می‌گیرد. در حالت شناور، بالا یا پایین قرار می‌گیرد.'
+      top: 'حباب در بالا'
+      bottom: 'حباب در پایین'
     pending_writes:
       title: 'ذخیره در پس‌زمینه'
       description: 'صفحه‌ای که بدون دکمهٔ ارسال ذخیره می‌کند، هر نوشتن را به سرویس نوشتن‌های در انتظار می‌سپارد: یک بنر نشان می‌دهد که در حال ذخیره است، سپس که همه چیز ذخیره شد، و اگر نوشتنی ناموفق بود پیوند تلاش دوباره را نگه می‌دارد. ترک صفحه در این میان تأیید می‌خواهد. برای انباشتن نوشتن‌ها چند بار کلیک کنید.'
@@ -190,6 +220,11 @@ fi:
         success: 'Asettelubannerin onnistumisviesti.'
         warning: 'Asettelubannerin varoitusviesti.'
         error: 'Asettelubannerin virheviesti.'
+    compact:
+      title: 'Kupla'
+      description: 'compact-asetuksella banneri kutistuu viestinsä levyiseksi kuplaksi, irti näytön reunasta. Kelluvana se on ylhäällä tai alhaalla.'
+      top: 'Kupla ylhäällä'
+      bottom: 'Kupla alhaalla'
     pending_writes:
       title: 'Tallennus taustalla'
       description: 'Sivu, joka tallentaa ilman lähetyspainiketta, antaa jokaisen kirjoituksen odottavien kirjoitusten palvelulle: banneri kertoo tallennuksen olevan käynnissä, sitten että kaikki on tallennettu, ja pitää esillä uudelleenyrityslinkin, jos kirjoitus epäonnistui. Sivulta poistuminen sillä välin pyytää vahvistusta. Napsauta useita kertoja kirjoitusten kasaamiseksi.'
@@ -218,6 +253,11 @@ fr:
         success: 'Message de succès de la bannière de mise en page.'
         warning: "Message d'avertissement de la bannière de mise en page."
         error: "Message d'erreur de la bannière de mise en page."
+    compact:
+      title: 'Bulle'
+      description: 'Avec compact, la bannière se resserre en une bulle de la largeur de son message, décollée du bord de l''écran. Flottante, elle se place en haut ou en bas.'
+      top: 'Bulle en haut'
+      bottom: 'Bulle en bas'
     pending_writes:
       title: 'Enregistrer en arrière-plan'
       description: 'Une page qui enregistre sans bouton d''envoi confie chaque écriture au service des écritures en attente : une bannière indique l''enregistrement en cours, puis que tout est enregistré, et garde un lien pour réessayer quand une écriture a échoué. Quitter la page entre-temps demande une confirmation. Cliquez plusieurs fois pour empiler des écritures.'
@@ -246,6 +286,11 @@ he:
         success: 'מסר הצלחה באנר לעיצוב.'
         warning: 'מסר אזהרה באנר לעיצוב.'
         error: 'מסר שגיאה באנר לעיצוב.'
+    compact:
+      title: 'בועה'
+      description: 'עם compact, הבאנר מתכווץ לבועה ברוחב ההודעה שלו, במרחק מקצה המסך. כשהוא צף, הוא יושב למעלה או למטה.'
+      top: 'בועה למעלה'
+      bottom: 'בועה למטה'
     pending_writes:
       title: 'שמירה ברקע'
       description: 'דף ששומר בלי כפתור שליחה מוסר כל כתיבה לשירות הכתיבות הממתינות: באנר מודיע שמתבצעת שמירה, אחר כך שהכול נשמר, ומשאיר קישור לניסיון חוזר כשכתיבה נכשלה. עזיבת הדף בינתיים מבקשת אישור. לחצו כמה פעמים כדי לצבור כתיבות.'
@@ -274,6 +319,11 @@ hi:
         success: 'लेआउट बैनर सफलता संदेश।'
         warning: 'लेआउट बैनर चेतावनी संदेश।'
         error: 'लेआउट बैनर त्रुटि संदेश।'
+    compact:
+      title: 'बुलबुला'
+      description: 'compact के साथ बैनर अपने संदेश की चौड़ाई वाले बुलबुले में सिमट जाता है, स्क्रीन के किनारे से थोड़ा हटकर। तैरते हुए यह ऊपर या नीचे रहता है।'
+      top: 'ऊपर बुलबुला'
+      bottom: 'नीचे बुलबुला'
     pending_writes:
       title: 'पृष्ठभूमि में सहेजना'
       description: 'जो पृष्ठ सबमिट बटन के बिना सहेजता है, वह हर लेखन को लंबित लेखन सेवा को सौंपता है: एक बैनर बताता है कि सहेजा जा रहा है, फिर कि सब सहेज लिया गया, और किसी लेखन के विफल होने पर फिर से प्रयास का लिंक बनाए रखता है। इस बीच पृष्ठ छोड़ने पर पुष्टि माँगी जाती है। लेखन जमा करने के लिए कई बार क्लिक करें।'
@@ -302,6 +352,11 @@ id:
         success: 'Pesan sukses spanduk tata letak.'
         warning: 'Pesan peringatan spanduk tata letak.'
         error: 'Pesan kesalahan spanduk tata letak.'
+    compact:
+      title: 'Gelembung'
+      description: 'Dengan compact, banner menyusut menjadi gelembung selebar pesannya, berjarak dari tepi layar. Saat mengambang, ia berada di atas atau di bawah.'
+      top: 'Gelembung di atas'
+      bottom: 'Gelembung di bawah'
     pending_writes:
       title: 'Menyimpan di latar belakang'
       description: 'Halaman yang menyimpan tanpa tombol kirim menyerahkan setiap penulisan ke layanan penulisan tertunda: sebuah banner menunjukkan bahwa penyimpanan sedang berlangsung, lalu bahwa semuanya tersimpan, dan mempertahankan tautan coba lagi saat penulisan gagal. Meninggalkan halaman sementara itu meminta konfirmasi. Klik beberapa kali untuk menumpuk penulisan.'
@@ -330,6 +385,11 @@ it:
         success: 'Messaggio di successo del banner di layout.'
         warning: 'Messaggio di avviso del banner di layout.'
         error: 'Messaggio di errore del banner di layout.'
+    compact:
+      title: 'Bolla'
+      description: 'Con compact, il banner si riduce a una bolla larga quanto il suo messaggio, staccata dal bordo dello schermo. Flottante, si colloca in alto o in basso.'
+      top: 'Bolla in alto'
+      bottom: 'Bolla in basso'
     pending_writes:
       title: 'Salvataggio in background'
       description: 'Una pagina che salva senza pulsante di invio affida ogni scrittura al servizio delle scritture in sospeso: un banner indica che il salvataggio è in corso, poi che tutto è salvato, e mantiene un link per riprovare quando una scrittura è fallita. Lasciare la pagina nel frattempo chiede una conferma. Fai clic più volte per accumulare scritture.'
@@ -358,6 +418,11 @@ ja:
         success: レイアウトバナー成功メッセージ。
         warning: レイアウトバナー警告メッセージ。
         error: レイアウトバナーエラーメッセージ。
+    compact:
+      title: 'バブル'
+      description: 'compact を指定すると、バナーはメッセージの幅のバブルに縮み、画面の端から少し離れます。フローティング時は上か下に表示されます。'
+      top: '上にバブル'
+      bottom: '下にバブル'
     pending_writes:
       title: 'バックグラウンドでの保存'
       description: '送信ボタンなしで保存するページは、各書き込みを保留中の書き込みサービスに渡します。バナーが保存中であること、続いてすべて保存されたことを伝え、書き込みが失敗した場合は再試行リンクを表示し続けます。その間にページを離れると確認を求めます。何度かクリックして書き込みを重ねてください。'
@@ -386,6 +451,11 @@ ko:
         success: '레이아웃 배너 성공 메시지입니다.'
         warning: '레이아웃 배너 경고 메시지입니다.'
         error: '레이아웃 배너 오류 메시지입니다.'
+    compact:
+      title: '버블'
+      description: 'compact를 사용하면 배너가 메시지 너비의 버블로 줄어들고 화면 가장자리에서 조금 떨어집니다. 떠 있을 때는 위쪽이나 아래쪽에 표시됩니다.'
+      top: '위쪽 버블'
+      bottom: '아래쪽 버블'
     pending_writes:
       title: '백그라운드 저장'
       description: '제출 버튼 없이 저장하는 페이지는 각 쓰기를 대기 중인 쓰기 서비스에 맡깁니다. 배너가 저장 중임을, 이어서 모두 저장되었음을 알리고, 쓰기가 실패하면 다시 시도 링크를 계속 표시합니다. 그 사이에 페이지를 떠나면 확인을 요청합니다. 여러 번 클릭해 쓰기를 쌓아 보세요.'
@@ -414,6 +484,11 @@ nl:
         success: 'Succesbericht voor lay-outbanner.'
         warning: 'Waarschuwingsbericht voor lay-outbanner.'
         error: 'Foutbericht voor lay-outbanner.'
+    compact:
+      title: 'Bel'
+      description: 'Met compact krimpt de banner tot een bel zo breed als zijn bericht, los van de schermrand. Zwevend staat hij bovenaan of onderaan.'
+      top: 'Bel bovenaan'
+      bottom: 'Bel onderaan'
     pending_writes:
       title: 'Opslaan op de achtergrond'
       description: 'Een pagina die opslaat zonder verzendknop geeft elke schrijfactie aan de dienst voor openstaande schrijfacties: een banner meldt dat er wordt opgeslagen, daarna dat alles is opgeslagen, en houdt een link om opnieuw te proberen zichtbaar als een schrijfactie mislukte. De pagina intussen verlaten vraagt om bevestiging. Klik meerdere keren om schrijfacties op te stapelen.'
@@ -442,6 +517,11 @@ pl:
         success: 'Wiadomość o sukcesie banera układu.'
         warning: 'Wiadomość ostrzegawcza banera układu.'
         error: 'Wiadomość o błędzie banera układu.'
+    compact:
+      title: 'Dymek'
+      description: 'Z opcją compact baner zwęża się do dymka o szerokości komunikatu, odsuniętego od krawędzi ekranu. Pływający, wyświetla się u góry lub u dołu.'
+      top: 'Dymek u góry'
+      bottom: 'Dymek u dołu'
     pending_writes:
       title: 'Zapisywanie w tle'
       description: 'Strona zapisująca bez przycisku wysyłania przekazuje każdy zapis usłudze oczekujących zapisów: baner informuje, że trwa zapisywanie, potem że wszystko zostało zapisane, i pozostawia link do ponowienia, gdy zapis się nie powiódł. Opuszczenie strony w tym czasie wymaga potwierdzenia. Kliknij kilka razy, aby nagromadzić zapisy.'
@@ -470,6 +550,11 @@ pt_BR:
         success: 'Mensagem de sucesso do banner de layout.'
         warning: 'Mensagem de aviso do banner de layout.'
         error: 'Mensagem de erro do banner de layout.'
+    compact:
+      title: 'Bolha'
+      description: 'Com compact, o banner se reduz a uma bolha da largura da mensagem, afastada da borda da tela. Flutuante, fica no topo ou na parte inferior.'
+      top: 'Bolha no topo'
+      bottom: 'Bolha embaixo'
     pending_writes:
       title: 'Salvar em segundo plano'
       description: 'Uma página que salva sem botão de envio entrega cada gravação ao serviço de gravações pendentes: um banner indica que está salvando, depois que tudo foi salvo, e mantém um link para tentar novamente quando uma gravação falhou. Sair da página nesse meio-tempo pede confirmação. Clique várias vezes para acumular gravações.'
@@ -498,6 +583,11 @@ ru:
         success: 'Сообщение успешного баннера макета.'
         warning: 'Сообщение предупреждающего баннера макета.'
         error: 'Сообщение об ошибке баннера макета.'
+    compact:
+      title: 'Пузырь'
+      description: 'С compact баннер сжимается до пузыря по ширине сообщения, с отступом от края экрана. Плавающий, он располагается сверху или снизу.'
+      top: 'Пузырь сверху'
+      bottom: 'Пузырь снизу'
     pending_writes:
       title: 'Сохранение в фоне'
       description: 'Страница, сохраняющая без кнопки отправки, передаёт каждую запись службе ожидающих записей: баннер сообщает, что идёт сохранение, затем что всё сохранено, и оставляет ссылку для повтора, если запись не удалась. Уход со страницы в это время требует подтверждения. Нажмите несколько раз, чтобы накопить записи.'
@@ -526,6 +616,11 @@ th:
         success: ข้อความแบนเนอร์ความสำเร็จระดับเลย์เอาต์.
         warning: ข้อความแบนเนอร์เตือนระดับเลย์เอาต์.
         error: ข้อความแบนเนอร์ข้อผิดพลาดระดับเลย์เอาต์.
+    compact:
+      title: 'บับเบิล'
+      description: 'เมื่อใช้ compact แบนเนอร์จะหดเป็นบับเบิลกว้างเท่าข้อความ และเว้นระยะจากขอบจอ เมื่อลอยอยู่จะแสดงด้านบนหรือด้านล่าง'
+      top: 'บับเบิลด้านบน'
+      bottom: 'บับเบิลด้านล่าง'
     pending_writes:
       title: 'บันทึกเบื้องหลัง'
       description: 'หน้าที่บันทึกโดยไม่มีปุ่มส่งจะมอบการเขียนแต่ละครั้งให้บริการการเขียนที่รอดำเนินการ แบนเนอร์จะแจ้งว่ากำลังบันทึก จากนั้นแจ้งว่าบันทึกทั้งหมดแล้ว และคงลิงก์ลองอีกครั้งไว้เมื่อการเขียนล้มเหลว การออกจากหน้าในระหว่างนั้นจะขอการยืนยัน คลิกหลายครั้งเพื่อซ้อนการเขียน'
@@ -554,6 +649,11 @@ tr:
         success: 'Düzen afiş başarı mesajı.'
         warning: 'Düzen afiş uyarı mesajı.'
         error: 'Düzen afiş hata mesajı.'
+    compact:
+      title: 'Balon'
+      description: 'compact ile afiş, mesajı genişliğinde bir balona küçülür ve ekran kenarından uzak durur. Yüzerken üstte ya da altta yer alır.'
+      top: 'Üstte balon'
+      bottom: 'Altta balon'
     pending_writes:
       title: 'Arka planda kaydetme'
       description: 'Gönder düğmesi olmadan kaydeden bir sayfa her yazmayı bekleyen yazmalar hizmetine devreder: bir afiş kaydedildiğini, ardından her şeyin kaydedildiğini bildirir ve bir yazma başarısız olduğunda yeniden deneme bağlantısını açık tutar. Bu sırada sayfadan ayrılmak onay ister. Yazmaları biriktirmek için birkaç kez tıklayın.'
@@ -582,6 +682,11 @@ ur:
         success: 'لے آؤٹ بینر کامیابی کا پیغام۔'
         warning: 'لے آؤٹ بینر انتباہی پیغام۔'
         error: 'لے آؤٹ بینر خرابی کا پیغام۔'
+    compact:
+      title: 'بلبلہ'
+      description: 'compact کے ساتھ بینر اپنے پیغام کی چوڑائی کے بلبلے میں سکڑ جاتا ہے، اسکرین کے کنارے سے ہٹ کر۔ تیرتے ہوئے یہ اوپر یا نیچے رہتا ہے۔'
+      top: 'اوپر بلبلہ'
+      bottom: 'نیچے بلبلہ'
     pending_writes:
       title: 'پس منظر میں محفوظ کرنا'
       description: 'جمع کرانے کے بٹن کے بغیر محفوظ کرنے والا صفحہ ہر تحریر کو زیرِ التوا تحریروں کی سروس کے سپرد کرتا ہے: ایک بینر بتاتا ہے کہ محفوظ کیا جا رہا ہے، پھر یہ کہ سب محفوظ ہو گیا، اور کسی تحریر کے ناکام ہونے پر دوبارہ کوشش کا لنک قائم رکھتا ہے۔ اس دوران صفحہ چھوڑنے پر تصدیق مانگی جاتی ہے۔ تحریریں جمع کرنے کے لیے کئی بار کلک کریں۔'
@@ -610,6 +715,11 @@ vi:
         success: 'Thông điệp thành công biểu ngữ bố cục.'
         warning: 'Thông điệp cảnh báo biểu ngữ bố cục.'
         error: 'Thông điệp lỗi biểu ngữ bố cục.'
+    compact:
+      title: 'Bong bóng'
+      description: 'Với compact, biểu ngữ thu lại thành một bong bóng rộng bằng thông điệp, cách mép màn hình. Khi nổi, nó nằm ở trên hoặc ở dưới.'
+      top: 'Bong bóng ở trên'
+      bottom: 'Bong bóng ở dưới'
     pending_writes:
       title: 'Lưu trong nền'
       description: 'Một trang lưu mà không có nút gửi sẽ giao mỗi lần ghi cho dịch vụ ghi đang chờ: một biểu ngữ báo đang lưu, rồi báo mọi thứ đã được lưu, và giữ liên kết thử lại khi một lần ghi thất bại. Rời trang trong lúc đó sẽ yêu cầu xác nhận. Nhấp nhiều lần để chồng các lần ghi.'
@@ -638,6 +748,11 @@ zh:
         success: 布局横幅成功消息。
         warning: 布局横幅警告消息。
         error: 布局横幅错误消息。
+    compact:
+      title: '气泡'
+      description: '使用 compact 时，横幅收缩为与消息等宽的气泡，并与屏幕边缘保持距离。浮动时可位于顶部或底部。'
+      top: '顶部气泡'
+      bottom: '底部气泡'
     pending_writes:
       title: '后台保存'
       description: '没有提交按钮而自动保存的页面会把每次写入交给待处理写入服务：横幅先提示正在保存，再提示全部已保存；写入失败时则保留重试链接。在此期间离开页面会要求确认。多点击几次即可叠加写入。'

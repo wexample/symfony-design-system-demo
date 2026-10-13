@@ -5,6 +5,7 @@ import PendingWritesService from '@wexample/symfony-loader/js/Services/PendingWr
 export default class extends Page {
   pageReady() {
     this.initLayoutBanner();
+    this.initCompactBanner();
     this.initPendingWrites();
   }
 
@@ -25,6 +26,19 @@ export default class extends Page {
       (this.app.getServiceOrFail(BannerService) as any).show({
         type,
         message
+      });
+    });
+  }
+
+  private initCompactBanner() {
+    this.el?.querySelectorAll('.compact-banner-button').forEach((button) => {
+      button.addEventListener('click', () => {
+        (this.app.getServiceOrFail(BannerService) as any).show({
+          type: 'success',
+          compact: true,
+          position: button.getAttribute('data-position'),
+          message: button.getAttribute('data-banner-message'),
+        });
       });
     });
   }

@@ -29,6 +29,18 @@
             }) }}
         </div>
 
+        <h2>{{ '@page::section.compact.title' | trans }}</h2>
+        <div class="lead">{{ '@page::section.compact.description' | trans }}</div>
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/banner', {
+            type: 'info',
+            compact: true,
+            message: '@page::section.banners.info'
+        }) }}
+        <div class="block block--padded">
+            {{ button('ph:bold/arrow-line-up', '@page::section.compact.top' | trans, { class: 'compact-banner-button', attr: { 'data-position': 'top', 'data-banner-message': '@page::section.banners.success' | trans } }) }}
+            {{ button('ph:bold/arrow-line-down', '@page::section.compact.bottom' | trans, { class: 'compact-banner-button', attr: { 'data-position': 'bottom', 'data-banner-message': '@page::section.banners.success' | trans } }) }}
+        </div>
+
         <h2>{{ '@page::section.pending_writes.title' | trans }}</h2>
         <div class="block block--padded block--split">
             <div class="lead">
