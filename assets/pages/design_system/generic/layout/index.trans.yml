@@ -13,9 +13,6 @@ en:
     zones:
       title: Zones
       description: "The two-pane workspace: a split, a sized column, a scrollable body. What every explorer, editor and detail view in an app is built on."
-    workspace:
-      title: Workspace
-      description: "Pages made of regions laid side by side, told apart by the room between them and nothing else. Three arrangements, moved between by the tree standing in each of them."
     blocks:
       title: Blocks
       description: "The surface a group of things sits on, padded or not, with its card and figure variants."
@@ -38,9 +35,6 @@ ar:
     zones:
       title: المناطق
       description: 'مساحة العمل ذات اللوحين: عمود مقسوم، عمود بحجم محدد، جسم قابل للتمرير. ما يُبنى عليه كل مستكشف، ومحرر، وعرض تفاصيل في التطبيق.'
-    workspace:
-      title: 'مساحة العمل'
-      description: 'صفحات مكونة من مناطق موضوعة جنبًا إلى جنب، تُميزها المسافة بينها ولا شيء آخر. ثلاث ترتيبات، يتم التنقل بينها بواسطة الشجرة الموجودة في كل منها.'
     blocks:
       title: الكتل
       description: 'السطح الذي يجلس عليه مجموعة من الأشياء، مبطنًا أو غير مبطن، مع متغيراته من البطاقة والشكل.'
@@ -63,9 +57,6 @@ bn:
     zones:
       title: জোন
       description: 'দুই-প্যানের কাজের স্থান: একটি বিভাজিত, একটি আকারযুক্ত কলাম, একটি স্ক্রলযোগ্য দেহ। একটি অ্যাপে প্রতিটি অনুসন্ধানকারী, সম্পাদক এবং বিস্তারিত দৃশ্য যা তৈরি হয়।'
-    workspace:
-      title: 'কাজের স্থান'
-      description: 'পৃষ্ঠাগুলি পাশে পাশে সাজানো অঞ্চলে তৈরি হয়, তাদের মধ্যে ঘরের মাধ্যমে পৃথক করা হয় এবং কিছুই নয়। তিনটি বিন্যাস, প্রতিটি মধ্যে দাঁড়িয়ে থাকা গাছের দ্বারা চলাচল করে।'
     blocks:
       title: ব্লক
       description: 'যার উপর একটি গ্রুপ বসে থাকে, প্যাডেড বা না, এর কার্ড এবং ফিগার ভ্যারিয়েন্ট সহ।'
@@ -88,9 +79,6 @@ de:
     zones:
       title: Zonen
       description: 'Der Arbeitsbereich mit zwei Fenstern: eine Teilung, eine formatierte Spalte, ein scrollbarer Bereich. Darauf basieren alle Explorer, Editor und Detailansichten in einer App.'
-    workspace:
-      title: Arbeitsbereich
-      description: 'Seiten, die aus nebeneinander liegenden Bereichen bestehen, die sich nur durch den Abstand zwischen ihnen unterscheiden. Drei Anordnungen, zwischen denen man durch den Baum in jedem von ihnen wechselt.'
     blocks:
       title: Blocks
       description: 'Die Fläche, auf der eine Gruppe von Dingen sitzt, gepolstert oder nicht, mit ihren Karten- und Figurenvarianten.'
@@ -113,9 +101,6 @@ es:
     zones:
       title: Zonas
       description: 'El espacio de trabajo de dos paneles: un dividido, una columna de tamaño definido, un cuerpo desplazable. En lo que se basa cada explorador, editor y vista de detalle en una aplicación.'
-    workspace:
-      title: 'Espacio de trabajo'
-      description: 'Páginas compuestas de regiones dispuestas lado a lado, diferenciadas por el espacio entre ellas y nada más. Tres disposiciones, entre las que se puede mover a través del árbol que se encuentra en cada una de ellas.'
     blocks:
       title: Bloques
       description: 'La superficie sobre la que se asienta un grupo de cosas, acolchada o no, con sus variantes de tarjeta y figura.'
@@ -138,9 +123,6 @@ fa:
     zones:
       title: زون‌ها
       description: 'فضای کاری دو قسمتی: یک تقسیم، یک ستون اندازه‌دار، یک بدنه قابل اسکرول. هر کاوشگر، ویرایشگر و نمای جزئی در یک برنامه بر اساس این ساخته شده است.'
-    workspace:
-      title: 'فضای کاری'
-      description: 'صفحات ساخته شده از نواحی که در کنار هم قرار گرفته‌اند، که فقط با فضای بین آن‌ها از هم متمایز می‌شوند. سه چیدمان، که با درختی که در هر یک از آن‌ها ایستاده است جابجا می‌شوند.'
     blocks:
       title: بلوک‌ها
       description: 'سطحی که یک گروه از چیزها بر روی آن نشسته‌اند، با یا بدون پد، با انواع کارت و شکل آن.'
@@ -163,9 +145,6 @@ fi:
     zones:
       title: Alueet
       description: 'Kaksiosainen työtila: jakautunut, mitoitettu sarake, vieritettävä sisältö. Mikä tahansa explorer, editor ja yksityiskohtanäkymä sovelluksessa perustuu tähän.'
-    workspace:
-      title: Työtila
-      description: 'Sivut, jotka koostuvat vierekkäisistä alueista, erotettu toisistaan niiden välissä olevalla tilalla, eikä muulla. Kolme asettelua, joista siirrytään puun kautta, joka on jokaisessa niistä.'
     blocks:
       title: Blokit
       description: 'Pinta, jolla joukko asioita istuu, pehmustettuna tai ilman, kortti- ja kuvamuunnelmat mukana.'
@@ -191,9 +170,6 @@ fr:
     zones:
       title: Zones
       description: "L'espace de travail à deux volets : une division, une colonne de taille, un corps défilable. Sur quoi chaque explorateur, éditeur et vue détaillée dans une application est construit."
-    workspace:
-      title: 'Espace de travail'
-      description: "Pages composées de régions placées côte à côte, distinguées par l'espace entre elles et rien d'autre. Trois dispositions, déplacées entre par l'arbre se tenant dans chacune d'elles."
     blocks:
       title: Blocs
       description: 'La surface sur laquelle un groupe de choses repose, rembourrée ou non, avec ses variantes de carte et de figure.'
@@ -216,9 +192,6 @@ he:
     zones:
       title: אזורים
       description: 'סביבת עבודה עם שני פאנלים: עמודה מחולקת, עמודה ממדי, גוף ניתן לגלילה. על מה שכל חוקר, עורך ותצוגת פרטים באפליקציה בנויה.'
-    workspace:
-      title: 'סביבת עבודה'
-      description: 'דפים עשויים אזורים מונחים זה לצד זה, המופרדים על ידי המרווח ביניהם ושום דבר נוסף. שלוש סידורים, מועברים ביניהם על ידי העץ העומד בכל אחד מהם.'
     blocks:
       title: בלוקים
       description: 'המשטח שעליו יושבת קבוצת דברים, עם ריפוד או בלי, עם גרסאות כרטיס ודמות.'
@@ -241,9 +214,6 @@ hi:
     zones:
       title: क्षेत्र
       description: 'दो-पैन कार्यक्षेत्र: एक विभाजन, एक आकार का कॉलम, एक स्क्रॉल करने योग्य शरीर। जो हर अन्वेषक, संपादक और ऐप में विवरण दृश्य पर आधारित है।'
-    workspace:
-      title: कार्यक्षेत्र
-      description: 'पृष्ठ जो एक साथ रखे गए क्षेत्रों से बने होते हैं, जो उनके बीच की जगह से अलग होते हैं और कुछ नहीं। तीन व्यवस्थाएँ, जो प्रत्येक में खड़े पेड़ द्वारा एक-दूसरे के बीच स्थानांतरित होती हैं।'
     blocks:
       title: ब्लॉक्स
       description: 'एक समूह की चीजें जिस सतह पर बैठती हैं, पैडेड या नहीं, इसके कार्ड और आकृति भिन्नताओं के साथ।'
@@ -266,9 +236,6 @@ id:
     zones:
       title: Zona
       description: 'Workspace dua panel: sebuah pembagian, kolom berukuran, tubuh yang dapat digulir. Apa yang menjadi dasar setiap penjelajah, editor, dan tampilan detail dalam aplikasi.'
-    workspace:
-      title: Workspace
-      description: 'Halaman yang terdiri dari wilayah yang diletakkan berdampingan, dibedakan oleh ruang di antara mereka dan tidak ada yang lain. Tiga susunan, berpindah di antara mereka dengan pohon yang berdiri di masing-masing.'
     blocks:
       title: Blok
       description: 'Permukaan tempat sekelompok benda berada, dengan atau tanpa padding, dengan variasi kartu dan figur.'
@@ -291,9 +258,6 @@ it:
     zones:
       title: Zone
       description: "L'area di lavoro a due pannelli: una divisione, una colonna dimensionata, un corpo scorrevole. Su cui si basa ogni esploratore, editor e vista dettagliata in un'app."
-    workspace:
-      title: 'Area di lavoro'
-      description: "Pagine composte da regioni disposte affiancate, distinte solo dallo spazio tra di esse. Tre disposizioni, tra cui spostarsi tramite l'albero che si trova in ciascuna di esse."
     blocks:
       title: Blocchi
       description: 'La superficie su cui si trova un gruppo di elementi, imbottita o meno, con le sue varianti a scheda e figura.'
@@ -316,9 +280,6 @@ ja:
     zones:
       title: ゾーン
       description: 二分割のワークスペース：分割され、サイズのあるカラム、スクロール可能なボディ。アプリのすべてのエクスプローラー、エディター、および詳細ビューはこれに基づいています。
-    workspace:
-      title: ワークスペース
-      description: 横に並べられた領域で構成され、間のスペース以外には何も区別がないページ。各領域に立つ木を介して移動する3つの配置。
     blocks:
       title: ブロック
       description: 物のグループが座る表面、パディングの有無にかかわらず、そのカードとフィギュアのバリアントがあります。
@@ -341,9 +302,6 @@ ko:
     zones:
       title: 존
       description: '두 개의 패널로 구성된 작업 공간: 분할된 크기 열과 스크롤 가능한 본문. 모든 탐색기, 편집기 및 앱의 세부 정보 뷰가 기반하는 것입니다.'
-    workspace:
-      title: '작업 공간'
-      description: '나란히 배치된 영역으로 구성된 페이지, 그들 사이의 공간에 의해 구분되며 그 외에는 아무것도 없습니다. 세 가지 배열이 있으며, 각 배열 사이에는 트리가 있습니다.'
     blocks:
       title: 블록
       description: '물체 그룹이 놓이는 표면, 패딩이 있든 없든, 카드 및 도형 변형이 포함됩니다.'
@@ -366,9 +324,6 @@ nl:
     zones:
       title: Zones
       description: 'De werkruimte met twee panelen: een split, een gekleurde kolom, een scrollbare inhoud. Waarop elke verkenner, editor en detailweergave in een app is gebouwd.'
-    workspace:
-      title: Werkruimte
-      description: "Pagina's gemaakt van naast elkaar gelegde gebieden, van elkaar te onderscheiden door de ruimte ertussen en verder niets. Drie indelingen, waarmee je tussen de bomen kunt bewegen die in elk van hen staan."
     blocks:
       title: Blokken
       description: 'Het oppervlak waarop een groep dingen staat, met of zonder opvulling, met zijn kaart- en figuurvarianten.'
@@ -391,9 +346,6 @@ pl:
     zones:
       title: Strefy
       description: 'Dwupanelowe miejsce pracy: podział, kolumna o określonym rozmiarze, przewijalne ciało. Na czym opiera się każdy eksplorator, edytor i widok szczegółowy w aplikacji.'
-    workspace:
-      title: 'Obszar roboczy'
-      description: 'Strony składające się z obszarów ułożonych obok siebie, rozróżniane przez przestrzeń między nimi i nic innego. Trzy układy, przemieszczane przez drzewo znajdujące się w każdym z nich.'
     blocks:
       title: Bloki
       description: 'Powierzchnia, na której siedzi grupa rzeczy, wyściełana lub nie, z wariantami kart i figur.'
@@ -416,9 +368,6 @@ pt_BR:
     zones:
       title: Zonas
       description: 'O espaço de trabalho em duas partes: uma divisão, uma coluna dimensionada, um corpo rolável. O que cada explorador, editor e visualização de detalhe em um aplicativo é construído.'
-    workspace:
-      title: 'Espaço de trabalho'
-      description: 'Páginas feitas de regiões dispostas lado a lado, diferenciadas pelo espaço entre elas e nada mais. Três arranjos, alternados pela árvore que está em cada uma delas.'
     blocks:
       title: Blocos
       description: 'A superfície onde um grupo de coisas está, com ou sem acolchoamento, com suas variantes de cartão e figura.'
@@ -441,9 +390,6 @@ ru:
     zones:
       title: Зоны
       description: 'Рабочее пространство с двумя панелями: разделенное, колонка заданного размера, прокручиваемое тело. На чем основаны все эксплореры, редакторы и представления деталей в приложении.'
-    workspace:
-      title: 'Рабочее пространство'
-      description: 'Страницы, состоящие из регионов, расположенных рядом, различающиеся пространством между ними и ничем другим. Три расположения, между которыми можно перемещаться через дерево, стоящее в каждом из них.'
     blocks:
       title: Блоки
       description: 'Поверхность, на которой располагается группа объектов, с подкладкой или без, с вариантами карточек и фигур.'
@@ -466,9 +412,6 @@ th:
     zones:
       title: โซน
       description: 'พื้นที่ทำงานแบบสองบาน: แบ่ง, คอลัมน์ขนาด, เนื้อหาที่เลื่อนดูได้ สิ่งที่นักสำรวจ, บรรณาธิการ และการดูรายละเอียดในแอปทุกตัวสร้างขึ้นมา'
-    workspace:
-      title: พื้นที่ทำงาน
-      description: 'หน้าเว็บที่ประกอบด้วยพื้นที่จัดเรียงข้างกัน แยกจากกันด้วยช่องว่างระหว่างพวกเขาและไม่มีอย่างอื่น การจัดเรียงสามแบบ เคลื่อนที่ระหว่างกันด้วยต้นไม้ที่อยู่ในแต่ละพื้นที่'
     blocks:
       title: บล็อก
       description: 'พื้นผิวที่กลุ่มของสิ่งต่าง ๆ นั่งอยู่ มีการใส่ขอบหรือไม่ก็ตาม พร้อมด้วยรูปแบบการ์ดและรูปภาพ'
@@ -491,9 +434,6 @@ tr:
     zones:
       title: Bölgeler
       description: 'İki bölmeli çalışma alanı: bölünmüş, boyutlandırılmış bir sütun, kaydırılabilir bir gövde. Bir uygulamadaki her gezgin, editör ve detay görünümü bunun üzerine inşa edilmiştir.'
-    workspace:
-      title: 'Çalışma Alanı'
-      description: 'Yan yana yerleştirilmiş bölgelerden oluşan sayfalar, aralarındaki boşlukla ayrılır ve başka bir şeyle değil. Üç düzenleme, her birinde bulunan ağaçla geçiş yapılır.'
     blocks:
       title: Bloklar
       description: 'Bir grup nesnenin üzerinde oturduğu yüzey, yastıklı veya yastıksız, kart ve şekil varyantları ile.'
@@ -516,9 +456,6 @@ ur:
     zones:
       title: زونز
       description: 'دو پین ورک اسپیس: ایک تقسیم، ایک سائز دیا گیا کالم، ایک سکرول کرنے والا جسم۔ ہر ایک ایکسپلورر، ایڈیٹر اور ایپ میں تفصیلی منظر جس پر یہ بنایا گیا ہے۔'
-    workspace:
-      title: 'ورک اسپیس'
-      description: 'ایسے صفحات جو کناروں کے ساتھ ساتھ رکھے گئے ہیں، ان کے درمیان کی جگہ سے الگ ہوتے ہیں اور کچھ نہیں۔ تین ترتیبیں، جن کے درمیان درخت کی مدد سے منتقل کیا جاتا ہے جو ہر ایک میں موجود ہوتا ہے۔'
     blocks:
       title: بلاک
       description: 'وہ سطح جس پر چیزوں کا ایک گروپ بیٹھتا ہے، پیڈڈ ہو یا نہ ہو، اس کے کارڈ اور شکل کے مختلف ورژن کے ساتھ۔'
@@ -541,9 +478,6 @@ vi:
     zones:
       title: 'Khu vực'
       description: 'Không gian làm việc hai ngăn: một sự chia tách, một cột có kích thước, một thân cuộn. Những gì mà mọi trình khám phá, trình chỉnh sửa và chế độ xem chi tiết trong một ứng dụng được xây dựng trên đó.'
-    workspace:
-      title: 'Không gian làm việc'
-      description: 'Các trang được tạo thành từ các khu vực nằm cạnh nhau, được phân biệt bởi khoảng trống giữa chúng và không gì khác. Ba cách sắp xếp, di chuyển giữa chúng bằng cây đứng ở mỗi khu vực.'
     blocks:
       title: Khối
       description: 'Bề mặt mà một nhóm các vật nằm trên, có thể có hoặc không có đệm, với các biến thể thẻ và hình.'
@@ -566,9 +500,6 @@ zh:
     zones:
       title: 区域
       description: 双窗格工作区：一个分裂、一个大小列、一个可滚动的主体。每个应用程序中的探索者、编辑器和详细视图都是基于此构建的。
-    workspace:
-      title: 工作区
-      description: 由并排放置的区域组成的页面，通过它们之间的空间区分开来，别无他法。三种布局，由站在每个区域中的树木之间移动。
     blocks:
       title: 块
       description: 一组事物所处的表面，有或没有填充，包含卡片和图形变体。
