@@ -4,6 +4,14 @@ en:
       label: Room
       placeholder: Search a room...
       help: Picks a record by searching for it. What the form carries is its id.
+    entity_search_multiple:
+      label: 'Messages'
+      placeholder: 'Search a message...'
+      help: 'Holds several records: one capsule per value, three at most, the box gone once it is full.'
+    entity_search_list:
+      label: 'Attachments'
+      help: 'The same records without the search box, as a relation something else fills: each row can only be taken off, and it asks first.'
+      remove_confirm: 'Take this record off the list?'
     password:
       label: Password
       help: Enter your password to authenticate.
@@ -137,6 +145,14 @@ ar:
       label: غرفة
       placeholder: 'ابحث عن غرفة...'
       help: 'اختر سجلًا من خلال البحث عنه. ما تحمله النموذج هو معرفه.'
+    entity_search_multiple:
+      label: 'الرسائل'
+      placeholder: 'ابحث عن رسالة...'
+      help: 'يحمل عدة سجلات: كبسولة لكل قيمة، ثلاث على الأكثر، ويختفي حقل البحث عند اكتمالها.'
+    entity_search_list:
+      label: 'المرفقات'
+      help: 'نفس السجلات بدون حقل البحث، كعلاقة يملؤها شيء آخر: كل صف لا يمكن إلا إزالته، وهو يسأل أولاً.'
+      remove_confirm: 'إزالة هذا السجل من القائمة؟'
     password:
       label: 'كلمة المرور'
       help: 'أدخل كلمة المرور الخاصة بك للمصادقة.'
@@ -265,6 +281,14 @@ bn:
       label: ঘর
       placeholder: 'একটি ঘর খুঁজুন...'
       help: 'একটি রেকর্ড খুঁজে বের করে নির্বাচন করুন। ফর্মে যা আছে তা হল এর আইডি।'
+    entity_search_multiple:
+      label: 'বার্তা'
+      placeholder: 'একটি বার্তা খুঁজুন...'
+      help: 'একাধিক রেকর্ড ধরে রাখে: প্রতি মানের জন্য একটি ক্যাপসুল, সর্বোচ্চ তিনটি, পূর্ণ হলে খোঁজার ঘরটি চলে যায়।'
+    entity_search_list:
+      label: 'সংযুক্তি'
+      help: 'একই রেকর্ড, খোঁজার ঘর ছাড়া — অন্য কিছু যে সম্পর্ক ভরায় তার মতো: প্রতিটি সারি কেবল সরানো যায়, আর সে আগে জিজ্ঞাসা করে।'
+      remove_confirm: 'এই রেকর্ডটি তালিকা থেকে সরানো হবে?'
     password:
       label: পাসওয়ার্ড
       help: 'প্রমাণীকরণের জন্য আপনার পাসওয়ার্ড প্রবেশ করুন।'
@@ -393,6 +417,14 @@ de:
       label: Raum
       placeholder: 'Raum suchen...'
       help: 'Wählt einen Datensatz durch Suche aus. Was das Formular überträgt, ist seine ID.'
+    entity_search_multiple:
+      label: 'Nachrichten'
+      placeholder: 'Nachricht suchen...'
+      help: 'Hält mehrere Datensätze: eine Kapsel pro Wert, höchstens drei, das Feld verschwindet, sobald es voll ist.'
+    entity_search_list:
+      label: 'Anhänge'
+      help: 'Dieselben Datensätze ohne Suchfeld, wie eine von etwas anderem gefüllte Beziehung: jede Zeile kann nur entfernt werden, und sie fragt vorher.'
+      remove_confirm: 'Diesen Datensatz von der Liste entfernen?'
     password:
       label: Passwort
       help: 'Geben Sie Ihr Passwort zur Authentifizierung ein.'
@@ -521,6 +553,14 @@ es:
       label: Habitación
       placeholder: 'Buscar una habitación...'
       help: 'Selecciona un registro buscándolo. Lo que lleva el formulario es su id.'
+    entity_search_multiple:
+      label: 'Mensajes'
+      placeholder: 'Buscar un mensaje...'
+      help: 'Contiene varios registros: una cápsula por valor, tres como máximo, el campo desaparece cuando está lleno.'
+    entity_search_list:
+      label: 'Adjuntos'
+      help: 'Los mismos registros sin el campo de búsqueda, como una relación que llena otra cosa: cada fila solo puede quitarse, y pregunta antes.'
+      remove_confirm: '¿Quitar este registro de la lista?'
     password:
       label: Contraseña
       help: 'Introduce tu contraseña para autenticarte.'
@@ -649,6 +689,14 @@ fa:
       label: اتاق
       placeholder: 'اتاقی را جستجو کنید...'
       help: 'سندی را با جستجو انتخاب کنید. آنچه فرم حمل می‌کند شناسه آن است.'
+    entity_search_multiple:
+      label: 'پیام‌ها'
+      placeholder: 'جست‌وجوی یک پیام...'
+      help: 'چند رکورد را نگه می‌دارد: برای هر مقدار یک کپسول، حداکثر سه، و با پر شدن، کادر جست‌وجو می‌رود.'
+    entity_search_list:
+      label: 'پیوست‌ها'
+      help: 'همان رکوردها بدون کادر جست‌وجو، مانند رابطه‌ای که چیز دیگری پرش می‌کند: هر سطر فقط برداشته می‌شود، و اول می‌پرسد.'
+      remove_confirm: 'این رکورد از فهرست برداشته شود؟'
     password:
       label: گذرواژه
       help: 'گذرواژه خود را برای احراز هویت وارد کنید.'
@@ -777,6 +825,14 @@ fi:
       label: Huone
       placeholder: 'Etsi huonetta...'
       help: 'Valitaan tietue hakemalla sitä. Lomakkeen mukana kulkee sen id.'
+    entity_search_multiple:
+      label: 'Viestit'
+      placeholder: 'Etsi viestiä...'
+      help: 'Pitää useita tietueita: yksi kapseli arvoa kohti, enintään kolme, kenttä katoaa kun se on täynnä.'
+    entity_search_list:
+      label: 'Liitteet'
+      help: 'Samat tietueet ilman hakukenttää, kuin jonkin muun täyttämä suhde: rivi voidaan vain poistaa, ja se kysyy ensin.'
+      remove_confirm: 'Poistetaanko tämä tietue listalta?'
     password:
       label: Salasana
       help: 'Syötä salasanasi kirjautuaksesi sisään.'
@@ -905,6 +961,14 @@ fr:
       label: Chambre
       placeholder: 'Rechercher une chambre...'
       help: 'Sélectionne un enregistrement en le recherchant. Ce que le formulaire porte est son identifiant.'
+    entity_search_multiple:
+      label: 'Messages'
+      placeholder: 'Rechercher un message...'
+      help: 'Porte plusieurs enregistrements : une capsule par valeur, trois au plus, la boîte disparaît une fois pleine.'
+    entity_search_list:
+      label: 'Pièces jointes'
+      help: 'Les mêmes enregistrements sans la boîte de recherche, comme une relation remplie par autre chose : chaque ligne ne peut qu''être retirée, et elle demande d''abord.'
+      remove_confirm: 'Retirer cet enregistrement de la liste ?'
     password:
       label: 'Mot de passe'
       help: 'Entrez votre mot de passe pour vous authentifier.'
@@ -1033,6 +1097,14 @@ he:
       label: חדר
       placeholder: 'חפש חדר...'
       help: 'בחר רישום על ידי חיפוש שלו. מה שהטופס נושא הוא ה-id שלו.'
+    entity_search_multiple:
+      label: 'הודעות'
+      placeholder: 'חפש הודעה...'
+      help: 'מחזיק כמה רשומות: קפסולה לכל ערך, שלוש לכל היותר, ותיבת החיפוש נעלמת כשהוא מתמלא.'
+    entity_search_list:
+      label: 'קבצים מצורפים'
+      help: 'אותן רשומות בלי תיבת החיפוש, כמו קשר שמשהו אחר ממלא: כל שורה אפשר רק להסיר, והיא שואלת קודם.'
+      remove_confirm: 'להסיר רשומה זו מהרשימה?'
     password:
       label: סיסמה
       help: 'הזן את הסיסמה שלך כדי לאמת.'
@@ -1161,6 +1233,14 @@ hi:
       label: कमरा
       placeholder: 'एक कमरे की खोज करें...'
       help: 'रिकॉर्ड का चयन करें। फॉर्म में जो है वह इसका आईडी है।'
+    entity_search_multiple:
+      label: 'संदेश'
+      placeholder: 'एक संदेश खोजें...'
+      help: 'कई रिकॉर्ड रखता है: प्रति मान एक कैप्सूल, अधिकतम तीन, भर जाने पर खोज बॉक्स हट जाता है।'
+    entity_search_list:
+      label: 'अनुलग्नक'
+      help: 'वही रिकॉर्ड, बिना खोज बॉक्स — जैसे कोई संबंध जिसे कुछ और भरता है: हर पंक्ति केवल हटाई जा सकती है, और वह पहले पूछती है।'
+      remove_confirm: 'इस रिकॉर्ड को सूची से हटाएँ?'
     password:
       label: पासवर्ड
       help: 'प्रमाणित करने के लिए अपना पासवर्ड दर्ज करें।'
@@ -1289,6 +1369,14 @@ id:
       label: Ruang
       placeholder: 'Cari sebuah ruang...'
       help: 'Pilih sebuah catatan dengan mencarinya. Yang dibawa formulir adalah id-nya.'
+    entity_search_multiple:
+      label: 'Pesan'
+      placeholder: 'Cari sebuah pesan...'
+      help: 'Menyimpan beberapa catatan: satu kapsul per nilai, maksimal tiga, kolomnya hilang setelah penuh.'
+    entity_search_list:
+      label: 'Lampiran'
+      help: 'Catatan yang sama tanpa kolom pencarian, seperti relasi yang diisi oleh hal lain: setiap baris hanya bisa dilepas, dan ia menanyakannya dulu.'
+      remove_confirm: 'Lepaskan catatan ini dari daftar?'
     password:
       label: 'Kata Sandi'
       help: 'Masukkan kata sandi Anda untuk autentikasi.'
@@ -1417,6 +1505,14 @@ it:
       label: Stanza
       placeholder: 'Cerca una stanza...'
       help: 'Seleziona un record cercandolo. Ciò che il modulo trasmette è il suo id.'
+    entity_search_multiple:
+      label: 'Messaggi'
+      placeholder: 'Cerca un messaggio...'
+      help: 'Contiene più record: una capsula per valore, tre al massimo, il campo scompare quando è pieno.'
+    entity_search_list:
+      label: 'Allegati'
+      help: 'Gli stessi record senza il campo di ricerca, come una relazione riempita da altro: ogni riga può solo essere togliata, e chiede prima.'
+      remove_confirm: 'Togliere questo record dalla lista?'
     password:
       label: Password
       help: 'Inserisci la tua password per autenticarti.'
@@ -1545,6 +1641,14 @@ ja:
       label: 部屋
       placeholder: 部屋を検索...
       help: 検索してレコードを選択します。フォームが持つのはそのIDです。
+    entity_search_multiple:
+      label: 'メッセージ'
+      placeholder: 'メッセージを検索...'
+      help: '複数のレコードを持ちます。値ごとに1つのカプセル、最大3つで、満杯になると検索欄は消えます。'
+    entity_search_list:
+      label: '添付ファイル'
+      help: '検索欄のない同じレコード。ほかのものが埋める関連と同じで、各行は外すことしかできず、先に確認します。'
+      remove_confirm: 'このレコードをリストから外しますか？'
     password:
       label: パスワード
       help: 認証するためにパスワードを入力してください。
@@ -1673,6 +1777,14 @@ ko:
       label: 방
       placeholder: '방 검색...'
       help: '레코드를 검색하여 선택합니다. 폼이 가지고 있는 것은 ID입니다.'
+    entity_search_multiple:
+      label: '메시지'
+      placeholder: '메시지 검색...'
+      help: '여러 레코드를 담습니다. 값마다 캡슐 하나, 최대 세 개이며, 다 차면 검색란이 사라집니다.'
+    entity_search_list:
+      label: '첨부 파일'
+      help: '검색란이 없는 같은 레코드로, 다른 것이 채우는 관계와 같습니다. 각 행은 빼낼 수만 있고, 먼저 묻습니다.'
+      remove_confirm: '이 레코드를 목록에서 빼낼까요?'
     password:
       label: 비밀번호
       help: '인증을 위해 비밀번호를 입력하세요.'
@@ -1801,6 +1913,14 @@ nl:
       label: Kamer
       placeholder: 'Zoek een kamer...'
       help: 'Kies een record door erin te zoeken. Wat het formulier meedraagt, is de id.'
+    entity_search_multiple:
+      label: 'Berichten'
+      placeholder: 'Zoek een bericht...'
+      help: 'Houdt meerdere records vast: één capsule per waarde, maximaal drie, het veld verdwijnt zodra het vol is.'
+    entity_search_list:
+      label: 'Bijlagen'
+      help: 'Dezelfde records zonder zoekveld, als een relatie die iets anders vult: elke rij kan alleen worden verwijderd, en vraagt het eerst.'
+      remove_confirm: 'Dit record van de lijst verwijderen?'
     password:
       label: Wachtwoord
       help: 'Voer uw wachtwoord in om te authenticeren.'
@@ -1929,6 +2049,14 @@ pl:
       label: Pokój
       placeholder: 'Szukaj pokoju...'
       help: 'Wybiera rekord poprzez jego wyszukiwanie. To, co formularz przesyła, to jego id.'
+    entity_search_multiple:
+      label: 'Wiadomości'
+      placeholder: 'Szukaj wiadomości...'
+      help: 'Przechowuje kilka rekordów: jedna kapsułka na wartość, najwyżej trzy, pole znika, gdy jest pełne.'
+    entity_search_list:
+      label: 'Załączniki'
+      help: 'Te same rekordy bez pola wyszukiwania, jak relacja wypełniana przez coś innego: każdy wiersz można tylko usunąć, i najpierw pyta.'
+      remove_confirm: 'Usunąć ten rekord z listy?'
     password:
       label: Hasło
       help: 'Wprowadź swoje hasło, aby się uwierzytelnić.'
@@ -2057,6 +2185,14 @@ pt_BR:
       label: Sala
       placeholder: 'Pesquise uma sala...'
       help: 'Seleciona um registro pesquisando por ele. O que o formulário carrega é seu id.'
+    entity_search_multiple:
+      label: 'Mensagens'
+      placeholder: 'Buscar uma mensagem...'
+      help: 'Guarda vários registros: uma cápsula por valor, três no máximo, o campo desaparece quando está cheio.'
+    entity_search_list:
+      label: 'Anexos'
+      help: 'Os mesmos registros sem o campo de busca, como uma relação preenchida por outra coisa: cada linha só pode ser retirada, e ela pergunta antes.'
+      remove_confirm: 'Retirar este registro da lista?'
     password:
       label: Senha
       help: 'Digite sua senha para autenticação.'
@@ -2185,6 +2321,14 @@ ru:
       label: Комната
       placeholder: 'Поиск комнаты...'
       help: 'Выбирает запись по её поиску. Что форма содержит - это её идентификатор.'
+    entity_search_multiple:
+      label: 'Сообщения'
+      placeholder: 'Найти сообщение...'
+      help: 'Хранит несколько записей: по одной капсуле на значение, не больше трёх, поле исчезает, когда список заполнен.'
+    entity_search_list:
+      label: 'Вложения'
+      help: 'Те же записи без поля поиска, как связь, которую заполняет что-то другое: строку можно только убрать, и сначала она спросит.'
+      remove_confirm: 'Убрать эту запись из списка?'
     password:
       label: Пароль
       help: 'Введите свой пароль для аутентификации.'
@@ -2313,6 +2457,14 @@ th:
       label: ห้อง
       placeholder: ค้นหาห้อง...
       help: 'เลือกบันทึกโดยการค้นหา สิ่งที่ฟอร์มเก็บคือรหัสของมัน'
+    entity_search_multiple:
+      label: 'ข้อความ'
+      placeholder: 'ค้นหาข้อความ...'
+      help: 'เก็บได้หลายระเบียน: หนึ่งแคปซูลต่อหนึ่งค่า ไม่เกินสาม และช่องค้นหาจะหายไปเมื่อเต็ม'
+    entity_search_list:
+      label: 'ไฟล์แนบ'
+      help: 'ระเบียนเดียวกันแต่ไม่มีช่องค้นหา เหมือนความสัมพันธ์ที่สิ่งอื่นเติมให้: แต่ละแถวทำได้แค่เอาออก และจะถามก่อน'
+      remove_confirm: 'เอาระเบียนนี้ออกจากรายการหรือไม่?'
     password:
       label: รหัสผ่าน
       help: กรอกรหัสผ่านของคุณเพื่อยืนยันตัวตน
@@ -2441,6 +2593,14 @@ tr:
       label: Oda
       placeholder: 'Oda arayın...'
       help: 'Bir kaydı arayarak seçin. Formun taşıdığı şey onun kimliğidir.'
+    entity_search_multiple:
+      label: 'Mesajlar'
+      placeholder: 'Bir mesaj ara...'
+      help: 'Birkaç kayıt tutar: her değer için bir kapsül, en fazla üç, dolduğunda alan kaybolur.'
+    entity_search_list:
+      label: 'Ekler'
+      help: 'Arama alanı olmadan aynı kayıtlar, başka bir şeyin doldurduğu bir ilişki gibi: her satır yalnızca kaldırılabilir ve önce sorar.'
+      remove_confirm: 'Bu kayıt listeden kaldırılsın mı?'
     password:
       label: Şifre
       help: 'Kimlik doğrulamak için şifrenizi girin.'
@@ -2569,6 +2729,14 @@ ur:
       label: کمرہ
       placeholder: 'کمرہ تلاش کریں...'
       help: 'ریکارڈ کو تلاش کرکے منتخب کریں۔ فارم میں موجود معلومات اس کا شناختی نمبر ہے۔'
+    entity_search_multiple:
+      label: 'پیغامات'
+      placeholder: 'ایک پیغام تلاش کریں...'
+      help: 'کئی ریکارڈ رکھتا ہے: ہر قدر کے لیے ایک کیپسول، زیادہ سے زیادہ تین، اور بھر جانے پر تلاش کا خانہ ہٹ جاتا ہے۔'
+    entity_search_list:
+      label: 'منسلکات'
+      help: 'وہی ریکارڈ، تلاش کے خانے کے بغیر — جیسے وہ تعلق جسے کوئی اور بھرتا ہے: ہر سطر صرف ہٹائی جا سکتی ہے، اور وہ پہلے پوچھتی ہے۔'
+      remove_confirm: 'اس ریکارڈ کو فہرست سے ہٹائیں؟'
     password:
       label: 'پاس ورڈ'
       help: 'توثیق کے لیے اپنا پاس ورڈ درج کریں۔'
@@ -2697,6 +2865,14 @@ vi:
       label: Phòng
       placeholder: 'Tìm kiếm một phòng...'
       help: 'Chọn một bản ghi bằng cách tìm kiếm nó. Những gì biểu mẫu mang theo là id của nó.'
+    entity_search_multiple:
+      label: 'Tin nhắn'
+      placeholder: 'Tìm một tin nhắn...'
+      help: 'Giữ nhiều bản ghi: một viên nang cho mỗi giá trị, nhiều nhất là ba, ô tìm kiếm biến mất khi đã đủ.'
+    entity_search_list:
+      label: 'Tệp đính kèm'
+      help: 'Cùng những bản ghi đó nhưng không có ô tìm kiếm, như một quan hệ do thứ khác điền: mỗi hàng chỉ có thể bị bỏ ra, và nó hỏi trước.'
+      remove_confirm: 'Bỏ bản ghi này khỏi danh sách?'
     password:
       label: 'Mật khẩu'
       help: 'Nhập mật khẩu của bạn để xác thực.'
@@ -2825,6 +3001,14 @@ zh:
       label: 房间
       placeholder: 搜索房间...
       help: 通过搜索记录来选择一条记录。表单携带的是其ID。
+    entity_search_multiple:
+      label: '消息'
+      placeholder: '搜索一条消息...'
+      help: '可容纳多条记录：每个值一枚胶囊，最多三枚，满了之后搜索框就会消失。'
+    entity_search_list:
+      label: '附件'
+      help: '同样的记录，但没有搜索框，就像由别处填充的关联：每一行只能被移除，并且会先询问。'
+      remove_confirm: '要把这条记录从列表中移除吗？'
     password:
       label: 密码
       help: 输入您的密码以进行身份验证。

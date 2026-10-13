@@ -7,6 +7,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Validator\Constraints\Length;
 use Wexample\Helpers\Helper\PlaceholderHelper;
+use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
 use Wexample\SymfonyForms\Form\AbstractForm;
 use Wexample\SymfonyForms\Form\Type\ButtonInputType;
 use Wexample\SymfonyForms\Form\Type\DateInputType;
@@ -31,7 +32,10 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
     public static bool $ajax = false;
 
     public function __construct(
-        private readonly RequestStack $requestStack
+        private readonly RequestStack $requestStack,
+        // The records the list without a box opens on: it offers no way of
+        // adding one, so something has to have put them there.
+        private readonly DemoMessageRepository $messageRepository,
     ) {
     }
 
@@ -127,6 +131,41 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     // the field asks for one of those and never offers a page.
                     EntitySearchInputType::OPTION_ENTITY_TYPE => 'demo_room',
                     'placeholder' => true,
+                ]
+            )
+            ->add(
+                'entity_search_multiple',
+                EntitySearchInputType::class,
+                [
+                    self::FIELD_OPTION_NAME_LABEL => true,
+                    self::FIELD_OPTION_NAME_REQUIRED => false,
+                    self::FIELD_OPTION_NAME_MAPPED => false,
+                    'help' => true,
+                    // The messages of the chat demo, there being enough of them
+                    // to pick several: one capsule per record, and the box
+                    // gone once the third is in.
+                    EntitySearchInputType::OPTION_ENTITY_TYPE => 'demo_message',
+                    EntitySearchInputType::OPTION_MULTIPLE => true,
+                    EntitySearchInputType::OPTION_MAX_VALUES => 3,
+                    'placeholder' => true,
+                ]
+            )
+            ->add(
+                'entity_search_list',
+                EntitySearchInputType::class,
+                [
+                    self::FIELD_OPTION_NAME_LABEL => true,
+                    self::FIELD_OPTION_NAME_REQUIRED => false,
+                    self::FIELD_OPTION_NAME_MAPPED => false,
+                    'help' => true,
+                    // The same records, without the box: what a relation filled
+                    // by something else looks like — an uploader's attachments
+                    // — where the field is only how one is taken back off.
+                    EntitySearchInputType::OPTION_ENTITY_TYPE => 'demo_message',
+                    EntitySearchInputType::OPTION_MULTIPLE => true,
+                    EntitySearchInputType::OPTION_SEARCH => false,
+                    EntitySearchInputType::OPTION_REMOVE_CONFIRM => true,
+                    'data' => $this->messageRepository->findBy([], ['dateCreated' => 'DESC'], 2),
                 ]
             )
             ->add(
