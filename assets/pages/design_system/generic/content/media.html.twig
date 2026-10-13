@@ -89,6 +89,43 @@
         }) }}
     </div>
 
+    <h2>{{ '@page::section.frame.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.frame.description' | trans }}</div>
+    <div class="stack--horizontal">
+        <div class="block block--padded" style="flex: 1">
+            {{ media(path('wexample_design_system_fixtures_placeholder_svg'), '', { width: 400, height: 300, href: '#', caption: '@page::wall.caption' | trans, class: 'media--4-3 media--cover' }) }}
+            <p>media() · href · caption</p>
+        </div>
+        <div class="block block--padded" style="flex: 1">
+            {{ media(null, '', { class: 'media--4-3' }) }}
+            <p>media(null) · placeholder</p>
+        </div>
+    </div>
+
+    {#- Pictures drawn on the spot, each at its own ratio and hue, and one
+        missing, which the placeholder stands for. -#}
+    {%- set wall_items = [] -%}
+    {%- for index in 0..13 -%}
+        {%- set ratio = [[4, 3], [3, 4], [1, 1], [16, 9], [2, 3], [3, 2], [9, 16]][index % 7] -%}
+        {%- set hue = (index * 47) % 360 -%}
+        {%- set svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' ~ ratio[0] ~ ' ' ~ ratio[1] ~ '"><rect width="100%" height="100%" fill="hsl(' ~ hue ~ ' 60% 55%)"/></svg>' -%}
+        {%- set wall_items = wall_items|merge([{
+            src: index == 5 ? null : 'data:image/svg+xml,' ~ svg|url_encode,
+            width: ratio[0] * 300,
+            height: ratio[1] * 300,
+            href: '#',
+            caption: ratio[0] ~ ':' ~ ratio[1],
+        }]) -%}
+    {%- endfor -%}
+
+    <h2>{{ '@page::section.wall.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.wall.description' | trans }}</div>
+    {{ wall(wall_items) }}
+
+    <h2>{{ '@page::section.wall_vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.wall_vue.description' | trans }}</div>
+    {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/wall/demo-entity-wall') }}
+
     <h2>{{ '@page::section.crop.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.crop.description' | trans }}</div>
     {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-image-crop') }}

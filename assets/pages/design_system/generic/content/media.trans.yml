@@ -17,12 +17,24 @@ en:
     document:
       title: Embedded document
       description: "An iframe fills its box, so the box carries the size: a ratio modifier, or media--fill to take whatever height the parent gives."
+    frame:
+      title: Frame
+      description: "A picture in its frame, from the server with media() or as the media vue component: a link when it leads somewhere, a caption over its foot, and a glow while it loads or when there is none."
+    wall:
+      title: Wall
+      description: "Pictures of every height packed side by side with no holes, each as tall as its ratio says, the columns as many as the room takes: wall() draws it from the server, the shape is css/shapes/wall."
+    wall_vue:
+      title: Wall of a collection
+      description: "The same wall as a collection of entities, read from the api a page at a time as it is scrolled: the next page comes before the foot of the wall is reached."
     crop:
       title: Crop
       description: "What part of an image to keep, chosen over the image: the area moves, a corner sizes it, the arrows move it and with Shift size it. It is said in the image's own pixels — what a server crops by — and crop() cuts it here when the cut is sent instead. A ratio holds it (1 for a portrait, shown round), or it is free, as a signature needs."
 
   document:
     title: Placeholder document
+
+  wall:
+    caption: A caption over its foot
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -161,11 +173,22 @@ fr:
     document:
       title: 'Document intégré'
       description: 'Un iframe remplit sa boîte, donc la boîte porte la taille : un modificateur de ratio, ou media--fill pour prendre la hauteur que le parent donne.'
+    frame:
+      title: Cadre
+      description: "Une image dans son cadre, rendue par le serveur avec media() ou par le composant vue media : un lien quand elle mène quelque part, une légende sur son pied, et une lueur pendant qu'elle charge ou quand il n'y en a pas."
+    wall:
+      title: Mur
+      description: "Des images de toutes hauteurs serrées côte à côte sans trou, chacune aussi haute que son ratio le dit, autant de colonnes que la place en prend : wall() le rend côté serveur, la forme est css/shapes/wall."
+    wall_vue:
+      title: Mur d'une collection
+      description: "Le même mur pour une collection d'entités, lue dans l'api une page à la fois au fil du défilement : la page suivante arrive avant que le pied du mur soit atteint."
     crop:
       title: Recadrage
       description: "Quelle partie d'une image garder, choisie sur l'image : la zone se déplace, un coin la redimensionne, les flèches la déplacent et avec Maj la redimensionnent. Elle est donnée en pixels de l'image — ce par quoi un serveur recadre — et crop() la découpe ici quand c'est la découpe qui est envoyée. Un ratio la tient (1 pour un portrait, affiché rond), ou elle est libre, comme pour une signature."
   document:
     title: 'Document de remplacement'
+  wall:
+    caption: 'Une légende sur son pied'
 
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
