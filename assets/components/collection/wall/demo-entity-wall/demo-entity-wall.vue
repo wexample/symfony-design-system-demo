@@ -3,7 +3,9 @@ import AbstractEntityWall from '@wexample/symfony-design-system/components/colle
 
 // Landscapes, portraits and squares, in the order a camera roll mixes them.
 const RATIOS = [[4, 3], [3, 4], [1, 1], [16, 9], [2, 3], [3, 2], [9, 16], [5, 4]];
-const DEMO_PICTURES = Array.from({ length: 70 }, (value, index) => {
+// Two pages: the first one read with the page, the second one as the wall
+// is scrolled — enough to see it come.
+const DEMO_PICTURES = Array.from({ length: 24 }, (value, index) => {
   const [width, height] = RATIOS[(index * 5) % RATIOS.length];
 
   return {
