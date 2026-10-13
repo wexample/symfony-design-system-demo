@@ -19,6 +19,9 @@ en:
     ajax:
       title: Ajax forms
       description: "A form that answers without the page being left, and what it does with what comes back."
+    gate:
+      title: 'Gated action'
+      description: 'An action held until the data it needs is there, sending to the form missing it and back.'
     vue:
       title: Vue forms
       description: "The same forms driven from a component, where the fields are state rather than markup."
@@ -41,6 +44,9 @@ ar:
     ajax:
       title: 'نماذج أجاكس'
       description: 'نموذج يرد دون مغادرة الصفحة، وما يفعله بما يعود.'
+    gate:
+      title: 'إجراء مشروط'
+      description: 'إجراء معلّق حتى تتوفر البيانات التي يحتاجها، يرسل إلى النموذج الناقص ثم يعود.'
     vue:
       title: 'نماذج فيو'
       description: 'نفس النماذج المدفوعة من مكون، حيث تكون الحقول حالة بدلاً من تعليمات برمجية.'
@@ -63,6 +69,9 @@ bn:
     ajax:
       title: 'এজাক্স ফরম'
       description: 'একটি ফরম যা পৃষ্ঠা ছাড়াই উত্তর দেয়, এবং এটি ফিরে আসা নিয়ে কী করে।'
+    gate:
+      title: 'শর্তসাপেক্ষ কাজ'
+      description: 'প্রয়োজনীয় তথ্য না থাকা পর্যন্ত আটকে থাকা একটি কাজ, যা অসম্পূর্ণ ফর্মে পাঠায় এবং ফিরিয়ে আনে।'
     vue:
       title: 'ভিউ ফরম'
       description: 'একই ফরম একটি কম্পোনেন্ট দ্বারা চালিত, যেখানে ক্ষেত্রগুলো মার্কআপের পরিবর্তে অবস্থান।'
@@ -85,6 +94,9 @@ de:
     ajax:
       title: Ajax-Formulare
       description: 'Ein Formular, das antwortet, ohne dass die Seite verlassen wird, und was damit geschieht, was zurückkommt.'
+    gate:
+      title: 'Bedingte Aktion'
+      description: 'Eine Aktion, die wartet, bis die nötigen Daten da sind: sie schickt zum unvollständigen Formular und wieder zurück.'
     vue:
       title: Vue-Formulare
       description: 'Die gleichen Formulare, die von einem Komponent gesteuert werden, bei denen die Felder Zustand anstelle von Markup sind.'
@@ -107,6 +119,9 @@ es:
     ajax:
       title: 'Formas Ajax'
       description: 'Un formulario que responde sin que se abandone la página, y lo que hace con lo que regresa.'
+    gate:
+      title: 'Acción condicionada'
+      description: 'Una acción retenida hasta que estén los datos que necesita: envía al formulario incompleto y vuelve.'
     vue:
       title: 'Formas Vue'
       description: 'Los mismos formularios impulsados por un componente, donde los campos son estado en lugar de marcado.'
@@ -129,6 +144,9 @@ fa:
     ajax:
       title: 'فرم‌های آژاکس'
       description: 'فرمی که بدون ترک صفحه پاسخ می‌دهد و با آنچه برمی‌گردد چه کاری انجام می‌دهد.'
+    gate:
+      title: 'اقدام مشروط'
+      description: 'اقدامی که تا آماده شدن داده‌های لازم متوقف می‌ماند، به فرم ناقص می‌فرستد و بازمی‌گرداند.'
     vue:
       title: 'فرم‌های ویو'
       description: 'همان فرم‌ها که از یک کامپوننت هدایت می‌شوند، جایی که فیلدها حالت هستند نه نشانه‌گذاری.'
@@ -151,6 +169,9 @@ fi:
     ajax:
       title: Ajax-lomakkeet
       description: 'Lomake, joka vastaa ilman, että sivua poistutaan, ja mitä se tekee sen kanssa, mikä palautuu.'
+    gate:
+      title: 'Ehdollinen toiminto'
+      description: 'Toiminto odottaa, kunnes tarvittavat tiedot ovat paikallaan: se ohjaa puutteelliseen lomakkeeseen ja takaisin.'
     vue:
       title: Vue-lomakkeet
       description: 'Samat lomakkeet komponentin ohjaamana, jossa kentät ovat tilaa eivätkä merkintöjä.'
@@ -173,6 +194,9 @@ fr:
     ajax:
       title: 'Formulaires Ajax'
       description: "Un formulaire qui répond sans quitter la page, et ce qu'il fait avec ce qui revient."
+    gate:
+      title: 'Action conditionnée'
+      description: 'Une action retenue tant que les données qu''elle demande manquent : elle envoie vers le formulaire incomplet, puis y revient.'
     vue:
       title: 'Formulaires Vue'
       description: 'Les mêmes formulaires pilotés par un composant, où les champs sont des états plutôt que du balisage.'
@@ -195,6 +219,9 @@ he:
     ajax:
       title: 'טפסי Ajax'
       description: 'טופס שמגיב מבלי לעזוב את העמוד, ומה הוא עושה עם מה שחוזר.'
+    gate:
+      title: 'פעולה מותנית'
+      description: 'פעולה שממתינה עד שהנתונים הדרושים לה קיימים: שולחת לטופס החסר וחוזרת.'
     vue:
       title: 'טפסי Vue'
       description: 'אותם טפסים המנוהלים על ידי רכיב, שבו השדות הם מצב ולא סימון.'
@@ -217,6 +244,9 @@ hi:
     ajax:
       title: 'एजक्स फॉर्म'
       description: 'एक फॉर्म जो बिना पृष्ठ छोड़े उत्तर देता है, और जो इसके साथ वापस आता है उसके साथ क्या करता है।'
+    gate:
+      title: 'सशर्त कार्रवाई'
+      description: 'एक कार्रवाई जो ज़रूरी डेटा मिलने तक रुकी रहती है: अधूरे फ़ॉर्म पर भेजती है और वापस लाती है।'
     vue:
       title: 'व्यू फॉर्म'
       description: 'वही फॉर्म जो एक घटक से संचालित होते हैं, जहाँ फ़ील्ड स्थिति होती है न कि मार्कअप।'
@@ -239,6 +269,9 @@ id:
     ajax:
       title: 'Formulir Ajax'
       description: 'Formulir yang menjawab tanpa meninggalkan halaman, dan apa yang dilakukannya dengan apa yang kembali.'
+    gate:
+      title: 'Aksi bersyarat'
+      description: 'Aksi yang tertahan sampai data yang dibutuhkan ada: mengarahkan ke formulir yang kurang lalu kembali.'
     vue:
       title: 'Formulir Vue'
       description: 'Formulir yang sama yang dikendalikan dari komponen, di mana kolom adalah status daripada markup.'
@@ -261,6 +294,9 @@ it:
     ajax:
       title: 'Moduli Ajax'
       description: 'Un modulo che risponde senza lasciare la pagina, e cosa fa con ciò che torna.'
+    gate:
+      title: 'Azione condizionata'
+      description: 'Un''azione trattenuta finché mancano i dati che richiede: manda al modulo incompleto e poi torna.'
     vue:
       title: 'Moduli Vue'
       description: 'Gli stessi moduli gestiti da un componente, dove i campi sono stato piuttosto che markup.'
@@ -283,6 +319,9 @@ ja:
     ajax:
       title: Ajaxフォーム
       description: ページを離れずに応答するフォームと、戻ってきた内容に対する処理。
+    gate:
+      title: '条件付きアクション'
+      description: '必要なデータがそろうまで保留されるアクション。不足しているフォームへ送り、保存後に戻ります。'
     vue:
       title: Vueフォーム
       description: コンポーネントから駆動される同じフォームで、フィールドはマークアップではなく状態です。
@@ -305,6 +344,9 @@ ko:
     ajax:
       title: 'Ajax 양식'
       description: '페이지를 떠나지 않고 응답하는 양식과 응답된 내용으로 수행하는 작업입니다.'
+    gate:
+      title: '조건부 작업'
+      description: '필요한 데이터가 갖춰질 때까지 보류되는 작업으로, 부족한 양식으로 보냈다가 다시 돌아옵니다.'
     vue:
       title: 'Vue 양식'
       description: '컴포넌트에서 구동되는 동일한 양식으로, 필드는 마크업이 아닌 상태입니다.'
@@ -327,6 +369,9 @@ nl:
     ajax:
       title: Ajax-formulieren
       description: 'Een formulier dat antwoord geeft zonder dat de pagina wordt verlaten, en wat het doet met wat terugkomt.'
+    gate:
+      title: 'Voorwaardelijke actie'
+      description: 'Een actie die wacht tot de benodigde gegevens er zijn: ze stuurt naar het onvolledige formulier en weer terug.'
     vue:
       title: Vue-formulieren
       description: 'Dezelfde formulieren aangestuurd vanuit een component, waar de velden staat zijn in plaats van markup.'
@@ -349,6 +394,9 @@ pl:
     ajax:
       title: 'Formularze Ajax'
       description: 'Formularz, który odpowiada bez opuszczania strony i co się dzieje z tym, co wraca.'
+    gate:
+      title: 'Akcja warunkowa'
+      description: 'Akcja wstrzymana, dopóki brakuje potrzebnych danych: kieruje do niepełnego formularza i z powrotem.'
     vue:
       title: 'Formularze Vue'
       description: 'Te same formularze prowadzone przez komponent, gdzie pola są stanem, a nie markupiem.'
@@ -393,6 +441,9 @@ ru:
     ajax:
       title: 'Ajax формы'
       description: 'Форма, которая отвечает без покидания страницы, и что она делает с тем, что возвращается.'
+    gate:
+      title: 'Условное действие'
+      description: 'Действие ждёт, пока не появятся нужные данные: отправляет к незаполненной форме и возвращает обратно.'
     vue:
       title: 'Vue формы'
       description: 'Те же формы, управляемые компонентом, где поля являются состоянием, а не разметкой.'
@@ -415,6 +466,9 @@ th:
     ajax:
       title: 'แบบฟอร์ม Ajax'
       description: 'แบบฟอร์มที่ตอบกลับโดยไม่ต้องออกจากหน้า และสิ่งที่มันทำกับข้อมูลที่กลับมา.'
+    gate:
+      title: 'การกระทำแบบมีเงื่อนไข'
+      description: 'การกระทำที่รอจนกว่าข้อมูลที่ต้องการจะครบ โดยส่งไปยังฟอร์มที่ขาดแล้วกลับมา'
     vue:
       title: 'แบบฟอร์ม Vue'
       description: 'แบบฟอร์มเดียวกันที่ขับเคลื่อนจากส่วนประกอบ ที่ฟิลด์เป็นสถานะแทนที่จะเป็นมาร์กอัป.'
@@ -437,6 +491,9 @@ tr:
     ajax:
       title: 'Ajax formları'
       description: 'Sayfa terk edilmeden yanıt veren bir form ve geri dönenle ne yaptığı.'
+    gate:
+      title: 'Koşullu işlem'
+      description: 'Gereken veriler gelene kadar bekleyen bir işlem: eksik forma yönlendirir ve geri döner.'
     vue:
       title: 'Vue formları'
       description: 'Alanların işaretleme yerine durum olduğu bir bileşen tarafından yönlendirilen aynı formlar.'
@@ -459,6 +516,9 @@ ur:
     ajax:
       title: 'ایجیکس فارم'
       description: 'ایک فارم جو بغیر صفحہ چھوڑے جواب دیتا ہے، اور یہ واپس آنے والی چیز کے ساتھ کیا کرتا ہے۔'
+    gate:
+      title: 'مشروط عمل'
+      description: 'ایک عمل جو مطلوبہ ڈیٹا موجود ہونے تک رکا رہتا ہے، نامکمل فارم پر بھیجتا ہے اور واپس لاتا ہے۔'
     vue:
       title: 'ویو فارم'
       description: 'وہی فارم جو ایک کمپوننٹ سے چلائے جاتے ہیں، جہاں فیلڈز حالت ہوتی ہیں نہ کہ مارک اپ۔'
@@ -481,6 +541,9 @@ vi:
     ajax:
       title: 'Biểu mẫu Ajax'
       description: 'Một biểu mẫu trả lời mà không cần rời khỏi trang, và nó làm gì với những gì quay lại.'
+    gate:
+      title: 'Hành động có điều kiện'
+      description: 'Một hành động chờ cho đến khi có đủ dữ liệu cần thiết: chuyển đến biểu mẫu còn thiếu rồi quay lại.'
     vue:
       title: 'Biểu mẫu Vue'
       description: 'Các biểu mẫu giống nhau được điều khiển từ một thành phần, nơi các trường là trạng thái thay vì đánh dấu.'
@@ -503,6 +566,9 @@ zh:
     ajax:
       title: 'Ajax 表单'
       description: 一个在不离开页面的情况下回答的表单，以及它处理返回内容的方法。
+    gate:
+      title: '条件操作'
+      description: '在所需数据齐备前被拦下的操作：跳转到缺少数据的表单，保存后再返回。'
     vue:
       title: 'Vue 表单'
       description: 通过组件驱动的相同表单，其中字段是状态而非标记。

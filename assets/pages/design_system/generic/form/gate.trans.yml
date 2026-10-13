@@ -1,0 +1,29 @@
+en:
+  page_title: Gated action
+  help: "Making an invoice needs the organization's title, SIRET and IBAN. While one is missing, the action sends to the organization form, those fields pointed at; once saved, the form sends back here and the action checks again."
+  field:
+    title: Title
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: Make an invoice
+    organization: Edit the organization
+    reset: Empty the organization
+  made:
+    title: Invoice made
+    body: The gate was open — every field it needs is filled in.
+
+fr:
+  page_title: Action conditionnée
+  help: "Faire une facture demande le titre, le SIRET et l'IBAN de l'organisation. Tant qu'il en manque un, l'action envoie vers le formulaire de l'organisation, ces champs signalés ; une fois enregistré, le formulaire renvoie ici et l'action vérifie de nouveau."
+  field:
+    title: Titre
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: Faire une facture
+    organization: Modifier l'organisation
+    reset: Vider l'organisation
+  made:
+    title: Facture faite
+    body: La porte était ouverte — tous les champs requis sont remplis.

@@ -1,0 +1,21 @@
+en:
+  field:
+    title:
+      label: Title
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Save
+
+fr:
+  field:
+    title:
+      label: Titre
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Enregistrer

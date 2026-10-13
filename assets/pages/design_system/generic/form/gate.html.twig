@@ -1,0 +1,28 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{#- An action held by a gate (symfony-check): making the invoice sends to the
+    organization form while a field it needs is empty, with those fields
+    pointed at, and the form sends back here once saved. -#}
+{%- block page_body -%}
+    <p class="lead">{{ '@page::help' | trans }}</p>
+
+    <section class="block block--card">
+        <div class="block--body stack--vertical">
+            {%- if invoice_made -%}
+                {{ message_success('@page::made.title', '@page::made.body') }}
+            {%- endif -%}
+            {{ properties([
+                { key: '@page::field.title' | trans, value: organization.title ?: '—' },
+                { key: '@page::field.siret' | trans, value: organization.siret ?: '—' },
+                { key: '@page::field.iban' | trans, value: organization.iban ?: '—' },
+            ]) }}
+        </div>
+        <div class="block--footer">
+            {{ button_link('ph:bold/receipt', '@page::action.invoice' | trans, path('wexample_design_system_generic_form_gate_invoice')) }}
+            {{ button_link('ph:bold/buildings', '@page::action.organization' | trans, path('wexample_design_system_generic_form_gate_organization'), { class: 'button--bare' }) }}
+            <form method="post" action="{{ path('wexample_design_system_generic_form_gate_reset') }}">
+                {{ button('ph:bold/arrow-counter-clockwise', '@page::action.reset' | trans, { type: 'submit', class: 'button--bare' }) }}
+            </form>
+        </div>
+    </section>
+{%- endblock -%}

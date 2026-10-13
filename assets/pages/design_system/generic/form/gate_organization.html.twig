@@ -1,0 +1,12 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{#- The remedy page of the gate: reached by it, symfony-forms points at the
+    missing fields and sends back to the invoice once saved. -#}
+{%- block page_body -%}
+    <section class="block block--card">
+        <div class="block--body stack--vertical">
+            <p class="lead">{{ '@page::help' | trans }}</p>
+            {{ form_load(render_pass, form_gate_organization_demo, '@WexampleSymfonyDesignSystemDemoBundle/forms/demo/form_gate_organization_demo_form.html.twig') }}
+        </div>
+    </section>
+{%- endblock -%}

@@ -7,7 +7,11 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Wexample\SymfonyCheck\Service\GateService;
+use Wexample\SymfonyDesignSystemDemo\Class\Demo\GateDemoInvoiceCreation;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
+use Wexample\SymfonyDesignSystemDemo\Service\Demo\GateDemoOrganizationStore;
+use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormGateOrganizationDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormPageAnswerDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormSubmitBehaviorAjaxDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormSubmitBehaviorDemoFormProcessor;
@@ -128,5 +132,54 @@ final class FormController extends AbstractDesignSystemGenericController
             'issued_code' => $request->attributes->get(FormPageAnswerDemoFormProcessor::ATTRIBUTE_CODE),
             'issued_label' => $form_page_answer_demo->isSubmitted() ? $form_page_answer_demo->get('label')->getData() : null,
         ]);
+    }
+
+    /**
+     * An action held by a gate until the organization is filled in: making
+     * the invoice sends to the form missing data, which sends back once saved.
+     */
+    #[Route(name: 'gate', path: 'gate')]
+    public function gate(GateDemoOrganizationStore $store): Response
+    {
+        return $this->renderPage('gate', [
+            'organization' => $store->load(),
+            'invoice_made' => false,
+        ]);
+    }
+
+    #[Route(name: 'gate_invoice', path: 'gate/invoice')]
+    public function gateInvoice(
+        GateDemoOrganizationStore $store,
+        GateService $gateService,
+    ): Response {
+        $organization = $store->load();
+        // Closed, it throws: the browser is sent to the organization form.
+        $gateService->guard(new GateDemoInvoiceCreation($organization));
+
+        return $this->renderPage('gate', [
+            'organization' => $organization,
+            'invoice_made' => true,
+        ]);
+    }
+
+    #[Route(name: 'gate_organization', path: 'gate/organization')]
+    #[FormProcessor(
+        processorClass: FormGateOrganizationDemoFormProcessor::class,
+        formArgumentName: 'form_gate_organization_demo',
+        formDataResolverClass: GateDemoOrganizationStore::class
+    )]
+    public function gateOrganization(FormInterface $form_gate_organization_demo): Response
+    {
+        return $this->renderPage('gate_organization', [
+            'form_gate_organization_demo' => $form_gate_organization_demo->createView(),
+        ]);
+    }
+
+    #[Route(name: 'gate_reset', path: 'gate/reset', methods: ['POST'])]
+    public function gateReset(GateDemoOrganizationStore $store): Response
+    {
+        $store->reset();
+
+        return $this->redirectToRoute('wexample_design_system_generic_form_gate');
     }
 }
