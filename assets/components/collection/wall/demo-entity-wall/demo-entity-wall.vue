@@ -17,17 +17,6 @@ const DEMO_PICTURES = Array.from({ length: 24 }, (value, index) => {
   };
 });
 
-// A picture drawn on the spot, so the demo needs no file: a gradient of its
-// own hue at its own ratio.
-function demoPictureSrc(picture) {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${picture.width} ${picture.height}">`
-    + `<defs><linearGradient id="g" x2="1" y2="1"><stop offset="0" stop-color="hsl(${picture.hue} 70% 65%)"/>`
-    + `<stop offset="1" stop-color="hsl(${(picture.hue + 60) % 360} 60% 35%)"/></linearGradient></defs>`
-    + `<rect width="100%" height="100%" fill="url(#g)"/></svg>`;
-
-  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
-}
-
 export default {
   extends: AbstractEntityWall,
 
@@ -69,7 +58,12 @@ export default {
     getTileConfiguration(entity) {
       return {
         ...AbstractEntityWall.methods.getTileConfiguration.call(this, entity),
-        src: demoPictureSrc(entity),
+        // Drawn by the design system's fixtures, at the picture's ratio.
+        src: this.app.getServiceOrFail('routing').path('wexample_design_system_fixtures_picture_svg', {
+          width: entity.width,
+          height: entity.height,
+          hue: entity.hue,
+        }),
         href: '#',
       };
     }
