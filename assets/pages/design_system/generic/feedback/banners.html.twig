@@ -29,6 +29,17 @@
             }) }}
         </div>
 
+        <h2>{{ '@page::section.pending_writes.title' | trans }}</h2>
+        <div class="block block--padded block--split">
+            <div class="lead">
+                {{ '@page::section.pending_writes.description' | trans }}
+            </div>
+            <div>
+                {{ button('ph:bold/floppy-disk', '@page::section.pending_writes.save' | trans, { class: 'pending-writes-save-button' }) }}
+                {{ button('ph:bold/warning', '@page::section.pending_writes.save_failing' | trans, { class: 'pending-writes-fail-button button--danger' }) }}
+            </div>
+        </div>
+
         <h2>{{ '@page::section.vue.title' | trans }}</h2>
         <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
         {% for banner in banner_types %}

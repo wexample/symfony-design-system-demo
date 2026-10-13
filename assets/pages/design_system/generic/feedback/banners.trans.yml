@@ -22,6 +22,11 @@ en:
         success: Layout banner success message.
         warning: Layout banner warning message.
         error: Layout banner error message.
+    pending_writes:
+      title: 'Saving in the background'
+      description: 'A page that saves without a submit button hands each write to the pending writes service: a banner says it is saving, then that everything is saved, and keeps a retry link up when a write failed. Leaving the page meanwhile asks for confirmation. Click several times to stack writes.'
+      save: 'Save'
+      save_failing: 'Save and fail'
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -45,6 +50,11 @@ ar:
         success: 'رسالة لافتة نجاح للتخطيط.'
         warning: 'رسالة لافتة تحذيرية للتخطيط.'
         error: 'رسالة لافتة خطأ للتخطيط.'
+    pending_writes:
+      title: 'الحفظ في الخلفية'
+      description: 'الصفحة التي تحفظ دون زر إرسال تسلّم كل عملية كتابة إلى خدمة الكتابات المعلّقة: تعلن لافتة أن الحفظ جارٍ، ثم أن كل شيء قد حُفظ، وتُبقي رابط إعادة المحاولة ظاهرًا عند فشل عملية كتابة. ومغادرة الصفحة خلال ذلك تطلب التأكيد. انقر عدة مرات لتكديس عمليات الكتابة.'
+      save: 'حفظ'
+      save_failing: 'حفظ مع فشل'
 
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -68,6 +78,11 @@ bn:
         success: 'লেআউট বানার সফল বার্তা।'
         warning: 'লেআউট বানার সতর্কতা বার্তা।'
         error: 'লেআউট বানার ত্রুটি বার্তা।'
+    pending_writes:
+      title: 'পটভূমিতে সংরক্ষণ'
+      description: 'জমা দেওয়ার বোতাম ছাড়া সংরক্ষণ করা একটি পৃষ্ঠা প্রতিটি লেখা অপেক্ষমাণ লেখা পরিষেবার হাতে দেয়: একটি বানার জানায় যে সংরক্ষণ চলছে, তারপর সব সংরক্ষিত হয়েছে, এবং কোনো লেখা ব্যর্থ হলে আবার চেষ্টার লিংক রেখে দেয়। এর মধ্যে পৃষ্ঠা ছাড়লে নিশ্চিতকরণ চাওয়া হয়। লেখা জমাতে কয়েকবার ক্লিক করুন।'
+      save: 'সংরক্ষণ'
+      save_failing: 'সংরক্ষণ ও ব্যর্থতা'
 
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -91,6 +106,11 @@ de:
         success: 'Layout-Banner Erfolgsnachricht.'
         warning: 'Layout-Banner Warnnachricht.'
         error: 'Layout-Banner Fehlermeldung.'
+    pending_writes:
+      title: 'Speichern im Hintergrund'
+      description: 'Eine Seite, die ohne Absenden-Schaltfläche speichert, übergibt jeden Schreibvorgang dem Dienst für ausstehende Schreibvorgänge: Ein Banner zeigt, dass gespeichert wird, dann, dass alles gespeichert ist, und behält einen Link zum erneuten Versuch, wenn ein Schreibvorgang fehlschlug. Wer die Seite währenddessen verlässt, wird um Bestätigung gebeten. Mehrmals klicken, um Schreibvorgänge zu stapeln.'
+      save: 'Speichern'
+      save_failing: 'Speichern mit Fehler'
 
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -114,6 +134,11 @@ es:
         success: 'Mensaje de éxito del banner de diseño.'
         warning: 'Mensaje de advertencia del banner de diseño.'
         error: 'Mensaje de error del banner de diseño.'
+    pending_writes:
+      title: 'Guardar en segundo plano'
+      description: 'Una página que guarda sin botón de envío entrega cada escritura al servicio de escrituras pendientes: un banner indica que se está guardando, luego que todo está guardado, y mantiene un enlace para reintentar cuando una escritura falló. Salir de la página mientras tanto pide confirmación. Haz clic varias veces para acumular escrituras.'
+      save: 'Guardar'
+      save_failing: 'Guardar con error'
 
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -137,6 +162,11 @@ fa:
         success: 'پیام بنر موفقیت طراحی.'
         warning: 'پیام بنر هشدار طراحی.'
         error: 'پیام بنر خطا طراحی.'
+    pending_writes:
+      title: 'ذخیره در پس‌زمینه'
+      description: 'صفحه‌ای که بدون دکمهٔ ارسال ذخیره می‌کند، هر نوشتن را به سرویس نوشتن‌های در انتظار می‌سپارد: یک بنر نشان می‌دهد که در حال ذخیره است، سپس که همه چیز ذخیره شد، و اگر نوشتنی ناموفق بود پیوند تلاش دوباره را نگه می‌دارد. ترک صفحه در این میان تأیید می‌خواهد. برای انباشتن نوشتن‌ها چند بار کلیک کنید.'
+      save: 'ذخیره'
+      save_failing: 'ذخیره با خطا'
 
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -160,6 +190,11 @@ fi:
         success: 'Asettelubannerin onnistumisviesti.'
         warning: 'Asettelubannerin varoitusviesti.'
         error: 'Asettelubannerin virheviesti.'
+    pending_writes:
+      title: 'Tallennus taustalla'
+      description: 'Sivu, joka tallentaa ilman lähetyspainiketta, antaa jokaisen kirjoituksen odottavien kirjoitusten palvelulle: banneri kertoo tallennuksen olevan käynnissä, sitten että kaikki on tallennettu, ja pitää esillä uudelleenyrityslinkin, jos kirjoitus epäonnistui. Sivulta poistuminen sillä välin pyytää vahvistusta. Napsauta useita kertoja kirjoitusten kasaamiseksi.'
+      save: 'Tallenna'
+      save_failing: 'Tallenna ja epäonnistu'
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -183,6 +218,11 @@ fr:
         success: 'Message de succès de la bannière de mise en page.'
         warning: "Message d'avertissement de la bannière de mise en page."
         error: "Message d'erreur de la bannière de mise en page."
+    pending_writes:
+      title: 'Enregistrer en arrière-plan'
+      description: 'Une page qui enregistre sans bouton d''envoi confie chaque écriture au service des écritures en attente : une bannière indique l''enregistrement en cours, puis que tout est enregistré, et garde un lien pour réessayer quand une écriture a échoué. Quitter la page entre-temps demande une confirmation. Cliquez plusieurs fois pour empiler des écritures.'
+      save: 'Enregistrer'
+      save_failing: 'Enregistrer et échouer'
 
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -206,6 +246,11 @@ he:
         success: 'מסר הצלחה באנר לעיצוב.'
         warning: 'מסר אזהרה באנר לעיצוב.'
         error: 'מסר שגיאה באנר לעיצוב.'
+    pending_writes:
+      title: 'שמירה ברקע'
+      description: 'דף ששומר בלי כפתור שליחה מוסר כל כתיבה לשירות הכתיבות הממתינות: באנר מודיע שמתבצעת שמירה, אחר כך שהכול נשמר, ומשאיר קישור לניסיון חוזר כשכתיבה נכשלה. עזיבת הדף בינתיים מבקשת אישור. לחצו כמה פעמים כדי לצבור כתיבות.'
+      save: 'שמירה'
+      save_failing: 'שמירה עם כישלון'
 
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -229,6 +274,11 @@ hi:
         success: 'लेआउट बैनर सफलता संदेश।'
         warning: 'लेआउट बैनर चेतावनी संदेश।'
         error: 'लेआउट बैनर त्रुटि संदेश।'
+    pending_writes:
+      title: 'पृष्ठभूमि में सहेजना'
+      description: 'जो पृष्ठ सबमिट बटन के बिना सहेजता है, वह हर लेखन को लंबित लेखन सेवा को सौंपता है: एक बैनर बताता है कि सहेजा जा रहा है, फिर कि सब सहेज लिया गया, और किसी लेखन के विफल होने पर फिर से प्रयास का लिंक बनाए रखता है। इस बीच पृष्ठ छोड़ने पर पुष्टि माँगी जाती है। लेखन जमा करने के लिए कई बार क्लिक करें।'
+      save: 'सहेजें'
+      save_failing: 'सहेजें और विफल करें'
 
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -252,6 +302,11 @@ id:
         success: 'Pesan sukses spanduk tata letak.'
         warning: 'Pesan peringatan spanduk tata letak.'
         error: 'Pesan kesalahan spanduk tata letak.'
+    pending_writes:
+      title: 'Menyimpan di latar belakang'
+      description: 'Halaman yang menyimpan tanpa tombol kirim menyerahkan setiap penulisan ke layanan penulisan tertunda: sebuah banner menunjukkan bahwa penyimpanan sedang berlangsung, lalu bahwa semuanya tersimpan, dan mempertahankan tautan coba lagi saat penulisan gagal. Meninggalkan halaman sementara itu meminta konfirmasi. Klik beberapa kali untuk menumpuk penulisan.'
+      save: 'Simpan'
+      save_failing: 'Simpan dan gagal'
 
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -275,6 +330,11 @@ it:
         success: 'Messaggio di successo del banner di layout.'
         warning: 'Messaggio di avviso del banner di layout.'
         error: 'Messaggio di errore del banner di layout.'
+    pending_writes:
+      title: 'Salvataggio in background'
+      description: 'Una pagina che salva senza pulsante di invio affida ogni scrittura al servizio delle scritture in sospeso: un banner indica che il salvataggio è in corso, poi che tutto è salvato, e mantiene un link per riprovare quando una scrittura è fallita. Lasciare la pagina nel frattempo chiede una conferma. Fai clic più volte per accumulare scritture.'
+      save: 'Salva'
+      save_failing: 'Salva e fallisci'
 
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -298,6 +358,11 @@ ja:
         success: レイアウトバナー成功メッセージ。
         warning: レイアウトバナー警告メッセージ。
         error: レイアウトバナーエラーメッセージ。
+    pending_writes:
+      title: 'バックグラウンドでの保存'
+      description: '送信ボタンなしで保存するページは、各書き込みを保留中の書き込みサービスに渡します。バナーが保存中であること、続いてすべて保存されたことを伝え、書き込みが失敗した場合は再試行リンクを表示し続けます。その間にページを離れると確認を求めます。何度かクリックして書き込みを重ねてください。'
+      save: '保存'
+      save_failing: '保存して失敗'
 
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -321,6 +386,11 @@ ko:
         success: '레이아웃 배너 성공 메시지입니다.'
         warning: '레이아웃 배너 경고 메시지입니다.'
         error: '레이아웃 배너 오류 메시지입니다.'
+    pending_writes:
+      title: '백그라운드 저장'
+      description: '제출 버튼 없이 저장하는 페이지는 각 쓰기를 대기 중인 쓰기 서비스에 맡깁니다. 배너가 저장 중임을, 이어서 모두 저장되었음을 알리고, 쓰기가 실패하면 다시 시도 링크를 계속 표시합니다. 그 사이에 페이지를 떠나면 확인을 요청합니다. 여러 번 클릭해 쓰기를 쌓아 보세요.'
+      save: '저장'
+      save_failing: '저장 후 실패'
 
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -344,6 +414,11 @@ nl:
         success: 'Succesbericht voor lay-outbanner.'
         warning: 'Waarschuwingsbericht voor lay-outbanner.'
         error: 'Foutbericht voor lay-outbanner.'
+    pending_writes:
+      title: 'Opslaan op de achtergrond'
+      description: 'Een pagina die opslaat zonder verzendknop geeft elke schrijfactie aan de dienst voor openstaande schrijfacties: een banner meldt dat er wordt opgeslagen, daarna dat alles is opgeslagen, en houdt een link om opnieuw te proberen zichtbaar als een schrijfactie mislukte. De pagina intussen verlaten vraagt om bevestiging. Klik meerdere keren om schrijfacties op te stapelen.'
+      save: 'Opslaan'
+      save_failing: 'Opslaan en mislukken'
 
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -367,6 +442,11 @@ pl:
         success: 'Wiadomość o sukcesie banera układu.'
         warning: 'Wiadomość ostrzegawcza banera układu.'
         error: 'Wiadomość o błędzie banera układu.'
+    pending_writes:
+      title: 'Zapisywanie w tle'
+      description: 'Strona zapisująca bez przycisku wysyłania przekazuje każdy zapis usłudze oczekujących zapisów: baner informuje, że trwa zapisywanie, potem że wszystko zostało zapisane, i pozostawia link do ponowienia, gdy zapis się nie powiódł. Opuszczenie strony w tym czasie wymaga potwierdzenia. Kliknij kilka razy, aby nagromadzić zapisy.'
+      save: 'Zapisz'
+      save_failing: 'Zapisz z błędem'
 
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -390,6 +470,11 @@ pt_BR:
         success: 'Mensagem de sucesso do banner de layout.'
         warning: 'Mensagem de aviso do banner de layout.'
         error: 'Mensagem de erro do banner de layout.'
+    pending_writes:
+      title: 'Salvar em segundo plano'
+      description: 'Uma página que salva sem botão de envio entrega cada gravação ao serviço de gravações pendentes: um banner indica que está salvando, depois que tudo foi salvo, e mantém um link para tentar novamente quando uma gravação falhou. Sair da página nesse meio-tempo pede confirmação. Clique várias vezes para acumular gravações.'
+      save: 'Salvar'
+      save_failing: 'Salvar com falha'
 
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -413,6 +498,11 @@ ru:
         success: 'Сообщение успешного баннера макета.'
         warning: 'Сообщение предупреждающего баннера макета.'
         error: 'Сообщение об ошибке баннера макета.'
+    pending_writes:
+      title: 'Сохранение в фоне'
+      description: 'Страница, сохраняющая без кнопки отправки, передаёт каждую запись службе ожидающих записей: баннер сообщает, что идёт сохранение, затем что всё сохранено, и оставляет ссылку для повтора, если запись не удалась. Уход со страницы в это время требует подтверждения. Нажмите несколько раз, чтобы накопить записи.'
+      save: 'Сохранить'
+      save_failing: 'Сохранить с ошибкой'
 
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -436,6 +526,11 @@ th:
         success: ข้อความแบนเนอร์ความสำเร็จระดับเลย์เอาต์.
         warning: ข้อความแบนเนอร์เตือนระดับเลย์เอาต์.
         error: ข้อความแบนเนอร์ข้อผิดพลาดระดับเลย์เอาต์.
+    pending_writes:
+      title: 'บันทึกเบื้องหลัง'
+      description: 'หน้าที่บันทึกโดยไม่มีปุ่มส่งจะมอบการเขียนแต่ละครั้งให้บริการการเขียนที่รอดำเนินการ แบนเนอร์จะแจ้งว่ากำลังบันทึก จากนั้นแจ้งว่าบันทึกทั้งหมดแล้ว และคงลิงก์ลองอีกครั้งไว้เมื่อการเขียนล้มเหลว การออกจากหน้าในระหว่างนั้นจะขอการยืนยัน คลิกหลายครั้งเพื่อซ้อนการเขียน'
+      save: 'บันทึก'
+      save_failing: 'บันทึกแบบล้มเหลว'
 
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -459,6 +554,11 @@ tr:
         success: 'Düzen afiş başarı mesajı.'
         warning: 'Düzen afiş uyarı mesajı.'
         error: 'Düzen afiş hata mesajı.'
+    pending_writes:
+      title: 'Arka planda kaydetme'
+      description: 'Gönder düğmesi olmadan kaydeden bir sayfa her yazmayı bekleyen yazmalar hizmetine devreder: bir afiş kaydedildiğini, ardından her şeyin kaydedildiğini bildirir ve bir yazma başarısız olduğunda yeniden deneme bağlantısını açık tutar. Bu sırada sayfadan ayrılmak onay ister. Yazmaları biriktirmek için birkaç kez tıklayın.'
+      save: 'Kaydet'
+      save_failing: 'Kaydet ve başarısız ol'
 
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -482,6 +582,11 @@ ur:
         success: 'لے آؤٹ بینر کامیابی کا پیغام۔'
         warning: 'لے آؤٹ بینر انتباہی پیغام۔'
         error: 'لے آؤٹ بینر خرابی کا پیغام۔'
+    pending_writes:
+      title: 'پس منظر میں محفوظ کرنا'
+      description: 'جمع کرانے کے بٹن کے بغیر محفوظ کرنے والا صفحہ ہر تحریر کو زیرِ التوا تحریروں کی سروس کے سپرد کرتا ہے: ایک بینر بتاتا ہے کہ محفوظ کیا جا رہا ہے، پھر یہ کہ سب محفوظ ہو گیا، اور کسی تحریر کے ناکام ہونے پر دوبارہ کوشش کا لنک قائم رکھتا ہے۔ اس دوران صفحہ چھوڑنے پر تصدیق مانگی جاتی ہے۔ تحریریں جمع کرنے کے لیے کئی بار کلک کریں۔'
+      save: 'محفوظ کریں'
+      save_failing: 'محفوظ کریں اور ناکام ہوں'
 
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -505,6 +610,11 @@ vi:
         success: 'Thông điệp thành công biểu ngữ bố cục.'
         warning: 'Thông điệp cảnh báo biểu ngữ bố cục.'
         error: 'Thông điệp lỗi biểu ngữ bố cục.'
+    pending_writes:
+      title: 'Lưu trong nền'
+      description: 'Một trang lưu mà không có nút gửi sẽ giao mỗi lần ghi cho dịch vụ ghi đang chờ: một biểu ngữ báo đang lưu, rồi báo mọi thứ đã được lưu, và giữ liên kết thử lại khi một lần ghi thất bại. Rời trang trong lúc đó sẽ yêu cầu xác nhận. Nhấp nhiều lần để chồng các lần ghi.'
+      save: 'Lưu'
+      save_failing: 'Lưu và thất bại'
 
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -528,3 +638,8 @@ zh:
         success: 布局横幅成功消息。
         warning: 布局横幅警告消息。
         error: 布局横幅错误消息。
+    pending_writes:
+      title: '后台保存'
+      description: '没有提交按钮而自动保存的页面会把每次写入交给待处理写入服务：横幅先提示正在保存，再提示全部已保存；写入失败时则保留重试链接。在此期间离开页面会要求确认。多点击几次即可叠加写入。'
+      save: '保存'
+      save_failing: '保存并失败'
