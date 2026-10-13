@@ -13,6 +13,9 @@ en:
     media:
       title: Media
       description: "Images and embeds held to a shape: aspect ratios, overlays, and the placeholder that stands in while nothing has loaded."
+    avatars:
+      title: Avatars
+      description: "A face for whoever has no picture, drawn from a seed by pluggable engines: initials, the wexies of 2020."
     dates:
       title: Dates
       description: "One vocabulary of formats understood identically by Twig and by the browser, and dates that keep themselves true as the page is left open."
@@ -188,6 +191,9 @@ fr:
     media:
       title: Média
       description: "Images et intégrations maintenues dans une forme : rapports d'aspect, superpositions et l'espace réservé qui se tient en place pendant que rien n'a été chargé."
+    avatars:
+      title: Avatars
+      description: "Un visage pour qui n'a pas de photo, dessiné à partir d'une graine par des moteurs interchangeables : initiales, wexies de 2020."
     dates:
       title: Dates
       description: 'Un vocabulaire de formats compris de manière identique par Twig et par le navigateur, et des dates qui se maintiennent vraies tant que la page reste ouverte.'

@@ -1,0 +1,26 @@
+@use './layout/layout-content';
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/avatar';
+
+.avatars-demo--row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--space-4);
+}
+
+.avatars-demo--person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: var(--font-size-2);
+  color: var(--text-color-muted);
+}
+
+.avatars-demo--crowd {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}

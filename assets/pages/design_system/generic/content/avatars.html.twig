@@ -1,0 +1,53 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+
+{#- Seeds as an application has them — ids that never change —, and the names
+    they belong to, which may. -#}
+{%- set people = [
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e01', name: 'Ada Lovelace' },
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e02', name: 'Grace Hopper' },
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e03', name: 'Alan Turing' },
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e04', name: 'Margaret Hamilton' },
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e05', name: 'Édouard Lucas' },
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e06', name: 'Katherine Johnson' },
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e07', name: 'Linus' },
+    { id: '01a1338a-e899-7498-aadd-b03d9cab1e08', name: 'Hedy Lamarr' },
+] -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.engines.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.engines.description' | trans }}</div>
+    {%- for engine in ['initials', 'wexies-2020'] -%}
+        <div class="block block--padded">
+            <h3><code>{{ engine }}</code></h3>
+            <div class="avatars-demo--row">
+                {%- for person in people -%}
+                    <figure class="avatars-demo--person">
+                        {{ avatar(person.id, { engine: engine, label: person.name, size: '3.5rem' }) }}
+                        <figcaption>{{ person.name }}</figcaption>
+                    </figure>
+                {%- endfor -%}
+            </div>
+        </div>
+    {%- endfor -%}
+
+    <h2>{{ '@page::section.crowd.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.crowd.description' | trans }}</div>
+    <div class="block block--padded avatars-demo--crowd">
+        {%- for index in 1..60 -%}
+            {{ avatar('member-' ~ index, { engine: 'wexies-2020', size: '2.5rem' }) }}
+        {%- endfor -%}
+    </div>
+
+    <h2>{{ '@page::section.sizes.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.sizes.description' | trans }}</div>
+    <div class="block block--padded avatars-demo--row">
+        {%- for size in ['1.5rem', '2.5rem', '4rem', '6rem'] -%}
+            {{ avatar(people[0].id, { engine: 'wexies-2020', label: people[0].name, size: size }) }}
+        {%- endfor -%}
+        {%- for size in ['1.5rem', '2.5rem', '4rem', '6rem'] -%}
+            {{ avatar(people[0].id, { label: people[0].name, size: size }) }}
+        {%- endfor -%}
+    </div>
+{%- endblock -%}

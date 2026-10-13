@@ -1,0 +1,37 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Avatars
+  page_icon: ph:bold/smiley
+
+  intro: "A face for whoever has no picture, drawn by an engine from a seed — an id that never changes, never the name — and served as an image any page, vue component or mail can show. The same seed always gives the same face; the engine says how it looks."
+
+  section:
+    engines:
+      title: Engines
+      description: "The design system draws initials on a colour of the seed. Other engines plug in beside it: the wexies of 2020 come from symfony-design-system-effects."
+    crowd:
+      title: A crowd of wexies
+      description: "Twenty-six pairs of eyes drawn by hand, each looking somewhere, on a colour of the seed: sixty members, as many faces."
+    sizes:
+      title: Sizes
+      description: "The face is a drawing, as sharp at every size: the frame's, --avatar-size, says how large."
+
+fr:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Avatars
+  page_icon: ph:bold/smiley
+
+  intro: "Un visage pour qui n'a pas de photo, dessiné par un moteur à partir d'une graine — un identifiant qui ne change jamais, jamais le nom — et servi comme une image que toute page, tout composant vue ou tout mail peut afficher. La même graine donne toujours le même visage ; le moteur décide de son allure."
+
+  section:
+    engines:
+      title: Moteurs
+      description: "Le design system dessine des initiales sur une couleur de la graine. D'autres moteurs se branchent à côté : les wexies de 2020 viennent de symfony-design-system-effects."
+    crowd:
+      title: Une foule de wexies
+      description: "Vingt-six paires d'yeux dessinées à la main, chacune regardant quelque part, sur une couleur de la graine : soixante membres, autant de visages."
+    sizes:
+      title: Tailles
+      description: "Le visage est un dessin, net à toutes les tailles : celle du cadre, --avatar-size, décide."
