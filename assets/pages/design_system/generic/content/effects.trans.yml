@@ -1,0 +1,47 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Effects
+  page_icon: ph:bold/sparkle
+
+  intro: "Effects on words, for a page that speaks loud — a landing, a hero. They come from symfony-design-system-effects, and rest still for whoever asked for less motion."
+
+  section:
+    hero:
+      title: A hero
+      description: "Words a felt pen goes over, drawn one after the other once they come into view; a word that rolls like a slot machine before settling on the next. Read aloud, the rolling word is its list, once."
+    tones:
+      title: Tones
+      description: "The pen takes the colours of the categorical palette."
+
+  hero:
+    before: "The network that brings you web solutions"
+    tailored: tailored
+    and: and
+    lasting: built to last
+    network: "Wexample, the network of freelancers who are"
+    words: "inclusive,supportive,generous,structured,organised,seasoned"
+
+fr:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Effets
+  page_icon: ph:bold/sparkle
+
+  intro: "Des effets sur les mots, pour une page qui parle fort — une page d'accueil, un bandeau. Ils viennent de symfony-design-system-effects, et restent immobiles pour qui a demandé moins de mouvement."
+
+  section:
+    hero:
+      title: Un bandeau
+      description: "Des mots repassés au feutre, tracés l'un après l'autre quand ils arrivent à l'écran ; un mot qui défile comme une machine à sous avant de s'arrêter sur le suivant. Lu à voix haute, le mot qui défile est sa liste, une fois."
+    tones:
+      title: Couleurs
+      description: "Le feutre prend les couleurs de la palette catégorielle."
+
+  hero:
+    before: "Le réseau qui vous apporte des solutions web"
+    tailored: sur-mesure
+    and: et
+    lasting: durables
+    network: "Wexample, le réseau de freelances"
+    words: "inclusif,solidaire,généreux,structuré,organisé,expérimenté"

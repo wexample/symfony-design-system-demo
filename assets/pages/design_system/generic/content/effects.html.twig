@@ -1,0 +1,28 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/content/layout/layout-content.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.hero.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.hero.description' | trans }}</div>
+    <div class="block block--padded effects-demo--hero">
+        <p>
+            {{ '@page::hero.before' | trans }}
+            {{ text_highlight('@page::hero.tailored' | trans) }}
+            {{ '@page::hero.and' | trans }}
+            {{ text_highlight('@page::hero.lasting' | trans, { tone: 'grass' }) }}.
+        </p>
+        <p>
+            {{ '@page::hero.network' | trans }}
+            {{ word_switcher(('@page::hero.words' | trans) | split(',')) }}.
+        </p>
+    </div>
+
+    <h2>{{ '@page::section.tones.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.tones.description' | trans }}</div>
+    <div class="block block--padded effects-demo--tones">
+        {%- for tone in ['aqua', 'grass', 'sunflower', 'grapefruit', 'lavender', 'pink-rose'] -%}
+            {{ text_highlight(tone, { tone: tone }) }}
+        {%- endfor -%}
+    </div>
+{%- endblock -%}
