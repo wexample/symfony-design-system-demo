@@ -3,7 +3,7 @@
   "description": "Design system showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "keywords": [
     "symfony-ux"
   ],
@@ -26,11 +26,11 @@
     "wexample/symfony-api": ">=13.0.0",
     "wexample/symfony-check": ">=4.0.0",
     "wexample/symfony-coding": ">=4.1.0",
-    "wexample/symfony-design-system": ">=34.0.0",
+    "wexample/symfony-design-system": ">=35.0.0",
     "wexample/symfony-design-system-effects": ">=2.0.0",
     "wexample/symfony-forms": ">=12.0.0",
     "wexample/symfony-helpers": ">=16.0.0",
-    "wexample/symfony-live": ">=5.1.0",
+    "wexample/symfony-live": ">=5.2.0",
     "wexample/symfony-pseudocode": ">=3.0.0",
     "wexample/symfony-search": ">=4.1.0",
     "wexample/symfony-template": ">=2.0.5"
