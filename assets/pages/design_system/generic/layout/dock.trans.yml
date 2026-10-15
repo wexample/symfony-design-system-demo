@@ -1,0 +1,59 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Tool dock
+  page_icon: ph:bold/sidebar-simple
+
+  intro: "Tools along the end of a page, as an IDE has them: a bar of icons, each opening a zone in a column beside the page. The bar on the right of this page is one."
+
+  section:
+    groups:
+      title: Two groups, one open in each
+      body: "The icons at the top of the bar open their zone in the upper part of the column, those at its foot in the lower part, one open at a time in each. Alone, a zone takes the column whole; with nothing open, the column is gone. The column is dragged wider from its start edge, and what each tool was left at comes back with the page."
+    usage:
+      title: Usage
+      body: "A page describes its tools in its page_zones_after block, and the dock draws the column, its zones, their handles and the bar. A tool shows what the page drew for it (content), or a page loaded the first time it opens (url)."
+
+  tool:
+    outline: Outline
+    search: Search
+    detail: Detail
+    history: History
+
+  content:
+    search: Nothing searched yet.
+    history: No change recorded.
+
+  field:
+    name: Name
+    type: Type
+    size: Size
+
+fr:
+  page_title: "Dock d'outils"
+  page_icon: ph:bold/sidebar-simple
+
+  intro: "Des outils au bord d'une page, comme dans un IDE : une barre d'icônes, chacune ouvrant une zone dans une colonne à côté de la page. La barre à droite de cette page en est une."
+
+  section:
+    groups:
+      title: Deux groupes, une zone ouverte dans chacun
+      body: "Les icônes du haut de la barre ouvrent leur zone dans la partie haute de la colonne, celles du bas dans la partie basse, une seule ouverte à la fois dans chaque groupe. Seule, une zone prend toute la colonne ; quand rien n'est ouvert, la colonne disparaît. La colonne s'élargit en tirant son bord de début, et l'état de chaque outil revient avec la page."
+    usage:
+      title: Utilisation
+      body: "Une page décrit ses outils dans son bloc page_zones_after, et le dock dessine la colonne, ses zones, leurs poignées et la barre. Un outil affiche ce que la page a dessiné pour lui (content), ou une page chargée à sa première ouverture (url)."
+
+  tool:
+    outline: Plan
+    search: Recherche
+    detail: Détail
+    history: Historique
+
+  content:
+    search: Aucune recherche pour l'instant.
+    history: Aucune modification enregistrée.
+
+  field:
+    name: Nom
+    type: Type
+    size: Taille

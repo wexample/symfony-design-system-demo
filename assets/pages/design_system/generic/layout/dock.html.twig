@@ -1,0 +1,57 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+
+{#- The page takes the width the dock leaves it, as a workspace would. -#}
+{%- set page_body_mode = 'wide' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.groups.title' | trans }}</h2>
+    <p>{{ '@page::section.groups.body' | trans }}</p>
+
+    <h2>{{ '@page::section.usage.title' | trans }}</h2>
+    <p>{{ '@page::section.usage.body' | trans }}</p>
+    {%- set code -%}
+        {%- verbatim %}{%- block page_zones_after -%}
+    {{ tool_dock('board.file', [
+        { name: 'outline', label: 'Outline', icon: 'ph:bold/list-bullets', content: outline },
+        { name: 'detail', label: 'Detail', icon: 'ph:bold/info', group: 'end', open: true, content: detail },
+        { name: 'history', label: 'History', icon: 'ph:bold/clock-counter-clockwise', group: 'end', url: path('app_file_history') },
+    ]) }}
+{%- endblock -%}{%- endverbatim -%}
+    {%- endset -%}
+    {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}
+{%- endblock -%}
+
+{%- block page_zones_after -%}
+    {%- set outline -%}
+        <h3>{{ '@page::tool.outline' | trans }}</h3>
+        <ul>
+            <li>{{ '@page::section.groups.title' | trans }}</li>
+            <li>{{ '@page::section.usage.title' | trans }}</li>
+        </ul>
+    {%- endset -%}
+    {%- set search -%}
+        <h3>{{ '@page::tool.search' | trans }}</h3>
+        <p class="text-secondary">{{ '@page::content.search' | trans }}</p>
+    {%- endset -%}
+    {%- set detail -%}
+        <h3>{{ '@page::tool.detail' | trans }}</h3>
+        {{ properties([
+            { key: '@page::field.name' | trans, value: 'dock.html.twig' },
+            { key: '@page::field.type' | trans, value: 'Twig' },
+            { key: '@page::field.size' | trans, value: '2.1 kB' },
+        ]) }}
+    {%- endset -%}
+    {%- set history -%}
+        <h3>{{ '@page::tool.history' | trans }}</h3>
+        <p class="text-secondary">{{ '@page::content.history' | trans }}</p>
+    {%- endset -%}
+
+    {{ tool_dock('design_system.demo.dock', [
+        { name: 'outline', label: '@page::tool.outline' | trans, icon: 'ph:bold/list-bullets', content: outline },
+        { name: 'search', label: '@page::tool.search' | trans, icon: 'ph:bold/magnifying-glass', content: search },
+        { name: 'detail', label: '@page::tool.detail' | trans, icon: 'ph:bold/info', group: 'end', open: true, content: detail },
+        { name: 'history', label: '@page::tool.history' | trans, icon: 'ph:bold/clock-counter-clockwise', group: 'end', content: history },
+    ]) }}
+{%- endblock -%}
