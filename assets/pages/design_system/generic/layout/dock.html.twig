@@ -9,6 +9,33 @@
     <h2>{{ '@page::section.groups.title' | trans }}</h2>
     <p>{{ '@page::section.groups.body' | trans }}</p>
 
+    <h2>{{ '@page::section.horizontal.title' | trans }}</h2>
+    <p>{{ '@page::section.horizontal.body' | trans }}</p>
+    {%- set source -%}
+        <pre class="dock-demo--source">{% for i in 1..40 %}{{ '@page::content.line' | trans }} {{ i }}
+{% endfor %}</pre>
+    {%- endset -%}
+    {%- set preview -%}
+        <p class="text-secondary">{{ '@page::content.preview' | trans }}</p>
+    {%- endset -%}
+    {%- set detail -%}
+        {{ properties([
+            { key: '@page::field.name' | trans, value: 'dock.html.twig' },
+            { key: '@page::field.type' | trans, value: 'Twig' },
+        ]) }}
+    {%- endset -%}
+    {%- set history -%}
+        <p class="text-secondary">{{ '@page::content.history' | trans }}</p>
+    {%- endset -%}
+    <div class="dock-demo--frame">
+        {{ tool_dock('design_system.demo.dock-horizontal', [
+            { name: 'source', label: '@page::tool.source' | trans, icon: 'ph:bold/code', open: true, fill: true, content: source },
+            { name: 'preview', label: '@page::tool.preview' | trans, icon: 'ph:bold/eye', content: preview },
+            { name: 'detail', label: '@page::tool.detail' | trans, icon: 'ph:bold/info', group: 'end', open: true, content: detail },
+            { name: 'history', label: '@page::tool.history' | trans, icon: 'ph:bold/clock-counter-clockwise', group: 'end', content: history },
+        ], { orientation: 'horizontal' }) }}
+    </div>
+
     <h2>{{ '@page::section.usage.title' | trans }}</h2>
     <p>{{ '@page::section.usage.body' | trans }}</p>
     {%- set code -%}

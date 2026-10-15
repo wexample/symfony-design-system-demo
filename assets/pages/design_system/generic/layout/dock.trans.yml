@@ -10,11 +10,16 @@ en:
     groups:
       title: Two groups, one open in each
       body: "The icons at the top of the bar open their zone in the upper part of the column, those at its foot in the lower part, one open at a time in each. Alone, a zone takes the column whole; with nothing open, the column is gone. The column is dragged wider from its start edge, and what each tool was left at comes back with the page."
+    horizontal:
+      title: Lying along the top
+      body: "Given orientation horizontal, the bar lies along the top and the dock is the body of a page, written in a page--fill: what the start of the bar opens stands beside what its end opens, under it. A tool drawn edge to edge and taking the zone's height — an editor — says so with fill."
     usage:
       title: Usage
       body: "A page describes its tools in its page_zones_after block, and the dock draws the column, its zones, their handles and the bar. A tool shows what the page drew for it (content), or a page loaded the first time it opens (url)."
 
   tool:
+    source: Source
+    preview: Preview
     outline: Outline
     search: Search
     detail: Detail
@@ -23,6 +28,8 @@ en:
   content:
     search: Nothing searched yet.
     history: No change recorded.
+    preview: The file as it reads once rendered.
+    line: Line
 
   field:
     name: Name
@@ -39,11 +46,16 @@ fr:
     groups:
       title: Deux groupes, une zone ouverte dans chacun
       body: "Les icônes du haut de la barre ouvrent leur zone dans la partie haute de la colonne, celles du bas dans la partie basse, une seule ouverte à la fois dans chaque groupe. Seule, une zone prend toute la colonne ; quand rien n'est ouvert, la colonne disparaît. La colonne s'élargit en tirant son bord de début, et l'état de chaque outil revient avec la page."
+    horizontal:
+      title: Couché en haut
+      body: "Avec l'orientation horizontal, la barre est posée en haut et le dock devient le corps d'une page, écrit dans un page--fill : ce qu'ouvre le début de la barre se place à côté de ce qu'ouvre sa fin, en dessous. Un outil dessiné bord à bord sur toute la hauteur de la zone — un éditeur — le demande avec fill."
     usage:
       title: Utilisation
       body: "Une page décrit ses outils dans son bloc page_zones_after, et le dock dessine la colonne, ses zones, leurs poignées et la barre. Un outil affiche ce que la page a dessiné pour lui (content), ou une page chargée à sa première ouverture (url)."
 
   tool:
+    source: Source
+    preview: Aperçu
     outline: Plan
     search: Recherche
     detail: Détail
@@ -52,6 +64,8 @@ fr:
   content:
     search: Aucune recherche pour l'instant.
     history: Aucune modification enregistrée.
+    preview: Le fichier tel qu'il se lit une fois rendu.
+    line: Ligne
 
   field:
     name: Nom

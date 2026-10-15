@@ -1,3 +1,20 @@
 @use './layout/layout-generic';
 @use '@wexample/symfony-design-system/components/tool-dock/tool-dock';
 @use '@wexample/symfony-design-system/components/properties/properties';
+
+// A dock lying along the top is the whole body of a page; here a frame stands in
+// for the screen it would have had.
+.dock-demo--frame {
+  height: var(--size-7);
+  border: var(--border-region);
+  border-radius: var(--radius-box);
+  overflow: hidden;
+  background: var(--surface-page);
+}
+
+// Stands for an editor: it fills the tool and scrolls on its own.
+.dock-demo--source {
+  margin: 0;
+  padding: var(--space-4);
+  overflow: auto;
+}
