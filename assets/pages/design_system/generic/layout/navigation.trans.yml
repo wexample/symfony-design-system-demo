@@ -1,0 +1,29 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Section navigation
+  page_icon: ph:bold/signpost
+
+  intro: "The pages of a section are written once, as its navigation, and drawn as the app chooses: tabs under the header, as on the other pages of this section, or the side menu standing for the section while one is in it — as on this page, whose menu on the left is this section's."
+
+  section:
+    writing:
+      title: Writing it
+      body: "A section's layout sets page_section_navigation: what the section is (label, href), where it is left for (back), and its views (items), each a route the reader may open — the others are left out. An item stays lit on a family of pages (match), and may hold views of its own (children)."
+    drawing:
+      title: Drawing it
+      body: "layout_section_navigation says how: tabs by default, which show the level the page stands in — a view's children under the way back to the section — or menu, which shows the section whole, the way back on top and the view holding the page unfolded."
+
+fr:
+  page_title: Navigation de section
+  page_icon: ph:bold/signpost
+
+  intro: "Les pages d'une section sont écrites une fois, comme sa navigation, et dessinées comme l'app le choisit : des onglets sous l'en-tête, comme sur les autres pages de cette section, ou le menu latéral qui représente la section tant qu'on y est — comme sur cette page, dont le menu de gauche est celui de cette section."
+
+  section:
+    writing:
+      title: L'écrire
+      body: "Le layout d'une section définit page_section_navigation : ce qu'est la section (label, href), vers où on la quitte (back), et ses vues (items), chacune une route que le lecteur peut ouvrir — les autres sont écartées. Un item reste allumé sur une famille de pages (match), et peut contenir ses propres vues (children)."
+    drawing:
+      title: La dessiner
+      body: "layout_section_navigation dit comment : des onglets par défaut, qui montrent le niveau où se trouve la page — les enfants d'une vue sous le retour vers la section —, ou menu, qui montre la section entière, le retour en haut et la vue qui contient la page dépliée."

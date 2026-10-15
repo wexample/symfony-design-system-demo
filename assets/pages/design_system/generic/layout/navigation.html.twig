@@ -1,0 +1,34 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+
+{#- This page shows the section's navigation the other way: the side menu
+    stands for the section while one is on it, its way back out at the top. -#}
+{%- set layout_section_navigation = 'menu' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.writing.title' | trans }}</h2>
+    <p>{{ '@page::section.writing.body' | trans }}</p>
+    {%- set code -%}
+        {%- verbatim %}{%- set page_section_navigation = {
+    label: organization.name,
+    href: path('organization_show', { id: organization.id }),
+    back: { href: path('organization_index'), label: 'Organizations' },
+    items: [
+        { label: 'Overview', icon: 'ph:bold/gauge', route: 'organization_show', params: { id: organization.id } },
+        { label: 'Accounting', icon: 'ph:bold/calculator', route: 'accounting_show', params: { id: ledger.id }, children: [
+            { label: 'Bank', icon: 'ph:bold/bank', route: 'accounting_bank_index', params: { ledger: ledger.id }, match: 'accounting_bank_' },
+        ] },
+    ],
+} -%}{%- endverbatim -%}
+    {%- endset -%}
+    {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}
+
+    <h2>{{ '@page::section.drawing.title' | trans }}</h2>
+    <p>{{ '@page::section.drawing.body' | trans }}</p>
+    {%- set code -%}
+        {%- verbatim %}{# The app's layout: every section takes the side menu while one is in it. #}
+{%- set layout_section_navigation = 'menu' -%}{%- endverbatim -%}
+    {%- endset -%}
+    {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', {lang: 'twig', code: code}) }}
+{%- endblock -%}

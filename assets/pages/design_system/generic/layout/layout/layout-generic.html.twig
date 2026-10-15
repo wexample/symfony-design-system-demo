@@ -2,16 +2,26 @@
 
 {%- set page_show_title = true -%}
 
-{%- block page_header -%}
-    {{ parent() }}
-    {#- The section's pages, folding when the bar runs short (page_tabs). -#}
-    {{ page_tabs([
-        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.index', route: 'wexample_design_system_generic_layout_index' },
-        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.zones', route: 'wexample_design_system_generic_layout_zones' },
-        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.blocks', route: 'wexample_design_system_generic_layout_blocks' },
-        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.toolbar', route: 'wexample_design_system_generic_layout_toolbar' },
-        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.dock', route: 'wexample_design_system_generic_layout_dock' },
-        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.tabs', route: 'wexample_design_system_generic_layout_tabs' },
-        { label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.doc', route: 'wexample_design_system_generic_layout_doc' },
-    ], { back: false }) }}
-{%- endblock -%}
+{#- The section's pages, written once as its navigation (NavigationService):
+    tabs under the header, folding when the bar runs short, or the side menu
+    standing for the section, as the app — or a page — chooses
+    (`layout_section_navigation`); see the Section navigation page. -#}
+{%- set tab = 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.' -%}
+{%- set page_section_navigation = {
+    label: (tab ~ 'section')|trans,
+    href: path('wexample_design_system_generic_layout_index'),
+    back: {
+        href: path('wexample_design_system_generic_index'),
+        label: 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.index::page_title'|trans,
+    },
+    items: [
+        { label: tab ~ 'index', icon: 'ph:bold/squares-four', route: 'wexample_design_system_generic_layout_index' },
+        { label: tab ~ 'zones', icon: 'ph:bold/columns', route: 'wexample_design_system_generic_layout_zones' },
+        { label: tab ~ 'blocks', icon: 'ph:bold/square', route: 'wexample_design_system_generic_layout_blocks' },
+        { label: tab ~ 'toolbar', icon: 'ph:bold/rows', route: 'wexample_design_system_generic_layout_toolbar' },
+        { label: tab ~ 'dock', icon: 'ph:bold/sidebar-simple', route: 'wexample_design_system_generic_layout_dock' },
+        { label: tab ~ 'navigation', icon: 'ph:bold/signpost', route: 'wexample_design_system_generic_layout_navigation' },
+        { label: tab ~ 'tabs', icon: 'ph:bold/tabs', route: 'wexample_design_system_generic_layout_tabs' },
+        { label: tab ~ 'doc', icon: 'ph:bold/book-open', route: 'wexample_design_system_generic_layout_doc' },
+    ],
+} -%}
