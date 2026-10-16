@@ -14,6 +14,9 @@ en:
       title: Toolbar with title
     title_multi:
       title: Section title with actions
+    fields:
+      title: Fields in a bar
+      description: "What an editor's bar of options holds besides buttons: a size, a mode, a toggle, a choice, a search and its button. Each stands at the height of the bar's controls, so a compact bar keeps its thickness; a field and its action together (form--inline) take the room the bar leaves."
 
   title:
     example: Page title
@@ -23,7 +26,19 @@ en:
   marker:
     state: evergreen
 
+  field:
+    size: Size
+    mode: Mode
+    mode_normal: Normal
+    mode_multiply: Multiply
+    snap: Snap
+    preview: Preview
+    search: Search
+    message: Message
+
   button:
+    search: Search
+    send: Send
     create: Create
     refresh: Refresh
     export: Export
@@ -220,13 +235,27 @@ fr:
       title: "Barre d'outils avec titre"
     title_multi:
       title: 'Titre de section avec actions'
+    fields:
+      title: 'Des champs dans une barre'
+      description: "Ce qu'une barre d'options d'éditeur tient en plus des boutons : une taille, un mode, une bascule, un choix, une recherche et son bouton. Chacun se tient à la hauteur des contrôles de la barre, si bien qu'une barre compacte garde son épaisseur ; un champ et son action ensemble (form--inline) prennent la place que la barre laisse."
   title:
     example: 'Titre de la page'
     section: 'Titre de section'
     document: 'Conception et développement'
   marker:
     state: evergreen
+  field:
+    size: Taille
+    mode: Mode
+    mode_normal: Normal
+    mode_multiply: Produit
+    snap: Magnétisme
+    preview: Aperçu
+    search: Rechercher
+    message: Message
   button:
+    search: Rechercher
+    send: Envoyer
     create: Créer
     refresh: Rafraîchir
     export: Exporter

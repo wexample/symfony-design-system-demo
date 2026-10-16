@@ -60,4 +60,67 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <h2>{{ '@page::section.fields.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.fields.description' | trans }}</div>
+            <div class="toolbar toolbar--shaded toolbar--compact">
+                <div class="toolbar--group">
+                    <label class="toolbar--field">
+                        <span class="toolbar--field-label">{{ '@page::field.size' | trans }}</span>
+                        <input type="number" class="form--input" value="12" size="3">
+                    </label>
+                    <label class="toolbar--field">
+                        <span class="toolbar--field-label">{{ '@page::field.mode' | trans }}</span>
+                        <select class="form--input">
+                            <option>{{ '@page::field.mode_normal' | trans }}</option>
+                            <option>{{ '@page::field.mode_multiply' | trans }}</option>
+                        </select>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" class="form--checkbox" checked>
+                        <span class="form--checkbox-label">{{ '@page::field.snap' | trans }}</span>
+                    </label>
+                    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/switch', {}, {
+                        label: '@page::field.preview' | trans,
+                        label_position: 'left',
+                        checked: true,
+                    }) }}
+                    <div class="radio-group radio-group--segmented" role="radiogroup">
+                        <label class="radio-option">
+                            <input type="radio" class="form--radio" name="toolbar-demo-align" checked>
+                            <span class="form--radio-label">{{ icon('ph:bold/text-align-left') }}</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" class="form--radio" name="toolbar-demo-align">
+                            <span class="form--radio-label">{{ icon('ph:bold/text-align-center') }}</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" class="form--radio" name="toolbar-demo-align">
+                            <span class="form--radio-label">{{ icon('ph:bold/text-align-right') }}</span>
+                        </label>
+                    </div>
+                </div>
+                <form class="form--inline" onsubmit="return false">
+                    <input type="search" class="form--input" placeholder="{{ '@page::field.search' | trans }}">
+                    {{ button('ph:bold/magnifying-glass', '@page::button.search' | trans) }}
+                </form>
+            </div>
+
+            <div class="toolbar toolbar--shaded">
+                <form class="form--inline" onsubmit="return false">
+                    <input type="text" class="form--input" placeholder="{{ '@page::field.message' | trans }}">
+                    {{ button('ph:bold/paper-plane-tilt', '@page::button.send' | trans) }}
+                </form>
+                <div class="toolbar--group">
+                    <label class="toolbar--field">
+                        <span class="toolbar--field-label">{{ '@page::field.mode' | trans }}</span>
+                        <select class="form--input">
+                            <option>{{ '@page::field.mode_normal' | trans }}</option>
+                            <option>{{ '@page::field.mode_multiply' | trans }}</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </section>
 {%- endblock -%}
