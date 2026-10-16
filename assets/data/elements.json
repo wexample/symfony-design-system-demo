@@ -234,16 +234,20 @@
                 ]
             },
             "stances": {
-                "style": "undecided",
-                "template": "undecided",
+                "style": "waived",
+                "template": "waived",
                 "vue": "expected",
-                "script": "undecided",
-                "schema": "undecided",
-                "ai": "undecided",
-                "react": "undecided",
-                "flutter": "undecided"
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
             },
-            "notes": []
+            "notes": {
+                "style": "adds no style of its own; it shows the design system's",
+                "template": "a demo of a vue component, and only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
         },
         {
             "key": "demo-dates",
@@ -338,15 +342,18 @@
             },
             "stances": {
                 "style": "expected",
-                "template": "undecided",
+                "template": "waived",
                 "vue": "expected",
-                "script": "undecided",
-                "schema": "undecided",
-                "ai": "undecided",
-                "react": "undecided",
-                "flutter": "undecided"
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
             },
-            "notes": []
+            "notes": {
+                "template": "a demo of a vue component, and only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
         },
         {
             "key": "demo-image-crop",
@@ -363,15 +370,18 @@
             },
             "stances": {
                 "style": "expected",
-                "template": "undecided",
+                "template": "waived",
                 "vue": "expected",
-                "script": "undecided",
-                "schema": "undecided",
-                "ai": "undecided",
-                "react": "undecided",
-                "flutter": "undecided"
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
             },
-            "notes": []
+            "notes": {
+                "template": "a demo of a vue component, and only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
         },
         {
             "key": "demo-keyboard",
@@ -388,15 +398,18 @@
             },
             "stances": {
                 "style": "expected",
-                "template": "undecided",
+                "template": "waived",
                 "vue": "expected",
-                "script": "undecided",
-                "schema": "undecided",
-                "ai": "undecided",
-                "react": "undecided",
-                "flutter": "undecided"
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
             },
-            "notes": []
+            "notes": {
+                "template": "a demo of a vue component, and only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
         },
         {
             "key": "demo-period",

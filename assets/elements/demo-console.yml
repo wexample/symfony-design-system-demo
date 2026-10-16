@@ -8,3 +8,10 @@
 description: null
 formats:
   vue: true
+  template: "a demo of a vue component, and only makes sense inside a vue tree"
+  style: "adds no style of its own; it shows the design system's"
+  script: "its behaviour is the vue component's"
+  schema: todo
+  ai: todo
+  react: todo
+  flutter: todo
