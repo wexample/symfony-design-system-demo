@@ -196,26 +196,32 @@
             }
         },
         {
-            "key": "demo-collapsible-column",
+            "key": "collection/wall/demo-entity-wall",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,
             "formats": {
+                "style": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/collection/wall/demo-entity-wall/demo-entity-wall.scss"
+                ],
                 "vue": [
-                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-collapsible-column/demo-collapsible-column.vue.twig",
-                    "@WexampleSymfonyDesignSystemDemoBundle/components/demo-collapsible-column/demo-collapsible-column.vue"
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/collection/wall/demo-entity-wall/demo-entity-wall.vue.twig",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/collection/wall/demo-entity-wall/demo-entity-wall.vue"
                 ]
             },
             "stances": {
-                "style": "undecided",
-                "template": "undecided",
+                "style": "expected",
+                "template": "waived",
                 "vue": "expected",
-                "script": "undecided",
-                "schema": "undecided",
-                "ai": "undecided",
-                "react": "undecided",
-                "flutter": "undecided"
+                "script": "waived",
+                "schema": "todo",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
             },
-            "notes": []
+            "notes": {
+                "template": "client-side by nature: it only makes sense inside a vue tree",
+                "script": "its behaviour is the vue component's"
+            }
         },
         {
             "key": "demo-console",
