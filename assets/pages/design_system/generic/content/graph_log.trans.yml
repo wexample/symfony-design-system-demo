@@ -16,9 +16,6 @@ en:
     vue:
       title: In vue
       description: "The same history in a vue tree, the lanes drawn again as items come in at the head."
-    git:
-      title: This application's history
-      description: "Read from the repository by symfony-coding's git_graph_items(), through the shared reader that never gets in git's way."
 
   history:
     merge_search: Merge the search branch
@@ -54,9 +51,6 @@ ar:
     vue:
       title: 'في vue'
       description: 'نفس التاريخ في شجرة vue، المسارات مرسومة مرة أخرى مع دخول العناصر في المقدمة.'
-    git:
-      title: 'تاريخ هذا التطبيق'
-      description: "يُقرأ من المستودع بواسطة symfony-coding's git_graph_items()، من خلال القارئ المشترك الذي لا يتداخل مع git."
   history:
     merge_search: 'دمج فرع البحث'
     search_filters: 'إضافة فلاتر إلى البحث'
@@ -90,9 +84,6 @@ bn:
     vue:
       title: ভিউতে
       description: 'একটি ভিউ গাছের মধ্যে একই ইতিহাস, যখন আইটেমগুলি মাথায় আসে তখন লেনগুলি আবার অঙ্কিত হয়।'
-    git:
-      title: 'এই অ্যাপ্লিকেশনের ইতিহাস'
-      description: 'সংশ্লিষ্ট পাঠক দ্বারা পড়া হয়েছে যা গিটের পথে কখনো বাধা দেয় না, symfony-coding এর git_graph_items() মাধ্যমে।'
   history:
     merge_search: 'সার্চ শাখা মার্জ করুন'
     search_filters: 'সার্চে ফিল্টার যোগ করুন'
@@ -126,9 +117,6 @@ de:
     vue:
       title: 'In Vue'
       description: 'Die gleiche Historie in einem Vue-Baum, die Bahnen erneut dargestellt, wenn die Elemente am Kopf eintreffen.'
-    git:
-      title: 'Die Historie dieser Anwendung'
-      description: "Aus dem Repository gelesen durch symfony-coding's git_graph_items(), über den gemeinsamen Leser, der Git nie im Weg steht."
   history:
     merge_search: 'Such-Branch zusammenführen'
     search_filters: 'Filter zur Suche hinzufügen'
@@ -162,9 +150,6 @@ es:
     vue:
       title: 'En vue'
       description: 'La misma historia en un árbol vue, los carriles dibujados nuevamente a medida que los elementos llegan a la cabeza.'
-    git:
-      title: 'El historial de esta aplicación'
-      description: "Leído del repositorio por symfony-coding's git_graph_items(), a través del lector compartido que nunca interfiere con git."
   history:
     merge_search: 'Fusionar la rama de búsqueda'
     search_filters: 'Agregar filtros a la búsqueda'
@@ -198,9 +183,6 @@ fa:
     vue:
       title: 'در vue'
       description: 'همان تاریخچه در یک درخت vue، لاین‌ها دوباره به عنوان مواردی که در سر وارد می‌شوند ترسیم شده‌اند.'
-    git:
-      title: 'تاریخچه این برنامه'
-      description: 'از مخزن توسط git_graph_items() symfony-coding خوانده شده، از طریق خواننده مشترکی که هرگز در کار گیت دخالت نمی‌کند.'
   history:
     merge_search: 'ادغام شاخه جستجو'
     search_filters: 'فیلترهایی به جستجو اضافه کنید'
@@ -234,9 +216,6 @@ fi:
     vue:
       title: 'Vue:ssa'
       description: 'Sama historia vue-puussa, kaistat piirretty jälleen, kun kohteet tulevat päähän.'
-    git:
-      title: 'Tämän sovelluksen historia'
-      description: 'Luetaan repositoriosta symfony-codingin git_graph_items():n kautta, yhteisen lukijan avulla, joka ei koskaan häiritse git:iä.'
   history:
     merge_search: 'Yhdistä hakuhaaran'
     search_filters: 'Lisää suodattimia hakuun'
@@ -270,9 +249,6 @@ fr:
     vue:
       title: 'Dans vue'
       description: 'Le même historique dans un arbre vue, les voies redessinées à mesure que les éléments arrivent en tête.'
-    git:
-      title: "L'historique de cette application"
-      description: "Lu depuis le dépôt par symfony-coding's git_graph_items(), à travers le lecteur partagé qui n'entrave jamais git."
   history:
     merge_search: 'Fusionner la branche de recherche'
     search_filters: 'Ajouter des filtres à la recherche'
@@ -306,9 +282,6 @@ he:
     vue:
       title: ב-vue
       description: 'אותה היסטוריה בעץ vue, המסלולים מצוירים שוב כאשר פריטים נכנסים בראש.'
-    git:
-      title: 'ההיסטוריה של האפליקציה הזו'
-      description: "נקרא מהמאגר על ידי symfony-coding's git_graph_items(), דרך הקורא המשותף שמעולם לא מפריע ל-git."
   history:
     merge_search: 'מזג את ענף החיפוש'
     search_filters: 'הוסף מסננים לחיפוש'
@@ -342,9 +315,6 @@ hi:
     vue:
       title: 'व्यू में'
       description: 'व्यू ट्री में वही इतिहास, लेनें फिर से खींची जाती हैं जैसे-जैसे आइटम सिर में आते हैं।'
-    git:
-      title: 'इस एप्लिकेशन का इतिहास'
-      description: 'symfony-coding के git_graph_items() द्वारा रिपॉजिटरी से पढ़ा गया, साझा पाठक के माध्यम से जो गिट के रास्ते में कभी नहीं आता।'
   history:
     merge_search: 'सर्च ब्रांच को मर्ज करें'
     search_filters: 'खोज में फ़िल्टर जोड़ें'
@@ -378,9 +348,6 @@ id:
     vue:
       title: 'Dalam vue'
       description: 'Riwayat yang sama dalam pohon vue, jalur digambar kembali saat item masuk di bagian atas.'
-    git:
-      title: 'Riwayat aplikasi ini'
-      description: 'Dibaca dari repositori oleh git_graph_items() milik symfony-coding, melalui pembaca bersama yang tidak pernah mengganggu git.'
   history:
     merge_search: 'Gabungkan cabang pencarian'
     search_filters: 'Tambahkan filter ke pencarian'
@@ -414,9 +381,6 @@ it:
     vue:
       title: 'In vue'
       description: "La stessa storia in un albero vue, le corsie disegnate di nuovo man mano che gli elementi arrivano all'inizio."
-    git:
-      title: 'La cronologia di questa applicazione'
-      description: 'Lettura dal repository tramite git_graph_items() di symfony-coding, attraverso il lettore condiviso che non interferisce mai con git.'
   history:
     merge_search: 'Unisci il ramo di ricerca'
     search_filters: 'Aggiungi filtri alla ricerca'
@@ -450,9 +414,6 @@ ja:
     vue:
       title: Vue内で
       description: 同じ履歴がVueツリーに表示され、アイテムが先頭に入ってくるとレーンが再度描かれます。
-    git:
-      title: このアプリケーションの履歴
-      description: symfony-codingのgit_graph_items()によってリポジトリから読み取られ、gitの妨げにならない共有リーダーを通じて取得されます。
   history:
     merge_search: 検索ブランチをマージ
     search_filters: 検索にフィルターを追加
@@ -486,9 +447,6 @@ ko:
     vue:
       title: Vue에서
       description: 'Vue 트리에서 동일한 기록, 항목이 헤드에 들어올 때 다시 그려진 선들.'
-    git:
-      title: '이 애플리케이션의 기록'
-      description: 'symfony-coding의 git_graph_items()를 통해 저장소에서 읽어들입니다. 공유 리더는 git의 방해가 되지 않습니다.'
   history:
     merge_search: '검색 브랜치 병합'
     search_filters: '검색에 필터 추가'
@@ -522,9 +480,6 @@ nl:
     vue:
       title: 'In vue'
       description: 'Dezelfde geschiedenis in een vue-boom, de banen opnieuw getekend als items binnenkomen aan de kop.'
-    git:
-      title: 'De geschiedenis van deze applicatie'
-      description: "Gelezen uit de repository door symfony-coding's git_graph_items(), via de gedeelde lezer die nooit in de weg van git komt."
   history:
     merge_search: 'Voeg de zoekbranch samen'
     search_filters: 'Voeg filters toe aan de zoekopdracht'
@@ -558,9 +513,6 @@ pl:
     vue:
       title: 'W vue'
       description: 'Ta sama historia w drzewie vue, ścieżki narysowane ponownie, gdy elementy pojawiają się na początku.'
-    git:
-      title: 'Historia tej aplikacji'
-      description: 'Odczytane z repozytorium przez git_graph_items() symfony-coding, przez wspólnego czytelnika, który nigdy nie wchodzi w drogę gitowi.'
   history:
     merge_search: 'Scal gałąź wyszukiwania'
     search_filters: 'Dodaj filtry do wyszukiwania'
@@ -594,9 +546,6 @@ pt_BR:
     vue:
       title: 'Em vue'
       description: 'O mesmo histórico em uma árvore vue, as faixas desenhadas novamente conforme os itens entram na cabeça.'
-    git:
-      title: 'O histórico deste aplicativo'
-      description: 'Lido do repositório pela função git_graph_items() do symfony-coding, através do leitor compartilhado que nunca interfere no git.'
   history:
     merge_search: 'Mesclar a branch de busca'
     search_filters: 'Adicionar filtros à busca'
@@ -630,9 +579,6 @@ ru:
     vue:
       title: 'В vue'
       description: 'Та же история в дереве vue, дорожки снова отображаются по мере поступления элементов в начало.'
-    git:
-      title: 'История этого приложения'
-      description: 'Читается из репозитория с помощью git_graph_items() от symfony-coding, через общий ридер, который никогда не мешает git.'
   history:
     merge_search: 'Объединить ветку поиска'
     search_filters: 'Добавить фильтры к поиску'
@@ -666,9 +612,6 @@ th:
     vue:
       title: 'ใน vue'
       description: 'ประวัติเดียวกันในต้นไม้ vue, เลนถูกวาดอีกครั้งเมื่อรายการเข้ามาที่หัว.'
-    git:
-      title: ประวัติของแอปพลิเคชันนี้
-      description: 'อ่านจากที่เก็บโดยฟังก์ชัน git_graph_items() ของ symfony-coding, ผ่านผู้อ่านที่แชร์ซึ่งไม่รบกวน git.'
   history:
     merge_search: รวมสาขาการค้นหา
     search_filters: เพิ่มตัวกรองในการค้นหา
@@ -702,9 +645,6 @@ tr:
     vue:
       title: "Vue'da"
       description: 'Aynı geçmişin bir vue ağacında, yollar yeniden çizilmiş olarak öğeler başa geldiğinde.'
-    git:
-      title: 'Bu uygulamanın geçmişi'
-      description: "Symfony-coding'in git_graph_items() fonksiyonu aracılığıyla depodan okunur, git'in yoluna asla girmeyen paylaşılan okuyucu üzerinden."
   history:
     merge_search: 'Arama dalını birleştir'
     search_filters: 'Aramaya filtre ekle'
@@ -738,9 +678,6 @@ ur:
     vue:
       title: 'ویو میں'
       description: 'ویو کے درخت میں وہی تاریخ، راستے دوبارہ کھینچے گئے جیسے ہی اشیاء سر میں آتی ہیں۔'
-    git:
-      title: 'اس ایپلیکیشن کی تاریخ'
-      description: 'ریپوزٹری سے symfony-coding کے git_graph_items() کے ذریعے پڑھا جاتا ہے، اس مشترکہ قاری کے ذریعے جو کبھی بھی گٹ کے راستے میں نہیں آتا۔'
   history:
     merge_search: 'تلاش کی برانچ کو ضم کریں'
     search_filters: 'تلاش میں فلٹرز شامل کریں'
@@ -774,9 +711,6 @@ vi:
     vue:
       title: 'Trong vue'
       description: 'Cùng một lịch sử trong cây vue, các làn được vẽ lại khi các mục vào ở đầu.'
-    git:
-      title: 'Lịch sử của ứng dụng này'
-      description: 'Đọc từ kho lưu trữ bởi git_graph_items() của symfony-coding, thông qua trình đọc chia sẻ không bao giờ can thiệp vào git.'
   history:
     merge_search: 'Gộp nhánh tìm kiếm'
     search_filters: 'Thêm bộ lọc vào tìm kiếm'
@@ -810,9 +744,6 @@ zh:
     vue:
       title: '在 vue 中'
       description: '在 vue 树中的相同历史，通道在项目进入顶部时再次绘制。'
-    git:
-      title: 该应用程序的历史
-      description: '通过 symfony-coding 的 git_graph_items() 从仓库读取，通过不会干扰 git 的共享读取器。'
   history:
     merge_search: 合并搜索分支
     search_filters: 向搜索添加过滤器

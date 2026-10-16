@@ -39,14 +39,4 @@
     <div class="block block--padded">
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/graph-log', { items: history }) }}
     </div>
-
-    {#- The app's own history, when git is there to read it. -#}
-    {%- set own = git_graph_items(null, 20) -%}
-    {%- if own is not empty -%}
-        <h2>{{ '@page::section.git.title' | trans }}</h2>
-        <div class="lead">{{ '@page::section.git.description' | trans }}</div>
-        <div class="block block--padded">
-            {{ graph_log(own) }}
-        </div>
-    {%- endif -%}
 {%- endblock -%}
