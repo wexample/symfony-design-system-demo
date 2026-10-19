@@ -67,3 +67,307 @@ ar:
     sizes:
       title: الأحجام
       description: 'الوجه هو رسم، حاد في كل حجم: إطار --حجم-الرمز الشخصي، يحدد مدى كبره.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: अवतार
+  page_icon: 'ph:bold/smiley'
+  intro: 'जो कोई तस्वीर नहीं है उसके लिए एक चेहरा, एक बीज से इंजन द्वारा बनाया गया - एक पहचान जो कभी नहीं बदलती, कभी नाम नहीं - और किसी भी पृष्ठ, व्यू घटक या मेल द्वारा दिखाया जा सकता है। वही बीज हमेशा वही चेहरा देता है; इंजन कहता है कि यह कैसा दिखता है।'
+  section:
+    engines:
+      title: इंजन
+      description: 'डिज़ाइन सिस्टम बीज के रंग पर आद्याक्षर बनाता है। अन्य इंजन इसके बगल में प्लग इन होते हैं: 2020 के वेक्सी सिम्फनी-डिज़ाइन- प्रणाली-इफेक्ट्स से आते हैं।'
+    crowd:
+      title: 'वेक्सियों की भीड़'
+      description: 'हाथ से बनाए गए छब्बीस जोड़े आंखें, प्रत्येक कहीं देख रही हैं, बीज के रंग पर: साठ सदस्य, उतने ही चेहरे।'
+    sizes:
+      title: आकार
+      description: 'चेहरा एक चित्र है, हर आकार में जितना तेज है: फ्रेम का, --अवतार-आकार, यह बताता है कि यह कितना बड़ा है।'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: אווטרים
+  page_icon: 'ph:bold/smiley'
+  intro: 'פנים עבור מי שאין לו תמונה, שנוצרות על ידי מנוע מזרע — זיהוי שאינו משתנה, לעולם לא השם — ומוצגות כתמונה בכל עמוד, רכיב vue או דואר. אותו זרע תמיד נותן את אותו הפנים; המנוע קובע איך זה נראה.'
+  section:
+    engines:
+      title: מנועים
+      description: 'מערכת העיצוב מציירת ראשי תיבות על צבע הזרע. מנועים אחרים מחוברים לצידה: ה-wexies של 2020 מגיעים מ-symfony-design-system-effects.'
+    crowd:
+      title: 'קהל של wexies'
+      description: 'שישה ועשרים זוגות עיניים שנציירו ביד, כל אחת מסתכלת לאן שהוא, על צבע הזרע: שישים חברים, כל כך הרבה פנים.'
+    sizes:
+      title: גדלים
+      description: 'הפנים הן ציור, חד בכל גודל: מסגרת --avatar-size, אומרת כמה גדולה.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: آواتارها
+  page_icon: 'ph:bold/smiley'
+  intro: 'چهره‌ای برای هر کسی که تصویر ندارد، که توسط یک موتور از یک بذر ترسیم می‌شود — یک شناسه که هرگز تغییر نمی‌کند، هرگز نام — و به عنوان تصویری که هر صفحه، کامپوننت Vue یا ایمیل می‌تواند نمایش دهد، سرویس‌دهی می‌شود. همان بذر همیشه همان چهره را می‌دهد؛ موتور می‌گوید چگونه به نظر می‌رسد.'
+  section:
+    engines:
+      title: موتورها
+      description: 'سیستم طراحی حروف اول را بر روی رنگ بذر ترسیم می‌کند. موتورها دیگری نیز در کنار آن قرار می‌گیرند: وکسی‌های 2020 از افکت‌های سیستم طراحی Symfony می‌آیند.'
+    crowd:
+      title: 'جمعیت وکسی‌ها'
+      description: 'بیست و شش جفت چشم که به صورت دستی ترسیم شده‌اند، هر کدام به جایی نگاه می‌کنند، بر روی رنگ بذر: شصت عضو، به همان اندازه چهره‌ها.'
+    sizes:
+      title: اندازه‌ها
+      description: 'چهره یک ترسیم است، به همان اندازه واضح در همه اندازه‌ها: اندازه قاب --avatar-size، می‌گوید چقدر بزرگ است.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: اوتار
+  page_icon: 'ph:bold/smiley'
+  intro: 'ایک چہرہ جو ان لوگوں کے لئے ہے جن کی کوئی تصویر نہیں، ایک انجن کے ذریعے ایک بیج سے بنایا گیا — ایک شناخت جو کبھی نہیں بدلتی، کبھی بھی نام نہیں — اور کسی بھی صفحے، ویو کمپوننٹ یا میل کے طور پر ایک تصویر کے طور پر پیش کی جا سکتی ہے۔ ایک ہی بیج ہمیشہ ایک ہی چہرہ دیتا ہے؛ انجن یہ بتاتا ہے کہ یہ کیسا لگتا ہے۔'
+  section:
+    engines:
+      title: انجن
+      description: 'ڈیزائن سسٹم بیج کے رنگ پر ابتدائی حروف بناتا ہے۔ دوسرے انجن اس کے ساتھ جڑتے ہیں: 2020 کے ویکسیز سمفونی-ڈیزائن-سسٹم-ایفیکٹس سے آتے ہیں۔'
+    crowd:
+      title: 'ویکسیز کا ہجوم'
+      description: 'ہاتھ سے بنائے گئے چھببیس جوڑوں کی آنکھیں، ہر ایک کہیں دیکھ رہی ہے، بیج کے رنگ پر: ساٹھ اراکین، اتنے ہی چہرے۔'
+    sizes:
+      title: سائز
+      description: 'چہرہ ایک ڈرائنگ ہے، ہر سائز پر تیز: فریم کا، --اوٹار-سائز، بتاتا ہے کہ یہ کتنا بڑا ہے۔'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: アバター
+  page_icon: 'ph:bold/smiley'
+  intro: 写真がない人のための顔。変更されないIDからエンジンが描いたもので、どのページ、Vueコンポーネント、またはメールでも表示できる画像として提供される。同じシードは常に同じ顔を与え、エンジンがその見た目を決定します。
+  section:
+    engines:
+      title: エンジン
+      description: デザインシステムは、シードの色に初期を描きます。他のエンジンはその横に接続されます：2020年のウェクシーはsymfony-design-system-effectsから来ています。
+    crowd:
+      title: ウェクシーの群れ
+      description: 手描きされた26組の目がそれぞれ異なる方向を向いてシードの色に描かれています：60人のメンバー、同じ数の顔。
+    sizes:
+      title: サイズ
+      description: 顔は描画で、どのサイズでもシャープです：フレームの--avatar-sizeが大きさを示します。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 아바타
+  page_icon: 'ph:bold/smiley'
+  intro: '사진이 없는 사용자를 위한 얼굴로, 변경되지 않는 ID를 기반으로 엔진이 그립니다 — 이름이 아닌 ID — 모든 페이지, Vue 컴포넌트 또는 이메일에서 표시할 수 있는 이미지로 제공됩니다. 같은 시드는 항상 같은 얼굴을 생성하며, 엔진이 어떻게 보이는지를 결정합니다.'
+  section:
+    engines:
+      title: 엔진
+      description: '디자인 시스템은 시드의 색상으로 이니셜을 그립니다. 다른 엔진들이 그 옆에 연결됩니다: 2020년의 웩시들은 symfony-design-system-effects에서 나옵니다.'
+    crowd:
+      title: '웩시의 군중'
+      description: '각기 다른 곳을 바라보는 26쌍의 눈이 손으로 그려졌습니다. 시드의 색상으로, 60명의 구성원, 그만큼의 얼굴이 있습니다.'
+    sizes:
+      title: 크기
+      description: '얼굴은 모든 크기에서 선명하게 그려진 그림입니다: 프레임의 --avatar-size가 얼마나 큰지를 나타냅니다.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: অ্যাভাটার
+  page_icon: 'ph:bold/smiley'
+  intro: 'যার কোনো ছবি নেই তার জন্য একটি মুখ, একটি সিড থেকে ইঞ্জিন দ্বারা আঁকা — একটি আইডি যা কখনো পরিবর্তিত হয় না, কখনো নাম নয় — এবং এটি একটি ছবি হিসেবে যে কোনো পৃষ্ঠা, ভিউ কম্পোনেন্ট বা মেইলে প্রদর্শন করা যায়। একই সিড সব সময় একই মুখ দেয়; ইঞ্জিন বলে এটি কেমন দেখায়।'
+  section:
+    engines:
+      title: ইঞ্জিন
+      description: 'ডিজাইন সিস্টেম একটি রঙের সিডের উপর অক্ষর আঁকে। অন্যান্য ইঞ্জিন এর পাশে সংযুক্ত হয়: ২০২০ সালের ওয়েক্সি সমূহ সিম্ফনি-ডিজাইন-সিস্টেম-এফেক্ট থেকে এসেছে।'
+    crowd:
+      title: 'একটি ওয়েক্সির ভিড়'
+      description: 'হাতে আঁকা ছাব্বিশ জোড় চোখ, প্রত্যেকটি কোথাও তাকিয়ে আছে, সিডের একটি রঙে: ষাট সদস্য, সমান সংখ্যক মুখ।'
+    sizes:
+      title: আকার
+      description: 'মুখটি একটি অঙ্কন, প্রতিটি আকারে তীক্ষ্ণ: ফ্রেমের, --অ্যাভাটার-সাইজ, বলে এটি কত বড়।'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: อวตาร
+  page_icon: 'ph:bold/smiley'
+  intro: 'ใบหน้าสำหรับผู้ที่ไม่มีรูปภาพ วาดโดยเครื่องจากเมล็ด — รหัสที่ไม่เคยเปลี่ยนแปลง ไม่ใช่ชื่อ — และแสดงเป็นภาพที่หน้าใดก็ได้ คอมโพเนนต์ vue หรืออีเมลสามารถแสดงได้ เมล็ดเดียวกันจะให้ใบหน้าเดียวกันเสมอ; เครื่องบอกว่ามันดูเป็นอย่างไร.'
+  section:
+    engines:
+      title: เครื่องจักร
+      description: 'ระบบออกแบบวาดอักษรย่อบนสีของเมล็ด เครื่องจักรอื่นๆ เชื่อมต่ออยู่ข้างๆ: wexies ของปี 2020 มาจาก symfony-design-system-effects.'
+    crowd:
+      title: 'ฝูงชนของ wexies'
+      description: 'คู่ตาของวาดด้วยมือยี่สิบหกคู่ แต่ละคู่มองไปที่ไหนซักแห่ง บนสีของเมล็ด: หกสิบสมาชิก เป็นใบหน้ามากมาย.'
+    sizes:
+      title: ขนาด
+      description: 'ใบหน้าเป็นการวาดภาพ ชัดเจนในทุกขนาด: ขนาดของกรอบ --avatar-size บอกว่ามีขนาดใหญ่แค่ไหน.'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatare
+  page_icon: 'ph:bold/smiley'
+  intro: 'Ein Gesicht für jeden, der kein Bild hat, gezeichnet von einer Engine aus einem Seed – einer ID, die sich nie ändert, nie der Name – und als Bild bereitgestellt, das jede Seite, jede Vue-Komponente oder E-Mail anzeigen kann. Der gleiche Seed ergibt immer das gleiche Gesicht; die Engine sagt, wie es aussieht.'
+  section:
+    engines:
+      title: Engines
+      description: 'Das Designsystem zeichnet Initialen auf eine Farbe des Seeds. Andere Engines fügen sich daneben ein: die Wexies von 2020 stammen aus symfony-design-system-effects.'
+    crowd:
+      title: 'Eine Menge von Wexies'
+      description: 'Sechsundzwanzig Paare von Augen, von Hand gezeichnet, jedes schaut irgendwohin, auf einer Farbe des Seeds: sechzig Mitglieder, so viele Gesichter.'
+    sizes:
+      title: Größen
+      description: 'Das Gesicht ist eine Zeichnung, in jeder Größe scharf: die Größe des Rahmens, --avatar-size, sagt, wie groß.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatarit
+  page_icon: 'ph:bold/smiley'
+  intro: 'Kasvokuva jokaiselle, jolla ei ole kuvaa, piirretty koneen toimesta siemenestä — id:stä, joka ei koskaan muutu, ei koskaan nimestä — ja esitettynä kuvana, jonka jokainen sivu, vue-komponentti tai sähköposti voi näyttää. Sama siemen antaa aina saman kasvokuvan; kone kertoo, miltä se näyttää.'
+  section:
+    engines:
+      title: Koneet
+      description: 'Suunnittelujärjestelmä piirtää alkukirjaimia siemenen värillä. Muut koneet liitetään sen viereen: vuoden 2020 wexyt tulevat symfony-design-system-effects:ltä.'
+    crowd:
+      title: 'Wexyjen joukko'
+      description: 'Kaksikymmentäkuusi käsin piirrettyä silmäparia, jokainen katsoo jonnekin, siemenen värillä: kuusikymmentä jäsentä, yhtä monta kasvoja.'
+    sizes:
+      title: Koot
+      description: 'Kasvokuva on piirros, yhtä tarkka jokaisessa koossa: kehys, --avatar-size, kertoo kuinka suuri.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Аватары
+  page_icon: 'ph:bold/smiley'
+  intro: 'Лицо для тех, у кого нет фотографии, нарисованное движком из семени — идентификатора, который никогда не меняется, не имени — и используемое в качестве изображения, которое может отображаться на любой странице, компоненте vue или в письме. Одно и то же семя всегда дает одно и то же лицо; движок определяет, как оно выглядит.'
+  section:
+    engines:
+      title: Движки
+      description: 'Система дизайна рисует инициал на цвете семени. Другие движки подключаются рядом: вексии 2020 года идут из symfony-design-system-effects.'
+    crowd:
+      title: 'Толпа вексий'
+      description: 'Двадцать шесть пар глаз, нарисованных вручную, каждый смотрит в сторону, на цвете семени: шестьдесят участников, столько же лиц.'
+    sizes:
+      title: Размеры
+      description: 'Лицо — это рисунок, четкий на любом размере: размер рамки, --avatar-size, указывает, насколько велико.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Awatary
+  page_icon: 'ph:bold/smiley'
+  intro: 'Twarz dla kogoś, kto nie ma zdjęcia, stworzona przez silnik z nasiona — id, które nigdy się nie zmienia, nigdy nazwa — i serwowana jako obraz, który może wyświetlić każda strona, komponent vue lub wiadomość. To samo nasiono zawsze daje tę samą twarz; silnik mówi, jak ona wygląda.'
+  section:
+    engines:
+      title: Silniki
+      description: 'System projektowania rysuje inicjały w kolorze nasiona. Inne silniki podłączają się obok: wexie z 2020 roku pochodzą z symfony-design-system-effects.'
+    crowd:
+      title: 'Tłum wexiów'
+      description: 'Dwadzieścia sześć par oczu narysowanych ręcznie, każde patrzy w inną stronę, w kolorze nasiona: sześćdziesięciu członków, tyle samo twarzy.'
+    sizes:
+      title: Rozmiary
+      description: 'Twarz to rysunek, ostry w każdym rozmiarze: ramka --avatar-size mówi, jak duża.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatares
+  page_icon: 'ph:bold/smiley'
+  intro: 'Una cara para quien no tiene foto, dibujada por un motor a partir de una semilla — un id que nunca cambia, nunca el nombre — y servido como una imagen que cualquier página, componente vue o correo puede mostrar. La misma semilla siempre da la misma cara; el motor dice cómo se ve.'
+  section:
+    engines:
+      title: Motores
+      description: 'El sistema de diseño dibuja iniciales sobre un color de la semilla. Otros motores se conectan al lado: los wexies de 2020 provienen de symfony-design-system-effects.'
+    crowd:
+      title: 'Una multitud de wexies'
+      description: 'Veintiséis pares de ojos dibujados a mano, cada uno mirando en alguna parte, sobre un color de la semilla: sesenta miembros, tantas caras.'
+    sizes:
+      title: Tamaños
+      description: 'La cara es un dibujo, nítido en cada tamaño: el del marco, --avatar-size, dice cuán grande.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatar
+  page_icon: 'ph:bold/smiley'
+  intro: 'Un volto per chi non ha immagine, creato da un motore a partire da un seed — un id che non cambia mai, mai il nome — e utilizzato come immagine che qualsiasi pagina, componente vue o email può mostrare. Lo stesso seed dà sempre lo stesso volto; il motore determina come appare.'
+  section:
+    engines:
+      title: Motori
+      description: 'Il sistema di design disegna le iniziali su un colore del seed. Altri motori si collegano accanto: i wexies del 2020 provengono dagli effetti del sistema di design di Symfony.'
+    crowd:
+      title: 'Una folla di wexies'
+      description: 'Ventisei coppie di occhi disegnate a mano, ognuna che guarda da qualche parte, su un colore del seed: sessanta membri, tante facce.'
+    sizes:
+      title: Dimensioni
+      description: "Il volto è un disegno, nitido ad ogni dimensione: il frame's, --avatar-size, indica quanto grande."
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatares
+  page_icon: 'ph:bold/smiley'
+  intro: 'Uma face para quem não tem foto, desenhada por um motor a partir de uma semente — um id que nunca muda, nunca o nome — e servida como uma imagem que qualquer página, componente vue ou e-mail pode mostrar. A mesma semente sempre dá a mesma face; o motor diz como ela se parece.'
+  section:
+    engines:
+      title: Motores
+      description: 'O sistema de design desenha iniciais em uma cor da semente. Outros motores se conectam ao lado: os wexies de 2020 vêm de symfony-design-system-effects.'
+    crowd:
+      title: 'Uma multidão de wexies'
+      description: 'Vinte e seis pares de olhos desenhados à mão, cada um olhando para algum lugar, em uma cor da semente: sessenta membros, tantas faces.'
+    sizes:
+      title: Tamanhos
+      description: 'A face é um desenho, tão nítido em qualquer tamanho: o do quadro, --avatar-size, diz quão grande.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatarlar
+  page_icon: 'ph:bold/smiley'
+  intro: "Hiçbir resmi olmayanlar için bir yüz, değişmeyen bir kimlikten — bir seed'den — bir motor tarafından çizilir ve herhangi bir sayfa, vue bileşeni veya e-posta tarafından gösterilebilecek bir görüntü olarak sunulur. Aynı seed her zaman aynı yüzü verir; motor ise nasıl göründüğünü söyler."
+  section:
+    engines:
+      title: Motorlar
+      description: "Tasarım sistemi, seed'in rengine göre baş harfler çizer. Diğer motorlar bunun yanına eklenir: 2020'nin wexileri symfony-design-system-effects'den gelir."
+    crowd:
+      title: 'Bir wexie kalabalığı'
+      description: "Her biri bir yere bakan, elle çizilmiş yirmi altı çift göz, seed'in rengine göre: altmış üye, o kadar çok yüz."
+    sizes:
+      title: Boyutlar
+      description: 'Yüz bir çizimdir, her boyutta keskin: çerçevenin, --avatar-size, ne kadar büyük olduğunu söyler.'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Hình đại diện'
+  page_icon: 'ph:bold/smiley'
+  intro: 'Một khuôn mặt cho những ai không có hình ảnh, được vẽ bởi một công cụ từ một hạt giống — một id không bao giờ thay đổi, không phải là tên — và được phục vụ như một hình ảnh mà bất kỳ trang nào, thành phần vue nào hoặc email nào cũng có thể hiển thị. Cùng một hạt giống luôn tạo ra cùng một khuôn mặt; công cụ sẽ cho biết nó trông như thế nào.'
+  section:
+    engines:
+      title: 'Công cụ'
+      description: 'Hệ thống thiết kế vẽ chữ cái đầu trên màu sắc của hạt giống. Các công cụ khác được kết nối bên cạnh nó: các wexies của năm 2020 đến từ symfony-design-system-effects.'
+    crowd:
+      title: 'Một đám đông wexies'
+      description: 'Hai mươi sáu cặp mắt được vẽ bằng tay, mỗi cái nhìn về một hướng nào đó, trên một màu sắc của hạt giống: sáu mươi thành viên, từng ấy khuôn mặt.'
+    sizes:
+      title: 'Kích thước'
+      description: 'Khuôn mặt là một bức tranh, sắc nét ở mọi kích thước: kích thước khung, --avatar-size, cho biết kích thước lớn đến đâu.'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatar
+  page_icon: 'ph:bold/smiley'
+  intro: 'Sebuah wajah untuk siapa pun yang tidak memiliki gambar, digambar oleh mesin dari sebuah benih — sebuah id yang tidak pernah berubah, bukan nama — dan disajikan sebagai gambar yang bisa ditampilkan di halaman mana pun, komponen vue, atau email. Benih yang sama selalu menghasilkan wajah yang sama; mesin menentukan bagaimana penampilannya.'
+  section:
+    engines:
+      title: Mesin
+      description: 'Sistem desain menggambar inisial pada warna benih. Mesin lain terhubung di sampingnya: wexies tahun 2020 berasal dari efek-sistem-desain-symfony.'
+    crowd:
+      title: 'Kerumunan wexies'
+      description: 'Dua puluh enam pasangan mata yang digambar tangan, masing-masing melihat ke suatu tempat, pada warna benih: enam puluh anggota, sebanyak wajah.'
+    sizes:
+      title: Ukuran
+      description: 'Wajah adalah sebuah gambar, sejelas di setiap ukuran: ukuran bingkai, --avatar-size, menentukan seberapa besar.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Avatar
+  page_icon: 'ph:bold/smiley'
+  intro: 'Een gezicht voor wie geen foto heeft, getekend door een engine vanuit een zaadje — een id dat nooit verandert, nooit de naam — en geserveerd als een afbeelding die elke pagina, vue-component of mail kan tonen. Hetzelfde zaadje geeft altijd hetzelfde gezicht; de engine bepaalt hoe het eruitziet.'
+  section:
+    engines:
+      title: Engines
+      description: 'Het ontwerpsysteem tekent initialen op een kleur van het zaadje. Andere engines sluiten ernaast aan: de wexies van 2020 komen van symfony-design-system-effects.'
+    crowd:
+      title: 'Een menigte wexies'
+      description: 'Zesentwintig paren ogen met de hand getekend, elk kijkend ergens, op een kleur van het zaadje: zestig leden, evenveel gezichten.'
+    sizes:
+      title: Maten
+      description: "Het gezicht is een tekening, even scherp in elke maat: de frame's, --avatar-size, zegt hoe groot."

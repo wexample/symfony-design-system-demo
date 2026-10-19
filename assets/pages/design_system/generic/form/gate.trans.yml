@@ -57,3 +57,288 @@ ar:
   made:
     title: 'تم إنشاء الفاتورة'
     body: 'تم فتح البوابة - كل حقل يحتاجه مليء.'
+
+hi:
+  page_title: 'गेटेड क्रिया'
+  help: 'इनवॉइस बनाने के लिए संगठन का शीर्षक, SIRET और IBAN की आवश्यकता होती है। जब इनमें से कोई एक गायब है, क्रिया संगठन फॉर्म पर भेज दी जाती है, उन फ़ील्ड्स को इंगित करते हुए; एक बार सुरक्षित होने के बाद, फॉर्म यहां वापस भेजता है और क्रिया फिर से जांचती है।'
+  field:
+    title: शीर्षक
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'इनवॉइस बनाएं'
+    organization: 'संगठन संपादित करें'
+    reset: 'संगठन को खाली करें'
+  made:
+    title: 'इनवॉइस बनाई गई'
+    body: 'गेट खुला था - इसे आवश्यक सभी फ़ील्ड भरे गए हैं।'
+
+he:
+  page_title: 'פעולה מוגנת'
+  help: 'כדי ליצור חשבונית יש צורך בכותרת של הארגון, SIRET ו-IBAN. כאשר אחד מהם חסר, הפעולה שולחת לטופס הארגון, שם השדות מסומנים; לאחר השמירה, הטופס מחזיר לכאן והפעולה בודקת שוב.'
+  field:
+    title: כותרת
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'צור חשבונית'
+    organization: 'ערוך את הארגון'
+    reset: 'נקה את הארגון'
+  made:
+    title: 'חשבונית נוצרה'
+    body: 'השער היה פתוח — כל שדה שנדרש מלא.'
+
+fa:
+  page_title: 'عملیات مشروط'
+  help: 'برای ایجاد یک فاکتور، به نام سازمان، SIRET و IBAN نیاز است. وقتی یکی از این موارد موجود نیست، عملیات به فرم سازمان هدایت می‌شود و آن فیلدها مشخص می‌شوند؛ پس از ذخیره، فرم دوباره به اینجا برمی‌گردد و عملیات دوباره بررسی می‌شود.'
+  field:
+    title: عنوان
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'ایجاد فاکتور'
+    organization: 'ویرایش سازمان'
+    reset: 'خالی کردن سازمان'
+  made:
+    title: 'فاکتور ایجاد شد'
+    body: 'در باز بود — هر فیلدی که نیاز داشت پر شده است.'
+
+ur:
+  page_title: 'گھری ہوئی کارروائی'
+  help: 'انوائس بنانے کے لیے تنظیم کا عنوان، SIRET اور IBAN کی ضرورت ہے۔ جب ان میں سے کوئی ایک غائب ہو تو کارروائی تنظیم کے فارم پر بھیج دیتی ہے، ان شعبوں کی نشاندہی کی جاتی ہے؛ جب محفوظ کیا جاتا ہے، تو فارم یہاں واپس آتا ہے اور کارروائی دوبارہ چیک کرتی ہے۔'
+  field:
+    title: عنوان
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'انوائس بنائیں'
+    organization: 'تنظیم میں ترمیم کریں'
+    reset: 'تنظیم کو خالی کریں'
+  made:
+    title: 'انوائس بنائی گئی'
+    body: 'دروازہ کھلا تھا - ہر وہ شعبہ بھرا ہوا ہے جس کی اسے ضرورت ہے۔'
+
+ja:
+  page_title: ゲート付きアクション
+  help: 請求書を作成するには、組織のタイトル、SIRET、およびIBANが必要です。いずれかが不足している場合、アクションは組織フォームに送信され、そのフィールドが指摘されます。保存されると、フォームはここに戻り、アクションは再度確認します。
+  field:
+    title: タイトル
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 請求書を作成
+    organization: 組織を編集
+    reset: 組織を空にする
+  made:
+    title: 請求書作成済み
+    body: 'ゲートが開いていました — 必要なすべてのフィールドが入力されています。'
+
+ko:
+  page_title: '제한된 작업'
+  help: '인보이스를 만들려면 조직의 제목, SIRET 및 IBAN이 필요합니다. 하나라도 누락된 경우, 해당 필드가 강조된 조직 양식으로 전송됩니다. 저장 후 양식이 여기로 돌아오고 작업이 다시 확인합니다.'
+  field:
+    title: 제목
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: '인보이스 만들기'
+    organization: '조직 수정하기'
+    reset: '조직 비우기'
+  made:
+    title: '인보이스 생성됨'
+    body: '게이트가 열렸습니다 — 필요한 모든 필드가 채워졌습니다.'
+
+bn:
+  page_title: 'গেটেড অ্যাকশন'
+  help: 'একটি ইনভয়েস তৈরি করতে সংগঠনের শিরোনাম, SIRET এবং IBAN প্রয়োজন। যখন একটি অনুপস্থিত থাকে, তখন এটি সংগঠন ফর্মে প্রেরণ করে, সেসব ক্ষেত্র দেখানো হয়; একটি বার সংরক্ষিত হলে, ফর্ম এখানে ফিরে আসে এবং অ্যাকশন আবার পরীক্ষা করে।'
+  field:
+    title: শিরোনাম
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'একটি ইনভয়েস তৈরি করুন'
+    organization: 'সংগঠন সম্পাদনা করুন'
+    reset: 'সংগঠন খালি করুন'
+  made:
+    title: 'ইনভয়েস তৈরি হয়েছে'
+    body: 'দরজা খোলা ছিল — প্রয়োজনীয় প্রতিটি ক্ষেত্র পূর্ণ করা হয়েছে।'
+
+th:
+  page_title: การดำเนินการที่มีการควบคุม
+  help: 'การสร้างใบแจ้งหนี้ต้องใช้ชื่อองค์กร, SIRET และ IBAN หากมีบางอย่างขาดหายไป, การดำเนินการจะถูกส่งไปยังแบบฟอร์มขององค์กร, โดยที่ฟิลด์เหล่านั้นจะถูกชี้ไปที่; เมื่อบันทึกแล้ว, แบบฟอร์มจะส่งกลับมาที่นี่และการดำเนินการจะตรวจสอบอีกครั้ง.'
+  field:
+    title: ชื่อเรื่อง
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: สร้างใบแจ้งหนี้
+    organization: แก้ไของค์กร
+    reset: ล้างข้อมูลองค์กร
+  made:
+    title: สร้างใบแจ้งหนี้แล้ว
+    body: 'ประตูเปิดอยู่ — ทุกฟิลด์ที่ต้องการถูกกรอกข้อมูลแล้ว.'
+
+de:
+  page_title: 'Gesperrte Aktion'
+  help: 'Für die Erstellung einer Rechnung sind der Titel der Organisation, SIRET und IBAN erforderlich. Solange einer fehlt, wird die Aktion zum Organisationsformular gesendet, wobei diese Felder hervorgehoben sind; nach dem Speichern wird das Formular hierher zurückgesendet und die Aktion überprüft erneut.'
+  field:
+    title: Titel
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Rechnung erstellen'
+    organization: 'Organisation bearbeiten'
+    reset: 'Organisation zurücksetzen'
+  made:
+    title: 'Rechnung erstellt'
+    body: 'Das Tor war offen — jedes benötigte Feld ist ausgefüllt.'
+
+fi:
+  page_title: 'Rajoitettu toiminto'
+  help: 'Laskun tekemiseen tarvitaan organisaation nimi, SIRET ja IBAN. Kun jokin näistä puuttuu, toiminto ohjaa organisaation lomakkeeseen, josta puuttuvat kentät; tallennuksen jälkeen lomake palaa tänne ja toiminto tarkistaa uudelleen.'
+  field:
+    title: Nimi
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Luo lasku'
+    organization: 'Muokkaa organisaatiota'
+    reset: 'Tyhjennä organisaatio'
+  made:
+    title: 'Lasku luotu'
+    body: 'Portti oli auki — kaikki tarvittavat kentät on täytetty.'
+
+ru:
+  page_title: 'Ограниченное действие'
+  help: 'Для создания счета-фактуры необходимо указать название организации, SIRET и IBAN. Если одно из значений отсутствует, действие отправляет форму организации с отмеченными полями; после сохранения форма возвращается сюда, и действие проверяет снова.'
+  field:
+    title: Название
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Создать счет-фактуру'
+    organization: 'Редактировать организацию'
+    reset: 'Очистить организацию'
+  made:
+    title: 'Счет-фактура создан'
+    body: 'Ворота были открыты — все необходимые поля заполнены.'
+
+pl:
+  page_title: 'Działanie z bramką'
+  help: 'Aby wystawić fakturę, potrzebny jest tytuł organizacji, SIRET i IBAN. Gdy brakuje jednego z nich, działanie kieruje do formularza organizacji, wskazując te pola; po zapisaniu formularz wraca tutaj, a działanie sprawdza ponownie.'
+  field:
+    title: Tytuł
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Wystaw fakturę'
+    organization: 'Edytuj organizację'
+    reset: 'Wyczyść organizację'
+  made:
+    title: 'Faktura wystawiona'
+    body: 'Bramka została otwarta — wszystkie potrzebne pola zostały wypełnione.'
+
+es:
+  page_title: 'Acción restringida'
+  help: 'Para crear una factura se necesita el título de la organización, SIRET e IBAN. Mientras falte alguno, la acción enviará al formulario de la organización, señalando esos campos; una vez guardado, el formulario regresará aquí y la acción volverá a verificar.'
+  field:
+    title: Título
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Crear una factura'
+    organization: 'Editar la organización'
+    reset: 'Vaciar la organización'
+  made:
+    title: 'Factura creada'
+    body: 'La puerta estaba abierta: todos los campos necesarios están completados.'
+
+it:
+  page_title: 'Azione riservata'
+  help: "Per creare una fattura è necessario il titolo dell'organizzazione, il SIRET e l'IBAN. Quando uno di questi è mancante, l'azione rimanda al modulo dell'organizzazione, evidenziando i campi richiesti; una volta salvato, il modulo torna qui e l'azione controlla di nuovo."
+  field:
+    title: Titolo
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Crea una fattura'
+    organization: "Modifica l'organizzazione"
+    reset: "Svuota l'organizzazione"
+  made:
+    title: 'Fattura creata'
+    body: 'Il cancello è stato aperto — tutti i campi necessari sono stati compilati.'
+
+pt_BR:
+  page_title: 'Ação bloqueada'
+  help: 'Para criar uma fatura, é necessário o título da organização, SIRET e IBAN. Enquanto um deles estiver faltando, a ação redireciona para o formulário da organização, com esses campos destacados; uma vez salvo, o formulário retorna aqui e a ação verifica novamente.'
+  field:
+    title: Título
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Criar uma fatura'
+    organization: 'Editar a organização'
+    reset: 'Limpar a organização'
+  made:
+    title: 'Fatura criada'
+    body: 'O portão estava aberto — todos os campos necessários estão preenchidos.'
+
+tr:
+  page_title: 'Kapalı işlem'
+  help: 'Fatura oluşturmak için organizasyonun unvanı, SIRET ve IBAN gerekli. Birisi eksik olduğunda, işlem organizasyon formuna gönderilir, o alanlar işaretlenir; kaydedildikten sonra, form buraya geri döner ve işlem tekrar kontrol edilir.'
+  field:
+    title: Unvan
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Fatura oluştur'
+    organization: 'Organizasyonu düzenle'
+    reset: 'Organizasyonu boşalt'
+  made:
+    title: 'Fatura oluşturuldu'
+    body: 'Kapı açıldı — ihtiyaç duyduğu her alan dolduruldu.'
+
+vi:
+  page_title: 'Hành động có điều kiện'
+  help: 'Để tạo hóa đơn, cần có tiêu đề của tổ chức, SIRET và IBAN. Khi một trong những thông tin đó còn thiếu, hành động sẽ gửi tới biểu mẫu tổ chức, các trường cần thiết được chỉ định; khi đã lưu, biểu mẫu sẽ trả lại đây và hành động sẽ kiểm tra lại.'
+  field:
+    title: 'Tiêu đề'
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Tạo hóa đơn'
+    organization: 'Chỉnh sửa tổ chức'
+    reset: 'Xóa tổ chức'
+  made:
+    title: 'Hóa đơn đã được tạo'
+    body: 'Cổng đã mở — mọi trường cần thiết đã được điền đầy đủ.'
+
+id:
+  page_title: 'Aksi terbatas'
+  help: 'Membuat faktur memerlukan judul organisasi, SIRET, dan IBAN. Saat salah satu tidak ada, tindakan akan mengirim ke formulir organisasi, dengan bidang yang ditunjuk; setelah disimpan, formulir akan mengirim kembali ke sini dan tindakan akan memeriksa lagi.'
+  field:
+    title: Judul
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Buat faktur'
+    organization: 'Edit organisasi'
+    reset: 'Kosongkan organisasi'
+  made:
+    title: 'Faktur dibuat'
+    body: 'Gerbang telah dibuka — setiap bidang yang dibutuhkan telah diisi.'
+
+nl:
+  page_title: 'Gated actie'
+  help: 'Een factuur maken heeft de titel van de organisatie, SIRET en IBAN nodig. Terwijl één ontbreekt, wordt de actie naar het organisatieformulier gestuurd, die velden zijn gemarkeerd; zodra opgeslagen, wordt het formulier hierheen teruggestuurd en controleert de actie opnieuw.'
+  field:
+    title: Titel
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'Maak een factuur'
+    organization: 'Bewerk de organisatie'
+    reset: 'Maak de organisatie leeg'
+  made:
+    title: 'Factuur gemaakt'
+    body: 'De poort was open — elk veld dat nodig is is ingevuld.'

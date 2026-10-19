@@ -75,6 +75,12 @@ bn:
     media:
       title: মিডিয়া
       description: 'ছবি এবং এমবেড যা একটি আকারে ধারণ করা হয়: আংশিক অনুপাতে, ওভারলে এবং সেই প্লেসহোল্ডার যা কিছু লোড না হওয়া পর্যন্ত দাঁড়িয়ে থাকে।'
+    avatars:
+      title: অ্যাভাটার
+      description: 'যাদের ছবি নেই তাদের জন্য একটি মুখ, সিড থেকে প্লাগযোগ্য ইঞ্জিন দ্বারা আঁকা: আদ্যাক্ষর, ২০২০ সালের ৱেক্সি।'
+    effects:
+      title: এফেক্টস
+      description: 'একটি পৃষ্ঠায় শব্দের উপর প্রভাব যা জোরে কথা বলে: একটি ফ্লেট-পেন হাইলাইট, একটি শব্দ স্লট মেশিনের মতো ঘূর্ণায়মান।'
     dates:
       title: তারিখ
       description: 'একটি শব্দভাণ্ডার যা Twig এবং ব্রাউজার উভয়ই একভাবে বোঝে, এবং তারিখ যা খোলা অবস্থায় সত্য থাকে।'
@@ -100,6 +106,12 @@ de:
     media:
       title: Medien
       description: 'Bilder und eingebettete Inhalte in eine Form gebracht: Seitenverhältnisse, Überlagerungen und der Platzhalter, der steht, während nichts geladen wird.'
+    avatars:
+      title: Avatare
+      description: 'Ein Gesicht für alle, die kein Bild haben, aus einem Seed von anpassbaren Engines erstellt: Initialen, die Wexies von 2020.'
+    effects:
+      title: Effekte
+      description: 'Effekte auf Wörter für eine Seite, die laut spricht: ein Filzstift-Highlight, ein Wort, das wie ein Spielautomat rollt.'
     dates:
       title: Datumsangaben
       description: 'Ein Vokabular von Formaten, die sowohl von Twig als auch vom Browser identisch verstanden werden, und Daten, die sich selbst treu bleiben, solange die Seite geöffnet bleibt.'
@@ -125,6 +137,12 @@ es:
     media:
       title: Medios
       description: 'Imágenes y elementos embebidos mantenidos en una forma: proporciones, superposiciones y el marcador que aparece mientras nada se ha cargado.'
+    avatars:
+      title: Avatares
+      description: 'Una cara para quien no tiene foto, generada a partir de una semilla por motores intercambiables: iniciales, los wexies de 2020.'
+    effects:
+      title: Efectos
+      description: 'Efectos en palabras para una página que habla fuerte: un resaltado con marcador, una palabra rodando como en una máquina tragamonedas.'
     dates:
       title: Fechas
       description: 'Un vocabulario de formatos entendidos de manera idéntica por Twig y por el navegador, y fechas que se mantienen verdaderas mientras la página permanece abierta.'
@@ -150,6 +168,12 @@ fa:
     media:
       title: رسانه
       description: 'تصاویر و محتوای گنجانده شده که به شکل خاصی نگه‌داشته شده‌اند: نسبت‌های ابعاد، پوشش‌ها و جایگزینی که در حین بارگذاری نشدن چیزی وجود دارد.'
+    avatars:
+      title: آواتارها
+      description: 'چهره‌ای برای کسانی که تصویری ندارند، طراحی‌شده از یک دانه توسط موتورهای قابل اتصال: حروف اول، وکس‌های ۲۰۲۰.'
+    effects:
+      title: افکت‌ها
+      description: 'افکت‌ها روی کلمات برای صفحه‌ای که با صدای بلند صحبت می‌کند: هایلایت با ماژیک، کلمه‌ای که مانند یک دستگاه اسلات می‌چرخد.'
     dates:
       title: تاریخ‌ها
       description: 'یک واژگان از فرمت‌ها که به طور یکسان توسط Twig و مرورگر درک می‌شود و تاریخ‌هایی که خود را درست نگه می‌دارند در حالی که صفحه باز است.'
@@ -175,6 +199,12 @@ fi:
     media:
       title: Media
       description: 'Kuvia ja upotuksia muotoon sidottuna: kuvasuhteet, päällekkäisyydet ja paikkamerkki, joka näkyy, kun mitään ei ole ladattu.'
+    avatars:
+      title: Avatarit
+      description: 'Kasvo sille, jolla ei ole kuvaa, piirretty siemenestä liitettävien moottoreiden avulla: alkukirjaimet, vuoden 2020 wexyt.'
+    effects:
+      title: Tehosteet
+      description: 'Tehosteet sanoille sivulla, joka puhuu kovaan ääneen: tussilla korostus, sana, joka pyörii kuin kolikkopeli.'
     dates:
       title: Päivät
       description: 'Yksi sanasto muotoja, joita Twig ja selain ymmärtävät identtisesti, sekä päivämäärät, jotka pysyvät todenmukaisina, kun sivu on auki.'
@@ -231,6 +261,12 @@ he:
     media:
       title: מדיה
       description: 'תמונות ואימונים המוחזקים בצורה: יחס תמונה, שכבות, ותמונה הממתינה בזמן שהכל לא טען.'
+    avatars:
+      title: אווטרים
+      description: 'פנים עבור מי שאין לו תמונה, שנוצרו מתבנית על ידי מנועים ניתנים להתקנה: ראשי תיבות, הווקסיז של 2020.'
+    effects:
+      title: אפקטים
+      description: 'אפקטים על מילים לעמוד שמדבר בקול רם: הדגשה בעט מרקר, מילה מתגלגלת כמו מכונת מזל.'
     dates:
       title: תאריכים
       description: 'אוצר מילים של פורמטים המובנים באופן זהה על ידי Twig ועל ידי הדפדפן, ותאריכים ששומרים על עצמם נכונים ככל שהדף נשאר פתוח.'
@@ -256,6 +292,12 @@ hi:
     media:
       title: मीडिया
       description: 'आकृतियों में रखे गए चित्र और एम्बेड: पहलू अनुपात, ओवरले, और वह प्लेसहोल्डर जो तब खड़ा होता है जब कुछ लोड नहीं हुआ है।'
+    avatars:
+      title: अवतार
+      description: 'जिसके पास कोई चित्र नहीं है, उसके लिए एक चेहरा, बीज से प्लग करने योग्य इंजनों द्वारा बनाया गया: अक्षर, 2020 के वेक्सी।'
+    effects:
+      title: प्रभाव
+      description: 'एक पृष्ठ पर शब्दों पर प्रभाव जो जोर से बोलता है: एक फेल्ट-पेन हाइलाइट, एक शब्द जो स्लॉट मशीन की तरह घूमता है।'
     dates:
       title: तारीखें
       description: 'फॉर्मेट्स की एक शब्दावली जिसे Twig और ब्राउज़र दोनों द्वारा समान रूप से समझा जाता है, और तारीखें जो खुद को सच्चा रखती हैं जब पृष्ठ खुला रहता है।'
@@ -281,6 +323,12 @@ id:
     media:
       title: Media
       description: 'Gambar dan penyematan yang dibentuk: rasio aspek, overlay, dan tempat sementara yang muncul saat belum ada yang dimuat.'
+    avatars:
+      title: Avatar
+      description: 'Sebuah wajah untuk siapa pun yang tidak memiliki gambar, digambar dari sebuah benih oleh mesin yang dapat dipasang: inisial, wexies tahun 2020.'
+    effects:
+      title: Efek
+      description: 'Efek pada kata-kata untuk halaman yang berbicara keras: sorotan spidol, sebuah kata berputar seperti mesin slot.'
     dates:
       title: Tanggal
       description: 'Satu kosakata format yang dipahami sama oleh Twig dan oleh browser, serta tanggal yang tetap akurat saat halaman dibuka.'
@@ -306,6 +354,12 @@ it:
     media:
       title: Media
       description: 'Immagini e contenuti incorporati mantenuti a una forma: rapporti di aspetto, sovrapposizioni e il segnaposto che appare mentre nulla è stato caricato.'
+    avatars:
+      title: Avatar
+      description: "Un volto per chi non ha un'immagine, disegnato da un seme da motori pluggabili: iniziali, i wexies del 2020."
+    effects:
+      title: Effetti
+      description: 'Effetti sulle parole per una pagina che parla forte: un evidenziatore, una parola che rotola come una macchina da gioco.'
     dates:
       title: Date
       description: 'Un vocabolario di formati compresi allo stesso modo da Twig e dal browser, e date che si mantengono vere mentre la pagina rimane aperta.'
@@ -331,6 +385,12 @@ ja:
     media:
       title: メディア
       description: 形に保たれた画像と埋め込み：アスペクト比、オーバーレイ、何も読み込まれていないときに表示されるプレースホルダー。
+    avatars:
+      title: アバター
+      description: 写真がない人のための顔。プラグイン可能なエンジンによって生成されたイニシャルや2020年のウェクシーから描かれます。
+    effects:
+      title: エフェクト
+      description: 大きな声で話すページのための言葉にかけるエフェクト：フェルトペンのハイライトや、スロットマシンのように回る言葉。
     dates:
       title: 日付
       description: Twigとブラウザの両方で同じように理解されるフォーマットの語彙、そしてページが開かれたままのときに自らを正確に保つ日付。
@@ -356,6 +416,12 @@ ko:
     media:
       title: 미디어
       description: '형태를 유지하는 이미지와 삽입물: 종횡비, 오버레이, 아무것도 로드되지 않을 때 대체하는 자리 표시자.'
+    avatars:
+      title: 아바타
+      description: '사진이 없는 사람을 위한 얼굴, 플러그 가능한 엔진을 통해 시드에서 그려짐: 이니셜, 2020년의 웩시.'
+    effects:
+      title: 효과
+      description: '크게 말하는 페이지의 단어에 적용되는 효과: 형광펜 하이라이트, 슬롯 머신처럼 굴러가는 단어.'
     dates:
       title: 날짜
       description: 'Twig와 브라우저가 동일하게 이해하는 포맷의 어휘와, 페이지가 열려 있는 동안 진실하게 유지되는 날짜.'
@@ -381,6 +447,12 @@ nl:
     media:
       title: Media
       description: 'Afbeeldingen en embeds in een bepaalde vorm: beeldverhoudingen, overlays en de tijdelijke aanduiding die verschijnt terwijl er nog niets is geladen.'
+    avatars:
+      title: Afbeeldingen
+      description: 'Een gezicht voor wie geen foto heeft, getekend uit een zaadje door inplugbare engines: initialen, de wexies van 2020.'
+    effects:
+      title: Effecten
+      description: 'Effecten op woorden voor een pagina die luid spreekt: een markeerstift accent, een woord dat als een gokkast draait.'
     dates:
       title: Data
       description: 'Één vocabulaire van formaten die identiek worden begrepen door Twig en door de browser, en data die zichzelf trouw blijven terwijl de pagina open blijft.'
@@ -406,6 +478,12 @@ pl:
     media:
       title: Media
       description: 'Obrazy i osadzenia utrzymane w kształcie: proporcje, nakładki i placeholder, który stoi, gdy nic nie zostało załadowane.'
+    avatars:
+      title: Awatary
+      description: 'Twarz dla tych, którzy nie mają zdjęcia, stworzona z nasion przez modułowe silniki: inicjały, wexies z 2020 roku.'
+    effects:
+      title: Efekty
+      description: 'Efekty na słowach dla strony, która głośno mówi: podkreślenie pisakiem, słowo toczące się jak w automacie do gier.'
     dates:
       title: Daty
       description: 'Jedno słownictwo formatów rozumiane identycznie przez Twig i przeglądarkę oraz daty, które pozostają prawdziwe, gdy strona jest otwarta.'
@@ -431,6 +509,12 @@ pt_BR:
     media:
       title: Mídia
       description: 'Imagens e inserções mantidas em uma forma: proporções, sobreposições e o espaço reservado que aparece enquanto nada foi carregado.'
+    avatars:
+      title: Avatares
+      description: 'Uma imagem para quem não tem foto, desenhada a partir de uma semente por motores plugáveis: iniciais, os wexies de 2020.'
+    effects:
+      title: Efeitos
+      description: 'Efeitos nas palavras para uma página que fala alto: um destaque com caneta hidrográfica, uma palavra girando como uma máquina caça-níqueis.'
     dates:
       title: Datas
       description: 'Um vocabulário de formatos compreendidos da mesma forma pelo Twig e pelo navegador, e datas que se mantêm verdadeiras enquanto a página fica aberta.'
@@ -456,6 +540,12 @@ ru:
     media:
       title: Медиа
       description: 'Изображения и внедрения, оформленные в определенной форме: соотношения сторон, наложения и заполнитель, который появляется, пока ничего не загружено.'
+    avatars:
+      title: Аватары
+      description: 'Лицо для тех, у кого нет картинки, созданное из семени с помощью подключаемых движков: инициалы, вексели 2020 года.'
+    effects:
+      title: Эффекты
+      description: 'Эффекты на слова для страницы, которая звучит громко: выделение фломастером, слово, катающееся как игровой автомат.'
     dates:
       title: Даты
       description: 'Одна лексика форматов, одинаково понимаемая Twig и браузером, и даты, которые остаются верными, пока страница открыта.'
@@ -481,6 +571,12 @@ th:
     media:
       title: สื่อ
       description: 'รูปภาพและการฝังที่ถูกจัดให้อยู่ในรูปแบบ: อัตราส่วนภาพ, การทับซ้อน, และที่ว่างที่ยืนอยู่ในขณะที่ยังไม่มีการโหลด.'
+    avatars:
+      title: อวตาร
+      description: 'ใบหน้าสำหรับผู้ที่ไม่มีรูปภาพ วาดจากเมล็ดโดยเอนจินที่ต่อพ่วงได้: ตัวอักษรย่อ, wexies ของปี 2020.'
+    effects:
+      title: เอฟเฟกต์
+      description: 'เอฟเฟกต์บนคำสำหรับหน้าที่พูดดัง: ไฮไลต์ด้วยปากกาเคมี, คำที่หมุนเหมือนสล็อตแมชชีน.'
     dates:
       title: วันที่
       description: 'คำศัพท์หนึ่งชุดของรูปแบบที่เข้าใจในลักษณะเดียวกันโดย Twig และเบราว์เซอร์ และวันที่ที่ยังคงความถูกต้องเมื่อหน้าเปิดอยู่.'
@@ -506,6 +602,12 @@ tr:
     media:
       title: Medya
       description: 'Bir şekle sahip olan görüntüler ve gömülü içerikler: en boy oranları, üst üste bindirmeler ve hiçbir şey yüklenmediğinde yer tutucu olarak duran.'
+    avatars:
+      title: Avatarlar
+      description: "Resmi olmayanlar için bir yüz, eklenebilir motorlardan bir tohumdan çizilir: baş harfler, 2020'nin wexies'i."
+    effects:
+      title: Efektler
+      description: 'Sözleri sesli konuşan bir sayfa için efektler: bir keçe kalem vurgusu, bir slot makinesi gibi dönen bir kelime.'
     dates:
       title: Tarihler
       description: 'Twig ve tarayıcı tarafından aynı şekilde anlaşılan bir formatlar sözlüğü ve sayfa açık kaldıkça kendini doğru tutan tarihler.'
@@ -531,6 +633,12 @@ ur:
     media:
       title: میڈیا
       description: 'تصاویر اور ایمبیڈز کو ایک شکل میں رکھا گیا: پہلو کے تناسب، اوورلے، اور وہ جگہ دار جو اس وقت کھڑی ہوتی ہے جب کچھ لوڈ نہ ہو۔'
+    avatars:
+      title: اوٹار
+      description: 'جن کے پاس کوئی تصویر نہیں ہے ان کے لئے ایک چہرہ، ایک بیج سے بنایا گیا جو کہ پلگ ان ایجنز کے ذریعے ہے: ابتدائی حروف، 2020 کے ویکسیاں۔'
+    effects:
+      title: اثر
+      description: 'ایک صفحے پر الفاظ پر اثرات جو بلند آواز میں بولتا ہے: ایک محسوس کرنے والے قلم کا ہائی لائٹ، ایک لفظ جو سلاٹ مشین کی طرح گھومتا ہے۔'
     dates:
       title: تاریخیں
       description: 'ایک ایسا الفاظ کا ذخیرہ جو ٹوئگ اور براؤزر دونوں کے ذریعہ ایک جیسا سمجھا جاتا ہے، اور تاریخیں جو خود کو سچ رکھتی ہیں جب صفحہ کھلا رہتا ہے۔'
@@ -556,6 +664,12 @@ vi:
     media:
       title: 'Phương tiện'
       description: 'Hình ảnh và nhúng được giữ theo hình dạng: tỷ lệ khung hình, lớp phủ, và dấu chấm đứng trong khi chưa có gì được tải.'
+    avatars:
+      title: 'Ảnh đại diện'
+      description: 'Một khuôn mặt cho những người không có hình, được tạo ra từ một hạt giống bởi các động cơ có thể cắm vào: chữ cái đầu, những wexies của năm 2020.'
+    effects:
+      title: 'Hiệu ứng'
+      description: 'Hiệu ứng trên từ cho một trang nói lên điều mạnh mẽ: một điểm nổi bật bằng bút dạ, một từ lăn như máy đánh bạc.'
     dates:
       title: 'Ngày tháng'
       description: 'Một từ vựng các định dạng được hiểu giống nhau bởi Twig và trình duyệt, và những ngày tháng giữ đúng khi trang còn mở.'

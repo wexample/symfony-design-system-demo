@@ -85,3 +85,383 @@ ar:
     lasting: 'مصممة لتدوم'
     network: 'Wexample، شبكة المستقلين الذين هم'
     words: 'شاملة، داعمة، كريمة، منظمة، مهيكلة، ذات خبرة'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: प्रभाव
+  page_icon: 'ph:bold/sparkle'
+  intro: 'शब्दों पर प्रभाव, एक पृष्ठ के लिए जो जोर से बोलता है — एक लैंडिंग, एक हीरो। ये symfony-design-system-effects से आते हैं, और जो कम गति की मांग करता है उसके लिए स्थिर रहते हैं।'
+  section:
+    hero:
+      title: 'एक हीरो'
+      description: 'शब्द जिन पर एक फेल्ट पेन चलता है, एक के बाद एक खींचे जाते हैं जब वे दृश्य में आते हैं; एक शब्द जो स्लॉट मशीन की तरह चलता है और फिर अगले पर स्थिर होता है। जोर से पढ़ें, घूमता हुआ शब्द एक बार उसकी सूची है।'
+    tones:
+      title: स्वर
+      description: 'पेन श्रेणीबद्ध रंग पैलेट के रंग लेता है।'
+  hero:
+    before: 'नेटवर्क जो आपको वेब समाधान लाता है'
+    tailored: अनुकूलित
+    and: और
+    lasting: 'स्थायी बनाने के लिए'
+    network: 'Wexample, फ्रीलांसरों का नेटवर्क जो हैं'
+    words: 'समावेशी, सहायक, उदार, संरचित, संगठित, अनुभवी'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: אפקטים
+  page_icon: 'ph:bold/sparkle'
+  intro: 'אפקטים על מילים, עבור דף שמדבר בקול רם — דף נחיתה, גיבור. הם מגיעים מ-symfony-design-system-effects, ונשארים עדיין עבור מי שביקש פחות תנועה.'
+  section:
+    hero:
+      title: גיבור
+      description: 'מילים שעברו עם טוש, נצבעות אחת אחרי השנייה ברגע שהן מופיעות; מילה שמתהפכת כמו מכונת מזל לפני שהיא מתייצבת על הבאה בתור. קרא בקול, המילה המתהפכת היא הרשימה שלה, פעם אחת.'
+    tones:
+      title: גוונים
+      description: 'העט לוקח את הצבעים מהפלטת קטגוריות.'
+  hero:
+    before: 'הרשת שמביאה לך פתרונות אינטרנט'
+    tailored: 'מותאם אישית'
+    and: וגם
+    lasting: 'בנויה להחזיק מעמד'
+    network: 'Wexample, הרשת של פרילנסרים שהם'
+    words: 'כוללניים, תומכים, נדיבים, מסודרים, מאורגנים, מנוסים'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'افکت ها'
+  page_icon: 'ph:bold/sparkle'
+  intro: 'افکت ها روی کلمات، برای صفحه‌ای که صدایش بلند است — یک لندینگ، یک قهرمان. آن‌ها از symfony-design-system-effects می‌آیند و برای هر کسی که خواهان حرکات کمتر است، ساکن باقی می‌مانند.'
+  section:
+    hero:
+      title: 'یک قهرمان'
+      description: 'کلماتی که یک خودکار احساس‌انگیز بر روی آن‌ها می‌کشد، یکی پس از دیگری زمانی که به نمایش در می‌آیند؛ کلمه‌ای که مانند یک دستگاه اسلات می‌چرخد قبل از اینکه روی بعدی ثابت شود. با صدای بلند خوانده می‌شود، کلمه چرخان لیست آن است، یک بار.'
+    tones:
+      title: تن‌ها
+      description: 'خودکار رنگ‌های پالت دسته‌بندی را به خود می‌گیرد.'
+  hero:
+    before: 'شبکه‌ای که راه‌حل‌های وب را به شما ارائه می‌دهد'
+    tailored: سفارشی
+    and: و
+    lasting: 'ساخته شده برای ماندگاری'
+    network: 'Wexample، شبکه‌ای از فریلنسرها که هستند'
+    words: 'شامل، حمایتی، سخاوتمند، ساختاریافته، سازمان‌یافته، با تجربه'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: اثرات
+  page_icon: 'ph:bold/sparkle'
+  intro: 'الفاظ پر اثرات، ایک صفحے کے لیے جو بلند آواز میں بولتا ہے — ایک لینڈنگ، ایک ہیرو۔ یہ symfony-design-system-effects سے آتے ہیں، اور وہ ان لوگوں کے لیے خاموش رہتے ہیں جنہوں نے کم حرکت کی درخواست کی۔'
+  section:
+    hero:
+      title: 'ایک ہیرو'
+      description: 'الفاظ جن پر ایک محسوس کرنے والا قلم گزرتا ہے، ایک کے بعد ایک جب وہ نظر آتے ہیں؛ ایک لفظ جو سلاٹ مشین کی طرح گھومتا ہے اس سے پہلے کہ وہ اگلے پر بٹھ جائے۔ بلند آواز میں پڑھیں، گھومتا ہوا لفظ اس کی فہرست ہے، ایک بار۔'
+    tones:
+      title: آوازیں
+      description: 'قلم زمرہ جاتی پیلیٹ کے رنگ لیتا ہے۔'
+  hero:
+    before: 'نیٹ ورک جو آپ کو ویب حل فراہم کرتا ہے'
+    tailored: 'حسب ضرورت'
+    and: اور
+    lasting: پائیدار
+    network: 'Wexample، فری لانسرز کا نیٹ ورک جو ہیں'
+    words: 'شامل، حمایت کرنے والے، فراخدل، منظم، ترتیب دیا ہوا، تجربہ کار'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: エフェクト
+  page_icon: 'ph:bold/sparkle'
+  intro: '言葉にエフェクトを与え、響き渡るページを作る — ランディング、ヒーロー。これはsymfony-design-system-effectsから来ており、動きが少ないことを求めた人のために静止しています。'
+  section:
+    hero:
+      title: ヒーロー
+      description: ペンのように感じられる言葉が、視界に入ると同時に一つずつ描かれます。スロットマシンのように転がり、次に落ち着く言葉。声に出して読むと、その転がる言葉は一度だけのリストです。
+    tones:
+      title: トーン
+      description: ペンはカテゴリーのパレットの色を取ります。
+  hero:
+    before: あなたにウェブソリューションを提供するネットワーク
+    tailored: 特注の
+    and: と
+    lasting: 長持ちするように作られた
+    network: Wexample、フリーランサーのネットワークで、
+    words: 包括的、サポーティブ、寛大、構造化された、整理された、経験豊富な
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 효과
+  page_icon: 'ph:bold/sparkle'
+  intro: '강력한 메시지를 전달하는 페이지를 위한 단어의 효과 — 랜딩, 히어로. symfony-design-system-effects에서 제공되며, 움직임을 줄이려는 이들을 위해 안정적입니다.'
+  section:
+    hero:
+      title: 히어로
+      description: '한 번에 하나씩 나타나는 단어들, 느끼는 펜으로 그려지며, 슬롯 머신처럼 굴러 다음 단어로 고정됩니다. 소리 내어 읽으면, 굴러가는 단어는 그 목록입니다, 한 번.'
+    tones:
+      title: 톤
+      description: '펜은 범주형 팔레트의 색상을 가져옵니다.'
+  hero:
+    before: '웹 솔루션을 제공하는 네트워크'
+    tailored: 맞춤형
+    and: 및
+    lasting: '오래 지속되는'
+    network: 'Wexample, 프리랜서 네트워크로'
+    words: '포용적, 지지하는, 관대한, 구조화된, 조직된, 경력 있는'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: প্রভাব
+  page_icon: 'ph:bold/sparkle'
+  intro: 'শব্দের উপর প্রভাব, একটি পৃষ্ঠা যা জোরে কথা বলে — একটি ল্যান্ডিং, একটি হিরো। এগুলি symfony-design-system-effects থেকে এসেছে, এবং যাদের কম গতির জন্য অনুরোধ করা হয়েছে তাদের জন্য স্থির থাকে।'
+  section:
+    hero:
+      title: 'একটি হিরো'
+      description: 'শব্দগুলি একটি অনুভূত কলম দ্বারা অঙ্কিত হয়, একের পর এক যখন সেগুলি দৃশ্যমান হয়; একটি শব্দ যা একটি স্লট মেশিনের মতো ঘূর্ণায়মান হয় পরবর্তীটির উপর স্থির হওয়ার আগে। জোরে পড়লে, ঘূর্ণায়মান শব্দটি একবারের জন্য এর তালিকা।'
+    tones:
+      title: সুর
+      description: 'কলমটি ক্যাটাগোরিকাল প্যালেটের রং গ্রহণ করে।'
+  hero:
+    before: 'নেটওয়ার্ক যা আপনাকে ওয়েব সমাধান নিয়ে আসে'
+    tailored: সাজানো
+    and: এবং
+    lasting: মেয়াদী
+    network: 'Wexample, ফ্রিল্যান্সারদের নেটওয়ার্ক যারা'
+    words: 'সমাবেশমূলক,সমর্থনশীল,উদার,গঠিত,সংগঠিত,অভিজ্ঞ'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ผลกระทบ
+  page_icon: 'ph:bold/sparkle'
+  intro: 'ผลกระทบต่อคำ สำหรับหน้าเว็บที่มีเสียงดัง — หน้าแรก, ฮีโร่ พวกมันมาจาก symfony-design-system-effects และหยุดนิ่งสำหรับผู้ที่ขอให้เคลื่อนไหวให้น้อยลง.'
+  section:
+    hero:
+      title: ฮีโร่
+      description: 'คำที่ปากกาเฟลท์วาดผ่าน, วาดทีละคำเมื่อมันปรากฏ; คำที่หมุนเหมือนเครื่องสล็อตก่อนที่จะหยุดที่คำถัดไป เมื่ออ่านออกเสียง คำที่หมุนคือรายการของมัน, หนึ่งครั้ง.'
+    tones:
+      title: โทนเสียง
+      description: ปากกาเลือกสีจากพาเลตต์ประเภทต่างๆ.
+  hero:
+    before: เครือข่ายที่นำเสนอทางออกสำหรับเว็บ
+    tailored: ปรับแต่ง
+    and: และ
+    lasting: สร้างมาเพื่อคงอยู่
+    network: 'Wexample, เครือข่ายของฟรีแลนซ์ที่เป็น'
+    words: 'รวม, สนับสนุน, ใจกว้าง, มีโครงสร้าง, มีการจัดระเบียบ, มีประสบการณ์'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Effekte
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Effekte auf Wörter, für eine Seite, die laut spricht — eine Landingpage, ein Hero. Sie stammen aus symfony-design-system-effects und bleiben still für alle, die weniger Bewegung wollten.'
+  section:
+    hero:
+      title: 'Ein Hero'
+      description: 'Wörter, über die ein Filzstift fährt, nacheinander gezogen, sobald sie in Sicht kommen; ein Wort, das wie ein Spielautomatenrollenspiel rollt, bevor es auf das nächste einrastet. Laut gelesen ist das rollende Wort einmal seine Liste.'
+    tones:
+      title: Töne
+      description: 'Der Stift nimmt die Farben der kategorialen Palette an.'
+  hero:
+    before: 'Das Netzwerk, das Ihnen Weblösungen bietet'
+    tailored: maßgeschneidert
+    and: und
+    lasting: 'für die Ewigkeit gemacht'
+    network: 'Wexample, das Netzwerk von Freelancern, die'
+    words: 'inklusive, unterstützend, großzügig, strukturiert, organisiert, erfahren'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Vaikutukset
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Vaikutukset sanoihin, sivulle joka puhuu voimakkaasti — laskeutumissivu, sankari. Ne tulevat symfony-design-system-effects:istä, ja pysyvät paikoillaan niille, jotka pyysivät vähemmän liikettä.'
+  section:
+    hero:
+      title: Sankari
+      description: 'Sanoja, joita tussi kulkee yli, piirretty yksi kerrallaan kun ne tulevat näkyviin; sana, joka pyörii kuin kolikkopeli ennen kuin pysähtyy seuraavaan. Luettua ääneen, pyörivä sana on sen lista, kerran.'
+    tones:
+      title: Sävyt
+      description: 'Tussi ottaa kategorisen paletin värit.'
+  hero:
+    before: 'Verkko, joka tuo sinulle verkkoratkaisuja'
+    tailored: räätälöity
+    and: ja
+    lasting: 'rakennettu kestämään'
+    network: 'Wexample, verkko freelancereille, jotka ovat'
+    words: 'syrjimättömiä,tukevia,anteliaita,rakenteellisia,järjestäytyneitä,kokeneita'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Эффекты
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Эффекты на слова, для страницы, которая говорит громко — лендинг, герой. Они берутся из symfony-design-system-effects и остаются неподвижными для тех, кто просил меньше движения.'
+  section:
+    hero:
+      title: Герой
+      description: 'Слова, которые обводит фломастер, рисуются одно за другим, как только они появляются в поле зрения; слово, которое вращается, как игровой автомат, прежде чем остановиться на следующем. Произнесенное вслух, вращающееся слово — это его список, один раз.'
+    tones:
+      title: Тоны
+      description: 'Ручка принимает цвета категориальной палитры.'
+  hero:
+    before: 'Сеть, которая предлагает вам веб-решения'
+    tailored: индивидуальный
+    and: и
+    lasting: 'созданный, чтобы служить долго'
+    network: 'Wexample, сеть фрилансеров, которые являются'
+    words: 'включающими, поддерживающими, щедрыми, структурированными, организованными, опытными'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Efekty
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Efekty na słowach, dla strony, która głośno mówi — landing, bohater. Pochodzą z symfony-design-system-effects i pozostają w spokoju dla tych, którzy prosili o mniej ruchu.'
+  section:
+    hero:
+      title: Bohater
+      description: 'Słowa, które przechodzi przez niepisak, rysowane jedno po drugim, gdy tylko się pojawią; słowo, które toczy się jak automat do gier, zanim zatrzyma się na następnym. Czytane na głos, toczące się słowo to jego lista, raz.'
+    tones:
+      title: Tonalności
+      description: 'Pióro przyjmuje kolory palety kategorycznej.'
+  hero:
+    before: 'Sieć, która dostarcza rozwiązania internetowe'
+    tailored: dopasowane
+    and: i
+    lasting: 'stworzony, aby przetrwać'
+    network: 'Wexample, sieć freelancerów, którzy są'
+    words: 'inkluzji, wspierający, hojny, zorganizowany, uporządkowany, doświadczony'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Efectos
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Efectos en palabras, para una página que habla fuerte — un landing, un héroe. Provienen de symfony-design-system-effects, y permanecen quietos para quien pidió menos movimiento.'
+  section:
+    hero:
+      title: 'Un héroe'
+      description: 'Palabras que un rotulador traza, dibujadas una tras otra a medida que aparecen; una palabra que gira como una máquina tragamonedas antes de estabilizarse en la siguiente. Al leer en voz alta, la palabra giratoria es su lista, una vez.'
+    tones:
+      title: Tonos
+      description: 'El rotulador toma los colores de la paleta categórica.'
+  hero:
+    before: 'La red que te trae soluciones web'
+    tailored: personalizado
+    and: 'y'
+    lasting: 'diseñado para durar'
+    network: 'Wexample, la red de freelancers que son'
+    words: 'inclusivos,supportivos,generosos,estructurados,organizados,experimentados'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Effetti
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Effetti sulle parole, per una pagina che parla forte — una landing, un eroe. Provengono da symfony-design-system-effects e rimangono fermi per chi ha chiesto meno movimento.'
+  section:
+    hero:
+      title: 'Un eroe'
+      description: "Parole su cui passa un evidenziatore, disegnate una dopo l'altra appena entrano in vista; una parola che rotola come una slot machine prima di fermarsi sulla successiva. Leggendola ad alta voce, la parola rotolante è la sua lista, una volta."
+    tones:
+      title: Toni
+      description: 'La penna prende i colori della palette categoriale.'
+  hero:
+    before: 'La rete che ti offre soluzioni web'
+    tailored: 'su misura'
+    and: e
+    lasting: 'costruita per durare'
+    network: 'Wexample, la rete di liberi professionisti che sono'
+    words: 'inclusivi,supportivi,generosi,strutturati,organizzati,esperti'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Efeitos
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Efeitos nas palavras, para uma página que fala alto — uma landing, um herói. Eles vêm do symfony-design-system-effects e permanecem imóveis para quem pediu menos movimento.'
+  section:
+    hero:
+      title: 'Um herói'
+      description: 'Palavras que uma caneta marcadora passa por cima, desenhadas uma após a outra assim que aparecem; uma palavra que gira como uma máquina caça-níqueis antes de se estabilizar na próxima. Lida em voz alta, a palavra girando é sua lista, uma vez.'
+    tones:
+      title: Tons
+      description: 'A caneta adota as cores da paleta categórica.'
+  hero:
+    before: 'A rede que traz soluções web'
+    tailored: 'sob medida'
+    and: e
+    lasting: 'feito para durar'
+    network: 'Wexample, a rede de freelancers que são'
+    words: 'inclusivos, solidários, generosos, estruturados, organizados, experientes'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Etkiler
+  page_icon: 'ph:bold/sparkle'
+  intro: "Yüksek sesle konuşan bir sayfa için kelimelerde etkiler — bir açılış, bir kahraman. Bunlar symfony-design-system-effects'ten gelir ve daha az hareket isteyenler için durur."
+  section:
+    hero:
+      title: 'Bir kahraman'
+      description: 'Görünmeye başladıkça ardışık olarak çizilen, üzerine his kalemi geçilen kelimeler; bir kelime, bir sonraki kelimeye yerleşmeden önce bir slot makinesi gibi döner. Sesli okunduğunda, dönen kelime bir kezlik listesidir.'
+    tones:
+      title: Tonalite
+      description: 'Kalem, kategorik paletin renklerini alır.'
+  hero:
+    before: 'Sana web çözümleri sunan ağ'
+    tailored: 'özel olarak hazırlanmış'
+    and: ve
+    lasting: 'dayanıklı olarak inşa edilmiştir'
+    network: 'Wexample, serbest çalışanların ağıdır'
+    words: 'kapsayıcı, destekleyici, cömert, yapılandırılmış, organize, deneyimli'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Hiệu ứng'
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Hiệu ứng trên từ ngữ, cho một trang nói lớn — một trang đích, một hình mẫu. Chúng đến từ symfony-design-system-effects, và vẫn đứng yên cho những ai yêu cầu ít chuyển động hơn.'
+  section:
+    hero:
+      title: 'Một hình mẫu'
+      description: 'Những từ được bút lông vẽ qua, được vẽ ra lần lượt khi chúng xuất hiện; một từ lăn như máy đánh bạc trước khi dừng lại ở từ tiếp theo. Đọc to, từ lăn là danh sách của nó, một lần.'
+    tones:
+      title: 'Tông màu'
+      description: 'Cây bút lấy màu sắc từ bảng màu phân loại.'
+  hero:
+    before: 'Mạng lưới mang đến cho bạn các giải pháp web'
+    tailored: 'được điều chỉnh'
+    and: và
+    lasting: 'được xây dựng để bền lâu'
+    network: 'Wexample, mạng lưới của những freelancer là'
+    words: 'bao gồm, hỗ trợ, hào phóng, có cấu trúc, tổ chức, dày dạn kinh nghiệm'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Efek
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Efek pada kata-kata, untuk halaman yang berbicara keras — sebuah landing, seorang pahlawan. Mereka berasal dari symfony-design-system-effects, dan tetap diam bagi siapa pun yang meminta gerakan yang lebih sedikit.'
+  section:
+    hero:
+      title: 'Seorang pahlawan'
+      description: 'Kata-kata yang dilalui oleh spidol, ditulis satu per satu saat mereka muncul; sebuah kata yang berputar seperti mesin slot sebelum berhenti pada yang berikutnya. Dibaca keras, kata yang berputar adalah daftar itu, sekali.'
+    tones:
+      title: Nada
+      description: 'Spidol mengambil warna dari palet kategoris.'
+  hero:
+    before: 'Jaringan yang memberikan solusi web'
+    tailored: disesuaikan
+    and: dan
+    lasting: 'dibangun untuk tahan lama'
+    network: 'Wexample, jaringan freelancer yang'
+    words: 'inklusif, mendukung, dermawan, terstruktur, terorganisir, berpengalaman'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Effecten
+  page_icon: 'ph:bold/sparkle'
+  intro: 'Effecten op woorden, voor een pagina die luid spreekt — een landing, een held. Ze komen uit symfony-design-system-effects, en blijven stil voor wie minder beweging vroeg.'
+  section:
+    hero:
+      title: 'Een held'
+      description: 'Woorden die een viltstift overgaat, één voor één getekend zodra ze in beeld komen; een woord dat draait als een gokkast voordat het op de volgende landt. Hardop gelezen, is het draaiende woord zijn lijst, eenmaal.'
+    tones:
+      title: Tonen
+      description: 'De pen neemt de kleuren van het categorische palet.'
+  hero:
+    before: 'Het netwerk dat je weboplossingen biedt'
+    tailored: 'op maat gemaakt'
+    and: en
+    lasting: 'gebouwd om lang mee te gaan'
+    network: 'Wexample, het netwerk van freelancers die'
+    words: 'inclusief, ondersteunend, genereus, gestructureerd, georganiseerd, ervaren'

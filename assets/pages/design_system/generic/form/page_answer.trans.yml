@@ -29,3 +29,155 @@ ar:
   issued:
     title: 'الرمز المصدَر'
     body: 'يظهر هذا مرة واحدة - لا يوجد حمولة، إعادة توجيه أو جلسة تحملها.'
+
+hi:
+  page_title: 'पृष्ठ द्वारा उत्तरित'
+  back: 'फार्म पर वापस'
+  help: 'एक कोड जारी करता है जो एक बार दिखाया जाता है, पृष्ठ द्वारा जो सबमिशन का उत्तर देता है। यह एक मोडाल में खोला जाता है, उत्तर मोडाल में ही रहता है; अपने खुद के पृष्ठ पर, यह वही पृष्ठ है।'
+  issued:
+    title: 'जारी किया गया कोड'
+    body: 'यह एक बार दिखाया गया — कोई पेलोड, रीडायरेक्ट या सत्र इसे नहीं ले जाता।'
+
+he:
+  page_title: 'נענה על ידי עמוד'
+  back: 'חזרה לטפסים'
+  help: 'מנפיק קוד המוצג פעם אחת, על ידי העמוד המגיב על ההגשה. נפתח במודל, התשובה נשארת במודל; בעמוד עצמאי, זהו העמוד ההוא.'
+  issued:
+    title: 'קוד הופק'
+    body: 'מוצג פעם אחת — אין מטען, הפניה או מושב שנשמר.'
+
+fa:
+  page_title: 'پاسخ داده شده توسط صفحه'
+  back: 'بازگشت به فرم‌ها'
+  help: 'کدی که یک بار نمایش داده می‌شود، توسط صفحه‌ای که به ارسال پاسخ می‌دهد. در یک مدال باز می‌شود و پاسخ در همان مدال باقی می‌ماند؛ در صفحه‌ای جداگانه، همان صفحه است.'
+  issued:
+    title: 'کد صادر شده'
+    body: 'این یک بار نمایش داده می‌شود — هیچ بار محموله‌ای، هدایت یا جلسه‌ای منتقل نشده است.'
+
+ur:
+  page_title: 'صفحے کی طرف سے جواب دیا گیا'
+  back: 'فارمز پر واپس'
+  help: 'یہ ایک کوڈ جاری کرتا ہے جو ایک بار دکھایا جاتا ہے، اس صفحے کی طرف سے جو جمع کروانے کا جواب دے رہا ہے۔ یہ ایک موڈل میں کھلتا ہے، جواب موڈل میں رہتا ہے؛ اگر اپنی صفحے میں ہے، تو یہ وہ صفحہ ہے۔'
+  issued:
+    title: 'جاری کردہ کوڈ'
+    body: 'یہ ایک بار دکھایا گیا — کوئی پیلوڈ، ری ڈائریکٹ یا سیشن اسے نہیں لے گیا۔'
+
+ja:
+  page_title: ページによって回答されました
+  back: フォームに戻る
+  help: '提出に対してページが回答した際に表示される一度だけのコードを発行します。モーダルで開かれた場合、回答はそのモーダル内に留まります; 単独のページであれば、そのページが表示されます。'
+  issued:
+    title: 発行されたコード
+    body: 'これが一度だけ表示されます — ペイロード、リダイレクト、またはセッションは持ち越されません。'
+
+ko:
+  page_title: '페이지에서 답변함'
+  back: '양식으로 돌아가기'
+  help: '제출에 대한 답변을 하는 페이지에서 한 번만 표시되는 코드를 발급합니다. 모달에서 열리며, 답변은 모달에 남아 있습니다; 별도의 페이지에서는 그 페이지입니다.'
+  issued:
+    title: '발급된 코드'
+    body: '한 번만 표시됨 — 페이로드, 리디렉션 또는 세션이 없습니다.'
+
+bn:
+  page_title: 'একটি পৃষ্ঠার দ্বারা উত্তর দেওয়া হয়েছে'
+  back: 'ফর্মে ফিরে যান'
+  help: 'একটি কোড প্রকাশ করে যা একবার প্রদর্শিত হয়, জমা দেওয়ার উত্তর দেওয়া পৃষ্ঠার দ্বারা। এটি একটি মোডালে খোলা হয়, উত্তরটি মোডালে থাকে; একক পৃষ্ঠায়, এটি সেই পৃষ্ঠা।'
+  issued:
+    title: 'কোড প্রকাশিত'
+    body: 'এটি একবার দেখানো হয়েছে — কোন পে লোড, পুনঃনির্দেশ বা সেশন এটি বহন করে না।'
+
+th:
+  page_title: ตอบโดยหน้า
+  back: กลับไปที่แบบฟอร์ม
+  help: 'ออกโค้ดที่แสดงเพียงครั้งเดียว โดยหน้าที่ตอบการส่งข้อมูล เปิดในโมดัล คำตอบจะอยู่ในโมดัล; ในหน้าของมันเอง นั่นคือหน้านั้น'
+  issued:
+    title: โค้ดที่ออก
+    body: 'แสดงเพียงครั้งเดียว — ไม่มีข้อมูลหรือการเปลี่ยนเส้นทางหรือเซสชันที่เกี่ยวข้อง.'
+
+de:
+  page_title: 'Von einer Seite beantwortet'
+  back: 'Zurück zu den Formularen'
+  help: 'Gibt einen einmal angezeigten Code aus, von der Seite, die die Einreichung beantwortet. In einem Modal geöffnet, bleibt die Antwort im Modal; auf einer eigenen Seite ist es diese Seite.'
+  issued:
+    title: 'Code ausgegeben'
+    body: 'Wurde einmal angezeigt — kein Payload, keine Umleitung oder Sitzung wurde übertragen.'
+
+fi:
+  page_title: 'Vastattu sivulta'
+  back: 'Takaisin lomakkeisiin'
+  help: 'Antaa koodin, joka näytetään kerran, sivun toimesta, joka vastaa lähetykseen. Avoinna modaalissa, vastaus pysyy modalissa; omalla sivullaan se on se sivu.'
+  issued:
+    title: 'Annettu koodi'
+    body: 'Näytetään tämä kerran — ei sisältöä, uudelleenohjausta tai istuntoa siirretty.'
+
+ru:
+  page_title: 'Ответил на страницу'
+  back: 'Назад к формам'
+  help: 'Выдает код, который показывается один раз, на странице, отвечающей на отправку. Открывается в модальном окне, ответ остается в модальном окне; на своей странице это именно эта страница.'
+  issued:
+    title: 'Код выдан'
+    body: 'Показан один раз — никаких данных, перенаправления или сессии не было.'
+
+pl:
+  page_title: 'Odpowiedziana przez stronę'
+  back: 'Powrót do formularzy'
+  help: 'Wydaje kod wyświetlany raz, przez stronę odpowiadającą na zgłoszenie. Otwarta w modalnym oknie, odpowiedź pozostaje w modalnym; na własnej stronie to ta strona.'
+  issued:
+    title: 'Wydany kod'
+    body: 'Wyświetlono to raz — bez ładunku, przekierowania ani sesji.'
+
+es:
+  page_title: 'Respondido por una página'
+  back: 'Volver a los formularios'
+  help: 'Emite un código mostrado una vez, por la página que responde a la presentación. Abierto en un modal, la respuesta permanece en el modal; en su propia página, es esa página.'
+  issued:
+    title: 'Código emitido'
+    body: 'Mostrado esto una vez — sin carga, redirección o sesión que lo lleve.'
+
+it:
+  page_title: 'Risposta fornita da una pagina'
+  back: 'Torna ai moduli'
+  help: 'Rilascia un codice mostrato una sola volta, dalla pagina che risponde alla sottomissione. Aperto in un modale, la risposta rimane nel modale; su una propria pagina, è quella pagina.'
+  issued:
+    title: 'Codice emesso'
+    body: 'Mostrato una sola volta — nessun payload, reindirizzamento o sessione lo ha trasportato.'
+
+pt_BR:
+  page_title: 'Respondido por uma página'
+  back: 'Voltar para os formulários'
+  help: 'Emite um código mostrado uma vez, pela página que responde à submissão. Aberto em um modal, a resposta fica no modal; na sua própria página, é essa página.'
+  issued:
+    title: 'Código emitido'
+    body: 'Mostrado uma vez — sem carga, redirecionamento ou sessão carregada.'
+
+tr:
+  page_title: 'Bir sayfa tarafından yanıtlandı'
+  back: 'Formlara geri'
+  help: 'Gönderimi yanıtlayan sayfa tarafından bir kez gösterilen bir kod verir. Modal içinde açılır, yanıt modalda kalır; kendi sayfasında ise o sayfadır.'
+  issued:
+    title: 'Verilen kod'
+    body: 'Bu bir kez gösterildi - hiçbir yük, yönlendirme veya oturum taşımadı.'
+
+vi:
+  page_title: 'Được trả lời bởi một trang'
+  back: 'Quay lại các biểu mẫu'
+  help: 'Phát hành một mã chỉ hiển thị một lần, bởi trang trả lời đơn gửi. Mở trong một modal, câu trả lời sẽ ở trong modal; trên trang riêng, đó là trang đó.'
+  issued:
+    title: 'Mã đã phát hành'
+    body: 'Chỉ hiển thị lần này — không có payload, chuyển hướng hay phiên nào được giữ lại.'
+
+id:
+  page_title: 'Dijawab oleh sebuah halaman'
+  back: 'Kembali ke formulir'
+  help: 'Mengeluarkan kode yang ditampilkan sekali, oleh halaman yang menjawab pengiriman. Dibuka dalam modal, jawaban tetap di modal; di halaman sendiri, itu adalah halaman tersebut.'
+  issued:
+    title: 'Kode yang dikeluarkan'
+    body: 'Ditampilkan ini sekali — tidak ada beban, pengalihan atau sesi yang membawanya.'
+
+nl:
+  page_title: 'Beantwoord door een pagina'
+  back: 'Terug naar formulieren'
+  help: 'Geeft een code die eenmaal wordt weergegeven, door de pagina die de inzending beantwoordt. Geopend in een modal, blijft het antwoord in de modal; op zijn eigen pagina is het die pagina.'
+  issued:
+    title: 'Code uitgegeven'
+    body: 'Eenmaal weergegeven — geen payload, omleiding of sessie heeft het meegedragen.'

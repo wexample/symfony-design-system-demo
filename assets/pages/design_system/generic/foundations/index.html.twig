@@ -2,7 +2,9 @@
 {%- import '@WexampleSymfonyDesignSystemDemoBundle/partials/overview.html.twig' as overview -%}
 
 {%- block page_body -%}
-    <p class="lead">{{ '@page::intro' | trans }}</p>
+    {#- The first page of the design system: what one is, before its first section. -#}
+    <p class="lead">{{ '@page::lead' | trans }}</p>
+    <p>{{ '@page::intro' | trans }}</p>
 
     {{ overview.pages(render_pass, [
         { route: 'wexample_design_system_generic_foundations_colors', icon: 'ph:bold/palette', title: '@page::page.colors.title' | trans, description: '@page::page.colors.description' | trans },

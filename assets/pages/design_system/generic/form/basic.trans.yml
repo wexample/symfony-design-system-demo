@@ -95,6 +95,11 @@ bn:
   section:
     default:
       title: 'বেসিক ফর্ম'
+    columns:
+      title: 'কলাম এবং অঞ্চল'
+      description: '`form--columns` একটি সেকশনে তার ক্ষেত্রগুলিকে পাশাপাশি সাজায়: যতগুলি কলাম স্থান ধারণ করতে পারে, সর্বাধিক তিনটি (`form--columns-2` দুইটির জন্য), ফোনে একটি। `form--span` একটি ক্ষেত্রকে সম্পূর্ণ লাইন দেয়। `form--zones` ফর্মে যখন স্থান অনুমতি দেয় তখন এর সেকশনগুলিকে পাশাপাশি সেট করে, কেবল স্থান দ্বারা বিভক্ত; `form--zones--framed` প্রত্যেকটির জন্য একটি ভিত্তি এবং প্রান্ত দেয়, একটি ফর্মের জন্য যা পৃষ্ঠায় দাঁড়িয়ে থাকে কার্ডের মধ্যে নয়।'
+      identity: অবস্থান
+      settings: সেটিংস
     block:
       title: 'ব্লক ফর্ম'
     assisted:
@@ -133,6 +138,11 @@ de:
   section:
     default:
       title: Basisformular
+    columns:
+      title: 'Spalten und Zonen'
+      description: '`form--columns` in einem Abschnitt legt seine Felder nebeneinander: so viele Spalten, wie der Platz zulässt, maximal drei (`form--columns-2` für zwei), eine auf einem Telefon. `form--span` auf einem Feld gibt ihm die gesamte Zeile. `form--zones` im Formular setzt seine Abschnitte nebeneinander, wenn der Platz es erlaubt, nur durch Raum getrennt; `form--zones--framed` gibt jedem einen Hintergrund und eine Kante, für ein Formular, das auf der Seite steht, anstatt in einer Karte.'
+      identity: Identität
+      settings: Einstellungen
     block:
       title: Blockformulare
     assisted:
@@ -171,6 +181,11 @@ es:
   section:
     default:
       title: 'Formulario básico'
+    columns:
+      title: 'Columnas y zonas'
+      description: '`form--columns` en una sección coloca sus campos uno al lado del otro: tantas columnas como el espacio permita, tres como máximo (`form--columns-2` para dos), una en un teléfono. `form--span` en un campo le da toda la línea. `form--zones` en el formulario coloca sus secciones una al lado de la otra cuando el espacio lo permite, separadas solo por espacio; `form--zones--framed` le da a cada una un fondo y un borde, para un formulario que se sostiene en la página en lugar de en una tarjeta.'
+      identity: Identidad
+      settings: Configuraciones
     block:
       title: 'Formularios en bloque'
     assisted:
@@ -209,6 +224,11 @@ fa:
   section:
     default:
       title: 'فرم پایه'
+    columns:
+      title: 'ستون‌ها و نواحی'
+      description: '`form--columns` در یک بخش فیلدها را در کنار هم قرار می‌دهد: به تعداد ستونی که فضای موجود اجازه می‌دهد، حداکثر سه ستون (`form--columns-2` برای دو ستون)، و یک ستون در گوشی. `form--span` روی یک فیلد تمام خط را به آن می‌دهد. `form--zones` در فرم نواحی آن را در کنار هم قرار می‌دهد زمانی که فضای موجود اجازه می‌دهد، با فاصله‌ای فقط بین آن‌ها؛ `form--zones--framed` به هر کدام یک پایه و لبه می‌دهد، برای فرمی که روی صفحه قرار دارد نه در یک کارت.'
+      identity: شناسایی
+      settings: تنظیمات
     block:
       title: 'فرم‌های بلوکی'
     assisted:
@@ -247,6 +267,11 @@ fi:
   section:
     default:
       title: Peruslomake
+    columns:
+      title: 'Sarakkeet ja alueet'
+      description: '`form--columns` osassa asettaa kentät vierekkäin: niin monta saraketta kuin tila sallii, enintään kolme (`form--columns-2` kahdelle), yksi puhelimessa. `form--span` kentällä antaa sille koko rivin. `form--zones` lomakkeessa asettaa osat vierekkäin, kun tila sallii, vain tilan erottamana; `form--zones--framed` antaa jokaiselle pohjan ja reunan, lomakkeelle joka seisoo sivulla eikä kortissa.'
+      identity: Identiteetti
+      settings: Asetukset
     block:
       title: Blokkilomakkeet
     assisted:
@@ -328,6 +353,11 @@ he:
   section:
     default:
       title: 'טופס בסיסי'
+    columns:
+      title: 'עמודות ואזורי תוכן'
+      description: '`form--columns` בסקשן מסדר את השדות זה לצד זה: כמה שיותר עמודות שהמרחב מאפשר, שלוש לכל היותר (`form--columns-2` עבור שתיים), אחת בטלפון. `form--span` בשדה נותן לו את השורה כולה. `form--zones` על הטופס מסדר את הסקשנים זה לצד זה כאשר המרחב מאפשר, מופרדים על ידי רווח בלבד; `form--zones--framed` נותן לכל אחד קרקע ופינה, עבור טופס עומד על הדף ולא בכרטיס.'
+      identity: זהות
+      settings: הגדרות
     block:
       title: 'טפסים חסומים'
     assisted:
@@ -366,6 +396,11 @@ hi:
   section:
     default:
       title: 'बुनियादी फॉर्म'
+    columns:
+      title: 'कॉलम और क्षेत्र'
+      description: '`form--columns` एक सेक्शन पर अपने फ़ील्ड को बगल में रखता है: जितने कॉलम कमरे में हो सकें, अधिकतम तीन (`form--columns-2` दो के लिए), एक फ़ोन पर। `form--span` एक फ़ील्ड पर पूरे लाइन को देता है। `form--zones` फ़ॉर्म पर इसके सेक्शन को बगल में सेट करता है जब कमरे की अनुमति होती है, केवल स्थान द्वारा विभाजित; `form--zones--framed` प्रत्येक को एक आधार और एक किनारा देता है, एक फ़ॉर्म के लिए जो पृष्ठ पर खड़ा होता है न कि एक कार्ड में।'
+      identity: पहचान
+      settings: सेटिंग्स
     block:
       title: 'ब्लॉक फॉर्म'
     assisted:
@@ -404,6 +439,11 @@ id:
   section:
     default:
       title: 'Formulir Dasar'
+    columns:
+      title: 'Kolom dan zona'
+      description: '`form--columns` pada sebuah section menempatkan field-nya berdampingan: sebanyak kolom yang muat di ruang, maksimal tiga (`form--columns-2` untuk dua), satu pada ponsel. `form--span` pada sebuah field memberikan seluruh baris. `form--zones` pada form mengatur section-nya berdampingan ketika ruang memungkinkan, dipisahkan hanya dengan ruang; `form--zones--framed` memberikan masing-masing dasar dan tepi, untuk form yang berdiri di halaman daripada dalam kartu.'
+      identity: Identitas
+      settings: Pengaturan
     block:
       title: 'Formulir Blok'
     assisted:
@@ -442,6 +482,11 @@ it:
   section:
     default:
       title: 'Modulo base'
+    columns:
+      title: 'Colonne e aree'
+      description: "`form--columns` in una sezione posiziona i suoi campi affiancati: tante colonne quante ne ospita lo spazio, al massimo tre (`form--columns-2` per due), una su un telefono. `form--span` su un campo gli assegna l'intera linea. `form--zones` sul modulo dispone le sue sezioni affiancate quando lo spazio lo consente, separate solo da uno spazio; `form--zones--framed` dà a ciascuna una base e un bordo, per un modulo che si presenta sulla pagina piuttosto che in una scheda."
+      identity: Identità
+      settings: Impostazioni
     block:
       title: 'Moduli a blocchi'
     assisted:
@@ -480,6 +525,11 @@ ja:
   section:
     default:
       title: 基本フォーム
+    columns:
+      title: カラムとゾーン
+      description: '`form--columns` はセクション内でフィールドを横に並べます: 部屋が収容できるだけのカラム、最大三つ（2つのための `form--columns-2`）、電話では1つ。フィールドに `form--span` を使うと、全体のラインを占めます。フォームの `form--zones` は、部屋が許す範囲でセクションを横に並べ、スペースだけで区切ります； `form--zones--framed` はそれぞれに地面とエッジを与え、カードではなくページ上に立つフォームのためのものです。'
+      identity: アイデンティティ
+      settings: 設定
     block:
       title: ブロックフォーム
     assisted:
@@ -518,6 +568,11 @@ ko:
   section:
     default:
       title: '기본 양식'
+    columns:
+      title: '열과 구역'
+      description: '`form--columns`는 섹션에서 필드를 나란히 배치합니다: 공간에 맞게 최대 세 개의 열(`form--columns-2`는 두 개)으로, 전화기에서는 하나의 열로 표시됩니다. `form--span`은 필드에 전체 줄을 할당합니다. `form--zones`는 공간이 허용할 때 양쪽에 섹션을 나란히 배치하며, 단순히 여백으로 구분합니다; `form--zones--framed`는 각 섹션에 바닥과 가장자리를 추가하여 카드가 아닌 페이지 위에 서 있는 형태의 양식을 만듭니다.'
+      identity: 정체성
+      settings: 설정
     block:
       title: '블록 양식'
     assisted:
@@ -556,6 +611,11 @@ nl:
   section:
     default:
       title: Basisformulier
+    columns:
+      title: 'Kolommen en zones'
+      description: '`form--columns` in een sectie plaatst zijn velden naast elkaar: zoveel kolommen als de ruimte toelaat, maximaal drie (`form--columns-2` voor twee), één op een telefoon. `form--span` op een veld geeft het de hele lijn. `form--zones` op het formulier plaatst zijn secties naast elkaar wanneer de ruimte het toelaat, gescheiden door alleen ruimte; `form--zones--framed` geeft elke sectie een ondergrond en een rand, voor een formulier dat op de pagina staat in plaats van in een kaart.'
+      identity: Identiteit
+      settings: Instellingen
     block:
       title: Blokformulieren
     assisted:
@@ -594,6 +654,11 @@ pl:
   section:
     default:
       title: 'Podstawowy formularz'
+    columns:
+      title: 'Kolumny i strefy'
+      description: '`form--columns` w sekcji układa pola obok siebie: tyle kolumn, ile pomieszczenie pomieści, maksymalnie trzy (`form--columns-2` dla dwóch), jedna na telefonie. `form--span` na polu zajmuje całą linię. `form--zones` w formularzu ustawia sekcje obok siebie, gdy pomieszczenie na to pozwala, dzielone tylko przestrzenią; `form--zones--framed` nadaje każdej z nich tło i krawędź, dla formularza stojącego na stronie, a nie w karcie.'
+      identity: Tożsamość
+      settings: Ustawienia
     block:
       title: 'Formularze blokowe'
     assisted:
@@ -632,6 +697,11 @@ pt_BR:
   section:
     default:
       title: 'Formulário básico'
+    columns:
+      title: 'Colunas e áreas'
+      description: '`form--columns` em uma seção coloca seus campos lado a lado: quantas colunas o espaço comportar, no máximo três (`form--columns-2` para duas), uma em um telefone. `form--span` em um campo ocupa toda a linha. `form--zones` no formulário coloca suas seções lado a lado quando o espaço permite, separadas apenas por espaço; `form--zones--framed` dá a cada uma um fundo e uma borda, para um formulário que está na página em vez de em um cartão.'
+      identity: Identidade
+      settings: Configurações
     block:
       title: 'Formulários em bloco'
     assisted:
@@ -670,6 +740,11 @@ ru:
   section:
     default:
       title: 'Основная форма'
+    columns:
+      title: 'Столбцы и зоны'
+      description: '`form--columns` в секции размещает поля рядом: столько столбцов, сколько помещается, максимум три (`form--columns-2` для двух), один на телефоне. `form--span` на поле занимает всю строку. `form--zones` на форме размещает секции рядом, когда позволяет место, разделенные только пробелом; `form--zones--framed` придает каждой секции фон и край, для формы, стоящей на странице, а не в карточке.'
+      identity: Идентификация
+      settings: Настройки
     block:
       title: 'Блоковые формы'
     assisted:
@@ -708,6 +783,11 @@ th:
   section:
     default:
       title: ฟอร์มพื้นฐาน
+    columns:
+      title: คอลัมน์และโซน
+      description: '`form--columns` ในส่วนวางฟิลด์ข้างกัน: จำนวนคอลัมน์ตามที่พื้นที่รองรับได้ สูงสุดสามคอลัมน์ (`form--columns-2` สำหรับสองคอลัมน์) และหนึ่งคอลัมน์ในโทรศัพท์. `form--span` บนฟิลด์จะทำให้มันใช้ทั้งบรรทัด. `form--zones` บนฟอร์มตั้งส่วนข้างกันเมื่อพื้นที่รองรับได้ โดยมีการแบ่งเฉพาะพื้นที่; `form--zones--framed` จะให้แต่ละส่วนมีพื้นและขอบ เพื่อให้ฟอร์มตั้งอยู่บนหน้าแทนที่จะอยู่ในการ์ด.'
+      identity: Identity
+      settings: Settings
     block:
       title: ฟอร์มบล็อค
     assisted:
@@ -746,6 +826,11 @@ tr:
   section:
     default:
       title: 'Temel form'
+    columns:
+      title: 'Sütunlar ve alanlar'
+      description: '`form--columns` bir bölümde alanları yan yana yerleştirir: odanın kapasitesine göre, en fazla üç sütun (`form--columns-2` iki için), telefonda bir. Bir alanda `form--span` kullanmak tüm satırı kaplamasını sağlar. Form üzerindeki `form--zones` alanları yan yana getirir, yalnızca aralarındaki boşlukla; `form--zones--framed` her birine bir zemin ve kenar verir, böylece form sayfada durur, bir kartta değil.'
+      identity: Kimlik
+      settings: Ayarlar
     block:
       title: 'Blok formlar'
     assisted:
@@ -784,6 +869,11 @@ ur:
   section:
     default:
       title: 'بنیادی فارم'
+    columns:
+      title: 'کالمز اور زونز'
+      description: '`form--columns` کے ساتھ ایک سیکشن اپنے فیلڈز کو ایک ساتھ رکھتا ہے: جتنے زیادہ کالم ہوں اتنی ہی جگہ ہو، زیادہ سے زیادہ تین (`form--columns-2` دو کے لیے)، ایک فون پر۔ `form--span` کسی فیلڈ پر پوری لائن دیتا ہے۔ `form--zones` فارم پر اس کے سیکشنز کو ایک ساتھ رکھتا ہے جب جگہ کی اجازت ہو، صرف جگہ سے الگ؛ `form--zones--framed` ہر ایک کو ایک بنیاد اور کنارے دیتا ہے، ایک فارم کے لیے جو صفحے پر کھڑا ہوتا ہے نہ کہ ایک کارڈ میں۔'
+      identity: شناخت
+      settings: ترتیبات
     block:
       title: 'بلک فارمز'
     assisted:
@@ -822,6 +912,11 @@ vi:
   section:
     default:
       title: 'Biểu mẫu cơ bản'
+    columns:
+      title: 'Cột và khu vực'
+      description: '`form--columns` trong một phần đặt các trường bên cạnh nhau: nhiều cột như chỗ trống có thể chứa, tối đa ba cột (`form--columns-2` cho hai cột), một cột trên điện thoại. `form--span` trên một trường sẽ chiếm toàn bộ dòng. `form--zones` trên biểu mẫu đặt các phần của nó bên cạnh nhau khi có đủ chỗ, chỉ được phân cách bằng khoảng trống; `form--zones--framed` cung cấp cho mỗi phần một nền và một cạnh, cho một biểu mẫu đứng trên trang thay vì trong một thẻ.'
+      identity: 'Danh tính'
+      settings: 'Cài đặt'
     block:
       title: 'Biểu mẫu khối'
     assisted:

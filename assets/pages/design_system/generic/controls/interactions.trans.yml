@@ -117,3 +117,535 @@ ar:
         - 'يقول قارئ الشاشة « تم النسخ » بعد النقر.'
   fallback:
     question: 'لا يمكن المسح؟ اكتب هذا المفتاح في التطبيق:'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: इंटरैक्शन
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'क्लिक, एक कुंजी या होवर का क्या कार्य है जो बटन दबाने से आगे बढ़ता है। प्रत्येक मामले में एक बेंच है: पहले पॉइंटर के साथ प्रयास करें, फिर केवल कीबोर्ड के साथ।'
+  section:
+    value:
+      title: 'एक मान की कॉपी करना'
+      description: 'copy_button({ value }): आइकन अकेले जहां बटन उस चीज़ के बगल में होता है जिसे वह कॉपी करता है, या उसके शब्द के साथ। कॉपी होने पर दो सेकंड के लिए एक चेक, जब क्लिपबोर्ड ने मना किया — कभी भी ऐसा दावा नहीं जो नहीं हुआ।'
+    target:
+      title: 'पृष्ठ पर जो दिखता है उसकी कॉपी करना'
+      description: 'copy_button({ target }): एक तत्व का पाठ, जो क्लिक के समय जैसा है वैसा पढ़ा जाता है।'
+    code:
+      title: 'कोड का एक ब्लॉक'
+      description: 'code-block with copy: true — बटन कोने में तब दिखता है जब ब्लॉक की ओर इशारा किया जाता है या Tab के साथ पहुंचा जाता है, और बिना पॉइंटर के स्क्रीन पर दिखता रहता है।'
+    fallback:
+      title: 'एक फॉलबैक्स में'
+      description: 'एक फॉलबैक्स का मान अपने कॉपी बटन के साथ आता है।'
+    check:
+      title: 'क्या जाँचना है'
+      items:
+        - 'Tab हर बटन तक पहुँचता है; Enter और Space कॉपी करते हैं।'
+        - 'साधारण http (एक विकास होस्ट) पर कॉपी अभी भी काम करता है, पुराने तरीके से।'
+        - 'कहीं और चिपकाने पर, पाठ बिल्कुल वही मान होता है: कोई स्पेस नहीं, कोई लाइन नहीं जोड़ी जाती।'
+        - 'एक स्क्रीन रीडर क्लिक के बाद « कॉपी किया गया » कहता है।'
+  fallback:
+    question: 'स्कैन नहीं कर सकते? ऐप में यह कुंजी टाइप करें:'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: אינטראקציות
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'מה קורה כשקליקים, מקשים או ריחופים קורים מעבר ללחיצה על כפתור. כל מקרה הוא ספסל: נסה עם העכבר, ואז רק עם המקלדת.'
+  section:
+    value:
+      title: 'העתקת ערך'
+      description: 'copy_button({ value }): האייקון בלבד שבו הכפתור יושב לצד מה שהוא מעתיק, או עם המילה שלו. סימן לבדיקה למשך שתי שניות ברגע שהועתק, צלב כאשר הלוח לא קיבל — אף פעם לא טענה שלא קרתה.'
+    target:
+      title: 'העתקת מה שהעמוד מציג'
+      description: 'copy_button({ target }): הטקסט של אלמנט, נקרא כפי שהוא ברגע הקלקה.'
+    code:
+      title: 'בלוק קוד'
+      description: 'code-block with copy: true — הכפתור מופיע בפינה בזמן שהבלוק מצביע עליו או כשמגיעים אליו באמצעות Tab, ונשאר מוצג על המסך ללא עכבר.'
+    fallback:
+      title: 'במצב גיבוי'
+      description: 'ערך הגיבוי מגיע עם כפתור ההעתקה שלו.'
+    check:
+      title: 'מה לבדוק'
+      items:
+        - 'Tab מגיע לכל כפתור; Enter ו-Space מעתיקים.'
+        - 'באמצעות http רגיל (שרת פיתוח) ההעתקה עדיין פועלת, בדרך הישנה.'
+        - 'בהדבקה במקום אחר, הטקסט הוא בדיוק הערך: ללא רווח, ללא שורה נוספת.'
+        - 'קורא מסך אומר «הועתק» לאחר הקלקה.'
+  fallback:
+    question: 'לא ניתן לסרוק? הקלד את המקש הזה באפליקציה:'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تعاملات
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'هر کلیک، کلید یا هاور چه کاری انجام می‌دهد فراتر از فشار دادن یک دکمه. هر مورد یک نیمکت است: ابتدا با نشانگر امتحان کنید، سپس فقط با کیبورد.'
+  section:
+    value:
+      title: 'کپی کردن یک مقدار'
+      description: 'copy_button({ value }): فقط آیکون در کنار دکمه‌ای که چیزی را کپی می‌کند، یا با کلمه‌اش. یک تیک به مدت دو ثانیه پس از کپی، یک ضربدر وقتی که کلیپ بورد امتناع کرد - هرگز ادعایی که انجام نشده است.'
+    target:
+      title: 'کپی کردن آنچه صفحه نمایش می‌دهد'
+      description: 'copy_button({ target }): متن یک عنصر، همانطور که در لحظه کلیک است خوانده می‌شود.'
+    code:
+      title: 'یک بلوک کد'
+      description: 'code-block with copy: true — دکمه در گوشه نمایش داده می‌شود در حالی که بلوک نشان داده می‌شود یا با Tab به آن می‌رسد، و بدون نشانگر در صفحه باقی می‌ماند.'
+    fallback:
+      title: 'در یک حالت پشتیبان'
+      description: 'مقدار یک حالت پشتیبان با دکمه کپی آن همراه است.'
+    check:
+      title: 'چه چیزی را بررسی کنیم'
+      items:
+        - 'Tab به هر دکمه‌ای می‌رسد؛ Enter و Space کپی می‌کنند.'
+        - 'بر روی http ساده (یک هاست توسعه) کپی همچنان کار می‌کند، به روش قدیمی.'
+        - 'در جای دیگر چسبانده شده، متن دقیقاً همان مقدار است: بدون فاصله، بدون خط اضافه.'
+        - 'یک خواننده صفحه می‌گوید «کپی شد» پس از کلیک.'
+  fallback:
+    question: 'نمی‌توانید اسکن کنید؟ این کلید را در برنامه تایپ کنید:'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تبادلے
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'کلک، کلید، یا ہوور کرنے کا اثر، صرف ایک بٹن دبانے سے آگے بڑھتا ہے۔ ہر صورت ایک بینچ ہے: پہلے پوائنٹر کے ساتھ کوشش کریں، پھر صرف کی بورڈ کے ساتھ۔'
+  section:
+    value:
+      title: 'ایک قیمت کی نقل کرنا'
+      description: 'copy_button({ value }): آئیکون اکیلا جہاں بٹن اس کے ساتھ ہے جس کی وہ نقل کرتا ہے، یا اس کے لفظ کے ساتھ۔ دو سیکنڈ کے لیے ایک چیک جب کاپی ہو جائے، جب کلپ بورڈ نے انکار کیا تو ایک کراس — کبھی بھی ایسا دعویٰ نہیں ہوا جو نہیں ہوا۔'
+    target:
+      title: 'صفحے پر جو دکھایا گیا ہے اس کی نقل کرنا'
+      description: 'copy_button({ target }): ایک عنصر کا متن، جیسے ہی کلک کے لمحے میں پڑھا جاتا ہے۔'
+    code:
+      title: 'کوڈ کا ایک بلاک'
+      description: 'code-block with copy: true — بٹن کونے میں دکھائی دیتا ہے جب بلاک کی طرف اشارہ کیا جائے یا Tab کے ساتھ پہنچا جائے، اور بغیر پوائنٹر کے اسکرین پر دکھائی دیتا رہے۔'
+    fallback:
+      title: 'ایک فالس بیک میں'
+      description: 'ایک فالس بیک کی قیمت اس کے کاپی بٹن کے ساتھ آتی ہے۔'
+    check:
+      title: 'کیا چیک کرنا ہے'
+      items:
+        - 'Tab ہر بٹن تک پہنچتا ہے؛ Enter اور Space کاپی کرتے ہیں۔'
+        - 'سادہ http پر (ایک ترقیاتی میزبان) کاپی اب بھی کام کرتی ہے، پرانی طریقے سے۔'
+        - 'کہیں اور پیسٹ کی گئی، متن بالکل وہی قیمت ہے: کوئی جگہ نہیں، کوئی لائن شامل نہیں۔'
+        - 'اسکرین ریڈر کلک کے بعد « کاپی کیا گیا » کہتا ہے۔'
+  fallback:
+    question: 'اسکین نہیں کر سکتے؟ ایپ میں یہ کلید ٹائپ کریں:'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 操作
+  page_icon: 'ph:bold/hand-pointing'
+  intro: ボタンを押すこと以上に、クリック、キー、またはホバーが何をするか。各ケースはベンチです：ポインターで試してから、キーボードだけで試してください。
+  section:
+    value:
+      title: 値をコピー
+      description: 'copy_button({ value }): ボタンの隣にコピーされるものがあるときのアイコンだけ、またはその言葉と共に。コピーされた後は2秒間のチェック、クリップボードが拒否した場合はバツ — 起こらなかった主張はありません。'
+    target:
+      title: ページに表示されるものをコピー
+      description: 'copy_button({ target }): クリックの瞬間にそのまま読まれる要素のテキスト。'
+    code:
+      title: コードのブロック
+      description: 'code-block with copy: true — ボタンはブロックが指されるかTabで到達したときにコーナーに表示され、ポインターなしの画面に表示され続けます。'
+    fallback:
+      title: フォールバックで
+      description: フォールバックの値は、そのコピーボタンと共に提供されます。
+    check:
+      title: 確認すること
+      items:
+        - Tabはすべてのボタンに到達します；EnterとSpaceはコピーします。
+        - プレーンなhttp（開発ホスト）上でもコピーはまだ機能します、古い方法で。
+        - 他の場所に貼り付けた場合、テキストは正確にその値です：スペースなし、行も追加されません。
+        - スクリーンリーダーはクリック後に「コピーしました」と言います。
+  fallback:
+    question: 'スキャンできませんか？アプリにこのキーを入力してください:'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 상호작용
+  page_icon: 'ph:bold/hand-pointing'
+  intro: '클릭, 키 또는 호버가 버튼을 누르는 것 외에 무엇을 하는지. 각 경우는 벤치입니다: 포인터로 시도한 다음 키보드만으로 시도해 보세요.'
+  section:
+    value:
+      title: '값 복사하기'
+      description: 'copy_button({ value }): 버튼이 복사하는 것 옆에 앉아 있을 때의 아이콘만, 또는 그 단어와 함께. 복사 후 두 초 동안 체크 표시, 클립보드가 거부했을 때는 엑스 — 발생하지 않은 주장은 없습니다.'
+    target:
+      title: '페이지에 표시된 내용 복사하기'
+      description: 'copy_button({ target }): 클릭 순간에 있는 요소의 텍스트를 읽습니다.'
+    code:
+      title: '코드 블록'
+      description: 'code-block with copy: true — 블록이 가리켜지거나 Tab으로 도달할 때 버튼이 모서리에 표시되고, 포인터 없이도 화면에 계속 표시됩니다.'
+    fallback:
+      title: 대체로
+      description: '대체의 값은 복사 버튼과 함께 제공됩니다.'
+    check:
+      title: '확인할 사항'
+      items:
+        - 'Tab이 모든 버튼에 도달합니다; Enter와 Space가 복사합니다.'
+        - '일반 http(개발 호스트)에서도 복사가 여전히 작동합니다, 예전 방식으로.'
+        - '다른 곳에 붙여넣으면, 텍스트는 정확히 그 값입니다: 공백 없음, 줄 추가 없음.'
+        - '스크린 리더가 클릭 후 « 복사됨 »이라고 말합니다.'
+  fallback:
+    question: '스캔할 수 없나요? 앱에 이 키를 입력하세요:'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ইন্টারঅ্যাকশনস
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'একটি ক্লিক, একটি কী বা একটি হোভার বোতাম চাপার বাইরে কি করে। প্রতিটি ক্ষেত্রে একটি বেঞ্চ: এটি পয়েন্টার দিয়ে চেষ্টা করুন, তারপর কীবোর্ড একা।'
+  section:
+    value:
+      title: 'একটি মান কপি করা'
+      description: 'copy_button({ value }): আইকন একা যেখানে বোতামটি বসে থাকে যা এটি কপি করে, অথবা এর শব্দ সহ। কপি করার পরে দুই সেকেন্ডের জন্য একটি চেক, ক্লিপবোর্ড প্রত্যাখ্যান করলে একটি ক্রস — কখনো এমন কিছু দাবি নয় যা হয়নি।'
+    target:
+      title: 'পৃষ্ঠায় যা দেখায় তা কপি করা'
+      description: 'copy_button({ target }): একটি উপাদানের পাঠ্য, ক্লিক করার মুহূর্তে এটি যেমন আছে তেমন পড়া।'
+    code:
+      title: 'কোডের একটি ব্লক'
+      description: 'code-block with copy: true — কোণায় বোতামটি দেখায় যখন ব্লকটি পয়েন্ট করা হয় বা ট্যাব দিয়ে পৌঁছানো হয়, এবং পয়েন্টার ছাড়া একটি পর্দায় প্রদর্শিত থাকে।'
+    fallback:
+      title: 'একটি ফলব্যাক-এ'
+      description: 'একটি ফলব্যাকের মান তার কপি বোতাম সহ আসে।'
+    check:
+      title: 'কি পরীক্ষা করতে হবে'
+      items:
+        - 'ট্যাব প্রতিটি বোতামে পৌঁছায়; এন্টার এবং স্পেস কপি করে।'
+        - 'সাধারণ http এর মাধ্যমে (একটি উন্নয়ন হোস্ট) কপি এখনও কাজ করে, পুরনো উপায়।'
+        - 'অন্য স্থানে পেস্ট করা হলে, পাঠ্যটি ঠিক সেই মান: কোন ফাঁকা, কোন লাইন যোগ করা হয়নি।'
+        - 'একটি স্ক্রীন রিডার ক্লিকের পরে « কপি হয়েছে » বলে।'
+  fallback:
+    question: 'স্ক্যান করতে পারছেন না? অ্যাপে এই কীটি টাইপ করুন:'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: การโต้ตอบ
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'การคลิก การกดปุ่ม หรือการเลื่อนเมาส์ทำอะไรได้มากกว่าการกดปุ่มแต่เพียงอย่างเดียว ในแต่ละกรณีเหมือนเป็นม้านั่ง: ลองใช้กับตัวชี้ก่อน แล้วจึงใช้แค่คีย์บอร์ดเท่านั้น'
+  section:
+    value:
+      title: การคัดลอกค่า
+      description: 'copy_button({ value }): ไอคอนเพียงอย่างเดียวที่ตั้งอยู่ข้างๆ สิ่งที่มันคัดลอก หรือพร้อมกับคำของมัน การตรวจสอบเป็นเวลา 2 วินาทีเมื่อคัดลอกแล้ว จะมีเครื่องหมายถูก หากคลิปบอร์ดปฏิเสธ — ไม่มีการอ้างอิงถึงสิ่งที่ไม่เกิดขึ้น'
+    target:
+      title: การคัดลอกสิ่งที่หน้าแสดง
+      description: 'copy_button({ target }): ข้อความขององค์ประกอบ อ่านตามที่เป็นอยู่ในขณะคลิก'
+    code:
+      title: บล็อกของโค้ด
+      description: 'code-block with copy: true — ปุ่มจะแสดงที่มุมในขณะที่บล็อกถูกชี้หรือเข้าถึงด้วย Tab และจะยังคงแสดงอยู่บนหน้าจอที่ไม่มีตัวชี้'
+    fallback:
+      title: ในกรณีสำรอง
+      description: ค่าของกรณีสำรองมาพร้อมกับปุ่มคัดลอกของมัน
+    check:
+      title: สิ่งที่ต้องตรวจสอบ
+      items:
+        - 'Tab เข้าถึงทุกปุ่ม; Enter และ Space คัดลอก'
+        - 'ผ่าน http ปกติ (โฮสต์การพัฒนา) การคัดลอกยังคงทำงานได้ตามปกติ'
+        - 'เมื่อวางที่อื่น ข้อความจะตรงตามค่า: ไม่มีช่องว่าง ไม่มีบรรทัดเพิ่มเติม'
+        - 'โปรแกรมอ่านหน้าจอจะพูดว่า « คัดลอกแล้ว » หลังจากคลิก'
+  fallback:
+    question: 'ไม่สามารถสแกนได้? พิมพ์คีย์นี้ในแอป:'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Interaktionen
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Was ein Klick, eine Taste oder ein Hover über das Drücken eines Buttons hinaus bewirkt. Jeder Fall ist eine Bank: probiere es zuerst mit dem Zeiger, dann nur mit der Tastatur.'
+  section:
+    value:
+      title: 'Wert kopieren'
+      description: 'copy_button({ value }): das Symbol allein, wo der Button neben dem sitzt, was er kopiert, oder mit seinem Wort. Ein Häkchen für zwei Sekunden, nachdem es kopiert wurde, ein Kreuz, wenn die Zwischenablage abgelehnt hat — nie eine Behauptung, die nicht passiert ist.'
+    target:
+      title: 'Kopieren, was die Seite anzeigt'
+      description: 'copy_button({ target }): der Text eines Elements, gelesen wie er im Moment des Klicks ist.'
+    code:
+      title: 'Ein Block von Code'
+      description: 'code-block mit copy: true — der Button wird in der Ecke angezeigt, während der Block angezielt oder mit Tab erreicht wird, und bleibt auf einem Bildschirm ohne Zeiger sichtbar.'
+    fallback:
+      title: 'In einem Fallback'
+      description: 'Der Wert eines Fallbacks kommt mit seinem Kopier-Button.'
+    check:
+      title: 'Was zu prüfen ist'
+      items:
+        - 'Tab erreicht jeden Button; Enter und Space kopieren.'
+        - 'Über reines http (ein Entwicklungs-Host) funktioniert das Kopieren weiterhin, auf die alte Art.'
+        - 'Anderswo eingefügt, ist der Text genau der Wert: kein Leerzeichen, keine Zeile hinzugefügt.'
+        - 'Ein Screenreader sagt « Kopiert » nach dem Klick.'
+  fallback:
+    question: 'Kann nicht scannen? Gib diesen Schlüssel in der App ein:'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Vuorovaikutukset
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Mitä klikkaus, näppäin tai hiiren osoittaminen tekee painikkeen painamisen lisäksi. Jokainen tapaus on penkki: kokeile ensin osoittimella, sitten pelkällä näppäimistöllä.'
+  section:
+    value:
+      title: 'Arvon kopioiminen'
+      description: 'copy_button({ value }): ikoni yksin, jossa painike istuu sen vieressä, mitä se kopioi, tai sanan kanssa. Tarkistus kahdeksi sekunniksi kopioinnin jälkeen, risti, kun leikepöytä kieltäytyy — ei koskaan väitettä, joka ei tapahtunut.'
+    target:
+      title: 'Sivun näyttämän kopioiminen'
+      description: 'copy_button({ target }): elementin teksti, luettuna sellaisenaan klikkauksen hetkellä.'
+    code:
+      title: Koodilohko
+      description: 'code-block with copy: true — painike näkyy kulmassa, kun lohkossa osoitetaan tai se saavutetaan Tabilla, ja pysyy näkyvissä näytöllä ilman osoitinta.'
+    fallback:
+      title: Varatila
+      description: 'Varatilan arvo tulee kopio-painikkeen kanssa.'
+    check:
+      title: 'Mitä tarkistaa'
+      items:
+        - 'Tab saavuttaa jokaisen painikkeen; Enter ja Space kopioivat.'
+        - 'Yksinkertaisen http:n (kehityspalvelin) kautta kopiointi toimii edelleen, vanhalla tavalla.'
+        - 'Liitettynä muualle, teksti on täsmälleen arvo: ei väliä, ei riviä lisätty.'
+        - 'Näytönlukuohjelma sanoo « Kopioitu » klikkauksen jälkeen.'
+  fallback:
+    question: 'Ei voi skannata? kirjoita tämä näppäin sovelluksessa:'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Взаимодействия
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Что делает клик, клавиша или наведение помимо нажатия кнопки. Каждый случай — это скамейка: попробуйте с указателем, затем только с клавиатурой.'
+  section:
+    value:
+      title: 'Копирование значения'
+      description: 'copy_button({ value }): только иконка, где кнопка находится рядом с тем, что она копирует, или с её словом. Галочка на два секунды после копирования, крестик, когда буфер обмена отказал — никогда не утверждение, которое не произошло.'
+    target:
+      title: 'Копирование того, что показывает страница'
+      description: 'copy_button({ target }): текст элемента, читаемый так, как он есть в момент клика.'
+    code:
+      title: 'Блок кода'
+      description: 'code-block с copy: true — кнопка показывается в углу, пока блок выделен указателем или достигнут с помощью Tab, и остается видимой на экране без указателя.'
+    fallback:
+      title: 'В резервном режиме'
+      description: 'Значение резервного режима приходит с кнопкой копирования.'
+    check:
+      title: 'Что проверить'
+      items:
+        - 'Tab достигает каждой кнопки; Enter и Space копируют.'
+        - 'По обычному http (разработческому хосту) копирование все еще работает, старым способом.'
+        - 'Вставлено в другом месте, текст точно соответствует значению: без пробелов, без добавленных строк.'
+        - 'Читалка экрана говорит « Скопировано » после клика.'
+  fallback:
+    question: 'Не удается отсканировать? Введите эту клавишу в приложении:'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Interakcje
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Co robi kliknięcie, naciśnięcie klawisza lub najechanie myszką poza przyciśnięciem przycisku. Każdy przypadek to ławka: spróbuj najpierw wskaźnikiem, potem samą klawiaturą.'
+  section:
+    value:
+      title: 'Kopiowanie wartości'
+      description: 'copy_button({ value }): sama ikona tam, gdzie przycisk znajduje się obok tego, co kopiuje, lub z jego słowem. Zaznaczenie na dwa sekundy po skopiowaniu, krzyżyk, gdy schowek odmówił — nigdy nie ma twierdzenia, które się nie zdarzyło.'
+    target:
+      title: 'Kopiowanie tego, co pokazuje strona'
+      description: 'copy_button({ target }): tekst elementu, odczytany takim, jaki jest w momencie kliknięcia.'
+    code:
+      title: 'Blok kodu'
+      description: 'code-block with copy: true — przycisk pokazuje się w rogu, gdy blok jest wskazywany lub osiągany za pomocą Tab, i pozostaje widoczny na ekranie bez wskaźnika.'
+    fallback:
+      title: 'W przypadku alternatywy'
+      description: 'Wartość alternatywy przychodzi z przyciskiem kopiowania.'
+    check:
+      title: 'Co sprawdzić'
+      items:
+        - 'Tab osiąga każdy przycisk; Enter i Spacja kopiują.'
+        - 'Przez zwykłe http (host deweloperski) kopiowanie nadal działa, w starszy sposób.'
+        - 'Wklejone gdzie indziej, tekst jest dokładnie tą wartością: bez spacji, bez dodanej linii.'
+        - 'Czytnik ekranu mówi „Skopiowano” po kliknięciu.'
+  fallback:
+    question: 'Nie możesz zeskanować? Wpisz ten klucz w aplikacji:'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Interacciones
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Lo que hace un clic, una tecla o un desplazamiento más allá de presionar un botón. Cada caso es un banco: pruébalo con el puntero, luego solo con el teclado.'
+  section:
+    value:
+      title: 'Copiando un valor'
+      description: 'copy_button({ value }): el ícono solo donde el botón está al lado de lo que copia, o con su palabra. Un chequeo durante dos segundos una vez copiado, una cruz cuando el portapapeles se negó — nunca una afirmación que no sucedió.'
+    target:
+      title: 'Copiando lo que muestra la página'
+      description: 'copy_button({ target }): el texto de un elemento, leído tal como está en el momento del clic.'
+    code:
+      title: 'Un bloque de código'
+      description: 'code-block con copy: true — el botón aparece en la esquina mientras el bloque es apuntado o alcanzado con Tab, y permanece visible en una pantalla sin puntero.'
+    fallback:
+      title: 'En un fallback'
+      description: 'El valor de un fallback viene con su botón de copiar.'
+    check:
+      title: 'Qué verificar'
+      items:
+        - 'Tab alcanza cada botón; Enter y Space copian.'
+        - 'Sobre http simple (un host de desarrollo) la copia aún funciona, de la manera antigua.'
+        - 'Pegado en otro lugar, el texto es exactamente el valor: sin espacio, sin línea añadida.'
+        - 'Un lector de pantalla dice « Copiado » después del clic.'
+  fallback:
+    question: '¿No puedes escanear? Escribe esta tecla en la app:'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Interazioni
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Cosa fa un clic, un tasto o un passaggio del mouse oltre a premere un pulsante. Ogni caso è un banco di prova: provaci con il puntatore, poi solo con la tastiera.'
+  section:
+    value:
+      title: 'Copiare un valore'
+      description: "copy_button({ value }): l'icona da sola dove il pulsante si trova accanto a ciò che copia, o con la sua parola. Un segno di spunta per due secondi una volta copiato, una croce quando il clipboard ha rifiutato — mai una rivendicazione che non è avvenuta."
+    target:
+      title: 'Copiare ciò che mostra la pagina'
+      description: "copy_button({ target }): il testo di un elemento, letto così com'è al momento del clic."
+    code:
+      title: 'Un blocco di codice'
+      description: "code-block with copy: true — il pulsante appare nell'angolo mentre il blocco è puntato o raggiunto con Tab, e rimane visibile su uno schermo senza puntatore."
+    fallback:
+      title: 'In un fallback'
+      description: 'Il valore di un fallback viene fornito con il suo pulsante di copia.'
+    check:
+      title: 'Cosa controllare'
+      items:
+        - 'Tab raggiunge ogni pulsante; Invio e Spazio copiano.'
+        - 'Su http semplice (un host di sviluppo) la copia funziona ancora, nel modo vecchio.'
+        - 'Incollato altrove, il testo è esattamente il valore: nessuno spazio, nessuna riga aggiunta.'
+        - 'Un lettore di schermo dice « Copiato » dopo il clic.'
+  fallback:
+    question: "Non riesci a scansionare? Digita questo tasto nell'app:"
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Interações
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'O que um clique, uma tecla ou um hover faz além de pressionar um botão. Cada caso é um banco: experimente com o ponteiro, depois apenas com o teclado.'
+  section:
+    value:
+      title: 'Copiando um valor'
+      description: 'copy_button({ value }): o ícone sozinho onde o botão fica ao lado do que copia, ou com sua palavra. Um check por dois segundos uma vez copiado, um cruz quando a área de transferência recusou — nunca uma alegação que não aconteceu.'
+    target:
+      title: 'Copiando o que a página mostra'
+      description: 'copy_button({ target }): o texto de um elemento, lido como está no momento do clique.'
+    code:
+      title: 'Um bloco de código'
+      description: 'code-block com copy: true — o botão aparece no canto enquanto o bloco é apontado ou acessado com Tab, e permanece visível em uma tela sem ponteiro.'
+    fallback:
+      title: 'Em um fallback'
+      description: 'O valor de um fallback vem com seu botão de cópia.'
+    check:
+      title: 'O que verificar'
+      items:
+        - 'Tab alcança cada botão; Enter e Espaço copiam.'
+        - 'Sobre http simples (um host de desenvolvimento) a cópia ainda funciona, do jeito antigo.'
+        - 'Colado em outro lugar, o texto é exatamente o valor: sem espaço, sem linha adicionada.'
+        - 'Um leitor de tela diz « Copiado » após o clique.'
+  fallback:
+    question: 'Não consegue escanear? Digite esta tecla no app:'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Etkileşimler
+  page_icon: 'ph:bold/hand-pointing'
+  intro: "Bir tıklamanın, bir tuşa basmanın veya bir üzerine gelmenin butona basmanın ötesinde ne yaptığını gösterir. Her durum bir bench'tir: önce işaretçi ile deneyin, ardından yalnızca klavye ile."
+  section:
+    value:
+      title: 'Bir değeri kopyalamak'
+      description: 'copy_button({ value }): kopyalanan şeyin yanındaki buton ile birlikte ya da kelimesi ile yalnızca simge. Kopyalandıktan sonra iki saniye boyunca bir onay, panonun reddettiği durumda bir çarpı — gerçekleşmeyen bir iddia asla yok.'
+    target:
+      title: 'Sayfanın gösterdiğini kopyalamak'
+      description: 'copy_button({ target }): bir öğenin metni, tıklama anında olduğu gibi okunur.'
+    code:
+      title: 'Bir kod bloğu'
+      description: 'code-block with copy: true — buton, blok üzerine gelindiğinde veya Tab ile ulaşıldığında köşede görünür ve bir işaretçi olmadan ekranda görünmeye devam eder.'
+    fallback:
+      title: 'Bir yedekleme içinde'
+      description: 'Bir yedeklemenin değeri kopyalama butonu ile birlikte gelir.'
+    check:
+      title: 'Kontrol edilmesi gerekenler'
+      items:
+        - 'Tab her butona ulaşır; Enter ve Boşluk kopyalar.'
+        - 'Sade http üzerinden (bir geliştirme sunucusu) kopyalama hala çalışır, eski usul.'
+        - 'Başka bir yere yapıştırıldığında, metin tam olarak değerdir: boşluk yok, eklenen satır yok.'
+        - 'Bir ekran okuyucu tıklamadan sonra « Kopyalandı » der.'
+  fallback:
+    question: 'Tarayamadınız mı? Uygulamada bu tuşa yazın:'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Tương tác'
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Những gì một cú nhấp chuột, một phím bấm hoặc một cú di chuột làm được ngoài việc nhấn một nút. Mỗi trường hợp là một bài kiểm tra: hãy thử với con trỏ, sau đó chỉ với bàn phím.'
+  section:
+    value:
+      title: 'Sao chép giá trị'
+      description: 'copy_button({ value }): biểu tượng đơn giản nơi nút nằm bên cạnh những gì nó sao chép, hoặc có từ của nó. Một dấu kiểm trong hai giây sau khi sao chép, một dấu chéo khi clipboard từ chối — không bao giờ có một tuyên bố rằng điều đó không xảy ra.'
+    target:
+      title: 'Sao chép những gì trang hiển thị'
+      description: 'copy_button({ target }): văn bản của một phần tử, đọc như nó đang có vào thời điểm nhấp chuột.'
+    code:
+      title: 'Một đoạn mã'
+      description: 'code-block với copy: true — nút hiển thị ở góc trong khi khối được chỉ vào hoặc đến với Tab, và vẫn hiển thị trên màn hình mà không có con trỏ.'
+    fallback:
+      title: 'Trong một trường hợp dự phòng'
+      description: 'Giá trị của một trường hợp dự phòng đi kèm với nút sao chép.'
+    check:
+      title: 'Những gì cần kiểm tra'
+      items:
+        - 'Tab đến từng nút; Enter và Space sẽ sao chép.'
+        - 'Trên http thông thường (một máy chủ phát triển) việc sao chép vẫn hoạt động, theo cách cũ.'
+        - 'Dán ở nơi khác, văn bản là chính xác giá trị: không có khoảng trắng, không có dòng thêm.'
+        - 'Một trình đọc màn hình nói « Đã sao chép » sau khi nhấp chuột.'
+  fallback:
+    question: 'Không quét được? Gõ phím này trong ứng dụng:'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Interaksi
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Apa yang dilakukan oleh klik, tombol, atau hover selain menekan tombol. Setiap kasus adalah tempat uji: coba dengan pointer, kemudian dengan keyboard saja.'
+  section:
+    value:
+      title: 'Menyalin nilai'
+      description: 'copy_button({ value }): ikon saja di mana tombol berada di samping apa yang disalin, atau dengan kata-katanya. Tanda centang selama dua detik setelah disalin, tanda silang ketika clipboard menolak — tidak pernah ada klaim yang tidak terjadi.'
+    target:
+      title: 'Menyalin apa yang ditampilkan halaman'
+      description: 'copy_button({ target }): teks dari elemen, dibaca seperti adanya pada saat klik.'
+    code:
+      title: 'Sekumpulan kode'
+      description: 'code-block dengan copy: true — tombol ditampilkan di sudut saat blok ditunjuk atau dijangkau dengan Tab, dan tetap ditampilkan di layar tanpa pointer.'
+    fallback:
+      title: 'Dalam fallback'
+      description: 'Nilai dari fallback datang dengan tombol salin.'
+    check:
+      title: 'Apa yang perlu diperiksa'
+      items:
+        - 'Tab menjangkau setiap tombol; Enter dan Space menyalin.'
+        - 'Melalui http biasa (host pengembangan) salinan masih berfungsi, cara lama.'
+        - 'Ditempel di tempat lain, teksnya persis seperti nilai: tidak ada spasi, tidak ada baris tambahan.'
+        - 'Pembaca layar mengatakan « Disalin » setelah klik.'
+  fallback:
+    question: 'Tidak bisa dipindai? Ketik tombol ini di aplikasi:'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Interacties
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'Wat een klik, een toets of een hover doet naast het indrukken van een knop. Elke situatie is een bank: probeer het met de aanwijzer, dan alleen met het toetsenbord.'
+  section:
+    value:
+      title: 'Een waarde kopiëren'
+      description: 'copy_button({ value }): het pictogram alleen waar de knop naast staat wat het kopieert, of met zijn woord. Een vinkje voor twee seconden zodra gekopieerd, een kruis wanneer het klembord weigert — nooit een claim dat dat niet is gebeurd.'
+    target:
+      title: 'Wat de pagina toont kopiëren'
+      description: 'copy_button({ target }): de tekst van een element, gelezen zoals het is op het moment van de klik.'
+    code:
+      title: 'Een blok code'
+      description: 'code-block met copy: true — de knop verschijnt in de hoek terwijl het blok wordt aangewezen of bereikt met Tab, en blijft zichtbaar op een scherm zonder aanwijzer.'
+    fallback:
+      title: 'In een fallback'
+      description: 'De waarde van een fallback komt met zijn kopieerknop.'
+    check:
+      title: 'Wat te controleren'
+      items:
+        - 'Tab bereikt elke knop; Enter en Spatie kopiëren.'
+        - 'Over gewone http (een ontwikkelhost) werkt de kopie nog steeds, op de oude manier.'
+        - 'E elders geplakt, is de tekst exact de waarde: geen spatie, geen regel toegevoegd.'
+        - 'Een schermlezer zegt « Gekopieerd » na de klik.'
+  fallback:
+    question: 'Niet kunnen scannen? Typ deze toets in de app:'

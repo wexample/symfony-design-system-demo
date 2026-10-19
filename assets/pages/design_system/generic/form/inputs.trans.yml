@@ -249,6 +249,18 @@ bn:
     fields:
       title: ক্ষেত্র
       description: 'প্রত্যেকটি, একবার। উপরে প্লে চাপুন এবং তারা পালাক্রমে পূর্ণ হয়, একই কলগুলির দ্বারা যা একটি এজেন্ট করবে - যা তাদের সকলের জন্য চুক্তি বজায় রাখার একমাত্র উপায়।'
+    scale:
+      title: 'সেগমেন্ট এবং স্কেল'
+      description: '`segmented: true` একটি রেডিও গ্রুপকে সেগমেন্টের স্ট্রিপ হিসেবে আঁকে, কয়েকটি সংক্ষিপ্ত নির্বাচনের মধ্যে একটি নির্বাচন করার জন্য: একই রেডিও, তীর দ্বারা সরানো, একই মান প্রেরণ করে। `range-input` একটি স্কেলের সাথে একটি মান গ্রহণ করে — `min`, `max`, `step` — এবং এটি তার লেবেলের পাশে বলে যখন এটি চলে, পৃষ্ঠার লোকাল এবং তার স্টেপের জন্য প্রয়োজনীয় দশমিক সহ; `suffix` একটি শব্দ যা এর পরে থাকে, কখনো জমা দেওয়া হয় না। ভিউ টুইন প্রতিটি স্টেপে ইমিট করে, তাই একটি পৃষ্ঠা থাম্ব চলে যাওয়ার সাথে সাথে পুনরায় গণনা করতে পারে।'
+    stepper:
+      title: 'এক সময়ে এক ধাপ'
+      description: 'stepper: true, একটি সংখ্যা — একটি পরিমাণের প্রতিটি পাশে একটি বোতাম। এটি ফিল্ডের স্টেপ দ্বারা ধাপে ধাপে চলে এবং এর min এবং max এ থামে, এর বোতাম সেখানে বিশ্রাম নেয়; symfony-forms থেকে, সীমাবদ্ধতা ফিল্ডের রেঞ্জ কনস্ট্রেন্ট থেকে আসে।'
+    addon:
+      title: 'মানের পাশে একটি ইউনিট'
+      description: 'একটি স্থির শব্দ — একটি ইউনিট, একটি মুদ্রা — ফিল্ডের ফ্রেমে, মানের আগে বা পরে আঁকা। স্ক্রিন রিডার এটি ফিল্ডের সাথে পড়ে; এটি মানের অংশ নয়, ফোকাস করা যায় না, এবং এর কিছু জমা দেওয়া হয় না। স্থির চেহারা এর সাথে থাকে।'
+    frozen:
+      title: 'স্থির এবং প্রদর্শিত'
+      description: 'একটি স্থির ফিল্ড একটি মান ধারণ করে যা কেউ পড়তে পারে এবং পরিবর্তন করতে পারে না: স্থির, অপ্রাপ্য নয়। এটি একটি সম্পাদনাযোগ্য ফিল্ডের বিপরীততা ধরে রাখে এবং ফোকাসযোগ্য এবং নির্বাচিত থাকে — শুধুমাত্র যা লেখার জন্য আহ্বান করে তা যায়: একটি ড্যাশড ফ্রেম যা নিজস্ব কোন ভিত্তি নেই, কোন টেক্সট কার্সর নেই, কোন পিকার নেই। একটি ডিসপ্লে মান মোটেই একটি ফিল্ড নয়: একটি লেবেল এবং যা রেকর্ড বলে, একটি ফিল্ডের লাইনে যাতে দুটিই এক ব্লক হিসেবে পড়া যায়, যখন কিছু নেই তখন একটি ড্যাশ। ভিউ ফিল্ডগুলো `readonly` একইভাবে গ্রহণ করে; একটি সিলেক্ট, রেডিও, একটি সুইচ, একটি ফাইল, একটি কোড বা একটি ইমোজি, যা এইচটিএমএল readonly করতে পারে না, তাদের মান একটি readonly ফিল্ডে দেখায় যা কোন নাম ধারণ করে না।'
     actions:
       title: 'ফর্মে বোতাম'
       description: 'একটি বোতাম একটি মানের পরিবর্তে একটি কর্ম নেয়, তাই এটি লিখতে কোনও কিছু নেই।'
@@ -267,6 +279,31 @@ bn:
     switch_vue:
       title: 'টগল, ভিউতে'
       description: 'একটি ভিউ গাছের ভিতরে একই টগল, যেখানে চেকড অবস্থা রাষ্ট্র এবং নয় একটি ডেটা অ্যাট্রিবিউট যা একটি স্ক্রিপ্ট পরিবর্তন করে।'
+  scale:
+    window: জানলা
+    window_3: '৩ মাস'
+    window_6: '৬ মাস'
+    window_12: '১২ মাস'
+    coverage: 'কভারেজ সহগ'
+    buffer: বাফার
+    weeks: সপ্তাহ
+  stepper:
+    quantity: পরিমাণ
+    guests: অতিথিরা
+    nights: রাত্রি
+    people: মানুষ
+  addon:
+    weight: ওজন
+    price: মূল্য
+    height: উচ্চতা
+    duration: স্থায়ীকাল
+  frozen:
+    editable: 'সম্পূর্ণ নাম, সম্পাদনাযোগ্য'
+    created: 'তৈরি হয়েছে'
+    reviewer: 'পর্যালোচনা করেছেন'
+    switch_on: সক্রিয়
+    switch_off: 'অনুমোদিত নয়'
+    vue: ভিউতে
   assisted:
     hint: 'একজন এজেন্ট নীচের ক্ষেত্রগুলিকে পূরণ করে, একটির পর এক।'
     play: প্লে
@@ -326,6 +363,18 @@ de:
     fields:
       title: Felder
       description: 'Eines von jedem, einmal. Drücke oben auf Wiedergabe, und sie werden nacheinander ausgefüllt, durch die gleichen Aufrufe, die ein Agent machen würde — was der einzige Weg ist, um zu wissen, dass der Vertrag für alle gilt.'
+    scale:
+      title: 'Segmente und Skalen'
+      description: '`segmented: true` zeichnet eine Radiogruppe als Streifen von Segmenten, für eine Auswahl unter wenigen kurzen Optionen: dieselben Radiobuttons, die von den Pfeilen verschoben werden und denselben Wert senden. `range-input` nimmt einen Wert entlang einer Skala – `min`, `max`, `step` – und zeigt ihn neben seinem Label an, während er sich bewegt, in der Sprache der Seite und mit den Dezimalstellen, die sein Schritt erfordert; `suffix` ist ein Wort danach, das niemals übermittelt wird. Der Vue-Zwilling sendet bei jedem Schritt, sodass eine Seite neu berechnen kann, während der Daumen sich bewegt.'
+    stepper:
+      title: 'Einen Schritt nach dem anderen'
+      description: 'stepper: true, ein Button auf jeder Seite einer Zahl – einer Menge. Es erhöht sich um den Schritt des Feldes und stoppt an seinem Minimum und Maximum, der Button bleibt dort stehen; aus symfony-forms stammen die Grenzen von der Range-Beschränkung des Feldes.'
+    addon:
+      title: 'Eine Einheit neben dem Wert'
+      description: 'Ein festes Wort – eine Einheit, eine Währung – wird im Rahmen des Feldes angezeigt, vor oder nach dem Wert. Screenreader lesen es mit dem Feld; es ist kein Teil des Wertes, kann nicht fokussiert werden, und nichts davon wird übermittelt. Der eingefrorene Look bleibt dabei erhalten.'
+    frozen:
+      title: 'Eingefroren und angezeigt'
+      description: 'Ein eingefrorenes Feld hält einen Wert, den jemand lesen kann und nicht ändern kann: festgelegt, nicht unzugänglich. Es behält den Kontrast zu einem bearbeitbaren Feld und bleibt fokussierbar und auswählbar – nur was zum Schreiben einlädt, wird angezeigt: ein gestrichelter Rahmen über keinem eigenen Hintergrund, kein Textcursor, kein Picker. Ein Anzeigewert ist überhaupt kein Feld: ein Label und was der Datensatz sagt, auf der Linie eines Feldes, sodass die beiden als ein Block gelesen werden, ein Strich, wenn nichts vorhanden ist. Die Vue-Felder nehmen `readonly` auf die gleiche Weise; ein Auswahlfeld, Radiobuttons, ein Schalter, eine Datei, ein Code oder ein Emoji, die HTML nicht readonly machen kann, zeigen ihren Wert in einem readonly-Feld an, das keinen Namen hat.'
     actions:
       title: 'Tasten in einem Formular'
       description: 'Eine Taste führt eine Aktion aus, anstatt einen Wert, sodass es nichts gibt, was ein Agent hineinschreiben könnte.'
@@ -344,6 +393,31 @@ de:
     switch_vue:
       title: 'Schalter, in Vue'
       description: 'Der gleiche Schalter innerhalb eines Vue-Baums, wo der aktivierte Zustand ein Zustand und kein Datenattribut ist, das ein Skript umschaltet.'
+  scale:
+    window: Fenster
+    window_3: '3 Monate'
+    window_6: '6 Monate'
+    window_12: '12 Monate'
+    coverage: Deckungskoeffizient
+    buffer: Puffer
+    weeks: Wochen
+  stepper:
+    quantity: Menge
+    guests: Gäste
+    nights: Nächte
+    people: Personen
+  addon:
+    weight: Gewicht
+    price: Preis
+    height: Höhe
+    duration: Dauer
+  frozen:
+    editable: 'Vollständiger Name, bearbeitbar'
+    created: 'Erstellt am'
+    reviewer: 'Überprüft von'
+    switch_on: Aktiv
+    switch_off: Deaktiviert
+    vue: 'In Vue'
   assisted:
     hint: 'Ein Agent füllt die Felder unten, eins nach dem anderen, aus.'
     play: Wiedergabe
@@ -403,6 +477,18 @@ es:
     fields:
       title: Campos
       description: 'Uno de cada uno, una vez. Presiona Reproducir arriba y se llenan uno tras otro, por las mismas llamadas que haría un agente — que es la única forma de saber que el contrato se mantiene para todos ellos.'
+    scale:
+      title: 'Segmentos y escalas'
+      description: '`segmented: true` dibuja un grupo de opciones como una franja de segmentos, para una elección entre algunas opciones cortas: los mismos botones de opción, movidos por las flechas, enviando el mismo valor. `range-input` toma un valor a lo largo de una escala — `min`, `max`, `step` — y lo muestra junto a su etiqueta mientras se desplaza, en la configuración regional de la página y con los decimales que su paso requiere; `suffix` es una palabra después de él, que nunca se envía. El gemelo de vue emite en cada paso, por lo que una página puede recalcular a medida que se mueve el pulgar.'
+    stepper:
+      title: 'Un paso a la vez'
+      description: 'stepper: true, un botón a cada lado de un número — una cantidad. Avanza según el paso del campo y se detiene en su mínimo y máximo, su botón descansando ahí; desde symfony-forms, los límites provienen de la restricción de rango del campo.'
+    addon:
+      title: 'Una unidad junto al valor'
+      description: 'Una palabra fija — una unidad, una moneda — dibujada en el marco del campo, antes o después del valor. Los lectores de pantalla la leen junto con el campo; no es parte del valor, no puede ser enfocada, y nada de ella se envía. La apariencia congelada se mantiene con ella.'
+    frozen:
+      title: 'Congelado y mostrado'
+      description: 'Un campo congelado mantiene un valor que alguien puede leer y no cambiar: establecido, no no disponible. Mantiene el contraste de un campo editable y sigue siendo enfocable y seleccionable — solo lo que invita a escribir se muestra: un marco discontínuo sobre ningún fondo propio, sin cursor de texto, sin selector. Un valor de visualización no es un campo en absoluto: una etiqueta y lo que dice el registro, en la línea de un campo para que los dos se lean como un solo bloque, un guion cuando no hay nada. Los campos de vue toman `readonly` de la misma manera; una selección, botones de opción, un interruptor, un archivo, un código o un emoji, que HTML no puede hacer de solo lectura, muestran su valor en un campo de solo lectura que no tiene nombre.'
     actions:
       title: 'Botones en un formulario'
       description: 'Un botón toma una acción en lugar de un valor, así que no hay nada que un agente pueda escribir en él.'
@@ -421,6 +507,31 @@ es:
     switch_vue:
       title: 'Interruptor, en vue'
       description: 'El mismo interruptor dentro de un árbol vue, donde el estado marcado es estado y no un atributo de datos que un script cambia.'
+  scale:
+    window: Ventana
+    window_3: '3 meses'
+    window_6: '6 meses'
+    window_12: '12 meses'
+    coverage: 'Coeficiente de cobertura'
+    buffer: Buffer
+    weeks: semanas
+  stepper:
+    quantity: Cantidad
+    guests: Invitados
+    nights: Noches
+    people: personas
+  addon:
+    weight: Peso
+    price: Precio
+    height: Altura
+    duration: Duración
+  frozen:
+    editable: 'Nombre completo, editable'
+    created: 'Creado el'
+    reviewer: 'Revisado por'
+    switch_on: Activo
+    switch_off: Desactivado
+    vue: 'En vue'
   assisted:
     hint: 'Un agente llena los campos a continuación, uno tras otro.'
     play: Reproducir
@@ -480,6 +591,18 @@ fa:
     fields:
       title: فیلدها
       description: 'یکی از هرکدام، یکبار. دکمه پخش را در بالا فشار دهید و آنها نوبت به نوبت پر می‌شوند، با همان فراخوان‌هایی که یک عامل انجام می‌دهد — که تنها راه برای دانستن این است که قرارداد برای همه آنها برقرار است.'
+    scale:
+      title: 'بخش‌ها و مقیاس‌ها'
+      description: '`segmented: true` یک گروه رادیویی را به صورت نوار بخش‌ها رسم می‌کند، برای یک انتخاب از میان چند گزینه کوتاه: همان رادیوها که با فلش‌ها جابجا می‌شوند، و همان مقدار را ارسال می‌کنند. `range-input` مقداری را در یک مقیاس می‌گیرد — `min`، `max`، `step` — و آن را در کنار برچسبش به زبان محلی صفحه و با اعشاری که مرحله‌اش می‌طلبد نمایش می‌دهد؛ `suffix` یک کلمه بعد از آن است، که هرگز ارسال نمی‌شود. نسخه‌ی vue در هر مرحله منتشر می‌شود، بنابراین یک صفحه می‌تواند با حرکت انگشت به‌روزرسانی شود.'
+    stepper:
+      title: 'یک مرحله در هر بار'
+      description: 'stepper: true، یک دکمه در هر طرف یک عدد — یک مقدار. این مقدار با گام فیلد حرکت می‌کند و در حداقل و حداکثر آن متوقف می‌شود، دکمه‌اش در آنجا قرار می‌گیرد؛ از symfony-forms، محدودیت‌ها از قید Range فیلد می‌آیند.'
+    addon:
+      title: 'یک واحد در کنار مقدار'
+      description: 'یک کلمه ثابت — یک واحد، یک ارز — که در قاب فیلد رسم می‌شود، قبل یا بعد از مقدار. نرم‌افزارهای خواندن صفحه آن را با فیلد می‌خوانند؛ این بخشی از مقدار نیست، نمی‌تواند فوکوس شود و هیچ چیز از آن ارسال نمی‌شود. ظاهر ثابت آن با خود نگه داشته می‌شود.'
+    frozen:
+      title: 'ثابت و نمایان'
+      description: 'یک فیلد ثابت مقداری را نگه می‌دارد که کسی ممکن است بخواند و تغییر ندهد: تنظیم‌شده، نه غیرقابل دسترس. این فیلد تضاد فیلد ویرایش‌پذیر را حفظ می‌کند و قابل فوکوس و انتخاب باقی می‌ماند — فقط آنچه که نوشتن را دعوت می‌کند می‌آید: یک قاب خط‌دار که روی زمینی از خود ندارد، بدون نشانگر متن، بدون انتخاب‌گر. یک مقدار نمایشی اصلاً فیلد نیست: یک برچسب و چیزی که رکورد می‌گوید، در خط یک فیلد تا دو مورد به عنوان یک بلوک خوانده شوند، یک خط تیره وقتی که هیچ چیزی وجود ندارد. فیلدهای vue همان‌طور `readonly` می‌گیرند؛ یک انتخاب، رادیوها، یک سوئیچ، یک فایل، یک کد یا یک ایموجی، که HTML نمی‌تواند آن را readonly کند، مقدار خود را در یک فیلد readonly نشان می‌دهند که نامی ندارد.'
     actions:
       title: 'دکمه‌ها در یک فرم'
       description: 'یک دکمه یک عمل را انجام می‌دهد نه یک مقدار، بنابراین چیزی برای نوشتن یک عامل در آن وجود ندارد.'
@@ -498,6 +621,31 @@ fa:
     switch_vue:
       title: 'سوئیچ، در vue'
       description: 'همان سوئیچ در درخت vue، جایی که وضعیت تیک‌خورده وضعیت است و نه یک ویژگی داده‌ای که یک اسکریپت آن را تغییر می‌دهد.'
+  scale:
+    window: پنجره
+    window_3: '۳ ماه'
+    window_6: '۶ ماه'
+    window_12: '۱۲ ماه'
+    coverage: 'ضریب پوشش'
+    buffer: بافر
+    weeks: هفته‌ها
+  stepper:
+    quantity: مقدار
+    guests: مهمانان
+    nights: شب‌ها
+    people: افراد
+  addon:
+    weight: وزن
+    price: قیمت
+    height: ارتفاع
+    duration: مدت
+  frozen:
+    editable: 'نام کامل، ویرایش‌پذیر'
+    created: 'ایجاد شده در'
+    reviewer: 'بررسی شده توسط'
+    switch_on: فعال
+    switch_off: 'غیرفعال شده'
+    vue: 'در vue'
   assisted:
     hint: 'یک عامل فیلدهای زیر را یکی پس از دیگری پر می‌کند.'
     play: پخش
@@ -557,6 +705,18 @@ fi:
     fields:
       title: Kentät
       description: 'Yksi kustakin, kerran. Paina Toista ylhäällä ja ne täytetään vuorotellen, samalla tavalla kuin agentti toimisi - mikä on ainoa tapa tietää, että sopimus pitää kaikissa niissä.'
+    scale:
+      title: 'Segmentit ja asteikot'
+      description: '`segmented: true` piirtää radioryhmän segmenttiviivana, yhdelle valinnalle muutamasta lyhyestä vaihtoehdosta: samat radiot, siirrettyinä nuolilla, lähettävät saman arvon. `range-input` ottaa arvon asteikolla — `min`, `max`, `step` — ja ilmoittaa sen sen vieressä, kun se liikkuu, sivun paikallisessa muodossa ja sen desimaalien mukaan, mitä sen askel vaatii; `suffix` on sana sen jälkeen, ei koskaan lähetetty. Vue-kaksoset lähettävät joka askeleella, joten sivu voi laskea uudelleen, kun liukusäädin liikkuu.'
+    stepper:
+      title: 'Yksi askel kerrallaan'
+      description: 'stepper: true, painike jokaisella puolella numeroa — määrä. Se etenee kentän askeleen mukaan ja pysähtyy min- ja max-arvoissa, sen painike lepää siellä; symfony-lomakkeista, rajat tulevat kentän Range-rajoituksesta.'
+    addon:
+      title: 'Yksikkö arvon vieressä'
+      description: 'Kiinteä sana — yksikkö, valuutta — piirretään kentän kehykseen, ennen tai jälkeen arvon. Ruudunlukijat lukevat sen kentän kanssa; se ei ole osa arvoa, ei voi olla kohdistettuna, eikä siitä lähetetä mitään. Jäätynyt ulkoasu pitää sen mukanaan.'
+    frozen:
+      title: 'Jäätynyt ja näkyvissä'
+      description: 'Jäätynyt kenttä pitää arvon, jota joku voi lukea mutta ei muuttaa: vakiintunut, ei saatavilla. Se pitää muokattavan kentän kontrastin ja pysyy kohdistettavana ja valittavana — vain mitä kirjoittaminen kutsuu: viivattu kehys ilman omaa pohjaa, ei tekstikurssia, ei valitsijaa. Näyttöarvo ei ole kenttä lainkaan: etiketti ja se, mitä tallennus sanoo, kentän linjalla, jotta molemmat näyttävät yhdeltä lohkot, viiva kun ei ole mitään. Vue-kentät ottavat `readonly` samalla tavalla; valinta, radiot, kytkin, tiedosto, koodi tai emoji, jota HTML ei voi tehdä readonly, näyttävät arvonsa readonly-kentässä, joka ei pidä nimeä.'
     actions:
       title: 'Napit lomakkeessa'
       description: 'Nappi suorittaa toiminnon, ei arvoa, joten agentille ei ole mitään kirjoitettavaa siihen.'
@@ -575,6 +735,31 @@ fi:
     switch_vue:
       title: 'Kytkin, vue:ssa'
       description: 'Sama kytkin vue-puussa, jossa valittu tila on tila eikä datan attribuutti, jota skripti vaihtaa.'
+  scale:
+    window: Ikkuna
+    window_3: '3 kuukautta'
+    window_6: '6 kuukautta'
+    window_12: '12 kuukautta'
+    coverage: Peitto-kerroin
+    buffer: Puskuri
+    weeks: viikkoa
+  stepper:
+    quantity: Määrä
+    guests: Vieraile
+    nights: Yöt
+    people: henkilöä
+  addon:
+    weight: Paino
+    price: Hinta
+    height: Korkeus
+    duration: Kesto
+  frozen:
+    editable: 'Koko nimi, muokattavissa'
+    created: Luotu
+    reviewer: Tarkastanut
+    switch_on: Aktiivinen
+    switch_off: 'Poistettu käytöstä'
+    vue: Vue
   assisted:
     hint: 'Agentti täyttää alla olevat kentät, yksi kerrallaan.'
     play: Toista
@@ -748,6 +933,18 @@ he:
     fields:
       title: שדות
       description: 'אחד מכל סוג, פעם אחת. לחץ על נגן למעלה והם יתמלאו בתור, על ידי אותן קריאות שסוכן היה עושה — שזהו הדרך היחידה לדעת שההסכם מחזיק עבור כולם.'
+    scale:
+      title: 'קטעים ושקלים'
+      description: '`segmented: true` מצייר קבוצה רדיאלית כפס של קטעים, לבחירה אחת מתוך כמה קצרות: אותם רדיאו, מוזזים על ידי החיצים, שולחים את אותה ערך. `range-input` לוקח ערך לאורך סקאלה — `min`, `max`, `step` — ואומר אותו ליד התווית שלו כשהוא זז, בשפת הדף ובעם העשרוניות שהשלב שלו מבקש; `suffix` הוא מילה אחריו, שמעולם לא נשלחת. התאום של vue פולט בכל שלב, כך שדף יכול לחשב מחדש כשהאצבע זזה.'
+    stepper:
+      title: 'שלב אחד בכל פעם'
+      description: 'stepper: true, כפתור בכל צד של מספר — כמות. זה מתקדם לפי הצעד של השדה ועוצר במינימום ובמקסימום שלו, הכפתור שלו נשאר שם; מהפורמים של symfony, הגבולות מגיעים מהגבלת טווח של השדה.'
+    addon:
+      title: 'יחידה ליד הערך'
+      description: 'מילה קבועה — יחידה, מטבע — מצויירת במסגרת השדה, לפני או אחרי הערך. קוראי המסך קוראים אותה עם השדה; היא אינה חלק מהערך, לא ניתן למקד בה, ושום דבר ממנה לא נשלח. המראה הקפוא נשאר איתה.'
+    frozen:
+      title: 'קפוא, ומוצג'
+      description: "שדה קפוא מחזיק ערך שמישהו יכול לקרוא ולא לשנות: קבוע, לא לא זמין. הוא שומר על הניגוד של שדה שניתן לעריכה ונשאר ניתן למיקוד ולבחירה — רק מה שמעודד כתיבה הולך: מסגרת מקווקווית ללא בסיס משלה, ללא סמן טקסט, ללא בורר. ערך תצוגה אינו שדה בכלל: תווית ומה שהרשומה אומרת, על קו של שדה כך ששניהם נקראים כבלוק אחד, מקף כשאין כלום. השדות של vue לוקחים `readonly` באותו אופן; בורר, רדיאו, מתג, קובץ, קוד או אימוג'י, ש-html לא יכול להפוך ל-readonly, מראים את ערכם בשדה readonly שאין לו שם."
     actions:
       title: 'כפתורים בטופס'
       description: 'כפתור לוקח פעולה ולא ערך, כך שאין מה שכתוב בו על ידי סוכן.'
@@ -766,6 +963,31 @@ he:
     switch_vue:
       title: 'מתג, ב-vue'
       description: 'אותו מתג בתוך עץ vue, שבו מצב המסומן הוא מצב ולא מאפיין נתונים שסקריפט משנה.'
+  scale:
+    window: חלון
+    window_3: '3 חודשים'
+    window_6: '6 חודשים'
+    window_12: '12 חודשים'
+    coverage: 'מקדם כיסוי'
+    buffer: בופר
+    weeks: שבועות
+  stepper:
+    quantity: כמות
+    guests: אורחים
+    nights: לילות
+    people: אנשים
+  addon:
+    weight: משקל
+    price: מחיר
+    height: גובה
+    duration: משך
+  frozen:
+    editable: 'שם מלא, ניתן לעריכה'
+    created: 'נוצר בתאריך'
+    reviewer: 'נבדק על ידי'
+    switch_on: פעיל
+    switch_off: כבוי
+    vue: ב-vue
   assisted:
     hint: 'סוכן ממלא את השדות למטה, אחד אחרי השני.'
     play: נגן
@@ -825,6 +1047,18 @@ hi:
     fields:
       title: क्षेत्र
       description: 'एक में से एक, एक बार। ऊपर प्ले दबाएं और इन्हें बारी-बारी से भरा जाएगा, उसी कॉल द्वारा जो एक एजेंट करेगा - जो यह जानने का एकमात्र तरीका है कि अनुबंध सभी के लिए लागू है।'
+    scale:
+      title: 'सेगमेंट और स्केल'
+      description: '`segmented: true` एक रेडियो समूह को सेगमेंट की पट्टी के रूप में दिखाता है, कुछ छोटे विकल्पों में से एक चयन के लिए: वही रेडियो, जिन्हें तीरों द्वारा स्थानांतरित किया जाता है, वही मान भेजते हैं। `range-input` एक स्केल के साथ एक मान लेता है — `min`, `max`, `step` — और जैसे-जैसे यह आगे बढ़ता है, इसके लेबल के बगल में इसे पृष्ठ की स्थानीय भाषा में और उसके कदम के अनुसार दशमलव के साथ बताता है; `suffix` इसके बाद एक शब्द है, जिसे कभी भी जमा नहीं किया जाता। vue ट्विन हर कदम पर उत्सर्जित होता है, इसलिए एक पृष्ठ थंब के चलते फिर से गणना कर सकता है।'
+    stepper:
+      title: 'एक बार में एक कदम'
+      description: 'stepper: true, संख्या के प्रत्येक ओर एक बटन — एक मात्रा। यह क्षेत्र के कदम द्वारा कदम बढ़ाता है और अपने न्यूनतम और अधिकतम पर रुकता है, इसका बटन वहीं आराम करता है; symfony-forms से, सीमाएँ क्षेत्र की रेंज बाधा से आती हैं।'
+    addon:
+      title: 'मान के बगल में एक इकाई'
+      description: 'एक निश्चित शब्द — एक इकाई, एक मुद्रा — क्षेत्र के फ्रेम में, मान के पहले या बाद में दिखाया गया है। स्क्रीन रीडर इसे क्षेत्र के साथ पढ़ते हैं; यह मान का हिस्सा नहीं है, इसे फोकस नहीं किया जा सकता, और इसका कुछ भी जमा नहीं किया जाता। जमी हुई दृष्टि इसके साथ बनी रहती है।'
+    frozen:
+      title: 'जमा हुआ, और दिखाया गया'
+      description: 'एक जमा हुआ क्षेत्र एक मान रखता है जिसे कोई पढ़ सकता है और नहीं बदल सकता: निश्चित, न कि अनुपलब्ध। यह एक संपादनीय क्षेत्र का कंट्रास्ट बनाए रखता है और फोकस और चयन योग्य बना रहता है — केवल वही जो लेखन को आमंत्रित करता है: एक बिना ग्राउंड के डैश फ्रेम, कोई टेक्स्ट कर्सर नहीं, कोई पिकर नहीं। एक प्रदर्शन मान वास्तव में एक क्षेत्र नहीं है: एक लेबल और जो रिकॉर्ड कहता है, एक क्षेत्र की रेखा पर ताकि दोनों एक ब्लॉक के रूप में पढ़े जाएं, जब कुछ नहीं हो तो एक डैश। vue क्षेत्र `readonly` को उसी तरह लेता है; एक चयन, रेडियो, एक स्विच, एक फ़ाइल, एक कोड या एक इमोजी, जिसे HTML readonly नहीं बना सकता, अपना मान readonly क्षेत्र में दिखाते हैं जो कोई नाम नहीं रखता।'
     actions:
       title: 'फॉर्म में बटन'
       description: 'एक बटन एक क्रिया लेता है न कि एक मूल्य, इसलिए इसमें लिखने के लिए एजेंट के लिए कुछ नहीं है।'
@@ -843,6 +1077,31 @@ hi:
     switch_vue:
       title: 'स्विच, व्यू में'
       description: 'व्यू ट्री के अंदर वही स्विच, जहाँ चेक की गई स्थिति राज्य है और न कि एक डेटा एट्रिब्यूट जिसे एक स्क्रिप्ट पलटती है।'
+  scale:
+    window: खिड़की
+    window_3: '3 महीने'
+    window_6: '6 महीने'
+    window_12: '12 महीने'
+    coverage: 'कवरेज गुणांक'
+    buffer: बफर
+    weeks: सप्ताह
+  stepper:
+    quantity: मात्रा
+    guests: मेहमान
+    nights: रातें
+    people: लोग
+  addon:
+    weight: वजन
+    price: कीमत
+    height: ऊँचाई
+    duration: अवधि
+  frozen:
+    editable: 'पूरा नाम, संपादनीय'
+    created: 'तारीख बनाई गई'
+    reviewer: 'समीक्षा की गई द्वारा'
+    switch_on: सक्रिय
+    switch_off: निष्क्रिय
+    vue: 'इन व्यू'
   assisted:
     hint: 'एक एजेंट नीचे दिए गए क्षेत्रों को एक के बाद एक भरता है।'
     play: प्ले
@@ -902,6 +1161,18 @@ id:
     fields:
       title: Field
       description: 'Satu dari masing-masing, sekali. Tekan Putar di atas dan mereka diisi secara bergiliran, dengan panggilan yang sama seperti yang dilakukan agen — yang merupakan satu-satunya cara untuk mengetahui kontrak berlaku untuk semuanya.'
+    scale:
+      title: 'Segmen dan skala'
+      description: '`segmented: true` menggambar grup radio sebagai strip segmen, untuk satu pilihan di antara beberapa pilihan singkat: radio yang sama, digerakkan oleh panah, mengirimkan nilai yang sama. `range-input` mengambil nilai sepanjang skala — `min`, `max`, `step` — dan menyebutkannya di samping labelnya saat bergerak, dalam lokal halaman dan dengan desimal sesuai yang diminta langkahnya; `suffix` adalah kata setelahnya, tidak pernah dikirim. Kembar vue memancarkan pada setiap langkah, sehingga halaman dapat menghitung ulang saat jempol bergerak.'
+    stepper:
+      title: 'Satu langkah pada satu waktu'
+      description: 'stepper: true, sebuah tombol di setiap sisi angka — sebuah kuantitas. Ia melangkah sesuai dengan langkah bidang dan berhenti di minimum dan maksimum, tombolnya berada di sana; dari symfony-forms, batasan berasal dari batas Range bidang.'
+    addon:
+      title: 'Sebuah unit di samping nilai'
+      description: 'Sebuah kata tetap — sebuah unit, mata uang — ditampilkan dalam bingkai bidang, sebelum atau setelah nilai. Pembaca layar membacanya bersama bidang; itu bukan bagian dari nilai, tidak bisa difokuskan, dan tidak ada yang dikirimkan. Tampilan yang beku tetap bersamanya.'
+    frozen:
+      title: 'Dibekukan, dan ditampilkan'
+      description: 'Bidang yang dibekukan menyimpan nilai yang dapat dibaca seseorang dan tidak dapat diubah: ditetapkan, tidak tidak tersedia. Ia mempertahankan kontras dengan bidang yang dapat diedit dan tetap dapat difokuskan dan dipilih — hanya yang mengundang penulisan yang diperbolehkan: bingkai putus-putus tanpa dasar sendiri, tanpa kursor teks, tanpa pemilih. Nilai tampilan bukanlah bidang sama sekali: sebuah label dan apa yang dikatakan catatan, pada garis bidang sehingga keduanya terbaca sebagai satu blok, sebuah garis ketika tidak ada apa-apa. Bidang vue mengambil `readonly` dengan cara yang sama; sebuah select, radio, sebuah switch, sebuah file, sebuah kode atau emoji, yang tidak bisa dibuat readonly oleh HTML, menunjukkan nilai mereka dalam bidang readonly yang tidak memiliki nama.'
     actions:
       title: 'Tombol dalam formulir'
       description: 'Sebuah tombol melakukan tindakan daripada nilai, jadi tidak ada yang bisa ditulis agen ke dalamnya.'
@@ -920,6 +1191,31 @@ id:
     switch_vue:
       title: 'Saklar, dalam vue'
       description: 'Saklar yang sama di dalam pohon vue, di mana status dicentang adalah status dan bukan atribut data yang dibalikkan oleh skrip.'
+  scale:
+    window: Jendela
+    window_3: '3 bulan'
+    window_6: '6 bulan'
+    window_12: '12 bulan'
+    coverage: 'Koefisien cakupan'
+    buffer: Buffer
+    weeks: minggu
+  stepper:
+    quantity: Kuantitas
+    guests: Tamu
+    nights: Malam
+    people: orang
+  addon:
+    weight: Berat
+    price: Harga
+    height: Tinggi
+    duration: Durasi
+  frozen:
+    editable: 'Nama lengkap, dapat diedit'
+    created: 'Dibuat pada'
+    reviewer: 'Ditinjau oleh'
+    switch_on: Aktif
+    switch_off: Dinonaktifkan
+    vue: 'Dalam vue'
   assisted:
     hint: 'Seorang agen mengisi field di bawah, satu per satu.'
     play: Putar
@@ -979,6 +1275,18 @@ it:
     fields:
       title: Campi
       description: "Uno di ciascuno, una sola volta. Premi Play sopra e verranno compilati a turno, con le stesse chiamate che farebbe un agente — che è l'unico modo per sapere che il contratto è valido per tutti."
+    scale:
+      title: 'Segmenti e scale'
+      description: '`segmented: true` disegna un gruppo di opzioni come una striscia di segmenti, per una scelta tra alcune brevi: gli stessi pulsanti di opzione, spostati dalle frecce, inviano lo stesso valore. `range-input` prende un valore lungo una scala — `min`, `max`, `step` — e lo mostra accanto alla sua etichetta mentre si muove, nella lingua della pagina e con i decimali richiesti dal suo passo; `suffix` è una parola dopo di esso, mai inviata. Il gemello vue emette a ogni passo, così una pagina può ricalcolare mentre il cursore si muove.'
+    stepper:
+      title: 'Un passo alla volta'
+      description: 'stepper: true, un pulsante su ciascun lato di un numero — una quantità. Fa un passo secondo il passo del campo e si ferma ai suoi min e max, con il pulsante che si ferma lì; da symfony-forms, i limiti provengono dal vincolo Range del campo.'
+    addon:
+      title: "Un'unità accanto al valore"
+      description: "Una parola fissa — un'unità, una valuta — disegnata nel riquadro del campo, prima o dopo il valore. I lettori di schermo la leggono insieme al campo; non fa parte del valore, non può essere focalizzata e nulla di essa viene inviato. L'aspetto congelato rimane con essa."
+    frozen:
+      title: 'Congelato e mostrato'
+      description: "Un campo congelato contiene un valore che qualcuno può leggere e non cambiare: stabilito, non non disponibile. Mantiene il contrasto di un campo modificabile e rimane focalizzabile e selezionabile — solo ciò che invita a scrivere va: un riquadro tratteggiato su nessun terreno proprio, nessun cursore di testo, nessun selettore. Un valore di visualizzazione non è affatto un campo: un'etichetta e ciò che dice il record, sulla linea di un campo così i due si leggono come un unico blocco, un trattino quando non c'è nulla. I campi vue prendono `readonly` allo stesso modo; un selettore, pulsanti di opzione, un interruttore, un file, un codice o un'emoji, che l'HTML non può rendere readonly, mostrano il loro valore in un campo readonly che non ha nome."
     actions:
       title: 'Pulsanti in un modulo'
       description: "Un pulsante esegue un'azione piuttosto che un valore, quindi non c'è nulla da scrivere al suo interno da parte di un agente."
@@ -997,6 +1305,31 @@ it:
     switch_vue:
       title: 'Interruttore, in vue'
       description: "Lo stesso interruttore all'interno di un albero vue, dove lo stato selezionato è stato e non un attributo dati che uno script cambia."
+  scale:
+    window: Finestra
+    window_3: '3 mesi'
+    window_6: '6 mesi'
+    window_12: '12 mesi'
+    coverage: 'Coefficiente di copertura'
+    buffer: Buffer
+    weeks: settimane
+  stepper:
+    quantity: Quantità
+    guests: Ospiti
+    nights: Notti
+    people: persone
+  addon:
+    weight: Peso
+    price: Prezzo
+    height: Altezza
+    duration: Durata
+  frozen:
+    editable: 'Nome completo, modificabile'
+    created: 'Creato il'
+    reviewer: 'Revisionato da'
+    switch_on: Attivo
+    switch_off: Disattivato
+    vue: 'In vue'
   assisted:
     hint: "Un agente compila i campi qui sotto, uno dopo l'altro."
     play: Riproduci
@@ -1056,6 +1389,18 @@ ja:
     fields:
       title: フィールド
       description: 'それぞれ1つずつ。上のプレイを押すと、エージェントが行うのと同じ呼び出しで順に入力されます — これがすべてのフィールドに契約が成立していることを知る唯一の方法です。'
+    scale:
+      title: セグメントとスケール
+      description: '`segmented: true` はラジオグループをセグメントのストリップとして描画し、いくつかの短い選択肢の中から1つを選びます。同じラジオが矢印によって移動し、同じ値を送信します。`range-input` はスケールに沿った値を取得し — `min`、`max`、`step` — 移動する際にそのラベルの横に表示し、ページのロケールとそのステップが要求する小数点で表示します。`suffix` は値の後に付く単語で、送信されることはありません。vueのツインは、サムが動くたびに発信します。'
+    stepper:
+      title: 一度に1ステップ
+      description: 'stepper: true、数値の両側にボタン — 量。フィールドのステップで進み、最小値と最大値で停止し、ボタンはそこに留まります。symfony-formsからは、境界はフィールドの範囲制約から来ます。'
+    addon:
+      title: 値の横に単位
+      description: '固定された単語 — 単位、通貨 — がフィールドの枠に描かれ、値の前または後に表示されます。スクリーンリーダーはフィールドと一緒にそれを読みますが、値の一部ではなく、フォーカスもできず、何も送信されません。凍結された外観がそれに伴います。'
+    frozen:
+      title: 凍結され、表示される
+      description: '凍結されたフィールドは誰かが読み取ることができ、変更できない値を保持します：確定されており、利用不可ではありません。編集可能なフィールドのコントラストを保ち、フォーカス可能で選択可能です — 書き込みを誘うものだけが表示されます：自分の背景がないダッシュのフレーム、テキストカーソルなし、ピッカーなし。表示値はフィールドではなく、ラベルとレコードの内容がフィールドの行に表示され、2つが1つのブロックとして読み取られます。何もないときはダッシュが表示されます。vueフィールドは`readonly`を同じように扱います。選択、ラジオ、スイッチ、ファイル、コード、またはHTMLで読み取り専用にできない絵文字は、名前を持たない読み取り専用フィールドにその値を表示します。'
     actions:
       title: フォーム内のボタン
       description: ボタンは値ではなくアクションを取るため、エージェントが書き込むものはありません。
@@ -1074,6 +1419,31 @@ ja:
     switch_vue:
       title: Vue内のスイッチ
       description: チェックされた状態が状態であり、スクリプトが切り替えるデータ属性ではないVueツリー内の同じスイッチ。
+  scale:
+    window: ウィンドウ
+    window_3: 3ヶ月
+    window_6: 6ヶ月
+    window_12: 12ヶ月
+    coverage: カバレッジ係数
+    buffer: バッファ
+    weeks: 週間
+  stepper:
+    quantity: 数量
+    guests: ゲスト
+    nights: 夜
+    people: 人
+  addon:
+    weight: 重さ
+    price: 価格
+    height: 高さ
+    duration: 期間
+  frozen:
+    editable: フルネーム、編集可能
+    created: 作成日
+    reviewer: レビュー担当者
+    switch_on: アクティブ
+    switch_off: 無効
+    vue: 'In vue'
   assisted:
     hint: エージェントが以下のフィールドを1つずつ入力します。
     play: 再生
@@ -1133,6 +1503,18 @@ ko:
     fields:
       title: 필드
       description: '각각 하나씩, 한 번. 위의 재생 버튼을 눌러주시면 에이전트가 호출할 때와 같은 방식으로 차례로 채워집니다 — 이는 모든 필드에 대해 계약이 유지되는지 확인하는 유일한 방법입니다.'
+    scale:
+      title: '세그먼트 및 스케일'
+      description: '`segmented: true`는 여러 짧은 선택지 중 하나의 선택을 위해 세그먼트의 스트립으로 라디오 그룹을 그립니다: 화살표에 의해 이동되는 동일한 라디오로 동일한 값을 전송합니다. `range-input`은 스케일에 따라 값을 취합니다 — `min`, `max`, `step` — 그리고 이동함에 따라 레이블 옆에 페이지의 로케일 및 스텝이 요구하는 소수점으로 표시됩니다; `suffix`는 그 뒤에 오는 단어로, 제출되지 않습니다. vue 쌍은 매 스텝마다 방출되므로, 엄지 손가락이 움직일 때 페이지가 재계산될 수 있습니다.'
+    stepper:
+      title: '한 번에 한 단계씩'
+      description: 'stepper: true, 숫자 양쪽에 버튼이 있는 — 수량. 필드의 스텝에 따라 단계적으로 움직이며 최소 및 최대에서 멈추고, 버튼은 그곳에 머무릅니다; symfony-forms에서 경계는 필드의 범위 제약에서 옵니다.'
+    addon:
+      title: '값 옆에 단위'
+      description: '고정된 단어 — 단위, 통화 — 값 앞이나 뒤에 필드의 프레임에 그려집니다. 스크린 리더는 필드와 함께 읽습니다; 이는 값의 일부가 아니며, 포커스할 수 없고 제출되지 않습니다. 고정된 모습이 함께 유지됩니다.'
+    frozen:
+      title: '고정되어 표시됨'
+      description: '고정 필드는 누군가가 읽을 수 있지만 변경할 수 없는 값을 유지합니다: 정착된 것이지 사용 불가능한 것이 아닙니다. 편집 가능한 필드의 대비를 유지하며 포커스 가능하고 선택할 수 있습니다 — 작성 초대를 하는 것만 이동합니다: 자신의 땅이 없는 대시 프레임, 텍스트 커서 없음, 선택기 없음. 표시 값은 전혀 필드가 아닙니다: 레이블과 레코드가 말하는 내용이 필드의 라인에 있어 두 개가 하나의 블록으로 읽히며, 아무것도 없을 때 대시가 있습니다. vue 필드는 `readonly`를 동일한 방식으로 취합니다; 선택, 라디오, 스위치, 파일, 코드 또는 HTML이 readonly로 만들 수 없는 이모지가 그 이름 없이 값이 표시된 readonly 필드에서 값을 보여줍니다.'
     actions:
       title: '양식의 버튼'
       description: '버튼은 값을 입력하기보다는 행동을 취하므로, 에이전트가 이를 작성할 내용이 없습니다.'
@@ -1151,6 +1533,31 @@ ko:
     switch_vue:
       title: '뷰 내의 스위치'
       description: '체크된 상태가 상태이고 스크립트가 전환하는 데이터 속성이 아닌 뷰 트리 내의 동일한 스위치입니다.'
+  scale:
+    window: 창
+    window_3: 3개월
+    window_6: 6개월
+    window_12: 12개월
+    coverage: '커버리지 계수'
+    buffer: 버퍼
+    weeks: 주
+  stepper:
+    quantity: 수량
+    guests: 손님
+    nights: 밤
+    people: 사람
+  addon:
+    weight: 무게
+    price: 가격
+    height: 높이
+    duration: 기간
+  frozen:
+    editable: '전체 이름, 수정 가능'
+    created: 생성일
+    reviewer: 검토자
+    switch_on: 활성화
+    switch_off: 비활성화
+    vue: Vue에서
   assisted:
     hint: '에이전트가 아래 필드를 하나씩 채웁니다.'
     play: 재생
@@ -1210,6 +1617,18 @@ nl:
     fields:
       title: Velden
       description: 'Één van elk, eenmaal. Druk boven op Afspelen en ze worden om de beurt ingevuld, door dezelfde oproepen die een agent zou doen — wat de enige manier is om te weten dat het contract voor hen allemaal geldt.'
+    scale:
+      title: 'Segmenten en schalen'
+      description: '`segmented: true` tekent een radiogroep als een strook segmenten, voor één keuze uit een paar korte: dezelfde radioknoppen, verplaatst door de pijlen, die dezelfde waarde verzenden. `range-input` neemt een waarde langs een schaal — `min`, `max`, `stap` — en toont deze naast zijn label terwijl het beweegt, in de lokale taal van de pagina en met de decimalen die de stap vraagt; `suffix` is een woord erachter, wordt nooit ingediend. De vue-tweeling geeft bij elke stap een signaal, zodat een pagina kan herberekenen terwijl de duim beweegt.'
+    stepper:
+      title: 'Eén stap tegelijk'
+      description: 'stepper: true, een knop aan elke kant van een nummer — een hoeveelheid. Het stappen gebeurt volgens de stap van het veld en stopt bij de min en max, de knop rust daar; van symfony-forms komen de grenzen van de Range-constraint van het veld.'
+    addon:
+      title: 'Een eenheid naast de waarde'
+      description: 'Een vast woord — een eenheid, een valuta — getekend in het kader van het veld, voor of na de waarde. Schermlezers lezen het samen met het veld; het is geen onderdeel van de waarde, kan niet worden gefocust en niets daarvan wordt ingediend. De bevroren look blijft hiermee behouden.'
+    frozen:
+      title: 'Bevroren, en getoond'
+      description: 'Een bevroren veld houdt een waarde vast die iemand kan lezen en niet kan veranderen: vastgesteld, niet onbeschikbaar. Het behoudt het contrast van een bewerkbaar veld en blijft focusbaar en selecteerbaar — alleen wat uitnodigt tot schrijven gaat: een gestreepte rand over geen eigen grond, geen tekstcursor, geen picker. Een weergavewaarde is helemaal geen veld: een label en wat het record zegt, op de lijn van een veld zodat de twee als één blok worden gelezen, een streep wanneer er niets is. De vue-velden nemen `readonly` op dezelfde manier; een select, radioknoppen, een schakelaar, een bestand, een code of een emoji, die HTML niet readonly kan maken, tonen hun waarde in een readonly-veld dat geen naam heeft.'
     actions:
       title: 'Knoppen in een formulier'
       description: 'Een knop voert een actie uit in plaats van een waarde, dus er is niets voor een agent om in te vullen.'
@@ -1228,6 +1647,31 @@ nl:
     switch_vue:
       title: 'Schakelaar, in vue'
       description: 'Dezelfde schakelaar binnen een vue-boom, waar de aangevinkte staat staat is en niet een gegevensattribuut dat een script omdraait.'
+  scale:
+    window: Venster
+    window_3: '3 maanden'
+    window_6: '6 maanden'
+    window_12: '12 maanden'
+    coverage: Dekningscoëfficiënt
+    buffer: Buffer
+    weeks: weken
+  stepper:
+    quantity: Hoeveelheid
+    guests: Gasten
+    nights: Nachten
+    people: personen
+  addon:
+    weight: Gewicht
+    price: Prijs
+    height: Hoogte
+    duration: Duur
+  frozen:
+    editable: 'Volledige naam, bewerkbaar'
+    created: 'Aangemaakt op'
+    reviewer: 'Beoordeeld door'
+    switch_on: Actief
+    switch_off: Deactief
+    vue: 'In vue'
   assisted:
     hint: 'Een agent vult de velden hieronder, één voor één.'
     play: Afspelen
@@ -1287,6 +1731,18 @@ pl:
     fields:
       title: Pola
       description: 'Jedno z każdego, raz. Naciśnij Odtwórz powyżej, a będą wypełniane po kolei, przez te same wywołania, które wykonałby agent — co jest jedynym sposobem, aby upewnić się, że umowa obowiązuje dla wszystkich.'
+    scale:
+      title: 'Segmenty i skale'
+      description: '`segmented: true` rysuje grupę przycisków radiowych jako pasek segmentów, do jednego wyboru spośród kilku krótkich: te same radiowe, przesuwane przez strzałki, wysyłające tę samą wartość. `range-input` przyjmuje wartość wzdłuż skali — `min`, `max`, `step` — i wyświetla ją obok etykiety w lokalizacji strony oraz z dziesiętnymi, jakie wymaga jego krok; `suffix` to słowo po nim, nigdy nie wysyłane. Podwójna vue emituje na każdym kroku, więc strona może przeliczać, gdy suwak się porusza.'
+    stepper:
+      title: 'Jedno kroki na raz'
+      description: 'stepper: true, przycisk po każdej stronie liczby — ilości. Krok po kroku według kroku pola i zatrzymuje się na jego minimum i maksimum, przycisk spoczywa tam; z symfony-forms, granice pochodzą z ograniczenia zakresu pola.'
+    addon:
+      title: 'Jednostka obok wartości'
+      description: 'Stałe słowo — jednostka, waluta — rysowane w ramce pola, przed lub po wartości. Czytniki ekranu odczytują to razem z polem; nie jest częścią wartości, nie można go skupić, i nic z tego nie jest wysyłane. Zamrożony wygląd trzyma się z nim.'
+    frozen:
+      title: 'Zamrożony i pokazany'
+      description: 'Zamrożone pole trzyma wartość, którą ktoś może przeczytać i nie zmieniać: ustalone, nie niedostępne. Zachowuje kontrast edytowalnego pola i pozostaje możliwe do skupienia i zaznaczenia — tylko to, co zaprasza do pisania, przechodzi: przerywana ramka nad brakiem własnego tła, bez kursora tekstowego, bez wyboru. Wartość wyświetlana nie jest polem w ogóle: etykietą i tym, co mówi rekord, na linii pola, tak aby obie były odczytywane jako jeden blok, myślnik, gdy nie ma nic. Pola vue przyjmują `readonly` w ten sam sposób; wybór, radiowe, przełącznik, plik, kod lub emoji, które HTML nie może uczynić readonly, pokazują swoją wartość w polu readonly, które nie ma nazwy.'
     actions:
       title: 'Przyciski w formularzu'
       description: 'Przycisk podejmuje działanie, a nie wartość, więc nie ma nic do zapisania przez agenta.'
@@ -1305,6 +1761,31 @@ pl:
     switch_vue:
       title: 'Przełącznik, w vue'
       description: 'Ten sam przełącznik wewnątrz drzewa vue, gdzie zaznaczony stan jest stanem, a nie atrybutem danych, który skrypt przełącza.'
+  scale:
+    window: Okno
+    window_3: '3 miesiące'
+    window_6: '6 miesięcy'
+    window_12: '12 miesięcy'
+    coverage: 'Współczynnik pokrycia'
+    buffer: Bufor
+    weeks: tygodnie
+  stepper:
+    quantity: Ilość
+    guests: Goście
+    nights: Noce
+    people: osoby
+  addon:
+    weight: Waga
+    price: Cena
+    height: Wysokość
+    duration: 'Czas trwania'
+  frozen:
+    editable: 'Pełna nazwa, edytowalna'
+    created: Utworzono
+    reviewer: 'Recenzowane przez'
+    switch_on: Aktywny
+    switch_off: Dezaktywowany
+    vue: 'W vue'
   assisted:
     hint: 'Agent wypełnia pola poniżej, jedno po drugim.'
     play: Odtwórz
@@ -1364,6 +1845,18 @@ pt_BR:
     fields:
       title: Campos
       description: 'Um de cada, uma vez. Pressione Play acima e eles serão preenchidos por turno, pelas mesmas chamadas que um agente faria — que é a única maneira de saber que o contrato se aplica a todos eles.'
+    scale:
+      title: 'Segmentos e escalas'
+      description: '`segmented: true` desenha um grupo de rádio como uma faixa de segmentos, para uma escolha entre algumas opções curtas: os mesmos rádios, movidos pelas setas, enviando o mesmo valor. `range-input` pega um valor ao longo de uma escala — `min`, `max`, `step` — e o diz ao lado de seu rótulo enquanto se move, no local da página e com as casas decimais que seu passo pede; `suffix` é uma palavra depois disso, nunca submetida. O twin vue emite a cada passo, assim uma página pode recalcular conforme o controle deslizante se move.'
+    stepper:
+      title: 'Um passo de cada vez'
+      description: 'stepper: true, um botão de cada lado de um número — uma quantidade. Ele avança de acordo com o passo do campo e para em seu min e max, seu botão repousando lá; das symfony-forms, os limites vêm da restrição de Intervalo do campo.'
+    addon:
+      title: 'Uma unidade ao lado do valor'
+      description: 'Uma palavra fixa — uma unidade, uma moeda — desenhada na moldura do campo, antes ou depois do valor. Leitores de tela leem isso junto com o campo; não faz parte do valor, não pode ser focado e nada disso é submetido. A aparência congelada se mantém com isso.'
+    frozen:
+      title: 'Congelado, e mostrado'
+      description: 'Um campo congelado mantém um valor que alguém pode ler e não mudar: fixado, não indisponível. Ele mantém o contraste de um campo editável e permanece focável e selecionável — apenas o que convida a escrever vai: uma moldura tracejada sobre nenhum fundo próprio, sem cursor de texto, sem seletor. Um valor de exibição não é um campo: um rótulo e o que o registro diz, na linha de um campo para que os dois sejam lidos como um bloco, um traço quando não há nada. Os campos vue adotam `readonly` da mesma forma; um select, rádios, um switch, um arquivo, um código ou um emoji, que o HTML não pode tornar readonly, mostram seu valor em um campo readonly que não possui nome.'
     actions:
       title: 'Botões em um formulário'
       description: 'Um botão executa uma ação em vez de um valor, então não há nada para um agente escrever nele.'
@@ -1382,6 +1875,31 @@ pt_BR:
     switch_vue:
       title: 'Switch, em vue'
       description: 'O mesmo switch dentro de uma árvore vue, onde o estado marcado é estado e não um atributo de dado que um script altera.'
+  scale:
+    window: Janela
+    window_3: '3 meses'
+    window_6: '6 meses'
+    window_12: '12 meses'
+    coverage: 'Coeficiente de cobertura'
+    buffer: Buffer
+    weeks: semanas
+  stepper:
+    quantity: Quantidade
+    guests: Convidados
+    nights: Noites
+    people: pessoas
+  addon:
+    weight: Peso
+    price: Preço
+    height: Altura
+    duration: Duração
+  frozen:
+    editable: 'Nome completo, editável'
+    created: 'Criado em'
+    reviewer: 'Revisado por'
+    switch_on: Ativo
+    switch_off: Desativado
+    vue: 'Em vue'
   assisted:
     hint: 'Um agente preenche os campos abaixo, um após o outro.'
     play: Reproduzir
@@ -1441,6 +1959,18 @@ ru:
     fields:
       title: Поля
       description: 'Одно из каждого, один раз. Нажмите «Играть» выше, и они будут заполняться по очереди, теми же вызовами, которые сделал бы агент — это единственный способ узнать, что контракт соблюдается для всех из них.'
+    scale:
+      title: 'Сегменты и шкалы'
+      description: '`segmented: true` рисует группу радиокнопок в виде полосы сегментов, для одного выбора среди нескольких коротких: те же радиокнопки, перемещенные стрелками, отправляющие одно и то же значение. `range-input` принимает значение вдоль шкалы — `min`, `max`, `step` — и отображает его рядом с меткой по мере движения, в локали страницы и с десятичными, которые запрашивает его шаг; `suffix` — это слово после него, никогда не отправляется. Твин vue эмитирует на каждом шаге, так что страница может пересчитываться по мере движения ползунка.'
+    stepper:
+      title: 'По одному шагу'
+      description: 'stepper: true, кнопка с каждой стороны числа — количество. Он шаг за шагом увеличивает или уменьшает значение на величину поля и останавливается на его минимуме и максимуме, кнопка останавливается там; границы берутся из ограничения Range поля в symfony-forms.'
+    addon:
+      title: 'Единица измерения рядом со значением'
+      description: 'Фиксированное слово — единица, валюта — отображается в рамке поля, до или после значения. Читалки экранов читают его вместе с полем; это не часть значения, не может быть выделено, и ничего из него не отправляется. Замороженный вид остается с ним.'
+    frozen:
+      title: 'Замороженное и отображаемое'
+      description: 'Замороженное поле содержит значение, которое кто-то может прочитать и не изменить: установленное, но доступное. Оно сохраняет контраст редактируемого поля и остается доступным для фокуса и выделения — только то, что приглашает к написанию: пунктирная рамка без собственного фона, без текстового курсора, без выбора. Отображаемое значение вовсе не является полем: это метка и то, что говорит запись, на линии поля, чтобы оба воспринимались как один блок, дефис, когда ничего нет. Поля vue принимают `readonly` так же; выбор, радиокнопки, переключатель, файл, код или эмодзи, которые HTML не может сделать доступными только для чтения, показывают свое значение в поле только для чтения, которое не имеет имени.'
     actions:
       title: 'Кнопки в форме'
       description: 'Кнопка выполняет действие, а не принимает значение, поэтому агенту нечего в неё вписывать.'
@@ -1459,6 +1989,31 @@ ru:
     switch_vue:
       title: 'Переключатель, во vue'
       description: 'Тот же переключатель внутри дерева vue, где состояние выбора является состоянием, а не атрибутом данных, который меняет скрипт.'
+  scale:
+    window: Окно
+    window_3: '3 месяца'
+    window_6: '6 месяцев'
+    window_12: '12 месяцев'
+    coverage: 'Коэффициент покрытия'
+    buffer: Буфер
+    weeks: недели
+  stepper:
+    quantity: Количество
+    guests: Гости
+    nights: Ночи
+    people: человек
+  addon:
+    weight: Вес
+    price: Цена
+    height: Высота
+    duration: Продолжительность
+  frozen:
+    editable: 'Полное имя, редактируемое'
+    created: Создано
+    reviewer: Проверено
+    switch_on: Активно
+    switch_off: Деактивировано
+    vue: 'В vue'
   assisted:
     hint: 'Агент заполняет поля ниже, одно за другим.'
     play: Играть
@@ -1518,6 +2073,18 @@ th:
     fields:
       title: ฟิลด์
       description: 'หนึ่งรายการต่อหนึ่งครั้ง กดเล่นด้านบนและพวกมันจะถูกกรอกทีละรายการ โดยการเรียกเดียวกันที่ตัวแทนจะทำ — ซึ่งเป็นวิธีเดียวที่จะรู้ว่าสัญญายังคงอยู่สำหรับทุกฟิลด์'
+    scale:
+      title: ส่วนแบ่งและมาตราส่วน
+      description: '`segmented: true` แสดงกลุ่มวิทยุเป็นแถบของส่วนแบ่ง สำหรับการเลือกหนึ่งในหลายตัวเลือกสั้น ๆ: วิทยุเดียวกัน เคลื่อนที่ตามลูกศร ส่งค่าเดียวกัน `range-input` รับค่าตามมาตราส่วน — `min`, `max`, `step` — และแสดงข้างป้ายของมันในภาษาของหน้าเว็บและด้วยทศนิยมตามที่ขั้นตอนต้องการ; `suffix` คือคำหลังจากนั้น ไม่ถูกส่งไป ใน vue twin จะส่งออกในทุกขั้นตอน ดังนั้นหน้าเว็บสามารถคำนวณใหม่ได้เมื่อเคลื่อนที่ตาม'
+    stepper:
+      title: ทีละขั้นตอน
+      description: 'stepper: true, ปุ่มด้านแต่ละข้างของตัวเลข — จำนวน. มันจะเพิ่มขึ้นตามขั้นตอนของฟิลด์และหยุดที่ค่าต่ำสุดและสูงสุด ปุ่มของมันจะอยู่ที่นั่น; จาก symfony-forms ขอบเขตมาจากข้อจำกัดของฟิลด์ Range.'
+    addon:
+      title: หน่วยข้างค่า
+      description: 'คำที่คงที่ — หน่วยเงิน — แสดงในกรอบของฟิลด์ ก่อนหรือหลังค่า. โปรแกรมอ่านหน้าจอจะอ่านมันพร้อมกับฟิลด์; มันไม่ใช่ส่วนหนึ่งของค่า ไม่สามารถเน้นได้ และไม่มีอะไรเกี่ยวกับมันถูกส่งไป ค่าแบบคงที่ยังคงอยู่ด้วยมัน.'
+    frozen:
+      title: 'คงที่ และแสดง'
+      description: 'ฟิลด์คงที่เก็บค่าที่ใครบางคนสามารถอ่านได้และไม่เปลี่ยนแปลง: ตั้งค่าแล้ว ไม่สามารถใช้ไม่ได้. มันรักษาความแตกต่างของฟิลด์ที่แก้ไขได้และยังคงสามารถเน้นได้และเลือกได้ — เพียงแค่สิ่งที่เชิญชวนให้เขียนไป: กรอบที่มีเส้นประเหนือไม่มีพื้นของมันเอง ไม่มีเคอร์เซอร์ข้อความ ไม่มีตัวเลือก. ค่าแสดงไม่ใช่ฟิลด์เลย: ป้ายและสิ่งที่บันทึกพูดบนเส้นของฟิลด์ เพื่อให้ทั้งสองอ่านเป็นบล็อกเดียว มีเส้นประเมื่อไม่มีอะไร. ฟิลด์ vue ใช้ `readonly` ในลักษณะเดียวกัน; การเลือก วิทยุ สวิตช์ ไฟล์ รหัส หรืออีโมจิ ซึ่ง HTML ไม่สามารถทำให้ readonly แสดงค่าในฟิลด์ readonly ที่ไม่มีชื่อ.'
     actions:
       title: ปุ่มในแบบฟอร์ม
       description: 'ปุ่มทำการกระทำมากกว่าค่าหนึ่ง ดังนั้นจึงไม่มีอะไรให้ตัวแทนเขียนเข้าไป'
@@ -1536,6 +2103,31 @@ th:
     switch_vue:
       title: 'สลับ, ใน vue'
       description: 'สลับเดียวกันภายในต้นไม้ vue ซึ่งสถานะที่ถูกเลือกเป็นสถานะและไม่ใช่คุณสมบัติข้อมูลที่สคริปต์พลิก'
+  scale:
+    window: หน้าต่าง
+    window_3: '3 เดือน'
+    window_6: '6 เดือน'
+    window_12: '12 เดือน'
+    coverage: อัตราส่วนความครอบคลุม
+    buffer: บัฟเฟอร์
+    weeks: สัปดาห์
+  stepper:
+    quantity: จำนวน
+    guests: แขก
+    nights: คืน
+    people: คน
+  addon:
+    weight: น้ำหนัก
+    price: ราคา
+    height: ความสูง
+    duration: ระยะเวลา
+  frozen:
+    editable: 'ชื่อเต็ม แก้ไขได้'
+    created: สร้างเมื่อ
+    reviewer: ตรวจสอบโดย
+    switch_on: เปิดใช้งาน
+    switch_off: ปิดใช้งาน
+    vue: 'ใน vue'
   assisted:
     hint: 'ตัวแทนกรอกฟิลด์ด้านล่าง ทีละฟิลด์'
     play: เล่น
@@ -1595,6 +2187,18 @@ tr:
     fields:
       title: Alanlar
       description: 'Her birinden bir tane, bir kez. Yukarıdaki Oynat tuşuna basın ve sırayla doldurulur, bir ajanın yapacağı çağrılarla — bu, sözleşmenin hepsi için geçerli olduğunu bilmenin tek yoludur.'
+    scale:
+      title: 'Segmentler ve ölçekler'
+      description: '`segmented: true` birkaç kısa seçenek arasından birini seçmek için bir segmentler şeridi olarak bir radyo grubu çizer: oklarla hareket eden aynı radyolar, aynı değeri gönderir. `range-input` bir ölçek boyunca bir değer alır — `min`, `max`, `step` — ve hareket ettikçe etiketinin yanında, sayfanın yerel dilinde ve adımının gerektirdiği ondalıklarla gösterir; `suffix` değerin ardından gelen bir kelimedir, asla gönderilmez. Vue ikizi her adımda çıkış yapar, böylece bir sayfa parmağın hareketiyle yeniden hesaplanabilir.'
+    stepper:
+      title: 'Her seferinde bir adım'
+      description: "stepper: true, bir sayı için her iki tarafında bir düğme — bir miktar. Alanın adımına göre ilerler ve min ile max değerinde durur, düğmesi orada dinlenir; symfony-forms'tan gelen sınırlar, alanın Aralık kısıtlamasından gelir."
+    addon:
+      title: 'Değerin yanında bir birim'
+      description: 'Sabit bir kelime — bir birim, bir para birimi — değerinin önünde veya arkasında, alanın çerçevesinde gösterilir. Ekran okuyucuları bunu alanla birlikte okur; bu, değerin bir parçası değildir, odaklanamaz ve bununla hiçbir şey gönderilmez. Donmuş görünüm bununla birlikte kalır.'
+    frozen:
+      title: 'Donmuş ve gösterilen'
+      description: "Donmuş bir alan, birinin okuyabileceği ancak değiştiremeyeceği bir değeri tutar: sabit, erişilemez değil. Düzenlenebilir bir alanın kontrastını korur ve odaklanabilir ve seçilebilir — yalnızca yazmayı teşvik edenler geçerlidir: kendi zemininde olmayan, metin imleci ve seçici olmayan kesik bir çerçeve. Gösterim değeri, tamamen bir alan değildir: bir etiket ve kaydın söylediği, bir alanın satırında, böylece ikisi de bir blok olarak okunur, hiçbir şey yoksa bir kesik. Vue alanları `readonly`'yu aynı şekilde alır; bir seçim, radyolar, bir anahtar, bir dosya, bir kod veya bir emoji, HTML'in readonly yapamadığı, adını taşımayan bir readonly alanda değerini gösterir."
     actions:
       title: 'Bir formdaki butonlar'
       description: 'Bir buton bir değer yerine bir eylem alır, bu yüzden içinde yazılacak bir şey yoktur.'
@@ -1613,6 +2217,31 @@ tr:
     switch_vue:
       title: 'Vue içerisinde anahtar'
       description: 'Aynı anahtar bir vue ağacının içinde, burada işaretli durum bir durumdur ve bir betiğin çevirdiği bir veri niteliği değildir.'
+  scale:
+    window: Pencere
+    window_3: '3 ay'
+    window_6: '6 ay'
+    window_12: '12 ay'
+    coverage: 'Kapsama katsayısı'
+    buffer: Tampon
+    weeks: hafta
+  stepper:
+    quantity: Miktar
+    guests: Misafirler
+    nights: Geceler
+    people: kişi
+  addon:
+    weight: Ağırlık
+    price: Fiyat
+    height: Boy
+    duration: Süre
+  frozen:
+    editable: 'Tam ad, düzenlenebilir'
+    created: 'Oluşturulma tarihi'
+    reviewer: İnceleyen
+    switch_on: Aktif
+    switch_off: 'Devre dışı'
+    vue: "Vue'da"
   assisted:
     hint: 'Bir ajan aşağıdaki alanları, birer birer doldurur.'
     play: Oynat
@@ -1672,6 +2301,18 @@ ur:
     fields:
       title: فیلڈز
       description: 'ہر ایک کا ایک، ایک بار۔ اوپر پلے دبائیں اور انہیں باری باری بھرا جائے گا، اسی کالز کے ذریعے جو ایک ایجنٹ کرے گا — جو یہ جاننے کا واحد طریقہ ہے کہ معاہدہ ان سب کے لئے برقرار ہے۔'
+    scale:
+      title: 'سگمنٹ اور اسکیل'
+      description: '`segmented: true` ایک ریڈیو گروپ کو ایک سیگمنٹس کی پٹی کی طرح بناتا ہے، چند چھوٹے انتخاب میں سے ایک کے لئے: یہی ریڈیوز، جو تیر کے ذریعے آگے بڑھتے ہیں، ایک ہی قیمت بھیجتے ہیں۔ `range-input` ایک اسکیل کے ساتھ ایک قیمت لیتا ہے — `min`, `max`, `step` — اور جب وہ حرکت کرتا ہے تو اس کی لیبل کے ساتھ اس کی قیمت بتاتا ہے، صفحے کی لوکیل میں اور اس کے قدم کی ضرورت کے مطابق اعشاریوں کے ساتھ؛ `suffix` ایک لفظ ہے جو اس کے بعد آتا ہے، کبھی بھی جمع نہیں ہوتا۔ Vue کا ٹوئن ہر قدم پر خارج کرتا ہے، اس لئے ایک صفحہ دوبارہ حساب کر سکتا ہے جب تھمب حرکت کرتا ہے۔'
+    stepper:
+      title: 'ایک قدم میں'
+      description: 'stepper: true، ایک عدد کے ہر طرف ایک بٹن — ایک مقدار۔ یہ فیلڈ کے قدم سے قدم بڑھاتا ہے اور اس کے من اور زیادہ پر رکتا ہے، اس کا بٹن وہاں رہتا ہے؛ symfony-forms سے، حدود فیلڈ کے رینج کی پابندی سے آتی ہیں۔'
+    addon:
+      title: 'قدر کے ساتھ ایک یونٹ'
+      description: 'ایک مقررہ لفظ — ایک یونٹ، ایک کرنسی — جو فیلڈ کے فریم میں، قیمت سے پہلے یا بعد میں دکھایا جاتا ہے۔ اسکرین ریڈرز اسے فیلڈ کے ساتھ پڑھتے ہیں؛ یہ قیمت کا حصہ نہیں ہے، اس پر توجہ نہیں دی جا سکتی، اور اس کا کچھ بھی جمع نہیں ہوتا۔ منجمد نظر اسی کے ساتھ رہتا ہے۔'
+    frozen:
+      title: 'منجمد، اور دکھایا گیا'
+      description: 'ایک منجمد فیلڈ ایک قیمت رکھتا ہے جسے کوئی پڑھ سکتا ہے اور تبدیل نہیں کر سکتا: طے شدہ، غیر دستیاب نہیں۔ یہ ایک ایڈیٹیبل فیلڈ کا تضاد برقرار رکھتا ہے اور توجہ دینے کے قابل اور منتخب رہتا ہے — صرف وہی چیزیں جو لکھنے کی دعوت دیتی ہیں جاتی ہیں: ایک ڈیشڈ فریم بغیر کسی زمین کے، کوئی ٹیکسٹ کرسر، کوئی چننے والا نہیں۔ ایک ڈسپلے قیمت بالکل بھی ایک فیلڈ نہیں ہے: ایک لیبل اور جو ریکارڈ کہتا ہے، ایک فیلڈ کی لائن پر تاکہ دونوں کو ایک بلاک کے طور پر پڑھا جا سکے، جب کچھ نہ ہو تو ایک ڈیش۔ Vue کے فیلڈز `readonly` کو اسی طرح لیتے ہیں؛ ایک منتخب، ریڈیوز، ایک سوئچ، ایک فائل، ایک کوڈ یا ایک ایموجی، جسے HTML ریڈ اونلی نہیں بنا سکتا، اپنی قیمت کو ایک ریڈ اونلی فیلڈ میں دکھاتے ہیں جس کا کوئی نام نہیں ہوتا۔'
     actions:
       title: 'فارم میں بٹن'
       description: 'ایک بٹن ایک عمل انجام دیتا ہے نہ کہ ایک قیمت، لہذا اس میں لکھنے کے لیے کچھ نہیں ہے۔'
@@ -1690,6 +2331,31 @@ ur:
     switch_vue:
       title: 'ویو میں سوئچ'
       description: 'ویو درخت کے اندر وہی سوئچ، جہاں چیک شدہ حالت ریاست ہے اور یہ کوئی ڈیٹا ایٹریبیوٹ نہیں ہے جو اسکرپٹ پلٹتا ہے۔'
+  scale:
+    window: کھڑکی
+    window_3: '3 مہینے'
+    window_6: '6 مہینے'
+    window_12: '12 مہینے'
+    coverage: 'کوریج کا کفریہ'
+    buffer: بفر
+    weeks: ہفتے
+  stepper:
+    quantity: مقدار
+    guests: مہمان
+    nights: راتیں
+    people: لوگ
+  addon:
+    weight: وزن
+    price: قیمت
+    height: اونچائی
+    duration: مدت
+  frozen:
+    editable: 'پورا نام، ایڈیٹیبل'
+    created: 'تاریخ تخلیق'
+    reviewer: 'جائزہ لینے والا'
+    switch_on: فعال
+    switch_off: 'غیر فعال'
+    vue: ویو
   assisted:
     hint: 'ایک ایجنٹ نیچے کے فیلڈز کو ایک کے بعد ایک بھرے گا۔'
     play: چلائیں
@@ -1749,6 +2415,18 @@ vi:
     fields:
       title: 'Các trường'
       description: 'Một trường cho mỗi loại, một lần. Nhấn Phát ở trên và chúng sẽ được điền lần lượt, bởi cùng một cuộc gọi mà một đại lý sẽ thực hiện — đó là cách duy nhất để biết hợp đồng có hiệu lực cho tất cả chúng.'
+    scale:
+      title: 'Các phân đoạn và thang đo'
+      description: '`segmented: true` vẽ một nhóm radio dưới dạng một dải các phân đoạn, cho một lựa chọn trong số một vài lựa chọn ngắn: các radio giống nhau, được di chuyển bởi các mũi tên, gửi cùng một giá trị. `range-input` nhận một giá trị theo thang đo — `min`, `max`, `step` — và hiển thị nó bên cạnh nhãn của nó khi di chuyển, theo ngôn ngữ của trang và với các chữ số thập phân mà bước di chuyển yêu cầu; `suffix` là một từ đứng sau, không bao giờ được gửi đi. Cặp vue phát ra tín hiệu ở mỗi bước, vì vậy một trang có thể tính toán lại khi thanh trượt di chuyển.'
+    stepper:
+      title: 'Một bước tại một thời điểm'
+      description: 'stepper: true, một nút ở mỗi bên của một số — một số lượng. Nó bước theo bước của trường và dừng lại ở min và max của nó, nút của nó giữ ở đó; từ symfony-forms, các giới hạn đến từ ràng buộc Range của trường.'
+    addon:
+      title: 'Một đơn vị bên cạnh giá trị'
+      description: 'Một từ cố định — một đơn vị, một loại tiền tệ — được vẽ trong khung của trường, trước hoặc sau giá trị. Các trình đọc màn hình sẽ đọc nó cùng với trường; nó không phải là một phần của giá trị, không thể được tập trung và không có gì trong đó được gửi đi. Hình thức giữ nguyên của nó.'
+    frozen:
+      title: 'Đóng băng, và hiển thị'
+      description: 'Một trường đóng băng giữ một giá trị mà ai đó có thể đọc và không thay đổi: đã được xác định, không phải không khả dụng. Nó giữ sự tương phản của một trường có thể chỉnh sửa và vẫn có thể được tập trung và chọn — chỉ những gì mời gọi viết mới đi vào: một khung gạch chéo không có nền riêng, không có con trỏ văn bản, không có bộ chọn. Một giá trị hiển thị không phải là một trường: một nhãn và những gì bản ghi nói, trên dòng của một trường để hai cái đọc như một khối, một dấu gạch ngang khi không có gì. Các trường vue nhận `readonly` theo cùng một cách; một chọn, radio, công tắc, một tệp, một mã hoặc một emoji, mà HTML không thể làm readonly, hiển thị giá trị của chúng trong một trường readonly không giữ tên.'
     actions:
       title: 'Nút trong một mẫu'
       description: 'Một nút thực hiện một hành động thay vì một giá trị, vì vậy không có gì cho một đại lý viết vào nó.'
@@ -1767,6 +2445,31 @@ vi:
     switch_vue:
       title: 'Công tắc, trong vue'
       description: 'Công tắc giống nhau bên trong một cây vue, nơi trạng thái đã chọn là trạng thái và không phải là một thuộc tính dữ liệu mà một kịch bản lật lại.'
+  scale:
+    window: 'Cửa sổ'
+    window_3: '3 tháng'
+    window_6: '6 tháng'
+    window_12: '12 tháng'
+    coverage: 'Hệ số bao phủ'
+    buffer: 'Bộ đệm'
+    weeks: tuần
+  stepper:
+    quantity: 'Số lượng'
+    guests: Khách
+    nights: Đêm
+    people: người
+  addon:
+    weight: 'Cân nặng'
+    price: Giá
+    height: 'Chiều cao'
+    duration: 'Thời gian'
+  frozen:
+    editable: 'Tên đầy đủ, có thể chỉnh sửa'
+    created: 'Tạo vào'
+    reviewer: 'Được xem xét bởi'
+    switch_on: 'Kích hoạt'
+    switch_off: 'Đã vô hiệu hóa'
+    vue: 'Trong vue'
   assisted:
     hint: 'Một đại lý điền các trường bên dưới, từng cái một.'
     play: Phát

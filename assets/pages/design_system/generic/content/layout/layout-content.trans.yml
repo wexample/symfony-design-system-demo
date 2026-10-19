@@ -27,6 +27,8 @@ bn:
     index: পর্যালোচনা
     composition: সংগঠন
     media: মিডিয়া
+    avatars: অ্যাভাটার
+    effects: এফেক্টস
     dates: তারিখ
     timeline: কালানুক্রম
     console: কনসোল
@@ -37,6 +39,8 @@ de:
     index: Übersicht
     composition: Zusammensetzung
     media: Medien
+    avatars: Avatare
+    effects: Effekte
     dates: Termine
     timeline: Zeitleiste
     console: Konsole
@@ -47,6 +51,8 @@ es:
     index: Resumen
     composition: Composición
     media: Medios
+    avatars: Avatares
+    effects: Efectos
     dates: Fechas
     timeline: Cronología
     console: Consola
@@ -57,6 +63,8 @@ fa:
     index: مرور
     composition: ترکیب
     media: رسانه
+    avatars: آواتارها
+    effects: افکت‌ها
     dates: تاریخ‌ها
     timeline: زمان‌بندی
     console: کنسول
@@ -67,6 +75,8 @@ fi:
     index: Yhteenveto
     composition: Koostumus
     media: Media
+    avatars: Avataarit
+    effects: Efektit
     dates: Päivämäärät
     timeline: Aikajana
     console: Konsoli
@@ -89,6 +99,8 @@ he:
     index: סקירה
     composition: הרכב
     media: מדיה
+    avatars: אווטרים
+    effects: אפקטים
     dates: תאריכים
     timeline: 'ציר זמן'
     console: קונסולה
@@ -99,6 +111,8 @@ hi:
     index: अवलोकन
     composition: संरचना
     media: मीडिया
+    avatars: अवतार
+    effects: प्रभाव
     dates: तिथियाँ
     timeline: कालक्रम
     console: कंसोल
@@ -109,6 +123,8 @@ id:
     index: Ikhtisar
     composition: Komposisi
     media: Media
+    avatars: Avatar
+    effects: Efek
     dates: Tanggal
     timeline: 'Garis Waktu'
     console: Konsol
@@ -119,6 +135,8 @@ it:
     index: Panoramica
     composition: Composizione
     media: Media
+    avatars: Avatar
+    effects: Effetti
     dates: Date
     timeline: Cronologia
     console: Console
@@ -129,6 +147,8 @@ ja:
     index: 概要
     composition: 構成
     media: メディア
+    avatars: アバター
+    effects: エフェクト
     dates: 日付
     timeline: タイムライン
     console: コンソール
@@ -139,6 +159,8 @@ ko:
     index: 개요
     composition: 구성
     media: 미디어
+    avatars: 아바타
+    effects: 효과
     dates: 날짜
     timeline: 타임라인
     console: 콘솔
@@ -149,6 +171,8 @@ nl:
     index: Overzicht
     composition: Samenstelling
     media: Media
+    avatars: Avatars
+    effects: Effecten
     dates: Data
     timeline: Tijdlijn
     console: Console
@@ -159,6 +183,8 @@ pl:
     index: Podsumowanie
     composition: Kompozycja
     media: Media
+    avatars: Awatary
+    effects: Efekty
     dates: Daty
     timeline: 'Oś czasu'
     console: Konsola
@@ -169,6 +195,8 @@ pt_BR:
     index: 'Visão Geral'
     composition: Composição
     media: Mídia
+    avatars: Avatares
+    effects: Efeitos
     dates: Datas
     timeline: 'Linha do Tempo'
     console: Console
@@ -179,6 +207,8 @@ ru:
     index: Обзор
     composition: Состав
     media: Медиа
+    avatars: Аватары
+    effects: Эффекты
     dates: Даты
     timeline: Хронология
     console: Консоль
@@ -189,6 +219,8 @@ th:
     index: ภาพรวม
     composition: องค์ประกอบ
     media: สื่อ
+    avatars: อวาตาร์
+    effects: เอฟเฟกต์
     dates: วันที่
     timeline: ไทม์ไลน์
     console: คอนโซล
@@ -199,6 +231,8 @@ tr:
     index: 'Genel Bakış'
     composition: Bileşim
     media: Medya
+    avatars: SAME
+    effects: SAME
     dates: Tarihlerin
     timeline: 'Zaman Çizgisi'
     console: Konsol
@@ -209,6 +243,8 @@ ur:
     index: جائزہ
     composition: ترکیب
     media: میڈیا
+    avatars: اوٹار
+    effects: افیکٹس
     dates: تاریخیں
     timeline: 'ٹائم لائن'
     console: کنسول
@@ -219,6 +255,8 @@ vi:
     index: 'Tổng quan'
     composition: 'Thành phần'
     media: 'Phương tiện'
+    avatars: 'Hình đại diện'
+    effects: 'Hiệu ứng'
     dates: 'Ngày tháng'
     timeline: 'Dòng thời gian'
     console: 'Bảng điều khiển'

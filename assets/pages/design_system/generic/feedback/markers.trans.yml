@@ -165,8 +165,26 @@ ar:
 bn:
   page_title: মার্কার
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: নতুন
+    unread: 'অপঠিত বার্তা'
+    filters: ফিল্টার
+    inbox: ইনবক্স
+    zero: 'শূন্যে প্রদর্শিত'
+  leds:
+    ok: 'ঠিক আছে'
+    running: চলছে
+    errors: ত্রুটি
+    queued: কিউড
+    alone: 'একটি ডট একা, যার নাম তার শিরোনাম'
   intro: 'একটি ক্যাপসুল একটি শব্দে একটি বিষয়ে বলা সবকিছু: একটি অবস্থা, একটি নাম, একটি সংস্করণ, একটি বিভাগ। তারা দুটি বস্তু ছিল যতদিন না একটি কোড এবং একটি অবস্থা এক শিরোনামের পাশে দাঁড়াল, এক মাথার ব্যবধান দূরে, এবং কেউ বলতে পারল না যে পার্থক্য কি বোঝাতে চেয়েছিল — তাই আকৃতি এক এবং সুর হল তাদের আলাদা করার সম্পূর্ণ বিষয়। এটি যা বহন করে তা মুক্ত: একটি শব্দ, একটি চিত্র, একটি গ্লিফ, অথবা তিনটির মধ্যে দুটি। বৃত্তটি সেখানে দাঁড়ায় যেখানে একটি ক্যাপসুলের জন্য জায়গা নেই, এবং কাউন্টার, যা একটি সারি থেকে ঝুলছে এবং এটি যে টেক্সটের উপর ঝুলছে তার আকারে আকার দেওয়া হয়েছে, এটি এখানে একমাত্র বিষয় যা একটি মার্কার নয়।'
   section:
+    counts:
+      title: গণনা
+      description: 'কতগুলি দেখা হওয়ার অপেক্ষায় আছে, একটি পিলের মতো: একটি আইকন বা বোতামের কোণে (একটি has-count প্যারেন্টে), বলা না হলে লাল, 99+ 99 এর বেশি; একটি শব্দ (« নতুন ») বা সংখ্যার পরিবর্তে একটি ডট; শূন্যে কিছুই নয় যদি না বলা হয়। countApply() পেজ পরিবর্তিত হলে একটি বর্তমান রাখে।'
+    leds:
+      title: এলইডি
+      description: 'একটি জ্বলন্ত ডট এবং এর শব্দগুলি: একটি লাইনে এক নজরে পড়া একটি অবস্থা, কয়েক ডজন একটি সারসংক্ষেপ বা পরিষেবার তালিকায়। একটি মার্কারের চেয়ে ছোট, একটি বৃত্তের চেয়ে শান্ত। off হল ডটটি অজ্বলিত — শূন্যে একটি গণনা —, চলমান শ্বাস নেয়।'
     inline:
       title: 'একটি বাক্যের মাঝখানে'
       description: 'একটি শব্দ যা পড়ার সময় আলাদা হয়ে যায়: একটি সংস্করণ, একটি পর্যায়, একটি বিভাগ। নিরপেক্ষ সুর, কারণ একটি মার্কার যা রঙিন হয়ে আসে তা ইতিমধ্যেই দাবি করেছে যে এটি কি চিহ্নিত করে — এবং একটি বাক্যে দাবির কিছুই নেই।'
@@ -226,8 +244,26 @@ bn:
 de:
   page_title: Marker
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Neu
+    unread: 'Ungelesene Nachrichten'
+    filters: Filter
+    inbox: Posteingang
+    zero: 'Bei null angezeigt'
+  leds:
+    ok: ok
+    running: läuft
+    errors: Fehler
+    queued: wartend
+    alone: 'Ein einzelner Punkt, benannt nach seinem Titel'
   intro: 'Eine Kapsel für alles, was über eine Sache in einem Wort gesagt wird: ein Zustand, ein Name, eine Version, eine Kategorie. Sie waren zwei Objekte, bis an dem Tag, an dem ein Code und ein Zustand nebeneinander in einer Überschrift standen, ein Kopf auseinander, und niemand sagen konnte, was der Unterschied bedeuten sollte – die Form ist also eine und der Ton ist das Ganze, was sie unterscheidet. Was sie trägt, ist frei: ein Wort, eine Zahl, ein Glyph oder zwei von drei. Der Kreis steht dort, wo kein Platz für eine Kapsel ist, und der Zähler, der von einer Reihe hängt und in dem Text, von dem er hängt, dimensioniert ist, ist das eine hier, das kein Marker ist.'
   section:
+    counts:
+      title: Zähler
+      description: 'Wie viele darauf warten, gesehen zu werden, als Pille: an der Ecke eines Symbols oder einer Schaltfläche (in einem has-count-Elternteil), rot, es sei denn, es wird anders angegeben, 99+ über 99; ein Wort („Neu“) oder ein Punkt anstelle der Zahl; nichts bei null, es sei denn, es wird angefordert. countApply() hält einen aktuell, während sich die Seite ändert.'
+    leds:
+      title: LEDs
+      description: 'Ein leuchtender Punkt und seine Worte: ein Zustand, der auf einen Blick in einer Zeile abgelesen wird, Dutzende in einer Zusammenfassung oder einer Liste von Diensten. Kleiner als ein Marker, leiser als ein Kreis. aus ist der Punkt nicht beleuchtet — ein Zähler bei null —, läuft atmet.'
     inline:
       title: 'In der Mitte eines Satzes'
       description: 'Ein Wort, das beim Lesen hervorgehoben wird: eine Version, eine Phase, eine Kategorie. Der neutrale Ton, weil ein Marker, der farbig ankommt, bereits einen Anspruch auf das erhebt, was er markiert – und in einem Satz gibt es nichts zu beanspruchen.'
@@ -287,8 +323,26 @@ de:
 es:
   page_title: Marcadores
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Nuevo
+    unread: 'Mensajes no leídos'
+    filters: Filtros
+    inbox: 'Bandeja de entrada'
+    zero: 'Mostrado en cero'
+  leds:
+    ok: ok
+    running: 'en ejecución'
+    errors: errores
+    queued: 'en cola'
+    alone: 'Un punto solo, nombrado por su título'
   intro: 'Una cápsula para todo lo dicho sobre algo en una palabra: un estado, un nombre, una versión, una categoría. Eran dos objetos hasta el día en que un código y un estado estuvieron uno al lado del otro en un encabezado, a un cabezal de distancia, y nadie pudo decir qué significaba la diferencia — así que la forma es una y el tono es todo lo que los distingue. Lo que lleva es libre: una palabra, una figura, un glifo, o dos de los tres. El círculo está donde no hay espacio para una cápsula, y el contador, que cuelga de una fila y se dimensiona en el texto del que cuelga, es lo único aquí que no es un marcador.'
   section:
+    counts:
+      title: Contadores
+      description: 'Cuántos esperan ser vistos, como una pastilla: en la esquina de un ícono o un botón (en un padre con conteo), rojo a menos que se indique, 99+ después de 99; una palabra (« Nuevo ») o un punto en lugar de la cifra; nada en cero a menos que se pida. countApply() mantiene uno actual a medida que cambia la página.'
+    leds:
+      title: LEDs
+      description: 'Un punto iluminado y sus palabras: un estado leído de un vistazo en una línea, por docenas en un resumen o una lista de servicios. Más pequeño que un marcador, más silencioso que un círculo. apagado es el punto sin luz — un conteo en cero —, en ejecución respira.'
     inline:
       title: 'En medio de una oración'
       description: 'Una palabra destacada tal como se lee: una versión, una fase, una categoría. El tono neutro, porque un marcador que llega coloreado ya ha hecho una afirmación sobre lo que marca — y en una oración no hay nada que afirmar.'
@@ -348,8 +402,26 @@ es:
 fa:
   page_title: مارکرها
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: جدید
+    unread: 'پیام‌های خوانده‌نشده'
+    filters: فیلترها
+    inbox: 'صندوق ورودی'
+    zero: 'صفر نمایش داده شده'
+  leds:
+    ok: خوب
+    running: 'در حال اجرا'
+    errors: خطاها
+    queued: 'در صف'
+    alone: 'یک نقطه تنها، نام‌گذاری شده با عنوانش'
   intro: 'یک کپسول برای هر آنچه که درباره یک چیز در یک کلمه گفته می‌شود: یک وضعیت، یک نام، یک نسخه، یک دسته. آن‌ها دو شیء بودند تا روزی که یک کد و یک وضعیت در یک هدر کنار هم قرار گرفتند، یک سر فاصله، و هیچ‌کس نمی‌توانست بگوید تفاوت به چه معنایی است — بنابراین شکل یکی است و لحن تمام آنچه را که آن‌ها را متمایز می‌کند شامل می‌شود. آنچه را که حمل می‌کند آزاد است: یک کلمه، یک عدد، یک نشانه، یا دو تا از این سه. دایره جایی قرار دارد که جایی برای یک کپسول نیست، و شمارنده‌ای که از یک ردیف آویزان است و در متنی که از آن آویزان است اندازه‌گیری می‌شود، تنها چیزی است که در اینجا نشانگر نیست.'
   section:
+    counts:
+      title: شمارش‌ها
+      description: 'چند مورد منتظر مشاهده هستند، به صورت یک قرص: در گوشه یک آیکون یا دکمه (در یک والد دارای شمارش)، قرمز مگر اینکه گفته شده باشد، ۹۹+ بیشتر از ۹۹؛ یک کلمه («جدید») یا یک نقطه به جای عدد؛ هیچ چیزی در صفر مگر اینکه خواسته شود. countApply() یکی را به روز نگه می‌دارد در حالی که صفحه تغییر می‌کند.'
+    leds:
+      title: LEDها
+      description: 'یک نقطه روشن و کلماتش: یک حالت که در یک نگاه قابل خواندن است، به صورت دوجین در یک خلاصه یا فهرست خدمات. کوچکتر از یک نشانگر، ساکت‌تر از یک دایره. خام یعنی نقطه خاموش — یک شمارش در صفر —، در حال اجرا نفس می‌کشد.'
     inline:
       title: 'در وسط یک جمله'
       description: 'یک کلمه که به‌طور جداگانه خوانده می‌شود: یک نسخه، یک مرحله، یک دسته. لحن خنثی، زیرا یک نشانگر که رنگی می‌رسد، قبلاً ادعایی درباره آنچه که نشان می‌دهد کرده است — و در یک جمله چیزی برای ادعا وجود ندارد.'
@@ -409,8 +481,26 @@ fa:
 fi:
   page_title: Merkit
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Uusi
+    unread: 'Lukemattomat viestit'
+    filters: Suodattimet
+    inbox: Saapuneet
+    zero: 'Näytetään nollassa'
+  leds:
+    ok: ok
+    running: käynnissä
+    errors: virheitä
+    queued: jonossa
+    alone: 'Yksi piste, nimeltään otsikolla'
   intro: 'Yksi kapseli kaikkeen siihen, mitä asiasta voidaan sanoa sanassa: tila, nimi, versio, kategoria. Ne olivat kaksi objektia kunnes eräänä päivänä koodi ja tila seisoivat vierekkäin yhdessä otsikossa, pää eristyksissä, eikä kukaan voinut sanoa, mitä ero tarkoitti — joten muoto on yksi ja sävy on se, mikä erottaa ne toisistaan. Se, mitä se kantaa, on vapaa: sana, luku, glyyfi tai kaksi näistä kolmesta. Ympyrä seisoo paikassa, jossa ei ole tilaa kapselille, ja laskuri, joka roikkuu riviltä ja on koon mukaan, on se ainoa asia täällä, joka ei ole merkki.'
   section:
+    counts:
+      title: Laskurit
+      description: 'Kuinka monta odottaa nähtäväksi, pillerinä: ikonilla tai painikkeella kulmassa (has-count-vanhempi), punainen ellei toisin sanottu, 99+ yli 99; sana (« Uusi ») tai piste numeron sijasta; ei mitään nollassa ellei kysytty. countApply() pitää yhden ajantasaisena sivun muuttuessa.'
+    leds:
+      title: LEDit
+      description: 'Syttyvä piste ja sen sanat: tila luettavissa yhdellä silmäyksellä rivissä, tusinassa yhteenvedossa tai palvelulistassa. Pienempi kuin merkki, hiljaisempi kuin ympyrä. off on piste ilman valoa — laskuri nollassa —, käynnissä hengittää.'
     inline:
       title: 'Lauseen keskellä'
       description: 'Sana, joka on eristetty lukiessa: versio, vaihe, kategoria. Neutraali sävy, koska värillinen merkki on jo tehnyt väitteen siitä, mitä se merkitsee — ja lauseessa ei ole mitään väitettävää.'
@@ -549,8 +639,26 @@ fr:
 he:
   page_title: סימנים
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: חדש
+    unread: 'הודעות שלא נקראו'
+    filters: מסננים
+    inbox: 'תיבת דואר נכנס'
+    zero: 'מוצג כאפס'
+  leds:
+    ok: בסדר
+    running: פועל
+    errors: שגיאות
+    queued: בתור
+    alone: 'נקודה אחת בלבד, שנקראת על פי שמה'
   intro: 'קפסולה אחת לכל מה שנאמר על דבר במילה: מצב, שם, גרסה, קטגוריה. הם היו שני אובייקטים עד שהיום שבו קוד ומצב עמדו זה לצד זה בכותרת אחת, ראש אחד, ואף אחד לא יכול היה לומר מה ההבדל אמור להיות - כך שהצורה היא אחת והטון הוא כל מה שמפריד ביניהם. מה שהיא נושאת הוא חופשי: מילה, דמות, גופן, או שניים מתוך השלושה. המעגל נמצא היכן שאין מקום לקפסולה, והספירה, שתלויה משורה ומוגדרת בטקסט שהיא תלויה ממנו, היא הדבר היחיד כאן שאינו סימן.'
   section:
+    counts:
+      title: ספירות
+      description: 'כמה ממתינים להיראות, ככדור: על הפינה של אייקון או כפתור (בתור אבא עם ספירה), אדום אלא אם כן נאמר אחרת, 99+ מעבר ל-99; מילה (« חדש ») או נקודה במקום המספר; כלום באפס אלא אם כן מתבקש. countApply() שומר על אחד עדכני כשהדף משתנה.'
+    leds:
+      title: LEDs
+      description: 'נקודה מוארת ומילותיה: מצב הנקרא במבט חטוף בשורה, בעשרות בסיכום או ברשימת שירותים. קטן יותר ממסמן, שקט יותר מעיגול. כבוי הוא הנקודה שאינה מוארת — ספירה באפס —, פועל נושם.'
     inline:
       title: 'במרכז משפט'
       description: 'מילה מופרדת כפי שהיא נקראת: גרסה, שלב, קטגוריה. הטון הנייטרלי, כי סימן שמגיע בצבע כבר עשה טענה לגבי מה שהוא מסמן - ובמשפט אין מה לטעון.'
@@ -610,8 +718,26 @@ he:
 hi:
   page_title: Markers
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: नया
+    unread: 'अनपढ़ संदेश'
+    filters: फिल्टर
+    inbox: इनबॉक्स
+    zero: 'शून्य पर दिखाया गया'
+  leds:
+    ok: 'ठीक है'
+    running: 'चल रहा है'
+    errors: त्रुटियाँ
+    queued: 'क्यू में'
+    alone: 'एक बिंदु अकेला, जिसे उसके शीर्षक से नामित किया गया है'
   intro: 'एक कैप्सूल में एक शब्द के बारे में कहा गया सब कुछ: एक स्थिति, एक नाम, एक संस्करण, एक श्रेणी। वे दो वस्तुएं थीं जब तक कि एक दिन एक कोड और एक स्थिति एक हेडर में एक साथ खड़े नहीं हो गए, एक सिर के apart, और कोई नहीं कह सकता था कि इसका मतलब क्या था — इसलिए आकार एक है और स्वर वही है जो उन्हें अलग करता है। जो यह ले जाता है वह स्वतंत्र है: एक शब्द, एक आकृति, एक वर्ण, या इनमें से दो। वृत्त वहां खड़ा होता है जहां कैप्सूल के लिए जगह नहीं होती, और काउंटर, जो एक पंक्ति से लटका होता है और उस पाठ में आकार में होता है, यहां एकमात्र चीज है जो एक मार्कर नहीं है।'
   section:
+    counts:
+      title: गणनाएँ
+      description: 'कितने देखने के लिए इंतजार कर रहे हैं, एक गोली के रूप में: एक आइकन या बटन के कोने पर (एक has-count माता-पिता में), जब तक कहा न जाए लाल, 99+ 99 से अधिक; आंकड़े के बजाय एक शब्द (« नया ») या एक बिंदु; शून्य पर कुछ नहीं जब तक पूछा न जाए। countApply() एक वर्तमान रखता है जैसे ही पृष्ठ बदलता है।'
+    leds:
+      title: एलईडी
+      description: 'एक जलती हुई बिंदु और इसके शब्द: एक पंक्ति में एक नज़र में पढ़ी गई स्थिति, एक सारांश या सेवाओं की सूची में दर्जनों द्वारा। एक मार्कर से छोटा, एक वृत्त से शांत। ऑफ का मतलब है बिंदु जलती नहीं है — शून्य पर एक गणना —, चल रहा है सांस लेता है।'
     inline:
       title: 'एक वाक्य के बीच में'
       description: 'एक शब्द को अलग रखा गया है जैसा कि इसे पढ़ा जाता है: एक संस्करण, एक चरण, एक श्रेणी। तटस्थ स्वर, क्योंकि एक मार्कर जो रंगीन आता है, पहले से ही यह दावा कर चुका है कि यह क्या मार्क करता है — और एक वाक्य में किसी भी चीज़ का दावा करने के लिए कुछ नहीं है।'
@@ -671,8 +797,26 @@ hi:
 id:
   page_title: Penanda
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Baru
+    unread: 'Pesan yang belum dibaca'
+    filters: Filter
+    inbox: 'Kotak Masuk'
+    zero: 'Ditampilkan nol'
+  leds:
+    ok: ok
+    running: 'sedang berjalan'
+    errors: kesalahan
+    queued: antrian
+    alone: 'Sebuah titik sendiri, dinamai oleh judulnya'
   intro: 'Sebuah kapsul untuk segala sesuatu yang diungkapkan tentang suatu hal dalam satu kata: sebuah status, sebuah nama, sebuah versi, sebuah kategori. Mereka adalah dua objek hingga suatu hari kode dan status berdiri berdampingan dalam satu header, terpisah satu kepala, dan tidak ada yang bisa mengatakan apa arti perbedaan itu — jadi bentuknya satu dan nada adalah keseluruhan yang membedakan mereka. Apa yang dibawanya adalah bebas: sebuah kata, sebuah angka, sebuah glif, atau dua dari tiga tersebut. Lingkaran berdiri di tempat yang tidak ada ruang untuk kapsul, dan penghitung, yang menggantung dari baris dan berukuran sesuai teks yang digantungnya, adalah satu hal di sini yang bukan penanda.'
   section:
+    counts:
+      title: Hitungan
+      description: 'Berapa banyak yang menunggu untuk dilihat, sebagai pil: di sudut ikon atau tombol (dalam induk dengan hitungan), merah kecuali disebutkan, 99+ setelah 99; sebuah kata (« Baru ») atau titik sebagai pengganti angka; tidak ada pada nol kecuali diminta. countApply() menjaga satu tetap saat halaman berubah.'
+    leds:
+      title: LED
+      description: 'Sebuah titik yang menyala dan kata-katanya: sebuah keadaan yang dibaca sekilas dalam satu baris, sebanyak dua lusin dalam ringkasan atau daftar layanan. Lebih kecil dari penanda, lebih tenang dari lingkaran. off adalah titik yang tidak menyala — sebuah hitungan nol —, running bernafas.'
     inline:
       title: 'Di tengah kalimat'
       description: 'Sebuah kata yang dipisahkan saat dibaca: sebuah versi, sebuah fase, sebuah kategori. Nada netral, karena penanda yang datang berwarna telah membuat klaim tentang apa yang ditandainya — dan dalam sebuah kalimat tidak ada yang dapat diklaim.'
@@ -732,8 +876,26 @@ id:
 it:
   page_title: Marcatori
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Nuovo
+    unread: 'Messaggi non letti'
+    filters: Filtri
+    inbox: 'Posta in arrivo'
+    zero: 'Mostrato a zero'
+  leds:
+    ok: ok
+    running: 'in esecuzione'
+    errors: errori
+    queued: 'in coda'
+    alone: 'Un punto da solo, chiamato dal suo titolo'
   intro: "Una capsula per tutto ciò che è stato detto su una cosa in una parola: uno stato, un nome, una versione, una categoria. Erano due oggetti fino al giorno in cui un codice e uno stato si sono trovati fianco a fianco in un'unica intestazione, a un passo di distanza, e nessuno poteva dire cosa significasse la differenza — quindi la forma è unica e il tono è l'insieme di ciò che li distingue. Ciò che porta è libero: una parola, una figura, un glifo, o due dei tre. Il cerchio sta dove non c'è spazio per una capsula, e il contatore, che pende da una riga ed è dimensionato nel testo da cui pende, è l'unica cosa qui che non è un marcatore."
   section:
+    counts:
+      title: Conteggi
+      description: "Quanti aspettano di essere visti, come una pillola: nell'angolo di un'icona o di un pulsante (in un genitore con conteggio), rosso a meno che non sia specificato, 99+ oltre 99; una parola (« Nuovo ») o un punto invece della cifra; nulla a zero a meno che non sia richiesto. countApply() tiene uno aggiornato mentre la pagina cambia."
+    leds:
+      title: LED
+      description: "Un punto acceso e le sue parole: uno stato letto a colpo d'occhio in una riga, per dozzine in un riepilogo o in un elenco di servizi. Più piccolo di un marcatore, più silenzioso di un cerchio. spento è il punto spento — un conteggio a zero —, in esecuzione respira."
     inline:
       title: 'Nel mezzo di una frase'
       description: "Una parola messa in evidenza mentre viene letta: una versione, una fase, una categoria. Il tono neutro, perché un marcatore che arriva colorato ha già fatto una rivendicazione su ciò che contrassegna — e in una frase non c'è nulla da rivendicare."
@@ -793,8 +955,26 @@ it:
 ja:
   page_title: マーカー
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: 新規
+    unread: 未読メッセージ
+    filters: フィルター
+    inbox: 受信トレイ
+    zero: ゼロ表示
+  leds:
+    ok: 正常
+    running: 実行中
+    errors: エラー
+    queued: キュー待ち
+    alone: タイトルで名付けられた単独のドット
   intro: '物事について言われたすべてを言葉で表現するためのカプセル：状態、名前、バージョン、カテゴリ。それらは二つのオブジェクトでしたが、ある日、コードと状態が一つのヘッダーの横に並び、一つの頭の距離を置いて、誰もその違いが何を意味するのかを言えなくなりました — だから形は一つで、トーンはそれらを区別するすべてのものです。持っているものは自由です：言葉、数字、グリフ、またはその三つのうちの二つ。円はカプセルを置く余地がないところに立ち、行からぶら下がり、その行のテキストに合わせてサイズを持つカウンターは、ここで唯一マーカーではないものです。'
   section:
+    counts:
+      title: カウント
+      description: 'アイコンやボタンの隅にあるピルのように、見られるのを待っている数: 赤色で表示され、99を超える場合は99+; 数字の代わりに単語（「新規」）またはドット; ゼロの場合は要求しない限り何も表示されない。countApply()は、ページが変わると現在の数を保持します。'
+    leds:
+      title: LED
+      description: '点灯したドットとその言葉: 一目で状態を把握できる行、要約やサービスのリストで多数表示。マーカーより小さく、円より静か。offはドットが消灯している状態 — ゼロカウント —、実行中は息をしています。'
     inline:
       title: 文の中で
       description: '読まれる際に特別に設定された言葉：バージョン、フェーズ、カテゴリ。中立的なトーン、なぜなら色がついたマーカーは、すでにそれが示すものについての主張を行っているからです — 文の中には主張するものはありません。'
@@ -854,8 +1034,26 @@ ja:
 ko:
   page_title: 마커
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: 새로운
+    unread: '읽지 않은 메시지'
+    filters: 필터
+    inbox: '받은 편지함'
+    zero: '0으로 표시됨'
+  leds:
+    ok: 정상
+    running: '실행 중'
+    errors: 오류
+    queued: '대기 중'
+    alone: '제목으로 명명된 단독 점'
   intro: '사물에 대한 모든 것을 한 단어로 압축한 캡슐: 상태, 이름, 버전, 카테고리. 코드와 상태가 하나의 헤더에서 나란히 서기 전까지는 두 개의 객체였습니다. 그 차이가 의미하는 바를 아무도 말할 수 없었습니다 — 그래서 형태는 하나이고, 톤은 그들을 구별하는 모든 것입니다. 그것이 담고 있는 것은 자유롭습니다: 단어, 숫자, 기호, 또는 이 셋 중 두 개. 원은 캡슐을 담을 공간이 없는 곳에 서 있으며, 행에서 걸려 있고 그 행의 텍스트 크기에 맞춰진 카운터가 여기서 유일하게 마커가 아닌 것입니다.'
   section:
+    counts:
+      title: 카운트
+      description: '아이콘이나 버튼의 모서리에서 알약처럼 보이는, 보기를 기다리는 수: 99 이상은 99+로 표시되며, 숫자 대신 단어(« 새로운 ») 또는 점으로 표시됨; 요청하지 않는 한 0일 때는 아무것도 없음. countApply()는 페이지가 변경될 때 현재 상태를 유지함.'
+    leds:
+      title: LED
+      description: '밝혀진 점과 그 단어: 한 줄에서 한눈에 읽을 수 있는 상태, 요약 또는 서비스 목록에서 수십 개. 마커보다 작고, 원보다 조용함. 꺼짐은 점이 불이 꺼진 상태 — 0 카운트 —, 실행 중은 숨을 쉬는 상태.'
     inline:
       title: '문장 중간에'
       description: '읽히는 대로 분리된 단어: 버전, 단계, 카테고리. 중립적인 톤, 색이 있는 마커는 이미 그것이 표시하는 것에 대해 주장했기 때문에 — 그리고 문장에는 주장할 것이 없습니다.'
@@ -915,8 +1113,26 @@ ko:
 nl:
   page_title: Markers
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Nieuw
+    unread: 'Ongelezen berichten'
+    filters: Filters
+    inbox: Inbox
+    zero: 'Tonen op nul'
+  leds:
+    ok: ok
+    running: bezig
+    errors: fouten
+    queued: 'in de wachtrij'
+    alone: 'Een stip alleen, genoemd naar zijn titel'
   intro: 'Één capsule voor alles wat over een ding in één woord is gezegd: een staat, een naam, een versie, een categorie. Het waren twee objecten tot de dag dat een code en een staat zij aan zij in één kop stonden, een hoofd apart, en niemand kon zeggen wat het verschil betekende — dus de vorm is één en de toon is het geheel van wat hen onderscheidt. Wat het draagt is vrij: een woord, een cijfer, een glyph, of twee van de drie. De cirkel staat waar er geen ruimte is voor een capsule, en de teller, die hangt aan een rij en is afgestemd op de tekst waaraan hij hangt, is het enige dat hier geen marker is.'
   section:
+    counts:
+      title: Aantallen
+      description: 'Hoeveel wachten om gezien te worden, als een pil: op de hoek van een pictogram of een knop (in een has-count ouder), rood tenzij anders gezegd, 99+ na 99; een woord (« Nieuw ») of een stip in plaats van het cijfer; niets op nul tenzij gevraagd. countApply() houdt er één bij terwijl de pagina verandert.'
+    leds:
+      title: "LED's"
+      description: 'Een verlichte stip en zijn woorden: een staat in één oogopslag gelezen in een regel, per dozijn in een samenvatting of een lijst van diensten. Kleiner dan een markeerder, stiller dan een cirkel. uit is de stip niet verlicht — een telling op nul —, bezig ademt.'
     inline:
       title: 'In het midden van een zin'
       description: 'Een woord apart gezet terwijl het wordt gelezen: een versie, een fase, een categorie. De neutrale toon, omdat een marker die gekleurd aankomt al een claim heeft gemaakt over wat hij markeert — en in een zin is er niets te claimen.'
@@ -976,8 +1192,26 @@ nl:
 pl:
   page_title: Markery
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Nowe
+    unread: 'Nieprzeczytane wiadomości'
+    filters: Filtry
+    inbox: 'Skrzynka odbiorcza'
+    zero: 'Pokazane jako zero'
+  leds:
+    ok: ok
+    running: działa
+    errors: błędy
+    queued: 'w kolejce'
+    alone: 'Pojedyncza kropka, nazwana swoim tytułem'
   intro: 'Jedna kapsuła dla wszystkiego, co można powiedzieć o rzeczy w jednym słowie: stan, nazwa, wersja, kategoria. Były dwa obiekty, aż pewnego dnia kod i stan stanęły obok siebie w jednym nagłówku, o głowę oddalone, a nikt nie potrafił powiedzieć, co miało oznaczać różnicę — zatem kształt jest jeden, a ton to całość, co je rozróżnia. To, co niesie, jest wolne: słowo, figura, glif, lub dwa z trzech. Koło stoi tam, gdzie nie ma miejsca na kapsułę, a licznik, który wisi z rzędu i ma rozmiar w zależności od tekstu, z którego wisi, jest jedyną rzeczą, która nie jest markerem.'
   section:
+    counts:
+      title: Liczby
+      description: 'Ile czeka na zobaczenie, jako pigułka: w rogu ikony lub przycisku (w rodzicu z has-count), czerwone, chyba że powiedziano inaczej, 99+ po 99; słowo („Nowe”) lub kropka zamiast liczby; nic przy zerze, chyba że poproszono. countApply() utrzymuje jedną aktualną, gdy strona się zmienia.'
+    leds:
+      title: LEDy
+      description: 'Zaświecona kropka i jej słowa: stan odczytany na pierwszy rzut oka w linii, po tuzinie w podsumowaniu lub liście usług. Mniejsze niż znacznik, cichsze niż okrąg. off to kropka niepodświetlona — liczba na zero —, running oddycha.'
     inline:
       title: 'W środku zdania'
       description: 'Słowo wyróżnione podczas czytania: wersja, faza, kategoria. Neutralny ton, ponieważ marker, który przychodzi w kolorze, już złożył roszczenie co do tego, co oznacza — a w zdaniu nie ma nic do roszczenia.'
@@ -1037,8 +1271,26 @@ pl:
 pt_BR:
   page_title: Marcadores
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Novo
+    unread: 'Mensagens não lidas'
+    filters: Filtros
+    inbox: 'Caixa de entrada'
+    zero: 'Mostrado como zero'
+  leds:
+    ok: ok
+    running: 'em execução'
+    errors: erros
+    queued: 'na fila'
+    alone: 'Um ponto sozinho, nomeado pelo seu título'
   intro: 'Uma cápsula para tudo o que foi dito sobre algo em uma palavra: um estado, um nome, uma versão, uma categoria. Eram dois objetos até o dia em que um código e um estado ficaram lado a lado em um cabeçalho, um cabeça de distância, e ninguém pôde dizer o que a diferença significava — então a forma é uma e o tom é o todo do que os distingue. O que carrega é livre: uma palavra, uma figura, um glifo, ou dois dos três. O círculo está onde não há espaço para uma cápsula, e o contador, que pendura de uma linha e é dimensionado no texto do qual pendura, é a única coisa aqui que não é um marcador.'
   section:
+    counts:
+      title: Contagens
+      description: 'Quantos aguardam para serem vistos, como uma pílula: no canto de um ícone ou um botão (em um pai com contagem), vermelho a menos que dito, 99+ além de 99; uma palavra (« Novo ») ou um ponto em vez do número; nada em zero a menos que solicitado. countApply() mantém um atual à medida que a página muda.'
+    leds:
+      title: LEDs
+      description: 'Um ponto aceso e suas palavras: um estado lido à primeira vista em uma linha, por dezenas em um resumo ou uma lista de serviços. Menor que um marcador, mais discreto que um círculo. off é o ponto apagado — uma contagem em zero —, running respira.'
     inline:
       title: 'No meio de uma frase'
       description: 'Uma palavra destacada enquanto é lida: uma versão, uma fase, uma categoria. O tom neutro, porque um marcador que chega colorido já fez uma afirmação sobre o que marca — e em uma frase não há nada a reivindicar.'
@@ -1098,8 +1350,26 @@ pt_BR:
 ru:
   page_title: Маркер
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Новый
+    unread: 'Непрочитанные сообщения'
+    filters: Фильтры
+    inbox: Входящие
+    zero: 'Показано ноль'
+  leds:
+    ok: 'всё в порядке'
+    running: 'в работе'
+    errors: ошибки
+    queued: 'в очереди'
+    alone: 'Одна точка, названная своим названием'
   intro: 'Одна капсула для всего, что сказано о вещи одним словом: состояние, имя, версия, категория. Они были двумя объектами до того дня, когда код и состояние встали бок о бок в одном заголовке, на расстоянии головы, и никто не мог сказать, что значит различие — так что форма едина, а тон составляет всё, что отличает их. То, что она несет, свободно: слово, число, символ или два из трех. Круг стоит там, где нет места для капсулы, а счетчик, который висит из ряда и имеет размер в тексте, из которого он свисает, — это единственное здесь, что не является маркером.'
   section:
+    counts:
+      title: Подсчеты
+      description: 'Сколько ожидает просмотра, как таблетка: на углу иконки или кнопки (в родительском элементе has-count), красная, если не указано иначе, 99+ после 99; слово (« Новый ») или точка вместо цифры; ничего на нуле, если не запрашивается. countApply() поддерживает актуальность, пока страница меняется.'
+    leds:
+      title: Светодиоды
+      description: 'Зажженная точка и её слова: состояние, которое можно увидеть с первого взгляда в строке, десятками в сводке или списке сервисов. Меньше маркера, тише круга. off — это незажженная точка — счёт на нуле —, running дышит.'
     inline:
       title: 'В середине предложения'
       description: 'Слово, выделенное в процессе чтения: версия, фаза, категория. Нейтральный тон, потому что маркер, пришедший окрашенным, уже сделал заявление о том, что он маркирует — а в предложении нечего заявлять.'
@@ -1159,8 +1429,26 @@ ru:
 th:
   page_title: เครื่องหมาย
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: ใหม่
+    unread: ข้อความที่ยังไม่อ่าน
+    filters: ตัวกรอง
+    inbox: กล่องขาเข้า
+    zero: แสดงเป็นศูนย์
+  leds:
+    ok: ตกลง
+    running: กำลังทำงาน
+    errors: ข้อผิดพลาด
+    queued: รอคิว
+    alone: จุดเดียวที่ตั้งชื่อโดยชื่อของมัน
   intro: 'แคปซูลหนึ่งสำหรับทุกสิ่งที่พูดถึงเกี่ยวกับสิ่งหนึ่งในคำเดียว: สถานะ, ชื่อ, เวอร์ชัน, หมวดหมู่ พวกมันเป็นวัตถุสองชิ้นจนกระทั่งวันหนึ่งที่โค้ดและสถานะยืนอยู่ข้างกันในหัวข้อเดียว ห่างกันแค่หัวเดียว และไม่มีใครสามารถบอกได้ว่าสิ่งที่แตกต่างกันนั้นหมายถึงอะไร — ดังนั้นรูปทรงจึงเป็นหนึ่งเดียวและโทนเสียงคือทั้งหมดที่บอกความแตกต่างของพวกเขา สิ่งที่มันแบกรับนั้นฟรี: คำ, ตัวเลข, สัญลักษณ์, หรือสองในสาม สิ่งกลมยืนอยู่ในที่ที่ไม่มีที่สำหรับแคปซูล และเคาน์เตอร์ที่แขวนจากแถวและมีขนาดตามข้อความที่มันแขวนอยู่ คือตัวเดียวที่นี่ที่ไม่ใช่เครื่องหมาย'
   section:
+    counts:
+      title: จำนวน
+      description: 'มีจำนวนเท่าไรที่รอให้เห็น, เป็นแบบเม็ด: ที่มุมของไอคอนหรือตัวปุ่ม (ในพ่อแม่ที่มีจำนวน), สีแดงยกเว้นที่ระบุ, 99+ เกิน 99; คำ (« ใหม่ ») หรือจุดแทนตัวเลข; ไม่มีอะไรที่ศูนย์เว้นแต่จะขอ. countApply() รักษาหนึ่งอันที่ปัจจุบันเมื่อหน้าเปลี่ยน.'
+    leds:
+      title: LEDs
+      description: 'จุดที่ส่องสว่างและคำของมัน: สถานะที่อ่านได้ในมุมมองในบรรทัด, เป็นโหลในสรุปหรือลิสต์บริการ. เล็กกว่าตัวทำเครื่องหมาย, เงียบกว่าเป็นวงกลม. ปิดคือจุดที่ไม่มีแสง — จำนวนเป็นศูนย์ —, กำลังทำงานหายใจ.'
     inline:
       title: กลางประโยค
       description: 'คำที่ถูกตั้งแยกออกเมื่ออ่าน: เวอร์ชัน, เฟส, หมวดหมู่ โทนเสียงที่เป็นกลาง เพราะเครื่องหมายที่มาพร้อมสีได้ทำการอ้างอิงเกี่ยวกับสิ่งที่มันหมายถึง — และในประโยคไม่มีอะไรที่จะอ้างอิงได้'
@@ -1220,8 +1508,26 @@ th:
 tr:
   page_title: İşaretleyiciler
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Yeni
+    unread: 'Okunmamış mesajlar'
+    filters: Filtreler
+    inbox: 'Gelen Kutusu'
+    zero: 'Sıfır gösterildi'
+  leds:
+    ok: tamam
+    running: çalışıyor
+    errors: hatalar
+    queued: sıralı
+    alone: 'Tek başına bir nokta, başlığıyla adlandırılmış'
   intro: 'Bir şey hakkında söylenen her şeyin tek bir kelimeyle ifade edildiği bir kapsül: bir durum, bir isim, bir versiyon, bir kategori. Bir gün bir kod ve bir durum yan yana gelene kadar iki nesne olarak kaldılar, bir başlıkta, aralarındaki farkın ne anlama geldiğini kimse bilemedi — bu yüzden şekil birdir ve ton, onları ayıran her şeyin toplamıdır. Taşıdığı şey serbesttir: bir kelime, bir rakam, bir glif veya bunlardan ikisi. Daire, bir kapsül için yer olmadığında durur ve bir sıradan asılı olan ve asıldığı metinde boyutlandırılan sayaç, burada bir işaretleyici olmayan tek şeydir.'
   section:
+    counts:
+      title: Sayım
+      description: "Görülmeyi bekleyen kaç tane var, bir hap gibi: bir simgenin veya butonun köşesinde (has-count ebeveyni içinde), belirtilmedikçe kırmızı, 99'un üzerinde 99+; rakam yerine bir kelime (« Yeni ») veya bir nokta; sıfırda istenmediği sürece hiçbir şey. countApply() sayfa değiştikçe birini güncel tutar."
+    leds:
+      title: "LED'ler"
+      description: 'Yanmış bir nokta ve kelimeleri: bir bakışta okunabilen bir durum, bir özet veya bir hizmetler listesinde bir düzine. Bir işaretçiden daha küçük, bir daireden daha sessiz. kapalı, ışığı yanmayan nokta — sıfırda bir sayı —, çalışan nefes alır.'
     inline:
       title: 'Cümlenin ortasında'
       description: 'Okunduğu gibi ayrı bırakılmış bir kelime: bir versiyon, bir aşama, bir kategori. Nötr ton, çünkü renkli gelen bir işaretleyici, işaretlediği şey hakkında zaten bir iddia ortaya koymuştur — ve bir cümlede iddia edilecek bir şey yoktur.'
@@ -1281,8 +1587,26 @@ tr:
 ur:
   page_title: مارکر
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: نیا
+    unread: 'پڑھنے کے لیے پیغامات'
+    filters: فلٹرز
+    inbox: 'ان باکس'
+    zero: 'زیرو پر دکھایا گیا'
+  leds:
+    ok: 'ٹھیک ہے'
+    running: 'چل رہا ہے'
+    errors: غلطیاں
+    queued: 'قطار میں'
+    alone: 'اکیلے نقطے، جو اپنے عنوان سے جانا جاتا ہے'
   intro: 'ایک کیپسول ہر چیز کے بارے میں کہا گیا ایک لفظ میں: ایک حالت، ایک نام، ایک ورژن، ایک زمرہ۔ یہ دو اشیاء تھیں جب تک کہ ایک دن ایک کوڈ اور ایک حالت ایک ہی ہیڈر میں ساتھ ساتھ کھڑی نہیں ہو گئیں، ایک سر کے فاصلے پر، اور کوئی نہیں کہہ سکا کہ اس فرق کا کیا مطلب تھا — تو شکل ایک ہے اور لہجہ وہ سب کچھ ہے جو انہیں الگ کرتا ہے۔ جو وہ لے کر آتا ہے وہ آزاد ہے: ایک لفظ، ایک عدد، ایک گلیف، یا ان تینوں میں سے دو۔ دائرہ وہاں ہوتا ہے جہاں کیپسول کے لیے کوئی جگہ نہیں ہوتی، اور کاؤنٹر، جو ایک قطار سے لٹکتا ہے اور اس کے لٹکنے والے متن میں سائز میں ہوتا ہے، یہاں ایک ہی چیز ہے جو نشان نہیں ہے۔'
   section:
+    counts:
+      title: گنتی
+      description: 'کتنے دیکھنے کے منتظر ہیں، ایک گولے کی طرح: ایک آئیکون یا بٹن کے کونے پر (has-count والدین میں)، جب تک کچھ نہ کہا جائے، سرخ؛ 99+ 99 سے زیادہ؛ ایک لفظ (« نیا ») یا عدد کے بجائے ایک نقطہ؛ زیرو پر کچھ نہیں جب تک پوچھا نہ جائے۔ countApply() ایک کو موجودہ رکھتا ہے جیسے جیسے صفحہ تبدیل ہوتا ہے۔'
+    leds:
+      title: 'ایل ای ڈیز'
+      description: 'ایک روشن نقطہ اور اس کے الفاظ: ایک نظر میں ایک لائن میں پڑھی جانے والی حالت، ایک خلاصہ یا خدمات کی فہرست میں درجنوں میں۔ ایک نشان سے چھوٹا، ایک دائرے سے خاموش۔ بند کا مطلب ہے کہ نقطہ نہ جلا ہو — زیرو پر گنتی —، چل رہا ہے سانس لیتا ہے.'
     inline:
       title: 'ایک جملے کے درمیان'
       description: 'ایک لفظ جو پڑھتے وقت الگ ہوتا ہے: ایک ورژن، ایک مرحلہ، ایک زمرہ۔ نیوٹرل لہجہ، کیونکہ ایک نشان جو رنگین آتا ہے پہلے ہی یہ دعویٰ کر چکا ہے کہ وہ کیا نشان زد کرتا ہے — اور ایک جملے میں کچھ بھی دعویٰ کرنے کے لیے نہیں ہوتا۔'
@@ -1342,8 +1666,26 @@ ur:
 vi:
   page_title: 'Các dấu hiệu'
   page_icon: 'ph:bold/seal-check'
+  counts:
+    new: Mới
+    unread: 'Tin nhắn chưa đọc'
+    filters: 'Bộ lọc'
+    inbox: 'Hộp thư đến'
+    zero: 'Hiển thị bằng không'
+  leds:
+    ok: ok
+    running: 'đang chạy'
+    errors: lỗi
+    queued: 'đang chờ'
+    alone: 'Một chấm đơn độc, được gọi bằng tiêu đề của nó'
   intro: 'Một viên nang cho mọi điều được nói về một thứ trong một từ: một trạng thái, một tên gọi, một phiên bản, một loại. Chúng là hai đối tượng cho đến ngày một mã và một trạng thái đứng bên nhau trong một tiêu đề, một khoảng cách, và không ai có thể nói sự khác biệt đó có nghĩa là gì — vì vậy hình dạng là một và tông màu là toàn bộ những gì phân biệt chúng. Những gì nó mang là miễn phí: một từ, một con số, một ký tự, hoặc hai trong ba cái đó. Hình tròn đứng ở nơi không có chỗ cho một viên nang, và bộ đếm, cái treo từ một hàng và có kích thước theo văn bản mà nó treo từ đó, là thứ duy nhất ở đây không phải là một dấu hiệu.'
   section:
+    counts:
+      title: 'Số lượng'
+      description: 'Bao nhiêu cái đang chờ được xem, như một viên thuốc: ở góc của một biểu tượng hoặc một nút (trong một phần tử cha có số lượng), đỏ trừ khi nói khác, 99+ vượt quá 99; một từ (« Mới ») hoặc một chấm thay vì số; không có gì ở không trừ khi được yêu cầu. countApply() giữ một cái hiện tại khi trang thay đổi.'
+    leds:
+      title: 'Đèn LED'
+      description: 'Một chấm sáng và những từ của nó: một trạng thái được đọc ngay lập tức trong một dòng, hàng chục trong một bản tóm tắt hoặc một danh sách dịch vụ. Nhỏ hơn một đánh dấu, yên tĩnh hơn một hình tròn. off là chấm không sáng — một số lượng bằng không —, running thở.'
     inline:
       title: 'Giữa một câu'
       description: 'Một từ được tách ra khi đọc: một phiên bản, một giai đoạn, một loại. Tông màu trung tính, vì một dấu hiệu đến với màu sắc đã tuyên bố một điều gì đó về những gì nó đánh dấu — và trong một câu không có gì để tuyên bố.'

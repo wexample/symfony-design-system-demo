@@ -102,6 +102,9 @@ bn:
     steppers:
       title: স্টেপারস
       description: 'যেখানে একজন পাঠক পদক্ষেপের একটি সিকোয়েন্সে অবস্থান করছে, পিছনের পদক্ষেপে ফিরে যাওয়ার জন্য।'
+    interactions:
+      title: ইন্টারঅ্যাকশন
+      description: 'একটি ক্লিক, একটি কী বা একটি হোভার বোতামের বাইরে যা করে: একটি মান কপি করা, একটি কোডের ব্লক, একটি ফ fallback.'
   section:
     compound:
       title: 'সবকিছু একত্রে'
@@ -139,6 +142,9 @@ de:
     steppers:
       title: Schritte
       description: 'Wo ein Leser sich in einer Abfolge von Schritten befindet, mit den vorherigen, zu denen man zurückkehren kann.'
+    interactions:
+      title: Interaktionen
+      description: 'Was ein Klick, eine Taste oder ein Hover über einen Button hinaus bewirkt: einen Wert, einen Codeblock oder einen Fallback kopieren.'
   section:
     compound:
       title: 'Alles zusammen'
@@ -176,6 +182,9 @@ es:
     steppers:
       title: Pasos
       description: 'Dónde se encuentra un lector en una secuencia de pasos, con los que están detrás para volver.'
+    interactions:
+      title: Interacciones
+      description: 'Lo que hace un clic, una tecla o un desplazamiento más allá de un botón: copiar un valor, un bloque de código, un recurso alternativo.'
   section:
     compound:
       title: 'Todo junto'
@@ -213,6 +222,9 @@ fa:
     steppers:
       title: پله‌ها
       description: 'جایی که یک خواننده در یک توالی از مراحل قرار دارد، با گزینه‌هایی برای بازگشت به مراحل قبلی.'
+    interactions:
+      title: تعاملات
+      description: 'عملی که یک کلیک، یک کلید یا یک اشاره فراتر از یک دکمه انجام می‌دهد: کپی کردن یک مقدار، یک بلوک کد، یک جایگزین.'
   section:
     compound:
       title: 'همه چیز با هم'
@@ -250,6 +262,9 @@ fi:
     steppers:
       title: Askeleet
       description: 'Missä lukija seisoo askeleiden järjestyksessä, taakse jääneet askeleet voi palata.'
+    interactions:
+      title: Vuorovaikutukset
+      description: 'Mitä klikkaus, nappi tai hiiren osoittaminen tekee painikkeen lisäksi: arvon, koodilohkon, varakoodin kopioiminen.'
   section:
     compound:
       title: 'Kaikki yhdessä'
@@ -327,6 +342,9 @@ he:
     steppers:
       title: שלבים
       description: 'איפה שמעמדו של הקורא ברצף של צעדים, עם הצעדים מאחור כדי לחזור אליהם.'
+    interactions:
+      title: אינטראקציות
+      description: 'מה עושה קליק, מקש או ריחוף מעבר לכפתור: העתקת ערך, בלוק קוד, גיבוי.'
   section:
     compound:
       title: 'הכול יחד'
@@ -364,6 +382,9 @@ hi:
     steppers:
       title: स्टेपर
       description: 'जहां पाठक कदमों के अनुक्रम में खड़ा होता है, पीछे वाले को वापस जाने के लिए।'
+    interactions:
+      title: इंटरएक्शन
+      description: 'क्लिक, कुंजी या होवर का बटन के अलावा क्या होता है: एक मान, कोड का एक ब्लॉक, एक फॉलबैक कॉपी करना।'
   section:
     compound:
       title: 'सब कुछ एक साथ'
@@ -401,6 +422,9 @@ id:
     steppers:
       title: Langkah
       description: 'Di mana pembaca berada dalam urutan langkah, dengan yang di belakang untuk kembali.'
+    interactions:
+      title: Interaksi
+      description: 'Apa yang dilakukan oleh klik, tombol, atau hover di luar sebuah tombol: menyalin nilai, blok kode, fallback.'
   section:
     compound:
       title: 'Semua bersama'
@@ -438,6 +462,9 @@ it:
     steppers:
       title: Stepper
       description: 'Dove si trova un lettore in una sequenza di passi, con quelli dietro per tornare indietro.'
+    interactions:
+      title: Interazioni
+      description: 'Cosa fa un clic, un tasto o un passaggio del mouse oltre a un pulsante: copiare un valore, un blocco di codice, una riserva.'
   section:
     compound:
       title: 'Tutto insieme'
@@ -475,6 +502,9 @@ ja:
     steppers:
       title: ステッパー
       description: リーダーがステップのシーケンスの中でどこにいるかを示し、後ろに戻るためのステップがあります。
+    interactions:
+      title: インタラクション
+      description: ボタンを超えて、クリック、キー、またはホバーが何を行うか：値、コードのブロック、フォールバックをコピーする。
   section:
     compound:
       title: すべてを一緒に
@@ -512,6 +542,9 @@ ko:
     steppers:
       title: 스텝퍼
       description: '독자가 단계의 순서에서 어디에 위치하는지, 뒤로 돌아갈 수 있는 단계와 함께 표시됩니다.'
+    interactions:
+      title: 상호작용
+      description: '버튼을 넘어 클릭, 키 입력 또는 호버가 수행하는 작업: 값 복사, 코드 블록, 대체.'
   section:
     compound:
       title: '모든 것을 함께'
@@ -549,6 +582,9 @@ nl:
     steppers:
       title: Stappen
       description: 'Waar een lezer zich bevindt in een reeks stappen, met de stappen achteraan om terug te gaan.'
+    interactions:
+      title: Interacties
+      description: 'Wat een klik, een toets of een hover doet naast een knop: een waarde, een blok code of een fallback kopiëren.'
   section:
     compound:
       title: 'Alles samen'
@@ -586,6 +622,9 @@ pl:
     steppers:
       title: Kroki
       description: 'Gdzie czytelnik znajduje się w sekwencji kroków, z tymi za sobą, do których można wrócić.'
+    interactions:
+      title: Interakcje
+      description: 'Co robi kliknięcie, klawisz lub najechanie myszką poza przyciskiem: kopiowanie wartości, bloku kodu, zapasowego.'
   section:
     compound:
       title: 'Wszystko razem'
@@ -623,6 +662,9 @@ pt_BR:
     steppers:
       title: 'Passo a passo'
       description: 'Onde um leitor está em uma sequência de etapas, com os que estão atrás para voltar.'
+    interactions:
+      title: Interações
+      description: 'O que um clique, uma tecla ou um hover faz além de um botão: copiar um valor, um bloco de código, uma opção de fallback.'
   section:
     compound:
       title: 'Tudo junto'
@@ -660,6 +702,9 @@ ru:
     steppers:
       title: 'Пошаговые элементы'
       description: 'Где читатель находится в последовательности шагов, с предыдущими шагами, к которым можно вернуться.'
+    interactions:
+      title: Взаимодействия
+      description: 'Что происходит при нажатии, нажатии клавиши или наведении курсора помимо кнопки: копирование значения, блока кода, резервного варианта.'
   section:
     compound:
       title: 'Все вместе'
@@ -697,6 +742,9 @@ th:
     steppers:
       title: สเต็ปเปอร์
       description: 'ตำแหน่งของผู้อ่านในลำดับขั้นตอน โดยมีขั้นตอนที่ถอยหลังได้.'
+    interactions:
+      title: การโต้ตอบ
+      description: 'สิ่งที่การคลิก, การกดปุ่มหรือการชี้ไปที่เหนือปุ่มทำได้เกินกว่าการกดปุ่ม: การคัดลอกค่า, บล็อกของโค้ด, การสำรองข้อมูล.'
   section:
     compound:
       title: ทุกอย่างรวมกัน
@@ -734,6 +782,9 @@ tr:
     steppers:
       title: 'Adım Göstergeleri'
       description: 'Bir okuyucunun bir dizi adım içindeki konumu, geri dönmek için arkadaki adımlarla birlikte.'
+    interactions:
+      title: Etkileşimler
+      description: 'Bir tıklama, tuş veya üzerine gelme işleminin bir düğmeden öte yaptığı: bir değeri, bir kod bloğunu, bir yedekleme kopyalamak.'
   section:
     compound:
       title: 'Her şey bir arada'
@@ -771,6 +822,9 @@ ur:
     steppers:
       title: اسٹیپرز
       description: 'جہاں ایک قاری مراحل کی ترتیب میں کھڑا ہوتا ہے، پیچھے جانے کے لیے پچھلے مراحل کے ساتھ۔'
+    interactions:
+      title: تفاعلات
+      description: 'کسی بٹن کے علاوہ کلک، کی یا ہوور کرنے سے کیا ہوتا ہے: ایک قیمت، کوڈ کا بلاک، ایک متبادل کاپی کرنا۔'
   section:
     compound:
       title: 'سب کچھ ملا کر'
@@ -808,6 +862,9 @@ vi:
     steppers:
       title: Bước
       description: 'Nơi một độc giả đứng trong chuỗi các bước, với những bước phía sau để quay lại.'
+    interactions:
+      title: 'Tương tác'
+      description: 'Những gì một cú nhấp chuột, một phím hoặc một di chuột thực hiện ngoài một nút: sao chép một giá trị, một khối mã, một phương án dự phòng.'
   section:
     compound:
       title: 'Mọi thứ cùng nhau'

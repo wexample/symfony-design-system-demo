@@ -131,3 +131,611 @@ ar:
     name: الاسم
     type: النوع
     size: الحجم
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'टूल डॉक'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'एक पृष्ठ के अंत में उपकरण, जैसे एक IDE में होते हैं: आइकनों की एक पट्टी, प्रत्येक एक कॉलम में एक क्षेत्र खोलती है जो पृष्ठ के बगल में है। इस पृष्ठ के दाएं ओर की पट्टी एक है।'
+  section:
+    groups:
+      title: 'दो समूह, प्रत्येक में एक खुला'
+      body: 'पट्टी के शीर्ष पर आइकन अपने क्षेत्र को कॉलम के ऊपरी भाग में खोलते हैं, नीचे की ओर वाले अपने क्षेत्र को निचले भाग में खोलते हैं, प्रत्येक में एक बार में एक खुलता है। अकेले, एक क्षेत्र पूरे कॉलम को ले लेता है; कुछ भी न खुलने पर, कॉलम गायब हो जाता है। कॉलम को इसके प्रारंभिक किनारे से चौड़ा किया जाता है, और जो भी उपकरण छोड़ा गया था, वह पृष्ठ के साथ वापस आ जाता है।'
+    horizontal:
+      title: 'ऊपर की ओर फैला हुआ'
+      body: 'क्षितिज का उन्मुखीकरण दिया गया, पट्टी ऊपर की ओर फैली हुई है और डॉक एक पृष्ठ का शरीर है, एक पृष्ठ में लिखा गया--भरना: पट्टी का प्रारंभ जो खोलता है, वह उसके अंत के द्वारा खोले गए की बगल में है, इसके नीचे। एक उपकरण जो किनारे से किनारे खींचा गया है और क्षेत्र की ऊँचाई लेता है - एक संपादक - ऐसा ही भरने के साथ कहता है।'
+    usage:
+      title: उपयोग
+      body: 'एक पृष्ठ अपने उपकरणों का वर्णन अपने page_zones_after ब्लॉक में करता है, और डॉक कॉलम, इसके क्षेत्रों, उनके हैंडल और पट्टी को खींचता है। एक उपकरण दिखाता है कि पृष्ठ ने इसके लिए क्या बनाया (सामग्री), या एक पृष्ठ जो पहली बार खुलने पर लोड हुआ (url)।'
+  tool:
+    source: स्रोत
+    preview: पूर्वावलोकन
+    outline: आउटलाइन
+    search: खोजें
+    detail: विवरण
+    history: इतिहास
+  content:
+    search: 'अभी तक कुछ नहीं खोजा गया।'
+    history: 'कोई परिवर्तन रिकॉर्ड नहीं किया गया।'
+    preview: 'फाइल जैसा कि एक बार प्रस्तुत होने पर पढ़ता है।'
+    line: लाइन
+  field:
+    name: नाम
+    type: प्रकार
+    size: आकार
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'דוק הכלים'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'כלים לאורך קצה של עמוד, כפי שיש ל-IDE: שורת סמלים, כל אחד פותח אזור בעמודה לצד העמוד. השורה בצד ימין של עמוד זה היא אחת כזו.'
+  section:
+    groups:
+      title: 'שתי קבוצות, אחת פתוחה בכל אחת'
+      body: 'הסמלים בחלק העליון של השורה פותחים את האזור שלהם בחלק העליון של העמודה, ואלה שבסוף פותחים בחלק התחתון, אחד פתוח בכל פעם. לבד, אזור תופס את כל העמודה; כשאין כלום פתוח, העמודה נעלמת. העמודה נגררת רחבה מקצה ההתחלה שלה, ומה שכל כלי הושאר עליו חוזר עם העמוד.'
+    horizontal:
+      title: 'שוכב לאורך החלק העליון'
+      body: 'בהתאם לכיוון אופקי, השורה שוכבת לאורך החלק העליון ודוק הכלים הוא גוף העמוד, נכתב בעמוד--מילוי: מה שהתחלת השורה פותחת עומד לצד מה שסופה פותחת, מתחתיו. כלי שנמשך מקצה לקצה ותופס את גובה האזור — עורך — אומר זאת עם מילוי.'
+    usage:
+      title: שימוש
+      body: 'עמוד מתאר את הכלים שלו בחסימת page_zones_after שלו, ודוק הכלים מצייר את העמודה, את האזורים שלה, את הידיות ואת השורה. כלי מציג מה שהעמוד צייר עבורו (תוכן), או עמוד שטען בפעם הראשונה שהוא נפתח (url).'
+  tool:
+    source: מקור
+    preview: 'תצוגה מקדימה'
+    outline: מתאר
+    search: חיפוש
+    detail: פרט
+    history: היסטוריה
+  content:
+    search: 'עדיין לא בוצע חיפוש.'
+    history: 'לא נרשם שינוי.'
+    preview: 'הקובץ כפי שהוא נקרא לאחר רינדור.'
+    line: שורה
+  field:
+    name: שם
+    type: סוג
+    size: גודל
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'پانل ابزار'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'ابزارها در انتهای یک صفحه، همانطور که یک IDE دارد: نوار نمادها، هرکدام یک ناحیه را در ستونی در کنار صفحه باز می‌کند. نوار در سمت راست این صفحه یکی از آن‌هاست.'
+  section:
+    groups:
+      title: 'دو گروه، یکی در هر کدام باز'
+      body: 'نمادهای بالای نوار ناحیه خود را در قسمت بالای ستون باز می‌کنند، آن‌هایی که در پایین هستند در قسمت پایین، به‌طور همزمان یکی در هر کدام باز می‌شود. به‌تنهایی، یک ناحیه کل ستون را می‌گیرد؛ با هیچ چیزی باز، ستون ناپدید می‌شود. ستون از لبه شروع خود عریض‌تر کشیده می‌شود، و آنچه هر ابزاری بر روی آن تنظیم شده با صفحه برمی‌گردد.'
+    horizontal:
+      title: 'در امتداد بالای صفحه'
+      body: 'با تنظیم افقی، نوار در بالای صفحه قرار می‌گیرد و داک بدنه یک صفحه است، نوشته شده در صفحه--پر: آنچه شروع نوار باز می‌کند در کنار آنچه انتهای آن باز می‌کند، زیر آن قرار دارد. ابزاری که از لبه‌ای به لبه دیگر کشیده شده و ارتفاع ناحیه را می‌گیرد — یک ویرایشگر — این را با پر نشان می‌دهد.'
+    usage:
+      title: استفاده
+      body: 'یک صفحه ابزارهای خود را در بلاک page_zones_after توصیف می‌کند و داک ستون، نواحی، دستگیره‌های آن‌ها و نوار را ترسیم می‌کند. یک ابزار آنچه صفحه برای آن ترسیم کرده است (محتوا) یا یک صفحه که برای اولین بار هنگام باز شدن بارگذاری شده است (url) را نمایش می‌دهد.'
+  tool:
+    source: منبع
+    preview: پیش‌نمایش
+    outline: 'طرح کلی'
+    search: جستجو
+    detail: جزئیات
+    history: تاریخچه
+  content:
+    search: 'هنوز چیزی جستجو نشده است.'
+    history: 'تغییری ثبت نشده است.'
+    preview: 'فایل به‌صورت آنچه پس از رندر خوانده می‌شود.'
+    line: خط
+  field:
+    name: نام
+    type: نوع
+    size: اندازه
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ٹول ڈاک'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'صفحه کے آخر میں ٹولز، جیسے کہ IDE میں ہوتے ہیں: آئیکونز کی ایک بار، ہر ایک صفحے کے ساتھ ایک کالم میں ایک زون کھولتا ہے۔ اس صفحے کے دائیں جانب بار ایک ہے۔'
+  section:
+    groups:
+      title: 'دو گروپ، ہر ایک میں ایک کھلا'
+      body: 'بار کے اوپر کے آئیکونز اپنے زون کو کالم کے اوپر کے حصے میں کھولتے ہیں، اس کے نیچے کے حصے میں نیچے کے آئیکونز، ہر ایک وقت میں ایک کھلا۔ اکیلا، ایک زون پورے کالم کو لیتا ہے؛ کچھ بھی کھلا نہ ہونے پر، کالم غائب ہوتا ہے۔ کالم کو اس کے شروع کے کنارے سے چوڑا کیا جاتا ہے، اور جو بھی ٹول چھوڑا گیا تھا وہ صفحے کے ساتھ واپس آتا ہے۔'
+    horizontal:
+      title: 'اوپر کی طرف لیٹا ہوا'
+      body: 'جب افقی سمت دی جائے تو بار اوپر کی طرف لیٹی ہوتی ہے اور ڈاک ایک صفحے کا جسم ہوتا ہے، جس میں صفحے کی بھرائی ہوتی ہے: بار کے شروع کا کھلا ہوا اس کے آخر کے کھولے کے ساتھ ساتھ ہوتا ہے، اس کے نیچے۔ ایک ٹول جو کنارے سے کنارے کھینچا گیا ہے اور زون کی اونچائی لیتا ہے — ایک ایڈیٹر — اس بات کا اشارہ دیتا ہے کہ بھرائی کی گئی ہے۔'
+    usage:
+      title: استعمال
+      body: 'ایک صفحہ اپنے ٹولز کو اپنے page_zones_after بلاک میں بیان کرتا ہے، اور ڈاک کالم، اس کے زونز، ان کے ہینڈلز اور بار کو کھینچتا ہے۔ ایک ٹول وہ دکھاتا ہے جو صفحے نے اس کے لیے بنایا (مواد)، یا ایک صفحہ جو پہلی بار کھولتے وقت لوڈ ہوا (یو آر ایل)۔'
+  tool:
+    source: ذرائع
+    preview: 'پیش نظارہ'
+    outline: خاکہ
+    search: تلاش
+    detail: تفصیل
+    history: تاریخ
+  content:
+    search: 'ابھی تک کچھ نہیں تلاش کیا گیا۔'
+    history: 'کوئی تبدیلی ریکارڈ نہیں کی گئی۔'
+    preview: 'فائل جیسے یہ پڑھتا ہے جب یہ رینڈر ہو جائے۔'
+    line: لائن
+  field:
+    name: نام
+    type: قسم
+    size: سائز
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ツールドック
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: IDEのようにページの端にあるツール：アイコンのバーがあり、それぞれがページの横にある列のゾーンを開きます。このページの右側にあるバーがそれです。
+  section:
+    groups:
+      title: 二つのグループ、各々に一つ開いている
+      body: バーの上部にあるアイコンは列の上部にあるゾーンを開き、下部にあるアイコンは下部のゾーンを開きます。各々一つずつ開くことができます。ゾーンが単独の場合、列全体を占めます。何も開いていないと列は消えます。列は開始エッジから広げられ、各ツールの設定がページと共に戻ります。
+    horizontal:
+      title: 上部に横たわる
+      body: 横向きの配置が与えられた場合、バーは上部に横たわり、ドックはページの本体となります。バーの始まりが開いているものは、その終わりが開いているものの横にあり、その下にあります。エッジからエッジまで引かれ、ゾーンの高さを取るツール—エディタ—はそう示します。
+    usage:
+      title: 使用法
+      body: ページはそのpage_zones_afterブロック内でツールを説明し、ドックは列、そのゾーン、ハンドル、およびバーを描画します。ツールはページが描画したもの（コンテンツ）や、初めて開くときに読み込まれるページ（url）を表示します。
+  tool:
+    source: ソース
+    preview: プレビュー
+    outline: アウトライン
+    search: 検索
+    detail: 詳細
+    history: 履歴
+  content:
+    search: まだ検索されていません。
+    history: 変更は記録されていません。
+    preview: レンダリングされた後のファイルの読み取り結果。
+    line: 行
+  field:
+    name: 名前
+    type: タイプ
+    size: サイズ
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '도구 도크'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: '페이지 끝에 있는 도구들: IDE가 가지고 있는 것처럼 아이콘 바가 있으며, 각 아이콘은 페이지 옆의 열에서 영역을 엽니다. 이 페이지의 오른쪽에 있는 바가 그 예입니다.'
+  section:
+    groups:
+      title: '두 그룹, 각기 하나 열림'
+      body: '바 상단의 아이콘은 열의 상단 부분에서 그 영역을 열고, 하단의 아이콘은 하단 부분에서 열며, 각 영역은 한 번에 하나만 열립니다. 단독으로 영역은 열 전체를 차지하고, 아무것도 열려 있지 않으면 열은 사라집니다. 열의 시작 가장자리에서 더 넓게 드래그할 수 있으며, 각 도구가 남긴 내용은 페이지와 함께 돌아옵니다.'
+    horizontal:
+      title: '상단에 위치'
+      body: '수평 방향이 주어지면, 바는 상단에 위치하며 도크는 페이지의 본체로, 페이지에 작성된 내용으로 채워집니다: 바의 시작 부분이 여는 내용은 끝 부분이 여는 내용 옆에 있으며, 그 아래에 있습니다. 가장자리가 맞닿아 있고 영역의 높이를 차지하는 도구 — 편집기 — 는 채움으로 그렇게 표시합니다.'
+    usage:
+      title: 사용법
+      body: '페이지는 page_zones_after 블록에서 도구를 설명하며, 도크는 열, 그 영역, 핸들 및 바를 그립니다. 도구는 페이지가 그를 위해 그린 것(내용)을 보여주거나, 처음 열릴 때 로드된 페이지(url)를 보여줍니다.'
+  tool:
+    source: 출처
+    preview: 미리보기
+    outline: 개요
+    search: 검색
+    detail: 세부정보
+    history: 기록
+  content:
+    search: '아직 검색된 내용이 없습니다.'
+    history: '변경 사항이 기록되지 않았습니다.'
+    preview: '렌더링된 후 읽히는 파일입니다.'
+    line: 라인
+  field:
+    name: 이름
+    type: 유형
+    size: 크기
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'টুল ডক'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'একটি পৃষ্ঠার শেষে টুলস, যেমন একটি IDE-তে থাকে: আইকনের একটি বার, প্রতিটি একটি কলামে পৃষ্ঠার পাশে একটি অঞ্চল খুলে। এই পৃষ্ঠার ডানদিকে বারটি একটি।'
+  section:
+    groups:
+      title: 'দুটি গ্রুপ, একটি করে উন্মুক্ত'
+      body: 'বারের উপরের আইকনগুলি তাদের অঞ্চলকে কলামের উপরের অংশে খুলে, এর পাদদেশে থাকা আইকনগুলি নীচের অংশে, একটি করে একবারে খোলা হয়। একা, একটি অঞ্চল পুরো কলাম দখল করে; কিছু খোলা না থাকলে, কলামটি চলে যায়। কলামটি এর শুরু প্রান্ত থেকে চওড়া করা হয়, এবং প্রতিটি টুল যেখানে ছিল তা পৃষ্ঠার সাথে ফিরে আসে।'
+    horizontal:
+      title: 'শীর্ষের বরাবর'
+      body: 'যেহেতু দিক horizontal, বারটি শীর্ষ বরাবর থাকে এবং ডকটি একটি পৃষ্ঠার শরীর, একটি পৃষ্ঠায় লেখা--ফিল: বারটির শুরু যা খুলে তা তার শেষ যা খুলে তার পাশে থাকে, এর নিচে। একটি টুল যা প্রান্ত থেকে প্রান্তে এবং অঞ্চলের উচ্চতা গ্রহণ করে — একটি সম্পাদক — এটি ফিলের মাধ্যমে বলে।'
+    usage:
+      title: ব্যবহার
+      body: 'একটি পৃষ্ঠা তার টুলগুলি তার page_zones_after ব্লকে বর্ণনা করে, এবং ডক কলামটি, তার অঞ্চলগুলি, তাদের হ্যান্ডেলগুলি এবং বারটি আঁকে। একটি টুল দেখায় যে পৃষ্ঠা তার জন্য যা অঙ্কন করেছে (বিষয়বস্তু), অথবা একটি পৃষ্ঠা প্রথমবার যখন এটি খোলা হয় (url)।'
+  tool:
+    source: সূত্র
+    preview: পূর্বদর্শন
+    outline: রূপরেখা
+    search: অনুসন্ধান
+    detail: বিস্তারিত
+    history: ইতিহাস
+  content:
+    search: 'এখনও কিছু অনুসন্ধান করা হয়নি।'
+    history: 'কোন পরিবর্তন রেকর্ড করা হয়নি।'
+    preview: 'ফাইলটি যখন রেন্ডার করা হয় তখন এটি কেমন দেখায়।'
+    line: লাইন
+  field:
+    name: নাম
+    type: প্রকার
+    size: আকার
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: เครื่องมือด็อค
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'เครื่องมือที่อยู่ตามขอบของหน้าเหมือนที่ IDE มี: แถบไอคอนที่เปิดโซนในคอลัมน์ข้างๆ หน้า แถบที่อยู่ทางขวาของหน้านี้คือหนึ่งในนั้น'
+  section:
+    groups:
+      title: 'สองกลุ่ม หนึ่งเปิดในแต่ละกลุ่ม'
+      body: 'ไอคอนที่อยู่ด้านบนของแถบจะเปิดโซนของมันในส่วนบนของคอลัมน์ ส่วนที่อยู่ด้านล่างจะเปิดในส่วนล่าง เปิดได้ทีละหนึ่งเท่านั้น โซนที่เปิดอยู่จะใช้คอลัมน์ทั้งหมด หากไม่มีอะไรเปิด คอลัมน์จะหายไป คอลัมน์สามารถลากให้กว้างขึ้นจากขอบเริ่มต้น และสิ่งที่แต่ละเครื่องมือถูกตั้งไว้จะกลับมาเมื่อหน้าโหลดใหม่'
+    horizontal:
+      title: อยู่ตามด้านบน
+      body: 'เมื่อมีการจัดแนวเป็นแนวนอน แถบจะอยู่ตามด้านบนและด็อคคือเนื้อหาของหน้า เขียนในหน้า--เติม: สิ่งที่จุดเริ่มต้นของแถบเปิดจะอยู่ข้างๆ สิ่งที่จุดสิ้นสุดเปิดอยู่ใต้แถบ เครื่องมือที่ลากจากขอบจนถึงขอบและใช้ความสูงของโซน — เช่น โปรแกรมแก้ไข — จะบอกเช่นนั้นด้วยการเติม'
+    usage:
+      title: การใช้งาน
+      body: 'หน้าอธิบายเครื่องมือของมันในบล็อก page_zones_after และด็อคจะวาดคอลัมน์ โซนของมัน ที่จับและแถบ เครื่องมือจะแสดงสิ่งที่หน้าวาดให้มัน (เนื้อหา) หรือหน้าโหลดครั้งแรกเมื่อเปิด (url)'
+  tool:
+    source: แหล่งที่มา
+    preview: ดูตัวอย่าง
+    outline: โครงร่าง
+    search: ค้นหา
+    detail: รายละเอียด
+    history: ประวัติ
+  content:
+    search: ยังไม่มีการค้นหาใดๆ
+    history: ไม่มีการเปลี่ยนแปลงที่บันทึกไว้
+    preview: ไฟล์ตามที่อ่านเมื่อแสดงผลแล้ว
+    line: บรรทัด
+  field:
+    name: ชื่อ
+    type: ประเภท
+    size: ขนาด
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Werkzeugdock
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Werkzeuge am Ende einer Seite, wie sie ein IDE hat: eine Leiste von Symbolen, die jeweils eine Zone in einer Spalte neben der Seite öffnen. Die Leiste auf der rechten Seite dieser Seite ist eine davon.'
+  section:
+    groups:
+      title: 'Zwei Gruppen, eine jeweils geöffnet'
+      body: 'Die Symbole oben in der Leiste öffnen ihre Zone im oberen Teil der Spalte, die unten in ihrem Fuß im unteren Teil, jeweils eine in jedem. Allein nimmt eine Zone die gesamte Spalte ein; wenn nichts geöffnet ist, ist die Spalte weg. Die Spalte kann von ihrer Startkante aus breiter gezogen werden, und was jedes Werkzeug hatte, kommt mit der Seite zurück.'
+    horizontal:
+      title: 'Liegend oben'
+      body: 'Bei horizontaler Ausrichtung liegt die Leiste oben und das Dock ist der Körper einer Seite, geschrieben in einer Seite--füllend: was der Anfang der Leiste öffnet, steht neben dem, was ihr Ende öffnet, darunter. Ein Werkzeug, das randlos gezeichnet ist und die Höhe der Zone einnimmt – ein Editor – sagt das mit Füllung.'
+    usage:
+      title: Verwendung
+      body: 'Eine Seite beschreibt ihre Werkzeuge in ihrem page_zones_after Block, und das Dock zeichnet die Spalte, ihre Zonen, ihre Griffe und die Leiste. Ein Werkzeug zeigt, was die Seite für es gezeichnet hat (Inhalt), oder eine Seite, die beim ersten Öffnen geladen wurde (url).'
+  tool:
+    source: Quelle
+    preview: Vorschau
+    outline: Umriss
+    search: Suche
+    detail: Detail
+    history: Verlauf
+  content:
+    search: 'Noch nichts gesucht.'
+    history: 'Keine Änderung aufgezeichnet.'
+    preview: 'Die Datei, wie sie einmal gerendert gelesen wird.'
+    line: Zeile
+  field:
+    name: Name
+    type: Typ
+    size: Größe
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Työkalupaneeli
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Työkalut sivun lopussa, kuten IDE:ssä: ikonipalkki, joka avaa vyöhykkeen sarakkeessa sivun vieressä. Tämän sivun oikealla puolella oleva palkki on yksi niistä.'
+  section:
+    groups:
+      title: 'Kaksi ryhmää, yksi avoinna kummassakin'
+      body: 'Palkin yläosassa olevat ikonit avaavat vyöhykkeen sarakkeen yläosassa, alhaalla olevat sen alaosassa, yksi kerrallaan kummassakin. Yksin vyöhyke vie koko sarakkeen; kun mikään ei ole auki, sarake häviää. Saraketta voi vetää leveämmäksi sen alareunasta, ja mitä kukin työkalu oli jäljellä, palaa sivun mukana.'
+    horizontal:
+      title: 'Aivan ylhäällä'
+      body: 'Vaaka-orientaation myötä palkki on ylhäällä ja paneeli on sivun runko, kirjoitettuna sivun täyttöön: palkin alku avaa sen vieressä, mitä sen loppu avaa, sen alla. Työkalu, joka on vedetty reunasta reunaan ja ottaa vyöhykkeen korkeuden — esimerkiksi editori — kertoo sen täytteen avulla.'
+    usage:
+      title: Käyttö
+      body: 'Sivu kuvaa työkalujaan sen page_zones_after-lohkossa, ja paneeli piirtää sarakkeen, sen vyöhykkeet, niiden kahvat ja palkin. Työkalu näyttää mitä sivu piirsi sille (sisältö), tai sivun, joka ladattiin ensimmäisen kerran avattaessa (url).'
+  tool:
+    source: Lähde
+    preview: Esikatselu
+    outline: Rakenne
+    search: Haku
+    detail: Yksityiskohta
+    history: Historia
+  content:
+    search: 'Ei vielä haettu mitään.'
+    history: 'Muutoksia ei ole kirjattu.'
+    preview: 'Tiedosto sellaisena kuin se näkyy renderöitynä.'
+    line: Rivi
+  field:
+    name: Nimi
+    type: Tyyppi
+    size: Koko
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Панель инструментов'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Инструменты в конце страницы, как в IDE: панель значков, каждый из которых открывает зону в колонне рядом со страницей. Панель справа от этой страницы — одна из них.'
+  section:
+    groups:
+      title: 'Две группы, по одной открытой в каждой'
+      body: 'Значки в верхней части панели открывают свою зону в верхней части колонны, а те, что внизу — в нижней части, по одной открытой в каждой. Одна зона занимает всю колонну; если ничего не открыто, колонна исчезает. Колонну можно растянуть шире от ее начального края, и то, что осталось от каждого инструмента, вернется с страницей.'
+    horizontal:
+      title: 'Лежит вдоль верха'
+      body: 'При горизонтальной ориентации панель лежит вдоль верха, а док — это тело страницы, написанное в странице — заполнение: то, что открывает начало панели, стоит рядом с тем, что открывает ее конец, под ней. Инструмент, нарисованный от края до края и занимающий высоту зоны — редактор — говорит об этом с помощью заполнения.'
+    usage:
+      title: Использование
+      body: 'Страница описывает свои инструменты в блоке page_zones_after, а док рисует колонну, ее зоны, их ручки и панель. Инструмент показывает то, что страница нарисовала для него (контент), или страницу, загруженную в первый раз при открытии (url).'
+  tool:
+    source: Источник
+    preview: 'Предварительный просмотр'
+    outline: Контур
+    search: Поиск
+    detail: Детали
+    history: История
+  content:
+    search: 'Пока ничего не искали.'
+    history: 'Изменения не зафиксированы.'
+    preview: 'Файл, как он читается после рендеринга.'
+    line: Строка
+  field:
+    name: Имя
+    type: Тип
+    size: Размер
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dock narzędzi'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Narzędzia wzdłuż końca strony, tak jak ma to IDE: pasek ikon, z których każda otwiera strefę w kolumnie obok strony. Pasek po prawej stronie tej strony jest jednym z nich.'
+  section:
+    groups:
+      title: 'Dwie grupy, jedna otwarta w każdej'
+      body: 'Ikony na górze paska otwierają swoją strefę w górnej części kolumny, te na jego końcu w dolnej części, jedna otwarta na raz w każdej. Sama strefa zajmuje całą kolumnę; przy braku otwartych stref, kolumna znika. Kolumna jest przeciągana szerzej od swojego początkowego krawędzi, a to, co każde narzędzie miało, powraca z stroną.'
+    horizontal:
+      title: 'Leżący wzdłuż góry'
+      body: 'Przy poziomej orientacji, pasek leży wzdłuż góry, a dock jest ciałem strony, zapisanym w stronie--wypełnieniu: to, co otwiera początek paska, stoi obok tego, co otwiera jego koniec, pod nim. Narzędzie narysowane od krawędzi do krawędzi i zajmujące wysokość strefy — edytor — mówi to za pomocą wypełnienia.'
+    usage:
+      title: Użycie
+      body: 'Strona opisuje swoje narzędzia w bloku page_zones_after, a dock rysuje kolumnę, jej strefy, ich uchwyty i pasek. Narzędzie pokazuje to, co strona narysowała dla niego (zawartość), lub stronę załadowaną po raz pierwszy, gdy się otwiera (url).'
+  tool:
+    source: Źródło
+    preview: Podgląd
+    outline: Zarys
+    search: Szukaj
+    detail: Szczegóły
+    history: Historia
+  content:
+    search: 'Nic jeszcze nie wyszukano.'
+    history: 'Brak zapisanej zmiany.'
+    preview: 'Plik tak, jak się odczytuje po renderowaniu.'
+    line: Linia
+  field:
+    name: Nazwa
+    type: Typ
+    size: Rozmiar
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dock de herramientas'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Herramientas a lo largo del final de una página, como las que tiene un IDE: una barra de íconos, cada uno abriendo una zona en una columna al lado de la página. La barra a la derecha de esta página es una.'
+  section:
+    groups:
+      title: 'Dos grupos, uno abierto en cada uno'
+      body: 'Los íconos en la parte superior de la barra abren su zona en la parte superior de la columna, aquellos en su pie en la parte inferior, uno abierto a la vez en cada uno. Solo, una zona ocupa toda la columna; con nada abierto, la columna desaparece. La columna se arrastra más ancha desde su borde inicial, y lo que cada herramienta tenía se recupera con la página.'
+    horizontal:
+      title: 'Acostado en la parte superior'
+      body: 'Con orientación horizontal, la barra se encuentra a lo largo de la parte superior y el dock es el cuerpo de una página, escrito en una página--relleno: lo que el inicio de la barra abre se encuentra al lado de lo que su final abre, debajo de ella. Una herramienta dibujada de borde a borde y ocupando la altura de la zona — un editor — lo indica con relleno.'
+    usage:
+      title: Uso
+      body: 'Una página describe sus herramientas en su bloque page_zones_after, y el dock dibuja la columna, sus zonas, sus manijas y la barra. Una herramienta muestra lo que la página dibujó para ella (contenido), o una página cargada la primera vez que se abre (url).'
+  tool:
+    source: Fuente
+    preview: 'Vista previa'
+    outline: Esquema
+    search: Buscar
+    detail: Detalle
+    history: Historial
+  content:
+    search: 'Nada buscado aún.'
+    history: 'No se registró ningún cambio.'
+    preview: 'El archivo tal como se lee una vez renderizado.'
+    line: Línea
+  field:
+    name: Nombre
+    type: Tipo
+    size: Tamaño
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dock degli strumenti'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Strumenti lungo la fine di una pagina, come in un IDE: una barra di icone, ciascuna apre una zona in una colonna accanto alla pagina. La barra a destra di questa pagina è una di esse.'
+  section:
+    groups:
+      title: 'Due gruppi, uno aperto in ciascuno'
+      body: "Le icone in cima alla barra aprono la loro zona nella parte superiore della colonna, quelle in fondo nella parte inferiore, una aperta alla volta in ciascuna. Da sole, una zona occupa l'intera colonna; con nulla aperto, la colonna scompare. La colonna può essere allargata dal suo bordo iniziale, e ciò che ogni strumento aveva impostato torna con la pagina."
+    horizontal:
+      title: 'Distesa lungo la parte superiore'
+      body: "Data l'orientazione orizzontale, la barra si distende lungo la parte superiore e il dock è il corpo di una pagina, scritta in una pagina--riempi: ciò che l'inizio della barra apre sta accanto a ciò che la sua fine apre, sotto di essa. Uno strumento disegnato da bordo a bordo e che prende l'altezza della zona — un editor — lo indica con il riempimento."
+    usage:
+      title: Utilizzo
+      body: 'Una pagina descrive i suoi strumenti nel suo blocco page_zones_after, e il dock disegna la colonna, le sue zone, le loro maniglie e la barra. Uno strumento mostra ciò che la pagina ha disegnato per esso (contenuto), o una pagina caricata la prima volta che si apre (url).'
+  tool:
+    source: Fonte
+    preview: Anteprima
+    outline: Schema
+    search: Cerca
+    detail: Dettaglio
+    history: Cronologia
+  content:
+    search: 'Niente cercato finora.'
+    history: 'Nessuna modifica registrata.'
+    preview: 'Il file così come si legge una volta renderizzato.'
+    line: Linea
+  field:
+    name: Nome
+    type: Tipo
+    size: Dimensione
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dock de ferramentas'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Ferramentas ao longo do final de uma página, como um IDE as tem: uma barra de ícones, cada uma abrindo uma zona em uma coluna ao lado da página. A barra à direita desta página é uma delas.'
+  section:
+    groups:
+      title: 'Dois grupos, um aberto em cada'
+      body: 'Os ícones na parte superior da barra abrem sua zona na parte superior da coluna, aqueles na parte inferior na parte inferior, um aberto por vez em cada. Sozinha, uma zona ocupa toda a coluna; com nada aberto, a coluna desaparece. A coluna é arrastada para ficar mais larga a partir de sua borda inicial, e o que cada ferramenta estava configurada volta com a página.'
+    horizontal:
+      title: 'Deitado ao longo do topo'
+      body: 'Com a orientação horizontal, a barra fica ao longo do topo e o dock é o corpo de uma página, escrito em uma página--preencher: o que o início da barra abre fica ao lado do que seu fim abre, abaixo dele. Uma ferramenta desenhada de borda a borda e ocupando a altura da zona — um editor — diz isso com preenchimento.'
+    usage:
+      title: Uso
+      body: 'Uma página descreve suas ferramentas em seu bloco page_zones_after, e o dock desenha a coluna, suas zonas, suas alças e a barra. Uma ferramenta mostra o que a página desenhou para ela (conteúdo), ou uma página carregada da primeira vez que é aberta (url).'
+  tool:
+    source: Fonte
+    preview: Prévia
+    outline: Esboço
+    search: Pesquisar
+    detail: Detalhe
+    history: Histórico
+  content:
+    search: 'Nada pesquisado ainda.'
+    history: 'Nenhuma alteração registrada.'
+    preview: 'O arquivo como é lido uma vez renderizado.'
+    line: Linha
+  field:
+    name: Nome
+    type: Tipo
+    size: Tamanho
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Araç rıhtımı'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: "Bir sayfanın sonunda bulunan araçlar, bir IDE'de olduğu gibi: her biri sayfanın yanındaki bir sütunda bir alan açan simgelerden oluşan bir çubuk. Bu sayfanın sağındaki çubuk böyle bir çubuktur."
+  section:
+    groups:
+      title: 'İki grup, her birinde biri açık'
+      body: 'Çubuğun üst kısmındaki simgeler, sütunun üst kısmındaki alanlarını açar, alt kısmındaki simgeler ise alt kısımda açar, her seferinde bir tane açık olur. Tek başına bir alan sütunu tamamen kaplar; hiçbir şey açık değilse, sütun kaybolur. Sütun, başlangıç kenarından daha geniş hale getirilir ve her aracın bırakıldığı yer sayfa ile geri gelir.'
+    horizontal:
+      title: 'Üst kısımda yatay'
+      body: 'Yatay bir yönlendirme verildiğinde, çubuk üst kısımda yer alır ve rıhtım, bir sayfanın gövdesidir, bir sayfa içinde yazılmıştır: çubuğun başlangıcı, sonunun açtığı şeyin yanında durur, onun altında. Kenar kenara çekilmiş ve alanın yüksekliğini alan bir araç — bir editör — dolgu ile bunu belirtir.'
+    usage:
+      title: Kullanım
+      body: 'Bir sayfa, araçlarını page_zones_after bloğunda tanımlar ve rıhtım, sütunu, alanlarını, tutacaklarını ve çubuğu çizer. Bir araç, sayfanın kendisi için çizdiğini (içerik) veya ilk kez açıldığında yüklenen bir sayfayı (url) gösterir.'
+  tool:
+    source: Kaynak
+    preview: Önizleme
+    outline: Taslak
+    search: Ara
+    detail: Detay
+    history: Geçmiş
+  content:
+    search: 'Henüz hiçbir şey aranmadı.'
+    history: 'Hiçbir değişiklik kaydedilmedi.'
+    preview: 'Dosya, bir kez işlendiğinde nasıl okunuyorsa öyle.'
+    line: Satır
+  field:
+    name: İsim
+    type: Tür
+    size: Boyut
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Bảng công cụ'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Các công cụ nằm ở cuối trang, giống như trong IDE: một thanh biểu tượng, mỗi biểu tượng mở một khu vực trong cột bên cạnh trang. Thanh ở bên phải của trang này là một ví dụ.'
+  section:
+    groups:
+      title: 'Hai nhóm, mỗi nhóm mở một'
+      body: 'Các biểu tượng ở đầu thanh mở khu vực của chúng ở phần trên của cột, các biểu tượng ở dưới cùng mở ở phần dưới, mỗi lần chỉ mở một. Một khu vực đơn lẻ chiếm toàn bộ cột; khi không có gì được mở, cột sẽ biến mất. Cột có thể được kéo rộng từ cạnh bắt đầu của nó, và những gì mỗi công cụ để lại sẽ trở lại cùng với trang.'
+    horizontal:
+      title: 'Nằm ngang ở trên cùng'
+      body: 'Khi có hướng ngang, thanh nằm ngang ở trên cùng và bảng công cụ là phần thân của trang, được viết trong một trang--điền: những gì đầu của thanh mở nằm bên cạnh những gì cuối của nó mở, bên dưới nó. Một công cụ kéo dài từ cạnh này đến cạnh kia và chiếm chiều cao của khu vực — một trình chỉnh sửa — nói như vậy với phần điền.'
+    usage:
+      title: 'Cách sử dụng'
+      body: 'Một trang mô tả các công cụ của nó trong khối page_zones_after, và bảng công cụ vẽ cột, các khu vực của nó, các tay cầm của chúng và thanh. Một công cụ hiển thị những gì trang đã vẽ cho nó (nội dung), hoặc một trang được tải lần đầu tiên khi mở (url).'
+  tool:
+    source: Nguồn
+    preview: 'Xem trước'
+    outline: 'Đề cương'
+    search: 'Tìm kiếm'
+    detail: 'Chi tiết'
+    history: 'Lịch sử'
+  content:
+    search: 'Chưa tìm kiếm gì cả.'
+    history: 'Không có thay đổi nào được ghi lại.'
+    preview: 'Tệp như nó đọc khi đã được hiển thị.'
+    line: Dòng
+  field:
+    name: Tên
+    type: Loại
+    size: 'Kích thước'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Dock Alat'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Alat-alat di sepanjang akhir halaman, seperti yang dimiliki IDE: sebuah bilah ikon, masing-masing membuka zona di kolom di samping halaman. Bilah di sebelah kanan halaman ini adalah salah satunya.'
+  section:
+    groups:
+      title: 'Dua grup, satu terbuka di masing-masing'
+      body: 'Ikon di bagian atas bilah membuka zona mereka di bagian atas kolom, yang di bagian bawah membuka di bagian bawah, satu terbuka pada satu waktu di masing-masing. Sendirian, sebuah zona mengambil seluruh kolom; dengan tidak ada yang terbuka, kolom menghilang. Kolom dapat diseret lebih lebar dari tepi awalnya, dan apa yang ditinggalkan masing-masing alat akan kembali dengan halaman.'
+    horizontal:
+      title: 'Berbaring di sepanjang atas'
+      body: 'Dengan orientasi horizontal, bilah berbaring di sepanjang atas dan dock adalah bagian dari halaman, ditulis dalam halaman--isi: apa yang dibuka oleh awal bilah berdampingan dengan apa yang dibuka oleh akhirnya, di bawahnya. Sebuah alat yang ditarik dari tepi ke tepi dan mengambil tinggi zona — sebuah editor — mengatakan demikian dengan isi.'
+    usage:
+      title: Penggunaan
+      body: 'Sebuah halaman menjelaskan alat-alatnya di blok page_zones_after, dan dock menggambar kolom, zona-zonanya, pegangan mereka dan bilah. Sebuah alat menunjukkan apa yang digambar halaman untuknya (konten), atau sebuah halaman yang dimuat pertama kali saat dibuka (url).'
+  tool:
+    source: Sumber
+    preview: Prabaca
+    outline: 'Garis Besar'
+    search: Cari
+    detail: Detail
+    history: Riwayat
+  content:
+    search: 'Belum ada yang dicari.'
+    history: 'Tidak ada perubahan yang tercatat.'
+    preview: 'File seperti yang dibaca setelah dirender.'
+    line: Baris
+  field:
+    name: Nama
+    type: Tipe
+    size: Ukuran
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Hulpmiddelen dock'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'Hulpmiddelen langs het einde van een pagina, zoals een IDE die heeft: een balk met pictogrammen, elk opent een zone in een kolom naast de pagina. De balk aan de rechterkant van deze pagina is er één.'
+  section:
+    groups:
+      title: 'Twee groepen, één open in elke'
+      body: 'De pictogrammen bovenaan de balk openen hun zone in het bovenste gedeelte van de kolom, die aan de voet in het onderste gedeelte, één tegelijk in elke. Alleen neemt een zone de hele kolom; als er niets open is, is de kolom verdwenen. De kolom wordt breder getrokken vanaf de startrand, en wat elk hulpmiddel was, komt terug met de pagina.'
+    horizontal:
+      title: 'Liggend langs de bovenkant'
+      body: 'Gegeven dat de oriëntatie horizontaal is, ligt de balk langs de bovenkant en is het dock het lichaam van een pagina, geschreven in een pagina--vullen: wat het begin van de balk opent staat naast wat het einde opent, eronder. Een hulpmiddel dat van rand tot rand getekend is en de hoogte van de zone neemt — een editor — zegt dat zo met vullen.'
+    usage:
+      title: Gebruik
+      body: 'Een pagina beschrijft zijn hulpmiddelen in zijn page_zones_after-blok, en het dock tekent de kolom, zijn zones, hun handvatten en de balk. Een hulpmiddel toont wat de pagina voor het heeft getekend (inhoud), of een pagina die voor het eerst wordt geladen wanneer deze opent (url).'
+  tool:
+    source: Bron
+    preview: Voorbeeld
+    outline: Omtrek
+    search: Zoeken
+    detail: Detail
+    history: Geschiedenis
+  content:
+    search: 'Nog niets gezocht.'
+    history: 'Geen wijziging geregistreerd.'
+    preview: 'Het bestand zoals het leest zodra het gerenderd is.'
+    line: Regel
+  field:
+    name: Naam
+    type: Type
+    size: Grootte

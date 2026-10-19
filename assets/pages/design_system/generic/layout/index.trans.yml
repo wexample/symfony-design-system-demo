@@ -57,6 +57,9 @@ bn:
   page_icon: 'ph:bold/layout'
   intro: 'একটি পৃষ্ঠা কিভাবে বিভক্ত হয়। এই আকৃতিগুলি বিষয়বস্তু না নিয়ে অঞ্চল গ্রহণ করে: তারা বলছে জিনিসগুলি কোথায় অবস্থান করছে, এবং সেখানে কি আছে তা জানে না।'
   page:
+    focus:
+      title: ফোকাস
+      description: 'করার জন্য একটি জিনিস এবং এর চারপাশে কিছুই নেই: একটি অঞ্চল হিসাবে উইন্ডো, এর মাঝখানে একটি কার্ড।'
     zones:
       title: জোন
       description: 'দুই-প্যানের কাজের স্থান: একটি বিভাজিত, একটি আকারযুক্ত কলাম, একটি স্ক্রলযোগ্য দেহ। একটি অ্যাপে প্রতিটি অনুসন্ধানকারী, সম্পাদক এবং বিস্তারিত দৃশ্য যা তৈরি হয়।'
@@ -79,6 +82,9 @@ de:
   page_icon: 'ph:bold/layout'
   intro: 'Wie eine Seite unterteilt ist. Diese Formen nehmen Bereiche statt Inhalte ein: sie zeigen, wo Dinge stehen, und wissen nichts darüber, was dort steht.'
   page:
+    focus:
+      title: Fokus
+      description: 'Eine Sache zu erledigen und nichts drumherum: das Fenster als eine Region, eine Karte in der Mitte.'
     zones:
       title: Zonen
       description: 'Der Arbeitsbereich mit zwei Fenstern: eine Teilung, eine formatierte Spalte, ein scrollbarer Bereich. Darauf basieren alle Explorer, Editor und Detailansichten in einer App.'
@@ -101,6 +107,9 @@ es:
   page_icon: 'ph:bold/layout'
   intro: 'Cómo se divide una página. Estas formas ocupan regiones en lugar de contenido: indican dónde están las cosas y no saben nada de lo que hay allí.'
   page:
+    focus:
+      title: Enfoque
+      description: 'Una cosa por hacer y nada alrededor: la ventana como una región, una tarjeta en su medio.'
     zones:
       title: Zonas
       description: 'El espacio de trabajo de dos paneles: un dividido, una columna de tamaño definido, un cuerpo desplazable. En lo que se basa cada explorador, editor y vista de detalle en una aplicación.'
@@ -123,6 +132,9 @@ fa:
   page_icon: 'ph:bold/layout'
   intro: 'چگونه یک صفحه تقسیم می‌شود. این شکل‌ها نواحی را به جای محتوا می‌گیرند: آن‌ها می‌گویند چیزها کجا قرار دارند و هیچ چیز از آنچه در آنجا ایستاده‌اند نمی‌دانند.'
   page:
+    focus:
+      title: تمرکز
+      description: 'یک کار برای انجام دادن و هیچ چیز دیگری در اطراف: پنجره به عنوان یک منطقه، یک کارت در وسط آن.'
     zones:
       title: زون‌ها
       description: 'فضای کاری دو قسمتی: یک تقسیم، یک ستون اندازه‌دار، یک بدنه قابل اسکرول. هر کاوشگر، ویرایشگر و نمای جزئی در یک برنامه بر اساس این ساخته شده است.'
@@ -145,6 +157,9 @@ fi:
   page_icon: 'ph:bold/layout'
   intro: 'Miten sivu jakautuu. Nämä muodot vievät alueita eivätkä sisältöä: ne sanovat, missä asiat sijaitsevat, eivätkä tiedä, mitä siellä on.'
   page:
+    focus:
+      title: Keskity
+      description: 'Yksi asia tehtäväksi ja ei mitään ympärillä: ikkuna yhtenä alueena, kortti sen keskellä.'
     zones:
       title: Alueet
       description: 'Kaksiosainen työtila: jakautunut, mitoitettu sarake, vieritettävä sisältö. Mikä tahansa explorer, editor ja yksityiskohtanäkymä sovelluksessa perustuu tähän.'
@@ -192,6 +207,9 @@ he:
   page_icon: 'ph:bold/layout'
   intro: 'איך דף מחולק. הצורות הללו תופסות אזורים ולא תוכן: הן מציינות היכן הדברים נמצאים, ואינן יודעות מה נמצא שם.'
   page:
+    focus:
+      title: מיקוד
+      description: 'דבר אחד לעשות ושום דבר מסביב: החלון כאזור אחד, כרטיס במרכזו.'
     zones:
       title: אזורים
       description: 'סביבת עבודה עם שני פאנלים: עמודה מחולקת, עמודה ממדי, גוף ניתן לגלילה. על מה שכל חוקר, עורך ותצוגת פרטים באפליקציה בנויה.'
@@ -214,6 +232,9 @@ hi:
   page_icon: 'ph:bold/layout'
   intro: 'एक पृष्ठ कैसे विभाजित होता है। ये आकृतियाँ क्षेत्रों को लेती हैं न कि सामग्री को: वे बताती हैं कि चीजें कहां हैं, और यह नहीं जानती कि वहां क्या है।'
   page:
+    focus:
+      title: 'ध्यान केंद्रित करें'
+      description: 'एक काम करना है और इसके चारों ओर कुछ नहीं: एक क्षेत्र के रूप में विंडो, इसके बीच में एक कार्ड।'
     zones:
       title: क्षेत्र
       description: 'दो-पैन कार्यक्षेत्र: एक विभाजन, एक आकार का कॉलम, एक स्क्रॉल करने योग्य शरीर। जो हर अन्वेषक, संपादक और ऐप में विवरण दृश्य पर आधारित है।'
@@ -236,6 +257,9 @@ id:
   page_icon: 'ph:bold/layout'
   intro: 'Bagaimana sebuah halaman dibagi. Bentuk-bentuk ini mengambil wilayah daripada konten: mereka menunjukkan posisi sesuatu, dan tidak tahu apa yang berada di sana.'
   page:
+    focus:
+      title: Fokus
+      description: 'Satu hal untuk dilakukan dan tidak ada yang mengelilinginya: jendela sebagai satu wilayah, sebuah kartu di tengahnya.'
     zones:
       title: Zona
       description: 'Workspace dua panel: sebuah pembagian, kolom berukuran, tubuh yang dapat digulir. Apa yang menjadi dasar setiap penjelajah, editor, dan tampilan detail dalam aplikasi.'
@@ -258,6 +282,9 @@ it:
   page_icon: 'ph:bold/layout'
   intro: "Come è divisa una pagina. Queste forme occupano spazi piuttosto che contenuti: indicano dove si trovano le cose e non sanno nulla di ciò che c'è."
   page:
+    focus:
+      title: Focus
+      description: "Un'unica cosa da fare e nulla attorno: la finestra come un'unica area, una scheda al suo centro."
     zones:
       title: Zone
       description: "L'area di lavoro a due pannelli: una divisione, una colonna dimensionata, un corpo scorrevole. Su cui si basa ogni esploratore, editor e vista dettagliata in un'app."
@@ -280,6 +307,9 @@ ja:
   page_icon: 'ph:bold/layout'
   intro: ページがどのように分けられるか。これらの形はコンテンツではなく領域を取ります：物がどこにあるかを示し、そこに何があるかは知りません。
   page:
+    focus:
+      title: 集中
+      description: 'やるべきことは一つだけ、周りには何もない: ウィンドウは一つの領域、真ん中にはカードがあります。'
     zones:
       title: ゾーン
       description: 二分割のワークスペース：分割され、サイズのあるカラム、スクロール可能なボディ。アプリのすべてのエクスプローラー、エディター、および詳細ビューはこれに基づいています。
@@ -302,6 +332,9 @@ ko:
   page_icon: 'ph:bold/layout'
   intro: '페이지가 어떻게 나뉘는지에 대한 설명. 이 형태는 콘텐츠가 아닌 영역을 차지하며, 사물이 어디에 위치하는지를 나타내고, 그곳에 무엇이 있는지는 알지 못합니다.'
   page:
+    focus:
+      title: 집중
+      description: '해야 할 한 가지와 그 주위에는 아무것도 없는 상태: 창은 하나의 영역이며, 그 중앙에 카드가 있습니다.'
     zones:
       title: 존
       description: '두 개의 패널로 구성된 작업 공간: 분할된 크기 열과 스크롤 가능한 본문. 모든 탐색기, 편집기 및 앱의 세부 정보 뷰가 기반하는 것입니다.'
@@ -324,6 +357,9 @@ nl:
   page_icon: 'ph:bold/layout'
   intro: 'Hoe een pagina is verdeeld. Deze vormen nemen gebieden in plaats van inhoud: ze geven aan waar dingen staan, en weten niet wat daar staat.'
   page:
+    focus:
+      title: Focus
+      description: 'Één ding te doen en verder niets: het venster als één regio, een kaart in het midden.'
     zones:
       title: Zones
       description: 'De werkruimte met twee panelen: een split, een gekleurde kolom, een scrollbare inhoud. Waarop elke verkenner, editor en detailweergave in een app is gebouwd.'
@@ -346,6 +382,9 @@ pl:
   page_icon: 'ph:bold/layout'
   intro: 'Jak strona jest podzielona. Te kształty zajmują obszary, a nie treści: wskazują, gdzie co stoi, i nic nie wiedzą o tym, co tam stoi.'
   page:
+    focus:
+      title: Skupienie
+      description: 'Jedna rzecz do zrobienia i nic wokół: okno jako jeden obszar, karta pośrodku.'
     zones:
       title: Strefy
       description: 'Dwupanelowe miejsce pracy: podział, kolumna o określonym rozmiarze, przewijalne ciało. Na czym opiera się każdy eksplorator, edytor i widok szczegółowy w aplikacji.'
@@ -368,6 +407,9 @@ pt_BR:
   page_icon: 'ph:bold/layout'
   intro: 'Como uma página é dividida. Essas formas ocupam regiões ao invés de conteúdo: elas indicam onde as coisas estão e não sabem nada sobre o que está lá.'
   page:
+    focus:
+      title: Foco
+      description: 'Uma coisa a fazer e nada ao redor: a janela como uma região, um cartão no meio dela.'
     zones:
       title: Zonas
       description: 'O espaço de trabalho em duas partes: uma divisão, uma coluna dimensionada, um corpo rolável. O que cada explorador, editor e visualização de detalhe em um aplicativo é construído.'
@@ -390,6 +432,9 @@ ru:
   page_icon: 'ph:bold/layout'
   intro: 'Как страница разделена. Эти формы занимают области, а не содержимое: они указывают, где что находится, и ничего не знают о том, что там стоит.'
   page:
+    focus:
+      title: Фокус
+      description: 'Одна задача и ничего вокруг: окно как одна область, карточка в его центре.'
     zones:
       title: Зоны
       description: 'Рабочее пространство с двумя панелями: разделенное, колонка заданного размера, прокручиваемое тело. На чем основаны все эксплореры, редакторы и представления деталей в приложении.'
@@ -412,6 +457,9 @@ th:
   page_icon: 'ph:bold/layout'
   intro: 'วิธีการแบ่งหน้า หน้าเหล่านี้ใช้พื้นที่มากกว่าคอนเทนต์: มันบอกว่ามีสิ่งใดอยู่ที่ไหน และไม่รู้ว่ามีอะไรอยู่ตรงนั้น'
   page:
+    focus:
+      title: จดจ่อ
+      description: 'สิ่งเดียวที่ต้องทำและไม่มีสิ่งรอบข้าง: หน้าต่างเป็นหนึ่งพื้นที่ การ์ดอยู่กลาง.'
     zones:
       title: โซน
       description: 'พื้นที่ทำงานแบบสองบาน: แบ่ง, คอลัมน์ขนาด, เนื้อหาที่เลื่อนดูได้ สิ่งที่นักสำรวจ, บรรณาธิการ และการดูรายละเอียดในแอปทุกตัวสร้างขึ้นมา'
@@ -434,6 +482,9 @@ tr:
   page_icon: 'ph:bold/layout'
   intro: 'Bir sayfanın nasıl bölündüğü. Bu şekiller içerikten ziyade alan alır: nerede ne olduğunu söyler ve orada ne olduğunu bilmez.'
   page:
+    focus:
+      title: Odak
+      description: 'Yapılacak bir şey ve etrafında hiçbir şey yok: pencere bir alan olarak, ortasında bir kart.'
     zones:
       title: Bölgeler
       description: 'İki bölmeli çalışma alanı: bölünmüş, boyutlandırılmış bir sütun, kaydırılabilir bir gövde. Bir uygulamadaki her gezgin, editör ve detay görünümü bunun üzerine inşa edilmiştir.'
@@ -456,6 +507,9 @@ ur:
   page_icon: 'ph:bold/layout'
   intro: 'ایک صفحہ کس طرح تقسیم ہوتا ہے۔ یہ اشکال علاقوں کو لیتے ہیں نہ کہ مواد: یہ بتاتے ہیں کہ چیزیں کہاں ہیں، اور اس بارے میں کچھ نہیں جانتے کہ وہاں کیا ہے۔'
   page:
+    focus:
+      title: فوکس
+      description: 'ایک کام کرنا ہے اور اس کے اردگرد کچھ نہیں: ایک علاقے کے طور پر ونڈو، اس کے درمیان ایک کارڈ۔'
     zones:
       title: زونز
       description: 'دو پین ورک اسپیس: ایک تقسیم، ایک سائز دیا گیا کالم، ایک سکرول کرنے والا جسم۔ ہر ایک ایکسپلورر، ایڈیٹر اور ایپ میں تفصیلی منظر جس پر یہ بنایا گیا ہے۔'
@@ -478,6 +532,9 @@ vi:
   page_icon: 'ph:bold/layout'
   intro: 'Cách một trang được chia ra. Những hình dạng này chiếm các khu vực thay vì nội dung: chúng cho biết vị trí của mọi thứ, và không biết gì về những gì đứng ở đó.'
   page:
+    focus:
+      title: 'Tập trung'
+      description: 'Một việc cần làm và không có gì xung quanh: cửa sổ như một khu vực, một thẻ ở giữa.'
     zones:
       title: 'Khu vực'
       description: 'Không gian làm việc hai ngăn: một sự chia tách, một cột có kích thước, một thân cuộn. Những gì mà mọi trình khám phá, trình chỉnh sửa và chế độ xem chi tiết trong một ứng dụng được xây dựng trên đó.'

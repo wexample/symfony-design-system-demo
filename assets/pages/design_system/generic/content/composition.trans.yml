@@ -171,7 +171,16 @@ bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: সংকলন
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'স্ক্যান করতে পারছেন না? অ্যাপে এই কীটি টাইপ করুন:'
+    link:
+      question: 'বোতাম খুলছে না?'
+      value: 'এখান থেকে পৃষ্ঠা খুলুন'
   section:
+    fallback:
+      title: ফলব্যাক
+      description: 'অন্য উপায়, যখন প্রথমটি ব্যর্থ হয়: প্রশ্ন, তারপর এক ক্লিকেই কপি করা একটি মান, অথবা একটি লিঙ্ক। যা এর জন্য রয়েছে তার ঠিক নিচে, এর সাথে সঙ্গতিপূর্ণ।'
     vue:
       title: ভিউ
       description: 'ছবি এবং কোড ব্লক ভিউ পার্সিয়াল হিসাবে, একই অপশন নিয়ে।'
@@ -242,7 +251,16 @@ de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Zusammensetzung
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Kann nicht scannen? Geben Sie diesen Schlüssel in der App ein:'
+    link:
+      question: 'Der Button öffnet sich nicht?'
+      value: 'Öffnen Sie die Seite von hier'
   section:
+    fallback:
+      title: Fallback
+      description: 'Der andere Weg, wenn der erste fehlschlägt: die Frage, dann ein Wert, der mit einem Klick kopiert wird, oder ein Link. Direkt unter dem, wofür es steht, ausgerichtet.'
     vue:
       title: Vue
       description: 'Das Bild und der Codeblock als Vue-Teile, die dieselben Optionen verwenden.'
@@ -313,7 +331,16 @@ es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Composición
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: '¿No se puede escanear? Escribe esta clave en la aplicación:'
+    link:
+      question: '¿El botón no se abre?'
+      value: 'Abre la página desde aquí'
   section:
+    fallback:
+      title: Fallback
+      description: 'La otra forma, cuando la primera falla: la pregunta, luego un valor copiado con un clic, o un enlace. Justo debajo de lo que representa, alineado con ello.'
     vue:
       title: Vue
       description: 'La imagen y el bloque de código como parciales de vue, tomando las mismas opciones.'
@@ -384,7 +411,16 @@ fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ترکیب
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'نمی‌توانید اسکن کنید؟ این کلید را در برنامه وارد کنید:'
+    link:
+      question: 'دکمه باز نمی‌شود؟'
+      value: 'صفحه را از اینجا باز کنید'
   section:
+    fallback:
+      title: جایگزین
+      description: 'راه دیگر، زمانی که اولی کار نمی‌کند: سوال، سپس مقداری که با یک کلیک کپی شده، یا یک لینک. درست زیر آنچه که نمایندگی می‌کند، در راستای آن.'
     vue:
       title: Vue
       description: 'عکس و کد بلاک به عنوان جزئیات vue، با گزینه‌های یکسان.'
@@ -455,7 +491,16 @@ fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Koostumus
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Ei voi skannata? Kirjoita tämä avain sovellukseen:'
+    link:
+      question: 'Painiketta ei avata?'
+      value: 'Avaa sivu tästä'
   section:
+    fallback:
+      title: Varatoiminto
+      description: 'Toinen tapa, kun ensimmäinen epäonnistuu: kysymys, sitten arvo, joka on kopioitu yhdellä napsautuksella, tai linkki. Suoraan sen alle, mitä se edustaa, linjattuna sen kanssa.'
     vue:
       title: Vue
       description: 'Kuva ja koodilohko vue-osina, jotka käyttävät samoja asetuksia.'
@@ -607,7 +652,16 @@ he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: קומפוזיציה
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'לא מצליח לסרוק? הקלד את המפתח הזה באפליקציה:'
+    link:
+      question: 'הכפתור לא נפתח?'
+      value: 'פתח את הדף מכאן'
   section:
+    fallback:
+      title: גיבוי
+      description: 'הדרך השנייה, כאשר הראשונה נכשלת: השאלה, ואז ערך שהועתק בלחיצה אחת, או קישור. ממש מתחת למה שהוא מייצג, מיושר איתו.'
     vue:
       title: Vue
       description: 'התמונה וחבילת הקוד כפרטי Vue, עם אותן אפשרויות.'
@@ -678,7 +732,16 @@ hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: संरचना
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'स्कैन नहीं कर पा रहे हैं? ऐप में यह कुंजी टाइप करें:'
+    link:
+      question: 'बटन खुल नहीं रहा है?'
+      value: 'यहां से पृष्ठ खोलें'
   section:
+    fallback:
+      title: फॉल्बैक
+      description: 'दूसरा तरीका, जब पहला विफल हो जाता है: प्रश्न, फिर एक क्लिक में कॉपी किया गया मान, या एक लिंक। इसके लिए जो खड़ा है उसके ठीक नीचे, इसके साथ संरेखित।'
     vue:
       title: व्यू
       description: 'चित्र और कोड ब्लॉक को vue भागों के रूप में, समान विकल्प लेते हुए।'
@@ -749,7 +812,16 @@ id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Komposisi
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Tidak bisa dipindai? Ketik kunci ini di aplikasi:'
+    link:
+      question: 'Tombol tidak terbuka?'
+      value: 'Buka halaman dari sini'
   section:
+    fallback:
+      title: Cadangan
+      description: 'Cara lain, ketika yang pertama gagal: pertanyaan, kemudian nilai yang disalin dalam satu klik, atau tautan. Tepat di bawah apa yang diwakilinya, sejajar dengannya.'
     vue:
       title: Vue
       description: 'Gambar dan blok kode sebagai bagian vue, mengambil opsi yang sama.'
@@ -820,7 +892,16 @@ it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Composizione
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: "Non riesci a scansionare? Digita questa chiave nell'app:"
+    link:
+      question: 'Il pulsante non si apre?'
+      value: 'Apri la pagina da qui'
   section:
+    fallback:
+      title: Fallback
+      description: "L'altro modo, quando il primo fallisce: la domanda, poi un valore copiato in un clic, o un link. Proprio sotto a ciò che rappresenta, allineato con esso."
     vue:
       title: Vue
       description: "L'immagine e il blocco di codice come parziali vue, con le stesse opzioni."
@@ -891,7 +972,16 @@ ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 構成
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: スキャンできませんか？アプリにこのキーを入力してください：
+    link:
+      question: ボタンが開かない？
+      value: ここからページを開く
   section:
+    fallback:
+      title: フォールバック
+      description: 最初の方法が失敗したときの別の方法：質問、その後ワンクリックでコピーされた値、またはリンク。何のためのものかのすぐ下に、それに合わせて配置されています。
     vue:
       title: Vue
       description: 画像とコードブロックをVueのパーシャルとして、同じオプションを使用します。
@@ -962,7 +1052,16 @@ ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 구성
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: '스캔할 수 없습니까? 이 키를 앱에 입력하세요:'
+    link:
+      question: '버튼이 열리지 않습니까?'
+      value: '여기에서 페이지 열기'
   section:
+    fallback:
+      title: 대체
+      description: '첫 번째 방법이 실패했을 때의 다른 방법: 질문, 그런 다음 한 번의 클릭으로 복사된 값 또는 링크. 그것이 대신하는 것 바로 아래에, 정렬되어 있습니다.'
     vue:
       title: Vue
       description: '이미지와 코드 블록을 vue 부분으로 사용하며, 동일한 옵션을 적용합니다.'
@@ -1033,7 +1132,16 @@ nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Samenstelling
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Kun je niet scannen? Typ deze sleutel in de app:'
+    link:
+      question: 'Opent de knop niet?'
+      value: 'Open de pagina vanaf hier'
   section:
+    fallback:
+      title: Fallback
+      description: 'De andere manier, wanneer de eerste faalt: de vraag, dan een waarde gekopieerd in één klik, of een link. Direct onder waar het voor staat, uitgelijnd met het.'
     vue:
       title: Vue
       description: 'De afbeelding en de codeblok als Vue-partials, met dezelfde opties.'
@@ -1104,7 +1212,16 @@ pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Kompozycja
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Nie można zeskanować? Wpisz ten klucz w aplikacji:'
+    link:
+      question: 'Przycisk się nie otwiera?'
+      value: 'Otwórz stronę stąd'
   section:
+    fallback:
+      title: Zapasowy
+      description: 'Inny sposób, gdy pierwszy zawiedzie: pytanie, potem wartość skopiowana jednym kliknięciem lub link. Tuż pod tym, co zastępuje, wyrównane z tym.'
     vue:
       title: Vue
       description: 'Obrazek i blok kodu jako części vue, przyjmujące te same opcje.'
@@ -1175,7 +1292,16 @@ pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Composição
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Não consegue escanear? Digite esta chave no app:'
+    link:
+      question: 'O botão não abre?'
+      value: 'Abra a página daqui'
   section:
+    fallback:
+      title: Fallback
+      description: 'A outra maneira, quando a primeira falha: a pergunta, então um valor copiado com um clique, ou um link. Logo abaixo do que representa, alinhado com isso.'
     vue:
       title: Vue
       description: 'A imagem e o bloco de código como parciais vue, utilizando as mesmas opções.'
@@ -1246,7 +1372,16 @@ ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Композиция
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Не удается сканировать? Введите этот ключ в приложении:'
+    link:
+      question: 'Кнопка не открывается?'
+      value: 'Откройте страницу отсюда'
   section:
+    fallback:
+      title: 'Запасной вариант'
+      description: 'Другой способ, когда первый не сработал: вопрос, затем значение, скопированное в один клик, или ссылка. Прямо под тем, что он заменяет, выровненное с ним.'
     vue:
       title: Vue
       description: 'Изображение и кодовый блок как частичные компоненты Vue, принимающие одни и те же параметры.'
@@ -1317,7 +1452,16 @@ th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: การประกอบ
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'ไม่สามารถสแกนได้? พิมพ์คีย์นี้ในแอป:'
+    link:
+      question: 'ปุ่มไม่เปิดใช่ไหม?'
+      value: เปิดหน้าจากที่นี่
   section:
+    fallback:
+      title: ทางเลือก
+      description: 'อีกวิธีหนึ่งเมื่อวิธีแรกไม่ทำงาน: คำถาม จากนั้นค่าที่ถูกคัดลอกในคลิกเดียว หรือลิงก์ อยู่ใต้สิ่งที่แทนที่ โดยจัดแนวกับมัน.'
     vue:
       title: Vue
       description: 'รูปภาพและโค้ดบล็อกในรูปแบบ vue ที่ใช้ตัวเลือกเดียวกัน.'
@@ -1388,7 +1532,16 @@ tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Bileşim
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Tarayıcıyı tarayamıyor musunuz? Bu anahtarı uygulamaya yazın:'
+    link:
+      question: 'Buton açılmıyor mu?'
+      value: 'Sayfayı buradan aç'
   section:
+    fallback:
+      title: 'Alternatif Yöntem'
+      description: 'İlk yöntem başarısız olduğunda diğer yol: soru, ardından tek tıkla kopyalanan bir değer veya bir bağlantı. Ne için varsa hemen altında, hizalı olarak.'
     vue:
       title: Vue
       description: 'Resim ve kod bloğu vue parçaları olarak, aynı seçenekleri alır.'
@@ -1459,7 +1612,16 @@ ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ترکیب
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'سکین نہیں کر سکتے؟ ایپ میں یہ کلید ٹائپ کریں:'
+    link:
+      question: 'بٹن کھلتا نہیں؟'
+      value: 'یہاں سے صفحہ کھولیں'
   section:
+    fallback:
+      title: متبادل
+      description: 'دوسرا راستہ، جب پہلا ناکام ہو جاتا ہے: سوال، پھر ایک کلک میں کاپی کیا گیا ایک قیمت، یا ایک لنک۔ اس کے نیچے جو اس کے لیے کھڑا ہے، اس کے ساتھ سیدھ میں۔'
     vue:
       title: ویو
       description: 'تصویر اور کوڈ بلاک کو ویو پارشل کے طور پر، ایک ہی اختیارات لیتے ہوئے۔'
@@ -1530,7 +1692,16 @@ vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Thành phần'
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'Không quét được? Gõ khóa này vào ứng dụng:'
+    link:
+      question: 'Nút không mở được?'
+      value: 'Mở trang từ đây'
   section:
+    fallback:
+      title: 'Dự phòng'
+      description: 'Cách khác, khi cách đầu tiên không thành công: câu hỏi, sau đó là giá trị được sao chép chỉ bằng một cú nhấp, hoặc một liên kết. Ngay dưới cái mà nó đại diện, căn chỉnh với nó.'
     vue:
       title: Vue
       description: 'Hình ảnh và khối mã như các phần vue, sử dụng cùng một tùy chọn.'

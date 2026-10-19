@@ -76,7 +76,14 @@ bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: বাটন
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'একটি মার্কার থেকে মেনু'
+    item_two: সেটিংস
+    label: 'একটি বোতাম যা শুধুমাত্র তার শব্দ'
   section:
+    bare:
+      title: 'বেয়ার বোতাম'
+      description: 'button--bare: যেকোনো কিছু যা একটি বোতাম তৈরি করে — একটি মার্কার, একটি ছবি — নিজের চেহারা বজায় রেখে। এর চারপাশে কিছু আঁকা নেই; এটি এখনও খুলে, ফোকাস এবং কী গ্রহণ করে। এতে ট্যাব দিন: শুধুমাত্র ফোকাস রিং বলে যে এটি একটি বোতাম।'
     buttons:
       title: 'ডিফল্ট বাটন'
     button_states:
@@ -104,7 +111,14 @@ de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Schaltflächen
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Ein Menü von einem Marker'
+    item_two: Einstellungen
+    label: 'Ein Button, der nur sein Wort ist'
   section:
+    bare:
+      title: 'Bare Buttons'
+      description: 'button--bare: alles, was zu einem Button gemacht wird – ein Marker, ein Bild – behält sein eigenes Aussehen. Nichts ist darum gezeichnet; es öffnet sich trotzdem, erhält den Fokus und die Tasten. Mit Tab darauf: nur der Fokusring sagt, dass es ein Button ist.'
     buttons:
       title: Standard-Schaltflächen
     button_states:
@@ -132,7 +146,14 @@ es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Botones
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Un menú de un marcador'
+    item_two: Configuraciones
+    label: 'Un botón que es solo su palabra'
   section:
+    bare:
+      title: 'Botones bare'
+      description: 'button--bare: cualquier cosa convertida en botón — un marcador, una imagen — manteniendo su propio aspecto. Nada dibujado alrededor; aun así se abre, toma el foco y las teclas. Tabúlalo: solo el anillo de enfoque indica que es un botón.'
     buttons:
       title: 'Botones predeterminados'
     button_states:
@@ -160,7 +181,14 @@ fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: دکمه‌ها
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'منویی از یک نشانگر'
+    item_two: تنظیمات
+    label: 'دکمه‌ای که فقط کلمه خود را دارد'
   section:
+    bare:
+      title: 'دکمه‌های ساده'
+      description: 'button--bare: هر چیزی که به یک دکمه تبدیل شده است — یک نشانگر، یک تصویر — که ظاهر خود را حفظ کرده است. هیچ چیزی دور آن کشیده نشده است؛ هنوز هم باز می‌شود، تمرکز و کلیدها را می‌گیرد. به آن بروید: فقط حلقه تمرکز نشان می‌دهد که یک دکمه است.'
     buttons:
       title: 'دکمه‌های پیش‌فرض'
     button_states:
@@ -188,7 +216,14 @@ fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Painikkeet
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Valikko merkiltä'
+    item_two: Asetukset
+    label: 'Nappi, joka on vain sanansa'
   section:
+    bare:
+      title: 'Alastomat painikkeet'
+      description: 'button--bare: mikä tahansa, joka on tehty painikkeeksi — merkki, kuva — säilyttäen oman ilmeensä. Ei mitään piirrettynä ympärille; se avautuu silti, ottaa huomion ja näppäimet. Siirry siihen: vain fokusrengas kertoo, että se on painike.'
     buttons:
       title: Oletuspainikkeet
     button_states:
@@ -251,7 +286,14 @@ he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: כפתורים
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'תפריט בעזרת מחק'
+    item_two: הגדרות
+    label: 'כפתור שהוא רק המילה שלו'
   section:
+    bare:
+      title: 'כפתורים בסיסיים'
+      description: 'button--bare: כל דבר שהפך לכפתור — מחק, תמונה — שומר על המראה שלו. אין עיצוב מסביב; הוא עדיין נפתח, מקבל את הפוקוס והמפתחות. לעבור אליו: רק טבעת הפוקוס אומרת שזה כפתור.'
     buttons:
       title: 'כפתורים ברירת מחדל'
     button_states:
@@ -279,7 +321,14 @@ hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: बटन
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'एक मार्कर से मेनू'
+    item_two: सेटिंग्स
+    label: 'एक बटन जो केवल इसका शब्द है'
   section:
+    bare:
+      title: 'नंगे बटन'
+      description: 'button--bare: कुछ भी जिसे बटन बनाया गया है — एक मार्कर, एक चित्र — अपनी ही रूप-रेखा बनाए रखते हुए। इसके चारों ओर कुछ नहीं खींचा गया; यह फिर भी खुलता है, ध्यान केंद्रित करता है और कीज लेता है। इसकी ओर टैब करें: केवल ध्यान रिंग कहती है कि यह एक बटन है।'
     buttons:
       title: 'डिफ़ॉल्ट बटन'
     button_states:
@@ -307,7 +356,14 @@ id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Tombol
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Menu dari penanda'
+    item_two: Pengaturan
+    label: 'Tombol yang hanya berupa kata'
   section:
+    bare:
+      title: 'Tombol bare'
+      description: 'button--bare: apapun yang dijadikan tombol — sebuah penanda, gambar — tetap mempertahankan penampilannya sendiri. Tidak ada yang digambar di sekelilingnya; tetap dapat dibuka, mengambil fokus dan kunci. Tab ke sana: hanya cincin fokus yang menunjukkan itu adalah tombol.'
     buttons:
       title: 'Tombol Default'
     button_states:
@@ -335,7 +391,14 @@ it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Pulsanti
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Un menu da un marcatore'
+    item_two: Impostazioni
+    label: 'Un pulsante che è solo la sua parola'
   section:
+    bare:
+      title: 'Pulsanti semplici'
+      description: "button--bare: qualsiasi cosa trasformata in pulsante — un marcatore, un'immagine — mantenendo il proprio aspetto. Niente disegnato attorno; si apre comunque, prende il focus e le chiavi. Tab per accedervi: solo l'anello di messa a fuoco indica che è un pulsante."
     buttons:
       title: 'Pulsanti predefiniti'
     button_states:
@@ -363,7 +426,14 @@ ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ボタン
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: マーカーからのメニュー
+    item_two: 設定
+    label: 単語だけのボタン
   section:
+    bare:
+      title: ベアボタン
+      description: 'button--bare: ボタンにされたもの — マーカーや画像 — 自分の見た目を保ったまま。周囲に何も描かれていないが、開くことができ、フォーカスやキーを受け取る。タブで移動: フォーカスリングだけがボタンであることを示す。'
     buttons:
       title: デフォルトボタン
     button_states:
@@ -391,7 +461,14 @@ ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 버튼
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: '마커에서 온 메뉴'
+    item_two: 설정
+    label: '단어만 있는 버튼'
   section:
+    bare:
+      title: '베어 버튼'
+      description: 'button--bare: 버튼으로 만든 모든 것 — 마커, 이미지 — 자신의 모양을 유지합니다. 주변에 아무 것도 그려지지 않으며 여전히 열리고, 포커스를 받고, 키를 입력합니다. 탭으로 이동: 포커스 링만 버튼임을 나타냅니다.'
     buttons:
       title: '기본 버튼'
     button_states:
@@ -419,7 +496,14 @@ nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Knoppen
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Een menu van een marker'
+    item_two: Instellingen
+    label: 'Een knop die alleen zijn woord is'
   section:
+    bare:
+      title: 'Blote knoppen'
+      description: 'button--bare: alles wat een knop is — een marker, een afbeelding — behoudt zijn eigen uitstraling. Niets eromheen getekend; het opent nog steeds, krijgt de focus en de toetsen. Tab erheen: alleen de focusring zegt dat het een knop is.'
     buttons:
       title: 'Standaard knoppen'
     button_states:
@@ -447,7 +531,14 @@ pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Przyciski
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Menu z markera'
+    item_two: Ustawienia
+    label: 'Przycisk, który jest tylko swoim słowem'
   section:
+    bare:
+      title: 'Proste przyciski'
+      description: 'button--bare: wszystko, co stało się przyciskiem — marker, obrazek — zachowując swój wygląd. Nic nie jest narysowane wokół; nadal się otwiera, przyciąga fokus i klawisze. Przejdź do niego: tylko pierścień fokusa mówi, że to przycisk.'
     buttons:
       title: 'Przyciski domyślne'
     button_states:
@@ -475,7 +566,14 @@ pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Botões
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Um menu de um marcador'
+    item_two: Configurações
+    label: 'Um botão que é apenas sua palavra'
   section:
+    bare:
+      title: 'Botões simples'
+      description: 'button--bare: qualquer coisa transformada em botão — um marcador, uma imagem — mantendo sua própria aparência. Nada desenhado ao seu redor; ainda assim abre, recebe o foco e as teclas. Tabule para ele: apenas o anel de foco indica que é um botão.'
     buttons:
       title: 'Botões padrão'
     button_states:
@@ -503,7 +601,14 @@ ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Кнопки
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Меню от маркера'
+    item_two: Настройки
+    label: 'Кнопка, которая состоит только из слова'
   section:
+    bare:
+      title: 'Простые кнопки'
+      description: 'button--bare: всё, что стало кнопкой — маркер, изображение — сохраняя свой внешний вид. Ничего не нарисовано вокруг; она по-прежнему открывается, принимает фокус и клавиши. Перейдите к ней с помощью Tab: только кольцо фокуса говорит, что это кнопка.'
     buttons:
       title: 'Стандартные кнопки'
     button_states:
@@ -531,7 +636,14 @@ th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ปุ่ม
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: เมนูจากเครื่องหมาย
+    item_two: การตั้งค่า
+    label: ปุ่มที่มีแค่คำของมัน
   section:
+    bare:
+      title: ปุ่มแบบเปลือย
+      description: 'button--bare: อะไรก็ตามที่ทำให้เป็นปุ่ม — เครื่องหมาย, รูปภาพ — ยังคงรูปลักษณ์ของมันเอง ไม่มีกรอบรอบ ๆ; มันยังเปิดได้, ดึงความสนใจและคีย์ต่าง ๆ เข้ามา. ใช้ Tab ไปที่มัน: แค่วงแหวนโฟกัสบอกว่ามันคือปุ่ม.'
     buttons:
       title: ปุ่มเริ่มต้น
     button_states:
@@ -559,7 +671,14 @@ tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Düğmeler
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Bir işaretçiden menü'
+    item_two: Ayarlar
+    label: 'Sadece kelimesi olan bir düğme'
   section:
+    bare:
+      title: 'Sade düğmeler'
+      description: 'button--bare: düğme haline getirilmiş her şey - bir işaretçi, bir resim - kendi görünümünü koruyarak. Etrafında hiçbir şey çizilmeden; yine de açılır, odaklanır ve tuşları alır. Üzerine sekme tuşu: sadece odak halkası bunun bir düğme olduğunu belirtir.'
     buttons:
       title: 'Varsayılan düğmeler'
     button_states:
@@ -587,7 +706,14 @@ ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: بٹن
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'مارکر سے ایک مینو'
+    item_two: ترتیبات
+    label: 'ایک بٹن جو صرف اس کا لفظ ہے'
   section:
+    bare:
+      title: 'بے رنگ بٹن'
+      description: 'button--bare: کچھ بھی جو بٹن بنایا گیا — ایک مارکر، ایک تصویر — اپنی شکل کو برقرار رکھتے ہوئے۔ اس کے ارد گرد کچھ نہیں بنایا گیا؛ یہ پھر بھی کھلتا ہے، توجہ حاصل کرتا ہے اور کیز لیتا ہے۔ اس پر ٹیپ کریں: صرف توجہ کی انگوٹھی بتاتی ہے کہ یہ ایک بٹن ہے۔'
     buttons:
       title: 'ڈیفالٹ بٹن'
     button_states:
@@ -615,7 +741,14 @@ vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Nút
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'Một menu từ một dấu hiệu'
+    item_two: 'Cài đặt'
+    label: 'Một nút chỉ có từ của nó'
   section:
+    bare:
+      title: 'Nút trần'
+      description: 'button--bare: bất cứ thứ gì được làm thành nút — một dấu hiệu, một hình ảnh — giữ nguyên hình thức của nó. Không có gì được vẽ xung quanh; nó vẫn mở, lấy tiêu điểm và các phím. Nhấn Tab vào nó: chỉ có vòng tiêu điểm cho biết đó là một nút.'
     buttons:
       title: 'Nút mặc định'
     button_states:

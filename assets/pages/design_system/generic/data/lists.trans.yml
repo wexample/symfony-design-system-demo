@@ -78,6 +78,9 @@ bn:
       title: ডিফল্ট
     empty:
       title: 'খালি অবস্থা'
+    period:
+      title: 'সময় অনুযায়ী'
+      body: 'একসাথে একটি বছর বা একটি মাস: পূর্ববর্তী, পরবর্তী, আজ। ঠিকানায় সংরক্ষিত — পুনরায় লোড করলে, সময় থাকবে —, এবং এখানে দুই বছর আগেই থেমে গেছে। এটি যা বলে তা হলো একটি তালিকা বা একটি চার্ট সার্ভারের কাছে কী অনুরোধ করছে।'
   search:
     placeholder: 'তালিকা ফিল্টার করুন...'
   header:
@@ -108,6 +111,9 @@ de:
       title: Standard
     empty:
       title: 'Leerer Zustand'
+    period:
+      title: 'Nach Zeitraum'
+      body: 'Ein Jahr oder einen Monat auf einmal: der vorherige, der nachfolgende, heute. Im Adressfeld gespeichert — neu laden, der Zeitraum bleibt —, und vor zwei Jahren hier gestoppt. Was es sagt, ist das, was eine Liste oder ein Diagramm den Server fragt.'
   search:
     placeholder: 'Liste filtern...'
   header:
@@ -138,6 +144,9 @@ es:
       title: Predeterminado
     empty:
       title: 'Estado vacío'
+    period:
+      title: 'Por período'
+      body: 'Un año o un mes a la vez: el anterior, el siguiente, hoy. Se mantiene en la dirección — recargar, el período permanece —, y se detuvo hace dos años aquí. Lo que dice es lo que una lista o un gráfico le pide al servidor.'
   search:
     placeholder: 'Filtrar la lista...'
   header:
@@ -168,6 +177,9 @@ fa:
       title: پیش‌فرض
     empty:
       title: 'وضعیت خالی'
+    period:
+      title: 'براساس بازه'
+      body: 'یک سال یا یک ماه در یک زمان: قبلی، بعدی، امروز. در آدرس نگهداری می‌شود — بارگذاری مجدد، بازه حفظ می‌شود — و دو سال پیش متوقف شده است. آنچه که نشان می‌دهد همان چیزی است که یک لیست یا نمودار از سرور درخواست می‌کند.'
   search:
     placeholder: 'فهرست را فیلتر کنید...'
   header:
@@ -198,6 +210,9 @@ fi:
       title: Oletus
     empty:
       title: 'Tyhjät tiedot'
+    period:
+      title: 'Aikavälin mukaan'
+      body: 'Vuosi tai kuukausi kerrallaan: edellinen, seuraava, tänään. Säilytetään osoitteessa — päivitä, aikaväli pysyy —, ja pysäytetään kaksi vuotta taaksepäin. Se, mitä se kertoo, on se, mitä lista tai kaavio kysyy palvelimelta.'
   search:
     placeholder: 'Suodata luetteloa...'
   header:
@@ -261,6 +276,9 @@ he:
       title: 'ברירת מחדל'
     empty:
       title: 'מצב ריק'
+    period:
+      title: 'באמצעות תקופה'
+      body: 'שנה או חודש בכל פעם: הקודמת, הבאה, היום. נשמר בכתובת — רענון, התקופה נשארת —, ועצרה לפני שנתיים כאן. מה שזה אומר זה מה שרשימה או תרשים מבקשים מהשרת.'
   search:
     placeholder: 'סנן את הרשימה...'
   header:
@@ -291,6 +309,9 @@ hi:
       title: डिफ़ॉल्ट
     empty:
       title: 'खाली स्थिति'
+    period:
+      title: 'अवधि द्वारा'
+      body: 'एक बार में एक वर्ष या एक माह: पिछले, अगले, आज। पते में रखा गया — फिर से लोड करें, अवधि बनी रहती है —, और यहाँ दो साल पहले रुकी हुई। यह जो बताता है, वह एक सूची या चार्ट सर्वर से क्या मांगता है।'
   search:
     placeholder: 'सूची को फ़िल्टर करें...'
   header:
@@ -321,6 +342,9 @@ id:
       title: Default
     empty:
       title: 'Status kosong'
+    period:
+      title: 'Berdasarkan periode'
+      body: 'Satu tahun atau satu bulan sekaligus: yang sebelumnya, yang berikutnya, hari ini. Disimpan dalam alamat — muat ulang, periode tetap —, dan dihentikan dua tahun yang lalu di sini. Apa yang diberitahukan adalah apa yang diminta oleh daftar atau grafik kepada server.'
   search:
     placeholder: 'Saring daftar...'
   header:
@@ -351,6 +375,9 @@ it:
       title: Predefinito
     empty:
       title: 'Stato vuoto'
+    period:
+      title: 'Per periodo'
+      body: "Un anno o un mese alla volta: quello prima, quello dopo, oggi. Mantenuto nell'indirizzo — ricarica, il periodo rimane —, e fermato due anni fa qui. Ciò che racconta è ciò che una lista o un grafico richiede al server."
   search:
     placeholder: "Filtra l'elenco..."
   header:
@@ -381,6 +408,9 @@ ja:
       title: デフォルト
     empty:
       title: 空の状態
+    period:
+      title: 期間別
+      body: '年または月単位で: 前のもの、次のもの、今日。アドレスに保持されており — リロードしても期間は維持され —、ここから2年前に停止しました。これは、リストやチャートがサーバーに要求する内容を示しています。'
   search:
     placeholder: リストをフィルターする...
   header:
@@ -411,6 +441,9 @@ ko:
       title: 기본값
     empty:
       title: '빈 상태'
+    period:
+      title: 기간별
+      body: '1년 또는 1개월 단위: 이전, 다음, 오늘. 주소에 유지됨 — 새로 고침하면 기간이 유지됨 —, 그리고 여기서 2년 전으로 중단됨. 이것이 의미하는 것은 목록이나 차트가 서버에 요청하는 내용이다.'
   search:
     placeholder: '목록 필터링...'
   header:
@@ -441,6 +474,9 @@ nl:
       title: Standaard
     empty:
       title: 'Lege staat'
+    period:
+      title: Periode
+      body: 'Een jaar of een maand tegelijk: de periode ervoor, de periode erna, vandaag. Bewaard in het adres — herladen, de periode blijft —, en twee jaar terug hier gestopt. Wat het vertelt is wat een lijst of een grafiek de server vraagt.'
   search:
     placeholder: 'Filter de lijst...'
   header:
@@ -471,6 +507,9 @@ pl:
       title: Domyślny
     empty:
       title: 'Pusty stan'
+    period:
+      title: 'Według okresu'
+      body: 'Rok lub miesiąc na raz: ten przed, ten po, dzisiaj. Zachowane w adresie — przeładuj, okres pozostaje — i zatrzymane dwa lata wstecz. To, co mówi, to to, o co prosi serwer w przypadku listy lub wykresu.'
   search:
     placeholder: 'Filtruj listę...'
   header:
@@ -501,6 +540,9 @@ pt_BR:
       title: Padrão
     empty:
       title: 'Estado vazio'
+    period:
+      title: 'Por período'
+      body: 'Um ano ou um mês por vez: o anterior, o seguinte, hoje. Mantido no endereço — recarregar, o período permanece —, e parado dois anos atrás aqui. O que ele diz é o que uma lista ou um gráfico pede ao servidor.'
   search:
     placeholder: 'Filtrar a lista...'
   header:
@@ -531,6 +573,9 @@ ru:
       title: 'По умолчанию'
     empty:
       title: 'Пустое состояние'
+    period:
+      title: 'По периоду'
+      body: 'Год или месяц за раз: предыдущий, следующий, сегодня. Сохраняется в адресе — перезагрузите, период останется — и остановился два года назад здесь. То, что это говорит, — это то, что список или диаграмма запрашивают у сервера.'
   search:
     placeholder: 'Фильтровать список...'
   header:
@@ -561,6 +606,9 @@ th:
       title: ค่าเริ่มต้น
     empty:
       title: สถานะว่างเปล่า
+    period:
+      title: ตามช่วงเวลา
+      body: 'ปีหรือเดือนละหนึ่งครั้ง: อันก่อนหน้า, อันถัดไป, วันนี้ ถูกเก็บไว้ในที่อยู่ — โหลดใหม่, ช่วงเวลายังคงอยู่ — และหยุดเมื่อสองปีก่อนที่นี่ สิ่งที่มันบอกคือสิ่งที่รายการหรือกราฟขอจากเซิร์ฟเวอร์.'
   search:
     placeholder: กรองรายการ...
   header:
@@ -591,6 +639,9 @@ tr:
       title: Varsayılan
     empty:
       title: 'Boş durum'
+    period:
+      title: 'Döneme göre'
+      body: 'Bir yıl veya bir ay: öncesi, sonrası, bugün. Adreste tutulur — yeniden yükle, dönem kalır — ve burada iki yıl geriye durur. Söylediği, bir listenin veya grafiğin sunucudan ne istediğidir.'
   search:
     placeholder: 'Listeyi filtrele...'
   header:
@@ -621,6 +672,9 @@ ur:
       title: ڈیفالٹ
     empty:
       title: 'خالی حالت'
+    period:
+      title: 'مدت کے لحاظ سے'
+      body: 'ایک سال یا ایک مہینہ: پچھلا، اگلا، آج۔ ایڈریس میں محفوظ کیا گیا — دوبارہ لوڈ کریں، مدت برقرار رہے گی —، اور یہاں دو سال پہلے رک گئی۔ یہ وہ معلومات ہے جو فہرست یا چارٹ سرور سے مانگتا ہے۔'
   search:
     placeholder: 'فہرست کو فلٹر کریں...'
   header:
@@ -651,6 +705,9 @@ vi:
       title: 'Mặc định'
     empty:
       title: 'Trạng thái trống'
+    period:
+      title: 'Theo khoảng thời gian'
+      body: 'Một năm hoặc một tháng một lần: cái trước, cái sau, hôm nay. Được giữ trong địa chỉ — tải lại, khoảng thời gian vẫn giữ nguyên —, và dừng lại hai năm trước tại đây. Những gì nó nói là những gì một danh sách hoặc biểu đồ yêu cầu từ máy chủ.'
   search:
     placeholder: 'Lọc danh sách...'
   header:

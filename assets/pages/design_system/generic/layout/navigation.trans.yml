@@ -52,3 +52,250 @@ ar:
     drawing:
       title: رسمه
       body: 'layout_section_navigation يحدد كيف: علامات بشكل افتراضي، تُظهر المستوى الذي تقف فيه الصفحة — أطفال العرض تحت الطريق للعودة إلى القسم — أو القائمة، التي تُظهر القسم بالكامل، والطريق للعودة في الأعلى والعرض الذي يحمل الصفحة مفتوحة.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'अनुभाग नेविगेशन'
+  page_icon: 'ph:bold/signpost'
+  intro: 'एक अनुभाग के पृष्ठों को एक बार लिखा जाता है, जैसे कि इसका नेविगेशन, और ऐप द्वारा चुने गए तरीके से प्रस्तुत किया जाता है: शीर्षक के तहत टैब, जैसे इस अनुभाग के अन्य पृष्ठों पर, या साइड मेनू जो अनुभाग का प्रतिनिधित्व करता है जबकि कोई इसमें है — जैसे इस पृष्ठ पर, जिसका बाईं ओर का मेनू इस अनुभाग का है।'
+  section:
+    writing:
+      title: 'इसे लिखना'
+      body: 'एक अनुभाग का लेआउट page_section_navigation को सेट करता है: अनुभाग क्या है (लेबल, href), यह किसके लिए छोड़ा गया है (पीछे), और इसके दृश्य (आइटम), प्रत्येक एक मार्ग है जिसे पाठक खोल सकता है — अन्य को छोड़ दिया गया है। एक आइटम एक परिवार के पृष्ठों पर जलता रहता है (मेल), और इसके अपने दृश्य (बच्चे) हो सकते हैं।'
+    drawing:
+      title: 'इसे खींचना'
+      body: 'layout_section_navigation बताता है कि कैसे: डिफ़ॉल्ट रूप से टैब, जो दिखाते हैं कि पृष्ठ कौन से स्तर पर है — एक दृश्य के बच्चों के तहत अनुभाग की ओर वापस जाने का मार्ग — या मेनू, जो पूरे अनुभाग को दिखाता है, ऊपर वापस जाने का मार्ग और पृष्ठ को खोले हुए दृश्य।'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ניווט בסעיף'
+  page_icon: 'ph:bold/signpost'
+  intro: 'העמודים של סעיף נכתבים פעם אחת, כניווט שלו, ומופיעים כפי שהאפליקציה בוחרת: טאבים מתחת לכותרת, כמו בעמודים האחרים של סעיף זה, או תפריט צד המייצג את הסעיף בזמן שמישהו נמצא בו — כמו בעמוד הזה, שהתפריט בצד שמאל הוא של סעיף זה.'
+  section:
+    writing:
+      title: כתיבתו
+      body: 'עיצוב של סעיף קובע page_section_navigation: מה הסעיף הוא (תווית, href), לאן הוא מיועד (חזרה), ואת התצוגות שלו (פריטים), כל אחת דרך שהקורא יכול לפתוח — השאר לא נכללות. פריט נשאר מואר על משפחה של עמודים (התאמה), ויכול להכיל תצוגות משלו (ילדים).'
+    drawing:
+      title: ציורו
+      body: 'layout_section_navigation אומר איך: טאבים כברירת מחדל, שמראים את הרמה שבה העמוד נמצא — ילדים של תצוגה מתחת לדרך חזרה לסעיף — או תפריט, שמראה את הסעיף כולו, הדרך חזרה למעלה והתצוגה המחזיקה את העמוד פתוחה.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'ناوبری بخش'
+  page_icon: 'ph:bold/signpost'
+  intro: 'صفحات یک بخش یک بار نوشته می‌شوند، به عنوان ناوبری آن، و به انتخاب اپلیکیشن ترسیم می‌شوند: زبانه‌هایی زیر سرصفحه، مانند سایر صفحات این بخش، یا منوی کناری که نمایانگر بخش است در حالی که در آن هستید — مانند این صفحه که منوی سمت چپ آن متعلق به این بخش است.'
+  section:
+    writing:
+      title: 'نوشتن آن'
+      body: 'چیدمان یک بخش صفحه_section_navigation را تعیین می‌کند: آن بخش چیست (برچسب، href)، برای کجا باقی مانده است (بازگشت)، و نمای آن (موارد)، که هر کدام مسیری هستند که خواننده می‌تواند باز کند — بقیه کنار گذاشته می‌شوند. یک مورد در خانواده‌ای از صفحات روشن می‌ماند (همخوانی)، و ممکن است نمای خود را داشته باشد (زیرمجموعه‌ها).'
+    drawing:
+      title: 'ترسیم آن'
+      body: 'چیدمان_section_navigation می‌گوید چگونه: به طور پیش‌فرض زبانه‌ها، که سطحی را که صفحه در آن قرار دارد نشان می‌دهند — زیرمجموعه‌های یک نما در راه بازگشت به بخش — یا منو، که کل بخش را نشان می‌دهد، راه بازگشت در بالا و نمایی که صفحه را باز نگه داشته است.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'سیکشن نیویگیشن'
+  page_icon: 'ph:bold/signpost'
+  intro: 'ایک سیکشن کے صفحات ایک بار لکھے جاتے ہیں، جیسا کہ اس کی نیویگیشن ہے، اور ایپ کے انتخاب کے مطابق ترتیب دیے جاتے ہیں: ہیڈر کے نیچے ٹیبز، جیسا کہ اس سیکشن کے دوسرے صفحات پر، یا سائیڈ مینو جو اس سیکشن کی نمائندگی کرتا ہے جب آپ اس میں ہوتے ہیں — جیسا کہ اس صفحے پر، جس کا مینو بائیں جانب اس سیکشن کا ہے۔'
+  section:
+    writing:
+      title: لکھنا
+      body: 'ایک سیکشن کی ترتیب صفحہ_سیکشن_نیویگیشن کو مقرر کرتی ہے: یہ سیکشن کیا ہے (لیبل، href)، یہ کس کے لیے چھوڑا گیا ہے (پیچھے)، اور اس کے نظارے (آئٹمز)، ہر ایک ایک راستہ ہے جسے قاری کھول سکتا ہے — دوسرے چھوڑ دیے گئے ہیں۔ ایک آئٹم صفحات کے خاندان پر روشن رہتا ہے (میل)، اور اپنے بھی نظارے رکھ سکتا ہے (بچے)۔'
+    drawing:
+      title: کھینچنا
+      body: 'ترتیب_سیکشن_نیویگیشن کہتا ہے کہ کیسے: ڈیفالٹ کے طور پر ٹیبز، جو یہ دکھاتے ہیں کہ صفحہ کس سطح پر ہے — ایک نظارے کے بچے سیکشن کی طرف واپس جانے کے راستے کے نیچے — یا مینو، جو پورے سیکشن کو دکھاتا ہے، اوپر واپس جانے کا راستہ اور وہ نظارہ جس میں صفحہ کھلا ہوا ہے۔'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: セクションナビゲーション
+  page_icon: 'ph:bold/signpost'
+  intro: セクションのページは一度書かれ、そのナビゲーションとして表示され、アプリが選択した方法で描画されます：このセクションの他のページと同様にヘッダーの下にタブが表示されたり、このページのようにセクションのためのサイドメニューが表示されたりします。左側のメニューはこのセクションのものです。
+  section:
+    writing:
+      title: 書き方
+      body: 'セクションのレイアウトはpage_section_navigationを設定します：セクションが何であるか（ラベル、href）、何のために残されているか（戻る）、そしてそのビュー（アイテム）、各アイテムは読者が開くことができるルートです — 他のものは省かれます。アイテムはページのファミリー上で点灯し（マッチ）、自身のビュー（子）を持つことがあります。'
+    drawing:
+      title: 描き方
+      body: 'layout_section_navigationはどのように描くかを示します：デフォルトではタブで、ページがどのレベルにあるかを示します — セクションへの戻り道の下のビューの子 — またはメニューで、セクション全体を示し、上部に戻る道を表示し、ページを展開した状態で保持するビューを示します。'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: '섹션 내비게이션'
+  page_icon: 'ph:bold/signpost'
+  intro: '섹션의 페이지는 한 번 작성되어 내비게이션으로 사용되며, 앱이 선택한 방식으로 표시됩니다: 이 섹션의 다른 페이지처럼 헤더 아래의 탭이거나, 사용자가 섹션에 있을 때 나타나는 사이드 메뉴 — 이 페이지의 왼쪽 메뉴가 이 섹션의 메뉴입니다.'
+  section:
+    writing:
+      title: 작성하기
+      body: '섹션의 레이아웃은 page_section_navigation을 설정합니다: 섹션이 무엇인지(레이블, href), 이전 페이지로 돌아가기 위한 위치, 그리고 각 독자가 열 수 있는 경로인 항목들(뷰)을 정의합니다 — 나머지는 생략됩니다. 항목은 페이지의 가족에서 활성 상태를 유지하며(일치), 자신의 뷰(자식)를 가질 수 있습니다.'
+    drawing:
+      title: 그리기
+      body: 'layout_section_navigation은 방법을 정의합니다: 기본적으로 탭이 사용되며, 페이지가 위치한 수준을 표시합니다 — 섹션으로 돌아가는 경로 아래의 뷰의 자식들 — 또는 메뉴로, 섹션 전체를 보여주며, 위쪽에 돌아가는 경로와 페이지를 펼쳐 놓은 뷰를 표시합니다.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'সেকশন নেভিগেশন'
+  page_icon: 'ph:bold/signpost'
+  intro: 'একটি সেকশনের পৃষ্ঠাগুলি একবার লেখা হয়, তার নেভিগেশনের জন্য, এবং অ্যাপটি যেভাবে চায় সেভাবে প্রদর্শিত হয়: শিরোনামের নিচে ট্যাব, যেমন এই সেকশনের অন্যান্য পৃষ্ঠাগুলিতে, বা সেকশনের জন্য একটি পাশের মেনু যখন কেউ এতে আছে — যেমন এই পৃষ্ঠায়, যার বাম দিকে এই সেকশনের মেনু।'
+  section:
+    writing:
+      title: 'লেখা হচ্ছে'
+      body: 'একটি সেকশনের লেআউট page_section_navigation সেট করে: সেকশনটি কী (লেবেল, href), এটি কোথায় ফিরে যেতে হবে (ফিরে), এবং এর দর্শন (আইটেম), প্রতিটি একটি রুট যা পাঠক খুলতে পারে — অন্যগুলি বাদ রাখা হয়। একটি আইটেম একটি পরিবারের পৃষ্ঠায় উজ্জ্বল থাকে (ম্যাচ), এবং এর নিজের দর্শন (সন্তান) থাকতে পারে।'
+    drawing:
+      title: 'আঁকা হচ্ছে'
+      body: 'layout_section_navigation বলে কিভাবে: ডিফল্টভাবে ট্যাব, যা পৃষ্ঠার অবস্থান দেখায় — একটি দৃশ্যের সন্তানগুলো সেকশনে ফিরে যাওয়ার পথে — অথবা মেনু, যা পুরো সেকশন দেখায়, উপরে ফিরে যাওয়ার পথ এবং পৃষ্ঠা খুলে থাকা দৃশ্য।'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: การนำทางในส่วน
+  page_icon: 'ph:bold/signpost'
+  intro: 'หน้าของแต่ละส่วนจะเขียนเพียงครั้งเดียวในฐานะการนำทาง และแสดงตามที่แอปเลือก: แท็บใต้หัวเรื่อง เช่นเดียวกับหน้าต่าง ๆ ของส่วนนี้ หรือเมนูด้านข้างที่แสดงถึงส่วนในขณะที่อยู่ในนั้น — เช่นในหน้านี้ ซึ่งเมนูทางซ้ายคือส่วนนี้'
+  section:
+    writing:
+      title: การเขียนมัน
+      body: 'การจัดเรียงของส่วนกำหนด page_section_navigation: ว่าส่วนคืออะไร (ป้าย, href), จะกลับไปที่ไหน (ย้อนกลับ), และมุมมองของมัน (รายการ) ซึ่งแต่ละรายการคือลิงก์ที่ผู้อ่านสามารถเปิดได้ — รายการอื่น ๆ จะถูกละไว้ รายการหนึ่งจะสว่างอยู่ในครอบครัวของหน้า (ตรงกัน) และอาจมีมุมมองของตัวเอง (ลูก ๆ)'
+    drawing:
+      title: การวาดมัน
+      body: 'layout_section_navigation กำหนดวิธี: แท็บตามค่าเริ่มต้น ซึ่งแสดงระดับที่หน้ามีอยู่ — ลูก ๆ ของมุมมองใต้ทางกลับไปยังส่วน — หรือเมนู ซึ่งแสดงส่วนทั้งหมด ทางกลับอยู่ด้านบนและมุมมองที่ถือหน้าเปิดอยู่.'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bereichsnavigation
+  page_icon: 'ph:bold/signpost'
+  intro: 'Die Seiten eines Bereichs werden einmal geschrieben, als seine Navigation, und so dargestellt, wie es die App wählt: Registerkarten unter dem Header, wie auf den anderen Seiten dieses Bereichs, oder das Seitenmenü, das für den Bereich steht, während man sich darin befindet – wie auf dieser Seite, deren Menü links diesem Bereich gehört.'
+  section:
+    writing:
+      title: 'Es schreiben'
+      body: 'Das Layout eines Bereichs legt page_section_navigation fest: was der Bereich ist (Bezeichnung, href), wofür er übrig bleibt (zurück) und seine Ansichten (Elemente), jede ein Weg, den der Leser öffnen kann – die anderen bleiben außen vor. Ein Element bleibt auf einer Familie von Seiten beleuchtet (Übereinstimmung) und kann eigene Ansichten haben (Kinder).'
+    drawing:
+      title: 'Es zeichnen'
+      body: 'layout_section_navigation sagt, wie: Registerkarten standardmäßig, die das Niveau anzeigen, in dem die Seite steht – die Kinder einer Ansicht unter dem Rückweg zum Bereich – oder Menü, das den gesamten Bereich zeigt, den Rückweg oben und die Ansicht, die die Seite entfaltet.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Osiosivun navigointi'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Osion sivut kirjoitetaan kerran, navigoinniksi, ja ne esitetään sovelluksen valinnan mukaan: välilehdet otsikon alapuolella, kuten tämän osion muilla sivuilla, tai sivuvalikko, joka edustaa osiota ollessasi siinä — kuten tällä sivulla, jonka vasemmalla puolella on tämän osion valikko.'
+  section:
+    writing:
+      title: Kirjoittaminen
+      body: 'Osiot ovat layoutissaan määritelty page_section_navigation: mitä osio on (nimike, href), mihin se jätetään (takaisin), ja sen näkymät (kohteet), jokainen reitti, jonka lukija voi avata — muut jäävät pois. Kohde pysyy aktiivisena perhesivuilla (ottelu), ja siihen voi liittyä omia näkymiään (lapset).'
+    drawing:
+      title: Piirtäminen
+      body: 'layout_section_navigation määrittelee miten: välilehdet oletuksena, jotka näyttävät tason, jossa sivu on — näkymän lapset tien alla takaisin osioon — tai valikko, joka näyttää koko osion, tien takaisin päällä ja näkymän, joka pitää sivun auki.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Навигация по разделу'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Страницы раздела написаны один раз, как его навигация, и отображаются так, как выберет приложение: вкладками под заголовком, как на других страницах этого раздела, или боковым меню, представляющим раздел, пока вы находитесь в нем — как на этой странице, меню слева является меню этого раздела.'
+  section:
+    writing:
+      title: Написание
+      body: 'Макет раздела задает page_section_navigation: что такое раздел (ярлык, href), для чего он нужен (назад) и его представления (элементы), каждое из которых является маршрутом, который может открыть читатель — другие исключаются. Элемент остается выделенным на семействе страниц (совпадение) и может иметь свои собственные представления (дочерние элементы).'
+    drawing:
+      title: Рисование
+      body: 'layout_section_navigation говорит, как: вкладки по умолчанию, которые показывают уровень, на котором находится страница — дочерние элементы представления под путем обратно к разделу — или меню, которое показывает весь раздел, путь обратно сверху и представление, удерживающее страницу, раскрытое.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Nawigacja sekcji'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Strony sekcji są pisane raz, jako jej nawigacja, i rysowane tak, jak wybierze aplikacja: zakładki pod nagłówkiem, jak na innych stronach tej sekcji, lub menu boczne reprezentujące sekcję, gdy się w niej znajduje — jak na tej stronie, której menu po lewej stronie jest tą sekcją.'
+  section:
+    writing:
+      title: 'Pisanie tego'
+      body: 'Układ sekcji ustawia page_section_navigation: co to jest sekcja (etykieta, href), na co jest pozostawiona (powrót) oraz jej widoki (elementy), każdy z trasą, którą czytelnik może otworzyć — pozostałe są pominięte. Element pozostaje podświetlony w rodzinie stron (dopasowanie) i może mieć własne widoki (dzieci).'
+    drawing:
+      title: 'Rysowanie tego'
+      body: 'layout_section_navigation mówi jak: zakładki domyślnie, które pokazują poziom, na którym znajduje się strona — dzieci widoku pod drogą powrotną do sekcji — lub menu, które pokazuje sekcję w całości, droga powrotna na górze i widok trzymający stronę rozwiniętą.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Navegación de secciones'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Las páginas de una sección se escriben una vez, como su navegación, y se muestran como la aplicación elija: pestañas bajo el encabezado, como en las otras páginas de esta sección, o el menú lateral representando la sección mientras uno está en ella — como en esta página, cuyo menú a la izquierda es de esta sección.'
+  section:
+    writing:
+      title: Escribiéndolo
+      body: 'El diseño de una sección establece page_section_navigation: qué es la sección (etiqueta, href), para qué se deja (volver), y sus vistas (elementos), cada una una ruta que el lector puede abrir — las demás quedan fuera. Un elemento permanece iluminado en una familia de páginas (coincidencia), y puede tener vistas propias (hijos).'
+    drawing:
+      title: Dibujándolo
+      body: 'layout_section_navigation dice cómo: pestañas por defecto, que muestran el nivel en el que se encuentra la página — los hijos de una vista bajo el camino de regreso a la sección — o menú, que muestra la sección completa, el camino de regreso en la parte superior y la vista que sostiene la página desplegada.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Navigazione della sezione'
+  page_icon: 'ph:bold/signpost'
+  intro: "Le pagine di una sezione sono scritte una sola volta, come la sua navigazione, e disegnate come decide l'app: schede sotto l'intestazione, come nelle altre pagine di questa sezione, o il menu laterale che rappresenta la sezione mentre ci si trova al suo interno — come in questa pagina, il cui menu a sinistra è quello di questa sezione."
+  section:
+    writing:
+      title: Scriverlo
+      body: 'Il layout di una sezione imposta page_section_navigation: cosa è la sezione (etichetta, href), dove è lasciato per (indietro), e le sue visualizzazioni (elementi), ciascuna un percorso che il lettore può aprire — le altre sono escluse. Un elemento rimane attivo su una famiglia di pagine (corrispondenza), e può contenere visualizzazioni proprie (figli).'
+    drawing:
+      title: Disegnarlo
+      body: "layout_section_navigation dice come: schede per impostazione predefinita, che mostrano il livello in cui si trova la pagina — i figli di una visualizzazione sotto il percorso di ritorno alla sezione — o menu, che mostra l'intera sezione, il percorso di ritorno in cima e la visualizzazione che tiene la pagina espansa."
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Navegação da seção'
+  page_icon: 'ph:bold/signpost'
+  intro: 'As páginas de uma seção são escritas uma vez, como sua navegação, e apresentadas da forma que o aplicativo escolher: abas abaixo do cabeçalho, como nas outras páginas desta seção, ou o menu lateral representando a seção enquanto se está nela — como nesta página, cujo menu à esquerda é desta seção.'
+  section:
+    writing:
+      title: 'Escrevendo isso'
+      body: 'O layout de uma seção define page_section_navigation: o que a seção é (rótulo, href), para onde está voltada (voltar), e suas visualizações (itens), cada uma uma rota que o leitor pode abrir — as outras são deixadas de fora. Um item permanece destacado em uma família de páginas (correspondência), e pode conter visualizações próprias (filhos).'
+    drawing:
+      title: 'Desenhando isso'
+      body: 'layout_section_navigation diz como: abas por padrão, que mostram o nível em que a página se encontra — as crianças de uma visualização sob o caminho de volta para a seção — ou menu, que mostra a seção inteira, o caminho de volta no topo e a visualização que contém a página desdobrada.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Bölüm navigasyonu'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Bir bölümün sayfaları bir kez yazılır, navigasyonu olarak belirlenir ve uygulamanın seçtiği şekilde gösterilir: bu bölümün diğer sayfalarında olduğu gibi başlığın altında sekmeler veya içerideyken bölümün temsil edildiği yan menü — bu sayfada olduğu gibi, soldaki menü bu bölümün menüsüdür.'
+  section:
+    writing:
+      title: Yazma
+      body: "Bir bölümün düzeni page_section_navigation'ı belirler: bölümün ne olduğu (etiket, href), nereye geri döneceği (geri), ve görüntüleri (öğeler), her biri okuyucunun açabileceği bir yol — diğerleri dışarıda bırakılır. Bir öğe bir sayfa ailesinde açık kalır (eşleşme) ve kendi görüntülerini (alt öğeler) barındırabilir."
+    drawing:
+      title: Çizim
+      body: 'layout_section_navigation nasıl olduğunu belirtir: varsayılan olarak sekmeler, sayfanın hangi seviyede olduğunu gösterir — bir görünümün çocukları bölüme geri dönüş yolunun altında — veya menü, bölümün tamamını gösterir, geri dönüş yolu üstte ve sayfayı açılmış halde tutan görünüm.'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Điều hướng phần'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Các trang của một phần được viết một lần, như là điều hướng của nó, và được vẽ theo cách mà ứng dụng chọn: thẻ dưới tiêu đề, như trên các trang khác của phần này, hoặc menu bên đại diện cho phần khi một người ở trong đó — như trên trang này, mà menu bên trái là của phần này.'
+  section:
+    writing:
+      title: 'Viết nó'
+      body: 'Bố cục của một phần xác định page_section_navigation: phần đó là gì (nhãn, href), nó được để lại để làm gì (quay lại), và các chế độ xem của nó (mục), mỗi mục là một lộ trình mà người đọc có thể mở — các mục khác thì không được đề cập. Một mục sẽ vẫn sáng trên một nhóm trang (khớp), và có thể giữ các chế độ xem của riêng nó (các con).'
+    drawing:
+      title: 'Vẽ nó'
+      body: 'layout_section_navigation cho biết cách thức: thẻ mặc định, hiển thị cấp độ mà trang đứng — các con của một chế độ xem dưới lối về phần — hoặc menu, hiển thị toàn bộ phần, lối về ở trên và chế độ xem giữ trang được mở.'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Navigasi bagian'
+  page_icon: 'ph:bold/signpost'
+  intro: 'Halaman-halaman dalam sebuah bagian ditulis sekali, sebagai navigasinya, dan ditampilkan sesuai pilihan aplikasi: tab di bawah header, seperti di halaman-halaman lain dalam bagian ini, atau menu samping yang mewakili bagian saat seseorang berada di dalamnya — seperti di halaman ini, yang menu di sebelah kiri adalah bagian ini.'
+  section:
+    writing:
+      title: Menuliskannya
+      body: 'Tata letak sebuah bagian menetapkan page_section_navigation: apa itu bagian (label, href), untuk apa ditinggalkan (kembali), dan tampilan-tampilannya (item), masing-masing adalah rute yang dapat dibuka pembaca — yang lainnya dikesampingkan. Sebuah item tetap menyala di kumpulan halaman (cocok), dan dapat memiliki tampilan sendiri (anak).'
+    drawing:
+      title: 'Menggambar ini'
+      body: 'layout_section_navigation mengatakan bagaimana: tab secara default, yang menunjukkan tingkat di mana halaman berada — anak-anak dari sebuah tampilan di bawah jalan kembali ke bagian — atau menu, yang menunjukkan keseluruhan bagian, jalan kembali di atas dan tampilan yang menampilkan halaman terbuka.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Sectienavigatie
+  page_icon: 'ph:bold/signpost'
+  intro: "De pagina's van een sectie worden eenmaal geschreven, als zijn navigatie, en getekend zoals de app kiest: tabbladen onder de kop, zoals op de andere pagina's van deze sectie, of het zijmenu dat staat voor de sectie terwijl men erin is — zoals op deze pagina, wiens menu links deze sectie is."
+  section:
+    writing:
+      title: 'Het schrijven ervan'
+      body: "De lay-out van een sectie stelt page_section_navigation in: wat de sectie is (label, href), waar het voor is (terug), en zijn weergaven (items), elk een route die de lezer kan openen — de anderen worden weggelaten. Een item blijft verlicht op een familie van pagina's (overeenkomst), en kan eigen weergaven hebben (kinderen)."
+    drawing:
+      title: 'Het tekenen ervan'
+      body: 'layout_section_navigation zegt hoe: tabbladen standaard, die het niveau tonen waarin de pagina zich bevindt — de kinderen van een weergave onder de weg terug naar de sectie — of menu, dat de sectie geheel toont, de weg terug bovenaan en de weergave die de pagina ontvouwt.'

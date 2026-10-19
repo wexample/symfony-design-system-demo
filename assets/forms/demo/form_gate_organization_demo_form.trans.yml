@@ -41,3 +41,212 @@ ar:
       label: آيبان
   action:
     submit: حفظ
+
+hi:
+  field:
+    title:
+      label: शीर्षक
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: सहेजें
+
+he:
+  field:
+    title:
+      label: כותרת
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: שמור
+
+fa:
+  field:
+    title:
+      label: عنوان
+    siret:
+      label: سیرت
+    iban:
+      label: آی‌بان
+  action:
+    submit: ذخیره
+
+ur:
+  field:
+    title:
+      label: عنوان
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: 'محفوظ کریں'
+
+ja:
+  field:
+    title:
+      label: タイトル
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: 保存
+
+ko:
+  field:
+    title:
+      label: 제목
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: 저장
+
+bn:
+  field:
+    title:
+      label: শিরোনাম
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: 'সংরক্ষণ করুন'
+
+th:
+  field:
+    title:
+      label: ชื่อเรื่อง
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: บันทึก
+
+de:
+  field:
+    title:
+      label: Titel
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Speichern
+
+fi:
+  field:
+    title:
+      label: Otsikko
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Tallenna
+
+ru:
+  field:
+    title:
+      label: Название
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Сохранить
+
+pl:
+  field:
+    title:
+      label: Tytuł
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Zapisz
+
+es:
+  field:
+    title:
+      label: Título
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Guardar
+
+it:
+  field:
+    title:
+      label: Titolo
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Salva
+
+pt_BR:
+  field:
+    title:
+      label: Título
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Salvar
+
+tr:
+  field:
+    title:
+      label: Başlık
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Kaydet
+
+vi:
+  field:
+    title:
+      label: 'Tiêu đề'
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Lưu
+
+id:
+  field:
+    title:
+      label: Judul
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Simpan
+
+nl:
+  field:
+    title:
+      label: Titel
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: Opslaan

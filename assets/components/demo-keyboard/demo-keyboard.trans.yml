@@ -113,3 +113,554 @@ ar:
   flag_location_1: الأيسر
   flag_location_2: الأيمن
   flag_location_3: 'لوحة الأرقام'
+
+hi:
+  waiting: 'किसी कुंजी को दबाएं — पृष्ठ पर कहीं भी।'
+  modifiers: 'मॉडिफायर दबाए गए हैं'
+  caps_lock: 'कैप्स लॉक'
+  platform_mac: 'एक मैक: मॉड है ⌘ कमांड।'
+  platform_other: 'मैक नहीं: मॉड है Ctrl।'
+  shortcuts: 'शॉर्टकट पहचाने गए'
+  action_copy: 'कॉपी करें'
+  action_cut: काटें
+  action_paste: 'पेस्ट करें'
+  action_undo: 'पूर्ववत करें'
+  action_redo: 'फिर से करें'
+  action_save: 'सहेजें (ब्राउज़र से रखा गया)'
+  action_search: 'खोजें (ब्राउज़र से रखा गया)'
+  action_move_up: 'ऊपर जाएं'
+  try: 'यहां लिखें, कॉपी करें, पेस्ट करें'
+  try_placeholder: 'कोशिश करें ⌘C / Ctrl+C, एक मृत कुंजी पर एक उच्चारण (^ फिर e), एक संख्या जैसे 72,5…'
+  clipboard: क्लिपबोर्ड
+  clipboard_empty: 'अभी तक कुछ कॉपी या पेस्ट नहीं किया गया।'
+  as_number: 'संख्या के रूप में पढ़ें:'
+  board: 'कीबोर्ड, इसकी कुंजियों के स्थान द्वारा'
+  log: 'घटनाएँ, नवीनतम पहले'
+  flag_repeat: 'दबाया हुआ'
+  flag_dead: 'मृत कुंजी — अगली कुंजी का इंतज़ार कर रही है'
+  flag_composing: 'रचना कर रहा है'
+  flag_location_1: 'बाएँ वाला'
+  flag_location_2: 'दाएँ वाला'
+  flag_location_3: 'संख्यात्मक कीपैड'
+
+he:
+  waiting: 'לחץ על מקש — בכל מקום בעמוד.'
+  modifiers: 'לחצנים מוחזקים'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'במחשב Mac: Mod הוא ⌘ Command.'
+  platform_other: 'לא במחשב Mac: Mod הוא Ctrl.'
+  shortcuts: 'קיצורים מזוהים'
+  action_copy: העתק
+  action_cut: גזור
+  action_paste: הדבק
+  action_undo: בטל
+  action_redo: שחזר
+  action_save: 'שמור (נשמר מהדפדפן)'
+  action_search: 'חפש (נשמר מהדפדפן)'
+  action_move_up: 'זוז למעלה'
+  try: 'כתוב, העתק, הדבק כאן'
+  try_placeholder: 'נסה ⌘C / Ctrl+C, טון על מקש מת או (^ ואז e), מספר כמו 72,5…'
+  clipboard: 'לוח העריכה'
+  clipboard_empty: 'עדיין לא הועתק או הודבק כלום.'
+  as_number: 'קרא כמספר:'
+  board: 'המקלדת, לפי מיקום המקשים שלה'
+  log: 'אירועים, האחרון קודם'
+  flag_repeat: 'מוחזק למטה'
+  flag_dead: 'מקש מת — מחכה למקש הבא'
+  flag_composing: 'כיצד להקליד'
+  flag_location_1: השמאלי
+  flag_location_2: הימני
+  flag_location_3: 'מקשי מספרים'
+
+fa:
+  waiting: 'یک کلید را فشار دهید - در هر جایی از صفحه.'
+  modifiers: 'کلیدهای تغییر داده شده'
+  caps_lock: 'کلید بزرگ‌نما'
+  platform_mac: 'یک مک: کلید تغییر ⌘ Command است.'
+  platform_other: 'غیر از مک: کلید تغییر Ctrl است.'
+  shortcuts: 'میانبرها شناسایی شدند'
+  action_copy: کپی
+  action_cut: برش
+  action_paste: چسباندن
+  action_undo: بازگشت
+  action_redo: 'از نو انجام دادن'
+  action_save: 'ذخیره (از مرورگر نگه داشته شده)'
+  action_search: 'جستجو (از مرورگر نگه داشته شده)'
+  action_move_up: 'بالا رفتن'
+  try: 'اینجا بنویسید، کپی کنید، چسبانید'
+  try_placeholder: 'سعی کنید ⌘C / Ctrl+C، یک لهجه روی یک کلید مرده (^ سپس e)، یک عدد مانند 72,5…'
+  clipboard: 'حافظه موقت'
+  clipboard_empty: 'هنوز چیزی کپی یا چسبانده نشده است.'
+  as_number: 'به عنوان یک عدد بخوانید:'
+  board: 'صفحه کلید، بر اساس مکان کلیدهایش'
+  log: 'رویدادها، جدیدترین اول'
+  flag_repeat: 'فشرده شده'
+  flag_dead: 'کلید مرده - منتظر کلید بعدی'
+  flag_composing: 'در حال نوشتن'
+  flag_location_1: 'سمت چپ'
+  flag_location_2: 'سمت راست'
+  flag_location_3: 'کیبورد عددی'
+
+ur:
+  waiting: 'ایک کلید دبائیں — صفحے پر کہیں بھی۔'
+  modifiers: 'موڈیفائرز دبائے گئے ہیں'
+  caps_lock: 'کیپس لاک'
+  platform_mac: 'ایک میک: موڈ ہے ⌘ کمانڈ۔'
+  platform_other: 'میک نہیں: موڈ ہے Ctrl۔'
+  shortcuts: 'شارٹ کٹس پہچانے گئے'
+  action_copy: 'کاپی کریں'
+  action_cut: 'کٹ کریں'
+  action_paste: 'پیسٹ کریں'
+  action_undo: 'انڈو کریں'
+  action_redo: 'ری ڈو کریں'
+  action_save: 'محفوظ کریں (براؤزر سے لیا گیا)'
+  action_search: 'تلاش کریں (براؤزر سے لیا گیا)'
+  action_move_up: 'اوپر جائیں'
+  try: 'یہاں لکھیں، کاپی کریں، پیسٹ کریں'
+  try_placeholder: 'کوشش کریں ⌘C / Ctrl+C، ایک ڈیڈ کی پر ایک لہجہ (^ پھر e)، ایک عدد جیسے 72,5…'
+  clipboard: 'کلپ بورڈ'
+  clipboard_empty: 'ابھی تک کچھ بھی کاپی یا پیسٹ نہیں کیا گیا۔'
+  as_number: 'ایک عدد کے طور پر پڑھیں:'
+  board: 'کی بورڈ، اس کی چابیوں کے مقام کے ساتھ'
+  log: 'ایونٹس، تازہ ترین پہلے'
+  flag_repeat: 'دبائے ہوئے'
+  flag_dead: 'ڈیڈ کی — اگلی کی کا انتظار کر رہا ہے'
+  flag_composing: 'تخلیق کر رہا ہے'
+  flag_location_1: 'بائیں والا'
+  flag_location_2: 'دائیں والا'
+  flag_location_3: 'عددئی کی پیڈ'
+
+ja:
+  waiting: ページ上の任意のキーを押してください。
+  modifiers: 修飾キーが押されています
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Macの場合: 修飾キーは ⌘ Command です。'
+  platform_other: 'Mac以外の場合: 修飾キーは Ctrl です。'
+  shortcuts: ショートカットが認識されました
+  action_copy: コピー
+  action_cut: 切り取り
+  action_paste: 貼り付け
+  action_undo: 元に戻す
+  action_redo: やり直す
+  action_save: 保存（ブラウザから保持）
+  action_search: 検索（ブラウザから保持）
+  action_move_up: 上に移動
+  try: ここに書く、コピーする、貼り付ける
+  try_placeholder: '⌘C / Ctrl+C、デッドキーでのアクセント（^の後にe）、72,5のような数字を試してください…'
+  clipboard: クリップボード
+  clipboard_empty: まだ何もコピーまたは貼り付けされていません。
+  as_number: '数字として読み取る:'
+  board: キーの配置によるキーボード
+  log: イベント、最新のものが最初
+  flag_repeat: 押し続けています
+  flag_dead: 'デッドキー — 次のキーを待っています'
+  flag_composing: 入力中
+  flag_location_1: 左側
+  flag_location_2: 右側
+  flag_location_3: 数字キーパッド
+
+ko:
+  waiting: '페이지의 아무 곳에서든 키를 누르세요.'
+  modifiers: '수정 키가 눌려 있음'
+  caps_lock: '대문자 잠금'
+  platform_mac: 'Mac: 수정 키는 ⌘ Command입니다.'
+  platform_other: 'Mac이 아닌 경우: 수정 키는 Ctrl입니다.'
+  shortcuts: '단축키 인식됨'
+  action_copy: 복사
+  action_cut: 잘라내기
+  action_paste: 붙여넣기
+  action_undo: '실행 취소'
+  action_redo: '다시 실행'
+  action_save: '저장 (브라우저에서 유지됨)'
+  action_search: '검색 (브라우저에서 유지됨)'
+  action_move_up: '위로 이동'
+  try: '여기에 작성하거나 복사하여 붙여넣기'
+  try_placeholder: '⌘C / Ctrl+C, 데드 키에서의 악센트 (^ 다음 e), 72,5와 같은 숫자…'
+  clipboard: 클립보드
+  clipboard_empty: '아직 복사되거나 붙여넣기된 것이 없습니다.'
+  as_number: '숫자로 읽기:'
+  board: '키의 위치에 따라 키보드'
+  log: '이벤트, 최신이 먼저'
+  flag_repeat: '눌러진 상태'
+  flag_dead: '데드 키 — 다음 키를 기다림'
+  flag_composing: '조합 중'
+  flag_location_1: 왼쪽
+  flag_location_2: 오른쪽
+  flag_location_3: '숫자 키패드'
+
+bn:
+  waiting: 'একটি কী চাপুন — পৃষ্ঠার যেকোনো স্থানে।'
+  modifiers: 'মডিফায়ার ধরে রাখা'
+  caps_lock: 'ক্যাপস লক'
+  platform_mac: 'একটি ম্যাক: মড হল ⌘ কমান্ড।'
+  platform_other: 'ম্যাক নয়: মড হল Ctrl।'
+  shortcuts: 'শর্টকাট স্বীকৃত'
+  action_copy: কপি
+  action_cut: কাট
+  action_paste: পেস্ট
+  action_undo: 'অবস্থান ফিরিয়ে নিন'
+  action_redo: 'পুনরায় করুন'
+  action_save: 'সংরক্ষণ করুন (ব্রাউজার থেকে রাখা)'
+  action_search: 'খুঁজুন (ব্রাউজার থেকে রাখা)'
+  action_move_up: 'উপর যান'
+  try: 'এখানে লিখুন, কপি করুন, পেস্ট করুন'
+  try_placeholder: 'চেষ্টা করুন ⌘C / Ctrl+C, একটি ডেড কীতে একটি অ্যাকসেন্ট (^ তারপর e), 72,5 এর মতো একটি সংখ্যা…'
+  clipboard: ক্লিপবোর্ড
+  clipboard_empty: 'এখনো কিছু কপি বা পেস্ট করা হয়নি।'
+  as_number: 'একটি সংখ্যার মতো পড়ুন:'
+  board: 'কীবোর্ড, এর কীগুলোর অবস্থান অনুযায়ী'
+  log: 'ইভেন্টগুলি, সর্বশেষ প্রথম'
+  flag_repeat: 'ধরে রাখা'
+  flag_dead: 'ডেড কী — পরবর্তীটির জন্য অপেক্ষা করছে'
+  flag_composing: 'রচনা হচ্ছে'
+  flag_location_1: বামটি
+  flag_location_2: ডানটি
+  flag_location_3: 'সংখ্যাসূচক কিপ্যাড'
+
+th:
+  waiting: 'กดปุ่มใดก็ได้ — บนหน้าเว็บนี้.'
+  modifiers: ปุ่มที่กดค้างไว้
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Mac: Mod คือ ⌘ Command.'
+  platform_other: 'ไม่ใช่ Mac: Mod คือ Ctrl.'
+  shortcuts: ทางลัดที่รู้จัก
+  action_copy: คัดลอก
+  action_cut: ตัด
+  action_paste: วาง
+  action_undo: ย้อนกลับ
+  action_redo: ทำซ้ำ
+  action_save: 'บันทึก (เก็บจากเบราว์เซอร์)'
+  action_search: 'ค้นหา (เก็บจากเบราว์เซอร์)'
+  action_move_up: เลื่อนขึ้น
+  try: 'เขียน, คัดลอก, วางที่นี่'
+  try_placeholder: 'ลอง ⌘C / Ctrl+C, การเน้นเสียงบนคีย์ที่ไม่ใช้งาน (^ แล้วตามด้วย e), ตัวเลขเช่น 72,5…'
+  clipboard: คลิปบอร์ด
+  clipboard_empty: ยังไม่มีการคัดลอกหรือวางอะไรเลย.
+  as_number: 'อ่านเป็นหมายเลข:'
+  board: 'คีย์บอร์ด, ตามตำแหน่งของปุ่ม'
+  log: 'เหตุการณ์, ล่าสุดก่อน'
+  flag_repeat: กดค้างไว้
+  flag_dead: 'คีย์ที่ไม่ใช้งาน — รอคีย์ถัดไป'
+  flag_composing: กำลังพิมพ์
+  flag_location_1: ด้านซ้าย
+  flag_location_2: ด้านขวา
+  flag_location_3: แป้นพิมพ์ตัวเลข
+
+de:
+  waiting: 'Drücken Sie eine Taste — überall auf der Seite.'
+  modifiers: 'Halten Sie die Modifizierer gedrückt'
+  caps_lock: Feststelltaste
+  platform_mac: 'Ein Mac: Mod ist ⌘ Befehl.'
+  platform_other: 'Kein Mac: Mod ist Ctrl.'
+  shortcuts: 'Erkannte Tastenkombinationen'
+  action_copy: Kopieren
+  action_cut: Ausschneiden
+  action_paste: Einfügen
+  action_undo: 'Rückgängig machen'
+  action_redo: Wiederherstellen
+  action_save: 'Speichern (im Browser behalten)'
+  action_search: 'Suchen (im Browser behalten)'
+  action_move_up: 'Nach oben bewegen'
+  try: 'Hier schreiben, kopieren, einfügen'
+  try_placeholder: 'Versuchen Sie ⌘C / Ctrl+C, einen Akzent auf einer Toten Taste (^ dann e), eine Zahl wie 72,5…'
+  clipboard: Zwischenablage
+  clipboard_empty: 'Noch nichts kopiert oder eingefügt.'
+  as_number: 'Als Zahl lesen:'
+  board: 'Die Tastatur, nach der Anordnung ihrer Tasten'
+  log: 'Ereignisse, die neuesten zuerst'
+  flag_repeat: 'gedrückt gehalten'
+  flag_dead: 'tote Taste — wartet auf die nächste'
+  flag_composing: zusammensetzen
+  flag_location_1: linke
+  flag_location_2: rechte
+  flag_location_3: Zahlenfeld
+
+fi:
+  waiting: 'Paina näppäintä — missä tahansa sivulla.'
+  modifiers: 'Modifikaattorit pidettynä'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Mac: Mod on ⌘ Command.'
+  platform_other: 'Ei Mac: Mod on Ctrl.'
+  shortcuts: 'Pikanäppäimet tunnistettu'
+  action_copy: Kopioi
+  action_cut: Leikkaa
+  action_paste: Liitä
+  action_undo: Peruuta
+  action_redo: 'Tee uudelleen'
+  action_save: 'Tallenna (selaimesta säilytetty)'
+  action_search: 'Etsi (selaimesta säilytetty)'
+  action_move_up: 'Siirry ylöspäin'
+  try: 'Kirjoita, kopioi, liitä tänne'
+  try_placeholder: 'Kokeile ⌘C / Ctrl+C, aksenttia kuolleella näppäimellä (^ sitten e), numeroa kuten 72,5…'
+  clipboard: Leikepöytä
+  clipboard_empty: 'Ei mitään kopioitu tai liitetty vielä.'
+  as_number: 'Lue numeroina:'
+  board: 'Näppäimistö, sen näppäinten paikan mukaan'
+  log: 'Tapahtumat, uusimmat ensin'
+  flag_repeat: pidettynä
+  flag_dead: 'kuollut näppäin — odottaa seuraavaa'
+  flag_composing: koostuu
+  flag_location_1: vasen
+  flag_location_2: oikea
+  flag_location_3: 'numeerinen näppäimistö'
+
+ru:
+  waiting: 'Нажмите любую клавишу — где угодно на странице.'
+  modifiers: 'Зажатые модификаторы'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Mac: Модификатор ⌘ Command.'
+  platform_other: 'Не Mac: Модификатор Ctrl.'
+  shortcuts: 'Распознанные сочетания клавиш'
+  action_copy: Копировать
+  action_cut: Вырезать
+  action_paste: Вставить
+  action_undo: Отменить
+  action_redo: Повторить
+  action_save: 'Сохранить (с браузера)'
+  action_search: 'Поиск (с браузера)'
+  action_move_up: 'Переместиться вверх'
+  try: 'Напишите, скопируйте, вставьте здесь'
+  try_placeholder: 'Попробуйте ⌘C / Ctrl+C, акцент на мёртвой клавише (^ затем e), число вроде 72,5…'
+  clipboard: 'Буфер обмена'
+  clipboard_empty: 'Ничего не скопировано и не вставлено.'
+  as_number: 'Читать как число:'
+  board: 'Клавиатура, по расположению её клавиш'
+  log: 'События, последние первыми'
+  flag_repeat: нажата
+  flag_dead: 'мёртвая клавиша — ждёт следующую'
+  flag_composing: набирается
+  flag_location_1: левая
+  flag_location_2: правая
+  flag_location_3: 'цифровая клавиатура'
+
+pl:
+  waiting: 'Naciśnij dowolny klawisz — gdziekolwiek na stronie.'
+  modifiers: 'Przytrzymane modyfikatory'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Mac: Mod to ⌘ Command.'
+  platform_other: 'Nie Mac: Mod to Ctrl.'
+  shortcuts: 'Rozpoznane skróty'
+  action_copy: Kopiuj
+  action_cut: Wytnij
+  action_paste: Wklej
+  action_undo: Cofnij
+  action_redo: Ponów
+  action_save: 'Zapisz (zachowane z przeglądarki)'
+  action_search: 'Szukaj (zachowane z przeglądarki)'
+  action_move_up: 'Przesuń w górę'
+  try: 'Napisz, skopiuj, wklej tutaj'
+  try_placeholder: 'Spróbuj ⌘C / Ctrl+C, akcent na martwym klawiszu (^ następnie e), liczba jak 72,5…'
+  clipboard: Schowek
+  clipboard_empty: 'Nic jeszcze nie skopiowano ani nie wklejono.'
+  as_number: 'Odczytaj jako liczbę:'
+  board: 'Klawiatura, według miejsca jej klawiszy'
+  log: 'Wydarzenia, najnowsze na początku'
+  flag_repeat: przytrzymany
+  flag_dead: 'martwy klawisz — czeka na następny'
+  flag_composing: składanie
+  flag_location_1: lewy
+  flag_location_2: prawy
+  flag_location_3: 'klawiatura numeryczna'
+
+es:
+  waiting: 'Presiona una tecla — en cualquier parte de la página.'
+  modifiers: 'Modificadores presionados'
+  caps_lock: 'Bloq Mayús'
+  platform_mac: 'Un Mac: Mod es ⌘ Command.'
+  platform_other: 'No es un Mac: Mod es Ctrl.'
+  shortcuts: 'Atajos reconocidos'
+  action_copy: Copiar
+  action_cut: Cortar
+  action_paste: Pegar
+  action_undo: Deshacer
+  action_redo: Rehacer
+  action_save: 'Guardar (mantener desde el navegador)'
+  action_search: 'Buscar (mantener desde el navegador)'
+  action_move_up: 'Mover hacia arriba'
+  try: 'Escribe, copia, pega aquí'
+  try_placeholder: 'Prueba ⌘C / Ctrl+C, un acento en una tecla muerta (^ luego e), un número como 72,5…'
+  clipboard: Portapapeles
+  clipboard_empty: 'Nada copiado o pegado aún.'
+  as_number: 'Leer como un número:'
+  board: 'El teclado, por la ubicación de sus teclas'
+  log: 'Eventos, los más recientes primero'
+  flag_repeat: presionado
+  flag_dead: 'tecla muerta — espera a la siguiente'
+  flag_composing: componiendo
+  flag_location_1: izquierda
+  flag_location_2: derecha
+  flag_location_3: 'teclado numérico'
+
+it:
+  waiting: 'Premi un tasto — ovunque nella pagina.'
+  modifiers: 'Modificatori tenuti'
+  caps_lock: 'Bloc Maiusc'
+  platform_mac: 'Un Mac: Mod è ⌘ Command.'
+  platform_other: 'Non un Mac: Mod è Ctrl.'
+  shortcuts: 'Scorciatoie riconosciute'
+  action_copy: Copia
+  action_cut: Taglia
+  action_paste: Incolla
+  action_undo: Annulla
+  action_redo: Ripeti
+  action_save: 'Salva (mantenuto dal browser)'
+  action_search: 'Cerca (mantenuto dal browser)'
+  action_move_up: 'Muovi su'
+  try: 'Scrivi, copia, incolla qui'
+  try_placeholder: 'Prova ⌘C / Ctrl+C, un accento su un tasto morto (^ poi e), un numero come 72,5…'
+  clipboard: Appunti
+  clipboard_empty: 'Niente copiato o incollato ancora.'
+  as_number: 'Leggi come un numero:'
+  board: 'La tastiera, in base alla posizione dei suoi tasti'
+  log: 'Eventi, i più recenti per primi'
+  flag_repeat: 'tenuto premuto'
+  flag_dead: 'tasto morto — aspetta il successivo'
+  flag_composing: componendo
+  flag_location_1: 'a sinistra'
+  flag_location_2: 'a destra'
+  flag_location_3: 'tastierino numerico'
+
+pt_BR:
+  waiting: 'Pressione uma tecla — em qualquer lugar da página.'
+  modifiers: 'Modificadores pressionados'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Um Mac: Mod é ⌘ Command.'
+  platform_other: 'Não é um Mac: Mod é Ctrl.'
+  shortcuts: 'Atalhos reconhecidos'
+  action_copy: Copiar
+  action_cut: Recortar
+  action_paste: Colar
+  action_undo: Desfazer
+  action_redo: Refazer
+  action_save: 'Salvar (mantido pelo navegador)'
+  action_search: 'Pesquisar (mantido pelo navegador)'
+  action_move_up: 'Mover para cima'
+  try: 'Escreva, copie, cole aqui'
+  try_placeholder: 'Tente ⌘C / Ctrl+C, um acento em uma tecla morta (^ depois e), um número como 72,5…'
+  clipboard: 'Área de transferência'
+  clipboard_empty: 'Nada copiado ou colado ainda.'
+  as_number: 'Leia como um número:'
+  board: 'O teclado, pelo lugar de suas teclas'
+  log: 'Eventos, os mais recentes primeiro'
+  flag_repeat: pressionado
+  flag_dead: 'tecla morta — aguarda a próxima'
+  flag_composing: compondo
+  flag_location_1: 'lado esquerdo'
+  flag_location_2: 'lado direito'
+  flag_location_3: 'teclado numérico'
+
+tr:
+  waiting: 'Sayfanın herhangi bir yerinde bir tuşa basın.'
+  modifiers: "Modifier'lar basılı"
+  caps_lock: 'Büyük Harf Tuşu'
+  platform_mac: "Bir Mac: Mod ⌘ Command'dır."
+  platform_other: "Mac değil: Mod Ctrl'dir."
+  shortcuts: 'Kısayollar tanındı'
+  action_copy: Kopyala
+  action_cut: Kes
+  action_paste: Yapıştır
+  action_undo: 'Geri Al'
+  action_redo: 'Yeniden Yap'
+  action_save: 'Kaydet (tarayıcıdan alındı)'
+  action_search: 'Ara (tarayıcıdan alındı)'
+  action_move_up: 'Yukarı Taşı'
+  try: 'Buraya yaz, kopyala, yapıştır'
+  try_placeholder: 'Deneyin ⌘C / Ctrl+C, ölü tuşta bir aksan (^ sonra e), 72,5 gibi bir rakam…'
+  clipboard: Panoya
+  clipboard_empty: 'Henüz hiçbir şey kopyalanmadı veya yapıştırılmadı.'
+  as_number: 'Bir sayı olarak oku:'
+  board: 'Klavye, tuşlarının yerinde'
+  log: 'Olaylar, en sonuncusu önce'
+  flag_repeat: 'basılı tutuldu'
+  flag_dead: 'ölü tuş — bir sonraki tuşu bekliyor'
+  flag_composing: yazılıyor
+  flag_location_1: 'sol olan'
+  flag_location_2: 'sağ olan'
+  flag_location_3: 'sayısal tuş takımı'
+
+vi:
+  waiting: 'Nhấn một phím — ở bất kỳ đâu trên trang.'
+  modifiers: 'Các phím sửa'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Một máy Mac: Mod là ⌘ Command.'
+  platform_other: 'Không phải máy Mac: Mod là Ctrl.'
+  shortcuts: 'Phím tắt đã nhận diện'
+  action_copy: 'Sao chép'
+  action_cut: Cắt
+  action_paste: Dán
+  action_undo: 'Hoàn tác'
+  action_redo: 'Làm lại'
+  action_save: 'Lưu (được giữ lại từ trình duyệt)'
+  action_search: 'Tìm kiếm (được giữ lại từ trình duyệt)'
+  action_move_up: 'Di chuyển lên'
+  try: 'Ghi, sao chép, dán ở đây'
+  try_placeholder: 'Thử ⌘C / Ctrl+C, một dấu nhấn trên phím chết (^ rồi đến e), một con số như 72,5…'
+  clipboard: 'Bảng tạm'
+  clipboard_empty: 'Chưa có gì được sao chép hoặc dán.'
+  as_number: 'Đọc dưới dạng số:'
+  board: 'Bàn phím, theo vị trí của các phím'
+  log: 'Sự kiện, cái mới nhất trước'
+  flag_repeat: 'được giữ'
+  flag_dead: 'phím chết — chờ phím tiếp theo'
+  flag_composing: 'đang soạn'
+  flag_location_1: 'bên trái'
+  flag_location_2: 'bên phải'
+  flag_location_3: 'bàn phím số'
+
+id:
+  waiting: 'Tekan sebuah kunci — di mana saja di halaman.'
+  modifiers: 'Modifier yang ditahan'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Sebuah Mac: Mod adalah ⌘ Command.'
+  platform_other: 'Bukan Mac: Mod adalah Ctrl.'
+  shortcuts: 'Shortcut dikenali'
+  action_copy: Salin
+  action_cut: Potong
+  action_paste: Tempel
+  action_undo: Batalkan
+  action_redo: Ulangi
+  action_save: 'Simpan (disimpan dari browser)'
+  action_search: 'Cari (disimpan dari browser)'
+  action_move_up: Naik
+  try: 'Tulis, salin, tempel di sini'
+  try_placeholder: 'Coba ⌘C / Ctrl+C, aksen pada kunci mati (^ lalu e), angka seperti 72,5…'
+  clipboard: 'Papan Klip'
+  clipboard_empty: 'Belum ada yang disalin atau ditempel.'
+  as_number: 'Baca sebagai angka:'
+  board: 'Keyboard, berdasarkan lokasi kuncinya'
+  log: 'Peristiwa, yang terbaru di depan'
+  flag_repeat: ditahan
+  flag_dead: 'kunci mati — menunggu yang berikutnya'
+  flag_composing: mengarang
+  flag_location_1: 'yang kiri'
+  flag_location_2: 'yang kanan'
+  flag_location_3: numpad
+
+nl:
+  waiting: 'Druk op een toets — waar dan ook op de pagina.'
+  modifiers: 'Ingedrukte modifiers'
+  caps_lock: 'Caps Lock'
+  platform_mac: 'Een Mac: Mod is ⌘ Command.'
+  platform_other: 'Geen Mac: Mod is Ctrl.'
+  shortcuts: 'Herkenbare sneltoetsen'
+  action_copy: Kopiëren
+  action_cut: Knippen
+  action_paste: Plakken
+  action_undo: 'Ongedaan maken'
+  action_redo: 'Opnieuw doen'
+  action_save: 'Opslaan (behouden vanuit de browser)'
+  action_search: 'Zoeken (behouden vanuit de browser)'
+  action_move_up: 'Omhoog bewegen'
+  try: 'Schrijf, kopieer, plak hier'
+  try_placeholder: 'Probeer ⌘C / Ctrl+C, een accent op een dode toets (^ dan e), een getal als 72,5…'
+  clipboard: Klembord
+  clipboard_empty: 'Nog niets gekopieerd of geplakt.'
+  as_number: 'Lezen als een getal:'
+  board: 'Het toetsenbord, volgens de plaats van zijn toetsen'
+  log: 'Gebeurtenissen, de nieuwste eerst'
+  flag_repeat: ingedrukt
+  flag_dead: 'dode toets — wacht op de volgende'
+  flag_composing: samenstellen
+  flag_location_1: linker
+  flag_location_2: rechter
+  flag_location_3: 'numeriek toetsenbord'

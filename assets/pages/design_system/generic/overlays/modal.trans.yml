@@ -94,6 +94,9 @@ bn:
     form_ajax:
       description: 'AJAX ব্যবহার করে একটি মডালের ভিতরে একটি রেন্ডার করা ডেমো ফর্ম দেখান। Escape এবং বাইরের ক্লিক অক্ষম, এবং যদি ফর্মটি পরিবর্তিত হয় তবে এটি বন্ধ করার আগে জিজ্ঞাসা করে।'
       button: 'মডাল খুলুন'
+    form_page_answer:
+      description: 'একটি ফর্ম যা তার পৃষ্ঠায় উত্তর দেওয়া হয়েছে: এটি যে কোডটি জারি করে তা মডালে ফিরে আসে, একবার দেখানো হয়।'
+      button: 'মডাল খুলুন'
     recursive:
       description: 'একটি ডায়ালগ পৃষ্ঠাকে অন্য একটি ডায়ালগের ভিতরে খুলুন — মডাল বা প্যানেল চয়ন করুন।'
       button_modal: 'মডালে খুলুন'
@@ -124,6 +127,9 @@ de:
       button: 'Modal öffnen'
     form_ajax:
       description: 'Ein gerendertes Demofeld innerhalb eines Modals mit AJAX anzeigen. Escape und das Klicken außerhalb sind deaktiviert, und es fragt vor dem Schließen, ob das Feld geändert wurde.'
+      button: 'Modal öffnen'
+    form_page_answer:
+      description: 'Ein Formular, das von seiner Seite beantwortet wird: der Code, den es ausgibt, wird im Modal zurückgegeben, das einmal angezeigt wird.'
       button: 'Modal öffnen'
     recursive:
       description: 'Eine Dialogseite innerhalb eines anderen Dialogs öffnen — Modal oder Panel wählen.'
@@ -156,6 +162,9 @@ es:
     form_ajax:
       description: 'Mostrar un formulario de demostración renderizado dentro de un modal usando AJAX. Escape y el clic fuera están deshabilitados, y pide confirmación antes de cerrar si el formulario fue modificado.'
       button: 'Abrir modal'
+    form_page_answer:
+      description: 'Un formulario respondido por su página: el código que emite regresa en el modal, mostrado una vez.'
+      button: 'Abrir modal'
     recursive:
       description: 'Abrir una página de diálogo dentro de otro diálogo: elige modal o panel.'
       button_modal: 'Abrir en modal'
@@ -186,6 +195,9 @@ fa:
       button: 'باز کردن مدال'
     form_ajax:
       description: 'یک فرم دمو رندر شده را درون یک مدال با استفاده از AJAX نمایش دهید. کلید Escape و کلیک خارج غیرفعال هستند و اگر فرم تغییر کرده باشد، قبل از بستن از شما سؤال می‌کند.'
+      button: 'باز کردن مدال'
+    form_page_answer:
+      description: 'فرمی که توسط صفحه‌اش پاسخ داده شده: کدی که صادر می‌کند در مدال برمی‌گردد و یک بار نمایش داده می‌شود.'
       button: 'باز کردن مدال'
     recursive:
       description: 'یک صفحه دیالوگ را درون یک دیالوگ دیگر باز کنید — مدال یا پنل را انتخاب کنید.'
@@ -218,6 +230,9 @@ fi:
     form_ajax:
       description: 'Näytä renderöity demon muodossa modalin sisällä käyttäen AJAX:ia. Escape ja ulkopuolinen klikkaus on pois käytöstä, ja se kysyy ennen sulkemista, jos lomaketta on muokattu.'
       button: 'Avaa modal'
+    form_page_answer:
+      description: 'Lomake, johon on vastattu sen sivulla: sen antama koodi palaa modaalissa, joka näytetään kerran.'
+      button: 'Avaa modaalinen ikkuna'
     recursive:
       description: 'Avaa dialogisivu toisen dialogin sisällä — valitse modal tai paneeli.'
       button_modal: 'Avaa modaalina'
@@ -283,6 +298,9 @@ he:
     form_ajax:
       description: 'הצג טופס לדוגמה בתוך מודל באמצעות AJAX. Escape ולחיצה מחוץ מושבתים, והוא שואל לפני סגירה אם הטופס שונה.'
       button: 'פתח מודל'
+    form_page_answer:
+      description: 'טופס שנענה על ידי העמוד שלו: הקוד שהוא מנפיק חוזר במודל, מוצג פעם אחת.'
+      button: 'פתח מודל'
     recursive:
       description: 'פתח דף דיאלוג בתוך דיאלוג אחר — בחר מודל או פאנל.'
       button_modal: 'פתח במודל'
@@ -313,6 +331,9 @@ hi:
       button: 'मोडल खोलें'
     form_ajax:
       description: 'AJAX का उपयोग करके मोडल के अंदर एक प्रदर्शित डेमो फॉर्म दिखाएं। Escape और बाहर क्लिक अक्षम हैं, और यदि फॉर्म में बदलाव किया गया है तो यह बंद करने से पहले पूछता है।'
+      button: 'मोडल खोलें'
+    form_page_answer:
+      description: 'एक फॉर्म जिसका उत्तर उसके पृष्ठ द्वारा दिया गया: जो कोड यह जारी करता है वह मोडल में वापस आता है, एक बार दिखाया जाता है।'
       button: 'मोडल खोलें'
     recursive:
       description: 'एक संवाद पृष्ठ को दूसरे संवाद के अंदर खोलें — मोडल या पैनल चुनें।'
@@ -345,6 +366,9 @@ id:
     form_ajax:
       description: 'Tampilkan form demo yang sudah dirender di dalam modal menggunakan AJAX. Escape dan klik di luar dinonaktifkan, dan meminta konfirmasi sebelum menutup jika form telah dimodifikasi.'
       button: 'Buka modal'
+    form_page_answer:
+      description: 'Form yang dijawab oleh halamannya: kode yang dikeluarkan akan muncul kembali di modal, ditampilkan sekali.'
+      button: 'Buka modal'
     recursive:
       description: 'Buka halaman dialog di dalam dialog lain — pilih modal atau panel.'
       button_modal: 'Buka dalam modal'
@@ -375,6 +399,9 @@ it:
       button: 'Apri modale'
     form_ajax:
       description: "Mostra un modulo di demo renderizzato all'interno di un modale utilizzando AJAX. Escape e il clic esterno sono disabilitati, e chiede prima di chiudere se il modulo è stato modificato."
+      button: 'Apri modale'
+    form_page_answer:
+      description: 'Un modulo compilato dalla sua pagina: il codice emesso torna nel modale, mostrato una volta.'
       button: 'Apri modale'
     recursive:
       description: "Apri una pagina di dialogo all'interno di un'altra dialogo — scegli modale o pannello."
@@ -407,6 +434,9 @@ ja:
     form_ajax:
       description: AJAXを使用してモーダル内にレンダリングされたデモフォームを表示します。Escapeキーと外側のクリックは無効で、フォームが変更されていた場合は閉じる前に確認を求めます。
       button: モーダルを開く
+    form_page_answer:
+      description: ページによって回答されたフォーム：発行されるコードはモーダルに戻り、一度表示されます。
+      button: モーダルを開く
     recursive:
       description: '別のダイアログ内にダイアログページを開きます — モーダルまたはパネルを選択してください。'
       button_modal: モーダルで開く
@@ -437,6 +467,9 @@ ko:
       button: '모달 열기'
     form_ajax:
       description: 'AJAX를 사용하여 모달 안에 렌더링된 데모 양식을 표시합니다. Esc와 외부 클릭은 비활성화되며, 양식이 수정되었는지 확인을 요청합니다.'
+      button: '모달 열기'
+    form_page_answer:
+      description: '페이지에서 응답한 양식: 발급된 코드는 모달에서 다시 나타나며, 한 번만 표시됩니다.'
       button: '모달 열기'
     recursive:
       description: '다른 대화 상자 안에 대화 페이지를 엽니다 — 모달 또는 패널을 선택하세요.'
@@ -469,6 +502,9 @@ nl:
     form_ajax:
       description: 'Toon een weergegeven demoformulier binnen een modaal met behulp van AJAX. Escape en buiten klikken zijn uitgeschakeld, en het vraagt voordat het sluit of het formulier is gewijzigd.'
       button: 'Open modaal'
+    form_page_answer:
+      description: 'Een formulier beantwoord door zijn pagina: de code die het afgeeft komt terug in de modal, die eenmaal wordt getoond.'
+      button: 'Modal openen'
     recursive:
       description: 'Open een dialoogpagina binnen een andere dialoog — kies modaal of paneel.'
       button_modal: 'Open in modaal'
@@ -499,6 +535,9 @@ pl:
       button: 'Otwórz modal'
     form_ajax:
       description: 'Pokaż renderowany formularz demo w modal z użyciem AJAX. Escape i kliknięcie poza są wyłączone, a przed zamknięciem prosi o potwierdzenie, jeśli formularz został zmodyfikowany.'
+      button: 'Otwórz modal'
+    form_page_answer:
+      description: 'Formularz wypełniony przez swoją stronę: kod, który generuje, wraca w modalnym oknie, wyświetlanym raz.'
       button: 'Otwórz modal'
     recursive:
       description: 'Otwórz stronę dialogu w innym dialogu — wybierz modal lub panel.'
@@ -531,6 +570,9 @@ pt_BR:
     form_ajax:
       description: 'Mostrar um formulário de demonstração renderizado dentro de um modal usando AJAX. Escape e clique fora estão desativados, e ele pergunta antes de fechar se o formulário foi modificado.'
       button: 'Abrir modal'
+    form_page_answer:
+      description: 'Um formulário respondido pela sua página: o código que ele gera volta no modal, exibido uma vez.'
+      button: 'Abrir modal'
     recursive:
       description: 'Abrir uma página de diálogo dentro de outro diálogo — escolha modal ou painel.'
       button_modal: 'Abrir em modal'
@@ -561,6 +603,9 @@ ru:
       button: 'Открыть модальное окно'
     form_ajax:
       description: 'Показать отрендеренную демонстрационную форму внутри модального окна с использованием AJAX. Escape и щелчок вне отключены, и оно запрашивает подтверждение перед закрытием, если форма была изменена.'
+      button: 'Открыть модальное окно'
+    form_page_answer:
+      description: 'Форма, заполненная на странице: код, который она выдает, возвращается в модальном окне, отображаемом один раз.'
       button: 'Открыть модальное окно'
     recursive:
       description: 'Открыть страницу диалога внутри другого диалога — выберите модальное окно или панель.'
@@ -593,6 +638,9 @@ th:
     form_ajax:
       description: 'แสดงแบบฟอร์มเดโมที่แสดงผลในโมดัลโดยใช้ AJAX Escape และการคลิกนอกถูกปิดใช้งาน และมันจะขอการยืนยันก่อนที่จะปิดหากแบบฟอร์มถูกแก้ไข'
       button: เปิดโมดัล
+    form_page_answer:
+      description: 'แบบฟอร์มที่ตอบโดยหน้าของมัน: รหัสที่ออกมาแสดงในโมดัล ซึ่งจะแสดงครั้งเดียว'
+      button: เปิดโมดัล
     recursive:
       description: 'เปิดหน้าไดอะล็อกภายในไดอะล็อกอื่น — เลือกโมดัลหรือแผง'
       button_modal: เปิดในโมดัล
@@ -624,6 +672,9 @@ tr:
     form_ajax:
       description: 'AJAX kullanarak bir modal içinde render edilmiş bir demo formu göster. Escape ve dışarı tıklama devre dışıdır, form değiştirilmişse kapatmadan önce sorar.'
       button: 'Modalı aç'
+    form_page_answer:
+      description: 'Bir sayfa tarafından yanıtlanan bir form: ürettiği kod modal içinde geri dönüyor, bir kez gösteriliyor.'
+      button: 'Modali aç'
     recursive:
       description: 'Başka bir diyalog içinde bir diyalog sayfası açın — modal veya panel seçin.'
       button_modal: 'Modalda aç'
@@ -655,6 +706,9 @@ ur:
     form_ajax:
       description: 'AJAX کا استعمال کرتے ہوئے موڈل کے اندر ایک تیار کردہ ڈیمو فارم دکھائیں۔ Escape اور باہر کلک کرنا غیر فعال ہے، اور اگر فارم میں تبدیلی کی گئی تو یہ بند ہونے سے پہلے پوچھے گا۔'
       button: 'موڈل کھولیں'
+    form_page_answer:
+      description: 'ایک فارم جس کا جواب اس کے صفحے نے دیا: جو کوڈ یہ جاری کرتا ہے وہ موڈل میں واپس آتا ہے، جو ایک بار دکھایا جاتا ہے۔'
+      button: 'موڈل کھولیں'
     recursive:
       description: 'ایک ڈائیلاگ کے اندر دوسرے ڈائیلاگ کا صفحہ کھولیں — موڈل یا پینل کا انتخاب کریں۔'
       button_modal: 'موڈل میں کھولیں'
@@ -685,6 +739,9 @@ vi:
       button: 'Mở hộp thoại'
     form_ajax:
       description: 'Hiển thị một mẫu demo đã được render bên trong hộp thoại bằng AJAX. Phím Escape và nhấp bên ngoài đều bị vô hiệu hóa, và nó yêu cầu xác nhận trước khi đóng nếu mẫu đã được chỉnh sửa.'
+      button: 'Mở hộp thoại'
+    form_page_answer:
+      description: 'Một biểu mẫu được trả lời bởi trang của nó: mã mà nó phát hành sẽ trở lại trong hộp thoại, hiển thị một lần.'
       button: 'Mở hộp thoại'
     recursive:
       description: 'Mở một trang hộp thoại bên trong một hộp thoại khác — chọn modal hoặc panel.'

@@ -82,6 +82,8 @@ bn:
   page_title: জোনস
   page_icon: 'ph:bold/columns'
   intro: 'প্রতিটি অনুসন্ধানকারী, সম্পাদক এবং বিস্তারিত দৃশ্যের জন্য নির্মিত দুটি প্যানের কাজের স্থান। একটি জোনের নিজস্ব প্রস্থ এবং উচ্চতা নেই: এটি যে বিভাজনে বসে থাকে সেটিই এটি আকার দেয়, এবং প্রতিটি দিক স্বাধীনভাবে স্ক্রল হয়। দুটি জোন হল পৃষ্ঠায় রাখা দুটি অবজেক্ট, একটি প্যানেল অর্ধেক কাটা নয় — তাদের আলাদা করে যা, তা হল তাদের মধ্যে স্থান, এবং `zone--panel` হল প্রত্যেকটির ভিত্তি।'
+  fit:
+    column: কলাম
   section:
     split:
       title: 'একটি বিভাজন'
@@ -92,12 +94,15 @@ bn:
     vertical:
       title: 'একটি হেডার যা স্ক্রল হয় না'
       description: 'একটি বিভাজন উল্লম্বে: একটি সংকীর্ণ জোন যা এটি ধারণ করে তার উচ্চতা, দেহ বাকি অংশ নেয় এবং এর নিচে স্ক্রল করে। এটি একটি টুলবারের উপরে একটি প্যানেলের ব্যবস্থা।'
+    fit:
+      title: 'এটি এর সামগ্রীর মতো প্রশস্ত'
+      description: '`zone--fit-content`: অঞ্চলটি যা ধারণ করে তার প্রস্থ গ্রহণ করে — অনেক কলামের একটি টেবিল — বরং যা এর জন্য বাকি আছে। সারিটি একসাথে ওভারফ্লো এবং পাশের দিকে স্ক্রল করে, এর স্ক্রলবার ফ্রেমের পায়ে, কেবল টেবিলের নিচে নয়; প্রতিটি অঞ্চল এখনও স্বতন্ত্রভাবে নিচে স্ক্রল করে।'
     wrap:
       title: 'একটি মেঝের নিচে'
       description: 'একটি মেঝে দেওয়া হলে, নমনীয় জোন একটি পূর্ণ লাইন দাবি করে এবং আকার দেওয়া কলামটি এর উপরে চলে যায় পরিবর্তে উভয়কে কিছু না করে চাপা দেওয়া। জানালাটি সংকীর্ণ করুন এটি ভাঁজ দেখতে।'
     portrait:
-      title: "একটি পৃষ্ঠার পাশে"
-      description: "`zone--portrait`: সারির সমান উঁচু একটি খাড়া পৃষ্ঠার (3:4) চেয়ে কখনও সরু নয়। হাতে চওড়া করা লেখা তার প্রস্থ রাখে এবং সারিটি পৃষ্ঠা চেপে না দিয়ে পাশে স্ক্রল করে।"
+      title: 'একটি পৃষ্ঠার পাশে'
+      description: '`zone--portrait`: সারির সমান উঁচু একটি খাড়া পৃষ্ঠার (3:4) চেয়ে কখনও সরু নয়। হাতে চওড়া করা লেখা তার প্রস্থ রাখে এবং সারিটি পৃষ্ঠা চেপে না দিয়ে পাশে স্ক্রল করে।'
   split:
     body: 'এটি সেই দিক যা আকার দেওয়া কলামটি ছেড়ে দেয়।'
   scrollable:
@@ -113,6 +118,8 @@ de:
   page_title: Zonen
   page_icon: 'ph:bold/columns'
   intro: 'Der Arbeitsbereich mit zwei Fenstern, auf dem jeder Explorer, Editor und Detailansicht basiert. Eine Zone hat keine eigene Breite und Höhe: Die Teilung, in der sie sich befindet, bestimmt ihre Größe, und jede Seite scrollt für sich allein. Zwei Zonen sind zwei Objekte, die auf der Seite liegen, nicht ein Panel, das in zwei Hälften geschnitten ist — was sie unterscheidet, ist der Raum zwischen ihnen, und `zone--panel` ist der Grund, auf dem jede steht.'
+  fit:
+    column: Spalte
   section:
     split:
       title: 'Eine Teilung'
@@ -123,12 +130,15 @@ de:
     vertical:
       title: 'Ein Kopfbereich, der nicht scrollt'
       description: 'Eine vertikal geteilte Ansicht: Eine schmale Zone hat die Höhe dessen, was sie hält, der Körper nimmt den Rest ein und scrollt darunter. Dies ist die Anordnung eines Panels mit einer Werkzeugleiste oben.'
+    fit:
+      title: 'So breit wie der Inhalt'
+      description: '`zone--fit-content`: der Bereich nimmt die Breite dessen ein, was er enthält — eine Tabelle mit vielen Spalten — anstatt was ihm verbleibt. Die Zeile überläuft und scrollt seitlich als Einheit, ihr Scrollbalken am Fuß des Rahmens, nicht nur unter der Tabelle; jeder Bereich scrollt weiterhin für sich selbst nach unten.'
     wrap:
       title: 'Unter einem Fußboden'
       description: 'Bei einem Fußboden beansprucht die flexible Zone eine volle Zeile und die feste Spalte bewegt sich darüber, anstatt beide auf nichts zusammengedrückt zu werden. Verkleinern Sie das Fenster, um zu sehen, wie es sich zusammenfaltet.'
     portrait:
-      title: "Neben einer Seite"
-      description: "`zone--portrait`: nie schmaler als eine Hochformatseite (3:4) in der Höhe der Zeile. Von Hand verbreitert, behält der Text seine Breite und die Zeile scrollt seitlich, statt die Seite zu quetschen."
+      title: 'Neben einer Seite'
+      description: '`zone--portrait`: nie schmaler als eine Hochformatseite (3:4) in der Höhe der Zeile. Von Hand verbreitert, behält der Text seine Breite und die Zeile scrollt seitlich, statt die Seite zu quetschen.'
   split:
     body: 'Diese Seite nimmt alles auf, was die feste Spalte übrig lässt.'
   scrollable:
@@ -144,6 +154,8 @@ es:
   page_title: Zonas
   page_icon: 'ph:bold/columns'
   intro: 'El espacio de trabajo de dos paneles en el que se basa cada explorador, editor y vista de detalles. Una zona no tiene ancho ni alto propios: el espacio dividido en el que se encuentra es lo que le da tamaño, y cada lado se desplaza por separado. Dos zonas son dos objetos dispuestos en la página, no un panel cortado por la mitad; lo que las distingue es el espacio entre ellas, y `zone--panel` es el suelo sobre el que se sostiene cada una.'
+  fit:
+    column: Columna
   section:
     split:
       title: 'Una división'
@@ -154,12 +166,15 @@ es:
     vertical:
       title: 'Un encabezado que no se desplaza'
       description: 'Una división convertida en vertical: una zona estrecha tiene la altura de lo que contiene, el cuerpo toma el resto y se desplaza por debajo. Esta es la disposición de un panel con una barra de herramientas en la parte superior.'
+    fit:
+      title: 'Tan ancho como su contenido'
+      description: '`zone--fit-content`: la región toma el ancho de lo que contiene — una tabla de muchas columnas — en lugar de lo que se le deja. La fila se desborda y se desplaza lateralmente como una, su barra de desplazamiento en la parte inferior del marco, no debajo de la tabla sola; cada región aún se desplaza hacia abajo por sí sola.'
     wrap:
       title: 'Debajo de un suelo'
       description: 'Dado un suelo, la zona flexible reclama una línea completa y la columna dimensionada se mueve por encima en lugar de ser comprimida a nada. Reduce la ventana para verlo plegarse.'
     portrait:
-      title: "Junto a una página"
-      description: "`zone--portrait`: nunca más estrecha que una página vertical (3:4) tan alta como la fila. Ensanchado a mano, el texto conserva su anchura y la fila se desplaza de lado en lugar de aplastar la página."
+      title: 'Junto a una página'
+      description: '`zone--portrait`: nunca más estrecha que una página vertical (3:4) tan alta como la fila. Ensanchado a mano, el texto conserva su anchura y la fila se desplaza de lado en lugar de aplastar la página.'
   split:
     body: 'Este lado toma lo que la columna dimensionada deja.'
   scrollable:
@@ -175,6 +190,8 @@ fa:
   page_title: زون‌ها
   page_icon: 'ph:bold/columns'
   intro: 'فضای کاری دو صفحه‌ای که هر اکتشاف‌گر، ویرایش‌گر و نمای جزئیات بر اساس آن ساخته شده است. یک زون هیچ عرض و ارتفاعی به خودی خود ندارد: شکاف موجود در آن است که اندازه‌اش را تعیین می‌کند و هر طرف به‌طور مستقل اسکرول می‌شود. دو زون دو شیء هستند که روی صفحه قرار دارند، نه یک پنل که به دو نیم تقسیم شده — چیزی که آن‌ها را از هم متمایز می‌کند، فضایی است که بین آن‌ها وجود دارد و `zone--panel` زمینی است که هر یک بر روی آن ایستاده است.'
+  fit:
+    column: ستون
   section:
     split:
       title: 'یک تقسیم'
@@ -185,12 +202,15 @@ fa:
     vertical:
       title: 'یک هدر که اسکرول نمی‌شود'
       description: 'یک تقسیم عمودی: یک زون باریک به ارتفاع آنچه که نگه می‌دارد، و بدنه باقی‌مانده را می‌گیرد و زیر آن اسکرول می‌شود. این ترتیب یک پنل با یک نوار ابزار در بالای آن است.'
+    fit:
+      title: 'به عرض محتوای خود'
+      description: '`zone--fit-content`: این ناحیه به عرض محتوای خود می‌رسد — یک جدول با چندین ستون — نه به آنچه که برایش باقی مانده است. ردیف به صورت یکپارچه سرریز شده و به سمت کناره‌ها اسکرول می‌شود، نوار اسکرول آن در پایین قاب قرار دارد، نه فقط زیر جدول؛ هر ناحیه هنوز به صورت جداگانه به سمت پایین اسکرول می‌شود.'
     wrap:
       title: 'زیر یک کف'
       description: 'با توجه به یک کف، زون انعطاف‌پذیر یک خط کامل را تصاحب می‌کند و ستون اندازه‌گیری شده به جای اینکه هر دو به هیچ تبدیل شوند، بالای آن حرکت می‌کند. پنجره را باریک کنید تا ببینید که چگونه جمع می‌شود.'
     portrait:
-      title: "کنار یک صفحه"
-      description: "`zone--portrait`: هرگز باریک‌تر از یک صفحهٔ عمودی (3:4) به بلندی ردیف نیست. متنی که با دست پهن شود پهنایش را نگه می‌دارد و ردیف به‌جای فشردن صفحه، افقی پیمایش می‌شود."
+      title: 'کنار یک صفحه'
+      description: '`zone--portrait`: هرگز باریک‌تر از یک صفحهٔ عمودی (3:4) به بلندی ردیف نیست. متنی که با دست پهن شود پهنایش را نگه می‌دارد و ردیف به‌جای فشردن صفحه، افقی پیمایش می‌شود.'
   split:
     body: 'این طرف هر آنچه را که ستون اندازه‌گیری شده باقی می‌گذارد، می‌گیرد.'
   scrollable:
@@ -206,6 +226,8 @@ fi:
   page_title: Vyöhykkeet
   page_icon: 'ph:bold/columns'
   intro: 'Kaksipaneelinen työtila, johon jokainen tutkimus-, muokkaus- ja yksityiskohtanäkymä perustuu. Vyöhykkeellä ei ole omaa leveyttä eikä korkeutta: se, missä jakautumisessa se sijaitsee, määrittää sen koon, ja jokainen puoli vierittää itsenäisesti. Kaksi vyöhykettä ovat kaksi objektia sivulla, ei yksi paneeli, joka on leikattu kahtia — niiden erottava tekijä on niiden väli, ja `zone--panel` on se maapinta, jolla jokainen seisoo.'
+  fit:
+    column: Sarake
   section:
     split:
       title: Jakautuminen
@@ -216,12 +238,15 @@ fi:
     vertical:
       title: 'Otsikko, joka ei vieri'
       description: 'Jakautuminen käännettynä pystysuoraan: kapea vyöhyke on se korkeus, mitä se pitää, runko ottaa loput ja vierii sen alapuolella. Tämä on paneelin asettelu, jossa on työkalupalkki päällä.'
+    fit:
+      title: 'Aivan niin leveä kuin sisältönsä'
+      description: '`zone--fit-content`: alue ottaa sen leveyden, mitä se pitää sisällään — useiden sarakkeiden taulukko — eikä sitä, mikä sille jää. Rivi ylittää ja vierittää vaakasuunnassa yhtenä kokonaisuutena, sen vierityspalkki on kehyksen alareunassa, ei vain taulukon alla; jokainen alue vierittää edelleen alas omassa tahdissaan.'
     wrap:
       title: 'Lattian alapuolella'
       description: 'Kun on lattia, joustava vyöhyke vie koko rivin ja kooltaan määritelty sarake liikkuu sen ylle sen sijaan, että molemmat puristuisivat olemattomiin. Supista ikkunaa nähdäksesi sen taittuvan.'
     portrait:
-      title: "Sivun vieressä"
-      description: "`zone--portrait`: ei koskaan kapeampi kuin rivin korkuinen pystysivu (3:4). Käsin levennetty teksti pitää leveytensä ja rivi vierii sivuttain sivun puristamisen sijaan."
+      title: 'Sivun vieressä'
+      description: '`zone--portrait`: ei koskaan kapeampi kuin rivin korkuinen pystysivu (3:4). Käsin levennetty teksti pitää leveytensä ja rivi vierii sivuttain sivun puristamisen sijaan.'
   split:
     body: 'Tämä puoli ottaa mitä tahansa kooltaan määritetty sarake jättää.'
   scrollable:
@@ -273,6 +298,8 @@ he:
   page_title: אזורים
   page_icon: 'ph:bold/columns'
   intro: 'המרחב העבודה עם שני הפאנלים שעליו כל חוקר, עורך ותצוגת פרטים מבוססים. אזור לא נושא רוחב או גובה משלו: הפיצול שבו הוא זה שמגדיר את גודלו, וכל צד גולל בנפרד. שני אזורים הם שני אובייקטים המניחים על הדף, לא פאנל אחד שחצוי - מה שמפריד ביניהם הוא החלל ביניהם, ו`zone--panel` הוא הקרקע שעליה כל אחד מהם עומד.'
+  fit:
+    column: עמודה
   section:
     split:
       title: פיצול
@@ -283,12 +310,15 @@ he:
     vertical:
       title: 'כותרת שלא גוללת'
       description: 'פיצול שהפך לקטן: אזור צר הוא בגובה מה שהוא מחזיק, הגוף תופס את השאר וגולל מתחתיו. זהו הסידור של פאנל עם סרגל כלים למעלה.'
+    fit:
+      title: 'רחב כמו התוכן שלו'
+      description: '`zone--fit-content`: האזור לוקח את רוחב מה שהוא מחזיק — טבלה עם הרבה עמודות — ולא מה שנשאר לו. השורה יוצאת החוצה וגלולה הצידה כאחת, פס הגלילה שלה בתחתית המסגרת, לא מתחת לטבלה בלבד; כל אזור עדיין גולל למטה בפני עצמו.'
     wrap:
       title: 'מתחת לרצפה'
       description: 'בהינתן רצפה, האזור הגמיש תופס שורה מלאה והעמודה בגודל קבוע זזה מעליו במקום ששניהם יידחקו לאפס. הקטין את החלון כדי לראות את זה מתקפל.'
     portrait:
-      title: "לצד עמוד"
-      description: "`zone--portrait`: לעולם אינה צרה מעמוד לאורך (3:4) בגובה השורה. טקסט שהורחב ידנית שומר על רוחבו והשורה נגללת הצידה במקום לדחוס את העמוד."
+      title: 'לצד עמוד'
+      description: '`zone--portrait`: לעולם אינה צרה מעמוד לאורך (3:4) בגובה השורה. טקסט שהורחב ידנית שומר על רוחבו והשורה נגללת הצידה במקום לדחוס את העמוד.'
   split:
     body: 'צד זה לוקח מה שהעמודה בגודל קבוע משאירה.'
   scrollable:
@@ -304,6 +334,8 @@ hi:
   page_title: क्षेत्र
   page_icon: 'ph:bold/columns'
   intro: 'दो-पैन वाला कार्यक्षेत्र जिस पर हर अन्वेषक, संपादक और विवरण दृश्य बनाया गया है। एक क्षेत्र की अपनी कोई चौड़ाई और ऊँचाई नहीं होती: जिस विभाजन में यह बैठता है वही इसे आकार देता है, और प्रत्येक पक्ष अकेले स्क्रॉल करता है। दो क्षेत्र दो वस्तुएँ हैं जो पृष्ठ पर रखी गई हैं, न कि एक पैनल जो आधा कट गया है — जो उन्हें अलग करता है वह उनके बीच का स्थान है, और `zone--panel` वह आधार है जिस पर प्रत्येक खड़ा है।'
+  fit:
+    column: कॉलम
   section:
     split:
       title: 'एक विभाजन'
@@ -314,12 +346,15 @@ hi:
     vertical:
       title: 'एक शीर्षक जो स्क्रॉल नहीं करता'
       description: 'एक विभाजन जो ऊर्ध्वाधर हो गया है: एक संकीर्ण क्षेत्र उस ऊँचाई का होता है जो इसे धारण करता है, शरीर बाकी लेता है और इसके नीचे स्क्रॉल करता है। यह एक पैनल की व्यवस्था है जिसमें ऊपर एक टूलबार होता है।'
+    fit:
+      title: 'इसके सामग्री के जितना चौड़ा'
+      description: '`zone--fit-content`: यह क्षेत्र उस चौड़ाई को लेता है जो इसमें है - कई कॉलम वाली एक तालिका - न कि जो इसके लिए बचा है। पंक्ति एक साथ बाहर बहती है और किनारे पर स्क्रॉल करती है, इसका स्क्रॉलबार फ्रेम के नीचे है, केवल तालिका के नीचे नहीं; प्रत्येक क्षेत्र अभी भी अपने आप में नीचे स्क्रॉल करता है।'
     wrap:
       title: 'एक फर्श के नीचे'
       description: 'एक फर्श दिए जाने पर, लचीला क्षेत्र एक पूर्ण रेखा का दावा करता है और आकारित स्तंभ इसके ऊपर चलता है बजाय इसके कि दोनों को कुछ भी नहीं होने के लिए निचोड़ दिया जाए। इसे मोड़ते हुए देखने के लिए विंडो को संकीर्ण करें।'
     portrait:
-      title: "एक पृष्ठ के बगल में"
-      description: "`zone--portrait`: पंक्ति जितने ऊँचे खड़े पृष्ठ (3:4) से कभी संकरा नहीं। हाथ से चौड़ा किया गया पाठ अपनी चौड़ाई रखता है और पंक्ति पृष्ठ को दबाने के बजाय बगल में स्क्रॉल होती है।"
+      title: 'एक पृष्ठ के बगल में'
+      description: '`zone--portrait`: पंक्ति जितने ऊँचे खड़े पृष्ठ (3:4) से कभी संकरा नहीं। हाथ से चौड़ा किया गया पाठ अपनी चौड़ाई रखता है और पंक्ति पृष्ठ को दबाने के बजाय बगल में स्क्रॉल होती है।'
   split:
     body: 'यह पक्ष उस आकारित स्तंभ द्वारा छोड़ी गई किसी भी चीज़ को लेता है।'
   scrollable:
@@ -335,6 +370,8 @@ id:
   page_title: Zona
   page_icon: 'ph:bold/columns'
   intro: 'Workspace dua panel yang menjadi dasar setiap penjelajah, editor, dan tampilan detail. Sebuah zona tidak memiliki lebar dan tinggi sendiri: pemisahan tempatnya berada yang menentukan ukurannya, dan setiap sisi dapat menggulir secara terpisah. Dua zona adalah dua objek yang diletakkan di halaman, bukan satu panel yang dibagi dua — yang membedakannya adalah ruang di antara keduanya, dan `zone--panel` adalah dasar tempat masing-masing berdiri.'
+  fit:
+    column: Kolom
   section:
     split:
       title: 'Sebuah pemisahan'
@@ -345,12 +382,15 @@ id:
     vertical:
       title: 'Sebuah header yang tidak menggulir'
       description: 'Sebuah pemisahan yang berubah vertikal: zona sempit adalah tinggi dari apa yang dipegangnya, tubuh mengambil sisa dan menggulir di bawahnya. Ini adalah pengaturan panel dengan toolbar di atas.'
+    fit:
+      title: 'Selebar kontennya'
+      description: '`zone--fit-content`: wilayah mengambil lebar dari apa yang dipegangnya — tabel dengan banyak kolom — daripada apa yang tersisa untuknya. Baris meluap dan menggulir secara horizontal sebagai satu kesatuan, scrollbar-nya di bagian bawah bingkai, bukan di bawah tabel saja; setiap wilayah masih menggulir ke bawah dengan sendirinya.'
     wrap:
       title: 'Di bawah lantai'
       description: 'Diberikan sebuah lantai, zona fleksibel mengklaim satu baris penuh dan kolom yang berukuran bergerak di atasnya daripada keduanya dipaksa menjadi tidak ada. Persempit jendela untuk melihatnya melipat.'
     portrait:
-      title: "Di samping halaman"
-      description: "`zone--portrait`: tidak pernah lebih sempit dari halaman potret (3:4) setinggi baris. Jika dilebarkan manual, teks mempertahankan lebarnya dan baris bergulir ke samping alih-alih memeras halaman."
+      title: 'Di samping halaman'
+      description: '`zone--portrait`: tidak pernah lebih sempit dari halaman potret (3:4) setinggi baris. Jika dilebarkan manual, teks mempertahankan lebarnya dan baris bergulir ke samping alih-alih memeras halaman.'
   split:
     body: 'Sisi ini mengambil apa pun yang ditinggalkan kolom berukuran.'
   scrollable:
@@ -366,6 +406,8 @@ it:
   page_title: Zone
   page_icon: 'ph:bold/columns'
   intro: 'Lo spazio di lavoro a due pannelli su cui è costruito ogni esploratore, editor e vista dettagliata. Una zona non ha larghezza né altezza proprie: è la suddivisione in cui si trova a determinarne le dimensioni, e ciascun lato scorre in modo indipendente. Due zone sono due oggetti posati sulla pagina, non un pannello diviso in due — ciò che le distingue è lo spazio tra di esse, e `zone--panel` è il terreno su cui ognuna si poggia.'
+  fit:
+    column: Colonna
   section:
     split:
       title: 'Una suddivisione'
@@ -376,12 +418,15 @@ it:
     vertical:
       title: "Un'intestazione che non scorre"
       description: "Una suddivisione verticale: una zona stretta è l'altezza di ciò che contiene, il corpo prende il resto e scorre sotto di essa. Questo è l'assetto di un pannello con una barra degli strumenti in cima."
+    fit:
+      title: 'Largo quanto il suo contenuto'
+      description: "`zone--fit-content`: la regione prende la larghezza di ciò che contiene — una tabella con molte colonne — piuttosto che ciò che le resta. La riga trabocca e scorre lateralmente come un'unica entità, con la sua barra di scorrimento in fondo al riquadro, non solo sotto la tabella; ogni regione continua a scorrere verso il basso autonomamente."
     wrap:
       title: 'Sotto un pavimento'
       description: "Data una base, la zona flessibile occupa un'intera riga e la colonna di dimensioni fisse si sposta sopra di essa invece di essere entrambe costrette a nulla. Riduci la finestra per vedere come si piega."
     portrait:
-      title: "Accanto a una pagina"
-      description: "`zone--portrait`: mai più stretta di una pagina verticale (3:4) alta quanto la riga. Allargato a mano, il testo mantiene la sua larghezza e la riga scorre di lato invece di schiacciare la pagina."
+      title: 'Accanto a una pagina'
+      description: '`zone--portrait`: mai più stretta di una pagina verticale (3:4) alta quanto la riga. Allargato a mano, il testo mantiene la sua larghezza e la riga scorre di lato invece di schiacciare la pagina.'
   split:
     body: 'Questo lato prende ciò che la colonna di dimensioni fisse lascia.'
   scrollable:
@@ -397,6 +442,8 @@ ja:
   page_title: ゾーン
   page_icon: 'ph:bold/columns'
   intro: 'すべてのエクスプローラー、エディター、詳細ビューが構築される二分割の作業スペースです。ゾーン自体には幅も高さもありません：それが置かれている分割によってサイズが決まり、各側面は独自にスクロールします。二つのゾーンはページ上に置かれた二つのオブジェクトであり、一つのパネルを半分に切ったものではありません — それらを区別するのは、その間のスペースであり、`zone--panel` はそれぞれが立つ基盤です。'
+  fit:
+    column: 列
   section:
     split:
       title: 分割
@@ -407,12 +454,15 @@ ja:
     vertical:
       title: スクロールしないヘッダー
       description: 垂直に分割された状態：狭いゾーンは保持するものの高さに等しく、ボディは残りを占有し、その下でスクロールします。これはツールバーが上にあるパネルの配置です。
+    fit:
+      title: 内容に合わせて幅を調整
+      description: '`zone--fit-content`: この領域は、残りのスペースではなく、保持しているものの幅を取ります — 多くの列を持つテーブル — 行は一緒に横に溢れ、フレームの下部にスクロールバーがあり、テーブルの下だけではありません; 各領域は依然としてそれぞれ独自に下にスクロールします。'
     wrap:
       title: 床の下
       description: 床が与えられると、柔軟なゾーンは完全な行を主張し、サイズが設定されたカラムは両方が押しつぶされるのではなく、その上に移動します。ウィンドウを狭くすると折りたたむ様子が見えます。
     portrait:
-      title: "ページの横に"
-      description: "`zone--portrait`：行と同じ高さの縦向きページ（3:4）より狭くなりません。手で広げたテキストは幅を保ち、ページを押しつぶす代わりに行が横にスクロールします。"
+      title: ページの横に
+      description: '`zone--portrait`：行と同じ高さの縦向きページ（3:4）より狭くなりません。手で広げたテキストは幅を保ち、ページを押しつぶす代わりに行が横にスクロールします。'
   split:
     body: この側はサイズが設定されたカラムが残したものを取ります。
   scrollable:
@@ -428,6 +478,8 @@ ko:
   page_title: 영역
   page_icon: 'ph:bold/columns'
   intro: '모든 탐색기, 편집기 및 세부 정보 뷰가 구축된 두 개의 창으로 이루어진 작업 공간입니다. 영역은 자체적인 너비와 높이를 가지지 않으며, 그 위치한 분할이 크기를 결정하고 각 측면은 독립적으로 스크롤됩니다. 두 개의 영역은 페이지에 놓인 두 개의 객체이며, 반으로 나누어진 하나의 패널이 아닙니다. 그들을 구별하는 것은 그들 사이의 공간이며, `zone--panel`은 각자가 서 있는 기반입니다.'
+  fit:
+    column: 열
   section:
     split:
       title: 분할
@@ -438,12 +490,15 @@ ko:
     vertical:
       title: '스크롤되지 않는 헤더'
       description: '수직으로 변환된 분할: 좁은 영역은 그 안에 담고 있는 것의 높이이며, 본체는 나머지를 차지하고 그 아래에서 스크롤됩니다. 이는 상단에 도구 모음이 있는 패널의 배열입니다.'
+    fit:
+      title: '내용에 맞게 넓게'
+      description: '`zone--fit-content`: 이 영역은 자신이 포함하는 것의 너비 — 여러 열의 테이블 — 를 따라 넓어지고, 남는 공간으로 넓어지지 않습니다. 행은 하나로서 넘치고 가로로 스크롤되며, 스크롤바는 프레임의 하단에 위치하고 테이블 아래에만 있지 않습니다; 각 영역은 여전히 개별적으로 아래로 스크롤됩니다.'
     wrap:
       title: '바닥 아래'
       description: '바닥이 주어지면, 유연한 영역은 전체 줄을 차지하고 크기가 정해진 열은 두 개가 압축되어 사라지지 않고 그 위로 이동합니다. 창을 좁혀서 접히는 모습을 확인하세요.'
     portrait:
-      title: "페이지 옆에"
-      description: "`zone--portrait`: 행 높이의 세로 페이지(3:4)보다 좁아지지 않습니다. 손으로 넓힌 텍스트는 너비를 유지하고, 행은 페이지를 누르는 대신 옆으로 스크롤됩니다."
+      title: '페이지 옆에'
+      description: '`zone--portrait`: 행 높이의 세로 페이지(3:4)보다 좁아지지 않습니다. 손으로 넓힌 텍스트는 너비를 유지하고, 행은 페이지를 누르는 대신 옆으로 스크롤됩니다.'
   split:
     body: '이 측면은 크기가 정해진 열이 남긴 것을 차지합니다.'
   scrollable:
@@ -459,6 +514,8 @@ nl:
   page_title: Zones
   page_icon: 'ph:bold/columns'
   intro: 'De werkruimte met twee panelen waarop elke verkenner, editor en detailweergave is gebouwd. Een zone heeft geen eigen breedte en hoogte: de split waarin het zich bevindt bepaalt de grootte, en elke kant scrollt afzonderlijk. Twee zones zijn twee objecten op de pagina, geen paneel dat in tweeën is gesneden — wat ze onderscheidt is de ruimte ertussen, en `zone--panel` is de grond waarop elk staat.'
+  fit:
+    column: Kolom
   section:
     split:
       title: 'Een split'
@@ -469,12 +526,15 @@ nl:
     vertical:
       title: 'Een koptekst die niet scrollt'
       description: 'Een split die verticaal is: een smalle zone heeft de hoogte van wat hij bevat, het lichaam neemt de rest en scrollt eronder. Dit is de opstelling van een paneel met een werkbalk bovenaan.'
+    fit:
+      title: 'Zo breed als de inhoud'
+      description: '`zone--fit-content`: de regio neemt de breedte aan van wat het bevat — een tabel met meerdere kolommen — in plaats van wat er nog over is. De rij stroomt over en scrolt zijwaarts als één geheel, met de schuifbalk aan de onderkant van het frame, niet alleen onder de tabel; elke regio scrolt nog steeds afzonderlijk naar beneden.'
     wrap:
       title: 'Onder een vloer'
       description: 'Gegeven een vloer, neemt de flexibele zone een volle regel in beslag en beweegt de gekleurde kolom erboven in plaats van dat beide worden samengedrukt tot niets. Vernauw het venster om het in te zien vouwen.'
     portrait:
-      title: "Naast een pagina"
-      description: "`zone--portrait`: nooit smaller dan een staande pagina (3:4) zo hoog als de rij. Met de hand verbreed houdt de tekst zijn breedte en scrolt de rij zijwaarts in plaats van de pagina te pletten."
+      title: 'Naast een pagina'
+      description: '`zone--portrait`: nooit smaller dan een staande pagina (3:4) zo hoog als de rij. Met de hand verbreed houdt de tekst zijn breedte en scrolt de rij zijwaarts in plaats van de pagina te pletten.'
   split:
     body: 'Deze kant neemt wat de gekleurde kolom laat liggen.'
   scrollable:
@@ -490,6 +550,8 @@ pl:
   page_title: Strefy
   page_icon: 'ph:bold/columns'
   intro: 'Dwupanelowe środowisko, na którym opiera się każdy widok eksploratora, edytora i szczegółów. Strefa nie ma własnej szerokości ani wysokości: to podział, w którym się znajduje, nadaje jej rozmiar, a każda strona przewija się osobno. Dwie strefy to dwa obiekty ułożone na stronie, a nie jeden panel przecięty na pół — tym, co je odróżnia, jest przestrzeń między nimi, a `zone--panel` to podstawa, na której każda z nich stoi.'
+  fit:
+    column: Kolumna
   section:
     split:
       title: Podział
@@ -500,12 +562,15 @@ pl:
     vertical:
       title: 'Nagłówek, który się nie przewija'
       description: 'Podział w orientacji pionowej: wąska strefa ma wysokość tego, co zawiera, a ciało zajmuje resztę i przewija się pod nią. To układ panelu z paskiem narzędzi na górze.'
+    fit:
+      title: 'Tak szeroka jak jej zawartość'
+      description: '`zone--fit-content`: obszar zajmuje szerokość tego, co zawiera — tabela z wieloma kolumnami — zamiast tego, co jest mu przydzielone. Wiersz przeskakuje i przewija się na boki jako całość, jego pasek przewijania znajduje się u dołu ramki, a nie tylko pod tabelą; każdy obszar nadal przewija się w dół samodzielnie.'
     wrap:
       title: 'Poniżej podłogi'
       description: 'Majac podłogę, elastyczna strefa zajmuje pełną linię, a kolumna o danym rozmiarze przesuwa się nad nią, zamiast obie być ściśnięte do zera. Zmniejsz okno, aby zobaczyć, jak się składa.'
     portrait:
-      title: "Obok strony"
-      description: "`zone--portrait`: nigdy węższa niż strona pionowa (3:4) o wysokości wiersza. Poszerzony ręcznie tekst zachowuje szerokość, a wiersz przewija się w bok zamiast ściskać stronę."
+      title: 'Obok strony'
+      description: '`zone--portrait`: nigdy węższa niż strona pionowa (3:4) o wysokości wiersza. Poszerzony ręcznie tekst zachowuje szerokość, a wiersz przewija się w bok zamiast ściskać stronę.'
   split:
     body: 'Ta strona bierze to, co zostawia kolumna o danym rozmiarze.'
   scrollable:
@@ -521,6 +586,8 @@ pt_BR:
   page_title: Zonas
   page_icon: 'ph:bold/columns'
   intro: 'O espaço de trabalho em duas painéis em que cada explorador, editor e visualização de detalhes é construído. Uma zona não tem largura e altura próprias: o espaço em que está determina seu tamanho, e cada lado rola de forma independente. Duas zonas são dois objetos dispostos na página, não um painel cortado ao meio — o que as diferencia é o espaço entre elas, e `zone--panel` é o chão em que cada uma se apoia.'
+  fit:
+    column: Coluna
   section:
     split:
       title: 'Uma divisão'
@@ -531,12 +598,15 @@ pt_BR:
     vertical:
       title: 'Um cabeçalho que não rola'
       description: 'Uma divisão transformada em vertical: uma zona estreita tem a altura do que abriga, o corpo ocupa o restante e rola abaixo dela. Esta é a disposição de um painel com uma barra de ferramentas na parte superior.'
+    fit:
+      title: 'Tão largo quanto seu conteúdo'
+      description: '`zone--fit-content`: a região ocupa a largura do que contém — uma tabela com muitas colunas — em vez do que lhe resta. A linha transborda e rola para o lado como um todo, sua barra de rolagem na parte inferior do quadro, não apenas sob a tabela; cada região ainda rola para baixo por conta própria.'
     wrap:
       title: 'Abaixo de um chão'
       description: 'Dado um chão, a zona flexível ocupa uma linha completa e a coluna dimensionada se move acima dela em vez de ambas serem espremidas a nada. Reduza a janela para vê-la se dobrar.'
     portrait:
-      title: "Ao lado de uma página"
-      description: "`zone--portrait`: nunca mais estreita que uma página em retrato (3:4) da altura da linha. Alargado à mão, o texto mantém a largura e a linha rola para o lado em vez de espremer a página."
+      title: 'Ao lado de uma página'
+      description: '`zone--portrait`: nunca mais estreita que uma página em retrato (3:4) da altura da linha. Alargado à mão, o texto mantém a largura e a linha rola para o lado em vez de espremer a página.'
   split:
     body: 'Este lado ocupa o que a coluna dimensionada deixa.'
   scrollable:
@@ -552,6 +622,8 @@ ru:
   page_title: Зоны
   page_icon: 'ph:bold/columns'
   intro: 'Рабочее пространство с двумя панелями, на основе которого построены все обозреватели, редакторы и детализированные представления. Зона не имеет собственной ширины и высоты: размер определяется разделением, в котором она находится, и каждая сторона прокручивается отдельно. Две зоны — это два объекта, расположенные на странице, а не одна панель, разрезанная пополам — отличает их пространство между собой, а `zone--panel` — это основание, на котором стоит каждая из них.'
+  fit:
+    column: Столбец
   section:
     split:
       title: Разделение
@@ -562,12 +634,15 @@ ru:
     vertical:
       title: 'Заголовок, который не прокручивается'
       description: 'Разделение, перевернутое вертикально: узкая зона имеет высоту того, что она содержит, тело занимает остальное и прокручивается под ним. Это расположение панели с панелью инструментов сверху.'
+    fit:
+      title: 'Такой же широкий, как его содержимое'
+      description: '`zone--fit-content`: область занимает ширину того, что она содержит — таблицы с множеством столбцов — а не того, что ей остается. Ряд выходит за границы и прокручивается вбок как единое целое, его полоса прокрутки внизу рамки, а не только под таблицей; каждая область все равно прокручивается вниз самостоятельно.'
     wrap:
       title: 'Под полом'
       description: 'Имея пол, гибкая зона занимает полную строку, а колонка с заданным размером перемещается над ней, вместо того чтобы обе сжимались до нуля. Уменьшите окно, чтобы увидеть, как это складывается.'
     portrait:
-      title: "Рядом со страницей"
-      description: "`zone--portrait`: никогда не уже книжной страницы (3:4) высотой в ряд. Расширенный вручную текст сохраняет ширину, а ряд прокручивается вбок, не сжимая страницу."
+      title: 'Рядом со страницей'
+      description: '`zone--portrait`: никогда не уже книжной страницы (3:4) высотой в ряд. Расширенный вручную текст сохраняет ширину, а ряд прокручивается вбок, не сжимая страницу.'
   split:
     body: 'Эта сторона принимает всё, что оставляет колонка с заданным размером.'
   scrollable:
@@ -583,6 +658,8 @@ th:
   page_title: โซน
   page_icon: 'ph:bold/columns'
   intro: 'พื้นที่ทำงานที่มีสองพาเนลซึ่งทุกการสำรวจ การแก้ไข และมุมมองรายละเอียดถูกสร้างขึ้น โซนไม่มีความกว้างและความสูงของตัวเอง: การแบ่งที่มันนั่งอยู่คือสิ่งที่กำหนดขนาดของมัน และแต่ละด้านเลื่อนแยกกัน สองโซนคือวัตถุสองชิ้นที่วางอยู่บนหน้า ไม่ใช่แผงที่ถูกตัดครึ่ง — สิ่งที่บอกความแตกต่างของพวกมันคือพื้นที่ระหว่างกัน และ `zone--panel` คือพื้นฐานที่แต่ละอันยืนอยู่'
+  fit:
+    column: คอลัมน์
   section:
     split:
       title: การแบ่ง
@@ -593,12 +670,15 @@ th:
     vertical:
       title: หัวข้อที่ไม่เลื่อน
       description: 'การแบ่งที่ถูกเปลี่ยนเป็นแนวตั้ง: โซนแคบคือความสูงของสิ่งที่มันถือ ร่างกายจะใช้ที่เหลือและเลื่อนอยู่ใต้โซนนี้ นี่คือการจัดเรียงของแผงที่มีแถบเครื่องมืออยู่ด้านบน'
+    fit:
+      title: กว้างเท่ากับเนื้อหา
+      description: '`zone--fit-content`: พื้นที่จะมีความกว้างตามสิ่งที่มันรองรับ — ตารางที่มีหลายคอลัมน์ — แทนที่จะเป็นความกว้างที่เหลืออยู่ ตารางจะเกินและเลื่อนด้านข้างเป็นหนึ่งเดียว โดยมีแถบเลื่อนที่ด้านล่างของกรอบ ไม่ใช่เฉพาะใต้ตาราง; แต่ละพื้นที่ยังคงเลื่อนลงไปเอง.'
     wrap:
       title: ด้านล่างพื้น
       description: 'เมื่อมีพื้น โซนที่ยืดหยุ่นจะใช้เส้นเต็มและคอลัมน์ที่มีขนาดจะเคลื่อนที่อยู่เหนือมันแทนที่จะถูกบีบให้เล็กจนไม่มีอะไร ให้ลดขนาดหน้าต่างเพื่อดูมันพับ'
     portrait:
-      title: "ข้างหน้ากระดาษ"
-      description: "`zone--portrait`: ไม่แคบกว่าหน้ากระดาษแนวตั้ง (3:4) ที่สูงเท่าแถว เมื่อขยายข้อความด้วยมือ ข้อความจะคงความกว้างไว้และแถวจะเลื่อนด้านข้างแทนการบีบหน้ากระดาษ"
+      title: ข้างหน้ากระดาษ
+      description: '`zone--portrait`: ไม่แคบกว่าหน้ากระดาษแนวตั้ง (3:4) ที่สูงเท่าแถว เมื่อขยายข้อความด้วยมือ ข้อความจะคงความกว้างไว้และแถวจะเลื่อนด้านข้างแทนการบีบหน้ากระดาษ'
   split:
     body: ด้านนี้รับสิ่งที่คอลัมน์ที่มีขนาดทิ้งไว้
   scrollable:
@@ -614,6 +694,8 @@ tr:
   page_title: Bölgeler
   page_icon: 'ph:bold/columns'
   intro: 'Her gezgin, editör ve detay görünümü için inşa edilmiş iki bölmeli çalışma alanı. Bir bölgenin kendi genişliği ve yüksekliği yoktur: bulunduğu bölme onu boyutlandırır ve her iki taraf da ayrı ayrı kaydırılır. İki bölge, sayfada yerleştirilmiş iki nesnedir, bir panelin ikiye kesilmesi değil — onları ayıran şey aralarındaki boşluktur ve `zone--panel` her birinin durduğu zeminidir.'
+  fit:
+    column: Sütun
   section:
     split:
       title: 'Bir bölme'
@@ -624,12 +706,15 @@ tr:
     vertical:
       title: 'Kaydırılmayan bir başlık'
       description: 'Dikey hale getirilmiş bir bölme: dar bir bölge, tuttuğu şeyin yüksekliğindedir, gövde geri kalanını alır ve altında kaydırılır. Bu, üstte bir araç çubuğu olan bir panelin düzenidir.'
+    fit:
+      title: 'İçeriği kadar geniş'
+      description: '`zone--fit-content`: bölge, içinde tuttuğu şeyin genişliğini alır — birçok sütundan oluşan bir tablo — kalan alana göre değil. Satır bir bütün olarak taşar ve yanlamasına kaydırılır, kaydırma çubuğu çerçevenin alt tarafında, yalnızca tablonun altında değil; her bölge yine kendi başına aşağı kaydırılır.'
     wrap:
       title: 'Bir zemin altında'
       description: 'Bir zemin verildiğinde, esnek bölge tam bir satır alır ve boyutlandırılmış sütun onun üstünde hareket eder, ikisi de hiçbir şeye sıkıştırılmak yerine. Pencereyi daraltarak katlanışını görebilirsiniz.'
     portrait:
-      title: "Bir sayfanın yanında"
-      description: "`zone--portrait`: satır yüksekliğindeki dikey bir sayfadan (3:4) asla daha dar değildir. Elle genişletilen metin genişliğini korur ve satır sayfayı sıkıştırmak yerine yana kayar."
+      title: 'Bir sayfanın yanında'
+      description: '`zone--portrait`: satır yüksekliğindeki dikey bir sayfadan (3:4) asla daha dar değildir. Elle genişletilen metin genişliğini korur ve satır sayfayı sıkıştırmak yerine yana kayar.'
   split:
     body: 'Bu taraf, boyutlandırılmış sütunun bıraktığı her şeyi alır.'
   scrollable:
@@ -645,6 +730,8 @@ ur:
   page_title: زونز
   page_icon: 'ph:bold/columns'
   intro: 'دو پین والا ورک اسپیس جس پر ہر ایک ایکسپلورر، ایڈیٹر اور تفصیل کا منظر بنایا گیا ہے۔ ایک زون کی اپنی کوئی چوڑائی اور اونچائی نہیں ہوتی: یہ جس تقسیم میں واقع ہے، وہی اس کا سائز طے کرتی ہے، اور ہر طرف اکیلا ہی سکرول ہوتا ہے۔ دو زونز دو اشیاء ہیں جو صفحے پر رکھی گئی ہیں، نہ کہ ایک پینل جو آدھا کٹا ہو — ان کو الگ کرنے والی چیز ان کے درمیان کا خلا ہے، اور `zone--panel` وہ زمین ہے جس پر ہر ایک کھڑا ہے۔'
+  fit:
+    column: کالم
   section:
     split:
       title: 'ایک تقسیم'
@@ -655,12 +742,15 @@ ur:
     vertical:
       title: 'ایک ہیڈر جو سکرول نہیں ہوتا'
       description: 'ایک عمودی تقسیم: ایک پتلا زون وہ اونچائی ہے جو وہ رکھتا ہے، جسم باقی لیتا ہے اور اس کے نیچے سکرول ہوتا ہے۔ یہ ایک پینل کا انتظام ہے جس پر اوپر ایک ٹول بار ہوتا ہے۔'
+    fit:
+      title: 'اپنی مواد کی چوڑائی کے برابر'
+      description: '`zone--fit-content`: یہ علاقہ اس کی چوڑائی لیتا ہے جو اس میں ہے — کئی کالموں کی ایک میز — نہ کہ جو اس کے لئے باقی ہے۔ قطار ایک ساتھ بہتی ہے اور سائیڈ پر سکرول کرتی ہے، اس کی سکرول بار فریم کے نچلے حصے میں ہے، صرف میز کے نیچے نہیں؛ ہر علاقہ اب بھی اپنے طور پر نیچے سکرول کرتا ہے۔'
     wrap:
       title: 'ایک فرش کے نیچے'
       description: 'ایک فرش دی گئی ہو تو، لچکدار زون ایک مکمل لائن کا دعوی کرتا ہے اور سائز والا کالم اس کے اوپر منتقل ہوتا ہے بجائے اس کے کہ دونوں کو کچھ بھی نہیں چھوڑا جائے۔ ونڈو کو تنگ کریں تاکہ یہ فولڈ ہوتا ہوا دیکھ سکیں۔'
     portrait:
-      title: "ایک صفحے کے ساتھ"
-      description: "`zone--portrait`: قطار جتنے اونچے عمودی صفحے (3:4) سے کبھی تنگ نہیں۔ ہاتھ سے چوڑا کیا گیا متن اپنی چوڑائی رکھتا ہے اور قطار صفحے کو دبانے کے بجائے افقی طور پر اسکرول ہوتی ہے۔"
+      title: 'ایک صفحے کے ساتھ'
+      description: '`zone--portrait`: قطار جتنے اونچے عمودی صفحے (3:4) سے کبھی تنگ نہیں۔ ہاتھ سے چوڑا کیا گیا متن اپنی چوڑائی رکھتا ہے اور قطار صفحے کو دبانے کے بجائے افقی طور پر اسکرول ہوتی ہے۔'
   split:
     body: 'یہ طرف وہ کچھ لیتی ہے جو سائز والا کالم چھوڑتا ہے۔'
   scrollable:
@@ -676,6 +766,8 @@ vi:
   page_title: 'Khu vực'
   page_icon: 'ph:bold/columns'
   intro: 'Không gian làm việc hai ngăn mà mọi trình duyệt, trình chỉnh sửa và chế độ xem chi tiết đều dựa vào. Một khu vực không có chiều rộng và chiều cao riêng: sự phân chia mà nó nằm trong đó sẽ xác định kích thước của nó, và mỗi bên cuộn độc lập. Hai khu vực là hai đối tượng đặt trên trang, không phải một bảng bị cắt đôi — điều phân biệt chúng là khoảng trống giữa chúng, và `zone--panel` là nền tảng mà mỗi cái đứng trên đó.'
+  fit:
+    column: Cột
   section:
     split:
       title: 'Một sự phân chia'
@@ -686,12 +778,15 @@ vi:
     vertical:
       title: 'Một tiêu đề không cuộn'
       description: 'Một sự phân chia chuyển thành dọc: một khu vực hẹp có chiều cao bằng những gì nó chứa, thân sẽ chiếm phần còn lại và cuộn bên dưới nó. Đây là cách sắp xếp của một bảng với thanh công cụ ở trên.'
+    fit:
+      title: 'Rộng như nội dung của nó'
+      description: '`zone--fit-content`: vùng này chiếm chiều rộng của những gì nó chứa — một bảng với nhiều cột — thay vì những gì còn lại. Dòng sẽ tràn và cuộn sang một bên như một, thanh cuộn của nó ở chân khung, không chỉ dưới bảng; mỗi vùng vẫn cuộn xuống riêng.'
     wrap:
       title: 'Dưới một sàn'
       description: 'Khi có một sàn, khu vực linh hoạt chiếm một dòng đầy đủ và cột đã được định kích thước di chuyển ở trên thay vì cả hai bị ép lại thành không gì cả. Thu hẹp cửa sổ để thấy nó gập lại.'
     portrait:
-      title: "Bên cạnh một trang"
-      description: "`zone--portrait`: không bao giờ hẹp hơn một trang dọc (3:4) cao bằng hàng. Khi được kéo rộng bằng tay, văn bản giữ độ rộng và hàng cuộn ngang thay vì ép trang lại."
+      title: 'Bên cạnh một trang'
+      description: '`zone--portrait`: không bao giờ hẹp hơn một trang dọc (3:4) cao bằng hàng. Khi được kéo rộng bằng tay, văn bản giữ độ rộng và hàng cuộn ngang thay vì ép trang lại.'
   split:
     body: 'Bên này lấy bất cứ thứ gì cột đã định kích thước để lại.'
   scrollable:

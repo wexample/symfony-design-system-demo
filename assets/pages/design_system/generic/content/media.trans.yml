@@ -87,8 +87,22 @@ bn:
     document:
       title: 'এম্বেডেড নথি'
       description: 'একটি আইফ্রেম তার বাক্স পূর্ণ করে, তাই বাক্সটি আকার বহন করে: একটি অনুপাত সংশোধক, অথবা মিডিয়া--যা কিছু উচ্চতা প্যারেন্ট দেয় তা গ্রহণ করতে।'
+    frame:
+      title: ফ্রেম
+      description: 'সার্ভার থেকে media() বা মিডিয়া ভিউ কম্পোনেন্টের মাধ্যমে একটি ফ্রেমে একটি ছবি: এটি কোথাও নিয়ে গেলে একটি লিঙ্ক, এর পায়ের উপরে একটি ক্যাপশন এবং এটি লোড হওয়ার সময় বা কিছু না থাকলে একটি ঝলক।'
+    wall:
+      title: দেয়াল
+      description: 'প্রতি উচ্চতার ছবি একসাথে কোনো ফাঁক ছাড়াই রাখা হয়েছে, প্রতিটি তার অনুপাত অনুযায়ী উচ্চ, কOLUMN সংখ্যা ঘরের আকার অনুযায়ী: wall() এটি সার্ভার থেকে আঁকে, আকারটি css/shapes/wall।'
+    wall_vue:
+      title: 'একটি সংগ্রহের দেয়াল'
+      description: 'একটি সত্তার সংগ্রহের মতো একই দেয়াল, API থেকে এক সময়ে একটি পৃষ্ঠা পড়া হয় যখন এটি স্ক্রোল করা হয়: পরবর্তী পৃষ্ঠা দেয়ালের পায়ের কাছে পৌঁছানোর আগে আসে।'
+    crop:
+      title: কাটা
+      description: 'একটি ছবির কোন অংশ রাখা হবে, ছবির উপর নির্বাচন করা: এলাকা স্থানান্তরিত হয়, একটি কোণ এটিকে আকার দেয়, তীরগুলি এটি সরিয়ে নেয় এবং Shift দিয়ে আকার দেয়। এটি ছবির নিজস্ব পিক্সেলে বলা হয় — সার্ভার যা কেটে দেয় — এবং crop() এটি এখানে কেটে দেয় যখন কাটা পাঠানো হয়। একটি অনুপাত এটি ধরে (একটি পোর্ট্রেটের জন্য 1, বৃত্তাকার দেখানো হয়), অথবা এটি মুক্ত, যেমন একটি স্বাক্ষরের প্রয়োজন।'
   document:
     title: 'প্লেসহোল্ডার নথি'
+  wall:
+    caption: 'এর পায়ের উপরে একটি ক্যাপশন'
 
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -107,8 +121,22 @@ de:
     document:
       title: 'Eingebettetes Dokument'
       description: 'Ein iframe füllt seinen Bereich, daher bestimmt der Bereich die Größe: ein Verhältnis-Modifikator oder media--fill, um die Höhe zu übernehmen, die der Elternteil vorgibt.'
+    frame:
+      title: Rahmen
+      description: 'Ein Bild in seinem Rahmen, vom Server mit media() oder als das Media Vue-Komponente: ein Link, wenn es irgendwohin führt, eine Beschriftung über seinem Fuß und ein Leuchten während des Ladens oder wenn es keines gibt.'
+    wall:
+      title: Wand
+      description: 'Bilder jeder Höhe, nebeneinander gepackt, ohne Lücken, jedes so hoch wie es das Verhältnis sagt, die Spalten so viele wie der Raum zulässt: wall() zieht es vom Server, die Form ist css/shapes/wall.'
+    wall_vue:
+      title: 'Wand einer Sammlung'
+      description: 'Die gleiche Wand wie eine Sammlung von Entitäten, die über die API seitenweise gelesen wird, während sie gescrollt wird: die nächste Seite kommt, bevor der Fuß der Wand erreicht ist.'
+    crop:
+      title: Zuschneiden
+      description: 'Welchen Teil eines Bildes beibehalten werden soll, über das Bild gewählt: der Bereich bewegt sich, eine Ecke ändert die Größe, die Pfeile bewegen es und mit Shift wird die Größe geändert. Es wird in den eigenen Pixeln des Bildes angegeben — wonach ein Server zuschneidet — und crop() schneidet es hier, wenn der Schnitt stattdessen gesendet wird. Ein Verhältnis hält es (1 für ein Porträt, rund dargestellt), oder es ist frei, wie es eine Unterschrift benötigt.'
   document:
     title: Platzhalter-Dokument
+  wall:
+    caption: 'Eine Beschriftung über seinem Fuß'
 
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -127,8 +155,22 @@ es:
     document:
       title: 'Documento incrustado'
       description: 'Un iframe llena su caja, por lo que la caja tiene el tamaño: un modificador de relación, o media--fill para tomar la altura que el padre proporciona.'
+    frame:
+      title: Marco
+      description: 'Una imagen en su marco, desde el servidor con media() o como el componente vue de medios: un enlace cuando lleva a algún lugar, un pie de foto en su base, y un resplandor mientras se carga o cuando no hay ninguno.'
+    wall:
+      title: Pared
+      description: 'Imágenes de todas las alturas empaquetadas lado a lado sin huecos, cada una tan alta como lo indica su proporción, las columnas tantas como el espacio lo permita: wall() lo dibuja desde el servidor, la forma es css/shapes/wall.'
+    wall_vue:
+      title: 'Pared de una colección'
+      description: 'La misma pared que una colección de entidades, leída desde la api una página a la vez a medida que se desplaza: la próxima página aparece antes de que se alcance el pie de la pared.'
+    crop:
+      title: Recortar
+      description: 'Qué parte de una imagen conservar, elegida sobre la imagen: el área se mueve, una esquina la dimensiona, las flechas la mueven y con Shift la dimensionan. Se expresa en los propios píxeles de la imagen — lo que un servidor recorta — y crop() lo corta aquí cuando el corte se envía en su lugar. Una proporción lo mantiene (1 para un retrato, mostrado redondeado), o es libre, como necesita una firma.'
   document:
     title: 'Documento de marcador de posición'
+  wall:
+    caption: 'Un pie de foto en su base'
 
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -147,8 +189,22 @@ fa:
     document:
       title: 'سند جاسازی شده'
       description: 'یک iframe فضای خود را پر می‌کند، بنابراین فضای آن اندازه را به همراه دارد: یک اصلاح کننده نسبت یا رسانه--پر برای دریافت هر ارتفاعی که والد می‌دهد.'
+    frame:
+      title: قاب
+      description: 'تصویری در قاب خود، از سرور با media() یا به عنوان کامپوننت vue رسانه: یک لینک وقتی که به جایی هدایت می‌کند، یک زیرنویس در پایین آن، و در حین بارگذاری یا زمانی که چیزی وجود ندارد، درخشش.'
+    wall:
+      title: دیوار
+      description: 'تصاویر با ارتفاع‌های مختلف که کنار هم بدون فاصله چیده شده‌اند، هرکدام به اندازه نسبت خود بلند هستند، ستون‌ها به اندازه فضای اتاق: wall() آن را از سرور می‌کشد، شکل آن css/shapes/wall است.'
+    wall_vue:
+      title: 'دیوار یک مجموعه'
+      description: 'همان دیوار به عنوان یک مجموعه از موجودیت‌ها، که از api به صورت صفحه به صفحه خوانده می‌شود در حین اسکرول: صفحه بعدی قبل از رسیدن به پایین دیوار می‌آید.'
+    crop:
+      title: برش
+      description: 'کدام قسمت از یک تصویر نگه‌داشته شود، انتخاب شده بر روی تصویر: ناحیه حرکت می‌کند، یک گوشه آن را اندازه می‌گیرد، فلش‌ها آن را جابه‌جا می‌کنند و با Shift اندازه آن را تغییر می‌دهند. این در پیکسل‌های خود تصویر گفته می‌شود — آنچه که یک سرور برش می‌دهد — و crop() آن را اینجا برش می‌زند وقتی که برش ارسال می‌شود. یک نسبت آن را نگه می‌دارد (1 برای پرتره، به صورت گرد نمایش داده می‌شود)، یا آزاد است، همان‌طور که یک امضا نیاز دارد.'
   document:
     title: 'سند جایگزین'
+  wall:
+    caption: 'زیرنویسی در پایین آن'
 
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -167,8 +223,22 @@ fi:
     document:
       title: 'Upotettu asiakirja'
       description: 'Iframe täyttää laatikkonsa, joten laatikko määrittää koon: suhteen muokkaaja tai media--fill ottaakseen minkä tahansa korkeuden, jonka vanhempi antaa.'
+    frame:
+      title: Kehys
+      description: 'Kuva kehyksessään, palvelimelta media() tai media vue -komponenttina: linkki kun se vie johonkin, kuvateksti jalassa, ja hehku ladattaessa tai kun kuvaa ei ole.'
+    wall:
+      title: Seinä
+      description: 'Kuvia eri korkeuksilla pakattuna vierekkäin ilman aukkoja, jokainen niin korkea kuin sen suhde sanoo, sarakkeita niin monta kuin huone sallii: wall() piirtää sen palvelimelta, muoto on css/shapes/wall.'
+    wall_vue:
+      title: 'Kokoelman seinä'
+      description: 'Sama seinä kokoelmana entiteettejä, luetaan api:sta sivu kerrallaan kun sitä vieritetään: seuraava sivu tulee ennen kuin seinän jalka saavutetaan.'
+    crop:
+      title: Rajaa
+      description: 'Mikä osa kuvasta pidetään, valitaan kuvan päältä: alue liikkuu, kulma muuttaa kokoa, nuolet liikuttavat sitä ja Shift muuttaa kokoa. Se kerrotaan kuvan omissa pikseleissä — mitä palvelin rajaa — ja crop() leikkaa sen täältä kun leikkaus lähetetään sen sijaan. Suhde pitää sitä (1 muotokuvaksi, näytetään pyöreänä), tai se on vapaa, kuten allekirjoitus tarvitsee.'
   document:
     title: 'Paikkamerkki asiakirja'
+  wall:
+    caption: 'Kuvateksti jalassa'
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -221,8 +291,22 @@ he:
     document:
       title: 'מסמך משולב'
       description: 'iframe ממלא את הקופסה שלו, כך שהקופסה נושאת את הגודל: שינוי יחס, או מדיה--מלא כדי לקחת כל גובה שההורה נותן.'
+    frame:
+      title: מסגרת
+      description: 'תמונה בתוך מסגרת, מהשרת עם media() או כקומפוננטת vue למדיה: קישור כשזה מוביל למקום כלשהו, כיתוב מעל הרגל שלה, וזוהר בזמן שהיא נטענת או כשאין אף אחת.'
+    wall:
+      title: קיר
+      description: 'תמונות בכל גובה ארוזות זו לצד זו בלי חורים, כל אחת בגובה שהיחס שלה אומר, העמודות רבות כמו שהחדר מכיל: wall() מצייר את זה מהשרת, הצורה היא css/shapes/wall.'
+    wall_vue:
+      title: 'קיר של אוסף'
+      description: 'אותו קיר כמו אוסף של ישויות, נקרא מה-api עמוד אחד בכל פעם כשזה גולל: העמוד הבא מגיע לפני שהרגל של הקיר מושגת.'
+    crop:
+      title: גזירה
+      description: 'איזה חלק מתמונה לשמור, נבחר מעל התמונה: האזור זז, פינה משנה את גודלו, החצים זזים ועימם משנה את הגודל. זה נאמר בפיקסלים של התמונה עצמה — מה ששרת גוזר על פי — ו-crop() גוזר את זה כאן כשחתך נשלח במקום. יחס מחזיק את זה (1 לפורטרט, מוצג עגול), או שזה חופשי, כפי שחתימה דורשת.'
   document:
     title: 'מסמך לדוגמה'
+  wall:
+    caption: 'כיתוב מעל הרגל שלה'
 
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -241,8 +325,22 @@ hi:
     document:
       title: 'एम्बेडेड दस्तावेज़'
       description: 'एक आईफ्रेम अपने बॉक्स को भरता है, इसलिए बॉक्स आकार लेता है: एक अनुपात संशोधक, या मीडिया--फिल जो माता-पिता द्वारा दिए गए किसी भी ऊँचाई को लेता है।'
+    frame:
+      title: फ्रेम
+      description: 'एक तस्वीर अपने फ्रेम में, सर्वर से media() के साथ या मीडिया व्यू घटक के रूप में: एक लिंक जब यह कहीं ले जाती है, उसके पैर पर एक कैप्शन, और जब यह लोड हो रहा हो या जब कुछ न हो तो एक चमक।'
+    wall:
+      title: दीवार
+      description: 'हर ऊँचाई की तस्वीरें बगैर किसी खाली जगह के एक साथ पैक की गई हैं, प्रत्येक अपनी अनुपात के अनुसार ऊँची, कॉलम कमरे की क्षमता के अनुसार: wall() इसे सर्वर से खींचता है, आकार css/shapes/wall है।'
+    wall_vue:
+      title: 'एक संग्रह की दीवार'
+      description: 'वही दीवार जो संस्थाओं के संग्रह के रूप में है, एक समय में एक पृष्ठ api से पढ़ी जाती है जब इसे स्क्रॉल किया जाता है: अगला पृष्ठ दीवार के पैर तक पहुँचने से पहले आता है।'
+    crop:
+      title: क्रॉप
+      description: 'किस भाग की छवि को रखना है, छवि पर चुना गया: क्षेत्र चलता है, एक कोना इसे आकार देता है, तीर इसे स्थानांतरित करते हैं और Shift के साथ आकार देते हैं। यह छवि के अपने पिक्सेल में कहा जाता है - जो सर्वर द्वारा काटा गया है - और crop() इसे यहाँ काटता है जब कट भेजा जाता है। एक अनुपात इसे पकड़ता है (1 एक पोर्ट्रेट के लिए, गोल दिखाया गया), या यह स्वतंत्र है, जैसे एक हस्ताक्षर की आवश्यकता होती है।'
   document:
     title: 'प्लेसहोल्डर दस्तावेज़'
+  wall:
+    caption: 'उसके पैर पर एक कैप्शन'
 
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -261,8 +359,22 @@ id:
     document:
       title: 'Dokumen Tertanam'
       description: 'Sebuah iframe mengisi kotaknya, jadi kotak tersebut membawa ukuran: modifikasi rasio, atau media--isi untuk mengambil tinggi apa pun yang diberikan oleh induknya.'
+    frame:
+      title: Bingkai
+      description: 'Sebuah gambar dalam bingkainya, dari server dengan media() atau sebagai komponen vue media: sebuah tautan saat mengarah ke suatu tempat, sebuah keterangan di bagian bawahnya, dan efek bersinar saat memuat atau ketika tidak ada.'
+    wall:
+      title: Dinding
+      description: 'Gambar dengan berbagai tinggi yang dipadatkan berdampingan tanpa celah, masing-masing setinggi rasio yang ditentukan, kolom sebanyak yang bisa ditampung ruangan: wall() menggambarnya dari server, bentuknya adalah css/shapes/wall.'
+    wall_vue:
+      title: 'Dinding koleksi'
+      description: 'Dinding yang sama sebagai koleksi entitas, dibaca dari api satu halaman pada satu waktu saat digulir: halaman berikutnya muncul sebelum kaki dinding tercapai.'
+    crop:
+      title: Potong
+      description: 'Bagian mana dari gambar yang akan disimpan, dipilih di atas gambar: area bergerak, sudut mengubah ukurannya, panah memindahkannya dan dengan Shift mengubah ukurannya. Ini dinyatakan dalam piksel gambar itu sendiri — apa yang dipotong server — dan crop() memotongnya di sini ketika pemotongan dikirim sebagai gantinya. Sebuah rasio menahannya (1 untuk potret, ditampilkan bulat), atau bebas, seperti yang dibutuhkan sebuah tanda tangan.'
   document:
     title: 'Dokumen Placeholder'
+  wall:
+    caption: 'Sebuah keterangan di bagian bawahnya'
 
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -281,8 +393,22 @@ it:
     document:
       title: 'Documento incorporato'
       description: 'Un iframe riempie la sua casella, quindi la casella determina la dimensione: un modificatore di rapporto, o media--fill per prendere qualsiasi altezza fornita dal genitore.'
+    frame:
+      title: Cornice
+      description: "Un'immagine nella sua cornice, dal server con media() o come componente vue media: un link quando porta da qualche parte, una didascalia sopra il suo piede, e un bagliore mentre si carica o quando non ce n'è."
+    wall:
+      title: Parete
+      description: 'Immagini di ogni altezza impilate affiancate senza spazi vuoti, ognuna alta quanto dice il suo rapporto, le colonne tante quanto ne contiene la stanza: wall() la estrae dal server, la forma è css/shapes/wall.'
+    wall_vue:
+      title: 'Parete di una collezione'
+      description: "La stessa parete come collezione di entità, letta dall'api una pagina alla volta mentre viene scorsa: la pagina successiva arriva prima che si raggiunga il piede della parete."
+    crop:
+      title: Ritaglia
+      description: "Quale parte di un'immagine mantenere, scelta sull'immagine: l'area si muove, un angolo la dimensiona, le frecce la spostano e con Shift la dimensionano. Si dice nei pixel stessi dell'immagine — ciò che un server ritaglia — e crop() la taglia qui quando il taglio è inviato invece. Un rapporto la tiene (1 per un ritratto, mostrato rotondo), oppure è libera, come una firma richiede."
   document:
     title: 'Documento segnaposto'
+  wall:
+    caption: 'Una didascalia sopra il suo piede'
 
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -301,8 +427,22 @@ ja:
     document:
       title: 埋め込みドキュメント
       description: iframeは自分のボックスを満たすため、ボックスがサイズを持ちます：比率修正子、または親が与える高さを取得するためのmedia--fill。
+    frame:
+      title: フレーム
+      description: 'サーバーからのmedia()やmedia vueコンポーネントとしてのフレーム内の画像：どこかにリンクする場合はリンク、足元にキャプション、読み込んでいる間や何もないときに光る。'
+    wall:
+      title: 壁
+      description: 隙間なく横に並んだ様々な高さの画像、それぞれはその比率に従った高さを持ち、部屋が許す限りの列：wall()がサーバーから描画し、形状はcss/shapes/wall。
+    wall_vue:
+      title: コレクションの壁
+      description: エンティティのコレクションとしての同じ壁、スクロールされるごとにAPIから1ページずつ読み込まれる：次のページは壁の足元に達する前に来る。
+    crop:
+      title: 切り抜き
+      description: '画像のどの部分を保持するか、画像の上で選択：領域が移動し、角がサイズを調整し、矢印が移動させ、Shiftでサイズを変更する。画像のピクセルで表現され、サーバーが切り抜くもの — ここでcrop()が送られた切り抜きで切る。比率が保持される（ポートレート用の1は丸く表示される）、または署名のように自由である。'
   document:
     title: プレースホルダードキュメント
+  wall:
+    caption: 足元のキャプション
 
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -321,8 +461,22 @@ ko:
     document:
       title: '임베디드 문서'
       description: 'iframe은 자신의 박스를 채우므로 박스가 크기를 가집니다: 비율 수정자 또는 부모가 제공하는 높이를 가져오는 미디어--채우기입니다.'
+    frame:
+      title: 프레임
+      description: '서버에서 media()를 통해 또는 미디어 Vue 컴포넌트로 가져온 프레임에 있는 사진: 링크가 있을 경우 해당 링크로 이동하고, 하단에 캡션이 있으며, 로딩 중이거나 이미지가 없을 때 빛나는 효과가 있습니다.'
+    wall:
+      title: 벽
+      description: '구멍 없이 나란히 배치된 다양한 높이의 사진들, 각 사진은 비율에 맞게 높이가 조정되며, 방의 크기에 맞춰 열이 배치됩니다: wall()은 서버에서 가져오고, 모양은 css/shapes/wall입니다.'
+    wall_vue:
+      title: '컬렉션의 벽'
+      description: '엔터티의 컬렉션으로서의 동일한 벽, 스크롤할 때마다 API에서 한 페이지씩 읽어옵니다: 다음 페이지는 벽의 하단에 도달하기 전에 표시됩니다.'
+    crop:
+      title: 자르기
+      description: '이미지에서 유지할 부분, 이미지 위에서 선택됩니다: 영역이 이동하고, 코너로 크기가 조정되며, 화살표로 이동하고 Shift와 함께 크기를 조정합니다. 이는 이미지의 픽셀로 표시됩니다 — 서버가 잘라내는 부분 — 그리고 crop()은 잘라낸 부분이 전송될 때 여기를 잘라냅니다. 비율이 유지됩니다 (인물 사진의 경우 1, 둥글게 표시됨), 아니면 서명처럼 자유롭게 조정됩니다.'
   document:
     title: '플레이스홀더 문서'
+  wall:
+    caption: '하단에 캡션'
 
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -341,8 +495,22 @@ nl:
     document:
       title: 'Ingebed document'
       description: 'Een iframe vult zijn vak, dus het vak bepaalt de grootte: een verhouding modifier, of media--fill om de hoogte te nemen die de ouder geeft.'
+    frame:
+      title: Lijst
+      description: 'Een afbeelding in zijn lijst, van de server met media() of als de media vue-component: een link wanneer het ergens naartoe leidt, een bijschrift over de voet, en een gloed terwijl het laadt of wanneer er geen is.'
+    wall:
+      title: Muur
+      description: 'Afbeeldingen van elke hoogte naast elkaar zonder gaten, elk zo hoog als de verhouding aangeeft, de kolommen zoveel als de ruimte toelaat: wall() haalt het van de server, de vorm is css/shapes/wall.'
+    wall_vue:
+      title: 'Muur van een collectie'
+      description: 'Dezelfde muur als een collectie van entiteiten, gelezen van de api een pagina per keer terwijl deze wordt gescrold: de volgende pagina komt voordat de voet van de muur is bereikt.'
+    crop:
+      title: Bijsnijden
+      description: 'Welk deel van een afbeelding te behouden, gekozen over de afbeelding: het gebied beweegt, een hoek past het aan, de pijlen verplaatsen het en met Shift pas je het aan. Het wordt in de pixels van de afbeelding zelf gezegd — wat een server bijsnijdt — en crop() snijdt het hier wanneer de snede in plaats daarvan wordt verzonden. Een verhouding houdt het vast (1 voor een portret, rond weergegeven), of het is vrij, zoals een handtekening nodig heeft.'
   document:
     title: 'Placeholder document'
+  wall:
+    caption: 'Een bijschrift over de voet'
 
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -361,8 +529,22 @@ pl:
     document:
       title: 'Osadzony dokument'
       description: 'Iframe wypełnia swoje pole, więc pole określa rozmiar: modyfikator proporcji lub media--wypełnij, aby przyjąć wysokość, którą daje rodzic.'
+    frame:
+      title: Ramka
+      description: 'Obrazek w ramce, z serwera za pomocą media() lub jako komponent vue media: link, gdy prowadzi gdzieś, podpis na dole oraz efekt podświetlenia podczas ładowania lub gdy go nie ma.'
+    wall:
+      title: Ściana
+      description: 'Obrazki o różnych wysokościach zapakowane obok siebie bez przerw, każdy tak wysoki, jak mówi jego proporcja, kolumny tak liczne, jak pozwala pomieszczenie: wall() rysuje je z serwera, kształt to css/shapes/wall.'
+    wall_vue:
+      title: 'Ściana kolekcji'
+      description: 'Ta sama ściana jako kolekcja bytów, odczytywana z api strona po stronie, gdy jest przewijana: następna strona pojawia się zanim dotrze się do dołu ściany.'
+    crop:
+      title: Przytnij
+      description: 'Jaką część obrazu zachować, wybraną na obrazie: obszar się porusza, róg zmienia jego rozmiar, strzałki go przesuwają i z wciśniętym Shift zmieniają rozmiar. Jest to podawane w pikselach obrazu — według czego serwer przycina — a crop() przycina to tutaj, gdy cięcie jest przesyłane. Proporcja to trzyma (1 dla portretu, pokazywanego okrągło), lub jest swobodna, tak jak potrzebuje podpis.'
   document:
     title: 'Dokument zastępczy'
+  wall:
+    caption: 'Podpis na dole'
 
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -381,8 +563,22 @@ pt_BR:
     document:
       title: 'Documento incorporado'
       description: 'Um iframe preenche sua caixa, então a caixa carrega o tamanho: um modificador de proporção, ou mídia--preencher para ocupar a altura que o pai fornece.'
+    frame:
+      title: Quadro
+      description: 'Uma imagem em seu quadro, do servidor com media() ou como o componente vue de mídia: um link quando leva a algum lugar, uma legenda na parte inferior, e um brilho enquanto carrega ou quando não há nada.'
+    wall:
+      title: Paredão
+      description: 'Imagens de todas as alturas empilhadas lado a lado sem buracos, cada uma tão alta quanto sua proporção diz, as colunas são tantas quanto o espaço permite: wall() desenha isso do servidor, a forma é css/shapes/wall.'
+    wall_vue:
+      title: 'Paredão de uma coleção'
+      description: 'O mesmo paredão como uma coleção de entidades, lido da API uma página por vez enquanto é rolado: a próxima página aparece antes que o pé do paredão seja alcançado.'
+    crop:
+      title: Recorte
+      description: 'Qual parte de uma imagem manter, escolhida sobre a imagem: a área se move, um canto dimensiona, as setas movem e com Shift dimensionam. É dito em pixels próprios da imagem — o que um servidor recorta — e crop() corta aqui quando o corte é enviado em vez disso. Uma proporção mantém (1 para um retrato, mostrado redondo), ou é livre, como uma assinatura precisa.'
   document:
     title: 'Documento de exemplo'
+  wall:
+    caption: 'Uma legenda na parte inferior'
 
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -401,8 +597,22 @@ ru:
     document:
       title: 'Встроенный документ'
       description: 'Iframe заполняет свою область, поэтому область определяет размер: модификатор соотношения, или media--fill для того, чтобы занять любую высоту, которую дает родитель.'
+    frame:
+      title: Рамка
+      description: 'Картина в рамке, с сервера с media() или как компонент media vue: ссылка, когда она куда-то ведет, подпись внизу и свечение во время загрузки или когда изображения нет.'
+    wall:
+      title: Стена
+      description: 'Картины разной высоты, упакованные рядом без пробелов, каждая такой высоты, какой требует её соотношение, количество колонн зависит от размера комнаты: wall() рисует её с сервера, форма — css/shapes/wall.'
+    wall_vue:
+      title: 'Стена коллекции'
+      description: 'Та же стена, что и коллекция сущностей, считываемая из api по одной странице за раз при прокрутке: следующая страница появляется до того, как будет достигнут конец стены.'
+    crop:
+      title: Обрезка
+      description: 'Какую часть изображения сохранить, выбирая её на изображении: область перемещается, угол изменяет размер, стрелки перемещают её, а с Shift — изменяют размер. Это определяется собственными пикселями изображения — по которым сервер обрезает — и crop() обрезает её здесь, когда обрезка отправляется. Соотношение удерживает её (1 для портрета, отображается круглым), или оно свободно, как требуется для подписи.'
   document:
     title: Документ-заполнитель
+  wall:
+    caption: 'Подпись внизу'
 
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -421,8 +631,22 @@ th:
     document:
       title: เอกสารฝัง
       description: 'iframe จะเติมเต็มกล่องของมัน ดังนั้นกล่องจึงมีขนาด: ตัวปรับอัตราส่วน หรือสื่อ--เติมเต็มเพื่อรับความสูงที่พ่อแม่กำหนดให้.'
+    frame:
+      title: กรอบ
+      description: 'ภาพในกรอบของมัน จากเซิร์ฟเวอร์ด้วย media() หรือในฐานะคอมโพเนนต์ media vue: ลิงก์เมื่อมันนำไปที่ใดที่หนึ่ง, คำบรรยายเหนือฐาน, และแสงระยิบระยับขณะโหลดหรือเมื่อไม่มีภาพ.'
+    wall:
+      title: ผนัง
+      description: 'ภาพทุกขนาดที่เรียงข้างกันไม่มีช่องว่าง, แต่ละภาพสูงตามอัตราส่วนที่บอก, จำนวนคอลัมน์มีตามที่ห้องรองรับ: wall() วาดมันจากเซิร์ฟเวอร์, รูปทรงเป็น css/shapes/wall.'
+    wall_vue:
+      title: ผนังของคอลเลกชัน
+      description: 'ผนังเดียวกันกับคอลเลกชันของเอนทิตี, อ่านจาก api หน้าละหนึ่งครั้งขณะที่เลื่อน: หน้าถัดไปจะมาถึงก่อนที่จะถึงฐานของผนัง.'
+    crop:
+      title: ตัด
+      description: 'ส่วนใดของภาพที่จะเก็บไว้, เลือกจากภาพ: พื้นที่เคลื่อนที่, มุมขนาดมัน, ลูกศรเคลื่อนที่และขนาดมันด้วย Shift. มันถูกกล่าวในพิกเซลของภาพเอง — สิ่งที่เซิร์ฟเวอร์ตัด — และ crop() ตัดมันที่นี่เมื่อการตัดถูกส่งแทน. อัตราส่วนถือมัน (1 สำหรับภาพบุคคล, แสดงเป็นวงกลม), หรือมันเป็นอิสระ, ตามที่ลายเซ็นต้องการ.'
   document:
     title: เอกสารตัวอย่าง
+  wall:
+    caption: คำบรรยายเหนือฐาน
 
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -441,8 +665,22 @@ tr:
     document:
       title: 'Gömülü belge'
       description: 'Bir iframe kutusunu doldurur, bu nedenle kutu boyutu taşır: bir oran değiştiricisi veya ana belgenin verdiği yüksekliği almak için medya--doldur.'
+    frame:
+      title: Çerçeve
+      description: 'Sunucudan media() ile veya medya vue bileşeni olarak çerçevesindeki bir resim: bir yere giden bir bağlantı, altına bir başlık ve yüklenirken veya hiç yokken bir parıltı.'
+    wall:
+      title: Duvar
+      description: "Her yüksekliğe sahip resimler, yan yana ve boşluk olmadan paketlenmiş, her biri oranına göre yüksek, odanın alabileceği kadar sütun: wall() bunu sunucudan çizer, şekil css/shapes/wall'dır."
+    wall_vue:
+      title: 'Bir koleksiyonun duvarı'
+      description: "Bir varlık koleksiyonu olarak aynı duvar, api'den bir sayfa olarak okunur, kaydırıldıkça: bir sonraki sayfa duvarın altına ulaşmadan gelir."
+    crop:
+      title: Kırp
+      description: 'Bir görüntünün hangi kısmının korunacağını seçme: alan hareket eder, bir köşe boyutlandırır, oklar hareket ettirir ve Shift ile boyutlandırır. Sunucunun kırptığı görüntünün kendi pikselleriyle ifade edilir — crop() burada kesim gönderildiğinde keser. Bir oran onu tutar (portre için 1, yuvarlak gösterilir) veya serbesttir, bir imza gibi gerekir.'
   document:
     title: 'Yer Tutucu belge'
+  wall:
+    caption: 'Altında bir başlık'
 
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -461,8 +699,22 @@ ur:
     document:
       title: 'مربوط دستاویز'
       description: 'ایک iframe اپنے باکس کو بھر دیتا ہے، اس لیے باکس کا سائز ہوتا ہے: ایک تناسب میں تبدیلی کرنے والا، یا میڈیا--بھرنے کے لیے جو بھی اونچائی والدین فراہم کرے۔'
+    frame:
+      title: فریم
+      description: 'ایک تصویر اپنے فریم میں، سرور سے media() کے ذریعے یا میڈیا vue کمپوننٹ کے طور پر: ایک لنک جب یہ کسی جگہ کی طرف جاتا ہے، اس کے نیچے ایک عنوان، اور جب یہ لوڈ ہو رہا ہو یا جب کوئی نہ ہو تو ایک چمک۔'
+    wall:
+      title: دیوار
+      description: 'ہر اونچائی کی تصاویر ایک دوسرے کے ساتھ بغیر کسی جگہ کے، ہر ایک اپنی تناسب کے مطابق اونچی، کالمز جتنے کمرے میں ہوں: wall() اسے سرور سے کھینچتا ہے، شکل css/shapes/wall ہے۔'
+    wall_vue:
+      title: 'اجتماع کی دیوار'
+      description: 'وہی دیوار جو ہستیوں کے اجتماع کے طور پر ہے، api سے ایک وقت میں ایک صفحہ پڑھا جاتا ہے جوں ہی یہ سکرول ہوتا ہے: اگلا صفحہ دیوار کے پاؤں تک پہنچنے سے پہلے آتا ہے۔'
+    crop:
+      title: کٹائی
+      description: 'تصویر کا کون سا حصہ رکھنا ہے، تصویر پر منتخب کیا جاتا ہے: علاقہ حرکت کرتا ہے، ایک کونا اسے سائز دیتا ہے، تیر اسے حرکت دیتے ہیں اور Shift کے ساتھ سائز دیتے ہیں۔ یہ تصویر کے اپنے پکسلز میں کہا جاتا ہے — جس پر سرور کٹائی کرتا ہے — اور crop() اسے یہاں کٹ دیتا ہے جب کٹ بھیجا جاتا ہے۔ ایک تناسب اسے پکڑتا ہے (پورٹریٹ کے لیے 1، جو گول دکھایا جاتا ہے)، یا یہ آزاد ہے، جیسا کہ ایک دستخط کی ضرورت ہوتی ہے۔'
   document:
     title: 'پلےس ہولڈر دستاویز'
+  wall:
+    caption: 'اس کے نیچے ایک عنوان'
 
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -481,8 +733,22 @@ vi:
     document:
       title: 'Tài liệu nhúng'
       description: 'Một iframe lấp đầy hộp của nó, vì vậy hộp mang kích thước: một bộ điều chỉnh tỉ lệ, hoặc phương tiện--lấp đầy để lấy bất kỳ chiều cao nào mà cha cung cấp.'
+    frame:
+      title: Khung
+      description: 'Một bức tranh trong khung của nó, từ máy chủ với media() hoặc dưới dạng thành phần vue media: một liên kết khi nó dẫn đến đâu đó, một chú thích ở dưới chân, và một ánh sáng trong khi nó tải hoặc khi không có gì.'
+    wall:
+      title: Tường
+      description: 'Những bức tranh có chiều cao khác nhau được xếp cạnh nhau không có khoảng trống, mỗi bức tranh cao như tỉ lệ của nó, số cột nhiều như không gian có: wall() vẽ nó từ máy chủ, hình dạng là css/shapes/wall.'
+    wall_vue:
+      title: 'Tường của một bộ sưu tập'
+      description: 'Tường giống như một bộ sưu tập các thực thể, đọc từ api một trang tại một thời điểm khi nó được cuộn: trang tiếp theo xuất hiện trước khi đạt đến chân của bức tường.'
+    crop:
+      title: Cắt
+      description: 'Phần nào của hình ảnh cần giữ lại, được chọn trên hình ảnh: khu vực di chuyển, một góc điều chỉnh kích thước, các mũi tên di chuyển nó và với Shift điều chỉnh kích thước. Nó được nói bằng chính pixel của hình ảnh — những gì máy chủ cắt theo — và crop() cắt nó ở đây khi việc cắt được gửi thay thế. Một tỉ lệ giữ nó (1 cho chân dung, hiển thị hình tròn), hoặc nó là tự do, như một chữ ký cần.'
   document:
     title: 'Tài liệu mẫu'
+  wall:
+    caption: 'Một chú thích ở dưới chân'
 
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'

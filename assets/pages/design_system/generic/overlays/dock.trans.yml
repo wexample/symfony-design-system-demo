@@ -70,3 +70,345 @@ ar:
   content:
     title: 'مُعرض بواسطة سكريبت'
     body: 'لم تُطلب أي صفحة من الخادم لهذه النافذة؛ السكريبت الذي فتحها كتب ما تحتويه.'
+
+hi:
+  page_title: डॉक
+  page_icon: 'ph:bold/rows'
+  intro: "स्क्रीन के नीचे, पृष्ठ के बगल में और इसके ऊपर नहीं, एक विंडो डॉक की गई है: कुछ भी मंद नहीं होता, कुछ भी इंतज़ार नहीं करता, पृष्ठ उपयोगी बना रहता है। इसका शीर्षक इसे उसके शीर्षक में और वापस मोड़ता है। यह एक पृष्ठ लेता है जिसे सर्वर प्रस्तुत करता है — `target: 'dock'` — या जो कुछ एक स्क्रिप्ट वहां दिखाती है, जैसे एक मोडल और एक पैनल।"
+  section:
+    page:
+      description: "एक पृष्ठ जो डॉक में लोड किया गया है (`button_target(…, 'dock')`)। दोनों खोलें: वे बगल में खड़े होते हैं।"
+      button: 'एक पृष्ठ खोलें'
+      button_long: 'एक लंबा पृष्ठ खोलें'
+    content:
+      description: 'जो एक स्क्रिप्ट स्वयं दिखाती है — `showInTarget(app, target, { title, body, actions })` — एक मोडल, एक पैनल या एक डॉक में: पृष्ठ के समान खोल, जो ब्राउज़र में खींचा गया है।'
+      modal: 'एक मोडल में'
+      panel: 'एक पैनल में'
+      dock: 'एक डॉक में'
+  content:
+    title: 'एक स्क्रिप्ट द्वारा दिखाया गया'
+    body: 'इस विंडो के लिए सर्वर से कोई पृष्ठ नहीं मांगा गया; इसे खोले जाने वाली स्क्रिप्ट ने जो कुछ भी इसमें है, वही लिखा।'
+
+he:
+  page_title: דוק
+  page_icon: 'ph:bold/rows'
+  intro: "חלון שנמצא בתחתית המסך, ליד העמוד ולא מעליו: כלום לא מעומעם, כלום לא מחכה, העמוד נשאר נגיש. הכותרת שלו מקפלת אותו לכותרת שלו וחזרה. הוא לוקח עמוד שהשרת מציג — `target: 'dock'` — או מה שסקריפט מציג שם, כמו מודל ופאנל."
+  section:
+    page:
+      description: "עמוד שנפתח בדוק (`button_target(…, 'dock')`). פתח את שניהם: הם עומדים זה לצד זה."
+      button: 'פתח עמוד'
+      button_long: 'פתח עמוד ארוך'
+    content:
+      description: 'מה שסקריפט מציג — `showInTarget(app, target, { title, body, actions })` — במודל, פאנל או דוק: אותו מסגרת כמו של עמוד, מוצג בדפדפן.'
+      modal: במודל
+      panel: בפאנל
+      dock: בדוק
+  content:
+    title: 'מוצג על ידי סקריפט'
+    body: 'לא נדרש עמוד מהשרת עבור חלון זה; הסקריפט שפתח אותו כתב מה שהוא מחזיק.'
+
+fa:
+  page_title: داک
+  page_icon: 'ph:bold/rows'
+  intro: "یک پنجره که در پایین صفحه قرار دارد، در کنار صفحه و نه روی آن: هیچ چیز کم رنگ نمی‌شود، هیچ چیزی منتظر نمی‌ماند، صفحه قابل استفاده باقی می‌ماند. هدر آن به عنوان عنوانش جمع می‌شود و دوباره باز می‌شود. این یک صفحه است که سرور آن را رندر می‌کند — `target: 'dock'` — یا چیزی که یک اسکریپت در آن نشان می‌دهد، مانند یک مدال و یک پنل."
+  section:
+    page:
+      description: "یک صفحه بارگذاری شده در داک (`button_target(…, 'dock')`). هر دو را باز کنید: آنها در کنار هم قرار می‌گیرند."
+      button: 'باز کردن یک صفحه'
+      button_long: 'باز کردن یک صفحه طولانی'
+    content:
+      description: 'آنچه یک اسکریپت خود را نشان می‌دهد — `showInTarget(app, target, { title, body, actions })` — در یک مدال، یک پنل یا یک داک: همان پوسته‌ای که یک صفحه دارد، در مرورگر کشیده شده است.'
+      modal: 'در یک مدال'
+      panel: 'در یک پنل'
+      dock: 'در یک داک'
+  content:
+    title: 'توسط یک اسکریپت نشان داده شده'
+    body: 'هیچ صفحه‌ای از سرور برای این پنجره درخواست نشده است؛ اسکریپتی که آن را باز کرد، آنچه را که دارد نوشت.'
+
+ur:
+  page_title: ڈوک
+  page_icon: 'ph:bold/rows'
+  intro: "اسکرین کے نیچے ایک ونڈو جو صفحے کے ساتھ ساتھ ہے اور اس پر نہیں ہے: کچھ مدھم نہیں ہوتا، کچھ انتظار نہیں کرتا، صفحہ استعمال کے قابل رہتا ہے۔ اس کا ہیڈر اسے اس کے عنوان میں اور واپس سمیٹ لیتا ہے۔ یہ ایک صفحے کو لیتا ہے جسے سرور رینڈر کرتا ہے — `target: 'dock'` — یا جو ایک اسکرپٹ وہاں دکھاتا ہے، جیسے کہ ایک موڈل اور ایک پینل۔"
+  section:
+    page:
+      description: "ایک ڈوک میں لوڈ ہونے والا صفحہ (`button_target(…, 'dock')`)۔ دونوں کھولیں: وہ ایک ساتھ کھڑے ہیں۔"
+      button: 'ایک صفحہ کھولیں'
+      button_long: 'ایک طویل صفحہ کھولیں'
+    content:
+      description: 'جو ایک اسکرپٹ خود دکھاتا ہے — `showInTarget(app, target, { title, body, actions })` — ایک موڈل، ایک پینل یا ایک ڈوک میں: ایک صفحے کا وہی خول، جو براؤزر میں کھینچا گیا ہے۔'
+      modal: 'ایک موڈل میں'
+      panel: 'ایک پینل میں'
+      dock: 'ایک ڈوک میں'
+  content:
+    title: 'ایک اسکرپٹ کے ذریعہ دکھایا گیا'
+    body: 'اس ونڈو کے لیے سرور سے کوئی صفحہ نہیں مانگا گیا؛ جس اسکرپٹ نے اسے کھولا اس نے جو کچھ یہ رکھتا ہے وہ لکھا۔'
+
+ja:
+  page_title: ドック
+  page_icon: 'ph:bold/rows'
+  intro: "画面の下部にドッキングされたウィンドウで、ページの横にあり、上に重ならない：何も暗くならず、何も待機せず、ページは操作可能なままです。そのヘッダーはタイトルに折りたたまれ、元に戻ります。サーバーがレンダリングするページを取り込みます — `target: 'dock'` — または、モーダルやパネルのように、スクリプトがそこに表示するものを取り込みます。"
+  section:
+    page:
+      description: "ドック内に読み込まれたページ（`button_target(…, 'dock')`）。両方を開くと、並んで表示されます。"
+      button: ページを開く
+      button_long: 長いページを開く
+    content:
+      description: 'スクリプトが自ら表示するもの — `showInTarget(app, target, { title, body, actions })` — モーダル、パネル、またはドック内に：ページと同じシェルがブラウザに描画されます。'
+      modal: モーダル内
+      panel: パネル内
+      dock: ドック内
+  content:
+    title: スクリプトによって表示された
+    body: このウィンドウのためにサーバーにページは要求されていません；それを開いたスクリプトが保持する内容を書きました。
+
+ko:
+  page_title: 독
+  page_icon: 'ph:bold/rows'
+  intro: "화면 하단에 고정된 창으로, 페이지 옆에 위치하고 페이지 위에 있지 않음: 아무것도 흐릿해지지 않고, 아무것도 기다리지 않으며, 페이지는 사용 가능합니다. 헤더는 제목으로 접었다가 다시 펼칠 수 있습니다. 서버가 렌더링한 페이지를 가져오거나 — `target: 'dock'` — 모달이나 패널처럼 스크립트가 그곳에 표시하는 내용을 가져옵니다."
+  section:
+    page:
+      description: "독에 로드된 페이지 (`button_target(…, 'dock')`). 둘 다 열면 나란히 표시됩니다."
+      button: '페이지 열기'
+      button_long: '긴 페이지 열기'
+    content:
+      description: '스크립트가 자체적으로 보여주는 내용 — `showInTarget(app, target, { title, body, actions })` — 모달, 패널 또는 독에서: 페이지와 동일한 쉘로 브라우저에 그려집니다.'
+      modal: 모달에서
+      panel: 패널에서
+      dock: 독에서
+  content:
+    title: '스크립트에 의해 표시됨'
+    body: '이 창을 위해 서버에 요청된 페이지는 없으며, 이를 열었던 스크립트가 담고 있는 내용을 작성했습니다.'
+
+bn:
+  page_title: ডক
+  page_icon: 'ph:bold/rows'
+  intro: "স্ক্রীনের নিচে পেজের পাশে, এর উপর নয় এমন একটি উইন্ডো ডক করা হয়েছে: কিছু নষ্ট হয় না, কিছু অপেক্ষা করে না, পেজ ব্যবহারযোগ্য থাকে। এর হেডার এটি তার শিরোনামে ভাঁজ করে এবং পরে আবার। এটি একটি পেজ গ্রহণ করে যা সার্ভার রেন্ডার করে — `target: 'dock'` — অথবা যা একটি স্ক্রিপ্ট সেখানে দেখায়, যেমন একটি মোডাল এবং একটি প্যানেল।"
+  section:
+    page:
+      description: "একটি ডকে লোড করা পেজ (`button_target(…, 'dock')`)। উভয়টি খুলুন: তারা পাশাপাশি দাঁড়িয়ে থাকে।"
+      button: 'একটি পেজ খুলুন'
+      button_long: 'একটি লম্বা পেজ খুলুন'
+    content:
+      description: 'যা একটি স্ক্রিপ্ট নিজেই দেখায় — `showInTarget(app, target, { title, body, actions })` — একটি মোডাল, একটি প্যানেল বা একটি ডকে: এটি একটি পেজের মতো একই শেল, ব্রাউজারে অঙ্কিত।'
+      modal: 'একটি মোডালে'
+      panel: 'একটি প্যানেলে'
+      dock: 'একটি ডকে'
+  content:
+    title: 'একটি স্ক্রিপ্ট দ্বারা প্রদর্শিত'
+    body: 'এই উইন্ডোর জন্য সার্ভার থেকে কোন পেজের আবেদন করা হয়নি; এটি খুলে দেয়া স্ক্রিপ্ট যা এটি ধারণ করে তাতে লিখেছে।'
+
+th:
+  page_title: ด็อก
+  page_icon: 'ph:bold/rows'
+  intro: "หน้าต่างที่ถูกยึดที่ด้านล่างของหน้าจอ ข้างๆ หน้าต่างและไม่ทับซ้อน: ไม่มีสิ่งใดมืดลง ไม่มีสิ่งใดรอ หน้าเว็บยังสามารถใช้งานได้ หัวข้อของมันพับไปที่ชื่อและกลับมา มันรับหน้าจากเซิร์ฟเวอร์ — `target: 'dock'` — หรือสิ่งที่สคริปต์แสดงที่นั่น เช่น โมดัลและแผง."
+  section:
+    page:
+      description: "หน้าเว็บที่โหลดในด็อก (`button_target(…, 'dock')`). เปิดทั้งสอง: พวกมันยืนอยู่ข้างกัน."
+      button: เปิดหน้าเว็บ
+      button_long: เปิดหน้ายาว
+    content:
+      description: 'สิ่งที่สคริปต์แสดงเอง — `showInTarget(app, target, { title, body, actions })` — ในโมดัล แผง หรือด็อก: เปลือกเดียวกับหน้าเว็บ วาดในเบราว์เซอร์.'
+      modal: ในโมดัล
+      panel: ในแผง
+      dock: ในด็อก
+  content:
+    title: แสดงโดยสคริปต์
+    body: 'ไม่มีหน้าที่ร้องขอจากเซิร์ฟเวอร์สำหรับหน้าต่างนี้; สคริปต์ที่เปิดมันเขียนสิ่งที่มันถืออยู่.'
+
+de:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Ein Fenster, das am Fuß des Bildschirms angedockt ist, neben der Seite und nicht darüber: nichts wird dunkler, nichts wartet, die Seite bleibt benutzbar. Ihr Header klappt sie auf ihren Titel und zurück. Sie nimmt eine Seite, die der Server rendert — `target: 'dock'` — oder was ein Skript dort anzeigt, wie ein Modal und ein Panel."
+  section:
+    page:
+      description: "Eine Seite, die in einem Dock geladen wurde (`button_target(…, 'dock')`). Beide öffnen: sie stehen nebeneinander."
+      button: 'Eine Seite öffnen'
+      button_long: 'Eine lange Seite öffnen'
+    content:
+      description: 'Was ein Skript selbst anzeigt — `showInTarget(app, target, { title, body, actions })` — in einem Modal, einem Panel oder einem Dock: dasselbe Shell wie bei einer Seite, im Browser dargestellt.'
+      modal: 'In einem Modal'
+      panel: 'In einem Panel'
+      dock: 'In einem Dock'
+  content:
+    title: 'Von einem Skript angezeigt'
+    body: 'Es wurde keine Seite vom Server für dieses Fenster angefordert; das Skript, das es geöffnet hat, schrieb, was es enthält.'
+
+fi:
+  page_title: Telakka
+  page_icon: 'ph:bold/rows'
+  intro: "Ikkuna, joka on kiinnitetty näytön alaosaan, sivulle sivun vieressä eikä sen päällä: mikään ei himmene, mikään ei odota, sivu pysyy käytettävissä. Sen yläosa taittaa sen otsikoksi ja takaisin. Se ottaa sivun, jonka palvelin renderoi — `target: 'dock'` — tai mitä skripti näyttää siellä, kuten modaalin ja paneelin."
+  section:
+    page:
+      description: "Sivu, joka on ladattu telakkaan (`button_target(…, 'dock')`). Avaa molemmat: ne seisovat vierekkäin."
+      button: 'Avaa sivu'
+      button_long: 'Avaa pitkä sivu'
+    content:
+      description: 'Mitä skripti itse näyttää — `showInTarget(app, target, { title, body, actions })` — modaalissa, paneelissa tai telakassa: sama kuori kuin sivulla, piirretty selaimeen.'
+      modal: Modaalissa
+      panel: Paneelissa
+      dock: Telakassa
+  content:
+    title: 'Skripti näyttää'
+    body: 'Tätä ikkunaa varten ei pyydetty sivua palvelimelta; sen avannut skripti kirjoitti, mitä se pitää sisällään.'
+
+ru:
+  page_title: Док
+  page_icon: 'ph:bold/rows'
+  intro: "Окно прикреплено внизу экрана, рядом со страницей и не поверх неё: ничего не затемняется, ничего не ждет, страница остаётся доступной. Его заголовок сворачивает его к названию и обратно. Оно принимает страницу, которую рендерит сервер — `target: 'dock'` — или то, что скрипт показывает там, как модальное окно или панель."
+  section:
+    page:
+      description: "Страница загружена в доке (`button_target(…, 'dock')`). Откройте оба: они стоят рядом."
+      button: 'Открыть страницу'
+      button_long: 'Открыть длинную страницу'
+    content:
+      description: 'Что показывает скрипт — `showInTarget(app, target, { title, body, actions })` — в модальном окне, панели или доке: та же оболочка, что и у страницы, рисуемая в браузере.'
+      modal: 'В модальном окне'
+      panel: 'В панели'
+      dock: 'В доке'
+  content:
+    title: 'Показано скриптом'
+    body: 'Для этого окна не запрашивалась страница у сервера; скрипт, который его открыл, написал то, что оно содержит.'
+
+pl:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Okno przyczepione do dolnej części ekranu, obok strony, a nie nad nią: nic nie przyciemnia, nic nie czeka, strona pozostaje użyteczna. Jej nagłówek składa ją do tytułu i z powrotem. Przyjmuje stronę, którą renderuje serwer — `target: 'dock'` — lub to, co wyświetla skrypt, takie jak modal i panel."
+  section:
+    page:
+      description: "Strona załadowana w doku (`button_target(…, 'dock')`). Otwórz obie: stoją obok siebie."
+      button: 'Otwórz stronę'
+      button_long: 'Otwórz długą stronę'
+    content:
+      description: 'Co skrypt pokazuje sam w sobie — `showInTarget(app, target, { title, body, actions })` — w modalu, panelu lub doku: ta sama powłoka co strona, rysowana w przeglądarce.'
+      modal: 'W modalu'
+      panel: 'W panelu'
+      dock: 'W doku'
+  content:
+    title: 'Pokazane przez skrypt'
+    body: 'Nie poproszono o stronę z serwera dla tego okna; skrypt, który je otworzył, napisał to, co zawiera.'
+
+es:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Una ventana anclada en la parte inferior de la pantalla, junto a la página y no sobre ella: nada se oscurece, nada espera, la página permanece utilizable. Su encabezado la pliega a su título y de regreso. Toma una página que el servidor renderiza — `target: 'dock'` — o lo que un script muestra allí, como un modal y un panel."
+  section:
+    page:
+      description: "Una página cargada en un dock (`button_target(…, 'dock')`). Abre ambos: están uno al lado del otro."
+      button: 'Abrir una página'
+      button_long: 'Abrir una página larga'
+    content:
+      description: 'Lo que un script muestra — `showInTarget(app, target, { title, body, actions })` — en un modal, un panel o un dock: la misma estructura que la de una página, dibujada en el navegador.'
+      modal: 'En un modal'
+      panel: 'En un panel'
+      dock: 'En un dock'
+  content:
+    title: 'Mostrado por un script'
+    body: 'No se solicitó ninguna página al servidor para esta ventana; el script que la abrió escribió lo que contiene.'
+
+it:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Una finestra ancorata in fondo allo schermo, accanto alla pagina e non sopra di essa: nulla si offusca, nulla aspetta, la pagina rimane utilizzabile. La sua intestazione la ripiega sul suo titolo e viceversa. Prende una pagina che il server rende — `target: 'dock'` — o ciò che uno script mostra lì, come un modale e un pannello."
+  section:
+    page:
+      description: "Una pagina caricata in un dock (`button_target(…, 'dock')`). Apri entrambi: stanno uno accanto all'altro."
+      button: 'Apri una pagina'
+      button_long: 'Apri una pagina lunga'
+    content:
+      description: 'Ciò che uno script mostra — `showInTarget(app, target, { title, body, actions })` — in un modale, un pannello o un dock: la stessa struttura di una pagina, disegnata nel browser.'
+      modal: 'In un modale'
+      panel: 'In un pannello'
+      dock: 'In un dock'
+  content:
+    title: 'Mostrato da uno script'
+    body: "Nessuna pagina è stata richiesta al server per questa finestra; lo script che l'ha aperta ha scritto ciò che contiene."
+
+pt_BR:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Uma janela ancorada na parte inferior da tela, ao lado da página e não sobre ela: nada escurece, nada espera, a página permanece utilizável. Seu cabeçalho a dobra para seu título e de volta. Ela recebe uma página que o servidor renderiza — `target: 'dock'` — ou o que um script mostra ali, como um modal e um painel."
+  section:
+    page:
+      description: "Uma página carregada em um dock (`button_target(…, 'dock')`). Abra ambos: eles ficam lado a lado."
+      button: 'Abrir uma página'
+      button_long: 'Abrir uma página longa'
+    content:
+      description: 'O que um script mostra — `showInTarget(app, target, { title, body, actions })` — em um modal, um painel ou um dock: a mesma estrutura que uma página, desenhada no navegador.'
+      modal: 'Em um modal'
+      panel: 'Em um painel'
+      dock: 'Em um dock'
+  content:
+    title: 'Mostrado por um script'
+    body: 'Nenhuma página foi solicitada ao servidor para esta janela; o script que a abriu escreveu o que ela contém.'
+
+tr:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Ekranın altına yerleştirilmiş bir pencere, sayfanın yanında ve onun üstünde değil: hiçbir şey kararmıyor, hiçbir şey beklemiyor, sayfa kullanılabilir durumda kalıyor. Başlığı, onu başlığına katlayarak geri katlar. Sunucunun oluşturduğu bir sayfayı alır — `target: 'dock'` — veya orada gösterilen bir script, modal veya panel gibi."
+  section:
+    page:
+      description: "Bir dock içinde yüklenmiş bir sayfa (`button_target(…, 'dock')`). İkisini de açın: yan yana duruyorlar."
+      button: 'Bir sayfa aç'
+      button_long: 'Uzun bir sayfa aç'
+    content:
+      description: 'Bir scriptin kendisi gösterdiği — `showInTarget(app, target, { title, body, actions })` — bir modalda, bir panelde veya bir dockta: bir sayfanınkiyle aynı şelalede, tarayıcıda çizilmiş.'
+      modal: 'Bir modalda'
+      panel: 'Bir panelde'
+      dock: 'Bir dockta'
+  content:
+    title: 'Bir script tarafından gösterildi'
+    body: 'Bu pencere için sunucudan bir sayfa istenmedi; onu açan script, içinde ne olduğunu yazdı.'
+
+vi:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Một cửa sổ được ghim ở dưới cùng của màn hình, bên cạnh trang mà không che khuất nó: không có gì mờ đi, không có gì chờ đợi, trang vẫn có thể sử dụng. Đầu trang gập lại thành tiêu đề của nó và trở lại. Nó lấy một trang mà máy chủ render — `target: 'dock'` — hoặc những gì một script hiển thị ở đó, như một modal và một panel."
+  section:
+    page:
+      description: "Một trang được tải trong dock (`button_target(…, 'dock')`). Mở cả hai: chúng đứng cạnh nhau."
+      button: 'Mở một trang'
+      button_long: 'Mở một trang dài'
+    content:
+      description: 'Những gì một script tự hiển thị — `showInTarget(app, target, { title, body, actions })` — trong một modal, một panel hoặc một dock: cùng một shell như của trang, được vẽ trong trình duyệt.'
+      modal: 'Trong một modal'
+      panel: 'Trong một panel'
+      dock: 'Trong một dock'
+  content:
+    title: 'Được hiển thị bởi một script'
+    body: 'Không có trang nào được yêu cầu từ máy chủ cho cửa sổ này; script đã mở nó viết những gì nó chứa.'
+
+id:
+  page_title: Dok
+  page_icon: 'ph:bold/rows'
+  intro: "Sebuah jendela yang dipasang di bagian bawah layar, di samping halaman dan tidak menutupi: tidak ada yang redup, tidak ada yang menunggu, halaman tetap dapat digunakan. Header-nya melipat kembali ke judulnya. Ini mengambil halaman yang dirender server — `target: 'dock'` — atau apa yang ditampilkan sebuah skrip di sana, seperti modal dan panel."
+  section:
+    page:
+      description: "Sebuah halaman yang dimuat dalam dock (`button_target(…, 'dock')`). Buka keduanya: mereka berdiri berdampingan."
+      button: 'Buka halaman'
+      button_long: 'Buka halaman panjang'
+    content:
+      description: 'Apa yang ditampilkan sebuah skrip — `showInTarget(app, target, { title, body, actions })` — dalam sebuah modal, panel atau dock: shell yang sama seperti halaman, digambar di browser.'
+      modal: 'Dalam modal'
+      panel: 'Dalam panel'
+      dock: 'Dalam dock'
+  content:
+    title: 'Ditampilkan oleh sebuah skrip'
+    body: 'Tidak ada halaman yang diminta dari server untuk jendela ini; skrip yang membukanya menulis apa yang dipegangnya.'
+
+nl:
+  page_title: Dock
+  page_icon: 'ph:bold/rows'
+  intro: "Een venster dat aan de onderkant van het scherm is bevestigd, naast de pagina en niet eroverheen: niets vervaagt, niets wacht, de pagina blijft bruikbaar. De kop vouwt het terug naar de titel en weer terug. Het neemt een pagina die de server rendert — `target: 'dock'` — of wat een script daar laat zien, zoals een modal en een paneel."
+  section:
+    page:
+      description: "Een pagina geladen in een dock (`button_target(…, 'dock')`). Open beide: ze staan naast elkaar."
+      button: 'Open een pagina'
+      button_long: 'Open een lange pagina'
+    content:
+      description: 'Wat een script zelf laat zien — `showInTarget(app, target, { title, body, actions })` — in een modal, een paneel of een dock: dezelfde shell als die van een pagina, weergegeven in de browser.'
+      modal: 'In een modal'
+      panel: 'In een paneel'
+      dock: 'In een dock'
+  content:
+    title: 'Getoond door een script'
+    body: 'Geen pagina werd aan de server gevraagd voor dit venster; het script dat het opende schreef wat het bevat.'

@@ -104,13 +104,27 @@ bn:
       title: 'শিরোনামসহ টুলবার'
     title_multi:
       title: 'ক্রিয়াকলাপসহ বিভাগীয় শিরোনাম'
+    fields:
+      title: 'একটি বারের ক্ষেত্র'
+      description: 'একটি সম্পাদকদের বিকল্পের বারের মধ্যে বোতামের পাশাপাশি কি থাকে: একটি আকার, একটি মোড, একটি টগল, একটি পছন্দ, একটি অনুসন্ধান এবং তার বোতাম। প্রতিটি বারের নিয়ন্ত্রণের উচ্চতায় দাঁড়ায়, তাই একটি সংক্ষিপ্ত বার তার পুরুত্ব বজায় রাখে; একটি ক্ষেত্র এবং এর কার্যকলাপ একসাথে (ফর্ম--ইনলাইন) বারের জন্য স্থান নেয়।'
   title:
     example: 'পৃষ্ঠার শিরোনাম'
     section: 'বিভাগের শিরোনাম'
     document: 'ডিজাইন এবং উন্নয়ন'
   marker:
     state: সবুজ
+  field:
+    size: আকার
+    mode: মোড
+    mode_normal: সাধারণ
+    mode_multiply: গুণিতক
+    snap: স্ন্যাপ
+    preview: পূর্বরূপ
+    search: অনুসন্ধান
+    message: বার্তা
   button:
+    search: অনুসন্ধান
+    send: পাঠান
     create: 'তৈরি করুন'
     refresh: 'রিফ্রেশ করুন'
     export: 'রপ্তানি করুন'
@@ -133,13 +147,27 @@ de:
       title: 'Werkzeugleiste mit Titel'
     title_multi:
       title: 'Abschnittsüberschrift mit Aktionen'
+    fields:
+      title: 'Felder in einer Leiste'
+      description: 'Was die Optionsleiste eines Editors neben Schaltflächen enthält: eine Größe, einen Modus, einen Schalter, eine Auswahl, eine Suche und deren Schaltfläche. Jede steht auf der Höhe der Steuerelemente der Leiste, sodass eine kompakte Leiste ihre Dicke beibehält; ein Feld und seine Aktion zusammen (Formular--inline) nehmen den Raum ein, den die Leiste lässt.'
   title:
     example: Seitentitel
     section: Abschnittsüberschrift
     document: 'Design und Entwicklung'
   marker:
     state: evergreen
+  field:
+    size: Größe
+    mode: Modus
+    mode_normal: Normal
+    mode_multiply: Multiplizieren
+    snap: Einrasten
+    preview: Vorschau
+    search: Suche
+    message: Nachricht
   button:
+    search: Suche
+    send: Senden
     create: Erstellen
     refresh: Aktualisieren
     export: Exportieren
@@ -162,13 +190,27 @@ es:
       title: 'Barra de herramientas con título'
     title_multi:
       title: 'Título de sección con acciones'
+    fields:
+      title: 'Campos en una barra'
+      description: 'Lo que contiene la barra de opciones de un editor además de botones: un tamaño, un modo, un interruptor, una elección, una búsqueda y su botón. Cada uno se sitúa a la altura de los controles de la barra, por lo que una barra compacta mantiene su grosor; un campo y su acción juntos (form--inline) ocupan el espacio que deja la barra.'
   title:
     example: 'Título de página'
     section: 'Título de sección'
     document: 'Diseño y desarrollo'
   marker:
     state: 'siempre verde'
+  field:
+    size: Tamaño
+    mode: Modo
+    mode_normal: Normal
+    mode_multiply: Multiplicar
+    snap: Ajustar
+    preview: 'Vista previa'
+    search: Buscar
+    message: Mensaje
   button:
+    search: Buscar
+    send: Enviar
     create: Crear
     refresh: Actualizar
     export: Exportar
@@ -191,13 +233,27 @@ fa:
       title: 'نوار ابزاری با عنوان'
     title_multi:
       title: 'عنوان بخش با عملیات'
+    fields:
+      title: 'فیلدها در نوار'
+      description: 'آنچه نوار گزینه‌های ویرایشگر غیر از دکمه‌ها دارد: یک اندازه، یک حالت، یک تغییر حالت، یک انتخاب، یک جستجو و دکمه‌اش. هر کدام در ارتفاع کنترل‌های نوار قرار دارد، بنابراین یک نوار فشرده ضخامت خود را حفظ می‌کند؛ یک فیلد و اقدام آن با هم (فرم--درون‌خط) فضایی را که نوار باقی می‌گذارد، اشغال می‌کنند.'
   title:
     example: 'عنوان صفحه'
     section: 'عنوان بخش'
     document: 'طراحی و توسعه'
   marker:
     state: 'همیشه سبز'
+  field:
+    size: اندازه
+    mode: حالت
+    mode_normal: عادی
+    mode_multiply: ضرب
+    snap: چسباندن
+    preview: پیش‌نمایش
+    search: جستجو
+    message: پیام
   button:
+    search: جستجو
+    send: ارسال
     create: ایجاد
     refresh: به‌روزرسانی
     export: 'صادر کردن'
@@ -220,13 +276,27 @@ fi:
       title: 'Työkalupalkki otsikolla'
     title_multi:
       title: 'Osion otsikko toiminnoilla'
+    fields:
+      title: 'Kentät työkalurivissä'
+      description: 'Mitä editorin vaihtoehtojen työkalurivi pitää sisällään nappien lisäksi: koko, tila, kytkin, valinta, haku ja sen painike. Jokainen on työkalurivin hallintojen korkeudella, joten kompakti työkalurivi säilyttää paksuutensa; kenttä ja sen toiminto yhdessä (lomake--inline) vievät tilan, jonka työkalurivi jättää.'
   title:
     example: 'Sivun otsikko'
     section: 'Osion otsikko'
     document: 'Suunnittelu ja kehitys'
   marker:
     state: ikivihreä
+  field:
+    size: Koko
+    mode: Tila
+    mode_normal: Normaali
+    mode_multiply: Kerro
+    snap: Liitä
+    preview: Esikatselu
+    search: Haku
+    message: Viesti
   button:
+    search: Haku
+    send: Lähetä
     create: Luo
     refresh: Päivitä
     export: Vie
@@ -292,13 +362,27 @@ he:
       title: 'סרגל כלים עם כותרת'
     title_multi:
       title: 'כותרת סעיף עם פעולות'
+    fields:
+      title: 'שדות בשורת כלים'
+      description: 'מה שיש בשורת האפשרויות של העורך מעבר לכפתורים: גודל, מצב, מתג, אפשרות, חיפוש וכפתור החיפוש. כל אחד מהם נמצא בגובה של בקרי השורה, כך ששורה קומפקטית שומרת על העובי שלה; שדה והפעולה שלו יחד (טופס--בפנים) תופסים את המקום שהשורה משאירה.'
   title:
     example: 'כותרת עמוד'
     section: 'כותרת סעיף'
     document: 'עיצוב ופיתוח'
   marker:
     state: 'ירוק תמיד'
+  field:
+    size: גודל
+    mode: מצב
+    mode_normal: רגיל
+    mode_multiply: כפל
+    snap: הצמד
+    preview: 'תצוגה מקדימה'
+    search: חיפוש
+    message: הודעה
   button:
+    search: חיפוש
+    send: שלח
     create: צור
     refresh: רענן
     export: ייצא
@@ -321,13 +405,27 @@ hi:
       title: 'शीर्षक के साथ टूलबार'
     title_multi:
       title: 'कार्रवाइयों के साथ अनुभाग शीर्षक'
+    fields:
+      title: 'बार में फ़ील्ड्स'
+      description: 'एक संपादक के विकल्पों की पट्टी में बटन के अलावा क्या है: एक आकार, एक मोड, एक टॉगल, एक विकल्प, एक खोज और इसका बटन। प्रत्येक बार के नियंत्रणों की ऊंचाई पर होता है, इसलिए एक कॉम्पैक्ट बार अपनी मोटाई बनाए रखता है; एक फ़ील्ड और इसकी क्रिया (फॉर्म--इनलाइन) बार द्वारा छोड़े गए स्थान को लेती है।'
   title:
     example: 'पृष्ठ शीर्षक'
     section: 'अनुभाग शीर्षक'
     document: 'डिजाइन और विकास'
   marker:
     state: हरित
+  field:
+    size: आकार
+    mode: मोड
+    mode_normal: सामान्य
+    mode_multiply: गुणा
+    snap: स्नैप
+    preview: पूर्वावलोकन
+    search: खोज
+    message: संदेश
   button:
+    search: खोजें
+    send: भेजें
     create: 'निर्माण करें'
     refresh: 'ताज़ा करें'
     export: 'निर्यात करें'
@@ -350,13 +448,27 @@ id:
       title: 'Toolbar dengan judul'
     title_multi:
       title: 'Judul bagian dengan tindakan'
+    fields:
+      title: 'Bidang dalam bilah'
+      description: 'Apa yang dimiliki bilah opsi editor selain tombol: ukuran, mode, toggle, pilihan, pencarian dan tombolnya. Masing-masing berdiri pada ketinggian kontrol bilah, sehingga bilah yang kompak mempertahankan ketebalannya; sebuah bidang dan aksinya bersama (form--inline) mengambil ruang yang ditinggalkan oleh bilah.'
   title:
     example: 'Judul halaman'
     section: 'Judul bagian'
     document: 'Desain dan pengembangan'
   marker:
     state: evergreen
+  field:
+    size: Ukuran
+    mode: Mode
+    mode_normal: Normal
+    mode_multiply: Mengalikan
+    snap: Snap
+    preview: Pratinjau
+    search: Cari
+    message: Pesan
   button:
+    search: Cari
+    send: Kirim
     create: Buat
     refresh: Segarkan
     export: Ekspor
@@ -379,13 +491,27 @@ it:
       title: 'Barra degli strumenti con titolo'
     title_multi:
       title: 'Titolo della sezione con azioni'
+    fields:
+      title: 'Campi in una barra'
+      description: "Cosa contiene una barra di opzioni di un editor oltre ai pulsanti: una dimensione, una modalità, un interruttore, una scelta, una ricerca e il suo pulsante. Ognuno si trova all'altezza dei controlli della barra, quindi una barra compatta mantiene il suo spessore; un campo e la sua azione insieme (form--inline) occupano lo spazio lasciato dalla barra."
   title:
     example: 'Titolo della pagina'
     section: 'Titolo della sezione'
     document: 'Progettazione e sviluppo'
   marker:
     state: evergreen
+  field:
+    size: Dimensione
+    mode: Modalità
+    mode_normal: Normale
+    mode_multiply: Moltiplica
+    snap: Snap
+    preview: Anteprima
+    search: Cerca
+    message: Messaggio
   button:
+    search: Cerca
+    send: Invia
     create: Crea
     refresh: Aggiorna
     export: Esporta
@@ -408,13 +534,27 @@ ja:
       title: タイトル付きツールバー
     title_multi:
       title: アクション付きセクションタイトル
+    fields:
+      title: バーのフィールド
+      description: 'エディタのオプションバーがボタンの他に持つもの: サイズ、モード、トグル、選択肢、検索とそのボタン。各項目はバーのコントロールの高さに合わせて配置されるため、コンパクトなバーはその厚さを保ちます。フィールドとそのアクションが一緒になる（フォーム--インライン）と、バーが残すスペースを占有します。'
   title:
     example: ページタイトル
     section: セクションタイトル
     document: デザインと開発
   marker:
     state: 常緑
+  field:
+    size: サイズ
+    mode: モード
+    mode_normal: 通常
+    mode_multiply: 乗算
+    snap: スナップ
+    preview: プレビュー
+    search: 検索
+    message: メッセージ
   button:
+    search: 検索
+    send: 送信
     create: 作成
     refresh: 更新
     export: エクスポート
@@ -437,13 +577,27 @@ ko:
       title: '제목이 있는 툴바'
     title_multi:
       title: '작업이 있는 섹션 제목'
+    fields:
+      title: '바의 필드'
+      description: '편집자의 옵션 바에 버튼 외에 무엇이 포함되는지: 크기, 모드, 토글, 선택, 검색 및 그 버튼. 각 항목은 바의 컨트롤 높이에 위치하므로, 컴팩트 바는 두께를 유지합니다; 필드와 그 동작이 함께(양식--인라인) 바가 남긴 공간을 차지합니다.'
   title:
     example: '페이지 제목'
     section: '섹션 제목'
     document: '디자인 및 개발'
   marker:
     state: 영원한
+  field:
+    size: 크기
+    mode: 모드
+    mode_normal: 일반
+    mode_multiply: 곱하기
+    snap: 스냅
+    preview: 미리보기
+    search: 검색
+    message: 메시지
   button:
+    search: 검색
+    send: 전송
     create: 생성
     refresh: '새로 고침'
     export: 내보내기
@@ -466,13 +620,27 @@ nl:
       title: 'Werkbalk met titel'
     title_multi:
       title: 'Sectietitel met acties'
+    fields:
+      title: 'Velden in een balk'
+      description: 'Wat een editorbalk met opties bevat naast knoppen: een grootte, een modus, een schakelaar, een keuze, een zoekopdracht en de bijbehorende knop. Elk staat op de hoogte van de bedieningselementen van de balk, zodat een compacte balk zijn dikte behoudt; een veld en zijn actie samen (formulier--inline) nemen de ruimte in die de balk laat.'
   title:
     example: Paginatitel
     section: Sectietitel
     document: 'Ontwerp en ontwikkeling'
   marker:
     state: evergreen
+  field:
+    size: Grootte
+    mode: Modus
+    mode_normal: Normaal
+    mode_multiply: Vermenigvuldigen
+    snap: Vastzetten
+    preview: Voorbeeld
+    search: Zoeken
+    message: Bericht
   button:
+    search: Zoeken
+    send: Verzenden
     create: Aanmaken
     refresh: Vernieuwen
     export: Exporteren
@@ -495,13 +663,27 @@ pl:
       title: 'Pasek narzędzi z tytułem'
     title_multi:
       title: 'Tytuł sekcji z akcjami'
+    fields:
+      title: 'Pola na pasku'
+      description: 'Co znajduje się w pasku opcji edytora oprócz przycisków: rozmiar, tryb, przełącznik, wybór, wyszukiwanie i jego przycisk. Każdy znajduje się na wysokości kontrolek paska, więc kompaktowy pasek utrzymuje swoją grubość; pole i jego akcja razem (formularz--inline) zajmują miejsce, które zostawia pasek.'
   title:
     example: 'Tytuł strony'
     section: 'Tytuł sekcji'
     document: 'Projektowanie i rozwój'
   marker:
     state: evergreen
+  field:
+    size: Rozmiar
+    mode: Tryb
+    mode_normal: Normalny
+    mode_multiply: Mnożenie
+    snap: Przypnij
+    preview: Podgląd
+    search: Szukaj
+    message: Wiadomość
   button:
+    search: Szukaj
+    send: Wyślij
     create: Utwórz
     refresh: Odśwież
     export: Eksportuj
@@ -524,13 +706,27 @@ pt_BR:
       title: 'Barra de ferramentas com título'
     title_multi:
       title: 'Título da seção com ações'
+    fields:
+      title: 'Campos em uma barra'
+      description: 'O que uma barra de opções de editor contém além de botões: um tamanho, um modo, um alternador, uma escolha, uma busca e seu botão. Cada um está na altura dos controles da barra, então uma barra compacta mantém sua espessura; um campo e sua ação juntos (formulário--inline) ocupam o espaço que a barra deixa.'
   title:
     example: 'Título da página'
     section: 'Título da seção'
     document: 'Design e desenvolvimento'
   marker:
     state: evergreen
+  field:
+    size: Tamanho
+    mode: Modo
+    mode_normal: Normal
+    mode_multiply: Multiplicar
+    snap: Snap
+    preview: Pré-visualização
+    search: Buscar
+    message: Mensagem
   button:
+    search: Buscar
+    send: Enviar
     create: Criar
     refresh: Atualizar
     export: Exportar
@@ -553,13 +749,27 @@ ru:
       title: 'Панель инструментов с заголовком'
     title_multi:
       title: 'Заголовок секции с действиями'
+    fields:
+      title: 'Поля в панели'
+      description: 'Что содержит панель опций редактора кроме кнопок: размер, режим, переключатель, выбор, поиск и его кнопку. Каждый элемент находится на уровне элементов управления панели, поэтому компактная панель сохраняет свою толщину; поле и его действие вместе (форма--встраиваемая) занимают пространство, оставляемое панелью.'
   title:
     example: 'Заголовок страницы'
     section: 'Заголовок секции'
     document: 'Дизайн и разработка'
   marker:
     state: вечнозеленый
+  field:
+    size: Размер
+    mode: Режим
+    mode_normal: Обычный
+    mode_multiply: Умножить
+    snap: Закрепить
+    preview: 'Предварительный просмотр'
+    search: Поиск
+    message: Сообщение
   button:
+    search: Поиск
+    send: Отправить
     create: Создать
     refresh: Обновить
     export: Экспортировать
@@ -582,13 +792,27 @@ th:
       title: แถบเครื่องมือพร้อมหัวข้อ
     title_multi:
       title: หัวข้อส่วนที่มีการกระทำ
+    fields:
+      title: ฟิลด์ในแถบ
+      description: 'สิ่งที่แถบตัวเลือกของผู้แก้ไขมีนอกจากปุ่ม: ขนาด, โหมด, สลับ, ตัวเลือก, การค้นหาและปุ่มของมัน ทุกอย่างอยู่ในระดับความสูงของการควบคุมในแถบ ดังนั้นแถบที่กะทัดรัดจึงรักษาความหนาไว้; ฟิลด์และการกระทำของมันร่วมกัน (ฟอร์ม--ในบรรทัด) จะใช้พื้นที่ที่แถบทิ้งไว้.'
   title:
     example: ชื่อหน้า
     section: ชื่อส่วน
     document: การออกแบบและพัฒนา
   marker:
     state: evergreen
+  field:
+    size: ขนาด
+    mode: โหมด
+    mode_normal: ปกติ
+    mode_multiply: คูณ
+    snap: จับ
+    preview: ตัวอย่าง
+    search: ค้นหา
+    message: ข้อความ
   button:
+    search: ค้นหา
+    send: ส่ง
     create: สร้าง
     refresh: รีเฟรช
     export: ส่งออก
@@ -611,13 +835,27 @@ tr:
       title: 'Başlıklı araç çubuğu'
     title_multi:
       title: 'Eylemlerle bölüm başlığı'
+    fields:
+      title: 'Bir çubuktaki Alanlar'
+      description: 'Bir editörün seçenek çubuğunda düğmelerin yanı sıra neler bulunur: bir boyut, bir mod, bir anahtar, bir seçim, bir arama ve onun düğmesi. Her biri çubuğun kontrol yüksekliğinde yer alır, bu nedenle kompakt bir çubuk kalınlığını korur; bir alan ve eylemi birlikte (form--inline) çubuğun bıraktığı yeri kaplar.'
   title:
     example: 'Sayfa başlığı'
     section: 'Bölüm başlığı'
     document: 'Tasarım ve geliştirme'
   marker:
     state: 'her zaman yeşil'
+  field:
+    size: Boyut
+    mode: Mod
+    mode_normal: Normal
+    mode_multiply: Çarp
+    snap: Snap
+    preview: Önizleme
+    search: Ara
+    message: Mesaj
   button:
+    search: Ara
+    send: Gönder
     create: Oluştur
     refresh: Yenile
     export: 'Dışa aktar'
@@ -640,13 +878,27 @@ ur:
       title: 'عنوان کے ساتھ ٹول بار'
     title_multi:
       title: 'عمل کے ساتھ سیکشن کا عنوان'
+    fields:
+      title: 'بار میں فیلڈز'
+      description: 'ایک ایڈیٹر کے اختیارات کی بار میں بٹنوں کے علاوہ کیا ہوتا ہے: ایک سائز، ایک موڈ، ایک ٹوگل، ایک انتخاب، ایک تلاش اور اس کا بٹن۔ ہر ایک بار کے کنٹرول کی اونچائی پر ہوتا ہے، لہذا ایک کمپیکٹ بار اپنی موٹائی برقرار رکھتا ہے؛ ایک فیلڈ اور اس کا عمل ایک ساتھ (فارم--ان لائن) بار کی جگہ لیتے ہیں۔'
   title:
     example: 'صفحات کا عنوان'
     section: 'سیکشن کا عنوان'
     document: 'ڈیزائن اور ترقی'
   marker:
     state: 'ہمیشہ سبز'
+  field:
+    size: سائز
+    mode: موڈ
+    mode_normal: نارمل
+    mode_multiply: ضرب
+    snap: سنیپ
+    preview: 'پیش نظارہ'
+    search: تلاش
+    message: پیغام
   button:
+    search: تلاش
+    send: بھیجیں
     create: 'تخلیق کریں'
     refresh: 'تازہ کریں'
     export: 'برآمد کریں'
@@ -669,13 +921,27 @@ vi:
       title: 'Thanh công cụ với tiêu đề'
     title_multi:
       title: 'Tiêu đề phần với các hành động'
+    fields:
+      title: 'Các trường trong thanh'
+      description: 'Những gì mà thanh tùy chọn của một trình chỉnh sửa chứa đựng bên cạnh các nút: một kích thước, một chế độ, một công tắc, một lựa chọn, một tìm kiếm và nút của nó. Mỗi mục đứng ở độ cao của các điều khiển trong thanh, vì vậy một thanh gọn gàng giữ độ dày của nó; một trường và hành động của nó cùng nhau (form--inline) chiếm không gian mà thanh để lại.'
   title:
     example: 'Tiêu đề trang'
     section: 'Tiêu đề phần'
     document: 'Thiết kế và phát triển'
   marker:
     state: evergreen
+  field:
+    size: 'Kích thước'
+    mode: 'Chế độ'
+    mode_normal: 'Bình thường'
+    mode_multiply: Nhân
+    snap: Ghim
+    preview: 'Xem trước'
+    search: 'Tìm kiếm'
+    message: 'Tin nhắn'
   button:
+    search: 'Tìm kiếm'
+    send: Gửi
     create: Tạo
     refresh: 'Tải lại'
     export: Xuất

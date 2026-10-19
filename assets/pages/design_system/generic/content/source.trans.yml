@@ -61,3 +61,288 @@ ar:
       description: '`source-findings`: يؤدي النقر على اكتشاف إلى وضعه في وسط المصدر، المكان المُشار إليه في المصدر يضيء اكتشافه. عمود تحت الآخر حيث المساحة ضيقة.'
   finding:
     message: '« بشكل أساسي » لا تقول شيئًا: الجملة تُقرأ بنفس الشكل دونها.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: स्रोत
+  page_icon: 'ph:bold/code'
+  intro: 'एक पाठ जिसे उसके स्रोत के रूप में पढ़ा जाता है, उस पर अंकित एक नियम: प्रत्येक स्थान इसकी गंभीरता में रंगा हुआ, उसकी पंक्ति पर किनारे पर एक निशान, संदेश और नियम संकेतक के नीचे। केवल स्रोत पर - एक प्रदर्शित पूर्वावलोकन इनमें से कोई नहीं दिखाता: एक पक्ष पर पढ़ता है और दूसरे पर सुधारता है।'
+  section:
+    source:
+      title: 'एक टिप्पणी किए गए स्रोत'
+      description: '`source-view`: एक पाठ, इसकी भाषा, और टिप्पणियाँ `{ line, column, end_line, end_column, severity, message, code }` — 1-आधारित, अंत विशेष, जैसे कि फ़ाइल राज्य के फैसले उन्हें देते हैं। `code-input` का संपादक, केवल पढ़ने के लिए।'
+    sided:
+      title: 'स्रोत और निष्कर्ष एक साथ'
+      description: '`source-findings`: एक क्लिक किया गया निष्कर्ष इसे स्रोत के मध्य में लाता है, स्रोत में एक स्थान पर इंगित किया गया स्थान उसके निष्कर्ष को उजागर करता है। एक कॉलम दूसरे के नीचे जहाँ जगह तंग है।'
+  finding:
+    message: '« मूलतः » कुछ नहीं कहता: वाक्य इसके बिना भी वही पढ़ा जाता है।'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: מקור
+  page_icon: 'ph:bold/code'
+  intro: 'טקסט שנקרא כמקור, מה שחוק שנמצא בו מציין עליו: כל מקום שהוטל בו חמרה, סימן בשוליים על השורה שלו, ההודעה והחוק מתחת לסמן. רק על המקור — תצוגה מוקרנת לא מראה מזה: אחד קורא בצד אחד ומתקן בצד השני.'
+  section:
+    source:
+      title: 'מקור עם הערות'
+      description: '`source-view`: טקסט, השפה שלו והערות `{ line, column, end_line, end_column, severity, message, code }` — מבוסס על 1, הסוף לא כולל, כפי שפסיקות מצב הקובץ נותנות להם. העורך של `code-input`, קריאה בלבד.'
+    sided:
+      title: 'מקור וממצאים זה לצד זה'
+      description: '`source-findings`: מציאה שנלחצה מביאה את מקומה לאמצע המקור, מקום שמצוין במקור מדגיש את הממצא שלה. עמודה מתחת לשנייה היכן שהמרחב צר.'
+  finding:
+    message: '« באופן בסיסי » לא אומר כלום: המשפט נשאר אותו דבר בלעדיו.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: منبع
+  page_icon: 'ph:bold/code'
+  intro: 'متنی که به عنوان منبع خوانده می‌شود، قانونی که در آن یافت شده و بر روی آن علامت‌گذاری شده: هر نقطه‌ای که در شدت آن رنگی شده، علامتی در حاشیه خط آن، پیام و قانون زیر نشانگر. فقط در منبع — پیش‌نمایش ایجاد شده هیچ‌کدام از آن‌ها را نشان نمی‌دهد: یک طرف خوانده می‌شود و طرف دیگر تصحیح می‌شود.'
+  section:
+    source:
+      title: 'یک منبع حاشیه‌نویسی شده'
+      description: '`source-view`: متنی، زبان آن و حاشیه‌نویسی‌ها `{ line, column, end_line, end_column, severity, message, code }` — بر اساس ۱، انتها شامل نمی‌شود، همان‌طور که احکام filestate آن‌ها را می‌دهد. ویرایشگر `code-input`، فقط خواندنی است.'
+    sided:
+      title: 'منبع و یافته‌ها در کنار هم'
+      description: '`source-findings`: یک یافته کلیک شده، مکان آن را به وسط منبع می‌آورد، مکانی که در منبع به آن اشاره شده، یافته آن را روشن می‌کند. یک ستون زیر دیگری که در آن فضا تنگ است.'
+  finding:
+    message: '« اساساً » چیزی نمی‌گوید: جمله بدون آن هم به همان شکل خوانده می‌شود.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ماخذ
+  page_icon: 'ph:bold/code'
+  intro: 'ایک متن جو اپنے ماخذ کے طور پر پڑھا جاتا ہے، اس میں ایک قاعدہ جو اس پر نشان زد ہے: ہر جگہ اپنی شدت میں رنگین، اس کی لائن پر گٹر میں ایک نشان، پیغام اور قاعدہ اشارے کے نیچے۔ صرف ماخذ پر — ایک رینڈر کردہ پیش نظارہ اس میں سے کچھ نہیں دکھاتا: ایک طرف پڑھتا ہے اور دوسری طرف درست کرتا ہے۔'
+  section:
+    source:
+      title: 'ایک تشریح شدہ ماخذ'
+      description: '`source-view`: ایک متن، اس کی زبان، اور تشریحات `{ line, column, end_line, end_column, severity, message, code }` — 1-based، ختم خصوصی، جیسے filestate کے فیصلے انہیں دیتے ہیں۔ `code-input` کا ایڈیٹر، صرف پڑھنے کے لیے۔'
+    sided:
+      title: 'ماخذ اور نتائج ایک ساتھ'
+      description: '`source-findings`: ایک تلاش جس پر کلک کیا گیا اس کی جگہ ماخذ کے بیچ لاتی ہے، ماخذ میں ایک جگہ جو اس کی تلاش کو روشنی دیتی ہے۔ ایک کالم دوسرے کے نیچے جہاں جگہ تنگ ہے۔'
+  finding:
+    message: '« بنیادی طور پر » کچھ نہیں کہتا: جملہ اس کے بغیر بھی ویسا ہی پڑھتا ہے۔'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ソース
+  page_icon: 'ph:bold/code'
+  intro: 'ソースとして読まれるテキスト、それにマークされたルール：その厳しさで色づけされた各場所、行の隅にあるマーク、ポインタの下にあるメッセージとルール。ソース上だけで — レンダリングされたプレビューにはそれが表示されない：一方で読み、一方で修正する。'
+  section:
+    source:
+      title: 注釈付きソース
+      description: '`source-view`: テキスト、その言語、および注釈 `{ line, column, end_line, end_column, severity, message, code }` — 1始まり、終了は含まれない、filestateの判定によって与えられる。`code-input`のエディタ、読み取り専用。'
+    sided:
+      title: ソースと発見を並べて表示
+      description: '`source-findings`: クリックされた発見がソースの中央にその位置を持ってきて、ソースで指摘された場所がその発見を照らす。狭い場所では一列の下にもう一列。'
+  finding:
+    message: '« 基本的に » 何も言っていない：その文はそれなしでも同じように読まれる。'
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 소스
+  page_icon: 'ph:bold/code'
+  intro: '소스로 읽어지는 텍스트, 그 안에 발견된 규칙이 표시된 것: 심각성에 따라 채색된 각 장소, 줄의 여백에 있는 표시, 포인터 아래의 메시지와 규칙. 오직 소스에서만 — 렌더링된 미리보기에는 그 어떤 것도 표시되지 않음: 한쪽에서 읽고 다른 쪽에서 수정함.'
+  section:
+    source:
+      title: '주석이 달린 소스'
+      description: '`source-view`: 텍스트, 그 언어, 주석 `{ line, column, end_line, end_column, severity, message, code }` — 1 기반, 끝은 제외, filestate의 판결이 이를 제공함. `code-input`의 편집기, 읽기 전용.'
+    sided:
+      title: '소스와 발견 결과를 나란히'
+      description: '`source-findings`: 클릭한 발견이 소스의 중앙으로 그 위치를 가져오고, 소스에서 가리킨 위치가 그 발견을 비춥니다. 공간이 좁을 때는 한 열 아래에 다른 열이 있습니다.'
+  finding:
+    message: '« 기본적으로 »는 아무것도 말하지 않음: 문장은 그것 없이도 동일하게 읽힘.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: সোর্স
+  page_icon: 'ph:bold/code'
+  intro: 'একটি লেখাকে তার সোর্স হিসেবে পড়া হয়, যা একটি নিয়ম সেখানে চিহ্নিত করে: প্রতিটি স্থানে তার গম্ভীরতা অনুযায়ী রঙ করা, তার লাইনের গাটারে একটি চিহ্ন, এবং পয়েন্টারের নিচে বার্তা এবং নিয়ম। শুধুমাত্র সোর্সে — একটি রেন্ডার করা প্রিভিউ এতে কিছুই দেখায় না: একজন এক পাশে পড়ে এবং অন্য পাশে সংশোধন করে।'
+  section:
+    source:
+      title: 'একটি মন্তব্য করা সোর্স'
+      description: '`source-view`: একটি লেখা, এর ভাষা, এবং মন্তব্য `{ line, column, end_line, end_column, severity, message, code }` — ১-ভিত্তিক, শেষ এক্সক্লুসিভ, যেমন ফাইলের রায়গুলো দেয়। `code-input` এর সম্পাদক, কেবল পড়ার জন্য।'
+    sided:
+      title: 'সোর্স এবং অনুসন্ধান পাশের দিকে'
+      description: '`source-findings`: একটি ক্লিক করা অনুসন্ধান সোর্সের মাঝের স্থানে নিয়ে আসে, সোর্সে একটি স্থানে নির্দেশ করা অনুসন্ধানটি তার আলোকিত করে। যেখানে জায়গা সংকীর্ণ, এক কলাম অন্যটির নিচে।'
+  finding:
+    message: '« মূলত » কিছুই বলে না: বাক্যটি এর ছাড়া একইভাবে পড়া হয়।'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: ต้นทาง
+  page_icon: 'ph:bold/code'
+  intro: 'ข้อความที่อ่านว่าเป็นต้นทาง สิ่งที่กฎพบในนั้นถูกทำเครื่องหมายไว้: ทุกที่ที่มีสีเข้มตามความรุนแรงของมัน เครื่องหมายในขอบด้านข้างของบรรทัด ข้อความและกฎอยู่ใต้ตัวชี้ สิ่งนี้จะเกิดขึ้นเฉพาะในต้นทาง — ตัวอย่างที่ถูกสร้างขึ้นจะแสดงไม่มีสิ่งนี้: หนึ่งอ่านจากด้านหนึ่งและแก้ไขจากอีกด้านหนึ่ง.'
+  section:
+    source:
+      title: ต้นทางที่มีการอธิบาย
+      description: '`source-view`: ข้อความ ภาษา และการอธิบาย `{ line, column, end_line, end_column, severity, message, code }` — เริ่มนับจาก 1, จุดสิ้นสุดไม่รวมอยู่ ตามคำตัดสินของสถานะไฟล์ ผู้แก้ไขของ `code-input`, อ่านได้เท่านั้น.'
+    sided:
+      title: ต้นทางและการค้นพบอยู่ข้างกัน
+      description: '`source-findings`: การค้นพบที่คลิกจะนำตำแหน่งของมันไปยังกลางของต้นทาง ตำแหน่งที่ชี้ไปในต้นทางจะส่องสว่างการค้นพบของมัน คอลัมน์หนึ่งอยู่ใต้คอลัมน์อื่นเมื่อพื้นที่แคบ.'
+  finding:
+    message: '« basically » ไม่ได้บอกอะไร: ประโยคอ่านเหมือนเดิมแม้ไม่มีมัน.'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Quelle
+  page_icon: 'ph:bold/code'
+  intro: 'Ein Text, der als seine Quelle gelesen wird, was eine Regel, die darin gefunden wurde, markiert hat: jeder Ort in seiner Schwere gefärbt, eine Markierung im Rand auf seiner Zeile, die Nachricht und die Regel unter dem Zeiger. Nur immer an der Quelle – eine gerenderte Vorschau zeigt nichts davon: man liest auf der einen Seite und korrigiert auf der anderen.'
+  section:
+    source:
+      title: 'Eine annotierte Quelle'
+      description: '`source-view`: ein Text, seine Sprache und Annotationen `{ line, column, end_line, end_column, severity, message, code }` — 1-basiert, das Ende exklusiv, wie die Urteile von filestate sie geben. Der Editor von `code-input`, nur lesbar.'
+    sided:
+      title: 'Quelle und Ergebnisse nebeneinander'
+      description: '`source-findings`: ein angeklicktes Ergebnis bringt seinen Platz in die Mitte der Quelle, ein Ort, der in der Quelle gezeigt wird, beleuchtet sein Ergebnis. Eine Spalte unter der anderen, wo der Platz eng ist.'
+  finding:
+    message: '« basically » sagt nichts: der Satz liest sich ohne ihn gleich.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Lähde
+  page_icon: 'ph:bold/code'
+  intro: 'Teksti, joka luetaan lähteenä, mitä sääntöä siinä on merkitty: jokainen paikka värjätty sen vakavuudessa, merkki gutterissa sen rivillä, viesti ja sääntö osoittimen alla. Aina vain lähteellä — renderöity esikatselu ei näytä mitään siitä: luetaan yhdeltä puolelta ja korjataan toiselta.'
+  section:
+    source:
+      title: 'Merkitty lähde'
+      description: '`source-view`: teksti, sen kieli ja merkinnät `{ line, column, end_line, end_column, severity, message, code }` — 1-pohjainen, loppu eksklusiivinen, kuten filestaten tuomiot antavat. `code-input`-editori, vain luku.'
+    sided:
+      title: 'Lähde ja löydökset vierekkäin'
+      description: '`source-findings`: klikkaamalla löydöstä tuo sen paikan lähteen keskelle, paikka, jota lähteessä osoitetaan, valaisee sen löydöksen. Yksi sarake toisen alla, kun tila on kapea.'
+  finding:
+    message: '« basically » ei sano mitään: lause kuuluu samoin ilman sitä.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Источник
+  page_icon: 'ph:bold/code'
+  intro: 'Текст, читаемый как источник, что правило, найденное в нем, отмечено на нем: каждое место окрашено в свою строгость, отметка в поле на строке, сообщение и правило под указателем. Только на источнике — сгенерированный предварительный просмотр не показывает этого: читается с одной стороны и исправляется с другой.'
+  section:
+    source:
+      title: 'Аннотированный источник'
+      description: '`source-view`: текст, его язык и аннотации `{ line, column, end_line, end_column, severity, message, code }` — с единицы, конец исключается, как решения filestate их дают. Редактор `code-input`, только для чтения.'
+    sided:
+      title: 'Источник и результаты рядом'
+      description: '`source-findings`: клик по результату приносит его место в центр источника, место, на которое указывает в источнике, освещает его результат. Один столбец под другим, где место узкое.'
+  finding:
+    message: '« по сути » ничего не говорит: предложение читается одинаково без него.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Źródło
+  page_icon: 'ph:bold/code'
+  intro: 'Tekst odczytywany jako jego źródło, co zasada znaleziona w nim oznacza: każde miejsce zabarwione w swojej surowości, znak w marginesie na jego linii, wiadomość i zasada pod wskaźnikiem. Tylko na źródle — renderowany podgląd nie pokazuje nic z tego: czyta się z jednej strony i poprawia z drugiej.'
+  section:
+    source:
+      title: 'Zanotowane źródło'
+      description: '`source-view`: tekst, jego język i adnotacje `{ line, column, end_line, end_column, severity, message, code }` — liczba bazująca na 1, koniec wykluczony, jak wyrok stanu pliku je daje. Edytor `code-input`, tylko do odczytu.'
+    sided:
+      title: 'Źródło i ustalenia obok siebie'
+      description: '`source-findings`: kliknięcie w ustalenie przynosi jego miejsce na środek źródła, miejsce wskazane w źródle podświetla jego ustalenie. Jedna kolumna pod drugą, gdzie miejsce jest wąskie.'
+  finding:
+    message: '« zasadniczo » nic nie mówi: zdanie brzmi tak samo bez niego.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fuente
+  page_icon: 'ph:bold/code'
+  intro: 'Un texto leído como su fuente, lo que una regla encontrada en él marcó: cada lugar teñido en su severidad, una marca en el margen de su línea, el mensaje y la regla bajo el puntero. Solo en la fuente — una vista previa renderizada no muestra nada de esto: se lee de un lado y se corrige del otro.'
+  section:
+    source:
+      title: 'Una fuente anotada'
+      description: '`source-view`: un texto, su idioma y anotaciones `{ línea, columna, fin_línea, fin_columna, severidad, mensaje, código }` — basado en 1, el fin exclusivo, como los veredictos de filestate los dan. El editor de `code-input`, solo lectura.'
+    sided:
+      title: 'Fuente y hallazgos uno al lado del otro'
+      description: '`source-findings`: un hallazgo clicado lleva su lugar al centro de la fuente, un lugar señalado en la fuente ilumina su hallazgo. Una columna debajo de la otra donde el espacio es estrecho.'
+  finding:
+    message: '« básicamente » no dice nada: la oración se lee igual sin él.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Origine
+  page_icon: 'ph:bold/code'
+  intro: "Un testo letto come la sua origine, ciò che una regola trovata in esso segna su di essa: ogni luogo tinto nella sua gravità, un segno nel margine sulla sua riga, il messaggio e la regola sotto il puntatore. Solo mai sull'origine — un'anteprima renderizzata non mostra nulla di tutto ciò: si legge da un lato e si corregge dall'altro."
+  section:
+    source:
+      title: "Un'origine annotata"
+      description: "`source-view`: un testo, la sua lingua e annotazioni `{ line, column, end_line, end_column, severity, message, code }` — basato su 1, l'estremo escluso, come i verdetti di filestate li forniscono. L'editor di `code-input`, solo in lettura."
+    sided:
+      title: 'Origine e risultati affiancati'
+      description: "`source-findings`: un risultato cliccato porta il suo luogo al centro dell'origine, un luogo indicato nell'origine illumina il suo risultato. Una colonna sotto l'altra dove lo spazio è stretto."
+  finding:
+    message: '« basically » non dice nulla: la frase è la stessa senza di essa.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Fonte
+  page_icon: 'ph:bold/code'
+  intro: 'Um texto lido como sua fonte, o que uma regra encontrada nele marca: cada lugar tingido em sua severidade, uma marca na margem de sua linha, a mensagem e a regra sob o ponteiro. Somente na fonte — uma prévia renderizada não mostra nada disso: lê-se de um lado e corrige-se do outro.'
+  section:
+    source:
+      title: 'Uma fonte anotada'
+      description: '`source-view`: um texto, sua língua e anotações `{ linha, coluna, fim_linha, fim_coluna, severidade, mensagem, código }` — baseado em 1, o fim é exclusivo, como os veredictos do estado do arquivo os dão. O editor de `code-input`, somente leitura.'
+    sided:
+      title: 'Fonte e descobertas lado a lado'
+      description: '`source-findings`: uma descoberta clicada traz seu lugar para o meio da fonte, um lugar apontado na fonte ilumina sua descoberta. Uma coluna sob a outra onde o espaço é estreito.'
+  finding:
+    message: '« basicamente » não diz nada: a frase lê-se a mesma sem isso.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Kaynak
+  page_icon: 'ph:bold/code'
+  intro: 'Bir metin kaynağı olarak okunur, üzerinde işaretlenmiş bir kural: her yer sertliğiyle vurgulanmış, dizesinin kenarında bir işaret, mesaj ve kural imzanın altında. Sadece kaynakta — işlenmiş bir önizleme bunların hiçbirini göstermez: bir taraftan okunur ve diğer tarafta düzeltilir.'
+  section:
+    source:
+      title: 'Açıklamalı kaynak'
+      description: "`source-view`: bir metin, dili ve açıklamaları `{ line, column, end_line, end_column, severity, message, code }` — 1 tabanlı, son hariç, filestate'in kararları gibi. `code-input`'ın editörü, sadece okunabilir."
+    sided:
+      title: 'Kaynak ve bulgular yan yana'
+      description: '`source-findings`: tıklanan bir bulgu kaynağın ortasına yerleştirilir, kaynaktaki bir yer bulgusunu aydınlatır. Dar alan varsa bir sütun diğerinin altında.'
+  finding:
+    message: '« temelde » hiçbir şey söylemez: cümle onsuz da aynı okunur.'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Nguồn
+  page_icon: 'ph:bold/code'
+  intro: 'Một văn bản được đọc như nguồn của nó, điều mà một quy tắc được tìm thấy trong đó đánh dấu trên đó: mỗi nơi được tô màu theo mức độ nghiêm trọng của nó, một dấu hiệu ở lề trên dòng của nó, thông điệp và quy tắc dưới con trỏ. Chỉ bao giờ trên nguồn — một bản xem trước được hiển thị không có điều đó: một bên đọc và bên kia chỉnh sửa.'
+  section:
+    source:
+      title: 'Một nguồn có chú thích'
+      description: '`source-view`: một văn bản, ngôn ngữ của nó, và các chú thích `{ line, column, end_line, end_column, severity, message, code }` — bắt đầu từ 1, kết thúc không bao gồm, như các phán quyết của filestate cung cấp cho chúng. Trình chỉnh sửa của `code-input`, chỉ đọc.'
+    sided:
+      title: 'Nguồn và phát hiện bên cạnh nhau'
+      description: '`source-findings`: một phát hiện được nhấp mang vị trí của nó vào giữa nguồn, một vị trí được chỉ định trong nguồn làm nổi bật phát hiện của nó. Một cột dưới cột kia nơi không gian hẹp.'
+  finding:
+    message: '« cơ bản » không nói gì: câu văn đọc giống nhau mà không có nó.'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Sumber
+  page_icon: 'ph:bold/code'
+  intro: 'Teks yang dibaca sebagai sumbernya, apa yang dicari dalam aturan yang ditandai: setiap tempat yang diwarnai dalam tingkat keparahannya, tanda di tepi pada garisnya, pesan dan aturan di bawah penunjuk. Hanya di sumber — pratayang yang dirender tidak menunjukkan semua itu: satu dibaca di satu sisi dan dikoreksi di sisi lain.'
+  section:
+    source:
+      title: 'Sumber yang diberi anotasi'
+      description: '`source-view`: sebuah teks, bahasanya, dan anotasi `{ line, column, end_line, end_column, severity, message, code }` — 1-based, akhir tidak termasuk, seperti yang diberikan oleh putusan filestate. Editor dari `code-input`, hanya baca.'
+    sided:
+      title: 'Sumber dan temuan berdampingan'
+      description: '`source-findings`: sebuah temuan yang diklik membawa tempatnya ke tengah sumber, tempat yang ditunjuk di sumber menerangi temuan itu. Satu kolom di bawah kolom lainnya di mana ruangnya sempit.'
+  finding:
+    message: '« secara dasar » tidak mengatakan apa-apa: kalimatnya dibaca sama tanpa itu.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bron
+  page_icon: 'ph:bold/code'
+  intro: 'Een tekst die wordt gelezen als zijn bron, wat een regel die erin is gevonden markeert: elke plek getint in zijn ernst, een markering in de marge op zijn regel, het bericht en de regel onder de aanwijzer. Alleen op de bron — een weergegeven voorbeeld toont geen van dit: men leest aan de ene kant en corrigeert aan de andere kant.'
+  section:
+    source:
+      title: 'Een geannoteerde bron'
+      description: '`source-view`: een tekst, zijn taal, en annotaties `{ line, column, end_line, end_column, severity, message, code }` — 1-gebaseerd, het einde exclusief, zoals de oordelen van filestate ze geven. De editor van `code-input`, alleen-lezen.'
+    sided:
+      title: 'Bron en bevindingen naast elkaar'
+      description: '`source-findings`: een aangeklikte bevinding brengt zijn plek naar het midden van de bron, een plek die in de bron wordt aangestipt verlicht zijn bevinding. Eén kolom onder de andere waar de ruimte smal is.'
+  finding:
+    message: '« basically » zegt niets: de zin leest hetzelfde zonder het.'

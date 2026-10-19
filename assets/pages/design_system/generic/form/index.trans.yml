@@ -419,6 +419,9 @@ pt_BR:
     ajax:
       title: 'Formulários Ajax'
       description: 'Um formulário que responde sem que a página seja deixada, e o que faz com o que retorna.'
+    gate:
+      title: 'Ação condicionada'
+      description: 'Uma ação retida até que os dados necessários estejam disponíveis, enviando para o formulário que está faltando e voltando.'
     vue:
       title: 'Formulários Vue'
       description: 'Os mesmos formulários controlados por um componente, onde os campos são estado em vez de marcação.'

@@ -37,3 +37,174 @@ ar:
   code:
     title: 'كتابة اختصار'
     body: 'يتم كتابة الاختصار مرة واحدة مع Mod، وهو ⌘ على جهاز Mac وCtrl في أماكن أخرى. تتطابق خدمة لوحة المفاتيح مع ذلك في كليهما، وعلى المفتاح الفعلي لحرف: ⌥ على جهاز Mac، أو تخطيط سيريلية، لا يزال يعطي Mod+S.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: कीबोर्ड
+  page_icon: 'ph:bold/keyboard'
+  intro: 'कीबोर्ड और क्लिपबोर्ड पृष्ठ को जो बताते हैं, वे बताते हैं: कुंजी, धारण किए गए संशोधक, शॉर्टकट जो डिज़ाइन सिस्टम पहचानता है, जो कॉपी और पेस्ट किया गया है। पृष्ठ पर कहीं भी कुछ भी दबाएं - नीचे कीबोर्ड उन कुंजियों को प्रकाश में लाता है जहाँ वे बैठते हैं, और यह सीखता है कि वे आपकी लेआउट पर क्या लिखते हैं।'
+  code:
+    title: 'शॉर्टकट लिखना'
+    body: 'एक शॉर्टकट एक बार Mod के साथ लिखा जाता है, जो Mac पर ⌘ होता है और अन्य जगहों पर Ctrl। कीबोर्ड सेवा इसे दोनों पर मिलाता है, और किसी अक्षर के भौतिक कुंजी पर: Mac पर ⌥, या सिरीलिक लेआउट पर, फिर भी Mod+S देता है।'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: מקלדת
+  page_icon: 'ph:bold/keyboard'
+  intro: 'מה שהמקלדת והלוח הגזור אומרים לדף, כפי שהם אומרים לו: המפתח, המודים שנלחצים, הקיצורים שהמערכת מזהה, מה שהועתק והודבק. לחץ על כל דבר, בכל מקום בדף — המקלדת למטה מדליקה את המקשים לפי המיקום שלהם, ולומדת מה הם כותבים בעיצוב שלך.'
+  code:
+    title: 'כתיבת קיצור דרך'
+    body: 'קיצור דרך נכתב פעם אחת עם Mod, שהוא ⌘ על מקינטוש ו-Ctrl במקומות אחרים. שירות המקלדת תואם אותו על שני המקרים, ועל המקש הפיזי עבור אות: ⌥ על מקינטוש, או פריסת קירילית, עדיין נותן Mod+S.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'صفحه کلید'
+  page_icon: 'ph:bold/keyboard'
+  intro: 'آنچه صفحه کلید و کلیپ بورد به صفحه می‌گویند، همان‌طور که به آن می‌گویند: کلید، تغییردهنده‌های نگه‌داشته شده، میان‌برهایی که سیستم طراحی شناسایی می‌کند، و آنچه کپی و چسبانده می‌شود. هر چیزی را در هر جایی از صفحه فشار دهید — صفحه کلید زیر کلیدها را بر اساس جایی که قرار دارند روشن می‌کند و یاد می‌گیرد که شما در طرح شما چه می‌نویسید.'
+  code:
+    title: 'نوشتن یک میان‌بر'
+    body: 'یک میان‌بر یک بار با Mod نوشته می‌شود، که در مک ⌘ و در سایر جاها Ctrl است. سرویس صفحه کلید آن را بر روی هر دو مطابقت می‌دهد و بر روی کلید فیزیکی برای یک حرف: ⌥ در مک، یا یک چیدمان سیریلیک، هنوز Mod+S را می‌دهد.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'کی بورڈ'
+  page_icon: 'ph:bold/keyboard'
+  intro: 'کی بورڈ اور کلپ بورڈ صفحے کو جو بتاتے ہیں: کلید، ہولڈ کیے گئے موڈیفائرز، شارٹ کٹس جو ڈیزائن سسٹم پہچانتا ہے، کیا کاپی اور پیسٹ کیا گیا ہے۔ صفحے پر کہیں بھی کچھ دبائیں — نیچے موجود کی بورڈ کلیدوں کو ان کی جگہ کے لحاظ سے روشن کرتا ہے، اور سیکھتا ہے کہ وہ آپ کے لے آؤٹ پر کیا لکھتے ہیں۔'
+  code:
+    title: 'شارٹ کٹ لکھنا'
+    body: 'شارٹ کٹ ایک بار Mod کے ساتھ لکھا جاتا ہے، جو میک پر ⌘ اور دوسرے جگہوں پر Ctrl ہوتا ہے۔ کی بورڈ سروس اسے دونوں پر ملا دیتی ہے، اور ایک حرف کے لیے جسمانی کلید پر: میک پر ⌥، یا ایک سیرلک لے آؤٹ، پھر بھی Mod+S دیتا ہے۔'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: キーボード
+  page_icon: 'ph:bold/keyboard'
+  intro: キーボードとクリップボードがページに伝える内容：キー、保持されている修飾キー、デザインシステムが認識するショートカット、コピーされた内容と貼り付けられた内容。ページ上の任意の場所を押すと、下のキーボードがその位置に応じてキーを点灯させ、あなたのレイアウトに何を書くかを学習します。
+  code:
+    title: ショートカットの作成
+    body: ショートカットは一度だけModで書かれ、Macでは⌘、他の場所ではCtrlです。キーボードサービスはどちらも一致させ、文字の物理キーに対しても一致します：Macでは⌥、キリルレイアウトでもMod+Sが得られます。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 키보드
+  page_icon: 'ph:bold/keyboard'
+  intro: '키보드와 클립보드가 페이지에 전달하는 정보: 키, 눌린 수정 키, 디자인 시스템이 인식하는 단축키, 복사 및 붙여넣기된 내용. 페이지의 아무 곳이나 누르면 — 아래의 키보드가 위치에 따라 키를 조명하고, 레이아웃에 작성된 내용을 학습합니다.'
+  code:
+    title: '단축키 작성'
+    body: '단축키는 Mod로 한 번 작성되며, Mac에서는 ⌘이고 다른 곳에서는 Ctrl입니다. 키보드 서비스는 두 경우 모두 일치시켜 주며, 문자에 대한 물리적 키는 Mac에서는 ⌥이며, 키릴 문자 배열에서도 Mod+S를 제공합니다.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: কীবোর্ড
+  page_icon: 'ph:bold/keyboard'
+  intro: 'যা কীবোর্ড এবং ক্লিপবোর্ড পৃষ্ঠাকে বলে, যেমন তারা বলে: কী, ধারণকৃত মডিফায়ার, শর্টকাট যা ডিজাইন সিস্টেম চিনতে পারে, যা কপি এবং পেস্ট করা হয়েছে। পৃষ্ঠায় যেকোনো কিছু চাপুন, কোথাও — নিচের কীবোর্ডটি যেখানে বসে সেখানে কীগুলো আলোকিত করে, এবং আপনার লেআউটে তারা কি লেখে তা শিখে।'
+  code:
+    title: 'একটি শর্টকাট লেখা'
+    body: 'একটি শর্টকাট একবার Mod দিয়ে লেখা হয়, যা ম্যাকে ⌘ এবং অন্যত্র Ctrl। কীবোর্ড পরিষেবা এটি উভয় ক্ষেত্রেই মেলে, এবং একটি অক্ষরের জন্য শারীরিক কীতে: ম্যাকে ⌥, অথবা সিরিলিক লেআউটে, এখনও Mod+S দেয়।'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: แป้นพิมพ์
+  page_icon: 'ph:bold/keyboard'
+  intro: 'สิ่งที่แป้นพิมพ์และคลิปบอร์ดบอกกับหน้าเว็บ ข้อมูลที่ส่งไปมีดังนี้: ปุ่ม, ตัวปรับที่กด, ช็อตคัทที่ระบบออกแบบรับรู้, สิ่งที่ถูกคัดลอกและวาง กดปุ่มใดก็ได้ที่ไหนก็ได้บนหน้า — แป้นพิมพ์ด้านล่างจะทำให้ปุ่มสว่างขึ้นตามที่ตั้ง และเรียนรู้สิ่งที่พวกเขาพิมพ์ในเลย์เอาต์ของคุณ.'
+  code:
+    title: การเขียนช็อตคัท
+    body: 'ช็อตคัทจะถูกเขียนครั้งเดียวด้วย Mod ซึ่งคือ ⌘ บน Mac และ Ctrl ที่อื่น ๆ บริการแป้นพิมพ์จะจับคู่กับทั้งสอง และที่ปุ่มจริงสำหรับตัวอักษร: ⌥ บน Mac หรือเลย์เอาต์ซีริลลิก ก็ยังให้ Mod+S.'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tastatur
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Was die Tastatur und die Zwischenablage der Seite mitteilen, wie sie es tun: die Taste, die gehaltenen Modifikatoren, die Tastenkombinationen, die das Designsystem erkennt, was kopiert und eingefügt wird. Drücken Sie irgendetwas, irgendwo auf der Seite – die Tastatur unten beleuchtet die Tasten entsprechend ihrer Position und lernt, was sie auf Ihrem Layout schreiben.'
+  code:
+    title: 'Tastenkombination schreiben'
+    body: 'Eine Tastenkombination wird einmal mit Mod geschrieben, was ⌘ auf einem Mac und Ctrl anderswo ist. Der Tastaturdienst erkennt beides und die physische Taste für einen Buchstaben: ⌥ auf einem Mac oder einem kyrillischen Layout gibt immer noch Mod+S.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Näppäimistö
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Mitä näppäimistö ja leikepöytä kertovat sivusta, kuten ne kertovat: näppäin, pidettävät muokkaimet, pikakuvakkeet, joita suunnittelujärjestelmä tunnistaa, sekä se, mitä on kopioitu ja liitetty. Paina mitä tahansa, missä tahansa sivulla – alla oleva näppäimistö valaiseet näppäimiä niiden sijainnin mukaan ja oppii, mitä ne kirjoittavat asettelussasi.'
+  code:
+    title: 'Pikakuvakkeen kirjoittaminen'
+    body: 'Pikakuvake kirjoitetaan kerran Modilla, joka on ⌘ Macissa ja Ctrl muualla. Näppäimistöpalvelu yhdistää sen kummassakin, ja fyysisellä näppäimellä kirjaimelle: ⌥ Macissa tai kyrillisessä asettelussa, antaa silti Mod+S.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Клавиатура
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Что клавиатура и буфер обмена говорят странице, так как они это делают: клавиша, нажатые модификаторы, ярлыки, которые распознает дизайн-система, что скопировано и вставлено. Нажмите что угодно, где угодно на странице — клавиатура ниже подсвечивает клавиши в зависимости от их расположения и запоминает, что они пишут на вашем макете.'
+  code:
+    title: 'Написание ярлыка'
+    body: 'Ярлык пишется один раз с Mod, который является ⌘ на Mac и Ctrl в других местах. Служба клавиатуры совпадает с ним на любом устройстве и на физической клавише для буквы: ⌥ на Mac или на кириллической раскладке по-прежнему дает Mod+S.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Klawiatura
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Co klawiatura i schowek mówią stronie, gdy to mówią: klawisz, trzymane modyfikatory, skróty uznawane przez system projektowania, co zostało skopiowane i wklejone. Naciśnij cokolwiek, gdziekolwiek na stronie — klawiatura poniżej podświetla klawisze w zależności od ich położenia i uczy się, co piszesz na swoim układzie.'
+  code:
+    title: 'Pisanie skrótu'
+    body: 'Skrót jest pisany raz z Mod, który jest ⌘ na Macu i Ctrl gdzie indziej. Usługa klawiatury dopasowuje go na jednym lub drugim, a na fizycznym klawiszu dla litery: ⌥ na Macu, lub układzie cyrylicznym, wciąż daje Mod+S.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Teclado
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Lo que el teclado y el portapapeles le dicen a la página, ya que se lo dicen: la tecla, los modificadores presionados, los atajos que el sistema de diseño reconoce, lo que se copia y se pega. Presiona cualquier cosa, en cualquier lugar de la página: el teclado de abajo ilumina las teclas según su ubicación y aprende lo que escriben en tu diseño.'
+  code:
+    title: 'Escribiendo un atajo'
+    body: 'Un atajo se escribe una vez con Mod, que es ⌘ en un Mac y Ctrl en otros lugares. El servicio de teclado lo iguala en cualquiera de los dos, y en la tecla física para una letra: ⌥ en un Mac, o un diseño cirílico, todavía da Mod+S.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Tastiera
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Ciò che la tastiera e il clipboard comunicano alla pagina, come lo comunicano: il tasto, i modificatori attivi, le scorciatoie riconosciute dal sistema di design, ciò che è copiato e incollato. Premi qualsiasi tasto, ovunque nella pagina — la tastiera qui sotto illumina i tasti in base alla loro posizione e impara cosa digitano nel tuo layout.'
+  code:
+    title: 'Scrivere una scorciatoia'
+    body: 'Una scorciatoia è scritta una volta con Mod, che è ⌘ su Mac e Ctrl altrove. Il servizio della tastiera la riconosce su entrambi, e sul tasto fisico per una lettera: ⌥ su Mac, o un layout cirillico, dà ancora Mod+S.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Teclado
+  page_icon: 'ph:bold/keyboard'
+  intro: 'O que o teclado e a área de transferência dizem à página, à medida que a informam: a tecla, os modificadores pressionados, os atalhos reconhecidos pelo sistema de design, o que é copiado e colado. Pressione qualquer tecla, em qualquer lugar da página — o teclado abaixo ilumina as teclas de acordo com suas posições e aprende o que elas escrevem em seu layout.'
+  code:
+    title: 'Escrevendo um atalho'
+    body: 'Um atalho é escrito uma vez com Mod, que é ⌘ em um Mac e Ctrl em outros lugares. O serviço de teclado o reconhece em ambos os casos, e na tecla física para uma letra: ⌥ em um Mac, ou um layout cirílico, ainda resulta em Mod+S.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Klavye
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Sayfanın klavye ve pano ile iletişimi: tuş, basılı tutulan modifikatörler, tasarım sisteminin tanıdığı kısayollar, kopyalanan ve yapıştırılanlar. Sayfanın herhangi bir yerinde herhangi bir tuşa basın — aşağıdaki klavye, tuşların bulunduğu yere göre ışıklandırılır ve düzeninizde ne yazdıklarını öğrenir.'
+  code:
+    title: 'Kısayol yazma'
+    body: "Bir kısayol, Mod ile bir kez yazılır; bu, bir Mac'te ⌘ ve diğer yerlerde Ctrl'dir. Klavye servisi bunu her ikisinde de eşleştirir ve bir harf için fiziksel tuş üzerinde: bir Mac'te ⌥ veya bir Kiril düzeni, yine de Mod+S verir."
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Bàn phím'
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Những gì bàn phím và bảng tạm nói với trang, như chúng nói: phím, các phím modifier đang giữ, các phím tắt mà hệ thống thiết kế nhận diện, những gì được sao chép và dán. Nhấn bất kỳ phím nào, ở bất kỳ đâu trên trang — bàn phím bên dưới sẽ làm sáng các phím theo vị trí của chúng, và học những gì chúng viết trên bố cục của bạn.'
+  code:
+    title: 'Viết một phím tắt'
+    body: 'Một phím tắt được viết một lần với Mod, mà là ⌘ trên Mac và Ctrl ở nơi khác. Dịch vụ bàn phím sẽ khớp nó trên cả hai, và trên phím vật lý cho một chữ cái: ⌥ trên Mac, hoặc một bố cục Cyrillic, vẫn cho Mod+S.'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Papan ketik'
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Apa yang dikatakan papan ketik dan clipboard kepada halaman, seperti yang mereka sampaikan: kunci, modifikasi yang ditekan, pintasan yang dikenali sistem desain, apa yang disalin dan ditempel. Tekan apa saja, di mana saja di halaman — papan ketik di bawah menerangi kunci sesuai posisinya, dan mempelajari apa yang mereka tulis di tata letak Anda.'
+  code:
+    title: 'Menulis pintasan'
+    body: 'Sebuah pintasan ditulis sekali dengan Mod, yang adalah ⌘ di Mac dan Ctrl di tempat lain. Layanan papan ketik mencocokkannya di salah satu, dan di kunci fisik untuk huruf: ⌥ di Mac, atau tata letak Cyrillic, tetap memberikan Mod+S.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Toetsenbord
+  page_icon: 'ph:bold/keyboard'
+  intro: 'Wat het toetsenbord en het klembord de pagina vertellen, zoals ze het vertellen: de toets, de ingedrukte modifier-toetsen, de sneltoetsen die het ontwerpsysteem herkent, wat is gekopieerd en geplakt. Druk op iets, ergens op de pagina — het toetsenbord hieronder verlicht de toetsen waar ze zich bevinden, en leert wat ze op jouw lay-out schrijven.'
+  code:
+    title: 'Een sneltoets schrijven'
+    body: 'Een sneltoets wordt eenmaal geschreven met Mod, dat is ⌘ op een Mac en Ctrl elders. De toetsenbordservice matcht het op beide, en op de fysieke toets voor een letter: ⌥ op een Mac, of een Cyrillisch toetsenbord, geeft nog steeds Mod+S.'

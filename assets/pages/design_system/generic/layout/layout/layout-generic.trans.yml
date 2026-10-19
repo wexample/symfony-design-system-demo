@@ -9,6 +9,7 @@ en:
     section: "Layout"
     tabs: Tabs
     doc: Doc layout
+    back: Design System
 
 ar:
   tab:
@@ -21,6 +22,7 @@ ar:
     section: تخطيط
     tabs: 'علامات التبويب'
     doc: 'تخطيط الوثيقة'
+    back: 'نظام التصميم'
 
 bn:
   tab:
@@ -28,8 +30,12 @@ bn:
     zones: জোন
     blocks: ব্লক
     toolbar: টুলবার
+    dock: 'টুল ডক'
+    navigation: 'অধ্যায় নেভিগেশন'
+    section: লেআউট
     tabs: ট্যাব
     doc: 'ডক লেআউট'
+    back: 'ডিজাইন সিস্টেম'
 
 de:
   tab:
@@ -37,8 +43,12 @@ de:
     zones: Zonen
     blocks: Blöcke
     toolbar: Werkzeugleiste
+    dock: Werkzeug-Dock
+    navigation: Bereichsnavigation
+    section: Layout
     tabs: Registerkarten
     doc: Dokumentlayout
+    back: 'Design System'
 
 es:
   tab:
@@ -46,8 +56,12 @@ es:
     zones: Zonas
     blocks: Bloques
     toolbar: 'Barra de herramientas'
+    dock: 'Dock de herramientas'
+    navigation: 'Navegación de secciones'
+    section: Diseño
     tabs: Pestañas
     doc: 'Diseño del documento'
+    back: 'Sistema de diseño'
 
 fa:
   tab:
@@ -55,8 +69,12 @@ fa:
     zones: 'منطقه ها'
     blocks: 'بلوک ها'
     toolbar: 'نوار ابزار'
+    dock: 'دک Dock ابزار'
+    navigation: 'ناوبری بخش'
+    section: چیدمان
     tabs: 'زبان ها'
     doc: 'چیدمان سند'
+    back: 'سیستم طراحی'
 
 fi:
   tab:
@@ -64,8 +82,12 @@ fi:
     zones: Alueet
     blocks: Loitsut
     toolbar: Työkalupalkki
+    dock: Työkalupaneeli
+    navigation: 'Osio navigointi'
+    section: Asettelu
     tabs: Välilehdet
     doc: 'Dokumentin asettelu'
+    back: Suunnittelujärjestelmä
 
 fr:
   tab:
@@ -74,10 +96,11 @@ fr:
     blocks: Blocs
     toolbar: "Barre d'outils"
     dock: "Dock d'outils"
-    navigation: "Navigation de section"
-    section: "Mise en page"
+    navigation: 'Navigation de section'
+    section: 'Mise en page'
     tabs: Onglets
     doc: 'Mise en page du document'
+    back: 'Système de Design'
 
 he:
   tab:
@@ -85,8 +108,12 @@ he:
     zones: אזורים
     blocks: בלוקים
     toolbar: 'סרגל כלים'
+    dock: 'מעגן כלים'
+    navigation: 'ניווט לפי סעיפים'
+    section: פריסה
     tabs: כרטיסיות
     doc: 'פריסת מסמך'
+    back: 'מערכת עיצוב'
 
 hi:
   tab:
@@ -94,8 +121,12 @@ hi:
     zones: क्षेत्र
     blocks: ब्लॉक्स
     toolbar: टूलबार
+    dock: 'टूल डॉक'
+    navigation: 'सेक्शन नेविगेशन'
+    section: लेआउट
     tabs: टैब
     doc: 'दस्तावेज़ लेआउट'
+    back: 'डिज़ाइन सिस्टम'
 
 id:
   tab:
@@ -103,8 +134,12 @@ id:
     zones: Zona
     blocks: Blok
     toolbar: Toolbar
+    dock: 'Dok Alat'
+    navigation: 'Navigasi Bagian'
+    section: 'Tata Letak'
     tabs: Tab
     doc: 'Tata letak dokumen'
+    back: 'Sistem Desain'
 
 it:
   tab:
@@ -112,8 +147,12 @@ it:
     zones: Zone
     blocks: Blocchi
     toolbar: 'Barra degli strumenti'
+    dock: 'Dock degli strumenti'
+    navigation: 'Navigazione sezione'
+    section: Layout
     tabs: Schede
     doc: 'Layout documento'
+    back: 'Sistema di design'
 
 ja:
   tab:
@@ -121,8 +160,12 @@ ja:
     zones: ゾーン
     blocks: ブロック
     toolbar: ツールバー
+    dock: ツールドック
+    navigation: セクションナビゲーション
+    section: レイアウト
     tabs: タブ
     doc: ドキュメントレイアウト
+    back: デザインシステム
 
 ko:
   tab:
@@ -130,8 +173,12 @@ ko:
     zones: 존
     blocks: 블록
     toolbar: '도구 모음'
+    dock: '도구 도크'
+    navigation: '섹션 탐색'
+    section: 레이아웃
     tabs: 탭
     doc: '문서 레이아웃'
+    back: '디자인 시스템'
 
 nl:
   tab:
@@ -139,8 +186,12 @@ nl:
     zones: Zones
     blocks: Blokken
     toolbar: Werkbalk
+    dock: 'Hulpmiddelen dock'
+    navigation: 'Sectie navigatie'
+    section: Indeling
     tabs: Tabs
     doc: Documentindeling
+    back: Systeemontwerp
 
 pl:
   tab:
@@ -148,8 +199,12 @@ pl:
     zones: Strefy
     blocks: Bloki
     toolbar: 'Pasek narzędzi'
+    dock: 'Dockowanie narzędzi'
+    navigation: 'Nawigacja sekcji'
+    section: Układ
     tabs: Zakładki
     doc: 'Układ dokumentu'
+    back: 'System projektowania'
 
 pt_BR:
   tab:
@@ -157,8 +212,12 @@ pt_BR:
     zones: Zonas
     blocks: Blocos
     toolbar: 'Barra de ferramentas'
+    dock: 'Painel de ferramentas'
+    navigation: 'Navegação de seção'
+    section: Layout
     tabs: Abas
     doc: 'Layout do documento'
+    back: 'Sistema de Design'
 
 ru:
   tab:
@@ -166,8 +225,12 @@ ru:
     zones: Зоны
     blocks: Блоки
     toolbar: 'Панель инструментов'
+    dock: 'Панель инструментов'
+    navigation: 'Навигация по разделам'
+    section: Макет
     tabs: Вкладки
     doc: 'Макет документа'
+    back: Дизайн-система
 
 th:
   tab:
@@ -175,8 +238,12 @@ th:
     zones: โซน
     blocks: บล็อก
     toolbar: แถบเครื่องมือ
+    dock: แท็บเครื่องมือ
+    navigation: การนำทางส่วน
+    section: เลย์เอาต์
     tabs: แท็บ
     doc: รูปแบบเอกสาร
+    back: ระบบการออกแบบ
 
 tr:
   tab:
@@ -184,8 +251,12 @@ tr:
     zones: Bölgeler
     blocks: Bloklar
     toolbar: 'Araç Çubuğu'
+    dock: "Araç dock'u"
+    navigation: 'Bölüm navigasyonu'
+    section: Düzen
     tabs: Sekmeler
     doc: 'Doküman düzeni'
+    back: 'Tasarım Sistemi'
 
 ur:
   tab:
@@ -193,8 +264,12 @@ ur:
     zones: زونز
     blocks: بلاکس
     toolbar: 'ٹول بار'
+    dock: 'ٹول ڈوک'
+    navigation: 'حصے کی نیویگیشن'
+    section: 'لی آؤٹ'
     tabs: ٹیب
     doc: 'دستاویز لے آؤٹ'
+    back: 'ڈیزائن سسٹم'
 
 vi:
   tab:
@@ -202,8 +277,12 @@ vi:
     zones: 'Khu vực'
     blocks: Khối
     toolbar: 'Thanh công cụ'
+    dock: 'Bảng công cụ'
+    navigation: 'Điều hướng phần'
+    section: 'Bố cục'
     tabs: Thẻ
     doc: 'Bố cục tài liệu'
+    back: 'Hệ thống thiết kế'
 
 zh:
   tab:
@@ -216,3 +295,4 @@ zh:
     section: 布局
     tabs: 选项卡
     doc: 文档布局
+    back: 设计系统

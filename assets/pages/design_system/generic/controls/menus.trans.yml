@@ -131,6 +131,9 @@ bn:
   page_title: মেনু
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'বিভক্ত বোতাম'
+      description: "একটি বোতাম যা একটি কাজ করে এবং অন্যান্যগুলোর প্রস্তাব দেয়: এর শরীরটি কাজটি করে, শেষের দিকে থাকা ক্যারেটটি — এবং শুধুমাত্র ক্যারেটটি — মেনুটি খুলে। `button_menu` একটি `action` দেওয়া হয়েছে — `{ href }`, অথবা `{ type: 'submit' }` একটি ফর্মে; ভিউয়ের ক্ষেত্রে এটি `action` নির্গত করে।"
     vue:
       title: ভিউ
       description: 'লিঙ্ক রো এবং সেপারেটর ভিউ পার্সিয়াল হিসেবে। যেভাবে রো গুলো একটি রুট পড়ে, এই দুটি তাদের আইকন এবং লেবেল অপশন হিসেবে নেয়, তাই সার্ভারের কিছুই মিস হয় না।'
@@ -147,6 +150,9 @@ bn:
       description: 'চার ধরনের একটি সারিতে ভাগ করা হয়: একটি শব্দ এবং একটি লক্ষ্য একটি লিঙ্ক, একটি শব্দ এবং একটি রাষ্ট্র একটি টগল, একটি শব্দ এবং সন্তান একটি শাখা, এবং একটি খালি লাইন একটি সেপারেটর। কিছুই তার ধরনের ঘোষণা করে না — এটি আইটেমের বহন করা থেকে অনুসরণ করে। একটি টগল তার মার্কের জন্য তার লিডিং স্লট ব্যয় করে, তাই তাদের একটি কলাম তাদের শব্দগুলোকে সমান্তরাল রাখে, এবং প্যানেলটি তার নিচে খোলা থাকে: একটি ফিল্টার মেনু হাতের বোতল দ্বারা পড়া হয়, একসাথে নয়।'
   menu:
     primary: 'মেনু বোতাম'
+    save: 'সংরক্ষণ করুন'
+    save_vue: 'সংরক্ষণ করুন, ভিউতে'
+    publish: 'প্রকাশ করুন'
     filters: ফিল্টার
     filters_vue: 'ফিল্টার, ভিউতে'
     counted: 'গণনার সঙ্গে'
@@ -163,6 +169,9 @@ bn:
       top_right: 'শীর্ষ ডান'
     item:
       report: রিপোর্ট
+      draft: 'খসড়া হিসেবে সংরক্ষণ করুন'
+      copy: 'একটি কপি সংরক্ষণ করুন'
+      schedule: 'শিডিউল করুন'
       inbox: ইনবক্স
       alerts: অ্যালার্ট
       settings: সেটিংস
@@ -184,6 +193,9 @@ de:
   page_title: Menüs
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: Teilungsbuttons
+      description: "Ein Button, der eine Aktion ausführt und weitere Optionen bietet: Der Hauptteil führt die Aktion aus, das am Ende befestigte Caret — und nur das Caret — öffnet das Menü. `button_menu` erhält eine `action` — `{ href }` oder `{ type: 'submit' }` in einem Formular; der vue Button gibt `action` aus."
     vue:
       title: Vue
       description: 'Die Linkzeile und der Separator als Vue-Teile. Im Gegensatz zu den Zeilen, die eine Route lesen, nehmen diese beiden ihr Icon und Label als Optionen, sodass nichts vom Server fehlt.'
@@ -200,6 +212,9 @@ de:
       description: 'Vier Arten teilen sich eine Zeile: Ein Wort und ein Ziel ist ein Link, ein Wort und ein Zustand ist ein Umschalter, ein Wort und Kinder ist ein Zweig, und eine einfache Linie ist ein Separator. Nichts erklärt seine Art – es folgt aus dem, was das Element trägt. Ein Umschalter verwendet seinen führenden Slot für sein Zeichen, sodass eine Spalte davon ihre Wörter ausgerichtet hält und das Panel darunter offen bleibt: Ein Menü von Filtern wird in der Menge gelesen, nicht eins nach dem anderen.'
   menu:
     primary: Menüschaltfläche
+    save: Speichern
+    save_vue: 'Speichern, in vue'
+    publish: Veröffentlichen
     filters: Filter
     filters_vue: 'Filter, in Vue'
     counted: 'Mit Zählungen'
@@ -216,6 +231,9 @@ de:
       top_right: 'Oben rechts'
     item:
       report: Berichten
+      draft: 'Als Entwurf speichern'
+      copy: 'Kopie speichern'
+      schedule: Planen
       inbox: Posteingang
       alerts: Benachrichtigungen
       settings: Einstellungen
@@ -237,6 +255,9 @@ es:
   page_title: Menús
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Botones divididos'
+      description: "Un botón que realiza una acción y ofrece otras opciones: su cuerpo ejecuta la acción, la flecha en su extremo — y solo la flecha — abre el menú. `button_menu` dado un `action` — `{ href }`, o `{ type: 'submit' }` en un formulario; el de vue emite `action`."
     vue:
       title: Vue
       description: 'La fila de enlaces y el separador como parciales de vue. A diferencia de las filas que leen una ruta, estos dos toman su ícono y etiqueta como opciones, por lo que no falta nada del servidor.'
@@ -253,6 +274,9 @@ es:
       description: 'Cuatro tipos comparten una fila: una palabra y un destino es un enlace, una palabra y un estado es un interruptor, una palabra y niños es una rama, y una línea simple es un separador. Nada declara su tipo: se deduce de lo que lleva el elemento. Un interruptor gasta su espacio principal en su marca, por lo que una columna de ellos mantiene sus palabras alineadas, y el panel permanece abierto debajo de él: un menú de filtros se lee por la cantidad, no uno a la vez.'
   menu:
     primary: 'Botón de menú'
+    save: Guardar
+    save_vue: 'Guardar, en vue'
+    publish: Publicar
     filters: Filtros
     filters_vue: 'Filtros, en vue'
     counted: 'Con contadores'
@@ -269,6 +293,9 @@ es:
       top_right: 'Arriba a la derecha'
     item:
       report: Reportar
+      draft: 'Guardar como borrador'
+      copy: 'Guardar una copia'
+      schedule: Programar
       inbox: 'Bandeja de entrada'
       alerts: Alertas
       settings: Configuraciones
@@ -290,6 +317,9 @@ fa:
   page_title: منوها
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'دکمه های تقسیم'
+      description: "دکمه ای که یک کار انجام می دهد و سایرین را ارائه می کند: بدنه آن عمل را انجام می دهد و علامت (caret) که به انتهای آن چسبیده است — و فقط علامت — منوی مربوطه را باز می کند. `button_menu` یک `action` دریافت می کند — `{ href }`، یا `{ type: 'submit' }` در یک فرم؛ نسخه vue آن `action` را ارسال می کند."
     vue:
       title: ویو
       description: 'ردیف لینک و جداکننده به عنوان بخش‌های ویو. بر خلاف ردیف‌هایی که یک مسیر را می‌خوانند، این دو گزینه‌های آیکون و برچسب خود را به عنوان گزینه می‌گیرند، بنابراین هیچ چیزی از سرور کم نمی‌شود.'
@@ -306,6 +336,9 @@ fa:
       description: 'چهار نوع یک ردیف را به اشتراک می‌گذارند: یک کلمه و یک هدف یک لینک است، یک کلمه و یک وضعیت یک تغییر حالت است، یک کلمه و فرزندان یک شاخه است، و یک خط خالی یک جداکننده است. هیچ‌کس نوع خود را اعلام نمی‌کند — این از آنچه که مورد حمل می‌کند تبعیت می‌کند. یک تغییر حالت جایگاه پیشرو خود را بر روی علامت خود صرف می‌کند، بنابراین یک ستون از آن‌ها کلماتش را هم‌راستا نگه می‌دارد و پنل زیر آن باز می‌ماند: یک منوی فیلترها به صورت دسته‌ای خوانده می‌شود، نه یکی یکی.'
   menu:
     primary: 'دکمه منو'
+    save: ذخیره
+    save_vue: 'ذخیره، در vue'
+    publish: انتشار
     filters: فیلترها
     filters_vue: 'فیلترها، در ویو'
     counted: 'با شمارش‌ها'
@@ -322,6 +355,9 @@ fa:
       top_right: 'بالا سمت راست'
     item:
       report: گزارش
+      draft: 'ذخیره به عنوان پیش‌نویس'
+      copy: 'ذخیره یک نسخه'
+      schedule: زمان‌بندی
       inbox: 'صندوق ورودی'
       alerts: هشدارها
       settings: تنظیمات
@@ -343,6 +379,9 @@ fi:
   page_title: Valikot
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: Jakopainikkeet
+      description: "Painike, joka tekee yhden asian ja tarjoaa muita: sen runko suorittaa toiminnon, nuoli, joka on kiinnitetty sen päähän — ja vain nuoli — avaa valikon. `button_menu` annettuna `action` — `{ href }`, tai `{ type: 'submit' }` lomakkeessa; vue-versio lähettää `action`."
     vue:
       title: Vue
       description: 'Linkkirivi ja erotin vue-osina. Toisin kuin reitit, jotka lukevat reittiä, nämä kaksi ottavat ikonin ja etiketin vaihtoehtoina, joten serveriltä ei jää mitään puuttumaan.'
@@ -359,6 +398,9 @@ fi:
       description: 'Neljä tyyppiä jakaa yhden rivin: sana ja kohde on linkki, sana ja tila on kytkin, sana ja lapset on haara, ja pelkkä viiva on erotin. Mikään ei ilmoita tyyppiään — se seuraa siitä, mitä kohde kantaa. Kytkin käyttää johtavaa paikkaansa merkillään, joten niiden sarake pitää sanat linjassa, ja paneeli pysyy auki sen alla: suodatinvalikkoa luetaan nipuittain, ei yksi kerrallaan.'
   menu:
     primary: Valikkopainike
+    save: Tallenna
+    save_vue: 'Tallenna, vue:ssa'
+    publish: Julkaise
     filters: Suodattimet
     filters_vue: 'Suodattimet, vue:ssa'
     counted: Laskurilla
@@ -375,6 +417,9 @@ fi:
       top_right: Yläoikea
     item:
       report: Ilmoita
+      draft: 'Tallenna luonnoksena'
+      copy: 'Tallenna kopio'
+      schedule: Aikatauluta
       inbox: Saapuneet
       alerts: Ilmoitukset
       settings: Asetukset
@@ -458,6 +503,9 @@ he:
   page_title: תפריטים
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'כפתורי פיצול'
+      description: "כפתור שעושה דבר אחד ומציע אחרים: הגוף שלו מבצע את הפעולה, והחץ שהודבק לסופו — ורק החץ — פותח את התפריט. `button_menu` נתון `action` — `{ href }`, או `{ type: 'submit' }` בטופס; ה-vue שולח `action`."
     vue:
       title: Vue
       description: 'שורת הקישור והמפריד כחלקים של Vue. בניגוד לשורות שקוראות נתיב, השתיים הללו לוקחות את האיקון ואת התווית כאופציות, כך שאין שום דבר מהשרת חסר.'
@@ -474,6 +522,9 @@ he:
       description: 'ארבעה סוגים משתפים שורה אחת: מילה ומטרה זה קישור, מילה ומצב זה מתג, מילה וילדים זו ענף, וקו ריק הוא מפריד. שום דבר לא מכריז על סוגו — זה נובע ממה שהפריט נושא. מתג מוציא את המקום המוביל שלו על הסימן שלו, כך שעמודה שלהם שומרת על המילים מיושרות, ולוח הבקרה נשאר פתוח מתחתיו: תפריט של מסננים נקרא בקבוצה, לא אחד אחד.'
   menu:
     primary: 'כפתור תפריט'
+    save: שמור
+    save_vue: 'שמור, ב-vue'
+    publish: פרסם
     filters: מסננים
     filters_vue: 'מסננים, ב-Vue'
     counted: 'עם ספירות'
@@ -490,6 +541,9 @@ he:
       top_right: 'למעלה מימין'
     item:
       report: דווח
+      draft: 'שמור כטיוטה'
+      copy: 'שמור עותק'
+      schedule: תזמן
       inbox: 'תיבת נכנסות'
       alerts: התראות
       settings: הגדרות
@@ -511,6 +565,9 @@ hi:
   page_title: मेनू
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'स्प्लिट बटन'
+      description: "एक बटन जो एक काम करता है और अन्य विकल्प प्रदान करता है: इसका मुख्य हिस्सा कार्रवाई करता है, जबकि अंत में लगा कैरेट — और केवल कैरेट — मेनू खोलता है। `button_menu` को एक `action` दिया गया है — `{ href }`, या `{ type: 'submit' }` एक फॉर्म में; vue वाला `action` को उत्सर्जित करता है।"
     vue:
       title: व्यू
       description: 'लिंक पंक्ति और विभाजक vue आंशिकों के रूप में। उन पंक्तियों के विपरीत जो एक मार्ग पढ़ती हैं, ये दोनों अपने आइकन और लेबल को विकल्प के रूप में लेती हैं, इसलिए सर्वर की कोई चीज़ गायब नहीं है।'
@@ -527,6 +584,9 @@ hi:
       description: 'चार प्रकार एक पंक्ति साझा करते हैं: एक शब्द और एक लक्ष्य एक लिंक है, एक शब्द और एक स्थिति एक टॉगल है, एक शब्द और बच्चे एक शाखा है, और एक नग्न रेखा एक विभाजक है। कुछ भी अपने प्रकार की घोषणा नहीं करता — यह आइटम में जो होता है उससे निकलता है। एक टॉगल अपने मार्क पर अपने अग्रणी स्लॉट को खर्च करता है, इसलिए उनमें से एक कॉलम अपने शब्दों को संरेखित रखता है, और पैनल इसके नीचे खुला रहता है: फ़िल्टर का एक मेनू मुट्ठी भर में पढ़ा जाता है, एक बार में नहीं।'
   menu:
     primary: 'मेनू बटन'
+    save: सहेजें
+    save_vue: 'सहेजें, vue में'
+    publish: 'प्रकाशित करें'
     filters: फ़िल्टर
     filters_vue: 'फ़िल्टर, vue में'
     counted: 'गणनाओं के साथ'
@@ -543,6 +603,9 @@ hi:
       top_right: 'ऊपर दाईं ओर'
     item:
       report: 'रिपोर्ट करें'
+      draft: 'ड्राफ्ट के रूप में सहेजें'
+      copy: 'एक प्रति सहेजें'
+      schedule: 'शेड्यूल करें'
       inbox: इनबॉक्स
       alerts: अलर्ट्स
       settings: सेटिंग्स
@@ -564,6 +627,9 @@ id:
   page_title: Menu
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Tombol Terpisah'
+      description: "Sebuah tombol yang melakukan satu tindakan dan menawarkan pilihan lainnya: bodinya melakukan aksi, caret yang terpasang di ujungnya — dan hanya caret tersebut — membuka menu. `button_menu` diberikan sebuah `action` — `{ href }`, atau `{ type: 'submit' }` dalam sebuah form; yang vue mengeluarkan `action`."
     vue:
       title: Vue
       description: 'Baris tautan dan pemisah sebagai bagian vue. Berbeda dengan baris yang membaca rute, kedua ini mengambil ikon dan label sebagai opsi, jadi tidak ada yang hilang dari server.'
@@ -580,6 +646,9 @@ id:
       description: 'Empat jenis berbagi satu baris: sebuah kata dan target adalah tautan, sebuah kata dan status adalah toggle, sebuah kata dan anak adalah cabang, dan garis kosong adalah pemisah. Tidak ada yang mendeklarasikan jenisnya — itu mengikuti dari apa yang dibawa item. Sebuah toggle menghabiskan slot utama untuk tanda-nya, jadi kolom dari mereka menjaga kata-katanya tetap sejajar, dan panel tetap terbuka di bawahnya: menu filter dibaca dalam jumlah banyak, bukan satu per satu.'
   menu:
     primary: 'Tombol menu'
+    save: Simpan
+    save_vue: 'Simpan, di vue'
+    publish: Terbitkan
     filters: Filter
     filters_vue: 'Filter, dalam vue'
     counted: 'Dengan jumlah'
@@ -596,6 +665,9 @@ id:
       top_right: 'Atas kanan'
     item:
       report: Laporkan
+      draft: 'Simpan sebagai draf'
+      copy: 'Simpan salinan'
+      schedule: Jadwalkan
       inbox: 'Kotak masuk'
       alerts: Pemberitahuan
       settings: Pengaturan
@@ -617,6 +689,9 @@ it:
   page_title: Menu
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Pulsanti divisi'
+      description: "Un pulsante che fa una cosa e offre le altre: il suo corpo esegue l'azione, il cursore attaccato alla sua estremità — e solo il cursore — apre il menu. `button_menu` dato un `action` — `{ href }`, o `{ type: 'submit' }` in un modulo; il vue emette `action`."
     vue:
       title: Vue
       description: "La riga dei link e il separatore come partials vue. A differenza delle righe che leggono una rotta, questi due prendono la loro icona e l'etichetta come opzioni, quindi nulla del server è mancante."
@@ -633,6 +708,9 @@ it:
       description: "Quattro tipi condividono una riga: una parola e un obiettivo è un link, una parola e uno stato è un toggle, una parola e figli è un ramo, e una linea semplice è un separatore. Niente dichiara il suo tipo — deriva da ciò che l'elemento porta. Un toggle spende il suo slot principale sul suo marchio, quindi una colonna di essi mantiene le sue parole allineate, e il pannello rimane aperto sotto di esso: un menu di filtri è letto a manciate, non uno alla volta."
   menu:
     primary: 'Pulsante menu'
+    save: Salva
+    save_vue: 'Salva, in vue'
+    publish: Pubblica
     filters: Filtri
     filters_vue: 'Filtri, in vue'
     counted: 'Con conteggi'
@@ -649,6 +727,9 @@ it:
       top_right: 'In alto a destra'
     item:
       report: Segnala
+      draft: 'Salva come bozza'
+      copy: 'Salva una copia'
+      schedule: Pianifica
       inbox: 'Posta in arrivo'
       alerts: Avvisi
       settings: Impostazioni
@@ -670,6 +751,9 @@ ja:
   page_title: メニュー
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 分割ボタン
+      description: "1つのアクションを実行し、他のオプションを提供するボタンです：本体がアクションを実行し、末尾に付いているカーソル — そしてそのカーソルだけがメニューを開きます。`button_menu` は `action` を与えられます — `{ href }` またはフォーム内の `{ type: 'submit' }`；vueのものは `action` を発火します。"
     vue:
       title: Vue
       description: リンク行とセパレーターはvueのパーシャルです。ルートを読み込む行とは異なり、これらの2つはアイコンとラベルをオプションとして取得するため、サーバーの情報は失われません。
@@ -686,6 +770,9 @@ ja:
       description: '4つの種類が1行を共有します：単語とターゲットはリンク、単語と状態はトグル、単語と子要素はブランチ、裸のラインはセパレーターです。何もその種類を明示することはありません — それはアイテムが持つものから導かれます。トグルはその印にリーディングスロットを使うため、それらの列は単語を揃えたままにし、パネルはその下で開いたままになります：フィルターのメニューは一度に一つではなく、一握りで読むことができます。'
   menu:
     primary: メニューボタン
+    save: 保存
+    save_vue: vueで保存
+    publish: 公開
     filters: フィルター
     filters_vue: フィルター（vue）
     counted: カウント付き
@@ -702,6 +789,9 @@ ja:
       top_right: 右上
     item:
       report: レポート
+      draft: 下書きとして保存
+      copy: コピーを保存
+      schedule: スケジュール設定
       inbox: 受信箱
       alerts: アラート
       settings: 設定
@@ -723,6 +813,9 @@ ko:
   page_title: 메뉴
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: '분할 버튼'
+      description: "하나의 작업을 수행하고 다른 옵션을 제공하는 버튼: 본체는 작업을 수행하고, 끝에 붙어 있는 화살표 — 오직 화살표만 — 메뉴를 엽니다. `button_menu`는 `action` — `{ href }` 또는 양식에서 `{ type: 'submit' }`을 제공합니다; vue는 `action`을 방출합니다."
     vue:
       title: Vue
       description: '링크 행과 구분선은 vue 부분입니다. 경로를 읽는 행과는 달리, 이 두 개는 아이콘과 레이블을 옵션으로 받으므로 서버의 어떤 것도 누락되지 않습니다.'
@@ -739,6 +832,9 @@ ko:
       description: '네 가지 종류가 하나의 행을 공유합니다: 단어와 대상은 링크, 단어와 상태는 토글, 단어와 자식은 분기, 그리고 빈 줄은 구분선입니다. 자신의 종류를 선언하는 것은 없습니다 — 그것은 항목이 담고 있는 것에서 유래합니다. 토글은 그 표시를 위한 선행 슬롯을 사용하므로, 그들의 열은 단어가 정렬되어 있으며, 패널은 그 아래에 열려 있습니다: 필터 메뉴는 한 번에 하나가 아니라 한 줌으로 읽힙니다.'
   menu:
     primary: '메뉴 버튼'
+    save: 저장
+    save_vue: '저장, vue에서'
+    publish: 게시
     filters: 필터
     filters_vue: 'vue에서의 필터'
     counted: '카운트가 있는'
@@ -755,6 +851,9 @@ ko:
       top_right: '오른쪽 상단'
     item:
       report: 보고서
+      draft: '초안으로 저장'
+      copy: '사본 저장'
+      schedule: '일정 설정'
       inbox: '받은 편지함'
       alerts: 알림
       settings: 설정
@@ -776,6 +875,9 @@ nl:
   page_title: "Menu's"
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: Splitknoppen
+      description: "Een knop die één actie uitvoert en de andere aanbiedt: het lichaam voert de actie uit, de caret die eraan vastzit — en alleen de caret — opent het menu. `button_menu` gegeven een `action` — `{ href }`, of `{ type: 'submit' }` in een formulier; de vue versie geeft `action` uit."
     vue:
       title: Vue
       description: 'De linkrij en de scheider als vue-partials. In tegenstelling tot de rijen die een route lezen, nemen deze twee hun icoon en label als opties, zodat er niets van de server ontbreekt.'
@@ -792,6 +894,9 @@ nl:
       description: 'Vier soorten delen één rij: een woord en een doel is een link, een woord en een staat is een toggle, een woord en kinderen is een tak, en een blote lijn is een scheider. Niets verklaart zijn soort — het volgt uit wat het item draagt. Een toggle gebruikt zijn leidende slot voor zijn merk, zodat een kolom daarvan zijn woorden uitgelijnd houdt, en het paneel open blijft eronder: een menu van filters wordt met de hand gelezen, niet één voor één.'
   menu:
     primary: 'Menu knop'
+    save: Opslaan
+    save_vue: 'Opslaan, in vue'
+    publish: Publiceren
     filters: Filters
     filters_vue: 'Filters, in vue'
     counted: 'Met tellingen'
@@ -808,6 +913,9 @@ nl:
       top_right: 'Boven rechts'
     item:
       report: Rapporteer
+      draft: 'Opslaan als concept'
+      copy: 'Een kopie opslaan'
+      schedule: Inplannen
       inbox: Inbox
       alerts: Alerts
       settings: Instellingen
@@ -829,6 +937,9 @@ pl:
   page_title: Menu
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Przyciski podzielone'
+      description: "Przycisk, który wykonuje jedną czynność i oferuje inne: jego główna część wykonuje akcję, strzałka przylegająca do końca — i tylko strzałka — otwiera menu. `button_menu` przyjmuje `action` — `{ href }`, lub `{ type: 'submit' }` w formularzu; vue emituje `action`."
     vue:
       title: Vue
       description: 'Wiersz linku i separator jako części vue. W przeciwieństwie do wierszy, które odczytują trasę, te dwa przyjmują ikonę i etykietę jako opcje, więc niczego z serwera nie brakuje.'
@@ -845,6 +956,9 @@ pl:
       description: 'Cztery rodzaje dzielą jeden wiersz: słowo i cel to link, słowo i stan to przełącznik, słowo i dzieci to gałąź, a goła linia to separator. Nic nie deklaruje swojego rodzaju — wynika to z tego, co niesie element. Przełącznik wykorzystuje swoje wiodące miejsce na swoim znaku, więc kolumna z nimi utrzymuje swoje słowa w linii, a panel pozostaje otwarty pod nim: menu filtrów odczytuje się garściami, a nie po jednym.'
   menu:
     primary: 'Przycisk menu'
+    save: Zapisz
+    save_vue: 'Zapisz, w vue'
+    publish: Opublikuj
     filters: Filtry
     filters_vue: 'Filtry, w vue'
     counted: 'Z licznikami'
@@ -861,6 +975,9 @@ pl:
       top_right: 'Góra prawo'
     item:
       report: Zgłoś
+      draft: 'Zapisz jako wersję roboczą'
+      copy: 'Zapisz kopię'
+      schedule: Zaplanuj
       inbox: 'Skrzynka odbiorcza'
       alerts: Powiadomienia
       settings: Ustawienia
@@ -882,6 +999,9 @@ pt_BR:
   page_title: Menus
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Botões divididos'
+      description: "Um botão que faz uma coisa e oferece as outras: seu corpo realiza a ação, a seta presa ao final — e apenas a seta — abre o menu. `button_menu` dado uma `action` — `{ href }`, ou `{ type: 'submit' }` em um formulário; o vue emite `action`."
     vue:
       title: Vue
       description: 'A linha de link e o separador como partes do vue. Diferente das linhas que leem uma rota, esses dois utilizam seu ícone e rótulo como opções, então nada do servidor está faltando.'
@@ -898,6 +1018,9 @@ pt_BR:
       description: 'Quatro tipos compartilham uma linha: uma palavra e um destino é um link, uma palavra e um estado é um alternador, uma palavra e filhos é um ramo, e uma linha simples é um separador. Nada declara seu tipo — isso vem do que o item carrega. Um alternador gasta seu espaço inicial em sua marca, então uma coluna deles mantém suas palavras alinhadas, e o painel permanece aberto sob ele: um menu de filtros é lido em grupos, não um de cada vez.'
   menu:
     primary: 'Botão do menu'
+    save: Salvar
+    save_vue: 'Salvar, no vue'
+    publish: Publicar
     filters: Filtros
     filters_vue: 'Filtros, em vue'
     counted: 'Com contagens'
@@ -914,6 +1037,9 @@ pt_BR:
       top_right: 'Canto superior direito'
     item:
       report: Relatar
+      draft: 'Salvar como rascunho'
+      copy: 'Salvar uma cópia'
+      schedule: Agendar
       inbox: 'Caixa de entrada'
       alerts: Alertas
       settings: Configurações
@@ -935,6 +1061,9 @@ ru:
   page_title: Меню
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Разделенные кнопки'
+      description: "Кнопка, которая выполняет одно действие и предлагает другие: ее основная часть выполняет действие, а стрелка, прикрепленная к ее концу — и только стрелка — открывает меню. `button_menu` принимает `action` — `{ href }`, или `{ type: 'submit' }` в форме; vue-версия генерирует `action`."
     vue:
       title: Vue
       description: 'Строка ссылок и разделитель как части vue. В отличие от строк, которые читают маршрут, эти две принимают свои иконки и метки в качестве опций, так что ничего с сервера не пропущено.'
@@ -951,6 +1080,9 @@ ru:
       description: 'Четыре вида делят один ряд: слово и цель — это ссылка, слово и состояние — это переключатель, слово и дочерние элементы — это ветка, а простая линия — это разделитель. Ничто не объявляет своего рода — это следует из того, что несет элемент. Переключатель тратит свое ведущее место на свой знак, так что колонка из них сохраняет свои слова выровненными, и панель остается открытой под ней: меню фильтров читается по нескольку, а не по одному за раз.'
   menu:
     primary: 'Кнопка меню'
+    save: Сохранить
+    save_vue: 'Сохранить в vue'
+    publish: Опубликовать
     filters: Фильтры
     filters_vue: 'Фильтры, в vue'
     counted: 'С количеством'
@@ -967,6 +1099,9 @@ ru:
       top_right: 'Справа сверху'
     item:
       report: Сообщить
+      draft: 'Сохранить как черновик'
+      copy: 'Сохранить копию'
+      schedule: Запланировать
       inbox: Входящие
       alerts: Уведомления
       settings: Настройки
@@ -988,6 +1123,9 @@ th:
   page_title: เมนู
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: ปุ่มแยก
+      description: "ปุ่มที่ทำหนึ่งสิ่งและเสนอสิ่งอื่น: ตัวปุ่มทำการกระทำ ขอบที่ติดอยู่ที่ปลายของมัน — และเฉพาะขอบเท่านั้น — จะเปิดเมนู `button_menu` ที่มี `action` — `{ href }` หรือ `{ type: 'submit' }` ในฟอร์ม; เวอร์ชัน vue จะส่งออก `action`."
     vue:
       title: Vue
       description: 'แถวลิงก์และตัวแบ่งในรูปแบบ Vue โดยไม่เหมือนกับแถวที่อ่านเส้นทาง สองตัวนี้จะใช้ไอคอนและป้ายกำกับเป็นตัวเลือก ดังนั้นไม่มีอะไรที่ขาดหายไปจากเซิร์ฟเวอร์'
@@ -1004,6 +1142,9 @@ th:
       description: 'สี่ประเภทแบ่งปันแถวเดียว: คำและเป้าหมายคือลิงก์ คำและสถานะคือการสลับ คำและเด็กคือสาขา และแถวเปล่าคือตัวแบ่ง ไม่มีอะไรประกาศประเภทของมัน — มันตามมาจากสิ่งที่ไอเท็มมีอยู่ การสลับใช้ช่องนำของมันกับเครื่องหมายของมัน ดังนั้นคอลัมน์ของมันจึงรักษาคำให้ตรงกัน และแผงจะเปิดอยู่ใต้: เมนูฟิลเตอร์จะอ่านเป็นกลุ่ม ไม่ใช่ทีละรายการ'
   menu:
     primary: ปุ่มเมนู
+    save: บันทึก
+    save_vue: 'บันทึกใน vue'
+    publish: เผยแพร่
     filters: ฟิลเตอร์
     filters_vue: 'ฟิลเตอร์ในรูปแบบ Vue'
     counted: มีจำนวน
@@ -1020,6 +1161,9 @@ th:
       top_right: มุมขวาบน
     item:
       report: รายงาน
+      draft: บันทึกเป็นร่าง
+      copy: บันทึกสำเนา
+      schedule: ตั้งเวลา
       inbox: กล่องขาเข้า
       alerts: การแจ้งเตือน
       settings: การตั้งค่า
@@ -1041,6 +1185,9 @@ tr:
   page_title: Menüler
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Bölme düğmeleri'
+      description: "Bir şeyi yapan ve diğerlerini sunan bir düğme: gövdesi eylemi gerçekleştirir, ucuna takılı olan ok — ve sadece ok — menüyü açar. `button_menu` bir `action` — `{ href }` veya bir formda `{ type: 'submit' }` verir; vue'daki biri `action` yayar."
     vue:
       title: Vue
       description: 'Bağlantı satırı ve ayırıcı, vue parçaları olarak. Bir rotayı okuyan satırlardan farklı olarak, bu ikisi simgesini ve etiketini seçenek olarak alır, bu nedenle sunucudan hiçbir şey eksik değildir.'
@@ -1057,6 +1204,9 @@ tr:
       description: 'Dört tür bir satırı paylaşır: bir kelime ve bir hedef bir bağlantıdır, bir kelime ve bir durum bir geçiştir, bir kelime ve çocuklar bir dal oluşturur ve çıplak bir çizgi bir ayırıcıdır. Hiçbir şey türünü beyan etmez - öğenin taşıdığına bağlıdır. Bir geçiş, önde gelen slotunu işaretine harcar, bu nedenle bunların bir sütunu kelimelerini hizalı tutar ve panel altında açık kalır: bir filtre menüsü avuçla okunur, birer birer değil.'
   menu:
     primary: 'Menü butonu'
+    save: Kaydet
+    save_vue: "Vue'da kaydet"
+    publish: Yayınla
     filters: Filtreler
     filters_vue: "Filtreler, vue'da"
     counted: 'Sayılara sahip'
@@ -1073,6 +1223,9 @@ tr:
       top_right: 'Sağ üst'
     item:
       report: 'Rapor et'
+      draft: 'Taslak olarak kaydet'
+      copy: 'Bir kopyasını kaydet'
+      schedule: Zamanla
       inbox: 'Gelen kutusu'
       alerts: Uyarılar
       settings: Ayarlar
@@ -1094,6 +1247,9 @@ ur:
   page_title: مینوز
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'اسپلیٹ بٹن'
+      description: "ایک بٹن جو ایک کام کرتا ہے اور دوسرے آپشن فراہم کرتا ہے: اس کا جسم عمل کرتا ہے، اور اس کے آخر پر لگا ہوا کیریٹ — اور صرف کیریٹ — مینو کھولتا ہے۔ `button_menu` کو ایک `action` دی گئی — `{ href }`، یا `{ type: 'submit' }` کسی فارم میں؛ ویو میں یہ `action` جاری کرتا ہے۔"
     vue:
       title: ویو
       description: 'لنک رو اور سیپریٹر ویو کے جزو کے طور پر۔ ان رووں کے برعکس جو راستے کو پڑھتے ہیں، یہ دونوں اپنے آئیکن اور لیبل کو آپشن کے طور پر لیتے ہیں، اس لیے سرور کا کچھ بھی غائب نہیں ہوتا۔'
@@ -1110,6 +1266,9 @@ ur:
       description: 'چار اقسام ایک صف میں شریک ہیں: ایک لفظ اور ایک ٹارگٹ ایک لنک ہے، ایک لفظ اور ایک حالت ایک ٹوگل ہے، ایک لفظ اور بچے ایک شاخ ہے، اور ایک خالی لائن ایک سیپریٹر ہے۔ کچھ بھی اپنی قسم کا اعلان نہیں کرتا — یہ اس چیز سے ظاہر ہوتا ہے جو آئٹم کے پاس ہے۔ ایک ٹوگل اپنے نشان پر اپنا ابتدائی سلاٹ خرچ کرتا ہے، لہذا ان کا ایک کالم اپنے الفاظ کو متوازن رکھتا ہے، اور اس کے نیچے پینل کھلا رہتا ہے: فلٹرز کا ایک مینو ہاتھوں سے پڑھا جاتا ہے، ایک وقت میں نہیں۔'
   menu:
     primary: 'مینو بٹن'
+    save: 'محفوظ کریں'
+    save_vue: 'ویو میں محفوظ کریں'
+    publish: 'شائع کریں'
     filters: فلٹرز
     filters_vue: 'فلٹرز، ویو میں'
     counted: 'گنتیوں کے ساتھ'
@@ -1126,6 +1285,9 @@ ur:
       top_right: 'اوپر دائیں'
     item:
       report: 'رپورٹ کریں'
+      draft: 'مسودہ کے طور پر محفوظ کریں'
+      copy: 'ایک کاپی محفوظ کریں'
+      schedule: 'شیڈول کریں'
       inbox: 'ان باکس'
       alerts: الرٹس
       settings: ترتیبات
@@ -1147,6 +1309,9 @@ vi:
   page_title: Menus
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Nút tách'
+      description: "Một nút thực hiện một hành động và cung cấp các hành động khác: thân nút thực hiện hành động, mũi tên gắn liền với cuối nút — và chỉ mũi tên — mở menu. `button_menu` được cung cấp một `action` — `{ href }`, hoặc `{ type: 'submit' }` trong một biểu mẫu; phiên bản vue phát ra `action`."
     vue:
       title: Vue
       description: 'Dòng liên kết và dấu phân cách như các phần của vue. Khác với các dòng đọc một tuyến đường, hai cái này nhận biểu tượng và nhãn là tùy chọn, vì vậy không có gì từ máy chủ bị thiếu.'
@@ -1163,6 +1328,9 @@ vi:
       description: 'Bốn loại chia sẻ một dòng: một từ và một mục tiêu là một liên kết, một từ và một trạng thái là một công tắc, một từ và các mục con là một nhánh, và một dòng trần là một dấu phân cách. Không có gì tuyên bố loại của nó — nó theo từ những gì mục mang. Một công tắc dành vị trí dẫn đầu của nó cho dấu hiệu của nó, vì vậy một cột của chúng giữ các từ của nó thẳng hàng, và bảng điều khiển vẫn mở ở dưới: một menu lọc được đọc theo nhóm, không phải từng cái một.'
   menu:
     primary: 'Nút menu'
+    save: Lưu
+    save_vue: 'Lưu, trong vue'
+    publish: 'Xuất bản'
     filters: Lọc
     filters_vue: 'Lọc, trong vue'
     counted: 'Có số lượng'
@@ -1179,6 +1347,9 @@ vi:
       top_right: 'Trên cùng bên phải'
     item:
       report: 'Báo cáo'
+      draft: 'Lưu dưới dạng bản nháp'
+      copy: 'Lưu một bản sao'
+      schedule: 'Lên lịch'
       inbox: 'Hộp thư đến'
       alerts: 'Thông báo'
       settings: 'Cài đặt'

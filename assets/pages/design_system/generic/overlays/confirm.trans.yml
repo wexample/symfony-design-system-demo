@@ -115,6 +115,20 @@ ar:
 bn:
   page_title: 'নিশ্চিত করুন'
   section:
+    form:
+      description: 'এটি একটি ফর্ম যা পাঠানোর আগে জিজ্ঞাসা করে, এর নিজস্ব কোন স্ক্রিপ্ট নেই: ফর্মে data-confirm-message, অথবা এটিকে পাঠানো বোতামে। যদি হ্যাঁ উত্তর দেওয়া হয়, এটি যেমন হবে তেমন পাঠানো হয়।'
+      button: 'রেকর্ড আর্কাইভ করুন'
+      title: 'এই রেকর্ডটি আর্কাইভ করবেন?'
+      message: 'এটি তালিকা থেকে চলে যাবে; এটি যা ধারণ করে সব কিছু রাখা হয়।'
+      accept: 'আর্কাইভ করুন'
+    destructive:
+      description: 'এটি একটি উত্তর যা ফিরিয়ে নেওয়া সম্ভব নয়: এটি বিপদের রূপে চিত্রিত, এবং এর উপর ফোকাস বা এন্টার শুরু হয় না — এসকেপ এবং এন্টার উভয়ই পিছনে ফিরে যায়।'
+      button: 'একটি অ্যাকাউন্ট অকার্যকর করুন'
+      title: 'এই অ্যাকাউন্টটি অকার্যকর করবেন?'
+      message: 'জুলিয়েন গোটিয়ার আর সাইন ইন করতে পারবেন না।'
+      action:
+        confirm: 'অকার্যকর করুন'
+        cancel: 'বাতিল করুন'
     short:
       description: 'সংক্ষিপ্ত টেক্সট সহ নিশ্চিত করুন (ওভারলে)।'
       button: 'নিশ্চিত করতে খুলুন'
@@ -158,6 +172,20 @@ bn:
 de:
   page_title: Bestätigen
   section:
+    form:
+      description: 'Ein Formular, das vor dem Senden nachfragt, ohne eigenes Skript: data-confirm-message im Formular oder auf dem absendenden Button. Bei Antwort ja wird es so gesendet, wie es wäre.'
+      button: 'Datensatz archivieren'
+      title: 'Diesen Datensatz archivieren?'
+      message: 'Es verlässt die Listen; alles, was es enthält, bleibt erhalten.'
+      accept: Archivieren
+    destructive:
+      description: 'Eine Antwort, die nicht rückgängig gemacht werden kann: als Gefahr dargestellt, und weder der Fokus noch Enter starten darauf – Escape und Enter brechen beide ab.'
+      button: 'Ein Konto deaktivieren'
+      title: 'Dieses Konto deaktivieren?'
+      message: 'Julien Gautier kann sich nicht mehr anmelden.'
+      action:
+        confirm: Deaktivieren
+        cancel: Abbrechen
     short:
       description: 'Bestätigen mit kurzem Text (Overlay).'
       button: 'Bestätigung öffnen'
@@ -201,6 +229,20 @@ de:
 es:
   page_title: Confirmar
   section:
+    form:
+      description: 'Un formulario que pregunta antes de enviarse, sin un script propio: mensaje de confirmación de datos en el formulario o en el botón que lo envía. Respondido sí, se envía como lo habría hecho.'
+      button: 'Archivar el registro'
+      title: '¿Archivar este registro?'
+      message: 'Sale de las listas; todo lo que contiene se conserva.'
+      accept: Archivar
+    destructive:
+      description: 'Una respuesta que no se puede deshacer: presentada como un peligro, y ni el enfoque ni Enter inician en ella — Esc Escape y Enter retroceden.'
+      button: 'Desactivar una cuenta'
+      title: '¿Desactivar esta cuenta?'
+      message: 'Julien Gautier ya no podrá iniciar sesión.'
+      action:
+        confirm: Desactivar
+        cancel: Cancelar
     short:
       description: 'Confirmar con texto corto (superposición).'
       button: 'Abrir confirmar'
@@ -244,6 +286,20 @@ es:
 fa:
   page_title: تأیید
   section:
+    form:
+      description: 'فرمی که قبل از ارسال از کاربر تأیید می‌خواهد، بدون اسکریپت خاص: پیام تأیید داده در فرم یا روی دکمه ارسال آن. اگر پاسخ بله باشد، مانند قبل ارسال می‌شود.'
+      button: 'ثبت رکورد'
+      title: 'آیا این رکورد را ثبت کنیم؟'
+      message: 'از لیست‌ها خارج می‌شود؛ هر آنچه را که دارد حفظ می‌کند.'
+      accept: ثبت
+    destructive:
+      description: 'پاسخی که قابل برگشت نیست: به‌عنوان یک خطر نمایش داده می‌شود و نه فوکوس و نه Enter بر روی آن شروع می‌شود — Escape و Enter هر دو به عقب برمی‌گردند.'
+      button: 'غیرفعال کردن حساب کاربری'
+      title: 'آیا این حساب کاربری را غیرفعال کنیم؟'
+      message: 'ژولین گوتیه دیگر نمی‌تواند وارد حساب شود.'
+      action:
+        confirm: 'غیرفعال کردن'
+        cancel: لغو
     short:
       description: 'تأیید با متن کوتاه (پوشش).'
       button: 'تأیید را باز کن'
@@ -287,6 +343,20 @@ fa:
 fi:
   page_title: Vahvista
   section:
+    form:
+      description: 'Lomake, joka kysyy ennen lähettämistä, ilman omaa skriptiä: data-confirm-message lomakkeessa tai lähettävässä painikkeessa. Jos vastaat kyllä, se lähetetään kuten olisi lähetetty.'
+      button: 'Arkistoi tietue'
+      title: 'Arkistoidaanko tämä tietue?'
+      message: 'Se poistuu luetteloista; kaikki sen sisältämä säilytetään.'
+      accept: Arkistoida
+    destructive:
+      description: 'Vastaus, jota ei voi peruuttaa: esitetään vaarana, eikä siihen voi keskittyä tai painaa Enteriä — Escape ja Enter molemmat peruuttavat.'
+      button: 'Poista tili käytöstä'
+      title: 'Poistetaanko tämä tili käytöstä?'
+      message: 'Julien Gautier ei voi enää kirjautua sisään.'
+      action:
+        confirm: 'Poista käytöstä'
+        cancel: Peruuta
     short:
       description: 'Vahvista lyhyellä tekstillä (ylipeite).'
       button: 'Avaa vahvistus'
@@ -387,6 +457,20 @@ fr:
 he:
   page_title: אישור
   section:
+    form:
+      description: 'טופס שמבקש אישור לפני שהוא נשלח, ללא סקריפט משלו: הודעת אישור נתונים בטופס, או על הכפתור ששולח אותו. אם עונים כן, הוא נשלח כפי שהיה נשלח.'
+      button: 'ארכב את הרשומה'
+      title: 'לארכב את הרשומה הזו?'
+      message: 'זה עוזב את הרשימות; כל מה שהוא מחזיק נשמר.'
+      accept: ארכב
+    destructive:
+      description: 'תשובה שלא ניתן לבטל: מוצגת כסכנה, ולא הפוקוס ולא Enter מתחילים עליה — Escape ו-Enter יוצאים משם.'
+      button: 'בטל את פעולת החשבון'
+      title: 'לבטל את החשבון הזה?'
+      message: "ג'וליאן גוטייה לא יוכל להתחבר יותר."
+      action:
+        confirm: בטל
+        cancel: ביטול
     short:
       description: 'אישור עם טקסט קצר (שכבת עליונה).'
       button: 'פתח אישור'
@@ -430,6 +514,20 @@ he:
 hi:
   page_title: 'पुष्टि करें'
   section:
+    form:
+      description: 'एक फॉर्म जो भेजे जाने से पहले पूछता है, बिना किसी स्क्रिप्ट के: फॉर्म पर data-confirm-message, या इसे भेजने वाले बटन पर। अगर हाँ का उत्तर दिया गया, तो इसे वैसे ही भेजा जाएगा जैसे इसे भेजा जाना था।'
+      button: 'रिकॉर्ड संग्रहित करें'
+      title: 'क्या इस रिकॉर्ड को संग्रहित करें?'
+      message: 'यह सूचियों से हट जाएगा; इसमें जो कुछ भी है, वह सुरक्षित रहेगा।'
+      accept: 'संग्रहित करें'
+    destructive:
+      description: 'एक उत्तर जिसे पूर्ववत नहीं किया जा सकता: इसे खतरे के रूप में दर्शाया गया है, और न तो फोकस और न ही एंटर इस पर शुरू होता है - एस्केप और एंटर दोनों बाहर निकलते हैं।'
+      button: 'खाता निष्क्रिय करें'
+      title: 'क्या इस खाते को निष्क्रिय करें?'
+      message: 'जूलियन गॉटिएर अब साइन इन नहीं कर पाएंगे।'
+      action:
+        confirm: 'निष्क्रिय करें'
+        cancel: 'रद्द करें'
     short:
       description: 'संक्षिप्त पाठ के साथ पुष्टि करें (ओवरले)।'
       button: 'पुष्टि खोलें'
@@ -473,6 +571,20 @@ hi:
 id:
   page_title: Konfirmasi
   section:
+    form:
+      description: 'Sebuah formulir yang meminta konfirmasi sebelum dikirim, tanpa skrip sendiri: data-confirm-message pada formulir, atau pada tombol yang mengirimnya. Jika dijawab ya, akan dikirim seperti seharusnya.'
+      button: 'Arsipkan catatan'
+      title: 'Arsipkan catatan ini?'
+      message: 'Ini akan keluar dari daftar; semua yang ada di dalamnya akan disimpan.'
+      accept: Arsipkan
+    destructive:
+      description: 'Sebuah jawaban yang tidak dapat dibatalkan: digambarkan sebagai bahaya, dan baik fokus maupun Enter tidak dimulai di sini — Escape dan Enter keduanya keluar.'
+      button: 'Nonaktifkan akun'
+      title: 'Nonaktifkan akun ini?'
+      message: 'Julien Gautier tidak akan bisa masuk lagi.'
+      action:
+        confirm: Nonaktifkan
+        cancel: Batal
     short:
       description: 'Konfirmasi dengan teks singkat (overlay).'
       button: 'Buka konfirmasi'
@@ -516,6 +628,20 @@ id:
 it:
   page_title: Conferma
   section:
+    form:
+      description: 'Un modulo che chiede conferma prima di essere inviato, senza uno script proprio: messaggio di conferma dei dati sul modulo o sul pulsante che lo invia. Rispondendo sì, viene inviato come sarebbe stato.'
+      button: 'Archivia il record'
+      title: 'Archivia questo record?'
+      message: 'Esce dalle liste; tutto ciò che contiene viene mantenuto.'
+      accept: Archivia
+    destructive:
+      description: 'Una risposta che non può essere annullata: presentata come un pericolo, e né il focus né Invio iniziano su di essa — Escape e Invio portano entrambi indietro.'
+      button: 'Disattiva un account'
+      title: 'Disattivare questo account?'
+      message: 'Julien Gautier non potrà più accedere.'
+      action:
+        confirm: Disattiva
+        cancel: Annulla
     short:
       description: 'Conferma con testo breve (overlay).'
       button: 'Apri conferma'
@@ -559,6 +685,20 @@ it:
 ja:
   page_title: 確認
   section:
+    form:
+      description: 送信前に確認を求めるフォームで、自身のスクリプトはありません：フォームまたは送信ボタンにデータ確認メッセージがあります。はいと答えると、通常通り送信されます。
+      button: 記録をアーカイブ
+      title: この記録をアーカイブしますか？
+      message: リストから削除されますが、保持しているすべての内容は保存されます。
+      accept: アーカイブ
+    destructive:
+      description: '取り消しできない回答：危険として描かれ、フォーカスやEnterでは選択できません — EscapeとEnterの両方でキャンセルされます。'
+      button: アカウントを無効化
+      title: このアカウントを無効化しますか？
+      message: ジュリアン・ゴティエはサインインできなくなります。
+      action:
+        confirm: 無効化
+        cancel: キャンセル
     short:
       description: 短いテキストで確認（オーバーレイ）します。
       button: 確認を開く
@@ -602,6 +742,20 @@ ja:
 ko:
   page_title: 확인
   section:
+    form:
+      description: '전송되기 전에 확인을 요청하는 양식으로, 자체 스크립트가 없음: 양식이나 전송 버튼에 data-confirm-message가 있음. 예라고 응답하면, 원래와 같이 전송됨.'
+      button: '기록 보관'
+      title: '이 기록을 보관하시겠습니까?'
+      message: '목록에서 제거되며, 보관된 모든 내용은 유지됩니다.'
+      accept: 보관
+    destructive:
+      description: '되돌릴 수 없는 응답: 위험으로 표시되며, 포커스나 Enter로 시작되지 않음 — Escape와 Enter 모두 취소함.'
+      button: '계정 비활성화'
+      title: '이 계정을 비활성화하시겠습니까?'
+      message: 'Julien Gautier는 더 이상 로그인할 수 없습니다.'
+      action:
+        confirm: 비활성화
+        cancel: 취소
     short:
       description: '짧은 텍스트로 확인하기 (오버레이).'
       button: '확인 열기'
@@ -645,6 +799,20 @@ ko:
 nl:
   page_title: Bevestigen
   section:
+    form:
+      description: 'Een formulier dat vraagt voordat het wordt verzonden, zonder eigen script: data-confirm-message op het formulier, of op de knop die het verzendt. Bij ja, wordt het verzonden zoals het zou zijn.'
+      button: Archiveren
+      title: 'Deze record archiveren?'
+      message: 'Het verlaat de lijsten; alles wat het bevat blijft bewaard.'
+      accept: Archiveren
+    destructive:
+      description: 'Een antwoord dat niet ongedaan kan worden gemaakt: getekend als een gevaar, en noch de focus noch Enter start erop — Escape en Enter stappen beide terug.'
+      button: 'Deactiveer een account'
+      title: 'Dit account deactiveren?'
+      message: 'Julien Gautier kan zich niet meer aanmelden.'
+      action:
+        confirm: Deactiveren
+        cancel: Annuleren
     short:
       description: 'Bevestigen met korte tekst (overlay).'
       button: 'Bevestigen openen'
@@ -688,6 +856,20 @@ nl:
 pl:
   page_title: Potwierdź
   section:
+    form:
+      description: 'Formularz z zapytaniem przed wysłaniem, bez własnego skryptu: data-confirm-message na formularzu lub na przycisku go wysyłającego. Odpowiedź tak, zostaje wysłany tak, jakby był.'
+      button: 'Zarchiwizuj rekord'
+      title: 'Zarchiwizować ten rekord?'
+      message: 'Znika z list; wszystko, co zawiera, jest zachowane.'
+      accept: Zarchiwizuj
+    destructive:
+      description: 'Odpowiedź, której nie można cofnąć: przedstawiona jako niebezpieczeństwo, ani fokus, ani Enter nie uruchamiają jej — Esc i Enter obie cofną.'
+      button: 'Dezaktywuj konto'
+      title: 'Dezaktywować to konto?'
+      message: 'Julien Gautier nie będzie mógł się zalogować.'
+      action:
+        confirm: Dezaktywuj
+        cancel: Anuluj
     short:
       description: 'Potwierdź krótkim tekstem (nakładka).'
       button: 'Otwórz potwierdzenie'
@@ -731,6 +913,20 @@ pl:
 pt_BR:
   page_title: Confirmar
   section:
+    form:
+      description: 'Um formulário que pergunta antes de ser enviado, sem script próprio: data-confirm-message no formulário ou no botão que o envia. Respondido sim, é enviado como teria sido.'
+      button: 'Arquivar o registro'
+      title: 'Arquivar este registro?'
+      message: 'Ele sai das listas; tudo o que contém é mantido.'
+      accept: Arquivar
+    destructive:
+      description: 'Uma resposta que não pode ser desfeita: apresentada como um perigo, e nem o foco nem Enter iniciam nela — Escape e Enter cancelam ambos.'
+      button: 'Desativar uma conta'
+      title: 'Desativar esta conta?'
+      message: 'Julien Gautier não poderá mais fazer login.'
+      action:
+        confirm: Desativar
+        cancel: Cancelar
     short:
       description: 'Confirme com texto curto (sobreposição).'
       button: 'Abrir confirmação'
@@ -774,6 +970,20 @@ pt_BR:
 ru:
   page_title: Подтверждение
   section:
+    form:
+      description: 'Форма, запрашивающая подтверждение перед отправкой, без собственного скрипта: data-confirm-message на форме или на кнопке отправки. Если ответ "да", отправляется так, как и должно было бы.'
+      button: 'Архивировать запись'
+      title: 'Архивировать эту запись?'
+      message: 'Она покинет списки; всё, что она содержит, будет сохранено.'
+      accept: Архивировать
+    destructive:
+      description: 'Ответ, который нельзя отменить: обозначен как опасный, и фокус или Enter не активируют его — Esc и Enter отменяют действие.'
+      button: 'Деактивировать аккаунт'
+      title: 'Деактивировать этот аккаунт?'
+      message: 'Жюльен Готье больше не сможет войти в систему.'
+      action:
+        confirm: Деактивировать
+        cancel: Отмена
     short:
       description: 'Подтверждение с коротким текстом (оверлей).'
       button: 'Открыть подтверждение'
@@ -817,6 +1027,20 @@ ru:
 th:
   page_title: ยืนยัน
   section:
+    form:
+      description: 'แบบฟอร์มที่ถามก่อนที่จะส่ง โดยไม่มีสคริปต์ของตัวเอง: data-confirm-message บนแบบฟอร์มหรือบนปุ่มที่ส่งมัน หากตอบว่าใช่ จะถูกส่งตามที่เคยเป็นมา'
+      button: จัดเก็บบันทึก
+      title: 'จัดเก็บบันทึกนี้หรือไม่?'
+      message: 'มันจะออกจากรายการ; ทุกอย่างที่มันถืออยู่จะถูกเก็บไว้'
+      accept: จัดเก็บ
+    destructive:
+      description: 'คำตอบที่ไม่สามารถย้อนกลับได้: แสดงเป็นอันตราย และไม่ให้โฟกัสหรือ Enter เริ่มที่มัน — Escape และ Enter ทั้งคู่จะกลับออกมา'
+      button: ปิดการใช้งานบัญชี
+      title: 'ปิดการใช้งานบัญชีนี้หรือไม่?'
+      message: 'Julien Gautier จะไม่สามารถลงชื่อเข้าใช้ได้อีกต่อไป'
+      action:
+        confirm: ปิดการใช้งาน
+        cancel: ยกเลิก
     short:
       description: 'ยืนยันด้วยข้อความสั้น (overlay).'
       button: เปิดยืนยัน
@@ -860,6 +1084,20 @@ th:
 tr:
   page_title: Onayla
   section:
+    form:
+      description: 'Gönderilmeden önce sorulan bir form, kendi scripti yok: formda veya gönderen butonda data-confirm-message. Evet yanıtı verilirse, olduğu gibi gönderilir.'
+      button: 'Kaydı arşivle'
+      title: 'Bu kaydı arşivlemek ister misiniz?'
+      message: 'Listelerden çıkar; içindeki her şey saklanır.'
+      accept: Arşivle
+    destructive:
+      description: 'Geri alınamaz bir yanıt: tehlike olarak gösterilir ve ne odaklanma ne de Enter ile başlatılır — Escape ve Enter her ikisi de geri döner.'
+      button: 'Bir hesabı devre dışı bırak'
+      title: 'Bu hesabı devre dışı bırakmak ister misiniz?'
+      message: 'Julien Gautier artık oturum açamayacak.'
+      action:
+        confirm: 'Devre dışı bırak'
+        cancel: İptal
     short:
       description: 'Kısa metinle onayla (overlay).'
       button: 'Onayı aç'
@@ -903,6 +1141,20 @@ tr:
 ur:
   page_title: 'تصدیق کریں'
   section:
+    form:
+      description: 'ایک فارم جو بھیجنے سے پہلے پوچھتا ہے، بغیر کسی اپنے اسکرپٹ کے: فارم پر data-confirm-message، یا اسے بھیجنے والے بٹن پر۔ ہاں کا جواب دیا تو یہ ویسے ہی بھیجا جائے گا جیسے ہوتا۔'
+      button: 'ریکارڈ کو محفوظ کریں'
+      title: 'کیا اس ریکارڈ کو محفوظ کریں؟'
+      message: 'یہ فہرستوں سے نکل جاتا ہے؛ یہ جو کچھ رکھتا ہے وہ محفوظ رہتا ہے۔'
+      accept: 'محفوظ کریں'
+    destructive:
+      description: 'ایسا جواب جو واپس نہیں لیا جا سکتا: خطرے کی شکل میں پیش کیا گیا ہے، اور نہ تو توجہ مرکوز کی جا سکتی ہے اور نہ ہی Enter دبایا جا سکتا ہے — Escape اور Enter دونوں باہر نکل جاتے ہیں۔'
+      button: 'اکاؤنٹ کو غیر فعال کریں'
+      title: 'کیا اس اکاؤنٹ کو غیر فعال کریں؟'
+      message: 'جولین گوٹیئر اب سائن ان نہیں کر سکے گا۔'
+      action:
+        confirm: 'غیر فعال کریں'
+        cancel: 'کینسل کریں'
     short:
       description: 'مختصر متن کے ساتھ تصدیق کریں (اوورلے)۔'
       button: 'تصدیق کھولیں'
@@ -946,6 +1198,20 @@ ur:
 vi:
   page_title: 'Xác nhận'
   section:
+    form:
+      description: 'Một biểu mẫu yêu cầu xác nhận trước khi được gửi, không có kịch bản riêng: thông điệp xác nhận dữ liệu trên biểu mẫu hoặc trên nút gửi. Nếu trả lời có, nó sẽ được gửi như đã dự kiến.'
+      button: 'Lưu trữ bản ghi'
+      title: 'Có lưu trữ bản ghi này không?'
+      message: 'Nó sẽ rời khỏi danh sách; mọi thứ nó giữ lại sẽ được lưu giữ.'
+      accept: 'Lưu trữ'
+    destructive:
+      description: 'Một câu trả lời không thể hoàn tác: được thể hiện như một sự nguy hiểm, và cả tiêu điểm lẫn phím Enter đều không bắt đầu trên nó — Phím Esc và Enter đều thoát ra.'
+      button: 'Vô hiệu hóa tài khoản'
+      title: 'Có vô hiệu hóa tài khoản này không?'
+      message: 'Julien Gautier sẽ không còn có thể đăng nhập.'
+      action:
+        confirm: 'Vô hiệu hóa'
+        cancel: Hủy
     short:
       description: 'Xác nhận với văn bản ngắn (overlay).'
       button: 'Mở xác nhận'

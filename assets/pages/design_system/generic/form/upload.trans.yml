@@ -79,3 +79,383 @@ ar:
     received:
       title: 'تم الاستلام'
       empty: 'لا شيء بعد. قم بإعادة تحميل الصفحة بمجرد إرسال ملف.'
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'अपलोड करें'
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'जिन फ़ाइलों को ज़ोन पर गिराया गया है या उसके बटन के साथ चुना गया है, उन्हें उस निर्देशिका में टुकड़ों में भेजा जाता है जिसके लिए पृष्ठ हस्ताक्षरित है — कोई भी प्रकार, कोई भी आकार —, और उन्हें स्क्रीन के नीचे लगे अपलोड विंडो में देखा जा सकता है, जिसे बंद या मोड़ा जा सकता है।'
+  section:
+    zone:
+      title: 'एक ड्रॉप ज़ोन'
+      description: '`upload_dropzone(directory)`: फ़ाइलें यहाँ गिराएँ, या उन्हें चुनें। पता इस एक निर्देशिका के लिए हस्ताक्षरित है; ब्राउज़र कुछ और नहीं भेज सकता।'
+    compact:
+      title: 'एक पंक्ति में'
+      description: '`compact: true`, जहाँ पृष्ठ पर थोड़ी जगह होती है: शब्द, फिर बटन।'
+    restricted:
+      title: 'प्रकार और आकार'
+      description: '`accept` — एक्सटेंशन या MIME प्रकार, जैसे कि HTML विशेषता उनमें पढ़ती है — और `max_size`, बाइट्स में, पते में निर्देशिका के साथ हस्ताक्षरित होते हैं। पिकर केवल स्वीकृत प्रकार दिखाता है; सर्वर बाकी को अस्वीकृत करता है, पहले टुकड़े में फ़ाइल बहुत बड़ी, एक प्रकार जो उसके सामग्री द्वारा पूरे होने पर बताया गया है, और अपलोड विंडो बताती है कि क्यों। यहाँ: स्प्रेडशीट और चित्र, अधिकतम 2 MB।'
+      hint: 'स्प्रेडशीट या चित्र, अधिकतम 2 MB'
+    received:
+      title: 'प्राप्त हुआ'
+      empty: 'अभी तक कुछ नहीं। एक फ़ाइल भेजने के बाद पृष्ठ को फिर से लोड करें।'
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: העלאה
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'קבצים שנופלים באזור או נבחרים עם הכפתור נשלחים לחתיכות לספריה שהדף חתם עליה — כל סוג, כל גודל —, ומעקב אחריהם מתבצע בחלון ההעלאות הממוקם בתחתית המסך, שניתן לקפל או לסגור בזמן ההעלאה.'
+  section:
+    zone:
+      title: 'אזור נפילה'
+      description: '`upload_dropzone(directory)`: הנח קבצים כאן, או בחר אותם. הכתובת חתומה עבור ספריה זו בלבד; הדפדפן אינו יכול לשלוח שום דבר לשום מקום אחר.'
+    compact:
+      title: 'בשורה אחת'
+      description: '`compact: true`, כאשר לדף יש מעט מקום: המילים, ואז הכפתור.'
+    restricted:
+      title: 'סוגים וגודל'
+      description: '`accept` — סיומות או סוגי MIME, כפי שהמאפיין HTML קורא להם — ו- `max_size`, בבתים, חתומים בכתובת עם הספריה. הבוחר מראה רק את הסוגים המתקבלים; השרת מסרב לשאר, קובץ גדול מדי בחתיכה הראשונה שלו, סוג שנאמר על ידי התוכן שלו כשהוא שלם, וחלון ההעלאות אומר למה. כאן: גיליונות אלקטרוניים ודימויים, 2 MB לכל היותר.'
+      hint: 'גיליונות אלקטרוניים או דימויים, 2 MB לכל היותר'
+    received:
+      title: התקבל
+      empty: 'אין עדיין כלום. טען מחדש את הדף לאחר ששלחת קובץ.'
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: بارگذاری
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'فایل‌هایی که روی ناحیه رها شده‌اند یا با دکمه آن انتخاب شده‌اند، به صورت تکه‌ای به دایرکتوری که صفحه برای آن امضا شده ارسال می‌شوند — هر نوع، هر اندازه — و در پنجره بارگذاری که در پایین صفحه قرار دارد دنبال می‌شوند، که می‌تواند در حین بارگذاری جمع یا بسته شود.'
+  section:
+    zone:
+      title: 'ناحیه رها کردن'
+      description: '`upload_dropzone(directory)`: فایل‌ها را اینجا رها کنید یا انتخاب کنید. آدرس برای این دایرکتوری امضا شده است؛ مرورگر نمی‌تواند چیزی به جای دیگری ارسال کند.'
+    compact:
+      title: 'در یک خط'
+      description: '`compact: true`، زمانی که صفحه فضای کمی دارد: کلمات، سپس دکمه.'
+    restricted:
+      title: 'انواع و اندازه'
+      description: '`accept` — پسوندها یا نوع‌های MIME، همان‌طور که ویژگی HTML آن‌ها را می‌خواند — و `max_size`، در بایت، به آدرس با دایرکتوری امضا شده‌اند. انتخاب‌کننده فقط انواع پذیرفته شده را نشان می‌دهد؛ سرور بقیه را رد می‌کند، فایلی که در تکه اول خیلی بزرگ است، نوعی که با محتوای آن مشخص می‌شود، و پنجره بارگذاری دلیل را می‌گوید. در اینجا: صفحه‌گسترده‌ها و تصاویر، حداکثر ۲ مگابایت.'
+      hint: 'صفحه‌گسترده‌ها یا تصاویر، حداکثر ۲ مگابایت'
+    received:
+      title: 'دریافت شده'
+      empty: 'هنوز هیچ چیزی نیست. پس از ارسال یک فایل، صفحه را دوباره بارگذاری کنید.'
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'اپ لوڈ کریں'
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'زون پر گرائے گئے فائلیں یا بٹن کے ذریعے منتخب کردہ فائلیں اس ڈائرکٹری میں ٹکڑوں میں بھیجی جاتی ہیں جس کے لیے یہ صفحہ سائن کیا گیا ہے — کسی بھی قسم کی، کسی بھی سائز کی —، اور انہیں اس اپ لوڈز ونڈو میں دکھایا جاتا ہے جو اسکرین کے نیچے جڑی ہوتی ہے، جسے بند یا چھوٹا کیا جا سکتا ہے جبکہ وہ جاری رہتی ہیں۔'
+  section:
+    zone:
+      title: 'ڈراپ زون'
+      description: '`upload_dropzone(directory)`: فائلیں یہاں چھوڑیں، یا انہیں منتخب کریں۔ یہ پتہ صرف اسی ایک ڈائرکٹری کے لیے سائن کیا گیا ہے؛ براؤزر کچھ اور بھیج نہیں سکتا۔'
+    compact:
+      title: 'ایک لائن میں'
+      description: '`compact: true`، جہاں صفحہ پر تھوڑی جگہ ہو: الفاظ، پھر بٹن۔'
+    restricted:
+      title: 'اقسام اور سائز'
+      description: '`accept` — توسیعات یا MIME اقسام، جیسے کہ HTML کی خصوصیت میں پڑھا گیا ہے — اور `max_size`، بائٹس میں، پتہ میں ڈائرکٹری کے ساتھ سائن کیے جاتے ہیں۔ پکر صرف قبول شدہ اقسام دکھاتا ہے؛ سرور باقی کو مسترد کرتا ہے، پہلی ٹکڑی میں ایک فائل بہت بڑی، ایک قسم جو اس کے مواد کے ذریعے ایک بار مکمل ہونے پر بتائی گئی، اور اپ لوڈز ونڈو بتاتی ہے کیوں۔ یہاں: اسپریڈشیٹس اور تصاویر، زیادہ سے زیادہ 2 MB۔'
+      hint: 'اسپریڈشیٹس یا تصاویر، زیادہ سے زیادہ 2 MB'
+    received:
+      title: 'موصول ہوا'
+      empty: 'ابھی کچھ نہیں۔ جب کوئی فائل بھیجی جائے تو صفحہ کو دوبارہ لوڈ کریں.'
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: アップロード
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'ゾーンにドロップされたファイルまたはボタンで選択されたファイルは、ページが署名したディレクトリに分割して送信されます — どんな種類でも、どんなサイズでも — そして、画面の下部にドッキングされたアップロードウィンドウで追跡されます。このウィンドウは、送信中に折りたたむことも閉じることもできます。'
+  section:
+    zone:
+      title: ドロップゾーン
+      description: '`upload_dropzone(directory)`：ここにファイルをドロップするか、選択してください。このアドレスはこの1つのディレクトリに署名されています。ブラウザは他の場所に送信することはできません。'
+    compact:
+      title: 1行表示
+      description: '`compact: true`、スペースが限られているページで：単語の後にボタン。'
+    restricted:
+      title: 種類とサイズ
+      description: '`accept` — 拡張子またはMIMEタイプ、HTML属性が読み取るもの — および `max_size`（バイト単位）は、ディレクトリとともにアドレスに署名されています。ピッカーは受け入れられる種類のみを表示し、サーバーは残りを拒否します。ファイルが最初の部分で大きすぎる場合や、全体が揃ったときにその内容によって種類が決まる場合、アップロードウィンドウが理由を表示します。ここでは：スプレッドシートと画像、最大2MB。'
+      hint: スプレッドシートまたは画像、最大2MB
+    received:
+      title: 受信済み
+      empty: まだ何もありません。ファイルが送信されたら、ページを再読み込みしてください。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 업로드
+  page_icon: 'ph:bold/upload-simple'
+  intro: '드래그하여 영역에 놓거나 버튼으로 선택한 파일은 페이지가 서명한 디렉토리로 조각조각 전송됩니다 — 모든 종류, 모든 크기 — , 그리고 화면 하단에 고정된 업로드 창에서 진행 상황을 확인할 수 있으며, 파일 전송 중에도 창을 접거나 닫을 수 있습니다.'
+  section:
+    zone:
+      title: '드롭 존'
+      description: '`upload_dropzone(directory)`: 여기서 파일을 드롭하거나 선택하세요. 주소는 이 디렉토리에 서명되어 있으며, 브라우저는 다른 곳으로 전송할 수 없습니다.'
+    compact:
+      title: '한 줄에'
+      description: '`compact: true`, 공간이 적은 페이지에서: 단어와 버튼이 이어집니다.'
+    restricted:
+      title: '종류와 크기'
+      description: '`accept` — 확장자 또는 MIME 타입, HTML 속성이 읽는 대로 — 및 `max_size`(바이트 단위)는 디렉토리와 함께 주소에 서명됩니다. 선택기는 허용된 종류만 표시하며; 서버는 나머지를 거부하고, 첫 조각에서 너무 큰 파일이나 내용에 따라 전체적으로 알려진 종류는 업로드 창에서 사유를 설명합니다. 여기: 스프레드시트와 이미지, 최대 2MB입니다.'
+      hint: '스프레드시트 또는 이미지, 최대 2MB'
+    received:
+      title: '받은 파일'
+      empty: '아직 아무것도 없습니다. 파일이 전송되면 페이지를 새로 고치세요.'
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: আপলোড
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'একটি অঞ্চলে ফাইল ফেলা অথবা এর বোতাম দিয়ে বাছাই করা হলে সেগুলি পৃষ্ঠায় স্বাক্ষরিত ডিরেক্টরিতে টুকরো টুকরো করে পাঠানো হয় — যেকোন ধরনের, যেকোন মাপের — এবং এগুলি স্ক্রিনের নীচে ডকড আপলোড উইন্ডোতে অনুসরণ করা হয়, যা যেতে যেতে ভাঁজ করা বা বন্ধ করা যেতে পারে।'
+  section:
+    zone:
+      title: 'একটি ড্রপ অঞ্চল'
+      description: '`upload_dropzone(directory)`: এখানে ফাইল ফেলুন, অথবা সেগুলি বাছাই করুন। ঠিকানা এই এক ডিরেক্টরির জন্য স্বাক্ষরিত; ব্রাউজার অন্য কোথাও কিছু পাঠাতে পারে না।'
+    compact:
+      title: 'একটি লাইনে'
+      description: '`compact: true`, যেখানে একটি পৃষ্ঠায় খুব কম জায়গা আছে: শব্দগুলি, তারপর বোতাম।'
+    restricted:
+      title: 'প্রকার এবং আকার'
+      description: '`accept` — এক্সটেনশন্স বা MIME টাইপ, যেমন HTML বৈশিষ্ট্য এটি পড়ে — এবং `max_size`, বাইটে, ঠিকানায় ডিরেক্টরির সাথে স্বাক্ষরিত হয়। পিকার কেবলমাত্র গ্রহণযোগ্য প্রকারগুলি দেখায়; সার্ভার বাকিগুলি প্রত্যাখ্যান করে, প্রথম টুকরোতে একটি ফাইল খুব বড় হলে, একসাথে সম্পূর্ণ হলে এর বিষয়বস্তু দ্বারা বলা একটি প্রকার, এবং আপলোড উইন্ডো বলে কেন। এখানে: স্প্রেডশীট এবং চিত্র, সর্বাধিক 2 এমবি।'
+      hint: 'স্প্রেডশীট বা চিত্র, সর্বাধিক 2 এমবি'
+    received:
+      title: 'প্রাপ্ত হয়েছে'
+      empty: 'এখনো কিছুই নেই। একটি ফাইল পাঠানো হলে পৃষ্ঠা রিফ্রেশ করুন।'
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: อัปโหลด
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'ไฟล์ที่ถูกลากไปยังพื้นที่หรือเลือกด้วยปุ่มจะถูกส่งเป็นชิ้นไปยังไดเรกทอรีที่หน้าลงนามไว้ — ทุกประเภท ทุกขนาด — และติดตามในหน้าต่างการอัปโหลดที่อยู่ด้านล่างของหน้าจอ ซึ่งสามารถพับหรือปิดได้ในขณะที่กำลังไป.'
+  section:
+    zone:
+      title: พื้นที่วางไฟล์
+      description: '`upload_dropzone(directory)`: วางไฟล์ที่นี่ หรือเลือกไฟล์ ปลายทางนี้ถูกลงนามสำหรับไดเรกทอรีนี้เท่านั้น; เบราว์เซอร์ไม่สามารถส่งอะไรไปที่อื่นได้.'
+    compact:
+      title: ในบรรทัดเดียว
+      description: '`compact: true`, เมื่อหน้าเว็บมีพื้นที่น้อย: คำพูด จากนั้นปุ่ม.'
+    restricted:
+      title: ประเภทและขนาด
+      description: '`accept` — นามสกุลหรือประเภท MIME ตามที่แอตทริบิวต์ HTML อ่าน — และ `max_size`, ในไบต์ ถูกลงนามในที่อยู่พร้อมกับไดเรกทอรี ตัวเลือกจะแสดงเฉพาะประเภทที่ยอมรับ; เซิร์ฟเวอร์จะปฏิเสธส่วนที่เหลือ ไฟล์ที่มีขนาดใหญ่เกินไปในชิ้นแรก ประเภทที่บอกโดยเนื้อหาหลังจากสมบูรณ์ และหน้าต่างการอัปโหลดจะแจ้งเหตุผล ที่นี่: สเปรดชีตและภาพ ไม่เกิน 2 MB.'
+      hint: 'สเปรดชีตหรือภาพ ไม่เกิน 2 MB'
+    received:
+      title: ได้รับแล้ว
+      empty: 'ยังไม่มีอะไร รีโหลดหน้าหลังจากส่งไฟล์.'
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Hochladen
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Dateien, die in eine Zone gezogen oder über den Button ausgewählt werden, werden in Stücken in das Verzeichnis gesendet, für das die Seite signiert ist — jeder Art, jede Größe — und im Upload-Fenster verfolgt, das am Fuß des Bildschirms angedockt ist und während des Vorgangs gefaltet oder geschlossen werden kann.'
+  section:
+    zone:
+      title: 'Eine Ablagezone'
+      description: '`upload_dropzone(directory)`: Dateien hier ablegen oder auswählen. Die Adresse ist für dieses eine Verzeichnis signiert; der Browser kann nichts anderswohin senden.'
+    compact:
+      title: 'Auf einer Zeile'
+      description: '`compact: true`, wo eine Seite wenig Platz hat: die Wörter, dann der Button.'
+    restricted:
+      title: 'Arten und Größe'
+      description: '`accept` — Erweiterungen oder MIME-Typen, wie das HTML-Attribut sie liest — und `max_size`, in Bytes, sind in der Adresse mit dem Verzeichnis signiert. Der Picker zeigt nur die akzeptierten Arten an; der Server lehnt den Rest ab, eine Datei, die zu groß ist, bereits beim ersten Stück, eine Art, die durch ihren Inhalt einmal ganz bestimmt wird, und das Upload-Fenster sagt warum. Hier: Tabellenkalkulationen und Bilder, maximal 2 MB.'
+      hint: 'Tabellenkalkulationen oder Bilder, maximal 2 MB'
+    received:
+      title: Empfangen
+      empty: 'Noch nichts. Laden Sie die Seite neu, sobald eine Datei gesendet wurde.'
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Lataa
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Täällä pudotetut tiedostot tai nappulalla valitut tiedostot lähetetään osissa sivun määrittämään hakemistoon — mitä tahansa, minkä kokoista tahansa — ja niitä seurataan latausten ikkunassa, joka on kiinnitetty näytön alareunaan ja jonka voi taittaa tai sulkea samalla kun tiedostot menevät.'
+  section:
+    zone:
+      title: Pudotustila
+      description: '`upload_dropzone(directory)`: pudota tiedostoja tänne tai valitse ne. Osoite on allekirjoitettu tätä hakemistoa varten; selain ei voi lähettää mitään muualle.'
+    compact:
+      title: 'Yhdellä rivillä'
+      description: '`compact: true`, kun sivulla on vähän tilaa: sanat, sitten nappula.'
+    restricted:
+      title: 'Tyypit ja koko'
+      description: '`accept` — tiedostopäätteet tai MIME-tyypit, kuten HTML-attribuutti ne lukee — ja `max_size`, tavuina, on allekirjoitettu osoitteeseen hakemiston kanssa. Valitsija näyttää vain hyväksytyt tyypit; palvelin hylkää muut, tiedosto, joka on liian suuri ensimmäisessä osassa, tyyppi, jonka sisältö kertoo kokonaisuudessaan, ja latausten ikkuna kertoo miksi. Tässä: taulukot ja kuvat, enintään 2 MB.'
+      hint: 'Taulukot tai kuvat, enintään 2 MB'
+    received:
+      title: Vastaanotettu
+      empty: 'Ei vielä mitään. Lataa sivu uudelleen, kun tiedosto on lähetetty.'
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Загрузить
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Файлы, помещенные в зону или выбранные с помощью кнопки, отправляются частями в директорию, на которую подписана страница — любого типа, любого размера — и отслеживаются в окне загрузок, закрепленном в нижней части экрана, которое можно свернуть или закрыть во время загрузки.'
+  section:
+    zone:
+      title: 'Зона сброса'
+      description: '`upload_dropzone(directory)`: сбрасывайте файлы сюда или выбирайте их. Адрес подписан для этой одной директории; браузер не может отправить ничего в другое место.'
+    compact:
+      title: 'В одну строку'
+      description: '`compact: true`, где на странице мало места: слова, затем кнопка.'
+    restricted:
+      title: 'Типы и размер'
+      description: '`accept` — расширения или MIME-типы, как это указано в HTML-атрибуте — и `max_size`, в байтах, подписаны в адресе с директориями. Выборщик показывает только допустимые типы; сервер отклоняет остальные, файл слишком большой в первой части, тип определяется по содержимому при полной загрузке, и окно загрузок сообщает, почему. Здесь: таблицы и изображения, не более 2 МБ.'
+      hint: 'Таблицы или изображения, не более 2 МБ'
+    received:
+      title: Получено
+      empty: 'Пока ничего. Обновите страницу, как только файл будет отправлен.'
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Prześlij
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Pliki przeciągnięte do strefy lub wybrane za pomocą przycisku są wysyłane w częściach do katalogu, który został podpisany przez stronę — dowolny rodzaj, dowolny rozmiar — i są śledzone w oknie przesyłania przypiętym na dole ekranu, które można zwinąć lub zamknąć w trakcie przesyłania.'
+  section:
+    zone:
+      title: 'Strefa przeciągania'
+      description: '`upload_dropzone(directory)`: przeciągnij pliki tutaj lub wybierz je. Adres jest podpisany dla tego jednego katalogu; przeglądarka nie może wysyłać niczego gdzie indziej.'
+    compact:
+      title: 'W jednej linii'
+      description: '`compact: true`, gdzie strona ma mało miejsca: słowa, a potem przycisk.'
+    restricted:
+      title: 'Rodzaje i rozmiar'
+      description: '`accept` — rozszerzenia lub typy MIME, tak jak odczytuje je atrybut HTML — oraz `max_size`, w bajtach, są podpisane w adresie razem z katalogiem. Wybierak pokazuje tylko akceptowane rodzaje; serwer odrzuca resztę, plik zbyt duży w swojej pierwszej części, rodzaj określony przez jego zawartość po złożeniu, a okno przesyłania mówi dlaczego. Tutaj: arkusze kalkulacyjne i obrazy, maksymalnie 2 MB.'
+      hint: 'Arkusze kalkulacyjne lub obrazy, maksymalnie 2 MB'
+    received:
+      title: Odebrane
+      empty: 'Na razie nic. Odśwież stronę, gdy plik zostanie wysłany.'
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Subir
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Los archivos que se sueltan en una zona o se eligen con su botón se envían en partes al directorio para el que la página está firmada — cualquier tipo, cualquier tamaño —, y se pueden seguir en la ventana de subidas acoplada en la parte inferior de la pantalla, que se puede plegar o cerrar mientras se envían.'
+  section:
+    zone:
+      title: 'Una zona de drop'
+      description: '`upload_dropzone(directory)`: suelta archivos aquí o elígelos. La dirección está firmada para este directorio; el navegador no puede enviar nada a otro lugar.'
+    compact:
+      title: 'En una línea'
+      description: '`compact: true`, donde una página tiene poco espacio: las palabras, luego el botón.'
+    restricted:
+      title: 'Tipos y tamaño'
+      description: '`accept` — extensiones o tipos MIME, según los lee el atributo HTML — y `max_size`, en bytes, están firmados en la dirección con el directorio. El selector muestra solo los tipos aceptados; el servidor rechaza el resto, un archivo demasiado grande en su primera parte, un tipo indicado por su contenido una vez completo, y la ventana de subidas dice por qué. Aquí: hojas de cálculo e imágenes, 2 MB como máximo.'
+      hint: 'Hojas de cálculo o imágenes, 2 MB como máximo'
+    received:
+      title: Recibido
+      empty: 'Nada aún. Recarga la página una vez se envíe un archivo.'
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Carica
+  page_icon: 'ph:bold/upload-simple'
+  intro: "I file trascinati in un'area o selezionati con il suo pulsante vengono inviati a pezzi nella directory firmata dalla pagina — di qualsiasi tipo, di qualsiasi dimensione —, e seguiti nella finestra degli upload ancorata nella parte inferiore dello schermo, che può essere ridotta o chiusa mentre vengono inviati."
+  section:
+    zone:
+      title: "Un'area di rilascio"
+      description: "`upload_dropzone(directory)`: trascina qui i file, o selezionali. L'indirizzo è firmato per questa directory; il browser non può inviare nulla altrove."
+    compact:
+      title: 'Su una riga'
+      description: '`compact: true`, dove una pagina ha poco spazio: le parole, poi il pulsante.'
+    restricted:
+      title: 'Tipi e dimensioni'
+      description: "`accept` — estensioni o tipi MIME, come li legge l'attributo HTML — e `max_size`, in byte, sono firmati nell'indirizzo con la directory. Il selettore mostra solo i tipi accettati; il server rifiuta il resto, un file troppo grande nel suo primo pezzo, un tipo indicato dal suo contenuto una volta completo, e la finestra degli upload indica il motivo. Qui: fogli di calcolo e immagini, massimo 2 MB."
+      hint: 'Fogli di calcolo o immagini, massimo 2 MB'
+    received:
+      title: Ricevuti
+      empty: 'Niente ancora. Ricarica la pagina una volta che un file è stato inviato.'
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Enviar
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Arquivos soltos em uma área ou escolhidos com seu botão são enviados em partes para o diretório que a página assinou — qualquer tipo, qualquer tamanho —, e acompanhados na janela de uploads fixada na parte inferior da tela, que pode ser recolhida ou fechada enquanto estão sendo enviados.'
+  section:
+    zone:
+      title: 'Uma área de descarregamento'
+      description: '`upload_dropzone(directory)`: solte arquivos aqui ou escolha-os. O endereço está assinado para este único diretório; o navegador não pode enviar nada para outro lugar.'
+    compact:
+      title: 'Em uma linha'
+      description: '`compact: true`, onde uma página tem pouco espaço: as palavras, então o botão.'
+    restricted:
+      title: 'Tipos e tamanho'
+      description: '`accept` — extensões ou tipos MIME, conforme o atributo HTML os lê — e `max_size`, em bytes, estão assinados no endereço com o diretório. O seletor mostra apenas os tipos aceitos; o servidor rejeita o resto, um arquivo muito grande na sua primeira parte, um tipo indicado pelo seu conteúdo quando completo, e a janela de uploads diz o porquê. Aqui: planilhas e imagens, 2 MB no máximo.'
+      hint: 'Planilhas ou imagens, 2 MB no máximo'
+    received:
+      title: Recebido
+      empty: 'Nada ainda. Recarregue a página uma vez que um arquivo seja enviado.'
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Yükle
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Bir alana bırakılan veya buton ile seçilen dosyalar, sayfanın imzaladığı dizine parça parça gönderilir — her türlü, her boyut — ve bunlar, ekranın alt kısmında yer alan yüklemeler penceresinde takip edilir, bu pencere katlanabilir veya kapatılabilir.'
+  section:
+    zone:
+      title: 'Bırakma alanı'
+      description: '`upload_dropzone(directory)`: dosyaları buraya bırakın veya seçin. Adres bu tek dizin için imzalanmıştır; tarayıcı başka bir yere hiçbir şey gönderemez.'
+    compact:
+      title: 'Tek satırda'
+      description: '`compact: true`, sayfanın az yeri olduğunda: önce kelimeler, sonra buton.'
+    restricted:
+      title: 'Türler ve boyut'
+      description: '`accept` — uzantılar veya MIME türleri, HTML niteliği olarak nasıl okunuyorsa — ve `max_size`, bayt cinsinden, adresle birlikte dizine imzalanır. Seçici yalnızca kabul edilen türleri gösterir; sunucu geri kalanını reddeder, bir dosya ilk parçasında çok büyükse, içeriği bir bütün olarak belirtildiğinde bir tür olarak, ve yüklemeler penceresi nedenini açıklar. Burada: elektronik tablolar ve görüntüler, en fazla 2 MB.'
+      hint: 'Elektronik tablolar veya görüntüler, en fazla 2 MB'
+    received:
+      title: Alındı
+      empty: 'Henüz hiçbir şey yok. Bir dosya gönderildiğinde sayfayı yeniden yükleyin.'
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Tải lên'
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Các tệp được thả vào khu vực hoặc chọn bằng nút của nó sẽ được gửi theo từng phần đến thư mục mà trang đã ký — bất kỳ loại nào, bất kỳ kích thước nào — và được theo dõi trong cửa sổ tải lên được ghim ở chân màn hình, có thể được gập lại hoặc đóng trong khi chúng đang được gửi.'
+  section:
+    zone:
+      title: 'Khu vực thả'
+      description: '`upload_dropzone(directory)`: thả tệp vào đây, hoặc chọn chúng. Địa chỉ được ký cho một thư mục này; trình duyệt không thể gửi bất cứ thứ gì đến nơi khác.'
+    compact:
+      title: 'Trên một dòng'
+      description: '`compact: true`, khi trang có ít không gian: các từ, sau đó là nút.'
+    restricted:
+      title: 'Loại và kích thước'
+      description: '`accept` — các phần mở rộng hoặc loại MIME, như thuộc tính HTML đọc chúng — và `max_size`, tính bằng byte, được ký vào địa chỉ với thư mục. Trình chọn chỉ hiển thị các loại được chấp nhận; máy chủ từ chối phần còn lại, một tệp quá lớn vào phần đầu tiên của nó, một loại được xác định bởi nội dung của nó khi hoàn chỉnh, và cửa sổ tải lên cho biết lý do. Ở đây: bảng tính và hình ảnh, tối đa 2 MB.'
+      hint: 'Bảng tính hoặc hình ảnh, tối đa 2 MB'
+    received:
+      title: 'Đã nhận'
+      empty: 'Chưa có gì cả. Tải lại trang một lần nữa khi một tệp được gửi.'
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Unggah
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'File yang dijatuhkan di zona atau dipilih dengan tombolnya akan dikirim dalam potongan ke direktori yang ditandatangani oleh halaman ini — segala jenis, ukuran apa pun —, dan diikuti di jendela unggahan yang terpasang di bagian bawah layar, yang dapat dilipat atau ditutup saat pengiriman berlangsung.'
+  section:
+    zone:
+      title: 'Zona penempatan'
+      description: '`upload_dropzone(directory)`: jatuhkan file di sini, atau pilih mereka. Alamat ini ditandatangani untuk satu direktori ini; browser tidak dapat mengirimkan apa pun ke tempat lain.'
+    compact:
+      title: 'Dalam satu baris'
+      description: '`compact: true`, di mana halaman memiliki sedikit ruang: kata-kata, kemudian tombolnya.'
+    restricted:
+      title: 'Jenis dan ukuran'
+      description: '`accept` — ekstensi atau tipe MIME, seperti yang dibaca oleh atribut HTML — dan `max_size`, dalam byte, ditandatangani ke dalam alamat dengan direktori. Pemilih hanya menunjukkan jenis yang diterima; server menolak sisanya, file yang terlalu besar pada potongan pertamanya, jenis yang diberitahukan oleh kontennya setelah utuh, dan jendela unggahan akan menjelaskan alasannya. Di sini: spreadsheet dan gambar, maksimal 2 MB.'
+      hint: 'Spreadsheet atau gambar, maksimal 2 MB'
+    received:
+      title: Diterima
+      empty: 'Belum ada. Muat ulang halaman setelah file dikirim.'
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Uploaden
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'Bestanden die op een zone worden gedropt of met de knop worden gekozen, worden in stukken naar de directory gestuurd waarvoor de pagina is ondertekend — van elke soort, elke grootte — en worden gevolgd in het uploads venster dat aan de onderkant van het scherm is vastgemaakt, dat kan worden ingeklapt of gesloten terwijl ze worden verzonden.'
+  section:
+    zone:
+      title: 'Een dropzone'
+      description: '`upload_dropzone(directory)`: drop bestanden hier, of kies ze. Het adres is ondertekend voor deze specifieke directory; de browser kan niets anders verzenden.'
+    compact:
+      title: 'Op één regel'
+      description: '`compact: true`, waar een pagina weinig ruimte heeft: de woorden, dan de knop.'
+    restricted:
+      title: 'Soorten en grootte'
+      description: '`accept` — extensies of MIME-typen, zoals de HTML-attribuut ze leest — en `max_size`, in bytes, zijn in het adres ondertekend met de directory. De picker toont alleen de geaccepteerde soorten; de server weigert de rest, een bestand dat te groot is in zijn eerste stuk, een soort die eenmaal geheel door zijn inhoud wordt aangegeven, en het uploads venster zegt waarom. Hier: spreadsheets en afbeeldingen, maximaal 2 MB.'
+      hint: 'Spreadsheets of afbeeldingen, maximaal 2 MB'
+    received:
+      title: Ontvangen
+      empty: 'Nog niets. Vernieuw de pagina zodra een bestand is verzonden.'

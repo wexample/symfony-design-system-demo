@@ -180,7 +180,19 @@ bn:
   page_title: সম্পত্তি
   page_icon: 'ph:bold/list-dashes'
   intro: 'কী / মান জোড়া একটি সংজ্ঞা তালিকা হিসাবে প্রদর্শিত হয়। সারিগুলি তালিকার উপ-গ্রিড, তাই কী একটি কলামে সজ্জিত থাকে এবং প্রতিটি সারি একটি বাস্তব বাক্স থাকে যা একটি বিভাজক ধারণ করতে পারে।'
+  diff:
+    before: আগে
+    after: এখন
+    email: ইমেইল
+    role: ভূমিকা
+    member: সদস্য
+    admin: প্রশাসক
+    phone: ফোন
+    team: দল
   section:
+    diff:
+      title: 'কি পরিবর্তন হলো'
+      description: 'diff(): ক্ষেত্র দ্বারা ক্ষেত্র, এটি কি ছিল এবং এটি কি — যে মানটি বাদ পড়েছে, যে মানটি পুরোপুরি আছে, একটি খালি দিক এমন বলেছে। একটি রেকর্ডের ইতিহাস, একটি পরিবর্তন নিশ্চিত করার জন্য, একটি সমন্বয় পর্যালোচনাধীন।'
     default:
       title: ডিফল্ট
       description: 'কী কলামটি সবচেয়ে দীর্ঘ লেবেলের উপর ভিত্তি করে আকারে নিজেকে তৈরি করে। এটিকে নির্দিষ্ট করতে --properties-key-width অতিক্রম করুন।'
@@ -254,7 +266,19 @@ de:
   page_title: Eigenschaften
   page_icon: 'ph:bold/list-dashes'
   intro: 'Schlüssel-/Wert-Paare, die als Definitionsliste dargestellt werden. Zeilen sind Untergitter der Liste, sodass die Schlüssel in einer einzelnen Spalte ausgerichtet bleiben, während jede Zeile ein echtes Feld bleibt, das einen Separator tragen kann.'
+  diff:
+    before: Vorher
+    after: Jetzt
+    email: E-Mail
+    role: Rolle
+    member: Mitglied
+    admin: Administrator
+    phone: Telefon
+    team: Team
   section:
+    diff:
+      title: 'Was hat sich geändert'
+      description: 'diff(): Feld für Feld, wie es war und wie es ist — der Wert, der durchgestrichen wurde, der, der vollständig bleibt, eine leere Seite, die als solche gesagt wird. Die Historie eines Eintrags, eine Änderung zur Bestätigung, eine Synchronisierung zur Überprüfung.'
     default:
       title: Standard
       description: 'Die Schlüsselspalte passt sich an das längste Label an. Überschreiben Sie --properties-key-width, um es festzulegen.'
@@ -328,7 +352,19 @@ es:
   page_title: Propiedades
   page_icon: 'ph:bold/list-dashes'
   intro: 'Pares clave / valor renderizados como una lista de definiciones. Las filas son subgrillas de la lista, por lo que las claves permanecen alineadas en una sola columna mientras que cada fila sigue siendo una caja real que puede llevar un separador.'
+  diff:
+    before: Antes
+    after: Ahora
+    email: 'Correo electrónico'
+    role: Rol
+    member: Miembro
+    admin: Administrador
+    phone: Teléfono
+    team: Equipo
   section:
+    diff:
+      title: 'Qué cambió'
+      description: 'diff(): campo por campo, lo que era y lo que es — el valor que se tachó, el que permanece íntegro, un lado vacío dicho como tal. La historia de un registro, un cambio por confirmar, una sincronización en revisión.'
     default:
       title: Predeterminado
       description: 'La columna de clave se ajusta al label más largo. Sobrescribe --properties-key-width para fijarlo.'
@@ -402,7 +438,19 @@ fa:
   page_title: خصوصیات
   page_icon: 'ph:bold/list-dashes'
   intro: 'جفت‌های کلید/مقدار به صورت یک لیست تعریفی نمایش داده می‌شوند. ردیف‌ها زیرمجموعه‌های لیست هستند، بنابراین کلیدها در یک ستون منظم باقی می‌مانند در حالی که هر ردیف یک جعبه واقعی است که می‌تواند جداکننده‌ای را حمل کند.'
+  diff:
+    before: قبل
+    after: اکنون
+    email: ایمیل
+    role: نقش
+    member: عضو
+    admin: مدیر
+    phone: تلفن
+    team: تیم
   section:
+    diff:
+      title: 'چه چیزی تغییر کرد'
+      description: 'diff(): فیلد به فیلد، چه بود و چه شده — مقداری که خط خورده، آنکه به طور کامل باقی مانده، یک سمت خالی به همین صورت گفته شده. تاریخچه یک رکورد، تغییر برای تأیید، همگام‌سازی در حال بررسی.'
     default:
       title: پیش‌فرض
       description: 'ستون کلید به طولانی‌ترین برچسب خود را تنظیم می‌کند. می‌توانید --properties-key-width را برای ثابت نگه‌داشتن آن تغییر دهید.'
@@ -476,7 +524,19 @@ fi:
   page_title: Ominaisuudet
   page_icon: 'ph:bold/list-dashes'
   intro: 'Avain / arvo -parit esitetään määritelmälistana. Rivit ovat listan alaverkkoja, joten avaimet pysyvät kohdistettuina yhteen sarakkeeseen, kun taas jokainen rivi on oikea laatikko, joka voi sisältää erottimen.'
+  diff:
+    before: Ennen
+    after: Nyt
+    email: Sähköposti
+    role: Rooli
+    member: Jäsen
+    admin: Ylläpitäjä
+    phone: Puhelin
+    team: Tiimi
   section:
+    diff:
+      title: 'Mikä muuttui'
+      description: 'diff(): kenttä kentältä, mitä se oli ja mitä se on — arvo, joka poistettiin, se, joka jää täyteen, tyhjää puolta sanotaan niin. Tietueen historia, muutos vahvistettavaksi, synkronointi tarkastettavana.'
     default:
       title: Oletusarvo
       description: 'Avainsarake sopeutuu pisimmän tunnisteen mukaan. Yli kirjoita --properties-key-width kiinnittääksesi sen.'
@@ -636,7 +696,19 @@ he:
   page_title: מאפיינים
   page_icon: 'ph:bold/list-dashes'
   intro: 'זוגות מפתח / ערך מוצגים כרשימת הגדרות. השורות הן תתי-רשימות של הרשימה, כך שהמפתחות נשארים מיושרים בעמודה אחת בזמן שכל שורה נשארת תיבה אמיתית שיכולה להכיל מפריד.'
+  diff:
+    before: לפני
+    after: עכשיו
+    email: אימייל
+    role: תפקיד
+    member: חבר
+    admin: מנהל
+    phone: טלפון
+    team: צוות
   section:
+    diff:
+      title: 'מה השתנה'
+      description: 'diff(): שדה אחר שדה, מה היה ומה יש — הערך שנמחק, זה שנשאר במלואו, צד ריק שנאמר כך. היסטוריית רשומה, שינוי לאישור, סינכרון בבדיקה.'
     default:
       title: 'ברירת מחדל'
       description: 'עמודת המפתח מתאימה את עצמה על פי התווית הארוכה ביותר. ניתן לעקוף את --properties-key-width כדי לקבע אותה.'
@@ -710,7 +782,19 @@ hi:
   page_title: गुण
   page_icon: 'ph:bold/list-dashes'
   intro: 'कुंजी / मान जो परिभाषा सूची के रूप में प्रदर्शित होते हैं। पंक्तियाँ सूची के उपग्रिड हैं, इसलिए कुंजियाँ एकल स्तंभ में संरेखित रहती हैं जबकि प्रत्येक पंक्ति एक वास्तविक बॉक्स बनी रहती है जो एक separator ले जा सकती है।'
+  diff:
+    before: पहले
+    after: अब
+    email: ईमेल
+    role: भूमिका
+    member: सदस्य
+    admin: प्रशासक
+    phone: फोन
+    team: टीम
   section:
+    diff:
+      title: 'क्या बदला'
+      description: 'diff(): क्षेत्र द्वारा क्षेत्र, यह क्या था और यह क्या है - वह मूल्य जो मिटा दिया गया, जो पूरा है, एक खाली पक्ष ऐसा कहा गया। एक रिकॉर्ड का इतिहास, पुष्टि के लिए एक बदलाव, समीक्षा के तहत एक समन्वय।'
     default:
       title: डिफ़ॉल्ट
       description: 'कुंजी स्तंभ अपने सबसे लंबे लेबल के अनुसार आकार लेता है। इसे स्थिर करने के लिए --properties-key-width को ओवरराइड करें।'
@@ -784,7 +868,19 @@ id:
   page_title: Properti
   page_icon: 'ph:bold/list-dashes'
   intro: 'Pasangan kunci / nilai ditampilkan sebagai daftar definisi. Baris adalah subgrid dari daftar, sehingga kunci tetap teratur dalam satu kolom sementara setiap baris tetap sebagai kotak nyata yang dapat membawa pemisah.'
+  diff:
+    before: Sebelum
+    after: Sekarang
+    email: Email
+    role: Peran
+    member: Anggota
+    admin: Administrator
+    phone: Telepon
+    team: Tim
   section:
+    diff:
+      title: 'Apa yang berubah'
+      description: 'diff(): kolom demi kolom, apa adanya dan apa yang sekarang — nilai yang dicoret, yang tetap utuh, sisi kosong disebutkan sebagai demikian. Riwayat catatan, perubahan untuk dikonfirmasi, sinkronisasi dalam tinjauan.'
     default:
       title: Standar
       description: 'Kolom kunci menyesuaikan diri pada label terpanjang. Ganti --properties-key-width untuk menetapkannya.'
@@ -858,7 +954,19 @@ it:
   page_title: Proprietà
   page_icon: 'ph:bold/list-dashes'
   intro: "Coppie chiave / valore visualizzate come un elenco di definizioni. Le righe sono sottogriglie dell'elenco, quindi le chiavi rimangono allineate in una singola colonna mentre ogni riga rimane una vera e propria casella che può contenere un separatore."
+  diff:
+    before: Prima
+    after: Adesso
+    email: Email
+    role: Ruolo
+    member: Membro
+    admin: Amministratore
+    phone: Telefono
+    team: Team
   section:
+    diff:
+      title: 'Cosa è cambiato'
+      description: "diff(): campo per campo, com'era e com'è — il valore che è stato colpito, quello che rimane completo, un lato vuoto detto come tale. La storia di un record, una modifica da confermare, una sincronizzazione in revisione."
     default:
       title: Predefinito
       description: "La colonna delle chiavi si adatta all'etichetta più lunga. Sovrascrivi --properties-key-width per fissarla."
@@ -932,7 +1040,19 @@ ja:
   page_title: プロパティ
   page_icon: 'ph:bold/list-dashes'
   intro: キーと値のペアが定義リストとして表示されます。行はリストのサブグリッドであり、キーは単一の列に整列し、各行はセパレーターを持つ実際のボックスとして保持されます。
+  diff:
+    before: 変更前
+    after: 変更後
+    email: メール
+    role: 役割
+    member: メンバー
+    admin: 管理者
+    phone: 電話
+    team: チーム
   section:
+    diff:
+      title: 変更点
+      description: 'diff(): フィールドごとの変更内容、元の値と現在の値 — 削除された値、残っている値、空の側面はそのように言及される。レコードの履歴、確認が必要な変更、レビュー中の同期。'
     default:
       title: デフォルト
       description: キー列は最も長いラベルに合わせてサイズを調整します。--properties-key-widthをオーバーライドして固定できます。
@@ -1006,7 +1126,19 @@ ko:
   page_title: 속성
   page_icon: 'ph:bold/list-dashes'
   intro: '키/값 쌍이 정의 목록으로 렌더링됩니다. 행은 목록의 하위 그리드로, 키는 한 열에 정렬되고 각 행은 구분자를 가질 수 있는 실제 박스가 됩니다.'
+  diff:
+    before: 이전
+    after: 현재
+    email: 이메일
+    role: 역할
+    member: 회원
+    admin: 관리자
+    phone: 전화
+    team: 팀
   section:
+    diff:
+      title: '변경 사항'
+      description: 'diff(): 필드별로, 무엇이었고 무엇인지 — 삭제된 값, 그대로 남아 있는 값, 비어 있는 면은 그렇게 언급됨. 기록의 역사, 확인할 변경 사항, 검토 중인 동기화.'
     default:
       title: 기본값
       description: '키 열은 가장 긴 레이블에 맞춰 크기가 조정됩니다. --properties-key-width를 재정의하여 고정할 수 있습니다.'
@@ -1080,7 +1212,19 @@ nl:
   page_title: Eigenschappen
   page_icon: 'ph:bold/list-dashes'
   intro: 'Sleutel / waarde-paren weergegeven als een definitielijst. Rijen zijn subraster van de lijst, zodat sleutels in één kolom uitgelijnd blijven terwijl elke rij een echte box blijft die een scheiding kan bevatten.'
+  diff:
+    before: Voorheen
+    after: Nu
+    email: E-mail
+    role: Rol
+    member: Lid
+    admin: Beheerder
+    phone: Telefoon
+    team: Team
   section:
+    diff:
+      title: 'Wat is veranderd'
+      description: 'diff(): veld voor veld, wat het was en wat het is — de waarde die doorgehaald is, de waarde die volledig blijft, een lege zijde die als zodanig wordt aangegeven. De geschiedenis van een record, een wijziging ter bevestiging, een synchronisatie onder review.'
     default:
       title: Standaard
       description: 'De sleutelkolom past zich aan de langste label aan. Overschrijf --properties-key-width om deze vast te pinnen.'
@@ -1154,7 +1298,19 @@ pl:
   page_title: Właściwości
   page_icon: 'ph:bold/list-dashes'
   intro: 'Pary klucz / wartość wyświetlane jako lista definicji. Wiersze są subsiatkami listy, więc klucze pozostają wyrównane w jednej kolumnie, a każdy wiersz to prawdziwe pole, które może zawierać separator.'
+  diff:
+    before: Przed
+    after: Teraz
+    email: Email
+    role: Rola
+    member: Członek
+    admin: Administrator
+    phone: Telefon
+    team: Zespół
   section:
+    diff:
+      title: 'Co się zmieniło'
+      description: 'diff(): pole po polu, co było i co jest — wartość, która została przekreślona, ta, która pozostaje w całości, pusta strona powiedziana jako taka. Historia rekordu, zmiana do potwierdzenia, synchronizacja do przeglądu.'
     default:
       title: Domyślny
       description: 'Kolumna kluczy dostosowuje się do najdłuższej etykiety. Możesz nadpisać --properties-key-width, aby to ustawić.'
@@ -1228,7 +1384,19 @@ pt_BR:
   page_title: Propriedades
   page_icon: 'ph:bold/list-dashes'
   intro: 'Pares de chave / valor apresentados como uma lista de definições. As linhas são subgrids da lista, assim as chaves permanecem alinhadas em uma única coluna enquanto cada linha continua sendo uma caixa real que pode ter um separador.'
+  diff:
+    before: Antes
+    after: Agora
+    email: Email
+    role: Função
+    member: Membro
+    admin: Administrador
+    phone: Telefone
+    team: Equipe
   section:
+    diff:
+      title: 'O que mudou'
+      description: 'diff(): campo a campo, como era e como é — o valor que foi riscado, o que permanece inteiro, um lado vazio dito como tal. O histórico de um registro, uma mudança a confirmar, uma sincronização em revisão.'
     default:
       title: Padrão
       description: 'A coluna de chaves se dimensiona com base no rótulo mais longo. Substitua --properties-key-width para fixá-la.'
@@ -1302,7 +1470,19 @@ ru:
   page_title: Свойства
   page_icon: 'ph:bold/list-dashes'
   intro: 'Пары ключ/значение отображаются в виде списка определений. Строки являются подсетками списка, поэтому ключи остаются выровненными в одном столбце, в то время как каждая строка остается реальным блоком, который может содержать разделитель.'
+  diff:
+    before: До
+    after: Сейчас
+    email: 'Электронная почта'
+    role: Роль
+    member: Участник
+    admin: Администратор
+    phone: Телефон
+    team: Команда
   section:
+    diff:
+      title: 'Что изменилось'
+      description: 'diff(): поле за полем, что было и что стало — значение, которое было вычеркнуто, то, что осталось в полном объёме, пустая сторона обозначена как таковая. История записи, изменение для подтверждения, синхронизация на рассмотрении.'
     default:
       title: 'По умолчанию'
       description: 'Столбец ключей подстраивается под самый длинный ярлык. Переопределите --properties-key-width, чтобы зафиксировать его.'
@@ -1376,7 +1556,19 @@ th:
   page_title: คุณสมบัติ
   page_icon: 'ph:bold/list-dashes'
   intro: 'คู่คีย์/ค่า ที่แสดงเป็นรายการคำจำกัดความ แถวเป็นซับกริดของรายการ ดังนั้นคีย์จึงเรียงอยู่ในคอลัมน์เดียว ขณะที่แต่ละแถวยังคงเป็นกล่องจริงที่สามารถมีตัวคั่นได้'
+  diff:
+    before: ก่อน
+    after: ตอนนี้
+    email: อีเมล
+    role: บทบาท
+    member: สมาชิก
+    admin: ผู้ดูแลระบบ
+    phone: โทรศัพท์
+    team: ทีม
   section:
+    diff:
+      title: สิ่งที่เปลี่ยนแปลง
+      description: 'diff(): ทีละฟิลด์ ว่ามันเป็นอย่างไรและตอนนี้เป็นอย่างไร — ค่าที่ถูกขีดฆ่า ค่าที่ยังอยู่เต็มๆ ด้านว่างที่บอกว่าเป็นแบบนั้น ประวัติของบันทึก การเปลี่ยนแปลงเพื่อยืนยัน การซิงค์อยู่ระหว่างการตรวจสอบ.'
     default:
       title: ค่าเริ่มต้น
       description: 'คอลัมน์คีย์ปรับขนาดตามป้ายชื่อที่ยาวที่สุด สามารถเขียนทับ --properties-key-width เพื่อกำหนดขนาดได้'
@@ -1450,7 +1642,19 @@ tr:
   page_title: Özellikler
   page_icon: 'ph:bold/list-dashes'
   intro: 'Anahtar / değer çiftleri tanım listesi olarak görüntülenir. Satırlar listenin alt ızgaralarıdır, bu nedenle anahtarlar tek bir sütunda hizalanırken her satır gerçek bir kutu olarak kalır ve bir ayırıcı taşıyabilir.'
+  diff:
+    before: Önce
+    after: Şimdi
+    email: E-posta
+    role: Rol
+    member: Üye
+    admin: Yönetici
+    phone: Telefon
+    team: Takım
   section:
+    diff:
+      title: 'Ne değişti'
+      description: 'diff(): alan alan, neydi ve ne oldu — silinen değer, tam kalan, boş olan taraf böyle söylendi. Bir kaydın geçmişi, onaylanacak bir değişiklik, gözden geçirilen bir senkronizasyon.'
     default:
       title: Varsayılan
       description: "Anahtar sütunu en uzun etikete göre boyutlandırılır. Bunu sabitlemek için --properties-key-width'i geçersiz kılın."
@@ -1524,7 +1728,19 @@ ur:
   page_title: خصوصیات
   page_icon: 'ph:bold/list-dashes'
   intro: 'کی-ویلیو جوڑے کو ایک تعریف کی فہرست کے طور پر پیش کیا جاتا ہے۔ قطاریں فہرست کے ذیلی گرڈز ہیں، لہذا چابیاں ایک ہی کالم میں سیدھی رہتی ہیں جبکہ ہر قطار ایک حقیقی باکس رہتی ہے جو ایک جداکار کو لے جا سکتی ہے۔'
+  diff:
+    before: پہلے
+    after: اب
+    email: 'ای میل'
+    role: کردار
+    member: رکن
+    admin: منتظم
+    phone: فون
+    team: ٹیم
   section:
+    diff:
+      title: 'کیا بدلا'
+      description: 'diff(): میدان بہ میدان، یہ کیا تھا اور یہ کیا ہے — وہ قیمت جو حذف کی گئی، وہ جو مکمل طور پر برقرار ہے، ایک خالی طرف جو اس طرح کہی گئی۔ ایک ریکارڈ کی تاریخ، ایک تبدیلی کی تصدیق، ایک ہم وقت سازی زیر جائزہ۔'
     default:
       title: ڈیفالٹ
       description: 'چابی کا کالم سب سے طویل لیبل کے مطابق اپنی جگہ بناتا ہے۔ --properties-key-width کو اووررائیڈ کریں تاکہ اسے مقرر کیا جا سکے۔'
@@ -1598,7 +1814,19 @@ vi:
   page_title: 'Thuộc tính'
   page_icon: 'ph:bold/list-dashes'
   intro: 'Cặp khóa / giá trị được hiển thị dưới dạng danh sách định nghĩa. Các hàng là các lưới con của danh sách, vì vậy các khóa luôn được căn chỉnh trong một cột duy nhất trong khi mỗi hàng vẫn là một hộp thực sự có thể mang theo một dấu phân cách.'
+  diff:
+    before: Trước
+    after: 'Bây giờ'
+    email: Email
+    role: 'Vai trò'
+    member: 'Thành viên'
+    admin: 'Quản trị viên'
+    phone: 'Điện thoại'
+    team: Nhóm
   section:
+    diff:
+      title: 'Những gì đã thay đổi'
+      description: 'diff(): từng trường một, cái đã có và cái hiện tại — giá trị đã bị gạch bỏ, cái còn lại đầy đủ, một bên trống được nói rõ như vậy. Lịch sử của một bản ghi, một thay đổi cần xác nhận, một đồng bộ đang được xem xét.'
     default:
       title: 'Mặc định'
       description: 'Cột khóa tự điều chỉnh kích thước theo nhãn dài nhất. Ghi đè --properties-key-width để cố định nó.'

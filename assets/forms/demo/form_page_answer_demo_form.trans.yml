@@ -25,3 +25,136 @@ ar:
       label: 'ما هو كود'
   action:
     submit: 'اصدار الكود'
+
+hi:
+  field:
+    label:
+      label: 'कोड क्या है'
+  action:
+    submit: 'कोड जारी करें'
+
+he:
+  field:
+    label:
+      label: 'מה הקוד עבור'
+  action:
+    submit: 'הנפק את הקוד'
+
+fa:
+  field:
+    label:
+      label: 'کد برای چیست'
+  action:
+    submit: 'کد را صادر کنید'
+
+ur:
+  field:
+    label:
+      label: 'کوڈ کیا ہے'
+  action:
+    submit: 'کوڈ جاری کریں'
+
+ja:
+  field:
+    label:
+      label: このコードの用途
+  action:
+    submit: コードを発行する
+
+ko:
+  field:
+    label:
+      label: '코드의 용도'
+  action:
+    submit: '코드를 발급하다'
+
+bn:
+  field:
+    label:
+      label: 'কোডটি কী জন্য'
+  action:
+    submit: 'কোডটি প্রদান করুন'
+
+th:
+  field:
+    label:
+      label: รหัสนี้ใช้สำหรับอะไร
+  action:
+    submit: ออกใบสั่งรหัส
+
+de:
+  field:
+    label:
+      label: 'Wofür der Code gedacht ist'
+  action:
+    submit: 'Code ausgeben'
+
+fi:
+  field:
+    label:
+      label: 'Mihin koodi on tarkoitettu'
+  action:
+    submit: 'Anna koodi'
+
+ru:
+  field:
+    label:
+      label: 'Для чего нужен код'
+  action:
+    submit: 'Выдать код'
+
+pl:
+  field:
+    label:
+      label: 'Do czego służy ten kod'
+  action:
+    submit: 'Wydaj kod'
+
+es:
+  field:
+    label:
+      label: 'Para qué es el código'
+  action:
+    submit: 'Emitir el código'
+
+it:
+  field:
+    label:
+      label: 'A cosa serve il codice'
+  action:
+    submit: 'Emetti il codice'
+
+pt_BR:
+  field:
+    label:
+      label: 'Para que serve o código'
+  action:
+    submit: 'Emitir o código'
+
+tr:
+  field:
+    label:
+      label: 'Kodun amacı nedir'
+  action:
+    submit: 'Kodu ver'
+
+vi:
+  field:
+    label:
+      label: 'Mã này dùng để làm gì'
+  action:
+    submit: 'Cấp mã'
+
+id:
+  field:
+    label:
+      label: 'Apa fungsi kode ini'
+  action:
+    submit: 'Keluarkan kode'
+
+nl:
+  field:
+    label:
+      label: 'Waar de code voor is'
+  action:
+    submit: 'Voer de code in'
