@@ -10,6 +10,7 @@ use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
 use Wexample\SymfonyLive\Enum\LiveTopicAction;
 use Wexample\SymfonyLive\Helper\LiveTopicHelper;
 use Wexample\SymfonyLive\Service\LivePublisherService;
+use Symfony\Contracts\Service\ResetInterface;
 
 /**
  * The whole of what the live chat demo does on the server.
@@ -18,7 +19,7 @@ use Wexample\SymfonyLive\Service\LivePublisherService;
  * browser opens the page before a single message exists, so the only name it can
  * subscribe to is the one thing that is already there.
  */
-class DemoChatService
+class DemoChatService implements ResetInterface
 {
     final public const EVENT_MESSAGE_CREATED = 'demo-message-created';
 
@@ -57,6 +58,14 @@ class DemoChatService
         private readonly DefaultDemoMessageNormalizer $normalizer,
         private readonly LivePublisherService $publisher,
     ) {
+    }
+
+    /**
+     * Replies queued by one request, not sent to the next.
+     */
+    public function reset(): void
+    {
+        $this->pendingReplies = [];
     }
 
     /**
