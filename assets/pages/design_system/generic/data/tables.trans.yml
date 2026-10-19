@@ -162,9 +162,12 @@ ar:
   page_title: الجداول
   page_icon: 'ph:bold/table'
   section:
+    pagination:
+      title: 'التصفح، المرسوم بواسطة الخادم'
+      description: '`pagination(page, pages_count)` يرسم صفحات قائمة كرابط: كل منها يحتفظ بالطريق والاستعلام عن الصفحة التي هو عليها — بحث، ترتيب — ويتغير فقط `page`، محسوبًا من 1. الأرقام المعروضة هي أرقام عداد vue: الأول، الأخير، الحالي وجيرانه. `compact` يحتفظ بالسابق واللاحق حول رقم الصفحة؛ `route` و `params` يتنقلان عبر عنوان آخر.'
     wide:
       title: 'أوسع من الغرفة'
-      description: 'جدول أعمدته تطلب أكثر مما هو موجود في الصفحة يُرسم بالعرض الذي يحتاجه، في إطار يتصفح جانبياً — الصفحة حوله لا تتحرك. جدول ثابت يتخلى عن هذا: رأس ثابت على الصفحة وإطار يتصفح بمفرده لا يمكن أن يكونا معاً.'
+      description: 'يتم رسم جدول الأعمدة الذي يطلب أكثر مما تحتويه الصفحة بالعرض الذي يحتاجه ويتجاوز ما يدور حوله — المنطقة، الصفحة —، ولا يظهر له شريط تمرير خاص. عند الطلب (`scroll: true`)، كما هو هنا، يتم التمرير أفقيًا في إطاره الخاص وتبقى الصفحة من حوله ثابتة: لجدول بين أشياء أخرى في حاوية لا تتمرر. جدول ثابت يتخلى عن هذا: لا يمكن أن يكون هناك رأس ثابت للصفحة وإطار يتنقل بمفرده معًا.'
     default:
       title: 'جدول بسيط'
     actions:
@@ -189,6 +192,9 @@ ar:
     sticky:
       title: 'رأس ثابت'
       description: 'يتم قراءة الجدول الطويل عمودًا بعمود كما هو الحال صفًا بصف. مع `sticky`، يبقى الرأس في العرض بينما تتصفح الصفوف تحته؛ الصفحة التي تحتوي على شيء خاص بها مثبت في الأعلى تقول مدى العمق في `--table-sticky-top`.'
+    zone:
+      title: 'جدول في منطقة خاصة به'
+      description: 'منطقة `zone--table` تُعطى للجدول بالكامل: ما يدفعه من الأعلى، وصفحاته في الأسفل، بعيدًا عن ما يتمرر، وبينهما قاع الجدول حتى أسفل المنطقة، حتى لثلاثة صفوف. يمكن أن يدخل أي جدول فيها، مكتوب بواسطة الخادم أو بواسطة vue. مع `natural`، مثل الذي على اليسار، يحتفظ الجدول بعرض أعمدته، لا يتمدد ولا ينضغط.'
     striped:
       title: 'صفوف مخططة، مضاءة تحت المؤشر'
     selection:
@@ -200,6 +206,15 @@ ar:
     filters:
       title: مرشحات
       description: 'شريط من المرشحات في رأس الجدول، قائمة خفية واحدة لكل منها، تقول ما تضيق عليه بمجرد أن تفعل ذلك. على الخادم تعيش في استعلام الصفحة — كل خيار هو رابط — ويسيطر المتحكم على تضييق الصفوف منها؛ في vue هم قيمة تُعطى للصفحة من أجل واجهتها، أو تُطبق بواسطة الجدول على الصفوف التي لديها بالفعل. كل خيار هو مربع — دائري لاختيار واحد — ملون بنغمة عندما تكون له، حالة أو فئة.'
+    sorting:
+      title: الفرز
+      description: 'رأس يقوم بالفرز هو رابط على الخادم وزر في vue: تصاعدي، تنازلي، ثم العودة إلى الترتيب الذي أعلنت عنه الصفحة، والذي تفتحه القائمة والذي يظهر سهمها من البداية. التواريخ الفارغة تكون في النهاية من كلا الاتجاهين، والأسماء تقارن بالطريقة التي ترتبها اللغة. هنا يقوم الجدول بفرز الصفوف التي تم إعطاؤها له؛ يتحكم جهاز التحكم في قائمة الصفحات بنفس الاستعلام بدلاً من ذلك.'
+    figures:
+      title: 'الرموز، الأرقام والإجماليات'
+      description: "`cell: 'code'` يحدد معرفًا في الوجه الأحادي؛ `cell: 'number'`، أو `unit`، يكتب رقمًا بلغة الصفحة. `negative: true` يرسم رقمًا تحت الصفر بنغمة خطأ، وعلامة السالب تشير إلى ذلك أيضًا. `totals` هو صف تسلمه الصفحة، مرسوم تحت الآخرين — لا يضيف الجدول شيئًا، محتفظًا بصفحة واحدة أو قائمة مصفاة. مرسوم بواسطة الخادم، ثم بواسطة vue."
+    sorting_vue:
+      title: 'الفرز في المتصفح، من twig'
+      description: '`vue: true` يسلم نفس الأعمدة والصفوف إلى التوأم vue: يقوم بفرز والبحث في القائمة الكاملة في المتصفح، دون تحميل صفحة. لقائمة تحتفظ بها الصفحة بالكامل — واحدة قصيرة، أو واحدة لا تقدمها واجهة برمجة التطبيقات.'
     selection_select:
       title: 'إجراءات في اختيار'
       description: 'نفس الشريط عندما تكون هناك إجراءات كافية لزيادة الزحام: يتم اختيار واحدة، ثم تطبيقها.'
@@ -278,6 +293,19 @@ ar:
     closed: مغلق
     column:
       name: الاسم
+  action:
+    open: فتح
+  sorting:
+    name: الاسم
+    city: المدينة
+    measured: 'آخر قياس'
+    actions: الإجراءات
+  figures:
+    code: الرمز
+    item: العنصر
+    net: 'الإمداد الصافي'
+    area: المنطقة
+    total: الإجمالي
 
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -894,9 +922,12 @@ fr:
   page_title: Tables
   page_icon: 'ph:bold/table'
   section:
+    pagination:
+      title: 'Pagination, générée par le serveur'
+      description: "`pagination(page, pages_count)` génère les pages d'une liste sous forme de liens : chacune conserve la route et la requête de la page sur laquelle elle se trouve — une recherche, un tri — et ne change que `page`, comptée à partir de 1. Les numéros affichés sont ceux du pager vue : le premier, le dernier, celui en cours et ses voisins. `compact` maintient les précédents et suivants autour du numéro de page ; `route` et `params` naviguent à une autre adresse."
     wide:
       title: 'Plus large que la pièce'
-      description: "Une table dont les colonnes nécessitent plus d'espace que la page n'en possède est dessinée à la largeur dont elle a besoin, dans un cadre qui défile latéralement — la page autour ne bouge pas. Une table fixe abandonne cela : un en-tête collé à la page et un cadre qui défile de lui-même ne peuvent pas être réunis."
+      description: "Une table dont les colonnes nécessitent plus que ce que la page a est dessinée à la largeur dont elle a besoin et déborde sur tout ce qui l'entoure — la zone, la page —, sans jamais avoir une barre de défilement propre. Demandé (`scroll: true`), comme ici, elle défile horizontalement dans son propre cadre et la page autour reste fixe : pour une table parmi d'autres éléments dans un conteneur qui ne défile pas. Une table collante abandonne cela : un en-tête collant à la page et un cadre défilant par lui-même ne peuvent pas être réunis."
     default:
       title: 'Table simple'
     actions:
@@ -922,7 +953,7 @@ fr:
       title: 'En-tête fixe'
       description: "Une longue table est lue colonne par colonne autant que ligne par ligne. Avec `sticky`, l'en-tête reste visible pendant que les lignes défilent en dessous ; une page avec quelque chose de fixé en haut indique combien de distance en `--table-sticky-top`."
     zone:
-      title: Un tableau dans sa zone
+      title: 'Un tableau dans sa zone'
       description: "Une zone `zone--table` est donnée au tableau tout entier : ce qui le pilote en haut, ses pages en bas, hors de ce qui défile, et entre les deux le fond du tableau jusqu'en bas de la zone, même pour trois lignes. Tout tableau y va, écrit par le serveur ou par une vue. Avec `natural`, comme celui de gauche, le tableau garde la largeur de ses colonnes, ni étiré ni serré."
     striped:
       title: 'Lignes rayées, éclairées sous le pointeur'
@@ -935,6 +966,15 @@ fr:
     filters:
       title: Filtres
       description: "Une barre de filtres en tête de la table, un menu discret chacun, indiquant ce qu'il réduit une fois activé. Sur le serveur, ils vivent dans la requête de la page — chaque option est un lien — et le contrôleur réduit les lignes à partir de cela ; dans vue, elles sont une valeur remise à la page pour son API, ou appliquées par la table aux lignes qu'elle a déjà. Chaque option est une case — ronde pour un choix unique — colorée par son ton lorsqu'elle en a un, un état ou une catégorie."
+    sorting:
+      title: Tri
+      description: "Un en-tête qui trie est un lien sur le serveur et un bouton dans vue : croissant, décroissant, puis retour à l'ordre déclaré par la page, sur lequel la liste s'ouvre et que sa flèche montre dès le départ. Les dates vides vont en dernier dans les deux sens, et les noms se comparent selon l'ordre de la langue. Ici, la table trie les lignes qui lui ont été données ; un contrôleur paginant sa liste lit la même requête à la place."
+    figures:
+      title: 'Codes, chiffres et totaux'
+      description: "`cell: 'code'` définit un identifiant dans la police mono ; `cell: 'number'`, ou une `unit`, écrit un chiffre dans le format local de la page. `negative: true` dessine un chiffre en dessous de zéro dans le ton d'erreur, son signe moins le dit aussi. `totals` est une ligne que la page remet, dessinée sous les autres — la table n'additionne rien, tenant une page ou une liste filtrée. Dessinée par le serveur, puis par vue."
+    sorting_vue:
+      title: 'Tri dans le navigateur, depuis twig'
+      description: '`vue: true` transmet les mêmes colonnes et lignes au jumeau vue : il trie et recherche toute la liste dans le navigateur, sans chargement de page. Pour une liste que la page détient entière — une courte, ou une que aucune API ne sert.'
     selection_select:
       title: 'Actions dans une sélection'
       description: "La même barre quand il y a assez d'actions pour l'encombrer : une est choisie, puis appliquée."
@@ -1013,6 +1053,19 @@ fr:
     closed: Fermé
     column:
       name: Nom
+  action:
+    open: Ouvrir
+  sorting:
+    name: Nom
+    city: Ville
+    measured: 'Dernière mesure'
+    actions: Actions
+  figures:
+    code: Code
+    item: Élément
+    net: 'Fourniture nette'
+    area: Superficie
+    total: Total
 
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -2727,9 +2780,12 @@ zh:
   page_title: 表格
   page_icon: 'ph:bold/table'
   section:
+    pagination:
+      title: 分页，由服务器生成
+      description: '`pagination(page, pages_count)` 将列表的页面绘制为链接：每个链接保留其所在页面的路径和查询 — 搜索、排序 — 仅更改 `page`，从 1 开始计数。显示的数字是 vue 分页器的：第一个、最后一个、当前页及其邻近页。`compact` 保留前后页围绕页码；`route` 和 `params` 通过另一个地址分页。'
     wide:
       title: 比房间更宽
-      description: 一个列数超过页面的表格会绘制成所需的宽度，以一个水平滚动的框架呈现——周围的页面不会移动。一个粘性表格放弃了这一点：一个固定在页面上的头部和一个独立滚动的框架不能同时存在。
+      description: '一个列数超过页面所容纳的表格以所需的宽度绘制，并溢出到周围的滚动区域 — 区域、页面 —，永远不会有自己的滚动条。请求了（`scroll: true`），像这里一样，它在自己的框架中横向滚动，而周围的页面保持不动：对于一个不滚动的容器中的表格等。一个粘性表格放弃了这一点：一个粘在页面上的头部和一个独立滚动的框架不能同时存在。'
     default:
       title: 简单表格
     actions:
@@ -2754,6 +2810,9 @@ zh:
     sticky:
       title: 粘性头部
       description: 长表格按列和行读取。使用`sticky`，头部在视野中保持，而行在其下滚动；带有其自身固定在顶部的页面说明在`--table-sticky-top`中向下滚动了多少。
+    zone:
+      title: 一个独立区域中的表格
+      description: '一个 `zone--table` 区域完全赋予给表格：它上方的驱动内容、底部的页面、滚动内容之间的表格底部，甚至对于三行的情况。任何表格都可以放入其中，由服务器或 vue 编写。使用 `natural`，如左侧的表格，表格保持其列的宽度，既不被拉伸也不被压缩。'
     striped:
       title: 条纹行，指针下高亮
     selection:
@@ -2765,6 +2824,15 @@ zh:
     filters:
       title: 过滤器
       description: 在表格顶部的过滤器条，每个都是一个隐蔽的菜单，说明一旦过滤所缩小的内容。在服务器上，它们存在于页面的查询中——每个选项都是一个链接——控制器从中缩小行；在vue中，它们是传递给页面的值供其api使用，或由表格应用于它已经拥有的行。每个选项是一个框——选择一个时为圆形——当它有色调、状态或类别时为其色彩。
+    sorting:
+      title: 排序
+      description: '一个排序的头部是服务器上的链接和 vue 中的按钮：升序、降序，然后回到页面声明的顺序，列表从一开始就显示其箭头。空日期在两种方式中都排在最后，名称则按照语言的排序方式进行比较。这里表格对其自身给出的行进行排序；一个控制器翻页其列表时读取相同的查询。'
+    figures:
+      title: 代码、数字和总计
+      description: "`cell: 'code'` 在单一字体中设置标识符；`cell: 'number'`，或 `unit`，在页面的区域写出数字。`negative: true` 将小于零的数字以错误语气绘制，其负号也表明这一点。`totals` 是页面交出的行，绘制在其他行之下 — 表格不进行任何加总，保持一个页面或过滤后的列表。由服务器绘制，然后由 vue 处理。"
+    sorting_vue:
+      title: '浏览器中的排序，来自 twig'
+      description: '`vue: true` 将相同的列和行传递给 vue 兄弟：它在浏览器中对整个列表进行排序和搜索，无需页面加载。对于页面完整持有的列表 — 短列表，或没有 api 提供的列表。'
     selection_select:
       title: 选择中的操作
       description: 当有足够的操作挤满它时的同一条：选择一个，然后应用。
@@ -2843,3 +2911,16 @@ zh:
     closed: 关闭
     column:
       name: 名称
+  action:
+    open: 打开
+  sorting:
+    name: 名称
+    city: 城市
+    measured: 最后测量
+    actions: 操作
+  figures:
+    code: 代码
+    item: 项目
+    net: 净供应
+    area: 面积
+    total: 总计

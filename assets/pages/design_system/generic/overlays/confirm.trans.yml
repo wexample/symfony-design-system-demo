@@ -58,6 +58,20 @@ en:
 ar:
   page_title: تأكيد
   section:
+    form:
+      description: 'استمارة تطلب التأكيد قبل الإرسال، دون سكربت خاص بها: رسالة تأكيد البيانات على الاستمارة، أو على الزر الذي يرسلها. إذا كانت الإجابة نعم، سيتم إرسالها كما لو كانت.'
+      button: 'أرشفة السجل'
+      title: 'هل تريد أرشفة هذا السجل؟'
+      message: 'سوف يغادر القوائم؛ كل ما يحتويه سيتم الاحتفاظ به.'
+      accept: أرشفة
+    destructive:
+      description: 'إجابة لا يمكن التراجع عنها: مصممة كخطر، ولا يبدأ التركيز ولا زر Enter عليها — كل من Escape و Enter للخروج.'
+      button: 'إلغاء تفعيل الحساب'
+      title: 'هل تريد إلغاء تفعيل هذا الحساب؟'
+      message: 'لن يتمكن جولين غوتييه من تسجيل الدخول بعد الآن.'
+      action:
+        confirm: 'إلغاء التفعيل'
+        cancel: إلغاء
     short:
       description: 'تأكيد مع نص قصير (تراكب).'
       button: 'فتح التأكيد'
@@ -316,6 +330,20 @@ fi:
 fr:
   page_title: Confirmer
   section:
+    form:
+      description: "Un formulaire demandant confirmation avant d'être envoyé, sans script propre : message de confirmation de données sur le formulaire ou sur le bouton qui l'envoie. Répondu par oui, il est envoyé comme il l'aurait été."
+      button: "Archiver l'enregistrement"
+      title: 'Archiver cet enregistrement ?'
+      message: "Il quitte les listes ; tout ce qu'il contient est conservé."
+      accept: Archiver
+    destructive:
+      description: "Une réponse qui ne peut pas être annulée : présentée comme un danger, et ni le focus ni Entrée ne l'activent — Échap et Entrée permettent de revenir en arrière."
+      button: 'Désactiver un compte'
+      title: 'Désactiver ce compte ?'
+      message: 'Julien Gautier ne pourra plus se connecter.'
+      action:
+        confirm: Désactiver
+        cancel: Annuler
     short:
       description: 'Confirmer avec un texte court (superposition).'
       button: 'Ouvrir confirmer'
@@ -961,6 +989,20 @@ vi:
 zh:
   page_title: 确认
   section:
+    form:
+      description: 在发送之前询问的表单，没有自己的脚本：表单或发送按钮上的数据确认消息。回答是，则按原样发送。
+      button: 归档记录
+      title: 要归档此记录吗？
+      message: 它将离开列表；它所包含的所有内容都会被保留。
+      accept: 归档
+    destructive:
+      description: '一个无法撤销的回答：被标示为危险，聚焦和回车都无法启动 — 只有取消和回车可以退出。'
+      button: 停用账户
+      title: 要停用此账户吗？
+      message: 'Julien Gautier 将无法再登录。'
+      action:
+        confirm: 停用
+        cancel: 取消
     short:
       description: 用简短文本确认（覆盖）。
       button: 打开确认

@@ -19,3 +19,63 @@ en:
     received:
       title: Received
       empty: Nothing yet. Reload the page once a file is sent.
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Télécharger
+  page_icon: 'ph:bold/upload-simple'
+  intro: "Les fichiers déposés dans une zone ou sélectionnés avec son bouton sont envoyés par morceaux vers le répertoire pour lequel la page est signée — de tout type, de toute taille —, et suivis dans la fenêtre des téléchargements ancrée en bas de l'écran, qui peut être repliée ou fermée pendant le processus."
+  section:
+    zone:
+      title: 'Une zone de dépôt'
+      description: "`upload_dropzone(directory)`: déposez des fichiers ici, ou sélectionnez-les. L'adresse est signée pour ce répertoire unique ; le navigateur ne peut rien envoyer ailleurs."
+    compact:
+      title: 'Sur une ligne'
+      description: '`compact: true`, lorsque la page a peu de place : les mots, puis le bouton.'
+    restricted:
+      title: 'Types et taille'
+      description: "`accept` — extensions ou types MIME, tels que les lit l'attribut HTML — et `max_size`, en octets, sont signés dans l'adresse avec le répertoire. Le sélecteur n'affiche que les types acceptés ; le serveur refuse le reste, un fichier trop volumineux dès son premier morceau, un type identifié par son contenu une fois entier, et la fenêtre des téléchargements explique pourquoi. Ici : tableurs et images, 2 Mo maximum."
+      hint: 'Tableurs ou images, 2 Mo maximum'
+    received:
+      title: Reçu
+      empty: "Rien pour le moment. Rechargez la page une fois qu'un fichier est envoyé."
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 上传
+  page_icon: 'ph:bold/upload-simple'
+  intro: 拖放到区域或通过按钮选择的文件将被分段发送到页面签名的目录——任何类型，任何大小——并在固定在屏幕底部的上传窗口中跟踪，可以在上传过程中折叠或关闭。
+  section:
+    zone:
+      title: 拖放区域
+      description: '`upload_dropzone(directory)`：在这里拖放文件，或选择它们。地址仅为此一个目录签名；浏览器无法将文件发送到其他地方。'
+    compact:
+      title: 单行显示
+      description: '`compact: true`，当页面空间有限时：文字，然后是按钮。'
+    restricted:
+      title: 类型和大小
+      description: '`accept` — 扩展名或 MIME 类型，如 HTML 属性所述 — 和 `max_size`（以字节为单位）都已签名到目录的地址中。选择器只显示被接受的类型；服务器拒绝其他类型，文件在其第一部分时过大，内容完整后根据类型判断，上传窗口会说明原因。这里：电子表格和图像，最大 2 MB。'
+      hint: '电子表格或图像，最大 2 MB'
+    received:
+      title: 已接收
+      empty: 尚无内容。发送文件后请重新加载页面。
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: تحميل
+  page_icon: 'ph:bold/upload-simple'
+  intro: 'الملفات التي يتم إسقاطها في المنطقة أو اختيارها من خلال زرها تُرسل على شكل قطع إلى الدليل الذي تم توقيعه في الصفحة — أي نوع، أي حجم —، وتتابع في نافذة التحميلات المثبتة في أسفل الشاشة، والتي يمكن طيها أو إغلاقها أثناء التحميل.'
+  section:
+    zone:
+      title: 'منطقة إسقاط'
+      description: '`upload_dropzone(directory)`: اسقط الملفات هنا، أو اخترها. العنوان موقع لهذا الدليل فقط؛ المتصفح لا يمكنه إرسال أي شيء في مكان آخر.'
+    compact:
+      title: 'في سطر واحد'
+      description: '`compact: true`، حيث تكون المساحة في الصفحة ضيقة: الكلمات، ثم الزر.'
+    restricted:
+      title: 'الأنواع والحجم'
+      description: '`accept` — الامتدادات أو أنواع MIME، كما تقرأها خاصية HTML — و `max_size`، بالبايت، موضوعة في العنوان مع الدليل. يظهر المُختار فقط الأنواع المقبولة؛ السيرفر يرفض الباقي، ملف كبير جداً في قطعته الأولى، نوع يتم تحديده بمحتواه بمجرد أن يكون كاملاً، وتقول نافذة التحميلات السبب. هنا: جداول البيانات والصور، 2 ميغابايت كحد أقصى.'
+      hint: 'جداول البيانات أو الصور، 2 ميغابايت كحد أقصى'
+    received:
+      title: 'تم الاستلام'
+      empty: 'لا شيء بعد. قم بإعادة تحميل الصفحة بمجرد إرسال ملف.'

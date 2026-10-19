@@ -135,6 +135,18 @@ ar:
     fields:
       title: الحقول
       description: 'واحد من كل، مرة واحدة. اضغط على تشغيل أعلاه وسيتم ملؤها بالتناوب، بواسطة نفس المكالمات التي سيقوم بها وكيل - وهي الطريقة الوحيدة لمعرفة أن العقد قائم لجميعها.'
+    scale:
+      title: 'الأقسام والمقاييس'
+      description: '`segmented: true` يرسم مجموعة خيارات كمجموعة من الأقسام، لاختيار واحد من بين عدد قليل من الخيارات القصيرة: نفس الأزرار، تتحرك بواسطة الأسهم، ترسل نفس القيمة. `range-input` يأخذ قيمة على مقياس — `min`, `max`, `step` — ويعرضها بجانب تسميتها أثناء التحرك، بلغة الصفحة ومع الأرقام العشرية التي يطلبها الخطوة؛ `suffix` هي كلمة بعده، لا تُرسل أبداً. يقوم نظير vue بإصدار إشارة في كل خطوة، مما يسمح للصفحة بإعادة الحساب أثناء تحرك المؤشر.'
+    stepper:
+      title: 'خطوة واحدة في كل مرة'
+      description: 'stepper: true، زر على كل جانب من رقم — كمية. يتحرك وفقاً لخطوة الحقل ويتوقف عند الحد الأدنى والحد الأقصى، حيث يتوقف الزر هناك؛ تأتي الحدود من قيود المدى للحقل.'
+    addon:
+      title: 'وحدة بجانب القيمة'
+      description: 'كلمة ثابتة — وحدة، عملة — تُرسم في إطار الحقل، قبل أو بعد القيمة. تقرأ برامج قراءة الشاشة ذلك مع الحقل؛ ليست جزءاً من القيمة، ولا يمكن التركيز عليها، ولا يُرسل أي شيء منها. المظهر المجمد يحتفظ بها.'
+    frozen:
+      title: 'مجمد، ومشShown'
+      description: 'يحمل الحقل المجمد قيمة يمكن لشخص ما قراءتها وعدم تغييرها: مثبتة، غير غير متاحة. يحتفظ بتباين الحقل القابل للتعديل ويظل قابلاً للتركيز والاختيار — فقط ما يدعو للكتابة يظهر: إطار منقط فوق لا أرض له، لا مؤشر نص، لا مختار. القيمة المعروضة ليست حقل على الإطلاق: تسمية وما يقوله السجل، على خط حقل بحيث يُقرأ الإثنان ككتلة واحدة، شَرْطَة عندما لا يكون هناك شيء. تأخذ حقول vue `readonly` بنفس الطريقة؛ اختيار، أزرار، مفتاح، ملف، رمز أو رمز تعبيري، والتي لا يمكن لـ HTML جعلها للقراءة فقط، تعرض قيمتها في حقل للقراءة فقط لا يحمل اسم.'
     actions:
       title: 'الأزرار في نموذج'
       description: 'زر يتخذ إجراءً بدلاً من قيمة، لذا لا يوجد شيء لوكيل ليكتبه فيه.'
@@ -153,6 +165,31 @@ ar:
     switch_vue:
       title: 'تبديل، في vue'
       description: 'نفس التبديل داخل شجرة vue، حيث تكون الحالة المحددة هي الحالة وليست خاصية بيانات يقوم البرنامج بتبديلها.'
+  scale:
+    window: نافذة
+    window_3: '3 أشهر'
+    window_6: '6 أشهر'
+    window_12: '12 شهراً'
+    coverage: 'معامل التغطية'
+    buffer: 'المخزن المؤقت'
+    weeks: أسابيع
+  stepper:
+    quantity: كمية
+    guests: الضيوف
+    nights: ليالٍ
+    people: أشخاص
+  addon:
+    weight: الوزن
+    price: السعر
+    height: الارتفاع
+    duration: المدة
+  frozen:
+    editable: 'الاسم الكامل، قابل للتعديل'
+    created: 'تم الإنشاء في'
+    reviewer: 'تمت مراجعته بواسطة'
+    switch_on: نشط
+    switch_off: 'غير مفعل'
+    vue: 'في vue'
   assisted:
     hint: 'وكيل يملأ الحقول أدناه، واحدًا تلو الآخر.'
     play: تشغيل
@@ -597,6 +634,18 @@ fr:
     fields:
       title: Champs
       description: "Un de chaque, une fois. Appuyez sur Play ci-dessus et ils sont remplis à tour de rôle, par les mêmes appels qu'un agent ferait — ce qui est le seul moyen de savoir que le contrat tient pour tous."
+    scale:
+      title: 'Segments et échelles'
+      description: "`segmented: true` dessine un groupe de boutons radio sous forme de bande de segments, pour un choix parmi quelques options courtes : les mêmes boutons radio, déplacés par les flèches, envoyant la même valeur. `range-input` prend une valeur le long d'une échelle — `min`, `max`, `step` — et l'affiche à côté de son étiquette au fur et à mesure de son déplacement, selon la locale de la page et avec les décimales requises par son pas ; `suffix` est un mot après, jamais soumis. Le jumeau vue émet à chaque étape, permettant à la page de recalculer au fur et à mesure que le curseur se déplace."
+    stepper:
+      title: 'Un pas à la fois'
+      description: "stepper: true, un bouton de chaque côté d'un nombre — une quantité. Il avance par le pas du champ et s'arrête à son min et max, son bouton se reposant là ; provenant de symfony-forms, les limites viennent de la contrainte Range du champ."
+    addon:
+      title: 'Une unité à côté de la valeur'
+      description: "Un mot fixe — une unité, une devise — affiché dans le cadre du champ, avant ou après la valeur. Les lecteurs d'écran le lisent avec le champ ; ce n'est pas partie intégrante de la valeur, ne peut pas être sélectionné, et rien de cela n'est soumis. L'apparence figée reste avec lui."
+    frozen:
+      title: 'Figé, et affiché'
+      description: "Un champ figé contient une valeur que quelqu'un peut lire sans changer : établie, mais pas indisponible. Il conserve le contraste d'un champ modifiable et reste focalisable et sélectionnable — seul ce qui invite à écrire est présent : un cadre en pointillé sans fond propre, pas de curseur de texte, pas de sélecteur. Une valeur d'affichage n'est pas un champ du tout : une étiquette et ce que l'enregistrement indique, sur la ligne d'un champ pour que les deux soient perçus comme un bloc, un tiret lorsqu'il n'y a rien. Les champs vue prennent `readonly` de la même manière ; un sélecteur, des boutons radio, un interrupteur, un fichier, un code ou un emoji, que HTML ne peut pas rendre en lecture seule, affichent leur valeur dans un champ en lecture seule qui n'a pas de nom."
     actions:
       title: 'Boutons dans un formulaire'
       description: "Un bouton prend une action plutôt qu'une valeur, donc il n'y a rien à écrire pour un agent."
@@ -615,6 +664,31 @@ fr:
     switch_vue:
       title: 'Interrupteur, dans vue'
       description: "Le même interrupteur à l'intérieur d'un arbre vue, où l'état coché est l'état et non un attribut de données qu'un script inverse."
+  scale:
+    window: Fenêtre
+    window_3: '3 mois'
+    window_6: '6 mois'
+    window_12: '12 mois'
+    coverage: 'Coefficient de couverture'
+    buffer: Tampon
+    weeks: semaines
+  stepper:
+    quantity: Quantité
+    guests: Invités
+    nights: Nuits
+    people: personnes
+  addon:
+    weight: Poids
+    price: Prix
+    height: Hauteur
+    duration: Durée
+  frozen:
+    editable: 'Nom complet, modifiable'
+    created: 'Créé le'
+    reviewer: 'Révisé par'
+    switch_on: Actif
+    switch_off: Désactivé
+    vue: 'En vue'
   assisted:
     hint: "Un agent remplit les champs ci-dessous, un après l'autre."
     play: Jouer
@@ -1752,6 +1826,18 @@ zh:
     fields:
       title: 字段
       description: 每个字段各一个。点击上方的播放，它们会轮流被填充，由代理人会做的相同调用——这是唯一知道契约对所有字段都有效的方法。
+    scale:
+      title: 分段与比例
+      description: '`segmented: true` 将单选按钮组绘制为一条分段条，用于在几个短选项中选择一个：相同的单选按钮，通过箭头移动，发送相同的值。`range-input` 沿着比例取值 — `min`、`max`、`step` — 并在移动时在其标签旁显示，以页面的本地化形式和步长所要求的小数；`suffix` 是其后面的一个词，从不提交。vue 组件在每个步骤上发射，因此页面可以在滑块移动时重新计算。'
+    stepper:
+      title: 一步一步来
+      description: 'stepper: true，在数字的每一侧有一个按钮 — 一个数量。它按字段的步长递增，并在其最小值和最大值处停止，按钮在那停留；来自 symfony-forms，边界来自字段的范围约束。'
+    addon:
+      title: 值旁的单位
+      description: '一个固定的词 — 一个单位，一个货币 — 在字段的框架中绘制，位于值的前面或后面。屏幕阅读器与字段一起读取它；它不是值的一部分，无法聚焦，也不会提交。这个固定的外观保持不变。'
+    frozen:
+      title: 冻结并显示
+      description: '一个冻结的字段保持一个值，供某人读取而不更改：已确定，但并非不可用。它保持可编辑字段的对比，并且仍然可以聚焦和选择 — 只有邀请写作的部分才会出现：一个虚线框，没有自己的底色，没有文本光标，没有选择器。显示值根本不是一个字段：一个标签和记录所说的内容，在字段的行上，使两者看起来像一个块，当没有内容时则是一个破折号。vue 字段以相同的方式使用 `readonly`；一个选择框、单选按钮、开关、文件、代码或表情符号，HTML 无法使其只读，会在一个不包含名称的只读字段中显示其值。'
     actions:
       title: 表单中的按钮
       description: 按钮执行一个动作而不是一个值，因此代理人无法写入其中。
@@ -1770,6 +1856,31 @@ zh:
     switch_vue:
       title: 在vue中的开关
       description: 同样的开关在vue树中，选中状态是状态而不是脚本翻转的数据属性。
+  scale:
+    window: 窗口
+    window_3: '3 个月'
+    window_6: '6 个月'
+    window_12: '12 个月'
+    coverage: 覆盖系数
+    buffer: 缓冲区
+    weeks: 周
+  stepper:
+    quantity: 数量
+    guests: 客人
+    nights: 晚上
+    people: 人
+  addon:
+    weight: 重量
+    price: 价格
+    height: 高度
+    duration: 持续时间
+  frozen:
+    editable: 全名，可编辑
+    created: 创建于
+    reviewer: 审阅人
+    switch_on: 激活
+    switch_off: 停用
+    vue: '在 vue'
   assisted:
     hint: 代理人依次填写下面的字段。
     play: 播放

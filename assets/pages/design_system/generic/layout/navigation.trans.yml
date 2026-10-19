@@ -15,15 +15,40 @@ en:
       body: "layout_section_navigation says how: tabs by default, which show the level the page stands in — a view's children under the way back to the section — or menu, which shows the section whole, the way back on top and the view holding the page unfolded."
 
 fr:
-  page_title: Navigation de section
-  page_icon: ph:bold/signpost
-
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'Navigation de section'
+  page_icon: 'ph:bold/signpost'
   intro: "Les pages d'une section sont écrites une fois, comme sa navigation, et dessinées comme l'app le choisit : des onglets sous l'en-tête, comme sur les autres pages de cette section, ou le menu latéral qui représente la section tant qu'on y est — comme sur cette page, dont le menu de gauche est celui de cette section."
-
   section:
     writing:
-      title: L'écrire
+      title: "L'écrire"
       body: "Le layout d'une section définit page_section_navigation : ce qu'est la section (label, href), vers où on la quitte (back), et ses vues (items), chacune une route que le lecteur peut ouvrir — les autres sont écartées. Un item reste allumé sur une famille de pages (match), et peut contenir ses propres vues (children)."
     drawing:
-      title: La dessiner
+      title: 'La dessiner'
       body: "layout_section_navigation dit comment : des onglets par défaut, qui montrent le niveau où se trouve la page — les enfants d'une vue sous le retour vers la section —, ou menu, qui montre la section entière, le retour en haut et la vue qui contient la page dépliée."
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 章节导航
+  page_icon: 'ph:bold/signpost'
+  intro: 一个章节的页面只需编写一次作为导航，然后根据应用的选择进行展示：在标题下的标签，就像本章节的其他页面一样，或者在进入该章节时的侧边菜单——就像本页面，左侧的菜单就是这个章节的导航。
+  section:
+    writing:
+      title: 编写内容
+      body: 章节的布局设置了页面章节导航：章节是什么（标签、链接），留给什么（返回），以及它的视图（项目），每个都是读者可能打开的路径——其他的则被省略。一个项目在一系列页面上保持高亮（匹配），并且可以拥有自己的视图（子项）。
+    drawing:
+      title: 绘制内容
+      body: 布局章节导航说明了如何：默认情况下为标签，显示页面所处的层级——在返回章节的路径下显示视图的子项——或者菜单，展示整个章节，返回路径在顶部，包含当前页面的视图展开。
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'تنقل الأقسام'
+  page_icon: 'ph:bold/signpost'
+  intro: 'تُكتب صفحات القسم مرة واحدة، كتنقل له، ويتم تصميمها كما تختار التطبيق: علامات تحت العنوان، كما هو الحال في الصفحات الأخرى من هذا القسم، أو القائمة الجانبية التي تمثل القسم أثناء التواجد فيه — كما هو الحال في هذه الصفحة، حيث القائمة على اليسار هي قسم هذا.'
+  section:
+    writing:
+      title: كتابته
+      body: 'تصميم القسم يحدد page_section_navigation: ما هو القسم (التسمية، href)، إلى أين يتم تركه (للعودة)، ووجهاته (العناصر)، كل منها مسار يمكن للقارئ فتحه — بينما يتم تجاهل الآخرين. تظل العنصر مضاءة على مجموعة من الصفحات (مطابقة)، ويمكن أن تحتوي على وجهات خاصة بها (الأطفال).'
+    drawing:
+      title: رسمه
+      body: 'layout_section_navigation يحدد كيف: علامات بشكل افتراضي، تُظهر المستوى الذي تقف فيه الصفحة — أطفال العرض تحت الطريق للعودة إلى القسم — أو القائمة، التي تُظهر القسم بالكامل، والطريق للعودة في الأعلى والعرض الذي يحمل الصفحة مفتوحة.'

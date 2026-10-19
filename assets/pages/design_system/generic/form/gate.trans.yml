@@ -27,3 +27,33 @@ fr:
   made:
     title: Facture faite
     body: La porte était ouverte — tous les champs requis sont remplis.
+
+zh:
+  page_title: 受限操作
+  help: 创建发票需要组织的名称、SIRET和IBAN。其中任何一个缺失时，操作会发送到组织表单，并指向这些字段；保存后，表单会返回这里，操作会再次检查。
+  field:
+    title: 名称
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 创建发票
+    organization: 编辑组织
+    reset: 清空组织
+  made:
+    title: 发票已创建
+    body: 大门已打开——所需的每个字段都已填写。
+
+ar:
+  page_title: 'إجراء محجوز'
+  help: 'إنشاء فاتورة يتطلب عنوان المنظمة، SIRET و IBAN. بينما يكون أحدها مفقودًا، يقوم الإجراء بإرسال النموذج إلى المنظمة، مع الإشارة إلى تلك الحقول؛ بمجرد حفظه، يعيد النموذج هنا ويتحقق الإجراء من جديد.'
+  field:
+    title: العنوان
+    siret: SIRET
+    iban: IBAN
+  action:
+    invoice: 'إنشاء فاتورة'
+    organization: 'تعديل المنظمة'
+    reset: 'إفراغ المنظمة'
+  made:
+    title: 'تم إنشاء الفاتورة'
+    body: 'تم فتح البوابة - كل حقل يحتاجه مليء.'

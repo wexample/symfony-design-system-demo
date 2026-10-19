@@ -16,3 +16,48 @@ en:
 
   finding:
     message: "« basically » says nothing: the sentence reads the same without it."
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Source
+  page_icon: 'ph:bold/code'
+  intro: "Un texte lu comme sa source, ce qu'une règle trouvée en elle marque : chaque endroit teinté de sa sévérité, une marque dans la marge sur sa ligne, le message et la règle sous le pointeur. Toujours uniquement sur la source — un aperçu rendu n'en montre aucun : on lit d'un côté et corrige de l'autre."
+  section:
+    source:
+      title: 'Une source annotée'
+      description: "`source-view`: un texte, sa langue et des annotations `{ ligne, colonne, fin_ligne, fin_colonne, sévérité, message, code }` — basé sur 1, la fin non incluse, comme le verdict de filestate les donne. L'éditeur de `code-input`, en lecture seule."
+    sided:
+      title: 'Source et résultats côte à côte'
+      description: "`source-findings`: un résultat cliqué amène son emplacement au centre de la source, un endroit pointé dans la source éclaire son résultat. Une colonne sous l'autre là où l'espace est étroit."
+  finding:
+    message: '« en gros » ne dit rien : la phrase se lit de la même manière sans elle.'
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 来源
+  page_icon: 'ph:bold/code'
+  intro: '作为其来源的文本，规则在其上标记：每个地方以其严重性着色，行间的标记，消息和规则在指针下。仅在来源上 — 渲染的预览没有显示这些：一边阅读，一边纠正。'
+  section:
+    source:
+      title: 带注释的来源
+      description: '`source-view`：一个文本，它的语言和注释 `{ line, column, end_line, end_column, severity, message, code }` — 基于1的，结束不包括在内，正如filestate的裁定所给出。`code-input`的编辑器，仅供阅读。'
+    sided:
+      title: 并排的来源和发现
+      description: '`source-findings`：点击一个发现将其位置带到来源的中间，在来源中指向的地方会突出显示其发现。狭窄的空间下，一列在另一列之下。'
+  finding:
+    message: '« basically » 并没有说什么：没有它句子读起来是一样的。'
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: المصدر
+  page_icon: 'ph:bold/code'
+  intro: 'نص يُقرأ كمصدر، ما هو القاعدة الموجودة فيه مُعلمة عليه: كل مكان مُميز بشدته، علامة في الهامش على سطوره، الرسالة والقانون تحت المؤشر. فقط على المصدر - عرض مُعَد لا يُظهر أيًا من ذلك: يُقرأ من جانب ويُصحح من الآخر.'
+  section:
+    source:
+      title: 'مصدر مُعَلَم'
+      description: '`source-view`: نص، لغته، وملاحظات `{ line, column, end_line, end_column, severity, message, code }` - رقمها يبدأ من 1، النهاية غير مشمولة، كما تُظهر أحكام filestate. محرر `code-input`، للقراءة فقط.'
+    sided:
+      title: 'المصدر والاكتشافات جنبًا إلى جنب'
+      description: '`source-findings`: يؤدي النقر على اكتشاف إلى وضعه في وسط المصدر، المكان المُشار إليه في المصدر يضيء اكتشافه. عمود تحت الآخر حيث المساحة ضيقة.'
+  finding:
+    message: '« بشكل أساسي » لا تقول شيئًا: الجملة تُقرأ بنفس الشكل دونها.'

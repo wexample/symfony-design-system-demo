@@ -16,6 +16,9 @@ ar:
     zones: المناطق
     blocks: الكتل
     toolbar: 'شريط الأدوات'
+    dock: 'لوحة الأدوات'
+    navigation: 'تنقل القسم'
+    section: تخطيط
     tabs: 'علامات التبويب'
     doc: 'تخطيط الوثيقة'
 
@@ -208,5 +211,8 @@ zh:
     zones: 区域
     blocks: 模块
     toolbar: 工具栏
+    dock: 工具停靠
+    navigation: 区域导航
+    section: 布局
     tabs: 选项卡
     doc: 文档布局

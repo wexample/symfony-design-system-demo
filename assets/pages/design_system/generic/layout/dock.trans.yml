@@ -37,22 +37,20 @@ en:
     size: Size
 
 fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: "Dock d'outils"
-  page_icon: ph:bold/sidebar-simple
-
+  page_icon: 'ph:bold/sidebar-simple'
   intro: "Des outils au bord d'une page, comme dans un IDE : une barre d'icônes, chacune ouvrant une zone dans une colonne à côté de la page. La barre à droite de cette page en est une."
-
   section:
     groups:
-      title: Deux groupes, une zone ouverte dans chacun
+      title: 'Deux groupes, une zone ouverte dans chacun'
       body: "Les icônes du haut de la barre ouvrent leur zone dans la partie haute de la colonne, celles du bas dans la partie basse, une seule ouverte à la fois dans chaque groupe. Seule, une zone prend toute la colonne ; quand rien n'est ouvert, la colonne disparaît. La colonne s'élargit en tirant son bord de début, et l'état de chaque outil revient avec la page."
     horizontal:
-      title: Couché en haut
+      title: 'Couché en haut'
       body: "Avec l'orientation horizontal, la barre est posée en haut et le dock devient le corps d'une page, écrit dans un page--fill : ce qu'ouvre le début de la barre se place à côté de ce qu'ouvre sa fin, en dessous. Un outil dessiné bord à bord sur toute la hauteur de la zone — un éditeur — le demande avec fill."
     usage:
       title: Utilisation
-      body: "Une page décrit ses outils dans son bloc page_zones_after, et le dock dessine la colonne, ses zones, leurs poignées et la barre. Un outil affiche ce que la page a dessiné pour lui (content), ou une page chargée à sa première ouverture (url)."
-
+      body: 'Une page décrit ses outils dans son bloc page_zones_after, et le dock dessine la colonne, ses zones, leurs poignées et la barre. Un outil affiche ce que la page a dessiné pour lui (content), ou une page chargée à sa première ouverture (url).'
   tool:
     source: Source
     preview: Aperçu
@@ -60,14 +58,76 @@ fr:
     search: Recherche
     detail: Détail
     history: Historique
-
   content:
-    search: Aucune recherche pour l'instant.
-    history: Aucune modification enregistrée.
-    preview: Le fichier tel qu'il se lit une fois rendu.
+    search: "Aucune recherche pour l'instant."
+    history: 'Aucune modification enregistrée.'
+    preview: "Le fichier tel qu'il se lit une fois rendu."
     line: Ligne
-
   field:
     name: Nom
     type: Type
     size: Taille
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 工具停靠
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 页面末尾的工具，类似于IDE：一排图标，每个图标打开页面旁边列中的一个区域。当前页面右侧的工具条就是一个例子。
+  section:
+    groups:
+      title: 两个组，每个组一个打开
+      body: 工具条顶部的图标打开列的上部区域，底部的图标打开下部区域，每次只能打开一个。单独一个区域占据整个列；没有打开任何区域，列就消失。可以从起始边缘拖动列变宽，工具的状态会随着页面返回。
+    horizontal:
+      title: 位于顶部
+      body: 在横向布局下，工具条位于顶部，停靠是页面的主体，填充在页面中——工具条开始处打开的区域位于结束处打开的区域旁边，下面。一个工具从边到边并占据区域的高度——一个编辑器——这样显示了填充。
+    usage:
+      title: 使用方式
+      body: 页面在其page_zones_after块中描述其工具，停靠绘制列、区域、手柄和工具条。工具显示页面为其绘制的内容，或页面在第一次打开时加载的内容（url）。
+  tool:
+    source: 源
+    preview: 预览
+    outline: 大纲
+    search: 搜索
+    detail: 详情
+    history: 历史
+  content:
+    search: 尚未搜索任何内容。
+    history: 没有记录任何更改。
+    preview: 文件在渲染后读取的样子。
+    line: 行
+  field:
+    name: 名称
+    type: 类型
+    size: 大小
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'شريط الأدوات'
+  page_icon: 'ph:bold/sidebar-simple'
+  intro: 'أدوات على نهاية الصفحة، كما تفعل IDE: شريط أيقونات، كل منها يفتح منطقة في عمود بجانب الصفحة. الشريط على اليمين من هذه الصفحة هو واحد منها.'
+  section:
+    groups:
+      title: 'مجموعتان، واحدة مفتوحة في كل منهما'
+      body: 'تفتح الأيقونات في أعلى الشريط منطقتها في الجزء العلوي من العمود، وتلك في أسفل الشريط في الجزء السفلي، واحدة مفتوحة في كل مرة. بمفردها، تأخذ المنطقة العمود بالكامل؛ وعندما لا يوجد شيء مفتوح، يختفي العمود. يمكن سحب العمود ليصبح أوسع من حافته الأمامية، وما تركه كل أداة يعود مع الصفحة.'
+    horizontal:
+      title: 'ممتد على القمة'
+      body: 'مع الاتجاه الأفقي، يمتد الشريط على القمة ويكون الرصيف هو جسم الصفحة، مكتوب في صفحة--ملء: ما يفتحه بداية الشريط يقف بجانب ما يفتحه نهايته، تحته. أداة تمتد من طرف إلى طرف وتأخذ ارتفاع المنطقة - محرر - تقول ذلك مع الملء.'
+    usage:
+      title: الاستخدام
+      body: 'تصف الصفحة أدواتها في كتلة page_zones_after، ويقوم الرصيف برسم العمود، مناطقه، مقابضها والشريط. تظهر الأداة ما رسمته الصفحة لها (المحتوى)، أو صفحة تم تحميلها في المرة الأولى التي تفتح فيها (url).'
+  tool:
+    source: المصدر
+    preview: معاينة
+    outline: مخطط
+    search: بحث
+    detail: تفاصيل
+    history: تاريخ
+  content:
+    search: 'لم يتم البحث عن شيء بعد.'
+    history: 'لا تغيير مسجل.'
+    preview: 'الملف كما يُقرأ بمجرد أن يتم عرضه.'
+    line: السطر
+  field:
+    name: الاسم
+    type: النوع
+    size: الحجم

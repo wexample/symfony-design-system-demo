@@ -46,6 +46,8 @@ ar:
   page_title: المناطق
   page_icon: 'ph:bold/columns'
   intro: 'مساحة العمل ذات اللوحين التي يعتمد عليها كل مستكشف ومحرر وعرض تفاصيل. المنطقة ليس لها عرض أو ارتفاع خاص بها: الانقسام الذي تجلس فيه هو ما يحدد حجمها، وكل جانب يتمرر بمفرده. منطقتان هما كائنان موضوعة على الصفحة، وليست لوحة واحدة مقسومة إلى نصفين - ما يميزها هو المسافة بينهما، و`zone--panel` هو الأساس الذي تقف عليه كل واحدة منها.'
+  fit:
+    column: عمود
   section:
     split:
       title: انقسام
@@ -56,12 +58,15 @@ ar:
     vertical:
       title: 'رأس لا يتمرر'
       description: 'انقسام تحول إلى رأسي: منطقة ضيقة بارتفاع ما تحتويه، والجسم يأخذ الباقي ويتم تمريره تحتها. هذا هو ترتيب لوحة مع شريط أدوات في الأعلى.'
+    fit:
+      title: 'بعرض محتواه'
+      description: '`zone--fit-content`: المنطقة تأخذ عرض ما تحتويه - جدول يحتوي على العديد من الأعمدة - بدلاً من ما تبقى لها. الصف يتجاوز ويتحرك جانبيًا ككل، شريط التمرير في أسفل الإطار، وليس تحت الجدول فقط؛ كل منطقة لا تزال تتحرك للأسفل بشكل مستقل.'
     wrap:
       title: 'أسفل الأرضية'
       description: 'عند وجود أرضية، تأخذ المنطقة المرنة خطًا كاملًا وينتقل العمود المحدد فوقها بدلاً من أن يتم ضغط كلاهما إلى لا شيء. قم بتضييق النافذة لترى كيف تنطوي.'
     portrait:
-      title: "بجانب صفحة"
-      description: "`zone--portrait`: لا تضيق أبدًا عن صفحة عمودية (3:4) بارتفاع الصف. إذا وُسِّع النص يدويًا احتفظ بعرضه وتمرّر الصف أفقيًا بدل ضغط الصفحة."
+      title: 'بجانب صفحة'
+      description: '`zone--portrait`: لا تضيق أبدًا عن صفحة عمودية (3:4) بارتفاع الصف. إذا وُسِّع النص يدويًا احتفظ بعرضه وتمرّر الصف أفقيًا بدل ضغط الصفحة.'
   split:
     body: 'هذا الجانب يأخذ ما تتركه العمود المحدد.'
   scrollable:
@@ -232,6 +237,8 @@ fr:
   page_title: Zones
   page_icon: 'ph:bold/columns'
   intro: "L'espace de travail à deux volets sur lequel chaque explorateur, éditeur et vue détaillée est construit. Une zone n'a pas de largeur ni de hauteur propre : c'est la division dans laquelle elle se trouve qui la dimensionne, et chaque côté défile indépendamment. Deux zones sont deux objets posés sur la page, pas un panneau coupé en deux — ce qui les distingue, c'est l'espace entre elles, et `zone--panel` est le sol sur lequel chacune se tient."
+  fit:
+    column: Colonne
   section:
     split:
       title: 'Une division'
@@ -242,12 +249,15 @@ fr:
     vertical:
       title: 'Un en-tête qui ne défile pas'
       description: "Une division tournée verticalement : une zone étroite est de la hauteur de ce qu'elle contient, le corps prend le reste et défile en dessous. C'est l'arrangement d'un panneau avec une barre d'outils en haut."
+    fit:
+      title: 'Aussi large que son contenu'
+      description: "`zone--fit-content` : la zone prend la largeur de ce qu'elle contient — un tableau avec de nombreuses colonnes — plutôt que celle qui lui est laissée. La ligne déborde et défile horizontalement en une seule fois, sa barre de défilement en bas du cadre, et non sous le tableau seul ; chaque zone défile toujours vers le bas individuellement."
     wrap:
       title: 'Sous un sol'
       description: "Étant donné un sol, la zone flexible s'approprie une ligne complète et la colonne dimensionnée se déplace au-dessus au lieu d'être toutes deux compressées à rien. Réduisez la fenêtre pour voir comment cela se replie."
     portrait:
-      title: "À côté d’une page"
-      description: "`zone--portrait` : jamais plus étroite qu’une page portrait (3:4) aussi haute que la rangée. Élargi à la main, le texte garde sa largeur et la rangée défile de côté au lieu d’écraser la page."
+      title: 'À côté d’une page'
+      description: '`zone--portrait` : jamais plus étroite qu’une page portrait (3:4) aussi haute que la rangée. Élargi à la main, le texte garde sa largeur et la rangée défile de côté au lieu d’écraser la page.'
   split:
     body: 'Ce côté prend tout ce que laisse la colonne dimensionnée.'
   scrollable:
@@ -697,6 +707,8 @@ zh:
   page_title: 区域
   page_icon: 'ph:bold/columns'
   intro: 每个探索者、编辑器和详细视图构建的双窗格工作区。一个区域没有自己的宽度和高度：它所处的分割决定了它的大小，每一侧独立滚动。两个区域是页面上放置的两个对象，而不是一个被切成两半的面板——区分它们的是它们之间的空间，而`zone--panel`是它们各自立足的基础。
+  fit:
+    column: 列
   section:
     split:
       title: 分割
@@ -707,12 +719,15 @@ zh:
     vertical:
       title: 一个不滚动的头部
       description: 垂直分割：狭窄区域的高度是它所承载内容的高度，主体占用其余部分并在其下滚动。这是一个顶部有工具栏的面板的排列。
+    fit:
+      title: 与内容宽度一致
+      description: '`zone--fit-content`：该区域的宽度取决于其所包含的内容——多个列的表格——而不是剩余空间。行会整体溢出并横向滚动，滚动条位于框架底部，而不是仅在表格下方；每个区域仍然可以单独向下滚动。'
     wrap:
       title: 在地板下
       description: 给定一个地板，灵活区域占据整行，大小列则在其上方移动，而不是被挤压到无。缩小窗口以查看它的折叠。
     portrait:
-      title: "页面旁边"
-      description: "`zone--portrait`：绝不窄于与行同高的纵向页面（3:4）。手动加宽后，文本保持宽度，行横向滚动，而不是挤压页面。"
+      title: 页面旁边
+      description: '`zone--portrait`：绝不窄于与行同高的纵向页面（3:4）。手动加宽后，文本保持宽度，行横向滚动，而不是挤压页面。'
   split:
     body: 这一侧接受大小列留下的任何内容。
   scrollable:

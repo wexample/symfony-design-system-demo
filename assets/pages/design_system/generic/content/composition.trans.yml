@@ -91,7 +91,16 @@ ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: تركيب
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 'لا يمكن المسح؟ اكتب هذه المفتاح في التطبيق:'
+    link:
+      question: 'زر لا يفتح؟'
+      value: 'افتح الصفحة من هنا'
   section:
+    fallback:
+      title: البديل
+      description: 'الطريقة الأخرى، عندما تفشل الأولى: السؤال، ثم قيمة تُنسخ بنقرة واحدة، أو رابط. مباشرة تحت ما تمثل، متماشية معه.'
     vue:
       title: فيو
       description: 'الصورة وكتلة الكود كجزء من فيو، تأخذ نفس الخيارات.'
@@ -1592,7 +1601,16 @@ zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 组成
   page_icon: 'ph:bold/layout'
+  fallback:
+    key:
+      question: 无法扫描？请在应用中输入此密钥：
+    link:
+      question: 按钮无法打开？
+      value: 从这里打开页面
   section:
+    fallback:
+      title: 备用
+      description: 另一种方法，当第一种方法失败时：提问，然后是一个可以一键复制的值或链接。紧挨着它所代表的内容对齐。
     vue:
       title: Vue
       description: 图片和代码块作为vue部分，采用相同的选项。

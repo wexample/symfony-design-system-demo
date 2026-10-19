@@ -61,13 +61,27 @@ ar:
       title: 'شريط أدوات مع عنوان'
     title_multi:
       title: 'عنوان القسم مع الإجراءات'
+    fields:
+      title: 'حقول في شريط'
+      description: 'ما يحتويه شريط خيارات المحرر بجانب الأزرار: حجم، وضع، مفتاح تبديل، خيار، بحث وزر البحث. كل منها يكون على ارتفاع عناصر تحكم الشريط، لذا فإن الشريط المدمج يحتفظ بسماكته؛ حقل وإجراءه معًا (نموذج--مضمن) يأخذان المساحة التي يتركها الشريط.'
   title:
     example: 'عنوان الصفحة'
     section: 'عنوان القسم'
     document: 'التصميم والتطوير'
   marker:
     state: 'دائم الخضرة'
+  field:
+    size: الحجم
+    mode: الوضع
+    mode_normal: عادي
+    mode_multiply: ضرب
+    snap: التثبيت
+    preview: معاينة
+    search: بحث
+    message: رسالة
   button:
+    search: بحث
+    send: إرسال
     create: إنشاء
     refresh: تحديث
     export: تصدير
@@ -684,13 +698,27 @@ zh:
       title: 带标题的工具栏
     title_multi:
       title: 带操作的节标题
+    fields:
+      title: 选项栏中的字段
+      description: 编辑器选项栏除了按钮外还包含什么：尺寸、模式、切换、选择、搜索及其按钮。每个控件与选项栏的高度保持一致，因此紧凑的选项栏保持其厚度；字段及其操作在一起（表单--内联）占据选项栏留出的空间。
   title:
     example: 页面标题
     section: 节标题
     document: 设计与开发
   marker:
     state: 常青
+  field:
+    size: 尺寸
+    mode: 模式
+    mode_normal: 正常
+    mode_multiply: 乘法
+    snap: 对齐
+    preview: 预览
+    search: 搜索
+    message: 消息
   button:
+    search: 搜索
+    send: 发送
     create: 创建
     refresh: 刷新
     export: 导出

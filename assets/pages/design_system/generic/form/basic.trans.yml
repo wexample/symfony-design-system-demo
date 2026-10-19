@@ -52,6 +52,11 @@ ar:
   section:
     default:
       title: 'نموذج أساسي'
+    columns:
+      title: 'الأعمدة والمناطق'
+      description: '`form--columns` في قسم يضع حقوله جنبًا إلى جنب: عدد الأعمدة بقدر ما يسع المكان، ثلاثة كحد أقصى (`form--columns-2` لعمودين)، عمود واحد على الهاتف. `form--span` على حقل يمنحه الخط بالكامل. `form--zones` على النموذج يضع أقسامه جنبًا إلى جنب عندما يسمح المكان، مفصولًا بمسافة فقط؛ `form--zones--framed` يعطي كل منها قاعدة وحدود، لنموذج يقف على الصفحة بدلاً من أن يكون في بطاقة.'
+      identity: الهوية
+      settings: الإعدادات
     block:
       title: 'نماذج مجمعة'
     assisted:
@@ -280,6 +285,11 @@ fr:
   section:
     default:
       title: 'Formulaire de base'
+    columns:
+      title: 'Colonnes et zones'
+      description: '`form--columns` dans une section dispose ses champs côte à côte : autant de colonnes que la place le permet, trois au maximum (`form--columns-2` pour deux), une sur un téléphone. `form--span` sur un champ lui donne toute la ligne. `form--zones` sur le formulaire place ses sections côte à côte lorsque la place le permet, séparées uniquement par un espace ; `form--zones--framed` donne à chacune un fond et un bord, pour un formulaire posé sur la page plutôt que dans une carte.'
+      identity: Identité
+      settings: Paramètres
     block:
       title: 'Formulaires en bloc'
     assisted:
@@ -850,6 +860,11 @@ zh:
   section:
     default:
       title: 基本表单
+    columns:
+      title: 列和区域
+      description: '`form--columns` 在一个区域内将其字段并排放置：根据空间的大小，最多可以有三列（对于两列使用 `form--columns-2`），在手机上只有一列。`form--span` 在字段上会使其占据整行。`form--zones` 在表单上设置其区域并排放置，当空间允许时，仅用空隙分隔；`form--zones--framed` 为每个区域提供一个底部和边缘，使表单在页面上独立存在，而不是在卡片内。'
+      identity: 身份
+      settings: 设置
     block:
       title: 区块表单
     assisted:

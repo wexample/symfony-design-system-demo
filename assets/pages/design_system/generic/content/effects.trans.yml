@@ -45,3 +45,43 @@ fr:
     lasting: durables
     network: "Wexample, le réseau de freelances"
     words: "inclusif,solidaire,généreux,structuré,organisé,expérimenté"
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 效果
+  page_icon: 'ph:bold/sparkle'
+  intro: 影响文字的效果，用于一个引人注目的页面——一个落地页，一个英雄。它们来自symfony-design-system-effects，对于那些要求减少动态效果的人来说，依然静止不动。
+  section:
+    hero:
+      title: 英雄
+      description: 文字像是被马克笔描绘一样，一个接一个地出现在视野中；一个像老虎机一样滚动的词，最终定格在下一个。大声朗读时，滚动的词就是它的列表，一次。
+    tones:
+      title: 音调
+      description: 笔的颜色来自分类调色板。
+  hero:
+    before: 为您提供网络解决方案的网络
+    tailored: 量身定制
+    and: 和
+    lasting: 持久耐用
+    network: Wexample，众包自由职业者的网络
+    words: 包容，支持，慷慨，结构化，组织良好，经验丰富
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التأثيرات
+  page_icon: 'ph:bold/sparkle'
+  intro: 'التأثيرات على الكلمات، لصفحة تتحدث بصوت عالٍ — هبوط، بطل. تأتي من symfony-design-system-effects، وتبقى ساكنة لمن طلب حركة أقل.'
+  section:
+    hero:
+      title: بطل
+      description: 'كلمات يمر فوقها قلم شعري، تُرسم واحدة تلو الأخرى بمجرد ظهورها؛ كلمة تتدحرج مثل آلة القمار قبل أن تستقر على التالية. عند القراءة بصوت عالٍ، الكلمة المتدحرجة هي قائمتها، مرة واحدة.'
+    tones:
+      title: الألوان
+      description: 'يأخذ القلم ألوان لوحة الفئات.'
+  hero:
+    before: 'الشبكة التي تقدم لك حلول الويب'
+    tailored: مخصصة
+    and: و
+    lasting: 'مصممة لتدوم'
+    network: 'Wexample، شبكة المستقلين الذين هم'
+    words: 'شاملة، داعمة، كريمة، منظمة، مهيكلة، ذات خبرة'

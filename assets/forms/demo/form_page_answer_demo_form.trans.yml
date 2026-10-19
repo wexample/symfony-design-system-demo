@@ -11,3 +11,17 @@ fr:
       label: À quoi sert le code
   action:
     submit: Émettre le code
+
+zh:
+  field:
+    label:
+      label: 代码是什么
+  action:
+    submit: 提交代码
+
+ar:
+  field:
+    label:
+      label: 'ما هو كود'
+  action:
+    submit: 'اصدار الكود'

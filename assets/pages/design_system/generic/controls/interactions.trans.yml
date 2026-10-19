@@ -61,3 +61,59 @@ fr:
 
   fallback:
     question: "Impossible de scanner ? Saisissez cette clé dans l'application :"
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 交互
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 点击、按键或悬停所做的事情，超出单纯按下按钮的意义。每种情况都是一个基准：先用指针试试，然后仅用键盘试试。
+  section:
+    value:
+      title: 复制一个值
+      description: 'copy_button({ value }): 按钮旁边的图标，复制它所指的内容，或与其文字一起。复制后显示两秒钟的勾，剪贴板拒绝时显示叉——绝不声称未发生的事情。'
+    target:
+      title: 复制页面显示的内容
+      description: 'copy_button({ target }): 元素的文本，在点击时按当前状态读取。'
+    code:
+      title: 一段代码块
+      description: 'code-block with copy: true — 按钮在指向代码块或通过 Tab 到达时在角落显示，无指针时仍然保持在屏幕上。'
+    fallback:
+      title: 在回退中
+      description: 回退的值附带复制按钮。
+    check:
+      title: 需要检查的内容
+      items:
+        - 'Tab 可以到达每个按钮；Enter 和空格键用于复制。'
+        - '在普通 http（开发主机）上，复制依然有效，使用旧方式。'
+        - 粘贴到其他地方，文本完全是值：没有空格，没有多余的行。
+        - 屏幕阅读器在点击后会说“已复制”。
+  fallback:
+    question: 无法扫描？在应用中输入这个键：
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: التفاعلات
+  page_icon: 'ph:bold/hand-pointing'
+  intro: 'ما يفعله النقر أو المفتاح أو التمرير بجانب الضغط على الزر. كل حالة هي منصة: جربها مع المؤشر، ثم مع لوحة المفاتيح فقط.'
+  section:
+    value:
+      title: 'نسخ قيمة'
+      description: 'copy_button({ value }): الأيقونة وحدها حيث يجلس الزر بجانب ما ينسخه، أو مع كلمته. علامة تأكيد لمدة ثانيتين بمجرد النسخ، علامة خطأ عندما يرفض الحافظة - لا يُدعى شيء لم يحدث.'
+    target:
+      title: 'نسخ ما يظهره الصفحة'
+      description: 'copy_button({ target }): نص عنصر، يُقرأ كما هو في لحظة النقر.'
+    code:
+      title: 'كتلة من الكود'
+      description: 'code-block مع copy: true - يظهر الزر في الزاوية بينما يتم الإشارة إلى الكتلة أو الوصول إليها باستخدام Tab، ويظل ظاهرًا على الشاشة بدون مؤشر.'
+    fallback:
+      title: 'في حالة التراجع'
+      description: 'تأتي قيمة التراجع مع زر النسخ الخاص بها.'
+    check:
+      title: 'ما الذي يجب التحقق منه'
+      items:
+        - 'يصل Tab إلى كل زر؛ Enter وSpace تقومان بالنسخ.'
+        - 'عبر http العادي (مضيف تطوير) لا يزال النسخ يعمل، بالطريقة القديمة.'
+        - 'عند اللصق في مكان آخر، يكون النص هو القيمة بالضبط: لا فراغ، لا سطر مضاف.'
+        - 'يقول قارئ الشاشة « تم النسخ » بعد النقر.'
+  fallback:
+    question: 'لا يمكن المسح؟ اكتب هذا المفتاح في التطبيق:'

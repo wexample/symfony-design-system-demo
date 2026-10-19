@@ -19,3 +19,25 @@ fr:
       label: IBAN
   action:
     submit: Enregistrer
+
+zh:
+  field:
+    title:
+      label: 标题
+    siret:
+      label: SIRET
+    iban:
+      label: IBAN
+  action:
+    submit: 保存
+
+ar:
+  field:
+    title:
+      label: العنوان
+    siret:
+      label: سيريت
+    iban:
+      label: آيبان
+  action:
+    submit: حفظ

@@ -160,6 +160,9 @@ ar:
   tone:
     body: 'الأرض تبقى خاصة بالكتلة، فقط الحافة الأمامية تحمل اللون.'
   section:
+    corner_actions:
+      title: 'الإجراءات في الزاوية'
+      description: '`has-corner-actions` على إطار - رائد، كتلة، كتلة كود، رسالة - وإجراءات الأيقونة الخاصة به في `corner-actions` بداخله: في الزاوية العليا عند نهايته، تظهر عندما يتم توجيه الإطار نحوها أو عند استخدام لوحة المفاتيح، دائمًا على الشاشة بدون مؤشر (`corner-actions--always` لإظهارها بشكل دائم). يحتفظ الإطار الذي يحتوي على نص جاري بعمود فارغ لها.'
     tone:
       title: 'كتلة تحمل نغمة'
       description: 'لون الحالة — أو الفئة — كخط في الحافة الأمامية، ولا شيء آخر: نفس الخط الذي ترتديه الرسالة، دون الأرض الملونة، بحيث تقرأ قائمة منها كقائمة وليس كإنذار. أي كتلة تأخذها، بما في ذلك الخط الذي يقف على كتلة.'
@@ -172,12 +175,18 @@ ar:
       description: 'عمود ضيق مقاس على مقياس --size، بجانب جسم يمتص العرض المتبقي.'
     card:
       title: بطاقات
+    mark:
+      title: 'علامة في الزاوية'
+      description: '`block--mark` يضع أيقونة صغيرة في الزاوية العليا عند بداية الكتلة: ما هي - نوع بطاقة موضوعة في مخطط، نوع مستند -، بجانب ما تقوله، وليس عنوانًا.'
     link:
       title: 'كتلة هي رابط'
       description: 'البطاقة بأكملها هي الرابط — لاختيار تم عن طريق اختيار بطاقة واحدة من عدة: خطة، فرع، نموذج. تقرأ كنص، وليس كإجراء مموه؛ تحت المؤشر تأخذ أرضيتها تدرجًا وتشتد حافتها، ويجدها لوحة المفاتيح بواسطة حلقة التركيز التي يرتديها كل تحكم.'
     figure:
       title: أرقام
       description: 'قيمة أو أيقونة واحدة كبيرة، في المنتصف. تستخدم لعدادات لوحة التحكم وبلاطات الحالة — أضف block--square للحفاظ على البلاط مربعًا بغض النظر عن عرضه.'
+    key_figures:
+      title: 'الأرقام الرئيسية'
+      description: 'الرقم المقروء كرقم رئيسي في لوحة المعلومات: `block--figure--start` يضعه من بداية السطر، التسمية فوقه، القيمة مع وحدتها موضوعة للخلف (`block--figure-unit`)، وخط تحتها يوضح مما تتكون (`block--figure-sub`). `block--tone-cat-<name>` يرسم شريط الفئة على الحافة؛ و `a.block--link` يفتح عرض الرقم. في `grid`، الصف يمتد إلى عدة خطوط كلما ضاقت المساحة.'
     stacks:
       title: تكديس
     stack_horizontal:
@@ -249,6 +258,19 @@ ar:
     framed:
       title: 'معدل الإنتاجية'
       label: 'الأحداث في الثانية'
+  key_figure:
+    relaunch:
+      label: 'إعادة تشغيل'
+      sub: '123 قطعة · 4 مجموعات'
+    load:
+      label: تحميل
+      sub: '3 مجموعات فوق 85 %'
+    woven:
+      label: 'نسجت هذا الأسبوع'
+      sub: '41 طلبًا'
+    late:
+      label: 'طلبات متأخرة'
+      sub: '2 في خطر الأسبوع المقبل'
   tab:
     one: 'نظرة عامة'
     two: نشاط
@@ -269,6 +291,11 @@ ar:
     company:
       title: الشركة
       description: 'كل فريق، مع الضوابط التي تطلبها المؤسسة.'
+  corner_actions:
+    lead: 'يمكن نسخ هذا الرائد باستخدام الزر في زاويته.'
+    block: 'كتلة تحتوي على إجراءين في زاويتها، بعيدة عن الطريق حتى يتم الإشارة إليها.'
+    edit: تعديل
+    open: 'فتح الكل'
 
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -862,6 +889,9 @@ fr:
   tone:
     body: 'le sol reste celui du bloc, seule la bordure avant porte la couleur.'
   section:
+    corner_actions:
+      title: 'Actions dans un coin'
+      description: "`has-corner-actions` sur un cadre — un lead, un bloc, un bloc de code, un message — et ses actions d'icône dans un `corner-actions` à l'intérieur : dans le coin supérieur à sa fin, affiché lorsque le cadre est pointé ou maintient le clavier, toujours sur un écran sans pointeur (`corner-actions--always` pour les afficher de manière permanente). Un cadre contenant du texte en cours garde une colonne libre pour eux."
     tone:
       title: 'Un bloc portant un ton'
       description: "La couleur d'un état — ou d'une catégorie — sous forme de barre sur la bordure avant, et rien d'autre : la même barre qu'un message porte, sans le sol teinté, de sorte qu'une liste de ceux-ci se lit comme une liste et non comme une alarme. Tout bloc peut l'adopter, une barre se tenant sur un bloc inclus."
@@ -875,7 +905,7 @@ fr:
     card:
       title: Cartes
     mark:
-      title: Une marque dans le coin
+      title: 'Une marque dans le coin'
       description: "`block--mark` pose une petite icône dans le coin supérieur du début d'un bloc : ce qu'il est — le type d'une carte posée dans un schéma, la nature d'un document —, à côté de ce qu'il dit, pas un titre."
     link:
       title: 'Un bloc qui est un lien'
@@ -883,6 +913,9 @@ fr:
     figure:
       title: Figures
       description: 'Une seule valeur ou icône surdimensionnée, centrée. Utilisé pour les compteurs de tableau de bord et les tuiles de statut — ajoutez block--square pour garder la tuile carrée quelle que soit sa largeur.'
+    key_figures:
+      title: 'Chiffres clés'
+      description: "Le chiffre lu comme le chiffre clé d'un tableau de bord : `block--figure--start` le place depuis le début de la ligne, l'étiquette au-dessus, la valeur avec son unité reculé (`block--figure-unit`), et une ligne en dessous disant de quoi il est composé (`block--figure-sub`). `block--tone-cat-<name>` dessine la barre de la catégorie le long du bord ; un `a.block--link` ouvre la vue du chiffre. Dans une `grid`, la ligne s'étend sur plusieurs lignes à mesure que la pièce se rétrécit."
     stacks:
       title: Empilements
     stack_horizontal:
@@ -954,6 +987,19 @@ fr:
     framed:
       title: Débit
       label: 'Événements par seconde'
+  key_figure:
+    relaunch:
+      label: Relancer
+      sub: '123 pièces · 4 groupes'
+    load:
+      label: Charger
+      sub: '3 groupes au-dessus de 85 %'
+    woven:
+      label: 'Tissé cette semaine'
+      sub: '41 commandes'
+    late:
+      label: 'Commandes en retard'
+      sub: '2 à risque la semaine prochaine'
   tab:
     one: Aperçu
     two: Activité
@@ -974,6 +1020,11 @@ fr:
     company:
       title: Entreprise
       description: "Chaque équipe, avec les contrôles qu'une organisation demande."
+  corner_actions:
+    lead: 'Ce lead peut être copié avec le bouton dans son coin.'
+    block: "Un bloc avec deux actions dans son coin, hors du chemin jusqu'à ce qu'il soit pointé."
+    edit: Modifier
+    open: 'Ouvrir tout'
 
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
@@ -2620,6 +2671,9 @@ zh:
   tone:
     body: 地面保持区块自身，只有前缘带有颜色。
   section:
+    corner_actions:
+      title: 角落中的操作
+      description: '在框架上使用`has-corner-actions` — 一个引导框、一个块、一段代码块或一条消息 — 以及它的图标操作在其中的`corner-actions`：在框架的末尾的顶部角落，指向该框架或持有键盘时显示，在没有指针的屏幕上始终可见（使用`corner-actions--always`始终显示）。一个包含运行文本的框架保持一列空白以供它们使用。'
     tone:
       title: 带有色调的区块
       description: 一种状态或类别的颜色——作为前缘下的条形，除此之外没有其他：这个条形与信息所携带的相同，没有着色的地面，因此它们的列表看起来像一个列表而不是警报。任何区块都可以采用它，包括一个站在区块上的条形。
@@ -2632,12 +2686,18 @@ zh:
       description: 一个根据--size比例尺大小的窄列，旁边是吸收剩余宽度的主体。
     card:
       title: 卡片
+    mark:
+      title: 角落的标记
+      description: '`block--mark`在块的开始处的顶部角落放置一个小图标：它是什么 — 在图表中放置的卡片类型，文件的种类 —，在它所说内容的旁边，而不是标题。'
     link:
       title: 作为链接的区块
       description: 整个卡片都是链接——通过从多个卡片中选择一张卡片进行选择：一个计划，一个分支，一个模板。它看起来像文本，而不是静音的动作；在指针下，它的地面带有细微的色调，边缘变得坚固，键盘通过每个控件佩戴的焦点环找到它。
     figure:
       title: 数字
       description: 一个居中的超大值或图标。用于仪表板计数器和状态图块——添加block--square以在宽度变化时保持图块为正方形。
+    key_figures:
+      title: 关键指标
+      description: 作为仪表板的关键指标读取的数字：`block--figure--start`从行的开始处放置，标签在上方，值与其单位向后设置（`block--figure-unit`），下面有一行说明它由什么组成（`block--figure-sub`）。`block--tone-cat-<name>`沿边缘绘制类别的条；一个`a.block--link`打开该指标的视图。在`grid`中，行在空间缩小时变为多行。
     stacks:
       title: 堆叠
     stack_horizontal:
@@ -2709,6 +2769,19 @@ zh:
     framed:
       title: 吞吐量
       label: 每秒事件
+  key_figure:
+    relaunch:
+      label: 重新启动
+      sub: '123 件 · 4 组'
+    load:
+      label: 加载
+      sub: '3 组超过 85 %'
+    woven:
+      label: 本周编织
+      sub: '41 个订单'
+    late:
+      label: 延迟订单
+      sub: '下周有 2 个风险'
   tab:
     one: 概览
     two: 活动
@@ -2729,3 +2802,8 @@ zh:
     company:
       title: 公司
       description: 每个团队，拥有组织所需的控件。
+  corner_actions:
+    lead: 此引导可通过其角落的按钮复制。
+    block: 一个在角落有两个操作的块，直到被指向之前都不显眼。
+    edit: 编辑
+    open: 打开全部

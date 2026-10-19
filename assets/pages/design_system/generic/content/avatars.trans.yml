@@ -35,3 +35,35 @@ fr:
     sizes:
       title: Tailles
       description: "Le visage est un dessin, net à toutes les tailles : celle du cadre, --avatar-size, décide."
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 头像
+  page_icon: 'ph:bold/smiley'
+  intro: 为没有图片的人绘制的面孔，由引擎根据种子生成——一个永不改变的ID，而不是名字——可以作为任何页面、vue组件或邮件展示的图像。相同的种子总是生成相同的面孔；引擎决定它的外观。
+  section:
+    engines:
+      title: 引擎
+      description: 设计系统在种子的颜色上绘制首字母。其他引擎在旁边接入：2020年的wexies来自symfony-design-system-effects。
+    crowd:
+      title: 一群wexies
+      description: 二十六对手绘的眼睛，每双眼睛都望向不同的地方，基于种子的颜色：六十个成员，六十张面孔。
+    sizes:
+      title: 尺寸
+      description: 面孔是一幅画，在每个尺寸上都清晰可见：框架的--avatar-size，定义了大小。
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 'الرموز الشخصية'
+  page_icon: 'ph:bold/smiley'
+  intro: 'وجه لمن ليس لديه صورة، مرسوم بواسطة محرك من بذور - هو معرف لا يتغير، وليس الاسم - ويظهر كصورة يمكن أن تعرضها أي صفحة أو مكون في فيو أو بريد. نفس البذور دائمًا تعطي نفس الوجه؛ المحرك يحدد كيف يبدو.'
+  section:
+    engines:
+      title: المحركات
+      description: 'نظام التصميم يرسم الأحرف الأولى بلون البذور. وهناك محركات أخرى تعمل بجانبه: الويكسيز من 2020 تأتي من تأثيرات نظام تصميم سيمفوني.'
+    crowd:
+      title: 'حشد من الويكسيز'
+      description: 'ستة وعشرون زوجًا من العيون مرسومة يدويًا، كل منها ينظر إلى مكان ما، بلون البذور: ستون عضوًا، بقدر ما يوجد من الوجوه.'
+    sizes:
+      title: الأحجام
+      description: 'الوجه هو رسم، حاد في كل حجم: إطار --حجم-الرمز الشخصي، يحدد مدى كبره.'

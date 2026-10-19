@@ -69,6 +69,9 @@ ar:
   page_title: القوائم
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'أزرار مفصولة'
+      description: "زر يقوم بفعل واحد ويقدم الخيارات الأخرى: جسده يقوم بالإجراء، والسهم الملتصق بنهايته — وفقط السهم — يفتح القائمة. `button_menu` يتم إعطاؤه `action` — `{ href }`، أو `{ type: 'submit' }` في نموذج؛ الـ vue يقوم بإصدار `action`."
     vue:
       title: فيو
       description: 'صف الارتباط والفاصل كأجزاء فيو. على عكس الصفوف التي تقرأ مسارًا، تأخذ هذان الخياران أيقونتهما ووسمها كخيارات، لذا لا ينقص شيء من الخادم.'
@@ -85,6 +88,9 @@ ar:
       description: 'أربعة أنواع تتشارك في صف واحد: كلمة وهدف هي رابط، كلمة وحالة هي تبديل، كلمة وأطفال هي فرع، وخط عار هو فاصل. لا يعلن أي شيء عن نوعه - يتبع مما يحمله العنصر. ينفق التبديل مكانه الرائد على علامته، لذا يبقى عمود منها كلماتها متراصة، وتظل اللوحة مفتوحة تحتها: تقرأ قائمة الفلاتر باليد، وليس واحدة في كل مرة.'
   menu:
     primary: 'زر القائمة'
+    save: حفظ
+    save_vue: 'حفظ، في vue'
+    publish: نشر
     filters: الفلاتر
     filters_vue: 'الفلاتر، في فيو'
     counted: 'مع العدادات'
@@ -101,6 +107,9 @@ ar:
       top_right: 'أعلى اليمين'
     item:
       report: إبلاغ
+      draft: 'حفظ كمسودة'
+      copy: 'حفظ نسخة'
+      schedule: جدولة
       inbox: 'صندوق الوارد'
       alerts: تنبيهات
       settings: الإعدادات
@@ -387,6 +396,9 @@ fr:
   page_title: Menus
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 'Boutons de séparation'
+      description: "Un bouton qui effectue une action et propose d'autres options : son corps accomplit l'action, le caret fixé à son extrémité — et uniquement le caret — ouvre le menu. `button_menu` donné un `action` — `{ href }`, ou `{ type: 'submit' }` dans un formulaire ; le vue émet `action`."
     vue:
       title: Vue
       description: 'La ligne de lien et le séparateur en tant que partials vue. Contrairement aux lignes qui lisent une route, ces deux prennent leur icône et leur étiquette comme options, donc rien du serveur ne manque.'
@@ -403,6 +415,9 @@ fr:
       description: "Quatre types partagent une ligne : un mot et une cible est un lien, un mot et un état est un toggle, un mot et des enfants est une branche, et une ligne nue est un séparateur. Rien ne déclare son type — cela découle de ce que l'élément porte. Un toggle dépense son emplacement principal sur sa marque, donc une colonne d'eux garde ses mots alignés, et le panneau reste ouvert en dessous : un menu de filtres se lit par poignée, pas un à la fois."
   menu:
     primary: 'Bouton de menu'
+    save: Enregistrer
+    save_vue: 'Enregistrer, en vue'
+    publish: Publier
     filters: Filtres
     filters_vue: 'Filtres, en vue'
     counted: 'Avec des comptes'
@@ -419,6 +434,9 @@ fr:
       top_right: 'En haut à droite'
     item:
       report: Rapport
+      draft: 'Enregistrer en tant que brouillon'
+      copy: 'Enregistrer une copie'
+      schedule: Planifier
       inbox: 'Boîte de réception'
       alerts: Alertes
       settings: Paramètres
@@ -1182,6 +1200,9 @@ zh:
   page_title: 菜单
   page_icon: 'ph:bold/list'
   section:
+    split:
+      title: 拆分按钮
+      description: "一个执行单一操作并提供其他选项的按钮：按钮主体执行该操作，固定在末尾的箭头——只有箭头——打开菜单。`button_menu`给定一个`action`——`{ href }`，或在表单中`{ type: 'submit' }`；vue 的则会发出 `action`。"
     vue:
       title: Vue
       description: '链接行和分隔符作为 vue 部件。与读取路线的行不同，这两个将其图标和标签作为选项，因此服务器的内容不会缺失。'
@@ -1198,6 +1219,9 @@ zh:
       description: '四种类型共享一行：一个词和一个目标是链接，一个词和一个状态是切换，一个词和子项是分支，而一条光秃秃的线是分隔符。没有任何事物声明其类型 - 它从项所承载的内容中推断出来。切换花费其前导位置在其标记上，因此它们的列保持其词对齐，面板在其下方保持打开：过滤器菜单是以一把为单位读取的，而不是一次一个。'
   menu:
     primary: 菜单按钮
+    save: 保存
+    save_vue: '在 vue 中保存'
+    publish: 发布
     filters: 过滤器
     filters_vue: '过滤器，使用 vue'
     counted: 带计数
@@ -1214,6 +1238,9 @@ zh:
       top_right: 右上角
     item:
       report: 报告
+      draft: 保存为草稿
+      copy: 保存副本
+      schedule: 安排
       inbox: 收件箱
       alerts: 警报
       settings: 设置

@@ -55,3 +55,61 @@ fr:
   flag_location_1: celle de gauche
   flag_location_2: celle de droite
   flag_location_3: pavé numérique
+
+zh:
+  waiting: '按任意键 — 在页面的任何地方。'
+  modifiers: 按下的修饰键
+  caps_lock: 大写锁定
+  platform_mac: 'Mac：修饰键是 ⌘ Command。'
+  platform_other: '非Mac：修饰键是 Ctrl。'
+  shortcuts: 识别到的快捷键
+  action_copy: 复制
+  action_cut: 剪切
+  action_paste: 粘贴
+  action_undo: 撤销
+  action_redo: 重做
+  action_save: 保存（来自浏览器）
+  action_search: 搜索（来自浏览器）
+  action_move_up: 向上移动
+  try: 在这里写、复制、粘贴
+  try_placeholder: '尝试 ⌘C / Ctrl+C，死键上的重音符号（^ 然后是 e），像 72,5 这样的数字…'
+  clipboard: 剪贴板
+  clipboard_empty: 尚未复制或粘贴任何内容。
+  as_number: 作为数字读取：
+  board: 键盘，按键的位置
+  log: 事件，最新的在前
+  flag_repeat: 按住不放
+  flag_dead: '死键 — 等待下一个键'
+  flag_composing: 正在组合
+  flag_location_1: 左侧的一个
+  flag_location_2: 右侧的一个
+  flag_location_3: 数字小键盘
+
+ar:
+  waiting: 'اضغط على مفتاح - في أي مكان على الصفحة.'
+  modifiers: 'المعدلات المحتفظ بها'
+  caps_lock: 'تبديل الأحرف الكبيرة'
+  platform_mac: 'على جهاز ماك: المعدل هو ⌘ الأمر.'
+  platform_other: 'ليس جهاز ماك: المعدل هو Ctrl.'
+  shortcuts: 'اختصارات معروفة'
+  action_copy: نسخ
+  action_cut: قص
+  action_paste: لصق
+  action_undo: تراجع
+  action_redo: إعادة
+  action_save: 'حفظ (محتفظ به من المتصفح)'
+  action_search: 'بحث (محتفظ به من المتصفح)'
+  action_move_up: 'تحريك لأعلى'
+  try: 'اكتب، انسخ، ألصق هنا'
+  try_placeholder: 'حاول ⌘C / Ctrl+C، إشارة على مفتاح ميت (^ ثم e)، رقم مثل 72,5…'
+  clipboard: الحافظة
+  clipboard_empty: 'لا شيء تم نسخه أو لصقه بعد.'
+  as_number: 'اقرأ كرقم:'
+  board: 'لوحة المفاتيح، حسب مكان مفاتيحها'
+  log: 'الأحداث، الأحدث أولاً'
+  flag_repeat: 'محتفظ به'
+  flag_dead: 'مفتاح ميت - ينتظر المفتاح التالي'
+  flag_composing: يؤلف
+  flag_location_1: الأيسر
+  flag_location_2: الأيمن
+  flag_location_3: 'لوحة الأرقام'

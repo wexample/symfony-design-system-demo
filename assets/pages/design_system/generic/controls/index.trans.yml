@@ -62,6 +62,9 @@ ar:
     steppers:
       title: خطوات
       description: 'أين يقف القارئ في تسلسل من الخطوات، مع الخيارات السابقة للعودة.'
+    interactions:
+      title: التفاعلات
+      description: 'ما تفعله نقرة، مفتاح أو تمرير فوق غير زر: نسخ قيمة، كتلة من الشيفرة، أو بديل.'
   section:
     compound:
       title: 'كل شيء معاً'
@@ -842,6 +845,9 @@ zh:
     steppers:
       title: 步骤指示器
       description: 读者在步骤序列中的位置，后面的步骤可以返回。
+    interactions:
+      title: 交互
+      description: 点击、按键或悬停在按钮之外的作用：复制一个值、一段代码或一个后备选项。
   section:
     compound:
       title: 综合

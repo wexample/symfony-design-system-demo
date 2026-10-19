@@ -94,7 +94,19 @@ ar:
   page_title: الخصائص
   page_icon: 'ph:bold/list-dashes'
   intro: 'أزواج المفتاح / القيمة تم عرضها كقائمة تعريف. الصفوف هي شبكات فرعية للقائمة، لذا تبقى المفاتيح متراصة في عمود واحد بينما يظل كل صف صندوقًا حقيقيًا يمكن أن يحمل فاصلًا.'
+  diff:
+    before: قبل
+    after: الآن
+    email: 'البريد الإلكتروني'
+    role: الدور
+    member: عضو
+    admin: مدير
+    phone: الهاتف
+    team: الفريق
   section:
+    diff:
+      title: 'ما الذي تغير'
+      description: 'diff(): حقل بحقل، ماذا كان وماذا أصبح — القيمة التي تم شطبها، تلك التي تبقى كاملة، جانب فارغ يُقال كما هو. تاريخ السجل، تغيير يجب التأكيد عليه، مزامنة قيد المراجعة.'
     default:
       title: افتراضي
       description: 'يحدد عمود المفتاح حجمه بناءً على أطول تسمية. تجاوز --properties-key-width لتثبيته.'
@@ -1660,7 +1672,19 @@ zh:
   page_title: 属性
   page_icon: 'ph:bold/list-dashes'
   intro: 以定义列表的形式呈现键/值对。行是列表的子网格，因此键保持在单列中对齐，而每行仍然是一个可以携带分隔符的实际框。
+  diff:
+    before: 之前
+    after: 现在
+    email: 邮箱
+    role: 角色
+    member: 成员
+    admin: 管理员
+    phone: 电话
+    team: 团队
   section:
+    diff:
+      title: 变更内容
+      description: 'diff(): 按字段逐个显示，之前是什么，现在是什么 — 被删除的值，保留的值，空的部分也说明。记录的历史，待确认的变更，正在审查的同步。'
     default:
       title: 默认
       description: '键列根据最长标签自适应大小。覆盖 --properties-key-width 来固定它。'

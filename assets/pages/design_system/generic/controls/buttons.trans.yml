@@ -41,7 +41,14 @@ ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: أزرار
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 'قائمة من علامة'
+    item_two: الإعدادات
+    label: 'زر يتكون فقط من كلمته'
   section:
+    bare:
+      title: 'أزرار bare'
+      description: 'button--bare: أي شيء يمكن تحويله إلى زر - علامة، صورة - مع الاحتفاظ بمظهره الخاص. لا يوجد شيء مرسوم حوله؛ لا يزال يفتح، يأخذ التركيز والمفاتيح. انتقل إليه: فقط حلقة التركيز تشير إلى أنه زر.'
     buttons:
       title: 'الأزرار الافتراضية'
     button_states:
@@ -636,7 +643,14 @@ zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 按钮
   page_icon: 'ph:bold/cursor-click'
+  bare:
+    item_one: 来自标记的菜单
+    item_two: 设置
+    label: 只有文字的按钮
   section:
+    bare:
+      title: 裸按钮
+      description: 'button--bare: 任何被制作成按钮的东西 - 一个标记，一个图像 - 保持其自身的外观。没有任何边框；它仍然可以打开，获取焦点和按键。Tab键切换到它时：只有焦点环表示它是一个按钮。'
     buttons:
       title: 默认按钮
     button_states:
