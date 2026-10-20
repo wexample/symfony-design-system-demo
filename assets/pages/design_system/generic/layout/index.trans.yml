@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Layout
+  document_title: "Page layouts and workspaces — Design system"
   page_description: "How a page is divided in the design system: focus views, two-pane workspaces, blocks and the regions an app is built on, shown live."
   page_icon: ph:bold/layout
 

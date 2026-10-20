@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Content
+  document_title: "Prose, media and avatars — Design system"
   page_description: "Formatting what people read in the design system: prose, images and embeds, avatars, and the rhythm between words and values, shown live."
   page_icon: ph:bold/article
 

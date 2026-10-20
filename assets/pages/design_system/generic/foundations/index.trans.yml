@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Foundations
+  document_title: "Colours, spacing and typography — Design system"
   page_description: "The foundations of a design system: the colour, spacing and type scales and the skin every component is drawn from, in light and dark, shown live."
   page_icon: ph:bold/diamonds-four
 

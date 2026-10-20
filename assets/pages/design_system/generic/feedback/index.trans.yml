@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Feedback
+  document_title: "Toasts, banners and messages — Design system"
   page_description: "How an interface answers back: toasts, banners and messages in five semantic colours, up to the dialog that cannot be ignored, shown live."
   page_icon: ph:bold/megaphone
 

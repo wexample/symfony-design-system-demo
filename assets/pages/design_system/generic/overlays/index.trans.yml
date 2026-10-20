@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Overlays
+  document_title: "Modals, panels and confirmations — Design system"
   page_description: "Surfaces that open over the page: modals, side panels and confirmations for destructive actions, each with its own way out, shown live."
   page_icon: ph:bold/stack
 

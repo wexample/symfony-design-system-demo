@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Inventory
+  document_title: "Inventory of every element — Design system"
   page_description: "Every element the design system ships and the formats it comes in, compiled from each bundle's registry and checked against its assets."
   page_icon: ph:bold/list-checks
 

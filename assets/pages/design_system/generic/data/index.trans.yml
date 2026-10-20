@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Data
+  document_title: "Tables, file explorers and live lists — Design system"
   page_description: "Collections in the design system: file explorers, server-rendered and paginated tables with typed cells, and lists that keep up with live data."
   page_icon: ph:bold/list-bullets
 

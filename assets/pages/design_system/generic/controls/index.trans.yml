@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Controls
+  document_title: "Buttons, menus and steppers — Design system"
   page_description: "What a reader acts through in the design system: buttons in every variant and state, menus that place themselves, steppers, shown live."
   page_icon: ph:bold/cursor-click
 

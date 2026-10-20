@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Forms
+  document_title: "Form fields and submission — Design system"
   page_description: "Forms in the design system: every field it ships, server-rendered and component-built forms, their submission and the state they come back in."
   page_icon: ph:bold/textbox
 
