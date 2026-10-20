@@ -31,7 +31,8 @@ en:
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: النماذج
-  page_description: "النماذج في نظام التصميم: كل الحقول المتوفرة، نماذج تُعرض من الخادم أو تُبنى بالمكوّنات، طريقة إرسالها والحالة التي تعود بها."
+  document_title: 'حقول النموذج والإرسال — نظام التصميم'
+  page_description: 'النماذج في نظام التصميم: كل الحقول المتوفرة، نماذج تُعرض من الخادم أو تُبنى بالمكوّنات، طريقة إرسالها والحالة التي تعود بها.'
   page_icon: 'ph:bold/textbox'
   intro: 'مجموعة من الحقول، ماذا تفعل عندما يتم إرسالها، وماذا تقول عندما تعود. الحقول نفسها موجودة في عناصر التحكم؛ ما تضيفه هذه الصفحات هو الرحلة الكاملة.'
   page:
@@ -57,7 +58,8 @@ ar:
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ফরম
-  page_description: "ডিজাইন সিস্টেমে ফর্ম: সরবরাহকৃত প্রতিটি ফিল্ড, সার্ভারে রেন্ডার ও কম্পোনেন্টে তৈরি ফর্ম, তাদের জমা দেওয়া এবং ফিরে আসার অবস্থা।"
+  document_title: 'ফর্ম ক্ষেত্র এবং জমা — ডিজাইন সিস্টেম'
+  page_description: 'ডিজাইন সিস্টেমে ফর্ম: সরবরাহকৃত প্রতিটি ফিল্ড, সার্ভারে রেন্ডার ও কম্পোনেন্টে তৈরি ফর্ম, তাদের জমা দেওয়া এবং ফিরে আসার অবস্থা।'
   page_icon: 'ph:bold/textbox'
   intro: 'একটি ক্ষেত্রের সেট, এটি পাঠানো হলে কী করে এবং এটি ফিরে আসলে কী বলে। ক্ষেত্রগুলো নিয়ন্ত্রণে আছে; এই পৃষ্ঠাগুলো যা যোগ করে তা হল রাউন্ড ট্রিপ।'
   page:
@@ -83,7 +85,8 @@ bn:
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formulare
-  page_description: "Formulare im Designsystem: jedes mitgelieferte Feld, serverseitig gerenderte und aus Komponenten gebaute Formulare, ihr Absenden und der Zustand, in dem sie zurückkommen."
+  document_title: 'Formulare und Einreichung — Designsystem'
+  page_description: 'Formulare im Designsystem: jedes mitgelieferte Feld, serverseitig gerenderte und aus Komponenten gebaute Formulare, ihr Absenden und der Zustand, in dem sie zurückkommen.'
   page_icon: 'ph:bold/textbox'
   intro: 'Eine Reihe von Feldern, was passiert, wenn es gesendet wird, und was es sagt, wenn es zurückkommt. Die Felder selbst befinden sich in Steuerelementen; was diese Seiten hinzufügen, ist die Rückreise.'
   page:
@@ -109,7 +112,8 @@ de:
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formas
-  page_description: "Formularios en el sistema de diseño: todos los campos incluidos, formularios renderizados en el servidor o construidos con componentes, su envío y el estado en que vuelven."
+  document_title: 'Campos del formulario y envío — Sistema de diseño'
+  page_description: 'Formularios en el sistema de diseño: todos los campos incluidos, formularios renderizados en el servidor o construidos con componentes, su envío y el estado en que vuelven.'
   page_icon: 'ph:bold/textbox'
   intro: 'Un conjunto de campos, lo que hace cuando se envía y lo que dice cuando regresa. Los campos en sí están en Controles; lo que estas páginas añaden es el viaje de ida y vuelta.'
   page:
@@ -135,7 +139,8 @@ es:
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: فرم‌ها
-  page_description: "فرم‌ها در سیستم طراحی: همه فیلدهای موجود، فرم‌های رندرشده در سرور یا ساخته‌شده با کامپوننت، ارسال آن‌ها و وضعیتی که با آن بازمی‌گردند."
+  document_title: 'فیلدهای فرم و ارسال — سیستم طراحی'
+  page_description: 'فرم‌ها در سیستم طراحی: همه فیلدهای موجود، فرم‌های رندرشده در سرور یا ساخته‌شده با کامپوننت، ارسال آن‌ها و وضعیتی که با آن بازمی‌گردند.'
   page_icon: 'ph:bold/textbox'
   intro: 'مجموعه‌ای از فیلدها، اینکه چه کار می‌کند زمانی که ارسال می‌شود و چه می‌گوید زمانی که برمی‌گردد. خود فیلدها در کنترل‌ها هستند؛ آنچه این صفحات اضافه می‌کنند، سفر رفت و برگشت است.'
   page:
@@ -161,7 +166,8 @@ fa:
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Lomakkeet
-  page_description: "Lomakkeet design systemissä: jokainen mukana tuleva kenttä, palvelimella renderöidyt ja komponenteista rakennetut lomakkeet, niiden lähetys ja tila, jossa ne palaavat."
+  document_title: 'Lomakkeiden kentät ja lähetys — Suunnittelujärjestelmä'
+  page_description: 'Lomakkeet design systemissä: jokainen mukana tuleva kenttä, palvelimella renderöidyt ja komponenteista rakennetut lomakkeet, niiden lähetys ja tila, jossa ne palaavat.'
   page_icon: 'ph:bold/textbox'
   intro: 'Kenttäjoukko, mitä tapahtuu kun se lähetetään, ja mitä se sanoo kun se palautuu. Kentät itsessään ovat Ohjaimissa; mitä nämä sivut lisäävät, on edestakainen matka.'
   page:
@@ -187,6 +193,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formulaires
+  document_title: 'Champs de formulaire et soumission — Système de design'
   page_description: "Les formulaires du design system : tous les champs fournis, formulaires rendus par le serveur ou construits en composants, leur envoi et l'état dans lequel ils reviennent."
   page_icon: 'ph:bold/textbox'
   intro: "Un ensemble de champs, ce qu'il fait lorsqu'il est envoyé et ce qu'il dit lorsqu'il revient. Les champs eux-mêmes se trouvent dans les Contrôles ; ce que ces pages ajoutent, c'est le trajet aller-retour."
@@ -205,7 +212,7 @@ fr:
       description: "Un formulaire qui répond sans quitter la page, et ce qu'il fait avec ce qui revient."
     gate:
       title: 'Action conditionnée'
-      description: 'Une action retenue tant que les données qu''elle demande manquent : elle envoie vers le formulaire incomplet, puis y revient.'
+      description: "Une action retenue tant que les données qu'elle demande manquent : elle envoie vers le formulaire incomplet, puis y revient."
     vue:
       title: 'Formulaires Vue'
       description: 'Les mêmes formulaires pilotés par un composant, où les champs sont des états plutôt que du balisage.'
@@ -213,7 +220,8 @@ fr:
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: טפסים
-  page_description: "טפסים במערכת העיצוב: כל השדות שהיא מספקת, טפסים מרונדרים בשרת או בנויים מרכיבים, שליחתם והמצב שבו הם חוזרים."
+  document_title: 'שדות טופס והגשה — מערכת עיצוב'
+  page_description: 'טפסים במערכת העיצוב: כל השדות שהיא מספקת, טפסים מרונדרים בשרת או בנויים מרכיבים, שליחתם והמצב שבו הם חוזרים.'
   page_icon: 'ph:bold/textbox'
   intro: 'קבוצה של שדות, מה קורה כשהיא נשלחת, ומה היא אומרת כשזה חוזר. השדות עצמם נמצאים ב-Controls; מה שהעמודים האלה מוסיפים הוא הסיבוב המלא.'
   page:
@@ -239,7 +247,8 @@ he:
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: फॉर्म
-  page_description: "डिज़ाइन सिस्टम में फ़ॉर्म: उपलब्ध हर फ़ील्ड, सर्वर-रेंडर और कंपोनेंट से बने फ़ॉर्म, उनका सबमिशन और लौटने पर उनकी स्थिति।"
+  document_title: 'फॉर्म फ़ील्ड और सबमिशन — डिज़ाइन प्रणाली'
+  page_description: 'डिज़ाइन सिस्टम में फ़ॉर्म: उपलब्ध हर फ़ील्ड, सर्वर-रेंडर और कंपोनेंट से बने फ़ॉर्म, उनका सबमिशन और लौटने पर उनकी स्थिति।'
   page_icon: 'ph:bold/textbox'
   intro: 'एक सेट फ़ील्ड का, जब इसे भेजा जाता है, तो यह क्या करता है, और जब यह वापस आता है तो यह क्या कहता है। फ़ील्ड स्वयं Controls में हैं; जो ये पृष्ठ जोड़ते हैं वह राउंड ट्रिप है।'
   page:
@@ -265,7 +274,8 @@ hi:
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formulir
-  page_description: "Formulir dalam design system: setiap kolom yang disediakan, formulir yang dirender server dan dibangun dari komponen, pengirimannya, serta status saat kembali."
+  document_title: 'Bidang formulir dan pengiriman — Sistem desain'
+  page_description: 'Formulir dalam design system: setiap kolom yang disediakan, formulir yang dirender server dan dibangun dari komponen, pengirimannya, serta status saat kembali.'
   page_icon: 'ph:bold/textbox'
   intro: 'Serangkaian kolom, apa yang dilakukan ketika dikirim, dan apa yang dikatakan ketika kembali. Kolom itu sendiri ada di Kontrol; apa yang ditambahkan halaman ini adalah perjalanan bolak-balik.'
   page:
@@ -291,7 +301,8 @@ id:
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Moduli
-  page_description: "Moduli nel design system: ogni campo fornito, moduli renderizzati dal server o costruiti a componenti, il loro invio e lo stato in cui ritornano."
+  document_title: 'Campi del modulo e invio — Sistema di design'
+  page_description: 'Moduli nel design system: ogni campo fornito, moduli renderizzati dal server o costruiti a componenti, il loro invio e lo stato in cui ritornano.'
   page_icon: 'ph:bold/textbox'
   intro: 'Un insieme di campi, cosa fa quando viene inviato e cosa dice quando torna. I campi stessi si trovano in Controlli; ciò che queste pagine aggiungono è il viaggio di andata e ritorno.'
   page:
@@ -309,7 +320,7 @@ it:
       description: 'Un modulo che risponde senza lasciare la pagina, e cosa fa con ciò che torna.'
     gate:
       title: 'Azione condizionata'
-      description: 'Un''azione trattenuta finché mancano i dati che richiede: manda al modulo incompleto e poi torna.'
+      description: "Un'azione trattenuta finché mancano i dati che richiede: manda al modulo incompleto e poi torna."
     vue:
       title: 'Moduli Vue'
       description: 'Gli stessi moduli gestiti da un componente, dove i campi sono stato piuttosto che markup.'
@@ -317,7 +328,8 @@ it:
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: フォーム
-  page_description: "デザインシステムのフォーム：提供される全フィールド、サーバー描画とコンポーネント構築のフォーム、送信方法と戻ってきたときの状態。"
+  document_title: 'フォームフィールドと提出 — デザインシステム'
+  page_description: デザインシステムのフォーム：提供される全フィールド、サーバー描画とコンポーネント構築のフォーム、送信方法と戻ってきたときの状態。
   page_icon: 'ph:bold/textbox'
   intro: 送信時の動作と、戻ってきたときに表示される内容を持つフィールドのセット。フィールド自体はコントロールにあり、これらのページが追加するのはラウンドトリップです。
   page:
@@ -334,8 +346,8 @@ ja:
       title: Ajaxフォーム
       description: ページを離れずに応答するフォームと、戻ってきた内容に対する処理。
     gate:
-      title: '条件付きアクション'
-      description: '必要なデータがそろうまで保留されるアクション。不足しているフォームへ送り、保存後に戻ります。'
+      title: 条件付きアクション
+      description: 必要なデータがそろうまで保留されるアクション。不足しているフォームへ送り、保存後に戻ります。
     vue:
       title: Vueフォーム
       description: コンポーネントから駆動される同じフォームで、フィールドはマークアップではなく状態です。
@@ -343,7 +355,8 @@ ja:
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 양식
-  page_description: "디자인 시스템의 폼: 제공되는 모든 필드, 서버 렌더링 폼과 컴포넌트로 만든 폼, 제출 방식과 돌아왔을 때의 상태."
+  document_title: '양식 필드 및 제출 — 디자인 시스템'
+  page_description: '디자인 시스템의 폼: 제공되는 모든 필드, 서버 렌더링 폼과 컴포넌트로 만든 폼, 제출 방식과 돌아왔을 때의 상태.'
   page_icon: 'ph:bold/textbox'
   intro: '전송 시의 동작과 응답 시의 내용을 포함한 여러 필드의 집합입니다. 필드 자체는 Controls에 있으며, 이 페이지들이 추가하는 것은 왕복입니다.'
   page:
@@ -369,7 +382,8 @@ ko:
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formulieren
-  page_description: "Formulieren in het designsysteem: elk meegeleverd veld, server-gerenderde en uit componenten opgebouwde formulieren, het verzenden en de toestand waarin ze terugkomen."
+  document_title: 'Formuliervelden en indiening — Ontwerp systeem'
+  page_description: 'Formulieren in het designsysteem: elk meegeleverd veld, server-gerenderde en uit componenten opgebouwde formulieren, het verzenden en de toestand waarin ze terugkomen.'
   page_icon: 'ph:bold/textbox'
   intro: "Een set velden, wat er gebeurt wanneer het wordt verzonden en wat het zegt wanneer het terugkomt. De velden zelf bevinden zich in Besturingselementen; wat deze pagina's toevoegen is de heen- en terugreis."
   page:
@@ -395,7 +409,8 @@ nl:
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formularze
-  page_description: "Formularze w design systemie: każde dostępne pole, formularze renderowane na serwerze i budowane z komponentów, ich wysyłanie i stan, w jakim wracają."
+  document_title: 'Pola formularzy i przesyłanie — System projektowania'
+  page_description: 'Formularze w design systemie: każde dostępne pole, formularze renderowane na serwerze i budowane z komponentów, ich wysyłanie i stan, w jakim wracają.'
   page_icon: 'ph:bold/textbox'
   intro: 'Zestaw pól, co się z nimi dzieje po wysłaniu i co mówią, gdy wracają. Same pola znajdują się w Kontrolkach; to, co dodają te strony, to okrężna podróż.'
   page:
@@ -421,7 +436,8 @@ pl:
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formulários
-  page_description: "Formulários no design system: todos os campos incluídos, formulários renderizados no servidor ou construídos com componentes, seu envio e o estado em que voltam."
+  document_title: 'Campos de formulário e envio — Sistema de design'
+  page_description: 'Formulários no design system: todos os campos incluídos, formulários renderizados no servidor ou construídos com componentes, seu envio e o estado em que voltam.'
   page_icon: 'ph:bold/textbox'
   intro: 'Um conjunto de campos, o que acontece quando é enviado e o que diz quando retorna. Os campos em si estão em Controles; o que essas páginas adicionam é a ida e volta.'
   page:
@@ -447,7 +463,8 @@ pt_BR:
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Формы
-  page_description: "Формы в дизайн-системе: все поставляемые поля, формы с серверным рендерингом и собранные из компонентов, их отправка и состояние, в котором они возвращаются."
+  document_title: 'Поля формы и отправка — Система дизайна'
+  page_description: 'Формы в дизайн-системе: все поставляемые поля, формы с серверным рендерингом и собранные из компонентов, их отправка и состояние, в котором они возвращаются.'
   page_icon: 'ph:bold/textbox'
   intro: 'Набор полей, что происходит, когда они отправляются, и что они говорят, когда возвращаются. Поля сами по себе находятся в Управлениях; что добавляют эти страницы, так это полный цикл.'
   page:
@@ -473,7 +490,8 @@ ru:
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: แบบฟอร์ม
-  page_description: "ฟอร์มในดีไซน์ซิสเต็ม: ทุกฟิลด์ที่มีให้ ฟอร์มที่เรนเดอร์จากเซิร์ฟเวอร์และที่สร้างด้วยคอมโพเนนต์ การส่ง และสถานะเมื่อส่งกลับมา"
+  document_title: 'ฟิลด์ฟอร์มและการส่ง — ระบบการออกแบบ'
+  page_description: 'ฟอร์มในดีไซน์ซิสเต็ม: ทุกฟิลด์ที่มีให้ ฟอร์มที่เรนเดอร์จากเซิร์ฟเวอร์และที่สร้างด้วยคอมโพเนนต์ การส่ง และสถานะเมื่อส่งกลับมา'
   page_icon: 'ph:bold/textbox'
   intro: 'ชุดของฟิลด์ ที่ทำงานอย่างไรเมื่อถูกส่ง และสิ่งที่มันบอกเมื่อกลับมา ฟิลด์เองอยู่ใน Controls; สิ่งที่หน้าเหล่านี้เพิ่มคือการเดินทางไปกลับ.'
   page:
@@ -490,7 +508,7 @@ th:
       title: 'แบบฟอร์ม Ajax'
       description: 'แบบฟอร์มที่ตอบกลับโดยไม่ต้องออกจากหน้า และสิ่งที่มันทำกับข้อมูลที่กลับมา.'
     gate:
-      title: 'การกระทำแบบมีเงื่อนไข'
+      title: การกระทำแบบมีเงื่อนไข
       description: 'การกระทำที่รอจนกว่าข้อมูลที่ต้องการจะครบ โดยส่งไปยังฟอร์มที่ขาดแล้วกลับมา'
     vue:
       title: 'แบบฟอร์ม Vue'
@@ -499,7 +517,8 @@ th:
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Formlar
-  page_description: "Tasarım sisteminde formlar: sunulan her alan, sunucuda işlenen ve bileşenlerle kurulan formlar, gönderimleri ve geri döndükleri durum."
+  document_title: 'Form alanları ve gönderim — Tasarım sistemi'
+  page_description: 'Tasarım sisteminde formlar: sunulan her alan, sunucuda işlenen ve bileşenlerle kurulan formlar, gönderimleri ve geri döndükleri durum.'
   page_icon: 'ph:bold/textbox'
   intro: 'Gönderildiğinde ne yaptığı ve geri geldiğinde ne söylediği bir dizi alan. Alanlar Kontrollerde; bu sayfaların eklediği şey ise gidiş-dönüş sürecidir.'
   page:
@@ -525,7 +544,8 @@ tr:
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: فارمز
-  page_description: "ڈیزائن سسٹم میں فارم: فراہم کردہ ہر فیلڈ، سرور پر رینڈر یا کمپوننٹ سے بنے فارم، ان کا جمع ہونا اور واپسی پر ان کی حالت۔"
+  document_title: 'فارم کے فیلڈز اور جمع کروانا — ڈیزائن سسٹم'
+  page_description: 'ڈیزائن سسٹم میں فارم: فراہم کردہ ہر فیلڈ، سرور پر رینڈر یا کمپوننٹ سے بنے فارم، ان کا جمع ہونا اور واپسی پر ان کی حالت۔'
   page_icon: 'ph:bold/textbox'
   intro: 'فیلڈز کا ایک سیٹ، جب یہ بھیجا جاتا ہے تو یہ کیا کرتا ہے، اور جب یہ واپس آتا ہے تو یہ کیا کہتا ہے۔ فیلڈز خود Controls میں ہیں؛ ان صفحات کا جو اضافہ ہے وہ راؤنڈ ٹرپ ہے۔'
   page:
@@ -551,7 +571,8 @@ ur:
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Biểu mẫu'
-  page_description: "Biểu mẫu trong design system: mọi trường được cung cấp, biểu mẫu render phía máy chủ và dựng bằng thành phần, cách gửi và trạng thái khi trả về."
+  document_title: 'Các trường biểu mẫu và gửi đi — Hệ thống thiết kế'
+  page_description: 'Biểu mẫu trong design system: mọi trường được cung cấp, biểu mẫu render phía máy chủ và dựng bằng thành phần, cách gửi và trạng thái khi trả về.'
   page_icon: 'ph:bold/textbox'
   intro: 'Một tập hợp các trường, nó hoạt động như thế nào khi được gửi đi, và nó nói gì khi quay trở lại. Các trường tự nó nằm trong Controls; những trang này thêm vào là chuyến đi vòng.'
   page:
@@ -577,7 +598,8 @@ vi:
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 表单
-  page_description: "设计系统中的表单：提供的全部字段、服务端渲染与组件构建的表单、提交方式以及返回时的状态。"
+  document_title: '表单字段和提交 — 设计系统'
+  page_description: 设计系统中的表单：提供的全部字段、服务端渲染与组件构建的表单、提交方式以及返回时的状态。
   page_icon: 'ph:bold/textbox'
   intro: 一组字段，发送时的操作，以及返回时的内容。这些字段本身在控制中；这些页面增加的是往返过程。
   page:
@@ -594,8 +616,8 @@ zh:
       title: 'Ajax 表单'
       description: 一个在不离开页面的情况下回答的表单，以及它处理返回内容的方法。
     gate:
-      title: '条件操作'
-      description: '在所需数据齐备前被拦下的操作：跳转到缺少数据的表单，保存后再返回。'
+      title: 条件操作
+      description: 在所需数据齐备前被拦下的操作：跳转到缺少数据的表单，保存后再返回。
     vue:
       title: 'Vue 表单'
       description: 通过组件驱动的相同表单，其中字段是状态而非标记。
