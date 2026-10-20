@@ -7,13 +7,16 @@
     standing for the section, as the app — or a page — chooses
     (`layout_section_navigation`); see the Section navigation page. -#}
 {%- set tab = 'WexampleSymfonyDesignSystemDemoBundle.pages.design_system.generic.layout.layout.layout-generic::tab.' -%}
+{#- A section of the design system is a page of the menu: as tabs it has no
+    way back. Drawn as the side menu, which then stands for the section, it
+    names where the section is left for. -#}
 {%- set page_section_navigation = {
     label: (tab ~ 'section')|trans,
     href: path('wexample_design_system_generic_layout_index'),
-    back: {
+    back: layout_section_navigation|default('tabs') == 'menu' ? {
         href: path('wexample_design_system_generic_foundations_index'),
         label: (tab ~ 'back')|trans,
-    },
+    } : null,
     items: [
         { label: tab ~ 'index', icon: 'ph:bold/squares-four', route: 'wexample_design_system_generic_layout_index' },
         { label: tab ~ 'zones', icon: 'ph:bold/columns', route: 'wexample_design_system_generic_layout_zones' },
