@@ -4,7 +4,7 @@ git:
 global:
   name: symfony-design-system-demo
   type: php-package
-  version: 11.1.0
+  version: 11.1.1
 wex:
-  migration: 1
+  migration: 2
   version: 6.0.150
