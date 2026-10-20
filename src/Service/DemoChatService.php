@@ -2,6 +2,7 @@
 
 namespace Wexample\SymfonyDesignSystemDemo\Service;
 
+use Symfony\Contracts\Service\ResetInterface;
 use Wexample\SymfonyDesignSystemDemo\Api\Normalizer\Entity\DemoMessage\DefaultDemoMessageNormalizer;
 use Wexample\SymfonyDesignSystemDemo\Entity\DemoMessage;
 use Wexample\SymfonyDesignSystemDemo\Entity\DemoRoom;
@@ -10,7 +11,6 @@ use Wexample\SymfonyDesignSystemDemo\Repository\DemoRoomRepository;
 use Wexample\SymfonyLive\Enum\LiveTopicAction;
 use Wexample\SymfonyLive\Helper\LiveTopicHelper;
 use Wexample\SymfonyLive\Service\LivePublisherService;
-use Symfony\Contracts\Service\ResetInterface;
 
 /**
  * The whole of what the live chat demo does on the server.

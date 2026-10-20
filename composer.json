@@ -3,7 +3,7 @@
   "description": "Design system showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "11.0.5",
+  "version": "11.1.0",
   "keywords": [
     "symfony-ux"
   ],
@@ -23,17 +23,17 @@
     "doctrine/orm": "^3.0",
     "symfony/uid": ">=6.2",
     "wexample/php-pseudocode": ">=2.2.0",
-    "wexample/symfony-api": ">=13.0.0",
+    "wexample/symfony-api": ">=14.0.0",
     "wexample/symfony-check": ">=4.0.0",
-    "wexample/symfony-coding": ">=4.1.0",
-    "wexample/symfony-design-system": ">=35.0.0",
-    "wexample/symfony-design-system-effects": ">=2.0.0",
-    "wexample/symfony-forms": ">=12.0.0",
-    "wexample/symfony-helpers": ">=16.0.0",
-    "wexample/symfony-live": ">=5.5.0",
-    "wexample/symfony-pseudocode": ">=3.0.0",
-    "wexample/symfony-search": ">=4.1.0",
-    "wexample/symfony-template": ">=2.0.5"
+    "wexample/symfony-coding": ">=5.0.0",
+    "wexample/symfony-design-system": ">=37.0.0",
+    "wexample/symfony-design-system-effects": ">=3.0.0",
+    "wexample/symfony-forms": ">=13.0.0",
+    "wexample/symfony-helpers": ">=17.0.0",
+    "wexample/symfony-live": ">=5.6.0",
+    "wexample/symfony-pseudocode": ">=4.0.0",
+    "wexample/symfony-search": ">=4.2.0",
+    "wexample/symfony-template": ">=2.1.0"
   },
   "repositories": [
     {

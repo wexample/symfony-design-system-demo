@@ -1,6 +1,6 @@
 # symfony-design-system-demo
 
-Version: 11.0.5
+Version: 11.1.0
 
 A Symfony bundle that ships the showcase pages of `wexample/symfony-design-system`: a set of Twig pages under assets/pages/design_system/generic rendering buttons, inputs, menus, tables, modals, banners, spinners and forms in their real markup, each exposed as a route by a `#[TemplateBasedRoutes]` controller so the whole catalogue is browsable in a running application. Install it in a host project and the pages mount under the design system base route, grouped by controls, layout, content, components, dialog, feedback and form. It exists for the people building or integrating the design system — to see a component rendered, compare its variants and states side by side, and exercise the interactive ones (AJAX form submission, modal behaviours) against live code rather than a screenshot.
 
@@ -185,25 +185,23 @@ This package is part of the Wexample Suite — a collection of high-quality, mod
 
 The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
 
-Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
-
 ## Dependencies
 
 - php: >=8.5
 - doctrine/orm: ^3.0
 - symfony/uid: >=6.2
 - wexample/php-pseudocode: >=2.2.0
-- wexample/symfony-api: >=13.0.0
+- wexample/symfony-api: >=14.0.0
 - wexample/symfony-check: >=4.0.0
-- wexample/symfony-coding: >=4.1.0
-- wexample/symfony-design-system: >=35.0.0
-- wexample/symfony-design-system-effects: >=2.0.0
-- wexample/symfony-forms: >=12.0.0
-- wexample/symfony-helpers: >=16.0.0
-- wexample/symfony-live: >=5.5.0
-- wexample/symfony-pseudocode: >=3.0.0
-- wexample/symfony-search: >=4.1.0
-- wexample/symfony-template: >=2.0.5
+- wexample/symfony-coding: >=5.0.0
+- wexample/symfony-design-system: >=37.0.0
+- wexample/symfony-design-system-effects: >=3.0.0
+- wexample/symfony-forms: >=13.0.0
+- wexample/symfony-helpers: >=17.0.0
+- wexample/symfony-live: >=5.6.0
+- wexample/symfony-pseudocode: >=4.0.0
+- wexample/symfony-search: >=4.2.0
+- wexample/symfony-template: >=2.1.0
 
 ## Versioning & Compatibility Policy
 
@@ -228,6 +226,8 @@ Free to use in both personal and commercial projects.
 This packages suite embodies this spirit. Trusted by professionals and enthusiasts alike, it delivers a consistent, high-quality foundation for modern development — open, elegant, and battle-tested. Its reputation is built on years of collaboration, refinement, and rigorous attention to detail, making it a natural choice for those who demand both robustness and beauty in their tools.
 
 Wexample cultivates a culture of mastery. Each package, each contribution carries the mark of a community that values precision, ethics, and innovation — a community proud to shape the future of digital craftsmanship.
+
+Built and maintained by [Romain Weeger](https://weeger.io).
 
 ## Migration Notes
 
