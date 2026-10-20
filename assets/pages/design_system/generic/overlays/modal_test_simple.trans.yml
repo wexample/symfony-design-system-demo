@@ -55,12 +55,12 @@ fi:
         message: 'Oletko varma, että haluat sulkea tämän modaalin?'
 
 fr:
-  page_title: 'Test modal - simple'
-  message: 'Ceci est un modal simple.'
+  page_title: 'Test de modale - simple'
+  message: 'Ceci est une modale simple.'
   frontend:
     embed:
       closing_confirmation:
-        message: 'Êtes-vous sûr de vouloir fermer ce modal ?'
+        message: 'Êtes-vous sûr de vouloir fermer cette modale ?'
 
 he:
   page_title: 'בדיקת מודל - פשוט'

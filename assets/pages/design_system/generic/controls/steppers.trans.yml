@@ -263,7 +263,7 @@ fi:
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Steppers
+  page_title: 'Indicateurs d''étapes'
   page_icon: 'ph:bold/steps'
   intro: "Où un lecteur se trouve dans une séquence — un tunnel, un formulaire en plusieurs parties. Les étapes derrière sont dessinées de manière solide et peuvent être revisitées lorsqu'elles reçoivent une adresse ; celle en cours se distingue ; celles à venir attendent, discrètes."
   section:
@@ -289,7 +289,7 @@ fr:
       title: "Dans une barre d'outils"
       description: "Posé dans une barre au-dessus d'une page, il prend la place que la barre lui donne."
     vue:
-      title: 'Dans vue'
+      title: 'en Vue'
       description: "Le même steppers dans un arbre vue. Les étapes sans adresse peuvent être transformées en boutons : une séquence maintenue par la page avance sur le `select` qu'elle émet plutôt que sur une nouvelle adresse."
   step:
     account: Compte

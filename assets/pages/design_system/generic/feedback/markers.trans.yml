@@ -84,7 +84,7 @@ en:
     tag: Category
 
 ar:
-  page_title: Markers
+  page_title: 'علامات'
   page_icon: 'ph:bold/seal-check'
   counts:
     new: جديد
@@ -558,7 +558,7 @@ fi:
     tag: Kategoria
 
 fr:
-  page_title: Markers
+  page_title: 'Marqueurs'
   page_icon: 'ph:bold/seal-check'
   counts:
     new: Nouveau
@@ -572,7 +572,7 @@ fr:
     errors: erreurs
     queued: en file
     alone: Un point seul, nommé par son titre
-  intro: 'One capsule for everything said about a thing in a word: a state, a name, a version, a category. They were two objects until the day a code and a state stood side by side in one header, a head apart, and nobody could say what the difference was meant to mean — so the shape is one and the tone is the whole of what tells them apart. What it carries is free: a word, a figure, a glyph, or two of the three. The circle stands where there is no room for a capsule, and the counter, which hangs from a row and is sized in the text it hangs from, is the one thing here that is not a marker.'
+  intro: 'Une seule capsule pour tout ce qui se dit d''une chose en un mot : un état, un nom, une version, une catégorie. C''étaient deux objets jusqu''au jour où un code et un état se sont retrouvés côte à côte dans un même en-tête, à une tête d''écart, sans que personne puisse dire ce que la différence voulait signifier — la forme est donc unique, et c''est le ton seul qui les distingue. Ce qu''elle porte est libre : un mot, un chiffre, un pictogramme, ou deux des trois. Le cercle prend la place quand une capsule n''a pas la place, et le compteur, qui dépend d''une ligne et se dimensionne sur le texte dont il dépend, est ici la seule chose qui ne soit pas un marqueur.'
   section:
     counts:
       title: Compteurs
@@ -581,60 +581,60 @@ fr:
       title: LED
       description: "Un point allumé et ses mots : un état lu d'un coup d'œil dans une ligne, par dizaines dans un résumé ou une liste de services. Plus petit qu'un marqueur, plus discret qu'un cercle. off est le point éteint — un compteur à zéro —, running respire."
     inline:
-      title: 'In the middle of a sentence'
-      description: 'A word set apart as it is read: a version, a phase, a category. The neutral tone, because a marker that arrives coloured has already made a claim about what it marks — and in a sentence there is nothing to claim.'
+      title: 'Au fil d''une phrase'
+      description: 'Un mot mis à part tel qu''on le lit : une version, une phase, une catégorie. Le ton neutre, parce qu''un marqueur qui arrive en couleur affirme déjà quelque chose de ce qu''il marque — et dans une phrase, il n''y a rien à affirmer.'
     palette:
-      title: 'The categories'
-      description: 'Tones that tell things apart without ranking them. They carry no meaning — nothing says the third is better than the fifth — which is exactly what makes them usable for a taxonomy, where meaning would be a lie. Worn exactly as a state is: same capsule, same rhythm.'
+      title: 'Les catégories'
+      description: 'Des tons qui distinguent sans hiérarchiser. Ils ne portent aucun sens — rien ne dit que le troisième vaut mieux que le cinquième — et c''est justement ce qui les rend utilisables pour une taxonomie, où un sens serait un mensonge. Portés exactement comme un état : même capsule, même rythme.'
     against:
-      title: 'A counter beside a marker'
-      description: "The one distinction left, and it is not about meaning. On the left a counter: twelve of something, hanging from the row that leads to it and sized in that row's own text. On the right a marker: twelve of something that went well, standing on its own and sized in tokens. A count beside a menu item is a counter; the same figure in a pipeline column is a marker."
+      title: 'Un compteur à côté d''un marqueur'
+      description: 'La seule distinction qui reste, et elle ne tient pas au sens. À gauche, un compteur : douze de quelque chose, rattaché à la ligne qui y mène et dimensionné sur le texte de cette ligne. À droite, un marqueur : douze de quelque chose qui s''est bien passé, autonome et dimensionné en tokens. Un nombre à côté d''un élément de menu est un compteur ; le même chiffre dans une colonne de pipeline est un marqueur.'
     words:
-      title: 'A state in words'
-      description: 'Announced in a sentence or beside a title, where it is the message rather than a mark in a column.'
+      title: 'Un état en toutes lettres'
+      description: 'Annoncé dans une phrase ou à côté d''un titre, là où il est le message plutôt qu''une marque dans une colonne.'
     figures:
-      title: 'A state read by the dozen'
-      description: 'In a column, a tick beside a neutral count reads as two objects and a table of them reads as noise. Here the colour encloses the figure and the column is scanned in one pass — compact, since a cell has no room to spare.'
+      title: 'Un état lu à la douzaine'
+      description: 'Dans une colonne, une coche à côté d''un nombre neutre se lit comme deux objets, et un tableau de ces paires se lit comme du bruit. Ici la couleur enveloppe le chiffre et la colonne se parcourt d''un seul regard — en version compacte, puisqu''une cellule n''a pas de place à perdre.'
     payload:
-      title: 'What it carries'
-      description: 'A word for what the state is, a figure for how many of it there are, both, or neither. The figure is always drawn a step back from the rest: it qualifies the state, it is not the state.'
+      title: 'Ce qu''il porte'
+      description: 'Un mot pour dire quel est l''état, un chiffre pour dire combien il y en a, les deux, ou aucun. Le chiffre est toujours dessiné un cran en retrait : il qualifie l''état, il n''est pas l''état.'
     weights:
-      title: 'The three forms side by side'
-      description: 'The same information in the place it is actually read. The circle is the form for a cell too narrow for a capsule, and the only one that can show a state being a quantity — and it is drawn with the very colour the capsule fills with.'
+      title: 'Les trois formes côte à côte'
+      description: 'La même information à l''endroit où on la lit vraiment. Le cercle est la forme d''une cellule trop étroite pour une capsule, et la seule qui puisse montrer un état qui est une quantité — il est dessiné dans la couleur même dont la capsule se remplit.'
     circles:
-      title: Circles
-      description: 'A state told by a circle rather than by a word, for a place where states are read by the dozen — a list of runs, a row of jobs. The ring carries the colour, the glyph inside says which state it is, and both sides of the stack draw the same markup.'
+      title: 'Cercles'
+      description: 'Un état dit par un cercle plutôt que par un mot, là où les états se lisent à la douzaine — une liste d''exécutions, une rangée de tâches. L''anneau porte la couleur, le pictogramme à l''intérieur dit quel est l''état, et les deux côtés de la pile produisent le même balisage.'
     progress:
-      title: 'A state that is a quantity'
-      description: "A run is the one state with an amount to it, so its ring is drawn as far as the run has got. Twig prints the value it is given; moving it afterwards is the browser's business."
+      title: 'Un état qui est une quantité'
+      description: 'Une exécution est le seul état qui ait une quantité, son anneau est donc tracé jusqu''où l''exécution est arrivée. Twig affiche la valeur qu''on lui donne ; la faire avancer ensuite est l''affaire du navigateur.'
     sizes:
-      title: 'Circle sizes'
+      title: 'Tailles des cercles'
     vue:
       title: Vue
-      description: "The same component, driven: switching the type or the value moves the arc instead of redrawing it. This one is what an app places when the state is going to change under the reader's eyes."
+      description: 'Le même composant, piloté : changer le type ou la valeur déplace l''arc au lieu de le redessiner. C''est celui qu''une application place quand l''état va changer sous les yeux du lecteur.'
     code:
-      title: Usage
+      title: 'Utilisation'
   state:
-    success: 'Operation successful'
-    error: 'An error occurred'
-    warning: 'Proceed with caution'
-    info: 'For your information'
-    passed: Passed
+    success: 'Opération réussie'
+    error: 'Une erreur est survenue'
+    warning: 'Procédez avec prudence'
+    info: 'Pour information'
+    passed: 'Réussi'
   weights:
     column:
-      form: Form
+      form: 'Forme'
     row:
       capsule: Capsule
-      circle: Circle
+      circle: 'Cercle'
   example:
     sentence:
-      released: 'Version 2.4 is'
-      deprecated: 'This API is'
+      released: 'La version 2.4 est'
+      deprecated: 'Cette API est'
   marker:
-    neutral: Neutral
-    released: Released
-    deprecated: Deprecated
-    tag: Category
+    neutral: 'Neutre'
+    released: 'Publiée'
+    deprecated: 'Obsolète'
+    tag: 'Catégorie'
 
 he:
   page_title: סימנים
@@ -716,7 +716,7 @@ he:
     tag: קטגוריה
 
 hi:
-  page_title: Markers
+  page_title: 'मार्कर'
   page_icon: 'ph:bold/seal-check'
   counts:
     new: नया

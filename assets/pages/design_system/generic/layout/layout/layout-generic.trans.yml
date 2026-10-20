@@ -48,7 +48,7 @@ de:
     section: Layout
     tabs: Registerkarten
     doc: Dokumentlayout
-    back: 'Design System'
+    back: 'Designsystem'
 
 es:
   tab:
@@ -69,7 +69,7 @@ fa:
     zones: 'منطقه ها'
     blocks: 'بلوک ها'
     toolbar: 'نوار ابزار'
-    dock: 'دک Dock ابزار'
+    dock: 'داک ابزار'
     navigation: 'ناوبری بخش'
     section: چیدمان
     tabs: 'زبان ها'
@@ -82,12 +82,12 @@ fi:
     zones: Alueet
     blocks: Loitsut
     toolbar: Työkalupalkki
-    dock: Työkalupaneeli
+    dock: 'Työkalutelakka'
     navigation: 'Osio navigointi'
     section: Asettelu
     tabs: Välilehdet
     doc: 'Dokumentin asettelu'
-    back: Suunnittelujärjestelmä
+    back: 'Design system'
 
 fr:
   tab:
@@ -99,8 +99,8 @@ fr:
     navigation: 'Navigation de section'
     section: 'Mise en page'
     tabs: Onglets
-    doc: 'Mise en page du document'
-    back: 'Système de Design'
+    doc: 'Mise en page documentaire'
+    back: 'Design system'
 
 he:
   tab:
@@ -152,7 +152,7 @@ it:
     section: Layout
     tabs: Schede
     doc: 'Layout documento'
-    back: 'Sistema di design'
+    back: 'Design system'
 
 ja:
   tab:
@@ -191,7 +191,7 @@ nl:
     section: Indeling
     tabs: Tabs
     doc: Documentindeling
-    back: Systeemontwerp
+    back: 'Designsysteem'
 
 pl:
   tab:
@@ -204,7 +204,7 @@ pl:
     section: Układ
     tabs: Zakładki
     doc: 'Układ dokumentu'
-    back: 'System projektowania'
+    back: 'Design system'
 
 pt_BR:
   tab:
@@ -217,7 +217,7 @@ pt_BR:
     section: Layout
     tabs: Abas
     doc: 'Layout do documento'
-    back: 'Sistema de Design'
+    back: 'Design system'
 
 ru:
   tab:
@@ -225,7 +225,7 @@ ru:
     zones: Зоны
     blocks: Блоки
     toolbar: 'Панель инструментов'
-    dock: 'Панель инструментов'
+    dock: 'Док инструментов'
     navigation: 'Навигация по разделам'
     section: Макет
     tabs: Вкладки
@@ -238,12 +238,12 @@ th:
     zones: โซน
     blocks: บล็อก
     toolbar: แถบเครื่องมือ
-    dock: แท็บเครื่องมือ
+    dock: 'แถบเครื่องมือด็อก'
     navigation: การนำทางส่วน
     section: เลย์เอาต์
     tabs: แท็บ
     doc: รูปแบบเอกสาร
-    back: ระบบการออกแบบ
+    back: 'ดีไซน์ซิสเต็ม'
 
 tr:
   tab:
@@ -277,7 +277,7 @@ vi:
     zones: 'Khu vực'
     blocks: Khối
     toolbar: 'Thanh công cụ'
-    dock: 'Bảng công cụ'
+    dock: 'Dock công cụ'
     navigation: 'Điều hướng phần'
     section: 'Bố cục'
     tabs: Thẻ

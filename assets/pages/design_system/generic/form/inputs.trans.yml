@@ -125,7 +125,7 @@ en:
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: الإدخالات
+  page_title: 'حقول الإدخال'
   page_icon: 'ph:bold/textbox'
   intro: 'كل حقل يقدمه النظام، في صفحة واحدة. ما يشتركون فيه بخلاف شكلهم هو عقد: يمكن تسليم كل واحد منهم لشيء ليس الشخص الذي يقرأ، والذي يملأه ويعيده.'
   section:
@@ -154,7 +154,7 @@ ar:
       title: 'رمز، في خلايا'
       description: 'حقل حقيقي واحد تحت الخلايا، بحيث يقرأ الخادم قيمة واحدة ويحتفظ المتصفح بما يفعله بالفعل: يتم لصق الرمز بالكامل، ويقدم الهاتف الرمز الذي تلقاه، والعودة تعود إلى الوراء. عند ملئه، يرسل نموذجها بمفردها - معطلة في هذه الصفحة، التي ليس لديها مكان لإرسالها.'
     select:
-      title: 'اختيار، بمفرده'
+      title: 'قائمة منسدلة، بمفردها'
       description: 'الاختيارين المخصصين خارج مجموعة نموذج، كما تضعها شريط أدوات أو شريط فلتر.'
     switch:
       title: 'تبديل، بمفرده'
@@ -239,7 +239,7 @@ ar:
 
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: ইনপুটস
+  page_title: 'ইনপুট ফিল্ড'
   page_icon: 'ph:bold/textbox'
   intro: 'সিস্টেমের প্রতিটি ক্ষেত্র এক পৃষ্ঠায়। তাদের আকারের বাইরে যা সাধারণ তা হল একটি চুক্তি: প্রতিটি এমন কিছুতে হস্তান্তর করা যেতে পারে যা পাঠক নয়, যা এটি পূর্ণ করে এবং ফেরত দেয়।'
   section:
@@ -268,7 +268,7 @@ bn:
       title: 'একটি কোড, সেলগুলির মধ্যে'
       description: 'সেলগুলির নিচে একটি বাস্তব ক্ষেত্র, তাই সার্ভার একটি মান পড়ে এবং ব্রাউজার যা ইতিমধ্যেই করে তা ধরে রাখে: একটি পেস্ট করা কোড পুরোপুরি পড়ে, একটি ফোন কোডটি প্রদান করে যা এটি পেয়েছে, ব্যাকস্পেস ফেরত যায়। পূর্ণ হলে, এটি নিজেই তার ফর্ম পাঠায় - এই পৃষ্ঠায় বন্ধ, যার কোনও জায়গা নেই এটি পাঠানোর।'
     select:
-      title: 'নির্বাচন, একা'
+      title: 'ড্রপডাউন, একা'
       description: 'একটি ফর্ম গ্রুপের বাইরের দুটি কাস্টম নির্বাচন, যেমন একটি টুলবার বা একটি ফিল্টার বার তাদের স্থাপন করে।'
     switch:
       title: 'টগল, একা'
@@ -353,7 +353,7 @@ bn:
 
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Eingaben
+  page_title: 'Eingabefelder'
   page_icon: 'ph:bold/textbox'
   intro: 'Jedes Feld, das das System bereitstellt, auf einer Seite. Was sie über ihre Form hinaus gemeinsam haben, ist ein Vertrag: Jedes kann einem anderen übergeben werden, der nicht die Person ist, die liest, der es ausfüllt und zurückgibt.'
   section:
@@ -382,7 +382,7 @@ de:
       title: 'Ein Code, in Zellen'
       description: 'Ein echtes Feld unter den Zellen, sodass der Server einen Wert liest und der Browser das behält, was er bereits tut: ein eingefügter Code landet vollständig, ein Telefon bietet den empfangenen Code an, die Rücktaste geht zurück. Ausgefüllt sendet es sein Formular von selbst — auf dieser Seite deaktiviert, die keinen Ort hat, um es zu senden.'
     select:
-      title: 'Auswahl, für sich allein'
+      title: 'Auswahlfeld allein'
       description: 'Die beiden benutzerdefinierten Auswahlen außerhalb einer Formulargruppe, wie eine Symbolleiste oder eine Filterleiste sie platziert.'
     switch:
       title: 'Schalter, für sich allein'
@@ -467,7 +467,7 @@ de:
 
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Entradas
+  page_title: 'Campos'
   page_icon: 'ph:bold/textbox'
   intro: 'Cada campo que el sistema envía, en una página. Lo que tienen en común más allá de su forma es un contrato: cada uno puede ser entregado a algo que no es la persona que lee, que lo llena y lo devuelve.'
   section:
@@ -496,7 +496,7 @@ es:
       title: 'Un código, en celdas'
       description: 'Un campo real bajo las celdas, así el servidor lee un valor y el navegador mantiene lo que ya hace: un código pegado aterriza completo, un teléfono ofrece el código que recibió, retroceder regresa. Lleno, envía su formulario por sí mismo — desactivado en esta página, que no tiene a dónde enviarlo.'
     select:
-      title: 'Seleccionar, por sí solo'
+      title: 'Selector, solo'
       description: 'Los dos selects personalizados fuera de un grupo de formulario, como una barra de herramientas o una barra de filtro los coloca.'
     switch:
       title: 'Interruptor, por sí solo'
@@ -581,7 +581,7 @@ es:
 
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: ورودها
+  page_title: 'فیلدهای ورودی'
   page_icon: 'ph:bold/textbox'
   intro: 'هر فیلدی که سیستم ارائه می‌دهد، در یک صفحه. آنچه که آنها را فراتر از شکلشان به هم مرتبط می‌کند، یک قرارداد است: هر کدام می‌تواند به چیزی غیر از شخص خواننده واگذار شود که آن را پر کرده و دوباره برمی‌گرداند.'
   section:
@@ -610,7 +610,7 @@ fa:
       title: 'یک کد، در سلول‌ها'
       description: 'یک فیلد واقعی زیر سلول‌ها، بنابراین سرور یک مقدار را می‌خواند و مرورگر آنچه را که قبلاً انجام می‌دهد حفظ می‌کند: یک کد چسبیده به طور کامل می‌نشیند، یک تلفن کدی را که دریافت کرده است ارائه می‌دهد، کلید backspace به عقب می‌رود. وقتی پر شد، فرم خود را به تنهایی ارسال می‌کند — که در این صفحه خاموش است و جایی برای ارسال آن ندارد.'
     select:
-      title: 'انتخاب، به تنهایی'
+      title: 'فهرست کشویی، به‌تنهایی'
       description: 'دو انتخاب سفارشی خارج از گروه فرم، همانطور که یک نوار ابزار یا نوار فیلتر آنها را قرار می‌دهد.'
     switch:
       title: 'سوئیچ، به تنهایی'
@@ -695,7 +695,7 @@ fa:
 
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Syötteet
+  page_title: 'Syöttökentät'
   page_icon: 'ph:bold/textbox'
   intro: 'Jokainen kenttä, jonka järjestelmä toimittaa, yhdellä sivulla. Yhteistä niiden muodon lisäksi on sopimus: jokainen voidaan luovuttaa jollekulle muulle kuin lukijalle, joka täyttää sen ja palauttaa sen.'
   section:
@@ -724,7 +724,7 @@ fi:
       title: 'Koodi, soluissa'
       description: 'Yksi todellinen kenttä solujen alla, joten palvelin lukee yhden arvon ja selain pitää sen, mitä se jo tekee: liitetty koodi saapuu kokonaisena, puhelin tarjoaa vastaanottamansa koodin, backspace palaa taaksepäin. Täytettynä se lähettää lomakkeensa itsenäisesti - pois päältä tällä sivulla, jossa ei ole minne lähettää sitä.'
     select:
-      title: 'Valinta, omillaan'
+      title: 'Valintalista yksinään'
       description: 'Kaksi mukautettua valintaa lomakejoukon ulkopuolella, kuten työkalupalkki tai suodatinpalkki asettaa ne.'
     switch:
       title: 'Kytkin, omillaan'
@@ -809,7 +809,7 @@ fi:
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Entrées
+  page_title: 'Champs'
   page_icon: 'ph:bold/textbox'
   intro: "Chaque champ que le système expédie, sur une page. Ce qu'ils ont en commun au-delà de leur forme est un contrat : chacun peut être remis à quelque chose qui n'est pas la personne qui lit, qui le remplit et le rend."
   section:
@@ -838,16 +838,16 @@ fr:
       title: 'Un code, dans des cellules'
       description: "Un vrai champ sous les cellules, donc le serveur lit une valeur et le navigateur garde ce qu'il fait déjà : un code collé atterrit entier, un téléphone offre le code qu'il a reçu, la touche de retour supprime. Rempli, il envoie son formulaire tout seul — désactivé sur cette page, qui n'a nulle part où l'envoyer."
     select:
-      title: 'Sélectionner, par lui-même'
+      title: 'Liste déroulante seule'
       description: "Les deux sélections personnalisées en dehors d'un groupe de formulaires, comme une barre d'outils ou une barre de filtre les place."
     switch:
-      title: 'Interrupteur, par lui-même'
+      title: 'Interrupteur seul'
       description: "Étiquettes de chaque côté, glyphes à l'intérieur, et l'état coché."
     switch_tone:
       title: 'Un interrupteur avec un ton, et un qui demande'
       description: "Une fois activé, un interrupteur peut prendre la couleur d'un état ou d'une catégorie plutôt que celle du lien. Un qui active quelque chose avec des conséquences prend `warning`, et demande avant : refusé, il reste désactivé. Éteindre n'est jamais questionné. Dans tous les cas, il dit `switch:change` à la page."
     switch_vue:
-      title: 'Interrupteur, dans vue'
+      title: 'Interrupteur, en Vue'
       description: "Le même interrupteur à l'intérieur d'un arbre vue, où l'état coché est l'état et non un attribut de données qu'un script inverse."
   scale:
     window: Fenêtre
@@ -873,7 +873,7 @@ fr:
     reviewer: 'Révisé par'
     switch_on: Actif
     switch_off: Désactivé
-    vue: 'En vue'
+    vue: 'en Vue'
   assisted:
     hint: "Un agent remplit les champs ci-dessous, un après l'autre."
     play: Jouer
@@ -908,7 +908,7 @@ fr:
   code:
     numeric: 'Six chiffres, comme envoyé par e-mail'
     backup: 'Un code de secours, lettres et chiffres'
-    vue: 'Quatre chiffres, dans vue'
+    vue: 'Quatre chiffres, en Vue'
   switch:
     tone:
       success: Synchronisé
@@ -952,7 +952,7 @@ he:
       title: 'קוד, בתאים'
       description: 'שדה ממשי מתחת לתאים, כך שהשרת קורא ערך אחד והדפדפן שומר מה שהוא כבר עושה: קוד שמודבק נוחת שלם, טלפון מציע את הקוד שהוא קיבל, מקש חזרה חוזר אחורה. ממולא, הוא שולח את הטופס שלו בעצמו — כבוי בדף הזה, שאין לו לאן לשלוח אותו.'
     select:
-      title: 'בחר, בעצמו'
+      title: 'רשימה נפתחת, לבד'
       description: 'שני בחירות מותאמות מחוץ לקבוצת טופס, כפי שטור Toolbar או טור מסנן מציבים אותם.'
     switch:
       title: 'מתג, בעצמו'
@@ -1037,7 +1037,7 @@ he:
 
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: इनपुट्स
+  page_title: 'इनपुट फ़ील्ड'
   page_icon: 'ph:bold/textbox'
   intro: 'प्रणाली द्वारा भेजे गए प्रत्येक क्षेत्र को एक पृष्ठ पर। उनके आकार के अलावा जो सामान्य है, वह एक अनुबंध है: प्रत्येक को किसी ऐसी चीज़ में सौंपा जा सकता है जो पढ़ने वाला व्यक्ति नहीं है, जो इसे भरता है और इसे वापस देता है।'
   section:
@@ -1066,7 +1066,7 @@ hi:
       title: 'एक कोड, कोशिकाओं में'
       description: 'कोशिकाओं के नीचे एक असली क्षेत्र, ताकि सर्वर एक मूल्य पढ़ सके और ब्राउज़र वही रख सके जो वह पहले से करता है: एक चिपकाया गया कोड पूरा आता है, एक फोन वह कोड प्रदान करता है जो उसे मिला, बैकस्पेस वापस जाता है। भरा हुआ, यह अपने आप अपना फॉर्म भेजता है - इस पृष्ठ पर बंद किया गया, जिसका कहीं भेजने के लिए नहीं है।'
     select:
-      title: 'स्वचालित चयन'
+      title: 'ड्रॉपडाउन, अकेला'
       description: 'फॉर्म समूह के बाहर दो कस्टम चयन, जैसे एक टूलबार या एक फ़िल्टर बार उन्हें रखता है।'
     switch:
       title: 'स्विच, अपने आप'
@@ -1151,7 +1151,7 @@ hi:
 
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Input
+  page_title: 'Kolom isian'
   page_icon: 'ph:bold/textbox'
   intro: 'Setiap field yang disediakan sistem, ada di satu halaman. Apa yang mereka miliki sebagai kesamaan di luar bentuknya adalah sebuah kontrak: masing-masing dapat diserahkan kepada sesuatu yang bukan orang yang membaca, yang mengisinya dan mengembalikannya.'
   section:
@@ -1180,7 +1180,7 @@ id:
       title: 'Sebuah kode, dalam sel'
       description: 'Satu field nyata di bawah sel, sehingga server membaca satu nilai dan browser mempertahankan apa yang sudah dilakukannya: sebuah kode yang ditempelkan mendarat utuh, sebuah telepon menawarkan kode yang diterimanya, backspace kembali. Diisi, ia mengirim formulirnya sendiri — dimatikan di halaman ini, yang tidak memiliki tempat untuk mengirimnya.'
     select:
-      title: 'Pilih, sendiri'
+      title: 'Daftar pilihan, sendiri'
       description: 'Dua pilihan kustom di luar grup formulir, seperti yang diletakkan oleh toolbar atau bilah filter.'
     switch:
       title: 'Saklar, sendiri'
@@ -1265,7 +1265,7 @@ id:
 
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Input
+  page_title: 'Campi'
   page_icon: 'ph:bold/textbox'
   intro: "Ogni campo fornito dal sistema, su un'unica pagina. Ciò che hanno in comune oltre alla loro forma è un contratto: ciascuno può essere gestito da qualcosa che non è la persona che legge, che lo compila e lo restituisce."
   section:
@@ -1294,7 +1294,7 @@ it:
       title: 'Un codice, nelle celle'
       description: 'Un vero campo sotto le celle, così il server legge un valore e il browser mantiene ciò che già fa: un codice incollato arriva intero, un telefono offre il codice ricevuto, il tasto backspace torna indietro. Compilato, invia il suo modulo autonomamente — disattivato in questa pagina, che non ha dove inviarlo.'
     select:
-      title: 'Seleziona, da solo'
+      title: 'Menu a tendina, da solo'
       description: 'I due selettori personalizzati al di fuori di un gruppo di moduli, come una barra degli strumenti o una barra dei filtri li colloca.'
     switch:
       title: 'Interruttore, da solo'
@@ -1379,7 +1379,7 @@ it:
 
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 入力
+  page_title: '入力フィールド'
   page_icon: 'ph:bold/textbox'
   intro: システムが提供するすべてのフィールドが1ページに集まっています。それらの形状を超えて共通する点は契約です：各フィールドは、読む人以外の何かに渡され、内容が入力されて戻されることができます。
   section:
@@ -1408,7 +1408,7 @@ ja:
       title: セル内のコード
       description: 'セルの下に実際のフィールドがあり、サーバーは1つの値を読み取り、ブラウザは既に行っていることを保持します：貼り付けたコードがそのまま入る、電話は受け取ったコードを提供する、バックスペースは戻る役割を果たします。フィールドが入力されると、自動的にフォームを送信します — このページではオフになっており、送信先はありません。'
     select:
-      title: 独自の選択
+      title: 'セレクト単体'
       description: フォームグループ外の2つのカスタムセレクト、ツールバーやフィルターバーがそれらを配置します。
     switch:
       title: 独自のスイッチ
@@ -1493,7 +1493,7 @@ ja:
 
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 입력
+  page_title: '입력 필드'
   page_icon: 'ph:bold/textbox'
   intro: '시스템에서 제공하는 모든 필드를 한 페이지에 모았습니다. 형태를 넘어 그들의 공통점은 계약입니다: 각 필드는 읽고 있는 사람이 아닌 다른 것에 넘겨줄 수 있으며, 그것이 채워지고 다시 반환됩니다.'
   section:
@@ -1522,7 +1522,7 @@ ko:
       title: '셀 안의 코드'
       description: '셀 아래에 실제 필드 하나가 있어 서버는 하나의 값을 읽고 브라우저는 이미 하던 대로 유지합니다: 붙여넣기된 코드는 그대로 들어오고, 전화기는 받은 코드를 제공합니다, 백스페이스는 뒤로 갑니다. 채워지면 스스로 양식을 보냅니다 — 이 페이지에서는 꺼져 있어 전송할 곳이 없습니다.'
     select:
-      title: '자체 선택'
+      title: '단독 선택 목록'
       description: '양식 그룹 외부에 있는 두 개의 사용자 정의 선택으로, 도구 모음이나 필터 바에 배치됩니다.'
     switch:
       title: '자체 스위치'
@@ -1607,7 +1607,7 @@ ko:
 
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Invoeren
+  page_title: 'Invoervelden'
   page_icon: 'ph:bold/textbox'
   intro: 'Elk veld dat het systeem levert, op één pagina. Wat ze gemeen hebben, naast hun vorm, is een contract: elk kan worden overgedragen aan iets dat niet de persoon is die leest, dat het invult en het teruggeeft.'
   section:
@@ -1636,7 +1636,7 @@ nl:
       title: 'Een code, in cellen'
       description: 'Één echt veld onder de cellen, zodat de server één waarde leest en de browser doet wat het al doet: een geplakte code landt als geheel, een telefoon biedt de code die hij heeft ontvangen, backspace gaat terug. Wanneer gevuld, verstuurt het zelf zijn formulier — uitgeschakeld op deze pagina, die nergens naartoe kan sturen.'
     select:
-      title: 'Selecteren, op zichzelf'
+      title: 'Keuzelijst, op zich'
       description: 'De twee aangepaste selecties buiten een formuliergroep, zoals een werkbalk of een filterbalk ze plaatst.'
     switch:
       title: 'Schakelaar, op zichzelf'
@@ -1721,7 +1721,7 @@ nl:
 
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Pola wejściowe'
+  page_title: 'Pola formularza'
   page_icon: 'ph:bold/textbox'
   intro: 'Każde pole, które system dostarcza, na jednej stronie. To, co je łączy oprócz kształtu, to umowa: każde z nich może być przekazane czemuś, co nie jest osobą czytającą, które je wypełnia i oddaje.'
   section:
@@ -1750,7 +1750,7 @@ pl:
       title: 'Kod, w komórkach'
       description: 'Jedno prawdziwe pole pod komórkami, więc serwer odczytuje jedną wartość, a przeglądarka utrzymuje to, co już robi: wklejony kod ląduje w całości, telefon oferuje kod, który otrzymał, a klawisz backspace cofa. Wypełnione, wysyła swój formularz samodzielnie — wyłączone na tej stronie, która nie ma dokąd go wysłać.'
     select:
-      title: 'Wybór, samodzielnie'
+      title: 'Lista wyboru, osobno'
       description: 'Dwa niestandardowe wybory poza grupą formularzy, tak jak narzędzie lub pasek filtrów je umieszcza.'
     switch:
       title: 'Przełącznik, samodzielnie'
@@ -1835,7 +1835,7 @@ pl:
 
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Entradas
+  page_title: 'Campos'
   page_icon: 'ph:bold/textbox'
   intro: 'Todos os campos que o sistema oferece, em uma página. O que eles têm em comum além da forma é um contrato: cada um pode ser entregue a algo que não é a pessoa que lê, que o preenche e o devolve.'
   section:
@@ -1864,7 +1864,7 @@ pt_BR:
       title: 'Um código, em células'
       description: 'Um campo real sob as células, para que o servidor leia um valor e o navegador mantenha o que já faz: um código colado chega inteiro, um telefone oferece o código que recebeu, backspace volta. Preenchido, ele envia seu formulário por conta própria — desligado nesta página, que não tem para onde enviá-lo.'
     select:
-      title: 'Selecionar, por conta própria'
+      title: 'Seletor, sozinho'
       description: 'Os dois selects personalizados fora de um grupo de formulário, como uma barra de ferramentas ou uma barra de filtro os coloca.'
     switch:
       title: 'Alternar, por conta própria'
@@ -1949,7 +1949,7 @@ pt_BR:
 
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Вводы
+  page_title: 'Поля ввода'
   page_icon: 'ph:bold/textbox'
   intro: 'Каждое поле, которое предоставляет система, на одной странице. Общее между ними, помимо формы, это контракт: каждое из них может быть передано чему-то, что не является читающим, что заполняет его и возвращает.'
   section:
@@ -1978,7 +1978,7 @@ ru:
       title: 'Код в ячейках'
       description: 'Одно реальное поле под ячейками, так что сервер считывает одно значение, а браузер сохраняет то, что он уже делает: вставленный код попадает целиком, телефон предлагает код, который он получил, клавиша Backspace возвращает назад. Заполненное, оно отправляет свою форму само — отключено на этой странице, у которой нет места, куда его отправить.'
     select:
-      title: 'Выбор, самостоятельно'
+      title: 'Выпадающий список отдельно'
       description: 'Два пользовательских выбора вне группы формы, как панель инструментов или фильтр.'
     switch:
       title: 'Переключатель, самостоятельно'
@@ -2063,7 +2063,7 @@ ru:
 
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: ข้อมูลนำเข้า
+  page_title: 'ช่องกรอกข้อมูล'
   page_icon: 'ph:bold/textbox'
   intro: 'ทุกฟิลด์ที่ระบบจัดส่งมา อยู่ในหน้าเดียว สิ่งที่พวกเขามีร่วมกันนอกเหนือจากรูปร่างคือสัญญา: แต่ละฟิลด์สามารถถูกส่งให้กับสิ่งที่ไม่ใช่คนอ่าน ซึ่งจะกรอกข้อมูลและส่งกลับมา'
   section:
@@ -2092,7 +2092,7 @@ th:
       title: รหัสในเซลล์
       description: 'ฟิลด์จริงหนึ่งฟิลด์อยู่ใต้เซลล์ ดังนั้นเซิร์ฟเวอร์อ่านค่าหนึ่งค่าและเบราว์เซอร์เก็บสิ่งที่มันทำอยู่แล้ว: รหัสที่วางจะลงไปทั้งหมด โทรศัพท์เสนอรหัสที่มันได้รับ แป้นกลับจะกลับไป ฟิลด์ที่กรอกแล้วจะส่งแบบฟอร์มด้วยตัวเอง — ปิดใช้งานในหน้านี้ ซึ่งไม่มีที่ส่งไป'
     select:
-      title: 'เลือก, ด้วยตัวเอง'
+      title: 'รายการแบบเลื่อนลง แบบเดี่ยว'
       description: 'สองตัวเลือกที่กำหนดเองนอกกลุ่มแบบฟอร์ม เหมือนแถบเครื่องมือหรือแถบกรองวางพวกมัน'
     switch:
       title: 'สลับ, ด้วยตัวเอง'
@@ -2177,7 +2177,7 @@ th:
 
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Girişler
+  page_title: 'Giriş alanları'
   page_icon: 'ph:bold/textbox'
   intro: 'Sistemin sunduğu her alan, tek bir sayfada. Şekilleri dışında ortak noktaları bir sözleşmedir: her biri, okuyan kişi dışında birine devredilebilir, bu kişi alanı doldurur ve geri verir.'
   section:
@@ -2206,7 +2206,7 @@ tr:
       title: 'Hücrelerde bir kod'
       description: 'Hücrelerin altında bir gerçek alan, böylece sunucu bir değeri okur ve tarayıcı zaten yaptığı şeyi sürdürür: yapıştırılmış bir kod tam olarak yerleşir, bir telefon aldığı kodu sunar, geri tuşu geri gider. Doldurulduğunda, formunu kendi başına gönderir — bu sayfada kapalıdır, gönderilecek bir yeri yoktur.'
     select:
-      title: 'Kendiliğinden Seç'
+      title: 'Tek başına seçim listesi'
       description: 'Form grubunun dışında iki özel seçim, bir araç çubuğu veya bir filtre çubuğu olarak yerleştirilmiştir.'
     switch:
       title: 'Kendiliğinden Anahtar'
@@ -2291,7 +2291,7 @@ tr:
 
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'ان پٹ'
+  page_title: 'ان پٹ فیلڈز'
   page_icon: 'ph:bold/textbox'
   intro: 'ہر وہ فیلڈ جو سسٹم کے ساتھ آتا ہے، ایک صفحے پر۔ ان کی شکل کے علاوہ ایک معاہدہ ہے: ہر ایک کو کسی اور کے حوالے کیا جا سکتا ہے جو اسے بھرے گا اور واپس دے گا۔'
   section:
@@ -2320,7 +2320,7 @@ ur:
       title: 'سیلز میں ایک کوڈ'
       description: 'سیلز کے نیچے ایک حقیقی فیلڈ، تاکہ سرور ایک قیمت پڑھے اور براؤزر وہی رکھے جو وہ پہلے سے کرتا ہے: ایک پیسٹ کیا ہوا کوڈ مکمل طور پر آتا ہے، ایک فون اسے موصول کردہ کوڈ پیش کرتا ہے، بیک اسپیس واپس جاتا ہے۔ بھرنے پر، یہ اپنے آپ اپنا فارم بھیجتا ہے — اس صفحے پر بند کر دیا گیا، جسے بھیجنے کی کوئی جگہ نہیں ہے۔'
     select:
-      title: 'خود ہی منتخب کریں'
+      title: 'ڈراپ ڈاؤن، اکیلا'
       description: 'دو حسب ضرورت منتخب کریں جو ایک فارم گروپ کے باہر ہیں، جیسے کہ ایک ٹول بار یا فلٹر بار انہیں رکھتا ہے۔'
     switch:
       title: 'خود ہی سوئچ کریں'
@@ -2405,7 +2405,7 @@ ur:
 
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Nhập liệu'
+  page_title: 'Trường nhập liệu'
   page_icon: 'ph:bold/textbox'
   intro: 'Mỗi trường mà hệ thống cung cấp, trên một trang. Điều mà chúng có điểm chung ngoài hình dạng của chúng là một hợp đồng: mỗi trường có thể được giao cho một thứ không phải là người đọc, cái mà sẽ điền và trả lại nó.'
   section:
@@ -2434,7 +2434,7 @@ vi:
       title: 'Một mã, trong ô'
       description: 'Một trường thực sự dưới các ô, vì vậy máy chủ đọc một giá trị và trình duyệt giữ những gì nó đã làm: một mã dán sẽ đến nguyên vẹn, một điện thoại cung cấp mã mà nó nhận được, phím xóa sẽ trở về. Đã được điền, nó tự gửi mẫu của mình — tắt trên trang này, nơi không có chỗ nào để gửi nó.'
     select:
-      title: 'Chọn, tự nó'
+      title: 'Danh sách chọn, đứng riêng'
       description: 'Hai lựa chọn tùy chỉnh bên ngoài một nhóm mẫu, như một thanh công cụ hoặc một thanh lọc đặt chúng.'
     switch:
       title: 'Công tắc, tự nó'
@@ -2519,7 +2519,7 @@ vi:
 
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 输入
+  page_title: '输入字段'
   page_icon: 'ph:bold/textbox'
   intro: 系统提供的每个字段，集中在一页上。它们除了形状之外的共同点是一个契约：每个字段都可以交给不阅读的人来填写并返回。
   section:
@@ -2548,7 +2548,7 @@ zh:
       title: 单元格中的代码
       description: 单元格下方有一个真实字段，因此服务器读取一个值而浏览器保持它已有的功能：粘贴的代码完整到达，手机提供它收到的代码，退格键返回。填充后，它会自动发送其表单——在这个页面上关闭，因为没有地方可以发送。
     select:
-      title: 自选
+      title: '单独的下拉选择'
       description: 两个自定义选择在表单组外，像工具栏或过滤器栏一样放置。
     switch:
       title: 自开关

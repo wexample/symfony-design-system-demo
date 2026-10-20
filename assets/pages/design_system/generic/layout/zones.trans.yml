@@ -62,7 +62,7 @@ ar:
       title: 'بعرض محتواه'
       description: '`zone--fit-content`: المنطقة تأخذ عرض ما تحتويه - جدول يحتوي على العديد من الأعمدة - بدلاً من ما تبقى لها. الصف يتجاوز ويتحرك جانبيًا ككل، شريط التمرير في أسفل الإطار، وليس تحت الجدول فقط؛ كل منطقة لا تزال تتحرك للأسفل بشكل مستقل.'
     wrap:
-      title: 'أسفل الأرضية'
+      title: 'أقل من الحد الأدنى'
       description: 'عند وجود أرضية، تأخذ المنطقة المرنة خطًا كاملًا وينتقل العمود المحدد فوقها بدلاً من أن يتم ضغط كلاهما إلى لا شيء. قم بتضييق النافذة لترى كيف تنطوي.'
     portrait:
       title: 'بجانب صفحة'
@@ -98,7 +98,7 @@ bn:
       title: 'এটি এর সামগ্রীর মতো প্রশস্ত'
       description: '`zone--fit-content`: অঞ্চলটি যা ধারণ করে তার প্রস্থ গ্রহণ করে — অনেক কলামের একটি টেবিল — বরং যা এর জন্য বাকি আছে। সারিটি একসাথে ওভারফ্লো এবং পাশের দিকে স্ক্রল করে, এর স্ক্রলবার ফ্রেমের পায়ে, কেবল টেবিলের নিচে নয়; প্রতিটি অঞ্চল এখনও স্বতন্ত্রভাবে নিচে স্ক্রল করে।'
     wrap:
-      title: 'একটি মেঝের নিচে'
+      title: 'সর্বনিম্নের নিচে'
       description: 'একটি মেঝে দেওয়া হলে, নমনীয় জোন একটি পূর্ণ লাইন দাবি করে এবং আকার দেওয়া কলামটি এর উপরে চলে যায় পরিবর্তে উভয়কে কিছু না করে চাপা দেওয়া। জানালাটি সংকীর্ণ করুন এটি ভাঁজ দেখতে।'
     portrait:
       title: 'একটি পৃষ্ঠার পাশে'
@@ -134,7 +134,7 @@ de:
       title: 'So breit wie der Inhalt'
       description: '`zone--fit-content`: der Bereich nimmt die Breite dessen ein, was er enthält — eine Tabelle mit vielen Spalten — anstatt was ihm verbleibt. Die Zeile überläuft und scrollt seitlich als Einheit, ihr Scrollbalken am Fuß des Rahmens, nicht nur unter der Tabelle; jeder Bereich scrollt weiterhin für sich selbst nach unten.'
     wrap:
-      title: 'Unter einem Fußboden'
+      title: 'Unter dem Minimum'
       description: 'Bei einem Fußboden beansprucht die flexible Zone eine volle Zeile und die feste Spalte bewegt sich darüber, anstatt beide auf nichts zusammengedrückt zu werden. Verkleinern Sie das Fenster, um zu sehen, wie es sich zusammenfaltet.'
     portrait:
       title: 'Neben einer Seite'
@@ -170,7 +170,7 @@ es:
       title: 'Tan ancho como su contenido'
       description: '`zone--fit-content`: la región toma el ancho de lo que contiene — una tabla de muchas columnas — en lugar de lo que se le deja. La fila se desborda y se desplaza lateralmente como una, su barra de desplazamiento en la parte inferior del marco, no debajo de la tabla sola; cada región aún se desplaza hacia abajo por sí sola.'
     wrap:
-      title: 'Debajo de un suelo'
+      title: 'Por debajo del mínimo'
       description: 'Dado un suelo, la zona flexible reclama una línea completa y la columna dimensionada se mueve por encima en lugar de ser comprimida a nada. Reduce la ventana para verlo plegarse.'
     portrait:
       title: 'Junto a una página'
@@ -206,7 +206,7 @@ fa:
       title: 'به عرض محتوای خود'
       description: '`zone--fit-content`: این ناحیه به عرض محتوای خود می‌رسد — یک جدول با چندین ستون — نه به آنچه که برایش باقی مانده است. ردیف به صورت یکپارچه سرریز شده و به سمت کناره‌ها اسکرول می‌شود، نوار اسکرول آن در پایین قاب قرار دارد، نه فقط زیر جدول؛ هر ناحیه هنوز به صورت جداگانه به سمت پایین اسکرول می‌شود.'
     wrap:
-      title: 'زیر یک کف'
+      title: 'کمتر از حداقل'
       description: 'با توجه به یک کف، زون انعطاف‌پذیر یک خط کامل را تصاحب می‌کند و ستون اندازه‌گیری شده به جای اینکه هر دو به هیچ تبدیل شوند، بالای آن حرکت می‌کند. پنجره را باریک کنید تا ببینید که چگونه جمع می‌شود.'
     portrait:
       title: 'کنار یک صفحه'
@@ -242,7 +242,7 @@ fi:
       title: 'Aivan niin leveä kuin sisältönsä'
       description: '`zone--fit-content`: alue ottaa sen leveyden, mitä se pitää sisällään — useiden sarakkeiden taulukko — eikä sitä, mikä sille jää. Rivi ylittää ja vierittää vaakasuunnassa yhtenä kokonaisuutena, sen vierityspalkki on kehyksen alareunassa, ei vain taulukon alla; jokainen alue vierittää edelleen alas omassa tahdissaan.'
     wrap:
-      title: 'Lattian alapuolella'
+      title: 'Alle minimin'
       description: 'Kun on lattia, joustava vyöhyke vie koko rivin ja kooltaan määritelty sarake liikkuu sen ylle sen sijaan, että molemmat puristuisivat olemattomiin. Supista ikkunaa nähdäksesi sen taittuvan.'
     portrait:
       title: 'Sivun vieressä'
@@ -278,7 +278,7 @@ fr:
       title: 'Aussi large que son contenu'
       description: "`zone--fit-content` : la zone prend la largeur de ce qu'elle contient — un tableau avec de nombreuses colonnes — plutôt que celle qui lui est laissée. La ligne déborde et défile horizontalement en une seule fois, sa barre de défilement en bas du cadre, et non sous le tableau seul ; chaque zone défile toujours vers le bas individuellement."
     wrap:
-      title: 'Sous un sol'
+      title: 'Sous le minimum'
       description: "Étant donné un sol, la zone flexible s'approprie une ligne complète et la colonne dimensionnée se déplace au-dessus au lieu d'être toutes deux compressées à rien. Réduisez la fenêtre pour voir comment cela se replie."
     portrait:
       title: 'À côté d’une page'
@@ -314,7 +314,7 @@ he:
       title: 'רחב כמו התוכן שלו'
       description: '`zone--fit-content`: האזור לוקח את רוחב מה שהוא מחזיק — טבלה עם הרבה עמודות — ולא מה שנשאר לו. השורה יוצאת החוצה וגלולה הצידה כאחת, פס הגלילה שלה בתחתית המסגרת, לא מתחת לטבלה בלבד; כל אזור עדיין גולל למטה בפני עצמו.'
     wrap:
-      title: 'מתחת לרצפה'
+      title: 'מתחת למינימום'
       description: 'בהינתן רצפה, האזור הגמיש תופס שורה מלאה והעמודה בגודל קבוע זזה מעליו במקום ששניהם יידחקו לאפס. הקטין את החלון כדי לראות את זה מתקפל.'
     portrait:
       title: 'לצד עמוד'
@@ -350,7 +350,7 @@ hi:
       title: 'इसके सामग्री के जितना चौड़ा'
       description: '`zone--fit-content`: यह क्षेत्र उस चौड़ाई को लेता है जो इसमें है - कई कॉलम वाली एक तालिका - न कि जो इसके लिए बचा है। पंक्ति एक साथ बाहर बहती है और किनारे पर स्क्रॉल करती है, इसका स्क्रॉलबार फ्रेम के नीचे है, केवल तालिका के नीचे नहीं; प्रत्येक क्षेत्र अभी भी अपने आप में नीचे स्क्रॉल करता है।'
     wrap:
-      title: 'एक फर्श के नीचे'
+      title: 'न्यूनतम से नीचे'
       description: 'एक फर्श दिए जाने पर, लचीला क्षेत्र एक पूर्ण रेखा का दावा करता है और आकारित स्तंभ इसके ऊपर चलता है बजाय इसके कि दोनों को कुछ भी नहीं होने के लिए निचोड़ दिया जाए। इसे मोड़ते हुए देखने के लिए विंडो को संकीर्ण करें।'
     portrait:
       title: 'एक पृष्ठ के बगल में'
@@ -386,7 +386,7 @@ id:
       title: 'Selebar kontennya'
       description: '`zone--fit-content`: wilayah mengambil lebar dari apa yang dipegangnya — tabel dengan banyak kolom — daripada apa yang tersisa untuknya. Baris meluap dan menggulir secara horizontal sebagai satu kesatuan, scrollbar-nya di bagian bawah bingkai, bukan di bawah tabel saja; setiap wilayah masih menggulir ke bawah dengan sendirinya.'
     wrap:
-      title: 'Di bawah lantai'
+      title: 'Di bawah minimum'
       description: 'Diberikan sebuah lantai, zona fleksibel mengklaim satu baris penuh dan kolom yang berukuran bergerak di atasnya daripada keduanya dipaksa menjadi tidak ada. Persempit jendela untuk melihatnya melipat.'
     portrait:
       title: 'Di samping halaman'
@@ -422,7 +422,7 @@ it:
       title: 'Largo quanto il suo contenuto'
       description: "`zone--fit-content`: la regione prende la larghezza di ciò che contiene — una tabella con molte colonne — piuttosto che ciò che le resta. La riga trabocca e scorre lateralmente come un'unica entità, con la sua barra di scorrimento in fondo al riquadro, non solo sotto la tabella; ogni regione continua a scorrere verso il basso autonomamente."
     wrap:
-      title: 'Sotto un pavimento'
+      title: 'Sotto il minimo'
       description: "Data una base, la zona flessibile occupa un'intera riga e la colonna di dimensioni fisse si sposta sopra di essa invece di essere entrambe costrette a nulla. Riduci la finestra per vedere come si piega."
     portrait:
       title: 'Accanto a una pagina'
@@ -458,7 +458,7 @@ ja:
       title: 内容に合わせて幅を調整
       description: '`zone--fit-content`: この領域は、残りのスペースではなく、保持しているものの幅を取ります — 多くの列を持つテーブル — 行は一緒に横に溢れ、フレームの下部にスクロールバーがあり、テーブルの下だけではありません; 各領域は依然としてそれぞれ独自に下にスクロールします。'
     wrap:
-      title: 床の下
+      title: '最小値を下回ると'
       description: 床が与えられると、柔軟なゾーンは完全な行を主張し、サイズが設定されたカラムは両方が押しつぶされるのではなく、その上に移動します。ウィンドウを狭くすると折りたたむ様子が見えます。
     portrait:
       title: ページの横に
@@ -494,7 +494,7 @@ ko:
       title: '내용에 맞게 넓게'
       description: '`zone--fit-content`: 이 영역은 자신이 포함하는 것의 너비 — 여러 열의 테이블 — 를 따라 넓어지고, 남는 공간으로 넓어지지 않습니다. 행은 하나로서 넘치고 가로로 스크롤되며, 스크롤바는 프레임의 하단에 위치하고 테이블 아래에만 있지 않습니다; 각 영역은 여전히 개별적으로 아래로 스크롤됩니다.'
     wrap:
-      title: '바닥 아래'
+      title: '최소 크기 미만'
       description: '바닥이 주어지면, 유연한 영역은 전체 줄을 차지하고 크기가 정해진 열은 두 개가 압축되어 사라지지 않고 그 위로 이동합니다. 창을 좁혀서 접히는 모습을 확인하세요.'
     portrait:
       title: '페이지 옆에'
@@ -530,7 +530,7 @@ nl:
       title: 'Zo breed als de inhoud'
       description: '`zone--fit-content`: de regio neemt de breedte aan van wat het bevat — een tabel met meerdere kolommen — in plaats van wat er nog over is. De rij stroomt over en scrolt zijwaarts als één geheel, met de schuifbalk aan de onderkant van het frame, niet alleen onder de tabel; elke regio scrolt nog steeds afzonderlijk naar beneden.'
     wrap:
-      title: 'Onder een vloer'
+      title: 'Onder het minimum'
       description: 'Gegeven een vloer, neemt de flexibele zone een volle regel in beslag en beweegt de gekleurde kolom erboven in plaats van dat beide worden samengedrukt tot niets. Vernauw het venster om het in te zien vouwen.'
     portrait:
       title: 'Naast een pagina'
@@ -566,7 +566,7 @@ pl:
       title: 'Tak szeroka jak jej zawartość'
       description: '`zone--fit-content`: obszar zajmuje szerokość tego, co zawiera — tabela z wieloma kolumnami — zamiast tego, co jest mu przydzielone. Wiersz przeskakuje i przewija się na boki jako całość, jego pasek przewijania znajduje się u dołu ramki, a nie tylko pod tabelą; każdy obszar nadal przewija się w dół samodzielnie.'
     wrap:
-      title: 'Poniżej podłogi'
+      title: 'Poniżej minimum'
       description: 'Majac podłogę, elastyczna strefa zajmuje pełną linię, a kolumna o danym rozmiarze przesuwa się nad nią, zamiast obie być ściśnięte do zera. Zmniejsz okno, aby zobaczyć, jak się składa.'
     portrait:
       title: 'Obok strony'
@@ -602,7 +602,7 @@ pt_BR:
       title: 'Tão largo quanto seu conteúdo'
       description: '`zone--fit-content`: a região ocupa a largura do que contém — uma tabela com muitas colunas — em vez do que lhe resta. A linha transborda e rola para o lado como um todo, sua barra de rolagem na parte inferior do quadro, não apenas sob a tabela; cada região ainda rola para baixo por conta própria.'
     wrap:
-      title: 'Abaixo de um chão'
+      title: 'Abaixo do mínimo'
       description: 'Dado um chão, a zona flexível ocupa uma linha completa e a coluna dimensionada se move acima dela em vez de ambas serem espremidas a nada. Reduza a janela para vê-la se dobrar.'
     portrait:
       title: 'Ao lado de uma página'
@@ -638,7 +638,7 @@ ru:
       title: 'Такой же широкий, как его содержимое'
       description: '`zone--fit-content`: область занимает ширину того, что она содержит — таблицы с множеством столбцов — а не того, что ей остается. Ряд выходит за границы и прокручивается вбок как единое целое, его полоса прокрутки внизу рамки, а не только под таблицей; каждая область все равно прокручивается вниз самостоятельно.'
     wrap:
-      title: 'Под полом'
+      title: 'Ниже минимума'
       description: 'Имея пол, гибкая зона занимает полную строку, а колонка с заданным размером перемещается над ней, вместо того чтобы обе сжимались до нуля. Уменьшите окно, чтобы увидеть, как это складывается.'
     portrait:
       title: 'Рядом со страницей'
@@ -674,7 +674,7 @@ th:
       title: กว้างเท่ากับเนื้อหา
       description: '`zone--fit-content`: พื้นที่จะมีความกว้างตามสิ่งที่มันรองรับ — ตารางที่มีหลายคอลัมน์ — แทนที่จะเป็นความกว้างที่เหลืออยู่ ตารางจะเกินและเลื่อนด้านข้างเป็นหนึ่งเดียว โดยมีแถบเลื่อนที่ด้านล่างของกรอบ ไม่ใช่เฉพาะใต้ตาราง; แต่ละพื้นที่ยังคงเลื่อนลงไปเอง.'
     wrap:
-      title: ด้านล่างพื้น
+      title: 'ต่ำกว่าขั้นต่ำ'
       description: 'เมื่อมีพื้น โซนที่ยืดหยุ่นจะใช้เส้นเต็มและคอลัมน์ที่มีขนาดจะเคลื่อนที่อยู่เหนือมันแทนที่จะถูกบีบให้เล็กจนไม่มีอะไร ให้ลดขนาดหน้าต่างเพื่อดูมันพับ'
     portrait:
       title: ข้างหน้ากระดาษ
@@ -710,7 +710,7 @@ tr:
       title: 'İçeriği kadar geniş'
       description: '`zone--fit-content`: bölge, içinde tuttuğu şeyin genişliğini alır — birçok sütundan oluşan bir tablo — kalan alana göre değil. Satır bir bütün olarak taşar ve yanlamasına kaydırılır, kaydırma çubuğu çerçevenin alt tarafında, yalnızca tablonun altında değil; her bölge yine kendi başına aşağı kaydırılır.'
     wrap:
-      title: 'Bir zemin altında'
+      title: 'Minimumun altında'
       description: 'Bir zemin verildiğinde, esnek bölge tam bir satır alır ve boyutlandırılmış sütun onun üstünde hareket eder, ikisi de hiçbir şeye sıkıştırılmak yerine. Pencereyi daraltarak katlanışını görebilirsiniz.'
     portrait:
       title: 'Bir sayfanın yanında'
@@ -746,7 +746,7 @@ ur:
       title: 'اپنی مواد کی چوڑائی کے برابر'
       description: '`zone--fit-content`: یہ علاقہ اس کی چوڑائی لیتا ہے جو اس میں ہے — کئی کالموں کی ایک میز — نہ کہ جو اس کے لئے باقی ہے۔ قطار ایک ساتھ بہتی ہے اور سائیڈ پر سکرول کرتی ہے، اس کی سکرول بار فریم کے نچلے حصے میں ہے، صرف میز کے نیچے نہیں؛ ہر علاقہ اب بھی اپنے طور پر نیچے سکرول کرتا ہے۔'
     wrap:
-      title: 'ایک فرش کے نیچے'
+      title: 'کم از کم سے نیچے'
       description: 'ایک فرش دی گئی ہو تو، لچکدار زون ایک مکمل لائن کا دعوی کرتا ہے اور سائز والا کالم اس کے اوپر منتقل ہوتا ہے بجائے اس کے کہ دونوں کو کچھ بھی نہیں چھوڑا جائے۔ ونڈو کو تنگ کریں تاکہ یہ فولڈ ہوتا ہوا دیکھ سکیں۔'
     portrait:
       title: 'ایک صفحے کے ساتھ'
@@ -782,7 +782,7 @@ vi:
       title: 'Rộng như nội dung của nó'
       description: '`zone--fit-content`: vùng này chiếm chiều rộng của những gì nó chứa — một bảng với nhiều cột — thay vì những gì còn lại. Dòng sẽ tràn và cuộn sang một bên như một, thanh cuộn của nó ở chân khung, không chỉ dưới bảng; mỗi vùng vẫn cuộn xuống riêng.'
     wrap:
-      title: 'Dưới một sàn'
+      title: 'Dưới mức tối thiểu'
       description: 'Khi có một sàn, khu vực linh hoạt chiếm một dòng đầy đủ và cột đã được định kích thước di chuyển ở trên thay vì cả hai bị ép lại thành không gì cả. Thu hẹp cửa sổ để thấy nó gập lại.'
     portrait:
       title: 'Bên cạnh một trang'
@@ -818,7 +818,7 @@ zh:
       title: 与内容宽度一致
       description: '`zone--fit-content`：该区域的宽度取决于其所包含的内容——多个列的表格——而不是剩余空间。行会整体溢出并横向滚动，滚动条位于框架底部，而不是仅在表格下方；每个区域仍然可以单独向下滚动。'
     wrap:
-      title: 在地板下
+      title: '低于最小值'
       description: 给定一个地板，灵活区域占据整行，大小列则在其上方移动，而不是被挤压到无。缩小窗口以查看它的折叠。
     portrait:
       title: 页面旁边

@@ -57,7 +57,7 @@ ar:
       title: إطار
       description: 'صورة في إطارها، من الخادم باستخدام media() أو كمكون media vue: رابط عندما يؤدي إلى مكان ما، وعنوان أسفل الصورة، وتوهج أثناء التحميل أو عندما لا يوجد شيء.'
     wall:
-      title: جدار
+      title: 'فسيفساء'
       description: 'صور بكل ارتفاعات متراصة جنبًا إلى جنب بلا فراغات، كل منها بارتفاع يتناسب مع نسبته، والأعمدة بقدر ما يتسع له المكان: wall() يرسمها من الخادم، الشكل هو css/shapes/wall.'
     wall_vue:
       title: 'جدار مجموعة'
@@ -83,7 +83,7 @@ bn:
     overlay:
       title: ওভারলে
     aspect_ratio:
-      title: 'অংশের অনুপাত'
+      title: 'আকৃতির অনুপাত'
     document:
       title: 'এম্বেডেড নথি'
       description: 'একটি আইফ্রেম তার বাক্স পূর্ণ করে, তাই বাক্সটি আকার বহন করে: একটি অনুপাত সংশোধক, অথবা মিডিয়া--যা কিছু উচ্চতা প্যারেন্ট দেয় তা গ্রহণ করতে।'
@@ -91,7 +91,7 @@ bn:
       title: ফ্রেম
       description: 'সার্ভার থেকে media() বা মিডিয়া ভিউ কম্পোনেন্টের মাধ্যমে একটি ফ্রেমে একটি ছবি: এটি কোথাও নিয়ে গেলে একটি লিঙ্ক, এর পায়ের উপরে একটি ক্যাপশন এবং এটি লোড হওয়ার সময় বা কিছু না থাকলে একটি ঝলক।'
     wall:
-      title: দেয়াল
+      title: 'মোজাইক'
       description: 'প্রতি উচ্চতার ছবি একসাথে কোনো ফাঁক ছাড়াই রাখা হয়েছে, প্রতিটি তার অনুপাত অনুযায়ী উচ্চ, কOLUMN সংখ্যা ঘরের আকার অনুযায়ী: wall() এটি সার্ভার থেকে আঁকে, আকারটি css/shapes/wall।'
     wall_vue:
       title: 'একটি সংগ্রহের দেয়াল'
@@ -125,7 +125,7 @@ de:
       title: Rahmen
       description: 'Ein Bild in seinem Rahmen, vom Server mit media() oder als das Media Vue-Komponente: ein Link, wenn es irgendwohin führt, eine Beschriftung über seinem Fuß und ein Leuchten während des Ladens oder wenn es keines gibt.'
     wall:
-      title: Wand
+      title: 'Mosaik'
       description: 'Bilder jeder Höhe, nebeneinander gepackt, ohne Lücken, jedes so hoch wie es das Verhältnis sagt, die Spalten so viele wie der Raum zulässt: wall() zieht es vom Server, die Form ist css/shapes/wall.'
     wall_vue:
       title: 'Wand einer Sammlung'
@@ -159,7 +159,7 @@ es:
       title: Marco
       description: 'Una imagen en su marco, desde el servidor con media() o como el componente vue de medios: un enlace cuando lleva a algún lugar, un pie de foto en su base, y un resplandor mientras se carga o cuando no hay ninguno.'
     wall:
-      title: Pared
+      title: 'Mosaico'
       description: 'Imágenes de todas las alturas empaquetadas lado a lado sin huecos, cada una tan alta como lo indica su proporción, las columnas tantas como el espacio lo permita: wall() lo dibuja desde el servidor, la forma es css/shapes/wall.'
     wall_vue:
       title: 'Pared de una colección'
@@ -193,7 +193,7 @@ fa:
       title: قاب
       description: 'تصویری در قاب خود، از سرور با media() یا به عنوان کامپوننت vue رسانه: یک لینک وقتی که به جایی هدایت می‌کند، یک زیرنویس در پایین آن، و در حین بارگذاری یا زمانی که چیزی وجود ندارد، درخشش.'
     wall:
-      title: دیوار
+      title: 'موزاییک'
       description: 'تصاویر با ارتفاع‌های مختلف که کنار هم بدون فاصله چیده شده‌اند، هرکدام به اندازه نسبت خود بلند هستند، ستون‌ها به اندازه فضای اتاق: wall() آن را از سرور می‌کشد، شکل آن css/shapes/wall است.'
     wall_vue:
       title: 'دیوار یک مجموعه'
@@ -227,7 +227,7 @@ fi:
       title: Kehys
       description: 'Kuva kehyksessään, palvelimelta media() tai media vue -komponenttina: linkki kun se vie johonkin, kuvateksti jalassa, ja hehku ladattaessa tai kun kuvaa ei ole.'
     wall:
-      title: Seinä
+      title: 'Mosaiikki'
       description: 'Kuvia eri korkeuksilla pakattuna vierekkäin ilman aukkoja, jokainen niin korkea kuin sen suhde sanoo, sarakkeita niin monta kuin huone sallii: wall() piirtää sen palvelimelta, muoto on css/shapes/wall.'
     wall_vue:
       title: 'Kokoelman seinä'
@@ -242,7 +242,7 @@ fi:
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Média
+  page_title: 'Médias'
   page_icon: 'ph:bold/image'
   section:
     vue:
@@ -253,7 +253,7 @@ fr:
     overlay:
       title: Superposition
     aspect_ratio:
-      title: "Ratio d'aspect"
+      title: 'Proportions'
     document:
       title: 'Document intégré'
       description: 'Un iframe remplit sa boîte, donc la boîte porte la taille : un modificateur de ratio, ou media--fill pour prendre la hauteur que le parent donne.'
@@ -261,10 +261,10 @@ fr:
       title: Cadre
       description: "Une image dans son cadre, rendue par le serveur avec media() ou par le composant vue media : un lien quand elle mène quelque part, une légende sur son pied, et une lueur pendant qu'elle charge ou quand il n'y en a pas."
     wall:
-      title: Mur
+      title: 'Mosaïque'
       description: "Des images de toutes hauteurs serrées côte à côte sans trou, chacune aussi haute que son ratio le dit, autant de colonnes que la place en prend : wall() le rend côté serveur, la forme est css/shapes/wall."
     wall_vue:
-      title: Mur d'une collection
+      title: 'Mosaïque d''une collection'
       description: "Le même mur pour une collection d'entités, lue dans l'api une page à la fois au fil du défilement : la page suivante arrive avant que le pied du mur soit atteint."
     crop:
       title: Recadrage
@@ -295,7 +295,7 @@ he:
       title: מסגרת
       description: 'תמונה בתוך מסגרת, מהשרת עם media() או כקומפוננטת vue למדיה: קישור כשזה מוביל למקום כלשהו, כיתוב מעל הרגל שלה, וזוהר בזמן שהיא נטענת או כשאין אף אחת.'
     wall:
-      title: קיר
+      title: 'פסיפס'
       description: 'תמונות בכל גובה ארוזות זו לצד זו בלי חורים, כל אחת בגובה שהיחס שלה אומר, העמודות רבות כמו שהחדר מכיל: wall() מצייר את זה מהשרת, הצורה היא css/shapes/wall.'
     wall_vue:
       title: 'קיר של אוסף'
@@ -321,7 +321,7 @@ hi:
     overlay:
       title: ओवरले
     aspect_ratio:
-      title: 'आसपेक्त अनुपात'
+      title: 'आस्पेक्ट रेशियो'
     document:
       title: 'एम्बेडेड दस्तावेज़'
       description: 'एक आईफ्रेम अपने बॉक्स को भरता है, इसलिए बॉक्स आकार लेता है: एक अनुपात संशोधक, या मीडिया--फिल जो माता-पिता द्वारा दिए गए किसी भी ऊँचाई को लेता है।'
@@ -329,7 +329,7 @@ hi:
       title: फ्रेम
       description: 'एक तस्वीर अपने फ्रेम में, सर्वर से media() के साथ या मीडिया व्यू घटक के रूप में: एक लिंक जब यह कहीं ले जाती है, उसके पैर पर एक कैप्शन, और जब यह लोड हो रहा हो या जब कुछ न हो तो एक चमक।'
     wall:
-      title: दीवार
+      title: 'मोज़ेक'
       description: 'हर ऊँचाई की तस्वीरें बगैर किसी खाली जगह के एक साथ पैक की गई हैं, प्रत्येक अपनी अनुपात के अनुसार ऊँची, कॉलम कमरे की क्षमता के अनुसार: wall() इसे सर्वर से खींचता है, आकार css/shapes/wall है।'
     wall_vue:
       title: 'एक संग्रह की दीवार'
@@ -363,7 +363,7 @@ id:
       title: Bingkai
       description: 'Sebuah gambar dalam bingkainya, dari server dengan media() atau sebagai komponen vue media: sebuah tautan saat mengarah ke suatu tempat, sebuah keterangan di bagian bawahnya, dan efek bersinar saat memuat atau ketika tidak ada.'
     wall:
-      title: Dinding
+      title: 'Mosaik'
       description: 'Gambar dengan berbagai tinggi yang dipadatkan berdampingan tanpa celah, masing-masing setinggi rasio yang ditentukan, kolom sebanyak yang bisa ditampung ruangan: wall() menggambarnya dari server, bentuknya adalah css/shapes/wall.'
     wall_vue:
       title: 'Dinding koleksi'
@@ -397,7 +397,7 @@ it:
       title: Cornice
       description: "Un'immagine nella sua cornice, dal server con media() o come componente vue media: un link quando porta da qualche parte, una didascalia sopra il suo piede, e un bagliore mentre si carica o quando non ce n'è."
     wall:
-      title: Parete
+      title: 'Mosaico'
       description: 'Immagini di ogni altezza impilate affiancate senza spazi vuoti, ognuna alta quanto dice il suo rapporto, le colonne tante quanto ne contiene la stanza: wall() la estrae dal server, la forma è css/shapes/wall.'
     wall_vue:
       title: 'Parete di una collezione'
@@ -431,7 +431,7 @@ ja:
       title: フレーム
       description: 'サーバーからのmedia()やmedia vueコンポーネントとしてのフレーム内の画像：どこかにリンクする場合はリンク、足元にキャプション、読み込んでいる間や何もないときに光る。'
     wall:
-      title: 壁
+      title: 'モザイク'
       description: 隙間なく横に並んだ様々な高さの画像、それぞれはその比率に従った高さを持ち、部屋が許す限りの列：wall()がサーバーから描画し、形状はcss/shapes/wall。
     wall_vue:
       title: コレクションの壁
@@ -465,7 +465,7 @@ ko:
       title: 프레임
       description: '서버에서 media()를 통해 또는 미디어 Vue 컴포넌트로 가져온 프레임에 있는 사진: 링크가 있을 경우 해당 링크로 이동하고, 하단에 캡션이 있으며, 로딩 중이거나 이미지가 없을 때 빛나는 효과가 있습니다.'
     wall:
-      title: 벽
+      title: '모자이크'
       description: '구멍 없이 나란히 배치된 다양한 높이의 사진들, 각 사진은 비율에 맞게 높이가 조정되며, 방의 크기에 맞춰 열이 배치됩니다: wall()은 서버에서 가져오고, 모양은 css/shapes/wall입니다.'
     wall_vue:
       title: '컬렉션의 벽'
@@ -499,7 +499,7 @@ nl:
       title: Lijst
       description: 'Een afbeelding in zijn lijst, van de server met media() of als de media vue-component: een link wanneer het ergens naartoe leidt, een bijschrift over de voet, en een gloed terwijl het laadt of wanneer er geen is.'
     wall:
-      title: Muur
+      title: 'Mozaïek'
       description: 'Afbeeldingen van elke hoogte naast elkaar zonder gaten, elk zo hoog als de verhouding aangeeft, de kolommen zoveel als de ruimte toelaat: wall() haalt het van de server, de vorm is css/shapes/wall.'
     wall_vue:
       title: 'Muur van een collectie'
@@ -533,7 +533,7 @@ pl:
       title: Ramka
       description: 'Obrazek w ramce, z serwera za pomocą media() lub jako komponent vue media: link, gdy prowadzi gdzieś, podpis na dole oraz efekt podświetlenia podczas ładowania lub gdy go nie ma.'
     wall:
-      title: Ściana
+      title: 'Mozaika'
       description: 'Obrazki o różnych wysokościach zapakowane obok siebie bez przerw, każdy tak wysoki, jak mówi jego proporcja, kolumny tak liczne, jak pozwala pomieszczenie: wall() rysuje je z serwera, kształt to css/shapes/wall.'
     wall_vue:
       title: 'Ściana kolekcji'
@@ -567,7 +567,7 @@ pt_BR:
       title: Quadro
       description: 'Uma imagem em seu quadro, do servidor com media() ou como o componente vue de mídia: um link quando leva a algum lugar, uma legenda na parte inferior, e um brilho enquanto carrega ou quando não há nada.'
     wall:
-      title: Paredão
+      title: 'Mosaico'
       description: 'Imagens de todas as alturas empilhadas lado a lado sem buracos, cada uma tão alta quanto sua proporção diz, as colunas são tantas quanto o espaço permite: wall() desenha isso do servidor, a forma é css/shapes/wall.'
     wall_vue:
       title: 'Paredão de uma coleção'
@@ -601,7 +601,7 @@ ru:
       title: Рамка
       description: 'Картина в рамке, с сервера с media() или как компонент media vue: ссылка, когда она куда-то ведет, подпись внизу и свечение во время загрузки или когда изображения нет.'
     wall:
-      title: Стена
+      title: 'Мозаика'
       description: 'Картины разной высоты, упакованные рядом без пробелов, каждая такой высоты, какой требует её соотношение, количество колонн зависит от размера комнаты: wall() рисует её с сервера, форма — css/shapes/wall.'
     wall_vue:
       title: 'Стена коллекции'
@@ -635,7 +635,7 @@ th:
       title: กรอบ
       description: 'ภาพในกรอบของมัน จากเซิร์ฟเวอร์ด้วย media() หรือในฐานะคอมโพเนนต์ media vue: ลิงก์เมื่อมันนำไปที่ใดที่หนึ่ง, คำบรรยายเหนือฐาน, และแสงระยิบระยับขณะโหลดหรือเมื่อไม่มีภาพ.'
     wall:
-      title: ผนัง
+      title: 'โมเสก'
       description: 'ภาพทุกขนาดที่เรียงข้างกันไม่มีช่องว่าง, แต่ละภาพสูงตามอัตราส่วนที่บอก, จำนวนคอลัมน์มีตามที่ห้องรองรับ: wall() วาดมันจากเซิร์ฟเวอร์, รูปทรงเป็น css/shapes/wall.'
     wall_vue:
       title: ผนังของคอลเลกชัน
@@ -669,7 +669,7 @@ tr:
       title: Çerçeve
       description: 'Sunucudan media() ile veya medya vue bileşeni olarak çerçevesindeki bir resim: bir yere giden bir bağlantı, altına bir başlık ve yüklenirken veya hiç yokken bir parıltı.'
     wall:
-      title: Duvar
+      title: 'Mozaik'
       description: "Her yüksekliğe sahip resimler, yan yana ve boşluk olmadan paketlenmiş, her biri oranına göre yüksek, odanın alabileceği kadar sütun: wall() bunu sunucudan çizer, şekil css/shapes/wall'dır."
     wall_vue:
       title: 'Bir koleksiyonun duvarı'
@@ -695,7 +695,7 @@ ur:
     overlay:
       title: اوورلے
     aspect_ratio:
-      title: 'پہلو کا تناسب'
+      title: 'تناسبِ ابعاد'
     document:
       title: 'مربوط دستاویز'
       description: 'ایک iframe اپنے باکس کو بھر دیتا ہے، اس لیے باکس کا سائز ہوتا ہے: ایک تناسب میں تبدیلی کرنے والا، یا میڈیا--بھرنے کے لیے جو بھی اونچائی والدین فراہم کرے۔'
@@ -703,7 +703,7 @@ ur:
       title: فریم
       description: 'ایک تصویر اپنے فریم میں، سرور سے media() کے ذریعے یا میڈیا vue کمپوننٹ کے طور پر: ایک لنک جب یہ کسی جگہ کی طرف جاتا ہے، اس کے نیچے ایک عنوان، اور جب یہ لوڈ ہو رہا ہو یا جب کوئی نہ ہو تو ایک چمک۔'
     wall:
-      title: دیوار
+      title: 'موزیک'
       description: 'ہر اونچائی کی تصاویر ایک دوسرے کے ساتھ بغیر کسی جگہ کے، ہر ایک اپنی تناسب کے مطابق اونچی، کالمز جتنے کمرے میں ہوں: wall() اسے سرور سے کھینچتا ہے، شکل css/shapes/wall ہے۔'
     wall_vue:
       title: 'اجتماع کی دیوار'
@@ -737,7 +737,7 @@ vi:
       title: Khung
       description: 'Một bức tranh trong khung của nó, từ máy chủ với media() hoặc dưới dạng thành phần vue media: một liên kết khi nó dẫn đến đâu đó, một chú thích ở dưới chân, và một ánh sáng trong khi nó tải hoặc khi không có gì.'
     wall:
-      title: Tường
+      title: 'Lưới ảnh'
       description: 'Những bức tranh có chiều cao khác nhau được xếp cạnh nhau không có khoảng trống, mỗi bức tranh cao như tỉ lệ của nó, số cột nhiều như không gian có: wall() vẽ nó từ máy chủ, hình dạng là css/shapes/wall.'
     wall_vue:
       title: 'Tường của một bộ sưu tập'
@@ -771,7 +771,7 @@ zh:
       title: 框架
       description: '一幅装在框架里的图片，从服务器获取 media() 或作为媒体 Vue 组件：当它链接到某个地方时，显示链接，脚下有说明，加载时或没有内容时有光晕效果。'
     wall:
-      title: 墙壁
+      title: '图片墙'
       description: '每张高度不同的图片并排紧凑地排列，没有空隙，每张图片的高度与其比例一致，列数根据房间的大小而定：wall() 从服务器绘制，形状为 css/shapes/wall。'
     wall_vue:
       title: 集合的墙壁

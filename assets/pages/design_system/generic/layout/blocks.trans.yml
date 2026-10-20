@@ -1035,7 +1035,7 @@ fr:
     advanced:
       title: 'Blocs avancés'
     aside:
-      title: 'Colonne fixe à côté'
+      title: 'Colonne latérale fixe'
       description: "Une colonne étroite dimensionnée sur l'échelle --size, à côté d'un corps qui absorbe la largeur restante."
     card:
       title: Cartes
@@ -1060,7 +1060,7 @@ fr:
       title: Vertical
       description: 'Lignes empilées, pleine largeur, espacement uniforme.'
     stack_split:
-      title: Démembré
+      title: 'Scindé'
       description: 'Le premier enfant grandit, le dernier enfant reste fixe — utilisé pour les lignes de lead + action.'
     stack_nested:
       title: Imbriqué
@@ -1098,7 +1098,7 @@ fr:
         title: 'Zone principale'
         description: 'Le contenu principal peut croître naturellement avec un espacement standard.'
       aside:
-        title: 'Zone à côté'
+        title: 'Zone latérale'
         description: 'Cette zone latérale utilise un fond clair pour mettre en valeur le contenu complémentaire.'
     zones_three:
       title: 'Mise en page à trois zones'
@@ -1147,7 +1147,7 @@ fr:
     add_projection: 'Ajouter une projection'
   link:
     starter:
-      title: Démarreur
+      title: 'Point de départ'
       description: 'Une personne, les essentiels, rien à payer.'
     team:
       title: Équipe
@@ -2394,7 +2394,7 @@ pt_BR:
         title: 'Zona principal'
         description: 'O conteúdo principal pode crescer naturalmente com espaçamento padrão.'
       aside:
-        title: 'Zona ao lado'
+        title: 'Zona lateral'
         description: 'Esta zona lateral usa um fundo claro para destacar conteúdo complementar.'
     zones_three:
       title: 'Layout de três zonas'

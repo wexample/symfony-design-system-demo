@@ -42,7 +42,7 @@ ar:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'حظر الرسائل'
+      title: 'رسائل كتلية'
     compact:
       title: 'رسائل مضغوطة'
       description: 'نسخة غير مؤطرة، لوضع قواعد ثابتة بدلاً من الإبلاغ عن حدث. قم بتمرير المضغوط إلى الخيارات.'
@@ -76,7 +76,7 @@ bn:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'বার্তা ব্লক করুন'
+      title: 'ব্লক বার্তা'
     compact:
       title: 'সংক্ষিপ্ত বার্তা'
       description: 'এটি একটি অ-framed ভ্যারিয়েন্ট, যা একটি স্থায়ী নিয়ম বলার জন্য ব্যবহৃত হয়, ঘটনা রিপোর্ট করার জন্য নয়। বিকল্পগুলিতে সংক্ষিপ্ত পাস করুন।'
@@ -110,7 +110,7 @@ de:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Nachrichten blockieren'
+      title: 'Block-Meldungen'
     compact:
       title: 'Komprimierte Nachrichten'
       description: 'Unrahmte Variante, um feste Regeln anzugeben, anstatt ein Ereignis zu melden. Übergeben Sie kompakt an die Optionen.'
@@ -144,7 +144,7 @@ es:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Bloquear mensajes'
+      title: 'Mensajes en bloque'
     compact:
       title: 'Mensajes compactos'
       description: 'Variante sin marco, para establecer reglas permanentes en lugar de informar un evento. Pasa a compacto a las opciones.'
@@ -178,7 +178,7 @@ fa:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'مسائل مسدود شده'
+      title: 'پیام‌های بلوکی'
     compact:
       title: 'پیام‌های فشرده'
       description: 'نوع بدون قاب، برای بیان قوانین دائمی به جای گزارش یک رویداد. گزینه فشرده را به گزینه‌ها بدهید.'
@@ -212,7 +212,7 @@ fi:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Estä viestit'
+      title: 'Lohkoviestit'
     compact:
       title: 'Tiivistetyt viestit'
       description: 'Rajaamaton versio, joka ilmoittaa perussäännöistä sen sijaan, että raportoisi tapahtumasta. Anna tiivistetty vaihtoehtoihin.'
@@ -246,7 +246,7 @@ fr:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Bloquer les messages'
+      title: 'Messages en bloc'
     compact:
       title: 'Messages compacts'
       description: 'Variante sans cadre, pour énoncer des règles permanentes plutôt que de rapporter un événement. Passez compact aux options.'
@@ -280,7 +280,7 @@ he:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'חסימת הודעות'
+      title: 'הודעות בלוק'
     compact:
       title: 'הודעות קומפקטיות'
       description: 'גרסה ללא מסגרת, לצורך הצגת כללים קבועים ולא דיווח על אירוע. העבר קומפקט לאופציות.'
@@ -314,7 +314,7 @@ hi:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'संदेश ब्लॉक करें'
+      title: 'ब्लॉक संदेश'
     compact:
       title: 'संक्षिप्त संदेश'
       description: 'बिना फ्रेम का रूप, जो स्थायी नियमों को बताने के लिए है, न कि किसी घटना की रिपोर्ट करने के लिए। विकल्पों के लिए संक्षिप्त पास करें।'
@@ -348,7 +348,7 @@ id:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Blokir pesan'
+      title: 'Pesan blok'
     compact:
       title: 'Pesan ringkas'
       description: 'Variasi tanpa bingkai, untuk menyatakan aturan tetap daripada melaporkan suatu kejadian. Berikan opsi ringkas.'
@@ -382,7 +382,7 @@ it:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Blocca messaggi'
+      title: 'Messaggi a blocco'
     compact:
       title: 'Messaggi compatti'
       description: 'Versione non incorniciata, per esprimere regole generali piuttosto che riportare un evento. Passa compatto alle opzioni.'
@@ -416,7 +416,7 @@ ja:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: メッセージをブロック
+      title: 'ブロックメッセージ'
     compact:
       title: コンパクトメッセージ
       description: フレームなしのバリアントで、イベントを報告するのではなく、基本的なルールを示します。オプションにコンパクトを渡してください。
@@ -450,7 +450,7 @@ ko:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: '메시지 차단'
+      title: '블록 메시지'
     compact:
       title: '간략 메시지'
       description: '이벤트를 보고하기보다는 고정 규칙을 명시하는 비프레임 변형입니다. 옵션에 간략을 전달하세요.'
@@ -484,7 +484,7 @@ nl:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Berichten blokkeren'
+      title: 'Blokberichten'
     compact:
       title: 'Compacte berichten'
       description: 'Ongehulde variant, voor het aangeven van vaste regels in plaats van het rapporteren van een gebeurtenis. Geef compact door aan de opties.'
@@ -518,7 +518,7 @@ pl:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Zablokowane wiadomości'
+      title: 'Komunikaty blokowe'
     compact:
       title: 'Kompaktowe wiadomości'
       description: 'Niezdobyta wersja, do określania stałych zasad zamiast raportowania zdarzenia. Przekaż kompaktowe do opcji.'
@@ -552,7 +552,7 @@ pt_BR:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Bloquear mensagens'
+      title: 'Mensagens em bloco'
     compact:
       title: 'Mensagens compactas'
       description: 'Variante sem moldura, para estabelecer regras permanentes em vez de relatar um evento. Passe compact para as opções.'
@@ -586,7 +586,7 @@ ru:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Блокировать сообщения'
+      title: 'Блочные сообщения'
     compact:
       title: 'Компактные сообщения'
       description: 'Несформатированный вариант, для указания постоянных правил, а не для сообщения о событии. Передайте compact в параметры.'
@@ -620,7 +620,7 @@ th:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: บล็อกข้อความ
+      title: 'ข้อความแบบบล็อก'
     compact:
       title: ข้อความแบบกระชับ
       description: 'รูปแบบที่ไม่มีกรอบ สำหรับการระบุหลักการถาวรแทนที่จะรายงานเหตุการณ์ ส่งแบบกระชับไปยังตัวเลือก'
@@ -654,7 +654,7 @@ tr:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Mesajları Engelle'
+      title: 'Blok mesajlar'
     compact:
       title: 'Kısa Mesajlar'
       description: 'Olay bildirmek yerine durumsal kuralları belirtmek için çerçevesiz bir varyant. Seçeneklere compact ekleyin.'
@@ -688,7 +688,7 @@ ur:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'پیغامات بلاک کریں'
+      title: 'بلاک پیغامات'
     compact:
       title: 'کمپیکٹ پیغامات'
       description: 'غیر فریمڈ قسم، جو کہ کھڑے قواعد بیان کرنے کے لیے ہے نہ کہ کسی واقعے کی رپورٹنگ کے لیے۔ اختیارات میں کمپیکٹ شامل کریں۔'
@@ -722,7 +722,7 @@ vi:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 'Chặn tin nhắn'
+      title: 'Thông báo dạng khối'
     compact:
       title: 'Tin nhắn gọn'
       description: 'Biến thể không khung, để nêu rõ các quy tắc chứ không phải báo cáo một sự kiện. Chuyển sang gọn trong các tùy chọn.'
@@ -756,7 +756,7 @@ zh:
   page_icon: 'ph:bold/notification'
   section:
     block:
-      title: 阻止消息
+      title: '块状消息'
     compact:
       title: 紧凑消息
       description: 无框变体，用于陈述固定规则而不是报告事件。将紧凑传递给选项。

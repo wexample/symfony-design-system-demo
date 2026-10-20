@@ -85,8 +85,8 @@ fi:
 fr:
   tab:
     index: Aperçu
-    tables: Tables
-    live: Actualités
+    tables: 'Tableaux'
+    live: 'Mises à jour en direct'
     lists: Listes
     properties: Propriétés
     bars: Barres
@@ -101,7 +101,7 @@ he:
     live: מעקב
     lists: רשימות
     properties: מאפיינים
-    bars: שורות
+    bars: 'עמודות'
     tree: עץ
     chat: "צ'אט"
     files: קבצים
@@ -125,7 +125,7 @@ id:
     live: 'Terus Terupdate'
     lists: Daftar
     properties: Properti
-    bars: Bilangan
+    bars: 'Batang'
     tree: Pohon
     chat: Obrolan
     files: Berkas
@@ -173,7 +173,7 @@ nl:
     live: Bijhouden
     lists: Lijsten
     properties: Eigenschappen
-    bars: Balken
+    bars: 'Staven'
     tree: Boom
     chat: Chat
     files: Bestanden
@@ -185,7 +185,7 @@ pl:
     live: 'Na bieżąco'
     lists: Listy
     properties: Właściwości
-    bars: Paski
+    bars: 'Słupki'
     tree: Drzewo
     chat: Czat
     files: Pliki
@@ -209,7 +209,7 @@ ru:
     live: 'В реальном времени'
     lists: Списки
     properties: Свойства
-    bars: Графики
+    bars: 'Столбцы'
     tree: Дерево
     chat: Чат
     files: Файлы

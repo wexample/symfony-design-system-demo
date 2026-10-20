@@ -55,12 +55,12 @@ fi:
         message: 'Oletko varma, että haluat sulkea tämän modaalin?'
 
 fr:
-  page_title: 'Test de modal - moyen'
-  intro: 'Ce modal utilise un texte de corps de longueur moyenne.'
+  page_title: 'Test de modale - moyen'
+  intro: 'Cette modale utilise un texte de corps de longueur moyenne.'
   frontend:
     embed:
       closing_confirmation:
-        message: 'Êtes-vous sûr de vouloir fermer ce modal ?'
+        message: 'Êtes-vous sûr de vouloir fermer cette modale ?'
 
 he:
   page_title: 'בדיקת מודל - בינוני'
@@ -111,7 +111,7 @@ ko:
         message: '정말로 이 모달을 닫으시겠습니까?'
 
 nl:
-  page_title: 'Modal test - medium'
+  page_title: 'Modaltest - middel'
   intro: 'Deze modal gebruikt een tekst van gemiddelde lengte.'
   frontend:
     embed:

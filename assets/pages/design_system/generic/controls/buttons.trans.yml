@@ -47,7 +47,7 @@ ar:
     label: 'زر يتكون فقط من كلمته'
   section:
     bare:
-      title: 'أزرار bare'
+      title: 'أزرار بلا خلفية'
       description: 'button--bare: أي شيء يمكن تحويله إلى زر - علامة، صورة - مع الاحتفاظ بمظهره الخاص. لا يوجد شيء مرسوم حوله؛ لا يزال يفتح، يأخذ التركيز والمفاتيح. انتقل إليه: فقط حلقة التركيز تشير إلى أنه زر.'
     buttons:
       title: 'الأزرار الافتراضية'
@@ -82,7 +82,7 @@ bn:
     label: 'একটি বোতাম যা শুধুমাত্র তার শব্দ'
   section:
     bare:
-      title: 'বেয়ার বোতাম'
+      title: 'পটভূমিহীন বোতাম'
       description: 'button--bare: যেকোনো কিছু যা একটি বোতাম তৈরি করে — একটি মার্কার, একটি ছবি — নিজের চেহারা বজায় রেখে। এর চারপাশে কিছু আঁকা নেই; এটি এখনও খুলে, ফোকাস এবং কী গ্রহণ করে। এতে ট্যাব দিন: শুধুমাত্র ফোকাস রিং বলে যে এটি একটি বোতাম।'
     buttons:
       title: 'ডিফল্ট বাটন'
@@ -117,7 +117,7 @@ de:
     label: 'Ein Button, der nur sein Wort ist'
   section:
     bare:
-      title: 'Bare Buttons'
+      title: 'Schlichte Buttons'
       description: 'button--bare: alles, was zu einem Button gemacht wird – ein Marker, ein Bild – behält sein eigenes Aussehen. Nichts ist darum gezeichnet; es öffnet sich trotzdem, erhält den Fokus und die Tasten. Mit Tab darauf: nur der Fokusring sagt, dass es ein Button ist.'
     buttons:
       title: Standard-Schaltflächen
@@ -152,7 +152,7 @@ es:
     label: 'Un botón que es solo su palabra'
   section:
     bare:
-      title: 'Botones bare'
+      title: 'Botones sin fondo'
       description: 'button--bare: cualquier cosa convertida en botón — un marcador, una imagen — manteniendo su propio aspecto. Nada dibujado alrededor; aun así se abre, toma el foco y las teclas. Tabúlalo: solo el anillo de enfoque indica que es un botón.'
     buttons:
       title: 'Botones predeterminados'
@@ -222,7 +222,7 @@ fi:
     label: 'Nappi, joka on vain sanansa'
   section:
     bare:
-      title: 'Alastomat painikkeet'
+      title: 'Pelkistetyt painikkeet'
       description: 'button--bare: mikä tahansa, joka on tehty painikkeeksi — merkki, kuva — säilyttäen oman ilmeensä. Ei mitään piirrettynä ympärille; se avautuu silti, ottaa huomion ja näppäimet. Siirry siihen: vain fokusrengas kertoo, että se on painike.'
     buttons:
       title: Oletuspainikkeet
@@ -257,7 +257,7 @@ fr:
     label: Un bouton qui n'est que son mot
   section:
     bare:
-      title: Boutons nus
+      title: 'Boutons sans fond'
       description: "button--bare : n'importe quoi rendu cliquable — un marqueur, une image — en gardant son apparence. Rien n'est dessiné autour ; il ouvre, prend le focus et les touches. Au clavier, seul l'anneau de focus montre que c'est un bouton."
     buttons:
       title: 'Boutons par défaut'
@@ -327,7 +327,7 @@ hi:
     label: 'एक बटन जो केवल इसका शब्द है'
   section:
     bare:
-      title: 'नंगे बटन'
+      title: 'बिना पृष्ठभूमि वाले बटन'
       description: 'button--bare: कुछ भी जिसे बटन बनाया गया है — एक मार्कर, एक चित्र — अपनी ही रूप-रेखा बनाए रखते हुए। इसके चारों ओर कुछ नहीं खींचा गया; यह फिर भी खुलता है, ध्यान केंद्रित करता है और कीज लेता है। इसकी ओर टैब करें: केवल ध्यान रिंग कहती है कि यह एक बटन है।'
     buttons:
       title: 'डिफ़ॉल्ट बटन'
@@ -362,7 +362,7 @@ id:
     label: 'Tombol yang hanya berupa kata'
   section:
     bare:
-      title: 'Tombol bare'
+      title: 'Tombol polos'
       description: 'button--bare: apapun yang dijadikan tombol — sebuah penanda, gambar — tetap mempertahankan penampilannya sendiri. Tidak ada yang digambar di sekelilingnya; tetap dapat dibuka, mengambil fokus dan kunci. Tab ke sana: hanya cincin fokus yang menunjukkan itu adalah tombol.'
     buttons:
       title: 'Tombol Default'
@@ -432,7 +432,7 @@ ja:
     label: 単語だけのボタン
   section:
     bare:
-      title: ベアボタン
+      title: '背景なしボタン'
       description: 'button--bare: ボタンにされたもの — マーカーや画像 — 自分の見た目を保ったまま。周囲に何も描かれていないが、開くことができ、フォーカスやキーを受け取る。タブで移動: フォーカスリングだけがボタンであることを示す。'
     buttons:
       title: デフォルトボタン
@@ -467,7 +467,7 @@ ko:
     label: '단어만 있는 버튼'
   section:
     bare:
-      title: '베어 버튼'
+      title: '배경 없는 버튼'
       description: 'button--bare: 버튼으로 만든 모든 것 — 마커, 이미지 — 자신의 모양을 유지합니다. 주변에 아무 것도 그려지지 않으며 여전히 열리고, 포커스를 받고, 키를 입력합니다. 탭으로 이동: 포커스 링만 버튼임을 나타냅니다.'
     buttons:
       title: '기본 버튼'
@@ -502,7 +502,7 @@ nl:
     label: 'Een knop die alleen zijn woord is'
   section:
     bare:
-      title: 'Blote knoppen'
+      title: 'Knoppen zonder achtergrond'
       description: 'button--bare: alles wat een knop is — een marker, een afbeelding — behoudt zijn eigen uitstraling. Niets eromheen getekend; het opent nog steeds, krijgt de focus en de toetsen. Tab erheen: alleen de focusring zegt dat het een knop is.'
     buttons:
       title: 'Standaard knoppen'
@@ -642,7 +642,7 @@ th:
     label: ปุ่มที่มีแค่คำของมัน
   section:
     bare:
-      title: ปุ่มแบบเปลือย
+      title: 'ปุ่มไม่มีพื้นหลัง'
       description: 'button--bare: อะไรก็ตามที่ทำให้เป็นปุ่ม — เครื่องหมาย, รูปภาพ — ยังคงรูปลักษณ์ของมันเอง ไม่มีกรอบรอบ ๆ; มันยังเปิดได้, ดึงความสนใจและคีย์ต่าง ๆ เข้ามา. ใช้ Tab ไปที่มัน: แค่วงแหวนโฟกัสบอกว่ามันคือปุ่ม.'
     buttons:
       title: ปุ่มเริ่มต้น
@@ -747,7 +747,7 @@ vi:
     label: 'Một nút chỉ có từ của nó'
   section:
     bare:
-      title: 'Nút trần'
+      title: 'Nút không nền'
       description: 'button--bare: bất cứ thứ gì được làm thành nút — một dấu hiệu, một hình ảnh — giữ nguyên hình thức của nó. Không có gì được vẽ xung quanh; nó vẫn mở, lấy tiêu điểm và các phím. Nhấn Tab vào nó: chỉ có vòng tiêu điểm cho biết đó là một nút.'
     buttons:
       title: 'Nút mặc định'
@@ -782,7 +782,7 @@ zh:
     label: 只有文字的按钮
   section:
     bare:
-      title: 裸按钮
+      title: '无背景按钮'
       description: 'button--bare: 任何被制作成按钮的东西 - 一个标记，一个图像 - 保持其自身的外观。没有任何边框；它仍然可以打开，获取焦点和按键。Tab键切换到它时：只有焦点环表示它是一个按钮。'
     buttons:
       title: 默认按钮

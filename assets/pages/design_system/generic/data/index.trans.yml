@@ -235,7 +235,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Données
-  document_title: 'Tables, explorateurs de fichiers et listes en direct — Système de design'
+  document_title: 'Tables, explorateurs de fichiers et listes en direct — Design system'
   page_description: 'Les collections dans le design system : explorateurs de fichiers, tableaux rendus côté serveur ou paginés aux cellules typées, et listes qui suivent les données en direct.'
   page_icon: 'ph:bold/list-bullets'
   intro: "Des formes qui prennent une collection et la rendent. Ce qui les distingue, c'est la quantité de chaque enregistrement que le lecteur peut voir et ce qu'il peut en faire une fois qu'il l'a vu."
@@ -244,10 +244,10 @@ fr:
       title: Fichiers
       description: "Un explorateur de fichiers de la largeur d'une page, alimenté par un chargeur, et un dossier dessiné par le serveur."
     tables:
-      title: Tables
+      title: 'Tableaux'
       description: 'Lignes et colonnes, rendues par le serveur ou paginées par le navigateur, avec des cellules typées — liens, actions, icônes et dates qui continuent de compter.'
     live:
-      title: Suivre
+      title: 'Mises à jour en direct'
       description: "Les trois façons dont une collection sait que ce qu'elle montre a changé — un événement d'application, une source en direct ou un sondage — et à quoi chacune d'elles sert."
     lists:
       title: Listes
@@ -289,7 +289,7 @@ he:
       title: מאפיינים
       description: 'מפתח וערך, עבור הקלטה אחת ולא רבות — לוח הפרטים של דבר שכבר נבחר.'
     bars:
-      title: שורות
+      title: 'עמודות'
       description: 'הקלטה אחת בשם בשורה אחת: אייקון, כותרת, מה שמסווג אותה. השורה שבה תוצג תוצאת חיפוש, חבר או קובץ.'
     tree:
       title: עץ
@@ -355,7 +355,7 @@ id:
       title: Properti
       description: 'Kunci dan nilai, untuk satu catatan daripada banyak — panel detail dari suatu hal yang sudah dipilih.'
     bars:
-      title: Bar
+      title: 'Batang'
       description: 'Satu catatan yang disebut dalam satu baris: sebuah ikon, sebuah judul, apa yang memenuhi syaratnya. Baris hasil pencarian, anggota, atau berkas yang dirender.'
     tree:
       title: Pohon
@@ -487,7 +487,7 @@ nl:
       title: Eigenschappen
       description: 'Sleutel en waarde, voor één record in plaats van veel — het detailpaneel van een al gekozen ding.'
     bars:
-      title: Balken
+      title: 'Staven'
       description: 'Één record genoemd in één regel: een pictogram, een titel, wat het kwalificeert. De rij waarin een zoekresultaat, een lid of een bestand wordt weergegeven.'
     tree:
       title: Boom
@@ -520,7 +520,7 @@ pl:
       title: Właściwości
       description: 'Klucz i wartość, dla jednego rekordu, a nie wielu — panel szczegółów wybranego elementu.'
     bars:
-      title: Belki
+      title: 'Słupki'
       description: 'Jeden rekord nazwany w pojedynczej linii: ikona, tytuł, co go kwalifikuje. Wiersz, w którym wynik wyszukiwania, członek lub plik jest renderowany.'
     tree:
       title: Drzewo
@@ -586,7 +586,7 @@ ru:
       title: Свойства
       description: 'Ключ и значение, для одной записи, а не многих — панель деталей уже выбранного объекта.'
     bars:
-      title: Панели
+      title: 'Столбцы'
       description: 'Одна запись, представленная в одной строке: иконка, заголовок, что ее характеризует. Строка, в которой отображается результат поиска, участник или файл.'
     tree:
       title: Дерево
@@ -751,7 +751,7 @@ zh:
       title: 属性
       description: 键和值，针对单个记录而非多个——已选择事物的详细面板。
     bars:
-      title: 条形
+      title: '条形图'
       description: 一条记录以单行命名：一个图标、一个标题、一个资格说明。搜索结果、成员或文件呈现的行。
     tree:
       title: 树

@@ -31,7 +31,7 @@ ar:
   intro: 'مقياسين وقاعدة واحدة. الشكل لا يكتب طولًا: إنه يقضي خطوة، وهذا ما يمنع عنصرين مكتوبين على بعد عام من أن يكونا خارج النغمة بمقدار بكسل.'
   section:
     space:
-      title: 'خطوات التباعد'
+      title: 'مستويات التباعد'
       description: 'تسع خطوات، من خط رفيع إلى هامش الصفحة. يأتي التباعد، الفجوات والهامش من هنا — القيمة بين خطوتين هي قيمة لم يتم تحديدها بعد.'
     size:
       title: الأحجام
@@ -53,7 +53,7 @@ bn:
   intro: 'দুটি স্কেল এবং একটি নিয়ম। একটি আকার কখনো একটি দৈর্ঘ্য লেখে না: এটি একটি পদক্ষেপ ব্যয় করে, যা দুটি উপাদানকে একটি বছরের ব্যবধানে লিখিত থাকার জন্য দুই পিক্সেলের রিদম থেকে দূরে রাখে।'
   section:
     space:
-      title: 'স্পেসিং পদক্ষেপ'
+      title: 'ব্যবধানের স্তর'
       description: 'নয়টি পদক্ষেপ, একটি চুলের রেখা থেকে একটি পৃষ্ঠা মার্জিন। প্যাডিং, ফাঁক এবং মার্জিন সব এখান থেকে আসে — দুটি পদক্ষেপের মধ্যে একটি মান একটি সিদ্ধান্ত নেওয়া হয়নি।'
     size:
       title: আকার
@@ -75,7 +75,7 @@ de:
   intro: 'Zwei Skalen und eine Regel. Eine Form schreibt niemals eine Länge: Sie verbraucht einen Schritt, was verhindert, dass zwei Komponenten, die ein Jahr auseinander geschrieben sind, zwei Pixel aus dem Rhythmus geraten.'
   section:
     space:
-      title: Abstandsschritte
+      title: 'Abstandsstufen'
       description: 'Neun Schritte, von einer feinen Linie bis zu einem Seitenrand. Innenabstände, Lücken und Ränder stammen alle hierher – ein Wert zwischen zwei Schritten ist ein Wert, der noch nicht entschieden wurde.'
     size:
       title: Größen
@@ -97,7 +97,7 @@ es:
   intro: 'Dos escalas y una regla. Una forma nunca escribe una longitud: da un paso, que es lo que evita que dos componentes escritos a un año de distancia estén a dos píxeles de desincronización.'
   section:
     space:
-      title: 'Pasos de espaciado'
+      title: 'Niveles de espaciado'
       description: 'Nueve pasos, desde una línea delgada hasta un margen de página. El relleno, los espacios y los márgenes provienen de aquí: un valor entre dos pasos es un valor que no ha sido decidido.'
     size:
       title: Tamaños
@@ -119,7 +119,7 @@ fa:
   intro: 'دو مقیاس و یک قاعده. یک شکل هرگز یک طول را نمی‌نویسد: بلکه یک گام را طی می‌کند، که باعث می‌شود دو مؤلفه‌ای که یک سال فاصله دارند، دو پیکسل از ریتم خارج نشوند.'
   section:
     space:
-      title: 'گام‌های فاصله'
+      title: 'پله‌های فاصله‌گذاری'
       description: 'نه گام، از یک خط باریک تا حاشیه صفحه. فضای خالی، فاصله‌ها و حاشیه‌ها همه از اینجا می‌آیند — یک مقدار بین دو گام، مقداری است که هنوز تصمیم‌گیری نشده است.'
     size:
       title: اندازه‌ها
@@ -141,7 +141,7 @@ fi:
   intro: 'Kaksi skaalaa ja yksi sääntö. Muoto ei koskaan kirjoita pituutta: se vie askeleen, mikä pitää kaksi komponenttia, jotka on kirjoitettu vuoden välein, kahden pikselin rytmissä.'
   section:
     space:
-      title: Väliaskelmat
+      title: 'Välistyksen portaat'
       description: 'Yhdeksän askelta, hiusviivasta sivun marginaaliin. Tyhjät tilat, väli ja marginaalit kaikki tulevat täältä — arvo kahden askeleen välillä on arvo, jota ei ole päätetty.'
     size:
       title: Koot
@@ -163,7 +163,7 @@ fr:
   intro: "Deux échelles et une règle. Une forme n'écrit jamais une longueur : elle dépense un pas, ce qui empêche deux composants écrits à un an d'intervalle d'être décalés de deux pixels."
   section:
     space:
-      title: "Étapes d'espacement"
+      title: 'Paliers d''espacement'
       description: "Neuf étapes, d'une ligne fine à une marge de page. Les espacements, les interstices et les marges proviennent tous d'ici — une valeur entre deux étapes est une valeur qui n'a pas été décidée."
     size:
       title: Tailles
@@ -185,7 +185,7 @@ he:
   intro: 'שתי סקאלות וכלל אחד. צורה אף פעם לא כותבת אורך: היא משקיעה צעד, שהוא מה ששומר על כך ששני רכיבים כתובים שנה אחת זה מזה לא יהיו שני פיקסלים מחוץ לקצב.'
   section:
     space:
-      title: 'צעדי ריווח'
+      title: 'דרגות ריווח'
       description: 'תשעה צעדים, מקו דק ועד שולי עמוד. ריפוד, רווחים ושולים כולם מגיעים מכאן — ערך בין שני צעדים הוא ערך שלא הוחלט עליו.'
     size:
       title: גדלים
@@ -207,7 +207,7 @@ hi:
   intro: 'दो पैमाने और एक नियम। एक आकृति कभी भी लंबाई नहीं लिखती: यह एक कदम बिताती है, जो दो घटकों को एक वर्ष के अंतर से लिखे जाने से दो पिक्सल के लय से बाहर रखने का काम करती है।'
   section:
     space:
-      title: 'स्पेसिंग स्टेप्स'
+      title: 'स्पेसिंग स्तर'
       description: 'नौ कदम, एक बाल रेखा से लेकर एक पृष्ठ मार्जिन तक। पैडिंग, गैप और मार्जिन सभी यहां से आते हैं - दो कदमों के बीच का मान एक ऐसा मान है जो तय नहीं किया गया है।'
     size:
       title: आकार
@@ -229,7 +229,7 @@ id:
   intro: 'Dua skala dan satu aturan. Sebuah bentuk tidak menuliskan panjang: ia melewati satu langkah, yang menjaga agar dua komponen yang ditulis satu tahun terpisah tidak menjadi dua piksel keluar dari ritme.'
   section:
     space:
-      title: 'Langkah jarak'
+      title: 'Tingkat jarak'
       description: 'Sembilan langkah, dari garis tipis hingga margin halaman. Padding, celah, dan margin semuanya berasal dari sini — sebuah nilai antara dua langkah adalah nilai yang belum ditentukan.'
     size:
       title: Ukuran
@@ -251,7 +251,7 @@ it:
   intro: 'Due scale e una regola. Una forma non scrive mai una lunghezza: consuma un passo, che è ciò che impedisce a due componenti scritti a un anno di distanza di essere due pixel fuori ritmo.'
   section:
     space:
-      title: 'Passi di spaziatura'
+      title: 'Livelli di spaziatura'
       description: 'Nove passi, da una linea sottile a un margine di pagina. Padding, spazi e margini derivano tutti da qui: un valore tra due passi è un valore che non è stato deciso.'
     size:
       title: Dimensioni
@@ -273,7 +273,7 @@ ja:
   intro: 二つのスケールと一つのルール。形は長さを書かず、ステップを費やします。これにより、二つのコンポーネントが一年離れていても、二ピクセルのリズムのずれが生じることはありません。
   section:
     space:
-      title: 間隔のステップ
+      title: '余白の段階'
       description: 'ヘアラインからページのマージンまでの九つのステップ。パディング、ギャップ、マージンはすべてここから生まれます — 二つのステップの間の値は、未決定の値です。'
     size:
       title: サイズ
@@ -317,7 +317,7 @@ nl:
   intro: 'Twee schalen en één regel. Een vorm schrijft nooit een lengte: het neemt een stap, wat ervoor zorgt dat twee componenten die een jaar uit elkaar staan, niet twee pixels uit de maat zijn.'
   section:
     space:
-      title: Ruimtestappen
+      title: 'Afstandsniveaus'
       description: 'Negen stappen, van een haarlijn tot een paginamarge. Opvulling, openingen en marges komen hier vandaan — een waarde tussen twee stappen is een waarde die nog niet is vastgesteld.'
     size:
       title: Maten
@@ -339,7 +339,7 @@ pl:
   intro: 'Dwie skale i jedna zasada. Kształt nigdy nie zapisuje długości: wykonuje krok, co sprawia, że dwa komponenty oddzielone rokiem nie są oddzielone o dwa piksele.'
   section:
     space:
-      title: 'Kroki odstępu'
+      title: 'Poziomy odstępów'
       description: 'Dziewięć kroków, od cienkiej linii do marginesu strony. Wypełnienia, przerwy i marginesy pochodzą stąd — wartość między dwoma krokami to wartość, która nie została określona.'
     size:
       title: Rozmiary
@@ -361,7 +361,7 @@ pt_BR:
   intro: 'Duas escalas e uma regra. Uma forma nunca escreve um comprimento: ela ocupa um espaço, que é o que mantém dois componentes escritos a um ano de distância de estarem dois pixels fora de ritmo.'
   section:
     space:
-      title: 'Passos de espaçamento'
+      title: 'Níveis de espaçamento'
       description: 'Nove passos, de uma linha fina a uma margem de página. Espaçamento, lacunas e margens vêm de aqui — um valor entre dois passos é um valor que não foi decidido.'
     size:
       title: Tamanhos
@@ -383,7 +383,7 @@ ru:
   intro: 'Две шкалы и одно правило. Форма никогда не указывает длину: она проходит шаг, что и позволяет двум компонентам, написанным с разницей в год, не расходиться на два пикселя.'
   section:
     space:
-      title: 'Шаги расстояния'
+      title: 'Шкала отступов'
       description: 'Девять шагов, от тонкой линии до поля страницы. Отступы, промежутки и поля все происходят отсюда — значение между двумя шагами это значение, которое еще не было определено.'
     size:
       title: Размеры
@@ -405,7 +405,7 @@ th:
   intro: 'สองมาตราส่วนและกฎหนึ่งข้อ รูปร่างไม่เคยกำหนดความยาว: มันใช้ช่วงหนึ่ง ซึ่งเป็นสิ่งที่ทำให้สองส่วนที่เขียนห่างกันหนึ่งปีไม่ออกจากจังหวะกันสองพิกเซล'
   section:
     space:
-      title: ขั้นตอนการเว้นระยะ
+      title: 'ระดับระยะห่าง'
       description: 'เก้าขั้นตอน ตั้งแต่เส้นผมจนถึงขอบหน้ากระดาษ การเว้นระยะ, ช่องว่าง และขอบทั้งหมดมาจากที่นี่ — ค่าระหว่างสองขั้นตอนคือค่าที่ยังไม่ได้ตัดสินใจ'
     size:
       title: ขนาด
@@ -427,7 +427,7 @@ tr:
   intro: 'İki ölçek ve bir kural. Bir şekil uzunluk yazmaz: bir adım harcar, bu da iki bileşeni bir yıl arayla yazılı tutan şeydir, iki piksel ritim dışı olmasını engeller.'
   section:
     space:
-      title: 'Boşluk adımları'
+      title: 'Boşluk kademeleri'
       description: 'Bir saç telinden bir sayfa kenarına kadar dokuz adım. Dolgu, boşluklar ve kenar boşlukları buradan gelir — iki adım arasındaki değer, henüz belirlenmemiş bir değerdir.'
     size:
       title: Boyutlar
@@ -449,7 +449,7 @@ ur:
   intro: 'دو پیمانے اور ایک قاعدہ۔ ایک شکل کبھی بھی لمبائی نہیں لکھتی: یہ ایک قدم صرف کرتی ہے، جو دو اجزاء کو ایک سال کے فاصلے پر لکھے جانے سے بچاتا ہے اور انہیں دو پکسلز کے تال سے باہر نہیں ہونے دیتا۔'
   section:
     space:
-      title: 'فاصلہ کے مراحل'
+      title: 'فاصلے کے درجے'
       description: 'نو مراحل، ایک بال کی طرح سے لے کر صفحے کے کنارے تک۔ پیڈنگ، خلا اور مارجن سب یہاں سے آتے ہیں — دو مراحل کے درمیان کی قیمت ایک قیمت ہے جو طے نہیں کی گئی۔'
     size:
       title: سائز
@@ -471,7 +471,7 @@ vi:
   intro: 'Hai thang đo và một quy tắc. Một hình dạng không bao giờ viết ra độ dài: nó trải qua một bước, điều này giữ cho hai thành phần viết cách nhau một năm không bị lệch khỏi nhịp điệu hai pixel.'
   section:
     space:
-      title: 'Các bước khoảng cách'
+      title: 'Các mức khoảng cách'
       description: 'Chín bước, từ một đường mảnh đến lề trang. Đệm, khoảng trống và lề đều bắt nguồn từ đây — một giá trị giữa hai bước là một giá trị chưa được quyết định.'
     size:
       title: 'Kích thước'
@@ -493,7 +493,7 @@ zh:
   intro: 两个刻度和一个规则。形状从不书写长度：它花费一个步骤，这就是使两个相隔一年书写的组件不至于错位两个像素的原因。
   section:
     space:
-      title: 间距步骤
+      title: '间距等级'
       description: 九个步骤，从细线到页面边距。填充、间隙和边距都来源于此——在两个步骤之间的值是一个尚未决定的值。
     size:
       title: 尺寸

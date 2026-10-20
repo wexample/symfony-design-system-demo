@@ -36,7 +36,7 @@ en:
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: حوار
+  page_title: 'مربع حوار'
   page_icon: 'ph:bold/app-window'
   section:
     persist:
@@ -240,36 +240,36 @@ fi:
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Dialogue
+  page_title: 'Boîte de dialogue'
   page_icon: 'ph:bold/app-window'
   section:
     persist:
-      description: "Modal avec onglets. Ouvrez-le, changez d'onglet, appuyez sur F5 — le modal se rouvre sur le même onglet."
-      button: 'Ouvrir le modal'
+      description: 'Modal avec onglets. Ouvrez-le, changez d''onglet, appuyez sur F5 — la modale se rouvre sur le même onglet.'
+      button: 'Ouvrir la modale'
     simple:
-      description: 'Afficher un modal simple. Vous pouvez le fermer avec Échap ou en cliquant en dehors du modal.'
-      button: 'Ouvrir le modal'
+      description: 'Afficher une modale simple. Vous pouvez le fermer avec Échap ou en cliquant en dehors de la modale.'
+      button: 'Ouvrir la modale'
     components:
-      description: 'Afficher un modal avec des composants et un déclencheur de toast. Échap est désactivé, mais vous pouvez toujours cliquer en dehors pour le fermer.'
-      button: 'Ouvrir le modal'
+      description: 'Afficher une modale avec des composants et un déclencheur de toast. Échap est désactivé, mais vous pouvez toujours cliquer en dehors pour le fermer.'
+      button: 'Ouvrir la modale'
     medium:
-      description: 'Afficher un modal avec un texte de longueur moyenne. Cliquer en dehors ne le fermera pas.'
-      button: 'Ouvrir le modal'
+      description: 'Afficher une modale avec un texte de longueur moyenne. Cliquer en dehors ne le fermera pas.'
+      button: 'Ouvrir la modale'
     long:
-      description: 'Afficher un modal avec un long texte. Il demande une confirmation avant de se fermer.'
-      button: 'Ouvrir le modal'
+      description: 'Afficher une modale avec un long texte. Il demande une confirmation avant de se fermer.'
+      button: 'Ouvrir la modale'
     form_rendered:
-      description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un modal. Échap et le clic extérieur sont désactivés, et il demande avant de se fermer si le formulaire a été modifié."
-      button: 'Ouvrir le modal'
+      description: 'Afficher un formulaire de démonstration rendu à l''intérieur d''une modale. Échap et le clic extérieur sont désactivés, et il demande avant de se fermer si le formulaire a été modifié.'
+      button: 'Ouvrir la modale'
     form_ajax:
-      description: "Afficher un formulaire de démonstration rendu à l'intérieur d'un modal utilisant AJAX. Échap et le clic extérieur sont désactivés, et il demande avant de se fermer si le formulaire a été modifié."
-      button: 'Ouvrir le modal'
+      description: 'Afficher un formulaire de démonstration rendu à l''intérieur d''une modale utilisant AJAX. Échap et le clic extérieur sont désactivés, et il demande avant de se fermer si le formulaire a été modifié.'
+      button: 'Ouvrir la modale'
     form_page_answer:
       description: "Un formulaire dont la réponse est une page : le code émis revient dans la modale, affiché une seule fois."
       button: Ouvrir la modale
     recursive:
       description: "Ouvrir une page de dialogue à l'intérieur d'un autre dialogue — choisir modal ou panneau."
-      button_modal: 'Ouvrir en modal'
+      button_modal: 'Ouvrir en modale'
       button_panel: 'Ouvrir en panneau'
 
 he:
@@ -308,7 +308,7 @@ he:
 
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: संवाद
+  page_title: 'डायलॉग बॉक्स'
   page_icon: 'ph:bold/app-window'
   section:
     persist:

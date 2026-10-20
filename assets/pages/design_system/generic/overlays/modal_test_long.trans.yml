@@ -55,12 +55,12 @@ fi:
         message: 'Oletko varma, että haluat sulkea tämän pitkän tekstin modalin?'
 
 fr:
-  page_title: 'Test modal - long'
-  intro: 'Ce modal utilise un long texte.'
+  page_title: 'Test de modale - long'
+  intro: 'Cette modale utilise un long texte.'
   frontend:
     embed:
       closing_confirmation:
-        message: 'Êtes-vous sûr de vouloir fermer ce modal avec un long texte ?'
+        message: 'Êtes-vous sûr de vouloir fermer cette modale avec un long texte ?'
 
 he:
   page_title: 'מבחן מודל - ארוך'

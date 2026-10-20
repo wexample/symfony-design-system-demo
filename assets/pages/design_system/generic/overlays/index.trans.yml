@@ -100,7 +100,7 @@ de:
       title: Bestätigen
       description: 'Die eine Frage, die eine destruktive Aktion wert ist, und das Versprechen, dass nichts passiert, bis sie beantwortet wird.'
     backdrop:
-      title: Hintergrund
+      title: 'Abdunkelung'
       description: 'Die Schicht, auf der all diese gestapelt sind, für sich allein: was sie öffnet, was sie schließt und in welcher Reihenfolge.'
     tooltip:
       title: Tooltip
@@ -127,7 +127,7 @@ es:
       title: Confirmar
       description: 'La única pregunta que vale una acción destructiva, y la promesa de que nada sucede hasta que se responda.'
     backdrop:
-      title: Fondo
+      title: 'Fondo atenuado'
       description: 'La capa sobre la que se apilan todas estas, por sí sola: lo que la abre, lo que la cierra, y en qué orden.'
     tooltip:
       title: Tooltip
@@ -165,7 +165,7 @@ fa:
 
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Ylitykset
+  page_title: 'Peittokerrokset'
   document_title: 'Modaalit, paneelit ja vahvistukset — Suunnittelujärjestelmä'
   page_description: 'Sivun päälle avautuvat pinnat: modaalit, sivupaneelit ja tuhoavien toimintojen vahvistukset, jokaisella oma tapansa poistua, livenä.'
   page_icon: 'ph:bold/stack'
@@ -193,13 +193,13 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Superpositions
-  document_title: 'Modales, panneaux et confirmations — Système de design'
+  document_title: 'Modales, panneaux et confirmations — Design system'
   page_description: "Les surfaces qui s'ouvrent par-dessus la page : modales, panneaux latéraux et confirmations des actions destructrices, chacune avec sa façon d'en sortir, en direct."
   page_icon: 'ph:bold/stack'
   intro: "Surfaces qui s'ouvrent sur la page au lieu de à côté. Elles diffèrent par la quantité d'espace qu'elles occupent — un coin, un côté, le milieu — et par le coût que cela représente pour le lecteur de les quitter."
   page:
     modal:
-      title: Modal
+      title: 'Modale'
       description: "Le centre de l'écran, et la page derrière elle mise en attente : pour un choix qui doit être fait avant tout autre."
     panel:
       title: Panneau
@@ -208,7 +208,7 @@ fr:
       title: Confirmer
       description: "La seule question qu'une action destructive vaut, et la promesse que rien ne se passe tant qu'elle n'est pas répondue."
     backdrop:
-      title: Fond
+      title: 'Voile'
       description: "La couche sur laquelle tout cela est empilé, à part : ce qui l'ouvre, ce qui le ferme, et dans quel ordre."
     tooltip:
       title: Info-bulle
@@ -238,7 +238,7 @@ he:
       title: רקע
       description: 'השכבה שעליה כל אלה stacked, בפני עצמה: מה פותח אותה, מה סוגר אותה, ובאיזו סדר.'
     tooltip:
-      title: הסבר
+      title: 'תיבת הסבר'
       description: 'כמה מילים ליד מה שהסמן או הפוקוס נמצאים עליו, מופנים מהקצוות של החלון.'
     tour:
       title: סיור
@@ -316,7 +316,7 @@ it:
       title: Conferma
       description: "L'unica domanda che vale un'azione distruttiva, e la promessa che non succede nulla fino a quando non viene risposta."
     backdrop:
-      title: Sfondo
+      title: 'Sfondo oscurato'
       description: 'Il livello su cui sono sovrapposti tutti questi elementi, da solo: cosa lo apre, cosa lo chiude e in quale ordine.'
     tooltip:
       title: Tooltip
@@ -451,7 +451,7 @@ pt_BR:
       title: Confirmar
       description: 'A única pergunta que uma ação destrutiva vale, e a promessa de que nada acontece até que seja respondida.'
     backdrop:
-      title: Fundo
+      title: 'Fundo escurecido'
       description: 'A camada sobre a qual todas essas estão empilhadas, por si só: o que a abre, o que a fecha, e em que ordem.'
     tooltip:
       title: Dica
@@ -478,7 +478,7 @@ ru:
       title: Подтвердить
       description: 'Единственный вопрос, который стоит разрушительного действия, и обещание, что ничего не произойдет, пока на него не ответят.'
     backdrop:
-      title: 'Задний фон'
+      title: 'Затемнение'
       description: 'Слой, на котором все это накладывается, сам по себе: что его открывает, что его закрывает и в каком порядке.'
     tooltip:
       title: Подсказка
@@ -508,7 +508,7 @@ th:
       title: แบ็คดรอป
       description: 'ชั้นที่ทั้งหมดนี้ซ้อนทับกันอยู่, ด้วยตัวมันเอง: อะไรเปิดมัน, อะไรปิดมัน, และลำดับที่เป็น.'
     tooltip:
-      title: คำอธิบายเล็กน้อย
+      title: 'ทูลทิป'
       description: 'คำไม่กี่คำข้างสิ่งที่ตัวชี้หรือจุดโฟกัสอยู่, หันออกจากขอบหน้าต่าง.'
     tour:
       title: ทัวร์
@@ -516,7 +516,7 @@ th:
 
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Açılımlar
+  page_title: 'Katmanlar'
   document_title: 'Modallar, paneller ve onaylar — Tasarım sistemi'
   page_description: 'Sayfanın üzerinde açılan yüzeyler: modallar, yan paneller ve yıkıcı işlemler için onaylar, her birinin kendi çıkış yolu var, canlı olarak.'
   page_icon: 'ph:bold/stack'
@@ -535,7 +535,7 @@ tr:
       title: 'Arka Plan'
       description: 'Bunların hepsinin üst üste yığıldığı katman, kendi başına: neyin açıldığı, neyin kapandığı ve hangi sırayla.'
     tooltip:
-      title: 'Açıklama Baloncuğu'
+      title: 'Araç ipucu'
       description: 'İmlecin veya odaklanılan şeyin yanında, pencerenin kenarlarından uzaklaşmış birkaç kelime.'
     tour:
       title: Tur

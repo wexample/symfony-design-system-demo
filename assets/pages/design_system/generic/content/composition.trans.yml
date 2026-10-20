@@ -111,7 +111,7 @@ ar:
     media:
       title: 'وسائط مع نص'
     dropcap:
-      title: 'حرف كبير'
+      title: 'حرف استهلالي'
     meta_bar:
       title: 'شريط بيانات'
       stack_note: 'يمكن أن يتجمع شريط ثانٍ أسفل لتجميع فئة مختلفة من البيانات الوصفية - هنا، التصنيف والتحليلات.'
@@ -271,7 +271,7 @@ de:
     media:
       title: 'Medien mit Text'
     dropcap:
-      title: 'Erster Buchstabe'
+      title: 'Initiale'
     meta_bar:
       title: Meta-Leiste
       stack_note: 'Eine zweite Leiste kann darunter gestapelt werden, um eine andere Kategorie von Metadaten zu gruppieren — hier, Taxonomie und Analytik.'
@@ -351,7 +351,7 @@ es:
     media:
       title: 'Medios con texto'
     dropcap:
-      title: 'Inicial en mayúscula'
+      title: 'Letra capital'
     meta_bar:
       title: 'Barra meta'
       stack_note: 'Una segunda barra puede apilarse debajo para agrupar una categoría diferente de metadatos — aquí, taxonomía y analítica.'
@@ -431,7 +431,7 @@ fa:
     media:
       title: 'رسانه با متن'
     dropcap:
-      title: 'سرصفحه بزرگ'
+      title: 'حرف آغازین بزرگ'
     meta_bar:
       title: 'نوار متا'
       stack_note: 'یک نوار دوم می‌تواند زیرین قرار گیرد تا دسته‌بندی متفاوتی از متاداده را گروه‌بندی کند — در اینجا، طبقه‌بندی و تحلیل.'
@@ -592,7 +592,7 @@ fr:
     media:
       title: 'Médias avec texte'
     dropcap:
-      title: 'Lettre capitulaire'
+      title: 'Lettrine'
     meta_bar:
       title: 'Barre méta'
       stack_note: "Une seconde barre peut s'empiler en dessous pour regrouper une catégorie différente de métadonnées — ici, taxonomie et analytique."
@@ -672,7 +672,7 @@ he:
     media:
       title: 'מדיה עם טקסט'
     dropcap:
-      title: 'אות גדולה'
+      title: 'אות פתיחה מוגדלת'
     meta_bar:
       title: 'שורת מטה'
       stack_note: 'שורה שנייה יכולה להיערם מתחת כדי לקבץ קטגוריה שונה של מטה-דאטה — כאן, טקסונומיה ואנליטיקה.'
@@ -912,7 +912,7 @@ it:
     media:
       title: 'Media con testo'
     dropcap:
-      title: 'Iniziale in maiuscolo'
+      title: 'Capolettera'
     meta_bar:
       title: 'Barra meta'
       stack_note: 'Una seconda barra può sovrapporsi per raggruppare una categoria diversa di metadati — qui, tassonomia e analisi.'
@@ -1152,7 +1152,7 @@ nl:
     media:
       title: 'Media met tekst'
     dropcap:
-      title: Beginletter
+      title: 'Initiaal'
     meta_bar:
       title: 'Meta balk'
       stack_note: 'Een tweede balk kan eronder gestapeld worden om een andere categorie metadata te groeperen — hier, taxonomie en analytics.'
@@ -1232,7 +1232,7 @@ pl:
     media:
       title: 'Media z tekstem'
     dropcap:
-      title: 'Wysoka litera'
+      title: 'Inicjał'
     meta_bar:
       title: 'Pasek metadanych'
       stack_note: 'Drugi pasek może być umieszczony poniżej, aby zgrupować inną kategorię metadanych — tutaj, taksonomia i analityka.'
@@ -1312,7 +1312,7 @@ pt_BR:
     media:
       title: 'Mídia com texto'
     dropcap:
-      title: 'Inicial em destaque'
+      title: 'Capitular'
     meta_bar:
       title: 'Barra de metadados'
       stack_note: 'Uma segunda barra pode ser empilhada abaixo para agrupar uma categoria diferente de metadados — aqui, taxonomia e análises.'
@@ -1392,7 +1392,7 @@ ru:
     media:
       title: 'Медиа с текстом'
     dropcap:
-      title: 'Первый заглавный символ'
+      title: 'Буквица'
     meta_bar:
       title: Метабара
       stack_note: 'Вторую панель можно разместить ниже для группировки другой категории метаданных — здесь, таксономия и аналитика.'
@@ -1552,7 +1552,7 @@ tr:
     media:
       title: 'Metinli medya'
     dropcap:
-      title: 'Büyük harf'
+      title: 'Süslü başlangıç harfi'
     meta_bar:
       title: 'Meta çubuğu'
       stack_note: 'Farklı bir meta veri kategorisini gruplamak için ikinci bir çubuk aşağıda yığılabilir — burada, taksonomi ve analiz.'
@@ -1792,7 +1792,7 @@ zh:
     media:
       title: 带文本的媒体
     dropcap:
-      title: 首字母大写
+      title: '首字下沉'
     meta_bar:
       title: 元数据栏
       stack_note: 第二个条可以堆叠在下面以分组不同类别的元数据——这里是分类和分析。

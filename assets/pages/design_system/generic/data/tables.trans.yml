@@ -1059,7 +1059,7 @@ fi:
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Tables
+  page_title: 'Tableaux'
   page_icon: 'ph:bold/table'
   section:
     pagination:
@@ -1069,9 +1069,9 @@ fr:
       title: 'Plus large que la pièce'
       description: "Une table dont les colonnes nécessitent plus que ce que la page a est dessinée à la largeur dont elle a besoin et déborde sur tout ce qui l'entoure — la zone, la page —, sans jamais avoir une barre de défilement propre. Demandé (`scroll: true`), comme ici, elle défile horizontalement dans son propre cadre et la page autour reste fixe : pour une table parmi d'autres éléments dans un conteneur qui ne défile pas. Une table collante abandonne cela : un en-tête collant à la page et un cadre défilant par lui-même ne peuvent pas être réunis."
     default:
-      title: 'Table simple'
+      title: 'Tableau simple'
     actions:
-      title: 'Table avec actions'
+      title: 'Tableau avec actions'
     links:
       title: 'Cellules avec lien et icône'
     loading:
@@ -1105,10 +1105,10 @@ fr:
       description: "Chemins lus par leur nom, les dossiers avant étant coupés de leur début. La barre se termine sur combien de lignes il y a, et une action marquée `all` fonctionne sans rien coché — elle prend chaque ligne, et mène la barre quand c'est celle attendue."
     filters:
       title: Filtres
-      description: "Une barre de filtres en tête de la table, un menu discret chacun, indiquant ce qu'il réduit une fois activé. Sur le serveur, ils vivent dans la requête de la page — chaque option est un lien — et le contrôleur réduit les lignes à partir de cela ; dans vue, elles sont une valeur remise à la page pour son API, ou appliquées par la table aux lignes qu'elle a déjà. Chaque option est une case — ronde pour un choix unique — colorée par son ton lorsqu'elle en a un, un état ou une catégorie."
+      description: 'Une barre de filtres en tête de la table, un menu discret chacun, indiquant ce qu''il réduit une fois activé. Sur le serveur, ils vivent dans la requête de la page — chaque option est un lien — et le contrôleur réduit les lignes à partir de cela ; en Vue, elles sont une valeur remise à la page pour son API, ou appliquées par la table aux lignes qu''elle a déjà. Chaque option est une case — ronde pour un choix unique — colorée par son ton lorsqu''elle en a un, un état ou une catégorie.'
     sorting:
       title: Tri
-      description: "Un en-tête qui trie est un lien sur le serveur et un bouton dans vue : croissant, décroissant, puis retour à l'ordre déclaré par la page, sur lequel la liste s'ouvre et que sa flèche montre dès le départ. Les dates vides vont en dernier dans les deux sens, et les noms se comparent selon l'ordre de la langue. Ici, la table trie les lignes qui lui ont été données ; un contrôleur paginant sa liste lit la même requête à la place."
+      description: 'Un en-tête qui trie est un lien sur le serveur et un bouton en Vue : croissant, décroissant, puis retour à l''ordre déclaré par la page, sur lequel la liste s''ouvre et que sa flèche montre dès le départ. Les dates vides vont en dernier dans les deux sens, et les noms se comparent selon l''ordre de la langue. Ici, la table trie les lignes qui lui ont été données ; un contrôleur paginant sa liste lit la même requête à la place.'
     figures:
       title: 'Codes, chiffres et totaux'
       description: "`cell: 'code'` définit un identifiant dans la police mono ; `cell: 'number'`, ou une `unit`, écrit un chiffre dans le format local de la page. `negative: true` dessine un chiffre en dessous de zéro dans le ton d'erreur, son signe moins le dit aussi. `totals` est une ligne que la page remet, dessinée sous les autres — la table n'additionne rien, tenant une page ou une liste filtrée. Dessinée par le serveur, puis par vue."
@@ -1119,9 +1119,9 @@ fr:
       title: 'Actions dans une sélection'
       description: "La même barre quand il y a assez d'actions pour l'encombrer : une est choisie, puis appliquée."
     vue:
-      title: "Table d'entités Vue"
+      title: 'Tableau d''entités Vue'
     vue_selection:
-      title: 'Table Vue avec sélection'
+      title: 'Tableau Vue avec sélection'
       description: "Le même contrat côté client : les clés cochées reviennent par v-model:selected, chaque action est émise comme action de masse, et une avec une adresse est postée comme la table du serveur le poste. Celles-ci n'en ont aucune, donc la ligne ci-dessous indique ce qui aurait été fait. Trois lignes par page, le total à la fin de la barre, et Archiver tout nécessitant aucune coche."
     vue_compact:
       title: 'Pagination sans total'
@@ -1143,7 +1143,7 @@ fr:
       state: État
     status:
       name: Pipeline
-      build: Construction
+      build: 'Build'
       tests: Tests
       deploy: Déploiement
     alignment:

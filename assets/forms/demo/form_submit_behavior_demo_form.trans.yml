@@ -241,7 +241,7 @@ ar:
       error:
         ERR_FIELD_SWITCH_INVALID: 'التبديل غير صالح لأغراض الاختبار.'
     radio_choice:
-      label: 'اختيار إذاعي'
+      label: 'أزرار الاختيار'
       help: 'اختر خيارًا واحدًا من القائمة.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'الاختيار الإذاعي غير صالح لأغراض الاختبار.'
@@ -377,7 +377,7 @@ bn:
       error:
         ERR_FIELD_SWITCH_INVALID: 'সুইচ পরীক্ষার উদ্দেশ্যে অকার্যকর।'
     radio_choice:
-      label: 'রেডিও নির্বাচন'
+      label: 'রেডিও বোতাম'
       help: 'তালিকা থেকে একটি বিকল্প নির্বাচন করুন।'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'রেডিও নির্বাচন পরীক্ষার উদ্দেশ্যে অকার্যকর।'
@@ -513,7 +513,7 @@ de:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Schalter ist zu Testzwecken ungültig.'
     radio_choice:
-      label: Radioauswahl
+      label: 'Optionsfelder'
       help: 'Wählen Sie eine Option aus der Liste.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Radioauswahl ist zu Testzwecken ungültig.'
@@ -649,7 +649,7 @@ es:
       error:
         ERR_FIELD_SWITCH_INVALID: 'El interruptor no es válido para fines de prueba.'
     radio_choice:
-      label: 'Opción de radio'
+      label: 'Botones de opción'
       help: 'Selecciona una opción de la lista.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'La opción de radio no es válida para fines de prueba.'
@@ -785,7 +785,7 @@ fa:
       error:
         ERR_FIELD_SWITCH_INVALID: 'کلید برای آزمون معتبر نیست.'
     radio_choice:
-      label: 'انتخاب رادیویی'
+      label: 'دکمه‌های رادیویی'
       help: 'یک گزینه را از لیست انتخاب کنید.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'انتخاب رادیویی برای آزمون معتبر نیست.'
@@ -921,7 +921,7 @@ fi:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Kytkin ei ole voimassa testitarkoituksessa.'
     radio_choice:
-      label: Radio-valinta
+      label: 'Valintanapit'
       help: 'Valitse yksi vaihtoehto luettelosta.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Radio-valinta ei ole voimassa testitarkoituksessa.'
@@ -1007,13 +1007,13 @@ fr:
           description: 'déclenche un toast sans soumettre.'
         default:
           label: 'Par défaut'
-          description: 'navigue sur la page complète, ou ferme la modal.'
+          description: 'navigue sur la page complète, ou ferme la modale.'
         embed_stay:
           label: "Garder l'intégration ouverte (modal / panneau)"
-          description: 'reste ouvert dans la modal/panneau.'
+          description: 'reste ouvert dans la modale/panneau.'
         embed_redirect:
           label: "Rediriger dans l'intégration (modal / panneau)"
-          description: "navigue à l'intérieur de la modal/panneau."
+          description: 'navigue à l''intérieur de la modale/panneau.'
     date:
       label: Date
       help: "Sélectionnez une date à l'aide du sélecteur de date."
@@ -1057,7 +1057,7 @@ fr:
       error:
         ERR_FIELD_SWITCH_INVALID: "L'interrupteur est invalide à des fins de test."
     radio_choice:
-      label: 'Choix radio'
+      label: 'Boutons radio'
       help: 'Sélectionnez une option dans la liste.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Le choix radio est invalide à des fins de test.'
@@ -1193,7 +1193,7 @@ he:
       error:
         ERR_FIELD_SWITCH_INVALID: 'המתג אינו תקף לצורכי בדיקה.'
     radio_choice:
-      label: 'בחירת רדיו'
+      label: 'לחצני בחירה'
       help: 'בחר אפשרות אחת מתוך הרשימה.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'בחירת הרדיו אינה תקפה לצורכי בדיקה.'
@@ -1329,7 +1329,7 @@ hi:
       error:
         ERR_FIELD_SWITCH_INVALID: 'स्विच परीक्षण के उद्देश्य के लिए अमान्य है।'
     radio_choice:
-      label: 'रेडियो विकल्प'
+      label: 'रेडियो बटन'
       help: 'सूची से एक विकल्प चुनें।'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'रेडियो विकल्प परीक्षण के उद्देश्य के लिए अमान्य है।'
@@ -1465,7 +1465,7 @@ id:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Tombol ganti tidak valid untuk tujuan percobaan.'
     radio_choice:
-      label: 'Pilihan Radio'
+      label: 'Tombol radio'
       help: 'Pilih satu opsi dari daftar.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Pilihan radio tidak valid untuk tujuan percobaan.'
@@ -1601,7 +1601,7 @@ it:
       error:
         ERR_FIELD_SWITCH_INVALID: "L'interruttore non è valido per scopi di test."
     radio_choice:
-      label: 'Scelta radio'
+      label: 'Pulsanti di opzione'
       help: "Seleziona un'opzione dall'elenco."
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'La scelta radio non è valida per scopi di test.'
@@ -1737,7 +1737,7 @@ ja:
       error:
         ERR_FIELD_SWITCH_INVALID: テスト目的のため、スイッチが無効です。
     radio_choice:
-      label: ラジオ選択
+      label: 'ラジオボタン'
       help: リストから1つのオプションを選択します。
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: テスト目的のため、ラジオ選択が無効です。
@@ -1873,7 +1873,7 @@ ko:
       error:
         ERR_FIELD_SWITCH_INVALID: '테스트 용도로 스위치가 유효하지 않습니다.'
     radio_choice:
-      label: '라디오 선택'
+      label: '라디오 버튼'
       help: '목록에서 한 가지 옵션을 선택하세요.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: '테스트 용도로 라디오 선택이 유효하지 않습니다.'
@@ -2009,7 +2009,7 @@ nl:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Schakelaar is ongeldig voor testdoeleinden.'
     radio_choice:
-      label: 'Radio keuze'
+      label: 'Keuzerondjes'
       help: 'Selecteer één optie uit de lijst.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Radio keuze is ongeldig voor testdoeleinden.'
@@ -2145,7 +2145,7 @@ pl:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Przełącznik jest nieprawidłowy do celów testowych.'
     radio_choice:
-      label: 'Wybór radiowy'
+      label: 'Przyciski opcji'
       help: 'Wybierz jedną opcję z listy.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Wybór radiowy jest nieprawidłowy do celów testowych.'
@@ -2281,7 +2281,7 @@ pt_BR:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Interruptor inválido para fins de teste.'
     radio_choice:
-      label: 'Escolha de rádio'
+      label: 'Botões de opção'
       help: 'Selecione uma opção da lista.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Escolha de rádio inválida para fins de teste.'
@@ -2417,7 +2417,7 @@ ru:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Переключатель недействителен для тестирования.'
     radio_choice:
-      label: 'Выбор радиокнопки'
+      label: 'Переключатели'
       help: 'Выберите один вариант из списка.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Выбор радиокнопки недействителен для тестирования.'
@@ -2553,7 +2553,7 @@ th:
       error:
         ERR_FIELD_SWITCH_INVALID: สวิตช์ไม่ถูกต้องสำหรับการทดสอบ
     radio_choice:
-      label: ตัวเลือกวิทยุ
+      label: 'ปุ่มตัวเลือก'
       help: เลือกหนึ่งตัวเลือกจากรายการ
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: ตัวเลือกวิทยุไม่ถูกต้องสำหรับการทดสอบ
@@ -2689,7 +2689,7 @@ tr:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Anahtar test amacıyla geçersiz.'
     radio_choice:
-      label: 'Radyo seçeneği'
+      label: 'Seçenek düğmeleri'
       help: 'Listeden bir seçenek seçin.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Radyo seçeneği test amacıyla geçersiz.'
@@ -2825,7 +2825,7 @@ ur:
       error:
         ERR_FIELD_SWITCH_INVALID: 'سوئچ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
     radio_choice:
-      label: 'ریڈیو انتخاب'
+      label: 'ریڈیو بٹن'
       help: 'فہرست سے ایک آپشن منتخب کریں۔'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'ریڈیو انتخاب ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
@@ -2961,7 +2961,7 @@ vi:
       error:
         ERR_FIELD_SWITCH_INVALID: 'Công tắc không hợp lệ cho mục đích thử nghiệm.'
     radio_choice:
-      label: 'Lựa chọn radio'
+      label: 'Nút chọn một'
       help: 'Chọn một tùy chọn từ danh sách.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Lựa chọn radio không hợp lệ cho mục đích thử nghiệm.'
@@ -3097,7 +3097,7 @@ zh:
       error:
         ERR_FIELD_SWITCH_INVALID: 开关无效，仅用于测试。
     radio_choice:
-      label: 单选
+      label: '单选按钮'
       help: 从列表中选择一个选项。
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 单选无效，仅用于测试。

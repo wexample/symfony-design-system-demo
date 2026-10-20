@@ -20,15 +20,15 @@ en:
 fr:
   page_title: Dock
   page_icon: 'ph:bold/rows'
-  intro: "Une fenêtre ancrée au bas de l'écran, à côté de la page et non par-dessus : rien ne s'assombrit, rien n'attend, la page reste utilisable. Son en-tête la replie sur son titre et vice versa. Elle prend une page que le serveur rend — `target: 'dock'` — ou ce qu'un script y montre, comme un modal et un panneau."
+  intro: 'Une fenêtre ancrée au bas de l''écran, à côté de la page et non par-dessus : rien ne s''assombrit, rien n''attend, la page reste utilisable. Son en-tête la replie sur son titre et vice versa. Elle prend une page que le serveur rend — `target: ''dock''` — ou ce qu''un script y montre, comme une modale et un panneau.'
   section:
     page:
       description: "Une page chargée dans un dock (`button_target(…, 'dock')`). Ouvrez les deux : ils se tiennent côte à côte."
       button: 'Ouvrir une page'
       button_long: 'Ouvrir une longue page'
     content:
-      description: "Ce qu'un script montre — `showInTarget(app, target, { title, body, actions })` — dans un modal, un panneau ou un dock : la même structure que celle d'une page, dessinée dans le navigateur."
-      modal: 'Dans un modal'
+      description: 'Ce qu''un script montre — `showInTarget(app, target, { title, body, actions })` — dans une modale, un panneau ou un dock : la même structure que celle d''une page, dessinée dans le navigateur.'
+      modal: 'Dans une modale'
       panel: 'Dans un panneau'
       dock: 'Dans un dock'
   content:
@@ -36,7 +36,7 @@ fr:
     body: "Aucune page n'a été demandée au serveur pour cette fenêtre ; le script qui l'a ouverte a écrit ce qu'elle contient."
 
 zh:
-  page_title: 停靠
+  page_title: '停靠栏'
   page_icon: 'ph:bold/rows'
   intro: "一个停靠在屏幕底部的窗口，紧挨着页面而不是覆盖在上面：没有任何变暗，没有任何等待，页面保持可用。它的标题可以折叠成标题和返回。它接受服务器渲染的页面 — `target: 'dock'` — 或者脚本在此显示的内容，比如模态框和面板。"
   section:
@@ -54,7 +54,7 @@ zh:
     body: 此窗口没有向服务器请求页面；打开它的脚本写入了其内容。
 
 ar:
-  page_title: الشريط
+  page_title: 'شريط الإرساء'
   page_icon: 'ph:bold/rows'
   intro: "نافذة مثبتة في أسفل الشاشة، بجانب الصفحة وليس فوقها: لا شيء يتلاشى، لا شيء ينتظر، تبقى الصفحة قابلة للاستخدام. رأسها يطويها إلى عنوانها والعكس. تأخذ صفحة يتم عرضها من الخادم — `target: 'dock'` — أو ما يظهره السكريبت هناك، مثل نافذة منبثقة أو لوحة."
   section:

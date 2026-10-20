@@ -247,7 +247,7 @@ fr:
       title: "Quelque chose d'autre que git"
       description: "Les versions d'un document, l'une d'elles examinée sur le côté avant d'être fusionnée dans la suivante. Le composant ne sait rien des commits."
     vue:
-      title: 'Dans vue'
+      title: 'en Vue'
       description: 'Le même historique dans un arbre vue, les voies redessinées à mesure que les éléments arrivent en tête.'
   history:
     merge_search: 'Fusionner la branche de recherche'

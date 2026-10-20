@@ -22,7 +22,7 @@ en:
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Télécharger
+  page_title: 'Téléversement'
   page_icon: 'ph:bold/upload-simple'
   intro: "Les fichiers déposés dans une zone ou sélectionnés avec son bouton sont envoyés par morceaux vers le répertoire pour lequel la page est signée — de tout type, de toute taille —, et suivis dans la fenêtre des téléchargements ancrée en bas de l'écran, qui peut être repliée ou fermée pendant le processus."
   section:
@@ -62,7 +62,7 @@ zh:
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: تحميل
+  page_title: 'رفع'
   page_icon: 'ph:bold/upload-simple'
   intro: 'الملفات التي يتم إسقاطها في المنطقة أو اختيارها من خلال زرها تُرسل على شكل قطع إلى الدليل الذي تم توقيعه في الصفحة — أي نوع، أي حجم —، وتتابع في نافذة التحميلات المثبتة في أسفل الشاشة، والتي يمكن طيها أو إغلاقها أثناء التحميل.'
   section:

@@ -47,7 +47,7 @@ ar:
       title: الطباعة
       description: 'مقياس النوع والأوزان، ثم نفس المقياس في العمل في صفحة من النثر.'
     skin:
-      title: الجلد
+      title: 'المظهر'
       description: 'كيف تُرسم الأشياء، بلون وكثافة متساويين: الأنصاف، الظلال، الحدود والفواصل. المحور الوحيد للسمة الذي له شخصية.'
 
 bn:
@@ -70,7 +70,7 @@ bn:
       title: টাইপোগ্রাফি
       description: 'টাইপ স্কেল এবং ওজন, তারপর একই স্কেল একটি প্রবন্ধের পাতায় কাজ করে।'
     skin:
-      title: ত্বক
+      title: 'স্কিন'
       description: 'কিভাবে বিষয়গুলো আঁকা হয়, সমান রঙ এবং ঘনত্বে: রেডিয়াস, ছায়া, সীমানা এবং আলাদা করার উপাদান। থিমের একমাত্র অক্ষ যেটির একটি চরিত্র আছে।'
 
 de:
@@ -93,7 +93,7 @@ de:
       title: Typografie
       description: 'Die Schriftgröße und die Gewichtungen, dann die gleiche Skala in einem Prosa-Text.'
     skin:
-      title: Haut
+      title: 'Skin'
       description: 'Wie Dinge gezeichnet werden, bei gleicher Farbe und Dichte: die Radien, die Schatten, die Ränder und die Trennlinien. Die eine Achse des Themas, die Charakter hat.'
 
 es:
@@ -116,7 +116,7 @@ es:
       title: Tipografía
       description: 'La escala tipográfica y los pesos, luego la misma escala en acción en una página de prosa.'
     skin:
-      title: Piel
+      title: 'Apariencia'
       description: 'Cómo se dibujan las cosas, con igual color y densidad: los radios, las sombras, los bordes y los separadores. El único eje del tema que tiene un carácter.'
 
 fa:
@@ -139,7 +139,7 @@ fa:
       title: تایپوگرافی
       description: 'مقیاس نوع و وزن‌ها، سپس همان مقیاس در کار در یک صفحه نثر.'
     skin:
-      title: پوست
+      title: 'پوسته'
       description: 'چگونه چیزها با رنگ و چگالی یکسان کشیده می‌شوند: شعاع‌ها، سایه‌ها، مرزها و جداکننده‌ها. محور واحد تم که یک شخصیت دارد.'
 
 fi:
@@ -162,17 +162,16 @@ fi:
       title: Typografia
       description: 'Kirjasinkoko ja painot, sitten sama skaala toiminnassa proosatekstissä.'
     skin:
-      title: Iho
+      title: 'Ulkoasu'
       description: 'Kuinka asiat piirtyvät, saman värin ja tiheyden mukaan: säteet, varjot, reunat ja erotinviivat. Teeman yksi akseli, jolla on luonteenpiirteitä.'
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Fondations
-  document_title: 'Couleurs, espacement et typographie — Système de design'
+  document_title: 'Couleurs, espacement et typographie — Design system'
   page_description: "Les fondations d'un design system : les échelles de couleurs, d'espacement et de typographie, et le skin dont chaque composant est tiré, en clair et en sombre, en direct."
   page_icon: 'ph:bold/diamonds-four'
-  lead: |
-    Un système de design est l'ensemble commun de règles et d'éléments à partir desquels une interface est construite : couleurs, espacements, typographie, boutons, formulaires, tableaux, chacun défini une fois et utilisé partout, de sorte que chaque page ait le même aspect et le même comportement.
+  lead: "Un design system est l'ensemble commun de règles et d'éléments à partir desquels une interface est construite : couleurs, espacements, typographie, boutons, formulaires, tableaux, chacun défini une fois et utilisé partout, de sorte que chaque page ait le même aspect et le même comportement.\n"
   intro: "Ce dont tout le reste est dépensé. Rien sur ces pages n'est un composant : ce sont les échelles — couleur, espacement, type, et la peau qui les attire — que chaque autre section lit sans jamais les montrer."
   page:
     colors:
@@ -185,7 +184,7 @@ fr:
       title: Typographie
       description: "L'échelle de type et les poids, puis la même échelle à l'œuvre dans une page de prose."
     skin:
-      title: Peau
+      title: 'Habillage'
       description: "Comment les choses sont dessinées, à couleur et densité égales : les rayons, les ombres, les bordures et les séparateurs. L'unique axe du thème qui a un caractère."
 
 he:
@@ -208,7 +207,7 @@ he:
       title: טיפוגרפיה
       description: 'סקאלת הסוגים והמשקלים, אז אותה סקאלה פועלת בדף של פרוזה.'
     skin:
-      title: עור
+      title: 'ערכת עיצוב'
       description: 'כיצד הדברים מצויירים, בצבע ובצפיפות שווים: הרדיוסים, הצללים, הגבולות והמפרידים. הציר היחיד של התמה שיש לו אופי.'
 
 hi:
@@ -231,7 +230,7 @@ hi:
       title: टाइपोग्राफी
       description: 'टाइप स्केल और वजन, फिर उसी स्केल का काम एक प्रोज़ पृष्ठ में।'
     skin:
-      title: त्वचा
+      title: 'स्किन'
       description: 'कैसे चीजें खींची जाती हैं, समान रंग और घनत्व पर: रेडियाई, छायाएँ, सीमाएँ और विभाजक। थीम का वह एक अक्ष जो एक चरित्र रखता है।'
 
 id:
@@ -254,7 +253,7 @@ id:
       title: Tipografi
       description: 'Skala tipe dan bobot, lalu skala yang sama bekerja dalam halaman prosa.'
     skin:
-      title: Kulit
+      title: 'Tampilan'
       description: 'Bagaimana hal-hal digambar, dengan warna dan kepadatan yang sama: jari-jari, bayangan, batas, dan pemisah. Satu sumbu tema yang memiliki karakter.'
 
 it:
@@ -277,7 +276,7 @@ it:
       title: Tipografia
       description: 'La scala dei caratteri e i pesi, poi la stessa scala applicata in una pagina di prosa.'
     skin:
-      title: Pelle
+      title: 'Aspetto'
       description: "Come vengono tracciate le cose, con colore e densità uguali: i raggi, le ombre, i bordi e i separatori. L'unico asse del tema che ha un carattere."
 
 ja:
@@ -323,7 +322,7 @@ ko:
       title: 타이포그래피
       description: '타입 스케일과 무게, 그리고 같은 스케일이 프로즈 페이지에서 작용하는 방식입니다.'
     skin:
-      title: 외관
+      title: '스킨'
       description: '사물들이 동일한 색상과 밀도로 그려지는 방식: 반지름, 그림자, 경계 및 구분선. 테마의 특성을 가진 유일한 축입니다.'
 
 nl:
@@ -346,7 +345,7 @@ nl:
       title: Typografie
       description: 'De lettertype-schaal en de gewichten, en vervolgens dezelfde schaal die werkt in een pagina met proza.'
     skin:
-      title: Huid
+      title: 'Skin'
       description: 'Hoe dingen worden getekend, met gelijke kleur en dichtheid: de stralen, de schaduwen, de randen en de scheiders. De enige as van het thema die een karakter heeft.'
 
 pl:
@@ -369,7 +368,7 @@ pl:
       title: Typografia
       description: 'Skala typograficzna i wagi, a następnie ta sama skala w pracy na stronie prozy.'
     skin:
-      title: Skóra
+      title: 'Skórka'
       description: 'Jak rzeczy są rysowane, w równym kolorze i gęstości: promienie, cienie, granice i separatory. Jedna oś motywu, która ma charakter.'
 
 pt_BR:
@@ -415,7 +414,7 @@ ru:
       title: Типографика
       description: 'Шкала шрифтов и их веса, а затем та же шкала в работе на странице с прозой.'
     skin:
-      title: Оболочка
+      title: 'Скин'
       description: 'Как вещи рисуются, с одинаковым цветом и плотностью: радиусы, тени, границы и разделители. Ось темы, которая имеет характер.'
 
 th:
@@ -437,7 +436,7 @@ th:
       title: การพิมพ์
       description: 'มาตราส่วนตัวอักษรและน้ำหนัก จากนั้นมาตราส่วนเดียวกันที่ทำงานในหน้าของข้อความ'
     skin:
-      title: พื้นผิว
+      title: 'สกิน'
       description: 'วิธีที่สิ่งต่างๆ ถูกวาดด้วยสีและความหนาเท่ากัน: รัศมี, เงา, ขอบ และตัวแบ่ง มิติเดียวของธีมที่มีเอกลักษณ์'
 
 tr:
@@ -460,7 +459,7 @@ tr:
       title: 'Yazı Tipi'
       description: 'Yazı ölçeği ve ağırlıkları, ardından aynı ölçeğin bir düz yazı sayfasında nasıl çalıştığı.'
     skin:
-      title: 'Arka Plan'
+      title: 'Görünüm'
       description: 'Nesnelerin nasıl çizildiği, eşit renk ve yoğunlukta: yarıçaplar, gölgeler, kenar boşlukları ve ayırıcılar. Temanın bir karaktere sahip olan tek ekseni.'
 
 ur:
@@ -483,7 +482,7 @@ ur:
       title: 'نوع ٹائپ'
       description: 'قسم کی پیمائش اور وزن، پھر وہی پیمائش ایک نثر کے صفحے میں کام کرتی ہے۔'
     skin:
-      title: جلد
+      title: 'اسکن'
       description: 'چیزیں کس طرح کھینچی جاتی ہیں، برابر رنگ اور کثافت پر: شعاعیں، سائے، سرحدیں اور علیحدگی کرنے والے۔ تھیم کا وہ ایک محور جو ایک کردار رکھتا ہے۔'
 
 vi:
@@ -506,7 +505,7 @@ vi:
       title: 'Kiểu chữ'
       description: 'Thang kiểu chữ và các trọng số, sau đó là cùng một thang đang hoạt động trong một trang văn bản.'
     skin:
-      title: Lớp
+      title: 'Giao diện'
       description: 'Cách mà mọi thứ được vẽ, với màu sắc và độ dày bằng nhau: bán kính, bóng, viền và các dấu phân cách. Trục duy nhất của chủ đề có một đặc điểm.'
 
 zh:
@@ -529,5 +528,5 @@ zh:
       title: 排版
       description: 字体比例和字重，以及同样的比例在一段散文中的运用。
     skin:
-      title: 外观
+      title: '皮肤'
       description: 事物的绘制方式，以相同的颜色和密度：半径、阴影、边框和分隔符。主题中具有个性的唯一轴线。

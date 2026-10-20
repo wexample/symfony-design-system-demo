@@ -194,7 +194,7 @@ de:
   page_icon: 'ph:bold/list'
   section:
     split:
-      title: Teilungsbuttons
+      title: 'Split-Buttons'
       description: "Ein Button, der eine Aktion ausführt und weitere Optionen bietet: Der Hauptteil führt die Aktion aus, das am Ende befestigte Caret — und nur das Caret — öffnet das Menü. `button_menu` erhält eine `action` — `{ href }` oder `{ type: 'submit' }` in einem Formular; der vue Button gibt `action` aus."
     vue:
       title: Vue
@@ -442,7 +442,7 @@ fr:
   page_icon: 'ph:bold/list'
   section:
     split:
-      title: 'Boutons de séparation'
+      title: 'Boutons scindés'
       description: "Un bouton qui effectue une action et propose d'autres options : son corps accomplit l'action, le caret fixé à son extrémité — et uniquement le caret — ouvre le menu. `button_menu` donné un `action` — `{ href }`, ou `{ type: 'submit' }` dans un formulaire ; le vue émet `action`."
     vue:
       title: Vue
@@ -450,7 +450,7 @@ fr:
     menu:
       title: 'Boutons de menu'
     counts:
-      title: Comptes
+      title: 'Compteurs'
       description: "Combien de quelque chose que l'élément mène, à l'autre extrémité de la ligne. C'est une pilule et rien d'autre — passez `count` à côté de l'étiquette, dans un élément de menu déroulant ou un élément de menu vertical, et l'élément le place. Un élément sans la clé ne montre rien."
     separators:
       title: Séparateurs
@@ -461,14 +461,14 @@ fr:
   menu:
     primary: 'Bouton de menu'
     save: Enregistrer
-    save_vue: 'Enregistrer, en vue'
+    save_vue: 'Enregistrer, en Vue'
     publish: Publier
     filters: Filtres
-    filters_vue: 'Filtres, en vue'
+    filters_vue: 'Filtres, en Vue'
     counted: 'Avec des comptes'
-    counted_vue: 'Avec des comptes, en vue'
+    counted_vue: 'Avec des comptes, en Vue'
     grouped: 'Éléments groupés'
-    grouped_vue: 'Groupés, en vue'
+    grouped_vue: 'Groupés, en Vue'
     group:
       danger: 'Zone dangereuse'
       show: Afficher

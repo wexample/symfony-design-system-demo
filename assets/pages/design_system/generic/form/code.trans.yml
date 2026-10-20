@@ -96,7 +96,7 @@ fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Code
   page_icon: 'ph:bold/code'
-  intro: "Un champ qui contient du code, coloré par sa grammaire. Il est livré avec symfony-coding et non avec le système de design, dont il emprunte seulement : son cadre est celui d'un champ, ses couleurs sont les tokens de code du schéma, sa ligne actuelle et sa sélection sont les nuances du schéma - il suit donc le visage clair et foncé comme tout ce qui l'entoure."
+  intro: 'Un champ qui contient du code, coloré par sa grammaire. Il est livré avec symfony-coding et non avec le design system, dont il emprunte seulement : son cadre est celui d''un champ, ses couleurs sont les tokens de code du schéma, sa ligne actuelle et sa sélection sont les nuances du schéma - il suit donc le visage clair et foncé comme tout ce qui l''entoure.'
   section:
     server:
       title: 'Champ serveur'

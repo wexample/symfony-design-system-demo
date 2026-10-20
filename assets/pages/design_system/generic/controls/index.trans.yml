@@ -304,7 +304,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Contrôles
-  document_title: 'Boutons, menus et étapes — Système de design'
+  document_title: 'Boutons, menus et étapes — Design system'
   page_description: 'Ce par quoi on agit dans le design system : boutons dans toutes leurs variantes et états, menus qui se placent seuls, étapes, en direct.'
   page_icon: 'ph:bold/cursor-click'
   intro: "Ce par quoi un lecteur agit. Chacun d'eux prend une action plutôt qu'une valeur — un champ de formulaire prend la valeur, et vit dans la section suivante."
@@ -314,9 +314,9 @@ fr:
       description: "Celui qui fait quelque chose, dans ses variantes, ses états et ses densités, plus le lien et la cible qui s'ouvrent ailleurs."
     menus:
       title: Menus
-      description: 'Un bouton qui ouvre une liste de choix, se plaçant contre les bords de la fenêtre, en twig et en vue.'
+      description: 'Un bouton qui ouvre une liste de choix, se plaçant contre les bords de la fenêtre, en twig et en Vue.'
     steppers:
-      title: Étapes
+      title: 'Indicateurs d''étapes'
       description: "Où un lecteur se positionne dans une séquence d'étapes, avec celles derrière pour revenir en arrière."
     interactions:
       title: Interactions

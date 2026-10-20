@@ -574,7 +574,7 @@ fr:
       title: 'Écrit à la main'
       description: "Le composant est seulement un moyen d'écrire la forme à partir d'une liste. Les mêmes classes écrites sur la page donnent la même chronologie, avec tout ce qui s'y trouve."
     vue:
-      title: 'Dans vue'
+      title: 'en Vue'
       description: "La même chronologie dans un arbre vue. Ce que la branche prend comme balisage est un slot scoped là, donc un composant peut se tenir sous le titre d'un élément."
   install:
     clone:

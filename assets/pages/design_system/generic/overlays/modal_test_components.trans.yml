@@ -153,8 +153,8 @@ fi:
         message: 'Oletko varma, että haluat sulkea tämän modaalin?'
 
 fr:
-  page_title: 'Test modal - composants'
-  intro: 'Ce modal contient des composants et des interactions.'
+  page_title: 'Test de modale - composants'
+  intro: 'Cette modale contient des composants et des interactions.'
   menu:
     label: 'Menu des actions'
     item:
@@ -166,13 +166,13 @@ fr:
     one: 'Première option'
     two: 'Deuxième option'
     three: 'Troisième option'
-  toast_button: 'Afficher le toast depuis le modal'
-  toast_title: 'Toast du modal'
-  toast_message: "Bonjour depuis l'intérieur du modal."
+  toast_button: 'Afficher le toast depuis la modale'
+  toast_title: 'Toast de la modale'
+  toast_message: 'Bonjour depuis l''intérieur de la modale.'
   frontend:
     embed:
       closing_confirmation:
-        message: 'Êtes-vous sûr de vouloir fermer ce modal ?'
+        message: 'Êtes-vous sûr de vouloir fermer cette modale ?'
 
 he:
   page_title: 'בדיקת מודל - רכיבים'

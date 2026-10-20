@@ -13,11 +13,11 @@ en:
 ar:
   tab:
     index: 'نظرة عامة'
-    toasts: إشعارات
+    toasts: 'إشعارات منبثقة'
     banners: لافتات
     messages: رسائل
     markers: علامات
-    loaders: محمّلات
+    loaders: 'مؤشرات التحميل'
     progress: تقدم
     distribution: توزيع
     errors: أخطاء
@@ -29,7 +29,7 @@ bn:
     banners: ব্যানার
     messages: বার্তা
     markers: চিহ্ন
-    loaders: লোডার
+    loaders: 'লোডিং নির্দেশক'
     progress: অগ্রগতি
     distribution: বণ্টন
     errors: ত্রুটি
@@ -37,11 +37,11 @@ bn:
 de:
   tab:
     index: Übersicht
-    toasts: Toast-Nachrichten
+    toasts: 'Toasts'
     banners: Banner
     messages: Nachrichten
     markers: Marker
-    loaders: Ladeanimationen
+    loaders: 'Ladeanzeigen'
     progress: Fortschritt
     distribution: Verteilung
     errors: Fehler
@@ -49,11 +49,11 @@ de:
 es:
   tab:
     index: Resumen
-    toasts: Notificaciones
+    toasts: 'Toasts'
     banners: Banners
     messages: Mensajes
     markers: Marcadores
-    loaders: Cargadores
+    loaders: 'Indicadores de carga'
     progress: Progreso
     distribution: Distribución
     errors: Errores
@@ -61,11 +61,11 @@ es:
 fa:
   tab:
     index: مروری
-    toasts: 'پاپ آپ ها'
+    toasts: 'اعلان‌های موقت'
     banners: بنرها
     messages: 'پیام ها'
     markers: مارکرها
-    loaders: بارگذارها
+    loaders: 'نشانگرهای بارگذاری'
     progress: پیشرفت
     distribution: توزیع
     errors: خطاها
@@ -77,7 +77,7 @@ fi:
     banners: Bannereita
     messages: Viestejä
     markers: Merkkejä
-    loaders: Lataajat
+    loaders: 'Latausilmaisimet'
     progress: Eteneminen
     distribution: Jakelu
     errors: Virheet
@@ -85,23 +85,23 @@ fi:
 fr:
   tab:
     index: Aperçu
-    toasts: Toast
+    toasts: 'Toasts'
     banners: Bannières
     messages: Messages
     markers: Marqueurs
-    loaders: Chargeurs
-    progress: Progrès
+    loaders: 'Indicateurs de chargement'
+    progress: 'Progression'
     distribution: Distribution
     errors: Erreurs
 
 he:
   tab:
     index: סקירה
-    toasts: התראות
+    toasts: 'הודעות קופצות'
     banners: באנרים
     messages: הודעות
     markers: סימנים
-    loaders: טוענים
+    loaders: 'מחווני טעינה'
     progress: התקדמות
     distribution: הפצה
     errors: שגיאות
@@ -113,7 +113,7 @@ hi:
     banners: बैनर
     messages: संदेश
     markers: मार्कर
-    loaders: लोडर
+    loaders: 'लोडिंग संकेतक'
     progress: प्रगति
     distribution: वितरण
     errors: त्रुटियाँ
@@ -125,7 +125,7 @@ id:
     banners: Spanduk
     messages: Pesan
     markers: Penanda
-    loaders: Pemuat
+    loaders: 'Indikator pemuatan'
     progress: Progres
     distribution: Distribusi
     errors: Kesalahan
@@ -137,7 +137,7 @@ it:
     banners: Banner
     messages: Messaggi
     markers: Marker
-    loaders: Loader
+    loaders: 'Indicatori di caricamento'
     progress: Progresso
     distribution: Distribuzione
     errors: Errori
@@ -149,7 +149,7 @@ ja:
     banners: バナー
     messages: メッセージ
     markers: マーカー
-    loaders: ローダー
+    loaders: 'ローディング表示'
     progress: 進捗
     distribution: 配信
     errors: エラー
@@ -161,7 +161,7 @@ ko:
     banners: 배너
     messages: 메시지
     markers: 마커
-    loaders: 로더
+    loaders: '로딩 표시'
     progress: '진행 상황'
     distribution: 배포
     errors: 오류
@@ -181,11 +181,11 @@ nl:
 pl:
   tab:
     index: Podsumowanie
-    toasts: Toast
+    toasts: 'Toasty'
     banners: Banery
     messages: Wiadomości
     markers: Znaczniki
-    loaders: Ładowarki
+    loaders: 'Wskaźniki ładowania'
     progress: Postęp
     distribution: Dystrybucja
     errors: Błędy
@@ -193,11 +193,11 @@ pl:
 pt_BR:
   tab:
     index: 'Visão Geral'
-    toasts: Notificações
+    toasts: 'Toasts'
     banners: Banners
     messages: Mensagens
     markers: Marcadores
-    loaders: Carregadores
+    loaders: 'Indicadores de carregamento'
     progress: Progresso
     distribution: Distribuição
     errors: Erros
@@ -209,7 +209,7 @@ ru:
     banners: Баннеры
     messages: Сообщения
     markers: Маркеры
-    loaders: Загрузчики
+    loaders: 'Индикаторы загрузки'
     progress: Прогресс
     distribution: Распределение
     errors: Ошибки
@@ -217,11 +217,11 @@ ru:
 th:
   tab:
     index: ภาพรวม
-    toasts: การแจ้งเตือน
+    toasts: 'การแจ้งเตือนชั่วคราว'
     banners: แบนเนอร์
     messages: ข้อความ
     markers: เครื่องหมาย
-    loaders: โหลดเดอร์
+    loaders: 'ตัวแสดงการโหลด'
     progress: ความก้าวหน้า
     distribution: การกระจาย
     errors: ข้อผิดพลาด
@@ -229,11 +229,11 @@ th:
 tr:
   tab:
     index: 'Genel Bakış'
-    toasts: 'Toast Bildirimleri'
+    toasts: 'Toast bildirimleri'
     banners: Afişler
     messages: Mesajlar
     markers: İşaretleyiciler
-    loaders: Yükleyiciler
+    loaders: 'Yükleme göstergeleri'
     progress: İlerleme
     distribution: Dağıtım
     errors: Hatalar
@@ -241,11 +241,11 @@ tr:
 ur:
   tab:
     index: جائزہ
-    toasts: ٹوئسٹ
+    toasts: 'ٹوسٹ'
     banners: بینرز
     messages: پیغامات
     markers: مارکرز
-    loaders: لوڈرز
+    loaders: 'لوڈنگ اشارے'
     progress: ترقی
     distribution: تقسیم
     errors: غلطیاں
@@ -253,11 +253,11 @@ ur:
 vi:
   tab:
     index: 'Tổng quan'
-    toasts: 'Thông báo tạm thời'
+    toasts: 'Thông báo nhanh'
     banners: 'Biểu ngữ'
     messages: 'Tin nhắn'
     markers: 'Đánh dấu'
-    loaders: Tải
+    loaders: 'Chỉ báo tải'
     progress: 'Tiến trình'
     distribution: 'Phân phối'
     errors: Lỗi
@@ -265,11 +265,11 @@ vi:
 zh:
   tab:
     index: 概览
-    toasts: 吐司
+    toasts: '轻提示'
     banners: 横幅
     messages: 消息
     markers: 标记
-    loaders: 加载器
+    loaders: '加载指示器'
     progress: 进度
     distribution: 分布
     errors: 错误

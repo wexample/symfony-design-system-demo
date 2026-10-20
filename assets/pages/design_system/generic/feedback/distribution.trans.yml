@@ -298,7 +298,7 @@ fr:
       description: "La même barre, ses parties données comme données. Une partie qui ne mène nulle part répond à un clic avec `select`, qui est ce qu'il faut écouter pour un tableau qui se filtre lui-même à côté."
   bar:
     pipeline: 'Pages du catalogue'
-    elements: 'Éléments du système de design'
+    elements: 'Éléments du design system'
     partial: 'Fichiers lus'
   state:
     done: Fait

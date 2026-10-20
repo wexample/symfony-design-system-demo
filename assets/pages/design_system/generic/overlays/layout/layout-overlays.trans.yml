@@ -34,7 +34,7 @@ de:
     modal: Modal
     panel: Panel
     confirm: Bestätigen
-    backdrop: Hintergrund
+    backdrop: 'Abdunkelung'
     tooltip: Tooltip
     tour: Tour
 
@@ -44,7 +44,7 @@ es:
     modal: Modal
     panel: Panel
     confirm: Confirmar
-    backdrop: Fondo
+    backdrop: 'Fondo atenuado'
     tooltip: Tooltip
     tour: Tour
 
@@ -74,7 +74,7 @@ fr:
     modal: Modale
     panel: Panneau
     confirm: Confirmer
-    backdrop: Arrière-plan
+    backdrop: 'Voile'
     tooltip: Infobulle
     tour: Visite
 
@@ -85,7 +85,7 @@ he:
     panel: פנל
     confirm: אישור
     backdrop: רקע
-    tooltip: 'הסבר טכנולוגי'
+    tooltip: 'תיבת הסבר'
     tour: סיור
 
 hi:
@@ -114,7 +114,7 @@ it:
     modal: Modale
     panel: Pannello
     confirm: Conferma
-    backdrop: Sfondo
+    backdrop: 'Sfondo oscurato'
     tooltip: Tooltip
     tour: Tour
 
@@ -164,7 +164,7 @@ pt_BR:
     modal: Modal
     panel: Painel
     confirm: Confirmar
-    backdrop: Fundo
+    backdrop: 'Fundo escurecido'
     tooltip: Dica
     tour: Tour
 
@@ -174,7 +174,7 @@ ru:
     modal: 'Модальное окно'
     panel: Панель
     confirm: Подтвердить
-    backdrop: 'Задний фон'
+    backdrop: 'Затемнение'
     tooltip: Подсказка
     tour: Экскурсия
 
@@ -195,7 +195,7 @@ tr:
     panel: Panel
     confirm: Onayla
     backdrop: 'Arka Plan'
-    tooltip: 'Araç İpuçları'
+    tooltip: 'Araç ipucu'
     tour: Tur
 
 ur:
@@ -215,7 +215,7 @@ vi:
     panel: 'Bảng điều khiển'
     confirm: 'Xác nhận'
     backdrop: Nền
-    tooltip: 'Ghi chú'
+    tooltip: 'Tooltip'
     tour: 'Hướng dẫn'
 
 zh:

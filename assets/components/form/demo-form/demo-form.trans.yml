@@ -161,7 +161,7 @@ ar:
       error:
         ERR_FIELD_FILE_INVALID: 'الملف غير صالح لغرض الاختبار.'
     radio_choice:
-      label: 'اختيار إذاعي'
+      label: 'أزرار الاختيار'
       help: 'اختر خيارًا واحدًا من القائمة.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'الاختيار الإذاعي غير صالح لغرض الاختبار.'
@@ -259,7 +259,7 @@ bn:
       error:
         ERR_FIELD_FILE_INVALID: 'ফাইলটি পরীক্ষার জন্য অবৈধ।'
     radio_choice:
-      label: 'রেডিও চয়েস'
+      label: 'রেডিও বোতাম'
       help: 'তালিকা থেকে একটি অপশন নির্বাচন করুন।'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'রেডিও চয়েসটি পরীক্ষার জন্য অবৈধ।'
@@ -357,7 +357,7 @@ de:
       error:
         ERR_FIELD_FILE_INVALID: 'Die Datei ist zu Testzwecken ungültig.'
     radio_choice:
-      label: Radioauswahl
+      label: 'Optionsfelder'
       help: 'Wählen Sie eine Option aus der Liste aus.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Die Radioauswahl ist zu Testzwecken ungültig.'
@@ -454,7 +454,7 @@ es:
       error:
         ERR_FIELD_FILE_INVALID: 'El archivo no es válido para fines de prueba.'
     radio_choice:
-      label: 'Opción de radio'
+      label: 'Botones de opción'
       help: 'Selecciona una opción de la lista.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'La opción de radio no es válida para fines de prueba.'
@@ -552,7 +552,7 @@ fa:
       error:
         ERR_FIELD_FILE_INVALID: 'فایل برای تست نامعتبر است.'
     radio_choice:
-      label: 'انتخاب رادیویی'
+      label: 'دکمه‌های رادیویی'
       help: 'یک گزینه را از لیست انتخاب کنید.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'انتخاب رادیویی برای تست نامعتبر است.'
@@ -650,7 +650,7 @@ fi:
       error:
         ERR_FIELD_FILE_INVALID: 'Tiedosto ei ole kelvollinen testitarkoituksiin.'
     radio_choice:
-      label: Radiovalinta
+      label: 'Valintanapit'
       help: 'Valitse yksi vaihtoehto listalta.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Radiovalinta ei ole kelvollinen testitarkoituksiin.'
@@ -748,7 +748,7 @@ fr:
       error:
         ERR_FIELD_FILE_INVALID: 'Le fichier est invalide à des fins de test.'
     radio_choice:
-      label: 'Choix radio'
+      label: 'Boutons radio'
       help: 'Sélectionnez une option dans la liste.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Le choix radio est invalide à des fins de test.'
@@ -846,7 +846,7 @@ he:
       error:
         ERR_FIELD_FILE_INVALID: 'הקובץ אינו תקין למטרות בדיקה.'
     radio_choice:
-      label: 'בחירת רדיו'
+      label: 'לחצני בחירה'
       help: 'בחר אפשרות אחת מהרשימה.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'בחירת הרדיו אינה תקינה למטרות בדיקה.'
@@ -944,7 +944,7 @@ hi:
       error:
         ERR_FIELD_FILE_INVALID: 'फाइल परीक्षण के उद्देश्य के लिए अमान्य है।'
     radio_choice:
-      label: 'रेडियो विकल्प'
+      label: 'रेडियो बटन'
       help: 'सूची में से एक विकल्प चुनें।'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'रेडियो विकल्प परीक्षण के उद्देश्य के लिए अमान्य है।'
@@ -1042,7 +1042,7 @@ id:
       error:
         ERR_FIELD_FILE_INVALID: 'Berkas tidak valid untuk tujuan pengujian.'
     radio_choice:
-      label: 'Pilihan radio'
+      label: 'Tombol radio'
       help: 'Pilih satu opsi dari daftar.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Pilihan radio tidak valid untuk tujuan pengujian.'
@@ -1140,7 +1140,7 @@ it:
       error:
         ERR_FIELD_FILE_INVALID: 'Il file non è valido per scopi di test.'
     radio_choice:
-      label: 'Scelta radio'
+      label: 'Pulsanti di opzione'
       help: "Seleziona un'opzione dall'elenco."
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'La scelta radio non è valida per scopi di test.'
@@ -1238,7 +1238,7 @@ ja:
       error:
         ERR_FIELD_FILE_INVALID: ファイルはテスト用に無効です。
     radio_choice:
-      label: ラジオ選択
+      label: 'ラジオボタン'
       help: リストから1つのオプションを選択してください。
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: ラジオ選択はテスト用に無効です。
@@ -1336,7 +1336,7 @@ ko:
       error:
         ERR_FIELD_FILE_INVALID: '파일이 테스트 용도로 유효하지 않습니다.'
     radio_choice:
-      label: '라디오 선택'
+      label: '라디오 버튼'
       help: '목록에서 하나의 옵션을 선택하세요.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: '라디오 선택이 테스트 용도로 유효하지 않습니다.'
@@ -1434,7 +1434,7 @@ nl:
       error:
         ERR_FIELD_FILE_INVALID: 'Bestand is ongeldig voor testdoeleinden.'
     radio_choice:
-      label: 'Radio keuze'
+      label: 'Keuzerondjes'
       help: 'Selecteer één optie uit de lijst.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Radio keuze is ongeldig voor testdoeleinden.'
@@ -1532,7 +1532,7 @@ pl:
       error:
         ERR_FIELD_FILE_INVALID: 'Plik jest nieprawidłowy w celach testowych.'
     radio_choice:
-      label: 'Wybór radiowy'
+      label: 'Przyciski opcji'
       help: 'Wybierz jedną opcję z listy.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Wybór radiowy jest nieprawidłowy w celach testowych.'
@@ -1630,7 +1630,7 @@ pt_BR:
       error:
         ERR_FIELD_FILE_INVALID: 'Arquivo é inválido para fins de teste.'
     radio_choice:
-      label: 'Escolha de rádio'
+      label: 'Botões de opção'
       help: 'Selecione uma opção da lista.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Escolha de rádio é inválida para fins de teste.'
@@ -1728,7 +1728,7 @@ ru:
       error:
         ERR_FIELD_FILE_INVALID: 'Файл недействителен для теста.'
     radio_choice:
-      label: 'Выбор радио'
+      label: 'Переключатели'
       help: 'Выберите один вариант из списка.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Выбор радио недействителен для теста.'
@@ -1826,7 +1826,7 @@ th:
       error:
         ERR_FIELD_FILE_INVALID: ไฟล์ไม่ถูกต้องสำหรับการทดสอบ
     radio_choice:
-      label: ตัวเลือกวิทยุ
+      label: 'ปุ่มตัวเลือก'
       help: เลือกตัวเลือกหนึ่งจากรายการ
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: ตัวเลือกวิทยุไม่ถูกต้องสำหรับการทดสอบ
@@ -1924,7 +1924,7 @@ tr:
       error:
         ERR_FIELD_FILE_INVALID: 'Dosya test amaçları için geçersiz.'
     radio_choice:
-      label: 'Radyo seçimi'
+      label: 'Seçenek düğmeleri'
       help: 'Listeden bir seçenek seçin.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Radyo seçimi test amaçları için geçersiz.'
@@ -2022,7 +2022,7 @@ ur:
       error:
         ERR_FIELD_FILE_INVALID: 'فائل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
     radio_choice:
-      label: 'ریڈیو انتخاب'
+      label: 'ریڈیو بٹن'
       help: 'فہرست میں سے ایک آپشن منتخب کریں۔'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'ریڈیو انتخاب ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
@@ -2120,7 +2120,7 @@ vi:
       error:
         ERR_FIELD_FILE_INVALID: 'Tệp không hợp lệ cho mục đích thử nghiệm.'
     radio_choice:
-      label: 'Lựa chọn radio'
+      label: 'Nút chọn một'
       help: 'Chọn một tùy chọn từ danh sách.'
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 'Lựa chọn radio không hợp lệ cho mục đích thử nghiệm.'
@@ -2218,7 +2218,7 @@ zh:
       error:
         ERR_FIELD_FILE_INVALID: 文件无效，仅供测试。
     radio_choice:
-      label: 单选
+      label: '单选按钮'
       help: 从列表中选择一个选项。
       error:
         ERR_FIELD_RADIO_CHOICE_INVALID: 单选无效，仅供测试。

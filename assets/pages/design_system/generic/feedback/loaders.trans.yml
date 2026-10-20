@@ -27,12 +27,12 @@ en:
 
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: محملات
+  page_title: 'مؤشرات التحميل'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'هناك شيء يحدث ونهايته غير معروفة. كلاهما يقول الكثير ويرفض قول المزيد - حيث تُعرف النهاية، يقول الشريط في علامة التبويب التالية ذلك بدلاً من ذلك.'
   section:
     spinner:
-      title: دوار
+      title: 'مؤشر دوّار'
       description: 'آلة مشغولة. ثلاثة أحجام، ومحاذاة داخلية عندما تكون في سطر نص بدلاً من أن تكون في صندوق خاص بها.'
     dots:
       title: نقاط
@@ -49,7 +49,7 @@ ar:
 
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: লোডার
+  page_title: 'লোডিং নির্দেশক'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'কিছু হচ্ছে এবং এর শেষ জানানো হয়নি। উভয়ই এটাই বলছে এবং আরও কিছু বলতে অস্বীকৃতি জানাচ্ছে — যেখানে শেষ জানা যায়, পরবর্তী ট্যাবে বারটি তা জানাচ্ছে।'
   section:
@@ -93,12 +93,12 @@ de:
 
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Cargadores
+  page_title: 'Indicadores de carga'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Algo está sucediendo y su final no se conoce. Ambos dicen eso y se niegan a decir más — donde se conoce el final, la barra en la siguiente pestaña lo dice en su lugar.'
   section:
     spinner:
-      title: Girador
+      title: 'Spinner'
       description: 'Una máquina está ocupada. Tres tamaños, y una alineación en línea para cuando se coloca en una línea de texto en lugar de en una caja propia.'
     dots:
       title: Puntos
@@ -115,12 +115,12 @@ es:
 
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: بارگذارها
+  page_title: 'نشانگرهای بارگذاری'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'چیزی در حال وقوع است و پایان آن مشخص نیست. هر دو اینها همین را می‌گویند و بیشتر از آن نمی‌گویند — جایی که پایان مشخص است، نوار در زبانه بعدی این را می‌گوید.'
   section:
     spinner:
-      title: چرخاننده
+      title: 'نشانگر چرخان'
       description: 'یک دستگاه مشغول است. سه اندازه و یک تراز درون‌خطی برای زمانی که در یک خط متن قرار دارد به جای اینکه در یک جعبه جداگانه باشد.'
     dots:
       title: نقاط
@@ -137,12 +137,12 @@ fa:
 
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Lataajat
+  page_title: 'Latausilmaisimet'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Jotain on tapahtumassa, eikä sen loppua tiedetä. Molemmat sanovat sen verran ja kieltäytyvät sanomasta enempää — kun loppu on tiedossa, seuraavalla välilehdellä oleva palkki kertoo sen sen sijaan.'
   section:
     spinner:
-      title: Pyörijä
+      title: 'Latauspyörä'
       description: 'Kone on kiireinen. Kolme kokoa ja inline-asettelu, kun se on tekstirivillä eikä omassa laatikossaan.'
     dots:
       title: Pisteet
@@ -159,12 +159,12 @@ fi:
 
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Chargeurs
+  page_title: 'Indicateurs de chargement'
   page_icon: 'ph:bold/spinner-gap'
   intro: "Quelque chose se passe et la fin n'est pas connue. Les deux disent cela et refusent d'en dire plus - là où la fin est connue, la barre sur l'onglet suivant le dit à la place."
   section:
     spinner:
-      title: Spinners
+      title: 'Spinner'
       description: 'Une machine est occupée. Trois tailles, et un alignement en ligne pour quand il se trouve dans une ligne de texte plutôt que dans une boîte à part.'
     dots:
       title: Points
@@ -181,7 +181,7 @@ fr:
 
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: טעינה
+  page_title: 'מחווני טעינה'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'משהו קורה וסופו אינו ידוע. שני אלה אומרים הרבה ומסרבים לומר יותר - כאשר הסוף ידוע, הסרגל בטאב הבא אומר זאת במקום.'
   section:
@@ -203,7 +203,7 @@ he:
 
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: लोडर्स
+  page_title: 'लोडिंग संकेतक'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'कुछ हो रहा है और इसका अंत ज्ञात नहीं है। दोनों ही इसका संकेत देते हैं और इससे अधिक नहीं बताते — जहां अंत ज्ञात है, वहां अगले टैब पर बार इसका संकेत देता है।'
   section:
@@ -225,7 +225,7 @@ hi:
 
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Loader
+  page_title: 'Indikator pemuatan'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Sesuatu sedang terjadi dan akhir dari itu tidak diketahui. Keduanya mengatakan banyak dan menolak untuk mengatakan lebih — di mana akhir diketahui, bar di tab berikutnya mengatakannya sebagai gantinya.'
   section:
@@ -247,7 +247,7 @@ id:
 
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Caricamenti
+  page_title: 'Indicatori di caricamento'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Qualcosa sta accadendo e non si conosce la sua fine. Entrambi dicono questo e rifiutano di dire di più — dove la fine è conosciuta, la barra nella scheda successiva lo indica invece.'
   section:
@@ -269,7 +269,7 @@ it:
 
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: ローダー
+  page_title: 'ローディング表示'
   page_icon: 'ph:bold/spinner-gap'
   intro: '何かが起こっていますが、その終わりは不明です。これらはそのことを示し、それ以上は言いません — 終わりがわかっている場合は、次のタブのバーがそれを示します。'
   section:
@@ -291,7 +291,7 @@ ja:
 
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 로더
+  page_title: '로딩 표시'
   page_icon: 'ph:bold/spinner-gap'
   intro: '무언가가 진행 중이며 그 끝이 알려지지 않았습니다. 이 둘은 그 정도까지만 이야기하며 더 이상 말하지 않습니다 — 끝이 알려진 경우, 다음 탭의 바가 대신 그것을 나타냅니다.'
   section:
@@ -313,7 +313,7 @@ ko:
 
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Laders
+  page_title: 'Laadindicatoren'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Er gebeurt iets en het einde is niet bekend. Beide zeggen dat veel en weigeren meer te zeggen — waar het einde bekend is, zegt de balk op het volgende tabblad het in plaats daarvan.'
   section:
@@ -335,7 +335,7 @@ nl:
 
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Ładowarki
+  page_title: 'Wskaźniki ładowania'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Coś się dzieje, a jego koniec nie jest znany. Oba te przypadki mówią o tym, ale odmawiają dalszego wyjaśnienia — tam, gdzie koniec jest znany, pasek na następnej karcie mówi to zamiast nich.'
   section:
@@ -357,12 +357,12 @@ pl:
 
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Carregadores
+  page_title: 'Indicadores de carregamento'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Algo está acontecendo e seu fim não é conhecido. Ambos dizem isso e se recusam a dizer mais — onde o fim é conhecido, a barra na próxima aba diz isso.'
   section:
     spinner:
-      title: Carregador
+      title: 'Spinner'
       description: 'Uma máquina está ocupada. Três tamanhos, e um alinhamento em linha para quando está em uma linha de texto em vez de em uma caixa própria.'
     dots:
       title: Pontos
@@ -379,7 +379,7 @@ pt_BR:
 
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Загрузчики
+  page_title: 'Индикаторы загрузки'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Что-то происходит, и его конец неизвестен. Оба этих элемента говорят именно это и отказываются говорить больше — когда конец известен, полоса на следующей вкладке сообщает об этом вместо них.'
   section:
@@ -401,7 +401,7 @@ ru:
 
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: โหลด
+  page_title: 'ตัวแสดงการโหลด'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'กำลังเกิดบางอย่างขึ้นและไม่ทราบจุดสิ้นสุด ทั้งคู่บอกเพียงเท่านี้และไม่บอกอะไรเพิ่มเติม — เมื่อตอนจบทราบแล้ว แถบในแท็บถัดไปจะแสดงแทน.'
   section:
@@ -423,12 +423,12 @@ th:
 
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Yükleyiciler
+  page_title: 'Yükleme göstergeleri'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Bir şeyler oluyor ve sonu bilinmiyor. Her ikisi de bunu söylüyor ve daha fazlasını söylemeyi reddediyor - sonun bilindiği yerde, bir sonraki sekmedeki çubuk bunu söylüyor.'
   section:
     spinner:
-      title: Dönme
+      title: 'Spinner'
       description: 'Bir makine meşgul. Üç boyut ve kendi kutusu yerine bir metin satırında durduğunda satır içi hizalama.'
     dots:
       title: Noktalar
@@ -445,7 +445,7 @@ tr:
 
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: لوڈرز
+  page_title: 'لوڈنگ اشارے'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'کچھ ہو رہا ہے اور اس کا اختتام معلوم نہیں ہے۔ دونوں یہ بہت کچھ کہتے ہیں اور مزید کچھ کہنے سے انکار کرتے ہیں — جہاں اختتام معلوم ہے، وہاں اگلے ٹیب پر بار یہ کہتا ہے۔'
   section:
@@ -467,7 +467,7 @@ ur:
 
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Loaders
+  page_title: 'Chỉ báo tải'
   page_icon: 'ph:bold/spinner-gap'
   intro: 'Có điều gì đó đang diễn ra và không biết khi nào thì kết thúc. Cả hai đều nói được điều đó và từ chối nói thêm — nơi mà kết thúc đã được biết, thanh trên tab tiếp theo sẽ nói thay cho nó.'
   section:
@@ -489,12 +489,12 @@ vi:
 
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 加载器
+  page_title: '加载指示器'
   page_icon: 'ph:bold/spinner-gap'
   intro: 某些事情正在发生，结束未知。这两者都表明了这一点，但拒绝多说——当结束已知时，下一个标签上的条形图会代替它说明。
   section:
     spinner:
-      title: 旋转器
+      title: '加载动画'
       description: 一台机器正在忙碌。三种尺寸，以及当它在文本行中排列而不是独立在框中时的内联对齐。
     dots:
       title: 点

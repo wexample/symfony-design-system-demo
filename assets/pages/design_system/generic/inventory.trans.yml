@@ -508,7 +508,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inventaire
-  document_title: 'Inventaire de chaque élément — Système de design'
+  document_title: 'Inventaire de chaque élément — Design system'
   page_description: 'Chaque élément livré par le design system et ses formats, compilés depuis le registre de chaque bundle et vérifiés contre ses fichiers.'
   page_icon: 'ph:bold/list-checks'
   intro: "Chaque élément que le bundle expédie, et les formats dans lesquels il est livré. Le tableau n'est pas une liste que quelqu'un maintient : c'est le registre que chaque bundle expédie, compilé à partir de ses déclarations et vérifié par un examen de ses composants. Il répond à ce qui est présent — jamais à ce qui devrait être, une question qu'aucun scan ne peut régler et que les éléments devront déclarer eux-mêmes."

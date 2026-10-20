@@ -246,7 +246,7 @@ fr:
 
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: טוליפ
+  page_title: 'תיבת הסבר'
   page_icon: 'ph:bold/chat-centered-text'
   intro: 'כמה מילים על מה שהסמן או הפוקוס נמצאים עליו, לידו. יש טוליפ אחד עבור הדף, שממוקם על ידי העיצוב: כל אלמנט מבקש אותו עם data-tooltip — tooltip() כותב את זה ב-twig, vue קושר את זה — והוא מופיע מתחת לסמן לאחר רגע, מתחת לפוקוס של המקלדת מיד, ולא מתחת לאצבע. הוא מתרחק מהקצוות של החלון ולא עוזב אותו.'
   section:
@@ -546,7 +546,7 @@ ru:
 
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: คำอธิบายขนาดเล็ก
+  page_title: 'ทูลทิป'
   page_icon: 'ph:bold/chat-centered-text'
   intro: 'คำพูดเล็กๆ น้อยๆ เกี่ยวกับสิ่งที่ตัวชี้หรือโฟกัสอยู่ข้างๆ มีคำอธิบายขนาดเล็กสำหรับหน้า วางโดยรูปแบบ: องค์ประกอบใดๆ ขอคำอธิบายนี้ด้วย data-tooltip — tooltip() เขียนใน twig, vue ผูกมันไว้ — และมันจะปรากฏใต้ตัวชี้หลังจากนั้นไม่นาน, ใต้โฟกัสของคีย์บอร์ดทันที, และไม่เคยอยู่ใต้ปลายนิ้ว มันหันออกจากขอบหน้าต่างแทนที่จะออกไป'
   section:
@@ -576,7 +576,7 @@ th:
 
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Açıklama Balonu'
+  page_title: 'Araç ipucu'
   page_icon: 'ph:bold/chat-centered-text'
   intro: 'İmlecin veya odaklanmanın üzerinde olduğu şey hakkında birkaç kelime. Sayfa için yerleşim tarafından konulmuş bir açıklama balonu vardır: herhangi bir öğe bunun için data-tooltip ile talep eder — tooltip() bunu twig içinde yazar, bir vue bağlar — ve bir süre sonra imlecin altına gelir, klavyenin odaklandığı yere hemen gelir ve asla bir parmağın altına gelmez. Pencerenin kenarlarından uzak durarak, onu terk etmez.'
   section:
@@ -636,7 +636,7 @@ ur:
 
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Chú thích'
+  page_title: 'Tooltip'
   page_icon: 'ph:bold/chat-centered-text'
   intro: 'Một vài từ về vị trí hoặc tiêu điểm mà nó đang nằm ở đó. Có một chú thích cho trang, được đặt bởi bố cục: bất kỳ phần tử nào cần nó với data-tooltip — tooltip() viết nó trong twig, một vue liên kết nó — và nó xuất hiện dưới con trỏ sau một lúc, dưới tiêu điểm của bàn phím ngay lập tức, và không bao giờ dưới ngón tay. Nó tránh xa các cạnh của cửa sổ thay vì rời khỏi đó.'
   section:

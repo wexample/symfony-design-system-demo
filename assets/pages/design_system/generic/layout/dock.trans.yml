@@ -46,7 +46,7 @@ fr:
       title: 'Deux groupes, une zone ouverte dans chacun'
       body: "Les icônes du haut de la barre ouvrent leur zone dans la partie haute de la colonne, celles du bas dans la partie basse, une seule ouverte à la fois dans chaque groupe. Seule, une zone prend toute la colonne ; quand rien n'est ouvert, la colonne disparaît. La colonne s'élargit en tirant son bord de début, et l'état de chaque outil revient avec la page."
     horizontal:
-      title: 'Couché en haut'
+      title: 'Le long du bord supérieur'
       body: "Avec l'orientation horizontal, la barre est posée en haut et le dock devient le corps d'une page, écrit dans un page--fill : ce qu'ouvre le début de la barre se place à côté de ce qu'ouvre sa fin, en dessous. Un outil dessiné bord à bord sur toute la hauteur de la zone — un éditeur — le demande avec fill."
     usage:
       title: Utilisation
@@ -110,7 +110,7 @@ ar:
       title: 'مجموعتان، واحدة مفتوحة في كل منهما'
       body: 'تفتح الأيقونات في أعلى الشريط منطقتها في الجزء العلوي من العمود، وتلك في أسفل الشريط في الجزء السفلي، واحدة مفتوحة في كل مرة. بمفردها، تأخذ المنطقة العمود بالكامل؛ وعندما لا يوجد شيء مفتوح، يختفي العمود. يمكن سحب العمود ليصبح أوسع من حافته الأمامية، وما تركه كل أداة يعود مع الصفحة.'
     horizontal:
-      title: 'ممتد على القمة'
+      title: 'على طول الحافة العلوية'
       body: 'مع الاتجاه الأفقي، يمتد الشريط على القمة ويكون الرصيف هو جسم الصفحة، مكتوب في صفحة--ملء: ما يفتحه بداية الشريط يقف بجانب ما يفتحه نهايته، تحته. أداة تمتد من طرف إلى طرف وتأخذ ارتفاع المنطقة - محرر - تقول ذلك مع الملء.'
     usage:
       title: الاستخدام
@@ -142,7 +142,7 @@ hi:
       title: 'दो समूह, प्रत्येक में एक खुला'
       body: 'पट्टी के शीर्ष पर आइकन अपने क्षेत्र को कॉलम के ऊपरी भाग में खोलते हैं, नीचे की ओर वाले अपने क्षेत्र को निचले भाग में खोलते हैं, प्रत्येक में एक बार में एक खुलता है। अकेले, एक क्षेत्र पूरे कॉलम को ले लेता है; कुछ भी न खुलने पर, कॉलम गायब हो जाता है। कॉलम को इसके प्रारंभिक किनारे से चौड़ा किया जाता है, और जो भी उपकरण छोड़ा गया था, वह पृष्ठ के साथ वापस आ जाता है।'
     horizontal:
-      title: 'ऊपर की ओर फैला हुआ'
+      title: 'ऊपरी किनारे के साथ'
       body: 'क्षितिज का उन्मुखीकरण दिया गया, पट्टी ऊपर की ओर फैली हुई है और डॉक एक पृष्ठ का शरीर है, एक पृष्ठ में लिखा गया--भरना: पट्टी का प्रारंभ जो खोलता है, वह उसके अंत के द्वारा खोले गए की बगल में है, इसके नीचे। एक उपकरण जो किनारे से किनारे खींचा गया है और क्षेत्र की ऊँचाई लेता है - एक संपादक - ऐसा ही भरने के साथ कहता है।'
     usage:
       title: उपयोग
@@ -166,7 +166,7 @@ hi:
 
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'דוק הכלים'
+  page_title: 'מעגן כלים'
   page_icon: 'ph:bold/sidebar-simple'
   intro: 'כלים לאורך קצה של עמוד, כפי שיש ל-IDE: שורת סמלים, כל אחד פותח אזור בעמודה לצד העמוד. השורה בצד ימין של עמוד זה היא אחת כזו.'
   section:
@@ -174,7 +174,7 @@ he:
       title: 'שתי קבוצות, אחת פתוחה בכל אחת'
       body: 'הסמלים בחלק העליון של השורה פותחים את האזור שלהם בחלק העליון של העמודה, ואלה שבסוף פותחים בחלק התחתון, אחד פתוח בכל פעם. לבד, אזור תופס את כל העמודה; כשאין כלום פתוח, העמודה נעלמת. העמודה נגררת רחבה מקצה ההתחלה שלה, ומה שכל כלי הושאר עליו חוזר עם העמוד.'
     horizontal:
-      title: 'שוכב לאורך החלק העליון'
+      title: 'לאורך הקצה העליון'
       body: 'בהתאם לכיוון אופקי, השורה שוכבת לאורך החלק העליון ודוק הכלים הוא גוף העמוד, נכתב בעמוד--מילוי: מה שהתחלת השורה פותחת עומד לצד מה שסופה פותחת, מתחתיו. כלי שנמשך מקצה לקצה ותופס את גובה האזור — עורך — אומר זאת עם מילוי.'
     usage:
       title: שימוש
@@ -198,7 +198,7 @@ he:
 
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'پانل ابزار'
+  page_title: 'داک ابزار'
   page_icon: 'ph:bold/sidebar-simple'
   intro: 'ابزارها در انتهای یک صفحه، همانطور که یک IDE دارد: نوار نمادها، هرکدام یک ناحیه را در ستونی در کنار صفحه باز می‌کند. نوار در سمت راست این صفحه یکی از آن‌هاست.'
   section:
@@ -238,7 +238,7 @@ ur:
       title: 'دو گروپ، ہر ایک میں ایک کھلا'
       body: 'بار کے اوپر کے آئیکونز اپنے زون کو کالم کے اوپر کے حصے میں کھولتے ہیں، اس کے نیچے کے حصے میں نیچے کے آئیکونز، ہر ایک وقت میں ایک کھلا۔ اکیلا، ایک زون پورے کالم کو لیتا ہے؛ کچھ بھی کھلا نہ ہونے پر، کالم غائب ہوتا ہے۔ کالم کو اس کے شروع کے کنارے سے چوڑا کیا جاتا ہے، اور جو بھی ٹول چھوڑا گیا تھا وہ صفحے کے ساتھ واپس آتا ہے۔'
     horizontal:
-      title: 'اوپر کی طرف لیٹا ہوا'
+      title: 'اوپری کنارے کے ساتھ'
       body: 'جب افقی سمت دی جائے تو بار اوپر کی طرف لیٹی ہوتی ہے اور ڈاک ایک صفحے کا جسم ہوتا ہے، جس میں صفحے کی بھرائی ہوتی ہے: بار کے شروع کا کھلا ہوا اس کے آخر کے کھولے کے ساتھ ساتھ ہوتا ہے، اس کے نیچے۔ ایک ٹول جو کنارے سے کنارے کھینچا گیا ہے اور زون کی اونچائی لیتا ہے — ایک ایڈیٹر — اس بات کا اشارہ دیتا ہے کہ بھرائی کی گئی ہے۔'
     usage:
       title: استعمال
@@ -270,7 +270,7 @@ ja:
       title: 二つのグループ、各々に一つ開いている
       body: バーの上部にあるアイコンは列の上部にあるゾーンを開き、下部にあるアイコンは下部のゾーンを開きます。各々一つずつ開くことができます。ゾーンが単独の場合、列全体を占めます。何も開いていないと列は消えます。列は開始エッジから広げられ、各ツールの設定がページと共に戻ります。
     horizontal:
-      title: 上部に横たわる
+      title: '上端に沿って'
       body: 横向きの配置が与えられた場合、バーは上部に横たわり、ドックはページの本体となります。バーの始まりが開いているものは、その終わりが開いているものの横にあり、その下にあります。エッジからエッジまで引かれ、ゾーンの高さを取るツール—エディタ—はそう示します。
     usage:
       title: 使用法
@@ -358,7 +358,7 @@ bn:
 
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: เครื่องมือด็อค
+  page_title: 'แถบเครื่องมือด็อก'
   page_icon: 'ph:bold/sidebar-simple'
   intro: 'เครื่องมือที่อยู่ตามขอบของหน้าเหมือนที่ IDE มี: แถบไอคอนที่เปิดโซนในคอลัมน์ข้างๆ หน้า แถบที่อยู่ทางขวาของหน้านี้คือหนึ่งในนั้น'
   section:
@@ -398,7 +398,7 @@ de:
       title: 'Zwei Gruppen, eine jeweils geöffnet'
       body: 'Die Symbole oben in der Leiste öffnen ihre Zone im oberen Teil der Spalte, die unten in ihrem Fuß im unteren Teil, jeweils eine in jedem. Allein nimmt eine Zone die gesamte Spalte ein; wenn nichts geöffnet ist, ist die Spalte weg. Die Spalte kann von ihrer Startkante aus breiter gezogen werden, und was jedes Werkzeug hatte, kommt mit der Seite zurück.'
     horizontal:
-      title: 'Liegend oben'
+      title: 'Entlang der Oberkante'
       body: 'Bei horizontaler Ausrichtung liegt die Leiste oben und das Dock ist der Körper einer Seite, geschrieben in einer Seite--füllend: was der Anfang der Leiste öffnet, steht neben dem, was ihr Ende öffnet, darunter. Ein Werkzeug, das randlos gezeichnet ist und die Höhe der Zone einnimmt – ein Editor – sagt das mit Füllung.'
     usage:
       title: Verwendung
@@ -422,7 +422,7 @@ de:
 
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: Työkalupaneeli
+  page_title: 'Työkalutelakka'
   page_icon: 'ph:bold/sidebar-simple'
   intro: 'Työkalut sivun lopussa, kuten IDE:ssä: ikonipalkki, joka avaa vyöhykkeen sarakkeessa sivun vieressä. Tämän sivun oikealla puolella oleva palkki on yksi niistä.'
   section:
@@ -454,7 +454,7 @@ fi:
 
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Панель инструментов'
+  page_title: 'Док инструментов'
   page_icon: 'ph:bold/sidebar-simple'
   intro: 'Инструменты в конце страницы, как в IDE: панель значков, каждый из которых открывает зону в колонне рядом со страницей. Панель справа от этой страницы — одна из них.'
   section:
@@ -462,7 +462,7 @@ ru:
       title: 'Две группы, по одной открытой в каждой'
       body: 'Значки в верхней части панели открывают свою зону в верхней части колонны, а те, что внизу — в нижней части, по одной открытой в каждой. Одна зона занимает всю колонну; если ничего не открыто, колонна исчезает. Колонну можно растянуть шире от ее начального края, и то, что осталось от каждого инструмента, вернется с страницей.'
     horizontal:
-      title: 'Лежит вдоль верха'
+      title: 'Вдоль верхнего края'
       body: 'При горизонтальной ориентации панель лежит вдоль верха, а док — это тело страницы, написанное в странице — заполнение: то, что открывает начало панели, стоит рядом с тем, что открывает ее конец, под ней. Инструмент, нарисованный от края до края и занимающий высоту зоны — редактор — говорит об этом с помощью заполнения.'
     usage:
       title: Использование
@@ -494,7 +494,7 @@ pl:
       title: 'Dwie grupy, jedna otwarta w każdej'
       body: 'Ikony na górze paska otwierają swoją strefę w górnej części kolumny, te na jego końcu w dolnej części, jedna otwarta na raz w każdej. Sama strefa zajmuje całą kolumnę; przy braku otwartych stref, kolumna znika. Kolumna jest przeciągana szerzej od swojego początkowego krawędzi, a to, co każde narzędzie miało, powraca z stroną.'
     horizontal:
-      title: 'Leżący wzdłuż góry'
+      title: 'Wzdłuż górnej krawędzi'
       body: 'Przy poziomej orientacji, pasek leży wzdłuż góry, a dock jest ciałem strony, zapisanym w stronie--wypełnieniu: to, co otwiera początek paska, stoi obok tego, co otwiera jego koniec, pod nim. Narzędzie narysowane od krawędzi do krawędzi i zajmujące wysokość strefy — edytor — mówi to za pomocą wypełnienia.'
     usage:
       title: Użycie
@@ -526,7 +526,7 @@ es:
       title: 'Dos grupos, uno abierto en cada uno'
       body: 'Los íconos en la parte superior de la barra abren su zona en la parte superior de la columna, aquellos en su pie en la parte inferior, uno abierto a la vez en cada uno. Solo, una zona ocupa toda la columna; con nada abierto, la columna desaparece. La columna se arrastra más ancha desde su borde inicial, y lo que cada herramienta tenía se recupera con la página.'
     horizontal:
-      title: 'Acostado en la parte superior'
+      title: 'A lo largo del borde superior'
       body: 'Con orientación horizontal, la barra se encuentra a lo largo de la parte superior y el dock es el cuerpo de una página, escrito en una página--relleno: lo que el inicio de la barra abre se encuentra al lado de lo que su final abre, debajo de ella. Una herramienta dibujada de borde a borde y ocupando la altura de la zona — un editor — lo indica con relleno.'
     usage:
       title: Uso
@@ -558,7 +558,7 @@ it:
       title: 'Due gruppi, uno aperto in ciascuno'
       body: "Le icone in cima alla barra aprono la loro zona nella parte superiore della colonna, quelle in fondo nella parte inferiore, una aperta alla volta in ciascuna. Da sole, una zona occupa l'intera colonna; con nulla aperto, la colonna scompare. La colonna può essere allargata dal suo bordo iniziale, e ciò che ogni strumento aveva impostato torna con la pagina."
     horizontal:
-      title: 'Distesa lungo la parte superiore'
+      title: 'Lungo il bordo superiore'
       body: "Data l'orientazione orizzontale, la barra si distende lungo la parte superiore e il dock è il corpo di una pagina, scritta in una pagina--riempi: ciò che l'inizio della barra apre sta accanto a ciò che la sua fine apre, sotto di essa. Uno strumento disegnato da bordo a bordo e che prende l'altezza della zona — un editor — lo indica con il riempimento."
     usage:
       title: Utilizzo
@@ -590,7 +590,7 @@ pt_BR:
       title: 'Dois grupos, um aberto em cada'
       body: 'Os ícones na parte superior da barra abrem sua zona na parte superior da coluna, aqueles na parte inferior na parte inferior, um aberto por vez em cada. Sozinha, uma zona ocupa toda a coluna; com nada aberto, a coluna desaparece. A coluna é arrastada para ficar mais larga a partir de sua borda inicial, e o que cada ferramenta estava configurada volta com a página.'
     horizontal:
-      title: 'Deitado ao longo do topo'
+      title: 'Ao longo da borda superior'
       body: 'Com a orientação horizontal, a barra fica ao longo do topo e o dock é o corpo de uma página, escrito em uma página--preencher: o que o início da barra abre fica ao lado do que seu fim abre, abaixo dele. Uma ferramenta desenhada de borda a borda e ocupando a altura da zona — um editor — diz isso com preenchimento.'
     usage:
       title: Uso
@@ -614,7 +614,7 @@ pt_BR:
 
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Araç rıhtımı'
+  page_title: 'Araç dock''u'
   page_icon: 'ph:bold/sidebar-simple'
   intro: "Bir sayfanın sonunda bulunan araçlar, bir IDE'de olduğu gibi: her biri sayfanın yanındaki bir sütunda bir alan açan simgelerden oluşan bir çubuk. Bu sayfanın sağındaki çubuk böyle bir çubuktur."
   section:
@@ -646,7 +646,7 @@ tr:
 
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Bảng công cụ'
+  page_title: 'Dock công cụ'
   page_icon: 'ph:bold/sidebar-simple'
   intro: 'Các công cụ nằm ở cuối trang, giống như trong IDE: một thanh biểu tượng, mỗi biểu tượng mở một khu vực trong cột bên cạnh trang. Thanh ở bên phải của trang này là một ví dụ.'
   section:
@@ -686,7 +686,7 @@ id:
       title: 'Dua grup, satu terbuka di masing-masing'
       body: 'Ikon di bagian atas bilah membuka zona mereka di bagian atas kolom, yang di bagian bawah membuka di bagian bawah, satu terbuka pada satu waktu di masing-masing. Sendirian, sebuah zona mengambil seluruh kolom; dengan tidak ada yang terbuka, kolom menghilang. Kolom dapat diseret lebih lebar dari tepi awalnya, dan apa yang ditinggalkan masing-masing alat akan kembali dengan halaman.'
     horizontal:
-      title: 'Berbaring di sepanjang atas'
+      title: 'Di sepanjang tepi atas'
       body: 'Dengan orientasi horizontal, bilah berbaring di sepanjang atas dan dock adalah bagian dari halaman, ditulis dalam halaman--isi: apa yang dibuka oleh awal bilah berdampingan dengan apa yang dibuka oleh akhirnya, di bawahnya. Sebuah alat yang ditarik dari tepi ke tepi dan mengambil tinggi zona — sebuah editor — mengatakan demikian dengan isi.'
     usage:
       title: Penggunaan
@@ -718,7 +718,7 @@ nl:
       title: 'Twee groepen, één open in elke'
       body: 'De pictogrammen bovenaan de balk openen hun zone in het bovenste gedeelte van de kolom, die aan de voet in het onderste gedeelte, één tegelijk in elke. Alleen neemt een zone de hele kolom; als er niets open is, is de kolom verdwenen. De kolom wordt breder getrokken vanaf de startrand, en wat elk hulpmiddel was, komt terug met de pagina.'
     horizontal:
-      title: 'Liggend langs de bovenkant'
+      title: 'Langs de bovenrand'
       body: 'Gegeven dat de oriëntatie horizontaal is, ligt de balk langs de bovenkant en is het dock het lichaam van een pagina, geschreven in een pagina--vullen: wat het begin van de balk opent staat naast wat het einde opent, eronder. Een hulpmiddel dat van rand tot rand getekend is en de hoogte van de zone neemt — een editor — zegt dat zo met vullen.'
     usage:
       title: Gebruik

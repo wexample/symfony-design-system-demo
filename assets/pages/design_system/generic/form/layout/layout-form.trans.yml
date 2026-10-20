@@ -11,7 +11,7 @@ en:
 ar:
   tab:
     index: 'نظرة عامة'
-    inputs: المدخلات
+    inputs: 'حقول الإدخال'
     basic: 'نماذج أساسية'
     rendered: 'نماذج متقدمة'
     ajax: 'نماذج Ajax'
@@ -21,7 +21,7 @@ ar:
 bn:
   tab:
     index: সারসংক্ষেপ
-    inputs: ইনপুটস
+    inputs: 'ইনপুট ফিল্ড'
     basic: 'মৌলিক ফর্ম'
     rendered: 'উন্নত ফর্ম'
     ajax: 'এজাক্স ফর্ম'
@@ -31,7 +31,7 @@ bn:
 de:
   tab:
     index: Übersicht
-    inputs: Eingaben
+    inputs: 'Eingabefelder'
     basic: 'Einfache Formulare'
     rendered: 'Erweiterte Formulare'
     ajax: Ajax-Formulare
@@ -41,7 +41,7 @@ de:
 es:
   tab:
     index: 'Descripción general'
-    inputs: Entradas
+    inputs: 'Campos'
     basic: 'Formas básicas'
     rendered: 'Formas avanzadas'
     ajax: 'Formas Ajax'
@@ -51,7 +51,7 @@ es:
 fa:
   tab:
     index: 'مرور کلی'
-    inputs: ورودی‌ها
+    inputs: 'فیلدهای ورودی'
     basic: 'فرم‌های پایه'
     rendered: 'فرم‌های پیشرفته'
     ajax: 'فرم‌های Ajax'
@@ -61,7 +61,7 @@ fa:
 fi:
   tab:
     index: Yhteenveto
-    inputs: Syötteet
+    inputs: 'Syöttökentät'
     basic: Peruslomakkeet
     rendered: 'Kehittyneet lomakkeet'
     ajax: Ajax-lomakkeet
@@ -71,7 +71,7 @@ fi:
 fr:
   tab:
     index: Aperçu
-    inputs: Entrées
+    inputs: 'Champs'
     basic: 'Formulaires de base'
     rendered: 'Formulaires avancés'
     ajax: 'Formulaires Ajax'
@@ -81,7 +81,7 @@ fr:
 he:
   tab:
     index: סקירה
-    inputs: קלטים
+    inputs: 'שדות קלט'
     basic: 'טפסים בסיסיים'
     rendered: 'טפסים מתקדמים'
     ajax: 'טפסי Ajax'
@@ -91,7 +91,7 @@ he:
 hi:
   tab:
     index: सारांश
-    inputs: इनपुट्स
+    inputs: 'इनपुट फ़ील्ड'
     basic: 'बुनियादी फॉर्म'
     rendered: 'उन्नत फॉर्म'
     ajax: 'एजाक्स फॉर्म'
@@ -101,7 +101,7 @@ hi:
 id:
   tab:
     index: Ikhtisar
-    inputs: Input
+    inputs: 'Kolom isian'
     basic: 'Form dasar'
     rendered: 'Form lanjutan'
     ajax: 'Form Ajax'
@@ -111,7 +111,7 @@ id:
 it:
   tab:
     index: Panoramica
-    inputs: Input
+    inputs: 'Campi'
     basic: 'Moduli di base'
     rendered: 'Moduli avanzati'
     ajax: 'Moduli Ajax'
@@ -121,7 +121,7 @@ it:
 ja:
   tab:
     index: 概要
-    inputs: 入力
+    inputs: '入力フィールド'
     basic: 基本フォーム
     rendered: 高度なフォーム
     ajax: Ajaxフォーム
@@ -131,7 +131,7 @@ ja:
 ko:
   tab:
     index: 개요
-    inputs: 입력
+    inputs: '입력 필드'
     basic: '기본 양식'
     rendered: '고급 양식'
     ajax: 'Ajax 양식'
@@ -151,7 +151,7 @@ nl:
 pl:
   tab:
     index: Podsumowanie
-    inputs: Wprowadzenia
+    inputs: 'Pola formularza'
     basic: 'Podstawowe formularze'
     rendered: 'Zaawansowane formularze'
     ajax: 'Formularze Ajax'
@@ -161,7 +161,7 @@ pl:
 pt_BR:
   tab:
     index: 'Visão geral'
-    inputs: Entradas
+    inputs: 'Campos'
     basic: 'Formulários básicos'
     rendered: 'Formulários avançados'
     ajax: 'Formulários Ajax'
@@ -171,7 +171,7 @@ pt_BR:
 ru:
   tab:
     index: Обзор
-    inputs: 'Входные данные'
+    inputs: 'Поля ввода'
     basic: 'Базовые формы'
     rendered: 'Расширенные формы'
     ajax: 'Ajax формы'
@@ -181,7 +181,7 @@ ru:
 th:
   tab:
     index: ภาพรวม
-    inputs: ข้อมูลนำเข้า
+    inputs: 'ช่องกรอกข้อมูล'
     basic: ฟอร์มพื้นฐาน
     rendered: ฟอร์มขั้นสูง
     ajax: 'ฟอร์ม Ajax'
@@ -191,7 +191,7 @@ th:
 tr:
   tab:
     index: 'Genel Bakış'
-    inputs: Girdiler
+    inputs: 'Giriş alanları'
     basic: 'Temel formlar'
     rendered: 'Gelişmiş formlar'
     ajax: 'Ajax formlar'
@@ -201,7 +201,7 @@ tr:
 ur:
   tab:
     index: جائزہ
-    inputs: 'ان پٹ'
+    inputs: 'ان پٹ فیلڈز'
     basic: 'بنیادی فارم'
     rendered: 'جدید فارم'
     ajax: 'ایجیکس فارم'
@@ -211,7 +211,7 @@ ur:
 vi:
   tab:
     index: 'Tổng quan'
-    inputs: 'Đầu vào'
+    inputs: 'Trường nhập liệu'
     basic: 'Biểu mẫu cơ bản'
     rendered: 'Biểu mẫu nâng cao'
     ajax: 'Biểu mẫu Ajax'
@@ -221,7 +221,7 @@ vi:
 zh:
   tab:
     index: 概述
-    inputs: 输入
+    inputs: '输入字段'
     basic: 基本表单
     rendered: 高级表单
     ajax: 'Ajax 表单'
