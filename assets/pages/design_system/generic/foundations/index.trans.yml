@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Foundations
+  page_description: "The foundations of a design system: the colour, spacing and type scales and the skin every component is drawn from, in light and dark, shown live."
   page_icon: ph:bold/diamonds-four
 
   lead: >
@@ -28,6 +29,7 @@ en:
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: الأساسيات
+  page_description: "أسس نظام التصميم: مقاييس الألوان والمسافات والخطوط والمظهر الذي تُرسم منه كل المكونات، بالوضعين الفاتح والداكن، معروضة مباشرة."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     نظام التصميم هو مجموعة القواعد والعناصر المشتركة التي يُبنى منها الواجهة: الألوان، المسافات، الخطوط، الأزرار، النماذج، الجداول، كل منها يتم تعريفه مرة واحدة ويُستخدم في كل مكان، بحيث تبدو كل صفحة وتتصرف بنفس الطريقة.
@@ -49,6 +51,7 @@ ar:
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ভিত্তি
+  page_description: "একটি ডিজাইন সিস্টেমের ভিত্তি: রঙ, স্পেসিং ও টাইপোগ্রাফির স্কেল এবং সেই স্কিন যা থেকে প্রতিটি কম্পোনেন্ট তৈরি, লাইট ও ডার্ক উভয় মোডে, সরাসরি।"
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     একটি ডিজাইন সিস্টেম হল শেয়ার করা নিয়ম এবং উপাদানের সেট যার উপর একটি ইন্টারফেস নির্মিত হয়: রং, ফাঁক, টাইপ, বোতাম, ফর্ম, টেবিল, প্রতিটি একবার সংজ্ঞায়িত হয় এবং সর্বত্র ব্যবহার করা হয়, যাতে প্রতিটি পৃষ্ঠা একইভাবে দেখতে এবং আচরণ করতে পারে।
@@ -70,6 +73,7 @@ bn:
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Grundlagen
+  page_description: "Die Grundlagen eines Designsystems: die Farb-, Abstands- und Schriftskalen und der Skin, aus denen jede Komponente gezeichnet wird, hell und dunkel, live."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Ein Designsystem ist der gemeinsame Satz von Regeln und Elementen, aus denen eine Benutzeroberfläche aufgebaut ist: Farben, Abstände, Schriftarten, Schaltflächen, Formulare, Tabellen, die einmal definiert und überall verwendet werden, damit jede Seite gleich aussieht und sich gleich verhält.
@@ -91,6 +95,7 @@ de:
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Fundamentos
+  page_description: "Los fundamentos de un sistema de diseño: las escalas de color, espaciado y tipografía y la apariencia de la que parte cada componente, en claro y oscuro, en vivo."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Un sistema de diseño es el conjunto compartido de reglas y elementos a partir de los cuales se construye una interfaz: colores, espaciado, tipografía, botones, formularios, tablas, cada uno definido una vez y utilizado en todas partes, para que cada página se vea y se comporte de la misma manera.
@@ -112,6 +117,7 @@ es:
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: بنیادها
+  page_description: "پایه‌های یک سیستم طراحی: مقیاس‌های رنگ، فاصله‌گذاری و تایپوگرافی و پوسته‌ای که هر کامپوننت از آن ساخته می‌شود، در حالت روشن و تیره، به‌صورت زنده."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     یک سیستم طراحی مجموعه‌ای از قواعد و اجزای مشترک است که یک رابط کاربری از آن ساخته می‌شود: رنگ‌ها، فاصله‌ها، نوع نوشته، دکمه‌ها، فرم‌ها، جداول، که هر کدام یک بار تعریف شده و در همه جا استفاده می‌شوند، به طوری که هر صفحه به یک شکل به نظر برسد و رفتار کند.
@@ -133,6 +139,7 @@ fa:
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Perustat
+  page_description: "Design systemin perusta: väri-, väli- ja typografiaskaalat sekä skin, joista jokainen komponentti piirretään, vaaleana ja tummana, livenä."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Suunnittelujärjestelmä on jaettu sääntöjen ja osien kokonaisuus, josta käyttöliittymä rakennetaan: värit, väli, tyyppi, painikkeet, lomakkeet, taulukot, jokainen määritelty kerran ja käytetty kaikkialla, jotta jokainen sivu näyttää ja käyttäytyy samalla tavalla.
@@ -154,6 +161,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Fondations
+  page_description: "Les fondations d'un design system : les échelles de couleurs, d'espacement et de typographie, et le skin dont chaque composant est tiré, en clair et en sombre, en direct."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Un système de design est l'ensemble commun de règles et d'éléments à partir desquels une interface est construite : couleurs, espacements, typographie, boutons, formulaires, tableaux, chacun défini une fois et utilisé partout, de sorte que chaque page ait le même aspect et le même comportement.
@@ -175,6 +183,7 @@ fr:
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: יסודות
+  page_description: "יסודות של מערכת עיצוב: סקאלות הצבע, הריווח והטיפוגרפיה והמראה שמהם נבנה כל רכיב, בבהיר ובכהה, בהצגה חיה."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     מערכת עיצוב היא קבוצת כללים וחלקים משותפת שממנה בונים ממשק: צבעים, רווחים, טיפוגרפיה, כפתורים, טפסים, טבלאות, כל אחד מהם מוגדר פעם אחת ומשמש בכל מקום, כך שכל עמוד נראה ומתנהג אותו דבר.
@@ -196,6 +205,7 @@ he:
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: फाउंडेशन्स
+  page_description: "डिज़ाइन सिस्टम की नींव: रंग, स्पेसिंग और टाइपोग्राफ़ी के पैमाने और वह स्किन जिससे हर कंपोनेंट बनता है, लाइट और डार्क दोनों में, लाइव।"
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     एक डिज़ाइन सिस्टम नियमों और तत्वों का साझा सेट है, जिसके आधार पर एक इंटरफ़ेस बनाया जाता है: रंग, स्पेसिंग, टाइप, बटन, फॉर्म, टेबल, प्रत्येक को एक बार परिभाषित किया जाता है और हर जगह इस्तेमाल किया जाता है, ताकि हर पृष्ठ एक जैसा दिखे और व्यवहार करे।
@@ -217,6 +227,7 @@ hi:
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Fondasi
+  page_description: "Fondasi sebuah design system: skala warna, jarak, dan tipografi serta skin yang menjadi dasar setiap komponen, dalam mode terang dan gelap, secara langsung."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Sistem desain adalah seperangkat aturan dan elemen yang digunakan untuk membangun antarmuka: warna, jarak, tipe, tombol, formulir, tabel, yang masing-masing didefinisikan sekali dan digunakan di mana-mana, sehingga setiap halaman terlihat dan berfungsi dengan cara yang sama.
@@ -238,6 +249,7 @@ id:
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Fondamenti
+  page_description: "Le fondamenta di un design system: le scale di colore, spaziatura e tipografia e la skin da cui nasce ogni componente, in chiaro e scuro, dal vivo."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Un sistema di design è il insieme condiviso di regole e componenti da cui è costruita un'interfaccia: colori, spaziatura, tipografia, pulsanti, moduli, tabelle, ognuno definito una sola volta e utilizzato ovunque, in modo che ogni pagina appaia e si comporti allo stesso modo.
@@ -259,6 +271,7 @@ it:
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 基本
+  page_description: "デザインシステムの基礎：すべてのコンポーネントの元となる色・余白・タイポグラフィのスケールとスキンを、ライトとダークの両方で実際に表示。"
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     デザインシステムとは、インターフェースが構築されるための共有されたルールと要素のセットです：色、スペーシング、フォント、ボタン、フォーム、テーブルなど、各要素は一度定義され、どこでも使用されるため、すべてのページが同じように見え、同じように動作します。
@@ -280,6 +293,7 @@ ja:
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 기초
+  page_description: "디자인 시스템의 기초: 모든 컴포넌트가 바탕으로 삼는 색상, 간격, 타이포그래피 스케일과 스킨을 라이트와 다크 모드에서 실시간으로."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     디자인 시스템은 인터페이스가 구축되는 공유된 규칙과 구성 요소의 집합입니다: 색상, 간격, 글꼴, 버튼, 양식, 테이블 등, 각 요소는 한 번 정의되고 어디에서나 사용되어 모든 페이지가 동일하게 보이고 작동하도록 합니다.
@@ -301,6 +315,7 @@ ko:
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Basisprincipes
+  page_description: "De fundamenten van een designsysteem: de schalen voor kleur, witruimte en typografie en de skin waaruit elk component wordt getekend, licht en donker, live."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Een ontwerpsysteem is de gedeelde set regels en elementen waaruit een interface is opgebouwd: kleuren, ruimtes, typografie, knoppen, formulieren, tabellen, elk één keer gedefinieerd en overal gebruikt, zodat elke pagina er hetzelfde uitziet en zich hetzelfde gedraagt.
@@ -322,6 +337,7 @@ nl:
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Fundamenty
+  page_description: "Fundamenty design systemu: skale kolorów, odstępów i typografii oraz skórka, z których rysowany jest każdy komponent, w trybie jasnym i ciemnym, na żywo."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     System projektowania to wspólny zestaw zasad i elementów, z których zbudowany jest interfejs: kolory, odstępy, czcionki, przyciski, formularze, tabele, każdy zdefiniowany raz i używany wszędzie, aby każda strona wyglądała i działała tak samo.
@@ -343,6 +359,7 @@ pl:
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Fundamentos
+  page_description: "Os fundamentos de um design system: as escalas de cor, espaçamento e tipografia e a aparência de que cada componente parte, no claro e no escuro, ao vivo."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Um sistema de design é o conjunto compartilhado de regras e elementos do qual uma interface é construída: cores, espaçamento, tipografia, botões, formulários, tabelas, cada um definido uma vez e usado em toda parte, para que cada página tenha a mesma aparência e comportamento.
@@ -364,6 +381,7 @@ pt_BR:
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Основы
+  page_description: "Основа дизайн-системы: шкалы цвета, отступов и типографики и скин, из которых строится каждый компонент, в светлой и тёмной теме, вживую."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Система дизайна — это общий набор правил и элементов, из которых построен интерфейс: цвета, отступы, шрифты, кнопки, формы, таблицы, каждый из которых определяется один раз и используется повсеместно, чтобы каждая страница выглядела и работала одинаково.
@@ -385,6 +403,7 @@ ru:
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: พื้นฐาน
+  page_description: "รากฐานของดีไซน์ซิสเต็ม: สเกลสี ระยะห่าง และตัวอักษร รวมถึงสกินที่ทุกคอมโพเนนต์ใช้ ทั้งโหมดสว่างและมืด แสดงแบบสด"
   page_icon: 'ph:bold/diamonds-four'
   lead: 'ระบบการออกแบบคือชุดกฎและชิ้นส่วนที่ใช้ร่วมกันซึ่งอินเทอร์เฟซถูกสร้างขึ้นจาก: สี, การเว้นระยะ, ตัวอักษร, ปุ่ม, แบบฟอร์ม, ตาราง, ซึ่งแต่ละรายการถูกกำหนดไว้เพียงครั้งเดียวและใช้ในทุกที่ เพื่อให้ทุกหน้าดูเหมือนและทำงานเหมือนกัน.'
   intro: 'สิ่งที่ทุกอย่างอื่นใช้จ่ายจาก ที่นี่ไม่มีอะไรเป็นส่วนประกอบ: มันคือมาตราส่วน — สี, การเว้นระยะ, ตัวอักษร, และพื้นผิวที่ดึงดูดพวกเขา — ที่แต่ละส่วนอื่นอ่านโดยไม่เคยแสดงพวกเขา'
@@ -405,6 +424,7 @@ th:
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Temeller
+  page_description: "Bir tasarım sisteminin temelleri: her bileşenin çizildiği renk, boşluk ve tipografi ölçekleri ile görünüm, açık ve koyu temada, canlı olarak."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Bir tasarım sistemi, bir arayüzün inşa edildiği paylaşılan kurallar ve bileşenler setidir: renkler, boşluk, yazı tipi, butonlar, formlar, tablolar, her biri bir kez tanımlanır ve her yerde kullanılır, böylece her sayfa aynı görünür ve aynı şekilde davranır.
@@ -426,6 +446,7 @@ tr:
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: بنیاد
+  page_description: "ڈیزائن سسٹم کی بنیادیں: رنگ، فاصلے اور ٹائپوگرافی کے پیمانے اور وہ اسکن جس سے ہر جزو بنتا ہے، لائٹ اور ڈارک دونوں میں، براہِ راست۔"
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     ایک ڈیزائن سسٹم وہ مشترکہ قواعد اور اجزاء ہیں جن سے ایک انٹرفیس بنایا جاتا ہے: رنگ، فاصلہ، قسم، بٹن، فارم، جدول، ہر ایک کو ایک بار متعین کیا جاتا ہے اور ہر جگہ استعمال کیا جاتا ہے، تاکہ ہر صفحہ ایک جیسا نظر آئے اور برتاؤ کرے۔
@@ -447,6 +468,7 @@ ur:
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Nền tảng'
+  page_description: "Nền tảng của một design system: các thang màu, khoảng cách, kiểu chữ và skin mà mọi thành phần dựa vào, ở chế độ sáng và tối, trực tiếp."
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     Hệ thống thiết kế là bộ quy tắc và thành phần chung mà giao diện được xây dựng từ: màu sắc, khoảng cách, kiểu chữ, nút bấm, biểu mẫu, bảng, mỗi thứ được định nghĩa một lần và sử dụng ở mọi nơi, để mỗi trang đều trông giống nhau và hoạt động giống nhau.
@@ -468,6 +490,7 @@ vi:
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 基础
+  page_description: "设计系统的基础：所有组件共用的色彩、间距和字体比例以及皮肤，在浅色与深色模式下实时展示。"
   page_icon: 'ph:bold/diamonds-four'
   lead: |
     设计系统是一组共享的规则和构件，界面是由这些构件构建而成的：颜色、间距、字体、按钮、表单、表格，每个构件只定义一次并在各处使用，以使每一页看起来和行为一致。
