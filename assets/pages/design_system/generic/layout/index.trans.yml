@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Layout
+  page_description: "How a page is divided in the design system: focus views, two-pane workspaces, blocks and the regions an app is built on, shown live."
   page_icon: ph:bold/layout
 
   intro: "How a page is divided. These shapes take regions rather than content: they say where things stand, and know nothing of what stands there."
@@ -29,6 +30,7 @@ en:
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: تصميم
+  page_description: "كيف تُقسَّم الصفحة في نظام التصميم: عروض مركّزة، مساحات عمل بلوحين، كتل ومناطق تُبنى عليها التطبيقات، معروضة مباشرة."
   page_icon: 'ph:bold/layout'
   intro: 'كيف يتم تقسيم الصفحة. هذه الأشكال تأخذ مناطق بدلاً من المحتوى: تحدد أين تقع الأشياء، ولا تعرف شيئًا عما يوجد هناك.'
   page:
@@ -54,6 +56,7 @@ ar:
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: লেআউট
+  page_description: "ডিজাইন সিস্টেমে একটি পেজ কীভাবে ভাগ হয়: ফোকাস ভিউ, দুই-প্যানের ওয়ার্কস্পেস, ব্লক এবং যে অঞ্চলগুলোর উপর অ্যাপ গড়ে ওঠে, সরাসরি।"
   page_icon: 'ph:bold/layout'
   intro: 'একটি পৃষ্ঠা কিভাবে বিভক্ত হয়। এই আকৃতিগুলি বিষয়বস্তু না নিয়ে অঞ্চল গ্রহণ করে: তারা বলছে জিনিসগুলি কোথায় অবস্থান করছে, এবং সেখানে কি আছে তা জানে না।'
   page:
@@ -79,6 +82,7 @@ bn:
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Layout
+  page_description: "Wie das Designsystem eine Seite aufteilt: Fokusansichten, zweispaltige Arbeitsbereiche, Blöcke und die Regionen, aus denen eine App besteht, live."
   page_icon: 'ph:bold/layout'
   intro: 'Wie eine Seite unterteilt ist. Diese Formen nehmen Bereiche statt Inhalte ein: sie zeigen, wo Dinge stehen, und wissen nichts darüber, was dort steht.'
   page:
@@ -104,6 +108,7 @@ de:
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Diseño
+  page_description: "Cómo divide una página el sistema de diseño: vistas centradas, espacios de trabajo de dos paneles, bloques y las regiones sobre las que se construye una app, en vivo."
   page_icon: 'ph:bold/layout'
   intro: 'Cómo se divide una página. Estas formas ocupan regiones en lugar de contenido: indican dónde están las cosas y no saben nada de lo que hay allí.'
   page:
@@ -129,6 +134,7 @@ es:
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: چیدمان
+  page_description: "تقسیم صفحه در سیستم طراحی: نماهای متمرکز، فضاهای کاری دوپنلی، بلوک‌ها و ناحیه‌هایی که یک اپ بر آن‌ها ساخته می‌شود، به‌صورت زنده."
   page_icon: 'ph:bold/layout'
   intro: 'چگونه یک صفحه تقسیم می‌شود. این شکل‌ها نواحی را به جای محتوا می‌گیرند: آن‌ها می‌گویند چیزها کجا قرار دارند و هیچ چیز از آنچه در آنجا ایستاده‌اند نمی‌دانند.'
   page:
@@ -154,6 +160,7 @@ fa:
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Asettelu
+  page_description: "Miten design system jakaa sivun: kohdistetut näkymät, kaksipaneeliset työtilat, lohkot ja alueet, joille sovellus rakentuu, livenä."
   page_icon: 'ph:bold/layout'
   intro: 'Miten sivu jakautuu. Nämä muodot vievät alueita eivätkä sisältöä: ne sanovat, missä asiat sijaitsevat, eivätkä tiedä, mitä siellä on.'
   page:
@@ -179,6 +186,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Mise en page'
+  page_description: "Comment une page se découpe dans le design system : vues centrées, espaces de travail à deux volets, blocs et régions sur lesquels une app se construit, en direct."
   page_icon: 'ph:bold/layout'
   intro: "Comment une page est divisée. Ces formes prennent des régions plutôt que du contenu : elles indiquent où se trouvent les choses, et ne savent rien de ce qui s'y trouve."
   page:
@@ -204,6 +212,7 @@ fr:
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: פריסה
+  page_description: "איך עמוד מחולק במערכת העיצוב: תצוגות ממוקדות, סביבות עבודה בשני חלונות, בלוקים והאזורים שעליהם נבנית אפליקציה, בהצגה חיה."
   page_icon: 'ph:bold/layout'
   intro: 'איך דף מחולק. הצורות הללו תופסות אזורים ולא תוכן: הן מציינות היכן הדברים נמצאים, ואינן יודעות מה נמצא שם.'
   page:
@@ -229,6 +238,7 @@ he:
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: लेआउट
+  page_description: "डिज़ाइन सिस्टम में पेज कैसे बँटता है: फ़ोकस व्यू, दो-पैन वर्कस्पेस, ब्लॉक और वे क्षेत्र जिन पर ऐप बनता है, लाइव।"
   page_icon: 'ph:bold/layout'
   intro: 'एक पृष्ठ कैसे विभाजित होता है। ये आकृतियाँ क्षेत्रों को लेती हैं न कि सामग्री को: वे बताती हैं कि चीजें कहां हैं, और यह नहीं जानती कि वहां क्या है।'
   page:
@@ -254,6 +264,7 @@ hi:
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Tata Letak'
+  page_description: "Cara design system membagi halaman: tampilan fokus, ruang kerja dua panel, blok, dan wilayah tempat aplikasi dibangun, secara langsung."
   page_icon: 'ph:bold/layout'
   intro: 'Bagaimana sebuah halaman dibagi. Bentuk-bentuk ini mengambil wilayah daripada konten: mereka menunjukkan posisi sesuatu, dan tidak tahu apa yang berada di sana.'
   page:
@@ -279,6 +290,7 @@ id:
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Layout
+  page_description: "Come il design system divide una pagina: viste focalizzate, spazi di lavoro a due pannelli, blocchi e le regioni su cui si costruisce un'app, dal vivo."
   page_icon: 'ph:bold/layout'
   intro: "Come è divisa una pagina. Queste forme occupano spazi piuttosto che contenuti: indicano dove si trovano le cose e non sanno nulla di ciò che c'è."
   page:
@@ -304,6 +316,7 @@ it:
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: レイアウト
+  page_description: "デザインシステムにおけるページの分割：フォーカスビュー、2ペインのワークスペース、ブロック、アプリを構成する領域を実際に表示。"
   page_icon: 'ph:bold/layout'
   intro: ページがどのように分けられるか。これらの形はコンテンツではなく領域を取ります：物がどこにあるかを示し、そこに何があるかは知りません。
   page:
@@ -329,6 +342,7 @@ ja:
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 레이아웃
+  page_description: "디자인 시스템에서 페이지를 나누는 방식: 포커스 뷰, 2단 작업 공간, 블록, 그리고 앱을 이루는 영역을 실시간으로."
   page_icon: 'ph:bold/layout'
   intro: '페이지가 어떻게 나뉘는지에 대한 설명. 이 형태는 콘텐츠가 아닌 영역을 차지하며, 사물이 어디에 위치하는지를 나타내고, 그곳에 무엇이 있는지는 알지 못합니다.'
   page:
@@ -354,6 +368,7 @@ ko:
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Indeling
+  page_description: "Hoe het designsysteem een pagina indeelt: focusweergaven, werkruimtes met twee panelen, blokken en de regio's waarop een app is gebouwd, live."
   page_icon: 'ph:bold/layout'
   intro: 'Hoe een pagina is verdeeld. Deze vormen nemen gebieden in plaats van inhoud: ze geven aan waar dingen staan, en weten niet wat daar staat.'
   page:
@@ -379,6 +394,7 @@ nl:
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Układ
+  page_description: "Jak design system dzieli stronę: widoki skupione, dwupanelowe przestrzenie robocze, bloki i regiony, z których zbudowana jest aplikacja, na żywo."
   page_icon: 'ph:bold/layout'
   intro: 'Jak strona jest podzielona. Te kształty zajmują obszary, a nie treści: wskazują, gdzie co stoi, i nic nie wiedzą o tym, co tam stoi.'
   page:
@@ -404,6 +420,7 @@ pl:
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Layout
+  page_description: "Como o design system divide uma página: visões focadas, espaços de trabalho em dois painéis, blocos e as regiões sobre as quais um app é construído, ao vivo."
   page_icon: 'ph:bold/layout'
   intro: 'Como uma página é dividida. Essas formas ocupam regiões ao invés de conteúdo: elas indicam onde as coisas estão e não sabem nada sobre o que está lá.'
   page:
@@ -429,6 +446,7 @@ pt_BR:
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Макет
+  page_description: "Как дизайн-система делит страницу: фокусные виды, двухпанельные рабочие области, блоки и зоны, из которых строится приложение, вживую."
   page_icon: 'ph:bold/layout'
   intro: 'Как страница разделена. Эти формы занимают области, а не содержимое: они указывают, где что находится, и ничего не знают о том, что там стоит.'
   page:
@@ -454,6 +472,7 @@ ru:
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: เลย์เอาต์
+  page_description: "การแบ่งหน้าในดีไซน์ซิสเต็ม: มุมมองแบบโฟกัส พื้นที่ทำงานสองแผง บล็อก และส่วนต่าง ๆ ที่แอปสร้างขึ้นมา แสดงแบบสด"
   page_icon: 'ph:bold/layout'
   intro: 'วิธีการแบ่งหน้า หน้าเหล่านี้ใช้พื้นที่มากกว่าคอนเทนต์: มันบอกว่ามีสิ่งใดอยู่ที่ไหน และไม่รู้ว่ามีอะไรอยู่ตรงนั้น'
   page:
@@ -479,6 +498,7 @@ th:
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Düzen
+  page_description: "Tasarım sisteminde bir sayfanın bölünüşü: odak görünümleri, iki panelli çalışma alanları, bloklar ve bir uygulamanın kurulduğu bölgeler, canlı olarak."
   page_icon: 'ph:bold/layout'
   intro: 'Bir sayfanın nasıl bölündüğü. Bu şekiller içerikten ziyade alan alır: nerede ne olduğunu söyler ve orada ne olduğunu bilmez.'
   page:
@@ -504,6 +524,7 @@ tr:
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'لے آؤٹ'
+  page_description: "ڈیزائن سسٹم میں صفحہ کیسے تقسیم ہوتا ہے: فوکس ویوز، دو پین والے ورک اسپیس، بلاکس اور وہ حصے جن پر ایپ بنتی ہے، براہِ راست۔"
   page_icon: 'ph:bold/layout'
   intro: 'ایک صفحہ کس طرح تقسیم ہوتا ہے۔ یہ اشکال علاقوں کو لیتے ہیں نہ کہ مواد: یہ بتاتے ہیں کہ چیزیں کہاں ہیں، اور اس بارے میں کچھ نہیں جانتے کہ وہاں کیا ہے۔'
   page:
@@ -529,6 +550,7 @@ ur:
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Bố cục'
+  page_description: "Cách design system chia một trang: chế độ xem tập trung, không gian làm việc hai khung, các khối và vùng mà ứng dụng được xây dựng trên đó, trực tiếp."
   page_icon: 'ph:bold/layout'
   intro: 'Cách một trang được chia ra. Những hình dạng này chiếm các khu vực thay vì nội dung: chúng cho biết vị trí của mọi thứ, và không biết gì về những gì đứng ở đó.'
   page:
@@ -554,6 +576,7 @@ vi:
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 布局
+  page_description: "设计系统如何划分页面：聚焦视图、双栏工作区、区块以及构建应用的各个区域，实时展示。"
   page_icon: 'ph:bold/layout'
   intro: 页面是如何划分的。这些形状占据区域而不是内容：它们说明事物的位置，而对其中的内容一无所知。
   page:

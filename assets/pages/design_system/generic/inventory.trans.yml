@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Inventory
+  page_description: "Every element the design system ships and the formats it comes in, compiled from each bundle's registry and checked against its assets."
   page_icon: ph:bold/list-checks
 
   intro: "Every element the bundle ships, and the formats it is delivered in. The table is not a list anyone maintains: it is the registry each bundle ships, compiled from its declarations and checked against a walk of its components. It answers what is there — never what should be, which is a question no scan can settle and which the elements will have to declare for themselves."
@@ -80,6 +81,7 @@ en:
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: الجرد
+  page_description: "كل عنصر يوفره نظام التصميم والصيغ التي يأتي بها، مُجمّعة من سجل كل حزمة ومطابَقة مع ملفاتها."
   page_icon: 'ph:bold/list-checks'
   intro: 'كل عنصر يتم شحنه في الحزمة، والصيغ التي يتم تسليمها بها. الجدول ليس قائمة يحتفظ بها أي شخص: إنه السجل الذي يتم شحن كل حزمة، ويجمع من إعلاناتها ويتم التحقق منه مقابل مكونات الحزمة. إنه يجيب على ما هو موجود — وليس ما يجب أن يكون، وهو سؤال لا يمكن لأي مسح أن يحله، والذي يتعين على العناصر أن تعلن عنه بنفسها.'
   problems:
@@ -149,6 +151,7 @@ ar:
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ইনভেন্টরি
+  page_description: "ডিজাইন সিস্টেমের প্রতিটি উপাদান ও তার ফরম্যাট, প্রতিটি বান্ডেলের রেজিস্ট্রি থেকে সংকলিত এবং তার ফাইলের সঙ্গে যাচাই করা।"
   page_icon: 'ph:bold/list-checks'
   intro: 'বাণ্ডলটি যেসব উপাদান পাঠায় এবং সেগুলো যেসব ফরম্যাটে বিতরণ করা হয়। এই টেবিলটি এমন একটি তালিকা নয় যা কেউ রক্ষণাবেক্ষণ করে: এটি প্রতিটি বাণ্ডল দ্বারা পাঠানো একটি রেজিস্ট্রি, যা তার ঘোষণাগুলি থেকে সংকলিত হয় এবং এর উপাদানগুলির বিরুদ্ধে পরীক্ষা করা হয়। এটি উত্তর দেয় কি আছে — কখনোই কি থাকা উচিত, যা একটি প্রশ্ন যা কোন স্ক্যান সমাধান করতে পারে না এবং যা উপাদানগুলোকে তাদের জন্য স্ব স্বভাবে ঘোষণা করতে হবে।'
   problems:
@@ -218,6 +221,7 @@ bn:
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inventar
+  page_description: "Jedes Element des Designsystems und die Formate, in denen es geliefert wird, aus der Registry jedes Bundles zusammengestellt und mit seinen Dateien abgeglichen."
   page_icon: 'ph:bold/list-checks'
   intro: 'Jedes Element, das das Bündel liefert, und die Formate, in denen es bereitgestellt wird. Die Tabelle ist keine Liste, die jemand verwaltet: Sie ist das Register, das jedes Bündel liefert, basierend auf seinen Erklärungen und überprüft gegen einen Überblick über seine Komponenten. Sie zeigt, was vorhanden ist – niemals, was vorhanden sein sollte, was eine Frage ist, die kein Scan beantworten kann und die die Elemente selbst erklären müssen.'
   problems:
@@ -287,6 +291,7 @@ de:
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inventario
+  page_description: "Cada elemento que incluye el sistema de diseño y los formatos en que se entrega, compilados del registro de cada bundle y contrastados con sus archivos."
   page_icon: 'ph:bold/list-checks'
   intro: 'Cada elemento que el paquete envía y los formatos en los que se entrega. La tabla no es una lista que alguien mantenga: es el registro que cada paquete envía, compilado a partir de sus declaraciones y verificado contra un recorrido de sus componentes. Responde a lo que hay — nunca a lo que debería haber, que es una pregunta que ningún escáner puede resolver y que los elementos tendrán que declarar por sí mismos.'
   problems:
@@ -356,6 +361,7 @@ es:
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: فهرست
+  page_description: "هر عنصری که سیستم طراحی ارائه می‌دهد و قالب‌هایش، گردآوری‌شده از رجیستری هر باندل و بررسی‌شده با فایل‌های آن."
   page_icon: 'ph:bold/list-checks'
   intro: 'هر عنصری که بسته ارسال می‌کند و فرمت‌های تحویل آن. این جدول لیستی نیست که کسی نگهداری کند: این ثبت‌نامی است که هر بسته ارسال می‌کند، که از اعلامیه‌های آن جمع‌آوری شده و با اجزای آن بررسی می‌شود. این پاسخ می‌دهد که چه چیزی وجود دارد — هرگز چه چیزی باید باشد، که سؤالی است که هیچ اسکنری نمی‌تواند حل کند و اجزا باید خودشان اعلام کنند.'
   problems:
@@ -425,6 +431,7 @@ fa:
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Varasto
+  page_description: "Jokainen design systemin elementti ja sen toimitusmuodot, koottuna kunkin bundlen rekisteristä ja tarkistettuna sen tiedostoja vasten."
   page_icon: 'ph:bold/list-checks'
   intro: 'Jokainen elementti, jonka paketti sisältää, sekä muodot, joilla se toimitetaan. Taulukko ei ole listaus, jota kukaan ylläpitää: se on rekisteri, jonka jokainen paketti sisältää, koottuna sen ilmoituksista ja tarkistettuna komponenttien läpikäynnin perusteella. Se kertoo, mitä siellä on — ei koskaan, mitä pitäisi olla, mikä on kysymys, johon mikään skannaus ei voi vastata ja jonka elementtien on ilmoitettava itse.'
   problems:
@@ -494,6 +501,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inventaire
+  page_description: "Chaque élément livré par le design system et ses formats, compilés depuis le registre de chaque bundle et vérifiés contre ses fichiers."
   page_icon: 'ph:bold/list-checks'
   intro: "Chaque élément que le bundle expédie, et les formats dans lesquels il est livré. Le tableau n'est pas une liste que quelqu'un maintient : c'est le registre que chaque bundle expédie, compilé à partir de ses déclarations et vérifié par un examen de ses composants. Il répond à ce qui est présent — jamais à ce qui devrait être, une question qu'aucun scan ne peut régler et que les éléments devront déclarer eux-mêmes."
   problems:
@@ -563,6 +571,7 @@ fr:
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: מלאי
+  page_description: "כל רכיב שמערכת העיצוב מספקת והפורמטים שבהם הוא מגיע, מקובצים ממרשם של כל חבילה ונבדקים מול הקבצים שלה."
   page_icon: 'ph:bold/list-checks'
   intro: 'כל רכיב שהחבילה שולחת, והפורמטים שבהם היא נמסרת. הטבלה אינה רשימה שמישהו שומר עליה: זו הרישום שכל חבילה שולחת, שנאסף מההצהרות שלה ונבדק מול רכיביה. היא עונה על מה שיש שם — לעולם לא על מה שצריך להיות, שזו שאלה שאין סריקה שיכולה לפתור ושאותם רכיבים יצטרכו להצהיר עליה בעצמם.'
   problems:
@@ -632,6 +641,7 @@ he:
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: इन्वेंटरी
+  page_description: "डिज़ाइन सिस्टम का हर तत्व और उसके प्रारूप, हर बंडल की रजिस्ट्री से संकलित और उसकी फ़ाइलों से जाँचे गए।"
   page_icon: 'ph:bold/list-checks'
   intro: 'हर तत्व जो बंडल भेजता है, और जिस प्रारूप में यह वितरित किया जाता है। यह तालिका कोई सूची नहीं है जिसे कोई बनाए रखता है: यह रजिस्ट्रियों की सूची है जो प्रत्येक बंडल भेजता है, इसके घोषणाओं से संकलित और इसके घटकों की जांच के खिलाफ। यह बताता है कि वहाँ क्या है — कभी क्या होना चाहिए, जो एक सवाल है जिसे कोई स्कैन हल नहीं कर सकता और जिसे तत्वों को अपने लिए घोषित करना होगा।'
   problems:
@@ -701,6 +711,7 @@ hi:
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inventaris
+  page_description: "Setiap elemen yang disediakan design system beserta formatnya, dihimpun dari registri tiap bundle dan dicocokkan dengan berkasnya."
   page_icon: 'ph:bold/list-checks'
   intro: 'Setiap elemen yang dikirimkan oleh bundel, dan format yang digunakan untuk menyampaikannya. Tabel ini bukanlah daftar yang dipelihara oleh siapa pun: ini adalah registri setiap bundel yang dikirim, disusun dari deklarasinya dan diperiksa terhadap komponen-komponennya. Ini menjawab apa yang ada — tidak pernah apa yang seharusnya ada, yang merupakan pertanyaan yang tidak dapat diselesaikan oleh pemindaian mana pun dan yang harus dinyatakan oleh elemen itu sendiri.'
   problems:
@@ -770,6 +781,7 @@ id:
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inventario
+  page_description: "Ogni elemento fornito dal design system e i formati in cui arriva, compilati dal registro di ciascun bundle e verificati con i suoi file."
   page_icon: 'ph:bold/list-checks'
   intro: "Ogni elemento che il pacchetto spedisce e i formati in cui viene consegnato. La tabella non è un elenco mantenuto da nessuno: è il registro di ogni pacchetto, compilato dalle sue dichiarazioni e verificato contro una passeggiata dei suoi componenti. Risponde a ciò che c'è — mai a ciò che dovrebbe esserci, una domanda che nessuna scansione può risolvere e che gli elementi dovranno dichiarare per se stessi."
   problems:
@@ -839,6 +851,7 @@ it:
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: インベントリ
+  page_description: "デザインシステムが提供するすべての要素とその形式を、各バンドルのレジストリから集計し、アセットと照合。"
   page_icon: 'ph:bold/list-checks'
   intro: バンドルが出荷するすべての要素と、それが配信される形式。テーブルは誰かが管理するリストではなく、各バンドルが出荷するレジストリであり、その宣言からコンポーネントのウォークで確認されます。そこに何があるかを示し、何があるべきかという質問には答えません。スキャンでは解決できず、要素が自ら宣言する必要があります。
   problems:
@@ -908,6 +921,7 @@ ja:
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 재고
+  page_description: "디자인 시스템이 제공하는 모든 요소와 그 형식을 각 번들의 레지스트리에서 모아 에셋과 대조합니다."
   page_icon: 'ph:bold/list-checks'
   intro: '번들이 제공하는 모든 요소와 제공되는 형식. 이 표는 누구나 유지하는 목록이 아니라 각 번들이 발행하는 레지스트리로, 선언에서 컴파일되고 구성 요소의 점검과 비교됩니다. 여기에는 무엇이 있는지 — 무엇이 있어야 하는지는 포함되지 않으며, 이는 어떤 스캔으로도 해결할 수 없는 질문이고, 요소들이 스스로 선언해야 하는 것입니다.'
   problems:
@@ -977,6 +991,7 @@ ko:
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Voorraad
+  page_description: "Elk element dat het designsysteem levert en de formaten waarin het komt, samengesteld uit het register van elke bundle en gecontroleerd tegen de bestanden."
   page_icon: 'ph:bold/list-checks'
   intro: 'Elk element dat de bundel levert, en de formaten waarin het wordt afgeleverd. De tabel is geen lijst die iemand bijhoudt: het is het register dat elke bundel verzendt, samengesteld uit zijn verklaringen en gecontroleerd tegen een overzicht van zijn componenten. Het geeft antwoord op wat er is — nooit wat er zou moeten zijn, wat een vraag is die geen scan kan oplossen en die de elementen zelf moeten verklaren.'
   problems:
@@ -1046,6 +1061,7 @@ nl:
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inwentaryzacja
+  page_description: "Każdy element design systemu i formaty, w jakich jest dostarczany, zebrane z rejestru każdego pakietu i sprawdzone z jego plikami."
   page_icon: 'ph:bold/list-checks'
   intro: 'Każdy element, który dostarcza pakiet, oraz formaty, w jakich jest dostarczany. Tabela nie jest listą, którą ktoś utrzymuje: to rejestr, który dostarcza każdy pakiet, skompilowany z jego deklaracji i sprawdzony w kontekście jego komponentów. Odpowiada na pytanie, co jest obecne — nigdy na pytanie, co powinno być, co jest pytaniem, którego żaden skan nie może rozwiązać, a które elementy muszą zadeklarować same.'
   problems:
@@ -1115,6 +1131,7 @@ pl:
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inventário
+  page_description: "Cada elemento do design system e os formatos em que é entregue, compilados do registro de cada bundle e conferidos com seus arquivos."
   page_icon: 'ph:bold/list-checks'
   intro: 'Cada elemento que o pacote envia e os formatos em que é entregue. A tabela não é uma lista mantida por ninguém: é o registro que cada pacote envia, compilado a partir de suas declarações e verificado em relação a um percurso de seus componentes. Ela responde ao que está presente — nunca ao que deveria estar, que é uma questão que nenhuma varredura pode resolver e que os elementos terão que declarar por si mesmos.'
   problems:
@@ -1184,6 +1201,7 @@ pt_BR:
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Инвентаризация
+  page_description: "Каждый элемент дизайн-системы и форматы, в которых он поставляется, собранные из реестра каждого бандла и сверенные с его файлами."
   page_icon: 'ph:bold/list-checks'
   intro: 'Каждый элемент, который поставляется в комплекте, и форматы, в которых он доставляется. Эта таблица не является списком, который кто-либо поддерживает: это реестр, который каждый комплект отправляет, составленный из его деклараций и проверенный на соответствие его компонентам. Она отвечает на вопрос, что есть — никогда на вопрос, что должно быть, который ни одно сканирование не может разрешить, и который элементы должны будут заявить сами.'
   problems:
@@ -1253,6 +1271,7 @@ ru:
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: สินค้าคงคลัง
+  page_description: "ทุกองค์ประกอบที่ดีไซน์ซิสเต็มมีให้และรูปแบบที่ส่งมอบ รวบรวมจากรีจิสทรีของแต่ละบันเดิลและตรวจสอบกับไฟล์ของมัน"
   page_icon: 'ph:bold/list-checks'
   intro: 'ทุกองค์ประกอบที่แพ็คเกจจัดส่งและรูปแบบที่จัดส่งในนั้น ตารางนี้ไม่ใช่รายการที่ใครดูแล: มันคือทะเบียนที่แต่ละแพ็คเกจจัดส่งซึ่งรวบรวมจากการประกาศและตรวจสอบกับส่วนประกอบของมัน มันตอบคำถามว่าอะไรมีอยู่ — ไม่เคยตอบว่าสิ่งใดควรจะเป็น ซึ่งเป็นคำถามที่ไม่มีการสแกนใดๆ สามารถตัดสินได้ และองค์ประกอบจะต้องประกาศด้วยตนเอง'
   problems:
@@ -1322,6 +1341,7 @@ th:
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Envanter
+  page_description: "Tasarım sisteminin sunduğu her öğe ve teslim biçimleri, her paketin kaydından derlenip dosyalarıyla karşılaştırılmış olarak."
   page_icon: 'ph:bold/list-checks'
   intro: 'Paketin gönderdiği her öğe ve sunulduğu formatlar. Tablo, kimsenin bakımını yapmadığı bir liste değildir: her paketin gönderdiği, beyanlarından derlenen ve bileşenlerinin yürüyüşüne göre kontrol edilen kayıttır. Orada olanı yanıtlar — asla olması gerekeni değil, bu da hiçbir taramanın çözemeyeceği bir sorudur ve öğeler kendileri beyan etmek zorundadır.'
   problems:
@@ -1391,6 +1411,7 @@ tr:
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: انفینٹری
+  page_description: "ڈیزائن سسٹم کا ہر عنصر اور اس کی شکلیں، ہر بنڈل کی رجسٹری سے مرتب اور اس کی فائلوں سے جانچی گئیں۔"
   page_icon: 'ph:bold/list-checks'
   intro: 'ہر عنصر جو بنڈل بھیجتا ہے، اور یہ کس فارمیٹس میں فراہم کیا جاتا ہے۔ یہ جدول کوئی ایسی فہرست نہیں ہے جسے کوئی برقرار رکھتا ہے: یہ ہر بنڈل کا رجسٹر ہے، جو اس کے اعلانات سے مرتب کیا گیا ہے اور اس کے اجزاء کی جانچ کی گئی ہے۔ یہ بتاتا ہے کہ وہاں کیا ہے — کبھی یہ نہیں کہ کیا ہونا چاہیے، جو ایک سوال ہے جس کا کوئی اسکین حل نہیں کر سکتا اور جس کا اعلان عناصر کو خود کرنا ہوگا۔'
   problems:
@@ -1460,6 +1481,7 @@ ur:
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Hàng tồn kho'
+  page_description: "Mọi thành phần mà design system cung cấp và các định dạng đi kèm, tổng hợp từ registry của từng bundle và đối chiếu với tệp của nó."
   page_icon: 'ph:bold/list-checks'
   intro: 'Mỗi phần tử mà gói hàng gửi đi, và các định dạng mà nó được giao. Bảng này không phải là một danh sách ai đó duy trì: nó là sổ đăng ký mà mỗi gói hàng gửi đi, được biên soạn từ các khai báo của nó và được kiểm tra với các thành phần của nó. Nó trả lời những gì có — không bao giờ là những gì nên có, điều này là một câu hỏi mà không có quét nào có thể giải quyết và các phần tử sẽ phải tự khai báo cho chính mình.'
   problems:
@@ -1529,6 +1551,7 @@ vi:
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 库存
+  page_description: "设计系统提供的每个元素及其交付格式，由各 bundle 的注册表编译而成，并与其资源文件核对。"
   page_icon: 'ph:bold/list-checks'
   intro: '每个捆绑包所包含的元素以及它们交付的格式。这个表不是任何人维护的列表：它是每个捆绑包所发货的注册，汇编自其声明并检查其组件的走访。它回答的是有哪些 — 而不是应该有哪些，这是扫描无法解决的问题，元素必须自行声明。'
   problems:

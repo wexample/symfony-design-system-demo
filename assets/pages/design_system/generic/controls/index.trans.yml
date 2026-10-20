@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Controls
+  page_description: "What a reader acts through in the design system: buttons in every variant and state, menus that place themselves, steppers, shown live."
   page_icon: ph:bold/cursor-click
 
   intro: "What a reader acts through. Each of these takes an action rather than a value — a form field takes the value, and lives in the next section."
@@ -50,6 +51,7 @@ en:
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: التحكمات
+  page_description: "ما يتفاعل عبره المستخدم في نظام التصميم: أزرار بكل أشكالها وحالاتها، قوائم تضبط موضعها بنفسها، ومؤشرات الخطوات، معروضة مباشرة."
   page_icon: 'ph:bold/cursor-click'
   intro: 'ما يقوم به القارئ من خلاله. كل واحد من هذه العناصر يقوم بإجراء بدلاً من قيمة - حقل النموذج يأخذ القيمة، ويعيش في القسم التالي.'
   page:
@@ -90,6 +92,7 @@ ar:
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: নিয়ন্ত্রণ
+  page_description: "ডিজাইন সিস্টেমে যার মাধ্যমে ব্যবহারকারী কাজ করেন: প্রতিটি রূপ ও অবস্থার বোতাম, নিজে থেকে অবস্থান নেওয়া মেনু, স্টেপার, সরাসরি।"
   page_icon: 'ph:bold/cursor-click'
   intro: 'যা একজন পাঠক দ্বারা কার্যকর হয়। এগুলোর প্রতিটির একটি কার্যকলাপ আছে, মান নয় — একটি ফর্ম ফিল্ড মান গ্রহণ করে এবং পরবর্তী বিভাগে অবস্থান করে।'
   page:
@@ -130,6 +133,7 @@ bn:
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Steuerelemente
+  page_description: "Womit man im Designsystem handelt: Schaltflächen in allen Varianten und Zuständen, Menüs, die sich selbst positionieren, Schrittanzeigen, live."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Was ein Leser durchführt. Jedes dieser Elemente führt eine Aktion aus, anstatt einen Wert zu haben — ein Formularfeld nimmt den Wert auf und befindet sich im nächsten Abschnitt.'
   page:
@@ -170,6 +174,7 @@ de:
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Controles
+  page_description: "Con qué actúa el usuario en el sistema de diseño: botones en todas sus variantes y estados, menús que se colocan solos y pasos, en vivo."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Lo que un lector actúa a través de. Cada uno de estos toma una acción en lugar de un valor: un campo de formulario toma el valor y vive en la siguiente sección.'
   page:
@@ -210,6 +215,7 @@ es:
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: کنترل‌ها
+  page_description: "آنچه کاربر از طریق آن عمل می‌کند در سیستم طراحی: دکمه‌ها در همه گونه‌ها و حالت‌ها، منوهایی که خودشان جا می‌گیرند، و گام‌نماها، به‌صورت زنده."
   page_icon: 'ph:bold/cursor-click'
   intro: 'عملی که یک خواننده از طریق آن انجام می‌دهد. هر یک از اینها عملی را انجام می‌دهد نه یک مقدار — یک فیلد فرم مقدار را می‌گیرد و در بخش بعدی زندگی می‌کند.'
   page:
@@ -250,6 +256,7 @@ fa:
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Ohjaimet
+  page_description: "Millä design systemissä toimitaan: painikkeet kaikissa muunnelmissa ja tiloissa, itsensä sijoittavat valikot ja vaiheosoittimet, livenä."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Mitä lukija toimii. Jokainen näistä tekee toiminnon eikä arvon — lomakekenttä ottaa arvon ja elää seuraavassa osiossa.'
   page:
@@ -290,6 +297,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Contrôles
+  page_description: "Ce par quoi on agit dans le design system : boutons dans toutes leurs variantes et états, menus qui se placent seuls, étapes, en direct."
   page_icon: 'ph:bold/cursor-click'
   intro: "Ce par quoi un lecteur agit. Chacun d'eux prend une action plutôt qu'une valeur — un champ de formulaire prend la valeur, et vit dans la section suivante."
   page:
@@ -330,6 +338,7 @@ fr:
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: בקרות
+  page_description: "מה שדרכו פועלים במערכת העיצוב: כפתורים בכל הגרסאות והמצבים, תפריטים שממקמים את עצמם, ומדרגי שלבים, בהצגה חיה."
   page_icon: 'ph:bold/cursor-click'
   intro: 'מה שהקורא פועל דרכו. כל אחד מאלה מבצע פעולה במקום ערך — שדה טופס מקבל את הערך, וחי בחלק הבא.'
   page:
@@ -370,6 +379,7 @@ he:
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: नियंत्रण
+  page_description: "डिज़ाइन सिस्टम में जिनसे उपयोगकर्ता क्रिया करता है: हर रूप और स्थिति में बटन, ख़ुद को व्यवस्थित करने वाले मेनू, स्टेपर, लाइव।"
   page_icon: 'ph:bold/cursor-click'
   intro: 'जो पाठक के माध्यम से कार्य करता है। इनमें से प्रत्येक एक क्रिया करता है न कि एक मान — एक फ़ॉर्म फ़ील्ड मान लेता है, और अगले अनुभाग में रहता है।'
   page:
@@ -410,6 +420,7 @@ hi:
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Kontrol
+  page_description: "Hal yang dipakai pengguna untuk bertindak dalam design system: tombol dalam semua varian dan status, menu yang memposisikan diri, stepper, secara langsung."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Apa yang dilakukan pembaca. Masing-masing melakukan tindakan daripada nilai — sebuah field formulir mengambil nilai, dan hidup di bagian berikutnya.'
   page:
@@ -450,6 +461,7 @@ id:
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Controlli
+  page_description: "Ciò con cui si agisce nel design system: pulsanti in ogni variante e stato, menu che si posizionano da soli, indicatori di passaggi, dal vivo."
   page_icon: 'ph:bold/cursor-click'
   intro: "Ciò che un lettore aziona. Ognuno di questi esegue un'azione piuttosto che un valore — un campo del modulo prende il valore e si trova nella sezione successiva."
   page:
@@ -490,6 +502,7 @@ it:
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: コントロール
+  page_description: "デザインシステムで操作に使う要素：あらゆるバリエーションと状態のボタン、自動で位置を決めるメニュー、ステッパーを実際に表示。"
   page_icon: 'ph:bold/cursor-click'
   intro: 'リーダーが行動するためのものです。これらの各コントロールは値ではなくアクションを実行します — フォームフィールドは値を受け取り、次のセクションに存在します。'
   page:
@@ -530,6 +543,7 @@ ja:
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 컨트롤
+  page_description: "디자인 시스템에서 사용자가 조작하는 요소: 모든 변형과 상태의 버튼, 스스로 위치를 잡는 메뉴, 스테퍼를 실시간으로."
   page_icon: 'ph:bold/cursor-click'
   intro: '독자가 수행하는 행동입니다. 이들은 값이 아닌 동작을 취합니다 — 양식 필드는 값을 취하고 다음 섹션에 존재합니다.'
   page:
@@ -570,6 +584,7 @@ ko:
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Bedieningen
+  page_description: "Waarmee je in het designsysteem handelt: knoppen in elke variant en toestand, menu's die zichzelf positioneren en stappenindicatoren, live."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Wat een lezer kan doen. Elk van deze voert een actie uit in plaats van een waarde — een formulier veld neemt de waarde, en bevindt zich in de volgende sectie.'
   page:
@@ -610,6 +625,7 @@ nl:
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Kontrolki
+  page_description: "Przez co działa użytkownik w design systemie: przyciski we wszystkich wariantach i stanach, menu, które same się pozycjonują, krokomierze, na żywo."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Co robi czytelnik. Każdy z nich wykonuje akcję, a nie przyjmuje wartość — pole formularza przyjmuje wartość i znajduje się w następnej sekcji.'
   page:
@@ -650,6 +666,7 @@ pl:
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Controles
+  page_description: "Aquilo com que se age no design system: botões em todas as variantes e estados, menus que se posicionam sozinhos e indicadores de etapas, ao vivo."
   page_icon: 'ph:bold/cursor-click'
   intro: 'O que um leitor age através. Cada um desses realiza uma ação em vez de um valor — um campo de formulário recebe o valor e vive na próxima seção.'
   page:
@@ -690,6 +707,7 @@ pt_BR:
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Элементы управления'
+  page_description: "Чем действует пользователь в дизайн-системе: кнопки во всех вариантах и состояниях, меню, которые сами выбирают положение, пошаговые индикаторы, вживую."
   page_icon: 'ph:bold/cursor-click'
   intro: 'То, через что взаимодействует читатель. Каждый из этих элементов выполняет действие, а не принимает значение — поле формы принимает значение и находится в следующем разделе.'
   page:
@@ -730,6 +748,7 @@ ru:
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: การควบคุม
+  page_description: "สิ่งที่ผู้ใช้ใช้สั่งงานในดีไซน์ซิสเต็ม: ปุ่มทุกรูปแบบและทุกสถานะ เมนูที่จัดตำแหน่งเอง และตัวแสดงขั้นตอน แสดงแบบสด"
   page_icon: 'ph:bold/cursor-click'
   intro: 'สิ่งที่ผู้อ่านทำผ่านการกระทำแต่ละอย่าง ซึ่งแต่ละอย่างจะทำการกระทำแทนที่จะเป็นค่า — ฟิลด์แบบฟอร์มจะมีค่าอยู่ และอยู่ในส่วนถัดไป.'
   page:
@@ -770,6 +789,7 @@ th:
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Kontroller
+  page_description: "Tasarım sisteminde kullanıcının eylem araçları: her varyant ve durumda düğmeler, kendini konumlandıran menüler, adım göstergeleri, canlı olarak."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Bir okuyucunun eylemde bulunduğu şey. Bunların her biri bir değer yerine bir eylem gerçekleştirir - bir form alanı değeri alır ve bir sonraki bölümde yer alır.'
   page:
@@ -810,6 +830,7 @@ tr:
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: کنٹرول
+  page_description: "ڈیزائن سسٹم میں جن کے ذریعے صارف عمل کرتا ہے: ہر شکل اور حالت میں بٹن، خود جگہ بنانے والے مینو، اور اسٹیپرز، براہِ راست۔"
   page_icon: 'ph:bold/cursor-click'
   intro: 'وہ سب کچھ جو ایک قاری عمل میں لاتا ہے۔ ان میں سے ہر ایک ایک عمل انجام دیتا ہے نہ کہ ایک قیمت — ایک فارم فیلڈ قیمت لیتا ہے، اور اگلے حصے میں رہتا ہے۔'
   page:
@@ -850,6 +871,7 @@ ur:
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Điều khiển'
+  page_description: "Những gì người dùng thao tác trong design system: nút ở mọi biến thể và trạng thái, menu tự định vị, thanh bước, trực tiếp."
   page_icon: 'ph:bold/cursor-click'
   intro: 'Những gì một độc giả thực hiện. Mỗi mục trong số này thực hiện một hành động thay vì một giá trị — một trường nhập liệu nhận giá trị và sống trong phần tiếp theo.'
   page:
@@ -890,6 +912,7 @@ vi:
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 控制
+  page_description: "设计系统中用于操作的控件：各种变体与状态的按钮、自动定位的菜单、步骤条，实时展示。"
   page_icon: 'ph:bold/cursor-click'
   intro: 读者通过什么行动。每个动作都采取行动而不是值——表单字段取值，并位于下一个部分。
   page:

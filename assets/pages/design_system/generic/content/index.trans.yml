@@ -2,6 +2,7 @@ en:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
   page_title: Content
+  page_description: "Formatting what people read in the design system: prose, images and embeds, avatars, and the rhythm between words and values, shown live."
   page_icon: ph:bold/article
 
   intro: "Words, pictures and values, and the rhythm between them. What these pages have in common is that they format something a person reads, rather than arranging regions or listing records."
@@ -35,6 +36,7 @@ en:
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: المحتوى
+  page_description: "تنسيق ما يقرؤه الناس في نظام التصميم: النصوص، الصور والمحتوى المضمّن، الصور الرمزية، والإيقاع بين الكلمات والقيم، معروضة مباشرة."
   page_icon: 'ph:bold/article'
   intro: 'كلمات وصور وقيم، والإيقاع بينها. ما تشترك فيه هذه الصفحات هو أنها تنظم شيئًا يقرأه الشخص، بدلاً من ترتيب المناطق أو سرد السجلات.'
   page:
@@ -66,6 +68,7 @@ ar:
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: বিষয়বস্তু
+  page_description: "ডিজাইন সিস্টেমে পড়ার বিষয়বস্তুর বিন্যাস: গদ্য, ছবি ও এমবেড, অবতার, এবং শব্দ ও মানের মধ্যকার ছন্দ, সরাসরি।"
   page_icon: 'ph:bold/article'
   intro: 'শব্দ, ছবি এবং মান, এবং তাদের মধ্যে ছন্দ। এই পৃষ্ঠাগুলোর মধ্যে সাধারণ বিষয় হল, এগুলো এমন কিছু ফরম্যাট করে যা একজন মানুষ পড়ে, অঞ্চল সাজানোর বা রেকর্ডের তালিকা তৈরির পরিবর্তে।'
   page:
@@ -97,6 +100,7 @@ bn:
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inhalt
+  page_description: "Was gelesen wird, im Designsystem gesetzt: Fließtext, Bilder und Einbettungen, Avatare und der Rhythmus zwischen Worten und Werten, live."
   page_icon: 'ph:bold/article'
   intro: 'Wörter, Bilder und Werte sowie der Rhythmus zwischen ihnen. Was diese Seiten gemeinsam haben, ist, dass sie etwas formatieren, das eine Person liest, anstatt Regionen anzuordnen oder Datensätze aufzulisten.'
   page:
@@ -128,6 +132,7 @@ de:
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Contenido
+  page_description: "Dar formato a lo que se lee en el sistema de diseño: texto, imágenes e incrustaciones, avatares y el ritmo entre palabras y valores, en vivo."
   page_icon: 'ph:bold/article'
   intro: 'Palabras, imágenes y valores, y el ritmo entre ellos. Lo que estas páginas tienen en común es que formatean algo que una persona lee, en lugar de organizar regiones o listar registros.'
   page:
@@ -159,6 +164,7 @@ es:
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: محتوا
+  page_description: "قالب‌بندی آنچه خوانده می‌شود در سیستم طراحی: متن، تصویرها و محتوای جاسازی‌شده، آواتارها و ریتم میان واژه‌ها و مقدارها، به‌صورت زنده."
   page_icon: 'ph:bold/article'
   intro: 'کلمات، تصاویر و ارزش‌ها، و ریتم بین آن‌ها. چیزی که این صفحات مشترک دارند این است که چیزی را که یک فرد می‌خواند قالب‌بندی می‌کنند، نه اینکه مناطق را مرتب کنند یا رکوردها را لیست کنند.'
   page:
@@ -190,6 +196,7 @@ fa:
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Sisältö
+  page_description: "Luettavan sisällön muotoilu design systemissä: leipäteksti, kuvat ja upotukset, avatarit sekä sanojen ja arvojen välinen rytmi, livenä."
   page_icon: 'ph:bold/article'
   intro: 'Sanoja, kuvia ja arvoja sekä rytmi niiden välillä. Näillä sivuilla on yhteistä se, että ne muotoilevat jotain, mitä henkilö lukee, sen sijaan että järjestäisivät alueita tai luettelisivat tietueita.'
   page:
@@ -221,6 +228,7 @@ fi:
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Contenu
+  page_description: "Mettre en forme ce qu'on lit dans le design system : texte, images et intégrations, avatars, et le rythme entre les mots et les valeurs, en direct."
   page_icon: 'ph:bold/article'
   intro: "Mots, images et valeurs, et le rythme entre eux. Ce que ces pages ont en commun, c'est qu'elles formatent quelque chose qu'une personne lit, plutôt que d'organiser des régions ou de lister des enregistrements."
   page:
@@ -252,6 +260,7 @@ fr:
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: תוכן
+  page_description: "עיצוב מה שקוראים במערכת העיצוב: טקסט, תמונות ותוכן מוטמע, אווטרים, והקצב שבין מילים לערכים, בהצגה חיה."
   page_icon: 'ph:bold/article'
   intro: 'מילים, תמונות וערכים, והקצב ביניהם. מה שדפים אלה имеют במשותף הוא שהם מעצבים משהו שאדם קורא, במקום לסדר אזורים או לרשום רשומות.'
   page:
@@ -283,6 +292,7 @@ he:
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: सामग्री
+  page_description: "डिज़ाइन सिस्टम में पढ़ी जाने वाली सामग्री का स्वरूपण: गद्य, चित्र और एम्बेड, अवतार, और शब्दों व मानों के बीच की लय, लाइव।"
   page_icon: 'ph:bold/article'
   intro: 'शब्द, चित्र और मूल्य, और उनके बीच का ताल। इन पृष्ठों में जो समानता है, वह यह है कि ये उस चीज़ को स्वरूपित करते हैं जिसे एक व्यक्ति पढ़ता है, बजाय इसके कि क्षेत्रों को व्यवस्थित करें या रिकॉर्ड को सूचीबद्ध करें।'
   page:
@@ -314,6 +324,7 @@ hi:
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Konten
+  page_description: "Format konten yang dibaca dalam design system: teks, gambar dan sematan, avatar, serta ritme antara kata dan nilai, secara langsung."
   page_icon: 'ph:bold/article'
   intro: 'Kata-kata, gambar, dan nilai, serta ritme di antara mereka. Halaman-halaman ini memiliki kesamaan dalam memformat sesuatu yang dibaca seseorang, alih-alih mengatur wilayah atau mencantumkan catatan.'
   page:
@@ -345,6 +356,7 @@ id:
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Contenuto
+  page_description: "Dare forma a ciò che si legge nel design system: testo, immagini e contenuti incorporati, avatar e il ritmo tra parole e valori, dal vivo."
   page_icon: 'ph:bold/article'
   intro: 'Parole, immagini e valori, e il ritmo tra di essi. Ciò che queste pagine hanno in comune è che formattano qualcosa che una persona legge, piuttosto che disporre regioni o elencare record.'
   page:
@@ -376,6 +388,7 @@ it:
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: コンテンツ
+  page_description: "デザインシステムで読まれる内容の整形：本文、画像と埋め込み、アバター、そして言葉と数値のリズムを実際に表示。"
   page_icon: 'ph:bold/article'
   intro: 言葉、画像、価値、そしてそれらの間のリズム。このページに共通するのは、地域を配置したり、記録を列挙するのではなく、人が読むものをフォーマットすることです。
   page:
@@ -407,6 +420,7 @@ ja:
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 내용
+  page_description: "디자인 시스템에서 읽히는 내용의 서식: 본문, 이미지와 임베드, 아바타, 그리고 글과 값 사이의 리듬을 실시간으로."
   page_icon: 'ph:bold/article'
   intro: '단어, 그림, 가치, 그리고 그 사이의 리듬. 이 페이지들이 공통적으로 가지고 있는 것은 개인이 읽는 내용을 포맷하는 것이지, 지역을 배열하거나 기록을 나열하는 것이 아닙니다.'
   page:
@@ -438,6 +452,7 @@ ko:
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Inhoud
+  page_description: "Opmaak van wat gelezen wordt in het designsysteem: lopende tekst, afbeeldingen en embeds, avatars en het ritme tussen woorden en waarden, live."
   page_icon: 'ph:bold/article'
   intro: "Woorden, afbeeldingen en waarden, en de ritme daartussen. Wat deze pagina's gemeen hebben is dat ze iets formatteren wat een persoon leest, in plaats van gebieden te ordenen of records op te sommen."
   page:
@@ -469,6 +484,7 @@ nl:
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Treść
+  page_description: "Formatowanie tego, co się czyta, w design systemie: tekst, obrazy i osadzenia, awatary oraz rytm między słowami i wartościami, na żywo."
   page_icon: 'ph:bold/article'
   intro: 'Słowa, obrazy i wartości oraz rytm między nimi. To, co łączy te strony, to formatowanie czegoś, co czyta człowiek, zamiast układania obszarów czy wypisywania rekordów.'
   page:
@@ -500,6 +516,7 @@ pl:
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Conteúdo
+  page_description: "A formatação do que se lê no design system: texto, imagens e incorporações, avatares e o ritmo entre palavras e valores, ao vivo."
   page_icon: 'ph:bold/article'
   intro: 'Palavras, imagens e valores, e o ritmo entre eles. O que essas páginas têm em comum é que elas formatam algo que uma pessoa lê, em vez de organizar regiões ou listar registros.'
   page:
@@ -531,6 +548,7 @@ pt_BR:
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Содержимое
+  page_description: "Оформление читаемого в дизайн-системе: текст, изображения и встраивания, аватары и ритм между словами и значениями, вживую."
   page_icon: 'ph:bold/article'
   intro: 'Слова, картинки и значения, а также ритм между ними. Общее для этих страниц в том, что они форматируют то, что читает человек, а не организуют области или перечисляют записи.'
   page:
@@ -562,6 +580,7 @@ ru:
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: เนื้อหา
+  page_description: "การจัดรูปแบบสิ่งที่ผู้คนอ่านในดีไซน์ซิสเต็ม: เนื้อความ รูปภาพและสื่อฝัง อวาตาร์ และจังหวะระหว่างคำกับค่า แสดงแบบสด"
   page_icon: 'ph:bold/article'
   intro: 'คำ, รูปภาพ และค่า รวมถึงจังหวะระหว่างพวกมัน หน้าที่เหล่านี้มีสิ่งที่เหมือนกันคือการจัดรูปแบบสิ่งที่บุคคลอ่าน แทนที่จะจัดเรียงพื้นที่หรือรายการบันทึก.'
   page:
@@ -593,6 +612,7 @@ th:
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: İçerik
+  page_description: "Tasarım sisteminde okunanın biçimlendirilmesi: metin, görseller ve gömülü içerikler, avatarlar, sözcüklerle değerler arasındaki ritim, canlı olarak."
   page_icon: 'ph:bold/article'
   intro: 'Kelimeler, resimler ve değerler, aralarındaki ritim. Bu sayfaların ortak noktası, bir kişinin okuduğu bir şeyi biçimlendirmek, bölgeleri düzenlemek veya kayıtları listelemek değil.'
   page:
@@ -624,6 +644,7 @@ tr:
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: مواد
+  page_description: "ڈیزائن سسٹم میں پڑھے جانے والے مواد کی ترتیب: نثر، تصاویر اور ایمبیڈز، اوتار، اور الفاظ و اقدار کے درمیان ردھم، براہِ راست۔"
   page_icon: 'ph:bold/article'
   intro: 'الفاظ، تصاویر اور اقدار، اور ان کے درمیان کا تال۔ ان صفحات کی مشترک خصوصیت یہ ہے کہ یہ کسی شخص کی پڑھائی کے لیے کچھ ترتیب دیتے ہیں، نہ کہ علاقوں کو ترتیب دیتے ہیں یا ریکارڈ کی فہرست بناتے ہیں۔'
   page:
@@ -655,6 +676,7 @@ ur:
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Nội dung'
+  page_description: "Định dạng nội dung để đọc trong design system: văn bản, hình ảnh và nội dung nhúng, ảnh đại diện, nhịp điệu giữa chữ và giá trị, trực tiếp."
   page_icon: 'ph:bold/article'
   intro: 'Những từ ngữ, hình ảnh và giá trị, cùng nhịp điệu giữa chúng. Những trang này có điểm chung là định dạng những gì người đọc, thay vì sắp xếp các khu vực hoặc liệt kê các bản ghi.'
   page:
@@ -686,6 +708,7 @@ vi:
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 内容
+  page_description: "设计系统中可阅读内容的排版：正文、图片与嵌入内容、头像，以及文字与数值之间的节奏，实时展示。"
   page_icon: 'ph:bold/article'
   intro: 文字、图片和价值观，以及它们之间的节奏。这些页面的共同点在于，它们格式化了人们阅读的内容，而不是排列区域或列出记录。
   page:
