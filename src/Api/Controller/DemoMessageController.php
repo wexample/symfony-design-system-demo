@@ -23,7 +23,7 @@ use Wexample\SymfonyHelpers\Controller\AbstractController;
  * A room is always named by the caller: the demo has no account and no session,
  * so what parts one thread from another is the only thing the page knows.
  */
-#[Route(path: 'api/demo-message/', name: 'api_demo_message_')]
+#[Route(path: '_api/demo-message/', name: 'api_demo_message_')]
 class DemoMessageController extends AbstractApiController
 {
     final public const QUERY_OPTION_ROOM = 'room';
