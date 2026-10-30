@@ -13,6 +13,14 @@
         {{ copy_button({ value: 'a3f1c9e2-7b48-4d16-9c5a-2e8f0b6d4371', label: true }) }}
     </div>
 
+    <h2>{{ '@page::section.identifier.title' | trans }}</h2>
+    <p>{{ '@page::section.identifier.description' | trans }}</p>
+    <div class="block block--padded cluster">
+        {{ identifier('01a18bc6-6545-7a10-a0bb-11b9031e42e8', { short: true, copy: true }) }}
+        {{ identifier('01a18bc5-f5a3-77c3-939e-24e1dd529072', { short: true, copy: true }) }}
+        {{ identifier('01a18bc6-6545-7a10-a0bb-11b9031e42e8', { copy: true }) }}
+    </div>
+
     <h2>{{ '@page::section.target.title' | trans }}</h2>
     <p>{{ '@page::section.target.description' | trans }}</p>
     <div class="block block--padded cluster">
