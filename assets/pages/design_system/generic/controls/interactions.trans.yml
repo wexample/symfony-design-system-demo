@@ -13,6 +13,13 @@ en:
     identifier:
       title: "An identifier"
       description: "identifier(value, { short, copy }): an id read as code, kept to its last eight characters — an id made on a time shares its start with its neighbours — the whole of it under the pointer. Copied whole, and said in a toast."
+    disclosure:
+      title: "A folded detail"
+      description: "disclosure: one line opening what it hides, inside what holds it — a block, a card, a list —, with no frame of its own. quiet, small and muted, for the foot of a block. Mounted only once open in vue."
+      details: "Details"
+      details_body: "What the record holds beyond its summary, read when asked for."
+      prompts: "Prompts"
+      prompts_body: "The text sent to the model, folded under the answer."
     target:
       title: Copying what the page shows
       description: "copy_button({ target }): the text of an element, read as it is at the moment of the click."
@@ -48,6 +55,13 @@ fr:
     identifier:
       title: "Un identifiant"
       description: "identifier(value, { short, copy }) : un id lu comme du code, réduit à ses huit derniers caractères — un id fait sur l'heure partage son début avec ses voisins —, entier sous le pointeur. Copié entier, et dit dans un toast."
+    disclosure:
+      title: "Un détail replié"
+      description: "disclosure : une ligne qui ouvre ce qu'elle cache, dans ce qui la contient — un bloc, une carte, une liste —, sans cadre à elle. quiet, petit et atténué, pour le pied d'un bloc. Monté seulement une fois ouvert en vue."
+      details: "Détails"
+      details_body: "Ce que l'enregistrement contient au-delà de son résumé, lu quand on le demande."
+      prompts: "Prompts"
+      prompts_body: "Le texte envoyé au modèle, replié sous la réponse."
     target:
       title: Copier ce que la page affiche
       description: "copy_button({ target }) : le texte d'un élément, lu tel qu'il est au moment du clic."
@@ -80,6 +94,13 @@ zh:
     identifier:
       title: "标识符"
       description: "identifier(value, { short, copy }):按代码读的 id,只留最后八个字符——按时间生成的 id 与相邻的开头相同——完整的悬停可见。整段复制,并以提示告知。"
+    disclosure:
+      title: "折叠的细节"
+      description: "disclosure:一行即可展开它隐藏的内容,位于容纳它的元素之中——区块、卡片、列表——,自身没有边框。quiet:小而淡,用于区块底部。在 vue 中仅在展开后挂载。"
+      details: "详情"
+      details_body: "记录在摘要之外包含的内容,需要时再读取。"
+      prompts: "提示词"
+      prompts_body: "发送给模型的文本,折叠在回答下方。"
     target:
       title: 复制页面显示的内容
       description: 'copy_button({ target }): 元素的文本，在点击时按当前状态读取。'
@@ -111,6 +132,13 @@ ar:
     identifier:
       title: "معرّف"
       description: "identifier(value, { short, copy }): معرّف يُقرأ كرمز، يُختصر إلى آخر ثمانية أحرف — معرّف مبني على الوقت يشارك بدايته مع جيرانه — وكاملًا تحت المؤشر. يُنسخ كاملًا، ويُقال ذلك في إشعار."
+    disclosure:
+      title: "تفصيل مطوي"
+      description: "disclosure: سطر واحد يفتح ما يخفيه، داخل ما يحتويه — كتلة، بطاقة، قائمة —، دون إطار خاص به. quiet: صغير وخافت، لتذييل كتلة. لا يُركَّب في vue إلا بعد فتحه."
+      details: "التفاصيل"
+      details_body: "ما يحتويه السجل بعد ملخصه، يُقرأ عند الطلب."
+      prompts: "المطالبات"
+      prompts_body: "النص المرسل إلى النموذج، مطوي تحت الإجابة."
     target:
       title: 'نسخ ما يظهره الصفحة'
       description: 'copy_button({ target }): نص عنصر، يُقرأ كما هو في لحظة النقر.'
@@ -142,6 +170,13 @@ hi:
     identifier:
       title: "पहचानकर्ता"
       description: "identifier(value, { short, copy }): कोड की तरह पढ़ी जाने वाली आईडी, अपने अंतिम आठ अक्षरों तक छोटी — समय पर बनी आईडी की शुरुआत पड़ोसियों जैसी होती है — पूरी पॉइंटर के नीचे। पूरी कॉपी होती है, और एक टोस्ट में बताया जाता है।"
+    disclosure:
+      title: "मोड़ा हुआ विवरण"
+      description: "disclosure: एक पंक्ति जो छिपी चीज़ खोलती है, उसके भीतर जो उसे रखता है — ब्लॉक, कार्ड, सूची —, बिना अपने फ्रेम के। quiet: छोटा और हल्का, ब्लॉक के निचले हिस्से के लिए। vue में खुलने पर ही माउंट होता है।"
+      details: "विवरण"
+      details_body: "रिकॉर्ड में सारांश के आगे क्या है, माँगने पर पढ़ा जाता है।"
+      prompts: "प्रॉम्प्ट"
+      prompts_body: "मॉडल को भेजा गया पाठ, उत्तर के नीचे मुड़ा हुआ।"
     target:
       title: 'पृष्ठ पर जो दिखता है उसकी कॉपी करना'
       description: 'copy_button({ target }): एक तत्व का पाठ, जो क्लिक के समय जैसा है वैसा पढ़ा जाता है।'
@@ -173,6 +208,13 @@ he:
     identifier:
       title: "מזהה"
       description: "identifier(value, { short, copy }): מזהה שנקרא כקוד, מקוצר לשמונה התווים האחרונים — מזהה שנבנה על זמן חולק את תחילתו עם שכניו — ומלא תחת הסמן. מועתק במלואו, ונאמר בהודעה קופצת."
+    disclosure:
+      title: "פרט מקופל"
+      description: "disclosure: שורה אחת שפותחת את מה שהיא מסתירה, בתוך מה שמכיל אותה — בלוק, כרטיס, רשימה —, בלי מסגרת משלה. quiet: קטן ומעומעם, לתחתית בלוק. ב-vue נטען רק לאחר פתיחה."
+      details: "פרטים"
+      details_body: "מה שהרשומה מכילה מעבר לתקציר, נקרא כשמבקשים."
+      prompts: "פרומפטים"
+      prompts_body: "הטקסט שנשלח למודל, מקופל מתחת לתשובה."
     target:
       title: 'העתקת מה שהעמוד מציג'
       description: 'copy_button({ target }): הטקסט של אלמנט, נקרא כפי שהוא ברגע הקלקה.'
@@ -204,6 +246,13 @@ fa:
     identifier:
       title: "شناسه"
       description: "identifier(value, { short, copy }): شناسه‌ای که به‌صورت کد خوانده می‌شود، کوتاه‌شده به هشت نویسهٔ آخر — شناسهٔ ساخته‌شده بر زمان آغازش را با همسایگانش شریک است — و کامل زیر نشانگر. کامل کپی می‌شود و در یک اعلان گفته می‌شود."
+    disclosure:
+      title: "جزئیات تاخورده"
+      description: "disclosure: یک سطر که آنچه پنهان کرده را باز می‌کند، درون آنچه نگهش می‌دارد — بلوک، کارت، فهرست —، بی‌قاب. quiet: کوچک و کم‌رنگ، برای پایین یک بلوک. در vue فقط پس از باز شدن سوار می‌شود."
+      details: "جزئیات"
+      details_body: "آنچه رکورد فراتر از خلاصه‌اش دارد، هنگام درخواست خوانده می‌شود."
+      prompts: "پرامپت‌ها"
+      prompts_body: "متن فرستاده‌شده به مدل، تاخورده زیر پاسخ."
     target:
       title: 'کپی کردن آنچه صفحه نمایش می‌دهد'
       description: 'copy_button({ target }): متن یک عنصر، همانطور که در لحظه کلیک است خوانده می‌شود.'
@@ -235,6 +284,13 @@ ur:
     identifier:
       title: "شناخت کنندہ"
       description: "identifier(value, { short, copy }): کوڈ کی طرح پڑھی جانے والی آئی ڈی، اپنے آخری آٹھ حروف تک مختصر — وقت پر بنی آئی ڈی کا آغاز پڑوسیوں جیسا ہوتا ہے — مکمل پوائنٹر کے نیچے۔ مکمل کاپی ہوتی ہے، اور ایک ٹوسٹ میں بتایا جاتا ہے۔"
+    disclosure:
+      title: "تہہ شدہ تفصیل"
+      description: "disclosure: ایک سطر جو چھپی چیز کھولتی ہے، اس کے اندر جو اسے رکھتا ہے — بلاک، کارڈ، فہرست —، اپنے فریم کے بغیر۔ quiet: چھوٹا اور مدھم، بلاک کے نیچے کے لیے۔ vue میں کھلنے کے بعد ہی ماؤنٹ ہوتا ہے۔"
+      details: "تفصیلات"
+      details_body: "ریکارڈ میں خلاصے سے آگے کیا ہے، مانگنے پر پڑھا جاتا ہے۔"
+      prompts: "پرامپٹس"
+      prompts_body: "ماڈل کو بھیجا گیا متن، جواب کے نیچے تہہ شدہ۔"
     target:
       title: 'صفحے پر جو دکھایا گیا ہے اس کی نقل کرنا'
       description: 'copy_button({ target }): ایک عنصر کا متن، جیسے ہی کلک کے لمحے میں پڑھا جاتا ہے۔'
@@ -266,6 +322,13 @@ ja:
     identifier:
       title: "識別子"
       description: "identifier(value, { short, copy }):コードとして読む ID、末尾の 8 文字だけ表示 — 時刻から作る ID は先頭が隣と同じ — 全体はポインターの下に。全体をコピーし、トーストで知らせる。"
+    disclosure:
+      title: "折りたたんだ詳細"
+      description: "disclosure:隠した内容を開く一行。ブロック、カード、リストなど、それを含むものの中に置き、自身の枠は持たない。quiet は小さく控えめで、ブロックのフッター向け。vue では開いてから初めてマウントされる。"
+      details: "詳細"
+      details_body: "概要の先にあるレコードの内容。求められたときに読む。"
+      prompts: "プロンプト"
+      prompts_body: "モデルに送ったテキスト。回答の下に折りたたまれる。"
     target:
       title: ページに表示されるものをコピー
       description: 'copy_button({ target }): クリックの瞬間にそのまま読まれる要素のテキスト。'
@@ -297,6 +360,13 @@ ko:
     identifier:
       title: "식별자"
       description: "identifier(value, { short, copy }): 코드로 읽는 ID, 마지막 여덟 글자만 표시 — 시간으로 만든 ID는 이웃과 앞부분이 같습니다 — 전체는 포인터 아래에. 전체를 복사하고 토스트로 알립니다."
+    disclosure:
+      title: "접힌 세부 정보"
+      description: "disclosure: 숨긴 내용을 여는 한 줄, 그것을 담는 블록·카드·목록 안에 놓이며 자체 틀은 없습니다. quiet는 작고 흐리게, 블록 하단용. vue에서는 열린 뒤에만 마운트됩니다."
+      details: "세부 정보"
+      details_body: "요약 너머 레코드가 담은 내용, 요청할 때 읽습니다."
+      prompts: "프롬프트"
+      prompts_body: "모델에 보낸 텍스트, 답변 아래에 접혀 있습니다."
     target:
       title: '페이지에 표시된 내용 복사하기'
       description: 'copy_button({ target }): 클릭 순간에 있는 요소의 텍스트를 읽습니다.'
@@ -328,6 +398,13 @@ bn:
     identifier:
       title: "শনাক্তকারী"
       description: "identifier(value, { short, copy }): কোড হিসেবে পড়া একটি আইডি, শেষ আটটি অক্ষরে সংক্ষিপ্ত — সময়ের উপর তৈরি আইডির শুরু প্রতিবেশীদের মতো — পুরোটা পয়েন্টারের নিচে। পুরোটা কপি হয়, এবং একটি টোস্টে বলা হয়।"
+    disclosure:
+      title: "ভাঁজ করা বিবরণ"
+      description: "disclosure: একটি লাইন যা লুকানো জিনিস খোলে, যা ধারণ করে তার ভিতরে — ব্লক, কার্ড, তালিকা —, নিজস্ব ফ্রেম ছাড়া। quiet: ছোট ও ম্লান, ব্লকের নিচের অংশের জন্য। vue-তে খোলার পরেই মাউন্ট হয়।"
+      details: "বিবরণ"
+      details_body: "সারাংশের বাইরে রেকর্ডে যা আছে, চাইলে পড়া হয়।"
+      prompts: "প্রম্পট"
+      prompts_body: "মডেলে পাঠানো লেখা, উত্তরের নিচে ভাঁজ করা।"
     target:
       title: 'পৃষ্ঠায় যা দেখায় তা কপি করা'
       description: 'copy_button({ target }): একটি উপাদানের পাঠ্য, ক্লিক করার মুহূর্তে এটি যেমন আছে তেমন পড়া।'
@@ -359,6 +436,13 @@ th:
     identifier:
       title: "ตัวระบุ"
       description: "identifier(value, { short, copy }): id ที่อ่านเป็นโค้ด ย่อเหลือแปดตัวท้าย — id ที่สร้างจากเวลามีต้นเหมือนเพื่อนบ้าน — แบบเต็มอยู่ใต้ตัวชี้ คัดลอกทั้งหมด และแจ้งในโทสต์"
+    disclosure:
+      title: "รายละเอียดที่พับไว้"
+      description: "disclosure: หนึ่งบรรทัดที่เปิดสิ่งที่ซ่อนไว้ ภายในสิ่งที่บรรจุมัน — บล็อก การ์ด รายการ — โดยไม่มีกรอบของตัวเอง quiet: เล็กและจาง สำหรับส่วนท้ายของบล็อก ใน vue จะเมานต์เมื่อเปิดแล้วเท่านั้น"
+      details: "รายละเอียด"
+      details_body: "สิ่งที่ระเบียนมีนอกเหนือจากสรุป อ่านเมื่อต้องการ"
+      prompts: "พรอมต์"
+      prompts_body: "ข้อความที่ส่งให้โมเดล พับไว้ใต้คำตอบ"
     target:
       title: การคัดลอกสิ่งที่หน้าแสดง
       description: 'copy_button({ target }): ข้อความขององค์ประกอบ อ่านตามที่เป็นอยู่ในขณะคลิก'
@@ -390,6 +474,13 @@ de:
     identifier:
       title: "Ein Bezeichner"
       description: "identifier(value, { short, copy }): eine ID als Code gelesen, auf ihre letzten acht Zeichen gekürzt — eine aus einer Uhrzeit gebildete ID teilt ihren Anfang mit ihren Nachbarn —, ganz unter dem Zeiger. Ganz kopiert, und in einem Toast gesagt."
+    disclosure:
+      title: "Ein eingeklapptes Detail"
+      description: "disclosure: eine Zeile, die öffnet, was sie verbirgt, in dem, was sie hält — ein Block, eine Karte, eine Liste —, ohne eigenen Rahmen. quiet, klein und gedämpft, für den Fuß eines Blocks. In vue erst beim Öffnen eingehängt."
+      details: "Details"
+      details_body: "Was der Datensatz über seine Zusammenfassung hinaus enthält, gelesen, wenn danach gefragt wird."
+      prompts: "Prompts"
+      prompts_body: "Der an das Modell gesendete Text, unter der Antwort eingeklappt."
     target:
       title: 'Kopieren, was die Seite anzeigt'
       description: 'copy_button({ target }): der Text eines Elements, gelesen wie er im Moment des Klicks ist.'
@@ -421,6 +512,13 @@ fi:
     identifier:
       title: "Tunniste"
       description: "identifier(value, { short, copy }): koodina luettu tunniste, lyhennetty viimeiseen kahdeksaan merkkiin — ajasta tehty tunniste alkaa kuten naapurinsa — kokonaan osoittimen alla. Kopioidaan kokonaan, ja kerrotaan ilmoituksessa."
+    disclosure:
+      title: "Taitettu yksityiskohta"
+      description: "disclosure: yksi rivi, joka avaa piilottamansa, sitä pitävän sisällä — lohko, kortti, luettelo —, ilman omaa kehystä. quiet, pieni ja hillitty, lohkon alaosaan. vuessa liitetään vasta avattuna."
+      details: "Tiedot"
+      details_body: "Mitä tietue sisältää yhteenvetonsa lisäksi, luetaan pyydettäessä."
+      prompts: "Kehotteet"
+      prompts_body: "Mallille lähetetty teksti, taitettuna vastauksen alle."
     target:
       title: 'Sivun näyttämän kopioiminen'
       description: 'copy_button({ target }): elementin teksti, luettuna sellaisenaan klikkauksen hetkellä.'
@@ -452,6 +550,13 @@ ru:
     identifier:
       title: "Идентификатор"
       description: "identifier(value, { short, copy }): id, читаемый как код, сокращённый до последних восьми символов — id, построенный на времени, начинается как соседние — целиком под указателем. Копируется целиком, о чём говорит всплывающее уведомление."
+    disclosure:
+      title: "Свёрнутая деталь"
+      description: "disclosure: одна строка, открывающая скрытое, внутри того, что её содержит, — блока, карточки, списка, — без собственной рамки. quiet — мелко и приглушённо, для подвала блока. В vue монтируется только после открытия."
+      details: "Подробности"
+      details_body: "То, что запись содержит сверх краткого описания, читается по запросу."
+      prompts: "Промпты"
+      prompts_body: "Текст, отправленный модели, свёрнутый под ответом."
     target:
       title: 'Копирование того, что показывает страница'
       description: 'copy_button({ target }): текст элемента, читаемый так, как он есть в момент клика.'
@@ -483,6 +588,13 @@ pl:
     identifier:
       title: "Identyfikator"
       description: "identifier(value, { short, copy }): id czytany jak kod, skrócony do ostatnich ośmiu znaków — id oparty na czasie zaczyna się jak sąsiednie — w całości pod wskaźnikiem. Kopiowany w całości, co mówi powiadomienie."
+    disclosure:
+      title: "Zwinięty szczegół"
+      description: "disclosure: jeden wiersz otwierający to, co ukrywa, wewnątrz tego, co go zawiera — bloku, karty, listy —, bez własnej ramki. quiet: mały i stonowany, do stopki bloku. W vue montowany dopiero po otwarciu."
+      details: "Szczegóły"
+      details_body: "To, co rekord zawiera poza podsumowaniem, czytane na żądanie."
+      prompts: "Prompty"
+      prompts_body: "Tekst wysłany do modelu, zwinięty pod odpowiedzią."
     target:
       title: 'Kopiowanie tego, co pokazuje strona'
       description: 'copy_button({ target }): tekst elementu, odczytany takim, jaki jest w momencie kliknięcia.'
@@ -514,6 +626,13 @@ es:
     identifier:
       title: "Un identificador"
       description: "identifier(value, { short, copy }): un id leído como código, reducido a sus ocho últimos caracteres — un id hecho sobre la hora comparte su inicio con sus vecinos —, entero bajo el puntero. Copiado entero, y dicho en un aviso."
+    disclosure:
+      title: "Un detalle plegado"
+      description: "disclosure: una línea que abre lo que oculta, dentro de lo que la contiene — un bloque, una tarjeta, una lista —, sin marco propio. quiet, pequeño y atenuado, para el pie de un bloque. En vue solo se monta una vez abierto."
+      details: "Detalles"
+      details_body: "Lo que el registro contiene más allá de su resumen, leído cuando se pide."
+      prompts: "Prompts"
+      prompts_body: "El texto enviado al modelo, plegado bajo la respuesta."
     target:
       title: 'Copiando lo que muestra la página'
       description: 'copy_button({ target }): el texto de un elemento, leído tal como está en el momento del clic.'
@@ -545,6 +664,13 @@ it:
     identifier:
       title: "Un identificatore"
       description: "identifier(value, { short, copy }): un id letto come codice, ridotto agli ultimi otto caratteri — un id fatto sull'ora condivide l'inizio con i vicini —, intero sotto il puntatore. Copiato intero, e detto in un avviso."
+    disclosure:
+      title: "Un dettaglio piegato"
+      description: "disclosure: una riga che apre ciò che nasconde, dentro ciò che la contiene — un blocco, una scheda, un elenco —, senza cornice propria. quiet, piccolo e attenuato, per il piede di un blocco. In vue montato solo una volta aperto."
+      details: "Dettagli"
+      details_body: "Ciò che il record contiene oltre il riassunto, letto quando richiesto."
+      prompts: "Prompt"
+      prompts_body: "Il testo inviato al modello, piegato sotto la risposta."
     target:
       title: 'Copiare ciò che mostra la pagina'
       description: "copy_button({ target }): il testo di un elemento, letto così com'è al momento del clic."
@@ -576,6 +702,13 @@ pt_BR:
     identifier:
       title: "Um identificador"
       description: "identifier(value, { short, copy }): um id lido como código, reduzido aos últimos oito caracteres — um id feito sobre a hora compartilha o início com os vizinhos —, inteiro sob o ponteiro. Copiado inteiro, e dito em um aviso."
+    disclosure:
+      title: "Um detalhe recolhido"
+      description: "disclosure: uma linha que abre o que esconde, dentro do que a contém — um bloco, um cartão, uma lista —, sem moldura própria. quiet, pequeno e atenuado, para o rodapé de um bloco. No vue, montado só depois de aberto."
+      details: "Detalhes"
+      details_body: "O que o registro contém além do resumo, lido quando pedido."
+      prompts: "Prompts"
+      prompts_body: "O texto enviado ao modelo, recolhido sob a resposta."
     target:
       title: 'Copiando o que a página mostra'
       description: 'copy_button({ target }): o texto de um elemento, lido como está no momento do clique.'
@@ -607,6 +740,13 @@ tr:
     identifier:
       title: "Bir tanımlayıcı"
       description: "identifier(value, { short, copy }): kod olarak okunan bir id, son sekiz karakterine kısaltılmış — zamana dayalı bir id başlangıcını komşularıyla paylaşır — tamamı imlecin altında. Tamamı kopyalanır ve bir bildirimle söylenir."
+    disclosure:
+      title: "Katlanmış bir ayrıntı"
+      description: "disclosure: gizlediğini açan tek satır, onu tutanın içinde — blok, kart, liste —, kendi çerçevesi olmadan. quiet: küçük ve soluk, bir bloğun alt kısmı için. vue içinde yalnızca açıldığında yüklenir."
+      details: "Ayrıntılar"
+      details_body: "Kaydın özetinin ötesinde içerdikleri, istendiğinde okunur."
+      prompts: "İstemler"
+      prompts_body: "Modele gönderilen metin, yanıtın altında katlanmış."
     target:
       title: 'Sayfanın gösterdiğini kopyalamak'
       description: 'copy_button({ target }): bir öğenin metni, tıklama anında olduğu gibi okunur.'
@@ -638,6 +778,13 @@ vi:
     identifier:
       title: "Một mã định danh"
       description: "identifier(value, { short, copy }): một id đọc như mã, rút gọn còn tám ký tự cuối — id tạo theo thời gian có phần đầu giống các id bên cạnh — đầy đủ khi trỏ chuột. Sao chép toàn bộ, và báo bằng một thông báo."
+    disclosure:
+      title: "Một chi tiết được gập"
+      description: "disclosure: một dòng mở ra điều nó che, bên trong thứ chứa nó — khối, thẻ, danh sách —, không có khung riêng. quiet: nhỏ và mờ, cho chân của một khối. Trong vue chỉ gắn khi đã mở."
+      details: "Chi tiết"
+      details_body: "Những gì bản ghi chứa ngoài phần tóm tắt, đọc khi được yêu cầu."
+      prompts: "Prompt"
+      prompts_body: "Văn bản gửi cho mô hình, gập dưới câu trả lời."
     target:
       title: 'Sao chép những gì trang hiển thị'
       description: 'copy_button({ target }): văn bản của một phần tử, đọc như nó đang có vào thời điểm nhấp chuột.'
@@ -669,6 +816,13 @@ id:
     identifier:
       title: "Sebuah pengenal"
       description: "identifier(value, { short, copy }): id yang dibaca sebagai kode, dipendekkan menjadi delapan karakter terakhir — id yang dibuat dari waktu berawalan sama dengan tetangganya — utuh di bawah penunjuk. Disalin utuh, dan dikatakan dalam toast."
+    disclosure:
+      title: "Detail terlipat"
+      description: "disclosure: satu baris yang membuka apa yang disembunyikannya, di dalam wadahnya — blok, kartu, daftar —, tanpa bingkai sendiri. quiet: kecil dan redup, untuk kaki blok. Di vue hanya dipasang setelah dibuka."
+      details: "Detail"
+      details_body: "Isi rekaman di luar ringkasannya, dibaca saat diminta."
+      prompts: "Prompt"
+      prompts_body: "Teks yang dikirim ke model, terlipat di bawah jawaban."
     target:
       title: 'Menyalin apa yang ditampilkan halaman'
       description: 'copy_button({ target }): teks dari elemen, dibaca seperti adanya pada saat klik.'
@@ -700,6 +854,13 @@ nl:
     identifier:
       title: "Een identificatie"
       description: "identifier(value, { short, copy }): een id gelezen als code, ingekort tot de laatste acht tekens — een id gemaakt op een tijdstip begint zoals zijn buren — volledig onder de aanwijzer. Volledig gekopieerd, en gemeld in een toast."
+    disclosure:
+      title: "Een ingeklapt detail"
+      description: "disclosure: één regel die opent wat hij verbergt, binnen wat hem bevat — een blok, een kaart, een lijst —, zonder eigen kader. quiet, klein en gedempt, voor de voet van een blok. In vue pas gemount als hij open is."
+      details: "Details"
+      details_body: "Wat het record bevat naast de samenvatting, gelezen wanneer erom gevraagd wordt."
+      prompts: "Prompts"
+      prompts_body: "De tekst die naar het model is gestuurd, ingeklapt onder het antwoord."
     target:
       title: 'Wat de pagina toont kopiëren'
       description: 'copy_button({ target }): de tekst van een element, gelezen zoals het is op het moment van de klik.'

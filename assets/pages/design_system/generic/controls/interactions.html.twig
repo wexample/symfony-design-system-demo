@@ -21,6 +21,23 @@
         {{ identifier('01a18bc6-6545-7a10-a0bb-11b9031e42e8', { copy: true }) }}
     </div>
 
+    <h2>{{ '@page::section.disclosure.title' | trans }}</h2>
+    <p>{{ '@page::section.disclosure.description' | trans }}</p>
+    <div class="block block--padded">
+        {% component '@WexampleSymfonyDesignSystemBundle/components/disclosure' with { label: '@page::section.disclosure.details' | trans, count: 3 } %}
+            {% slot body %}<p>{{ '@page::section.disclosure.details_body' | trans }}</p>{% endslot %}
+        {% endcomponent %}
+    </div>
+    {#- At the foot of a block, small and muted, as a message folds its prompts. -#}
+    <div class="block block--card">
+        <div class="block--body">{{ '@page::section.disclosure.details_body' | trans }}</div>
+        <div class="block--footer">
+            {% component '@WexampleSymfonyDesignSystemBundle/components/disclosure' with { label: '@page::section.disclosure.prompts' | trans, count: 4, quiet: true } %}
+                {% slot body %}{{ '@page::section.disclosure.prompts_body' | trans }}{% endslot %}
+            {% endcomponent %}
+        </div>
+    </div>
+
     <h2>{{ '@page::section.target.title' | trans }}</h2>
     <p>{{ '@page::section.target.description' | trans }}</p>
     <div class="block block--padded cluster">
