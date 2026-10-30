@@ -39,6 +39,9 @@ en:
     columns:
       title: Columns
       description: "A dozen short pairs read badly in one tall column: the eye crosses the width of the page between a key and its value, and the separators end up holding each pair together. Laid out in columns — as many as the width allows, down to one on a phone — a pair becomes a small block of two lines that needs no rule around it. A value no column can hold takes the whole width with `full`."
+    tiles:
+      title: "Tiles"
+      description: "Short pairs read at a glance — the identity card of a record —: each pair a tile of its own, as many side by side as the width holds. A value read as code, an id, takes `code`."
     vue:
       title: Vue
       description: "The same list as a vue partial, taking the modifiers as props: a record built while the page runs reads like one rendered with it."
@@ -127,6 +130,9 @@ ar:
     columns:
       title: أعمدة
       description: 'عشرات الأزواج القصيرة تُقرأ بشكل سيئ في عمود طويل واحد: العين تعبر عرض الصفحة بين مفتاح وقيمته، وينتهي الأمر بالفواصل بحمل كل زوج معًا. عند توزيعها في أعمدة — بقدر ما يسمح العرض، وصولاً إلى واحد على الهاتف — يصبح الزوج كتلة صغيرة من سطرين لا تحتاج إلى قاعدة حولها. قيمة لا يمكن لأي عمود استيعابها تأخذ العرض الكامل مع `full`.'
+    tiles:
+      title: "بلاطات"
+      description: "أزواج قصيرة تُقرأ بلمحة — بطاقة هوية سجل —: كل زوج في بلاطة خاصة، بقدر ما يتسع العرض جنبًا إلى جنب. قيمة تُقرأ كرمز، معرّف، تأخذ `code`."
     vue:
       title: فيو
       description: 'نفس القائمة كجزء vue، تأخذ المعدلات كخصائص: سجل تم بناؤه أثناء تشغيل الصفحة يقرأ كواحد تم عرضه معها.'
@@ -213,6 +219,9 @@ bn:
     columns:
       title: কলাম
       description: "একটি লম্বা কলামে একটি ডজন সংক্ষিপ্ত জোড়া পড়া খারাপ: চোখটি কী এবং তার মানের মধ্যে পৃষ্ঠার প্রস্থ অতিক্রম করে এবং বিভাজকগুলি প্রতিটি জোড়াকে একসাথে ধরে রাখে। কলামগুলিতে সাজানো — যতটা প্রস্থ অনুমতি দেয়, একটি ফোনে একটিতে — একটি জোড়া দু'লাইনের একটি ছোট ব্লকে পরিণত হয় যার চারপাশে কোনও নিয়মের প্রয়োজন হয় না। কোনও কলাম ধারণ করতে না পারা একটি মান `full` দিয়ে পুরো প্রস্থ নেয়।"
+    tiles:
+      title: "টাইল"
+      description: "এক নজরে পড়ার মতো ছোট জোড়া — একটি রেকর্ডের পরিচয়পত্র —: প্রতিটি জোড়া নিজস্ব একটি টাইল, প্রস্থ যতটা ধরে ততগুলি পাশাপাশি। কোড হিসেবে পড়া মান, একটি আইডি, `code` নেয়।"
     vue:
       title: ভিউ
       description: 'একটি ভিউ অংশ হিসাবে একই তালিকা, প্রপস হিসাবে মডিফায়ারগুলি নিয়ে: পৃষ্ঠা চলাকালীন নির্মিত একটি রেকর্ড এটি সহ তৈরি হওয়ার মতো পড়ে।'
@@ -299,6 +308,9 @@ de:
     columns:
       title: Spalten
       description: 'Dutzende kurze Paare lesen sich schlecht in einer hohen Spalte: das Auge überquert die Breite der Seite zwischen einem Schlüssel und seinem Wert, und die Separatoren halten jedes Paar zusammen. In Spalten angeordnet — so viele wie die Breite zulässt, bis zu einer auf einem Telefon — wird ein Paar zu einem kleinen Block aus zwei Zeilen, der keinen Rahmen benötigt. Ein Wert, den keine Spalte halten kann, nimmt die gesamte Breite mit `full` ein.'
+    tiles:
+      title: "Kacheln"
+      description: "Kurze Paare, auf einen Blick gelesen — der Steckbrief eines Datensatzes —: jedes Paar eine eigene Kachel, so viele nebeneinander, wie die Breite fasst. Ein Wert, der als Code gelesen wird, eine ID, nimmt `code`."
     vue:
       title: Vue
       description: 'Die gleiche Liste als Vue-Teil, der die Modifikatoren als Props übernimmt: ein Eintrag, der erstellt wird, während die Seite läuft, liest sich wie einer, der mit ihr gerendert wird.'
@@ -385,6 +397,9 @@ es:
     columns:
       title: Columnas
       description: 'Una docena de pares cortos se leen mal en una columna alta: el ojo cruza el ancho de la página entre una clave y su valor, y los separadores terminan manteniendo cada par unido. Dispuestos en columnas — tantas como lo permite el ancho, hasta una en un teléfono — un par se convierte en un pequeño bloque de dos líneas que no necesita regla a su alrededor. Un valor que ninguna columna puede contener toma todo el ancho con `full`.'
+    tiles:
+      title: "Mosaicos"
+      description: "Pares cortos que se leen de un vistazo — la ficha de un registro —: cada par en su propio mosaico, tantos lado a lado como quepan. Un valor leído como código, un id, lleva `code`."
     vue:
       title: Vue
       description: 'La misma lista como un parcial de vue, tomando los modificadores como props: un registro construido mientras se ejecuta la página se lee como uno renderizado con ella.'
@@ -471,6 +486,9 @@ fa:
     columns:
       title: ستون‌ها
       description: 'یک دوجین جفت کوتاه در یک ستون بلند به‌خوبی خوانده نمی‌شود: چشم عرض صفحه را بین یک کلید و مقدارش طی می‌کند و جداکننده‌ها در نهایت هر جفت را کنار هم نگه می‌دارند. در ستون‌ها چیده شده - به تعداد عرض اجازه می‌دهد، تا یک در یک تلفن - یک جفت به یک بلوک کوچک دو خطی تبدیل می‌شود که به هیچ قاعده‌ای در اطرافش نیاز ندارد. یک مقداری که هیچ ستونی نمی‌تواند آن را نگه دارد، با `full` تمام عرض را می‌گیرد.'
+    tiles:
+      title: "کاشی‌ها"
+      description: "جفت‌های کوتاهی که در یک نگاه خوانده می‌شوند — شناسنامهٔ یک رکورد —: هر جفت کاشی خودش، به تعدادی که عرض جا دارد کنار هم. مقداری که به‌صورت کد خوانده می‌شود، یک شناسه، `code` می‌گیرد."
     vue:
       title: Vue
       description: 'همان لیست به عنوان یک بخش vue، که تغییرات را به عنوان props می‌گیرد: یک رکورد که در حین اجرای صفحه ساخته می‌شود، مانند یکی است که با آن رندر می‌شود.'
@@ -557,6 +575,9 @@ fi:
     columns:
       title: Sarakkeet
       description: 'Kymmenen lyhyttä paria näyttää huonolta yhdessä korkeassa sarakkeessa: silmä ylittää sivun leveyden avaimen ja sen arvon välillä, ja erottimet pitävät jokaisen parin yhdessä. Asetettuna sarakkeisiin — niin monta kuin leveys sallii, jopa yksi puhelimessa — pari muuttuu pieneksi kahden rivin lohkoksi, joka ei tarvitse sääntöä ympärilleen. Arvo, jota mikään sarake ei voi pitää, vie koko leveyden `full`.'
+    tiles:
+      title: "Laatat"
+      description: "Lyhyet parit, jotka luetaan yhdellä silmäyksellä — tietueen henkilökortti —: jokainen pari omana laattanaan, niin monta rinnakkain kuin leveys sallii. Koodina luettava arvo, tunniste, saa `code`."
     vue:
       title: Vue
       description: 'Sama lista vue-osana, ottaen muokkaimet propseina: tietue, joka rakennetaan sivun suorittaessa, näyttää siltä kuin se olisi esitetty sen kanssa.'
@@ -643,6 +664,9 @@ fr:
     columns:
       title: Colonnes
       description: "Une douzaine de paires courtes mal lues dans une colonne haute : l'œil traverse la largeur de la page entre une clé et sa valeur, et les séparateurs finissent par maintenir chaque paire ensemble. Disposées en colonnes — autant que la largeur le permet, jusqu'à une seule sur un téléphone — une paire devient un petit bloc de deux lignes qui n'a pas besoin de règle autour. Une valeur qu'aucune colonne ne peut contenir prend toute la largeur avec `full`."
+    tiles:
+      title: "Tuiles"
+      description: "Des paires courtes lues d'un coup d'œil — la carte d'identité d'un enregistrement — : chaque paire sur sa tuile, autant côte à côte que la largeur en tient. Une valeur lue comme du code, un id, prend `code`."
     vue:
       title: Vue
       description: "La même liste qu'un complément vue, prenant les modificateurs comme propriétés : un enregistrement construit pendant que la page s'exécute se lit comme celui rendu avec elle."
@@ -729,6 +753,9 @@ he:
     columns:
       title: עמודות
       description: 'עשרה זוגות קצרים נקראים רע בעמודה אחת גבוהה: העין חוצה את רוחב הדף בין מפתח לערכו, והמפרידים בסופו של דבר מחזיקים כל זוג יחד. כאשר הם מסודרים בעמודות — כמה שרוחב מאפשר, עד לאחת בטלפון — זוג הופך לחסימת מידע קטנה של שתי שורות שאינה זקוקה לכללים סביבה. ערך שלא יכולה להחזיק עמודה לוקח את כל הרוחב עם `full`.'
+    tiles:
+      title: "אריחים"
+      description: "זוגות קצרים שנקראים במבט — תעודת הזהות של רשומה —: כל זוג באריח משלו, כמה שהרוחב מכיל זה לצד זה. ערך שנקרא כקוד, מזהה, מקבל `code`."
     vue:
       title: Vue
       description: 'אותה רשימה כחלק Vue, לוקחת את המודיפיקטורים כפרמטרים: רשומה שנבנית בזמן שהדף פועל נקראת כמו אחת שהוצגה עם זה.'
@@ -815,6 +842,9 @@ hi:
     columns:
       title: स्तंभ
       description: 'एक लंबा स्तंभ में बुरी तरह पढ़ी गई दर्जन भर छोटे जोड़े: आँख एक कुंजी और उसके मान के बीच पृष्ठ की चौड़ाई को पार करती है, और separators अंततः प्रत्येक जोड़े को एक साथ पकड़ लेते हैं। स्तंभों में बिछाए गए - जितने चौड़ाई अनुमति देती है, एक फोन पर एक तक - एक जोड़ा दो लाइनों का एक छोटा ब्लॉक बन जाता है जिसे इसके चारों ओर किसी नियम की आवश्यकता नहीं होती। कोई मान जो कोई स्तंभ नहीं पकड़ सकता है, `full` के साथ पूरी चौड़ाई ले लेता है।'
+    tiles:
+      title: "टाइलें"
+      description: "एक नज़र में पढ़े जाने वाले छोटे जोड़े — किसी रिकॉर्ड का पहचान पत्र —: हर जोड़ा अपनी टाइल में, चौड़ाई में जितने समाएँ उतने अगल-बगल। कोड के रूप में पढ़ा जाने वाला मान, एक आईडी, `code` लेता है।"
     vue:
       title: Vue
       description: 'उसी सूची को एक vue भाग के रूप में, जो modifiers को props के रूप में लेता है: एक रिकॉर्ड जो पृष्ठ चलते समय बनाया जाता है, ऐसा पढ़ता है जैसे इसे इसके साथ प्रस्तुत किया गया था।'
@@ -901,6 +931,9 @@ id:
     columns:
       title: Kolom
       description: 'Seperempat pasangan pendek dibaca dengan buruk dalam satu kolom tinggi: mata melintasi lebar halaman antara kunci dan nilainya, dan pemisah akhirnya mengikat setiap pasangan bersama. Disusun dalam kolom — sebanyak yang diizinkan lebar, hingga satu di ponsel — pasangan menjadi blok kecil yang terdiri dari dua baris yang tidak memerlukan aturan di sekitarnya. Nilai yang tidak bisa ditampung kolom mana pun mengambil seluruh lebar dengan `full`.'
+    tiles:
+      title: "Ubin"
+      description: "Pasangan pendek yang dibaca sekilas — kartu identitas sebuah rekaman —: setiap pasangan di ubinnya sendiri, sebanyak yang muat berdampingan. Nilai yang dibaca sebagai kode, sebuah id, memakai `code`."
     vue:
       title: Vue
       description: 'Daftar yang sama sebagai bagian vue, mengambil modifikasi sebagai props: catatan yang dibangun saat halaman berjalan terbaca seperti yang dirender dengannya.'
@@ -987,6 +1020,9 @@ it:
     columns:
       title: Colonne
       description: "Una dozzina di coppie brevi lette male in un'unica colonna alta: l'occhio attraversa la larghezza della pagina tra una chiave e il suo valore, e i separatori finiscono per tenere insieme ogni coppia. Disposte in colonne — tante quante la larghezza consente, fino a una su un telefono — una coppia diventa un piccolo blocco di due righe che non ha bisogno di una regola attorno. Un valore che nessuna colonna può contenere prende l'intera larghezza con `full`."
+    tiles:
+      title: "Tessere"
+      description: "Coppie brevi lette a colpo d'occhio — la carta d'identità di un record —: ogni coppia sulla propria tessera, tante affiancate quante ne tiene la larghezza. Un valore letto come codice, un id, prende `code`."
     vue:
       title: Vue
       description: 'Lo stesso elenco come un parziale vue, prendendo i modificatori come props: un record costruito mentre la pagina è in esecuzione si legge come uno reso con essa.'
@@ -1073,6 +1109,9 @@ ja:
     columns:
       title: 列
       description: 短いペアが1つの高い列では読みづらく、目はキーとその値の間でページの幅を横切ります。セパレーターは各ペアを一緒に保持します。列にレイアウトされると、幅が許す限り、携帯電話では1つにまで、ペアは2行の小さなブロックとなり、その周りにルールは必要ありません。どの列も保持できない値は、`full`で全幅を取ります。
+    tiles:
+      title: "タイル"
+      description: "一目で読む短い組 — レコードの身分証 —:組ごとに一枚のタイル、幅に収まるだけ横に並べる。コードとして読む値、ID には `code` を付ける。"
     vue:
       title: Vue
       description: 同じリストがvueパーシャルとして、修飾子をプロップとして受け取ります。ページが実行される間に構築されたレコードは、それと一緒にレンダリングされたもののように読み取られます。
@@ -1159,6 +1198,9 @@ ko:
     columns:
       title: 열
       description: '한 긴 열에서 읽기 어려운 열 짧은 쌍이 12개 있습니다: 눈은 키와 값 사이의 페이지 너비를 가로지르며, 구분자가 각 쌍을 함께 유지합니다. 열로 배치하면 - 너비가 허용하는 만큼, 휴대폰에서는 하나까지 - 쌍은 주변에 규칙이 필요 없는 두 줄의 작은 블록이 됩니다. 어떤 열도 수용할 수 없는 값은 `full`로 전체 너비를 차지합니다.'
+    tiles:
+      title: "타일"
+      description: "한눈에 읽는 짧은 쌍 — 레코드의 신분증 —: 쌍마다 자기 타일, 너비가 허락하는 만큼 나란히. 코드로 읽는 값, ID는 `code`를 씁니다."
     vue:
       title: Vue
       description: '수정자를 props로 받아들이는 vue 부분으로 동일한 목록: 페이지가 실행되는 동안 생성된 레코드는 그것과 함께 렌더링된 것처럼 읽힙니다.'
@@ -1245,6 +1287,9 @@ nl:
     columns:
       title: Kolommen
       description: 'Een dozijn korte paren leest slecht in één hoge kolom: het oog kruist de breedte van de pagina tussen een sleutel en zijn waarde, en de scheidingen houden elk paar samen. Uitgelegd in kolommen — zoveel als de breedte toelaat, tot één op een telefoon — wordt een paar een klein blok van twee regels dat geen regel eromheen nodig heeft. Een waarde die geen kolom kan bevatten neemt de hele breedte met `full`.'
+    tiles:
+      title: "Tegels"
+      description: "Korte paren die je in één oogopslag leest — het paspoort van een record —: elk paar een eigen tegel, zoveel naast elkaar als de breedte toelaat. Een waarde die als code gelezen wordt, een id, krijgt `code`."
     vue:
       title: Vue
       description: 'Dezelfde lijst als een vue-deel, die de modifiers als props neemt: een record dat wordt opgebouwd terwijl de pagina draait leest als een dat ermee is weergegeven.'
@@ -1331,6 +1376,9 @@ pl:
     columns:
       title: Kolumny
       description: 'Tuzin krótkich par źle się odczytuje w jednej wysokiej kolumnie: oko przeskakuje szerokość strony między kluczem a jego wartością, a separatory kończą się trzymając każdą parę razem. Ułożone w kolumnach — tyle, ile szerokość pozwala, aż do jednej na telefonie — para staje się małym blokiem dwóch linii, który nie potrzebuje obramowania. Wartość, której żadna kolumna nie może pomieścić, zajmuje całą szerokość z `full`.'
+    tiles:
+      title: "Kafelki"
+      description: "Krótkie pary czytane jednym spojrzeniem — dowód osobisty rekordu —: każda para na własnym kafelku, tyle obok siebie, ile zmieści szerokość. Wartość czytana jako kod, identyfikator, dostaje `code`."
     vue:
       title: Vue
       description: 'Ta sama lista jako części vue, przyjmująca modyfikatory jako właściwości: rekord budowany podczas działania strony odczytuje się jak jeden renderowany z nią.'
@@ -1417,6 +1465,9 @@ pt_BR:
     columns:
       title: Colunas
       description: 'Uma dúzia de pares curtos lidos mal em uma coluna alta: o olho cruza a largura da página entre uma chave e seu valor, e os separadores acabam unindo cada par. Dispostos em colunas — quantas a largura permitir, até uma em um celular — um par se torna um pequeno bloco de duas linhas que não precisa de uma regra ao seu redor. Um valor que nenhuma coluna pode conter ocupa toda a largura com `full`.'
+    tiles:
+      title: "Blocos"
+      description: "Pares curtos lidos num relance — a ficha de um registro —: cada par no seu bloco, tantos lado a lado quanto a largura comporta. Um valor lido como código, um id, leva `code`."
     vue:
       title: Vue
       description: 'A mesma lista como um partial vue, recebendo os modificadores como props: um registro construído enquanto a página é executada é lido como um renderizado com ela.'
@@ -1503,6 +1554,9 @@ ru:
     columns:
       title: Столбцы
       description: 'Дюжина коротких пар плохо читается в одном высоком столбце: глаз пересекает ширину страницы между ключом и его значением, и разделители в итоге удерживают каждую пару вместе. Расположенные в столбцах — столько, сколько позволяет ширина, вплоть до одного на телефоне — пара становится небольшим блоком из двух строк, которому не требуется рамка вокруг. Значение, которое не может удержать ни один столбец, занимает всю ширину с `full`.'
+    tiles:
+      title: "Плитки"
+      description: "Короткие пары, читаемые с одного взгляда — паспорт записи —: каждая пара на своей плитке, столько рядом, сколько вмещает ширина. Значение, читаемое как код, идентификатор, получает `code`."
     vue:
       title: Vue
       description: 'Тот же список как частичный vue, принимающий модификаторы в качестве свойств: запись, созданная во время работы страницы, читается как одна, отрисованная с ней.'
@@ -1589,6 +1643,9 @@ th:
     columns:
       title: คอลัมน์
       description: 'คู่สั้นสิบคู่จะอ่านได้ไม่ดีในคอลัมน์สูงหนึ่งคอลัมน์: ตาจะข้ามความกว้างของหน้าไประหว่างคีย์และค่าของมัน และตัวคั่นจะทำให้แต่ละคู่ยึดติดกัน เมื่อจัดเรียงในคอลัมน์ — จำนวนเท่าที่กว้างอนุญาต ตั้งแต่หนึ่งบนโทรศัพท์ — คู่จะกลายเป็นบล็อกเล็กๆ ของสองบรรทัดที่ไม่ต้องการกฎรอบมัน ค่าที่ไม่มีคอลัมน์ใดสามารถถือไว้จะใช้ความกว้างทั้งหมดด้วย `full`'
+    tiles:
+      title: "ไทล์"
+      description: "คู่สั้นๆ ที่อ่านได้ในแวบเดียว — บัตรประจำตัวของระเบียน —: แต่ละคู่อยู่บนไทล์ของตัวเอง วางเคียงกันเท่าที่ความกว้างรับได้ ค่าที่อ่านเป็นโค้ด เช่น id ใช้ `code`"
     vue:
       title: Vue
       description: 'รายการเดียวกันในรูปแบบ vue ที่ใช้ตัวแก้ไขเป็น props: บันทึกที่สร้างขึ้นขณะหน้าเว็บทำงานจะอ่านได้เหมือนหนึ่งที่แสดงด้วยมัน'
@@ -1675,6 +1732,9 @@ tr:
     columns:
       title: Sütunlar
       description: 'Bir uzun sütunda kötü okunan bir düzine kısa çift: göz, bir anahtar ile değeri arasında sayfanın genişliğini geçer ve ayırıcılar her çifti bir arada tutar. Sütunlar halinde yerleştirildiğinde — genişliğin izin verdiği kadar, telefonda bir tane kadar — bir çift, etrafında herhangi bir kural olmadan iki satırlık küçük bir blok haline gelir. Hiçbir sütunun tutamayacağı bir değer, `full` ile tüm genişliği kaplar.'
+    tiles:
+      title: "Karolar"
+      description: "Bir bakışta okunan kısa çiftler — bir kaydın kimlik kartı —: her çift kendi karosunda, genişliğin sığdırdığı kadar yan yana. Kod olarak okunan bir değer, bir kimlik, `code` alır."
     vue:
       title: Vue
       description: 'Modifikatörleri prop olarak alan bir vue parçası olarak aynı liste: sayfa çalışırken oluşturulan bir kayıt, onunla render edilmiş gibi görünür.'
@@ -1761,6 +1821,9 @@ ur:
     columns:
       title: کالم
       description: 'ایک لمبے کالم میں بارہ چھوٹے جوڑے پڑھنا مشکل ہے: آنکھ چابی اور اس کی قیمت کے درمیان صفحے کی چوڑائی کو عبور کرتی ہے، اور جداکار ہر جوڑے کو اکٹھا رکھنے کا کام کرتے ہیں۔ کالمز میں ترتیب دیے گئے — جتنے چوڑائی کی اجازت ہو، فون پر ایک تک — ایک جوڑا دو لائنوں کا ایک چھوٹا بلاک بن جاتا ہے جس کے ارد گرد کوئی قاعدہ کی ضرورت نہیں۔ ایک قیمت جو کوئی کالم نہیں رکھ سکتا پوری چوڑائی `full` کے ساتھ لے لیتی ہے۔'
+    tiles:
+      title: "ٹائلیں"
+      description: "ایک نظر میں پڑھے جانے والے مختصر جوڑے — کسی ریکارڈ کا شناختی کارڈ —: ہر جوڑا اپنی ٹائل پر، جتنے چوڑائی میں سمائیں ساتھ ساتھ۔ کوڈ کے طور پر پڑھی جانے والی قدر، ایک آئی ڈی، `code` لیتی ہے۔"
     vue:
       title: ویو
       description: 'اسی فہرست کو ایک ویو جزو کے طور پر پیش کیا جاتا ہے، جو موڈیفائرز کو پروپس کے طور پر لیتا ہے: ایک ریکارڈ جو صفحے کے چلنے کے دوران بنایا گیا ہے وہ ایسا لگتا ہے جیسے اس کے ساتھ پیش کیا گیا ہو۔'
@@ -1847,6 +1910,9 @@ vi:
     columns:
       title: Cột
       description: 'Một tá cặp ngắn đọc xấu trong một cột cao: mắt phải đi qua chiều rộng của trang giữa một khóa và giá trị của nó, và các dấu phân cách cuối cùng giữ mỗi cặp lại với nhau. Được bố trí thành các cột — nhiều như chiều rộng cho phép, xuống đến một trên điện thoại — một cặp trở thành một khối nhỏ gồm hai dòng không cần quy tắc xung quanh. Một giá trị không cột nào có thể chứa sẽ chiếm toàn bộ chiều rộng với `full`.'
+    tiles:
+      title: "Ô"
+      description: "Những cặp ngắn đọc trong một cái nhìn — thẻ căn cước của một bản ghi —: mỗi cặp một ô riêng, xếp cạnh nhau bao nhiêu tùy chiều rộng. Một giá trị đọc như mã, một id, dùng `code`."
     vue:
       title: Vue
       description: 'Danh sách giống như một phần vue, nhận các biến thể như props: một bản ghi được xây dựng khi trang chạy đọc giống như một bản được hiển thị cùng với nó.'
@@ -1933,6 +1999,9 @@ zh:
     columns:
       title: 列
       description: '一打短对在一高列中阅读体验不佳：眼睛在键和其值之间跨越页面的宽度，分隔符最终将每对组合在一起。按列布局——尽可能多的列宽允许，手机上减至一列——一对变成一个不需要规则的小块。任何无法放入列的值占用整个宽度，使用 `full`。'
+    tiles:
+      title: "磁贴"
+      description: "一眼读完的短键值对——一条记录的身份证——:每对一块磁贴,宽度容得下几块就并排几块。按代码读的值,如 id,加上 `code`。"
     vue:
       title: Vue
       description: 作为vue部分的相同列表，将修饰符作为属性：在页面运行时构建的记录看起来就像是与之一起渲染的。
