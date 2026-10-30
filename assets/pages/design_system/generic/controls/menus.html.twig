@@ -103,6 +103,25 @@
         </nav>
     </div>
 
+    <h2>{{ '@page::section.press.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.press.description' | trans }}</div>
+    {#- The entries lead nowhere, so the wave is seen rather than the page
+        leaving. The last is pressed by the button under it, as an agent
+        presses: from its middle, in the accent, outlined while it spreads. -#}
+    <div class="block block--padded stack">
+        <nav class="menu menu--vertical">
+            <ul class="menu--items">
+                {{ menu_item_link('ph:bold/hand-pointing', '@page::menu.press.ripple' | trans, '#press') }}
+                {{ menu_item_link('ph:bold/hand', '@page::menu.press.still' | trans, '#press', { attr: { 'data-ripple': 'off' } }) }}
+                {{ menu_item_link('ph:bold/sparkle', '@page::menu.press.assisted' | trans, '#press', { attr: { 'data-demo-agent-pointed': '' } }) }}
+                {{ menu_item_link('ph:bold/robot', '@page::menu.press.agent' | trans, '#press', { attr: { 'data-demo-agent-target': '' } }) }}
+            </ul>
+        </nav>
+        <div>
+            {{ button('ph:bold/robot', '@page::menu.press.trigger', { 'data-demo-agent-press': '' }) }}
+        </div>
+    </div>
+
     <h2>{{ '@page::section.kinds.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.kinds.description' | trans }}</div>
     {#- One menu holding the four kinds: what an item is follows from what it

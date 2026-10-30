@@ -5,6 +5,9 @@ en:
   page_icon: ph:bold/list
 
   section:
+    press:
+      title: Pressed, pointed at, pressed by an agent
+      description: "A press is answered where it landed: a wave spreads from the point touched, on buttons and menu entries — a mobile habit, and a desktop one too. `data-ripple=\"off\"` on the element keeps it still. An agent pointing the reader at something outlines it (`is-assisted`); an agent pressing it sends the wave from its middle, in the accent, outlined while it spreads, so the reader sees who touched."
     split:
       title: Split buttons
       description: "A button that does one thing and offers the others: its body does the action, the caret stuck to its end — and only the caret — opens the menu. `button_menu` given an `action` — `{ href }`, or `{ type: 'submit' }` in a form; the vue one emits `action`."
@@ -25,6 +28,12 @@ en:
       description: "Four kinds share one row: a word and a target is a link, a word and a state is a toggle, a word and children is a branch, and a bare line is a separator. Nothing declares its kind — it follows from what the item carries. A toggle spends its leading slot on its mark, so a column of them keeps its words aligned, and the panel stays open under it: a menu of filters is read by the handful, not one at a time."
 
   menu:
+    press:
+      ripple: Answers a press
+      still: Stays still
+      assisted: Pointed at by an agent
+      agent: Pressed by an agent
+      trigger: Press it as an agent would
     primary: Menu button
     save: Save
     save_vue: Save, in vue
@@ -441,6 +450,9 @@ fr:
   page_title: Menus
   page_icon: 'ph:bold/list'
   section:
+    press:
+      title: "Appuyé, désigné, appuyé par un agent"
+      description: "Un appui répond là où il tombe : une onde part du point touché, sur les boutons et les entrées de menu — une habitude du mobile, utile aussi sur ordinateur. `data-ripple=\"off\"` sur l'élément la retire. Un agent qui montre quelque chose au lecteur l'entoure (`is-assisted`) ; un agent qui appuie dessus fait partir l'onde du centre, dans la couleur d'accent, entourée le temps qu'elle s'étale, pour qu'on voie qui a touché."
     split:
       title: 'Boutons scindés'
       description: "Un bouton qui effectue une action et propose d'autres options : son corps accomplit l'action, le caret fixé à son extrémité — et uniquement le caret — ouvre le menu. `button_menu` donné un `action` — `{ href }`, ou `{ type: 'submit' }` dans un formulaire ; le vue émet `action`."
@@ -459,6 +471,12 @@ fr:
       title: "Ce qu'un élément peut être"
       description: "Quatre types partagent une ligne : un mot et une cible est un lien, un mot et un état est un toggle, un mot et des enfants est une branche, et une ligne nue est un séparateur. Rien ne déclare son type — cela découle de ce que l'élément porte. Un toggle dépense son emplacement principal sur sa marque, donc une colonne d'eux garde ses mots alignés, et le panneau reste ouvert en dessous : un menu de filtres se lit par poignée, pas un à la fois."
   menu:
+    press:
+      ripple: "Répond à l'appui"
+      still: Reste immobile
+      assisted: "Désignée par un agent"
+      agent: "Appuyée par un agent"
+      trigger: "Appuyer comme un agent"
     primary: 'Bouton de menu'
     save: Enregistrer
     save_vue: 'Enregistrer, en Vue'
