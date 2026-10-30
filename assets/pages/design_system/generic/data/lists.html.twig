@@ -40,6 +40,26 @@
         <div class="empty">{{ 'No items available.' }}</div>
     </div>
 
+    <h2>{{ '@page::section.marked.title' | trans }}</h2>
+    <p>{{ '@page::section.marked.body' | trans }}</p>
+    {#- A mark of the design system's icons, an emoji, a character: the same column. -#}
+    <div class="block block--padded">
+        {{ item_list([
+            { label: '@page::item.marked.read' | trans, icon: 'ph:bold/check', tone: 'success' },
+            { label: '@page::item.marked.opened' | trans, icon: '✓', tone: 'success' },
+            { label: '@page::item.marked.skipped' | trans, icon: 'ph:bold/warning', tone: 'warning' },
+            { label: '@page::item.marked.refused' | trans, icon: '✗', tone: 'error' },
+            { label: '@page::item.marked.night' | trans, icon: '🌙' },
+        ]) }}
+    </div>
+    <div class="block block--padded">
+        {{ item_list([
+            { label: '@page::item.marked.read' | trans, icon: 'ph:bold/check', tone: 'success' },
+            { label: '@page::item.marked.skipped' | trans, icon: 'ph:bold/warning', tone: 'warning' },
+            { label: '@page::item.marked.refused' | trans, icon: 'ph:bold/x', tone: 'error' },
+        ], { toned: 'line' }) }}
+    </div>
+
     <h2>{{ '@page::section.period.title' | trans }}</h2>
     <p>{{ '@page::section.period.body' | trans }}</p>
     {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-period') }}

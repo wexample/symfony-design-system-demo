@@ -5,6 +5,9 @@ en:
   page_icon: ph:bold/list-bullets
 
   section:
+    marked:
+      title: "Lines with a mark"
+      body: "item_list(items): one line per item, led by its mark — an icon of the design system, an emoji, a character —, a tone colouring the mark, or the whole line with toned: line."
     default:
       title: Default
     empty:
@@ -20,6 +23,12 @@ en:
     filter: Filter
 
   item:
+    marked:
+      read: "Configuration read"
+      opened: "Connection opened"
+      skipped: "Two files skipped"
+      refused: "Payment refused"
+      night: "Running on the night shift"
     postgres:
       title: PostgreSQL
       body: Managed SQL connection for transactional workloads
@@ -41,6 +50,9 @@ ar:
   page_title: القوائم
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "أسطر بعلامة"
+      body: "item_list(items): سطر لكل عنصر، تسبقه علامته — أيقونة من نظام التصميم أو رمز تعبيري أو حرف —، ونبرة تلوّن العلامة، أو السطر كله مع toned: line."
     default:
       title: افتراضي
     empty:
@@ -53,6 +65,12 @@ ar:
   header:
     filter: تصفية
   item:
+    marked:
+      read: "تمت قراءة الإعدادات"
+      opened: "تم فتح الاتصال"
+      skipped: "تم تخطي ملفين"
+      refused: "تم رفض الدفع"
+      night: "يعمل في المناوبة الليلية"
     postgres:
       title: PostgreSQL
       body: 'اتصال SQL مُدار لأعباء العمل المعاملاتية'
@@ -74,6 +92,9 @@ bn:
   page_title: তালিকা
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "চিহ্নসহ লাইন"
+      body: "item_list(items): প্রতিটি আইটেমের একটি লাইন, তার চিহ্ন দিয়ে শুরু — ডিজাইন সিস্টেমের আইকন, ইমোজি বা একটি অক্ষর —, টোন চিহ্নকে রাঙায়, বা toned: line দিয়ে পুরো লাইনকে।"
     default:
       title: ডিফল্ট
     empty:
@@ -86,6 +107,12 @@ bn:
   header:
     filter: ফিল্টার
   item:
+    marked:
+      read: "কনফিগারেশন পড়া হয়েছে"
+      opened: "সংযোগ খোলা হয়েছে"
+      skipped: "দুটি ফাইল বাদ দেওয়া হয়েছে"
+      refused: "পেমেন্ট প্রত্যাখ্যাত"
+      night: "রাতের শিফটে চলছে"
     postgres:
       title: PostgreSQL
       body: 'লেনদেনের কাজের জন্য পরিচালিত SQL সংযোগ'
@@ -107,6 +134,9 @@ de:
   page_title: Listen
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Zeilen mit Marke"
+      body: "item_list(items): eine Zeile pro Eintrag, angeführt von ihrer Marke — ein Icon des Design-Systems, ein Emoji, ein Zeichen —, ein Ton färbt die Marke, oder mit toned: line die ganze Zeile."
     default:
       title: Standard
     empty:
@@ -119,6 +149,12 @@ de:
   header:
     filter: Filter
   item:
+    marked:
+      read: "Konfiguration gelesen"
+      opened: "Verbindung geöffnet"
+      skipped: "Zwei Dateien übersprungen"
+      refused: "Zahlung abgelehnt"
+      night: "Läuft in der Nachtschicht"
     postgres:
       title: PostgreSQL
       body: 'Verwaltete SQL-Verbindung für transaktionale Workloads'
@@ -140,6 +176,9 @@ es:
   page_title: Listas
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Líneas con marca"
+      body: "item_list(items): una línea por elemento, precedida de su marca — un icono del sistema de diseño, un emoji, un carácter —, un tono que colorea la marca, o la línea entera con toned: line."
     default:
       title: Predeterminado
     empty:
@@ -152,6 +191,12 @@ es:
   header:
     filter: Filtrar
   item:
+    marked:
+      read: "Configuración leída"
+      opened: "Conexión abierta"
+      skipped: "Dos archivos omitidos"
+      refused: "Pago rechazado"
+      night: "En el turno de noche"
     postgres:
       title: PostgreSQL
       body: 'Conexión SQL administrada para cargas de trabajo transaccionales'
@@ -173,6 +218,9 @@ fa:
   page_title: فهرست‌ها
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "سطرهای نشان‌دار"
+      body: "item_list(items): برای هر مورد یک سطر، با نشانش در آغاز — نمادی از سیستم طراحی، یک ایموجی، یک نویسه —، رنگی که نشان را رنگ می‌کند، یا کل سطر را با toned: line."
     default:
       title: پیش‌فرض
     empty:
@@ -185,6 +233,12 @@ fa:
   header:
     filter: فیلتر
   item:
+    marked:
+      read: "پیکربندی خوانده شد"
+      opened: "اتصال باز شد"
+      skipped: "دو فایل نادیده گرفته شد"
+      refused: "پرداخت رد شد"
+      night: "در شیفت شب در حال اجرا"
     postgres:
       title: PostgreSQL
       body: 'اتصال SQL مدیریت شده برای بارهای کاری تراکنشی'
@@ -206,6 +260,9 @@ fi:
   page_title: Luettelot
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Merkityt rivit"
+      body: "item_list(items): rivi kohdetta kohden, alussa sen merkki — suunnittelujärjestelmän kuvake, emoji, merkki —, sävy värittää merkin, tai koko rivin asetuksella toned: line."
     default:
       title: Oletus
     empty:
@@ -218,6 +275,12 @@ fi:
   header:
     filter: Suodata
   item:
+    marked:
+      read: "Asetukset luettu"
+      opened: "Yhteys avattu"
+      skipped: "Kaksi tiedostoa ohitettu"
+      refused: "Maksu hylätty"
+      night: "Käynnissä yövuorossa"
     postgres:
       title: PostgreSQL
       body: 'Hallittu SQL-yhteys transaktioita varten'
@@ -239,6 +302,9 @@ fr:
   page_title: Listes
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Lignes marquées"
+      body: "item_list(items) : une ligne par élément, précédée de sa marque — une icône du design system, un emoji, un caractère —, un ton colorant la marque, ou la ligne entière avec toned: line."
     default:
       title: 'Par défaut'
     empty:
@@ -251,6 +317,12 @@ fr:
   header:
     filter: Filtrer
   item:
+    marked:
+      read: "Configuration lue"
+      opened: "Connexion ouverte"
+      skipped: "Deux fichiers ignorés"
+      refused: "Paiement refusé"
+      night: "En service de nuit"
     postgres:
       title: PostgreSQL
       body: 'Connexion SQL gérée pour les charges de travail transactionnelles'
@@ -272,6 +344,9 @@ he:
   page_title: רשימות
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "שורות עם סימן"
+      body: "item_list(items): שורה לכל פריט, ובראשה הסימן שלו — אייקון של מערכת העיצוב, אימוג׳י, תו —, גוון הצובע את הסימן, או את כל השורה עם toned: line."
     default:
       title: 'ברירת מחדל'
     empty:
@@ -284,6 +359,12 @@ he:
   header:
     filter: סנן
   item:
+    marked:
+      read: "התצורה נקראה"
+      opened: "החיבור נפתח"
+      skipped: "שני קבצים דולגו"
+      refused: "התשלום נדחה"
+      night: "פועל במשמרת הלילה"
     postgres:
       title: PostgreSQL
       body: 'חיבור SQL מנוהל עבור עבודות טרנזקציה'
@@ -305,6 +386,9 @@ hi:
   page_title: सूचियाँ
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "चिह्न वाली पंक्तियाँ"
+      body: "item_list(items): हर आइटम की एक पंक्ति, उसके चिह्न से शुरू — डिज़ाइन सिस्टम का आइकन, इमोजी या कोई अक्षर —, टोन चिह्न को रंगता है, या toned: line के साथ पूरी पंक्ति को।"
     default:
       title: डिफ़ॉल्ट
     empty:
@@ -317,6 +401,12 @@ hi:
   header:
     filter: फ़िल्टर
   item:
+    marked:
+      read: "कॉन्फ़िगरेशन पढ़ा गया"
+      opened: "कनेक्शन खुला"
+      skipped: "दो फ़ाइलें छोड़ी गईं"
+      refused: "भुगतान अस्वीकृत"
+      night: "रात की पाली में चल रहा है"
     postgres:
       title: पोस्टग्रेएसक्यूएल
       body: 'लेनदेन कार्यभार के लिए प्रबंधित SQL कनेक्शन'
@@ -338,6 +428,9 @@ id:
   page_title: Daftar
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Baris bertanda"
+      body: "item_list(items): satu baris per item, diawali tandanya — ikon design system, emoji, sebuah karakter —, nada mewarnai tanda, atau seluruh baris dengan toned: line."
     default:
       title: Default
     empty:
@@ -350,6 +443,12 @@ id:
   header:
     filter: Saring
   item:
+    marked:
+      read: "Konfigurasi dibaca"
+      opened: "Koneksi dibuka"
+      skipped: "Dua berkas dilewati"
+      refused: "Pembayaran ditolak"
+      night: "Berjalan di sif malam"
     postgres:
       title: PostgreSQL
       body: 'Koneksi SQL yang dikelola untuk beban kerja transaksi'
@@ -371,6 +470,9 @@ it:
   page_title: Elenco
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Righe con segno"
+      body: "item_list(items): una riga per elemento, preceduta dal suo segno — un'icona del design system, un emoji, un carattere —, un tono che colora il segno, o l'intera riga con toned: line."
     default:
       title: Predefinito
     empty:
@@ -383,6 +485,12 @@ it:
   header:
     filter: Filtra
   item:
+    marked:
+      read: "Configurazione letta"
+      opened: "Connessione aperta"
+      skipped: "Due file saltati"
+      refused: "Pagamento rifiutato"
+      night: "In servizio nel turno di notte"
     postgres:
       title: PostgreSQL
       body: 'Connessione SQL gestita per carichi di lavoro transazionali'
@@ -404,6 +512,9 @@ ja:
   page_title: リスト
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "マーク付きの行"
+      body: "item_list(items):項目ごとに一行、先頭にマーク — デザインシステムのアイコン、絵文字、文字 —。トーンはマークを、toned: line なら行全体を色付けする。"
     default:
       title: デフォルト
     empty:
@@ -416,6 +527,12 @@ ja:
   header:
     filter: フィルター
   item:
+    marked:
+      read: "設定を読み込みました"
+      opened: "接続を開きました"
+      skipped: "2 ファイルをスキップ"
+      refused: "支払いが拒否されました"
+      night: "夜勤で稼働中"
     postgres:
       title: PostgreSQL
       body: トランザクション処理ワークロードのための管理されたSQL接続
@@ -437,6 +554,9 @@ ko:
   page_title: 목록
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "표시가 있는 줄"
+      body: "item_list(items): 항목마다 한 줄, 앞에 표시 — 디자인 시스템 아이콘, 이모지, 문자 —, 톤이 표시를, toned: line이면 줄 전체를 칠합니다."
     default:
       title: 기본값
     empty:
@@ -449,6 +569,12 @@ ko:
   header:
     filter: 필터
   item:
+    marked:
+      read: "설정을 읽었습니다"
+      opened: "연결을 열었습니다"
+      skipped: "파일 두 개를 건너뜀"
+      refused: "결제가 거부됨"
+      night: "야간 근무로 실행 중"
     postgres:
       title: PostgreSQL
       body: '트랜잭션 워크로드를 위한 관리형 SQL 연결'
@@ -470,6 +596,9 @@ nl:
   page_title: Lijsten
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Regels met een teken"
+      body: "item_list(items): één regel per item, voorafgegaan door zijn teken — een icoon van het design system, een emoji, een teken —, een toon kleurt het teken, of de hele regel met toned: line."
     default:
       title: Standaard
     empty:
@@ -482,6 +611,12 @@ nl:
   header:
     filter: Filter
   item:
+    marked:
+      read: "Configuratie gelezen"
+      opened: "Verbinding geopend"
+      skipped: "Twee bestanden overgeslagen"
+      refused: "Betaling geweigerd"
+      night: "Draait in de nachtdienst"
     postgres:
       title: PostgreSQL
       body: 'Beheerde SQL-verbinding voor transactionele workloads'
@@ -503,6 +638,9 @@ pl:
   page_title: Listy
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Wiersze ze znakiem"
+      body: "item_list(items): jeden wiersz na element, poprzedzony jego znakiem — ikoną systemu, emoji, znakiem —, ton barwi znak, albo cały wiersz z toned: line."
     default:
       title: Domyślny
     empty:
@@ -515,6 +653,12 @@ pl:
   header:
     filter: Filtruj
   item:
+    marked:
+      read: "Konfiguracja odczytana"
+      opened: "Połączenie otwarte"
+      skipped: "Pominięto dwa pliki"
+      refused: "Płatność odrzucona"
+      night: "Działa na nocnej zmianie"
     postgres:
       title: PostgreSQL
       body: 'Zarządzane połączenie SQL dla obciążeń transakcyjnych'
@@ -536,6 +680,9 @@ pt_BR:
   page_title: Listas
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Linhas com marca"
+      body: "item_list(items): uma linha por item, precedida da sua marca — um ícone do design system, um emoji, um caractere —, um tom colorindo a marca, ou a linha inteira com toned: line."
     default:
       title: Padrão
     empty:
@@ -548,6 +695,12 @@ pt_BR:
   header:
     filter: Filtrar
   item:
+    marked:
+      read: "Configuração lida"
+      opened: "Conexão aberta"
+      skipped: "Dois arquivos ignorados"
+      refused: "Pagamento recusado"
+      night: "Rodando no turno da noite"
     postgres:
       title: PostgreSQL
       body: 'Conexão SQL gerenciada para cargas de trabalho transacionais'
@@ -569,6 +722,9 @@ ru:
   page_title: Списки
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Строки с меткой"
+      body: "item_list(items): одна строка на элемент, впереди её метка — значок дизайн-системы, эмодзи, символ —, тон окрашивает метку, или всю строку с toned: line."
     default:
       title: 'По умолчанию'
     empty:
@@ -581,6 +737,12 @@ ru:
   header:
     filter: Фильтр
   item:
+    marked:
+      read: "Конфигурация прочитана"
+      opened: "Соединение открыто"
+      skipped: "Пропущено два файла"
+      refused: "Платёж отклонён"
+      night: "Работает в ночную смену"
     postgres:
       title: PostgreSQL
       body: 'Управляемое SQL-соединение для транзакционных нагрузок'
@@ -602,6 +764,9 @@ th:
   page_title: รายการ
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "บรรทัดที่มีเครื่องหมาย"
+      body: "item_list(items): หนึ่งบรรทัดต่อรายการ นำด้วยเครื่องหมาย — ไอคอนของระบบดีไซน์ อีโมจิ หรืออักขระ — โทนระบายสีเครื่องหมาย หรือทั้งบรรทัดด้วย toned: line"
     default:
       title: ค่าเริ่มต้น
     empty:
@@ -614,6 +779,12 @@ th:
   header:
     filter: กรอง
   item:
+    marked:
+      read: "อ่านการตั้งค่าแล้ว"
+      opened: "เปิดการเชื่อมต่อแล้ว"
+      skipped: "ข้ามไปสองไฟล์"
+      refused: "การชำระเงินถูกปฏิเสธ"
+      night: "ทำงานกะกลางคืน"
     postgres:
       title: PostgreSQL
       body: 'การเชื่อมต่อ SQL ที่จัดการสำหรับงานด้านธุรกรรม'
@@ -635,6 +806,9 @@ tr:
   page_title: Listeler
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "İşaretli satırlar"
+      body: "item_list(items): öğe başına bir satır, önünde işareti — tasarım sisteminin bir simgesi, bir emoji, bir karakter —, ton işareti, toned: line ile tüm satırı renklendirir."
     default:
       title: Varsayılan
     empty:
@@ -647,6 +821,12 @@ tr:
   header:
     filter: Filtrele
   item:
+    marked:
+      read: "Yapılandırma okundu"
+      opened: "Bağlantı açıldı"
+      skipped: "İki dosya atlandı"
+      refused: "Ödeme reddedildi"
+      night: "Gece vardiyasında çalışıyor"
     postgres:
       title: PostgreSQL
       body: 'İşlem yükleri için yönetilen SQL bağlantısı'
@@ -668,6 +848,9 @@ ur:
   page_title: فہرستیں
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "نشان والی سطریں"
+      body: "item_list(items): ہر آئٹم کی ایک سطر، اس کے نشان سے شروع — ڈیزائن سسٹم کا آئیکن، ایموجی یا کوئی حرف —، ٹون نشان کو رنگتا ہے، یا toned: line کے ساتھ پوری سطر کو۔"
     default:
       title: ڈیفالٹ
     empty:
@@ -680,6 +863,12 @@ ur:
   header:
     filter: 'فلٹر کریں'
   item:
+    marked:
+      read: "ترتیب پڑھی گئی"
+      opened: "کنکشن کھلا"
+      skipped: "دو فائلیں چھوڑ دی گئیں"
+      refused: "ادائیگی مسترد"
+      night: "رات کی شفٹ میں چل رہا ہے"
     postgres:
       title: PostgreSQL
       body: 'تجارتی ورک لوڈز کے لیے منظم SQL کنکشن'
@@ -701,6 +890,9 @@ vi:
   page_title: 'Danh sách'
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "Dòng có dấu"
+      body: "item_list(items): mỗi mục một dòng, đứng đầu là dấu của nó — biểu tượng của design system, emoji, một ký tự —, sắc thái tô màu dấu, hoặc cả dòng với toned: line."
     default:
       title: 'Mặc định'
     empty:
@@ -713,6 +905,12 @@ vi:
   header:
     filter: Lọc
   item:
+    marked:
+      read: "Đã đọc cấu hình"
+      opened: "Đã mở kết nối"
+      skipped: "Đã bỏ qua hai tệp"
+      refused: "Thanh toán bị từ chối"
+      night: "Đang chạy ca đêm"
     postgres:
       title: PostgreSQL
       body: 'Kết nối SQL được quản lý cho các khối lượng công việc giao dịch'
@@ -734,6 +932,9 @@ zh:
   page_title: 列表
   page_icon: 'ph:bold/list-bullets'
   section:
+    marked:
+      title: "带标记的行"
+      body: "item_list(items):每项一行,前面是它的标记——设计系统的图标、表情或字符——,色调为标记着色,或用 toned: line 为整行着色。"
     default:
       title: 默认
     empty:
@@ -746,6 +947,12 @@ zh:
   header:
     filter: 过滤
   item:
+    marked:
+      read: "已读取配置"
+      opened: "已打开连接"
+      skipped: "跳过了两个文件"
+      refused: "付款被拒绝"
+      night: "夜班运行中"
     postgres:
       title: PostgreSQL
       body: '用于事务工作负载的托管 SQL 连接'
