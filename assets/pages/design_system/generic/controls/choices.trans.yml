@@ -1,0 +1,817 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: "Choices"
+  page_icon: ph:bold/list-checks
+
+  intro: "One choice among options shown whole, each with a line saying more of it: read before one is taken, where a select would fold them away. The one chosen is ticked."
+  section:
+    server:
+      title: "Rendered by the server"
+      description: "A press chooses; the list says which with choice-list:change. An option may be out of reach."
+    filter:
+      title: "Many options"
+      description: "Past filter_from options, a field narrows them by their words."
+    vue:
+      title: "Vue"
+      description: "The same list as a component, bound with v-model."
+  chosen: "Chosen: %value%"
+  option:
+    table:
+      label: "Table"
+      description: "Rows and columns, sorted as you like."
+    board:
+      label: "Board"
+      description: "Cards in columns, one per status."
+    calendar:
+      label: "Calendar"
+      description: "Each item on its date."
+    timeline:
+      label: "Timeline"
+      description: "One line per item, in order."
+    map:
+      label: "Map"
+      description: "Needs a location on each item."
+    gallery:
+      label: "Gallery"
+    chart:
+      label: "Chart"
+    report:
+      label: "Report"
+
+ar:
+  page_title: "اختيارات"
+  intro: "اختيار واحد بين خيارات معروضة كاملة، لكل منها سطر يشرحه: تُقرأ قبل الاختيار، حيث كانت القائمة المنسدلة ستطويها. الخيار المختار مُعلَّم."
+  section:
+    server:
+      title: "معروض من الخادم"
+      description: "النقر يختار؛ وتُعلن القائمة ذلك عبر choice-list:change. قد يكون خيار غير متاح."
+    filter:
+      title: "خيارات كثيرة"
+      description: "ابتداءً من filter_from خيارًا، يضيّقها حقل بحسب كلماتها."
+    vue:
+      title: "Vue"
+      description: "القائمة نفسها كمكوّن، مربوطة بـ v-model."
+  chosen: "المختار: %value%"
+  option:
+    table:
+      label: "جدول"
+      description: "صفوف وأعمدة، مرتبة كما تشاء."
+    board:
+      label: "لوحة"
+      description: "بطاقات في أعمدة، عمود لكل حالة."
+    calendar:
+      label: "تقويم"
+      description: "كل عنصر في تاريخه."
+    timeline:
+      label: "خط زمني"
+      description: "سطر لكل عنصر، بالترتيب."
+    map:
+      label: "خريطة"
+      description: "يتطلب موقعًا لكل عنصر."
+    gallery:
+      label: "معرض"
+    chart:
+      label: "رسم بياني"
+    report:
+      label: "تقرير"
+
+bn:
+  page_title: "পছন্দ"
+  intro: "সম্পূর্ণ দেখানো বিকল্পগুলোর মধ্যে একটি বেছে নেওয়া, প্রতিটির সঙ্গে ব্যাখ্যার একটি লাইন: বেছে নেওয়ার আগে পড়া যায়, যেখানে select সেগুলো ভাঁজ করে রাখত। বেছে নেওয়াটি চিহ্নিত।"
+  section:
+    server:
+      title: "সার্ভারে রেন্ডার করা"
+      description: "একটি ক্লিক বেছে নেয়; তালিকা choice-list:change দিয়ে জানায়। কোনো বিকল্প অনুপলব্ধ হতে পারে।"
+    filter:
+      title: "অনেক বিকল্প"
+      description: "filter_from টি বিকল্পের পর একটি ঘর শব্দ দিয়ে সেগুলো ছাঁকে।"
+    vue:
+      title: "Vue"
+      description: "একই তালিকা কম্পোনেন্ট হিসেবে, v-model দিয়ে যুক্ত।"
+  chosen: "বেছে নেওয়া: %value%"
+  option:
+    table:
+      label: "সারণি"
+      description: "সারি ও কলাম, ইচ্ছেমতো সাজানো।"
+    board:
+      label: "বোর্ড"
+      description: "কলামে কার্ড, প্রতিটি অবস্থার জন্য একটি।"
+    calendar:
+      label: "ক্যালেন্ডার"
+      description: "প্রতিটি আইটেম তার তারিখে।"
+    timeline:
+      label: "টাইমলাইন"
+      description: "প্রতি আইটেমে একটি লাইন, ক্রমানুসারে।"
+    map:
+      label: "মানচিত্র"
+      description: "প্রতিটি আইটেমে একটি অবস্থান দরকার।"
+    gallery:
+      label: "গ্যালারি"
+    chart:
+      label: "চার্ট"
+    report:
+      label: "প্রতিবেদন"
+
+de:
+  page_title: "Auswahl"
+  intro: "Eine Wahl unter vollständig gezeigten Optionen, jede mit einer erklärenden Zeile: gelesen, bevor man eine nimmt, wo ein Select sie zuklappen würde. Die gewählte ist abgehakt."
+  section:
+    server:
+      title: "Vom Server gerendert"
+      description: "Ein Klick wählt; die Liste meldet es mit choice-list:change. Eine Option kann gesperrt sein."
+    filter:
+      title: "Viele Optionen"
+      description: "Ab filter_from Optionen grenzt ein Feld sie nach ihren Worten ein."
+    vue:
+      title: "Vue"
+      description: "Dieselbe Liste als Komponente, mit v-model gebunden."
+  chosen: "Gewählt: %value%"
+  option:
+    table:
+      label: "Tabelle"
+      description: "Zeilen und Spalten, beliebig sortiert."
+    board:
+      label: "Board"
+      description: "Karten in Spalten, eine pro Status."
+    calendar:
+      label: "Kalender"
+      description: "Jedes Element an seinem Datum."
+    timeline:
+      label: "Zeitleiste"
+      description: "Eine Zeile pro Element, der Reihe nach."
+    map:
+      label: "Karte"
+      description: "Braucht einen Ort für jedes Element."
+    gallery:
+      label: "Galerie"
+    chart:
+      label: "Diagramm"
+    report:
+      label: "Bericht"
+
+es:
+  page_title: "Opciones"
+  intro: "Una elección entre opciones mostradas enteras, cada una con una línea que dice más: se leen antes de tomar una, donde un select las plegaría. La elegida queda marcada."
+  section:
+    server:
+      title: "Renderizado por el servidor"
+      description: "Un clic elige; la lista lo dice con choice-list:change. Una opción puede estar fuera de alcance."
+    filter:
+      title: "Muchas opciones"
+      description: "A partir de filter_from opciones, un campo las filtra por sus palabras."
+    vue:
+      title: "Vue"
+      description: "La misma lista como componente, enlazada con v-model."
+  chosen: "Elegido: %value%"
+  option:
+    table:
+      label: "Tabla"
+      description: "Filas y columnas, ordenadas a tu gusto."
+    board:
+      label: "Tablero"
+      description: "Tarjetas en columnas, una por estado."
+    calendar:
+      label: "Calendario"
+      description: "Cada elemento en su fecha."
+    timeline:
+      label: "Cronología"
+      description: "Una línea por elemento, en orden."
+    map:
+      label: "Mapa"
+      description: "Necesita una ubicación en cada elemento."
+    gallery:
+      label: "Galería"
+    chart:
+      label: "Gráfico"
+    report:
+      label: "Informe"
+
+fa:
+  page_title: "گزینه‌ها"
+  intro: "یک انتخاب میان گزینه‌هایی که کامل نمایش داده می‌شوند، هر کدام با یک خط توضیح: پیش از انتخاب خوانده می‌شوند، جایی که select آن‌ها را جمع می‌کرد. گزینهٔ انتخاب‌شده تیک خورده است."
+  section:
+    server:
+      title: "رندر شده توسط سرور"
+      description: "یک کلیک انتخاب می‌کند؛ فهرست با choice-list:change آن را اعلام می‌کند. ممکن است گزینه‌ای در دسترس نباشد."
+    filter:
+      title: "گزینه‌های زیاد"
+      description: "از filter_from گزینه به بعد، یک فیلد آن‌ها را بر اساس واژه‌ها محدود می‌کند."
+    vue:
+      title: "Vue"
+      description: "همان فهرست به‌صورت کامپوننت، متصل با v-model."
+  chosen: "انتخاب‌شده: %value%"
+  option:
+    table:
+      label: "جدول"
+      description: "سطرها و ستون‌ها، به دلخواه مرتب‌شده."
+    board:
+      label: "تابلو"
+      description: "کارت‌ها در ستون‌ها، یکی برای هر وضعیت."
+    calendar:
+      label: "تقویم"
+      description: "هر مورد در تاریخ خودش."
+    timeline:
+      label: "خط زمان"
+      description: "هر مورد یک خط، به ترتیب."
+    map:
+      label: "نقشه"
+      description: "برای هر مورد مکانی لازم است."
+    gallery:
+      label: "گالری"
+    chart:
+      label: "نمودار"
+    report:
+      label: "گزارش"
+
+fi:
+  page_title: "Valinnat"
+  intro: "Yksi valinta kokonaan näytetyistä vaihtoehdoista, kullakin selittävä rivi: luetaan ennen valintaa, missä select taittaisi ne piiloon. Valittu on merkitty."
+  section:
+    server:
+      title: "Palvelimen piirtämä"
+      description: "Napsautus valitsee; lista kertoo sen choice-list:change-tapahtumalla. Vaihtoehto voi olla poissa käytöstä."
+    filter:
+      title: "Paljon vaihtoehtoja"
+      description: "filter_from vaihtoehdosta alkaen kenttä rajaa niitä sanojen mukaan."
+    vue:
+      title: "Vue"
+      description: "Sama lista komponenttina, sidottuna v-modelilla."
+  chosen: "Valittu: %value%"
+  option:
+    table:
+      label: "Taulukko"
+      description: "Rivit ja sarakkeet, lajiteltuna mielesi mukaan."
+    board:
+      label: "Taulu"
+      description: "Kortit sarakkeissa, yksi tilaa kohden."
+    calendar:
+      label: "Kalenteri"
+      description: "Jokainen kohde päivämäärällään."
+    timeline:
+      label: "Aikajana"
+      description: "Yksi rivi kohdetta kohden, järjestyksessä."
+    map:
+      label: "Kartta"
+      description: "Vaatii sijainnin jokaiselle kohteelle."
+    gallery:
+      label: "Galleria"
+    chart:
+      label: "Kaavio"
+    report:
+      label: "Raportti"
+
+fr:
+  page_title: "Choix"
+  intro: "Un choix parmi des options montrées en entier, chacune avec une ligne qui en dit plus : lues avant d'en prendre une, là où un select les replierait. L'option choisie est cochée."
+  section:
+    server:
+      title: "Rendu par le serveur"
+      description: "Un clic choisit ; la liste dit laquelle par choice-list:change. Une option peut être hors d'atteinte."
+    filter:
+      title: "Beaucoup d'options"
+      description: "Au-delà de filter_from options, un champ les filtre par leurs mots."
+    vue:
+      title: "Vue"
+      description: "La même liste en composant, liée par v-model."
+  chosen: "Choisi : %value%"
+  option:
+    table:
+      label: "Tableau"
+      description: "Lignes et colonnes, triées à votre guise."
+    board:
+      label: "Tableau de bord"
+      description: "Des cartes en colonnes, une par statut."
+    calendar:
+      label: "Calendrier"
+      description: "Chaque élément à sa date."
+    timeline:
+      label: "Chronologie"
+      description: "Une ligne par élément, dans l'ordre."
+    map:
+      label: "Carte"
+      description: "Demande un lieu sur chaque élément."
+    gallery:
+      label: "Galerie"
+    chart:
+      label: "Graphique"
+    report:
+      label: "Rapport"
+
+he:
+  page_title: "בחירות"
+  intro: "בחירה אחת מבין אפשרויות המוצגות במלואן, לכל אחת שורה שמסבירה אותה: נקראות לפני הבחירה, במקום שבו select היה מקפל אותן. האפשרות שנבחרה מסומנת."
+  section:
+    server:
+      title: "מעובד בשרת"
+      description: "לחיצה בוחרת; הרשימה מודיעה על כך ב־choice-list:change. אפשרות יכולה להיות לא זמינה."
+    filter:
+      title: "אפשרויות רבות"
+      description: "החל מ־filter_from אפשרויות, שדה מצמצם אותן לפי מילים."
+    vue:
+      title: "Vue"
+      description: "אותה רשימה כרכיב, מקושרת ב־v-model."
+  chosen: "נבחר: %value%"
+  option:
+    table:
+      label: "טבלה"
+      description: "שורות ועמודות, ממוינות כרצונך."
+    board:
+      label: "לוח"
+      description: "כרטיסים בעמודות, אחת לכל סטטוס."
+    calendar:
+      label: "לוח שנה"
+      description: "כל פריט בתאריך שלו."
+    timeline:
+      label: "ציר זמן"
+      description: "שורה לכל פריט, לפי הסדר."
+    map:
+      label: "מפה"
+      description: "דורש מיקום לכל פריט."
+    gallery:
+      label: "גלריה"
+    chart:
+      label: "תרשים"
+    report:
+      label: "דוח"
+
+hi:
+  page_title: "विकल्प"
+  intro: "पूरे दिखाए गए विकल्पों में से एक चुनाव, हर एक के साथ विवरण की एक पंक्ति: चुनने से पहले पढ़े जाते हैं, जहाँ select उन्हें समेट देता। चुना गया विकल्प चिह्नित होता है।"
+  section:
+    server:
+      title: "सर्वर द्वारा रेंडर"
+      description: "एक क्लिक चुनता है; सूची choice-list:change से बताती है। कोई विकल्प अनुपलब्ध हो सकता है।"
+    filter:
+      title: "कई विकल्प"
+      description: "filter_from विकल्पों के बाद, एक फ़ील्ड उन्हें शब्दों से छाँटता है।"
+    vue:
+      title: "Vue"
+      description: "वही सूची कंपोनेंट के रूप में, v-model से जुड़ी।"
+  chosen: "चुना गया: %value%"
+  option:
+    table:
+      label: "तालिका"
+      description: "पंक्तियाँ और स्तंभ, मनचाहे क्रम में।"
+    board:
+      label: "बोर्ड"
+      description: "स्तंभों में कार्ड, हर स्थिति के लिए एक।"
+    calendar:
+      label: "कैलेंडर"
+      description: "हर आइटम अपनी तारीख पर।"
+    timeline:
+      label: "टाइमलाइन"
+      description: "हर आइटम की एक पंक्ति, क्रम से।"
+    map:
+      label: "नक्शा"
+      description: "हर आइटम के लिए स्थान चाहिए।"
+    gallery:
+      label: "गैलरी"
+    chart:
+      label: "चार्ट"
+    report:
+      label: "रिपोर्ट"
+
+id:
+  page_title: "Pilihan"
+  intro: "Satu pilihan di antara opsi yang ditampilkan utuh, masing-masing dengan baris keterangan: dibaca sebelum memilih, di mana select akan melipatnya. Yang dipilih dicentang."
+  section:
+    server:
+      title: "Dirender oleh server"
+      description: "Satu klik memilih; daftar memberitahukannya lewat choice-list:change. Opsi bisa tidak tersedia."
+    filter:
+      title: "Banyak opsi"
+      description: "Mulai filter_from opsi, sebuah kolom menyaringnya menurut kata."
+    vue:
+      title: "Vue"
+      description: "Daftar yang sama sebagai komponen, diikat dengan v-model."
+  chosen: "Dipilih: %value%"
+  option:
+    table:
+      label: "Tabel"
+      description: "Baris dan kolom, diurutkan sesuka Anda."
+    board:
+      label: "Papan"
+      description: "Kartu dalam kolom, satu per status."
+    calendar:
+      label: "Kalender"
+      description: "Setiap item pada tanggalnya."
+    timeline:
+      label: "Linimasa"
+      description: "Satu baris per item, berurutan."
+    map:
+      label: "Peta"
+      description: "Membutuhkan lokasi pada setiap item."
+    gallery:
+      label: "Galeri"
+    chart:
+      label: "Grafik"
+    report:
+      label: "Laporan"
+
+it:
+  page_title: "Scelte"
+  intro: "Una scelta tra opzioni mostrate per intero, ognuna con una riga che ne dice di più: lette prima di prenderne una, dove una select le chiuderebbe. Quella scelta è spuntata."
+  section:
+    server:
+      title: "Generato dal server"
+      description: "Un clic sceglie; la lista lo dice con choice-list:change. Un'opzione può essere fuori portata."
+    filter:
+      title: "Molte opzioni"
+      description: "Oltre filter_from opzioni, un campo le filtra per parole."
+    vue:
+      title: "Vue"
+      description: "La stessa lista come componente, legata con v-model."
+  chosen: "Scelto: %value%"
+  option:
+    table:
+      label: "Tabella"
+      description: "Righe e colonne, ordinate a piacere."
+    board:
+      label: "Bacheca"
+      description: "Schede in colonne, una per stato."
+    calendar:
+      label: "Calendario"
+      description: "Ogni elemento alla sua data."
+    timeline:
+      label: "Cronologia"
+      description: "Una riga per elemento, in ordine."
+    map:
+      label: "Mappa"
+      description: "Richiede un luogo per ogni elemento."
+    gallery:
+      label: "Galleria"
+    chart:
+      label: "Grafico"
+    report:
+      label: "Rapporto"
+
+ja:
+  page_title: "選択肢"
+  intro: "すべて表示された選択肢から一つを選びます。各項目には説明の行があり、選ぶ前に読めます。select なら折りたたまれるところです。選ばれた項目にはチェックが付きます。"
+  section:
+    server:
+      title: "サーバーで描画"
+      description: "押すと選択され、リストは choice-list:change で知らせます。選べない項目もあります。"
+    filter:
+      title: "多くの選択肢"
+      description: "filter_from 個以上になると、入力欄で絞り込めます。"
+    vue:
+      title: "Vue"
+      description: "同じリストをコンポーネントとして、v-model で結び付けます。"
+  chosen: "選択: %value%"
+  option:
+    table:
+      label: "テーブル"
+      description: "行と列、好きな順に並べ替え。"
+    board:
+      label: "ボード"
+      description: "ステータスごとの列にカード。"
+    calendar:
+      label: "カレンダー"
+      description: "各項目をその日付に。"
+    timeline:
+      label: "タイムライン"
+      description: "項目ごとに一行、順番に。"
+    map:
+      label: "地図"
+      description: "各項目に場所が必要です。"
+    gallery:
+      label: "ギャラリー"
+    chart:
+      label: "グラフ"
+    report:
+      label: "レポート"
+
+ko:
+  page_title: "선택"
+  intro: "전부 보이는 옵션 중 하나를 고릅니다. 각 옵션에는 설명 한 줄이 있어 고르기 전에 읽을 수 있습니다. select라면 접혀 있을 내용입니다. 선택된 항목에는 체크가 표시됩니다."
+  section:
+    server:
+      title: "서버에서 렌더링"
+      description: "누르면 선택되고, 목록은 choice-list:change로 알립니다. 선택할 수 없는 옵션도 있습니다."
+    filter:
+      title: "옵션이 많을 때"
+      description: "filter_from개부터는 입력란으로 단어를 기준으로 좁힐 수 있습니다."
+    vue:
+      title: "Vue"
+      description: "같은 목록을 컴포넌트로, v-model로 연결합니다."
+  chosen: "선택됨: %value%"
+  option:
+    table:
+      label: "표"
+      description: "행과 열, 원하는 대로 정렬."
+    board:
+      label: "보드"
+      description: "상태별 열에 카드."
+    calendar:
+      label: "달력"
+      description: "각 항목을 해당 날짜에."
+    timeline:
+      label: "타임라인"
+      description: "항목마다 한 줄, 순서대로."
+    map:
+      label: "지도"
+      description: "모든 항목에 위치가 필요합니다."
+    gallery:
+      label: "갤러리"
+    chart:
+      label: "차트"
+    report:
+      label: "보고서"
+
+nl:
+  page_title: "Keuzes"
+  intro: "Eén keuze uit opties die volledig getoond worden, elk met een regel uitleg: gelezen voordat je er een neemt, waar een select ze zou inklappen. De gekozen optie is aangevinkt."
+  section:
+    server:
+      title: "Door de server gerenderd"
+      description: "Een klik kiest; de lijst meldt het met choice-list:change. Een optie kan onbereikbaar zijn."
+    filter:
+      title: "Veel opties"
+      description: "Vanaf filter_from opties filtert een veld ze op hun woorden."
+    vue:
+      title: "Vue"
+      description: "Dezelfde lijst als component, gebonden met v-model."
+  chosen: "Gekozen: %value%"
+  option:
+    table:
+      label: "Tabel"
+      description: "Rijen en kolommen, gesorteerd naar wens."
+    board:
+      label: "Bord"
+      description: "Kaarten in kolommen, één per status."
+    calendar:
+      label: "Kalender"
+      description: "Elk item op zijn datum."
+    timeline:
+      label: "Tijdlijn"
+      description: "Eén regel per item, op volgorde."
+    map:
+      label: "Kaart"
+      description: "Vraagt een locatie bij elk item."
+    gallery:
+      label: "Galerij"
+    chart:
+      label: "Grafiek"
+    report:
+      label: "Rapport"
+
+pl:
+  page_title: "Wybory"
+  intro: "Jeden wybór spośród opcji pokazanych w całości, każda z linijką opisu: czytane przed wyborem, tam gdzie select by je zwinął. Wybrana jest zaznaczona."
+  section:
+    server:
+      title: "Renderowane przez serwer"
+      description: "Kliknięcie wybiera; lista mówi o tym przez choice-list:change. Opcja może być niedostępna."
+    filter:
+      title: "Wiele opcji"
+      description: "Od filter_from opcji pole zawęża je po słowach."
+    vue:
+      title: "Vue"
+      description: "Ta sama lista jako komponent, powiązana przez v-model."
+  chosen: "Wybrano: %value%"
+  option:
+    table:
+      label: "Tabela"
+      description: "Wiersze i kolumny, sortowane dowolnie."
+    board:
+      label: "Tablica"
+      description: "Karty w kolumnach, jedna na status."
+    calendar:
+      label: "Kalendarz"
+      description: "Każdy element w swojej dacie."
+    timeline:
+      label: "Oś czasu"
+      description: "Jedna linia na element, po kolei."
+    map:
+      label: "Mapa"
+      description: "Wymaga lokalizacji przy każdym elemencie."
+    gallery:
+      label: "Galeria"
+    chart:
+      label: "Wykres"
+    report:
+      label: "Raport"
+
+ru:
+  page_title: "Выбор"
+  intro: "Один выбор среди вариантов, показанных целиком, у каждого строка пояснения: их читают до выбора, там где select бы их свернул. Выбранный отмечен."
+  section:
+    server:
+      title: "Отрисовано сервером"
+      description: "Нажатие выбирает; список сообщает об этом через choice-list:change. Вариант может быть недоступен."
+    filter:
+      title: "Много вариантов"
+      description: "Начиная с filter_from вариантов, поле сужает их по словам."
+    vue:
+      title: "Vue"
+      description: "Тот же список как компонент, связанный через v-model."
+  chosen: "Выбрано: %value%"
+  option:
+    table:
+      label: "Таблица"
+      description: "Строки и столбцы, сортировка на ваш вкус."
+    board:
+      label: "Доска"
+      description: "Карточки в колонках, по одной на статус."
+    calendar:
+      label: "Календарь"
+      description: "Каждый элемент в свой день."
+    timeline:
+      label: "Хронология"
+      description: "Одна строка на элемент, по порядку."
+    map:
+      label: "Карта"
+      description: "Нужно место у каждого элемента."
+    gallery:
+      label: "Галерея"
+    chart:
+      label: "График"
+    report:
+      label: "Отчёт"
+
+th:
+  page_title: "ตัวเลือก"
+  intro: "เลือกหนึ่งรายการจากตัวเลือกที่แสดงครบทั้งหมด แต่ละรายการมีบรรทัดอธิบาย อ่านได้ก่อนเลือก ในที่ที่ select จะพับเก็บไว้ รายการที่เลือกจะมีเครื่องหมายถูก"
+  section:
+    server:
+      title: "แสดงผลโดยเซิร์ฟเวอร์"
+      description: "คลิกเพื่อเลือก รายการจะแจ้งผ่าน choice-list:change ตัวเลือกบางรายการอาจใช้ไม่ได้"
+    filter:
+      title: "ตัวเลือกจำนวนมาก"
+      description: "ตั้งแต่ filter_from ตัวเลือกขึ้นไป มีช่องกรองตามคำ"
+    vue:
+      title: "Vue"
+      description: "รายการเดียวกันในรูปคอมโพเนนต์ ผูกด้วย v-model"
+  chosen: "เลือกแล้ว: %value%"
+  option:
+    table:
+      label: "ตาราง"
+      description: "แถวและคอลัมน์ เรียงได้ตามต้องการ"
+    board:
+      label: "บอร์ด"
+      description: "การ์ดในคอลัมน์ หนึ่งคอลัมน์ต่อสถานะ"
+    calendar:
+      label: "ปฏิทิน"
+      description: "แต่ละรายการอยู่ในวันที่ของตน"
+    timeline:
+      label: "ไทม์ไลน์"
+      description: "หนึ่งบรรทัดต่อรายการ ตามลำดับ"
+    map:
+      label: "แผนที่"
+      description: "ต้องมีตำแหน่งในทุกรายการ"
+    gallery:
+      label: "แกลเลอรี"
+    chart:
+      label: "แผนภูมิ"
+    report:
+      label: "รายงาน"
+
+tr:
+  page_title: "Seçimler"
+  intro: "Tamamı gösterilen seçenekler arasından bir seçim, her biri açıklayıcı bir satırla: bir select'in katlayacağı yerde, seçmeden önce okunur. Seçilen işaretlidir."
+  section:
+    server:
+      title: "Sunucuda oluşturulan"
+      description: "Bir tıklama seçer; liste bunu choice-list:change ile bildirir. Bir seçenek erişilemez olabilir."
+    filter:
+      title: "Çok seçenek"
+      description: "filter_from seçenekten sonra bir alan onları sözcüklerine göre daraltır."
+    vue:
+      title: "Vue"
+      description: "Aynı liste bir bileşen olarak, v-model ile bağlı."
+  chosen: "Seçilen: %value%"
+  option:
+    table:
+      label: "Tablo"
+      description: "Satırlar ve sütunlar, istediğiniz gibi sıralı."
+    board:
+      label: "Pano"
+      description: "Sütunlarda kartlar, durum başına bir."
+    calendar:
+      label: "Takvim"
+      description: "Her öğe kendi tarihinde."
+    timeline:
+      label: "Zaman çizelgesi"
+      description: "Öğe başına bir satır, sırayla."
+    map:
+      label: "Harita"
+      description: "Her öğede bir konum gerekir."
+    gallery:
+      label: "Galeri"
+    chart:
+      label: "Grafik"
+    report:
+      label: "Rapor"
+
+ur:
+  page_title: "انتخاب"
+  intro: "مکمل دکھائے گئے اختیارات میں سے ایک انتخاب، ہر ایک کے ساتھ وضاحت کی ایک سطر: انتخاب سے پہلے پڑھے جاتے ہیں، جہاں select انہیں سمیٹ دیتا۔ منتخب پر نشان لگا ہوتا ہے۔"
+  section:
+    server:
+      title: "سرور سے رینڈر شدہ"
+      description: "ایک کلک انتخاب کرتا ہے؛ فہرست choice-list:change سے بتاتی ہے۔ کوئی اختیار دستیاب نہ بھی ہو سکتا ہے۔"
+    filter:
+      title: "بہت سے اختیارات"
+      description: "filter_from اختیارات کے بعد ایک خانہ انہیں الفاظ سے محدود کرتا ہے۔"
+    vue:
+      title: "Vue"
+      description: "وہی فہرست بطور کمپوننٹ، v-model سے منسلک۔"
+  chosen: "منتخب: %value%"
+  option:
+    table:
+      label: "جدول"
+      description: "قطاریں اور کالم، جیسے چاہیں ترتیب دیں۔"
+    board:
+      label: "بورڈ"
+      description: "کالموں میں کارڈ، ہر حالت کے لیے ایک۔"
+    calendar:
+      label: "کیلنڈر"
+      description: "ہر آئٹم اپنی تاریخ پر۔"
+    timeline:
+      label: "ٹائم لائن"
+      description: "ہر آئٹم کی ایک سطر، ترتیب سے۔"
+    map:
+      label: "نقشہ"
+      description: "ہر آئٹم کے لیے مقام درکار ہے۔"
+    gallery:
+      label: "گیلری"
+    chart:
+      label: "چارٹ"
+    report:
+      label: "رپورٹ"
+
+vi:
+  page_title: "Lựa chọn"
+  intro: "Một lựa chọn giữa các tùy chọn hiển thị đầy đủ, mỗi tùy chọn có một dòng mô tả: đọc trước khi chọn, nơi một select sẽ thu gọn chúng. Mục đã chọn được đánh dấu."
+  section:
+    server:
+      title: "Do máy chủ hiển thị"
+      description: "Một lần nhấn sẽ chọn; danh sách báo lại bằng choice-list:change. Một tùy chọn có thể không dùng được."
+    filter:
+      title: "Nhiều tùy chọn"
+      description: "Từ filter_from tùy chọn trở lên, một ô lọc chúng theo từ ngữ."
+    vue:
+      title: "Vue"
+      description: "Cùng danh sách dưới dạng thành phần, gắn bằng v-model."
+  chosen: "Đã chọn: %value%"
+  option:
+    table:
+      label: "Bảng"
+      description: "Hàng và cột, sắp xếp tùy ý."
+    board:
+      label: "Bảng thẻ"
+      description: "Thẻ theo cột, mỗi trạng thái một cột."
+    calendar:
+      label: "Lịch"
+      description: "Mỗi mục vào ngày của nó."
+    timeline:
+      label: "Dòng thời gian"
+      description: "Mỗi mục một dòng, theo thứ tự."
+    map:
+      label: "Bản đồ"
+      description: "Cần vị trí cho mỗi mục."
+    gallery:
+      label: "Thư viện ảnh"
+    chart:
+      label: "Biểu đồ"
+    report:
+      label: "Báo cáo"
+
+zh:
+  page_title: "选项"
+  intro: "在完整展示的选项中做出一个选择，每个选项都有一行说明：在选择前即可阅读，而 select 会将它们收起。已选项带有勾选标记。"
+  section:
+    server:
+      title: "由服务器渲染"
+      description: "点击即选择；列表通过 choice-list:change 告知所选项。某个选项可能不可选。"
+    filter:
+      title: "选项很多时"
+      description: "选项达到 filter_from 个后，可用输入框按文字筛选。"
+    vue:
+      title: "Vue"
+      description: "同一列表作为组件，通过 v-model 绑定。"
+  chosen: "已选：%value%"
+  option:
+    table:
+      label: "表格"
+      description: "行与列，随意排序。"
+    board:
+      label: "看板"
+      description: "按状态分列的卡片。"
+    calendar:
+      label: "日历"
+      description: "每项显示在其日期上。"
+    timeline:
+      label: "时间线"
+      description: "每项一行，按顺序排列。"
+    map:
+      label: "地图"
+      description: "每项都需要一个位置。"
+    gallery:
+      label: "图库"
+    chart:
+      label: "图表"
+    report:
+      label: "报告"

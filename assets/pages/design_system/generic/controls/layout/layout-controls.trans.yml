@@ -4,6 +4,7 @@ en:
     buttons: Buttons
     menus: Menus
     steppers: Steppers
+    choices: "Choices"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -13,6 +14,7 @@ ar:
     buttons: أزرار
     menus: قوائم
     steppers: خطوات
+    choices: "اختيارات"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -22,6 +24,7 @@ bn:
     buttons: বাটন
     menus: মেনু
     steppers: স্টেপার
+    choices: "পছন্দ"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -31,6 +34,7 @@ de:
     buttons: Schaltflächen
     menus: Menüs
     steppers: Stepper
+    choices: "Auswahl"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -40,6 +44,7 @@ es:
     buttons: Botones
     menus: Menús
     steppers: Pasos
+    choices: "Opciones"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -49,6 +54,7 @@ fa:
     buttons: دکمه‌ها
     menus: منوها
     steppers: پله‌ها
+    choices: "گزینه‌ها"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -58,6 +64,7 @@ fi:
     buttons: Painikkeet
     menus: Valikot
     steppers: Askeleet
+    choices: "Valinnat"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -67,6 +74,7 @@ fr:
     buttons: Boutons
     menus: Menus
     steppers: 'Indicateurs d''étapes'
+    choices: "Choix"
     interactions: Interactions
     keyboard: Clavier
 
@@ -76,6 +84,7 @@ he:
     buttons: כפתורים
     menus: תפריטים
     steppers: שלבים
+    choices: "בחירות"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -85,6 +94,7 @@ hi:
     buttons: बटन
     menus: मेनू
     steppers: स्टेपर
+    choices: "विकल्प"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -94,6 +104,7 @@ id:
     buttons: Tombol
     menus: Menu
     steppers: Langkah
+    choices: "Pilihan"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -103,6 +114,7 @@ it:
     buttons: Pulsanti
     menus: Menu
     steppers: Stepper
+    choices: "Scelte"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -112,6 +124,7 @@ ja:
     buttons: ボタン
     menus: メニュー
     steppers: ステッパー
+    choices: "選択肢"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -121,6 +134,7 @@ ko:
     buttons: 버튼
     menus: 메뉴
     steppers: 스테퍼
+    choices: "선택"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -130,6 +144,7 @@ nl:
     buttons: Knoppen
     menus: "Menu's"
     steppers: Steppers
+    choices: "Keuzes"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -139,6 +154,7 @@ pl:
     buttons: Przyciski
     menus: Menu
     steppers: Kroki
+    choices: "Wybory"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -148,6 +164,7 @@ pt_BR:
     buttons: Botões
     menus: Menus
     steppers: Passos
+    choices: "Wybory"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -157,6 +174,7 @@ ru:
     buttons: Кнопки
     menus: Меню
     steppers: Шаги
+    choices: "Выбор"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -166,6 +184,7 @@ th:
     buttons: ปุ่ม
     menus: เมนู
     steppers: ขั้นตอน
+    choices: "ตัวเลือก"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -175,6 +194,7 @@ tr:
     buttons: Düğmeler
     menus: Menüler
     steppers: 'Adım Göstergeleri'
+    choices: "Seçimler"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -184,6 +204,7 @@ ur:
     buttons: بٹن
     menus: مینوز
     steppers: اسٹیپرز
+    choices: "انتخاب"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -193,6 +214,7 @@ vi:
     buttons: Nút
     menus: 'Thực đơn'
     steppers: Bước
+    choices: "Lựa chọn"
     interactions: Interactions
     keyboard: Keyboard
 
@@ -202,5 +224,6 @@ zh:
     buttons: 按钮
     menus: 菜单
     steppers: 步骤器
+    choices: "选项"
     interactions: Interactions
     keyboard: Keyboard

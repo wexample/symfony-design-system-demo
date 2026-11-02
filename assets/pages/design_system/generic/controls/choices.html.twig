@@ -1,0 +1,45 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/controls/layout/layout-controls.html.twig' -%}
+
+{%- macro choice_list(render_pass, options) -%}
+    {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/choice-list', {}, options) }}
+{%- endmacro -%}
+
+{%- block page_body -%}
+    {% import _self as demo %}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {#- Ways to show a list of items: the same options throughout, the map out
+        of reach for want of a location on each item. -#}
+    {% set options = [
+        { value: 'table', icon: 'ph:bold/table', label: '@page::option.table.label' | trans, description: '@page::option.table.description' | trans },
+        { value: 'board', icon: 'ph:bold/kanban', label: '@page::option.board.label' | trans, description: '@page::option.board.description' | trans },
+        { value: 'calendar', icon: 'ph:bold/calendar-blank', label: '@page::option.calendar.label' | trans, description: '@page::option.calendar.description' | trans },
+        { value: 'timeline', icon: 'ph:bold/clock-counter-clockwise', label: '@page::option.timeline.label' | trans, description: '@page::option.timeline.description' | trans },
+        { value: 'map', icon: 'ph:bold/map-trifold', label: '@page::option.map.label' | trans, description: '@page::option.map.description' | trans, disabled: true },
+    ] %}
+    {% set more = options|merge([
+        { value: 'gallery', icon: 'ph:bold/images', label: '@page::option.gallery.label' | trans },
+        { value: 'chart', icon: 'ph:bold/chart-bar', label: '@page::option.chart.label' | trans },
+        { value: 'report', icon: 'ph:bold/file-text', label: '@page::option.report.label' | trans },
+    ]) %}
+
+    <h2>{{ '@page::section.server.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.server.description' | trans }}</div>
+    <div class="block block--padded choices-demo">
+        {{ demo.choice_list(render_pass, { items: options, value: 'board', label: '@page::section.server.title' | trans }) }}
+        {#- What the list said last, written by the page (choices.ts). -#}
+        <output class="choices-demo--chosen" data-demo-chosen data-label="{{ '@page::chosen' | trans }}">{{ '@page::chosen' | trans({ '%value%': 'board' }) }}</output>
+    </div>
+
+    <h2>{{ '@page::section.filter.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.filter.description' | trans }}</div>
+    <div class="block block--padded choices-demo">
+        {{ demo.choice_list(render_pass, { items: more, value: 'chart', filter_from: 6, label: '@page::section.filter.title' | trans }) }}
+    </div>
+
+    <h2>{{ '@page::section.vue.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
+    <div class="block block--padded choices-demo">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/choice-list', { items: more, value: 'timeline', filterFrom: 6, label: '@page::section.vue.title' | trans }) }}
+    </div>
+{%- endblock -%}
