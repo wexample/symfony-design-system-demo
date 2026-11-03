@@ -9,6 +9,9 @@ en:
   intro: "How a page is divided. These shapes take regions rather than content: they say where things stand, and know nothing of what stands there."
 
   page:
+    header_tabs:
+      title: "Header tabs"
+      description: "Tabs in the header, as the page chooses: where one is — a project, then its scenario."
     menu_icons:
       title: "Icon menu"
       description: "An editor wanting the width whole: the side menu as a rail of icons, as thick as the bar of tools, on every window — neither folded nor widened."
@@ -39,6 +42,9 @@ ar:
   page_icon: 'ph:bold/layout'
   intro: 'كيف يتم تقسيم الصفحة. هذه الأشكال تأخذ مناطق بدلاً من المحتوى: تحدد أين تقع الأشياء، ولا تعرف شيئًا عما يوجد هناك.'
   page:
+    header_tabs:
+      title: "ألسنة الترويسة"
+      description: "ألسنة في الترويسة كما تختار الصفحة: أين أنت — مشروع ثم سيناريو له."
     menu_icons:
       title: "قائمة الأيقونات"
       description: "محرر يريد العرض كله: القائمة الجانبية شريط أيقونات بسماكة شريط الأدوات، في كل نافذة — لا تُطوى ولا تُوسَّع."
@@ -69,6 +75,9 @@ bn:
   page_icon: 'ph:bold/layout'
   intro: 'একটি পৃষ্ঠা কিভাবে বিভক্ত হয়। এই আকৃতিগুলি বিষয়বস্তু না নিয়ে অঞ্চল গ্রহণ করে: তারা বলছে জিনিসগুলি কোথায় অবস্থান করছে, এবং সেখানে কি আছে তা জানে না।'
   page:
+    header_tabs:
+      title: "হেডার ট্যাব"
+      description: "পেজের পছন্দমতো হেডারে ট্যাব: আপনি কোথায় — একটি প্রকল্প, তারপর তার দৃশ্যপট।"
     menu_icons:
       title: "আইকন মেনু"
       description: "পুরো প্রস্থ চায় এমন এডিটর: পাশের মেনু টুলবারের সমান পুরু আইকনের সারি, প্রতিটি উইন্ডোতে — ভাঁজও হয় না, চওড়াও হয় না।"
@@ -99,6 +108,9 @@ de:
   page_icon: 'ph:bold/layout'
   intro: 'Wie eine Seite unterteilt ist. Diese Formen nehmen Bereiche statt Inhalte ein: sie zeigen, wo Dinge stehen, und wissen nichts darüber, was dort steht.'
   page:
+    header_tabs:
+      title: "Header-Tabs"
+      description: "Tabs im Header, nach Wahl der Seite: wo man ist — ein Projekt, dann sein Szenario."
     menu_icons:
       title: "Symbolmenü"
       description: "Ein Editor, der die ganze Breite will: das Seitenmenü als Symbolleiste, so breit wie die Werkzeugleiste, in jedem Fenster — weder eingeklappt noch verbreitert."
@@ -129,6 +141,9 @@ es:
   page_icon: 'ph:bold/layout'
   intro: 'Cómo se divide una página. Estas formas ocupan regiones en lugar de contenido: indican dónde están las cosas y no saben nada de lo que hay allí.'
   page:
+    header_tabs:
+      title: "Pestañas del encabezado"
+      description: "Pestañas en el encabezado, a elección de la página: dónde se está — un proyecto, luego su escenario."
     menu_icons:
       title: "Menú de iconos"
       description: "Un editor que quiere todo el ancho: el menú lateral como un riel de iconos, tan ancho como la barra de herramientas, en todas las ventanas — ni plegado ni ensanchado."
@@ -159,6 +174,9 @@ fa:
   page_icon: 'ph:bold/layout'
   intro: 'چگونه یک صفحه تقسیم می‌شود. این شکل‌ها نواحی را به جای محتوا می‌گیرند: آن‌ها می‌گویند چیزها کجا قرار دارند و هیچ چیز از آنچه در آنجا ایستاده‌اند نمی‌دانند.'
   page:
+    header_tabs:
+      title: "زبانه‌های سربرگ"
+      description: "زبانه‌هایی در سربرگ به انتخاب صفحه: کجا هستید — یک پروژه، سپس سناریوی آن."
     menu_icons:
       title: "منوی آیکونی"
       description: "ویرایشگری که کل عرض را می‌خواهد: منوی کناری به‌صورت نواری از آیکون‌ها، هم‌ضخامت نوار ابزار، در هر پنجره — نه جمع می‌شود و نه پهن."
@@ -189,6 +207,9 @@ fi:
   page_icon: 'ph:bold/layout'
   intro: 'Miten sivu jakautuu. Nämä muodot vievät alueita eivätkä sisältöä: ne sanovat, missä asiat sijaitsevat, eivätkä tiedä, mitä siellä on.'
   page:
+    header_tabs:
+      title: "Otsakkeen välilehdet"
+      description: "Välilehdet otsakkeessa sivun valinnan mukaan: missä olet — projekti, sitten sen skenaario."
     menu_icons:
       title: "Kuvakevalikko"
       description: "Editori, joka haluaa koko leveyden: sivuvalikko kuvakepalkkina, työkalupalkin paksuisena, joka ikkunassa — ei taiteta eikä levennetä."
@@ -219,6 +240,9 @@ fr:
   page_icon: 'ph:bold/layout'
   intro: "Comment une page est divisée. Ces formes prennent des régions plutôt que du contenu : elles indiquent où se trouvent les choses, et ne savent rien de ce qui s'y trouve."
   page:
+    header_tabs:
+      title: "Onglets du header"
+      description: "Des onglets dans le header, au choix de la page : où l'on est — un projet, puis son scénario."
     menu_icons:
       title: "Menu en icônes"
       description: "Un éditeur qui veut toute la largeur : le menu latéral en rail d'icônes, aussi épais que la barre d'outils, sur toutes les fenêtres — ni replié ni élargi."
@@ -249,6 +273,9 @@ he:
   page_icon: 'ph:bold/layout'
   intro: 'איך דף מחולק. הצורות הללו תופסות אזורים ולא תוכן: הן מציינות היכן הדברים נמצאים, ואינן יודעות מה נמצא שם.'
   page:
+    header_tabs:
+      title: "לשוניות הכותרת"
+      description: "לשוניות בכותרת לפי בחירת הדף: איפה אתם — פרויקט, ואז התרחיש שלו."
     menu_icons:
       title: "תפריט סמלים"
       description: "עורך שרוצה את כל הרוחב: התפריט הצדדי כפס סמלים בעובי סרגל הכלים, בכל חלון — לא מתקפל ולא מתרחב."
@@ -279,6 +306,9 @@ hi:
   page_icon: 'ph:bold/layout'
   intro: 'एक पृष्ठ कैसे विभाजित होता है। ये आकृतियाँ क्षेत्रों को लेती हैं न कि सामग्री को: वे बताती हैं कि चीजें कहां हैं, और यह नहीं जानती कि वहां क्या है।'
   page:
+    header_tabs:
+      title: "हेडर टैब"
+      description: "पेज की पसंद के अनुसार हेडर में टैब: आप कहाँ हैं — एक प्रोजेक्ट, फिर उसका परिदृश्य।"
     menu_icons:
       title: "आइकन मेनू"
       description: "पूरी चौड़ाई चाहने वाला एडिटर: साइड मेनू टूलबार जितनी मोटी आइकनों की पट्टी, हर विंडो में — न सिमटता है, न चौड़ा होता है।"
@@ -309,6 +339,9 @@ id:
   page_icon: 'ph:bold/layout'
   intro: 'Bagaimana sebuah halaman dibagi. Bentuk-bentuk ini mengambil wilayah daripada konten: mereka menunjukkan posisi sesuatu, dan tidak tahu apa yang berada di sana.'
   page:
+    header_tabs:
+      title: "Tab header"
+      description: "Tab di header, sesuai pilihan halaman: di mana Anda berada — sebuah proyek, lalu skenarionya."
     menu_icons:
       title: "Menu ikon"
       description: "Editor yang ingin seluruh lebar: menu samping sebagai jalur ikon, setebal bilah alat, di setiap jendela — tidak dilipat dan tidak dilebarkan."
@@ -339,6 +372,9 @@ it:
   page_icon: 'ph:bold/layout'
   intro: "Come è divisa una pagina. Queste forme occupano spazi piuttosto che contenuti: indicano dove si trovano le cose e non sanno nulla di ciò che c'è."
   page:
+    header_tabs:
+      title: "Schede dell'intestazione"
+      description: "Schede nell'intestazione, a scelta della pagina: dove ci si trova — un progetto, poi il suo scenario."
     menu_icons:
       title: "Menu a icone"
       description: "Un editor che vuole tutta la larghezza: il menu laterale come una barra di icone, spessa quanto la barra degli strumenti, su ogni finestra — né chiuso né allargato."
@@ -369,6 +405,9 @@ ja:
   page_icon: 'ph:bold/layout'
   intro: ページがどのように分けられるか。これらの形はコンテンツではなく領域を取ります：物がどこにあるかを示し、そこに何があるかは知りません。
   page:
+    header_tabs:
+      title: "ヘッダーのタブ"
+      description: "ページが選ぶヘッダーのタブ：今いる場所 — プロジェクト、次にそのシナリオ。"
     menu_icons:
       title: "アイコンメニュー"
       description: "幅をすべて使いたいエディタ向け：サイドメニューをツールバーと同じ太さのアイコン列に。どのウィンドウでも、折りたたみも拡張もしません。"
@@ -399,6 +438,9 @@ ko:
   page_icon: 'ph:bold/layout'
   intro: '페이지가 어떻게 나뉘는지에 대한 설명. 이 형태는 콘텐츠가 아닌 영역을 차지하며, 사물이 어디에 위치하는지를 나타내고, 그곳에 무엇이 있는지는 알지 못합니다.'
   page:
+    header_tabs:
+      title: "헤더 탭"
+      description: "페이지가 고르는 헤더의 탭: 지금 있는 곳 — 프로젝트, 그다음 그 시나리오."
     menu_icons:
       title: "아이콘 메뉴"
       description: "전체 너비가 필요한 편집기용: 사이드 메뉴를 도구 막대와 같은 두께의 아이콘 레일로, 모든 창에서 — 접지도 넓히지도 않습니다."
@@ -429,6 +471,9 @@ nl:
   page_icon: 'ph:bold/layout'
   intro: 'Hoe een pagina is verdeeld. Deze vormen nemen gebieden in plaats van inhoud: ze geven aan waar dingen staan, en weten niet wat daar staat.'
   page:
+    header_tabs:
+      title: "Header-tabbladen"
+      description: "Tabbladen in de header, naar keuze van de pagina: waar je bent — een project, dan zijn scenario."
     menu_icons:
       title: "Pictogrammenu"
       description: "Een editor die de volle breedte wil: het zijmenu als een rail van pictogrammen, zo breed als de gereedschapsbalk, in elk venster — niet ingeklapt, niet verbreed."
@@ -459,6 +504,9 @@ pl:
   page_icon: 'ph:bold/layout'
   intro: 'Jak strona jest podzielona. Te kształty zajmują obszary, a nie treści: wskazują, gdzie co stoi, i nic nie wiedzą o tym, co tam stoi.'
   page:
+    header_tabs:
+      title: "Karty nagłówka"
+      description: "Karty w nagłówku, według wyboru strony: gdzie jesteś — projekt, potem jego scenariusz."
     menu_icons:
       title: "Menu ikon"
       description: "Edytor, który chce całej szerokości: menu boczne jako pas ikon, grube jak pasek narzędzi, w każdym oknie — ani zwinięte, ani poszerzone."
@@ -489,6 +537,9 @@ pt_BR:
   page_icon: 'ph:bold/layout'
   intro: 'Como uma página é dividida. Essas formas ocupam regiões ao invés de conteúdo: elas indicam onde as coisas estão e não sabem nada sobre o que está lá.'
   page:
+    header_tabs:
+      title: "Abas do cabeçalho"
+      description: "Abas no cabeçalho, como a página escolhe: onde se está — um projeto, depois seu cenário."
     menu_icons:
       title: "Menu de ícones"
       description: "Um editor que quer toda a largura: o menu lateral como um trilho de ícones, da espessura da barra de ferramentas, em qualquer janela — nem recolhido nem alargado."
@@ -519,6 +570,9 @@ ru:
   page_icon: 'ph:bold/layout'
   intro: 'Как страница разделена. Эти формы занимают области, а не содержимое: они указывают, где что находится, и ничего не знают о том, что там стоит.'
   page:
+    header_tabs:
+      title: "Вкладки шапки"
+      description: "Вкладки в шапке по выбору страницы: где вы — проект, затем его сценарий."
     menu_icons:
       title: "Меню иконок"
       description: "Редактору нужна вся ширина: боковое меню как полоса иконок, толщиной с панель инструментов, в любом окне — не сворачивается и не расширяется."
@@ -549,6 +603,9 @@ th:
   page_icon: 'ph:bold/layout'
   intro: 'วิธีการแบ่งหน้า หน้าเหล่านี้ใช้พื้นที่มากกว่าคอนเทนต์: มันบอกว่ามีสิ่งใดอยู่ที่ไหน และไม่รู้ว่ามีอะไรอยู่ตรงนั้น'
   page:
+    header_tabs:
+      title: "แท็บส่วนหัว"
+      description: "แท็บในส่วนหัวตามที่หน้าเลือก: คุณอยู่ที่ไหน — โปรเจกต์ แล้วสถานการณ์ของมัน"
     menu_icons:
       title: "เมนูไอคอน"
       description: "ตัวแก้ไขที่ต้องการความกว้างทั้งหมด: เมนูข้างเป็นแถบไอคอนหนาเท่าแถบเครื่องมือ ในทุกหน้าต่าง — ไม่พับและไม่ขยาย"
@@ -579,6 +636,9 @@ tr:
   page_icon: 'ph:bold/layout'
   intro: 'Bir sayfanın nasıl bölündüğü. Bu şekiller içerikten ziyade alan alır: nerede ne olduğunu söyler ve orada ne olduğunu bilmez.'
   page:
+    header_tabs:
+      title: "Başlık sekmeleri"
+      description: "Başlıkta, sayfanın seçtiği sekmeler: nerede olunduğu — bir proje, sonra senaryosu."
     menu_icons:
       title: "Simge menüsü"
       description: "Tüm genişliği isteyen bir düzenleyici: yan menü, araç çubuğu kalınlığında bir simge şeridi olarak, her pencerede — ne katlanır ne genişler."
@@ -609,6 +669,9 @@ ur:
   page_icon: 'ph:bold/layout'
   intro: 'ایک صفحہ کس طرح تقسیم ہوتا ہے۔ یہ اشکال علاقوں کو لیتے ہیں نہ کہ مواد: یہ بتاتے ہیں کہ چیزیں کہاں ہیں، اور اس بارے میں کچھ نہیں جانتے کہ وہاں کیا ہے۔'
   page:
+    header_tabs:
+      title: "ہیڈر ٹیبز"
+      description: "صفحے کی پسند کے مطابق ہیڈر میں ٹیبز: آپ کہاں ہیں — ایک پروجیکٹ، پھر اس کا منظرنامہ۔"
     menu_icons:
       title: "آئیکن مینو"
       description: "پوری چوڑائی چاہنے والا ایڈیٹر: سائیڈ مینو ٹول بار جتنی موٹی آئیکنز کی پٹی، ہر ونڈو میں — نہ سمٹتا ہے نہ پھیلتا ہے۔"
@@ -639,6 +702,9 @@ vi:
   page_icon: 'ph:bold/layout'
   intro: 'Cách một trang được chia ra. Những hình dạng này chiếm các khu vực thay vì nội dung: chúng cho biết vị trí của mọi thứ, và không biết gì về những gì đứng ở đó.'
   page:
+    header_tabs:
+      title: "Tab đầu trang"
+      description: "Tab trên đầu trang theo lựa chọn của trang: bạn đang ở đâu — một dự án, rồi kịch bản của nó."
     menu_icons:
       title: "Menu biểu tượng"
       description: "Một trình soạn thảo cần toàn bộ chiều rộng: menu bên thành một dải biểu tượng, dày bằng thanh công cụ, trên mọi cửa sổ — không thu gọn, không mở rộng."
@@ -669,6 +735,9 @@ zh:
   page_icon: 'ph:bold/layout'
   intro: 页面是如何划分的。这些形状占据区域而不是内容：它们说明事物的位置，而对其中的内容一无所知。
   page:
+    header_tabs:
+      title: "页眉标签"
+      description: "由页面决定的页眉标签：所在位置——一个项目，然后是它的场景。"
     menu_icons:
       title: "图标菜单"
       description: "需要全部宽度的编辑器：侧边菜单变成与工具栏同宽的图标栏，在任何窗口中——既不折叠也不加宽。"

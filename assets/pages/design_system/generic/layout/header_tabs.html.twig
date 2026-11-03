@@ -1,0 +1,15 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+
+{#- Where one is, in the header: a project, then its scenario, the one opened
+    marked — as a scenario's pages of an application would say it. -#}
+{%- set header_tabs = [
+    { label: '🚀 ' ~ ('@page::tab.project' | trans), href: path('wexample_design_system_generic_layout_index') },
+    { label: '@page::tab.scenario' | trans, icon: 'ph:bold/flow-arrow', href: path('wexample_design_system_generic_layout_header_tabs'), active: true },
+] -%}
+{%- set header_tabs_label = '@page::tabs_label' | trans -%}
+
+{%- block page_body -%}
+    <section class="block block--padded">
+        <p>{{ '@page::body' | trans }}</p>
+    </section>
+{%- endblock -%}

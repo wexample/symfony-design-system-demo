@@ -1,0 +1,186 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: "Header tabs"
+  page_icon: ph:bold/tabs
+  tab:
+    project: "Project"
+    scenario: "Scenario"
+  tabs_label: "Where you are"
+  body: "A page or its layout says header_tabs: one tab each, a label, an address, an icon, the active one marked. On the side they take the title's place; on top, unsaid, they are the application's sections. They say where one is — the context the page stands in —, and the page's own views stay under the header (page_tabs). Too narrow, they fold into one button."
+
+ar:
+  page_title: "ألسنة الترويسة"
+  tab:
+    project: "المشروع"
+    scenario: "السيناريو"
+  tabs_label: "أين أنت"
+  body: "تحدد الصفحة أو تخطيطها header_tabs: لكل لسان تسمية وعنوان وأيقونة، والنشط مُعلَّم. في الوضع الجانبي تحل محل العنوان؛ وفي الأعلى، دون تحديد، هي أقسام التطبيق. تقول أين أنت، وتبقى عروض الصفحة تحت الترويسة (page_tabs). إذا ضاقت تنطوي في زر واحد."
+
+bn:
+  page_title: "হেডার ট্যাব"
+  tab:
+    project: "প্রকল্প"
+    scenario: "দৃশ্যপট"
+  tabs_label: "আপনি কোথায়"
+  body: "পেজ বা তার লেআউট header_tabs বলে: প্রতিটি ট্যাবে লেবেল, ঠিকানা, আইকন, সক্রিয়টি চিহ্নিত। পাশে এরা শিরোনামের জায়গা নেয়; ওপরে, না বললে, এরা অ্যাপের বিভাগ। এরা বলে আপনি কোথায়; পেজের দৃশ্যগুলো হেডারের নিচে থাকে (page_tabs)। সরু হলে একটি বোতামে গুটিয়ে যায়।"
+
+de:
+  page_title: "Header-Tabs"
+  tab:
+    project: "Projekt"
+    scenario: "Szenario"
+  tabs_label: "Wo Sie sind"
+  body: "Eine Seite oder ihr Layout setzt header_tabs: je ein Tab mit Beschriftung, Adresse, Symbol, der aktive markiert. Seitlich nehmen sie den Platz des Titels ein; oben sind sie ohne Angabe die Bereiche der Anwendung. Sie sagen, wo man ist; die Ansichten der Seite bleiben unter dem Header (page_tabs). Zu schmal, klappen sie in einen Button."
+
+es:
+  page_title: "Pestañas del encabezado"
+  tab:
+    project: "Proyecto"
+    scenario: "Escenario"
+  tabs_label: "Dónde estás"
+  body: "Una página o su layout indica header_tabs: una pestaña cada una, etiqueta, dirección, icono, la activa marcada. En el lateral ocupan el lugar del título; arriba, sin indicarlo, son las secciones de la aplicación. Dicen dónde se está; las vistas de la página siguen bajo el encabezado (page_tabs). Demasiado estrechas, se pliegan en un botón."
+
+fa:
+  page_title: "زبانه‌های سربرگ"
+  tab:
+    project: "پروژه"
+    scenario: "سناریو"
+  tabs_label: "کجا هستید"
+  body: "صفحه یا چیدمانش header_tabs را تعیین می‌کند: هر زبانه با برچسب، نشانی، آیکون، و زبانهٔ فعال علامت‌دار. در حالت کناری جای عنوان را می‌گیرند؛ در بالا، به‌طور پیش‌فرض، بخش‌های برنامه‌اند. می‌گویند کجا هستید؛ نماهای صفحه زیر سربرگ می‌مانند (page_tabs). اگر تنگ باشد در یک دکمه جمع می‌شوند."
+
+fi:
+  page_title: "Otsakkeen välilehdet"
+  tab:
+    project: "Projekti"
+    scenario: "Skenaario"
+  tabs_label: "Missä olet"
+  body: "Sivu tai sen asettelu antaa header_tabs: kukin välilehti nimellä, osoitteella, kuvakkeella, aktiivinen merkittynä. Sivussa ne korvaavat otsikon; ylhäällä ne ovat oletuksena sovelluksen osiot. Ne kertovat missä olet; sivun näkymät pysyvät otsakkeen alla (page_tabs). Liian kapeina ne taittuvat yhteen painikkeeseen."
+
+fr:
+  page_title: "Onglets du header"
+  tab:
+    project: "Projet"
+    scenario: "Scénario"
+  tabs_label: "Où vous êtes"
+  body: "Une page ou sa layout indique header_tabs : un onglet chacun, un libellé, une adresse, une icône, l'actif marqué. En menu latéral ils prennent la place du titre ; en haut, sans rien dire, ce sont les sections de l'application. Ils disent où l'on est — le contexte de la page —, et les vues de la page restent sous le header (page_tabs). Trop étroits, ils se replient dans un bouton."
+
+he:
+  page_title: "לשוניות הכותרת"
+  tab:
+    project: "פרויקט"
+    scenario: "תרחיש"
+  tabs_label: "איפה אתם"
+  body: "דף או הפריסה שלו מגדירים header_tabs: לכל לשונית תווית, כתובת, סמל, והפעילה מסומנת. בצד הן תופסות את מקום הכותרת; למעלה, כברירת מחדל, הן אזורי היישום. הן אומרות איפה אתם; תצוגות הדף נשארות מתחת לכותרת (page_tabs). כשצר מדי, הן מתקפלות לכפתור אחד."
+
+hi:
+  page_title: "हेडर टैब"
+  tab:
+    project: "प्रोजेक्ट"
+    scenario: "परिदृश्य"
+  tabs_label: "आप कहाँ हैं"
+  body: "पेज या उसका लेआउट header_tabs बताता है: हर टैब का लेबल, पता, आइकन, सक्रिय टैब चिह्नित। साइड में ये शीर्षक की जगह लेते हैं; ऊपर, बिना बताए, ये ऐप के खंड हैं। ये बताते हैं कि आप कहाँ हैं; पेज के दृश्य हेडर के नीचे रहते हैं (page_tabs)। तंग हों तो एक बटन में सिमट जाते हैं।"
+
+id:
+  page_title: "Tab header"
+  tab:
+    project: "Proyek"
+    scenario: "Skenario"
+  tabs_label: "Posisi Anda"
+  body: "Halaman atau layout-nya menyatakan header_tabs: masing-masing tab dengan label, alamat, ikon, yang aktif ditandai. Di samping, mereka menggantikan judul; di atas, secara bawaan, mereka adalah bagian aplikasi. Mereka menunjukkan posisi Anda; tampilan halaman tetap di bawah header (page_tabs). Terlalu sempit, dilipat ke satu tombol."
+
+it:
+  page_title: "Schede dell'intestazione"
+  tab:
+    project: "Progetto"
+    scenario: "Scenario"
+  tabs_label: "Dove sei"
+  body: "Una pagina o il suo layout indica header_tabs: una scheda ciascuna, etichetta, indirizzo, icona, quella attiva segnata. Di lato prendono il posto del titolo; in alto, senza indicarlo, sono le sezioni dell'applicazione. Dicono dove ci si trova; le viste della pagina restano sotto l'intestazione (page_tabs). Troppo strette, si chiudono in un pulsante."
+
+ja:
+  page_title: "ヘッダーのタブ"
+  tab:
+    project: "プロジェクト"
+    scenario: "シナリオ"
+  tabs_label: "現在地"
+  body: "ページまたはレイアウトが header_tabs を指定します。各タブにラベル、アドレス、アイコンがあり、アクティブなものに印が付きます。サイドではタイトルの位置に、上部では指定がなければアプリのセクションになります。今いる場所を示し、ページ自身のビューはヘッダーの下（page_tabs）に残ります。狭いと一つのボタンにまとまります。"
+
+ko:
+  page_title: "헤더 탭"
+  tab:
+    project: "프로젝트"
+    scenario: "시나리오"
+  tabs_label: "현재 위치"
+  body: "페이지나 레이아웃이 header_tabs를 지정합니다. 탭마다 레이블, 주소, 아이콘이 있고 활성 탭이 표시됩니다. 사이드에서는 제목 자리를, 위쪽에서는 기본으로 앱의 섹션이 됩니다. 현재 위치를 알려 주며 페이지의 보기들은 헤더 아래(page_tabs)에 남습니다. 좁으면 하나의 버튼으로 접힙니다."
+
+nl:
+  page_title: "Header-tabbladen"
+  tab:
+    project: "Project"
+    scenario: "Scenario"
+  tabs_label: "Waar je bent"
+  body: "Een pagina of haar layout zegt header_tabs: elk een tabblad, label, adres, pictogram, het actieve gemarkeerd. Aan de zijkant nemen ze de plaats van de titel in; bovenaan zijn ze standaard de secties van de applicatie. Ze zeggen waar je bent; de weergaven van de pagina blijven onder de header (page_tabs). Te smal, ze klappen in één knop."
+
+pl:
+  page_title: "Karty nagłówka"
+  tab:
+    project: "Projekt"
+    scenario: "Scenariusz"
+  tabs_label: "Gdzie jesteś"
+  body: "Strona lub jej layout podaje header_tabs: każda karta z etykietą, adresem, ikoną, aktywna oznaczona. Z boku zastępują tytuł; u góry, domyślnie, są sekcjami aplikacji. Mówią, gdzie jesteś; widoki strony zostają pod nagłówkiem (page_tabs). Za wąskie, zwijają się w jeden przycisk."
+
+pt_BR:
+  page_title: "Abas do cabeçalho"
+  tab:
+    project: "Projeto"
+    scenario: "Cenário"
+  tabs_label: "Onde você está"
+  body: "Uma página ou seu layout indica header_tabs: uma aba cada, rótulo, endereço, ícone, a ativa marcada. Na lateral ocupam o lugar do título; no topo, sem nada dito, são as seções da aplicação. Dizem onde se está; as vistas da página ficam sob o cabeçalho (page_tabs). Estreitas demais, recolhem-se num botão."
+
+ru:
+  page_title: "Вкладки шапки"
+  tab:
+    project: "Проект"
+    scenario: "Сценарий"
+  tabs_label: "Где вы"
+  body: "Страница или её макет задаёт header_tabs: каждая вкладка с подписью, адресом, иконкой, активная отмечена. Сбоку они занимают место заголовка; сверху по умолчанию это разделы приложения. Они показывают, где вы; виды страницы остаются под шапкой (page_tabs). Если узко, сворачиваются в одну кнопку."
+
+th:
+  page_title: "แท็บส่วนหัว"
+  tab:
+    project: "โปรเจกต์"
+    scenario: "สถานการณ์"
+  tabs_label: "คุณอยู่ที่ไหน"
+  body: "หน้าหรือเลย์เอาต์กำหนด header_tabs: แต่ละแท็บมีป้ายชื่อ ที่อยู่ ไอคอน แท็บที่ใช้งานอยู่ถูกทำเครื่องหมาย ในโหมดด้านข้างจะแทนที่ชื่อเรื่อง ด้านบนโดยปริยายคือส่วนต่าง ๆ ของแอป บอกว่าคุณอยู่ที่ไหน มุมมองของหน้ายังอยู่ใต้ส่วนหัว (page_tabs) ถ้าแคบเกินไปจะพับเป็นปุ่มเดียว"
+
+tr:
+  page_title: "Başlık sekmeleri"
+  tab:
+    project: "Proje"
+    scenario: "Senaryo"
+  tabs_label: "Neredesiniz"
+  body: "Bir sayfa ya da düzeni header_tabs verir: her biri etiket, adres, simge, etkin olan işaretli. Yanda başlığın yerini alır; üstte, söylenmezse, uygulamanın bölümleridir. Nerede olunduğunu söyler; sayfanın görünümleri başlığın altında kalır (page_tabs). Dar kalınca tek düğmeye katlanır."
+
+ur:
+  page_title: "ہیڈر ٹیبز"
+  tab:
+    project: "پروجیکٹ"
+    scenario: "منظرنامہ"
+  tabs_label: "آپ کہاں ہیں"
+  body: "صفحہ یا اس کا لے آؤٹ header_tabs بتاتا ہے: ہر ٹیب کا لیبل، پتا، آئیکن، فعال ٹیب نشان زدہ۔ سائیڈ میں یہ عنوان کی جگہ لیتے ہیں؛ اوپر، بتائے بغیر، یہ ایپ کے حصے ہیں۔ یہ بتاتے ہیں کہ آپ کہاں ہیں؛ صفحے کے منظر ہیڈر کے نیچے رہتے ہیں (page_tabs)۔ تنگ ہوں تو ایک بٹن میں سمٹ جاتے ہیں۔"
+
+vi:
+  page_title: "Tab đầu trang"
+  tab:
+    project: "Dự án"
+    scenario: "Kịch bản"
+  tabs_label: "Bạn đang ở đâu"
+  body: "Trang hoặc layout của nó khai báo header_tabs: mỗi tab có nhãn, địa chỉ, biểu tượng, tab đang mở được đánh dấu. Ở chế độ menu bên, chúng thay chỗ tiêu đề; ở trên, mặc định là các mục của ứng dụng. Chúng cho biết bạn ở đâu; các chế độ xem của trang vẫn ở dưới đầu trang (page_tabs). Quá hẹp thì gộp vào một nút."
+
+zh:
+  page_title: "页眉标签"
+  tab:
+    project: "项目"
+    scenario: "场景"
+  tabs_label: "当前位置"
+  body: "页面或其布局设置 header_tabs：每个标签有名称、地址、图标，当前项被标记。在侧边模式下取代标题；在顶部模式下默认是应用的各个分区。它们表示所在位置，页面自身的视图仍在页眉下方（page_tabs）。空间太窄时收进一个按钮。"
