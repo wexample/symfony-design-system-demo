@@ -12,6 +12,16 @@
             field: 'title',
             label: '@page::label' | trans,
         }) }}
+        {#- Bare: the text as it is, its pencil under the pointer — a title
+            in a header. -#}
+        <h3 class="inline-edit-demo--bare">
+            {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/inline-edit', {
+                form: form_props(form_inline_edit_demo),
+                field: 'title',
+                label: '@page::label' | trans,
+                bare: true,
+            }) }}
+        </h3>
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-inline-edit', {
             form: form_props(form_inline_edit_demo),
             label: '@page::label' | trans,
