@@ -1,0 +1,20 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/context-menu') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <div class="demo-context-menu">
+        <context-menu :items="items" :label="labels.menu" @target="onTarget" @select="onSelect" @toggle="onToggle">
+            <ul class="demo-context-menu--files">
+                <li v-for="file in files" :key="file.id" :data-file="file.id" class="demo-context-menu--file" tabindex="0">
+                    <span v-html="iconHtml(file.icon)"></span>
+                    <span>[[ file.name ]]</span>
+                    <span v-if="file.pinned" class="demo-context-menu--pin" v-html="iconHtml('ph:bold/push-pin')"></span>
+                </li>
+            </ul>
+        </context-menu>
+        <p class="demo-context-menu--chosen">[[ chosen || labels.hint ]]</p>
+    </div>
+{%- endblock -%}

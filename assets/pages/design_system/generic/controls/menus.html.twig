@@ -165,6 +165,21 @@
     <div class="block block--padded cluster">{{ macros.render_menus(menu_items) }}</div>
     <div class="toolbar">{{ macros.render_menus(menu_items) }}</div>
 
+    <h2>{{ '@page::section.context.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.context.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-context-menu', {
+            labels: {
+                menu: '@page::context.menu' | trans,
+                open: '@page::context.open' | trans,
+                rename: '@page::context.rename' | trans,
+                pinned: '@page::context.pinned' | trans,
+                delete: '@page::context.delete' | trans,
+                hint: '@page::context.hint' | trans,
+            },
+        }) }}
+    </div>
+
     <h2>{{ '@page::section.vue.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.vue.description' | trans }}</div>
     <div class="block block--padded">

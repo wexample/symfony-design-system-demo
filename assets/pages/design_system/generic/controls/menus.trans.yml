@@ -4,6 +4,14 @@ en:
   page_title: Menus
   page_icon: ph:bold/list
 
+  context:
+    menu: "Actions on the file"
+    open: "Open"
+    rename: "Rename"
+    pinned: "Pinned"
+    delete: "Delete"
+    hint: "Right-click a file."
+
   section:
     press:
       title: Pressed, pointed at, pressed by an agent
@@ -11,6 +19,9 @@ en:
     split:
       title: Split buttons
       description: "A button that does one thing and offers the others: its body does the action, the caret stuck to its end — and only the caret — opens the menu. `button_menu` given an `action` — `{ href }`, or `{ type: 'submit' }` in a form; the vue one emits `action`."
+    context:
+      title: "Right click"
+      description: "A menu opened by a right click on what it covers — or the keyboard's menu key, or Shift+F10 —, where the pointer is: the same items and panel as a button's menu. Its items may depend on what was clicked: a locked file is not deleted. Shift held, the browser's own menu."
     vue:
       title: Vue
       description: "The link row and the separator as vue partials. Unlike the rows that read a route, these two take their icon and label as options, so nothing of the server is missing."
@@ -74,6 +85,13 @@ en:
       docs: Documentation
 
 ar:
+  context:
+    menu: "إجراءات على الملف"
+    open: "فتح"
+    rename: "إعادة تسمية"
+    pinned: "مثبّت"
+    delete: "حذف"
+    hint: "انقر بالزر الأيمن على ملف."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: القوائم
   page_icon: 'ph:bold/list'
@@ -81,6 +99,9 @@ ar:
     split:
       title: 'أزرار مفصولة'
       description: "زر يقوم بفعل واحد ويقدم الخيارات الأخرى: جسده يقوم بالإجراء، والسهم الملتصق بنهايته — وفقط السهم — يفتح القائمة. `button_menu` يتم إعطاؤه `action` — `{ href }`، أو `{ type: 'submit' }` في نموذج؛ الـ vue يقوم بإصدار `action`."
+    context:
+      title: "نقرة يمنى"
+      description: "قائمة تفتحها نقرة يمنى على ما تغطيه — أو مفتاح القائمة، أو Shift+F10 — حيث المؤشر: العناصر واللوحة نفسها كقائمة زر. قد تتوقف العناصر على ما نُقر: الملف المقفل لا يُحذف. مع Shift، قائمة المتصفح."
     vue:
       title: فيو
       description: 'صف الارتباط والفاصل كأجزاء فيو. على عكس الصفوف التي تقرأ مسارًا، تأخذ هذان الخياران أيقونتهما ووسمها كخيارات، لذا لا ينقص شيء من الخادم.'
@@ -136,6 +157,13 @@ ar:
       docs: التوثيق
 
 bn:
+  context:
+    menu: "ফাইলের কাজ"
+    open: "খুলুন"
+    rename: "নাম বদলান"
+    pinned: "পিন করা"
+    delete: "মুছুন"
+    hint: "একটি ফাইলে ডান ক্লিক করুন।"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: মেনু
   page_icon: 'ph:bold/list'
@@ -143,6 +171,9 @@ bn:
     split:
       title: 'বিভক্ত বোতাম'
       description: "একটি বোতাম যা একটি কাজ করে এবং অন্যান্যগুলোর প্রস্তাব দেয়: এর শরীরটি কাজটি করে, শেষের দিকে থাকা ক্যারেটটি — এবং শুধুমাত্র ক্যারেটটি — মেনুটি খুলে। `button_menu` একটি `action` দেওয়া হয়েছে — `{ href }`, অথবা `{ type: 'submit' }` একটি ফর্মে; ভিউয়ের ক্ষেত্রে এটি `action` নির্গত করে।"
+    context:
+      title: "ডান ক্লিক"
+      description: "যা এটি ঢেকে রাখে তাতে ডান ক্লিক — বা মেনু কী, বা Shift+F10 — করলে পয়েন্টারের জায়গায় খোলা মেনু: বোতামের মেনুর মতোই আইটেম ও প্যানেল। আইটেমগুলো ক্লিক করা জিনিসের ওপর নির্ভর করতে পারে: লক করা ফাইল মোছা যায় না। Shift ধরে রাখলে ব্রাউজারের মেনু।"
     vue:
       title: ভিউ
       description: 'লিঙ্ক রো এবং সেপারেটর ভিউ পার্সিয়াল হিসেবে। যেভাবে রো গুলো একটি রুট পড়ে, এই দুটি তাদের আইকন এবং লেবেল অপশন হিসেবে নেয়, তাই সার্ভারের কিছুই মিস হয় না।'
@@ -198,6 +229,13 @@ bn:
       docs: ডকুমেন্টেশন
 
 de:
+  context:
+    menu: "Aktionen für die Datei"
+    open: "Öffnen"
+    rename: "Umbenennen"
+    pinned: "Angeheftet"
+    delete: "Löschen"
+    hint: "Klicken Sie mit der rechten Maustaste auf eine Datei."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menüs
   page_icon: 'ph:bold/list'
@@ -205,6 +243,9 @@ de:
     split:
       title: 'Split-Buttons'
       description: "Ein Button, der eine Aktion ausführt und weitere Optionen bietet: Der Hauptteil führt die Aktion aus, das am Ende befestigte Caret — und nur das Caret — öffnet das Menü. `button_menu` erhält eine `action` — `{ href }` oder `{ type: 'submit' }` in einem Formular; der vue Button gibt `action` aus."
+    context:
+      title: "Rechtsklick"
+      description: "Ein Menü, das ein Rechtsklick auf das Umschlossene öffnet — oder die Menütaste, oder Umschalt+F10 —, dort, wo der Zeiger ist: dieselben Einträge und dasselbe Panel wie das Menü eines Buttons. Die Einträge können vom Angeklickten abhängen: eine gesperrte Datei wird nicht gelöscht. Mit Umschalt das Menü des Browsers."
     vue:
       title: Vue
       description: 'Die Linkzeile und der Separator als Vue-Teile. Im Gegensatz zu den Zeilen, die eine Route lesen, nehmen diese beiden ihr Icon und Label als Optionen, sodass nichts vom Server fehlt.'
@@ -260,6 +301,13 @@ de:
       docs: Dokumentation
 
 es:
+  context:
+    menu: "Acciones sobre el archivo"
+    open: "Abrir"
+    rename: "Renombrar"
+    pinned: "Fijado"
+    delete: "Eliminar"
+    hint: "Haz clic derecho en un archivo."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menús
   page_icon: 'ph:bold/list'
@@ -267,6 +315,9 @@ es:
     split:
       title: 'Botones divididos'
       description: "Un botón que realiza una acción y ofrece otras opciones: su cuerpo ejecuta la acción, la flecha en su extremo — y solo la flecha — abre el menú. `button_menu` dado un `action` — `{ href }`, o `{ type: 'submit' }` en un formulario; el de vue emite `action`."
+    context:
+      title: "Clic derecho"
+      description: "Un menú que abre un clic derecho sobre lo que cubre — o la tecla de menú, o Mayús+F10 —, donde está el puntero: los mismos elementos y panel que el menú de un botón. Sus elementos pueden depender de lo pulsado: un archivo bloqueado no se elimina. Con Mayús, el menú del navegador."
     vue:
       title: Vue
       description: 'La fila de enlaces y el separador como parciales de vue. A diferencia de las filas que leen una ruta, estos dos toman su ícono y etiqueta como opciones, por lo que no falta nada del servidor.'
@@ -322,6 +373,13 @@ es:
       docs: Documentación
 
 fa:
+  context:
+    menu: "کنش‌های پرونده"
+    open: "باز کردن"
+    rename: "تغییر نام"
+    pinned: "سنجاق‌شده"
+    delete: "حذف"
+    hint: "روی یک پرونده کلیک راست کنید."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: منوها
   page_icon: 'ph:bold/list'
@@ -329,6 +387,9 @@ fa:
     split:
       title: 'دکمه های تقسیم'
       description: "دکمه ای که یک کار انجام می دهد و سایرین را ارائه می کند: بدنه آن عمل را انجام می دهد و علامت (caret) که به انتهای آن چسبیده است — و فقط علامت — منوی مربوطه را باز می کند. `button_menu` یک `action` دریافت می کند — `{ href }`، یا `{ type: 'submit' }` در یک فرم؛ نسخه vue آن `action` را ارسال می کند."
+    context:
+      title: "کلیک راست"
+      description: "منویی که با کلیک راست روی آنچه پوشش می‌دهد — یا کلید منو، یا Shift+F10 — در جای اشاره‌گر باز می‌شود: همان آیتم‌ها و پنل منوی دکمه. آیتم‌ها می‌توانند به آنچه کلیک شده بستگی داشته باشند: پرونده قفل‌شده حذف نمی‌شود. با Shift، منوی مرورگر."
     vue:
       title: ویو
       description: 'ردیف لینک و جداکننده به عنوان بخش‌های ویو. بر خلاف ردیف‌هایی که یک مسیر را می‌خوانند، این دو گزینه‌های آیکون و برچسب خود را به عنوان گزینه می‌گیرند، بنابراین هیچ چیزی از سرور کم نمی‌شود.'
@@ -384,6 +445,13 @@ fa:
       docs: مستندات
 
 fi:
+  context:
+    menu: "Tiedoston toiminnot"
+    open: "Avaa"
+    rename: "Nimeä uudelleen"
+    pinned: "Kiinnitetty"
+    delete: "Poista"
+    hint: "Napsauta tiedostoa hiiren oikealla."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Valikot
   page_icon: 'ph:bold/list'
@@ -391,6 +459,9 @@ fi:
     split:
       title: Jakopainikkeet
       description: "Painike, joka tekee yhden asian ja tarjoaa muita: sen runko suorittaa toiminnon, nuoli, joka on kiinnitetty sen päähän — ja vain nuoli — avaa valikon. `button_menu` annettuna `action` — `{ href }`, tai `{ type: 'submit' }` lomakkeessa; vue-versio lähettää `action`."
+    context:
+      title: "Oikea napsautus"
+      description: "Valikko, jonka oikea napsautus avaa sen päällä, mitä se kattaa — tai valikkonäppäin, tai Vaihto+F10 —, osoittimen kohdalle: samat kohdat ja paneeli kuin painikkeen valikossa. Kohdat voivat riippua napsautetusta: lukittua tiedostoa ei poisteta. Vaihto pohjassa, selaimen oma valikko."
     vue:
       title: Vue
       description: 'Linkkirivi ja erotin vue-osina. Toisin kuin reitit, jotka lukevat reittiä, nämä kaksi ottavat ikonin ja etiketin vaihtoehtoina, joten serveriltä ei jää mitään puuttumaan.'
@@ -446,6 +517,13 @@ fi:
       docs: Dokumentaatio
 
 fr:
+  context:
+    menu: "Actions sur le fichier"
+    open: "Ouvrir"
+    rename: "Renommer"
+    pinned: "Épinglé"
+    delete: "Supprimer"
+    hint: "Faites un clic droit sur un fichier."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menus
   page_icon: 'ph:bold/list'
@@ -456,6 +534,9 @@ fr:
     split:
       title: 'Boutons scindés'
       description: "Un bouton qui effectue une action et propose d'autres options : son corps accomplit l'action, le caret fixé à son extrémité — et uniquement le caret — ouvre le menu. `button_menu` donné un `action` — `{ href }`, ou `{ type: 'submit' }` dans un formulaire ; le vue émet `action`."
+    context:
+      title: "Clic droit"
+      description: "Un menu ouvert par un clic droit sur ce qu'il couvre — ou la touche menu du clavier, ou Maj+F10 —, là où est le pointeur : les mêmes items et le même panneau que le menu d'un bouton. Ses items peuvent dépendre de ce qui a été cliqué : un fichier verrouillé ne se supprime pas. Avec Maj, le menu du navigateur."
     vue:
       title: Vue
       description: 'La ligne de lien et le séparateur en tant que partials vue. Contrairement aux lignes qui lisent une route, ces deux prennent leur icône et leur étiquette comme options, donc rien du serveur ne manque.'
@@ -517,6 +598,13 @@ fr:
       docs: Documentation
 
 he:
+  context:
+    menu: "פעולות על הקובץ"
+    open: "פתיחה"
+    rename: "שינוי שם"
+    pinned: "מוצמד"
+    delete: "מחיקה"
+    hint: "לחצו לחיצה ימנית על קובץ."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: תפריטים
   page_icon: 'ph:bold/list'
@@ -524,6 +612,9 @@ he:
     split:
       title: 'כפתורי פיצול'
       description: "כפתור שעושה דבר אחד ומציע אחרים: הגוף שלו מבצע את הפעולה, והחץ שהודבק לסופו — ורק החץ — פותח את התפריט. `button_menu` נתון `action` — `{ href }`, או `{ type: 'submit' }` בטופס; ה-vue שולח `action`."
+    context:
+      title: "לחיצה ימנית"
+      description: "תפריט שנפתח בלחיצה ימנית על מה שהוא מכסה — או מקש התפריט, או Shift+F10 — במקום הסמן: אותם פריטים ולוח כמו בתפריט של כפתור. הפריטים יכולים להשתנות לפי מה שנלחץ: קובץ נעול אינו נמחק. עם Shift, תפריט הדפדפן."
     vue:
       title: Vue
       description: 'שורת הקישור והמפריד כחלקים של Vue. בניגוד לשורות שקוראות נתיב, השתיים הללו לוקחות את האיקון ואת התווית כאופציות, כך שאין שום דבר מהשרת חסר.'
@@ -579,6 +670,13 @@ he:
       docs: תיעוד
 
 hi:
+  context:
+    menu: "फ़ाइल की क्रियाएँ"
+    open: "खोलें"
+    rename: "नाम बदलें"
+    pinned: "पिन किया"
+    delete: "हटाएँ"
+    hint: "किसी फ़ाइल पर राइट क्लिक करें।"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: मेनू
   page_icon: 'ph:bold/list'
@@ -586,6 +684,9 @@ hi:
     split:
       title: 'स्प्लिट बटन'
       description: "एक बटन जो एक काम करता है और अन्य विकल्प प्रदान करता है: इसका मुख्य हिस्सा कार्रवाई करता है, जबकि अंत में लगा कैरेट — और केवल कैरेट — मेनू खोलता है। `button_menu` को एक `action` दिया गया है — `{ href }`, या `{ type: 'submit' }` एक फॉर्म में; vue वाला `action` को उत्सर्जित करता है।"
+    context:
+      title: "राइट क्लिक"
+      description: "जो यह ढकता है उस पर राइट क्लिक — या मेनू कुंजी, या Shift+F10 — से पॉइंटर की जगह खुलने वाला मेनू: बटन मेनू जैसे ही आइटम और पैनल। आइटम क्लिक की गई चीज़ पर निर्भर हो सकते हैं: लॉक फ़ाइल हटाई नहीं जाती। Shift के साथ ब्राउज़र का मेनू।"
     vue:
       title: व्यू
       description: 'लिंक पंक्ति और विभाजक vue आंशिकों के रूप में। उन पंक्तियों के विपरीत जो एक मार्ग पढ़ती हैं, ये दोनों अपने आइकन और लेबल को विकल्प के रूप में लेती हैं, इसलिए सर्वर की कोई चीज़ गायब नहीं है।'
@@ -641,6 +742,13 @@ hi:
       docs: दस्तावेज़ीकरण
 
 id:
+  context:
+    menu: "Aksi pada berkas"
+    open: "Buka"
+    rename: "Ganti nama"
+    pinned: "Disematkan"
+    delete: "Hapus"
+    hint: "Klik kanan sebuah berkas."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menu
   page_icon: 'ph:bold/list'
@@ -648,6 +756,9 @@ id:
     split:
       title: 'Tombol Terpisah'
       description: "Sebuah tombol yang melakukan satu tindakan dan menawarkan pilihan lainnya: bodinya melakukan aksi, caret yang terpasang di ujungnya — dan hanya caret tersebut — membuka menu. `button_menu` diberikan sebuah `action` — `{ href }`, atau `{ type: 'submit' }` dalam sebuah form; yang vue mengeluarkan `action`."
+    context:
+      title: "Klik kanan"
+      description: "Menu yang dibuka dengan klik kanan pada yang dicakupnya — atau tombol menu, atau Shift+F10 —, di posisi penunjuk: item dan panel yang sama dengan menu tombol. Itemnya bisa bergantung pada yang diklik: berkas terkunci tidak dihapus. Dengan Shift, menu peramban."
     vue:
       title: Vue
       description: 'Baris tautan dan pemisah sebagai bagian vue. Berbeda dengan baris yang membaca rute, kedua ini mengambil ikon dan label sebagai opsi, jadi tidak ada yang hilang dari server.'
@@ -703,6 +814,13 @@ id:
       docs: Dokumentasi
 
 it:
+  context:
+    menu: "Azioni sul file"
+    open: "Apri"
+    rename: "Rinomina"
+    pinned: "Fissato"
+    delete: "Elimina"
+    hint: "Fai clic destro su un file."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menu
   page_icon: 'ph:bold/list'
@@ -710,6 +828,9 @@ it:
     split:
       title: 'Pulsanti divisi'
       description: "Un pulsante che fa una cosa e offre le altre: il suo corpo esegue l'azione, il cursore attaccato alla sua estremità — e solo il cursore — apre il menu. `button_menu` dato un `action` — `{ href }`, o `{ type: 'submit' }` in un modulo; il vue emette `action`."
+    context:
+      title: "Clic destro"
+      description: "Un menu aperto da un clic destro su ciò che copre — o dal tasto menu, o Maiusc+F10 —, dove si trova il puntatore: le stesse voci e lo stesso pannello del menu di un pulsante. Le voci possono dipendere da ciò che si è cliccato: un file bloccato non si elimina. Con Maiusc, il menu del browser."
     vue:
       title: Vue
       description: "La riga dei link e il separatore come partials vue. A differenza delle righe che leggono una rotta, questi due prendono la loro icona e l'etichetta come opzioni, quindi nulla del server è mancante."
@@ -765,6 +886,13 @@ it:
       docs: Documentazione
 
 ja:
+  context:
+    menu: "ファイルの操作"
+    open: "開く"
+    rename: "名前を変更"
+    pinned: "ピン留め"
+    delete: "削除"
+    hint: "ファイルを右クリックしてください。"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: メニュー
   page_icon: 'ph:bold/list'
@@ -772,6 +900,9 @@ ja:
     split:
       title: 分割ボタン
       description: "1つのアクションを実行し、他のオプションを提供するボタンです：本体がアクションを実行し、末尾に付いているカーソル — そしてそのカーソルだけがメニューを開きます。`button_menu` は `action` を与えられます — `{ href }` またはフォーム内の `{ type: 'submit' }`；vueのものは `action` を発火します。"
+    context:
+      title: "右クリック"
+      description: "覆っている対象を右クリック（またはメニューキー、Shift+F10）すると、ポインターの位置に開くメニュー。ボタンのメニューと同じ項目とパネルです。項目はクリックした対象によって変わります：ロックされたファイルは削除できません。Shift を押すとブラウザーのメニュー。"
     vue:
       title: Vue
       description: リンク行とセパレーターはvueのパーシャルです。ルートを読み込む行とは異なり、これらの2つはアイコンとラベルをオプションとして取得するため、サーバーの情報は失われません。
@@ -827,6 +958,13 @@ ja:
       docs: ドキュメント
 
 ko:
+  context:
+    menu: "파일 작업"
+    open: "열기"
+    rename: "이름 바꾸기"
+    pinned: "고정됨"
+    delete: "삭제"
+    hint: "파일을 오른쪽 클릭하세요."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 메뉴
   page_icon: 'ph:bold/list'
@@ -834,6 +972,9 @@ ko:
     split:
       title: '분할 버튼'
       description: "하나의 작업을 수행하고 다른 옵션을 제공하는 버튼: 본체는 작업을 수행하고, 끝에 붙어 있는 화살표 — 오직 화살표만 — 메뉴를 엽니다. `button_menu`는 `action` — `{ href }` 또는 양식에서 `{ type: 'submit' }`을 제공합니다; vue는 `action`을 방출합니다."
+    context:
+      title: "오른쪽 클릭"
+      description: "덮고 있는 영역을 오른쪽 클릭(또는 메뉴 키, Shift+F10)하면 포인터 위치에 열리는 메뉴. 버튼 메뉴와 같은 항목과 패널입니다. 항목은 클릭한 대상에 따라 달라집니다: 잠긴 파일은 삭제되지 않습니다. Shift를 누르면 브라우저 메뉴."
     vue:
       title: Vue
       description: '링크 행과 구분선은 vue 부분입니다. 경로를 읽는 행과는 달리, 이 두 개는 아이콘과 레이블을 옵션으로 받으므로 서버의 어떤 것도 누락되지 않습니다.'
@@ -889,6 +1030,13 @@ ko:
       docs: 문서
 
 nl:
+  context:
+    menu: "Acties op het bestand"
+    open: "Openen"
+    rename: "Hernoemen"
+    pinned: "Vastgezet"
+    delete: "Verwijderen"
+    hint: "Klik met rechts op een bestand."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: "Menu's"
   page_icon: 'ph:bold/list'
@@ -896,6 +1044,9 @@ nl:
     split:
       title: Splitknoppen
       description: "Een knop die één actie uitvoert en de andere aanbiedt: het lichaam voert de actie uit, de caret die eraan vastzit — en alleen de caret — opent het menu. `button_menu` gegeven een `action` — `{ href }`, of `{ type: 'submit' }` in een formulier; de vue versie geeft `action` uit."
+    context:
+      title: "Rechtsklik"
+      description: "Een menu dat een rechtsklik opent op wat het omvat — of de menutoets, of Shift+F10 —, waar de aanwijzer is: dezelfde items en hetzelfde paneel als het menu van een knop. De items kunnen afhangen van wat is aangeklikt: een vergrendeld bestand wordt niet verwijderd. Met Shift het menu van de browser."
     vue:
       title: Vue
       description: 'De linkrij en de scheider als vue-partials. In tegenstelling tot de rijen die een route lezen, nemen deze twee hun icoon en label als opties, zodat er niets van de server ontbreekt.'
@@ -951,6 +1102,13 @@ nl:
       docs: Documentatie
 
 pl:
+  context:
+    menu: "Akcje na pliku"
+    open: "Otwórz"
+    rename: "Zmień nazwę"
+    pinned: "Przypięty"
+    delete: "Usuń"
+    hint: "Kliknij plik prawym przyciskiem."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menu
   page_icon: 'ph:bold/list'
@@ -958,6 +1116,9 @@ pl:
     split:
       title: 'Przyciski podzielone'
       description: "Przycisk, który wykonuje jedną czynność i oferuje inne: jego główna część wykonuje akcję, strzałka przylegająca do końca — i tylko strzałka — otwiera menu. `button_menu` przyjmuje `action` — `{ href }`, lub `{ type: 'submit' }` w formularzu; vue emituje `action`."
+    context:
+      title: "Prawy przycisk"
+      description: "Menu otwierane prawym kliknięciem na tym, co obejmuje — albo klawiszem menu, albo Shift+F10 —, tam gdzie jest wskaźnik: te same pozycje i panel co menu przycisku. Pozycje mogą zależeć od klikniętego elementu: zablokowanego pliku nie usuniesz. Z Shiftem menu przeglądarki."
     vue:
       title: Vue
       description: 'Wiersz linku i separator jako części vue. W przeciwieństwie do wierszy, które odczytują trasę, te dwa przyjmują ikonę i etykietę jako opcje, więc niczego z serwera nie brakuje.'
@@ -1013,6 +1174,13 @@ pl:
       docs: Dokumentacja
 
 pt_BR:
+  context:
+    menu: "Ações no arquivo"
+    open: "Abrir"
+    rename: "Renomear"
+    pinned: "Fixado"
+    delete: "Excluir"
+    hint: "Clique com o botão direito num arquivo."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menus
   page_icon: 'ph:bold/list'
@@ -1020,6 +1188,9 @@ pt_BR:
     split:
       title: 'Botões divididos'
       description: "Um botão que faz uma coisa e oferece as outras: seu corpo realiza a ação, a seta presa ao final — e apenas a seta — abre o menu. `button_menu` dado uma `action` — `{ href }`, ou `{ type: 'submit' }` em um formulário; o vue emite `action`."
+    context:
+      title: "Clique direito"
+      description: "Um menu aberto por um clique direito no que ele cobre — ou a tecla de menu, ou Shift+F10 —, onde está o ponteiro: os mesmos itens e painel do menu de um botão. Os itens podem depender do que foi clicado: um arquivo bloqueado não é excluído. Com Shift, o menu do navegador."
     vue:
       title: Vue
       description: 'A linha de link e o separador como partes do vue. Diferente das linhas que leem uma rota, esses dois utilizam seu ícone e rótulo como opções, então nada do servidor está faltando.'
@@ -1075,6 +1246,13 @@ pt_BR:
       docs: Documentação
 
 ru:
+  context:
+    menu: "Действия с файлом"
+    open: "Открыть"
+    rename: "Переименовать"
+    pinned: "Закреплён"
+    delete: "Удалить"
+    hint: "Щёлкните правой кнопкой по файлу."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Меню
   page_icon: 'ph:bold/list'
@@ -1082,6 +1260,9 @@ ru:
     split:
       title: 'Разделенные кнопки'
       description: "Кнопка, которая выполняет одно действие и предлагает другие: ее основная часть выполняет действие, а стрелка, прикрепленная к ее концу — и только стрелка — открывает меню. `button_menu` принимает `action` — `{ href }`, или `{ type: 'submit' }` в форме; vue-версия генерирует `action`."
+    context:
+      title: "Правый клик"
+      description: "Меню, открываемое правым кликом по тому, что оно охватывает, — или клавишей меню, или Shift+F10, — там, где указатель: те же пункты и панель, что у меню кнопки. Пункты могут зависеть от того, по чему кликнули: заблокированный файл не удаляется. С Shift — меню браузера."
     vue:
       title: Vue
       description: 'Строка ссылок и разделитель как части vue. В отличие от строк, которые читают маршрут, эти две принимают свои иконки и метки в качестве опций, так что ничего с сервера не пропущено.'
@@ -1137,6 +1318,13 @@ ru:
       docs: Документация
 
 th:
+  context:
+    menu: "การทำงานกับไฟล์"
+    open: "เปิด"
+    rename: "เปลี่ยนชื่อ"
+    pinned: "ปักหมุด"
+    delete: "ลบ"
+    hint: "คลิกขวาที่ไฟล์"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: เมนู
   page_icon: 'ph:bold/list'
@@ -1144,6 +1332,9 @@ th:
     split:
       title: ปุ่มแยก
       description: "ปุ่มที่ทำหนึ่งสิ่งและเสนอสิ่งอื่น: ตัวปุ่มทำการกระทำ ขอบที่ติดอยู่ที่ปลายของมัน — และเฉพาะขอบเท่านั้น — จะเปิดเมนู `button_menu` ที่มี `action` — `{ href }` หรือ `{ type: 'submit' }` ในฟอร์ม; เวอร์ชัน vue จะส่งออก `action`."
+    context:
+      title: "คลิกขวา"
+      description: "เมนูที่เปิดด้วยการคลิกขวาบนสิ่งที่มันครอบ — หรือปุ่มเมนู หรือ Shift+F10 — ตรงตำแหน่งเคอร์เซอร์: รายการและแผงเดียวกับเมนูของปุ่ม รายการขึ้นกับสิ่งที่ถูกคลิก: ไฟล์ที่ล็อกไว้ลบไม่ได้ กด Shift ค้างไว้จะได้เมนูของเบราว์เซอร์"
     vue:
       title: Vue
       description: 'แถวลิงก์และตัวแบ่งในรูปแบบ Vue โดยไม่เหมือนกับแถวที่อ่านเส้นทาง สองตัวนี้จะใช้ไอคอนและป้ายกำกับเป็นตัวเลือก ดังนั้นไม่มีอะไรที่ขาดหายไปจากเซิร์ฟเวอร์'
@@ -1199,6 +1390,13 @@ th:
       docs: เอกสาร
 
 tr:
+  context:
+    menu: "Dosya işlemleri"
+    open: "Aç"
+    rename: "Yeniden adlandır"
+    pinned: "Sabitlendi"
+    delete: "Sil"
+    hint: "Bir dosyaya sağ tıklayın."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menüler
   page_icon: 'ph:bold/list'
@@ -1206,6 +1404,9 @@ tr:
     split:
       title: 'Bölme düğmeleri'
       description: "Bir şeyi yapan ve diğerlerini sunan bir düğme: gövdesi eylemi gerçekleştirir, ucuna takılı olan ok — ve sadece ok — menüyü açar. `button_menu` bir `action` — `{ href }` veya bir formda `{ type: 'submit' }` verir; vue'daki biri `action` yayar."
+    context:
+      title: "Sağ tık"
+      description: "Kapsadığı şeye sağ tıklayınca — ya da menü tuşu veya Shift+F10 ile — işaretçinin olduğu yerde açılan menü: bir düğme menüsüyle aynı öğeler ve panel. Öğeler tıklanana göre değişebilir: kilitli dosya silinmez. Shift basılıyken tarayıcının menüsü."
     vue:
       title: Vue
       description: 'Bağlantı satırı ve ayırıcı, vue parçaları olarak. Bir rotayı okuyan satırlardan farklı olarak, bu ikisi simgesini ve etiketini seçenek olarak alır, bu nedenle sunucudan hiçbir şey eksik değildir.'
@@ -1261,6 +1462,13 @@ tr:
       docs: Belgeler
 
 ur:
+  context:
+    menu: "فائل کے اقدامات"
+    open: "کھولیں"
+    rename: "نام بدلیں"
+    pinned: "پن شدہ"
+    delete: "حذف کریں"
+    hint: "کسی فائل پر دایاں کلک کریں۔"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: مینوز
   page_icon: 'ph:bold/list'
@@ -1268,6 +1476,9 @@ ur:
     split:
       title: 'اسپلیٹ بٹن'
       description: "ایک بٹن جو ایک کام کرتا ہے اور دوسرے آپشن فراہم کرتا ہے: اس کا جسم عمل کرتا ہے، اور اس کے آخر پر لگا ہوا کیریٹ — اور صرف کیریٹ — مینو کھولتا ہے۔ `button_menu` کو ایک `action` دی گئی — `{ href }`، یا `{ type: 'submit' }` کسی فارم میں؛ ویو میں یہ `action` جاری کرتا ہے۔"
+    context:
+      title: "دایاں کلک"
+      description: "جو کچھ یہ ڈھانپے اس پر دایاں کلک — یا مینو کلید، یا Shift+F10 — سے پوائنٹر کی جگہ کھلنے والا مینو: بٹن کے مینو جیسے آئٹمز اور پینل۔ آئٹمز کلک کی گئی چیز پر منحصر ہو سکتے ہیں: مقفل فائل حذف نہیں ہوتی۔ Shift کے ساتھ براؤزر کا مینو۔"
     vue:
       title: ویو
       description: 'لنک رو اور سیپریٹر ویو کے جزو کے طور پر۔ ان رووں کے برعکس جو راستے کو پڑھتے ہیں، یہ دونوں اپنے آئیکن اور لیبل کو آپشن کے طور پر لیتے ہیں، اس لیے سرور کا کچھ بھی غائب نہیں ہوتا۔'
@@ -1323,6 +1534,13 @@ ur:
       docs: دستاویزات
 
 vi:
+  context:
+    menu: "Thao tác với tệp"
+    open: "Mở"
+    rename: "Đổi tên"
+    pinned: "Đã ghim"
+    delete: "Xóa"
+    hint: "Nhấp chuột phải vào một tệp."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menus
   page_icon: 'ph:bold/list'
@@ -1330,6 +1548,9 @@ vi:
     split:
       title: 'Nút tách'
       description: "Một nút thực hiện một hành động và cung cấp các hành động khác: thân nút thực hiện hành động, mũi tên gắn liền với cuối nút — và chỉ mũi tên — mở menu. `button_menu` được cung cấp một `action` — `{ href }`, hoặc `{ type: 'submit' }` trong một biểu mẫu; phiên bản vue phát ra `action`."
+    context:
+      title: "Nhấp chuột phải"
+      description: "Menu mở bằng nhấp chuột phải trên vùng nó bao — hoặc phím menu, hoặc Shift+F10 —, tại vị trí con trỏ: cùng các mục và bảng như menu của nút. Các mục có thể tùy vào thứ được nhấp: tệp bị khóa không xóa được. Giữ Shift, menu của trình duyệt."
     vue:
       title: Vue
       description: 'Dòng liên kết và dấu phân cách như các phần của vue. Khác với các dòng đọc một tuyến đường, hai cái này nhận biểu tượng và nhãn là tùy chọn, vì vậy không có gì từ máy chủ bị thiếu.'
@@ -1385,6 +1606,13 @@ vi:
       docs: 'Tài liệu'
 
 zh:
+  context:
+    menu: "文件操作"
+    open: "打开"
+    rename: "重命名"
+    pinned: "已固定"
+    delete: "删除"
+    hint: "右键点击一个文件。"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 菜单
   page_icon: 'ph:bold/list'
@@ -1392,6 +1620,9 @@ zh:
     split:
       title: 拆分按钮
       description: "一个执行单一操作并提供其他选项的按钮：按钮主体执行该操作，固定在末尾的箭头——只有箭头——打开菜单。`button_menu`给定一个`action`——`{ href }`，或在表单中`{ type: 'submit' }`；vue 的则会发出 `action`。"
+    context:
+      title: "右键菜单"
+      description: "在其覆盖的内容上右键（或菜单键、Shift+F10）时，在指针处打开的菜单：与按钮菜单相同的项目和面板。项目可以取决于点击的对象：锁定的文件不能删除。按住 Shift 则显示浏览器自身的菜单。"
     vue:
       title: Vue
       description: '链接行和分隔符作为 vue 部件。与读取路线的行不同，这两个将其图标和标签作为选项，因此服务器的内容不会缺失。'
