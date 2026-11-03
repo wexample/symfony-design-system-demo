@@ -9,6 +9,9 @@ en:
   intro: "How a page is divided. These shapes take regions rather than content: they say where things stand, and know nothing of what stands there."
 
   page:
+    menu_icons:
+      title: "Icon menu"
+      description: "An editor wanting the width whole: the side menu as a rail of icons, as thick as the bar of tools, on every window — neither folded nor widened."
     focus:
       title: Focus
       description: "One thing to do and nothing around it: the window as one region, a card in its middle."
@@ -36,6 +39,9 @@ ar:
   page_icon: 'ph:bold/layout'
   intro: 'كيف يتم تقسيم الصفحة. هذه الأشكال تأخذ مناطق بدلاً من المحتوى: تحدد أين تقع الأشياء، ولا تعرف شيئًا عما يوجد هناك.'
   page:
+    menu_icons:
+      title: "قائمة الأيقونات"
+      description: "محرر يريد العرض كله: القائمة الجانبية شريط أيقونات بسماكة شريط الأدوات، في كل نافذة — لا تُطوى ولا تُوسَّع."
     focus:
       title: تركيز
       description: 'شيء واحد للقيام به ولا شيء حوله: النافذة كمنطقة واحدة، بطاقة في وسطها.'
@@ -63,6 +69,9 @@ bn:
   page_icon: 'ph:bold/layout'
   intro: 'একটি পৃষ্ঠা কিভাবে বিভক্ত হয়। এই আকৃতিগুলি বিষয়বস্তু না নিয়ে অঞ্চল গ্রহণ করে: তারা বলছে জিনিসগুলি কোথায় অবস্থান করছে, এবং সেখানে কি আছে তা জানে না।'
   page:
+    menu_icons:
+      title: "আইকন মেনু"
+      description: "পুরো প্রস্থ চায় এমন এডিটর: পাশের মেনু টুলবারের সমান পুরু আইকনের সারি, প্রতিটি উইন্ডোতে — ভাঁজও হয় না, চওড়াও হয় না।"
     focus:
       title: ফোকাস
       description: 'করার জন্য একটি জিনিস এবং এর চারপাশে কিছুই নেই: একটি অঞ্চল হিসাবে উইন্ডো, এর মাঝখানে একটি কার্ড।'
@@ -90,6 +99,9 @@ de:
   page_icon: 'ph:bold/layout'
   intro: 'Wie eine Seite unterteilt ist. Diese Formen nehmen Bereiche statt Inhalte ein: sie zeigen, wo Dinge stehen, und wissen nichts darüber, was dort steht.'
   page:
+    menu_icons:
+      title: "Symbolmenü"
+      description: "Ein Editor, der die ganze Breite will: das Seitenmenü als Symbolleiste, so breit wie die Werkzeugleiste, in jedem Fenster — weder eingeklappt noch verbreitert."
     focus:
       title: Fokus
       description: 'Eine Sache zu erledigen und nichts drumherum: das Fenster als eine Region, eine Karte in der Mitte.'
@@ -117,6 +129,9 @@ es:
   page_icon: 'ph:bold/layout'
   intro: 'Cómo se divide una página. Estas formas ocupan regiones en lugar de contenido: indican dónde están las cosas y no saben nada de lo que hay allí.'
   page:
+    menu_icons:
+      title: "Menú de iconos"
+      description: "Un editor que quiere todo el ancho: el menú lateral como un riel de iconos, tan ancho como la barra de herramientas, en todas las ventanas — ni plegado ni ensanchado."
     focus:
       title: Enfoque
       description: 'Una cosa por hacer y nada alrededor: la ventana como una región, una tarjeta en su medio.'
@@ -144,6 +159,9 @@ fa:
   page_icon: 'ph:bold/layout'
   intro: 'چگونه یک صفحه تقسیم می‌شود. این شکل‌ها نواحی را به جای محتوا می‌گیرند: آن‌ها می‌گویند چیزها کجا قرار دارند و هیچ چیز از آنچه در آنجا ایستاده‌اند نمی‌دانند.'
   page:
+    menu_icons:
+      title: "منوی آیکونی"
+      description: "ویرایشگری که کل عرض را می‌خواهد: منوی کناری به‌صورت نواری از آیکون‌ها، هم‌ضخامت نوار ابزار، در هر پنجره — نه جمع می‌شود و نه پهن."
     focus:
       title: تمرکز
       description: 'یک کار برای انجام دادن و هیچ چیز دیگری در اطراف: پنجره به عنوان یک منطقه، یک کارت در وسط آن.'
@@ -171,6 +189,9 @@ fi:
   page_icon: 'ph:bold/layout'
   intro: 'Miten sivu jakautuu. Nämä muodot vievät alueita eivätkä sisältöä: ne sanovat, missä asiat sijaitsevat, eivätkä tiedä, mitä siellä on.'
   page:
+    menu_icons:
+      title: "Kuvakevalikko"
+      description: "Editori, joka haluaa koko leveyden: sivuvalikko kuvakepalkkina, työkalupalkin paksuisena, joka ikkunassa — ei taiteta eikä levennetä."
     focus:
       title: Keskity
       description: 'Yksi asia tehtäväksi ja ei mitään ympärillä: ikkuna yhtenä alueena, kortti sen keskellä.'
@@ -198,6 +219,9 @@ fr:
   page_icon: 'ph:bold/layout'
   intro: "Comment une page est divisée. Ces formes prennent des régions plutôt que du contenu : elles indiquent où se trouvent les choses, et ne savent rien de ce qui s'y trouve."
   page:
+    menu_icons:
+      title: "Menu en icônes"
+      description: "Un éditeur qui veut toute la largeur : le menu latéral en rail d'icônes, aussi épais que la barre d'outils, sur toutes les fenêtres — ni replié ni élargi."
     focus:
       title: Focus
       description: 'Une seule chose à faire, rien autour : la fenêtre en une région, une carte au milieu.'
@@ -225,6 +249,9 @@ he:
   page_icon: 'ph:bold/layout'
   intro: 'איך דף מחולק. הצורות הללו תופסות אזורים ולא תוכן: הן מציינות היכן הדברים נמצאים, ואינן יודעות מה נמצא שם.'
   page:
+    menu_icons:
+      title: "תפריט סמלים"
+      description: "עורך שרוצה את כל הרוחב: התפריט הצדדי כפס סמלים בעובי סרגל הכלים, בכל חלון — לא מתקפל ולא מתרחב."
     focus:
       title: מיקוד
       description: 'דבר אחד לעשות ושום דבר מסביב: החלון כאזור אחד, כרטיס במרכזו.'
@@ -252,6 +279,9 @@ hi:
   page_icon: 'ph:bold/layout'
   intro: 'एक पृष्ठ कैसे विभाजित होता है। ये आकृतियाँ क्षेत्रों को लेती हैं न कि सामग्री को: वे बताती हैं कि चीजें कहां हैं, और यह नहीं जानती कि वहां क्या है।'
   page:
+    menu_icons:
+      title: "आइकन मेनू"
+      description: "पूरी चौड़ाई चाहने वाला एडिटर: साइड मेनू टूलबार जितनी मोटी आइकनों की पट्टी, हर विंडो में — न सिमटता है, न चौड़ा होता है।"
     focus:
       title: 'ध्यान केंद्रित करें'
       description: 'एक काम करना है और इसके चारों ओर कुछ नहीं: एक क्षेत्र के रूप में विंडो, इसके बीच में एक कार्ड।'
@@ -279,6 +309,9 @@ id:
   page_icon: 'ph:bold/layout'
   intro: 'Bagaimana sebuah halaman dibagi. Bentuk-bentuk ini mengambil wilayah daripada konten: mereka menunjukkan posisi sesuatu, dan tidak tahu apa yang berada di sana.'
   page:
+    menu_icons:
+      title: "Menu ikon"
+      description: "Editor yang ingin seluruh lebar: menu samping sebagai jalur ikon, setebal bilah alat, di setiap jendela — tidak dilipat dan tidak dilebarkan."
     focus:
       title: Fokus
       description: 'Satu hal untuk dilakukan dan tidak ada yang mengelilinginya: jendela sebagai satu wilayah, sebuah kartu di tengahnya.'
@@ -306,6 +339,9 @@ it:
   page_icon: 'ph:bold/layout'
   intro: "Come è divisa una pagina. Queste forme occupano spazi piuttosto che contenuti: indicano dove si trovano le cose e non sanno nulla di ciò che c'è."
   page:
+    menu_icons:
+      title: "Menu a icone"
+      description: "Un editor che vuole tutta la larghezza: il menu laterale come una barra di icone, spessa quanto la barra degli strumenti, su ogni finestra — né chiuso né allargato."
     focus:
       title: Focus
       description: "Un'unica cosa da fare e nulla attorno: la finestra come un'unica area, una scheda al suo centro."
@@ -333,6 +369,9 @@ ja:
   page_icon: 'ph:bold/layout'
   intro: ページがどのように分けられるか。これらの形はコンテンツではなく領域を取ります：物がどこにあるかを示し、そこに何があるかは知りません。
   page:
+    menu_icons:
+      title: "アイコンメニュー"
+      description: "幅をすべて使いたいエディタ向け：サイドメニューをツールバーと同じ太さのアイコン列に。どのウィンドウでも、折りたたみも拡張もしません。"
     focus:
       title: 集中
       description: 'やるべきことは一つだけ、周りには何もない: ウィンドウは一つの領域、真ん中にはカードがあります。'
@@ -360,6 +399,9 @@ ko:
   page_icon: 'ph:bold/layout'
   intro: '페이지가 어떻게 나뉘는지에 대한 설명. 이 형태는 콘텐츠가 아닌 영역을 차지하며, 사물이 어디에 위치하는지를 나타내고, 그곳에 무엇이 있는지는 알지 못합니다.'
   page:
+    menu_icons:
+      title: "아이콘 메뉴"
+      description: "전체 너비가 필요한 편집기용: 사이드 메뉴를 도구 막대와 같은 두께의 아이콘 레일로, 모든 창에서 — 접지도 넓히지도 않습니다."
     focus:
       title: 집중
       description: '해야 할 한 가지와 그 주위에는 아무것도 없는 상태: 창은 하나의 영역이며, 그 중앙에 카드가 있습니다.'
@@ -387,6 +429,9 @@ nl:
   page_icon: 'ph:bold/layout'
   intro: 'Hoe een pagina is verdeeld. Deze vormen nemen gebieden in plaats van inhoud: ze geven aan waar dingen staan, en weten niet wat daar staat.'
   page:
+    menu_icons:
+      title: "Pictogrammenu"
+      description: "Een editor die de volle breedte wil: het zijmenu als een rail van pictogrammen, zo breed als de gereedschapsbalk, in elk venster — niet ingeklapt, niet verbreed."
     focus:
       title: Focus
       description: 'Één ding te doen en verder niets: het venster als één regio, een kaart in het midden.'
@@ -414,6 +459,9 @@ pl:
   page_icon: 'ph:bold/layout'
   intro: 'Jak strona jest podzielona. Te kształty zajmują obszary, a nie treści: wskazują, gdzie co stoi, i nic nie wiedzą o tym, co tam stoi.'
   page:
+    menu_icons:
+      title: "Menu ikon"
+      description: "Edytor, który chce całej szerokości: menu boczne jako pas ikon, grube jak pasek narzędzi, w każdym oknie — ani zwinięte, ani poszerzone."
     focus:
       title: Skupienie
       description: 'Jedna rzecz do zrobienia i nic wokół: okno jako jeden obszar, karta pośrodku.'
@@ -441,6 +489,9 @@ pt_BR:
   page_icon: 'ph:bold/layout'
   intro: 'Como uma página é dividida. Essas formas ocupam regiões ao invés de conteúdo: elas indicam onde as coisas estão e não sabem nada sobre o que está lá.'
   page:
+    menu_icons:
+      title: "Menu ikon"
+      description: "Edytor, który chce całej szerokości: menu boczne jako pas ikon, grube jak pasek narzędzi, w każdym oknie — ani zwinięte, ani poszerzone."
     focus:
       title: Foco
       description: 'Uma coisa a fazer e nada ao redor: a janela como uma região, um cartão no meio dela.'
@@ -468,6 +519,9 @@ ru:
   page_icon: 'ph:bold/layout'
   intro: 'Как страница разделена. Эти формы занимают области, а не содержимое: они указывают, где что находится, и ничего не знают о том, что там стоит.'
   page:
+    menu_icons:
+      title: "Меню иконок"
+      description: "Редактору нужна вся ширина: боковое меню как полоса иконок, толщиной с панель инструментов, в любом окне — не сворачивается и не расширяется."
     focus:
       title: Фокус
       description: 'Одна задача и ничего вокруг: окно как одна область, карточка в его центре.'
@@ -495,6 +549,9 @@ th:
   page_icon: 'ph:bold/layout'
   intro: 'วิธีการแบ่งหน้า หน้าเหล่านี้ใช้พื้นที่มากกว่าคอนเทนต์: มันบอกว่ามีสิ่งใดอยู่ที่ไหน และไม่รู้ว่ามีอะไรอยู่ตรงนั้น'
   page:
+    menu_icons:
+      title: "เมนูไอคอน"
+      description: "ตัวแก้ไขที่ต้องการความกว้างทั้งหมด: เมนูข้างเป็นแถบไอคอนหนาเท่าแถบเครื่องมือ ในทุกหน้าต่าง — ไม่พับและไม่ขยาย"
     focus:
       title: จดจ่อ
       description: 'สิ่งเดียวที่ต้องทำและไม่มีสิ่งรอบข้าง: หน้าต่างเป็นหนึ่งพื้นที่ การ์ดอยู่กลาง.'
@@ -522,6 +579,9 @@ tr:
   page_icon: 'ph:bold/layout'
   intro: 'Bir sayfanın nasıl bölündüğü. Bu şekiller içerikten ziyade alan alır: nerede ne olduğunu söyler ve orada ne olduğunu bilmez.'
   page:
+    menu_icons:
+      title: "Simge menüsü"
+      description: "Tüm genişliği isteyen bir düzenleyici: yan menü, araç çubuğu kalınlığında bir simge şeridi olarak, her pencerede — ne katlanır ne genişler."
     focus:
       title: Odak
       description: 'Yapılacak bir şey ve etrafında hiçbir şey yok: pencere bir alan olarak, ortasında bir kart.'
@@ -549,6 +609,9 @@ ur:
   page_icon: 'ph:bold/layout'
   intro: 'ایک صفحہ کس طرح تقسیم ہوتا ہے۔ یہ اشکال علاقوں کو لیتے ہیں نہ کہ مواد: یہ بتاتے ہیں کہ چیزیں کہاں ہیں، اور اس بارے میں کچھ نہیں جانتے کہ وہاں کیا ہے۔'
   page:
+    menu_icons:
+      title: "آئیکن مینو"
+      description: "پوری چوڑائی چاہنے والا ایڈیٹر: سائیڈ مینو ٹول بار جتنی موٹی آئیکنز کی پٹی، ہر ونڈو میں — نہ سمٹتا ہے نہ پھیلتا ہے۔"
     focus:
       title: فوکس
       description: 'ایک کام کرنا ہے اور اس کے اردگرد کچھ نہیں: ایک علاقے کے طور پر ونڈو، اس کے درمیان ایک کارڈ۔'
@@ -576,6 +639,9 @@ vi:
   page_icon: 'ph:bold/layout'
   intro: 'Cách một trang được chia ra. Những hình dạng này chiếm các khu vực thay vì nội dung: chúng cho biết vị trí của mọi thứ, và không biết gì về những gì đứng ở đó.'
   page:
+    menu_icons:
+      title: "Menu biểu tượng"
+      description: "Một trình soạn thảo cần toàn bộ chiều rộng: menu bên thành một dải biểu tượng, dày bằng thanh công cụ, trên mọi cửa sổ — không thu gọn, không mở rộng."
     focus:
       title: 'Tập trung'
       description: 'Một việc cần làm và không có gì xung quanh: cửa sổ như một khu vực, một thẻ ở giữa.'
@@ -603,6 +669,9 @@ zh:
   page_icon: 'ph:bold/layout'
   intro: 页面是如何划分的。这些形状占据区域而不是内容：它们说明事物的位置，而对其中的内容一无所知。
   page:
+    menu_icons:
+      title: "图标菜单"
+      description: "需要全部宽度的编辑器：侧边菜单变成与工具栏同宽的图标栏，在任何窗口中——既不折叠也不加宽。"
     focus:
       title: 专注
       description: 只做一件事，周围一无所有：窗口作为一个区域，中间是一张卡片。

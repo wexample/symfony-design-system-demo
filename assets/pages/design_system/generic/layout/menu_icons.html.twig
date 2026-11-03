@@ -1,0 +1,12 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/layout/layout/layout-generic.html.twig' -%}
+
+{#- The side menu as its icons alone (`menu_left_format: 'icons'`): what an
+    editor wanting the width whole asks of the layout. -#}
+{%- set menu_left_format = 'icons' -%}
+
+{%- block page_body -%}
+    <section class="block block--padded">
+        <div class="block--title"><span class="block--title-label">{{ '@page::title' | trans }}</span></div>
+        <p>{{ '@page::body' | trans }}</p>
+    </section>
+{%- endblock -%}
