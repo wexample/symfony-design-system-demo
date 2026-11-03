@@ -1,8 +1,14 @@
 @use './layout/layout-generic';
 @use '@wexample/symfony-design-system/css/shapes/toolbar';
 @use '@wexample/symfony-design-system/css/shapes/form';
+@use '@wexample/symfony-design-system/css/shapes/form/addon';
 @use '@wexample/symfony-design-system/css/shapes/form/checkbox';
 @use '@wexample/symfony-design-system/components/switch/switch';
 @use '@wexample/symfony-design-system/components/button/button';
 
 @use '@wexample/symfony-design-system/components/marker/marker';
+
+// A value of the bar: as wide as what it holds, as a field of a bar is.
+.toolbar-demo--value {
+  flex: none;
+}

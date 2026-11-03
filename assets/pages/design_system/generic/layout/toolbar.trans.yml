@@ -4,6 +4,14 @@ en:
   page_title: Toolbar
   page_icon: ph:bold/rows
 
+  value:
+    draft: "Draft"
+    published: "Published"
+    actions: "What is done to this version"
+    next: "Make the next version"
+    archive: "Archive"
+    arrange: "Arrange"
+
   section:
     markers:
       title: A heading and its markers
@@ -14,6 +22,9 @@ en:
       title: Toolbar with title
     title_multi:
       title: Section title with actions
+    values:
+      title: "A value and what acts on it"
+      description: "In a bar, what shows a value is a field, framed as the skin frames fields — a version, a step —; what acts on that value stands in its frame, an action or a menu of them; what does something else is a flat button. Two shapes, chosen by role, whatever the bar."
     fields:
       title: Fields in a bar
       description: "What an editor's bar of options holds besides buttons: a size, a mode, a toggle, a choice, a search and its button. Each stands at the height of the bar's controls, so a compact bar keeps its thickness; a field and its action together (form--inline) take the room the bar leaves."
@@ -48,6 +59,13 @@ en:
     share: Share
 
 ar:
+  value:
+    draft: "مسودة"
+    published: "منشور"
+    actions: "ما يُفعل بهذا الإصدار"
+    next: "إنشاء الإصدار التالي"
+    archive: "أرشفة"
+    arrange: "ترتيب"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'شريط الأدوات'
   page_icon: 'ph:bold/rows'
@@ -61,6 +79,9 @@ ar:
       title: 'شريط أدوات مع عنوان'
     title_multi:
       title: 'عنوان القسم مع الإجراءات'
+    values:
+      title: "قيمة وما يعمل عليها"
+      description: "في الشريط، ما يعرض قيمة هو حقل، مؤطَّر كما يؤطر المظهر الحقول — إصدار، خطوة —؛ وما يعمل على تلك القيمة يقف داخل إطارها، إجراءً أو قائمة إجراءات؛ وما يفعل شيئًا آخر زر مسطّح. شكلان يُختاران حسب الدور، أيًّا كان الشريط."
     fields:
       title: 'حقول في شريط'
       description: 'ما يحتويه شريط خيارات المحرر بجانب الأزرار: حجم، وضع، مفتاح تبديل، خيار، بحث وزر البحث. كل منها يكون على ارتفاع عناصر تحكم الشريط، لذا فإن الشريط المدمج يحتفظ بسماكته؛ حقل وإجراءه معًا (نموذج--مضمن) يأخذان المساحة التي يتركها الشريط.'
@@ -91,6 +112,13 @@ ar:
     share: مشاركة
 
 bn:
+  value:
+    draft: "খসড়া"
+    published: "প্রকাশিত"
+    actions: "এই সংস্করণ নিয়ে কী করবেন"
+    next: "পরবর্তী সংস্করণ তৈরি করুন"
+    archive: "আর্কাইভ"
+    arrange: "সাজান"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: টুলবার
   page_icon: 'ph:bold/rows'
@@ -104,6 +132,9 @@ bn:
       title: 'শিরোনামসহ টুলবার'
     title_multi:
       title: 'ক্রিয়াকলাপসহ বিভাগীয় শিরোনাম'
+    values:
+      title: "একটি মান ও যা তার ওপর কাজ করে"
+      description: "বারে যা একটি মান দেখায় তা একটি ফিল্ড, স্কিন যেভাবে ফিল্ডকে ফ্রেম করে সেভাবে ফ্রেম করা — একটি সংস্করণ, একটি ধাপ —; যা সেই মানের ওপর কাজ করে তা তার ফ্রেমের ভেতরে থাকে, একটি অ্যাকশন বা অ্যাকশনের মেনু; যা অন্য কিছু করে তা ফ্ল্যাট বোতাম। ভূমিকা অনুযায়ী দুটি রূপ, বার যা-ই হোক।"
     fields:
       title: 'একটি বারের ক্ষেত্র'
       description: 'একটি সম্পাদকদের বিকল্পের বারের মধ্যে বোতামের পাশাপাশি কি থাকে: একটি আকার, একটি মোড, একটি টগল, একটি পছন্দ, একটি অনুসন্ধান এবং তার বোতাম। প্রতিটি বারের নিয়ন্ত্রণের উচ্চতায় দাঁড়ায়, তাই একটি সংক্ষিপ্ত বার তার পুরুত্ব বজায় রাখে; একটি ক্ষেত্র এবং এর কার্যকলাপ একসাথে (ফর্ম--ইনলাইন) বারের জন্য স্থান নেয়।'
@@ -134,6 +165,13 @@ bn:
     share: 'শেয়ার করুন'
 
 de:
+  value:
+    draft: "Entwurf"
+    published: "Veröffentlicht"
+    actions: "Was mit dieser Version geschieht"
+    next: "Nächste Version erstellen"
+    archive: "Archivieren"
+    arrange: "Anordnen"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Werkzeugleiste
   page_icon: 'ph:bold/rows'
@@ -147,6 +185,9 @@ de:
       title: 'Werkzeugleiste mit Titel'
     title_multi:
       title: 'Abschnittsüberschrift mit Aktionen'
+    values:
+      title: "Ein Wert und was darauf wirkt"
+      description: "In einer Leiste ist, was einen Wert zeigt, ein Feld, gerahmt wie der Skin Felder rahmt — eine Version, ein Schritt —; was auf diesen Wert wirkt, steht in seinem Rahmen, eine Aktion oder ein Menü davon; was etwas anderes tut, ist ein flacher Button. Zwei Formen, nach Rolle gewählt, egal in welcher Leiste."
     fields:
       title: 'Felder in einer Leiste'
       description: 'Was die Optionsleiste eines Editors neben Schaltflächen enthält: eine Größe, einen Modus, einen Schalter, eine Auswahl, eine Suche und deren Schaltfläche. Jede steht auf der Höhe der Steuerelemente der Leiste, sodass eine kompakte Leiste ihre Dicke beibehält; ein Feld und seine Aktion zusammen (Formular--inline) nehmen den Raum ein, den die Leiste lässt.'
@@ -177,6 +218,13 @@ de:
     share: Teilen
 
 es:
+  value:
+    draft: "Borrador"
+    published: "Publicada"
+    actions: "Qué se hace con esta versión"
+    next: "Crear la siguiente versión"
+    archive: "Archivar"
+    arrange: "Organizar"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Barra de herramientas'
   page_icon: 'ph:bold/rows'
@@ -190,6 +238,9 @@ es:
       title: 'Barra de herramientas con título'
     title_multi:
       title: 'Título de sección con acciones'
+    values:
+      title: "Un valor y lo que actúa sobre él"
+      description: "En una barra, lo que muestra un valor es un campo, enmarcado como el skin enmarca los campos — una versión, un paso —; lo que actúa sobre ese valor está en su marco, una acción o un menú de ellas; lo que hace otra cosa es un botón plano. Dos formas, elegidas por su función, sea cual sea la barra."
     fields:
       title: 'Campos en una barra'
       description: 'Lo que contiene la barra de opciones de un editor además de botones: un tamaño, un modo, un interruptor, una elección, una búsqueda y su botón. Cada uno se sitúa a la altura de los controles de la barra, por lo que una barra compacta mantiene su grosor; un campo y su acción juntos (form--inline) ocupan el espacio que deja la barra.'
@@ -220,6 +271,13 @@ es:
     share: Compartir
 
 fa:
+  value:
+    draft: "پیش‌نویس"
+    published: "منتشرشده"
+    actions: "با این نسخه چه کنیم"
+    next: "ساخت نسخهٔ بعدی"
+    archive: "بایگانی"
+    arrange: "چیدمان"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'نوار ابزار'
   page_icon: 'ph:bold/rows'
@@ -233,6 +291,9 @@ fa:
       title: 'نوار ابزاری با عنوان'
     title_multi:
       title: 'عنوان بخش با عملیات'
+    values:
+      title: "یک مقدار و آنچه بر آن اثر می‌گذارد"
+      description: "در نوار، آنچه مقداری را نشان می‌دهد یک فیلد است، قاب‌گرفته همان‌طور که پوسته فیلدها را قاب می‌گیرد — یک نسخه، یک مرحله —؛ آنچه بر آن مقدار اثر می‌گذارد در قاب آن می‌ایستد، یک کنش یا منویی از کنش‌ها؛ آنچه کار دیگری می‌کند دکمه‌ای تخت است. دو شکل، به‌حسب نقش، در هر نواری."
     fields:
       title: 'فیلدها در نوار'
       description: 'آنچه نوار گزینه‌های ویرایشگر غیر از دکمه‌ها دارد: یک اندازه، یک حالت، یک تغییر حالت، یک انتخاب، یک جستجو و دکمه‌اش. هر کدام در ارتفاع کنترل‌های نوار قرار دارد، بنابراین یک نوار فشرده ضخامت خود را حفظ می‌کند؛ یک فیلد و اقدام آن با هم (فرم--درون‌خط) فضایی را که نوار باقی می‌گذارد، اشغال می‌کنند.'
@@ -263,6 +324,13 @@ fa:
     share: 'اشتراک گذاری'
 
 fi:
+  value:
+    draft: "Luonnos"
+    published: "Julkaistu"
+    actions: "Mitä tälle versiolle tehdään"
+    next: "Luo seuraava versio"
+    archive: "Arkistoi"
+    arrange: "Järjestä"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Työkalupalkki
   page_icon: 'ph:bold/rows'
@@ -276,6 +344,9 @@ fi:
       title: 'Työkalupalkki otsikolla'
     title_multi:
       title: 'Osion otsikko toiminnoilla'
+    values:
+      title: "Arvo ja se, mikä vaikuttaa siihen"
+      description: "Palkissa arvon näyttävä on kenttä, kehystetty kuten teema kehystää kentät — versio, vaihe —; arvoon vaikuttava on sen kehyksessä, toiminto tai valikko niistä; muuta tekevä on litteä painike. Kaksi muotoa roolin mukaan, palkista riippumatta."
     fields:
       title: 'Kentät työkalurivissä'
       description: 'Mitä editorin vaihtoehtojen työkalurivi pitää sisällään nappien lisäksi: koko, tila, kytkin, valinta, haku ja sen painike. Jokainen on työkalurivin hallintojen korkeudella, joten kompakti työkalurivi säilyttää paksuutensa; kenttä ja sen toiminto yhdessä (lomake--inline) vievät tilan, jonka työkalurivi jättää.'
@@ -306,6 +377,13 @@ fi:
     share: Jaa
 
 fr:
+  value:
+    draft: "Brouillon"
+    published: "Publiée"
+    actions: "Ce qu'on fait de cette version"
+    next: "Créer la version suivante"
+    archive: "Archiver"
+    arrange: "Disposer"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: "Barre d'outils"
   page_icon: 'ph:bold/rows'
@@ -319,6 +397,9 @@ fr:
       title: "Barre d'outils avec titre"
     title_multi:
       title: 'Titre de section avec actions'
+    values:
+      title: "Une valeur et ce qui agit dessus"
+      description: "Dans une barre, ce qui montre une valeur est un champ, encadré comme le skin encadre les champs — une version, un step — ; ce qui agit sur cette valeur se tient dans son cadre, une action ou un menu d'actions ; ce qui fait autre chose est un bouton plat. Deux formes, choisies par le rôle, quelle que soit la barre."
     fields:
       title: 'Des champs dans une barre'
       description: "Ce qu'une barre d'options d'éditeur tient en plus des boutons : une taille, un mode, une bascule, un choix, une recherche et son bouton. Chacun se tient à la hauteur des contrôles de la barre, si bien qu'une barre compacte garde son épaisseur ; un champ et son action ensemble (form--inline) prennent la place que la barre laisse."
@@ -349,6 +430,13 @@ fr:
     share: Partager
 
 he:
+  value:
+    draft: "טיוטה"
+    published: "פורסם"
+    actions: "מה עושים בגרסה הזו"
+    next: "יצירת הגרסה הבאה"
+    archive: "העברה לארכיון"
+    arrange: "סידור"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'סרגל כלים'
   page_icon: 'ph:bold/rows'
@@ -362,6 +450,9 @@ he:
       title: 'סרגל כלים עם כותרת'
     title_multi:
       title: 'כותרת סעיף עם פעולות'
+    values:
+      title: "ערך ומה שפועל עליו"
+      description: "בסרגל, מה שמציג ערך הוא שדה ממוסגר כפי שהעיצוב ממסגר שדות — גרסה, שלב —; מה שפועל על הערך עומד בתוך המסגרת שלו, פעולה או תפריט פעולות; מה שעושה משהו אחר הוא כפתור שטוח. שתי צורות, לפי תפקיד, בכל סרגל."
     fields:
       title: 'שדות בשורת כלים'
       description: 'מה שיש בשורת האפשרויות של העורך מעבר לכפתורים: גודל, מצב, מתג, אפשרות, חיפוש וכפתור החיפוש. כל אחד מהם נמצא בגובה של בקרי השורה, כך ששורה קומפקטית שומרת על העובי שלה; שדה והפעולה שלו יחד (טופס--בפנים) תופסים את המקום שהשורה משאירה.'
@@ -392,6 +483,13 @@ he:
     share: שתף
 
 hi:
+  value:
+    draft: "ड्राफ़्ट"
+    published: "प्रकाशित"
+    actions: "इस संस्करण के साथ क्या करें"
+    next: "अगला संस्करण बनाएँ"
+    archive: "संग्रहित करें"
+    arrange: "व्यवस्थित करें"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: टूलबार
   page_icon: 'ph:bold/rows'
@@ -405,6 +503,9 @@ hi:
       title: 'शीर्षक के साथ टूलबार'
     title_multi:
       title: 'कार्रवाइयों के साथ अनुभाग शीर्षक'
+    values:
+      title: "एक मान और जो उस पर काम करे"
+      description: "बार में जो मान दिखाता है वह फ़ील्ड है, वैसे ही फ़्रेम में जैसे स्किन फ़ील्ड को फ़्रेम करती है — एक संस्करण, एक चरण —; जो उस मान पर काम करे वह उसके फ़्रेम में रहता है, एक क्रिया या क्रियाओं का मेनू; जो कुछ और करे वह फ़्लैट बटन है। भूमिका से चुने गए दो रूप, बार कोई भी हो।"
     fields:
       title: 'बार में फ़ील्ड्स'
       description: 'एक संपादक के विकल्पों की पट्टी में बटन के अलावा क्या है: एक आकार, एक मोड, एक टॉगल, एक विकल्प, एक खोज और इसका बटन। प्रत्येक बार के नियंत्रणों की ऊंचाई पर होता है, इसलिए एक कॉम्पैक्ट बार अपनी मोटाई बनाए रखता है; एक फ़ील्ड और इसकी क्रिया (फॉर्म--इनलाइन) बार द्वारा छोड़े गए स्थान को लेती है।'
@@ -435,6 +536,13 @@ hi:
     share: 'शेयर करें'
 
 id:
+  value:
+    draft: "Draf"
+    published: "Diterbitkan"
+    actions: "Apa yang dilakukan pada versi ini"
+    next: "Buat versi berikutnya"
+    archive: "Arsipkan"
+    arrange: "Atur"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Toolbar
   page_icon: 'ph:bold/rows'
@@ -448,6 +556,9 @@ id:
       title: 'Toolbar dengan judul'
     title_multi:
       title: 'Judul bagian dengan tindakan'
+    values:
+      title: "Sebuah nilai dan yang bertindak atasnya"
+      description: "Di bilah, yang menampilkan nilai adalah kolom, berbingkai seperti skin membingkai kolom — versi, langkah —; yang bertindak atas nilai itu ada di bingkainya, sebuah aksi atau menu aksi; yang melakukan hal lain adalah tombol datar. Dua bentuk, dipilih menurut peran, apa pun bilahnya."
     fields:
       title: 'Bidang dalam bilah'
       description: 'Apa yang dimiliki bilah opsi editor selain tombol: ukuran, mode, toggle, pilihan, pencarian dan tombolnya. Masing-masing berdiri pada ketinggian kontrol bilah, sehingga bilah yang kompak mempertahankan ketebalannya; sebuah bidang dan aksinya bersama (form--inline) mengambil ruang yang ditinggalkan oleh bilah.'
@@ -478,6 +589,13 @@ id:
     share: Bagikan
 
 it:
+  value:
+    draft: "Bozza"
+    published: "Pubblicata"
+    actions: "Cosa si fa di questa versione"
+    next: "Crea la versione successiva"
+    archive: "Archivia"
+    arrange: "Disponi"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Barra degli strumenti'
   page_icon: 'ph:bold/rows'
@@ -491,6 +609,9 @@ it:
       title: 'Barra degli strumenti con titolo'
     title_multi:
       title: 'Titolo della sezione con azioni'
+    values:
+      title: "Un valore e ciò che agisce su di esso"
+      description: "In una barra, ciò che mostra un valore è un campo, incorniciato come lo skin incornicia i campi — una versione, un passo —; ciò che agisce su quel valore sta nella sua cornice, un'azione o un menu di azioni; ciò che fa altro è un pulsante piatto. Due forme, scelte per ruolo, qualunque sia la barra."
     fields:
       title: 'Campi in una barra'
       description: "Cosa contiene una barra di opzioni di un editor oltre ai pulsanti: una dimensione, una modalità, un interruttore, una scelta, una ricerca e il suo pulsante. Ognuno si trova all'altezza dei controlli della barra, quindi una barra compatta mantiene il suo spessore; un campo e la sua azione insieme (form--inline) occupano lo spazio lasciato dalla barra."
@@ -521,6 +642,13 @@ it:
     share: Condividi
 
 ja:
+  value:
+    draft: "下書き"
+    published: "公開済み"
+    actions: "このバージョンに対する操作"
+    next: "次のバージョンを作成"
+    archive: "アーカイブ"
+    arrange: "配置"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: ツールバー
   page_icon: 'ph:bold/rows'
@@ -534,6 +662,9 @@ ja:
       title: タイトル付きツールバー
     title_multi:
       title: アクション付きセクションタイトル
+    values:
+      title: "値とそれに作用するもの"
+      description: "バーの中で、値を示すものはスキンが枠付けるとおりの枠付きフィールドです（バージョン、ステップなど）。その値に作用するものはその枠の中に置き、アクションかアクションのメニューにします。別のことをするものはフラットなボタンです。どのバーでも、役割で選ぶ二つの形です。"
     fields:
       title: バーのフィールド
       description: 'エディタのオプションバーがボタンの他に持つもの: サイズ、モード、トグル、選択肢、検索とそのボタン。各項目はバーのコントロールの高さに合わせて配置されるため、コンパクトなバーはその厚さを保ちます。フィールドとそのアクションが一緒になる（フォーム--インライン）と、バーが残すスペースを占有します。'
@@ -564,6 +695,13 @@ ja:
     share: 共有
 
 ko:
+  value:
+    draft: "초안"
+    published: "게시됨"
+    actions: "이 버전에 할 일"
+    next: "다음 버전 만들기"
+    archive: "보관"
+    arrange: "배치"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 툴바
   page_icon: 'ph:bold/rows'
@@ -577,6 +715,9 @@ ko:
       title: '제목이 있는 툴바'
     title_multi:
       title: '작업이 있는 섹션 제목'
+    values:
+      title: "값과 그 값에 작용하는 것"
+      description: "바에서 값을 보여 주는 것은 스킨이 필드를 감싸는 방식대로 테두리가 있는 필드입니다 — 버전, 단계 —. 그 값에 작용하는 것은 그 테두리 안에 액션이나 액션 메뉴로 둡니다. 다른 일을 하는 것은 플랫 버튼입니다. 어떤 바든 역할로 고르는 두 가지 모양입니다."
     fields:
       title: '바의 필드'
       description: '편집자의 옵션 바에 버튼 외에 무엇이 포함되는지: 크기, 모드, 토글, 선택, 검색 및 그 버튼. 각 항목은 바의 컨트롤 높이에 위치하므로, 컴팩트 바는 두께를 유지합니다; 필드와 그 동작이 함께(양식--인라인) 바가 남긴 공간을 차지합니다.'
@@ -607,6 +748,13 @@ ko:
     share: 공유
 
 nl:
+  value:
+    draft: "Concept"
+    published: "Gepubliceerd"
+    actions: "Wat er met deze versie gebeurt"
+    next: "Volgende versie maken"
+    archive: "Archiveren"
+    arrange: "Indelen"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Werkbalk
   page_icon: 'ph:bold/rows'
@@ -620,6 +768,9 @@ nl:
       title: 'Werkbalk met titel'
     title_multi:
       title: 'Sectietitel met acties'
+    values:
+      title: "Een waarde en wat erop werkt"
+      description: "In een balk is wat een waarde toont een veld, omkaderd zoals de skin velden omkadert — een versie, een stap —; wat op die waarde werkt staat in het kader, een actie of een menu ervan; wat iets anders doet is een platte knop. Twee vormen, gekozen naar rol, welke balk ook."
     fields:
       title: 'Velden in een balk'
       description: 'Wat een editorbalk met opties bevat naast knoppen: een grootte, een modus, een schakelaar, een keuze, een zoekopdracht en de bijbehorende knop. Elk staat op de hoogte van de bedieningselementen van de balk, zodat een compacte balk zijn dikte behoudt; een veld en zijn actie samen (formulier--inline) nemen de ruimte in die de balk laat.'
@@ -650,6 +801,13 @@ nl:
     share: Delen
 
 pl:
+  value:
+    draft: "Szkic"
+    published: "Opublikowana"
+    actions: "Co zrobić z tą wersją"
+    next: "Utwórz następną wersję"
+    archive: "Archiwizuj"
+    arrange: "Rozmieść"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Pasek narzędzi'
   page_icon: 'ph:bold/rows'
@@ -663,6 +821,9 @@ pl:
       title: 'Pasek narzędzi z tytułem'
     title_multi:
       title: 'Tytuł sekcji z akcjami'
+    values:
+      title: "Wartość i to, co na nią działa"
+      description: "W pasku to, co pokazuje wartość, jest polem w ramce, jak skin oprawia pola — wersja, krok —; to, co działa na tę wartość, stoi w jej ramce, akcja lub menu akcji; to, co robi coś innego, jest płaskim przyciskiem. Dwie formy, wybrane według roli, w każdym pasku."
     fields:
       title: 'Pola na pasku'
       description: 'Co znajduje się w pasku opcji edytora oprócz przycisków: rozmiar, tryb, przełącznik, wybór, wyszukiwanie i jego przycisk. Każdy znajduje się na wysokości kontrolek paska, więc kompaktowy pasek utrzymuje swoją grubość; pole i jego akcja razem (formularz--inline) zajmują miejsce, które zostawia pasek.'
@@ -736,6 +897,13 @@ pt_BR:
     share: Compartilhar
 
 ru:
+  value:
+    draft: "Черновик"
+    published: "Опубликована"
+    actions: "Что сделать с этой версией"
+    next: "Создать следующую версию"
+    archive: "Архивировать"
+    arrange: "Расположить"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Панель инструментов'
   page_icon: 'ph:bold/rows'
@@ -749,6 +917,9 @@ ru:
       title: 'Панель инструментов с заголовком'
     title_multi:
       title: 'Заголовок секции с действиями'
+    values:
+      title: "Значение и то, что на него действует"
+      description: "В панели то, что показывает значение, — это поле в рамке, как скин оформляет поля, — версия, шаг; то, что действует на это значение, стоит в его рамке — действие или меню действий; то, что делает другое, — плоская кнопка. Две формы, выбранные по роли, в любой панели."
     fields:
       title: 'Поля в панели'
       description: 'Что содержит панель опций редактора кроме кнопок: размер, режим, переключатель, выбор, поиск и его кнопку. Каждый элемент находится на уровне элементов управления панели, поэтому компактная панель сохраняет свою толщину; поле и его действие вместе (форма--встраиваемая) занимают пространство, оставляемое панелью.'
@@ -779,6 +950,13 @@ ru:
     share: Поделиться
 
 th:
+  value:
+    draft: "ฉบับร่าง"
+    published: "เผยแพร่แล้ว"
+    actions: "สิ่งที่ทำกับเวอร์ชันนี้"
+    next: "สร้างเวอร์ชันถัดไป"
+    archive: "เก็บถาวร"
+    arrange: "จัดวาง"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: แถบเครื่องมือ
   page_icon: 'ph:bold/rows'
@@ -792,6 +970,9 @@ th:
       title: แถบเครื่องมือพร้อมหัวข้อ
     title_multi:
       title: หัวข้อส่วนที่มีการกระทำ
+    values:
+      title: "ค่าหนึ่งและสิ่งที่กระทำต่อค่านั้น"
+      description: "ในแถบ สิ่งที่แสดงค่าคือช่องกรอก มีกรอบแบบที่สกินใส่กรอบให้ช่องกรอก — เวอร์ชัน ขั้นตอน — สิ่งที่กระทำต่อค่านั้นอยู่ในกรอบของมัน เป็นการกระทำหรือเมนูของการกระทำ สิ่งที่ทำอย่างอื่นคือปุ่มแบน สองรูปแบบ เลือกตามบทบาท ไม่ว่าแถบใด"
     fields:
       title: ฟิลด์ในแถบ
       description: 'สิ่งที่แถบตัวเลือกของผู้แก้ไขมีนอกจากปุ่ม: ขนาด, โหมด, สลับ, ตัวเลือก, การค้นหาและปุ่มของมัน ทุกอย่างอยู่ในระดับความสูงของการควบคุมในแถบ ดังนั้นแถบที่กะทัดรัดจึงรักษาความหนาไว้; ฟิลด์และการกระทำของมันร่วมกัน (ฟอร์ม--ในบรรทัด) จะใช้พื้นที่ที่แถบทิ้งไว้.'
@@ -822,6 +1003,13 @@ th:
     share: แชร์
 
 tr:
+  value:
+    draft: "Taslak"
+    published: "Yayımlandı"
+    actions: "Bu sürümle ne yapılacak"
+    next: "Sonraki sürümü oluştur"
+    archive: "Arşivle"
+    arrange: "Düzenle"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Araç Çubuğu'
   page_icon: 'ph:bold/rows'
@@ -835,6 +1023,9 @@ tr:
       title: 'Başlıklı araç çubuğu'
     title_multi:
       title: 'Eylemlerle bölüm başlığı'
+    values:
+      title: "Bir değer ve ona etki eden"
+      description: "Bir çubukta değer gösteren şey, temanın alanları çerçevelediği gibi çerçeveli bir alandır — bir sürüm, bir adım —; o değere etki eden şey çerçevesinin içinde durur, bir eylem ya da eylem menüsü; başka bir şey yapan ise düz bir düğmedir. Rolüne göre seçilen iki biçim, hangi çubuk olursa olsun."
     fields:
       title: 'Bir çubuktaki Alanlar'
       description: 'Bir editörün seçenek çubuğunda düğmelerin yanı sıra neler bulunur: bir boyut, bir mod, bir anahtar, bir seçim, bir arama ve onun düğmesi. Her biri çubuğun kontrol yüksekliğinde yer alır, bu nedenle kompakt bir çubuk kalınlığını korur; bir alan ve eylemi birlikte (form--inline) çubuğun bıraktığı yeri kaplar.'
@@ -865,6 +1056,13 @@ tr:
     share: Paylaş
 
 ur:
+  value:
+    draft: "مسودہ"
+    published: "شائع شدہ"
+    actions: "اس ورژن کے ساتھ کیا کریں"
+    next: "اگلا ورژن بنائیں"
+    archive: "آرکائیو"
+    arrange: "ترتیب دیں"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'ٹول بار'
   page_icon: 'ph:bold/rows'
@@ -878,6 +1076,9 @@ ur:
       title: 'عنوان کے ساتھ ٹول بار'
     title_multi:
       title: 'عمل کے ساتھ سیکشن کا عنوان'
+    values:
+      title: "ایک قدر اور جو اس پر عمل کرے"
+      description: "بار میں جو قدر دکھائے وہ فیلڈ ہے، اسی طرح فریم میں جیسے اسکن فیلڈز کو فریم کرتی ہے — ایک ورژن، ایک مرحلہ —؛ جو اس قدر پر عمل کرے وہ اس کے فریم میں ہے، ایک ایکشن یا ایکشنز کا مینو؛ جو کچھ اور کرے وہ فلیٹ بٹن ہے۔ کردار کے مطابق دو شکلیں، بار کوئی بھی ہو۔"
     fields:
       title: 'بار میں فیلڈز'
       description: 'ایک ایڈیٹر کے اختیارات کی بار میں بٹنوں کے علاوہ کیا ہوتا ہے: ایک سائز، ایک موڈ، ایک ٹوگل، ایک انتخاب، ایک تلاش اور اس کا بٹن۔ ہر ایک بار کے کنٹرول کی اونچائی پر ہوتا ہے، لہذا ایک کمپیکٹ بار اپنی موٹائی برقرار رکھتا ہے؛ ایک فیلڈ اور اس کا عمل ایک ساتھ (فارم--ان لائن) بار کی جگہ لیتے ہیں۔'
@@ -908,6 +1109,13 @@ ur:
     share: 'شیئر کریں'
 
 vi:
+  value:
+    draft: "Bản nháp"
+    published: "Đã xuất bản"
+    actions: "Làm gì với phiên bản này"
+    next: "Tạo phiên bản tiếp theo"
+    archive: "Lưu trữ"
+    arrange: "Sắp xếp"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Thanh công cụ'
   page_icon: 'ph:bold/rows'
@@ -921,6 +1129,9 @@ vi:
       title: 'Thanh công cụ với tiêu đề'
     title_multi:
       title: 'Tiêu đề phần với các hành động'
+    values:
+      title: "Một giá trị và những gì tác động lên nó"
+      description: "Trên thanh, thứ hiển thị giá trị là một trường, có khung như skin đóng khung các trường — một phiên bản, một bước —; thứ tác động lên giá trị đó nằm trong khung của nó, một hành động hoặc một menu hành động; thứ làm việc khác là nút phẳng. Hai hình thức, chọn theo vai trò, dù là thanh nào."
     fields:
       title: 'Các trường trong thanh'
       description: 'Những gì mà thanh tùy chọn của một trình chỉnh sửa chứa đựng bên cạnh các nút: một kích thước, một chế độ, một công tắc, một lựa chọn, một tìm kiếm và nút của nó. Mỗi mục đứng ở độ cao của các điều khiển trong thanh, vì vậy một thanh gọn gàng giữ độ dày của nó; một trường và hành động của nó cùng nhau (form--inline) chiếm không gian mà thanh để lại.'
@@ -951,6 +1162,13 @@ vi:
     share: 'Chia sẻ'
 
 zh:
+  value:
+    draft: "草稿"
+    published: "已发布"
+    actions: "对此版本的操作"
+    next: "创建下一个版本"
+    archive: "归档"
+    arrange: "排列"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 工具栏
   page_icon: 'ph:bold/rows'
@@ -964,6 +1182,9 @@ zh:
       title: 带标题的工具栏
     title_multi:
       title: 带操作的节标题
+    values:
+      title: "一个值及作用于它的操作"
+      description: "在栏中，显示值的是字段，按皮肤为字段加框的方式加框——一个版本、一个步骤；作用于该值的操作放在其框内，一个操作或一个操作菜单；做其他事情的是扁平按钮。两种形态，按角色选择，与所在的栏无关。"
     fields:
       title: 选项栏中的字段
       description: 编辑器选项栏除了按钮外还包含什么：尺寸、模式、切换、选择、搜索及其按钮。每个控件与选项栏的高度保持一致，因此紧凑的选项栏保持其厚度；字段及其操作在一起（表单--内联）占据选项栏留出的空间。

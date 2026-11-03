@@ -62,6 +62,38 @@
         </section>
 
         <section>
+            <h2>{{ '@page::section.values.title' | trans }}</h2>
+            <div class="lead">{{ '@page::section.values.description' | trans }}</div>
+            {#- A value is a field, framed as fields are; what acts on it stands
+                in its frame — a menu of actions here —; what does something
+                else is a flat button. -#}
+            <div class="toolbar toolbar--shaded toolbar--compact">
+                <div class="toolbar--group">
+                    <div class="form--input-group toolbar-demo--value">
+                        <select class="form--input form--input--select" aria-label="{{ '@page::value.actions' | trans }}">
+                            <option>v1.2 · {{ '@page::value.draft' | trans }}</option>
+                            <option>v1.1 · {{ '@page::value.published' | trans }}</option>
+                        </select>
+                        {{ button_menu('ph:bold/dots-three-vertical', null, [
+                            { icon: 'ph:bold/git-branch', label: '@page::value.next' | trans, href: '#' },
+                            { icon: 'ph:bold/archive', label: '@page::value.archive' | trans, href: '#' },
+                        ], { menu_align: 'right', attr: { 'aria-label': '@page::value.actions' | trans, 'data-tooltip': '@page::value.actions' | trans } }) }}
+                    </div>
+                    <div class="form--input-group toolbar-demo--value">
+                        <select class="form--input form--input--select">
+                            <option>{{ '@page::field.mode_normal' | trans }}</option>
+                            <option>{{ '@page::field.mode_multiply' | trans }}</option>
+                        </select>
+                        <button type="button" class="form--input-action" aria-label="{{ '@page::value.next' | trans }}" title="{{ '@page::value.next' | trans }}">{{ icon('ph:bold/plus') }}</button>
+                    </div>
+                </div>
+                <div class="toolbar--group">
+                    {{ button('ph:bold/layout', '@page::value.arrange' | trans, { class: 'button--flat' }) }}
+                </div>
+            </div>
+        </section>
+
+        <section>
             <h2>{{ '@page::section.fields.title' | trans }}</h2>
             <div class="lead">{{ '@page::section.fields.description' | trans }}</div>
             <div class="toolbar toolbar--shaded toolbar--compact">
