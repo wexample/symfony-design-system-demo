@@ -815,3 +815,40 @@ zh:
       label: "图表"
     report:
       label: "报告"
+
+pt_BR:
+  page_title: "Escolhas"
+  intro: "Uma escolha entre opções mostradas por inteiro, cada uma com uma linha que diz mais: lidas antes de escolher, onde um select as esconderia. A escolhida fica marcada."
+  section:
+    server:
+      title: "Renderizado pelo servidor"
+      description: "Um clique escolhe; a lista avisa qual com choice-list:change. Uma opção pode estar indisponível."
+    filter:
+      title: "Muitas opções"
+      description: "A partir de filter_from opções, um campo as filtra pelas palavras."
+    vue:
+      title: "Vue"
+      description: "A mesma lista como componente, ligada com v-model."
+  chosen: "Escolhido: %value%"
+  option:
+    table:
+      label: "Tabela"
+      description: "Linhas e colunas, ordenadas como quiser."
+    board:
+      label: "Quadro"
+      description: "Cartões em colunas, uma por status."
+    calendar:
+      label: "Calendário"
+      description: "Cada item na sua data."
+    timeline:
+      label: "Linha do tempo"
+      description: "Uma linha por item, em ordem."
+    map:
+      label: "Mapa"
+      description: "Precisa de um local em cada item."
+    gallery:
+      label: "Galeria"
+    chart:
+      label: "Gráfico"
+    report:
+      label: "Relatório"

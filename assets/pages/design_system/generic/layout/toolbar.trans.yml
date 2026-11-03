@@ -854,6 +854,13 @@ pl:
     share: Udostępnij
 
 pt_BR:
+  value:
+    draft: "Rascunho"
+    published: "Publicada"
+    actions: "O que fazer com esta versão"
+    next: "Criar a próxima versão"
+    archive: "Arquivar"
+    arrange: "Organizar"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 'Barra de ferramentas'
   page_icon: 'ph:bold/rows'
@@ -867,6 +874,9 @@ pt_BR:
       title: 'Barra de ferramentas com título'
     title_multi:
       title: 'Título da seção com ações'
+    values:
+      title: "Um valor e o que age sobre ele"
+      description: "Numa barra, o que mostra um valor é um campo, emoldurado como o skin emoldura os campos — uma versão, um passo —; o que age sobre esse valor fica na sua moldura, uma ação ou um menu de ações; o que faz outra coisa é um botão plano. Duas formas, escolhidas pelo papel, seja qual for a barra."
     fields:
       title: 'Campos em uma barra'
       description: 'O que uma barra de opções de editor contém além de botões: um tamanho, um modo, um alternador, uma escolha, uma busca e seu botão. Cada um está na altura dos controles da barra, então uma barra compacta mantém sua espessura; um campo e sua ação juntos (formulário--inline) ocupam o espaço que a barra deixa.'

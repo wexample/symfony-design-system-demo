@@ -107,3 +107,8 @@ zh:
   page_title: "图标菜单"
   title: "只显示图标的菜单"
   body: "页面设置 menu_left_format: 'icons'。菜单只绘制图标，宽度和样式与工具栏相同：正在阅读的页面使用应用的颜色，如同打开的工具。每个条目的文字以提示显示，并保留给屏幕阅读器。页眉中没有可打开的内容。顶部是应用标志，来自 page_menu_logo_icon，否则为完整标志。"
+
+pt_BR:
+  page_title: "Menu de ícones"
+  title: "O menu apenas com os ícones"
+  body: "Uma página diz menu_left_format: 'icons'. O menu desenha apenas os ícones, da espessura da barra de ferramentas e desenhado como ela: a página lida na cor da aplicação, como uma ferramenta aberta. As palavras de cada entrada aparecem como dica e ficam para leitores de tela. O cabeçalho não tem nada para abrir. No topo, a marca da aplicação, de page_menu_logo_icon, ou o logo inteiro."
