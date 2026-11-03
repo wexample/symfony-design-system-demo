@@ -1,0 +1,13 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/inline-edit') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <inline-edit :form="form" field="title" :value="currentTitle" :label="label" @saved="onSaved">
+        <select v-model="current" class="form--input form--input--select" :aria-label="label">
+            <option v-for="item in items" :key="item.id" :value="item.id">[[ item.title ]]</option>
+        </select>
+    </inline-edit>
+{%- endblock -%}

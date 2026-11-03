@@ -6,6 +6,7 @@ en:
     rendered: Advanced forms
     ajax: Ajax forms
     vue: Vue forms
+    inline_edit: "Inline edit"
     code: Code
 
 ar:
@@ -16,6 +17,7 @@ ar:
     rendered: 'نماذج متقدمة'
     ajax: 'نماذج Ajax'
     vue: 'نماذج Vue'
+    inline_edit: "تعديل في المكان"
     code: الكود
 
 bn:
@@ -26,6 +28,7 @@ bn:
     rendered: 'উন্নত ফর্ম'
     ajax: 'এজাক্স ফর্ম'
     vue: 'ভিউ ফর্ম'
+    inline_edit: "জায়গায় সম্পাদনা"
     code: কোড
 
 de:
@@ -36,6 +39,7 @@ de:
     rendered: 'Erweiterte Formulare'
     ajax: Ajax-Formulare
     vue: Vue-Formulare
+    inline_edit: "Inline-Bearbeitung"
     code: Code
 
 es:
@@ -46,6 +50,7 @@ es:
     rendered: 'Formas avanzadas'
     ajax: 'Formas Ajax'
     vue: 'Formas Vue'
+    inline_edit: "Edición en línea"
     code: Código
 
 fa:
@@ -56,6 +61,7 @@ fa:
     rendered: 'فرم‌های پیشرفته'
     ajax: 'فرم‌های Ajax'
     vue: 'فرم‌های Vue'
+    inline_edit: "ویرایش درجا"
     code: کد
 
 fi:
@@ -66,6 +72,7 @@ fi:
     rendered: 'Kehittyneet lomakkeet'
     ajax: Ajax-lomakkeet
     vue: Vue-lomakkeet
+    inline_edit: "Muokkaus paikallaan"
     code: Koodi
 
 fr:
@@ -76,6 +83,7 @@ fr:
     rendered: 'Formulaires avancés'
     ajax: 'Formulaires Ajax'
     vue: 'Formulaires Vue'
+    inline_edit: "Édition en place"
     code: Code
 
 he:
@@ -86,6 +94,7 @@ he:
     rendered: 'טפסים מתקדמים'
     ajax: 'טפסי Ajax'
     vue: 'טפסי Vue'
+    inline_edit: "עריכה במקום"
     code: קוד
 
 hi:
@@ -96,6 +105,7 @@ hi:
     rendered: 'उन्नत फॉर्म'
     ajax: 'एजाक्स फॉर्म'
     vue: 'व्यू फॉर्म'
+    inline_edit: "जगह पर संपादन"
     code: कोड
 
 id:
@@ -106,6 +116,7 @@ id:
     rendered: 'Form lanjutan'
     ajax: 'Form Ajax'
     vue: 'Form Vue'
+    inline_edit: "Edit di tempat"
     code: Kode
 
 it:
@@ -116,6 +127,7 @@ it:
     rendered: 'Moduli avanzati'
     ajax: 'Moduli Ajax'
     vue: 'Moduli Vue'
+    inline_edit: "Modifica in linea"
     code: Codice
 
 ja:
@@ -126,6 +138,7 @@ ja:
     rendered: 高度なフォーム
     ajax: Ajaxフォーム
     vue: Vueフォーム
+    inline_edit: "その場で編集"
     code: コード
 
 ko:
@@ -136,6 +149,7 @@ ko:
     rendered: '고급 양식'
     ajax: 'Ajax 양식'
     vue: 'Vue 양식'
+    inline_edit: "제자리 편집"
     code: 코드
 
 nl:
@@ -146,6 +160,7 @@ nl:
     rendered: 'Geavanceerde formulieren'
     ajax: Ajax-formulieren
     vue: Vue-formulieren
+    inline_edit: "Inline bewerken"
     code: Code
 
 pl:
@@ -156,6 +171,7 @@ pl:
     rendered: 'Zaawansowane formularze'
     ajax: 'Formularze Ajax'
     vue: 'Formularze Vue'
+    inline_edit: "Edycja w miejscu"
     code: Kod
 
 pt_BR:
@@ -166,6 +182,7 @@ pt_BR:
     rendered: 'Formulários avançados'
     ajax: 'Formulários Ajax'
     vue: 'Formulários Vue'
+    inline_edit: "Edição no lugar"
     code: Código
 
 ru:
@@ -176,6 +193,7 @@ ru:
     rendered: 'Расширенные формы'
     ajax: 'Ajax формы'
     vue: 'Vue формы'
+    inline_edit: "Редактирование на месте"
     code: Код
 
 th:
@@ -186,6 +204,7 @@ th:
     rendered: ฟอร์มขั้นสูง
     ajax: 'ฟอร์ม Ajax'
     vue: 'ฟอร์ม Vue'
+    inline_edit: "แก้ไขในที่"
     code: โค้ด
 
 tr:
@@ -196,6 +215,7 @@ tr:
     rendered: 'Gelişmiş formlar'
     ajax: 'Ajax formlar'
     vue: 'Vue formlar'
+    inline_edit: "Yerinde düzenleme"
     code: Kod
 
 ur:
@@ -206,6 +226,7 @@ ur:
     rendered: 'جدید فارم'
     ajax: 'ایجیکس فارم'
     vue: 'ویو فارم'
+    inline_edit: "موقع پر ترمیم"
     code: کوڈ
 
 vi:
@@ -216,6 +237,7 @@ vi:
     rendered: 'Biểu mẫu nâng cao'
     ajax: 'Biểu mẫu Ajax'
     vue: 'Biểu mẫu Vue'
+    inline_edit: "Sửa tại chỗ"
     code: Mã
 
 zh:
@@ -226,4 +248,5 @@ zh:
     rendered: 高级表单
     ajax: 'Ajax 表单'
     vue: 'Vue 表单'
+    inline_edit: "就地编辑"
     code: 代码

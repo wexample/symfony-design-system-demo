@@ -12,6 +12,7 @@ use Wexample\SymfonyDesignSystemDemo\Class\Demo\GateDemoInvoiceCreation;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
 use Wexample\SymfonyDesignSystemDemo\Service\Demo\GateDemoOrganizationStore;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormGateOrganizationDemoFormProcessor;
+use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormInlineEditDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormPageAnswerDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormSubmitBehaviorAjaxDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormSubmitBehaviorDemoFormProcessor;
@@ -98,6 +99,18 @@ final class FormController extends AbstractDesignSystemGenericController
             ]),
             default => new JsonResponse(['type' => 'success']),
         };
+    }
+
+    /**
+     * A title edited in place: the form handed to a vue rather than drawn,
+     * sent to its processor in the background.
+     */
+    #[Route(name: 'inline_edit', path: 'inline-edit')]
+    public function inlineEdit(FormInlineEditDemoFormProcessor $processor): Response
+    {
+        return $this->renderPage('inline_edit', [
+            'form_inline_edit_demo' => $processor->createForm(['title' => 'Quarterly report']),
+        ]);
     }
 
     #[Route(name: 'ajax', path: 'ajax')]

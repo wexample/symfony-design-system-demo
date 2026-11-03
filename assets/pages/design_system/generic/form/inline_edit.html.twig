@@ -1,0 +1,20 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.title.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.title.description' | trans }}</div>
+    {#- The form is never drawn: handed to the vue, sent to its processor. -#}
+    <div class="block block--padded inline-edit-demo">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/inline-edit', {
+            form: form_props(form_inline_edit_demo),
+            field: 'title',
+            label: '@page::label' | trans,
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-inline-edit', {
+            form: form_props(form_inline_edit_demo),
+            label: '@page::label' | trans,
+        }) }}
+    </div>
+{%- endblock -%}

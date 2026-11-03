@@ -1,0 +1,206 @@
+en:
+  field:
+    title:
+      label: "Title"
+      error:
+        taken: "This title is already taken."
+  success:
+    message: "Saved."
+
+ar:
+  field:
+    title:
+      label: "العنوان"
+      error:
+        taken: "هذا العنوان مستخدم بالفعل."
+  success:
+    message: "تم الحفظ."
+
+bn:
+  field:
+    title:
+      label: "শিরোনাম"
+      error:
+        taken: "এই শিরোনামটি ইতিমধ্যে ব্যবহৃত।"
+  success:
+    message: "সংরক্ষিত।"
+
+de:
+  field:
+    title:
+      label: "Titel"
+      error:
+        taken: "Dieser Titel ist bereits vergeben."
+  success:
+    message: "Gespeichert."
+
+es:
+  field:
+    title:
+      label: "Título"
+      error:
+        taken: "Este título ya está en uso."
+  success:
+    message: "Guardado."
+
+fa:
+  field:
+    title:
+      label: "عنوان"
+      error:
+        taken: "این عنوان قبلاً استفاده شده است."
+  success:
+    message: "ذخیره شد."
+
+fi:
+  field:
+    title:
+      label: "Otsikko"
+      error:
+        taken: "Tämä otsikko on jo käytössä."
+  success:
+    message: "Tallennettu."
+
+fr:
+  field:
+    title:
+      label: "Titre"
+      error:
+        taken: "Ce titre est déjà pris."
+  success:
+    message: "Enregistré."
+
+he:
+  field:
+    title:
+      label: "כותרת"
+      error:
+        taken: "הכותרת הזו כבר בשימוש."
+  success:
+    message: "נשמר."
+
+hi:
+  field:
+    title:
+      label: "शीर्षक"
+      error:
+        taken: "यह शीर्षक पहले से उपयोग में है।"
+  success:
+    message: "सहेजा गया।"
+
+id:
+  field:
+    title:
+      label: "Judul"
+      error:
+        taken: "Judul ini sudah dipakai."
+  success:
+    message: "Tersimpan."
+
+it:
+  field:
+    title:
+      label: "Titolo"
+      error:
+        taken: "Questo titolo è già in uso."
+  success:
+    message: "Salvato."
+
+ja:
+  field:
+    title:
+      label: "タイトル"
+      error:
+        taken: "このタイトルは既に使われています。"
+  success:
+    message: "保存しました。"
+
+ko:
+  field:
+    title:
+      label: "제목"
+      error:
+        taken: "이미 사용 중인 제목입니다."
+  success:
+    message: "저장되었습니다."
+
+nl:
+  field:
+    title:
+      label: "Titel"
+      error:
+        taken: "Deze titel is al in gebruik."
+  success:
+    message: "Opgeslagen."
+
+pl:
+  field:
+    title:
+      label: "Tytuł"
+      error:
+        taken: "Ten tytuł jest już zajęty."
+  success:
+    message: "Zapisano."
+
+pt_BR:
+  field:
+    title:
+      label: "Título"
+      error:
+        taken: "Este título já está em uso."
+  success:
+    message: "Salvo."
+
+ru:
+  field:
+    title:
+      label: "Заголовок"
+      error:
+        taken: "Этот заголовок уже занят."
+  success:
+    message: "Сохранено."
+
+th:
+  field:
+    title:
+      label: "ชื่อเรื่อง"
+      error:
+        taken: "ชื่อเรื่องนี้ถูกใช้แล้ว"
+  success:
+    message: "บันทึกแล้ว"
+
+tr:
+  field:
+    title:
+      label: "Başlık"
+      error:
+        taken: "Bu başlık zaten kullanılıyor."
+  success:
+    message: "Kaydedildi."
+
+ur:
+  field:
+    title:
+      label: "عنوان"
+      error:
+        taken: "یہ عنوان پہلے سے استعمال میں ہے۔"
+  success:
+    message: "محفوظ ہو گیا۔"
+
+vi:
+  field:
+    title:
+      label: "Tiêu đề"
+      error:
+        taken: "Tiêu đề này đã được dùng."
+  success:
+    message: "Đã lưu."
+
+zh:
+  field:
+    title:
+      label: "标题"
+      error:
+        taken: "此标题已被使用。"
+  success:
+    message: "已保存。"

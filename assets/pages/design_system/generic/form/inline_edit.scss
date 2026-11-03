@@ -1,0 +1,12 @@
+@use './layout/layout-form';
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/form/select';
+@use '@wexample/symfony-design-system/components/form/inline-edit/inline-edit';
+
+// At the width such a field takes in a bar, one under the other.
+.inline-edit-demo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-width: 22rem;
+}
