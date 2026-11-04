@@ -42,6 +42,8 @@ export default {
       switchValue: false,
       behavior: 'default',
       submitEndpoint: this.submitUrl,
+      // A route of the page, not of the api.
+      submitThroughApi: false,
       formSubmitted: false,
     };
   },
