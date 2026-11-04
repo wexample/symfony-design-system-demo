@@ -1,0 +1,255 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: "From the server"
+  page_icon: ph:bold/cloud-arrow-down
+  intro: "A form of the server drawn by the design system rather than by its template: the Symfony form is handed to the vue (form_props) as the json-schema norm describes a form — its fields each of a kind, where it is sent —, props-form draws each field by its kind, and the processor validates, saves and answers as the norm says. The same description written by an agent, or kept in a database, would draw the same."
+  section:
+    form:
+      title: "Every kind of field"
+      description: "A text, several lines, an e-mail address, a telephone number, a web address, a password, a choice. Send « refuse » as the title: the processor refuses every field and the form as a whole, each error at its place."
+    norm:
+      title: "What the vue was handed"
+      description: "The form as form_props hands it — checked against the norm's form.json before it leaves the server."
+
+ar:
+  page_title: "من الخادم"
+  intro: "نموذج من الخادم يرسمه نظام التصميم بدل قالبه: يُسلَّم نموذج Symfony إلى vue (form_props) كما يصف معيار json-schema النموذج — كل حقل من نوع، وإلى أين يُرسل —، ويرسم props-form كل حقل حسب نوعه، ويتحقق المعالج ويحفظ ويجيب كما يقول المعيار. الوصف نفسه مكتوبًا بيد وكيل أو محفوظًا في قاعدة بيانات يرسم الشيء نفسه."
+  section:
+    form:
+      title: "كل نوع من الحقول"
+      description: "نص، عدة أسطر، عنوان بريد، رقم هاتف، عنوان ويب، كلمة مرور، اختيار. أرسل « refuse » عنوانًا: يرفض المعالج كل حقل والنموذج كله، وكل خطأ في مكانه."
+    norm:
+      title: "ما تسلّمه vue"
+      description: "النموذج كما يسلّمه form_props — مُتحقَّق منه مقابل form.json في المعيار قبل مغادرة الخادم."
+
+bn:
+  page_title: "সার্ভার থেকে"
+  intro: "সার্ভারের একটি ফর্ম যা তার টেমপ্লেটের বদলে ডিজাইন সিস্টেম আঁকে: Symfony ফর্মটি vue-কে দেওয়া হয় (form_props) যেভাবে json-schema মানদণ্ড একটি ফর্ম বর্ণনা করে — প্রতিটি ফিল্ড এক ধরনের, কোথায় পাঠানো হয় —, props-form প্রতিটি ফিল্ড তার ধরন অনুযায়ী আঁকে, আর প্রসেসর মানদণ্ড অনুযায়ী যাচাই করে, সংরক্ষণ করে ও উত্তর দেয়। কোনো এজেন্টের লেখা বা ডাটাবেসে রাখা একই বর্ণনা একই জিনিস আঁকবে।"
+  section:
+    form:
+      title: "প্রতিটি ধরনের ফিল্ড"
+      description: "একটি লেখা, কয়েক লাইন, একটি ই-মেইল ঠিকানা, একটি ফোন নম্বর, একটি ওয়েব ঠিকানা, একটি পাসওয়ার্ড, একটি পছন্দ। শিরোনাম হিসেবে « refuse » পাঠান: প্রসেসর প্রতিটি ফিল্ড ও পুরো ফর্ম প্রত্যাখ্যান করে, প্রতিটি ত্রুটি তার জায়গায়।"
+    norm:
+      title: "vue যা পেয়েছে"
+      description: "form_props যেভাবে ফর্মটি দেয় — সার্ভার ছাড়ার আগে মানদণ্ডের form.json দিয়ে যাচাই করা।"
+
+de:
+  page_title: "Vom Server"
+  intro: "Ein Formular des Servers, vom Design-System statt von seinem Template gezeichnet: das Symfony-Formular wird der Vue übergeben (form_props), wie die json-schema-Norm ein Formular beschreibt — jedes Feld von einer Art, wohin es gesendet wird —, props-form zeichnet jedes Feld nach seiner Art, und der Prozessor prüft, speichert und antwortet, wie die Norm es sagt. Dieselbe Beschreibung, von einem Agenten geschrieben oder in einer Datenbank gehalten, würde dasselbe zeichnen."
+  section:
+    form:
+      title: "Jede Art von Feld"
+      description: "Ein Text, mehrere Zeilen, eine E-Mail-Adresse, eine Telefonnummer, eine Webadresse, ein Passwort, eine Auswahl. Sende « refuse » als Titel: der Prozessor weist jedes Feld und das ganze Formular zurück, jeder Fehler an seinem Platz."
+    norm:
+      title: "Was die Vue erhielt"
+      description: "Das Formular, wie form_props es übergibt — gegen die form.json der Norm geprüft, bevor es den Server verlässt."
+
+es:
+  page_title: "Desde el servidor"
+  intro: "Un formulario del servidor dibujado por el design system en lugar de por su plantilla: el formulario Symfony se entrega a la vue (form_props) tal como la norma json-schema describe un formulario — sus campos cada uno de un tipo, adónde se envía —, props-form dibuja cada campo según su tipo, y el procesador valida, guarda y responde como dice la norma. La misma descripción escrita por un agente, o guardada en una base de datos, dibujaría lo mismo."
+  section:
+    form:
+      title: "Cada tipo de campo"
+      description: "Un texto, varias líneas, una dirección de correo, un número de teléfono, una dirección web, una contraseña, una elección. Envía « refuse » como título: el procesador rechaza cada campo y el formulario entero, cada error en su lugar."
+    norm:
+      title: "Lo que recibió la vue"
+      description: "El formulario tal como lo entrega form_props — comprobado contra el form.json de la norma antes de salir del servidor."
+
+fa:
+  page_title: "از سرور"
+  intro: "فرمی از سرور که سیستم طراحی به جای قالبش آن را می‌کشد: فرم Symfony همان‌طور که معیار json-schema یک فرم را توصیف می‌کند به vue داده می‌شود (form_props) — هر فیلد از یک نوع، به کجا فرستاده می‌شود —، props-form هر فیلد را بنا به نوعش می‌کشد و پردازشگر همان‌طور که معیار می‌گوید اعتبارسنجی، ذخیره و پاسخ می‌دهد. همین توصیف نوشته‌ی یک عامل یا نگه‌داشته در پایگاه داده همان را می‌کشد."
+  section:
+    form:
+      title: "هر نوع فیلد"
+      description: "یک متن، چند خط، یک نشانی ایمیل، یک شماره تلفن، یک نشانی وب، یک گذرواژه، یک انتخاب. « refuse » را به‌عنوان عنوان بفرستید: پردازشگر هر فیلد و کل فرم را رد می‌کند، هر خطا در جای خودش."
+    norm:
+      title: "آنچه vue دریافت کرد"
+      description: "فرم همان‌طور که form_props می‌دهد — پیش از ترک سرور با form.json معیار بررسی شده."
+
+fi:
+  page_title: "Palvelimelta"
+  intro: "Palvelimen lomake, jonka design system piirtää sen mallin sijaan: Symfony-lomake annetaan vuelle (form_props) niin kuin json-schema-normi kuvaa lomakkeen — jokainen kenttä lajiaan, minne se lähetetään —, props-form piirtää jokaisen kentän lajinsa mukaan, ja käsittelijä tarkistaa, tallentaa ja vastaa niin kuin normi sanoo. Sama kuvaus agentin kirjoittamana tai tietokannassa pidettynä piirtäisi saman."
+  section:
+    form:
+      title: "Jokainen kentän laji"
+      description: "Teksti, useita rivejä, sähköpostiosoite, puhelinnumero, verkko-osoite, salasana, valinta. Lähetä « refuse » otsikkona: käsittelijä hylkää jokaisen kentän ja koko lomakkeen, jokainen virhe paikallaan."
+    norm:
+      title: "Mitä vue sai"
+      description: "Lomake sellaisena kuin form_props sen antaa — tarkistettu normin form.json:ia vasten ennen palvelimelta lähtöä."
+
+fr:
+  page_title: "Depuis le serveur"
+  intro: "Un formulaire du serveur dessiné par le design system plutôt que par son template : le formulaire Symfony est remis à la vue (form_props) tel que la norme json-schema décrit un formulaire — ses champs chacun d'un genre, où il est envoyé —, props-form dessine chaque champ selon son genre, et le processeur valide, enregistre et répond comme la norme le dit. La même description écrite par un agent, ou gardée en base, dessinerait la même chose."
+  section:
+    form:
+      title: "Chaque genre de champ"
+      description: "Un texte, plusieurs lignes, une adresse e-mail, un numéro de téléphone, une adresse web, un mot de passe, un choix. Envoyez « refuse » comme titre : le processeur refuse chaque champ et le formulaire entier, chaque erreur à sa place."
+    norm:
+      title: "Ce que la vue a reçu"
+      description: "Le formulaire tel que form_props le remet — vérifié contre le form.json de la norme avant de quitter le serveur."
+
+he:
+  page_title: "מהשרת"
+  intro: "טופס של השרת שמערכת העיצוב מציירת במקום התבנית שלו: טופס Symfony נמסר ל-vue (form_props) כפי שהתקן json-schema מתאר טופס — כל שדה מסוג, לאן הוא נשלח —, props-form מצייר כל שדה לפי סוגו, והמעבד מאמת, שומר ועונה כפי שהתקן אומר. אותו תיאור שנכתב על ידי סוכן, או נשמר במסד נתונים, יצייר אותו הדבר."
+  section:
+    form:
+      title: "כל סוג של שדה"
+      description: "טקסט, כמה שורות, כתובת דוא״ל, מספר טלפון, כתובת אתר, סיסמה, בחירה. שלחו « refuse » ככותרת: המעבד דוחה כל שדה ואת הטופס כולו, כל שגיאה במקומה."
+    norm:
+      title: "מה ש-vue קיבל"
+      description: "הטופס כפי ש-form_props מוסר אותו — נבדק מול form.json של התקן לפני שעזב את השרת."
+
+hi:
+  page_title: "सर्वर से"
+  intro: "सर्वर का एक फ़ॉर्म जिसे उसके टेम्पलेट के बजाय डिज़ाइन सिस्टम बनाता है: Symfony फ़ॉर्म को vue को सौंपा जाता है (form_props) जैसे json-schema मानक एक फ़ॉर्म का वर्णन करता है — हर फ़ील्ड एक प्रकार की, कहाँ भेजा जाता है —, props-form हर फ़ील्ड को उसके प्रकार से बनाता है, और प्रोसेसर मानक के अनुसार जाँचता, सहेजता और उत्तर देता है। किसी एजेंट द्वारा लिखा या डेटाबेस में रखा वही वर्णन वही बनाएगा।"
+  section:
+    form:
+      title: "हर प्रकार की फ़ील्ड"
+      description: "एक पाठ, कई पंक्तियाँ, एक ई-मेल पता, एक फ़ोन नंबर, एक वेब पता, एक पासवर्ड, एक चयन। शीर्षक के रूप में « refuse » भेजें: प्रोसेसर हर फ़ील्ड और पूरे फ़ॉर्म को अस्वीकार करता है, हर त्रुटि अपनी जगह पर।"
+    norm:
+      title: "vue को जो मिला"
+      description: "फ़ॉर्म जैसा form_props सौंपता है — सर्वर छोड़ने से पहले मानक के form.json से जाँचा हुआ।"
+
+id:
+  page_title: "Dari server"
+  intro: "Formulir dari server yang digambar oleh design system alih-alih oleh templatnya: formulir Symfony diserahkan ke vue (form_props) seperti norma json-schema menggambarkan sebuah formulir — setiap bidang dari satu jenis, ke mana ia dikirim —, props-form menggambar setiap bidang menurut jenisnya, dan prosesor memvalidasi, menyimpan, dan menjawab seperti kata norma. Deskripsi yang sama yang ditulis agen, atau disimpan di basis data, akan menggambar hal yang sama."
+  section:
+    form:
+      title: "Setiap jenis bidang"
+      description: "Teks, beberapa baris, alamat e-mail, nomor telepon, alamat web, kata sandi, pilihan. Kirim « refuse » sebagai judul: prosesor menolak setiap bidang dan seluruh formulir, setiap kesalahan di tempatnya."
+    norm:
+      title: "Yang diterima vue"
+      description: "Formulir seperti yang diserahkan form_props — diperiksa terhadap form.json norma sebelum meninggalkan server."
+
+it:
+  page_title: "Dal server"
+  intro: "Un modulo del server disegnato dal design system invece che dal suo template: il modulo Symfony è consegnato alla vue (form_props) come la norma json-schema descrive un modulo — i suoi campi ciascuno di un tipo, dove è inviato —, props-form disegna ogni campo secondo il suo tipo, e il processore valida, salva e risponde come dice la norma. La stessa descrizione scritta da un agente, o tenuta in un database, disegnerebbe lo stesso."
+  section:
+    form:
+      title: "Ogni tipo di campo"
+      description: "Un testo, più righe, un indirizzo e-mail, un numero di telefono, un indirizzo web, una password, una scelta. Invia « refuse » come titolo: il processore rifiuta ogni campo e il modulo intero, ogni errore al suo posto."
+    norm:
+      title: "Ciò che la vue ha ricevuto"
+      description: "Il modulo come form_props lo consegna — verificato contro il form.json della norma prima di lasciare il server."
+
+ja:
+  page_title: "サーバーから"
+  intro: "テンプレートではなくデザインシステムが描くサーバーのフォーム：Symfony のフォームは json-schema の規範がフォームを記述するとおりに vue に渡され（form_props）— 各フィールドはそれぞれの種類、送信先 —、props-form が各フィールドをその種類で描き、プロセッサーが規範のとおりに検証し、保存し、応答します。エージェントが書いた、あるいはデータベースに保持された同じ記述は、同じものを描きます。"
+  section:
+    form:
+      title: "あらゆる種類のフィールド"
+      description: "テキスト、複数行、メールアドレス、電話番号、ウェブアドレス、パスワード、選択。タイトルに « refuse » を送ると、プロセッサーはすべてのフィールドとフォーム全体を拒否し、各エラーがその場所に表示されます。"
+    norm:
+      title: "vue が受け取ったもの"
+      description: "form_props が渡すままのフォム — サーバーを出る前に規範の form.json で検証されています。"
+
+ko:
+  page_title: "서버에서"
+  intro: "템플릿이 아니라 디자인 시스템이 그리는 서버의 폼: Symfony 폼은 json-schema 규범이 폼을 기술하는 대로 vue에 전달되고(form_props) — 각 필드는 하나의 종류, 어디로 보내는지 —, props-form이 각 필드를 종류에 따라 그리며, 프로세서는 규범이 말하는 대로 검증하고 저장하고 응답합니다. 에이전트가 쓰거나 데이터베이스에 보관된 같은 기술은 같은 것을 그립니다."
+  section:
+    form:
+      title: "모든 종류의 필드"
+      description: "텍스트, 여러 줄, 이메일 주소, 전화번호, 웹 주소, 비밀번호, 선택. 제목으로 « refuse »를 보내면 프로세서가 모든 필드와 폼 전체를 거부하고, 각 오류가 제자리에 표시됩니다."
+    norm:
+      title: "vue가 받은 것"
+      description: "form_props가 전달하는 그대로의 폼 — 서버를 떠나기 전에 규범의 form.json으로 검사됩니다."
+
+nl:
+  page_title: "Van de server"
+  intro: "Een formulier van de server, getekend door het design system in plaats van door zijn template: het Symfony-formulier wordt aan de vue overhandigd (form_props) zoals de json-schema-norm een formulier beschrijft — elk veld van een soort, waarheen het wordt gestuurd —, props-form tekent elk veld naar zijn soort, en de processor valideert, bewaart en antwoordt zoals de norm zegt. Dezelfde beschrijving, door een agent geschreven of in een database bewaard, zou hetzelfde tekenen."
+  section:
+    form:
+      title: "Elke soort veld"
+      description: "Een tekst, meerdere regels, een e-mailadres, een telefoonnummer, een webadres, een wachtwoord, een keuze. Stuur « refuse » als titel: de processor weigert elk veld en het hele formulier, elke fout op zijn plaats."
+    norm:
+      title: "Wat de vue kreeg"
+      description: "Het formulier zoals form_props het overhandigt — gecontroleerd tegen de form.json van de norm voordat het de server verlaat."
+
+pl:
+  page_title: "Z serwera"
+  intro: "Formularz serwera rysowany przez design system zamiast przez jego szablon: formularz Symfony jest przekazywany do vue (form_props) tak, jak norma json-schema opisuje formularz — każde pole pewnego rodzaju, dokąd jest wysyłany —, props-form rysuje każde pole według rodzaju, a procesor waliduje, zapisuje i odpowiada tak, jak mówi norma. Ten sam opis napisany przez agenta lub trzymany w bazie narysowałby to samo."
+  section:
+    form:
+      title: "Każdy rodzaj pola"
+      description: "Tekst, kilka wierszy, adres e-mail, numer telefonu, adres www, hasło, wybór. Wyślij « refuse » jako tytuł: procesor odrzuca każde pole i cały formularz, każdy błąd na swoim miejscu."
+    norm:
+      title: "Co otrzymało vue"
+      description: "Formularz tak, jak przekazuje go form_props — sprawdzony z form.json normy, zanim opuści serwer."
+
+pt_BR:
+  page_title: "Do servidor"
+  intro: "Um formulário do servidor desenhado pelo design system em vez de pelo seu template: o formulário Symfony é entregue à vue (form_props) como a norma json-schema descreve um formulário — seus campos cada um de um tipo, para onde é enviado —, props-form desenha cada campo pelo seu tipo, e o processador valida, salva e responde como a norma diz. A mesma descrição escrita por um agente, ou guardada em um banco de dados, desenharia o mesmo."
+  section:
+    form:
+      title: "Cada tipo de campo"
+      description: "Um texto, várias linhas, um endereço de e-mail, um número de telefone, um endereço web, uma senha, uma escolha. Envie « refuse » como título: o processador recusa cada campo e o formulário inteiro, cada erro em seu lugar."
+    norm:
+      title: "O que a vue recebeu"
+      description: "O formulário como form_props o entrega — verificado contra o form.json da norma antes de sair do servidor."
+
+ru:
+  page_title: "С сервера"
+  intro: "Форма сервера, нарисованная дизайн-системой, а не её шаблоном: форма Symfony передаётся vue (form_props) так, как норма json-schema описывает форму — каждое поле своего вида, куда она отправляется —, props-form рисует каждое поле по его виду, а обработчик проверяет, сохраняет и отвечает так, как говорит норма. То же описание, написанное агентом или хранимое в базе, нарисовало бы то же самое."
+  section:
+    form:
+      title: "Каждый вид поля"
+      description: "Текст, несколько строк, адрес почты, номер телефона, веб-адрес, пароль, выбор. Отправьте « refuse » как заголовок: обработчик отклонит каждое поле и форму целиком, каждая ошибка на своём месте."
+    norm:
+      title: "Что получила vue"
+      description: "Форма, как её передаёт form_props — проверена по form.json нормы до того, как покинуть сервер."
+
+th:
+  page_title: "จากเซิร์ฟเวอร์"
+  intro: "ฟอร์มของเซิร์ฟเวอร์ที่วาดโดยระบบออกแบบแทนที่จะเป็นเทมเพลตของมัน: ฟอร์ม Symfony ถูกส่งให้ vue (form_props) ตามที่บรรทัดฐาน json-schema อธิบายฟอร์ม — แต่ละช่องมีชนิดของมัน ส่งไปที่ใด — props-form วาดแต่ละช่องตามชนิด และตัวประมวลผลตรวจสอบ บันทึก และตอบตามที่บรรทัดฐานกำหนด คำอธิบายเดียวกันที่เขียนโดยเอเจนต์ หรือเก็บในฐานข้อมูล จะวาดออกมาเหมือนกัน"
+  section:
+    form:
+      title: "ช่องทุกชนิด"
+      description: "ข้อความ หลายบรรทัด ที่อยู่อีเมล หมายเลขโทรศัพท์ ที่อยู่เว็บ รหัสผ่าน ตัวเลือก ส่ง « refuse » เป็นชื่อเรื่อง: ตัวประมวลผลจะปฏิเสธทุกช่องและทั้งฟอร์ม แต่ละข้อผิดพลาดอยู่ที่ของมัน"
+    norm:
+      title: "สิ่งที่ vue ได้รับ"
+      description: "ฟอร์มตามที่ form_props ส่งให้ — ตรวจสอบกับ form.json ของบรรทัดฐานก่อนออกจากเซิร์ฟเวอร์"
+
+tr:
+  page_title: "Sunucudan"
+  intro: "Sunucunun bir formu, şablonu yerine tasarım sistemi tarafından çizilir: Symfony formu, json-schema normunun bir formu tanımladığı gibi vue'ya verilir (form_props) — her alan bir türden, nereye gönderildiği —, props-form her alanı türüne göre çizer ve işlemci normun dediği gibi doğrular, kaydeder ve yanıtlar. Bir ajan tarafından yazılan ya da veritabanında tutulan aynı tanım aynı şeyi çizerdi."
+  section:
+    form:
+      title: "Her tür alan"
+      description: "Bir metin, birkaç satır, bir e-posta adresi, bir telefon numarası, bir web adresi, bir parola, bir seçim. Başlık olarak « refuse » gönderin: işlemci her alanı ve formun tamamını reddeder, her hata yerinde."
+    norm:
+      title: "Vue'nun aldığı"
+      description: "form_props'un verdiği haliyle form — sunucudan çıkmadan önce normun form.json'una göre denetlenir."
+
+ur:
+  page_title: "سرور سے"
+  intro: "سرور کا ایک فارم جسے اس کے ٹیمپلیٹ کے بجائے ڈیزائن سسٹم بناتا ہے: Symfony فارم vue کو سونپا جاتا ہے (form_props) جیسے json-schema معیار ایک فارم بیان کرتا ہے — ہر فیلڈ ایک قسم کا، کہاں بھیجا جاتا ہے —، props-form ہر فیلڈ کو اس کی قسم کے مطابق بناتا ہے، اور پروسیسر معیار کے مطابق جانچتا، محفوظ کرتا اور جواب دیتا ہے۔ کسی ایجنٹ کا لکھا یا ڈیٹابیس میں رکھا وہی بیان وہی بنائے گا۔"
+  section:
+    form:
+      title: "ہر قسم کی فیلڈ"
+      description: "ایک متن، کئی سطریں، ایک ای میل پتہ، ایک فون نمبر، ایک ویب پتہ، ایک پاس ورڈ، ایک انتخاب۔ عنوان کے طور پر « refuse » بھیجیں: پروسیسر ہر فیلڈ اور پورے فارم کو مسترد کرتا ہے، ہر خرابی اپنی جگہ پر۔"
+    norm:
+      title: "vue کو جو ملا"
+      description: "فارم جیسا form_props سونپتا ہے — سرور چھوڑنے سے پہلے معیار کے form.json سے جانچا ہوا۔"
+
+vi:
+  page_title: "Từ máy chủ"
+  intro: "Một biểu mẫu của máy chủ được design system vẽ thay vì mẫu của nó: biểu mẫu Symfony được giao cho vue (form_props) như chuẩn json-schema mô tả một biểu mẫu — mỗi trường một loại, gửi đi đâu —, props-form vẽ từng trường theo loại, và bộ xử lý kiểm tra, lưu và trả lời như chuẩn nói. Cùng mô tả đó do một tác nhân viết, hay lưu trong cơ sở dữ liệu, sẽ vẽ ra điều tương tự."
+  section:
+    form:
+      title: "Mọi loại trường"
+      description: "Một văn bản, nhiều dòng, một địa chỉ e-mail, một số điện thoại, một địa chỉ web, một mật khẩu, một lựa chọn. Gửi « refuse » làm tiêu đề: bộ xử lý từ chối mọi trường và cả biểu mẫu, mỗi lỗi ở đúng chỗ."
+    norm:
+      title: "Những gì vue nhận được"
+      description: "Biểu mẫu như form_props giao — được kiểm tra với form.json của chuẩn trước khi rời máy chủ."
+
+zh:
+  page_title: "来自服务器"
+  intro: "由设计系统而非其模板绘制的服务器表单：Symfony 表单按 json-schema 规范描述表单的方式交给 vue（form_props）——每个字段各属一种类型、发送到何处——props-form 按类型绘制每个字段，处理器按规范校验、保存并应答。由代理编写或存于数据库的同一描述，会绘制出同样的结果。"
+  section:
+    form:
+      title: "每一种字段"
+      description: "文本、多行、电子邮件地址、电话号码、网址、密码、选择。把 « refuse » 作为标题发送：处理器会拒绝每个字段和整个表单，每个错误各归其位。"
+    norm:
+      title: "vue 收到的内容"
+      description: "form_props 交出的表单——离开服务器前已按规范的 form.json 校验。"

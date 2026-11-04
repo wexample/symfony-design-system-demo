@@ -1,0 +1,23 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/form/layout/layout-form.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.form.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.form.description' | trans }}</div>
+    {#- The form is never drawn: handed to the vue as the norm describes it,
+        sent to its processor. -#}
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/props-form', {
+            form: form_props(form_from_server_demo),
+        }) }}
+    </div>
+
+    <h2>{{ '@page::section.norm.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.norm.description' | trans }}</div>
+    {#- What the vue was handed, as it was handed. -#}
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/code-block', {
+        lang: 'json',
+        code: form_props(form_from_server_demo)|json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')),
+    }) }}
+{%- endblock -%}

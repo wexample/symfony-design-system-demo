@@ -7,6 +7,7 @@ en:
     ajax: Ajax forms
     vue: Vue forms
     inline_edit: "Inline edit"
+    from_server: "From the server"
     code: Code
 
 ar:
@@ -18,6 +19,7 @@ ar:
     ajax: 'نماذج Ajax'
     vue: 'نماذج Vue'
     inline_edit: "تعديل في المكان"
+    from_server: "من الخادم"
     code: الكود
 
 bn:
@@ -29,6 +31,7 @@ bn:
     ajax: 'এজাক্স ফর্ম'
     vue: 'ভিউ ফর্ম'
     inline_edit: "জায়গায় সম্পাদনা"
+    from_server: "সার্ভার থেকে"
     code: কোড
 
 de:
@@ -40,6 +43,7 @@ de:
     ajax: Ajax-Formulare
     vue: Vue-Formulare
     inline_edit: "Inline-Bearbeitung"
+    from_server: "Vom Server"
     code: Code
 
 es:
@@ -51,6 +55,7 @@ es:
     ajax: 'Formas Ajax'
     vue: 'Formas Vue'
     inline_edit: "Edición en línea"
+    from_server: "Desde el servidor"
     code: Código
 
 fa:
@@ -62,6 +67,7 @@ fa:
     ajax: 'فرم‌های Ajax'
     vue: 'فرم‌های Vue'
     inline_edit: "ویرایش درجا"
+    from_server: "از سرور"
     code: کد
 
 fi:
@@ -73,6 +79,7 @@ fi:
     ajax: Ajax-lomakkeet
     vue: Vue-lomakkeet
     inline_edit: "Muokkaus paikallaan"
+    from_server: "Palvelimelta"
     code: Koodi
 
 fr:
@@ -84,6 +91,7 @@ fr:
     ajax: 'Formulaires Ajax'
     vue: 'Formulaires Vue'
     inline_edit: "Édition en place"
+    from_server: "Depuis le serveur"
     code: Code
 
 he:
@@ -95,6 +103,7 @@ he:
     ajax: 'טפסי Ajax'
     vue: 'טפסי Vue'
     inline_edit: "עריכה במקום"
+    from_server: "מהשרת"
     code: קוד
 
 hi:
@@ -106,6 +115,7 @@ hi:
     ajax: 'एजाक्स फॉर्म'
     vue: 'व्यू फॉर्म'
     inline_edit: "जगह पर संपादन"
+    from_server: "सर्वर से"
     code: कोड
 
 id:
@@ -117,6 +127,7 @@ id:
     ajax: 'Form Ajax'
     vue: 'Form Vue'
     inline_edit: "Edit di tempat"
+    from_server: "Dari server"
     code: Kode
 
 it:
@@ -128,6 +139,7 @@ it:
     ajax: 'Moduli Ajax'
     vue: 'Moduli Vue'
     inline_edit: "Modifica in linea"
+    from_server: "Dal server"
     code: Codice
 
 ja:
@@ -139,6 +151,7 @@ ja:
     ajax: Ajaxフォーム
     vue: Vueフォーム
     inline_edit: "その場で編集"
+    from_server: "サーバーから"
     code: コード
 
 ko:
@@ -150,6 +163,7 @@ ko:
     ajax: 'Ajax 양식'
     vue: 'Vue 양식'
     inline_edit: "제자리 편집"
+    from_server: "서버에서"
     code: 코드
 
 nl:
@@ -161,6 +175,7 @@ nl:
     ajax: Ajax-formulieren
     vue: Vue-formulieren
     inline_edit: "Inline bewerken"
+    from_server: "Van de server"
     code: Code
 
 pl:
@@ -172,6 +187,7 @@ pl:
     ajax: 'Formularze Ajax'
     vue: 'Formularze Vue'
     inline_edit: "Edycja w miejscu"
+    from_server: "Z serwera"
     code: Kod
 
 pt_BR:
@@ -183,6 +199,7 @@ pt_BR:
     ajax: 'Formulários Ajax'
     vue: 'Formulários Vue'
     inline_edit: "Edição no lugar"
+    from_server: "Do servidor"
     code: Código
 
 ru:
@@ -194,6 +211,7 @@ ru:
     ajax: 'Ajax формы'
     vue: 'Vue формы'
     inline_edit: "Редактирование на месте"
+    from_server: "С сервера"
     code: Код
 
 th:
@@ -205,6 +223,7 @@ th:
     ajax: 'ฟอร์ม Ajax'
     vue: 'ฟอร์ม Vue'
     inline_edit: "แก้ไขในที่"
+    from_server: "จากเซิร์ฟเวอร์"
     code: โค้ด
 
 tr:
@@ -216,6 +235,7 @@ tr:
     ajax: 'Ajax formlar'
     vue: 'Vue formlar'
     inline_edit: "Yerinde düzenleme"
+    from_server: "Sunucudan"
     code: Kod
 
 ur:
@@ -227,6 +247,7 @@ ur:
     ajax: 'ایجیکس فارم'
     vue: 'ویو فارم'
     inline_edit: "موقع پر ترمیم"
+    from_server: "سرور سے"
     code: کوڈ
 
 vi:
@@ -238,6 +259,7 @@ vi:
     ajax: 'Biểu mẫu Ajax'
     vue: 'Biểu mẫu Vue'
     inline_edit: "Sửa tại chỗ"
+    from_server: "Từ máy chủ"
     code: Mã
 
 zh:
@@ -249,4 +271,5 @@ zh:
     ajax: 'Ajax 表单'
     vue: 'Vue 表单'
     inline_edit: "就地编辑"
+    from_server: "来自服务器"
     code: 代码

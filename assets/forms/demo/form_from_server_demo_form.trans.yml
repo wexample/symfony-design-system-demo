@@ -1,0 +1,1011 @@
+en:
+  field:
+    title:
+      label: "Title"
+      placeholder: "The report's title"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
+    summary:
+      label: "Summary"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
+    phone:
+      label: "Telephone"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
+    website:
+      label: "Website"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
+    secret:
+      label: "Password"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
+    audience:
+      label: "Audience"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
+      choice:
+        everyone:
+          label: "Everyone"
+        members:
+          label: "Members"
+        board:
+          label: "The board"
+  error:
+    refused:
+      message: "The form as a whole is refused too."
+  success:
+    message: "Saved."
+
+ar:
+  field:
+    title:
+      label: "العنوان"
+      placeholder: "عنوان التقرير"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
+    summary:
+      label: "الملخص"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
+    email:
+      label: "البريد"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
+    phone:
+      label: "الهاتف"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
+    website:
+      label: "الموقع"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
+    secret:
+      label: "كلمة المرور"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
+    audience:
+      label: "الجمهور"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
+      choice:
+        everyone:
+          label: "الجميع"
+        members:
+          label: "الأعضاء"
+        board:
+          label: "المجلس"
+  error:
+    refused:
+      message: "النموذج كله مرفوض أيضًا."
+  success:
+    message: "تم الحفظ."
+
+bn:
+  field:
+    title:
+      label: "শিরোনাম"
+      placeholder: "প্রতিবেদনের শিরোনাম"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
+    summary:
+      label: "সারসংক্ষেপ"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
+    email:
+      label: "ই-মেইল"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
+    phone:
+      label: "ফোন"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
+    website:
+      label: "ওয়েবসাইট"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
+    secret:
+      label: "পাসওয়ার্ড"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
+    audience:
+      label: "দর্শক"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
+      choice:
+        everyone:
+          label: "সবাই"
+        members:
+          label: "সদস্যরা"
+        board:
+          label: "বোর্ড"
+  error:
+    refused:
+      message: "পুরো ফর্মও প্রত্যাখ্যাত।"
+  success:
+    message: "সংরক্ষিত।"
+
+de:
+  field:
+    title:
+      label: "Titel"
+      placeholder: "Der Titel des Berichts"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
+    summary:
+      label: "Zusammenfassung"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
+    email:
+      label: "E-Mail"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
+    phone:
+      label: "Telefon"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
+    website:
+      label: "Website"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
+    secret:
+      label: "Passwort"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
+    audience:
+      label: "Publikum"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
+      choice:
+        everyone:
+          label: "Alle"
+        members:
+          label: "Mitglieder"
+        board:
+          label: "Der Vorstand"
+  error:
+    refused:
+      message: "Auch das Formular als Ganzes wird zurückgewiesen."
+  success:
+    message: "Gespeichert."
+
+es:
+  field:
+    title:
+      label: "Título"
+      placeholder: "El título del informe"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
+    summary:
+      label: "Resumen"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
+    email:
+      label: "Correo"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
+    phone:
+      label: "Teléfono"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
+    website:
+      label: "Sitio web"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
+    secret:
+      label: "Contraseña"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
+    audience:
+      label: "Público"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
+      choice:
+        everyone:
+          label: "Todos"
+        members:
+          label: "Los miembros"
+        board:
+          label: "La junta"
+  error:
+    refused:
+      message: "El formulario entero también es rechazado."
+  success:
+    message: "Guardado."
+
+fa:
+  field:
+    title:
+      label: "عنوان"
+      placeholder: "عنوان گزارش"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
+    summary:
+      label: "خلاصه"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
+    email:
+      label: "ایمیل"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
+    phone:
+      label: "تلفن"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
+    website:
+      label: "وب‌سایت"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
+    secret:
+      label: "گذرواژه"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
+    audience:
+      label: "مخاطب"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
+      choice:
+        everyone:
+          label: "همه"
+        members:
+          label: "اعضا"
+        board:
+          label: "هیئت مدیره"
+  error:
+    refused:
+      message: "کل فرم هم رد شده است."
+  success:
+    message: "ذخیره شد."
+
+fi:
+  field:
+    title:
+      label: "Otsikko"
+      placeholder: "Raportin otsikko"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
+    summary:
+      label: "Tiivistelmä"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
+    email:
+      label: "Sähköposti"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
+    phone:
+      label: "Puhelin"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
+    website:
+      label: "Verkkosivu"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
+    secret:
+      label: "Salasana"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
+    audience:
+      label: "Yleisö"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
+      choice:
+        everyone:
+          label: "Kaikki"
+        members:
+          label: "Jäsenet"
+        board:
+          label: "Hallitus"
+  error:
+    refused:
+      message: "Myös koko lomake hylätään."
+  success:
+    message: "Tallennettu."
+
+fr:
+  field:
+    title:
+      label: "Titre"
+      placeholder: "Le titre du rapport"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
+    summary:
+      label: "Résumé"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
+    phone:
+      label: "Téléphone"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
+    website:
+      label: "Site web"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
+    secret:
+      label: "Mot de passe"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
+    audience:
+      label: "Public"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
+      choice:
+        everyone:
+          label: "Tout le monde"
+        members:
+          label: "Les membres"
+        board:
+          label: "Le conseil"
+  error:
+    refused:
+      message: "Le formulaire entier est refusé aussi."
+  success:
+    message: "Enregistré."
+
+he:
+  field:
+    title:
+      label: "כותרת"
+      placeholder: "כותרת הדו״ח"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
+    summary:
+      label: "תקציר"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
+    email:
+      label: "דוא״ל"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
+    phone:
+      label: "טלפון"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
+    website:
+      label: "אתר"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
+    secret:
+      label: "סיסמה"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
+    audience:
+      label: "קהל"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
+      choice:
+        everyone:
+          label: "כולם"
+        members:
+          label: "חברים"
+        board:
+          label: "הדירקטוריון"
+  error:
+    refused:
+      message: "גם הטופס כולו נדחה."
+  success:
+    message: "נשמר."
+
+hi:
+  field:
+    title:
+      label: "शीर्षक"
+      placeholder: "रिपोर्ट का शीर्षक"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
+    summary:
+      label: "सारांश"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
+    email:
+      label: "ई-मेल"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
+    phone:
+      label: "फ़ोन"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
+    website:
+      label: "वेबसाइट"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
+    secret:
+      label: "पासवर्ड"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
+    audience:
+      label: "दर्शक"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
+      choice:
+        everyone:
+          label: "सभी"
+        members:
+          label: "सदस्य"
+        board:
+          label: "बोर्ड"
+  error:
+    refused:
+      message: "पूरा फ़ॉर्म भी अस्वीकृत है।"
+  success:
+    message: "सहेजा गया।"
+
+id:
+  field:
+    title:
+      label: "Judul"
+      placeholder: "Judul laporan"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
+    summary:
+      label: "Ringkasan"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
+    phone:
+      label: "Telepon"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
+    website:
+      label: "Situs web"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
+    secret:
+      label: "Kata sandi"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
+    audience:
+      label: "Audiens"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
+      choice:
+        everyone:
+          label: "Semua orang"
+        members:
+          label: "Anggota"
+        board:
+          label: "Dewan"
+  error:
+    refused:
+      message: "Seluruh formulir juga ditolak."
+  success:
+    message: "Tersimpan."
+
+it:
+  field:
+    title:
+      label: "Titolo"
+      placeholder: "Il titolo del rapporto"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
+    summary:
+      label: "Riassunto"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
+    phone:
+      label: "Telefono"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
+    website:
+      label: "Sito web"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
+    secret:
+      label: "Password"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
+    audience:
+      label: "Pubblico"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
+      choice:
+        everyone:
+          label: "Tutti"
+        members:
+          label: "I membri"
+        board:
+          label: "Il consiglio"
+  error:
+    refused:
+      message: "Anche il modulo intero è rifiutato."
+  success:
+    message: "Salvato."
+
+ja:
+  field:
+    title:
+      label: "タイトル"
+      placeholder: "レポートのタイトル"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
+    summary:
+      label: "概要"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
+    email:
+      label: "メール"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
+    phone:
+      label: "電話"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
+    website:
+      label: "ウェブサイト"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
+    secret:
+      label: "パスワード"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
+    audience:
+      label: "対象"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
+      choice:
+        everyone:
+          label: "全員"
+        members:
+          label: "メンバー"
+        board:
+          label: "理事会"
+  error:
+    refused:
+      message: "フォーム全体も拒否されます。"
+  success:
+    message: "保存しました。"
+
+ko:
+  field:
+    title:
+      label: "제목"
+      placeholder: "보고서 제목"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
+    summary:
+      label: "요약"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
+    email:
+      label: "이메일"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
+    phone:
+      label: "전화"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
+    website:
+      label: "웹사이트"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
+    secret:
+      label: "비밀번호"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
+    audience:
+      label: "대상"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
+      choice:
+        everyone:
+          label: "모두"
+        members:
+          label: "회원"
+        board:
+          label: "이사회"
+  error:
+    refused:
+      message: "폼 전체도 거부됩니다."
+  success:
+    message: "저장되었습니다."
+
+nl:
+  field:
+    title:
+      label: "Titel"
+      placeholder: "De titel van het rapport"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
+    summary:
+      label: "Samenvatting"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
+    phone:
+      label: "Telefoon"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
+    website:
+      label: "Website"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
+    secret:
+      label: "Wachtwoord"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
+    audience:
+      label: "Publiek"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
+      choice:
+        everyone:
+          label: "Iedereen"
+        members:
+          label: "Leden"
+        board:
+          label: "Het bestuur"
+  error:
+    refused:
+      message: "Het hele formulier wordt ook geweigerd."
+  success:
+    message: "Opgeslagen."
+
+pl:
+  field:
+    title:
+      label: "Tytuł"
+      placeholder: "Tytuł raportu"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
+    summary:
+      label: "Streszczenie"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
+    phone:
+      label: "Telefon"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
+    website:
+      label: "Strona"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
+    secret:
+      label: "Hasło"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
+    audience:
+      label: "Odbiorcy"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
+      choice:
+        everyone:
+          label: "Wszyscy"
+        members:
+          label: "Członkowie"
+        board:
+          label: "Zarząd"
+  error:
+    refused:
+      message: "Cały formularz też jest odrzucony."
+  success:
+    message: "Zapisano."
+
+pt_BR:
+  field:
+    title:
+      label: "Título"
+      placeholder: "O título do relatório"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
+    summary:
+      label: "Resumo"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
+    phone:
+      label: "Telefone"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
+    website:
+      label: "Site"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
+    secret:
+      label: "Senha"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
+    audience:
+      label: "Público"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
+      choice:
+        everyone:
+          label: "Todos"
+        members:
+          label: "Membros"
+        board:
+          label: "A diretoria"
+  error:
+    refused:
+      message: "O formulário inteiro também é recusado."
+  success:
+    message: "Salvo."
+
+ru:
+  field:
+    title:
+      label: "Заголовок"
+      placeholder: "Заголовок отчёта"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
+    summary:
+      label: "Краткое содержание"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
+    email:
+      label: "Почта"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
+    phone:
+      label: "Телефон"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
+    website:
+      label: "Сайт"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
+    secret:
+      label: "Пароль"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
+    audience:
+      label: "Аудитория"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
+      choice:
+        everyone:
+          label: "Все"
+        members:
+          label: "Участники"
+        board:
+          label: "Совет"
+  error:
+    refused:
+      message: "Форма целиком тоже отклонена."
+  success:
+    message: "Сохранено."
+
+th:
+  field:
+    title:
+      label: "ชื่อเรื่อง"
+      placeholder: "ชื่อของรายงาน"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
+    summary:
+      label: "สรุป"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
+    email:
+      label: "อีเมล"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
+    phone:
+      label: "โทรศัพท์"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
+    website:
+      label: "เว็บไซต์"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
+    secret:
+      label: "รหัสผ่าน"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
+    audience:
+      label: "กลุ่มเป้าหมาย"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
+      choice:
+        everyone:
+          label: "ทุกคน"
+        members:
+          label: "สมาชิก"
+        board:
+          label: "คณะกรรมการ"
+  error:
+    refused:
+      message: "ทั้งฟอร์มก็ถูกปฏิเสธด้วย"
+  success:
+    message: "บันทึกแล้ว"
+
+tr:
+  field:
+    title:
+      label: "Başlık"
+      placeholder: "Raporun başlığı"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
+    summary:
+      label: "Özet"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
+    email:
+      label: "E-posta"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
+    phone:
+      label: "Telefon"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
+    website:
+      label: "Web sitesi"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
+    secret:
+      label: "Parola"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
+    audience:
+      label: "Kitle"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
+      choice:
+        everyone:
+          label: "Herkes"
+        members:
+          label: "Üyeler"
+        board:
+          label: "Yönetim kurulu"
+  error:
+    refused:
+      message: "Formun tamamı da reddedildi."
+  success:
+    message: "Kaydedildi."
+
+ur:
+  field:
+    title:
+      label: "عنوان"
+      placeholder: "رپورٹ کا عنوان"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
+    summary:
+      label: "خلاصہ"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
+    email:
+      label: "ای میل"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
+    phone:
+      label: "فون"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
+    website:
+      label: "ویب سائٹ"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
+    secret:
+      label: "پاس ورڈ"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
+    audience:
+      label: "سامعین"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
+      choice:
+        everyone:
+          label: "سب"
+        members:
+          label: "اراکین"
+        board:
+          label: "بورڈ"
+  error:
+    refused:
+      message: "پورا فارم بھی مسترد ہے۔"
+  success:
+    message: "محفوظ ہو گیا۔"
+
+vi:
+  field:
+    title:
+      label: "Tiêu đề"
+      placeholder: "Tiêu đề của báo cáo"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
+    summary:
+      label: "Tóm tắt"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
+    email:
+      label: "E-mail"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
+    phone:
+      label: "Điện thoại"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
+    website:
+      label: "Trang web"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
+    secret:
+      label: "Mật khẩu"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
+    audience:
+      label: "Đối tượng"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
+      choice:
+        everyone:
+          label: "Mọi người"
+        members:
+          label: "Thành viên"
+        board:
+          label: "Ban điều hành"
+  error:
+    refused:
+      message: "Cả biểu mẫu cũng bị từ chối."
+  success:
+    message: "Đã lưu."
+
+zh:
+  field:
+    title:
+      label: "标题"
+      placeholder: "报告的标题"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
+    summary:
+      label: "摘要"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
+    email:
+      label: "电子邮件"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
+    phone:
+      label: "电话"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
+    website:
+      label: "网站"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
+    secret:
+      label: "密码"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
+    audience:
+      label: "受众"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
+      choice:
+        everyone:
+          label: "所有人"
+        members:
+          label: "成员"
+        board:
+          label: "董事会"
+  error:
+    refused:
+      message: "整个表单也被拒绝。"
+  success:
+    message: "已保存。"

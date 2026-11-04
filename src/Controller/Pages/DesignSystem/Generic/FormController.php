@@ -12,6 +12,7 @@ use Wexample\SymfonyDesignSystemDemo\Class\Demo\GateDemoInvoiceCreation;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
 use Wexample\SymfonyDesignSystemDemo\Service\Demo\GateDemoOrganizationStore;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormGateOrganizationDemoFormProcessor;
+use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormFromServerDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormInlineEditDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormPageAnswerDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormSubmitBehaviorAjaxDemoFormProcessor;
@@ -112,6 +113,22 @@ final class FormController extends AbstractDesignSystemGenericController
             'form_inline_edit_demo' => $processor->createForm([
                 'title' => 'Quarterly report',
                 'description' => 'Figures of the last three months, before the board meets.',
+            ]),
+        ]);
+    }
+
+    /**
+     * A form of the server drawn by the design system from what `form_props`
+     * hands over — the json-schema norm's form —, one field of every kind.
+     */
+    #[Route(name: 'from_server', path: 'from-server')]
+    public function fromServer(FormFromServerDemoFormProcessor $processor): Response
+    {
+        return $this->renderPage('from_server', [
+            'form_from_server_demo' => $processor->createForm([
+                'title' => 'Quarterly report',
+                'summary' => 'Figures of the last three months.',
+                'audience' => 'members',
             ]),
         ]);
     }
