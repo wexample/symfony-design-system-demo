@@ -3,11 +3,11 @@ en:
 
   page_title: "Inline edit"
   page_icon: ph:bold/pencil-simple-line
-  intro: "One field of a form of the application edited in place: a pencil in its frame, Enter to save, Escape to let go. The form is a Symfony form handed to the vue (form_props) rather than drawn; its processor validates, saves and says so, as for any other."
+  intro: "One field of a form of the application edited in place: a pencil in its frame, Enter to save, Escape to let go. The form is a Symfony form handed to the vue (form_definition) rather than drawn; its processor validates, saves and says so, as for any other."
   section:
     props_form:
       title: "The form whole"
-      description: "Every field of the same form drawn by props-form, each by its kind — a title, a description —, sent to the same processor. Try « taken » again."
+      description: "Every field of the same form drawn by dynamic-form, each by its kind — a title, a description —, sent to the same processor. Try « taken » again."
     title:
       title: "A title"
       description: "Try « taken »: the processor refuses it, the error under the field. Over forty characters, the form's own constraint refuses it."
@@ -15,11 +15,11 @@ en:
 
 ar:
   page_title: "تعديل في المكان"
-  intro: "حقل واحد من نموذج التطبيق يُعدَّل في مكانه: قلم في إطاره، Enter للحفظ، Escape للتراجع. النموذج نموذج Symfony يُسلَّم إلى vue (form_props) بدل رسمه؛ ومعالجه يتحقق ويحفظ ويُعلم بذلك."
+  intro: "حقل واحد من نموذج التطبيق يُعدَّل في مكانه: قلم في إطاره، Enter للحفظ، Escape للتراجع. النموذج نموذج Symfony يُسلَّم إلى vue (form_definition) بدل رسمه؛ ومعالجه يتحقق ويحفظ ويُعلم بذلك."
   section:
     props_form:
       title: "النموذج كاملًا"
-      description: "كل حقول النموذج نفسه يرسمها props-form، كلٌّ حسب نوعه — عنوان، وصف —، وتُرسل إلى المعالج نفسه. جرّب « taken » مجددًا."
+      description: "كل حقول النموذج نفسه يرسمها dynamic-form، كلٌّ حسب نوعه — عنوان، وصف —، وتُرسل إلى المعالج نفسه. جرّب « taken » مجددًا."
     title:
       title: "عنوان"
       description: "جرّب « taken »: يرفضه المعالج والخطأ تحت الحقل. وأكثر من أربعين حرفًا يرفضه قيد النموذج."
@@ -27,11 +27,11 @@ ar:
 
 bn:
   page_title: "জায়গায় সম্পাদনা"
-  intro: "অ্যাপের ফর্মের একটি ফিল্ড জায়গায় সম্পাদিত হয়: ফ্রেমে পেনসিল, সংরক্ষণে Enter, বাদ দিতে Escape। ফর্মটি vue-কে দেওয়া একটি Symfony ফর্ম (form_props); এর প্রসেসর যাচাই করে, সংরক্ষণ করে ও জানায়।"
+  intro: "অ্যাপের ফর্মের একটি ফিল্ড জায়গায় সম্পাদিত হয়: ফ্রেমে পেনসিল, সংরক্ষণে Enter, বাদ দিতে Escape। ফর্মটি vue-কে দেওয়া একটি Symfony ফর্ম (form_definition); এর প্রসেসর যাচাই করে, সংরক্ষণ করে ও জানায়।"
   section:
     props_form:
       title: "পুরো ফর্ম"
-      description: "একই ফর্মের প্রতিটি ফিল্ড props-form আঁকে, প্রতিটি তার ধরন অনুযায়ী — শিরোনাম, বিবরণ —, একই প্রসেসরে পাঠানো হয়। আবার « taken » চেষ্টা করুন।"
+      description: "একই ফর্মের প্রতিটি ফিল্ড dynamic-form আঁকে, প্রতিটি তার ধরন অনুযায়ী — শিরোনাম, বিবরণ —, একই প্রসেসরে পাঠানো হয়। আবার « taken » চেষ্টা করুন।"
     title:
       title: "একটি শিরোনাম"
       description: "« taken » চেষ্টা করুন: প্রসেসর প্রত্যাখ্যান করে, ত্রুটি ফিল্ডের নিচে। চল্লিশ অক্ষরের বেশি হলে ফর্মের শর্ত প্রত্যাখ্যান করে।"
@@ -39,11 +39,11 @@ bn:
 
 de:
   page_title: "Inline-Bearbeitung"
-  intro: "Ein Feld eines Formulars der Anwendung an Ort und Stelle bearbeitet: ein Stift in seinem Rahmen, Enter zum Speichern, Escape zum Verwerfen. Das Formular ist ein Symfony-Formular, das der Vue übergeben wird (form_props); sein Prozessor validiert, speichert und meldet es."
+  intro: "Ein Feld eines Formulars der Anwendung an Ort und Stelle bearbeitet: ein Stift in seinem Rahmen, Enter zum Speichern, Escape zum Verwerfen. Das Formular ist ein Symfony-Formular, das der Vue übergeben wird (form_definition); sein Prozessor validiert, speichert und meldet es."
   section:
     props_form:
       title: "Das ganze Formular"
-      description: "Alle Felder desselben Formulars, von props-form gezeichnet, jedes nach seiner Art — ein Titel, eine Beschreibung —, an denselben Prozessor gesendet. Versuche wieder « taken »."
+      description: "Alle Felder desselben Formulars, von dynamic-form gezeichnet, jedes nach seiner Art — ein Titel, eine Beschreibung —, an denselben Prozessor gesendet. Versuche wieder « taken »."
     title:
       title: "Ein Titel"
       description: "Versuchen Sie « taken »: der Prozessor lehnt ihn ab, der Fehler unter dem Feld. Über vierzig Zeichen lehnt die Einschränkung des Formulars ab."
@@ -51,11 +51,11 @@ de:
 
 es:
   page_title: "Edición en línea"
-  intro: "Un campo de un formulario de la aplicación editado en su sitio: un lápiz en su marco, Intro para guardar, Escape para soltar. El formulario es un formulario Symfony entregado a la vista (form_props); su procesador valida, guarda y lo dice."
+  intro: "Un campo de un formulario de la aplicación editado en su sitio: un lápiz en su marco, Intro para guardar, Escape para soltar. El formulario es un formulario Symfony entregado a la vista (form_definition); su procesador valida, guarda y lo dice."
   section:
     props_form:
       title: "El formulario entero"
-      description: "Todos los campos del mismo formulario dibujados por props-form, cada uno según su tipo — un título, una descripción —, enviados al mismo procesador. Prueba otra vez « taken »."
+      description: "Todos los campos del mismo formulario dibujados por dynamic-form, cada uno según su tipo — un título, una descripción —, enviados al mismo procesador. Prueba otra vez « taken »."
     title:
       title: "Un título"
       description: "Prueba « taken »: el procesador lo rechaza, el error bajo el campo. Con más de cuarenta caracteres, lo rechaza la restricción del formulario."
@@ -63,11 +63,11 @@ es:
 
 fa:
   page_title: "ویرایش درجا"
-  intro: "یک فیلد از فرم برنامه درجا ویرایش می‌شود: مدادی در قاب، Enter برای ذخیره، Escape برای انصراف. فرم یک فرم Symfony است که به vue داده می‌شود (form_props)؛ پردازشگرش اعتبارسنجی، ذخیره و اعلام می‌کند."
+  intro: "یک فیلد از فرم برنامه درجا ویرایش می‌شود: مدادی در قاب، Enter برای ذخیره، Escape برای انصراف. فرم یک فرم Symfony است که به vue داده می‌شود (form_definition)؛ پردازشگرش اعتبارسنجی، ذخیره و اعلام می‌کند."
   section:
     props_form:
       title: "کل فرم"
-      description: "همه فیلدهای همان فرم را props-form می‌کشد، هر کدام بنا به نوعش — عنوان، توضیحات —، و به همان پردازشگر فرستاده می‌شوند. دوباره « taken » را امتحان کنید."
+      description: "همه فیلدهای همان فرم را dynamic-form می‌کشد، هر کدام بنا به نوعش — عنوان، توضیحات —، و به همان پردازشگر فرستاده می‌شوند. دوباره « taken » را امتحان کنید."
     title:
       title: "یک عنوان"
       description: "« taken » را امتحان کنید: پردازشگر رد می‌کند و خطا زیر فیلد می‌آید. بیش از چهل نویسه را قید فرم رد می‌کند."
@@ -75,11 +75,11 @@ fa:
 
 fi:
   page_title: "Muokkaus paikallaan"
-  intro: "Sovelluksen lomakkeen yksi kenttä muokataan paikallaan: kynä kehyksessä, Enter tallentaa, Escape peruu. Lomake on vuelle annettu Symfony-lomake (form_props); sen käsittelijä validoi, tallentaa ja kertoo siitä."
+  intro: "Sovelluksen lomakkeen yksi kenttä muokataan paikallaan: kynä kehyksessä, Enter tallentaa, Escape peruu. Lomake on vuelle annettu Symfony-lomake (form_definition); sen käsittelijä validoi, tallentaa ja kertoo siitä."
   section:
     props_form:
       title: "Koko lomake"
-      description: "Saman lomakkeen kaikki kentät props-formin piirtäminä, kukin lajinsa mukaan — otsikko, kuvaus —, lähetettyinä samalle käsittelijälle. Kokeile taas « taken »."
+      description: "Saman lomakkeen kaikki kentät dynamic-formin piirtäminä, kukin lajinsa mukaan — otsikko, kuvaus —, lähetettyinä samalle käsittelijälle. Kokeile taas « taken »."
     title:
       title: "Otsikko"
       description: "Kokeile « taken »: käsittelijä hylkää sen, virhe kentän alla. Yli neljäkymmentä merkkiä hylkää lomakkeen rajoite."
@@ -87,11 +87,11 @@ fi:
 
 fr:
   page_title: "Édition en place"
-  intro: "Un champ d'un formulaire de l'application édité sur place : un crayon dans son cadre, Entrée pour enregistrer, Échap pour lâcher. Le formulaire est un form Symfony transmis à la vue (form_props) au lieu d'être dessiné ; son processor valide, enregistre et le dit, comme pour tout autre."
+  intro: "Un champ d'un formulaire de l'application édité sur place : un crayon dans son cadre, Entrée pour enregistrer, Échap pour lâcher. Le formulaire est un form Symfony transmis à la vue (form_definition) au lieu d'être dessiné ; son processor valide, enregistre et le dit, comme pour tout autre."
   section:
     props_form:
       title: "Le formulaire entier"
-      description: "Tous les champs du même formulaire dessinés par props-form, chacun selon son genre — un titre, une description —, envoyés au même processeur. Essayez à nouveau « taken »."
+      description: "Tous les champs du même formulaire dessinés par dynamic-form, chacun selon son genre — un titre, une description —, envoyés au même processeur. Essayez à nouveau « taken »."
     title:
       title: "Un titre"
       description: "Essayez « taken » : le processor le refuse, l'erreur sous le champ. Au-delà de quarante caractères, la contrainte du formulaire le refuse."
@@ -99,11 +99,11 @@ fr:
 
 he:
   page_title: "עריכה במקום"
-  intro: "שדה אחד בטופס של היישום נערך במקום: עיפרון במסגרת, Enter לשמירה, Escape לביטול. הטופס הוא טופס Symfony שנמסר ל־vue (form_props); המעבד שלו מאמת, שומר ומודיע."
+  intro: "שדה אחד בטופס של היישום נערך במקום: עיפרון במסגרת, Enter לשמירה, Escape לביטול. הטופס הוא טופס Symfony שנמסר ל־vue (form_definition); המעבד שלו מאמת, שומר ומודיע."
   section:
     props_form:
       title: "הטופס כולו"
-      description: "כל שדות אותו טופס מצוירים על ידי props-form, כל אחד לפי סוגו — כותרת, תיאור —, ונשלחים לאותו מעבד. נסו שוב « taken »."
+      description: "כל שדות אותו טופס מצוירים על ידי dynamic-form, כל אחד לפי סוגו — כותרת, תיאור —, ונשלחים לאותו מעבד. נסו שוב « taken »."
     title:
       title: "כותרת"
       description: "נסו « taken »: המעבד דוחה, השגיאה מתחת לשדה. מעל ארבעים תווים, מגבלת הטופס דוחה."
@@ -111,11 +111,11 @@ he:
 
 hi:
   page_title: "जगह पर संपादन"
-  intro: "ऐप के फ़ॉर्म का एक फ़ील्ड जगह पर संपादित होता है: फ़्रेम में पेंसिल, सहेजने को Enter, छोड़ने को Escape। फ़ॉर्म vue को दिया गया Symfony फ़ॉर्म है (form_props); उसका प्रोसेसर जाँचता, सहेजता और बताता है।"
+  intro: "ऐप के फ़ॉर्म का एक फ़ील्ड जगह पर संपादित होता है: फ़्रेम में पेंसिल, सहेजने को Enter, छोड़ने को Escape। फ़ॉर्म vue को दिया गया Symfony फ़ॉर्म है (form_definition); उसका प्रोसेसर जाँचता, सहेजता और बताता है।"
   section:
     props_form:
       title: "पूरा फ़ॉर्म"
-      description: "उसी फ़ॉर्म के सभी फ़ील्ड props-form द्वारा बनाए गए, हर एक अपने प्रकार से — शीर्षक, विवरण —, उसी प्रोसेसर को भेजे गए। फिर से « taken » आज़माएँ।"
+      description: "उसी फ़ॉर्म के सभी फ़ील्ड dynamic-form द्वारा बनाए गए, हर एक अपने प्रकार से — शीर्षक, विवरण —, उसी प्रोसेसर को भेजे गए। फिर से « taken » आज़माएँ।"
     title:
       title: "एक शीर्षक"
       description: "« taken » आज़माएँ: प्रोसेसर अस्वीकार करता है, त्रुटि फ़ील्ड के नीचे। चालीस अक्षरों से अधिक को फ़ॉर्म की शर्त अस्वीकार करती है।"
@@ -123,11 +123,11 @@ hi:
 
 id:
   page_title: "Edit di tempat"
-  intro: "Satu kolom formulir aplikasi diedit di tempat: pensil di bingkainya, Enter untuk menyimpan, Escape untuk batal. Formulir ini adalah form Symfony yang diserahkan ke vue (form_props); prosesornya memvalidasi, menyimpan, dan memberitahukannya."
+  intro: "Satu kolom formulir aplikasi diedit di tempat: pensil di bingkainya, Enter untuk menyimpan, Escape untuk batal. Formulir ini adalah form Symfony yang diserahkan ke vue (form_definition); prosesornya memvalidasi, menyimpan, dan memberitahukannya."
   section:
     props_form:
       title: "Formulir utuh"
-      description: "Semua bidang dari formulir yang sama digambar oleh props-form, masing-masing menurut jenisnya — judul, deskripsi —, dikirim ke prosesor yang sama. Coba lagi « taken »."
+      description: "Semua bidang dari formulir yang sama digambar oleh dynamic-form, masing-masing menurut jenisnya — judul, deskripsi —, dikirim ke prosesor yang sama. Coba lagi « taken »."
     title:
       title: "Sebuah judul"
       description: "Coba « taken »: prosesor menolaknya, galat di bawah kolom. Lebih dari empat puluh karakter, batasan formulir menolaknya."
@@ -135,11 +135,11 @@ id:
 
 it:
   page_title: "Modifica in linea"
-  intro: "Un campo di un modulo dell'applicazione modificato sul posto: una matita nella sua cornice, Invio per salvare, Esc per lasciare. Il modulo è un form Symfony passato alla vue (form_props); il suo processor valida, salva e lo comunica."
+  intro: "Un campo di un modulo dell'applicazione modificato sul posto: una matita nella sua cornice, Invio per salvare, Esc per lasciare. Il modulo è un form Symfony passato alla vue (form_definition); il suo processor valida, salva e lo comunica."
   section:
     props_form:
       title: "Il modulo intero"
-      description: "Tutti i campi dello stesso modulo disegnati da props-form, ciascuno secondo il suo tipo — un titolo, una descrizione —, inviati allo stesso processore. Riprova « taken »."
+      description: "Tutti i campi dello stesso modulo disegnati da dynamic-form, ciascuno secondo il suo tipo — un titolo, una descrizione —, inviati allo stesso processore. Riprova « taken »."
     title:
       title: "Un titolo"
       description: "Prova « taken »: il processor lo rifiuta, l'errore sotto il campo. Oltre quaranta caratteri, lo rifiuta il vincolo del modulo."
@@ -147,11 +147,11 @@ it:
 
 ja:
   page_title: "その場で編集"
-  intro: "アプリのフォームの一つのフィールドをその場で編集します。枠内の鉛筆、Enter で保存、Escape で取り消し。フォームは描画されず vue に渡される Symfony フォーム（form_props）で、プロセッサが検証・保存・通知します。"
+  intro: "アプリのフォームの一つのフィールドをその場で編集します。枠内の鉛筆、Enter で保存、Escape で取り消し。フォームは描画されず vue に渡される Symfony フォーム（form_definition）で、プロセッサが検証・保存・通知します。"
   section:
     props_form:
       title: "フォーム全体"
-      description: "同じフォームのすべての項目を props-form が種類ごとに描きます — タイトル、説明 —。同じプロセッサーに送られます。もう一度 « taken » を試してください。"
+      description: "同じフォームのすべての項目を dynamic-form が種類ごとに描きます — タイトル、説明 —。同じプロセッサーに送られます。もう一度 « taken » を試してください。"
     title:
       title: "タイトル"
       description: "« taken » を試してください。プロセッサが拒否し、エラーがフィールドの下に出ます。40 文字を超えるとフォームの制約が拒否します。"
@@ -159,11 +159,11 @@ ja:
 
 ko:
   page_title: "제자리 편집"
-  intro: "앱 폼의 한 필드를 제자리에서 편집합니다: 테두리 안의 연필, Enter로 저장, Escape로 취소. 폼은 그려지지 않고 vue에 넘겨지는 Symfony 폼(form_props)이며, 프로세서가 검증하고 저장하고 알립니다."
+  intro: "앱 폼의 한 필드를 제자리에서 편집합니다: 테두리 안의 연필, Enter로 저장, Escape로 취소. 폼은 그려지지 않고 vue에 넘겨지는 Symfony 폼(form_definition)이며, 프로세서가 검증하고 저장하고 알립니다."
   section:
     props_form:
       title: "폼 전체"
-      description: "같은 폼의 모든 필드를 props-form이 종류별로 그립니다 — 제목, 설명 —. 같은 프로세서로 전송됩니다. 다시 « taken »을 입력해 보세요."
+      description: "같은 폼의 모든 필드를 dynamic-form이 종류별로 그립니다 — 제목, 설명 —. 같은 프로세서로 전송됩니다. 다시 « taken »을 입력해 보세요."
     title:
       title: "제목"
       description: "« taken »을 입력해 보세요: 프로세서가 거부하고 오류가 필드 아래에 나옵니다. 40자를 넘으면 폼의 제약이 거부합니다."
@@ -171,11 +171,11 @@ ko:
 
 nl:
   page_title: "Inline bewerken"
-  intro: "Eén veld van een formulier van de applicatie ter plekke bewerkt: een potlood in het kader, Enter om op te slaan, Escape om los te laten. Het formulier is een Symfony-formulier dat aan de vue wordt doorgegeven (form_props); de processor valideert, slaat op en meldt het."
+  intro: "Eén veld van een formulier van de applicatie ter plekke bewerkt: een potlood in het kader, Enter om op te slaan, Escape om los te laten. Het formulier is een Symfony-formulier dat aan de vue wordt doorgegeven (form_definition); de processor valideert, slaat op en meldt het."
   section:
     props_form:
       title: "Het hele formulier"
-      description: "Alle velden van hetzelfde formulier getekend door props-form, elk naar zijn soort — een titel, een beschrijving —, naar dezelfde processor gestuurd. Probeer opnieuw « taken »."
+      description: "Alle velden van hetzelfde formulier getekend door dynamic-form, elk naar zijn soort — een titel, een beschrijving —, naar dezelfde processor gestuurd. Probeer opnieuw « taken »."
     title:
       title: "Een titel"
       description: "Probeer « taken »: de processor weigert het, de fout onder het veld. Boven veertig tekens weigert de beperking van het formulier."
@@ -183,11 +183,11 @@ nl:
 
 pl:
   page_title: "Edycja w miejscu"
-  intro: "Jedno pole formularza aplikacji edytowane w miejscu: ołówek w ramce, Enter zapisuje, Escape porzuca. Formularz to formularz Symfony przekazany do vue (form_props); jego procesor waliduje, zapisuje i o tym mówi."
+  intro: "Jedno pole formularza aplikacji edytowane w miejscu: ołówek w ramce, Enter zapisuje, Escape porzuca. Formularz to formularz Symfony przekazany do vue (form_definition); jego procesor waliduje, zapisuje i o tym mówi."
   section:
     props_form:
       title: "Cały formularz"
-      description: "Wszystkie pola tego samego formularza rysowane przez props-form, każde według rodzaju — tytuł, opis —, wysyłane do tego samego procesora. Spróbuj znowu « taken »."
+      description: "Wszystkie pola tego samego formularza rysowane przez dynamic-form, każde według rodzaju — tytuł, opis —, wysyłane do tego samego procesora. Spróbuj znowu « taken »."
     title:
       title: "Tytuł"
       description: "Spróbuj « taken »: procesor odrzuca, błąd pod polem. Powyżej czterdziestu znaków odrzuca ograniczenie formularza."
@@ -195,11 +195,11 @@ pl:
 
 pt_BR:
   page_title: "Edição no lugar"
-  intro: "Um campo de um formulário da aplicação editado no lugar: um lápis na moldura, Enter para salvar, Escape para desistir. O formulário é um form Symfony entregue à vue (form_props) em vez de desenhado; seu processor valida, salva e avisa."
+  intro: "Um campo de um formulário da aplicação editado no lugar: um lápis na moldura, Enter para salvar, Escape para desistir. O formulário é um form Symfony entregue à vue (form_definition) em vez de desenhado; seu processor valida, salva e avisa."
   section:
     props_form:
       title: "O formulário inteiro"
-      description: "Todos os campos do mesmo formulário desenhados pelo props-form, cada um conforme seu tipo — um título, uma descrição —, enviados ao mesmo processador. Tente « taken » de novo."
+      description: "Todos os campos do mesmo formulário desenhados pelo dynamic-form, cada um conforme seu tipo — um título, uma descrição —, enviados ao mesmo processador. Tente « taken » de novo."
     title:
       title: "Um título"
       description: "Experimente « taken »: o processor recusa, o erro abaixo do campo. Acima de quarenta caracteres, a restrição do formulário recusa."
@@ -207,11 +207,11 @@ pt_BR:
 
 ru:
   page_title: "Редактирование на месте"
-  intro: "Одно поле формы приложения редактируется на месте: карандаш в рамке, Enter сохраняет, Escape отменяет. Форма — это форма Symfony, переданная во vue (form_props); её процессор проверяет, сохраняет и сообщает об этом."
+  intro: "Одно поле формы приложения редактируется на месте: карандаш в рамке, Enter сохраняет, Escape отменяет. Форма — это форма Symfony, переданная во vue (form_definition); её процессор проверяет, сохраняет и сообщает об этом."
   section:
     props_form:
       title: "Форма целиком"
-      description: "Все поля той же формы, нарисованные props-form, каждое по своему виду — заголовок, описание —, отправлены тому же обработчику. Попробуйте снова « taken »."
+      description: "Все поля той же формы, нарисованные dynamic-form, каждое по своему виду — заголовок, описание —, отправлены тому же обработчику. Попробуйте снова « taken »."
     title:
       title: "Заголовок"
       description: "Попробуйте « taken »: процессор отклоняет, ошибка под полем. Больше сорока символов отклоняет ограничение формы."
@@ -219,11 +219,11 @@ ru:
 
 th:
   page_title: "แก้ไขในที่"
-  intro: "ช่องเดียวของฟอร์มในแอปแก้ไขในที่: ดินสอในกรอบ Enter เพื่อบันทึก Escape เพื่อยกเลิก ฟอร์มคือฟอร์ม Symfony ที่ส่งให้ vue (form_props) ตัวประมวลผลจะตรวจสอบ บันทึก และแจ้ง"
+  intro: "ช่องเดียวของฟอร์มในแอปแก้ไขในที่: ดินสอในกรอบ Enter เพื่อบันทึก Escape เพื่อยกเลิก ฟอร์มคือฟอร์ม Symfony ที่ส่งให้ vue (form_definition) ตัวประมวลผลจะตรวจสอบ บันทึก และแจ้ง"
   section:
     props_form:
       title: "ฟอร์มทั้งหมด"
-      description: "ทุกช่องของฟอร์มเดียวกันวาดโดย props-form ตามชนิดของแต่ละช่อง — ชื่อ คำอธิบาย — ส่งไปยังตัวประมวลผลเดียวกัน ลอง « taken » อีกครั้ง"
+      description: "ทุกช่องของฟอร์มเดียวกันวาดโดย dynamic-form ตามชนิดของแต่ละช่อง — ชื่อ คำอธิบาย — ส่งไปยังตัวประมวลผลเดียวกัน ลอง « taken » อีกครั้ง"
     title:
       title: "ชื่อเรื่อง"
       description: "ลอง « taken »: ตัวประมวลผลจะปฏิเสธ ข้อผิดพลาดอยู่ใต้ช่อง เกินสี่สิบตัวอักษร ข้อจำกัดของฟอร์มจะปฏิเสธ"
@@ -231,11 +231,11 @@ th:
 
 tr:
   page_title: "Yerinde düzenleme"
-  intro: "Uygulamanın bir formunun tek alanı yerinde düzenlenir: çerçevesinde bir kalem, kaydetmek için Enter, vazgeçmek için Escape. Form, vue'ya verilen bir Symfony formudur (form_props); işlemcisi doğrular, kaydeder ve bildirir."
+  intro: "Uygulamanın bir formunun tek alanı yerinde düzenlenir: çerçevesinde bir kalem, kaydetmek için Enter, vazgeçmek için Escape. Form, vue'ya verilen bir Symfony formudur (form_definition); işlemcisi doğrular, kaydeder ve bildirir."
   section:
     props_form:
       title: "Formun tamamı"
-      description: "Aynı formun tüm alanları props-form tarafından, her biri türüne göre çizilir — bir başlık, bir açıklama —, aynı işlemciye gönderilir. Yine « taken » deneyin."
+      description: "Aynı formun tüm alanları dynamic-form tarafından, her biri türüne göre çizilir — bir başlık, bir açıklama —, aynı işlemciye gönderilir. Yine « taken » deneyin."
     title:
       title: "Bir başlık"
       description: "« taken » deneyin: işlemci reddeder, hata alanın altında. Kırk karakterden uzunsa formun kısıtı reddeder."
@@ -243,11 +243,11 @@ tr:
 
 ur:
   page_title: "موقع پر ترمیم"
-  intro: "ایپ کے فارم کا ایک فیلڈ موقع پر ترمیم ہوتا ہے: فریم میں پنسل، محفوظ کرنے کو Enter، چھوڑنے کو Escape۔ فارم vue کو دیا گیا Symfony فارم ہے (form_props)؛ اس کا پروسیسر جانچتا، محفوظ کرتا اور بتاتا ہے۔"
+  intro: "ایپ کے فارم کا ایک فیلڈ موقع پر ترمیم ہوتا ہے: فریم میں پنسل، محفوظ کرنے کو Enter، چھوڑنے کو Escape۔ فارم vue کو دیا گیا Symfony فارم ہے (form_definition)؛ اس کا پروسیسر جانچتا، محفوظ کرتا اور بتاتا ہے۔"
   section:
     props_form:
       title: "پورا فارم"
-      description: "اسی فارم کے تمام خانے props-form بناتا ہے، ہر ایک اپنی قسم کے مطابق — عنوان، تفصیل —، اور اسی پروسیسر کو بھیجے جاتے ہیں۔ دوبارہ « taken » آزمائیں۔"
+      description: "اسی فارم کے تمام خانے dynamic-form بناتا ہے، ہر ایک اپنی قسم کے مطابق — عنوان، تفصیل —، اور اسی پروسیسر کو بھیجے جاتے ہیں۔ دوبارہ « taken » آزمائیں۔"
     title:
       title: "ایک عنوان"
       description: "« taken » آزمائیں: پروسیسر رد کرتا ہے، غلطی فیلڈ کے نیچے۔ چالیس حروف سے زیادہ کو فارم کی پابندی رد کرتی ہے۔"
@@ -255,11 +255,11 @@ ur:
 
 vi:
   page_title: "Sửa tại chỗ"
-  intro: "Một trường của biểu mẫu ứng dụng được sửa tại chỗ: bút chì trong khung, Enter để lưu, Escape để bỏ. Biểu mẫu là form Symfony được giao cho vue (form_props); bộ xử lý kiểm tra, lưu và thông báo."
+  intro: "Một trường của biểu mẫu ứng dụng được sửa tại chỗ: bút chì trong khung, Enter để lưu, Escape để bỏ. Biểu mẫu là form Symfony được giao cho vue (form_definition); bộ xử lý kiểm tra, lưu và thông báo."
   section:
     props_form:
       title: "Toàn bộ biểu mẫu"
-      description: "Mọi trường của cùng biểu mẫu được props-form vẽ, mỗi trường theo loại — tiêu đề, mô tả —, gửi đến cùng bộ xử lý. Thử lại « taken »."
+      description: "Mọi trường của cùng biểu mẫu được dynamic-form vẽ, mỗi trường theo loại — tiêu đề, mô tả —, gửi đến cùng bộ xử lý. Thử lại « taken »."
     title:
       title: "Một tiêu đề"
       description: "Thử « taken »: bộ xử lý từ chối, lỗi dưới trường. Quá bốn mươi ký tự, ràng buộc của biểu mẫu từ chối."
@@ -267,11 +267,11 @@ vi:
 
 zh:
   page_title: "就地编辑"
-  intro: "应用表单中的一个字段就地编辑：框内的铅笔，回车保存，Esc 放弃。表单是交给 vue 的 Symfony 表单（form_props），而不是被渲染；其处理器负责验证、保存并告知。"
+  intro: "应用表单中的一个字段就地编辑：框内的铅笔，回车保存，Esc 放弃。表单是交给 vue 的 Symfony 表单（form_definition），而不是被渲染；其处理器负责验证、保存并告知。"
   section:
     props_form:
       title: "整个表单"
-      description: "同一表单的所有字段由 props-form 按类型绘制——标题、描述——发送到同一个处理器。再试一次 « taken »。"
+      description: "同一表单的所有字段由 dynamic-form 按类型绘制——标题、描述——发送到同一个处理器。再试一次 « taken »。"
     title:
       title: "标题"
       description: "试试 « taken »：处理器会拒绝，错误显示在字段下方。超过四十个字符，表单的约束会拒绝。"

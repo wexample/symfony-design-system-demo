@@ -8,8 +8,8 @@
     {#- The form is never drawn: handed to the vue as the norm describes it,
         sent to its processor. -#}
     <div class="block block--padded">
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/props-form', {
-            form: form_props(form_from_server_demo),
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/dynamic-form', {
+            form: form_definition(form_from_server_demo),
         }) }}
     </div>
 
@@ -18,6 +18,6 @@
     {#- What the vue was handed, as it was handed. -#}
     {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/code-block', {
         lang: 'json',
-        code: form_props(form_from_server_demo)|json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')),
+        code: form_definition(form_from_server_demo)|json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')),
     }) }}
 {%- endblock -%}

@@ -8,7 +8,7 @@
     {#- The form is never drawn: handed to the vue, sent to its processor. -#}
     <div class="block block--padded inline-edit-demo">
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/inline-edit', {
-            form: form_props(form_inline_edit_demo),
+            form: form_definition(form_inline_edit_demo),
             field: 'title',
             label: '@page::label' | trans,
         }) }}
@@ -16,14 +16,14 @@
             in a header. -#}
         <h3 class="inline-edit-demo--bare">
             {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/inline-edit', {
-                form: form_props(form_inline_edit_demo),
+                form: form_definition(form_inline_edit_demo),
                 field: 'title',
                 label: '@page::label' | trans,
                 bare: true,
             }) }}
         </h3>
         {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-inline-edit', {
-            form: form_props(form_inline_edit_demo),
+            form: form_definition(form_inline_edit_demo),
             label: '@page::label' | trans,
         }) }}
     </div>
@@ -32,8 +32,8 @@
     <div class="lead">{{ '@page::section.props_form.description' | trans }}</div>
     {#- The same form whole, each field by its kind. -#}
     <div class="block block--padded">
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/props-form', {
-            form: form_props(form_inline_edit_demo),
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/dynamic-form', {
+            form: form_definition(form_inline_edit_demo),
         }) }}
     </div>
 {%- endblock -%}

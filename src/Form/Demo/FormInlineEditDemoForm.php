@@ -11,8 +11,8 @@ use Wexample\SymfonyForms\Form\Type\TextInputType;
 
 /**
  * A title and its description, never drawn as a form — handed to the design
- * system's vues (`form_props()`): the title edited in place (`inline-edit`),
- * or the form whole (`props-form`), sent in the background.
+ * system's vues (`form_definition()`): the title edited in place (`inline-edit`),
+ * or the form whole (`dynamic-form`), sent in the background.
  */
 class FormInlineEditDemoForm extends AbstractForm
 {

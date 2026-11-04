@@ -16,7 +16,7 @@ use Wexample\SymfonyForms\Form\Type\TextInputType;
 
 /**
  * One field of every kind the json-schema norm names, never drawn as a form:
- * handed to the design system's `props-form` (`form_props()`), which draws
+ * handed to the design system's `dynamic-form` (`form_definition()`), which draws
  * each by its kind and sends them to the processor, which refuses them all —
  * each error at its place is what the page shows.
  */

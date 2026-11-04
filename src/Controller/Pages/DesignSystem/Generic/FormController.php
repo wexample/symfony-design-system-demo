@@ -118,7 +118,7 @@ final class FormController extends AbstractDesignSystemGenericController
     }
 
     /**
-     * A form of the server drawn by the design system from what `form_props`
+     * A form of the server drawn by the design system from what `form_definition`
      * hands over — the json-schema norm's form —, one field of every kind.
      */
     #[Route(name: 'from_server', path: 'from-server')]
