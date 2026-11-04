@@ -27,4 +27,13 @@
             label: '@page::label' | trans,
         }) }}
     </div>
+
+    <h2>{{ '@page::section.props_form.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.props_form.description' | trans }}</div>
+    {#- The same form whole, each field by its kind. -#}
+    <div class="block block--padded">
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/props-form', {
+            form: form_props(form_inline_edit_demo),
+        }) }}
+    </div>
 {%- endblock -%}

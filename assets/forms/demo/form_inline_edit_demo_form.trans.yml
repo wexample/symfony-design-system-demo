@@ -4,6 +4,8 @@ en:
       label: "Title"
       error:
         taken: "This title is already taken."
+    description:
+      label: "Description"
   success:
     message: "Saved."
 
@@ -13,6 +15,8 @@ ar:
       label: "العنوان"
       error:
         taken: "هذا العنوان مستخدم بالفعل."
+    description:
+      label: "الوصف"
   success:
     message: "تم الحفظ."
 
@@ -22,6 +26,8 @@ bn:
       label: "শিরোনাম"
       error:
         taken: "এই শিরোনামটি ইতিমধ্যে ব্যবহৃত।"
+    description:
+      label: "বিবরণ"
   success:
     message: "সংরক্ষিত।"
 
@@ -31,6 +37,8 @@ de:
       label: "Titel"
       error:
         taken: "Dieser Titel ist bereits vergeben."
+    description:
+      label: "Beschreibung"
   success:
     message: "Gespeichert."
 
@@ -40,6 +48,8 @@ es:
       label: "Título"
       error:
         taken: "Este título ya está en uso."
+    description:
+      label: "Descripción"
   success:
     message: "Guardado."
 
@@ -49,6 +59,8 @@ fa:
       label: "عنوان"
       error:
         taken: "این عنوان قبلاً استفاده شده است."
+    description:
+      label: "توضیحات"
   success:
     message: "ذخیره شد."
 
@@ -58,6 +70,8 @@ fi:
       label: "Otsikko"
       error:
         taken: "Tämä otsikko on jo käytössä."
+    description:
+      label: "Kuvaus"
   success:
     message: "Tallennettu."
 
@@ -67,6 +81,8 @@ fr:
       label: "Titre"
       error:
         taken: "Ce titre est déjà pris."
+    description:
+      label: "Description"
   success:
     message: "Enregistré."
 
@@ -76,6 +92,8 @@ he:
       label: "כותרת"
       error:
         taken: "הכותרת הזו כבר בשימוש."
+    description:
+      label: "תיאור"
   success:
     message: "נשמר."
 
@@ -85,6 +103,8 @@ hi:
       label: "शीर्षक"
       error:
         taken: "यह शीर्षक पहले से उपयोग में है।"
+    description:
+      label: "विवरण"
   success:
     message: "सहेजा गया।"
 
@@ -94,6 +114,8 @@ id:
       label: "Judul"
       error:
         taken: "Judul ini sudah dipakai."
+    description:
+      label: "Deskripsi"
   success:
     message: "Tersimpan."
 
@@ -103,6 +125,8 @@ it:
       label: "Titolo"
       error:
         taken: "Questo titolo è già in uso."
+    description:
+      label: "Descrizione"
   success:
     message: "Salvato."
 
@@ -112,6 +136,8 @@ ja:
       label: "タイトル"
       error:
         taken: "このタイトルは既に使われています。"
+    description:
+      label: "説明"
   success:
     message: "保存しました。"
 
@@ -121,6 +147,8 @@ ko:
       label: "제목"
       error:
         taken: "이미 사용 중인 제목입니다."
+    description:
+      label: "설명"
   success:
     message: "저장되었습니다."
 
@@ -130,6 +158,8 @@ nl:
       label: "Titel"
       error:
         taken: "Deze titel is al in gebruik."
+    description:
+      label: "Beschrijving"
   success:
     message: "Opgeslagen."
 
@@ -139,6 +169,8 @@ pl:
       label: "Tytuł"
       error:
         taken: "Ten tytuł jest już zajęty."
+    description:
+      label: "Opis"
   success:
     message: "Zapisano."
 
@@ -148,6 +180,8 @@ pt_BR:
       label: "Título"
       error:
         taken: "Este título já está em uso."
+    description:
+      label: "Descrição"
   success:
     message: "Salvo."
 
@@ -157,6 +191,8 @@ ru:
       label: "Заголовок"
       error:
         taken: "Этот заголовок уже занят."
+    description:
+      label: "Описание"
   success:
     message: "Сохранено."
 
@@ -166,6 +202,8 @@ th:
       label: "ชื่อเรื่อง"
       error:
         taken: "ชื่อเรื่องนี้ถูกใช้แล้ว"
+    description:
+      label: "คำอธิบาย"
   success:
     message: "บันทึกแล้ว"
 
@@ -175,6 +213,8 @@ tr:
       label: "Başlık"
       error:
         taken: "Bu başlık zaten kullanılıyor."
+    description:
+      label: "Açıklama"
   success:
     message: "Kaydedildi."
 
@@ -184,6 +224,8 @@ ur:
       label: "عنوان"
       error:
         taken: "یہ عنوان پہلے سے استعمال میں ہے۔"
+    description:
+      label: "تفصیل"
   success:
     message: "محفوظ ہو گیا۔"
 
@@ -193,6 +235,8 @@ vi:
       label: "Tiêu đề"
       error:
         taken: "Tiêu đề này đã được dùng."
+    description:
+      label: "Mô tả"
   success:
     message: "Đã lưu."
 
@@ -202,5 +246,7 @@ zh:
       label: "标题"
       error:
         taken: "此标题已被使用。"
+    description:
+      label: "描述"
   success:
     message: "已保存。"

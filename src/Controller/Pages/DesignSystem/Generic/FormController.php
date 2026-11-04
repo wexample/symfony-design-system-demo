@@ -109,7 +109,10 @@ final class FormController extends AbstractDesignSystemGenericController
     public function inlineEdit(FormInlineEditDemoFormProcessor $processor): Response
     {
         return $this->renderPage('inline_edit', [
-            'form_inline_edit_demo' => $processor->createForm(['title' => 'Quarterly report']),
+            'form_inline_edit_demo' => $processor->createForm([
+                'title' => 'Quarterly report',
+                'description' => 'Figures of the last three months, before the board meets.',
+            ]),
         ]);
     }
 
