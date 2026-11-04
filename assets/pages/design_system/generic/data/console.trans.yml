@@ -1,0 +1,351 @@
+en:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Console
+  page_icon: ph:bold/terminal-window
+  intro: 'A console is the third reading of a collection: one line per event, read as they arrive — what a run writes of itself, what a job answered. Nothing in it is for the eye: monospace, one notch down, the lines as tight as they read, a colour on the kind of event and that is all. A line keeps to one line whatever it says; the whole is read in the detail it leads to.'
+  section:
+    latest:
+      title: The latest first
+      description: 'The default reading: the freshest line at the top, as the api sorts its freshest page first, and more of it under the last line held. New lines arrive at the top as the run goes on — this one is read every three seconds.'
+    oldest:
+      title: Oldest first
+      description: 'The thread''s reading, for an api sorted the other way: the console opens on its last page, stays at its foot as lines arrive, and the way back up stands above the oldest line held.'
+    parts:
+      title: What a line leads to
+      description: Every part of a line may lead somewhere or act — a slot's name opening the slot, the line itself opening the event. It reads as the text it is until the pointer is on it. Here, the bar above says what was last pointed at.
+
+fr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Console
+  page_icon: ph:bold/terminal-window
+  intro: 'Une console est la troisième lecture d''une collection : une ligne par événement, lues à mesure qu''elles arrivent — ce qu''une exécution écrit d''elle-même, ce qu''un job a répondu. Rien n''y est pour l''œil : monospace, un cran plus petit, les lignes aussi serrées qu''elles se lisent, une couleur sur le genre d''événement et c''est tout. Une ligne tient sur une ligne quoi qu''elle dise ; le tout se lit dans le détail où elle mène.'
+  section:
+    latest:
+      title: La plus récente d'abord
+      description: 'La lecture par défaut : la ligne la plus fraîche en haut, comme l''api trie sa page la plus fraîche en premier, et la suite sous la dernière ligne tenue. Les nouvelles lignes arrivent en haut à mesure que l''exécution avance — celle-ci est relue toutes les trois secondes.'
+    oldest:
+      title: La plus ancienne d'abord
+      description: 'La lecture du fil, pour une api triée dans l''autre sens : la console s''ouvre sur sa dernière page, reste à son pied quand des lignes arrivent, et le chemin vers le haut se tient au-dessus de la plus ancienne ligne tenue.'
+    parts:
+      title: Où mène une ligne
+      description: Chaque partie d'une ligne peut mener quelque part ou agir — le nom d'un slot ouvre le slot, la ligne elle-même ouvre l'événement. Elle se lit comme le texte qu'elle est jusqu'à ce que le pointeur soit dessus. Ici, la barre au-dessus dit ce qui a été pointé en dernier.
+
+ar:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: وحدة التحكم
+  page_icon: ph:bold/terminal-window
+  intro: 'وحدة التحكم هي القراءة الثالثة للمجموعة: سطر لكل حدث، تُقرأ كما تصل — ما يكتبه التشغيل عن نفسه، ما أجابت به مهمة. لا شيء فيها للعين: خط أحادي المسافة، درجة أصغر، الأسطر مضغوطة بقدر ما تُقرأ، لون على نوع الحدث وهذا كل شيء. يبقى السطر سطرًا واحدًا مهما قال؛ الكل يُقرأ في التفصيل الذي يقود إليه.'
+  section:
+    latest:
+      title: الأحدث أولًا
+      description: 'القراءة الافتراضية: السطر الأحدث في الأعلى، كما ترتب الواجهة صفحتها الأحدث أولًا، والمزيد تحت آخر سطر محفوظ. تصل الأسطر الجديدة في الأعلى مع تقدم التشغيل — هذه تُقرأ كل ثلاث ثوانٍ.'
+    oldest:
+      title: الأقدم أولًا
+      description: 'قراءة الخيط، لواجهة مرتبة بالاتجاه الآخر: تفتح وحدة التحكم على صفحتها الأخيرة، تبقى عند أسفلها حين تصل الأسطر، والطريق إلى الأعلى يقف فوق أقدم سطر محفوظ.'
+    parts:
+      title: إلى أين يقود السطر
+      description: كل جزء من السطر قد يقود إلى مكان أو يفعل شيئًا — اسم فتحة يفتح الفتحة، والسطر نفسه يفتح الحدث. يُقرأ كالنص الذي هو عليه حتى يكون المؤشر فوقه. هنا، الشريط أعلاه يقول ما أُشير إليه آخرًا.
+
+bn:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: কনসোল
+  page_icon: ph:bold/terminal-window
+  intro: 'কনসোল একটি সংগ্রহের তৃতীয় পাঠ: প্রতিটি ঘটনার জন্য এক লাইন, যেমন আসে তেমন পড়া — একটি রান নিজের সম্পর্কে যা লেখে, একটি জব যা উত্তর দিয়েছে। এতে চোখের জন্য কিছু নেই: মনোস্পেস, এক ধাপ ছোট, লাইনগুলো যতটা পড়া যায় ততটা ঘন, ঘটনার ধরনে একটি রঙ আর এটুকুই। একটি লাইন যা-ই বলুক এক লাইনেই থাকে; পুরোটা পড়া হয় যে বিস্তারিতে এটি নিয়ে যায় সেখানে।'
+  section:
+    latest:
+      title: সর্বশেষটি আগে
+      description: 'ডিফল্ট পাঠ: সবচেয়ে নতুন লাইন উপরে, যেমন api তার নতুনতম পৃষ্ঠা আগে সাজায়, আর শেষ ধরে রাখা লাইনের নিচে আরও। রান চলতে থাকলে নতুন লাইন উপরে আসে — এটি প্রতি তিন সেকেন্ডে পড়া হয়।'
+    oldest:
+      title: সবচেয়ে পুরনোটি আগে
+      description: 'থ্রেডের পাঠ, উল্টো দিকে সাজানো api-এর জন্য: কনসোল তার শেষ পৃষ্ঠায় খোলে, লাইন এলে নিচেই থাকে, আর উপরে ফেরার পথ সবচেয়ে পুরনো ধরে রাখা লাইনের উপরে দাঁড়ায়।'
+    parts:
+      title: একটি লাইন কোথায় নিয়ে যায়
+      description: লাইনের প্রতিটি অংশ কোথাও নিয়ে যেতে বা কাজ করতে পারে — একটি স্লটের নাম স্লট খোলে, লাইনটি নিজে ঘটনা খোলে। পয়েন্টার উপরে না আসা পর্যন্ত এটি সাধারণ টেক্সটের মতোই পড়া যায়। এখানে উপরের বারটি বলে শেষ কী নির্দেশ করা হয়েছিল।
+
+de:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Konsole
+  page_icon: ph:bold/terminal-window
+  intro: 'Eine Konsole ist die dritte Lesart einer Sammlung: eine Zeile pro Ereignis, gelesen, wie sie eintreffen — was ein Lauf über sich schreibt, was ein Job geantwortet hat. Nichts daran ist fürs Auge: Monospace, eine Stufe kleiner, die Zeilen so dicht, wie sie sich lesen, eine Farbe für die Art des Ereignisses und sonst nichts. Eine Zeile bleibt eine Zeile, was auch immer sie sagt; das Ganze liest man im Detail, zu dem sie führt.'
+  section:
+    latest:
+      title: Das Neueste zuerst
+      description: 'Die Standardlesart: die frischeste Zeile oben, wie die API ihre frischeste Seite zuerst sortiert, und mehr davon unter der letzten gehaltenen Zeile. Neue Zeilen kommen oben an, während der Lauf weitergeht — diese wird alle drei Sekunden gelesen.'
+    oldest:
+      title: Das Älteste zuerst
+      description: 'Die Lesart des Threads, für eine andersherum sortierte API: die Konsole öffnet auf ihrer letzten Seite, bleibt am Fuß, wenn Zeilen eintreffen, und der Weg zurück nach oben steht über der ältesten gehaltenen Zeile.'
+    parts:
+      title: Wohin eine Zeile führt
+      description: Jeder Teil einer Zeile kann irgendwohin führen oder handeln — der Name eines Slots öffnet den Slot, die Zeile selbst das Ereignis. Er liest sich als der Text, der er ist, bis der Zeiger darauf liegt. Hier sagt die Leiste darüber, worauf zuletzt gezeigt wurde.
+
+es:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Consola
+  page_icon: ph:bold/terminal-window
+  intro: 'Una consola es la tercera lectura de una colección: una línea por evento, leídas según llegan — lo que una ejecución escribe de sí misma, lo que un trabajo respondió. Nada en ella es para la vista: monoespaciada, un punto más pequeña, las líneas tan apretadas como se leen, un color sobre el tipo de evento y nada más. Una línea cabe en una línea diga lo que diga; el conjunto se lee en el detalle al que lleva.'
+  section:
+    latest:
+      title: Lo más reciente primero
+      description: 'La lectura por defecto: la línea más fresca arriba, como la api ordena su página más fresca primero, y más debajo de la última línea retenida. Las líneas nuevas llegan arriba mientras la ejecución avanza — esta se lee cada tres segundos.'
+    oldest:
+      title: Lo más antiguo primero
+      description: 'La lectura del hilo, para una api ordenada al revés: la consola se abre en su última página, se queda al pie cuando llegan líneas, y el camino de vuelta arriba está sobre la línea más antigua retenida.'
+    parts:
+      title: Adónde lleva una línea
+      description: Cada parte de una línea puede llevar a algún sitio o actuar — el nombre de un slot abre el slot, la propia línea abre el evento. Se lee como el texto que es hasta que el puntero está encima. Aquí, la barra de arriba dice qué se señaló por última vez.
+
+fa:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: کنسول
+  page_icon: ph:bold/terminal-window
+  intro: 'کنسول سومین خوانش یک مجموعه است: یک خط برای هر رویداد، همان‌طور که می‌رسند خوانده می‌شوند — آنچه یک اجرا از خود می‌نویسد، آنچه یک کار پاسخ داده. هیچ چیز در آن برای چشم نیست: تک‌عرض، یک درجه کوچک‌تر، خطوط به فشردگی خواندنشان، یک رنگ بر نوع رویداد و همین. یک خط هرچه بگوید یک خط می‌ماند؛ کل در جزئیاتی خوانده می‌شود که به آن می‌رسد.'
+  section:
+    latest:
+      title: تازه‌ترین اول
+      description: 'خوانش پیش‌فرض: تازه‌ترین خط در بالا، همان‌طور که api تازه‌ترین صفحه‌اش را اول می‌چیند، و ادامه زیر آخرین خط نگه‌داشته. خطوط تازه با پیشرفت اجرا در بالا می‌رسند — این یکی هر سه ثانیه خوانده می‌شود.'
+    oldest:
+      title: قدیمی‌ترین اول
+      description: 'خوانش رشته، برای api که برعکس چیده شده: کنسول روی آخرین صفحه‌اش باز می‌شود، با رسیدن خطوط در پایین می‌ماند، و راه بازگشت به بالا بالای قدیمی‌ترین خط نگه‌داشته می‌ایستد.'
+    parts:
+      title: یک خط به کجا می‌رسد
+      description: هر بخش از یک خط می‌تواند به جایی برسد یا کاری کند — نام یک اسلات، اسلات را باز می‌کند، خود خط رویداد را. تا اشاره‌گر رویش نباشد مثل همان متنی که هست خوانده می‌شود. اینجا نوار بالا می‌گوید آخرین بار به چه اشاره شد.
+
+fi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Konsoli
+  page_icon: ph:bold/terminal-window
+  intro: 'Konsoli on kokoelman kolmas lukutapa: yksi rivi tapahtumaa kohden, luettuna sitä mukaa kuin ne saapuvat — mitä ajo kirjoittaa itsestään, mitä työ vastasi. Mikään siinä ei ole silmää varten: tasalevyinen, pykälää pienempi, rivit niin tiiviit kuin ne luetaan, väri tapahtuman lajilla ja siinä kaikki. Rivi pysyy yhdellä rivillä sanoipa se mitä tahansa; kokonaisuus luetaan yksityiskohdasta, johon se johtaa.'
+  section:
+    latest:
+      title: Uusin ensin
+      description: 'Oletuslukutapa: tuorein rivi ylimpänä, kuten api järjestää tuoreimman sivunsa ensin, ja lisää viimeisen pidetyn rivin alla. Uudet rivit saapuvat ylös ajon jatkuessa — tämä luetaan kolmen sekunnin välein.'
+    oldest:
+      title: Vanhin ensin
+      description: 'Ketjun lukutapa, toisinpäin järjestetylle apille: konsoli avautuu viimeiselle sivulleen, pysyy alareunassa rivien saapuessa, ja tie takaisin ylös on vanhimman pidetyn rivin yläpuolella.'
+    parts:
+      title: Mihin rivi johtaa
+      description: Jokainen rivin osa voi johtaa jonnekin tai toimia — paikan nimi avaa paikan, rivi itse avaa tapahtuman. Se luetaan tekstinä, jota se on, kunnes osoitin on sen päällä. Täällä yllä oleva palkki kertoo, mitä viimeksi osoitettiin.
+
+he:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: קונסולה
+  page_icon: ph:bold/terminal-window
+  intro: 'קונסולה היא הקריאה השלישית של אוסף: שורה לכל אירוע, נקראות כשהן מגיעות — מה שריצה כותבת על עצמה, מה שמשימה ענתה. דבר בה אינו לעין: רוחב אחיד, דרגה אחת קטן יותר, השורות צפופות כפי שהן נקראות, צבע על סוג האירוע וזהו. שורה נשארת שורה אחת יהיה אשר תאמר; השלם נקרא בפירוט שאליו היא מובילה.'
+  section:
+    latest:
+      title: החדש ביותר תחילה
+      description: 'הקריאה כברירת מחדל: השורה הטרייה ביותר למעלה, כפי שה-api ממיין את עמודו הטרי ראשון, ועוד מתחת לשורה האחרונה המוחזקת. שורות חדשות מגיעות למעלה בעוד הריצה נמשכת — זו נקראת כל שלוש שניות.'
+    oldest:
+      title: הישן ביותר תחילה
+      description: 'קריאת השרשור, ל-api הממוין הפוך: הקונסולה נפתחת בעמודה האחרון, נשארת בתחתית כששורות מגיעות, והדרך חזרה למעלה עומדת מעל השורה הישנה ביותר המוחזקת.'
+    parts:
+      title: לאן שורה מובילה
+      description: כל חלק בשורה יכול להוביל למקום או לפעול — שם של משבצת פותח את המשבצת, השורה עצמה פותחת את האירוע. הוא נקרא כטקסט שהוא עד שהסמן עליו. כאן, הסרגל למעלה אומר על מה הצביעו לאחרונה.
+
+hi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: कंसोल
+  page_icon: ph:bold/terminal-window
+  intro: 'कंसोल किसी संग्रह का तीसरा पाठ है: हर घटना के लिए एक पंक्ति, जैसे-जैसे आती हैं पढ़ी जाती हैं — एक रन अपने बारे में जो लिखता है, एक जॉब ने जो उत्तर दिया। इसमें आँख के लिए कुछ नहीं: मोनोस्पेस, एक पायदान छोटा, पंक्तियाँ जितनी पढ़ी जाएँ उतनी सघन, घटना के प्रकार पर एक रंग और बस। एक पंक्ति जो भी कहे एक ही पंक्ति में रहती है; पूरा उस विवरण में पढ़ा जाता है जहाँ वह ले जाती है।'
+  section:
+    latest:
+      title: सबसे नया पहले
+      description: 'डिफ़ॉल्ट पाठ: सबसे ताज़ा पंक्ति ऊपर, जैसे api अपना सबसे ताज़ा पृष्ठ पहले रखता है, और अंतिम रखी पंक्ति के नीचे और। रन चलते रहने पर नई पंक्तियाँ ऊपर आती हैं — यह हर तीन सेकंड में पढ़ी जाती है।'
+    oldest:
+      title: सबसे पुराना पहले
+      description: 'थ्रेड का पाठ, उल्टे क्रम वाले api के लिए: कंसोल अपने अंतिम पृष्ठ पर खुलता है, पंक्तियाँ आने पर नीचे ही रहता है, और ऊपर लौटने का रास्ता सबसे पुरानी रखी पंक्ति के ऊपर होता है।'
+    parts:
+      title: एक पंक्ति कहाँ ले जाती है
+      description: पंक्ति का हर भाग कहीं ले जा सकता है या काम कर सकता है — एक स्लॉट का नाम स्लॉट खोलता है, पंक्ति स्वयं घटना खोलती है। जब तक पॉइंटर उस पर न हो, वह जैसा पाठ है वैसा ही पढ़ा जाता है। यहाँ ऊपर की पट्टी बताती है कि आख़िरी बार किस पर इशारा किया गया।
+
+id:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Konsol
+  page_icon: ph:bold/terminal-window
+  intro: 'Konsol adalah pembacaan ketiga dari sebuah koleksi: satu baris per peristiwa, dibaca saat tiba — apa yang ditulis sebuah proses tentang dirinya, apa yang dijawab sebuah job. Tak ada yang untuk mata: monospace, satu tingkat lebih kecil, baris serapat yang terbaca, satu warna pada jenis peristiwa dan itu saja. Satu baris tetap satu baris apa pun isinya; keseluruhannya dibaca di detail yang ditujunya.'
+  section:
+    latest:
+      title: Yang terbaru dulu
+      description: 'Pembacaan bawaan: baris terbaru di atas, seperti api mengurutkan halaman terbarunya lebih dulu, dan lanjutannya di bawah baris terakhir yang dipegang. Baris baru tiba di atas selagi proses berjalan — yang ini dibaca setiap tiga detik.'
+    oldest:
+      title: Yang terlama dulu
+      description: 'Pembacaan utas, untuk api yang diurutkan sebaliknya: konsol terbuka di halaman terakhirnya, tetap di kaki saat baris tiba, dan jalan kembali ke atas berdiri di atas baris terlama yang dipegang.'
+    parts:
+      title: Ke mana sebuah baris mengarah
+      description: Setiap bagian baris dapat mengarah ke suatu tempat atau bertindak — nama slot membuka slot, baris itu sendiri membuka peristiwa. Ia terbaca sebagai teks apa adanya sampai penunjuk berada di atasnya. Di sini, bilah di atas menyebutkan apa yang terakhir ditunjuk.
+
+it:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Console
+  page_icon: ph:bold/terminal-window
+  intro: 'Una console è la terza lettura di una collezione: una riga per evento, lette man mano che arrivano — ciò che un''esecuzione scrive di sé, ciò che un job ha risposto. Nulla in essa è per l''occhio: monospazio, un gradino più piccola, le righe fitte quanto si leggono, un colore sul tipo di evento e basta. Una riga resta una riga qualunque cosa dica; l''insieme si legge nel dettaglio a cui porta.'
+  section:
+    latest:
+      title: Il più recente prima
+      description: 'La lettura predefinita: la riga più fresca in alto, come l''api ordina prima la sua pagina più fresca, e il resto sotto l''ultima riga tenuta. Le righe nuove arrivano in alto mentre l''esecuzione procede — questa viene letta ogni tre secondi.'
+    oldest:
+      title: Il più vecchio prima
+      description: 'La lettura del thread, per un''api ordinata al contrario: la console si apre sull''ultima pagina, resta in fondo quando arrivano righe, e la via per risalire sta sopra la riga più vecchia tenuta.'
+    parts:
+      title: Dove porta una riga
+      description: Ogni parte di una riga può portare da qualche parte o agire — il nome di uno slot apre lo slot, la riga stessa apre l'evento. Si legge come il testo che è finché il puntatore non ci sta sopra. Qui la barra sopra dice cosa è stato indicato per ultimo.
+
+ja:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: コンソール
+  page_icon: ph:bold/terminal-window
+  intro: コンソールはコレクションの三つ目の読み方です。イベントごとに一行、届いた順に読みます — 実行が自分について書いたこと、ジョブが答えたこと。目のためのものは何もありません。等幅、一段小さく、読める限り詰めた行、イベントの種類に色がつくだけです。一行は何を言おうと一行のまま。全体はその行が導く詳細で読みます。
+  section:
+    latest:
+      title: 最新を先に
+      description: 既定の読み方。api が最新のページを先に並べるとおり、最も新しい行が上に、続きは保持している最後の行の下に。実行が進むにつれ新しい行が上に届きます — これは三秒ごとに読まれます。
+    oldest:
+      title: 最古を先に
+      description: スレッドの読み方。逆順に並ぶ api のために、コンソールは最後のページで開き、行が届いても末尾に留まり、戻る道は保持している最古の行の上にあります。
+    parts:
+      title: 行の導く先
+      description: 行のどの部分もどこかへ導いたり動作したりできます — スロット名はスロットを開き、行そのものはイベントを開きます。ポインタが乗るまではただのテキストとして読めます。ここでは上のバーが最後に指したものを示します。
+
+ko:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 콘솔
+  page_icon: ph:bold/terminal-window
+  intro: 콘솔은 컬렉션의 세 번째 읽기입니다. 이벤트마다 한 줄, 도착하는 대로 읽습니다 — 실행이 자신에 대해 쓴 것, 작업이 답한 것. 눈을 위한 것은 없습니다. 고정폭, 한 단계 작게, 읽히는 만큼 촘촘한 줄, 이벤트 종류에 색 하나뿐입니다. 한 줄은 무엇을 말하든 한 줄에 머뭅니다. 전체는 그 줄이 이끄는 상세에서 읽습니다.
+  section:
+    latest:
+      title: 최신 먼저
+      description: '기본 읽기: api가 가장 새 페이지를 먼저 정렬하듯 가장 새 줄이 위에, 나머지는 마지막으로 보유한 줄 아래에. 실행이 계속되면 새 줄이 위에 도착합니다 — 이것은 3초마다 읽힙니다.'
+    oldest:
+      title: 가장 오래된 것 먼저
+      description: '스레드의 읽기, 반대로 정렬된 api를 위해: 콘솔은 마지막 페이지에서 열리고, 줄이 도착해도 바닥에 머물며, 위로 돌아가는 길은 보유한 가장 오래된 줄 위에 있습니다.'
+    parts:
+      title: 줄이 이끄는 곳
+      description: 줄의 모든 부분은 어딘가로 이끌거나 동작할 수 있습니다 — 슬롯 이름은 슬롯을, 줄 자체는 이벤트를 엽니다. 포인터가 올라오기 전까지는 그저 텍스트로 읽힙니다. 여기서는 위의 막대가 마지막으로 가리킨 것을 말해 줍니다.
+
+nl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Console
+  page_icon: ph:bold/terminal-window
+  intro: 'Een console is de derde lezing van een verzameling: één regel per gebeurtenis, gelezen zoals ze binnenkomen — wat een run over zichzelf schrijft, wat een job antwoordde. Niets erin is voor het oog: monospace, een stap kleiner, de regels zo dicht als ze lezen, een kleur op het soort gebeurtenis en dat is alles. Een regel blijft één regel wat hij ook zegt; het geheel lees je in het detail waarheen hij leidt.'
+  section:
+    latest:
+      title: Het nieuwste eerst
+      description: 'De standaardlezing: de verste regel bovenaan, zoals de api zijn verste pagina eerst sorteert, en meer onder de laatst vastgehouden regel. Nieuwe regels komen bovenaan binnen terwijl de run doorgaat — deze wordt elke drie seconden gelezen.'
+    oldest:
+      title: Het oudste eerst
+      description: 'De lezing van de thread, voor een api die andersom sorteert: de console opent op zijn laatste pagina, blijft onderaan als regels binnenkomen, en de weg terug omhoog staat boven de oudste vastgehouden regel.'
+    parts:
+      title: Waar een regel heen leidt
+      description: Elk deel van een regel kan ergens heen leiden of handelen — de naam van een slot opent het slot, de regel zelf opent de gebeurtenis. Hij leest als de tekst die hij is tot de aanwijzer erop staat. Hier zegt de balk erboven wat het laatst is aangewezen.
+
+pl:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Konsola
+  page_icon: ph:bold/terminal-window
+  intro: 'Konsola to trzecie odczytanie kolekcji: jeden wiersz na zdarzenie, czytane w miarę napływania — co uruchomienie pisze o sobie, co odpowiedziało zadanie. Nic w niej nie jest dla oka: monospace, o stopień mniejsza, wiersze tak ciasne, jak się czytają, kolor na rodzaju zdarzenia i tyle. Wiersz pozostaje jednym wierszem, cokolwiek mówi; całość czyta się w szczegółach, do których prowadzi.'
+  section:
+    latest:
+      title: Najnowsze najpierw
+      description: 'Domyślne odczytanie: najświeższy wiersz na górze, tak jak api sortuje najpierw swoją najświeższą stronę, a dalszy ciąg pod ostatnim trzymanym wierszem. Nowe wiersze przychodzą na górę, gdy uruchomienie trwa — ten jest czytany co trzy sekundy.'
+    oldest:
+      title: Najstarsze najpierw
+      description: 'Odczytanie wątku, dla api posortowanego odwrotnie: konsola otwiera się na ostatniej stronie, zostaje u dołu, gdy przychodzą wiersze, a droga z powrotem w górę stoi nad najstarszym trzymanym wierszem.'
+    parts:
+      title: Dokąd prowadzi wiersz
+      description: Każda część wiersza może dokądś prowadzić lub działać — nazwa slotu otwiera slot, sam wiersz otwiera zdarzenie. Czyta się jak tekst, którym jest, dopóki wskaźnik na nim nie spocznie. Tutaj pasek powyżej mówi, na co ostatnio wskazano.
+
+ru:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Консоль
+  page_icon: ph:bold/terminal-window
+  intro: 'Консоль — третье прочтение коллекции: одна строка на событие, читаемые по мере поступления — что запуск пишет о себе, что ответило задание. Ничего в ней не для глаза: моноширинный шрифт, на ступень меньше, строки настолько плотные, насколько читаются, цвет на виде события и всё. Строка остаётся одной строкой, что бы она ни говорила; целое читается в деталях, к которым она ведёт.'
+  section:
+    latest:
+      title: Сначала новейшее
+      description: 'Прочтение по умолчанию: самая свежая строка сверху, как api сортирует первой свою самую свежую страницу, а продолжение под последней удерживаемой строкой. Новые строки приходят сверху, пока запуск идёт — эта читается каждые три секунды.'
+    oldest:
+      title: Сначала старейшее
+      description: 'Прочтение ленты, для api, отсортированного наоборот: консоль открывается на последней странице, остаётся внизу, когда приходят строки, а путь обратно наверх стоит над самой старой удерживаемой строкой.'
+    parts:
+      title: Куда ведёт строка
+      description: Любая часть строки может куда-то вести или действовать — имя слота открывает слот, сама строка открывает событие. Она читается как текст, которым является, пока на ней нет указателя. Здесь полоса выше говорит, на что указали последним.
+
+th:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: คอนโซล
+  page_icon: ph:bold/terminal-window
+  intro: 'คอนโซลคือการอ่านแบบที่สามของคอลเลกชัน: หนึ่งบรรทัดต่อหนึ่งเหตุการณ์ อ่านตามที่มาถึง — สิ่งที่การรันเขียนถึงตัวเอง สิ่งที่งานตอบ ไม่มีอะไรเพื่อสายตา: ตัวอักษรความกว้างคงที่ เล็กลงหนึ่งขั้น บรรทัดแน่นเท่าที่อ่านได้ สีบนชนิดของเหตุการณ์และแค่นั้น หนึ่งบรรทัดคงเป็นหนึ่งบรรทัดไม่ว่าจะบอกอะไร ทั้งหมดอ่านได้ในรายละเอียดที่มันนำไป'
+  section:
+    latest:
+      title: ล่าสุดก่อน
+      description: 'การอ่านเริ่มต้น: บรรทัดใหม่สุดอยู่บน ตามที่ api เรียงหน้าใหม่สุดก่อน และส่วนที่เหลืออยู่ใต้บรรทัดสุดท้ายที่ถืออยู่ บรรทัดใหม่มาถึงด้านบนขณะที่การรันดำเนินไป — อันนี้ถูกอ่านทุกสามวินาที'
+    oldest:
+      title: เก่าสุดก่อน
+      description: 'การอ่านแบบเธรด สำหรับ api ที่เรียงกลับกัน: คอนโซลเปิดที่หน้าสุดท้าย อยู่ที่ท้ายเมื่อบรรทัดมาถึง และทางกลับขึ้นบนอยู่เหนือบรรทัดเก่าสุดที่ถืออยู่'
+    parts:
+      title: บรรทัดนำไปที่ไหน
+      description: ทุกส่วนของบรรทัดอาจนำไปที่ใดที่หนึ่งหรือทำงานได้ — ชื่อสล็อตเปิดสล็อต ตัวบรรทัดเองเปิดเหตุการณ์ มันอ่านเหมือนข้อความที่มันเป็นจนกว่าตัวชี้จะอยู่บนมัน ที่นี่แถบด้านบนบอกว่าชี้อะไรล่าสุด
+
+tr:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Konsol
+  page_icon: ph:bold/terminal-window
+  intro: 'Konsol bir koleksiyonun üçüncü okunuşudur: olay başına bir satır, geldikçe okunur — bir çalıştırmanın kendisi hakkında yazdıkları, bir işin verdiği yanıt. İçinde göz için hiçbir şey yoktur: eş aralıklı, bir kademe küçük, satırlar okunduğu kadar sıkı, olayın türünde bir renk ve hepsi bu. Bir satır ne derse desin tek satırda kalır; bütün, götürdüğü ayrıntıda okunur.'
+  section:
+    latest:
+      title: Önce en yeni
+      description: 'Varsayılan okunuş: en taze satır üstte, api en taze sayfasını önce sıraladığı gibi, devamı tutulan son satırın altında. Çalıştırma sürerken yeni satırlar üste gelir — bu, her üç saniyede bir okunur.'
+    oldest:
+      title: Önce en eski
+      description: 'Konunun okunuşu, tersine sıralanmış bir api için: konsol son sayfasında açılır, satırlar gelirken dipte kalır ve yukarı dönüş yolu tutulan en eski satırın üstünde durur.'
+    parts:
+      title: Bir satır nereye götürür
+      description: Bir satırın her parçası bir yere götürebilir ya da eyleme geçebilir — bir yuvanın adı yuvayı açar, satırın kendisi olayı açar. İşaretçi üzerine gelene dek olduğu metin gibi okunur. Burada üstteki çubuk en son neyin gösterildiğini söyler.
+
+ur:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: کنسول
+  page_icon: ph:bold/terminal-window
+  intro: 'کنسول کسی مجموعے کی تیسری پڑھت ہے: ہر واقعے کے لیے ایک سطر، جیسے آئیں ویسے پڑھی جائیں — جو ایک رن اپنے بارے میں لکھتا ہے، جو ایک جاب نے جواب دیا۔ اس میں آنکھ کے لیے کچھ نہیں: یک چوڑائی، ایک درجہ چھوٹا، سطریں اتنی گنجان جتنی پڑھی جائیں، واقعے کی قسم پر ایک رنگ اور بس۔ ایک سطر جو بھی کہے ایک سطر رہتی ہے؛ پورا اس تفصیل میں پڑھا جاتا ہے جہاں وہ لے جاتی ہے۔'
+  section:
+    latest:
+      title: تازہ ترین پہلے
+      description: 'طے شدہ پڑھت: تازہ ترین سطر اوپر، جیسے api اپنا تازہ ترین صفحہ پہلے رکھتا ہے، اور باقی آخری رکھی سطر کے نیچے۔ رن چلتے رہنے پر نئی سطریں اوپر آتی ہیں — یہ ہر تین سیکنڈ میں پڑھی جاتی ہے۔'
+    oldest:
+      title: قدیم ترین پہلے
+      description: 'تھریڈ کی پڑھت، الٹی ترتیب والے api کے لیے: کنسول اپنے آخری صفحے پر کھلتا ہے، سطریں آنے پر نیچے ہی رہتا ہے، اور اوپر واپسی کا راستہ قدیم ترین رکھی سطر کے اوپر ہوتا ہے۔'
+    parts:
+      title: ایک سطر کہاں لے جاتی ہے
+      description: سطر کا ہر حصہ کہیں لے جا سکتا ہے یا عمل کر سکتا ہے — ایک سلاٹ کا نام سلاٹ کھولتا ہے، خود سطر واقعہ کھولتی ہے۔ جب تک پوائنٹر اس پر نہ ہو وہ ویسے ہی متن کی طرح پڑھی جاتی ہے۔ یہاں اوپر کی پٹی بتاتی ہے کہ آخری بار کس کی طرف اشارہ کیا گیا۔
+
+vi:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Bảng điều khiển
+  page_icon: ph:bold/terminal-window
+  intro: 'Bảng điều khiển là cách đọc thứ ba của một bộ sưu tập: mỗi sự kiện một dòng, đọc khi chúng đến — những gì một lần chạy viết về chính nó, những gì một công việc đã trả lời. Không có gì trong đó dành cho mắt: đơn cách, nhỏ hơn một bậc, các dòng sát nhau hết mức còn đọc được, một màu cho loại sự kiện và chỉ vậy. Một dòng vẫn là một dòng dù nói gì; toàn bộ được đọc trong chi tiết mà nó dẫn tới.'
+  section:
+    latest:
+      title: Mới nhất trước
+      description: 'Cách đọc mặc định: dòng mới nhất ở trên, như api sắp trang mới nhất trước, phần tiếp theo dưới dòng cuối đang giữ. Dòng mới đến ở trên khi lần chạy tiếp tục — cái này được đọc mỗi ba giây.'
+    oldest:
+      title: Cũ nhất trước
+      description: 'Cách đọc của luồng, cho api sắp theo chiều ngược lại: bảng điều khiển mở ở trang cuối, ở lại cuối khi dòng đến, và đường quay lên nằm trên dòng cũ nhất đang giữ.'
+    parts:
+      title: Một dòng dẫn tới đâu
+      description: Mọi phần của dòng đều có thể dẫn tới đâu đó hoặc hành động — tên một ô mở ô đó, bản thân dòng mở sự kiện. Nó đọc như văn bản vốn có cho đến khi con trỏ đặt lên. Ở đây, thanh phía trên cho biết thứ được chỉ vào gần nhất.
+
+zh:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: 控制台
+  page_icon: ph:bold/terminal-window
+  intro: 控制台是集合的第三种读法：每个事件一行，随到随读——一次运行写下的关于自己的内容，一个作业的回答。其中没有任何东西是为了好看：等宽字体，小一号，行距紧到刚好能读，事件类型上一点颜色，仅此而已。无论说什么，一行就是一行；整体要在它所指向的详情里读。
+  section:
+    latest:
+      title: 最新在前
+      description: 默认读法：最新的一行在最上面，正如 api 把最新的一页排在最前，其余在所持最后一行之下。运行继续时新行从顶部到达——这个每三秒读一次。
+    oldest:
+      title: 最早在前
+      description: 线程的读法，用于反向排序的 api：控制台在最后一页打开，行到达时停在底部，回到上方的路在所持最早一行之上。
+    parts:
+      title: 一行通向何处
+      description: 一行的每个部分都可以通向某处或执行动作——槽位名打开槽位，行本身打开事件。指针移上来之前，它就像普通文本。这里，上方的栏说明最后指向了什么。

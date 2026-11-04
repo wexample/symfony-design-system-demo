@@ -3,6 +3,7 @@ en:
     index: Overview
     tables: Tables
     live: Keeping up
+    console: 'Console'
     lists: Lists
     properties: Properties
     bars: Bars
@@ -15,6 +16,7 @@ ar:
     index: 'نظرة عامة'
     tables: الجداول
     live: متابعة
+    console: 'وحدة التحكم'
     lists: القوائم
     properties: الخصائص
     bars: الأشرطة
@@ -27,6 +29,7 @@ bn:
     index: পর্যালোচনা
     tables: টেবিল
     live: 'আপডেট রাখুন'
+    console: 'কনসোল'
     lists: তালিকা
     properties: গুণাবলী
     bars: বার
@@ -39,6 +42,7 @@ de:
     index: Übersicht
     tables: Tabellen
     live: 'Aktuell bleiben'
+    console: 'Konsole'
     lists: Listen
     properties: Eigenschaften
     bars: Balken
@@ -51,6 +55,7 @@ es:
     index: Resumen
     tables: Tablas
     live: 'Manteniéndose al día'
+    console: 'Consola'
     lists: Listas
     properties: Propiedades
     bars: Barras
@@ -63,6 +68,7 @@ fa:
     index: مرور
     tables: جدول‌ها
     live: 'به‌روز نگه‌داشتن'
+    console: 'کنسول'
     lists: لیست‌ها
     properties: خصوصیات
     bars: نوارها
@@ -75,6 +81,7 @@ fi:
     index: Yhteenveto
     tables: Taulukot
     live: Reaaliaikainen
+    console: 'Konsoli'
     lists: Luettelot
     properties: Ominaisuudet
     bars: Palkit
@@ -87,6 +94,7 @@ fr:
     index: Aperçu
     tables: 'Tableaux'
     live: 'Mises à jour en direct'
+    console: 'Console'
     lists: Listes
     properties: Propriétés
     bars: Barres
@@ -99,6 +107,7 @@ he:
     index: סקירה
     tables: טבלאות
     live: מעקב
+    console: 'קונסולה'
     lists: רשימות
     properties: מאפיינים
     bars: 'עמודות'
@@ -111,6 +120,7 @@ hi:
     index: सारांश
     tables: तालिकाएँ
     live: 'अपडेट रहना'
+    console: 'कंसोल'
     lists: सूचियाँ
     properties: गुण
     bars: बार
@@ -123,6 +133,7 @@ id:
     index: Ikhtisar
     tables: Tabel
     live: 'Terus Terupdate'
+    console: 'Konsol'
     lists: Daftar
     properties: Properti
     bars: 'Batang'
@@ -135,6 +146,7 @@ it:
     index: Panoramica
     tables: Tabelle
     live: Aggiornamenti
+    console: 'Console'
     lists: Elenco
     properties: Proprietà
     bars: Barre
@@ -147,6 +159,7 @@ ja:
     index: 概要
     tables: テーブル
     live: 最新情報
+    console: 'コンソール'
     lists: リスト
     properties: プロパティ
     bars: バー
@@ -159,6 +172,7 @@ ko:
     index: 개요
     tables: 테이블
     live: '실시간 업데이트'
+    console: '콘솔'
     lists: 목록
     properties: 속성
     bars: 바
@@ -171,6 +185,7 @@ nl:
     index: Overzicht
     tables: Tabellen
     live: Bijhouden
+    console: 'Console'
     lists: Lijsten
     properties: Eigenschappen
     bars: 'Staven'
@@ -183,6 +198,7 @@ pl:
     index: Przegląd
     tables: Tabele
     live: 'Na bieżąco'
+    console: 'Konsola'
     lists: Listy
     properties: Właściwości
     bars: 'Słupki'
@@ -207,6 +223,7 @@ ru:
     index: Обзор
     tables: Таблицы
     live: 'В реальном времени'
+    console: 'Консоль'
     lists: Списки
     properties: Свойства
     bars: 'Столбцы'
@@ -219,6 +236,7 @@ th:
     index: ภาพรวม
     tables: ตาราง
     live: ติดตามข้อมูล
+    console: 'คอนโซล'
     lists: รายการ
     properties: คุณสมบัติ
     bars: แถบ
@@ -231,6 +249,7 @@ tr:
     index: 'Genel Bakış'
     tables: Tablolar
     live: 'Güncel Tutma'
+    console: 'Konsol'
     lists: Listeler
     properties: Özellikler
     bars: Çubuklar
@@ -243,6 +262,7 @@ ur:
     index: جائزہ
     tables: ٹیبلز
     live: 'اپ ڈیٹ رہنا'
+    console: 'کنسول'
     lists: فہرستیں
     properties: خصوصیات
     bars: بارز
@@ -255,6 +275,7 @@ vi:
     index: 'Tổng quan'
     tables: Bảng
     live: 'Cập nhật'
+    console: 'Bảng điều khiển'
     lists: 'Danh sách'
     properties: 'Thuộc tính'
     bars: Thanh
@@ -267,6 +288,7 @@ zh:
     index: 概述
     tables: 表格
     live: 保持更新
+    console: '控制台'
     lists: 列表
     properties: 属性
     bars: 条形图

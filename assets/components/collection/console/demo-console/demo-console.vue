@@ -56,7 +56,7 @@ export default {
 
   data() {
     return {
-      pageLength: 20,
+      pageLength: 10,
       // What was last pointed at: a ref clicked, a line clicked.
       picked: null
     };
@@ -79,9 +79,22 @@ export default {
     // console asks — the freshest page first, or the pages in order with
     // the last one reachable as `-1`.
     async fetchEntitiesPage(page) {
+      return this.readLines(page, this.getPageLength());
+    },
+
+    // Read again, every page held comes back in one reading, as the api
+    // would answer it.
+    async fetchHeldEntities() {
+      if (this.appendedPagesCount <= 1) {
+        return this.fetchEntitiesPage(this.page);
+      }
+
+      return this.readLines(0, this.getPageLength() * this.appendedPagesCount);
+    },
+
+    readLines(page, length) {
       const age = Math.floor((Date.now() - STARTED_AT) / LINE_INTERVAL_MS);
       const total = Math.min(LINES_AT_MOST, LINES_AT_START + age);
-      const length = this.getPageLength();
       const pagesCount = Math.max(1, Math.ceil(total / length));
       const resolved = page < 0 ? pagesCount + page : page;
       const all = Array.from({ length: total }, (value, index) => new DemoLine(index));

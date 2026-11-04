@@ -1,0 +1,23 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/data/layout/layout-data.html.twig' -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.latest.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.latest.description' | trans }}</div>
+    <div class="block">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/console/demo-console', { order: 'newest' }) }}
+    </div>
+
+    <h2>{{ '@page::section.oldest.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.oldest.description' | trans }}</div>
+    <div class="block">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/console/demo-console', { order: 'oldest' }) }}
+    </div>
+
+    <h2>{{ '@page::section.parts.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.parts.description' | trans }}</div>
+    <div class="block">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/console/demo-console', { order: 'newest', showToolbar: true }) }}
+    </div>
+{%- endblock -%}
