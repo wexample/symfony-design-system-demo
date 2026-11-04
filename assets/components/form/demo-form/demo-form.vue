@@ -17,6 +17,14 @@ export default {
     SubmitInput
   },
 
+  props: {
+    // The route answering the form, handed by the page in full.
+    submitUrl: {
+      type: String,
+      required: true
+    }
+  },
+
   data() {
     return {
       textSimple: '',
@@ -33,7 +41,7 @@ export default {
       radioChoice: '',
       switchValue: false,
       behavior: 'default',
-      submitEndpoint: 'test',
+      submitEndpoint: this.submitUrl,
       formSubmitted: false,
     };
   },

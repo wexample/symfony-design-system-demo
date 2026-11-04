@@ -3,6 +3,10 @@
 {%- block page_body -%}
     <div class="block block--padded block--vertical">
         <h2>{{ '@page::page_title' | trans }}</h2>
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-form') }}
+        {#- Where the form is sent: the page's own route, in full — the api
+            client would prefix a bare path with its own address. -#}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-form', {
+            submitUrl: path('wexample_design_system_generic_form_test'),
+        }) }}
     </div>
 {%- endblock -%}
