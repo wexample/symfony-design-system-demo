@@ -1,0 +1,10 @@
+@use '@wexample/symfony-design-system/components/collection/console/abstract-entity-console/abstract-entity-console';
+@use '@wexample/symfony-design-system/css/shapes/toolbar';
+
+// A console takes the height it is given: here, a few lines' worth, so the
+// page shows it scrolling.
+.demo-console {
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+}

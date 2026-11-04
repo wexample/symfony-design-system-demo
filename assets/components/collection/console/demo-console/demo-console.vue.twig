@@ -1,0 +1,10 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/collection/console/abstract-entity-console/abstract-entity-console.vue.twig' -%}
+
+{%- block vue_body -%}
+    <div class="demo-console">
+        <div v-if="showToolbar" class="toolbar toolbar--shaded toolbar--compact">
+            <span class="text-secondary">[[ order ]] · [[ picked ? 'picked: ' + picked : 'nothing picked yet' ]]</span>
+        </div>
+        {{ parent() }}
+    </div>
+{%- endblock -%}
