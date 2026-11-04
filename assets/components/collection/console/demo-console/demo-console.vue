@@ -117,10 +117,10 @@ export default {
       return {
         time: line.dateCreated,
         tone: line.tone,
+        id: line.id,
         kind: line.name,
         ref: { label: line.ref, onClick: (entity) => { this.picked = `slot ${entity.ref}`; } },
         text: line.text,
-        end: line.id,
         onClick: (entity) => { this.picked = entity.id; }
       };
     }
