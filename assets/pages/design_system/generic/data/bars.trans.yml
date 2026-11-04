@@ -41,9 +41,6 @@ en:
     keeping_up:
       title: And kept up to date
       description: "A bar list is a collection like any other, so the three ways a collection hears that the world moved on are open to it: an app event, a live source, polling. This one listens to an event — ring it and watch the rows come back. See Keeping up for the three of them side by side."
-    picked:
-      title: 'Or picked'
-      description: 'A list whose lines are picked rather than followed (`selectable`): each a button, the one picked pressed — the session a board shows, the account a panel edits. The list says which one through `pick`.'
 
   sample:
     minimal:
@@ -129,9 +126,6 @@ ar:
     keeping_up:
       title: 'وتم تحديثه'
       description: 'قائمة الحانات هي مجموعة مثل أي مجموعة أخرى، لذا فإن الطرق الثلاثة التي تسمع بها مجموعة أن العالم قد تقدم مفتوحة لها: حدث تطبيق، مصدر مباشر، استقصاء. هذه تستمع إلى حدث - رنها وراقب الصفوف تعود. انظر "مواكبة" للثلاثة منهم جنبًا إلى جنب.'
-    picked:
-      title: 'أو يُختار منها'
-      description: 'قائمة تُختار سطورها بدل أن تُتبع (`selectable`): كل سطر زر، والمختار منها مضغوط — الجلسة التي تعرضها اللوحة، الحساب الذي تحرره لوحة جانبية. تخبر القائمة بالمختار عبر `pick`.'
   sample:
     minimal:
       title: 'عنوان بمفرده'
@@ -213,9 +207,6 @@ bn:
     keeping_up:
       title: 'এবং আপ টু ডেট রাখা'
       description: 'একটি বার তালিকা অন্যান্য যেকোনো সংগ্রহের মতো একটি সংগ্রহ, তাই পৃথিবী এগিয়ে যাওয়ার তিনটি উপায় এটি শুনতে পারে: একটি অ্যাপ ইভেন্ট, একটি লাইভ সোর্স, পোলিং। এটি একটি ইভেন্ট শুনছে — এটি রিং করুন এবং সারিগুলি ফিরে আসতে দেখুন। তাদের তিনটি পাশে একটি সাথে দেখুন Keeping up।'
-    picked:
-      title: 'অথবা বেছে নেওয়া'
-      description: 'এমন একটি তালিকা যার লাইনগুলো অনুসরণ নয়, বেছে নেওয়া হয় (`selectable`): প্রতিটি একটি বোতাম, বেছে নেওয়াটি চাপা — বোর্ড যে সেশন দেখায়, প্যানেল যে অ্যাকাউন্ট সম্পাদনা করে। তালিকা `pick` দিয়ে জানায় কোনটি।'
   sample:
     minimal:
       title: 'একটি শিরোনাম একা'
@@ -297,9 +288,6 @@ de:
     keeping_up:
       title: 'Und auf dem neuesten Stand gehalten'
       description: 'Eine Balkenliste ist eine Sammlung wie jede andere, daher sind die drei Möglichkeiten, wie eine Sammlung hört, dass die Welt weitergezogen ist, für sie offen: ein App-Ereignis, eine Live-Quelle, Abfragen. Diese hört auf ein Ereignis – rufe es und sieh die Zeilen zurückkommen. Siehe Auf dem Laufenden für die drei nebeneinander.'
-    picked:
-      title: 'Oder ausgewählt'
-      description: 'Eine Liste, deren Zeilen ausgewählt statt verfolgt werden (`selectable`): jede ein Button, die gewählte gedrückt — die Sitzung, die ein Board zeigt, das Konto, das ein Panel bearbeitet. Welche, meldet die Liste über `pick`.'
   sample:
     minimal:
       title: 'Ein Titel für sich'
@@ -381,9 +369,6 @@ es:
     keeping_up:
       title: 'Y mantenida actualizada'
       description: 'Una lista de bares es una colección como cualquier otra, así que las tres formas en que una colección escucha que el mundo ha avanzado están abiertas a ella: un evento de la aplicación, una fuente en vivo, sondeo. Esta escucha un evento — suena y observa cómo vuelven las filas. Ver Mantenerse al día para los tres juntos.'
-    picked:
-      title: 'O elegida'
-      description: 'Una lista cuyas líneas se eligen en lugar de seguirse (`selectable`): cada una un botón, la elegida pulsada — la sesión que muestra un tablero, la cuenta que edita un panel. La lista dice cuál mediante `pick`.'
   sample:
     minimal:
       title: 'Un título por sí solo'
@@ -465,9 +450,6 @@ fa:
     keeping_up:
       title: 'و به روز نگه داشته شده است'
       description: 'یک فهرست نوار یک مجموعه مانند هر مجموعه دیگری است، بنابراین سه راهی که یک مجموعه می‌فهمد که دنیا پیش رفته است برای آن باز است: یک رویداد برنامه، یک منبع زنده، نظارت. این یکی به یک رویداد گوش می‌دهد — آن را صدا بزنید و ببینید ردیف‌ها برمی‌گردند. به Keeping up برای سه مورد آن‌ها در کنار هم مراجعه کنید.'
-    picked:
-      title: 'یا برگزیده'
-      description: 'فهرستی که سطرهایش برگزیده می‌شوند نه دنبال (`selectable`): هر سطر یک دکمه، برگزیده فشرده — نشستی که تخته نشان می‌دهد، حسابی که پنل ویرایش می‌کند. فهرست با `pick` می‌گوید کدام.'
   sample:
     minimal:
       title: 'یک عنوان به تنهایی'
@@ -549,9 +531,6 @@ fi:
     keeping_up:
       title: 'Ja pidetään ajan tasalla'
       description: 'Palkkilista on kokoelma kuten mikä tahansa muu, joten kolme tapaa, joilla kokoelma kuulee, että maailma on edennyt, ovat sille avoimia: sovellus tapahtuma, live-lähde, kysely. Tämä kuuntelee tapahtumaa — soita ja katso rivien palaavan. Katso Ajantasalla pitämistä kolmen vieressä.'
-    picked:
-      title: 'Tai valittu'
-      description: 'Lista, jonka rivit valitaan eikä seurata (`selectable`): jokainen painike, valittu painettuna — taulun näyttämä istunto, paneelin muokkaama tili. Lista kertoo valinnan `pick`-tapahtumalla.'
   sample:
     minimal:
       title: 'Otsikko itsessään'
@@ -633,9 +612,6 @@ fr:
     keeping_up:
       title: 'Et mise à jour'
       description: "Une liste de barres est une collection comme une autre, donc les trois manières dont une collection entend que le monde a avancé lui sont ouvertes : un événement d'application, une source en direct, un sondage. Celle-ci écoute un événement — sonnez-le et regardez les lignes revenir. Voir Mise à jour pour les trois d'entre eux côte à côte."
-    picked:
-      title: 'Ou choisie'
-      description: 'Une liste dont on choisit les lignes plutôt qu''on ne les suit (`selectable`) : chacune un bouton, celle choisie enfoncée — la session qu''affiche un tableau, le compte qu''édite un panneau. La liste dit laquelle par `pick`.'
   sample:
     minimal:
       title: 'Un titre à lui seul'
@@ -717,9 +693,6 @@ he:
     keeping_up:
       title: 'ושומרת על עדכניות'
       description: 'רשימת ברים היא אוסף כמו כל אוסף אחר, כך שהשלוש דרכים שבהן אוסף שומע שהעולם התקדם פתוחות בפניו: אירוע אפליקציה, מקור חי, חיפוש. זה שומע לאירוע — התקשר וצפה בשורות חוזרות. ראה שמירה על עדכניות לשלושתם זה לצד זה.'
-    picked:
-      title: 'או נבחרת'
-      description: 'רשימה ששורותיה נבחרות ולא נעקבות (`selectable`): כל אחת כפתור, הנבחרת לחוצה — הסשן שלוח מציג, החשבון שפאנל עורך. הרשימה אומרת איזו דרך `pick`.'
   sample:
     minimal:
       title: 'כותרת לבד'
@@ -801,9 +774,6 @@ hi:
     keeping_up:
       title: 'और अद्यतित रखा गया'
       description: 'एक बार सूची एक संग्रह है जैसे कोई अन्य, इसलिए तीन तरीके जिनसे एक संग्रह सुनता है कि दुनिया आगे बढ़ गई है, उसके लिए खुले हैं: एक ऐप इवेंट, एक लाइव स्रोत, पॉलिंग। यह एक इवेंट को सुनता है — इसे बजाएं और पंक्तियाँ वापस आती हैं। देखिए Keeping up तीनों को एक साथ।'
-    picked:
-      title: 'या चुनी गई'
-      description: 'ऐसी सूची जिसकी पंक्तियाँ खोली नहीं, चुनी जाती हैं (`selectable`): हर एक बटन, चुनी हुई दबी हुई — बोर्ड जो सत्र दिखाता है, पैनल जो खाता संपादित करता है। सूची `pick` से बताती है कौन-सी।'
   sample:
     minimal:
       title: 'एक शीर्षक अपने आप में'
@@ -885,9 +855,6 @@ id:
     keeping_up:
       title: 'Dan tetap diperbarui'
       description: 'Daftar bilah adalah koleksi seperti lainnya, jadi tiga cara sebuah koleksi mendengar bahwa dunia telah bergerak maju terbuka untuknya: acara aplikasi, sumber langsung, polling. Yang ini mendengarkan sebuah acara — bunyikan dan lihat baris kembali. Lihat Menjaga agar tetap diperbarui untuk ketiganya berdampingan.'
-    picked:
-      title: 'Atau dipilih'
-      description: 'Daftar yang barisnya dipilih, bukan diikuti (`selectable`): masing-masing tombol, yang dipilih tertekan — sesi yang ditampilkan papan, akun yang disunting panel. Daftar memberi tahu yang mana lewat `pick`.'
   sample:
     minimal:
       title: 'Judul sendiri'
@@ -969,9 +936,6 @@ it:
     keeping_up:
       title: 'E mantenuto aggiornato'
       description: "Un elenco di barre è una collezione come qualsiasi altra, quindi i tre modi in cui una collezione percepisce che il mondo è andato avanti sono aperti a essa: un evento dell'app, una fonte live, polling. Questo ascolta un evento — chiamalo e guarda le righe tornare. Vedi Mantenere aggiornato per i tre affiancati."
-    picked:
-      title: 'O scelta'
-      description: 'Una lista le cui righe si scelgono invece di seguirle (`selectable`): ognuna un pulsante, quella scelta premuta — la sessione che mostra una lavagna, l''account che modifica un pannello. La lista dice quale tramite `pick`.'
   sample:
     minimal:
       title: 'Un titolo a sé'
@@ -1053,9 +1017,6 @@ ja:
     keeping_up:
       title: 最新の情報を保持
       description: 'バーリストは他のコレクションと同様であり、世界が進んだことをコレクションが知る3つの方法が開かれています：アプリイベント、ライブソース、ポーリング。このリストはイベントを聞きます — リングして行が戻ってくるのを見てください。並んでいる3つの側面のために「最新の情報を保持」を参照してください。'
-    picked:
-      title: 'あるいは選ぶ'
-      description: '行をたどるのではなく選ぶリスト（`selectable`）：各行がボタンで、選んだ行が押された状態 — ボードが表示するセッション、パネルが編集するアカウント。どれかは `pick` で伝えます。'
   sample:
     minimal:
       title: 単独のタイトル
@@ -1137,9 +1098,6 @@ ko:
     keeping_up:
       title: '그리고 최신 상태로 유지'
       description: '막대 목록은 다른 모든 컬렉션처럼 컬렉션입니다, 그래서 세 가지 방법으로 세상이 변했다는 것을 알 수 있습니다: 앱 이벤트, 실시간 소스, 폴링. 이 목록은 이벤트를 듣습니다 — 링을 울리고 행이 돌아오는 것을 지켜보세요. 그들 사이에 세 가지를 나란히 유지하는 것을 참조하세요.'
-    picked:
-      title: '또는 고르기'
-      description: '줄을 따라가지 않고 고르는 목록(`selectable`): 각 줄이 버튼이고, 고른 줄이 눌린 상태 — 보드가 보여 주는 세션, 패널이 편집하는 계정. 어느 것인지는 `pick`으로 알립니다.'
   sample:
     minimal:
       title: '혼자 있는 제목'
@@ -1221,9 +1179,6 @@ nl:
     keeping_up:
       title: 'En actueel gehouden'
       description: 'Een bar lijst is een verzameling zoals elke andere, dus de drie manieren waarop een verzameling hoort dat de wereld verder is gegaan, zijn ook voor haar open: een app-evenement, een live bron, polling. Deze luistert naar een evenement — bel het en kijk de rijen terugkomen. Zie Actueel houden voor de drie van hen naast elkaar.'
-    picked:
-      title: 'Of gekozen'
-      description: 'Een lijst waarvan je de regels kiest in plaats van volgt (`selectable`): elk een knop, de gekozen ingedrukt — de sessie die een bord toont, het account dat een paneel bewerkt. De lijst meldt welke via `pick`.'
   sample:
     minimal:
       title: 'Een titel op zichzelf'
@@ -1305,9 +1260,6 @@ pl:
     keeping_up:
       title: 'I utrzymywana na bieżąco'
       description: 'Lista pasków to zbiór jak każdy inny, więc trzy sposoby, w jakie zbiór słyszy, że świat się zmienił, są dla niego otwarte: zdarzenie aplikacji, źródło na żywo, polling. Ten słucha zdarzenia — zadzwoń i obserwuj, jak wiersze wracają. Zobacz Utrzymywanie aktualności dla trzech z nich obok siebie.'
-    picked:
-      title: 'Albo wybierana'
-      description: 'Lista, której wiersze się wybiera, a nie otwiera (`selectable`): każdy to przycisk, wybrany wciśnięty — sesja pokazywana na tablicy, konto edytowane w panelu. Lista mówi który przez `pick`.'
   sample:
     minimal:
       title: 'Tytuł samodzielny'
@@ -1389,9 +1341,6 @@ pt_BR:
     keeping_up:
       title: 'E mantida atualizada'
       description: 'Uma lista de barras é uma coleção como qualquer outra, então as três maneiras de uma coleção ouvir que o mundo avançou estão abertas a ela: um evento de aplicativo, uma fonte ao vivo, polling. Esta escuta um evento — toque e veja as linhas voltarem. Veja Mantendo atualizado para os três lado a lado.'
-    picked:
-      title: 'Ou escolhida'
-      description: 'Uma lista cujas linhas são escolhidas em vez de seguidas (`selectable`): cada uma um botão, a escolhida pressionada — a sessão que um quadro mostra, a conta que um painel edita. A lista diz qual por `pick`.'
   sample:
     minimal:
       title: 'Um título por conta própria'
@@ -1473,9 +1422,6 @@ ru:
     keeping_up:
       title: 'И поддерживается в актуальном состоянии'
       description: 'Список панелей — это коллекция, как и любая другая, поэтому три способа, которыми коллекция слышит о том, что мир продолжает движение, открыты для нее: событие приложения, живой источник, опрос. Этот слушает событие — позвоните и смотрите, как строки возвращаются. См. Актуальное состояние для трех из них бок о бок.'
-    picked:
-      title: 'Или выбираемый'
-      description: 'Список, строки которого выбирают, а не открывают (`selectable`): каждая — кнопка, выбранная нажата — сессия, которую показывает доска, учётная запись, которую правит панель. Какая — список сообщает через `pick`.'
   sample:
     minimal:
       title: 'Заголовок сам по себе'
@@ -1557,9 +1503,6 @@ th:
     keeping_up:
       title: และรักษาให้ทันสมัย
       description: 'รายการแถบเป็นการรวบรวมเช่นเดียวกับอื่นๆ, ดังนั้นสามวิธีที่การรวบรวมได้ยินว่าทางโลกก้าวไปข้างหน้าเปิดให้มัน: เหตุการณ์แอป, แหล่งสด, การตรวจสอบซ้ำ นี่ฟังเหตุการณ์ — โทรและดูแถวกลับมา ดูการรักษาให้ทันสมัยสำหรับสามรายการข้างเคียง'
-    picked:
-      title: 'หรือเลือก'
-      description: 'รายการที่เลือกบรรทัดแทนการตามไป (`selectable`): แต่ละบรรทัดเป็นปุ่ม บรรทัดที่เลือกถูกกดค้าง — เซสชันที่บอร์ดแสดง บัญชีที่แผงแก้ไข รายการบอกว่าอันไหนผ่าน `pick`'
   sample:
     minimal:
       title: ชื่อเพียงอย่างเดียว
@@ -1641,9 +1584,6 @@ tr:
     keeping_up:
       title: 'Ve güncel tutulur'
       description: "Bir çubuk listesi, diğerleri gibi bir koleksiyondur, bu yüzden bir koleksiyonun dünyanın ilerlediğini duyabileceği üç yol ona da açıktır: bir uygulama olayı, bir canlı kaynak, anket. Bu, bir olayı dinler — çal ve satırların geri geldiğini izle. Yan yana üçü için Güncel Tutma'ya bak."
-    picked:
-      title: 'Ya da seçilen'
-      description: 'Satırları izlenmek yerine seçilen bir liste (`selectable`): her biri bir düğme, seçilen basılı — bir panonun gösterdiği oturum, bir panelin düzenlediği hesap. Hangisi olduğunu liste `pick` ile söyler.'
   sample:
     minimal:
       title: 'Kendine ait bir başlık'
@@ -1725,9 +1665,6 @@ ur:
     keeping_up:
       title: 'اور تازہ ترین رکھا گیا'
       description: 'ایک بار کی فہرست کسی اور کی طرح ایک مجموعہ ہے، تو اس دنیا کے آگے بڑھنے کی تین طریقے اس کے لیے کھلے ہیں: ایک ایپ ایونٹ، ایک زندہ ماخذ، پولنگ۔ یہ ایک ایونٹ کو سنتا ہے — اسے بجائیں اور صفیں واپس آتی ہیں۔ تینوں کو ایک ساتھ دیکھنے کے لیے Keeping up دیکھیں۔'
-    picked:
-      title: 'یا چنی ہوئی'
-      description: 'ایسی فہرست جس کی سطریں کھولی نہیں، چنی جاتی ہیں (`selectable`): ہر ایک بٹن، چنی ہوئی دبی ہوئی — بورڈ جو سیشن دکھاتا ہے، پینل جو اکاؤنٹ میں ترمیم کرتا ہے۔ فہرست `pick` سے بتاتی ہے کون سی۔'
   sample:
     minimal:
       title: 'صرف ایک عنوان'
@@ -1809,9 +1746,6 @@ vi:
     keeping_up:
       title: 'Và được cập nhật'
       description: 'Danh sách thanh là một bộ sưu tập như bất kỳ bộ sưu tập nào khác, vì vậy ba cách mà một bộ sưu tập nghe rằng thế giới đã tiến lên là mở cho nó: một sự kiện ứng dụng, một nguồn trực tiếp, polling. Cái này lắng nghe một sự kiện — gọi nó và xem các hàng quay lại. Xem Cập nhật cho ba cái đó bên cạnh nhau.'
-    picked:
-      title: 'Hoặc được chọn'
-      description: 'Một danh sách mà các dòng được chọn thay vì đi theo (`selectable`): mỗi dòng là một nút, dòng được chọn ở trạng thái nhấn — phiên mà bảng hiển thị, tài khoản mà bảng điều khiển chỉnh sửa. Danh sách báo dòng nào qua `pick`.'
   sample:
     minimal:
       title: 'Một tiêu đề riêng'
@@ -1893,9 +1827,6 @@ zh:
     keeping_up:
       title: '并保持更新'
       description: '条目栏列表和其他集合一样，因此集合获知变化的三种方式都适用：应用事件、实时数据源、轮询。这个示例监听一个事件——触发它，看着各行重新出现。三种方式的并排对比见“实时更新”。'
-    picked:
-      title: '或供挑选'
-      description: '行是被挑选而非跳转的列表（`selectable`）：每行是一个按钮，选中的一行呈按下状态——看板显示的会话、面板编辑的账户。列表通过 `pick` 告知选中哪一行。'
   sample:
     minimal:
       title: '只有标题'

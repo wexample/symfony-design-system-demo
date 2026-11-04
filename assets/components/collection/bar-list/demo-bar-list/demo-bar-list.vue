@@ -43,9 +43,7 @@ export default {
   data() {
     return {
       pageLength: 5,
-      readCount: 0,
-      // The line picked, kept here: the demo has no page to tell it to.
-      picked: this.selectedKey
+      readCount: 0
     };
   },
 
@@ -93,19 +91,9 @@ export default {
         title: entity.name,
         subtitle: entity.role,
         icon: entity.icon,
-        // Picked lines go nowhere: a link would win over the button.
-        href: this.selectable ? null : '#',
+        href: '#',
         date: entity.seen
       };
-    },
-
-    getSelectedKey() {
-      return this.picked;
-    },
-
-    pickEntity(entity) {
-      this.picked = entity.id;
-      this.$emit('pick', entity);
     },
 
     // What a live message would have done, had there been a server to send one.
