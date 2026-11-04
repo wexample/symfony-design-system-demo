@@ -137,6 +137,12 @@
         {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/bar-list/demo-bar-list', { variant: 'surfaces' }) }}
     </div>
 
+    <h2>{{ '@page::section.picked.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.picked.description' | trans }}</div>
+    <div class="block block--padded">
+        {{ vue_include(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/collection/bar-list/demo-bar-list', { selectable: true, selectedKey: 2 }) }}
+    </div>
+
     <h2>{{ '@page::section.keeping_up.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.keeping_up.description' | trans }}</div>
     <div class="block block--padded">
