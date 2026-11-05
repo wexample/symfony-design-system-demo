@@ -145,4 +145,21 @@
         { field: '@page::diff.phone' | trans, before: null, after: '+46 70 123 45 67' },
         { field: '@page::diff.team' | trans, before: 'Design', after: null },
     ], { before_label: '@page::diff.before' | trans, after_label: '@page::diff.after' | trans }) }}
+
+    {#- Two versions of a text, line by line: drawn by the server, then by a
+        vue — the same rows, its folds opened by a press. -#}
+    {%- set text_before = "{% if user %}\nHello {{ user.name }},\n{% endif %}\nYour order is ready.\nIt ships on Monday.\nTotal: {{ total }}\nThanks,\nThe team\n\nP.S. Keep this mail.\nReference: {{ ref }}\nSupport: help@example.com" -%}
+    {%- set text_after = "{% if user %}\nHello {{ user.first_name }},\n{% endif %}\nYour order is ready.\nIt ships on Tuesday, tracked.\nTotal: {{ total }}\nThanks,\nThe team\n\nP.S. Keep this mail.\nReference: {{ ref }}\nQuestions: help@example.com\nWe answer within a day." -%}
+    <h2>{{ '@page::section.diff_text.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.diff_text.description' | trans }}</div>
+    {{ diff_text(text_before, text_after, { before_label: '@page::diff.before' | trans, after_label: '@page::diff.after' | trans, context: 1 }) }}
+    <div class="lead">{{ '@page::section.diff_text.split' | trans }}</div>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/diff-text', {
+        before: text_before,
+        after: text_after,
+        mode: 'split',
+        context: 1,
+        beforeLabel: '@page::diff.before' | trans,
+        afterLabel: '@page::diff.after' | trans,
+    }) }}
 {%- endblock -%}

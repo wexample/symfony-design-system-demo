@@ -16,6 +16,10 @@ en:
     phone: Phone
     team: Team
   section:
+    diff_text:
+      title: "A text, line by line"
+      description: "diff_text(): two versions of a text — a template, a prompt — compared line by line, the lines added and removed with their numbers, the words changed marked; the lines far from any change folded, how many said. Drawn here by the server."
+      split: "The same two versions in a vue, side by side, a removal facing the line that replaced it; a fold opens when pressed."
     diff:
       title: What changed
       description: "diff(): field by field, what it was and what it is — the value that went struck, the one that stays in full, an empty side said as such. A record's history, a change to confirm, a sync under review."
@@ -107,6 +111,10 @@ ar:
     phone: الهاتف
     team: الفريق
   section:
+    diff_text:
+      title: "نص، سطرًا بسطر"
+      description: "diff_text(): نسختان من نص — قالب، أو موجّه — تُقارنان سطرًا بسطر، الأسطر المضافة والمحذوفة بأرقامها، والكلمات المتغيرة مميزة؛ والأسطر البعيدة عن أي تغيير مطوية. يرسمه الخادم هنا."
+      split: "النسختان نفسهما في vue جنبًا إلى جنب، السطر المحذوف مقابل السطر الذي حلّ محله؛ ويُفتح الطيّ بالضغط عليه."
     diff:
       title: 'ما الذي تغير'
       description: 'diff(): حقل بحقل، ماذا كان وماذا أصبح — القيمة التي تم شطبها، تلك التي تبقى كاملة، جانب فارغ يُقال كما هو. تاريخ السجل، تغيير يجب التأكيد عليه، مزامنة قيد المراجعة.'
@@ -196,6 +204,10 @@ bn:
     phone: ফোন
     team: দল
   section:
+    diff_text:
+      title: "একটি লেখা, লাইন ধরে"
+      description: "diff_text(): একটি লেখার দুটি সংস্করণ — একটি টেমপ্লেট, একটি প্রম্পট — লাইন ধরে তুলনা, যোগ ও বাদ দেওয়া লাইন তাদের নম্বরসহ, বদলানো শব্দ চিহ্নিত; কোনো বদল থেকে দূরের লাইন ভাঁজ করা। এখানে সার্ভার আঁকে।"
+      split: "একই দুটি সংস্করণ একটি vue-তে পাশাপাশি, বাদ দেওয়া লাইন তার জায়গায় আসা লাইনের সামনে; ভাঁজ চাপলে খোলে।"
     diff:
       title: 'কি পরিবর্তন হলো'
       description: 'diff(): ক্ষেত্র দ্বারা ক্ষেত্র, এটি কি ছিল এবং এটি কি — যে মানটি বাদ পড়েছে, যে মানটি পুরোপুরি আছে, একটি খালি দিক এমন বলেছে। একটি রেকর্ডের ইতিহাস, একটি পরিবর্তন নিশ্চিত করার জন্য, একটি সমন্বয় পর্যালোচনাধীন।'
@@ -285,6 +297,10 @@ de:
     phone: Telefon
     team: Team
   section:
+    diff_text:
+      title: "Ein Text, Zeile für Zeile"
+      description: "diff_text(): zwei Fassungen eines Textes — eine Vorlage, ein Prompt — Zeile für Zeile verglichen, hinzugefügte und entfernte Zeilen mit ihren Nummern, geänderte Wörter markiert; Zeilen fern jeder Änderung eingeklappt. Hier vom Server gezeichnet."
+      split: "Dieselben zwei Fassungen in einer Vue, nebeneinander, eine entfernte Zeile gegenüber der, die sie ersetzt hat; ein Falz öffnet sich auf Druck."
     diff:
       title: 'Was hat sich geändert'
       description: 'diff(): Feld für Feld, wie es war und wie es ist — der Wert, der durchgestrichen wurde, der, der vollständig bleibt, eine leere Seite, die als solche gesagt wird. Die Historie eines Eintrags, eine Änderung zur Bestätigung, eine Synchronisierung zur Überprüfung.'
@@ -374,6 +390,10 @@ es:
     phone: Teléfono
     team: Equipo
   section:
+    diff_text:
+      title: "Un texto, línea a línea"
+      description: "diff_text(): dos versiones de un texto — una plantilla, un prompt — comparadas línea a línea, las líneas añadidas y quitadas con sus números, las palabras cambiadas marcadas; las líneas lejos de todo cambio plegadas. Dibujado aquí por el servidor."
+      split: "Las mismas dos versiones en una vue, lado a lado, una línea quitada frente a la que la reemplazó; un pliegue se abre al pulsarlo."
     diff:
       title: 'Qué cambió'
       description: 'diff(): campo por campo, lo que era y lo que es — el valor que se tachó, el que permanece íntegro, un lado vacío dicho como tal. La historia de un registro, un cambio por confirmar, una sincronización en revisión.'
@@ -463,6 +483,10 @@ fa:
     phone: تلفن
     team: تیم
   section:
+    diff_text:
+      title: "یک متن، سطر به سطر"
+      description: "diff_text(): دو نسخهٔ یک متن — یک قالب، یک پرامپت — سطر به سطر مقایسه می‌شوند، سطرهای افزوده و حذف‌شده با شماره‌شان، واژه‌های تغییرکرده نشانه‌دار؛ سطرهای دور از هر تغییر جمع‌شده. اینجا سرور می‌کشد."
+      split: "همان دو نسخه در یک vue کنار هم، سطر حذف‌شده روبه‌روی سطری که جایش آمد؛ بخش جمع‌شده با فشار باز می‌شود."
     diff:
       title: 'چه چیزی تغییر کرد'
       description: 'diff(): فیلد به فیلد، چه بود و چه شده — مقداری که خط خورده، آنکه به طور کامل باقی مانده، یک سمت خالی به همین صورت گفته شده. تاریخچه یک رکورد، تغییر برای تأیید، همگام‌سازی در حال بررسی.'
@@ -552,6 +576,10 @@ fi:
     phone: Puhelin
     team: Tiimi
   section:
+    diff_text:
+      title: "Teksti rivi riviltä"
+      description: "diff_text(): tekstin kaksi versiota — malli, kehote — verrattuna rivi riviltä, lisätyt ja poistetut rivit numeroineen, muuttuneet sanat merkittyinä; muutoksista kaukana olevat rivit taitettuina. Tässä palvelimen piirtämä."
+      split: "Samat kaksi versiota vuessa rinnakkain, poistettu rivi sen korvanneen rivin kohdalla; taitos aukeaa painamalla."
     diff:
       title: 'Mikä muuttui'
       description: 'diff(): kenttä kentältä, mitä se oli ja mitä se on — arvo, joka poistettiin, se, joka jää täyteen, tyhjää puolta sanotaan niin. Tietueen historia, muutos vahvistettavaksi, synkronointi tarkastettavana.'
@@ -641,6 +669,10 @@ fr:
     phone: Téléphone
     team: Équipe
   section:
+    diff_text:
+      title: "Un texte, ligne à ligne"
+      description: "diff_text() : deux versions d’un texte — un template, un prompt — comparées ligne à ligne, les lignes ajoutées et retirées avec leurs numéros, les mots changés marqués ; les lignes loin de tout changement repliées, combien dit. Dessiné ici par le serveur."
+      split: "Les deux mêmes versions dans une vue, côte à côte, une ligne retirée face à celle qui l’a remplacée ; un pli s’ouvre quand on le presse."
     diff:
       title: Ce qui a changé
       description: "diff() : champ par champ, ce que c'était et ce que c'est — la valeur partie barrée, celle qui reste en entier, un côté vide dit comme tel. L'historique d'une fiche, une modification à confirmer, une synchronisation à revoir."
@@ -730,6 +762,10 @@ he:
     phone: טלפון
     team: צוות
   section:
+    diff_text:
+      title: "טקסט, שורה אחר שורה"
+      description: "diff_text(): שתי גרסאות של טקסט — תבנית, הנחיה — מושוות שורה אחר שורה, השורות שנוספו והוסרו עם מספריהן, המילים ששונו מסומנות; שורות רחוקות מכל שינוי מקופלות. מצויר כאן על ידי השרת."
+      split: "אותן שתי גרסאות ב-vue זו לצד זו, שורה שהוסרה מול זו שהחליפה אותה; קפל נפתח בלחיצה."
     diff:
       title: 'מה השתנה'
       description: 'diff(): שדה אחר שדה, מה היה ומה יש — הערך שנמחק, זה שנשאר במלואו, צד ריק שנאמר כך. היסטוריית רשומה, שינוי לאישור, סינכרון בבדיקה.'
@@ -819,6 +855,10 @@ hi:
     phone: फोन
     team: टीम
   section:
+    diff_text:
+      title: "एक पाठ, पंक्ति दर पंक्ति"
+      description: "diff_text(): किसी पाठ के दो संस्करण — एक टेम्पलेट, एक प्रॉम्प्ट — पंक्ति दर पंक्ति तुलना, जोड़ी और हटाई गई पंक्तियाँ अपने अंकों के साथ, बदले शब्द चिह्नित; किसी बदलाव से दूर की पंक्तियाँ मोड़ी हुई। यहाँ सर्वर ने बनाया।"
+      split: "वही दो संस्करण एक vue में साथ-साथ, हटाई गई पंक्ति उसकी जगह आई पंक्ति के सामने; मोड़ दबाने पर खुलता है।"
     diff:
       title: 'क्या बदला'
       description: 'diff(): क्षेत्र द्वारा क्षेत्र, यह क्या था और यह क्या है - वह मूल्य जो मिटा दिया गया, जो पूरा है, एक खाली पक्ष ऐसा कहा गया। एक रिकॉर्ड का इतिहास, पुष्टि के लिए एक बदलाव, समीक्षा के तहत एक समन्वय।'
@@ -908,6 +948,10 @@ id:
     phone: Telepon
     team: Tim
   section:
+    diff_text:
+      title: "Sebuah teks, baris demi baris"
+      description: "diff_text(): dua versi sebuah teks — templat, prompt — dibandingkan baris demi baris, baris yang ditambah dan dihapus dengan nomornya, kata yang berubah ditandai; baris yang jauh dari perubahan dilipat. Digambar di sini oleh server."
+      split: "Dua versi yang sama dalam vue, berdampingan, baris yang dihapus berhadapan dengan baris penggantinya; lipatan terbuka saat ditekan."
     diff:
       title: 'Apa yang berubah'
       description: 'diff(): kolom demi kolom, apa adanya dan apa yang sekarang — nilai yang dicoret, yang tetap utuh, sisi kosong disebutkan sebagai demikian. Riwayat catatan, perubahan untuk dikonfirmasi, sinkronisasi dalam tinjauan.'
@@ -997,6 +1041,10 @@ it:
     phone: Telefono
     team: Team
   section:
+    diff_text:
+      title: "Un testo, riga per riga"
+      description: "diff_text(): due versioni di un testo — un template, un prompt — confrontate riga per riga, le righe aggiunte e tolte con i loro numeri, le parole cambiate segnate; le righe lontane da ogni modifica ripiegate. Disegnato qui dal server."
+      split: "Le stesse due versioni in una vue, affiancate, una riga tolta di fronte a quella che l’ha sostituita; una piega si apre premendola."
     diff:
       title: 'Cosa è cambiato'
       description: "diff(): campo per campo, com'era e com'è — il valore che è stato colpito, quello che rimane completo, un lato vuoto detto come tale. La storia di un record, una modifica da confermare, una sincronizzazione in revisione."
@@ -1086,6 +1134,10 @@ ja:
     phone: 電話
     team: チーム
   section:
+    diff_text:
+      title: "テキストを行ごとに"
+      description: "diff_text()：テキストの2つの版（テンプレート、プロンプト）を行ごとに比較し、追加・削除された行を番号付きで、変わった語を強調して示します。変更から遠い行は折りたたまれます。ここではサーバーが描画しています。"
+      split: "同じ2つの版をvueで左右に並べ、削除された行をそれを置き換えた行と向かい合わせます。折りたたみは押すと開きます。"
     diff:
       title: 変更点
       description: 'diff(): フィールドごとの変更内容、元の値と現在の値 — 削除された値、残っている値、空の側面はそのように言及される。レコードの履歴、確認が必要な変更、レビュー中の同期。'
@@ -1175,6 +1227,10 @@ ko:
     phone: 전화
     team: 팀
   section:
+    diff_text:
+      title: "텍스트, 한 줄씩"
+      description: "diff_text(): 텍스트의 두 버전(템플릿, 프롬프트)을 한 줄씩 비교해, 추가되고 삭제된 줄을 번호와 함께, 바뀐 단어를 표시해 보여 줍니다. 변경에서 먼 줄은 접힙니다. 여기서는 서버가 그립니다."
+      split: "같은 두 버전을 vue에서 나란히, 삭제된 줄을 그것을 대신한 줄과 마주 보게 합니다. 접힌 부분은 누르면 열립니다."
     diff:
       title: '변경 사항'
       description: 'diff(): 필드별로, 무엇이었고 무엇인지 — 삭제된 값, 그대로 남아 있는 값, 비어 있는 면은 그렇게 언급됨. 기록의 역사, 확인할 변경 사항, 검토 중인 동기화.'
@@ -1264,6 +1320,10 @@ nl:
     phone: Telefoon
     team: Team
   section:
+    diff_text:
+      title: "Een tekst, regel voor regel"
+      description: "diff_text(): twee versies van een tekst — een sjabloon, een prompt — regel voor regel vergeleken, toegevoegde en verwijderde regels met hun nummers, gewijzigde woorden gemarkeerd; regels ver van elke wijziging ingeklapt. Hier door de server getekend."
+      split: "Dezelfde twee versies in een vue, naast elkaar, een verwijderde regel tegenover de regel die hem verving; een vouw opent op een druk."
     diff:
       title: 'Wat is veranderd'
       description: 'diff(): veld voor veld, wat het was en wat het is — de waarde die doorgehaald is, de waarde die volledig blijft, een lege zijde die als zodanig wordt aangegeven. De geschiedenis van een record, een wijziging ter bevestiging, een synchronisatie onder review.'
@@ -1353,6 +1413,10 @@ pl:
     phone: Telefon
     team: Zespół
   section:
+    diff_text:
+      title: "Tekst, wiersz po wierszu"
+      description: "diff_text(): dwie wersje tekstu — szablon, prompt — porównane wiersz po wierszu, wiersze dodane i usunięte z numerami, zmienione słowa zaznaczone; wiersze z dala od zmian zwinięte. Narysowane tu przez serwer."
+      split: "Te same dwie wersje w vue, obok siebie, wiersz usunięty naprzeciw tego, który go zastąpił; zwinięcie otwiera się po naciśnięciu."
     diff:
       title: 'Co się zmieniło'
       description: 'diff(): pole po polu, co było i co jest — wartość, która została przekreślona, ta, która pozostaje w całości, pusta strona powiedziana jako taka. Historia rekordu, zmiana do potwierdzenia, synchronizacja do przeglądu.'
@@ -1442,6 +1506,10 @@ pt_BR:
     phone: Telefone
     team: Equipe
   section:
+    diff_text:
+      title: "Um texto, linha a linha"
+      description: "diff_text(): duas versões de um texto — um template, um prompt — comparadas linha a linha, as linhas adicionadas e removidas com seus números, as palavras alteradas marcadas; as linhas longe de qualquer mudança recolhidas. Desenhado aqui pelo servidor."
+      split: "As mesmas duas versões em uma vue, lado a lado, uma linha removida diante da que a substituiu; uma dobra se abre ao ser pressionada."
     diff:
       title: 'O que mudou'
       description: 'diff(): campo a campo, como era e como é — o valor que foi riscado, o que permanece inteiro, um lado vazio dito como tal. O histórico de um registro, uma mudança a confirmar, uma sincronização em revisão.'
@@ -1531,6 +1599,10 @@ ru:
     phone: Телефон
     team: Команда
   section:
+    diff_text:
+      title: "Текст, строка за строкой"
+      description: "diff_text(): две версии текста — шаблон, промпт — сравнены построчно, добавленные и удалённые строки с номерами, изменённые слова отмечены; строки вдали от изменений свёрнуты. Здесь нарисовано сервером."
+      split: "Те же две версии во vue, бок о бок, удалённая строка напротив заменившей её; свёрнутое раскрывается нажатием."
     diff:
       title: 'Что изменилось'
       description: 'diff(): поле за полем, что было и что стало — значение, которое было вычеркнуто, то, что осталось в полном объёме, пустая сторона обозначена как таковая. История записи, изменение для подтверждения, синхронизация на рассмотрении.'
@@ -1620,6 +1692,10 @@ th:
     phone: โทรศัพท์
     team: ทีม
   section:
+    diff_text:
+      title: "ข้อความ ทีละบรรทัด"
+      description: "diff_text(): ข้อความสองฉบับ — เทมเพลต พรอมต์ — เทียบกันทีละบรรทัด บรรทัดที่เพิ่มและลบพร้อมเลขบรรทัด คำที่เปลี่ยนถูกเน้น บรรทัดที่ไกลจากการเปลี่ยนถูกพับ ที่นี่วาดโดยเซิร์ฟเวอร์"
+      split: "สองฉบับเดียวกันใน vue วางคู่กัน บรรทัดที่ลบอยู่ตรงข้ามบรรทัดที่มาแทน ส่วนที่พับเปิดเมื่อกด"
     diff:
       title: สิ่งที่เปลี่ยนแปลง
       description: 'diff(): ทีละฟิลด์ ว่ามันเป็นอย่างไรและตอนนี้เป็นอย่างไร — ค่าที่ถูกขีดฆ่า ค่าที่ยังอยู่เต็มๆ ด้านว่างที่บอกว่าเป็นแบบนั้น ประวัติของบันทึก การเปลี่ยนแปลงเพื่อยืนยัน การซิงค์อยู่ระหว่างการตรวจสอบ.'
@@ -1709,6 +1785,10 @@ tr:
     phone: Telefon
     team: Takım
   section:
+    diff_text:
+      title: "Bir metin, satır satır"
+      description: "diff_text(): bir metnin iki sürümü — bir şablon, bir istem — satır satır karşılaştırılır, eklenen ve çıkarılan satırlar numaralarıyla, değişen sözcükler işaretli; her değişiklikten uzak satırlar katlanır. Burada sunucu çiziyor."
+      split: "Aynı iki sürüm bir vue içinde yan yana, çıkarılan satır onun yerine geçenin karşısında; katlanan kısım basınca açılır."
     diff:
       title: 'Ne değişti'
       description: 'diff(): alan alan, neydi ve ne oldu — silinen değer, tam kalan, boş olan taraf böyle söylendi. Bir kaydın geçmişi, onaylanacak bir değişiklik, gözden geçirilen bir senkronizasyon.'
@@ -1798,6 +1878,10 @@ ur:
     phone: فون
     team: ٹیم
   section:
+    diff_text:
+      title: "ایک متن، سطر بہ سطر"
+      description: "diff_text(): کسی متن کے دو نسخے — ایک ٹیمپلیٹ، ایک پرامپٹ — سطر بہ سطر موازنہ، شامل اور حذف سطریں اپنے نمبروں کے ساتھ، بدلے الفاظ نمایاں؛ کسی تبدیلی سے دور کی سطریں تہہ شدہ۔ یہاں سرور نے بنایا۔"
+      split: "وہی دو نسخے ایک vue میں ساتھ ساتھ، حذف شدہ سطر اپنی جگہ آنے والی سطر کے سامنے؛ تہہ دبانے پر کھلتی ہے۔"
     diff:
       title: 'کیا بدلا'
       description: 'diff(): میدان بہ میدان، یہ کیا تھا اور یہ کیا ہے — وہ قیمت جو حذف کی گئی، وہ جو مکمل طور پر برقرار ہے، ایک خالی طرف جو اس طرح کہی گئی۔ ایک ریکارڈ کی تاریخ، ایک تبدیلی کی تصدیق، ایک ہم وقت سازی زیر جائزہ۔'
@@ -1887,6 +1971,10 @@ vi:
     phone: 'Điện thoại'
     team: Nhóm
   section:
+    diff_text:
+      title: "Một văn bản, từng dòng"
+      description: "diff_text(): hai phiên bản của một văn bản — một mẫu, một prompt — so sánh từng dòng, các dòng thêm và bớt kèm số dòng, các từ thay đổi được đánh dấu; các dòng xa mọi thay đổi được gập lại. Ở đây do máy chủ vẽ."
+      split: "Cùng hai phiên bản trong một vue, đặt cạnh nhau, dòng bị xóa đối diện dòng thay thế nó; phần gập mở ra khi nhấn."
     diff:
       title: 'Những gì đã thay đổi'
       description: 'diff(): từng trường một, cái đã có và cái hiện tại — giá trị đã bị gạch bỏ, cái còn lại đầy đủ, một bên trống được nói rõ như vậy. Lịch sử của một bản ghi, một thay đổi cần xác nhận, một đồng bộ đang được xem xét.'
@@ -1976,6 +2064,10 @@ zh:
     phone: 电话
     team: 团队
   section:
+    diff_text:
+      title: "文本，逐行"
+      description: "diff_text()：文本的两个版本（模板、提示词）逐行比较，增删的行带行号，改动的词被标出；远离改动的行被折叠。此处由服务器绘制。"
+      split: "同样两个版本在 vue 中并排，被删除的行对着替换它的行；折叠处点击即展开。"
     diff:
       title: 变更内容
       description: 'diff(): 按字段逐个显示，之前是什么，现在是什么 — 被删除的值，保留的值，空的部分也说明。记录的历史，待确认的变更，正在审查的同步。'
