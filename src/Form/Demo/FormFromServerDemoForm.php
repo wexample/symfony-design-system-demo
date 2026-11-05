@@ -9,6 +9,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Wexample\SymfonyForms\Form\AbstractForm;
+use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
 use Wexample\SymfonyForms\Form\Type\SelectInputType;
 use Wexample\SymfonyForms\Form\Type\TextareaInputType;
@@ -45,6 +46,10 @@ class FormFromServerDemoForm extends AbstractForm
             ->add('audience', SelectInputType::class, $field + [
                 'choices' => ['everyone', 'members', 'board'],
                 self::FIELD_OPTION_NAME_REQUIRED => true,
+            ])
+            ->add('metadata', KeyValueInputType::class, $field + [
+                self::FIELD_OPTION_NAME_REQUIRED => false,
+                'data' => ['lang' => 'en', 'channel' => 'web'],
             ]);
     }
 }

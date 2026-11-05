@@ -36,6 +36,10 @@ en:
           label: "Members"
         board:
           label: "The board"
+    metadata:
+      label: "Metadata"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
   error:
     refused:
       message: "The form as a whole is refused too."
@@ -80,6 +84,10 @@ ar:
           label: "الأعضاء"
         board:
           label: "المجلس"
+    metadata:
+      label: "البيانات الوصفية"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
   error:
     refused:
       message: "النموذج كله مرفوض أيضًا."
@@ -124,6 +132,10 @@ bn:
           label: "সদস্যরা"
         board:
           label: "বোর্ড"
+    metadata:
+      label: "মেটাডেটা"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
   error:
     refused:
       message: "পুরো ফর্মও প্রত্যাখ্যাত।"
@@ -168,6 +180,10 @@ de:
           label: "Mitglieder"
         board:
           label: "Der Vorstand"
+    metadata:
+      label: "Metadaten"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
   error:
     refused:
       message: "Auch das Formular als Ganzes wird zurückgewiesen."
@@ -212,6 +228,10 @@ es:
           label: "Los miembros"
         board:
           label: "La junta"
+    metadata:
+      label: "Metadatos"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
   error:
     refused:
       message: "El formulario entero también es rechazado."
@@ -256,6 +276,10 @@ fa:
           label: "اعضا"
         board:
           label: "هیئت مدیره"
+    metadata:
+      label: "فراداده"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
   error:
     refused:
       message: "کل فرم هم رد شده است."
@@ -300,6 +324,10 @@ fi:
           label: "Jäsenet"
         board:
           label: "Hallitus"
+    metadata:
+      label: "Metatiedot"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
   error:
     refused:
       message: "Myös koko lomake hylätään."
@@ -344,6 +372,10 @@ fr:
           label: "Les membres"
         board:
           label: "Le conseil"
+    metadata:
+      label: "Métadonnées"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
   error:
     refused:
       message: "Le formulaire entier est refusé aussi."
@@ -388,6 +420,10 @@ he:
           label: "חברים"
         board:
           label: "הדירקטוריון"
+    metadata:
+      label: "מטא-נתונים"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
   error:
     refused:
       message: "גם הטופס כולו נדחה."
@@ -432,6 +468,10 @@ hi:
           label: "सदस्य"
         board:
           label: "बोर्ड"
+    metadata:
+      label: "मेटाडेटा"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
   error:
     refused:
       message: "पूरा फ़ॉर्म भी अस्वीकृत है।"
@@ -476,6 +516,10 @@ id:
           label: "Anggota"
         board:
           label: "Dewan"
+    metadata:
+      label: "Metadata"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
   error:
     refused:
       message: "Seluruh formulir juga ditolak."
@@ -520,6 +564,10 @@ it:
           label: "I membri"
         board:
           label: "Il consiglio"
+    metadata:
+      label: "Metadati"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
   error:
     refused:
       message: "Anche il modulo intero è rifiutato."
@@ -564,6 +612,10 @@ ja:
           label: "メンバー"
         board:
           label: "理事会"
+    metadata:
+      label: "メタデータ"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
   error:
     refused:
       message: "フォーム全体も拒否されます。"
@@ -608,6 +660,10 @@ ko:
           label: "회원"
         board:
           label: "이사회"
+    metadata:
+      label: "메타데이터"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
   error:
     refused:
       message: "폼 전체도 거부됩니다."
@@ -652,6 +708,10 @@ nl:
           label: "Leden"
         board:
           label: "Het bestuur"
+    metadata:
+      label: "Metagegevens"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
   error:
     refused:
       message: "Het hele formulier wordt ook geweigerd."
@@ -696,6 +756,10 @@ pl:
           label: "Członkowie"
         board:
           label: "Zarząd"
+    metadata:
+      label: "Metadane"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
   error:
     refused:
       message: "Cały formularz też jest odrzucony."
@@ -740,6 +804,10 @@ pt_BR:
           label: "Membros"
         board:
           label: "A diretoria"
+    metadata:
+      label: "Metadane"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
   error:
     refused:
       message: "O formulário inteiro também é recusado."
@@ -784,6 +852,10 @@ ru:
           label: "Участники"
         board:
           label: "Совет"
+    metadata:
+      label: "Метаданные"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
   error:
     refused:
       message: "Форма целиком тоже отклонена."
@@ -828,6 +900,10 @@ th:
           label: "สมาชิก"
         board:
           label: "คณะกรรมการ"
+    metadata:
+      label: "เมทาดาทา"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
   error:
     refused:
       message: "ทั้งฟอร์มก็ถูกปฏิเสธด้วย"
@@ -872,6 +948,10 @@ tr:
           label: "Üyeler"
         board:
           label: "Yönetim kurulu"
+    metadata:
+      label: "Üst veri"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
   error:
     refused:
       message: "Formun tamamı da reddedildi."
@@ -916,6 +996,10 @@ ur:
           label: "اراکین"
         board:
           label: "بورڈ"
+    metadata:
+      label: "میٹا ڈیٹا"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
   error:
     refused:
       message: "پورا فارم بھی مسترد ہے۔"
@@ -960,6 +1044,10 @@ vi:
           label: "Thành viên"
         board:
           label: "Ban điều hành"
+    metadata:
+      label: "Siêu dữ liệu"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
   error:
     refused:
       message: "Cả biểu mẫu cũng bị từ chối."
@@ -1004,6 +1092,10 @@ zh:
           label: "成员"
         board:
           label: "董事会"
+    metadata:
+      label: "元数据"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
   error:
     refused:
       message: "整个表单也被拒绝。"

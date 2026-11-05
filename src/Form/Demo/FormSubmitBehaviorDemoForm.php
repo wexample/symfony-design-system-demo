@@ -15,6 +15,7 @@ use Wexample\SymfonyForms\Form\Type\DatetimeInputType;
 use Wexample\SymfonyForms\Form\Type\EmailInputType;
 use Wexample\SymfonyForms\Form\Type\EmojiPickerType;
 use Wexample\SymfonyForms\Form\Type\FileInputType;
+use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
 use Wexample\SymfonyForms\Form\Type\NumberInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
 use Wexample\SymfonyForms\Form\Type\RadioInputType;
@@ -177,6 +178,16 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     self::FIELD_OPTION_NAME_MAPPED => false,
                     'help' => true,
                     'data' => true,
+                ]
+            )
+            ->add(
+                'metadata',
+                KeyValueInputType::class,
+                [
+                    self::FIELD_OPTION_NAME_LABEL => true,
+                    self::FIELD_OPTION_NAME_REQUIRED => false,
+                    self::FIELD_OPTION_NAME_MAPPED => false,
+                    'data' => ['lang' => 'en', 'channel' => 'web'],
                 ]
             )
             ->add(

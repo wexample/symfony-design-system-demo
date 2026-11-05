@@ -95,6 +95,8 @@ en:
       help: Enter a full URL including the protocol.
       error:
         ERR_FIELD_URL_INVALID: URL is invalid for test purpose.
+    metadata:
+      label: "Metadata"
     switch:
       label: Switch
       help: Toggle this option on or off.
@@ -235,6 +237,8 @@ ar:
       help: 'أدخل رابطًا كاملاً بما في ذلك البروتوكول.'
       error:
         ERR_FIELD_URL_INVALID: 'الرابط غير صالح لأغراض الاختبار.'
+    metadata:
+      label: "البيانات الوصفية"
     switch:
       label: تبديل
       help: 'قم بتبديل هذا الخيار تشغيلًا أو إيقافًا.'
@@ -371,6 +375,8 @@ bn:
       help: 'প্রোটোকলসহ সম্পূর্ণ URL প্রবেশ করুন।'
       error:
         ERR_FIELD_URL_INVALID: 'URL পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    metadata:
+      label: "মেটাডেটা"
     switch:
       label: সুইচ
       help: 'এই বিকল্পটি চালু বা বন্ধ করুন।'
@@ -507,6 +513,8 @@ de:
       help: 'Geben Sie eine vollständige URL einschließlich des Protokolls ein.'
       error:
         ERR_FIELD_URL_INVALID: 'URL ist zu Testzwecken ungültig.'
+    metadata:
+      label: "Metadaten"
     switch:
       label: Schalter
       help: 'Schalten Sie diese Option ein oder aus.'
@@ -643,6 +651,8 @@ es:
       help: 'Introduce una URL completa incluyendo el protocolo.'
       error:
         ERR_FIELD_URL_INVALID: 'La URL no es válida para fines de prueba.'
+    metadata:
+      label: "Metadatos"
     switch:
       label: Interruptor
       help: 'Activa o desactiva esta opción.'
@@ -779,6 +789,8 @@ fa:
       help: 'یک آدرس وب کامل شامل پروتکل وارد کنید.'
       error:
         ERR_FIELD_URL_INVALID: 'آدرس وب برای آزمون معتبر نیست.'
+    metadata:
+      label: "فراداده"
     switch:
       label: کلید
       help: 'این گزینه را روشن یا خاموش کنید.'
@@ -915,6 +927,8 @@ fi:
       help: 'Syötä täydellinen URL, mukaan lukien protokolla.'
       error:
         ERR_FIELD_URL_INVALID: 'URL ei ole voimassa testitarkoituksessa.'
+    metadata:
+      label: "Metatiedot"
     switch:
       label: Kytkin
       help: 'Kytke tämä vaihtoehto päälle tai pois päältä.'
@@ -1051,6 +1065,8 @@ fr:
       help: 'Entrez une URL complète incluant le protocole.'
       error:
         ERR_FIELD_URL_INVALID: "L'URL est invalide à des fins de test."
+    metadata:
+      label: "Métadonnées"
     switch:
       label: Interrupteur
       help: 'Activez ou désactivez cette option.'
@@ -1187,6 +1203,8 @@ he:
       help: 'הזן כתובת URL מלאה כולל הפרוטוקול.'
       error:
         ERR_FIELD_URL_INVALID: 'כתובת ה-URL אינה תקפה לצורכי בדיקה.'
+    metadata:
+      label: "מטא-נתונים"
     switch:
       label: מתג
       help: 'החלף אפשרות זו על או off.'
@@ -1323,6 +1341,8 @@ hi:
       help: 'प्रोटोकॉल सहित पूरा यूआरएल दर्ज करें।'
       error:
         ERR_FIELD_URL_INVALID: 'यूआरएल परीक्षण के उद्देश्य के लिए अमान्य है।'
+    metadata:
+      label: "मेटाडेटा"
     switch:
       label: स्विच
       help: 'इस विकल्प को चालू या बंद करें।'
@@ -1459,6 +1479,8 @@ id:
       help: 'Masukkan URL lengkap termasuk protokol.'
       error:
         ERR_FIELD_URL_INVALID: 'URL tidak valid untuk tujuan percobaan.'
+    metadata:
+      label: "Metadata"
     switch:
       label: 'Tombol Ganti'
       help: 'Aktifkan atau nonaktifkan opsi ini.'
@@ -1595,6 +1617,8 @@ it:
       help: 'Inserisci un URL completo incluso il protocollo.'
       error:
         ERR_FIELD_URL_INVALID: "L'URL non è valido per scopi di test."
+    metadata:
+      label: "Metadati"
     switch:
       label: Interruttore
       help: 'Attiva o disattiva questa opzione.'
@@ -1731,6 +1755,8 @@ ja:
       help: プロトコルを含む完全なURLを入力してください。
       error:
         ERR_FIELD_URL_INVALID: テスト目的のため、URLが無効です。
+    metadata:
+      label: "メタデータ"
     switch:
       label: スイッチ
       help: このオプションをオンまたはオフに切り替えます。
@@ -1867,6 +1893,8 @@ ko:
       help: '프로토콜을 포함하여 전체 URL을 입력하세요.'
       error:
         ERR_FIELD_URL_INVALID: '테스트 용도로 URL이 유효하지 않습니다.'
+    metadata:
+      label: "메타데이터"
     switch:
       label: 스위치
       help: '이 옵션을 켜거나 끕니다.'
@@ -2003,6 +2031,8 @@ nl:
       help: 'Voer een volledige URL in, inclusief het protocol.'
       error:
         ERR_FIELD_URL_INVALID: 'URL is ongeldig voor testdoeleinden.'
+    metadata:
+      label: "Metagegevens"
     switch:
       label: Schakelaar
       help: 'Schakel deze optie aan of uit.'
@@ -2139,6 +2169,8 @@ pl:
       help: 'Wprowadź pełny URL, w tym protokół.'
       error:
         ERR_FIELD_URL_INVALID: 'URL jest nieprawidłowy do celów testowych.'
+    metadata:
+      label: "Metadane"
     switch:
       label: Przełącznik
       help: 'Włącz lub wyłącz tę opcję.'
@@ -2275,6 +2307,8 @@ pt_BR:
       help: 'Digite uma URL completa incluindo o protocolo.'
       error:
         ERR_FIELD_URL_INVALID: 'URL inválida para fins de teste.'
+    metadata:
+      label: "Metadane"
     switch:
       label: Interruptor
       help: 'Ative ou desative esta opção.'
@@ -2411,6 +2445,8 @@ ru:
       help: 'Введите полный URL, включая протокол.'
       error:
         ERR_FIELD_URL_INVALID: 'URL недействителен для тестирования.'
+    metadata:
+      label: "Метаданные"
     switch:
       label: Переключатель
       help: 'Включите или выключите эту опцию.'
@@ -2547,6 +2583,8 @@ th:
       help: 'กรอก URL เต็มรูปแบบรวมถึงโปรโตคอล'
       error:
         ERR_FIELD_URL_INVALID: 'URL ไม่ถูกต้องสำหรับการทดสอบ'
+    metadata:
+      label: "เมทาดาทา"
     switch:
       label: สวิตช์
       help: เปิดหรือปิดตัวเลือกนี้
@@ -2683,6 +2721,8 @@ tr:
       help: 'Protokol dahil tam bir URL girin.'
       error:
         ERR_FIELD_URL_INVALID: 'URL test amacıyla geçersiz.'
+    metadata:
+      label: "Üst veri"
     switch:
       label: Anahtar
       help: 'Bu seçeneği açıp kapatın.'
@@ -2819,6 +2859,8 @@ ur:
       help: 'پروٹوکول سمیت مکمل یو آر ایل درج کریں۔'
       error:
         ERR_FIELD_URL_INVALID: 'یو آر ایل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    metadata:
+      label: "میٹا ڈیٹا"
     switch:
       label: سوئچ
       help: 'اس آپشن کو آن یا آف کریں۔'
@@ -2955,6 +2997,8 @@ vi:
       help: 'Nhập một URL đầy đủ bao gồm giao thức.'
       error:
         ERR_FIELD_URL_INVALID: 'URL không hợp lệ cho mục đích thử nghiệm.'
+    metadata:
+      label: "Siêu dữ liệu"
     switch:
       label: 'Công tắc'
       help: 'Bật hoặc tắt tùy chọn này.'
@@ -3091,6 +3135,8 @@ zh:
       help: 输入包括协议的完整网址。
       error:
         ERR_FIELD_URL_INVALID: 网址无效，仅用于测试。
+    metadata:
+      label: "元数据"
     switch:
       label: 开关
       help: 切换此选项开或关。
