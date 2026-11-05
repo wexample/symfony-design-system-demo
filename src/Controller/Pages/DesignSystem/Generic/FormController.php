@@ -145,6 +145,20 @@ final class FormController extends AbstractDesignSystemGenericController
     }
 
     /**
+     * The earlier versions of a text, as a versioned field reads them
+     * (`versions_url`): the latest first, each with its words and content.
+     */
+    #[Route(name: 'versions', path: 'versions')]
+    public function versions(): JsonResponse
+    {
+        return new JsonResponse([
+            ['label' => '2026-11-04 17:20 · weeger', 'content' => "Figures of the last three months.\nThe board meets on the 12th.", 'date' => '2026-11-04T17:20:00+00:00', 'author' => 'weeger'],
+            ['label' => '2026-10-28 09:05 · maya', 'content' => "Figures of the last quarter, with the forecast for the next.\nThe board meets on the 12th.\nSent to the members only.", 'date' => '2026-10-28T09:05:00+00:00', 'author' => 'maya'],
+            ['label' => '—', 'content' => 'Figures.', 'date' => null, 'author' => null],
+        ]);
+    }
+
+    /**
      * A form of the server drawn by the design system from what `form_definition`
      * hands over — the json-schema norm's form —, one field of every kind.
      */

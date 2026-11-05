@@ -6,6 +6,7 @@ use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\Extension\Core\Type\TelType;
 use Symfony\Component\Form\Extension\Core\Type\UrlType;
 use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
@@ -28,6 +29,11 @@ class FormFromServerDemoForm extends AbstractForm
 {
     public static bool $ajax = true;
 
+    public function __construct(
+        private readonly UrlGeneratorInterface $urlGenerator,
+    ) {
+    }
+
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $field = [self::FIELD_OPTION_NAME_LABEL => true];
@@ -41,6 +47,8 @@ class FormFromServerDemoForm extends AbstractForm
             ->add('summary', TextareaInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,
                 'attr' => ['rows' => 3],
+                // Its earlier versions, the bar above the field.
+                'versions_url' => $this->urlGenerator->generate('wexample_design_system_generic_form_versions'),
             ])
             ->add('email', EmailType::class, $field + [self::FIELD_OPTION_NAME_REQUIRED => false])
             ->add('phone', TelType::class, $field + [self::FIELD_OPTION_NAME_REQUIRED => false])

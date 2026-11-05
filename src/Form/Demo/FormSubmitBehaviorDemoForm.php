@@ -5,6 +5,7 @@ namespace Wexample\SymfonyDesignSystemDemo\Form\Demo;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
+use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Validator\Constraints\Length;
 use Wexample\Helpers\Helper\PlaceholderHelper;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
@@ -40,6 +41,7 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
         // The records the list without a box opens on: it offers no way of
         // adding one, so something has to have put them there.
         private readonly DemoMessageRepository $messageRepository,
+        private readonly UrlGeneratorInterface $urlGenerator,
     ) {
     }
 
@@ -104,6 +106,8 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     'auto_resize' => true,
                     'help' => true,
                     'data' => 'Demo long text for the textarea field.',
+                    // Its earlier versions, the bar above the field.
+                    'versions_url' => $this->urlGenerator->generate('wexample_design_system_generic_form_versions'),
                     // A limit, for the field to count what is left of it.
                     'constraints' => [new Length(max: 140)],
                     'attr' => [
