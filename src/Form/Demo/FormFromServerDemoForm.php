@@ -8,6 +8,7 @@ use Symfony\Component\Form\Extension\Core\Type\UrlType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
+use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
 use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
@@ -46,6 +47,9 @@ class FormFromServerDemoForm extends AbstractForm
             ->add('audience', SelectInputType::class, $field + [
                 'choices' => ['everyone', 'members', 'board'],
                 self::FIELD_OPTION_NAME_REQUIRED => true,
+            ])
+            ->add('stamps', DemoStampsInputType::class, $field + [
+                self::FIELD_OPTION_NAME_REQUIRED => false,
             ])
             ->add('metadata', KeyValueInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,

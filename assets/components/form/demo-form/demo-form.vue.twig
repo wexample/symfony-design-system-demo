@@ -9,6 +9,7 @@
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/radio-input') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/switch-input') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/submit-input') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-stamps-input') -}}
 {%- endblock -%}
 
 {%- block form_notification -%}
@@ -51,6 +52,14 @@
             placeholder="{{ (td ~ '::field.text_area.placeholder')|trans }}"
             error-translation-prefix="{{ td ~ '::field.text_area.error.' }}"
     ></textarea-input>
+
+    {#- A field standardised: the tags field, its stamps' defaults preset. -#}
+    <demo-stamps-input
+            v-model="stamps"
+            :errors="fieldErrors['stamps'] || []"
+            label="{{ (td ~ '::field.stamps.label')|trans }}"
+            :translate="false"
+    ></demo-stamps-input>
 
     <text-input
             v-model="emoji"

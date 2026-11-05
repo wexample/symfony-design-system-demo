@@ -10,6 +10,7 @@ use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyCheck\Service\GateService;
 use Wexample\SymfonyDesignSystemDemo\Class\Demo\GateDemoInvoiceCreation;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
+use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyDesignSystemDemo\Service\Demo\GateDemoOrganizationStore;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormFromServerDemoFormProcessor;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormGateOrganizationDemoFormProcessor;
@@ -118,6 +119,21 @@ final class FormController extends AbstractDesignSystemGenericController
     }
 
     /**
+     * The stamps known so far, those holding what is typed (`q`): the source a
+     * stamps field asks while its words are typed.
+     */
+    #[Route(name: 'stamps', path: 'stamps', options: ['expose' => true])]
+    public function stamps(Request $request): JsonResponse
+    {
+        $typed = mb_strtolower(trim((string) $request->query->get('q', '')));
+
+        return new JsonResponse(array_values(array_filter(
+            DemoStampsInputType::KNOWN,
+            static fn (string $stamp): bool => '' === $typed || str_contains($stamp, $typed)
+        )));
+    }
+
+    /**
      * A form of the server drawn by the design system from what `form_definition`
      * hands over — the json-schema norm's form —, one field of every kind.
      */
@@ -129,6 +145,7 @@ final class FormController extends AbstractDesignSystemGenericController
                 'title' => 'Quarterly report',
                 'summary' => 'Figures of the last three months.',
                 'audience' => 'members',
+                'stamps' => ['urgent', 'vip'],
             ]),
         ]);
     }

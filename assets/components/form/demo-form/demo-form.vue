@@ -6,6 +6,7 @@ import TextareaInput from "@wexample/symfony-design-system/components/form/texta
 import RadioInput from "@wexample/symfony-design-system/components/form/radio-input/radio-input.vue";
 import SwitchInput from "@wexample/symfony-design-system/components/form/switch-input/switch-input.vue";
 import SubmitInput from "@wexample/symfony-design-system/components/form/submit-input/submit-input.vue";
+import DemoStampsInput from "../demo-stamps-input/demo-stamps-input.vue";
 
 export default {
   extends: Form,
@@ -14,7 +15,8 @@ export default {
     TextareaInput,
     RadioInput,
     SwitchInput,
-    SubmitInput
+    SubmitInput,
+    DemoStampsInput
   },
 
   props: {
@@ -29,6 +31,7 @@ export default {
     return {
       textSimple: '',
       textArea: '',
+      stamps: ['urgent'],
       password: '',
       emoji: '',
       number: '',
@@ -64,6 +67,7 @@ export default {
       return {
         text_simple: this.textSimple,
         text_area: this.textArea,
+        stamps: this.stamps.join(', '),
         password: this.password,
         emoji: this.emoji,
         number: this.number,

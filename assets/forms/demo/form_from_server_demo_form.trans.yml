@@ -36,6 +36,10 @@ en:
           label: "Members"
         board:
           label: "The board"
+    stamps:
+      label: "Stamps"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
     metadata:
       label: "Metadata"
       error:
@@ -84,6 +88,10 @@ ar:
           label: "الأعضاء"
         board:
           label: "المجلس"
+    stamps:
+      label: "الأختام"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
     metadata:
       label: "البيانات الوصفية"
       error:
@@ -132,6 +140,10 @@ bn:
           label: "সদস্যরা"
         board:
           label: "বোর্ড"
+    stamps:
+      label: "স্ট্যাম্প"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
     metadata:
       label: "মেটাডেটা"
       error:
@@ -180,6 +192,10 @@ de:
           label: "Mitglieder"
         board:
           label: "Der Vorstand"
+    stamps:
+      label: "Stempel"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
     metadata:
       label: "Metadaten"
       error:
@@ -228,6 +244,10 @@ es:
           label: "Los miembros"
         board:
           label: "La junta"
+    stamps:
+      label: "Sellos"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
     metadata:
       label: "Metadatos"
       error:
@@ -276,6 +296,10 @@ fa:
           label: "اعضا"
         board:
           label: "هیئت مدیره"
+    stamps:
+      label: "مهرها"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
     metadata:
       label: "فراداده"
       error:
@@ -324,6 +348,10 @@ fi:
           label: "Jäsenet"
         board:
           label: "Hallitus"
+    stamps:
+      label: "Leimat"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
     metadata:
       label: "Metatiedot"
       error:
@@ -372,6 +400,10 @@ fr:
           label: "Les membres"
         board:
           label: "Le conseil"
+    stamps:
+      label: "Tampons"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
     metadata:
       label: "Métadonnées"
       error:
@@ -420,6 +452,10 @@ he:
           label: "חברים"
         board:
           label: "הדירקטוריון"
+    stamps:
+      label: "חותמות"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
     metadata:
       label: "מטא-נתונים"
       error:
@@ -468,6 +504,10 @@ hi:
           label: "सदस्य"
         board:
           label: "बोर्ड"
+    stamps:
+      label: "मुहरें"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
     metadata:
       label: "मेटाडेटा"
       error:
@@ -516,6 +556,10 @@ id:
           label: "Anggota"
         board:
           label: "Dewan"
+    stamps:
+      label: "Stempel"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
     metadata:
       label: "Metadata"
       error:
@@ -564,6 +608,10 @@ it:
           label: "I membri"
         board:
           label: "Il consiglio"
+    stamps:
+      label: "Timbri"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
     metadata:
       label: "Metadati"
       error:
@@ -612,6 +660,10 @@ ja:
           label: "メンバー"
         board:
           label: "理事会"
+    stamps:
+      label: "スタンプ"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
     metadata:
       label: "メタデータ"
       error:
@@ -660,6 +712,10 @@ ko:
           label: "회원"
         board:
           label: "이사회"
+    stamps:
+      label: "스탬프"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
     metadata:
       label: "메타데이터"
       error:
@@ -708,6 +764,10 @@ nl:
           label: "Leden"
         board:
           label: "Het bestuur"
+    stamps:
+      label: "Stempels"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
     metadata:
       label: "Metagegevens"
       error:
@@ -756,6 +816,10 @@ pl:
           label: "Członkowie"
         board:
           label: "Zarząd"
+    stamps:
+      label: "Stemple"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
     metadata:
       label: "Metadane"
       error:
@@ -804,6 +868,10 @@ pt_BR:
           label: "Membros"
         board:
           label: "A diretoria"
+    stamps:
+      label: "Stemple"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
     metadata:
       label: "Metadane"
       error:
@@ -852,6 +920,10 @@ ru:
           label: "Участники"
         board:
           label: "Совет"
+    stamps:
+      label: "Штампы"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
     metadata:
       label: "Метаданные"
       error:
@@ -900,6 +972,10 @@ th:
           label: "สมาชิก"
         board:
           label: "คณะกรรมการ"
+    stamps:
+      label: "ตราประทับ"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
     metadata:
       label: "เมทาดาทา"
       error:
@@ -948,6 +1024,10 @@ tr:
           label: "Üyeler"
         board:
           label: "Yönetim kurulu"
+    stamps:
+      label: "Damgalar"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
     metadata:
       label: "Üst veri"
       error:
@@ -996,6 +1076,10 @@ ur:
           label: "اراکین"
         board:
           label: "بورڈ"
+    stamps:
+      label: "مہریں"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
     metadata:
       label: "میٹا ڈیٹا"
       error:
@@ -1044,6 +1128,10 @@ vi:
           label: "Thành viên"
         board:
           label: "Ban điều hành"
+    stamps:
+      label: "Con dấu"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
     metadata:
       label: "Siêu dữ liệu"
       error:
@@ -1092,6 +1180,10 @@ zh:
           label: "成员"
         board:
           label: "董事会"
+    stamps:
+      label: "印章"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
     metadata:
       label: "元数据"
       error:

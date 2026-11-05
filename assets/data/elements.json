@@ -628,6 +628,35 @@
             }
         },
         {
+            "key": "form/demo-stamps-input",
+            "source": "WexampleSymfonyDesignSystemDemoBundle",
+            "description": "A field standardised: the stamps of a message, the design system's tags field with its defaults preset \u2014 the straw tone, a tag glyph, the stamps known asked as the words are typed \u2014, the vue face of DemoStampsInputType.",
+            "formats": {
+                "style": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-stamps-input/demo-stamps-input.scss"
+                ],
+                "vue": [
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-stamps-input/demo-stamps-input.vue",
+                    "@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-stamps-input/demo-stamps-input.vue.twig"
+                ]
+            },
+            "stances": {
+                "style": "expected",
+                "template": "waived",
+                "vue": "expected",
+                "script": "waived",
+                "schema": "waived",
+                "ai": "todo",
+                "react": "todo",
+                "flutter": "todo"
+            },
+            "notes": {
+                "template": "drawn by the tags field's twig, through the form theme, as DemoStampsInputType",
+                "script": "its behaviour is the tags field's",
+                "schema": "the tags field's"
+            }
+        },
+        {
             "key": "search/demo-search-box",
             "source": "WexampleSymfonyDesignSystemDemoBundle",
             "description": null,

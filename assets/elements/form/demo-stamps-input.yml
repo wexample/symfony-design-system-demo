@@ -1,0 +1,16 @@
+# Declares `form/demo-stamps-input` to the design system registry.
+# formats, per format — whose move it is next:
+#   true            it is there, nothing is owed
+#   todo — a note   it is wanted and missing, someone should build it
+#   a sentence      it does without on purpose, and this is why
+#   left out        nobody has ruled yet, and the check will name it
+description: "A field standardised: the stamps of a message, the design system's tags field with its defaults preset — the straw tone, a tag glyph, the stamps known asked as the words are typed —, the vue face of DemoStampsInputType."
+formats:
+  style: true
+  vue: true
+  template: "drawn by the tags field's twig, through the form theme, as DemoStampsInputType"
+  script: "its behaviour is the tags field's"
+  schema: "the tags field's"
+  ai: todo
+  react: todo
+  flutter: todo

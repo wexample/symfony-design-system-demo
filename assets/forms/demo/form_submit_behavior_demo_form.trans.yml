@@ -95,6 +95,8 @@ en:
       help: Enter a full URL including the protocol.
       error:
         ERR_FIELD_URL_INVALID: URL is invalid for test purpose.
+    stamps:
+      label: "Stamps"
     metadata:
       label: "Metadata"
     switch:
@@ -237,6 +239,8 @@ ar:
       help: 'أدخل رابطًا كاملاً بما في ذلك البروتوكول.'
       error:
         ERR_FIELD_URL_INVALID: 'الرابط غير صالح لأغراض الاختبار.'
+    stamps:
+      label: "الأختام"
     metadata:
       label: "البيانات الوصفية"
     switch:
@@ -375,6 +379,8 @@ bn:
       help: 'প্রোটোকলসহ সম্পূর্ণ URL প্রবেশ করুন।'
       error:
         ERR_FIELD_URL_INVALID: 'URL পরীক্ষার উদ্দেশ্যে অকার্যকর।'
+    stamps:
+      label: "স্ট্যাম্প"
     metadata:
       label: "মেটাডেটা"
     switch:
@@ -513,6 +519,8 @@ de:
       help: 'Geben Sie eine vollständige URL einschließlich des Protokolls ein.'
       error:
         ERR_FIELD_URL_INVALID: 'URL ist zu Testzwecken ungültig.'
+    stamps:
+      label: "Stempel"
     metadata:
       label: "Metadaten"
     switch:
@@ -651,6 +659,8 @@ es:
       help: 'Introduce una URL completa incluyendo el protocolo.'
       error:
         ERR_FIELD_URL_INVALID: 'La URL no es válida para fines de prueba.'
+    stamps:
+      label: "Sellos"
     metadata:
       label: "Metadatos"
     switch:
@@ -789,6 +799,8 @@ fa:
       help: 'یک آدرس وب کامل شامل پروتکل وارد کنید.'
       error:
         ERR_FIELD_URL_INVALID: 'آدرس وب برای آزمون معتبر نیست.'
+    stamps:
+      label: "مهرها"
     metadata:
       label: "فراداده"
     switch:
@@ -927,6 +939,8 @@ fi:
       help: 'Syötä täydellinen URL, mukaan lukien protokolla.'
       error:
         ERR_FIELD_URL_INVALID: 'URL ei ole voimassa testitarkoituksessa.'
+    stamps:
+      label: "Leimat"
     metadata:
       label: "Metatiedot"
     switch:
@@ -1065,6 +1079,8 @@ fr:
       help: 'Entrez une URL complète incluant le protocole.'
       error:
         ERR_FIELD_URL_INVALID: "L'URL est invalide à des fins de test."
+    stamps:
+      label: "Tampons"
     metadata:
       label: "Métadonnées"
     switch:
@@ -1203,6 +1219,8 @@ he:
       help: 'הזן כתובת URL מלאה כולל הפרוטוקול.'
       error:
         ERR_FIELD_URL_INVALID: 'כתובת ה-URL אינה תקפה לצורכי בדיקה.'
+    stamps:
+      label: "חותמות"
     metadata:
       label: "מטא-נתונים"
     switch:
@@ -1341,6 +1359,8 @@ hi:
       help: 'प्रोटोकॉल सहित पूरा यूआरएल दर्ज करें।'
       error:
         ERR_FIELD_URL_INVALID: 'यूआरएल परीक्षण के उद्देश्य के लिए अमान्य है।'
+    stamps:
+      label: "मुहरें"
     metadata:
       label: "मेटाडेटा"
     switch:
@@ -1479,6 +1499,8 @@ id:
       help: 'Masukkan URL lengkap termasuk protokol.'
       error:
         ERR_FIELD_URL_INVALID: 'URL tidak valid untuk tujuan percobaan.'
+    stamps:
+      label: "Stempel"
     metadata:
       label: "Metadata"
     switch:
@@ -1617,6 +1639,8 @@ it:
       help: 'Inserisci un URL completo incluso il protocollo.'
       error:
         ERR_FIELD_URL_INVALID: "L'URL non è valido per scopi di test."
+    stamps:
+      label: "Timbri"
     metadata:
       label: "Metadati"
     switch:
@@ -1755,6 +1779,8 @@ ja:
       help: プロトコルを含む完全なURLを入力してください。
       error:
         ERR_FIELD_URL_INVALID: テスト目的のため、URLが無効です。
+    stamps:
+      label: "スタンプ"
     metadata:
       label: "メタデータ"
     switch:
@@ -1893,6 +1919,8 @@ ko:
       help: '프로토콜을 포함하여 전체 URL을 입력하세요.'
       error:
         ERR_FIELD_URL_INVALID: '테스트 용도로 URL이 유효하지 않습니다.'
+    stamps:
+      label: "스탬프"
     metadata:
       label: "메타데이터"
     switch:
@@ -2031,6 +2059,8 @@ nl:
       help: 'Voer een volledige URL in, inclusief het protocol.'
       error:
         ERR_FIELD_URL_INVALID: 'URL is ongeldig voor testdoeleinden.'
+    stamps:
+      label: "Stempels"
     metadata:
       label: "Metagegevens"
     switch:
@@ -2169,6 +2199,8 @@ pl:
       help: 'Wprowadź pełny URL, w tym protokół.'
       error:
         ERR_FIELD_URL_INVALID: 'URL jest nieprawidłowy do celów testowych.'
+    stamps:
+      label: "Stemple"
     metadata:
       label: "Metadane"
     switch:
@@ -2307,6 +2339,8 @@ pt_BR:
       help: 'Digite uma URL completa incluindo o protocolo.'
       error:
         ERR_FIELD_URL_INVALID: 'URL inválida para fins de teste.'
+    stamps:
+      label: "Stemple"
     metadata:
       label: "Metadane"
     switch:
@@ -2445,6 +2479,8 @@ ru:
       help: 'Введите полный URL, включая протокол.'
       error:
         ERR_FIELD_URL_INVALID: 'URL недействителен для тестирования.'
+    stamps:
+      label: "Штампы"
     metadata:
       label: "Метаданные"
     switch:
@@ -2583,6 +2619,8 @@ th:
       help: 'กรอก URL เต็มรูปแบบรวมถึงโปรโตคอล'
       error:
         ERR_FIELD_URL_INVALID: 'URL ไม่ถูกต้องสำหรับการทดสอบ'
+    stamps:
+      label: "ตราประทับ"
     metadata:
       label: "เมทาดาทา"
     switch:
@@ -2721,6 +2759,8 @@ tr:
       help: 'Protokol dahil tam bir URL girin.'
       error:
         ERR_FIELD_URL_INVALID: 'URL test amacıyla geçersiz.'
+    stamps:
+      label: "Damgalar"
     metadata:
       label: "Üst veri"
     switch:
@@ -2859,6 +2899,8 @@ ur:
       help: 'پروٹوکول سمیت مکمل یو آر ایل درج کریں۔'
       error:
         ERR_FIELD_URL_INVALID: 'یو آر ایل ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    stamps:
+      label: "مہریں"
     metadata:
       label: "میٹا ڈیٹا"
     switch:
@@ -2997,6 +3039,8 @@ vi:
       help: 'Nhập một URL đầy đủ bao gồm giao thức.'
       error:
         ERR_FIELD_URL_INVALID: 'URL không hợp lệ cho mục đích thử nghiệm.'
+    stamps:
+      label: "Con dấu"
     metadata:
       label: "Siêu dữ liệu"
     switch:
@@ -3135,6 +3179,8 @@ zh:
       help: 输入包括协议的完整网址。
       error:
         ERR_FIELD_URL_INVALID: 网址无效，仅用于测试。
+    stamps:
+      label: "印章"
     metadata:
       label: "元数据"
     switch:
