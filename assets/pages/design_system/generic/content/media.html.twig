@@ -125,4 +125,19 @@
     <h2>{{ '@page::section.crop.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.crop.description' | trans }}</div>
     {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-image-crop') }}
+
+    <h2>{{ '@page::section.video.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.video.description' | trans }}</div>
+    <div class="grid grid--2">
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/video', {}, {
+            src: 'https://www.youtube.com/watch?v=aqz-KE-bpKQ',
+            title: 'Big Buck Bunny',
+            caption: '@page::video.hosted' | trans,
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/video', {
+            src: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4',
+            title: 'Flower',
+            caption: '@page::video.file' | trans,
+        }) }}
+    </div>
 {%- endblock -%}

@@ -1,13 +1,11 @@
 en:
-  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
-
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Media
   page_icon: ph:bold/image
-
   section:
     vue:
       title: Vue
-      description: "The same frame as a vue partial, for a document whose address is only known once the page runs."
+      description: The same frame as a vue partial, for a document whose address is only known once the page runs.
     shapes:
       title: Shapes
     overlay:
@@ -16,102 +14,115 @@ en:
       title: Aspect Ratio
     document:
       title: Embedded document
-      description: "An iframe fills its box, so the box carries the size: a ratio modifier, or media--fill to take whatever height the parent gives."
+      description: 'An iframe fills its box, so the box carries the size: a ratio modifier, or media--fill to take whatever height the parent gives.'
     frame:
       title: Frame
-      description: "A picture in its frame, from the server with media() or as the media vue component: a link when it leads somewhere, a caption over its foot, and a glow while it loads or when there is none."
+      description: 'A picture in its frame, from the server with media() or as the media vue component: a link when it leads somewhere, a caption over its foot, and a glow while it loads or when there is none.'
     wall:
       title: Wall
-      description: "Pictures of every height packed side by side with no holes, each as tall as its ratio says, the columns as many as the room takes: wall() draws it from the server, the shape is css/shapes/wall."
+      description: 'Pictures of every height packed side by side with no holes, each as tall as its ratio says, the columns as many as the room takes: wall() draws it from the server, the shape is css/shapes/wall.'
     wall_vue:
       title: Wall of a collection
-      description: "The same wall as a collection of entities, read from the api a page at a time as it is scrolled: the next page comes before the foot of the wall is reached."
+      description: 'The same wall as a collection of entities, read from the api a page at a time as it is scrolled: the next page comes before the foot of the wall is reached.'
     crop:
       title: Crop
-      description: "What part of an image to keep, chosen over the image: the area moves, a corner sizes it, the arrows move it and with Shift size it. It is said in the image's own pixels — what a server crops by — and crop() cuts it here when the cut is sent instead. A ratio holds it (1 for a portrait, shown round), or it is free, as a signature needs."
-
+      description: 'What part of an image to keep, chosen over the image: the area moves, a corner sizes it, the arrows move it and with Shift size it. It is said in the image''s own pixels — what a server crops by — and crop() cuts it here when the cut is sent instead. A ratio holds it (1 for a portrait, shown round), or it is free, as a signature needs.'
+    video:
+      title: A video
+      description: 'A host''s page — YouTube, Vimeo — is played by the host''s own player; any other address is a file the browser plays. The same frame either way, sixteen by nine, its caption under it: on the left drawn by the server, on the right by a vue.'
   document:
     title: Placeholder document
-
   wall:
     caption: A caption over its foot
-
+  video:
+    hosted: Played by YouTube's own player
+    file: A file the browser plays
 ar:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'وسائل الإعلام'
-  page_icon: 'ph:bold/image'
+  page_title: وسائل الإعلام
+  page_icon: ph:bold/image
   section:
     vue:
       title: فيو
-      description: 'نفس الإطار كجزء من فيو، لوثيقة عنوانها معروف فقط عند تشغيل الصفحة.'
+      description: نفس الإطار كجزء من فيو، لوثيقة عنوانها معروف فقط عند تشغيل الصفحة.
     shapes:
       title: أشكال
     overlay:
       title: تراكب
     aspect_ratio:
-      title: 'نسبة العرض إلى الارتفاع'
+      title: نسبة العرض إلى الارتفاع
     document:
-      title: 'وثيقة مضمّنة'
+      title: وثيقة مضمّنة
       description: 'تملأ iframe صندوقها، لذا يحمل الصندوق الحجم: معدل تعديل النسبة، أو وسائط--تملأ لتأخذ أي ارتفاع يمنحه الوالد.'
     frame:
       title: إطار
       description: 'صورة في إطارها، من الخادم باستخدام media() أو كمكون media vue: رابط عندما يؤدي إلى مكان ما، وعنوان أسفل الصورة، وتوهج أثناء التحميل أو عندما لا يوجد شيء.'
     wall:
-      title: 'فسيفساء'
+      title: فسيفساء
       description: 'صور بكل ارتفاعات متراصة جنبًا إلى جنب بلا فراغات، كل منها بارتفاع يتناسب مع نسبته، والأعمدة بقدر ما يتسع له المكان: wall() يرسمها من الخادم، الشكل هو css/shapes/wall.'
     wall_vue:
-      title: 'جدار مجموعة'
+      title: جدار مجموعة
       description: 'نفس الجدار كمجموعة من الكيانات، تُقرأ من واجهة برمجة التطبيقات صفحة واحدة في كل مرة أثناء التمرير: الصفحة التالية تأتي قبل الوصول إلى أسفل الجدار.'
     crop:
       title: قص
       description: 'أي جزء من الصورة يجب الاحتفاظ به، مُختار فوق الصورة: المنطقة تتحرك، وزاوية تعيد تشكيلها، والأسهم تحركها ومع Shift تعيد تشكيلها. يُقال ذلك ببكسلات الصورة نفسها - ما يقطعه الخادم - و crop() تقطعها هنا عندما يتم إرسال القطع بدلاً من ذلك. نسبة تحملها (1 للعرض، تظهر بشكل دائري)، أو إنها حرة، كما تحتاج التوقيع.'
+    video:
+      title: فيديو
+      description: 'صفحة مستضيف — YouTube وVimeo — يشغّلها مشغّله الخاص؛ وأي عنوان آخر ملف يشغّله المتصفح. الإطار نفسه في الحالتين، ستة عشر إلى تسعة، والتعليق تحته: على اليسار يرسمه الخادم، وعلى اليمين vue.'
   document:
-    title: 'وثيقة نموذجية'
+    title: وثيقة نموذجية
   wall:
-    caption: 'عنوان أسفل الصورة'
-
+    caption: عنوان أسفل الصورة
+  video:
+    hosted: يشغّله مشغّل YouTube
+    file: ملف يشغّله المتصفح
 bn:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: মিডিয়া
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: ভিউ
-      description: 'একটি ভিউ পার্টিয়ালের মতো একই ফ্রেম, একটি নথির জন্য যার ঠিকানা পৃষ্ঠা চলার সময়ই জানা যায়।'
+      description: একটি ভিউ পার্টিয়ালের মতো একই ফ্রেম, একটি নথির জন্য যার ঠিকানা পৃষ্ঠা চলার সময়ই জানা যায়।
     shapes:
       title: আকৃতি
     overlay:
       title: ওভারলে
     aspect_ratio:
-      title: 'আকৃতির অনুপাত'
+      title: আকৃতির অনুপাত
     document:
-      title: 'এম্বেডেড নথি'
+      title: এম্বেডেড নথি
       description: 'একটি আইফ্রেম তার বাক্স পূর্ণ করে, তাই বাক্সটি আকার বহন করে: একটি অনুপাত সংশোধক, অথবা মিডিয়া--যা কিছু উচ্চতা প্যারেন্ট দেয় তা গ্রহণ করতে।'
     frame:
       title: ফ্রেম
       description: 'সার্ভার থেকে media() বা মিডিয়া ভিউ কম্পোনেন্টের মাধ্যমে একটি ফ্রেমে একটি ছবি: এটি কোথাও নিয়ে গেলে একটি লিঙ্ক, এর পায়ের উপরে একটি ক্যাপশন এবং এটি লোড হওয়ার সময় বা কিছু না থাকলে একটি ঝলক।'
     wall:
-      title: 'মোজাইক'
+      title: মোজাইক
       description: 'প্রতি উচ্চতার ছবি একসাথে কোনো ফাঁক ছাড়াই রাখা হয়েছে, প্রতিটি তার অনুপাত অনুযায়ী উচ্চ, কOLUMN সংখ্যা ঘরের আকার অনুযায়ী: wall() এটি সার্ভার থেকে আঁকে, আকারটি css/shapes/wall।'
     wall_vue:
-      title: 'একটি সংগ্রহের দেয়াল'
+      title: একটি সংগ্রহের দেয়াল
       description: 'একটি সত্তার সংগ্রহের মতো একই দেয়াল, API থেকে এক সময়ে একটি পৃষ্ঠা পড়া হয় যখন এটি স্ক্রোল করা হয়: পরবর্তী পৃষ্ঠা দেয়ালের পায়ের কাছে পৌঁছানোর আগে আসে।'
     crop:
       title: কাটা
       description: 'একটি ছবির কোন অংশ রাখা হবে, ছবির উপর নির্বাচন করা: এলাকা স্থানান্তরিত হয়, একটি কোণ এটিকে আকার দেয়, তীরগুলি এটি সরিয়ে নেয় এবং Shift দিয়ে আকার দেয়। এটি ছবির নিজস্ব পিক্সেলে বলা হয় — সার্ভার যা কেটে দেয় — এবং crop() এটি এখানে কেটে দেয় যখন কাটা পাঠানো হয়। একটি অনুপাত এটি ধরে (একটি পোর্ট্রেটের জন্য 1, বৃত্তাকার দেখানো হয়), অথবা এটি মুক্ত, যেমন একটি স্বাক্ষরের প্রয়োজন।'
+    video:
+      title: একটি ভিডিও
+      description: 'কোনো হোস্টের পাতা — YouTube, Vimeo — তার নিজের প্লেয়ারে চলে; অন্য যেকোনো ঠিকানা একটি ফাইল যা ব্রাউজার চালায়। দুই ক্ষেত্রেই একই ফ্রেম, ষোলো বাই নয়, নিচে ক্যাপশন: বাঁয়ে সার্ভার আঁকে, ডানে একটি vue।'
   document:
-    title: 'প্লেসহোল্ডার নথি'
+    title: প্লেসহোল্ডার নথি
   wall:
-    caption: 'এর পায়ের উপরে একটি ক্যাপশন'
-
+    caption: এর পায়ের উপরে একটি ক্যাপশন
+  video:
+    hosted: YouTube-এর প্লেয়ারে চলে
+    file: ব্রাউজার যে ফাইল চালায়
 de:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Medien
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Der gleiche Rahmen wie ein Vue-Partial, für ein Dokument, dessen Adresse erst bekannt ist, wenn die Seite geladen wird.'
+      description: Der gleiche Rahmen wie ein Vue-Partial, für ein Dokument, dessen Adresse erst bekannt ist, wenn die Seite geladen wird.
     shapes:
       title: Formen
     overlay:
@@ -119,101 +130,116 @@ de:
     aspect_ratio:
       title: Seitenverhältnis
     document:
-      title: 'Eingebettetes Dokument'
+      title: Eingebettetes Dokument
       description: 'Ein iframe füllt seinen Bereich, daher bestimmt der Bereich die Größe: ein Verhältnis-Modifikator oder media--fill, um die Höhe zu übernehmen, die der Elternteil vorgibt.'
     frame:
       title: Rahmen
       description: 'Ein Bild in seinem Rahmen, vom Server mit media() oder als das Media Vue-Komponente: ein Link, wenn es irgendwohin führt, eine Beschriftung über seinem Fuß und ein Leuchten während des Ladens oder wenn es keines gibt.'
     wall:
-      title: 'Mosaik'
+      title: Mosaik
       description: 'Bilder jeder Höhe, nebeneinander gepackt, ohne Lücken, jedes so hoch wie es das Verhältnis sagt, die Spalten so viele wie der Raum zulässt: wall() zieht es vom Server, die Form ist css/shapes/wall.'
     wall_vue:
-      title: 'Wand einer Sammlung'
+      title: Wand einer Sammlung
       description: 'Die gleiche Wand wie eine Sammlung von Entitäten, die über die API seitenweise gelesen wird, während sie gescrollt wird: die nächste Seite kommt, bevor der Fuß der Wand erreicht ist.'
     crop:
       title: Zuschneiden
       description: 'Welchen Teil eines Bildes beibehalten werden soll, über das Bild gewählt: der Bereich bewegt sich, eine Ecke ändert die Größe, die Pfeile bewegen es und mit Shift wird die Größe geändert. Es wird in den eigenen Pixeln des Bildes angegeben — wonach ein Server zuschneidet — und crop() schneidet es hier, wenn der Schnitt stattdessen gesendet wird. Ein Verhältnis hält es (1 für ein Porträt, rund dargestellt), oder es ist frei, wie es eine Unterschrift benötigt.'
+    video:
+      title: Ein Video
+      description: 'Die Seite eines Anbieters — YouTube, Vimeo — wird von dessen eigenem Player abgespielt; jede andere Adresse ist eine Datei, die der Browser abspielt. Derselbe Rahmen, sechzehn zu neun, die Bildunterschrift darunter: links vom Server gezeichnet, rechts von einer Vue.'
   document:
     title: Platzhalter-Dokument
   wall:
-    caption: 'Eine Beschriftung über seinem Fuß'
-
+    caption: Eine Beschriftung über seinem Fuß
+  video:
+    hosted: Vom YouTube-Player abgespielt
+    file: Eine Datei, die der Browser abspielt
 es:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Medios
-  page_icon: 'ph:bold/imagen'
+  page_icon: ph:bold/imagen
   section:
     vue:
       title: Vue
-      description: 'El mismo marco que un parcial de vue, para un documento cuyo dirección solo se conoce una vez que la página se ejecuta.'
+      description: El mismo marco que un parcial de vue, para un documento cuyo dirección solo se conoce una vez que la página se ejecuta.
     shapes:
       title: Formas
     overlay:
       title: Superposición
     aspect_ratio:
-      title: 'Relación de aspecto'
+      title: Relación de aspecto
     document:
-      title: 'Documento incrustado'
+      title: Documento incrustado
       description: 'Un iframe llena su caja, por lo que la caja tiene el tamaño: un modificador de relación, o media--fill para tomar la altura que el padre proporciona.'
     frame:
       title: Marco
       description: 'Una imagen en su marco, desde el servidor con media() o como el componente vue de medios: un enlace cuando lleva a algún lugar, un pie de foto en su base, y un resplandor mientras se carga o cuando no hay ninguno.'
     wall:
-      title: 'Mosaico'
+      title: Mosaico
       description: 'Imágenes de todas las alturas empaquetadas lado a lado sin huecos, cada una tan alta como lo indica su proporción, las columnas tantas como el espacio lo permita: wall() lo dibuja desde el servidor, la forma es css/shapes/wall.'
     wall_vue:
-      title: 'Pared de una colección'
+      title: Pared de una colección
       description: 'La misma pared que una colección de entidades, leída desde la api una página a la vez a medida que se desplaza: la próxima página aparece antes de que se alcance el pie de la pared.'
     crop:
       title: Recortar
       description: 'Qué parte de una imagen conservar, elegida sobre la imagen: el área se mueve, una esquina la dimensiona, las flechas la mueven y con Shift la dimensionan. Se expresa en los propios píxeles de la imagen — lo que un servidor recorta — y crop() lo corta aquí cuando el corte se envía en su lugar. Una proporción lo mantiene (1 para un retrato, mostrado redondeado), o es libre, como necesita una firma.'
+    video:
+      title: Un vídeo
+      description: 'La página de un proveedor — YouTube, Vimeo — la reproduce su propio reproductor; cualquier otra dirección es un archivo que reproduce el navegador. El mismo marco, dieciséis por nueve, su leyenda debajo: a la izquierda dibujado por el servidor, a la derecha por una vue.'
   document:
-    title: 'Documento de marcador de posición'
+    title: Documento de marcador de posición
   wall:
-    caption: 'Un pie de foto en su base'
-
+    caption: Un pie de foto en su base
+  video:
+    hosted: Reproducido por el reproductor de YouTube
+    file: Un archivo que reproduce el navegador
 fa:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: رسانه
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: ویو
-      description: 'فریم مشابهی به عنوان یک بخش ویو، برای یک سند که آدرس آن تنها زمانی که صفحه اجرا می‌شود شناخته می‌شود.'
+      description: فریم مشابهی به عنوان یک بخش ویو، برای یک سند که آدرس آن تنها زمانی که صفحه اجرا می‌شود شناخته می‌شود.
     shapes:
       title: اشکال
     overlay:
       title: پوشش
     aspect_ratio:
-      title: 'نسبت ابعاد'
+      title: نسبت ابعاد
     document:
-      title: 'سند جاسازی شده'
+      title: سند جاسازی شده
       description: 'یک iframe فضای خود را پر می‌کند، بنابراین فضای آن اندازه را به همراه دارد: یک اصلاح کننده نسبت یا رسانه--پر برای دریافت هر ارتفاعی که والد می‌دهد.'
     frame:
       title: قاب
       description: 'تصویری در قاب خود، از سرور با media() یا به عنوان کامپوننت vue رسانه: یک لینک وقتی که به جایی هدایت می‌کند، یک زیرنویس در پایین آن، و در حین بارگذاری یا زمانی که چیزی وجود ندارد، درخشش.'
     wall:
-      title: 'موزاییک'
+      title: موزاییک
       description: 'تصاویر با ارتفاع‌های مختلف که کنار هم بدون فاصله چیده شده‌اند، هرکدام به اندازه نسبت خود بلند هستند، ستون‌ها به اندازه فضای اتاق: wall() آن را از سرور می‌کشد، شکل آن css/shapes/wall است.'
     wall_vue:
-      title: 'دیوار یک مجموعه'
+      title: دیوار یک مجموعه
       description: 'همان دیوار به عنوان یک مجموعه از موجودیت‌ها، که از api به صورت صفحه به صفحه خوانده می‌شود در حین اسکرول: صفحه بعدی قبل از رسیدن به پایین دیوار می‌آید.'
     crop:
       title: برش
       description: 'کدام قسمت از یک تصویر نگه‌داشته شود، انتخاب شده بر روی تصویر: ناحیه حرکت می‌کند، یک گوشه آن را اندازه می‌گیرد، فلش‌ها آن را جابه‌جا می‌کنند و با Shift اندازه آن را تغییر می‌دهند. این در پیکسل‌های خود تصویر گفته می‌شود — آنچه که یک سرور برش می‌دهد — و crop() آن را اینجا برش می‌زند وقتی که برش ارسال می‌شود. یک نسبت آن را نگه می‌دارد (1 برای پرتره، به صورت گرد نمایش داده می‌شود)، یا آزاد است، همان‌طور که یک امضا نیاز دارد.'
+    video:
+      title: یک ویدیو
+      description: 'صفحهٔ یک میزبان — YouTube، Vimeo — با پخش‌کنندهٔ خودش پخش می‌شود؛ هر نشانی دیگری فایلی است که مرورگر پخش می‌کند. همان قاب در هر دو حالت، شانزده به نه، زیرنویس زیر آن: چپ را سرور می‌کشد، راست را یک vue.'
   document:
-    title: 'سند جایگزین'
+    title: سند جایگزین
   wall:
-    caption: 'زیرنویسی در پایین آن'
-
+    caption: زیرنویسی در پایین آن
+  video:
+    hosted: با پخش‌کنندهٔ YouTube پخش می‌شود
+    file: فایلی که مرورگر پخش می‌کند
 fi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Media
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Sama kehys kuin vue-osassa, asiakirjalle, jonka osoite tiedetään vain sivun suorittaessa.'
+      description: Sama kehys kuin vue-osassa, asiakirjalle, jonka osoite tiedetään vain sivun suorittaessa.
     shapes:
       title: Muodot
     overlay:
@@ -221,199 +247,229 @@ fi:
     aspect_ratio:
       title: Kuvasuhde
     document:
-      title: 'Upotettu asiakirja'
+      title: Upotettu asiakirja
       description: 'Iframe täyttää laatikkonsa, joten laatikko määrittää koon: suhteen muokkaaja tai media--fill ottaakseen minkä tahansa korkeuden, jonka vanhempi antaa.'
     frame:
       title: Kehys
       description: 'Kuva kehyksessään, palvelimelta media() tai media vue -komponenttina: linkki kun se vie johonkin, kuvateksti jalassa, ja hehku ladattaessa tai kun kuvaa ei ole.'
     wall:
-      title: 'Mosaiikki'
+      title: Mosaiikki
       description: 'Kuvia eri korkeuksilla pakattuna vierekkäin ilman aukkoja, jokainen niin korkea kuin sen suhde sanoo, sarakkeita niin monta kuin huone sallii: wall() piirtää sen palvelimelta, muoto on css/shapes/wall.'
     wall_vue:
-      title: 'Kokoelman seinä'
+      title: Kokoelman seinä
       description: 'Sama seinä kokoelmana entiteettejä, luetaan api:sta sivu kerrallaan kun sitä vieritetään: seuraava sivu tulee ennen kuin seinän jalka saavutetaan.'
     crop:
       title: Rajaa
       description: 'Mikä osa kuvasta pidetään, valitaan kuvan päältä: alue liikkuu, kulma muuttaa kokoa, nuolet liikuttavat sitä ja Shift muuttaa kokoa. Se kerrotaan kuvan omissa pikseleissä — mitä palvelin rajaa — ja crop() leikkaa sen täältä kun leikkaus lähetetään sen sijaan. Suhde pitää sitä (1 muotokuvaksi, näytetään pyöreänä), tai se on vapaa, kuten allekirjoitus tarvitsee.'
+    video:
+      title: Video
+      description: 'Palvelun sivu — YouTube, Vimeo — toistetaan sen omalla soittimella; muu osoite on tiedosto, jonka selain toistaa. Sama kehys kummassakin, kuusitoista yhdeksään, kuvateksti alla: vasemmalla palvelimen piirtämä, oikealla vuen.'
   document:
-    title: 'Paikkamerkki asiakirja'
+    title: Paikkamerkki asiakirja
   wall:
-    caption: 'Kuvateksti jalassa'
-
+    caption: Kuvateksti jalassa
+  video:
+    hosted: YouTuben soittimen toistama
+    file: Selaimen toistama tiedosto
 fr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Médias'
-  page_icon: 'ph:bold/image'
+  page_title: Médias
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: "Le même cadre qu'un fragment vue, pour un document dont l'adresse n'est connue qu'une fois la page exécutée."
+      description: Le même cadre qu'un fragment vue, pour un document dont l'adresse n'est connue qu'une fois la page exécutée.
     shapes:
       title: Formes
     overlay:
       title: Superposition
     aspect_ratio:
-      title: 'Proportions'
+      title: Proportions
     document:
-      title: 'Document intégré'
+      title: Document intégré
       description: 'Un iframe remplit sa boîte, donc la boîte porte la taille : un modificateur de ratio, ou media--fill pour prendre la hauteur que le parent donne.'
     frame:
       title: Cadre
-      description: "Une image dans son cadre, rendue par le serveur avec media() ou par le composant vue media : un lien quand elle mène quelque part, une légende sur son pied, et une lueur pendant qu'elle charge ou quand il n'y en a pas."
+      description: 'Une image dans son cadre, rendue par le serveur avec media() ou par le composant vue media : un lien quand elle mène quelque part, une légende sur son pied, et une lueur pendant qu''elle charge ou quand il n''y en a pas.'
     wall:
-      title: 'Mosaïque'
-      description: "Des images de toutes hauteurs serrées côte à côte sans trou, chacune aussi haute que son ratio le dit, autant de colonnes que la place en prend : wall() le rend côté serveur, la forme est css/shapes/wall."
+      title: Mosaïque
+      description: 'Des images de toutes hauteurs serrées côte à côte sans trou, chacune aussi haute que son ratio le dit, autant de colonnes que la place en prend : wall() le rend côté serveur, la forme est css/shapes/wall.'
     wall_vue:
-      title: 'Mosaïque d''une collection'
-      description: "Le même mur pour une collection d'entités, lue dans l'api une page à la fois au fil du défilement : la page suivante arrive avant que le pied du mur soit atteint."
+      title: Mosaïque d'une collection
+      description: 'Le même mur pour une collection d''entités, lue dans l''api une page à la fois au fil du défilement : la page suivante arrive avant que le pied du mur soit atteint.'
     crop:
       title: Recadrage
-      description: "Quelle partie d'une image garder, choisie sur l'image : la zone se déplace, un coin la redimensionne, les flèches la déplacent et avec Maj la redimensionnent. Elle est donnée en pixels de l'image — ce par quoi un serveur recadre — et crop() la découpe ici quand c'est la découpe qui est envoyée. Un ratio la tient (1 pour un portrait, affiché rond), ou elle est libre, comme pour une signature."
+      description: 'Quelle partie d''une image garder, choisie sur l''image : la zone se déplace, un coin la redimensionne, les flèches la déplacent et avec Maj la redimensionnent. Elle est donnée en pixels de l''image — ce par quoi un serveur recadre — et crop() la découpe ici quand c''est la découpe qui est envoyée. Un ratio la tient (1 pour un portrait, affiché rond), ou elle est libre, comme pour une signature.'
+    video:
+      title: Une vidéo
+      description: 'La page d''un hébergeur — YouTube, Vimeo — est lue par son propre lecteur ; toute autre adresse est un fichier que le navigateur lit. Le même cadre dans les deux cas, en seize neuvièmes, sa légende dessous : à gauche dessinée par le serveur, à droite par une vue.'
   document:
-    title: 'Document de remplacement'
+    title: Document de remplacement
   wall:
-    caption: 'Une légende sur son pied'
-
+    caption: Une légende sur son pied
+  video:
+    hosted: Lue par le lecteur de YouTube
+    file: Un fichier lu par le navigateur
 he:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: מדיה
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'אותו מסגרת כמו חלק של Vue, עבור מסמך שהכתובת שלו ידועה רק כאשר הדף רץ.'
+      description: אותו מסגרת כמו חלק של Vue, עבור מסמך שהכתובת שלו ידועה רק כאשר הדף רץ.
     shapes:
       title: צורות
     overlay:
       title: למעלה
     aspect_ratio:
-      title: 'יחס גובה-רוחב'
+      title: יחס גובה-רוחב
     document:
-      title: 'מסמך משולב'
+      title: מסמך משולב
       description: 'iframe ממלא את הקופסה שלו, כך שהקופסה נושאת את הגודל: שינוי יחס, או מדיה--מלא כדי לקחת כל גובה שההורה נותן.'
     frame:
       title: מסגרת
       description: 'תמונה בתוך מסגרת, מהשרת עם media() או כקומפוננטת vue למדיה: קישור כשזה מוביל למקום כלשהו, כיתוב מעל הרגל שלה, וזוהר בזמן שהיא נטענת או כשאין אף אחת.'
     wall:
-      title: 'פסיפס'
+      title: פסיפס
       description: 'תמונות בכל גובה ארוזות זו לצד זו בלי חורים, כל אחת בגובה שהיחס שלה אומר, העמודות רבות כמו שהחדר מכיל: wall() מצייר את זה מהשרת, הצורה היא css/shapes/wall.'
     wall_vue:
-      title: 'קיר של אוסף'
+      title: קיר של אוסף
       description: 'אותו קיר כמו אוסף של ישויות, נקרא מה-api עמוד אחד בכל פעם כשזה גולל: העמוד הבא מגיע לפני שהרגל של הקיר מושגת.'
     crop:
       title: גזירה
       description: 'איזה חלק מתמונה לשמור, נבחר מעל התמונה: האזור זז, פינה משנה את גודלו, החצים זזים ועימם משנה את הגודל. זה נאמר בפיקסלים של התמונה עצמה — מה ששרת גוזר על פי — ו-crop() גוזר את זה כאן כשחתך נשלח במקום. יחס מחזיק את זה (1 לפורטרט, מוצג עגול), או שזה חופשי, כפי שחתימה דורשת.'
+    video:
+      title: סרטון
+      description: 'דף של מארח — YouTube, Vimeo — מתנגן בנגן שלו; כל כתובת אחרת היא קובץ שהדפדפן מנגן. אותה מסגרת בשני המקרים, שש עשרה על תשע, הכיתוב מתחת: משמאל מצויר בשרת, מימין ב-vue.'
   document:
-    title: 'מסמך לדוגמה'
+    title: מסמך לדוגמה
   wall:
-    caption: 'כיתוב מעל הרגל שלה'
-
+    caption: כיתוב מעל הרגל שלה
+  video:
+    hosted: מתנגן בנגן של YouTube
+    file: קובץ שהדפדפן מנגן
 hi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: मीडिया
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: व्यू
-      description: 'व्यू आंशिक के समान फ्रेम, एक दस्तावेज़ के लिए जिसका पता केवल पृष्ठ के चलने पर जाना जाता है।'
+      description: व्यू आंशिक के समान फ्रेम, एक दस्तावेज़ के लिए जिसका पता केवल पृष्ठ के चलने पर जाना जाता है।
     shapes:
       title: आकृतियाँ
     overlay:
       title: ओवरले
     aspect_ratio:
-      title: 'आस्पेक्ट रेशियो'
+      title: आस्पेक्ट रेशियो
     document:
-      title: 'एम्बेडेड दस्तावेज़'
+      title: एम्बेडेड दस्तावेज़
       description: 'एक आईफ्रेम अपने बॉक्स को भरता है, इसलिए बॉक्स आकार लेता है: एक अनुपात संशोधक, या मीडिया--फिल जो माता-पिता द्वारा दिए गए किसी भी ऊँचाई को लेता है।'
     frame:
       title: फ्रेम
       description: 'एक तस्वीर अपने फ्रेम में, सर्वर से media() के साथ या मीडिया व्यू घटक के रूप में: एक लिंक जब यह कहीं ले जाती है, उसके पैर पर एक कैप्शन, और जब यह लोड हो रहा हो या जब कुछ न हो तो एक चमक।'
     wall:
-      title: 'मोज़ेक'
+      title: मोज़ेक
       description: 'हर ऊँचाई की तस्वीरें बगैर किसी खाली जगह के एक साथ पैक की गई हैं, प्रत्येक अपनी अनुपात के अनुसार ऊँची, कॉलम कमरे की क्षमता के अनुसार: wall() इसे सर्वर से खींचता है, आकार css/shapes/wall है।'
     wall_vue:
-      title: 'एक संग्रह की दीवार'
+      title: एक संग्रह की दीवार
       description: 'वही दीवार जो संस्थाओं के संग्रह के रूप में है, एक समय में एक पृष्ठ api से पढ़ी जाती है जब इसे स्क्रॉल किया जाता है: अगला पृष्ठ दीवार के पैर तक पहुँचने से पहले आता है।'
     crop:
       title: क्रॉप
       description: 'किस भाग की छवि को रखना है, छवि पर चुना गया: क्षेत्र चलता है, एक कोना इसे आकार देता है, तीर इसे स्थानांतरित करते हैं और Shift के साथ आकार देते हैं। यह छवि के अपने पिक्सेल में कहा जाता है - जो सर्वर द्वारा काटा गया है - और crop() इसे यहाँ काटता है जब कट भेजा जाता है। एक अनुपात इसे पकड़ता है (1 एक पोर्ट्रेट के लिए, गोल दिखाया गया), या यह स्वतंत्र है, जैसे एक हस्ताक्षर की आवश्यकता होती है।'
+    video:
+      title: एक वीडियो
+      description: 'किसी होस्ट का पेज — YouTube, Vimeo — उसके अपने प्लेयर में चलता है; कोई और पता एक फ़ाइल है जिसे ब्राउज़र चलाता है। दोनों में वही फ़्रेम, सोलह बटा नौ, नीचे कैप्शन: बाईं ओर सर्वर बनाता है, दाईं ओर एक vue।'
   document:
-    title: 'प्लेसहोल्डर दस्तावेज़'
+    title: प्लेसहोल्डर दस्तावेज़
   wall:
-    caption: 'उसके पैर पर एक कैप्शन'
-
+    caption: उसके पैर पर एक कैप्शन
+  video:
+    hosted: YouTube के प्लेयर में चलता है
+    file: ब्राउज़र द्वारा चलाई गई फ़ाइल
 id:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Media
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Frame yang sama seperti partial vue, untuk dokumen yang alamatnya hanya diketahui setelah halaman dijalankan.'
+      description: Frame yang sama seperti partial vue, untuk dokumen yang alamatnya hanya diketahui setelah halaman dijalankan.
     shapes:
       title: Bentuk
     overlay:
       title: Overlay
     aspect_ratio:
-      title: 'Rasio Aspek'
+      title: Rasio Aspek
     document:
-      title: 'Dokumen Tertanam'
+      title: Dokumen Tertanam
       description: 'Sebuah iframe mengisi kotaknya, jadi kotak tersebut membawa ukuran: modifikasi rasio, atau media--isi untuk mengambil tinggi apa pun yang diberikan oleh induknya.'
     frame:
       title: Bingkai
       description: 'Sebuah gambar dalam bingkainya, dari server dengan media() atau sebagai komponen vue media: sebuah tautan saat mengarah ke suatu tempat, sebuah keterangan di bagian bawahnya, dan efek bersinar saat memuat atau ketika tidak ada.'
     wall:
-      title: 'Mosaik'
+      title: Mosaik
       description: 'Gambar dengan berbagai tinggi yang dipadatkan berdampingan tanpa celah, masing-masing setinggi rasio yang ditentukan, kolom sebanyak yang bisa ditampung ruangan: wall() menggambarnya dari server, bentuknya adalah css/shapes/wall.'
     wall_vue:
-      title: 'Dinding koleksi'
+      title: Dinding koleksi
       description: 'Dinding yang sama sebagai koleksi entitas, dibaca dari api satu halaman pada satu waktu saat digulir: halaman berikutnya muncul sebelum kaki dinding tercapai.'
     crop:
       title: Potong
       description: 'Bagian mana dari gambar yang akan disimpan, dipilih di atas gambar: area bergerak, sudut mengubah ukurannya, panah memindahkannya dan dengan Shift mengubah ukurannya. Ini dinyatakan dalam piksel gambar itu sendiri — apa yang dipotong server — dan crop() memotongnya di sini ketika pemotongan dikirim sebagai gantinya. Sebuah rasio menahannya (1 untuk potret, ditampilkan bulat), atau bebas, seperti yang dibutuhkan sebuah tanda tangan.'
+    video:
+      title: Sebuah video
+      description: 'Halaman sebuah host — YouTube, Vimeo — diputar oleh pemutarnya sendiri; alamat lain adalah berkas yang diputar peramban. Bingkai yang sama, enam belas banding sembilan, keterangan di bawahnya: kiri digambar server, kanan oleh vue.'
   document:
-    title: 'Dokumen Placeholder'
+    title: Dokumen Placeholder
   wall:
-    caption: 'Sebuah keterangan di bagian bawahnya'
-
+    caption: Sebuah keterangan di bagian bawahnya
+  video:
+    hosted: Diputar oleh pemutar YouTube
+    file: Berkas yang diputar peramban
 it:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Media
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Lo stesso frame di un parziale vue, per un documento il cui indirizzo è conosciuto solo una volta che la pagina è in esecuzione.'
+      description: Lo stesso frame di un parziale vue, per un documento il cui indirizzo è conosciuto solo una volta che la pagina è in esecuzione.
     shapes:
       title: Forme
     overlay:
       title: Sovrapposizione
     aspect_ratio:
-      title: "Rapporto d'aspetto"
+      title: Rapporto d'aspetto
     document:
-      title: 'Documento incorporato'
+      title: Documento incorporato
       description: 'Un iframe riempie la sua casella, quindi la casella determina la dimensione: un modificatore di rapporto, o media--fill per prendere qualsiasi altezza fornita dal genitore.'
     frame:
       title: Cornice
-      description: "Un'immagine nella sua cornice, dal server con media() o come componente vue media: un link quando porta da qualche parte, una didascalia sopra il suo piede, e un bagliore mentre si carica o quando non ce n'è."
+      description: 'Un''immagine nella sua cornice, dal server con media() o come componente vue media: un link quando porta da qualche parte, una didascalia sopra il suo piede, e un bagliore mentre si carica o quando non ce n''è.'
     wall:
-      title: 'Mosaico'
+      title: Mosaico
       description: 'Immagini di ogni altezza impilate affiancate senza spazi vuoti, ognuna alta quanto dice il suo rapporto, le colonne tante quanto ne contiene la stanza: wall() la estrae dal server, la forma è css/shapes/wall.'
     wall_vue:
-      title: 'Parete di una collezione'
-      description: "La stessa parete come collezione di entità, letta dall'api una pagina alla volta mentre viene scorsa: la pagina successiva arriva prima che si raggiunga il piede della parete."
+      title: Parete di una collezione
+      description: 'La stessa parete come collezione di entità, letta dall''api una pagina alla volta mentre viene scorsa: la pagina successiva arriva prima che si raggiunga il piede della parete.'
     crop:
       title: Ritaglia
-      description: "Quale parte di un'immagine mantenere, scelta sull'immagine: l'area si muove, un angolo la dimensiona, le frecce la spostano e con Shift la dimensionano. Si dice nei pixel stessi dell'immagine — ciò che un server ritaglia — e crop() la taglia qui quando il taglio è inviato invece. Un rapporto la tiene (1 per un ritratto, mostrato rotondo), oppure è libera, come una firma richiede."
+      description: 'Quale parte di un''immagine mantenere, scelta sull''immagine: l''area si muove, un angolo la dimensiona, le frecce la spostano e con Shift la dimensionano. Si dice nei pixel stessi dell''immagine — ciò che un server ritaglia — e crop() la taglia qui quando il taglio è inviato invece. Un rapporto la tiene (1 per un ritratto, mostrato rotondo), oppure è libera, come una firma richiede.'
+    video:
+      title: Un video
+      description: 'La pagina di un servizio — YouTube, Vimeo — è riprodotta dal suo lettore; ogni altro indirizzo è un file che il browser riproduce. Lo stesso riquadro, sedici noni, la didascalia sotto: a sinistra disegnato dal server, a destra da una vue.'
   document:
-    title: 'Documento segnaposto'
+    title: Documento segnaposto
   wall:
-    caption: 'Una didascalia sopra il suo piede'
-
+    caption: Una didascalia sopra il suo piede
+  video:
+    hosted: Riprodotto dal lettore di YouTube
+    file: Un file riprodotto dal browser
 ja:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: メディア
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
@@ -429,29 +485,34 @@ ja:
       description: iframeは自分のボックスを満たすため、ボックスがサイズを持ちます：比率修正子、または親が与える高さを取得するためのmedia--fill。
     frame:
       title: フレーム
-      description: 'サーバーからのmedia()やmedia vueコンポーネントとしてのフレーム内の画像：どこかにリンクする場合はリンク、足元にキャプション、読み込んでいる間や何もないときに光る。'
+      description: サーバーからのmedia()やmedia vueコンポーネントとしてのフレーム内の画像：どこかにリンクする場合はリンク、足元にキャプション、読み込んでいる間や何もないときに光る。
     wall:
-      title: 'モザイク'
+      title: モザイク
       description: 隙間なく横に並んだ様々な高さの画像、それぞれはその比率に従った高さを持ち、部屋が許す限りの列：wall()がサーバーから描画し、形状はcss/shapes/wall。
     wall_vue:
       title: コレクションの壁
       description: エンティティのコレクションとしての同じ壁、スクロールされるごとにAPIから1ページずつ読み込まれる：次のページは壁の足元に達する前に来る。
     crop:
       title: 切り抜き
-      description: '画像のどの部分を保持するか、画像の上で選択：領域が移動し、角がサイズを調整し、矢印が移動させ、Shiftでサイズを変更する。画像のピクセルで表現され、サーバーが切り抜くもの — ここでcrop()が送られた切り抜きで切る。比率が保持される（ポートレート用の1は丸く表示される）、または署名のように自由である。'
+      description: 画像のどの部分を保持するか、画像の上で選択：領域が移動し、角がサイズを調整し、矢印が移動させ、Shiftでサイズを変更する。画像のピクセルで表現され、サーバーが切り抜くもの — ここでcrop()が送られた切り抜きで切る。比率が保持される（ポートレート用の1は丸く表示される）、または署名のように自由である。
+    video:
+      title: 動画
+      description: ホストのページ（YouTube、Vimeo）はそのプレーヤーで再生され、それ以外のアドレスはブラウザが再生するファイルです。どちらも同じ16:9の枠に、下にキャプション。左はサーバー、右はvueが描きます。
   document:
     title: プレースホルダードキュメント
   wall:
     caption: 足元のキャプション
-
+  video:
+    hosted: YouTubeのプレーヤーで再生
+    file: ブラウザが再生するファイル
 ko:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 미디어
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: 뷰
-      description: '페이지가 실행될 때 주소가 알려지는 문서에 대한 vue 부분과 동일한 프레임입니다.'
+      description: 페이지가 실행될 때 주소가 알려지는 문서에 대한 vue 부분과 동일한 프레임입니다.
     shapes:
       title: 도형
     overlay:
@@ -459,33 +520,38 @@ ko:
     aspect_ratio:
       title: 종횡비
     document:
-      title: '임베디드 문서'
+      title: 임베디드 문서
       description: 'iframe은 자신의 박스를 채우므로 박스가 크기를 가집니다: 비율 수정자 또는 부모가 제공하는 높이를 가져오는 미디어--채우기입니다.'
     frame:
       title: 프레임
       description: '서버에서 media()를 통해 또는 미디어 Vue 컴포넌트로 가져온 프레임에 있는 사진: 링크가 있을 경우 해당 링크로 이동하고, 하단에 캡션이 있으며, 로딩 중이거나 이미지가 없을 때 빛나는 효과가 있습니다.'
     wall:
-      title: '모자이크'
+      title: 모자이크
       description: '구멍 없이 나란히 배치된 다양한 높이의 사진들, 각 사진은 비율에 맞게 높이가 조정되며, 방의 크기에 맞춰 열이 배치됩니다: wall()은 서버에서 가져오고, 모양은 css/shapes/wall입니다.'
     wall_vue:
-      title: '컬렉션의 벽'
+      title: 컬렉션의 벽
       description: '엔터티의 컬렉션으로서의 동일한 벽, 스크롤할 때마다 API에서 한 페이지씩 읽어옵니다: 다음 페이지는 벽의 하단에 도달하기 전에 표시됩니다.'
     crop:
       title: 자르기
       description: '이미지에서 유지할 부분, 이미지 위에서 선택됩니다: 영역이 이동하고, 코너로 크기가 조정되며, 화살표로 이동하고 Shift와 함께 크기를 조정합니다. 이는 이미지의 픽셀로 표시됩니다 — 서버가 잘라내는 부분 — 그리고 crop()은 잘라낸 부분이 전송될 때 여기를 잘라냅니다. 비율이 유지됩니다 (인물 사진의 경우 1, 둥글게 표시됨), 아니면 서명처럼 자유롭게 조정됩니다.'
+    video:
+      title: 동영상
+      description: '호스트의 페이지(YouTube, Vimeo)는 그 플레이어로 재생되고, 다른 주소는 브라우저가 재생하는 파일입니다. 어느 쪽이든 같은 16:9 틀에 아래 캡션: 왼쪽은 서버가, 오른쪽은 vue가 그립니다.'
   document:
-    title: '플레이스홀더 문서'
+    title: 플레이스홀더 문서
   wall:
-    caption: '하단에 캡션'
-
+    caption: 하단에 캡션
+  video:
+    hosted: YouTube 플레이어로 재생
+    file: 브라우저가 재생하는 파일
 nl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Media
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Hetzelfde frame als een vue-deel, voor een document waarvan het adres pas bekend is als de pagina wordt uitgevoerd.'
+      description: Hetzelfde frame als een vue-deel, voor een document waarvan het adres pas bekend is als de pagina wordt uitgevoerd.
     shapes:
       title: Vormen
     overlay:
@@ -493,67 +559,77 @@ nl:
     aspect_ratio:
       title: Aspectverhouding
     document:
-      title: 'Ingebed document'
+      title: Ingebed document
       description: 'Een iframe vult zijn vak, dus het vak bepaalt de grootte: een verhouding modifier, of media--fill om de hoogte te nemen die de ouder geeft.'
     frame:
       title: Lijst
       description: 'Een afbeelding in zijn lijst, van de server met media() of als de media vue-component: een link wanneer het ergens naartoe leidt, een bijschrift over de voet, en een gloed terwijl het laadt of wanneer er geen is.'
     wall:
-      title: 'Mozaïek'
+      title: Mozaïek
       description: 'Afbeeldingen van elke hoogte naast elkaar zonder gaten, elk zo hoog als de verhouding aangeeft, de kolommen zoveel als de ruimte toelaat: wall() haalt het van de server, de vorm is css/shapes/wall.'
     wall_vue:
-      title: 'Muur van een collectie'
+      title: Muur van een collectie
       description: 'Dezelfde muur als een collectie van entiteiten, gelezen van de api een pagina per keer terwijl deze wordt gescrold: de volgende pagina komt voordat de voet van de muur is bereikt.'
     crop:
       title: Bijsnijden
       description: 'Welk deel van een afbeelding te behouden, gekozen over de afbeelding: het gebied beweegt, een hoek past het aan, de pijlen verplaatsen het en met Shift pas je het aan. Het wordt in de pixels van de afbeelding zelf gezegd — wat een server bijsnijdt — en crop() snijdt het hier wanneer de snede in plaats daarvan wordt verzonden. Een verhouding houdt het vast (1 voor een portret, rond weergegeven), of het is vrij, zoals een handtekening nodig heeft.'
+    video:
+      title: Een video
+      description: 'De pagina van een dienst — YouTube, Vimeo — wordt door diens eigen speler afgespeeld; elk ander adres is een bestand dat de browser afspeelt. Hetzelfde kader, zestien bij negen, het onderschrift eronder: links door de server getekend, rechts door een vue.'
   document:
-    title: 'Placeholder document'
+    title: Placeholder document
   wall:
-    caption: 'Een bijschrift over de voet'
-
+    caption: Een bijschrift over de voet
+  video:
+    hosted: Afgespeeld door de speler van YouTube
+    file: Een bestand dat de browser afspeelt
 pl:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Media
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Widok
-      description: 'Ten sam szkielet co częściowy widok, dla dokumentu, którego adres jest znany dopiero po załadowaniu strony.'
+      description: Ten sam szkielet co częściowy widok, dla dokumentu, którego adres jest znany dopiero po załadowaniu strony.
     shapes:
       title: Kształty
     overlay:
       title: Nakładka
     aspect_ratio:
-      title: 'Proporcje obrazu'
+      title: Proporcje obrazu
     document:
-      title: 'Osadzony dokument'
+      title: Osadzony dokument
       description: 'Iframe wypełnia swoje pole, więc pole określa rozmiar: modyfikator proporcji lub media--wypełnij, aby przyjąć wysokość, którą daje rodzic.'
     frame:
       title: Ramka
       description: 'Obrazek w ramce, z serwera za pomocą media() lub jako komponent vue media: link, gdy prowadzi gdzieś, podpis na dole oraz efekt podświetlenia podczas ładowania lub gdy go nie ma.'
     wall:
-      title: 'Mozaika'
+      title: Mozaika
       description: 'Obrazki o różnych wysokościach zapakowane obok siebie bez przerw, każdy tak wysoki, jak mówi jego proporcja, kolumny tak liczne, jak pozwala pomieszczenie: wall() rysuje je z serwera, kształt to css/shapes/wall.'
     wall_vue:
-      title: 'Ściana kolekcji'
+      title: Ściana kolekcji
       description: 'Ta sama ściana jako kolekcja bytów, odczytywana z api strona po stronie, gdy jest przewijana: następna strona pojawia się zanim dotrze się do dołu ściany.'
     crop:
       title: Przytnij
       description: 'Jaką część obrazu zachować, wybraną na obrazie: obszar się porusza, róg zmienia jego rozmiar, strzałki go przesuwają i z wciśniętym Shift zmieniają rozmiar. Jest to podawane w pikselach obrazu — według czego serwer przycina — a crop() przycina to tutaj, gdy cięcie jest przesyłane. Proporcja to trzyma (1 dla portretu, pokazywanego okrągło), lub jest swobodna, tak jak potrzebuje podpis.'
+    video:
+      title: Wideo
+      description: 'Strona serwisu — YouTube, Vimeo — jest odtwarzana jego własnym odtwarzaczem; każdy inny adres to plik odtwarzany przez przeglądarkę. Ta sama ramka, szesnaście na dziewięć, podpis pod spodem: po lewej rysuje serwer, po prawej vue.'
   document:
-    title: 'Dokument zastępczy'
+    title: Dokument zastępczy
   wall:
-    caption: 'Podpis na dole'
-
+    caption: Podpis na dole
+  video:
+    hosted: Odtwarzane przez odtwarzacz YouTube
+    file: Plik odtwarzany przez przeglądarkę
 pt_BR:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Mídia
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'O mesmo quadro que uma parte vue, para um documento cujo endereço só é conhecido quando a página é carregada.'
+      description: O mesmo quadro que uma parte vue, para um documento cujo endereço só é conhecido quando a página é carregada.
     shapes:
       title: Formas
     overlay:
@@ -561,67 +637,77 @@ pt_BR:
     aspect_ratio:
       title: Proporção
     document:
-      title: 'Documento incorporado'
+      title: Documento incorporado
       description: 'Um iframe preenche sua caixa, então a caixa carrega o tamanho: um modificador de proporção, ou mídia--preencher para ocupar a altura que o pai fornece.'
     frame:
       title: Quadro
       description: 'Uma imagem em seu quadro, do servidor com media() ou como o componente vue de mídia: um link quando leva a algum lugar, uma legenda na parte inferior, e um brilho enquanto carrega ou quando não há nada.'
     wall:
-      title: 'Mosaico'
+      title: Mosaico
       description: 'Imagens de todas as alturas empilhadas lado a lado sem buracos, cada uma tão alta quanto sua proporção diz, as colunas são tantas quanto o espaço permite: wall() desenha isso do servidor, a forma é css/shapes/wall.'
     wall_vue:
-      title: 'Paredão de uma coleção'
+      title: Paredão de uma coleção
       description: 'O mesmo paredão como uma coleção de entidades, lido da API uma página por vez enquanto é rolado: a próxima página aparece antes que o pé do paredão seja alcançado.'
     crop:
       title: Recorte
       description: 'Qual parte de uma imagem manter, escolhida sobre a imagem: a área se move, um canto dimensiona, as setas movem e com Shift dimensionam. É dito em pixels próprios da imagem — o que um servidor recorta — e crop() corta aqui quando o corte é enviado em vez disso. Uma proporção mantém (1 para um retrato, mostrado redondo), ou é livre, como uma assinatura precisa.'
+    video:
+      title: A video
+      description: 'A host''s page — YouTube, Vimeo — is played by the host''s own player; any other address is a file the browser plays. The same frame either way, sixteen by nine, its caption under it: on the left drawn by the server, on the right by a vue.'
   document:
-    title: 'Documento de exemplo'
+    title: Documento de exemplo
   wall:
-    caption: 'Uma legenda na parte inferior'
-
+    caption: Uma legenda na parte inferior
+  video:
+    hosted: Played by YouTube's own player
+    file: A file the browser plays
 ru:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Медиа
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Та же рамка, что и в частичном представлении vue, для документа, адрес которого известен только во время выполнения страницы.'
+      description: Та же рамка, что и в частичном представлении vue, для документа, адрес которого известен только во время выполнения страницы.
     shapes:
       title: Фигуры
     overlay:
       title: Накладка
     aspect_ratio:
-      title: 'Соотношение сторон'
+      title: Соотношение сторон
     document:
-      title: 'Встроенный документ'
+      title: Встроенный документ
       description: 'Iframe заполняет свою область, поэтому область определяет размер: модификатор соотношения, или media--fill для того, чтобы занять любую высоту, которую дает родитель.'
     frame:
       title: Рамка
       description: 'Картина в рамке, с сервера с media() или как компонент media vue: ссылка, когда она куда-то ведет, подпись внизу и свечение во время загрузки или когда изображения нет.'
     wall:
-      title: 'Мозаика'
+      title: Мозаика
       description: 'Картины разной высоты, упакованные рядом без пробелов, каждая такой высоты, какой требует её соотношение, количество колонн зависит от размера комнаты: wall() рисует её с сервера, форма — css/shapes/wall.'
     wall_vue:
-      title: 'Стена коллекции'
+      title: Стена коллекции
       description: 'Та же стена, что и коллекция сущностей, считываемая из api по одной странице за раз при прокрутке: следующая страница появляется до того, как будет достигнут конец стены.'
     crop:
       title: Обрезка
       description: 'Какую часть изображения сохранить, выбирая её на изображении: область перемещается, угол изменяет размер, стрелки перемещают её, а с Shift — изменяют размер. Это определяется собственными пикселями изображения — по которым сервер обрезает — и crop() обрезает её здесь, когда обрезка отправляется. Соотношение удерживает её (1 для портрета, отображается круглым), или оно свободно, как требуется для подписи.'
+    video:
+      title: Видео
+      description: 'Страница сервиса — YouTube, Vimeo — воспроизводится его собственным плеером; любой другой адрес — файл, который воспроизводит браузер. Одна и та же рамка, шестнадцать на девять, подпись снизу: слева рисует сервер, справа vue.'
   document:
     title: Документ-заполнитель
   wall:
-    caption: 'Подпись внизу'
-
+    caption: Подпись внизу
+  video:
+    hosted: Воспроизводится плеером YouTube
+    file: Файл, который воспроизводит браузер
 th:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: สื่อ
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'กรอบเดียวกันกับส่วน vue สำหรับเอกสารที่ที่อยู่จะถูกทราบเมื่อหน้าเว็บทำงานแล้วเท่านั้น.'
+      description: กรอบเดียวกันกับส่วน vue สำหรับเอกสารที่ที่อยู่จะถูกทราบเมื่อหน้าเว็บทำงานแล้วเท่านั้น.
     shapes:
       title: รูปทรง
     overlay:
@@ -635,7 +721,7 @@ th:
       title: กรอบ
       description: 'ภาพในกรอบของมัน จากเซิร์ฟเวอร์ด้วย media() หรือในฐานะคอมโพเนนต์ media vue: ลิงก์เมื่อมันนำไปที่ใดที่หนึ่ง, คำบรรยายเหนือฐาน, และแสงระยิบระยับขณะโหลดหรือเมื่อไม่มีภาพ.'
     wall:
-      title: 'โมเสก'
+      title: โมเสก
       description: 'ภาพทุกขนาดที่เรียงข้างกันไม่มีช่องว่าง, แต่ละภาพสูงตามอัตราส่วนที่บอก, จำนวนคอลัมน์มีตามที่ห้องรองรับ: wall() วาดมันจากเซิร์ฟเวอร์, รูปทรงเป็น css/shapes/wall.'
     wall_vue:
       title: ผนังของคอลเลกชัน
@@ -643,117 +729,137 @@ th:
     crop:
       title: ตัด
       description: 'ส่วนใดของภาพที่จะเก็บไว้, เลือกจากภาพ: พื้นที่เคลื่อนที่, มุมขนาดมัน, ลูกศรเคลื่อนที่และขนาดมันด้วย Shift. มันถูกกล่าวในพิกเซลของภาพเอง — สิ่งที่เซิร์ฟเวอร์ตัด — และ crop() ตัดมันที่นี่เมื่อการตัดถูกส่งแทน. อัตราส่วนถือมัน (1 สำหรับภาพบุคคล, แสดงเป็นวงกลม), หรือมันเป็นอิสระ, ตามที่ลายเซ็นต้องการ.'
+    video:
+      title: วิดีโอ
+      description: 'หน้าของผู้ให้บริการ — YouTube, Vimeo — เล่นด้วยเครื่องเล่นของเขาเอง ที่อยู่อื่นคือไฟล์ที่เบราว์เซอร์เล่น กรอบเดียวกัน สิบหกต่อเก้า คำบรรยายอยู่ใต้: ซ้ายวาดโดยเซิร์ฟเวอร์ ขวาโดย vue'
   document:
     title: เอกสารตัวอย่าง
   wall:
     caption: คำบรรยายเหนือฐาน
-
+  video:
+    hosted: เล่นโดยเครื่องเล่นของ YouTube
+    file: ไฟล์ที่เบราว์เซอร์เล่น
 tr:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Medya
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Sayfa çalıştığında adresi ancak bilinen bir belge için vue parçasıyla aynı çerçeve.'
+      description: Sayfa çalıştığında adresi ancak bilinen bir belge için vue parçasıyla aynı çerçeve.
     shapes:
       title: Şekiller
     overlay:
       title: Katman
     aspect_ratio:
-      title: 'Görüntü Oranı'
+      title: Görüntü Oranı
     document:
-      title: 'Gömülü belge'
+      title: Gömülü belge
       description: 'Bir iframe kutusunu doldurur, bu nedenle kutu boyutu taşır: bir oran değiştiricisi veya ana belgenin verdiği yüksekliği almak için medya--doldur.'
     frame:
       title: Çerçeve
       description: 'Sunucudan media() ile veya medya vue bileşeni olarak çerçevesindeki bir resim: bir yere giden bir bağlantı, altına bir başlık ve yüklenirken veya hiç yokken bir parıltı.'
     wall:
-      title: 'Mozaik'
-      description: "Her yüksekliğe sahip resimler, yan yana ve boşluk olmadan paketlenmiş, her biri oranına göre yüksek, odanın alabileceği kadar sütun: wall() bunu sunucudan çizer, şekil css/shapes/wall'dır."
+      title: Mozaik
+      description: 'Her yüksekliğe sahip resimler, yan yana ve boşluk olmadan paketlenmiş, her biri oranına göre yüksek, odanın alabileceği kadar sütun: wall() bunu sunucudan çizer, şekil css/shapes/wall''dır.'
     wall_vue:
-      title: 'Bir koleksiyonun duvarı'
-      description: "Bir varlık koleksiyonu olarak aynı duvar, api'den bir sayfa olarak okunur, kaydırıldıkça: bir sonraki sayfa duvarın altına ulaşmadan gelir."
+      title: Bir koleksiyonun duvarı
+      description: 'Bir varlık koleksiyonu olarak aynı duvar, api''den bir sayfa olarak okunur, kaydırıldıkça: bir sonraki sayfa duvarın altına ulaşmadan gelir.'
     crop:
       title: Kırp
       description: 'Bir görüntünün hangi kısmının korunacağını seçme: alan hareket eder, bir köşe boyutlandırır, oklar hareket ettirir ve Shift ile boyutlandırır. Sunucunun kırptığı görüntünün kendi pikselleriyle ifade edilir — crop() burada kesim gönderildiğinde keser. Bir oran onu tutar (portre için 1, yuvarlak gösterilir) veya serbesttir, bir imza gibi gerekir.'
+    video:
+      title: Bir video
+      description: 'Bir sağlayıcının sayfası — YouTube, Vimeo — kendi oynatıcısıyla oynatılır; başka her adres tarayıcının oynattığı bir dosyadır. Aynı çerçeve, on altıya dokuz, altında başlığı: solda sunucu, sağda bir vue çizer.'
   document:
-    title: 'Yer Tutucu belge'
+    title: Yer Tutucu belge
   wall:
-    caption: 'Altında bir başlık'
-
+    caption: Altında bir başlık
+  video:
+    hosted: YouTube oynatıcısıyla oynatılır
+    file: Tarayıcının oynattığı bir dosya
 ur:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: میڈیا
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: ویو
-      description: 'اسی فریم میں ایک ویو پارشل کے طور پر، ایک دستاویز کے لیے جس کا پتہ صرف اس وقت معلوم ہوتا ہے جب صفحہ چلتا ہے۔'
+      description: اسی فریم میں ایک ویو پارشل کے طور پر، ایک دستاویز کے لیے جس کا پتہ صرف اس وقت معلوم ہوتا ہے جب صفحہ چلتا ہے۔
     shapes:
       title: اشکال
     overlay:
       title: اوورلے
     aspect_ratio:
-      title: 'تناسبِ ابعاد'
+      title: تناسبِ ابعاد
     document:
-      title: 'مربوط دستاویز'
+      title: مربوط دستاویز
       description: 'ایک iframe اپنے باکس کو بھر دیتا ہے، اس لیے باکس کا سائز ہوتا ہے: ایک تناسب میں تبدیلی کرنے والا، یا میڈیا--بھرنے کے لیے جو بھی اونچائی والدین فراہم کرے۔'
     frame:
       title: فریم
       description: 'ایک تصویر اپنے فریم میں، سرور سے media() کے ذریعے یا میڈیا vue کمپوننٹ کے طور پر: ایک لنک جب یہ کسی جگہ کی طرف جاتا ہے، اس کے نیچے ایک عنوان، اور جب یہ لوڈ ہو رہا ہو یا جب کوئی نہ ہو تو ایک چمک۔'
     wall:
-      title: 'موزیک'
+      title: موزیک
       description: 'ہر اونچائی کی تصاویر ایک دوسرے کے ساتھ بغیر کسی جگہ کے، ہر ایک اپنی تناسب کے مطابق اونچی، کالمز جتنے کمرے میں ہوں: wall() اسے سرور سے کھینچتا ہے، شکل css/shapes/wall ہے۔'
     wall_vue:
-      title: 'اجتماع کی دیوار'
+      title: اجتماع کی دیوار
       description: 'وہی دیوار جو ہستیوں کے اجتماع کے طور پر ہے، api سے ایک وقت میں ایک صفحہ پڑھا جاتا ہے جوں ہی یہ سکرول ہوتا ہے: اگلا صفحہ دیوار کے پاؤں تک پہنچنے سے پہلے آتا ہے۔'
     crop:
       title: کٹائی
       description: 'تصویر کا کون سا حصہ رکھنا ہے، تصویر پر منتخب کیا جاتا ہے: علاقہ حرکت کرتا ہے، ایک کونا اسے سائز دیتا ہے، تیر اسے حرکت دیتے ہیں اور Shift کے ساتھ سائز دیتے ہیں۔ یہ تصویر کے اپنے پکسلز میں کہا جاتا ہے — جس پر سرور کٹائی کرتا ہے — اور crop() اسے یہاں کٹ دیتا ہے جب کٹ بھیجا جاتا ہے۔ ایک تناسب اسے پکڑتا ہے (پورٹریٹ کے لیے 1، جو گول دکھایا جاتا ہے)، یا یہ آزاد ہے، جیسا کہ ایک دستخط کی ضرورت ہوتی ہے۔'
+    video:
+      title: ایک ویڈیو
+      description: 'کسی میزبان کا صفحہ — YouTube، Vimeo — اس کے اپنے پلیئر میں چلتا ہے؛ کوئی اور پتہ ایک فائل ہے جسے براؤزر چلاتا ہے۔ دونوں میں ایک ہی فریم، سولہ بٹا نو، نیچے کیپشن: بائیں سرور بناتا ہے، دائیں ایک vue۔'
   document:
-    title: 'پلےس ہولڈر دستاویز'
+    title: پلےس ہولڈر دستاویز
   wall:
-    caption: 'اس کے نیچے ایک عنوان'
-
+    caption: اس کے نیچے ایک عنوان
+  video:
+    hosted: YouTube کے پلیئر میں چلتا ہے
+    file: براؤزر کی چلائی ہوئی فائل
 vi:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
-  page_title: 'Phương tiện'
-  page_icon: 'ph:bold/image'
+  page_title: Phương tiện
+  page_icon: ph:bold/image
   section:
     vue:
       title: Vue
-      description: 'Khung giống như một phần vue, cho một tài liệu mà địa chỉ chỉ được biết khi trang chạy.'
+      description: Khung giống như một phần vue, cho một tài liệu mà địa chỉ chỉ được biết khi trang chạy.
     shapes:
-      title: 'Hình dạng'
+      title: Hình dạng
     overlay:
-      title: 'Lớp phủ'
+      title: Lớp phủ
     aspect_ratio:
-      title: 'Tỉ lệ khung hình'
+      title: Tỉ lệ khung hình
     document:
-      title: 'Tài liệu nhúng'
+      title: Tài liệu nhúng
       description: 'Một iframe lấp đầy hộp của nó, vì vậy hộp mang kích thước: một bộ điều chỉnh tỉ lệ, hoặc phương tiện--lấp đầy để lấy bất kỳ chiều cao nào mà cha cung cấp.'
     frame:
       title: Khung
       description: 'Một bức tranh trong khung của nó, từ máy chủ với media() hoặc dưới dạng thành phần vue media: một liên kết khi nó dẫn đến đâu đó, một chú thích ở dưới chân, và một ánh sáng trong khi nó tải hoặc khi không có gì.'
     wall:
-      title: 'Lưới ảnh'
+      title: Lưới ảnh
       description: 'Những bức tranh có chiều cao khác nhau được xếp cạnh nhau không có khoảng trống, mỗi bức tranh cao như tỉ lệ của nó, số cột nhiều như không gian có: wall() vẽ nó từ máy chủ, hình dạng là css/shapes/wall.'
     wall_vue:
-      title: 'Tường của một bộ sưu tập'
+      title: Tường của một bộ sưu tập
       description: 'Tường giống như một bộ sưu tập các thực thể, đọc từ api một trang tại một thời điểm khi nó được cuộn: trang tiếp theo xuất hiện trước khi đạt đến chân của bức tường.'
     crop:
       title: Cắt
       description: 'Phần nào của hình ảnh cần giữ lại, được chọn trên hình ảnh: khu vực di chuyển, một góc điều chỉnh kích thước, các mũi tên di chuyển nó và với Shift điều chỉnh kích thước. Nó được nói bằng chính pixel của hình ảnh — những gì máy chủ cắt theo — và crop() cắt nó ở đây khi việc cắt được gửi thay thế. Một tỉ lệ giữ nó (1 cho chân dung, hiển thị hình tròn), hoặc nó là tự do, như một chữ ký cần.'
+    video:
+      title: Một video
+      description: 'Trang của nhà cung cấp — YouTube, Vimeo — được phát bằng trình phát riêng của họ; địa chỉ khác là tệp trình duyệt phát. Cùng một khung, mười sáu chín, chú thích bên dưới: trái do máy chủ vẽ, phải do một vue.'
   document:
-    title: 'Tài liệu mẫu'
+    title: Tài liệu mẫu
   wall:
-    caption: 'Một chú thích ở dưới chân'
-
+    caption: Một chú thích ở dưới chân
+  video:
+    hosted: Phát bằng trình phát của YouTube
+    file: Tệp do trình duyệt phát
 zh:
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 媒体
-  page_icon: 'ph:bold/image'
+  page_icon: ph:bold/image
   section:
     vue:
       title: 视图
@@ -769,17 +875,23 @@ zh:
       description: iframe填充其框，因此框承载大小：一个比例修饰符，或媒体--填充以获取父级提供的任何高度。
     frame:
       title: 框架
-      description: '一幅装在框架里的图片，从服务器获取 media() 或作为媒体 Vue 组件：当它链接到某个地方时，显示链接，脚下有说明，加载时或没有内容时有光晕效果。'
+      description: 一幅装在框架里的图片，从服务器获取 media() 或作为媒体 Vue 组件：当它链接到某个地方时，显示链接，脚下有说明，加载时或没有内容时有光晕效果。
     wall:
-      title: '图片墙'
-      description: '每张高度不同的图片并排紧凑地排列，没有空隙，每张图片的高度与其比例一致，列数根据房间的大小而定：wall() 从服务器绘制，形状为 css/shapes/wall。'
+      title: 图片墙
+      description: 每张高度不同的图片并排紧凑地排列，没有空隙，每张图片的高度与其比例一致，列数根据房间的大小而定：wall() 从服务器绘制，形状为 css/shapes/wall。
     wall_vue:
       title: 集合的墙壁
-      description: '与实体集合相同的墙壁，按页从 API 读取，随着滚动逐页加载：下一页在到达墙底之前就会出现。'
+      description: 与实体集合相同的墙壁，按页从 API 读取，随着滚动逐页加载：下一页在到达墙底之前就会出现。
     crop:
       title: 裁剪
-      description: '选择保留图像的哪一部分：区域可以移动，角落可以调整大小，箭头可以移动并在按住 Shift 时调整大小。这是用图像自身的像素表示的——服务器根据这些像素进行裁剪——而 crop() 在切割操作发送时会在此处裁剪。一个比例来保持它（竖图为 1，显示为圆形），或者是自由的，就像签名一样。'
+      description: 选择保留图像的哪一部分：区域可以移动，角落可以调整大小，箭头可以移动并在按住 Shift 时调整大小。这是用图像自身的像素表示的——服务器根据这些像素进行裁剪——而 crop() 在切割操作发送时会在此处裁剪。一个比例来保持它（竖图为 1，显示为圆形），或者是自由的，就像签名一样。
+    video:
+      title: 视频
+      description: 托管方的页面（YouTube、Vimeo）由其自己的播放器播放；其他地址是浏览器播放的文件。两者同一个 16:9 框，下方是说明：左边由服务器绘制，右边由 vue 绘制。
   document:
     title: 占位符文档
   wall:
     caption: 脚下的说明
+  video:
+    hosted: 由 YouTube 播放器播放
+    file: 浏览器播放的文件
