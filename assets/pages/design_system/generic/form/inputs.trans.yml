@@ -88,6 +88,8 @@ en:
     time: Preferred time
     datetime: Appointment
     select: Country
+    search_select: "Searched among a few"
+    search_select_source: "A country, searched"
     radio: Contact by
     switch: Send me the newsletter
     file: Identity document
@@ -97,6 +99,7 @@ en:
 
   placeholder:
     text: Maya Lindqvist
+    search_select: "Type a country…"
     textarea: Street, postcode, city
     email: maya@example.com
     url: https://example.com
@@ -206,6 +209,8 @@ ar:
     time: 'الوقت المفضل'
     datetime: الموعد
     select: الدولة
+    search_select: "مبحوث بين القليل"
+    search_select_source: "بلد، مبحوث"
     radio: 'التواصل عبر'
     switch: 'أرسل لي النشرة الإخبارية'
     file: 'وثيقة الهوية'
@@ -214,6 +219,7 @@ ar:
     submit: إرسال
   placeholder:
     text: 'مايا ليندكفيست'
+    search_select: "اكتب اسم بلد…"
     textarea: 'الشارع، الرمز البريدي، المدينة'
     email: maya@example.com
     url: 'https://example.com'
@@ -320,6 +326,8 @@ bn:
     time: 'পছন্দের সময়'
     datetime: 'নিয়মিত সময়'
     select: দেশ
+    search_select: "কয়েকটির মধ্যে খোঁজা"
+    search_select_source: "একটি দেশ, খোঁজা"
     radio: 'যোগাযোগের দ্বারা'
     switch: 'আমাকে নিউজলেটার পাঠান'
     file: পরিচয়পত্র
@@ -328,6 +336,7 @@ bn:
     submit: 'জমা দিন'
   placeholder:
     text: 'মায়া লিন্ডকভিস্ট'
+    search_select: "একটি দেশ লিখুন…"
     textarea: 'রাস্তা, ডাক কোড, শহর'
     email: maya@example.com
     url: 'https://example.com'
@@ -434,6 +443,8 @@ de:
     time: 'Bevorzugte Zeit'
     datetime: Termin
     select: Land
+    search_select: "Unter wenigen gesucht"
+    search_select_source: "Ein Land, gesucht"
     radio: 'Kontakt über'
     switch: 'Senden Sie mir den Newsletter'
     file: Identitätsdokument
@@ -442,6 +453,7 @@ de:
     submit: Absenden
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Ein Land eingeben…"
     textarea: 'Straße, Postleitzahl, Stadt'
     email: maya@example.com
     url: 'https://example.com'
@@ -548,6 +560,8 @@ es:
     time: 'Hora preferida'
     datetime: Cita
     select: País
+    search_select: "Buscado entre unos pocos"
+    search_select_source: "Un país, buscado"
     radio: 'Contacto por'
     switch: 'Envíame el boletín'
     file: 'Documento de identidad'
@@ -556,6 +570,7 @@ es:
     submit: Enviar
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Escribe un país…"
     textarea: 'Calle, código postal, ciudad'
     email: maya@example.com
     url: 'https://example.com'
@@ -662,6 +677,8 @@ fa:
     time: 'زمان مورد نظر'
     datetime: 'قرار ملاقات'
     select: کشور
+    search_select: "جستجو میان چند گزینه"
+    search_select_source: "یک کشور، جستجو شده"
     radio: 'تماس از طریق'
     switch: 'خبرنامه را برای من ارسال کن'
     file: 'مدرک شناسایی'
@@ -670,6 +687,7 @@ fa:
     submit: ارسال
   placeholder:
     text: 'مایا لیندکویست'
+    search_select: "نام کشوری را بنویسید…"
     textarea: 'خیابان، کد پستی، شهر'
     email: maya@example.com
     url: 'https://example.com'
@@ -776,6 +794,8 @@ fi:
     time: 'Suositeltu aika'
     datetime: Tapaaminen
     select: Maa
+    search_select: "Haettu muutamasta"
+    search_select_source: "Maa, haettu"
     radio: 'Ota yhteyttä'
     switch: 'Lähetä minulle uutiskirje'
     file: Henkilöllisyystodistus
@@ -784,6 +804,7 @@ fi:
     submit: Lähetä
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Kirjoita maa…"
     textarea: 'Katu, postinumero, kaupunki'
     email: maya@example.com
     url: 'https://example.com'
@@ -890,6 +911,8 @@ fr:
     time: 'Heure préférée'
     datetime: Rendez-vous
     select: Pays
+    search_select: "Cherché parmi quelques-uns"
+    search_select_source: "Un pays, cherché"
     radio: 'Contact par'
     switch: 'Envoyez-moi la newsletter'
     file: "Document d'identité"
@@ -898,6 +921,7 @@ fr:
     submit: Soumettre
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Tapez un pays…"
     textarea: 'Rue, code postal, ville'
     email: maya@example.com
     url: 'https://example.com'
@@ -1004,6 +1028,8 @@ he:
     time: 'זמן מועדף'
     datetime: פגישה
     select: מדינה
+    search_select: "חיפוש בין מעטים"
+    search_select_source: "מדינה, בחיפוש"
     radio: 'צור קשר באמצעות'
     switch: 'שלח לי את הניוזלטר'
     file: 'תעודת זהות'
@@ -1012,6 +1038,7 @@ he:
     submit: שלח
   placeholder:
     text: 'מאיה לינדרקוויסט'
+    search_select: "הקלידו מדינה…"
     textarea: 'רחוב, מיקוד, עיר'
     email: maya@example.com
     url: 'https://example.com'
@@ -1118,6 +1145,8 @@ hi:
     time: 'पसंदीदा समय'
     datetime: अपॉइंटमेंट
     select: देश
+    search_select: "कुछ में से खोजा गया"
+    search_select_source: "एक देश, खोजा गया"
     radio: 'संपर्क द्वारा'
     switch: 'मुझे न्यूज़लेटर भेजें'
     file: 'पहचान पत्र'
@@ -1126,6 +1155,7 @@ hi:
     submit: सबमिट
   placeholder:
     text: 'माया लिंडक्विस्ट'
+    search_select: "कोई देश लिखें…"
     textarea: 'गली, पोस्टकोड, शहर'
     email: maya@example.com
     url: 'https://example.com'
@@ -1232,6 +1262,8 @@ id:
     time: 'Waktu yang diinginkan'
     datetime: 'Janji temu'
     select: Negara
+    search_select: "Dicari di antara beberapa"
+    search_select_source: "Sebuah negara, dicari"
     radio: 'Kontak melalui'
     switch: 'Kirim saya buletin'
     file: 'Dokumen identitas'
@@ -1240,6 +1272,7 @@ id:
     submit: Kirim
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Ketik nama negara…"
     textarea: 'Jalan, kode pos, kota'
     email: maya@example.com
     url: 'https://example.com'
@@ -1346,6 +1379,8 @@ it:
     time: 'Orario preferito'
     datetime: Appuntamento
     select: Paese
+    search_select: "Cercato tra pochi"
+    search_select_source: "Un paese, cercato"
     radio: 'Contatto tramite'
     switch: 'Inviami la newsletter'
     file: "Documento d'identità"
@@ -1354,6 +1389,7 @@ it:
     submit: Invia
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Scrivi un paese…"
     textarea: 'Via, codice postale, città'
     email: maya@example.com
     url: 'https://example.com'
@@ -1460,6 +1496,8 @@ ja:
     time: 希望の時間
     datetime: アポイントメント
     select: 国
+    search_select: "少数の中から検索"
+    search_select_source: "国を検索"
     radio: 連絡方法
     switch: ニュースレターを送信
     file: 身分証明書
@@ -1468,6 +1506,7 @@ ja:
     submit: 送信
   placeholder:
     text: マヤ・リンドクヴィスト
+    search_select: "国名を入力…"
     textarea: 通り、郵便番号、市
     email: maya@example.com
     url: 'https://example.com'
@@ -1574,6 +1613,8 @@ ko:
     time: '선호 시간'
     datetime: 약속
     select: 국가
+    search_select: "몇 개 중에서 검색"
+    search_select_source: "국가 검색"
     radio: '연락 방법'
     switch: '뉴스레터 받기'
     file: '신원 문서'
@@ -1582,6 +1623,7 @@ ko:
     submit: 제출
   placeholder:
     text: '마야 린드퀴스트'
+    search_select: "국가를 입력…"
     textarea: '거리, 우편번호, 도시'
     email: maya@example.com
     url: 'https://example.com'
@@ -1688,6 +1730,8 @@ nl:
     time: 'Voorkeurs tijd'
     datetime: Afspraak
     select: Land
+    search_select: "Gezocht tussen enkele"
+    search_select_source: "Een land, gezocht"
     radio: 'Contact via'
     switch: 'Stuur me de nieuwsbrief'
     file: Identiteitsdocument
@@ -1696,6 +1740,7 @@ nl:
     submit: Verzenden
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Typ een land…"
     textarea: 'Straat, postcode, stad'
     email: maya@example.com
     url: 'https://example.com'
@@ -1802,6 +1847,8 @@ pl:
     time: 'Preferowana godzina'
     datetime: Wizyta
     select: Kraj
+    search_select: "Wyszukiwany spośród kilku"
+    search_select_source: "Kraj, wyszukiwany"
     radio: 'Kontakt przez'
     switch: 'Wyślij mi newsletter'
     file: 'Dokument tożsamości'
@@ -1810,6 +1857,7 @@ pl:
     submit: Wyślij
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Wpisz kraj…"
     textarea: 'Ulica, kod pocztowy, miasto'
     email: maya@example.com
     url: 'https://example.com'
@@ -1916,6 +1964,8 @@ pt_BR:
     time: 'Hora preferida'
     datetime: Compromisso
     select: País
+    search_select: "Wyszukiwany spośród kilku"
+    search_select_source: "Kraj, wyszukiwany"
     radio: 'Contato por'
     switch: 'Envie-me a newsletter'
     file: 'Documento de identidade'
@@ -1924,6 +1974,7 @@ pt_BR:
     submit: Enviar
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Wpisz kraj…"
     textarea: 'Rua, código postal, cidade'
     email: maya@example.com
     url: 'https://example.com'
@@ -2030,6 +2081,8 @@ ru:
     time: 'Предпочитаемое время'
     datetime: Запись
     select: Страна
+    search_select: "Поиск среди нескольких"
+    search_select_source: "Страна, с поиском"
     radio: 'Контакт по'
     switch: 'Подписать на рассылку'
     file: 'Документ удостоверяющий личность'
@@ -2038,6 +2091,7 @@ ru:
     submit: Отправить
   placeholder:
     text: 'Мая Линдквист'
+    search_select: "Введите страну…"
     textarea: 'Улица, индекс, город'
     email: maya@example.com
     url: 'https://example.com'
@@ -2144,6 +2198,8 @@ th:
     time: เวลาที่ต้องการ
     datetime: นัดหมาย
     select: ประเทศ
+    search_select: "ค้นหาจากไม่กี่รายการ"
+    search_select_source: "ประเทศ ค้นหา"
     radio: ติดต่อโดย
     switch: ส่งข่าวสารให้ฉัน
     file: เอกสารประจำตัว
@@ -2152,6 +2208,7 @@ th:
     submit: ส่ง
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "พิมพ์ชื่อประเทศ…"
     textarea: 'ถนน, รหัสไปรษณีย์, เมือง'
     email: maya@example.com
     url: 'https://example.com'
@@ -2258,6 +2315,8 @@ tr:
     time: 'Tercih edilen zaman'
     datetime: Randevu
     select: Ülke
+    search_select: "Birkaç seçenek arasında aranan"
+    search_select_source: "Bir ülke, aranan"
     radio: 'İletişim yöntemi'
     switch: 'Bülteni al'
     file: 'Kimlik belgesi'
@@ -2266,6 +2325,7 @@ tr:
     submit: Gönder
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Bir ülke yazın…"
     textarea: 'Sokak, posta kodu, şehir'
     email: maya@example.com
     url: 'https://example.com'
@@ -2372,6 +2432,8 @@ ur:
     time: 'پسندیدہ وقت'
     datetime: ملاقات
     select: ملک
+    search_select: "چند میں سے تلاش"
+    search_select_source: "ایک ملک، تلاش شدہ"
     radio: 'رابطہ کریں'
     switch: 'مجھے نیوز لیٹر بھیجیں'
     file: 'شناختی دستاویز'
@@ -2380,6 +2442,7 @@ ur:
     submit: 'جمع کرائیں'
   placeholder:
     text: 'ما یا لنڈکوئسٹ'
+    search_select: "کوئی ملک لکھیں…"
     textarea: 'گلی، پوسٹ کوڈ، شہر'
     email: maya@example.com
     url: 'https://example.com'
@@ -2486,6 +2549,8 @@ vi:
     time: 'Thời gian ưa thích'
     datetime: 'Cuộc hẹn'
     select: 'Quốc gia'
+    search_select: "Tìm trong vài lựa chọn"
+    search_select_source: "Một quốc gia, tìm kiếm"
     radio: 'Liên hệ qua'
     switch: 'Gửi cho tôi bản tin'
     file: 'Giấy tờ tùy thân'
@@ -2494,6 +2559,7 @@ vi:
     submit: Gửi
   placeholder:
     text: 'Maya Lindqvist'
+    search_select: "Nhập tên quốc gia…"
     textarea: 'Đường, mã bưu điện, thành phố'
     email: maya@example.com
     url: 'https://example.com'
@@ -2600,6 +2666,8 @@ zh:
     time: 首选时间
     datetime: 预约
     select: 国家
+    search_select: "在少数选项中搜索"
+    search_select_source: "国家，可搜索"
     radio: 联系方式
     switch: 给我发送新闻简报
     file: 身份文件
@@ -2608,6 +2676,7 @@ zh:
     submit: 提交
   placeholder:
     text: 玛雅·林德奎斯特
+    search_select: "输入国家…"
     textarea: 街道，邮政编码，城市
     email: maya@example.com
     url: 'https://example.com'

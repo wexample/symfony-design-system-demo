@@ -10,6 +10,7 @@ use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyCheck\Service\GateService;
 use Wexample\SymfonyDesignSystemDemo\Class\Demo\GateDemoInvoiceCreation;
 use Wexample\SymfonyDesignSystemDemo\Controller\Pages\DesignSystem\AbstractDesignSystemGenericController;
+use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyDesignSystemDemo\Service\Demo\GateDemoOrganizationStore;
 use Wexample\SymfonyDesignSystemDemo\Service\FormProcessor\Demo\FormFromServerDemoFormProcessor;
@@ -119,6 +120,16 @@ final class FormController extends AbstractDesignSystemGenericController
     }
 
     /**
+     * The countries holding what is typed (`q`): the source a searched select
+     * asks, too many to send with the form.
+     */
+    #[Route(name: 'countries', path: 'countries', options: ['expose' => true])]
+    public function countries(Request $request): JsonResponse
+    {
+        return new JsonResponse(array_slice(DemoCountryInputType::search((string) $request->query->get('q', '')), 0, 20));
+    }
+
+    /**
      * The stamps known so far, those holding what is typed (`q`): the source a
      * stamps field asks while its words are typed.
      */
@@ -146,6 +157,7 @@ final class FormController extends AbstractDesignSystemGenericController
                 'summary' => 'Figures of the last three months.',
                 'audience' => 'members',
                 'stamps' => ['urgent', 'vip'],
+                'country' => 'FR',
             ]),
         ]);
     }

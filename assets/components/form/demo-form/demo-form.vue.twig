@@ -10,6 +10,7 @@
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/switch-input') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/submit-input') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-stamps-input') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/search-select-input') -}}
 {%- endblock -%}
 
 {%- block form_notification -%}
@@ -60,6 +61,15 @@
             label="{{ (td ~ '::field.stamps.label')|trans }}"
             :translate="false"
     ></demo-stamps-input>
+
+    {#- One choice searched among too many to send: asked of a source. -#}
+    <search-select-input
+            v-model="country"
+            :options-url="countriesUrl"
+            :errors="fieldErrors['country'] || []"
+            label="{{ (td ~ '::field.country.label')|trans }}"
+            :translate="false"
+    ></search-select-input>
 
     <text-input
             v-model="emoji"

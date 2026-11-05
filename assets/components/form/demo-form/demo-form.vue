@@ -7,6 +7,8 @@ import RadioInput from "@wexample/symfony-design-system/components/form/radio-in
 import SwitchInput from "@wexample/symfony-design-system/components/form/switch-input/switch-input.vue";
 import SubmitInput from "@wexample/symfony-design-system/components/form/submit-input/submit-input.vue";
 import DemoStampsInput from "../demo-stamps-input/demo-stamps-input.vue";
+import SearchSelectInput from "@wexample/symfony-design-system/components/form/search-select-input/search-select-input.vue";
+import RoutingService from "@wexample/symfony-loader/js/Services/RoutingService";
 
 export default {
   extends: Form,
@@ -16,7 +18,8 @@ export default {
     RadioInput,
     SwitchInput,
     SubmitInput,
-    DemoStampsInput
+    DemoStampsInput,
+    SearchSelectInput
   },
 
   props: {
@@ -32,6 +35,7 @@ export default {
       textSimple: '',
       textArea: '',
       stamps: ['urgent'],
+      country: 'IT',
       password: '',
       emoji: '',
       number: '',
@@ -52,6 +56,11 @@ export default {
   },
 
   computed: {
+    // Where the countries are asked, a route of the demo.
+    countriesUrl() {
+      return this.app.getServiceOrFail(RoutingService).generate('wexample_design_system_generic_form_countries');
+    },
+
     // Said in words here: `@vue` names the domain of whoever translates, and
     // the radio would read its own rather than this form's.
     radioChoiceOptions() {
@@ -68,6 +77,7 @@ export default {
         text_simple: this.textSimple,
         text_area: this.textArea,
         stamps: this.stamps.join(', '),
+        country: this.country,
         password: this.password,
         emoji: this.emoji,
         number: this.number,

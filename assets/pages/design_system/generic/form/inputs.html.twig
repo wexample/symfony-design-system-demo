@@ -143,7 +143,11 @@
     <div class="lead">{{ '@page::section.select.description' | trans }}</div>
     <div class="block block--padded cluster">
         {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/select', {}, { options: select_options, value: 'one' }) }}
-        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/select-search', {}, { options: select_options, value: 'one' }) }}
+    </div>
+    <div class="block block--padded grid grid--2">
+        {#- Searched: the options given, then a source asked as the words are typed. -#}
+        {{ gallery.field(render_pass, 'search-select-input', { id: 'demo_search_select', name: 'search_select', label: '@page::field.search_select' | trans, options: select_options|map(option => { value: option.value, label: option.label | trans }), value: 'one' }) }}
+        {{ gallery.field(render_pass, 'search-select-input', { id: 'demo_search_select_source', name: 'search_select_source', label: '@page::field.search_select_source' | trans, options_url: path('wexample_design_system_generic_form_countries'), value: 'PT', placeholder: '@page::placeholder.search_select' | trans }) }}
     </div>
 
     <h2>{{ '@page::section.switch.title' | trans }}</h2>

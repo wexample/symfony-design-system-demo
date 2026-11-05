@@ -36,6 +36,10 @@ en:
           label: "Members"
         board:
           label: "The board"
+    country:
+      label: "Country"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
     stamps:
       label: "Stamps"
       error:
@@ -88,6 +92,10 @@ ar:
           label: "الأعضاء"
         board:
           label: "المجلس"
+    country:
+      label: "البلد"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
     stamps:
       label: "الأختام"
       error:
@@ -140,6 +148,10 @@ bn:
           label: "সদস্যরা"
         board:
           label: "বোর্ড"
+    country:
+      label: "দেশ"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
     stamps:
       label: "স্ট্যাম্প"
       error:
@@ -192,6 +204,10 @@ de:
           label: "Mitglieder"
         board:
           label: "Der Vorstand"
+    country:
+      label: "Land"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
     stamps:
       label: "Stempel"
       error:
@@ -244,6 +260,10 @@ es:
           label: "Los miembros"
         board:
           label: "La junta"
+    country:
+      label: "País"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
     stamps:
       label: "Sellos"
       error:
@@ -296,6 +316,10 @@ fa:
           label: "اعضا"
         board:
           label: "هیئت مدیره"
+    country:
+      label: "کشور"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
     stamps:
       label: "مهرها"
       error:
@@ -348,6 +372,10 @@ fi:
           label: "Jäsenet"
         board:
           label: "Hallitus"
+    country:
+      label: "Maa"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
     stamps:
       label: "Leimat"
       error:
@@ -400,6 +428,10 @@ fr:
           label: "Les membres"
         board:
           label: "Le conseil"
+    country:
+      label: "Pays"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
     stamps:
       label: "Tampons"
       error:
@@ -452,6 +484,10 @@ he:
           label: "חברים"
         board:
           label: "הדירקטוריון"
+    country:
+      label: "מדינה"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
     stamps:
       label: "חותמות"
       error:
@@ -504,6 +540,10 @@ hi:
           label: "सदस्य"
         board:
           label: "बोर्ड"
+    country:
+      label: "देश"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
     stamps:
       label: "मुहरें"
       error:
@@ -556,6 +596,10 @@ id:
           label: "Anggota"
         board:
           label: "Dewan"
+    country:
+      label: "Negara"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
     stamps:
       label: "Stempel"
       error:
@@ -608,6 +652,10 @@ it:
           label: "I membri"
         board:
           label: "Il consiglio"
+    country:
+      label: "Paese"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
     stamps:
       label: "Timbri"
       error:
@@ -660,6 +708,10 @@ ja:
           label: "メンバー"
         board:
           label: "理事会"
+    country:
+      label: "国"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
     stamps:
       label: "スタンプ"
       error:
@@ -712,6 +764,10 @@ ko:
           label: "회원"
         board:
           label: "이사회"
+    country:
+      label: "국가"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
     stamps:
       label: "스탬프"
       error:
@@ -764,6 +820,10 @@ nl:
           label: "Leden"
         board:
           label: "Het bestuur"
+    country:
+      label: "Land"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
     stamps:
       label: "Stempels"
       error:
@@ -816,6 +876,10 @@ pl:
           label: "Członkowie"
         board:
           label: "Zarząd"
+    country:
+      label: "Kraj"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
     stamps:
       label: "Stemple"
       error:
@@ -868,6 +932,10 @@ pt_BR:
           label: "Membros"
         board:
           label: "A diretoria"
+    country:
+      label: "Kraj"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
     stamps:
       label: "Stemple"
       error:
@@ -920,6 +988,10 @@ ru:
           label: "Участники"
         board:
           label: "Совет"
+    country:
+      label: "Страна"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
     stamps:
       label: "Штампы"
       error:
@@ -972,6 +1044,10 @@ th:
           label: "สมาชิก"
         board:
           label: "คณะกรรมการ"
+    country:
+      label: "ประเทศ"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
     stamps:
       label: "ตราประทับ"
       error:
@@ -1024,6 +1100,10 @@ tr:
           label: "Üyeler"
         board:
           label: "Yönetim kurulu"
+    country:
+      label: "Ülke"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
     stamps:
       label: "Damgalar"
       error:
@@ -1076,6 +1156,10 @@ ur:
           label: "اراکین"
         board:
           label: "بورڈ"
+    country:
+      label: "ملک"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
     stamps:
       label: "مہریں"
       error:
@@ -1128,6 +1212,10 @@ vi:
           label: "Thành viên"
         board:
           label: "Ban điều hành"
+    country:
+      label: "Quốc gia"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
     stamps:
       label: "Con dấu"
       error:
@@ -1180,6 +1268,10 @@ zh:
           label: "成员"
         board:
           label: "董事会"
+    country:
+      label: "国家"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
     stamps:
       label: "印章"
       error:

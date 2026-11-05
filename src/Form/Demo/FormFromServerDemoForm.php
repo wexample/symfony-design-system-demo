@@ -8,6 +8,7 @@ use Symfony\Component\Form\Extension\Core\Type\UrlType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
+use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
 use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
@@ -47,6 +48,10 @@ class FormFromServerDemoForm extends AbstractForm
             ->add('audience', SelectInputType::class, $field + [
                 'choices' => ['everyone', 'members', 'board'],
                 self::FIELD_OPTION_NAME_REQUIRED => true,
+            ])
+            ->add('country', DemoCountryInputType::class, $field + [
+                self::FIELD_OPTION_NAME_REQUIRED => false,
+                'value_label' => DemoCountryInputType::COUNTRIES['FR'],
             ])
             ->add('stamps', DemoStampsInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,

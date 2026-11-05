@@ -5,6 +5,8 @@ en:
       help: Enter your password to authenticate.
       error:
         ERR_FIELD_PASSWORD_INVALID: Password is invalid for test purpose.
+    country:
+      label: "Country"
     stamps:
       label: "Stamps"
     emoji:
@@ -109,6 +111,8 @@ ar:
       help: 'أدخل كلمة المرور الخاصة بك للمصادقة.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'كلمة المرور غير صالحة لغرض الاختبار.'
+    country:
+      label: "البلد"
     stamps:
       label: "الأختام"
     emoji:
@@ -209,6 +213,8 @@ bn:
       help: 'আপনার পাসওয়ার্ড প্রবেশ করান প্রমাণীকরণের জন্য।'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'পাসওয়ার্ডটি পরীক্ষার জন্য অবৈধ।'
+    country:
+      label: "দেশ"
     stamps:
       label: "স্ট্যাম্প"
     emoji:
@@ -309,6 +315,8 @@ de:
       help: 'Geben Sie Ihr Passwort zur Authentifizierung ein.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Das Passwort ist zu Testzwecken ungültig.'
+    country:
+      label: "Land"
     stamps:
       label: "Stempel"
     emoji:
@@ -408,6 +416,8 @@ es:
       help: 'Introduce tu contraseña para autenticarte.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'La contraseña no es válida para fines de prueba.'
+    country:
+      label: "País"
     stamps:
       label: "Sellos"
     emoji:
@@ -508,6 +518,8 @@ fa:
       help: 'رمز عبور خود را برای تأیید هویت وارد کنید.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'رمز عبور برای تست نامعتبر است.'
+    country:
+      label: "کشور"
     stamps:
       label: "مهرها"
     emoji:
@@ -608,6 +620,8 @@ fi:
       help: 'Syötä salasanasi vahvistaaksesi henkilöllisyytesi.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Salasana ei ole kelvollinen testitarkoituksiin.'
+    country:
+      label: "Maa"
     stamps:
       label: "Leimat"
     emoji:
@@ -708,6 +722,8 @@ fr:
       help: 'Entrez votre mot de passe pour vous authentifier.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Le mot de passe est invalide à des fins de test.'
+    country:
+      label: "Pays"
     stamps:
       label: "Tampons"
     emoji:
@@ -808,6 +824,8 @@ he:
       help: 'הזן את הסיסמא שלך לאימות.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'הסיסמא אינה תקינה למטרות בדיקה.'
+    country:
+      label: "מדינה"
     stamps:
       label: "חותמות"
     emoji:
@@ -908,6 +926,8 @@ hi:
       help: 'प्रामाणिकता के लिए अपना पासवर्ड दर्ज करें।'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'परीक्षण के उद्देश्य के लिए पासवर्ड अमान्य है।'
+    country:
+      label: "देश"
     stamps:
       label: "मुहरें"
     emoji:
@@ -1008,6 +1028,8 @@ id:
       help: 'Masukkan kata sandi Anda untuk otentikasi.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Kata sandi tidak valid untuk tujuan pengujian.'
+    country:
+      label: "Negara"
     stamps:
       label: "Stempel"
     emoji:
@@ -1108,6 +1130,8 @@ it:
       help: 'Inserisci la tua password per autenticarti.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'La password non è valida per scopi di test.'
+    country:
+      label: "Paese"
     stamps:
       label: "Timbri"
     emoji:
@@ -1208,6 +1232,8 @@ ja:
       help: 認証のためにパスワードを入力してください。
       error:
         ERR_FIELD_PASSWORD_INVALID: パスワードはテスト用に無効です。
+    country:
+      label: "国"
     stamps:
       label: "スタンプ"
     emoji:
@@ -1308,6 +1334,8 @@ ko:
       help: '인증을 위해 비밀번호를 입력하세요.'
       error:
         ERR_FIELD_PASSWORD_INVALID: '비밀번호가 테스트 용도로 유효하지 않습니다.'
+    country:
+      label: "국가"
     stamps:
       label: "스탬프"
     emoji:
@@ -1408,6 +1436,8 @@ nl:
       help: 'Voer uw wachtwoord in om te authentiseren.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Wachtwoord is ongeldig voor testdoeleinden.'
+    country:
+      label: "Land"
     stamps:
       label: "Stempels"
     emoji:
@@ -1508,6 +1538,8 @@ pl:
       help: 'Wprowadź swoje hasło, aby się uwierzytelnić.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Hasło jest nieprawidłowe w celach testowych.'
+    country:
+      label: "Kraj"
     stamps:
       label: "Stemple"
     emoji:
@@ -1608,6 +1640,8 @@ pt_BR:
       help: 'Digite sua senha para autenticação.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Senha é inválida para fins de teste.'
+    country:
+      label: "Kraj"
     stamps:
       label: "Stemple"
     emoji:
@@ -1708,6 +1742,8 @@ ru:
       help: 'Введите ваш пароль для аутентификации.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Пароль недействителен для теста.'
+    country:
+      label: "Страна"
     stamps:
       label: "Штампы"
     emoji:
@@ -1808,6 +1844,8 @@ th:
       help: กรอกรหัสผ่านของคุณเพื่อการยืนยันตัวตน
       error:
         ERR_FIELD_PASSWORD_INVALID: รหัสผ่านไม่ถูกต้องสำหรับการทดสอบ
+    country:
+      label: "ประเทศ"
     stamps:
       label: "ตราประทับ"
     emoji:
@@ -1908,6 +1946,8 @@ tr:
       help: 'Kimlik doğrulamak için şifrenizi girin.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Şifre test amaçları için geçersiz.'
+    country:
+      label: "Ülke"
     stamps:
       label: "Damgalar"
     emoji:
@@ -2008,6 +2048,8 @@ ur:
       help: 'اپنا پاسورڈ داخل کریں تاکہ تصدیق ہو سکے۔'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'پاسورڈ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    country:
+      label: "ملک"
     stamps:
       label: "مہریں"
     emoji:
@@ -2108,6 +2150,8 @@ vi:
       help: 'Nhập mật khẩu của bạn để xác thực.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Mật khẩu không hợp lệ cho mục đích thử nghiệm.'
+    country:
+      label: "Quốc gia"
     stamps:
       label: "Con dấu"
     emoji:
@@ -2208,6 +2252,8 @@ zh:
       help: 输入您的密码以进行身份验证。
       error:
         ERR_FIELD_PASSWORD_INVALID: 密码无效，仅供测试。
+    country:
+      label: "国家"
     stamps:
       label: "印章"
     emoji:
