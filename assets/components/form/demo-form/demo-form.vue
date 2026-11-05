@@ -8,6 +8,7 @@ import SwitchInput from "@wexample/symfony-design-system/components/form/switch-
 import SubmitInput from "@wexample/symfony-design-system/components/form/submit-input/submit-input.vue";
 import DemoStampsInput from "../demo-stamps-input/demo-stamps-input.vue";
 import SearchSelectInput from "@wexample/symfony-design-system/components/form/search-select-input/search-select-input.vue";
+import ColorInput from "@wexample/symfony-design-system/components/form/color-input/color-input.vue";
 import RoutingService from "@wexample/symfony-loader/js/Services/RoutingService";
 
 export default {
@@ -19,7 +20,8 @@ export default {
     SwitchInput,
     SubmitInput,
     DemoStampsInput,
-    SearchSelectInput
+    SearchSelectInput,
+    ColorInput
   },
 
   props: {
@@ -36,6 +38,7 @@ export default {
       textArea: '',
       stamps: ['urgent'],
       country: 'IT',
+      color: '#ed5565',
       password: '',
       emoji: '',
       number: '',
@@ -78,6 +81,7 @@ export default {
         text_area: this.textArea,
         stamps: this.stamps.join(', '),
         country: this.country,
+        color: this.color,
         password: this.password,
         emoji: this.emoji,
         number: this.number,

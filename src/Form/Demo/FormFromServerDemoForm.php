@@ -11,6 +11,7 @@ use Symfony\Component\Validator\Constraints\NotBlank;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
+use Wexample\SymfonyForms\Form\Type\ColorInputType;
 use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
 use Wexample\SymfonyForms\Form\Type\SelectInputType;
@@ -48,6 +49,10 @@ class FormFromServerDemoForm extends AbstractForm
             ->add('audience', SelectInputType::class, $field + [
                 'choices' => ['everyone', 'members', 'board'],
                 self::FIELD_OPTION_NAME_REQUIRED => true,
+            ])
+            ->add('color', ColorInputType::class, $field + [
+                self::FIELD_OPTION_NAME_REQUIRED => false,
+                'swatches' => ['#e8ce4d' => 'Straw', '#4fc1e9' => 'Aqua', '#ed5565' => 'Grapefruit', '#8067b7' => 'Plum'],
             ])
             ->add('country', DemoCountryInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,

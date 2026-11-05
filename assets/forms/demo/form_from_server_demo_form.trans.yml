@@ -36,6 +36,10 @@ en:
           label: "Members"
         board:
           label: "The board"
+    color:
+      label: "Colour"
+      error:
+        refused: "Refused, to show what a refusal looks like here."
     country:
       label: "Country"
       error:
@@ -92,6 +96,10 @@ ar:
           label: "الأعضاء"
         board:
           label: "المجلس"
+    color:
+      label: "اللون"
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
     country:
       label: "البلد"
       error:
@@ -148,6 +156,10 @@ bn:
           label: "সদস্যরা"
         board:
           label: "বোর্ড"
+    color:
+      label: "রঙ"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
     country:
       label: "দেশ"
       error:
@@ -204,6 +216,10 @@ de:
           label: "Mitglieder"
         board:
           label: "Der Vorstand"
+    color:
+      label: "Farbe"
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
     country:
       label: "Land"
       error:
@@ -260,6 +276,10 @@ es:
           label: "Los miembros"
         board:
           label: "La junta"
+    color:
+      label: "Color"
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
     country:
       label: "País"
       error:
@@ -316,6 +336,10 @@ fa:
           label: "اعضا"
         board:
           label: "هیئت مدیره"
+    color:
+      label: "رنگ"
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
     country:
       label: "کشور"
       error:
@@ -372,6 +396,10 @@ fi:
           label: "Jäsenet"
         board:
           label: "Hallitus"
+    color:
+      label: "Väri"
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
     country:
       label: "Maa"
       error:
@@ -428,6 +456,10 @@ fr:
           label: "Les membres"
         board:
           label: "Le conseil"
+    color:
+      label: "Couleur"
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
     country:
       label: "Pays"
       error:
@@ -484,6 +516,10 @@ he:
           label: "חברים"
         board:
           label: "הדירקטוריון"
+    color:
+      label: "צבע"
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
     country:
       label: "מדינה"
       error:
@@ -540,6 +576,10 @@ hi:
           label: "सदस्य"
         board:
           label: "बोर्ड"
+    color:
+      label: "रंग"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
     country:
       label: "देश"
       error:
@@ -596,6 +636,10 @@ id:
           label: "Anggota"
         board:
           label: "Dewan"
+    color:
+      label: "Warna"
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
     country:
       label: "Negara"
       error:
@@ -652,6 +696,10 @@ it:
           label: "I membri"
         board:
           label: "Il consiglio"
+    color:
+      label: "Colore"
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
     country:
       label: "Paese"
       error:
@@ -708,6 +756,10 @@ ja:
           label: "メンバー"
         board:
           label: "理事会"
+    color:
+      label: "色"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
     country:
       label: "国"
       error:
@@ -764,6 +816,10 @@ ko:
           label: "회원"
         board:
           label: "이사회"
+    color:
+      label: "색상"
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
     country:
       label: "국가"
       error:
@@ -820,6 +876,10 @@ nl:
           label: "Leden"
         board:
           label: "Het bestuur"
+    color:
+      label: "Kleur"
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
     country:
       label: "Land"
       error:
@@ -876,6 +936,10 @@ pl:
           label: "Członkowie"
         board:
           label: "Zarząd"
+    color:
+      label: "Kolor"
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
     country:
       label: "Kraj"
       error:
@@ -932,6 +996,10 @@ pt_BR:
           label: "Membros"
         board:
           label: "A diretoria"
+    color:
+      label: "Kolor"
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
     country:
       label: "Kraj"
       error:
@@ -988,6 +1056,10 @@ ru:
           label: "Участники"
         board:
           label: "Совет"
+    color:
+      label: "Цвет"
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
     country:
       label: "Страна"
       error:
@@ -1044,6 +1116,10 @@ th:
           label: "สมาชิก"
         board:
           label: "คณะกรรมการ"
+    color:
+      label: "สี"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
     country:
       label: "ประเทศ"
       error:
@@ -1100,6 +1176,10 @@ tr:
           label: "Üyeler"
         board:
           label: "Yönetim kurulu"
+    color:
+      label: "Renk"
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
     country:
       label: "Ülke"
       error:
@@ -1156,6 +1236,10 @@ ur:
           label: "اراکین"
         board:
           label: "بورڈ"
+    color:
+      label: "رنگ"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
     country:
       label: "ملک"
       error:
@@ -1212,6 +1296,10 @@ vi:
           label: "Thành viên"
         board:
           label: "Ban điều hành"
+    color:
+      label: "Màu"
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
     country:
       label: "Quốc gia"
       error:
@@ -1268,6 +1356,10 @@ zh:
           label: "成员"
         board:
           label: "董事会"
+    color:
+      label: "颜色"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
     country:
       label: "国家"
       error:

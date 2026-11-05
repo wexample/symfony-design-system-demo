@@ -11,6 +11,7 @@
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/submit-input') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/form/demo-stamps-input') -}}
     {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/search-select-input') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/color-input') -}}
 {%- endblock -%}
 
 {%- block form_notification -%}
@@ -61,6 +62,15 @@
             label="{{ (td ~ '::field.stamps.label')|trans }}"
             :translate="false"
     ></demo-stamps-input>
+
+    {#- A colour, picked, typed or taken among those offered. -#}
+    <color-input
+            v-model="color"
+            :swatches="['#e8ce4d', '#4fc1e9', '#ed5565', '#8067b7']"
+            :errors="fieldErrors['color'] || []"
+            label="{{ (td ~ '::field.color.label')|trans }}"
+            :translate="false"
+    ></color-input>
 
     {#- One choice searched among too many to send: asked of a source. -#}
     <search-select-input

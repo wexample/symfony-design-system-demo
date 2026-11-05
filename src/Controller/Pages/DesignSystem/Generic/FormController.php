@@ -158,6 +158,7 @@ final class FormController extends AbstractDesignSystemGenericController
                 'audience' => 'members',
                 'stamps' => ['urgent', 'vip'],
                 'country' => 'FR',
+                'color' => '#e8ce4d',
             ]),
         ]);
     }

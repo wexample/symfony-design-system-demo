@@ -11,6 +11,7 @@ use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
+use Wexample\SymfonyForms\Form\Type\ColorInputType;
 use Wexample\SymfonyForms\Form\Type\ButtonInputType;
 use Wexample\SymfonyForms\Form\Type\DateInputType;
 use Wexample\SymfonyForms\Form\Type\DatetimeInputType;
@@ -180,6 +181,17 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     self::FIELD_OPTION_NAME_MAPPED => false,
                     'help' => true,
                     'data' => true,
+                ]
+            )
+            ->add(
+                'color',
+                ColorInputType::class,
+                [
+                    self::FIELD_OPTION_NAME_LABEL => true,
+                    self::FIELD_OPTION_NAME_REQUIRED => false,
+                    self::FIELD_OPTION_NAME_MAPPED => false,
+                    'swatches' => ['#e8ce4d' => 'Straw', '#4fc1e9' => 'Aqua', '#ed5565' => 'Grapefruit', '#8067b7' => 'Plum'],
+                    'data' => '#4fc1e9',
                 ]
             )
             ->add(

@@ -5,6 +5,8 @@ en:
       help: Enter your password to authenticate.
       error:
         ERR_FIELD_PASSWORD_INVALID: Password is invalid for test purpose.
+    color:
+      label: "Colour"
     country:
       label: "Country"
     stamps:
@@ -111,6 +113,8 @@ ar:
       help: 'أدخل كلمة المرور الخاصة بك للمصادقة.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'كلمة المرور غير صالحة لغرض الاختبار.'
+    color:
+      label: "اللون"
     country:
       label: "البلد"
     stamps:
@@ -213,6 +217,8 @@ bn:
       help: 'আপনার পাসওয়ার্ড প্রবেশ করান প্রমাণীকরণের জন্য।'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'পাসওয়ার্ডটি পরীক্ষার জন্য অবৈধ।'
+    color:
+      label: "রঙ"
     country:
       label: "দেশ"
     stamps:
@@ -315,6 +321,8 @@ de:
       help: 'Geben Sie Ihr Passwort zur Authentifizierung ein.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Das Passwort ist zu Testzwecken ungültig.'
+    color:
+      label: "Farbe"
     country:
       label: "Land"
     stamps:
@@ -416,6 +424,8 @@ es:
       help: 'Introduce tu contraseña para autenticarte.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'La contraseña no es válida para fines de prueba.'
+    color:
+      label: "Color"
     country:
       label: "País"
     stamps:
@@ -518,6 +528,8 @@ fa:
       help: 'رمز عبور خود را برای تأیید هویت وارد کنید.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'رمز عبور برای تست نامعتبر است.'
+    color:
+      label: "رنگ"
     country:
       label: "کشور"
     stamps:
@@ -620,6 +632,8 @@ fi:
       help: 'Syötä salasanasi vahvistaaksesi henkilöllisyytesi.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Salasana ei ole kelvollinen testitarkoituksiin.'
+    color:
+      label: "Väri"
     country:
       label: "Maa"
     stamps:
@@ -722,6 +736,8 @@ fr:
       help: 'Entrez votre mot de passe pour vous authentifier.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Le mot de passe est invalide à des fins de test.'
+    color:
+      label: "Couleur"
     country:
       label: "Pays"
     stamps:
@@ -824,6 +840,8 @@ he:
       help: 'הזן את הסיסמא שלך לאימות.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'הסיסמא אינה תקינה למטרות בדיקה.'
+    color:
+      label: "צבע"
     country:
       label: "מדינה"
     stamps:
@@ -926,6 +944,8 @@ hi:
       help: 'प्रामाणिकता के लिए अपना पासवर्ड दर्ज करें।'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'परीक्षण के उद्देश्य के लिए पासवर्ड अमान्य है।'
+    color:
+      label: "रंग"
     country:
       label: "देश"
     stamps:
@@ -1028,6 +1048,8 @@ id:
       help: 'Masukkan kata sandi Anda untuk otentikasi.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Kata sandi tidak valid untuk tujuan pengujian.'
+    color:
+      label: "Warna"
     country:
       label: "Negara"
     stamps:
@@ -1130,6 +1152,8 @@ it:
       help: 'Inserisci la tua password per autenticarti.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'La password non è valida per scopi di test.'
+    color:
+      label: "Colore"
     country:
       label: "Paese"
     stamps:
@@ -1232,6 +1256,8 @@ ja:
       help: 認証のためにパスワードを入力してください。
       error:
         ERR_FIELD_PASSWORD_INVALID: パスワードはテスト用に無効です。
+    color:
+      label: "色"
     country:
       label: "国"
     stamps:
@@ -1334,6 +1360,8 @@ ko:
       help: '인증을 위해 비밀번호를 입력하세요.'
       error:
         ERR_FIELD_PASSWORD_INVALID: '비밀번호가 테스트 용도로 유효하지 않습니다.'
+    color:
+      label: "색상"
     country:
       label: "국가"
     stamps:
@@ -1436,6 +1464,8 @@ nl:
       help: 'Voer uw wachtwoord in om te authentiseren.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Wachtwoord is ongeldig voor testdoeleinden.'
+    color:
+      label: "Kleur"
     country:
       label: "Land"
     stamps:
@@ -1538,6 +1568,8 @@ pl:
       help: 'Wprowadź swoje hasło, aby się uwierzytelnić.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Hasło jest nieprawidłowe w celach testowych.'
+    color:
+      label: "Kolor"
     country:
       label: "Kraj"
     stamps:
@@ -1640,6 +1672,8 @@ pt_BR:
       help: 'Digite sua senha para autenticação.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Senha é inválida para fins de teste.'
+    color:
+      label: "Kolor"
     country:
       label: "Kraj"
     stamps:
@@ -1742,6 +1776,8 @@ ru:
       help: 'Введите ваш пароль для аутентификации.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Пароль недействителен для теста.'
+    color:
+      label: "Цвет"
     country:
       label: "Страна"
     stamps:
@@ -1844,6 +1880,8 @@ th:
       help: กรอกรหัสผ่านของคุณเพื่อการยืนยันตัวตน
       error:
         ERR_FIELD_PASSWORD_INVALID: รหัสผ่านไม่ถูกต้องสำหรับการทดสอบ
+    color:
+      label: "สี"
     country:
       label: "ประเทศ"
     stamps:
@@ -1946,6 +1984,8 @@ tr:
       help: 'Kimlik doğrulamak için şifrenizi girin.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Şifre test amaçları için geçersiz.'
+    color:
+      label: "Renk"
     country:
       label: "Ülke"
     stamps:
@@ -2048,6 +2088,8 @@ ur:
       help: 'اپنا پاسورڈ داخل کریں تاکہ تصدیق ہو سکے۔'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'پاسورڈ ٹیسٹ کے مقصد کے لیے درست نہیں ہے۔'
+    color:
+      label: "رنگ"
     country:
       label: "ملک"
     stamps:
@@ -2150,6 +2192,8 @@ vi:
       help: 'Nhập mật khẩu của bạn để xác thực.'
       error:
         ERR_FIELD_PASSWORD_INVALID: 'Mật khẩu không hợp lệ cho mục đích thử nghiệm.'
+    color:
+      label: "Màu"
     country:
       label: "Quốc gia"
     stamps:
@@ -2252,6 +2296,8 @@ zh:
       help: 输入您的密码以进行身份验证。
       error:
         ERR_FIELD_PASSWORD_INVALID: 密码无效，仅供测试。
+    color:
+      label: "颜色"
     country:
       label: "国家"
     stamps:
