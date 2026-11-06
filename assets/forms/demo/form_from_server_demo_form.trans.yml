@@ -36,6 +36,10 @@ en:
           label: "Members"
         board:
           label: "The board"
+    pages:
+      label: "Pages"
+    public:
+      label: "Public"
     color:
       label: "Colour"
       error:
@@ -96,6 +100,10 @@ ar:
           label: "الأعضاء"
         board:
           label: "المجلس"
+    pages:
+      label: "الصفحات"
+    public:
+      label: "عام"
     color:
       label: "اللون"
       error:
@@ -156,6 +164,10 @@ bn:
           label: "সদস্যরা"
         board:
           label: "বোর্ড"
+    pages:
+      label: "পৃষ্ঠা"
+    public:
+      label: "সর্বজনীন"
     color:
       label: "রঙ"
       error:
@@ -216,6 +228,10 @@ de:
           label: "Mitglieder"
         board:
           label: "Der Vorstand"
+    pages:
+      label: "Seiten"
+    public:
+      label: "Öffentlich"
     color:
       label: "Farbe"
       error:
@@ -276,6 +292,10 @@ es:
           label: "Los miembros"
         board:
           label: "La junta"
+    pages:
+      label: "Páginas"
+    public:
+      label: "Público"
     color:
       label: "Color"
       error:
@@ -336,6 +356,10 @@ fa:
           label: "اعضا"
         board:
           label: "هیئت مدیره"
+    pages:
+      label: "صفحات"
+    public:
+      label: "عمومی"
     color:
       label: "رنگ"
       error:
@@ -396,6 +420,10 @@ fi:
           label: "Jäsenet"
         board:
           label: "Hallitus"
+    pages:
+      label: "Sivut"
+    public:
+      label: "Julkinen"
     color:
       label: "Väri"
       error:
@@ -456,6 +484,10 @@ fr:
           label: "Les membres"
         board:
           label: "Le conseil"
+    pages:
+      label: "Pages"
+    public:
+      label: "Public"
     color:
       label: "Couleur"
       error:
@@ -516,6 +548,10 @@ he:
           label: "חברים"
         board:
           label: "הדירקטוריון"
+    pages:
+      label: "עמודים"
+    public:
+      label: "ציבורי"
     color:
       label: "צבע"
       error:
@@ -576,6 +612,10 @@ hi:
           label: "सदस्य"
         board:
           label: "बोर्ड"
+    pages:
+      label: "पृष्ठ"
+    public:
+      label: "सार्वजनिक"
     color:
       label: "रंग"
       error:
@@ -636,6 +676,10 @@ id:
           label: "Anggota"
         board:
           label: "Dewan"
+    pages:
+      label: "Halaman"
+    public:
+      label: "Publik"
     color:
       label: "Warna"
       error:
@@ -696,6 +740,10 @@ it:
           label: "I membri"
         board:
           label: "Il consiglio"
+    pages:
+      label: "Pagine"
+    public:
+      label: "Pubblico"
     color:
       label: "Colore"
       error:
@@ -756,6 +804,10 @@ ja:
           label: "メンバー"
         board:
           label: "理事会"
+    pages:
+      label: "ページ数"
+    public:
+      label: "公開"
     color:
       label: "色"
       error:
@@ -816,6 +868,10 @@ ko:
           label: "회원"
         board:
           label: "이사회"
+    pages:
+      label: "페이지"
+    public:
+      label: "공개"
     color:
       label: "색상"
       error:
@@ -876,6 +932,10 @@ nl:
           label: "Leden"
         board:
           label: "Het bestuur"
+    pages:
+      label: "Pagina's"
+    public:
+      label: "Openbaar"
     color:
       label: "Kleur"
       error:
@@ -936,6 +996,10 @@ pl:
           label: "Członkowie"
         board:
           label: "Zarząd"
+    pages:
+      label: "Strony"
+    public:
+      label: "Publiczny"
     color:
       label: "Kolor"
       error:
@@ -996,6 +1060,10 @@ pt_BR:
           label: "Membros"
         board:
           label: "A diretoria"
+    pages:
+      label: "Páginas"
+    public:
+      label: "Público"
     color:
       label: "Kolor"
       error:
@@ -1056,6 +1124,10 @@ ru:
           label: "Участники"
         board:
           label: "Совет"
+    pages:
+      label: "Страницы"
+    public:
+      label: "Публичный"
     color:
       label: "Цвет"
       error:
@@ -1116,6 +1188,10 @@ th:
           label: "สมาชิก"
         board:
           label: "คณะกรรมการ"
+    pages:
+      label: "หน้า"
+    public:
+      label: "สาธารณะ"
     color:
       label: "สี"
       error:
@@ -1176,6 +1252,10 @@ tr:
           label: "Üyeler"
         board:
           label: "Yönetim kurulu"
+    pages:
+      label: "Sayfalar"
+    public:
+      label: "Herkese açık"
     color:
       label: "Renk"
       error:
@@ -1236,6 +1316,10 @@ ur:
           label: "اراکین"
         board:
           label: "بورڈ"
+    pages:
+      label: "صفحات"
+    public:
+      label: "عوامی"
     color:
       label: "رنگ"
       error:
@@ -1296,6 +1380,10 @@ vi:
           label: "Thành viên"
         board:
           label: "Ban điều hành"
+    pages:
+      label: "Số trang"
+    public:
+      label: "Công khai"
     color:
       label: "Màu"
       error:
@@ -1356,6 +1444,10 @@ zh:
           label: "成员"
         board:
           label: "董事会"
+    pages:
+      label: "页数"
+    public:
+      label: "公开"
     color:
       label: "颜色"
       error:

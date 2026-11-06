@@ -14,6 +14,8 @@ use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
 use Wexample\SymfonyForms\Form\Type\ColorInputType;
 use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
+use Wexample\SymfonyForms\Form\Type\NumberInputType;
+use Wexample\SymfonyForms\Form\Type\SwitchInputType;
 use Wexample\SymfonyForms\Form\Type\PasswordInputType;
 use Wexample\SymfonyForms\Form\Type\SelectInputType;
 use Wexample\SymfonyForms\Form\Type\TextareaInputType;
@@ -67,6 +69,14 @@ class FormFromServerDemoForm extends AbstractForm
                 'value_label' => DemoCountryInputType::COUNTRIES['FR'],
             ])
             ->add('stamps', DemoStampsInputType::class, $field + [
+                self::FIELD_OPTION_NAME_REQUIRED => false,
+            ])
+            ->add('pages', NumberInputType::class, $field + [
+                self::FIELD_OPTION_NAME_REQUIRED => false,
+                'stepper' => true,
+                'attr' => ['min' => 1, 'max' => 40],
+            ])
+            ->add('public', SwitchInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,
             ])
             ->add('metadata', KeyValueInputType::class, $field + [
