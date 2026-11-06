@@ -73,7 +73,6 @@ class FormFromServerDemoForm extends AbstractForm
             ])
             ->add('pages', NumberInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,
-                'stepper' => true,
                 'attr' => ['min' => 1, 'max' => 40],
                 // A number, or an expression computing it: the same field.
                 'extensions' => ['expression' => ['language' => 'jinja', 'pattern' => '\\{[{%]']],
