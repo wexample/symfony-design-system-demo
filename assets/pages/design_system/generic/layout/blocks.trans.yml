@@ -29,6 +29,7 @@ en:
     link:
       title: A block that is a link
       description: "The whole card is the link — for a choice made by picking one card among several: a plan, a branch, a template. It reads as text, not as a muted action; under the pointer its ground takes a nuance and its edge firms up, and the keyboard finds it by the focus ring every control wears."
+      more: "All of them"
     figure:
       title: Figures
       description: A single oversized value or icon, centered. Used for dashboard counters and status tiles — add block--square to keep the tile square whatever its width.
@@ -181,6 +182,7 @@ ar:
     link:
       title: 'كتلة هي رابط'
       description: 'البطاقة بأكملها هي الرابط — لاختيار تم عن طريق اختيار بطاقة واحدة من عدة: خطة، فرع، نموذج. تقرأ كنص، وليس كإجراء مموه؛ تحت المؤشر تأخذ أرضيتها تدرجًا وتشتد حافتها، ويجدها لوحة المفاتيح بواسطة حلقة التركيز التي يرتديها كل تحكم.'
+      more: "الكل"
     figure:
       title: أرقام
       description: 'قيمة أو أيقونة واحدة كبيرة، في المنتصف. تستخدم لعدادات لوحة التحكم وبلاطات الحالة — أضف block--square للحفاظ على البلاط مربعًا بغض النظر عن عرضه.'
@@ -325,6 +327,7 @@ bn:
     link:
       title: 'একটি ব্লক যা একটি লিঙ্ক'
       description: 'পুরো কার্ডটি লিঙ্ক — একাধিক কার্ডের মধ্যে একটি বেছে নিয়ে একটি পছন্দের জন্য: একটি পরিকল্পনা, একটি শাখা, একটি টেমপ্লেট। এটি পাঠ্য হিসেবে পড়া হয়, একটি ম্লান ক্রিয়ার মতো নয়; পয়েন্টারের নিচে এর মাটি একটি সূক্ষ্মতা নেয় এবং এর প্রান্ত দৃঢ় হয়, এবং কীবোর্ড এটিকে ফোকাস রিং দ্বারা খুঁজে পায় যা প্রতিটি নিয়ন্ত্রণ ধারণ করে।'
+      more: "সবগুলো"
     figure:
       title: ফিগার
       description: 'একটি একক বড় মান বা আইকন, কেন্দ্রীভূত। ড্যাশবোর্ড কাউন্টার এবং স্ট্যাটাস টাইলের জন্য ব্যবহৃত হয় — টাইলটিকে স্কোয়ার রাখতে block--square যোগ করুন যেকোনো প্রস্থে।'
@@ -469,6 +472,7 @@ de:
     link:
       title: 'Ein Block, der ein Link ist'
       description: 'Die gesamte Karte ist der Link — für eine Auswahl, die durch das Auswählen einer Karte aus mehreren getroffen wird: ein Plan, ein Zweig, eine Vorlage. Es wird als Text gelesen, nicht als eine gedämpfte Aktion; unter dem Zeiger nimmt der Hintergrund einen Farbton an und die Kante wird fester, und die Tastatur findet es durch den Fokusring, den jede Steuerung trägt.'
+      more: "Alle anzeigen"
     figure:
       title: Zahlen
       description: 'Ein einzelner übergroßer Wert oder Icon, zentriert. Wird für Dashboard-Zähler und Statuskacheln verwendet — füge block--square hinzu, um die Kachel quadratisch zu halten, egal wie breit sie ist.'
@@ -613,6 +617,7 @@ es:
     link:
       title: 'Un bloque que es un enlace'
       description: 'Toda la tarjeta es el enlace — para una elección hecha al seleccionar una tarjeta entre varias: un plan, una rama, una plantilla. Se lee como texto, no como una acción atenuada; bajo el puntero su suelo toma un matiz y su borde se endurece, y el teclado lo encuentra por el anillo de enfoque que cada control lleva.'
+      more: "Ver todos"
     figure:
       title: Figuras
       description: 'Un único valor o ícono sobredimensionado, centrado. Usado para contadores de panel y mosaicos de estado — añade block--square para mantener el mosaico cuadrado sin importar su ancho.'
@@ -757,6 +762,7 @@ fa:
     link:
       title: 'بلوک به عنوان یک لینک'
       description: 'کل کارت لینک است — برای انتخابی که با انتخاب یک کارت از چندین کارت انجام می‌شود: یک طرح، یک شاخه، یک الگو. این به عنوان متن خوانده می‌شود، نه به عنوان یک عمل محو؛ زیر نشانگر زمینش نوانس می‌گیرد و لبه‌اش محکم می‌شود، و کیبورد آن را با حلقه تمرکز که هر کنترل دارد پیدا می‌کند.'
+      more: "همه"
     figure:
       title: شکل‌ها
       description: 'یک مقدار یا آیکون بزرگ و متمرکز. برای شمارنده‌های داشبورد و کاشی‌های وضعیت — به بلوک--مربع اضافه کنید تا کاشی به هر عرضی مربع بماند.'
@@ -901,6 +907,7 @@ fi:
     link:
       title: 'Lohko, joka on linkki'
       description: 'Koko kortti on linkki — valinta, joka tehdään valitsemalla yksi kortti useista: suunnitelma, haara, malli. Se luetaan tekstinä, ei vaimeana toimintona; osoittimen alla sen tausta saa sävyn ja sen reuna tiivistyy, ja näppäimistö löytää sen fokussiren avulla, joka jokaisella ohjaimella on.'
+      more: "Näytä kaikki"
     figure:
       title: Kuvastot
       description: 'Yksi suurennettu arvo tai ikoni, keskitetty. Käytetään hallintapaneelin laskureissa ja tilatilanteissa — lisää block--square, jotta laatikko pysyy neliönä sen leveydestä huolimatta.'
@@ -1045,6 +1052,7 @@ fr:
     link:
       title: 'Un bloc qui est un lien'
       description: "Toute la carte est le lien — pour un choix fait en sélectionnant une carte parmi plusieurs : un plan, une branche, un modèle. Cela se lit comme du texte, pas comme une action atténuée ; sous le pointeur, son sol prend une nuance et son bord se renforce, et le clavier le trouve par l'anneau de focus que chaque contrôle porte."
+      more: "Tout voir"
     figure:
       title: Figures
       description: 'Une seule valeur ou icône surdimensionnée, centrée. Utilisé pour les compteurs de tableau de bord et les tuiles de statut — ajoutez block--square pour garder la tuile carrée quelle que soit sa largeur.'
@@ -1189,6 +1197,7 @@ he:
     link:
       title: 'בלוק שהוא קישור'
       description: 'הכרטיס כולו הוא הקישור — עבור בחירה שנעשית על ידי בחירת כרטיס אחד מתוך מספר: תוכנית, ענף, תבנית. זה נקרא כטקסט, לא כפעולה מוחלשת; תחת הסמן הקרקע שלו לוקחת גוון והקצה מתייצב, והמקלדת מוצאת אותו על ידי טבעת הפוקוס שכל שליטה נושאת.'
+      more: "הצג הכל"
     figure:
       title: דמויות
       description: 'ערך או אייקון אחד מוגדל, ממורכז. משמש עבור מדדים בלוח מחוונים ולוחות סטטוס — הוסף block--square כדי לשמור על הלוח מרובע לא משנה מה רוחבו.'
@@ -1333,6 +1342,7 @@ hi:
     link:
       title: 'एक लिंक होने वाला ब्लॉक'
       description: 'पूरा कार्ड लिंक है — एक विकल्प के लिए जो कई कार्ड में से एक को चुनने से बनाया गया है: एक योजना, एक शाखा, एक टेम्पलेट। यह पाठ के रूप में पढ़ता है, मौन क्रिया के रूप में नहीं; पॉइंटर के तहत इसकी ज़मीन एक बारीकी लेती है और इसका किनारा मजबूत हो जाता है, और कीबोर्ड इसे हर नियंत्रण द्वारा पहचाने जाने वाले फोकस रिंग से ढूंढता है।'
+      more: "सभी देखें"
     figure:
       title: आकृतियाँ
       description: 'एक एकल ओवरसाइज़्ड मान या आइकन, केंद्रित। डैशबोर्ड काउंटर और स्थिति टाइल के लिए उपयोग किया जाता है — टाइल को चौकोर रखने के लिए block--square जोड़ें चाहे इसकी चौड़ाई कोई भी हो।'
@@ -1477,6 +1487,7 @@ id:
     link:
       title: 'Sebuah blok yang merupakan tautan'
       description: 'Seluruh kartu adalah tautan — untuk pilihan yang dibuat dengan memilih satu kartu di antara beberapa: sebuah rencana, sebuah cabang, sebuah template. Ini terbaca sebagai teks, bukan sebagai tindakan yang dibisukan; di bawah penunjuk, tanahnya mengambil nuansa dan tepinya menguat, dan keyboard menemukannya melalui cincin fokus yang dikenakan setiap kontrol.'
+      more: "Lihat semua"
     figure:
       title: Angka
       description: 'Sebuah nilai atau ikon besar, terpusat. Digunakan untuk penghitung dasbor dan ubin status — tambahkan block--square untuk menjaga ubin tetap persegi terlepas dari lebarnya.'
@@ -1621,6 +1632,7 @@ it:
     link:
       title: 'Un blocco che è un link'
       description: "L'intera scheda è il link — per una scelta fatta selezionando una scheda tra diverse: un piano, un ramo, un modello. Si legge come testo, non come un'azione attutita; sotto il cursore il suo fondo assume una sfumatura e il suo bordo si indurisce, e la tastiera lo trova grazie all'anello di messa a fuoco che ogni controllo indossa."
+      more: "Vedi tutti"
     figure:
       title: Figure
       description: 'Un singolo valore o icona sovradimensionato, centrato. Utilizzato per contatori del dashboard e riquadri di stato — aggiungi block--square per mantenere il riquadro quadrato qualunque sia la sua larghezza.'
@@ -1765,6 +1777,7 @@ ja:
     link:
       title: リンクとしてのブロック
       description: カード全体がリンクであり、いくつかのカードの中から一つを選ぶことで選択される：プラン、ブランチ、テンプレート。それはテキストとして表示され、静かなアクションとしてではない；ポインターの下でその地面がニュアンスを持ち、エッジがしっかりし、キーボードは各コントロールが持つフォーカスリングによってそれを見つける。
+      more: "すべて見る"
     figure:
       title: フィギュア
       description: '中央に配置された単一のオーバーサイズの値またはアイコン。ダッシュボードのカウンターやステータスタイルに使用される — 幅に関係なくタイルを正方形に保つためにblock--squareを追加。'
@@ -1909,6 +1922,7 @@ ko:
     link:
       title: '링크인 블록'
       description: '전체 카드가 링크입니다 — 여러 카드 중 하나를 선택하여 만든 선택을 위한 것입니다: 계획, 분기, 템플릿. 텍스트처럼 읽히며, 소음 없는 행동으로 읽히지 않습니다; 포인터 아래에서 바닥이 미세한 변화를 주고 가장자리가 단단해지며, 키보드는 모든 컨트롤이 착용하는 포커스 링으로 이를 찾습니다.'
+      more: "모두 보기"
     figure:
       title: 피겨
       description: '중앙에 배치된 하나의 과도하게 큰 값이나 아이콘입니다. 대시보드 카운터와 상태 타일에 사용되며 — 블록--사각형을 추가하여 너비에 관계없이 타일이 정사각형으로 유지됩니다.'
@@ -2053,6 +2067,7 @@ nl:
     link:
       title: 'Een blok dat een link is'
       description: 'De hele kaart is de link — voor een keuze gemaakt door één kaart uit meerdere te kiezen: een plan, een tak, een sjabloon. Het leest als tekst, niet als een gedempte actie; onder de aanwijzer krijgt de achtergrond een nuance en verstevigt de rand, en het toetsenbord vindt het door de focusring die elke controle heeft.'
+      more: "Alles bekijken"
     figure:
       title: Cijfers
       description: 'Een enkele vergrote waarde of icoon, gecentreerd. Gebruikt voor dashboard tellers en status tegels — voeg block--square toe om de tegel vierkant te houden, ongeacht de breedte.'
@@ -2197,6 +2212,7 @@ pl:
     link:
       title: 'Blok, który jest linkiem'
       description: 'Cała karta jest linkiem — dla wyboru dokonanego przez wybranie jednej karty spośród kilku: plan, gałąź, szablon. Wygląda jak tekst, a nie jak stłumiona akcja; pod wskaźnikiem jej tło zyskuje odcień, a krawędź się utwardza, a klawiatura znajduje ją przez pierścień skupienia, który nosi każda kontrolka.'
+      more: "Zobacz wszystkie"
     figure:
       title: Figury
       description: 'Pojedyncza, dużych rozmiarów wartość lub ikona, wyśrodkowana. Używana do liczników na pulpicie i kafelków statusu — dodaj block--square, aby kafelek pozostał kwadratowy, niezależnie od jego szerokości.'
@@ -2341,6 +2357,7 @@ pt_BR:
     link:
       title: 'Um bloco que é um link'
       description: 'Todo o cartão é o link — para uma escolha feita ao selecionar um cartão entre vários: um plano, um ramo, um modelo. Ele é lido como texto, não como uma ação sutil; sob o ponteiro, seu fundo ganha uma nuance e sua borda se torna firme, e o teclado o encontra pelo anel de foco que todo controle possui.'
+      more: "Ver todos"
     figure:
       title: Figuras
       description: 'Um único valor ou ícone grande, centralizado. Usado para contadores de painel e azulejos de status — adicione block--square para manter o azulejo quadrado, independentemente de sua largura.'
@@ -2485,6 +2502,7 @@ ru:
     link:
       title: Блок-ссылка
       description: 'Вся карта является ссылкой — для выбора, сделанного путем выбора одной карты из нескольких: план, ветка, шаблон. Она воспринимается как текст, а не как приглушенное действие; под указателем ее земля принимает нюанс, а край усиливается, и клавиатура находит ее по кольцу фокуса, которое носит каждый элемент управления.'
+      more: "Показать все"
     figure:
       title: Фигуры
       description: 'Единственное увеличенное значение или иконка, по центру. Используется для счетчиков на панели инструментов и плиток состояния — добавьте block--square, чтобы плитка оставалась квадратной, независимо от ширины.'
@@ -2629,6 +2647,7 @@ th:
     link:
       title: บล็อกที่เป็นลิงก์
       description: 'การ์ดทั้งหมดคือการเชื่อมโยง — สำหรับการเลือกที่ทำโดยการเลือกการ์ดหนึ่งใบจากหลายใบ: แผน, สาขา, แม่แบบ อ่านได้เหมือนข้อความ ไม่ใช่การกระทำที่เงียบสงบ; ใต้ตัวชี้ พื้นของมันจะมีเฉดสี และขอบก็จะแข็งขึ้น และแป้นพิมพ์จะค้นหามันโดยวงแหวนโฟกัสที่ควบคุมทุกตัวใส่'
+      more: "ดูทั้งหมด"
     figure:
       title: รูปภาพ
       description: 'ค่าหรือไอคอนขนาดใหญ่เพียงค่าเดียว อยู่กลาง ใช้สำหรับตัวนับในแดชบอร์ดและแผ่นสถานะ — เพิ่ม block--square เพื่อให้แผ่นมีรูปสี่เหลี่ยมจัตุรัสไม่ว่าจะมีความกว้างเท่าใด'
@@ -2773,6 +2792,7 @@ tr:
     link:
       title: 'Bir bağlantı olan blok'
       description: 'Tüm kart bağlantıdır — birkaç kart arasından birini seçerek yapılan bir seçim için: bir plan, bir dal, bir şablon. Metin olarak okunur, sönük bir eylem olarak değil; imleç altında zemini bir nüans alır ve kenarı sıkılaşır, klavye her kontrolün giydiği odak halkasıyla onu bulur.'
+      more: "Tümünü gör"
     figure:
       title: Figürler
       description: 'Ortada, tek bir büyük değer veya simge. Gösterge panelleri sayaçları ve durum kutucukları için kullanılır — genişliği ne olursa olsun kutucuğun kare kalmasını sağlamak için block--square ekleyin.'
@@ -2917,6 +2937,7 @@ ur:
     link:
       title: 'ایک بلاک جو لنک ہے'
       description: 'پورا کارڈ لنک ہے — ایک انتخاب کے لیے جو کئی کارڈز میں سے ایک کارڈ منتخب کرنے سے ہوتا ہے: ایک منصوبہ، ایک شاخ، ایک ٹیمپلیٹ۔ یہ متن کی طرح پڑھتا ہے، نہ کہ ایک مدھم عمل کی طرح؛ پوائنٹر کے نیچے اس کی زمین ایک نکتہ لے لیتی ہے اور اس کا کنارہ مضبوط ہو جاتا ہے، اور کی بورڈ ہر کنٹرول پر موجود توجہ کی انگوٹی سے اسے تلاش کرتا ہے۔'
+      more: "سب دیکھیں"
     figure:
       title: شکلیں
       description: 'ایک واحد بڑا قیمت یا آئیکن، درمیان میں۔ ڈیش بورڈ کاؤنٹرز اور اسٹیٹس ٹائلز کے لیے استعمال ہوتا ہے — بلاک--سکوائر شامل کریں تاکہ ٹائل سکوائر رہے چاہے اس کی چوڑائی کچھ بھی ہو۔'
@@ -3061,6 +3082,7 @@ vi:
     link:
       title: 'Một khối là liên kết'
       description: 'Toàn bộ thẻ là liên kết — cho một lựa chọn được thực hiện bằng cách chọn một thẻ trong số nhiều thẻ: một kế hoạch, một nhánh, một mẫu. Nó được đọc như văn bản, không phải như một hành động mờ nhạt; dưới con trỏ, nền của nó mang một sắc thái và cạnh của nó cứng lại, và bàn phím tìm thấy nó qua vòng tiêu điểm mà mỗi điều khiển đều mang.'
+      more: "Xem tất cả"
     figure:
       title: 'Hình ảnh'
       description: 'Một giá trị hoặc biểu tượng lớn duy nhất, được căn giữa. Sử dụng cho các bộ đếm trên bảng điều khiển và các ô trạng thái — thêm block--square để giữ ô vuông bất kể chiều rộng của nó.'
@@ -3205,6 +3227,7 @@ zh:
     link:
       title: 作为链接的区块
       description: 整个卡片都是链接——通过从多个卡片中选择一张卡片进行选择：一个计划，一个分支，一个模板。它看起来像文本，而不是静音的动作；在指针下，它的地面带有细微的色调，边缘变得坚固，键盘通过每个控件佩戴的焦点环找到它。
+      more: "查看全部"
     figure:
       title: 数字
       description: 一个居中的超大值或图标。用于仪表板计数器和状态图块——添加block--square以在宽度变化时保持图块为正方形。

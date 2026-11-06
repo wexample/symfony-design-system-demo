@@ -211,6 +211,7 @@
                     </a>
                 {%- endfor -%}
             </div>
+            {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/more-link', { href: '#', label: '@page::section.link.more' | trans }) }}
 
             <h2>{{ '@page::section.figure.title' | trans }}</h2>
             <div class="lead">{{ '@page::section.figure.description' | trans }}</div>
