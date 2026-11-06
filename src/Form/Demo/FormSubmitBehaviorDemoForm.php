@@ -106,8 +106,8 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     'auto_resize' => true,
                     'help' => true,
                     'data' => 'Demo long text for the textarea field.',
-                    // Its earlier versions, the bar above the field.
-                    'versions_url' => $this->urlGenerator->generate('wexample_design_system_generic_form_versions'),
+                    // Its earlier versions, the field's footer.
+                    'extensions' => ['versions' => ['url' => $this->urlGenerator->generate('wexample_design_system_generic_form_versions')]],
                     // A limit, for the field to count what is left of it.
                     'constraints' => [new Length(max: 140)],
                     'attr' => [

@@ -49,8 +49,8 @@ class FormFromServerDemoForm extends AbstractForm
             ->add('summary', TextareaInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,
                 'attr' => ['rows' => 3],
-                // Its earlier versions, the bar above the field.
-                'versions_url' => $this->urlGenerator->generate('wexample_design_system_generic_form_versions'),
+                // Its earlier versions, the field's footer.
+                'extensions' => ['versions' => ['url' => $this->urlGenerator->generate('wexample_design_system_generic_form_versions')]],
             ])
             ->add('email', EmailType::class, $field + [self::FIELD_OPTION_NAME_REQUIRED => false])
             ->add('phone', TelType::class, $field + [self::FIELD_OPTION_NAME_REQUIRED => false])
@@ -75,6 +75,8 @@ class FormFromServerDemoForm extends AbstractForm
                 self::FIELD_OPTION_NAME_REQUIRED => false,
                 'stepper' => true,
                 'attr' => ['min' => 1, 'max' => 40],
+                // A number, or an expression computing it: the same field.
+                'extensions' => ['expression' => ['language' => 'jinja', 'pattern' => '\\{[{%]']],
             ])
             ->add('public', SwitchInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,
