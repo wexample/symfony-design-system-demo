@@ -21,6 +21,8 @@
         {#- What the page puts there itself — here an animated gradient. -#}
         {% embed '@WexampleSymfonyDesignSystemBundle/components/cover/cover.html.twig' with { title: '@page::section.cover.animated' | trans, height: '14rem' } %}
             {% block cover_media %}<div class="cover--fill media-demo--cover-animation"></div>{% endblock %}
+            {#- Its tools over its top end corner. -#}
+            {% block cover_float %}<button type="button" class="toolbar--action" aria-label="{{ '@page::section.cover.refresh' | trans }}" data-tooltip="{{ '@page::section.cover.refresh' | trans }}">{{ icon('ph:bold/arrows-clockwise') }}</button>{% endblock %}
         {% endembed %}
     </div>
 
