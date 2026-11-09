@@ -1,5 +1,10 @@
 en:
   field:
+    questions:
+      label: "Questions"
+      help: "Each asked in turn: one added starts from the example, any taken off or moved."
+      error:
+        refused: "Refused, to show what a refusal looks like here."
     title:
       label: "Title"
       placeholder: "The report's title"
@@ -65,6 +70,11 @@ en:
 
 ar:
   field:
+    questions:
+      label: "الأسئلة"
+      help: "تُطرح بالتتابع: كل سؤال يُضاف يبدأ من المثال، ويمكن إزالة أي منها أو نقله."
+      error:
+        refused: "مرفوض، لإظهار شكل الرفض هنا."
     title:
       label: "العنوان"
       placeholder: "عنوان التقرير"
@@ -130,6 +140,11 @@ ar:
 
 bn:
   field:
+    questions:
+      label: "প্রশ্ন"
+      help: "একে একে জিজ্ঞাসা করা হয়: যোগ করা প্রশ্ন উদাহরণ থেকে শুরু হয়, যেকোনোটি সরানো বা স্থানান্তর করা যায়।"
+      error:
+        refused: "প্রত্যাখ্যাত, এখানে প্রত্যাখ্যান কেমন দেখায় তা দেখাতে।"
     title:
       label: "শিরোনাম"
       placeholder: "প্রতিবেদনের শিরোনাম"
@@ -195,6 +210,11 @@ bn:
 
 de:
   field:
+    questions:
+      label: "Fragen"
+      help: "Der Reihe nach gestellt: eine hinzugefügte beginnt mit dem Beispiel, jede lässt sich entfernen oder verschieben."
+      error:
+        refused: "Zurückgewiesen, um zu zeigen, wie eine Zurückweisung hier aussieht."
     title:
       label: "Titel"
       placeholder: "Der Titel des Berichts"
@@ -260,6 +280,11 @@ de:
 
 es:
   field:
+    questions:
+      label: "Preguntas"
+      help: "Se hacen por turno: una añadida parte del ejemplo, cualquiera se quita o se mueve."
+      error:
+        refused: "Rechazado, para mostrar cómo se ve un rechazo aquí."
     title:
       label: "Título"
       placeholder: "El título del informe"
@@ -325,6 +350,11 @@ es:
 
 fa:
   field:
+    questions:
+      label: "پرسش‌ها"
+      help: "به نوبت پرسیده می‌شوند: هر پرسش افزوده از نمونه آغاز می‌شود و هر کدام حذف یا جابه‌جا می‌شود."
+      error:
+        refused: "رد شد، برای نشان دادن شکل یک رد در اینجا."
     title:
       label: "عنوان"
       placeholder: "عنوان گزارش"
@@ -390,6 +420,11 @@ fa:
 
 fi:
   field:
+    questions:
+      label: "Kysymykset"
+      help: "Kysytään vuorotellen: lisätty alkaa esimerkistä, minkä tahansa voi poistaa tai siirtää."
+      error:
+        refused: "Hylätty, näyttämään miltä hylkäys täällä näyttää."
     title:
       label: "Otsikko"
       placeholder: "Raportin otsikko"
@@ -455,6 +490,11 @@ fi:
 
 fr:
   field:
+    questions:
+      label: "Questions"
+      help: "Posées tour à tour : une ajoutée part de l’exemple, chacune se retire ou se déplace."
+      error:
+        refused: "Refusé, pour montrer à quoi ressemble un refus ici."
     title:
       label: "Titre"
       placeholder: "Le titre du rapport"
@@ -520,6 +560,11 @@ fr:
 
 he:
   field:
+    questions:
+      label: "שאלות"
+      help: "נשאלות בזו אחר זו: שאלה שנוספת מתחילה מהדוגמה, וכל אחת ניתנת להסרה או להזזה."
+      error:
+        refused: "נדחה, כדי להראות איך נראית דחייה כאן."
     title:
       label: "כותרת"
       placeholder: "כותרת הדו״ח"
@@ -585,6 +630,11 @@ he:
 
 hi:
   field:
+    questions:
+      label: "प्रश्न"
+      help: "बारी-बारी से पूछे जाते हैं: जोड़ा गया प्रश्न उदाहरण से शुरू होता है, कोई भी हटाया या खिसकाया जा सकता है।"
+      error:
+        refused: "अस्वीकृत, यह दिखाने के लिए कि यहाँ अस्वीकृति कैसी दिखती है।"
     title:
       label: "शीर्षक"
       placeholder: "रिपोर्ट का शीर्षक"
@@ -650,6 +700,11 @@ hi:
 
 id:
   field:
+    questions:
+      label: "Pertanyaan"
+      help: "Diajukan bergiliran: yang ditambahkan dimulai dari contoh, mana pun bisa dihapus atau dipindah."
+      error:
+        refused: "Ditolak, untuk menunjukkan seperti apa penolakan di sini."
     title:
       label: "Judul"
       placeholder: "Judul laporan"
@@ -715,6 +770,11 @@ id:
 
 it:
   field:
+    questions:
+      label: "Domande"
+      help: "Poste a turno: una aggiunta parte dall’esempio, ognuna si toglie o si sposta."
+      error:
+        refused: "Rifiutato, per mostrare come appare un rifiuto qui."
     title:
       label: "Titolo"
       placeholder: "Il titolo del rapporto"
@@ -780,6 +840,11 @@ it:
 
 ja:
   field:
+    questions:
+      label: "質問"
+      help: "順番に尋ねます。追加した質問は例から始まり、どれも削除や移動ができます。"
+      error:
+        refused: "ここでの拒否がどう見えるかを示すため、拒否されました。"
     title:
       label: "タイトル"
       placeholder: "レポートのタイトル"
@@ -845,6 +910,11 @@ ja:
 
 ko:
   field:
+    questions:
+      label: "질문"
+      help: "차례로 묻습니다: 추가한 질문은 예시에서 시작하며, 어느 것이든 제거하거나 옮길 수 있습니다."
+      error:
+        refused: "여기서 거부가 어떻게 보이는지 보여 주기 위해 거부되었습니다."
     title:
       label: "제목"
       placeholder: "보고서 제목"
@@ -910,6 +980,11 @@ ko:
 
 nl:
   field:
+    questions:
+      label: "Vragen"
+      help: "Om de beurt gesteld: een toegevoegde begint bij het voorbeeld, elke kan worden verwijderd of verplaatst."
+      error:
+        refused: "Geweigerd, om te tonen hoe een weigering er hier uitziet."
     title:
       label: "Titel"
       placeholder: "De titel van het rapport"
@@ -975,6 +1050,11 @@ nl:
 
 pl:
   field:
+    questions:
+      label: "Pytania"
+      help: "Zadawane po kolei: dodane zaczyna się od przykładu, każde można usunąć lub przesunąć."
+      error:
+        refused: "Odrzucone, by pokazać, jak wygląda tu odrzucenie."
     title:
       label: "Tytuł"
       placeholder: "Tytuł raportu"
@@ -1040,6 +1120,11 @@ pl:
 
 pt_BR:
   field:
+    questions:
+      label: "Perguntas"
+      help: "Feitas uma de cada vez: uma adicionada parte do exemplo, qualquer uma pode ser removida ou movida."
+      error:
+        refused: "Recusado, para mostrar como uma recusa aparece aqui."
     title:
       label: "Título"
       placeholder: "O título do relatório"
@@ -1105,6 +1190,11 @@ pt_BR:
 
 ru:
   field:
+    questions:
+      label: "Вопросы"
+      help: "Задаются по очереди: добавленный начинается с примера, любой можно удалить или переместить."
+      error:
+        refused: "Отклонено, чтобы показать, как здесь выглядит отказ."
     title:
       label: "Заголовок"
       placeholder: "Заголовок отчёта"
@@ -1170,6 +1260,11 @@ ru:
 
 th:
   field:
+    questions:
+      label: "คำถาม"
+      help: "ถามทีละข้อ: ข้อที่เพิ่มเริ่มจากตัวอย่าง ข้อใดก็ลบหรือย้ายได้"
+      error:
+        refused: "ถูกปฏิเสธ เพื่อแสดงว่าการปฏิเสธที่นี่เป็นอย่างไร"
     title:
       label: "ชื่อเรื่อง"
       placeholder: "ชื่อของรายงาน"
@@ -1235,6 +1330,11 @@ th:
 
 tr:
   field:
+    questions:
+      label: "Sorular"
+      help: "Sırayla sorulur: eklenen örnekten başlar, herhangi biri kaldırılabilir ya da taşınabilir."
+      error:
+        refused: "Reddedildi, burada bir reddin nasıl göründüğünü göstermek için."
     title:
       label: "Başlık"
       placeholder: "Raporun başlığı"
@@ -1300,6 +1400,11 @@ tr:
 
 ur:
   field:
+    questions:
+      label: "سوالات"
+      help: "باری باری پوچھے جاتے ہیں: شامل کیا گیا سوال مثال سے شروع ہوتا ہے، کوئی بھی ہٹایا یا منتقل کیا جا سکتا ہے۔"
+      error:
+        refused: "مسترد، یہ دکھانے کے لیے کہ یہاں مسترد ہونا کیسا لگتا ہے۔"
     title:
       label: "عنوان"
       placeholder: "رپورٹ کا عنوان"
@@ -1365,6 +1470,11 @@ ur:
 
 vi:
   field:
+    questions:
+      label: "Câu hỏi"
+      help: "Hỏi lần lượt: câu thêm vào bắt đầu từ ví dụ, câu nào cũng có thể xóa hoặc di chuyển."
+      error:
+        refused: "Bị từ chối, để cho thấy một sự từ chối trông thế nào ở đây."
     title:
       label: "Tiêu đề"
       placeholder: "Tiêu đề của báo cáo"
@@ -1430,6 +1540,11 @@ vi:
 
 zh:
   field:
+    questions:
+      label: "问题"
+      help: "依次提出:新增的问题从示例开始,任何一个都可移除或移动。"
+      error:
+        refused: "已拒绝，用于展示此处拒绝的样子。"
     title:
       label: "标题"
       placeholder: "报告的标题"

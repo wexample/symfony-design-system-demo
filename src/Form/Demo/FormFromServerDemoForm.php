@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints\NotBlank;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
+use Wexample\SymfonyForms\Form\Type\CollectionInputType;
 use Wexample\SymfonyForms\Form\Type\ColorInputType;
 use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
 use Wexample\SymfonyForms\Form\Type\NumberInputType;
@@ -77,6 +78,16 @@ class FormFromServerDemoForm extends AbstractForm
                 'attr' => ['min' => 1, 'max' => 40],
                 // A number, or an expression computing it: the same field.
                 'extensions' => ['expression' => ['language' => 'jinja', 'pattern' => '\\{[{%]']],
+            ])
+            // Several values of one kind, an item each: JSON here, as a node's
+            // properties are; one added starts from the example.
+            ->add('questions', CollectionInputType::class, $field + [
+                self::FIELD_OPTION_NAME_REQUIRED => false,
+                'help' => 'field.questions.help',
+                'entry_type' => TextareaInputType::class,
+                'entry_options' => ['label' => false, 'attr' => ['rows' => 2]],
+                'template' => '{"question": "", "choices": []}',
+                'data' => ['{"question": "Who reads it first?", "choices": ["board", "members"]}'],
             ])
             ->add('public', SwitchInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,

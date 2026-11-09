@@ -12,6 +12,7 @@ use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
+use Wexample\SymfonyForms\Form\Type\CollectionInputType;
 use Wexample\SymfonyForms\Form\Type\ColorInputType;
 use Wexample\SymfonyForms\Form\Type\ButtonInputType;
 use Wexample\SymfonyForms\Form\Type\DateInputType;
@@ -174,6 +175,20 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     EntitySearchInputType::OPTION_SEARCH => false,
                     EntitySearchInputType::OPTION_REMOVE_CONFIRM => true,
                     'data' => $this->messageRepository->findBy([], ['dateCreated' => 'DESC'], 2),
+                ]
+            )
+            ->add(
+                'questions',
+                CollectionInputType::class,
+                [
+                    self::FIELD_OPTION_NAME_LABEL => true,
+                    self::FIELD_OPTION_NAME_REQUIRED => false,
+                    self::FIELD_OPTION_NAME_MAPPED => false,
+                    'help' => true,
+                    'entry_type' => TextInputType::class,
+                    'entry_options' => ['label' => false],
+                    'template' => 'Who …?',
+                    'data' => ['Who reads it first?', 'What does it cover?'],
                 ]
             )
             ->add(
