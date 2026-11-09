@@ -5,6 +5,7 @@
 @use '@wexample/symfony-design-system/components/status-icon/status-icon';
 @use '@wexample/symfony-design-system/components/data-table/data-table';
 @use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/sentence';
 @use '@wexample/symfony-design-system/components/button/button';
 @use '@wexample/symfony-design-system/css/shapes/block';
 @use '@wexample/symfony-design-system/css/shapes/stack';
@@ -40,4 +41,9 @@
 .marker-demo--icon {
   display: inline-flex;
   font-size: 1.5rem;
+}
+
+// Narrow enough for the sentence to wrap, the way it does in a folded line.
+.marker-demo--narrow {
+  max-width: 22rem;
 }

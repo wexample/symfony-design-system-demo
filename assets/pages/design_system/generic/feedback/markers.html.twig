@@ -16,6 +16,20 @@
         </p>
     </div>
 
+    <h2>{{ '@page::section.sentence.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.sentence.description' | trans }}</div>
+    <div class="block block--padded marker-demo--narrow">
+        <div class="sentence">
+            {{ '@page::example.described.deployed' | trans }}
+            {{ marker('neutral', 'v2.4', { compact: true }) }}
+            {{ '@page::example.described.to' | trans }}
+            {{ marker('cat-teal', '@page::marker.production' | trans, { compact: true }) }}
+            {{ '@page::example.described.by' | trans }}
+            {{ marker('cat-plum', 'weeger', { compact: true, glyph: 'ph:bold/user' }) }}
+            {{ '@page::example.described.ago' | trans }}
+        </div>
+    </div>
+
     <h2>{{ '@page::section.palette.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.palette.description' | trans }}</div>
     <div class="block block--padded cluster">
