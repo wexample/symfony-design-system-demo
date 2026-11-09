@@ -13,7 +13,7 @@ en:
       description: "The same frame as a vue partial, for a document whose address is only known once the page runs."
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -61,7 +61,7 @@ ar:
       description: 'نفس الإطار كجزء من فيو، لوثيقة عنوانها معروف فقط عند تشغيل الصفحة.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -107,7 +107,7 @@ bn:
       description: 'একটি ভিউ পার্টিয়ালের মতো একই ফ্রেম, একটি নথির জন্য যার ঠিকানা পৃষ্ঠা চলার সময়ই জানা যায়।'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -153,7 +153,7 @@ de:
       description: 'Der gleiche Rahmen wie ein Vue-Partial, für ein Dokument, dessen Adresse erst bekannt ist, wenn die Seite geladen wird.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -199,7 +199,7 @@ es:
       description: 'El mismo marco que un parcial de vue, para un documento cuyo dirección solo se conoce una vez que la página se ejecuta.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -245,7 +245,7 @@ fa:
       description: 'فریم مشابهی به عنوان یک بخش ویو، برای یک سند که آدرس آن تنها زمانی که صفحه اجرا می‌شود شناخته می‌شود.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -291,7 +291,7 @@ fi:
       description: 'Sama kehys kuin vue-osassa, asiakirjalle, jonka osoite tiedetään vain sivun suorittaessa.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -337,7 +337,7 @@ fr:
       description: "Le même cadre qu'un fragment vue, pour un document dont l'adresse n'est connue qu'une fois la page exécutée."
     cover:
       title: "Une couverture"
-      description: "La bande en tête de page, faite pour accueillir une image, une vidéo ou une animation, recadrée pour la remplir ; vide, le halo d'un placeholder. Un titre et une ligne sur son pied quand elle en a. Une page y glisse sa propre animation (bloc cover_media)."
+      description: "La bande en tête de page, faite pour accueillir une image, une vidéo ou une animation, recadrée pour la remplir ; vide, l'image manquante — une grille discrète, une icône d'image. Un titre et une ligne sur son pied quand elle en a. Une page y glisse sa propre animation (bloc cover_media)."
       example_title: "Aurores boréales"
       example_subtitle: "Une semaine au-dessus du cercle polaire"
       animated: "Une animation que la page dessine"
@@ -383,7 +383,7 @@ he:
       description: 'אותו מסגרת כמו חלק של Vue, עבור מסמך שהכתובת שלו ידועה רק כאשר הדף רץ.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -429,7 +429,7 @@ hi:
       description: 'व्यू आंशिक के समान फ्रेम, एक दस्तावेज़ के लिए जिसका पता केवल पृष्ठ के चलने पर जाना जाता है।'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -475,7 +475,7 @@ id:
       description: 'Frame yang sama seperti partial vue, untuk dokumen yang alamatnya hanya diketahui setelah halaman dijalankan.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -521,7 +521,7 @@ it:
       description: 'Lo stesso frame di un parziale vue, per un documento il cui indirizzo è conosciuto solo una volta che la pagina è in esecuzione.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -567,7 +567,7 @@ ja:
       description: ページが実行されるまでアドレスがわからないドキュメントのための、vue部分と同じフレームです。
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -613,7 +613,7 @@ ko:
       description: '페이지가 실행될 때 주소가 알려지는 문서에 대한 vue 부분과 동일한 프레임입니다.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -659,7 +659,7 @@ nl:
       description: 'Hetzelfde frame als een vue-deel, voor een document waarvan het adres pas bekend is als de pagina wordt uitgevoerd.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -705,7 +705,7 @@ pl:
       description: 'Ten sam szkielet co częściowy widok, dla dokumentu, którego adres jest znany dopiero po załadowaniu strony.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -751,7 +751,7 @@ pt_BR:
       description: 'O mesmo quadro que uma parte vue, para um documento cujo endereço só é conhecido quando a página é carregada.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -797,7 +797,7 @@ ru:
       description: 'Та же рамка, что и в частичном представлении vue, для документа, адрес которого известен только во время выполнения страницы.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -843,7 +843,7 @@ th:
       description: 'กรอบเดียวกันกับส่วน vue สำหรับเอกสารที่ที่อยู่จะถูกทราบเมื่อหน้าเว็บทำงานแล้วเท่านั้น.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -889,7 +889,7 @@ tr:
       description: 'Sayfa çalıştığında adresi ancak bilinen bir belge için vue parçasıyla aynı çerçeve.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -935,7 +935,7 @@ ur:
       description: 'اسی فریم میں ایک ویو پارشل کے طور پر، ایک دستاویز کے لیے جس کا پتہ صرف اس وقت معلوم ہوتا ہے جب صفحہ چلتا ہے۔'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -981,7 +981,7 @@ vi:
       description: 'Khung giống như một phần vue, cho một tài liệu mà địa chỉ chỉ được biết khi trang chạy.'
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
@@ -1027,7 +1027,7 @@ zh:
       description: 与vue局部相同的框架，文档的地址只有在页面运行时才知道。
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the glow of a placeholder. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"
