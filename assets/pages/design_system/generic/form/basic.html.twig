@@ -112,6 +112,34 @@
                 {{ form_submit('ph:bold/paper-plane-tilt', '@page::action.submit' | trans) }}
             </div>
         </form>
+        <h2>{{ '@page::section.line.title' | trans }}</h2>
+        <p>{{ '@page::section.line.description' | trans }}</p>
+        <form class="form">
+            {#- The emoji leading the title: the emoji as wide as its square,
+                the title taking the rest of the line. -#}
+            <div class="form--line">
+                {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/emoji-picker', {
+                    id: 'line-emoji',
+                    name: 'line_emoji',
+                    label: '@page::field.emoji.label' | trans,
+                    value: '🚀',
+                }) }}
+                <div class="form--group">
+                    <label class="form--label" for="line-title">{{ '@page::field.title.label' | trans }}</label>
+                    <input class="form--input" id="line-title" type="text">
+                </div>
+            </div>
+            <div class="form--line">
+                <div class="form--group">
+                    <label class="form--label" for="line-code">{{ '@page::field.code.label' | trans }}</label>
+                    <select class="form--input form--input--select" id="line-code"><option>+33</option><option>+32</option><option>+41</option></select>
+                </div>
+                <div class="form--group">
+                    <label class="form--label" for="line-phone">{{ '@page::field.phone.label' | trans }}</label>
+                    <input class="form--input" id="line-phone" type="tel">
+                </div>
+            </div>
+        </form>
         <h2>{{ '@page::section.block.title' | trans }}</h2>
         <div class="block block--padded">
             <form class="form">
