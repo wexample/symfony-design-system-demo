@@ -40,6 +40,29 @@
         {%- endfor -%}
     </div>
 
+    <h2>{{ '@page::section.group.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.group.description' | trans }}</div>
+    {#- A face drawn from its seed, the initials of a name, the rest counted;
+        twig, then the vue twin. -#}
+    <div class="block block--padded avatars-demo--row">
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/avatar-group', {
+            items: people|slice(0, 2)|map(person => { label: person.name }),
+        }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/avatar-group', {
+            items: people|map(person => { label: person.name, seed: person.id }),
+            max: 4,
+        }) }}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/avatar-group', {
+            items: people|map(person => { label: person.name, seed: person.id }),
+            max: 6,
+            size: '2.25rem',
+        }) }}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/avatar-group', {
+            items: people|map(person => { label: person.name, src: avatar_url(person.id, { engine: 'wexies-2020' }) }),
+            max: 3,
+        }) }}
+    </div>
+
     <h2>{{ '@page::section.sizes.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.sizes.description' | trans }}</div>
     <div class="block block--padded avatars-demo--row">
