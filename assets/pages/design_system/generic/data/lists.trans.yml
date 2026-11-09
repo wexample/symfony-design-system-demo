@@ -15,6 +15,9 @@ en:
     period:
       title: By period
       body: "A year or a month at a time: the one before, the one after, today. Kept in the address — reload, the period stays —, and stopped two years back here. What it tells is what a list or a chart asks the server for."
+    edited:
+      title: "Edited one by one"
+      body: "An ordered list whose items are edited in place (block-list): each line folded on its form, moved up and down, removed after a question, more added under it. The list changes nothing itself: its caller answers each request — here an array, an api in an app."
 
   search:
     placeholder: Filter the list...
@@ -60,6 +63,9 @@ ar:
     period:
       title: 'حسب الفترة'
       body: 'سنة أو شهر في وقت واحد: السابقة، التالية، اليوم. محفوظة في العنوان - عند إعادة التحميل، تبقى الفترة -، وتوقفت منذ عامين هنا. ما تخبره هو ما تطلبه القائمة أو الرسم البياني من الخادم.'
+    edited:
+      title: "تُحرَّر واحدًا تلو الآخر"
+      body: "قائمة مرتبة تُحرَّر عناصرها في مكانها (block-list): كل سطر مطوي على نموذجه، يُنقل لأعلى ولأسفل، ويُحذف بعد سؤال، ويُضاف غيره تحته. القائمة لا تغيّر شيئًا بنفسها: يجيب مستدعيها عن كل طلب — هنا مصفوفة، وفي تطبيق واجهة برمجية."
   search:
     placeholder: 'تصفية القائمة...'
   header:
@@ -102,6 +108,9 @@ bn:
     period:
       title: 'সময় অনুযায়ী'
       body: 'একসাথে একটি বছর বা একটি মাস: পূর্ববর্তী, পরবর্তী, আজ। ঠিকানায় সংরক্ষিত — পুনরায় লোড করলে, সময় থাকবে —, এবং এখানে দুই বছর আগেই থেমে গেছে। এটি যা বলে তা হলো একটি তালিকা বা একটি চার্ট সার্ভারের কাছে কী অনুরোধ করছে।'
+    edited:
+      title: "একে একে সম্পাদিত"
+      body: "একটি ক্রমযুক্ত তালিকা যার উপাদানগুলি জায়গায় সম্পাদিত হয় (block-list): প্রতিটি লাইন তার ফর্মে ভাঁজ করা, উপরে-নিচে সরানো, প্রশ্নের পরে সরানো, নিচে আরও যোগ করা। তালিকা নিজে কিছু বদলায় না: প্রতিটি অনুরোধের উত্তর দেয় তার আহ্বানকারী — এখানে একটি অ্যারে, অ্যাপে একটি api।"
   search:
     placeholder: 'তালিকা ফিল্টার করুন...'
   header:
@@ -144,6 +153,9 @@ de:
     period:
       title: 'Nach Zeitraum'
       body: 'Ein Jahr oder einen Monat auf einmal: der vorherige, der nachfolgende, heute. Im Adressfeld gespeichert — neu laden, der Zeitraum bleibt —, und vor zwei Jahren hier gestoppt. Was es sagt, ist das, was eine Liste oder ein Diagramm den Server fragt.'
+    edited:
+      title: "Einzeln bearbeitet"
+      body: "Eine geordnete Liste, deren Einträge an Ort und Stelle bearbeitet werden (block-list): jede Zeile über ihrem Formular eingeklappt, nach oben und unten verschoben, nach einer Rückfrage entfernt, weitere darunter hinzugefügt. Die Liste ändert selbst nichts: Ihr Aufrufer beantwortet jede Anfrage — hier ein Array, in einer App eine API."
   search:
     placeholder: 'Liste filtern...'
   header:
@@ -186,6 +198,9 @@ es:
     period:
       title: 'Por período'
       body: 'Un año o un mes a la vez: el anterior, el siguiente, hoy. Se mantiene en la dirección — recargar, el período permanece —, y se detuvo hace dos años aquí. Lo que dice es lo que una lista o un gráfico le pide al servidor.'
+    edited:
+      title: "Editados uno a uno"
+      body: "Una lista ordenada cuyos elementos se editan en su sitio (block-list): cada línea plegada sobre su formulario, subida y bajada, quitada tras una pregunta, otros añadidos debajo. La lista no cambia nada por sí misma: quien la llama responde a cada petición — aquí un array, en una app una api."
   search:
     placeholder: 'Filtrar la lista...'
   header:
@@ -228,6 +243,9 @@ fa:
     period:
       title: 'براساس بازه'
       body: 'یک سال یا یک ماه در یک زمان: قبلی، بعدی، امروز. در آدرس نگهداری می‌شود — بارگذاری مجدد، بازه حفظ می‌شود — و دو سال پیش متوقف شده است. آنچه که نشان می‌دهد همان چیزی است که یک لیست یا نمودار از سرور درخواست می‌کند.'
+    edited:
+      title: "یکی‌یکی ویرایش‌شده"
+      body: "فهرستی مرتب که موارد آن در جای خود ویرایش می‌شوند (block-list): هر سطر روی فرمش تا شده، بالا و پایین می‌رود، پس از یک پرسش حذف می‌شود و موارد بیشتری زیرش افزوده می‌شوند. فهرست خودش چیزی را تغییر نمی‌دهد: فراخواننده‌اش به هر درخواست پاسخ می‌دهد — اینجا یک آرایه، در یک برنامه یک api."
   search:
     placeholder: 'فهرست را فیلتر کنید...'
   header:
@@ -270,6 +288,9 @@ fi:
     period:
       title: 'Aikavälin mukaan'
       body: 'Vuosi tai kuukausi kerrallaan: edellinen, seuraava, tänään. Säilytetään osoitteessa — päivitä, aikaväli pysyy —, ja pysäytetään kaksi vuotta taaksepäin. Se, mitä se kertoo, on se, mitä lista tai kaavio kysyy palvelimelta.'
+    edited:
+      title: "Muokattu yksi kerrallaan"
+      body: "Järjestetty luettelo, jonka kohteita muokataan paikallaan (block-list): jokainen rivi taitettuna lomakkeensa päälle, siirretään ylös ja alas, poistetaan kysymyksen jälkeen, lisää lisätään alle. Luettelo ei itse muuta mitään: sen kutsuja vastaa jokaiseen pyyntöön — tässä taulukko, sovelluksessa api."
   search:
     placeholder: 'Suodata luetteloa...'
   header:
@@ -312,6 +333,9 @@ fr:
     period:
       title: Par période
       body: "Une année ou un mois à la fois : le précédent, le suivant, aujourd'hui. Gardée dans l'adresse — rechargez, la période reste —, et arrêtée ici deux ans en arrière. Ce qu'elle annonce est ce qu'une liste ou un graphique demande au serveur."
+    edited:
+      title: "Édités un par un"
+      body: "Une liste ordonnée dont on édite les éléments sur place (block-list) : chaque ligne repliée sur son formulaire, montée, descendue, supprimée après une question, d’autres ajoutés dessous. La liste ne change rien elle-même : son appelant répond à chaque demande — ici un tableau, une api dans une app."
   search:
     placeholder: 'Filtrer la liste...'
   header:
@@ -354,6 +378,9 @@ he:
     period:
       title: 'באמצעות תקופה'
       body: 'שנה או חודש בכל פעם: הקודמת, הבאה, היום. נשמר בכתובת — רענון, התקופה נשארת —, ועצרה לפני שנתיים כאן. מה שזה אומר זה מה שרשימה או תרשים מבקשים מהשרת.'
+    edited:
+      title: "נערכים אחד אחד"
+      body: "רשימה מסודרת שפריטיה נערכים במקומם (block-list): כל שורה מקופלת על הטופס שלה, מוזזת למעלה ולמטה, מוסרת אחרי שאלה, ועוד נוספים מתחתיה. הרשימה לא משנה דבר בעצמה: מי שקורא לה עונה לכל בקשה — כאן מערך, ביישום api."
   search:
     placeholder: 'סנן את הרשימה...'
   header:
@@ -396,6 +423,9 @@ hi:
     period:
       title: 'अवधि द्वारा'
       body: 'एक बार में एक वर्ष या एक माह: पिछले, अगले, आज। पते में रखा गया — फिर से लोड करें, अवधि बनी रहती है —, और यहाँ दो साल पहले रुकी हुई। यह जो बताता है, वह एक सूची या चार्ट सर्वर से क्या मांगता है।'
+    edited:
+      title: "एक-एक करके संपादित"
+      body: "एक क्रमबद्ध सूची जिसके आइटम अपनी जगह पर संपादित होते हैं (block-list): हर पंक्ति अपने फ़ॉर्म पर मुड़ी हुई, ऊपर-नीचे खिसकाई जाती है, एक प्रश्न के बाद हटाई जाती है, नीचे और जोड़े जाते हैं। सूची स्वयं कुछ नहीं बदलती: उसका कॉलर हर अनुरोध का उत्तर देता है — यहाँ एक array, ऐप में एक api।"
   search:
     placeholder: 'सूची को फ़िल्टर करें...'
   header:
@@ -438,6 +468,9 @@ id:
     period:
       title: 'Berdasarkan periode'
       body: 'Satu tahun atau satu bulan sekaligus: yang sebelumnya, yang berikutnya, hari ini. Disimpan dalam alamat — muat ulang, periode tetap —, dan dihentikan dua tahun yang lalu di sini. Apa yang diberitahukan adalah apa yang diminta oleh daftar atau grafik kepada server.'
+    edited:
+      title: "Disunting satu per satu"
+      body: "Daftar berurutan yang itemnya disunting di tempat (block-list): setiap baris terlipat di atas formulirnya, dipindah ke atas dan ke bawah, dihapus setelah sebuah pertanyaan, yang lain ditambahkan di bawahnya. Daftar itu sendiri tidak mengubah apa pun: pemanggilnya menjawab setiap permintaan — di sini sebuah array, di aplikasi sebuah api."
   search:
     placeholder: 'Saring daftar...'
   header:
@@ -480,6 +513,9 @@ it:
     period:
       title: 'Per periodo'
       body: "Un anno o un mese alla volta: quello prima, quello dopo, oggi. Mantenuto nell'indirizzo — ricarica, il periodo rimane —, e fermato due anni fa qui. Ciò che racconta è ciò che una lista o un grafico richiede al server."
+    edited:
+      title: "Modificati uno per uno"
+      body: "Un elenco ordinato i cui elementi si modificano sul posto (block-list): ogni riga piegata sul suo modulo, spostata su e giù, rimossa dopo una domanda, altri aggiunti sotto. L’elenco non cambia nulla da sé: chi lo chiama risponde a ogni richiesta — qui un array, in un’app un’api."
   search:
     placeholder: "Filtra l'elenco..."
   header:
@@ -522,6 +558,9 @@ ja:
     period:
       title: 期間別
       body: '年または月単位で: 前のもの、次のもの、今日。アドレスに保持されており — リロードしても期間は維持され —、ここから2年前に停止しました。これは、リストやチャートがサーバーに要求する内容を示しています。'
+    edited:
+      title: "一つずつ編集"
+      body: "その場で項目を編集する順序付きリスト(block-list):各行はフォームの上に折りたたまれ、上下に移動し、確認のあと削除され、下に追加されます。リスト自身は何も変えません。呼び出し側が各要求に応えます — ここでは配列、アプリでは api。"
   search:
     placeholder: リストをフィルターする...
   header:
@@ -564,6 +603,9 @@ ko:
     period:
       title: 기간별
       body: '1년 또는 1개월 단위: 이전, 다음, 오늘. 주소에 유지됨 — 새로 고침하면 기간이 유지됨 —, 그리고 여기서 2년 전으로 중단됨. 이것이 의미하는 것은 목록이나 차트가 서버에 요청하는 내용이다.'
+    edited:
+      title: "하나씩 편집"
+      body: "항목을 제자리에서 편집하는 순서 있는 목록(block-list): 각 줄은 양식 위에 접혀 있고, 위아래로 이동하며, 확인 후 제거되고, 아래에 더 추가됩니다. 목록은 스스로 아무것도 바꾸지 않습니다: 호출자가 각 요청에 응답합니다 — 여기서는 배열, 앱에서는 api."
   search:
     placeholder: '목록 필터링...'
   header:
@@ -606,6 +648,9 @@ nl:
     period:
       title: Periode
       body: 'Een jaar of een maand tegelijk: de periode ervoor, de periode erna, vandaag. Bewaard in het adres — herladen, de periode blijft —, en twee jaar terug hier gestopt. Wat het vertelt is wat een lijst of een grafiek de server vraagt.'
+    edited:
+      title: "Een voor een bewerkt"
+      body: "Een geordende lijst waarvan de items ter plekke worden bewerkt (block-list): elke regel ingeklapt boven zijn formulier, omhoog en omlaag verplaatst, na een vraag verwijderd, meer eronder toegevoegd. De lijst verandert zelf niets: de aanroeper beantwoordt elk verzoek — hier een array, in een app een api."
   search:
     placeholder: 'Filter de lijst...'
   header:
@@ -648,6 +693,9 @@ pl:
     period:
       title: 'Według okresu'
       body: 'Rok lub miesiąc na raz: ten przed, ten po, dzisiaj. Zachowane w adresie — przeładuj, okres pozostaje — i zatrzymane dwa lata wstecz. To, co mówi, to to, o co prosi serwer w przypadku listy lub wykresu.'
+    edited:
+      title: "Edytowane po kolei"
+      body: "Uporządkowana lista, której elementy edytuje się na miejscu (block-list): każdy wiersz zwinięty nad swoim formularzem, przesuwany w górę i w dół, usuwany po pytaniu, kolejne dodawane pod nią. Lista sama niczego nie zmienia: jej wywołujący odpowiada na każde żądanie — tu tablica, w aplikacji api."
   search:
     placeholder: 'Filtruj listę...'
   header:
@@ -690,6 +738,9 @@ pt_BR:
     period:
       title: 'Por período'
       body: 'Um ano ou um mês por vez: o anterior, o seguinte, hoje. Mantido no endereço — recarregar, o período permanece —, e parado dois anos atrás aqui. O que ele diz é o que uma lista ou um gráfico pede ao servidor.'
+    edited:
+      title: "Editados um a um"
+      body: "Uma lista ordenada cujos itens são editados no lugar (block-list): cada linha dobrada sobre seu formulário, movida para cima e para baixo, removida após uma pergunta, outros adicionados abaixo. A lista não muda nada sozinha: quem a chama responde a cada pedido — aqui um array, num app uma api."
   search:
     placeholder: 'Filtrar a lista...'
   header:
@@ -732,6 +783,9 @@ ru:
     period:
       title: 'По периоду'
       body: 'Год или месяц за раз: предыдущий, следующий, сегодня. Сохраняется в адресе — перезагрузите, период останется — и остановился два года назад здесь. То, что это говорит, — это то, что список или диаграмма запрашивают у сервера.'
+    edited:
+      title: "Редактируются по одному"
+      body: "Упорядоченный список, элементы которого редактируются на месте (block-list): каждая строка свёрнута над своей формой, перемещается вверх и вниз, удаляется после вопроса, новые добавляются под ним. Сам список ничего не меняет: на каждый запрос отвечает вызывающий — здесь массив, в приложении api."
   search:
     placeholder: 'Фильтровать список...'
   header:
@@ -774,6 +828,9 @@ th:
     period:
       title: ตามช่วงเวลา
       body: 'ปีหรือเดือนละหนึ่งครั้ง: อันก่อนหน้า, อันถัดไป, วันนี้ ถูกเก็บไว้ในที่อยู่ — โหลดใหม่, ช่วงเวลายังคงอยู่ — และหยุดเมื่อสองปีก่อนที่นี่ สิ่งที่มันบอกคือสิ่งที่รายการหรือกราฟขอจากเซิร์ฟเวอร์.'
+    edited:
+      title: "แก้ไขทีละรายการ"
+      body: "รายการเรียงลำดับที่แก้ไขรายการได้ในที่ (block-list): แต่ละบรรทัดพับอยู่บนฟอร์มของมัน เลื่อนขึ้นลงได้ ลบหลังจากถามยืนยัน และเพิ่มรายการใหม่ด้านล่าง รายการไม่เปลี่ยนอะไรเอง: ผู้เรียกใช้ตอบทุกคำขอ — ที่นี่คืออาร์เรย์ ในแอปคือ api"
   search:
     placeholder: กรองรายการ...
   header:
@@ -816,6 +873,9 @@ tr:
     period:
       title: 'Döneme göre'
       body: 'Bir yıl veya bir ay: öncesi, sonrası, bugün. Adreste tutulur — yeniden yükle, dönem kalır — ve burada iki yıl geriye durur. Söylediği, bir listenin veya grafiğin sunucudan ne istediğidir.'
+    edited:
+      title: "Tek tek düzenlenir"
+      body: "Öğeleri yerinde düzenlenen sıralı bir liste (block-list): her satır formunun üzerine katlanmış, yukarı ve aşağı taşınır, bir sorudan sonra kaldırılır, altına yenileri eklenir. Liste kendisi hiçbir şeyi değiştirmez: her isteği çağıranı yanıtlar — burada bir dizi, bir uygulamada bir api."
   search:
     placeholder: 'Listeyi filtrele...'
   header:
@@ -858,6 +918,9 @@ ur:
     period:
       title: 'مدت کے لحاظ سے'
       body: 'ایک سال یا ایک مہینہ: پچھلا، اگلا، آج۔ ایڈریس میں محفوظ کیا گیا — دوبارہ لوڈ کریں، مدت برقرار رہے گی —، اور یہاں دو سال پہلے رک گئی۔ یہ وہ معلومات ہے جو فہرست یا چارٹ سرور سے مانگتا ہے۔'
+    edited:
+      title: "ایک ایک کر کے ترمیم"
+      body: "ایک ترتیب وار فہرست جس کے آئٹمز اپنی جگہ ترمیم ہوتے ہیں (block-list): ہر سطر اپنے فارم پر تہہ، اوپر نیچے منتقل، ایک سوال کے بعد ہٹائی جاتی ہے، نیچے مزید شامل۔ فہرست خود کچھ نہیں بدلتی: اس کا کالر ہر درخواست کا جواب دیتا ہے — یہاں ایک array، ایپ میں ایک api۔"
   search:
     placeholder: 'فہرست کو فلٹر کریں...'
   header:
@@ -900,6 +963,9 @@ vi:
     period:
       title: 'Theo khoảng thời gian'
       body: 'Một năm hoặc một tháng một lần: cái trước, cái sau, hôm nay. Được giữ trong địa chỉ — tải lại, khoảng thời gian vẫn giữ nguyên —, và dừng lại hai năm trước tại đây. Những gì nó nói là những gì một danh sách hoặc biểu đồ yêu cầu từ máy chủ.'
+    edited:
+      title: "Chỉnh sửa từng mục"
+      body: "Một danh sách có thứ tự mà các mục được chỉnh sửa tại chỗ (block-list): mỗi dòng gập trên biểu mẫu của nó, di chuyển lên xuống, xóa sau một câu hỏi, thêm mục mới bên dưới. Danh sách tự nó không thay đổi gì: bên gọi trả lời từng yêu cầu — ở đây là một mảng, trong ứng dụng là một api."
   search:
     placeholder: 'Lọc danh sách...'
   header:
@@ -942,6 +1008,9 @@ zh:
     period:
       title: 按时间段
       body: 一年或一个月为单位：前一个、后一个、今天。保存在地址中——重载时，时间段保持不变——，并且在这里停止了两年前。它所传达的是列表或图表向服务器请求的内容。
+    edited:
+      title: "逐项编辑"
+      body: "就地编辑条目的有序列表(block-list):每行折叠在其表单之上,可上移下移,确认后删除,并在下方添加更多。列表本身不改变任何东西:由调用方回应每个请求 — 这里是一个数组,在应用中是一个 api。"
   search:
     placeholder: 过滤列表...
   header:

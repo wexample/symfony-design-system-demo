@@ -63,4 +63,8 @@
     <h2>{{ '@page::section.period.title' | trans }}</h2>
     <p>{{ '@page::section.period.body' | trans }}</p>
     {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-period') }}
+
+    <h2>{{ '@page::section.edited.title' | trans }}</h2>
+    <p>{{ '@page::section.edited.body' | trans }}</p>
+    {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-block-list') }}
 {%- endblock -%}

@@ -1,0 +1,33 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/block-list') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/marker') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <block-list
+            :items="steps"
+            :open-key="openKey"
+            remove-confirm="Remove this step?"
+            @move="onMove"
+            @remove="onRemove"
+    >
+        <template #label="{ item }">
+            <span class="sentence">
+                <ds-marker :label="item.kind" compact></ds-marker>
+                [[ item.name || 'Unnamed' ]], from <ds-marker tone="cat-teal" :label="item.source" compact></ds-marker>
+            </span>
+        </template>
+        <template #default="{ item }">
+            <div class="form--row">
+                <label class="form--label">Name</label>
+                <input class="form--input" type="text" v-model="item.name">
+            </div>
+        </template>
+        <template #add>
+            <button type="button" class="button button--flat" @click="add('fetch')">Add a fetch</button>
+            <button type="button" class="button button--flat" @click="add('send')">Add a send</button>
+        </template>
+    </block-list>
+{%- endblock -%}
