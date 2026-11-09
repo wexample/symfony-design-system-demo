@@ -7,6 +7,23 @@
 
 {%- block page_body -%}
     {%- import _self as demo -%}
+    <h2>{{ '@page::section.cover.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.cover.description' | trans }}</div>
+    <div class="stack--vertical">
+        {#- Nothing in it yet: the glow of the placeholder. -#}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/cover') }}
+        {#- A picture, its words over its foot. -#}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/cover', {
+            src: path('wexample_design_system_fixtures_picture_svg', { width: 1600, height: 600, hue: 210 }),
+            title: '@page::section.cover.example_title' | trans,
+            subtitle: '@page::section.cover.example_subtitle' | trans,
+        }) }}
+        {#- What the page puts there itself — here an animated gradient. -#}
+        {% embed '@WexampleSymfonyDesignSystemBundle/components/cover/cover.html.twig' with { title: '@page::section.cover.animated' | trans, height: '14rem' } %}
+            {% block cover_media %}<div class="cover--fill media-demo--cover-animation"></div>{% endblock %}
+        {% endembed %}
+    </div>
+
     <h2>{{ '@page::section.shapes.title' | trans }}</h2>
     <div class="stack--horizontal">
         <div class="block block--padded" style="flex: 1">

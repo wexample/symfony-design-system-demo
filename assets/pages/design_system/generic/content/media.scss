@@ -3,3 +3,28 @@
 @use '@wexample/symfony-design-system/css/shapes/block';
 @use '@wexample/symfony-design-system/components/video/video';
 @use '@wexample/symfony-design-system/css/shapes/grid';
+
+// An animation in a cover: a slow drift of colour, held still for whoever
+// asks the page not to move.
+.media-demo--cover-animation {
+  background: linear-gradient(120deg, var(--info-9), var(--success-9), var(--warning-9), var(--info-9));
+  background-size: 300% 300%;
+  animation: media-demo--drift 18s ease-in-out infinite;
+}
+
+@keyframes media-demo--drift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .media-demo--cover-animation {
+    animation: none;
+  }
+}
