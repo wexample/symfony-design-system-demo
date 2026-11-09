@@ -8,7 +8,9 @@
     {#- The form is never drawn: handed to the vue as the norm describes it,
         sent to its processor. -#}
     <div class="block block--padded">
-        {{ vue(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/dynamic-form', {
+        {#- Handed the code editor for its fields of code, as an application
+            holding such a form hands it. -#}
+        {{ vue(render_pass, '@WexampleSymfonyDesignSystemDemoBundle/components/demo-dynamic-form', {
             form: form_definition(form_from_server_demo),
         }) }}
     </div>

@@ -1,0 +1,10 @@
+{%- extends '@WexampleSymfonyDesignSystemBundle/components/_abstract/vue/vue.vue.twig' -%}
+
+{%- block vue_require -%}
+    {{- vue_require(render_pass, '@WexampleSymfonyDesignSystemBundle/components/form/dynamic-form') -}}
+    {{- vue_require(render_pass, '@WexampleSymfonyCodingBundle/components/code-input') -}}
+{%- endblock -%}
+
+{%- block vue_body -%}
+    <dynamic-form :form="form" :field-components="fieldComponents"></dynamic-form>
+{%- endblock -%}

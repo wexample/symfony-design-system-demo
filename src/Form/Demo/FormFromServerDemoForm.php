@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints\NotBlank;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyForms\Form\AbstractForm;
+use Wexample\SymfonyCoding\Form\Type\CodeInputType;
 use Wexample\SymfonyForms\Form\Type\CollectionInputType;
 use Wexample\SymfonyForms\Form\Type\ColorInputType;
 use Wexample\SymfonyForms\Form\Type\KeyValueInputType;
@@ -84,8 +85,8 @@ class FormFromServerDemoForm extends AbstractForm
             ->add('questions', CollectionInputType::class, $field + [
                 self::FIELD_OPTION_NAME_REQUIRED => false,
                 'help' => 'field.questions.help',
-                'entry_type' => TextareaInputType::class,
-                'entry_options' => ['label' => false, 'attr' => ['rows' => 2]],
+                'entry_type' => CodeInputType::class,
+                'entry_options' => ['label' => false, 'language' => 'json', 'rows' => 4],
                 'template' => '{"question": "", "choices": []}',
                 'data' => ['{"question": "Who reads it first?", "choices": ["board", "members"]}'],
             ])
