@@ -38,6 +38,7 @@ en:
           label: "The board"
     pages:
       label: "Pages"
+      help: "From 1 to 40, or an expression computing it."
     public:
       label: "Public"
     color:
@@ -102,6 +103,7 @@ ar:
           label: "المجلس"
     pages:
       label: "الصفحات"
+      help: "من 1 إلى 40، أو تعبير يحسبه."
     public:
       label: "عام"
     color:
@@ -166,6 +168,7 @@ bn:
           label: "বোর্ড"
     pages:
       label: "পৃষ্ঠা"
+      help: "১ থেকে ৪০, অথবা এটি গণনা করে এমন একটি এক্সপ্রেশন।"
     public:
       label: "সর্বজনীন"
     color:
@@ -230,6 +233,7 @@ de:
           label: "Der Vorstand"
     pages:
       label: "Seiten"
+      help: "Von 1 bis 40, oder ein Ausdruck, der es berechnet."
     public:
       label: "Öffentlich"
     color:
@@ -294,6 +298,7 @@ es:
           label: "La junta"
     pages:
       label: "Páginas"
+      help: "De 1 a 40, o una expresión que lo calcule."
     public:
       label: "Público"
     color:
@@ -358,6 +363,7 @@ fa:
           label: "هیئت مدیره"
     pages:
       label: "صفحات"
+      help: "از ۱ تا ۴۰، یا عبارتی که آن را محاسبه کند."
     public:
       label: "عمومی"
     color:
@@ -422,6 +428,7 @@ fi:
           label: "Hallitus"
     pages:
       label: "Sivut"
+      help: "1–40, tai sen laskeva lauseke."
     public:
       label: "Julkinen"
     color:
@@ -486,6 +493,7 @@ fr:
           label: "Le conseil"
     pages:
       label: "Pages"
+      help: "De 1 à 40, ou une expression qui le calcule."
     public:
       label: "Public"
     color:
@@ -550,6 +558,7 @@ he:
           label: "הדירקטוריון"
     pages:
       label: "עמודים"
+      help: "מ-1 עד 40, או ביטוי שמחשב אותו."
     public:
       label: "ציבורי"
     color:
@@ -614,6 +623,7 @@ hi:
           label: "बोर्ड"
     pages:
       label: "पृष्ठ"
+      help: "1 से 40 तक, या इसे गणना करने वाला एक्सप्रेशन।"
     public:
       label: "सार्वजनिक"
     color:
@@ -678,6 +688,7 @@ id:
           label: "Dewan"
     pages:
       label: "Halaman"
+      help: "Dari 1 sampai 40, atau ekspresi yang menghitungnya."
     public:
       label: "Publik"
     color:
@@ -742,6 +753,7 @@ it:
           label: "Il consiglio"
     pages:
       label: "Pagine"
+      help: "Da 1 a 40, o un'espressione che lo calcola."
     public:
       label: "Pubblico"
     color:
@@ -806,6 +818,7 @@ ja:
           label: "理事会"
     pages:
       label: "ページ数"
+      help: "1〜40、またはそれを計算する式。"
     public:
       label: "公開"
     color:
@@ -870,6 +883,7 @@ ko:
           label: "이사회"
     pages:
       label: "페이지"
+      help: "1에서 40까지, 또는 이를 계산하는 식."
     public:
       label: "공개"
     color:
@@ -934,6 +948,7 @@ nl:
           label: "Het bestuur"
     pages:
       label: "Pagina's"
+      help: "Van 1 tot 40, of een expressie die het berekent."
     public:
       label: "Openbaar"
     color:
@@ -998,6 +1013,7 @@ pl:
           label: "Zarząd"
     pages:
       label: "Strony"
+      help: "Od 1 do 40 albo wyrażenie, które to oblicza."
     public:
       label: "Publiczny"
     color:
@@ -1062,6 +1078,7 @@ pt_BR:
           label: "A diretoria"
     pages:
       label: "Páginas"
+      help: "De 1 a 40, ou uma expressão que o calcule."
     public:
       label: "Público"
     color:
@@ -1126,6 +1143,7 @@ ru:
           label: "Совет"
     pages:
       label: "Страницы"
+      help: "От 1 до 40 или выражение, которое это вычисляет."
     public:
       label: "Публичный"
     color:
@@ -1190,6 +1208,7 @@ th:
           label: "คณะกรรมการ"
     pages:
       label: "หน้า"
+      help: "ตั้งแต่ 1 ถึง 40 หรือนิพจน์ที่คำนวณค่านั้น"
     public:
       label: "สาธารณะ"
     color:
@@ -1254,6 +1273,7 @@ tr:
           label: "Yönetim kurulu"
     pages:
       label: "Sayfalar"
+      help: "1 ile 40 arası ya da onu hesaplayan bir ifade."
     public:
       label: "Herkese açık"
     color:
@@ -1318,6 +1338,7 @@ ur:
           label: "بورڈ"
     pages:
       label: "صفحات"
+      help: "1 سے 40 تک، یا اسے شمار کرنے والا ایکسپریشن۔"
     public:
       label: "عوامی"
     color:
@@ -1382,6 +1403,7 @@ vi:
           label: "Ban điều hành"
     pages:
       label: "Số trang"
+      help: "Từ 1 đến 40, hoặc một biểu thức tính ra nó."
     public:
       label: "Công khai"
     color:
@@ -1446,6 +1468,7 @@ zh:
           label: "董事会"
     pages:
       label: "页数"
+      help: "1 到 40,或计算它的表达式。"
     public:
       label: "公开"
     color:
