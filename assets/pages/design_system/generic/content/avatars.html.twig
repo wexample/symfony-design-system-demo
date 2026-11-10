@@ -73,4 +73,16 @@
             {{ avatar(people[0].id, { label: people[0].name, size: size }) }}
         {%- endfor -%}
     </div>
+
+    <h2>{{ '@page::section.presence.title' | trans }}</h2>
+    <div class="lead">{{ '@page::section.presence.description' | trans }}</div>
+    <div class="block block--padded avatars-demo--row">
+        {%- set face = '@WexampleSymfonyDesignSystemBundle/components/avatar' -%}
+        {{ component(render_pass, face, { label: people[0].name, src: avatar_url(people[0].id, { engine: 'wexies-2020' }), presence: 'online', size: '2.5rem' }) }}
+        {{ component(render_pass, face, { label: people[1].name, seed: people[1].id, presence: 'away', size: '2.5rem' }) }}
+        {{ component(render_pass, face, { label: people[2].name, presence: 'busy', size: '2.5rem' }) }}
+        {{ component(render_pass, face, { label: 'Assistant', emoji: '🤖', presence: 'online', size: '2.5rem' }) }}
+        {{ component(render_pass, face, { label: people[3].name, presence: 'offline', size: '2.5rem' }) }}
+        {{ component(render_pass, face, { label: people[0].name, presence: 'online', size: '4rem' }) }}
+    </div>
 {%- endblock -%}

@@ -7,6 +7,9 @@ en:
   intro: "A face for whoever has no picture, drawn by an engine from a seed — an id that never changes, never the name — and served as an image any page, vue component or mail can show. The same seed always gives the same face; the engine says how it looks."
 
   section:
+    presence:
+      title: "Whether they are there"
+      description: "One face alone (avatar): a picture, a drawn face, an emoji, else the initials; a dot on its corner — online, away, busy, offline —, said in words to whoever reads the page aloud."
     engines:
       title: Engines
       description: "The design system draws initials on a colour of the seed. Other engines plug in beside it: the wexies of 2020 come from symfony-design-system-effects."
@@ -29,6 +32,9 @@ fr:
   intro: "Un visage pour qui n'a pas de photo, dessiné par un moteur à partir d'une graine — un identifiant qui ne change jamais, jamais le nom — et servi comme une image que toute page, tout composant vue ou tout mail peut afficher. La même graine donne toujours le même visage ; le moteur décide de son allure."
 
   section:
+    presence:
+      title: "Présent ou non"
+      description: "Un visage seul (avatar) : une photo, un visage dessiné, un emoji, sinon les initiales ; un point sur son coin — en ligne, absent, occupé, hors ligne —, dit en mots à qui lit la page à voix haute."
     engines:
       title: Moteurs
       description: "Le design system dessine des initiales sur une couleur de la graine. D'autres moteurs se branchent à côté : les wexies de 2020 viennent de symfony-design-system-effects."
@@ -48,6 +54,9 @@ zh:
   page_icon: 'ph:bold/smiley'
   intro: 为没有图片的人绘制的面孔，由引擎根据种子生成——一个永不改变的ID，而不是名字——可以作为任何页面、vue组件或邮件展示的图像。相同的种子总是生成相同的面孔；引擎决定它的外观。
   section:
+    presence:
+      title: "是否在线"
+      description: "单个头像(avatar):照片、绘制的脸、表情符号,否则为姓名首字母;角上的圆点 — 在线、离开、忙碌、离线 — 会以文字告诉朗读页面的人。"
     engines:
       title: 引擎
       description: 设计系统在种子的颜色上绘制首字母。其他引擎在旁边接入：2020年的wexies来自symfony-design-system-effects。
@@ -67,6 +76,9 @@ ar:
   page_icon: 'ph:bold/smiley'
   intro: 'وجه لمن ليس لديه صورة، مرسوم بواسطة محرك من بذور - هو معرف لا يتغير، وليس الاسم - ويظهر كصورة يمكن أن تعرضها أي صفحة أو مكون في فيو أو بريد. نفس البذور دائمًا تعطي نفس الوجه؛ المحرك يحدد كيف يبدو.'
   section:
+    presence:
+      title: "هل هم موجودون"
+      description: "وجه واحد (avatar): صورة، أو وجه مرسوم، أو رمز تعبيري، وإلا فالأحرف الأولى؛ ونقطة على زاويته — متصل، بعيد، مشغول، غير متصل —، تُقال بالكلمات لمن يقرأ الصفحة بصوت عالٍ."
     engines:
       title: المحركات
       description: 'نظام التصميم يرسم الأحرف الأولى بلون البذور. وهناك محركات أخرى تعمل بجانبه: الويكسيز من 2020 تأتي من تأثيرات نظام تصميم سيمفوني.'
@@ -86,6 +98,9 @@ hi:
   page_icon: 'ph:bold/smiley'
   intro: 'जो कोई तस्वीर नहीं है उसके लिए एक चेहरा, एक बीज से इंजन द्वारा बनाया गया - एक पहचान जो कभी नहीं बदलती, कभी नाम नहीं - और किसी भी पृष्ठ, व्यू घटक या मेल द्वारा दिखाया जा सकता है। वही बीज हमेशा वही चेहरा देता है; इंजन कहता है कि यह कैसा दिखता है।'
   section:
+    presence:
+      title: "वे मौजूद हैं या नहीं"
+      description: "एक अकेला चेहरा (avatar): एक तस्वीर, बना हुआ चेहरा, इमोजी, नहीं तो आद्याक्षर; उसके कोने पर एक बिंदु — ऑनलाइन, दूर, व्यस्त, ऑफ़लाइन —, जो पृष्ठ को ज़ोर से पढ़ने वाले को शब्दों में बताया जाता है।"
     engines:
       title: इंजन
       description: 'डिज़ाइन सिस्टम बीज के रंग पर आद्याक्षर बनाता है। अन्य इंजन इसके बगल में प्लग इन होते हैं: 2020 के वेक्सी सिम्फनी-डिज़ाइन- प्रणाली-इफेक्ट्स से आते हैं।'
@@ -105,6 +120,9 @@ he:
   page_icon: 'ph:bold/smiley'
   intro: 'פנים עבור מי שאין לו תמונה, שנוצרות על ידי מנוע מזרע — זיהוי שאינו משתנה, לעולם לא השם — ומוצגות כתמונה בכל עמוד, רכיב vue או דואר. אותו זרע תמיד נותן את אותו הפנים; המנוע קובע איך זה נראה.'
   section:
+    presence:
+      title: "האם הם כאן"
+      description: "פנים בודדות (avatar): תמונה, פנים מצוירות, אמוג׳י, או ראשי התיבות; נקודה בפינה — מחובר, לא זמין, עסוק, לא מחובר —, הנאמרת במילים למי שמקריא את הדף."
     engines:
       title: מנועים
       description: 'מערכת העיצוב מציירת ראשי תיבות על צבע הזרע. מנועים אחרים מחוברים לצידה: ה-wexies של 2020 מגיעים מ-symfony-design-system-effects.'
@@ -124,6 +142,9 @@ fa:
   page_icon: 'ph:bold/smiley'
   intro: 'چهره‌ای برای هر کسی که تصویر ندارد، که توسط یک موتور از یک بذر ترسیم می‌شود — یک شناسه که هرگز تغییر نمی‌کند، هرگز نام — و به عنوان تصویری که هر صفحه، کامپوننت Vue یا ایمیل می‌تواند نمایش دهد، سرویس‌دهی می‌شود. همان بذر همیشه همان چهره را می‌دهد؛ موتور می‌گوید چگونه به نظر می‌رسد.'
   section:
+    presence:
+      title: "حاضرند یا نه"
+      description: "یک چهره به‌تنهایی (avatar): یک عکس، چهره‌ای کشیده، یک ایموجی، وگرنه حروف اول؛ نقطه‌ای بر گوشه‌اش — آنلاین، دور، مشغول، آفلاین —، که برای کسی که صفحه را بلند می‌خواند با کلمات گفته می‌شود."
     engines:
       title: موتورها
       description: 'سیستم طراحی حروف اول را بر روی رنگ بذر ترسیم می‌کند. موتورها دیگری نیز در کنار آن قرار می‌گیرند: وکسی‌های 2020 از افکت‌های سیستم طراحی Symfony می‌آیند.'
@@ -143,6 +164,9 @@ ur:
   page_icon: 'ph:bold/smiley'
   intro: 'ایک چہرہ جو ان لوگوں کے لئے ہے جن کی کوئی تصویر نہیں، ایک انجن کے ذریعے ایک بیج سے بنایا گیا — ایک شناخت جو کبھی نہیں بدلتی، کبھی بھی نام نہیں — اور کسی بھی صفحے، ویو کمپوننٹ یا میل کے طور پر ایک تصویر کے طور پر پیش کی جا سکتی ہے۔ ایک ہی بیج ہمیشہ ایک ہی چہرہ دیتا ہے؛ انجن یہ بتاتا ہے کہ یہ کیسا لگتا ہے۔'
   section:
+    presence:
+      title: "وہ موجود ہیں یا نہیں"
+      description: "ایک اکیلا چہرہ (avatar): تصویر، بنایا ہوا چہرہ، ایموجی، ورنہ ابتدائی حروف؛ اس کے کونے پر ایک نقطہ — آن لائن، دور، مصروف، آف لائن —، جو صفحہ بلند آواز سے پڑھنے والے کو الفاظ میں بتایا جاتا ہے۔"
     engines:
       title: انجن
       description: 'ڈیزائن سسٹم بیج کے رنگ پر ابتدائی حروف بناتا ہے۔ دوسرے انجن اس کے ساتھ جڑتے ہیں: 2020 کے ویکسیز سمفونی-ڈیزائن-سسٹم-ایفیکٹس سے آتے ہیں۔'
@@ -162,6 +186,9 @@ ja:
   page_icon: 'ph:bold/smiley'
   intro: 写真がない人のための顔。変更されないIDからエンジンが描いたもので、どのページ、Vueコンポーネント、またはメールでも表示できる画像として提供される。同じシードは常に同じ顔を与え、エンジンがその見た目を決定します。
   section:
+    presence:
+      title: "在席しているか"
+      description: "一人の顔(avatar):写真、描かれた顔、絵文字、なければイニシャル。角の点 — オンライン、離席中、取り込み中、オフライン — は、ページを読み上げる人には言葉で伝えます。"
     engines:
       title: エンジン
       description: デザインシステムは、シードの色に初期を描きます。他のエンジンはその横に接続されます：2020年のウェクシーはsymfony-design-system-effectsから来ています。
@@ -181,6 +208,9 @@ ko:
   page_icon: 'ph:bold/smiley'
   intro: '사진이 없는 사용자를 위한 얼굴로, 변경되지 않는 ID를 기반으로 엔진이 그립니다 — 이름이 아닌 ID — 모든 페이지, Vue 컴포넌트 또는 이메일에서 표시할 수 있는 이미지로 제공됩니다. 같은 시드는 항상 같은 얼굴을 생성하며, 엔진이 어떻게 보이는지를 결정합니다.'
   section:
+    presence:
+      title: "자리에 있는지"
+      description: "얼굴 하나(avatar): 사진, 그려진 얼굴, 이모지, 아니면 이니셜. 모서리의 점 — 온라인, 자리 비움, 바쁨, 오프라인 — 은 페이지를 소리 내어 읽는 사람에게 말로 전해집니다."
     engines:
       title: 엔진
       description: '디자인 시스템은 시드의 색상으로 이니셜을 그립니다. 다른 엔진들이 그 옆에 연결됩니다: 2020년의 웩시들은 symfony-design-system-effects에서 나옵니다.'
@@ -200,6 +230,9 @@ bn:
   page_icon: 'ph:bold/smiley'
   intro: 'যার কোনো ছবি নেই তার জন্য একটি মুখ, একটি সিড থেকে ইঞ্জিন দ্বারা আঁকা — একটি আইডি যা কখনো পরিবর্তিত হয় না, কখনো নাম নয় — এবং এটি একটি ছবি হিসেবে যে কোনো পৃষ্ঠা, ভিউ কম্পোনেন্ট বা মেইলে প্রদর্শন করা যায়। একই সিড সব সময় একই মুখ দেয়; ইঞ্জিন বলে এটি কেমন দেখায়।'
   section:
+    presence:
+      title: "তারা আছেন কি না"
+      description: "একটি মুখ (avatar): ছবি, আঁকা মুখ, ইমোজি, নয়তো আদ্যক্ষর; কোণে একটি বিন্দু — অনলাইন, দূরে, ব্যস্ত, অফলাইন —, যিনি পৃষ্ঠাটি জোরে পড়েন তাকে কথায় বলা হয়।"
     engines:
       title: ইঞ্জিন
       description: 'ডিজাইন সিস্টেম একটি রঙের সিডের উপর অক্ষর আঁকে। অন্যান্য ইঞ্জিন এর পাশে সংযুক্ত হয়: ২০২০ সালের ওয়েক্সি সমূহ সিম্ফনি-ডিজাইন-সিস্টেম-এফেক্ট থেকে এসেছে।'
@@ -219,6 +252,9 @@ th:
   page_icon: 'ph:bold/smiley'
   intro: 'ใบหน้าสำหรับผู้ที่ไม่มีรูปภาพ วาดโดยเครื่องจากเมล็ด — รหัสที่ไม่เคยเปลี่ยนแปลง ไม่ใช่ชื่อ — และแสดงเป็นภาพที่หน้าใดก็ได้ คอมโพเนนต์ vue หรืออีเมลสามารถแสดงได้ เมล็ดเดียวกันจะให้ใบหน้าเดียวกันเสมอ; เครื่องบอกว่ามันดูเป็นอย่างไร.'
   section:
+    presence:
+      title: "อยู่หรือไม่"
+      description: "ใบหน้าเดียว (avatar): รูปภาพ ใบหน้าที่วาด อีโมจิ หรืออักษรย่อ จุดที่มุม — ออนไลน์ ไม่อยู่ ไม่ว่าง ออฟไลน์ — บอกเป็นคำแก่ผู้ที่อ่านหน้านี้ออกเสียง"
     engines:
       title: เครื่องจักร
       description: 'ระบบออกแบบวาดอักษรย่อบนสีของเมล็ด เครื่องจักรอื่นๆ เชื่อมต่ออยู่ข้างๆ: wexies ของปี 2020 มาจาก symfony-design-system-effects.'
@@ -238,6 +274,9 @@ de:
   page_icon: 'ph:bold/smiley'
   intro: 'Ein Gesicht für jeden, der kein Bild hat, gezeichnet von einer Engine aus einem Seed – einer ID, die sich nie ändert, nie der Name – und als Bild bereitgestellt, das jede Seite, jede Vue-Komponente oder E-Mail anzeigen kann. Der gleiche Seed ergibt immer das gleiche Gesicht; die Engine sagt, wie es aussieht.'
   section:
+    presence:
+      title: "Ob sie da sind"
+      description: "Ein einzelnes Gesicht (avatar): ein Bild, ein gezeichnetes Gesicht, ein Emoji, sonst die Initialen; ein Punkt an seiner Ecke — online, abwesend, beschäftigt, offline —, in Worten gesagt für alle, die die Seite vorlesen lassen."
     engines:
       title: Engines
       description: 'Das Designsystem zeichnet Initialen auf eine Farbe des Seeds. Andere Engines fügen sich daneben ein: die Wexies von 2020 stammen aus symfony-design-system-effects.'
@@ -257,6 +296,9 @@ fi:
   page_icon: 'ph:bold/smiley'
   intro: 'Kasvokuva jokaiselle, jolla ei ole kuvaa, piirretty koneen toimesta siemenestä — id:stä, joka ei koskaan muutu, ei koskaan nimestä — ja esitettynä kuvana, jonka jokainen sivu, vue-komponentti tai sähköposti voi näyttää. Sama siemen antaa aina saman kasvokuvan; kone kertoo, miltä se näyttää.'
   section:
+    presence:
+      title: "Ovatko he paikalla"
+      description: "Yksi kasvo (avatar): kuva, piirretty kasvo, emoji tai muuten nimikirjaimet; piste sen kulmassa — paikalla, poissa, varattu, ei paikalla —, sanottuna sanoin sivun ääneen lukevalle."
     engines:
       title: Koneet
       description: 'Suunnittelujärjestelmä piirtää alkukirjaimia siemenen värillä. Muut koneet liitetään sen viereen: vuoden 2020 wexyt tulevat symfony-design-system-effects:ltä.'
@@ -276,6 +318,9 @@ ru:
   page_icon: 'ph:bold/smiley'
   intro: 'Лицо для тех, у кого нет фотографии, нарисованное движком из семени — идентификатора, который никогда не меняется, не имени — и используемое в качестве изображения, которое может отображаться на любой странице, компоненте vue или в письме. Одно и то же семя всегда дает одно и то же лицо; движок определяет, как оно выглядит.'
   section:
+    presence:
+      title: "На месте ли они"
+      description: "Одно лицо (avatar): фото, нарисованное лицо, эмодзи, иначе инициалы; точка в углу — в сети, отошёл, занят, не в сети — проговаривается словами тому, кто слушает страницу."
     engines:
       title: Движки
       description: 'Система дизайна рисует инициал на цвете семени. Другие движки подключаются рядом: вексии 2020 года идут из symfony-design-system-effects.'
@@ -295,6 +340,9 @@ pl:
   page_icon: 'ph:bold/smiley'
   intro: 'Twarz dla kogoś, kto nie ma zdjęcia, stworzona przez silnik z nasiona — id, które nigdy się nie zmienia, nigdy nazwa — i serwowana jako obraz, który może wyświetlić każda strona, komponent vue lub wiadomość. To samo nasiono zawsze daje tę samą twarz; silnik mówi, jak ona wygląda.'
   section:
+    presence:
+      title: "Czy są obecni"
+      description: "Jedna twarz (avatar): zdjęcie, rysowana twarz, emoji albo inicjały; kropka w rogu — dostępny, zaraz wracam, zajęty, niedostępny —, wypowiedziana słowami temu, kto czyta stronę na głos."
     engines:
       title: Silniki
       description: 'System projektowania rysuje inicjały w kolorze nasiona. Inne silniki podłączają się obok: wexie z 2020 roku pochodzą z symfony-design-system-effects.'
@@ -314,6 +362,9 @@ es:
   page_icon: 'ph:bold/smiley'
   intro: 'Una cara para quien no tiene foto, dibujada por un motor a partir de una semilla — un id que nunca cambia, nunca el nombre — y servido como una imagen que cualquier página, componente vue o correo puede mostrar. La misma semilla siempre da la misma cara; el motor dice cómo se ve.'
   section:
+    presence:
+      title: "Si están o no"
+      description: "Una cara sola (avatar): una foto, una cara dibujada, un emoji, si no las iniciales; un punto en su esquina — en línea, ausente, ocupado, desconectado —, dicho en palabras a quien lee la página en voz alta."
     engines:
       title: Motores
       description: 'El sistema de diseño dibuja iniciales sobre un color de la semilla. Otros motores se conectan al lado: los wexies de 2020 provienen de symfony-design-system-effects.'
@@ -333,6 +384,9 @@ it:
   page_icon: 'ph:bold/smiley'
   intro: 'Un volto per chi non ha immagine, creato da un motore a partire da un seed — un id che non cambia mai, mai il nome — e utilizzato come immagine che qualsiasi pagina, componente vue o email può mostrare. Lo stesso seed dà sempre lo stesso volto; il motore determina come appare.'
   section:
+    presence:
+      title: "Se ci sono"
+      description: "Un volto solo (avatar): una foto, un volto disegnato, un'emoji, altrimenti le iniziali; un punto sull'angolo — online, assente, occupato, offline —, detto a parole a chi legge la pagina ad alta voce."
     engines:
       title: Motori
       description: 'Il sistema di design disegna le iniziali su un colore del seed. Altri motori si collegano accanto: i wexies del 2020 provengono dagli effetti del sistema di design di Symfony.'
@@ -352,6 +406,9 @@ pt_BR:
   page_icon: 'ph:bold/smiley'
   intro: 'Uma face para quem não tem foto, desenhada por um motor a partir de uma semente — um id que nunca muda, nunca o nome — e servida como uma imagem que qualquer página, componente vue ou e-mail pode mostrar. A mesma semente sempre dá a mesma face; o motor diz como ela se parece.'
   section:
+    presence:
+      title: "Se estão presentes"
+      description: "Um rosto só (avatar): uma foto, um rosto desenhado, um emoji, senão as iniciais; um ponto no canto — online, ausente, ocupado, offline —, dito em palavras a quem lê a página em voz alta."
     engines:
       title: Motores
       description: 'O sistema de design desenha iniciais em uma cor da semente. Outros motores se conectam ao lado: os wexies de 2020 vêm de symfony-design-system-effects.'
@@ -371,6 +428,9 @@ tr:
   page_icon: 'ph:bold/smiley'
   intro: "Hiçbir resmi olmayanlar için bir yüz, değişmeyen bir kimlikten — bir seed'den — bir motor tarafından çizilir ve herhangi bir sayfa, vue bileşeni veya e-posta tarafından gösterilebilecek bir görüntü olarak sunulur. Aynı seed her zaman aynı yüzü verir; motor ise nasıl göründüğünü söyler."
   section:
+    presence:
+      title: "Orada olup olmadıkları"
+      description: "Tek bir yüz (avatar): bir fotoğraf, çizilmiş bir yüz, bir emoji, yoksa baş harfler; köşesinde bir nokta — çevrimiçi, uzakta, meşgul, çevrimdışı —, sayfayı sesli okuyana sözle söylenir."
     engines:
       title: Motorlar
       description: "Tasarım sistemi, seed'in rengine göre baş harfler çizer. Diğer motorlar bunun yanına eklenir: 2020'nin wexileri symfony-design-system-effects'den gelir."
@@ -390,6 +450,9 @@ vi:
   page_icon: 'ph:bold/smiley'
   intro: 'Một khuôn mặt cho những ai không có hình ảnh, được vẽ bởi một công cụ từ một hạt giống — một id không bao giờ thay đổi, không phải là tên — và được phục vụ như một hình ảnh mà bất kỳ trang nào, thành phần vue nào hoặc email nào cũng có thể hiển thị. Cùng một hạt giống luôn tạo ra cùng một khuôn mặt; công cụ sẽ cho biết nó trông như thế nào.'
   section:
+    presence:
+      title: "Họ có đang ở đó không"
+      description: "Một khuôn mặt (avatar): ảnh, khuôn mặt vẽ, emoji, nếu không thì chữ viết tắt; một chấm ở góc — trực tuyến, vắng mặt, bận, ngoại tuyến —, được nói bằng lời cho người nghe đọc trang."
     engines:
       title: 'Công cụ'
       description: 'Hệ thống thiết kế vẽ chữ cái đầu trên màu sắc của hạt giống. Các công cụ khác được kết nối bên cạnh nó: các wexies của năm 2020 đến từ symfony-design-system-effects.'
@@ -409,6 +472,9 @@ id:
   page_icon: 'ph:bold/smiley'
   intro: 'Sebuah wajah untuk siapa pun yang tidak memiliki gambar, digambar oleh mesin dari sebuah benih — sebuah id yang tidak pernah berubah, bukan nama — dan disajikan sebagai gambar yang bisa ditampilkan di halaman mana pun, komponen vue, atau email. Benih yang sama selalu menghasilkan wajah yang sama; mesin menentukan bagaimana penampilannya.'
   section:
+    presence:
+      title: "Apakah mereka ada"
+      description: "Satu wajah (avatar): foto, wajah gambaran, emoji, atau inisial; titik di sudutnya — daring, pergi, sibuk, luring —, diucapkan dengan kata bagi yang membacakan halaman."
     engines:
       title: Mesin
       description: 'Sistem desain menggambar inisial pada warna benih. Mesin lain terhubung di sampingnya: wexies tahun 2020 berasal dari efek-sistem-desain-symfony.'
@@ -428,6 +494,9 @@ nl:
   page_icon: 'ph:bold/smiley'
   intro: 'Een gezicht voor wie geen foto heeft, getekend door een engine vanuit een zaadje — een id dat nooit verandert, nooit de naam — en geserveerd als een afbeelding die elke pagina, vue-component of mail kan tonen. Hetzelfde zaadje geeft altijd hetzelfde gezicht; de engine bepaalt hoe het eruitziet.'
   section:
+    presence:
+      title: "Of ze er zijn"
+      description: "Eén gezicht (avatar): een foto, een getekend gezicht, een emoji, anders de initialen; een stip op de hoek — online, afwezig, bezet, offline —, in woorden gezegd voor wie de pagina laat voorlezen."
     engines:
       title: Engines
       description: 'Het ontwerpsysteem tekent initialen op een kleur van het zaadje. Andere engines sluiten ernaast aan: de wexies van 2020 komen van symfony-design-system-effects.'

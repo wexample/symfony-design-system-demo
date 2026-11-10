@@ -37,6 +37,24 @@
     </div>
 {% endmacro %}
 
+{#- A line of a conversation between people: a face with its presence, a
+    marker telling an agent apart, the line going on from the one before. -#}
+{% macro person_line(face, author, date, content, marker = null, continued = false, own = false) %}
+    <div class="thread--item{{ continued ? ' thread--item--continued' }}{{ own ? ' thread--item--own' }}">
+        <div class="thread-message{{ own ? ' thread-message--own' }}">
+            {{ face|raw }}
+            <div class="thread-message--body">
+                <div class="thread-message--meta">
+                    <span class="thread-message--author">{{ author }}</span>
+                    {%- if marker %} {{ marker|raw }}{% endif %}
+                    {{ date_display(date, 'auto', { class: 'thread-message--date' }) }}
+                </div>
+                <div class="thread-message--content">{{ content }}</div>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
+
 {% macro message(author, date, content) %}
     <div class="thread-message">
         <div class="avatar">
@@ -95,6 +113,25 @@
             <div class="block block--padded">
                 <div class="lead">
                     {{ '@page::description.body' | trans }}
+                </div>
+            </div>
+        </div>
+
+        <h2>{{ '@page::people.title' | trans }}</h2>
+        <div class="lead">{{ '@page::people.description' | trans }}</div>
+        {%- set thread_words = 'WexampleSymfonyDesignSystemBundle.components.collection.thread.abstract-entity-thread.abstract-entity-thread::divider.' -%}
+        {%- set face = '@WexampleSymfonyDesignSystemBundle/components/avatar' -%}
+        <div class="block chat-demo--people">
+            <div class="thread thread--flat">
+                <div class="thread--lines">
+                    <div class="thread--divider thread--divider--day" role="separator"><span class="thread--divider-label">{{ (thread_words ~ 'yesterday') | trans }}</span></div>
+                    {{ chat_macro.person_line(component(render_pass, face, { label: 'Maya Chen', presence: 'online', class: 'thread-message--face' }), 'Maya Chen', '-1 day', '@page::messages.user_1' | trans) }}
+                    {{ chat_macro.person_line(component(render_pass, face, { label: 'Maya Chen', presence: 'online', class: 'thread-message--face' }), 'Maya Chen', '-1 day', '@page::messages.user_2' | trans, null, true) }}
+                    <div class="thread--divider thread--divider--day" role="separator"><span class="thread--divider-label">{{ (thread_words ~ 'today') | trans }}</span></div>
+                    {{ chat_macro.person_line(component(render_pass, face, { label: 'Tom Ruiz', presence: 'away', class: 'thread-message--face' }), 'Tom Ruiz', '-25 minutes', '@page::messages.assistant_1' | trans) }}
+                    <div class="thread--divider thread--divider--unread" role="separator"><span class="thread--divider-label">{{ (thread_words ~ 'unread') | trans }}</span></div>
+                    {{ chat_macro.person_line(component(render_pass, face, { label: 'Assistant', emoji: '🤖', class: 'thread-message--face' }), 'Assistant', '-6 minutes', '@page::messages.assistant_2' | trans, marker('cat-plum', 'agent', { compact: true })) }}
+                    {{ chat_macro.person_line(component(render_pass, face, { label: 'Assistant', emoji: '🤖', class: 'thread-message--face' }), 'Assistant', '-5 minutes', '@page::messages.assistant_3' | trans, marker('cat-plum', 'agent', { compact: true }), true) }}
                 </div>
             </div>
         </div>

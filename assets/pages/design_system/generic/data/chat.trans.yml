@@ -7,6 +7,10 @@ en:
   chat:
     title: Chat example
 
+  people:
+    title: "Between people"
+    description: "Several people and an agent in one conversation: each line under its author's face and presence, the agent told apart by a marker; a line soon after its author's last goes on from it, face and name not drawn again; a divider where a day begins, and above the first line not read yet."
+
   vue:
     title: Vue
     description: >
@@ -56,6 +60,10 @@ ar:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'مثال دردشة'
+  people:
+    title: "بين الأشخاص"
+    description: "عدة أشخاص ووكيل في محادثة واحدة: كل سطر تحت وجه كاتبه وحضوره، والوكيل مميز بعلامة؛ السطر المكتوب بعد قليل من سطر الكاتب نفسه يكمله دون إعادة رسم الوجه والاسم؛ فاصل حيث يبدأ يوم، وفوق أول سطر غير مقروء."
+
   vue:
     title: فيو
     description: |
@@ -90,6 +98,10 @@ bn:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'চ্যাট উদাহরণ'
+  people:
+    title: "মানুষের মধ্যে"
+    description: "একটি কথোপকথনে কয়েকজন মানুষ ও একটি এজেন্ট: প্রতিটি লাইন তার লেখকের মুখ ও উপস্থিতির নিচে, এজেন্টকে একটি মার্কারে আলাদা করা; একই লেখকের আগের লাইনের পরপরই লেখা লাইন সেটির ধারাবাহিকতা, মুখ ও নাম আবার আঁকা হয় না; নতুন দিনের শুরুতে এবং প্রথম না-পড়া লাইনের উপরে একটি বিভাজক।"
+
   vue:
     title: ভিউ
     description: |
@@ -124,6 +136,10 @@ de:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: Chat-Beispiel
+  people:
+    title: "Zwischen Menschen"
+    description: "Mehrere Menschen und ein Agent in einem Gespräch: jede Zeile unter Gesicht und Anwesenheit ihres Verfassers, der Agent durch einen Marker unterschieden; eine Zeile kurz nach der letzten desselben Verfassers setzt sie fort, Gesicht und Name nicht erneut gezeichnet; ein Trenner, wo ein Tag beginnt, und über der ersten ungelesenen Zeile."
+
   vue:
     title: Vue
     description: |
@@ -158,6 +174,10 @@ es:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Ejemplo de chat'
+  people:
+    title: "Entre personas"
+    description: "Varias personas y un agente en una misma conversación: cada línea bajo la cara y la presencia de su autor, el agente distinguido por un marcador; una línea escrita poco después de la anterior del mismo autor la continúa, sin volver a dibujar cara ni nombre; un separador donde empieza un día y sobre la primera línea sin leer."
+
   vue:
     title: Vue
     description: |
@@ -192,6 +212,10 @@ fa:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'نمونه چت'
+  people:
+    title: "میان افراد"
+    description: "چند نفر و یک عامل در یک گفتگو: هر سطر زیر چهره و حضور نویسنده‌اش، عامل با یک نشانگر متمایز؛ سطری که کمی پس از سطر قبلی همان نویسنده نوشته شود ادامهٔ آن است و چهره و نام دوباره کشیده نمی‌شود؛ جداکننده‌ای جایی که روزی آغاز می‌شود و بالای نخستین سطر خوانده‌نشده."
+
   vue:
     title: ویو
     description: |
@@ -226,6 +250,10 @@ fi:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: Chat-esimerkki
+  people:
+    title: "Ihmisten kesken"
+    description: "Useita ihmisiä ja agentti samassa keskustelussa: jokainen rivi kirjoittajansa kasvojen ja läsnäolon alla, agentti erotettuna merkillä; saman kirjoittajan edellistä riviä pian seuraava rivi jatkaa sitä, kasvoja ja nimeä ei piirretä uudelleen; erotin päivän alkaessa ja ensimmäisen lukemattoman rivin yllä."
+
   vue:
     title: Vue
     description: |
@@ -260,6 +288,10 @@ fr:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Exemple de chat'
+  people:
+    title: "Entre personnes"
+    description: "Plusieurs personnes et un agent dans une même conversation : chaque ligne sous le visage et la présence de son auteur, l'agent distingué par un marqueur ; une ligne écrite peu après la précédente du même auteur la prolonge, sans redessiner visage ni nom ; un séparateur où commence un jour, et au-dessus de la première ligne non lue."
+
   vue:
     title: Vue
     description: |
@@ -294,6 +326,10 @@ he:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'דוגמת שיחה'
+  people:
+    title: "בין אנשים"
+    description: "כמה אנשים וסוכן בשיחה אחת: כל שורה מתחת לפנים ולנוכחות של כותבה, הסוכן מובחן בסמן; שורה שנכתבה זמן קצר אחרי הקודמת של אותו כותב ממשיכה אותה, בלי לצייר שוב פנים ושם; מפריד במקום שבו מתחיל יום, ומעל השורה הראשונה שלא נקראה."
+
   vue:
     title: Vue
     description: |
@@ -328,6 +364,10 @@ hi:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'चैट उदाहरण'
+  people:
+    title: "लोगों के बीच"
+    description: "एक बातचीत में कई लोग और एक एजेंट: हर पंक्ति अपने लेखक के चेहरे और उपस्थिति के नीचे, एजेंट एक मार्कर से अलग; उसी लेखक की पिछली पंक्ति के तुरंत बाद लिखी पंक्ति उसे आगे बढ़ाती है, चेहरा और नाम दोबारा नहीं बनते; जहाँ नया दिन शुरू होता है वहाँ, और पहली न पढ़ी पंक्ति के ऊपर एक विभाजक।"
+
   vue:
     title: व्यू
     description: |
@@ -362,6 +402,10 @@ id:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Contoh Obrolan'
+  people:
+    title: "Antarorang"
+    description: "Beberapa orang dan satu agen dalam satu percakapan: setiap baris di bawah wajah dan kehadiran penulisnya, agen dibedakan dengan penanda; baris yang ditulis tak lama setelah baris sebelumnya dari penulis yang sama melanjutkannya, wajah dan nama tidak digambar lagi; pemisah di awal hari dan di atas baris pertama yang belum dibaca."
+
   vue:
     title: Vue
     description: |
@@ -396,6 +440,10 @@ it:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Esempio di chat'
+  people:
+    title: "Tra persone"
+    description: "Più persone e un agente nella stessa conversazione: ogni riga sotto il volto e la presenza del suo autore, l'agente distinto da un marcatore; una riga scritta poco dopo la precedente dello stesso autore la prosegue, senza ridisegnare volto e nome; un separatore dove inizia un giorno e sopra la prima riga non letta."
+
   vue:
     title: Vue
     description: |
@@ -430,6 +478,10 @@ ja:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: チャットの例
+  people:
+    title: "人と人の会話"
+    description: "一つの会話に複数の人とエージェント:各行は書き手の顔と在席状態の下に、エージェントはマーカーで区別。同じ書き手の直前の行のすぐ後に書かれた行はその続きとなり、顔と名前は再表示しません。日が変わる所と最初の未読行の上に区切り線。"
+
   vue:
     title: Vue
     description: |
@@ -464,6 +516,10 @@ ko:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: '채팅 예시'
+  people:
+    title: "사람들 사이"
+    description: "한 대화 속 여러 사람과 에이전트: 각 줄은 작성자의 얼굴과 상태 아래에, 에이전트는 마커로 구분; 같은 작성자의 이전 줄 직후에 쓴 줄은 그 줄을 이어가며 얼굴과 이름을 다시 그리지 않음; 하루가 시작되는 곳과 처음 읽지 않은 줄 위에 구분선."
+
   vue:
     title: Vue
     description: |
@@ -498,6 +554,10 @@ nl:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Chat voorbeeld'
+  people:
+    title: "Tussen mensen"
+    description: "Meerdere mensen en een agent in één gesprek: elke regel onder het gezicht en de aanwezigheid van de schrijver, de agent onderscheiden door een marker; een regel kort na de vorige van dezelfde schrijver zet die voort, gezicht en naam niet opnieuw getekend; een scheiding waar een dag begint en boven de eerste ongelezen regel."
+
   vue:
     title: Vue
     description: |
@@ -532,6 +592,10 @@ pl:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Przykład czatu'
+  people:
+    title: "Między ludźmi"
+    description: "Kilka osób i agent w jednej rozmowie: każdy wiersz pod twarzą i obecnością autora, agent wyróżniony znacznikiem; wiersz napisany wkrótce po poprzednim tego samego autora go kontynuuje, bez ponownego rysowania twarzy i imienia; separator tam, gdzie zaczyna się dzień, i nad pierwszym nieprzeczytanym wierszem."
+
   vue:
     title: Widok
     description: |
@@ -566,6 +630,10 @@ pt_BR:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Exemplo de chat'
+  people:
+    title: "Entre pessoas"
+    description: "Várias pessoas e um agente na mesma conversa: cada linha sob o rosto e a presença do autor, o agente distinguido por um marcador; uma linha escrita logo após a anterior do mesmo autor a continua, sem redesenhar rosto e nome; um separador onde começa um dia e acima da primeira linha não lida."
+
   vue:
     title: Vue
     description: |
@@ -600,6 +668,10 @@ ru:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Пример чата'
+  people:
+    title: "Между людьми"
+    description: "Несколько людей и агент в одном разговоре: каждая строка под лицом и статусом автора, агент выделен маркером; строка, написанная вскоре после предыдущей того же автора, продолжает её — лицо и имя не повторяются; разделитель там, где начинается день, и над первой непрочитанной строкой."
+
   vue:
     title: Vue
     description: |
@@ -634,6 +706,10 @@ th:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: ตัวอย่างแชท
+  people:
+    title: "ระหว่างผู้คน"
+    description: "หลายคนและเอเจนต์ในบทสนทนาเดียว: แต่ละบรรทัดอยู่ใต้ใบหน้าและสถานะของผู้เขียน เอเจนต์แยกด้วยเครื่องหมาย บรรทัดที่เขียนไม่นานหลังบรรทัดก่อนของผู้เขียนคนเดิมจะต่อจากบรรทัดนั้นโดยไม่วาดใบหน้าและชื่อซ้ำ มีเส้นคั่นเมื่อขึ้นวันใหม่และเหนือบรรทัดแรกที่ยังไม่ได้อ่าน"
+
   vue:
     title: วิว
     description: |
@@ -667,6 +743,10 @@ tr:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Sohbet örneği'
+  people:
+    title: "Kişiler arasında"
+    description: "Tek bir konuşmada birkaç kişi ve bir ajan: her satır yazarının yüzü ve durumu altında, ajan bir işaretle ayrılmış; aynı yazarın önceki satırından kısa süre sonra yazılan satır onu sürdürür, yüz ve ad yeniden çizilmez; bir günün başladığı yerde ve okunmamış ilk satırın üstünde bir ayırıcı."
+
   vue:
     title: Vue
     description: |
@@ -695,6 +775,10 @@ ur:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'چیٹ کی مثال'
+  people:
+    title: "لوگوں کے درمیان"
+    description: "ایک گفتگو میں کئی لوگ اور ایک ایجنٹ: ہر سطر اپنے لکھنے والے کے چہرے اور موجودگی کے نیچے، ایجنٹ ایک نشان سے الگ؛ اسی لکھنے والے کی پچھلی سطر کے فوراً بعد لکھی گئی سطر اسے جاری رکھتی ہے، چہرہ اور نام دوبارہ نہیں بنتے؛ جہاں نیا دن شروع ہو وہاں اور پہلی نہ پڑھی سطر کے اوپر ایک فاصل۔"
+
   vue:
     title: ویو
     description: |
@@ -729,6 +813,10 @@ vi:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 'Ví dụ trò chuyện'
+  people:
+    title: "Giữa mọi người"
+    description: "Nhiều người và một tác tử trong cùng một cuộc trò chuyện: mỗi dòng dưới khuôn mặt và trạng thái của người viết, tác tử được phân biệt bằng một nhãn; một dòng viết ngay sau dòng trước của cùng người viết sẽ nối tiếp nó, không vẽ lại mặt và tên; một vạch ngăn nơi bắt đầu một ngày và phía trên dòng chưa đọc đầu tiên."
+
   vue:
     title: Vue
     description: |
@@ -763,6 +851,10 @@ zh:
   page_icon: 'ph:bold/chats-circle'
   chat:
     title: 聊天示例
+  people:
+    title: "人与人之间"
+    description: "一段对话中的多人和一个智能体:每行位于作者的头像和在线状态之下,智能体以标记区分;同一作者在上一行后不久写的行接续上一行,不再重复头像和名字;新的一天开始处以及第一条未读行上方有分隔线。"
+
   vue:
     title: Vue
     description: |
