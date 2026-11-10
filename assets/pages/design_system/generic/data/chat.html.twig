@@ -136,6 +136,29 @@
             </div>
         </div>
 
+        <h2>{{ '@page::lists.title' | trans }}</h2>
+        <div class="lead">{{ '@page::lists.description' | trans }}</div>
+        <div class="grid grid--2">
+            <div class="block block--padded">
+                {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/conversation-list', { items: [
+                    { title: 'Maya Chen', href: '#', preview: '@page::messages.user_2' | trans, date: '-6 minutes', unread: 2, avatar: { presence: 'online' } },
+                    { title: 'Launch team', href: '#', preview: '@page::messages.assistant_3' | trans, date: '-2 hours', active: true, people: [{ label: 'Maya Chen' }, { label: 'Tom Ruiz' }, { label: 'Assistant' }] },
+                    { title: 'Tom Ruiz', href: '#', preview: '@page::messages.assistant_1' | trans, date: '-3 days', avatar: { presence: 'away' } },
+                ] }) }}
+            </div>
+            <div class="block block--padded">
+                {%- set remove -%}<button type="button" class="action-icon" aria-label="×">{{ icon('ph:bold/x') }}</button>{%- endset -%}
+                {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/person-list', {
+                    items: [
+                        { label: 'Maya Chen', presence: 'online', role: 'owner', role_tone: 'info' },
+                        { label: 'Tom Ruiz', presence: 'away', actions: remove },
+                        { label: 'Assistant', emoji: '🤖', presence: 'online', role: 'agent', role_tone: 'cat-plum', actions: remove },
+                    ],
+                    add: '<button type="button" class="button button--flat"><span class="button--icon">' ~ icon('ph:bold/user-plus') ~ '</span>' ~ ('@page::lists.add' | trans) ~ '</button>',
+                }) }}
+            </div>
+        </div>
+
         <h2>{{ '@page::vue.title' | trans }}</h2>
         <div class="lead">{{ '@page::vue.description' | trans }}</div>
         {#- No padding here: the chat insets its own parts, and the two would stack. -#}

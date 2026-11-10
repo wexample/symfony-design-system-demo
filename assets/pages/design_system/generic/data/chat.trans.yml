@@ -11,6 +11,11 @@ en:
     title: "Between people"
     description: "Several people and an agent in one conversation: each line under its author's face and presence, the agent told apart by a marker; a line soon after its author's last goes on from it, face and name not drawn again; a divider where a day begins, and above the first line not read yet."
 
+  lists:
+    title: "Who and where"
+    description: "The conversations to open (conversation-list): who each is with, when it last spoke, the last line, how many wait to be read, the open one selected. The people of one (person-list): face and presence, role, what is done to them."
+    add: "Add someone"
+
   vue:
     title: Vue
     description: >
@@ -64,6 +69,11 @@ ar:
     title: "بين الأشخاص"
     description: "عدة أشخاص ووكيل في محادثة واحدة: كل سطر تحت وجه كاتبه وحضوره، والوكيل مميز بعلامة؛ السطر المكتوب بعد قليل من سطر الكاتب نفسه يكمله دون إعادة رسم الوجه والاسم؛ فاصل حيث يبدأ يوم، وفوق أول سطر غير مقروء."
 
+  lists:
+    title: "من وأين"
+    description: "المحادثات المتاحة (conversation-list): مع من، متى كان آخر حديث، آخر سطر، كم ينتظر القراءة، والمفتوحة محددة. أشخاص إحداها (person-list): الوجه والحضور، الدور، وما يمكن فعله لهم."
+    add: "إضافة شخص"
+
   vue:
     title: فيو
     description: |
@@ -101,6 +111,11 @@ bn:
   people:
     title: "মানুষের মধ্যে"
     description: "একটি কথোপকথনে কয়েকজন মানুষ ও একটি এজেন্ট: প্রতিটি লাইন তার লেখকের মুখ ও উপস্থিতির নিচে, এজেন্টকে একটি মার্কারে আলাদা করা; একই লেখকের আগের লাইনের পরপরই লেখা লাইন সেটির ধারাবাহিকতা, মুখ ও নাম আবার আঁকা হয় না; নতুন দিনের শুরুতে এবং প্রথম না-পড়া লাইনের উপরে একটি বিভাজক।"
+
+  lists:
+    title: "কে এবং কোথায়"
+    description: "খোলার মতো কথোপকথন (conversation-list): কার সাথে, শেষ কবে কথা হয়েছে, শেষ লাইন, কতগুলো পড়ার অপেক্ষায়, খোলাটি নির্বাচিত। একটির মানুষজন (person-list): মুখ ও উপস্থিতি, ভূমিকা, তাদের নিয়ে কী করা যায়।"
+    add: "কাউকে যোগ করুন"
 
   vue:
     title: ভিউ
@@ -140,6 +155,11 @@ de:
     title: "Zwischen Menschen"
     description: "Mehrere Menschen und ein Agent in einem Gespräch: jede Zeile unter Gesicht und Anwesenheit ihres Verfassers, der Agent durch einen Marker unterschieden; eine Zeile kurz nach der letzten desselben Verfassers setzt sie fort, Gesicht und Name nicht erneut gezeichnet; ein Trenner, wo ein Tag beginnt, und über der ersten ungelesenen Zeile."
 
+  lists:
+    title: "Wer und wo"
+    description: "Die Gespräche zum Öffnen (conversation-list): mit wem, wann zuletzt gesprochen, die letzte Zeile, wie viele ungelesen sind, das offene ausgewählt. Die Menschen eines davon (person-list): Gesicht und Anwesenheit, Rolle, was man mit ihnen tun kann."
+    add: "Jemanden hinzufügen"
+
   vue:
     title: Vue
     description: |
@@ -177,6 +197,11 @@ es:
   people:
     title: "Entre personas"
     description: "Varias personas y un agente en una misma conversación: cada línea bajo la cara y la presencia de su autor, el agente distinguido por un marcador; una línea escrita poco después de la anterior del mismo autor la continúa, sin volver a dibujar cara ni nombre; un separador donde empieza un día y sobre la primera línea sin leer."
+
+  lists:
+    title: "Quién y dónde"
+    description: "Las conversaciones por abrir (conversation-list): con quién, cuándo se habló por última vez, la última línea, cuántas esperan ser leídas, la abierta seleccionada. Las personas de una de ellas (person-list): cara y presencia, rol, qué se les puede hacer."
+    add: "Añadir a alguien"
 
   vue:
     title: Vue
@@ -216,6 +241,11 @@ fa:
     title: "میان افراد"
     description: "چند نفر و یک عامل در یک گفتگو: هر سطر زیر چهره و حضور نویسنده‌اش، عامل با یک نشانگر متمایز؛ سطری که کمی پس از سطر قبلی همان نویسنده نوشته شود ادامهٔ آن است و چهره و نام دوباره کشیده نمی‌شود؛ جداکننده‌ای جایی که روزی آغاز می‌شود و بالای نخستین سطر خوانده‌نشده."
 
+  lists:
+    title: "چه کسی و کجا"
+    description: "گفتگوهایی برای باز کردن (conversation-list): با چه کسی، آخرین بار کی، آخرین سطر، چند تا خوانده‌نشده، گفتگوی باز انتخاب‌شده. افراد یکی از آن‌ها (person-list): چهره و حضور، نقش، و آنچه می‌توان با آن‌ها کرد."
+    add: "افزودن کسی"
+
   vue:
     title: ویو
     description: |
@@ -253,6 +283,11 @@ fi:
   people:
     title: "Ihmisten kesken"
     description: "Useita ihmisiä ja agentti samassa keskustelussa: jokainen rivi kirjoittajansa kasvojen ja läsnäolon alla, agentti erotettuna merkillä; saman kirjoittajan edellistä riviä pian seuraava rivi jatkaa sitä, kasvoja ja nimeä ei piirretä uudelleen; erotin päivän alkaessa ja ensimmäisen lukemattoman rivin yllä."
+
+  lists:
+    title: "Kuka ja missä"
+    description: "Avattavat keskustelut (conversation-list): kenen kanssa, milloin viimeksi, viimeinen rivi, montako lukematta, avoin valittuna. Yhden niistä ihmiset (person-list): kasvot ja läsnäolo, rooli, mitä heille voi tehdä."
+    add: "Lisää joku"
 
   vue:
     title: Vue
@@ -292,6 +327,11 @@ fr:
     title: "Entre personnes"
     description: "Plusieurs personnes et un agent dans une même conversation : chaque ligne sous le visage et la présence de son auteur, l'agent distingué par un marqueur ; une ligne écrite peu après la précédente du même auteur la prolonge, sans redessiner visage ni nom ; un séparateur où commence un jour, et au-dessus de la première ligne non lue."
 
+  lists:
+    title: "Qui et où"
+    description: "Les conversations à ouvrir (conversation-list) : avec qui, quand on y a parlé, la dernière ligne, combien attendent d'être lues, celle ouverte sélectionnée. Les personnes de l'une d'elles (person-list) : visage et présence, rôle, ce qu'on peut leur faire."
+    add: "Ajouter quelqu'un"
+
   vue:
     title: Vue
     description: |
@@ -329,6 +369,11 @@ he:
   people:
     title: "בין אנשים"
     description: "כמה אנשים וסוכן בשיחה אחת: כל שורה מתחת לפנים ולנוכחות של כותבה, הסוכן מובחן בסמן; שורה שנכתבה זמן קצר אחרי הקודמת של אותו כותב ממשיכה אותה, בלי לצייר שוב פנים ושם; מפריד במקום שבו מתחיל יום, ומעל השורה הראשונה שלא נקראה."
+
+  lists:
+    title: "מי ואיפה"
+    description: "השיחות לפתיחה (conversation-list): עם מי, מתי דיברו לאחרונה, השורה האחרונה, כמה ממתינות לקריאה, הפתוחה נבחרת. האנשים של אחת מהן (person-list): פנים ונוכחות, תפקיד, ומה אפשר לעשות להם."
+    add: "הוספת מישהו"
 
   vue:
     title: Vue
@@ -368,6 +413,11 @@ hi:
     title: "लोगों के बीच"
     description: "एक बातचीत में कई लोग और एक एजेंट: हर पंक्ति अपने लेखक के चेहरे और उपस्थिति के नीचे, एजेंट एक मार्कर से अलग; उसी लेखक की पिछली पंक्ति के तुरंत बाद लिखी पंक्ति उसे आगे बढ़ाती है, चेहरा और नाम दोबारा नहीं बनते; जहाँ नया दिन शुरू होता है वहाँ, और पहली न पढ़ी पंक्ति के ऊपर एक विभाजक।"
 
+  lists:
+    title: "कौन और कहाँ"
+    description: "खोलने योग्य बातचीत (conversation-list): किसके साथ, आख़िरी बार कब, आख़िरी पंक्ति, कितनी पढ़नी बाकी, खुली हुई चयनित। उनमें से एक के लोग (person-list): चेहरा और उपस्थिति, भूमिका, उनके साथ क्या किया जा सकता है।"
+    add: "किसी को जोड़ें"
+
   vue:
     title: व्यू
     description: |
@@ -405,6 +455,11 @@ id:
   people:
     title: "Antarorang"
     description: "Beberapa orang dan satu agen dalam satu percakapan: setiap baris di bawah wajah dan kehadiran penulisnya, agen dibedakan dengan penanda; baris yang ditulis tak lama setelah baris sebelumnya dari penulis yang sama melanjutkannya, wajah dan nama tidak digambar lagi; pemisah di awal hari dan di atas baris pertama yang belum dibaca."
+
+  lists:
+    title: "Siapa dan di mana"
+    description: "Percakapan untuk dibuka (conversation-list): dengan siapa, kapan terakhir bicara, baris terakhir, berapa yang belum dibaca, yang terbuka dipilih. Orang-orang di salah satunya (person-list): wajah dan kehadiran, peran, apa yang bisa dilakukan."
+    add: "Tambah seseorang"
 
   vue:
     title: Vue
@@ -444,6 +499,11 @@ it:
     title: "Tra persone"
     description: "Più persone e un agente nella stessa conversazione: ogni riga sotto il volto e la presenza del suo autore, l'agente distinto da un marcatore; una riga scritta poco dopo la precedente dello stesso autore la prosegue, senza ridisegnare volto e nome; un separatore dove inizia un giorno e sopra la prima riga non letta."
 
+  lists:
+    title: "Chi e dove"
+    description: "Le conversazioni da aprire (conversation-list): con chi, quando si è parlato l'ultima volta, l'ultima riga, quante attendono di essere lette, quella aperta selezionata. Le persone di una di esse (person-list): volto e presenza, ruolo, cosa si può fare loro."
+    add: "Aggiungi qualcuno"
+
   vue:
     title: Vue
     description: |
@@ -481,6 +541,11 @@ ja:
   people:
     title: "人と人の会話"
     description: "一つの会話に複数の人とエージェント:各行は書き手の顔と在席状態の下に、エージェントはマーカーで区別。同じ書き手の直前の行のすぐ後に書かれた行はその続きとなり、顔と名前は再表示しません。日が変わる所と最初の未読行の上に区切り線。"
+
+  lists:
+    title: "誰と、どこで"
+    description: "開く会話の一覧(conversation-list):相手、最後に話した時刻、最後の行、未読数、開いている会話は選択表示。そのうち一つの参加者(person-list):顔と在席状態、役割、できる操作。"
+    add: "メンバーを追加"
 
   vue:
     title: Vue
@@ -520,6 +585,11 @@ ko:
     title: "사람들 사이"
     description: "한 대화 속 여러 사람과 에이전트: 각 줄은 작성자의 얼굴과 상태 아래에, 에이전트는 마커로 구분; 같은 작성자의 이전 줄 직후에 쓴 줄은 그 줄을 이어가며 얼굴과 이름을 다시 그리지 않음; 하루가 시작되는 곳과 처음 읽지 않은 줄 위에 구분선."
 
+  lists:
+    title: "누구와 어디서"
+    description: "열 수 있는 대화(conversation-list): 누구와, 마지막 대화 시각, 마지막 줄, 읽지 않은 수, 열린 대화는 선택 표시. 그중 한 대화의 사람들(person-list): 얼굴과 상태, 역할, 할 수 있는 작업."
+    add: "사람 추가"
+
   vue:
     title: Vue
     description: |
@@ -557,6 +627,11 @@ nl:
   people:
     title: "Tussen mensen"
     description: "Meerdere mensen en een agent in één gesprek: elke regel onder het gezicht en de aanwezigheid van de schrijver, de agent onderscheiden door een marker; een regel kort na de vorige van dezelfde schrijver zet die voort, gezicht en naam niet opnieuw getekend; een scheiding waar een dag begint en boven de eerste ongelezen regel."
+
+  lists:
+    title: "Wie en waar"
+    description: "De gesprekken om te openen (conversation-list): met wie, wanneer laatst gesproken, de laatste regel, hoeveel ongelezen, het open gesprek geselecteerd. De mensen van een gesprek (person-list): gezicht en aanwezigheid, rol, wat je met hen kunt doen."
+    add: "Iemand toevoegen"
 
   vue:
     title: Vue
@@ -596,6 +671,11 @@ pl:
     title: "Między ludźmi"
     description: "Kilka osób i agent w jednej rozmowie: każdy wiersz pod twarzą i obecnością autora, agent wyróżniony znacznikiem; wiersz napisany wkrótce po poprzednim tego samego autora go kontynuuje, bez ponownego rysowania twarzy i imienia; separator tam, gdzie zaczyna się dzień, i nad pierwszym nieprzeczytanym wierszem."
 
+  lists:
+    title: "Kto i gdzie"
+    description: "Rozmowy do otwarcia (conversation-list): z kim, kiedy ostatnio, ostatni wiersz, ile czeka na przeczytanie, otwarta zaznaczona. Osoby w jednej z nich (person-list): twarz i obecność, rola, co można z nimi zrobić."
+    add: "Dodaj kogoś"
+
   vue:
     title: Widok
     description: |
@@ -633,6 +713,11 @@ pt_BR:
   people:
     title: "Entre pessoas"
     description: "Várias pessoas e um agente na mesma conversa: cada linha sob o rosto e a presença do autor, o agente distinguido por um marcador; uma linha escrita logo após a anterior do mesmo autor a continua, sem redesenhar rosto e nome; um separador onde começa um dia e acima da primeira linha não lida."
+
+  lists:
+    title: "Quem e onde"
+    description: "As conversas para abrir (conversation-list): com quem, quando se falou por último, a última linha, quantas esperam leitura, a aberta selecionada. As pessoas de uma delas (person-list): rosto e presença, papel, o que se pode fazer com elas."
+    add: "Adicionar alguém"
 
   vue:
     title: Vue
@@ -672,6 +757,11 @@ ru:
     title: "Между людьми"
     description: "Несколько людей и агент в одном разговоре: каждая строка под лицом и статусом автора, агент выделен маркером; строка, написанная вскоре после предыдущей того же автора, продолжает её — лицо и имя не повторяются; разделитель там, где начинается день, и над первой непрочитанной строкой."
 
+  lists:
+    title: "Кто и где"
+    description: "Разговоры, которые можно открыть (conversation-list): с кем, когда говорили в последний раз, последняя строка, сколько непрочитанных, открытый выделен. Люди одного из них (person-list): лицо и статус, роль, что с ними можно сделать."
+    add: "Добавить человека"
+
   vue:
     title: Vue
     description: |
@@ -710,6 +800,11 @@ th:
     title: "ระหว่างผู้คน"
     description: "หลายคนและเอเจนต์ในบทสนทนาเดียว: แต่ละบรรทัดอยู่ใต้ใบหน้าและสถานะของผู้เขียน เอเจนต์แยกด้วยเครื่องหมาย บรรทัดที่เขียนไม่นานหลังบรรทัดก่อนของผู้เขียนคนเดิมจะต่อจากบรรทัดนั้นโดยไม่วาดใบหน้าและชื่อซ้ำ มีเส้นคั่นเมื่อขึ้นวันใหม่และเหนือบรรทัดแรกที่ยังไม่ได้อ่าน"
 
+  lists:
+    title: "ใครและที่ไหน"
+    description: "บทสนทนาที่เปิดได้ (conversation-list): กับใคร คุยล่าสุดเมื่อไร บรรทัดล่าสุด ยังไม่ได้อ่านกี่ข้อความ อันที่เปิดถูกเลือก ผู้คนในบทสนทนาหนึ่ง (person-list): ใบหน้าและสถานะ บทบาท สิ่งที่ทำกับพวกเขาได้"
+    add: "เพิ่มคน"
+
   vue:
     title: วิว
     description: |
@@ -747,6 +842,11 @@ tr:
     title: "Kişiler arasında"
     description: "Tek bir konuşmada birkaç kişi ve bir ajan: her satır yazarının yüzü ve durumu altında, ajan bir işaretle ayrılmış; aynı yazarın önceki satırından kısa süre sonra yazılan satır onu sürdürür, yüz ve ad yeniden çizilmez; bir günün başladığı yerde ve okunmamış ilk satırın üstünde bir ayırıcı."
 
+  lists:
+    title: "Kim ve nerede"
+    description: "Açılacak konuşmalar (conversation-list): kiminle, en son ne zaman, son satır, kaç tane okunmamış, açık olan seçili. Birinin kişileri (person-list): yüz ve durum, rol, onlara yapılabilecekler."
+    add: "Birini ekle"
+
   vue:
     title: Vue
     description: |
@@ -778,6 +878,11 @@ ur:
   people:
     title: "لوگوں کے درمیان"
     description: "ایک گفتگو میں کئی لوگ اور ایک ایجنٹ: ہر سطر اپنے لکھنے والے کے چہرے اور موجودگی کے نیچے، ایجنٹ ایک نشان سے الگ؛ اسی لکھنے والے کی پچھلی سطر کے فوراً بعد لکھی گئی سطر اسے جاری رکھتی ہے، چہرہ اور نام دوبارہ نہیں بنتے؛ جہاں نیا دن شروع ہو وہاں اور پہلی نہ پڑھی سطر کے اوپر ایک فاصل۔"
+
+  lists:
+    title: "کون اور کہاں"
+    description: "کھولنے کے لیے گفتگوئیں (conversation-list): کس کے ساتھ، آخری بار کب، آخری سطر، کتنی پڑھنی باقی، کھلی ہوئی منتخب۔ ان میں سے ایک کے لوگ (person-list): چہرہ اور موجودگی، کردار، ان کے ساتھ کیا کیا جا سکتا ہے۔"
+    add: "کسی کو شامل کریں"
 
   vue:
     title: ویو
@@ -817,6 +922,11 @@ vi:
     title: "Giữa mọi người"
     description: "Nhiều người và một tác tử trong cùng một cuộc trò chuyện: mỗi dòng dưới khuôn mặt và trạng thái của người viết, tác tử được phân biệt bằng một nhãn; một dòng viết ngay sau dòng trước của cùng người viết sẽ nối tiếp nó, không vẽ lại mặt và tên; một vạch ngăn nơi bắt đầu một ngày và phía trên dòng chưa đọc đầu tiên."
 
+  lists:
+    title: "Ai và ở đâu"
+    description: "Các cuộc trò chuyện để mở (conversation-list): với ai, lần cuối nói khi nào, dòng cuối, bao nhiêu chưa đọc, cuộc đang mở được chọn. Những người trong một cuộc (person-list): khuôn mặt và trạng thái, vai trò, những gì có thể làm với họ."
+    add: "Thêm người"
+
   vue:
     title: Vue
     description: |
@@ -854,6 +964,11 @@ zh:
   people:
     title: "人与人之间"
     description: "一段对话中的多人和一个智能体:每行位于作者的头像和在线状态之下,智能体以标记区分;同一作者在上一行后不久写的行接续上一行,不再重复头像和名字;新的一天开始处以及第一条未读行上方有分隔线。"
+
+  lists:
+    title: "谁与何处"
+    description: "可打开的对话(conversation-list):与谁、最后交谈时间、最后一行、未读数量,已打开的对话被选中。其中一个对话的成员(person-list):头像与在线状态、角色、可执行的操作。"
+    add: "添加成员"
 
   vue:
     title: Vue
