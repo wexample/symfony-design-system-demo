@@ -13,7 +13,7 @@ en:
       description: "The same frame as a vue partial, for a document whose address is only known once the page runs."
     cover:
       title: "A cover"
-      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media), and its tools over its top end corner (block cover_float)."
+      description: "The band across the head of a page, made to hold a picture, a video or an animation, cropped to it; with nothing in it, the missing picture — a faint grid, a picture glyph —, and while one is being made (`pending`), the same alive: a glow drifting under a sweep of light, what is happening said in its middle. A title and a line over its foot when it has some. A page embeds its own animation in it (block cover_media), and its tools over its top end corner (block cover_float)."
       example_title: "Northern lights"
       example_subtitle: "A week above the Arctic circle"
       animated: "An animation the page draws"

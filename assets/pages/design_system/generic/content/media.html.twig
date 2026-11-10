@@ -10,8 +10,14 @@
     <h2>{{ '@page::section.cover.title' | trans }}</h2>
     <div class="lead">{{ '@page::section.cover.description' | trans }}</div>
     <div class="stack--vertical">
-        {#- Nothing in it yet: the glow of the placeholder. -#}
+        {#- Nothing in it yet: the missing picture. -#}
         {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/cover') }}
+        {#- One being made — generated —: alive over what it held. -#}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/cover', {
+            src: path('wexample_design_system_fixtures_picture_svg', { width: 1600, height: 600, hue: 30 }),
+            pending: true,
+            height: '14rem',
+        }) }}
         {#- A picture, its words over its foot. -#}
         {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/cover', {
             src: path('wexample_design_system_fixtures_picture_svg', { width: 1600, height: 600, hue: 210 }),
@@ -116,6 +122,10 @@
         <div class="block block--padded" style="flex: 1">
             {{ media(null, '', { class: 'media--4-3' }) }}
             <p>media(null) · placeholder</p>
+        </div>
+        <div class="block block--padded" style="flex: 1">
+            {{ media(null, '', { class: 'media--4-3', pending: true }) }}
+            <p>media(null, { pending }) · being made</p>
         </div>
     </div>
 
