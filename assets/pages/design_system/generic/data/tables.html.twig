@@ -2,7 +2,9 @@
 
 {%- block page_body -%}
         {% set actions_columns = [
-            { key: 'name', label: '@page::column.actions.name' | trans },
+            {#- The name leads where the eye leads (`link: 'open'`): the
+                row's action carrying that `rel`, opened the same way. -#}
+            { key: 'name', label: '@page::column.actions.name' | trans, link: 'open' },
             { key: 'date', label: '@page::column.actions.date' | trans, secondary: true },
             { key: 'operations', label: '@page::column.actions.operations' | trans, cell: 'actions', class: 'table--cell--fit' },
         ] %}
@@ -13,12 +15,14 @@
             {
                 icon: 'ph:bold/eye',
                 label: '@page::action.open' | trans,
+                rel: 'open',
                 href: path('wexample_design_system_generic_overlays_modal_test_simple'),
                 target: 'modal',
                 target_options: { closeOnEscape: true, closeOnOverlayClick: true }
             },
             {
                 icon: 'ph:bold/pencil-simple',
+                rel: 'edit',
                 href: path('wexample_design_system_generic_overlays_modal_test_medium'),
                 target: 'panel',
                 target_options: { closeOnEscape: true, closeOnOverlayClick: true }
