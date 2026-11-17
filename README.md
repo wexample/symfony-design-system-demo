@@ -1,6 +1,6 @@
 # symfony-design-system-demo
 
-Version: 12.0.6
+Version: 12.0.7
 
 Design system showcase pages for Symfony
 
