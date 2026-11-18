@@ -349,3 +349,19 @@ zh:
     parts:
       title: 一行通向何处
       description: 一行的每个部分都可以通向某处或执行动作——槽位名打开槽位，行本身打开事件。指针移上来之前，它就像普通文本。这里，上方的栏说明最后指向了什么。
+
+pt_BR:
+  ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
+  page_title: Console
+  page_icon: 'ph:bold/terminal-window'
+  intro: 'Um console é a terceira leitura de uma coleção: uma linha por evento, lida à medida que chegam — o que uma execução escreve sobre si mesma, o que um trabalho respondeu. Nada disso é para os olhos: monoespaçado, uma notação abaixo, as linhas tão justas quanto são lidas, uma cor para o tipo de evento e é tudo. Uma linha se mantém em uma linha, independentemente do que diz; o todo é lido nos detalhes que leva.'
+  section:
+    latest:
+      title: 'Os mais recentes primeiro'
+      description: 'A leitura padrão: a linha mais fresca no topo, conforme a API classifica sua página mais fresca primeiro, e mais dela sob a última linha mantida. Novas linhas chegam ao topo à medida que a execução avança — esta é lida a cada três segundos.'
+    oldest:
+      title: 'Os mais antigos primeiro'
+      description: 'A leitura do thread, para uma API classificada de outra forma: o console se abre em sua última página, permanece em seu rodapé à medida que as linhas chegam, e o caminho de volta para cima fica acima da linha mais antiga mantida.'
+    parts:
+      title: 'O que uma linha leva a'
+      description: 'Cada parte de uma linha pode levar a algum lugar ou agir — o nome de um slot abrindo o slot, a linha em si abrindo o evento. Lê-se como o texto que é até que o ponteiro esteja sobre ele. Aqui, a barra acima diz o que foi apontado por último.'

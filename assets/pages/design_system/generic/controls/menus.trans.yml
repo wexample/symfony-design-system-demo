@@ -85,23 +85,26 @@ en:
       docs: Documentation
 
 ar:
-  context:
-    menu: "إجراءات على الملف"
-    open: "فتح"
-    rename: "إعادة تسمية"
-    pinned: "مثبّت"
-    delete: "حذف"
-    hint: "انقر بالزر الأيمن على ملف."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: القوائم
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'إجراءات على الملف'
+    open: فتح
+    rename: 'إعادة تسمية'
+    pinned: مثبّت
+    delete: حذف
+    hint: 'انقر بالزر الأيمن على ملف.'
   section:
+    press:
+      title: 'تم الضغط عليه، تم الإشارة إليه، تم الضغط بواسطة وكيل'
+      description: 'يتم الرد على الضغط حيث وقع: تنتشر موجة من النقطة التي تم لمسها، على الأزرار ومدخلات القائمة — عادة موبايل، وأيضًا سطح المكتب. `data-ripple="off"` على العنصر يبقيه ثابتًا. وكيل يشير للقارئ إلى شيء ما يحددها (`is-assisted`); وكيل يضغط عليها يرسل الموجة من وسطها، في اللكنة، محددًا بينما تنتشر، لذا يرى القارئ من لمس.'
     split:
       title: 'أزرار مفصولة'
       description: "زر يقوم بفعل واحد ويقدم الخيارات الأخرى: جسده يقوم بالإجراء، والسهم الملتصق بنهايته — وفقط السهم — يفتح القائمة. `button_menu` يتم إعطاؤه `action` — `{ href }`، أو `{ type: 'submit' }` في نموذج؛ الـ vue يقوم بإصدار `action`."
     context:
-      title: "نقرة يمنى"
-      description: "قائمة تفتحها نقرة يمنى على ما تغطيه — أو مفتاح القائمة، أو Shift+F10 — حيث المؤشر: العناصر واللوحة نفسها كقائمة زر. قد تتوقف العناصر على ما نُقر: الملف المقفل لا يُحذف. مع Shift، قائمة المتصفح."
+      title: 'نقرة يمنى'
+      description: 'قائمة تفتحها نقرة يمنى على ما تغطيه — أو مفتاح القائمة، أو Shift+F10 — حيث المؤشر: العناصر واللوحة نفسها كقائمة زر. قد تتوقف العناصر على ما نُقر: الملف المقفل لا يُحذف. مع Shift، قائمة المتصفح.'
     vue:
       title: فيو
       description: 'صف الارتباط والفاصل كأجزاء فيو. على عكس الصفوف التي تقرأ مسارًا، تأخذ هذان الخياران أيقونتهما ووسمها كخيارات، لذا لا ينقص شيء من الخادم.'
@@ -117,6 +120,12 @@ ar:
       title: 'ما يمكن أن يكون عليه العنصر'
       description: 'أربعة أنواع تتشارك في صف واحد: كلمة وهدف هي رابط، كلمة وحالة هي تبديل، كلمة وأطفال هي فرع، وخط عار هو فاصل. لا يعلن أي شيء عن نوعه - يتبع مما يحمله العنصر. ينفق التبديل مكانه الرائد على علامته، لذا يبقى عمود منها كلماتها متراصة، وتظل اللوحة مفتوحة تحتها: تقرأ قائمة الفلاتر باليد، وليس واحدة في كل مرة.'
   menu:
+    press:
+      ripple: 'يجيب على الضغط'
+      still: 'يبقى ثابتًا'
+      assisted: 'تم الإشارة إليه بواسطة وكيل'
+      agent: 'تم الضغط بواسطة وكيل'
+      trigger: 'اضغط كما يفعل الوكيل'
     primary: 'زر القائمة'
     save: حفظ
     save_vue: 'حفظ، في vue'
@@ -157,23 +166,26 @@ ar:
       docs: التوثيق
 
 bn:
-  context:
-    menu: "ফাইলের কাজ"
-    open: "খুলুন"
-    rename: "নাম বদলান"
-    pinned: "পিন করা"
-    delete: "মুছুন"
-    hint: "একটি ফাইলে ডান ক্লিক করুন।"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: মেনু
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'ফাইলের কাজ'
+    open: খুলুন
+    rename: 'নাম বদলান'
+    pinned: 'পিন করা'
+    delete: মুছুন
+    hint: 'একটি ফাইলে ডান ক্লিক করুন।'
   section:
+    press:
+      title: 'চাপানো, নির্দেশিত, একজন এজেন্ট দ্বারা চাপানো'
+      description: 'যেখানে চাপানো হয়েছে সেখানে একটি প্রেসের উত্তর দেওয়া হয়: একটি তরঙ্গ স্পর্শ করা পয়েন্ট থেকে ছড়িয়ে পড়ে, বোতাম এবং মেনু এন্ট্রিগুলোর উপর — একটি মোবাইল অভ্যাস, এবং একটি ডেস্কটপও। `data-ripple="off"` উপাদানে এটিকে স্থির রাখে। একজন এজেন্ট পাঠককে কিছু নির্দেশ দিলে সেটি আউটলাইন করে (`is-assisted`); একজন এজেন্ট চাপ দিলে তার মাঝ থেকে তরঙ্গ ছড়িয়ে পড়ে, উচ্চারণে, এটি ছড়ানোর সময় আউটলাইন করা হয়, যাতে পাঠক দেখে কে স্পর্শ করেছে।'
     split:
       title: 'বিভক্ত বোতাম'
       description: "একটি বোতাম যা একটি কাজ করে এবং অন্যান্যগুলোর প্রস্তাব দেয়: এর শরীরটি কাজটি করে, শেষের দিকে থাকা ক্যারেটটি — এবং শুধুমাত্র ক্যারেটটি — মেনুটি খুলে। `button_menu` একটি `action` দেওয়া হয়েছে — `{ href }`, অথবা `{ type: 'submit' }` একটি ফর্মে; ভিউয়ের ক্ষেত্রে এটি `action` নির্গত করে।"
     context:
-      title: "ডান ক্লিক"
-      description: "যা এটি ঢেকে রাখে তাতে ডান ক্লিক — বা মেনু কী, বা Shift+F10 — করলে পয়েন্টারের জায়গায় খোলা মেনু: বোতামের মেনুর মতোই আইটেম ও প্যানেল। আইটেমগুলো ক্লিক করা জিনিসের ওপর নির্ভর করতে পারে: লক করা ফাইল মোছা যায় না। Shift ধরে রাখলে ব্রাউজারের মেনু।"
+      title: 'ডান ক্লিক'
+      description: 'যা এটি ঢেকে রাখে তাতে ডান ক্লিক — বা মেনু কী, বা Shift+F10 — করলে পয়েন্টারের জায়গায় খোলা মেনু: বোতামের মেনুর মতোই আইটেম ও প্যানেল। আইটেমগুলো ক্লিক করা জিনিসের ওপর নির্ভর করতে পারে: লক করা ফাইল মোছা যায় না। Shift ধরে রাখলে ব্রাউজারের মেনু।'
     vue:
       title: ভিউ
       description: 'লিঙ্ক রো এবং সেপারেটর ভিউ পার্সিয়াল হিসেবে। যেভাবে রো গুলো একটি রুট পড়ে, এই দুটি তাদের আইকন এবং লেবেল অপশন হিসেবে নেয়, তাই সার্ভারের কিছুই মিস হয় না।'
@@ -189,6 +201,12 @@ bn:
       title: 'একটি আইটেম কি হতে পারে'
       description: 'চার ধরনের একটি সারিতে ভাগ করা হয়: একটি শব্দ এবং একটি লক্ষ্য একটি লিঙ্ক, একটি শব্দ এবং একটি রাষ্ট্র একটি টগল, একটি শব্দ এবং সন্তান একটি শাখা, এবং একটি খালি লাইন একটি সেপারেটর। কিছুই তার ধরনের ঘোষণা করে না — এটি আইটেমের বহন করা থেকে অনুসরণ করে। একটি টগল তার মার্কের জন্য তার লিডিং স্লট ব্যয় করে, তাই তাদের একটি কলাম তাদের শব্দগুলোকে সমান্তরাল রাখে, এবং প্যানেলটি তার নিচে খোলা থাকে: একটি ফিল্টার মেনু হাতের বোতল দ্বারা পড়া হয়, একসাথে নয়।'
   menu:
+    press:
+      ripple: 'একটি প্রেসের উত্তর দেয়'
+      still: 'স্থির থাকে'
+      assisted: 'একজন এজেন্ট দ্বারা নির্দেশিত'
+      agent: 'একজন এজেন্ট দ্বারা চাপানো'
+      trigger: 'এটি একটি এজেন্টের মতো চাপুন'
     primary: 'মেনু বোতাম'
     save: 'সংরক্ষণ করুন'
     save_vue: 'সংরক্ষণ করুন, ভিউতে'
@@ -229,23 +247,26 @@ bn:
       docs: ডকুমেন্টেশন
 
 de:
-  context:
-    menu: "Aktionen für die Datei"
-    open: "Öffnen"
-    rename: "Umbenennen"
-    pinned: "Angeheftet"
-    delete: "Löschen"
-    hint: "Klicken Sie mit der rechten Maustaste auf eine Datei."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menüs
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Aktionen für die Datei'
+    open: Öffnen
+    rename: Umbenennen
+    pinned: Angeheftet
+    delete: Löschen
+    hint: 'Klicken Sie mit der rechten Maustaste auf eine Datei.'
   section:
+    press:
+      title: 'Gedrückt, darauf gezeigt, von einem Agenten gedrückt'
+      description: 'Ein Druck wird dort beantwortet, wo er gelandet ist: eine Welle breitet sich vom berührten Punkt aus, auf Tasten und Menüeinträge – eine mobile Gewohnheit, und auch eine Desktop-Gewohnheit. `data-ripple="off"` am Element hält es still. Ein Agent, der den Leser auf etwas hinweist, umreißt es (`is-assisted`); ein Agent, der es drückt, sendet die Welle von seiner Mitte aus, im Akzent, umreißt während sie sich ausbreitet, sodass der Leser sieht, wer berührt hat.'
     split:
-      title: 'Split-Buttons'
+      title: Split-Buttons
       description: "Ein Button, der eine Aktion ausführt und weitere Optionen bietet: Der Hauptteil führt die Aktion aus, das am Ende befestigte Caret — und nur das Caret — öffnet das Menü. `button_menu` erhält eine `action` — `{ href }` oder `{ type: 'submit' }` in einem Formular; der vue Button gibt `action` aus."
     context:
-      title: "Rechtsklick"
-      description: "Ein Menü, das ein Rechtsklick auf das Umschlossene öffnet — oder die Menütaste, oder Umschalt+F10 —, dort, wo der Zeiger ist: dieselben Einträge und dasselbe Panel wie das Menü eines Buttons. Die Einträge können vom Angeklickten abhängen: eine gesperrte Datei wird nicht gelöscht. Mit Umschalt das Menü des Browsers."
+      title: Rechtsklick
+      description: 'Ein Menü, das ein Rechtsklick auf das Umschlossene öffnet — oder die Menütaste, oder Umschalt+F10 —, dort, wo der Zeiger ist: dieselben Einträge und dasselbe Panel wie das Menü eines Buttons. Die Einträge können vom Angeklickten abhängen: eine gesperrte Datei wird nicht gelöscht. Mit Umschalt das Menü des Browsers.'
     vue:
       title: Vue
       description: 'Die Linkzeile und der Separator als Vue-Teile. Im Gegensatz zu den Zeilen, die eine Route lesen, nehmen diese beiden ihr Icon und Label als Optionen, sodass nichts vom Server fehlt.'
@@ -261,6 +282,12 @@ de:
       title: 'Was ein Element sein kann'
       description: 'Vier Arten teilen sich eine Zeile: Ein Wort und ein Ziel ist ein Link, ein Wort und ein Zustand ist ein Umschalter, ein Wort und Kinder ist ein Zweig, und eine einfache Linie ist ein Separator. Nichts erklärt seine Art – es folgt aus dem, was das Element trägt. Ein Umschalter verwendet seinen führenden Slot für sein Zeichen, sodass eine Spalte davon ihre Wörter ausgerichtet hält und das Panel darunter offen bleibt: Ein Menü von Filtern wird in der Menge gelesen, nicht eins nach dem anderen.'
   menu:
+    press:
+      ripple: 'Antwortet auf einen Druck'
+      still: 'Bleibt still'
+      assisted: 'Von einem Agenten gezeigt'
+      agent: 'Von einem Agenten gedrückt'
+      trigger: 'Drücke es, wie es ein Agent tun würde'
     primary: Menüschaltfläche
     save: Speichern
     save_vue: 'Speichern, in vue'
@@ -301,23 +328,26 @@ de:
       docs: Dokumentation
 
 es:
-  context:
-    menu: "Acciones sobre el archivo"
-    open: "Abrir"
-    rename: "Renombrar"
-    pinned: "Fijado"
-    delete: "Eliminar"
-    hint: "Haz clic derecho en un archivo."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menús
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Acciones sobre el archivo'
+    open: Abrir
+    rename: Renombrar
+    pinned: Fijado
+    delete: Eliminar
+    hint: 'Haz clic derecho en un archivo.'
   section:
+    press:
+      title: 'Presionado, apuntado, presionado por un agente'
+      description: 'Una presión se responde donde aterrizó: una onda se expande desde el punto tocado, en botones y entradas de menú — un hábito móvil, y también de escritorio. `data-ripple="off"` en el elemento lo mantiene quieto. Un agente que apunta al lector hacia algo lo resalta (`is-assisted`); un agente que lo presiona envía la onda desde su centro, en el acento, resaltado mientras se expande, para que el lector vea quién tocó.'
     split:
       title: 'Botones divididos'
       description: "Un botón que realiza una acción y ofrece otras opciones: su cuerpo ejecuta la acción, la flecha en su extremo — y solo la flecha — abre el menú. `button_menu` dado un `action` — `{ href }`, o `{ type: 'submit' }` en un formulario; el de vue emite `action`."
     context:
-      title: "Clic derecho"
-      description: "Un menú que abre un clic derecho sobre lo que cubre — o la tecla de menú, o Mayús+F10 —, donde está el puntero: los mismos elementos y panel que el menú de un botón. Sus elementos pueden depender de lo pulsado: un archivo bloqueado no se elimina. Con Mayús, el menú del navegador."
+      title: 'Clic derecho'
+      description: 'Un menú que abre un clic derecho sobre lo que cubre — o la tecla de menú, o Mayús+F10 —, donde está el puntero: los mismos elementos y panel que el menú de un botón. Sus elementos pueden depender de lo pulsado: un archivo bloqueado no se elimina. Con Mayús, el menú del navegador.'
     vue:
       title: Vue
       description: 'La fila de enlaces y el separador como parciales de vue. A diferencia de las filas que leen una ruta, estos dos toman su ícono y etiqueta como opciones, por lo que no falta nada del servidor.'
@@ -333,6 +363,12 @@ es:
       title: 'Lo que un elemento puede ser'
       description: 'Cuatro tipos comparten una fila: una palabra y un destino es un enlace, una palabra y un estado es un interruptor, una palabra y niños es una rama, y una línea simple es un separador. Nada declara su tipo: se deduce de lo que lleva el elemento. Un interruptor gasta su espacio principal en su marca, por lo que una columna de ellos mantiene sus palabras alineadas, y el panel permanece abierto debajo de él: un menú de filtros se lee por la cantidad, no uno a la vez.'
   menu:
+    press:
+      ripple: 'Responde a una presión'
+      still: 'Se mantiene quieto'
+      assisted: 'Apuntado por un agente'
+      agent: 'Presionado por un agente'
+      trigger: 'Púlsalo como lo haría un agente'
     primary: 'Botón de menú'
     save: Guardar
     save_vue: 'Guardar, en vue'
@@ -373,23 +409,26 @@ es:
       docs: Documentación
 
 fa:
-  context:
-    menu: "کنش‌های پرونده"
-    open: "باز کردن"
-    rename: "تغییر نام"
-    pinned: "سنجاق‌شده"
-    delete: "حذف"
-    hint: "روی یک پرونده کلیک راست کنید."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: منوها
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'کنش‌های پرونده'
+    open: 'باز کردن'
+    rename: 'تغییر نام'
+    pinned: سنجاق‌شده
+    delete: حذف
+    hint: 'روی یک پرونده کلیک راست کنید.'
   section:
+    press:
+      title: 'فشرده، نشانه‌گذاری شده، فشرده شده توسط یک عامل'
+      description: 'یک فشار جایی که فرود آمده پاسخ داده می‌شود: یک موج از نقطه‌ای که لمس شده پخش می‌شود، بر روی دکمه‌ها و ورودی‌های منو — یک عادت در موبایل و همچنین در دسکتاپ. `data-ripple="off"` بر روی عنصر آن را ثابت نگه می‌دارد. یک عامل که خواننده را به چیزی نشانه‌گذاری می‌کند آن را برجسته می‌کند (`is-assisted`); یک عامل که آن را فشار می‌دهد موج را از وسط آن ارسال می‌کند، با لهجه، در حالی که پخش می‌شود، بنابراین خواننده می‌بیند که چه کسی لمس کرده است.'
     split:
       title: 'دکمه های تقسیم'
       description: "دکمه ای که یک کار انجام می دهد و سایرین را ارائه می کند: بدنه آن عمل را انجام می دهد و علامت (caret) که به انتهای آن چسبیده است — و فقط علامت — منوی مربوطه را باز می کند. `button_menu` یک `action` دریافت می کند — `{ href }`، یا `{ type: 'submit' }` در یک فرم؛ نسخه vue آن `action` را ارسال می کند."
     context:
-      title: "کلیک راست"
-      description: "منویی که با کلیک راست روی آنچه پوشش می‌دهد — یا کلید منو، یا Shift+F10 — در جای اشاره‌گر باز می‌شود: همان آیتم‌ها و پنل منوی دکمه. آیتم‌ها می‌توانند به آنچه کلیک شده بستگی داشته باشند: پرونده قفل‌شده حذف نمی‌شود. با Shift، منوی مرورگر."
+      title: 'کلیک راست'
+      description: 'منویی که با کلیک راست روی آنچه پوشش می‌دهد — یا کلید منو، یا Shift+F10 — در جای اشاره‌گر باز می‌شود: همان آیتم‌ها و پنل منوی دکمه. آیتم‌ها می‌توانند به آنچه کلیک شده بستگی داشته باشند: پرونده قفل‌شده حذف نمی‌شود. با Shift، منوی مرورگر.'
     vue:
       title: ویو
       description: 'ردیف لینک و جداکننده به عنوان بخش‌های ویو. بر خلاف ردیف‌هایی که یک مسیر را می‌خوانند، این دو گزینه‌های آیکون و برچسب خود را به عنوان گزینه می‌گیرند، بنابراین هیچ چیزی از سرور کم نمی‌شود.'
@@ -405,6 +444,12 @@ fa:
       title: 'یک مورد چه نوعی می‌تواند باشد'
       description: 'چهار نوع یک ردیف را به اشتراک می‌گذارند: یک کلمه و یک هدف یک لینک است، یک کلمه و یک وضعیت یک تغییر حالت است، یک کلمه و فرزندان یک شاخه است، و یک خط خالی یک جداکننده است. هیچ‌کس نوع خود را اعلام نمی‌کند — این از آنچه که مورد حمل می‌کند تبعیت می‌کند. یک تغییر حالت جایگاه پیشرو خود را بر روی علامت خود صرف می‌کند، بنابراین یک ستون از آن‌ها کلماتش را هم‌راستا نگه می‌دارد و پنل زیر آن باز می‌ماند: یک منوی فیلترها به صورت دسته‌ای خوانده می‌شود، نه یکی یکی.'
   menu:
+    press:
+      ripple: 'پاسخ به یک فشار'
+      still: 'ثابت می‌ماند'
+      assisted: 'نشانه‌گذاری شده توسط یک عامل'
+      agent: 'فشرده شده توسط یک عامل'
+      trigger: 'آن را مانند یک عامل فشار دهید'
     primary: 'دکمه منو'
     save: ذخیره
     save_vue: 'ذخیره، در vue'
@@ -445,23 +490,26 @@ fa:
       docs: مستندات
 
 fi:
-  context:
-    menu: "Tiedoston toiminnot"
-    open: "Avaa"
-    rename: "Nimeä uudelleen"
-    pinned: "Kiinnitetty"
-    delete: "Poista"
-    hint: "Napsauta tiedostoa hiiren oikealla."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Valikot
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Tiedoston toiminnot'
+    open: Avaa
+    rename: 'Nimeä uudelleen'
+    pinned: Kiinnitetty
+    delete: Poista
+    hint: 'Napsauta tiedostoa hiiren oikealla.'
   section:
+    press:
+      title: 'Painettu, osoitettu, agentin painama'
+      description: 'Painausta käsitellään siellä, missä se tapahtui: aaltoliike leviää kosketetusta kohdasta painikkeisiin ja valikkokohteisiin — mobiili tapa, mutta myös työpöydällä. `data-ripple="off"` elementissä pitää sen paikallaan. Agentti, joka osoittaa lukijalle jotakin, korostaa sen (`is-assisted`); agentti, joka painaa sen, lähettää aallon sen keskeltä, korostettuna siinä hetkessä, kun se leviää, jotta lukija näkee, kuka kosketti.'
     split:
       title: Jakopainikkeet
       description: "Painike, joka tekee yhden asian ja tarjoaa muita: sen runko suorittaa toiminnon, nuoli, joka on kiinnitetty sen päähän — ja vain nuoli — avaa valikon. `button_menu` annettuna `action` — `{ href }`, tai `{ type: 'submit' }` lomakkeessa; vue-versio lähettää `action`."
     context:
-      title: "Oikea napsautus"
-      description: "Valikko, jonka oikea napsautus avaa sen päällä, mitä se kattaa — tai valikkonäppäin, tai Vaihto+F10 —, osoittimen kohdalle: samat kohdat ja paneeli kuin painikkeen valikossa. Kohdat voivat riippua napsautetusta: lukittua tiedostoa ei poisteta. Vaihto pohjassa, selaimen oma valikko."
+      title: 'Oikea napsautus'
+      description: 'Valikko, jonka oikea napsautus avaa sen päällä, mitä se kattaa — tai valikkonäppäin, tai Vaihto+F10 —, osoittimen kohdalle: samat kohdat ja paneeli kuin painikkeen valikossa. Kohdat voivat riippua napsautetusta: lukittua tiedostoa ei poisteta. Vaihto pohjassa, selaimen oma valikko.'
     vue:
       title: Vue
       description: 'Linkkirivi ja erotin vue-osina. Toisin kuin reitit, jotka lukevat reittiä, nämä kaksi ottavat ikonin ja etiketin vaihtoehtoina, joten serveriltä ei jää mitään puuttumaan.'
@@ -477,6 +525,12 @@ fi:
       title: 'Mitä kohde voi olla'
       description: 'Neljä tyyppiä jakaa yhden rivin: sana ja kohde on linkki, sana ja tila on kytkin, sana ja lapset on haara, ja pelkkä viiva on erotin. Mikään ei ilmoita tyyppiään — se seuraa siitä, mitä kohde kantaa. Kytkin käyttää johtavaa paikkaansa merkillään, joten niiden sarake pitää sanat linjassa, ja paneeli pysyy auki sen alla: suodatinvalikkoa luetaan nipuittain, ei yksi kerrallaan.'
   menu:
+    press:
+      ripple: 'Vastaa painallukseen'
+      still: 'Pysyy paikallaan'
+      assisted: 'Agentin osoittama'
+      agent: 'Agentin painama'
+      trigger: 'Painaa kuin agentti'
     primary: Valikkopainike
     save: Tallenna
     save_vue: 'Tallenna, vue:ssa'
@@ -598,23 +652,26 @@ fr:
       docs: Documentation
 
 he:
-  context:
-    menu: "פעולות על הקובץ"
-    open: "פתיחה"
-    rename: "שינוי שם"
-    pinned: "מוצמד"
-    delete: "מחיקה"
-    hint: "לחצו לחיצה ימנית על קובץ."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: תפריטים
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'פעולות על הקובץ'
+    open: פתיחה
+    rename: 'שינוי שם'
+    pinned: מוצמד
+    delete: מחיקה
+    hint: 'לחצו לחיצה ימנית על קובץ.'
   section:
+    press:
+      title: 'לחץ, מצביע על, נלחץ על ידי סוכן'
+      description: 'לחץ מתקבל במקום שבו הוא נחת: גל מתפשט מהנקודה שנוגעים בה, על כפתורים ורשומות בתפריט — הרגל ניידת, וגם אחת בשולחן העבודה. `data-ripple="off"` על האלמנט שומר אותו קבוע. סוכן המצביע על הקורא במשהו מדגיש אותו (`is-assisted`); סוכן הלוחץ עליו שולח את הגל ממרכזו, בהדגשה, מדגיש בזמן שהוא מתפשט, כך שהקורא רואה מי נגע.'
     split:
       title: 'כפתורי פיצול'
       description: "כפתור שעושה דבר אחד ומציע אחרים: הגוף שלו מבצע את הפעולה, והחץ שהודבק לסופו — ורק החץ — פותח את התפריט. `button_menu` נתון `action` — `{ href }`, או `{ type: 'submit' }` בטופס; ה-vue שולח `action`."
     context:
-      title: "לחיצה ימנית"
-      description: "תפריט שנפתח בלחיצה ימנית על מה שהוא מכסה — או מקש התפריט, או Shift+F10 — במקום הסמן: אותם פריטים ולוח כמו בתפריט של כפתור. הפריטים יכולים להשתנות לפי מה שנלחץ: קובץ נעול אינו נמחק. עם Shift, תפריט הדפדפן."
+      title: 'לחיצה ימנית'
+      description: 'תפריט שנפתח בלחיצה ימנית על מה שהוא מכסה — או מקש התפריט, או Shift+F10 — במקום הסמן: אותם פריטים ולוח כמו בתפריט של כפתור. הפריטים יכולים להשתנות לפי מה שנלחץ: קובץ נעול אינו נמחק. עם Shift, תפריט הדפדפן.'
     vue:
       title: Vue
       description: 'שורת הקישור והמפריד כחלקים של Vue. בניגוד לשורות שקוראות נתיב, השתיים הללו לוקחות את האיקון ואת התווית כאופציות, כך שאין שום דבר מהשרת חסר.'
@@ -630,6 +687,12 @@ he:
       title: 'מה פריט יכול להיות'
       description: 'ארבעה סוגים משתפים שורה אחת: מילה ומטרה זה קישור, מילה ומצב זה מתג, מילה וילדים זו ענף, וקו ריק הוא מפריד. שום דבר לא מכריז על סוגו — זה נובע ממה שהפריט נושא. מתג מוציא את המקום המוביל שלו על הסימן שלו, כך שעמודה שלהם שומרת על המילים מיושרות, ולוח הבקרה נשאר פתוח מתחתיו: תפריט של מסננים נקרא בקבוצה, לא אחד אחד.'
   menu:
+    press:
+      ripple: 'עונה על לחץ'
+      still: 'נשאר קבוע'
+      assisted: 'מצביע עליו על ידי סוכן'
+      agent: 'נלחץ על ידי סוכן'
+      trigger: 'לחץ עליו כמו שסוכן היה עושה'
     primary: 'כפתור תפריט'
     save: שמור
     save_vue: 'שמור, ב-vue'
@@ -670,23 +733,26 @@ he:
       docs: תיעוד
 
 hi:
-  context:
-    menu: "फ़ाइल की क्रियाएँ"
-    open: "खोलें"
-    rename: "नाम बदलें"
-    pinned: "पिन किया"
-    delete: "हटाएँ"
-    hint: "किसी फ़ाइल पर राइट क्लिक करें।"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: मेनू
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'फ़ाइल की क्रियाएँ'
+    open: खोलें
+    rename: 'नाम बदलें'
+    pinned: 'पिन किया'
+    delete: हटाएँ
+    hint: 'किसी फ़ाइल पर राइट क्लिक करें।'
   section:
+    press:
+      title: 'दबाया गया, इंगित किया गया, एजेंट द्वारा दबाया गया'
+      description: 'एक प्रेस का उत्तर उसी जगह दिया जाता है जहाँ यह उतरा: एक लहर उस बिंदु से फैलती है जिसे छुआ गया है, बटनों और मेनू प्रविष्टियों पर — एक मोबाइल आदत, और एक डेस्कटॉप भी। `data-ripple="off"` तत्व पर इसे स्थिर रखता है। एक एजेंट पाठक को किसी चीज़ की ओर इंगित करता है, इसे रेखांकित करता है (`is-assisted`); एक एजेंट जो इसे दबाता है, वह इसकी मध्य से लहर भेजता है, उच्चारण में, जब यह फैलता है, तो पाठक देखता है कि किसने छुआ।'
     split:
       title: 'स्प्लिट बटन'
       description: "एक बटन जो एक काम करता है और अन्य विकल्प प्रदान करता है: इसका मुख्य हिस्सा कार्रवाई करता है, जबकि अंत में लगा कैरेट — और केवल कैरेट — मेनू खोलता है। `button_menu` को एक `action` दिया गया है — `{ href }`, या `{ type: 'submit' }` एक फॉर्म में; vue वाला `action` को उत्सर्जित करता है।"
     context:
-      title: "राइट क्लिक"
-      description: "जो यह ढकता है उस पर राइट क्लिक — या मेनू कुंजी, या Shift+F10 — से पॉइंटर की जगह खुलने वाला मेनू: बटन मेनू जैसे ही आइटम और पैनल। आइटम क्लिक की गई चीज़ पर निर्भर हो सकते हैं: लॉक फ़ाइल हटाई नहीं जाती। Shift के साथ ब्राउज़र का मेनू।"
+      title: 'राइट क्लिक'
+      description: 'जो यह ढकता है उस पर राइट क्लिक — या मेनू कुंजी, या Shift+F10 — से पॉइंटर की जगह खुलने वाला मेनू: बटन मेनू जैसे ही आइटम और पैनल। आइटम क्लिक की गई चीज़ पर निर्भर हो सकते हैं: लॉक फ़ाइल हटाई नहीं जाती। Shift के साथ ब्राउज़र का मेनू।'
     vue:
       title: व्यू
       description: 'लिंक पंक्ति और विभाजक vue आंशिकों के रूप में। उन पंक्तियों के विपरीत जो एक मार्ग पढ़ती हैं, ये दोनों अपने आइकन और लेबल को विकल्प के रूप में लेती हैं, इसलिए सर्वर की कोई चीज़ गायब नहीं है।'
@@ -702,6 +768,12 @@ hi:
       title: 'एक आइटम क्या हो सकता है'
       description: 'चार प्रकार एक पंक्ति साझा करते हैं: एक शब्द और एक लक्ष्य एक लिंक है, एक शब्द और एक स्थिति एक टॉगल है, एक शब्द और बच्चे एक शाखा है, और एक नग्न रेखा एक विभाजक है। कुछ भी अपने प्रकार की घोषणा नहीं करता — यह आइटम में जो होता है उससे निकलता है। एक टॉगल अपने मार्क पर अपने अग्रणी स्लॉट को खर्च करता है, इसलिए उनमें से एक कॉलम अपने शब्दों को संरेखित रखता है, और पैनल इसके नीचे खुला रहता है: फ़िल्टर का एक मेनू मुट्ठी भर में पढ़ा जाता है, एक बार में नहीं।'
   menu:
+    press:
+      ripple: 'दबाने का उत्तर देता है'
+      still: 'स्थिर रहता है'
+      assisted: 'एजेंट द्वारा इंगित किया गया'
+      agent: 'एजेंट द्वारा दबाया गया'
+      trigger: 'इसे एजेंट की तरह दबाएं'
     primary: 'मेनू बटन'
     save: सहेजें
     save_vue: 'सहेजें, vue में'
@@ -742,23 +814,26 @@ hi:
       docs: दस्तावेज़ीकरण
 
 id:
-  context:
-    menu: "Aksi pada berkas"
-    open: "Buka"
-    rename: "Ganti nama"
-    pinned: "Disematkan"
-    delete: "Hapus"
-    hint: "Klik kanan sebuah berkas."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menu
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Aksi pada berkas'
+    open: Buka
+    rename: 'Ganti nama'
+    pinned: Disematkan
+    delete: Hapus
+    hint: 'Klik kanan sebuah berkas.'
   section:
+    press:
+      title: 'Ditekan, ditunjuk, ditekan oleh agen'
+      description: 'Sebuah tekanan dijawab di tempatnya jatuh: gelombang menyebar dari titik yang tersentuh, pada tombol dan entri menu — kebiasaan mobile, dan juga desktop. `data-ripple="off"` pada elemen membuatnya tetap. Seorang agen yang menunjuk pembaca ke sesuatu menggariskannya (`is-assisted`); seorang agen yang menekannya mengirimkan gelombang dari tengahnya, dalam aksen, digaris bawahi saat menyebar, sehingga pembaca melihat siapa yang menyentuh.'
     split:
       title: 'Tombol Terpisah'
       description: "Sebuah tombol yang melakukan satu tindakan dan menawarkan pilihan lainnya: bodinya melakukan aksi, caret yang terpasang di ujungnya — dan hanya caret tersebut — membuka menu. `button_menu` diberikan sebuah `action` — `{ href }`, atau `{ type: 'submit' }` dalam sebuah form; yang vue mengeluarkan `action`."
     context:
-      title: "Klik kanan"
-      description: "Menu yang dibuka dengan klik kanan pada yang dicakupnya — atau tombol menu, atau Shift+F10 —, di posisi penunjuk: item dan panel yang sama dengan menu tombol. Itemnya bisa bergantung pada yang diklik: berkas terkunci tidak dihapus. Dengan Shift, menu peramban."
+      title: 'Klik kanan'
+      description: 'Menu yang dibuka dengan klik kanan pada yang dicakupnya — atau tombol menu, atau Shift+F10 —, di posisi penunjuk: item dan panel yang sama dengan menu tombol. Itemnya bisa bergantung pada yang diklik: berkas terkunci tidak dihapus. Dengan Shift, menu peramban.'
     vue:
       title: Vue
       description: 'Baris tautan dan pemisah sebagai bagian vue. Berbeda dengan baris yang membaca rute, kedua ini mengambil ikon dan label sebagai opsi, jadi tidak ada yang hilang dari server.'
@@ -774,6 +849,12 @@ id:
       title: 'Apa itu item'
       description: 'Empat jenis berbagi satu baris: sebuah kata dan target adalah tautan, sebuah kata dan status adalah toggle, sebuah kata dan anak adalah cabang, dan garis kosong adalah pemisah. Tidak ada yang mendeklarasikan jenisnya — itu mengikuti dari apa yang dibawa item. Sebuah toggle menghabiskan slot utama untuk tanda-nya, jadi kolom dari mereka menjaga kata-katanya tetap sejajar, dan panel tetap terbuka di bawahnya: menu filter dibaca dalam jumlah banyak, bukan satu per satu.'
   menu:
+    press:
+      ripple: 'Menjawab sebuah tekanan'
+      still: 'Tetap diam'
+      assisted: 'Ditunjuk oleh agen'
+      agent: 'Ditekan oleh agen'
+      trigger: 'Tekan seperti yang dilakukan agen'
     primary: 'Tombol menu'
     save: Simpan
     save_vue: 'Simpan, di vue'
@@ -814,23 +895,26 @@ id:
       docs: Dokumentasi
 
 it:
-  context:
-    menu: "Azioni sul file"
-    open: "Apri"
-    rename: "Rinomina"
-    pinned: "Fissato"
-    delete: "Elimina"
-    hint: "Fai clic destro su un file."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menu
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Azioni sul file'
+    open: Apri
+    rename: Rinomina
+    pinned: Fissato
+    delete: Elimina
+    hint: 'Fai clic destro su un file.'
   section:
+    press:
+      title: 'Premuto, puntato, premuto da un agente'
+      description: "Una pressione viene risposta dove è atterrata: un'onda si diffonde dal punto toccato, su pulsanti e voci di menu — un'abitudine mobile, e anche desktop. `data-ripple=\"off\"` sull'elemento lo mantiene fermo. Un agente che punta il lettore verso qualcosa lo evidenzia (`is-assisted`); un agente che lo preme invia l'onda dal suo centro, nell'accento, evidenziato mentre si diffonde, così il lettore vede chi ha toccato."
     split:
       title: 'Pulsanti divisi'
       description: "Un pulsante che fa una cosa e offre le altre: il suo corpo esegue l'azione, il cursore attaccato alla sua estremità — e solo il cursore — apre il menu. `button_menu` dato un `action` — `{ href }`, o `{ type: 'submit' }` in un modulo; il vue emette `action`."
     context:
-      title: "Clic destro"
-      description: "Un menu aperto da un clic destro su ciò che copre — o dal tasto menu, o Maiusc+F10 —, dove si trova il puntatore: le stesse voci e lo stesso pannello del menu di un pulsante. Le voci possono dipendere da ciò che si è cliccato: un file bloccato non si elimina. Con Maiusc, il menu del browser."
+      title: 'Clic destro'
+      description: 'Un menu aperto da un clic destro su ciò che copre — o dal tasto menu, o Maiusc+F10 —, dove si trova il puntatore: le stesse voci e lo stesso pannello del menu di un pulsante. Le voci possono dipendere da ciò che si è cliccato: un file bloccato non si elimina. Con Maiusc, il menu del browser.'
     vue:
       title: Vue
       description: "La riga dei link e il separatore come partials vue. A differenza delle righe che leggono una rotta, questi due prendono la loro icona e l'etichetta come opzioni, quindi nulla del server è mancante."
@@ -846,6 +930,12 @@ it:
       title: 'Cosa può essere un elemento'
       description: "Quattro tipi condividono una riga: una parola e un obiettivo è un link, una parola e uno stato è un toggle, una parola e figli è un ramo, e una linea semplice è un separatore. Niente dichiara il suo tipo — deriva da ciò che l'elemento porta. Un toggle spende il suo slot principale sul suo marchio, quindi una colonna di essi mantiene le sue parole allineate, e il pannello rimane aperto sotto di esso: un menu di filtri è letto a manciate, non uno alla volta."
   menu:
+    press:
+      ripple: 'Risponde a una pressione'
+      still: 'Rimane fermo'
+      assisted: 'Puntato da un agente'
+      agent: 'Premuto da un agente'
+      trigger: 'Premilo come farebbe un agente'
     primary: 'Pulsante menu'
     save: Salva
     save_vue: 'Salva, in vue'
@@ -886,23 +976,26 @@ it:
       docs: Documentazione
 
 ja:
-  context:
-    menu: "ファイルの操作"
-    open: "開く"
-    rename: "名前を変更"
-    pinned: "ピン留め"
-    delete: "削除"
-    hint: "ファイルを右クリックしてください。"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: メニュー
   page_icon: 'ph:bold/list'
+  context:
+    menu: ファイルの操作
+    open: 開く
+    rename: 名前を変更
+    pinned: ピン留め
+    delete: 削除
+    hint: ファイルを右クリックしてください。
   section:
+    press:
+      title: 押された、指し示された、エージェントによって押された
+      description: 'プレスはそれが着地した場所で応答します：触れた点から波が広がり、ボタンやメニュー項目に伝わります — モバイルの習慣であり、デスクトップの習慣でもあります。要素に `data-ripple="off"` が設定されている場合は静止します。エージェントがリーダーに何かを指し示すと、それが強調されます（`is-assisted`）；エージェントがそれを押すと、中心から波が広がり、強調されながら広がるので、リーダーは誰が触れたのかを見ます。'
     split:
       title: 分割ボタン
       description: "1つのアクションを実行し、他のオプションを提供するボタンです：本体がアクションを実行し、末尾に付いているカーソル — そしてそのカーソルだけがメニューを開きます。`button_menu` は `action` を与えられます — `{ href }` またはフォーム内の `{ type: 'submit' }`；vueのものは `action` を発火します。"
     context:
-      title: "右クリック"
-      description: "覆っている対象を右クリック（またはメニューキー、Shift+F10）すると、ポインターの位置に開くメニュー。ボタンのメニューと同じ項目とパネルです。項目はクリックした対象によって変わります：ロックされたファイルは削除できません。Shift を押すとブラウザーのメニュー。"
+      title: 右クリック
+      description: '覆っている対象を右クリック（またはメニューキー、Shift+F10）すると、ポインターの位置に開くメニュー。ボタンのメニューと同じ項目とパネルです。項目はクリックした対象によって変わります：ロックされたファイルは削除できません。Shift を押すとブラウザーのメニュー。'
     vue:
       title: Vue
       description: リンク行とセパレーターはvueのパーシャルです。ルートを読み込む行とは異なり、これらの2つはアイコンとラベルをオプションとして取得するため、サーバーの情報は失われません。
@@ -918,6 +1011,12 @@ ja:
       title: アイテムの種類
       description: '4つの種類が1行を共有します：単語とターゲットはリンク、単語と状態はトグル、単語と子要素はブランチ、裸のラインはセパレーターです。何もその種類を明示することはありません — それはアイテムが持つものから導かれます。トグルはその印にリーディングスロットを使うため、それらの列は単語を揃えたままにし、パネルはその下で開いたままになります：フィルターのメニューは一度に一つではなく、一握りで読むことができます。'
   menu:
+    press:
+      ripple: プレスに応答します
+      still: 静止します
+      assisted: エージェントによって指し示されました
+      agent: エージェントによって押されました
+      trigger: エージェントのように押してください
     primary: メニューボタン
     save: 保存
     save_vue: vueで保存
@@ -958,23 +1057,26 @@ ja:
       docs: ドキュメント
 
 ko:
-  context:
-    menu: "파일 작업"
-    open: "열기"
-    rename: "이름 바꾸기"
-    pinned: "고정됨"
-    delete: "삭제"
-    hint: "파일을 오른쪽 클릭하세요."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 메뉴
   page_icon: 'ph:bold/list'
+  context:
+    menu: '파일 작업'
+    open: 열기
+    rename: '이름 바꾸기'
+    pinned: 고정됨
+    delete: 삭제
+    hint: '파일을 오른쪽 클릭하세요.'
   section:
+    press:
+      title: '누른 것, 가리킨 것, 에이전트에 의해 눌린 것'
+      description: '프레스는 그 위치에서 응답합니다: 터치된 지점에서 파동이 퍼집니다. 버튼과 메뉴 항목에서 — 모바일과 데스크탑 모두의 습관입니다. 요소에 `data-ripple="off"`가 있으면 고정됩니다. 에이전트가 독자를 무언가로 가리키면 그것을 강조합니다 (`is-assisted`); 에이전트가 눌렀을 때 파동이 가운데에서 시작되어 강조된 채로 퍼져 나가므로 독자는 누가 터치했는지 볼 수 있습니다.'
     split:
       title: '분할 버튼'
       description: "하나의 작업을 수행하고 다른 옵션을 제공하는 버튼: 본체는 작업을 수행하고, 끝에 붙어 있는 화살표 — 오직 화살표만 — 메뉴를 엽니다. `button_menu`는 `action` — `{ href }` 또는 양식에서 `{ type: 'submit' }`을 제공합니다; vue는 `action`을 방출합니다."
     context:
-      title: "오른쪽 클릭"
-      description: "덮고 있는 영역을 오른쪽 클릭(또는 메뉴 키, Shift+F10)하면 포인터 위치에 열리는 메뉴. 버튼 메뉴와 같은 항목과 패널입니다. 항목은 클릭한 대상에 따라 달라집니다: 잠긴 파일은 삭제되지 않습니다. Shift를 누르면 브라우저 메뉴."
+      title: '오른쪽 클릭'
+      description: '덮고 있는 영역을 오른쪽 클릭(또는 메뉴 키, Shift+F10)하면 포인터 위치에 열리는 메뉴. 버튼 메뉴와 같은 항목과 패널입니다. 항목은 클릭한 대상에 따라 달라집니다: 잠긴 파일은 삭제되지 않습니다. Shift를 누르면 브라우저 메뉴.'
     vue:
       title: Vue
       description: '링크 행과 구분선은 vue 부분입니다. 경로를 읽는 행과는 달리, 이 두 개는 아이콘과 레이블을 옵션으로 받으므로 서버의 어떤 것도 누락되지 않습니다.'
@@ -990,6 +1092,12 @@ ko:
       title: '항목의 종류'
       description: '네 가지 종류가 하나의 행을 공유합니다: 단어와 대상은 링크, 단어와 상태는 토글, 단어와 자식은 분기, 그리고 빈 줄은 구분선입니다. 자신의 종류를 선언하는 것은 없습니다 — 그것은 항목이 담고 있는 것에서 유래합니다. 토글은 그 표시를 위한 선행 슬롯을 사용하므로, 그들의 열은 단어가 정렬되어 있으며, 패널은 그 아래에 열려 있습니다: 필터 메뉴는 한 번에 하나가 아니라 한 줌으로 읽힙니다.'
   menu:
+    press:
+      ripple: '프레스에 응답합니다'
+      still: 고정됩니다
+      assisted: '에이전트에 의해 가리킴'
+      agent: '에이전트에 의해 눌림'
+      trigger: '에이전트처럼 눌러보세요'
     primary: '메뉴 버튼'
     save: 저장
     save_vue: '저장, vue에서'
@@ -1030,23 +1138,26 @@ ko:
       docs: 문서
 
 nl:
-  context:
-    menu: "Acties op het bestand"
-    open: "Openen"
-    rename: "Hernoemen"
-    pinned: "Vastgezet"
-    delete: "Verwijderen"
-    hint: "Klik met rechts op een bestand."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: "Menu's"
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Acties op het bestand'
+    open: Openen
+    rename: Hernoemen
+    pinned: Vastgezet
+    delete: Verwijderen
+    hint: 'Klik met rechts op een bestand.'
   section:
+    press:
+      title: 'Ingedeukt, aangeraakt, ingedrukt door een agent'
+      description: 'Een druk wordt beantwoord waar deze is neergedaald: een golf verspreidt zich vanaf het aangeraakte punt, op knoppen en menu-items — een mobiele gewoonte, en ook een desktop gewoonte. `data-ripple="off"` op het element houdt het stil. Een agent die de lezer naar iets wijst, omlijnt het (`is-assisted`); een agent die het indrukt, laat de golf vanuit het midden zien, in de accent, omlijnd terwijl deze zich verspreidt, zodat de lezer ziet wie heeft aangeraakt.'
     split:
       title: Splitknoppen
       description: "Een knop die één actie uitvoert en de andere aanbiedt: het lichaam voert de actie uit, de caret die eraan vastzit — en alleen de caret — opent het menu. `button_menu` gegeven een `action` — `{ href }`, of `{ type: 'submit' }` in een formulier; de vue versie geeft `action` uit."
     context:
-      title: "Rechtsklik"
-      description: "Een menu dat een rechtsklik opent op wat het omvat — of de menutoets, of Shift+F10 —, waar de aanwijzer is: dezelfde items en hetzelfde paneel als het menu van een knop. De items kunnen afhangen van wat is aangeklikt: een vergrendeld bestand wordt niet verwijderd. Met Shift het menu van de browser."
+      title: Rechtsklik
+      description: 'Een menu dat een rechtsklik opent op wat het omvat — of de menutoets, of Shift+F10 —, waar de aanwijzer is: dezelfde items en hetzelfde paneel als het menu van een knop. De items kunnen afhangen van wat is aangeklikt: een vergrendeld bestand wordt niet verwijderd. Met Shift het menu van de browser.'
     vue:
       title: Vue
       description: 'De linkrij en de scheider als vue-partials. In tegenstelling tot de rijen die een route lezen, nemen deze twee hun icoon en label als opties, zodat er niets van de server ontbreekt.'
@@ -1062,6 +1173,12 @@ nl:
       title: 'Wat een item kan zijn'
       description: 'Vier soorten delen één rij: een woord en een doel is een link, een woord en een staat is een toggle, een woord en kinderen is een tak, en een blote lijn is een scheider. Niets verklaart zijn soort — het volgt uit wat het item draagt. Een toggle gebruikt zijn leidende slot voor zijn merk, zodat een kolom daarvan zijn woorden uitgelijnd houdt, en het paneel open blijft eronder: een menu van filters wordt met de hand gelezen, niet één voor één.'
   menu:
+    press:
+      ripple: 'Beantwoordt een druk'
+      still: 'Blijft stil'
+      assisted: 'Aangewijst door een agent'
+      agent: 'Ingedrukt door een agent'
+      trigger: 'Druk het in zoals een agent zou'
     primary: 'Menu knop'
     save: Opslaan
     save_vue: 'Opslaan, in vue'
@@ -1102,23 +1219,26 @@ nl:
       docs: Documentatie
 
 pl:
-  context:
-    menu: "Akcje na pliku"
-    open: "Otwórz"
-    rename: "Zmień nazwę"
-    pinned: "Przypięty"
-    delete: "Usuń"
-    hint: "Kliknij plik prawym przyciskiem."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menu
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Akcje na pliku'
+    open: Otwórz
+    rename: 'Zmień nazwę'
+    pinned: Przypięty
+    delete: Usuń
+    hint: 'Kliknij plik prawym przyciskiem.'
   section:
+    press:
+      title: 'Naciśnięty, wskazany, naciśnięty przez agenta'
+      description: 'Naciśnięcie jest odpowiedziane tam, gdzie wylądowało: fala rozchodzi się z punktu dotknięcia, na przyciskach i wpisach menu — to mobilny nawyk, a także stacjonarny. `data-ripple="off"` na elemencie utrzymuje go w spokoju. Agent wskazujący czytelnikowi coś obrysowuje to (`is-assisted`); agent naciskający to wysyła falę z jego środka, w akcentach, obrysowanych podczas rozprzestrzeniania, aby czytelnik zobaczył, kto dotknął.'
     split:
       title: 'Przyciski podzielone'
       description: "Przycisk, który wykonuje jedną czynność i oferuje inne: jego główna część wykonuje akcję, strzałka przylegająca do końca — i tylko strzałka — otwiera menu. `button_menu` przyjmuje `action` — `{ href }`, lub `{ type: 'submit' }` w formularzu; vue emituje `action`."
     context:
-      title: "Prawy przycisk"
-      description: "Menu otwierane prawym kliknięciem na tym, co obejmuje — albo klawiszem menu, albo Shift+F10 —, tam gdzie jest wskaźnik: te same pozycje i panel co menu przycisku. Pozycje mogą zależeć od klikniętego elementu: zablokowanego pliku nie usuniesz. Z Shiftem menu przeglądarki."
+      title: 'Prawy przycisk'
+      description: 'Menu otwierane prawym kliknięciem na tym, co obejmuje — albo klawiszem menu, albo Shift+F10 —, tam gdzie jest wskaźnik: te same pozycje i panel co menu przycisku. Pozycje mogą zależeć od klikniętego elementu: zablokowanego pliku nie usuniesz. Z Shiftem menu przeglądarki.'
     vue:
       title: Vue
       description: 'Wiersz linku i separator jako części vue. W przeciwieństwie do wierszy, które odczytują trasę, te dwa przyjmują ikonę i etykietę jako opcje, więc niczego z serwera nie brakuje.'
@@ -1134,6 +1254,12 @@ pl:
       title: 'Co może być elementem'
       description: 'Cztery rodzaje dzielą jeden wiersz: słowo i cel to link, słowo i stan to przełącznik, słowo i dzieci to gałąź, a goła linia to separator. Nic nie deklaruje swojego rodzaju — wynika to z tego, co niesie element. Przełącznik wykorzystuje swoje wiodące miejsce na swoim znaku, więc kolumna z nimi utrzymuje swoje słowa w linii, a panel pozostaje otwarty pod nim: menu filtrów odczytuje się garściami, a nie po jednym.'
   menu:
+    press:
+      ripple: 'Odpowiada na naciśnięcie'
+      still: 'Zostaje w spokoju'
+      assisted: 'Wskazany przez agenta'
+      agent: 'Naciśnięty przez agenta'
+      trigger: 'Naciśnij jak agent'
     primary: 'Przycisk menu'
     save: Zapisz
     save_vue: 'Zapisz, w vue'
@@ -1174,23 +1300,26 @@ pl:
       docs: Dokumentacja
 
 pt_BR:
-  context:
-    menu: "Ações no arquivo"
-    open: "Abrir"
-    rename: "Renomear"
-    pinned: "Fixado"
-    delete: "Excluir"
-    hint: "Clique com o botão direito num arquivo."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menus
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Ações no arquivo'
+    open: Abrir
+    rename: Renomear
+    pinned: Fixado
+    delete: Excluir
+    hint: 'Clique com o botão direito num arquivo.'
   section:
+    press:
+      title: 'Pressionado, apontado, pressionado por um agente'
+      description: 'Uma pressão é respondida onde ela aterrissou: uma onda se espalha do ponto tocado, em botões e entradas de menu — um hábito móvel, e um de desktop também. `data-ripple="off"` no elemento mantém ele parado. Um agente apontando o leitor para algo o destaca (`is-assisted`); um agente pressionando envia a onda de seu meio, no acento, destacado enquanto se espalha, para que o leitor veja quem tocou.'
     split:
       title: 'Botões divididos'
       description: "Um botão que faz uma coisa e oferece as outras: seu corpo realiza a ação, a seta presa ao final — e apenas a seta — abre o menu. `button_menu` dado uma `action` — `{ href }`, ou `{ type: 'submit' }` em um formulário; o vue emite `action`."
     context:
-      title: "Clique direito"
-      description: "Um menu aberto por um clique direito no que ele cobre — ou a tecla de menu, ou Shift+F10 —, onde está o ponteiro: os mesmos itens e painel do menu de um botão. Os itens podem depender do que foi clicado: um arquivo bloqueado não é excluído. Com Shift, o menu do navegador."
+      title: 'Clique direito'
+      description: 'Um menu aberto por um clique direito no que ele cobre — ou a tecla de menu, ou Shift+F10 —, onde está o ponteiro: os mesmos itens e painel do menu de um botão. Os itens podem depender do que foi clicado: um arquivo bloqueado não é excluído. Com Shift, o menu do navegador.'
     vue:
       title: Vue
       description: 'A linha de link e o separador como partes do vue. Diferente das linhas que leem uma rota, esses dois utilizam seu ícone e rótulo como opções, então nada do servidor está faltando.'
@@ -1206,6 +1335,12 @@ pt_BR:
       title: 'O que um item pode ser'
       description: 'Quatro tipos compartilham uma linha: uma palavra e um destino é um link, uma palavra e um estado é um alternador, uma palavra e filhos é um ramo, e uma linha simples é um separador. Nada declara seu tipo — isso vem do que o item carrega. Um alternador gasta seu espaço inicial em sua marca, então uma coluna deles mantém suas palavras alinhadas, e o painel permanece aberto sob ele: um menu de filtros é lido em grupos, não um de cada vez.'
   menu:
+    press:
+      ripple: 'Responde a uma pressão'
+      still: 'Fica parado'
+      assisted: 'Apontado por um agente'
+      agent: 'Pressionado por um agente'
+      trigger: 'Pressione como um agente faria'
     primary: 'Botão do menu'
     save: Salvar
     save_vue: 'Salvar, no vue'
@@ -1246,23 +1381,26 @@ pt_BR:
       docs: Documentação
 
 ru:
-  context:
-    menu: "Действия с файлом"
-    open: "Открыть"
-    rename: "Переименовать"
-    pinned: "Закреплён"
-    delete: "Удалить"
-    hint: "Щёлкните правой кнопкой по файлу."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Меню
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Действия с файлом'
+    open: Открыть
+    rename: Переименовать
+    pinned: Закреплён
+    delete: Удалить
+    hint: 'Щёлкните правой кнопкой по файлу.'
   section:
+    press:
+      title: 'Нажато, указано, нажато агентом'
+      description: 'На нажатие отвечают там, где оно произошло: волна распространяется от точки касания, на кнопках и пунктах меню — это привычка для мобильных устройств и настольных ПК. `data-ripple="off"` на элементе делает его неподвижным. Агент, указывающий читателю на что-то, выделяет это (`is-assisted`); агент, нажимающий на него, отправляет волну из его центра, в акценте, выделенном во время распространения, так что читатель видит, кто коснулся.'
     split:
       title: 'Разделенные кнопки'
       description: "Кнопка, которая выполняет одно действие и предлагает другие: ее основная часть выполняет действие, а стрелка, прикрепленная к ее концу — и только стрелка — открывает меню. `button_menu` принимает `action` — `{ href }`, или `{ type: 'submit' }` в форме; vue-версия генерирует `action`."
     context:
-      title: "Правый клик"
-      description: "Меню, открываемое правым кликом по тому, что оно охватывает, — или клавишей меню, или Shift+F10, — там, где указатель: те же пункты и панель, что у меню кнопки. Пункты могут зависеть от того, по чему кликнули: заблокированный файл не удаляется. С Shift — меню браузера."
+      title: 'Правый клик'
+      description: 'Меню, открываемое правым кликом по тому, что оно охватывает, — или клавишей меню, или Shift+F10, — там, где указатель: те же пункты и панель, что у меню кнопки. Пункты могут зависеть от того, по чему кликнули: заблокированный файл не удаляется. С Shift — меню браузера.'
     vue:
       title: Vue
       description: 'Строка ссылок и разделитель как части vue. В отличие от строк, которые читают маршрут, эти две принимают свои иконки и метки в качестве опций, так что ничего с сервера не пропущено.'
@@ -1278,6 +1416,12 @@ ru:
       title: 'Что может быть элементом'
       description: 'Четыре вида делят один ряд: слово и цель — это ссылка, слово и состояние — это переключатель, слово и дочерние элементы — это ветка, а простая линия — это разделитель. Ничто не объявляет своего рода — это следует из того, что несет элемент. Переключатель тратит свое ведущее место на свой знак, так что колонка из них сохраняет свои слова выровненными, и панель остается открытой под ней: меню фильтров читается по нескольку, а не по одному за раз.'
   menu:
+    press:
+      ripple: 'Отвечает на нажатие'
+      still: 'Остается неподвижным'
+      assisted: 'Указано агентом'
+      agent: 'Нажато агентом'
+      trigger: 'Нажмите, как это сделал бы агент'
     primary: 'Кнопка меню'
     save: Сохранить
     save_vue: 'Сохранить в vue'
@@ -1318,23 +1462,26 @@ ru:
       docs: Документация
 
 th:
-  context:
-    menu: "การทำงานกับไฟล์"
-    open: "เปิด"
-    rename: "เปลี่ยนชื่อ"
-    pinned: "ปักหมุด"
-    delete: "ลบ"
-    hint: "คลิกขวาที่ไฟล์"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: เมนู
   page_icon: 'ph:bold/list'
+  context:
+    menu: การทำงานกับไฟล์
+    open: เปิด
+    rename: เปลี่ยนชื่อ
+    pinned: ปักหมุด
+    delete: ลบ
+    hint: คลิกขวาที่ไฟล์
   section:
+    press:
+      title: 'กด, ชี้ไปที่, ถูกกดโดยตัวแทน'
+      description: 'การกดจะตอบสนองที่จุดที่มันตกลงไป: คลื่นจะกระจายจากจุดที่สัมผัส, บนปุ่มและรายการเมนู — เป็นพฤติกรรมที่เกิดขึ้นบนมือถือและเดสก์ท็อปด้วย `data-ripple="off"` บนองค์ประกอบจะทำให้มันนิ่ง. ตัวแทนที่ชี้ไปยังสิ่งใดสิ่งหนึ่งจะเน้นมัน (`is-assisted`); ตัวแทนที่กดมันจะส่งคลื่นจากกลาง, ในสำเนียง, เน้นขณะที่มันกระจาย, ดังนั้นผู้อ่านจะเห็นว่าใครเป็นคนสัมผัส.'
     split:
       title: ปุ่มแยก
       description: "ปุ่มที่ทำหนึ่งสิ่งและเสนอสิ่งอื่น: ตัวปุ่มทำการกระทำ ขอบที่ติดอยู่ที่ปลายของมัน — และเฉพาะขอบเท่านั้น — จะเปิดเมนู `button_menu` ที่มี `action` — `{ href }` หรือ `{ type: 'submit' }` ในฟอร์ม; เวอร์ชัน vue จะส่งออก `action`."
     context:
-      title: "คลิกขวา"
-      description: "เมนูที่เปิดด้วยการคลิกขวาบนสิ่งที่มันครอบ — หรือปุ่มเมนู หรือ Shift+F10 — ตรงตำแหน่งเคอร์เซอร์: รายการและแผงเดียวกับเมนูของปุ่ม รายการขึ้นกับสิ่งที่ถูกคลิก: ไฟล์ที่ล็อกไว้ลบไม่ได้ กด Shift ค้างไว้จะได้เมนูของเบราว์เซอร์"
+      title: คลิกขวา
+      description: 'เมนูที่เปิดด้วยการคลิกขวาบนสิ่งที่มันครอบ — หรือปุ่มเมนู หรือ Shift+F10 — ตรงตำแหน่งเคอร์เซอร์: รายการและแผงเดียวกับเมนูของปุ่ม รายการขึ้นกับสิ่งที่ถูกคลิก: ไฟล์ที่ล็อกไว้ลบไม่ได้ กด Shift ค้างไว้จะได้เมนูของเบราว์เซอร์'
     vue:
       title: Vue
       description: 'แถวลิงก์และตัวแบ่งในรูปแบบ Vue โดยไม่เหมือนกับแถวที่อ่านเส้นทาง สองตัวนี้จะใช้ไอคอนและป้ายกำกับเป็นตัวเลือก ดังนั้นไม่มีอะไรที่ขาดหายไปจากเซิร์ฟเวอร์'
@@ -1350,6 +1497,12 @@ th:
       title: ประเภทของไอเท็ม
       description: 'สี่ประเภทแบ่งปันแถวเดียว: คำและเป้าหมายคือลิงก์ คำและสถานะคือการสลับ คำและเด็กคือสาขา และแถวเปล่าคือตัวแบ่ง ไม่มีอะไรประกาศประเภทของมัน — มันตามมาจากสิ่งที่ไอเท็มมีอยู่ การสลับใช้ช่องนำของมันกับเครื่องหมายของมัน ดังนั้นคอลัมน์ของมันจึงรักษาคำให้ตรงกัน และแผงจะเปิดอยู่ใต้: เมนูฟิลเตอร์จะอ่านเป็นกลุ่ม ไม่ใช่ทีละรายการ'
   menu:
+    press:
+      ripple: ตอบสนองการกด
+      still: คงที่
+      assisted: ถูกชี้ไปโดยตัวแทน
+      agent: ถูกกดโดยตัวแทน
+      trigger: กดมันเหมือนที่ตัวแทนทำ
     primary: ปุ่มเมนู
     save: บันทึก
     save_vue: 'บันทึกใน vue'
@@ -1390,23 +1543,26 @@ th:
       docs: เอกสาร
 
 tr:
-  context:
-    menu: "Dosya işlemleri"
-    open: "Aç"
-    rename: "Yeniden adlandır"
-    pinned: "Sabitlendi"
-    delete: "Sil"
-    hint: "Bir dosyaya sağ tıklayın."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menüler
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Dosya işlemleri'
+    open: Aç
+    rename: 'Yeniden adlandır'
+    pinned: Sabitlendi
+    delete: Sil
+    hint: 'Bir dosyaya sağ tıklayın.'
   section:
+    press:
+      title: 'Basıldı, işaretlendi, bir ajan tarafından basıldı'
+      description: 'Bir basma, nerede durduysa orada yanıt alır: dokunulan noktadan bir dalga yayılır, butonlar ve menü girişleri üzerinde — mobil bir alışkanlık ve masaüstü için de. `data-ripple="off"` elementi hareketsiz tutar. Bir ajan okuyucuyu bir şeye işaret ettiğinde onu belirginleştirir (`is-assisted`); bir ajan onu bastığında dalgayı ortasından gönderir, yayılırken belirginleşir, böylece okuyucu kimin dokunduğunu görür.'
     split:
       title: 'Bölme düğmeleri'
       description: "Bir şeyi yapan ve diğerlerini sunan bir düğme: gövdesi eylemi gerçekleştirir, ucuna takılı olan ok — ve sadece ok — menüyü açar. `button_menu` bir `action` — `{ href }` veya bir formda `{ type: 'submit' }` verir; vue'daki biri `action` yayar."
     context:
-      title: "Sağ tık"
-      description: "Kapsadığı şeye sağ tıklayınca — ya da menü tuşu veya Shift+F10 ile — işaretçinin olduğu yerde açılan menü: bir düğme menüsüyle aynı öğeler ve panel. Öğeler tıklanana göre değişebilir: kilitli dosya silinmez. Shift basılıyken tarayıcının menüsü."
+      title: 'Sağ tık'
+      description: 'Kapsadığı şeye sağ tıklayınca — ya da menü tuşu veya Shift+F10 ile — işaretçinin olduğu yerde açılan menü: bir düğme menüsüyle aynı öğeler ve panel. Öğeler tıklanana göre değişebilir: kilitli dosya silinmez. Shift basılıyken tarayıcının menüsü.'
     vue:
       title: Vue
       description: 'Bağlantı satırı ve ayırıcı, vue parçaları olarak. Bir rotayı okuyan satırlardan farklı olarak, bu ikisi simgesini ve etiketini seçenek olarak alır, bu nedenle sunucudan hiçbir şey eksik değildir.'
@@ -1422,6 +1578,12 @@ tr:
       title: 'Bir öğe ne olabilir'
       description: 'Dört tür bir satırı paylaşır: bir kelime ve bir hedef bir bağlantıdır, bir kelime ve bir durum bir geçiştir, bir kelime ve çocuklar bir dal oluşturur ve çıplak bir çizgi bir ayırıcıdır. Hiçbir şey türünü beyan etmez - öğenin taşıdığına bağlıdır. Bir geçiş, önde gelen slotunu işaretine harcar, bu nedenle bunların bir sütunu kelimelerini hizalı tutar ve panel altında açık kalır: bir filtre menüsü avuçla okunur, birer birer değil.'
   menu:
+    press:
+      ripple: 'Bir basmaya yanıt verir'
+      still: 'Hareketsiz kalır'
+      assisted: 'Bir ajan tarafından işaretlendi'
+      agent: 'Bir ajan tarafından basıldı'
+      trigger: 'Bir ajan gibi basın'
     primary: 'Menü butonu'
     save: Kaydet
     save_vue: "Vue'da kaydet"
@@ -1462,23 +1624,26 @@ tr:
       docs: Belgeler
 
 ur:
-  context:
-    menu: "فائل کے اقدامات"
-    open: "کھولیں"
-    rename: "نام بدلیں"
-    pinned: "پن شدہ"
-    delete: "حذف کریں"
-    hint: "کسی فائل پر دایاں کلک کریں۔"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: مینوز
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'فائل کے اقدامات'
+    open: کھولیں
+    rename: 'نام بدلیں'
+    pinned: 'پن شدہ'
+    delete: 'حذف کریں'
+    hint: 'کسی فائل پر دایاں کلک کریں۔'
   section:
+    press:
+      title: 'دبایا، اشارہ کیا، ایک ایجنٹ کے ذریعے دبایا گیا'
+      description: 'جہاں دباؤ ڈالا گیا ہے، وہاں ایک دباؤ کا جواب دیا جاتا ہے: ایک لہریں اس نقطے سے پھیلتی ہیں جو چھوا گیا، بٹنوں اور مینو کی اندراجات پر — یہ ایک موبائل عادت ہے، اور ایک ڈیسک ٹاپ کی بھی۔ `data-ripple="off"` عنصر پر اسے ساکت رکھتا ہے۔ ایک ایجنٹ جو پڑھنے والے کو کسی چیز کی طرف اشارہ کرتا ہے اسے واضح کرتا ہے (`is-assisted`); ایک ایجنٹ جو اسے دباتا ہے لہروں کو اس کے وسط سے بھیجتا ہے، لہجے میں، جب یہ پھیلتا ہے، تو پڑھنے والا دیکھتا ہے کہ کس نے چھوا۔'
     split:
       title: 'اسپلیٹ بٹن'
       description: "ایک بٹن جو ایک کام کرتا ہے اور دوسرے آپشن فراہم کرتا ہے: اس کا جسم عمل کرتا ہے، اور اس کے آخر پر لگا ہوا کیریٹ — اور صرف کیریٹ — مینو کھولتا ہے۔ `button_menu` کو ایک `action` دی گئی — `{ href }`، یا `{ type: 'submit' }` کسی فارم میں؛ ویو میں یہ `action` جاری کرتا ہے۔"
     context:
-      title: "دایاں کلک"
-      description: "جو کچھ یہ ڈھانپے اس پر دایاں کلک — یا مینو کلید، یا Shift+F10 — سے پوائنٹر کی جگہ کھلنے والا مینو: بٹن کے مینو جیسے آئٹمز اور پینل۔ آئٹمز کلک کی گئی چیز پر منحصر ہو سکتے ہیں: مقفل فائل حذف نہیں ہوتی۔ Shift کے ساتھ براؤزر کا مینو۔"
+      title: 'دایاں کلک'
+      description: 'جو کچھ یہ ڈھانپے اس پر دایاں کلک — یا مینو کلید، یا Shift+F10 — سے پوائنٹر کی جگہ کھلنے والا مینو: بٹن کے مینو جیسے آئٹمز اور پینل۔ آئٹمز کلک کی گئی چیز پر منحصر ہو سکتے ہیں: مقفل فائل حذف نہیں ہوتی۔ Shift کے ساتھ براؤزر کا مینو۔'
     vue:
       title: ویو
       description: 'لنک رو اور سیپریٹر ویو کے جزو کے طور پر۔ ان رووں کے برعکس جو راستے کو پڑھتے ہیں، یہ دونوں اپنے آئیکن اور لیبل کو آپشن کے طور پر لیتے ہیں، اس لیے سرور کا کچھ بھی غائب نہیں ہوتا۔'
@@ -1494,6 +1659,12 @@ ur:
       title: 'ایک آئٹم کیا ہو سکتا ہے'
       description: 'چار اقسام ایک صف میں شریک ہیں: ایک لفظ اور ایک ٹارگٹ ایک لنک ہے، ایک لفظ اور ایک حالت ایک ٹوگل ہے، ایک لفظ اور بچے ایک شاخ ہے، اور ایک خالی لائن ایک سیپریٹر ہے۔ کچھ بھی اپنی قسم کا اعلان نہیں کرتا — یہ اس چیز سے ظاہر ہوتا ہے جو آئٹم کے پاس ہے۔ ایک ٹوگل اپنے نشان پر اپنا ابتدائی سلاٹ خرچ کرتا ہے، لہذا ان کا ایک کالم اپنے الفاظ کو متوازن رکھتا ہے، اور اس کے نیچے پینل کھلا رہتا ہے: فلٹرز کا ایک مینو ہاتھوں سے پڑھا جاتا ہے، ایک وقت میں نہیں۔'
   menu:
+    press:
+      ripple: 'دباؤ کا جواب دیتا ہے'
+      still: 'ساکت رہتا ہے'
+      assisted: 'ایک ایجنٹ کے ذریعے اشارہ کیا گیا'
+      agent: 'ایک ایجنٹ کے ذریعے دبایا گیا'
+      trigger: 'اسے ایسے دبائیں جیسے ایک ایجنٹ کرے گا'
     primary: 'مینو بٹن'
     save: 'محفوظ کریں'
     save_vue: 'ویو میں محفوظ کریں'
@@ -1534,23 +1705,26 @@ ur:
       docs: دستاویزات
 
 vi:
-  context:
-    menu: "Thao tác với tệp"
-    open: "Mở"
-    rename: "Đổi tên"
-    pinned: "Đã ghim"
-    delete: "Xóa"
-    hint: "Nhấp chuột phải vào một tệp."
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: Menus
   page_icon: 'ph:bold/list'
+  context:
+    menu: 'Thao tác với tệp'
+    open: Mở
+    rename: 'Đổi tên'
+    pinned: 'Đã ghim'
+    delete: Xóa
+    hint: 'Nhấp chuột phải vào một tệp.'
   section:
+    press:
+      title: 'Nhấn, chỉ vào, được nhấn bởi một tác nhân'
+      description: 'Một lần nhấn được đáp ứng tại vị trí nó hạ cánh: một làn sóng lan tỏa từ điểm tiếp xúc, trên các nút và mục menu — một thói quen trên di động, và cả trên máy tính để bàn. `data-ripple="off"` trên phần tử giữ cho nó không chuyển động. Một tác nhân chỉ vào một cái gì đó cho người đọc thấy nó (`is-assisted`); một tác nhân nhấn vào nó gửi làn sóng từ giữa, trong sự nhấn mạnh, được làm nổi bật trong khi nó lan tỏa, để người đọc thấy ai đã chạm vào.'
     split:
       title: 'Nút tách'
       description: "Một nút thực hiện một hành động và cung cấp các hành động khác: thân nút thực hiện hành động, mũi tên gắn liền với cuối nút — và chỉ mũi tên — mở menu. `button_menu` được cung cấp một `action` — `{ href }`, hoặc `{ type: 'submit' }` trong một biểu mẫu; phiên bản vue phát ra `action`."
     context:
-      title: "Nhấp chuột phải"
-      description: "Menu mở bằng nhấp chuột phải trên vùng nó bao — hoặc phím menu, hoặc Shift+F10 —, tại vị trí con trỏ: cùng các mục và bảng như menu của nút. Các mục có thể tùy vào thứ được nhấp: tệp bị khóa không xóa được. Giữ Shift, menu của trình duyệt."
+      title: 'Nhấp chuột phải'
+      description: 'Menu mở bằng nhấp chuột phải trên vùng nó bao — hoặc phím menu, hoặc Shift+F10 —, tại vị trí con trỏ: cùng các mục và bảng như menu của nút. Các mục có thể tùy vào thứ được nhấp: tệp bị khóa không xóa được. Giữ Shift, menu của trình duyệt.'
     vue:
       title: Vue
       description: 'Dòng liên kết và dấu phân cách như các phần của vue. Khác với các dòng đọc một tuyến đường, hai cái này nhận biểu tượng và nhãn là tùy chọn, vì vậy không có gì từ máy chủ bị thiếu.'
@@ -1566,6 +1740,12 @@ vi:
       title: 'Một mục có thể là gì'
       description: 'Bốn loại chia sẻ một dòng: một từ và một mục tiêu là một liên kết, một từ và một trạng thái là một công tắc, một từ và các mục con là một nhánh, và một dòng trần là một dấu phân cách. Không có gì tuyên bố loại của nó — nó theo từ những gì mục mang. Một công tắc dành vị trí dẫn đầu của nó cho dấu hiệu của nó, vì vậy một cột của chúng giữ các từ của nó thẳng hàng, và bảng điều khiển vẫn mở ở dưới: một menu lọc được đọc theo nhóm, không phải từng cái một.'
   menu:
+    press:
+      ripple: 'Đáp ứng một lần nhấn'
+      still: 'Giữ nguyên'
+      assisted: 'Được chỉ vào bởi một tác nhân'
+      agent: 'Được nhấn bởi một tác nhân'
+      trigger: 'Nhấn nó như một tác nhân sẽ làm'
     primary: 'Nút menu'
     save: Lưu
     save_vue: 'Lưu, trong vue'
@@ -1606,23 +1786,26 @@ vi:
       docs: 'Tài liệu'
 
 zh:
-  context:
-    menu: "文件操作"
-    open: "打开"
-    rename: "重命名"
-    pinned: "已固定"
-    delete: "删除"
-    hint: "右键点击一个文件。"
   ~extends: '@WexampleSymfonyLoaderBundle.config.design_system.app.index'
   page_title: 菜单
   page_icon: 'ph:bold/list'
+  context:
+    menu: 文件操作
+    open: 打开
+    rename: 重命名
+    pinned: 已固定
+    delete: 删除
+    hint: 右键点击一个文件。
   section:
+    press:
+      title: 被按下、指向、被代理按下
+      description: '按压的反馈会在接触点处产生波动：从触碰的点向外扩散，影响按钮和菜单项——这是一种移动设备的习惯，也适用于桌面设备。元素上的 `data-ripple="off"` 可以保持其静止。指向某个内容的代理会将其勾勒出来（`is-assisted`）；按压它的代理会从中心发出波动，在其扩散时被勾勒出来，以便读者看到谁进行了触碰。'
     split:
       title: 拆分按钮
       description: "一个执行单一操作并提供其他选项的按钮：按钮主体执行该操作，固定在末尾的箭头——只有箭头——打开菜单。`button_menu`给定一个`action`——`{ href }`，或在表单中`{ type: 'submit' }`；vue 的则会发出 `action`。"
     context:
-      title: "右键菜单"
-      description: "在其覆盖的内容上右键（或菜单键、Shift+F10）时，在指针处打开的菜单：与按钮菜单相同的项目和面板。项目可以取决于点击的对象：锁定的文件不能删除。按住 Shift 则显示浏览器自身的菜单。"
+      title: 右键菜单
+      description: '在其覆盖的内容上右键（或菜单键、Shift+F10）时，在指针处打开的菜单：与按钮菜单相同的项目和面板。项目可以取决于点击的对象：锁定的文件不能删除。按住 Shift 则显示浏览器自身的菜单。'
     vue:
       title: Vue
       description: '链接行和分隔符作为 vue 部件。与读取路线的行不同，这两个将其图标和标签作为选项，因此服务器的内容不会缺失。'
@@ -1638,6 +1821,12 @@ zh:
       title: 项的类型
       description: '四种类型共享一行：一个词和一个目标是链接，一个词和一个状态是切换，一个词和子项是分支，而一条光秃秃的线是分隔符。没有任何事物声明其类型 - 它从项所承载的内容中推断出来。切换花费其前导位置在其标记上，因此它们的列保持其词对齐，面板在其下方保持打开：过滤器菜单是以一把为单位读取的，而不是一次一个。'
   menu:
+    press:
+      ripple: 响应按压
+      still: 保持静止
+      assisted: 被代理指向
+      agent: 被代理按下
+      trigger: 像代理一样按下它
     primary: 菜单按钮
     save: 保存
     save_vue: '在 vue 中保存'
