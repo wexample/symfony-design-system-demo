@@ -2,6 +2,7 @@
 
 namespace Wexample\SymfonyDesignSystemDemo\Api\Controller;
 
+use Wexample\SymfonyApi\Api\Attribute\ApiAccess;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyApi\Api\Attribute\QueryOption\LengthQueryOption;
@@ -74,6 +75,9 @@ class DemoMessageController extends AbstractApiController
         );
     }
 
+    // The demo's messages, read by anyone the demo is shown to; writing
+    // them is the application's to restrict.
+    #[ApiAccess(ApiAccess::PUBLIC)]
     #[Route(path: 'list', name: self::ROUTE_LIST, methods: AbstractController::ROUTE_OPTIONS_METHOD_ONLY_GET, options: AbstractController::ROUTE_OPTIONS_ONLY_EXPOSE)]
     #[PageQueryOption]
     #[LengthQueryOption]
