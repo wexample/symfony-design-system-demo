@@ -24,22 +24,25 @@
             title: '@page::section.cover.example_title' | trans,
             subtitle: '@page::section.cover.example_subtitle' | trans,
         }) }}
-        {#- Whom the page is about, astride its foot, its words beside it. -#}
-        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/cover', {
+        {#- Whom the page is about, astride its foot, its words beside it;
+            what the portrait owes whoever made it under the band, at its end. -#}
+        {% embed '@WexampleSymfonyDesignSystemBundle/components/cover/cover.html.twig' with {
             src: path('wexample_design_system_fixtures_picture_svg', { width: 1600, height: 600, hue: 280 }),
             portrait: path('wexample_design_system_fixtures_picture_svg', { width: 400, height: 400, hue: 30 }),
             title: '@page::section.cover.portrait_title' | trans,
             subtitle: '@page::section.cover.portrait_subtitle' | trans,
             height: '14rem',
-        }) }}
-        {#- What the portrait owes whoever made it, under it. -#}
-        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/credit', {
-            label: '@page::section.cover.credit_label' | trans,
-            author: 'Alfred Edward Chalon',
-            license: 'Public domain',
-            source: 'Wikimedia Commons',
-            source_url: 'https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg',
-        }) }}
+        } %}
+            {% block cover_credit %}
+                {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/credit', {
+                    label: '@page::section.cover.credit_label' | trans,
+                    author: 'Alfred Edward Chalon',
+                    license: 'Public domain',
+                    source: 'Wikimedia Commons',
+                    source_url: 'https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg',
+                }) }}
+            {% endblock %}
+        {% endembed %}
         {#- What the page puts there itself — here an animated gradient. -#}
         {% embed '@WexampleSymfonyDesignSystemBundle/components/cover/cover.html.twig' with { title: '@page::section.cover.animated' | trans, height: '14rem' } %}
             {% block cover_media %}<div class="cover--fill media-demo--cover-animation"></div>{% endblock %}
