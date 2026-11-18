@@ -32,6 +32,14 @@
             subtitle: '@page::section.cover.portrait_subtitle' | trans,
             height: '14rem',
         }) }}
+        {#- What the portrait owes whoever made it, under it. -#}
+        {{ component(render_pass, '@WexampleSymfonyDesignSystemBundle/components/credit', {
+            label: '@page::section.cover.credit_label' | trans,
+            author: 'Alfred Edward Chalon',
+            license: 'Public domain',
+            source: 'Wikimedia Commons',
+            source_url: 'https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg',
+        }) }}
         {#- What the page puts there itself — here an animated gradient. -#}
         {% embed '@WexampleSymfonyDesignSystemBundle/components/cover/cover.html.twig' with { title: '@page::section.cover.animated' | trans, height: '14rem' } %}
             {% block cover_media %}<div class="cover--fill media-demo--cover-animation"></div>{% endblock %}
