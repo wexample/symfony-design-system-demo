@@ -78,11 +78,11 @@ class FormFromServerDemoForm extends AbstractForm
                 'help' => 'field.pages.help',
                 'attr' => ['min' => 1, 'max' => 40],
                 // A number, or an expression computing it: the same field;
-                // and bound to a variable by its name, a value of its own
-                // sent beside the field's (`pages__variable`).
+                // and a yes or no of its own, sent beside the field's
+                // (`pages__toggle`).
                 'extensions' => [
                     'expression' => ['language' => 'jinja', 'pattern' => '\\{[{%]'],
-                    'variable' => ['value' => 'pages', 'icon' => 'ph:bold/flask', 'label' => 'Test variable', 'suggestions' => ['pages', 'audience']],
+                    'toggle' => ['value' => true, 'icon' => 'ph:bold/flask', 'label' => 'In the test matrix'],
                 ],
             ])
             // Several values of one kind, an item each: JSON here, as a node's

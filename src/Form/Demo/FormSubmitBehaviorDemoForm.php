@@ -107,11 +107,11 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     'auto_resize' => true,
                     'help' => true,
                     'data' => 'Demo long text for the textarea field.',
-                    // Its earlier versions, the field's footer; bound to a
-                    // variable by its name, sent beside it (`…__variable`).
+                    // Its earlier versions, the field's footer; and a yes or
+                    // no of its own, sent beside it (`…__toggle`).
                     'extensions' => [
                         'versions' => ['url' => $this->urlGenerator->generate('wexample_design_system_generic_form_versions')],
-                        'variable' => ['value' => null, 'label' => 'Variable', 'suggestions' => ['summary', 'notes']],
+                        'toggle' => ['value' => false, 'icon' => 'ph:bold/push-pin', 'label' => 'Pinned'],
                     ],
                     // A limit, for the field to count what is left of it.
                     'constraints' => [new Length(max: 140)],
