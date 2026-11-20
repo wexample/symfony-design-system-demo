@@ -3,7 +3,7 @@
   "description": "Design system showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "keywords": [
     "symfony-ux"
   ],
@@ -23,7 +23,7 @@
     "doctrine/orm": "^3.0",
     "symfony/uid": ">=6.2",
     "wexample/php-pseudocode": ">=3.1.0",
-    "wexample/symfony-api": ">=22.0.0",
+    "wexample/symfony-api": ">=23.0.0",
     "wexample/symfony-check": ">=4.0.4",
     "wexample/symfony-coding": ">=6.0.0",
     "wexample/symfony-design-system": ">=50.0.0",
