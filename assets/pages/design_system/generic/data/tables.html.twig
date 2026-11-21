@@ -1,9 +1,9 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/data/layout/layout-data.html.twig' -%}
 
 {%- block page_body -%}
+        {#- The name leads where the eye leads (`link: 'open'`): the row's action
+            carrying that `rel`, opened the same way. -#}
         {% set actions_columns = [
-            {#- The name leads where the eye leads (`link: 'open'`): the
-                row's action carrying that `rel`, opened the same way. -#}
             { key: 'name', label: '@page::column.actions.name' | trans, link: 'open' },
             { key: 'date', label: '@page::column.actions.date' | trans, secondary: true },
             { key: 'operations', label: '@page::column.actions.operations' | trans, cell: 'actions', class: 'table--cell--fit' },
