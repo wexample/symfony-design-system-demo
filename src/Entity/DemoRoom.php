@@ -26,7 +26,9 @@ use Wexample\SymfonySearch\Attribute\Searchable;
  * and found on every visit after.
  */
 #[ApiEntity]
-#[Searchable(fields: ['name'])]
+// Found everywhere a search answers everything, and by the demo form's
+// field picking a room, which no other kind answers.
+#[Searchable(contexts: ['default', 'header', self::SEARCH_CONTEXT_FORM], fields: ['name'])]
 #[LiveEntity(actions: [LiveTopicAction::EVENT])]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoRoomRepository::class)]
@@ -34,6 +36,9 @@ use Wexample\SymfonySearch\Attribute\Searchable;
 #[ORM\UniqueConstraint(columns: ['name'])]
 class DemoRoom extends AbstractEntity
 {
+    /** Where the demo form's field searches for it: a context it alone answers to. */
+    public const string SEARCH_CONTEXT_FORM = 'demo_form_room';
+
     use HasNameTrait;
 
     public const ID_NAMESPACE = '5b2e7c14-93a6-5d48-8f10-6a4c2e9b7d35';

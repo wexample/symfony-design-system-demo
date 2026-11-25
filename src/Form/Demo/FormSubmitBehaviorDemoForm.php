@@ -8,6 +8,8 @@ use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Validator\Constraints\Length;
 use Wexample\Helpers\Helper\PlaceholderHelper;
+use Wexample\SymfonyDesignSystemDemo\Entity\DemoMessage;
+use Wexample\SymfonyDesignSystemDemo\Entity\DemoRoom;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoCountryInputType;
 use Wexample\SymfonyDesignSystemDemo\Form\Type\Demo\DemoStampsInputType;
 use Wexample\SymfonyDesignSystemDemo\Repository\DemoMessageRepository;
@@ -143,6 +145,7 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     // The rooms of the chat demo, which carry `#[Searchable]`:
                     // the field asks for one of those and never offers a page.
                     EntitySearchInputType::OPTION_ENTITY_TYPE => 'demo_room',
+                    EntitySearchInputType::OPTION_SEARCH_CONTEXT => DemoRoom::SEARCH_CONTEXT_FORM,
                     'placeholder' => true,
                 ]
             )
@@ -158,6 +161,7 @@ class FormSubmitBehaviorDemoForm extends AbstractForm
                     // to pick several: one capsule per record, and the box
                     // gone once the third is in.
                     EntitySearchInputType::OPTION_ENTITY_TYPE => 'demo_message',
+                    EntitySearchInputType::OPTION_SEARCH_CONTEXT => DemoMessage::SEARCH_CONTEXT_FORM,
                     EntitySearchInputType::OPTION_MULTIPLE => true,
                     EntitySearchInputType::OPTION_MAX_VALUES => 3,
                     'placeholder' => true,

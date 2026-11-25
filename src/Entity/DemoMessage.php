@@ -20,12 +20,17 @@ use Wexample\SymfonySearch\Attribute\SearchText;
  * the reader sees is a translation of that type rather than a stored label.
  */
 #[ApiEntity]
-#[Searchable(fields: ['body' => new SearchText(points: 5)])]
+// Found everywhere a search answers everything, and by the demo form's
+// field picking messages, which no other kind answers.
+#[Searchable(contexts: ['default', 'header', self::SEARCH_CONTEXT_FORM], fields: ['body' => new SearchText(points: 5)])]
 #[PseudocodeExport(inherited: true)]
 #[ORM\Entity(repositoryClass: DemoMessageRepository::class)]
 #[ORM\Table(name: 'demo_message')]
 class DemoMessage extends AbstractEntity
 {
+    /** Where the demo form's field searches for it: a context it alone answers to. */
+    public const string SEARCH_CONTEXT_FORM = 'demo_form_message';
+
     use HasBodyTrait;
     use HasDateCreatedTrait;
     use HasTypeTrait;
