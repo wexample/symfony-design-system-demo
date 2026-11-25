@@ -28,12 +28,11 @@ use Wexample\SymfonySearch\Attribute\SearchText;
 #[ORM\Table(name: 'demo_message')]
 class DemoMessage extends AbstractEntity
 {
-    /** Where the demo form's field searches for it: a context it alone answers to. */
-    public const string SEARCH_CONTEXT_FORM = 'demo_form_message';
-
     use HasBodyTrait;
     use HasDateCreatedTrait;
     use HasTypeTrait;
+    /** Where the demo form's field searches for it: a context it alone answers to. */
+    public const string SEARCH_CONTEXT_FORM = 'demo_form_message';
 
     public const TYPE_ASSISTANT = 'assistant';
     public const TYPE_ERROR = 'error';

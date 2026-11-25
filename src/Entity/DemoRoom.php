@@ -36,10 +36,9 @@ use Wexample\SymfonySearch\Attribute\Searchable;
 #[ORM\UniqueConstraint(columns: ['name'])]
 class DemoRoom extends AbstractEntity
 {
+    use HasNameTrait;
     /** Where the demo form's field searches for it: a context it alone answers to. */
     public const string SEARCH_CONTEXT_FORM = 'demo_form_room';
-
-    use HasNameTrait;
 
     public const ID_NAMESPACE = '5b2e7c14-93a6-5d48-8f10-6a4c2e9b7d35';
 
