@@ -1,0 +1,33 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/pages/design_system/generic/controls/layout/layout-controls.html.twig' -%}
+
+{#- A bench for what the user sees of an agent at work in the page: its
+    presence over the window, what it points at, what it presses, what it
+    types. The scenarios drive the page's own agent tools (AgentToolsService),
+    no agent behind them: what is seen is what an agent's turn shows. -#}
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    <h2>{{ '@page::section.presence.title' | trans }}</h2>
+    <p>{{ '@page::section.presence.description' | trans }}</p>
+    <div class="block block--padded cluster">
+        {{ button('ph:bold/play', '@page::action.turn' | trans, { 'data-demo-agent-turn': '' }) }}
+        {{ button('ph:bold/hand', '@page::action.hold' | trans, { 'data-demo-agent-hold': '', 'data-release-label': '@page::action.release' | trans }) }}
+        <span class="text-secondary" data-demo-agent-status
+              data-playing="{{ '@page::status.playing' | trans }}"
+              data-stopped="{{ '@page::status.stopped' | trans }}"
+              data-done="{{ '@page::status.done' | trans }}"></span>
+    </div>
+
+    <h2>{{ '@page::section.targets.title' | trans }}</h2>
+    <p>{{ '@page::section.targets.description' | trans }}</p>
+    <div class="block block--padded stack--vertical" data-demo-agent-targets>
+        <div class="cluster">
+            {{ button('ph:bold/paper-plane-tilt', '@page::target.send' | trans, { 'data-demo-agent-press-target': '' }) }}
+            {{ button('ph:bold/archive', '@page::target.archive' | trans, { 'data-demo-agent-second': '' }) }}
+        </div>
+        <label class="form--group">
+            <span class="form--label">{{ '@page::target.field' | trans }}</span>
+            <input class="form--input" type="text" data-demo-agent-field data-typed="{{ '@page::typed' | trans }}">
+        </label>
+    </div>
+{%- endblock -%}

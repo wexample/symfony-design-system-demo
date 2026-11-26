@@ -1,0 +1,63 @@
+en:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Agent
+  page_icon: ph:bold/sparkle
+
+  intro: "What the user sees of an agent at work in the page: that it is there, what it points at, what it presses, what it types. A bench to tune each by eye — no agent behind it, the page's own agent tools driven by hand."
+
+  section:
+    presence:
+      title: Presence
+      description: "While an agent works — a call to the page running, a chat awaiting its answer — the window says so: a line of the agent's colour along its edges, breathing, and at its foot who is at work and the way to stop it. Stop refuses every call until the user writes again."
+    targets:
+      title: What it acts on
+      description: "A turn points at the first button, presses it, then types in the field — each step at an agent's pace."
+
+  action:
+    turn: Play an agent's turn
+    hold: Hold the presence
+    release: Let it go
+
+  status:
+    playing: An agent's turn is playing…
+    stopped: Stopped by the user.
+    done: The turn is over.
+
+  target:
+    send: Send
+    archive: Archive
+    field: Subject
+  typed: Quarterly report
+
+fr:
+  ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
+
+  page_title: Agent
+  page_icon: ph:bold/sparkle
+
+  intro: "Ce que l'utilisateur voit d'un agent au travail dans la page : qu'il est là, ce qu'il montre, ce qu'il presse, ce qu'il tape. Un banc pour régler chacun à l'œil — aucun agent derrière, les outils d'agent de la page pilotés à la main."
+
+  section:
+    presence:
+      title: Présence
+      description: "Tant qu'un agent travaille — un appel à la page en cours, un chat qui attend sa réponse —, la fenêtre le dit : un liseré de la couleur de l'agent le long de ses bords, qui respire, et à son pied qui travaille et le moyen de l'arrêter. Arrêter refuse tout appel jusqu'à ce que l'utilisateur écrive de nouveau."
+    targets:
+      title: Ce sur quoi il agit
+      description: "Un tour montre le premier bouton, le presse, puis tape dans le champ — chaque étape au rythme d'un agent."
+
+  action:
+    turn: Jouer un tour d'agent
+    hold: Tenir la présence
+    release: La relâcher
+
+  status:
+    playing: Un tour d'agent se joue…
+    stopped: Arrêté par l'utilisateur.
+    done: Le tour est fini.
+
+  target:
+    send: Envoyer
+    archive: Archiver
+    field: Objet
+  typed: Rapport trimestriel
