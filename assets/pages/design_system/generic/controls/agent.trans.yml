@@ -31,6 +31,11 @@ en:
     field: Subject
   typed: Quarterly report
 
+  label:
+    point: Showing Send
+    press: Sending the message
+    type: Typing the subject
+
 fr:
   ~extends: "@WexampleSymfonyLoaderBundle.config.design_system.app.index"
 
@@ -63,3 +68,8 @@ fr:
     archive: Archiver
     field: Objet
   typed: Rapport trimestriel
+
+  label:
+    point: Montre Envoyer
+    press: Envoie le message
+    type: Tape l'objet

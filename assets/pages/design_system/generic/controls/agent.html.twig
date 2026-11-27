@@ -10,7 +10,7 @@
     <h2 data-demo-agent-wander-target>{{ '@page::section.presence.title' | trans }}</h2>
     <p>{{ '@page::section.presence.description' | trans }}</p>
     <div class="block block--padded cluster">
-        {{ button('ph:bold/play', '@page::action.turn' | trans, { 'data-demo-agent-turn': '' }) }}
+        {{ button('ph:bold/play', '@page::action.turn' | trans, { 'data-demo-agent-turn': '', 'data-label-point': '@page::label.point' | trans, 'data-label-press': '@page::label.press' | trans, 'data-label-type': '@page::label.type' | trans }) }}
         {{ button('ph:bold/path', '@page::action.wander' | trans, { 'data-demo-agent-wander': '', 'data-demo-agent-wander-target': '' }) }}
         {{ button('ph:bold/hand', '@page::action.hold' | trans, { 'data-demo-agent-hold': '', 'data-release-label': '@page::action.release' | trans }) }}
         <span class="text-secondary" data-demo-agent-status

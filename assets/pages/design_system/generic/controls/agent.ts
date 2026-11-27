@@ -55,6 +55,7 @@ export default class extends Page {
     const agentTools = this.app.services.agentTools!;
     const target = this.el.querySelector<HTMLElement>('[data-demo-agent-press-target]');
     const field = this.el.querySelector<HTMLInputElement>('[data-demo-agent-field]');
+    const labels = this.el.querySelector<HTMLElement>('[data-demo-agent-turn]')?.dataset ?? {};
 
     this.stopped = false;
     agentTools.resume();
@@ -64,12 +65,15 @@ export default class extends Page {
     const steps: (() => Promise<void> | void)[] = [
       async () => {
         agentTools.pointer.point([target], { caller: 'demo' });
-        await agentTools.cursor.moveTo(target);
+        await agentTools.cursor.moveTo(target, { label: labels.labelPoint });
       },
-      () => rippleAgentPress(this.app, target),
+      () => {
+        agentTools.cursor.say(labels.labelPress ?? null);
+        return rippleAgentPress(this.app, target);
+      },
       async () => {
         agentTools.pointer.point([field], { caller: 'demo' });
-        await agentTools.cursor.moveTo(field);
+        await agentTools.cursor.moveTo(field, { label: labels.labelType });
       },
       async () => {
         if (!field) {
@@ -84,7 +88,10 @@ export default class extends Page {
           await this.wait(KEY_MS);
         }
       },
-      () => agentTools.pointer.point([], { caller: 'demo' }),
+      () => {
+        agentTools.pointer.point([], { caller: 'demo' });
+        agentTools.cursor.say(null);
+      },
     ];
 
     for (const step of steps) {
