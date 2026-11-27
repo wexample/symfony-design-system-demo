@@ -12,10 +12,11 @@ en:
       description: "While an agent works — a call to the page running, a chat awaiting its answer — the window says so: a line of the agent's colour along its edges, breathing, and at its foot who is at work and the way to stop it. Stop refuses every call until the user writes again."
     targets:
       title: What it acts on
-      description: "A turn points at the first button, presses it, then types in the field — each step at an agent's pace."
+      description: "A turn points at the first button, presses it, then types in the field — the agent's hand going to each before it acts, along a curve, at a hand's pace."
 
   action:
     turn: Play an agent's turn
+    wander: Walk the hand around
     hold: Hold the presence
     release: Let it go
 
@@ -44,10 +45,11 @@ fr:
       description: "Tant qu'un agent travaille — un appel à la page en cours, un chat qui attend sa réponse —, la fenêtre le dit : un liseré de la couleur de l'agent le long de ses bords, qui respire, et à son pied qui travaille et le moyen de l'arrêter. Arrêter refuse tout appel jusqu'à ce que l'utilisateur écrive de nouveau."
     targets:
       title: Ce sur quoi il agit
-      description: "Un tour montre le premier bouton, le presse, puis tape dans le champ — chaque étape au rythme d'un agent."
+      description: "Un tour montre le premier bouton, le presse, puis tape dans le champ — la main de l'agent va à chacun avant d'agir, en courbe, au rythme d'une main."
 
   action:
     turn: Jouer un tour d'agent
+    wander: Promener la souris
     hold: Tenir la présence
     release: La relâcher
 

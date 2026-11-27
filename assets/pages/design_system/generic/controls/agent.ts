@@ -46,6 +46,7 @@ export default class extends Page {
     });
 
     this.el.querySelector('[data-demo-agent-turn]')?.addEventListener('click', () => void this.playTurn(status));
+    this.el.querySelector('[data-demo-agent-wander]')?.addEventListener('click', () => void this.wander());
   }
 
   // Points at the first button, presses it, types in the field: each step
@@ -61,9 +62,15 @@ export default class extends Page {
     status.textContent = status.dataset.playing ?? '';
 
     const steps: (() => Promise<void> | void)[] = [
-      () => agentTools.pointer.point([target], { caller: 'demo' }),
+      async () => {
+        agentTools.pointer.point([target], { caller: 'demo' });
+        await agentTools.cursor.moveTo(target);
+      },
       () => rippleAgentPress(this.app, target),
-      () => agentTools.pointer.point([field], { caller: 'demo' }),
+      async () => {
+        agentTools.pointer.point([field], { caller: 'demo' });
+        await agentTools.cursor.moveTo(field);
+      },
       async () => {
         if (!field) {
           return;
@@ -91,6 +98,27 @@ export default class extends Page {
 
     agentTools.presence.release(HOLD_TURN);
     status.textContent = status.dataset.done ?? '';
+  }
+
+  // The hand going from one target to the next, near and far, small and
+  // large: a bench to judge its curves, its pace and its trail by eye.
+  private async wander(): Promise<void> {
+    const agentTools = this.app.services.agentTools!;
+    const targets = [...this.el.querySelectorAll<HTMLElement>('[data-demo-agent-wander-target]')];
+
+    this.stopped = false;
+    agentTools.resume();
+    agentTools.presence.hold(HOLD_TURN);
+
+    for (const target of [...targets, ...targets.slice().reverse()]) {
+      if (this.stopped) {
+        break;
+      }
+      await agentTools.cursor.moveTo(target);
+      await this.wait(260);
+    }
+
+    agentTools.presence.release(HOLD_TURN);
   }
 
   private setLabel(button: HTMLElement, label: string, pressed: boolean = false): void {

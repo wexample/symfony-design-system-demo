@@ -7,10 +7,11 @@
 {%- block page_body -%}
     <p class="lead">{{ '@page::intro' | trans }}</p>
 
-    <h2>{{ '@page::section.presence.title' | trans }}</h2>
+    <h2 data-demo-agent-wander-target>{{ '@page::section.presence.title' | trans }}</h2>
     <p>{{ '@page::section.presence.description' | trans }}</p>
     <div class="block block--padded cluster">
         {{ button('ph:bold/play', '@page::action.turn' | trans, { 'data-demo-agent-turn': '' }) }}
+        {{ button('ph:bold/path', '@page::action.wander' | trans, { 'data-demo-agent-wander': '', 'data-demo-agent-wander-target': '' }) }}
         {{ button('ph:bold/hand', '@page::action.hold' | trans, { 'data-demo-agent-hold': '', 'data-release-label': '@page::action.release' | trans }) }}
         <span class="text-secondary" data-demo-agent-status
               data-playing="{{ '@page::status.playing' | trans }}"
@@ -22,12 +23,12 @@
     <p>{{ '@page::section.targets.description' | trans }}</p>
     <div class="block block--padded stack--vertical" data-demo-agent-targets>
         <div class="cluster">
-            {{ button('ph:bold/paper-plane-tilt', '@page::target.send' | trans, { 'data-demo-agent-press-target': '' }) }}
-            {{ button('ph:bold/archive', '@page::target.archive' | trans, { 'data-demo-agent-second': '' }) }}
+            {{ button('ph:bold/paper-plane-tilt', '@page::target.send' | trans, { 'data-demo-agent-press-target': '', 'data-demo-agent-wander-target': '' }) }}
+            {{ button('ph:bold/archive', '@page::target.archive' | trans, { 'data-demo-agent-wander-target': '' }) }}
         </div>
         <label class="form--group">
             <span class="form--label">{{ '@page::target.field' | trans }}</span>
-            <input class="form--input" type="text" data-demo-agent-field data-typed="{{ '@page::typed' | trans }}">
+            <input class="form--input" type="text" data-demo-agent-field data-demo-agent-wander-target data-typed="{{ '@page::typed' | trans }}">
         </label>
     </div>
 {%- endblock -%}
